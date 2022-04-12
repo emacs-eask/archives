@@ -2,4 +2,7 @@
 [![Linux](./badges/system.svg)](#)
 
 # archives
+
+[![Refresh](https://github.com/emacs-eask/archives/actions/workflows/refresh.yml/badge.svg)](https://github.com/emacs-eask/archives/actions/workflows/refresh.yml)
+
 Backup archives contents
