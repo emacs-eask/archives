@@ -6,5 +6,6 @@
 
 [![Refresh](https://github.com/emacs-eask/archives/actions/workflows/refresh.yml/badge.svg)](https://github.com/emacs-eask/archives/actions/workflows/refresh.yml)
 
-Workflow that will automatically downloads each package archives from their
-location and stores it in here.
+Workflow automatically downloads package archives and stores them here.
+
+NOTE: It will refresh every `1` hour.
