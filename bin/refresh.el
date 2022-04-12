@@ -8,7 +8,7 @@
   (dolist (archive archives)
     (make-directory (expand-file-name archive) t)
     (copy-file (expand-file-name (concat archive "/" file) dir)
-               (expand-file-name "./" archive))))
+               (expand-file-name "./" archive) t)))
 
 ;; Local Variables:
 ;; coding: utf-8
