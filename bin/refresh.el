@@ -2,10 +2,15 @@
 ;;; Commentary:
 ;;; Code:
 
-(load-file "./bin/_prepare.el")
+(defun shell-execute (cmd &rest args)
+  "Return non-nil if CMD executed succesfully with ARGS."
+  (= 0 (shell-command (concat cmd " "
+                              (mapconcat #'shell-quote-argument args " ")))))
 
-
-()
+(shell-execute
+ "mv"
+ (expand-file-name (concat ".eask/" emacs-version "/elpa/archives/"))
+ (expand-file-name "./"))
 
 ;; Local Variables:
 ;; coding: utf-8
