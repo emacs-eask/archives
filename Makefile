@@ -11,5 +11,5 @@ generate_badges_system:
 
 refresh:
 	@echo "Refresh archive-contents"
-	@$(EASK) refresh
+	@$(EASK) refresh --allow-error
 	@$(EASK) load "./bin/refresh.el"
