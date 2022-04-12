@@ -38,15 +38,15 @@ jobs:
       with:
         version: 'snapshot'
 
-    - name: Set git config
-      run: |
-        git config user.name github-actions
-        git config user.email github-actions@github.com
-
     - uses: actions/checkout@v2
 
     - name: Refresh archives
       run: make refresh
+
+    - name: Set git config
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
 
     - name: Push archives-contents
       continue-on-error: true
