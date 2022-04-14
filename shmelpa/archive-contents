@@ -3345,13 +3345,16 @@
 		     (:maintainer "Yauhen Makei" . "yauhen.makei@gmail.com")
 		     (:url . "http://bitbucket.org/EugeneMakei/belarus-holidays.el"))])
  (benchmark-init .
-		 [(0 1 0 1 -4 20150905 938)
-		  nil "Benchmarks Emacs require and load calls" tar
-		  ((:commit . "7a0f263282bbc86b01b662636306f22813082647")
+		 [(1 0 0 1 -4 20220414 1612)
+		  ((emacs
+		    (24 3)))
+		  "Benchmarks for require and load calls" tar
+		  ((:commit . "02435560415bbadbcf5051fb7042880549170e7e")
 		   (:authors
 		    ("Steve Purcell"))
 		   (:maintainer "David Holm" . "dholmster@gmail.com")
-		   (:keywords "benchmark"))])
+		   (:keywords "convenience" "benchmark")
+		   (:url . "https://github.com/dholm/benchmark-init-el"))])
  (benchstat .
 	    [(1 0 1 1 -4 20171014 312)
 	     nil "proper benchmarking made simple" single
@@ -6301,7 +6304,7 @@
 		     (:maintainer "Max Penet" . "m@qbits.cc")
 		     (:keywords "snippets"))])
  (clomacs .
-	  [(0 0 5 1 -4 20220414 1327)
+	  [(0 0 5 1 -4 20220414 1743)
 	   ((emacs
 	     (24 3))
 	    (cider
@@ -6313,7 +6316,7 @@
 	    (dash
 	     (2 19 1)))
 	   "Simplifies Emacs Lisp interaction with Clojure." single
-	   ((:commit . "331339b06335a0592a39b842a3ab7d8dbed84b7a")
+	   ((:commit . "61171c7a7c9f83fd495a6db57b63d3164dea96b6")
 	    (:authors
 	     ("Kostafey" . "kostafey@gmail.com"))
 	    (:maintainer "Kostafey" . "kostafey@gmail.com")
@@ -9655,7 +9658,7 @@
 	     (ht
 	      (2 3)))
 	    "Debug Adapter Protocol mode" tar
-	    ((:commit . "f918c0580bd17105cbe50aa701a2375abca5a6ab")
+	    ((:commit . "320d63d68da5cfa5c2f9628e99713db1511f7aa5")
 	     (:authors
 	      ("Ivan Yonchovski" . "yyoncho@gmail.com"))
 	     (:maintainer "Ivan Yonchovski" . "yyoncho@gmail.com")
@@ -12135,7 +12138,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "a27ffbdbd6153db839fdb01495753f2556759640")
+	((:commit . "54c701959810af9074fd310d8fba077cb328b524")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -13040,7 +13043,7 @@
 	 (:maintainer "C\303\251dric Marie" . "cedric@hjuvi.fr.eu.org")
 	 (:url . "https://forge.chapril.org/hjuvi/eide"))])
  (ein .
-      [(0 17 0 1 -4 20220324 204)
+      [(0 17 0 1 -4 20220414 1910)
        ((emacs
 	 (25))
 	(websocket
@@ -13058,7 +13061,7 @@
 	(with-editor
 	 (0 -1)))
        "Emacs IPython Notebook" tar
-       ((:commit . "e04e1e19c63667e6847ae6341ab7fc7488f5eb8c")
+       ((:commit . "ca440a37f0430357aa48d7e476dac9256281370e")
 	(:keywords "jupyter" "literate programming" "reproducible research")
 	(:url . "https://github.com/dickmao/emacs-ipython-notebook"))])
  (eink-theme .
@@ -13374,11 +13377,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 0 1 -4 20220313 1510)
+	[(1 0 1 -4 20220414 1724)
 	 ((emacs
 	   (24 4)))
 	 "Elisp Development Tool" tar
-	 ((:commit . "bdc729893ccfc52b2b7369624111cc175e4ce0b9")
+	 ((:commit . "ed6ade7cd938a1804584211ced62d84d3a08b27f")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
@@ -16060,7 +16063,7 @@
 			 (:keywords "colemak" "evil")
 			 (:url . "https://github.com/bmallred/evil-colemak-minimal"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20220414 1505)
+		  [(0 4 1 1 -4 20220414 1516)
 		   ((emacs
 		     (25 1))
 		    (evil
@@ -16068,7 +16071,7 @@
 		    (annalist
 		     (1 0)))
 		   "A set of keybindings for Evil mode" tar
-		   ((:commit . "4edcbf4cc232d4c5e9f044bff6fa1b0813b116ce")
+		   ((:commit . "17d24aa240c8a64b54f456b8cad2dcef7a314b75")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainer "James Nguyen" . "james@jojojames.com")
@@ -20925,7 +20928,7 @@
 		  (:keywords "lisp")
 		  (:url . "http://nschum.de/src/emacs/fringe-helper/"))])
  (frog-jump-buffer .
-		   [(0 1 5 1 -4 20220129 539)
+		   [(0 1 5 1 -4 20220414 1935)
 		    ((emacs
 		      (24))
 		     (avy
@@ -20935,7 +20938,7 @@
 		     (frog-menu
 		      (0 2 8)))
 		    "The fastest buffer-jumping Emacs lisp package around." single
-		    ((:commit . "d82cc1a449d368f5a3dac61695400926da222a84")
+		    ((:commit . "ff0cfe9cb4a60d855f0754b741a9417ee413dee0")
 		     (:authors
 		      ("Justin Talbott"))
 		     (:maintainer "Justin Talbott")
