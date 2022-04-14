@@ -5619,7 +5619,7 @@
 		(:keywords "tools" "convenience")
 		(:url . "https://github.com/marcelotoledo/chronometer"))])
  (chronometrist .
-		[(0 10 0 1 -4 20220401 1453)
+		[(0 10 0 1 -4 20220414 726)
 		 ((emacs
 		   (27 1))
 		  (dash
@@ -5629,7 +5629,7 @@
 		  (ts
 		   (0 2)))
 		 "Friendly and powerful personal time tracker and analyzer" tar
-		 ((:commit . "059579e841148362d5081a43dcb27c8a3c7751ea")
+		 ((:commit . "88aa54c08224bb8b8987dd2024052a25b275dab8")
 		  (:authors
 		   ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 		  (:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -5651,11 +5651,11 @@
 		       (:keywords "calendar")
 		       (:url . "https://tildegit.org/contrapunctus/chronometrist-goal"))])
  (chronometrist-key-values .
-			   [(0 1 0 1 -4 20220401 1453)
+			   [(0 1 0 1 -4 20220414 726)
 			    ((chronometrist
 			      (0 7 0)))
 			    "add key-values to Chronometrist data" tar
-			    ((:commit . "059579e841148362d5081a43dcb27c8a3c7751ea")
+			    ((:commit . "88aa54c08224bb8b8987dd2024052a25b275dab8")
 			     (:authors
 			      ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 			     (:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -5670,7 +5670,7 @@
 			(spark
 			 (0 1)))
 		       "Show sparklines in Chronometrist buffers" tar
-		       ((:commit . "059579e841148362d5081a43dcb27c8a3c7751ea")
+		       ((:commit . "88aa54c08224bb8b8987dd2024052a25b275dab8")
 			(:authors
 			 ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 			(:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -5871,11 +5871,9 @@
 		 (:maintainer "Robin Schroer")
 		 (:url . "https://github.com/sulami/circleci-api"))])
  (citar .
-	[(0 9 1 -4 20220411 146)
+	[(0 9 1 -4 20220414 941)
 	 ((emacs
 	   (27 1))
-	  (s
-	   (1 12))
 	  (parsebib
 	   (3 0))
 	  (org
@@ -5883,7 +5881,7 @@
 	  (citeproc
 	   (0 9)))
 	 "Citation-related commands for org, latex, markdown" tar
-	 ((:commit . "c94799e9f33e0645b5ac8696e19bdc9328d7cb7e")
+	 ((:commit . "2cf72bfe8b0d0392f4f2fbc3b1e800e2b5ae5639")
 	  (:authors
 	   ("Bruce D'Arcus <https://github.com/bdarcus>"))
 	  (:maintainer "Bruce D'Arcus <https://github.com/bdarcus>")
@@ -8292,7 +8290,7 @@
 			  (:keywords "convenience" "project" "management")
 			  (:url . "https://github.com/Qkessler/consult-project-extra"))])
  (consult-projectile .
-		     [(0 5 1 -4 20220310 1840)
+		     [(0 6 1 -4 20220414 738)
 		      ((emacs
 			(25 1))
 		       (consult
@@ -8300,7 +8298,7 @@
 		       (projectile
 			(2 5 0)))
 		      "Consult integration for projectile" single
-		      ((:commit . "df85d0f83c323f4672221c9e78d84027bcb9d96f")
+		      ((:commit . "f510a5ca83cc8a42a2038ae15e998ca1c4f2f575")
 		       (:authors
 			("Marco Paw\305\202owski"))
 		       (:maintainer "Marco Paw\305\202owski")
@@ -10141,7 +10139,7 @@
      (:keywords "deferred" "async")
      (:url . "https://github.com/kiwanami/emacs-deferred"))])
  (define-it .
-   [(0 2 4 1 -4 20211216 719)
+   [(0 2 4 1 -4 20220414 932)
     ((emacs
       (25 1))
      (s
@@ -10152,12 +10150,14 @@
       (0 5 3))
      (pos-tip
       (0 4 6))
+     (posframe
+      (1 1 7))
      (google-translate
       (0 11 18))
      (wiki-summary
       (0 1)))
     "Define, translate, wiki the word" single
-    ((:commit . "63095df0b1b55207a6b51b745ca00bb152dbedf6")
+    ((:commit . "5b2f7078d3f38c330b322e7973003dc685b09abf")
      (:authors
       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -15939,7 +15939,7 @@
 		       ((emacs
 			 (25 1)))
 		       "The *scratch* that lasts forever" single
-		       ((:commit . "b3f8339f9564a1926bd8b71c163fa7660cc3b1f4")
+		       ((:commit . "1736dd4f765489a167cabb7f854037a9b289ff68")
 			(:authors
 			 ("Huming Chen" . "chenhuming@gmail.com"))
 			(:maintainer "Huming Chen" . "chenhuming@gmail.com")
@@ -35989,11 +35989,11 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(2 3 2 1 -4 20220413 1844)
+	       [(2 3 2 1 -4 20220414 922)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "dd2b51a76f7177224202b68efdd1bec6fdc65553")
+		((:commit . "15fe9503c3ac5bd41b840c6799bfc9e37db0ae74")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
@@ -46732,7 +46732,7 @@
 	      (:keywords "data" "games" "chess")
 	      (:url . "https://github.com/dwcoates/pygn-mode"))])
  (pyim .
-       [(4 1 0 1 -4 20220411 238)
+       [(4 1 1 1 -4 20220414 757)
 	((emacs
 	  (25 1))
 	 (async
@@ -46740,7 +46740,7 @@
 	 (xr
 	  (1 13)))
 	"A Chinese input method support quanpin, shuangpin, wubi, cangjie and rime." tar
-	((:commit . "01d6c038b87ddf61cb60e77e7b43e398b9f780b5")
+	((:commit . "b3de11c39318c821d1febe4946b63ea1ed7b060b")
 	 (:authors
 	  ("Ye Wenbin" . "wenbinye@163.com")
 	  ("Feng Shu" . "tumashu@163.com"))
@@ -46827,7 +46827,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "01676aea6042da07bf52a35b5bf82cc55865d13a")
+	  ((:commit . "811b35d0a384423d9efba3594a5ff851789ac7b2")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -52821,7 +52821,7 @@
 		 (:keywords "comms")
 		 (:url . "https://github.com/hagleitn/stock-ticker"))])
  (stock-tracker .
-		[(0 1 2 1 -4 20220414 529)
+		[(0 1 2 1 -4 20220414 1017)
 		 ((emacs
 		   (27 1))
 		  (dash
@@ -52829,7 +52829,7 @@
 		  (async
 		   (1 9 5)))
 		 "Track stock price" single
-		 ((:commit . "0871a05b0658da6fc201ae2b05b9a31236db498a")
+		 ((:commit . "1e07a5ceb068ba6b3f22b13ad60617c558e8d7c9")
 		  (:authors
 		   ("Huming Chen" . "chenhuming@gmail.com"))
 		  (:maintainer "Huming Chen" . "chenhuming@gmail.com")
@@ -54581,7 +54581,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "38a8114aff7c41c161c9ca23a4d01be3708c423b")
+	  ((:commit . "4a16e351ca19b6559f98a9b127705e66ad0f1b94")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -57309,21 +57309,21 @@
 	   (:maintainer "Daniel Brockman" . "daniel@brockman.se")
 	   (:url . "http://www.brockman.se/software/volume-el/"))])
  (vs-dark-theme .
-		[(1 0 1 -4 20220319 1730)
+		[(1 0 1 -4 20220414 930)
 		 ((emacs
 		   (24 1)))
 		 "Visual Studio IDE dark theme" single
-		 ((:commit . "7389cb19e2d32435c6d19a67a851335a51490920")
+		 ((:commit . "5cf8f1942e50bf2fa00cdcbd822c88863ed845ee")
 		  (:authors
 		   ("Jen-Chieh Shen"))
 		  (:maintainer "Jen-Chieh Shen")
 		  (:url . "https://github.com/emacs-vs/vs-dark-theme"))])
  (vs-light-theme .
-		 [(1 0 1 -4 20220319 1729)
+		 [(1 0 1 -4 20220414 931)
 		  ((emacs
 		    (24 1)))
 		  "Visual Studio IDE light theme" single
-		  ((:commit . "05e80702e57a192be0bdc9f6271f0c4abbd17c29")
+		  ((:commit . "50791c8b4f02f08738d38481e9c726ab350c984b")
 		   (:authors
 		    ("Jen-Chieh Shen"))
 		   (:maintainer "Jen-Chieh Shen")
@@ -57358,11 +57358,11 @@
 		(:keywords "files" "tools")
 		(:url . "https://github.com/jojojames/vscode-icon-emacs"))])
  (vterm .
-	[(0 0 1 1 -4 20220414 652)
+	[(0 0 1 1 -4 20220412 1140)
 	 ((emacs
 	   (25 1)))
 	 "Fully-featured terminal emulator" tar
-	 ((:commit . "9a6dbeb383332394adfea3d76fb19ebf1e69f541")
+	 ((:commit . "a2f2286c40725244257f46d3a27a730e73f9f596")
 	  (:authors
 	   ("Lukas F\303\274rmetz" . "fuermetz@mailbox.org"))
 	  (:maintainer "Lukas F\303\274rmetz" . "fuermetz@mailbox.org")
