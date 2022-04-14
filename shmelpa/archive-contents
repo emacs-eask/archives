@@ -14389,18 +14389,18 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 16 1 -4 20220411 2055)
+	 [(0 16 1 -4 20220413 2146)
 	  ((emacs
 	    (26 1)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "67ef67885a2a51c3171b5e47dbb7d9a8d2aab1db")
+	  ((:commit . "ab778510d5db9935a2d436b13d98c47b824172ee")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
 	   (:keywords "convenience")
 	   (:url . "https://github.com/oantolin/embark"))])
  (embark-consult .
-		 [(0 5 1 -4 20220406 1246)
+		 [(0 5 1 -4 20220413 1944)
 		  ((emacs
 		    (26 1))
 		   (embark
@@ -14408,7 +14408,7 @@
 		   (consult
 		    (0 10)))
 		  "Consult integration for Embark" single
-		  ((:commit . "67ef67885a2a51c3171b5e47dbb7d9a8d2aab1db")
+		  ((:commit . "ab778510d5db9935a2d436b13d98c47b824172ee")
 		   (:authors
 		    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -15946,7 +15946,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 14 0 1 -4 20220413 1112)
+       [(1 14 0 1 -4 20220413 2212)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -15954,7 +15954,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "7e87b82660668cb10f1f9838ddd622abab1f7a62")
+	((:commit . "05714e8daacadb7603a05ffe81d1fbda7439a748")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulation" "vim")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -16757,7 +16757,7 @@
 		     ((evil
 		       (1 14 0)))
 		     "unit test helpers for Evil" single
-		     ((:commit . "7e87b82660668cb10f1f9838ddd622abab1f7a62")
+		     ((:commit . "05714e8daacadb7603a05ffe81d1fbda7439a748")
 		      (:authors
 		       ("Vegard \303\230ye <vegard_oye at hotmail.com>"))
 		      (:maintainer "Vegard \303\230ye <vegard_oye at hotmail.com>"))])
@@ -20000,13 +20000,13 @@
 		   (:keywords "languages" "ktlint")
 		   (:url . "https://github.com/jojojames/flymake-ktlint"))])
  (flymake-languagetool .
-		       [(0 2 0 1 -4 20211227 1908)
+		       [(0 2 0 1 -4 20220413 1944)
 			((emacs
 			  (27 1))
 			 (s
 			  (1 9 0)))
 			"Flymake support for LanguageTool" single
-			((:commit . "da589e0533d95ff27fb64865d74ada6cb35296a0")
+			((:commit . "22ad2e53468d6811263faa07e1c055c524f3366c")
 			 (:url . "https://github.com/emacs-languagetool/flymake-languagetool"))])
  (flymake-less .
 	       [(0 1 0 1 -4 20151111 738)
@@ -31752,7 +31752,7 @@
      ((seq
        (2 20)))
      "Compact syntax for short lambda" single
-     ((:commit . "4cad5aef534c8a731b852ed6fe04654e233114f0")
+     ((:commit . "6a3e0b9709b2b386ac83f1dd05e54ad2a1ae11e3")
       (:keywords "extensions")
       (:url . "https://git.sr.ht/~tarsius/l"))])
  (laas .
@@ -32538,7 +32538,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "905ee990d3df5963d6daf4242aa77404d7f9306c")
+	     ((:commit . "0f5db066c87fe91c1f269cf6b92653f3230c44a1")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
@@ -40300,7 +40300,7 @@
 	     (dash
 	      (2 14 1)))
 	    "Syncing between Jira and Org-mode." tar
-	    ((:commit . "4e0c8c69691c3589ced8ab6866416699ef10722d")
+	    ((:commit . "502de6d31d0b2fd8480787461b7167d5dd3b088a")
 	     (:maintainer "Matthew Carter" . "m@ahungry.com")
 	     (:keywords "ahungry" "jira" "org" "bug" "tracker")
 	     (:url . "https://github.com/ahungry/org-jira"))])
@@ -40512,11 +40512,11 @@
 		    (:keywords "org-mode" "org" "mobile" "sync" "todo")
 		    (:url . "https://framagit.org/steckerhalter/org-mobile-sync"))])
  (org-modern .
-	     [(0 3 1 -4 20220409 1320)
+	     [(0 3 1 -4 20220413 2110)
 	      ((emacs
 		(27 1)))
 	      "Modern looks for Org" single
-	      ((:commit . "2e851d3742b4c0f436f21314657cf8d1d999698e")
+	      ((:commit . "8cd0d0653a962e1f9e99e9c8dc126d8615f132f0")
 	       (:authors
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
 	       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -46827,7 +46827,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "00321dc4fe3af28541cd24bf8dd3017f7b074dbc")
+	  ((:commit . "01676aea6042da07bf52a35b5bf82cc55865d13a")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -49502,7 +49502,7 @@
  (scad-mode .
 	    [(92 0 1 -4 20200830 301)
 	     nil "A major mode for editing OpenSCAD code" single
-	     ((:commit . "1f3872f8056b22e1a6e18bd33dceb53178eec389")
+	     ((:commit . "e62afcf5d524638aaf5014fbd32ff8ddeac9e29d")
 	      (:authors
 	       ("Len Trigg, \305\201ukasz Stelmach"))
 	      (:maintainer "Len Trigg" . "lenbok@gmail.com")
@@ -54055,11 +54055,11 @@
 		 (:keywords "comm" "help" "hypermedia")
 		 (:url . "https://github.com/lassik/emacs-teletext-yle"))])
  (tempel .
-	 [(0 3 1 -4 20220411 1940)
+	 [(0 3 1 -4 20220413 2112)
 	  ((emacs
 	    (27 1)))
 	  "Tempo templates/snippets with in-buffer field editing" single
-	  ((:commit . "85364d79fe240d43d234086fae75d0478eca75ed")
+	  ((:commit . "d915e56b3c5cee3388a9e60334447a1b2ab3e2d4")
 	   (:authors
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	   (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -54581,7 +54581,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "84f21c480352c52aaa47d621f25bf867d2031ce8")
+	  ((:commit . "2c3e4b23d8915bf17f5a9a43b08c53c433402a1a")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -55222,11 +55222,11 @@
 		(:keywords "comm" "convenience" "files")
 		(:url . "https://gitlab.com/tuedachu/transfer-sh.el"))])
  (transient .
-	    [(0 3 7 -4 20220412 1523)
+	    [(0 3 7 -4 20220413 2332)
 	     ((emacs
 	       (25 1)))
 	     "Transient commands" tar
-	     ((:commit . "c088aaccbb4942d8770c89f15a43b52243be9e97")
+	     ((:commit . "19cf9bef5d5c70fdd636ea021a0d26f0104a473d")
 	      (:authors
 	       ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	      (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
