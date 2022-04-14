@@ -2751,7 +2751,7 @@
 		       (avy
 			(0 5)))
 		      "Use avy to jump to Embark Collect entries" single
-		      ((:commit . "ab778510d5db9935a2d436b13d98c47b824172ee")
+		      ((:commit . "c4889163c8aa4f96af520cefa81d60f7f0048626")
 		       (:authors
 			("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		       (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -4039,7 +4039,7 @@
 	"Ergonomic Command Mode for Emacs." tar
 	((:commit . "654fb8051a5c00dd524710fbf917b00f6afc8844"))])
  (borg .
-       [(3 3 1 -4 20220406 1207)
+       [(3 3 1 -4 20220412 1439)
 	((emacs
 	  (26))
 	 (epkg
@@ -4047,7 +4047,7 @@
 	 (magit
 	  (3 3 0)))
 	"assimilate Emacs packages as Git submodules" tar
-	((:commit . "b4c9081c8c697fdc2fa71cb07adc2f77dc3c27dd")
+	((:commit . "c79ad66ba061bbe295943328425744616170f8af")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -6301,7 +6301,7 @@
 		     (:maintainer "Max Penet" . "m@qbits.cc")
 		     (:keywords "snippets"))])
  (clomacs .
-	  [(0 0 5 1 -4 20201224 1358)
+	  [(0 0 5 1 -4 20220414 1327)
 	   ((emacs
 	     (24 3))
 	    (cider
@@ -6309,9 +6309,11 @@
 	    (s
 	     (1 12 0))
 	    (simple-httpd
-	     (1 4 6)))
+	     (1 4 6))
+	    (dash
+	     (2 19 1)))
 	   "Simplifies Emacs Lisp interaction with Clojure." single
-	   ((:commit . "ffcb122194507593815d67b26f5d2d8ffcc52bf8")
+	   ((:commit . "331339b06335a0592a39b842a3ab7d8dbed84b7a")
 	    (:authors
 	     ("Kostafey" . "kostafey@gmail.com"))
 	    (:maintainer "Kostafey" . "kostafey@gmail.com")
@@ -6404,7 +6406,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "efcf3a46f786c665ed2bc0923f344e4d03af51fa"))])
+	      ((:commit . "dd193fa3d357b7f1c2495348d58b85bb597844c5"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -8131,11 +8133,11 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 16 1 -4 20220412 1243)
+	  [(0 16 1 -4 20220414 1354)
 	   ((emacs
 	     (27 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "af452dc5d429e15fb1228dd6967d592f1c483640")
+	   ((:commit . "27d8c1d30a55844cbd8f0f0ad250658412e6d613")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -13068,7 +13070,7 @@
 	       (:maintainer "Marian Schubert" . "marian.schubert@gmail.com")
 	       (:url . "http://github.com/maio/eink-emacs"))])
  (ejc-sql .
-	  [(0 4 1 1 -4 20211119 1910)
+	  [(0 4 1 1 -4 20220414 1329)
 	   ((emacs
 	     (26 3))
 	    (clomacs
@@ -13080,7 +13082,7 @@
 	    (direx
 	     (1 0 0)))
 	   "Emacs SQL client uses Clojure JDBC." tar
-	   ((:commit . "b8d534cec8f75dc95961dca72e39a096c5eea980")
+	   ((:commit . "5c6341c751da9c7dbed43eafc8e99f456c1de0d2")
 	    (:authors
 	     ("Kostafey" . "kostafey@gmail.com"))
 	    (:maintainer "Kostafey" . "kostafey@gmail.com")
@@ -14389,11 +14391,11 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 16 1 -4 20220413 2146)
+	 [(0 16 1 -4 20220414 1430)
 	  ((emacs
 	    (26 1)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "ab778510d5db9935a2d436b13d98c47b824172ee")
+	  ((:commit . "c4889163c8aa4f96af520cefa81d60f7f0048626")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -14408,7 +14410,7 @@
 		   (consult
 		    (0 10)))
 		  "Consult integration for Embark" single
-		  ((:commit . "ab778510d5db9935a2d436b13d98c47b824172ee")
+		  ((:commit . "c4889163c8aa4f96af520cefa81d60f7f0048626")
 		   (:authors
 		    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -15167,7 +15169,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "ca880f9bdde00289e3e8563712a84d164abf7654")
+	  ((:commit . "41f5ee8cf217d10bd3a736a948d5335f591a2b85")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -16058,7 +16060,7 @@
 			 (:keywords "colemak" "evil")
 			 (:url . "https://github.com/bmallred/evil-colemak-minimal"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20220414 351)
+		  [(0 4 1 1 -4 20220414 1505)
 		   ((emacs
 		     (25 1))
 		    (evil
@@ -16066,7 +16068,7 @@
 		    (annalist
 		     (1 0)))
 		   "A set of keybindings for Evil mode" tar
-		   ((:commit . "b1c37b8ad06eeec21d05e7201fa56f946bc361bf")
+		   ((:commit . "4edcbf4cc232d4c5e9f044bff6fa1b0813b116ce")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainer "James Nguyen" . "james@jojojames.com")
@@ -16384,13 +16386,13 @@
 		      (:keywords "convenience")
 		      (:url . "http://github.com/redguardtoo/evil-mark-replace"))])
  (evil-matchit .
-	       [(2 4 3 1 -4 20220404 221)
+	       [(2 4 4 1 -4 20220414 1316)
 		((evil
 		  (1 14 0))
 		 (emacs
 		  (25 1)))
 		"Vim matchit ported to Evil" tar
-		((:commit . "1884276feca8bd927a371760673b0f99d734e1c5")
+		((:commit . "b314e816bacfc01bb7df9b19a06b18638af5cdbe")
 		 (:authors
 		  ("Chen Bin" . "chenbin.sh@gmail.com"))
 		 (:maintainer "Chen Bin" . "chenbin.sh@gmail.com")
@@ -16460,11 +16462,11 @@
 		   (:keywords "multiple cursors" "editing" "iedit")
 		   (:url . "https://github.com/hlissner/evil-multiedit"))])
  (evil-nerd-commenter .
-		      [(3 5 7 1 -4 20220404 301)
+		      [(3 5 7 1 -4 20220414 1201)
 		       ((emacs
 			 (25 1)))
 		       "Comment/uncomment lines efficiently. Like Nerd Commenter in Vim" tar
-		       ((:commit . "29ced6fda6a76771a8a054ef55c13a1330793d4d")
+		       ((:commit . "95ed1ad2448e7f49f1ee417061b61edbb69a0749")
 			(:authors
 			 ("Chen Bin" . "chenbin.sh@gmail.com"))
 			(:maintainer "Chen Bin" . "chenbin.sh@gmail.com")
@@ -19476,13 +19478,13 @@
 		  (:maintainer "Vyacheslav Linnik" . "vyacheslav.linnik@gmail.com")
 		  (:url . "https://github.com/linnik/flycheck-pyre"))])
  (flycheck-raku .
-		[(0 6 1 -4 20210814 903)
+		[(0 7 1 -4 20220414 1125)
 		 ((emacs
 		   (26 3))
 		  (flycheck
 		   (0 22)))
 		 "Raku support in Flycheck" single
-		 ((:commit . "50ac228e658a7f86efc298ee3ebd0b9706f083d0")
+		 ((:commit . "d141782cf1c7936b2bbe027f82ec1c9887c08be3")
 		  (:authors
 		   ("Hinrik \303\226rn Sigur\303\260sson" . "hinrik.sig@gmail.com")
 		   ("Johnathon Weare" . "jrweare@gmail.com")
@@ -32538,7 +32540,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "0f5db066c87fe91c1f269cf6b92653f3230c44a1")
+	     ((:commit . "7e75f86e32398636a7cefa88a8713456a6b5f612")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
@@ -33550,7 +33552,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20220412 1914)
+	   [(8 0 1 1 -4 20220414 1423)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -33566,7 +33568,7 @@
 	     (lv
 	      (0)))
 	    "LSP mode" tar
-	    ((:commit . "d1be7c90e0c6bf6c810e19a12b6a6e76568f0456")
+	    ((:commit . "3ec693412e8d9706be04993816ef34dc62050d51")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -35222,7 +35224,7 @@
 	  ((emacs
 	    (25 1)))
 	  "Mode for Merlin, an assistant for OCaml" tar
-	  ((:commit . "4b8acadcfc4d703d3afe7c6d16477567cfa15442")
+	  ((:commit . "0fb973c5490216b1cfa364bbbe9da60f572d43c2")
 	   (:authors
 	    ("Fr\303\251d\303\251ric Bour <frederic.bour(_)lakaban.net>"))
 	   (:maintainer "Fr\303\251d\303\251ric Bour <frederic.bour(_)lakaban.net>")
@@ -35237,7 +35239,7 @@
 	      (auto-complete
 	       (1 5)))
 	     "Merlin and auto-complete integration." single
-	     ((:commit . "4b8acadcfc4d703d3afe7c6d16477567cfa15442")
+	     ((:commit . "0fb973c5490216b1cfa364bbbe9da60f572d43c2")
 	      (:authors
 	       ("Simon Castellan <simon.castellan(_)iuwt.fr>")
 	       ("Fr\303\251d\303\251ric Bour <frederic.bour(_)lakaban.net>")
@@ -35254,7 +35256,7 @@
 		   (company
 		    (0 9)))
 		  "Merlin and company mode integration." single
-		  ((:commit . "4b8acadcfc4d703d3afe7c6d16477567cfa15442")
+		  ((:commit . "0fb973c5490216b1cfa364bbbe9da60f572d43c2")
 		   (:authors
 		    ("Simon Castellan <simon.castellan(_)iuwt.fr>")
 		    ("Fr\303\251d\303\251ric Bour <frederic.bour(_)lakaban.net>")
@@ -35284,7 +35286,7 @@
 		 (iedit
 		  (0 9)))
 		"Merlin and iedit integration." single
-		((:commit . "4b8acadcfc4d703d3afe7c6d16477567cfa15442")
+		((:commit . "0fb973c5490216b1cfa364bbbe9da60f572d43c2")
 		 (:authors
 		  ("Simon Castellan <simon.castellan(_)iuwt.fr>")
 		  ("Fr\303\251d\303\251ric Bour <frederic.bour(_)lakaban.net>")
@@ -41754,7 +41756,7 @@
 		      (:keywords "notification" "alert" "org" "org-agenda" "agenda")
 		      (:url . "https://github.com/akhramov/org-wild-notifier.el"))])
  (org-working-set .
-		  [(2 6 2 1 -4 20220407 1708)
+		  [(2 6 5 1 -4 20220414 1402)
 		   ((org
 		     (9 3))
 		    (dash
@@ -41764,7 +41766,7 @@
 		    (emacs
 		     (26 3)))
 		   "Manage and visit a small set of org-nodes." single
-		   ((:commit . "d5375818919f21910a97c4617b2a316c40272fb9")
+		   ((:commit . "6af54ed3a5d9bf90629223157803c42f5d3b152c")
 		    (:authors
 		     ("Marc Ihm" . "1@2484.de"))
 		    (:maintainer "Marc Ihm" . "1@2484.de")
@@ -42539,7 +42541,7 @@
 	    (org
 	     (9 0)))
 	   "Hugo Markdown Back-End for Org Export Engine" tar
-	   ((:commit . "d3d4c57444f03898e78d2ae11e97fdb94a4655c5")
+	   ((:commit . "1a1f3474e929cb01b97a04926375e98afc3ada57")
 	    (:keywords "org" "markdown" "docs")
 	    (:url . "https://ox-hugo.scripter.co"))])
  (ox-impress-js .
