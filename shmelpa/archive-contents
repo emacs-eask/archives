@@ -8136,11 +8136,11 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 16 1 -4 20220414 1354)
+	  [(0 16 1 -4 20220415 1647)
 	   ((emacs
 	     (27 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "32a33c3bdf788b53f2ef0af65c4681b653e44515")
+	   ((:commit . "b670d9a6d5c2a8062391bd5b972172061b65d8f6")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -9235,9 +9235,9 @@
 	     (:maintainer "Charanjit Singh" . "ckhabra@gmail.com")
 	     (:url . "https://github.com/channikhabra/css-comb.el"))])
  (css-eldoc .
-	    [(0 1 0 1 -4 20150125 323)
+	    [(0 1 0 1 -4 20220415 1629)
 	     nil "an eldoc-mode plugin for CSS source code" tar
-	     ((:commit . "c558ac4c470742c98a37290e6b409db28183df30")
+	     ((:commit . "73ebf9757a043b56b7d3b5befec5a38e6754b9e5")
 	      (:authors
 	       ("Zeno Zeng" . "zenoes@qq.com"))
 	      (:maintainer "Zeno Zeng" . "zenoes@qq.com"))])
@@ -9539,7 +9539,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "f212c3e41b3e7a670e2e5465bc60b8be390ff7af"))])
+	       ((:commit . "57582f6277bf1cad730cd3050f4c8f5a77fb1cf1"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -12138,7 +12138,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "2b84e7523c13843a7c57965f33266e01b1697899")
+	((:commit . "9bf3da86f1de33a9884eb91610a6dd9c875ebcbe")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -12839,7 +12839,7 @@
 	 (:keywords "unix")
 	 (:url . "https://github.com/sinic/ednc"))])
  (edts .
-       [(1 1 0 1 -4 20220312 2132)
+       [(1 1 0 1 -4 20220415 1722)
 	((auto-complete
 	  (20201213 1255))
 	 (auto-highlight-symbol
@@ -12857,7 +12857,7 @@
 	 (s
 	  (20210603 736)))
 	"Erlang Development Tool Suite" tar
-	((:commit . "29eb0ad1472b2e46a5bb499ed40d9f28cbd9e0e1"))])
+	((:commit . "5c096ecdf9462b125f2eb4092899ff63636cfc40"))])
  (edwina .
 	 [(0 3 0 -1 1 -4 20200113 1714)
 	  ((emacs
@@ -12942,7 +12942,7 @@
 		(:maintainer "Satoshi Egi" . "egisatoshi@gmail.com")
 		(:url . "https://github.com/egisatoshi/egison3/blob/master/elisp/egison-mode.el"))])
  (eglot .
-	[(1 8 1 -4 20220406 1459)
+	[(1 8 1 -4 20220415 1822)
 	 ((emacs
 	   (26 1))
 	  (jsonrpc
@@ -12958,7 +12958,7 @@
 	  (seq
 	   (2 23)))
 	 "Client for Language Server Protocol (LSP) servers" single
-	 ((:commit . "2c34dae387c583aa307615779ff570a84d5e723c")
+	 ((:commit . "777a7169c2c2a5dad6b9ecda3f2aa7a1edda84a9")
 	  (:authors
 	   ("Jo\303\243o T\303\241vora" . "joaotavora@gmail.com"))
 	  (:maintainer "Jo\303\243o T\303\241vora" . "joaotavora@gmail.com")
@@ -13195,7 +13195,7 @@
 		  (hercules
 		   (0 3)))
 		 "Unify all your inboxes with the Emacs secretary" tar
-		 ((:commit . "4ac85deae0a2c5f76337cffc0744c8373e5d8f5d")
+		 ((:commit . "949ecafee4ec4ddd38ff7380aabfd250a52d5d76")
 		  (:authors
 		   ("Leo Okawa Ericson <http://github/Zetagon>"))
 		  (:maintainer "Leo" . "github@relevant-information.com")
@@ -13210,7 +13210,7 @@
 			 (elfeed
 			  (3 4 1)))
 			"Add notmuch email inboxes to el-secretario" single
-			((:commit . "4ac85deae0a2c5f76337cffc0744c8373e5d8f5d")
+			((:commit . "949ecafee4ec4ddd38ff7380aabfd250a52d5d76")
 			 (:authors
 			  ("Leo Okawa Ericson <http://github/Zetagon>"))
 			 (:maintainer "Leo" . "github@relevant-information.com")
@@ -13225,7 +13225,7 @@
 		       (el-secretario
 			(0 0 1)))
 		      "Add mu4e inboxes to el-secretario" single
-		      ((:commit . "4ac85deae0a2c5f76337cffc0744c8373e5d8f5d")
+		      ((:commit . "949ecafee4ec4ddd38ff7380aabfd250a52d5d76")
 		       (:authors
 			("Leo Okawa Ericson <http://github/Zetagon>"))
 		       (:maintainer "Leo" . "github@relevant-information.com")
@@ -13240,14 +13240,14 @@
 			  (notmuch
 			   (0 3 1)))
 			 "Add notmuch inboxes to el-secretario" single
-			 ((:commit . "4ac85deae0a2c5f76337cffc0744c8373e5d8f5d")
+			 ((:commit . "949ecafee4ec4ddd38ff7380aabfd250a52d5d76")
 			  (:authors
 			   ("Leo Okawa Ericson <http://github/Zetagon>"))
 			  (:maintainer "Leo" . "github@relevant-information.com")
 			  (:keywords "convenience" "mail")
 			  (:url . "https://git.sr.ht/~zetagon/el-secretario"))])
  (el-secretario-org .
-		    [(0 0 1 1 -4 20220328 1246)
+		    [(0 0 1 1 -4 20220411 1419)
 		     ((emacs
 		       (27 1))
 		      (org-ql
@@ -13257,7 +13257,7 @@
 		      (el-secretario
 		       (0 0 1)))
 		     "Create inboxes out of org-mode files for el-secretario" single
-		     ((:commit . "4ac85deae0a2c5f76337cffc0744c8373e5d8f5d")
+		     ((:commit . "949ecafee4ec4ddd38ff7380aabfd250a52d5d76")
 		      (:authors
 		       ("Leo Okawa Ericson <http://github/Zetagon>"))
 		      (:maintainer "Leo" . "github@relevant-information.com")
@@ -16063,7 +16063,7 @@
 			 (:keywords "colemak" "evil")
 			 (:url . "https://github.com/bmallred/evil-colemak-minimal"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20220414 2140)
+		  [(0 4 1 1 -4 20220415 1942)
 		   ((emacs
 		     (25 1))
 		    (evil
@@ -16071,7 +16071,7 @@
 		    (annalist
 		     (1 0)))
 		   "A set of keybindings for Evil mode" tar
-		   ((:commit . "71630c94771c8f2688e385bc989f0f40c8292dc4")
+		   ((:commit . "572de25f93752d806efa11bb80a641afd4c06e40")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainer "James Nguyen" . "james@jojojames.com")
@@ -24340,13 +24340,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 8 5 1 -4 20220413 708)
+       [(3 8 5 1 -4 20220415 1805)
 	((helm-core
 	  (3 8 4))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "5546efa7d177068c4f28fe41a02927cf19a7b018")
+	((:commit . "155227133cac17c5db8a47e2cf937d9b77ed15ac")
 	 (:authors
 	  ("Thierry Volpiatto" . "thierry.volpiatto@gmail.com"))
 	 (:maintainer "Thierry Volpiatto" . "thierry.volpiatto@gmail.com")
