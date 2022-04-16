@@ -9638,7 +9638,7 @@
 	  (:keywords "haskell" "tools")
 	  (:url . "https://github.com/jyp/dante"))])
  (dap-mode .
-	   [(0 7 1 -4 20220325 1144)
+	   [(0 7 1 -4 20220416 1252)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -9658,7 +9658,7 @@
 	     (ht
 	      (2 3)))
 	    "Debug Adapter Protocol mode" tar
-	    ((:commit . "320d63d68da5cfa5c2f9628e99713db1511f7aa5")
+	    ((:commit . "e29d3e6c79356a4c149bb50059cffca7de0ce079")
 	     (:authors
 	      ("Ivan Yonchovski" . "yyoncho@gmail.com"))
 	     (:maintainer "Ivan Yonchovski" . "yyoncho@gmail.com")
@@ -11145,11 +11145,11 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 2 0 1 -4 20220416 535)
+	  [(1 2 0 1 -4 20220416 1642)
 	   ((emacs
 	     (27 1)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "e9a5ad5664a900659d8f15d0fd91785769c38282")
+	   ((:commit . "a0bb450aab8fbf8a7216d68b77ef111716e386ce")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -14394,11 +14394,11 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 16 1 -4 20220414 1430)
+	 [(0 16 1 -4 20220416 1419)
 	  ((emacs
 	    (26 1)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "c4889163c8aa4f96af520cefa81d60f7f0048626")
+	  ((:commit . "7a32b9342221327ea71233404441b5e2466ee0a9")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -14413,7 +14413,7 @@
 		   (consult
 		    (0 10)))
 		  "Consult integration for Embark" single
-		  ((:commit . "c4889163c8aa4f96af520cefa81d60f7f0048626")
+		  ((:commit . "7a32b9342221327ea71233404441b5e2466ee0a9")
 		   (:authors
 		    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -16856,7 +16856,7 @@
 			(:keywords "evil" "syntax" "highlight" "text-object")
 			(:url . "https://github.com/laishulu/evil-textobj-syntax"))])
  (evil-textobj-tree-sitter .
-			   [(0 1 1 -4 20220415 1437)
+			   [(0 1 1 -4 20220416 1337)
 			    ((emacs
 			      (25 1))
 			     (evil
@@ -16864,7 +16864,7 @@
 			     (tree-sitter
 			      (0 15 0)))
 			    "Provides evil textobjects using tree-sitter" tar
-			    ((:commit . "907b96ca3fe961a8166c351742172d6700693b44")
+			    ((:commit . "0a46dbcc4db569cf065f0c4a80a32ae123f0cc70")
 			     (:keywords "evil" "tree-sitter" "text-object" "convenience")
 			     (:url . "https://github.com/meain/evil-textobj-tree-sitter"))])
  (evil-traces .
@@ -37190,7 +37190,7 @@
 		   ((emacs
 		     (26 1)))
 		   "Shell completion using native complete mechanisms" single
-		   ((:commit . "5f94022fc9168971c77f8c12f9efd569c45f4850")
+		   ((:commit . "01d8a2048e13f29dd3aa06281ac8cb466caddb64")
 		    (:authors
 		     ("Troy Hinckley" . "troy.hinckley@gmail.com"))
 		    (:maintainer "Troy Hinckley" . "troy.hinckley@gmail.com")
@@ -40333,7 +40333,7 @@
 		     (:maintainer "Huy Tran" . "huytd189@gmail.com")
 		     (:url . "https://github.com/huytd/org-journal-list"))])
  (org-journal-tags .
-		   [(0 2 0 1 -4 20220411 2018)
+		   [(0 3 0 1 -4 20220416 1507)
 		    ((emacs
 		      (27 1))
 		     (org-journal
@@ -40343,7 +40343,7 @@
 		     (transient
 		      (0 3 7)))
 		    "Tagging and querying system of org-journal" single
-		    ((:commit . "1e19f7a1a815881e244c6ff42a12c56d3249c6f5")
+		    ((:commit . "ca6327161f4994ea0e98d7c6c3f662222e2650bf")
 		     (:authors
 		      ("Korytov Pavel" . "thexcloud@gmail.com"))
 		     (:maintainer "Korytov Pavel" . "thexcloud@gmail.com")
@@ -44573,7 +44573,7 @@
 	   (:maintainer "Paul Walsh" . "paulywalsh@gmail.com")
 	   (:url . "https://github.com/pwalsh/pipenv.el"))])
  (pippel .
-	 [(1 4 1 -4 20220225 1128)
+	 [(1 4 1 -4 20220416 1743)
 	  ((emacs
 	    (25 1))
 	   (s
@@ -44581,7 +44581,7 @@
 	   (dash
 	    (2 12 0)))
 	  "Frontend to python package manager pip" tar
-	  ((:commit . "2a4628675597872acf1c3984e80e30b9abc5ea82")
+	  ((:commit . "cb194952ee150e77601d3233dabdb521b976ee79")
 	   (:authors
 	    ("Fritz Stelzer" . "brotzeitmacher@gmail.com"))
 	   (:maintainer "Arif Er" . "arifer612@protonmail.me")
@@ -46832,7 +46832,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "69676a5348672e2af76c1e99d210698b431829f9")
+	  ((:commit . "1de6da157c260c5a1398bc59c5f2b57abc4912a6")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -52826,7 +52826,7 @@
 		 (:keywords "comms")
 		 (:url . "https://github.com/hagleitn/stock-ticker"))])
  (stock-tracker .
-		[(0 1 3 1 -4 20220416 1013)
+		[(0 1 3 1 -4 20220416 1528)
 		 ((emacs
 		   (27 1))
 		  (dash
@@ -52834,7 +52834,7 @@
 		  (async
 		   (1 9 5)))
 		 "Track stock price" single
-		 ((:commit . "b883946224517e1ee5b5d788b80a22a494e64377")
+		 ((:commit . "96f960218ce8dcaab76a04de221a58bf6ec0df2c")
 		  (:authors
 		   ("Huming Chen" . "chenhuming@gmail.com"))
 		  (:maintainer "Huming Chen" . "chenhuming@gmail.com")
@@ -54586,7 +54586,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "6f2efbbfd06efe0f9bec10a1fa7d9e92339dc6b8")
+	  ((:commit . "b04f00e169df21ad49456caf73cea2d6fe5e0ec7")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -54956,11 +54956,11 @@
 		  (:keywords "hide" "window")
 		  (:url . "https://github.com/deadghost/toggle-window"))])
  (tok-theme .
-	    [(0 1 1 -4 20220414 2008)
+	    [(0 1 1 -4 20220416 1728)
 	     ((emacs
 	       (26 1)))
-	     "Minimal theme with yellow and green color scheme" single
-	     ((:commit . "be713a135fe50047fe33f076c2ddfb8d95570ab6")
+	     "Minimal theme with dark and yellow color scheme" single
+	     ((:commit . "b4dad537a7a72e15c6abee2e950d274876583b67")
 	      (:authors
 	       ("Topi Kettunen" . "topi@topikettunen.com"))
 	      (:maintainer "Topi Kettunen" . "topi@topikettunen.com")
@@ -56590,7 +56590,7 @@
 	 (tuareg
 	  (2 2 0)))
 	"Universal toplevel for OCaml" single
-	((:commit . "5d72a0ab34bf621b2150e9e267ec108fb1c5899a")
+	((:commit . "42614160c20764b443d082083740e8dcc6cf2f78")
 	 (:authors
 	  ("Jeremie Dimino" . "jeremie@dimino.org"))
 	 (:maintainer "Jeremie Dimino" . "jeremie@dimino.org")
