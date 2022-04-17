@@ -4826,23 +4826,19 @@
 	      (:keywords "tools")
 	      (:url . "https://github.com/chenyanming/calibredb.el"))])
  (call-graph .
-	     [(0 1 0 1 -4 20220214 1251)
+	     [(0 1 1 1 -4 20220417 834)
 	      ((emacs
 		(25 1))
-	       (cl-lib
-		(0 6 1))
 	       (hierarchy
 		(0 7 0))
 	       (tree-mode
 		(1 0 0))
 	       (ivy
 		(0 10 0))
-	       (anaconda-mode
-		(0 1 13))
 	       (beacon
 		(1 3 3)))
-	      "Library to generate call graph for c/c++ functions" tar
-	      ((:commit . "aa5ffb15cec39920012aa526e932d48e5c74bbb0")
+	      "Generate call graph for c/c++ functions" tar
+	      ((:commit . "dc3cb9ea5e9f4cf3729962c2a5cbed8146bdca7e")
 	       (:authors
 		("Huming Chen" . "chenhuming@gmail.com"))
 	       (:maintainer "Huming Chen" . "chenhuming@gmail.com")
@@ -5622,7 +5618,7 @@
 		(:keywords "tools" "convenience")
 		(:url . "https://github.com/marcelotoledo/chronometer"))])
  (chronometrist .
-		[(0 10 0 1 -4 20220414 726)
+		[(0 10 0 1 -4 20220415 1213)
 		 ((emacs
 		   (27 1))
 		  (dash
@@ -5632,7 +5628,7 @@
 		  (ts
 		   (0 2)))
 		 "Friendly and powerful personal time tracker and analyzer" tar
-		 ((:commit . "88aa54c08224bb8b8987dd2024052a25b275dab8")
+		 ((:commit . "998ea0f94e6d8f82aef84a7aadca51fd02fca6ee")
 		  (:authors
 		   ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 		  (:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -5658,7 +5654,7 @@
 			    ((chronometrist
 			      (0 7 0)))
 			    "add key-values to Chronometrist data" tar
-			    ((:commit . "88aa54c08224bb8b8987dd2024052a25b275dab8")
+			    ((:commit . "998ea0f94e6d8f82aef84a7aadca51fd02fca6ee")
 			     (:authors
 			      ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 			     (:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -5673,7 +5669,7 @@
 			(spark
 			 (0 1)))
 		       "Show sparklines in Chronometrist buffers" tar
-		       ((:commit . "88aa54c08224bb8b8987dd2024052a25b275dab8")
+		       ((:commit . "998ea0f94e6d8f82aef84a7aadca51fd02fca6ee")
 			(:authors
 			 ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 			(:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -8266,7 +8262,7 @@
 		    (:keywords "mail")
 		    (:url . "https://codeberg.org/jao/consult-notmuch"))])
  (consult-org-roam .
-		   [(0 1 1 -4 20220410 632)
+		   [(0 1 1 -4 20220417 554)
 		    ((emacs
 		      (27 1))
 		     (org-roam
@@ -8274,7 +8270,7 @@
 		     (consult
 		      (0 16)))
 		    "Consult integration for org-roam" single
-		    ((:commit . "53b50493309a8f5e4dcc3951ec341b3124fddbf6")
+		    ((:commit . "da86614508e5d138b517e25b0752611563e3117e")
 		     (:authors
 		      ("jgru <https://github.com/jgru>"))
 		     (:maintainer "jgru <https://github.com/jgru>")
@@ -12138,7 +12134,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "1fd19d78e8430e9640ad2c8104c9dc6bbfffec40")
+	((:commit . "01b63fc5ee9607b7584b43334c00806de3d3484e")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -13473,13 +13469,13 @@
 		    (:keywords "terminals" "frames")
 		    (:url . "https://github.com/duckwork/electric-cursor"))])
  (electric-operator .
-		    [(1 0 0 1 -4 20220313 911)
+		    [(1 0 0 1 -4 20220417 809)
 		     ((dash
 		       (2 10 0))
 		      (emacs
 		       (24 4)))
 		     "Automatically add spaces around operators" tar
-		     ((:commit . "8bcc6b02722adb21d3698df46db2426718aebf70")
+		     ((:commit . "f567f03da4a55d6eafa0e6e148ca4884d5370498")
 		      (:authors
 		       ("David Shepherd" . "davidshepherd7@gmail.com"))
 		      (:maintainer "David Shepherd" . "davidshepherd7@gmail.com")
@@ -35994,11 +35990,11 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(2 3 2 1 -4 20220415 236)
+	       [(2 3 2 1 -4 20220417 759)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "7f9ee33e8f9db2fd7a2a77e4228a534794819719")
+		((:commit . "2329803b865151aec13a26f44da2382026178c38")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
@@ -46832,7 +46828,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "13599bfb9dc70e166c035689aef0feddd823d21e")
+	  ((:commit . "7c848b9bdab07897027ce1a39c812cd03055c2ff")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
