@@ -866,7 +866,7 @@
 	 (consult
 	  (0 16)))
 	"Asynchronous Fuzzy Finder for Emacs" tar
-	((:commit . "5dd63fd156577aa7e9a3a631e2f48444565f463e")
+	((:commit . "a61d593d0cbff65a93111be96b9f53d3e640cf8d")
 	 (:authors
 	  ("Daniel Mendler"))
 	 (:maintainer "Daniel Mendler")
@@ -2751,7 +2751,7 @@
 		       (avy
 			(0 5)))
 		      "Use avy to jump to Embark Collect entries" single
-		      ((:commit . "0d18a5409a964e312c0f14e4631204a0f651c2e4")
+		      ((:commit . "f46b6ba6a567024f28e1e814f402b020e67be882")
 		       (:authors
 			("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		       (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -4042,7 +4042,7 @@
 	"Ergonomic Command Mode for Emacs." tar
 	((:commit . "654fb8051a5c00dd524710fbf917b00f6afc8844"))])
  (borg .
-       [(3 3 1 -4 20220412 1439)
+       [(3 3 1 -4 20220418 1930)
 	((emacs
 	  (26))
 	 (epkg
@@ -4050,7 +4050,7 @@
 	 (magit
 	  (3 3 0)))
 	"assimilate Emacs packages as Git submodules" tar
-	((:commit . "c79ad66ba061bbe295943328425744616170f8af")
+	((:commit . "2cf5635da90d6dcc3e7e64500f67e914a44ef59f")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -4900,7 +4900,7 @@
 	((emacs
 	  (27 1)))
 	"Completion At Point Extensions" tar
-	((:commit . "0a618040aa4adaa4f42bcc9cd65491453e2e6253")
+	((:commit . "c404b0df4a25a0fd1de852b3e0783610dba9a349")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -6271,11 +6271,11 @@
 			     ((:commit . "13ac560c25f7355fba00d9ca8c9f4ca03e7fd189")
 			      (:url . "https://github.com/p3r7/clojure-essential-ref"))])
  (clojure-mode .
-	       [(5 14 0 1 -4 20220307 1903)
+	       [(5 14 0 1 -4 20220418 2015)
 		((emacs
 		  (25 1)))
 		"Major mode for Clojure code" single
-		((:commit . "8aa857df3a3698cc20f52a40d3b6863de691244c")
+		((:commit . "b6f41d74904daa9312648f3a7bea7a72fd8e140b")
 		 (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 		 (:keywords "languages" "clojure" "clojurescript" "lisp")
 		 (:url . "http://github.com/clojure-emacs/clojure-mode"))])
@@ -6284,7 +6284,7 @@
 				   ((clojure-mode
 				     (3 0)))
 				   "Extra font-locking for Clojure mode" single
-				   ((:commit . "8aa857df3a3698cc20f52a40d3b6863de691244c")
+				   ((:commit . "b6f41d74904daa9312648f3a7bea7a72fd8e140b")
 				    (:authors
 				     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 				    (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
@@ -8143,11 +8143,11 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 16 1 -4 20220416 1904)
+	  [(0 16 1 -4 20220418 2219)
 	   ((emacs
 	     (27 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "a924b3b0d943d12c71d23964da7733251f4705b2")
+	   ((:commit . "fda0a5130debceab3ba7cc90b7709870b0efa6b9")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -9546,7 +9546,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "ad24a17ce40b9b2fc35318ce48574d1842e3d6a4"))])
+	       ((:commit . "c137fc1dc879a2ec4bc9cf43d8aace83de956320"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -12145,7 +12145,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "570577343946fcb2d43b8519c7807d95f33dc6f7")
+	((:commit . "a169350f5b782556cae18a4985332f86a03fab89")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -14401,18 +14401,18 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 16 1 -4 20220418 13)
+	 [(0 16 1 -4 20220418 2042)
 	  ((emacs
 	    (26 1)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "0d18a5409a964e312c0f14e4631204a0f651c2e4")
+	  ((:commit . "f46b6ba6a567024f28e1e814f402b020e67be882")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
 	   (:keywords "convenience")
 	   (:url . "https://github.com/oantolin/embark"))])
  (embark-consult .
-		 [(0 5 1 -4 20220413 1944)
+		 [(0 5 1 -4 20220418 2005)
 		  ((emacs
 		    (26 1))
 		   (embark
@@ -14420,7 +14420,7 @@
 		   (consult
 		    (0 10)))
 		  "Consult integration for Embark" single
-		  ((:commit . "0d18a5409a964e312c0f14e4631204a0f651c2e4")
+		  ((:commit . "f46b6ba6a567024f28e1e814f402b020e67be882")
 		   (:authors
 		    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -15958,7 +15958,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 14 0 1 -4 20220418 1024)
+       [(1 14 0 1 -4 20220418 2139)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -15966,7 +15966,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "76a104dd87252f8b1107fe3fc1d3eb5ae45bcc55")
+	((:commit . "b904c4f0bf7a3f2037e3f93a6ced8d7fb6243827")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulation" "vim")
 	 (:url . "https://github.com/emacs-evil/evil"))])
