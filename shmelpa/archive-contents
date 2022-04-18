@@ -2751,7 +2751,7 @@
 		       (avy
 			(0 5)))
 		      "Use avy to jump to Embark Collect entries" single
-		      ((:commit . "caacd7e75854cbad71c30adbef2d1e046c3ce438")
+		      ((:commit . "0d18a5409a964e312c0f14e4631204a0f651c2e4")
 		       (:authors
 			("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		       (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -5628,7 +5628,7 @@
 		  (ts
 		   (0 2)))
 		 "Friendly and powerful personal time tracker and analyzer" tar
-		 ((:commit . "d348ef73da958dfee27f9ceda0d599ccef83cfb0")
+		 ((:commit . "94e7a78404c232429b175b21ff0cd5c152268151")
 		  (:authors
 		   ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 		  (:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -5654,7 +5654,7 @@
 			    ((chronometrist
 			      (0 7 0)))
 			    "add key-values to Chronometrist data" tar
-			    ((:commit . "d348ef73da958dfee27f9ceda0d599ccef83cfb0")
+			    ((:commit . "94e7a78404c232429b175b21ff0cd5c152268151")
 			     (:authors
 			      ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 			     (:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -5669,7 +5669,7 @@
 			(spark
 			 (0 1)))
 		       "Show sparklines in Chronometrist buffers" tar
-		       ((:commit . "d348ef73da958dfee27f9ceda0d599ccef83cfb0")
+		       ((:commit . "94e7a78404c232429b175b21ff0cd5c152268151")
 			(:authors
 			 ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 			(:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -58548,6 +58548,19 @@
 	     (24 4)))
 	   "Major mode interface to WordNet" tar
 	   ((:commit . "feac531404041855312c1a046bde7ea18c674915"))])
+ (wordreference .
+		[(0 2 1 -4 20220417 2112)
+		 ((emacs
+		   (27 1))
+		  (s
+		   (1 12 0)))
+		 "Interface for wordreference.com" single
+		 ((:commit . "8b03aff74f4c6f7587ae4efbccbe39a6c34a1545")
+		  (:authors
+		   ("Marty Hiatt <martianhiatus AT riseup.net>"))
+		  (:maintainer "Marty Hiatt <martianhiatus AT riseup.net>")
+		  (:keywords "convenience" "translate")
+		  (:url . "https://codeberg.org/martianh/wordreference"))])
  (wordsmith-mode .
 		 [(20140202 1 1 -4 20210715 1517)
 		  nil "Syntax analysis and NLP text-processing in Emacs (OSX-only)" single
