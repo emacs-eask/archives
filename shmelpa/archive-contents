@@ -21138,13 +21138,13 @@
 	  ("Natalie Weizenbaum" . "nweiz@google.com"))
 	 (:maintainer "Natalie Weizenbaum" . "nweiz@google.com"))])
  (futhark-mode .
-	       [(0 2 1 -4 20220415 1524)
+	       [(0 2 1 -4 20220425 1144)
 		((emacs
 		  (24 3))
 		 (cl-lib
 		  (0 5)))
 		"major mode for editing Futhark source files" tar
-		((:commit . "a4a8d5151273aba04f622cf0df0ba806a6e95c25")
+		((:commit . "7fd0a3c6c96ed8afd0249ab0734d9b63d4fd1cb1")
 		 (:keywords "languages")
 		 (:url . "https://github.com/diku-dk/futhark-mode"))])
  (fuz .
@@ -21959,7 +21959,7 @@
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "ab801de53827a232b7806362fb08ca804f27c6d0")
+	      ((:commit . "3cb7f5ba430906bded9e5d9951f5260ab25644d0")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -32625,7 +32625,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "77a759c93039a51e01ac46509792c029337ed990")
+	     ((:commit . "b93e2478080e330c70d31707ccc816be1a69bb99")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
@@ -33405,7 +33405,7 @@
 	(:keywords "python" "lisp")
 	(:url . "https://github.com/abo-abo/lpy"))])
  (lsp-dart .
-	   [(1 21 0 1 -4 20220313 1835)
+	   [(1 21 0 1 -4 20220425 1211)
 	    ((emacs
 	      (26 3))
 	     (lsp-treemacs
@@ -33421,7 +33421,7 @@
 	     (dart-mode
 	      (1 0 5)))
 	    "Dart support lsp-mode" tar
-	    ((:commit . "fda433671f38874f0ebe66c43c64fec14af3f492")
+	    ((:commit . "a1336f196daf6048c48681f5fe3e77bf46fd5a1d")
 	     (:keywords "languages" "extensions")
 	     (:url . "https://emacs-lsp.github.io/lsp-dart"))])
  (lsp-docker .
@@ -33837,7 +33837,7 @@
 		 (:keywords "languages")
 		 (:url . "https://github.com/emacs-lsp/lsp-treemacs"))])
  (lsp-ui .
-	 [(8 0 0 1 -4 20220425 552)
+	 [(8 0 0 1 -4 20220425 1046)
 	  ((emacs
 	    (26 1))
 	   (dash
@@ -33847,7 +33847,7 @@
 	   (markdown-mode
 	    (2 3)))
 	  "UI modules for lsp-mode" tar
-	  ((:commit . "d12757efcb8b5a3c50985a9cd17502d0ccb6ee49")
+	  ((:commit . "6cd0409de6ca59c02d752b8e543bb5eaa61357e4")
 	   (:authors
 	    ("Sebastien Chapuis <sebastien@chapu.is>, Fangrui Song" . "i@maskray.me"))
 	   (:maintainer "Sebastien Chapuis <sebastien@chapu.is>, Fangrui Song" . "i@maskray.me")
@@ -34110,7 +34110,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 -4 20220424 1428)
+	[(3 3 0 -4 20220425 1153)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -34126,7 +34126,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "ab801de53827a232b7806362fb08ca804f27c6d0")
+	 ((:commit . "3cb7f5ba430906bded9e5d9951f5260ab25644d0")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -34317,7 +34317,7 @@
 		 (magit
 		  (20211004)))
 		"." tar
-		((:commit . "ab801de53827a232b7806362fb08ca804f27c6d0")
+		((:commit . "3cb7f5ba430906bded9e5d9951f5260ab25644d0")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -34390,7 +34390,7 @@
 		      (:keywords "magit" "vc")
 		      (:url . "http://github.com/jtamagnan/magit-reviewboard"))])
  (magit-section .
-		[(3 3 0 -4 20220424 1428)
+		[(3 3 0 -4 20220425 1002)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -34398,7 +34398,7 @@
 		  (dash
 		   (20210826)))
 		 "Sections for read-only buffers" tar
-		 ((:commit . "ab801de53827a232b7806362fb08ca804f27c6d0")
+		 ((:commit . "3cb7f5ba430906bded9e5d9951f5260ab25644d0")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -38054,7 +38054,7 @@
  (notmuch .
 	  [(0 1 0 1 -4 20220226 1200)
 	   nil "run notmuch within emacs" tar
-	   ((:commit . "2c61fff4ec8fea9a0bdefd13a7a14a34c5e27ada")
+	   ((:commit . "e3ad0087f3453c89871acac8b11da8bab1ac54df")
 	    (:url . "https://notmuchmail.org"))])
  (notmuch-addr .
 	       [(0 1 0 1 -4 20220422 1618)
@@ -42051,7 +42051,7 @@
 	   (:keywords "org")
 	   (:url . "https://github.com/yasuhito/orgbox"))])
  (orgit .
-	[(0 1 0 1 -4 20220422 1624)
+	[(0 1 0 1 -4 20220425 1157)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -42061,7 +42061,7 @@
 	  (org
 	   (9 4)))
 	 "Support for Org links to Magit buffers" single
-	 ((:commit . "79ed3337ab0ca3d5018732dcdabfbf700c4822d9")
+	 ((:commit . "6dc4d4bfffd6c11550952203a51346b13e120165")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -44203,11 +44203,11 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/ksqsf/pest-mode"))])
  (pfuture .
-	  [(1 10 2 1 -4 20211229 1513)
+	  [(1 10 3 1 -4 20220425 1242)
 	   ((emacs
 	     (25 2)))
 	   "a simple wrapper around asynchronous processes" single
-	   ((:commit . "bde5b06795e3e35bfb2bba4c34b538d506a0856e")
+	   ((:commit . "f9e67bd7edbd5b4e033efd82c0acc4a85ff860a8")
 	    (:authors
 	     ("Alexander Miller" . "alexanderm@web.de"))
 	    (:maintainer "Alexander Miller" . "alexanderm@web.de")
