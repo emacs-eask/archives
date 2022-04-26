@@ -31691,7 +31691,7 @@
 	    (:keywords "docs" "help" "k8s" "kubernetes" "tools")
 	    (:url . "https://github.com/r0bobo/kubedoc.el/"))])
  (kubel .
-	[(1 0 1 -4 20220331 1355)
+	[(1 0 1 -4 20220426 1722)
 	 ((transient
 	   (0 1 0))
 	  (emacs
@@ -31703,7 +31703,7 @@
 	  (yaml-mode
 	   (0 0 14)))
 	 "Control Kubernetes with limited permissions" single
-	 ((:commit . "b598b21988b8d5b2f44803a31f891f12ea511982")
+	 ((:commit . "dea03843dc7b152cdfb84c14e076cf79a721a87f")
 	  (:authors
 	   ("Adrien Brochard"))
 	  (:maintainer "Adrien Brochard")
@@ -31718,7 +31718,7 @@
 	       (emacs
 		(25 3)))
 	      "extension for kubel to provide evil keybindings" single
-	      ((:commit . "b598b21988b8d5b2f44803a31f891f12ea511982")
+	      ((:commit . "dea03843dc7b152cdfb84c14e076cf79a721a87f")
 	       (:authors
 		("Marcel Patzwahl"))
 	       (:maintainer "Marcel Patzwahl")
@@ -35386,13 +35386,13 @@
 		 (:keywords "ocaml" "languages")
 		 (:url . "http://github.com/ocaml/merlin"))])
  (mermaid-mode .
-	       [(1 0 1 -4 20210505 1635)
+	       [(1 0 1 -4 20220426 1631)
 		((f
 		  (0 20 0))
 		 (emacs
 		  (25 3)))
 		"major mode for working with mermaid graphs" single
-		((:commit . "562ffe86cad91627e2b94b8684818562c3ad2b5d")
+		((:commit . "1a6526bc68561b7da6a612152b842a41ffb0aa09")
 		 (:authors
 		  ("Adrien Brochard"))
 		 (:maintainer "Adrien Brochard")
@@ -43922,7 +43922,7 @@
 	     (:keywords "data" "pdb")
 	     (:url . "http://bondxray.org/software/pdb-mode/"))])
  (pdf-tools .
-	    [(1 0 0 -4 20220426 235)
+	    [(1 0 0 -4 20220426 1714)
 	     ((emacs
 	       (24 3))
 	      (nadvice
@@ -43932,7 +43932,7 @@
 	      (let-alist
 		  (1 0 4)))
 	     "Support library for PDF documents" tar
-	     ((:commit . "b867ea782bda6b7509dfa22dcfe6e2c83ced575a")
+	     ((:commit . "7a8d5c24f7ac0632afdfc9924bdf17bcf52065a4")
 	      (:authors
 	       ("Andreas Politz" . "mail@andreas-politz.de"))
 	      (:maintainer "Vedang Manerikar" . "vedang.manerikar@gmail.com")
@@ -44028,13 +44028,13 @@
 	   (:keywords "tools" "convenience" "matching")
 	   (:url . "https://github.com/sebasmonia/pepita.git"))])
  (perfect-margin .
-		 [(0 1 1 -4 20190722 126)
+		 [(0 1 1 -4 20220426 1701)
 		  ((emacs
 		    (24 0))
 		   (cl-lib
 		    (0 5)))
 		  "auto center windows, work with minimap and/or linum-mode" single
-		  ((:commit . "94b055c743b1859098870c8aca3e915bd6e67d9d")
+		  ((:commit . "d5cb5f075264ff2e625099aebca3151f4f35019a")
 		   (:authors
 		    ("Randall Wang" . "randall.wjz@gmail.com"))
 		   (:maintainer "Randall Wang" . "randall.wjz@gmail.com")
@@ -46406,7 +46406,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "4f552e36bd66862bdc1d2bc01c47f86a9dc6ba02")
+		 ((:commit . "2c5863ecdefcef212b2df57716cdafc0e461c5a7")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -48601,7 +48601,7 @@
  (restclient .
 	     [(0 1 0 1 -4 20220101 1239)
 	      nil "An interactive HTTP client for Emacs" single
-	      ((:commit . "9e2cfa86529133eba6c9ef53794be182f15e4c21")
+	      ((:commit . "ae79e7dd283890072da69b8f48aeec1afd0d9442")
 	       (:authors
 		("Pavel Kurnosov" . "pashky@gmail.com"))
 	       (:maintainer "Pavel Kurnosov" . "pashky@gmail.com")
@@ -48613,7 +48613,7 @@
 		    (helm
 		     (1 9 4)))
 		   "helm interface for restclient.el" single
-		   ((:commit . "9e2cfa86529133eba6c9ef53794be182f15e4c21")
+		   ((:commit . "ae79e7dd283890072da69b8f48aeec1afd0d9442")
 		    (:authors
 		     ("Pavel Kurnosov" . "pashky@gmail.com"))
 		    (:maintainer "Pavel Kurnosov" . "pashky@gmail.com")
@@ -49637,7 +49637,7 @@
  (scad-mode .
 	    [(92 0 1 -4 20200830 301)
 	     nil "A major mode for editing OpenSCAD code" single
-	     ((:commit . "eb2849ea946e823bd37f3444ec0bf6bb80c57c67")
+	     ((:commit . "d6be5bb0a0adbafa7469ca8337415fa905ff1efa")
 	      (:authors
 	       ("Len Trigg, \305\201ukasz Stelmach"))
 	      (:maintainer "Len Trigg" . "lenbok@gmail.com")
@@ -54738,7 +54738,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "9ec30590acc822613f627de0870b56d4c63141b1")
+	  ((:commit . "8904516d3d60f6ac0cc2d23f3e0a9d3cb00aa6d0")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -55602,7 +55602,7 @@
 	       (:keywords "outlines" "files" "convenience")
 	       (:url . "https://github.com/cyberthal/treefactor"))])
  (treemacs .
-	   [(2 9 5 1 -4 20220426 1417)
+	   [(2 9 5 1 -4 20220426 1612)
 	    ((emacs
 	      (26 1))
 	     (cl-lib
@@ -55622,7 +55622,7 @@
 	     (cfrs
 	      (1 3 2)))
 	    "A tree style file explorer package" tar
-	    ((:commit . "e460bc9808bfb52652af05e2c5e77d3faa1cf300")
+	    ((:commit . "c3c5daeabf874325f648471f007fbdc1cf817d19")
 	     (:authors
 	      ("Alexander Miller" . "alexanderm@web.de"))
 	     (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55636,7 +55636,7 @@
 			   (treemacs
 			    (0 0)))
 			  "all-the-icons integration for treemacs" single
-			  ((:commit . "e460bc9808bfb52652af05e2c5e77d3faa1cf300")
+			  ((:commit . "c3c5daeabf874325f648471f007fbdc1cf817d19")
 			   (:authors
 			    ("Eric Dallo" . "ercdll1337@gmail.com"))
 			   (:maintainer "Eric Dallo" . "ercdll1337@gmail.com")
@@ -55650,7 +55650,7 @@
 		  (treemacs
 		   (0 0)))
 		 "Evil mode integration for treemacs" single
-		 ((:commit . "e460bc9808bfb52652af05e2c5e77d3faa1cf300")
+		 ((:commit . "c3c5daeabf874325f648471f007fbdc1cf817d19")
 		  (:authors
 		   ("Alexander Miller" . "alexanderm@web.de"))
 		  (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55662,7 +55662,7 @@
 			 (emacs
 			  (26 1)))
 			"Treemacs icons for dired" single
-			((:commit . "e460bc9808bfb52652af05e2c5e77d3faa1cf300")
+			((:commit . "c3c5daeabf874325f648471f007fbdc1cf817d19")
 			 (:authors
 			  ("Alexander Miller" . "alexanderm@web.de"))
 			 (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55678,7 +55678,7 @@
 		   (magit
 		    (2 90 0)))
 		  "Magit integration for treemacs" single
-		  ((:commit . "e460bc9808bfb52652af05e2c5e77d3faa1cf300")
+		  ((:commit . "c3c5daeabf874325f648471f007fbdc1cf817d19")
 		   (:authors
 		    ("Alexander Miller" . "alexanderm@web.de"))
 		   (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55694,7 +55694,7 @@
 		   (dash
 		    (2 11 0)))
 		  "Persp-mode integration for treemacs" single
-		  ((:commit . "e460bc9808bfb52652af05e2c5e77d3faa1cf300")
+		  ((:commit . "c3c5daeabf874325f648471f007fbdc1cf817d19")
 		   (:authors
 		    ("Alexander Miller" . "alexanderm@web.de"))
 		   (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55710,7 +55710,7 @@
 			 (dash
 			  (2 11 0)))
 			"Perspective integration for treemacs" single
-			((:commit . "e460bc9808bfb52652af05e2c5e77d3faa1cf300")
+			((:commit . "c3c5daeabf874325f648471f007fbdc1cf817d19")
 			 (:authors
 			  ("Alexander Miller" . "alexanderm@web.de")
 			  ("Jason Dufair" . "jase@dufair.org"))
@@ -55725,7 +55725,7 @@
 			(treemacs
 			 (0 0)))
 		       "Projectile integration for treemacs" single
-		       ((:commit . "e460bc9808bfb52652af05e2c5e77d3faa1cf300")
+		       ((:commit . "c3c5daeabf874325f648471f007fbdc1cf817d19")
 			(:authors
 			 ("Alexander Miller" . "alexanderm@web.de"))
 			(:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55739,7 +55739,7 @@
 		     (dash
 		      (2 11 0)))
 		    "Tab bar integration for treemacs" single
-		    ((:commit . "e460bc9808bfb52652af05e2c5e77d3faa1cf300")
+		    ((:commit . "c3c5daeabf874325f648471f007fbdc1cf817d19")
 		     (:authors
 		      ("Alexander Miller" . "alexanderm@web.de")
 		      ("Jason Dufair" . "jase@dufair.org")
