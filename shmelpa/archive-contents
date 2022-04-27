@@ -23416,7 +23416,7 @@
 	 (json-mode
 	  (1 6 0)))
 	"Interface to govc for managing VMware ESXi and vCenter" single
-	((:commit . "4c6c5654e321a1e6d4cfdb929a6d4466f9e93bcc")
+	((:commit . "ac1eba30136e553e799a7e59846ca5750b64c054")
 	 (:authors
 	  ("The govc developers"))
 	 (:maintainer "The govc developers")
@@ -29343,7 +29343,7 @@
 	 ((emacs
 	   (25 1)))
 	 "Reimplementation of Elisp generators" single
-	 ((:commit . "077684feec98ce6d5e283a13f056c083986628a2")
+	 ((:commit . "f82bd78f5bc89548ee70c1713f6f882526debbdb")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
@@ -33637,7 +33637,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20220427 801)
+	   [(8 0 1 1 -4 20220427 1846)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -33653,7 +33653,7 @@
 	     (lv
 	      (0)))
 	    "LSP mode" tar
-	    ((:commit . "5aa0588c492c5511b847b7639615850d07b1443d")
+	    ((:commit . "bda1cd3af29adbf5a42bd637db71b6bd32a4fe3e")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -41596,7 +41596,7 @@
 			    (:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com")
 			    (:keywords "extensions"))])
  (org-tag-beautify .
-		   [(0 1 0 1 -4 20220409 2310)
+		   [(0 1 0 1 -4 20220427 1552)
 		    ((emacs
 		      (26 1))
 		     (org-pretty-tags
@@ -41604,7 +41604,7 @@
 		     (all-the-icons
 		      (4 0 0)))
 		    "Beautify Org Mode tags" single
-		    ((:commit . "72456c2a1caa811a4cda2f7b07ba58645c3efbb8")
+		    ((:commit . "88fde267441118836a5c4ed28bb5958fca37a800")
 		     (:keywords "hypermedia")
 		     (:url . "https://repo.or.cz/org-tag-beautify.git"))])
  (org-tanglesync .
@@ -46406,7 +46406,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "ece5ef6b9b6fa66ef4638335612284379ee4548f")
+		 ((:commit . "9c8c3dea305b254b4854b56f850054958376e9ed")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -46962,7 +46962,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "314069664138ed00be9a08af642135ffe0dbbf9f")
+	  ((:commit . "0e35511ea2f55da8eaa3272468f320195b5f8006")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -48729,7 +48729,7 @@
 	     (:maintainer "Nicolas Martyanoff" . "khaelin@gmail.com")
 	     (:url . "https://github.com/galdor/rfc-mode"))])
  (rg .
-     [(2 2 0 1 -4 20220423 746)
+     [(2 2 0 1 -4 20220427 1613)
       ((emacs
 	(25 1))
        (transient
@@ -48737,7 +48737,7 @@
        (wgrep
 	(2 1 10)))
       "A search tool based on ripgrep" tar
-      ((:commit . "444a8ccfea0b38452a0bc4c390a8ee01cfe30017")
+      ((:commit . "a6411f98a695d8b3ef0db156d41b2a62ca36ee7a")
        (:authors
 	("David Landell" . "david.landell@sunnyhill.email")
 	("Roland McGrath" . "roland@gnu.org"))
@@ -48919,11 +48919,11 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/felipeochoa/rjsx-mode/"))])
  (rmsbolt .
-	  [(0 1 2 1 -4 20220325 1526)
+	  [(0 1 2 1 -4 20220427 1619)
 	   ((emacs
 	     (25 1)))
 	   "A compiler output viewer" tar
-	   ((:commit . "2e1ff0653e5355a2214e735f0ada287071457c6a")
+	   ((:commit . "f3fe3d24dbc8f7d0a166385c8cdadc92e22575a7")
 	    (:authors
 	     ("Jay Kamat" . "jaygkamat@gmail.com"))
 	    (:maintainer "Jay Kamat" . "jaygkamat@gmail.com")
@@ -53963,7 +53963,7 @@
 	      (project
 	       (0 8 1)))
 	     "Leverage tab-bar and project for buffer-isolated workspaces" single
-	     ((:commit . "26ca42ecc60f1ae2d06f4cc1b474d48d0973ecd5")
+	     ((:commit . "b099766ebf1876d15cb8722427abb997fc33b8b3")
 	      (:authors
 	       ("Colin McLear" . "mclear@fastmail.com"))
 	      (:maintainer "Colin McLear")
@@ -54738,7 +54738,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "aed16924572adf2889162f336f1c125eeace0db4")
+	  ((:commit . "a4e7eb77b601b30833c4f69973612102ab140967")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -54966,11 +54966,11 @@
 		  (:keywords "convenience")
 		  (:url . "https://github.com/myuhe/tinysegmenter.el"))])
  (titlecase .
-	    [(0 3 0 1 -4 20220227 1900)
+	    [(0 3 0 1 -4 20220427 1552)
 	     ((emacs
 	       (25 1)))
 	     "Title-case phrases" tar
-	     ((:commit . "157b2943f4aa5745d64c77c1ac4b76ce6e60c47b")
+	     ((:commit . "b56c2e3409b46c615d63c7637e04875f58d257db")
 	      (:authors
 	       ("Case Duckworth" . "acdw@acdw.net"))
 	      (:maintainer "Case Duckworth" . "acdw@acdw.net")
