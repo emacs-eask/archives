@@ -1248,7 +1248,7 @@
 		      (:maintainer "asok")
 		      (:keywords "faces"))])
  (all-the-icons-ivy-rich .
-			 [(1 8 0 1 -4 20220411 222)
+			 [(1 8 0 1 -4 20220428 822)
 			  ((emacs
 			    (25 1))
 			   (ivy-rich
@@ -1256,7 +1256,7 @@
 			   (all-the-icons
 			    (2 2 0)))
 			  "Better experience with icons for ivy" single
-			  ((:commit . "4b6123ac7850ca083ec791f50857341635a813aa")
+			  ((:commit . "7d5a04b6beffcc96572d74304d58372a413a0076")
 			   (:authors
 			    ("Vincent Zhang" . "seagle0128@gmail.com"))
 			   (:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
@@ -4900,11 +4900,11 @@
 	    (:keywords "convenience" "writing")
 	    (:url . "https://github.com/kisaragi-hiu/cangjie.el"))])
  (cape .
-       [(0 7 1 -4 20220427 1409)
+       [(0 7 1 -4 20220428 950)
 	((emacs
 	  (27 1)))
 	"Completion At Point Extensions" tar
-	((:commit . "29130e35225fa8e5f5ecc86f2ad2425f7ec3c35d")
+	((:commit . "7f22485d61ddee0063493a25d9800c67421d8a0a")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -9683,7 +9683,7 @@
 	     (ht
 	      (2 3)))
 	    "Debug Adapter Protocol mode" tar
-	    ((:commit . "8beab1282853211eb9c7aa5969dc112ef917cfab")
+	    ((:commit . "ea437b24b059ad5be8ccf7ac8c17838c95657f23")
 	     (:authors
 	      ("Ivan Yonchovski" . "yyoncho@gmail.com"))
 	     (:maintainer "Ivan Yonchovski" . "yyoncho@gmail.com")
@@ -11802,7 +11802,7 @@
 		  (dash
 		   (2 11 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "b42585385b99ea55fc386b1b5aa775c6a117d6b2")
+		 ((:commit . "85bdd9ed8674710f6b9815e9a1c41ad4b5a45ace")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
@@ -13224,7 +13224,7 @@
 		  (hercules
 		   (0 3)))
 		 "Unify all your inboxes with the Emacs secretary" tar
-		 ((:commit . "78a811f02c7104a39b908f9e4c8436abde4b9620")
+		 ((:commit . "c28a4f42829ed1f96a17abb63a8616216db913a5")
 		  (:authors
 		   ("Leo Okawa Ericson <http://github/Zetagon>"))
 		  (:maintainer "Leo" . "github@relevant-information.com")
@@ -13239,7 +13239,7 @@
 			 (elfeed
 			  (3 4 1)))
 			"Add notmuch email inboxes to el-secretario" single
-			((:commit . "78a811f02c7104a39b908f9e4c8436abde4b9620")
+			((:commit . "c28a4f42829ed1f96a17abb63a8616216db913a5")
 			 (:authors
 			  ("Leo Okawa Ericson <http://github/Zetagon>"))
 			 (:maintainer "Leo" . "github@relevant-information.com")
@@ -13254,14 +13254,14 @@
 		       (el-secretario
 			(0 0 1)))
 		      "Add mu4e inboxes to el-secretario" single
-		      ((:commit . "78a811f02c7104a39b908f9e4c8436abde4b9620")
+		      ((:commit . "c28a4f42829ed1f96a17abb63a8616216db913a5")
 		       (:authors
 			("Leo Okawa Ericson <http://github/Zetagon>"))
 		       (:maintainer "Leo" . "github@relevant-information.com")
 		       (:keywords "convenience" "mail")
 		       (:url . "https://git.sr.ht/~zetagon/el-secretario"))])
  (el-secretario-notmuch .
-			[(0 0 1 1 -4 20211214 1851)
+			[(0 0 1 1 -4 20220426 1905)
 			 ((emacs
 			   (27 1))
 			  (el-secretario
@@ -13269,7 +13269,7 @@
 			  (notmuch
 			   (0 3 1)))
 			 "Add notmuch inboxes to el-secretario" single
-			 ((:commit . "78a811f02c7104a39b908f9e4c8436abde4b9620")
+			 ((:commit . "c28a4f42829ed1f96a17abb63a8616216db913a5")
 			  (:authors
 			   ("Leo Okawa Ericson <http://github/Zetagon>"))
 			  (:maintainer "Leo" . "github@relevant-information.com")
@@ -13286,7 +13286,7 @@
 		      (el-secretario
 		       (0 0 1)))
 		     "Create inboxes out of org-mode files for el-secretario" single
-		     ((:commit . "78a811f02c7104a39b908f9e4c8436abde4b9620")
+		     ((:commit . "c28a4f42829ed1f96a17abb63a8616216db913a5")
 		      (:authors
 		       ("Leo Okawa Ericson <http://github/Zetagon>"))
 		      (:maintainer "Leo" . "github@relevant-information.com")
@@ -30203,13 +30203,13 @@
 	    (:maintainer "Rustem Muslimov" . "r.muslimov@gmail.com")
 	    (:keywords "jenkins" "convenience"))])
  (jenkinsfile-mode .
-		   [(0 1 0 1 -4 20220414 542)
+		   [(0 1 0 1 -4 20220428 1113)
 		    ((emacs
 		      (24))
 		     (groovy-mode
 		      (2 0)))
 		    "Major mode for editing Jenkins declarative pipeline syntax" single
-		    ((:commit . "169f7a9aaabe5e0763b53f07e60c20f5d64741c7")
+		    ((:commit . "fa5545be1329df3067dcfd81749bbd99df070d6b")
 		     (:url . "https://github.com/john2x/jenkinsfile-mode"))])
  (jest .
        [(0 1 0 1 -4 20220114 213)
@@ -30793,7 +30793,7 @@
 	       (s
 		(1 12)))
 	      "A minor mode for a Julia REPL" single
-	      ((:commit . "ee4a33f8d0121d0092ae73e0c4c84db6a86ea55c")
+	      ((:commit . "2342003662071cf7b256f0a7cd8f545bcffaf22a")
 	       (:authors
 		("Tamas Papp" . "tkpapp@gmail.com"))
 	       (:maintainer "Tamas Papp" . "tkpapp@gmail.com")
@@ -38161,7 +38161,7 @@
 	       (:keywords "xml" "folding")
 	       (:url . "https://github.com/paddymcall/noxml-fold"))])
  (npm .
-      [(0 1 -4 20220222 1650)
+      [(0 1 -4 20220428 839)
        ((emacs
 	 (25 1))
 	(transient
@@ -38169,7 +38169,7 @@
 	(jest
 	 (20200625)))
        "Run your npm workflows" tar
-       ((:commit . "45d8084aeafae415dc45ddc9c3a18b546315fcc6")
+       ((:commit . "ee1cd8340b737070cb649d367f0cd656e856feb3")
 	(:authors
 	 ("Shane Kennedy"))
 	(:maintainer "Shane Kennedy")
@@ -39136,11 +39136,11 @@
 	  (:keywords "convenience")
 	  (:url . "https://github.com/clemera/objed"))])
  (oblivion-theme .
-		 [(0 1 1 -4 20220411 525)
+		 [(0 1 1 -4 20220428 1039)
 		  ((emacs
 		    (24 1)))
 		  "A port of GEdit oblivion theme" single
-		  ((:commit . "d46983d69d75d8db6284ad297b17eedc495be2eb")
+		  ((:commit . "f2217357bc446b27292d1c0ad6cfe2e331ccec14")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -41486,11 +41486,11 @@
 		       (:maintainer "Akira Komamura" . "akira.komamura@gmail.com")
 		       (:url . "https://github.com/akirak/org-starter"))])
  (org-static-blog .
-		  [(1 5 0 1 -4 20220110 739)
+		  [(1 5 0 1 -4 20220428 923)
 		   ((emacs
 		     (24 3)))
 		   "a simple org-mode based static blog generator" single
-		   ((:commit . "a1a1738b14dfb73be759023e2bd3dffb0792ebeb")
+		   ((:commit . "f74c93cdb84af627543d4ac08d5671f311277ebb")
 		    (:authors
 		     ("Bastian Bechtold"))
 		    (:maintainer "Bastian Bechtold")
@@ -46406,7 +46406,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "cd1baaec0848511c144e8474b5da68876ca59932")
+		 ((:commit . "868ab1469f54ca7a62f11c5366d3e98eb2f727b6")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -46962,7 +46962,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "0e35511ea2f55da8eaa3272468f320195b5f8006")
+	  ((:commit . "7dd8d5158ef4dc7cc2dc732c60b8760894cbb47e")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -49347,7 +49347,7 @@
 	     ((emacs
 	       (25 1)))
 	     "A major-mode for editing Rust source code" tar
-	     ((:commit . "26ecc903c50b2ffd289bbe981f9ad03626fc0057")
+	     ((:commit . "d17be3051b22a06d7742178cd1367aed61807a66")
 	      (:authors
 	       ("Mozilla"))
 	      (:maintainer "Mozilla")
@@ -54738,7 +54738,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "c61c32a829a9e437ec456993c9cbf9f10edbda3b")
+	  ((:commit . "bc62b7fc6bbdc6e2c8472b34e8515ca94b9deda4")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
