@@ -58736,6 +58736,17 @@
 		(:maintainer "Sergey Pashinin <sergey at pashinin dot com>")
 		(:keywords "session" "management" "window-configuration" "persistence")
 		(:url . "https://github.com/pashinin/workgroups2"))])
+ (workroom .
+	   [(1 0 1 -4 20220421 1340)
+	    ((emacs
+	      (27 2)))
+	    "Named rooms for work without irrelevant distracting buffers" single
+	    ((:commit . "fd6edce3726747723b50ec74584032006768640f")
+	     (:authors
+	      ("Akib Azmain Turja" . "akib@disroot.org"))
+	     (:maintainer "Akib Azmain Turja" . "akib@disroot.org")
+	     (:keywords "tools" "convenience")
+	     (:url . "https://codeberg.org/akib/emacs-workroom"))])
  (world-time-mode .
 		  [(0 0 6 1 -4 20140627 807)
 		   nil "show whole days of world-time diffs" single
