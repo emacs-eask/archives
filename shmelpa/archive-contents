@@ -21257,11 +21257,11 @@
 	    (:keywords "languages" "tools" "gams-mode" "auto-complete")
 	    (:url . "https://github.com/ShiroTakeda/gams-ac"))])
  (gams-mode .
-	    [(6 8 1 -4 20220429 238)
+	    [(6 9 1 -4 20220501 1507)
 	     ((emacs
 	       (24 3)))
 	     "Major mode for General Algebraic Modeling System (GAMS)" tar
-	     ((:commit . "7505c59eecd3d42c2ce38aa08da196165eeb89d0")
+	     ((:commit . "1964d9a52693f3aa9279eed8864bc317ee5c6dc4")
 	      (:authors
 	       ("Shiro Takeda"))
 	      (:maintainer "Shiro Takeda")
@@ -29339,11 +29339,11 @@
 	   (:keywords "itasca" "flac" "3dec" "udec" "flac3d" "pfc" "pfc2d" "pfc3d" "fish")
 	   (:url . "http://github.com/jkfurtney/itasca-emacs/"))])
  (iter2 .
-	[(1 1 1 -4 20211119 1718)
+	[(1 2 1 -4 20220501 1542)
 	 ((emacs
 	   (25 1)))
 	 "Reimplementation of Elisp generators" single
-	 ((:commit . "f82bd78f5bc89548ee70c1713f6f882526debbdb")
+	 ((:commit . "1abca3665ecfa6b016311906560f8be4fbb3e3db")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
@@ -30826,13 +30826,13 @@
 	       ((:commit . "d72afe0e06909ee5a66ca7d60eef4111f62da234")
 		(:url . "https://github.com/gcv/julia-snail"))])
  (julia-vterm .
-	      [(0 13 1 -4 20210410 40)
+	      [(0 14 1 -4 20220501 1529)
 	       ((emacs
 		 (25 1))
 		(vterm
 		 (0 0 1)))
 	       "A mode for Julia REPL using vterm" single
-	       ((:commit . "d57448466c11833d4fd67f5dbbea9cb9a07a74e2")
+	       ((:commit . "d36dde1c7eaac7c55a4cefa6f27ba08fc8d67102")
 		(:authors
 		 ("Shigeaki Nishina"))
 		(:maintainer "Shigeaki Nishina")
@@ -32335,9 +32335,9 @@
 		(:keywords "whitespace" "characters")
 		(:url . "http://github.com/fgeller/leerzeichen.el"))])
  (leetcode .
-	   [(0 1 24 1 -4 20220206 1515)
+	   [(0 1 25 1 -4 20220501 1707)
 	    ((emacs
-	      (26))
+	      (26 1))
 	     (dash
 	      (2 16 0))
 	     (graphql
@@ -32349,7 +32349,7 @@
 	     (log4e
 	      (0 3 3)))
 	    "An leetcode client" single
-	    ((:commit . "b3103bd08c8943091f702c66d674f0f27ef7fe0b")
+	    ((:commit . "0db97dec51ec8eff6682239aff60ff48c5be65c4")
 	     (:authors
 	      ("Wang Kai" . "kaiwkx@gmail.com"))
 	     (:maintainer "Wang Kai" . "kaiwkx@gmail.com")
@@ -46708,13 +46708,16 @@
        (:maintainer "Aur\303\251lien Aptel" . "aurelien.aptel@gmail.com")
        (:url . "http://github.com/aaptel/preview-latex"))])
  (py-autopep8 .
-	      [(2016 1 1 -4 20160925 1052)
-	       nil "Use autopep8 to beautify a Python buffer" single
-	       ((:commit . "68e12d8788c91c7ec53a68acf1d23adb2ffa4788")
+	      [(2016 1 1 -4 20220426 233)
+	       ((emacs
+		 (26 1)))
+	       "Use autopep8 to beautify a Python buffer" single
+	       ((:commit . "28c1b01093078e6cc2d16ab1b52886e76b768530")
 		(:authors
-		 ("Friedrich Paetzke" . "f.paetzke@gmail.com"))
-		(:maintainer "Friedrich Paetzke" . "f.paetzke@gmail.com")
-		(:url . "http://paetzke.me/project/py-autopep8.el"))])
+		 ("Friedrich Paetzk" . "f.paetzke@gmail.com"))
+		(:maintainer "Friedrich Paetzk" . "f.paetzke@gmail.com")
+		(:keywords "convenience")
+		(:url . "https://github.com/ideasman42/emacs-py-autopep8"))])
  (py-gnitset .
 	     [(0 1 1 -4 20170821 1732)
 	      nil "Run your Python tests any way you'd like" single
@@ -46962,7 +46965,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "dede647aba2b2c64cd91fdc31fcd682ebfda26cf")
+	  ((:commit . "76b853836801188667cf47f45b45493ef27d178c")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -49652,7 +49655,7 @@
  (scad-mode .
 	    [(92 0 1 -4 20200830 301)
 	     nil "A major mode for editing OpenSCAD code" single
-	     ((:commit . "68c63f61b1fb9ce008c8e71c1b6374ef4850f434")
+	     ((:commit . "5a0eb0a10299fe7d6ab59081080bb81340e3d39c")
 	      (:authors
 	       ("Len Trigg, \305\201ukasz Stelmach"))
 	      (:maintainer "Len Trigg" . "lenbok@gmail.com")
@@ -54753,7 +54756,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "55c3cabfe9c68062b234d0c85e3d70fa0e1b8aa4")
+	  ((:commit . "f7a27a8f7fba7b08cc8ff2452afe8e5ecd99acca")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -54917,11 +54920,11 @@
 	 (:keywords "internal" "lisp" "processes" "tools")
 	 (:url . "https://github.com/mola-T/timp"))])
  (timu-spacegrey-theme .
-		       [(2 0 1 -4 20220425 1850)
+		       [(2 0 1 -4 20220501 1509)
 			((emacs
 			  (25 1)))
 			"Color theme inspired by the Spacegray theme in Sublime Text" single
-			((:commit . "9e1a12a494537472fb1f9f9f23dc38b8bca1f9af")
+			((:commit . "1318c58a118c6c5a95a82e71da5eda6bfcf8f143")
 			 (:authors
 			  ("Aim\303\251 Bertrand" . "aime.bertrand@macowners.club"))
 			 (:maintainer "Aim\303\251 Bertrand" . "aime.bertrand@macowners.club")
@@ -56745,15 +56748,15 @@
 	    (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
 	    (:url . "https://github.com/jcs-elpa/use-ttf"))])
  (utimeclock .
-	     [(0 1 1 -4 20220211 548)
+	     [(0 1 1 -4 20220425 939)
 	      ((emacs
 		(24 4)))
 	      "Simple utility for manual time tracking" single
-	      ((:commit . "770305ffba2e74e6df5beadd204a1c8442b88299")
+	      ((:commit . "cfd5109e004d3e2522f5e758b3ff7238fcf385d6")
 	       (:authors
 		("Campbell Barton" . "ideasman42@gmail.com"))
 	       (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-	       (:url . "https://gitlab.com/ideasman42/emacs-utimeclock"))])
+	       (:url . "https://codeberg.org/ideasman42/emacs-utimeclock"))])
  (utop .
        [(1 11 1 -4 20210607 1941)
 	((emacs
@@ -58202,6 +58205,17 @@
 		       (:maintainer "Yanghao Xie" . "yhaoxie@gmail.com")
 		       (:keywords "convenience" "bindings" "tooltip")
 		       (:url . "https://github.com/yanghaoxie/which-key-posframe"))])
+ (whiley-mode .
+	      [(1 0 1 -4 20220420 2228)
+	       ((emacs
+		 (24 1)))
+	       "Major mode for Whiley language" single
+	       ((:commit . "15f579150884876bb8e334f2a8135237cad4dd26")
+		(:authors
+		 ("David J. Pearce" . "dave01001110@gmail.com"))
+		(:maintainer "David J. Pearce" . "dave01001110@gmail.com")
+		(:keywords "languages")
+		(:url . "http://github.com/Whiley/WhileyEmacsMode"))])
  (whitaker .
 	   [(0 0 3 1 -4 20210203 1149)
 	    ((emacs
