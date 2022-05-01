@@ -1713,11 +1713,11 @@
 	"A Portable Emacs Library provides support for portable Emacs Lisp programs" tar
 	((:commit . "6947dc4605ebbb87762edf7051a78a3f7b5f17c5"))])
  (apheleia .
-	   [(2 0 1 -4 20220417 1859)
+	   [(2 0 1 -4 20220501 2151)
 	    ((emacs
 	      (26)))
 	    "Reformat buffer stably" single
-	    ((:commit . "9804f241ac8235027ea91a49d3c6275ecbaae203")
+	    ((:commit . "50da8cd1a94fbcd6456b2528a9db20a5cfc8ff5f")
 	     (:authors
 	      ("Radon Rosborough" . "radon.neon@gmail.com"))
 	     (:maintainer "Radon Rosborough" . "radon.neon@gmail.com")
@@ -5113,7 +5113,7 @@
  (ccc .
       [(0 1 0 1 -4 20210501 820)
        nil "buffer local cursor color control library" single
-       ((:commit . "5c209e0306364118abf9d9440d7b8b9613183072")
+       ((:commit . "c664b26d0861621ac86b5b5f47835dd84f06dc93")
 	(:authors
 	 ("Masatake YAMATO" . "masata-y@is.aist-nara.ac.jp"))
 	(:maintainer "SKK Development Team")
@@ -5144,7 +5144,7 @@
  (cdb .
       [(0 1 0 1 -4 20200904 1431)
        nil "constant database (cdb) reader for Emacs Lisp" single
-       ((:commit . "5c209e0306364118abf9d9440d7b8b9613183072")
+       ((:commit . "c664b26d0861621ac86b5b5f47835dd84f06dc93")
 	(:authors
 	 ("Yusuke Shinyama <yusuke at cs . nyu . edu>"))
 	(:maintainer "SKK Development Team")
@@ -8258,6 +8258,19 @@
 		(:maintainer "Tomoya Otake" . "tomoya.ton@gmail.com")
 		(:keywords "convenience" "usability" "consult" "ghq")
 		(:url . "https://github.com/tomoya/consult-ghq"))])
+ (consult-ls-git .
+		 [(0 1 1 -4 20220501 1823)
+		  ((emacs
+		    (27 1))
+		   (consult
+		    (0 16)))
+		  "Consult integration for git" single
+		  ((:commit . "f2398b354994e583ad22af324a129cf94d06009e")
+		   (:authors
+		    ("Robin Joy"))
+		   (:maintainer "Robin Joy")
+		   (:keywords "convenience")
+		   (:url . "https://github.com/rcj/consult-ls-git"))])
  (consult-lsp .
 	      [(1 0 1 -4 20220409 1107)
 	       ((emacs
