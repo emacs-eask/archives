@@ -33650,7 +33650,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20220430 1115)
+	   [(8 0 1 1 -4 20220502 459)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -33666,7 +33666,7 @@
 	     (lv
 	      (0)))
 	    "LSP mode" tar
-	    ((:commit . "03ac31f352fdc07f770314404ccaffe52a640cbb")
+	    ((:commit . "f7b363082f28aaf54b354912cd3ad3253a1e5fe4")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -33829,7 +33829,7 @@
 		    (:keywords "language" "tools")
 		    (:url . "https://github.com/merrickluo/lsp-tailwindcss"))])
  (lsp-treemacs .
-	       [(0 4 1 -4 20220328 625)
+	       [(0 4 1 -4 20220502 459)
 		((emacs
 		  (26 1))
 		 (dash
@@ -33843,7 +33843,7 @@
 		 (lsp-mode
 		  (6 0)))
 		"LSP treemacs" tar
-		((:commit . "b330241cdba9826a82c0b9a00ebf74e2e4d21e93")
+		((:commit . "9859326df6b8e8c954a3c227e53b6878e54aaae8")
 		 (:authors
 		  ("Ivan Yonchovski"))
 		 (:maintainer "Ivan Yonchovski")
@@ -34035,13 +34035,13 @@
 	       (:keywords "games" "word games" "anagram")
 	       (:url . "https://github.com/pawelbx/anagram-game"))])
  (macports .
-	   [(0 1 0 1 -4 20220428 44)
+	   [(0 1 0 1 -4 20220502 422)
 	    ((emacs
 	      (25 1))
 	     (transient
 	      (0 1 0)))
 	    "A porcelain for MacPorts" tar
-	    ((:commit . "b57d1bea51a1fea0fd64c71348fb3ca26993c892")
+	    ((:commit . "a96f26b325cc7c95d9835217556fb3cb544d5c0b")
 	     (:authors
 	      ("Aaron Madlon-Kay"))
 	     (:maintainer "Aaron Madlon-Kay")
@@ -36115,11 +36115,11 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(2 3 2 1 -4 20220427 1414)
+	       [(2 3 2 1 -4 20220502 513)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "a42c1710389eab741bb2921b575e3fa7b678eddd")
+		((:commit . "493c8e8cc6dbe2c0a4389d40df94540e3a5c96f3")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
@@ -37416,6 +37416,17 @@
 		     ("Robert Cochran" . "robert-git@cochranmail.com"))
 		    (:maintainer "Robert Cochran" . "robert-git@cochranmail.com")
 		    (:url . "https://gitlab.com/RobertCochran/neato-graph-bar"))])
+ (neil .
+       [(0 0 1 1 -4 20220501 2053)
+	((emacs
+	  (27 1)))
+	"companion for Babashka Neil" single
+	((:commit . "239c16655431b27ee558bf250bece4f4b10a0e83")
+	 (:authors
+	  ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
+	 (:maintainer "Ag Ibragimov" . "agzam.ibragimov@gmail.com")
+	 (:keywords "convenience" "tools")
+	 (:url . "https://github.com/babashka/neil"))])
  (nemerle .
 	  [(0 2 1 -4 20161029 2023)
 	   nil "major mode for editing nemerle programs" single
