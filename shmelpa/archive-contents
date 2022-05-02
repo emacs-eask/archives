@@ -29736,7 +29736,7 @@
 		 (:keywords "abbrev" "convenience" "matching" "ivy")
 		 (:url . "https://github.com/tumashu/ivy-posframe"))])
  (ivy-prescient .
-		[(5 2 1 -4 20211228 417)
+		[(5 2 1 -4 20220501 2235)
 		 ((emacs
 		   (25 1))
 		  (prescient
@@ -29744,7 +29744,7 @@
 		  (ivy
 		   (0 11 0)))
 		 "prescient.el + Ivy" single
-		 ((:commit . "c5295a9eecbd2935bb57684a4422638e03bf738c")
+		 ((:commit . "d9b30d741c729a37eb2c6e51d72281c0844780ca")
 		  (:authors
 		   ("Radon Rosborough" . "radon.neon@gmail.com"))
 		  (:maintainer "Radon Rosborough" . "radon.neon@gmail.com")
@@ -34034,6 +34034,19 @@
 	       (:maintainer "Pawel Bokota" . "pawelb.lnx@gmail.com")
 	       (:keywords "games" "word games" "anagram")
 	       (:url . "https://github.com/pawelbx/anagram-game"))])
+ (macports .
+	   [(0 1 0 1 -4 20220428 44)
+	    ((emacs
+	      (25 1))
+	     (transient
+	      (0 1 0)))
+	    "A porcelain for MacPorts" tar
+	    ((:commit . "14b7c13c4e697b2c905d3ed30050420b3c8f995b")
+	     (:authors
+	      ("Aaron Madlon-Kay"))
+	     (:maintainer "Aaron Madlon-Kay")
+	     (:keywords "convenience")
+	     (:url . "https://github.com/amake/macports.el"))])
  (macro-math .
 	     [(1 0 1 -4 20130328 1604)
 	      nil "in-buffer mathematical operations" single
@@ -35313,11 +35326,11 @@
 	   (:keywords "comm" "processes" "bittorrent")
 	   (:url . "https://github.com/skangas/mentor"))])
  (meow .
-       [(1 4 2 1 -4 20220430 2010)
+       [(1 4 2 1 -4 20220501 1918)
 	((emacs
 	  (27 1)))
 	"Yet Another modal editing" tar
-	((:commit . "0f85569e9561c791608803cf019bdbf7d60a389d")
+	((:commit . "72d6ff36b62a57aa9c9dbfbd44cdb3002a0e940a")
 	 (:authors
 	  ("Shi Tianshu"))
 	 (:maintainer "Shi Tianshu")
@@ -37906,7 +37919,7 @@
 	    (:keywords "keyboard" "tools")
 	    (:url . "https://github.com/mamapanda/no-spam"))])
  (noaa .
-       [(0 1 1 -4 20220430 2218)
+       [(0 1 1 -4 20220501 2104)
 	((emacs
 	  (27 1))
 	 (request
@@ -37914,7 +37927,7 @@
 	 (dash
 	  (2 14 1)))
 	"Get NOAA weather data" single
-	((:commit . "d9c3adc777fc7cf7a76e8349b2d462f87d5244da")
+	((:commit . "915b468ce051dda9d91932b2b305bd8e8da99708")
 	 (:authors
 	  ("David Thompson"))
 	 (:maintainer "David Thompson")
@@ -39939,19 +39952,17 @@
 		 (:maintainer "Alexey Kutepov" . "reximkut@gmail.com")
 		 (:url . "http://github.com/rexim/org-cliplink"))])
  (org-clock-convenience .
-			[(1 2 1 -4 20200705 1527)
-			 ((cl-lib
-			   (0 5))
-			  (org
+			[(1 2 1 -4 20220501 916)
+			 ((org
 			   (8))
 			  (emacs
 			   (24 3)))
-			 "convenience functions for org time tracking" single
-			 ((:commit . "efc9773a8dedf834cf4a78fb6f5f8fffe55ef8eb")
+			 "Convenience functions for org time tracking" single
+			 ((:commit . "47ffb66c8daf2e563de12eb1c925012a4a632c16")
 			  (:authors
 			   ("Derek Feichtinger <dfeich.gmail.com>"))
 			  (:maintainer "Derek Feichtinger <dfeich.gmail.com>")
-			  (:keywords "org")
+			  (:keywords "convenience")
 			  (:url . "https://github.com/dfeich/org-clock-convenience"))])
  (org-clock-csv .
 		[(1 2 1 -4 20201222 1506)
@@ -45783,7 +45794,7 @@
 	     ((emacs
 	       (25 1)))
 	     "Better sorting and filtering" single
-	     ((:commit . "c5295a9eecbd2935bb57684a4422638e03bf738c")
+	     ((:commit . "d9b30d741c729a37eb2c6e51d72281c0844780ca")
 	      (:authors
 	       ("Radon Rosborough" . "radon.neon@gmail.com"))
 	      (:maintainer "Radon Rosborough" . "radon.neon@gmail.com")
@@ -46978,7 +46989,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "76b853836801188667cf47f45b45493ef27d178c")
+	  ((:commit . "1dcb90a552432bcdc67f8f7b241ac3cd746ebe7d")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -50120,7 +50131,7 @@
 			(selectrum
 			 (3 1)))
 		       "Selectrum integration" single
-		       ((:commit . "c5295a9eecbd2935bb57684a4422638e03bf738c")
+		       ((:commit . "d9b30d741c729a37eb2c6e51d72281c0844780ca")
 			(:authors
 			 ("Radon Rosborough" . "radon.neon@gmail.com"))
 			(:maintainer "Radon Rosborough" . "radon.neon@gmail.com")
@@ -50190,6 +50201,21 @@
 	   (:maintainer "DarkSun" . "lujun9972@gmail.com")
 	   (:keywords "convenience" "region")
 	   (:url . "https://github.com/lujun9972/sendto.el"))])
+ (sensei .
+	 [(0 41 0 1 -4 20220428 715)
+	  ((emacs
+	    (27 1))
+	   (projectile
+	    (2 5 0))
+	   (request
+	    (0 3 2)))
+	  "A client for sensei" single
+	  ((:commit . "ee40bf2ad087262dcd263b7b53638dc81153f20a")
+	   (:authors
+	    ("Arnaud Bailly" . "arnaud@pankzsoft.com"))
+	   (:maintainer "Arnaud Bailly" . "arnaud@pankzsoft.com")
+	   (:keywords "hypermedia")
+	   (:url . "https://abailly.github.io/sensei"))])
  (sensitive .
 	    [(1 0 1 1 -4 20170818 1251)
 	     ((emacs
@@ -55139,11 +55165,11 @@
 		  (:keywords "hide" "window")
 		  (:url . "https://github.com/deadghost/toggle-window"))])
  (tok-theme .
-	    [(0 1 1 -4 20220424 1852)
+	    [(0 1 1 -4 20220501 2130)
 	     ((emacs
 	       (26 1)))
-	     "Minimal theme with light and yellow color scheme" single
-	     ((:commit . "f0bdc2aa4c6f1e463a3027a5e194f6dab3d0fda6")
+	     "Minimal theme with dark and yellow color scheme" single
+	     ((:commit . "4efb664ed48df333b29ac06fc99dd529c08a3acc")
 	      (:authors
 	       ("Topi Kettunen" . "topi@topikettunen.com"))
 	      (:maintainer "Topi Kettunen" . "topi@topikettunen.com")
@@ -56802,6 +56828,16 @@
 	      (:maintainer "Kevin Borling")
 	      (:keywords "custom themes" "dark" "faces")
 	      (:url . "https://github.com/kborling/uwu-theme"))])
+ (uxntal-mode .
+	      [(0 2 1 -4 20220501 1900)
+	       ((emacs
+		 (27 1)))
+	       "Major mode for Uxntal assembly" single
+	       ((:commit . "a72ad9c329ea3b810a58a47d3d0f018247aa317a")
+		(:authors
+		 ("d_m" . "d_m@plastic-idolatry.com"))
+		(:maintainer "d_m" . "d_m@plastic-idolatry.com")
+		(:url . "https://github.com/non/uxntal-mode"))])
  (v-mode .
 	 [(0 0 1 1 -4 20220104 142)
 	  ((emacs
@@ -58219,11 +58255,11 @@
 		       (:keywords "convenience" "bindings" "tooltip")
 		       (:url . "https://github.com/yanghaoxie/which-key-posframe"))])
  (whiley-mode .
-	      [(1 0 1 -4 20220420 2228)
+	      [(1 0 1 1 -4 20220501 2219)
 	       ((emacs
 		 (24 1)))
 	       "Major mode for Whiley language" single
-	       ((:commit . "15f579150884876bb8e334f2a8135237cad4dd26")
+	       ((:commit . "69eb67cf41dad029f1456079aea62a4b61ca9b46")
 		(:authors
 		 ("David J. Pearce" . "dave01001110@gmail.com"))
 		(:maintainer "David J. Pearce" . "dave01001110@gmail.com")
