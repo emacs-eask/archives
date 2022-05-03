@@ -2753,7 +2753,7 @@
 		       (avy
 			(0 5)))
 		      "Use avy to jump to Embark Collect entries" single
-		      ((:commit . "5bdf21c0b5841af86f9508929e8463474dd822fd")
+		      ((:commit . "254609cb6c685e65ec276140ad6aa7c96cff9509")
 		       (:authors
 			("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		       (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -14436,11 +14436,11 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 16 1 -4 20220502 2008)
+	 [(0 16 1 -4 20220502 2354)
 	  ((emacs
 	    (26 1)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "5bdf21c0b5841af86f9508929e8463474dd822fd")
+	  ((:commit . "254609cb6c685e65ec276140ad6aa7c96cff9509")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -14455,7 +14455,7 @@
 		   (consult
 		    (0 10)))
 		  "Consult integration for Embark" single
-		  ((:commit . "5bdf21c0b5841af86f9508929e8463474dd822fd")
+		  ((:commit . "254609cb6c685e65ec276140ad6aa7c96cff9509")
 		   (:authors
 		    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -21289,9 +21289,9 @@
 		  (:maintainer "Peter Vasil" . "mail@petervasil.net")
 		  (:keywords "color" "theme"))])
  (gap-mode .
-	   [(2 0 1 -4 20191110 2237)
+	   [(2 0 1 1 -4 20220503 20)
 	    nil "Major mode for editing files in the GAP programing language." tar
-	    ((:commit . "62adb8935033eead7fbf2c107c2dfb79afa53c67")
+	    ((:commit . "b217b94bcfae5657b86424c56d8b053973b92e1f")
 	     (:authors
 	      ("Michael Smith" . "smith@pell.anu.edu.au")
 	      ("Gary Zablackis")
@@ -21972,7 +21972,7 @@
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "437dfe95e92a2619f73f66355bdcdad5a77545f4")
+	      ((:commit . "547ad9e39341c9a9dc37b2c88acb487d737a8e3b")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -30839,13 +30839,13 @@
 	       ((:commit . "d72afe0e06909ee5a66ca7d60eef4111f62da234")
 		(:url . "https://github.com/gcv/julia-snail"))])
  (julia-vterm .
-	      [(0 14 1 -4 20220501 1529)
+	      [(0 15 1 -4 20220503 7)
 	       ((emacs
 		 (25 1))
 		(vterm
 		 (0 0 1)))
 	       "A mode for Julia REPL using vterm" single
-	       ((:commit . "d36dde1c7eaac7c55a4cefa6f27ba08fc8d67102")
+	       ((:commit . "443924f6eb77d64a20b4b34a99d3c7d2d54f73a8")
 		(:authors
 		 ("Shigeaki Nishina"))
 		(:maintainer "Shigeaki Nishina")
@@ -34035,13 +34035,13 @@
 	       (:keywords "games" "word games" "anagram")
 	       (:url . "https://github.com/pawelbx/anagram-game"))])
  (macports .
-	   [(0 1 0 1 -4 20220502 1033)
+	   [(0 1 0 1 -4 20220503 151)
 	    ((emacs
 	      (25 1))
 	     (transient
 	      (0 1 0)))
 	    "A porcelain for MacPorts" tar
-	    ((:commit . "e5e7641db3d4ea89270f58cc1d74bf714a466ee5")
+	    ((:commit . "af3361c2d54654d6dd28e5d1212123a375eec2d8")
 	     (:authors
 	      ("Aaron Madlon-Kay"))
 	     (:maintainer "Aaron Madlon-Kay")
@@ -34152,7 +34152,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "437dfe95e92a2619f73f66355bdcdad5a77545f4")
+	 ((:commit . "547ad9e39341c9a9dc37b2c88acb487d737a8e3b")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -34343,7 +34343,7 @@
 		 (magit
 		  (20211004)))
 		"(POC) Teach Magit to use Libgit2." tar
-		((:commit . "437dfe95e92a2619f73f66355bdcdad5a77545f4")
+		((:commit . "547ad9e39341c9a9dc37b2c88acb487d737a8e3b")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -34416,7 +34416,7 @@
 		      (:keywords "magit" "vc")
 		      (:url . "http://github.com/jtamagnan/magit-reviewboard"))])
  (magit-section .
-		[(3 3 0 -4 20220429 1720)
+		[(3 3 0 -4 20220502 2245)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -34424,7 +34424,7 @@
 		  (dash
 		   (20210826)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "437dfe95e92a2619f73f66355bdcdad5a77545f4")
+		 ((:commit . "547ad9e39341c9a9dc37b2c88acb487d737a8e3b")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -46454,7 +46454,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "95da0ba5b43e5ac6cc12590566ca945b0c848793")
+		 ((:commit . "cdc11c2d2d314ce0382fe0eaa715e5e0e1270438")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -46760,7 +46760,7 @@
 	       ((emacs
 		 (26 1)))
 	       "Use autopep8 to beautify a Python buffer" single
-	       ((:commit . "026e74bbf52d24126d12187d523390b85e2ac638")
+	       ((:commit . "40b0288bf780e308e9760d3dba1fa7bbd14113f9")
 		(:authors
 		 ("Friedrich Paetzk" . "f.paetzke@gmail.com"))
 		(:maintainer "Friedrich Paetzk" . "f.paetzke@gmail.com")
@@ -54819,7 +54819,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "dc94e1a34d712ee4534bb1cb49007d1afe64be6c")
+	  ((:commit . "377bdd4475dcad90f7a0079dcaaf00975d71245e")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -55261,11 +55261,11 @@
 	   (:keywords "tools")
 	   (:url . "https://github.com/xuchunyang/tongbu.el"))])
  (topspace .
-	   [(0 2 1 1 -4 20220502 449)
+	   [(0 2 1 1 -4 20220503 238)
 	    ((emacs
 	      (25 1)))
 	    "Scroll down & recenter top lines / get upper margins/padding" single
-	    ((:commit . "25020db16f988690bdf94ec4ca370afbf23dfbbd")
+	    ((:commit . "3531e9f84c4a54792c0680acf48eb48c91c658d9")
 	     (:authors
 	      ("Trevor Edwin Pogue" . "trevor.pogue@gmail.com"))
 	     (:maintainer "Trevor Edwin Pogue" . "trevor.pogue@gmail.com")
