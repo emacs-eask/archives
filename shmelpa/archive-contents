@@ -6422,7 +6422,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "ef10e61b6b7d3bb264cdbf72e143dbef7be8c736"))])
+	      ((:commit . "e0dbca93aae6b01f8b239d346a0bc99d2ca2473e"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -6521,7 +6521,7 @@
 		 (:maintainer "DarkSun" . "lujun9972@gmail.com")
 		 (:keywords "lisp" "code"))])
  (code-review .
-	      [(0 0 7 1 -4 20220503 203)
+	      [(0 0 7 1 -4 20220503 1344)
 	       ((emacs
 		 (25 1))
 		(closql
@@ -6543,7 +6543,7 @@
 		(emojify
 		 (1 2)))
 	       "Perform code review from Github, Gitlab, and Bitbucket Cloud" tar
-	       ((:commit . "9cf84cd867d27433e0c8097f0d33cb3ade64f5ca")
+	       ((:commit . "d38fbe59304ed31c759ce733cda16f69a8ef2d8c")
 		(:authors
 		 ("Wanderson Ferreira <https://github.com/wandersoncferreira>"))
 		(:maintainer "Wanderson Ferreira" . "wand@hey.com")
@@ -8149,11 +8149,11 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 17 1 -4 20220502 1450)
+	  [(0 17 1 -4 20220503 1654)
 	   ((emacs
 	     (27 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "87a9499c7b11fe230ee38b88a1606554132824dd")
+	   ((:commit . "36fa2d97a7bf91ab855cc61bc1157f0f0af6631f")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -9676,7 +9676,7 @@
 	  (:keywords "haskell" "tools")
 	  (:url . "https://github.com/jyp/dante"))])
  (dap-mode .
-	   [(0 7 1 -4 20220502 1644)
+	   [(0 7 1 -4 20220503 1552)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -9696,7 +9696,7 @@
 	     (ht
 	      (2 3)))
 	    "Debug Adapter Protocol mode" tar
-	    ((:commit . "1a5ed8d156dfb24caf0fe23e05b39d97b740d8f3")
+	    ((:commit . "d036abe26853f8a5353703edae06cd9172ffb90e")
 	     (:authors
 	      ("Ivan Yonchovski" . "yyoncho@gmail.com"))
 	     (:maintainer "Ivan Yonchovski" . "yyoncho@gmail.com")
@@ -11187,11 +11187,11 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 2 0 1 -4 20220503 433)
+	  [(1 2 0 1 -4 20220503 1706)
 	   ((emacs
 	     (27 1)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "4b1254f0f6a34093014b5cb3f3af30c1de1ad705")
+	   ((:commit . "a03f651791f50f1e49afb1bc4282af25bfec747e")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -11842,7 +11842,7 @@
 		(cl-lib
 		 (0 5)))
 	       "an opinionated pack of modern color-themes" tar
-	       ((:commit . "872ea5a7c7b2d9cc9e1370f397488e8f92149b67")
+	       ((:commit . "3aa9ae1daf84fc24aeff3b88f5148bd84aa72bea")
 		(:authors
 		 ("Henrik Lissner <https://github.com/hlissner>"))
 		(:maintainer "Henrik Lissner" . "contact@henrik.io")
@@ -12180,7 +12180,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "b0b9ea1165418dd669344fe2ff3519417f1235f1")
+	((:commit . "00b90bcdeb237e87da78407e11abe790cd0cdb25")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -14436,18 +14436,18 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 16 1 -4 20220503 247)
+	 [(0 16 1 -4 20220503 1452)
 	  ((emacs
 	    (26 1)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "d4e4498c871f7edf32b59a731c582a74059157c5")
+	  ((:commit . "4144c1900b72cf6eec73429ca32b0b79d9678c4f")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
 	   (:keywords "convenience")
 	   (:url . "https://github.com/oantolin/embark"))])
  (embark-consult .
-		 [(0 5 1 -4 20220502 2012)
+		 [(0 5 1 -4 20220503 1657)
 		  ((emacs
 		    (27 1))
 		   (embark
@@ -14455,7 +14455,7 @@
 		   (consult
 		    (0 10)))
 		  "Consult integration for Embark" single
-		  ((:commit . "d4e4498c871f7edf32b59a731c582a74059157c5")
+		  ((:commit . "4144c1900b72cf6eec73429ca32b0b79d9678c4f")
 		   (:authors
 		    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -15218,7 +15218,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "09df89ad0bfab6ab1c3e20aac77ca8c70b84bb08")
+	  ((:commit . "71b0d4e7cfe121a06d104593d8c56f4ff26b5276")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -21289,9 +21289,9 @@
 		  (:maintainer "Peter Vasil" . "mail@petervasil.net")
 		  (:keywords "color" "theme"))])
  (gap-mode .
-	   [(2 0 1 1 -4 20220503 20)
+	   [(2 0 1 1 -4 20220503 1555)
 	    nil "Major mode for editing files in the GAP programing language." tar
-	    ((:commit . "b217b94bcfae5657b86424c56d8b053973b92e1f")
+	    ((:commit . "99237f714c28981142674e8cfeb155863c834858")
 	     (:authors
 	      ("Michael Smith" . "smith@pell.anu.edu.au")
 	      ("Gary Zablackis")
@@ -21449,13 +21449,13 @@
 		  (:keywords "languages" "gambit" "scheme" "geiser")
 		  (:url . "https://gitlab.com/emacs-geiser/gambit"))])
  (geiser-gauche .
-		[(0 0 2 1 -4 20210911 1041)
+		[(0 0 2 1 -4 20220503 1700)
 		 ((emacs
 		   (26 1))
 		  (geiser
 		   (0 11 2)))
 		 "Gauche scheme support for Geiser" tar
-		 ((:commit . "fd52cbaed9b0a0d0f10e87674b5747e5ee44ebc9")
+		 ((:commit . "8ff743f6416f00751e24aef8b9791501a40f5421")
 		  (:authors
 		   ("Andr\303\241s Simonyi" . "andras.simonyi@gmail.com"))
 		  (:maintainer "Andr\303\241s Simonyi" . "andras.simonyi@gmail.com")
@@ -32638,7 +32638,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "62c6bb05d9dafa81298b72a9a5b41ab103434ef5")
+	     ((:commit . "d41a070f76c04315dfc8906de4c473724f11f16c")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
