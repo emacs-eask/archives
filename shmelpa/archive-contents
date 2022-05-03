@@ -12180,7 +12180,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "1638e8c3cfd2a2ff3f716ba2090402b3145ef0d3")
+	((:commit . "b0b9ea1165418dd669344fe2ff3519417f1235f1")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -12984,7 +12984,7 @@
 		(:maintainer "Satoshi Egi" . "egisatoshi@gmail.com")
 		(:url . "https://github.com/egisatoshi/egison3/blob/master/elisp/egison-mode.el"))])
  (eglot .
-	[(1 8 1 -4 20220427 1148)
+	[(1 8 1 -4 20220503 953)
 	 ((emacs
 	   (26 1))
 	  (jsonrpc
@@ -13000,7 +13000,7 @@
 	  (seq
 	   (2 23)))
 	 "Client for Language Server Protocol (LSP) servers" single
-	 ((:commit . "7f1f09347214ebb6e0395f3e27a04f87f544ffdd")
+	 ((:commit . "f8556b7e76ef7086191c469979274e499d992aed")
 	  (:authors
 	   ("Jo\303\243o T\303\241vora" . "joaotavora@gmail.com"))
 	  (:maintainer "Jo\303\243o T\303\241vora" . "joaotavora@gmail.com")
@@ -14882,7 +14882,7 @@
 	  (:keywords "comm" "processes" "terminals" "unix")
 	  (:url . "https://github.com/sean-hut/eping"))])
  (epkg .
-       [(0 1 0 1 -4 20220423 1552)
+       [(0 1 0 1 -4 20220503 1115)
 	((emacs
 	  (25 1))
 	 (compat
@@ -14890,7 +14890,7 @@
 	 (closql
 	  (20210927)))
 	"Browse the Emacsmirror package database" tar
-	((:commit . "5dd40e242f305859a26ebbd6249e7cbf7361e005")
+	((:commit . "384222d9396f14e6b36a8d67abe6b3ede7418f0b")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -15218,7 +15218,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "69d46de5257de386525e083727be541922f241c0")
+	  ((:commit . "09df89ad0bfab6ab1c3e20aac77ca8c70b84bb08")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -15997,7 +15997,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20220503 716)
+       [(1 15 0 1 -4 20220503 1314)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -16005,7 +16005,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "37699af1c76e18b4d4b1e16422779a86c6f40628")
+	((:commit . "f6866b5d2b85a38ad8029f83b113371d1b3aecd1")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulation" "vim")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -16758,11 +16758,11 @@
 			   (:maintainer "Filipe Silva" . "filipe.silva@gmail.com")
 			   (:url . "https://github.com/ninrod/evil-string-inflection"))])
  (evil-surround .
-		[(1 0 3 1 -4 20220412 1724)
+		[(1 0 3 1 -4 20220503 953)
 		 ((evil
 		   (1 2 12)))
 		 "emulate surround.vim from Vim" single
-		 ((:commit . "2bc8aa6425f1311e985cf51ea6b5233c1ee6ce1c")
+		 ((:commit . "123b30135bcb181d00e351d714263eaa137ae10b")
 		  (:authors
 		   ("Tim Harper <timcharper at gmail dot com>")
 		   ("Vegard \303\230ye <vegard_oye at hotmail dot com>"))
@@ -16808,7 +16808,7 @@
 		     ((evil
 		       (1 15 0)))
 		     "unit test helpers for Evil" single
-		     ((:commit . "37699af1c76e18b4d4b1e16422779a86c6f40628")
+		     ((:commit . "f6866b5d2b85a38ad8029f83b113371d1b3aecd1")
 		      (:authors
 		       ("Vegard \303\230ye <vegard_oye at hotmail.com>"))
 		      (:maintainer "Vegard \303\230ye <vegard_oye at hotmail.com>"))])
@@ -20643,7 +20643,7 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 1 -4 20220426 2021)
+	[(0 1 -4 20220503 1116)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -20667,7 +20667,7 @@
 	  (yaml
 	   (0 3 4)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "248256d5b7a84c521faa8a78e9d57c1ef00f1a40")
+	 ((:commit . "e3afbc9400a8c52100dc022207adbf0198df9639")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -21972,7 +21972,7 @@
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "547ad9e39341c9a9dc37b2c88acb487d737a8e3b")
+	      ((:commit . "476383fc8fb0f6ea4c6fc29d7057a1b5b5f95bd8")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -34136,7 +34136,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 -4 20220502 2156)
+	[(3 3 0 -4 20220503 1245)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -34152,7 +34152,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "547ad9e39341c9a9dc37b2c88acb487d737a8e3b")
+	 ((:commit . "476383fc8fb0f6ea4c6fc29d7057a1b5b5f95bd8")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -34343,7 +34343,7 @@
 		 (magit
 		  (20211004)))
 		"(POC) Teach Magit to use Libgit2." tar
-		((:commit . "547ad9e39341c9a9dc37b2c88acb487d737a8e3b")
+		((:commit . "476383fc8fb0f6ea4c6fc29d7057a1b5b5f95bd8")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -34424,7 +34424,7 @@
 		  (dash
 		   (20210826)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "547ad9e39341c9a9dc37b2c88acb487d737a8e3b")
+		 ((:commit . "476383fc8fb0f6ea4c6fc29d7057a1b5b5f95bd8")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
