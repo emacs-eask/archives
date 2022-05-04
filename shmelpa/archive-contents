@@ -4325,11 +4325,11 @@
 		   (:maintainer "Ryan Pavlik" . "rpavlik@gmail.com")
 		   (:url . "https://github.com/rpav/buffer-buttons"))])
  (buffer-env .
-	     [(0 3 1 -4 20220325 1659)
+	     [(0 3 1 -4 20220504 1643)
 	      ((emacs
 		(27 1)))
 	      "Buffer-local process environments" single
-	      ((:commit . "ba1c9d24d3f1ba58445cbf1f762ba6859b66f6bf")
+	      ((:commit . "f213017cc64017a3ed4197a6528272679c0c0612")
 	       (:authors
 		("Augusto Stoffel" . "arstoffel@gmail.com"))
 	       (:maintainer "Augusto Stoffel" . "arstoffel@gmail.com")
@@ -4997,7 +4997,7 @@
 	       (:keywords "convenience")
 	       (:url . "https://github.com/HKey/caseformat"))])
  (cask .
-       [(0 8 9 -1 1 -4 20220503 1109)
+       [(0 8 9 -1 1 -4 20220504 1421)
 	((emacs
 	  (24 5))
 	 (s
@@ -5015,7 +5015,7 @@
 	 (ansi
 	  (0 4 1)))
 	"Cask: Project management for package development" tar
-	((:commit . "ee2660d57ca16607f991706e194ba927f2e0010c")
+	((:commit . "2eb520e64c2e1047319761df0bcc6fa5149f8cd6")
 	 (:authors
 	  ("Johan Andersson" . "johan.rejeep@gmail.com"))
 	 (:maintainer "Johan Andersson" . "johan.rejeep@gmail.com")
@@ -6422,7 +6422,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "3d1d7d2b388e8b046fcd8cbb21863a4edfe8de8a"))])
+	      ((:commit . "2045e1eee093e5125f6ade53ebe490a498bb99b4"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -9676,7 +9676,7 @@
 	  (:keywords "haskell" "tools")
 	  (:url . "https://github.com/jyp/dante"))])
  (dap-mode .
-	   [(0 7 1 -4 20220504 1309)
+	   [(0 7 1 -4 20220504 1410)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -9696,7 +9696,7 @@
 	     (ht
 	      (2 3)))
 	    "Debug Adapter Protocol mode" tar
-	    ((:commit . "db3e69192a97a9eec90816766b626cbedd648d35")
+	    ((:commit . "675d5a8e959ab0f2d1f8261a7cf99e6d8f169118")
 	     (:authors
 	      ("Ivan Yonchovski" . "yyoncho@gmail.com"))
 	     (:maintainer "Ivan Yonchovski" . "yyoncho@gmail.com")
@@ -11836,18 +11836,18 @@
 			      (:maintainer "Ellis Keny\305\221" . "me@elken.dev")
 			      (:url . "https://github.com/elken/doom-modeline-now-playing"))])
  (doom-themes .
-	      [(2 2 1 1 -4 20220421 2236)
+	      [(2 2 1 1 -4 20220504 1557)
 	       ((emacs
 		 (25 1))
 		(cl-lib
 		 (0 5)))
 	       "an opinionated pack of modern color-themes" tar
-	       ((:commit . "3aa9ae1daf84fc24aeff3b88f5148bd84aa72bea")
+	       ((:commit . "8848f07771a954b0339fd4aaaa8bb43f93ffe49e")
 		(:authors
-		 ("Henrik Lissner <https://github.com/hlissner>"))
+		 ("Henrik Lissner" . "contact@henrik.io"))
 		(:maintainer "Henrik Lissner" . "contact@henrik.io")
-		(:keywords "custom themes" "faces")
-		(:url . "https://github.com/hlissner/emacs-doom-themes"))])
+		(:keywords "themes" "faces")
+		(:url . "https://github.com/doomemacs/themes"))])
  (dot-mode .
 	   [(1 13 1 -4 20180312 2300)
 	    ((emacs
@@ -12180,7 +12180,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "09adb41de1ab784f7619d5515659e86deb609db6")
+	((:commit . "250db8e884ef4feae8b498f8e95737d07f5ee5ec")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -15218,7 +15218,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "71b0d4e7cfe121a06d104593d8c56f4ff26b5276")
+	  ((:commit . "fdc9583b2b506f2e41f44cf36319c8ce6d70a355")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -18072,11 +18072,11 @@
 		    (:maintainer "Pierre Neidhardt" . "mail@ambrevar.xyz")
 		    (:url . "https://gitlab.com/Ambrevar/emacs-fish-completion"))])
  (fish-mode .
-	    [(0 1 0 1 -4 20210215 1114)
+	    [(0 1 0 1 -4 20220504 1542)
 	     ((emacs
 	       (24)))
 	     "Major mode for fish shell scripts" single
-	     ((:commit . "a7c953b1491ac3a3e00a7b560f2c9f46b3cb5c04")
+	     ((:commit . "2664dec27a28cdfc9f9296bf278ba8fb9269db02")
 	      (:authors
 	       ("Tony Wang" . "wwwjfy@gmail.com"))
 	      (:maintainer "Tony Wang" . "wwwjfy@gmail.com")
