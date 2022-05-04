@@ -42694,15 +42694,19 @@
 		  (:keywords "html" "presentation")
 		  (:url . "http://github.com/coldnew/org-html5slide"))])
  (ox-hugo .
-	  [(0 11 0 1 -4 20220504 110)
+	  [(0 11 0 1 -4 20220504 253)
 	   ((emacs
 	     (24 4))
 	    (org
 	     (9 0))
 	    (tomelr
-	     (0 2 2)))
+	     (0)))
 	   "Hugo Markdown Back-End for Org Export Engine" tar
-	   ((:commit . "d33c8cbf9b9047746bb23cb8a4753f270339b449")
+	   ((:commit . "54c18ec38573d7300cb9dd82656591e45f0ea2a7")
+	    (:authors
+	     ("Kaushal Modi" . "kaushal.modi@gmail.com")
+	     ("Matt Price" . "moptop99@gmail.com"))
+	    (:maintainer "Kaushal Modi" . "kaushal.modi@gmail.com")
 	    (:keywords "org" "markdown" "docs")
 	    (:url . "https://ox-hugo.scripter.co"))])
  (ox-impress-js .
@@ -46920,7 +46924,7 @@
 	      (:keywords "data" "games" "chess")
 	      (:url . "https://github.com/dwcoates/pygn-mode"))])
  (pyim .
-       [(4 2 0 1 -4 20220503 849)
+       [(4 2 0 1 -4 20220504 313)
 	((emacs
 	  (25 1))
 	 (async
@@ -46928,7 +46932,7 @@
 	 (xr
 	  (1 13)))
 	"A Chinese input method support quanpin, shuangpin, wubi, cangjie and rime." tar
-	((:commit . "90a5e443e9663731017e958c063633f8003a60e2")
+	((:commit . "a52c11ada2381a162b1fd75d98282320601a1a1e")
 	 (:authors
 	  ("Ye Wenbin" . "wenbinye@163.com")
 	  ("Feng Shu" . "tumashu@163.com"))
@@ -54821,7 +54825,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "fc23c82248d244e32900a40a8adc8c27c30ff66f")
+	  ((:commit . "f35a987682eebc4519d2e20f1b8415991ff4baa0")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
