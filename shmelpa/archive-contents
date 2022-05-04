@@ -8149,11 +8149,11 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 17 1 -4 20220503 1654)
+	  [(0 17 1 -4 20220503 2229)
 	   ((emacs
 	     (27 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "36fa2d97a7bf91ab855cc61bc1157f0f0af6631f")
+	   ((:commit . "ea30b4dc8b25b65082ab9a2d56d2c6035d63b31e")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -9577,7 +9577,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "dc5f0de75638c7b39650c7542ad0779e5eddb38b"))])
+	       ((:commit . "04934f5db17ac782de08b8f8595e38b59e445e2b"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -33356,7 +33356,7 @@
 	     (:keywords "convenience")
 	     (:url . "https://github.com/0x60df/loophole"))])
  (loopy .
-	[(0 10 1 1 -4 20220330 127)
+	[(0 10 1 1 -4 20220503 2340)
 	 ((emacs
 	   (27 1))
 	  (map
@@ -33364,7 +33364,7 @@
 	  (seq
 	   (2 22)))
 	 "A looping macro" tar
-	 ((:commit . "cd49433244ef450a1dd10a65a7839076d61bdcf1")
+	 ((:commit . "9db4f2f2a2c4f4ef5fd4e80cb6dfe00306aa9d8c")
 	  (:authors
 	   ("Earl Hyatt"))
 	  (:maintainer "Earl Hyatt")
@@ -33379,7 +33379,7 @@
 	       (dash
 		(2 19)))
 	      "Dash destructuring for `loopy'" single
-	      ((:commit . "cd49433244ef450a1dd10a65a7839076d61bdcf1")
+	      ((:commit . "9db4f2f2a2c4f4ef5fd4e80cb6dfe00306aa9d8c")
 	       (:authors
 		("Earl Hyatt"))
 	       (:maintainer "Earl Hyatt")
@@ -34041,7 +34041,7 @@
 	     (transient
 	      (0 1 0)))
 	    "A porcelain for MacPorts" tar
-	    ((:commit . "c0d74a5a820742400e05859c1f56443c1aabd25b")
+	    ((:commit . "32f78a4dde9abe2f177244a5d004fe79b6a60dd4")
 	     (:authors
 	      ("Aaron Madlon-Kay"))
 	     (:maintainer "Aaron Madlon-Kay")
@@ -41282,7 +41282,7 @@
 		  (:keywords "convenience" "hypermedia" "org")
 		  (:url . "https://github.com/unhammer/org-rich-yank"))])
  (org-roam .
-	   [(2 2 1 1 -4 20220502 1612)
+	   [(2 2 2 1 -4 20220504 106)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -41296,7 +41296,7 @@
 	     (magit-section
 	      (3 0 0)))
 	    "A database abstraction layer for Org-mode" tar
-	    ((:commit . "5483e65d5ac489f0bbadb68278bfbd74177304a1")
+	    ((:commit . "007e76725cdee4b16c003aec096e2dd7ab399b56")
 	     (:authors
 	      ("Jethro Kuan" . "jethrokuan95@gmail.com"))
 	     (:maintainer "Jethro Kuan" . "jethrokuan95@gmail.com")
@@ -42694,13 +42694,15 @@
 		  (:keywords "html" "presentation")
 		  (:url . "http://github.com/coldnew/org-html5slide"))])
  (ox-hugo .
-	  [(0 7 1 -4 20220425 301)
+	  [(0 11 0 1 -4 20220504 110)
 	   ((emacs
 	     (24 4))
 	    (org
-	     (9 0)))
+	     (9 0))
+	    (tomelr
+	     (0 2 2)))
 	   "Hugo Markdown Back-End for Org Export Engine" tar
-	   ((:commit . "262b7b432a7f81124fe181c07b57a4f42b6eedc9")
+	   ((:commit . "d33c8cbf9b9047746bb23cb8a4753f270339b449")
 	    (:keywords "org" "markdown" "docs")
 	    (:url . "https://ox-hugo.scripter.co"))])
  (ox-impress-js .
@@ -46760,7 +46762,7 @@
 	       ((emacs
 		 (26 1)))
 	       "Use autopep8 to beautify a Python buffer" single
-	       ((:commit . "40b0288bf780e308e9760d3dba1fa7bbd14113f9")
+	       ((:commit . "89c9ed8de2deab6bb891ae25c85cc6498e60b90a")
 		(:authors
 		 ("Friedrich Paetzk" . "f.paetzke@gmail.com"))
 		(:maintainer "Friedrich Paetzk" . "f.paetzke@gmail.com")
@@ -54819,7 +54821,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "dd7dab5bf3168bedb7329f7b8984c13cd70c5a01")
+	  ((:commit . "fc23c82248d244e32900a40a8adc8c27c30ff66f")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
