@@ -2753,7 +2753,7 @@
 		       (avy
 			(0 5)))
 		      "Use avy to jump to Embark Collect entries" single
-		      ((:commit . "e9f0ea81a492f2e12971ad0e2f6c9771fc1f0ec9")
+		      ((:commit . "ac7952573272d05f150917cfeab6d0a4cef39a9a")
 		       (:authors
 			("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		       (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -10713,13 +10713,13 @@
 	     (:keywords "music")
 	     (:url . "https://github.com/nlamirault/dionysos"))])
  (dir-treeview .
-	       [(1 1 0 1 -4 20210625 2358)
+	       [(1 2 0 1 -4 20220505 27)
 		((emacs
 		  (24 4))
 		 (treeview
 		  (1 1 0)))
 		"A directory tree browser and simple file manager" tar
-		((:commit . "c48b0e12eb02ae046cf6dc97fe006db31ded3f2b")
+		((:commit . "fa0b795b36740755ec37f5b41c3a734ad702e5a1")
 		 (:authors
 		  ("Tilman Rassy" . "tilman.rassy@googlemail.com"))
 		 (:maintainer "Tilman Rassy" . "tilman.rassy@googlemail.com")
@@ -11842,7 +11842,7 @@
 		(cl-lib
 		 (0 5)))
 	       "an opinionated pack of modern color-themes" tar
-	       ((:commit . "0fe09739ced0689a8b1e3caa715a7d44375c49ec")
+	       ((:commit . "cdbeb346aa19e4129014cb3ebab7e87c66b4a8da")
 		(:authors
 		 ("Henrik Lissner" . "contact@henrik.io"))
 		(:maintainer "Henrik Lissner" . "contact@henrik.io")
@@ -14440,7 +14440,7 @@
 	  ((emacs
 	    (26 1)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "e9f0ea81a492f2e12971ad0e2f6c9771fc1f0ec9")
+	  ((:commit . "ac7952573272d05f150917cfeab6d0a4cef39a9a")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -14455,7 +14455,7 @@
 		   (consult
 		    (0 10)))
 		  "Consult integration for Embark" single
-		  ((:commit . "e9f0ea81a492f2e12971ad0e2f6c9771fc1f0ec9")
+		  ((:commit . "ac7952573272d05f150917cfeab6d0a4cef39a9a")
 		   (:authors
 		    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -16005,7 +16005,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "f6866b5d2b85a38ad8029f83b113371d1b3aecd1")
+	((:commit . "6c5079b105b2ccbcfa735fd1b6a19797daa7081d")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulation" "vim")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -16808,7 +16808,7 @@
 		     ((evil
 		       (1 15 0)))
 		     "unit test helpers for Evil" single
-		     ((:commit . "f6866b5d2b85a38ad8029f83b113371d1b3aecd1")
+		     ((:commit . "6c5079b105b2ccbcfa735fd1b6a19797daa7081d")
 		      (:authors
 		       ("Vegard \303\230ye <vegard_oye at hotmail.com>"))
 		      (:maintainer "Vegard \303\230ye <vegard_oye at hotmail.com>"))])
@@ -18269,7 +18269,7 @@
 		 (:keywords "convenience" "search")
 		 (:url . "https://bitbucket.org/jpkotta/flex-isearch"))])
  (flim .
-       [(1 14 9 1 -4 20220427 1122)
+       [(1 14 9 1 -4 20220503 1442)
 	((emacs
 	  (24 5))
 	 (apel
@@ -18277,7 +18277,7 @@
 	 (oauth2
 	  (0 11)))
 	"A library to provide basic features about message representation or encoding." tar
-	((:commit . "e7e2f51b6817f55e45916811c5fa1f102fcd24bd"))])
+	((:commit . "289e5bbd66f6f14306a6e0b922ee8f26267e2470"))])
  (flimenu .
 	  [(0 0 0 1 -4 20200810 1510)
 	   ((emacs
@@ -46460,7 +46460,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "3c5ad8c52450f8089143eaf8f971d99a3ae8a818")
+		 ((:commit . "67823fe8dc7d57ca33689817c233dcf4f177fa4b")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -50194,7 +50194,7 @@
 		      (:keywords "processes" "unix")
 		      (:url . "http://github.com/webnf/semaphore.el"))])
  (semi .
-       [(1 14 7 1 -4 20220427 1124)
+       [(1 14 7 1 -4 20220503 1449)
 	((emacs
 	  (24 5))
 	 (apel
@@ -50202,7 +50202,7 @@
 	 (flim
 	  (1 14 9)))
 	"A library to provide MIME features." tar
-	((:commit . "dca60ff62fcd5abb9f7e92a8e75f2b282112c7dd"))])
+	((:commit . "b1c245b81715b0430f7593cee2339e6264104f3d"))])
  (seml-mode .
 	    [(1 7 0 1 -4 20200812 1027)
 	     ((emacs
