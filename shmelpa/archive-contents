@@ -2753,7 +2753,7 @@
 		       (avy
 			(0 5)))
 		      "Use avy to jump to Embark Collect entries" single
-		      ((:commit . "80ff7d105afc090817c4162ec021758e586272f2")
+		      ((:commit . "f29dc5a0a26a077918b75f2b36e778a45e6ec7e1")
 		       (:authors
 			("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		       (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -12180,7 +12180,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "a1910eb760819ef6b9e2c16a3740aff14f8bab83")
+	((:commit . "0d05598db4d097d0240a0bf58a364ddc780181da")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -14440,7 +14440,7 @@
 	  ((emacs
 	    (26 1)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "80ff7d105afc090817c4162ec021758e586272f2")
+	  ((:commit . "f29dc5a0a26a077918b75f2b36e778a45e6ec7e1")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -14455,7 +14455,7 @@
 		   (consult
 		    (0 10)))
 		  "Consult integration for Embark" single
-		  ((:commit . "80ff7d105afc090817c4162ec021758e586272f2")
+		  ((:commit . "f29dc5a0a26a077918b75f2b36e778a45e6ec7e1")
 		   (:authors
 		    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -41193,7 +41193,7 @@
 		(:keywords "redmine" "org")
 		(:url . "https://github.com/gongo/org-redmine"))])
  (org-ref .
-	  [(3 0 1 -4 20220429 1110)
+	  [(3 0 1 -4 20220505 2209)
 	   ((org
 	     (9 4))
 	    (dash
@@ -41215,7 +41215,7 @@
 	    (citeproc
 	     (0)))
 	   "citations, cross-references and bibliographies in org-mode" tar
-	   ((:commit . "f2ebc18c36c106e94810d5a1b15b108811a87283")
+	   ((:commit . "a5a096b0c621fb42aa80cea14677bfb1d0df1f39")
 	    (:authors
 	     ("John Kitchin" . "jkitchin@andrew.cmu.edu"))
 	    (:maintainer "John Kitchin" . "jkitchin@andrew.cmu.edu")
@@ -42694,15 +42694,13 @@
 		  (:keywords "html" "presentation")
 		  (:url . "http://github.com/coldnew/org-html5slide"))])
  (ox-hugo .
-	  [(0 11 1 1 -4 20220504 2117)
+	  [(0 11 1 1 -4 20220505 2123)
 	   ((emacs
-	     (24 4))
-	    (org
-	     (9 0))
+	     (26 3))
 	    (tomelr
-	     (0 2 5)))
+	     (0 3 0)))
 	   "Hugo Markdown Back-End for Org Export Engine" tar
-	   ((:commit . "4fc594eda0d0cb41cc3b634b43fbd055db7ae67e")
+	   ((:commit . "3c699a1ed3f666735974fb90610d60b41e86a3b2")
 	    (:authors
 	     ("Kaushal Modi" . "kaushal.modi@gmail.com")
 	     ("Matt Price" . "moptop99@gmail.com"))
@@ -47019,7 +47017,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "58c4f370c7395d9d4e202ba83623768abcc3ac24")
+	  ((:commit . "8d7fe518bc84c9ffdfbf8e35ce15c8da4b9e639c")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -54825,7 +54823,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "5f5f2be8064f5508efb0ab9d23ac8b7c1affd7f6")
+	  ((:commit . "48607974ec331d8ddb6d4a4f44635736034e7518")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
