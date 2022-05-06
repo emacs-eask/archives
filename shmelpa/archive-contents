@@ -32640,7 +32640,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "f5ee53a512179d42a485337ff22dca46413cd100")
+	     ((:commit . "87084396a2927d6921a794e40322e4affcbde2df")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
@@ -34037,13 +34037,13 @@
 	       (:keywords "games" "word games" "anagram")
 	       (:url . "https://github.com/pawelbx/anagram-game"))])
  (macports .
-	   [(0 1 0 1 -4 20220505 1455)
+	   [(0 1 0 1 -4 20220506 1210)
 	    ((emacs
 	      (25 1))
 	     (transient
 	      (0 1 0)))
 	    "A porcelain for MacPorts" tar
-	    ((:commit . "da67254eaa162613af900f211fbb4ac9dd84e137")
+	    ((:commit . "8959ecffb1af4891a414ca28b2322ccc81595223")
 	     (:authors
 	      ("Aaron Madlon-Kay"))
 	     (:maintainer "Aaron Madlon-Kay")
@@ -47019,7 +47019,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "7e1b9ae5f974d03e8a584631f85002127cb9405e")
+	  ((:commit . "0220a39f6d4dddd1bf8f2f6d83e11db58a093fbe")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -47180,9 +47180,9 @@
 	       (:keywords "languages" "processes")
 	       (:url . "https://github.com/jdtsmith/python-mls"))])
  (python-mode .
-	      [(6 3 1 1 -4 20220504 1829)
+	      [(6 3 1 1 -4 20220506 1229)
 	       nil "Python major mode" tar
-	       ((:commit . "f633c00233104d506fe2801d00f1430110ca5cdc")
+	       ((:commit . "d4783941b9530b5aced5dcc6ccd6eed275a9048f")
 		(:authors
 		 ("2015-2021 https://gitlab.com/groups/python-mode-devs")
 		 ("2003-2014 https://launchpad.net/python-mode")
@@ -49028,7 +49028,7 @@
  (robots-txt-mode .
 		  [(0 0 9 1 -4 20190812 1858)
 		   nil "Major mode for editing robots.txt" single
-		   ((:commit . "8bf67285a25a6756607354d184e36583f2847e7d")
+		   ((:commit . "0d79161dfece3920600ad155ab1cc1a59da06964")
 		    (:authors
 		     ("USAMI Kenta" . "tadsan@zonu.me"))
 		    (:maintainer "USAMI Kenta" . "tadsan@zonu.me")
@@ -51161,6 +51161,21 @@
        ((:commit . "a72e09246bc5be7a164932c51e7dd2a5d2d97858")
 	(:keywords "convenience")
 	(:url . "https://github.com/laishulu/emacs-smart-input-source"))])
+ (sisyphus .
+	   [(0 1 0 1 -4 20220506 1140)
+	    ((emacs
+	      (27))
+	     (compat
+	      (28 1 1 0))
+	     (magit
+	      (3 4 0)))
+	    "Create releases of Emacs packages" single
+	    ((:commit . "2af8cec83790980a9a96c15ee3655a179aa3ddb1")
+	     (:authors
+	      ("Jonas Bernoulli" . "jonas@bernoul.li"))
+	     (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+	     (:keywords "git" "tools" "vc")
+	     (:url . "https://github.com/magit/sisyphus"))])
  (skeletor .
 	   [(1 5 2 1 -4 20210129 239)
 	    ((s
@@ -54825,7 +54840,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "ff556db707f35d1dc238e025c5f355cf4155f053")
+	  ((:commit . "b84595774b62d3fbe6fc037c8dafada6844a3834")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
