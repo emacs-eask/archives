@@ -1573,7 +1573,7 @@
  (annotation .
 	     [(1 0 1 -4 20200914 644)
 	      nil "Functions for annotating text with faces and help bubbles" single
-	      ((:commit . "5b5c9aef8554982c086a86d98046bd8ff16b018d")
+	      ((:commit . "7615aa55068754d36711e19bfc926b87d5b8f33c")
 	       (:url . "https://github.com/agda/agda"))])
  (annoying-arrows-mode .
 		       [(0 1 0 1 -4 20161024 646)
@@ -2753,7 +2753,7 @@
 		       (avy
 			(0 5)))
 		      "Use avy to jump to Embark Collect entries" single
-		      ((:commit . "d88478b45f2d589339334dc8d40b07bce28aab0e")
+		      ((:commit . "857c8403529f54bfeecf460fe98b1a0b8e206802")
 		       (:authors
 			("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		       (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -9676,7 +9676,7 @@
 	  (:keywords "haskell" "tools")
 	  (:url . "https://github.com/jyp/dante"))])
  (dap-mode .
-	   [(0 7 1 -4 20220504 1410)
+	   [(0 7 1 -4 20220507 1711)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -9696,7 +9696,7 @@
 	     (ht
 	      (2 3)))
 	    "Debug Adapter Protocol mode" tar
-	    ((:commit . "675d5a8e959ab0f2d1f8261a7cf99e6d8f169118")
+	    ((:commit . "d534b4a2f9ec3f9e4d804a660830764bed062e15")
 	     (:authors
 	      ("Ivan Yonchovski" . "yyoncho@gmail.com"))
 	     (:maintainer "Ivan Yonchovski" . "yyoncho@gmail.com")
@@ -11187,11 +11187,11 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 2 0 1 -4 20220507 1402)
+	  [(1 2 0 1 -4 20220507 1433)
 	   ((emacs
 	     (27 1)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "2563581ea15b750e6c246673ebafdb2083c6636e")
+	   ((:commit . "3075374d34a96d320e54ec053a30482170d08c2e")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -12180,7 +12180,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "603d326337527b10d6e90ccab56c65deabd82378")
+	((:commit . "eddba699c02e92e5090a491417e13f2f80183e9c")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -14436,11 +14436,11 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 16 1 -4 20220507 144)
+	 [(0 16 1 -4 20220507 1654)
 	  ((emacs
 	    (26 1)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "d88478b45f2d589339334dc8d40b07bce28aab0e")
+	  ((:commit . "857c8403529f54bfeecf460fe98b1a0b8e206802")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -14455,7 +14455,7 @@
 		   (consult
 		    (0 10)))
 		  "Consult integration for Embark" single
-		  ((:commit . "d88478b45f2d589339334dc8d40b07bce28aab0e")
+		  ((:commit . "857c8403529f54bfeecf460fe98b1a0b8e206802")
 		   (:authors
 		    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -15211,7 +15211,7 @@
  (eri .
       [(1 0 1 -4 20200914 644)
        nil "Enhanced relative indentation (eri)" single
-       ((:commit . "5b5c9aef8554982c086a86d98046bd8ff16b018d")
+       ((:commit . "7615aa55068754d36711e19bfc926b87d5b8f33c")
 	(:url . "https://github.com/agda/agda"))])
  (erlang .
 	 [(2 8 4 1 -4 20220215 1844)
@@ -46064,7 +46064,7 @@
 			(:keywords "snippets")
 			(:url . "https://github.com/ptrv/processing2-emacs"))])
  (prodigy .
-	  [(0 7 0 1 -4 20210116 816)
+	  [(1 0 0 1 -4 20220507 1753)
 	   ((s
 	     (1 8 0))
 	    (dash
@@ -46072,9 +46072,9 @@
 	    (f
 	     (0 14 0))
 	    (emacs
-	     (24)))
-	   "Manage external services from within Emacs" single
-	   ((:commit . "168f5ace1671876d8c3bd350c0853bd0196bddda")
+	     (27 1)))
+	   "Manage external services" single
+	   ((:commit . "535789e32028133fa9dfb4c9135b6a65c199472f")
 	    (:authors
 	     ("Johan Andersson" . "johan.rejeep@gmail.com"))
 	    (:maintainer "Johan Andersson" . "johan.rejeep@gmail.com")
@@ -47019,7 +47019,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "257dcd5c4592098e5a5a407ce11fa6574ee29779")
+	  ((:commit . "88ad20997506823c3a17e1b02eaa93bf7d5b2376")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -53045,11 +53045,11 @@
 		       (:keywords "c" "languages" "tools")
 		       (:url . "https://github.com/tuhdo/semantic-stickyfunc-enhance"))])
  (stimmung-themes .
-		  [(2022 -4 3 -4 26 1 -4 20220502 850)
+		  [(2022 -4 3 -4 26 1 -4 20220507 1611)
 		   ((emacs
 		     (25)))
 		   "Themes tuned to inner harmonies" tar
-		   ((:commit . "c516bcc077ffc334006e77c608b068eb2f11e845")
+		   ((:commit . "f84278803ab61fabf25ed6c6fb5b3dc4822b162c")
 		    (:authors
 		     ("Love Lagerkvist"))
 		    (:maintainer "Love Lagerkvist")
