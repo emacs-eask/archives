@@ -32206,6 +32206,15 @@
 	(:maintainer "Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com")
 	(:keywords "tools")
 	(:url . "https://github.com/jyp/lcr"))])
+ (le-thesaurus .
+	       [(0 2 0 1 -4 20220508 1442)
+		((request
+		  (0 3 2))
+		 (emacs
+		  (24 4)))
+		"Query thesaurus.com for synonyms of a given word" single
+		((:commit . "941390e5ca942c7459faf4e5988898baaa66fa14")
+		 (:url . "https://github.com/AnselmC/le-thesaurus"))])
  (leaf .
        [(4 5 5 1 -4 20211226 1633)
 	((emacs
@@ -33640,7 +33649,7 @@
 	     (lsp-mode
 	      (6 1)))
 	    "LSP Clients for LTEX" single
-	    ((:commit . "85a3cf269466795a0a1c8c157abb1528080eeb10")
+	    ((:commit . "8eb3a6ad1f20a44eb446834c03bd688558b07236")
 	     (:authors
 	      ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -34160,7 +34169,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 -4 20220506 2000)
+	[(3 3 0 -4 20220508 1841)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -34176,7 +34185,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "09ed9e739b9403520c63bfa21a53892305ffb963")
+	 ((:commit . "f331092df4d4dfc0a2a7424d929a9c845088d57f")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -34367,7 +34376,7 @@
 		 (magit
 		  (20211004)))
 		"(POC) Teach Magit to use Libgit2." tar
-		((:commit . "09ed9e739b9403520c63bfa21a53892305ffb963")
+		((:commit . "f331092df4d4dfc0a2a7424d929a9c845088d57f")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -34448,7 +34457,7 @@
 		  (dash
 		   (20210826)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "09ed9e739b9403520c63bfa21a53892305ffb963")
+		 ((:commit . "f331092df4d4dfc0a2a7424d929a9c845088d57f")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -46199,6 +46208,16 @@
 			   (:maintainer "Robert Dallas Gray" . "mail@robertdallasgray.com")
 			   (:keywords "defaults")
 			   (:url . "https://github.com/rdallasgray/project-persist-drawer.git"))])
+ (project-rootfile .
+		   [(0 0 1 1 -4 20220505 1256)
+		    ((emacs
+		      (27 1)))
+		    "Project backend by root file" single
+		    ((:commit . "a4c4f004fbf8ca44e74be845a1c3696d6db5b0d6")
+		     (:authors
+		      ("Taiki Sugawara" . "buzz.taiki@gmail.com"))
+		     (:maintainer "Taiki Sugawara" . "buzz.taiki@gmail.com")
+		     (:url . "https://github.com/buzztaiki/project-rootfile.el"))])
  (project-shells .
 		 [(20170311 1 -4 20210625 647)
 		  ((emacs
@@ -47043,7 +47062,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "8df920b341a872b85754c910598d27a8846988f9")
+	  ((:commit . "40ddfabcb0afe5dadab3c4dcd890b8302db9edd0")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -47204,9 +47223,9 @@
 	       (:keywords "languages" "processes")
 	       (:url . "https://github.com/jdtsmith/python-mls"))])
  (python-mode .
-	      [(6 3 1 1 -4 20220508 1545)
+	      [(6 3 1 1 -4 20220508 1854)
 	       nil "Python major mode" tar
-	       ((:commit . "7fac0e30b836d7422d89c78d58abc82979503476")
+	       ((:commit . "013f79b0f402ebda79c5c0c087a6a33797ef08ba")
 		(:authors
 		 ("2015-2021 https://gitlab.com/groups/python-mode-devs")
 		 ("2003-2014 https://launchpad.net/python-mode")
@@ -49773,6 +49792,22 @@
 		    (:authors
 		     ("Alex Shinn"))
 		    (:maintainer "Alex Shinn"))])
+ (scholar-import .
+		 [(0 1 1 -4 20220504 1101)
+		  ((emacs
+		    (26 1))
+		   (org
+		    (9 0))
+		   (request
+		    (0 3 0))
+		   (s
+		    (1 10 0)))
+		  "Import Bibtex & PDF from Google Scholar" single
+		  ((:commit . "b61fd8324b457cd75494d706a92af89bbf9a4e71")
+		   (:authors
+		    ("Anh T Nguyen <https://github.com/teeann>"))
+		   (:maintainer "Anh T Nguyen <https://github.com/teeann>")
+		   (:url . "https://github.com/teeann/scholar-import"))])
  (schrute .
 	  [(0 1 0 1 -4 20170521 1840)
 	   ((emacs
@@ -55027,6 +55062,17 @@
 	 (:maintainer "Mola-T" . "Mola@molamola.xyz")
 	 (:keywords "internal" "lisp" "processes" "tools")
 	 (:url . "https://github.com/mola-T/timp"))])
+ (timu-rouge-theme .
+		   [(1 2 1 -4 20220501 1753)
+		    ((emacs
+		      (27 1)))
+		    "Color theme inspired by the Rouge Theme for VSCode" single
+		    ((:commit . "935e4907f01fba2c7c2ecaab88eb7c4163955c3b")
+		     (:authors
+		      ("Aim\303\251 Bertrand" . "aime.bertrand@macowners.club"))
+		     (:maintainer "Aim\303\251 Bertrand" . "aime.bertrand@macowners.club")
+		     (:keywords "faces" "themes")
+		     (:url . "https://gitlab.com/aimebertrand/timu-rouge-theme"))])
  (timu-spacegrey-theme .
 		       [(2 0 1 -4 20220501 1509)
 			((emacs
@@ -55505,13 +55551,13 @@
 		(:keywords "comm" "convenience" "files")
 		(:url . "https://gitlab.com/tuedachu/transfer-sh.el"))])
  (transient .
-	    [(0 3 7 -4 20220503 1118)
+	    [(0 3 7 -4 20220508 1914)
 	     ((emacs
 	       (25 1))
 	      (compat
 	       (28 1 1 0)))
 	     "Transient commands" tar
-	     ((:commit . "8c62d0d223e90f53b29c439ba2f86b6e721d8209")
+	     ((:commit . "d9b3a54128065222d35ce4ba49cdb39e23a06d2f")
 	      (:authors
 	       ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	      (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -58678,13 +58724,13 @@
 		(:maintainer "Kris Jenkins" . "krisajenkins@gmail.com")
 		(:url . "https://github.com/krisajenkins/wispjs-mode"))])
  (with-editor .
-	      [(3 2 0 -4 20220503 1124)
+	      [(3 2 0 -4 20220506 420)
 	       ((emacs
 		 (25 1))
 		(compat
 		 (28 1 1 0)))
 	       "Use the Emacsclient as $EDITOR" tar
-	       ((:commit . "48996e3116dadee06c8c68b1a0fe6ad8fd5317e0")
+	       ((:commit . "7348f6d5ff90318a1c948d0499d8dc6721fe851a")
 		(:authors
 		 ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		(:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
