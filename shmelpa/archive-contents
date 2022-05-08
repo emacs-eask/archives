@@ -9426,6 +9426,17 @@
 	       ("Jack Morrison" . "jackmorrison1@gmail.com"))
 	      (:maintainer "Jack Morrison" . "jackmorrison1@gmail.com")
 	      (:keywords "c" "languages"))])
+ (cue-mode .
+	   [(1 0 8 1 -4 20220507 1728)
+	    ((emacs
+	      (25 1)))
+	    "Major mode for CUE language files" single
+	    ((:commit . "598c9b33b888e067e7472710a5f159cee98a0307")
+	     (:authors
+	      ("Russell Sim" . "russell.sim@gmail.com"))
+	     (:maintainer "Russell Sim" . "russell.sim@gmail.com")
+	     (:keywords "data" "languages")
+	     (:url . "https://github.com/russell/cue-mode"))])
  (curl-to-elisp .
 		[(0 1 -4 20201124 1012)
 		 ((emacs
@@ -17032,6 +17043,15 @@
 	 ("Johan Andersson" . "johan.rejeep@gmail.com"))
 	(:maintainer "Johan Andersson" . "johan.rejeep@gmail.com")
 	(:url . "http://github.com/rejeep/evm"))])
+ (evm-mode .
+	   [(0 0 1 1 -4 20220503 1106)
+	    nil "Major mode for editing Ethereum EVM bytecode" single
+	    ((:commit . "2b326751c9421842521e851d969b9c269c79f8b3")
+	     (:authors
+	      ("Ta Quang Trung"))
+	     (:maintainer "Ta Quang Trung")
+	     (:keywords "languages")
+	     (:url . "https://github.com/taquangtrung/emacs-evm-mode"))])
  (ewal .
        [(0 2 1 -4 20200305 230)
 	((emacs
@@ -20645,7 +20665,7 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 1 -4 20220503 1116)
+	[(0 1 -4 20220506 420)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -20669,7 +20689,7 @@
 	  (yaml
 	   (0 3 4)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "e3afbc9400a8c52100dc022207adbf0198df9639")
+	 ((:commit . "29fc1302382700dc7ecb5e0fe20e47b8a9d0a1a4")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -21974,7 +21994,7 @@
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "09ed9e739b9403520c63bfa21a53892305ffb963")
+	      ((:commit . "f331092df4d4dfc0a2a7424d929a9c845088d57f")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
