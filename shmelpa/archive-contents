@@ -8149,11 +8149,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 17 1 -4 20220503 2229)
+	  [(0 17 1 -4 20220508 928)
 	   ((emacs
-	     (27 1)))
+	     (27 1))
+	    (compat
+	     (28 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "822928a8609730e8c22e068b04d7908312706cfd")
+	   ((:commit . "1dfdf55f3d941f08089e5d0e611cd9daa8a44b19")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -9577,7 +9579,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "2795a45f24f6d47016d55e2bee626256173cecae"))])
+	       ((:commit . "d4cbe45b38695cd27c56ea0b786c52caa4e164de"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -31802,13 +31804,13 @@
 		     (:keywords "kubernetes" "convenience")
 		     (:url . "https://github.com/gruggiero/kubernetes-tramp"))])
  (kurecolor .
-	    [(1 2 6 1 -4 20200113 2027)
+	    [(1 2 6 1 -4 20220508 929)
 	     ((emacs
 	       (24 1))
 	      (s
 	       (1 0)))
 	     "color editing goodies for Emacs" single
-	     ((:commit . "3fc84840cbbd75e646cafa2fd3a00004b55e37ec")
+	     ((:commit . "1c80df0f2c542f54920f18aa4eb837f0a51c7676")
 	      (:authors
 	       ("Jason Milkins" . "jasonm23@gmail.com"))
 	      (:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
@@ -36117,11 +36119,11 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(2 3 2 1 -4 20220506 616)
+	       [(2 3 2 1 -4 20220508 909)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "5cd7f47e6e7d4c0d3c5df940d2d1e74b34961588")
+		((:commit . "4da9042dbcf003986dcabcdbccd5cd8f9b583f76")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
@@ -42290,11 +42292,13 @@
 	       (:keywords "comm")
 	       (:url . "https://github.com/atomontage/osa-chrome"))])
  (osm .
-      [(0 7 1 -4 20220507 1001)
+      [(0 7 1 -4 20220508 853)
        ((emacs
-	 (27 1)))
+	 (27 1))
+	(compat
+	 (28 1)))
        "OpenStreetMap viewer" tar
-       ((:commit . "17884f69eb9681db880865af73762686c8e83cc0")
+       ((:commit . "45dfc686e527d69b7965752594020a936ddfa9ef")
 	(:authors
 	 ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	(:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -47019,7 +47023,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "ccd87b41819153ffe33f19d9e7db499aba19bbca")
+	  ((:commit . "e62f76f4fb88e47f22c4e6aff9af3d4760e62fe1")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
