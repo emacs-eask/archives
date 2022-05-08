@@ -41525,11 +41525,11 @@
 		       (:maintainer "Akira Komamura" . "akira.komamura@gmail.com")
 		       (:url . "https://github.com/akirak/org-starter"))])
  (org-static-blog .
-		  [(1 6 0 1 -4 20220505 620)
+		  [(1 6 0 1 -4 20220508 1410)
 		   ((emacs
 		     (24 3)))
 		   "a simple org-mode based static blog generator" single
-		   ((:commit . "61a3ab0e2e8e1ac0ef8772e89ae320c07142f7f5")
+		   ((:commit . "a6cd8f651f971eaa68be1cbfd30cc775e3a7ee93")
 		    (:authors
 		     ("Bastian Bechtold"))
 		    (:maintainer "Bastian Bechtold")
@@ -46770,7 +46770,7 @@
 	       ((emacs
 		 (26 1)))
 	       "Use autopep8 to beautify a Python buffer" single
-	       ((:commit . "ef75a197a5333c500c9a432a286f9e4088fe9894")
+	       ((:commit . "89c9ed8de2deab6bb891ae25c85cc6498e60b90a")
 		(:authors
 		 ("Friedrich Paetzk" . "f.paetzke@gmail.com"))
 		(:maintainer "Friedrich Paetzk" . "f.paetzke@gmail.com")
@@ -47023,7 +47023,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "e62f76f4fb88e47f22c4e6aff9af3d4760e62fe1")
+	  ((:commit . "4a1a7335abc2ffeca2264457456c86f5987c5e96")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -47184,9 +47184,9 @@
 	       (:keywords "languages" "processes")
 	       (:url . "https://github.com/jdtsmith/python-mls"))])
  (python-mode .
-	      [(6 3 1 1 -4 20220507 2031)
+	      [(6 3 1 1 -4 20220508 1209)
 	       nil "Python major mode" tar
-	       ((:commit . "c9ba7b75ee940cfdb5d3da0211e6a954c1735592")
+	       ((:commit . "6c5a3aeff584323856cfd21446364d8de5f5c5f4")
 		(:authors
 		 ("2015-2021 https://gitlab.com/groups/python-mode-devs")
 		 ("2003-2014 https://launchpad.net/python-mode")
@@ -48129,15 +48129,15 @@
 		      (:keywords "convenience" "files" "processes" "tools")
 		      (:url . "https://github.com/maio/recompile-on-save.el"))])
  (recomplete .
-	     [(0 2 1 -4 20220211 548)
+	     [(0 2 1 -4 20220507 1118)
 	      ((emacs
 		(26 1)))
 	      "Immediately (re)complete actions" single
-	      ((:commit . "d014f738c2be84feb451e6d4da6f7c2960730ffb")
+	      ((:commit . "021ca9b047caadd4903aa6f417890d6497ae437a")
 	       (:authors
 		("Campbell Barton" . "ideasman42@gmail.com"))
 	       (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-	       (:url . "https://gitlab.com/ideasman42/emacs-recomplete"))])
+	       (:url . "https://codeberg.com/ideasman42/emacs-recomplete"))])
  (recover-buffers .
 		  [(0 1 0 1 -4 20171009 437)
 		   nil "revisit all buffers from an auto-save file" tar
@@ -48768,15 +48768,15 @@
 		  (:maintainer "Syohei YOSHIDA" . "syohex@gmail.com")
 		  (:url . "https://github.com/syohex/emacs-reverse-theme"))])
  (revert-buffer-all .
-		    [(0 1 1 -4 20220211 548)
+		    [(0 1 1 -4 20220507 1118)
 		     ((emacs
 		       (24 3)))
 		     "Revert all open buffers" single
-		     ((:commit . "3c989040e3804f21a40b3eed79675ab32bc3e24a")
+		     ((:commit . "0296a7101f65d486e13c2674bd4b51631504523d")
 		      (:authors
 		       ("Campbell Barton" . "ideasman42@gmail.com"))
 		      (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-		      (:url . "https://gitlab.com/ideasman42/emacs-buffer-revert-all"))])
+		      (:url . "https://codeberg.com/ideasman42/emacs-buffer-revert-all"))])
  (review-mode .
 	      [(0 1 0 1 -4 20220215 842)
 	       nil "major mode for ReVIEW" single
@@ -49374,16 +49374,16 @@
 			(:keywords "extensions" "run-command")
 			(:url . "https://github.com/semenInRussia/emacs-run-command-recipes"))])
  (run-stuff .
-	    [(0 0 2 1 -4 20220211 548)
+	    [(0 0 2 1 -4 20220507 1118)
 	     ((emacs
 	       (25 1)))
 	     "Context based command execution" single
-	     ((:commit . "36acc30cef2b0b725996f70602059751aa6bf67d")
+	     ((:commit . "0aeabc7ef3f2a209c0c69300f6d61921ec448ffc")
 	      (:authors
 	       ("Campbell Barton" . "ideasman42@gmail.com"))
 	      (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 	      (:keywords "files" "lisp" "files" "convenience" "hypermedia")
-	      (:url . "https://gitlab.com/ideasman42/emacs-run-stuff"))])
+	      (:url . "https://codeberg.com/ideasman42/emacs-run-stuff"))])
  (runner .
 	 [(1 8 1 -4 20160524 743)
 	  nil "Improved \"open with\" suggestions for dired" single
@@ -49905,25 +49905,25 @@
 		  (:keywords "convenience")
 		  (:url . "https://github.com/emacs-pe/scribble-mode"))])
  (scroll-on-drag .
-		 [(0 1 1 -4 20220211 548)
+		 [(0 1 1 -4 20220507 1118)
 		  ((emacs
 		    (26 2)))
 		  "Interactive scrolling" single
-		  ((:commit . "1ad78fc84f99563c412e07ab44608c6f6b2e88dc")
+		  ((:commit . "fb9af984610f7ef83b031ff04efa32dbdf2eb741")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-		   (:url . "https://gitlab.com/ideasman42/emacs-scroll-on-drag"))])
+		   (:url . "https://codeberg.com/ideasman42/emacs-scroll-on-drag"))])
  (scroll-on-jump .
-		 [(0 1 1 -4 20220211 548)
+		 [(0 1 1 -4 20220507 1118)
 		  ((emacs
 		    (26 2)))
 		  "Scroll when jumping to a new point" single
-		  ((:commit . "1ea1961b4064cf7f8718e7c4e36e27d3c8f7b1b2")
+		  ((:commit . "1cfa3e8a91427ef4066e5e62b035dda09cd6a7ae")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-		   (:url . "https://gitlab.com/ideasman42/emacs-scroll-on-jump"))])
+		   (:url . "https://codeberg.com/ideasman42/emacs-scroll-on-jump"))])
  (scrollable-quick-peek .
 			[(0 1 0 1 -4 20201224 329)
 			 ((quick-peek
@@ -50937,16 +50937,16 @@
 	       (:keywords "convenience")
 	       (:url . "https://github.com/rnkn/side-notes"))])
  (sidecar-locals .
-		 [(0 1 1 -4 20220421 145)
+		 [(0 1 1 -4 20220507 1118)
 		  ((emacs
 		    (27 1)))
 		  "A flexible alternative to built-in dir-locals" single
-		  ((:commit . "4bc8a27bf308869259b24ee6a2dc1737af3042e0")
+		  ((:commit . "3831db67c692f269d1ac8bfdc38c56ee2d110250")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		   (:keywords "convenience")
-		   (:url . "https://gitlab.com/ideasman42/emacs-sidecar-locals"))])
+		   (:url . "https://codeberg.com/ideasman42/emacs-sidecar-locals"))])
  (sift .
        [(0 2 0 1 -4 20200421 1423)
 	nil "Front-end for sift, a fast and powerful grep alternative" single
@@ -52429,15 +52429,15 @@
 		(:maintainer "Bjarte Johansen <Bjarte dot Johansen at gmail dot com>")
 		(:url . "https://github.com/ljos/sparql-mode"))])
  (spatial-navigate .
-		   [(0 1 1 -4 20220211 548)
+		   [(0 1 1 -4 20220507 1118)
 		    ((emacs
 		      (26 2)))
 		    "Directional navigation between white-space blocks" single
-		    ((:commit . "b85886fe2dff8e8896f57ec53d500b234d36d946")
+		    ((:commit . "09ebd2ba7779998c31296bf8b6ffebf854f3eb73")
 		     (:authors
 		      ("Campbell Barton" . "ideasman42@gmail.com"))
 		     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-		     (:url . "https://gitlab.com/ideasman42/emacs-spatial-navigate"))])
+		     (:url . "https://codeberg.com/ideasman42/emacs-spatial-navigate"))])
  (spdx .
        [(0 1 0 1 -4 20220429 126)
 	((emacs
@@ -52504,16 +52504,16 @@
 		(:keywords "date" "time")
 		(:url . "https://github.com/xuchunyang/emacs-speeddating"))])
  (spell-fu .
-	   [(0 3 1 -4 20220213 1215)
+	   [(0 3 1 -4 20220507 1118)
 	    ((emacs
 	      (26 2)))
 	    "Fast & light spelling highlighter" single
-	    ((:commit . "32d7014730672aa68f6c079369840c1748bbf4a9")
+	    ((:commit . "2f2fd6de0003edb1038b7c639cf23264d1406993")
 	     (:authors
 	      ("Campbell Barton" . "ideasman42@gmail.com"))
 	     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 	     (:keywords "convenience")
-	     (:url . "https://gitlab.com/ideasman42/emacs-spell-fu"))])
+	     (:url . "https://codeberg.com/ideasman42/emacs-spell-fu"))])
  (sphinx-doc .
 	     [(0 3 0 1 -4 20210213 1250)
 	      ((s
@@ -54844,7 +54844,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "f3788508cf91b60f8ad71ee1340b579325171612")
+	  ((:commit . "321b08352d043708869d5c15f961610392afca16")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -56365,26 +56365,26 @@
 		     (:maintainer "Jon-Michael Deldin" . "dev@jmdeldin.com")
 		     (:keywords "faces"))])
  (undo-fu .
-	  [(0 4 1 -4 20220412 2337)
+	  [(0 4 1 -4 20220507 1118)
 	   ((emacs
 	     (25 1)))
 	   "Undo helper with redo" single
-	   ((:commit . "b50b283a073b9b3216fccf38649320a529ca1517")
+	   ((:commit . "08a9f1494957ca6513bdf8be5de6801b33e3ee59")
 	    (:authors
 	     ("Campbell Barton" . "ideasman42@gmail.com"))
 	    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-	    (:url . "https://gitlab.com/ideasman42/emacs-undo-fu"))])
+	    (:url . "https://codeberg.com/ideasman42/emacs-undo-fu"))])
  (undo-fu-session .
-		  [(0 2 1 -4 20220428 200)
+		  [(0 2 1 -4 20220507 1118)
 		   ((emacs
 		     (28 1)))
 		   "Persistent undo, available between sessions" single
-		   ((:commit . "a20c9dcb5fa54ba2ba6c79c7adb409cebb698818")
+		   ((:commit . "bc48bb6611d516891b61b2c4b5bc8d7fe8a520f6")
 		    (:authors
 		     ("Campbell Barton" . "ideasman42@gmail.com"))
 		    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		    (:keywords "convenience")
-		    (:url . "https://gitlab.com/ideasman42/emacs-undo-fu-session"))])
+		    (:url . "https://codeberg.com/ideasman42/emacs-undo-fu-session"))])
  (undo-propose .
 	       [(4 0 0 1 -4 20210207 45)
 		((emacs
