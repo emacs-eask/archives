@@ -2290,7 +2290,7 @@
 		 (packed
 		  (3 0 3)))
 		"Automatically compile Emacs Lisp libraries" single
-		((:commit . "f19e9fbb8d72a47f0cef049b784e1a492bef9287")
+		((:commit . "16de66c381dab3c1fb7bc248e0f81ef68966bd7d")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -2952,7 +2952,7 @@
 	     (outline-minor-faces
 	      (0 1 2)))
 	    "Preserve appearance of outline headings" single
-	    ((:commit . "0d44408262080cdf998de5a52516f220e7e7c99a")
+	    ((:commit . "edc5f1e8ca049c06d18d703479c4737f3530602e")
 	     (:authors
 	      ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	     (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -3594,7 +3594,7 @@
 	    (compat
 	     (28 1 1 0)))
 	   "Cycle outline and code visibility" single
-	   ((:commit . "aad77ba6ce64245570b4baa83b62008522c3ce3a")
+	   ((:commit . "e6d8ca47f77e0579fcb5a1dcb88218087102c355")
 	    (:authors
 	     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -4048,7 +4048,7 @@
 	"Ergonomic Command Mode for Emacs." tar
 	((:commit . "db7b6083d390e3febf82f9af5782e1a36d30093c"))])
  (borg .
-       [(3 3 1 -4 20220503 1114)
+       [(3 3 1 -4 20220509 2044)
 	((emacs
 	  (26))
 	 (epkg
@@ -4056,7 +4056,7 @@
 	 (magit
 	  (3 3 0)))
 	"Assimilate Emacs packages as Git submodules" tar
-	((:commit . "cd1fbd60a2ff62bbfca124ea1e602b14c4aa58e9")
+	((:commit . "492e0e44bfa0576a8227be21635c6ef0a853ad38")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -6342,7 +6342,7 @@
 	   (emacsql-sqlite
 	    (3 0 0)))
 	  "Store EIEIO objects using EmacSQL" single
-	  ((:commit . "6f4af0fc87fa0a1734480d6a4b72797c0916bc12")
+	  ((:commit . "87d2edae8bc3d390bcfc5e909e9c13ff9fce994a")
 	   (:authors
 	    ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -7871,7 +7871,7 @@
 		    (:keywords "convenience")
 		    (:url . "https://github.com/TommyX12/company-tabnine/"))])
  (company-terraform .
-		    [(1 0 1 -4 20190607 1037)
+		    [(1 0 1 -4 20220509 1759)
 		     ((emacs
 		       (24 4))
 		      (company
@@ -7879,7 +7879,7 @@
 		      (terraform-mode
 		       (0 6)))
 		     "A company backend for terraform" tar
-		     ((:commit . "2d11a21fee2f298e48968e479ddcaeda4d736e12")
+		     ((:commit . "8d5a16d1bbeeb18ca49a8fd57b5d8cd30c8b8dc7")
 		      (:authors
 		       ("Rafa\305\202 Cie\305\233lak" . "rafalcieslak256@gmail.com"))
 		      (:maintainer "Rafa\305\202 Cie\305\233lak" . "rafalcieslak256@gmail.com")
@@ -10657,7 +10657,7 @@
 		 (compat
 		  (28 1 1 0)))
 		"Dim or hide autoload cookie lines" single
-		((:commit . "09073e6bfd21f3a7f8fcf1e2e7c49994cdee7d2a")
+		((:commit . "81c94b0707d5ddd9a3b9962ee441206db1d25967")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -12997,7 +12997,7 @@
 		(:maintainer "Satoshi Egi" . "egisatoshi@gmail.com")
 		(:url . "https://github.com/egisatoshi/egison3/blob/master/elisp/egison-mode.el"))])
  (eglot .
-	[(1 8 1 -4 20220509 18)
+	[(1 8 1 -4 20220509 1904)
 	 ((emacs
 	   (26 1))
 	  (jsonrpc
@@ -13013,7 +13013,7 @@
 	  (seq
 	   (2 23)))
 	 "Client for Language Server Protocol (LSP) servers" single
-	 ((:commit . "7857cc1c54cd32af72248da6dad38f0b31914219")
+	 ((:commit . "ba618d2cee55c8c339d46621b7e721957cc30a72")
 	  (:authors
 	   ("Jo\303\243o T\303\241vora" . "joaotavora@gmail.com"))
 	  (:maintainer "Jo\303\243o T\303\241vora" . "joaotavora@gmail.com")
@@ -14369,7 +14369,7 @@
 			   (emacsql-sqlite
 			    (3 0 0)))
 			  "EmacSQL back-end for SQLite using builtin support" single
-			  ((:commit . "5501f7b7577dc8aa968c0d2183d081f334ad051a")
+			  ((:commit . "3e820c66fdaa9937f9e612900954dcd6c7d01943")
 			   (:authors
 			    ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -14386,7 +14386,7 @@
 			  (sqlite3
 			   (0 15)))
 			 "EmacSQL back-end for SQLite using a module" single
-			 ((:commit . "5501f7b7577dc8aa968c0d2183d081f334ad051a")
+			 ((:commit . "3e820c66fdaa9937f9e612900954dcd6c7d01943")
 			  (:authors
 			   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -14903,7 +14903,7 @@
 	 (closql
 	  (20210927)))
 	"Browse the Emacsmirror package database" tar
-	((:commit . "384222d9396f14e6b36a8d67abe6b3ede7418f0b")
+	((:commit . "fb86b5edd910b2571fc21477d0dac90be97a8f61")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -14920,7 +14920,7 @@
 		    (marginalia
 		     (0 12)))
 		   "Show Epkg information in completion annotations" single
-		   ((:commit . "73519c62db12c17804bfbcdfb0a6028389374bec")
+		   ((:commit . "ac43d5797300ac478e8dc862ec572b67ae4d5d86")
 		    (:authors
 		     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -16010,7 +16010,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20220507 902)
+       [(1 15 0 1 -4 20220509 2023)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -16018,7 +16018,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "61a680042f422be715b42ceccb2418847c5f6b65")
+	((:commit . "b32e00179538af9685ab7c31d46eea6dc40595d4")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulation" "vim")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -16821,7 +16821,7 @@
 		     ((evil
 		       (1 15 0)))
 		     "unit test helpers for Evil" single
-		     ((:commit . "61a680042f422be715b42ceccb2418847c5f6b65")
+		     ((:commit . "b32e00179538af9685ab7c31d46eea6dc40595d4")
 		      (:authors
 		       ("Vegard \303\230ye <vegard_oye at hotmail.com>"))
 		      (:maintainer "Vegard \303\230ye <vegard_oye at hotmail.com>"))])
@@ -20689,7 +20689,7 @@
 	  (yaml
 	   (0 3 4)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "29fc1302382700dc7ecb5e0fe20e47b8a9d0a1a4")
+	 ((:commit . "05babf69068de7a982bd2e8ad888f37dc7319003")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -20863,13 +20863,13 @@
 		     (:keywords "frames" "windows")
 		     (:url . "https://github.com/davidshepherd7/frames-only-mode"))])
  (frameshot .
-	    [(0 1 0 1 -4 20220422 1610)
+	    [(0 1 0 1 -4 20220509 2010)
 	     ((emacs
 	       (25 3))
 	      (compat
 	       (28 1 1 0)))
 	     "Take screenshots of a frame" single
-	     ((:commit . "fa5e2363efabc2e61e79bd66c96e7d1a5c827a0d")
+	     ((:commit . "ea57484dbba917a437ad3a20ea956aa2275bdc9a")
 	      (:authors
 	       ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	      (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -21231,7 +21231,7 @@
 	     (compat
 	      (28 1 1 0)))
 	    "misc frame, window and buffer commands" single
-	    ((:commit . "4bd3c23c3dc649ab5412e2bad7eebe3069363190")
+	    ((:commit . "e6eeac7552b61d4f7abd51aff6ce72394133663e")
 	     (:authors
 	      ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	     (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -21816,7 +21816,7 @@
 	 (treepy
 	  (0 1 1)))
 	"Client libraries for Git forge APIs." tar
-	((:commit . "f3a26544575303e86b423a3406656f0e5a576d67")
+	((:commit . "f14c1bc84135fe149c42348dce6eaa23ba610224")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -21994,7 +21994,7 @@
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "f331092df4d4dfc0a2a7424d929a9c845088d57f")
+	      ((:commit . "125a8d5e417dda4438ce41d71a821d8a936fa5ea")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -22160,7 +22160,7 @@
 	     ((emacs
 	       (25 1)))
 	     "Major modes for editing Git configuration files" tar
-	     ((:commit . "96abfb732d695cbd2075ba701254651a7b28d693")
+	     ((:commit . "eca3bb42ea8abed9ef8549b2ac91bbea445c5bb5")
 	      (:authors
 	       ("Sebastian Wiesner" . "lunaryorn@gmail.com")
 	       ("R\303\274diger Sonderfeld" . "ruediger@c-plusplus.net")
@@ -23540,9 +23540,9 @@
 			   (:keywords "grails" "projectile")
 			   (:url . "https://github.com/yveszoundi/grails-projectile-mode"))])
  (grammarly .
-	    [(0 3 0 1 -4 20220222 638)
+	    [(0 3 0 1 -4 20220509 1937)
 	     ((emacs
-	       (24 4))
+	       (26 1))
 	      (s
 	       (1 12 0))
 	      (request
@@ -23550,7 +23550,7 @@
 	      (websocket
 	       (1 6)))
 	     "Grammarly API interface" single
-	     ((:commit . "1d616a446c64dfe7d85f80cd38ce2a1e2a3b0f34")
+	     ((:commit . "3e14e53b87465ca35b08b5355061e380afb87b31")
 	      (:authors
 	       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -27419,7 +27419,7 @@
 	    (compat
 	     (28 1 1 0)))
 	   "Highlight TODO and similar keywords" single
-	   ((:commit . "6769accd7003ba5a0376d2c5cef0fcffce8f45be")
+	   ((:commit . "2337eac8cab0d4b73a96fb3936d2ac87600e3c91")
 	    (:authors
 	     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -28484,7 +28484,7 @@
 	  (compat
 	   (28 1 1 0)))
 	 "Simple, opinionated make target runner" single
-	 ((:commit . "51aeac9f3a24f23d063f591066675d1d70dcea09")
+	 ((:commit . "4dbc59789835396fdc76bfde4ae4971c8a9ceaed")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -31333,7 +31333,7 @@
 	    (compat
 	     (28 1 1 0)))
 	   "Show current command and its binding" single
-	   ((:commit . "0c37db482ca98e729430121209d70dd093082a5e")
+	   ((:commit . "296fba536287e7a0d88109e75a0bc0181647dc5e")
 	    (:authors
 	     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -31364,7 +31364,7 @@
 		 (compat
 		  (28 1 1 0)))
 		"Keymap utilities" single
-		((:commit . "0fd91fef890fb4c18c552e5ecaddd53c9bdac2bd")
+		((:commit . "f95fded924a7184a638ef233324fcda34c60ff7e")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -31865,7 +31865,7 @@
      ((seq
        (2 20)))
      "Compact syntax for short lambda" single
-     ((:commit . "c2466e52702a189fcc1ecad25cc1ad9f203f6627")
+     ((:commit . "3ab31ef28596ac2f95be4c4280cd86489232da97")
       (:keywords "extensions")
       (:url . "https://git.sr.ht/~tarsius/l"))])
  (laas .
@@ -32207,13 +32207,13 @@
 	(:keywords "tools")
 	(:url . "https://github.com/jyp/lcr"))])
  (le-thesaurus .
-	       [(0 2 0 1 -4 20220508 1442)
+	       [(0 2 0 1 -4 20220509 2120)
 		((request
 		  (0 3 2))
 		 (emacs
 		  (24 4)))
 		"Query thesaurus.com for synonyms of a given word" single
-		((:commit . "941390e5ca942c7459faf4e5988898baaa66fa14")
+		((:commit . "2af1ab37097cdd17044ab217e9aa6839add98626")
 		 (:url . "https://github.com/AnselmC/le-thesaurus"))])
  (leaf .
        [(4 5 5 1 -4 20211226 1633)
@@ -32671,7 +32671,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "87084396a2927d6921a794e40322e4affcbde2df")
+	     ((:commit . "4fc280db38a3b675442f4771cb25ede4ff6ac17c")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
@@ -34185,7 +34185,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "f331092df4d4dfc0a2a7424d929a9c845088d57f")
+	 ((:commit . "125a8d5e417dda4438ce41d71a821d8a936fa5ea")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -34376,7 +34376,7 @@
 		 (magit
 		  (20211004)))
 		"(POC) Teach Magit to use Libgit2." tar
-		((:commit . "f331092df4d4dfc0a2a7424d929a9c845088d57f")
+		((:commit . "125a8d5e417dda4438ce41d71a821d8a936fa5ea")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -34457,7 +34457,7 @@
 		  (dash
 		   (20210826)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "f331092df4d4dfc0a2a7424d929a9c845088d57f")
+		 ((:commit . "125a8d5e417dda4438ce41d71a821d8a936fa5ea")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -35844,7 +35844,7 @@
 	    (compat
 	     (28 1 1 0)))
 	   "A minor-mode menu for the mode line" single
-	   ((:commit . "b0427eea174adb494efc9fa212c22021861d3f76")
+	   ((:commit . "19dae1c41542777cb5b0311b6e2e77f43e2fd407")
 	    (:authors
 	     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -36082,7 +36082,7 @@
 		    (compat
 		     (28 1 1 0)))
 		   "Show status of debug-on-error in mode-line" single
-		   ((:commit . "d33e76efac6978c755bb5e0ced061b0063a6dff9")
+		   ((:commit . "e8e17b96df1b9fdc448bfc5367a24c2917de88d4")
 		    (:authors
 		     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -36319,7 +36319,7 @@
 	  (compat
 	   (28 1 1 0)))
 	 "Tabs and ribbons for the mode line" single
-	 ((:commit . "ac647781d2d66d57c84a64dfd33b463b4a99b257")
+	 ((:commit . "d56a70bc71cdf90cfd5cf4d8517aa1d808659241")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -36402,7 +36402,7 @@
 	    (compat
 	     (28 1 1 0)))
 	   "More font-lock keywords for elisp" single
-	   ((:commit . "b699497363c60bddc18393f68e3c9185e5fbb589")
+	   ((:commit . "3b3716e3f865dd71e3acc3f54a0a9f7e2445695a")
 	    (:authors
 	     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -37945,7 +37945,7 @@
 		 (compat
 		  (28 1 1 0)))
 		"Help keeping ~/.emacs.d clean" single
-		((:commit . "2c07829b38aea52b370623154ed51e3dc7f9adf4")
+		((:commit . "fed46eb7060aca624bfe1a18f13b73f94e70f013")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -38135,7 +38135,7 @@
 		 (notmuch
 		  (0 32)))
 		"An alternative to notmuch-address.el" single
-		((:commit . "2e479851b5cb2d25c31f21b400cfd34777348874")
+		((:commit . "dd852b09415e755cef6a345a2ee454a6cf1e1d06")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -38176,7 +38176,7 @@
 		    (notmuch
 		     (0 30)))
 		   "Visualize maildirs as a tree" single
-		   ((:commit . "f0dcfd755fe9e58652f0569e3c8641d38cd6dd4c")
+		   ((:commit . "b39cdeaec1afda6015cd0d5f4d851b3d59d0fd2b")
 		    (:authors
 		     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -38191,7 +38191,7 @@
 		      (notmuch
 		       (0 31 4)))
 		     "Command dispatchers for Notmuch" single
-		     ((:commit . "341fe7f05efe68460451bd5cb7151ca6d8b8cfc8")
+		     ((:commit . "4f64de401b8d955dce528f76575142edd9815dc7")
 		      (:authors
 		       ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		      (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -39357,7 +39357,7 @@
 	       (org
 		(9 4 5)))
 	      "Links to notmuch messages" single
-	      ((:commit . "744399e054ef3a19f66418fdb98ef9ad139cc3b5")
+	      ((:commit . "1a53d6c707514784cabf33d865b577bf77f45913")
 	       (:authors
 		("Matthieu Lemerre" . "racin@free.fr"))
 	       (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -40474,7 +40474,7 @@
 	   (:maintainer "kuangdash" . "kuangdash@163.com")
 	   (:url . "https://github.com/kuangdash/org-iv"))])
  (org-jira .
-	   [(4 3 2 1 -4 20220328 407)
+	   [(4 3 2 1 -4 20220509 2058)
 	    ((emacs
 	      (24 5))
 	     (cl-lib
@@ -40484,7 +40484,7 @@
 	     (dash
 	      (2 14 1)))
 	    "Syncing between Jira and Org-mode." tar
-	    ((:commit . "502de6d31d0b2fd8480787461b7167d5dd3b088a")
+	    ((:commit . "c0c0086419b4e68bb45bf609931916d6d8ae48a2")
 	     (:maintainer "Matthew Carter" . "m@ahungry.com")
 	     (:keywords "ahungry" "jira" "org" "bug" "tracker")
 	     (:url . "https://github.com/ahungry/org-jira"))])
@@ -42129,7 +42129,7 @@
 	  (org
 	   (9 4)))
 	 "Support for Org links to Magit buffers" single
-	 ((:commit . "6dc4d4bfffd6c11550952203a51346b13e120165")
+	 ((:commit . "b33b916915db5f91d2c9da4cb1a2457ccbb09332")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -42150,7 +42150,7 @@
 		(orgit
 		 (1 8)))
 	       "Org links to Forge issue buffers" single
-	       ((:commit . "72285807707a802ebe7f3c6149de9a78a022b17e")
+	       ((:commit . "8baf1dee795f026d4555687022487fab89c9bcdf")
 		(:authors
 		 ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		(:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -42167,7 +42167,7 @@
 	    (seq
 	     (2 23)))
 	   "Use Org Mode links in other modes" single
-	   ((:commit . "36129691e60e992f31065be4c26d58645b83b033")
+	   ((:commit . "59bec36eb91e78d508e290b69c4383b27466513f")
 	    (:authors
 	     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -42460,7 +42460,7 @@
 			(compat
 			 (28 1 1 0)))
 		       "Headings faces for outline-minor-mode" single
-		       ((:commit . "e92af60c68c4cb05db84c13bb71becaca90763d7")
+		       ((:commit . "ff862866a2c5eb7b20aa96a97fa982e2db1b6640")
 			(:authors
 			 ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			(:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -43270,7 +43270,7 @@
 	   (compat
 	    (28 1 1 0)))
 	  "Package manager agnostic Emacs Lisp package utilities" single
-	  ((:commit . "3489c97340434096f24c64a33feea22e19c18a2c")
+	  ((:commit . "6a427d9da742d78a8f6bd6ed9e31fbf241b2ea82")
 	   (:authors
 	    ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -43578,7 +43578,7 @@
 	       (compat
 		(28 1 1 0)))
 	      "A face for parentheses in lisp modes" single
-	      ((:commit . "5dc2c2e06152dc51f7395073569f448a8f94d296")
+	      ((:commit . "2c5de87c494ccfbe92c3f1da45f1720d7ecf4acf")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li"))
 	       (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -44007,7 +44007,7 @@
 	     (:keywords "data" "pdb")
 	     (:url . "http://bondxray.org/software/pdb-mode/"))])
  (pdf-tools .
-	    [(1 0 0 -4 20220426 2203)
+	    [(1 0 0 -4 20220509 1958)
 	     ((emacs
 	       (24 3))
 	      (nadvice
@@ -44017,7 +44017,7 @@
 	      (let-alist
 		  (1 0 4)))
 	     "Support library for PDF documents" tar
-	     ((:commit . "3ae9ba9ab9aaa03d1193667cb025a786bef9fe9a")
+	     ((:commit . "4460a4fd3122e6b53cab1b7d86d6e19022d81fb1")
 	      (:authors
 	       ("Andreas Politz" . "mail@andreas-politz.de"))
 	      (:maintainer "Vedang Manerikar" . "vedang.manerikar@gmail.com")
@@ -46501,7 +46501,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "32d99bb00a5e5b3799bd5555b17bcf5c23c1f71e")
+		 ((:commit . "b180b2809f7e77fdf7dd075d26a7421085bac58f")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -47060,7 +47060,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "737f5bdaa708be4cbaec58eb4b1b939d8d897a6a")
+	  ((:commit . "afa6853b57c8c14970e460ca2651d4157751ad1d")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -51230,7 +51230,7 @@
 	     (magit
 	      (3 4 0)))
 	    "Create releases of Emacs packages" single
-	    ((:commit . "2af8cec83790980a9a96c15ee3655a179aa3ddb1")
+	    ((:commit . "9626d9d26dc9f3cc57d41fa119a74e0cb1c4aab9")
 	     (:authors
 	      ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	     (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -54374,11 +54374,11 @@
 		 (:keywords "comm" "help" "hypermedia")
 		 (:url . "https://github.com/lassik/emacs-teletext-yle"))])
  (tempel .
-	 [(0 3 1 -4 20220430 1020)
+	 [(0 3 1 -4 20220509 2139)
 	  ((emacs
 	    (27 1)))
 	  "Tempo templates/snippets with in-buffer field editing" single
-	  ((:commit . "1ce581e30455b113d9c8358e79952134ca2e0356")
+	  ((:commit . "b88c58a89390cf3834de898109c5e69a5cf434cd")
 	   (:authors
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	   (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -54900,7 +54900,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "dcd74d80dc7605f219dfde5a507876a98cb92d01")
+	  ((:commit . "8ebe5b7d1924aee3ae24f967ddfd70afde03382c")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -55552,13 +55552,13 @@
 		(:keywords "comm" "convenience" "files")
 		(:url . "https://gitlab.com/tuedachu/transfer-sh.el"))])
  (transient .
-	    [(0 3 7 -4 20220509 1121)
+	    [(0 3 7 -4 20220509 1943)
 	     ((emacs
 	       (25 1))
 	      (compat
 	       (28 1 1 0)))
 	     "Transient commands" tar
-	     ((:commit . "1c84d7adb1cf104c83ace7d6a8b41ea7da2e79e2")
+	     ((:commit . "6fc09a663e408ade0d1b88f47701c96a9b051e34")
 	      (:authors
 	       ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	      (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -55678,7 +55678,7 @@
 	 (transient
 	  (0 3 0)))
 	"Various transient menus" single
-	((:commit . "7c70d499d08321337f860a3cd59cba7296cfcace")
+	((:commit . "1292530acd05956a2f1bd19c94ef6ab59f05ad8a")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -58731,7 +58731,7 @@
 		(compat
 		 (28 1 1 0)))
 	       "Use the Emacsclient as $EDITOR" tar
-	       ((:commit . "f9e22e5e98d8f1e21f3e2b9872d04be92c9fb1bf")
+	       ((:commit . "4ab8c6148bb2698ff793d4a8acdbd8d0d642e133")
 		(:authors
 		 ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		(:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -60039,11 +60039,11 @@
 	    ((:commit . "76cf76bdc871cb0454a6fc555aeb1aa94f1b6e57")
 	     (:url . "https://github.com/schmir/zimports.el"))])
  (zk .
-     [(0 3 1 -4 20220509 749)
+     [(0 4 1 -4 20220509 2156)
       ((emacs
 	(24 4)))
       "Functions for working with Zettelkasten-style linked notes" single
-      ((:commit . "cdffbfbe69a56a526729bca161ad39776b198186")
+      ((:commit . "9a3ed5e743c38725e7d9a7e4eaecfe624654c68d")
        (:authors
 	("Grant Rosson <https://github.com/localauthor>"))
        (:maintainer "Grant Rosson <https://github.com/localauthor>")
@@ -60055,7 +60055,7 @@
 	     (zk
 	      (0 3)))
 	    "Index and Desktop for zk" single
-	    ((:commit . "cdffbfbe69a56a526729bca161ad39776b198186")
+	    ((:commit . "9a3ed5e743c38725e7d9a7e4eaecfe624654c68d")
 	     (:authors
 	      ("Grant Rosson <https://github.com/localauthor>"))
 	     (:maintainer "Grant Rosson <https://github.com/localauthor>")
