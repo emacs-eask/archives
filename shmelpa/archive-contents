@@ -3691,7 +3691,7 @@
 	       (:maintainer "Eric Beuscher" . "beuscher@eecs.tulane.edu")
 	       (:keywords "bison-mode" "yacc-mode"))])
  (bitbake .
-	  [(0 1 1 -4 20190107 1155)
+	  [(0 1 1 -4 20220509 1236)
 	   ((emacs
 	     (24 1))
 	    (dash
@@ -3701,7 +3701,7 @@
 	    (s
 	     (1 10 0)))
 	   "Running bitbake from emacs" single
-	   ((:commit . "ba58bd051457ba0abd2fbc955ea0e75e78ff2c64")
+	   ((:commit . "434b088ab8715731d62978264cb934e34c75c4b3")
 	    (:authors
 	     ("Damien Merenne"))
 	    (:maintainer "Damien Merenne")
@@ -15231,7 +15231,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "bb8ce9d361793612035a747b085095231374b632")
+	  ((:commit . "9962287133b7107c34931f91d11aea6bea8fa4d1")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -23439,7 +23439,7 @@
 		      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
 		      (:url . "https://github.com/jcs-elpa/goto-line-preview"))])
  (govc .
-       [(0 18 0 1 -4 20191213 2131)
+       [(0 18 0 1 -4 20220509 1455)
 	((emacs
 	  (24 3))
 	 (dash
@@ -23451,7 +23451,7 @@
 	 (json-mode
 	  (1 6 0)))
 	"Interface to govc for managing VMware ESXi and vCenter" single
-	((:commit . "2f7a5a0f3e9c8ca12be21a95076c4ed6c7c55d1a")
+	((:commit . "72c2000c01b73c884f1f94df52765762e187b1de")
 	 (:authors
 	  ("The govc developers"))
 	 (:maintainer "The govc developers")
@@ -24120,11 +24120,11 @@
 		   ("Martin Haesler"))
 		  (:maintainer "Martin Haesler"))])
  (hamburger-menu .
-		 [(1 0 5 1 -4 20160825 2031)
+		 [(1 0 6 1 -4 20220509 1341)
 		  ((emacs
-		    (24 5)))
+		    (28 1)))
 		  "Mode line hamburger menu" single
-		  ((:commit . "3568159c693c30bed7f61580e4f3b6241253ad4e")
+		  ((:commit . "06bc9d6872007a31226d7410d497a0acd98b272b")
 		   (:authors
 		    ("Iain Nicol"))
 		   (:maintainer "Iain Nicol")
@@ -31869,7 +31869,7 @@
       (:keywords "extensions")
       (:url . "https://git.sr.ht/~tarsius/l"))])
  (laas .
-       [(1 1 1 -4 20220301 1629)
+       [(1 1 1 -4 20220509 1234)
 	((emacs
 	  (26 3))
 	 (auctex
@@ -31879,7 +31879,7 @@
 	 (yasnippet
 	  (0 14)))
 	"A bundle of as-you-type LaTeX snippets" tar
-	((:commit . "b372f9a44bea03cce09b20cd2409e3ae3fa2d651")
+	((:commit . "44533de4968fee924d9cc81ce9a23c9d82847db3")
 	 (:maintainer "Yoav Marco" . "yoavm448@gmail.com")
 	 (:keywords "tools" "tex")
 	 (:url . "https://github.com/tecosaur/LaTeX-auto-activating-snippets"))])
@@ -33883,7 +33883,7 @@
 		 (:keywords "languages")
 		 (:url . "https://github.com/emacs-lsp/lsp-treemacs"))])
  (lsp-ui .
-	 [(8 0 0 1 -4 20220509 1007)
+	 [(8 0 0 1 -4 20220509 1305)
 	  ((emacs
 	    (26 1))
 	   (dash
@@ -33893,7 +33893,7 @@
 	   (markdown-mode
 	    (2 3)))
 	  "UI modules for lsp-mode" tar
-	  ((:commit . "bc05895033b80b79dce179e56b04289ff29abef4")
+	  ((:commit . "ae1801e76a6682b6e52f9061834f4efdaec47b00")
 	   (:authors
 	    ("Sebastien Chapuis <sebastien@chapu.is>, Fangrui Song" . "i@maskray.me"))
 	   (:maintainer "Sebastien Chapuis <sebastien@chapu.is>, Fangrui Song" . "i@maskray.me")
@@ -34068,13 +34068,13 @@
 	       (:keywords "games" "word games" "anagram")
 	       (:url . "https://github.com/pawelbx/anagram-game"))])
  (macports .
-	   [(0 1 0 1 -4 20220508 656)
+	   [(0 1 0 1 -4 20220509 1326)
 	    ((emacs
 	      (25 1))
 	     (transient
 	      (0 1 0)))
 	    "A porcelain for MacPorts" tar
-	    ((:commit . "c2c93f8095ee47cc1da2d4f77487ba586d696305")
+	    ((:commit . "114fc87055a27a4f21901397b4418c018f293e1d")
 	     (:authors
 	      ("Aaron Madlon-Kay"))
 	     (:maintainer "Aaron Madlon-Kay")
@@ -41226,7 +41226,7 @@
 		(:keywords "redmine" "org")
 		(:url . "https://github.com/gongo/org-redmine"))])
  (org-ref .
-	  [(3 0 1 -4 20220505 2209)
+	  [(3 0 1 -4 20220509 1414)
 	   ((org
 	     (9 4))
 	    (dash
@@ -41248,7 +41248,7 @@
 	    (citeproc
 	     (0)))
 	   "citations, cross-references and bibliographies in org-mode" tar
-	   ((:commit . "a5a096b0c621fb42aa80cea14677bfb1d0df1f39")
+	   ((:commit . "0d2355d1eb4dcac1095a03d885788a12fe566610")
 	    (:authors
 	     ("John Kitchin" . "jkitchin@andrew.cmu.edu"))
 	    (:maintainer "John Kitchin" . "jkitchin@andrew.cmu.edu")
@@ -42727,13 +42727,13 @@
 		  (:keywords "html" "presentation")
 		  (:url . "http://github.com/coldnew/org-html5slide"))])
  (ox-hugo .
-	  [(0 11 1 1 -4 20220505 2123)
+	  [(0 11 1 1 -4 20220509 1259)
 	   ((emacs
 	     (26 3))
 	    (tomelr
 	     (0 3 0)))
 	   "Hugo Markdown Back-End for Org Export Engine" tar
-	   ((:commit . "3c699a1ed3f666735974fb90610d60b41e86a3b2")
+	   ((:commit . "c2cc2c45a8885576893e9413ee72145fc14d217e")
 	    (:authors
 	     ("Kaushal Modi" . "kaushal.modi@gmail.com")
 	     ("Matt Price" . "moptop99@gmail.com"))
@@ -46207,11 +46207,11 @@
 			   (:keywords "defaults")
 			   (:url . "https://github.com/rdallasgray/project-persist-drawer.git"))])
  (project-rootfile .
-		   [(0 0 1 1 -4 20220505 1256)
+		   [(0 0 1 1 -4 20220509 1354)
 		    ((emacs
 		      (27 1)))
-		    "Project backend by root file" single
-		    ((:commit . "a4c4f004fbf8ca44e74be845a1c3696d6db5b0d6")
+		    "Extension of project.el to detect project with root file" single
+		    ((:commit . "065f5dc94d91528cb78851d66e051c205aeddf1a")
 		     (:authors
 		      ("Taiki Sugawara" . "buzz.taiki@gmail.com"))
 		     (:maintainer "Taiki Sugawara" . "buzz.taiki@gmail.com")
@@ -47060,7 +47060,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "2f7580df215287dbae2ac238edbf10c0e736f072")
+	  ((:commit . "63a9124d6356dd6db566a1453c0a185c26ce36b7")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -55281,11 +55281,11 @@
 		  (:keywords "hide" "window")
 		  (:url . "https://github.com/deadghost/toggle-window"))])
  (tok-theme .
-	    [(0 1 1 -4 20220505 1155)
+	    [(0 1 1 -4 20220509 1324)
 	     ((emacs
 	       (26 1)))
 	     "Minimal theme with dark and yellow color scheme" single
-	     ((:commit . "118565dab2d3cf1b083d666bc19ed1b063035732")
+	     ((:commit . "a1a224d96665ee14c059eed63dc4b458f6b7a8d8")
 	      (:authors
 	       ("Topi Kettunen" . "topi@topikettunen.com"))
 	      (:maintainer "Topi Kettunen" . "topi@topikettunen.com")
