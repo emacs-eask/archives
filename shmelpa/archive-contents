@@ -12083,11 +12083,11 @@
 	 (:maintainer "Mattias Engdeg\303\245rd" . "mattiase@acm.org")
 	 (:keywords "docs"))])
  (dtache .
-	 [(0 6 1 -4 20220501 931)
+	 [(0 6 1 -4 20220511 2036)
 	  ((emacs
 	    (27 1)))
 	  "Run and interact with detached shell commands" tar
-	  ((:commit . "9becf3a921a0fde3a6e5d6f30379cf3d9826d565")
+	  ((:commit . "b121de820cf28ed507194b9c4cde90ac9ca672d8")
 	   (:authors
 	    ("Niklas Eklund" . "niklas.eklund@posteo.net"))
 	   (:maintainer "Niklas Eklund" . "niklas.eklund@posteo.net")
@@ -12193,7 +12193,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "5babcfd7f56f331d6271e51cb52fc4d09135ffb1")
+	((:commit . "5509b8bec4e5ee060afd9b7a21ce0cf845ba96f0")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -13162,7 +13162,7 @@
 	    ((emacs
 	      (25 1)))
 	    "Show system information in Neofetch-like style (eg CPU, RAM)" single
-	    ((:commit . "3fa818577238adf9db7264e302d9614ce973d307")
+	    ((:commit . "3aa9594e807cb03af228c13224b381ecdd7ba2e3")
 	     (:authors
 	      ("Maciej Bar\304\207" . "xgqt@riseup.net"))
 	     (:maintainer "Maciej Bar\304\207" . "xgqt@riseup.net")
@@ -14910,9 +14910,9 @@
 	 (:keywords "tools")
 	 (:url . "https://github.com/emacscollective/epkg"))])
  (epkg-marginalia .
-		  [(0 1 0 1 -4 20220424 2211)
+		  [(0 1 0 1 -4 20220511 1942)
 		   ((emacs
-		     (26))
+		     (27 1))
 		    (compat
 		     (28 1 1 0))
 		    (epkg
@@ -14920,7 +14920,7 @@
 		    (marginalia
 		     (0 12)))
 		   "Show Epkg information in completion annotations" single
-		   ((:commit . "ac43d5797300ac478e8dc862ec572b67ae4d5d86")
+		   ((:commit . "ee784211346c7c374accec2bda78788cc68fa641")
 		    (:authors
 		     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -32671,7 +32671,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "af55e551b154cb8fe18d10d555c839d403b37cf3")
+	     ((:commit . "24c38713d81f181a9644e322b7687979a3500112")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
@@ -44008,7 +44008,7 @@
 	     (:keywords "data" "pdb")
 	     (:url . "http://bondxray.org/software/pdb-mode/"))])
  (pdf-tools .
-	    [(1 0 0 -4 20220510 110)
+	    [(1 0 0 -4 20220511 1945)
 	     ((emacs
 	       (24 3))
 	      (nadvice
@@ -44018,7 +44018,7 @@
 	      (let-alist
 		  (1 0 4)))
 	     "Support library for PDF documents" tar
-	     ((:commit . "ab61b0472980200f52e2e23782bc07255baebe72")
+	     ((:commit . "37bbe861755bc60c7cc333359fee3e2a5d919c77")
 	      (:authors
 	       ("Andreas Politz" . "mail@andreas-politz.de"))
 	      (:maintainer "Vedang Manerikar" . "vedang.manerikar@gmail.com")
@@ -46502,7 +46502,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "309e24e86a02db948617843c15c28dcd8d9d0c82")
+		 ((:commit . "87c547568777b693bf78936b7ee5b073b7e220e5")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -47061,7 +47061,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "7e1726f79730c838ce75ab0f9c7c275245d89356")
+	  ((:commit . "e91a674b9e67c5f99382a621e28958656fa6c1f9")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -54901,7 +54901,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "e2957b089222812882e7d2435c7ce61ce7d4e674")
+	  ((:commit . "bb34435dba4c329f0aef3494121e81c13bc17e3f")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -55354,11 +55354,11 @@
 	   (:keywords "tools")
 	   (:url . "https://github.com/xuchunyang/tongbu.el"))])
  (topspace .
-	   [(0 2 1 1 -4 20220511 245)
+	   [(0 2 1 1 -4 20220511 2119)
 	    ((emacs
 	      (25 1)))
 	    "Scroll down & recenter top lines / get upper margins/padding" single
-	    ((:commit . "fa2e5713d7ca084e81a89d10e7941465db70190e")
+	    ((:commit . "7e44e30c8a13d7f253ab654106683edb4f39ea0b")
 	     (:authors
 	      ("Trevor Edwin Pogue" . "trevor.pogue@gmail.com"))
 	     (:maintainer "Trevor Edwin Pogue" . "trevor.pogue@gmail.com")
@@ -55776,7 +55776,7 @@
 	       (:keywords "outlines" "files" "convenience")
 	       (:url . "https://github.com/cyberthal/treefactor"))])
  (treemacs .
-	   [(2 10 1 -4 20220506 1056)
+	   [(2 10 1 -4 20220511 1852)
 	    ((emacs
 	      (26 1))
 	     (cl-lib
@@ -55796,7 +55796,7 @@
 	     (cfrs
 	      (1 3 2)))
 	    "A tree style file explorer package" tar
-	    ((:commit . "07706547a2a927e6787645538d8bdb6e9418fb62")
+	    ((:commit . "dca83bd42918b510173759df4cc8b3663d5d480d")
 	     (:authors
 	      ("Alexander Miller" . "alexanderm@web.de"))
 	     (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55810,13 +55810,13 @@
 			   (treemacs
 			    (0 0)))
 			  "all-the-icons integration for treemacs" single
-			  ((:commit . "07706547a2a927e6787645538d8bdb6e9418fb62")
+			  ((:commit . "dca83bd42918b510173759df4cc8b3663d5d480d")
 			   (:authors
 			    ("Eric Dallo" . "ercdll1337@gmail.com"))
 			   (:maintainer "Eric Dallo" . "ercdll1337@gmail.com")
 			   (:url . "https://github.com/Alexander-Miller/treemacs"))])
  (treemacs-evil .
-		[(0 1 -4 20220427 1331)
+		[(0 1 -4 20220511 1852)
 		 ((emacs
 		   (26 1))
 		  (evil
@@ -55824,7 +55824,7 @@
 		  (treemacs
 		   (0 0)))
 		 "Evil mode integration for treemacs" single
-		 ((:commit . "07706547a2a927e6787645538d8bdb6e9418fb62")
+		 ((:commit . "dca83bd42918b510173759df4cc8b3663d5d480d")
 		  (:authors
 		   ("Alexander Miller" . "alexanderm@web.de"))
 		  (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55836,7 +55836,7 @@
 			 (emacs
 			  (26 1)))
 			"Treemacs icons for dired" single
-			((:commit . "07706547a2a927e6787645538d8bdb6e9418fb62")
+			((:commit . "dca83bd42918b510173759df4cc8b3663d5d480d")
 			 (:authors
 			  ("Alexander Miller" . "alexanderm@web.de"))
 			 (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55852,7 +55852,7 @@
 		   (magit
 		    (2 90 0)))
 		  "Magit integration for treemacs" single
-		  ((:commit . "07706547a2a927e6787645538d8bdb6e9418fb62")
+		  ((:commit . "dca83bd42918b510173759df4cc8b3663d5d480d")
 		   (:authors
 		    ("Alexander Miller" . "alexanderm@web.de"))
 		   (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55868,7 +55868,7 @@
 		   (dash
 		    (2 11 0)))
 		  "Persp-mode integration for treemacs" single
-		  ((:commit . "07706547a2a927e6787645538d8bdb6e9418fb62")
+		  ((:commit . "dca83bd42918b510173759df4cc8b3663d5d480d")
 		   (:authors
 		    ("Alexander Miller" . "alexanderm@web.de"))
 		   (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55884,7 +55884,7 @@
 			 (dash
 			  (2 11 0)))
 			"Perspective integration for treemacs" single
-			((:commit . "07706547a2a927e6787645538d8bdb6e9418fb62")
+			((:commit . "dca83bd42918b510173759df4cc8b3663d5d480d")
 			 (:authors
 			  ("Alexander Miller" . "alexanderm@web.de")
 			  ("Jason Dufair" . "jase@dufair.org"))
@@ -55899,7 +55899,7 @@
 			(treemacs
 			 (0 0)))
 		       "Projectile integration for treemacs" single
-		       ((:commit . "07706547a2a927e6787645538d8bdb6e9418fb62")
+		       ((:commit . "dca83bd42918b510173759df4cc8b3663d5d480d")
 			(:authors
 			 ("Alexander Miller" . "alexanderm@web.de"))
 			(:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55913,7 +55913,7 @@
 		     (dash
 		      (2 11 0)))
 		    "Tab bar integration for treemacs" single
-		    ((:commit . "07706547a2a927e6787645538d8bdb6e9418fb62")
+		    ((:commit . "dca83bd42918b510173759df4cc8b3663d5d480d")
 		     (:authors
 		      ("Alexander Miller" . "alexanderm@web.de")
 		      ("Jason Dufair" . "jase@dufair.org")
@@ -58991,9 +58991,9 @@
 		(:keywords "convenience")
 		(:url . "https://github.com/dangom/writefreely.el"))])
  (writegood-mode .
-		 [(2 1 1 1 -4 20220510 2027)
+		 [(2 2 0 1 -4 20220511 2109)
 		  nil "Polish up poor writing on the fly" single
-		  ((:commit . "d423f26bc2992b87fbb4a2ce881136cbc5c15eeb")
+		  ((:commit . "d54eadeedb8bf3aa0e0a584c0a7373c69644f4b8")
 		   (:authors
 		    ("Benjamin Beckwith"))
 		   (:maintainer "Benjamin Beckwith")
