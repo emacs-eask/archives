@@ -15233,7 +15233,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "852daae195175eb56b983eefc7c8540d1e33665f")
+	  ((:commit . "660596b107b62fbfd1ff028a9e46bb822484c2be")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -24438,13 +24438,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 8 5 1 -4 20220509 1011)
+       [(3 8 5 1 -4 20220512 856)
 	((helm-core
 	  (3 8 4))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "ec76b7d0ffaa77bae47be5b9ee9069601a463d5b")
+	((:commit . "737ce8e263f2de51ef22d96d4a9146b7453d28f8")
 	 (:authors
 	  ("Thierry Volpiatto" . "thierry.volpiatto@gmail.com"))
 	 (:maintainer "Thierry Volpiatto" . "thierry.volpiatto@gmail.com")
@@ -24891,13 +24891,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 8 5 1 -4 20220503 622)
+	    [(3 8 5 1 -4 20220512 856)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 4)))
 	     "Development files for Helm" tar
-	     ((:commit . "ec76b7d0ffaa77bae47be5b9ee9069601a463d5b")
+	     ((:commit . "737ce8e263f2de51ef22d96d4a9146b7453d28f8")
 	      (:authors
 	       ("Thierry Volpiatto" . "thierry.volpiatto@gmail.com"))
 	      (:maintainer "Thierry Volpiatto" . "thierry.volpiatto@gmail.com")
@@ -31943,7 +31943,7 @@
 		  (highlight
 		   (20190710 1527)))
 		 "A major mode for editing Lambdapi source code" tar
-		 ((:commit . "a205bd0e8ba492a3a784ddd7a97c5167fce50675")
+		 ((:commit . "67ae434d6ce2073e9c914817d21269f5c6a2a66f")
 		  (:maintainer "Deducteam" . "dedukti-dev@inria.fr")
 		  (:keywords "languages")
 		  (:url . "https://github.com/Deducteam/lambdapi"))])
@@ -36150,11 +36150,11 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(2 3 2 1 -4 20220511 1618)
+	       [(2 3 2 1 -4 20220512 1007)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "3d6221e28481a62355a4b8d532aa82a8894a7a36")
+		((:commit . "0494b9bfa00cd3170513680641b06f34bf7eb8a2")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
@@ -38841,13 +38841,15 @@
 	       (:keywords "literate programming" "reproducible research")
 	       (:url . "http://www.gregsexton.org"))])
  (ob-julia-vterm .
-		 [(0 2 1 1 -4 20220511 116)
+		 [(0 2 2 1 -4 20220512 820)
 		  ((emacs
 		    (26 1))
 		   (julia-vterm
-		    (0 16)))
+		    (0 16))
+		   (queue
+		    (0 2)))
 		  "Babel Functions for Julia in VTerm" single
-		  ((:commit . "11f857a9eb7c003906b5b524064b8f42842b99b1")
+		  ((:commit . "448b1d0d2edf908c13a99a2424fec20de636f5a3")
 		   (:authors
 		    ("Shigeaki Nishina"))
 		   (:maintainer "Shigeaki Nishina")
@@ -46968,7 +46970,7 @@
 	      (:keywords "data" "games" "chess")
 	      (:url . "https://github.com/dwcoates/pygn-mode"))])
  (pyim .
-       [(4 2 0 1 -4 20220511 1240)
+       [(4 2 0 1 -4 20220512 930)
 	((emacs
 	  (25 1))
 	 (async
@@ -46976,7 +46978,7 @@
 	 (xr
 	  (1 13)))
 	"A Chinese input method support quanpin, shuangpin, wubi, cangjie and rime." tar
-	((:commit . "ce1ee215f7e9e41d2cdd3f353700e97940e07031")
+	((:commit . "dcdae4db85646de85b1ca75e4604691cf9273273")
 	 (:authors
 	  ("Ye Wenbin" . "wenbinye@163.com")
 	  ("Feng Shu" . "tumashu@163.com"))
@@ -47063,7 +47065,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "0e7204b570f0972bb729673af15920ce91526b22")
+	  ((:commit . "366fd724152851f4e5941f0e140ebbfc3729d256")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -47224,9 +47226,9 @@
 	       (:keywords "languages" "processes")
 	       (:url . "https://github.com/jdtsmith/python-mls"))])
  (python-mode .
-	      [(6 3 1 1 -4 20220511 949)
+	      [(6 3 1 1 -4 20220512 853)
 	       nil "Python major mode" tar
-	       ((:commit . "6cdb8fd64cc2c3fe519880ddc27ca0f2b480ba69")
+	       ((:commit . "e1f288d2958aa9325f1dd344e635cb3e95ae498f")
 		(:authors
 		 ("2015-2021 https://gitlab.com/groups/python-mode-devs")
 		 ("2003-2014 https://launchpad.net/python-mode")
@@ -54903,7 +54905,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "59f6c4dfa0f23dc984a98a0347a8568eac396b71")
+	  ((:commit . "906178ea29588a958750b3e53d22358209163d69")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
