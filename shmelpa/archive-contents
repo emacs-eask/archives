@@ -4360,11 +4360,13 @@
 		  (:keywords "internal" "maint")
 		  (:url . "https://github.com/plandes/buffer-manage"))])
  (buffer-move .
-	      [(0 6 2 1 -4 20160615 1803)
-	       nil "easily swap buffers" single
-	       ((:commit . "cb517ecf8409b5fdcda472d7190c6021f0c49751")
-		(:keywords "lisp" "convenience")
-		(:url . "https://github.com/lukhas/buffer-move"))])
+	      [(0 6 3 1 -4 20220512 755)
+	       ((emacs
+		 (24 1)))
+	       "easily swap buffers" single
+	       ((:commit . "e7800b3ab1bd76ee475ef35507ec51ecd5a3f065")
+		(:keywords "convenience")
+		(:url . "https://github.com/lukhas/buffer-move/"))])
  (buffer-ring .
 	      [(0 3 4 1 -4 20220120 124)
 	       ((emacs
@@ -11200,11 +11202,11 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 2 0 1 -4 20220512 425)
+	  [(1 2 0 1 -4 20220512 649)
 	   ((emacs
 	     (27 1)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "2411efd1d51e9f879395d4142fcd892a33bdc452")
+	   ((:commit . "49655579f2aef3e8caaff03dcf8c5e46cfcd2839")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
