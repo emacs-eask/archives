@@ -12193,7 +12193,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "375bae89c1c1e4bef44a8c54f600122c5b2480b7")
+	((:commit . "14019057591b87cde783abe853539841b7943fd6")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -17511,9 +17511,9 @@
 	    (:maintainer "Takafumi Arakaki <aka.tkf at gmail.com>")
 	    (:url . "https://github.com/tkf/factlog"))])
  (faff-theme .
-	     [(2 6 1 -4 20220421 1246)
+	     [(2 6 1 -4 20220512 21)
 	      nil "Light Emacs color theme on cornsilk3 background" single
-	      ((:commit . "457144f077fd091794303d62d07f795ec1b540aa")
+	      ((:commit . "33b3344848ae17d45c19d222e53b368ea6867e7e")
 	       (:authors
 		("James Ferguson <(concat \"wjcferguson\" at-sign \"gmail.com\")>"))
 	       (:maintainer "James Ferguson <(concat \"wjcferguson\" at-sign \"gmail.com\")>")
@@ -21292,11 +21292,11 @@
 	    (:keywords "languages" "tools" "gams-mode" "auto-complete")
 	    (:url . "https://github.com/ShiroTakeda/gams-ac"))])
  (gams-mode .
-	    [(6 9 1 -4 20220501 1507)
+	    [(6 10 1 -4 20220512 222)
 	     ((emacs
 	       (24 3)))
 	     "Major mode for General Algebraic Modeling System (GAMS)" tar
-	     ((:commit . "1964d9a52693f3aa9279eed8864bc317ee5c6dc4")
+	     ((:commit . "d7f5bb688e569c7c517e4c3af32a5319c492362b")
 	      (:authors
 	       ("Shiro Takeda"))
 	      (:maintainer "Shiro Takeda")
@@ -21994,7 +21994,7 @@
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "6d66ab34c54f2cd70aa1ffcb3b32a6daa31e689e")
+	      ((:commit . "84922c3997980a44f9fa2702a4e7db678adf98f8")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -32671,7 +32671,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "24c38713d81f181a9644e322b7687979a3500112")
+	     ((:commit . "504933d2a6c1116748a6f2e07b691d0774565b48")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
@@ -34169,7 +34169,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 -4 20220510 2228)
+	[(3 3 0 -4 20220512 309)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -34185,7 +34185,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "6d66ab34c54f2cd70aa1ffcb3b32a6daa31e689e")
+	 ((:commit . "84922c3997980a44f9fa2702a4e7db678adf98f8")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -34376,7 +34376,7 @@
 		 (magit
 		  (20211004)))
 		"(POC) Teach Magit to use Libgit2." tar
-		((:commit . "6d66ab34c54f2cd70aa1ffcb3b32a6daa31e689e")
+		((:commit . "84922c3997980a44f9fa2702a4e7db678adf98f8")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -34457,7 +34457,7 @@
 		  (dash
 		   (20210826)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "6d66ab34c54f2cd70aa1ffcb3b32a6daa31e689e")
+		 ((:commit . "84922c3997980a44f9fa2702a4e7db678adf98f8")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -41403,9 +41403,9 @@
 	    (:keywords "outlines" "data")
 	    (:url . "https://github.com/pmiddend/org-rtm"))])
  (org-runbook .
-	      [(1 1 1 -4 20220107 451)
+	      [(1 1 1 -4 20220512 144)
 	       nil "Org mode for runbooks" tar
-	       ((:commit . "dd11d253d3ee94b70f0d2cc74c6e85c6f5ac189d")
+	       ((:commit . "d2d97cb5badc29d9af37f24fce9d76bf9baf8af2")
 		(:authors
 		 ("Tyler Dodge"))
 		(:maintainer "Tyler Dodge")
@@ -44008,7 +44008,7 @@
 	     (:keywords "data" "pdb")
 	     (:url . "http://bondxray.org/software/pdb-mode/"))])
  (pdf-tools .
-	    [(1 0 0 -4 20220511 1945)
+	    [(1 0 0 -4 20220512 145)
 	     ((emacs
 	       (24 3))
 	      (nadvice
@@ -44018,7 +44018,7 @@
 	      (let-alist
 		  (1 0 4)))
 	     "Support library for PDF documents" tar
-	     ((:commit . "37bbe861755bc60c7cc333359fee3e2a5d919c77")
+	     ((:commit . "fedd930a09a497c03df3ce5204ccbd80da724662")
 	      (:authors
 	       ("Andreas Politz" . "mail@andreas-politz.de"))
 	      (:maintainer "Vedang Manerikar" . "vedang.manerikar@gmail.com")
@@ -46502,7 +46502,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "b64cd5ac641a91de1788b4e56ff97f0a0ad16408")
+		 ((:commit . "d60c0d2d35d838bdaf7a4815bf974879a6843e03")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
