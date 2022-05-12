@@ -1713,11 +1713,11 @@
 	"A Portable Emacs Library provides support for portable Emacs Lisp programs" tar
 	((:commit . "6947dc4605ebbb87762edf7051a78a3f7b5f17c5"))])
  (apheleia .
-	   [(2 0 1 -4 20220509 2258)
+	   [(2 0 1 -4 20220511 2326)
 	    ((emacs
 	      (26)))
 	    "Reformat buffer stably" single
-	    ((:commit . "a0737fd69591f4186a626eb72ccd9488a6da437c")
+	    ((:commit . "982df5a2e0c1695e87069b1e4a54ed90d7b2026c")
 	     (:authors
 	      ("Radian LLC" . "contact+apheleia@radian.codes"))
 	     (:maintainer "Radian LLC" . "contact+apheleia@radian.codes")
@@ -8335,7 +8335,7 @@
 			  (:keywords "convenience" "project" "management")
 			  (:url . "https://github.com/Qkessler/consult-project-extra"))])
  (consult-projectile .
-		     [(0 6 1 -4 20220505 1139)
+		     [(0 7 1 -4 20220511 2103)
 		      ((emacs
 			(25 1))
 		       (consult
@@ -8343,7 +8343,7 @@
 		       (projectile
 			(2 5 0)))
 		      "Consult integration for projectile" single
-		      ((:commit . "8e618bc62405e345cc59e891f82d8ee45691010a")
+		      ((:commit . "130ba9d3879bc293d81b1aa9fbfd0dffae3b5579")
 		       (:authors
 			("Marco Paw\305\202owski"))
 		       (:maintainer "Marco Paw\305\202owski")
@@ -9590,7 +9590,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "6bf9d441c5f2c46ae72b6bb3e4ac6175d3a3474b"))])
+	       ((:commit . "89591f7c85f6b8eb580ac8f3a00014f28c61a139"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -12193,7 +12193,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "5509b8bec4e5ee060afd9b7a21ce0cf845ba96f0")
+	((:commit . "375bae89c1c1e4bef44a8c54f600122c5b2480b7")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -17511,9 +17511,9 @@
 	    (:maintainer "Takafumi Arakaki <aka.tkf at gmail.com>")
 	    (:url . "https://github.com/tkf/factlog"))])
  (faff-theme .
-	     [(2 6 1 -4 20220407 145)
+	     [(2 6 1 -4 20220421 1246)
 	      nil "Light Emacs color theme on cornsilk3 background" single
-	      ((:commit . "f824c3f55ea42d65e0b632879c6948d3eb43b2f3")
+	      ((:commit . "457144f077fd091794303d62d07f795ec1b540aa")
 	       (:authors
 		("James Ferguson <(concat \"wjcferguson\" at-sign \"gmail.com\")>"))
 	       (:maintainer "James Ferguson <(concat \"wjcferguson\" at-sign \"gmail.com\")>")
@@ -33080,11 +33080,11 @@
 		 (:keywords "languages" "util")
 		 (:url . "https://github.com/lassik/emacs-live-preview"))])
  (live-py-mode .
-	       [(4 4 1 -4 20220404 0)
+	       [(4 4 1 -4 20220512 34)
 		((emacs
 		  (24 3)))
 		"Live Coding in Python" tar
-		((:commit . "b466460b6783caacf1ea3fcfa28752cb73fd0805")
+		((:commit . "7eaf6dc55caaaa65c5d6937b25e1748df75dbdb3")
 		 (:authors
 		  ("Don Kirkby http://donkirkby.github.io"))
 		 (:maintainer "Don Kirkby http://donkirkby.github.io")
@@ -34068,13 +34068,13 @@
 	       (:keywords "games" "word games" "anagram")
 	       (:url . "https://github.com/pawelbx/anagram-game"))])
  (macports .
-	   [(0 1 0 1 -4 20220511 1414)
+	   [(0 1 0 1 -4 20220512 9)
 	    ((emacs
 	      (25 1))
 	     (transient
 	      (0 1 0)))
 	    "A porcelain for MacPorts" tar
-	    ((:commit . "c3c0616af55d4327da727da01780253b6678a7cc")
+	    ((:commit . "1a02301f59f5e55aec192ae3e62d7201d8f733b0")
 	     (:authors
 	      ("Aaron Madlon-Kay"))
 	     (:maintainer "Aaron Madlon-Kay")
@@ -34224,13 +34224,13 @@
 		   (:keywords "circleci" "continuous" "integration" "magit" "vc" "tools")
 		   (:url . "https://github.com/abrochard/magit-circleci"))])
  (magit-commit-mark .
-		    [(0 1 0 1 -4 20220507 1118)
+		    [(0 1 0 1 -4 20220511 2341)
 		     ((emacs
 		       (28 1))
 		      (magit
 		       (3 3 0)))
 		     "Support marking commits as read" single
-		     ((:commit . "bea29dc0419122b5dbc68b6b56cb0fbe97729e2d")
+		     ((:commit . "ce2cd6daeb46eaea597a3b2c9d9ead80da9f0d09")
 		      (:authors
 		       ("Campbell Barton" . "ideasman42@gmail.com"))
 		      (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -37700,11 +37700,11 @@
 	     (:maintainer "Simon Hafner" . "hafnersimon@gmail.com")
 	     (:keywords "nim" "languages"))])
  (nimbus-theme .
-	       [(1 1 0 1 -4 20220510 2023)
+	       [(1 1 0 1 -4 20220511 2232)
 		((emacs
 		  (24 1)))
 		"An awesome dark theme" single
-		((:commit . "49569bd2694e4b9ac8419d8906e87ee531236c0c")
+		((:commit . "66b18bd7ef56fc52dc59cd894e3de85a0059a726")
 		 (:authors
 		  ("Marcin Swieczkowski" . "marcin.swieczkowski@gmail.com")
 		  ("See README.md for full list of contributors."))
@@ -41315,7 +41315,7 @@
 		  (:keywords "convenience" "hypermedia" "org")
 		  (:url . "https://github.com/unhammer/org-rich-yank"))])
  (org-roam .
-	   [(2 2 2 1 -4 20220508 19)
+	   [(2 2 2 1 -4 20220511 2239)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -41329,7 +41329,7 @@
 	     (magit-section
 	      (3 0 0)))
 	    "A database abstraction layer for Org-mode" tar
-	    ((:commit . "c0871c42bec9fa836e1b2a8c7691f06694f99714")
+	    ((:commit . "b2d9543fa286d0eb6c5c5e49c20d36bf9e2cc610")
 	     (:authors
 	      ("Jethro Kuan" . "jethrokuan95@gmail.com"))
 	     (:maintainer "Jethro Kuan" . "jethrokuan95@gmail.com")
@@ -46502,7 +46502,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "87c547568777b693bf78936b7ee5b073b7e220e5")
+		 ((:commit . "b64cd5ac641a91de1788b4e56ff97f0a0ad16408")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -54901,7 +54901,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "bb34435dba4c329f0aef3494121e81c13bc17e3f")
+	  ((:commit . "2a3d0bf666833925c029d35d010a892806881bec")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
