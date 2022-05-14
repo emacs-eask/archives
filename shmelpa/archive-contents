@@ -1921,6 +1921,21 @@
 	   (:maintainer "Andrey Fainer" . "fandrey@gmx.com")
 	   (:keywords "files")
 	   (:url . "https://github.com/afainer/arview"))])
+ (arxiv-citation .
+		 [(0 1 1 -4 20220510 1137)
+		  ((emacs
+		    (25 1))
+		   (dash
+		    (2 19 1))
+		   (s
+		    (1 12 0)))
+		  "Utility functions for dealing with arXiv papers" single
+		  ((:commit . "a7e79919aa44c495c4fd10fd801e3b1225207446")
+		   (:authors
+		    ("Tony Zorman" . "soliditsallgood@mailbox.org"))
+		   (:maintainer "Tony Zorman" . "soliditsallgood@mailbox.org")
+		   (:keywords "convenience")
+		   (:url . "https://gitlab.com/slotThe/arXiv-citation"))])
  (arxiv-mode .
 	     [(0 3 1 1 -4 20220128 920)
 	      ((emacs
@@ -2874,7 +2889,7 @@
 		     ((emacs
 		       (24 2)))
 		     "An environment for using Axiom/OpenAxiom/FriCAS" tar
-		     ((:commit . "b52fa715285e7ad182c8e679ebf05b130dd5b5e2")
+		     ((:commit . "847cc6e728b692ad3fdaec28d0c8c49ec0378a56")
 		      (:authors
 		       ("Paul Onions" . "paul.onions@acm.org"))
 		      (:maintainer "Paul Onions" . "paul.onions@acm.org")
@@ -5675,7 +5690,7 @@
 			(spark
 			 (0 1)))
 		       "Show sparklines in Chronometrist buffers" tar
-		       ((:commit . "f7b2defceed8bafb87da704ce3e7774f53abf1c4")
+		       ((:commit . "5da2a39a794577c3b703c711843a5153f657bbe6")
 			(:authors
 			 ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 			(:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -7014,7 +7029,7 @@
 		  (axiom-environment
 		   (20171021)))
 		 "A company-mode backend for the axiom-environment system" single
-		 ((:commit . "b52fa715285e7ad182c8e679ebf05b130dd5b5e2")
+		 ((:commit . "847cc6e728b692ad3fdaec28d0c8c49ec0378a56")
 		  (:authors
 		   ("Paul Onions" . "paul.onions@acm.org"))
 		  (:maintainer "Paul Onions" . "paul.onions@acm.org")
@@ -18455,7 +18470,7 @@
 		(:keywords "convenience" "search" "flx")
 		(:url . "https://github.com/pythonnut/flx-isearch"))])
  (flycheck .
-	   [(33 -4 20220504 830)
+	   [(33 -4 20220514 1743)
 	    ((dash
 	      (2 12 1))
 	     (pkg-info
@@ -18467,7 +18482,7 @@
 	     (emacs
 	      (24 3)))
 	    "On-the-fly syntax checking" tar
-	    ((:commit . "1d7c1b20782ccbaa6f97e37f5e1d0cee3d5eda8a")
+	    ((:commit . "66a973afca1d03b8284baaa7590eb2b8615a1e6a")
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
 	     (:maintainer "Cl\303\251ment Pit-Claudel" . "clement.pitclaudel@live.com")
@@ -40214,6 +40229,21 @@
 			(:maintainer "Tashrif Sanil" . "tashrifsanil@kloke-source.com")
 			(:keywords "convenience" "hypermedia" "files")
 			(:url . "https://github.com/tashrifsanil/org-easy-img-insert"))])
+ (org-edit-indirect .
+		    [(1 0 0 1 -4 20220508 2141)
+		     ((emacs
+		       (25 1))
+		      (edit-indirect
+		       (0 1 6))
+		      (org
+		       (9 0)))
+		     "Edit anything, not just source blocks" single
+		     ((:commit . "f146d1b406308298b4004a28aaa11124b02d015b")
+		      (:authors
+		       ("Ag Ibragimomv <https://github.com/agzam>"))
+		      (:maintainer "Ag Ibragimomv" . "agzam.ibragimov@gmail.com")
+		      (:keywords "convenience" "extensions" "outlines")
+		      (:url . "https://github.com/agzam/org-edit-indirect.el"))])
  (org-edit-latex .
 		 [(0 8 3 1 -4 20170908 1522)
 		  ((emacs
@@ -46703,11 +46733,11 @@
 	  (:maintainer "Matthew Russell" . "matthew.russell@horizon5.org")
 	  (:keywords "convenience"))])
  (puni .
-       [(0 1 -4 20220405 1808)
+       [(0 1 -4 20220514 1722)
 	((emacs
 	  (26 1)))
 	"Parentheses Universalistic" single
-	((:commit . "bb9b1e271b51b3dfae984da15f0e40f5be5b2473")
+	((:commit . "9757b6b5533bede372b03fdaa375987a0840eb5e")
 	 (:authors
 	  ("Hao Wang" . "amaikinono@gmail.com"))
 	 (:maintainer "Hao Wang" . "amaikinono@gmail.com")
@@ -52787,6 +52817,17 @@
 		(:maintainer "Matteo Redaelli" . "matteo.redaelli@gmail.com")
 		(:keywords "languages")
 		(:url . "https://gitlab.com/matteoredaelli/sql-sqlline"))])
+ (sql-trino .
+	    [(0 1 0 1 -4 20220502 851)
+	     ((emacs
+	       (24 4)))
+	     "Adds Trino support to SQLi mode" single
+	     ((:commit . "bad7be0bf2f6d2d653a787a4b5bc6a281a8bea88")
+	      (:authors
+	       ("Filipe Regadas" . "oss@regadas.email"))
+	      (:maintainer "Filipe Regadas" . "oss@regadas.email")
+	      (:keywords "tools")
+	      (:url . "https://github.com/regadas/sql-trino"))])
  (sqlformat .
 	    [(0 1 -4 20210305 209)
 	     ((emacs
