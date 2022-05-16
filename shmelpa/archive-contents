@@ -11835,7 +11835,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(3 3 0 1 -4 20220515 1603)
+		[(3 3 0 1 -4 20220516 1741)
 		 ((emacs
 		   (25 1))
 		  (shrink-path
@@ -11843,7 +11843,7 @@
 		  (dash
 		   (2 11 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "60412d8b4df87b0440169567df73c2f57669f7d7")
+		 ((:commit . "f39129e52f3739a3bcf5d03ba90216a6ef6736a8")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
@@ -12208,7 +12208,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "fee8a81876f83b64ba6f8aee4ce24ad897bcd33c")
+	((:commit . "d143300adcaccad15da39215f8c60c1e40856071")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -13447,11 +13447,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 1 1 -4 20220501 1128)
+	[(1 1 1 -4 20220516 2025)
 	 ((emacs
 	   (24 4)))
 	 "Elisp Development Tool" tar
-	 ((:commit . "7275089749779599d87bee878e5103921ea919f9")
+	 ((:commit . "529427909fb3573867c0488b1785b7be0eaf9586")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
@@ -17446,13 +17446,13 @@
 	       nil "A mostly monochrome theme, inspired by Tao and Leuven, with dark and light versions." tar
 	       ((:commit . "d7e517f8e626035df3b63ec6fc07b85d48a996c5"))])
  (f .
-    [(0 20 0 1 -4 20220511 1502)
+    [(0 20 0 1 -4 20220516 1809)
      ((s
        (1 7 0))
       (dash
        (2 2 0)))
      "Modern API for working with files and directories" single
-     ((:commit . "ad2c7dd369a15988f1c6298b5edb901ce2e1f446")
+     ((:commit . "e0dc429f9c20322c7af735a828fe2404bb416715")
       (:authors
        ("Johan Andersson" . "johan.rejeep@gmail.com"))
       (:maintainer "Johan Andersson" . "johan.rejeep@gmail.com")
@@ -22005,7 +22005,7 @@
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "421105ef4f21a84d0ba222681590bfbe22203ff9")
+	      ((:commit . "5a7519fd3d56522b1c6a1601a12ae0f4717c26a7")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -34180,7 +34180,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 -4 20220513 2322)
+	[(3 3 0 -4 20220516 2019)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -34196,7 +34196,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "421105ef4f21a84d0ba222681590bfbe22203ff9")
+	 ((:commit . "5a7519fd3d56522b1c6a1601a12ae0f4717c26a7")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -34387,7 +34387,7 @@
 		 (magit
 		  (20211004)))
 		"(POC) Teach Magit to use Libgit2." tar
-		((:commit . "421105ef4f21a84d0ba222681590bfbe22203ff9")
+		((:commit . "5a7519fd3d56522b1c6a1601a12ae0f4717c26a7")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -34468,7 +34468,7 @@
 		  (dash
 		   (20210826)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "421105ef4f21a84d0ba222681590bfbe22203ff9")
+		 ((:commit . "5a7519fd3d56522b1c6a1601a12ae0f4717c26a7")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -47091,7 +47091,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "a57fb82fb40b6f38f156bab1b06aa30a833c6046")
+	  ((:commit . "5ab99efdd62751d58b82287e8a05b44532441d8e")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -54342,7 +54342,7 @@
 	 (:keywords "convenience" "emulations" "files")
 	 (:url . "https://github.com/mtk/teco.git"))])
  (telega .
-	 [(0 8 20 1 -4 20220513 604)
+	 [(0 8 20 1 -4 20220516 1923)
 	  ((emacs
 	    (26 1))
 	   (visual-fill-column
@@ -54350,7 +54350,7 @@
 	   (rainbow-identifiers
 	    (0 2 2)))
 	  "Telegram client (unofficial)" tar
-	  ((:commit . "25e07c86c43af1cc949cb6ac6c2ca63bfb7c5e78")
+	  ((:commit . "6c3bea4f4a227afdf9cdbfae017a797e12b70f13")
 	   (:authors
 	    ("Zajcev Evgeny" . "zevlg@yandex.ru"))
 	   (:maintainer "Zajcev Evgeny" . "zevlg@yandex.ru")
@@ -54932,7 +54932,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "85148bc487e92d57aa3812a941ea9f07563b78c5")
+	  ((:commit . "9c4983e8d4a0eaa5175550e0e4ac139b6a0e085c")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -55171,11 +55171,11 @@
 		  (:keywords "convenience")
 		  (:url . "https://github.com/myuhe/tinysegmenter.el"))])
  (titlecase .
-	    [(0 3 0 1 -4 20220510 331)
+	    [(0 3 0 1 -4 20220516 1909)
 	     ((emacs
 	       (25 1)))
 	     "Title-case phrases" tar
-	     ((:commit . "8f609e46d4d0c06cd442352ca7d296e2ccb1b62a")
+	     ((:commit . "ca79d9b25e8bab5eef92b13dc69ac0c38ac39172")
 	      (:authors
 	       ("Case Duckworth" . "acdw@acdw.net"))
 	      (:maintainer "Case Duckworth" . "acdw@acdw.net")
@@ -55807,7 +55807,7 @@
 	       (:keywords "outlines" "files" "convenience")
 	       (:url . "https://github.com/cyberthal/treefactor"))])
  (treemacs .
-	   [(2 10 1 -4 20220511 1852)
+	   [(2 10 1 -4 20220516 2036)
 	    ((emacs
 	      (26 1))
 	     (cl-lib
@@ -55827,7 +55827,7 @@
 	     (cfrs
 	      (1 3 2)))
 	    "A tree style file explorer package" tar
-	    ((:commit . "dca83bd42918b510173759df4cc8b3663d5d480d")
+	    ((:commit . "96a53189f51f3c75db8dcf3bf54bf82e927cf980")
 	     (:authors
 	      ("Alexander Miller" . "alexanderm@web.de"))
 	     (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55841,7 +55841,7 @@
 			   (treemacs
 			    (0 0)))
 			  "all-the-icons integration for treemacs" single
-			  ((:commit . "dca83bd42918b510173759df4cc8b3663d5d480d")
+			  ((:commit . "96a53189f51f3c75db8dcf3bf54bf82e927cf980")
 			   (:authors
 			    ("Eric Dallo" . "ercdll1337@gmail.com"))
 			   (:maintainer "Eric Dallo" . "ercdll1337@gmail.com")
@@ -55855,7 +55855,7 @@
 		  (treemacs
 		   (0 0)))
 		 "Evil mode integration for treemacs" single
-		 ((:commit . "dca83bd42918b510173759df4cc8b3663d5d480d")
+		 ((:commit . "96a53189f51f3c75db8dcf3bf54bf82e927cf980")
 		  (:authors
 		   ("Alexander Miller" . "alexanderm@web.de"))
 		  (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55867,7 +55867,7 @@
 			 (emacs
 			  (26 1)))
 			"Treemacs icons for dired" single
-			((:commit . "dca83bd42918b510173759df4cc8b3663d5d480d")
+			((:commit . "96a53189f51f3c75db8dcf3bf54bf82e927cf980")
 			 (:authors
 			  ("Alexander Miller" . "alexanderm@web.de"))
 			 (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55883,7 +55883,7 @@
 		   (magit
 		    (2 90 0)))
 		  "Magit integration for treemacs" single
-		  ((:commit . "dca83bd42918b510173759df4cc8b3663d5d480d")
+		  ((:commit . "96a53189f51f3c75db8dcf3bf54bf82e927cf980")
 		   (:authors
 		    ("Alexander Miller" . "alexanderm@web.de"))
 		   (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55899,7 +55899,7 @@
 		   (dash
 		    (2 11 0)))
 		  "Persp-mode integration for treemacs" single
-		  ((:commit . "dca83bd42918b510173759df4cc8b3663d5d480d")
+		  ((:commit . "96a53189f51f3c75db8dcf3bf54bf82e927cf980")
 		   (:authors
 		    ("Alexander Miller" . "alexanderm@web.de"))
 		   (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55930,7 +55930,7 @@
 			(treemacs
 			 (0 0)))
 		       "Projectile integration for treemacs" single
-		       ((:commit . "dca83bd42918b510173759df4cc8b3663d5d480d")
+		       ((:commit . "96a53189f51f3c75db8dcf3bf54bf82e927cf980")
 			(:authors
 			 ("Alexander Miller" . "alexanderm@web.de"))
 			(:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55944,7 +55944,7 @@
 		     (dash
 		      (2 11 0)))
 		    "Tab bar integration for treemacs" single
-		    ((:commit . "dca83bd42918b510173759df4cc8b3663d5d480d")
+		    ((:commit . "96a53189f51f3c75db8dcf3bf54bf82e927cf980")
 		     (:authors
 		      ("Alexander Miller" . "alexanderm@web.de")
 		      ("Jason Dufair" . "jase@dufair.org")
