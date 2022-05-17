@@ -32218,13 +32218,13 @@
 	(:keywords "tools")
 	(:url . "https://github.com/jyp/lcr"))])
  (le-thesaurus .
-	       [(0 2 0 1 -4 20220516 840)
+	       [(0 2 0 1 -4 20220517 1725)
 		((request
 		  (0 3 2))
 		 (emacs
 		  (24 4)))
 		"Query thesaurus.com for synonyms of a given word" single
-		((:commit . "185ba932b3bc4aaa4318d3fad571d90830eb2bb2")
+		((:commit . "a5d19479ab18ded79b30c7a9b7d6194e84a03dac")
 		 (:url . "https://github.com/AnselmC/le-thesaurus"))])
  (leaf .
        [(4 5 5 1 -4 20211226 1633)
@@ -32682,7 +32682,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "dffa1d83c133fceb25fc754f42fd0fb589191995")
+	     ((:commit . "1474a76e6b9400b15421dd3d8ff0ed9b14dcad16")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
@@ -35383,11 +35383,11 @@
 	 (:keywords "convenience" "modal-editing")
 	 (:url . "https://www.github.com/DogLooksGood/meow"))])
  (merlin .
-	 [(3 0 1 -4 20220502 811)
+	 [(3 0 1 -4 20220517 1602)
 	  ((emacs
 	    (25 1)))
 	  "Mode for Merlin, an assistant for OCaml" tar
-	  ((:commit . "3fb8e7df31e63918e7e230a8142b720c035e86d9")
+	  ((:commit . "c7abce25b675f8eda57d389bf399dabceb044105")
 	   (:authors
 	    ("Fr\303\251d\303\251ric Bour <frederic.bour(_)lakaban.net>"))
 	   (:maintainer "Fr\303\251d\303\251ric Bour <frederic.bour(_)lakaban.net>")
@@ -35402,7 +35402,7 @@
 	      (auto-complete
 	       (1 5)))
 	     "Merlin and auto-complete integration." single
-	     ((:commit . "3fb8e7df31e63918e7e230a8142b720c035e86d9")
+	     ((:commit . "c7abce25b675f8eda57d389bf399dabceb044105")
 	      (:authors
 	       ("Simon Castellan <simon.castellan(_)iuwt.fr>")
 	       ("Fr\303\251d\303\251ric Bour <frederic.bour(_)lakaban.net>")
@@ -35419,7 +35419,7 @@
 		   (company
 		    (0 9)))
 		  "Merlin and company mode integration." single
-		  ((:commit . "3fb8e7df31e63918e7e230a8142b720c035e86d9")
+		  ((:commit . "c7abce25b675f8eda57d389bf399dabceb044105")
 		   (:authors
 		    ("Simon Castellan <simon.castellan(_)iuwt.fr>")
 		    ("Fr\303\251d\303\251ric Bour <frederic.bour(_)lakaban.net>")
@@ -35449,7 +35449,7 @@
 		 (iedit
 		  (0 9)))
 		"Merlin and iedit integration." single
-		((:commit . "3fb8e7df31e63918e7e230a8142b720c035e86d9")
+		((:commit . "c7abce25b675f8eda57d389bf399dabceb044105")
 		 (:authors
 		  ("Simon Castellan <simon.castellan(_)iuwt.fr>")
 		  ("Fr\303\251d\303\251ric Bour <frederic.bour(_)lakaban.net>")
@@ -36751,11 +36751,11 @@
 		      (:keywords "mu4e" "mail" "convenience")
 		      (:url . "https://gitlab.com/wavexx/mu4e-jump-to-list.el"))])
  (mu4e-maildirs-extension .
-			  [(0 1 1 -4 20201028 921)
+			  [(0 1 1 -4 20220517 1852)
 			   ((dash
 			     (0 0 0)))
 			   "Show mu4e maildirs summary in mu4e-main-view" single
-			   ((:commit . "1167bc6e08996f866e73e9a02f563fd21ac317fd")
+			   ((:commit . "cdc2e141d8ecd59508a5cd50d6d02120073bf4f1")
 			    (:authors
 			     ("Andreu Gil P\303\240mies" . "agpchil@gmail.com"))
 			    (:maintainer "Andreu Gil P\303\240mies" . "agpchil@gmail.com")
@@ -39241,7 +39241,7 @@
 	       ((emacs
 		 (24 3)))
 	       "Utility functions to format ocaml code" single
-	       ((:commit . "a216148f7d492f27326bf790f4a54cd893b82688")
+	       ((:commit . "b206409ea001c25707f38b79419341072ad1085c")
 		(:keywords "languages" "ocaml")
 		(:url . "https://github.com/ocaml-ppx/ocamlformat"))])
  (occidental-theme .
@@ -40668,11 +40668,11 @@
 		 (:keywords "org" "convenience")
 		 (:url . "http://github.com/alphapapa/org-make-toc"))])
  (org-mime .
-	   [(0 2 6 1 -4 20220515 736)
+	   [(0 3 0 1 -4 20220517 1644)
 	    ((emacs
 	      (25 1)))
 	    "org html export for text/html MIME emails" single
-	    ((:commit . "1fc8edbf15d0c34baa34fd566dce4a96f3575bb6")
+	    ((:commit . "2eede712acc51aaf495984ec457431dbb520038c")
 	     (:authors
 	      ("Eric Schulte"))
 	     (:maintainer "Chen Bin (redguardtoo)")
@@ -46532,7 +46532,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "b3199d62be2af7f2ddd60a002e0f48850df09997")
+		 ((:commit . "e23514740718cafa5c3722558575cf82fc01976e")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -46727,11 +46727,11 @@
 	  (:maintainer "Matthew Russell" . "matthew.russell@horizon5.org")
 	  (:keywords "convenience"))])
  (puni .
-       [(0 1 -4 20220517 1338)
+       [(0 1 -4 20220517 1536)
 	((emacs
 	  (26 1)))
 	"Parentheses Universalistic" single
-	((:commit . "8ce70804be70744aa71d9ba9944d6786b989a2e0")
+	((:commit . "a8f6e66be99051f34f0ab2704bdea04667d8b005")
 	 (:authors
 	  ("Hao Wang" . "amaikinono@gmail.com"))
 	 (:maintainer "Hao Wang" . "amaikinono@gmail.com")
@@ -54932,7 +54932,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "b185a097993b11284ad026ba1225916df0c188aa")
+	  ((:commit . "616599284834690a8a93826043ccbfa794af2a33")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -55232,7 +55232,7 @@
 	    (:keywords "org-mode" "org-toc" "toc-org" "org" "toc" "table" "of" "contents")
 	    (:url . "https://github.com/snosov1/toc-org"))])
  (todoist .
-	  [(1 0 1 -4 20220412 2337)
+	  [(1 0 1 -4 20220517 1814)
 	   ((dash
 	     (2 15 0))
 	    (transient
@@ -55242,7 +55242,7 @@
 	    (emacs
 	     (25 3)))
 	   "Extension for interacting and managing todoist tasks" single
-	   ((:commit . "f6906be346073f082a6d1f9ae14932ec2bfd99f5")
+	   ((:commit . "f9ec1e730705f1fc8888f11a2b4ef1a4907e2f0b")
 	    (:authors
 	     ("Adrien Brochard"))
 	    (:maintainer "Adrien Brochard")
@@ -55313,11 +55313,11 @@
 		  (:keywords "hide" "window")
 		  (:url . "https://github.com/deadghost/toggle-window"))])
  (tok-theme .
-	    [(0 1 1 -4 20220509 1324)
+	    [(0 1 1 -4 20220517 1916)
 	     ((emacs
 	       (26 1)))
 	     "Minimal theme with dark and yellow color scheme" single
-	     ((:commit . "a1a224d96665ee14c059eed63dc4b458f6b7a8d8")
+	     ((:commit . "5933f36f847a4cc2775f75c6686b28355e448d7d")
 	      (:authors
 	       ("Topi Kettunen" . "topi@topikettunen.com"))
 	      (:maintainer "Topi Kettunen" . "topi@topikettunen.com")
@@ -59998,7 +59998,7 @@
 	       (org-roam
 		(2 0)))
 	      "A revision and outlining tool for org-roam" single
-	      ((:commit . "0237a5a0f9cc40dc543c9713c37bbb34d548de50")
+	      ((:commit . "fe6fc48c0a625f0a8c5e4cf219f98d60dba28e03")
 	       (:authors
 		("Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com"))
 	       (:maintainer "Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com")
