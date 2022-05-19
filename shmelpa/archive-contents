@@ -1354,13 +1354,13 @@
 		    (:keywords "theme" "dark" "emacs 24")
 		    (:url . "https://github.com/mjwall/ample-zen"))])
  (amread-mode .
-	      [(0 1 0 1 -4 20220210 1354)
+	      [(0 1 0 1 -4 20220519 45)
 	       ((emacs
 		 (24 3))
 		(cl-lib
 		 (0 6 1)))
 	       "A minor mode helper user speed-reading" single
-	       ((:commit . "a3358645582148e81bff54e18877451b747173bb")
+	       ((:commit . "21f3cf796c08625cf70d534a990f4ae2273a5d4f")
 		(:keywords "wp")
 		(:url . "https://repo.or.cz/amread-mode.git"))])
  (amsreftex .
@@ -4859,7 +4859,7 @@
 	       (ivy
 		(0 10 0)))
 	      "Generate call graph for c/c++ functions" tar
-	      ((:commit . "99692868946566c4cfa042a85e99818fdefec55a")
+	      ((:commit . "00be92c77624fc8bfa0f4acb2a2ea0e860fe0456")
 	       (:authors
 		("Huming Chen" . "chenhuming@gmail.com"))
 	       (:maintainer "Huming Chen" . "chenhuming@gmail.com")
@@ -14793,7 +14793,7 @@
 	       ((cl-lib
 		 (0 5)))
 	       "Define and query search engines from within Emacs." single
-	       ((:commit . "a8e7bd3afb3da13bcabf840035ded261f1169b19")
+	       ((:commit . "282f5d5910a7bdda08905d7c4e0c87cf96244cb0")
 		(:authors
 		 ("Harry R. Schwartz" . "hello@harryrschwartz.com"))
 		(:maintainer "Harry R. Schwartz" . "hello@harryrschwartz.com")
@@ -22005,7 +22005,7 @@
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "5a7519fd3d56522b1c6a1601a12ae0f4717c26a7")
+	      ((:commit . "e920cdb326d2c2da5a32809085aa6b9369b51b1a")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -24229,7 +24229,7 @@
 	    (:keywords "convenience")
 	    (:url . "http://github.com/rolandwalker/hardhat"))])
  (harpoon .
-	  [(0 5 1 -4 20220402 446)
+	  [(0 5 1 -4 20220519 43)
 	   ((emacs
 	     (27 2))
 	    (f
@@ -24239,7 +24239,7 @@
 	    (project
 	     (0 8 1)))
 	   "Bookmarks on steroids" single
-	   ((:commit . "a23571eaab94fb2da0569ed5ab3c1b469f123b97")
+	   ((:commit . "6090566482a71aa024998935316e00ff1bf8f0fe")
 	    (:authors
 	     ("Ot\303\241vio Schwanck" . "otavioschwanck@gmail.com"))
 	    (:maintainer "Ot\303\241vio Schwanck" . "otavioschwanck@gmail.com")
@@ -33095,7 +33095,7 @@
 		((emacs
 		  (24 3)))
 		"Live Coding in Python" tar
-		((:commit . "e509c806138cbe164c0d655cc7d662f94c386c9b")
+		((:commit . "ed4d44bbdce8a17ca620dfc6e3d0440eed19d626")
 		 (:authors
 		  ("Don Kirkby http://donkirkby.github.io"))
 		 (:maintainer "Don Kirkby http://donkirkby.github.io")
@@ -33462,7 +33462,7 @@
 	(:keywords "python" "lisp")
 	(:url . "https://github.com/abo-abo/lpy"))])
  (lsp-dart .
-	   [(1 21 0 1 -4 20220430 1535)
+	   [(1 21 0 1 -4 20220519 126)
 	    ((emacs
 	      (26 3))
 	     (lsp-treemacs
@@ -33478,7 +33478,7 @@
 	     (dart-mode
 	      (1 0 5)))
 	    "Dart support lsp-mode" tar
-	    ((:commit . "7ca60ce9a703ad7a950dcd5ec36ef4251f57d207")
+	    ((:commit . "f1b73660e92b01f90454ed4c1e8c862590e11292")
 	     (:keywords "languages" "extensions")
 	     (:url . "https://emacs-lsp.github.io/lsp-dart"))])
  (lsp-docker .
@@ -34180,7 +34180,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 -4 20220516 2019)
+	[(3 3 0 -4 20220518 2359)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -34196,7 +34196,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "5a7519fd3d56522b1c6a1601a12ae0f4717c26a7")
+	 ((:commit . "e920cdb326d2c2da5a32809085aa6b9369b51b1a")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -34387,7 +34387,7 @@
 		 (magit
 		  (20211004)))
 		"(POC) Teach Magit to use Libgit2." tar
-		((:commit . "5a7519fd3d56522b1c6a1601a12ae0f4717c26a7")
+		((:commit . "e920cdb326d2c2da5a32809085aa6b9369b51b1a")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -34468,7 +34468,7 @@
 		  (dash
 		   (20210826)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "5a7519fd3d56522b1c6a1601a12ae0f4717c26a7")
+		 ((:commit . "e920cdb326d2c2da5a32809085aa6b9369b51b1a")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -54932,7 +54932,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "fde0f19ab86ed9bf772f7dc04a62a2c0a66f0a29")
+	  ((:commit . "337eeb8254c08f855c3a7e12c6a50443528cd4db")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
