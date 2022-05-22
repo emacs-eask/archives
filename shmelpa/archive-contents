@@ -2661,11 +2661,11 @@
 	      (:keywords "compile" "build" "pipeline" "autobuild" "extensions" "processes" "tools")
 	      (:url . "https://github.com/erjoalgo/autobuild"))])
  (autocrypt .
-	    [(0 4 0 1 -4 20220521 810)
+	    [(0 4 0 1 -4 20220522 1656)
 	     ((emacs
 	       (24 3)))
 	     "Autocrypt implementation" tar
-	     ((:commit . "ff87f73f00689689f023e39f4cee2fd97caf458b")
+	     ((:commit . "a89bbd717edfd0d0b9826b38d5300f8f5c86006b")
 	      (:authors
 	       ("Philip Kaludercic" . "philipk@posteo.net"))
 	      (:maintainer "Philip Kaludercic" . "~pkal/public-inbox@lists.sr.ht")
@@ -5286,6 +5286,17 @@
 	    (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com")
 	    (:keywords "python" "go" "php" "phpunit" "elisp" "ert" "tests" "tdd")
 	    (:url . "https://github.com/nlamirault/cerbere"))])
+ (cern-root-mode .
+		 [(0 1 4 1 -4 20220520 1817)
+		  ((emacs
+		    (26 1)))
+		  "Major-mode for running C++ code with ROOT" single
+		  ((:commit . "2df8781df1d807bf522eb19ac7b03b4bfaeb89c0")
+		   (:authors
+		    ("Jay Morgan" . "jay@morganwastaken.com"))
+		   (:maintainer "Jay Morgan" . "jay@morganwastaken.com")
+		   (:keywords "languages" "tools")
+		   (:url . "https://github.com/jaypmorgan/cern-root-mode"))])
  (ceylon-mode .
 	      [(0 2 1 -4 20180606 1324)
 	       ((emacs
@@ -5895,7 +5906,7 @@
 		 (:maintainer "Robin Schroer")
 		 (:url . "https://github.com/sulami/circleci-api"))])
  (citar .
-	[(0 9 1 -4 20220518 1158)
+	[(0 9 1 -4 20220522 1914)
 	 ((emacs
 	   (27 1))
 	  (parsebib
@@ -5905,7 +5916,7 @@
 	  (citeproc
 	   (0 9)))
 	 "Citation-related commands for org, latex, markdown" tar
-	 ((:commit . "23f4ec7ba8ec0e2f0d1f7d0d7a29e90fb22b3920")
+	 ((:commit . "85812b593271537e4f1d49f33bb39ab5dce0cd12")
 	  (:authors
 	   ("Bruce D'Arcus <https://github.com/bdarcus>"))
 	  (:maintainer "Bruce D'Arcus <https://github.com/bdarcus>")
@@ -6262,6 +6273,23 @@
 	     ("Roman Gonzalez" . "romanandreg@gmail.com"))
 	    (:maintainer "Roman Gonzalez" . "romanandreg@gmail.com")
 	    (:keywords "org"))])
+ (clockodo .
+	   [(0 7 1 -4 20220516 1310)
+	    ((emacs
+	      (26 1))
+	     (request
+	      (0 3 2))
+	     (ts
+	      (0 2 2))
+	     (org
+	      (8)))
+	    "A small integration for the clockodo api" single
+	    ((:commit . "02ade55427c42dfcac615a8340672af468ae9dfc")
+	     (:authors
+	      ("Henrik J\303\274rges" . "juerges.henrik@gmail.com"))
+	     (:maintainer "Henrik J\303\274rges" . "juerges.henrik@gmail.com")
+	     (:keywords "tools" "clockodo")
+	     (:url . "https://github.com/santifa/clockodo-el"))])
  (clojars .
 	  [(1 2 0 1 -4 20180825 1951)
 	   ((request-deferred
@@ -10385,6 +10413,17 @@
 		     (:maintainer "Tom Willemse" . "tom@ryuslash.org")
 		     (:keywords "convenience")
 		     (:url . "http://projects.ryuslash.org/desktop-registry/"))])
+ (detached .
+	   [(0 7 1 -4 20220522 910)
+	    ((emacs
+	      (27 1)))
+	    "A package to launch, and manage, detached processes" tar
+	    ((:commit . "1e17ad996559507f50a80555e1f731bef159073b")
+	     (:authors
+	      ("Niklas Eklund" . "niklas.eklund@posteo.net"))
+	     (:maintainer "Niklas Eklund" . "niklas.eklund@posteo.net")
+	     (:keywords "convenience" "processes")
+	     (:url . "https://sr.ht/~niklaseklund/detached.el/"))])
  (detour .
 	 [(1 0 1 -4 20181122 2138)
 	  ((emacs
@@ -12101,19 +12140,6 @@
 	  ("   Mattias Engdeg\303\245rd" . "mattiase@acm.org"))
 	 (:maintainer "Mattias Engdeg\303\245rd" . "mattiase@acm.org")
 	 (:keywords "docs"))])
- (dtache .
-	 [(0 7 1 -4 20220522 813)
-	  ((emacs
-	    (27 1))
-	   (detached
-	    (0 7)))
-	  "A package to launch, and manage, dtache processes" single
-	  ((:commit . "108497e3a99a498492a6983ec7dd40114ce3a2fa")
-	   (:authors
-	    ("Niklas Eklund" . "niklas.eklund@posteo.net"))
-	   (:maintainer "Niklas Eklund" . "niklas.eklund@posteo.net")
-	   (:keywords "convenience" "processes")
-	   (:url . "https://sr.ht/~niklaseklund/dtache.el/"))])
  (dtb-mode .
 	   [(20210102 2003 1 -4 20210105 1132)
 	    ((emacs
