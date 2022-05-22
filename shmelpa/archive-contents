@@ -3240,7 +3240,11 @@
 		(:url . "https://github.com/lassik/emacs-bbcode-mode"))])
  (bbdb .
        [(3 2 2 2 1 -4 20220416 405)
-	nil "The Insidious Big Brother Database for GNU Emacs" tar
+	((emacs
+	  (24))
+	 (cl-lib
+	  (0 5)))
+	"Big Brother DataBase" tar
 	((:commit . "ed7648f723d3fd03476b8a007a76e9058f7f7f47")
 	 (:maintainer "Roland Winkler" . "winkler@gnu.org"))])
  (bbdb- .
@@ -18232,11 +18236,11 @@
 		     (:keywords "flatbuffers" "languages")
 		     (:url . "https://github.com/Asalle/flatbuffers-mode"))])
  (flatfluc-theme .
-		 [(0 5 1 -4 20210908 1423)
+		 [(0 5 1 -4 20220522 1657)
 		  ((emacs
 		    (26 1)))
 		  "Custom merge of flucui and flatui themes" single
-		  ((:commit . "33726cd072ad83c6943e1c3b83db2fff60f324ce")
+		  ((:commit . "1679983d22a3b213262e09b3b25db75818a9d37a")
 		   (:authors
 		    ("S\303\251bastien Le Maguer" . "lemagues@tcd.ie"))
 		   (:maintainer "S\303\251bastien Le Maguer" . "lemagues@tcd.ie")
@@ -22007,7 +22011,7 @@
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "9a09823e56ccb1d9a63f0edeac260fbc9bd5025b")
+	      ((:commit . "1b0474b5909d368400375038097231adac495580")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -33696,7 +33700,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20220517 602)
+	   [(8 0 1 1 -4 20220522 1526)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -33712,7 +33716,7 @@
 	     (lv
 	      (0)))
 	    "LSP mode" tar
-	    ((:commit . "11c0c7af611ecb63f7797caae66fb03ba10c8c1e")
+	    ((:commit . "eac730f19a9255fa320f199b62a301a44869173b")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -34182,7 +34186,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 -4 20220520 1545)
+	[(3 3 0 -4 20220522 1713)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -34198,7 +34202,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "9a09823e56ccb1d9a63f0edeac260fbc9bd5025b")
+	 ((:commit . "a4a78d341a7006ccdec708b424048ba3b22ee801")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -34389,7 +34393,7 @@
 		 (magit
 		  (20211004)))
 		"(POC) Teach Magit to use Libgit2." tar
-		((:commit . "9a09823e56ccb1d9a63f0edeac260fbc9bd5025b")
+		((:commit . "a4a78d341a7006ccdec708b424048ba3b22ee801")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -34470,7 +34474,7 @@
 		  (dash
 		   (20210826)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "9a09823e56ccb1d9a63f0edeac260fbc9bd5025b")
+		 ((:commit . "a4a78d341a7006ccdec708b424048ba3b22ee801")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -43218,7 +43222,7 @@
 		 ((emacs
 		   (25 1)))
 		 "Tools for assembling a package archive" tar
-		 ((:commit . "710e538ad1d104f4059b5cf7edad4c91e9ad4c83")
+		 ((:commit . "35017a2d87376c70c3239f48bdbac7efca85aa10")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		   ("Steve Purcell" . "steve@sanityinc.com")
@@ -47093,7 +47097,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "055c1920140ebf36501d30307d5ab86965ae185f")
+	  ((:commit . "d11bfec689c4bf4e327c8838448844aa453f6ee6")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -47254,9 +47258,9 @@
 	       (:keywords "languages" "processes")
 	       (:url . "https://github.com/jdtsmith/python-mls"))])
  (python-mode .
-	      [(6 3 1 1 -4 20220512 1206)
+	      [(6 3 1 1 -4 20220522 1658)
 	       nil "Python major mode" tar
-	       ((:commit . "97bb2d5ca50bec43a22ffc6187d13e3afb38238f")
+	       ((:commit . "16aedd8dab9df62fceaf1b654f486b6c99a58df4")
 		(:authors
 		 ("2015-2021 https://gitlab.com/groups/python-mode-devs")
 		 ("2003-2014 https://launchpad.net/python-mode")
@@ -54934,7 +54938,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "092131410a346833be282cd78172c0dabcd6d8fe")
+	  ((:commit . "2b3510e3304ea4e570826ad60236634901c5c90d")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -55496,7 +55500,7 @@
 	   (w32-ime
 	    (0 0 1)))
 	  "Emulator of IME patch for Windows" tar
-	  ((:commit . "fdf93198c6303cc480a50e24aaa02c7a8308427d")
+	  ((:commit . "a7845ca958feff7125652e96fc92884f0396437b")
 	   (:authors
 	    ("Masamichi Hosoda" . "trueroad@trueroad.jp"))
 	   (:maintainer "Masamichi Hosoda" . "trueroad@trueroad.jp")
@@ -56105,6 +56109,10 @@
 	    (:authors
 	     ("Dave Cross" . "dave@dave.org.uk"))
 	    (:maintainer "Dave Cross" . "dave@dave.org.uk"))])
+ (ttl-mode .
+	   [(0 1 0 1 -4 20170920 1329)
+	    nil "mode for Turtle (and Notation 3)" single
+	    ((:commit . "8aa647178942c9be58e5c9cea1e6ede30c8fd562"))])
  (tuareg .
 	 [(2 3 0 1 -4 20220104 2039)
 	  ((emacs
