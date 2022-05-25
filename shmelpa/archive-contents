@@ -4067,7 +4067,7 @@
 	"Ergonomic Command Mode for Emacs." tar
 	((:commit . "db7b6083d390e3febf82f9af5782e1a36d30093c"))])
  (borg .
-       [(3 3 1 -4 20220514 1916)
+       [(3 3 1 -4 20220525 1545)
 	((emacs
 	  (26))
 	 (epkg
@@ -4075,7 +4075,7 @@
 	 (magit
 	  (3 3 0)))
 	"Assimilate Emacs packages as Git submodules" tar
-	((:commit . "04df5cac8c3ba8981833feabd15a87af319f734b")
+	((:commit . "9917084fb806796f91025dbec9f946f4415059ed")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -6471,7 +6471,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "5dcf505f63037e23094146730704b031c57c5d06"))])
+	      ((:commit . "dca78722b7d683ed3f06cfc3dc7bb504496df380"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -8198,13 +8198,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 17 1 -4 20220524 625)
+	  [(0 17 1 -4 20220525 1603)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (28 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "3dbb14797583cb14e40966529021ee723287d200")
+	   ((:commit . "fcd0e53f3e13c0b2cfb5b4cc70770da61d134c46")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -10414,11 +10414,11 @@
 		     (:keywords "convenience")
 		     (:url . "http://projects.ryuslash.org/desktop-registry/"))])
  (detached .
-	   [(0 7 1 -4 20220525 1513)
+	   [(0 7 1 -4 20220525 1709)
 	    ((emacs
 	      (27 1)))
 	    "A package to launch, and manage, detached processes" tar
-	    ((:commit . "09a7aeb7ec679fe4260b2f5010d186563c527245")
+	    ((:commit . "11dbd0a990f51c310bb119ae713b0ca7b10efe82")
 	     (:authors
 	      ("Niklas Eklund" . "niklas.eklund@posteo.net"))
 	     (:maintainer "Niklas Eklund" . "niklas.eklund@posteo.net")
@@ -12240,7 +12240,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "f3ca9c3ce5799bf1ec064e57e5394ddc699e4831")
+	((:commit . "dfb4497f9fb6d927294ecc438aea7884f4262c5c")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -15278,7 +15278,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "767720cb6de6910ee43934978dab8fa376eff7ff")
+	  ((:commit . "50af60ee99212519e068982ac18419dde470e70d")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -31598,7 +31598,7 @@
  (kivy-mode .
 	    [(0 1 0 1 -4 20210318 2106)
 	     nil "Emacs major mode for editing Kivy files" single
-	     ((:commit . "93ccd2058c1980207848810942dbb1a6d9edebe9")
+	     ((:commit . "d79329d9082a8f1ee32b613ba96e8224204d2028")
 	      (:authors
 	       ("Dean Serenevy" . "dean@serenevy.net"))
 	      (:maintainer "Dean Serenevy" . "dean@serenevy.net"))])
@@ -36527,7 +36527,7 @@
  (mozc .
        [(0 1 0 1 -4 20210306 1053)
 	nil "minor mode to input Japanese with Mozc" single
-	((:commit . "e5a6aecc818997301230b212c71b09cda925fb8d")
+	((:commit . "d18e59b7c896e75550d963924bea00411669e0a2")
 	 (:keywords "mule" "multilingual" "input method"))])
  (mozc-cand-posframe .
 		     [(0 1 1 -4 20200208 750)
@@ -39273,7 +39273,7 @@
 	       ((emacs
 		 (24 3)))
 	       "Utility functions to format ocaml code" single
-	       ((:commit . "50c989267f6c496c25aa111c1e6d5e5cc2d11ab1")
+	       ((:commit . "1504268ccb29de38a6194773d7ebe08354b54ab0")
 		(:keywords "languages" "ocaml")
 		(:url . "https://github.com/ocaml-ppx/ocamlformat"))])
  (occidental-theme .
@@ -41377,7 +41377,7 @@
 		  (:keywords "convenience" "hypermedia" "org")
 		  (:url . "https://github.com/unhammer/org-rich-yank"))])
  (org-roam .
-	   [(2 2 2 1 -4 20220516 1640)
+	   [(2 2 2 1 -4 20220525 1857)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -41391,7 +41391,7 @@
 	     (magit-section
 	      (3 0 0)))
 	    "A database abstraction layer for Org-mode" tar
-	    ((:commit . "01843a648650a92f35f4dce6693f7b640c79b0c8")
+	    ((:commit . "f144941dfbe9b695b89a71089bb20d896f920efe")
 	     (:authors
 	      ("Jethro Kuan" . "jethrokuan95@gmail.com"))
 	     (:maintainer "Jethro Kuan" . "jethrokuan95@gmail.com")
@@ -46566,7 +46566,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "5e7b709564403f1fe22476f7efa1eeff61e995cb")
+		 ((:commit . "34d749df72eddec231e6539d4daf8ef2439b7ec9")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -47125,7 +47125,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "e2bb11a1625a7890092fbc17fdb4874e8467a614")
+	  ((:commit . "7761d78fb210fd80e3dbae481a4f1c6d653dde8e")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
