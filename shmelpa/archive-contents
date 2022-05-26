@@ -6471,7 +6471,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "35d975fe4a5726ab901742f30ef53a6551adef43"))])
+	      ((:commit . "d45b4f59a438477106fa3cf6919f6401cda57302"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -8570,13 +8570,13 @@
 		  (:keywords "comment" "coq" "proof")
 		  (:url . "http://github.com/ailrun/coq-commenter"))])
  (corfu-doc .
-	    [(0 5 1 1 -4 20220513 1155)
+	    [(0 5 1 1 -4 20220526 1444)
 	     ((emacs
 	       (26 0))
 	      (corfu
 	       (0 16 0)))
 	     "Documentation popup for Corfu" single
-	     ((:commit . "96b5de8cced0f2c2069748305bb72cf2db77200e")
+	     ((:commit . "904df4f99a2bd37b6b1a70c4b81b5eeb0a446627")
 	      (:authors
 	       ("Yuwei Tian" . "ibluefocus@NOSPAM.gmail.com"))
 	      (:maintainer "Yuwei Tian" . "ibluefocus@NOSPAM.gmail.com")
@@ -8752,13 +8752,13 @@
 		      (:keywords "convenience" "matching")
 		      (:url . "https://github.com/tyler-dodge/counsel-edit-mode"))])
  (counsel-etags .
-		[(1 10 1 1 -4 20220526 1213)
+		[(1 10 1 1 -4 20220526 1436)
 		 ((emacs
-		   (25 1))
+		   (26 1))
 		  (counsel
 		   (0 13 4)))
 		 "Fast and complete Ctags/Etags solution using ivy" single
-		 ((:commit . "46d13080f0f3dbcb58b6a9696953b8fb38c8b4fb")
+		 ((:commit . "05d364b556aadcfe49df727c0729abc3f0c14372")
 		  (:authors
 		   ("Chen Bin <chenbin dot sh AT gmail dot com>"))
 		  (:maintainer "Chen Bin <chenbin dot sh AT gmail dot com>")
@@ -12240,7 +12240,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "7b90b08f9e68e7d1879a4cdc9de184cd446ea549")
+	((:commit . "a761c81b95fd252e91ca1c38e1b3306cafa87e8b")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -12485,11 +12485,11 @@
 	      (:keywords "tools" "window manager")
 	      (:url . "https://github.com/aki2o/e2wm-term"))])
  (eacl .
-       [(2 2 0 1 -4 20220526 1229)
+       [(2 2 0 1 -4 20220526 1434)
 	((emacs
 	  (25 1)))
 	"Auto-complete lines by grepping project" single
-	((:commit . "4c2b700bd1218126905a2c268877e0c02ba23fa4")
+	((:commit . "4fe2cafbfeb73d806ebea8801c3522ff2886f30b")
 	 (:authors
 	  ("Chen Bin <chenbin DOT sh AT gmail DOT com>"))
 	 (:maintainer "Chen Bin <chenbin DOT sh AT gmail DOT com>")
@@ -14111,11 +14111,11 @@
 		(:keywords "tools")
 		(:url . "https://github.com/oitofelix/elpa-deploy"))])
  (elpa-mirror .
-	      [(2 2 0 1 -4 20220123 1237)
+	      [(2 2 0 1 -4 20220526 1512)
 	       ((emacs
 		 (25 1)))
 	       "Create local package repository from installed packages" single
-	       ((:commit . "3e0fe0f91d1c5798752c255b89950617f88b8d9e")
+	       ((:commit . "fecb74e8b5ce1562df2951dbbed158d75a21aa7f")
 		(:authors
 		 ("Chen Bin" . "chenbin.sh@gmail.com"))
 		(:maintainer "Chen Bin" . "chenbin.sh@gmail.com")
@@ -14500,22 +14500,22 @@
 	  ((emacs
 	    (26 1)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "97270d725761ee02db461b45b18ec16ae31f203e")
+	  ((:commit . "bd603d8f3b1bcff34aee2dc4b7b36dc7912b9b26")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
 	   (:keywords "convenience")
 	   (:url . "https://github.com/oantolin/embark"))])
  (embark-consult .
-		 [(0 5 1 -4 20220507 143)
+		 [(0 6 1 -4 20220526 1525)
 		  ((emacs
 		    (27 1))
 		   (embark
-		    (0 12))
+		    (0 17))
 		   (consult
-		    (0 10)))
+		    (0 17)))
 		  "Consult integration for Embark" single
-		  ((:commit . "97270d725761ee02db461b45b18ec16ae31f203e")
+		  ((:commit . "bd603d8f3b1bcff34aee2dc4b7b36dc7912b9b26")
 		   (:authors
 		    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -16499,7 +16499,7 @@
 		((emacs
 		  (25 1)))
 		"Vim matchit ported to Evil" tar
-		((:commit . "094de831bdc76ff8bd7f61013bb93110fe894939")
+		((:commit . "dd4570eb6a03bbb9f4eb8257592ef1a0bbd0ddba")
 		 (:authors
 		  ("Chen Bin" . "chenbin.sh@gmail.com"))
 		 (:maintainer "Chen Bin" . "chenbin.sh@gmail.com")
@@ -16573,7 +16573,7 @@
 		       ((emacs
 			 (25 1)))
 		       "Comment/uncomment lines efficiently. Like Nerd Commenter in Vim" tar
-		       ((:commit . "5773a95a57862267aca055fdba5bb21f05bd5ea1")
+		       ((:commit . "3ca33ee87a4930ff141ff9ea934aab66ca1a811c")
 			(:authors
 			 ("Chen Bin" . "chenbin.sh@gmail.com"))
 			(:maintainer "Chen Bin" . "chenbin.sh@gmail.com")
@@ -17976,7 +17976,7 @@
 			((emacs
 			  (25 1)))
 			"Find file/directory and review Diff/Patch/Commit efficiently" single
-			((:commit . "6aaf0b2b9ee4990911d24450550cac90e64c6485")
+			((:commit . "38ebbc21e32a6e616d315f5f898df4ca825f916d")
 			 (:authors
 			  ("Phil Hagelberg, Doug Alcorn, and Will Farrington"))
 			 (:maintainer "Chen Bin" . "chenbin.sh@gmail.com")
@@ -18426,7 +18426,7 @@
 	   ((emacs
 	     (25 1)))
 	   "Tools for working with Flutter SDK" tar
-	   ((:commit . "2fd54925a00c222b80d4ab43718b199a4c2a6d27")
+	   ((:commit . "b4148db1e6e6822a6a0da1eda3c58affe562d1dc")
 	    (:authors
 	     ("Aaron Madlon-Kay"))
 	    (:maintainer "Aaron Madlon-Kay")
@@ -18441,7 +18441,7 @@
 			  (flutter
 			   (0 1 0)))
 			 "Flycheck checker for intl_translation" single
-			 ((:commit . "2fd54925a00c222b80d4ab43718b199a4c2a6d27")
+			 ((:commit . "b4148db1e6e6822a6a0da1eda3c58affe562d1dc")
 			  (:authors
 			   ("Aaron Madlon-Kay"))
 			  (:maintainer "Aaron Madlon-Kay")
