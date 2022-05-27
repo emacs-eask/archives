@@ -24,4 +24,5 @@ Then you would have to wait for a few minutes (time depends on the archive serve
 to have your IP unlock from the archive server.
 
 Here is the `archives` that comes into play! Eask tries to save you from this
-condition; it will download these `archive-contents` files if a `404` is met. 🎉
+condition; it will download these `archive-contents` files if a `404` is met.
+It simply means you will never fail on refreshing package contents. 🎉
