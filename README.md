@@ -23,4 +23,5 @@ continuously requesting the archive content file within a short amount of time.
 Then you would have to wait for a few minutes (time depends on the archive server)
 to have your IP unlock from the archive server.
 
-
+Eask try to save you from this condition, it will download these `archive-contents`
+files if a `404` is met. 🎉
