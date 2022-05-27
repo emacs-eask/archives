@@ -7,9 +7,9 @@ EASK ?= eask
 
 generate_badges_system:
 	@echo "Generating system badges.."
-	@$(EASK) load "./_scripts/generate-badges-system.el"
+	@$(EASK) load "./bin/generate-badges-system.el"
 
 refresh:
 	@echo "Refresh archive-contents"
 	@$(EASK) refresh --allow-error --verbose 4
-	@$(EASK) load "./_scripts/refresh.el"
+	@$(EASK) load "./bin/refresh.el"
