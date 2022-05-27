@@ -26,13 +26,13 @@ jobs:
           - 28.1
 
     steps:
-    - uses: purcell/setup-emacs@master
+    - uses: jcs090218/setup-emacs@master
       with:
         version: ${{ matrix.emacs-version }}
 
     - uses: actions/setup-node@v2
       with:
-        node-version: '14'
+        node-version: '16'
 
     - uses: emacs-eask/setup-eask@master
       with:
