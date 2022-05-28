@@ -47138,7 +47138,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "3339ace20b7b9532c2dc37e2ff24ce9149d65825")
+	  ((:commit . "dd11d9af5730440a484feb6702d3d026d5130a92")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -53588,6 +53588,17 @@
 		 (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
 		 (:keywords "convenience")
 		 (:url . "https://github.com/rougier/svg-tag-mode"))])
+ (svgo .
+       [(1 0 3 1 -4 20220525 2059)
+	((emacs
+	  (26 2)))
+	"SVG optimization with SVGO" single
+	((:commit . "9b01cc9eb1fdf2731cd2b931a7dfe1f601b70786")
+	 (:authors
+	  ("Mathis Hofer" . "mathis@fsfe.org"))
+	 (:maintainer "Mathis Hofer" . "mathis@fsfe.org")
+	 (:keywords "tools")
+	 (:url . "https://github.com/hupf/svgo.el/"))])
  (svnwrapper .
 	     [(0 0 0 1 -4 20180414 1843)
 	      ((e2ansi
@@ -54979,7 +54990,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "4f75a1ed1354a584eb41248f03f8a426a4d9d7d8")
+	  ((:commit . "2709b9d51b8d63a1b65de75a5eab0a6bda77df7e")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -60039,13 +60050,13 @@
 	       (:keywords "deft" "zettelkasten" "zetteldeft" "wp" "files")
 	       (:url . "https://efls.github.io/zetteldeft/"))])
  (zetteldesk .
-	     [(1 0 1 -4 20220520 1834)
+	     [(1 0 1 1 -4 20220528 1904)
 	      ((emacs
 		(27 1))
 	       (org-roam
 		(2 0)))
 	      "A revision and outlining tool for org-roam" single
-	      ((:commit . "d98cdf1d6a28ff823eb2b3c12cbd733423d828bd")
+	      ((:commit . "de0d84374b3b60d1456965bb85cfe68aeb4f6f59")
 	       (:authors
 		("Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com"))
 	       (:maintainer "Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com")
