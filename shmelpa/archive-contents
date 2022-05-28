@@ -26963,7 +26963,7 @@
 	    (elisp-refs
 	     (1 2)))
 	   "A better *help* buffer" single
-	   ((:commit . "2f91e7992dae078a9cbc0d7f8e603e02d0abfcb0")
+	   ((:commit . "209971ba9f576ba080352642cfbf25df5692b1d7")
 	    (:authors
 	     ("Wilfred Hughes" . "me@wilfred.me.uk"))
 	    (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk")
@@ -32114,6 +32114,19 @@
 	     (:maintainer "Petter Storvik")
 	     (:keywords "extensions" "processes" "lpass" "lastpass")
 	     (:url . "https://github.com/storvik/emacs-lastpass"))])
+ (latex-change-env .
+		   [(0 2 1 -4 20220523 553)
+		    ((emacs
+		      (27 1))
+		     (auctex
+		      (13 1)))
+		    "Change in and out of LaTeX environments" single
+		    ((:commit . "0483bd0af943305b93b327c72c63780aadd5d8f9")
+		     (:authors
+		      ("Tony Zorman" . "soliditsallgood@mailbox.org"))
+		     (:maintainer "Tony Zorman" . "soliditsallgood@mailbox.org")
+		     (:keywords "convenience" "tex")
+		     (:url . "https://gitlab.com/slotThe/change-env"))])
  (latex-extra .
 	      [(1 13 1 -4 20170817 147)
 	       ((auctex
@@ -33127,7 +33140,7 @@
 		((emacs
 		  (24 3)))
 		"Live Coding in Python" tar
-		((:commit . "c1584652555e554319edf94fa351e268f3a8b547")
+		((:commit . "86e01e91d4d3e9363ad4bbb94f5cd9bf65a927b1")
 		 (:authors
 		  ("Don Kirkby http://donkirkby.github.io"))
 		 (:maintainer "Don Kirkby http://donkirkby.github.io")
@@ -34527,7 +34540,7 @@
 		 (magit
 		  (3 0 0)))
 		"Magit extension for range diffs" single
-		((:commit . "55e6443710def357f3f78eea27d5bbe023d868f5")
+		((:commit . "ff416b87a77a2f7cea234d9063ff629fc0e4c6c8")
 		 (:authors
 		  ("Kyle Meyer" . "kyle@kyleam.com"))
 		 (:maintainer "Kyle Meyer" . "kyle@kyleam.com")
@@ -36732,7 +36745,7 @@
 	   (:keywords "tex")
 	   (:url . "https://github.com/cdominik/mu2tex"))])
  (mu4e-alert .
-	     [(1 0 1 -4 20220416 1840)
+	     [(1 0 1 -4 20220528 1923)
 	      ((alert
 		(1 2))
 	       (s
@@ -36742,7 +36755,7 @@
 	       (emacs
 		(24 4)))
 	      "Desktop notification for mu4e" single
-	      ((:commit . "b34d0ea7b75709cc25d842a783cebea855dc9f7d")
+	      ((:commit . "85489fae322a655e275be2483b9d02486b172ea8")
 	       (:authors
 		("Iqbal Ansari" . "iqbalansari02@yahoo.com"))
 	       (:maintainer "Mikhail Rudenko" . "mike.rudenko@gmail.com")
@@ -41377,7 +41390,7 @@
 		  (:keywords "convenience" "hypermedia" "org")
 		  (:url . "https://github.com/unhammer/org-rich-yank"))])
  (org-roam .
-	   [(2 2 2 1 -4 20220528 321)
+	   [(2 2 2 1 -4 20220528 1937)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -41391,7 +41404,7 @@
 	     (magit-section
 	      (3 0 0)))
 	    "A database abstraction layer for Org-mode" tar
-	    ((:commit . "ed7d4f0a2ee215cc42b7ea737633a944b2b77791")
+	    ((:commit . "83a0b3d4645d1c32edbe1aa5dc12cadeccb1f319")
 	     (:authors
 	      ("Jethro Kuan" . "jethrokuan95@gmail.com"))
 	     (:maintainer "Jethro Kuan" . "jethrokuan95@gmail.com")
