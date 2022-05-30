@@ -12240,7 +12240,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "ac7beaca00d13c49d7a41ee73c44740d066e27b0")
+	((:commit . "9c3b942de19b7f5c64685a66df74abc5218fd52d")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -21041,6 +21041,17 @@
 		       "Human-friendly TRAMP path construction" single
 		       ((:commit . "be572b8953b9e5a3a35c30bb64c2936d3e9802ba")
 			(:url . "https://github.com/p3r7/prf-tramp"))])
+ (frimacs .
+	  [(1 0 1 -4 20220528 1935)
+	   ((emacs
+	     (26 1)))
+	   "An environment for the FriCAS computer algebra system" tar
+	   ((:commit . "c33b4d37751d31cf901e933f58779ab606ccb6fb")
+	    (:authors
+	     ("Paul Onions" . "paul.onions@acm.org"))
+	    (:maintainer "Paul Onions" . "paul.onions@acm.org")
+	    (:keywords "fricas" "computer algebra" "extensions" "tools")
+	    (:url . "https://github.com/pdo/frimacs"))])
  (fringe-current-line .
 		      [(0 1 0 1 -4 20140111 411)
 		       nil "show current line on the fringe." single
