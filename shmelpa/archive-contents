@@ -32751,7 +32751,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "07bee8ba5dfa94185d287b93a1dd808af3af26e8")
+	     ((:commit . "a7f74b74c186f4f1d7b64d6e3e189de0690d2672")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
@@ -34249,7 +34249,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 -4 20220531 1136)
+	[(3 3 0 -4 20220531 1340)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -34265,7 +34265,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "1c16b99ba47c8ccd04ac41fccf1853e746d4fd70")
+	 ((:commit . "a7953b2645503904b2a31e18e019f07af9e71a7a")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -34456,7 +34456,7 @@
 		 (magit
 		  (20211004)))
 		"(POC) Teach Magit to use Libgit2." tar
-		((:commit . "1c16b99ba47c8ccd04ac41fccf1853e746d4fd70")
+		((:commit . "a7953b2645503904b2a31e18e019f07af9e71a7a")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -34537,7 +34537,7 @@
 		  (dash
 		   (20210826)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "1c16b99ba47c8ccd04ac41fccf1853e746d4fd70")
+		 ((:commit . "a7953b2645503904b2a31e18e019f07af9e71a7a")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -40150,6 +40150,14 @@
 		   (:maintainer "Sergei Maximov" . "s.b.maximov@gmail.com")
 		   (:keywords "convenience" "docs" "tools")
 		   (:url . "https://github.com/smaximov/org-commentary"))])
+ (org-contacts .
+	       [(0 1 -4 20220528 1810)
+		nil "Contacts management system for Org Mode." single
+		((:commit . "2916aae933c4795c1dae8f85c1abafdacdad67ce")
+		 (:authors
+		  ("Julien Danjou" . "julien@danjou.info"))
+		 (:maintainer "stardiviner" . "numbchild@gmail.com")
+		 (:keywords "contacts" "org-mode" "outlines" "hypermedia" "calendar"))])
  (org-context .
 	      [(0 1 1 -4 20210216 1526)
 	       nil "Contextual capture and agenda commands for Org-mode" single
@@ -46603,7 +46611,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "7f02c3b16bb76c6928f91b025cdce8f59fa8fc06")
+		 ((:commit . "045172f35a157387800398d4fe7f175b16c1c9d8")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -46997,9 +47005,9 @@
 	       (:keywords "project" "convenience")
 	       (:url . "https://github.com/mattharrison/pycoverage.el"))])
  (pydoc .
-	[(0 2 1 -4 20220519 1726)
+	[(0 2 1 -4 20220531 1457)
 	 nil "functional, syntax highlighted pydoc navigation" single
-	 ((:commit . "7d18ec1a69371dda10f6caf1c0748b99a5592331")
+	 ((:commit . "c8b667e17bfe3e63221f822c5c4d58c8fb4fea90")
 	  (:authors
 	   ("John Kitchin" . "jkitchin@andrew.cmu.edu"))
 	  (:maintainer "Brian J. Lopes" . "statmobile@gmail.com")
@@ -47046,7 +47054,7 @@
 	  (:keywords "python" "code generation")
 	  (:url . "https://github.com/JackCrawley/pygen/"))])
  (pygn-mode .
-	    [(0 6 1 1 -4 20211021 2325)
+	    [(0 6 1 1 -4 20220531 1422)
 	     ((emacs
 	       (26 1))
 	      (tree-sitter
@@ -47060,7 +47068,7 @@
 	      (ivy
 	       (0 10 0)))
 	     "Major-mode for chess PGN files, powered by Python" tar
-	     ((:commit . "eb1da7e3eb5f5754b60d404b0e341206eebe19ca")
+	     ((:commit . "9a56e701cfcdf9024dda15175e0d0fc645446019")
 	      (:authors
 	       ("Dodge Coates and Roland Walker"))
 	      (:maintainer "Dodge Coates and Roland Walker")
@@ -47162,7 +47170,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "fbcb2a1c705e047f761726a181b15ccff9977876")
+	  ((:commit . "7ff1d5aa5e11bc2a9576ee64dbcf0c07cd5bc8f5")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -49494,7 +49502,7 @@
 		(:keywords "processes")
 		(:url . "https://github.com/bard/emacs-run-command"))])
  (run-command-recipes .
-		      [(0 0 1 1 -4 20220529 2101)
+		      [(0 0 1 1 -4 20220531 1614)
 		       ((emacs
 			 (25 1))
 			(dash
@@ -49508,7 +49516,7 @@
 			(ht
 			 (2 4)))
 		       "This is collection of recipes to `run-command'" tar
-		       ((:commit . "d3cc3f0f4cc84bd48081d475bcee55c70f7a6c9c")
+		       ((:commit . "66aa9f18c4f229e9873403093d968c0b1bb29408")
 			(:authors
 			 ("semenInRussia" . "hrams205@gmail.com"))
 			(:maintainer "semenInRussia" . "hrams205@gmail.com")
@@ -55016,7 +55024,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "84eb31f2f17e6f6e21b666e6fa4588d4f6a2418e")
+	  ((:commit . "acfd7eed016f2b6da61bbcf50aaedf8a6f6907f8")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
