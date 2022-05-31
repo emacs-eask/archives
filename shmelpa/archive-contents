@@ -8112,7 +8112,7 @@
 	       (:keywords "deferred" "async" "concurrent")
 	       (:url . "https://github.com/kiwanami/emacs-deferred/blob/master/README-concurrent.markdown"))])
  (conda .
-	[(0 4 1 -4 20220315 1533)
+	[(0 4 1 -4 20220530 2154)
 	 ((emacs
 	   (24 4))
 	  (pythonic
@@ -8124,7 +8124,7 @@
 	  (f
 	   (0 18 2)))
 	 "Work with your conda environments" single
-	 ((:commit . "9c28d7a853b4b4bd00215cf7f07856c1563f2ad7")
+	 ((:commit . "bb36ff70c56a9851cd5220700de51b2ac80d807e")
 	  (:authors
 	   ("Rami Chowdhury" . "rami.chowdhury@gmail.com"))
 	  (:maintainer "Rami Chowdhury" . "rami.chowdhury@gmail.com")
@@ -12240,7 +12240,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "9c3b942de19b7f5c64685a66df74abc5218fd52d")
+	((:commit . "33694c441772a35bd03fef0c3294f19784a7dcc8")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -15770,13 +15770,13 @@
 		    (:keywords "convenience")
 		    (:url . "https://github.com/myuhe/ess-R-data-view.el"))])
  (ess-r-insert-obj .
-		   [(1 0 1 -4 20211209 812)
+		   [(1 0 1 -4 20220531 31)
 		    ((emacs
 		      (26 1))
 		     (ess
 		      (18 10 1)))
 		    "Insert objects in ESS-R" single
-		    ((:commit . "dd367cb918c90ec6d3824da869f7a75bb1ca49b6")
+		    ((:commit . "105a8edf97cc1e82ce1e959e7b7bd049851a255a")
 		     (:authors
 		      ("Shuguang Sun" . "shuguang79@qq.com"))
 		     (:maintainer "Shuguang Sun" . "shuguang79@qq.com")
@@ -21226,6 +21226,19 @@
 	 (:authors
 	  ("Natalie Weizenbaum" . "nweiz@google.com"))
 	 (:maintainer "Natalie Weizenbaum" . "nweiz@google.com"))])
+ (fussy .
+	[(0 1 1 -4 20220530 121)
+	 ((emacs
+	   (27 1))
+	  (flx
+	   (0 5)))
+	 "Fuzzy completion style using `flx'" single
+	 ((:commit . "0272bb4632a4a0017c34e5696e1ff74c1129b706")
+	  (:authors
+	   ("James Nguyen" . "james@jojojames.com"))
+	  (:maintainer "James Nguyen" . "james@jojojames.com")
+	  (:keywords "matching")
+	  (:url . "https://github.com/jojojames/fussy"))])
  (futhark-mode .
 	       [(0 2 1 -4 20220425 1144)
 		((emacs
@@ -55003,7 +55016,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "e8f008fc74bd934a3cc6ed35126764be91a52a03")
+	  ((:commit . "fcf52cf6685133a9e17cc46745dff9043cfbafca")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -60069,13 +60082,13 @@
 	       (org-roam
 		(2 0)))
 	      "A revision and outlining tool for org-roam" single
-	      ((:commit . "de0d84374b3b60d1456965bb85cfe68aeb4f6f59")
+	      ((:commit . "177771d7e1eddf86e0b6f6e94332200cf26dedaa")
 	       (:authors
 		("Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com"))
 	       (:maintainer "Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com")
 	       (:url . "https://github.com/Vidianos-Giannitsis/zetteldesk.el"))])
  (zetteldesk-kb .
-		[(0 3 1 -4 20220528 1904)
+		[(0 3 1 -4 20220530 2045)
 		 ((zetteldesk
 		   (1 0 1))
 		  (hydra
@@ -60085,7 +60098,7 @@
 		  (emacs
 		   (24 1)))
 		 "Keybindings for zetteldesk.el" single
-		 ((:commit . "de0d84374b3b60d1456965bb85cfe68aeb4f6f59")
+		 ((:commit . "177771d7e1eddf86e0b6f6e94332200cf26dedaa")
 		  (:authors
 		   ("Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com"))
 		  (:maintainer "Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com")
