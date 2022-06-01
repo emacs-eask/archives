@@ -50188,7 +50188,7 @@
 	     (f
 	      (0 20 0)))
 	    "Searcher in pure elisp" single
-	    ((:commit . "26ecae6a6d028fcbffc576a69ef8f787646bc12a")
+	    ((:commit . "beecefa513ff5d394aa105c60e8bfb0776c62594")
 	     (:authors
 	      ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -50316,15 +50316,15 @@
 	      (:keywords "extensions")
 	      (:url . "https://github.com/radian-software/selectrum"))])
  (selectrum-prescient .
-		      [(5 2 1 -4 20220509 2300)
+		      [(5 2 1 1 -4 20220601 1652)
 		       ((emacs
 			 (25 1))
 			(prescient
-			 (5 2))
+			 (5 2 1))
 			(selectrum
 			 (3 1)))
 		       "Selectrum integration" single
-		       ((:commit . "c05f8a43c6ff07a8b5a3ba8df7a2ec35677b7484")
+		       ((:commit . "07d61b7779c4cca3009390383e7f98a55de7e17e")
 			(:authors
 			 ("Radian LLC" . "contact+prescient@radian.codes"))
 			(:maintainer "Radian LLC" . "contact+prescient@radian.codes")
@@ -50935,7 +50935,7 @@
 	    ((emacs
 	      (24 4)))
 	    "Show end of line symbol in buffer" single
-	    ((:commit . "09aaba23300b9fa3cfd15ceb0e62da4a3d53e7e5")
+	    ((:commit . "defe97273469a711c99fef2ad9171f0ead738506")
 	     (:authors
 	      ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -52394,7 +52394,7 @@
 	      (cl-lib
 	       (0 5)))
 	     "Play wav file" single
-	     ((:commit . "112450888f3f90f0f2a0e43e49eb5a7e49b1b6db")
+	     ((:commit . "a03392380414beab70d57bd7d24fa83c1f424b08")
 	      (:authors
 	       ("Syohei YOSHIDA" . "syohex@gmail.com"))
 	      (:maintainer "Syohei YOSHIDA" . "syohex@gmail.com")
@@ -55028,7 +55028,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "24c8162f94cbb068bb9dfe2da67a97cbcb6506e7")
+	  ((:commit . "a324ed5f285e393768c91e5f74f2099572b96a61")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -55764,7 +55764,7 @@
 	    ((emacs
 	      (24 3)))
 	    "Make window/frame transparent" single
-	    ((:commit . "1e151e5fc841688f1c4d68e9acc0f7b410cd754c")
+	    ((:commit . "71c28ebc85c6f63f5a7c5d59947bfeb7452e93c2")
 	     (:authors
 	      ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -55903,7 +55903,7 @@
 	       (:keywords "outlines" "files" "convenience")
 	       (:url . "https://github.com/cyberthal/treefactor"))])
  (treemacs .
-	   [(2 10 1 -4 20220519 1708)
+	   [(2 10 1 -4 20220601 1749)
 	    ((emacs
 	      (26 1))
 	     (cl-lib
@@ -55923,7 +55923,7 @@
 	     (cfrs
 	      (1 3 2)))
 	    "A tree style file explorer package" tar
-	    ((:commit . "68fd2ddab926e2a9e3948e64803abfd02d8c40cd")
+	    ((:commit . "faa2d10b894df9df0b6789047ea7ae05434d3030")
 	     (:authors
 	      ("Alexander Miller" . "alexanderm@web.de"))
 	     (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55937,7 +55937,7 @@
 			   (treemacs
 			    (0 0)))
 			  "all-the-icons integration for treemacs" single
-			  ((:commit . "68fd2ddab926e2a9e3948e64803abfd02d8c40cd")
+			  ((:commit . "faa2d10b894df9df0b6789047ea7ae05434d3030")
 			   (:authors
 			    ("Eric Dallo" . "ercdll1337@gmail.com"))
 			   (:maintainer "Eric Dallo" . "ercdll1337@gmail.com")
@@ -55951,7 +55951,7 @@
 		  (treemacs
 		   (0 0)))
 		 "Evil mode integration for treemacs" single
-		 ((:commit . "68fd2ddab926e2a9e3948e64803abfd02d8c40cd")
+		 ((:commit . "faa2d10b894df9df0b6789047ea7ae05434d3030")
 		  (:authors
 		   ("Alexander Miller" . "alexanderm@web.de"))
 		  (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55963,7 +55963,7 @@
 			 (emacs
 			  (26 1)))
 			"Treemacs icons for dired" single
-			((:commit . "68fd2ddab926e2a9e3948e64803abfd02d8c40cd")
+			((:commit . "faa2d10b894df9df0b6789047ea7ae05434d3030")
 			 (:authors
 			  ("Alexander Miller" . "alexanderm@web.de"))
 			 (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55979,7 +55979,7 @@
 		   (magit
 		    (2 90 0)))
 		  "Magit integration for treemacs" single
-		  ((:commit . "68fd2ddab926e2a9e3948e64803abfd02d8c40cd")
+		  ((:commit . "faa2d10b894df9df0b6789047ea7ae05434d3030")
 		   (:authors
 		    ("Alexander Miller" . "alexanderm@web.de"))
 		   (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -55995,7 +55995,7 @@
 		   (dash
 		    (2 11 0)))
 		  "Persp-mode integration for treemacs" single
-		  ((:commit . "68fd2ddab926e2a9e3948e64803abfd02d8c40cd")
+		  ((:commit . "faa2d10b894df9df0b6789047ea7ae05434d3030")
 		   (:authors
 		    ("Alexander Miller" . "alexanderm@web.de"))
 		   (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -56011,7 +56011,7 @@
 			 (dash
 			  (2 11 0)))
 			"Perspective integration for treemacs" single
-			((:commit . "68fd2ddab926e2a9e3948e64803abfd02d8c40cd")
+			((:commit . "faa2d10b894df9df0b6789047ea7ae05434d3030")
 			 (:authors
 			  ("Alexander Miller" . "alexanderm@web.de")
 			  ("Jason Dufair" . "jase@dufair.org"))
@@ -56026,7 +56026,7 @@
 			(treemacs
 			 (0 0)))
 		       "Projectile integration for treemacs" single
-		       ((:commit . "68fd2ddab926e2a9e3948e64803abfd02d8c40cd")
+		       ((:commit . "faa2d10b894df9df0b6789047ea7ae05434d3030")
 			(:authors
 			 ("Alexander Miller" . "alexanderm@web.de"))
 			(:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -56040,7 +56040,7 @@
 		     (dash
 		      (2 11 0)))
 		    "Tab bar integration for treemacs" single
-		    ((:commit . "68fd2ddab926e2a9e3948e64803abfd02d8c40cd")
+		    ((:commit . "faa2d10b894df9df0b6789047ea7ae05434d3030")
 		     (:authors
 		      ("Alexander Miller" . "alexanderm@web.de")
 		      ("Jason Dufair" . "jase@dufair.org")
@@ -56550,7 +56550,7 @@
 		  ((emacs
 		    (24 3)))
 		  "Theme styled after undersea imagery" single
-		  ((:commit . "b7b5bffe242fd15b9eb8fe5cb7c9b45e474babbc")
+		  ((:commit . "ddd36ec1f4105161ae17935844266708f8eac484")
 		   (:authors
 		    ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		   (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -56600,7 +56600,7 @@
 	    ((cl-lib
 	      (1 0)))
 	    "Persistent undo history for GNU Emacs" single
-	    ((:commit . "ec95d5038425bca375865803701c971a9c748114")
+	    ((:commit . "17064c636b70e57af3179212806422d905ddf1ce")
 	     (:authors
 	      ("MATSUYAMA Tomohiro" . "m2ym.pub@gmail.com"))
 	     (:maintainer "MATSUYAMA Tomohiro" . "m2ym.pub@gmail.com")
@@ -57029,7 +57029,7 @@
 	   ((emacs
 	     (24 4)))
 	   "Keep font consistency across different OSs" single
-	   ((:commit . "0cb20745e3889f4eb8ea49c4a748f34f9ddf1fa6")
+	   ((:commit . "414f97c78bb1924aebc3f9d6e3d4f9d87477e8b7")
 	    (:authors
 	     ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	    (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -59740,7 +59740,7 @@
 	    ((emacs
 	      (26 1)))
 	    "Yet Another Scroll Bar Mode" single
-	    ((:commit . "25f6bf7415f6821a4097037a8decd03813d08722")
+	    ((:commit . "89422e4a22e2343e7823149b850657e9d091c37c")
 	     (:authors
 	      ("Tomohiro Matsuyama" . "m2ym.pub@gmail.com"))
 	     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -60320,7 +60320,7 @@
 	       ((emacs
 		 (24 3)))
 	       "Zoom window like tmux" single
-	       ((:commit . "402f85f5d7d18e26289adcd452d42c73dc1df580")
+	       ((:commit . "0e94593425d3cfd23b37618700199aa7de0739b2")
 		(:authors
 		 ("Syohei YOSHIDA" . "syohex@gmail.com"))
 		(:maintainer "Syohei YOSHIDA" . "syohex@gmail.com")
