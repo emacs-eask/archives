@@ -6954,11 +6954,11 @@
 	      (:keywords "comment")
 	      (:url . "https://github.com/yuutayamada/commenter"))])
  (commify .
-	  [(1 3 4 1 -4 20210904 1106)
+	  [(1 3 4 1 -4 20220531 1301)
 	   ((s
 	     (1 9 0)))
 	   "Toggle grouping commas in numbers" single
-	   ((:commit . "d6656bd3a909917a51ba033a11d4ab5f5fe55f83")
+	   ((:commit . "c4aeccae5b4a073fc3f4e8bd780a2ebbb7d5e533")
 	    (:authors
 	     ("Daniel E. Doherty" . "ded-commify@ddoherty.net"))
 	    (:maintainer "Daniel E. Doherty" . "ded-commify@ddoherty.net")
@@ -9866,11 +9866,11 @@
 		(:keywords "languages")
 		(:url . "https://github.com/bradyt/dart-server"))])
  (dash .
-       [(2 19 1 1 -4 20220527 2231)
+       [(2 19 1 1 -4 20220602 1727)
 	((emacs
 	  (24)))
 	"A modern list library for Emacs" tar
-	((:commit . "76606f90774c5349f7adac20c33e6d37a1939a1f")
+	((:commit . "4ac77a1017c988d60e53139cd92ae993c8c24eee")
 	 (:authors
 	  ("Magnar Sveen" . "magnars@gmail.com"))
 	 (:maintainer "Magnar Sveen" . "magnars@gmail.com")
@@ -9917,7 +9917,7 @@
 		   ((dash
 		     (2 18 0)))
 		   "Collection of useful combinators for Emacs Lisp" single
-		   ((:commit . "76606f90774c5349f7adac20c33e6d37a1939a1f")
+		   ((:commit . "4ac77a1017c988d60e53139cd92ae993c8c24eee")
 		    (:authors
 		     ("Matus Goljer" . "matus.goljer@gmail.com")
 		     ("Magnar Sveen" . "magnars@gmail.com"))
@@ -12242,7 +12242,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "d9210b3a5711fbe83c47f3aa985b70b6f06454b6")
+	((:commit . "133466710c47868e0a66e8001836c0c858676a4e")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -21229,13 +21229,13 @@
 	  ("Natalie Weizenbaum" . "nweiz@google.com"))
 	 (:maintainer "Natalie Weizenbaum" . "nweiz@google.com"))])
  (fussy .
-	[(0 1 1 -4 20220601 1443)
+	[(0 1 1 -4 20220602 1656)
 	 ((emacs
 	   (27 1))
 	  (flx
 	   (0 5)))
 	 "Fuzzy completion style using `flx'" single
-	 ((:commit . "c41849372e7c1ee1be6c1dc380ae8a2d87af021b")
+	 ((:commit . "a2c8d5b7a6a6456557fcbc9925397dced1b5c102")
 	  (:authors
 	   ("James Nguyen" . "james@jojojames.com"))
 	  (:maintainer "James Nguyen" . "james@jojojames.com")
@@ -23520,7 +23520,7 @@
 	 (json-mode
 	  (1 6 0)))
 	"Interface to govc for managing VMware ESXi and vCenter" single
-	((:commit . "0f1f07eeac53e7f16a4a0ca9006d566545787890")
+	((:commit . "b4847059960b2faa100c7066f104be86c561229d")
 	 (:authors
 	  ("The govc developers"))
 	 (:maintainer "The govc developers")
@@ -26077,7 +26077,7 @@
 		(org-ql
 		 (0 6 -1)))
 	       "Helm support for org-ql" single
-	       ((:commit . "995a4038256f3cc92fc9ebe1956b0545d1156894")
+	       ((:commit . "64a9234733904af20fd495861792f1d5c2b37190")
 		(:authors
 		 ("Adam Porter" . "adam@alphapapa.net"))
 		(:maintainer "Adam Porter" . "adam@alphapapa.net")
@@ -37540,7 +37540,7 @@
 	((emacs
 	  (27 1)))
 	"companion for Babashka Neil" single
-	((:commit . "c918203cb1f5be94ebb9e1d59dae653b6d12cf99")
+	((:commit . "805f74fa73199a75abbd74ebff3bd75e5c2bba08")
 	 (:authors
 	  ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
 	 (:maintainer "Ag Ibragimov" . "agzam.ibragimov@gmail.com")
@@ -41180,7 +41180,7 @@
 			 ("Vladimir S. Ivanov" . "ivvl82@gmail.com"))
 			(:maintainer "Vladimir S. Ivanov" . "ivvl82@gmail.com"))])
  (org-ql .
-	 [(0 7 -1 1 -4 20220602 1243)
+	 [(0 7 -1 1 -4 20220602 1651)
 	  ((emacs
 	    (26 1))
 	   (dash
@@ -41204,7 +41204,7 @@
 	   (ts
 	    (0 2 -1)))
 	  "Org Query Language, search command, and agenda-like view" tar
-	  ((:commit . "995a4038256f3cc92fc9ebe1956b0545d1156894")
+	  ((:commit . "64a9234733904af20fd495861792f1d5c2b37190")
 	   (:authors
 	    ("Adam Porter" . "adam@alphapapa.net"))
 	   (:maintainer "Adam Porter" . "adam@alphapapa.net")
@@ -46615,7 +46615,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "67f46d249565b5002795c164625eb237437c966a")
+		 ((:commit . "e7cc1aa970a053d366d4f7faa2a22ecb356292c4")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -47174,7 +47174,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "dc7b03266fad7e885da1374ac312dfc0b63ebbfd")
+	  ((:commit . "711641b21240da46a9406d9cd6474aadce1c4809")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -47486,7 +47486,7 @@
 	 nil "enhanced support for editing and running Scheme code" single
 	 ((:commit . "2146805ce2b5a9b155d73929986f11e713787e26"))])
  (quarto-mode .
-	      [(0 0 1 1 -4 20220405 1556)
+	      [(0 0 1 1 -4 20220602 1714)
 	       ((emacs
 		 (25 1))
 		(polymode
@@ -47498,7 +47498,7 @@
 		(request
 		 (0 3 2)))
 	       "A (poly)mode for https://quarto.org" single
-	       ((:commit . "2a199735866dc34126a061c6f2990378b381e687")
+	       ((:commit . "3cf4546a01766775d56b92e1c974c850ec35d5a9")
 		(:authors
 		 ("Carlos Scheidegger"))
 		(:maintainer "Carlos Scheidegger")
@@ -55028,7 +55028,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "ce675514727803817f86fc40363ac3d42d455d9a")
+	  ((:commit . "848c626dd749800162d75365dc07bbfb559bb790")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -59223,13 +59223,13 @@
 		  (:maintainer nil . "<lompik@ArchOrion>")
 		  (:keywords "convenience"))])
  (x509-mode .
-	    [(0 1 0 1 -4 20220602 1153)
+	    [(0 1 0 1 -4 20220602 1711)
 	     ((emacs
 	       (24 1))
 	      (cl-lib
 	       (0 5)))
 	     "View certificates, CRLs and keys using OpenSSL." tar
-	     ((:commit . "134e3d693ba0c3ad1e86817bf31d80c4fbb7b17e")
+	     ((:commit . "9539de3eae60a08caa130c62af7d55d8df9e7728")
 	      (:authors
 	       ("Fredrik Axelsson" . "f.axelsson@gmai.com"))
 	      (:maintainer "Fredrik Axelsson" . "f.axelsson@gmai.com")
