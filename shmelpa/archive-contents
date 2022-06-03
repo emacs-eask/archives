@@ -21229,13 +21229,13 @@
 	  ("Natalie Weizenbaum" . "nweiz@google.com"))
 	 (:maintainer "Natalie Weizenbaum" . "nweiz@google.com"))])
  (fussy .
-	[(0 1 1 -4 20220602 2222)
+	[(0 1 1 -4 20220603 140)
 	 ((emacs
 	   (27 1))
 	  (flx
 	   (0 5)))
 	 "Fuzzy completion style using `flx'" single
-	 ((:commit . "ed20aa4d712eca435842992421f5ff7028b9463b")
+	 ((:commit . "8a0f38df1956fc4c36f4391397b3ad4f77e1a0a2")
 	  (:authors
 	   ("James Nguyen" . "james@jojojames.com"))
 	  (:maintainer "James Nguyen" . "james@jojojames.com")
@@ -34981,11 +34981,11 @@
 		       (:keywords "markdown" "changelog" "files")
 		       (:url . "https://github.com/plandes/markdown-changelog"))])
  (markdown-mode .
-		[(2 6 1 -4 20220513 1453)
+		[(2 6 1 -4 20220603 300)
 		 ((emacs
 		   (26 1)))
 		 "Major mode for Markdown-formatted text" single
-		 ((:commit . "4477f381de0068a04b55e198c32614793f67b38a")
+		 ((:commit . "1f709778ac7990f4a07fdf11fe37bc6541810b29")
 		  (:authors
 		   ("Jason R. Blevins" . "jblevins@xbeta.org"))
 		  (:maintainer "Jason R. Blevins" . "jblevins@xbeta.org")
@@ -37790,7 +37790,7 @@
 		((emacs
 		  (24 1)))
 		"An awesome dark theme" single
-		((:commit . "92f96b83fab2649d224115bb71324cefe139ffc5")
+		((:commit . "a5f51bc847553dc1ac7ad54fa5af32cd4623a66d")
 		 (:authors
 		  ("Marcin Swieczkowski" . "marcin.swieczkowski@gmail.com")
 		  ("See README.md for full list of contributors."))
@@ -40155,9 +40155,17 @@
 		   (:keywords "convenience" "docs" "tools")
 		   (:url . "https://github.com/smaximov/org-commentary"))])
  (org-contacts .
-	       [(0 1 -4 20220528 1810)
-		nil "Contacts management system for Org Mode." single
-		((:commit . "2916aae933c4795c1dae8f85c1abafdacdad67ce")
+	       [(1 0 1 -4 20220603 329)
+		((emacs
+		  (28 1))
+		 (cl-lib
+		  (1 0))
+		 (org
+		  (9 3 4))
+		 (gnus
+		  (5 13)))
+		"Contacts management system for Org Mode." single
+		((:commit . "0501463909d3d10432c7948517146bff2d471293")
 		 (:authors
 		  ("Julien Danjou" . "julien@danjou.info"))
 		 (:maintainer "stardiviner" . "numbchild@gmail.com")
@@ -40685,13 +40693,13 @@
 			(:keywords "tex" "tools")
 			(:url . "https://github.com/yangsheng6810/org-latex-instant-preview"))])
  (org-link-beautify .
-		    [(1 2 2 1 -4 20220602 1041)
+		    [(1 2 2 1 -4 20220603 256)
 		     ((emacs
 		       (27 1))
 		      (all-the-icons
-		       (4 0 0)))
+		       (5 0 0)))
 		     "Beautify Org Links" single
-		     ((:commit . "42af79242096e81ac163eaad41c20c230b4a4d7d")
+		     ((:commit . "e61eaa7d1a7a5f1678acc7eab12149101a0f23d8")
 		      (:keywords "hypermedia")
 		      (:url . "https://repo.or.cz/org-link-beautify.git"))])
  (org-link-travis .
