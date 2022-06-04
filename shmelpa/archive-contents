@@ -35162,17 +35162,17 @@
 		   (:keywords "themes")
 		   (:url . "http://github.com/cpaulik/emacs-material-theme"))])
  (math-preview .
-	       [(4 0 2 1 -4 20220526 1729)
+	       [(4 0 3 1 -4 20220604 1107)
 		((emacs
 		  (26 1))
 		 (json
-		  (1 5))
+		  (1 4))
 		 (dash
 		  (2 18 0))
 		 (s
 		  (1 12 0)))
 		"Preview TeX math equations inline" single
-		((:commit . "68e5ea32c9c5d9313b2c143c050b22098760aab6")
+		((:commit . "a7254ba89a524f30c1acfdbde07a179271f02658")
 		 (:authors
 		  ("Matsievskiy S.V."))
 		 (:maintainer "Matsievskiy S.V.")
@@ -43063,13 +43063,13 @@
 	      (:keywords "outlines" "hypermedia")
 	      (:url . "https://github.com/masfj/ox-review"))])
  (ox-rfc .
-	 [(1 1 -4 20220206 1046)
+	 [(0 1 0 1 -4 20220604 1114)
 	  ((emacs
 	    (24 3))
 	   (org
 	    (8 3)))
 	  "RFC Back-End for Org Export Engine" single
-	  ((:commit . "0849028a2e4a274bfb0fc85d9538203ddf72a9e8")
+	  ((:commit . "f0fe3503f8732ea5e95a4016c6b7ce5b47cf6295")
 	   (:authors
 	    ("Christian Hopps" . "chopps@devhopps.com"))
 	   (:maintainer "Christian Hopps" . "chopps@devhopps.com")
@@ -47089,7 +47089,7 @@
 	      (:keywords "data" "games" "chess")
 	      (:url . "https://github.com/dwcoates/pygn-mode"))])
  (pyim .
-       [(4 2 1 1 -4 20220531 305)
+       [(4 2 1 1 -4 20220604 1212)
 	((emacs
 	  (25 1))
 	 (async
@@ -47097,7 +47097,7 @@
 	 (xr
 	  (1 13)))
 	"A Chinese input method support quanpin, shuangpin, wubi, cangjie and rime." tar
-	((:commit . "d504e4071311be967f09ad6831377c17002a8f9e")
+	((:commit . "872c7139febf3aa758fc616a477ee993dcb96efc")
 	 (:authors
 	  ("Ye Wenbin" . "wenbinye@163.com")
 	  ("Feng Shu" . "tumashu@163.com"))
@@ -47184,7 +47184,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "f388437a11cd39350fcd738b6a93c128c2b8d92e")
+	  ((:commit . "8a9aa134b142a54362162478a83fdffb3dfdb5c0")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -49516,7 +49516,7 @@
 		(:keywords "processes")
 		(:url . "https://github.com/bard/emacs-run-command"))])
  (run-command-recipes .
-		      [(0 0 1 1 -4 20220601 2006)
+		      [(0 0 1 1 -4 20220604 1330)
 		       ((emacs
 			 (25 1))
 			(dash
@@ -49530,7 +49530,7 @@
 			(ht
 			 (2 4)))
 		       "This is collection of recipes to `run-command'" tar
-		       ((:commit . "f6cb05e9528bb69c825e464b1ab7abd31494f5c7")
+		       ((:commit . "6cff6fff2c3ac23384d044a9c64d0e4b80721d4c")
 			(:authors
 			 ("semenInRussia" . "hrams205@gmail.com"))
 			(:maintainer "semenInRussia" . "hrams205@gmail.com")
@@ -55038,7 +55038,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "fe39010c4ca4cb5e24052f27084b33397f68316f")
+	  ((:commit . "7fe6a7715d43f7cd8554e9eec4b273fcfafab392")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -55594,13 +55594,13 @@
 	     (:maintainer "Sean McLaughlin" . "seanmcl@gmail.com")
 	     (:keywords "languages" "tql"))])
  (tr-ime .
-	 [(0 4 1 1 -4 20211120 718)
+	 [(0 5 0 1 -4 20220604 1107)
 	  ((emacs
 	    (27 1))
 	   (w32-ime
 	    (0 0 1)))
 	  "Emulator of IME patch for Windows" tar
-	  ((:commit . "4bbbbfb00f1007e955fe856cd99108c9979f4295")
+	  ((:commit . "87f0677220b755f947fe5f373b6a34e1afb82f3c")
 	   (:authors
 	    ("Masamichi Hosoda" . "trueroad@trueroad.jp"))
 	   (:maintainer "Masamichi Hosoda" . "trueroad@trueroad.jp")
@@ -59233,13 +59233,13 @@
 		  (:maintainer nil . "<lompik@ArchOrion>")
 		  (:keywords "convenience"))])
  (x509-mode .
-	    [(0 1 0 1 -4 20220602 1711)
+	    [(0 1 0 1 -4 20220604 1201)
 	     ((emacs
 	       (24 1))
 	      (cl-lib
 	       (0 5)))
 	     "View certificates, CRLs and keys using OpenSSL." tar
-	     ((:commit . "9539de3eae60a08caa130c62af7d55d8df9e7728")
+	     ((:commit . "551d7f388efde975ebc98d1ddeb5e038bb6e5cf1")
 	      (:authors
 	       ("Fredrik Axelsson" . "f.axelsson@gmai.com"))
 	      (:maintainer "Fredrik Axelsson" . "f.axelsson@gmai.com")
