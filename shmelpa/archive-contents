@@ -4832,7 +4832,7 @@
 	      (:maintainer "SAKURAI Masashi <m.sakurai at kiwanami.net>")
 	      (:keywords "calendar" "org"))])
  (calibredb .
-	    [(2 12 0 1 -4 20220511 1104)
+	    [(2 12 0 1 -4 20220604 1655)
 	     ((emacs
 	       (25 1))
 	      (org
@@ -4848,7 +4848,7 @@
 	      (esxml
 	       (0 3 7)))
 	     "Yet another calibre client" tar
-	     ((:commit . "232fa1cf3af08200af439d1cbb5a131f38286183")
+	     ((:commit . "e4ce01a08f0e9cbbaea03ab5259d0cc029e9f2ad")
 	      (:authors
 	       ("Damon Chan" . "elecming@gmail.com"))
 	      (:maintainer "Damon Chan" . "elecming@gmail.com")
@@ -8114,9 +8114,9 @@
 	       (:keywords "deferred" "async" "concurrent")
 	       (:url . "https://github.com/kiwanami/emacs-deferred/blob/master/README-concurrent.markdown"))])
  (conda .
-	[(0 4 1 -4 20220530 2154)
+	[(0 4 1 -4 20220604 1727)
 	 ((emacs
-	   (24 4))
+	   (25 1))
 	  (pythonic
 	   (0 1 0))
 	  (dash
@@ -8126,11 +8126,11 @@
 	  (f
 	   (0 18 2)))
 	 "Work with your conda environments" single
-	 ((:commit . "bb36ff70c56a9851cd5220700de51b2ac80d807e")
+	 ((:commit . "e4154db0dbfb7faf46b645eddfaad9326e4ea18d")
 	  (:authors
 	   ("Rami Chowdhury" . "rami.chowdhury@gmail.com"))
 	  (:maintainer "Rami Chowdhury" . "rami.chowdhury@gmail.com")
-	  (:keywords "python" "environment" "conda")
+	  (:keywords "languages" "local" "tools" "python" "environment" "conda")
 	  (:url . "http://github.com/necaris/conda.el"))])
  (config-general-mode .
 		      [(0 3 1 -4 20171024 1840)
@@ -16171,7 +16171,7 @@
 			 (:keywords "colemak" "evil")
 			 (:url . "https://github.com/bmallred/evil-colemak-minimal"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20220601 1523)
+		  [(0 4 1 1 -4 20220604 1751)
 		   ((emacs
 		     (25 1))
 		    (evil
@@ -16179,7 +16179,7 @@
 		    (annalist
 		     (1 0)))
 		   "A set of keybindings for Evil mode" tar
-		   ((:commit . "8adc957ad9730005e4215359b1ae865678a8feeb")
+		   ((:commit . "98d28bc67909225a4746c557449c9da816f5d0f5")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainer "James Nguyen" . "james@jojojames.com")
@@ -21169,7 +21169,7 @@
 	 (emacs
 	  (24 2)))
 	"Major mode for the Factor programming language." tar
-	((:commit . "96743eeca46176ece358e59b329a593bc718525e"))])
+	((:commit . "4e7b820b40daaaca93d4ee40172e0bdf2e229898"))])
  (fuff .
        [(0 1 1 -4 20170202 1503)
 	((seq
@@ -21229,13 +21229,13 @@
 	  ("Natalie Weizenbaum" . "nweiz@google.com"))
 	 (:maintainer "Natalie Weizenbaum" . "nweiz@google.com"))])
  (fussy .
-	[(0 1 1 -4 20220604 1540)
+	[(1 0 1 -4 20220604 1633)
 	 ((emacs
-	   (27 1))
+	   (27 2))
 	  (flx
 	   (0 5)))
 	 "Fuzzy completion style using `flx'" single
-	 ((:commit . "58ebd5443942e2c7ce20c07666498ded11fdde08")
+	 ((:commit . "9aa2bd937a1d319d5036661400d0a7aa3faeeb66")
 	  (:authors
 	   ("James Nguyen" . "james@jojojames.com"))
 	  (:maintainer "James Nguyen" . "james@jojojames.com")
@@ -24505,16 +24505,16 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 8 5 1 -4 20220603 1243)
+       [(3 8 5 1 -4 20220604 950)
 	((helm-core
 	  (3 8 4))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "190d60c25debe7e2fe26578b8fb8204352db1ae9")
+	((:commit . "5e4f624c00e44f31de37b92697b35a1e112ad2fc")
 	 (:authors
-	  ("Thierry Volpiatto" . "thierry.volpiatto@gmail.com"))
-	 (:maintainer "Thierry Volpiatto" . "thierry.volpiatto@gmail.com")
+	  ("Thierry Volpiatto "))
+	 (:maintainer "Thierry Volpiatto ")
 	 (:url . "https://emacs-helm.github.io/helm/"))])
  (helm-ack .
 	   [(0 13 1 -4 20141030 1226)
@@ -24958,16 +24958,16 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 8 5 1 -4 20220603 845)
+	    [(3 8 5 1 -4 20220604 950)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 4)))
 	     "Development files for Helm" tar
-	     ((:commit . "190d60c25debe7e2fe26578b8fb8204352db1ae9")
+	     ((:commit . "5e4f624c00e44f31de37b92697b35a1e112ad2fc")
 	      (:authors
-	       ("Thierry Volpiatto" . "thierry.volpiatto@gmail.com"))
-	      (:maintainer "Thierry Volpiatto" . "thierry.volpiatto@gmail.com")
+	       ("Thierry Volpiatto "))
+	      (:maintainer "Thierry Volpiatto ")
 	      (:url . "https://emacs-helm.github.io/helm/"))])
  (helm-cscope .
 	      [(0 1 1 1 -4 20190615 41)
@@ -32448,11 +32448,11 @@
 		  (:maintainer "Damien Cassou" . "damien@cassou.me")
 		  (:url . "https://gitlab.petton.fr/mpdel/libmpdel"))])
  (ledger-mode .
-	      [(0 1 0 1 -4 20220523 803)
+	      [(0 1 0 1 -4 20220604 1632)
 	       ((emacs
 		 (25 1)))
 	       "Helper code for use with the \"ledger\" command-line tool" tar
-	       ((:commit . "d28a46ab185c9a9123126dc1d2eb4d2e1a1f24be"))])
+	       ((:commit . "1e6ddafa0fdf8f009c35488fdd6d0b0c8485ad34"))])
  (leerzeichen .
 	      [(0 1 0 1 -4 20170422 1313)
 	       nil "Minor mode to display whitespace characters." single
@@ -55038,7 +55038,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "7fe6a7715d43f7cd8554e9eec4b273fcfafab392")
+	  ((:commit . "1a46386cca74772265193647cbf09c5312b73014")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
