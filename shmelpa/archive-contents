@@ -4346,11 +4346,11 @@
 		   (:maintainer "Ryan Pavlik" . "rpavlik@gmail.com")
 		   (:url . "https://github.com/rpav/buffer-buttons"))])
  (buffer-env .
-	     [(0 3 1 -4 20220513 1501)
+	     [(0 3 1 -4 20220606 1011)
 	      ((emacs
 		(27 1)))
 	      "Buffer-local process environments" single
-	      ((:commit . "c76e282125779ea8de522dce899b974b5b343441")
+	      ((:commit . "21766a50525778b6d4310475d445716fbbdfcab9")
 	       (:authors
 		("Augusto Stoffel" . "arstoffel@gmail.com"))
 	       (:maintainer "Augusto Stoffel" . "arstoffel@gmail.com")
@@ -4923,11 +4923,11 @@
 	    (:keywords "convenience" "writing")
 	    (:url . "https://github.com/kisaragi-hiu/cangjie.el"))])
  (cape .
-       [(0 7 1 -4 20220603 1110)
+       [(0 7 1 -4 20220606 1156)
 	((emacs
 	  (27 1)))
 	"Completion At Point Extensions" tar
-	((:commit . "de4532bbce98ac4e10fd6db0e9c14f9c4f2cd91c")
+	((:commit . "d69114e8bd44d08c30b3374f4d7032d73621f1c6")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -5758,7 +5758,7 @@
 	  (sesman
 	   (0 3 2)))
 	 "Clojure Interactive Development Environment that Rocks" tar
-	 ((:commit . "df34f141f32739e3c5657fb85ad6ff23520d44bf")
+	 ((:commit . "c3e939f2d6321a6667d655b23008b1585f13f4d9")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
 	   ("Phil Hagelberg" . "technomancy@gmail.com")
@@ -6473,7 +6473,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "817d88571a65369a7038906e1feff9c830a89ec3"))])
+	      ((:commit . "efe918fdbaded70c7d63f5503948b2ab2a3e8e33"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -8572,13 +8572,13 @@
 		  (:keywords "comment" "coq" "proof")
 		  (:url . "http://github.com/ailrun/coq-commenter"))])
  (corfu-doc .
-	    [(0 7 1 -4 20220605 1717)
+	    [(0 7 1 -4 20220606 1111)
 	     ((emacs
 	       (27 1))
 	      (corfu
 	       (0 25)))
 	     "Documentation popup for Corfu" single
-	     ((:commit . "b5477fd1107cf95e773d1fff44a49881f28bf3eb")
+	     ((:commit . "7f7e25117334c9c13bbc5a925bd0a95a2b0965d8")
 	      (:authors
 	       ("Yuwei Tian" . "ibluefocus@NOSPAM.gmail.com"))
 	      (:maintainer "Yuwei Tian" . "ibluefocus@NOSPAM.gmail.com")
@@ -33765,7 +33765,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20220605 2030)
+	   [(8 0 1 1 -4 20220606 702)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -33781,7 +33781,7 @@
 	     (lv
 	      (0)))
 	    "LSP mode" tar
-	    ((:commit . "700c7932dcff775a7686418e3a15941a36e9baac")
+	    ((:commit . "ae5ef019291a95443f0d9e97bad85f612e6a8e76")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -38504,11 +38504,11 @@
 	(:keywords "node" "nvm")
 	(:url . "http://github.com/rejeep/nvm.el"))])
  (nxml-uxml .
-	    [(0 0 1 -4 20220130 1405)
+	    [(0 0 1 -4 20220606 1213)
 	     ((emacs
 	       (25)))
 	     "MicroXML support for nXML" single
-	     ((:commit . "94440741f7e8b83504d53991f26f63b4855cce27")
+	     ((:commit . "95bbd0018ab218b9f39f5bf1f1e809f60fbc3edc")
 	      (:authors
 	       ("Daphne Preston-Kendal"))
 	      (:maintainer "Daphne Preston-Kendal")
@@ -43325,7 +43325,7 @@
 		   (:maintainer "Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		   (:url . "https://github.com/milkypostman/package-filter"))])
  (package-lint .
-	       [(0 1 -4 20220603 848)
+	       [(0 1 -4 20220606 1210)
 		((cl-lib
 		  (0 5))
 		 (emacs
@@ -43333,7 +43333,7 @@
 		 (let-alist
 		     (1 0 6)))
 		"A linting library for elisp package authors" tar
-		((:commit . "622a5a6e853e5a4c7f2b4c53e2ac0edde354b07c")
+		((:commit . "468b147ee85b4e963eaac46b8e8428fe740997c4")
 		 (:authors
 		  ("Steve Purcell" . "steve@sanityinc.com")
 		  ("Fanael Linithien" . "fanael4@gmail.com"))
@@ -43347,7 +43347,7 @@
 			 (package-lint
 			  (0 5)))
 			"A package-lint Flymake backend" single
-			((:commit . "622a5a6e853e5a4c7f2b4c53e2ac0edde354b07c")
+			((:commit . "468b147ee85b4e963eaac46b8e8428fe740997c4")
 			 (:url . "https://github.com/purcell/package-lint"))])
  (package-loading-notifier .
 			   [(0 3 0 1 -4 20220130 318)
