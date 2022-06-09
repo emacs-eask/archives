@@ -40159,21 +40159,22 @@
 		   (:keywords "convenience" "docs" "tools")
 		   (:url . "https://github.com/smaximov/org-commentary"))])
  (org-contacts .
-	       [(1 0 1 -4 20220604 102)
+	       [(1 0 1 -4 20220609 126)
 		((emacs
-		  (28 1))
+		  (27 1))
 		 (cl-lib
-		  (1 0))
+		  (0 7))
 		 (org
 		  (9 3 4))
 		 (gnus
 		  (5 13)))
-		"Contacts management system for Org Mode." single
-		((:commit . "c1c4cadf3f7890a07d03c531ef823e1fb5f3ef2f")
+		"Contacts management system for Org Mode" single
+		((:commit . "dba21b48952e78e9db27e25628bcfb0353c19b24")
 		 (:authors
 		  ("Julien Danjou" . "julien@danjou.info"))
 		 (:maintainer "stardiviner" . "numbchild@gmail.com")
-		 (:keywords "contacts" "org-mode" "outlines" "hypermedia" "calendar"))])
+		 (:keywords "contacts" "org-mode" "outlines" "hypermedia" "calendar")
+		 (:url . "https://repo.or.cz/org-contacts.git"))])
  (org-context .
 	      [(0 1 1 -4 20210216 1526)
 	       nil "Contextual capture and agenda commands for Org-mode" single
@@ -47091,7 +47092,7 @@
 	      (:keywords "data" "games" "chess")
 	      (:url . "https://github.com/dwcoates/pygn-mode"))])
  (pyim .
-       [(4 2 1 1 -4 20220608 2226)
+       [(4 2 1 1 -4 20220609 43)
 	((emacs
 	  (25 1))
 	 (async
@@ -47099,7 +47100,7 @@
 	 (xr
 	  (1 13)))
 	"A Chinese input method support quanpin, shuangpin, wubi, cangjie and rime." tar
-	((:commit . "b5e70bb176f642e93607d2b11bac801774d28dab")
+	((:commit . "3c426205b05e9addfe97c30a25c0610050000c65")
 	 (:authors
 	  ("Ye Wenbin" . "wenbinye@163.com")
 	  ("Feng Shu" . "tumashu@163.com"))
@@ -55040,7 +55041,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "20ab1771fa2dadf93ccdb7b374d5a39e93dc01f7")
+	  ((:commit . "1fd0b8030c5cef6fc15ad0a3e494149acda151cf")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
