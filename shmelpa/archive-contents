@@ -38833,6 +38833,19 @@
 		 (:maintainer "Fr\303\251d\303\251ric Santos")
 		 (:keywords "languages")
 		 (:url . "https://github.com/frederic-santos/ob-ess-julia"))])
+ (ob-fricas .
+	    [(1 0 1 -4 20220528 1935)
+	     ((emacs
+	       (26 1))
+	      (frimacs
+	       (1 0)))
+	     "A FriCAS backend for Org-Babel" single
+	     ((:commit . "7813f151b4e59c3c175c7117228f0dd70dcc10d7")
+	      (:authors
+	       ("Paul Onions" . "paul.onions@acm.org"))
+	      (:maintainer "Paul Onions" . "paul.onions@acm.org")
+	      (:keywords "fricas" "computer algebra" "extensions" "tools")
+	      (:url . "https://github.com/pdo/frimacs"))])
  (ob-fsharp .
 	    [(0 1 1 -4 20170618 1429)
 	     ((emacs
@@ -40818,11 +40831,11 @@
 		    (:keywords "org-mode" "org" "mobile" "sync" "todo")
 		    (:url . "https://framagit.org/steckerhalter/org-mobile-sync"))])
  (org-modern .
-	     [(0 3 1 -4 20220605 2206)
+	     [(0 3 1 -4 20220611 2149)
 	      ((emacs
 		(27 1)))
 	      "Modern looks for Org" single
-	      ((:commit . "b352680d9ee8c6e6966cc21d595513c3595e3bb7")
+	      ((:commit . "d0f13dc88781f51368c479c83d00753b78f55d46")
 	       (:authors
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
 	       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -47187,7 +47200,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "ca80f03a43bc39e4cc2c67dc99817b3c9f13b8a6")
+	  ((:commit . "50933c5446a367dd29983f7744f574b91c8e5625")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -55043,7 +55056,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "965359e962111d92b9bdab4546f3d6a71169a12b")
+	  ((:commit . "4ad81a2ed618278de4743a562634ae5f4e2fac9c")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
