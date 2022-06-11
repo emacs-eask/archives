@@ -6473,7 +6473,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "1d8554d9338d02e96a586b4d315a749723601a69"))])
+	      ((:commit . "6a9651d8619c4c5ef26ef22c15f1151963769443"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -12242,7 +12242,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "b8d33fd3f56e4ed7035418bc19d596743b8072f8")
+	((:commit . "f2f42ddda7a801409c83c4e7c6c1871bcaf54db1")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -36238,11 +36238,11 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(2 4 1 1 -4 20220605 1714)
+	       [(2 4 1 1 -4 20220611 657)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "6f2b048528d1c40bf5bead0d3e01beff28b78d2b")
+		((:commit . "5d68eda0965caa159630901669a7b8ca42d712e7")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
@@ -47187,7 +47187,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "543ce6de6f022b2f5dcabeef36817610178ffda8")
+	  ((:commit . "2625c341e07f60276dcd2c23a8b47f49f80688a0")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -50012,9 +50012,11 @@
 		    (:keywords "convenience")
 		    (:url . "https://github.com/conao3/scratch-comment.el"))])
  (scratch-ext .
-	      [(0 1 0 1 -4 20220611 11)
-	       nil "Extensions for *scratch*" single
-	       ((:commit . "0471dfa06df400a5e09dc50ae928afa268b3f296")
+	      [(0 1 0 -3 1 -4 20220611 630)
+	       ((emacs
+		 (24 1)))
+	       "Extensions for *scratch*" single
+	       ((:commit . "2782935b3a4a9c1a079159d7e19784cc9f4abbe6")
 		(:authors
 		 ("Kouhei Yanagita" . "yanagi@shakenbu.org"))
 		(:maintainer "Kouhei Yanagita" . "yanagi@shakenbu.org")
@@ -55041,7 +55043,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "713abaaed10b68601176209de1ac20dbda14a073")
+	  ((:commit . "4e26ce0b3d2fe4e4fa6bf2e747ee2bd5390de9fa")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -60005,9 +60007,9 @@
 	     (:keywords "zen" "languages")
 	     (:url . "https://github.com/zenlang/zen-mode"))])
  (zenburn-theme .
-		[(2 8 0 -4 20220527 1800)
+		[(2 8 0 -4 20220611 542)
 		 nil "A low contrast color theme for Emacs." single
-		 ((:commit . "b600814c8ddfe8812582f4ba4b62db817d665860")
+		 ((:commit . "fd10925a3a8c39818a9e353b804ac8b1a847d73a")
 		  (:authors
 		   ("Bozhidar Batsov" . "bozhidar@batsov.com"))
 		  (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.com")
