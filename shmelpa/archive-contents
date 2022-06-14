@@ -4935,7 +4935,7 @@
  (capnp-mode .
 	     [(1 0 0 1 -4 20210707 2310)
 	      nil "Major mode for editing Capn' Proto Files" single
-	      ((:commit . "201e219d8f61e10d4ee0212ccd56ed0fba0ce83d")
+	      ((:commit . "5a8c2c0768e861b66a17abd42f57370eae77f528")
 	       (:authors
 		("Brian Taylor" . "el.wubo@gmail.com"))
 	       (:maintainer "Brian Taylor" . "el.wubo@gmail.com")
@@ -6473,7 +6473,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "b78624fd29b91f748f3edcdaeea997a52691b647"))])
+	      ((:commit . "ca8a5b05de811d6a95cfa7a33a2985f2b193967f"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -11880,15 +11880,15 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(3 3 0 1 -4 20220614 605)
+		[(3 3 0 1 -4 20220614 1731)
 		 ((emacs
 		   (25 1))
+		  (compat
+		   (28 1 1 1))
 		  (shrink-path
-		   (0 2 0))
-		  (dash
-		   (2 11 0)))
+		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "a3d37058771ea1014160deb20452f0f269b65335")
+		 ((:commit . "cb6456a845f0a31508b625e07c3f75feb813b98c")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
@@ -12242,7 +12242,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "1c7412ce4168f83c5cad8cdddd72bc68dad825da")
+	((:commit . "dd2cd6d794e264c39052b1dfe6a41677dc0e3a34")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
