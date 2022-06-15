@@ -11262,11 +11262,11 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 3 21 1 -4 20220615 509)
+	  [(1 3 21 1 -4 20220615 1048)
 	   ((emacs
 	     (27 1)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "96fbfee450f2283a01d58ac8f2f8e700b798b835")
+	   ((:commit . "98afc6fb1e338be879178f6df4f82353df6de455")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -11880,7 +11880,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(3 3 0 1 -4 20220615 817)
+		[(3 3 0 1 -4 20220615 933)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -11888,7 +11888,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "069404fb5c35955fc3241bf76190a38e26a35d5e")
+		 ((:commit . "c0a3b9f3c3c2b9942f9e57d79b5f8d4307653981")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
@@ -15280,7 +15280,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "993e5d282b6474eea2e03bb3f8a77ce19953f278")
+	  ((:commit . "0bcd4f1bdbe177c8849a12bc4256dd2bbe6f5a8f")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -22055,17 +22055,17 @@
 		(:keywords "utility" "git")
 		(:url . "https://github.com/10sr/git-command-el"))])
  (git-commit .
-	     [(3 3 0 -4 20220607 1403)
+	     [(3 3 0 -4 20220615 1159)
 	      ((emacs
 		(25 1))
 	       (compat
-		(28 1 1 0))
+		(28 1 1 2))
 	       (transient
 		(20210920))
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "b79df6dc77f0d3a27361abfb073e2cabe573bb61")
+	      ((:commit . "c1fb53d3de6390961ccd8dfb1cc135383508d0fc")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -24507,13 +24507,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 8 5 1 -4 20220611 757)
+       [(3 8 5 1 -4 20220615 557)
 	((helm-core
 	  (3 8 4))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "aacfb9248a714b40eed2df95991fd30dc91b8d71")
+	((:commit . "ece8a6042da8dad0239055570e45b44d641293ac")
 	 (:authors
 	  ("Thierry Volpiatto "))
 	 (:maintainer "Thierry Volpiatto ")
@@ -24966,7 +24966,7 @@
 	      (async
 	       (1 9 4)))
 	     "Development files for Helm" tar
-	     ((:commit . "aacfb9248a714b40eed2df95991fd30dc91b8d71")
+	     ((:commit . "ece8a6042da8dad0239055570e45b44d641293ac")
 	      (:authors
 	       ("Thierry Volpiatto "))
 	      (:maintainer "Thierry Volpiatto ")
@@ -34255,11 +34255,11 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 -4 20220607 1443)
+	[(3 3 0 -4 20220615 1159)
 	 ((emacs
 	   (25 1))
 	  (compat
-	   (28 1 1 0))
+	   (28 1 1 2))
 	  (dash
 	   (20210826))
 	  (git-commit
@@ -34271,7 +34271,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "b79df6dc77f0d3a27361abfb073e2cabe573bb61")
+	 ((:commit . "c1fb53d3de6390961ccd8dfb1cc135383508d0fc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -34452,17 +34452,17 @@
 	      (:keywords "magit" "git" "lfs" "tools" "vc")
 	      (:url . "https://github.com/ailrun/magit-lfs"))])
  (magit-libgit .
-	       [(3 3 0 -4 20220429 1720)
+	       [(3 3 0 -4 20220615 1159)
 		((emacs
 		  (25 1))
 		 (compat
-		  (28 1 1 0))
+		  (28 1 1 2))
 		 (libgit
 		  (0))
 		 (magit
 		  (20211004)))
 		"(POC) Teach Magit to use Libgit2." tar
-		((:commit . "b79df6dc77f0d3a27361abfb073e2cabe573bb61")
+		((:commit . "c1fb53d3de6390961ccd8dfb1cc135383508d0fc")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -34535,15 +34535,15 @@
 		      (:keywords "magit" "vc")
 		      (:url . "http://github.com/jtamagnan/magit-reviewboard"))])
  (magit-section .
-		[(3 3 0 -4 20220513 1429)
+		[(3 3 0 -4 20220615 1159)
 		 ((emacs
 		   (25 1))
 		  (compat
-		   (28 1 1 0))
+		   (28 1 1 2))
 		  (dash
 		   (20210826)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "b79df6dc77f0d3a27361abfb073e2cabe573bb61")
+		 ((:commit . "c1fb53d3de6390961ccd8dfb1cc135383508d0fc")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -47198,7 +47198,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "fc3d5598e23f01b64786b7686e7878af7fedeb96")
+	  ((:commit . "9069eb48dd310b74ed96beba17c2a53366c5376f")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
