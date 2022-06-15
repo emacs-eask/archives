@@ -32755,7 +32755,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "614378134391d2e2591f9fc1665d7b69e88319bd")
+	     ((:commit . "e999898db732324797547e79c765932a81e85cd6")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
@@ -33535,7 +33535,7 @@
 	(:keywords "python" "lisp")
 	(:url . "https://github.com/abo-abo/lpy"))])
  (lsp-dart .
-	   [(1 22 0 1 -4 20220615 1457)
+	   [(1 22 0 1 -4 20220615 1617)
 	    ((emacs
 	      (26 3))
 	     (lsp-treemacs
@@ -33551,7 +33551,7 @@
 	     (dart-mode
 	      (1 0 5)))
 	    "Dart support lsp-mode" tar
-	    ((:commit . "6bb26feb9c21bed7a3a52c7b35a2a84805233a5e")
+	    ((:commit . "78a6c3e8d1c825a51c72408892b44f5de6bce47b")
 	     (:keywords "languages" "extensions")
 	     (:url . "https://emacs-lsp.github.io/lsp-dart"))])
  (lsp-docker .
@@ -46641,7 +46641,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "772c98984a1a6f3b7e438c144936a8f88c65ee86")
+		 ((:commit . "e04ca460fbdd5aa340156aa8378d61ef04752499")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -47198,7 +47198,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "9069eb48dd310b74ed96beba17c2a53366c5376f")
+	  ((:commit . "1242e910a4e2116162bea778b6462d7c42c88d51")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -54095,13 +54095,11 @@
 		    ("Jonathan Kotta" . "jpkotta@gmail.com"))
 		   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com"))])
  (syntree .
-	  [(0 1 0 1 -4 20220122 2341)
+	  [(1 0 0 1 -4 20220615 1741)
 	   ((emacs
-	     (27 1))
-	    (transient
-	     (0 3 7)))
-	   "Draw plain text constituency trees" single
-	   ((:commit . "45d010b071c32cab4a3a5d336d6c01cde49657f8")
+	     (27 1)))
+	   "Draw plain text constituency trees" tar
+	   ((:commit . "292661cb72c0957b2e87be49bcbc4d34ffa0db6b")
 	    (:authors
 	     ("Enrico Flor" . "enrico@eflor.net"))
 	    (:maintainer "Enrico Flor" . "enrico@eflor.net")
@@ -55054,7 +55052,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "9838639bfa1314c7c2df7027f4fb4685a091c025")
+	  ((:commit . "21f1c1c45e459be59ca141a472340e3632564b45")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
