@@ -42065,7 +42065,7 @@
 		  ((emacs
 		    (27 1)))
 		  "Persistent org tree visibility" single
-		  ((:commit . "a3aef6573d23309f9a6f340b41fa103cca3c79a6")
+		  ((:commit . "8f6e2699197366aa2072a60af958e9dd6f2df950")
 		   (:authors
 		    ("Kyle W T Sherman" . "kylewsherman@gmail.com"))
 		   (:maintainer "Kyle W T Sherman" . "kylewsherman@gmail.com")
@@ -42267,7 +42267,7 @@
 		       nil "Low-contrast green color theme." single
 		       ((:commit . "0ed99a9c0cf14be0a1f491518821f0e9b7e88b88"))])
  (organize-imports-java .
-			[(0 3 0 1 -4 20210715 1155)
+			[(0 3 0 1 -4 20220616 1939)
 			 ((emacs
 			   (25 1))
 			  (f
@@ -42279,10 +42279,11 @@
 			  (ht
 			   (2 2)))
 			 "Automatically organize imports in Java code" tar
-			 ((:commit . "f9347e8d1f7cf770c7a2bc594ccf3f3c730f9b81")
+			 ((:commit . "2d4d1e81f3234cfd5a243b5108339abfcc2eb431")
 			  (:authors
 			   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 			  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+			  (:keywords "organize" "imports" "java" "handy" "eclipse")
 			  (:url . "https://github.com/jcs-elpa/organize-imports-java"))])
  (orgbox .
 	 [(0 5 0 1 -4 20180827 218)
@@ -43803,16 +43804,17 @@
 	      (:keywords "csv")
 	      (:url . "https://github.com/mrc/el-csv"))])
  (parse-it .
-	   [(0 2 1 1 -4 20220214 1531)
+	   [(0 2 1 1 -4 20220616 1940)
 	    ((emacs
 	      (25 1))
 	     (s
 	      (1 12 0)))
 	    "Basic Parser in Emacs Lisp" tar
-	    ((:commit . "079da5e65a5ded0b5ebe7cfe799eac668d7323db")
+	    ((:commit . "9d2f9726341648a264a8d31e4d774a98c77dcf45")
 	     (:authors
 	      ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	     (:keywords "parse" "parser" "lex" "lexer" "ast")
 	     (:url . "https://github.com/jcs-elpa/parse-it"))])
  (parsebib .
 	   [(4 0 1 -4 20220616 1506)
@@ -46332,14 +46334,15 @@
 		      (:keywords "dvorak" "programmer-dvorak" "input-method")
 		      (:url . "https://github.com/yangchenyun/programmer-dvorak"))])
  (project-abbrev .
-		 [(0 0 4 1 -4 20210715 1213)
+		 [(0 0 4 1 -4 20220616 1941)
 		  ((emacs
 		    (25 1)))
 		  "Customize abbreviation expansion in the project" single
-		  ((:commit . "f0f8d70317fb6f505ec2762aa82962322b14a9f0")
+		  ((:commit . "c3e42e32e45c1affc22eb6c1050bef062f42d239")
 		   (:authors
 		    ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		   (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		   (:keywords "abbreviation" "customizable" "shortcut")
 		   (:url . "https://github.com/jcs-elpa/project-abbrev"))])
  (project-explorer .
 		   [(0 15 0 1 -4 20150504 14)
@@ -48945,7 +48948,7 @@
 	    (:keywords "convenience" "buffers")
 	    (:url . "http://www.neilvandyke.org/revbufs/"))])
  (reveal-in-folder .
-		   [(0 1 2 1 -4 20220110 1821)
+		   [(0 1 2 1 -4 20220616 1943)
 		    ((emacs
 		      (24 3))
 		     (f
@@ -48953,10 +48956,11 @@
 		     (s
 		      (1 12 0)))
 		    "Reveal current file in folder" single
-		    ((:commit . "a94de082d8f6a1219532e85f432b4919c175fe9b")
+		    ((:commit . "409f547706456e50226738f41644750559aa5939")
 		     (:authors
 		      ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		     (:keywords "folder" "finder" "reveal" "file" "explorer")
 		     (:url . "https://github.com/jcs-elpa/reveal-in-folder"))])
  (reveal-in-osx-finder .
 		       [(0 3 3 1 -4 20150802 1657)
@@ -50249,7 +50253,7 @@
 		("Tomoya Otake" . "tomoya.ton@gmail.com"))
 	       (:maintainer "Tomoya Otake" . "tomoya.ton@gmail.com"))])
  (searcher .
-	   [(0 4 1 1 -4 20210124 1524)
+	   [(0 4 1 1 -4 20220616 1945)
 	    ((emacs
 	      (25 1))
 	     (dash
@@ -50257,10 +50261,11 @@
 	     (f
 	      (0 20 0)))
 	    "Searcher in pure elisp" single
-	    ((:commit . "2a0e37f818f4486dd624300a8dd77ac1b6d96070")
+	    ((:commit . "94b82e8c942fbf5a3e7f7b6901a29c842984b630")
 	     (:authors
 	      ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	     (:keywords "search" "searcher" "project" "file" "text" "string")
 	     (:url . "https://github.com/jcs-elpa/searcher"))])
  (searchq .
 	  [(20150224 1800 1 -4 20150829 1211)
@@ -51000,14 +51005,15 @@
 	     (:keywords "hypermedia")
 	     (:url . "https://github.com/smmcg/showcss-mode"))])
  (show-eol .
-	   [(0 0 5 1 -4 20210715 1227)
+	   [(0 0 5 1 -4 20220616 1946)
 	    ((emacs
 	      (24 4)))
 	    "Show end of line symbol in buffer" single
-	    ((:commit . "b59e0fcca14dd2d8424d8ba0800da2e35bb52cc7")
+	    ((:commit . "df38d6ad4949579046ac0a8b90afa406c8ae40fa")
 	     (:authors
 	      ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	     (:keywords "end" "eol" "line")
 	     (:url . "https://github.com/jcs-elpa/show-eol"))])
  (show-font-mode .
 		 [(0 1 1 -4 20201225 2217)
@@ -55095,7 +55101,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "6129b7ec42681c41eed868b4b3ebe3fca580af9d")
+	  ((:commit . "01f0fd3730507b007353b562529e6d8b7f1920e9")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -56432,7 +56438,7 @@
 		(:maintainer "DarkSun" . "lujun9972@gmail.com")
 		(:keywords "lisp" "game"))])
  (typit .
-	[(0 2 2 1 -4 20220106 1722)
+	[(0 3 0 1 -4 20220616 2033)
 	 ((emacs
 	   (24 4))
 	  (f
@@ -56440,7 +56446,7 @@
 	  (mmt
 	   (0 1 1)))
 	 "Typing game similar to tests on 10 fast fingers" tar
-	 ((:commit . "61dba759f8178550bc067a360c42ce1089e99a66")
+	 ((:commit . "eb67151f0693103bd7ef09a4a121c0f18b53c395")
 	  (:authors
 	   ("Mark Karpov" . "markkarpov92@gmail.com"))
 	  (:maintainer "Mark Karpov" . "markkarpov92@gmail.com")
@@ -56613,14 +56619,15 @@
 			(:keywords "convenience")
 			(:url . "https://gitlab.com/marcowahl/underline-with-char"))])
  (undersea-theme .
-		 [(0 1 0 1 -4 20200719 618)
+		 [(0 1 0 1 -4 20220616 1950)
 		  ((emacs
 		    (24 3)))
 		  "Theme styled after undersea imagery" single
-		  ((:commit . "1bba7a3d42885a7ce432ca18d3755c40f2af6d27")
+		  ((:commit . "6bc351c4cb49ccc7210801e6b54ecc2993289b92")
 		   (:authors
 		    ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		   (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		   (:keywords "theme" "sea")
 		   (:url . "https://github.com/jcs-elpa/undersea-theme"))])
  (underwater-theme .
 		   [(1 1 0 1 -4 20131118 2)
@@ -57092,14 +57099,15 @@
 	      (:keywords "proxy" "comm")
 	      (:url . "https://github.com/rayw000/use-proxy"))])
  (use-ttf .
-	  [(0 1 3 1 -4 20220220 150)
+	  [(0 1 3 1 -4 20220616 1951)
 	   ((emacs
 	     (24 4)))
 	   "Keep font consistency across different OSs" single
-	   ((:commit . "4cc7a372f035674f4037a0051c125739bc2e3299")
+	   ((:commit . "f60928b2c0057c6e2012d46e2482ceb6ab1f410e")
 	    (:authors
 	     ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	    (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	    (:keywords "customize" "font" "install" "ttf")
 	    (:url . "https://github.com/jcs-elpa/use-ttf"))])
  (utimeclock .
 	     [(0 1 1 -4 20220425 939)
