@@ -1283,14 +1283,15 @@
 	      (:keywords "convenience")
 	      (:url . "https://github.com/remvee/alsamixer-el"))])
  (alt-codes .
-	    [(0 0 5 1 -4 20220212 1526)
+	    [(0 0 5 1 -4 20220616 1852)
 	     ((emacs
 	       (26 1)))
 	     "Insert alt codes using meta key" single
-	     ((:commit . "e79c3762130749b02689d1274adce8b93aac9b7a")
+	     ((:commit . "5c82fe853b2f9a0d7e88762a742e82154b26b5b4")
 	      (:authors
 	       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	      (:keywords "alt" "codes" "insertion" "meta")
 	      (:url . "https://github.com/jcs-elpa/alt-codes"))])
  (amd-mode .
 	   [(2 7 1 -4 20180111 1402)
@@ -2089,24 +2090,26 @@
 		  (:keywords "extensions" "tools")
 		  (:url . "https://github.com/sei40kr/atcoder-tools"))])
  (atl-long-lines .
-		 [(0 2 0 1 -4 20201026 339)
+		 [(0 2 0 1 -4 20220616 1854)
 		  ((emacs
 		    (24 3)))
 		  "Turn off truncate-lines when the line is long" single
-		  ((:commit . "d407daa17e0557f366d485c7c39880d2cd19938a")
+		  ((:commit . "883e7929b28fecea3830530d26f4bad5fe9c27a9")
 		   (:authors
 		    ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		   (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		   (:keywords "truncate" "lines" "auto" "long")
 		   (:url . "https://github.com/jcs-elpa/atl-long-lines"))])
  (atl-markup .
-	     [(0 1 5 1 -4 20210731 609)
+	     [(0 1 5 1 -4 20220616 1854)
 	      ((emacs
 		(24 3)))
 	      "Automatically truncate lines for markup languages" single
-	      ((:commit . "bac60d0c76f0fe48b5f634502c79e87d7ab057b6")
+	      ((:commit . "4f8c6a74d0747bb0c8ff32d491241d84fcf72b44")
 	       (:authors
 		("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	       (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	       (:keywords "automatic" "truncate" "visual" "lines")
 	       (:url . "https://github.com/jcs-elpa/atl-markup"))])
  (atom-dark-theme .
 		  [(0 2 1 -4 20220114 1902)
@@ -2319,7 +2322,7 @@
 		  (cl-lib
 		   (0 5)))
 		 "Auto Completion for GNU Emacs" tar
-		 ((:commit . "72c44902f893bfffe4ff0075e992541d79cfbb5d")
+		 ((:commit . "8f33bc4fecb653d48d70a4902078f9d493eb882f")
 		  (:authors
 		   ("Tomohiro Matsuyama" . "m2ym.pub@gmail.com"))
 		  (:maintainer "Jen-Chieh Shen" . "jcs090218@gmail.com")
@@ -2481,7 +2484,7 @@
 			  (ht
 			   (2 3)))
 			 "Automatic highlighting current symbol minor mode" single
-			 ((:commit . "26ad2261866d19994f8927002dcc53a80540ffd3")
+			 ((:commit . "616c1391646da49aa3b5a6034d0f8d6a987d5e8c")
 			  (:authors
 			   ("Mitsuo Saito" . "arch320@NOSPAM.gmail.com"))
 			  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -2556,14 +2559,15 @@
 		   (:keywords "files" "convenience")
 		   (:url . "https://github.com/zonuexe/auto-read-only.el"))])
  (auto-rename-tag .
-		  [(0 3 5 1 -4 20210805 1344)
+		  [(0 3 5 1 -4 20220616 1856)
 		   ((emacs
 		     (24 4)))
 		   "Automatically rename paired HTML/XML tag" single
-		   ((:commit . "ba5e28cd4ca7515f7d7a8c243f913d571ca976d6")
+		   ((:commit . "b72735a48b460161a2462ee0e57369cb3200792b")
 		    (:authors
 		     ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		    (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		    (:keywords "auto-complete" "html" "rename" "tag" "xml")
 		    (:url . "https://github.com/jcs-elpa/auto-rename-tag"))])
  (auto-save-buffers-enhanced .
 			     [(0 1 0 1 -4 20161109 710)
@@ -3440,14 +3444,15 @@
 		  (:keywords "convenience" "jump" "history" "evil")
 		  (:url . "https://github.com/gilbertw1/better-jumper"))])
  (better-scroll .
-		[(0 1 4 1 -4 20210715 1004)
+		[(0 1 4 1 -4 20220616 1858)
 		 ((emacs
 		   (24 3)))
 		 "Improve user experience when scrolling window" single
-		 ((:commit . "72dae979d4cf33ac1b63c73df337fcc2c2aafd72")
+		 ((:commit . "cf36ae9eb406e23659d2064bbe585da3246838ee")
 		  (:authors
 		   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		  (:keywords "scrolling" "scroll" "window" "better" "improvement")
 		  (:url . "https://github.com/jcs-elpa/better-scroll"))])
  (better-shell .
 	       [(1 2 1 1 -4 20191025 1737)
@@ -4438,14 +4443,15 @@
 		    ("Nicolas Petton" . "nicolas@petton.fr"))
 		   (:maintainer "Nicolas Petton" . "nicolas@petton.fr"))])
  (buffer-wrap .
-	      [(0 1 5 1 -4 20200924 345)
+	      [(0 1 5 1 -4 20220616 1859)
 	       ((emacs
 		 (24 4)))
 	       "Wrap the beginning and the end of buffer" single
-	       ((:commit . "124529e089c7ea70877cfa881e55b3a21f28ffd1")
+	       ((:commit . "ca7a027b3b5f7b1e9755fc083f394762cd217077")
 		(:authors
 		 ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		(:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		(:keywords "buffer" "tool" "wrap")
 		(:url . "https://github.com/jcs-elpa/buffer-wrap"))])
  (bufler .
 	 [(0 3 -1 1 -4 20210907 1145)
@@ -6810,17 +6816,18 @@
 			(:maintainer "Jordon Biondo")
 			(:url . "www.github.com/jordonbiondo/column-enforce-mode"))])
  (com-css-sort .
-	       [(0 0 7 1 -4 20201002 1430)
+	       [(0 0 7 1 -4 20220616 1902)
 		((emacs
 		  (25 1))
 		 (s
 		  (1 12 0)))
 		"Common way of sorting the CSS attributes" single
-		((:commit . "902b30b6577ffd14d8b5169c85249033581c4f1a")
+		((:commit . "f79c7abd780f44c053a66d0a26c2c5ff8ee52089")
 		 (:authors
 		  ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		 (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
-		 (:url . "https://github.com/jcs090218/com-css-sort"))])
+		 (:keywords "common" "css" "handy" "sort" "sorting")
+		 (:url . "https://github.com/jcs-elpa/com-css-sort"))])
  (comb .
        [(0 2 0 1 -4 20201010 1147)
 	((emacs
@@ -7230,7 +7237,7 @@
 		  (:keywords "emoji" "company")
 		  (:url . "https://github.com/dunn/company-emoji.git"))])
  (company-emojify .
-		  [(0 1 0 1 -4 20210718 424)
+		  [(0 1 0 1 -4 20220616 1903)
 		   ((emacs
 		     (26 1))
 		    (company
@@ -7240,10 +7247,11 @@
 		    (ht
 		     (2 0)))
 		   "Company completion for Emojify" single
-		   ((:commit . "464b0a8e877ef2c80180336be4afe0d8c0b4c72d")
+		   ((:commit . "95980b43b9295b91f93a9cfb2bd677afe8214de2")
 		    (:authors
 		     ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		    (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		    (:keywords "emoji" "company" "emojify")
 		    (:url . "https://github.com/jcs-elpa/company-emojify"))])
  (company-erlang .
 		 [(1 0 0 1 -4 20170123 538)
@@ -7287,7 +7295,7 @@
 		(:keywords "convenience" "company" "fuzzy" "flx")
 		(:url . "https://github.com/PythonNut/company-flx"))])
  (company-fuzzy .
-		[(1 4 0 1 -4 20220409 1753)
+		[(1 4 0 1 -4 20220616 1903)
 		 ((emacs
 		   (26 1))
 		  (company
@@ -7297,10 +7305,11 @@
 		  (ht
 		   (2 0)))
 		 "Fuzzy matching for `company-mode'" single
-		 ((:commit . "1f9c92a27bbf50783275a16dd3988666d1ecb023")
+		 ((:commit . "6099c3af5b8bc9373734c243c30c3b1c4848d65d")
 		  (:authors
 		   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		  (:keywords "auto" "auto-complete" "complete" "fuzzy" "matching")
 		  (:url . "https://github.com/jcs-elpa/company-fuzzy"))])
  (company-ghci .
 	       [(0 1 0 1 -4 20190707 311)
@@ -7733,7 +7742,7 @@
 		      (:keywords "company" "popup" "documentation" "quickhelp")
 		      (:url . "https://www.github.com/expez/company-quickhelp"))])
  (company-quickhelp-terminal .
-			     [(0 1 1 1 -4 20210715 1010)
+			     [(0 1 1 1 -4 20220616 1904)
 			      ((emacs
 				(24 4))
 			       (company-quickhelp
@@ -7741,10 +7750,11 @@
 			       (popup
 				(0 5 3)))
 			      "Terminal support for `company-quickhelp'" single
-			      ((:commit . "a34e0d8c7eca37e99c135e4b7fa5aaff8a15f576")
+			      ((:commit . "e7e51f3b5531c0c8a984575143a7610978f87e1e")
 			       (:authors
 				("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 			       (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+			       (:keywords "terminal" "extends" "support" "tip" "help")
 			       (:url . "https://github.com/jcs-elpa/company-quickhelp-terminal"))])
  (company-racer .
 		[(0 1 1 -4 20171205 310)
@@ -9930,7 +9940,7 @@
 	     ((emacs
 	       (26 1)))
 	     "A startup screen extracted from Spacemacs" tar
-	     ((:commit . "970c968adab60047c64d06d9e7d39c9dd09a25a0")
+	     ((:commit . "f4e8ed9f0dd2147d4f076948ff7f6c7333042c91")
 	      (:authors
 	       ("Rakan Al-Hneiti" . "rakan.alhneiti@gmail.com"))
 	      (:maintainer "Jes\303\272s Mart\303\255nez" . "jesusmartinez93@gmail.com")
@@ -9951,16 +9961,17 @@
 			 (:maintainer "Hayato KAJIYAMA" . "kaji1216@gmail.com")
 			 (:url . "https://github.com/hyakt/emacs-dashboard-hackernews"))])
  (dashboard-ls .
-	       [(0 3 0 1 -4 20220326 628)
+	       [(0 3 0 1 -4 20220616 1809)
 		((emacs
 		  (24 3))
 		 (dashboard
 		  (1 2 5)))
 		"Display files/directories in current directory on Dashboard" single
-		((:commit . "cd7c32f972f653a665e64aadf9bb88ed9fc10d5e")
+		((:commit . "ffe42e20f4e001db0de30290b606183e93c77c7b")
 		 (:authors
 		  ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		 (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		 (:keywords "directory" "file" "show" "dashboard")
 		 (:url . "https://github.com/emacs-dashboard/dashboard-ls"))])
  (dashboard-project-status .
 			   [(0 0 1 1 -4 20190202 1354)
@@ -10247,7 +10258,7 @@
      (:keywords "deferred" "async")
      (:url . "https://github.com/kiwanami/emacs-deferred"))])
  (define-it .
-   [(0 2 4 1 -4 20220414 932)
+   [(0 2 4 1 -4 20220616 1906)
     ((emacs
       (25 1))
      (s
@@ -10265,10 +10276,11 @@
      (wiki-summary
       (0 1)))
     "Define, translate, wiki the word" single
-    ((:commit . "749d3fc788cb26032dd30e509596a8988b7b6a7d")
+    ((:commit . "64fdc4096dc760042d128e03ff538ef9ab327e58")
      (:authors
       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+     (:keywords "dictionary" "explanation" "search" "wiki")
      (:url . "https://github.com/jcs-elpa/define-it"))])
  (define-word .
    [(0 1 0 1 -4 20220104 1848)
@@ -10747,14 +10759,15 @@
 	     (:keywords "extensions" "diminish" "minor" "codeprose")
 	     (:url . "https://github.com/myrjola/diminish.el"))])
  (diminish-buffer .
-		  [(0 2 0 1 -4 20220218 1541)
+		  [(0 2 0 1 -4 20220616 1907)
 		   ((emacs
 		     (24 4)))
 		   "Diminish (hide) buffers from buffer-menu" single
-		   ((:commit . "29c33c7636195f12a10b241448df7eb6760536e1")
+		   ((:commit . "3121ea941b1acd1d9d19acddff7b5bb6e4a15f52")
 		    (:authors
 		     ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		    (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		    (:keywords "diminish" "hide" "buffer" "menu")
 		    (:url . "https://github.com/jcs-elpa/diminish-buffer"))])
  (dimmer .
 	 [(0 4 2 1 -4 20211123 1536)
@@ -11790,16 +11803,17 @@
 	   (:keywords "docopt" "tools" "processes")
 	   (:url . "https://github.com/r0man/docopt.el"))])
  (docstr .
-	 [(5 7 0 1 -4 20220608 532)
+	 [(5 7 0 1 -4 20220616 1838)
 	  ((emacs
 	    (27 1))
 	   (s
 	    (1 9 0)))
 	  "A document string minor mode" tar
-	  ((:commit . "0a48429c2d0c2aa1de34ea24d2d3f9c8176519de")
+	  ((:commit . "e63373e8af519823f366aadbdd1521b2408206b7")
 	   (:authors
 	    ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	   (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	   (:keywords "document" "string")
 	   (:url . "https://github.com/emacs-vs/docstr"))])
  (doct .
        [(3 1 8 1 -4 20220529 1851)
@@ -14725,7 +14739,7 @@
 		  (:maintainer "USAMI Kenta" . "tadsan@zonu.me")
 		  (:keywords "emoji" "font" "config"))])
  (emoji-github .
-	       [(0 2 3 1 -4 20200825 425)
+	       [(0 2 3 1 -4 20220616 1908)
 		((emacs
 		  (24 4))
 		 (emojify
@@ -14733,10 +14747,11 @@
 		 (request
 		  (0 3 0)))
 		"Display list of GitHub's emoji.  (cheat sheet)" single
-		((:commit . "f683f95ceae812c77c54d398e0dc02c6da4ae17f")
+		((:commit . "f7b537c6c1e9f1da64e917284368e492290cba1c")
 		 (:authors
 		  ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		 (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		 (:keywords "list" "github" "emoji" "display" "handy")
 		 (:url . "https://github.com/jcs-elpa/emoji-github"))])
  (emoji-recall .
 	       [(0 1 1 -4 20160723 2208)
@@ -15281,7 +15296,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "8e62b1781a8083301aae272162946414d9af4906")
+	  ((:commit . "e2e15969692be5f0aef025915798e34e39f85fd9")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -17815,7 +17830,7 @@
 	  (:maintainer "Christian 'crshd' Brassat" . "christian.brassat@gmail.com")
 	  (:url . "https://github.com/crshd/fetch.el"))])
  (ffmpeg-player .
-		[(0 2 1 1 -4 20200720 1028)
+		[(0 2 1 1 -4 20220616 1910)
 		 ((emacs
 		   (24 4))
 		  (s
@@ -17823,10 +17838,11 @@
 		  (f
 		   (0 20 0)))
 		 "Play video using ffmpeg" single
-		 ((:commit . "cab1b591a541f2a5ee25529572c6895e7f78cc4f")
+		 ((:commit . "52eb1db5108b501399e5796a0f9a8ed4ece23f61")
 		  (:authors
 		   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		  (:keywords "video" "ffmpeg" "buffering" "images")
 		  (:url . "https://github.com/jcs-elpa/ffmpeg-player"))])
  (fic-mode .
 	   [(0 1 0 1 -4 20180603 2035)
@@ -17911,14 +17927,15 @@
 			    (:keywords "convenience")
 			    (:url . "https://github.com/davidshepherd7/fill-function-arguments"))])
  (fill-page .
-	    [(0 3 7 1 -4 20210707 354)
+	    [(0 3 7 1 -4 20220616 1912)
 	     ((emacs
 	       (24 4)))
 	     "Fill buffer so you don't see empty lines at the end" single
-	     ((:commit . "1191c3454c8ae10aafe9ae08e98563948284c677")
+	     ((:commit . "de24ead3f4f5f37d093da14a361e32ba6d792b90")
 	      (:authors
 	       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	      (:keywords "fill" "page" "buffer")
 	      (:url . "https://github.com/jcs-elpa/fill-page"))])
  (fillcode .
 	   [(1 0 1 1 -4 20200524 2226)
@@ -19238,17 +19255,18 @@
 		     ("Elric Milon" . "whirm_REMOVETHIS__@gmx.com"))
 		    (:maintainer "Elric Milon" . "whirm_REMOVETHIS__@gmx.com"))])
  (flycheck-languagetool .
-			[(0 3 0 1 -4 20220402 1703)
+			[(0 3 0 1 -4 20220616 1824)
 			 ((emacs
 			   (25 1))
 			  (flycheck
 			   (0 14)))
 			 "Flycheck support for LanguageTool" single
-			 ((:commit . "e866e3ac1bea1ef7078a6aa926abbee9ca598e5b")
+			 ((:commit . "b55d1073c634d87c1111cea78d7a6e979576ae9d")
 			  (:authors
 			   ("Shen, Jen-Chieh" . "jcs090218@gmail.com")
 			   ("Peter Oliver" . "git@mavit.org.uk"))
 			  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+			  (:keywords "grammar" "check")
 			  (:url . "https://github.com/emacs-languagetool/flycheck-languagetool"))])
  (flycheck-ledger .
 		  [(0 1 0 1 -4 20200304 2204)
@@ -19910,7 +19928,7 @@
 		  ((flymake
 		    (0 3)))
 		  "Show flymake messages in the minibuffer after delay" single
-		  ((:commit . "99fcfbd002dbfd99ab66910265507bf767f52ce6")
+		  ((:commit . "d3c632f26a2d13fb288252c288faaf8107b3d86a")
 		   (:authors
 		    ("Unknown Original Author")
 		    ("Dino Chiesa" . "dpchiesa@hotmail.com")
@@ -20138,13 +20156,14 @@
 		   (:keywords "languages" "ktlint")
 		   (:url . "https://github.com/jojojames/flymake-ktlint"))])
  (flymake-languagetool .
-		       [(0 2 0 1 -4 20220512 2355)
+		       [(0 2 0 1 -4 20220616 1825)
 			((emacs
 			  (27 1))
 			 (s
 			  (1 9 0)))
 			"Flymake support for LanguageTool" single
-			((:commit . "5f9eef8fe3f342f17593e0caeaba906ba7cab24a")
+			((:commit . "1cf308fb93f805e5f165fd2eaebfc30aada2d255")
+			 (:keywords "grammar" "check")
 			 (:url . "https://github.com/emacs-languagetool/flymake-languagetool"))])
  (flymake-less .
 	       [(0 1 0 1 -4 20151111 738)
@@ -20218,7 +20237,7 @@
 		 ((flymake-easy
 		   (0 9)))
 		 "making flymake work with PHP CodeSniffer" single
-		 ((:commit . "abee6b8f50a631e5bc52499b938fcfd88f958a44")
+		 ((:commit . "1c57813235fb4b1561cadc94b44635b2b612b874")
 		  (:authors
 		   ("Akiha Senda"))
 		  (:maintainer "Akiha Senda")
@@ -20715,7 +20734,7 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 1 -4 20220613 2038)
+	[(0 1 -4 20220615 1440)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -20739,7 +20758,7 @@
 	  (yaml
 	   (0 3 5)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "fa77ed0771e2565b4fb4223730da1dc13ed56950")
+	 ((:commit . "4e3173859174e8a319b174b5e37c5d37c9daf6e0")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -23462,14 +23481,15 @@
 		 (:maintainer "Vasilij Schneidermann" . "mail@vasilij.de")
 		 (:url . "https://depp.brause.cc/gotham-theme"))])
  (goto-char-preview .
-		    [(0 1 0 1 -4 20220611 915)
+		    [(0 1 0 1 -4 20220616 1840)
 		     ((emacs
 		       (24 3)))
 		     "Preview character when executing `goto-char` command" single
-		     ((:commit . "82f92b87a122528ac994bc05d86a3622c324b9ff")
+		     ((:commit . "41f63f6bbce6d60b45b2e06dee33bd98762ba4b7")
 		      (:authors
 		       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		      (:keywords "character" "navigation")
 		      (:url . "https://github.com/emacs-vs/goto-char-preview"))])
  (goto-chg .
 	   [(1 7 5 1 -4 20220107 1733)
@@ -23503,14 +23523,15 @@
 		    (:keywords "convenience")
 		    (:url . "https://github.com/manuel-uberti/goto-last-point"))])
  (goto-line-preview .
-		    [(0 1 1 1 -4 20220611 915)
+		    [(0 1 1 1 -4 20220616 1841)
 		     ((emacs
 		       (25)))
 		     "Preview line when executing `goto-line` command" single
-		     ((:commit . "139f58d31323c2b1169e4b85d9f10efc13872417")
+		     ((:commit . "5635aee9d2b99d2d1fa8dc563407ae82a7f85357")
 		      (:authors
 		       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		      (:keywords "line" "navigation")
 		      (:url . "https://github.com/emacs-vs/goto-line-preview"))])
  (govc .
        [(0 18 0 1 -4 20220509 1455)
@@ -25255,16 +25276,17 @@
 	      (:keywords "helm" "exwm")
 	      (:url . "https://github.com/emacs-helm/helm-exwm"))])
  (helm-file-preview .
-		    [(0 1 5 1 -4 20200927 528)
+		    [(0 1 5 1 -4 20220616 1922)
 		     ((emacs
 		       (25 1))
 		      (helm
 		       (2 0)))
 		     "Preview the current helm file selection" single
-		     ((:commit . "5814015490c4540a5779168511d596022c6ebb44")
+		     ((:commit . "afea198720a9686de40421fe92f5c3b52c152bce")
 		      (:authors
 		       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		      (:keywords "file" "helm" "preview" "select" "selection")
 		      (:url . "https://github.com/jcs-elpa/helm-file-preview"))])
  (helm-filesets .
 		[(0 1 1 -4 20140929 1835)
@@ -25394,7 +25416,7 @@
 		 (:keywords "convenience" "helm" "fuzzy")
 		 (:url . "http://github.com/EphramPerdition/helm-fuzzier"))])
  (helm-fuzzy .
-	     [(0 1 6 1 -4 20200927 532)
+	     [(0 1 6 1 -4 20220616 1922)
 	      ((emacs
 		(24 4))
 	       (helm
@@ -25402,10 +25424,11 @@
 	       (flx
 		(0 5)))
 	      "Fuzzy matching for helm source" single
-	      ((:commit . "99bb20cd7ec89ac1e2ae6eaecd9ac4b30f570bee")
+	      ((:commit . "718b39baa13bc9712657d987b17f49e8767c968f")
 	       (:authors
 		("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	       (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	       (:keywords "fuzzy" "helm" "matching" "source")
 	       (:url . "https://github.com/jcs-elpa/helm-fuzzy"))])
  (helm-fuzzy-find .
 		  [(0 2 1 -4 20171106 400)
@@ -27815,11 +27838,11 @@
 	    (:keywords "hypermedia" "extensions")
 	    (:url . "https://github.com/hniksic/emacs-htmlize"))])
  (htmltagwrap .
-	      [(0 0 3 1 -4 20200929 559)
+	      [(0 0 3 1 -4 20220616 1923)
 	       ((emacs
 		 (24 4)))
 	       "Wraps a chunk of HTML code in tags" single
-	       ((:commit . "1bacc5a6348e29ab506cd530e2ebb7348caf77fd")
+	       ((:commit . "b774aada76262c327bc7031e2018847d668b86d9")
 		(:authors
 		 ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		(:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -28682,16 +28705,17 @@
 		   (:maintainer "Brian Taylor" . "el.wubo@gmail.com")
 		   (:url . "https://github.com/netguy204/imp.el"))])
  (impatient-showdown .
-		     [(0 1 2 1 -4 20200914 221)
+		     [(0 1 2 1 -4 20220616 1924)
 		      ((emacs
 			(24 3))
 		       (impatient-mode
 			(1 1)))
 		      "Preview markdown buffer live over HTTP using showdown" tar
-		      ((:commit . "832e6725d4b95b2f00ff8be94cd75dc3cc873ca4")
+		      ((:commit . "5d53a79a3856bead68eaf1f53f91c6654016ca9a")
 		       (:authors
 			("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		       (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		       (:keywords "live" "preview" "markdown" "http" "server" "impatient")
 		       (:url . "https://github.com/jcs-elpa/impatient-showdown"))])
  (import-js .
 	    [(1 0 0 1 -4 20220215 1948)
@@ -28745,14 +28769,15 @@
 	      (:keywords "tools")
 	      (:url . "https://github.com/flashcode/impostman"))])
  (indent-control .
-		 [(0 3 4 1 -4 20220227 653)
+		 [(0 3 4 1 -4 20220616 1926)
 		  ((emacs
 		    (26 1)))
 		  "Management for indentation level" single
-		  ((:commit . "e04850bb05a816395a92c69b7ad7cd32d33eb62a")
+		  ((:commit . "3320464be9d6d8ddf09afd57da5d0bf4d26da671")
 		   (:authors
 		    ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		   (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		   (:keywords "control" "indent" "tab" "generic" "level")
 		   (:url . "https://github.com/jcs-elpa/indent-control"))])
  (indent-guide .
 	       [(2 3 1 1 -4 20210115 400)
@@ -29365,16 +29390,17 @@
 		    (:keywords "dabbrev" "isearch")
 		    (:url . "https://github.com/Dewdrops/isearch-dabbrev"))])
  (isearch-project .
-		  [(0 2 6 1 -4 20210715 1041)
+		  [(0 2 6 1 -4 20220616 1926)
 		   ((emacs
 		     (26 1))
 		    (f
 		     (0 20 0)))
 		   "Incremental search through the whole project" single
-		   ((:commit . "85efbf0c1c651a94062fa820faf48f7bc8d4f8af")
+		   ((:commit . "0c865b6220c7382412f5be078a2bfee856019e7c")
 		    (:authors
 		     ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		    (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		    (:keywords "convenience" "search")
 		    (:url . "https://github.com/jcs-elpa/isearch-project"))])
  (isearch-symbol-at-point .
 			  [(0 1 0 1 -4 20130728 2221)
@@ -29647,7 +29673,7 @@
 		 (:keywords "convenience" "files" "matching")
 		 (:url . "https://github.com/clemera/ivy-explorer"))])
  (ivy-file-preview .
-		   [(0 4 5 1 -4 20210124 1639)
+		   [(0 4 5 1 -4 20220616 1927)
 		    ((emacs
 		      (25 1))
 		     (ivy
@@ -29657,10 +29683,11 @@
 		     (f
 		      (0 20 0)))
 		    "Preview the current ivy file selection" single
-		    ((:commit . "bb576866d81ee4ee428c8d56663d3e30edf57998")
+		    ((:commit . "8c762b215360514e41e9ddffdcd15d2210e05d55")
 		     (:authors
 		      ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		     (:keywords "file" "ivy" "swiper" "preview" "select" "selection")
 		     (:url . "https://github.com/jcs-elpa/ivy-file-preview"))])
  (ivy-fuz .
 	  [(1 0 0 1 -4 20191222 946)
@@ -29889,7 +29916,7 @@
 	      (:maintainer "Jan Erik Hanssen" . "jhanssen@gmail.com")
 	      (:url . "https://github.com/Andersbakken/rtags"))])
  (ivy-searcher .
-	       [(0 3 10 1 -4 20210221 923)
+	       [(0 3 10 1 -4 20220616 1928)
 		((emacs
 		  (25 1))
 		 (ivy
@@ -29901,10 +29928,11 @@
 		 (f
 		  (0 20 0)))
 		"Ivy interface to use searcher" single
-		((:commit . "22867f0987b77e2cba0d251b62f5bd6324cc366f")
+		((:commit . "6105db64440b8f23bffff7d2aad099a7c9bfe56b")
 		 (:authors
 		  ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		 (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		 (:keywords "ivy" "interface" "searcher" "search" "replace" "grep" "ag" "rg")
 		 (:url . "https://github.com/jcs-elpa/ivy-searcher"))])
  (ivy-spotify .
 	      [(0 1 1 -4 20210329 312)
@@ -32456,11 +32484,11 @@
 		  (:maintainer "Damien Cassou" . "damien@cassou.me")
 		  (:url . "https://gitlab.petton.fr/mpdel/libmpdel"))])
  (ledger-mode .
-	      [(0 1 0 1 -4 20220604 1632)
+	      [(0 1 0 1 -4 20220616 1902)
 	       ((emacs
 		 (25 1)))
 	       "Helper code for use with the \"ledger\" command-line tool" tar
-	       ((:commit . "1e6ddafa0fdf8f009c35488fdd6d0b0c8485ad34"))])
+	       ((:commit . "13d5b4802c447f0cd798b7fd23aba837b8b4b678"))])
  (leerzeichen .
 	      [(0 1 0 1 -4 20170422 1313)
 	       nil "Minor mode to display whitespace characters." single
@@ -32739,16 +32767,17 @@
 		     (:keywords "tools")
 		     (:url . "https://github.com/sei40kr/license-snippets"))])
  (license-templates .
-		    [(0 1 3 1 -4 20200906 2047)
+		    [(0 1 3 1 -4 20220616 1929)
 		     ((emacs
 		       (24 3))
 		      (request
 		       (0 3 0)))
 		     "Create LICENSE using GitHub API" single
-		     ((:commit . "053e7f6517b20d5c9c93952428bd7d98a2700722")
+		     ((:commit . "72148a9343a6861ca2acf467913e169b57bd3e7c")
 		      (:authors
 		       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		      (:keywords "license" "api" "template")
 		      (:url . "https://github.com/jcs-elpa/license-templates"))])
  (light-soap-theme .
 		   [(0 1 1 -4 20150607 1445)
@@ -32768,7 +32797,7 @@
 	      (:keywords "languages")
 	      (:url . "https://gitlab.com/ligolang/ligo/-/tree/dev/tools/emacs"))])
  (line-reminder .
-		[(0 5 1 1 -4 20220502 1210)
+		[(0 5 1 1 -4 20220616 1842)
 		 ((emacs
 		   (25 1))
 		  (indicators
@@ -32780,10 +32809,11 @@
 		  (ht
 		   (2 0)))
 		 "Line annotation for changed and saved lines" single
-		 ((:commit . "e8fe451f1c22ad2f90c82da42b4da73d5152d835")
+		 ((:commit . "30c151fdd5ac1cf172f354a050fcae131367e61c")
 		  (:authors
 		   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		  (:keywords "annotation" "line" "number" "linum" "reminder" "highlight" "display")
 		  (:url . "https://github.com/emacs-vs/line-reminder"))])
  (line-up-words .
 		[(1 0 1 -4 20180219 1024)
@@ -32888,14 +32918,15 @@
 		  ("Ranjit Jhala" . "jhala@cs.ucsd.edu"))
 		 (:maintainer "Ranjit Jhala" . "jhala@cs.ucsd.edu"))])
  (liquidmetal .
-	      [(1 3 0 1 -4 20211004 1429)
+	      [(1 3 0 1 -4 20220616 1931)
 	       ((emacs
 		 (24 4)))
 	       "A mimetic poly-alloy of the Quicksilver scoring algorithm" single
-	       ((:commit . "13738280c854654b8118f90c9ab1a6a74410f0c4")
+	       ((:commit . "be2d76e8d2f5210b6ab11786004f870ad3c9cf3d")
 		(:authors
 		 ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		(:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		(:keywords "fuzzy" "matching")
 		(:url . "https://github.com/jcs-elpa/liquidmetal"))])
  (liso-theme .
 	     [(2 1 1 -4 20160410 2029)
@@ -33363,7 +33394,7 @@
 	   (:maintainer "Yann Hodique" . "yann.hodique@gmail.com")
 	   (:keywords "lisp" "extensions"))])
  (logms .
-	[(0 3 1 1 -4 20210721 349)
+	[(0 3 1 1 -4 20220616 1932)
 	 ((emacs
 	   (27 1))
 	  (f
@@ -33373,10 +33404,11 @@
 	  (ht
 	   (2 3)))
 	 "Log message with clickable links to context" single
-	 ((:commit . "f9addea83793b771b3a61d167ed5419749a349c1")
+	 ((:commit . "607d7955c9792fdedcad0746a99a3ac3034b7bda")
 	  (:authors
 	   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	  (:keywords "debug" "log")
 	  (:url . "https://github.com/jcs-elpa/logms"))])
  (lognav-mode .
 	      [(0 0 9 1 -4 20220410 1344)
@@ -34852,16 +34884,17 @@
 		      (:keywords "tools" "minor-mode" "manage" "emacs")
 		      (:url . "https://github.com/ShingoFukuyama/manage-minor-mode"))])
  (manage-minor-mode-table .
-			  [(0 1 3 1 -4 20200717 809)
+			  [(0 1 3 1 -4 20220616 1932)
 			   ((emacs
 			     (25 1))
 			    (manage-minor-mode
 			     (1 1)))
 			   "Manage minor-modes in table" single
-			   ((:commit . "884aca19bd6affec69c58cbfcac46bab4cd87bde")
+			   ((:commit . "e47d0e1856f0a9eb9935abdaf6e14e67ef2ab4cc")
 			    (:authors
 			     ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 			    (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+			    (:keywords "tools" "minor-mode" "manage")
 			    (:url . "https://github.com/jcs-elpa/manage-minor-mode-table"))])
  (mandm-theme .
 	      [(20141112 923 1 -4 20220426 1131)
@@ -35103,14 +35136,15 @@
 		     (:keywords "lisp")
 		     (:url . "https://github.com/nicferrier/emacs-marmalade-upload"))])
  (marquee-header .
-		 [(0 0 9 1 -4 20200720 1034)
+		 [(0 0 9 1 -4 20220616 1933)
 		  ((emacs
 		    (25 1)))
 		  "Code interface for displaying marquee in header" single
-		  ((:commit . "5e8518a5f89c19d4aa9d7146cfdb213194d24e5d")
+		  ((:commit . "60689828402f5d5c8cb20628d3caa647893a443b")
 		   (:authors
 		    ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		   (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		   (:keywords "animation" "header" "interface" "library" "marquee")
 		   (:url . "https://github.com/jcs-elpa/marquee-header"))])
  (marshal .
 	  [(0 9 1 1 -4 20201223 1853)
