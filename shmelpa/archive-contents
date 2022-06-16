@@ -12601,13 +12601,13 @@
 	(:maintainer "Alexey Kutepov" . "reximkut@gmail.com")
 	(:url . "http://github.com/rexim/ebf"))])
  (ebib .
-       [(2 36 1 -4 20220613 1915)
+       [(2 37 1 -4 20220616 1517)
 	((parsebib
-	  (2 3))
+	  (4 0))
 	 (emacs
 	  (26 1)))
 	"a BibTeX database manager" tar
-	((:commit . "8be19a2eb48898a75a8cc68aa8d0a0df8d02154e")
+	((:commit . "9afe139ee03ccd4c9fd5c2882ea4fff9d57f725d")
 	 (:authors
 	  ("Joost Kremers" . "joostkremers@fastmail.fm"))
 	 (:maintainer "Joost Kremers" . "joostkremers@fastmail.fm")
@@ -19003,11 +19003,11 @@
 			  (:keywords "convenience" "tools" "go")
 			  (:url . "https://github.com/favadi/flycheck-gometalinter"))])
  (flycheck-google-cpplint .
-			  [(1 0 2 1 -4 20210210 300)
+			  [(1 0 2 1 -4 20220616 1802)
 			   ((flycheck
 			     (0 20 -4 1)))
 			   "Help to comply with the Google C++ Style Guide" single
-			   ((:commit . "71109b55b3809b8e3be827cec1b61914adf6b45b")
+			   ((:commit . "93c5b26ec55d0df54bc230e2de0890fe074f35d3")
 			    (:authors
 			     ("Akiha Senda" . "senda.akiha@gmail.com"))
 			    (:maintainer "Jen-Chieh Shen" . "jcs090218@gmail.com")
@@ -19039,7 +19039,7 @@
 			 (:keywords "i18n" "text")
 			 (:url . "https://git.umaneti.net/flycheck-grammalecte/"))])
  (flycheck-grammarly .
-		     [(0 2 3 1 -4 20220228 731)
+		     [(0 2 3 1 -4 20220616 1742)
 		      ((emacs
 			(25 1))
 		       (flycheck
@@ -19049,10 +19049,11 @@
 		       (s
 			(1 12 0)))
 		      "Grammarly support for Flycheck" single
-		      ((:commit . "46584fee0a8e72c2b1687f4a4ec45feb1bcb1607")
+		      ((:commit . "d907959a66eca263a6af061f9c0ea0af57e2c1b4")
 		       (:authors
 			("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		       (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		       (:keywords "grammar" "check")
 		       (:url . "https://github.com/emacs-grammarly/flycheck-grammarly"))])
  (flycheck-guile .
 		 [(0 1 1 -4 20201202 509)
@@ -20020,7 +20021,7 @@
 		   (:keywords "languages" "gradle")
 		   (:url . "https://github.com/jojojames/flymake-gradle"))])
  (flymake-grammarly .
-		    [(0 2 1 1 -4 20220222 638)
+		    [(0 2 1 1 -4 20220616 1743)
 		     ((emacs
 		       (26 1))
 		      (grammarly
@@ -20028,10 +20029,11 @@
 		      (s
 		       (1 12 0)))
 		     "Flymake support for Grammarly" single
-		     ((:commit . "2c5711952922358ea9ca9a7351eb45588238f661")
+		     ((:commit . "0c35eef96dbf0f179e3c6b82b7af187882f0f449")
 		      (:authors
 		       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		      (:keywords "grammar" "check")
 		      (:url . "https://github.com/emacs-grammarly/flymake-grammarly"))])
  (flymake-hadolint .
 		   [(0 0 1 1 -4 20220328 823)
@@ -21172,7 +21174,7 @@
 	 (emacs
 	  (24 2)))
 	"Major mode for the Factor programming language." tar
-	((:commit . "631610a8e164447b51d1fa94081c06a39494f059"))])
+	((:commit . "e08095c84bd647b43e8fe56a52b85fb7ea065394"))])
  (fuff .
        [(0 1 1 -4 20170202 1503)
 	((seq
@@ -21270,7 +21272,7 @@
 	 ((emacs
 	   (24 3)))
 	 "Fuzzy Matching" single
-	 ((:commit . "bfba20e435a6f5bba328309a8a5ca20dea7a301d")
+	 ((:commit . "74867a4c991b98cf636ff1a2b81c2a6b41ebbcb9")
 	  (:authors
 	   ("Tomohiro Matsuyama" . "m2ym.pub@gmail.com"))
 	  (:maintainer "Tomohiro Matsuyama" . "m2ym.pub@gmail.com")
@@ -23612,7 +23614,7 @@
 			   (:keywords "grails" "projectile")
 			   (:url . "https://github.com/yveszoundi/grails-projectile-mode"))])
  (grammarly .
-	    [(0 3 0 1 -4 20220509 1937)
+	    [(0 3 0 1 -4 20220616 1745)
 	     ((emacs
 	       (26 1))
 	      (s
@@ -23622,10 +23624,11 @@
 	      (websocket
 	       (1 6)))
 	     "Grammarly API interface" single
-	     ((:commit . "37d4d7d068c51afefebd58dfa6021662c9c64cf1")
+	     ((:commit . "b36633904d5180baba073685bc6f169dd20b0796")
 	      (:authors
 	       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	      (:keywords "grammar" "api" "interface" "english")
 	      (:url . "https://github.com/emacs-grammarly/grammarly"))])
  (grandshell-theme .
 		   [(0 1 0 1 -4 20180606 517)
@@ -26517,7 +26520,7 @@
 	      (:keywords "sage" "math" "helm")
 	      (:url . "https://github.com/stakemori/helm-sage"))])
  (helm-searcher .
-		[(0 2 5 1 -4 20210221 923)
+		[(0 2 5 1 -4 20220616 1804)
 		 ((emacs
 		   (25 1))
 		  (helm
@@ -26529,10 +26532,11 @@
 		  (f
 		   (0 20 0)))
 		 "Helm interface to use searcher" single
-		 ((:commit . "6409eef130d3561e024813f3af82a61f73c9ae5b")
+		 ((:commit . "2952ed7d743e7728efbf2d4a9f091717851dcab7")
 		  (:authors
 		   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		  (:keywords "helm" "interface" "searcher" "search" "replace" "grep" "ag" "rg")
 		  (:url . "https://github.com/emacs-helm/helm-searcher"))])
  (helm-selected .
 		[(0 9 1 1 -4 20171223 210)
@@ -31505,14 +31509,15 @@
 	    (:keywords "convenience")
 	    (:url . "http://github.com/hardenedapple/keyswap.el"))])
  (keytar .
-	 [(0 1 2 1 -4 20220222 639)
+	 [(0 1 2 1 -4 20220616 1746)
 	  ((emacs
 	    (24 4)))
 	  "Emacs Lisp interface for node-keytar" single
-	  ((:commit . "468b528add57e15c2413c8984937fb428fb257f3")
+	  ((:commit . "798d5d9a8d34f229856152b71624be0be270fbf3")
 	   (:authors
 	    ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	   (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	   (:keywords "keytar" "password" "credential" "secret" "security")
 	   (:url . "https://github.com/emacs-grammarly/keytar"))])
  (keyword-search .
 		 [(0 2 1 1 -4 20180424 1102)
@@ -33592,7 +33597,7 @@
 	      (:keywords "languages" "lsp-mode")
 	      (:url . "https://github.com/emacs-lsp/lsp-focus"))])
  (lsp-grammarly .
-		[(0 3 0 1 -4 20220530 2101)
+		[(0 3 0 1 -4 20220616 1747)
 		 ((emacs
 		   (27 1))
 		  (lsp-mode
@@ -33606,10 +33611,11 @@
 		  (ht
 		   (2 3)))
 		 "LSP Clients for Grammarly" single
-		 ((:commit . "d56ca607cd597e622969c91a78ec74e463260b32")
+		 ((:commit . "602ffd9b542ccce7d295fd0f96fed7ce9c02e7cb")
 		  (:authors
 		   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		  (:keywords "lsp" "grammarly" "checker")
 		  (:url . "https://github.com/emacs-grammarly/lsp-grammarly"))])
  (lsp-haskell .
 	      [(1 0 1 -4 20220307 2312)
@@ -33728,16 +33734,17 @@
 	      (:keywords "languages" "tex")
 	      (:url . "https://github.com/ROCKTAKEY/lsp-latex"))])
  (lsp-ltex .
-	   [(0 2 1 1 -4 20220508 533)
+	   [(0 2 1 1 -4 20220616 1827)
 	    ((emacs
 	      (26 1))
 	     (lsp-mode
 	      (6 1)))
 	    "LSP Clients for LTEX" single
-	    ((:commit . "8a133cee26ea8c69831817295136c985039f19ce")
+	    ((:commit . "4d644f768065d54343b7e140ec98078b63ead884")
 	     (:authors
 	      ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	     (:keywords "lsp" "languagetool" "checker")
 	     (:url . "https://github.com/emacs-languagetool/lsp-ltex"))])
  (lsp-metals .
 	     [(1 0 0 1 -4 20220510 1457)
