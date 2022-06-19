@@ -12257,7 +12257,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "b3232b22e13ff2fe4db994ba7ae3db727d1493cd")
+	((:commit . "647ba82c612f97308322570b79e1ed8f136e3fa2")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -13104,7 +13104,7 @@
 		 (jsonrpc
 		  (1 0 14)))
 		"fsharp-mode eglot integration" single
-		((:commit . "03fc1f48ed3cb69e53e815791abdd196640f72d5")
+		((:commit . "20ca755fc6f695e5502109e816ad1f513131dea0")
 		 (:authors
 		  ("J\303\274rgen H\303\266tzel" . "juergen@hoetzel.info"))
 		 (:maintainer "J\303\274rgen H\303\266tzel" . "juergen@hoetzel.info")
@@ -29177,6 +29177,17 @@
 		   (:maintainer "Philip Kaludercic" . "~pkal/public-inbox@lists.sr.ht")
 		   (:keywords "wp")
 		   (:url . "https://git.sr.ht/~pkal/insert-kaomoji"))])
+ (insert-random .
+		[(0 1 0 1 -4 20220607 1542)
+		 ((emacs
+		   (24 5)))
+		 "Insert random characters from various character sets" single
+		 ((:commit . "62d9a9981f37964ba34380a78e3aae73a1009a8f")
+		  (:authors
+		   ("Lassi Kortela" . "lassi@lassi.io"))
+		  (:maintainer "Lassi Kortela" . "lassi@lassi.io")
+		  (:keywords "convenience")
+		  (:url . "https://github.com/lassik/emacs-insert-random"))])
  (insert-shebang .
 		 [(0 9 7 1 -4 20201203 1648)
 		  nil "Insert shebang line automatically." single
@@ -40825,6 +40836,22 @@
 		     (:maintainer "Derek Feichtinger" . "dfeich@gmail.com")
 		     (:keywords "convenience")
 		     (:url . "https://github.com/dfeich/org-listcruncher"))])
+ (org-mac-link .
+	       [(1 9 1 -4 20220616 2340)
+		((emacs
+		  (27 1)))
+		"Insert org-mode links to items selected in various Mac apps" single
+		((:commit . "0b18c1d070b9601cc65c40e902169e367e4348c9")
+		 (:authors
+		  ("Anthony Lander" . "anthony.lander@gmail.com")
+		  ("John Wiegley" . "johnw@gnu.org")
+		  ("Christopher Suckling <suckling at gmail dot com>")
+		  ("Daniil Frumin" . "difrumin@gmail.com")
+		  ("Alan Schmitt" . "alan.schmitt@polytechnique.org")
+		  ("Mike McLean" . "mike.mclean@pobox.com"))
+		 (:maintainer "Aim\303\251 Bertrand" . "aime.bertrand@macowners.club")
+		 (:keywords "files" "wp" "url" "org")
+		 (:url . "https://gitlab.com/aimebertrand/org-mac-link"))])
  (org-make-toc .
 	       [(0 5 1 -4 20200409 1436)
 		((emacs
@@ -60211,19 +60238,19 @@
 	       (:keywords "deft" "zettelkasten" "zetteldeft" "wp" "files")
 	       (:url . "https://efls.github.io/zetteldeft/"))])
  (zetteldesk .
-	     [(1 0 1 1 -4 20220528 1904)
+	     [(1 0 1 1 -4 20220619 2028)
 	      ((emacs
 		(27 1))
 	       (org-roam
 		(2 0)))
 	      "A revision and outlining tool for org-roam" single
-	      ((:commit . "55e3bc272774d6f4e1ab6c1250024e1d0b4dabd2")
+	      ((:commit . "559b9c170aad80e759f68a2739c9c8b6c6448f84")
 	       (:authors
 		("Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com"))
 	       (:maintainer "Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com")
 	       (:url . "https://github.com/Vidianos-Giannitsis/zetteldesk.el"))])
  (zetteldesk-kb .
-		[(0 3 1 -4 20220530 2045)
+		[(0 3 1 -4 20220619 2028)
 		 ((zetteldesk
 		   (1 0 1))
 		  (hydra
@@ -60233,11 +60260,25 @@
 		  (emacs
 		   (24 1)))
 		 "Keybindings for zetteldesk.el" single
-		 ((:commit . "55e3bc272774d6f4e1ab6c1250024e1d0b4dabd2")
+		 ((:commit . "559b9c170aad80e759f68a2739c9c8b6c6448f84")
 		  (:authors
 		   ("Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com"))
 		  (:maintainer "Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com")
 		  (:url . "https://github.com/Vidianos-Giannitsis/zetteldesk-kb.el"))])
+ (zetteldesk-ref .
+		 [(0 2 1 -4 20220619 2028)
+		  ((zetteldesk
+		    (1 0))
+		   (bibtex-completion
+		    (1 0))
+		   (emacs
+		    (26 1)))
+		  "A zetteldesk extension for interfacing with literature nodes" single
+		  ((:commit . "559b9c170aad80e759f68a2739c9c8b6c6448f84")
+		   (:authors
+		    ("Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com"))
+		   (:maintainer "Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com")
+		   (:url . "https://github.com/Vidianos-Giannitsis/zetteldesk-ref.el"))])
  (zettelkasten .
 	       [(0 3 0 1 -4 20210830 1025)
 		((emacs
