@@ -12257,7 +12257,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "50815dbdda5c924142bf2c54feba87c5894465d5")
+	((:commit . "b3232b22e13ff2fe4db994ba7ae3db727d1493cd")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -12627,6 +12627,16 @@
 	 (:maintainer "Joost Kremers" . "joostkremers@fastmail.fm")
 	 (:keywords "text" "bibtex")
 	 (:url . "http://joostkremers.github.io/ebib/"))])
+ (ebnf-mode .
+	    [(1 0 0 1 -4 20220606 1846)
+	     ((emacs
+	       (25 1)))
+	     "Major mode for EBNF files" single
+	     ((:commit . "89a868226e7ddb303548e82a81f76fbb0e5b21c5")
+	      (:authors
+	       ("Noah Peart" . "noah.v.peart@gmail.com"))
+	      (:maintainer "Noah Peart" . "noah.v.peart@gmail.com")
+	      (:url . "https://github.com/nverno/ebnf-mode"))])
  (ebuku .
 	[(0 1 -4 20220530 453)
 	 ((emacs
@@ -21155,7 +21165,7 @@
 	       ((emacs
 		 (25)))
 	       "Support for the F# programming language" tar
-	       ((:commit . "03fc1f48ed3cb69e53e815791abdd196640f72d5")
+	       ((:commit . "20ca755fc6f695e5502109e816ad1f513131dea0")
 		(:authors
 		 ("1993-1997 Xavier Leroy, Jacques Garrigue and Ian T Zimmerman")
 		 ("2010-2011 Laurent Le Brun" . "laurent@le-brun.eu")
@@ -21193,7 +21203,7 @@
 	 (emacs
 	  (24 2)))
 	"Major mode for the Factor programming language." tar
-	((:commit . "cef7e267db336b626bbf11bc7ecb9ef73395858b"))])
+	((:commit . "4ae6e6f147dfb429aefe9ccf0c1cd506ee96d981"))])
  (fuff .
        [(0 1 1 -4 20170202 1503)
 	((seq
@@ -31872,7 +31882,7 @@
 	       (:keywords "kubernetes" "k8s" "tools" "processes" "evil" "keybindings")
 	       (:url . "https://github.com/abrochard/kubel"))])
  (kubernetes .
-	     [(0 17 0 1 -4 20220619 108)
+	     [(0 17 0 1 -4 20220619 1732)
 	      ((emacs
 		(25 1))
 	       (dash
@@ -31890,7 +31900,7 @@
 	       (transient
 		(0 3 0)))
 	      "Magit-like porcelain for Kubernetes" tar
-	      ((:commit . "de2d49122605d9b055f06ab6f1aeb2be794f41b4")
+	      ((:commit . "b434684154cfcbf0f60508bf09c178e027de0958")
 	       (:authors
 		("Chris Barrett" . "chris+emacs@walrus.cool"))
 	       (:maintainer "Chris Barrett" . "chris+emacs@walrus.cool")
@@ -31903,7 +31913,7 @@
 		    (evil
 		     (1 2 12)))
 		   "Kubernetes keybindings for evil-mode." single
-		   ((:commit . "de2d49122605d9b055f06ab6f1aeb2be794f41b4")
+		   ((:commit . "b434684154cfcbf0f60508bf09c178e027de0958")
 		    (:authors
 		     ("Chris Barrett" . "chris+emacs@walrus.cool"))
 		    (:maintainer "Chris Barrett" . "chris+emacs@walrus.cool"))])
@@ -32845,6 +32855,17 @@
 	       (:maintainer "Andrew Favia <drewlinguistics01 at gmail dot com>")
 	       (:keywords "linguistics" "text analysis" "matching")
 	       (:url . "https://github.com/andcarnivorous/linguistic"))])
+ (lingva .
+	 [(0 2 1 -4 20220611 1553)
+	  ((emacs
+	    (25 1)))
+	  "Access Google Translate via lingva.ml" single
+	  ((:commit . "5008210246b5dc0abddec5ecbb833faaf117cb49")
+	   (:authors
+	    ("marty hiatt <martianhiatus [a t] riseup [d o t] net>"))
+	   (:maintainer "marty hiatt <martianhiatus [a t] riseup [d o t] net>")
+	   (:keywords "convenience" "translation" "wp" "text")
+	   (:url . "https://codeberg.org/martianh/lingva.el"))])
  (link .
        [(1 11 1 -4 20191111 446)
 	nil "Hypertext links in text buffers" single
@@ -34014,7 +34035,7 @@
 		 (:keywords "languages")
 		 (:url . "https://github.com/emacs-lsp/lsp-treemacs"))])
  (lsp-ui .
-	 [(8 0 0 1 -4 20220619 1215)
+	 [(8 0 0 1 -4 20220619 1731)
 	  ((emacs
 	    (26 1))
 	   (dash
@@ -34024,7 +34045,7 @@
 	   (markdown-mode
 	    (2 3)))
 	  "UI modules for lsp-mode" tar
-	  ((:commit . "3632ddd9e4b76da2a547b6be7a5d27c622638b61")
+	  ((:commit . "ca195f3ba02cb0aebffa439e4d30d4fc0934df63")
 	   (:authors
 	    ("Sebastien Chapuis <sebastien@chapu.is>, Fangrui Song" . "i@maskray.me"))
 	   (:maintainer "Sebastien Chapuis <sebastien@chapu.is>, Fangrui Song" . "i@maskray.me")
@@ -45961,11 +45982,11 @@
 		   (:keywords "convenience" "writing")
 		   (:url . "http://github.com/SavchenkoValeriy/emacs-powerthesaurus"))])
  (ppcompile .
-	    [(0 1 1 -4 20220613 1410)
+	    [(0 1 1 -4 20220619 1535)
 	     ((emacs
 	       (25 1)))
 	     "Ping-pong compile projects on remote machines" single
-	     ((:commit . "c6450517157dfb73572892785a0aafe440596d19")
+	     ((:commit . "4c287c9ebc0e78dbbe75195bb5eb3fe82e0bfaff")
 	      (:authors
 	       ("Guangwang Huang" . "whatacold@gmail.com"))
 	      (:maintainer "Guangwang Huang")
@@ -47767,11 +47788,11 @@
 	  (:keywords "abbrev" "convenience" "matching" "rust" "tools")
 	  (:url . "https://github.com/racer-rust/emacs-racer"))])
  (racket-mode .
-	      [(0 1 0 1 -4 20220607 1810)
+	      [(0 1 0 1 -4 20220619 1429)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
-	       ((:commit . "1c88636d5da4537b897e7b9b23edfd9495a24d10")
+	       ((:commit . "9d2303ce38f206bb745111103f2f964dec65f9cf")
 		(:authors
 		 ("Greg Hendershott"))
 		(:maintainer "Greg Hendershott")
@@ -52063,6 +52084,17 @@
 	     (:maintainer "Mehmet Tekman")
 	     (:keywords "games")
 	     (:url . "https://gitlab.com/mtekman/smithers.el"))])
+ (smithy-mode .
+	      [(0 1 3 1 -4 20220619 1304)
+	       ((emacs
+		 (26 1)))
+	       "Major mode for editing Smithy IDL files" single
+	       ((:commit . "7dff0e7a497a055577226c7ae7ecdeaf7078b4c1")
+		(:authors
+		 ("Matt Nemitz" . "matt.nemitz@gmail.com"))
+		(:maintainer "Matt Nemitz" . "matt.nemitz@gmail.com")
+		(:keywords "tools" "languages" "smithy" "idl" "amazon")
+		(:url . "http://github.com/mnemitz/smithy-mode"))])
  (sml-basis .
 	    [(0 1 0 1 -4 20210518 2040)
 	     ((emacs
