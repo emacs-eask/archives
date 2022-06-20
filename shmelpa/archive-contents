@@ -1630,6 +1630,17 @@
 		  (:maintainer "Zachary Elliott" . "contact@zell.io")
 		  (:keywords "ansible" "ansible-vault" "tools")
 		  (:url . "http://github.com/zellio/ansible-vault-mode"))])
+ (ansilove .
+	   [(0 3 1 1 -4 20220619 2311)
+	    ((emacs
+	      (26 1)))
+	    "Display buffers as PNG images using ansilove" single
+	    ((:commit . "d558e8fc3bed5163f3eadcacc474e59071a17929")
+	     (:authors
+	      ("Maciej Bar\304\207" . "xgqt@riseup.net"))
+	     (:maintainer "Maciej Bar\304\207" . "xgqt@riseup.net")
+	     (:keywords "multimedia")
+	     (:url . "https://gitlab.com/xgqt/emacs-ansilove/"))])
  (ant .
       [(0 1 1 -4 20160211 1543)
        nil "helpers for compiling with ant" single
@@ -4631,11 +4642,11 @@
 	   (:keywords "jenkins" "hudson" "ci")
 	   (:url . "http://www.github.com/AshtonKem/Butler.git"))])
  (buttercup .
-	    [(1 25 1 -4 20220410 1557)
+	    [(1 25 1 -4 20220619 2214)
 	     ((emacs
 	       (24 3)))
 	     "Behavior-Driven Emacs Lisp Testing" tar
-	     ((:commit . "ceedad5efa797e860dbb356bc2c3028a4e0321ec")
+	     ((:commit . "42df1faa653f2765941f478167dafac059dc3a57")
 	      (:authors
 	       ("Jorgen Schaefer" . "contact@jorgenschaefer.de"))
 	      (:maintainer "Ola Nilsson" . "ola.nilsson@gmail.com")
@@ -4988,6 +4999,16 @@
 	       (:maintainer "Ayrat Badykov" . "ayratin555@gmail.com")
 	       (:keywords "tools")
 	       (:url . "https://github.com/ayrat555/cargo-mode"))])
+ (cargo-transient .
+		  [(0 1 0 1 -4 20220619 1114)
+		   ((emacs
+		     (28 1)))
+		   "A transient for cargo" single
+		   ((:commit . "9aad485b3bb46ff6dfc4f7a93974f34c9081b077")
+		    (:authors
+		     ("Peter Stuart" . "peter@peterstuart.org"))
+		    (:maintainer "Peter Stuart" . "peter@peterstuart.org")
+		    (:url . "https://github.com/peterstuart/cargo-transient"))])
  (caroline-theme .
 		 [(0 0 1 1 -4 20160318 520)
 		  ((emacs
@@ -5027,7 +5048,7 @@
 	       (:keywords "convenience")
 	       (:url . "https://github.com/HKey/caseformat"))])
  (cask .
-       [(0 8 9 -1 1 -4 20220605 2031)
+       [(0 8 9 -1 1 -4 20220619 2144)
 	((emacs
 	  (24 5))
 	 (s
@@ -5045,7 +5066,7 @@
 	 (ansi
 	  (0 4 1)))
 	"Cask: Project management for package development" tar
-	((:commit . "f2c6609590380bf4791fa18b7581ed6a8db2cbbb")
+	((:commit . "66b52168f3ac5adebcd50582e4bd36267bf4433b")
 	 (:authors
 	  ("Johan Andersson" . "johan.rejeep@gmail.com"))
 	 (:maintainer "Johan Andersson" . "johan.rejeep@gmail.com")
@@ -11924,13 +11945,13 @@
 			      (:maintainer "Ellis Keny\305\221" . "me@elken.dev")
 			      (:url . "https://github.com/elken/doom-modeline-now-playing"))])
  (doom-themes .
-	      [(2 2 1 1 -4 20220609 1038)
+	      [(2 2 1 1 -4 20220619 2105)
 	       ((emacs
 		 (25 1))
 		(cl-lib
 		 (0 5)))
 	       "an opinionated pack of modern color-themes" tar
-	       ((:commit . "6aeec22d766acdcd2ac5597ed5e0caffc896284a")
+	       ((:commit . "fdbcbe1ebdd4c4700709e7aece14168969f9d981")
 		(:authors
 		 ("Henrik Lissner" . "contact@henrik.io"))
 		(:maintainer "Henrik Lissner" . "contact@henrik.io")
@@ -44240,7 +44261,7 @@
 	     (:keywords "data" "pdb")
 	     (:url . "http://bondxray.org/software/pdb-mode/"))])
  (pdf-tools .
-	    [(1 0 0 -4 20220522 13)
+	    [(1 0 0 -4 20220619 2227)
 	     ((emacs
 	       (24 3))
 	      (nadvice
@@ -44250,7 +44271,7 @@
 	      (let-alist
 		  (1 0 4)))
 	     "Support library for PDF documents" tar
-	     ((:commit . "f9ccdf99e560bae70d3a13325cec9dc0e3cc45b0")
+	     ((:commit . "fe42da60ad68e806af1677210249caccd7b99451")
 	      (:authors
 	       ("Andreas Politz" . "mail@andreas-politz.de"))
 	      (:maintainer "Vedang Manerikar" . "vedang.manerikar@gmail.com")
@@ -52116,7 +52137,7 @@
 	       ((emacs
 		 (26 1)))
 	       "Major mode for editing Smithy IDL files" single
-	       ((:commit . "7dff0e7a497a055577226c7ae7ecdeaf7078b4c1")
+	       ((:commit . "8d248fbe3135766451df9b88eb972f61619ebc9b")
 		(:authors
 		 ("Matt Nemitz" . "matt.nemitz@gmail.com"))
 		(:maintainer "Matt Nemitz" . "matt.nemitz@gmail.com")
