@@ -1170,11 +1170,11 @@
 	    (:keywords "matching" "all" "search" "replace" "anything" "helm" "helm-swoop" "occur")
 	    (:url . "https://github.com/rubikitch/all-ext"))])
  (all-the-icons .
-		[(5 0 0 1 -4 20220620 249)
+		[(5 0 0 1 -4 20220621 111)
 		 ((emacs
 		   (24 3)))
 		 "A library for inserting Developer icons" tar
-		 ((:commit . "0e8820dffec876ab89e262c5cd3dd8ec1b07cb86")
+		 ((:commit . "7193403b47ad8b65347f9bafc939a152f0fe448a")
 		  (:authors
 		   ("Dominic Charlesworth" . "dgc336@gmail.com"))
 		  (:maintainer "Dominic Charlesworth" . "dgc336@gmail.com")
@@ -1725,11 +1725,11 @@
 	"A Portable Emacs Library provides support for portable Emacs Lisp programs" tar
 	((:commit . "6947dc4605ebbb87762edf7051a78a3f7b5f17c5"))])
  (apheleia .
-	   [(3 0 1 -4 20220620 2121)
+	   [(3 0 1 -4 20220620 2151)
 	    ((emacs
 	      (26)))
 	    "Reformat buffer stably" single
-	    ((:commit . "2fa9dd97eddf54fe4fe01449612722399aa05d1c")
+	    ((:commit . "12804a50206c708570104637472411288d6133f5")
 	     (:authors
 	      ("Radian LLC" . "contact+apheleia@radian.codes"))
 	     (:maintainer "Radian LLC" . "contact+apheleia@radian.codes")
@@ -12250,7 +12250,7 @@
 	      (:maintainer "jack angers")
 	      (:keywords "programming" "diff"))])
  (dumb-jump .
-	    [(0 5 4 1 -4 20220524 2122)
+	    [(0 5 4 1 -4 20220620 2325)
 	     ((emacs
 	       (24 3))
 	      (s
@@ -12260,7 +12260,7 @@
 	      (popup
 	       (0 5 3)))
 	     "Jump to definition for 50+ languages without configuration" single
-	     ((:commit . "1dd583011f4025b1b8c75fd785691851b6c5dfa3")
+	     ((:commit . "ba4127336d897f5656032694bbe22c490ecbb000")
 	      (:authors
 	       ("jack angers and contributors"))
 	      (:maintainer "jack angers and contributors")
@@ -12278,7 +12278,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "267051724c9b3c3416cdf6ae6e751611415a4761")
+	((:commit . "c7448890c1a9f2ad7a75dbd7c973b829729b12e1")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -21224,7 +21224,7 @@
 	 (emacs
 	  (24 2)))
 	"Major mode for the Factor programming language." tar
-	((:commit . "824240edceca0ee4e209cd676d55141085e18cbe"))])
+	((:commit . "0712454c140b5a98eb4ebc4bf21a29fb2157c3b5"))])
  (fuff .
        [(0 1 1 -4 20170202 1503)
 	((seq
@@ -35082,11 +35082,11 @@
 		       (:keywords "markdown" "changelog" "files")
 		       (:url . "https://github.com/plandes/markdown-changelog"))])
  (markdown-mode .
-		[(2 6 1 -4 20220620 1343)
+		[(2 6 1 -4 20220620 2325)
 		 ((emacs
 		   (26 1)))
 		 "Major mode for Markdown-formatted text" single
-		 ((:commit . "8244e0b6b94ec6183d55b1dfce4b6cd00eada718")
+		 ((:commit . "f7cbc960d76b4b6a605a0675a1330959bfb99ed1")
 		  (:authors
 		   ("Jason R. Blevins" . "jblevins@xbeta.org"))
 		  (:maintainer "Jason R. Blevins" . "jblevins@xbeta.org")
@@ -47233,7 +47233,7 @@
 	      (:keywords "data" "games" "chess")
 	      (:url . "https://github.com/dwcoates/pygn-mode"))])
  (pyim .
-       [(4 2 1 1 -4 20220618 2209)
+       [(4 2 1 1 -4 20220621 104)
 	((emacs
 	  (25 1))
 	 (async
@@ -47241,7 +47241,7 @@
 	 (xr
 	  (1 13)))
 	"A Chinese input method support quanpin, shuangpin, wubi, cangjie and rime." tar
-	((:commit . "b24a1a0124e43fabcfd1d26a7731b2fd115b468b")
+	((:commit . "45184b228cc009ea7b3fd3078b17beabd120e026")
 	 (:authors
 	  ("Ye Wenbin" . "wenbinye@163.com")
 	  ("Feng Shu" . "tumashu@163.com"))
@@ -55197,7 +55197,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "811580141ea3af8d810dd5fd072a0e7ec2a668e8")
+	  ((:commit . "2e62af8567c70a2bbaee922e2b0880a05e37c6a2")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -56072,7 +56072,7 @@
 	       (:keywords "outlines" "files" "convenience")
 	       (:url . "https://github.com/cyberthal/treefactor"))])
  (treemacs .
-	   [(2 10 1 -4 20220616 1202)
+	   [(2 10 1 -4 20220620 2018)
 	    ((emacs
 	      (26 1))
 	     (cl-lib
@@ -56092,7 +56092,7 @@
 	     (cfrs
 	      (1 3 2)))
 	    "A tree style file explorer package" tar
-	    ((:commit . "0578a1ba33037322828aabe240a7cc8e283077c0")
+	    ((:commit . "e9f439c2ad18b6c9cb3ef962b57f932a9a14b362")
 	     (:authors
 	      ("Alexander Miller" . "alexanderm@web.de"))
 	     (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -56106,7 +56106,7 @@
 			   (treemacs
 			    (0 0)))
 			  "all-the-icons integration for treemacs" single
-			  ((:commit . "0578a1ba33037322828aabe240a7cc8e283077c0")
+			  ((:commit . "e9f439c2ad18b6c9cb3ef962b57f932a9a14b362")
 			   (:authors
 			    ("Eric Dallo" . "ercdll1337@gmail.com"))
 			   (:maintainer "Eric Dallo" . "ercdll1337@gmail.com")
@@ -56120,7 +56120,7 @@
 		  (treemacs
 		   (0 0)))
 		 "Evil mode integration for treemacs" single
-		 ((:commit . "0578a1ba33037322828aabe240a7cc8e283077c0")
+		 ((:commit . "e9f439c2ad18b6c9cb3ef962b57f932a9a14b362")
 		  (:authors
 		   ("Alexander Miller" . "alexanderm@web.de"))
 		  (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -56132,7 +56132,7 @@
 			 (emacs
 			  (26 1)))
 			"Treemacs icons for dired" single
-			((:commit . "0578a1ba33037322828aabe240a7cc8e283077c0")
+			((:commit . "e9f439c2ad18b6c9cb3ef962b57f932a9a14b362")
 			 (:authors
 			  ("Alexander Miller" . "alexanderm@web.de"))
 			 (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -56148,7 +56148,7 @@
 		   (magit
 		    (2 90 0)))
 		  "Magit integration for treemacs" single
-		  ((:commit . "0578a1ba33037322828aabe240a7cc8e283077c0")
+		  ((:commit . "e9f439c2ad18b6c9cb3ef962b57f932a9a14b362")
 		   (:authors
 		    ("Alexander Miller" . "alexanderm@web.de"))
 		   (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -56164,7 +56164,7 @@
 		   (dash
 		    (2 11 0)))
 		  "Persp-mode integration for treemacs" single
-		  ((:commit . "0578a1ba33037322828aabe240a7cc8e283077c0")
+		  ((:commit . "e9f439c2ad18b6c9cb3ef962b57f932a9a14b362")
 		   (:authors
 		    ("Alexander Miller" . "alexanderm@web.de"))
 		   (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -56180,7 +56180,7 @@
 			 (dash
 			  (2 11 0)))
 			"Perspective integration for treemacs" single
-			((:commit . "0578a1ba33037322828aabe240a7cc8e283077c0")
+			((:commit . "e9f439c2ad18b6c9cb3ef962b57f932a9a14b362")
 			 (:authors
 			  ("Alexander Miller" . "alexanderm@web.de")
 			  ("Jason Dufair" . "jase@dufair.org"))
@@ -56195,7 +56195,7 @@
 			(treemacs
 			 (0 0)))
 		       "Projectile integration for treemacs" single
-		       ((:commit . "0578a1ba33037322828aabe240a7cc8e283077c0")
+		       ((:commit . "e9f439c2ad18b6c9cb3ef962b57f932a9a14b362")
 			(:authors
 			 ("Alexander Miller" . "alexanderm@web.de"))
 			(:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -56209,7 +56209,7 @@
 		     (dash
 		      (2 11 0)))
 		    "Tab bar integration for treemacs" single
-		    ((:commit . "0578a1ba33037322828aabe240a7cc8e283077c0")
+		    ((:commit . "e9f439c2ad18b6c9cb3ef962b57f932a9a14b362")
 		     (:authors
 		      ("Alexander Miller" . "alexanderm@web.de")
 		      ("Jason Dufair" . "jase@dufair.org")
@@ -56391,13 +56391,13 @@
 	   (:keywords "ocaml" "languages")
 	   (:url . "https://github.com/ocaml/tuareg"))])
  (tubestatus .
-	     [(0 0 1 1 -4 20220303 1736)
+	     [(0 0 1 1 -4 20220620 2028)
 	      ((emacs
 		(26 1))
 	       (request
 		(0 3 2)))
 	      "Get the London Tube service status" single
-	      ((:commit . "c81373f1bc32cbd2e2d642ee10ee1cb31915acb0")
+	      ((:commit . "bf722d441ff96ff8fac6c8d2a798e283fef5613b")
 	       (:authors
 		("Matthieu Petiteau" . "matt@smallwat3r.com"))
 	       (:maintainer "Matthieu Petiteau" . "matt@smallwat3r.com")
