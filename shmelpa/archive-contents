@@ -20765,7 +20765,7 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 1 -4 20220621 1747)
+	[(0 1 -4 20220622 746)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -20777,11 +20777,11 @@
 	  (emacsql-sqlite
 	   (3 0 0))
 	  (ghub
-	   (20220631))
+	   (20220621))
 	  (let-alist
 	      (1 0 6))
 	  (magit
-	   (20220631))
+	   (20220621))
 	  (markdown-mode
 	   (2 4))
 	  (transient
@@ -20789,7 +20789,7 @@
 	  (yaml
 	   (0 3 5)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "3b594ab03fbc201239ac3141c19828e69639da0b")
+	 ((:commit . "3f940aa997e76f9eb92a32370e4c1e3a1290165a")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -23267,11 +23267,11 @@
 	   (:keywords "tools")
 	   (:url . "https://github.com/brantou/emacs-go-tag"))])
  (go-translate .
-	       [(2 0 1 -4 20220621 1200)
+	       [(2 0 1 -4 20220622 833)
 		((emacs
 		  (27 1)))
 		"Translation framework supports multiple engines such as Google/Bing/DeepL" tar
-		((:commit . "82e24704ce12ab7a810507f911dc56a0425b2cc3")
+		((:commit . "2ab0f8e3e21b66e9302a1f964294026cdbe37439")
 		 (:authors
 		  ("lorniu" . "lorniu@gmail.com"))
 		 (:maintainer "lorniu" . "lorniu@gmail.com")
@@ -25906,11 +25906,11 @@
 		  (:maintainer "Julien BLANCHARD" . "julien@sideburns.eu")
 		  (:url . "https://github.com/julienXX/helm-lobste.rs"))])
  (helm-ls-git .
-	      [(0 1 0 1 -4 20220621 1114)
+	      [(0 1 0 1 -4 20220622 526)
 	       ((helm
 		 (1 7 8)))
 	       "list git files." single
-	       ((:commit . "206228e1cb77ffbf60a795e556e24faabde204f9"))])
+	       ((:commit . "87ae2f0f1147295cbef6101df1698cb3942a69c3"))])
  (helm-ls-hg .
 	     [(0 1 0 1 -4 20150909 543)
 	      ((helm
@@ -36938,13 +36938,13 @@
 			    (:maintainer "Andreu Gil P\303\240mies" . "agpchil@gmail.com")
 			    (:url . "http://github.com/agpchil/mu4e-maildirs-extension"))])
  (mu4e-marker-icons .
-		    [(0 1 0 1 -4 20220611 1328)
+		    [(0 1 0 1 -4 20220622 925)
 		     ((emacs
 		       (26 1))
 		      (all-the-icons
 		       (4 0 0)))
 		     "Display icons for mu4e markers" single
-		     ((:commit . "7926972c7f197330ba1cbde1a2fbab5dac7a61fd")
+		     ((:commit . "1c2c26c0aaa5beba34ef13c62c9b4c6e02de7c2f")
 		      (:keywords "mail")
 		      (:url . "https://repo.or.cz/mu4e-marker-icons.git"))])
  (mu4e-overview .
@@ -38135,7 +38135,7 @@
 		 (compat
 		  (28 1 1 0)))
 		"Help keeping ~/.emacs.d clean" single
-		((:commit . "a5aa3faada054f96b70b32ba9d9447f7a4cf403c")
+		((:commit . "11aeab815c47c7aff037d6285689e245d8f7c841")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -47233,7 +47233,7 @@
 	      (:keywords "data" "games" "chess")
 	      (:url . "https://github.com/dwcoates/pygn-mode"))])
  (pyim .
-       [(4 2 1 1 -4 20220622 639)
+       [(4 2 1 1 -4 20220622 848)
 	((emacs
 	  (25 1))
 	 (async
@@ -47241,7 +47241,7 @@
 	 (xr
 	  (1 13)))
 	"A Chinese input method support quanpin, shuangpin, wubi, cangjie and rime." tar
-	((:commit . "63d2399cb8a92e84448b5cd6ba0c940fa767c41d")
+	((:commit . "1832f145461532ef647254d340c9a5f193985106")
 	 (:authors
 	  ("Ye Wenbin" . "wenbinye@163.com")
 	  ("Feng Shu" . "tumashu@163.com"))
@@ -47328,7 +47328,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "3a76bd6a5b1d0d21d704e6d3f5af77eef82c74bb")
+	  ((:commit . "bf6308cbe11a4f50af5fd8375f87282a2f317d08")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -49415,13 +49415,13 @@
 	     (:maintainer "zk_phi")
 	     (:url . "https://github.com/zk-phi/rpn-calc"))])
  (rspec-mode .
-	     [(1 21 1 -4 20220620 105)
+	     [(1 21 1 -4 20220622 909)
 	      ((ruby-mode
 		(1 0))
 	       (cl-lib
 		(0 4)))
 	      "Enhance ruby-mode for RSpec" tar
-	      ((:commit . "2ad9e69dc9cf13fdc0dae84148467c9e353c9742")
+	      ((:commit . "778c76a6a4bd93faf137d5ca47e7823e1665051c")
 	       (:authors
 		("Peter Williams, et al."))
 	       (:maintainer "Peter Williams, et al.")
@@ -55197,7 +55197,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "fffcf89d7b272d1b79e3c9f1aa1f65887e1e397f")
+	  ((:commit . "71261f5d43817cb594a386f4293d3f8e14d576fe")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -59394,13 +59394,11 @@
 		  (:maintainer nil . "<lompik@ArchOrion>")
 		  (:keywords "convenience"))])
  (x509-mode .
-	    [(0 1 0 1 -4 20220616 1406)
+	    [(0 1 0 1 -4 20220622 1041)
 	     ((emacs
-	       (24 1))
-	      (cl-lib
-	       (0 5)))
-	     "View certificates, CRLs and keys using OpenSSL." tar
-	     ((:commit . "28d693031976aa8b73a09a8f5006cb820293ba6a")
+	       (24 3)))
+	     "View certificates, CRLs and keys using OpenSSL" tar
+	     ((:commit . "163f4b6376614d361ef66012b7b2fed709ed8bb3")
 	      (:authors
 	       ("Fredrik Axelsson" . "f.axelsson@gmai.com"))
 	      (:maintainer "Fredrik Axelsson" . "f.axelsson@gmai.com")
