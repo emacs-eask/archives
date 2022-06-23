@@ -6501,7 +6501,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "2be09731e0a441b5303344a91c2ba162e9fdf031"))])
+	      ((:commit . "de7f39c2a62250271ea4d1a0e1231005d30887dd"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -11297,11 +11297,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 3 21 1 -4 20220622 1324)
+	  [(1 3 21 1 -4 20220623 406)
 	   ((emacs
-	     (27 1)))
+	     (27 1))
+	    (transient
+	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "98ee3cbd5dbe8d90dd18bbb450739aff6591bc40")
+	   ((:commit . "325a1657f2a92b895178edd9d87c229140de606e")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -15327,7 +15329,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "3528dff6002f1627c9d8c23d146b85a32fa09ae0")
+	  ((:commit . "83634b9a1aba4e95fce957fe88d40d25d9524845")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -36342,7 +36344,7 @@
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "e342e3568c8a3a1cc20714c774bbe9df68489b32")
+		((:commit . "74e773a8a4c0d506bd64ee12b985eca96c2f6939")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
@@ -47233,7 +47235,7 @@
 	      (:keywords "data" "games" "chess")
 	      (:url . "https://github.com/dwcoates/pygn-mode"))])
  (pyim .
-       [(5 0 0 1 -4 20220622 2327)
+       [(5 1 0 1 -4 20220623 505)
 	((emacs
 	  (25 1))
 	 (async
@@ -47241,7 +47243,7 @@
 	 (xr
 	  (1 13)))
 	"A Chinese input method support quanpin, shuangpin, wubi, cangjie and rime." tar
-	((:commit . "7a32f0e0a2a09a4379f900b1578beae59c2c6185")
+	((:commit . "5617d8f87c45e6e19af7654ac9e62cc90854776f")
 	 (:authors
 	  ("Ye Wenbin" . "wenbinye@163.com")
 	  ("Feng Shu" . "tumashu@163.com"))
@@ -47328,7 +47330,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "ffa15a4021d8d87a82ec9f1f0693d75d3602f24c")
+	  ((:commit . "6a8704a5eb3ab758a7a46d79f0f9a0bf3d5fc24a")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -55086,11 +55088,11 @@
 	    (:keywords "tfs" "vc")
 	    (:url . "http://github.com/sebasmonia/tfsmacs/"))])
  (the-matrix-theme .
-		   [(1 0 0 1 -4 20220611 1032)
+		   [(1 0 0 1 -4 20220622 1214)
 		    ((emacs
 		      (26 1)))
 		    "Green-on-black dark theme inspired by \"The Matrix\" movie" single
-		    ((:commit . "f217e02dd683d9098001b854482f1c9d1a239cc0")
+		    ((:commit . "289ed872003708ef1595e5e6765b50ca53e34ac8")
 		     (:authors
 		      ("Dan Dee" . "monkeyjunglejuice@pm.me"))
 		     (:maintainer "Dan Dee" . "monkeyjunglejuice@pm.me")
@@ -55197,7 +55199,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "61fa3d889b55bdbaa06ff752ed6c0a30751bcc00")
+	  ((:commit . "5c47babaf146ed73829dbb180010b87a2e9fbbb3")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
