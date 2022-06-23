@@ -6501,7 +6501,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "de7f39c2a62250271ea4d1a0e1231005d30887dd"))])
+	      ((:commit . "10c2bb626ecc82b2307691847d347c03835d7bcc"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -52898,27 +52898,6 @@
 	       (:maintainer "Geert A. M. Van der Plas" . "geert_vanderplas@email.com")
 	       (:keywords "spice" "spice2g6" "spice3" "eldo" "hspice" "layla" "mondriaan" "fasthenry" "cdl" "spectre compatibility" "netlist editing")
 	       (:url . "https://repo.or.cz/spice-mode.git"))])
- (spiral .
-	 [(0 2 0 -4 20180223 1140)
-	  ((emacs
-	    (25 1))
-	   (a
-	    (0 1 0 -3 4))
-	   (avy
-	    (0 4 0))
-	   (clojure-mode
-	    (5 6 0))
-	   (highlight
-	    (0))
-	   (treepy
-	    (1 0 0)))
-	  "Clojure IDE based on UNREPL" tar
-	  ((:commit . "907b9792467139a942ba7b07ca0276b90770baf9")
-	   (:authors
-	    ("Daniel Barreto" . "daniel@barreto.tech"))
-	   (:maintainer "Daniel Barreto" . "daniel@barreto.tech")
-	   (:keywords "languages" "clojure")
-	   (:url . "https://github.com/Unrepl/spiral"))])
  (splitjoin .
 	    [(0 1 1 -4 20150505 1432)
 	     ((cl-lib
