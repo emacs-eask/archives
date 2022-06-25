@@ -3662,7 +3662,7 @@
 	       (key-chord
 		(0 6)))
 	      "key-chord binding helper for use-package-chords" single
-	      ((:commit . "a7422fb8ab1baee19adb2717b5b47b9c3812a84c")
+	      ((:commit . "0ad5d9d5d8a61517a207ab04bf69e71c081149eb")
 	       (:authors
 		("Justin Talbott" . "justin@waymondo.com"))
 	       (:maintainer "Justin Talbott" . "justin@waymondo.com")
@@ -3671,7 +3671,7 @@
  (bind-key .
 	   [(2 4 1 -4 20210210 1609)
 	    nil "A simple way to manage personal keybindings" single
-	    ((:commit . "a7422fb8ab1baee19adb2717b5b47b9c3812a84c")
+	    ((:commit . "0ad5d9d5d8a61517a207ab04bf69e71c081149eb")
 	     (:authors
 	      ("John Wiegley" . "johnw@newartisans.com"))
 	     (:maintainer "John Wiegley" . "johnw@newartisans.com")
@@ -13319,9 +13319,9 @@
 		   (:maintainer "Hiroki YAMAKAWA" . "s06139@gmail.com")
 		   (:url . "https://github.com/HKey/el-init-viewer"))])
  (el-mock .
-	  [(1 25 1 1 -4 20170824 1954)
+	  [(1 25 1 1 -4 20220625 1949)
 	   nil "Tiny Mock and Stub framework in Emacs Lisp" single
-	   ((:commit . "6ebfe64410d54b4cf76f655e416d49935d5e2ceb")
+	   ((:commit . "6cfbc9de8f1927295dca6864907fe4156bd71910")
 	    (:authors
 	     ("rubikitch" . "rubikitch@ruby-lang.org"))
 	    (:maintainer "Johan Andersson" . "johan.rejeep@gmail.com")
@@ -38314,7 +38314,7 @@
  (notmuch .
 	  [(0 1 0 1 -4 20220616 1151)
 	   nil "run notmuch within emacs" tar
-	   ((:commit . "9e9d0e5ffcdb92e4051b10a8df0c093db1be5d42")
+	   ((:commit . "6f749dd24a1c8138a05ac92884e8cb71098c7f6e")
 	    (:url . "https://notmuchmail.org"))])
  (notmuch-addr .
 	       [(0 1 0 1 -4 20220422 1618)
@@ -42137,11 +42137,11 @@
 		  (:keywords "convenience" "outlines" "tools")
 		  (:url . "https://github.com/amno1/org-view-mode"))])
  (org-visibility .
-		 [(1 1 1 -4 20220623 1717)
+		 [(1 1 9 1 -4 20220625 2122)
 		  ((emacs
 		    (27 1)))
 		  "Persistent org tree visibility" single
-		  ((:commit . "c3f9710db2d44e7bd5a2bd2530a7e22f629ec26d")
+		  ((:commit . "3aa780edced6fd83a2b560b94fd35f673da0e465")
 		   (:authors
 		    ("Kyle W T Sherman" . "kylewsherman@gmail.com"))
 		   (:maintainer "Kyle W T Sherman" . "kylewsherman@gmail.com")
@@ -47330,7 +47330,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "1e1e1781ef32e2b9048788798d28f1267f5e1035")
+	  ((:commit . "b16105880735e388ac28b203597c036f76e6bfc2")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -49752,7 +49752,7 @@
 		    (:keywords "tools" "rust")
 		    (:url . "https://github.com/grafov/rust-playground"))])
  (rustic .
-	 [(3 2 1 -4 20220621 1523)
+	 [(3 2 1 -4 20220625 2008)
 	  ((emacs
 	    (26 1))
 	   (rust-mode
@@ -49776,7 +49776,7 @@
 	   (xterm-color
 	    (1 6)))
 	  "Rust development environment" tar
-	  ((:commit . "060149c3347ff056392474b11c36a990373f725b")
+	  ((:commit . "39029a7e1f059674a9767a9b15514af30ef9f479")
 	   (:authors
 	    ("Mozilla"))
 	   (:maintainer "Mozilla")
@@ -55559,11 +55559,11 @@
 		  (:keywords "hide" "window")
 		  (:url . "https://github.com/deadghost/toggle-window"))])
  (tok-theme .
-	    [(0 1 1 -4 20220625 1732)
+	    [(0 1 1 -4 20220625 2028)
 	     ((emacs
 	       (26 1)))
 	     "Simple, brutalistic and minimal Emacs theme" single
-	     ((:commit . "025d392a86a8560f94f5425d3e9f6d635c482d08")
+	     ((:commit . "d613366429d49e4cec800128d596bc7e6b0e6fee")
 	      (:authors
 	       ("Topi Kettunen" . "topi@topikettunen.com"))
 	      (:maintainer "Topi Kettunen" . "topi@topikettunen.com")
@@ -57102,7 +57102,7 @@
 		(bind-key
 		 (2 4)))
 	       "A configuration macro for simplifying your .emacs" tar
-	       ((:commit . "a7422fb8ab1baee19adb2717b5b47b9c3812a84c")
+	       ((:commit . "0ad5d9d5d8a61517a207ab04bf69e71c081149eb")
 		(:authors
 		 ("John Wiegley" . "johnw@newartisans.com"))
 		(:maintainer "John Wiegley" . "johnw@newartisans.com")
@@ -57119,7 +57119,7 @@
 		       (key-chord
 			(0 6)))
 		      "key-chord keyword for use-package" single
-		      ((:commit . "a7422fb8ab1baee19adb2717b5b47b9c3812a84c")
+		      ((:commit . "0ad5d9d5d8a61517a207ab04bf69e71c081149eb")
 		       (:authors
 			("Justin Talbott" . "justin@waymondo.com"))
 		       (:maintainer "Justin Talbott" . "justin@waymondo.com")
@@ -57143,7 +57143,7 @@
 				      (system-packages
 				       (1 0 4)))
 				     "auto install system packages" single
-				     ((:commit . "a7422fb8ab1baee19adb2717b5b47b9c3812a84c")
+				     ((:commit . "0ad5d9d5d8a61517a207ab04bf69e71c081149eb")
 				      (:authors
 				       ("Justin Talbott" . "justin@waymondo.com"))
 				      (:maintainer "Justin Talbott" . "justin@waymondo.com")
