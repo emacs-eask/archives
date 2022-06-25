@@ -38314,7 +38314,7 @@
  (notmuch .
 	  [(0 1 0 1 -4 20220616 1151)
 	   nil "run notmuch within emacs" tar
-	   ((:commit . "bfcf9a6c102af9232b6d2e720f919ff1c9b431f8")
+	   ((:commit . "9e9d0e5ffcdb92e4051b10a8df0c093db1be5d42")
 	    (:url . "https://notmuchmail.org"))])
  (notmuch-addr .
 	       [(0 1 0 1 -4 20220422 1618)
@@ -41324,7 +41324,7 @@
 			 ("Vladimir S. Ivanov" . "ivvl82@gmail.com"))
 			(:maintainer "Vladimir S. Ivanov" . "ivvl82@gmail.com"))])
  (org-ql .
-	 [(0 7 -1 1 -4 20220614 8)
+	 [(0 7 -1 1 -4 20220625 1558)
 	  ((emacs
 	    (26 1))
 	   (dash
@@ -41348,7 +41348,7 @@
 	   (ts
 	    (0 2 -1)))
 	  "Org Query Language, search command, and agenda-like view" tar
-	  ((:commit . "bacdacb1b233e4199ccda810152484edd59fa091")
+	  ((:commit . "77916a1c4f6dd45737db66756e17ea1c6bda0368")
 	   (:authors
 	    ("Adam Porter" . "adam@alphapapa.net"))
 	   (:maintainer "Adam Porter" . "adam@alphapapa.net")
@@ -47330,7 +47330,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "e1e5b39e3375a350f17e6839df14be28c0b73811")
+	  ((:commit . "1e1e1781ef32e2b9048788798d28f1267f5e1035")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -54588,7 +54588,7 @@
 	 (:keywords "convenience" "emulations" "files")
 	 (:url . "https://github.com/mtk/teco.git"))])
  (telega .
-	 [(0 8 40 1 -4 20220623 1707)
+	 [(0 8 40 1 -4 20220625 1718)
 	  ((emacs
 	    (26 1))
 	   (visual-fill-column
@@ -54596,7 +54596,7 @@
 	   (rainbow-identifiers
 	    (0 2 2)))
 	  "Telegram client (unofficial)" tar
-	  ((:commit . "659b31a3bf123c10553791f61eb92ac9c9c83bd8")
+	  ((:commit . "996388638b7658414463ab2ae51e5fd8576e8c54")
 	   (:authors
 	    ("Zajcev Evgeny" . "zevlg@yandex.ru"))
 	   (:maintainer "Zajcev Evgeny" . "zevlg@yandex.ru")
@@ -55559,11 +55559,11 @@
 		  (:keywords "hide" "window")
 		  (:url . "https://github.com/deadghost/toggle-window"))])
  (tok-theme .
-	    [(0 1 1 -4 20220624 1832)
+	    [(0 1 1 -4 20220625 1732)
 	     ((emacs
 	       (26 1)))
 	     "Simple, brutalistic and minimal Emacs theme" single
-	     ((:commit . "3df2d34c8fcefa2d43938599c66f93dd81d8e3f7")
+	     ((:commit . "025d392a86a8560f94f5425d3e9f6d635c482d08")
 	      (:authors
 	       ("Topi Kettunen" . "topi@topikettunen.com"))
 	      (:maintainer "Topi Kettunen" . "topi@topikettunen.com")
@@ -60279,6 +60279,20 @@
 		    ("Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com"))
 		   (:maintainer "Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com")
 		   (:url . "https://github.com/Vidianos-Giannitsis/zetteldesk-ref.el"))])
+ (zetteldesk-remark .
+		    [(0 2 1 -4 20220619 2028)
+		     ((zetteldesk
+		       (1 0))
+		      (org-remark
+		       (1 0))
+		      (emacs
+		       (27 2)))
+		     "Org-Remark integration for zetteldesk.el" single
+		     ((:commit . "559b9c170aad80e759f68a2739c9c8b6c6448f84")
+		      (:authors
+		       ("Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com"))
+		      (:maintainer "Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com")
+		      (:url . "https://github.com/Vidianos-Giannitsis/zetteldesk-remark.el"))])
  (zettelkasten .
 	       [(0 3 0 1 -4 20210830 1025)
 		((emacs
@@ -60346,11 +60360,11 @@
 	    ((:commit . "76cf76bdc871cb0454a6fc555aeb1aa94f1b6e57")
 	     (:url . "https://github.com/schmir/zimports.el"))])
  (zk .
-     [(0 4 1 -4 20220625 305)
+     [(0 4 1 -4 20220625 1127)
       ((emacs
 	(24 4)))
       "Functions for working with Zettelkasten-style linked notes" single
-      ((:commit . "c57a0e1b1255c350c5b3d370585f07a36813fdbe")
+      ((:commit . "b69a04e885eff848bf4b18aed5f3d34dc3772c2d")
        (:authors
 	("Grant Rosson <https://github.com/localauthor>"))
        (:maintainer "Grant Rosson <https://github.com/localauthor>")
@@ -60362,7 +60376,7 @@
 	     (zk
 	      (0 3)))
 	    "Index and Desktop for zk" single
-	    ((:commit . "c57a0e1b1255c350c5b3d370585f07a36813fdbe")
+	    ((:commit . "b69a04e885eff848bf4b18aed5f3d34dc3772c2d")
 	     (:authors
 	      ("Grant Rosson <https://github.com/localauthor>"))
 	     (:maintainer "Grant Rosson <https://github.com/localauthor>")
