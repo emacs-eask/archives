@@ -46513,11 +46513,11 @@
 		       (:keywords "convenience")
 		       (:url . "https://github.com/fritzgrabo/project-tab-groups"))])
  (projectile .
-	     [(2 6 0 -4 20220626 655)
+	     [(2 6 0 -4 20220626 1730)
 	      ((emacs
 		(25 1)))
 	      "Manage and navigate projects in Emacs easily" single
-	      ((:commit . "78be7717cd7e81f039c7206de9ebef20f845d29f")
+	      ((:commit . "8f2e1eafe2dd42ea0f3590d2fbd6d171c7f3b0fc")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
@@ -53934,7 +53934,7 @@
 	   (ivy
 	    (0 13 4)))
 	  "Isearch with an overview. Oh, man!" single
-	  ((:commit . "f8d80a4055514f92d94f128f5fcb1cda79e5cd22")
+	  ((:commit . "2051de5882706246da298ce5f60482cd7f469fe7")
 	   (:authors
 	    ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	   (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
@@ -60244,11 +60244,23 @@
 	       (org-roam
 		(2 0)))
 	      "A revision and outlining tool for org-roam" single
-	      ((:commit . "171fefe91fc616c94b2ec29826fa6893f5816c00")
+	      ((:commit . "00575b41f5ff7587eff4dd88733aba9ff5f73f5b")
 	       (:authors
 		("Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com"))
 	       (:maintainer "Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com")
 	       (:url . "https://github.com/Vidianos-Giannitsis/zetteldesk.el"))])
+ (zetteldesk-info .
+		  [(0 2 1 -4 20220626 1100)
+		   ((zetteldesk
+		     (0 4))
+		    (emacs
+		     (27 1)))
+		   "A zetteldesk extension for interacting with the info program" single
+		   ((:commit . "00575b41f5ff7587eff4dd88733aba9ff5f73f5b")
+		    (:authors
+		     ("Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com"))
+		    (:maintainer "Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com")
+		    (:url . "https://github.com/Vidianos-Giannitsis/zetteldesk-info.el"))])
  (zetteldesk-kb .
 		[(0 3 1 -4 20220619 2028)
 		 ((zetteldesk
@@ -60260,7 +60272,7 @@
 		  (emacs
 		   (24 1)))
 		 "Keybindings for zetteldesk.el" single
-		 ((:commit . "171fefe91fc616c94b2ec29826fa6893f5816c00")
+		 ((:commit . "00575b41f5ff7587eff4dd88733aba9ff5f73f5b")
 		  (:authors
 		   ("Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com"))
 		  (:maintainer "Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com")
@@ -60274,7 +60286,7 @@
 		   (emacs
 		    (26 1)))
 		  "A zetteldesk extension for interfacing with literature nodes" single
-		  ((:commit . "171fefe91fc616c94b2ec29826fa6893f5816c00")
+		  ((:commit . "00575b41f5ff7587eff4dd88733aba9ff5f73f5b")
 		   (:authors
 		    ("Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com"))
 		   (:maintainer "Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com")
@@ -60288,7 +60300,7 @@
 		      (emacs
 		       (27 2)))
 		     "Org-Remark integration for zetteldesk.el" single
-		     ((:commit . "171fefe91fc616c94b2ec29826fa6893f5816c00")
+		     ((:commit . "00575b41f5ff7587eff4dd88733aba9ff5f73f5b")
 		      (:authors
 		       ("Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com"))
 		      (:maintainer "Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com")
