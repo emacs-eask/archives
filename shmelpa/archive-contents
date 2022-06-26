@@ -8651,7 +8651,7 @@
 	  (:keywords "tools")
 	  (:url . "https://gitlab.com/montanari/cosmo-el"))])
  (counsel .
-	  [(0 13 4 1 -4 20220529 1130)
+	  [(0 13 4 1 -4 20220626 1826)
 	   ((emacs
 	     (24 5))
 	    (ivy
@@ -8659,7 +8659,7 @@
 	    (swiper
 	     (0 13 4)))
 	   "Various completion functions using Ivy" single
-	   ((:commit . "f8d80a4055514f92d94f128f5fcb1cda79e5cd22")
+	   ((:commit . "2051de5882706246da298ce5f60482cd7f469fe7")
 	    (:authors
 	     ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	    (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
@@ -14571,6 +14571,25 @@
 		   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
 		   (:keywords "convenience")
 		   (:url . "https://github.com/oantolin/embark"))])
+ (embark-vc .
+	    [(0 2 1 -4 20220625 1903)
+	     ((emacs
+	       (26 1))
+	      (code-review
+	       (0 0 2))
+	      (embark
+	       (0 13))
+	      (forge
+	       (0 3))
+	      (s
+	       (1 12 0)))
+	     "Embark actions for various VC integrations" single
+	     ((:commit . "e0d901a20eab3b627b2aeacd32d9a72f1ffae3c9")
+	      (:authors
+	       ("Ellis Keny\305\221 <https://github.com/elken>"))
+	      (:maintainer "Ellis Keny\305\221" . "me@elken.dev")
+	      (:keywords "convenience" "matching" "terminals" "tools" "unix" "vc")
+	      (:url . "https://github.com/elken/embark-vc"))])
  (ember-mode .
 	     [(0 3 1 1 -4 20200208 1423)
 	      ((cl-lib
@@ -15068,13 +15087,13 @@
 	     (:maintainer "Jonathan Rockway" . "jon@jrock.us")
 	     (:keywords "programming" "projects"))])
  (equake .
-	 [(0 99 1 -4 20220607 2211)
+	 [(0 991 1 -4 20220626 1911)
 	  ((emacs
 	    (26 1))
 	   (dash
 	    (2 14 1)))
 	  "Drop-down console for (e)shell & terminal emulation" single
-	  ((:commit . "1f1f269edd27ffce8b6ead5b317e49fa433b039f")
+	  ((:commit . "91b4fcedc091fc789b7723cf26f241e592a2dd27")
 	   (:authors
 	    ("Benjamin Slade" . "slade@lambda-y.net"))
 	   (:maintainer "Benjamin Slade" . "slade@lambda-y.net")
@@ -29575,7 +29594,7 @@
        ((emacs
 	 (24 5)))
        "Incremental Vertical completYon" tar
-       ((:commit . "8984f50a823152e0efd3aac2b9ac0d76664f0b2f")
+       ((:commit . "2051de5882706246da298ce5f60482cd7f469fe7")
 	(:authors
 	 ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	(:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
@@ -29590,7 +29609,7 @@
 	    (avy
 	     (0 5 0)))
 	   "Avy integration for Ivy" single
-	   ((:commit . "8984f50a823152e0efd3aac2b9ac0d76664f0b2f")
+	   ((:commit . "2051de5882706246da298ce5f60482cd7f469fe7")
 	    (:authors
 	     ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	    (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
@@ -34069,7 +34088,7 @@
 		 (:keywords "languages")
 		 (:url . "https://github.com/emacs-lsp/lsp-treemacs"))])
  (lsp-ui .
-	 [(8 0 0 1 -4 20220619 1731)
+	 [(8 0 0 1 -4 20220626 1956)
 	  ((emacs
 	    (26 1))
 	   (dash
@@ -34079,7 +34098,7 @@
 	   (markdown-mode
 	    (2 3)))
 	  "UI modules for lsp-mode" tar
-	  ((:commit . "ca195f3ba02cb0aebffa439e4d30d4fc0934df63")
+	  ((:commit . "11a3a6540514b3f681fec2e7320be048afafca3c")
 	   (:authors
 	    ("Sebastien Chapuis <sebastien@chapu.is>, Fangrui Song" . "i@maskray.me"))
 	   (:maintainer "Sebastien Chapuis <sebastien@chapu.is>, Fangrui Song" . "i@maskray.me")
@@ -38961,6 +38980,17 @@
 	      (:maintainer "J\303\274rgen H\303\266tzel" . "juergen@archlinux.org")
 	      (:keywords "literate programming" "reproducible research")
 	      (:url . "https://github.com/juergenhoetzel/ob-fsharp"))])
+ (ob-git-permalink .
+		   [(0 1 0 1 -4 20220626 41)
+		    ((emacs
+		      (25 1)))
+		    "Import GitHub code given a permalink" single
+		    ((:commit . "488efd38e487494d2ab5250c90f2a55a93efe5b6")
+		     (:authors
+		      ("kijima Daigo" . "norimaking777@gmail.com"))
+		     (:maintainer "kijima Daigo" . "norimaking777@gmail.com")
+		     (:keywords "docs" "convenience")
+		     (:url . "https://github.com/kijimaD/ob-git-permalink"))])
  (ob-go .
 	[(0 2 1 -4 20190201 2040)
 	 nil "org-babel functions for go evaluation" tar
@@ -42981,13 +43011,13 @@
 		  (:keywords "html" "presentation")
 		  (:url . "http://github.com/coldnew/org-html5slide"))])
  (ox-hugo .
-	  [(0 12 1 1 -4 20220624 431)
+	  [(0 12 1 1 -4 20220626 2055)
 	   ((emacs
 	     (26 3))
 	    (tomelr
 	     (0 4 3)))
 	   "Hugo Markdown Back-End for Org Export Engine" tar
-	   ((:commit . "1572c62304b9c8261416bc739f29add547d3edb9")
+	   ((:commit . "97ff24fe0b8d29c503b88eea69235b02ae71beb0")
 	    (:authors
 	     ("Kaushal Modi" . "kaushal.modi@gmail.com")
 	     ("Matt Price" . "moptop99@gmail.com"))
@@ -50014,7 +50044,7 @@
  (scad-mode .
 	    [(92 0 1 -4 20200830 301)
 	     nil "A major mode for editing OpenSCAD code" single
-	     ((:commit . "6aae7963498675dfb5bedaaef2cb8e56bdcddcab")
+	     ((:commit . "ea8950bd3cd7f06da333c15463492e484098e591")
 	      (:authors
 	       ("Len Trigg, \305\201ukasz Stelmach"))
 	      (:maintainer "Len Trigg" . "lenbok@gmail.com")
@@ -55178,7 +55208,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "9b436013f895729776ba335e5dee145078c0eb3f")
+	  ((:commit . "da777f73faaf3cfb7a60b1c3ae9f477c5bf74bc9")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
