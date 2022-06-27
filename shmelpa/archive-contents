@@ -11719,7 +11719,7 @@
 	   (:keywords "convenience")
 	   (:url . "https://github.com/emacs-pe/docean.el"))])
  (docker .
-	 [(2 1 1 1 -4 20220530 603)
+	 [(2 2 0 1 -4 20220627 2018)
 	  ((aio
 	    (1 0))
 	   (dash
@@ -11728,8 +11728,6 @@
 	    (0 1))
 	   (emacs
 	    (26 1))
-	   (json-mode
-	    (1 8 0))
 	   (s
 	    (1 12 0))
 	   (tablist
@@ -11737,7 +11735,7 @@
 	   (transient
 	    (0 3 7)))
 	  "Interface to Docker" tar
-	  ((:commit . "44f0bbec9b3deb027d17f4c10d8ec4106ed89dfb")
+	  ((:commit . "064bd80b74ae585978cfbfd2a76248c7b3790f7b")
 	   (:authors
 	    ("Philippe Vaucher" . "philippe.vaucher@gmail.com"))
 	   (:maintainer "Philippe Vaucher" . "philippe.vaucher@gmail.com")
@@ -12280,7 +12278,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "6c56e5bdd91525f48825bef7c47a39878d391ae5")
+	((:commit . "6241519b9be7330f7c4a4a58fa6ce7edc7d1e793")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -14584,7 +14582,7 @@
 	      (s
 	       (1 12 0)))
 	     "Embark actions for various VC integrations" single
-	     ((:commit . "a022f89ceaa49465e33b97bdbe046a0b651590ab")
+	     ((:commit . "d25b41b72a72a971311a84fa218e572a26fbc037")
 	      (:authors
 	       ("Ellis Keny\305\221 <https://github.com/elken>"))
 	      (:maintainer "Ellis Keny\305\221" . "me@elken.dev")
@@ -14649,7 +14647,7 @@
 	       (:keywords "convenience")
 	       (:url . "https://github.com/smihica/emmet-mode"))])
  (emms .
-       [(10 1 -4 20220609 1859)
+       [(10 1 -4 20220627 2051)
 	((cl-lib
 	  (0 5))
 	 (nadvice
@@ -14657,7 +14655,7 @@
 	 (seq
 	  (0)))
 	"The Emacs Multimedia System" tar
-	((:commit . "b55bc4fe185799e7821322b60d1707cba2adddfc")
+	((:commit . "912024027e797d2671b4a9ffbfc9f634b8f7aa84")
 	 (:authors
 	  ("Jorgen Sch\303\244fer" . "forcer@forcix.cx"))
 	 (:maintainer "Yoni Rabkin" . "yrk@gnu.org")
@@ -20828,7 +20826,7 @@
 	      (:keywords "faces")
 	      (:url . "https://depp.brause.cc/form-feed"))])
  (format-all .
-	     [(0 5 0 1 -4 20220627 1830)
+	     [(0 5 0 1 -4 20220627 1837)
 	      ((emacs
 		(24 4))
 	       (inheritenv
@@ -20836,7 +20834,7 @@
 	       (language-id
 		(0 19)))
 	      "Auto-format C, C++, JS, Python, Ruby and 50 other languages" single
-	      ((:commit . "5974bc5e735c5cf0e3e0ee74faa496ea05898acd")
+	      ((:commit . "3227bd4d504bc1112e4d3d1c8f148960f4ae64f6")
 	       (:authors
 		("Lassi Kortela" . "lassi@lassi.io"))
 	       (:maintainer "Lassi Kortela" . "lassi@lassi.io")
@@ -20866,7 +20864,7 @@
  (forth-mode .
 	     [(0 2 1 -4 20220402 2103)
 	      nil "Programming language mode for Forth" tar
-	      ((:commit . "122a9916c1ad1f1e3f4888951e1ad92a2fc10804")
+	      ((:commit . "02482582985f5ace243ea07b492ec78520018975")
 	       (:authors
 		("Lars Brinkhoff" . "lars@nocrew.org"))
 	       (:maintainer "Lars Brinkhoff" . "lars@nocrew.org")
@@ -32195,11 +32193,11 @@
 		       (:maintainer "Andreas Jansson" . "andreas@jansson.me.uk")
 		       (:url . "https://github.com/andreasjansson/language-detection.el"))])
  (language-id .
-	      [(0 19 1 -4 20220613 1156)
+	      [(0 19 1 -4 20220627 2112)
 	       ((emacs
 		 (24 3)))
 	       "Library to work with programming language identifiers" single
-	       ((:commit . "e7f743e50c2da3fc18db8ae0ec8e09aa9154414b")
+	       ((:commit . "e48aba3f020724f648fbc5003bc060a8609083e7")
 		(:authors
 		 ("Lassi Kortela" . "lassi@lassi.io"))
 		(:maintainer "Lassi Kortela" . "lassi@lassi.io")
@@ -33896,7 +33894,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20220627 1747)
+	   [(8 0 1 1 -4 20220627 1913)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -33912,7 +33910,7 @@
 	     (lv
 	      (0)))
 	    "LSP mode" tar
-	    ((:commit . "92c1f08c7bdb806f00d37ec6d0bf2c05d3995d44")
+	    ((:commit . "c44cd787a9164df683ac21ece2c05d21cb3deda7")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -34171,7 +34169,7 @@
 	    ((emacs
 	      (24 3)))
 	    "Major mode for editing lux files" single
-	    ((:commit . "3327e350be3290320beea794bfa21676a88a5073")
+	    ((:commit . "3e72cd3474d2668199aec7d2549d852ffe65c8bf")
 	     (:authors
 	      ("H\303\245kan Mattsson"))
 	     (:maintainer "H\303\245kan Mattsson")
@@ -35965,11 +35963,11 @@
 	   (:keywords "multimedia" "elisp" "music" "mpd")
 	   (:url . "https://github.com/pft/mingus"))])
  (mini-frame .
-	     [(0 1 0 1 -4 20220623 2117)
+	     [(0 1 0 1 -4 20220627 2041)
 	      ((emacs
 		(26 1)))
 	      "Show minibuffer in child frame on read-from-minibuffer" single
-	      ((:commit . "aee8c115b479e54dbb9739bf53e8d8ec410e8cd6")
+	      ((:commit . "60838f3cab438dcbda8eaa15ab3e5d1af88910e9")
 	       (:authors
 		("Andrii Kolomoiets" . "andreyk.mad@gmail.com"))
 	       (:maintainer "Andrii Kolomoiets" . "andreyk.mad@gmail.com")
@@ -46813,7 +46811,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "0bea48cad140d3ddda444b580973f8884696559b")
+		 ((:commit . "ca17dad213824de92d61fa2c452b84b6567e74a8")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -47370,7 +47368,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "24aa4d2990dcf15e747e524c970a6c29ec386de7")
+	  ((:commit . "3c5eca2ded3dd2b59ebaf23eb289453b5d2930f0")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
