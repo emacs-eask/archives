@@ -2281,11 +2281,11 @@
 			(:maintainer "Ekaterina Vaartis" . "vaartis@kotobank.ch")
 			(:url . "https://github.com/vaartis/auth-source-kwallet"))])
  (auth-source-xoauth2 .
-		      [(1 0 0 1 -4 20200911 1554)
+		      [(1 0 0 1 -4 20220627 2323)
 		       ((emacs
 			 (26 1)))
 		       "Integrate auth-source with XOAUTH2" single
-		       ((:commit . "d3890eaa3a46dc89758ec6b789949e70ae782896")
+		       ((:commit . "7ba55330bbf1fb24daf6bc28f7993f18f283b5aa")
 			(:authors
 			 ("Cesar Crusius" . "ccrusius@google.com"))
 			(:maintainer "Cesar Crusius" . "ccrusius@google.com")
@@ -15085,13 +15085,13 @@
 	     (:maintainer "Jonathan Rockway" . "jon@jrock.us")
 	     (:keywords "programming" "projects"))])
  (equake .
-	 [(0 991 1 -4 20220626 1911)
+	 [(0 9911 1 -4 20220627 2248)
 	  ((emacs
 	    (26 1))
 	   (dash
 	    (2 14 1)))
 	  "Drop-down console for (e)shell & terminal emulation" single
-	  ((:commit . "91b4fcedc091fc789b7723cf26f241e592a2dd27")
+	  ((:commit . "7aa2e1715e6ea286b08bb446d2d9915afa0fdf03")
 	   (:authors
 	    ("Benjamin Slade" . "slade@lambda-y.net"))
 	   (:maintainer "Benjamin Slade" . "slade@lambda-y.net")
@@ -27542,16 +27542,16 @@
 	      (:keywords "convenience" "faces")
 	      (:url . "https://github.com/ikirill/hl-indent"))])
  (hl-prog-extra .
-		[(0 1 1 -4 20220627 409)
+		[(0 1 1 -4 20220627 2301)
 		 ((emacs
 		   (26 2)))
 		 "Customizable highlighting for source-code" tar
-		 ((:commit . "37415944505239870face16559174523920b761a")
+		 ((:commit . "c6f1ad55d12c5b726a797fa2216d4ddb3a261764")
 		  (:authors
 		   ("Campbell Barton" . "ideasman42@gmail.com"))
 		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		  (:keywords "convenience")
-		  (:url . "https://codeberg.com/ideasman42/emacs-hl-prog-extra"))])
+		  (:url . "https://codeberg.org/ideasman42/emacs-hl-prog-extra"))])
  (hl-sentence .
 	      [(3 1 -4 20171018 1519)
 	       nil "highlight a sentence based on customizable face" single
@@ -36973,7 +36973,7 @@
 		      (all-the-icons
 		       (4 0 0)))
 		     "Display icons for mu4e markers" single
-		     ((:commit . "1c2c26c0aaa5beba34ef13c62c9b4c6e02de7c2f")
+		     ((:commit . "d343dabacd6ee709782aa20b5647480673228916")
 		      (:keywords "mail")
 		      (:url . "https://repo.or.cz/mu4e-marker-icons.git"))])
  (mu4e-overview .
@@ -39471,7 +39471,7 @@
 	       ((emacs
 		 (24 3)))
 	       "Utility functions to format ocaml code" single
-	       ((:commit . "279f4c7104b707666b8958eebc9d9777d2220e18")
+	       ((:commit . "1bb32fb493fb3589458bb135d54add6d8c92a353")
 		(:keywords "languages" "ocaml")
 		(:url . "https://github.com/ocaml-ppx/ocamlformat"))])
  (occidental-theme .
@@ -47273,7 +47273,7 @@
 	      (:keywords "data" "games" "chess")
 	      (:url . "https://github.com/dwcoates/pygn-mode"))])
  (pyim .
-       [(5 1 0 1 -4 20220627 935)
+       [(5 1 0 1 -4 20220627 2246)
 	((emacs
 	  (25 1))
 	 (async
@@ -47281,7 +47281,7 @@
 	 (xr
 	  (1 13)))
 	"A Chinese input method support quanpin, shuangpin, wubi, cangjie and rime." tar
-	((:commit . "e1aeac91ee18726603f31a8158a239aad6899526")
+	((:commit . "24705a2dee8c3bc0ac677eda9b57a7ecedd028d3")
 	 (:authors
 	  ("Ye Wenbin" . "wenbinye@163.com")
 	  ("Feng Shu" . "tumashu@163.com"))
@@ -52877,16 +52877,16 @@
 		(:keywords "date" "time")
 		(:url . "https://github.com/xuchunyang/emacs-speeddating"))])
  (spell-fu .
-	   [(0 3 1 -4 20220507 1118)
+	   [(0 3 1 -4 20220627 2309)
 	    ((emacs
 	      (26 2)))
 	    "Fast & light spelling highlighter" single
-	    ((:commit . "1299bfca2ec9bdca0424fcaa330ddadc8f8d1143")
+	    ((:commit . "cbe5cd84c3375ebf6c1ce00d8eb4af7f62a9d710")
 	     (:authors
 	      ("Campbell Barton" . "ideasman42@gmail.com"))
 	     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 	     (:keywords "convenience")
-	     (:url . "https://codeberg.com/ideasman42/emacs-spell-fu"))])
+	     (:url . "https://codeberg.org/ideasman42/emacs-spell-fu"))])
  (sphinx-doc .
 	     [(0 3 0 1 -4 20210213 1250)
 	      ((s
@@ -54626,7 +54626,7 @@
 	 (:keywords "convenience" "emulations" "files")
 	 (:url . "https://github.com/mtk/teco.git"))])
  (telega .
-	 [(0 8 40 1 -4 20220625 1718)
+	 [(0 8 40 1 -4 20220628 4)
 	  ((emacs
 	    (26 1))
 	   (visual-fill-column
@@ -54634,7 +54634,7 @@
 	   (rainbow-identifiers
 	    (0 2 2)))
 	  "Telegram client (unofficial)" tar
-	  ((:commit . "996388638b7658414463ab2ae51e5fd8576e8c54")
+	  ((:commit . "24453af66516ab548d44c09e508af9e944551946")
 	   (:authors
 	    ("Zajcev Evgeny" . "zevlg@yandex.ru"))
 	   (:maintainer "Zajcev Evgeny" . "zevlg@yandex.ru")
@@ -55216,7 +55216,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "db4cd2f7b44e45b5aca40805b831c4fbf9c211fe")
+	  ((:commit . "dabd2148cddb7d4be4ac19e97d969b76d18f2006")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -59646,15 +59646,15 @@
 	     (:keywords "javascript" "convenience" "tools")
 	     (:url . "https://github.com/NicolasPetton/xref-js2"))])
  (xref-rst .
-	   [(0 1 1 -4 20220518 1102)
+	   [(0 1 1 -4 20220523 1234)
 	    ((emacs
 	      (28 1)))
 	    "Lookup reStructuredText symbols" single
-	    ((:commit . "bc76bc228d51f64a2e57be8f230cf8a7746ea54a")
+	    ((:commit . "4cbe37a4ae45dda7f8228f9490408eba3f92a19e")
 	     (:authors
 	      ("Campbell Barton" . "ideasman42@gmail.com"))
 	     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-	     (:url . "https://gitlab.com/ideasman42/emacs-xref-rst"))])
+	     (:url . "https://codeberg.org/ideasman42/emacs-xref-rst"))])
  (xresources-theme .
 		   [(1 0 0 1 -4 20190108 1851)
 		    nil "Use your .Xresources as your emacs theme" single
