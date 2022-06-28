@@ -5341,7 +5341,7 @@
  (cfengine-code-style .
 		      [(0 1 0 1 -4 20171115 2108)
 		       nil "C code style for CFEngine project." single
-		       ((:commit . "311f7b0b7633dd6f2d1daf2073fe6101b1ef523c")
+		       ((:commit . "e90d6b5823ad4e18a6526e0f883bf2e88f61da4d")
 			(:authors
 			 ("Mikhail Gusarov" . "mikhail.gusarov@cfengine.com"))
 			(:maintainer "Mikhail Gusarov" . "mikhail.gusarov@cfengine.com")
@@ -11297,13 +11297,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 3 21 1 -4 20220628 522)
+	  [(1 3 21 1 -4 20220628 736)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "71f2367680c990ce0d3c6ab0a7b2890182931a73")
+	   ((:commit . "ca78ba036326e662ee85809ca6cdd805bb0d9d02")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -11916,7 +11916,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(3 3 2 1 -4 20220624 1131)
+		[(3 3 2 1 -4 20220628 718)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -11924,7 +11924,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "16679e21256754cdcf4c35535546a8aca5a2a295")
+		 ((:commit . "c78d45bc33f77281d925e68f8d50d93fc4ec829a")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
@@ -20826,7 +20826,7 @@
 	      (:keywords "faces")
 	      (:url . "https://depp.brause.cc/form-feed"))])
  (format-all .
-	     [(0 5 0 1 -4 20220627 1837)
+	     [(0 5 0 1 -4 20220628 741)
 	      ((emacs
 		(24 4))
 	       (inheritenv
@@ -20834,7 +20834,7 @@
 	       (language-id
 		(0 19)))
 	      "Auto-format C, C++, JS, Python, Ruby and 50 other languages" single
-	      ((:commit . "3227bd4d504bc1112e4d3d1c8f148960f4ae64f6")
+	      ((:commit . "4101593c7e7f7da86c14841bd450d561e89e66d6")
 	       (:authors
 		("Lassi Kortela" . "lassi@lassi.io"))
 	       (:maintainer "Lassi Kortela" . "lassi@lassi.io")
@@ -21303,13 +21303,13 @@
 	  ("Natalie Weizenbaum" . "nweiz@google.com"))
 	 (:maintainer "Natalie Weizenbaum" . "nweiz@google.com"))])
  (fussy .
-	[(1 0 1 -4 20220611 1853)
+	[(1 0 1 -4 20220628 731)
 	 ((emacs
 	   (27 2))
 	  (flx
 	   (0 5)))
 	 "Fuzzy completion style using `flx'" single
-	 ((:commit . "1b27205245484a44439785460e989f49fb615dc5")
+	 ((:commit . "0452a374cf290592a217fe77ed45d9f912790954")
 	  (:authors
 	   ("James Nguyen" . "james@jojojames.com"))
 	  (:maintainer "James Nguyen" . "james@jojojames.com")
@@ -24582,13 +24582,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 8 5 1 -4 20220626 549)
+       [(3 8 5 1 -4 20220628 701)
 	((helm-core
 	  (3 8 4))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "a4b655974573c14ebce1fa6b79f620e8aaf10ec8")
+	((:commit . "0f905a6c626de2fd103dac699afcd252e43b1161")
 	 (:authors
 	  ("Thierry Volpiatto "))
 	 (:maintainer "Thierry Volpiatto ")
@@ -25041,7 +25041,7 @@
 	      (async
 	       (1 9 4)))
 	     "Development files for Helm" tar
-	     ((:commit . "a4b655974573c14ebce1fa6b79f620e8aaf10ec8")
+	     ((:commit . "0f905a6c626de2fd103dac699afcd252e43b1161")
 	      (:authors
 	       ("Thierry Volpiatto "))
 	      (:maintainer "Thierry Volpiatto ")
@@ -25925,11 +25925,11 @@
 		  (:maintainer "Julien BLANCHARD" . "julien@sideburns.eu")
 		  (:url . "https://github.com/julienXX/helm-lobste.rs"))])
  (helm-ls-git .
-	      [(0 1 0 1 -4 20220622 526)
+	      [(0 1 0 1 -4 20220628 759)
 	       ((helm
 		 (1 7 8)))
 	       "list git files." single
-	       ((:commit . "87ae2f0f1147295cbef6101df1698cb3942a69c3"))])
+	       ((:commit . "b66ffadcb6adabc2ffb99f8725336f96a1207412"))])
  (helm-ls-hg .
 	     [(0 1 0 1 -4 20150909 543)
 	      ((helm
@@ -33894,7 +33894,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20220627 1913)
+	   [(8 0 1 1 -4 20220628 907)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -33910,7 +33910,7 @@
 	     (lv
 	      (0)))
 	    "LSP mode" tar
-	    ((:commit . "c44cd787a9164df683ac21ece2c05d21cb3deda7")
+	    ((:commit . "4b23ed460243f860327ba105e753326a721edd82")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -39080,7 +39080,7 @@
 	       (:keywords "literate programming" "reproducible research")
 	       (:url . "http://www.gregsexton.org"))])
  (ob-julia-vterm .
-		 [(0 2 4 1 -4 20220625 20)
+		 [(0 2 5 1 -4 20220628 722)
 		  ((emacs
 		    (26 1))
 		   (julia-vterm
@@ -39088,7 +39088,7 @@
 		   (queue
 		    (0 2)))
 		  "Babel Functions for Julia in VTerm" single
-		  ((:commit . "a7ff8f05e4a7af4082262c7a7ba3d83ae490a7f3")
+		  ((:commit . "abf149274bd98f562d34d4dbd8d65350a12e2c8e")
 		   (:authors
 		    ("Shigeaki Nishina"))
 		   (:maintainer "Shigeaki Nishina")
@@ -42274,7 +42274,7 @@
 		     (org
 		      (9 0)))
 		    "Helper functions to use Zettelkasten in org-mode" single
-		    ((:commit . "603a5b692a08340c1865a6f73cacf57c4fd64cb2")
+		    ((:commit . "f470db20ad0a7e591daa73c903524ac267ae7236")
 		     (:authors
 		      ("Yann Herklotz" . "yann@ymhg.org"))
 		     (:maintainer "Yann Herklotz" . "yann@ymhg.org")
