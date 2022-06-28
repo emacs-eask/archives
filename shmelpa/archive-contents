@@ -2281,11 +2281,11 @@
 			(:maintainer "Ekaterina Vaartis" . "vaartis@kotobank.ch")
 			(:url . "https://github.com/vaartis/auth-source-kwallet"))])
  (auth-source-xoauth2 .
-		      [(1 0 0 1 -4 20220627 2323)
+		      [(1 0 0 1 -4 20220628 1725)
 		       ((emacs
 			 (26 1)))
 		       "Integrate auth-source with XOAUTH2" single
-		       ((:commit . "7ba55330bbf1fb24daf6bc28f7993f18f283b5aa")
+		       ((:commit . "7beca7b939f2a5534867e0d8b06ba1d442685da7")
 			(:authors
 			 ("Cesar Crusius" . "ccrusius@google.com"))
 			(:maintainer "Cesar Crusius" . "ccrusius@google.com")
@@ -5048,7 +5048,7 @@
 	       (:keywords "convenience")
 	       (:url . "https://github.com/HKey/caseformat"))])
  (cask .
-       [(0 8 9 -1 1 -4 20220619 2144)
+       [(0 8 9 -1 1 -4 20220628 1540)
 	((emacs
 	  (24 5))
 	 (s
@@ -5066,7 +5066,7 @@
 	 (ansi
 	  (0 4 1)))
 	"Cask: Project management for package development" tar
-	((:commit . "66b52168f3ac5adebcd50582e4bd36267bf4433b")
+	((:commit . "f72c8b6bd25c7a648b7422c4030ae95352e55eae")
 	 (:authors
 	  ("Johan Andersson" . "johan.rejeep@gmail.com"))
 	 (:maintainer "Johan Andersson" . "johan.rejeep@gmail.com")
@@ -6600,7 +6600,7 @@
 		 (:maintainer "DarkSun" . "lujun9972@gmail.com")
 		 (:keywords "lisp" "code"))])
  (code-review .
-	      [(0 0 7 1 -4 20220503 1344)
+	      [(0 0 7 1 -4 20220628 1636)
 	       ((emacs
 		 (25 1))
 		(closql
@@ -6622,7 +6622,7 @@
 		(emojify
 		 (1 2)))
 	       "Perform code review from Github, Gitlab, and Bitbucket Cloud" tar
-	       ((:commit . "68f861e9427d476247805cd34a118ffc6e0673e8")
+	       ((:commit . "e4014c54ba3f53a83d068fdd9fa537f7e2416b78")
 		(:authors
 		 ("Wanderson Ferreira <https://github.com/wandersoncferreira>"))
 		(:maintainer "Wanderson Ferreira" . "wand@hey.com")
@@ -11297,13 +11297,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 3 21 1 -4 20220628 1315)
+	  [(1 3 21 1 -4 20220628 1714)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "dbe912dcf6d75431ce473f839a89e5c4c228f51d")
+	   ((:commit . "872e0edcf127d417c6b2ceeb715121d7e72e5d3f")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -11916,7 +11916,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(3 3 2 1 -4 20220628 718)
+		[(3 3 2 1 -4 20220628 1811)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -11924,7 +11924,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "c78d45bc33f77281d925e68f8d50d93fc4ec829a")
+		 ((:commit . "e138abb37679a86d48d3e05d3a8528bc391e8ba0")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
@@ -13527,11 +13527,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 1 3 -4 20220607 2112)
+	[(1 1 4 -4 20220628 1756)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "61e3d10df55c8600f3a1f504dd718a1fe368ab50")
+	 ((:commit . "cf837cf05575c1c77c316eadac603a3edace8e5f")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
@@ -16919,11 +16919,9 @@
 	      (:keywords "evil" "tab" "tabs" "vim")
 	      (:url . "https://github.com/krisajenkins/evil-tabs"))])
  (evil-terminal-cursor-changer .
-			       [(0 0 4 1 -4 20220628 1231)
-				((evil
-				  (1 0 8)))
-				"Change cursor shape and color by evil state in terminal" single
-				((:commit . "66403b9f22dd1766f4840f163173011148f6e9eb")
+			       [(0 0 4 1 -4 20220628 1831)
+				nil "Change cursor shape and color by evil state in terminal" single
+				((:commit . "12ea9c0438c67e560b3866dc78b5c7d1d93f8cc5")
 				 (:authors
 				  ("7696122"))
 				 (:maintainer "7696122")
