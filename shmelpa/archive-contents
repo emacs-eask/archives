@@ -12278,7 +12278,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "6241519b9be7330f7c4a4a58fa6ce7edc7d1e793")
+	((:commit . "c9dccf06160e8aca0e98f480f74efb9b2b910a5f")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -14570,7 +14570,7 @@
 		   (:keywords "convenience")
 		   (:url . "https://github.com/oantolin/embark"))])
  (embark-vc .
-	    [(0 2 1 -4 20220627 531)
+	    [(0 2 1 -4 20220628 1215)
 	     ((emacs
 	       (26 1))
 	      (code-review
@@ -14581,8 +14581,8 @@
 	       (0 3))
 	      (s
 	       (1 12 0)))
-	     "Embark actions for various VC integrations" single
-	     ((:commit . "d25b41b72a72a971311a84fa218e572a26fbc037")
+	     "Embark actions for various version control integrations" single
+	     ((:commit . "ca995ad8fd90a7e8a5cf78982a9953edd7f756e4")
 	      (:authors
 	       ("Ellis Keny\305\221 <https://github.com/elken>"))
 	      (:maintainer "Ellis Keny\305\221" . "me@elken.dev")
@@ -20826,7 +20826,7 @@
 	      (:keywords "faces")
 	      (:url . "https://depp.brause.cc/form-feed"))])
  (format-all .
-	     [(0 5 0 1 -4 20220628 741)
+	     [(0 5 0 1 -4 20220628 1228)
 	      ((emacs
 		(24 4))
 	       (inheritenv
@@ -20834,7 +20834,7 @@
 	       (language-id
 		(0 19)))
 	      "Auto-format C, C++, JS, Python, Ruby and 50 other languages" single
-	      ((:commit . "4101593c7e7f7da86c14841bd450d561e89e66d6")
+	      ((:commit . "7e047a45f41884d045e1a66421891ee1c1f48376")
 	       (:authors
 		("Lassi Kortela" . "lassi@lassi.io"))
 	       (:maintainer "Lassi Kortela" . "lassi@lassi.io")
@@ -23596,7 +23596,7 @@
 	 (json-mode
 	  (1 6 0)))
 	"Interface to govc for managing VMware ESXi and vCenter" single
-	((:commit . "06eb50d897338eea7451a2c0ee2ff560f20159dd")
+	((:commit . "106441a74bd8eb3545acc66b5ba6456ce24fedf3")
 	 (:authors
 	  ("The govc developers"))
 	 (:maintainer "The govc developers")
@@ -24582,13 +24582,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 8 5 1 -4 20220628 701)
+       [(3 8 5 1 -4 20220628 845)
 	((helm-core
 	  (3 8 4))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "0f905a6c626de2fd103dac699afcd252e43b1161")
+	((:commit . "7cd4a463153447c8dd7ad60173ccabfe8a367d55")
 	 (:authors
 	  ("Thierry Volpiatto "))
 	 (:maintainer "Thierry Volpiatto ")
@@ -25041,7 +25041,7 @@
 	      (async
 	       (1 9 4)))
 	     "Development files for Helm" tar
-	     ((:commit . "0f905a6c626de2fd103dac699afcd252e43b1161")
+	     ((:commit . "7cd4a463153447c8dd7ad60173ccabfe8a367d55")
 	      (:authors
 	       ("Thierry Volpiatto "))
 	      (:maintainer "Thierry Volpiatto ")
@@ -25925,11 +25925,11 @@
 		  (:maintainer "Julien BLANCHARD" . "julien@sideburns.eu")
 		  (:url . "https://github.com/julienXX/helm-lobste.rs"))])
  (helm-ls-git .
-	      [(0 1 0 1 -4 20220628 759)
+	      [(0 1 0 1 -4 20220628 803)
 	       ((helm
 		 (1 7 8)))
 	       "list git files." single
-	       ((:commit . "b66ffadcb6adabc2ffb99f8725336f96a1207412"))])
+	       ((:commit . "3ce20c3fe1b1debc2461f54d92d63e77a7c29637"))])
  (helm-ls-hg .
 	     [(0 1 0 1 -4 20150909 543)
 	      ((helm
@@ -34281,13 +34281,13 @@
 	       (:keywords "games" "word games" "anagram")
 	       (:url . "https://github.com/pawelbx/anagram-game"))])
  (macports .
-	   [(0 1 0 1 -4 20220613 1355)
+	   [(0 1 0 1 -4 20220628 1201)
 	    ((emacs
 	      (25 1))
 	     (transient
 	      (0 1 0)))
 	    "A porcelain for MacPorts" tar
-	    ((:commit . "7327a13f2706edc740f25630719f128f393598a0")
+	    ((:commit . "ca72bc5719bae6785c9f69e95e54d0522ee3d157")
 	     (:authors
 	      ("Aaron Madlon-Kay"))
 	     (:maintainer "Aaron Madlon-Kay")
@@ -35591,7 +35591,7 @@
 	  ((emacs
 	    (25 1)))
 	  "Mode for Merlin, an assistant for OCaml" tar
-	  ((:commit . "cc0ef799302c45478a09bc1e9749e3b61188b325")
+	  ((:commit . "78a2ac7a37958edb005b0ddc457d65bd6387b19f")
 	   (:authors
 	    ("Fr\303\251d\303\251ric Bour <frederic.bour(_)lakaban.net>"))
 	   (:maintainer "Fr\303\251d\303\251ric Bour <frederic.bour(_)lakaban.net>")
@@ -35606,7 +35606,7 @@
 	      (auto-complete
 	       (1 5)))
 	     "Merlin and auto-complete integration." single
-	     ((:commit . "cc0ef799302c45478a09bc1e9749e3b61188b325")
+	     ((:commit . "78a2ac7a37958edb005b0ddc457d65bd6387b19f")
 	      (:authors
 	       ("Simon Castellan <simon.castellan(_)iuwt.fr>")
 	       ("Fr\303\251d\303\251ric Bour <frederic.bour(_)lakaban.net>")
@@ -35623,7 +35623,7 @@
 		   (company
 		    (0 9)))
 		  "Merlin and company mode integration." single
-		  ((:commit . "cc0ef799302c45478a09bc1e9749e3b61188b325")
+		  ((:commit . "78a2ac7a37958edb005b0ddc457d65bd6387b19f")
 		   (:authors
 		    ("Simon Castellan <simon.castellan(_)iuwt.fr>")
 		    ("Fr\303\251d\303\251ric Bour <frederic.bour(_)lakaban.net>")
@@ -35653,7 +35653,7 @@
 		 (iedit
 		  (0 9)))
 		"Merlin and iedit integration." single
-		((:commit . "cc0ef799302c45478a09bc1e9749e3b61188b325")
+		((:commit . "78a2ac7a37958edb005b0ddc457d65bd6387b19f")
 		 (:authors
 		  ("Simon Castellan <simon.castellan(_)iuwt.fr>")
 		  ("Fr\303\251d\303\251ric Bour <frederic.bour(_)lakaban.net>")
@@ -47273,7 +47273,7 @@
 	      (:keywords "data" "games" "chess")
 	      (:url . "https://github.com/dwcoates/pygn-mode"))])
  (pyim .
-       [(5 1 0 1 -4 20220628 634)
+       [(5 1 0 1 -4 20220628 1238)
 	((emacs
 	  (25 1))
 	 (async
@@ -47281,7 +47281,7 @@
 	 (xr
 	  (1 13)))
 	"A Chinese input method support quanpin, shuangpin, wubi, cangjie and rime." tar
-	((:commit . "48549c5688f5ae97871631447cc45049c458718f")
+	((:commit . "b28653f340bec21b275ad8e00476c0aaef7f20d4")
 	 (:authors
 	  ("Ye Wenbin" . "wenbinye@163.com")
 	  ("Feng Shu" . "tumashu@163.com"))
@@ -59238,11 +59238,11 @@
 	 (:keywords "lisp")
 	 (:url . "https://github.com/abo-abo/worf"))])
  (workgroups2 .
-	      [(1 2 1 1 -4 20220626 1144)
+	      [(1 2 1 1 -4 20220628 1244)
 	       ((emacs
 		 (25 1)))
 	       "save&load multiple named workspaces (or \"workgroups\")" tar
-	       ((:commit . "9d0cf8923c7e026d783a243c0c971b935f4bc4f5")
+	       ((:commit . "892f2dde2a45396685c89552157250c238fbc582")
 		(:authors
 		 ("Sergey Pashinin <sergey at pashinin dot com>"))
 		(:maintainer "Sergey Pashinin <sergey at pashinin dot com>")
