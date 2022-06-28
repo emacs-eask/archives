@@ -3113,7 +3113,7 @@
  (base16-theme .
 	       [(3 0 1 -4 20220621 905)
 		nil "Collection of themes built on combinations of 16 base colors" tar
-		((:commit . "283f461969b9c29055e9e2aa1547b605c096949b")
+		((:commit . "ecc3539f61f0c58091d522cf88bd86be748ca965")
 		 (:authors
 		  ("Kaleb Elwert" . "belak@coded.io")
 		  ("Neil Bhakta"))
@@ -5341,7 +5341,7 @@
  (cfengine-code-style .
 		      [(0 1 0 1 -4 20171115 2108)
 		       nil "C code style for CFEngine project." single
-		       ((:commit . "e90d6b5823ad4e18a6526e0f883bf2e88f61da4d")
+		       ((:commit . "502608a7b9feb9102878734d048db95118891a55")
 			(:authors
 			 ("Mikhail Gusarov" . "mikhail.gusarov@cfengine.com"))
 			(:maintainer "Mikhail Gusarov" . "mikhail.gusarov@cfengine.com")
@@ -6501,7 +6501,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "10bacfb26b77ebe686537f1ea5d76bc5308b86ab"))])
+	      ((:commit . "31cbe200f3f047a5e62fb851a2757f39dbf05c78"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -6622,7 +6622,7 @@
 		(emojify
 		 (1 2)))
 	       "Perform code review from Github, Gitlab, and Bitbucket Cloud" tar
-	       ((:commit . "d38fbe59304ed31c759ce733cda16f69a8ef2d8c")
+	       ((:commit . "68f861e9427d476247805cd34a118ffc6e0673e8")
 		(:authors
 		 ("Wanderson Ferreira <https://github.com/wandersoncferreira>"))
 		(:maintainer "Wanderson Ferreira" . "wand@hey.com")
@@ -11297,13 +11297,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 3 21 1 -4 20220628 736)
+	  [(1 3 21 1 -4 20220628 1315)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "ca78ba036326e662ee85809ca6cdd805bb0d9d02")
+	   ((:commit . "dbe912dcf6d75431ce473f839a89e5c4c228f51d")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -12278,7 +12278,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "c9dccf06160e8aca0e98f480f74efb9b2b910a5f")
+	((:commit . "76a9b17fecf530fdb85564540c1bc7aacf2788ea")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -14381,11 +14381,11 @@
 	(:keywords "docs" "libraries" "packages")
 	(:url . "https://github.com/emacscollective/elx"))])
  (emacs-everywhere .
-		   [(0 1 0 1 -4 20220517 1401)
+		   [(0 1 0 1 -4 20220628 1501)
 		    ((emacs
 		      (26 3)))
 		    "System-wide popup windows for quick edits" single
-		    ((:commit . "0d0d1854299aa50edb3fd57317949c00f3fcbb03")
+		    ((:commit . "cbe56e216df38756de11370535601b5324fdc63b")
 		     (:authors
 		      ("TEC <https://github.com/tecosaur>"))
 		     (:maintainer "TEC" . "tec@tecosaur.com")
@@ -15346,7 +15346,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "bb266f56661eced6104666f65f363edbfa5fb492")
+	  ((:commit . "fe943ccd02d2fe390687a414cb058c86ec7493e2")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -16919,9 +16919,11 @@
 	      (:keywords "evil" "tab" "tabs" "vim")
 	      (:url . "https://github.com/krisajenkins/evil-tabs"))])
  (evil-terminal-cursor-changer .
-			       [(0 0 4 1 -4 20220514 258)
-				nil "Change cursor shape and color by evil state in terminal" single
-				((:commit . "81ede5cfa5d8944aa4777987c846a27e28457266")
+			       [(0 0 4 1 -4 20220628 1231)
+				((evil
+				  (1 0 8)))
+				"Change cursor shape and color by evil state in terminal" single
+				((:commit . "66403b9f22dd1766f4840f163173011148f6e9eb")
 				 (:authors
 				  ("7696122"))
 				 (:maintainer "7696122")
@@ -20862,9 +20864,9 @@
 		 (:keywords "data")
 		 (:url . "https://github.com/functionreturnfunction/format-table"))])
  (forth-mode .
-	     [(0 2 1 -4 20220402 2103)
+	     [(0 2 1 -4 20220628 1335)
 	      nil "Programming language mode for Forth" tar
-	      ((:commit . "02482582985f5ace243ea07b492ec78520018975")
+	      ((:commit . "3ad7b9e9d6b9b69140ceed8ffabaa58aa89b78cb")
 	       (:authors
 		("Lars Brinkhoff" . "lars@nocrew.org"))
 	       (:maintainer "Lars Brinkhoff" . "lars@nocrew.org")
@@ -25925,11 +25927,11 @@
 		  (:maintainer "Julien BLANCHARD" . "julien@sideburns.eu")
 		  (:url . "https://github.com/julienXX/helm-lobste.rs"))])
  (helm-ls-git .
-	      [(0 1 0 1 -4 20220628 803)
+	      [(0 1 0 1 -4 20220628 1411)
 	       ((helm
 		 (1 7 8)))
 	       "list git files." single
-	       ((:commit . "3ce20c3fe1b1debc2461f54d92d63e77a7c29637"))])
+	       ((:commit . "db922016dfe6b673210e8e5b40e8f5103b57333d"))])
  (helm-ls-hg .
 	     [(0 1 0 1 -4 20150909 543)
 	      ((helm
@@ -32866,7 +32868,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "237ff4ed65b0f5722eb25bc9738ebf63212d697e")
+	     ((:commit . "cc9bbfcb0a6ec18c4f9549fd5948bf67e761df0d")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
