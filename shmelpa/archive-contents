@@ -6720,13 +6720,13 @@
 		      (:maintainer "Jason Milkins")
 		      (:url . "https://github.com/emacsfodder/tmtheme-to-deftheme"))])
  (color-identifiers-mode .
-			 [(1 1 1 -4 20220327 1143)
+			 [(1 1 1 -4 20220629 1800)
 			  ((dash
 			    (2 5 0))
 			   (emacs
 			    (24)))
 			  "Color identifiers based on their names" single
-			  ((:commit . "6fe76f0c3090f6023da3806e9d760e93810905d4")
+			  ((:commit . "caed36cc21b6a7f659dda8a3ace1a607daa30f6f")
 			   (:authors
 			    ("Ankur Dave" . "ankurdave@gmail.com"))
 			   (:maintainer "Ankur Dave" . "ankurdave@gmail.com")
@@ -10046,13 +10046,13 @@
 	      (:keywords "files" "convenience")
 	      (:url . "https://github.com/DerBeutlin/date2name.el"))])
  (datetime .
-	   [(0 7 1 1 -4 20211016 1656)
+	   [(0 7 3 -4 20220629 1806)
 	    ((emacs
 	      (24 4))
 	     (extmap
 	      (1 1 1)))
 	    "Parsing, formatting and matching timestamps" tar
-	    ((:commit . "77dc214d9ae853c7206ae95cc92d720445c1eeb4")
+	    ((:commit . "3505de8bd176056083a1da73226f9e77cc50c4b7")
 	     (:authors
 	      ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	     (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
@@ -11918,7 +11918,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(3 3 2 1 -4 20220628 1811)
+		[(3 3 2 1 -4 20220629 1718)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -11926,7 +11926,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "e138abb37679a86d48d3e05d3a8528bc391e8ba0")
+		 ((:commit . "26557338fdcadd2c081d7464c59859ba46c3ae82")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
@@ -13117,7 +13117,7 @@
 	  (:keywords "convenience" "languages")
 	  (:url . "https://github.com/joaotavora/eglot"))])
  (eglot-fsharp .
-	       [(1 10 1 -4 20220619 1216)
+	       [(1 10 1 -4 20220629 1828)
 		((emacs
 		  (27 1))
 		 (eglot
@@ -13127,7 +13127,7 @@
 		 (jsonrpc
 		  (1 0 14)))
 		"fsharp-mode eglot integration" single
-		((:commit . "c1e58c61f9b57ddd6c0199581ec3784e361d61b4")
+		((:commit . "6b0e27a75a2bfd1db08bd4d002d31ba67456eb1c")
 		 (:authors
 		  ("J\303\274rgen H\303\266tzel" . "juergen@hoetzel.info"))
 		 (:maintainer "J\303\274rgen H\303\266tzel" . "juergen@hoetzel.info")
@@ -15804,11 +15804,11 @@
 		 (:keywords "data")
 		 (:url . "https://github.com/mhayashi1120/Emacs-esqlite"))])
  (ess .
-      [(18 10 3 -4 20220621 1054)
+      [(18 10 3 -4 20220629 1607)
        ((emacs
 	 (25 1)))
        "Emacs Speaks Statistics" tar
-       ((:commit . "1eac54456e00bfcf96ee69ce56311c5d9943aaa1")
+       ((:commit . "1069abd4e241ebc223e15c2060d1818ac772c845")
 	(:authors
 	 ("David Smith" . "dsmith@stats.adelaide.edu.au")
 	 ("A.J. Rossini" . "blindglobe@gmail.com")
@@ -21207,7 +21207,7 @@
 	       ((emacs
 		 (25)))
 	       "Support for the F# programming language" tar
-	       ((:commit . "c1e58c61f9b57ddd6c0199581ec3784e361d61b4")
+	       ((:commit . "6b0e27a75a2bfd1db08bd4d002d31ba67456eb1c")
 		(:authors
 		 ("1993-1997 Xavier Leroy, Jacques Garrigue and Ian T Zimmerman")
 		 ("2010-2011 Laurent Le Brun" . "laurent@le-brun.eu")
@@ -21245,7 +21245,7 @@
 	 (emacs
 	  (24 2)))
 	"Major mode for the Factor programming language." tar
-	((:commit . "df96aba69203125821f1212f49e9e20c7af498ba"))])
+	((:commit . "f9bec769243203e0226fc2a5fefb734e977c3f00"))])
  (fuff .
        [(0 1 1 -4 20170202 1503)
 	((seq
@@ -30419,7 +30419,7 @@
 		    ((:commit . "fa5545be1329df3067dcfd81749bbd99df070d6b")
 		     (:url . "https://github.com/john2x/jenkinsfile-mode"))])
  (jest .
-       [(0 1 0 1 -4 20220114 213)
+       [(0 1 0 1 -4 20220629 1825)
 	((emacs
 	  (24 4))
 	 (dash
@@ -30434,8 +30434,8 @@
 	  (20180301))
 	 (cl-lib
 	  (0 6 1)))
-	"helpers to run jest" single
-	((:commit . "760a783a190afb23e12cf3cf3d8949e9a53c7c79")
+	"helpers to run jest" tar
+	((:commit . "0bb565aa86454bb5b24ba61f83e73d6476505f1e")
 	 (:authors
 	  ("Edmund Miller" . "edmund.a.miller@gmail.com"))
 	 (:maintainer "Edmund Miller" . "edmund.a.miller@gmail.com")
@@ -39473,7 +39473,7 @@
 	       ((emacs
 		 (24 3)))
 	       "Utility functions to format ocaml code" single
-	       ((:commit . "1bb32fb493fb3589458bb135d54add6d8c92a353")
+	       ((:commit . "4a2d7c9e43430b8a0dae376e006a935e0d92c2af")
 		(:keywords "languages" "ocaml")
 		(:url . "https://github.com/ocaml-ppx/ocamlformat"))])
  (occidental-theme .
@@ -55218,7 +55218,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "f51f3e26e67e3d0d8679b4979ced180b7ad2f5ed")
+	  ((:commit . "3ca67a697416eef0d77c8ed2dec2ddb7174781af")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -56394,13 +56394,13 @@
 	    nil "mode for Turtle (and Notation 3)" single
 	    ((:commit . "8aa647178942c9be58e5c9cea1e6ede30c8fd562"))])
  (tuareg .
-	 [(2 3 0 1 -4 20220628 1516)
+	 [(2 3 0 1 -4 20220629 1711)
 	  ((emacs
 	    (24 4))
 	   (caml
 	    (4 8)))
 	  "OCaml mode" tar
-	  ((:commit . "3fdf4f28695b9e2ecee0044c6d8c4a2c3b9f0638")
+	  ((:commit . "b93890a87700ec6bbf73e6afa1c6a3213be14a00")
 	   (:authors
 	    ("Albert Cohen" . "Albert.Cohen@inria.fr")
 	    ("Sam Steingold" . "sds@gnu.org")
@@ -58828,11 +58828,11 @@
 		 (:keywords "wikipedia" "utility")
 		 (:url . "https://github.com/jozefg/wiki-summary.el"))])
  (wikinfo .
-	  [(0 0 0 1 -4 20220121 2017)
+	  [(0 0 0 1 -4 20220629 1826)
 	   ((emacs
 	     (27 1)))
 	   "Scrape Wikipedia Infoboxes" single
-	   ((:commit . "b149228023d4abb29555ce69877df521887cafe9")
+	   ((:commit . "bd5d58bbee4eb7eaa923b3c310aa8d3082a6333e")
 	    (:authors
 	     ("Nicholas Vollmer" . "progfolio@protonmail.com"))
 	    (:maintainer "Nicholas Vollmer" . "progfolio@protonmail.com")
@@ -60412,23 +60412,23 @@
 	    ((:commit . "76cf76bdc871cb0454a6fc555aeb1aa94f1b6e57")
 	     (:url . "https://github.com/schmir/zimports.el"))])
  (zk .
-     [(0 4 1 -4 20220627 1934)
+     [(0 4 1 -4 20220629 1701)
       ((emacs
 	(24 4)))
       "Functions for working with Zettelkasten-style linked notes" single
-      ((:commit . "a4fd1771b3a84e35e8406d182d3e422e13e59b8f")
+      ((:commit . "5f065301be9cb5374234ad7e6717d63634e15938")
        (:authors
 	("Grant Rosson <https://github.com/localauthor>"))
        (:maintainer "Grant Rosson <https://github.com/localauthor>")
        (:url . "https://github.com/localauthor/zk"))])
  (zk-index .
-	   [(0 6 1 -4 20220629 301)
+	   [(0 6 1 -4 20220629 1827)
 	    ((emacs
-	      (26 1))
+	      (27 1))
 	     (zk
 	      (0 3)))
 	    "Index and Desktop for zk" single
-	    ((:commit . "a4fd1771b3a84e35e8406d182d3e422e13e59b8f")
+	    ((:commit . "5f065301be9cb5374234ad7e6717d63634e15938")
 	     (:authors
 	      ("Grant Rosson <https://github.com/localauthor>"))
 	     (:maintainer "Grant Rosson <https://github.com/localauthor>")
