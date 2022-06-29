@@ -5000,11 +5000,11 @@
 	       (:keywords "tools")
 	       (:url . "https://github.com/ayrat555/cargo-mode"))])
  (cargo-transient .
-		  [(0 1 0 1 -4 20220624 1042)
+		  [(0 1 0 1 -4 20220629 1226)
 		   ((emacs
 		     (28 1)))
 		   "A transient UI for Cargo, Rust's package manager" single
-		   ((:commit . "2082c8096513a1dc0a633451ee0a39a0625f886a")
+		   ((:commit . "1b6a0486b74b304bda5660db462c188dc8e82b14")
 		    (:authors
 		     ("Peter Stuart" . "peter@peterstuart.org"))
 		    (:maintainer "Peter Stuart" . "peter@peterstuart.org")
@@ -6600,13 +6600,15 @@
 		 (:maintainer "DarkSun" . "lujun9972@gmail.com")
 		 (:keywords "lisp" "code"))])
  (code-review .
-	      [(0 0 7 1 -4 20220628 1636)
+	      [(0 0 7 1 -4 20220629 1215)
 	       ((emacs
 		 (25 1))
 		(closql
 		 (1 2 0))
 		(magit
 		 (3 0 0))
+		(transient
+		 (0 3 7))
 		(a
 		 (1 0 0))
 		(ghub
@@ -6622,7 +6624,7 @@
 		(emojify
 		 (1 2)))
 	       "Perform code review from Github, Gitlab, and Bitbucket Cloud" tar
-	       ((:commit . "e4014c54ba3f53a83d068fdd9fa537f7e2416b78")
+	       ((:commit . "95b36ec8e7935f96b2f3c6c9086d49cf4a72cbff")
 		(:authors
 		 ("Wanderson Ferreira <https://github.com/wandersoncferreira>"))
 		(:maintainer "Wanderson Ferreira" . "wand@hey.com")
@@ -12278,7 +12280,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "76a9b17fecf530fdb85564540c1bc7aacf2788ea")
+	((:commit . "c5e867883e9d08a25ebb5c29823f6283a96ceb76")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -15346,7 +15348,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "fe943ccd02d2fe390687a414cb058c86ec7493e2")
+	  ((:commit . "63abc6807d9998e8c44bc86cc673912b539ac397")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -17624,9 +17626,9 @@
 	    (:maintainer "Takafumi Arakaki <aka.tkf at gmail.com>")
 	    (:url . "https://github.com/tkf/factlog"))])
  (faff-theme .
-	     [(2 6 1 -4 20220609 1956)
+	     [(2 6 1 -4 20220629 1216)
 	      nil "Light Emacs color theme on cornsilk3 background" single
-	      ((:commit . "49b9e3cc48ed27ce56c3f8a9fc2fb3d700c8dd8e")
+	      ((:commit . "5d3c7e2f32f4dcdb22865c385ec48ababe5f293a")
 	       (:authors
 		("James Ferguson <(concat \"wjcferguson\" at-sign \"gmail.com\")>"))
 	       (:maintainer "James Ferguson <(concat \"wjcferguson\" at-sign \"gmail.com\")>")
@@ -25925,11 +25927,11 @@
 		  (:maintainer "Julien BLANCHARD" . "julien@sideburns.eu")
 		  (:url . "https://github.com/julienXX/helm-lobste.rs"))])
  (helm-ls-git .
-	      [(0 1 0 1 -4 20220629 616)
+	      [(0 1 0 1 -4 20220629 1258)
 	       ((helm
 		 (1 7 8)))
 	       "list git files." single
-	       ((:commit . "a2197e21e221691b98ca0541df4add177d84f549"))])
+	       ((:commit . "11c91c13ca3649e3d6fca4672dc7fae4a59b5d56"))])
  (helm-ls-hg .
 	     [(0 1 0 1 -4 20150909 543)
 	      ((helm
@@ -27220,7 +27222,7 @@
 	     ((emacs
 	       (25 1)))
 	     "Library to create and display hierarchy structures" single
-	     ((:commit . "fed505b8e71bf51772887c8a94bb57f5b8838b63")
+	     ((:commit . "d8373b376642e9297595468dbe72ec63a6e4b571")
 	      (:authors
 	       ("Damien Cassou" . "damien@cassou.me"))
 	      (:maintainer "Damien Cassou" . "damien@cassou.me")
@@ -28136,11 +28138,11 @@
 		     (:keywords "faces" "languages" "i3wm" "font-lock")
 		     (:url . "https://github.com/Alexander-Miller/i3wm-Config-Mode"))])
  (ialign .
-	 [(0 4 2 1 -4 20200711 1117)
+	 [(0 4 2 1 -4 20220629 1241)
 	  ((emacs
 	    (24 4)))
 	  "visual align-regexp" single
-	  ((:commit . "eca40b8b59ea713dba21b18f5b047a6c086b91dc")
+	  ((:commit . "bc4d30d79f2f4b413288195ef19894ac0fd258b7")
 	   (:authors
 	    ("Micha\305\202 Krzywkowski" . "k.michal@zoho.com"))
 	   (:maintainer "Micha\305\202 Krzywkowski" . "k.michal@zoho.com")
@@ -32866,7 +32868,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "cc9bbfcb0a6ec18c4f9549fd5948bf67e761df0d")
+	     ((:commit . "51e84c47c543d07cd644e83599601ca43dad671e")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
