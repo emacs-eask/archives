@@ -3234,11 +3234,11 @@
 		(:keywords "programming" "languages" "completion")
 		(:url . "https://github.com/AlonTzarafi/battle-haxe"))])
  (bazel .
-	[(0 1 -4 20220222 1616)
+	[(0 1 -4 20220629 1323)
 	 ((emacs
-	   (26 1)))
+	   (27 1)))
 	 "Bazel support for Emacs" single
-	 ((:commit . "e07a16666154c8ddc65ddaae599d58b25727350d")
+	 ((:commit . "0b01986b1ba4acb0505be80303cdbed3727e958f")
 	  (:keywords "build tools" "languages")
 	  (:url . "https://github.com/bazelbuild/emacs-bazel-mode"))])
  (bbcode-mode .
@@ -3347,7 +3347,7 @@
 	  ((seq
 	    (2 14)))
 	  "Highlight the cursor whenever the window scrolls" single
-	  ((:commit . "bde78180c678b233c94321394f46a81dc6dce1da")
+	  ((:commit . "370c21c76be9d7600d98e9666cda56f47610cbb0")
 	   (:authors
 	    ("Artur Malabarba" . "emacs@endlessparentheses.com"))
 	   (:maintainer "Artur Malabarba" . "emacs@endlessparentheses.com")
@@ -6501,7 +6501,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "3a3e5462d07cde0b78ea808a445cd5fb706a4f6a"))])
+	      ((:commit . "b1d814153439e25d793ea729820398f0992c5d81"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -12280,7 +12280,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "c5e867883e9d08a25ebb5c29823f6283a96ceb76")
+	((:commit . "43a7bf71bd01c8013854a60dd4ec82ca5f288d57")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -16008,7 +16008,7 @@
  (ethan-wspace .
 	       [(0 1 0 1 -4 20201106 2059)
 		nil "whitespace customizations for emacs" single
-		((:commit . "035c7d698c99e3891a522d6e6f8fde23c6267c15")
+		((:commit . "d205f7781f18f6746d50e562dc5e3595189ccd64")
 		 (:authors
 		  ("Ethan Glasser-Camp" . "ethan@betacantrips.com"))
 		 (:maintainer "Ethan Glasser-Camp" . "ethan@betacantrips.com")
@@ -17692,13 +17692,13 @@
 		 (:maintainer "Adam Svanberg")
 		 (:url . "https://github.com/adsva/fantom-emacs-theme"))])
  (fanyi .
-	[(0 1 0 1 -4 20220629 838)
+	[(0 1 0 1 -4 20220629 1457)
 	 ((emacs
 	   (27 1))
 	  (s
 	   (1 12 0)))
 	 "Not only English-Chinese translator" tar
-	 ((:commit . "5219229db78dfd82276e9676f394d5b7ab8ca8f3")
+	 ((:commit . "45eb63f62c24a9d3ceaa6f7d30e63920fdeefca3")
 	  (:authors
 	   ("Zhiwei Chen" . "condy0919@gmail.com"))
 	  (:maintainer "Zhiwei Chen" . "condy0919@gmail.com")
@@ -43396,7 +43396,7 @@
 	  (:keywords "org" "wp" "wiki")
 	  (:url . "https://github.com/w-vi/ox-wk.el"))])
  (ox-yaow .
-	  [(1 0 1 -4 20220103 2307)
+	  [(1 0 1 -4 20220629 1539)
 	   ((emacs
 	     (27))
 	    (f
@@ -43406,7 +43406,7 @@
 	    (dash
 	     (2 17 0)))
 	   "Generate html pages from org files" single
-	   ((:commit . "378eb55e39cbc06ead0f0c399351612dca22d716")
+	   ((:commit . "71d7cee736542f6504c4733d040601d2d2086443")
 	    (:authors
 	     ("Laurence Warne"))
 	    (:maintainer "Laurence Warne")
@@ -46107,7 +46107,7 @@
 	(:keywords "tools")
 	(:url . "https://github.com/conao3/ppp.el"))])
  (pr-review .
-	    [(0 1 1 -4 20220412 440)
+	    [(0 1 1 -4 20220629 1556)
 	     ((emacs
 	       (27 1))
 	      (magit-section
@@ -46119,7 +46119,7 @@
 	      (ghub
 	       (3 5)))
 	     "Review github PR" tar
-	     ((:commit . "cfc5643c4ab66f17a31d82418465ae434486d8db")
+	     ((:commit . "7a4ede64ebc731793f3ffb81f5882d26d1e07af3")
 	      (:authors
 	       ("Yikai Zhao" . "yikai@z1k.dev"))
 	      (:maintainer "Yikai Zhao" . "yikai@z1k.dev")
@@ -46813,7 +46813,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "ca17dad213824de92d61fa2c452b84b6567e74a8")
+		 ((:commit . "7489aef20f31eea4380de6ae73bea91f07e2c9a9")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -47370,7 +47370,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "63f7c091bef4eca520de9977270e4ff99fd76f9e")
+	  ((:commit . "018176d48b5608bdbc2ef9a8d09b0cae7a83da33")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -50991,11 +50991,11 @@
 		 (:keywords "processes")
 		 (:url . "https://github.com/knu/shell-toggle.el"))])
  (shellcop .
-	   [(0 1 0 1 -4 20220526 1424)
+	   [(0 1 0 1 -4 20220629 817)
 	    ((emacs
 	      (25 1)))
 	    "Analyze info&error in shell-mode" single
-	    ((:commit . "4e71f5b9199a0ad10017104a6b2bf5ef5f207dfc")
+	    ((:commit . "3f051e42288ddfe4cd7cd0ee62efad90227de24b")
 	     (:authors
 	      ("Chen Bin" . "chenbin.sh@gmail.com"))
 	     (:maintainer "Chen Bin" . "chenbin.sh@gmail.com")
