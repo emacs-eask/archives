@@ -467,15 +467,17 @@
 	   (yasnippet
 	    (0 8 0)))
 	  "Auto Completion source for PHP." single
-	  ((:commit . "f34e09783b77d1158ea139b7b3d8034bc52b0b9f")
+	  ((:commit . "dc563f4b1efeac8ae75f217532f4c99b4ba417de")
 	   (:authors
 	    ("jim" . "xcwenn@qq.com"))
 	   (:maintainer "jim")
 	   (:keywords "completion" "convenience" "intellisense")
 	   (:url . "https://github.com/xcwen/ac-php"))])
  (ac-php-core .
-	      [(2 0 8 1 -4 20220418 419)
-	       ((dash
+	      [(2 0 8 1 -4 20220701 253)
+	       ((emacs
+		 (24 4))
+		(dash
 		 (1))
 		(php-mode
 		 (1))
@@ -488,7 +490,7 @@
 		(xcscope
 		 (1 0)))
 	       "The core library of the ac-php" tar
-	       ((:commit . "f34e09783b77d1158ea139b7b3d8034bc52b0b9f")
+	       ((:commit . "dc563f4b1efeac8ae75f217532f4c99b4ba417de")
 		(:authors
 		 ("jim" . "xcwenn@qq.com")
 		 ("Serghei Iakovlev" . "sadhooklay@gmail.com"))
@@ -7635,7 +7637,7 @@
 		(company
 		 (0 9)))
 	       "A company back-end for PHP." single
-	       ((:commit . "f34e09783b77d1158ea139b7b3d8034bc52b0b9f")
+	       ((:commit . "dc563f4b1efeac8ae75f217532f4c99b4ba417de")
 		(:authors
 		 ("jim" . "xcwenn@qq.com"))
 		(:maintainer "jim")
@@ -15348,7 +15350,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "689a0aa5586bf05d0b1c1efccb1644c623c1f75d")
+	  ((:commit . "f625151f1d0d36f8d871a1243628941fded5fdf6")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
