@@ -5204,9 +5204,11 @@
 	(:keywords "cdb")
 	(:url . "https://github.com/skk-dev/ddskk"))])
  (cdlatex .
-	  [(4 11 1 -4 20210804 452)
-	   nil "Fast input methods for LaTeX environments and math" single
-	   ((:commit . "8e963c68531f75e459e8ebe7a34fd3ba9d3729a0")
+	  [(4 12 1 -4 20220701 905)
+	   ((auctex
+	     (9 9)))
+	   "Fast input methods for LaTeX environments and math" single
+	   ((:commit . "7791fa94d509f56ed671055e856c5d00c788dd7e")
 	    (:authors
 	     ("Carsten Dominik" . "carsten.dominik@gmail.com"))
 	    (:maintainer "Carsten Dominik" . "carsten.dominik@gmail.com")
@@ -20830,7 +20832,7 @@
 	      (:keywords "faces")
 	      (:url . "https://depp.brause.cc/form-feed"))])
  (format-all .
-	     [(0 5 0 1 -4 20220628 1228)
+	     [(0 5 0 1 -4 20220701 823)
 	      ((emacs
 		(24 4))
 	       (inheritenv
@@ -20838,7 +20840,7 @@
 	       (language-id
 		(0 19)))
 	      "Auto-format C, C++, JS, Python, Ruby and 50 other languages" single
-	      ((:commit . "7e047a45f41884d045e1a66421891ee1c1f48376")
+	      ((:commit . "aa22b06283382baf73d78064fcfd6c2f075ead5c")
 	       (:authors
 		("Lassi Kortela" . "lassi@lassi.io"))
 	       (:maintainer "Lassi Kortela" . "lassi@lassi.io")
@@ -21307,13 +21309,13 @@
 	  ("Natalie Weizenbaum" . "nweiz@google.com"))
 	 (:maintainer "Natalie Weizenbaum" . "nweiz@google.com"))])
  (fussy .
-	[(1 0 1 -4 20220628 731)
+	[(1 0 1 -4 20220701 814)
 	 ((emacs
 	   (27 2))
 	  (flx
 	   (0 5)))
 	 "Fuzzy completion style using `flx'" single
-	 ((:commit . "0452a374cf290592a217fe77ed45d9f912790954")
+	 ((:commit . "f926c49e9ab7b0b3eda0be6d6852234f2ee4665c")
 	  (:authors
 	   ("James Nguyen" . "james@jojojames.com"))
 	  (:maintainer "James Nguyen" . "james@jojojames.com")
@@ -32124,7 +32126,7 @@
 		  (highlight
 		   (20190710 1527)))
 		 "A major mode for editing Lambdapi source code" tar
-		 ((:commit . "1fb1d9aa8d162279e0496d976b286fffc721f332")
+		 ((:commit . "20359c7868568e607dc04b8e12b61b9072b8d636")
 		  (:maintainer "Deducteam" . "dedukti-dev@inria.fr")
 		  (:keywords "languages")
 		  (:url . "https://github.com/Deducteam/lambdapi"))])
