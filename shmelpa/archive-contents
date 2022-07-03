@@ -30433,7 +30433,7 @@
 		    ((:commit . "fa5545be1329df3067dcfd81749bbd99df070d6b")
 		     (:url . "https://github.com/john2x/jenkinsfile-mode"))])
  (jest .
-       [(0 1 0 1 -4 20220629 1825)
+       [(0 1 0 1 -4 20220703 1950)
 	((emacs
 	  (24 4))
 	 (dash
@@ -30449,7 +30449,7 @@
 	 (cl-lib
 	  (0 6 1)))
 	"helpers to run jest" tar
-	((:commit . "0bb565aa86454bb5b24ba61f83e73d6476505f1e")
+	((:commit . "398fcd7920dc3e9865574f5228baeaba03d1d297")
 	 (:authors
 	  ("Edmund Miller" . "edmund.a.miller@gmail.com"))
 	 (:maintainer "Edmund Miller" . "edmund.a.miller@gmail.com")
@@ -34043,6 +34043,21 @@
 		 (:maintainer "John Lee")
 		 (:keywords "languages")
 		 (:url . "https://github.com/jjlee/lsp-rescript"))])
+ (lsp-scheme .
+	     [(0 0 2 1 -4 20220629 2248)
+	      ((emacs
+		(25 1))
+	       (f
+		(0 20 0))
+	       (lsp-mode
+		(8 0 0)))
+	      "Scheme support for lsp-mode" tar
+	      ((:commit . "e683842668b728c057c7eaa415e43922c3bfd9b4")
+	       (:authors
+		("Ricardo G. Herdt" . "r.herdt@posteo.de"))
+	       (:maintainer "Ricardo G. Herdt" . "r.herdt@posteo.de")
+	       (:keywords "languages" "lisp" "tools")
+	       (:url . "https://codeberg.org/rgherdt/emacs-lsp-scheme"))])
  (lsp-sonarlint .
 		[(0 0 1 1 -4 20210820 2044)
 		 ((emacs
@@ -35164,6 +35179,21 @@
 			  (:maintainer "Igor Shymko" . "igor.shimko@gmail.com")
 			  (:keywords "markdown" "gfm" "convenience")
 			  (:url . "https://github.com/ancane/markdown-preview-mode"))])
+ (markdown-soma .
+		[(0 1 12 1 -4 20220703 1821)
+		 ((emacs
+		   (25))
+		  (s
+		   (1 11 0))
+		  (dash
+		   (2 19 1)))
+		 "Live preview for Markdown" single
+		 ((:commit . "d72febf46dfc12b6d6612f33f75e918bf71d9abc")
+		  (:authors
+		   ("Jason Milkins" . "jasonm23@gmail.com"))
+		  (:maintainer "Jason Milkins" . "jasonm23@gmail.com")
+		  (:keywords "wp" "docs" "text" "markdown")
+		  (:url . "https://github.com/jasonm23/markdown-soma"))])
  (markdown-toc .
 	       [(0 1 5 1 -4 20210905 738)
 		((s
@@ -38353,9 +38383,9 @@
 		 (:keywords "faces")
 		 (:url . "https://github.com/MetroWind/notink-theme"))])
  (notmuch .
-	  [(0 1 0 1 -4 20220616 1151)
+	  [(0 1 0 1 -4 20220703 2008)
 	   nil "run notmuch within emacs" tar
-	   ((:commit . "6a9ae990990848ec99107f2e2e6b6ae12dcd33df")
+	   ((:commit . "3cb936b7c458bc9b0f5cc6d7fb266307fd0224d8")
 	    (:url . "https://notmuchmail.org"))])
  (notmuch-addr .
 	       [(0 1 0 1 -4 20220422 1618)
@@ -54357,6 +54387,17 @@
        (:maintainer "kuanyui" . "azazabc123@gmail.com")
        (:keywords "tools")
        (:url . "http://github.com/kuanyui/ta.el"))])
+ (tab-bar-buffers .
+		  [(20220627 2012 1 -4 20220628 45)
+		   ((emacs
+		     (28 1)))
+		   "Use tab-bar-mode as a buffer manager" single
+		   ((:commit . "c7581d244665d86464a301eb0aa68dd08c44501f")
+		    (:authors
+		     ("Andy Rosen" . "ajr@corp.mlfs.org"))
+		    (:maintainer "Andy Rosen" . "ajr@corp.mlfs.org")
+		    (:keywords "convenience" "frames")
+		    (:url . "https://github.com/ajrosen/emacs"))])
  (tab-bar-echo-area .
 		    [(0 2 1 -4 20211013 1942)
 		     ((emacs
