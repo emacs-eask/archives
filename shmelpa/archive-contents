@@ -8275,6 +8275,21 @@
 		     ("mohsin kaleem" . "mohkale@kisara.moe"))
 		    (:maintainer "mohsin kaleem" . "mohkale@kisara.moe")
 		    (:url . "https://github.com/mohkale/consult-company"))])
+ (consult-dash .
+	       [(0 5 1 -4 20220621 226)
+		((emacs
+		  (27 2))
+		 (dash-docs
+		  (1 4 0))
+		 (consult
+		  (0 16)))
+		"Consult front-end for dash-docs" single
+		((:commit . "0eb8e133a12570f482efcf367dcc7887c15def32")
+		 (:authors
+		  ("Ravi R Kiran" . "lists.ravi@gmail.com"))
+		 (:maintainer "Ravi R Kiran" . "lists.ravi@gmail.com")
+		 (:keywords "consult" "dash" "docs")
+		 (:url . "https://codeberg.org/ravi/consult-dash"))])
  (consult-dir .
 	      [(0 1 1 -4 20220505 1037)
 	       ((emacs
@@ -9689,7 +9704,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "4189c759ce468b74f35cfce3cfdba9aa8b4992e3"))])
+	       ((:commit . "24f10066335332d9ff4680e6bf6f7550f67097da"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -13829,12 +13844,27 @@
 		(aio
 		 (1 0)))
 	       "YouTube integration for Elfeed" tar
-	       ((:commit . "16fbfef51273e863cdfdd9b7725ac7347ade3fa5")
+	       ((:commit . "6110561fdeca1d2591fc99bb57e166f31fe4eac1")
 		(:authors
 		 ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
 		(:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
 		(:keywords "news" "hypermedia" "convenience")
 		(:url . "https://github.com/karthink/elfeed-tube"))])
+ (elfeed-tube-mpv .
+		  [(0 10 1 -4 20220704 1952)
+		   ((emacs
+		     (27 1))
+		    (elfeed-tube
+		     (0 10))
+		    (mpv
+		     (0 2 0)))
+		   "Control mpv from Elfeed" single
+		   ((:commit . "6110561fdeca1d2591fc99bb57e166f31fe4eac1")
+		    (:authors
+		     ("Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))
+		    (:maintainer "Karthik Chikmagalur" . "karthikchikmagalur@gmail.com")
+		    (:keywords "news" "hypermedia")
+		    (:url . "https://github.com/karthink/elfeed-tube"))])
  (elfeed-web .
 	     [(3 4 1 1 -4 20210226 258)
 	      ((simple-httpd
@@ -22168,7 +22198,7 @@
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "35da95e99943740c7778fb588cd275f0be1536fa")
+	      ((:commit . "1f7a29371395dbfe6d6fbdc1aaa901638eb8ad45")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -31765,7 +31795,7 @@
  (kivy-mode .
 	    [(0 1 0 1 -4 20210318 2106)
 	     nil "Emacs major mode for editing Kivy files" single
-	     ((:commit . "e6c144b5423dada62fd13034c2d40bf48a2bc423")
+	     ((:commit . "6c763d4f9af26f4a84addcaca334983c4035f4dc")
 	      (:authors
 	       ("Dean Serenevy" . "dean@serenevy.net"))
 	      (:maintainer "Dean Serenevy" . "dean@serenevy.net"))])
@@ -33688,6 +33718,20 @@
 	(:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
 	(:keywords "python" "lisp")
 	(:url . "https://github.com/abo-abo/lpy"))])
+ (lsp-cfn .
+	  [(0 1 1 -4 20220704 849)
+	   ((emacs
+	     (27 0))
+	    (lsp-mode
+	     (8 0 0))
+	    (yaml-mode
+	     (0 0 15)))
+	   "LSP integration for cfn-lsp-extra" tar
+	   ((:commit . "924808977d7e5c4068ac92eca22b82fdeb4fff86")
+	    (:authors
+	     ("Laurence Warne"))
+	    (:maintainer "Laurence Warne")
+	    (:url . "https://github.com/LaurenceWarne/lsp-cfn.el"))])
  (lsp-dart .
 	   [(1 22 2 1 -4 20220620 1516)
 	    ((emacs
@@ -34140,7 +34184,7 @@
 		 (:keywords "languages")
 		 (:url . "https://github.com/emacs-lsp/lsp-treemacs"))])
  (lsp-ui .
-	 [(8 0 0 1 -4 20220626 1956)
+	 [(8 0 0 1 -4 20220704 2111)
 	  ((emacs
 	    (26 1))
 	   (dash
@@ -34150,7 +34194,7 @@
 	   (markdown-mode
 	    (2 3)))
 	  "UI modules for lsp-mode" tar
-	  ((:commit . "11a3a6540514b3f681fec2e7320be048afafca3c")
+	  ((:commit . "0a6368d38dc32e52abcbd52b63d1e557e42c66e6")
 	   (:authors
 	    ("Sebastien Chapuis <sebastien@chapu.is>, Fangrui Song" . "i@maskray.me"))
 	   (:maintainer "Sebastien Chapuis <sebastien@chapu.is>, Fangrui Song" . "i@maskray.me")
@@ -34426,7 +34470,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 -4 20220625 1219)
+	[(3 3 0 -4 20220704 1912)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -34442,7 +34486,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "35da95e99943740c7778fb588cd275f0be1536fa")
+	 ((:commit . "1f7a29371395dbfe6d6fbdc1aaa901638eb8ad45")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -34633,7 +34677,7 @@
 		 (magit
 		  (20211004)))
 		"(POC) Teach Magit to use Libgit2." tar
-		((:commit . "35da95e99943740c7778fb588cd275f0be1536fa")
+		((:commit . "1f7a29371395dbfe6d6fbdc1aaa901638eb8ad45")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -34714,7 +34758,7 @@
 		  (dash
 		   (20210826)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "35da95e99943740c7778fb588cd275f0be1536fa")
+		 ((:commit . "1f7a29371395dbfe6d6fbdc1aaa901638eb8ad45")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -36982,11 +37026,11 @@
 	       (:keywords "mail" "convenience")
 	       (:url . "https://github.com/iqbalansari/mu4e-alert"))])
  (mu4e-column-faces .
-		    [(1 1 1 -4 20210927 1759)
+		    [(1 2 1 -4 20220704 1920)
 		     ((emacs
 		       (25 3)))
 		     "Faces for individual mu4e columns" single
-		     ((:commit . "b76a5989cafe88a263688488854187a015beef41")
+		     ((:commit . "c5938a4f4ed23cf543f73d24e0a6f53272bdcd4a")
 		      (:authors
 		       ("Alexander Miller" . "alexanderm@web.de"))
 		      (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -37032,7 +37076,7 @@
 		      (all-the-icons
 		       (4 0 0)))
 		     "Display icons for mu4e markers" single
-		     ((:commit . "d343dabacd6ee709782aa20b5647480673228916")
+		     ((:commit . "1c2c26c0aaa5beba34ef13c62c9b4c6e02de7c2f")
 		      (:keywords "mail")
 		      (:url . "https://repo.or.cz/mu4e-marker-icons.git"))])
  (mu4e-overview .
@@ -60537,6 +60581,20 @@
 	      ("Grant Rosson <https://github.com/localauthor>"))
 	     (:maintainer "Grant Rosson <https://github.com/localauthor>")
 	     (:url . "https://github.com/localauthor/zk"))])
+ (zk-luhmann .
+	     [(0 3 1 -4 20220704 1341)
+	      ((emacs
+		(24 4))
+	       (zk
+		(0 4))
+	       (zk-index
+		(0 6)))
+	      "Support for Luhmann-style IDs in zk" single
+	      ((:commit . "e6b1ef1a7f942db8e109ddb109f796dc2d7686f5")
+	       (:authors
+		("Grant Rosson <https://github.com/localauthor>"))
+	       (:maintainer "Grant Rosson <https://github.com/localauthor>")
+	       (:url . "https://github.com/localauthor/zk-luhmann"))])
  (zlc .
       [(0 0 5 1 -4 20151011 157)
        nil "Provides zsh like completion system to Emacs" single
