@@ -5345,7 +5345,7 @@
  (cfengine-code-style .
 		      [(0 1 0 1 -4 20171115 2108)
 		       nil "C code style for CFEngine project." single
-		       ((:commit . "502608a7b9feb9102878734d048db95118891a55")
+		       ((:commit . "7c4d31c94a982852f61043ce00c61b0f4be0e689")
 			(:authors
 			 ("Mikhail Gusarov" . "mikhail.gusarov@cfengine.com"))
 			(:maintainer "Mikhail Gusarov" . "mikhail.gusarov@cfengine.com")
@@ -5940,7 +5940,7 @@
 		 (:maintainer "Robin Schroer")
 		 (:url . "https://github.com/sulami/circleci-api"))])
  (citar .
-	[(0 9 5 1 -4 20220618 1228)
+	[(1 0 1 -4 20220704 1346)
 	 ((emacs
 	   (27 1))
 	  (parsebib
@@ -5950,7 +5950,7 @@
 	  (citeproc
 	   (0 9)))
 	 "Citation-related commands for org, latex, markdown" tar
-	 ((:commit . "b6cd49ffb56824b8d1793b0c4268237b3d89fb45")
+	 ((:commit . "ce51325b85b993dc6877e6cd2228be44b3e5f201")
 	  (:authors
 	   ("Bruce D'Arcus <https://github.com/bdarcus>"))
 	  (:maintainer "Bruce D'Arcus <https://github.com/bdarcus>")
@@ -9315,11 +9315,11 @@
 		   (:keywords "languages")
 		   (:url . "https://github.com/wynro/emacs-csgo-conf-mode"))])
  (csharp-mode .
-	      [(1 1 1 1 -4 20211124 1105)
+	      [(1 1 1 1 -4 20220704 1242)
 	       ((emacs
 		 (26 1)))
 	       "C# mode derived mode" tar
-	       ((:commit . "fa06dfa206812476217ada6c4178de34ff1efc42")
+	       ((:commit . "396b5e9b32bb58c9f984a03f5075455af87f7307")
 		(:authors
 		 ("Theodor Thornhill" . "theo@thornhill.no"))
 		(:maintainer "Jostein Kj\303\270nigsen" . "jostein@gmail.com")
@@ -11313,13 +11313,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 8 14 1 -4 20220704 532)
+	  [(1 8 14 1 -4 20220704 1321)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "f389eb35dbb6aea5ffba890acbd2163a90b8c4b9")
+	   ((:commit . "0ccdb1ab963d87c2785fa9f90a8d8642e79c38b7")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -12294,7 +12294,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "5fadbb4873569eb8f26ee3eec5ffe78496ff0a11")
+	((:commit . "a48edf8706ce272b0a96753ac0126e40cbe47481")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -31074,13 +31074,13 @@
 	       ((:commit . "326da9a7d0463ed2727f66dcbd4cb58b517ffe25")
 		(:url . "https://github.com/gcv/julia-snail"))])
  (julia-vterm .
-	      [(0 17 1 -4 20220524 1328)
+	      [(0 17 1 -4 20220702 1411)
 	       ((emacs
 		 (25 1))
 		(vterm
 		 (0 0 1)))
 	       "A mode for Julia REPL using vterm" single
-	       ((:commit . "c5f67a372777bb6a855ba2a89228a713c8dda957")
+	       ((:commit . "2ef6514fd9534610c806f4de4ab1f7652e3cb731")
 		(:authors
 		 ("Shigeaki Nishina"))
 		(:maintainer "Shigeaki Nishina")
@@ -31972,7 +31972,7 @@
 	       (:keywords "kubernetes" "k8s" "tools" "processes" "evil" "keybindings")
 	       (:url . "https://github.com/abrochard/kubel"))])
  (kubernetes .
-	     [(0 18 0 1 -4 20220629 640)
+	     [(0 18 0 1 -4 20220704 1457)
 	      ((emacs
 		(25 1))
 	       (dash
@@ -31990,7 +31990,7 @@
 	       (transient
 		(0 3 0)))
 	      "Magit-like porcelain for Kubernetes" tar
-	      ((:commit . "21a847df3b91aa25f24add59cad9a4dc2d53a707")
+	      ((:commit . "d2559c3c506372ab06e495f97034537eaac0f6e6")
 	       (:authors
 		("Chris Barrett" . "chris+emacs@walrus.cool"))
 	       (:maintainer "Chris Barrett" . "chris+emacs@walrus.cool")
@@ -32003,7 +32003,7 @@
 		    (evil
 		     (1 2 12)))
 		   "Kubernetes keybindings for evil-mode." single
-		   ((:commit . "21a847df3b91aa25f24add59cad9a4dc2d53a707")
+		   ((:commit . "d2559c3c506372ab06e495f97034537eaac0f6e6")
 		    (:authors
 		     ("Chris Barrett" . "chris+emacs@walrus.cool"))
 		    (:maintainer "Chris Barrett" . "chris+emacs@walrus.cool"))])
@@ -33923,7 +33923,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20220702 1309)
+	   [(8 0 1 1 -4 20220704 1250)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -33939,7 +33939,7 @@
 	     (lv
 	      (0)))
 	    "LSP mode" tar
-	    ((:commit . "c0d17320b86381da3d88903c91689934016497fc")
+	    ((:commit . "3fa645c0397b8f438f2db2dd288b899ba330d410")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -37456,11 +37456,11 @@
 	 (:keywords "neo4j" "shell" "comint")
 	 (:url . "https://github.com/tmtxt/n4js.el"))])
  (naga-theme .
-	     [(0 1 1 -4 20220704 747)
+	     [(0 1 1 -4 20220704 1403)
 	      ((emacs
 		(24 1)))
 	      "Dark color theme with green foreground color" single
-	      ((:commit . "a759582663515b17360d2a7f5640d74800dce90d")
+	      ((:commit . "975730325af579f16fefb4af3222d6c50591d599")
 	       (:authors
 		("Johannes Maier" . "johannes.maier@mailbox.org"))
 	       (:maintainer "Johannes Maier" . "johannes.maier@mailbox.org")
@@ -47438,7 +47438,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "8033706deeedae809694bedf23fe6bb6798db980")
+	  ((:commit . "2dc0712f27ecc0a386fbf78ada887ec566972fa8")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -55317,7 +55317,7 @@
 	  (emacs
 	   (24)))
 	 "Interact with TidalCycles for live coding patterns" single
-	 ((:commit . "fda9c1ecb3722698935245e5409ef8ccdfca16c8")
+	 ((:commit . "ac69e42c191ad81a41a7d89fb0e81dbdbd887116")
 	  (:authors
 	   (nil . "alex@slab.org"))
 	  (:maintainer nil . "alex@slab.org")
@@ -56147,7 +56147,7 @@
 		       (tree-sitter
 			(0 15 0)))
 		      "Run ispell on tree-sitter text nodes" single
-		      ((:commit . "5cd63219bbef77eb002c7e7d0df30f5714ae69dc")
+		      ((:commit . "2efe943dd62096a819b7c2d6b61c93a4f18aeb22")
 		       (:authors
 			("Erick Navarro" . "erick@navarro.io"))
 		       (:maintainer "Erick Navarro" . "erick@navarro.io")
