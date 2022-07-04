@@ -37133,11 +37133,11 @@
 	       (:keywords "multi" "line" "length" "whitespace" "programming" "tools" "convenience" "files")
 	       (:url . "https://github.com/IvanMalison/multi-line"))])
  (multi-project .
-		[(0 0 41 1 -4 20220415 2334)
+		[(0 0 43 1 -4 20220703 2154)
 		 ((emacs
 		   (25)))
 		 "Find files, compile, and search for multiple projects." single
-		 ((:commit . "d51551296425b1febd102a38a46f2d3dc4548559")
+		 ((:commit . "43a30f9578dc2f5acd4fc2941bedaa031b942b81")
 		  (:authors
 		   ("Shawn Ellis" . "shawn.ellis17@gmail.com"))
 		  (:maintainer "Shawn Ellis" . "shawn.ellis17@gmail.com")
@@ -37440,6 +37440,17 @@
 	 (:maintainer "TruongTx" . "me@truongtx.me")
 	 (:keywords "neo4j" "shell" "comint")
 	 (:url . "https://github.com/tmtxt/n4js.el"))])
+ (naga-theme .
+	     [(0 1 1 -4 20220702 1558)
+	      ((emacs
+		(24 1)))
+	      "Dark color theme with green foreground color" single
+	      ((:commit . "594c740c6144ca4b579470c6529c2daa1c40d9fa")
+	       (:authors
+		("Johannes Maier" . "johannes.maier@mailbox.org"))
+	       (:maintainer "Johannes Maier" . "johannes.maier@mailbox.org")
+	       (:keywords "faces" "themes")
+	       (:url . "https://github.com/kenranunderscore/emacs-naga-theme"))])
  (name-this-color .
 		  [(0 3 0 1 -4 20151014 2030)
 		   ((emacs
@@ -56582,6 +56593,18 @@
 		    (:maintainer "Tadashi MATSUO" . "tad@mymail.twin.ne.jp")
 		    (:keywords "twitter" "web")
 		    (:url . "http://twmode.sf.net/"))])
+ (twtxt .
+	[(0 1 1 -4 20220628 309)
+	 ((emacs
+	   (25 1))
+	  (request
+	   (0 2 0)))
+	 "A twtxt client for Emacs" single
+	 ((:commit . "eb9efa19086fcae343353f6a5e88c3377fd06dd4")
+	  (:authors
+	   ("DEADBLACKCLOVER" . "deadblackclover@protonmail.com"))
+	  (:maintainer "DEADBLACKCLOVER" . "deadblackclover@protonmail.com")
+	  (:url . "https://github.com/deadblackclover/twtxt-el"))])
  (typescript-mode .
 		  [(0 4 1 -4 20220703 1052)
 		   ((emacs
