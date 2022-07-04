@@ -2786,7 +2786,7 @@
 		       (avy
 			(0 5)))
 		      "Use avy to jump to Embark Collect entries" single
-		      ((:commit . "63f0d4dc09afb058450dc10dd3916027a93ee487")
+		      ((:commit . "5d0459d27aa7cf738b5af36cf862723a62bef955")
 		       (:authors
 			("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		       (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -13820,6 +13820,21 @@
 		    ("Korytov Pavel" . "thexcloud@gmail.com"))
 		   (:maintainer "Korytov Pavel" . "thexcloud@gmail.com")
 		   (:url . "https://github.com/SqrtMinusOne/elfeed-summary.el"))])
+ (elfeed-tube .
+	      [(0 10 1 -4 20220703 2128)
+	       ((emacs
+		 (27 1))
+		(elfeed
+		 (3 4 1))
+		(aio
+		 (1 0)))
+	       "YouTube integration for Elfeed" tar
+	       ((:commit . "16fbfef51273e863cdfdd9b7725ac7347ade3fa5")
+		(:authors
+		 ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
+		(:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
+		(:keywords "news" "hypermedia" "convenience")
+		(:url . "https://github.com/karthink/elfeed-tube"))])
  (elfeed-web .
 	     [(3 4 1 1 -4 20210226 258)
 	      ((simple-httpd
@@ -14560,18 +14575,18 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 17 1 -4 20220608 17)
+	 [(0 17 1 -4 20220704 37)
 	  ((emacs
 	    (26 1)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "63f0d4dc09afb058450dc10dd3916027a93ee487")
+	  ((:commit . "5d0459d27aa7cf738b5af36cf862723a62bef955")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
 	   (:keywords "convenience")
 	   (:url . "https://github.com/oantolin/embark"))])
  (embark-consult .
-		 [(0 6 1 -4 20220526 1525)
+		 [(0 6 1 -4 20220704 37)
 		  ((emacs
 		    (27 1))
 		   (embark
@@ -14579,7 +14594,7 @@
 		   (consult
 		    (0 17)))
 		  "Consult integration for Embark" single
-		  ((:commit . "63f0d4dc09afb058450dc10dd3916027a93ee487")
+		  ((:commit . "5d0459d27aa7cf738b5af36cf862723a62bef955")
 		   (:authors
 		    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
