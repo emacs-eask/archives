@@ -5940,7 +5940,7 @@
 		 (:maintainer "Robin Schroer")
 		 (:url . "https://github.com/sulami/circleci-api"))])
  (citar .
-	[(1 0 1 -4 20220704 1705)
+	[(1 0 1 -4 20220704 2120)
 	 ((emacs
 	   (27 1))
 	  (parsebib
@@ -5950,7 +5950,7 @@
 	  (citeproc
 	   (0 9)))
 	 "Citation-related commands for org, latex, markdown" tar
-	 ((:commit . "c3335f7409ace7bd0e46942dd2c6939a9bc97687")
+	 ((:commit . "db9469230c18c60b07e76405bcef46ebc6c7176f")
 	  (:authors
 	   ("Bruce D'Arcus <https://github.com/bdarcus>"))
 	  (:maintainer "Bruce D'Arcus <https://github.com/bdarcus>")
@@ -12309,7 +12309,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "522c83807094728c7bfb68888f7b71ca21e29f0d")
+	((:commit . "3810cb4091a6fd51946ef447491bca23362a0328")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -13915,7 +13915,7 @@
 	   (:keywords "lisp")
 	   (:url . "http://github.com/demyanrogozhin/elhome"))])
  (elisp-def .
-	    [(1 2 1 -4 20210126 750)
+	    [(1 2 1 -4 20220704 2144)
 	     ((dash
 	       (2 12 0))
 	      (f
@@ -13925,7 +13925,7 @@
 	      (emacs
 	       (24 3)))
 	     "macro-aware go-to-definition for elisp" single
-	     ((:commit . "dfca043ec0cbead67bd9c526cb009daf771d0fa2")
+	     ((:commit . "7e9c950288d5f90b6f5ab0a9846e29db384f4fd4")
 	      (:authors
 	       ("Wilfred Hughes" . "me@wilfred.me.uk"))
 	      (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk")
@@ -13990,13 +13990,13 @@
 	       (:keywords "lisp" "maint" "tools")
 	       (:url . "http://github.com/gonewest818/elisp-lint/"))])
  (elisp-refs .
-	     [(1 5 1 -4 20220220 2305)
+	     [(1 5 1 -4 20220704 2141)
 	      ((dash
 		(2 12 0))
 	       (s
 		(1 11 0)))
 	      "find callers of elisp functions or macros" single
-	      ((:commit . "8f84280997d8b233d66fb9958a34b46078c58b03")
+	      ((:commit . "af73739084637c8ebadad337a8fe58ff4f1d2ec1")
 	       (:authors
 		("Wilfred Hughes" . "me@wilfred.me.uk"))
 	       (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk")
@@ -17409,11 +17409,11 @@
 		  (:maintainer "Ahmad Nazir Raja" . "ahmadnazir@gmail.com")
 		  (:url . "https://github.com/ahmadnazir/exsqlaim-mode"))])
  (extempore-mode .
-		 [(1 0 1 -4 20210512 2350)
+		 [(1 0 1 -4 20220704 2241)
 		  ((emacs
 		    (24 4)))
 		  "Emacs major mode for Extempore source files" single
-		  ((:commit . "eb2dee8860f3d761e949d7c2ee8e2e469ac1cf51")
+		  ((:commit . "92e0fff482a0a4dc2971c39581c5ea9e84ae5e1c")
 		   (:authors
 		    ("Ben Swift" . "ben@benswift.me"))
 		   (:maintainer "Ben Swift" . "ben@benswift.me")
@@ -36045,6 +36045,17 @@
 	       ("Craig Niles <niles.c at gmail.com>"))
 	      (:maintainer "Craig Niles <niles.c at gmail.com>")
 	      (:url . "https://github.com/cniles/emacs-mimetypes"))])
+ (mindre-theme .
+	       [(0 1 1 -4 20220704 1913)
+		((emacs
+		  (26 1)))
+		"Minimal, light theme" single
+		((:commit . "dd0516bd202af905c3f19b95a53767331f01bb34")
+		 (:authors
+		  ("Erik B\303\244ckman" . "contact@ebackman.net"))
+		 (:maintainer "Erik B\303\244ckman" . "contact@ebackman.net")
+		 (:keywords "faces")
+		 (:url . "https://github.com/erikbackman/mindre-theme"))])
  (minesweeper .
 	      [(2012 7 2 1 -4 20200416 2342)
 	       nil "play minesweeper in Emacs" single
@@ -37076,7 +37087,7 @@
 		      (all-the-icons
 		       (4 0 0)))
 		     "Display icons for mu4e markers" single
-		     ((:commit . "1c2c26c0aaa5beba34ef13c62c9b4c6e02de7c2f")
+		     ((:commit . "d343dabacd6ee709782aa20b5647480673228916")
 		      (:keywords "mail")
 		      (:url . "https://repo.or.cz/mu4e-marker-icons.git"))])
  (mu4e-overview .
@@ -54751,7 +54762,7 @@
 	 (:keywords "convenience" "emulations" "files")
 	 (:url . "https://github.com/mtk/teco.git"))])
  (telega .
-	 [(0 8 40 1 -4 20220628 4)
+	 [(0 8 41 1 -4 20220705 37)
 	  ((emacs
 	    (26 1))
 	   (visual-fill-column
@@ -54759,7 +54770,7 @@
 	   (rainbow-identifiers
 	    (0 2 2)))
 	  "Telegram client (unofficial)" tar
-	  ((:commit . "24453af66516ab548d44c09e508af9e944551946")
+	  ((:commit . "2d77c131856c9387a28dd6e4a15cef87029c3055")
 	   (:authors
 	    ("Zajcev Evgeny" . "zevlg@yandex.ru"))
 	   (:maintainer "Zajcev Evgeny" . "zevlg@yandex.ru")
@@ -56169,6 +56180,23 @@
 		(:maintainer "Tu\341\272\245n-Anh Nguy\341\273\205n" . "ubolonton@gmail.com")
 		(:keywords "languages" "tools" "parsers" "tree-sitter")
 		(:url . "https://github.com/emacs-tree-sitter/elisp-tree-sitter"))])
+ (tree-sitter-ess-r .
+		    [(0 1 1 -4 20220704 845)
+		     ((emacs
+		       (26 1))
+		      (ess
+		       (18 10 1))
+		      (tree-sitter
+		       (0 12 1))
+		      (tree-sitter-langs
+		       (0 12 0)))
+		     "R with tree-sitter" single
+		     ((:commit . "d1f6122d34b3e171cf7a70ebeaca9c402a1bcc96")
+		      (:authors
+		       ("Shuguang Sun" . "shuguang79@qq.com"))
+		      (:maintainer "Shuguang Sun" . "shuguang79@qq.com")
+		      (:keywords "tools")
+		      (:url . "https://github.com/ShuguangSun/ess-view-data"))])
  (tree-sitter-indent .
 		     [(0 3 1 -4 20220411 1439)
 		      ((emacs
