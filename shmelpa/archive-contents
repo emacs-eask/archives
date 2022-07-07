@@ -4979,13 +4979,13 @@
 		  (:keywords "convenience")
 		  (:url . "https://github.com/veelenga/carbon-now-sh.el"))])
  (cargo .
-	[(0 4 0 1 -4 20220311 827)
+	[(0 4 0 1 -4 20220707 1403)
 	 ((emacs
 	   (24 3))
 	  (markdown-mode
 	   (2 4)))
 	 "Emacs Minor Mode for Cargo, Rust's Package Manager." tar
-	 ((:commit . "8335b5577dfa526c645f7c1839c473f99b9ad1a8")
+	 ((:commit . "0b9821b029f49654565edffdbfd68ca0f6ca9434")
 	  (:authors
 	   ("Kevin W. van Rooijen"))
 	  (:maintainer "Kevin W. van Rooijen")
@@ -6505,7 +6505,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "f0bb74765a75bfe82a8f0346c1e4957e742e7c41"))])
+	      ((:commit . "4c50f639c7e67098eba14bc41869dd5c354d0da6"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -9704,7 +9704,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "796fd06da1fa1d5481ce43a6b6c901bc87f0ce9a"))])
+	       ((:commit . "a44bbd363029aa9ba16fefcb485c68162f8ab663"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -15409,7 +15409,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "5d7398fd42b65843a0278d60a8f4236edd282d9f")
+	  ((:commit . "697dc9f0ac4be7963d1f127015ac086c9e2c8afe")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -16578,7 +16578,7 @@
 	      (evil
 	       (1 0 0)))
 	     "Evil align operator, port of vim-lion" single
-	     ((:commit . "4da660e124731ed65e7aaa6c067c30e876619429")
+	     ((:commit . "a55eb647422342f6b1cf867f797b060b3645d9d8")
 	      (:authors
 	       ("edkolev" . "evgenysw@gmail.com"))
 	      (:maintainer "edkolev" . "evgenysw@gmail.com")
@@ -24645,13 +24645,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 8 6 1 -4 20220707 1013)
+       [(3 8 6 1 -4 20220707 1116)
 	((helm-core
 	  (3 8 4))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "a028e82c2ad37d7debb56c7a73eb19cdeaf44802")
+	((:commit . "f97b280cb543fc37583f475b09e3194f3ab0ccbf")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -25104,7 +25104,7 @@
 	      (async
 	       (1 9 4)))
 	     "Development files for Helm" tar
-	     ((:commit . "a028e82c2ad37d7debb56c7a73eb19cdeaf44802")
+	     ((:commit . "f97b280cb543fc37583f475b09e3194f3ab0ccbf")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -31112,7 +31112,7 @@
 		(vterm
 		 (0 0 1)))
 	       "A mode for Julia REPL using vterm" single
-	       ((:commit . "5c2354ed236f17278ac1585a0da9798529a23cdc")
+	       ((:commit . "58a62b398bbc1ff7408a28f2efb9921928caadd9")
 		(:authors
 		 ("Shigeaki Nishina"))
 		(:maintainer "Shigeaki Nishina")
@@ -34186,7 +34186,7 @@
 		 (:keywords "languages")
 		 (:url . "https://github.com/emacs-lsp/lsp-treemacs"))])
  (lsp-ui .
-	 [(8 0 0 1 -4 20220704 2111)
+	 [(8 0 0 1 -4 20220707 1336)
 	  ((emacs
 	    (26 1))
 	   (dash
@@ -34196,7 +34196,7 @@
 	   (markdown-mode
 	    (2 3)))
 	  "UI modules for lsp-mode" tar
-	  ((:commit . "0a6368d38dc32e52abcbd52b63d1e557e42c66e6")
+	  ((:commit . "a94bcec2071ee196bc83e52ad92ec0881f8bcfbd")
 	   (:authors
 	    ("Sebastien Chapuis <sebastien@chapu.is>, Fangrui Song" . "i@maskray.me"))
 	   (:maintainer "Sebastien Chapuis <sebastien@chapu.is>, Fangrui Song" . "i@maskray.me")
@@ -36048,11 +36048,11 @@
 	      (:maintainer "Craig Niles <niles.c at gmail.com>")
 	      (:url . "https://github.com/cniles/emacs-mimetypes"))])
  (mindre-theme .
-	       [(0 1 1 -4 20220705 1423)
+	       [(0 1 1 -4 20220707 1507)
 		((emacs
 		  (26 1)))
 		"Minimal, light theme" single
-		((:commit . "1b96a4c251111b9e16b8fe4734a4a7212e3db8b8")
+		((:commit . "97057694d19cbe755fa26c8caf4c795ddfa38b4e")
 		 (:authors
 		  ("Erik B\303\244ckman" . "contact@ebackman.net"))
 		 (:maintainer "Erik B\303\244ckman" . "contact@ebackman.net")
@@ -37693,11 +37693,11 @@
 	      (:maintainer "Christopher Wellons" . "wellons@nullprogram.com")
 	      (:url . "https://github.com/skeeto/nasm-mode"))])
  (native-complete .
-		  [(0 1 0 1 -4 20220706 1800)
+		  [(0 1 0 1 -4 20220707 1544)
 		   ((emacs
 		     (26 1)))
 		   "Shell completion using native complete mechanisms" single
-		   ((:commit . "f60037efdf4a453e24c12e9c063ed67f73ba65b1")
+		   ((:commit . "9dbfc842b3af803f636df61dec6129e1d8593ee4")
 		    (:authors
 		     ("Troy Hinckley" . "troy.hinckley@gmail.com"))
 		    (:maintainer "Troy Hinckley" . "troy.hinckley@gmail.com")
@@ -47495,7 +47495,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "f465dd8dba205e6c7d2d1f3436bf33376a54706a")
+	  ((:commit . "41d4761690563ad7fa088aab42a0a693e22a6024")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
