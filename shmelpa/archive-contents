@@ -1557,9 +1557,9 @@
 	     (:keywords "convenience" "tools" "keybindings" "org")
 	     (:url . "https://github.com/noctuid/annalist.el"))])
  (annotate .
-	   [(1 6 0 1 -4 20220603 1023)
+	   [(1 7 0 1 -4 20220707 1207)
 	    nil "annotate files without changing them" single
-	    ((:commit . "7f48fad362b15546da7b015b533609a2452497b0")
+	    ((:commit . "4c697e70e882657aaf9072d9703c6142e931b265")
 	     (:authors
 	      ("Bastian Bechtold"))
 	     (:maintainer "Bastian Bechtold <bastibe.dev@mailbox.org>, cage" . "cage-dev@twistfold.it")
@@ -13125,7 +13125,7 @@
 		(:maintainer "Satoshi Egi" . "egisatoshi@gmail.com")
 		(:url . "https://github.com/egisatoshi/egison3/blob/master/elisp/egison-mode.el"))])
  (eglot .
-	[(1 8 1 -4 20220630 739)
+	[(1 8 1 -4 20220707 1132)
 	 ((emacs
 	   (26 1))
 	  (jsonrpc
@@ -13141,7 +13141,7 @@
 	  (seq
 	   (2 23)))
 	 "Client for Language Server Protocol (LSP) servers" single
-	 ((:commit . "bd970be047aba4513c2970b9ff2d842f0472cb0e")
+	 ((:commit . "f9c986ffd826a34cb5da81936a44dab93cb11b9c")
 	  (:authors
 	   ("Jo\303\243o T\303\241vora" . "joaotavora@gmail.com"))
 	  (:maintainer "Jo\303\243o T\303\241vora" . "joaotavora@gmail.com")
@@ -15409,7 +15409,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "9430192674d207ca0edfdbec49cb530e19ba3de4")
+	  ((:commit . "5d7398fd42b65843a0278d60a8f4236edd282d9f")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -23659,7 +23659,7 @@
 	 (json-mode
 	  (1 6 0)))
 	"Interface to govc for managing VMware ESXi and vCenter" single
-	((:commit . "109a93b93264511610ba457d71799771188118c1")
+	((:commit . "67e845ea29ffd8fdea4b3cf9da2903bba12199eb")
 	 (:authors
 	  ("The govc developers"))
 	 (:maintainer "The govc developers")
@@ -24645,13 +24645,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 8 6 1 -4 20220707 723)
+       [(3 8 6 1 -4 20220707 1013)
 	((helm-core
 	  (3 8 4))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "23c92e4d9756f64620d075820703afc1e0e14ccb")
+	((:commit . "a028e82c2ad37d7debb56c7a73eb19cdeaf44802")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -25104,7 +25104,7 @@
 	      (async
 	       (1 9 4)))
 	     "Development files for Helm" tar
-	     ((:commit . "23c92e4d9756f64620d075820703afc1e0e14ccb")
+	     ((:commit . "a028e82c2ad37d7debb56c7a73eb19cdeaf44802")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -25988,11 +25988,11 @@
 		  (:maintainer "Julien BLANCHARD" . "julien@sideburns.eu")
 		  (:url . "https://github.com/julienXX/helm-lobste.rs"))])
  (helm-ls-git .
-	      [(0 1 0 1 -4 20220703 1515)
+	      [(0 1 0 1 -4 20220707 1048)
 	       ((helm
 		 (1 7 8)))
 	       "list git files." single
-	       ((:commit . "8caf441f780cbdd5f76c4064d52d6f7199d0eb01"))])
+	       ((:commit . "bbe111adc204b7dcfa0657e5f56d5b90d2286afd"))])
  (helm-ls-hg .
 	     [(0 1 0 1 -4 20150909 543)
 	      ((helm
@@ -33729,7 +33729,7 @@
 	    (yaml-mode
 	     (0 0 15)))
 	   "LSP integration for cfn-lsp-extra" tar
-	   ((:commit . "d3ab1c4187192bd9c658cfdf59d086ae47c51f25")
+	   ((:commit . "624f34c353844f4835e15cf7930b3f74cc67cb5c")
 	    (:authors
 	     ("Laurence Warne"))
 	    (:maintainer "Laurence Warne")
@@ -36494,9 +36494,9 @@
 		 (:keywords "faces" "theme" "accessibility")
 		 (:url . "https://git.sr.ht/~protesilaos/modus-themes"))])
  (moe-theme .
-	    [(1 0 2 1 -4 20220615 1342)
+	    [(1 0 2 1 -4 20220707 1110)
 	     nil "A colorful eye-candy theme. Moe, moe, kyun!" tar
-	     ((:commit . "5fc7a33d40a8d975188199656a320dee0312f7ea")
+	     ((:commit . "786c5f9aefa38b36f6bee0aa56aaa8da00fa0924")
 	      (:authors
 	       ("kuanyui" . "azazabc123@gmail.com"))
 	      (:maintainer "kuanyui" . "azazabc123@gmail.com")
@@ -37513,11 +37513,11 @@
 	 (:keywords "neo4j" "shell" "comint")
 	 (:url . "https://github.com/tmtxt/n4js.el"))])
  (naga-theme .
-	     [(0 1 1 -4 20220706 912)
+	     [(0 1 1 -4 20220707 1208)
 	      ((emacs
 		(24 1)))
 	      "Dark color theme with green foreground color" single
-	      ((:commit . "900ea0393f6ddc0551436276a7d801bd22a20779")
+	      ((:commit . "b52f142b834c67dccc6aacc16c1eb1601664cfc0")
 	       (:authors
 		("Johannes Maier" . "johannes.maier@mailbox.org"))
 	       (:maintainer "Johannes Maier" . "johannes.maier@mailbox.org")
@@ -38417,7 +38417,7 @@
 		   (:keywords "faces" "theme")
 		   (:url . "https://git.sr.ht/~lthms/colorless-themes.el"))])
  (norns .
-	[(0 0 1 1 -4 20220706 2023)
+	[(0 0 1 1 -4 20220707 1006)
 	 ((emacs
 	   (27 1))
 	  (dash
@@ -38431,7 +38431,7 @@
 	  (websocket
 	   (1 13)))
 	 "Interactive development environment for monome norns" single
-	 ((:commit . "d9972936192458ae194e43ef484b3f24fc923c11")
+	 ((:commit . "fea64be77d413ef3d8442a9699b3bfc53859ae80")
 	  (:keywords "processes" "terminals")
 	  (:url . "https://github.com/p3r7/norns.el"))])
  (northcode-theme .
@@ -38468,7 +38468,7 @@
  (notmuch .
 	  [(0 1 0 1 -4 20220703 2008)
 	   nil "run notmuch within emacs" tar
-	   ((:commit . "b07e121923a4ca00d0ec68ba9eebe8dafb70e13a")
+	   ((:commit . "09fa6bcc0d1706889fe8f1fc86f39f9a1ab852ba")
 	    (:url . "https://notmuchmail.org"))])
  (notmuch-addr .
 	       [(0 1 0 1 -4 20220422 1618)
