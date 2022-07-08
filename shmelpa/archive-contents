@@ -4200,13 +4200,13 @@
 		       (:keywords "calendar" "holidays" "brazilian")
 		       (:url . "https://github.com/jadler/brazilian-holidays"))])
  (brf .
-      [(1 23 1 -4 20220707 2130)
+      [(1 23 1 -4 20220708 535)
        ((fringe-helper
 	 (0 1 1))
 	(emacs
 	 (24 3)))
        "Brf-mode provides features from the legendary editor Brief" tar
-       ((:commit . "e723f57dcba4d06634490f2bbb963dfdbdfed9f7")
+       ((:commit . "ea49cefad49eec42b67250b1017d294c8c7d7a58")
 	(:authors
 	 ("Mike Woolley" . "mike@bulsara.com"))
 	(:maintainer "Mike Woolley" . "mike@bulsara.com")
@@ -5698,7 +5698,7 @@
 		  (ts
 		   (0 2)))
 		 "Friendly and powerful personal time tracker and analyzer" tar
-		 ((:commit . "2a21021e8a67e35e8a6579aa0cda082a7bf3596f")
+		 ((:commit . "7ecf058d7c9dc4345a6511aa3252ca5eae6ffa8a")
 		  (:authors
 		   ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 		  (:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -5724,7 +5724,7 @@
 			    ((chronometrist
 			      (0 7 0)))
 			    "add key-values to Chronometrist data" tar
-			    ((:commit . "2a21021e8a67e35e8a6579aa0cda082a7bf3596f")
+			    ((:commit . "7ecf058d7c9dc4345a6511aa3252ca5eae6ffa8a")
 			     (:authors
 			      ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 			     (:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -5739,7 +5739,7 @@
 			(spark
 			 (0 1)))
 		       "Show sparklines in Chronometrist buffers" tar
-		       ((:commit . "2a21021e8a67e35e8a6579aa0cda082a7bf3596f")
+		       ((:commit . "7ecf058d7c9dc4345a6511aa3252ca5eae6ffa8a")
 			(:authors
 			 ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 			(:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -6505,7 +6505,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "cac0f014b00587d4ca345cce5b9d69fd503e9769"))])
+	      ((:commit . "c4cdd7a24d3016ccf91fae26646a548b52de4a78"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -9653,16 +9653,16 @@
 	   (:keywords "files" "convenience" "buffer switching")
 	   (:url . "https://github.com/martinp26/cycbuf"))])
  (cycle-at-point .
-		 [(0 1 1 -4 20220708 211)
+		 [(0 1 1 -4 20220708 500)
 		  ((emacs
 		    (28 1))
 		   (recomplete
 		    (0 2)))
 		  "Cycle (rotate) the thing under the cursor" tar
-		  ((:commit . "60f883b9894cfda262edefe3c2372366e57ad2be")
+		  ((:commit . "d900f71b46fabadab6bf058f3f48236de6ee9220")
 		   (:authors
-		    ("Campbell Barton"))
-		   (:maintainer "Campbell Barton")
+		    ("Campbell Barton" . "ideasman42@gmail.com"))
+		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		   (:keywords "convenience")
 		   (:url . "https://codeberg.org/ideasman42/emacs-cycle-at-point"))])
  (cycle-resize .
@@ -28363,14 +28363,14 @@
 					   (:keywords "convenience")
 					   (:url . "https://github.com/ignacy/idle-highlight-in-visible-buffers"))])
  (idle-highlight-mode .
-		      [(1 1 3 1 -4 20220708 211)
+		      [(1 1 3 1 -4 20220708 500)
 		       ((emacs
 			 (27 1)))
 		       "Highlight the word the point is on" single
-		       ((:commit . "27e144d7b2a8ab7a7e9d43fa23d6a38b6480d8e9")
+		       ((:commit . "262ec2bdfd0e64f6be157957ba65852b5dd4e86d")
 			(:authors
 			 ("Phil Hagelberg, Cornelius Mika, Campbell Barton"))
-			(:maintainer "Phil Hagelberg, Cornelius Mika, Campbell Barton")
+			(:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 			(:keywords "convenience")
 			(:url . "https://codeberg.org/ideasman42/emacs-idle-highlight-mode"))])
  (idle-org-agenda .
