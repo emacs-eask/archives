@@ -13531,11 +13531,11 @@
 	      (:keywords "calendar" "convenience")
 	      (:url . "https://github.com/rollacaster/elcontext"))])
  (elcord .
-	 [(1 1 0 1 -4 20220305 1234)
+	 [(1 1 0 1 -4 20220708 55)
 	  ((emacs
 	    (25 1)))
 	  "Allows you to integrate Rich Presence from Discord" tar
-	  ((:commit . "70fd716e673b724b30b921f4cfa0033f9c02d0f2")
+	  ((:commit . "c3c9d318171c2627a64e6f34eed5942e4f5ad369")
 	   (:authors
 	    ("heatingdevice")
 	    ("Wilfredo Vel\303\241zquez-Rodr\303\255guez" . "zulu.inuoe@gmail.com"))
@@ -27572,15 +27572,15 @@
 		 ("boyw165"))
 		(:maintainer "boyw165"))])
  (hl-block-mode .
-		[(0 1 1 -4 20220507 1118)
+		[(0 1 1 -4 20220708 211)
 		 ((emacs
 		   (26 1)))
 		 "Highlighting nested blocks" single
-		 ((:commit . "7e0452c768a4e309d1cdc15025683ebfe71e626f")
+		 ((:commit . "0015b2c9c1c138370fb076cc9a54e90849221b6e")
 		  (:authors
 		   ("Campbell Barton" . "ideasman42@gmail.com"))
 		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-		  (:url . "https://codeberg.com/ideasman42/emacs-hl-block-mode"))])
+		  (:url . "https://codeberg.org/ideasman42/emacs-hl-block-mode"))])
  (hl-fill-column .
 		 [(0 1 1 -4 20200607 757)
 		  ((names
@@ -27605,11 +27605,11 @@
 	      (:keywords "convenience" "faces")
 	      (:url . "https://github.com/ikirill/hl-indent"))])
  (hl-prog-extra .
-		[(0 1 1 -4 20220627 2301)
+		[(0 1 1 -4 20220708 211)
 		 ((emacs
 		   (26 2)))
 		 "Customizable highlighting for source-code" tar
-		 ((:commit . "c6f1ad55d12c5b726a797fa2216d4ddb3a261764")
+		 ((:commit . "67813ae7b81c9e14f077937cd6fbbad0cc0e6a91")
 		  (:authors
 		   ("Campbell Barton" . "ideasman42@gmail.com"))
 		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -28363,16 +28363,16 @@
 					   (:keywords "convenience")
 					   (:url . "https://github.com/ignacy/idle-highlight-in-visible-buffers"))])
  (idle-highlight-mode .
-		      [(1 1 3 1 -4 20220507 1118)
+		      [(1 1 3 1 -4 20220708 211)
 		       ((emacs
 			 (27 1)))
 		       "Highlight the word the point is on" single
-		       ((:commit . "5418252a11b00377a59295e50b7436f53afe68bb")
+		       ((:commit . "27e144d7b2a8ab7a7e9d43fa23d6a38b6480d8e9")
 			(:authors
 			 ("Phil Hagelberg, Cornelius Mika, Campbell Barton"))
 			(:maintainer "Phil Hagelberg, Cornelius Mika, Campbell Barton")
 			(:keywords "convenience")
-			(:url . "https://codeberg.com/ideasman42/emacs-idle-highlight-mode"))])
+			(:url . "https://codeberg.org/ideasman42/emacs-idle-highlight-mode"))])
  (idle-org-agenda .
 		  [(1 0 1 -4 20190106 1844)
 		   nil "Shows your agenda when editor is idle." single
@@ -29206,16 +29206,16 @@
 	     (:keywords "languages" "wp" "hypermedia")
 	     (:url . "https://github.com/Kungsgeten/ink-mode"))])
  (inkpot-theme .
-	       [(0 1 1 -4 20220507 1118)
+	       [(0 1 1 -4 20220708 211)
 		((emacs
 		  (24 1)))
 		"A port of vim's inkpot theme" single
-		((:commit . "59056ef2e8850d33abc6e787219fcff404217afc")
+		((:commit . "e77c766be3f6484de2881988c1fc38c2537214c8")
 		 (:authors
 		  ("Sarah Iovan" . "sarah@hwaetageek.com")
 		  ("Campbell Barton" . "ideasman42@gmail.com"))
 		 (:maintainer "Sarah Iovan" . "sarah@hwaetageek.com")
-		 (:url . "https://codeberg.com/ideasman42/emacs-inkpot-theme"))])
+		 (:url . "https://codeberg.org/ideasman42/emacs-inkpot-theme"))])
  (inline-crypt .
 	       [(0 1 4 1 -4 20170824 900)
 		nil "Simple inline encryption via openssl" tar
@@ -30969,11 +30969,11 @@
 		  (:maintainer "Sterling Graham" . "sterlingrgraham@gmail.com")
 		  (:url . "http://github.com/sterlingg/json-snatcher"))])
  (jsonian .
-	  [(0 1 0 1 -4 20220705 2155)
+	  [(0 1 0 1 -4 20220708 251)
 	   ((emacs
 	     (27 1)))
 	   "A major mode for editing JSON files" single
-	   ((:commit . "ad861d130e969560f3c74ea548ec12b8e4872524")
+	   ((:commit . "2c0c5b4aa371c6e41b56e13c610b7083da317532")
 	    (:authors
 	     ("Ian Wahbe"))
 	    (:maintainer "Ian Wahbe")
@@ -34527,17 +34527,17 @@
 		   (:keywords "circleci" "continuous" "integration" "magit" "vc" "tools")
 		   (:url . "https://github.com/abrochard/magit-circleci"))])
  (magit-commit-mark .
-		    [(0 1 0 1 -4 20220511 2341)
+		    [(0 1 0 1 -4 20220708 211)
 		     ((emacs
 		       (28 1))
 		      (magit
 		       (3 3 0)))
 		     "Support marking commits as read" single
-		     ((:commit . "ce2cd6daeb46eaea597a3b2c9d9ead80da9f0d09")
+		     ((:commit . "5762fdd85b3381fa72fa3219dc758e9e8c342246")
 		      (:authors
 		       ("Campbell Barton" . "ideasman42@gmail.com"))
 		      (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-		      (:url . "https://codeberg.com/ideasman42/emacs-magit-commit-mark"))])
+		      (:url . "https://codeberg.org/ideasman42/emacs-magit-commit-mark"))])
  (magit-delta .
 	      [(0 1 1 -4 20220125 50)
 	       ((emacs
@@ -36424,15 +36424,15 @@
 		    (:keywords "convenience" "lisp")
 		    (:url . "https://github.com/tarsius/mode-line-debug"))])
  (mode-line-idle .
-		 [(0 1 1 -4 20220507 1118)
+		 [(0 1 1 -4 20220708 211)
 		  ((emacs
 		    (28 1)))
 		  "Evaluate mode line content when idle" single
-		  ((:commit . "28658a54fbf20e8224cbc71b074670309ec2e998")
+		  ((:commit . "3c3a747d68b3f83e1f0a5124a5848ceb2a87a258")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-		   (:url . "https://codeberg.com/ideasman42/emacs-mode-line-idle"))])
+		   (:url . "https://codeberg.org/ideasman42/emacs-mode-line-idle"))])
  (modern-cpp-font-lock .
 		       [(0 1 3 1 -4 20210405 1155)
 			nil "Font-locking for \"Modern C++\"" single
@@ -39576,15 +39576,15 @@
 	  (:keywords "convenience")
 	  (:url . "https://github.com/clemera/objed"))])
  (oblivion-theme .
-		 [(0 1 1 -4 20220507 1118)
+		 [(0 1 1 -4 20220708 211)
 		  ((emacs
 		    (24 1)))
 		  "A port of GEdit oblivion theme" single
-		  ((:commit . "4129672f60d55c820adf260002476d038ac18165")
+		  ((:commit . "7781f3644c566cdf598ed194ee8f4df7591a02c5")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-		   (:url . "https://codeberg.com/ideasman42/emacs-oblivion-theme"))])
+		   (:url . "https://codeberg.org/ideasman42/emacs-oblivion-theme"))])
  (obsidian-theme .
 		 [(0 1 1 -4 20170719 948)
 		  nil "port of the eclipse obsidian theme" single
@@ -40697,11 +40697,11 @@
 			 (:keywords "convenience" "faces" "outlines")
 			 (:url . "https://github.com/harrybournis/org-fancy-priorities"))])
  (org-fragtog .
-	      [(0 4 1 1 -4 20220708 12)
+	      [(0 4 1 1 -4 20220708 129)
 	       ((emacs
 		 (27 1)))
 	       "Auto-toggle Org LaTeX fragments" single
-	       ((:commit . "e763ea5fa73f4f016d08624fdd52b828eab8b5cd")
+	       ((:commit . "ede4ac61e8cb580f63f882bdee2b0e573cd3dd60")
 		(:authors
 		 ("Benjamin Levy" . "blevy@protonmail.com"))
 		(:maintainer "Benjamin Levy" . "blevy@protonmail.com")
@@ -47242,7 +47242,7 @@
 	       ((emacs
 		 (26 1)))
 	       "Use autopep8 to beautify a Python buffer" single
-	       ((:commit . "d904639f1fca12435e38adb6cc602cd468fa618b")
+	       ((:commit . "cf2daa75aee75d4dec772103c577c614c85409ad")
 		(:authors
 		 ("Friedrich Paetzk" . "f.paetzke@gmail.com"))
 		(:maintainer "Friedrich Paetzk" . "f.paetzke@gmail.com")
@@ -48602,15 +48602,15 @@
 		      (:keywords "convenience" "files" "processes" "tools")
 		      (:url . "https://github.com/maio/recompile-on-save.el"))])
  (recomplete .
-	     [(0 2 1 -4 20220507 1118)
+	     [(0 2 1 -4 20220708 211)
 	      ((emacs
 		(26 1)))
 	      "Immediately (re)complete actions" single
-	      ((:commit . "021ca9b047caadd4903aa6f417890d6497ae437a")
+	      ((:commit . "541e98dad23c019b62af37cf4971ed17226c8713")
 	       (:authors
 		("Campbell Barton" . "ideasman42@gmail.com"))
 	       (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-	       (:url . "https://codeberg.com/ideasman42/emacs-recomplete"))])
+	       (:url . "https://codeberg.org/ideasman42/emacs-recomplete"))])
  (recover-buffers .
 		  [(0 1 0 1 -4 20171009 437)
 		   nil "revisit all buffers from an auto-save file" tar
@@ -49242,15 +49242,15 @@
 		  (:maintainer "Syohei YOSHIDA" . "syohex@gmail.com")
 		  (:url . "https://github.com/syohex/emacs-reverse-theme"))])
  (revert-buffer-all .
-		    [(0 1 1 -4 20220509 1045)
+		    [(0 1 1 -4 20220708 211)
 		     ((emacs
 		       (24 3)))
 		     "Revert all open buffers" single
-		     ((:commit . "91d0f4f7a0c0c3015887f4ed808537ebebd6385e")
+		     ((:commit . "5e1255b568f5d6449ab7c41a050e75cd05170244")
 		      (:authors
 		       ("Campbell Barton" . "ideasman42@gmail.com"))
 		      (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-		      (:url . "https://codeberg.com/ideasman42/emacs-buffer-revert-all"))])
+		      (:url . "https://codeberg.org/ideasman42/emacs-buffer-revert-all"))])
  (review-mode .
 	      [(0 1 0 1 -4 20220215 842)
 	       nil "major mode for ReVIEW" single
@@ -49850,16 +49850,16 @@
 			(:keywords "extensions" "run-command")
 			(:url . "https://github.com/semenInRussia/emacs-run-command-recipes"))])
  (run-stuff .
-	    [(0 0 2 1 -4 20220507 1118)
+	    [(0 0 2 1 -4 20220708 211)
 	     ((emacs
 	       (25 1)))
 	     "Context based command execution" single
-	     ((:commit . "0aeabc7ef3f2a209c0c69300f6d61921ec448ffc")
+	     ((:commit . "f527571436b13a1694f1ab549ed1cf0a13411ace")
 	      (:authors
 	       ("Campbell Barton" . "ideasman42@gmail.com"))
 	      (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 	      (:keywords "files" "lisp" "files" "convenience" "hypermedia")
-	      (:url . "https://codeberg.com/ideasman42/emacs-run-stuff"))])
+	      (:url . "https://codeberg.org/ideasman42/emacs-run-stuff"))])
  (runner .
 	 [(1 8 1 -4 20160524 743)
 	  nil "Improved \"open with\" suggestions for dired" single
@@ -50389,25 +50389,25 @@
 		  (:keywords "convenience")
 		  (:url . "https://github.com/emacs-pe/scribble-mode"))])
  (scroll-on-drag .
-		 [(0 1 1 -4 20220510 1204)
+		 [(0 1 1 -4 20220708 211)
 		  ((emacs
 		    (26 2)))
 		  "Interactive scrolling" single
-		  ((:commit . "01c14f4c024548ed1f644263faa0786c10afc978")
+		  ((:commit . "6d4de55bb6b72aaec53b82b8f8cdccc5396d6bf5")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-		   (:url . "https://codeberg.com/ideasman42/emacs-scroll-on-drag"))])
+		   (:url . "https://codeberg.org/ideasman42/emacs-scroll-on-drag"))])
  (scroll-on-jump .
-		 [(0 1 1 -4 20220509 1046)
+		 [(0 1 1 -4 20220708 211)
 		  ((emacs
 		    (26 2)))
 		  "Scroll when jumping to a new point" single
-		  ((:commit . "8fde237ae6d6a54730445b399513bc6d31d7daba")
+		  ((:commit . "0cba79dcb28fd82abe9d1c1bbc00fd7655dcedf6")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-		   (:url . "https://codeberg.com/ideasman42/emacs-scroll-on-jump"))])
+		   (:url . "https://codeberg.org/ideasman42/emacs-scroll-on-jump"))])
  (scrollable-quick-peek .
 			[(0 1 0 1 -4 20201224 329)
 			 ((quick-peek
@@ -51426,16 +51426,16 @@
 	       (:keywords "convenience")
 	       (:url . "https://github.com/rnkn/side-notes"))])
  (sidecar-locals .
-		 [(0 1 1 -4 20220510 413)
+		 [(0 1 1 -4 20220708 211)
 		  ((emacs
 		    (27 1)))
 		  "A flexible alternative to built-in dir-locals" single
-		  ((:commit . "7fd5daec1e0a7a091b343948bbb5c77e73724776")
+		  ((:commit . "984497acd4f9d148467c9f1a30c1acb889d48d35")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		   (:keywords "convenience")
-		   (:url . "https://codeberg.com/ideasman42/emacs-sidecar-locals"))])
+		   (:url . "https://codeberg.org/ideasman42/emacs-sidecar-locals"))])
  (sift .
        [(0 2 0 1 -4 20200421 1423)
 	nil "Front-end for sift, a fast and powerful grep alternative" single
@@ -52929,15 +52929,15 @@
 		(:maintainer "Bjarte Johansen <Bjarte dot Johansen at gmail dot com>")
 		(:url . "https://github.com/ljos/sparql-mode"))])
  (spatial-navigate .
-		   [(0 1 1 -4 20220507 1118)
+		   [(0 1 1 -4 20220708 211)
 		    ((emacs
 		      (26 2)))
 		    "Directional navigation between white-space blocks" single
-		    ((:commit . "09ebd2ba7779998c31296bf8b6ffebf854f3eb73")
+		    ((:commit . "6840ca694d281d39de76c1af0cb2ec526b40820a")
 		     (:authors
 		      ("Campbell Barton" . "ideasman42@gmail.com"))
 		     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-		     (:url . "https://codeberg.com/ideasman42/emacs-spatial-navigate"))])
+		     (:url . "https://codeberg.org/ideasman42/emacs-spatial-navigate"))])
  (spdx .
        [(0 1 0 1 -4 20220518 117)
 	((emacs
@@ -53004,11 +53004,11 @@
 		(:keywords "date" "time")
 		(:url . "https://github.com/xuchunyang/emacs-speeddating"))])
  (spell-fu .
-	   [(0 3 1 -4 20220627 2309)
+	   [(0 3 1 -4 20220708 211)
 	    ((emacs
 	      (26 2)))
 	    "Fast & light spelling highlighter" single
-	    ((:commit . "cbe5cd84c3375ebf6c1ce00d8eb4af7f62a9d710")
+	    ((:commit . "4b38ed72c63499ce3de0f374e28c0c9bd7cef26e")
 	     (:authors
 	      ("Campbell Barton" . "ideasman42@gmail.com"))
 	     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -55354,7 +55354,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "76aa2258ed0ce2cf4c0c6befae3e51d62be3059c")
+	  ((:commit . "817f79cb4021bf544ae0c6577c1824b6fe0029ce")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -56933,26 +56933,26 @@
 		     (:maintainer "Jon-Michael Deldin" . "dev@jmdeldin.com")
 		     (:keywords "faces"))])
  (undo-fu .
-	  [(0 4 1 -4 20220509 1045)
+	  [(0 4 1 -4 20220708 211)
 	   ((emacs
 	     (25 1)))
 	   "Undo helper with redo" single
-	   ((:commit . "97e7f4f6e0754fd1b01db9638b3f534b5b4941c2")
+	   ((:commit . "81598b1bec7192759214959bf953950dd8a41ab6")
 	    (:authors
 	     ("Campbell Barton" . "ideasman42@gmail.com"))
 	    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-	    (:url . "https://codeberg.com/ideasman42/emacs-undo-fu"))])
+	    (:url . "https://codeberg.org/ideasman42/emacs-undo-fu"))])
  (undo-fu-session .
-		  [(0 2 1 -4 20220509 1044)
+		  [(0 3 1 -4 20220708 211)
 		   ((emacs
 		     (28 1)))
 		   "Persistent undo, available between sessions" single
-		   ((:commit . "52c71b1cee2fe944e0013a2823e6fde10b26bc65")
+		   ((:commit . "3655c3efe9fa843439ff0946488418e4d2a43bff")
 		    (:authors
 		     ("Campbell Barton" . "ideasman42@gmail.com"))
 		    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		    (:keywords "convenience")
-		    (:url . "https://codeberg.com/ideasman42/emacs-undo-fu-session"))])
+		    (:url . "https://codeberg.org/ideasman42/emacs-undo-fu-session"))])
  (undo-propose .
 	       [(4 0 0 1 -4 20210207 45)
 		((emacs
@@ -57405,11 +57405,11 @@
 	    (:keywords "convenience" "customize" "font" "install" "ttf")
 	    (:url . "https://github.com/jcs-elpa/use-ttf"))])
  (utimeclock .
-	     [(0 1 1 -4 20220425 939)
+	     [(0 1 1 -4 20220708 211)
 	      ((emacs
 		(24 4)))
 	      "Simple utility for manual time tracking" single
-	      ((:commit . "cfd5109e004d3e2522f5e758b3ff7238fcf385d6")
+	      ((:commit . "40f00d169a44564b83a785158dcf02b5750ae7f7")
 	       (:authors
 		("Campbell Barton" . "ideasman42@gmail.com"))
 	       (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -59826,11 +59826,11 @@
 	     (:keywords "javascript" "convenience" "tools")
 	     (:url . "https://github.com/NicolasPetton/xref-js2"))])
  (xref-rst .
-	   [(0 1 1 -4 20220523 1234)
+	   [(0 1 1 -4 20220708 211)
 	    ((emacs
 	      (28 1)))
 	    "Lookup reStructuredText symbols" single
-	    ((:commit . "4cbe37a4ae45dda7f8228f9490408eba3f92a19e")
+	    ((:commit . "c497c0d9b97692a39c984d0e6bb06dcdc4ad0082")
 	     (:authors
 	      ("Campbell Barton" . "ideasman42@gmail.com"))
 	     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
