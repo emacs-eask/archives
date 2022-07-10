@@ -5698,7 +5698,7 @@
 		  (ts
 		   (0 2)))
 		 "Friendly and powerful personal time tracker and analyzer" tar
-		 ((:commit . "434dcb9e3143f3d91cf9792e77a6cb1df351c6f4")
+		 ((:commit . "71ef164f545447665fb12a3af1b74c49dd29ab90")
 		  (:authors
 		   ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 		  (:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -5724,7 +5724,7 @@
 			    ((chronometrist
 			      (0 7 0)))
 			    "add key-values to Chronometrist data" tar
-			    ((:commit . "434dcb9e3143f3d91cf9792e77a6cb1df351c6f4")
+			    ((:commit . "71ef164f545447665fb12a3af1b74c49dd29ab90")
 			     (:authors
 			      ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 			     (:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -5739,7 +5739,7 @@
 			(spark
 			 (0 1)))
 		       "Show sparklines in Chronometrist buffers" tar
-		       ((:commit . "434dcb9e3143f3d91cf9792e77a6cb1df351c6f4")
+		       ((:commit . "71ef164f545447665fb12a3af1b74c49dd29ab90")
 			(:authors
 			 ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 			(:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -29038,11 +29038,11 @@
 	      (:keywords "databases" "mongodb")
 	      (:url . "http://github.com/endofunky/inf-mongo"))])
  (inf-ruby .
-	   [(2 6 0 1 -4 20220228 208)
+	   [(2 6 1 1 -4 20220710 103)
 	    ((emacs
 	      (24 3)))
 	    "Run a Ruby process in a buffer" single
-	    ((:commit . "dbf4386bac12f1733257db6105e3f1fca05ffb79")
+	    ((:commit . "4ddf6b3889004156a224e061c78357fa8936777a")
 	     (:authors
 	      ("Yukihiro Matsumoto")
 	      ("Nobuyoshi Nakada")
@@ -30801,13 +30801,13 @@
 		       (:maintainer "Mihai Bazon" . "mihai.bazon@gmail.com")
 		       (:url . "http://mihai.bazon.net/projects/editing-javascript-with-emacs-js2-mode/js2-highlight-vars-mode"))])
  (js2-mode .
-	   [(20211229 1 -4 20220626 1135)
+	   [(20220710 1 -4 20220710 57)
 	    ((emacs
 	      (24 1))
 	     (cl-lib
 	      (0 5)))
 	    "Improved JavaScript editing mode" tar
-	    ((:commit . "a48b87353b5f0903bb7bb791c89d8645a10b216b")
+	    ((:commit . "841cfec9570ae06a67a131997e2aff32340e81d7")
 	     (:authors
 	      ("Steve Yegge" . "steve.yegge@gmail.com")
 	      ("mooz" . "stillpedant@gmail.com")
@@ -40797,6 +40797,21 @@
 	     ("Aldric Giacomoni" . "trevoke@gmail.com"))
 	    (:maintainer "Aldric Giacomoni" . "trevoke@gmail.com")
 	    (:url . "https://github.com/Trevoke/org-gtd.el"))])
+ (org-hyperscheduler .
+		     [(1 0 1 -4 20220704 2140)
+		      ((emacs
+			(27 1))
+		       (websocket
+			(1 13))
+		       (log4e
+			(0 3 3)))
+		      "UI (web) representation of org-agenda" tar
+		      ((:commit . "b7f33e7bf19b7ce7c81dbac4de765a854ee7f52f")
+		       (:authors
+			("Dmitry Markushevich" . "dmitrym@gmail.com"))
+		       (:maintainer "Dmitry Markushevich" . "dmitrym@gmail.com")
+		       (:keywords "org-mode" "calendar")
+		       (:url . "https://github.com/dmitrym0/org-hyperscheduler"))])
  (org-id-cleanup .
 		 [(1 7 1 1 -4 20220228 1653)
 		  ((org
