@@ -5153,6 +5153,18 @@
 	(:maintainer "Lukas F\303\274rmetz" . "fuermetz@mailbox.org")
 	(:keywords "buffers")
 	(:url . "http://github.com/akermu/cbm.el"))])
+ (cbor .
+       [(0 2 1 1 -4 20220623 22)
+	((emacs
+	  (25 1))
+	 (dash
+	  (2 19 0)))
+	"CBOR utilities" single
+	((:commit . "821f77cd0814284bb4fe606b9b436be818a444fc")
+	 (:authors
+	  ("Oscar Najera <https://oscarnajera.com>"))
+	 (:maintainer "Oscar Najera" . "hi@oscarnajera.com")
+	 (:url . "https://github.com/Titan-C/cardano.el"))])
  (cc-cedict .
 	    [(0 1 1 -4 20210814 819)
 	     ((emacs
@@ -6505,7 +6517,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "6734c2af4733a3eded22c0b1df82641ff03e4007"))])
+	      ((:commit . "8a32a96db6e356b9fea64148edce1cd9d324f3b7"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -10621,7 +10633,7 @@
 	     ((emacs
 	       (27 1)))
 	     "Display diff's using alternative diffing tools" single
-	     ((:commit . "71336e614e3150c47c58f99f2df10a3af73370ac")
+	     ((:commit . "94e35421fdf1e5d3d7b256280eacfa8065f4c8d3")
 	      (:authors
 	       ("Campbell Barton" . "ideasman42@gmail.com"))
 	      (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -12713,9 +12725,9 @@
 	(:maintainer "Klaus Berndl" . "klaus.berndl@sdm.de")
 	(:keywords "browser" "code" "programming" "tools"))])
  (echo-bar .
-	   [(1 0 0 1 -4 20220222 214)
+	   [(1 0 0 1 -4 20220705 2212)
 	    nil "Turn the echo area into a custom status bar" single
-	    ((:commit . "06cc8ef88f3b054f676b76815879bd6c71107591")
+	    ((:commit . "b00e80acbbb708a3528c7b376dfb216deb64e4fe")
 	     (:authors
 	      ("Adam Tillou" . "qaiviq@gmail.com"))
 	     (:maintainer "Adam Tillou" . "qaiviq@gmail.com")
