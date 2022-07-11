@@ -36535,11 +36535,11 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(2 4 1 1 -4 20220708 1408)
+	       [(2 4 1 1 -4 20220711 501)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "2860a94f78154dfdd0b2d01bdf0af7992195f34c")
+		((:commit . "fc936326f9486cfda0c9113dc4a3054e9971447d")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainer "Modus-Themes Development" . "~protesilaos/modus-themes@lists.sr.ht")
@@ -38371,13 +38371,15 @@
 	    (:keywords "keyboard" "tools")
 	    (:url . "https://github.com/mamapanda/no-spam"))])
  (noaa .
-       [(0 1 1 -4 20220515 2359)
+       [(0 1 1 -4 20220711 445)
 	((emacs
 	  (27 1))
 	 (request
-	  (0 2 0)))
+	  (0 2 0))
+	 (s
+	  (1 12 0)))
 	"Get NOAA weather data" single
-	((:commit . "1ebacdfbaa996319adf88a49258814c28ba49b1b")
+	((:commit . "c7e42920c2db19428c1b30402aaf99bd65bcac7e")
 	 (:authors
 	  ("David Thompson"))
 	 (:maintainer "David Thompson")
@@ -47581,7 +47583,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "23a70e6f2721edbf1b74a4fb212837333f6cea20")
+	  ((:commit . "e2b7b2a7436979808adc5a3da0e46766bba9a900")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -51555,7 +51557,7 @@
 		      (ht
 		       (2 4)))
 		     "Show flycheck errors with sideline" single
-		     ((:commit . "a1fd5368acbc8cd15e00d23a0bf6f19d24f5c061")
+		     ((:commit . "7f11c14c938a88a35728b04add991903486ddd31")
 		      (:authors
 		       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -55479,7 +55481,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "a7f17c88d6977bb26e574d0df0dd911002b22975")
+	  ((:commit . "0a43b417bc771d34bb04d8b90818e0cc61f40993")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
