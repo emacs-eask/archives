@@ -45262,6 +45262,17 @@
 	       ("Junpeng Qiu" . "qjpchmail@gmail.com"))
 	      (:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com")
 	      (:keywords "extensions"))])
+ (pip-frame .
+	    [(1 1 -4 20220706 810)
+	     ((emacs
+	       (25 1)))
+	     "Display and manage a PIP frame" single
+	     ((:commit . "7a75e73f884f294c979d19a520268f2a4371861b")
+	      (:authors
+	       ("Milan Zamazal" . "pdm@zamazal.org"))
+	      (:maintainer "Milan Zamazal" . "pdm@zamazal.org")
+	      (:keywords "frames")
+	      (:url . "https://git.zamazal.org/pdm/pip-frame"))])
  (pip-requirements .
 		   [(0 6 1 -4 20181027 1629)
 		    ((dash
@@ -49019,6 +49030,17 @@
 	  (:maintainer "Dave Love" . "fx@gnu.org")
 	  (:keywords "languages")
 	  (:url . "https://github.com/billywade/renpy-mode"))])
+ (repeat-help .
+	      [(0 10 1 -4 20220706 1225)
+	       ((emacs
+		 (28 1)))
+	       "Display keybindings for repeat-mode" single
+	       ((:commit . "4f8bc98a35047146438f47059e32fbd5aae80e89")
+		(:authors
+		 ("Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))
+		(:maintainer "Karthik Chikmagalur" . "karthikchikmagalur@gmail.com")
+		(:keywords "convenience")
+		(:url . "https://github.com/karthink/repeat-help"))])
  (repeatable-motion .
 		    [(0 0 1 -4 20170620 1848)
 		     ((emacs
@@ -51522,6 +51544,23 @@
 	     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
 	     (:keywords "convenience")
 	     (:url . "https://github.com/emacs-sideline/sideline"))])
+ (sideline-flycheck .
+		    [(0 1 0 1 -4 20220629 752)
+		     ((emacs
+		       (27 1))
+		      (sideline
+		       (0 1 1))
+		      (flycheck
+		       (0 14))
+		      (ht
+		       (2 4)))
+		     "Show flycheck errors with sideline" single
+		     ((:commit . "a1fd5368acbc8cd15e00d23a0bf6f19d24f5c061")
+		      (:authors
+		       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
+		      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		      (:keywords "convenience" "flycheck")
+		      (:url . "https://github.com/emacs-sideline/sideline-flycheck"))])
  (sift .
        [(0 2 0 1 -4 20200421 1423)
 	nil "Front-end for sift, a fast and powerful grep alternative" single
@@ -57033,7 +57072,7 @@
 		   ((emacs
 		     (28 1)))
 		   "Persistent undo, available between sessions" single
-		   ((:commit . "0d50961415876a8468f6eac06701f290a63eea6d")
+		   ((:commit . "c95d1fbb28cb38fc68f3ba7cb5ef0e0136055118")
 		    (:authors
 		     ("Campbell Barton" . "ideasman42@gmail.com"))
 		    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -60895,11 +60934,11 @@
 	     (:keywords "outline")
 	     (:url . "https://github.com/abo-abo/zoutline"))])
  (zoxide .
-	 [(0 0 1 1 -4 20220302 522)
+	 [(0 0 1 1 -4 20220711 33)
 	  ((emacs
 	    (25 1)))
 	  "Find file by zoxide" single
-	  ((:commit . "cc173b8528d9d582c955e9b24a5841c37e494078")
+	  ((:commit . "b09c06962316d28b14ecbb2340af7c0636ab6d16")
 	   (:authors
 	    ("Ruoyu Feng" . "emacs@vonfry.name"))
 	   (:maintainer "Ruoyu Feng" . "emacs@vonfry.name")
