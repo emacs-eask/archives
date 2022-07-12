@@ -2614,7 +2614,7 @@
 		  (:maintainer "ncaq" . "ncaq@ncaq.net")
 		  (:url . "https://github.com/ncaq/auto-sudoedit"))])
  (auto-virtualenv .
-		  [(1 3 0 1 -4 20211215 907)
+		  [(1 4 1 1 -4 20220712 1612)
 		   ((cl-lib
 		     (0 5))
 		    (pyvenv
@@ -2622,7 +2622,7 @@
 		    (s
 		     (1 10 0)))
 		   "Auto activate python virtualenvs" single
-		   ((:commit . "07064e05feb62277991b8a7c04f7cdad50acaddf")
+		   ((:commit . "92bc2cd7cb401ab0643e9ca037c4d225ba45a7c1")
 		    (:authors
 		     ("Marcwebbie" . "marcwebbie@gmail.com"))
 		    (:maintainer "Marcwebbie" . "marcwebbie@gmail.com")
@@ -4967,7 +4967,7 @@
  (capnp-mode .
 	     [(1 0 0 1 -4 20210707 2310)
 	      nil "Major mode for editing Capn' Proto Files" single
-	      ((:commit . "327a9659a0d5b532887f84125fa8c6b3ee2930f5")
+	      ((:commit . "9b3f57fd962e3710180c44653354a883c1d5158c")
 	       (:authors
 		("Brian Taylor" . "el.wubo@gmail.com"))
 	       (:maintainer "Brian Taylor" . "el.wubo@gmail.com")
@@ -5722,7 +5722,7 @@
 		  (ts
 		   (0 2)))
 		 "Friendly and powerful personal time tracker and analyzer" tar
-		 ((:commit . "0f17064d37746314c458c1a0bf680726a80e9ce5")
+		 ((:commit . "620de80ef64082ed2997992b9bb6d1ee0af42a3f")
 		  (:authors
 		   ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 		  (:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -5748,7 +5748,7 @@
 			    ((chronometrist
 			      (0 7 0)))
 			    "add key-values to Chronometrist data" tar
-			    ((:commit . "0f17064d37746314c458c1a0bf680726a80e9ce5")
+			    ((:commit . "620de80ef64082ed2997992b9bb6d1ee0af42a3f")
 			     (:authors
 			      ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 			     (:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -5763,7 +5763,7 @@
 			(spark
 			 (0 1)))
 		       "Show sparklines in Chronometrist buffers" tar
-		       ((:commit . "0f17064d37746314c458c1a0bf680726a80e9ce5")
+		       ((:commit . "620de80ef64082ed2997992b9bb6d1ee0af42a3f")
 			(:authors
 			 ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 			(:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -9756,7 +9756,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "b404a3f3b82f296931730470411a68fec7d6f40f"))])
+	       ((:commit . "f04d53bc5a372a02266a92a27c1d041d1e02b6b8"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -11382,13 +11382,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 8 14 1 -4 20220712 1152)
+	  [(1 8 14 1 -4 20220712 1634)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "61fe17b805de4593865980fa7a8d5c36887dd96c")
+	   ((:commit . "40b6cf0baea8813481c5e359404547ce1eee7fa9")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -30231,13 +30231,13 @@
 	   (:keywords "j" "languages")
 	   (:url . "http://github.com/zellio/j-mode"))])
  (jabber .
-	 [(21 0 1 -4 20220601 403)
+	 [(21 0 1 -4 20220712 1643)
 	  ((fsm
 	    (0 2))
 	   (srv
 	    (0 2)))
 	  "A Jabber client for Emacs." tar
-	  ((:commit . "e93665085c06ef587b4739b2bf475db6f469bd00")
+	  ((:commit . "28353b2a0daaf6fef5b170745b52257816a52774")
 	   (:authors
 	    ("Magnus Henoch" . "mange@freemail.hu"))
 	   (:maintainer "wgreenhouse" . "wgreenhouse@tilde.club")
@@ -30343,7 +30343,7 @@
 		     (:keywords "languages")
 		     (:url . "https://github.com/rudi/jastadd-ast-mode"))])
  (java-imports .
-	       [(0 1 1 1 -4 20211006 2153)
+	       [(0 1 1 1 -4 20220712 1653)
 		((emacs
 		  (24 4))
 		 (s
@@ -30351,7 +30351,7 @@
 		 (pcache
 		  (0 3 2)))
 		"Code for dealing with Java imports" single
-		((:commit . "7535a36d85497448a6e83579b822beaca7251ccb")
+		((:commit . "bbb173c319a32b46680b5c0bffd72b607ed7b71a")
 		 (:authors
 		  ("Lee Hinman" . "lee@writequit.org"))
 		 (:maintainer "Lee Hinman" . "lee@writequit.org")
@@ -32235,7 +32235,7 @@
 		  (highlight
 		   (20190710 1527)))
 		 "A major mode for editing Lambdapi source code" tar
-		 ((:commit . "5087252275ae0d11d00deb8359051fecc019ce43")
+		 ((:commit . "2933ac40c75a53b773b421a7069741c5aa07c0a8")
 		  (:maintainer "Deducteam" . "dedukti-dev@inria.fr")
 		  (:keywords "languages")
 		  (:url . "https://github.com/Deducteam/lambdapi"))])
