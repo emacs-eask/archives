@@ -2622,7 +2622,7 @@
 		    (s
 		     (1 10 0)))
 		   "Auto activate python virtualenvs" single
-		   ((:commit . "92bc2cd7cb401ab0643e9ca037c4d225ba45a7c1")
+		   ((:commit . "1e1542f5eb34ec5f415553bc8ddbb7f3c3ee6943")
 		    (:authors
 		     ("Marcwebbie" . "marcwebbie@gmail.com"))
 		    (:maintainer "Marcwebbie" . "marcwebbie@gmail.com")
@@ -9756,7 +9756,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "f04d53bc5a372a02266a92a27c1d041d1e02b6b8"))])
+	       ((:commit . "f298b6af61a0ab5e8e0b53907ea5080529dd98e4"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -10364,25 +10364,25 @@
      (:keywords "deferred" "async")
      (:url . "https://github.com/kiwanami/emacs-deferred"))])
  (define-it .
-   [(0 2 4 1 -4 20220704 647)
+   [(0 2 5 1 -4 20220713 744)
     ((emacs
       (25 1))
      (s
       (1 12 0))
-     (request
-      (0 3 0))
      (popup
       (0 5 3))
      (pos-tip
       (0 4 6))
      (posframe
       (1 1 7))
+     (define-word
+       (0 1 0))
      (google-translate
       (0 11 18))
      (wiki-summary
       (0 1)))
     "Define, translate, wiki the word" single
-    ((:commit . "d19f6276b687fe7084246ecababa7655b27495b6")
+    ((:commit . "de026f399d5b7fa9286f7733b2e3416c6f234372")
      (:authors
       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -11382,13 +11382,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 8 14 1 -4 20220713 608)
+	  [(1 8 14 1 -4 20220713 803)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "e46f201a9dbd9bf66992eac1e8b4593daef6adc7")
+	   ((:commit . "4aa1de18b5e7789511ca296a1b279eb2b4e15390")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -12727,7 +12727,7 @@
 	 (emacs
 	  (26 1)))
 	"a BibTeX database manager" tar
-	((:commit . "43f4e50d8e20c87f279da1a7317977297387bff1")
+	((:commit . "36b487b798cb432a52c2d5d14c3aec74fc7eece9")
 	 (:authors
 	  ("Joost Kremers" . "joostkremers@fastmail.fm"))
 	 (:maintainer "Joost Kremers" . "joostkremers@fastmail.fm")
@@ -15461,7 +15461,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "131398b54cca5f1ae95ed268274936d2efde8c39")
+	  ((:commit . "4cecad09593c55a4c84b265e1623120c0311e107")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -21016,7 +21016,7 @@
 		  (seq
 		   (2 20)))
 		 "Major mode for screenwriting in Fountain markup" tar
-		 ((:commit . "fba17c2b316122e26292ba995f1c62191b7b3eb0")
+		 ((:commit . "67d8d1f050cbdb19baa37f26401f958bc7597910")
 		  (:authors
 		   ("Paul W. Rankin" . "pwr@bydasein.com"))
 		  (:maintainer "Paul W. Rankin" . "pwr@bydasein.com")
@@ -32979,7 +32979,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "2047982f4000c37b0db746516e76a76becb11ea9")
+	     ((:commit . "908268533dcfb3610db3c98a4a6ff3d4ae8dab77")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
@@ -41864,7 +41864,7 @@
 			(:keywords "calendar" "outlines" "files")
 			(:url . "https://github.com/ThomasFKJorna/org-roam-timestamps/"))])
  (org-roam-ui .
-	      [(0 1 1 -4 20220225 2151)
+	      [(0 1 1 -4 20220713 1123)
 	       ((emacs
 		 (27 1))
 		(org-roam
@@ -41874,7 +41874,7 @@
 		(websocket
 		 (1 13)))
 	       "User Interface for Org-roam" tar
-	       ((:commit . "9474a254390b1e42488a1801fed5826b32a8030b")
+	       ((:commit . "46f8c23da389b6777169248ed3e33f55e3dcbece")
 		(:authors
 		 ("Kirill Rogovoy, Thomas Jorna"))
 		(:maintainer "Kirill Rogovoy, Thomas Jorna")
@@ -47583,7 +47583,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "eb57dedb622909ca2ccf00516b595df2ae85b75e")
+	  ((:commit . "322f7c0fd53e28bfa45ecf34c9408991db908879")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -51674,13 +51674,13 @@
 	       (:keywords "multimedia" "mpd" "mpc")
 	       (:url . "https://github.com/jorenvo/simple-mpc"))])
  (simple-paren .
-	       [(0 2 1 -4 20220207 2007)
+	       [(0 2 1 -4 20220713 902)
 		((emacs
 		  (24))
 		 (cl-lib
 		  (0 5)))
 		"Non-electrical insert paired delimiter, wrap" single
-		((:commit . "a454901635dfe4142d8c4f0153e737ddc778d708")
+		((:commit . "05331d19942f48e2fc857a07152698d5a6eb4780")
 		 (:authors
 		  ("Andreas R\303\266hler, Steve Purcell"))
 		 (:maintainer "Andreas R\303\266hler, Steve Purcell")
