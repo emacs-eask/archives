@@ -6410,20 +6410,20 @@
 			     ((:commit . "13ac560c25f7355fba00d9ca8c9f4ca03e7fd189")
 			      (:url . "https://github.com/p3r7/clojure-essential-ref"))])
  (clojure-mode .
-	       [(5 14 0 1 -4 20220706 1132)
+	       [(5 14 0 1 -4 20220715 1509)
 		((emacs
 		  (25 1)))
 		"Major mode for Clojure code" single
-		((:commit . "d82417cf86644a4135c6d764aa901f69045fd5ca")
+		((:commit . "fee38d780f7d0b2a42a441e4d8bcfaa4fa672983")
 		 (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 		 (:keywords "languages" "clojure" "clojurescript" "lisp")
 		 (:url . "http://github.com/clojure-emacs/clojure-mode"))])
  (clojure-mode-extra-font-locking .
-				  [(3 0 0 1 -4 20211230 817)
+				  [(3 0 0 1 -4 20220715 1509)
 				   ((clojure-mode
 				     (3 0)))
 				   "Extra font-locking for Clojure mode" single
-				   ((:commit . "d82417cf86644a4135c6d764aa901f69045fd5ca")
+				   ((:commit . "fee38d780f7d0b2a42a441e4d8bcfaa4fa672983")
 				    (:authors
 				     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 				    (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
@@ -11382,13 +11382,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 8 14 1 -4 20220713 1048)
+	  [(1 8 14 1 -4 20220715 1737)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "ec051a01b11ced661afd8b004fd5c161a811251e")
+	   ((:commit . "92c61a9ea995da947f1a6c7a5dbb9e044e81d385")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -12001,7 +12001,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(3 3 2 1 -4 20220713 1904)
+		[(3 3 2 1 -4 20220715 1730)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -12009,7 +12009,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "9d35a33ef36447d34a35e313dc4454c2b17b16eb")
+		 ((:commit . "76df07ea9c87c9e026e53df47aba1d3467f041b2")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
@@ -13612,11 +13612,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 1 4 -4 20220628 1756)
+	[(1 1 4 -4 20220715 1547)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "cf837cf05575c1c77c316eadac603a3edace8e5f")
+	 ((:commit . "6b4668b0c017b633c3d3649c3e42010155a256a0")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
@@ -15461,7 +15461,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "563a700ff2bfa8628f02d82a56d29788140f0424")
+	  ((:commit . "34d362faf2a6272280b52585a5570a04d7fd63e4")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -17141,7 +17141,7 @@
 			(:keywords "evil" "syntax" "highlight" "text-object")
 			(:url . "https://github.com/laishulu/evil-textobj-syntax"))])
  (evil-textobj-tree-sitter .
-			   [(0 1 1 -4 20220701 1325)
+			   [(0 1 1 -4 20220715 1530)
 			    ((emacs
 			      (25 1))
 			     (evil
@@ -17149,7 +17149,7 @@
 			     (tree-sitter
 			      (0 15 0)))
 			    "Provides evil textobjects using tree-sitter" tar
-			    ((:commit . "d6dae906079e46db6e90ebae7ea337ffe6b55dbf")
+			    ((:commit . "9dce8dab68c954ae32095328cf898eb856fc341a")
 			     (:keywords "evil" "tree-sitter" "text-object" "convenience")
 			     (:url . "https://github.com/meain/evil-textobj-tree-sitter"))])
  (evil-traces .
@@ -24697,13 +24697,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 8 6 1 -4 20220710 337)
+       [(3 8 6 1 -4 20220715 1758)
 	((helm-core
 	  (3 8 4))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "68f4dde811fa3255070968932639c8c8180086fd")
+	((:commit . "c451a06123fc90f949b7f734944b80c44033db4f")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -25156,7 +25156,7 @@
 	      (async
 	       (1 9 4)))
 	     "Development files for Helm" tar
-	     ((:commit . "68f4dde811fa3255070968932639c8c8180086fd")
+	     ((:commit . "c451a06123fc90f949b7f734944b80c44033db4f")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
