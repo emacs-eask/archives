@@ -5722,7 +5722,7 @@
 		  (ts
 		   (0 2)))
 		 "Friendly and powerful personal time tracker and analyzer" tar
-		 ((:commit . "b105a961950c0690d359796968b84652934b5f0e")
+		 ((:commit . "8b7a445347f9d74d33a5bdf13a33819dfde71bf5")
 		  (:authors
 		   ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 		  (:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -5748,7 +5748,7 @@
 			    ((chronometrist
 			      (0 7 0)))
 			    "add key-values to Chronometrist data" tar
-			    ((:commit . "b105a961950c0690d359796968b84652934b5f0e")
+			    ((:commit . "8b7a445347f9d74d33a5bdf13a33819dfde71bf5")
 			     (:authors
 			      ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 			     (:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -5763,7 +5763,7 @@
 			(spark
 			 (0 1)))
 		       "Show sparklines in Chronometrist buffers" tar
-		       ((:commit . "b105a961950c0690d359796968b84652934b5f0e")
+		       ((:commit . "8b7a445347f9d74d33a5bdf13a33819dfde71bf5")
 			(:authors
 			 ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 			(:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
@@ -9756,7 +9756,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "1777f13461f971d064bd1644b02d92b350e6e7d1"))])
+	       ((:commit . "0b4370678e5b00a020cd990f922964d3aba59884"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -9855,7 +9855,7 @@
 	  (:keywords "haskell" "tools")
 	  (:url . "https://github.com/jyp/dante"))])
  (dap-mode .
-	   [(0 7 1 -4 20220712 919)
+	   [(0 7 1 -4 20220716 1851)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -9877,7 +9877,7 @@
 	     (lsp-docker
 	      (1 0 0)))
 	    "Debug Adapter Protocol mode" tar
-	    ((:commit . "ad0b8f9d25a7bd82f8fc9694c5406429e8e34d8c")
+	    ((:commit . "dedced465ec056646f7595ce5acae6a9ab41a2c4")
 	     (:authors
 	      ("Ivan Yonchovski" . "yyoncho@gmail.com"))
 	     (:maintainer "Ivan Yonchovski" . "yyoncho@gmail.com")
@@ -10046,7 +10046,7 @@
 	     ((emacs
 	       (26 1)))
 	     "A startup screen extracted from Spacemacs" tar
-	     ((:commit . "7383cc1a3e1de42b4cf53231b0b4361588c8a877")
+	     ((:commit . "3d93e2452bf27ebb86bc2bcfaf1ae05767da5455")
 	      (:authors
 	       ("Rakan Al-Hneiti" . "rakan.alhneiti@gmail.com"))
 	      (:maintainer "Jes\303\272s Mart\303\255nez" . "jesusmartinez93@gmail.com")
@@ -11382,13 +11382,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 8 14 1 -4 20220716 153)
+	  [(1 8 14 1 -4 20220716 1721)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "b8b114d0bcb2ddac7a14a37575f9ce89b5c44f8c")
+	   ((:commit . "a81ae8023d3e55d9943b430441eb7d2f3ff04f72")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -12363,7 +12363,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "02a51a1318f3bdb9f7b6c016c258d3c9df1c9b9b")
+	((:commit . "94959e9050e749275a9cb6e84e685d7724cb06f7")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -23995,6 +23995,17 @@
 	       (:maintainer "Avi Rozen" . "avi.rozen@gmail.com")
 	       (:keywords "tools" "convenience" "search")
 	       (:url . "https://github.com/ZungBang/emacs-grep-a-lot"))])
+ (grey-paper-theme .
+		   [(1 0 0 1 -4 20220711 2241)
+		    ((emacs
+		      (24 1)))
+		    "A greyscale theme with look-n-feel of an eink display" single
+		    ((:commit . "fa20051b6c7c1ac837f72ea2d7414f4594074d11")
+		     (:authors
+		      ("Kang-min Liu" . "gugod@gugod.org"))
+		     (:maintainer "Kang-min Liu" . "gugod@gugod.org")
+		     (:keywords "faces")
+		     (:url . "https://github.com/gugod/grey-paper-theme"))])
  (greymatters-theme .
 		    [(0 1 1 -4 20150621 1123)
 		     ((emacs
@@ -33992,7 +34003,7 @@
 	     (:keywords "convenience" "lsp" "languagetool" "checker")
 	     (:url . "https://github.com/emacs-languagetool/lsp-ltex"))])
  (lsp-metals .
-	     [(1 0 0 1 -4 20220712 1400)
+	     [(1 0 0 1 -4 20220715 2128)
 	      ((emacs
 		(26 1))
 	       (scala-mode
@@ -34012,7 +34023,7 @@
 	       (treemacs
 		(2 5)))
 	      "Scala Client settings" tar
-	      ((:commit . "39cda6e693e5caad27453d10759897822678d573")
+	      ((:commit . "097d6021a4ff0eae704cc3074e064c9509c5cafc")
 	       (:authors
 		("Ross A. Baker" . "ross@rossabaker.com")
 		("Evgeny Kurnevsky" . "kurnevsky@gmail.com"))
@@ -34020,7 +34031,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20220716 814)
+	   [(8 0 1 1 -4 20220716 1818)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -34036,7 +34047,7 @@
 	     (lv
 	      (0)))
 	    "LSP mode" tar
-	    ((:commit . "e4cc46d754bd0cd55e67eed56381bd525ee67fa9")
+	    ((:commit . "e1d564961ec2b3eb2dfb7ecb9154586503ffefba")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -37134,13 +37145,13 @@
 			    (:maintainer "Andreu Gil P\303\240mies" . "agpchil@gmail.com")
 			    (:url . "http://github.com/agpchil/mu4e-maildirs-extension"))])
  (mu4e-marker-icons .
-		    [(0 1 0 1 -4 20220622 925)
+		    [(0 1 0 1 -4 20220714 1405)
 		     ((emacs
 		       (26 1))
 		      (all-the-icons
 		       (4 0 0)))
 		     "Display icons for mu4e markers" single
-		     ((:commit . "1c2c26c0aaa5beba34ef13c62c9b4c6e02de7c2f")
+		     ((:commit . "5e8dab1f07fca183f29e310c208ecb0086ff3222")
 		      (:keywords "mail")
 		      (:url . "https://repo.or.cz/mu4e-marker-icons.git"))])
  (mu4e-overview .
@@ -42162,7 +42173,7 @@
 			    (:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com")
 			    (:keywords "extensions"))])
  (org-tag-beautify .
-		   [(0 1 0 1 -4 20220602 940)
+		   [(0 1 0 1 -4 20220712 123)
 		    ((emacs
 		      (26 1))
 		     (org-pretty-tags
@@ -42170,7 +42181,7 @@
 		     (all-the-icons
 		      (4 0 0)))
 		    "Beautify Org Mode tags" single
-		    ((:commit . "481f44aa4067b287e0c724c6d5e1185c62d1560c")
+		    ((:commit . "7a6aec1b28416fb4bdda5611f1ca30c77d18a854")
 		     (:keywords "hypermedia")
 		     (:url . "https://repo.or.cz/org-tag-beautify.git"))])
  (org-tanglesync .
@@ -51549,7 +51560,7 @@
 	    ((emacs
 	      (27 1)))
 	    "Show information on the side" single
-	    ((:commit . "32c2c9f8d752073c2b637ea8f0b4473804339f64")
+	    ((:commit . "f1bad8c6aa954a65cb3a61a116c97155daa45c96")
 	     (:authors
 	      ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -51572,6 +51583,27 @@
 		      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
 		      (:keywords "convenience" "flycheck")
 		      (:url . "https://github.com/emacs-sideline/sideline-flycheck"))])
+ (sideline-lsp .
+	       [(0 1 0 1 -4 20220629 757)
+		((emacs
+		  (27 1))
+		 (sideline
+		  (0 1 0))
+		 (lsp-mode
+		  (6 0))
+		 (dash
+		  (2 18 0))
+		 (ht
+		  (2 4))
+		 (s
+		  (1 12 0)))
+		"Show lsp information with sideline" single
+		((:commit . "b340c1e9a6d26ad4b3afe6aa660d62e8cebd66c8")
+		 (:authors
+		  ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
+		 (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		 (:keywords "convenience" "lsp")
+		 (:url . "https://github.com/emacs-sideline/sideline-lsp"))])
  (sift .
        [(0 2 0 1 -4 20200421 1423)
 	nil "Front-end for sift, a fast and powerful grep alternative" single
