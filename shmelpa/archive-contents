@@ -48412,6 +48412,16 @@
 		  (:maintainer "pfchen" . "pfchen31@gmail.com")
 		  (:keywords "tools" "convenience")
 		  (:url . "https://github.com/pfchen/read-only-cfg"))])
+ (readable-numbers .
+		   [(0 1 0 1 -4 20220711 911)
+		    ((emacs
+		      (24 1)))
+		    "Visually separate long integers" single
+		    ((:commit . "a3ebdcdd91d32f044b68541a00e162396e4acb38")
+		     (:authors
+		      ("Oscar Najera <https://oscarnajera.com>"))
+		     (:maintainer "Oscar Najera" . "hi@oscarnajera.com")
+		     (:url . "https://github.com/Titan-C/cardano.el"))])
  (readline-complete .
 		    [(1 0 1 -4 20150708 1437)
 		     nil "offers completions in shell mode" single
@@ -55480,7 +55490,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "74238342142e0ad93141c9654fea285110223753")
+	  ((:commit . "d39d0746c6d50792f49120cd2d45d31c4dbed140")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -57541,18 +57551,18 @@
 	       (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 	       (:url . "https://codeberg.org/ideasman42/emacs-utimeclock"))])
  (utop .
-       [(1 11 1 -4 20210607 1941)
+       [(1 11 1 -4 20220716 1632)
 	((emacs
 	  (24))
 	 (tuareg
 	  (2 2 0)))
 	"Universal toplevel for OCaml" single
-	((:commit . "a779b0515c98819cadec8e2e5ffc580f12df9bf1")
+	((:commit . "1a7c112a7162d92e2ffced8cbb390a8685fc75db")
 	 (:authors
 	  ("Jeremie Dimino" . "jeremie@dimino.org"))
 	 (:maintainer "Jeremie Dimino" . "jeremie@dimino.org")
 	 (:keywords "ocaml" "languages")
-	 (:url . "https://github.com/diml/utop"))])
+	 (:url . "https://github.com/ocaml-community/utop"))])
  (uuidgen .
 	  [(1 2 1 -4 20220405 1345)
 	   nil "Provides various UUID generating functions" single
