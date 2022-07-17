@@ -33818,7 +33818,7 @@
 	    (:maintainer "Laurence Warne")
 	    (:url . "https://github.com/LaurenceWarne/lsp-cfn.el"))])
  (lsp-dart .
-	   [(1 22 2 1 -4 20220620 1516)
+	   [(1 22 2 1 -4 20220717 1834)
 	    ((emacs
 	      (26 3))
 	     (lsp-treemacs
@@ -33834,7 +33834,7 @@
 	     (dart-mode
 	      (1 0 5)))
 	    "Dart support lsp-mode" tar
-	    ((:commit . "7868b87ab27cf96878ded35c390e15bb5bb588e6")
+	    ((:commit . "a312fe8cd941b641216d4654da2e8be82b16d611")
 	     (:keywords "languages" "extensions")
 	     (:url . "https://emacs-lsp.github.io/lsp-dart"))])
  (lsp-docker .
@@ -34052,7 +34052,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20220716 1818)
+	   [(8 0 1 1 -4 20220717 1810)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -34068,7 +34068,7 @@
 	     (lv
 	      (0)))
 	    "LSP mode" tar
-	    ((:commit . "e1d564961ec2b3eb2dfb7ecb9154586503ffefba")
+	    ((:commit . "5a62d4aa1b05fd14e338c47dad976b0b53c4bbc0")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -34403,7 +34403,7 @@
 	   (:keywords "convenience")
 	   (:url . "https://github.com/emacs-pe/lyrics.el"))])
  (lyrics-fetcher .
-		 [(0 2 0 1 -4 20220207 1326)
+		 [(0 2 0 1 -4 20220717 1716)
 		  ((emacs
 		    (27))
 		   (emms
@@ -34413,7 +34413,7 @@
 		   (request
 		    (0 3 2)))
 		  "Fetch song lyrics and album covers" tar
-		  ((:commit . "06bd0293dfa759df48faefd73be60d43d1febd17")
+		  ((:commit . "a3be34b0153c2c056dc4b55bbc5fbdc2d9f87549")
 		   (:authors
 		    ("Korytov Pavel" . "thexcloud@gmail.com"))
 		   (:maintainer "Korytov Pavel" . "thexcloud@gmail.com")
@@ -35244,7 +35244,7 @@
 	      ((emacs
 		(27 1)))
 	      "Enrich existing commands with completion annotations" single
-	      ((:commit . "4fe73f5724d1e7e61b2e0abf4a530d8a2cdadcb8")
+	      ((:commit . "cc2a909a069c93a49c9253ceeb9e05ce9c5d36d6")
 	       (:authors
 		("Omar Antol\303\255n Camarena <omar@matem.unam.mx>, Daniel Mendler" . "mail@daniel-mendler.de"))
 	       (:maintainer "Omar Antol\303\255n Camarena <omar@matem.unam.mx>, Daniel Mendler" . "mail@daniel-mendler.de")
@@ -39191,7 +39191,7 @@
 	      (frimacs
 	       (1 0)))
 	     "A FriCAS backend for Org-Babel" single
-	     ((:commit . "66afd9e7f813fb01cc336a3209fcd007310857bc")
+	     ((:commit . "9fc66368c21a05d8c10605afcf832739c428ff97")
 	      (:authors
 	       ("Paul Onions" . "paul.onions@acm.org"))
 	      (:maintainer "Paul Onions" . "paul.onions@acm.org")
@@ -47614,7 +47614,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "0ce5277068c2821946184f2424848e1b69baa7b4")
+	  ((:commit . "bfedbd36e7c1caca61ea8bdf8629f55279e239a6")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -60220,6 +60220,19 @@
 	      (:maintainer "Vasilij Schneidermann" . "mail@vasilij.de")
 	      (:keywords "data" "yaml")
 	      (:url . "https://github.com/yoshiki/yaml-mode"))])
+ (yaml-pro .
+	   [(0 1 0 1 -4 20220716 2313)
+	    ((emacs
+	      (26 1))
+	     (yaml
+	      (0 5 1)))
+	    "Parser-aided YAML editing features" tar
+	    ((:commit . "9902d6cfcbe990ecf98aa3a514bb0518ce43003a")
+	     (:authors
+	      ("Zachary Romero"))
+	     (:maintainer "Zachary Romero")
+	     (:keywords "tools")
+	     (:url . "https://github.com/zkry/yaml-pro"))])
  (yaml-tomato .
 	      [(0 1 1 -4 20151123 753)
 	       ((s
