@@ -24023,7 +24023,7 @@
 		    ((emacs
 		      (24 1)))
 		    "A greyscale theme with look-n-feel of an eink display" single
-		    ((:commit . "fa20051b6c7c1ac837f72ea2d7414f4594074d11")
+		    ((:commit . "10e243316000e85a10b49729745ccd4262d21cda")
 		     (:authors
 		      ("Kang-min Liu" . "gugod@gugod.org"))
 		     (:maintainer "Kang-min Liu" . "gugod@gugod.org")
@@ -33012,7 +33012,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "ff6f66193048893cafcde6985c0ac0c78f76a875")
+	     ((:commit . "96c9d995f5d9c411222d6005b9fb838b8e3891a1")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
@@ -35326,15 +35326,17 @@
 			  (:keywords "markdown" "gfm" "convenience")
 			  (:url . "https://github.com/ancane/markdown-preview-mode"))])
  (markdown-soma .
-		[(0 2 1 1 -4 20220717 1520)
+		[(0 2 2 1 -4 20220718 1424)
 		 ((emacs
 		   (25))
 		  (s
 		   (1 11 0))
 		  (dash
-		   (2 19 1)))
+		   (2 19 1))
+		  (cl-lib
+		   (2 2)))
 		 "Live preview for Markdown" single
-		 ((:commit . "f617164b9614deacf2bc233b74bfb9d539bf7858")
+		 ((:commit . "4b2bada7b0c0255aa80bc0f7d8a59da46e04eafe")
 		  (:authors
 		   ("Jason Milkins" . "jasonm23@gmail.com"))
 		  (:maintainer "Jason Milkins" . "jasonm23@gmail.com")
@@ -37168,13 +37170,13 @@
 			    (:maintainer "Andreu Gil P\303\240mies" . "agpchil@gmail.com")
 			    (:url . "http://github.com/agpchil/mu4e-maildirs-extension"))])
  (mu4e-marker-icons .
-		    [(0 1 0 1 -4 20220622 925)
+		    [(0 1 0 1 -4 20220714 1405)
 		     ((emacs
 		       (26 1))
 		      (all-the-icons
 		       (4 0 0)))
 		     "Display icons for mu4e markers" single
-		     ((:commit . "1c2c26c0aaa5beba34ef13c62c9b4c6e02de7c2f")
+		     ((:commit . "5e8dab1f07fca183f29e310c208ecb0086ff3222")
 		      (:keywords "mail")
 		      (:url . "https://repo.or.cz/mu4e-marker-icons.git"))])
  (mu4e-overview .
@@ -41601,7 +41603,7 @@
 			 ("Vladimir S. Ivanov" . "ivvl82@gmail.com"))
 			(:maintainer "Vladimir S. Ivanov" . "ivvl82@gmail.com"))])
  (org-ql .
-	 [(0 7 -1 1 -4 20220715 1850)
+	 [(0 7 -1 1 -4 20220718 1557)
 	  ((emacs
 	    (26 1))
 	   (dash
@@ -41625,7 +41627,7 @@
 	   (ts
 	    (0 2 -1)))
 	  "Org Query Language, search command, and agenda-like view" tar
-	  ((:commit . "98b6049eccc4f3b19700d27a86f22d4428013501")
+	  ((:commit . "a02ed48ac81583300747e91c0a964abbb590ef43")
 	   (:authors
 	    ("Adam Porter" . "adam@alphapapa.net"))
 	   (:maintainer "Adam Porter" . "adam@alphapapa.net")
