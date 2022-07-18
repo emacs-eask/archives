@@ -4959,7 +4959,7 @@
 	((emacs
 	  (27 1)))
 	"Completion At Point Extensions" tar
-	((:commit . "b4a6b63636bca023e1fe2d617c26e27647955bf9")
+	((:commit . "e6903dc0d978ae634a6f55cb5378fbf1afb56c12")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -5964,7 +5964,7 @@
 		 (:maintainer "Robin Schroer")
 		 (:url . "https://github.com/sulami/circleci-api"))])
  (citar .
-	[(0 9 7 1 -4 20220715 1909)
+	[(0 9 7 1 -4 20220717 2139)
 	 ((emacs
 	   (27 1))
 	  (parsebib
@@ -5974,7 +5974,7 @@
 	  (citeproc
 	   (0 9)))
 	 "Citation-related commands for org, latex, markdown" tar
-	 ((:commit . "c05dce095f340b1ab91434e17eac06b40911fd2a")
+	 ((:commit . "c5ed78e69ab1ddbf19f6b5793c8356678466caf8")
 	  (:authors
 	   ("Bruce D'Arcus <https://github.com/bdarcus>"))
 	  (:maintainer "Bruce D'Arcus <https://github.com/bdarcus>")
@@ -5988,7 +5988,7 @@
 		 (citar
 		  (0 9 7)))
 		"Citar/Embark integration" single
-		((:commit . "c05dce095f340b1ab91434e17eac06b40911fd2a")
+		((:commit . "c5ed78e69ab1ddbf19f6b5793c8356678466caf8")
 		 (:authors
 		  ("Bruce D'Arcus" . "bdarcus@gmail.com"))
 		 (:maintainer "Bruce D'Arcus" . "bdarcus@gmail.com")
@@ -6244,7 +6244,7 @@
 		 (:maintainer "jpe90" . "eskinjp@gmail.com")
 		 (:url . "https://github.com/jpe90/emacs-deps-new"))])
  (clj-refactor .
-	       [(3 5 4 1 -4 20220717 1715)
+	       [(3 5 4 1 -4 20220717 2135)
 		((emacs
 		  (26 1))
 		 (seq
@@ -6266,7 +6266,7 @@
 		 (hydra
 		  (0 13 2)))
 		"A collection of commands for refactoring Clojure code" tar
-		((:commit . "28ecc999377094f8f38afa8215fb3f6ebbad58de")
+		((:commit . "32883b36e36f91c83ebdb4b048b9c76118236564")
 		 (:authors
 		  ("Magnar Sveen" . "magnars@gmail.com")
 		  ("Lars Andersen" . "expez@expez.com")
@@ -17785,11 +17785,11 @@
 		  (:keywords "convenience" "tools" "hardware")
 		  (:url . "https://github.com/lunaryorn/fancy-battery.el"))])
  (fancy-compilation .
-		    [(0 1 1 -4 20220717 346)
+		    [(0 1 1 -4 20220717 2251)
 		     ((emacs
 		       (26 1)))
 		     "Enhanced compilation output" single
-		     ((:commit . "8a102a984ffae3faade80852c3167f25967fb4ed")
+		     ((:commit . "913fa36583e89032ca258a75df18b45b530cc9d9")
 		      (:authors
 		       ("Campbell Barton" . "ideasman42@gmail.com"))
 		      (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -47357,11 +47357,11 @@
        (:maintainer "Aur\303\251lien Aptel" . "aurelien.aptel@gmail.com")
        (:url . "http://github.com/aaptel/preview-latex"))])
  (py-autopep8 .
-	      [(2016 1 1 -4 20220717 1026)
+	      [(2016 1 1 -4 20220717 2349)
 	       ((emacs
 		 (26 1)))
 	       "Use autopep8 to beautify a Python buffer" single
-	       ((:commit . "86f42193573a4e6bc542e43866b498b437f2d062")
+	       ((:commit . "c98339c352db7d15f8aa0fab173c499d131da070")
 		(:authors
 		 ("Friedrich Paetzk" . "f.paetzke@gmail.com"))
 		(:maintainer "Friedrich Paetzk" . "f.paetzke@gmail.com")
@@ -47614,7 +47614,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "bfedbd36e7c1caca61ea8bdf8629f55279e239a6")
+	  ((:commit . "e625f2ff594e4d9cc629a2633d738874e1d4f4b2")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -49434,6 +49434,13 @@
        (:maintainer "David Landell" . "david.landell@sunnyhill.email")
        (:keywords "matching" "tools")
        (:url . "https://github.com/dajva/rg.el"))])
+ (rgb .
+      [(2 0 0 1 -4 20220717 1940)
+       ((emacs
+	 (24 3)))
+       "RGB control via OpenRGB" single
+       ((:commit . "4aab5a5be16b69b47ef5e67d02782df5e41dbd7b")
+	(:url . "https://gitlab.com/cwpitts/rgb.el"))])
  (rhq .
       [(0 6 1 1 -4 20220329 1027)
        ((emacs
@@ -55543,7 +55550,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "ef22352e738af4496233ef8c2dd35c30d465f063")
+	  ((:commit . "d5d796673304ccb35da474fbbdaa0af7524f1a4c")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -60227,7 +60234,7 @@
 	     (yaml
 	      (0 5 1)))
 	    "Parser-aided YAML editing features" tar
-	    ((:commit . "9902d6cfcbe990ecf98aa3a514bb0518ce43003a")
+	    ((:commit . "9e8886b2b55d318ba7ba0df50789894381321dad")
 	     (:authors
 	      ("Zachary Romero"))
 	     (:maintainer "Zachary Romero")
@@ -60798,19 +60805,19 @@
       ((emacs
 	(24 4)))
       "Functions for working with Zettelkasten-style linked notes" single
-      ((:commit . "f72397e1244fc9a2eb0be7f07b5a60c584545f24")
+      ((:commit . "df48ae5e267a08c7b51bd1bddfd2bf45c9739717")
        (:authors
 	("Grant Rosson <https://github.com/localauthor>"))
        (:maintainer "Grant Rosson <https://github.com/localauthor>")
        (:url . "https://github.com/localauthor/zk"))])
  (zk-index .
-	   [(0 7 1 -4 20220713 2002)
+	   [(0 7 1 -4 20220717 2316)
 	    ((emacs
 	      (27 1))
 	     (zk
 	      (0 3)))
 	    "Index and Desktop for zk" single
-	    ((:commit . "f72397e1244fc9a2eb0be7f07b5a60c584545f24")
+	    ((:commit . "df48ae5e267a08c7b51bd1bddfd2bf45c9739717")
 	     (:authors
 	      ("Grant Rosson <https://github.com/localauthor>"))
 	     (:maintainer "Grant Rosson <https://github.com/localauthor>")
