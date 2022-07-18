@@ -4388,9 +4388,11 @@
 	       (:keywords "processes" "tools")
 	       (:url . "https://github.com/astoff/buffer-env"))])
  (buffer-flip .
-	      [(3 0 1 -4 20220708 1751)
-	       nil "Cycle through buffers like Alt-Tab in Windows" single
-	       ((:commit . "5b85c1cfd37b60c7419e1d4bf8931ea04c0db743")
+	      [(3 0 1 -4 20220718 10)
+	       ((cl-lib
+		 (0 5)))
+	       "Cycle through buffers like Alt-Tab in Windows" single
+	       ((:commit . "dda0cbcd202cdadf322942f9637a11ed92525756")
 		(:authors
 		 ("Russell Black" . "killdash9@github"))
 		(:maintainer "Russell Black" . "killdash9@github")
@@ -29291,11 +29293,11 @@
 	     (:keywords "languages" "wp" "hypermedia")
 	     (:url . "https://github.com/Kungsgeten/ink-mode"))])
  (inkpot-theme .
-	       [(0 1 1 -4 20220710 1022)
+	       [(0 1 1 -4 20220718 208)
 		((emacs
 		  (24 1)))
 		"A port of vim's inkpot theme" single
-		((:commit . "f4ff574b8a7446205db0eb6b33090ec84c3024da")
+		((:commit . "119549cb8475d3bf6b481bb82b0646e63f464cd5")
 		 (:authors
 		  ("Sarah Iovan" . "sarah@hwaetageek.com")
 		  ("Campbell Barton" . "ideasman42@gmail.com"))
@@ -41543,13 +41545,13 @@
 		    (:keywords "reading" "outlines")
 		    (:url . "https://gitlab.com/marcowahl/org-pretty-tags"))])
  (org-preview-html .
-		   [(0 3 1 -4 20220713 151)
+		   [(0 3 1 -4 20220718 118)
 		    ((emacs
 		      (25 1))
 		     (org
 		      (8 0)))
 		    "Automatically preview org-exported HTML files within Emacs" single
-		    ((:commit . "220d7ea93945581a9ab9fa7b43c67070bb5680a4")
+		    ((:commit . "eb3454c9df8911d13ac25700084d9675d0a5f1b2")
 		     (:authors
 		      ("Jake B" . "jakebox0@protonmail.com"))
 		     (:maintainer "Jake B" . "jakebox0@protonmail.com")
