@@ -4957,11 +4957,11 @@
 	    (:keywords "convenience" "writing")
 	    (:url . "https://github.com/kisaragi-hiu/cangjie.el"))])
  (cape .
-       [(0 8 1 -4 20220717 1549)
+       [(0 8 1 -4 20220719 646)
 	((emacs
 	  (27 1)))
 	"Completion At Point Extensions" tar
-	((:commit . "e6903dc0d978ae634a6f55cb5378fbf1afb56c12")
+	((:commit . "be078bfb331df23418be6657e0320d81f1d363f4")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -6587,11 +6587,11 @@
 	    nil "Major mode for C-- source code" single
 	    ((:commit . "c3ad514dff3eb30434f6b20d953276d4c00de1ee"))])
  (cnfonts .
-	  [(0 9 2 1 -4 20220715 409)
+	  [(0 9 2 1 -4 20220719 818)
 	   ((emacs
 	     (24)))
 	   "A simple Chinese fonts config tool" tar
-	   ((:commit . "3732ada115cae269e0fa5e3434f92f3e6e6823d9")
+	   ((:commit . "b263edf140e3ecdb0640a001c120b5e0b7edeb5f")
 	    (:authors
 	     ("Feng Shu" . "tumashu@163.com"))
 	    (:maintainer "Feng Shu" . "tumashu@163.com")
@@ -9758,7 +9758,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "b190c217899638f9d18da2a92cdda6c67d547c14"))])
+	       ((:commit . "c01c6d508339587935ef4c101663dd2803c70e9e"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -16365,7 +16365,7 @@
 			 (:keywords "colemak" "evil")
 			 (:url . "https://github.com/bmallred/evil-colemak-minimal"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20220712 758)
+		  [(0 4 1 1 -4 20220719 734)
 		   ((emacs
 		     (26 3))
 		    (evil
@@ -16373,7 +16373,7 @@
 		    (annalist
 		     (1 0)))
 		   "A set of keybindings for Evil mode" tar
-		   ((:commit . "9cea83273c1af812e2e3feab1ec13ab54aba25a0")
+		   ((:commit . "7a44d753346ef8effd565d3d4a1f5cde581be7cf")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainer "James Nguyen" . "james@jojojames.com")
@@ -19568,7 +19568,7 @@
 			(:keywords "convenience" "languages" "tools")
 			(:url . "https://github.com/GyazSquare/flycheck-objc-clang"))])
  (flycheck-ocaml .
-		 [(0 4 -4 20220719 658)
+		 [(0 4 0 1 -4 20220719 724)
 		  ((emacs
 		    (24 1))
 		   (flycheck
@@ -19578,11 +19578,11 @@
 		   (let-alist
 		       (1 0 3)))
 		  "Flycheck: OCaml support" single
-		  ((:commit . "e726ec006316c46cf1a7c3142ac8743191495a3c")
+		  ((:commit . "af3d3f244cd95827bd431f4a0e54732780084d3c")
 		   (:authors
 		    ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
 		   (:maintainer "Sebastian Wiesner" . "swiesner@lunaryorn.com")
-		   (:keywords "convenience" "tools" "languages")
+		   (:keywords "convenience" "tools" "languages" "ocaml")
 		   (:url . "https://github.com/flycheck/flycheck-ocaml"))])
  (flycheck-package .
 		   [(0 1 -4 20210509 2323)
@@ -35326,17 +35326,17 @@
 			  (:keywords "markdown" "gfm" "convenience")
 			  (:url . "https://github.com/ancane/markdown-preview-mode"))])
  (markdown-soma .
-		[(0 2 2 1 -4 20220718 1424)
+		[(0 2 2 1 -4 20220719 1004)
 		 ((emacs
 		   (25))
 		  (s
 		   (1 11 0))
 		  (dash
 		   (2 19 1))
-		  (cl-lib
-		   (2 2)))
+		  (f
+		   (0 20 0)))
 		 "Live preview for Markdown" single
-		 ((:commit . "4b2bada7b0c0255aa80bc0f7d8a59da46e04eafe")
+		 ((:commit . "0faa93b35ba148d7cadb86a5a9657773495c7c24")
 		  (:authors
 		   ("Jason Milkins" . "jasonm23@gmail.com"))
 		  (:maintainer "Jason Milkins" . "jasonm23@gmail.com")
@@ -55554,7 +55554,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "73101efa3f4e7d7b82c46d002dc3440c34dcffea")
+	  ((:commit . "ebd682ee31bf4f8b1b636de19ec61fa937b7ac0c")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -57621,7 +57621,7 @@
 	 (tuareg
 	  (2 2 0)))
 	"Universal toplevel for OCaml" single
-	((:commit . "e89802f24ca2289ddc71e5b058088b88e1a11fad")
+	((:commit . "b3296f0b737d30328ff85f02c0901893b20ab7d0")
 	 (:authors
 	  ("Jeremie Dimino" . "jeremie@dimino.org"))
 	 (:maintainer "Jeremie Dimino" . "jeremie@dimino.org")
@@ -58615,7 +58615,7 @@
 	     (:keywords "languages")
 	     (:url . "https://github.com/LucasKl/wal-major-mode"))])
  (walkclj .
-	  [(0 2 0 1 -4 20220422 854)
+	  [(0 2 0 1 -4 20220719 1150)
 	   ((emacs
 	     (25))
 	    (parseclj
@@ -58623,7 +58623,7 @@
 	    (treepy
 	     (0 1 0)))
 	   "Manipulate Clojure parse trees" single
-	   ((:commit . "ce4e7713d801b03f94f5da9898fce09718380ed4")
+	   ((:commit . "914b6617439df3c75f2e1700403dbf2f859171b0")
 	    (:authors
 	     ("Arne Brasseur"))
 	    (:maintainer "Arne Brasseur")
