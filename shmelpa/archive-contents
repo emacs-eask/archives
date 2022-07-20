@@ -7067,11 +7067,11 @@
 			 (:keywords "snippets")
 			 (:url . "https://github.com/mrkkrp/common-lisp-snippets"))])
  (company .
-	  [(0 9 13 1 -4 20220718 2141)
+	  [(0 9 13 1 -4 20220720 911)
 	   ((emacs
 	     (25 1)))
 	   "Modular text completion framework" tar
-	   ((:commit . "89e0d0bada4946b45a9d085d0f05f2cf07f74c11")
+	   ((:commit . "16ffeba5ef96c4c8e0cd39860b5402e25e304601")
 	    (:authors
 	     ("Nikolaj Schumacher"))
 	    (:maintainer "Dmitry Gutov" . "dgutov@yandex.ru")
@@ -9760,7 +9760,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "c01c6d508339587935ef4c101663dd2803c70e9e"))])
+	       ((:commit . "87329f1f9747a5a7e483cf4827d40457f6354c7c"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -11397,13 +11397,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 9 23 1 -4 20220719 1140)
+	  [(1 9 23 1 -4 20220720 1011)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "a5960911a7ad36aef8b286a1f5cc9b38cf205988")
+	   ((:commit . "510d9b8b40575dc6693bfcdb4353aeed5dc3722c")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -12378,7 +12378,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "d159f42375d19463970b3664c8cbf2d88a52464c")
+	((:commit . "c6e2773f4aa138afb479ca0e57b104676c77cf6e")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -13208,7 +13208,7 @@
 	  (seq
 	   (2 23)))
 	 "Client for Language Server Protocol (LSP) servers" single
-	 ((:commit . "eed9a6551562501241ed9ee7eaad24d59a836ff6")
+	 ((:commit . "c962f6e5f61cf3e1d24607484d310197ebebf259")
 	  (:authors
 	   ("Jo\303\243o T\303\241vora" . "joaotavora@gmail.com"))
 	  (:maintainer "Jo\303\243o T\303\241vora" . "joaotavora@gmail.com")
@@ -16365,7 +16365,7 @@
 			 (:keywords "colemak" "evil")
 			 (:url . "https://github.com/bmallred/evil-colemak-minimal"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20220719 734)
+		  [(0 4 1 1 -4 20220720 802)
 		   ((emacs
 		     (26 3))
 		    (evil
@@ -16373,7 +16373,7 @@
 		    (annalist
 		     (1 0)))
 		   "A set of keybindings for Evil mode" tar
-		   ((:commit . "7a44d753346ef8effd565d3d4a1f5cde581be7cf")
+		   ((:commit . "0595cd8b95c0bc6360a0c275b0f42c4e5fc24190")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainer "James Nguyen" . "james@jojojames.com")
@@ -18247,7 +18247,7 @@
 	    (:keywords "fingers" "modal" "editing" "workman")
 	    (:url . "http://github.com/fgeller/fingers.el"))])
  (finito .
-	 [(0 2 0 1 -4 20220704 1022)
+	 [(0 2 0 1 -4 20220720 1031)
 	  ((emacs
 	    (27 1))
 	   (dash
@@ -18265,7 +18265,7 @@
 	   (async
 	    (1 9 3)))
 	  "View and collect books" tar
-	  ((:commit . "508f6699795528c579b235f4f7726b5aa5ad9595")
+	  ((:commit . "84aef517f3a61713f6093de981d404080e8ef7d8")
 	   (:authors
 	    ("Laurence Warne"))
 	   (:maintainer "Laurence Warne")
@@ -33012,7 +33012,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "82f2443f00807e8df7fd7ad57e82966195cf2769")
+	     ((:commit . "f76173f5b9d84d9aa65946c8be54ce1040d5ebc1")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
@@ -35326,7 +35326,7 @@
 			  (:keywords "markdown" "gfm" "convenience")
 			  (:url . "https://github.com/ancane/markdown-preview-mode"))])
  (markdown-soma .
-		[(0 2 2 1 -4 20220719 1004)
+		[(0 2 4 1 -4 20220720 944)
 		 ((emacs
 		   (25))
 		  (s
@@ -35336,7 +35336,7 @@
 		  (f
 		   (0 20 0)))
 		 "Live preview for Markdown" single
-		 ((:commit . "96cf7820023e23e0008d07ad9456aee3ae21cfda")
+		 ((:commit . "9c6c869050f086eeb3307691c4f68b8dba73dd35")
 		  (:authors
 		   ("Jason Milkins" . "jasonm23@gmail.com"))
 		  (:maintainer "Jason Milkins" . "jasonm23@gmail.com")
@@ -55554,7 +55554,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "2e08091189e2de3cfb4aedeef38569d5d3100713")
+	  ((:commit . "f7029b224e734212379f290dc54c086e98a90cce")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
