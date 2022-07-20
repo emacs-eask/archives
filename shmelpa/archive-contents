@@ -19568,7 +19568,7 @@
 			(:keywords "convenience" "languages" "tools")
 			(:url . "https://github.com/GyazSquare/flycheck-objc-clang"))])
  (flycheck-ocaml .
-		 [(0 4 0 1 -4 20220719 724)
+		 [(0 4 1 1 -4 20220720 1256)
 		  ((emacs
 		    (24 1))
 		   (flycheck
@@ -19578,10 +19578,10 @@
 		   (let-alist
 		       (1 0 3)))
 		  "Flycheck: OCaml support" single
-		  ((:commit . "af3d3f244cd95827bd431f4a0e54732780084d3c")
+		  ((:commit . "629080c1bbe4d6195c70bae3f4e09cc2b79c8e2d")
 		   (:authors
 		    ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
-		   (:maintainer "Sebastian Wiesner" . "swiesner@lunaryorn.com")
+		   (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 		   (:keywords "convenience" "tools" "languages" "ocaml")
 		   (:url . "https://github.com/flycheck/flycheck-ocaml"))])
  (flycheck-package .
@@ -23704,7 +23704,7 @@
 		   ((emacs
 		     (24 3)))
 		   "Record and jump to the last point in the buffer." single
-		   ((:commit . "7ea191df18ff4774cf1dc568e1726143dd54ea02")
+		   ((:commit . "6218441a0e644c23e247594aece004e80775d307")
 		    (:authors
 		     ("Manuel Uberti" . "manuel.uberti@inventati.org"))
 		    (:maintainer "Manuel Uberti" . "manuel.uberti@inventati.org")
@@ -31193,13 +31193,13 @@
 	       ((:commit . "326da9a7d0463ed2727f66dcbd4cb58b517ffe25")
 		(:url . "https://github.com/gcv/julia-snail"))])
  (julia-vterm .
-	      [(0 18 1 -4 20220713 216)
+	      [(0 19 1 -4 20220720 1410)
 	       ((emacs
 		 (25 1))
 		(vterm
 		 (0 0 1)))
 	       "A mode for Julia REPL using vterm" single
-	       ((:commit . "fef0df66e1de1733c4df706d76a4fc29788fe251")
+	       ((:commit . "698ca35da04d99f25c8f075e8342015434f6a662")
 		(:authors
 		 ("Shigeaki Nishina"))
 		(:maintainer "Shigeaki Nishina")
@@ -33012,7 +33012,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "f76173f5b9d84d9aa65946c8be54ce1040d5ebc1")
+	     ((:commit . "533a1c484ed512ac3b5a6b6cbfc88b6a47a16e8f")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
@@ -36570,11 +36570,11 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(2 4 1 1 -4 20220716 1452)
+	       [(2 4 1 1 -4 20220720 1330)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "d4148687be79f60da2c15eac7a45f1ae3dd8f017")
+		((:commit . "03c2457a89dff8db96d90f2029b0376bdeea970f")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainer "Modus-Themes Development" . "~protesilaos/modus-themes@lists.sr.ht")
@@ -42989,13 +42989,13 @@
 		  (:maintainer "Thorsten Jolitz <tjolitz AT gmail DOT com>")
 		  (:keywords "outlines"))])
  (outline-minor-faces .
-		      [(0 1 0 1 -4 20220613 1341)
+		      [(0 1 0 1 -4 20220720 1144)
 		       ((emacs
 			 (25 1))
 			(compat
 			 (28 1 1 0)))
 		       "Headings faces for outline-minor-mode" single
-		       ((:commit . "f83db95e07c55b9a7e69df23a6291171d4697e15")
+		       ((:commit . "9cc3fed195e0a1f960a971880287856c148b4861")
 			(:authors
 			 ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			(:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -47618,7 +47618,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "bc247dcc2b5e69e75a3114a4ca0d89d6f370480b")
+	  ((:commit . "f45f19c47a97ceb29eb9824979e5134714f59e5c")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -52094,7 +52094,7 @@
 	     ((emacs
 	       (24 1)))
 	     "Slow keys mode to avoid RSI" single
-	     ((:commit . "b93ad77f9fc1d14e080d7d64864fc9cb222248b6")
+	     ((:commit . "b89b4fbddb4b6b95fcc7301ec543ea535b2cc4d7")
 	      (:authors
 	       ("Manuel Uberti" . "manuel.uberti@inventati.org"))
 	      (:maintainer "Manuel Uberti" . "manuel.uberti@inventati.org")
@@ -55554,7 +55554,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "f7029b224e734212379f290dc54c086e98a90cce")
+	  ((:commit . "a063d6746dfe801282ca2f5341eb42b6d1a4b71e")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -55595,7 +55595,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Typescript Interactive Development Environment" tar
-	((:commit . "96bfc5da11a9b83b32368c38e933a405270652de")
+	((:commit . "4cf6a0d89da7f946565a425a632ee2410a40c7da")
 	 (:authors
 	  ("Anantha kumaran" . "ananthakumaran@gmail.com"))
 	 (:maintainer "Anantha kumaran" . "ananthakumaran@gmail.com")
