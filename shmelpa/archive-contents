@@ -1723,11 +1723,11 @@
 	      (:keywords "languages" "convenience" "tools" "ansys" "apdl")
 	      (:url . "https://github.com/dieter-wilhelm/apdl-mode"))])
  (apel .
-       [(10 8 1 -4 20220427 1121)
+       [(10 8 1 -4 20220720 1308)
 	((emacs
 	  (24 5)))
 	"A Portable Emacs Library provides support for portable Emacs Lisp programs" tar
-	((:commit . "6947dc4605ebbb87762edf7051a78a3f7b5f17c5"))])
+	((:commit . "82eb2325bd149dc57b43a9ce9402c6c6183e4052"))])
  (apheleia .
 	   [(3 0 1 -4 20220620 2151)
 	    ((emacs
@@ -6563,7 +6563,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "b6f8b4459c52e925b01a55a815c86cca473b1ef7"))])
+	      ((:commit . "96564c5b2d84568459c2b594a7db3baccb524260"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -8512,13 +8512,13 @@
 		       (:keywords "convenience")
 		       (:url . "https://gitlab.com/OlMon/consult-projectile"))])
  (consult-recoll .
-		 [(0 4 1 -4 20220721 1851)
+		 [(0 5 1 -4 20220722 1723)
 		  ((emacs
 		    (26 1))
 		   (consult
-		    (0 9)))
+		    (0 18)))
 		  "Recoll queries using consult" single
-		  ((:commit . "d80ad99e4df0ab47829eeee148ab701d014d67ae")
+		  ((:commit . "57f2a5552f0029f3d5019fc127518b43ec7b6034")
 		   (:authors
 		    ("Jose A Ortega Ruiz" . "jao@gnu.org"))
 		   (:maintainer "Jose A Ortega Ruiz")
@@ -12380,7 +12380,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "80e2e1485322b84ac19147e5a0f976db1fee64e5")
+	((:commit . "28df1cf4c31ca9882dd1c9ab9e4d259e425e9db5")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -17975,7 +17975,7 @@
  (feature-mode .
 	       [(0 4 1 -4 20220418 848)
 		nil "Major mode for editing Gherkin (i.e. Cucumber) user stories" tar
-		((:commit . "e204d9e204b767cf95d6a051ff283f05dc51e9d3")
+		((:commit . "177d065db5984cbfaa66c375d13d5f1ccbb5f4a7")
 		 (:authors
 		  ("Michael Klishin"))
 		 (:maintainer "Michael Klishin")
@@ -18546,7 +18546,7 @@
 		 (:keywords "convenience" "search")
 		 (:url . "https://bitbucket.org/jpkotta/flex-isearch"))])
  (flim .
-       [(1 14 9 1 -4 20220503 1442)
+       [(1 14 9 1 -4 20220720 1311)
 	((emacs
 	  (24 5))
 	 (apel
@@ -18554,7 +18554,7 @@
 	 (oauth2
 	  (0 11)))
 	"A library to provide basic features about message representation or encoding." tar
-	((:commit . "f8dcbb8b4e6fa0d72212d478fb4a1e74804a2aa8"))])
+	((:commit . "b27f4ae0bff18791bf41efa346cdc2eb35ad53e7"))])
  (flimenu .
 	  [(0 0 0 1 -4 20200810 1510)
 	   ((emacs
@@ -22277,7 +22277,7 @@
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "281f0c3c377cc03f685f43c15e90be5a1fc09e75")
+	      ((:commit . "765069add98d64f4ef4961a0aa4b2aa82efb2156")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -24739,7 +24739,7 @@
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "4a3897a2f756c20d460e969427cc6401e1e637d9")
+	((:commit . "2c6e1c39ac8f7502aaecf0869df9ba696825dc60")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -24896,13 +24896,13 @@
 		  (:maintainer "myuhe")
 		  (:keywords "convenience" "emulation"))])
  (helm-bitbucket .
-		 [(0 1 3 1 -4 20190422 1102)
+		 [(0 1 4 1 -4 20220722 1538)
 		  ((emacs
 		    (24))
 		   (helm-core
-		    (3 0)))
+		    (3 6 0)))
 		  "Search Bitbucket with Helm" single
-		  ((:commit . "c722016622ad019202419cca60c3be3c53e56130")
+		  ((:commit . "9d07a274584ad364a2620c6389f86d90502f2640")
 		   (:authors
 		    ("Peter Urbak" . "tolowercase@gmail.com"))
 		   (:maintainer "Peter Urbak" . "tolowercase@gmail.com")
@@ -25186,13 +25186,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 8 6 1 -4 20220722 424)
+	    [(3 8 6 1 -4 20220722 611)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 4)))
 	     "Development files for Helm" tar
-	     ((:commit . "4a3897a2f756c20d460e969427cc6401e1e637d9")
+	     ((:commit . "2c6e1c39ac8f7502aaecf0869df9ba696825dc60")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
