@@ -29083,13 +29083,13 @@
 	 (:maintainer "Kevin W. van Rooijen" . "kevin.van.rooijen@attichacker.com")
 	 (:keywords "convenience" "matching" "tools"))])
  (inf-clojure .
-	      [(3 2 1 1 -4 20220722 628)
+	      [(3 2 1 1 -4 20220723 1536)
 	       ((emacs
 		 (25 1))
 		(clojure-mode
 		 (5 11)))
 	       "Run an external Clojure process in an Emacs buffer" single
-	       ((:commit . "151b20ba9d3ae39b88f91aecbab98bd5a5215f1a")
+	       ((:commit . "f436760489cd95400b5a5449158161031beac7ba")
 		(:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 		(:keywords "processes" "comint" "clojure")
 		(:url . "http://github.com/clojure-emacs/inf-clojure"))])
@@ -33014,7 +33014,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "921239a9d465b493fe8726d3d745a61b644c99fb")
+	     ((:commit . "94a714b3f1ed3611a4ec5afa1c47dab830b51d82")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
@@ -35462,7 +35462,7 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/YiGeeker/masm-mode"))])
  (mastodon .
-	   [(0 10 0 1 -4 20220627 1644)
+	   [(0 10 0 1 -4 20220723 1629)
 	    ((emacs
 	      (27 1))
 	     (request
@@ -35470,7 +35470,7 @@
 	     (seq
 	      (1 0)))
 	    "Client for Mastodon" tar
-	    ((:commit . "04d35c7e28b8f50b47f2b86d5c4765f4f091d2a4")
+	    ((:commit . "d0a9ced78111175edb4afb8f45e06d2a496e387d")
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com"))
 	     (:maintainer "Marty Hiatt" . "martianhiatus@riseup.net")
@@ -41851,7 +41851,7 @@
 		  (:keywords "convenience" "hypermedia" "org")
 		  (:url . "https://github.com/unhammer/org-rich-yank"))])
  (org-roam .
-	   [(2 2 2 1 -4 20220621 527)
+	   [(2 2 2 1 -4 20220723 1547)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -41865,7 +41865,7 @@
 	     (magit-section
 	      (3 0 0)))
 	    "A database abstraction layer for Org-mode" tar
-	    ((:commit . "c3867619147175faf89ed8f3e90a1e67a4fd9655")
+	    ((:commit . "917a325dd9778cd06a35e12f262963f75909d646")
 	     (:authors
 	      ("Jethro Kuan" . "jethrokuan95@gmail.com"))
 	     (:maintainer "Jethro Kuan" . "jethrokuan95@gmail.com")
@@ -45104,13 +45104,13 @@
 	     (:keywords "tools" "php")
 	     (:url . "https://github.com/emacs-php/phpactor.el"))])
  (phpstan .
-	  [(0 6 0 1 -4 20220710 942)
+	  [(0 6 0 1 -4 20220723 1451)
 	   ((emacs
 	     (24 3))
 	    (php-mode
 	     (1 22 3)))
 	   "Interface to PHPStan" single
-	   ((:commit . "4f990bf51cc65b3bdc63f4991e007d03b76932a2")
+	   ((:commit . "e229e990e36a2bfb88503bfe2bb6f2836eaa2874")
 	    (:authors
 	     ("USAMI Kenta" . "tadsan@zonu.me"))
 	    (:maintainer "USAMI Kenta" . "tadsan@zonu.me")
@@ -45394,11 +45394,11 @@
 		 (:keywords "docs" "help" "lisp" "maint" "outlines" "tools")
 		 (:url . "https://github.com/Boruch-Baum/emacs-pkg-overview"))])
  (pkgbuild-mode .
-		[(1 0 -4 20220723 1300)
+		[(1 0 -4 20220723 1401)
 		 ((emacs
 		   (26 1)))
 		 "Interface to the ArchLinux package manager" single
-		 ((:commit . "6889afc0c54116542576a213a3e5d74a99a813da")
+		 ((:commit . "a6985ae497c5ca721b62d3d2742f1fe1fd9fa3a3")
 		  (:authors
 		   ("Juergen Hoetzel" . "juergen@hoetzel.info"))
 		  (:maintainer "Juergen Hoetzel" . "juergen@hoetzel.info")
@@ -47781,9 +47781,9 @@
 	       (:keywords "languages" "processes")
 	       (:url . "https://github.com/jdtsmith/python-mls"))])
  (python-mode .
-	      [(6 3 1 1 -4 20220719 1418)
+	      [(6 3 1 1 -4 20220723 1637)
 	       nil "Python major mode" tar
-	       ((:commit . "527f6189463c40e7fb38b0839a14cc8a4bcbf9fb")
+	       ((:commit . "6c0ff0b50267a5bc61cac14379e9cb6189c5ab31")
 		(:authors
 		 ("2015-2021 https://gitlab.com/groups/python-mode-devs")
 		 ("2003-2014 https://launchpad.net/python-mode")
@@ -55554,7 +55554,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "09c78989d06249a6921edef812130006c4a11029")
+	  ((:commit . "481607363584564f72948baa4c0b929009bde412")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -60811,19 +60811,19 @@
       ((emacs
 	(24 4)))
       "Functions for working with Zettelkasten-style linked notes" single
-      ((:commit . "4cc98d5ea14d1a92575f78bce29e1eb18abf75ff")
+      ((:commit . "b58889d6686c468d70a029f81cbff5e48046a2e6")
        (:authors
 	("Grant Rosson <https://github.com/localauthor>"))
        (:maintainer "Grant Rosson <https://github.com/localauthor>")
        (:url . "https://github.com/localauthor/zk"))])
  (zk-index .
-	   [(0 7 1 -4 20220722 1606)
+	   [(0 7 1 -4 20220723 1522)
 	    ((emacs
 	      (27 1))
 	     (zk
 	      (0 3)))
 	    "Index and Desktop for zk" single
-	    ((:commit . "4cc98d5ea14d1a92575f78bce29e1eb18abf75ff")
+	    ((:commit . "b58889d6686c468d70a029f81cbff5e48046a2e6")
 	     (:authors
 	      ("Grant Rosson <https://github.com/localauthor>"))
 	     (:maintainer "Grant Rosson <https://github.com/localauthor>")
