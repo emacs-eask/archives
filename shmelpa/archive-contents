@@ -4996,6 +4996,36 @@
 		  (:maintainer "Vitalii Elenhaupt")
 		  (:keywords "convenience")
 		  (:url . "https://github.com/veelenga/carbon-now-sh.el"))])
+ (cardano-tx .
+	     [(0 1 0 1 -4 20220718 1440)
+	      ((emacs
+		(27 1))
+	       (f
+		(0 20 0))
+	       (yasnippet
+		(0 14 0))
+	       (yaml-mode
+		(0 0 15))
+	       (yaml
+		(0 1 0))
+	       (helm
+		(3 6 2))
+	       (cbor
+		(0 2 0))
+	       (bech32
+		(0 1 1))
+	       (readable-numbers
+		(0 1 0))
+	       (emacsql
+		(3 0 0))
+	       (emacsql-sqlite3
+		(1 0 2)))
+	      "Cardano transaction editor" tar
+	      ((:commit . "2c1ad565ff39fd03d137ba115b1fb77841914c6d")
+	       (:authors
+		("Oscar Najera <https://oscarnajera.com>"))
+	       (:maintainer "Oscar Najera" . "hi@oscarnajera.com")
+	       (:url . "https://github.com/Titan-C/cardano.el"))])
  (cargo .
 	[(0 4 0 1 -4 20220717 1129)
 	 ((emacs
@@ -8210,7 +8240,7 @@
 	       (:keywords "deferred" "async" "concurrent")
 	       (:url . "https://github.com/kiwanami/emacs-deferred/blob/master/README-concurrent.markdown"))])
  (conda .
-	[(0 4 1 -4 20220717 251)
+	[(0 4 1 -4 20220724 1857)
 	 ((emacs
 	   (25 1))
 	  (pythonic
@@ -8222,7 +8252,7 @@
 	  (f
 	   (0 18 2)))
 	 "Work with your conda environments" single
-	 ((:commit . "f34c1218e5f9a759646f68f6afd8f9b8fd4022cc")
+	 ((:commit . "a65ed0084876366fd1b238bb2b8b36ee75ac98d8")
 	  (:authors
 	   ("Rami Chowdhury" . "rami.chowdhury@gmail.com"))
 	  (:maintainer "Rami Chowdhury" . "rami.chowdhury@gmail.com")
@@ -13210,7 +13240,7 @@
 	  (seq
 	   (2 23)))
 	 "Client for Language Server Protocol (LSP) servers" single
-	 ((:commit . "29690e88e3b1d2f5d5472d7457a56cc363fb2805")
+	 ((:commit . "6cc6fcc0fabb51671980e52110ad74f2e691e387")
 	  (:authors
 	   ("Jo\303\243o T\303\241vora" . "joaotavora@gmail.com"))
 	  (:maintainer "Jo\303\243o T\303\241vora" . "joaotavora@gmail.com")
@@ -17497,6 +17527,14 @@
 	       (:maintainer "Matthew L. Fidler")
 	       (:keywords "extend" "drag and drop")
 	       (:url . "https://github.com/mlf176f2/extend-dnd"))])
+ (external-dict .
+		[(0 1 0 1 -4 20220724 38)
+		 ((emacs
+		   (25 1)))
+		 "Query external dictionary like goldendict, Bob.app etc" single
+		 ((:commit . "0aa200022212f8fc4d76d0ae0fa19644a90f44ac")
+		  (:keywords "wp" "processes")
+		  (:url . "https://repo.or.cz/external-dict.el.git"))])
  (extmap .
 	 [(1 2 1 1 -4 20211023 1904)
 	  ((emacs
@@ -22007,7 +22045,7 @@
        (cl-lib
 	(0 3)))
       "A GitHub library for Emacs" tar
-      ((:commit . "27ccc892e94f7e747e5b879eec71119965d9ed6e")
+      ((:commit . "9c47468a400a97732a116c598c2cd34fd3a23fa7")
        (:authors
 	("Yann Hodique" . "yhodique@gmail.com"))
        (:maintainer "Yann Hodique" . "yhodique@gmail.com")
@@ -23503,16 +23541,6 @@
 			       (:maintainer "\347\272\252\347\247\200\345\263\260 <jixiuf at gmail dot com>")
 			       (:keywords "scroll" "screen" "highlight")
 			       (:url . "https://github.com/jixiuf/golden-ratio-scroll-screen"))])
- (goldendict .
-	     [(0 1 0 1 -4 20220210 1401)
-	      ((emacs
-		(24 4))
-	       (cl-lib
-		(0 5)))
-	      "query word smartly with goldendict.el" single
-	      ((:commit . "f3fbe658a8d31dc1bd0ca69e4d2ebaab59e92791")
-	       (:keywords "dict" "goldendict")
-	       (:url . "https://repo.or.cz/goldendict.el.git"))])
  (golint .
 	 [(0 1 0 1 -4 20180221 2015)
 	  nil "lint for the Go source code" single
@@ -33440,7 +33468,7 @@
 		((emacs
 		  (24 3)))
 		"Live Coding in Python" tar
-		((:commit . "1b538138906b69d547ba9169bb0ca2a091135f65")
+		((:commit . "b507f0d3ab83be7df0bab9e4fc53cb00dd4a4831")
 		 (:authors
 		  ("Don Kirkby http://donkirkby.github.io"))
 		 (:maintainer "Don Kirkby http://donkirkby.github.io")
@@ -35434,7 +35462,7 @@
 	    (ht
 	     (2 0)))
 	   "eieio extension for automatic (un)marshalling" single
-	   ((:commit . "490496d974d03906f784707ecc2e0ac36ed84b96")
+	   ((:commit . "bc00044d9073482f589aad959e34d563598f682a")
 	    (:authors
 	     ("Yann Hodique" . "yann.hodique@gmail.com"))
 	    (:maintainer "Yann Hodique" . "yann.hodique@gmail.com")
@@ -44430,11 +44458,11 @@
 	     (:keywords "buffer")
 	     (:url . "https://github.com/ibukanov/pc-bufsw"))])
  (pcache .
-	 [(0 5 1 1 -4 20201226 634)
+	 [(0 5 1 1 -4 20220724 1841)
 	  ((emacs
 	    (25 1)))
 	  "persistent caching for Emacs." single
-	  ((:commit . "893d2a637423bae2cc5e72c559e3a9d1518797c9")
+	  ((:commit . "507230d094cc4a5025fe09b62569ad60c71c4226")
 	   (:authors
 	    ("Yann Hodique" . "yann.hodique@gmail.com"))
 	   (:maintainer "Yann Hodique" . "yann.hodique@gmail.com")
