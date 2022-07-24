@@ -45365,6 +45365,17 @@
 	    ("Paul Walsh" . "paulywalsh@gmail.com"))
 	   (:maintainer "Paul Walsh" . "paulywalsh@gmail.com")
 	   (:url . "https://github.com/pwalsh/pipenv.el"))])
+ (pipewire .
+	   [(1 1 -4 20220716 1933)
+	    ((emacs
+	      (28 1)))
+	    "PipeWire user interface" tar
+	    ((:commit . "8109f438550a83633db5f4bd2cf88a5feb445f82")
+	     (:authors
+	      ("Milan Zamazal" . "pdm@zamazal.org"))
+	     (:maintainer "Milan Zamazal" . "pdm@zamazal.org")
+	     (:keywords "multimedia")
+	     (:url . "https://git.zamazal.org/pdm/pipewire-0"))])
  (pippel .
 	 [(1 4 1 -4 20220416 1743)
 	  ((emacs
@@ -49673,6 +49684,14 @@
 	 (:maintainer "Dmitry Gutov")
 	 (:keywords "ruby" "convenience" "rails")
 	 (:url . "https://github.com/dgutov/robe"))])
+ (robot-log .
+	    [(0 1 4 1 -4 20220719 1301)
+	     ((emacs
+	       (28 1)))
+	     "Major mode for viewing RobotFramework debug log files" single
+	     ((:commit . "26da47597aa97be9649cb60f4da6d94d47d0c0ac")
+	      (:keywords "convenience" "files")
+	      (:url . "https://git.sr.ht/~apteryx/emacs-robot-log"))])
  (robot-mode .
 	     [(0 6 1 1 -4 20210425 1925)
 	      ((emacs
@@ -51628,6 +51647,21 @@
 	     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
 	     (:keywords "convenience")
 	     (:url . "https://github.com/emacs-sideline/sideline"))])
+ (sideline-blame .
+		 [(0 1 0 1 -4 20220629 801)
+		  ((emacs
+		    (27 1))
+		   (sideline
+		    (0 1 0))
+		   (vc-msg
+		    (1 1 1)))
+		  "Show blame messages with sideline" single
+		  ((:commit . "6e9fb45caea9031554e6e2110e39e219a407779e")
+		   (:authors
+		    ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
+		   (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		   (:keywords "convenience" "blame")
+		   (:url . "https://github.com/emacs-sideline/sideline-blame"))])
  (sideline-flycheck .
 		    [(0 1 0 1 -4 20220629 752)
 		     ((emacs
@@ -53391,6 +53425,17 @@
 	(:maintainer "Mola-T" . "Mola@molamola.xyz")
 	(:keywords "convenience" "package")
 	(:url . "https://github.com/mola-T/spu"))])
+ (sq .
+     [(0 1 2 1 -4 20220717 2039)
+      ((emacs
+	(24 1)))
+      "Bindings for Sequoia PGP's cli" single
+      ((:commit . "bb0d1756bb9c62bb999fa21e15949e28650c663e")
+       (:authors
+	("Justus Winter" . "justus@sequoia-pgp.org"))
+       (:maintainer "Justus Winter" . "justus@sequoia-pgp.org")
+       (:keywords "tools" "data" "mail")
+       (:url . "https://gitlab.com/sequoia-pgp/sqel"))])
  (sql-clickhouse .
 		 [(0 1 0 1 -4 20191209 1443)
 		  ((emacs
@@ -55060,7 +55105,7 @@
 	  ((emacs
 	    (27 1)))
 	  "Tempo templates/snippets with in-buffer field editing" single
-	  ((:commit . "1066b2d90588ecc470a5bfff3d79c4a6a9a190c2")
+	  ((:commit . "b4bb7030e9fa4a9451b79dfb2e815e0dd796527d")
 	   (:authors
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	   (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -55582,7 +55627,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "f090926d4f02c0a99cdc2d536bfd9a6f5f91003c")
+	  ((:commit . "29f5be141363f5af2118cc2de3688369d7de9b26")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
