@@ -12345,9 +12345,9 @@
 		      nil "DTrace code editing commands for Emacs" single
 		      ((:commit . "801af1ef16075d31a19830ebb8404bbf3a322f10"))])
  (dtrt-indent .
-	      [(1 7 1 -4 20220724 2231)
+	      [(1 8 1 -4 20220725 849)
 	       nil "Adapt to foreign indentation offsets" tar
-	       ((:commit . "397ca8e244dc57ee9583815d30fc3fbbb0dfac3d")
+	       ((:commit . "d4fd1b4977eb0d534844fddf01c3c51c70c57205")
 		(:authors
 		 ("Julian Scheid" . "julians37@googlemail.com"))
 		(:maintainer "Reuben Thomas" . "rrt@sc3d.org")
@@ -12461,7 +12461,7 @@
 		      ((emacs
 			(27 1)))
 		      "Shell commands with DWIM behaviour" single
-		      ((:commit . "c1949a73bf672614b989124118d6222c741ef93c")
+		      ((:commit . "c034bd176714f656d5282728cadbfb7e258044f3")
 		       (:authors
 			("Alvaro Ramirez"))
 		       (:maintainer "Alvaro Ramirez")
@@ -12801,11 +12801,11 @@
 	      (:maintainer "Noah Peart" . "noah.v.peart@gmail.com")
 	      (:url . "https://github.com/nverno/ebnf-mode"))])
  (ebuku .
-	[(0 1 -4 20220626 1336)
+	[(0 1 -4 20220725 832)
 	 ((emacs
 	   (25 1)))
 	 "Interface to the buku Web bookmark manager" single
-	 ((:commit . "b046d9417edda5cb078041ea0e920d0688255060")
+	 ((:commit . "5b8bf34b8ea5d05f0b8dfc12bfea825f9cffbeda")
 	  (:authors
 	   ("Alexis <flexibeast@gmail.com>, Erik Sj\303\266strand" . "sjostrand.erik@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com")
@@ -16295,7 +16295,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20220705 1432)
+       [(1 15 0 1 -4 20220725 908)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -16303,7 +16303,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "0e501d17c5dc2944f23fe5046b030d0c641665c5")
+	((:commit . "5826a8877736fc734ea9da7d2bba11ef2b05032c")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulation" "vim")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -16407,7 +16407,7 @@
 			 (:keywords "colemak" "evil")
 			 (:url . "https://github.com/bmallred/evil-colemak-minimal"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20220720 802)
+		  [(0 4 1 1 -4 20220725 906)
 		   ((emacs
 		     (26 3))
 		    (evil
@@ -16415,7 +16415,7 @@
 		    (annalist
 		     (1 0)))
 		   "A set of keybindings for Evil mode" tar
-		   ((:commit . "0595cd8b95c0bc6360a0c275b0f42c4e5fc24190")
+		   ((:commit . "2fa3609ebfd0bfa20e37d1dadcdec920e55a8492")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainer "James Nguyen" . "james@jojojames.com")
@@ -17102,7 +17102,7 @@
 		     ((evil
 		       (1 15 0)))
 		     "unit test helpers for Evil" single
-		     ((:commit . "0e501d17c5dc2944f23fe5046b030d0c641665c5")
+		     ((:commit . "5826a8877736fc734ea9da7d2bba11ef2b05032c")
 		      (:authors
 		       ("Vegard \303\230ye <vegard_oye at hotmail.com>"))
 		      (:maintainer "Vegard \303\230ye <vegard_oye at hotmail.com>"))])
@@ -17837,11 +17837,11 @@
 		  (:keywords "convenience" "tools" "hardware")
 		  (:url . "https://github.com/lunaryorn/fancy-battery.el"))])
  (fancy-compilation .
-		    [(0 1 1 -4 20220721 139)
+		    [(0 1 1 -4 20220725 932)
 		     ((emacs
 		       (26 1)))
 		     "Enhanced compilation output" single
-		     ((:commit . "6755db743aed81841f2fe0bd676e475a50d5a0f5")
+		     ((:commit . "fe741f7c49a849ba59b3204f5dc478783ee6f039")
 		      (:authors
 		       ("Campbell Barton" . "ideasman42@gmail.com"))
 		      (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -21431,7 +21431,7 @@
 	 (emacs
 	  (24 2)))
 	"Major mode for the Factor programming language." tar
-	((:commit . "659aca75802afaf5bc92ca1ce8b8eb3620321395"))])
+	((:commit . "ca33bca4e93d48e3e3f06785c3ffb028182f32c5"))])
  (fuff .
        [(0 1 1 -4 20170202 1503)
 	((seq
@@ -32308,7 +32308,7 @@
 		  (highlight
 		   (20190710 1527)))
 		 "A major mode for editing Lambdapi source code" tar
-		 ((:commit . "2933ac40c75a53b773b421a7069741c5aa07c0a8")
+		 ((:commit . "7c8160ff26511ce429c1d2e2a49ff5e342f75a7b")
 		  (:maintainer "Deducteam" . "dedukti-dev@inria.fr")
 		  (:keywords "languages")
 		  (:url . "https://github.com/Deducteam/lambdapi"))])
@@ -47830,9 +47830,9 @@
 	       (:keywords "languages" "processes")
 	       (:url . "https://github.com/jdtsmith/python-mls"))])
  (python-mode .
-	      [(6 3 1 1 -4 20220723 1637)
+	      [(6 3 1 1 -4 20220725 1039)
 	       nil "Python major mode" tar
-	       ((:commit . "6c0ff0b50267a5bc61cac14379e9cb6189c5ab31")
+	       ((:commit . "6f58ba1c543082818beb85522568bc7f60204dbb")
 		(:authors
 		 ("2015-2021 https://gitlab.com/groups/python-mode-devs")
 		 ("2003-2014 https://launchpad.net/python-mode")
@@ -55668,7 +55668,7 @@
 	  (emacs
 	   (24)))
 	 "Interact with TidalCycles for live coding patterns" single
-	 ((:commit . "277eb4d69e930cd315ca2f1d7eafcb3e7007bc7b")
+	 ((:commit . "56b0afd23e7660df5924b7e4959fbc4dc08ce905")
 	  (:authors
 	   (nil . "alex@slab.org"))
 	  (:maintainer nil . "alex@slab.org")
