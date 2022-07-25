@@ -1998,7 +1998,7 @@
 	     (yaml
 	      (0 3 4)))
 	    "Programming game involving WAT" tar
-	    ((:commit . "274beab092dcc169b9887f7734a5f82b892e7702")
+	    ((:commit . "d73e111a0b96d335e9bca69a234bd0004dfe36f9")
 	     (:authors
 	      ("Zachary Romero"))
 	     (:maintainer "Zachary Romero")
@@ -6000,7 +6000,7 @@
 		 (:maintainer "Robin Schroer")
 		 (:url . "https://github.com/sulami/circleci-api"))])
  (citar .
-	[(0 9 7 1 -4 20220717 2139)
+	[(0 9 7 1 -4 20220724 2250)
 	 ((emacs
 	   (27 1))
 	  (parsebib
@@ -6010,13 +6010,13 @@
 	  (citeproc
 	   (0 9)))
 	 "Citation-related commands for org, latex, markdown" tar
-	 ((:commit . "c5ed78e69ab1ddbf19f6b5793c8356678466caf8")
+	 ((:commit . "8475c1fd2b8d2171b7c9dd4318aa67d09c62b820")
 	  (:authors
 	   ("Bruce D'Arcus <https://github.com/bdarcus>"))
 	  (:maintainer "Bruce D'Arcus <https://github.com/bdarcus>")
 	  (:url . "https://github.com/emacs-citar/citar"))])
  (citar-embark .
-	       [(1 0 1 -4 20220710 1109)
+	       [(1 0 1 -4 20220724 2250)
 		((emacs
 		  (27 1))
 		 (embark
@@ -6024,7 +6024,7 @@
 		 (citar
 		  (0 9 7)))
 		"Citar/Embark integration" single
-		((:commit . "c5ed78e69ab1ddbf19f6b5793c8356678466caf8")
+		((:commit . "8475c1fd2b8d2171b7c9dd4318aa67d09c62b820")
 		 (:authors
 		  ("Bruce D'Arcus" . "bdarcus@gmail.com"))
 		 (:maintainer "Bruce D'Arcus" . "bdarcus@gmail.com")
@@ -12345,9 +12345,9 @@
 		      nil "DTrace code editing commands for Emacs" single
 		      ((:commit . "801af1ef16075d31a19830ebb8404bbf3a322f10"))])
  (dtrt-indent .
-	      [(1 7 1 -4 20220518 807)
+	      [(1 7 1 -4 20220724 2231)
 	       nil "Adapt to foreign indentation offsets" tar
-	       ((:commit . "57f4072fa8acd5f7af40b11f5f33607bca324fe1")
+	       ((:commit . "397ca8e244dc57ee9583815d30fc3fbbb0dfac3d")
 		(:authors
 		 ("Julian Scheid" . "julians37@googlemail.com"))
 		(:maintainer "Reuben Thomas" . "rrt@sc3d.org")
@@ -12456,6 +12456,16 @@
        (:maintainer "D. Williams" . "d.williams@posteo.net")
        (:keywords "convenience" "games")
        (:url . "https://github.com/integral-dw/dw-passphrase-generator"))])
+ (dwim-shell-command .
+		     [(0 1 1 -4 20220724 2117)
+		      ((emacs
+			(27 1)))
+		      "Shell commands with DWIM behaviour" single
+		      ((:commit . "c1949a73bf672614b989124118d6222c741ef93c")
+		       (:authors
+			("Alvaro Ramirez"))
+		       (:maintainer "Alvaro Ramirez")
+		       (:url . "https://github.com/xenodium/dwim-shell-command"))])
  (dyalog-mode .
 	      [(0 7 1 -4 20210413 810)
 	       ((cl-lib
@@ -37640,11 +37650,11 @@
 	 (:keywords "neo4j" "shell" "comint")
 	 (:url . "https://github.com/tmtxt/n4js.el"))])
  (naga-theme .
-	     [(0 1 1 -4 20220718 1917)
+	     [(0 1 1 -4 20220724 2023)
 	      ((emacs
 		(24 1)))
 	      "Dark color theme with green foreground color" single
-	      ((:commit . "9551b5c446baf61fc4f76e802b89fdaf4567cc1b")
+	      ((:commit . "c5ef0baf1d2e95bc613e99700c38a1227cabe187")
 	       (:authors
 		("Johannes Maier" . "johannes.maier@mailbox.org"))
 	       (:maintainer "Johannes Maier" . "johannes.maier@mailbox.org")
