@@ -6593,7 +6593,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "96f60d63b5ced443f53f1e874b439ad6c2d24dbf"))])
+	      ((:commit . "a0ff592bf4744546159ae585d7c7727d49e2d138"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -12056,7 +12056,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "f98f806466d7ccb109bd0220ef5b9f1d48a5b05f")
+		 ((:commit . "b27d4e3333d9259c922bac41e1d8cbd8547c6a5a")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
@@ -12457,11 +12457,11 @@
        (:keywords "convenience" "games")
        (:url . "https://github.com/integral-dw/dw-passphrase-generator"))])
  (dwim-shell-command .
-		     [(0 1 1 -4 20220724 2117)
+		     [(0 2 1 -4 20220725 1712)
 		      ((emacs
 			(27 1)))
-		      "Shell commands with DWIM behaviour" single
-		      ((:commit . "c034bd176714f656d5282728cadbfb7e258044f3")
+		      "Shell commands with DWIM behaviour" tar
+		      ((:commit . "6f89ce95ae66bd54a9a30055d68013eda02fe489")
 		       (:authors
 			("Alvaro Ramirez"))
 		       (:maintainer "Alvaro Ramirez")
@@ -18758,7 +18758,7 @@
 		(:keywords "convenience" "search" "flx")
 		(:url . "https://github.com/pythonnut/flx-isearch"))])
  (flycheck .
-	   [(33 -4 20220720 2031)
+	   [(33 -4 20220725 1500)
 	    ((dash
 	      (2 12 1))
 	     (pkg-info
@@ -18770,7 +18770,7 @@
 	     (emacs
 	      (24 3)))
 	    "On-the-fly syntax checking" tar
-	    ((:commit . "94b46fe7b5df48ee9e4130b54188d89f9d2ceeaf")
+	    ((:commit . "944699ed538736a503556c6eb6c197970b581978")
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
 	     (:maintainer "Cl\303\251ment Pit-Claudel" . "clement.pitclaudel@live.com")
@@ -35808,11 +35808,11 @@
 	   (:keywords "comm" "processes" "bittorrent")
 	   (:url . "https://github.com/skangas/mentor"))])
  (meow .
-       [(1 4 2 1 -4 20220722 1703)
+       [(1 4 2 1 -4 20220725 1606)
 	((emacs
 	  (27 1)))
 	"Yet Another modal editing" tar
-	((:commit . "7c310df591c6cb0846ae3161e5713f62f4eab7ee")
+	((:commit . "6741f4dc51bc44d8fe0f01bf1aff48ae6ec237f5")
 	 (:authors
 	  ("Shi Tianshu"))
 	 (:maintainer "Shi Tianshu")
@@ -41030,7 +41030,7 @@
 	   (:maintainer "kuangdash" . "kuangdash@163.com")
 	   (:url . "https://github.com/kuangdash/org-iv"))])
  (org-jira .
-	   [(4 3 2 1 -4 20220702 709)
+	   [(4 3 2 1 -4 20220725 1808)
 	    ((emacs
 	      (24 5))
 	     (cl-lib
@@ -41040,7 +41040,7 @@
 	     (dash
 	      (2 14 1)))
 	    "Syncing between Jira and Org-mode." tar
-	    ((:commit . "7581ee26f7a57789d4e18c8a53865a2693673c48")
+	    ((:commit . "9510f2010750c5c74b6c1be7e06939afd64aa39b")
 	     (:maintainer "Matthew Carter" . "m@ahungry.com")
 	     (:keywords "ahungry" "jira" "org" "bug" "tracker")
 	     (:url . "https://github.com/ahungry/org-jira"))])
@@ -45376,11 +45376,11 @@
 	   (:maintainer "Paul Walsh" . "paulywalsh@gmail.com")
 	   (:url . "https://github.com/pwalsh/pipenv.el"))])
  (pipewire .
-	   [(1 1 -4 20220716 1933)
+	   [(1 1 -4 20220725 1858)
 	    ((emacs
 	      (28 1)))
 	    "PipeWire user interface" tar
-	    ((:commit . "8109f438550a83633db5f4bd2cf88a5feb445f82")
+	    ((:commit . "115a8a89a3a0c6a89ebe22df0ef0928a701cb1f0")
 	     (:authors
 	      ("Milan Zamazal" . "pdm@zamazal.org"))
 	     (:maintainer "Milan Zamazal" . "pdm@zamazal.org")
@@ -47669,7 +47669,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "8ccb52650f78f0650081753b218375bfcf47ab64")
+	  ((:commit . "ce7cccf96454fb6e286e4a8f38919733a0f28f44")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -47830,9 +47830,9 @@
 	       (:keywords "languages" "processes")
 	       (:url . "https://github.com/jdtsmith/python-mls"))])
  (python-mode .
-	      [(6 3 1 1 -4 20220725 1039)
+	      [(6 3 1 1 -4 20220725 1910)
 	       nil "Python major mode" tar
-	       ((:commit . "6f58ba1c543082818beb85522568bc7f60204dbb")
+	       ((:commit . "e59c10157f37722ebe4aea5c51202832c1cec8f1")
 		(:authors
 		 ("2015-2021 https://gitlab.com/groups/python-mode-devs")
 		 ("2003-2014 https://launchpad.net/python-mode")
@@ -51211,7 +51211,7 @@
 	     ((emacs
 	       (24 3)))
 	     "Shadowenv integration." single
-	     ((:commit . "dbcef650b906fec62608d5e4e3075bf251e675e1")
+	     ((:commit . "bcdce40b906c848727dbb55176262a9f03f8abb4")
 	      (:authors
 	       ("Dante Catalfamo" . "dante.catalfamo@shopify.com"))
 	      (:maintainer "Dante Catalfamo" . "dante.catalfamo@shopify.com")
@@ -54923,16 +54923,16 @@
 		     (:maintainer "Titus von der Malsburg" . "malsburg@posteo.de")
 		     (:url . "https://github.com/tmalsburg/tango-plus-theme"))])
  (tangonov-theme .
-		 [(1 0 2 1 -4 20220724 2201)
+		 [(1 0 2 1 -4 20220725 1836)
 		  ((emacs
 		    (25)))
 		  "A 256 color dark theme featuring bright pastels" single
-		  ((:commit . "c74f9be51a41fe319a47123e92efc41236d18e80")
+		  ((:commit . "82702c7d8bde7ca0360f2e8e70da46453075c134")
 		   (:authors
 		    ("Trevor Richards" . "trev@trevdev.ca"))
 		   (:maintainer "Trevor Richards" . "trev@trevdev.ca")
 		   (:keywords "faces" "theme" "dark")
-		   (:url . "https://github.com/trev-dev/tangonov"))])
+		   (:url . "https://github.com/trev-dev/tangonov-theme"))])
  (tangotango-theme .
 		   [(0 0 7 1 -4 20220714 2034)
 		    nil "Tango Palette color theme for Emacs 24." single
@@ -55648,7 +55648,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "29f5be141363f5af2118cc2de3688369d7de9b26")
+	  ((:commit . "e6a9cebefa08a80a3865520d5bfd7f2b2c7e12c6")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -55854,11 +55854,11 @@
 	 (:keywords "convenience")
 	 (:url . "https://github.com/abo-abo/tiny"))])
  (tiny-menu .
-	    [(1 0 1 -4 20220719 1550)
+	    [(1 0 1 -4 20220725 1748)
 	     ((emacs
 	       (24 4)))
 	     "Display tiny menus." single
-	     ((:commit . "eae513ba326b44a677453e96fe866e08d9c76ebd")
+	     ((:commit . "17eacfd1d44cd4d5482d32eac63229230c3cd3fc")
 	      (:authors
 	       ("Aaron Bieber" . "aaron@aaronbieber.com"))
 	      (:maintainer "Aaron Bieber" . "aaron@aaronbieber.com")
