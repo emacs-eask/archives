@@ -3115,9 +3115,9 @@
 	      (:keywords "convenience" "transit")
 	      (:url . "https://github.com/mschuldt/bart-mode"))])
  (base16-theme .
-	       [(3 0 1 -4 20220713 402)
+	       [(3 0 1 -4 20220725 353)
 		nil "Collection of themes built on combinations of 16 base colors" tar
-		((:commit . "e8a5430b367faf43e0c56a7da47aad0751ca0b8b")
+		((:commit . "36cd6ed044ee37e399fc5d0db8070ae79fb06800")
 		 (:authors
 		  ("Kaleb Elwert" . "belak@coded.io")
 		  ("Neil Bhakta"))
@@ -6593,7 +6593,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "0f376bfc5a54f7e3ab716d213b75af315527c05e"))])
+	      ((:commit . "867be20c80c8afe41727a8f8862474ef87571a6b"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -17538,11 +17538,11 @@
 	       (:keywords "extend" "drag and drop")
 	       (:url . "https://github.com/mlf176f2/extend-dnd"))])
  (external-dict .
-		[(0 1 0 1 -4 20220724 38)
+		[(0 1 0 1 -4 20220725 528)
 		 ((emacs
 		   (25 1)))
 		 "Query external dictionary like goldendict, Bob.app etc" single
-		 ((:commit . "0aa200022212f8fc4d76d0ae0fa19644a90f44ac")
+		 ((:commit . "c364895f27c7b5a6421a7bf159851390bfc95642")
 		  (:keywords "wp" "processes")
 		  (:url . "https://repo.or.cz/external-dict.el.git"))])
  (extmap .
@@ -20475,7 +20475,7 @@
 		 ((flymake-easy
 		   (0 9)))
 		 "making flymake work with PHP CodeSniffer" single
-		 ((:commit . "1c57813235fb4b1561cadc94b44635b2b612b874")
+		 ((:commit . "433fd05b608f06a40bb209fbea76117d896449ed")
 		  (:authors
 		   ("Akiha Senda"))
 		  (:maintainer "Akiha Senda")
@@ -27369,7 +27369,7 @@
 	      ((emacs
 		(26 1)))
 	      "Convert HTML to Hiccup syntax" single
-	      ((:commit . "b56ae0d5cd5ce3ef24ed13be5103e231c91ef4e2")
+	      ((:commit . "c554f94e6aed2c755ed9e4391f5a090d6289b1ee")
 	       (:authors
 		("Kevin W. van Rooijen"))
 	       (:maintainer "Kevin W. van Rooijen")
@@ -33478,7 +33478,7 @@
 		((emacs
 		  (24 3)))
 		"Live Coding in Python" tar
-		((:commit . "b507f0d3ab83be7df0bab9e4fc53cb00dd4a4831")
+		((:commit . "ed8e93aaf77339e1b3d3133487c2b3670f884bdc")
 		 (:authors
 		  ("Don Kirkby http://donkirkby.github.io"))
 		 (:maintainer "Don Kirkby http://donkirkby.github.io")
@@ -51666,7 +51666,7 @@
 		   (vc-msg
 		    (1 1 1)))
 		  "Show blame messages with sideline" single
-		  ((:commit . "6e9fb45caea9031554e6e2110e39e219a407779e")
+		  ((:commit . "574592a8ecc171112d4ac2575f9cac51ff5eb184")
 		   (:authors
 		    ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		   (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -54922,6 +54922,17 @@
 		      ("Titus von der Malsburg" . "malsburg@posteo.de"))
 		     (:maintainer "Titus von der Malsburg" . "malsburg@posteo.de")
 		     (:url . "https://github.com/tmalsburg/tango-plus-theme"))])
+ (tangonov-theme .
+		 [(1 0 2 1 -4 20220724 2201)
+		  ((emacs
+		    (25)))
+		  "A 256 color dark theme featuring bright pastels" single
+		  ((:commit . "c74f9be51a41fe319a47123e92efc41236d18e80")
+		   (:authors
+		    ("Trevor Richards" . "trev@trevdev.ca"))
+		   (:maintainer "Trevor Richards" . "trev@trevdev.ca")
+		   (:keywords "faces" "theme" "dark")
+		   (:url . "https://github.com/trev-dev/tangonov"))])
  (tangotango-theme .
 		   [(0 0 7 1 -4 20220714 2034)
 		    nil "Tango Palette color theme for Emacs 24." single
