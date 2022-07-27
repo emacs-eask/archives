@@ -1174,11 +1174,11 @@
 	    (:keywords "matching" "all" "search" "replace" "anything" "helm" "helm-swoop" "occur")
 	    (:url . "https://github.com/rubikitch/all-ext"))])
  (all-the-icons .
-		[(5 0 0 1 -4 20220628 2233)
+		[(5 0 0 1 -4 20220726 2311)
 		 ((emacs
 		   (24 3)))
 		 "A library for inserting Developer icons" tar
-		 ((:commit . "9c90dbaa31a2fdc163e4394514bf9ee359e46ee5")
+		 ((:commit . "b18db6be0a290e8f91fd8d8340b2b44c8b75049a")
 		  (:authors
 		   ("Dominic Charlesworth" . "dgc336@gmail.com"))
 		  (:maintainer "Dominic Charlesworth" . "dgc336@gmail.com")
@@ -1992,13 +1992,13 @@
 	   (:maintainer "Fanael Linithien" . "fanael4@gmail.com")
 	   (:url . "https://github.com/Fanael/asilea"))])
  (asm-blox .
-	   [(0 0 1 1 -4 20220724 241)
+	   [(0 0 1 1 -4 20220726 2211)
 	    ((emacs
 	      (26 1))
 	     (yaml
 	      (0 3 4)))
 	    "Programming game involving WAT" tar
-	    ((:commit . "d73e111a0b96d335e9bca69a234bd0004dfe36f9")
+	    ((:commit . "62e5149b350af3b448663a5db20c91834b37b75a")
 	     (:authors
 	      ("Zachary Romero"))
 	     (:maintainer "Zachary Romero")
@@ -9143,7 +9143,7 @@
 	      (:keywords "tools")
 	      (:url . "https://github.com/xuchunyang/countdown.el"))])
  (cov .
-      [(0 1 0 1 -4 20220410 2247)
+      [(0 1 0 1 -4 20220727 31)
        ((emacs
 	 (24 4))
 	(f
@@ -9153,11 +9153,11 @@
 	(elquery
 	 (0)))
        "Show coverage stats in the fringe." single
-       ((:commit . "8396fa82a84965cd88fa23f5b361ab80ff28e231")
+       ((:commit . "cd3e1995c596cc227124db9537792d8329ffb696")
 	(:authors
 	 ("Adam Niederer"))
 	(:maintainer "Adam Niederer")
-	(:keywords "coverage" "gcov" "c")
+	(:keywords "coverage" "gcov" "c" "lcov" "coveralls" "clover")
 	(:url . "https://github.com/AdamNiederer/cov"))])
  (coverage .
 	   [(0 5 1 -4 20191113 1958)
@@ -9792,7 +9792,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "3f9fa1a46b90b9763b84ea5ec4319fdb5eba55f0"))])
+	       ((:commit . "206110c629aa4594ef6fb3f5c6ff1795c957d55d"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -21588,11 +21588,11 @@
 	  (:maintainer "Masafumi Oyamada" . "stillpedant@gmail.com")
 	  (:keywords "languages"))])
  (fzf .
-      [(0 0 2 1 -4 20220717 1823)
+      [(0 0 2 1 -4 20220726 2216)
        ((emacs
 	 (24 4)))
        "A front-end for fzf." single
-       ((:commit . "7d32bb31cbb897548a59778b7d337904009b9040")
+       ((:commit . "21912ebc7e1084aa88c9d8b7715e782a3978ed23")
 	(:authors
 	 ("Bailey Ling"))
 	(:maintainer "Bailey Ling")
@@ -23309,7 +23309,7 @@
 	    (cl-lib
 	     (0 5)))
 	   "Integration of the Go 'guru' analysis tool into Emacs." single
-	   ((:commit . "fa2693278637f56759480d2bf203bb8aad107230")
+	   ((:commit . "08aa90d52f0e7d2ad02f961b554e13329672d7cb")
 	    (:keywords "tools"))])
  (go-imenu .
 	   [(0 1 0 1 -4 20181029 1029)
@@ -23344,11 +23344,11 @@
 	       (:keywords "tools" "go" "import")
 	       (:url . "https://github.com/yasushi-saito/go-imports"))])
  (go-mode .
-	  [(1 6 0 1 -4 20220114 2239)
+	  [(1 6 0 1 -4 20220727 115)
 	   ((emacs
 	     (26 1)))
 	   "Major mode for the Go programming language" single
-	   ((:commit . "fa2693278637f56759480d2bf203bb8aad107230")
+	   ((:commit . "08aa90d52f0e7d2ad02f961b554e13329672d7cb")
 	    (:authors
 	     ("The go-mode Authors"))
 	    (:maintainer "The go-mode Authors")
@@ -23430,7 +23430,7 @@
 	     ((go-mode
 	       (1 3 1)))
 	     "Integration of the 'gorename' tool into Emacs." single
-	     ((:commit . "fa2693278637f56759480d2bf203bb8aad107230")
+	     ((:commit . "08aa90d52f0e7d2ad02f961b554e13329672d7cb")
 	      (:keywords "tools"))])
  (go-scratch .
 	     [(0 0 1 1 -4 20150810 440)
@@ -27577,9 +27577,9 @@
 		     (:keywords "faces" "matching")
 		     (:url . "http://nschum.de/src/emacs/highlight-symbol/"))])
  (highlight-thing .
-		  [(0 1 0 1 -4 20220626 831)
+		  [(0 1 0 1 -4 20220726 2237)
 		   nil "Minimalistic minor mode to highlight current thing under point." single
-		   ((:commit . "f122a40ef717602937a8e083813395d423963202")
+		   ((:commit . "cdf429c41c13c22d25fe43493cc5d85cc480dba6")
 		    (:authors
 		     ("Felix Geller" . "fgeller@gmail.com"))
 		    (:maintainer "Felix Geller" . "fgeller@gmail.com")
@@ -55650,7 +55650,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "b7b68a3b698286dfbd15589bbd8ff1088ccf75af")
+	  ((:commit . "cade15e69530153581bd473d8c88db5093a24843")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
