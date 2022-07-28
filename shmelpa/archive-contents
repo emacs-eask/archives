@@ -6593,7 +6593,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "be4081264ab42c463cd405ef5efc13627abeea29"))])
+	      ((:commit . "6e46cd896467b90666dabc55b1a2cb7f65a1273d"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -8905,13 +8905,13 @@
 		      (:keywords "convenience" "matching")
 		      (:url . "https://github.com/tyler-dodge/counsel-edit-mode"))])
  (counsel-etags .
-		[(1 10 1 1 -4 20220526 1436)
+		[(1 10 1 1 -4 20220728 1351)
 		 ((emacs
 		   (26 1))
 		  (counsel
 		   (0 13 4)))
 		 "Fast and complete Ctags/Etags solution using ivy" single
-		 ((:commit . "05d364b556aadcfe49df727c0729abc3f0c14372")
+		 ((:commit . "b109dff190db6706e32ad08deb64b77fc8ad75c7")
 		  (:authors
 		   ("Chen Bin <chenbin dot sh AT gmail dot com>"))
 		  (:maintainer "Chen Bin <chenbin dot sh AT gmail dot com>")
@@ -53652,18 +53652,6 @@
 		(:maintainer "death <github.com/death>")
 		(:keywords "tools" "convenience")
 		(:url . "http://github.com/death/ssh-tunnels"))])
- (stack-mode .
-	     [(0 1 0 1 -4 20150923 1523)
-	      ((haskell-mode
-		(13 14))
-	       (cl-lib
-		(0 5))
-	       (flycheck
-		(0 23)))
-	      "A minor mode enabling various features based on stack-ide." tar
-	      ((:commit . "f3481e239dde9817152ec00e32bfc3ebf5aaf2cb")
-	       (:keywords "haskell" "stack")
-	       (:url . "https://github.com/commercialhaskell/stack-ide"))])
  (stan-mode .
 	    [(10 3 0 1 -4 20211129 2051)
 	     ((emacs
