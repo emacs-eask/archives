@@ -951,11 +951,11 @@
 	   (:keywords "tools" "convenience")
 	   (:url . "https://github.com/vietor/agtags"))])
  (ah .
-     [(0 9 2 1 -4 20201213 218)
+     [(0 9 2 1 -4 20220729 1533)
       ((emacs
 	(25 1)))
       "Additional hooks" single
-      ((:commit . "869219e7853510aeb00af3580aede0e5d49b324a")
+      ((:commit . "dc04deafbbddc4d8130cd1c45bf8a101c2dfb46a")
        (:authors
 	("Takaaki ISHIKAWA <takaxp at ieee dot org>"))
        (:maintainer "Takaaki ISHIKAWA <takaxp at ieee dot org>")
@@ -9792,7 +9792,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "ccc02e097fc70b8aef43773d77607013d51f9438"))])
+	       ((:commit . "9b69292ee4f5340994776cac4ba18c27c9578ea1"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -32308,7 +32308,7 @@
 		  (highlight
 		   (20190710 1527)))
 		 "A major mode for editing Lambdapi source code" tar
-		 ((:commit . "1d5ca953dc282c37d8779e8946f17202a33ed8fb")
+		 ((:commit . "3821041b1f046538df9ef672bbb043efa18a6391")
 		  (:maintainer "Deducteam" . "dedukti-dev@inria.fr")
 		  (:keywords "languages")
 		  (:url . "https://github.com/Deducteam/lambdapi"))])
@@ -35791,7 +35791,7 @@
 	     (:keywords "markdown" "memo")
 	     (:url . "http://github.com/mikanfactory/emacs-memolist"))])
  (mentor .
-	 [(0 6 1 -4 20220113 2136)
+	 [(0 6 1 -4 20220729 1756)
 	  ((emacs
 	    (25 1))
 	   (xml-rpc
@@ -35801,7 +35801,7 @@
 	   (async
 	    (1 9 3)))
 	  "Frontend for the rTorrent bittorrent client" tar
-	  ((:commit . "afab3a14a4bfb5117f8e25417fdf151611b3df0b")
+	  ((:commit . "a820c8492392d2e3480845af4f6573c942996de8")
 	   (:authors
 	    ("Stefan Kangas" . "stefankangas@gmail.com"))
 	   (:maintainer "Stefan Kangas" . "stefankangas@gmail.com")
@@ -39739,7 +39739,7 @@
 	       ((emacs
 		 (24 3)))
 	       "Utility functions to format ocaml code" single
-	       ((:commit . "984534dcf17f2e6b5fe40b1bfadabf1bd998236d")
+	       ((:commit . "e54ecd396917ba5bab9be6104c42e5be4c1215d6")
 		(:keywords "languages" "ocaml")
 		(:url . "https://github.com/ocaml-ppx/ocamlformat"))])
  (occidental-theme .
@@ -47524,21 +47524,6 @@
 		("Artem Malyshev" . "proofit404@gmail.com"))
 	       (:maintainer "Artem Malyshev" . "proofit404@gmail.com")
 	       (:url . "https://github.com/proofit404/pyenv-mode"))])
- (pyenv-mode-auto .
-		  [(0 1 1 1 -4 20180620 1252)
-		   ((pyenv-mode
-		     (0 1 0))
-		    (s
-		     (1 11 0))
-		    (f
-		     (0 17 0)))
-		   "Automatically activates pyenv version if .python-version file exists." single
-		   ((:commit . "347b94cd5ad22e33cc41be661c102d4548767858")
-		    (:authors
-		     ("Sviatoslav Bulbakha" . "mail@ssbb.me"))
-		    (:maintainer "Sviatoslav Bulbakha" . "mail@ssbb.me")
-		    (:keywords "python" "pyenv")
-		    (:url . "https://github.com/ssbb/pyenv-mode-auto"))])
  (pygen .
 	[(0 2 7 1 -4 20161121 506)
 	 ((elpy
