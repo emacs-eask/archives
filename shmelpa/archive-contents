@@ -15547,7 +15547,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "61d7a2b5f8793d30fafa3f66138b4f18bda63566")
+	  ((:commit . "f76017d2d71621a5b2b92e0e8486781957ad2d68")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -16326,7 +16326,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20220725 908)
+       [(1 15 0 1 -4 20220801 944)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -16334,7 +16334,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "5826a8877736fc734ea9da7d2bba11ef2b05032c")
+	((:commit . "e41151e694e658e82f75d6709c215606d3f1aab0")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulation" "vim")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -17133,7 +17133,7 @@
 		     ((evil
 		       (1 15 0)))
 		     "unit test helpers for Evil" single
-		     ((:commit . "5826a8877736fc734ea9da7d2bba11ef2b05032c")
+		     ((:commit . "e41151e694e658e82f75d6709c215606d3f1aab0")
 		      (:authors
 		       ("Vegard \303\230ye <vegard_oye at hotmail.com>"))
 		      (:maintainer "Vegard \303\230ye <vegard_oye at hotmail.com>"))])
@@ -33083,7 +33083,7 @@
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" single
-	     ((:commit . "c949e03b237d18918fcc239a7e7f620c5c894b03")
+	     ((:commit . "e94efb5b663b6e7dac279f4448bf1d4b92ca0e0f")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainer "LigoLang SASU")
@@ -34141,7 +34141,7 @@
 	     (lv
 	      (0)))
 	    "LSP mode" tar
-	    ((:commit . "2c6a0e92402708780f18745f98ca128be64bbc78")
+	    ((:commit . "9ef89a2dd8949f183ad1a25f1bba8086f577b05e")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -35397,7 +35397,7 @@
 			  (:keywords "markdown" "gfm" "convenience")
 			  (:url . "https://github.com/ancane/markdown-preview-mode"))])
  (markdown-soma .
-		[(0 2 6 1 -4 20220731 1718)
+		[(0 2 8 1 -4 20220801 1129)
 		 ((emacs
 		   (25))
 		  (s
@@ -35407,7 +35407,7 @@
 		  (f
 		   (0 20 0)))
 		 "Live preview for Markdown" single
-		 ((:commit . "5208978a641a0e5e44dce67d2a05054f77dcebe7")
+		 ((:commit . "a13f7d14ada88a8955c7cd6122b91dac0527b22f")
 		  (:authors
 		   ("Jason Milkins" . "jasonm23@gmail.com"))
 		  (:maintainer "Jason Milkins" . "jasonm23@gmail.com")
@@ -37080,17 +37080,11 @@
 	       (:keywords "lisp" "async")
 	       (:url . "https://github.com/smizoe/mpmc-queue"))])
  (mpv .
-      [(0 2 0 1 -4 20211228 2043)
-       ((cl-lib
-	 (0 5))
-	(emacs
-	 (25 1))
-	(json
-	 (1 3))
-	(org
-	 (8 0)))
+      [(0 2 0 1 -4 20220801 1333)
+       ((emacs
+	 (25 1)))
        "control mpv for easy note-taking" single
-       ((:commit . "4fd8baa508dbc1a6b42b4e40292c0dbb0f19c9b9")
+       ((:commit . "9fc833bf348cbea0b386801fb333e7b323bed0f6")
 	(:authors
 	 ("Johann Kl\303\244hn" . "johann@jklaehn.de"))
 	(:maintainer "Johann Kl\303\244hn" . "johann@jklaehn.de")
@@ -39855,13 +39849,13 @@
 	      (:keywords "octopress" "blog")
 	      (:url . "https://github.com/aaronbieber/octopress.el"))])
  (oer-reveal .
-	     [(4 5 0 1 -4 20220706 1759)
+	     [(4 6 0 1 -4 20220801 1255)
 	      ((emacs
 		(24 4))
 	       (org-re-reveal
 		(3 1 0)))
 	      "OER with reveal.js, plugins, and org-re-reveal" tar
-	      ((:commit . "f25b51fc4370fedaebb52d82ff72a597bf44ccc4")
+	      ((:commit . "772d90d49fc963fe3fc032025fa5ca49cd39e9f1")
 	       (:authors
 		("Jens Lechtenb\303\266rger"))
 	       (:maintainer "Jens Lechtenb\303\266rger")
