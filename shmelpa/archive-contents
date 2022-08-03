@@ -3385,11 +3385,11 @@
 	      (:keywords "tools" "beeminder")
 	      (:url . "http://www.philnewton.net/code/beeminder-el/"))])
  (beginend .
-	   [(2 3 0 1 -4 20220409 846)
+	   [(2 3 0 1 -4 20220803 1431)
 	    ((emacs
 	      (25 3)))
 	    "Redefine M-< and M-> for some modes" single
-	    ((:commit . "bbcfdc0909c20ddee41e95b7ade7de63af73b220")
+	    ((:commit . "eb77d82dc88846c5715353b7fd99c9030a2e2ee7")
 	     (:url . "https://github.com/DamienCassou/beginend"))])
  (belarus-holidays .
 		   [(1 0 0 1 -4 20190102 1343)
@@ -6020,7 +6020,7 @@
 		 (:maintainer "Robin Schroer")
 		 (:url . "https://github.com/sulami/circleci-api"))])
  (citar .
-	[(0 9 7 1 -4 20220801 1309)
+	[(0 9 7 1 -4 20220803 1554)
 	 ((emacs
 	   (27 1))
 	  (parsebib
@@ -6030,7 +6030,7 @@
 	  (citeproc
 	   (0 9)))
 	 "Citation-related commands for org, latex, markdown" tar
-	 ((:commit . "c48f15b150f0311b81a71a56cfaf5d8024c451e4")
+	 ((:commit . "146f2cb5a31d4968ec17f39f189e4ea131ccaf56")
 	  (:authors
 	   ("Bruce D'Arcus <https://github.com/bdarcus>"))
 	  (:maintainer "Bruce D'Arcus <https://github.com/bdarcus>")
@@ -6044,7 +6044,7 @@
 		 (citar
 		  (0 9 7)))
 		"Citar/Embark integration" single
-		((:commit . "c48f15b150f0311b81a71a56cfaf5d8024c451e4")
+		((:commit . "146f2cb5a31d4968ec17f39f189e4ea131ccaf56")
 		 (:authors
 		  ("Bruce D'Arcus" . "bdarcus@gmail.com"))
 		 (:maintainer "Bruce D'Arcus" . "bdarcus@gmail.com")
@@ -6613,7 +6613,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "f8f8b8e60e157cd6e5bffbf8b1dd7f6273cd16f8"))])
+	      ((:commit . "57fb264085f7ed9349350cafb45b91bc924a7022"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -8562,13 +8562,13 @@
 		       (:keywords "convenience")
 		       (:url . "https://gitlab.com/OlMon/consult-projectile"))])
  (consult-recoll .
-		 [(0 5 1 -4 20220731 1452)
+		 [(0 5 1 -4 20220803 1617)
 		  ((emacs
 		    (26 1))
 		   (consult
 		    (0 18)))
 		  "Recoll queries using consult" single
-		  ((:commit . "89457fe05574a57498c11100ba4ffce5ee54165e")
+		  ((:commit . "2e70eebee41065866cb3f024f2b86ef2caa6d831")
 		   (:authors
 		    ("Jose A Ortega Ruiz" . "jao@gnu.org"))
 		   (:maintainer "Jose A Ortega Ruiz")
@@ -9812,7 +9812,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "16811213c6e21459582e29eb33f4a4fb80322b86"))])
+	       ((:commit . "287a11e55259ffe01cf43a450159be7f946f1cfb"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -12430,7 +12430,7 @@
  (dune .
        [(1 0 1 -4 20210909 1010)
 	nil "Integration with the dune build system" tar
-	((:commit . "71a0d184e1ed546b6046c309e39f9e3ca807c986")
+	((:commit . "0632fddead738c1a539f1c83180dc8762b04933a")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -14046,7 +14046,7 @@
 	   (:keywords "lisp")
 	   (:url . "http://github.com/demyanrogozhin/elhome"))])
  (elisp-def .
-	    [(1 2 1 -4 20220704 2144)
+	    [(1 2 1 -4 20220803 1647)
 	     ((dash
 	       (2 12 0))
 	      (f
@@ -14056,7 +14056,7 @@
 	      (emacs
 	       (24 3)))
 	     "macro-aware go-to-definition for elisp" single
-	     ((:commit . "7e9c950288d5f90b6f5ab0a9846e29db384f4fd4")
+	     ((:commit . "1d2e88a232ec16bce036b49577c4d4d96035f9f7")
 	      (:authors
 	       ("Wilfred Hughes" . "me@wilfred.me.uk"))
 	      (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk")
@@ -15547,7 +15547,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "0bc98c7b811857b03752592416e4470109ebdcec")
+	  ((:commit . "f97de7a99692cb08b5e27d17e86d92707ad16eed")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -22409,7 +22409,7 @@
 	      ((emacs
 		(25 1)))
 	      "Port of Sublime Text plugin GitGutter" single
-	      ((:commit . "b43b81e9f4bd559ed02bdbcaeae7431e2d49ed09")
+	      ((:commit . "315e7924a2683f75bcdd5e1ed032fbf01ac218e5")
 	       (:authors
 		("Syohei YOSHIDA" . "syohex@gmail.com"))
 	       (:maintainer "Neil Okamoto" . "neil.okamoto+melpa@gmail.com")
