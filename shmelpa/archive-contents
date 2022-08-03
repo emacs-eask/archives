@@ -36641,11 +36641,11 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(2 4 1 1 -4 20220803 703)
+	       [(2 5 0 1 -4 20220803 1104)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "f04842805f2c07b78b210e9f97a75c3c2dc400ae")
+		((:commit . "64f9378a5114399f3a47c9d23136af677c25e513")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainer "Modus-Themes Development" . "~protesilaos/modus-themes@lists.sr.ht")
@@ -37964,7 +37964,7 @@
 	((emacs
 	  (27 1)))
 	"companion for Babashka Neil" single
-	((:commit . "8d99759a13988cacbedd72bfafc5f01a189dd025")
+	((:commit . "828f448120beaa414f6e483b69fee7bcfd057cf8")
 	 (:authors
 	  ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
 	 (:maintainer "Ag Ibragimov" . "agzam.ibragimov@gmail.com")
@@ -38473,15 +38473,17 @@
 	    (:keywords "keyboard" "tools")
 	    (:url . "https://github.com/mamapanda/no-spam"))])
  (noaa .
-       [(0 1 1 -4 20220801 146)
+       [(0 1 1 -4 20220803 1427)
 	((emacs
 	  (27 1))
+	 (kv
+	  (0 0 19))
 	 (request
 	  (0 2 0))
 	 (s
 	  (1 12 0)))
 	"Get NOAA weather data" single
-	((:commit . "1ef8eb144afd0ddb0e7dbad0fc7b9ed2cf337813")
+	((:commit . "beacb05f7298228dce4d494fb41c73d26991e15c")
 	 (:authors
 	  ("David Thompson"))
 	 (:maintainer "David Thompson")
@@ -41095,7 +41097,7 @@
 		     (:maintainer "Huy Tran" . "huytd189@gmail.com")
 		     (:url . "https://github.com/huytd/org-journal-list"))])
  (org-journal-tags .
-		   [(0 4 0 1 -4 20220802 2042)
+		   [(0 4 0 1 -4 20220803 1358)
 		    ((emacs
 		      (27 1))
 		     (org-journal
@@ -41105,7 +41107,7 @@
 		     (transient
 		      (0 3 7)))
 		    "Tagging and querying system of org-journal" single
-		    ((:commit . "7c33800e000380074b2bfd4d01c0dba045a8ecf4")
+		    ((:commit . "687c95eea69b515b194b416db27def686392e06f")
 		     (:authors
 		      ("Korytov Pavel" . "thexcloud@gmail.com"))
 		     (:maintainer "Korytov Pavel" . "thexcloud@gmail.com")
@@ -41741,7 +41743,7 @@
 		   (:maintainer "Michael Fogleman" . "michaelwfogleman@gmail.com")
 		   (:url . "http://github.com/mwfogleman/org-randomnote"))])
  (org-re-reveal .
-		[(3 14 1 1 -4 20220622 642)
+		[(3 14 1 1 -4 20220803 1058)
 		 ((emacs
 		   (24 4))
 		  (org
@@ -41749,7 +41751,7 @@
 		  (htmlize
 		   (1 34)))
 		 "Org export to reveal.js presentations" tar
-		 ((:commit . "f184e66e398e1cfdfd55894c67392805ae531a39")
+		 ((:commit . "5235df04b79b223e338bcfcb511e5bc6445791a4")
 		  (:keywords "tools" "outlines" "hypermedia" "slideshow" "presentation" "oer")
 		  (:url . "https://gitlab.com/oer/org-re-reveal"))])
  (org-re-reveal-citeproc .
@@ -47141,7 +47143,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "449e21a350e8b062337d9bd5a7917b2aef0080d4")
+		 ((:commit . "0d67dc7ded3a8e769206654b096d6ab7699ee0f9")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -47681,7 +47683,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "260aa939bf9faaa4975cce6e1922e189078b69ce")
+	  ((:commit . "8db7b72f297c8a604f1ad1002fda0b138497c211")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -55675,13 +55677,13 @@
 		    (:keywords "languages")
 		    (:url . "https://github.com/msherry/tickscript-mode"))])
  (tidal .
-	[(0 0 1 1 -4 20220802 2021)
+	[(0 0 1 1 -4 20220803 1329)
 	 ((haskell-mode
 	   (16))
 	  (emacs
 	   (25 1)))
 	 "Interact with TidalCycles for live coding patterns" single
-	 ((:commit . "9f626e1bd6207b8690fe13f1fee692a9f44e52ad")
+	 ((:commit . "cf481ed178eb950a0d75c8c3b39990c07cbf7cdf")
 	  (:authors
 	   (nil . "alex@slab.org"))
 	  (:maintainer nil . "alex@slab.org")
@@ -59692,13 +59694,13 @@
 	   "Major mode interface to WordNet" tar
 	   ((:commit . "feac531404041855312c1a046bde7ea18c674915"))])
  (wordreference .
-		[(0 2 1 -4 20220726 1255)
+		[(0 2 1 -4 20220803 1317)
 		 ((emacs
 		   (27 1))
 		  (s
 		   (1 12 0)))
 		 "Interface for wordreference.com" single
-		 ((:commit . "23800ccdf98134ef2bdc2592c92756cb01e17132")
+		 ((:commit . "8ccf0f9feb276ebbb9f4d9ea4ace26211bde5354")
 		  (:authors
 		   ("Marty Hiatt <martianhiatus AT riseup.net>"))
 		  (:maintainer "Marty Hiatt <martianhiatus AT riseup.net>")
