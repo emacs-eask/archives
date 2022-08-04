@@ -27369,9 +27369,9 @@
 		(:keywords "mercurial" "hg" "emacs" "tools")
 		(:url . "https://github.com/jojojames/hg-histedit"))])
  (hgignore-mode .
-		[(0 1 20150329 1 -4 20210314 431)
+		[(0 1 20150329 1 -4 20220804 1326)
 		 nil "a major mode for editing hgignore files" single
-		 ((:commit . "2c5aa4c238848f5b4f2955afcfb5f21ea513653b")
+		 ((:commit . "c65810347f39904b985187c5e2aaf27b184f3cae")
 		  (:authors
 		   ("Omair Majid" . "omair.majid@gmail.com"))
 		  (:maintainer "Omair Majid" . "omair.majid@gmail.com")
@@ -34125,7 +34125,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20220802 1632)
+	   [(8 0 1 1 -4 20220804 1407)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -34141,7 +34141,7 @@
 	     (lv
 	      (0)))
 	    "LSP mode" tar
-	    ((:commit . "e33fa7110c99d883751cc5fc6226d46d03de5c16")
+	    ((:commit . "0f56580e98eb8d4fed32bebd62281249604735b3")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -34261,7 +34261,7 @@
 		 (:keywords "languages")
 		 (:url . "https://github.com/jjlee/lsp-rescript"))])
  (lsp-scheme .
-	     [(0 1 2 1 -4 20220804 1138)
+	     [(0 1 3 1 -4 20220804 1433)
 	      ((emacs
 		(25 1))
 	       (f
@@ -34269,7 +34269,7 @@
 	       (lsp-mode
 		(8 0 0)))
 	      "Scheme support for lsp-mode" tar
-	      ((:commit . "69e84057e921ac6edbf18f22c5edb35a78880796")
+	      ((:commit . "55783a92c65bfabcb8252f4db0c1099e2b31d8d9")
 	       (:authors
 		("Ricardo G. Herdt" . "r.herdt@posteo.de"))
 	       (:maintainer "Ricardo G. Herdt" . "r.herdt@posteo.de")
@@ -37964,7 +37964,7 @@
 	((emacs
 	  (27 1)))
 	"companion for Babashka Neil" single
-	((:commit . "3eb0ad26e5c573ede8d6eb105fae7802ac0546ab")
+	((:commit . "001b80eaa59705fe081e982ab7774681507fd0d7")
 	 (:authors
 	  ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
 	 (:maintainer "Ag Ibragimov" . "agzam.ibragimov@gmail.com")
@@ -46883,11 +46883,11 @@
 		       (:keywords "convenience")
 		       (:url . "https://github.com/fritzgrabo/project-tab-groups"))])
  (projectile .
-	     [(2 6 0 -4 20220802 1623)
+	     [(2 6 0 -4 20220804 1530)
 	      ((emacs
 		(25 1)))
 	      "Manage and navigate projects in Emacs easily" single
-	      ((:commit . "d811e2b844a18855776cd7a1da68982917e82fdd")
+	      ((:commit . "94273611c95b6718c41018be2657f6982a325f60")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
@@ -47143,7 +47143,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "8d3a7327606b115dda871be54c8b8cb66d41ff90")
+		 ((:commit . "a744c223a47d747d98a9b5355ad250a9c72af4e5")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -54475,7 +54475,7 @@
 	     (:keywords "languages")
 	     (:url . "https://github.com/brianc/jade-mode"))])
  (sx .
-     [(0 3 1 -4 20191229 1746)
+     [(0 3 1 -4 20220804 1419)
       ((emacs
 	(24 1))
        (cl-lib
@@ -54487,7 +54487,7 @@
        (let-alist
 	   (1 0 3)))
       "StackExchange client. Ask and answer questions on Stack Overflow, Super User, and the likes" tar
-      ((:commit . "e9d1093c97507a6d7b4f4710ef65200dae725e5f")
+      ((:commit . "c58405f9ff27b9740997ea837a1f6fd173d1edc5")
        (:authors
 	("Sean Allred" . "code@seanallred.com"))
        (:maintainer "Sean Allred" . "code@seanallred.com")
@@ -55137,11 +55137,11 @@
 		 (:keywords "comm" "help" "hypermedia")
 		 (:url . "https://github.com/lassik/emacs-teletext-yle"))])
  (tempel .
-	 [(0 4 1 -4 20220709 816)
+	 [(0 4 1 -4 20220804 1453)
 	  ((emacs
 	    (27 1)))
 	  "Tempo templates/snippets with in-buffer field editing" single
-	  ((:commit . "b4bb7030e9fa4a9451b79dfb2e815e0dd796527d")
+	  ((:commit . "dac7e7bcbda97560532c854888a3d51ac01829ae")
 	   (:authors
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	   (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -55663,7 +55663,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "1ee09dfe9772c2e765dda557357abcba441c4f4e")
+	  ((:commit . "c8deb3fa7265ee3252e33e12754e4eb0dde32a8c")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
