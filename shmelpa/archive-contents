@@ -5940,13 +5940,13 @@
 	     (:keywords "languages")
 	     (:url . "https://github.com/ForNeVeR/cil-mode"))])
  (cilk-mode .
-	    [(0 2 1 1 -4 20220411 1342)
+	    [(0 2 1 1 -4 20220805 1411)
 	     ((emacs
 	       (25 1))
 	      (flycheck
 	       (32 -4)))
 	     "Minor mode for Cilk code editing" single
-	     ((:commit . "2f33f991c726d5214d6a17bbbd19836302a8e423")
+	     ((:commit . "c583d7b35cd3e366abd43eb08b25c2bd4929c18f")
 	      (:authors
 	       ("Alexandros-Stavros Iliopoulos <https://github.com/ailiop>"))
 	      (:maintainer "Alexandros-Stavros Iliopoulos" . "1577182+ailiop@users.noreply.github.com")
@@ -8346,13 +8346,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 18 1 -4 20220804 821)
+	  [(0 18 1 -4 20220805 1719)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (28 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "d0e85c588ec8738e5dd9d364cad3131a7d019f52")
+	   ((:commit . "39452ddbcd403f9fe7ad18270f124a8c98896c88")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -11164,9 +11164,11 @@
 	    (:maintainer "Neil Okamoto" . "neil.okamoto+melpa@gmail.com")
 	    (:url . "https://github.com/emacsorphanage/dired-k"))])
  (dired-launch .
-	       [(0 2 1 -4 20220317 1839)
-		nil "Use dired as a launcher" single
-		((:commit . "72ebbe2b3d2e04dbfda636fa114d4f47835ce044")
+	       [(0 2 1 -4 20220805 1655)
+		((emacs
+		  (24 3)))
+		"Use dired as a launcher" single
+		((:commit . "e7877700144cf4abb5f5482eea7fde9b749cfc57")
 		 (:authors
 		  ("David Thompson"))
 		 (:maintainer "David Thompson")
@@ -12428,9 +12430,9 @@
 		(:keywords "dummyparens" "auto-pair" "wrapping")
 		(:url . "https://github.com/snosov1/dummyparens"))])
  (dune .
-       [(1 0 1 -4 20210909 1010)
+       [(1 0 1 -4 20220805 1652)
 	nil "Integration with the dune build system" tar
-	((:commit . "af209eb382718388f231bbf2e3e22615eb7440c7")
+	((:commit . "3df932f7f91ea68c3fee789f133b4aa8f9bea807")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
