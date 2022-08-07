@@ -4214,13 +4214,13 @@
 		       (:keywords "calendar" "holidays" "brazilian")
 		       (:url . "https://github.com/jadler/brazilian-holidays"))])
  (brf .
-      [(1 23 1 -4 20220710 2116)
+      [(1 23 1 -4 20220807 1438)
        ((fringe-helper
 	 (0 1 1))
 	(emacs
 	 (24 3)))
        "Brf-mode provides features from the legendary editor Brief" tar
-       ((:commit . "1aaf5b237a2bd550dceff6d76c56e4bf3365ca25")
+       ((:commit . "8f86b980d450e44cd29d24e66c30ff079c6b9982")
 	(:authors
 	 ("Mike Woolley" . "mike@bulsara.com"))
 	(:maintainer "Mike Woolley" . "mike@bulsara.com")
@@ -8562,16 +8562,16 @@
 		       (:keywords "convenience")
 		       (:url . "https://gitlab.com/OlMon/consult-projectile"))])
  (consult-recoll .
-		 [(0 6 1 1 -4 20220806 2209)
+		 [(0 6 1 1 -4 20220807 1957)
 		  ((emacs
 		    (26 1))
 		   (consult
 		    (0 18)))
 		  "Recoll queries using consult" single
-		  ((:commit . "763a1026d0763cf52d7ce338d7d4e0a1eda1ec13")
+		  ((:commit . "7188dbde80221e783cee3d7db036964c923ef823")
 		   (:authors
 		    ("Jose A Ortega Ruiz" . "jao@gnu.org"))
-		   (:maintainer "Jose A Ortega Ruiz")
+		   (:maintainer "Jose A Ortega Ruiz" . "jao@gnu.org")
 		   (:keywords "docs" "convenience")
 		   (:url . "https://codeberg.org/jao/consult-recoll"))])
  (consult-spotify .
@@ -9812,7 +9812,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "5ddbe05d419d48161e5938e8de227d41913312ee"))])
+	       ((:commit . "23023e991ab3aa2b7a304aa53511460c7f1b67b6"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -12108,7 +12108,7 @@
 		(cl-lib
 		 (0 5)))
 	       "an opinionated pack of modern color-themes" tar
-	       ((:commit . "5f96ee83e9734587bf3e8ec61d4f067b43d9c26e")
+	       ((:commit . "aa13e7fc713d458f46f4ab7cce367fd30d801765")
 		(:authors
 		 ("Henrik Lissner" . "contact@henrik.io"))
 		(:maintainer "Henrik Lissner" . "contact@henrik.io")
@@ -12482,11 +12482,11 @@
        (:keywords "convenience" "games")
        (:url . "https://github.com/integral-dw/dw-passphrase-generator"))])
  (dwim-shell-command .
-		     [(0 13 1 -4 20220804 853)
+		     [(0 13 1 -4 20220807 2054)
 		      ((emacs
 			(27 1)))
 		      "Shell commands with DWIM behaviour" tar
-		      ((:commit . "8627205f00f4e2eed9607cf80ba116d1c3efae08")
+		      ((:commit . "ba838da662259f70e3e9af65831f4d5b1324f2a4")
 		       (:authors
 			("Alvaro Ramirez"))
 		       (:maintainer "Alvaro Ramirez")
@@ -16331,7 +16331,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20220807 1535)
+       [(1 15 0 1 -4 20220807 2016)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -16339,7 +16339,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "48c9286a5b1f0e74c8260b29cbc8025681e15094")
+	((:commit . "fdf8a72b6d8525788a651fef135a0eecf647505b")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulation" "vim")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -17138,7 +17138,7 @@
 		     ((evil
 		       (1 15 0)))
 		     "unit test helpers for Evil" single
-		     ((:commit . "48c9286a5b1f0e74c8260b29cbc8025681e15094")
+		     ((:commit . "fdf8a72b6d8525788a651fef135a0eecf647505b")
 		      (:authors
 		       ("Vegard \303\230ye <vegard_oye at hotmail.com>"))
 		      (:maintainer "Vegard \303\230ye <vegard_oye at hotmail.com>"))])
@@ -21467,7 +21467,7 @@
 	 (emacs
 	  (24 2)))
 	"Major mode for the Factor programming language." tar
-	((:commit . "48bd065e19c341ffd853241a51a5faf9fb776de6"))])
+	((:commit . "143874befc5ea949193b17c7978e1d49068d7257"))])
  (fuff .
        [(0 1 1 -4 20170202 1503)
 	((seq
@@ -24529,6 +24529,19 @@
 		(:maintainer nil . "Kata <lightquake@amateurtopologist.com")
 		(:keywords "wp" "languages" "comm")
 		(:url . "https://github.com/lightquake/hamlet-mode"))])
+ (hammy .
+	[(0 1 -1 1 -4 20220806 1517)
+	 ((emacs
+	   (28 1))
+	  (ts
+	   (0 2 2)))
+	 "Programmable, interactive interval timers" single
+	 ((:commit . "0fa5684089ca258a7e0c7ba13f86db3938588cb9")
+	  (:authors
+	   ("Adam Porter" . "adam@alphapapa.net"))
+	  (:maintainer "Adam Porter" . "adam@alphapapa.net")
+	  (:keywords "convenience")
+	  (:url . "https://github.com/alphapapa/hammy.el"))])
  (handle .
 	 [(0 1 1 -4 20191029 856)
 	  ((emacs
@@ -28246,11 +28259,11 @@
 	 (:maintainer "Iku Iwasa" . "iku.iwasa@gmail.com")
 	 (:url . "https://github.com/iquiw/hyai"))])
  (hybrid-reverse-theme .
-		       [(0 1 0 1 -4 20210806 1955)
+		       [(0 1 0 1 -4 20220807 2029)
 			((emacs
 			  (24 1)))
 			"Emacs theme with material color scheme" single
-			((:commit . "cb784a69e60938efe14b48130558f1bb1af92d3c")
+			((:commit . "4b5da51c78b319e16ada6b431bddbacb61d5f2c5")
 			 (:authors
 			  ("Riyyi"))
 			 (:maintainer "Riyyi")
@@ -28340,6 +28353,17 @@
 	       ("Dan LaManna" . "dan.lamanna@gmail.com"))
 	      (:maintainer "Dan LaManna" . "dan.lamanna@gmail.com")
 	      (:keywords "xml" "phi" "i2b2" "deidi2b2"))])
+ (i3bar .
+	[(0 0 1 1 -4 20220731 2336)
+	 ((emacs
+	   (28 1)))
+	 "Display status from an i3status command in the tab bar" single
+	 ((:commit . "1cc9c7c198982fc31f25274c55cde80948720a7f")
+	  (:authors
+	   ("Steven Allen" . "steven@stebalien.com"))
+	  (:maintainer "Steven Allen" . "steven@stebalien.com")
+	  (:keywords "unix")
+	  (:url . "https://github.com/Stebalien/i3bar.el"))])
  (i3wm .
        [(0 5 1 -4 20170822 1438)
 	nil "i3wm integration library" single
@@ -29157,13 +29181,13 @@
 	 (:maintainer "Kevin W. van Rooijen" . "kevin.van.rooijen@attichacker.com")
 	 (:keywords "convenience" "matching" "tools"))])
  (inf-clojure .
-	      [(3 2 1 1 -4 20220723 1536)
+	      [(3 2 1 1 -4 20220807 2113)
 	       ((emacs
 		 (25 1))
 		(clojure-mode
 		 (5 11)))
 	       "Run an external Clojure process in an Emacs buffer" single
-	       ((:commit . "f436760489cd95400b5a5449158161031beac7ba")
+	       ((:commit . "59a9f0695f3d97a593f8d5ea04b51ea5dcb2718a")
 		(:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 		(:keywords "processes" "comint" "clojure")
 		(:url . "http://github.com/clojure-emacs/inf-clojure"))])
@@ -44598,7 +44622,7 @@
 	    ((emacs
 	      (25 1)))
 	    "Completion-at-point function for python debugger" single
-	    ((:commit . "2f4099aa1330f87df4e9cd526de057ee9b71de6c")
+	    ((:commit . "31602ccab53aa7dcf26a1af222c7da2bcc1390ed")
 	     (:authors
 	      ("Andrii Kolomoiets" . "andreyk.mad@gmail.com"))
 	     (:maintainer "Andrii Kolomoiets" . "andreyk.mad@gmail.com")
