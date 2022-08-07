@@ -8181,13 +8181,13 @@
 				     (:keywords "tools")
 				     (:url . "https://github.com/sei40kr/competitive-programming-snippets"))])
  (compiler-explorer .
-		    [(0 1 0 1 -4 20210916 1316)
+		    [(0 1 0 1 -4 20220807 1136)
 		     ((emacs
 		       (26 1))
 		      (request
 		       (0 3 0)))
 		     "Compiler explorer client (godbolt.org)" single
-		     ((:commit . "9ea0cc78ac40f667dfaf9277758a22b9058ca434")
+		     ((:commit . "04da0fd822d7e9eca82c993c99f6318df824b652")
 		      (:authors
 		       ("Micha\305\202 Krzywkowski" . "k.michal@zoho.com"))
 		      (:maintainer "Micha\305\202 Krzywkowski" . "k.michal@zoho.com")
@@ -8346,13 +8346,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 18 1 -4 20220805 1719)
+	  [(0 18 1 -4 20220807 1302)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (28 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "39452ddbcd403f9fe7ad18270f124a8c98896c88")
+	   ((:commit . "e4546edb6f1268c4a13ac3dd1dec8c9b28d7df51")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -11451,13 +11451,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 9 23 1 -4 20220807 922)
+	  [(1 9 23 1 -4 20220807 954)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "3605ab188d52650e7c7349638361d141228128ff")
+	   ((:commit . "b9969e27ab13d1ee6ec05cc892b95df0eeb05383")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -11475,13 +11475,16 @@
 		  (:keywords "mouse")
 		  (:url . "https://github.com/purcell/disable-mouse"))])
  (disaster .
-	   [(0 1 1 -4 20171016 2152)
-	    nil "Disassemble C/C++ code under cursor in Emacs" single
-	    ((:commit . "10a785facc60d89d78e0d5177985ab1af1741bb4")
+	   [(1 0 1 -4 20220807 1136)
+	    ((emacs
+	      (27)))
+	    "Disassemble C, C++ or Fortran code under cursor" single
+	    ((:commit . "92d1bac215ca55b7c3927969c99315d141386653")
 	     (:authors
-	      ("Justine Tunney" . "jtunney@gmail.com"))
+	      ("Justine Tunney" . "jtunney@gmail.com")
+	      ("Abdelhak Bougouffa" . "abougouffa@fedoraproject.org"))
 	     (:maintainer "Justine Tunney" . "jtunney@gmail.com")
-	     (:keywords "tools")
+	     (:keywords "tools" "c")
 	     (:url . "https://github.com/jart/disaster"))])
  (discourse .
 	    [(0 1 1 -4 20160911 819)
@@ -13691,11 +13694,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 1 4 -4 20220730 1643)
+	[(1 1 4 -4 20220807 1244)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "545412826f199cacdd5b4e937a719cc428e479be")
+	 ((:commit . "a9d5607372b0935fb1b84a81bfcbdf60a7bf7ca8")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
