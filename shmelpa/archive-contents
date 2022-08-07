@@ -1112,7 +1112,7 @@
 	      (:keywords "convenience" "languages" "tools")
 	      (:url . "https://github.com/cpitclaudel/alectryon"))])
  (alert .
-	[(1 2 1 -4 20200303 2118)
+	[(1 2 1 -4 20220807 1555)
 	 ((gntp
 	   (0 1))
 	  (log4e
@@ -1120,7 +1120,7 @@
 	  (cl-lib
 	   (0 5)))
 	 "Growl-style notification system for Emacs" single
-	 ((:commit . "7046393272686c7a1a9b3e7f7b1d825d2e5250a6")
+	 ((:commit . "6698801c8ea2804070b9e7fdf39befd1f00384ff")
 	  (:authors
 	   ("John Wiegley" . "jwiegley@gmail.com"))
 	  (:maintainer "John Wiegley" . "jwiegley@gmail.com")
@@ -2053,11 +2053,11 @@
 	(:keywords "convenience")
 	(:url . "https://github.com/ragone/asx"))])
  (async .
-	[(1 9 5 1 -4 20220805 1153)
+	[(1 9 5 1 -4 20220807 1541)
 	 ((emacs
 	   (24 4)))
 	 "Asynchronous processing in Emacs" tar
-	 ((:commit . "5a6c0d5e36d732be266b4b16776457038d67da6e")
+	 ((:commit . "6d164db151c4ab68242662342f71741b8594762f")
 	  (:authors
 	   ("John Wiegley" . "jwiegley@gmail.com"))
 	  (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -3672,22 +3672,22 @@
 	     (:keywords "games" "time" "display")
 	     (:url . "https://github.com/davep/binclock.el"))])
  (bind-chord .
-	     [(0 2 1 -4 20171204 2010)
+	     [(0 2 1 1 -4 20220807 1556)
 	      ((bind-key
 		(1 0))
 	       (key-chord
 		(0 6)))
 	      "key-chord binding helper for use-package-chords" single
-	      ((:commit . "0ad5d9d5d8a61517a207ab04bf69e71c081149eb")
+	      ((:commit . "c1d8da78365886818c24c3934c4fa5ce25c08b5b")
 	       (:authors
 		("Justin Talbott" . "justin@waymondo.com"))
 	       (:maintainer "Justin Talbott" . "justin@waymondo.com")
 	       (:keywords "convenience" "tools" "extensions")
-	       (:url . "https://github.com/waymondo/use-package-chords"))])
+	       (:url . "https://github.com/jwiegley/use-package"))])
  (bind-key .
-	   [(2 4 1 -4 20210210 1609)
+	   [(2 4 1 -4 20220807 1553)
 	    nil "A simple way to manage personal keybindings" single
-	    ((:commit . "0ad5d9d5d8a61517a207ab04bf69e71c081149eb")
+	    ((:commit . "c1d8da78365886818c24c3934c4fa5ce25c08b5b")
 	     (:authors
 	      ("John Wiegley" . "johnw@newartisans.com"))
 	     (:maintainer "John Wiegley" . "johnw@newartisans.com")
@@ -5940,13 +5940,13 @@
 	     (:keywords "languages")
 	     (:url . "https://github.com/ForNeVeR/cil-mode"))])
  (cilk-mode .
-	    [(0 2 1 1 -4 20220805 1411)
+	    [(0 2 1 1 -4 20220807 1629)
 	     ((emacs
 	       (25 1))
 	      (flycheck
 	       (32 -4)))
 	     "Minor mode for Cilk code editing" single
-	     ((:commit . "c583d7b35cd3e366abd43eb08b25c2bd4929c18f")
+	     ((:commit . "d5ba732a5a313a97a96085943cd7840b8e2d9c7c")
 	      (:authors
 	       ("Alexandros-Stavros Iliopoulos <https://github.com/ailiop>"))
 	      (:maintainer "Alexandros-Stavros Iliopoulos" . "1577182+ailiop@users.noreply.github.com")
@@ -8568,7 +8568,7 @@
 		   (consult
 		    (0 18)))
 		  "Recoll queries using consult" single
-		  ((:commit . "c57d3e791349619a62242b7a7faff77cb64e114b")
+		  ((:commit . "763a1026d0763cf52d7ce338d7d4e0a1eda1ec13")
 		   (:authors
 		    ("Jose A Ortega Ruiz" . "jao@gnu.org"))
 		   (:maintainer "Jose A Ortega Ruiz")
@@ -9812,7 +9812,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "db0af9cd99e0ea06f9755c3ec8fe084b53c6ae9f"))])
+	       ((:commit . "5ddbe05d419d48161e5938e8de227d41913312ee"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -16331,7 +16331,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20220806 1425)
+       [(1 15 0 1 -4 20220807 1535)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -16339,7 +16339,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "3045e425e9209808788c1a7b7e00e0814ec6c81b")
+	((:commit . "48c9286a5b1f0e74c8260b29cbc8025681e15094")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulation" "vim")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -17138,7 +17138,7 @@
 		     ((evil
 		       (1 15 0)))
 		     "unit test helpers for Evil" single
-		     ((:commit . "3045e425e9209808788c1a7b7e00e0814ec6c81b")
+		     ((:commit . "48c9286a5b1f0e74c8260b29cbc8025681e15094")
 		      (:authors
 		       ("Vegard \303\230ye <vegard_oye at hotmail.com>"))
 		      (:maintainer "Vegard \303\230ye <vegard_oye at hotmail.com>"))])
@@ -21467,7 +21467,7 @@
 	 (emacs
 	  (24 2)))
 	"Major mode for the Factor programming language." tar
-	((:commit . "ce227d91d83f5214215596e53cd8b4deb4210218"))])
+	((:commit . "48bd065e19c341ffd853241a51a5faf9fb776de6"))])
  (fuff .
        [(0 1 1 -4 20170202 1503)
 	((seq
@@ -22265,9 +22265,9 @@
 	(:keywords "git")
 	(:url . "http://github.com/rejeep/git.el"))])
  (git-annex .
-	    [(1 1 1 -4 20190625 2118)
+	    [(1 1 1 -4 20220807 1542)
 	     nil "Mode for easy editing of git-annex'd files" single
-	     ((:commit . "1324d3f23c534fe79391a2c256bb8803054e383b")
+	     ((:commit . "92f2d97c89980d2cea85850353836c68903514a1")
 	      (:authors
 	       ("John Wiegley" . "jwiegley@gmail.com"))
 	      (:maintainer "John Wiegley" . "jwiegley@gmail.com")
@@ -37969,7 +37969,7 @@
 	((emacs
 	  (27 1)))
 	"companion for Babashka Neil" single
-	((:commit . "8fd4640e1f3baf11860cdf1089c56723855bde5f")
+	((:commit . "886cb5b20520f90445e9779db0aead3e3960e719")
 	 (:authors
 	  ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
 	 (:maintainer "Ag Ibragimov" . "agzam.ibragimov@gmail.com")
@@ -38307,11 +38307,11 @@
 		(:maintainer "Sven Keidel" . "svenkeidel@gmail.com")
 		(:url . "https://github.com/travisbhartwell/nix-emacs"))])
  (nix-update .
-	     [(1 0 1 -4 20190124 1935)
+	     [(1 0 1 -4 20220807 1528)
 	      ((emacs
 		(25)))
 	      "Update \"fetch\" blocks in .nix expressions" single
-	      ((:commit . "fc6c39c2da3fcfa62f4796816c084a6389c8b6e7")
+	      ((:commit . "52329784a0b61ec76e29714f3f88a2660aaf69d4")
 	       (:authors
 		("John Wiegley" . "johnw@newartisans.com"))
 	       (:maintainer "John Wiegley" . "johnw@newartisans.com")
