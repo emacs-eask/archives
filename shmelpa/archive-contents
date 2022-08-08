@@ -34556,13 +34556,13 @@
 	       (:keywords "games" "word games" "anagram")
 	       (:url . "https://github.com/pawelbx/anagram-game"))])
  (macports .
-	   [(0 1 0 1 -4 20220730 1035)
+	   [(0 1 0 1 -4 20220808 41)
 	    ((emacs
 	      (25 1))
 	     (transient
 	      (0 1 0)))
 	    "A porcelain for MacPorts" tar
-	    ((:commit . "f449d3f29077f8a5088f9cbc27f5d70fe87b18fc")
+	    ((:commit . "4e5e80721df474d1a4fa8c8ad4123d6435b8b4ac")
 	     (:authors
 	      ("Aaron Madlon-Kay"))
 	     (:maintainer "Aaron Madlon-Kay")
@@ -39782,6 +39782,29 @@
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		   (:url . "https://codeberg.org/ideasman42/emacs-oblivion-theme"))])
+ (obsidian .
+	   [(1 1 0 1 -4 20220807 2215)
+	    ((emacs
+	      (27 2))
+	     (company
+	      (0 9 13))
+	     (s
+	      (1 12 0))
+	     (dash
+	      (2 13))
+	     (org
+	      (9 5 3))
+	     (markdown-mode
+	      (2 6))
+	     (elgrep
+	      (1 0 0)))
+	    "Obsidian Notes interface" single
+	    ((:commit . "5517a57ad975260a9c05047cad662938e97279f6")
+	     (:authors
+	      ("Mykhaylo Bilyanskyy"))
+	     (:maintainer "Mykhaylo Bilyanskyy")
+	     (:keywords "obsidian" "pkm" "convenience")
+	     (:url . "https://github.com./licht1stein/obsidian.el"))])
  (obsidian-theme .
 		 [(0 1 1 -4 20170719 948)
 		  nil "port of the eclipse obsidian theme" single
@@ -49833,13 +49856,13 @@
 	     (:maintainer "zk_phi")
 	     (:url . "https://github.com/zk-phi/rpn-calc"))])
  (rspec-mode .
-	     [(1 21 1 -4 20220622 909)
+	     [(1 21 1 -4 20220807 2226)
 	      ((ruby-mode
 		(1 0))
 	       (cl-lib
 		(0 4)))
 	      "Enhance ruby-mode for RSpec" tar
-	      ((:commit . "778c76a6a4bd93faf137d5ca47e7823e1665051c")
+	      ((:commit . "f712366ad636622f5b72fa2906c5da10fd266d66")
 	       (:authors
 		("Peter Williams, et al."))
 	       (:maintainer "Peter Williams, et al.")
