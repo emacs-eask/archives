@@ -13972,7 +13972,7 @@
 		   (:maintainer "Korytov Pavel" . "thexcloud@gmail.com")
 		   (:url . "https://github.com/SqrtMinusOne/elfeed-summary.el"))])
  (elfeed-tube .
-	      [(0 10 1 -4 20220703 2128)
+	      [(0 10 1 -4 20220716 1217)
 	       ((emacs
 		 (27 1))
 		(elfeed
@@ -13980,7 +13980,7 @@
 		(aio
 		 (1 0)))
 	       "YouTube integration for Elfeed" tar
-	       ((:commit . "5817c91f5b3b7159965aa73839d2a0a08fd952bd")
+	       ((:commit . "a048950b9dc6d33741ed3224d6d8440fe4408742")
 		(:authors
 		 ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
 		(:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
@@ -13995,7 +13995,7 @@
 		    (mpv
 		     (0 2 0)))
 		   "Control mpv from Elfeed" single
-		   ((:commit . "5817c91f5b3b7159965aa73839d2a0a08fd952bd")
+		   ((:commit . "a048950b9dc6d33741ed3224d6d8440fe4408742")
 		    (:authors
 		     ("Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))
 		    (:maintainer "Karthik Chikmagalur" . "karthikchikmagalur@gmail.com")
@@ -21467,7 +21467,7 @@
 	 (emacs
 	  (24 2)))
 	"Major mode for the Factor programming language." tar
-	((:commit . "ac7e79ae9b625d4c3067ed85cb170714a5425c59"))])
+	((:commit . "d7ea81f5efa741f8e4f97748235631712f702bcd"))])
  (fuff .
        [(0 1 1 -4 20170202 1503)
 	((seq
@@ -24204,11 +24204,11 @@
 	  (:keywords "convenience" "grunt")
 	  (:url . "https://github.com/gempesaw/grunt.el"))])
  (gruvbox-theme .
-		[(1 29 0 1 -4 20220805 204)
+		[(1 29 0 1 -4 20220808 302)
 		 ((autothemer
 		   (0 2)))
 		 "A retro-groove colour theme for Emacs" tar
-		 ((:commit . "5cc7e7354a778d5e9df5ee6850e2fdd8e02851d1")
+		 ((:commit . "9c31dda03e386dbbf7ad206f401528261942fbb3")
 		  (:authors
 		   ("Jason Milkins" . "jasonm23@gmail.com"))
 		  (:maintainer "Jason Milkins" . "jasonm23@gmail.com")
@@ -55713,7 +55713,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "e3a999f37f5231f52762e751c2573585d1000af9")
+	  ((:commit . "68ac4169a6e95bb94540f222cd6b3f9f2ed3f868")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -59070,6 +59070,17 @@
 	     (:maintainer "Elis \"etu\" Hirwing" . "elis@hirwing.se")
 	     (:keywords "convenience" "comm" "paste")
 	     (:url . "https://github.com/etu/webpaste.el"))])
+ (websearch .
+	    [(0 0 0 1 -4 20220807 2219)
+	     ((emacs
+	       (24 4)))
+	     "Query search engines" tar
+	     ((:commit . "f69d26bee3330b59132deecf97b7c17fd1c5f27e")
+	      (:authors
+	       ("Maciej Bar\304\207" . "xgqt@riseup.net"))
+	      (:maintainer "Maciej Bar\304\207" . "xgqt@riseup.net")
+	      (:keywords "convenience" "hypermedia")
+	      (:url . "https://gitlab.com/xgqt/emacs-websearch/"))])
  (websocket .
 	    [(1 13 1 -4 20210110 17)
 	     ((cl-lib
