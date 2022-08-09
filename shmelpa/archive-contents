@@ -3678,16 +3678,16 @@
 	       (key-chord
 		(0 6)))
 	      "key-chord binding helper for use-package-chords" single
-	      ((:commit . "d2fb5eec06808156179832b0bc8412a6780cc131")
+	      ((:commit . "e5f64cc6d9d0df3721b319eeecca1f4f49ea86a3")
 	       (:authors
 		("Justin Talbott" . "justin@waymondo.com"))
 	       (:maintainer "Justin Talbott" . "justin@waymondo.com")
 	       (:keywords "convenience" "tools" "extensions")
 	       (:url . "https://github.com/jwiegley/use-package"))])
  (bind-key .
-	   [(2 4 1 -4 20220807 1553)
+	   [(2 4 1 -4 20220809 42)
 	    nil "A simple way to manage personal keybindings" single
-	    ((:commit . "d2fb5eec06808156179832b0bc8412a6780cc131")
+	    ((:commit . "e5f64cc6d9d0df3721b319eeecca1f4f49ea86a3")
 	     (:authors
 	      ("John Wiegley" . "johnw@newartisans.com"))
 	     (:maintainer "John Wiegley" . "johnw@newartisans.com")
@@ -11451,13 +11451,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 9 23 1 -4 20220808 1239)
+	  [(1 9 23 1 -4 20220808 1857)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "cfb9d9fc296243f4139b8ffd3fb3369812ecab92")
+	   ((:commit . "5f1ab934e55e42938d18508b58e23ef7a4995380")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -14367,11 +14367,11 @@
 		(:keywords "tools")
 		(:url . "http://github.com/redguardtoo/elpa-mirror"))])
  (elpher .
-	 [(3 4 2 1 -4 20220807 2327)
+	 [(3 4 2 1 -4 20220809 253)
 	  ((emacs
 	    (27 1)))
 	  "A friendly gopher and gemini client" tar
-	  ((:commit . "f103164b28ef710f8d49595955725be1e127a018")
+	  ((:commit . "b5269970249871a8889950a3e47bdff51eb0420c")
 	   (:authors
 	    ("Tim Vaughan" . "plugd@thelambdalab.xyz"))
 	   (:maintainer "Tim Vaughan" . "plugd@thelambdalab.xyz")
@@ -38331,11 +38331,11 @@
 		(:maintainer "Sven Keidel" . "svenkeidel@gmail.com")
 		(:url . "https://github.com/travisbhartwell/nix-emacs"))])
  (nix-update .
-	     [(1 0 1 -4 20220807 1528)
+	     [(1 0 1 -4 20220809 412)
 	      ((emacs
 		(25)))
 	      "Update \"fetch\" blocks in .nix expressions" single
-	      ((:commit . "52329784a0b61ec76e29714f3f88a2660aaf69d4")
+	      ((:commit . "1dd1434a2fcc054ad0046cca0563a292e890d59b")
 	       (:authors
 		("John Wiegley" . "johnw@newartisans.com"))
 	       (:maintainer "John Wiegley" . "johnw@newartisans.com")
@@ -41666,13 +41666,13 @@
 		    (:keywords "reading" "outlines")
 		    (:url . "https://gitlab.com/marcowahl/org-pretty-tags"))])
  (org-preview-html .
-		   [(0 3 1 -4 20220718 118)
+		   [(0 3 1 1 -4 20220809 301)
 		    ((emacs
 		      (25 1))
 		     (org
 		      (8 0)))
 		    "Automatically preview org-exported HTML files within Emacs" single
-		    ((:commit . "eb3454c9df8911d13ac25700084d9675d0a5f1b2")
+		    ((:commit . "3032721b3bf887d72a4f6016be639fe137b1e09e")
 		     (:authors
 		      ("Jake B" . "jakebox0@protonmail.com"))
 		     (:maintainer "Jake B" . "jakebox0@protonmail.com")
@@ -47733,7 +47733,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "635f52e6aacc17b0c0a6808b28a1101490101d3f")
+	  ((:commit . "684a1d6aa0a6791e20078bc524f97c8906332390")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -49856,13 +49856,13 @@
 	     (:maintainer "zk_phi")
 	     (:url . "https://github.com/zk-phi/rpn-calc"))])
  (rspec-mode .
-	     [(1 21 1 -4 20220809 46)
+	     [(1 21 1 -4 20220809 150)
 	      ((ruby-mode
 		(1 0))
 	       (cl-lib
 		(0 4)))
 	      "Enhance ruby-mode for RSpec" tar
-	      ((:commit . "6fc421b3ab6477ccef16d26af073488493d50a3b")
+	      ((:commit . "484f0bab468674852aaf3e0ad0c3b3d4335d4316")
 	       (:authors
 		("Peter Williams, et al."))
 	       (:maintainer "Peter Williams, et al.")
@@ -51489,9 +51489,9 @@
 	       (:maintainer "sabof")
 	       (:url . "https://github.com/sabof/shift-text"))])
  (shimbun .
-	  [(0 1 0 1 -4 20220707 40)
+	  [(0 1 0 1 -4 20220809 115)
 	   nil "interfacing with web newspapers" tar
-	   ((:commit . "c8b94ebeab34dcb5f3d26e65b6cbd92de6cd054c")
+	   ((:commit . "a8e2e5c7b7576afd7b097b40c6ca39e5717f97a5")
 	    (:authors
 	     ("TSUCHIYA Masatoshi" . "tsuchiya@namazu.org")
 	     ("Akihiro Arisawa   " . "ari@mbf.sphere.ne.jp")
