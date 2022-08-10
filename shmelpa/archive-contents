@@ -1442,11 +1442,13 @@
 			   (:maintainer "Daniils Petrovs")
 			   (:url . "https://github.com/DaniruKun/ancient-one-dark-emacs-theme"))])
  (android-env .
-	      [(0 1 1 -4 20200722 1403)
+	      [(0 1 1 -4 20220810 1449)
 	       ((emacs
-		 (24 3)))
+		 (24 3))
+		(s
+		 (1 12 0)))
 	       "Helper functions for working in android" single
-	       ((:commit . "5c6a6d9449f300eec4f374a5410edc1cbab02e40")
+	       ((:commit . "d2890f1156ed184314adbfcf01cdceb6ea79b10d")
 		(:authors
 		 ("Fernando Jascovich"))
 		(:maintainer "Fernando Jascovich")
@@ -5852,7 +5854,7 @@
 		(:maintainer "Adam Chy\305\202a" . "adam@chyla.org")
 		(:url . "https://github.com/chyla/ChylaThemeForEmacs"))])
  (cider .
-	[(1 5 0 -4 20220808 1329)
+	[(1 5 0 -4 20220810 1514)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -5868,7 +5870,7 @@
 	  (sesman
 	   (0 3 2)))
 	 "Clojure Interactive Development Environment that Rocks" tar
-	 ((:commit . "8da628ce600066e4de16d21a90d21775bb7255b7")
+	 ((:commit . "68974c9fb6ee6e95a4568c46a9c4371b24d2f0e9")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
 	   ("Phil Hagelberg" . "technomancy@gmail.com")
@@ -6611,7 +6613,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "29115e706aec3007a1b651ceed936e94f69de858"))])
+	      ((:commit . "1493ed10a1485053bb0b7101ccd71d0101977402"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -9810,7 +9812,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "68ce046a823d8d5efc9572ce6510326972da1864"))])
+	       ((:commit . "278d07603e9ae9ce167f489c3c9855cb424cd5e7"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
