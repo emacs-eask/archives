@@ -4973,7 +4973,7 @@
  (capnp-mode .
 	     [(1 0 0 1 -4 20210707 2310)
 	      nil "Major mode for editing Capn' Proto Files" single
-	      ((:commit . "a41bf576b2d4f27696e9366e69072359138612c2")
+	      ((:commit . "931074914eda9ca574b5c24d1169c0f7a5156594")
 	       (:authors
 		("Brian Taylor" . "el.wubo@gmail.com"))
 	       (:maintainer "Brian Taylor" . "el.wubo@gmail.com")
@@ -5021,7 +5021,7 @@
 	       (emacsql-sqlite3
 		(1 0 2)))
 	      "Cardano transaction editor" tar
-	      ((:commit . "c12d602284642206af5dbd36b2eec35763c0e46c")
+	      ((:commit . "5e1bf8b8ffa4c75bece7a93feab9858f0e7d676e")
 	       (:authors
 		("Oscar Najera <https://oscarnajera.com>"))
 	       (:maintainer "Oscar Najera" . "hi@oscarnajera.com")
@@ -5041,7 +5041,7 @@
 		   (cardano-tx
 		    (0 1 0)))
 		  "Interact with cardano wallet" single
-		  ((:commit . "c12d602284642206af5dbd36b2eec35763c0e46c")
+		  ((:commit . "5e1bf8b8ffa4c75bece7a93feab9858f0e7d676e")
 		   (:authors
 		    ("Oscar Najera <https://github.com/titan>"))
 		   (:maintainer "Oscar Najera" . "hi@oscarnajera.com")
@@ -5222,13 +5222,13 @@
 	(:keywords "buffers")
 	(:url . "http://github.com/akermu/cbm.el"))])
  (cbor .
-       [(0 2 1 1 -4 20220802 1008)
+       [(0 2 2 1 -4 20220810 1600)
 	((emacs
 	  (25 1))
 	 (dash
 	  (2 19 0)))
 	"CBOR utilities" single
-	((:commit . "c12d602284642206af5dbd36b2eec35763c0e46c")
+	((:commit . "5e1bf8b8ffa4c75bece7a93feab9858f0e7d676e")
 	 (:authors
 	  ("Oscar Najera <https://oscarnajera.com>"))
 	 (:maintainer "Oscar Najera" . "hi@oscarnajera.com")
@@ -5423,7 +5423,7 @@
  (cfengine-code-style .
 		      [(0 1 0 1 -4 20171115 2108)
 		       nil "C code style for CFEngine project." single
-		       ((:commit . "72e8af1887116a7ee609b1d5f24ecd459388349f")
+		       ((:commit . "9b3588bfe5935c30d9ad9d100af8f05e3890a3f6")
 			(:authors
 			 ("Mikhail Gusarov" . "mikhail.gusarov@cfengine.com"))
 			(:maintainer "Mikhail Gusarov" . "mikhail.gusarov@cfengine.com")
@@ -12213,15 +12213,16 @@
 		 ("Peter S Galbraith" . "psg@debian.org"))
 		(:maintainer "Peter S Galbraith" . "psg@debian.org"))])
  (dr-racket-like-unicode .
-			 [(1 1 1 -4 20200513 1642)
+			 [(1 2 1 -4 20220810 2000)
 			  ((emacs
-			    (24 1)))
+			    (24 3)))
 			  "DrRacket-style unicode input" single
-			  ((:commit . "70bc1caea6b277e49e1cb29e1926a7b0c83c5ebc")
+			  ((:commit . "d09b9be289e91e25c941107be5e8f52e7c8f0065")
 			   (:authors
 			    ("David Christiansen" . "david@davidchristiansen.dk"))
 			   (:maintainer "David Christiansen" . "david@davidchristiansen.dk")
-			   (:keywords "i18n" "tools"))])
+			   (:keywords "i18n" "tools")
+			   (:url . "https://github.com/david-christiansen/dr-racket-like-unicode"))])
  (dracula-theme .
 		[(1 7 0 1 -4 20220804 618)
 		 ((emacs
@@ -12435,7 +12436,7 @@
  (dune .
        [(1 0 1 -4 20220805 1652)
 	nil "Integration with the dune build system" tar
-	((:commit . "03b699f2cb25531fd372848a271597f2130adac4")
+	((:commit . "7e8c1aee7a8e885bb0beb9344071d0a7d1186978")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -16443,7 +16444,7 @@
 			 (:keywords "colemak" "evil")
 			 (:url . "https://github.com/bmallred/evil-colemak-minimal"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20220809 650)
+		  [(0 4 1 1 -4 20220810 1901)
 		   ((emacs
 		     (26 3))
 		    (evil
@@ -16451,7 +16452,7 @@
 		    (annalist
 		     (1 0)))
 		   "A set of keybindings for Evil mode" tar
-		   ((:commit . "c1ede88de9b09f280e4a37c671b6dd540bf1028a")
+		   ((:commit . "665d5c99e216c7b18856f7ceda7c91ea5669f904")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainer "James Nguyen" . "james@jojojames.com")
