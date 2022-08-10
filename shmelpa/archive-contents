@@ -33997,13 +33997,13 @@
 		  (:keywords "convenience" "lsp" "grammarly" "checker")
 		  (:url . "https://github.com/emacs-grammarly/lsp-grammarly"))])
  (lsp-haskell .
-	      [(1 0 1 -4 20220307 2312)
+	      [(1 0 1 -4 20220809 2129)
 	       ((emacs
 		 (24 3))
 		(lsp-mode
 		 (3 0)))
 	       "Haskell support for lsp-mode" single
-	       ((:commit . "daa51072e1718ca075987901fccbbc2357bca1fc")
+	       ((:commit . "485c1148ce4d27030bb95b21c7289809294e7d31")
 		(:keywords "haskell")
 		(:url . "https://github.com/emacs-lsp/lsp-haskell"))])
  (lsp-intellij .
@@ -34290,15 +34290,15 @@
 		 (:keywords "languages")
 		 (:url . "https://github.com/jjlee/lsp-rescript"))])
  (lsp-scheme .
-	     [(0 1 8 1 -4 20220806 1936)
+	     [(0 1 9 1 -4 20220809 2014)
 	      ((emacs
-		(25 1))
+		(26 1))
 	       (f
 		(0 20 0))
 	       (lsp-mode
 		(8 0 0)))
 	      "Scheme support for lsp-mode" tar
-	      ((:commit . "d406c0ab1c7bb9f7ec5a09e25e4e9f3bc0f44737")
+	      ((:commit . "02e56f4c4981bc5497cdd516969206418858a357")
 	       (:authors
 		("Ricardo G. Herdt" . "r.herdt@posteo.de"))
 	       (:maintainer "Ricardo G. Herdt" . "r.herdt@posteo.de")
@@ -40936,7 +40936,7 @@
 	       (:keywords "outlines" "org" "games" "convenience" "api")
 	       (:url . "https://github.com/repelliuss/org-gamedb"))])
  (org-gcal .
-	   [(0 3 1 -4 20220731 2104)
+	   [(0 3 1 -4 20220809 1955)
 	    ((request
 	      (20190901))
 	     (request-deferred
@@ -40950,7 +40950,7 @@
 	     (org
 	      (9 3)))
 	    "Org sync with Google Calendar" tar
-	    ((:commit . "229463ae02f9c0d8ddb510e611b2344ec9a17111")
+	    ((:commit . "40291bec0cd0bf8a2f5db656e4d3077b256092ae")
 	     (:authors
 	      ("myuhe <yuhei.maeda_at_gmail.com>"))
 	     (:maintainer "Raimon Grau" . "raimonster@gmail.com")
@@ -47193,7 +47193,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "08265df19d5fe1174bebce2483e229ddb48a7e05")
+		 ((:commit . "e83492d94a8ce8ef529b829da0df4e458ee05908")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -47733,7 +47733,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "6170086801ce3054e0d020028a5c539de626b757")
+	  ((:commit . "50f369047078810311f11c7d8cc2ad98fad7ea67")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -55713,7 +55713,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "3645fcaedbd4976ac972e4054999f61444b3ee03")
+	  ((:commit . "8d346673d83b8019c1637e8396ed4635d5c2ddb0")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
