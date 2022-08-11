@@ -11396,13 +11396,13 @@
 	     (:keywords "dired" "colors" "extension" "widget")
 	     (:url . "https://github.com/thamer/diredful"))])
  (direnv .
-	 [(2 2 0 1 -4 20220513 656)
+	 [(2 2 0 1 -4 20220811 1349)
 	  ((emacs
 	    (25 1))
 	   (dash
 	    (2 12 0)))
 	  "direnv integration" single
-	  ((:commit . "416ed17efa93503b37eba196a14f967e0899bce4")
+	  ((:commit . "0cbcbcfc12b867779dd19006cf5240dc2ca67ce0")
 	   (:authors
 	    ("wouter bolsterlee" . "wouter@bolsterl.ee"))
 	   (:maintainer "wouter bolsterlee" . "wouter@bolsterl.ee")
@@ -24096,11 +24096,11 @@
 	       (:keywords "tools" "convenience" "search")
 	       (:url . "https://github.com/ZungBang/emacs-grep-a-lot"))])
  (grey-paper-theme .
-		   [(1 0 0 1 -4 20220711 2241)
+		   [(1 0 0 1 -4 20220811 1413)
 		    ((emacs
 		      (24 1)))
 		    "A greyscale theme with look-n-feel of an eink display" single
-		    ((:commit . "10e243316000e85a10b49729745ccd4262d21cda")
+		    ((:commit . "033a4f5b41e62b2a822811390dd586d093520f19")
 		     (:authors
 		      ("Kang-min Liu" . "gugod@gugod.org"))
 		     (:maintainer "Kang-min Liu" . "gugod@gugod.org")
@@ -24821,13 +24821,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 8 7 1 -4 20220807 734)
+       [(3 8 7 1 -4 20220811 1243)
 	((helm-core
 	  (3 8 7))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "1d066466feb786f3477f1e6b3278d6af54666177")
+	((:commit . "9855b843f3b17f00936d84139548718b7d1979c3")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -25280,7 +25280,7 @@
 	      (async
 	       (1 9 4)))
 	     "Development files for Helm" tar
-	     ((:commit . "1d066466feb786f3477f1e6b3278d6af54666177")
+	     ((:commit . "9855b843f3b17f00936d84139548718b7d1979c3")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -37705,11 +37705,11 @@
 	 (:keywords "neo4j" "shell" "comint")
 	 (:url . "https://github.com/tmtxt/n4js.el"))])
  (naga-theme .
-	     [(0 1 1 -4 20220724 2023)
+	     [(0 1 1 -4 20220811 1207)
 	      ((emacs
 		(24 1)))
 	      "Dark color theme with green foreground color" single
-	      ((:commit . "c5ef0baf1d2e95bc613e99700c38a1227cabe187")
+	      ((:commit . "109c63ee8879130a76a9eaf9a4a5086d1e48a652")
 	       (:authors
 		("Johannes Maier" . "johannes.maier@mailbox.org"))
 	       (:maintainer "Johannes Maier" . "johannes.maier@mailbox.org")
@@ -47192,7 +47192,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "ed5c57a574aa24bc49432baced51aa6d01fbf38a")
+		 ((:commit . "d0fb49d994492009a4d868ab01175357810471c4")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -47732,7 +47732,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "00dba439171cff81ff68c9302d40279bf916476c")
+	  ((:commit . "4557c6a54e0d664af0a613a2c2548b180694f0f2")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -53318,11 +53318,11 @@
 		("Milan Zamazal" . "pdm@zamazal.org"))
 	       (:maintainer "Milan Zamazal" . "pdm@zamazal.org"))])
  (speed-type .
-	     [(1 2 1 -4 20220810 1246)
+	     [(1 2 1 -4 20220811 1305)
 	      ((emacs
 		(25 1)))
 	      "Practice touch and speed typing" tar
-	      ((:commit . "52aaaa4af46d4bab4b83e38e1a5205fe40f285db")
+	      ((:commit . "a3540c37cf4d476b67b545a8339c1b4d3dc84ece")
 	       (:authors
 		("Gunther Hagleitner"))
 	       (:maintainer "Daniel Kraus" . "daniel@kraus.my")
@@ -59217,11 +59217,11 @@
 		    (:keywords "git" "commit" "message")
 		    (:url . "http://barbarito.me/"))])
  (which-key .
-	    [(3 6 0 1 -4 20220518 1941)
+	    [(3 6 0 1 -4 20220811 1324)
 	     ((emacs
 	       (24 4)))
 	     "Display available keybindings in popup" single
-	     ((:commit . "1ab1d0cc88843c9a614ed3226c5a1070e32e4823")
+	     ((:commit . "23fc54eb80890b28a72071f72437880c5bfbf94b")
 	      (:authors
 	       ("Justin Burkett" . "justin@burkett.cc"))
 	      (:maintainer "Justin Burkett" . "justin@burkett.cc")
