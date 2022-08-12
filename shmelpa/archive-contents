@@ -11451,13 +11451,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 9 23 1 -4 20220812 1024)
+	  [(1 9 23 1 -4 20220812 1835)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "6eb7a3cd3be0879f3ce3304bf8ba903154798296")
+	   ((:commit . "11d1cecda77ae386e7806ec7e890b942bcb88f9f")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -12073,7 +12073,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(3 3 2 1 -4 20220805 1037)
+		[(3 3 2 1 -4 20220812 1852)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -12081,7 +12081,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "1b7463832f21369377bf0a3d8f402241ad8102cb")
+		 ((:commit . "c743761821b74c54794006b89e0d204b4f7c3d97")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
@@ -13695,11 +13695,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 1 4 -4 20220807 1244)
+	[(1 1 4 -4 20220812 1735)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "a9d5607372b0935fb1b84a81bfcbdf60a7bf7ca8")
+	 ((:commit . "66350f2711938ffebf2076018060da722478d9c1")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
@@ -37994,7 +37994,7 @@
 	((emacs
 	  (27 1)))
 	"companion for Babashka Neil" single
-	((:commit . "836a9b9f23f24f695a010fe529c8592db329228e")
+	((:commit . "5dd72b09439a8785377410d043ff6c80d05fa223")
 	 (:authors
 	  ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
 	 (:maintainer "Ag Ibragimov" . "agzam.ibragimov@gmail.com")
@@ -39784,7 +39784,7 @@
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		   (:url . "https://codeberg.org/ideasman42/emacs-oblivion-theme"))])
  (obsidian .
-	   [(1 1 1 1 -4 20220811 912)
+	   [(1 1 2 1 -4 20220812 2059)
 	    ((emacs
 	      (27 2))
 	     (s
@@ -39796,9 +39796,11 @@
 	     (markdown-mode
 	      (2 6))
 	     (elgrep
-	      (1 0 0)))
+	      (1 0 0))
+	     (yaml
+	      (0 5 1)))
 	    "Obsidian Notes interface" single
-	    ((:commit . "811c97bf3982788b5b7118e22884493c32163e84")
+	    ((:commit . "0952bcbac335a8eebe6f7d40458eb3342474ab42")
 	     (:authors
 	      ("Mykhaylo Bilyanskyy"))
 	     (:maintainer "Mykhaylo Bilyanskyy")
@@ -47192,7 +47194,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "f2385ac6dae4a62139b785bb3dededea07c6cc86")
+		 ((:commit . "caff3c21e6a5b3a59c3678e93939940245f3d564")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -47732,7 +47734,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "9dead651a8f6394ae6c56956cceee4ebc8ad3c58")
+	  ((:commit . "df93f97b70cb87e604a260cdc57f53a407cd87bf")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -53649,11 +53651,11 @@
 	      (:keywords "c" "languages" "tools")
 	      (:url . "https://github.com/tuhdo/semantic-refactor"))])
  (srfi .
-       [(0 3 0 1 -4 20220810 1946)
+       [(0 3 0 1 -4 20220812 2051)
 	((emacs
 	  (25 1)))
 	"Scheme Requests for Implementation browser" tar
-	((:commit . "82644b735bb3839459784efa8b1e1125f5ef1862")
+	((:commit . "a17dabd0c45c4481de48e00ce390f5968d95111d")
 	 (:authors
 	  ("Lassi Kortela" . "lassi@lassi.io"))
 	 (:maintainer "Lassi Kortela" . "lassi@lassi.io")
@@ -54486,11 +54488,11 @@
 			    (:keywords "hook" "utility")
 			    (:url . "https://github.com/10sr/switch-buffer-functions-el"))])
  (switch-window .
-		[(1 6 1 1 -4 20210808 742)
+		[(1 6 1 1 -4 20220812 2137)
 		 ((emacs
 		   (24)))
 		 "A *visual* way to switch window" tar
-		 ((:commit . "8d9fe251d8d38b223d643df975876356ddfc1b98")
+		 ((:commit . "71ef2f54c97f3fd2e7ff7964d82e6562eb6282f7")
 		  (:authors
 		   ("Dimitri Fontaine" . "dim@tapoueh.org")
 		   ("Feng Shu" . "tumashu@163.com"))
@@ -55712,7 +55714,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "6ee637187330ff9d56c9897d9fbea78f02dade9c")
+	  ((:commit . "95ab252a8c7cba0520bf84b0c899adc6c97750fe")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
