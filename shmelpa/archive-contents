@@ -7117,11 +7117,11 @@
 			 (:keywords "snippets")
 			 (:url . "https://github.com/mrkkrp/common-lisp-snippets"))])
  (company .
-	  [(0 9 13 1 -4 20220731 2333)
+	  [(0 9 13 1 -4 20220813 2007)
 	   ((emacs
 	     (25 1)))
 	   "Modular text completion framework" tar
-	   ((:commit . "f1877a370ca76d5cd6614c527635b2d6983188af")
+	   ((:commit . "c8c6748a728f71b32474013f7c239badcffbddce")
 	    (:authors
 	     ("Nikolaj Schumacher"))
 	    (:maintainer "Dmitry Gutov" . "dgutov@yandex.ru")
@@ -8500,6 +8500,23 @@
 		(:maintainer "Gerry Agbobada")
 		(:keywords "tools" "completion" "lsp")
 		(:url . "https://github.com/gagbo/consult-lsp"))])
+ (consult-notes .
+		[(0 2 1 -4 20220808 1312)
+		 ((emacs
+		   (27 1))
+		  (consult
+		   (0 17))
+		  (s
+		   (1 12 0))
+		  (dash
+		   (2 19)))
+		 "Manage notes with consult" tar
+		 ((:commit . "7bca8ad805fa139bcbe24205538216ff6ec0b5f5")
+		  (:authors
+		   ("Colin McLear" . "mclear@fastmail.com"))
+		  (:maintainer "Colin McLear")
+		  (:keywords "convenience")
+		  (:url . "https://github.com/mclear-tools/consult-notes"))])
  (consult-notmuch .
 		  [(0 7 1 -4 20220513 1647)
 		   ((emacs
