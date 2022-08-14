@@ -5868,7 +5868,7 @@
 	  (sesman
 	   (0 3 2)))
 	 "Clojure Interactive Development Environment that Rocks" tar
-	 ((:commit . "68974c9fb6ee6e95a4568c46a9c4371b24d2f0e9")
+	 ((:commit . "f54101f519272bf3f62280730a2f029bc4c6a39b")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
 	   ("Phil Hagelberg" . "technomancy@gmail.com")
@@ -24838,13 +24838,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 8 7 1 -4 20220812 533)
+       [(3 8 7 1 -4 20220814 944)
 	((helm-core
 	  (3 8 7))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "35357ebb37041ab39bc76cec584b7679da8c370e")
+	((:commit . "c88f68de5cfff9925d399fd16e64a5dda31373fe")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -25291,13 +25291,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 8 7 1 -4 20220809 1446)
+	    [(3 8 7 1 -4 20220814 944)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 4)))
 	     "Development files for Helm" tar
-	     ((:commit . "35357ebb37041ab39bc76cec584b7679da8c370e")
+	     ((:commit . "c88f68de5cfff9925d399fd16e64a5dda31373fe")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -32269,16 +32269,17 @@
 		     (:keywords "kubernetes" "convenience")
 		     (:url . "https://github.com/gruggiero/kubernetes-tramp"))])
  (kurecolor .
-	    [(1 3 4 1 -4 20220812 1407)
+	    [(1 3 6 1 -4 20220814 847)
 	     ((emacs
 	       (28 1))
 	      (s
 	       (1 12)))
-	     "color editing goodies" single
-	     ((:commit . "c2633c7cf02dd6d14f561c940885e194507a8990")
+	     "color editing goodies" tar
+	     ((:commit . "ad75b8bc40144322b9d0477368f45c05eada1c5d")
 	      (:authors
 	       ("Jason Milkins" . "jasonm23@gmail.com"))
-	      (:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
+	      (:maintainer "Jason Milkins" . "jasonm23@gmail.com")
+	      (:url . "https://github.com/emacsfodder/kurecolor.el"))])
  (kuronami-theme .
 		 [(1 0 1 1 -4 20220602 339)
 		  ((emacs
