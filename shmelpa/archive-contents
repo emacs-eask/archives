@@ -11468,13 +11468,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 9 23 1 -4 20220814 1533)
+	  [(1 9 23 1 -4 20220814 1659)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "1ea69c3d6324c94f7b6619db4559b6d18ac173fa")
+	   ((:commit . "41e7a4d39735448a67ada161a97ed158b660e3a6")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -13712,11 +13712,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 1 4 -4 20220813 1020)
+	[(1 1 4 -4 20220814 1735)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "cff175a866084c3795abaf83a00fac6e68a10f5b")
+	 ((:commit . "a35e82d9acd09b2243ef01ce9235d39b4a84d115")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
@@ -21485,7 +21485,7 @@
 	 (emacs
 	  (24 2)))
 	"Major mode for the Factor programming language." tar
-	((:commit . "c03f79c73718c20ee2ab995bf67a51867a80ceb3"))])
+	((:commit . "46a70cb9022b0b2f381a218ab2a2ae30774df277"))])
  (fuff .
        [(0 1 1 -4 20170202 1503)
 	((seq
@@ -22379,7 +22379,7 @@
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "1bb0d5a503a01abf754eb49f4074b245aa5023ab")
+	      ((:commit . "124a5ad8d7c078aa851203896493617005aad253")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -27797,6 +27797,16 @@
 	      (:maintainer "Kirill Ignatiev <github.com/ikirill>")
 	      (:keywords "convenience" "faces")
 	      (:url . "https://github.com/ikirill/hl-indent"))])
+ (hl-indent-scope .
+		  [(0 1 1 -4 20220814 1233)
+		   ((emacs
+		     (26 1)))
+		   "Highlight indentation by scope" tar
+		   ((:commit . "7a5115d7d48155db4edb8038b1c1351aa73889bf")
+		    (:authors
+		     ("Campbell Barton" . "ideasman42@gmail.com"))
+		    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
+		    (:url . "https://codeberg.org/ideasman42/emacs-hl-indent-scope-mode"))])
  (hl-prog-extra .
 		[(0 1 1 -4 20220731 2353)
 		 ((emacs
