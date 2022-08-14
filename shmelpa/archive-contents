@@ -21485,7 +21485,7 @@
 	 (emacs
 	  (24 2)))
 	"Major mode for the Factor programming language." tar
-	((:commit . "f16f97ba5905e285d914a9e0dc9291728c6d2c06"))])
+	((:commit . "c03f79c73718c20ee2ab995bf67a51867a80ceb3"))])
  (fuff .
        [(0 1 1 -4 20170202 1503)
 	((seq
@@ -21789,7 +21789,7 @@
 	     (:keywords "evernote" "geeknote" "note" "emacs-evernote" "evernote-mode")
 	     (:url . "http://github.com/avendael/emacs-geeknote"))])
  (geiser .
-	 [(0 24 1 -4 20220812 1501)
+	 [(0 24 1 -4 20220813 2203)
 	  ((emacs
 	    (25 1))
 	   (transient
@@ -21797,7 +21797,7 @@
 	   (project
 	    (0 8 1)))
 	  "GNU Emacs and Scheme talk to each other" tar
-	  ((:commit . "956ec5ff543e9a0fcb3b3ceb339bb1e21c39719e")
+	  ((:commit . "6284841ce075b04eb802d980044860ac0d72b93f")
 	   (:authors
 	    ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
 	   (:maintainer "Jose Antonio Ortega Ruiz" . "jao@gnu.org")
@@ -38011,7 +38011,7 @@
 	((emacs
 	  (27 1)))
 	"companion for Babashka Neil" single
-	((:commit . "3c545b6a6c02b25576f5745cae9d186941e7d90a")
+	((:commit . "e0bc2f15ad1edb3b1cbe0f228e525ab410366144")
 	 (:authors
 	  ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
 	 (:maintainer "Ag Ibragimov" . "agzam.ibragimov@gmail.com")
@@ -43117,6 +43117,22 @@
 		     (:maintainer "Xu Chunyang" . "mail@xuchunyang.me")
 		     (:keywords "tools")
 		     (:url . "https://github.com/xuchunyang/other-emacs-eval"))])
+ (ouroboros .
+	    [(0 1 0 1 -4 20220810 1617)
+	     ((emacs
+	       (27 1))
+	      (dash
+	       (2 19 0))
+	      (cbor
+	       (0 2 2))
+	      (bech32
+	       (0 2 0)))
+	     "Ouroboros network mini-protocol" single
+	     ((:commit . "5e1bf8b8ffa4c75bece7a93feab9858f0e7d676e")
+	      (:authors
+	       ("Oscar Najera <https://oscarnajera.com>"))
+	      (:maintainer "Oscar Najera" . "hi@oscarnajera.com")
+	      (:url . "https://github.com/Titan-C/cardano.el"))])
  (outline-magic .
 		[(0 9 1 1 -4 20180619 1819)
 		 nil "outline mode extensions for Emacs" single
@@ -52259,11 +52275,11 @@
 		    (:maintainer "Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com")
 		    (:keywords "calendar"))])
  (slow-keys .
-	    [(0 1 0 1 -4 20180831 459)
+	    [(0 1 0 1 -4 20220807 1425)
 	     ((emacs
 	       (24 1)))
 	     "Slow keys mode to avoid RSI" single
-	     ((:commit . "b89b4fbddb4b6b95fcc7301ec543ea535b2cc4d7")
+	     ((:commit . "b951ae4bdcea56ced03f227b82b28c3d91d15e61")
 	      (:authors
 	       ("Manuel Uberti" . "manuel.uberti@inventati.org"))
 	      (:maintainer "Manuel Uberti" . "manuel.uberti@inventati.org")
