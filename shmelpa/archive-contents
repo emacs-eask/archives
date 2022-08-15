@@ -21485,7 +21485,7 @@
 	 (emacs
 	  (24 2)))
 	"Major mode for the Factor programming language." tar
-	((:commit . "46a70cb9022b0b2f381a218ab2a2ae30774df277"))])
+	((:commit . "726a8b784b91bb5e5d1ee01af46a6b91cf0ff438"))])
  (fuff .
        [(0 1 1 -4 20170202 1503)
 	((seq
@@ -32285,7 +32285,7 @@
 	      (s
 	       (1 12)))
 	     "color editing goodies" tar
-	     ((:commit . "91609f4e89cf2237df4bb104c32eca2cc694158c")
+	     ((:commit . "5e67ee92355fa36cf7011df79a8b32d950e00e90")
 	      (:authors
 	       ("Jason Milkins" . "jasonm23@gmail.com"))
 	      (:maintainer "Jason Milkins" . "jasonm23@gmail.com")
@@ -33130,6 +33130,17 @@
 		      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
 		      (:keywords "convenience" "license" "api" "template")
 		      (:url . "https://github.com/jcs-elpa/license-templates"))])
+ (ligature .
+	   [(1 0 1 -4 20220808 1225)
+	    ((emacs
+	      (28)))
+	    "Display typographical ligatures in major modes" single
+	    ((:commit . "86fce5ce97db83f616fc6915c6610e0334954211")
+	     (:authors
+	      ("Mickey Petersen" . "mickey@masteringemacs.org"))
+	     (:maintainer "Mickey Petersen" . "mickey@masteringemacs.org")
+	     (:keywords "tools" "faces")
+	     (:url . "https://www.github.com/mickeynp/ligature.el"))])
  (light-soap-theme .
 		   [(0 1 1 -4 20150607 1445)
 		    ((emacs
