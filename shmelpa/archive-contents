@@ -21707,9 +21707,9 @@
 		  (:maintainer "Peter Vasil" . "mail@petervasil.net")
 		  (:keywords "color" "theme"))])
  (gap-mode .
-	   [(2 0 1 1 -4 20220503 1555)
+	   [(2 1 0 1 -4 20220815 2355)
 	    nil "Major mode for editing files in the GAP programing language." tar
-	    ((:commit . "99237f714c28981142674e8cfeb155863c834858")
+	    ((:commit . "afa70e8e396ce15f348612f09146650795fe58f8")
 	     (:authors
 	      ("Michael Smith" . "smith@pell.anu.edu.au")
 	      ("Gary Zablackis")
@@ -22347,7 +22347,7 @@
 	       (:keywords "backup" "files" "tools" "git")
 	       (:url . "http://github.com/antham/git-backup"))])
  (git-backup-ivy .
-		 [(1 1 1 -4 20220412 1914)
+		 [(1 1 1 -4 20220816 30)
 		  ((ivy
 		    (0 12 0))
 		   (git-backup
@@ -22355,7 +22355,7 @@
 		   (emacs
 		    (25 1)))
 		  "An ivy interface to git-backup" single
-		  ((:commit . "c53e1bc800963c0d826226c37c22e36f2353c70d")
+		  ((:commit . "ad6434bcd540de8e3cd9953035680f0a745040d5")
 		   (:authors
 		    ("Sebastian W\303\245linder" . "s.walinder@gmail.com"))
 		   (:maintainer "Sebastian W\303\245linder" . "s.walinder@gmail.com")
@@ -27809,11 +27809,11 @@
 	      (:keywords "convenience" "faces")
 	      (:url . "https://github.com/ikirill/hl-indent"))])
  (hl-indent-scope .
-		  [(0 1 1 -4 20220815 2148)
+		  [(0 1 1 -4 20220815 2235)
 		   ((emacs
 		     (26 1)))
 		   "Highlight indentation by scope" tar
-		   ((:commit . "af9889cae2952ceafef057e073da50296c110d65")
+		   ((:commit . "1adcc08057de9eeea88ba3ed8f2c819a1493a3a2")
 		    (:authors
 		     ("Campbell Barton" . "ideasman42@gmail.com"))
 		    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -36137,7 +36137,7 @@
 	      ((emacs
 		(26 3)))
 	      "An XML-RPC MetaWeblog and WordPress API client." single
-	      ((:commit . "6ee1b59e0a83b6a855f583743287e801cbdc1e09")
+	      ((:commit . "6d99c6b4130b2bc489d9f407ea57149eeb169e4c")
 	       (:authors
 		("Puneeth Chaganti" . "punchagan+org2blog@gmail.com"))
 	       (:maintainer "Grant Rettke" . "grant@wisdomandwonder.com")
@@ -55789,7 +55789,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "65fb0cff633abe2e27242ea275c9248077f4b467")
+	  ((:commit . "5892cf2fe7919cfe573aeac3242c32a96f6a4606")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -56714,7 +56714,7 @@
 	     (cfrs
 	      (1 3 2)))
 	    "A tree style file explorer package" tar
-	    ((:commit . "aa3f4547c3cb32b0b6b25bfab215228d9d848162")
+	    ((:commit . "89ade54c0e96f1c6f6abe5c5373c46c3355c91be")
 	     (:authors
 	      ("Alexander Miller" . "alexanderm@web.de"))
 	     (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -56728,7 +56728,7 @@
 			   (treemacs
 			    (0 0)))
 			  "all-the-icons integration for treemacs" single
-			  ((:commit . "aa3f4547c3cb32b0b6b25bfab215228d9d848162")
+			  ((:commit . "89ade54c0e96f1c6f6abe5c5373c46c3355c91be")
 			   (:authors
 			    ("Eric Dallo" . "ercdll1337@gmail.com"))
 			   (:maintainer "Eric Dallo" . "ercdll1337@gmail.com")
@@ -56742,7 +56742,7 @@
 		  (treemacs
 		   (0 0)))
 		 "Evil mode integration for treemacs" single
-		 ((:commit . "aa3f4547c3cb32b0b6b25bfab215228d9d848162")
+		 ((:commit . "89ade54c0e96f1c6f6abe5c5373c46c3355c91be")
 		  (:authors
 		   ("Alexander Miller" . "alexanderm@web.de"))
 		  (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -56754,7 +56754,7 @@
 			 (emacs
 			  (26 1)))
 			"Treemacs icons for dired" single
-			((:commit . "aa3f4547c3cb32b0b6b25bfab215228d9d848162")
+			((:commit . "89ade54c0e96f1c6f6abe5c5373c46c3355c91be")
 			 (:authors
 			  ("Alexander Miller" . "alexanderm@web.de"))
 			 (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -56770,7 +56770,7 @@
 		   (magit
 		    (2 90 0)))
 		  "Magit integration for treemacs" single
-		  ((:commit . "aa3f4547c3cb32b0b6b25bfab215228d9d848162")
+		  ((:commit . "89ade54c0e96f1c6f6abe5c5373c46c3355c91be")
 		   (:authors
 		    ("Alexander Miller" . "alexanderm@web.de"))
 		   (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -56786,7 +56786,7 @@
 		   (dash
 		    (2 11 0)))
 		  "Persp-mode integration for treemacs" single
-		  ((:commit . "aa3f4547c3cb32b0b6b25bfab215228d9d848162")
+		  ((:commit . "89ade54c0e96f1c6f6abe5c5373c46c3355c91be")
 		   (:authors
 		    ("Alexander Miller" . "alexanderm@web.de"))
 		   (:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -56802,7 +56802,7 @@
 			 (dash
 			  (2 11 0)))
 			"Perspective integration for treemacs" single
-			((:commit . "aa3f4547c3cb32b0b6b25bfab215228d9d848162")
+			((:commit . "89ade54c0e96f1c6f6abe5c5373c46c3355c91be")
 			 (:authors
 			  ("Alexander Miller" . "alexanderm@web.de")
 			  ("Jason Dufair" . "jase@dufair.org"))
@@ -56817,7 +56817,7 @@
 			(treemacs
 			 (0 0)))
 		       "Projectile integration for treemacs" single
-		       ((:commit . "aa3f4547c3cb32b0b6b25bfab215228d9d848162")
+		       ((:commit . "89ade54c0e96f1c6f6abe5c5373c46c3355c91be")
 			(:authors
 			 ("Alexander Miller" . "alexanderm@web.de"))
 			(:maintainer "Alexander Miller" . "alexanderm@web.de")
@@ -56831,7 +56831,7 @@
 		     (dash
 		      (2 11 0)))
 		    "Tab bar integration for treemacs" single
-		    ((:commit . "aa3f4547c3cb32b0b6b25bfab215228d9d848162")
+		    ((:commit . "89ade54c0e96f1c6f6abe5c5373c46c3355c91be")
 		     (:authors
 		      ("Alexander Miller" . "alexanderm@web.de")
 		      ("Jason Dufair" . "jase@dufair.org")
@@ -57143,11 +57143,11 @@
 	  (:maintainer "DEADBLACKCLOVER" . "deadblackclover@protonmail.com")
 	  (:url . "https://github.com/deadblackclover/twtxt-el"))])
  (typescript-mode .
-		  [(0 4 1 -4 20220805 2008)
+		  [(0 4 1 -4 20220815 1954)
 		   ((emacs
 		     (24 3)))
 		   "Major mode for editing typescript" tar
-		   ((:commit . "d1123e0e96da3535a22380e9345249730e756966")
+		   ((:commit . "d79551c67ff5f2bd5f651eb411cdc66ceeb787e3")
 		    (:keywords "typescript" "languages")
 		    (:url . "http://github.com/ananthakumaran/typescript.el"))])
  (typing .
@@ -57755,7 +57755,7 @@
 		(bind-key
 		 (2 4)))
 	       "A configuration macro for simplifying your .emacs" tar
-	       ((:commit . "e5f64cc6d9d0df3721b319eeecca1f4f49ea86a3")
+	       ((:commit . "ec3941537007cba01c2e15022e2dbdf7dde866ec")
 		(:authors
 		 ("John Wiegley" . "johnw@newartisans.com"))
 		(:maintainer "John Wiegley" . "johnw@newartisans.com")
@@ -57772,7 +57772,7 @@
 		       (key-chord
 			(0 6)))
 		      "key-chord keyword for use-package" single
-		      ((:commit . "e5f64cc6d9d0df3721b319eeecca1f4f49ea86a3")
+		      ((:commit . "ec3941537007cba01c2e15022e2dbdf7dde866ec")
 		       (:authors
 			("Justin Talbott" . "justin@waymondo.com"))
 		       (:maintainer "Justin Talbott" . "justin@waymondo.com")
@@ -57796,7 +57796,7 @@
 				      (system-packages
 				       (1 0 4)))
 				     "auto install system packages" single
-				     ((:commit . "e5f64cc6d9d0df3721b319eeecca1f4f49ea86a3")
+				     ((:commit . "ec3941537007cba01c2e15022e2dbdf7dde866ec")
 				      (:authors
 				       ("Justin Talbott" . "justin@waymondo.com"))
 				      (:maintainer "Justin Talbott" . "justin@waymondo.com")
@@ -59156,11 +59156,11 @@
 	     (:keywords "convenience" "comm" "paste")
 	     (:url . "https://github.com/etu/webpaste.el"))])
  (websearch .
-	    [(1 0 0 1 -4 20220815 1332)
+	    [(1 1 0 1 -4 20220815 2237)
 	     ((emacs
 	       (24 4)))
 	     "Query search engines" tar
-	     ((:commit . "df943c1c42a17896529a03207ecc173526303825")
+	     ((:commit . "4904103478aa0aefbbb225182c9a9a58306ea406")
 	      (:authors
 	       ("Maciej Bar\304\207" . "xgqt@riseup.net"))
 	      (:maintainer "Maciej Bar\304\207" . "xgqt@riseup.net")
