@@ -5284,9 +5284,9 @@
 	(:keywords "cdb")
 	(:url . "https://github.com/skk-dev/ddskk"))])
  (cdlatex .
-	  [(4 12 1 -4 20220815 1610)
+	  [(4 12 1 -4 20220816 1400)
 	   nil "Fast input methods for LaTeX environments and math" single
-	   ((:commit . "3ad5ac4c5702a6a97f69a14ad58ca63f9eab2a3a")
+	   ((:commit . "cf1dad9f993f619c987d84181167ff937e576909")
 	    (:authors
 	     ("Carsten Dominik" . "carsten.dominik@gmail.com"))
 	    (:maintainer "Carsten Dominik" . "carsten.dominik@gmail.com")
@@ -5504,7 +5504,7 @@
       ((emacs
 	(26 1)))
       "Major mode for editing Constraint Grammar files" single
-      ((:commit . "2b930905c23f1cd2fcf3ecad558fde5b708ea1a8")
+      ((:commit . "cc34b54b8114f134f207b74b5ae468ddff1d8f6b")
        (:authors
 	("Kevin Brubeck Unhammer" . "unhammer@fsfe.org"))
        (:maintainer "Kevin Brubeck Unhammer" . "unhammer@fsfe.org")
@@ -8350,7 +8350,7 @@
 	    (compat
 	     (28 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "e4546edb6f1268c4a13ac3dd1dec8c9b28d7df51")
+	   ((:commit . "61f13b9d40d2e18d6a08e1d035c2673a5b727ee3")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -10779,7 +10779,7 @@
 	    (emacs
 	     (25 1)))
 	   "Highlight uncommitted changes using VC" tar
-	   ((:commit . "dabb7be6283488abd8d232ea8ce590d502713ed8")
+	   ((:commit . "711f3f3ed9ad6b2362416b4ca1e0e304d42350d2")
 	    (:authors
 	     ("Dmitry Gutov" . "dgutov@yandex.ru"))
 	    (:maintainer "Dmitry Gutov" . "dgutov@yandex.ru")
@@ -15581,7 +15581,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "ac273b7f2ab7235983e7b3f36d1bb97864791631")
+	  ((:commit . "cb59af227029c59729ba858dcf8411c1d8af5d7d")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -16360,7 +16360,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20220812 1203)
+       [(1 15 0 1 -4 20220816 1337)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -16368,7 +16368,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "1d63e750bc8f37aa1b8f0eabe86b598973ab75b1")
+	((:commit . "71332209386e431ae13442f20468b2edb59f727b")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulation" "vim")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -17167,7 +17167,7 @@
 		     ((evil
 		       (1 15 0)))
 		     "unit test helpers for Evil" single
-		     ((:commit . "1d63e750bc8f37aa1b8f0eabe86b598973ab75b1")
+		     ((:commit . "71332209386e431ae13442f20468b2edb59f727b")
 		      (:authors
 		       ("Vegard \303\230ye <vegard_oye at hotmail.com>"))
 		      (:maintainer "Vegard \303\230ye <vegard_oye at hotmail.com>"))])
@@ -30417,19 +30417,6 @@
 	   (:maintainer "wgreenhouse" . "wgreenhouse@tilde.club")
 	   (:keywords "comm")
 	   (:url . "https://codeberg.org/emacs-jabber/emacs-jabber"))])
- (jabber-otr .
-	     [(0 1 1 -4 20150918 1144)
-	      ((emacs
-		(24))
-	       (jabber
-		(0 8 92)))
-	      "Off-The-Record messaging for jabber.el" tar
-	      ((:commit . "2692b1530234e0ba9a0d6c1eaa1cbe8679f193c0")
-	       (:authors
-		("Magnus Henoch" . "magnus.henoch@gmail.com"))
-	       (:maintainer "Magnus Henoch" . "magnus.henoch@gmail.com")
-	       (:keywords "comm")
-	       (:url . "https://github.com/legoscia/emacs-jabber-otr/"))])
  (jack-connect .
 	       [(0 2 1 -4 20220201 1417)
 		nil "Manage jack connections within Emacs" single
