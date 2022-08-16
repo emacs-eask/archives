@@ -1580,7 +1580,7 @@
  (annotation .
 	     [(1 0 1 -4 20200914 644)
 	      nil "Functions for annotating text with faces and help bubbles" single
-	      ((:commit . "6bac7fd97138bcb6747954a86983828ee2e360a0")
+	      ((:commit . "b52180812845647b57ca3cfbd5d03f68d6f8e802")
 	       (:url . "https://github.com/agda/agda"))])
  (annoying-arrows-mode .
 		       [(0 1 0 1 -4 20161024 646)
@@ -6049,7 +6049,7 @@
 		 (:keywords "bib" "extensions")
 		 (:url . "https://github.com/emacs-citar/citar-embark"))])
  (citeproc .
-	   [(0 9 1 -4 20220717 729)
+	   [(0 9 1 -4 20220816 1732)
 	    ((emacs
 	      (26))
 	     (dash
@@ -6067,7 +6067,7 @@
 	     (parsebib
 	      (2 4)))
 	    "A CSL 1.0.2 Citation Processor" tar
-	    ((:commit . "406bd9964f1ce531fc45beddcf9ccc44d3456129")
+	    ((:commit . "36c4ecdc485a2f264297bb60f82c0afe1a1d64d3")
 	     (:authors
 	      ("Andr\303\241s Simonyi" . "andras.simonyi@gmail.com"))
 	     (:maintainer "Andr\303\241s Simonyi" . "andras.simonyi@gmail.com")
@@ -6611,7 +6611,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "9ce5018be9f8ffd2bcfda00b9c1b81d3401e20ba"))])
+	      ((:commit . "5b949bbb9114379120c29134b5effd77e39dd134"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -8583,7 +8583,7 @@
 		   (consult
 		    (0 18)))
 		  "Recoll queries using consult" single
-		  ((:commit . "80f1933d686bdeec09f2adb8cdf491ff849b3e9b")
+		  ((:commit . "527974b7a23141d7070c04923fd0e6cdbdc3b242")
 		   (:authors
 		    ("Jose A Ortega Ruiz" . "jao@gnu.org"))
 		   (:maintainer "Jose A Ortega Ruiz" . "jao@gnu.org")
@@ -9838,7 +9838,7 @@
  (cython-mode .
 	      [(0 1 0 1 -4 20211111 1407)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "a7e8d60afa928831862c1997d3c4bf8c85d6f3b6"))])
+	       ((:commit . "322aaaf412aea8d008fdbff015731d07492d2052"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -10779,7 +10779,7 @@
 	    (emacs
 	     (25 1)))
 	   "Highlight uncommitted changes using VC" tar
-	   ((:commit . "711f3f3ed9ad6b2362416b4ca1e0e304d42350d2")
+	   ((:commit . "283aa2b9df68ed125090d66a0ae664e1fc196b74")
 	    (:authors
 	     ("Dmitry Gutov" . "dgutov@yandex.ru"))
 	    (:maintainer "Dmitry Gutov" . "dgutov@yandex.ru")
@@ -11479,13 +11479,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(1 9 23 1 -4 20220816 1007)
+	  [(1 9 23 1 -4 20220816 1755)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "005774d7438e69e5197299acfbdbc945cbe75b24")
+	   ((:commit . "a7294bceea0d379bb60a8b8c8d9e87b274558497")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -12101,7 +12101,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(3 3 2 1 -4 20220812 1852)
+		[(3 3 2 1 -4 20220816 1627)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -12109,7 +12109,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "c743761821b74c54794006b89e0d204b4f7c3d97")
+		 ((:commit . "c26c26131377895984f9fdc49cc4914f9ee6997c")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
@@ -12464,7 +12464,7 @@
  (dune .
        [(1 0 1 -4 20220805 1652)
 	nil "Integration with the dune build system" tar
-	((:commit . "b3333f533baeb89749bdb509756bc6e19ad78ee8")
+	((:commit . "f7ad29cf6bae73d5ff2bfb3a6f3ea6b07b66fde5")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -13723,11 +13723,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 1 4 -4 20220814 2011)
+	[(1 2 1 -4 20220816 1746)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "f964c59bd28aeb42e60f72d4284dd07b50fbdcfd")
+	 ((:commit . "067134a9bfe6326de258f0af666a53e13a9b4a93")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
@@ -15574,7 +15574,7 @@
  (eri .
       [(1 0 1 -4 20200914 644)
        nil "Enhanced relative indentation (eri)" single
-       ((:commit . "6bac7fd97138bcb6747954a86983828ee2e360a0")
+       ((:commit . "b52180812845647b57ca3cfbd5d03f68d6f8e802")
 	(:url . "https://github.com/agda/agda"))])
  (erlang .
 	 [(2 8 4 1 -4 20220215 1844)
@@ -23805,11 +23805,11 @@
 		     (:keywords "convenience")
 		     (:url . "https://github.com/camdez/goto-last-change.el"))])
  (goto-last-point .
-		  [(0 1 0 1 -4 20190525 1855)
+		  [(0 1 0 1 -4 20220816 153)
 		   ((emacs
 		     (24 3)))
-		   "Record and jump to the last point in the buffer." single
-		   ((:commit . "6218441a0e644c23e247594aece004e80775d307")
+		   "Record and jump to the last point in the buffer" single
+		   ((:commit . "0a006c70719f479bc4e3ae75dd2fc84cbb15f049")
 		    (:authors
 		     ("Manuel Uberti" . "manuel.uberti@inventati.org"))
 		    (:maintainer "Manuel Uberti" . "manuel.uberti@inventati.org")
@@ -26192,11 +26192,11 @@
 		  (:maintainer "Julien BLANCHARD" . "julien@sideburns.eu")
 		  (:url . "https://github.com/julienXX/helm-lobste.rs"))])
  (helm-ls-git .
-	      [(0 1 0 1 -4 20220727 505)
+	      [(0 1 0 1 -4 20220814 1011)
 	       ((helm
 		 (1 7 8)))
 	       "list git files." single
-	       ((:commit . "9d91c25c7d1776d137fd126f241d0272b6e5f90e"))])
+	       ((:commit . "126bb9bce4cc3965cec940f2002f26b88221c3b7"))])
  (helm-ls-hg .
 	     [(0 1 0 1 -4 20150909 543)
 	      ((helm
