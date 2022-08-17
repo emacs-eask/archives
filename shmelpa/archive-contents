@@ -4090,7 +4090,7 @@
 	      (:keywords "boolean" "convenience" "usability")
 	      (:url . "http://github.com/michaeljb/bool-flip/"))])
  (boon .
-       [(2 0 1 -4 20220502 1850)
+       [(2 0 1 -4 20220816 2151)
 	((emacs
 	  (26 1))
 	 (dash
@@ -4100,7 +4100,7 @@
 	 (multiple-cursors
 	  (1 3 0)))
 	"Ergonomic Command Mode for Emacs." tar
-	((:commit . "db7b6083d390e3febf82f9af5782e1a36d30093c"))])
+	((:commit . "225c8b9d979182e7ee27ff2eb33657180971a82c"))])
  (borg .
        [(3 3 1 -4 20220812 1139)
 	((emacs
@@ -8577,13 +8577,13 @@
 		       (:keywords "convenience")
 		       (:url . "https://gitlab.com/OlMon/consult-projectile"))])
  (consult-recoll .
-		 [(0 6 2 1 -4 20220814 1902)
+		 [(0 6 2 1 -4 20220816 1937)
 		  ((emacs
 		    (26 1))
 		   (consult
 		    (0 18)))
 		  "Recoll queries using consult" single
-		  ((:commit . "527974b7a23141d7070c04923fd0e6cdbdc3b242")
+		  ((:commit . "6d71139e4282a13d94f2ad43fc0bd1fff153d18b")
 		   (:authors
 		    ("Jose A Ortega Ruiz" . "jao@gnu.org"))
 		   (:maintainer "Jose A Ortega Ruiz" . "jao@gnu.org")
@@ -12464,7 +12464,7 @@
  (dune .
        [(1 0 1 -4 20220805 1652)
 	nil "Integration with the dune build system" tar
-	((:commit . "f7ad29cf6bae73d5ff2bfb3a6f3ea6b07b66fde5")
+	((:commit . "35921086654964891ab0fc843de95c5331404001")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -14009,7 +14009,7 @@
 		(aio
 		 (1 0)))
 	       "YouTube integration for Elfeed" tar
-	       ((:commit . "b5abbdf0ab196eed9ef7552e5de1c516ef502358")
+	       ((:commit . "7e1409e41628d61d8197ca248d910182ae4fc520")
 		(:authors
 		 ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
 		(:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
@@ -14024,7 +14024,7 @@
 		    (mpv
 		     (0 2 0)))
 		   "Control mpv from Elfeed" single
-		   ((:commit . "b5abbdf0ab196eed9ef7552e5de1c516ef502358")
+		   ((:commit . "7e1409e41628d61d8197ca248d910182ae4fc520")
 		    (:authors
 		     ("Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))
 		    (:maintainer "Karthik Chikmagalur" . "karthikchikmagalur@gmail.com")
@@ -15856,11 +15856,11 @@
 			 (:keywords "eshell" "prompt")
 			 (:url . "https://github.com/zwild/eshell-prompt-extras"))])
  (eshell-syntax-highlighting .
-			     [(0 3 1 -4 20210429 413)
+			     [(0 3 1 -4 20220816 2017)
 			      ((emacs
 				(25 1)))
 			      "Highlight eshell commands" single
-			      ((:commit . "8e3a685fc6d97af79e1046e5b24385786d8e92f6")
+			      ((:commit . "1ba39a9ffb2298cd716a4314cf3f369028c7bafe")
 			       (:authors
 				("Alex Kreisher" . "akreisher18@gmail.com"))
 			       (:maintainer "Alex Kreisher" . "akreisher18@gmail.com")
@@ -16360,7 +16360,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20220816 1337)
+       [(1 15 0 1 -4 20220816 2139)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -16368,7 +16368,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "71332209386e431ae13442f20468b2edb59f727b")
+	((:commit . "b47cb64ceb6d10ecc4a132dce8e3ac0465e1b637")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulation" "vim")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -17167,7 +17167,7 @@
 		     ((evil
 		       (1 15 0)))
 		     "unit test helpers for Evil" single
-		     ((:commit . "71332209386e431ae13442f20468b2edb59f727b")
+		     ((:commit . "b47cb64ceb6d10ecc4a132dce8e3ac0465e1b637")
 		      (:authors
 		       ("Vegard \303\230ye <vegard_oye at hotmail.com>"))
 		      (:maintainer "Vegard \303\230ye <vegard_oye at hotmail.com>"))])
@@ -17603,11 +17603,11 @@
 	       (:keywords "extend" "drag and drop")
 	       (:url . "https://github.com/mlf176f2/extend-dnd"))])
  (external-dict .
-		[(0 1 0 1 -4 20220801 2349)
+		[(0 1 0 1 -4 20220816 2136)
 		 ((emacs
 		   (25 1)))
 		 "Query external dictionary like goldendict, Bob.app etc" single
-		 ((:commit . "aa051548ca850d15f939acfa82b358f756a761f6")
+		 ((:commit . "680c37f01e5205805dffeef05be00e2196886a8c")
 		  (:keywords "wp" "processes")
 		  (:url . "https://repo.or.cz/external-dict.el.git"))])
  (extmap .
@@ -21496,7 +21496,7 @@
 	 (emacs
 	  (24 2)))
 	"Major mode for the Factor programming language." tar
-	((:commit . "726a8b784b91bb5e5d1ee01af46a6b91cf0ff438"))])
+	((:commit . "458848d43c085d649c58f0fbb399c4b6608f892f"))])
  (fuff .
        [(0 1 1 -4 20170202 1503)
 	((seq
@@ -24381,11 +24381,11 @@
 		     (:maintainer "Nicolas Petton" . "nicolas@petton.fr")
 		     (:keywords "convenience" "javascript"))])
  (gumshoe .
-	  [(2 0 1 -4 20220811 257)
+	  [(2 0 1 -4 20220816 2254)
 	   ((emacs
 	     (25 1)))
 	   "Scoped spatial and temporal POINT movement tracking" tar
-	   ((:commit . "68cc9c1654862dfb8aee4c1dd732e752bf202532")
+	   ((:commit . "5e30a68f1cd80c8bdf67c06afa1fe7642decbef7")
 	    (:authors
 	     ("overdr0ne"))
 	    (:maintainer "overdr0ne")
@@ -36196,7 +36196,7 @@
 		   ((emacs
 		     (24 3)))
 		   "mgmt configuration management language" single
-		   ((:commit . "3cea4223657cdbb32fcb0afc54bb736388dfbd5e")
+		   ((:commit . "d547c39a164a7de0c7d2dee800f565313a6c53a6")
 		    (:authors
 		     ("Peter Oliver" . "mgmtconfig@mavit.org.uk"))
 		    (:maintainer "Mgmt contributors <https://github.com/purpleidea/mgmt>")
@@ -38031,7 +38031,7 @@
 	((emacs
 	  (27 1)))
 	"companion for Babashka Neil" single
-	((:commit . "e21bc88cdb0cfcb9e9d3bb4f5d8640885735ca9f")
+	((:commit . "2623227017f0033965486676d81b6631af23c26a")
 	 (:authors
 	  ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
 	 (:maintainer "Ag Ibragimov" . "agzam.ibragimov@gmail.com")
@@ -38369,11 +38369,11 @@
 		(:maintainer "Sven Keidel" . "svenkeidel@gmail.com")
 		(:url . "https://github.com/travisbhartwell/nix-emacs"))])
  (nix-update .
-	     [(1 0 1 -4 20220809 412)
+	     [(1 0 1 -4 20220816 2212)
 	      ((emacs
 		(25)))
 	      "Update \"fetch\" blocks in .nix expressions" single
-	      ((:commit . "1dd1434a2fcc054ad0046cca0563a292e890d59b")
+	      ((:commit . "aab70a38165575a9cb41726f1cc67df60fbf2832")
 	       (:authors
 		("John Wiegley" . "johnw@newartisans.com"))
 	       (:maintainer "John Wiegley" . "johnw@newartisans.com")
@@ -47256,7 +47256,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "2b673bbb57e34fe1bd4570f726fc86b769a3a3d2")
+		 ((:commit . "bc1b31001d197cf3d9064c7a7aa462c740bbafcd")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -53922,9 +53922,9 @@
 		      (:keywords "convenience" "wp")
 		      (:url . "https://gitlab.com/wavexx/stem-reading-mode.el"))])
  (stgit .
-	[(0 17 1 1 -4 20200606 1308)
+	[(0 17 1 1 -4 20220816 2119)
 	 nil "major mode for StGit interaction" single
-	 ((:commit . "4b5e435816ff40d1e03add9ac974b279a4030435")
+	 ((:commit . "7b87a0d91f50253bf26535b6fa645f21dde4e9e6")
 	  (:authors
 	   ("David K\303\245gedal" . "davidk@lysator.liu.se"))
 	  (:maintainer "David K\303\245gedal" . "davidk@lysator.liu.se")
@@ -55776,7 +55776,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "1c7a7a01b9dae92f56b14dae94671a3e1d9089ac")
+	  ((:commit . "9dc6bf5247a49317c976cb264389191221416bf5")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
