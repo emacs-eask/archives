@@ -39609,11 +39609,11 @@
 	     (:keywords "org" "babel" "redis")
 	     (:url . "https://repo.or.cz/ob-redis.git"))])
  (ob-restclient .
-		[(0 2 1 -4 20220618 2139)
+		[(0 2 1 -4 20220819 2228)
 		 ((restclient
 		   (0)))
 		 "org-babel functions for restclient-mode" single
-		 ((:commit . "3ac834b02b8276aae1b760312612c3b940598f90")
+		 ((:commit . "1b021ce1c67c97fa1aa4d2c0816edb7add129e48")
 		  (:authors
 		   ("Alf Lerv\303\245g"))
 		  (:maintainer "Alf Lerv\303\245g")
@@ -42389,7 +42389,7 @@
 			    (:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com")
 			    (:keywords "extensions"))])
  (org-tag-beautify .
-		   [(0 1 0 1 -4 20220723 758)
+		   [(0 1 0 1 -4 20220820 102)
 		    ((emacs
 		      (26 1))
 		     (org-pretty-tags
@@ -42397,7 +42397,7 @@
 		     (all-the-icons
 		      (4 0 0)))
 		    "Beautify Org Mode tags" single
-		    ((:commit . "b9c6ffcc206ffaeafbe6e3ef9561ce6a8e0f30ad")
+		    ((:commit . "28eceb17131a4a5de79ce06f867bce49d1a04b78")
 		     (:keywords "hypermedia")
 		     (:url . "https://repo.or.cz/org-tag-beautify.git"))])
  (org-tanglesync .
@@ -42700,13 +42700,13 @@
 		   (:keywords "convenience")
 		   (:url . "https://github.com/myuhe/org-wunderlist.el"))])
  (org-zettelkasten .
-		   [(0 3 0 1 -4 20220817 1044)
+		   [(0 3 0 1 -4 20220819 2335)
 		    ((emacs
 		      (24 3))
 		     (org
 		      (9 0)))
 		    "Helper functions to use Zettelkasten in org-mode" single
-		    ((:commit . "7278052cb451178a2f1ffc61569156ca0adcc34a")
+		    ((:commit . "505fd41dea012e743962c3a376c1e63e7a1e127e")
 		     (:authors
 		      ("Yann Herklotz" . "yann@ymhg.org"))
 		     (:maintainer "Yann Herklotz" . "yann@ymhg.org")
@@ -46492,6 +46492,17 @@
 	(:maintainer "yukihiro hara" . "yukihr@gmail.com")
 	(:keywords "develop" "web" "pow")
 	(:url . "http://github.com/yukihr/emacs-pow"))])
+ (power-mode .
+	     [(0 1 0 1 -4 20220817 429)
+	      ((emacs
+		(26 1)))
+	      "Imbue Emacs with power!" single
+	      ((:commit . "313698d9c7766c17b077a70b31a2d0f52496d767")
+	       (:authors
+		("Eliza Velasquez"))
+	       (:maintainer "Eliza Velasquez")
+	       (:keywords "games")
+	       (:url . "https://github.com/elizagamedev/power-mode.el"))])
  (powerline .
 	    [(2 5 1 -4 20220122 1904)
 	     ((cl-lib
@@ -55808,7 +55819,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "58e796169a18d054d43af2e102152d8b12c85139")
+	  ((:commit . "43da5b216a6dceab778ecb8566ff25ee35a932cb")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -55883,6 +55894,19 @@
 	 (:maintainer "Ivan Malison" . "IvanMalison@gmail.com")
 	 (:keywords "tile" "tiling" "window" "manager" "dynamic" "frames")
 	 (:url . "https://github.com/IvanMalison/tile"))])
+ (time-block .
+	     [(0 3 0 1 -4 20220817 1343)
+	      ((emacs
+		(25 1))
+	       (ts
+		(0 1)))
+	      "Block running commands using time" single
+	      ((:commit . "4b2fa8a5f76aabeb26a121650d0f843a9b6933d2")
+	       (:authors
+		("Samuel W. Flint" . "swflint@flintfam.org"))
+	       (:maintainer "Samuel W. Flint" . "swflint@flintfam.org")
+	       (:keywords "tools" "productivity" "convenience")
+	       (:url . "https://git.sr.ht/~swflint/time-block"))])
  (time-ext .
 	   [(0 1 0 1 -4 20170126 1215)
 	    nil "more function for time/date" single
@@ -61015,13 +61039,13 @@
 		      (:maintainer "Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com")
 		      (:url . "https://github.com/Vidianos-Giannitsis/zetteldesk-remark.el"))])
  (zettelkasten .
-	       [(0 3 0 1 -4 20210830 1025)
+	       [(0 3 0 1 -4 20220819 2351)
 		((emacs
 		  (25 1))
 		 (s
 		  (1 10 0)))
 		"Helper functions to organise notes in a Zettelkasten style" single
-		((:commit . "7278052cb451178a2f1ffc61569156ca0adcc34a")
+		((:commit . "505fd41dea012e743962c3a376c1e63e7a1e127e")
 		 (:authors
 		  ("Yann Herklotz" . "yann@ymhg.org"))
 		 (:maintainer "Yann Herklotz" . "yann@ymhg.org")
