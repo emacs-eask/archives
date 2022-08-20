@@ -1580,7 +1580,7 @@
  (annotation .
 	     [(1 0 1 -4 20200914 644)
 	      nil "Functions for annotating text with faces and help bubbles" single
-	      ((:commit . "6a80dade37e4746d15cb1197af23d708e6c03cbb")
+	      ((:commit . "9e1e375e4e395bceb5023a6dfaa71f26a4dd9147")
 	       (:url . "https://github.com/agda/agda"))])
  (annoying-arrows-mode .
 		       [(0 1 0 1 -4 20161024 646)
@@ -4443,11 +4443,11 @@
 		(:maintainer "Sid Kasivajhula" . "sid@countvajhula.com")
 		(:url . "https://github.com/countvajhula/buffer-ring"))])
  (buffer-sets .
-	      [(2 5 1 -4 20170718 340)
+	      [(2 6 1 -4 20220820 1611)
 	       ((cl-lib
 		 (0 5)))
 	       "Sets of Buffers for Buffer Management" single
-	       ((:commit . "bc84c2f79a33609cccf3c996101125859b2e26ab")
+	       ((:commit . "57812d611d40062eee69d5dd0cbb8e402f3791fb")
 		(:authors
 		 ("Samuel W. Flint" . "swflint@flintfam.org"))
 		(:maintainer "Samuel W. Flint" . "swflint@flintfam.org")
@@ -4820,6 +4820,17 @@
 		  (:maintainer "Sebastian W\303\245linder" . "s.walinder@gmail.com")
 		  (:keywords "convenience")
 		  (:url . "https://github.com/walseb/calc-at-point"))])
+ (calc-prog-utils .
+		  [(0 1 1 -4 20220820 1855)
+		   ((emacs
+		     (24 1)))
+		   "Calc programmers utilities" single
+		   ((:commit . "190acfda56660a2d75df2d9eac5b14edaccccd80")
+		    (:authors
+		     ("Jesse Millwood"))
+		    (:maintainer "Jesse Millwood")
+		    (:keywords "tools" "convenience")
+		    (:url . "https://github.com/Jesse-Millwood/calc-prog"))])
  (calendar-norway .
 		  [(0 9 5 1 -4 20220211 1129)
 		   nil "Norwegian calendar" single
@@ -12007,7 +12018,7 @@
 		   ((emacs
 		     (24)))
 		   "Major mode for editing Docker's Dockerfiles" single
-		   ((:commit . "5e7096d451380d4b9a53dff2894adbe3590aae9f")
+		   ((:commit . "099bc8dcd744d3c416d52aeddab7b2499a12f2b9")
 		    (:keywords "docker")
 		    (:url . "https://github.com/spotify/dockerfile-mode"))])
  (docopt .
@@ -15599,7 +15610,7 @@
  (eri .
       [(1 0 1 -4 20200914 644)
        nil "Enhanced relative indentation (eri)" single
-       ((:commit . "6a80dade37e4746d15cb1197af23d708e6c03cbb")
+       ((:commit . "9e1e375e4e395bceb5023a6dfaa71f26a4dd9147")
 	(:url . "https://github.com/agda/agda"))])
  (erlang .
 	 [(2 8 4 1 -4 20220215 1844)
@@ -18042,7 +18053,7 @@
 	     (:keywords "languages" "faust")
 	     (:url . "https://bitbucket.org/yphil/faustine"))])
  (fb2-reader .
-	     [(0 1 0 1 -4 20211214 954)
+	     [(0 1 0 1 -4 20220820 1607)
 	      ((emacs
 		(26 2))
 	       (f
@@ -18056,7 +18067,7 @@
 	       (async
 		(1 9 4)))
 	      "Read FB2 and FB2.ZIP documents" single
-	      ((:commit . "9dcc0801a7dd302ee0620781ea17868895d3f082")
+	      ((:commit . "8138cc3b674c911e92d280b97a5fdbbdf6e3182d")
 	       (:authors
 		("Dmitriy Pshonko" . "jumper047@gmail.com"))
 	       (:maintainer "Dmitriy Pshonko" . "jumper047@gmail.com")
@@ -21825,7 +21836,7 @@
 	     (:keywords "evernote" "geeknote" "note" "emacs-evernote" "evernote-mode")
 	     (:url . "http://github.com/avendael/emacs-geeknote"))])
  (geiser .
-	 [(0 24 1 -4 20220813 2203)
+	 [(0 24 1 -4 20220820 1930)
 	  ((emacs
 	    (25 1))
 	   (transient
@@ -21833,7 +21844,7 @@
 	   (project
 	    (0 8 1)))
 	  "GNU Emacs and Scheme talk to each other" tar
-	  ((:commit . "6284841ce075b04eb802d980044860ac0d72b93f")
+	  ((:commit . "ffff3931e104c73a0f332c9e181d11eebd81d816")
 	   (:authors
 	    ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
 	   (:maintainer "Jose Antonio Ortega Ruiz" . "jao@gnu.org")
@@ -22415,7 +22426,7 @@
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "124a5ad8d7c078aa851203896493617005aad253")
+	      ((:commit . "5e1e6d317b2ea27e734b73be6f1904f7578267fd")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -34736,7 +34747,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "124a5ad8d7c078aa851203896493617005aad253")
+	 ((:commit . "5e1e6d317b2ea27e734b73be6f1904f7578267fd")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -34927,7 +34938,7 @@
 		 (magit
 		  (20211004)))
 		"(POC) Teach Magit to use Libgit2." tar
-		((:commit . "124a5ad8d7c078aa851203896493617005aad253")
+		((:commit . "5e1e6d317b2ea27e734b73be6f1904f7578267fd")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -35008,7 +35019,7 @@
 		  (dash
 		   (20210826)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "124a5ad8d7c078aa851203896493617005aad253")
+		 ((:commit . "5e1e6d317b2ea27e734b73be6f1904f7578267fd")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
