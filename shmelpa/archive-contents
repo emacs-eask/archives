@@ -518,7 +518,7 @@
 	     (rtags
 	      (2 10)))
 	    "auto-complete back-end for RTags" single
-	    ((:commit . "b449eb7461e09ca3a839c2d49d22b975be1ad367")
+	    ((:commit . "20316fafb1533041d24d8c662356582f11dd948b")
 	     (:authors
 	      ("Jan Erik Hanssen" . "jhanssen@gmail.com")
 	      ("Anders Bakken" . "agbakken@gmail.com"))
@@ -6048,6 +6048,20 @@
 		 (:maintainer "Bruce D'Arcus" . "bdarcus@gmail.com")
 		 (:keywords "bib" "extensions")
 		 (:url . "https://github.com/emacs-citar/citar-embark"))])
+ (citar-org-roam .
+		 [(0 3 1 -4 20220815 114)
+		  ((emacs
+		    (27 1))
+		   (org-roam
+		    (2 2))
+		   (citar
+		    (1 0)))
+		  "Citar/org-roam integration" single
+		  ((:commit . "4325e648c228269e519c322d696846a6c1f42f99")
+		   (:authors
+		    ("Bruce D'Arcus" . "bdarcus@gmail.com"))
+		   (:maintainer "Bruce D'Arcus" . "bdarcus@gmail.com")
+		   (:url . "https://github.com/emacs-citar/citar-org-roam"))])
  (citeproc .
 	   [(0 9 1 -4 20220816 1732)
 	    ((emacs
@@ -6772,6 +6786,17 @@
 	       (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 	       (:keywords "tools" "development" "search")
 	       (:url . "https://github.com/abingham/emacs-codesearch"))])
+ (codespaces .
+	     [(0 1 1 -4 20220815 1146)
+	      ((emacs
+		(28 1)))
+	      "Connect to GitHub Codespaces via TRAMP" single
+	      ((:commit . "d08f0b2dff808f308cf92c3d70417e525015e97a")
+	       (:authors
+		("Patrick Thomson" . "patrickt@github.com"))
+	       (:maintainer "Patrick Thomson" . "patrickt@github.com")
+	       (:keywords "comm")
+	       (:url . "https://github.com/patrickt/codespaces.el"))])
  (codic .
 	[(0 3 1 -4 20150926 1127)
 	 ((emacs
@@ -7948,7 +7973,7 @@
 		  (rtags
 		   (2 10)))
 		 "RTags back-end for company" single
-		 ((:commit . "b449eb7461e09ca3a839c2d49d22b975be1ad367")
+		 ((:commit . "20316fafb1533041d24d8c662356582f11dd948b")
 		  (:authors
 		   ("Jan Erik Hanssen" . "jhanssen@gmail.com")
 		   ("Anders Bakken" . "agbakken@gmail.com"))
@@ -12464,7 +12489,7 @@
  (dune .
        [(1 0 1 -4 20220805 1652)
 	nil "Integration with the dune build system" tar
-	((:commit . "c460d6c8d96ec05e6e4155f1e12cb5c1a93316bc")
+	((:commit . "69fde058a1a338fc7ff968c2d4dd6790be029284")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -55783,7 +55808,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "a930a1bffb48976bfab604033f329753ce4a956c")
+	  ((:commit . "58e796169a18d054d43af2e102152d8b12c85139")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
