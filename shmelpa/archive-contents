@@ -13030,11 +13030,11 @@
 			    (:maintainer "Thomas Fini Hansen" . "xen@xen.dk")
 			    (:keywords "programming" "php" "drupal"))])
  (edebug-inline-result .
-		       [(0 1 1 -4 20220210 1357)
+		       [(0 1 1 -4 20220820 2240)
 			((emacs
 			  (25 1)))
 			"Show Edebug result inline" single
-			((:commit . "9fb3c48434da24f800833a5ee3419452d5fb83cb")
+			((:commit . "90e401ae3e7b3c85da8b24af940fd97f5e744625")
 			 (:keywords "extensions" "lisp" "tools")
 			 (:url . "https://repo.or.cz/edebug-inline-result.git"))])
  (edebug-x .
@@ -21532,7 +21532,7 @@
 	 (emacs
 	  (24 2)))
 	"Major mode for the Factor programming language." tar
-	((:commit . "07d2b0364b3301eab16a1ccfb050f5b3edddbd91"))])
+	((:commit . "baa7f3b31f3686dd30a70a3a32566c3097068e5d"))])
  (fuff .
        [(0 1 1 -4 20170202 1503)
 	((seq
@@ -22426,7 +22426,7 @@
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "5e1e6d317b2ea27e734b73be6f1904f7578267fd")
+	      ((:commit . "ffbbfa1e2de3673703b32bb1e1246d5086eab33c")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -33918,7 +33918,7 @@
 	     (:keywords "convenience")
 	     (:url . "https://github.com/0x60df/loophole"))])
  (loopy .
-	[(0 10 1 1 -4 20220817 135)
+	[(0 10 1 1 -4 20220820 2037)
 	 ((emacs
 	   (27 1))
 	  (map
@@ -33926,7 +33926,7 @@
 	  (seq
 	   (2 22)))
 	 "A looping macro" tar
-	 ((:commit . "30f6b97633f9182d41558096c552160ca4dd7e10")
+	 ((:commit . "e46ad5e4d9d6bae7c09a984be37d139ba95ff0b6")
 	  (:authors
 	   ("Earl Hyatt"))
 	  (:maintainer "Earl Hyatt")
@@ -33941,7 +33941,7 @@
 	       (dash
 		(2 19)))
 	      "Dash destructuring for `loopy'" single
-	      ((:commit . "30f6b97633f9182d41558096c552160ca4dd7e10")
+	      ((:commit . "e46ad5e4d9d6bae7c09a984be37d139ba95ff0b6")
 	       (:authors
 		("Earl Hyatt"))
 	       (:maintainer "Earl Hyatt")
@@ -34731,7 +34731,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 -4 20220814 1855)
+	[(3 3 0 -4 20220820 1822)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -34747,7 +34747,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "5e1e6d317b2ea27e734b73be6f1904f7578267fd")
+	 ((:commit . "ffbbfa1e2de3673703b32bb1e1246d5086eab33c")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -34938,7 +34938,7 @@
 		 (magit
 		  (20211004)))
 		"(POC) Teach Magit to use Libgit2." tar
-		((:commit . "5e1e6d317b2ea27e734b73be6f1904f7578267fd")
+		((:commit . "ffbbfa1e2de3673703b32bb1e1246d5086eab33c")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -35019,7 +35019,7 @@
 		  (dash
 		   (20210826)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "5e1e6d317b2ea27e734b73be6f1904f7578267fd")
+		 ((:commit . "ffbbfa1e2de3673703b32bb1e1246d5086eab33c")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -47303,7 +47303,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "b39e9b3cff331d84f504699b16ff60d2596d9535")
+		 ((:commit . "701dd83594c5d979481bc36ac58efea670a929ba")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -47843,7 +47843,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "2e2f20890097c59f2d4408b8adf27f1203c67412")
+	  ((:commit . "2fafadc8aca1831c594cafd35a46b691eaa3e357")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -52883,7 +52883,7 @@
 		   (transient
 		    (0 3 0)))
 		  "Major mode for editing Snakemake files" tar
-		  ((:commit . "0dfeaff6079558c39081c2c078c41369da01903b")
+		  ((:commit . "849a74c24597c72818f194cf410087fc7c07f3d1")
 		   (:authors
 		    ("Kyle Meyer" . "kyle@kyleam.com"))
 		   (:maintainer "Kyle Meyer" . "kyle@kyleam.com")
@@ -55830,7 +55830,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "624ef7d655d6327e4b42913d1c4e11341ff40f48")
+	  ((:commit . "08ebdf239a4578f2ab895dd2716cb969f9cfd087")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
