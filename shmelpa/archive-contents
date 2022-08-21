@@ -6323,7 +6323,7 @@
 		 (:maintainer "jpe90" . "eskinjp@gmail.com")
 		 (:url . "https://github.com/jpe90/emacs-deps-new"))])
  (clj-refactor .
-	       [(3 5 5 1 -4 20220729 543)
+	       [(3 5 6 1 -4 20220821 1956)
 		((emacs
 		  (26 1))
 		 (seq
@@ -6345,7 +6345,7 @@
 		 (hydra
 		  (0 13 2)))
 		"A collection of commands for refactoring Clojure code" tar
-		((:commit . "1bd7b09976c05ebd1ff1ee3d5c882af303780b67")
+		((:commit . "cd97626fd952f824564808a2f21b40bfcb59ff0f")
 		 (:authors
 		  ("Magnar Sveen" . "magnars@gmail.com")
 		  ("Lars Andersen" . "expez@expez.com")
@@ -6548,7 +6548,7 @@
 	    (:keywords "clojure" "interaction")
 	    (:url . "https://github.com/clojure-emacs/clomacs"))])
  (closql .
-	 [(0 1 0 1 -4 20220422 1601)
+	 [(0 1 0 1 -4 20220821 1814)
 	  ((emacs
 	    (25 1))
 	   (compat
@@ -6556,7 +6556,7 @@
 	   (emacsql-sqlite
 	    (3 0 0)))
 	  "Store EIEIO objects using EmacSQL" single
-	  ((:commit . "87d2edae8bc3d390bcfc5e909e9c13ff9fce994a")
+	  ((:commit . "46b3020acf6655fd8abb4ef60e090629ee33e8c3")
 	   (:authors
 	    ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -12288,11 +12288,11 @@
 			   (:keywords "i18n" "tools")
 			   (:url . "https://github.com/david-christiansen/dr-racket-like-unicode"))])
  (dracula-theme .
-		[(1 7 0 1 -4 20220804 618)
+		[(1 7 0 1 -4 20220821 1717)
 		 ((emacs
 		   (24 3)))
 		 "Dracula Theme" single
-		 ((:commit . "37b3979b91b06a0520a0d326bc323b4dda280123")
+		 ((:commit . "fdf057f5e80037814098dc8bb67888886c89a761")
 		  (:authors
 		   ("film42"))
 		  (:maintainer "\303\211tienne Deparis" . "etienne@depar.is")
@@ -15281,7 +15281,7 @@
 	  (:keywords "comm" "processes" "terminals" "unix")
 	  (:url . "https://github.com/sean-hut/eping"))])
  (epkg .
-       [(0 1 0 1 -4 20220810 1156)
+       [(0 1 0 1 -4 20220821 1819)
 	((emacs
 	  (25 1))
 	 (compat
@@ -15289,7 +15289,7 @@
 	 (closql
 	  (20210927)))
 	"Browse the Emacsmirror package database" tar
-	((:commit . "824ef024e8c2ee119ba20ddf119936dbdf1e6e64")
+	((:commit . "2ebb5e5f7b69a580b586de1a0d112e3fa03e0813")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -15610,7 +15610,7 @@
  (eri .
       [(1 0 1 -4 20200914 644)
        nil "Enhanced relative indentation (eri)" single
-       ((:commit . "9e1e375e4e395bceb5023a6dfaa71f26a4dd9147")
+       ((:commit . "028bb7b59b2b684eac5479d1351f9d76fd6d75f3")
 	(:url . "https://github.com/agda/agda"))])
  (erlang .
 	 [(2 8 4 1 -4 20220215 1844)
@@ -16396,7 +16396,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20220816 2139)
+       [(1 15 0 1 -4 20220821 1937)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -16404,7 +16404,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "b47cb64ceb6d10ecc4a132dce8e3ac0465e1b637")
+	((:commit . "a58e44f6d67c881a146e233b0689edf329be2e70")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulation" "vim")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -17203,7 +17203,7 @@
 		     ((evil
 		       (1 15 0)))
 		     "unit test helpers for Evil" single
-		     ((:commit . "b47cb64ceb6d10ecc4a132dce8e3ac0465e1b637")
+		     ((:commit . "a58e44f6d67c881a146e233b0689edf329be2e70")
 		      (:authors
 		       ("Vegard \303\230ye <vegard_oye at hotmail.com>"))
 		      (:maintainer "Vegard \303\230ye <vegard_oye at hotmail.com>"))])
@@ -22426,7 +22426,7 @@
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "ffbbfa1e2de3673703b32bb1e1246d5086eab33c")
+	      ((:commit . "712be4632b0ddc7899ca90db8f9be20d90b4326f")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -33918,7 +33918,7 @@
 	     (:keywords "convenience")
 	     (:url . "https://github.com/0x60df/loophole"))])
  (loopy .
-	[(0 10 1 1 -4 20220821 1540)
+	[(0 10 1 1 -4 20220821 1746)
 	 ((emacs
 	   (27 1))
 	  (map
@@ -33926,7 +33926,7 @@
 	  (seq
 	   (2 22)))
 	 "A looping macro" tar
-	 ((:commit . "8da7a9aef3b4eab09660a892245ebf55a986c679")
+	 ((:commit . "bb817524a6cc623e1496fb53c044b738c7dc69ab")
 	  (:authors
 	   ("Earl Hyatt"))
 	  (:maintainer "Earl Hyatt")
@@ -33941,7 +33941,7 @@
 	       (dash
 		(2 19)))
 	      "Dash destructuring for `loopy'" single
-	      ((:commit . "8da7a9aef3b4eab09660a892245ebf55a986c679")
+	      ((:commit . "bb817524a6cc623e1496fb53c044b738c7dc69ab")
 	       (:authors
 		("Earl Hyatt"))
 	       (:maintainer "Earl Hyatt")
@@ -34731,7 +34731,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 -4 20220820 1822)
+	[(3 3 0 -4 20220821 1819)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -34747,7 +34747,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "ffbbfa1e2de3673703b32bb1e1246d5086eab33c")
+	 ((:commit . "712be4632b0ddc7899ca90db8f9be20d90b4326f")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -34938,7 +34938,7 @@
 		 (magit
 		  (20211004)))
 		"(POC) Teach Magit to use Libgit2." tar
-		((:commit . "ffbbfa1e2de3673703b32bb1e1246d5086eab33c")
+		((:commit . "712be4632b0ddc7899ca90db8f9be20d90b4326f")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -35019,7 +35019,7 @@
 		  (dash
 		   (20210826)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "ffbbfa1e2de3673703b32bb1e1246d5086eab33c")
+		 ((:commit . "712be4632b0ddc7899ca90db8f9be20d90b4326f")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -38739,7 +38739,7 @@
  (notmuch .
 	  [(0 1 0 1 -4 20220811 1025)
 	   nil "run notmuch within emacs" tar
-	   ((:commit . "760431c0a3216605d3690e963bb8fa3e3c8788cb")
+	   ((:commit . "c864b59942d510a4f6a1a46db1b8e13b7f40f7ee")
 	    (:url . "https://notmuchmail.org"))])
  (notmuch-addr .
 	       [(0 1 0 1 -4 20220422 1618)
@@ -41430,11 +41430,11 @@
 		    (:keywords "org-mode" "org" "mobile" "sync" "todo")
 		    (:url . "https://framagit.org/steckerhalter/org-mobile-sync"))])
  (org-modern .
-	     [(0 4 1 -4 20220821 1703)
+	     [(0 4 1 -4 20220821 1927)
 	      ((emacs
 		(27 1)))
 	      "Modern looks for Org" single
-	      ((:commit . "0611604e65d69ffe51db83659c917063ec9d5cde")
+	      ((:commit . "23347906b826656c5054b8e35714a1c3d74bdcc4")
 	       (:authors
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
 	       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -47843,7 +47843,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "4e0e78dbd9b86880582be062a4e75834f2e390d2")
+	  ((:commit . "e142ba8247276d25b3ff47e8f9fed06d0cc4753a")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -55830,7 +55830,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "7a4e1d9bcafdab1788b6b664a48d709fa4359c1e")
+	  ((:commit . "68f5082e184055f74433227cef66a539719b9450")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
