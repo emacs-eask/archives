@@ -21834,7 +21834,7 @@
 	     (:keywords "evernote" "geeknote" "note" "emacs-evernote" "evernote-mode")
 	     (:url . "http://github.com/avendael/emacs-geeknote"))])
  (geiser .
-	 [(0 25 1 1 -4 20220823 1618)
+	 [(0 25 1 1 -4 20220824 1716)
 	  ((emacs
 	    (25 1))
 	   (transient
@@ -21842,7 +21842,7 @@
 	   (project
 	    (0 8 1)))
 	  "GNU Emacs and Scheme talk to each other" tar
-	  ((:commit . "c681e2b2e92da2e856835449d7097bbe67394a52")
+	  ((:commit . "2695870666ed0c699f26421963ce69a321ec6016")
 	   (:authors
 	    ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
 	   (:maintainer "Jose Antonio Ortega Ruiz" . "jao@gnu.org")
@@ -24889,7 +24889,7 @@
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "b778e722bd3613792661da527f16f99cfde23794")
+	((:commit . "4e99cc8ef66aac2d824c456f58abe833be26c99d")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -25336,13 +25336,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 8 7 1 -4 20220824 736)
+	    [(3 8 7 1 -4 20220824 1925)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 4)))
 	     "Development files for Helm" tar
-	     ((:commit . "b778e722bd3613792661da527f16f99cfde23794")
+	     ((:commit . "4e99cc8ef66aac2d824c456f58abe833be26c99d")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -32044,7 +32044,7 @@
  (kivy-mode .
 	    [(0 1 0 1 -4 20210318 2106)
 	     nil "Emacs major mode for editing Kivy files" single
-	     ((:commit . "f6d8890cebe9208650a69bc3d6694c54b753e8ff")
+	     ((:commit . "ceb6bdb02eb7abe0abff9d57d1671c242a4cccb0")
 	      (:authors
 	       ("Dean Serenevy" . "dean@serenevy.net"))
 	      (:maintainer "Dean Serenevy" . "dean@serenevy.net"))])
@@ -35767,7 +35767,7 @@
 	   (test-simple
 	    (1 3 0)))
 	  "Major mode for Maxima" tar
-	  ((:commit . "02ca33f2fa3c2fff22e13a07bfe0e65f39f120c2")
+	  ((:commit . "1913ee496bb09430e85f76dfadf8ba4d4f95420f")
 	   (:authors
 	    ("William F. Schelter")
 	    ("Jay Belanger")
@@ -37807,11 +37807,11 @@
 	 (:keywords "neo4j" "shell" "comint")
 	 (:url . "https://github.com/tmtxt/n4js.el"))])
  (naga-theme .
-	     [(0 1 1 -4 20220818 728)
+	     [(0 1 1 -4 20220824 2032)
 	      ((emacs
 		(24 1)))
 	      "Dark color theme with green foreground color" single
-	      ((:commit . "c795a89a9c5a260995b9e5d667e68322bcfaad0e")
+	      ((:commit . "5f22695256f909667ee416d5f26abc1bc809daf9")
 	       (:authors
 		("Johannes Maier" . "johannes.maier@mailbox.org"))
 	       (:maintainer "Johannes Maier" . "johannes.maier@mailbox.org")
@@ -38768,7 +38768,7 @@
  (notmuch .
 	  [(0 1 0 1 -4 20220811 1025)
 	   nil "run notmuch within emacs" tar
-	   ((:commit . "c864b59942d510a4f6a1a46db1b8e13b7f40f7ee")
+	   ((:commit . "76c3147613d0cb624573a5ba1ac7d0a5f81113bc")
 	    (:url . "https://notmuchmail.org"))])
  (notmuch-addr .
 	       [(0 1 0 1 -4 20220422 1618)
@@ -39673,9 +39673,9 @@
 		  (:keywords "literate programming" "reproducible research" "r" "python" "statistics" "languages" "outlines" "processes")
 		  (:url . "https://github.com/jackkamm/ob-reticulate"))])
  (ob-rust .
-	  [(0 0 1 1 -4 20210204 244)
+	  [(0 0 1 1 -4 20220824 1923)
 	   nil "Org-babel functions for Rust" tar
-	   ((:commit . "30fe7e7181f44443d02e905dda77f83ec4944e76")
+	   ((:commit . "be059d231fafeb24a658db212a55ccdc55c0c500")
 	    (:authors
 	     ("Mican Zhang"))
 	    (:maintainer "Mican Zhang")
@@ -42043,7 +42043,7 @@
 		  (:keywords "convenience")
 		  (:url . "https://github.com/waymondo/org-repo-todo"))])
  (org-reverse-datetree .
-		       [(0 3 14 1 -4 20220816 1327)
+		       [(0 3 14 1 -4 20220824 1824)
 			((emacs
 			  (26 1))
 			 (dash
@@ -42051,7 +42051,7 @@
 			 (org
 			  (9 3)))
 			"Create reverse date trees in org-mode" single
-			((:commit . "6971f05eedf56b7fc0f95b0df4ac563fbd0e340f")
+			((:commit . "5794fd8d1aa7bf89abb37f79574118951ad036a6")
 			 (:authors
 			  ("Akira Komamura" . "akira.komamura@gmail.com"))
 			 (:maintainer "Akira Komamura" . "akira.komamura@gmail.com")
@@ -47330,7 +47330,7 @@
  (protobuf-mode .
 		[(0 3 1 -4 20220303 1716)
 		 nil "major mode for editing protocol buffers." single
-		 ((:commit . "6e8a7cdcb0516424d3d686224e17b2700bae7e79")
+		 ((:commit . "cde4f478772edd5e8f0d80255d7d85067ed7c515")
 		  (:authors
 		   ("Alexandre Vassalotti" . "alexandre@peadrop.com"))
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
@@ -55857,7 +55857,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "807a01587bf3648124f1ed7727ca787206a58508")
+	  ((:commit . "a0b09c491aad17bf756b5ece8303b41cba04557f")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
