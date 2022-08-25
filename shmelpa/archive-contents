@@ -962,9 +962,9 @@
        (:keywords "convenience")
        (:url . "https://github.com/takaxp/ah"))])
  (ahg .
-      [(1 0 0 1 -4 20220529 1200)
+      [(1 0 0 1 -4 20220825 1006)
        nil "Alberto's Emacs interface for Mercurial (Hg)" single
-       ((:commit . "d93cc73f79f6c29d533c468112181cd4c7b11935")
+       ((:commit . "0e1bb428e1501155dba3f1cbcd789267263ba264")
 	(:authors
 	 ("Alberto Griggio" . "agriggio@users.sourceforge.net"))
 	(:maintainer "Alberto Griggio" . "agriggio@users.sourceforge.net")
@@ -2066,7 +2066,7 @@
 	  (:keywords "async")
 	  (:url . "https://github.com/jwiegley/emacs-async"))])
  (async-await .
-	      [(1 1 1 -4 20200117 828)
+	      [(1 1 1 -4 20220825 946)
 	       ((emacs
 		 (25 1))
 		(promise
@@ -2074,7 +2074,7 @@
 		(iter2
 		 (0 9 10)))
 	       "Async/Await" single
-	       ((:commit . "deef2bb343463f5196545f1dd8c2a32d0cb3b146")
+	       ((:commit . "46cd65bdac59c85ce54e3bf3ce6ea2849a0331d4")
 		(:authors
 		 ("chuntaro" . "chuntaro@sakura-games.jp"))
 		(:maintainer "chuntaro" . "chuntaro@sakura-games.jp")
@@ -5513,7 +5513,7 @@
       ((emacs
 	(26 1)))
       "Major mode for editing Constraint Grammar files" single
-      ((:commit . "e0c2976d67cf7c36fab0f3dd205cb71fddc7fce5")
+      ((:commit . "86e04b7182b1205769b03281e56d4f2d53e9fee9")
        (:authors
 	("Kevin Brubeck Unhammer" . "unhammer@fsfe.org"))
        (:maintainer "Kevin Brubeck Unhammer" . "unhammer@fsfe.org")
@@ -6491,7 +6491,7 @@
 		((emacs
 		  (25 1)))
 		"Major mode for Clojure code" single
-		((:commit . "905abd0b42b081762c2df14015b5be49b206f53c")
+		((:commit . "52f3e1f981af2adb007ddbf178c9e5625fdc63b6")
 		 (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 		 (:keywords "languages" "clojure" "clojurescript" "lisp")
 		 (:url . "http://github.com/clojure-emacs/clojure-mode"))])
@@ -6500,7 +6500,7 @@
 				   ((clojure-mode
 				     (3 0)))
 				   "Extra font-locking for Clojure mode" single
-				   ((:commit . "905abd0b42b081762c2df14015b5be49b206f53c")
+				   ((:commit . "52f3e1f981af2adb007ddbf178c9e5625fdc63b6")
 				    (:authors
 				     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 				    (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
@@ -7151,11 +7151,11 @@
 			 (:keywords "snippets")
 			 (:url . "https://github.com/mrkkrp/common-lisp-snippets"))])
  (company .
-	  [(0 9 13 1 -4 20220819 1207)
+	  [(0 9 13 1 -4 20220825 1044)
 	   ((emacs
 	     (25 1)))
 	   "Modular text completion framework" tar
-	   ((:commit . "a96295c055a6938458588b9933e5c0a3fcfae1e5")
+	   ((:commit . "35408c0ac3a730908fbce0810f8d159eb353c1d5")
 	    (:authors
 	     ("Nikolaj Schumacher"))
 	    (:maintainer "Dmitry Gutov" . "dgutov@yandex.ru")
@@ -7894,7 +7894,7 @@
 		(:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com")
 		(:keywords "extensions"))])
  (company-quickhelp .
-		    [(2 2 0 1 -4 20211115 1335)
+		    [(2 2 0 1 -4 20220825 1037)
 		     ((emacs
 		       (24 3))
 		      (company
@@ -7902,7 +7902,7 @@
 		      (pos-tip
 		       (0 4 6)))
 		     "Popup documentation for completion candidates" single
-		     ((:commit . "3ca2708b4e5190205aca01d65fe1b391963a53f9")
+		     ((:commit . "6660a1b380b9599af9ef1cc617168db83f24b9b7")
 		      (:authors
 		       ("Lars Andersen" . "expez@expez.com"))
 		      (:maintainer "Lars Andersen" . "expez@expez.com")
@@ -15615,7 +15615,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "c7e5c1cac58cdf7932f73abfcc822de569118cad")
+	  ((:commit . "95fe8c4fcf670d6b2aff8a23cd7dad034d2c9b67")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -26340,11 +26340,11 @@
 	    (:keywords "helm" "multi-term")
 	    (:url . "https://github.com/dfdeshom/helm-mt"))])
  (helm-mu .
-	  [(1 0 0 1 -4 20220825 715)
+	  [(1 0 0 1 -4 20220825 1025)
 	   ((helm
 	     (1 5 5)))
 	   "Helm sources for searching emails and contacts." single
-	   ((:commit . "bf1def8c3e4d565072bb214c10ce6531bd8040a4")
+	   ((:commit . "85714ac9a9db6619035c40f5b5a2cae948561b01")
 	    (:authors
 	     ("Titus von der Malsburg" . "malsburg@posteo.de"))
 	    (:maintainer "Titus von der Malsburg" . "malsburg@posteo.de")
@@ -31353,13 +31353,13 @@
 	       ((:commit . "d411c022b9259d4e31055fc33323f878d07c6b7e")
 		(:url . "https://github.com/gcv/julia-snail"))])
  (julia-vterm .
-	      [(0 19 1 -4 20220825 554)
+	      [(0 20 1 -4 20220825 834)
 	       ((emacs
 		 (25 1))
 		(vterm
 		 (0 0 1)))
 	       "A mode for Julia REPL using vterm" single
-	       ((:commit . "a82419796dbd2faf70b7cb41f484ccf36e6ae5dd")
+	       ((:commit . "738b9eb50b9febbca2bdcd5e880450eec707c1ee")
 		(:authors
 		 ("Shigeaki Nishina"))
 		(:maintainer "Shigeaki Nishina")
@@ -32044,7 +32044,7 @@
  (kivy-mode .
 	    [(0 1 0 1 -4 20210318 2106)
 	     nil "Emacs major mode for editing Kivy files" single
-	     ((:commit . "2d9755ad8a82ba0777299cbc1666bed25278db94")
+	     ((:commit . "9922e1261971d729f4dfa08464c08b84221c9adb")
 	      (:authors
 	       ("Dean Serenevy" . "dean@serenevy.net"))
 	      (:maintainer "Dean Serenevy" . "dean@serenevy.net"))])
@@ -33096,9 +33096,9 @@
 	     (:keywords "languages")
 	     (:url . "https://github.com/liblouis/liblouis-mode"))])
  (libmpdee .
-	   [(2 1 1 -4 20220821 1554)
+	   [(2 2 1 -4 20220825 957)
 	    nil "Client end library for mpd, a music playing daemon" single
-	    ((:commit . "cbc92f7245a80803851c36669b5275868d4cdd17")
+	    ((:commit . "9a84e074385cd085622f94e720a968a0e05ceae5")
 	     (:authors
 	      ("Ramkumar R. Aiyengar" . "andyetitmoves@gmail.com"))
 	     (:maintainer "Ramkumar R. Aiyengar" . "andyetitmoves@gmail.com")
@@ -36358,11 +36358,11 @@
 		(:keywords "game" "fun" "minesweeper" "inane" "diversion")
 		(:url . "https://hg.sr.ht/~zck/minesweeper"))])
  (mingus .
-	 [(0 34 1 -4 20190106 1443)
+	 [(0 34 1 -4 20220825 1103)
 	  ((libmpdee
-	    (2 1)))
+	    (2 2)))
 	  "MPD Interface" tar
-	  ((:commit . "4223be618f57f10f18114a74393a71955b568884")
+	  ((:commit . "aca914bfd81e18a37b2cc91f8ad219719a46c108")
 	   (:authors
 	    ("Niels Giesen <pft on #emacs>"))
 	   (:maintainer "Niels Giesen <pft on #emacs>")
@@ -55857,7 +55857,7 @@
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "1e2c611272f9943c85286275151a4a81ce59e52f")
+	  ((:commit . "35478e765468b97850b8d32be535908f2a89ddc5")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
