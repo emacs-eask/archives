@@ -5513,7 +5513,7 @@
       ((emacs
 	(26 1)))
       "Major mode for editing Constraint Grammar files" single
-      ((:commit . "86e04b7182b1205769b03281e56d4f2d53e9fee9")
+      ((:commit . "47197c66d15af97eee3dbb9455f60c630b842b94")
        (:authors
 	("Kevin Brubeck Unhammer" . "unhammer@fsfe.org"))
        (:maintainer "Kevin Brubeck Unhammer" . "unhammer@fsfe.org")
@@ -6491,7 +6491,7 @@
 		((emacs
 		  (25 1)))
 		"Major mode for Clojure code" single
-		((:commit . "52f3e1f981af2adb007ddbf178c9e5625fdc63b6")
+		((:commit . "0af29f47eb2ea534eb5e293ade9946795f2e2a01")
 		 (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 		 (:keywords "languages" "clojure" "clojurescript" "lisp")
 		 (:url . "http://github.com/clojure-emacs/clojure-mode"))])
@@ -6500,7 +6500,7 @@
 				   ((clojure-mode
 				     (3 0)))
 				   "Extra font-locking for Clojure mode" single
-				   ((:commit . "52f3e1f981af2adb007ddbf178c9e5625fdc63b6")
+				   ((:commit . "0af29f47eb2ea534eb5e293ade9946795f2e2a01")
 				    (:authors
 				     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 				    (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
@@ -6634,7 +6634,7 @@
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" single
-	      ((:commit . "9d1ecd72fb45af722da7668d0c7482b7a0b1876f"))])
+	      ((:commit . "b9698ba3ca18b985e13abbce04a0947c2170461d"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" single
@@ -12111,15 +12111,6 @@
 	     ("Alessandro Piras" . "laynor@gmail.com"))
 	    (:maintainer "Alessandro Piras" . "laynor@gmail.com")
 	    (:keywords "tools" "convenience"))])
- (doneburn-theme .
-		 [(1 0 1 -4 20220720 1218)
-		  nil "A light theme based on Bozhidar Batsov's Zenburn" single
-		  ((:commit . "f2307b883d6b94b741662dcd160fb7ee24588314")
-		   (:authors
-		    ("Manuel Uberti" . "manuel.uberti@inventati.org"))
-		   (:maintainer "Manuel Uberti" . "manuel.uberti@inventati.org")
-		   (:keywords "faces" "themes")
-		   (:url . "http://github.com/manuel-uberti/doneburn-emacs"))])
  (doom .
        [(1 4 1 -4 20180301 2308)
 	((cl-lib
@@ -15615,7 +15606,7 @@
 	  ((emacs
 	    (24 1)))
 	  "Erlang major mode" tar
-	  ((:commit . "95fe8c4fcf670d6b2aff8a23cd7dad034d2c9b67")
+	  ((:commit . "8ffe7bbbc7a5069cb141a05142fe7cafeccbd78e")
 	   (:authors
 	    ("Anders Lindgren"))
 	   (:maintainer "Anders Lindgren")
@@ -31704,8 +31695,8 @@
 	       [(0 0 4 1 -4 20211030 948)
 		((emacs
 		  (27)))
-		"Mode to open Keepass DB" single
-		((:commit . "be190a86fd82337fe5280c1833f92d1f9997bced")
+		"Mode for KeePass DB." tar
+		((:commit . "f432bb60f9f3bd027025140d723906dcabeefaef")
 		 (:authors
 		  ("Ignasi Fosch" . "natx@y10k.ws"))
 		 (:maintainer "Ignasi Fosch" . "natx@y10k.ws")
@@ -32217,7 +32208,7 @@
 	    (:keywords "docs" "help" "k8s" "kubernetes" "tools")
 	    (:url . "https://github.com/r0bobo/kubedoc.el/"))])
  (kubel .
-	[(1 0 1 -4 20220723 1655)
+	[(1 0 1 -4 20220825 1510)
 	 ((transient
 	   (0 1 0))
 	  (emacs
@@ -32229,7 +32220,7 @@
 	  (yaml-mode
 	   (0 0 14)))
 	 "Control Kubernetes with limited permissions" single
-	 ((:commit . "161f8f60cfe7f59cacd38127f7fd21b08c516bc3")
+	 ((:commit . "01cac797e40df2635384f53be55789fdbdb36b4f")
 	  (:authors
 	   ("Adrien Brochard"))
 	  (:maintainer "Adrien Brochard")
@@ -32244,7 +32235,7 @@
 	       (emacs
 		(25 3)))
 	      "extension for kubel to provide evil keybindings" single
-	      ((:commit . "161f8f60cfe7f59cacd38127f7fd21b08c516bc3")
+	      ((:commit . "01cac797e40df2635384f53be55789fdbdb36b4f")
 	       (:authors
 		("Marcel Patzwahl"))
 	       (:maintainer "Marcel Patzwahl")
@@ -47870,7 +47861,7 @@
  (pylint .
 	 [(1 2 1 -4 20210411 1931)
 	  nil "minor mode for running `pylint'" single
-	  ((:commit . "32116ae72cff8cec0d57160c6505a1c6ec43fc7e")
+	  ((:commit . "1582e37982a174bc6be734f317f575b692a2f88f")
 	   (:authors
 	    ("Ian Eure" . "ian.eure@gmail.com"))
 	   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com")
@@ -50306,11 +50297,11 @@
 		  (:maintainer "Rotem Yaari" . "rotemy@MBP.local")
 		  (:keywords "languages"))])
  (rust-mode .
-	    [(1 0 5 1 -4 20220819 1203)
+	    [(1 0 5 1 -4 20220825 1306)
 	     ((emacs
 	       (25 1)))
 	     "A major-mode for editing Rust source code" tar
-	     ((:commit . "894487d44c1664a9005cafd625fa99b54ff66c85")
+	     ((:commit . "2d6bc53f526623e585aae5855a81a13b709df97d")
 	      (:authors
 	       ("Mozilla"))
 	      (:maintainer "Mozilla")
@@ -50352,7 +50343,7 @@
 	   (xterm-color
 	    (1 6)))
 	  "Rust development environment" tar
-	  ((:commit . "e279b7d60fa87b54264a8ba6c05604b8178e0d01")
+	  ((:commit . "a2393aa4d4eb79426a92dcaf75563e3f4450f31b")
 	   (:authors
 	    ("Mozilla"))
 	   (:maintainer "Mozilla")
