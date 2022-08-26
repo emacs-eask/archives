@@ -840,18 +840,18 @@
 	     (:keywords "tools" "languages" "files" "convenience" "stata" "mata" "ado")
 	     (:url . "https://github.com/louabill/ado-mode"))])
  (adoc-mode .
-	    [(0 7 0 -4 20220720 622)
+	    [(0 7 0 -4 20220826 1507)
 	     ((emacs
 	       (26))
 	      (markup-faces
 	       (1 0 0)))
 	     "a major-mode for editing AsciiDoc files in Emacs" single
-	     ((:commit . "4508af782433b5d068a2ff6a65dde40bcd482ce2")
+	     ((:commit . "888a38beb2287f2bde0ce91f4baec9343aaf8eeb")
 	      (:authors
 	       ("Florian Kaufmann" . "sensorflo@gmail.com"))
-	      (:maintainer "Florian Kaufmann" . "sensorflo@gmail.com")
+	      (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 	      (:keywords "asciidoc")
-	      (:url . "https://github.com/emacsorphanage/adoc-mode"))])
+	      (:url . "https://github.com/bbatsov/adoc-mode"))])
  (aes .
       [(1 0 1 -4 20211204 2348)
        ((emacs
@@ -6796,11 +6796,11 @@
 	       (:keywords "tools" "development" "search")
 	       (:url . "https://github.com/abingham/emacs-codesearch"))])
  (codespaces .
-	     [(0 2 1 -4 20220825 2107)
+	     [(0 2 1 -4 20220826 1647)
 	      ((emacs
 		(28 1)))
 	      "Connect to GitHub Codespaces via TRAMP" single
-	      ((:commit . "c9a42e87dc38aedba6646bf2f4b1b4a6571b3b22")
+	      ((:commit . "d15a3c75911f6715e4412bebce6e7f54dde79d37")
 	       (:authors
 		("Patrick Thomson" . "patrickt@github.com"))
 	       (:maintainer "Patrick Thomson" . "patrickt@github.com")
@@ -13748,11 +13748,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 2 2 -4 20220825 1958)
+	[(1 2 2 -4 20220826 1531)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "9b3f351a7234901958d8bc4fc4623268aadb904b")
+	 ((:commit . "f41699dcb7dba5db3eecd8b0e5024e37b90e5e31")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
@@ -14194,7 +14194,7 @@
  (elisp-sandbox .
 		[(0 0 1 1 -4 20131116 1842)
 		 nil "Evaluate EmacsLisp expressions in a sandbox" single
-		 ((:commit . "d894d68934ef09c42f72ac4e1173a0bedc23f139")
+		 ((:commit . "ddd669266ca36d7e4ebba73eb1ab42523787e042")
 		  (:authors
 		   ("Joel McCracken <mccracken.joel@gmail.com>, D. Goel" . "deego@gnufans.org"))
 		  (:maintainer "Joel McCracken <mccracken.joel@gmail.com>, D. Goel" . "deego@gnufans.org")
@@ -17509,13 +17509,13 @@
 	  (:maintainer "Filipe Silva" . "filipe.silva@gmail.com")
 	  (:url . "https://github.com/ninrod/exato"))])
  (exec-path-from-shell .
-		       [(0 1 0 1 -4 20210914 1247)
+		       [(0 1 0 1 -4 20220826 1535)
 			((emacs
 			  (24 1))
 			 (cl-lib
 			  (0 6)))
 			"Get environment variables such as $PATH from the shell" single
-			((:commit . "0a07f5489c66f76249e6207362614b595b80c230")
+			((:commit . "dff9ce3577bf3f2938d9bde8ec8aa4fef3b061f3")
 			 (:authors
 			  ("Steve Purcell" . "steve@sanityinc.com"))
 			 (:maintainer "Steve Purcell" . "steve@sanityinc.com")
@@ -29851,11 +29851,11 @@
 	   (:keywords "itasca" "flac" "3dec" "udec" "flac3d" "pfc" "pfc2d" "pfc3d" "fish")
 	   (:url . "http://github.com/jkfurtney/itasca-emacs/"))])
  (iter2 .
-	[(1 2 1 -4 20220826 1337)
+	[(1 4 -4 20220826 1344)
 	 ((emacs
 	   (25 1)))
 	 "Reimplementation of Elisp generators" single
-	 ((:commit . "8bb03d11ee49e38ac20f3e222bde29027b576423")
+	 ((:commit . "0cfd73224557d3b8282f4f5b24cbbfa4e0120184")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
@@ -53114,13 +53114,13 @@
 	     (:keywords "sonicpi" "ruby")
 	     (:url . "http://www.github.com/repl-electric/sonic-pi.el"))])
  (soothe-theme .
-	       [(2 1 1 1 -4 20220826 1301)
+	       [(2 1 2 1 -4 20220826 1628)
 		((emacs
 		  (24 3))
 		 (autothemer
 		  (0 2)))
 		"A dark colorful theme" tar
-		((:commit . "ba20a7b2f32dd8f7b53db5c72bde82650be35baf")
+		((:commit . "fcb4cf648d4bf45d9e5dd3a2fb7f59f8faf99d19")
 		 (:authors
 		  ("Jason Milkins" . "jasonm23@gmail.com"))
 		 (:maintainer "Jason Milkins" . "jasonm23@gmail.com")
