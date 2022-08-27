@@ -5405,6 +5405,17 @@
 	    (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com")
 	    (:keywords "python" "go" "php" "phpunit" "elisp" "ert" "tests" "tdd")
 	    (:url . "https://github.com/nlamirault/cerbere"))])
+ (cern-ldap .
+	    [(0 0 1 1 -4 20220827 1324)
+	     ((emacs
+	       (27 1)))
+	     "Library to interact with CERN's LDAP servers" single
+	     ((:commit . "66a0d7c1e151382779ec683f6367836cb4e18549")
+	      (:authors
+	       ("Nacho Barrientos" . "nacho.barrientos@cern.ch"))
+	      (:maintainer "Nacho Barrientos" . "nacho.barrientos@cern.ch")
+	      (:keywords "tools" "convenience")
+	      (:url . "https://git.sr.ht/~nbarrientos/cern-ldap.el"))])
  (cern-root-mode .
 		 [(0 1 4 1 -4 20220531 1304)
 		  ((emacs
@@ -16062,11 +16073,11 @@
 		 (:keywords "data")
 		 (:url . "https://github.com/mhayashi1120/Emacs-esqlite"))])
  (ess .
-      [(18 10 3 -4 20220815 2020)
+      [(18 10 3 -4 20220827 2008)
        ((emacs
 	 (25 1)))
        "Emacs Speaks Statistics" tar
-       ((:commit . "9675bf58bd7237e2762e24501ccc5a6b4e031333")
+       ((:commit . "c041ac58a648f2d85dbc7ec39c74adb9381f1dda")
 	(:authors
 	 ("David Smith" . "dsmith@stats.adelaide.edu.au")
 	 ("A.J. Rossini" . "blindglobe@gmail.com")
@@ -29670,6 +29681,19 @@
 	    (:maintainer "Christophe Rhodes" . "csr21@cantab.net")
 	    (:keywords "multimedia" "bbc")
 	    (:url . "https://github.com/csrhodes/iplayer-el"))])
+ (ipp .
+      [(0 7 1 -4 20220827 1612)
+       ((cl-lib
+	 (0 5))
+	(emacs
+	 (24 1)))
+       "Implementation of the Internet Printing Protocol" single
+       ((:commit . "833317fe2bdc92c31768b30016c41d4574dd1554")
+	(:authors
+	 ("Eric Marsden" . "eric.marsden@risk-engineering.org"))
+	(:maintainer "Eric Marsden" . "eric.marsden@risk-engineering.org")
+	(:keywords "printing" "hardware")
+	(:url . "https://github.com/emarsden/ipp-el"))])
  (ipretty .
 	  [(0 1 0 1 -4 20180606 522)
 	   nil "Interactive Emacs Lisp pretty-printing" single
