@@ -19410,15 +19410,15 @@
 		       (:keywords "convenience" "grammar" "check")
 		       (:url . "https://github.com/emacs-grammarly/flycheck-grammarly"))])
  (flycheck-guile .
-		 [(0 1 1 -4 20220826 955)
+		 [(0 1 1 -4 20220831 453)
 		  ((emacs
 		    (25 1))
 		   (flycheck
 		    (0 22))
 		   (geiser
-		    (0 11)))
+		    (0 20)))
 		  "A Flycheck checker for GNU Guile" single
-		  ((:commit . "e3ab25245b14fdb267c41532f8035f8aff329952")
+		  ((:commit . "e58ceb8b511cd395b9be69f4a1ff85305fbb51c3")
 		   (:authors
 		    ("Ricardo Wurmus" . "rekado@elephly.net"))
 		   (:maintainer "Andrew Whatson" . "whatson@gmail.com")
@@ -24894,13 +24894,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 8 7 1 -4 20220827 1154)
+       [(3 8 7 1 -4 20220831 351)
 	((helm-core
 	  (3 8 7))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "1a216854adcea3155b020fff4fbaa97176640198")
+	((:commit . "e86f8addd3c14602313b92f689a532584cb3ee29")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -36207,11 +36207,11 @@
 		    (:keywords "languages" "metascript" "mjs")
 		    (:url . "http://github.com/metascript/metascript-mode"))])
  (metaweblog .
-	     [(1 1 12 1 -4 20220824 148)
+	     [(1 1 13 1 -4 20220826 2241)
 	      ((emacs
-		(27 1)))
+		(28 1)))
 	      "An XML-RPC MetaWeblog and WordPress API client." single
-	      ((:commit . "b641fbcf33ac2b8a0de7b80536b42ce035428625")
+	      ((:commit . "635c0ef0d5a5a12acad4b4aee4c1a89f6c1b997a")
 	       (:authors
 		("Puneeth Chaganti" . "punchagan+org2blog@gmail.com"))
 	       (:maintainer "Grant Rettke" . "grant@wisdomandwonder.com")
@@ -38435,7 +38435,7 @@
 		     (:keywords "nix" "haskell" "languages" "processes")
 		     (:url . "https://github.com/matthewbauer/nix-haskell"))])
  (nix-mode .
-	   [(1 4 5 1 -4 20220719 505)
+	   [(1 4 5 1 -4 20220831 402)
 	    ((emacs
 	      (25 1))
 	     (magit-section
@@ -38443,7 +38443,7 @@
 	     (transient
 	      (0 3)))
 	    "Major mode for editing .nix files" tar
-	    ((:commit . "e22819a73bf4e2b71166992a0af2f555036cf634")
+	    ((:commit . "34d51e2731408b5b615f785a83faa3d6dc2a92a1")
 	     (:maintainer "Matthew Bauer" . "mjbauer95@gmail.com")
 	     (:keywords "nix" "languages" "tools" "unix")
 	     (:url . "https://github.com/NixOS/nix-mode"))])
@@ -39544,7 +39544,7 @@
 	       (:keywords "literate programming" "reproducible research")
 	       (:url . "http://www.gregsexton.org"))])
  (ob-julia-vterm .
-		 [(0 2 5 1 -4 20220708 2223)
+		 [(0 2 6 1 -4 20220831 540)
 		  ((emacs
 		    (26 1))
 		   (julia-vterm
@@ -39552,7 +39552,7 @@
 		   (queue
 		    (0 2)))
 		  "Babel Functions for Julia in VTerm" single
-		  ((:commit . "e1be8bb074928d628f99402e9c7643bb2bb1dedb")
+		  ((:commit . "354de54a4e155f6165507f9427043014ae476ca8")
 		   (:authors
 		    ("Shigeaki Nishina"))
 		   (:maintainer "Shigeaki Nishina")
@@ -42799,17 +42799,17 @@
 		     (:keywords "files" "hypermedia" "org" "notes")
 		     (:url . "https://github.com/ymherklotz/emacs-zettelkasten"))])
  (org2blog .
-	   [(1 1 12 1 -4 20220824 148)
+	   [(1 1 13 1 -4 20220831 558)
 	    ((htmlize
-	      (1 54))
+	      (1 56))
 	     (hydra
 	      (0 15 0))
 	     (xml-rpc
-	      (1 6 12))
+	      (1 6 15))
 	     (metaweblog
-	      (1 1 12)))
+	      (1 1 13)))
 	    "Blog from Org mode to WordPress" tar
-	    ((:commit . "b641fbcf33ac2b8a0de7b80536b42ce035428625")
+	    ((:commit . "65db95d6f866c140fbc6629419be8f41f40f03b3")
 	     (:authors
 	      ("Puneeth Chaganti" . "punchagan+org2blog@gmail.com"))
 	     (:maintainer "Grant Rettke" . "grant@wisdomandwonder.com")
