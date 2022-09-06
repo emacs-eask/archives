@@ -668,11 +668,11 @@
 		 (:keywords "convenience" "tools" "extensions")
 		 (:url . "https://github.com/waymondo/ace-jump-zap"))])
  (ace-link .
-	   [(0 5 0 1 -4 20210121 923)
+	   [(0 5 0 1 -4 20220901 1710)
 	    ((avy
 	      (0 4 0)))
 	    "Quickly follow links" single
-	    ((:commit . "e1b1c91b280d85fce2194fea861a9ae29e8b03dd")
+	    ((:commit . "06ab398df85e81d1dc763b3210732dd26cba60a1")
 	     (:authors
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
@@ -720,11 +720,11 @@
 		   (:keywords "convenience" "popup" "menu")
 		   (:url . "https://github.com/mrkkrp/ace-popup-menu"))])
  (ace-window .
-	     [(0 10 0 1 -4 20200606 1259)
+	     [(0 10 0 1 -4 20220906 1805)
 	      ((avy
 		(0 5 0)))
-	      "Quickly switch windows." single
-	      ((:commit . "c7cb315c14e36fded5ac4096e158497ae974bec9")
+	      "Quickly switch windows." tar
+	      ((:commit . "e3e6ec105ae8d18208f7a56fc1b068dd1427f1d4")
 	       (:authors
 		("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	       (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
@@ -14905,7 +14905,7 @@
 	       (:keywords "convenience")
 	       (:url . "https://github.com/smihica/emmet-mode"))])
  (emms .
-       [(11 1 -4 20220714 1758)
+       [(11 1 -4 20220906 1828)
 	((cl-lib
 	  (0 5))
 	 (nadvice
@@ -14913,7 +14913,7 @@
 	 (seq
 	  (0)))
 	"The Emacs Multimedia System" tar
-	((:commit . "061b36c5627706b2a7e4a636ed9644bb68e800bb")
+	((:commit . "cefc049d880434ced706083f933eeabf20804799")
 	 (:authors
 	  ("Jorgen Sch\303\244fer" . "forcer@forcix.cx"))
 	 (:maintainer "Yoni Rabkin" . "yrk@gnu.org")
@@ -21024,11 +21024,11 @@
 	      (:keywords "data" "font" "rasterization" "ttf" "otf")
 	      (:url . "https://github.com/jollm/fontsloth"))])
  (for .
-      [(1 0 2 1 -4 20220906 1226)
+      [(1 0 2 1 -4 20220906 1850)
        ((emacs
 	 (28 1)))
        "Iteration and sequence" tar
-       ((:commit . "94dbfe7a2fbef46372b99ce8207ff129f2482425")
+       ((:commit . "ef4a4f2e3762eca65552428ca56db4d49f0db4e2")
 	(:authors
 	 ("Wing Hei Chan" . "whmunkchan@outlook.com"))
 	(:maintainer "Wing Hei Chan" . "whmunkchan@outlook.com")
@@ -24894,13 +24894,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 8 7 1 -4 20220906 1543)
+       [(3 8 7 1 -4 20220906 1641)
 	((helm-core
 	  (3 8 7))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "267dec7ccf2bdd59bd3b866621653ded3253048b")
+	((:commit . "d1493b434176dc03d136567a995329a022672698")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -32260,7 +32260,7 @@
 	    (:keywords "docs" "help" "k8s" "kubernetes" "tools")
 	    (:url . "https://github.com/r0bobo/kubedoc.el/"))])
  (kubel .
-	[(1 0 1 -4 20220827 1345)
+	[(1 0 1 -4 20220906 1907)
 	 ((transient
 	   (0 1 0))
 	  (emacs
@@ -32272,7 +32272,7 @@
 	  (yaml-mode
 	   (0 0 14)))
 	 "Control Kubernetes with limited permissions" single
-	 ((:commit . "81cf4f737bcca25a442554edecdfb1f70a3fcd53")
+	 ((:commit . "e739de291d0b70005666d02699cd062127db0a85")
 	  (:authors
 	   ("Adrien Brochard"))
 	  (:maintainer "Adrien Brochard")
@@ -33415,7 +33415,7 @@
 	    (:keywords "lisp" "convenience")
 	    (:url . "http://www.emacswiki.org/cgi-bin/wiki/download/lispxmp.el"))])
  (lispy .
-	[(0 27 0 1 -4 20220817 1839)
+	[(0 27 0 1 -4 20220906 1833)
 	 ((emacs
 	   (24 3))
 	  (ace-window
@@ -33429,7 +33429,7 @@
 	  (zoutline
 	   (0 2 0)))
 	 "vi-like Paredit" tar
-	 ((:commit . "bc3cd8b35765757659e168039c301f12111f8ca4")
+	 ((:commit . "711281e7011807e1e2a0610d227c6ac1ada5dedb")
 	  (:authors
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
@@ -40904,13 +40904,13 @@
 		 (:keywords "local")
 		 (:url . "https://github.com/vapniks/org-dotemacs"))])
  (org-download .
-	       [(0 1 0 1 -4 20210118 958)
+	       [(0 1 0 1 -4 20220906 1755)
 		((emacs
 		  (24 3))
 		 (async
 		  (1 2)))
 		"Image drag-and-drop for Org-mode." single
-		((:commit . "947ca223643d28e189480e607df68449c15786cb")
+		((:commit . "7ca67dfa963c95c607dc6126004c5df49a4089c5")
 		 (:authors
 		  ("Oleh Krehel"))
 		 (:maintainer "Oleh Krehel")
@@ -42048,7 +42048,7 @@
 		(:keywords "redmine" "org")
 		(:url . "https://github.com/gongo/org-redmine"))])
  (org-ref .
-	  [(3 0 1 -4 20220905 1903)
+	  [(3 0 1 -4 20220906 1801)
 	   ((org
 	     (9 4))
 	    (dash
@@ -42072,7 +42072,7 @@
 	    (ox-pandoc
 	     (0)))
 	   "citations, cross-references and bibliographies in org-mode" tar
-	   ((:commit . "c852fcb5a47a9763c43eb0f6fab9c576254f6f2b")
+	   ((:commit . "fcd49ce41bdb906beb557586f5b705e9eb732162")
 	    (:authors
 	     ("John Kitchin" . "jkitchin@andrew.cmu.edu"))
 	    (:maintainer "John Kitchin" . "jkitchin@andrew.cmu.edu")
@@ -44598,7 +44598,7 @@
 		  (:keywords "docs" "password" "passphrase")
 		  (:url . "https://github.com/juergenhoetzel/password-mode"))])
  (password-store .
-		 [(2 1 4 1 -4 20220306 2230)
+		 [(2 1 4 1 -4 20220906 1855)
 		  ((emacs
 		    (25))
 		   (s
@@ -44608,7 +44608,7 @@
 		   (auth-source-pass
 		    (5 0 0)))
 		  "Password store (pass) support" single
-		  ((:commit . "c4d8a1d815e79ddd89a85d3e36a41d29f0475771")
+		  ((:commit . "47f8d950c58949733862813f29856480a9e232c7")
 		   (:authors
 		    ("Svend Sorensen" . "svend@svends.net"))
 		   (:maintainer "Tino Calancha" . "tino.calancha@gmail.com")
@@ -59632,18 +59632,18 @@
 		 (:keywords "wikipedia" "utility")
 		 (:url . "https://github.com/jozefg/wiki-summary.el"))])
  (wikinfo .
-	  [(0 0 0 1 -4 20220629 1826)
+	  [(0 0 0 1 -4 20220906 1709)
 	   ((emacs
 	     (27 1)))
 	   "Scrape Wikipedia Infoboxes" single
-	   ((:commit . "bd5d58bbee4eb7eaa923b3c310aa8d3082a6333e")
+	   ((:commit . "bf395c9aaf6be7fda371be611005737d52417fec")
 	    (:authors
 	     ("Nicholas Vollmer" . "progfolio@protonmail.com"))
 	    (:maintainer "Nicholas Vollmer" . "progfolio@protonmail.com")
 	    (:keywords "org" "convenience")
 	    (:url . "https://github.com/progfolio/wikinfo"))])
  (wikinforg .
-	    [(0 0 0 1 -4 20220322 946)
+	    [(0 1 0 1 -4 20220906 1711)
 	     ((emacs
 	       (27 1))
 	      (wikinfo
@@ -59651,7 +59651,7 @@
 	      (org
 	       (9 3)))
 	     "Org-mode wikinfo integration" single
-	     ((:commit . "9a5bfe36d59dc845b8da1951bed327f3a9071534")
+	     ((:commit . "6ed4463e1b119497dbde1454a9e60b41f2626bd3")
 	      (:authors
 	       ("Nicholas Vollmer" . "progfolio@protonmail.com"))
 	      (:maintainer "Nicholas Vollmer" . "progfolio@protonmail.com")
