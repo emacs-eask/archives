@@ -21845,7 +21845,7 @@
 	     (:keywords "evernote" "geeknote" "note" "emacs-evernote" "evernote-mode")
 	     (:url . "http://github.com/avendael/emacs-geeknote"))])
  (geiser .
-	 [(0 26 1 -4 20220902 1915)
+	 [(0 26 1 1 -4 20220905 2341)
 	  ((emacs
 	    (25 1))
 	   (transient
@@ -21853,7 +21853,7 @@
 	   (project
 	    (0 8 1)))
 	  "GNU Emacs and Scheme talk to each other" tar
-	  ((:commit . "550d57d347b6a2387d633c3da90460106dfcd3e3")
+	  ((:commit . "d0a54c942839a561032b4bc41ca65ff4481bd073")
 	   (:authors
 	    ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
 	   (:maintainer "Jose Antonio Ortega Ruiz" . "jao@gnu.org")
@@ -21925,13 +21925,13 @@
 		  (:keywords "languages" "gauche" "scheme" "geiser")
 		  (:url . "https://gitlab.com/emacs-geiser/gauche"))])
  (geiser-guile .
-	       [(0 23 2 1 -4 20220829 1954)
+	       [(0 26 1 1 -4 20220905 2345)
 		((emacs
 		  (25 1))
 		 (geiser
-		  (0 23 2)))
+		  (0 26 1)))
 		"Guile's implementation of the geiser protocols" tar
-		((:commit . "b2d6f398e33c0f140dcde5adc91117aa7de4463d")
+		((:commit . "e540e14db538ed0d116a188569413f5aadd79180")
 		 (:authors
 		  ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
 		 (:maintainer "Jose Antonio Ortega Ruiz" . "jao@gnu.org")
@@ -31215,9 +31215,11 @@
 			(:maintainer "Nicolas Petton" . "nicolas@petton.fr")
 			(:url . "https://gitlab.petton.fr/nico/json-process-client"))])
  (json-reformat .
-		[(0 0 6 1 -4 20160212 853)
-		 nil "Reformatting tool for JSON" single
-		 ((:commit . "24c2bf3c41897b5cf1398dcaedfec88526308bf4")
+		[(0 0 7 1 -4 20220905 2342)
+		 ((emacs
+		   (24 3)))
+		 "Reformatting tool for JSON" single
+		 ((:commit . "e9999b1f1fc933c02ff44f4136602b6a45ed59c6")
 		  (:authors
 		   ("Wataru MIYAGUNI" . "gonngo@gmail.com"))
 		  (:maintainer "Wataru MIYAGUNI" . "gonngo@gmail.com")
@@ -35922,11 +35924,11 @@
 	      (:keywords "languages" "java")
 	      (:url . "https://github.com/mopemope/meghanada-emacs"))])
  (melancholy-theme .
-		   [(1 0 7 1 -4 20220905 241)
+		   [(1 0 7 1 -4 20220906 38)
 		    ((emacs
 		      (27 1)))
 		    "A dark theme that's pretty sad -*- lexical-binding: t; -" single
-		    ((:commit . "059dbff9749ac6d78624680562f8120b1dbad578")
+		    ((:commit . "21a455d1a005c4640273de8422d2906811cff3f8")
 		     (:authors
 		      ("@baaash" . "bleat@baaa.sh"))
 		     (:maintainer "@baaash" . "bleat@baaa.sh")
