@@ -8889,16 +8889,16 @@
 		     (:keywords "convenience")
 		     (:url . "https://codeberg.org/ideasman42/emacs-counsel-at-point"))])
  (counsel-bbdb .
-	       [(0 0 4 1 -4 20181128 1320)
-		((ivy
-		  (0 8 0))
-		 (emacs
-		  (24 3)))
-		"Quick search&input email from BBDB based on ivy" single
-		((:commit . "df2890deb73b09f8055243bd91942ea887d9b7a1")
+	       [(0 0 5 1 -4 20220909 727)
+		((emacs
+		  (24 3))
+		 (bbdb
+		  (3 2 2 2)))
+		"Quick search&input email from BBDB based on Emacs API `completing-read'" single
+		((:commit . "ccae56b0551abb305cad087d85f1b6a97adb7c0f")
 		 (:authors
-		  ("Chen Bin <chenbin.sh AT gmail>"))
-		 (:maintainer "Chen Bin <chenbin.sh AT gmail>")
+		  ("Chen Bin" . "chenbin.sh@gmail.com"))
+		 (:maintainer "Chen Bin" . "chenbin.sh@gmail.com")
 		 (:keywords "mail" "abbrev" "convenience" "matching")
 		 (:url . "https://github.com/redguard/counsel-bbdb"))])
  (counsel-chrome-bm .
@@ -10979,11 +10979,11 @@
 	((:commit . "040c8ebc884305fd4ff980d21c68946fa74b095a")
 	 (:url . "https://opendylan.org/"))])
  (diminish .
-	   [(0 46 1 -4 20220104 1539)
+	   [(0 46 1 -4 20220909 847)
 	    ((emacs
 	      (24 3)))
 	    "Diminished modes are minor modes with no modeline display" single
-	    ((:commit . "fd486ef76e4c1d8211ae337a43b8bba106d4bca7")
+	    ((:commit . "fbd5d846611bad828e336b25d2e131d1bc06b83d")
 	     (:authors
 	      ("Will Mengarini" . "seldon@eskimo.com"))
 	     (:maintainer "Martin Yrj\303\266l\303\244" . "martin.yrjola@gmail.com")
