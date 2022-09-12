@@ -23746,9 +23746,13 @@
 		(:keywords "convenience" "hypermedia")
 		(:url . "http://github.com/Malabarba/emacs-google-this"))])
  (google-translate .
-		   [(0 12 0 1 -4 20210406 1138)
-		    nil "Emacs interface to Google Translate." tar
-		    ((:commit . "0f7f48a09bca064999ecea03102a7c96f52cbd1b")
+		   [(0 12 0 1 -4 20220912 16)
+		    ((emacs
+		      (24 3))
+		     (popup
+		      (0 5 8)))
+		    "Emacs interface to Google Translate" tar
+		    ((:commit . "f2b4534d4554c2103ed8084353c94c9cdc5cb24c")
 		     (:authors
 		      ("Oleksandr Manzyuk" . "manzyuk@gmail.com"))
 		     (:maintainer "Andrey Tykhonov" . "atykhonov@gmail.com")
@@ -35728,7 +35732,7 @@
 		 (:keywords "i18n" "languages" "tex")
 		 (:url . "https://github.com/kawabata/math-symbols"))])
  (math-tex-convert .
-		   [(0 1 0 1 -4 20220911 55)
+		   [(0 1 0 1 -4 20220912 57)
 		    ((emacs
 		      (26 1))
 		     (math-symbol-lists
@@ -35736,7 +35740,7 @@
 		     (auctex
 		      (12 1)))
 		    "Convert LaTeX macros to unicode and back" tar
-		    ((:commit . "08de142db475cc64b9eda301e2845ead464592d5")
+		    ((:commit . "8978aa5a14afc59fbcda54444dd64b7c9e93572b")
 		     (:authors
 		      ("Enrico Flor" . "enrico@eflor.net"))
 		     (:maintainer "Enrico Flor" . "enrico@eflor.net")
@@ -36992,11 +36996,11 @@
 	  (:keywords "faces")
 	  (:url . "https://github.com/tarsius/moody"))])
  (moom .
-       [(1 6 7 1 -4 20220910 154)
+       [(1 6 8 1 -4 20220911 2344)
 	((emacs
 	  (25 1)))
 	"Commands to control frame position and size" tar
-	((:commit . "6fc3f6ab35d676798b25bcfa764c772d14308402")
+	((:commit . "9029cd76ba037ca31cc7b91453ff5f8510747cb6")
 	 (:authors
 	  ("Takaaki ISHIKAWA <takaxp at ieee dot org>"))
 	 (:maintainer "Takaaki ISHIKAWA <takaxp at ieee dot org>")
@@ -50606,6 +50610,19 @@
 	      (:maintainer "Glynn Forrest" . "me@glynnforrest.com")
 	      (:keywords "languages")
 	      (:url . "https://github.com/glynnforrest/salt-mode"))])
+ (samskritam .
+	     [(0 1 0 1 -4 20220911 1857)
+	      ((emacs
+		(28 1))
+	       (google-translate
+		(0 12 0)))
+	      "Library to get samskrit word definition, translate to/from" single
+	      ((:commit . "664fd843589072663399d9cc5ea176dfce823208")
+	       (:authors
+		("Krishna Thapa" . "thapakrish@gmail.com"))
+	       (:maintainer "Krishna Thapa" . "thapakrish@gmail.com")
+	       (:keywords "convenience" "language" "samskrit" "sanskrit" "dictionary" "translation")
+	       (:url . "https://github.com/thapakrish/samskritam"))])
  (sass-mode .
 	    [(3 0 16 1 -4 20190502 53)
 	     ((haml-mode
