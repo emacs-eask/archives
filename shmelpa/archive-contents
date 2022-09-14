@@ -1252,7 +1252,7 @@
 		      (:maintainer "asok")
 		      (:keywords "faces"))])
  (all-the-icons-ivy-rich .
-			 [(1 8 0 1 -4 20220913 1631)
+			 [(1 8 1 1 -4 20220914 934)
 			  ((emacs
 			    (25 1))
 			   (ivy-rich
@@ -1260,7 +1260,7 @@
 			   (all-the-icons
 			    (2 2 0)))
 			  "Better experience with icons for ivy" single
-			  ((:commit . "55ccff918e27beb6a17feb747a8bc3fb27be82ca")
+			  ((:commit . "f5d27ebd729837daec1311e353dcfc850202a945")
 			   (:authors
 			    ("Vincent Zhang" . "seagle0128@gmail.com"))
 			   (:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
@@ -6524,11 +6524,11 @@
 			(:keywords "languages" "clojure" "cider" "clojurescript")
 			(:url . "https://github.com/symfrog/clojure-quick-repls"))])
  (clojure-snippets .
-		   [(1 0 1 1 -4 20180314 1308)
+		   [(1 0 1 1 -4 20220914 950)
 		    ((yasnippet
 		      (0 10 0)))
 		    "Yasnippets for clojure" tar
-		    ((:commit . "6068dca90467a0f4ebc2cd39338a173d6f5ddc04")
+		    ((:commit . "66d23f0ffedf2cc2be0387c3504b5f89d7300cfa")
 		     (:authors
 		      ("Max Penet" . "m@qbits.cc"))
 		     (:maintainer "Max Penet" . "m@qbits.cc")
@@ -8385,13 +8385,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 19 1 -4 20220913 1933)
+	  [(0 19 1 -4 20220914 920)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (28 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "1dcdb3df44cf02a2ca996b0ba11674ddcdb51ec0")
+	   ((:commit . "76aab86015c3d7628dbd5f92b2dd8ab9aeadac8d")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -11520,13 +11520,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(2 0 53 1 -4 20220913 1503)
+	  [(2 0 53 1 -4 20220914 950)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "699d9754c409aa40a4ae7610c7d4f0ed90648680")
+	   ((:commit . "2f35e48d09b848be661c5f5734264330e824b0f3")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -26241,11 +26241,11 @@
 		  (:maintainer "Julien BLANCHARD" . "julien@sideburns.eu")
 		  (:url . "https://github.com/julienXX/helm-lobste.rs"))])
  (helm-ls-git .
-	      [(0 1 0 1 -4 20220914 543)
+	      [(0 1 0 1 -4 20220914 954)
 	       ((helm
 		 (1 7 8)))
 	       "list git files." single
-	       ((:commit . "9df8d953ceae4f6747b5e949db4f7ef154a75c6b"))])
+	       ((:commit . "a0dbaa0df28942a70f580dcbd73febe29b6c2167"))])
  (helm-ls-hg .
 	     [(0 1 0 1 -4 20150909 543)
 	      ((helm
@@ -35259,9 +35259,9 @@
 	       (:keywords "make" "dired")
 	       (:url . "https://github.com/abo-abo/make-it-so"))])
  (makefile-executor .
-		    [(0 1 0 1 -4 20201119 1500)
+		    [(0 2 0 1 -4 20220914 1024)
 		     ((emacs
-		       (24 3))
+		       (27 1))
 		      (dash
 		       (2 11 0))
 		      (f
@@ -35269,7 +35269,7 @@
 		      (s
 		       (1 10 0)))
 		     "Commands for conveniently running makefile targets" single
-		     ((:commit . "d0a34c355fb80a8616ae7ed5eebbda8507aa14ac")
+		     ((:commit . "b2dd81e4218ed1c19ae48da815be01a55c435417")
 		      (:authors
 		       ("Lowe Thiderman" . "lowe.thiderman@gmail.com"))
 		      (:maintainer "Lowe Thiderman" . "lowe.thiderman@gmail.com")
@@ -35456,11 +35456,11 @@
 	      (:keywords "docker")
 	      (:url . "https://github.com/nlamirault/marcopolo"))])
  (marginalia .
-	     [(0 14 1 -4 20220909 1343)
+	     [(0 14 1 -4 20220914 945)
 	      ((emacs
 		(27 1)))
 	      "Enrich existing commands with completion annotations" single
-	      ((:commit . "b6d9a7e663847d5b539adf46ecb68d25d18f68a3")
+	      ((:commit . "db12d80307ea9d6de44b59d18533c9cbf0c51724")
 	       (:authors
 		("Omar Antol\303\255n Camarena <omar@matem.unam.mx>, Daniel Mendler" . "mail@daniel-mendler.de"))
 	       (:maintainer "Omar Antol\303\255n Camarena <omar@matem.unam.mx>, Daniel Mendler" . "mail@daniel-mendler.de")
@@ -41399,13 +41399,13 @@
 			(:keywords "tex" "tools")
 			(:url . "https://github.com/yangsheng6810/org-latex-instant-preview"))])
  (org-link-beautify .
-		    [(1 2 2 1 -4 20220912 1056)
+		    [(1 2 2 1 -4 20220914 917)
 		     ((emacs
 		       (28 1))
 		      (all-the-icons
 		       (5 0 0)))
 		     "Beautify Org Links" single
-		     ((:commit . "8005f6de28ffee2d8d4f805582d24457bfc06de9")
+		     ((:commit . "f264f05d17744301fcc2c7b89ccc3b15627d2ee8")
 		      (:keywords "hypermedia")
 		      (:url . "https://repo.or.cz/org-link-beautify.git"))])
  (org-link-travis .
