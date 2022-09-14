@@ -1,4 +1,4 @@
-<a href="#"><img align="right" src="https://raw.githubusercontent.com/emacs-eask/eask/master/docs/static/logo.png" width="20%"></a>
+<a href="#"><img align="right" src="https://raw.githubusercontent.com/emacs-eask/cli/master/docs/static/logo.png" width="20%"></a>
 
 [![Emacs Version](./badges/emacs.svg)](https://www.gnu.org/software/emacs/download.html)
 [![Linux](./badges/system.svg)](#)
