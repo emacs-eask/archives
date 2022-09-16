@@ -12151,13 +12151,13 @@
 			      (:maintainer "Ellis Keny\305\221" . "me@elken.dev")
 			      (:url . "https://github.com/elken/doom-modeline-now-playing"))])
  (doom-themes .
-	      [(2 3 0 1 -4 20220727 853)
+	      [(2 3 0 1 -4 20220916 1056)
 	       ((emacs
 		 (25 1))
 		(cl-lib
 		 (0 5)))
 	       "an opinionated pack of modern color-themes" tar
-	       ((:commit . "5f96ee83e9734587bf3e8ec61d4f067b43d9c26e")
+	       ((:commit . "535800fd6ca7f5af56f7aa3d0e8f46fef8b7999b")
 		(:authors
 		 ("Henrik Lissner" . "contact@henrik.io"))
 		(:maintainer "Henrik Lissner" . "contact@henrik.io")
@@ -14659,51 +14659,51 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(3 0 0 1 -4 20220915 2050)
+	  [(3 0 0 -4 20220916 1105)
 	   ((emacs
 	     (25 1)))
-	   "high-level SQL database front-end" tar
-	   ((:commit . "f5da68e5f986c1b85ec7866ef091427db43107f2")
+	   "High-level SQL database front-end" tar
+	   ((:commit . "6728a8649ae0209094c8c4b9e9f5786c004ab2ae")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
-	    (:maintainer "Christopher Wellons" . "wellons@nullprogram.com")
-	    (:url . "https://github.com/skeeto/emacsql"))])
+	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+	    (:url . "https://github.com/magit/emacsql"))])
  (emacsql-mysql .
-		[(1 0 0 1 -4 20171219 227)
+		[(3 0 0 -4 20220916 932)
 		 ((emacs
 		   (25 1))
 		  (emacsql
 		   (2 0 0)))
 		 "EmacSQL back-end for MySQL" single
-		 ((:commit . "ea613c5191dcaa2583d3f7d5737b31bb88a07ed5")
+		 ((:commit . "3d556608efb3a9c580e58a2b44c9034a90a5fe74")
 		  (:authors
 		   ("Christopher Wellons" . "wellons@nullprogram.com"))
-		  (:maintainer "Christopher Wellons" . "wellons@nullprogram.com")
-		  (:url . "https://github.com/skeeto/emacsql"))])
+		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+		  (:url . "https://github.com/magit/emacsql"))])
  (emacsql-psql .
-	       [(1 0 0 1 -4 20220101 1820)
+	       [(3 0 0 -4 20220916 928)
 		((emacs
 		  (25 1))
 		 (emacsql
 		  (2 0 0)))
 		"EmacSQL back-end for PostgreSQL via psql" tar
-		((:commit . "c82a0e6b4d256a3743b718cfb640fa9efc045f6e")
+		((:commit . "6622516e153d1f48a199b613367bbe8f6d7d43bf")
 		 (:authors
 		  ("Christopher Wellons" . "wellons@nullprogram.com"))
-		 (:maintainer "Christopher Wellons" . "wellons@nullprogram.com")
-		 (:url . "https://github.com/skeeto/emacsql"))])
+		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+		 (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite .
-		 [(1 0 0 1 -4 20220915 1951)
+		 [(3 0 0 -4 20220916 928)
 		  ((emacs
 		    (25 1))
 		   (emacsql
 		    (2 0 0)))
 		  "EmacSQL back-end for SQLite" tar
-		  ((:commit . "739c24cab69c7b14eb43a0ef7f11a5111b401152")
+		  ((:commit . "6622516e153d1f48a199b613367bbe8f6d7d43bf")
 		   (:authors
 		    ("Christopher Wellons" . "wellons@nullprogram.com"))
-		   (:maintainer "Christopher Wellons" . "wellons@nullprogram.com")
-		   (:url . "https://github.com/skeeto/emacsql"))])
+		   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+		   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-builtin .
 			 [(0 1 0 1 -4 20220422 1605)
 			  ((emacs
@@ -21013,11 +21013,11 @@
 	      (:keywords "data" "font" "rasterization" "ttf" "otf")
 	      (:url . "https://github.com/jollm/fontsloth"))])
  (for .
-      [(1 1 1 -4 20220915 1720)
+      [(1 1 1 -4 20220916 1032)
        ((emacs
 	 (28 1)))
        "Iteration and sequence" tar
-       ((:commit . "a2fe4af8c395c88e612174aa35d84a6c6fd1b300")
+       ((:commit . "5ea476409ae87b473de29673ed372a5c08636f67")
 	(:authors
 	 ("Wing Hei Chan" . "whmunkchan@outlook.com"))
 	(:maintainer "Wing Hei Chan" . "whmunkchan@outlook.com")
