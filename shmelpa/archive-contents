@@ -840,13 +840,13 @@
 	     (:keywords "tools" "languages" "files" "convenience" "stata" "mata" "ado")
 	     (:url . "https://github.com/louabill/ado-mode"))])
  (adoc-mode .
-	    [(0 7 0 -4 20220916 638)
+	    [(0 7 0 -4 20220917 1446)
 	     ((emacs
 	       (26))
 	      (markup-faces
 	       (1 0 0)))
 	     "a major-mode for editing AsciiDoc files in Emacs" single
-	     ((:commit . "fe861ebf6cbff75b46ba1c075c9b51b6cb81c0bb")
+	     ((:commit . "2c4847d843b882f263fe409022c9684fc5801d8d")
 	      (:authors
 	       ("Florian Kaufmann" . "sensorflo@gmail.com"))
 	      (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
@@ -5350,7 +5350,7 @@
 			(:keywords "extensions")
 			(:url . "https://github.com/ecraven/celestial-mode-line"))])
  (centaur-tabs .
-	       [(5 1 -4 20220224 808)
+	       [(5 1 -4 20220917 1520)
 		((emacs
 		  (24 4))
 		 (powerline
@@ -5358,7 +5358,7 @@
 		 (cl-lib
 		  (0 5)))
 		"Aesthetic, modern looking customizable tabs plugin" tar
-		((:commit . "f4cef95acbd2eb99c8db3b6cdde74a6e0a966a0a")
+		((:commit . "0e8bd654dd505ae8a90adf9d1e554361d4f3c3c6")
 		 (:authors
 		  ("Emmanuel Bustos" . "ema2159@gmail.com"))
 		 (:maintainer "Emmanuel Bustos" . "ema2159@gmail.com")
@@ -6719,11 +6719,11 @@
 		 (:maintainer "Michael Schuldt" . "mbschuldt@gmail.com")
 		 (:url . "https://github.com/mschuldt/code-archive"))])
  (code-cells .
-	     [(0 2 1 -4 20220910 1718)
+	     [(0 3 1 -4 20220917 1431)
 	      ((emacs
 		(27 1)))
 	      "Lightweight notebooks with support for ipynb files" single
-	      ((:commit . "9da2ff44d1324b7c827b5d475391ba0a16c34239")
+	      ((:commit . "fd68a33eb43b3cbd44fed767f48e230382903592")
 	       (:authors
 		("Augusto Stoffel" . "arstoffel@gmail.com"))
 	       (:maintainer "Augusto Stoffel" . "arstoffel@gmail.com")
@@ -8563,7 +8563,7 @@
 		    (:keywords "mail")
 		    (:url . "https://codeberg.org/jao/consult-notmuch"))])
  (consult-org-roam .
-		   [(0 1 1 -4 20220904 546)
+		   [(0 1 1 -4 20220917 1431)
 		    ((emacs
 		      (27 1))
 		     (org-roam
@@ -8571,7 +8571,7 @@
 		     (consult
 		      (0 16)))
 		    "Consult integration for org-roam" single
-		    ((:commit . "f5157969209de1b549fbe37529b29a87337c9f28")
+		    ((:commit . "2e2b707d4ae08ac1f2d8b85a5d6db143a32e6dbd")
 		     (:authors
 		      ("jgru <https://github.com/jgru>"))
 		     (:maintainer "jgru <https://github.com/jgru>")
@@ -11509,13 +11509,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(2 0 53 1 -4 20220917 1136)
+	  [(2 0 53 1 -4 20220917 1536)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "571bca99760905211bfe9a15d3a13124c5ae5b10")
+	   ((:commit . "180c1fad467b5844580ae986e2a90ba3c7a08cc1")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -14659,47 +14659,47 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(3 0 0 -4 20220916 1105)
+	  [(3 0 0 -4 20220917 1646)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
-	   ((:commit . "6728a8649ae0209094c8c4b9e9f5786c004ab2ae")
+	   ((:commit . "9e48d12e4295abcda3f5baff5219f116b2224e5d")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	    (:url . "https://github.com/magit/emacsql"))])
  (emacsql-mysql .
-		[(3 0 0 -4 20220916 932)
+		[(0 1 0 1 -4 20220917 1551)
 		 ((emacs
 		   (25 1))
 		  (emacsql
-		   (2 0 0)))
+		   (3 0 0)))
 		 "EmacSQL back-end for MySQL" single
-		 ((:commit . "3d556608efb3a9c580e58a2b44c9034a90a5fe74")
+		 ((:commit . "6d999ba39dfa1df002169b5ef2c886b1bd7afd8e")
 		  (:authors
 		   ("Christopher Wellons" . "wellons@nullprogram.com"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		  (:url . "https://github.com/magit/emacsql"))])
  (emacsql-psql .
-	       [(3 0 0 -4 20220916 928)
+	       [(3 0 0 -4 20220917 1551)
 		((emacs
 		  (25 1))
 		 (emacsql
 		  (2 0 0)))
 		"EmacSQL back-end for PostgreSQL via psql" tar
-		((:commit . "6622516e153d1f48a199b613367bbe8f6d7d43bf")
+		((:commit . "6d999ba39dfa1df002169b5ef2c886b1bd7afd8e")
 		 (:authors
 		  ("Christopher Wellons" . "wellons@nullprogram.com"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		 (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite .
-		 [(3 0 0 -4 20220916 928)
+		 [(3 0 0 -4 20220917 1551)
 		  ((emacs
 		    (25 1))
 		   (emacsql
-		    (2 0 0)))
+		    (3 0 0)))
 		  "EmacSQL back-end for SQLite" tar
-		  ((:commit . "6622516e153d1f48a199b613367bbe8f6d7d43bf")
+		  ((:commit . "6d999ba39dfa1df002169b5ef2c886b1bd7afd8e")
 		   (:authors
 		    ("Christopher Wellons" . "wellons@nullprogram.com"))
 		   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -21834,7 +21834,7 @@
 	     (:keywords "evernote" "geeknote" "note" "emacs-evernote" "evernote-mode")
 	     (:url . "http://github.com/avendael/emacs-geeknote"))])
  (geiser .
-	 [(0 26 1 1 -4 20220905 2341)
+	 [(0 26 1 1 -4 20220917 1659)
 	  ((emacs
 	    (25 1))
 	   (transient
@@ -21842,7 +21842,7 @@
 	   (project
 	    (0 8 1)))
 	  "GNU Emacs and Scheme talk to each other" tar
-	  ((:commit . "d0a54c942839a561032b4bc41ca65ff4481bd073")
+	  ((:commit . "486c39cfbdf1789fe493535b7e0ae72ff518e53e")
 	   (:authors
 	    ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
 	   (:maintainer "Jose Antonio Ortega Ruiz" . "jao@gnu.org")
@@ -24887,13 +24887,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 8 7 1 -4 20220917 752)
+       [(3 8 7 1 -4 20220917 1659)
 	((helm-core
 	  (3 8 7))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "2b44a1da5c47d6fc19801493698f2085b109f6fc")
+	((:commit . "3d08d93cf5056e79c5d6666614a13407aff120d0")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -35999,11 +35999,11 @@
 	   (:keywords "comm" "processes" "bittorrent")
 	   (:url . "https://github.com/skangas/mentor"))])
  (meow .
-       [(1 4 2 1 -4 20220911 319)
+       [(1 4 2 1 -4 20220917 1649)
 	((emacs
 	  (27 1)))
 	"Yet Another modal editing" tar
-	((:commit . "28ded780283085dcc27b33a8e0d7a93c4798c9a8")
+	((:commit . "5905f64b70169a7462d8c172802caf8812c7107f")
 	 (:authors
 	  ("Shi Tianshu"))
 	 (:maintainer "Shi Tianshu")
