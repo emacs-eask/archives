@@ -4084,7 +4084,7 @@
 	      (:keywords "boolean" "convenience" "usability")
 	      (:url . "http://github.com/michaeljb/bool-flip/"))])
  (boon .
-       [(2 0 1 -4 20220918 1931)
+       [(2 0 1 -4 20220918 1946)
 	((emacs
 	  (26 1))
 	 (dash
@@ -4094,7 +4094,7 @@
 	 (multiple-cursors
 	  (1 3 0)))
 	"Ergonomic Command Mode for Emacs." tar
-	((:commit . "987e8fc4d530e2f2b9d92bdc7384810433317951"))])
+	((:commit . "ee3d12fa3a811f13806b005bb3b1395e5f41dba9"))])
  (borg .
        [(3 3 1 -4 20220812 1139)
 	((emacs
@@ -14659,47 +14659,47 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(3 0 0 -4 20220917 1646)
+	  [(3 0 0 -4 20220918 1902)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
-	   ((:commit . "9e48d12e4295abcda3f5baff5219f116b2224e5d")
+	   ((:commit . "18b40213fdc4cab2f836f5dc3f42b12f3c27af66")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	    (:url . "https://github.com/magit/emacsql"))])
  (emacsql-mysql .
-		[(0 1 0 1 -4 20220917 1551)
+		[(0 1 0 1 -4 20220918 1902)
 		 ((emacs
 		   (25 1))
 		  (emacsql
 		   (3 0 0)))
 		 "EmacSQL back-end for MySQL" single
-		 ((:commit . "6d999ba39dfa1df002169b5ef2c886b1bd7afd8e")
+		 ((:commit . "18b40213fdc4cab2f836f5dc3f42b12f3c27af66")
 		  (:authors
 		   ("Christopher Wellons" . "wellons@nullprogram.com"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		  (:url . "https://github.com/magit/emacsql"))])
  (emacsql-psql .
-	       [(3 0 0 -4 20220917 1551)
+	       [(3 0 0 -4 20220918 1902)
 		((emacs
 		  (25 1))
 		 (emacsql
 		  (2 0 0)))
 		"EmacSQL back-end for PostgreSQL via psql" tar
-		((:commit . "6d999ba39dfa1df002169b5ef2c886b1bd7afd8e")
+		((:commit . "18b40213fdc4cab2f836f5dc3f42b12f3c27af66")
 		 (:authors
 		  ("Christopher Wellons" . "wellons@nullprogram.com"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		 (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite .
-		 [(3 0 0 -4 20220917 1551)
+		 [(3 0 0 -4 20220918 1902)
 		  ((emacs
 		    (25 1))
 		   (emacsql
 		    (3 0 0)))
 		  "EmacSQL back-end for SQLite" tar
-		  ((:commit . "6d999ba39dfa1df002169b5ef2c886b1bd7afd8e")
+		  ((:commit . "18b40213fdc4cab2f836f5dc3f42b12f3c27af66")
 		   (:authors
 		    ("Christopher Wellons" . "wellons@nullprogram.com"))
 		   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -22236,7 +22236,7 @@
 	(:maintainer "Roman Coedo" . "romancoedo@gmail.com")
 	(:keywords "ghq"))])
  (ghub .
-       [(0 1 -4 20220810 1157)
+       [(0 1 -4 20220918 2022)
 	((emacs
 	  (25 1))
 	 (compat
@@ -22246,7 +22246,7 @@
 	 (treepy
 	  (0 1 1)))
 	"Client libraries for Git forge APIs." tar
-	((:commit . "41c5e501e75b6bc02bd581669256fbd6be8746fa")
+	((:commit . "f07790b36beb563d5b87be896efbd3b8533f2acf")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -22414,7 +22414,7 @@
 		(:keywords "utility" "git")
 		(:url . "https://github.com/10sr/git-command-el"))])
  (git-commit .
-	     [(3 3 0 -4 20220803 2341)
+	     [(3 3 0 -4 20220918 2032)
 	      ((emacs
 		(25 1))
 	       (compat
@@ -22424,7 +22424,7 @@
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "ac7fae6a9893b55ad01942d9ea5a571d44426665")
+	      ((:commit . "ec17d4138c8efd6d9c98c66629ff73411320243c")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -33579,11 +33579,13 @@
 		   (:keywords "lisp" "docs" "extensions" "tools")
 		   (:url . "https://github.com/jingtaozf/literate-elisp"))])
  (litex-mode .
-	     [(0 1 1 -4 20220909 146)
+	     [(0 1 1 -4 20220918 2348)
 	      ((emacs
-		(24 4)))
+		(24 4))
+	       (units-mode
+		(0 1 1)))
 	      "Minor mode for converting lisp to LaTeX" tar
-	      ((:commit . "ad98a61e71e76ab3caf2a2eb36886716d28e8c23")
+	      ((:commit . "966aa25af6b4268d20d35f1338753bfa93df01d4")
 	       (:authors
 		("Gaurav Atreya" . "allmanpride@gmail.com"))
 	       (:maintainer "Gaurav Atreya" . "allmanpride@gmail.com")
@@ -34738,7 +34740,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 -4 20220916 1716)
+	[(3 3 0 -4 20220918 2059)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -34754,7 +34756,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "c92dee94e916db0dfc7cc37b745ef3989017a838")
+	 ((:commit . "6ad8b71731f0cb2a42cd2315650cf257112d0958")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -56625,13 +56627,13 @@
 		(:keywords "comm" "convenience" "files")
 		(:url . "https://gitlab.com/tuedachu/transfer-sh.el"))])
  (transient .
-	    [(0 3 7 -4 20220915 1511)
+	    [(0 3 7 -4 20220918 2101)
 	     ((emacs
 	       (25 1))
 	      (compat
 	       (28 1 1 0)))
 	     "Transient commands" tar
-	     ((:commit . "555792f71e0ad41a08ab50cce26e229d5769aeea")
+	     ((:commit . "097f5be6e0c228790a6e78ffee5f0c599cb58b20")
 	      (:authors
 	       ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	      (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -60684,13 +60686,13 @@
 	      (:keywords "data" "yaml")
 	      (:url . "https://github.com/yoshiki/yaml-mode"))])
  (yaml-pro .
-	   [(0 1 4 1 -4 20220918 237)
+	   [(0 1 4 1 -4 20220919 16)
 	    ((emacs
 	      (26 1))
 	     (yaml
 	      (0 5 1)))
 	    "Parser-aided YAML editing features" tar
-	    ((:commit . "7c3e548076f21611e36c61eb46aa4c7e2974f03b")
+	    ((:commit . "cd96bec66b86381c5684a344d70a01c663714b0f")
 	     (:authors
 	      ("Zachary Romero"))
 	     (:maintainer "Zachary Romero")
