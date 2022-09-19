@@ -32347,13 +32347,13 @@
 		     (:keywords "kubernetes" "convenience")
 		     (:url . "https://github.com/gruggiero/kubernetes-tramp"))])
  (kurecolor .
-	    [(1 6 2 1 -4 20220909 1442)
+	    [(1 6 2 1 -4 20220919 313)
 	     ((emacs
 	       (24 4))
 	      (s
 	       (1 12)))
 	     "color editing goodies" tar
-	     ((:commit . "8af900180c888b3b6c2137d4e9457991e62bd6ae")
+	     ((:commit . "190756dc0046358e172cff7e9f94db23634a4485")
 	      (:authors
 	       ("Jason Milkins" . "jasonm23@gmail.com"))
 	      (:maintainer "Jason Milkins" . "jasonm23@gmail.com")
@@ -45696,6 +45696,19 @@
 	    ("Fritz Stelzer" . "brotzeitmacher@gmail.com"))
 	   (:maintainer "Arif Er" . "arifer612@protonmail.me")
 	   (:url . "https://github.com/arifer612/pippel"))])
+ (pixelblaze .
+	     [(0 3 1 -4 20220918 1925)
+	      ((emacs
+		(27 1))
+	       (websocket
+		(1 13)))
+	      "Interact with a Pixelblaze via Websocket" single
+	      ((:commit . "564a093f700a3292cbffb3887dd3a8d789f54e6d")
+	       (:authors
+		("Mark Grosen" . "mark@grosen.org"))
+	       (:maintainer "Mark Grosen" . "mark@grosen.org")
+	       (:keywords "games" "pixelblaze" "neopixel" "ws2812" "sk6812")
+	       (:url . "https://github.com/mgsb/emacs-pixelblaze"))])
  (pixie-mode .
 	     [(0 1 0 1 -4 20180626 541)
 	      ((clojure-mode
@@ -47777,6 +47790,17 @@
 		       ("Rustem Muslimov" . "r.muslimov@gmail.com"))
 		      (:maintainer "Rustem Muslimov" . "r.muslimov@gmail.com")
 		      (:keywords "python" "convenience" "smart-operator"))])
+ (py-snippets .
+	      [(0 1 1 -4 20220918 952)
+	       ((yasnippet
+		 (0 8 0)))
+	       "Collection of advanced Python yasnippet snippets" tar
+	       ((:commit . "1a85c41ea33f33e5b4a5a12a64fd9c4591fc0bcb")
+		(:authors
+		 ("Gustaf Waldemarson" . "gustaf.waldemarson@gmail.com"))
+		(:maintainer "Gustaf Waldemarson" . "gustaf.waldemarson@gmail.com")
+		(:keywords "convenience" "snippets")
+		(:url . "https://github.com/Xaldew/py-snippets"))])
  (py-test .
 	  [(0 6 1 1 -4 20151117 622)
 	   ((dash
@@ -53549,11 +53573,11 @@
 		     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		     (:url . "https://codeberg.org/ideasman42/emacs-spatial-navigate"))])
  (spdx .
-       [(0 1 0 1 -4 20220918 220)
+       [(0 1 0 1 -4 20220919 207)
 	((emacs
 	  (24 4)))
 	"Insert SPDX license and copyright headers" tar
-	((:commit . "0617824ce118f8c2f91bea4dae6435da52e34040")
+	((:commit . "36ae026d53a782dc90cc7079ef107a4c80095b01")
 	 (:authors
 	  ("Zhiwei Chen" . "condy0919@gmail.com"))
 	 (:maintainer "Zhiwei Chen" . "condy0919@gmail.com")
