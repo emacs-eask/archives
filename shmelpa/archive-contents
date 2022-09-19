@@ -32528,11 +32528,11 @@
 		       (:maintainer "Andreas Jansson" . "andreas@jansson.me.uk")
 		       (:url . "https://github.com/andreasjansson/language-detection.el"))])
  (language-id .
-	      [(0 19 1 -4 20220810 1351)
+	      [(0 19 1 -4 20220919 759)
 	       ((emacs
 		 (24 3)))
 	       "Library to work with programming language identifiers" single
-	       ((:commit . "ba65c244ac931dbf9e8569f080dedffed88fb029")
+	       ((:commit . "f3dff989e44153abf6a9745904be09bad417ec0a")
 		(:authors
 		 ("Lassi Kortela" . "lassi@lassi.io"))
 		(:maintainer "Lassi Kortela" . "lassi@lassi.io")
@@ -34740,7 +34740,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 -4 20220918 2059)
+	[(3 3 0 -4 20220919 1035)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -34756,7 +34756,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "6ad8b71731f0cb2a42cd2315650cf257112d0958")
+	 ((:commit . "895a76a399c7ee99487acad5300d042ad239fc17")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -35244,7 +35244,7 @@
 	       (:keywords "make" "dired")
 	       (:url . "https://github.com/abo-abo/make-it-so"))])
  (makefile-executor .
-		    [(0 2 0 1 -4 20220914 1024)
+		    [(0 2 0 1 -4 20220919 802)
 		     ((emacs
 		       (27 1))
 		      (dash
@@ -35254,7 +35254,7 @@
 		      (s
 		       (1 10 0)))
 		     "Commands for conveniently running makefile targets" single
-		     ((:commit . "b2dd81e4218ed1c19ae48da815be01a55c435417")
+		     ((:commit . "b304f4b5cc5d33eedf76ff0fdae839d1a00ed2a5")
 		      (:authors
 		       ("Lowe Thiderman" . "lowe.thiderman@gmail.com"))
 		      (:maintainer "Lowe Thiderman" . "lowe.thiderman@gmail.com")
@@ -35659,13 +35659,15 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/YiGeeker/masm-mode"))])
  (mastodon .
-	   [(1 0 0 1 -4 20220912 2042)
+	   [(1 0 0 1 -4 20220919 1004)
 	    ((emacs
 	      (27 1))
 	     (request
-	      (0 3 0)))
+	      (0 3 0))
+	     (persist
+	      (0 4)))
 	    "Client for Mastodon" tar
-	    ((:commit . "cf504419334bf964e5211ab238783efb15325648")
+	    ((:commit . "2b484837ef8a0e2874284ff7be6d531e9b45d610")
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com"))
 	     (:maintainer "Marty Hiatt" . "martianhiatus@riseup.net")
@@ -37780,11 +37782,11 @@
 	      (:keywords "convenience")
 	      (:url . "https://github.com/redguardtoo/mybigword"))])
  (mybuild-mode .
-	       [(0 1 0 1 -4 20220910 2015)
+	       [(0 1 0 1 -4 20220919 905)
 		((emacs
 		  (24 3)))
 		"Major mode for editing Mybuild files from Embox" single
-		((:commit . "879117b965a593b47432208e388e852223adcc88")
+		((:commit . "ab4777aa298b6ccc4d960e786d2dbc3c23fccf45")
 		 (:authors
 		  ("Evgeny Simonenko" . "easimonenko@gmail.com"))
 		 (:maintainer "Evgeny Simonenko" . "easimonenko@gmail.com")
@@ -50432,11 +50434,11 @@
 		  (:maintainer "Rotem Yaari" . "rotemy@MBP.local")
 		  (:keywords "languages"))])
  (rust-mode .
-	    [(1 0 5 1 -4 20220916 1225)
+	    [(1 0 5 1 -4 20220919 1051)
 	     ((emacs
 	       (25 1)))
 	     "A major-mode for editing Rust source code" tar
-	     ((:commit . "fd8fe789abffb202f43a9edfbd691a0a5df51b58")
+	     ((:commit . "1d24ca2e6c18cd036f00e930cca64f44db04fb67")
 	      (:authors
 	       ("Mozilla"))
 	      (:maintainer "Mozilla")
@@ -55289,9 +55291,9 @@
 	      (:maintainer "Peter Kosov" . "11111000000@email.com")
 	      (:url . "http://github.com/11111000000/tao-theme-emacs"))])
  (taskpaper-mode .
-		 [(0 1 0 1 -4 20220917 1841)
+		 [(0 1 0 1 -4 20220919 1027)
 		  nil "Major mode for working with TaskPaper files" single
-		  ((:commit . "57ee92578f69b8fddd06f185ca657939f35f1bda")
+		  ((:commit . "035678f5ae2de94352219d964a5173bd609a875e")
 		   (:authors
 		    ("Dmitry Safronov" . "saf.dmitry@gmail.com"))
 		   (:maintainer "Dmitry Safronov" . "saf.dmitry@gmail.com")
@@ -57049,11 +57051,11 @@
 		     (:maintainer "Alexander Miller" . "alexanderm@web.de")
 		     (:url . "https://github.com/Alexander-Miller/treemacs"))])
  (treepy .
-	 [(0 1 1 1 -4 20191108 2217)
+	 [(0 1 1 1 -4 20220919 759)
 	  ((emacs
 	    (25 1)))
 	  "Generic tree traversal tools" single
-	  ((:commit . "306f7031d26e4ebfc9ff36614acdc6993f3e23c3")
+	  ((:commit . "de1a2ddc3fd7152d0bfbd9e14312ff8a4864ab2b")
 	   (:authors
 	    ("Daniel Barreto" . "daniel.barreto.n@gmail.com"))
 	   (:maintainer "Daniel Barreto" . "daniel.barreto.n@gmail.com")
