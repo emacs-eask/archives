@@ -12530,11 +12530,11 @@
        (:keywords "convenience" "games")
        (:url . "https://github.com/integral-dw/dw-passphrase-generator"))])
  (dwim-shell-command .
-		     [(0 18 1 -4 20220910 1225)
+		     [(0 19 1 -4 20220925 1834)
 		      ((emacs
 			(27 1)))
 		      "Shell commands with DWIM behaviour" tar
-		      ((:commit . "e5d427e4e63ca7b13960b5ad69893186ae3a9ceb")
+		      ((:commit . "1f7d18aaec26993a122230590a7fa2d5c4c891f7")
 		       (:authors
 			("Alvaro Ramirez"))
 		       (:maintainer "Alvaro Ramirez")
@@ -17530,6 +17530,33 @@
 	     (:maintainer "Dmitry Bogatov" . "KAction@debian.org")
 	     (:keywords "tools" "unix" "languages")
 	     (:url . "https://gitlab.com/KAction/emacs-execline"))])
+ (exercism .
+	   [(0 0 0 1 -4 20220920 1258)
+	    ((emacs
+	      (27 1))
+	     (dash
+	      (2 19 1))
+	     (a
+	      (1 0 0))
+	     (s
+	      (1 13 1))
+	     (request
+	      (0 3 2))
+	     (async
+	      (1 9 6))
+	     (async-await
+	      (1 1))
+	     (persist
+	      (0 5))
+	     (transient
+	      (0 3 7)))
+	    "Emacs (unofficial) integration for https://exercism.org" single
+	    ((:commit . "7c8426107f3d9696ef9687164e7cebad5ea3bd4e")
+	     (:authors
+	      ("Rafael Nicdao <https://github.com/anonimito>"))
+	     (:maintainer "Rafael Nicdao" . "nicdaoraf@gmail.com")
+	     (:keywords "exercism" "convenience")
+	     (:url . "https://github.com/anonimitoraf/exercism.el"))])
  (exiftool .
 	   [(0 3 2 1 -4 20190520 1106)
 	    ((emacs
@@ -29314,6 +29341,19 @@
 	     (:maintainer "Dmitry Gutov" . "dgutov@yandex.ru")
 	     (:keywords "languages" "ruby")
 	     (:url . "http://github.com/nonsequitur/inf-ruby"))])
+ (inferior-islisp .
+		  [(0 2 0 1 -4 20220924 1040)
+		   ((emacs
+		     (26 3))
+		    (islisp-mode
+		     (0 2)))
+		   "Run inferior ISLisp processes" single
+		   ((:commit . "423b84fe4cc6944e36971225b3e19c888e7e4690")
+		    (:authors
+		     ("Fermin Munoz"))
+		    (:maintainer "Fermin Munoz" . "fmfs@posteo.net")
+		    (:keywords "islisp" "lisp" "programming")
+		    (:url . "https://gitlab.com/sasanidas/islisp-mode"))])
  (inflections .
 	      [(1 1 1 -4 20210110 2237)
 	       ((cl-lib
@@ -29833,6 +29873,17 @@
 	  ("Chmouel Boudjnah" . "chmouel@chmouel.com"))
 	 (:maintainer "Chmouel Boudjnah" . "chmouel@chmouel.com")
 	 (:url . "https://github.com/chmouel/isgd.el"))])
+ (islisp-mode .
+	      [(0 2 0 1 -4 20220924 1043)
+	       ((emacs
+		 (26 3)))
+	       "Major mode for ISLisp programming" tar
+	       ((:commit . "bbf45d02495f9455e91beed01676178dfa5d3561")
+		(:authors
+		 ("Fermin Munoz"))
+		(:maintainer "Fermin Munoz" . "fmfs@posteo.net")
+		(:keywords "islisp" "lisp" "programming")
+		(:url . "https://gitlab.com/sasanidas/islisp-mode"))])
  (isortify .
 	   [(0 0 1 1 -4 20190315 2004)
 	    ((emacs
