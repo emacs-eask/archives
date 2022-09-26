@@ -1097,13 +1097,13 @@
 		 (:keywords "color" "theme")
 		 (:url . "https://github.com/alezost/alect-themes"))])
  (alectryon .
-	    [(0 1 1 -4 20211018 321)
+	    [(0 1 1 -4 20220925 2236)
 	     ((flycheck
 	       (31))
 	      (emacs
 	       (25 1)))
 	     "Toggle between Coq and reStructuredText" tar
-	     ((:commit . "5505e00e5c8a5080ee0e640e5dc8de947e3b9aff")
+	     ((:commit . "8a1f3054c97fc86d628413800cfef75577c43485")
 	      (:authors
 	       ("Cl\303\251ment Pit-Claudel" . "clement.pitclaudel@live.com"))
 	      (:maintainer "Cl\303\251ment Pit-Claudel" . "clement.pitclaudel@live.com")
@@ -6032,7 +6032,7 @@
 		 (:maintainer "Robin Schroer")
 		 (:url . "https://github.com/sulami/circleci-api"))])
  (citar .
-	[(1 0 1 -4 20220913 1718)
+	[(1 0 1 -4 20220925 2234)
 	 ((emacs
 	   (27 1))
 	  (parsebib
@@ -6042,7 +6042,7 @@
 	  (citeproc
 	   (0 9)))
 	 "Citation-related commands for org, latex, markdown" tar
-	 ((:commit . "60cc30e4aa6947a9a06db39a4198162fa5959f5e")
+	 ((:commit . "219a69c519fa77ba609b05ac5dbcb9ae357d383b")
 	  (:authors
 	   ("Bruce D'Arcus <https://github.com/bdarcus>"))
 	  (:maintainer "Bruce D'Arcus <https://github.com/bdarcus>")
@@ -17531,7 +17531,7 @@
 	     (:keywords "tools" "unix" "languages")
 	     (:url . "https://gitlab.com/KAction/emacs-execline"))])
  (exercism .
-	   [(0 0 0 1 -4 20220920 1258)
+	   [(0 0 0 1 -4 20220925 2219)
 	    ((emacs
 	      (27 1))
 	     (dash
@@ -17550,8 +17550,8 @@
 	      (0 5))
 	     (transient
 	      (0 3 7)))
-	    "Emacs (unofficial) integration for https://exercism.org" single
-	    ((:commit . "7c8426107f3d9696ef9687164e7cebad5ea3bd4e")
+	    "Unofficial https://exercism.org integration" single
+	    ((:commit . "d221aec2f20f80e52d29d8ef858eae260dbb44a0")
 	     (:authors
 	      ("Rafael Nicdao <https://github.com/anonimito>"))
 	     (:maintainer "Rafael Nicdao" . "nicdaoraf@gmail.com")
@@ -20712,6 +20712,16 @@
 		      ("Pascal van Kooten" . "kootenpv@gmail.com"))
 		     (:maintainer "Pascal van Kooten" . "kootenpv@gmail.com")
 		     (:url . "https://github.com/kootenvp/flymake-solidity"))])
+ (flymake-sqlfluff .
+		   [(0 1 0 1 -4 20220925 2144)
+		    ((emacs
+		      (27 1)))
+		    "A flymake plugin for SQL files using sqlfluff" single
+		    ((:commit . "b76f335555c9a94ffc3d7281f3dca345de474eed")
+		     (:authors
+		      ("Erick Navarro" . "erick@navarro.io"))
+		     (:maintainer "Erick Navarro" . "erick@navarro.io")
+		     (:url . "https://github.com/erickgnavar/flymake-sqlfluff"))])
  (flymake-swi-prolog .
 		     [(0 2 2 1 -4 20220404 950)
 		      ((emacs
@@ -27387,7 +27397,7 @@
 		       (:keywords "convenience")
 		       (:url . "https://github.com/EricCrosson/help-find-org-mode"))])
  (helpful .
-	  [(0 20 1 -4 20220919 540)
+	  [(0 20 1 -4 20220925 2206)
 	   ((emacs
 	     (25))
 	    (dash
@@ -27399,7 +27409,7 @@
 	    (elisp-refs
 	     (1 2)))
 	   "A better *help* buffer" single
-	   ((:commit . "db1e15b3783c83d9781a546f37b900ad53576659")
+	   ((:commit . "3aa08da7a151f1928bf0e3d12fc2443b6485b6ef")
 	    (:authors
 	     ("Wilfred Hughes" . "me@wilfred.me.uk"))
 	    (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk")
@@ -34789,7 +34799,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 -4 20220919 1308)
+	[(3 3 0 -4 20220926 56)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -34805,7 +34815,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "4ee691cd90a4975b31ba4f3f6fc3ae69a0b0eb62")
+	 ((:commit . "ada7b21fcc90004d7ac1c5a42c0750e12c2a5ef8")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -53994,11 +54004,11 @@
 	      (:keywords "c" "languages" "tools")
 	      (:url . "https://github.com/tuhdo/semantic-refactor"))])
  (srfi .
-       [(0 3 0 1 -4 20220922 1947)
+       [(0 3 0 1 -4 20220925 2308)
 	((emacs
 	  (25 1)))
 	"Scheme Requests for Implementation browser" tar
-	((:commit . "72bd263bc3171c5a2123441a4ed89ef9dbbfca02")
+	((:commit . "20a1c9b36e99cbfbf70598e2cfaccd960e74c1ce")
 	 (:authors
 	  ("Lassi Kortela" . "lassi@lassi.io"))
 	 (:maintainer "Lassi Kortela" . "lassi@lassi.io")
