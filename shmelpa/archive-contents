@@ -2053,11 +2053,11 @@
 	(:keywords "convenience")
 	(:url . "https://github.com/ragone/asx"))])
  (async .
-	[(1 9 6 1 -4 20220922 1622)
+	[(1 9 7 1 -4 20220928 1909)
 	 ((emacs
 	   (24 4)))
 	 "Asynchronous processing in Emacs" tar
-	 ((:commit . "dbac40131f6644bf80fd27581b62361e743fb4a8")
+	 ((:commit . "53addd02fbad33765f508f8e6254ebd44e1f81e5")
 	  (:authors
 	   ("John Wiegley" . "jwiegley@gmail.com"))
 	  (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -12533,11 +12533,11 @@
        (:keywords "convenience" "games")
        (:url . "https://github.com/integral-dw/dw-passphrase-generator"))])
  (dwim-shell-command .
-		     [(0 19 1 -4 20220925 1834)
+		     [(0 20 1 -4 20220928 2032)
 		      ((emacs
 			(27 1)))
 		      "Shell commands with DWIM behaviour" tar
-		      ((:commit . "1f7d18aaec26993a122230590a7fa2d5c4c891f7")
+		      ((:commit . "6f599480be69437171fb4e9d58fd29b20731096f")
 		       (:authors
 			("Alvaro Ramirez"))
 		       (:maintainer "Alvaro Ramirez")
@@ -16384,7 +16384,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20220928 1637)
+       [(1 15 0 1 -4 20220928 1852)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -16392,7 +16392,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "18908f4ec0e270bb39299eed7bd75cd00eede44c")
+	((:commit . "a8adc879addb71ef25741c70d4e6e1273b9f7620")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulation" "vim")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -22781,7 +22781,7 @@
 		    (:keywords "comm")
 		    (:url . "https://github.com/TxGVNN/github-explorer"))])
  (github-linguist .
-		  [(0 1 2 1 -4 20220927 1353)
+		  [(0 1 2 1 -4 20220928 2013)
 		   ((emacs
 		     (27 1))
 		    (project
@@ -22791,7 +22791,7 @@
 		    (map
 		     (3)))
 		   "Run GitHub Linguist on projects to collect information" single
-		   ((:commit . "f8f28745542d7e4300d73c6bf006ce48b6657947")
+		   ((:commit . "73f9f52e1f626e866d8becc7a3671630449764c2")
 		    (:authors
 		     ("Akira Komamura" . "akira.komamura@gmail.com"))
 		    (:maintainer "Akira Komamura" . "akira.komamura@gmail.com")
@@ -24925,13 +24925,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 8 7 1 -4 20220927 1039)
+       [(3 8 8 1 -4 20220928 1917)
 	((helm-core
-	  (3 8 7))
+	  (3 8 8))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "4b318710b4ba78131e12c8f0642533e96e8bc8fd")
+	((:commit . "0a9a1e32cf130d181b26e23919402c8c25f41996")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -25378,13 +25378,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 8 7 1 -4 20220925 616)
+	    [(3 8 8 1 -4 20220928 1917)
 	     ((emacs
 	       (25 1))
 	      (async
-	       (1 9 4)))
+	       (1 9 7)))
 	     "Development files for Helm" tar
-	     ((:commit . "f9e9a3816df0f8fd92db7fac489641bef63f4aa2")
+	     ((:commit . "0a9a1e32cf130d181b26e23919402c8c25f41996")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -43132,9 +43132,9 @@
 	     (:keywords "lisp" "org" "org-mode" "bootstrap")
 	     (:url . "https://github.com/tgbugs/orgstrap"))])
  (orgtbl-aggregate .
-		   [(1 0 1 -4 20220924 1614)
+		   [(1 0 1 -4 20220928 1944)
 		    nil "Create an aggregated Org table from another one" single
-		    ((:commit . "1108c49e225ece81e00e547424d10d7a5b6ba9be")
+		    ((:commit . "068973339af3714ea015501f0fcc35014f255c1a")
 		     (:keywords "org" "table" "aggregation" "filtering"))])
  (orgtbl-ascii-plot .
 		    [(1 1 1 -4 20200411 711)
@@ -43146,11 +43146,11 @@
 		      (:maintainer "Thierry Banel  tbanelwebmin at free dot fr")
 		      (:keywords "org" "table" "ascii" "plot"))])
  (orgtbl-join .
-	      [(0 1 1 -4 20220925 1225)
+	      [(0 1 1 -4 20220928 1946)
 	       ((cl-lib
 		 (0 5)))
 	       "join columns from another table" single
-	       ((:commit . "d4fbd6ec1161794f2d246625c77589b9fb9f2956")
+	       ((:commit . "8ce207b7100dc9cde071099b56cebb87924aaafd")
 		(:authors
 		 ("Thierry Banel tbanelwebmin at free dot fr"))
 		(:maintainer "Thierry Banel tbanelwebmin at free dot fr")
