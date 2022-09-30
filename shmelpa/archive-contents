@@ -106,11 +106,11 @@
 		 (:maintainer "USAMI Kenta" . "tadsan@zonu.me")
 		 (:keywords "wp" "text" "shiftjis" "mlt" "yaruo"))])
  (aas .
-      [(1 1 1 -4 20220426 2058)
+      [(1 1 1 -4 20220930 52)
        ((emacs
 	 (26 3)))
        "Snippet expansions mid-typing" single
-       ((:commit . "566944e3b336c29d3ac11cd739a954c9d112f3fb")
+       ((:commit . "e92b5cffa4e87c221c24f3e72ae33959e1ec2b68")
 	(:authors
 	 ("Yoav Marco" . "yoavm448@gmail.com"))
 	(:maintainer "Yoav Marco" . "yoavm448@gmail.com")
@@ -1172,11 +1172,11 @@
 	    (:keywords "matching" "all" "search" "replace" "anything" "helm" "helm-swoop" "occur")
 	    (:url . "https://github.com/rubikitch/all-ext"))])
  (all-the-icons .
-		[(5 0 0 1 -4 20220929 2235)
+		[(5 0 0 1 -4 20220929 2303)
 		 ((emacs
 		   (24 3)))
 		 "A library for inserting Developer icons" tar
-		 ((:commit . "dd8c15504903b12f6bfc2c4571fc2f632949b7f8")
+		 ((:commit . "51bf77da1ebc3c199dfc11f54c0dce67559f5f40")
 		  (:authors
 		   ("Dominic Charlesworth" . "dgc336@gmail.com"))
 		  (:maintainer "Dominic Charlesworth" . "dgc336@gmail.com")
@@ -8375,13 +8375,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 19 1 -4 20220929 2226)
+	  [(0 19 1 -4 20220929 2330)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (28 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "1a75e15b87690d107a82bc3f7ba8a135fd0438eb")
+	   ((:commit . "0142e7b5d268eeb8746316e5680424d63320ada3")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -45245,13 +45245,16 @@
 	    (:maintainer "Alexander Miller" . "alexanderm@web.de")
 	    (:url . "https://github.com/Alexander-Miller/pfuture"))])
  (pg .
-     [(0 13 1 -4 20130731 2142)
-      nil "Emacs Lisp interface to the PostgreSQL RDBMS" single
-      ((:commit . "4f6516ec3946d95dcef49abb6703cc89ecb5183d")
+     [(0 16 1 -4 20220927 1220)
+      ((emacs
+	(26 1)))
+      "Emacs Lisp socket-level interface to the PostgreSQL RDBMS" single
+      ((:commit . "47de374b9b263641b9037d8a37fbe124388f6dd2")
        (:authors
-	("Eric Marsden" . "emarsden@laas.fr"))
-       (:maintainer "Helmut Eller" . "heller@common-lisp.net")
-       (:keywords "data" "comm" "database" "postgresql"))])
+	("Eric Marsden" . "eric.marsden@risk-engineering.org"))
+       (:maintainer "Eric Marsden" . "eric.marsden@risk-engineering.org")
+       (:keywords "data" "comm" "database" "postgresql")
+       (:url . "https://github.com/emarsden/pg-el"))])
  (pgdevenv .
 	   [(1 1 1 -4 20150105 2236)
 	    nil "Manage your PostgreSQL development envs" tar
