@@ -8428,7 +8428,7 @@
 		 (:keywords "consult" "dash" "docs")
 		 (:url . "https://codeberg.org/ravi/consult-dash"))])
  (consult-dir .
-	      [(0 1 1 -4 20220808 141)
+	      [(0 1 1 -4 20221001 1748)
 	       ((emacs
 		 (26 1))
 		(consult
@@ -8436,7 +8436,7 @@
 		(project
 		 (0 6 0)))
 	       "Insert paths into the minibuffer prompt" single
-	       ((:commit . "8abf62df088de87175e98adf8f6f5fb93515004c")
+	       ((:commit . "ed8f0874d26f10f5c5b181ab9f2cf4107df8a0eb")
 		(:authors
 		 ("Karthik Chikmagalur"))
 		(:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
@@ -24925,13 +24925,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 8 8 1 -4 20220928 1917)
+       [(3 8 8 1 -4 20221001 1825)
 	((helm-core
 	  (3 8 8))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "0a9a1e32cf130d181b26e23919402c8c25f41996")
+	((:commit . "b2857de2505d25b463a268ffac02ce21a675a31a")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -25378,13 +25378,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 8 8 1 -4 20220928 1917)
+	    [(3 8 8 1 -4 20221001 1818)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 7)))
 	     "Development files for Helm" tar
-	     ((:commit . "0a9a1e32cf130d181b26e23919402c8c25f41996")
+	     ((:commit . "461ae167f24be0e7f981a351dffb3338cd92052e")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -60456,6 +60456,14 @@
 	 ((:commit . "c7bd7c501c3545aa99dadac386c882fe7c5edd9c")
 	  (:keywords "convenience" "faces" "maint")
 	  (:url . "https://github.com/Boruch-Baum/emacs-xhair"))])
+ (xit-mode .
+	   [(0 2 1 -4 20220929 948)
+	    ((emacs
+	      (24 1)))
+	    "A [x]it! major mode" single
+	    ((:commit . "f4d9915b4320e65c42a09116cbabd24bce8e6df9")
+	     (:keywords "xit" "todo" "tools" "convinience" "project")
+	     (:url . "https://github.com/ryanolsonx/xit-mode"))])
  (xkcd .
        [(1 1 1 -4 20220503 1109)
 	((json
