@@ -10650,11 +10650,11 @@
 		     (:keywords "convenience")
 		     (:url . "http://projects.ryuslash.org/desktop-registry/"))])
  (detached .
-	   [(0 9 1 1 -4 20220928 806)
+	   [(0 9 1 1 -4 20221002 1055)
 	    ((emacs
 	      (27 1)))
 	    "A package to launch, and manage, detached processes" tar
-	    ((:commit . "772ac746a9e8350f24ff548301ef13986e5b21d9")
+	    ((:commit . "53be9af04c8ad3ab4b5f9cb451f6e40621b4c89c")
 	     (:authors
 	      ("Niklas Eklund" . "niklas.eklund@posteo.net"))
 	     (:maintainer "detached.el Development" . "~niklaseklund/detached.el@lists.sr.ht")
@@ -11510,13 +11510,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(2 0 53 1 -4 20221002 951)
+	  [(2 0 53 1 -4 20221002 1048)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "8333b7288e3b24b3b4003cccbaa54bb23f3c2efc")
+	   ((:commit . "4f2642c77f372f31d9b2f2d3876dadfe3564b3c2")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -14660,11 +14660,11 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(3 0 0 -4 20220918 1902)
+	  [(3 0 0 -4 20221002 1301)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
-	   ((:commit . "18b40213fdc4cab2f836f5dc3f42b12f3c27af66")
+	   ((:commit . "9ee397b2be2c4f00624a363e21b1af0433b360d6")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -14682,25 +14682,25 @@
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		  (:url . "https://github.com/magit/emacsql"))])
  (emacsql-psql .
-	       [(3 0 0 -4 20220918 1902)
+	       [(3 0 0 -4 20221002 1336)
 		((emacs
 		  (25 1))
 		 (emacsql
 		  (2 0 0)))
 		"EmacSQL back-end for PostgreSQL via psql" tar
-		((:commit . "18b40213fdc4cab2f836f5dc3f42b12f3c27af66")
+		((:commit . "5c4aa1030be157229cdccd6b11cb30ca94cda954")
 		 (:authors
 		  ("Christopher Wellons" . "wellons@nullprogram.com"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		 (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite .
-		 [(3 0 0 -4 20220918 1902)
+		 [(3 0 0 -4 20220929 1924)
 		  ((emacs
 		    (25 1))
 		   (emacsql
 		    (3 0 0)))
 		  "EmacSQL back-end for SQLite" tar
-		  ((:commit . "18b40213fdc4cab2f836f5dc3f42b12f3c27af66")
+		  ((:commit . "b9d848fa9c5bdfe96a7e77e03ce91c1190ff2722")
 		   (:authors
 		    ("Christopher Wellons" . "wellons@nullprogram.com"))
 		   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -14895,7 +14895,7 @@
 	       (:keywords "convenience")
 	       (:url . "https://github.com/smihica/emmet-mode"))])
  (emms .
-       [(11 1 -4 20220923 2202)
+       [(11 1 -4 20221002 1154)
 	((cl-lib
 	  (0 5))
 	 (nadvice
@@ -14903,7 +14903,7 @@
 	 (seq
 	  (0)))
 	"The Emacs Multimedia System" tar
-	((:commit . "e2d64ee4acb8cf25daa88dfaf16a8a12c03abf3a")
+	((:commit . "88cbd8c8fae985f077418647a5cb1b69f8b6d18b")
 	 (:authors
 	  ("Jorgen Sch\303\244fer" . "forcer@forcix.cx"))
 	 (:maintainer "Yoni Rabkin" . "yrk@gnu.org")
