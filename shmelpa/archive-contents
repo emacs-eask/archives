@@ -16384,7 +16384,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20220929 1317)
+       [(1 15 0 1 -4 20221002 1906)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -16392,7 +16392,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "0aaf5944db224f1d8948acac64e2b703ed151446")
+	((:commit . "8325ba0deeca0953b7957485d33de2188b6ded67")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulation" "vim")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -42577,6 +42577,23 @@
 		    ((:commit . "25ceccde36cbb3bbed55da939348c47f91670455")
 		     (:keywords "hypermedia")
 		     (:url . "https://repo.or.cz/org-tag-beautify.git"))])
+ (org-tagged .
+	     [(0 0 6 1 -4 20220926 2048)
+	      ((s
+		(1 13 0))
+	       (dash
+		(2 19 1))
+	       (emacs
+		(28 1))
+	       (org
+		(9 5 2)))
+	      "Dynamic block for tagged org-mode todos" single
+	      ((:commit . "4b0174473772fca976426e982bb3f4a3037c1e37")
+	       (:authors
+		("Christian K\303\266stlin" . "christian.koestlin@gmail.com"))
+	       (:maintainer "Christian K\303\266stlin" . "christian.koestlin@gmail.com")
+	       (:keywords "org-mode" "org" "gtd" "tools")
+	       (:url . "http://github.com/gizmomogwai/org-tagged"))])
  (org-tanglesync .
 		 [(1 1 1 -4 20200127 1616)
 		  ((emacs
@@ -55820,6 +55837,15 @@
 		    ("Syohei YOSHIDA" . "syohex@gmail.com"))
 		   (:maintainer "Syohei YOSHIDA" . "syohex@gmail.com")
 		   (:url . "https://github.com/syohex/emacs-terraform-mode"))])
+ (tesouro .
+	  [(1 0 1 -4 20220928 1426)
+	   ((request
+	     (0 3 2))
+	    (emacs
+	     (24 4)))
+	   "Brazilian Portuguese synonym search in dicio.com.br" single
+	   ((:commit . "c7e7ac1d1d88a2ef7f30004611cf3b37dcdcda1b")
+	    (:url . "https://github.com/rberaldo/tesouro.el"))])
  (test-c .
 	 [(1 0 1 -4 20180423 1720)
 	  ((emacs
