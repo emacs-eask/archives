@@ -20320,14 +20320,15 @@
 		    ("Sylvain Benner" . "syl20bnr@gmail.com"))
 		   (:maintainer "Sylvain Benner" . "syl20bnr@gmail.com"))])
  (flymake-eslint .
-		 [(1 6 0 1 -4 20220318 152)
+		 [(1 6 0 1 -4 20221002 2307)
 		  ((emacs
-		    (26 0)))
+		    (26 1)))
 		  "A Flymake backend for Javascript using eslint" single
-		  ((:commit . "bfcf28259c7d774b259a6ed122f1f0936a5b96b9")
+		  ((:commit . "efbf9e1fcc6ba4959c4ad0435742c96099f4f96f")
 		   (:authors
 		    ("Dan Orzechowski"))
 		   (:maintainer "Dan Orzechowski")
+		   (:keywords "languages" "tools")
 		   (:url . "https://github.com/orzechowskid/flymake-eslint"))])
  (flymake-flycheck .
 		   [(0 1 -1 1 -4 20220313 924)
@@ -34299,7 +34300,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20221001 846)
+	   [(8 0 1 1 -4 20221002 2238)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -34315,7 +34316,7 @@
 	     (lv
 	      (0)))
 	    "LSP mode" tar
-	    ((:commit . "a5bb8deaa1bfa03ee94b563cd1b030676931a7df")
+	    ((:commit . "531fe8315bbff9460ebca5328a857ca5fc530c7d")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -45063,6 +45064,17 @@
 	   (:maintainer "Sebastian Monia" . "smonia@outlook.com")
 	   (:keywords "tools" "convenience" "matching")
 	   (:url . "https://github.com/sebasmonia/pepita.git"))])
+ (per-buffer-theme .
+		   [(2 2 1 -4 20221002 2219)
+		    ((emacs
+		      (25 1)))
+		    "Change theme and font according to buffer name or major mode." single
+		    ((:commit . "2cbb15c05edff4ce23ce61858cf16e8953cd58b3")
+		     (:authors
+		      ("I\303\261igo Serna" . "inigoserna@gmx.com"))
+		     (:maintainer "I\303\261igo Serna" . "inigoserna@gmx.com")
+		     (:keywords "themes")
+		     (:url . "https://hg.serna.eu/emacs/per-buffer-theme"))])
  (perfect-margin .
 		 [(0 1 1 -4 20220426 1701)
 		  ((emacs
