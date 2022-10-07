@@ -9947,7 +9947,7 @@
 		      (:maintainer "Dmitry Akatov" . "akatovda@yandex.com")
 		      (:url . "https://github.com/rails-to-cosmos/"))])
  (dante .
-	[(0 1 0 1 -4 20221007 1526)
+	[(0 1 0 1 -4 20221007 1710)
 	 ((dash
 	   (2 12 0))
 	  (emacs
@@ -9963,9 +9963,9 @@
 	  (s
 	   (1 11 0))
 	  (lcr
-	   (1 2)))
+	   (1 3)))
 	 "Development mode for Haskell" single
-	 ((:commit . "46b4dc5a99deef2dd539b1546332d28e90a164f3")
+	 ((:commit . "6f72a52161c9d9e98086e31effc8038f40613f30")
 	  (:authors
 	   ("Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com"))
 	  (:maintainer "Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com")
@@ -17289,7 +17289,7 @@
 			(:keywords "evil" "syntax" "highlight" "text-object")
 			(:url . "https://github.com/laishulu/evil-textobj-syntax"))])
  (evil-textobj-tree-sitter .
-			   [(0 1 1 -4 20220930 1401)
+			   [(0 1 1 -4 20221007 1749)
 			    ((emacs
 			      (25 1))
 			     (evil
@@ -17297,7 +17297,7 @@
 			     (tree-sitter
 			      (0 15 0)))
 			    "Provides evil textobjects using tree-sitter" tar
-			    ((:commit . "fad2178f4455301afcafcf93d93fa5c5ca2aed47")
+			    ((:commit . "3c9a444a14b5f000e909b9b24458332e2916c9fc")
 			     (:keywords "evil" "tree-sitter" "text-object" "convenience")
 			     (:url . "https://github.com/meain/evil-textobj-tree-sitter"))])
  (evil-traces .
@@ -32790,13 +32790,13 @@
 	     (:keywords "languages")
 	     (:url . "https://github.com/peter-b/lcb-mode"))])
  (lcr .
-      [(1 2 1 -4 20221006 1529)
+      [(1 4 1 -4 20221007 1906)
        ((dash
 	 (2 12 0))
 	(emacs
 	 (25 1)))
        "lightweight coroutines" single
-       ((:commit . "017f052d380d3c8dbc64d0582cd7bc2f60f5a123")
+       ((:commit . "3ef2f32a337ac40736b22bd445fbd87a2726ea4f")
 	(:authors
 	 ("Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com"))
 	(:maintainer "Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com")
@@ -37133,7 +37133,7 @@
 	    (:keywords "convenience")
 	    (:url . "https://github.com/tarsius/morlock"))])
  (mos-mode .
-	   [(0 0 1 1 -4 20220927 1845)
+	   [(0 0 1 1 -4 20221007 1641)
 	    ((emacs
 	      (24 4))
 	     (lsp-mode
@@ -37145,7 +37145,7 @@
 	     (ht
 	      (2 3)))
 	    "MOS toolkit usage" single
-	    ((:commit . "3f82f1de4f951096424e0da14ea4e4a40a82059d")
+	    ((:commit . "396abaa4afbca895fe27bc0570491fb005fc7693")
 	     (:url . "https://github.com/themkat/mos-mode"))])
  (mosey .
 	[(0 2 1 -4 20180614 1649)
@@ -37849,11 +37849,11 @@
 	      (:keywords "convenience")
 	      (:url . "https://github.com/redguardtoo/mybigword"))])
  (mybuild-mode .
-	       [(0 1 0 1 -4 20221006 2039)
+	       [(0 2 0 1 -4 20221007 1928)
 		((emacs
 		  (24 3)))
 		"Major mode for editing Mybuild files from Embox" single
-		((:commit . "b8680e4eb62dfd911de63ecfbe6cae9ff5ee16fe")
+		((:commit . "54e3c31e3b5f133eb8611a3759e59733b17e33e3")
 		 (:authors
 		  ("Evgeny Simonenko" . "easimonenko@gmail.com"))
 		 (:maintainer "Evgeny Simonenko" . "easimonenko@gmail.com")
@@ -42047,7 +42047,7 @@
 		   (:maintainer "Michael Fogleman" . "michaelwfogleman@gmail.com")
 		   (:url . "http://github.com/mwfogleman/org-randomnote"))])
  (org-re-reveal .
-		[(3 16 0 1 -4 20221005 1326)
+		[(3 16 1 1 -4 20221007 1714)
 		 ((emacs
 		   (24 4))
 		  (org
@@ -42055,7 +42055,7 @@
 		  (htmlize
 		   (1 34)))
 		 "Org export to reveal.js presentations" tar
-		 ((:commit . "5ab524be0ebeaa5b82d344340a1f58233fa7a5d1")
+		 ((:commit . "941aa4b94f4eb13cea23013126e84f335059dead")
 		  (:keywords "tools" "outlines" "hypermedia" "slideshow" "presentation" "oer")
 		  (:url . "https://gitlab.com/oer/org-re-reveal"))])
  (org-re-reveal-citeproc .
@@ -43681,13 +43681,13 @@
 		  (:keywords "html" "presentation")
 		  (:url . "http://github.com/coldnew/org-html5slide"))])
  (ox-hugo .
-	  [(0 12 1 1 -4 20220626 2055)
+	  [(0 12 1 1 -4 20221007 1921)
 	   ((emacs
 	     (26 3))
 	    (tomelr
 	     (0 4 3)))
 	   "Hugo Markdown Back-End for Org Export Engine" tar
-	   ((:commit . "97ff24fe0b8d29c503b88eea69235b02ae71beb0")
+	   ((:commit . "8fbd301c03296253bfb5ee193770e1da3ea2df1a")
 	    (:authors
 	     ("Kaushal Modi" . "kaushal.modi@gmail.com")
 	     ("Matt Price" . "moptop99@gmail.com"))
@@ -48542,15 +48542,18 @@
 	     (:maintainer "Kyle Hargraves")
 	     (:url . "https://github.com/pd/quickref.el"))])
  (quickrun .
-	   [(2 3 1 1 -4 20221007 1615)
+	   [(2 3 1 1 -4 20221007 1956)
 	    ((emacs
-	      (24 3)))
+	      (26 1))
+	     (ht
+	      (2 0)))
 	    "Run commands quickly" single
-	    ((:commit . "62c5e2a8d0354b97d020dad545bb99381ca65b37")
+	    ((:commit . "abbd70b63edc68f5184ee59795255905e5a3a197")
 	     (:authors
 	      ("Syohei YOSHIDA" . "syohex@gmail.com"))
-	     (:maintainer "Syohei YOSHIDA" . "syohex@gmail.com")
-	     (:url . "https://github.com/syohex/emacs-quickrun"))])
+	     (:maintainer "Jen-Chieh Shen" . "jcs090218@gmail.com")
+	     (:keywords "tools")
+	     (:url . "https://github.com/emacsorphanage/quickrun"))])
  (quiet .
 	[(0 1 1 -4 20200211 721)
 	 nil "Disconnect from the online world for a while" single
