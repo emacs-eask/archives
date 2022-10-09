@@ -16240,6 +16240,17 @@
 		     (:maintainer "Peter Oliver" . "git@mavit.org.uk")
 		     (:keywords "languages")
 		     (:url . "https://gitlab.com/mavit/etc-sudoers-mode/"))])
+ (etd .
+      [(2 0 0 1 -4 20221003 114)
+       ((emacs
+	 (24 4)))
+       "Examples to Tests and Docs" single
+       ((:commit . "f26f603d088631ce0466aa529de7156fa94ffbc5")
+	(:authors
+	 ("Jason M23" . "jasonm23@gmail.com"))
+	(:maintainer "Jason M23" . "jasonm23@gmail.com")
+	(:keywords "lisp" "tools" "extensions")
+	(:url . "https://github.com/emacsfodder/kurecolor"))])
  (eterm-256color .
 		 [(0 3 14 1 -4 20210224 2241)
 		  ((emacs
@@ -27764,6 +27775,16 @@
 			 ("Anders Lindgren"))
 			(:maintainer "Anders Lindgren")
 			(:keywords "tools"))])
+ (himalaya .
+	   [(0 1 1 -4 20221007 1816)
+	    ((emacs
+	      (27 1)))
+	    "Interface for the himalaya email client" single
+	    ((:commit . "1735b55e4dd60c63fe3900e959655f1f8b961590")
+	     (:authors
+	      ("Dante Catalfamo"))
+	     (:maintainer "Dante Catalfamo")
+	     (:url . "https://github.com/dantecatalfamo/himalaya-emacs"))])
  (hindent .
 	  [(0 1 0 1 -4 20210201 148)
 	   ((cl-lib
@@ -39514,6 +39535,17 @@
 		 (:maintainer "Fr\303\251d\303\251ric Santos")
 		 (:keywords "languages")
 		 (:url . "https://github.com/frederic-santos/ob-ess-julia"))])
+ (ob-ffuf .
+	  [(0 9 1 -4 20221004 1715)
+	   ((emacs
+	     (28 1)))
+	   "Babel functions for ffuf" tar
+	   ((:commit . "5310a3e766a252ac34f8cb2307c4e48e982f5611")
+	    (:authors
+	     ("Daniel Tschertkow"))
+	    (:maintainer "Daniel Tschertkow" . "daniel.tschertkow@posteo.de")
+	    (:keywords "comm" "tools")
+	    (:url . "https://github.com/daniel-ts/ob-ffuf"))])
  (ob-fricas .
 	    [(1 0 1 -4 20220612 854)
 	     ((emacs
@@ -45013,6 +45045,16 @@
 		   ("Jason Milkins"))
 		  (:maintainer "Jason Milkins")
 		  (:url . "https://github.com/emacsfodder/tmtheme-to-deftheme"))])
+ (pebble-mode .
+	      [(0 3 1 -4 20221003 1349)
+	       ((emacs
+		 (24 3)))
+	       "A major mode for pebble" single
+	       ((:commit . "2fe700727eda7826cb1dfa6b0c5f7a474491e44e")
+		(:authors
+		 ("Florian Mounier aka paradoxxxzero"))
+		(:maintainer "Florian Mounier aka paradoxxxzero")
+		(:url . "https://github.com/ArneBab/pebble-mode"))])
  (peek-mode .
 	    [(0 1 1 -4 20130620 1946)
 	     ((elnode
@@ -50198,6 +50240,16 @@
 		   (:maintainer "Marco Wahl" . "marcowahlsoft@gmail.com")
 		   (:keywords "reading" "convenience" "chill")
 		   (:url . "https://gitlab.com/marcowahl/rope-read-mode"))])
+ (ropgadget .
+	    [(1 0 0 1 -4 20221006 1105)
+	     ((emacs
+	       (24 4))
+	      (transient
+	       (0 3 6)))
+	     "Display and filter ROP gadgets of a binary" single
+	     ((:commit . "03305f2d73d7092adab495c45b15c8f16f292c8f")
+	      (:keywords "tools" "ctf" "pwn" "rop")
+	      (:url . "https://github.com/Dragoncraft89/ropgadget-el"))])
  (ros .
       [(1 0 0 1 -4 20220604 749)
        ((emacs
@@ -55514,7 +55566,7 @@
 	 (:keywords "convenience" "emulations" "files")
 	 (:url . "https://github.com/mtk/teco.git"))])
  (telega .
-	 [(0 8 60 1 -4 20221009 1449)
+	 [(0 8 60 1 -4 20221009 1702)
 	  ((emacs
 	    (26 1))
 	   (visual-fill-column
@@ -55522,7 +55574,7 @@
 	   (rainbow-identifiers
 	    (0 2 2)))
 	  "Telegram client (unofficial)" tar
-	  ((:commit . "06d90bd1e389eb01b8fab824553821f24385e90b")
+	  ((:commit . "e74c546fb6ae0fd468bb7d7b5efae4f8b9664d96")
 	   (:authors
 	    ("Zajcev Evgeny" . "zevlg@yandex.ru"))
 	   (:maintainer "Zajcev Evgeny" . "zevlg@yandex.ru")
