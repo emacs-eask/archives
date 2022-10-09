@@ -4101,7 +4101,7 @@
 	"Ergonomic Command Mode for Emacs." tar
 	((:commit . "520f68699e2a5a8e022c058992d3d39737c32753"))])
  (borg .
-       [(3 3 1 -4 20221005 1147)
+       [(3 3 1 -4 20221009 1905)
 	((emacs
 	  (26))
 	 (epkg
@@ -4109,7 +4109,7 @@
 	 (magit
 	  (3 3 0)))
 	"Assimilate Emacs packages as Git submodules" tar
-	((:commit . "78a1c87e2752d2b896b3af8d189dbdbe42364408")
+	((:commit . "68290cc58fc470e670423a1a80ff61de2f5948a4")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -9947,7 +9947,7 @@
 		      (:maintainer "Dmitry Akatov" . "akatovda@yandex.com")
 		      (:url . "https://github.com/rails-to-cosmos/"))])
  (dante .
-	[(0 1 0 1 -4 20221008 1411)
+	[(0 1 0 1 -4 20221009 1935)
 	 ((dash
 	   (2 12 0))
 	  (emacs
@@ -9965,7 +9965,7 @@
 	  (lcr
 	   (1 4)))
 	 "Development mode for Haskell" single
-	 ((:commit . "a50eb873b836272173269d6010dcb1972d7d248b")
+	 ((:commit . "7ef533018888eb4b1c0278ae7771016ffd3ca1f8")
 	  (:authors
 	   ("Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com"))
 	  (:maintainer "Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com")
@@ -28626,6 +28626,16 @@
 		  (:maintainer "Naoya Yamashita" . "conao3@gmail.com")
 		  (:keywords "convenience")
 		  (:url . "https://github.com/conao3/iceberg-theme.el"))])
+ (icl-mode .
+	   [(0 1 0 1 -4 20221003 2316)
+	    ((emacs
+	      (25 2)))
+	    "Support for IEEE 1687 ICL/PDL" single
+	    ((:commit . "1ef19c3c1c7f2667796907391d5337bbc2d73df3")
+	     (:authors
+	      ("Troy Hinckley" . "troy.hinckley@dabrev.com"))
+	     (:maintainer "Troy Hinckley" . "troy.hinckley@dabrev.com")
+	     (:url . "https://github.com/CeleritasCelery/icl-mode"))])
  (icomplete-vertical .
 		     [(0 3 1 -4 20220418 2119)
 		      ((emacs
