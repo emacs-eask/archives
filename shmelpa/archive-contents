@@ -8379,13 +8379,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 19 1 -4 20221001 1918)
+	  [(0 19 1 -4 20221010 1201)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (28 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "11857fdec772b24a7e83fe9a9f494bcdfd2707f7")
+	   ((:commit . "162d7d73edb63faa7dd72fcffb20af42886de6e0")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -11514,13 +11514,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(2 0 53 1 -4 20221007 617)
+	  [(2 0 53 1 -4 20221010 1134)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "a33dbb520e92d3474e6b64ffc55909af2648ab0f")
+	   ((:commit . "0beee69ea1c4d08929ac63ea0d35c552d8f24610")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -12537,11 +12537,11 @@
        (:keywords "convenience" "games")
        (:url . "https://github.com/integral-dw/dw-passphrase-generator"))])
  (dwim-shell-command .
-		     [(0 22 1 -4 20221009 1428)
+		     [(0 23 1 -4 20221010 1300)
 		      ((emacs
 			(27 1)))
 		      "Shell commands with DWIM behaviour" tar
-		      ((:commit . "95dec835e2acc5de7e50ce156144bebd046e0ecc")
+		      ((:commit . "a949445cc23f50c4fc6f13f5094946f8d7673d86")
 		       (:authors
 			("Alvaro Ramirez"))
 		       (:maintainer "Alvaro Ramirez")
@@ -14685,13 +14685,27 @@
 		   ("Christopher Wellons" . "wellons@nullprogram.com"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		  (:url . "https://github.com/magit/emacsql"))])
+ (emacsql-pg .
+	     [(0 1 0 1 -4 20221002 1336)
+	      ((emacs
+		(25 1))
+	       (emacsql
+		(3 0 0))
+	       (pg
+		(0 16)))
+	      "EmacSQL back-end for PostgreSQL via pg" single
+	      ((:commit . "5c4aa1030be157229cdccd6b11cb30ca94cda954")
+	       (:authors
+		("Christopher Wellons" . "wellons@nullprogram.com"))
+	       (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+	       (:url . "https://github.com/magit/emacsql"))])
  (emacsql-psql .
 	       [(3 0 0 -4 20221009 1108)
 		((emacs
 		  (25 1))
 		 (emacsql
 		  (2 0 0)))
-		"EmacSQL back-end for PostgreSQL via psql" tar
+		"EmacSQL back-end for PostgreSQL via psql" single
 		((:commit . "4fe4413994b667e4fd2d7795d56d01cbc0237a6a")
 		 (:authors
 		  ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -35539,11 +35553,11 @@
 	      (:keywords "docker")
 	      (:url . "https://github.com/nlamirault/marcopolo"))])
  (marginalia .
-	     [(0 14 1 -4 20220922 1059)
+	     [(0 14 1 -4 20221010 1204)
 	      ((emacs
 		(27 1)))
 	      "Enrich existing commands with completion annotations" single
-	      ((:commit . "ddba3a384916d83b68527379bbdf01161201853e")
+	      ((:commit . "c37a2765b97520203c7b842490717c7c08be468f")
 	       (:authors
 		("Omar Antol\303\255n Camarena <omar@matem.unam.mx>, Daniel Mendler" . "mail@daniel-mendler.de"))
 	       (:maintainer "Omar Antol\303\255n Camarena <omar@matem.unam.mx>, Daniel Mendler" . "mail@daniel-mendler.de")
