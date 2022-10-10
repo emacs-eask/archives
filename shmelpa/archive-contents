@@ -21888,7 +21888,7 @@
 	     (:keywords "evernote" "geeknote" "note" "emacs-evernote" "evernote-mode")
 	     (:url . "http://github.com/avendael/emacs-geeknote"))])
  (geiser .
-	 [(0 26 1 1 -4 20221009 257)
+	 [(0 26 1 1 -4 20221009 2303)
 	  ((emacs
 	    (25 1))
 	   (transient
@@ -21896,7 +21896,7 @@
 	   (project
 	    (0 8 1)))
 	  "GNU Emacs and Scheme talk to each other" tar
-	  ((:commit . "9a3df3a9aa365f64cb9c228dbd856b02afe346ec")
+	  ((:commit . "d836c0025f9e51689c4c078c57546c0870498137")
 	   (:authors
 	    ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
 	   (:maintainer "Jose Antonio Ortega Ruiz" . "jao@gnu.org")
@@ -31180,13 +31180,13 @@
 		       (:maintainer "Mihai Bazon" . "mihai.bazon@gmail.com")
 		       (:url . "http://mihai.bazon.net/projects/editing-javascript-with-emacs-js2-mode/js2-highlight-vars-mode"))])
  (js2-mode .
-	   [(20220710 1 -4 20220710 57)
+	   [(20220710 1 -4 20221009 2221)
 	    ((emacs
 	      (24 1))
 	     (cl-lib
 	      (0 5)))
 	    "Improved JavaScript editing mode" tar
-	    ((:commit . "841cfec9570ae06a67a131997e2aff32340e81d7")
+	    ((:commit . "7480c796917a18d7236414ce3cdf44b5be578d2a")
 	     (:authors
 	      ("Steve Yegge" . "steve.yegge@gmail.com")
 	      ("mooz" . "stillpedant@gmail.com")
@@ -50561,11 +50561,11 @@
 			(:keywords "extensions" "run-command")
 			(:url . "https://github.com/semenInRussia/emacs-run-command-recipes"))])
  (run-stuff .
-	    [(0 0 2 1 -4 20220710 1035)
+	    [(0 0 3 1 -4 20221009 2235)
 	     ((emacs
 	       (25 1)))
 	     "Context based command execution" single
-	     ((:commit . "1c51c273ab2f1750278284a15bf6cff464bddc2a")
+	     ((:commit . "984e5219adbee369487768a3ad6a408515e15446")
 	      (:authors
 	       ("Campbell Barton" . "ideasman42@gmail.com"))
 	      (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -55181,11 +55181,13 @@
 		    ("Jonathan Kotta" . "jpkotta@gmail.com"))
 		   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com"))])
  (syntree .
-	  [(1 0 0 1 -4 20221007 2055)
+	  [(1 1 0 1 -4 20221009 2339)
 	   ((emacs
-	     (27 1)))
+	     (27 1))
+	    (org
+	     (9 2)))
 	   "Draw plain text constituency trees" tar
-	   ((:commit . "a9df2930dcc67f813c7892fb40aac020ed7627b9")
+	   ((:commit . "f3bc306e66e16dba9e535c37db09b2adadc156e1")
 	    (:authors
 	     ("Enrico Flor" . "enrico@eflor.net"))
 	    (:maintainer "Enrico Flor" . "enrico@eflor.net")
