@@ -1824,17 +1824,6 @@
 	(:maintainer "nik gaffney" . "nik@fo.am")
 	(:keywords "air quality" "aqi" "pollution" "weather" "data")
 	(:url . "https://github.com/zzkt/aqi"))])
- (arc-dark-theme .
-		 [(0 1 0 1 -4 20190314 1632)
-		  ((emacs
-		    (24)))
-		  "Arc dark theme" single
-		  ((:commit . "ee17dcca35dd0304145efc468b3f25af6907a59d")
-		   (:authors
-		    ("Christopher Fraser" . "cfraz89@gmail.com"))
-		   (:maintainer "Christopher Fraser" . "cfraz89@gmail.com")
-		   (:keywords "faces" "theme")
-		   (:url . "https://github.com/cfraz89/arc-dark-theme"))])
  (arch-packer .
 	      [(0 3 1 -4 20170730 1321)
 	       ((emacs
@@ -5409,11 +5398,11 @@
 	    (:keywords "python" "go" "php" "phpunit" "elisp" "ert" "tests" "tdd")
 	    (:url . "https://github.com/nlamirault/cerbere"))])
  (cern-ldap .
-	    [(0 0 1 1 -4 20220925 1550)
+	    [(0 0 1 1 -4 20221010 1451)
 	     ((emacs
 	       (27 1)))
 	     "Library to interact with CERN's LDAP servers" single
-	     ((:commit . "4851e952318e11ea9693efe2e460983d5c6dffcd")
+	     ((:commit . "6cfd7bbefcf4d2acfd2c3107fb37104d8e401c92")
 	      (:authors
 	       ("Nacho Barrientos" . "nacho.barrientos@cern.ch"))
 	      (:maintainer "Nacho Barrientos" . "nacho.barrientos@cern.ch")
@@ -14724,37 +14713,31 @@
 		   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-builtin .
-			 [(0 1 0 1 -4 20220422 1605)
+			 [(0 1 0 1 -4 20221010 1320)
 			  ((emacs
 			    (29))
 			   (emacsql
-			    (3 0 0))
-			   (emacsql-sqlite
 			    (3 0 0)))
 			  "EmacSQL back-end for SQLite using builtin support" single
-			  ((:commit . "c6f66f2a94a0c520d5c1028858adc2ab0f959f96")
+			  ((:commit . "676f1ff6f561e213dab91d218c5b4e7e965791c1")
 			   (:authors
 			    ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
-			   (:keywords "data")
-			   (:url . "https://github.com/emacscollective/emacsql-sqlite-builtin"))])
+			   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-module .
-			[(0 1 0 1 -4 20220422 1605)
+			[(0 1 0 1 -4 20221010 1320)
 			 ((emacs
 			   (25))
 			  (emacsql
 			   (3 0 0))
-			  (emacsql-sqlite
-			   (3 0 0))
 			  (sqlite3
 			   (0 15)))
 			 "EmacSQL back-end for SQLite using a module" single
-			 ((:commit . "c6f66f2a94a0c520d5c1028858adc2ab0f959f96")
+			 ((:commit . "676f1ff6f561e213dab91d218c5b4e7e965791c1")
 			  (:authors
 			   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
-			  (:keywords "data")
-			  (:url . "https://github.com/emacscollective/emacsql-sqlite-builtin"))])
+			  (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite3 .
 		  [(1 0 2 1 -4 20220304 1014)
 		   ((emacs
@@ -16599,21 +16582,6 @@
 		  ("Junpeng Qiu" . "qjpchmail@gmail.com"))
 		 (:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com")
 		 (:keywords "extensions"))])
- (evil-escape .
-	      [(3 15 1 -4 20180910 1234)
-	       ((emacs
-		 (24))
-		(evil
-		 (1 0 9))
-		(cl-lib
-		 (0 5)))
-	       "No description available." single
-	       ((:commit . "f4e9116bfbaac8c9d210c17ad488e0982291245f")
-		(:authors
-		 ("Sylvain Benner" . "sylvain.benner@gmail.com"))
-		(:maintainer "Sylvain Benner" . "sylvain.benner@gmail.com")
-		(:keywords "convenience" "editing" "evil")
-		(:url . "https://github.com/syl20bnr/evil-escape"))])
  (evil-ex-fasd .
 	       [(0 1 0 1 -4 20180903 612)
 		((emacs
