@@ -16582,6 +16582,21 @@
 		  ("Junpeng Qiu" . "qjpchmail@gmail.com"))
 		 (:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com")
 		 (:keywords "extensions"))])
+ (evil-escape .
+	      [(3 16 1 -4 20221010 2116)
+	       ((emacs
+		 (24))
+		(evil
+		 (1 0 9))
+		(cl-lib
+		 (0 5)))
+	       "Escape from anything with a customizable key sequence" single
+	       ((:commit . "3c335a5709b1abb08687960038746b36add465f9")
+		(:authors
+		 ("Sylvain Benner" . "sylvain.benner@gmail.com"))
+		(:maintainer "Sylvain Benner" . "sylvain.benner@gmail.com")
+		(:keywords "convenience" "editing" "evil")
+		(:url . "https://github.com/emacsorphanage/evil-escape"))])
  (evil-ex-fasd .
 	       [(0 1 0 1 -4 20180903 612)
 		((emacs
@@ -21626,13 +21641,13 @@
 	  ("Natalie Weizenbaum" . "nweiz@google.com"))
 	 (:maintainer "Natalie Weizenbaum" . "nweiz@google.com"))])
  (fussy .
-	[(1 0 1 -4 20220827 2321)
+	[(1 0 1 -4 20221010 2026)
 	 ((emacs
 	   (27 2))
 	  (flx
 	   (0 5)))
 	 "Fuzzy completion style using `flx'" single
-	 ((:commit . "1e785a4cd94c8d68df5b7905de05bb03c53e70ba")
+	 ((:commit . "0fbfcbace0729dba685da9b9a74566639b840ec3")
 	  (:authors
 	   ("James Nguyen" . "james@jojojames.com"))
 	  (:maintainer "James Nguyen" . "james@jojojames.com")
@@ -34317,7 +34332,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20221005 1731)
+	   [(8 0 1 1 -4 20221010 2033)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -34333,7 +34348,7 @@
 	     (lv
 	      (0)))
 	    "LSP mode" tar
-	    ((:commit . "c9db552dcef80c481ecca6bf53c86a12f2a9cd55")
+	    ((:commit . "759fb79b4fc62b9b8d2dcd8a4e4db951af090fdb")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -36696,11 +36711,11 @@
 	       (:maintainer "Ben Hayden" . "hayden767@gmail.com")
 	       (:url . "https://github.com/glynnforrest/mmm-jinja2"))])
  (mmm-mode .
-	   [(0 5 8 1 -4 20200908 2236)
+	   [(0 5 8 1 -4 20221010 2204)
 	    ((cl-lib
 	      (0 2)))
 	    "Allow Multiple Major Modes in a buffer" tar
-	    ((:commit . "0d00cdf4d02cc166304f6967a20fa22e2eaf208b")
+	    ((:commit . "3269d940b9ef536cdff2528417ad33d63caa7677")
 	     (:authors
 	      ("Michael Abraham Shulman" . "viritrilbia@gmail.com"))
 	     (:maintainer "Dmitry Gutov" . "dgutov@yandex.ru")
@@ -41489,13 +41504,13 @@
 			(:keywords "tex" "tools")
 			(:url . "https://github.com/yangsheng6810/org-latex-instant-preview"))])
  (org-link-beautify .
-		    [(1 2 2 1 -4 20220914 1311)
+		    [(1 2 2 1 -4 20221010 2246)
 		     ((emacs
 		       (28 1))
 		      (all-the-icons
 		       (5 0 0)))
 		     "Beautify Org Links" single
-		     ((:commit . "e349e50928651199213518b84f6df429ac3a32d8")
+		     ((:commit . "b8aeeaebb621f1fcc38ef0da2d4326f44191dcd0")
 		      (:keywords "hypermedia")
 		      (:url . "https://repo.or.cz/org-link-beautify.git"))])
  (org-link-travis .
@@ -55163,13 +55178,13 @@
 		    ("Jonathan Kotta" . "jpkotta@gmail.com"))
 		   (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com"))])
  (syntree .
-	  [(1 1 0 1 -4 20221009 2339)
+	  [(1 1 1 1 -4 20221010 2122)
 	   ((emacs
 	     (27 1))
 	    (org
 	     (9 2)))
 	   "Draw plain text constituency trees" tar
-	   ((:commit . "f3bc306e66e16dba9e535c37db09b2adadc156e1")
+	   ((:commit . "2aba7298ab865e5242a013b3c7ecae240b5c811e")
 	    (:authors
 	     ("Enrico Flor" . "enrico@eflor.net"))
 	    (:maintainer "Enrico Flor" . "enrico@eflor.net")
