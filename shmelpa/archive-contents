@@ -8368,13 +8368,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 19 1 -4 20221011 1125)
+	  [(0 19 1 -4 20221013 1503)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (28 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "5115b8bd277d34ea3cea4ce3c2d2d1d85e5c44c1")
+	   ((:commit . "45a05fbbcaf67f5b60c4d614bafce3b9b8279ea0")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -10643,11 +10643,11 @@
 		     (:keywords "convenience")
 		     (:url . "http://projects.ryuslash.org/desktop-registry/"))])
  (detached .
-	   [(0 9 1 1 -4 20221013 825)
+	   [(0 9 1 1 -4 20221013 1315)
 	    ((emacs
 	      (27 1)))
 	    "A package to launch, and manage, detached processes" tar
-	    ((:commit . "74a1cfd4cc1660259ac5cbfe6b72f83c9b28706e")
+	    ((:commit . "e02efdbfd87580907b847d5d069a40dd6520a23b")
 	     (:authors
 	      ("Niklas Eklund" . "niklas.eklund@posteo.net"))
 	     (:maintainer "detached.el Development" . "~niklaseklund/detached.el@lists.sr.ht")
@@ -11503,13 +11503,13 @@
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		     (:url . "https://github.com/abingham/prosjekt"))])
  (dirvish .
-	  [(2 0 53 1 -4 20221012 755)
+	  [(2 0 53 1 -4 20221013 1528)
 	   ((emacs
 	     (27 1))
 	    (transient
 	     (0 3 7)))
 	   "A modern file manager based on dired mode" tar
-	   ((:commit . "4813c6669939cac511c792b432b3ee3ca9705478")
+	   ((:commit . "6c76aabbb32ba4bfc7faa9512cdb6c1c681f0126")
 	    (:authors
 	     ("Alex Lu <https://github.com/alexluigit>"))
 	    (:maintainer "Alex Lu <https://github.com/alexluigit>")
@@ -12526,11 +12526,11 @@
        (:keywords "convenience" "games")
        (:url . "https://github.com/integral-dw/dw-passphrase-generator"))])
  (dwim-shell-command .
-		     [(0 26 1 -4 20221013 1150)
+		     [(0 27 1 -4 20221013 1604)
 		      ((emacs
 			(27 1)))
 		      "Shell commands with DWIM behaviour" tar
-		      ((:commit . "a08edd4f54ba9b66428e45f1412b71bad67c5056")
+		      ((:commit . "7fa2503b4b4009f7fa416248fa7e1cbaa13d69c9")
 		       (:authors
 			("Alvaro Ramirez"))
 		       (:maintainer "Alvaro Ramirez")
@@ -14611,13 +14611,13 @@
 	 (:keywords "docs")
 	 (:url . "https://github.com/Fuco1/elwm"))])
  (elx .
-      [(0 1 0 1 -4 20220717 1643)
+      [(0 1 0 1 -4 20221013 1037)
        ((emacs
 	 (25 1))
 	(compat
 	 (28 1 1 0)))
        "Extract information from Emacs Lisp libraries" single
-       ((:commit . "2432d4bea001653384c592a11fcc96ecaa5e834f")
+       ((:commit . "6f8894a7c7dde11679d38526f8d5717d009a1bd3")
 	(:authors
 	 ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	(:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -14653,61 +14653,61 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(3 1 0 -4 20221011 1523)
+	  [(3 1 1 -4 20221013 1512)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
-	   ((:commit . "bfbd0c3a73f53d44d522995d065bd930f00c9316")
+	   ((:commit . "ec4f3d091b8e2c60ee305a63a6f45f0ea5996ed6")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	    (:url . "https://github.com/magit/emacsql"))])
  (emacsql-mysql .
-		[(0 1 0 1 -4 20221009 1108)
+		[(0 1 0 1 -4 20221013 1512)
 		 ((emacs
 		   (25 1))
 		  (emacsql
-		   (3 0 0)))
+		   (3 1 1)))
 		 "EmacSQL back-end for MySQL" single
-		 ((:commit . "4fe4413994b667e4fd2d7795d56d01cbc0237a6a")
+		 ((:commit . "ec4f3d091b8e2c60ee305a63a6f45f0ea5996ed6")
 		  (:authors
 		   ("Christopher Wellons" . "wellons@nullprogram.com"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		  (:url . "https://github.com/magit/emacsql"))])
  (emacsql-pg .
-	     [(0 1 0 1 -4 20221002 1336)
+	     [(0 1 0 1 -4 20221013 1512)
 	      ((emacs
 		(25 1))
 	       (emacsql
-		(3 0 0))
+		(3 1 1))
 	       (pg
 		(0 16)))
 	      "EmacSQL back-end for PostgreSQL via pg" single
-	      ((:commit . "5c4aa1030be157229cdccd6b11cb30ca94cda954")
+	      ((:commit . "ec4f3d091b8e2c60ee305a63a6f45f0ea5996ed6")
 	       (:authors
 		("Christopher Wellons" . "wellons@nullprogram.com"))
 	       (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	       (:url . "https://github.com/magit/emacsql"))])
  (emacsql-psql .
-	       [(3 0 0 -4 20221009 1108)
+	       [(0 1 0 1 -4 20221013 1512)
 		((emacs
 		  (25 1))
 		 (emacsql
-		  (2 0 0)))
+		  (3 1 1)))
 		"EmacSQL back-end for PostgreSQL via psql" single
-		((:commit . "4fe4413994b667e4fd2d7795d56d01cbc0237a6a")
+		((:commit . "ec4f3d091b8e2c60ee305a63a6f45f0ea5996ed6")
 		 (:authors
 		  ("Christopher Wellons" . "wellons@nullprogram.com"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		 (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite .
-		 [(3 0 0 -4 20221009 1108)
+		 [(3 1 1 -4 20221013 1512)
 		  ((emacs
 		    (25 1))
 		   (emacsql
-		    (3 0 0)))
+		    (3 1 1)))
 		  "EmacSQL back-end for SQLite" tar
-		  ((:commit . "4fe4413994b667e4fd2d7795d56d01cbc0237a6a")
+		  ((:commit . "ec4f3d091b8e2c60ee305a63a6f45f0ea5996ed6")
 		   (:authors
 		    ("Christopher Wellons" . "wellons@nullprogram.com"))
 		   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -34332,7 +34332,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20221010 2033)
+	   [(8 0 1 1 -4 20221013 1343)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -34348,7 +34348,7 @@
 	     (lv
 	      (0)))
 	    "LSP mode" tar
-	    ((:commit . "759fb79b4fc62b9b8d2dcd8a4e4db951af090fdb")
+	    ((:commit . "89b0e87d5ad489aaaefc643966d146ef7ac8e57b")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -44963,13 +44963,15 @@
 			(:maintainer "Thierry Volpiatto" . "thierry.volpiatto@gmail.com")
 			(:url . "https://github.com/thierryvolpiatto/pcomplete-extension"))])
  (pcre2el .
-	  [(1 8 1 -4 20161120 2103)
+	  [(1 9 1 -4 20221013 1644)
 	   ((emacs
-	     (24))
+	     (25 1))
 	    (cl-lib
-	     (0 3)))
+	     (0 3))
+	    (a
+	     (1 0 0)))
 	   "regexp syntax converter" single
-	   ((:commit . "0b5b2a2c173aab3fd14aac6cf5e90ad3bf58fa7d")
+	   ((:commit . "a05f5caf1d61cc415871e2a0dc2b6fd8ac3e3550")
 	    (:authors
 	     ("joddie <jonxfield at gmail.com>"))
 	    (:maintainer "joddie <jonxfield at gmail.com>")
