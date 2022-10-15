@@ -33742,9 +33742,11 @@
 	       (:maintainer "Jo\303\243o T\303\241vora" . "joaotavora@gmail.com")
 	       (:keywords "convenience"))])
  (livescript-mode .
-		  [(0 0 3 1 -4 20140613 421)
-		   nil "Major mode for editing LiveScript files" single
-		   ((:commit . "90a918d9686e256e6d4d439cc20f24dad8d3b804")
+		  [(0 0 4 1 -4 20221015 1316)
+		   ((emacs
+		     (24 3)))
+		   "Major mode for editing LiveScript files" single
+		   ((:commit . "e71a82a400e9d451c966c397bb8fa7887d35637b")
 		    (:authors
 		     ("Hisamatsu Yasuyuki" . "yas@null.net"))
 		    (:maintainer "Hisamatsu Yasuyuki" . "yas@null.net")
@@ -37402,7 +37404,7 @@
 	    (:keywords "lisp")
 	    (:url . "https://github.com/xuchunyang/msgpack.el"))])
  (msvc .
-       [(1 4 2 1 -4 20210503 1856)
+       [(1 4 3 1 -4 20221015 1610)
 	((emacs
 	  (24))
 	 (cl-lib
@@ -37412,7 +37414,7 @@
 	 (ac-clang
 	  (2 0 0)))
 	"Microsoft Visual C/C++ mode" tar
-	((:commit . "122dc9cb7f145f12dac7b117a48fceb38b279432")
+	((:commit . "1bf173b5da3fbf2bdb799116e2a1f31916c1e16e")
 	 (:authors
 	  ("yaruopooner [https://github.com/yaruopooner]"))
 	 (:maintainer "yaruopooner [https://github.com/yaruopooner]")
