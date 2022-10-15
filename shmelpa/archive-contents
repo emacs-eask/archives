@@ -3159,13 +3159,13 @@
 	      (:keywords "languages" "basic")
 	      (:url . "https://gitlab.com/sasanidas/emacs-c64-basic-ide"))])
  (basic-mode .
-	     [(0 4 6 1 -4 20220917 718)
+	     [(0 5 0 1 -4 20221015 901)
 	      ((seq
 		(2 20))
 	       (emacs
 		(25 1)))
 	      "Major mode for editing BASIC code" single
-	      ((:commit . "a3c305577c2e8d53b78f0255161f3568e9d0bb89")
+	      ((:commit . "d270a692ed4a9c6b172d1215ee538ebaff947eab")
 	       (:authors
 		("Johan Dykstrom"))
 	       (:maintainer "Johan Dykstrom")
@@ -8829,7 +8829,7 @@
 	  (:keywords "tools")
 	  (:url . "https://gitlab.com/montanari/cosmo-el"))])
  (counsel .
-	  [(0 13 4 1 -4 20220923 1051)
+	  [(0 13 4 1 -4 20221015 936)
 	   ((emacs
 	     (24 5))
 	    (ivy
@@ -8837,7 +8837,7 @@
 	    (swiper
 	     (0 13 4)))
 	   "Various completion functions using Ivy" single
-	   ((:commit . "0ca0c096f1ed6a920f3b398f743525adddb1ad61")
+	   ((:commit . "b8be4913a661b557e0d3275726e36871556569d3")
 	    (:authors
 	     ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	    (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
@@ -9811,13 +9811,13 @@
 	   (:keywords "files" "convenience" "buffer switching")
 	   (:url . "https://github.com/martinp26/cycbuf"))])
  (cycle-at-point .
-		 [(0 1 1 -4 20220723 646)
+		 [(0 1 1 -4 20221015 435)
 		  ((emacs
 		    (28 1))
 		   (recomplete
 		    (0 2)))
 		  "Cycle (rotate) the thing under the cursor" tar
-		  ((:commit . "7d8198e509c49eaeb76072bb8f1baa46d7970100")
+		  ((:commit . "c0437fb6dc15e4384fbd826375989616e8768a6f")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -21900,13 +21900,13 @@
 	   (:keywords "languages" "scheme" "geiser")
 	   (:url . "https://gitlab.com/emacs-geiser/"))])
  (geiser-chez .
-	      [(0 17 1 -4 20221015 233)
+	      [(0 17 1 -4 20221015 615)
 	       ((emacs
 		 (26 1))
 		(geiser
 		 (0 19)))
 	       "Chez and Geiser talk to each other" tar
-	       ((:commit . "e0e651c29daa86fefe5125c6d5256cc0bdbcc03d")
+	       ((:commit . "f00dcb93477ef97c215debf6267192cd0dd94e22")
 		(:authors
 		 ("Peter" . "craven@gmx.net"))
 		(:maintainer "Jose A Ortega Ruiz" . "jao@gnu.org")
@@ -22432,7 +22432,7 @@
 	       (:keywords "backup" "files" "tools" "git")
 	       (:url . "http://github.com/antham/git-backup"))])
  (git-backup-ivy .
-		 [(1 1 1 -4 20221014 2018)
+		 [(1 1 1 -4 20221015 431)
 		  ((ivy
 		    (0 12 0))
 		   (git-backup
@@ -22440,7 +22440,7 @@
 		   (emacs
 		    (25 1)))
 		  "An ivy interface to git-backup" single
-		  ((:commit . "8e6a384fb7656123b06521a49479ebf9e11fcc94")
+		  ((:commit . "e54a3c4b95023c58664a2c59b95a95a07759a1f8")
 		   (:authors
 		    ("Sebastian W\303\245linder" . "s.walinder@gmail.com"))
 		   (:maintainer "Sebastian W\303\245linder" . "s.walinder@gmail.com")
@@ -36081,7 +36081,7 @@
 	     (:keywords "markdown" "memo")
 	     (:url . "http://github.com/mikanfactory/emacs-memolist"))])
  (mentor .
-	 [(0 6 1 -4 20220922 1342)
+	 [(0 6 1 -4 20221015 451)
 	  ((emacs
 	    (25 1))
 	   (xml-rpc
@@ -36091,7 +36091,7 @@
 	   (async
 	    (1 9 3)))
 	  "Frontend for the rTorrent bittorrent client" tar
-	  ((:commit . "969459eeee86c995f73f9f2026255b3b734c4665")
+	  ((:commit . "c1d7121a455aaeebb11254916d4c0037a8171fec")
 	   (:authors
 	    ("Stefan Kangas" . "stefankangas@gmail.com"))
 	   (:maintainer "Stefan Kangas" . "stefankangas@gmail.com")
@@ -42172,7 +42172,7 @@
 		(:keywords "redmine" "org")
 		(:url . "https://github.com/gongo/org-redmine"))])
  (org-ref .
-	  [(3 0 1 -4 20221013 1140)
+	  [(3 0 1 -4 20221015 1308)
 	   ((org
 	     (9 4))
 	    (dash
@@ -42196,7 +42196,7 @@
 	    (ox-pandoc
 	     (0)))
 	   "citations, cross-references and bibliographies in org-mode" tar
-	   ((:commit . "436fb14ebff975781c89297e736047c6aec61e21")
+	   ((:commit . "25fddfc5c4d700cba4600ae114a8c12603ae1649")
 	    (:authors
 	     ("John Kitchin" . "jkitchin@andrew.cmu.edu"))
 	    (:maintainer "John Kitchin" . "jkitchin@andrew.cmu.edu")
@@ -45331,11 +45331,11 @@
 	    (:maintainer "Alexander Miller" . "alexanderm@web.de")
 	    (:url . "https://github.com/Alexander-Miller/pfuture"))])
  (pg .
-     [(0 18 1 -4 20221014 1617)
+     [(0 18 1 -4 20221015 1054)
       ((emacs
 	(26 1)))
       "Emacs Lisp socket-level interface to the PostgreSQL RDBMS" single
-      ((:commit . "f5319ce20a9c1c6351342eba937aab606f8cafe4")
+      ((:commit . "0621efb53b551436f613bd9963cf67e9160fd8eb")
        (:authors
 	("Eric Marsden" . "eric.marsden@risk-engineering.org"))
        (:maintainer "Eric Marsden" . "eric.marsden@risk-engineering.org")
@@ -46743,11 +46743,11 @@
 	    (:maintainer "S. Irie")
 	    (:keywords "tooltip"))])
  (posframe .
-	   [(1 1 8 1 -4 20221009 23)
+	   [(1 1 8 1 -4 20221015 727)
 	    ((emacs
 	      (26 1)))
 	    "Pop a posframe (just a frame) at point" tar
-	    ((:commit . "0c5e57ac870735cb780936b1efc4bdd17fe87112")
+	    ((:commit . "3084cb6eb366d26b0f5a4aa9baffb297178be3b8")
 	     (:authors
 	      ("Feng Shu" . "tumashu@163.com"))
 	     (:maintainer "Feng Shu" . "tumashu@163.com")
@@ -48591,13 +48591,13 @@
 	     (:maintainer "Kyle Hargraves")
 	     (:url . "https://github.com/pd/quickref.el"))])
  (quickrun .
-	   [(2 3 1 1 -4 20221010 1843)
+	   [(2 3 1 1 -4 20221015 1114)
 	    ((emacs
 	      (26 1))
 	     (ht
 	      (2 0)))
 	    "Run commands quickly" single
-	    ((:commit . "04ab23ba3483fcf8ca05927464cf76818cb9dfa3")
+	    ((:commit . "548b64c3679ff058d80d0080c06d736e25611563")
 	     (:authors
 	      ("Syohei YOSHIDA" . "syohex@gmail.com"))
 	     (:maintainer "Jen-Chieh Shen" . "jcs090218@gmail.com")
