@@ -1840,6 +1840,19 @@
 		 ("Fritz Stelzer" . "brotzeitmacher@gmail.com"))
 		(:maintainer "Fritz Stelzer" . "brotzeitmacher@gmail.com")
 		(:url . "https://github.com/brotzeitmacher/arch-packer"))])
+ (archive-phar .
+	       [(1 24 1 1 -4 20221009 2129)
+		((emacs
+		  (28 1))
+		 (php-runtime
+		  (0 2))
+		 (datetime-format
+		  (0 0 1)))
+		"Phar file support for archive-mode" single
+		((:commit . "0bda3e338446d06dbe9d8c8837dee746de48632f")
+		 (:maintainer "USAMI Kenta" . "tadsan@zonu.me")
+		 (:keywords "files")
+		 (:url . "https://github.com/emacs-php/archive-phar.el"))])
  (archive-region .
 		 [(0 1 1 -4 20200316 1425)
 		  ((emacs
@@ -2152,7 +2165,7 @@
 		  (:keywords "chrome" "edit" "textarea")
 		  (:url . "https://github.com/alpha22jp/atomic-chrome"))])
  (attrap .
-	 [(0 2 1 -4 20221016 1212)
+	 [(0 2 1 -4 20221016 2018)
 	  ((dash
 	    (2 12 0))
 	   (emacs
@@ -2162,7 +2175,7 @@
 	   (s
 	    (1 11 0)))
 	  "ATtempt To Repair At Point" single
-	  ((:commit . "1fa24925fcea475c62bfd3041cf25d828ce00f34")
+	  ((:commit . "58ac51542ced1c7a3c22d4f23f6ca58358587748")
 	   (:authors
 	    ("Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com"))
 	   (:maintainer "Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com")
@@ -12524,11 +12537,11 @@
        (:keywords "convenience" "games")
        (:url . "https://github.com/integral-dw/dw-passphrase-generator"))])
  (dwim-shell-command .
-		     [(0 28 1 -4 20221013 2141)
+		     [(0 29 1 -4 20221016 2103)
 		      ((emacs
 			(27 1)))
 		      "Shell commands with DWIM behaviour" tar
-		      ((:commit . "45aa7caa40b9326a61c76137da38f4a1dc128d90")
+		      ((:commit . "af4d9778a2aef2423b63325502060653b19487fc")
 		       (:authors
 			("Alvaro Ramirez"))
 		       (:maintainer "Alvaro Ramirez")
@@ -20922,13 +20935,13 @@
        (:maintainer "Troy Pracy")
        (:keywords "functional"))])
  (focus .
-	[(1 0 0 1 -4 20220910 1300)
+	[(1 0 1 1 -4 20221016 1846)
 	 ((emacs
 	   (24 3))
 	  (cl-lib
 	   (0 5)))
 	 "Dim the font color of text in surrounding sections" single
-	 ((:commit . "9dd85fc474bbc1ebf22c287752c960394fcd465a")
+	 ((:commit . "2507ec4ec5a9402647ef85540669db1815520c15")
 	  (:authors
 	   ("Lars Tveito" . "larstvei@ifi.uio.no"))
 	  (:maintainer "Lars Tveito" . "larstvei@ifi.uio.no")
@@ -21883,7 +21896,7 @@
 	     (:keywords "evernote" "geeknote" "note" "emacs-evernote" "evernote-mode")
 	     (:url . "http://github.com/avendael/emacs-geeknote"))])
  (geiser .
-	 [(0 27 1 -4 20221016 314)
+	 [(0 27 1 -4 20221016 2109)
 	  ((emacs
 	    (25 1))
 	   (transient
@@ -21891,7 +21904,7 @@
 	   (project
 	    (0 8 1)))
 	  "GNU Emacs and Scheme talk to each other" tar
-	  ((:commit . "8637d72db828328ea645466036878820ec92d183")
+	  ((:commit . "3123a38e9ea036db9d9a884e7bb414490813e93c")
 	   (:authors
 	    ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
 	   (:maintainer "Jose Antonio Ortega Ruiz" . "jao@gnu.org")
@@ -39803,6 +39816,17 @@
 	      (:maintainer "Bjarte Johansen")
 	      (:keywords "literate programming" "reproducible research")
 	      (:url . "https://github.com/ljos/ob-prolog"))])
+ (ob-raku .
+	  [(1 0 0 1 -4 20221013 1938)
+	   ((emacs
+	     (24 1)))
+	   "Provides raku support for org-babel" single
+	   ((:commit . "21aa77a0ca70b7bef0ecf7d4d9c5272d71f0210c")
+	    (:authors
+	     ("Tim Van den Langenbergh https://github.com/tmtvl"))
+	    (:maintainer "Tim Van den Langenbergh https://github.com/tmtvl")
+	    (:keywords "literate programming" "reproducible research" "languages")
+	    (:url . "https://github.com/masukomi/ob-raku"))])
  (ob-redis .
 	   [(0 0 1 1 -4 20220221 1249)
 	    ((org
