@@ -33301,7 +33301,7 @@
 	      (:keywords "languages")
 	      (:url . "https://gitlab.com/ligolang/ligo/-/tree/dev/tools/emacs"))])
  (line-reminder .
-		[(0 5 1 1 -4 20221005 1709)
+		[(0 5 1 1 -4 20221016 1811)
 		 ((emacs
 		   (25 1))
 		  (indicators
@@ -33313,7 +33313,7 @@
 		  (ht
 		   (2 0)))
 		 "Line annotation for changed and saved lines" single
-		 ((:commit . "2372600499b7a1339e64a57621b0841e769b56b5")
+		 ((:commit . "53f6756b93c82d531d6b9419de0d2dcacc7a3f4e")
 		  (:authors
 		   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -36902,11 +36902,11 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(2 7 1 1 -4 20221016 1516)
+	       [(2 7 1 1 -4 20221016 1529)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "59da1b35112e1becb6e2c3912a417d28a22ac8ce")
+		((:commit . "0260109d158af525a9df3cd33b1efe1ec251bd49")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainer "Modus-Themes Development" . "~protesilaos/modus-themes@lists.sr.ht")
@@ -42740,11 +42740,11 @@
 			     (:keywords "org-mode" "table" "org-table" "tree" "csv" "convert")
 			     (:url . "https://github.com/jplindstrom/emacs-org-transform-tree-table"))])
  (org-tree-slide .
-		 [(2 8 18 1 -4 20220112 142)
+		 [(2 8 18 1 -4 20221016 1623)
 		  ((emacs
 		    (24 4)))
 		  "A presentation tool for org-mode" single
-		  ((:commit . "3faa042393ebfe5699a3bffce775f039d7416ceb")
+		  ((:commit . "d6529bc2df727d09014e0e56abf4f15a8e8fc20f")
 		   (:authors
 		    ("Takaaki ISHIKAWA <takaxp at ieee dot org>"))
 		   (:maintainer "Takaaki ISHIKAWA <takaxp at ieee dot org>")
@@ -61216,6 +61216,17 @@
 	 (:maintainer "Gabriele Rastello")
 	 (:keywords "youtube" "matching" "multimedia")
 	 (:url . "https://github.com/grastello/ytel"))])
+ (yuck-mode .
+	    [(1 0 1 1 -4 20221009 2223)
+	     ((emacs
+	       (25 1)))
+	     "Major mode for the yuck configuration language" single
+	     ((:commit . "cdf1bf252db7f8a1a5885f847a026f9b3a3e5497")
+	      (:authors
+	       ("mmcjimsey26"))
+	      (:maintainer "mmcjimsey26")
+	      (:keywords "languages" "yuck" "eww" "widgets")
+	      (:url . "https://github.com/mmcjimsey26/yuck-mode"))])
  (yul-mode .
 	   [(0 0 2 1 -4 20220927 338)
 	    nil "Major mode for editing Ethereum Yul intermediate code" single
