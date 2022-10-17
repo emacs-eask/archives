@@ -9957,7 +9957,7 @@
 		      (:maintainer "Dmitry Akatov" . "akatovda@yandex.com")
 		      (:url . "https://github.com/rails-to-cosmos/"))])
  (dante .
-	[(0 -1 1 -4 20221016 1005)
+	[(0 -1 1 -4 20221017 1959)
 	 ((dash
 	   (2 12 0))
 	  (emacs
@@ -9975,7 +9975,7 @@
 	  (lcr
 	   (1 5)))
 	 "Development mode for Haskell" single
-	 ((:commit . "f90242d4c678fae52bf43e011ec50058cc07486b")
+	 ((:commit . "3793b5f6b7b94f489bf9a0c33080918e7bc33030")
 	  (:authors
 	   ("Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com"))
 	  (:maintainer "Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com")
@@ -14225,11 +14225,11 @@
 		    (:keywords "languages" "navigation" "slime" "elisp" "emacs-lisp")
 		    (:url . "https://github.com/purcell/elisp-slime-nav"))])
  (elixir-mode .
-	      [(2 4 0 1 -4 20220811 353)
+	      [(2 4 0 1 -4 20221017 2044)
 	       ((emacs
 		 (25)))
 	       "Major mode for editing Elixir files" tar
-	       ((:commit . "d495ed87a9c507f5939a51c740f119950c83e2ff")
+	       ((:commit . "4974ff9a83daf50f2f03dc0d6d00871296e088b0")
 		(:keywords "languages" "elixir")
 		(:url . "https://github.com/elixir-editors/emacs-elixir"))])
  (elixir-yasnippets .
@@ -16417,7 +16417,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20221017 1223)
+       [(1 15 0 1 -4 20221017 2028)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -16425,7 +16425,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "d43fe063816ba090e2892460ff1038d6d982d166")
+	((:commit . "a13a05f263dd54632d4509e7cfb2bb5df556d442")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulation" "vim")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -44997,15 +44997,11 @@
 			(:maintainer "Thierry Volpiatto" . "thierry.volpiatto@gmail.com")
 			(:url . "https://github.com/thierryvolpiatto/pcomplete-extension"))])
  (pcre2el .
-	  [(1 9 1 -4 20221013 1644)
+	  [(1 10 1 -4 20221017 2035)
 	   ((emacs
-	     (25 1))
-	    (cl-lib
-	     (0 3))
-	    (a
-	     (1 0 0)))
+	     (25 1)))
 	   "regexp syntax converter" single
-	   ((:commit . "a05f5caf1d61cc415871e2a0dc2b6fd8ac3e3550")
+	   ((:commit . "0a0802b7edbaa636d65d525c21f3a0a26dbd0ec6")
 	    (:authors
 	     ("joddie <jonxfield at gmail.com>"))
 	    (:maintainer "joddie <jonxfield at gmail.com>")
