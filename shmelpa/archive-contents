@@ -7808,15 +7808,15 @@
 		(:keywords "completion" "convenience" "intellisense")
 		(:url . "https://github.com/xcwen/ac-php"))])
  (company-phpactor .
-		   [(0 1 0 1 -4 20200121 1218)
+		   [(0 1 0 1 -4 20220920 555)
 		    ((emacs
 		      (24 3))
 		     (company
 		      (0 9 6))
 		     (phpactor
 		      (0 1 0)))
-		    "company-mode backend for Phpactor" single
-		    ((:commit . "5ccf65d59e6bbc9cd958dd5988e8fd2143b0d57f")
+		    "A company-mode backend for Phpactor" single
+		    ((:commit . "91594855ba4986f99c777e79ccb011fbf5925578")
 		     (:authors
 		      ("Martin Tang" . "martin.tang365@gmail.com")
 		      ("Mikael Kermorgant" . "mikael@kgtech.fi"))
@@ -14734,19 +14734,19 @@
 		   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-builtin .
-			 [(0 1 0 1 -4 20221013 1519)
+			 [(0 1 0 1 -4 20221020 1117)
 			  ((emacs
 			    (29))
 			   (emacsql
 			    (3 0 0)))
 			  "EmacSQL back-end for SQLite using builtin support" single
-			  ((:commit . "399e4ab26eb237d437fbdb4853b756bf66ff28ea")
+			  ((:commit . "fe342ead8fe1329b66d62ab8a83fb2faf02771ec")
 			   (:authors
 			    ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 			   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-module .
-			[(0 1 0 1 -4 20221013 1519)
+			[(0 1 0 1 -4 20221020 1117)
 			 ((emacs
 			   (25))
 			  (emacsql
@@ -14754,7 +14754,7 @@
 			  (sqlite3
 			   (0 15)))
 			 "EmacSQL back-end for SQLite using a module" single
-			 ((:commit . "399e4ab26eb237d437fbdb4853b756bf66ff28ea")
+			 ((:commit . "fe342ead8fe1329b66d62ab8a83fb2faf02771ec")
 			  (:authors
 			   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -23714,9 +23714,9 @@
 		 (:maintainer "Roman Gonzalez" . "romanandreg@gmail.com")
 		 (:keywords "window" "resizing"))])
  (golden-ratio-scroll-screen .
-			     [(1 1 1 -4 20200419 451)
+			     [(1 1 1 -4 20221020 1441)
 			      nil "Scroll half screen down or up, and highlight current line" single
-			      ((:commit . "1b6ff0e3e8822423335d3f7d88c1fcb4cf43ce42")
+			      ((:commit . "c7e00afc9ca81beeaca2345068c33ca784fa6a9b")
 			       (:authors
 				("\347\272\252\347\247\200\345\263\260 <jixiuf at gmail dot com>"))
 			       (:maintainer "\347\272\252\347\247\200\345\263\260 <jixiuf at gmail dot com>")
@@ -24959,13 +24959,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 8 8 1 -4 20221020 1148)
+       [(3 8 8 1 -4 20221020 1512)
 	((helm-core
 	  (3 8 8))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "29df83f4a2a2a08f579b964035b6ced4e21099f4")
+	((:commit . "39ed67040d5a08fe27a138678d852e6aa577bbde")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -25412,13 +25412,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 8 8 1 -4 20221018 1234)
+	    [(3 8 8 1 -4 20221020 1530)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 7)))
 	     "Development files for Helm" tar
-	     ((:commit . "1697afdfdc00e99df7dc910eebf3d0da73c4f5ae")
+	     ((:commit . "eda9a8b3220b2d9ad68e0e8a890a81861aab274a")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -25754,7 +25754,7 @@
 			 (:maintainer "Pierre Neidhardt" . "mail@ambrevar.xyz")
 			 (:url . "https://github.com/emacs-helm/helm-fish-completion"))])
  (helm-flx .
-	   [(20220401 1 -4 20220402 21)
+	   [(20220401 1 -4 20221020 1739)
 	    ((emacs
 	      (24 4))
 	     (helm
@@ -25762,7 +25762,7 @@
 	     (flx
 	      (0 5)))
 	    "Sort helm candidates by flx score" single
-	    ((:commit . "27dd9e3ce385a3ca15092150e65781de14b5b00b")
+	    ((:commit . "5220099e695a3586dba2d59640217fe378e66310")
 	     (:authors
 	      ("Jonathan Hayase" . "jonathan.hayase@gmail.com"))
 	     (:maintainer "Jonathan Hayase" . "jonathan.hayase@gmail.com")
@@ -34355,7 +34355,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20221019 1010)
+	   [(8 0 1 1 -4 20221020 1618)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -34371,7 +34371,7 @@
 	     (lv
 	      (0)))
 	    "LSP mode" tar
-	    ((:commit . "4f5754f2c411a34bebcf9a9cc87de418605c3de5")
+	    ((:commit . "a2ca5ae653e43ef77e22c99f177f79cc653df0a9")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -34757,13 +34757,13 @@
 	       (:keywords "games" "word games" "anagram")
 	       (:url . "https://github.com/pawelbx/anagram-game"))])
  (macports .
-	   [(0 1 0 1 -4 20220909 1357)
+	   [(0 1 0 1 -4 20221020 1508)
 	    ((emacs
 	      (25 1))
 	     (transient
 	      (0 1 0)))
 	    "A porcelain for MacPorts" tar
-	    ((:commit . "818873e82db5d3680a74e15cec17670d9df23d1f")
+	    ((:commit . "d1ff980233c33bda03b02462f49a9b27dde421a5")
 	     (:authors
 	      ("Aaron Madlon-Kay"))
 	     (:maintainer "Aaron Madlon-Kay")
@@ -45609,7 +45609,7 @@
 		(:maintainer "Tijs Mallaerts" . "tijs.mallaerts@gmail.com")
 		(:url . "https://github.com/mallt/php-scratch"))])
  (phpactor .
-	   [(0 1 0 1 -4 20220310 1511)
+	   [(0 1 0 1 -4 20221020 1638)
 	    ((emacs
 	      (25 1))
 	     (f
@@ -45621,7 +45621,7 @@
 	     (async
 	      (1 9 3)))
 	    "Interface to Phpactor" tar
-	    ((:commit . "34195f1533209e2ffd0f898a69c7db2bffd1eabe")
+	    ((:commit . "209337f6327c18b17c326bd57a4529511c6fd55d")
 	     (:authors
 	      ("USAMI Kenta" . "tadsan@zonu.me")
 	      ("Mikael Kermorgant" . "mikael@kgtech.fi"))
