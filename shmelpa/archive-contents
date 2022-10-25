@@ -14672,11 +14672,11 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(3 1 1 -4 20221013 1512)
+	  [(3 1 1 -4 20221024 1455)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
-	   ((:commit . "ec4f3d091b8e2c60ee305a63a6f45f0ea5996ed6")
+	   ((:commit . "e318a6c8f65371e2ab667d811205a0d9a98dacbb")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -14720,31 +14720,31 @@
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		 (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite .
-		 [(3 1 1 -4 20221013 1512)
+		 [(3 1 1 -4 20221024 1455)
 		  ((emacs
 		    (25 1))
 		   (emacsql
 		    (3 1 1)))
 		  "EmacSQL back-end for SQLite" tar
-		  ((:commit . "ec4f3d091b8e2c60ee305a63a6f45f0ea5996ed6")
+		  ((:commit . "e318a6c8f65371e2ab667d811205a0d9a98dacbb")
 		   (:authors
 		    ("Christopher Wellons" . "wellons@nullprogram.com"))
 		   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-builtin .
-			 [(0 1 0 1 -4 20221024 1449)
+			 [(0 1 0 1 -4 20221024 1455)
 			  ((emacs
 			    (29))
 			   (emacsql
 			    (3 1 1)))
 			  "EmacSQL back-end for SQLite using builtin support" single
-			  ((:commit . "0d6d5d3751cfcb6a72961555c758bd3043226495")
+			  ((:commit . "e318a6c8f65371e2ab667d811205a0d9a98dacbb")
 			   (:authors
 			    ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 			   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-module .
-			[(0 1 0 1 -4 20221024 1449)
+			[(0 1 0 1 -4 20221024 1455)
 			 ((emacs
 			   (25))
 			  (emacsql
@@ -14752,7 +14752,7 @@
 			  (sqlite3
 			   (0 16)))
 			 "EmacSQL back-end for SQLite using a module" single
-			 ((:commit . "0d6d5d3751cfcb6a72961555c758bd3043226495")
+			 ((:commit . "e318a6c8f65371e2ab667d811205a0d9a98dacbb")
 			  (:authors
 			   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -15289,7 +15289,7 @@
 	  (:keywords "comm" "processes" "terminals" "unix")
 	  (:url . "https://github.com/sean-hut/eping"))])
  (epkg .
-       [(0 1 0 1 -4 20221021 2353)
+       [(0 1 0 1 -4 20221025 1206)
 	((emacs
 	  (25 1))
 	 (compat
@@ -15297,7 +15297,7 @@
 	 (closql
 	  (20210927)))
 	"Browse the Emacsmirror package database" tar
-	((:commit . "796e9c3c2f631bb7989ce7fce56de22446634955")
+	((:commit . "dbb2d6556b8d100633b8a8b71914df476279dc13")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -21141,7 +21141,7 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 1 -4 20220915 1551)
+	[(0 1 -4 20221025 1208)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -21165,7 +21165,7 @@
 	  (yaml
 	   (0 3 5)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "2a2c6dde1754679673ccb29eb384dabe1d43624c")
+	 ((:commit . "45b06b80137e981bca268b800469dada0ef7acb0")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -34856,7 +34856,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 -4 20221024 1747)
+	[(3 3 0 -4 20221025 1059)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -34872,7 +34872,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "8158b484ae32d334c9db60b265759d22547ea952")
+	 ((:commit . "87e68e0a8ea7803f0ffbc412b8a10f1fd2f75581")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -50655,7 +50655,7 @@
 		    (:keywords "tools" "rust")
 		    (:url . "https://github.com/grafov/rust-playground"))])
  (rustic .
-	 [(3 4 1 -4 20221017 1957)
+	 [(3 4 1 -4 20221025 1131)
 	  ((emacs
 	    (26 1))
 	   (rust-mode
@@ -50679,7 +50679,7 @@
 	   (xterm-color
 	    (1 6)))
 	  "Rust development environment" tar
-	  ((:commit . "c7b58ebc7588d1837de250927089d24aa10e4fbd")
+	  ((:commit . "4879922524faff116535c9061af6e8a902609f65")
 	   (:authors
 	    ("Mozilla"))
 	   (:maintainer "Mozilla")
