@@ -6084,7 +6084,7 @@
 		   (:maintainer "Bruce D'Arcus" . "bdarcus@gmail.com")
 		   (:url . "https://github.com/emacs-citar/citar-org-roam"))])
  (citeproc .
-	   [(0 9 1 -4 20220921 1924)
+	   [(0 9 1 -4 20221025 2113)
 	    ((emacs
 	      (26))
 	     (dash
@@ -6102,7 +6102,7 @@
 	     (parsebib
 	      (2 4)))
 	    "A CSL 1.0.2 Citation Processor" tar
-	    ((:commit . "678db833e0128fe399ad4c99794186b46f33a68a")
+	    ((:commit . "e705911a29abcfc49d4435c538e88835074e4ef4")
 	     (:authors
 	      ("Andr\303\241s Simonyi" . "andras.simonyi@gmail.com"))
 	     (:maintainer "Andr\303\241s Simonyi" . "andras.simonyi@gmail.com")
@@ -18037,6 +18037,13 @@
 	  (:maintainer "Zhiwei Chen" . "condy0919@gmail.com")
 	  (:keywords "convenience" "tools")
 	  (:url . "https://github.com/condy0919/fanyi.el"))])
+ (farmhouse-themes .
+		   [(1 1 1 -4 20221025 2054)
+		    nil "Farmhouse Themes, dark and light versions" tar
+		    ((:commit . "30c763d01611dad88f1a1ff88451431e2629016d")
+		     (:authors
+		      ("Matthew Lyon" . "matthew@lyonheart.us"))
+		     (:maintainer "Matthew Lyon" . "matthew@lyonheart.us"))])
  (fasd .
        [(0 1 0 1 -4 20210104 738)
 	nil "Emacs integration for the command-line productivity booster `fasd'" single
@@ -21913,13 +21920,13 @@
 	   (:keywords "languages" "scheme" "geiser")
 	   (:url . "https://gitlab.com/emacs-geiser/"))])
  (geiser-chez .
-	      [(0 17 1 -4 20221023 526)
+	      [(0 17 1 -4 20221025 2337)
 	       ((emacs
 		 (26 1))
 		(geiser
 		 (0 19)))
 	       "Chez and Geiser talk to each other" tar
-	       ((:commit . "4f8b5d17ba2436ca08e6ba442ef8dd5a8fa5a714")
+	       ((:commit . "3ad1c3807c25283bb344512b3be3da197200ba3a")
 		(:authors
 		 ("Peter" . "craven@gmx.net"))
 		(:maintainer "Jose A Ortega Ruiz" . "jao@gnu.org")
