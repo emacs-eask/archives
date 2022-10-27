@@ -60663,11 +60663,13 @@
 	       (:keywords "xml" "quotations")
 	       (:url . "https://github.com/ndw/xml-quotes"))])
  (xml-rpc .
-	  [(1 6 15 1 -4 20200907 42)
-	   nil "An elisp implementation of clientside XML-RPC" single
-	   ((:commit . "9fa979302b24f2fee4e450384663b64a8cec061e")
+	  [(1 6 16 1 -4 20221027 1600)
+	   ((emacs
+	     (24 1)))
+	   "An elisp implementation of clientside XML-RPC" single
+	   ((:commit . "b96150b7757cf40831ed33eb77c10acb8b789bb1")
 	    (:maintainer "Mark A. Hershberger" . "mah@everybody.org")
-	    (:keywords "xml" "rpc" "network")
+	    (:keywords "xml" "rpc" "network" "comm")
 	    (:url . "http://github.com/xml-rpc-el/xml-rpc-el"))])
  (xmlgen .
 	 [(0 5 1 -4 20170411 1317)
