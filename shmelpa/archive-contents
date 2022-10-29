@@ -24105,11 +24105,11 @@
 			(:keywords "defaults")
 			(:url . "https://github.com/rdallasgray/graphene"))])
  (graphql .
-	  [(0 1 0 1 -4 20180912 31)
+	  [(0 1 1 1 -4 20221029 1808)
 	   ((emacs
 	     (25)))
 	   "GraphQL utilities" tar
-	   ((:commit . "672dd9ebd7e67d8089388b0c484cd650e76565f3")
+	   ((:commit . "4575642c3213593abe5972510c418ebb11bf1d99")
 	    (:authors
 	     ("Sean Allred" . "code@seanallred.com"))
 	    (:maintainer "Sean Allred" . "code@seanallred.com")
@@ -24421,6 +24421,17 @@
 		(:maintainer "Paul Oppenheimer")
 		(:keywords "frames" "gtk" "titlebar")
 		(:url . "https://github.com/bepvte/gtk-variant.el"))])
+ (guake .
+	[(0 1 1 -4 20221029 1811)
+	 ((emacs
+	   (27 1)))
+	 "Interact with Guake via DBus" single
+	 ((:commit . "2753ce833b95bd1f042ac0e4b7adfe34975a88ed")
+	  (:authors
+	   ("J\303\274rgen H\303\266tzel" . "juergen.hoetzel@hr.de"))
+	  (:maintainer "J\303\274rgen H\303\266tzel" . "juergen.hoetzel@hr.de")
+	  (:keywords "convenience")
+	  (:url . "https://github.com/juergenhoetzel/emacs-guake"))])
  (guess-language .
 		 [(0 0 1 1 -4 20220408 1545)
 		  ((cl-lib
@@ -33895,9 +33906,9 @@
 	  (:keywords "log")
 	  (:url . "https://github.com/aki2o/log4e"))])
  (log4j-mode .
-	     [(1 4 1 -4 20160108 1918)
+	     [(1 4 1 -4 20221029 1314)
 	      nil "major mode for viewing log files" single
-	      ((:commit . "a278948ea07ef8f4fdb6d389345a68b50de14fae")
+	      ((:commit . "30af0543adf69be646c7634f39c5617984086048")
 	       (:authors
 		("Johan Dykstrom" . "jody4711-sf@yahoo.se"))
 	       (:maintainer "Johan Dykstrom" . "jody4711-sf@yahoo.se")
@@ -34122,7 +34133,7 @@
 	    (:maintainer "Laurence Warne")
 	    (:url . "https://github.com/LaurenceWarne/lsp-cfn.el"))])
  (lsp-dart .
-	   [(1 22 2 1 -4 20221018 211)
+	   [(1 22 2 1 -4 20221029 2008)
 	    ((emacs
 	      (26 3))
 	     (lsp-treemacs
@@ -34138,7 +34149,7 @@
 	     (dart-mode
 	      (1 0 5)))
 	    "Dart support lsp-mode" tar
-	    ((:commit . "dc898979fdea64570a431e655e96d895ff3d8845")
+	    ((:commit . "33455a4ade302f55f738b39034ecf61bff0eca31")
 	     (:keywords "languages" "extensions")
 	     (:url . "https://emacs-lsp.github.io/lsp-dart"))])
  (lsp-docker .
@@ -34356,7 +34367,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20221028 1146)
+	   [(8 0 1 1 -4 20221029 1934)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -34372,7 +34383,7 @@
 	     (lv
 	      (0)))
 	    "LSP mode" tar
-	    ((:commit . "48cf201006c9eb6077e0f4caec04a660307d6df2")
+	    ((:commit . "9a3708c8410afbc48d8481ca477e1be3d3e9a6f2")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
