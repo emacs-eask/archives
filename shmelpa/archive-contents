@@ -48231,7 +48231,7 @@
 		     (:keywords "languages" "tools")
 		     (:url . "https://github.com/poppyschmo/pytest-pdb-break"))])
  (python-black .
-	       [(1 0 0 1 -4 20211217 2037)
+	       [(1 2 0 1 -4 20221103 1759)
 		((emacs
 		  (25))
 		 (dash
@@ -48239,7 +48239,7 @@
 		 (reformatter
 		  (0 3)))
 		"Reformat Python using python-black" single
-		((:commit . "cc6919e758b5845b201e1cb08a9b5d9a2598a7f1")
+		((:commit . "e1bbf574a952562ddeadb0caa42c44016136c2c9")
 		 (:authors
 		  ("wouter bolsterlee" . "wouter@bolsterl.ee"))
 		 (:maintainer "wouter bolsterlee" . "wouter@bolsterl.ee")
@@ -54435,6 +54435,15 @@
 	  (:authors
 	   ("James Atwood" . "jatwood@cs.umass.edu"))
 	  (:maintainer "James Atwood" . "jatwood@cs.umass.edu"))])
+ (string-edit-at-point .
+		       [(0 1 0 1 -4 20220913 712)
+			((dash
+			  (1 2 0)))
+			"Avoid escape nightmares by editing string in separate buffer" single
+			((:commit . "e285ada415b975a9eb70a7e065123923d9bf8798")
+			 (:authors
+			  ("Magnar Sveen" . "magnars@gmail.com"))
+			 (:maintainer "Magnar Sveen" . "magnars@gmail.com"))])
  (string-inflection .
 		    [(1 0 16 1 -4 20220910 1306)
 		     nil "underscore -> UPCASE -> CamelCase -> lowerCamelCase conversion of names" single
