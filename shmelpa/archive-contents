@@ -33868,14 +33868,16 @@
 	  (:keywords "log")
 	  (:url . "https://github.com/aki2o/log4e"))])
  (log4j-mode .
-	     [(1 4 1 -4 20221029 1314)
-	      nil "major mode for viewing log files" single
-	      ((:commit . "30af0543adf69be646c7634f39c5617984086048")
+	     [(1 5 1 -4 20221105 1624)
+	      ((emacs
+		(25 1)))
+	      "Major mode for viewing log files" single
+	      ((:commit . "c388b555dfea3c837075be769d771bd38656384a")
 	       (:authors
-		("Johan Dykstrom" . "jody4711-sf@yahoo.se"))
-	       (:maintainer "Johan Dykstrom" . "jody4711-sf@yahoo.se")
+		("Johan Dykstrom"))
+	       (:maintainer "Johan Dykstrom")
 	       (:keywords "tools")
-	       (:url . "http://log4j-mode.sourceforge.net"))])
+	       (:url . "https://github.com/dykstrom/log4j-mode"))])
  (logalimacs .
 	     [(1 0 1 1 -4 20131021 1829)
 	      ((popwin
@@ -35755,17 +35757,20 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/YiGeeker/masm-mode"))])
  (mastodon .
-	   [(1 0 0 1 -4 20221103 2044)
+	   [(1 0 0 1 -4 20221105 1621)
 	    ((emacs
 	      (27 1))
 	     (request
 	      (0 3 0))
 	     (persist
-	      (0 4)))
-	    "Client for Mastodon" tar
-	    ((:commit . "f678fc83f777ef40e948c176b1343e4de3764856")
+	      (0 4))
+	     (ts
+	      (0 3)))
+	    "Client for Mastodon, a federated social network" tar
+	    ((:commit . "5613c11e037ceb1d9beab26a48f2958c669ea029")
 	     (:authors
-	      ("Johnson Denen" . "johnson.denen@gmail.com"))
+	      ("Johnson Denen" . "johnson.denen@gmail.com")
+	      ("Marty Hiatt" . "martianhiatus@riseup.net"))
 	     (:maintainer "Marty Hiatt" . "martianhiatus@riseup.net")
 	     (:url . "https://codeberg.org/martianh/mastodon.el"))])
  (material-theme .
@@ -36641,6 +36646,17 @@
 		(:maintainer "Jean Lo" . "jlpaca@users.noreply.github.com")
 		(:keywords "theme" "faces")
 		(:url . "https://github.com/jlpaca/minsk-theme"))])
+ (mint-mode .
+	    [(2 0 0 1 -4 20221031 411)
+	     ((emacs
+	       (25 1)))
+	     "Major mode for the Mint programming language" tar
+	     ((:commit . "df81e04668de74740e252ddb0f34569b351b92b4")
+	      (:authors
+	       ("Diwank Tomer" . "singh@diwank.name"))
+	      (:maintainer "jgart" . "jgart@dismail.de")
+	      (:keywords "mint" "languages" "processes" "convenience" "tools" "files")
+	      (:url . "https://github.com/creatorrr/emacs-mint-mode"))])
  (mip-mode .
 	   [(0 1 0 1 -4 20151127 617)
 	    nil "virtual projects for emacs." single
@@ -38938,9 +38954,9 @@
 		 (:keywords "faces")
 		 (:url . "https://github.com/MetroWind/notink-theme"))])
  (notmuch .
-	  [(0 1 0 1 -4 20220923 2323)
+	  [(0 1 0 1 -4 20221105 1730)
 	   nil "run notmuch within emacs" tar
-	   ((:commit . "3db892f43b4ac333a09dd05c8f230bf3f8d2b9e9")
+	   ((:commit . "82aa1acc0c6a66eb3b771357e513eb4d16f9f276")
 	    (:url . "https://notmuchmail.org"))])
  (notmuch-addr .
 	       [(0 1 0 1 -4 20220422 1618)
@@ -47349,11 +47365,11 @@
 		       (:keywords "convenience")
 		       (:url . "https://github.com/fritzgrabo/project-tab-groups"))])
  (projectile .
-	     [(2 7 0 -4 20221101 848)
+	     [(2 7 0 -4 20221105 1641)
 	      ((emacs
 		(25 1)))
 	      "Manage and navigate projects in Emacs easily" single
-	      ((:commit . "267d899268eb35002fda10cef14a874e03b3fba1")
+	      ((:commit . "3de6bdc2ae6c5ce08bce3726cec936e4da5d9bad")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
