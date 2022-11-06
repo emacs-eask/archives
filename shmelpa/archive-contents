@@ -3239,11 +3239,11 @@
 		(:keywords "programming" "languages" "completion")
 		(:url . "https://github.com/AlonTzarafi/battle-haxe"))])
  (bazel .
-	[(0 1 -4 20220707 1549)
+	[(0 1 -4 20221105 2049)
 	 ((emacs
 	   (27 1)))
 	 "Bazel support for Emacs" single
-	 ((:commit . "8f7875998f233d248097006df224a33873bbc4f2")
+	 ((:commit . "68d58547dd1df92adc91715f97c3dcd125b00810")
 	  (:keywords "build tools" "languages")
 	  (:url . "https://github.com/bazelbuild/emacs-bazel-mode"))])
  (bbcode-mode .
@@ -4101,7 +4101,7 @@
 	"Ergonomic Command Mode for Emacs." tar
 	((:commit . "520f68699e2a5a8e022c058992d3d39737c32753"))])
  (borg .
-       [(3 3 1 -4 20221021 2204)
+       [(3 3 1 -4 20221105 2231)
 	((emacs
 	  (26))
 	 (epkg
@@ -4109,7 +4109,7 @@
 	 (magit
 	  (3 3 0)))
 	"Assimilate Emacs packages as Git submodules" tar
-	((:commit . "1b01f170a4ec3736660de6081003e371fb76323f")
+	((:commit . "1a38ea7ed373d251a57de6e989afc22640aaa895")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -8521,7 +8521,7 @@
 		(:keywords "tools" "completion" "lsp")
 		(:url . "https://github.com/gagbo/consult-lsp"))])
  (consult-notes .
-		[(0 2 1 -4 20220822 158)
+		[(0 2 1 -4 20221105 2242)
 		 ((emacs
 		   (27 1))
 		  (consult
@@ -8531,7 +8531,7 @@
 		  (dash
 		   (2 19)))
 		 "Manage notes with consult" tar
-		 ((:commit . "fd4091dd3655fdbbbb3fa15cfa96babe17c8b8b5")
+		 ((:commit . "b2d6479715c89967d904d2577022ed6089aabd66")
 		  (:authors
 		   ("Colin McLear" . "mclear@fastmail.com"))
 		  (:maintainer "Colin McLear")
@@ -42943,7 +42943,7 @@
 		  (:keywords "hypermedia" "outlines" "org" "web")
 		  (:url . "http://github.com/alphapapa/org-web-tools"))])
  (org-wild-notifier .
-		    [(0 4 1 1 -4 20221030 1731)
+		    [(0 4 1 1 -4 20221105 2056)
 		     ((alert
 		       (1 2))
 		      (async
@@ -42953,7 +42953,7 @@
 		      (emacs
 		       (24 4)))
 		     "Customizable org-agenda notifications" single
-		     ((:commit . "7bca036471a84d77117e713023e44bf867bbf683")
+		     ((:commit . "4e170958f315f0ddbd562338f9997443869b125b")
 		      (:authors
 		       ("Artem Khramov" . "akhramov+emacs@pm.me"))
 		      (:maintainer "Artem Khramov" . "akhramov+emacs@pm.me")
@@ -45552,11 +45552,11 @@
 	      (:maintainer "sabof")
 	      (:url . "https://github.com/sabof/php-eldoc"))])
  (php-mode .
-	   [(2 0 0 1 -4 20221103 1623)
+	   [(2 0 0 1 -4 20221105 2335)
 	    ((emacs
 	      (25 2)))
 	    "Major mode for editing PHP code" tar
-	    ((:commit . "b559c80a1eb271c94de4639a3a02c93eaf81c81b")
+	    ((:commit . "2bc4db007c4e6ccbc2d2e6e74fb54a1af0ead054")
 	     (:authors
 	      ("Eric James Michael Ritz"))
 	     (:maintainer "USAMI Kenta" . "tadsan@zonu.me")
@@ -45629,13 +45629,13 @@
 	     (:keywords "tools" "php")
 	     (:url . "https://github.com/emacs-php/phpactor.el"))])
  (phpstan .
-	  [(0 6 0 1 -4 20220723 1451)
+	  [(0 6 0 1 -4 20221105 2112)
 	   ((emacs
 	     (24 3))
 	    (php-mode
 	     (1 22 3)))
 	   "Interface to PHPStan" single
-	   ((:commit . "e229e990e36a2bfb88503bfe2bb6f2836eaa2874")
+	   ((:commit . "8b4be09defe5856a1855c976474ada67557780cd")
 	    (:authors
 	     ("USAMI Kenta" . "tadsan@zonu.me"))
 	    (:maintainer "USAMI Kenta" . "tadsan@zonu.me")
@@ -48095,7 +48095,7 @@
 	      (:keywords "data" "games" "chess")
 	      (:url . "https://github.com/dwcoates/pygn-mode"))])
  (pyim .
-       [(5 2 7 1 -4 20221031 38)
+       [(5 2 7 1 -4 20221105 2146)
 	((emacs
 	  (25 1))
 	 (async
@@ -48103,7 +48103,7 @@
 	 (xr
 	  (1 13)))
 	"A Chinese input method support quanpin, shuangpin, wubi, cangjie and rime." tar
-	((:commit . "8c4f7d40c05dc06b3c96c2955e5d72ec268f2b61")
+	((:commit . "e33d6c4829e43a8b88a4d41f2140aa232100b6c5")
 	 (:authors
 	  ("Ye Wenbin" . "wenbinye@163.com")
 	  ("Feng Shu" . "tumashu@163.com"))
@@ -54140,11 +54140,11 @@
 	      (:keywords "c" "languages" "tools")
 	      (:url . "https://github.com/tuhdo/semantic-refactor"))])
  (srfi .
-       [(0 3 0 1 -4 20221104 2206)
+       [(0 3 0 1 -4 20221106 0)
 	((emacs
 	  (25 1)))
 	"Scheme Requests for Implementation browser" tar
-	((:commit . "110c6b968ca030d75a0e870322cde598fe345bb3")
+	((:commit . "8aac9d38e75f1fceba06f1070a869571b905318b")
 	 (:authors
 	  ("Lassi Kortela" . "lassi@lassi.io"))
 	 (:maintainer "Lassi Kortela" . "lassi@lassi.io")
