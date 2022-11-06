@@ -3951,6 +3951,17 @@
 	 (:maintainer "Kenneth Loeffler" . "kenloef@gmail.com")
 	 (:keywords "roblox" "rojo" "tools")
 	 (:url . "https://github.com/kennethloeffler/blox"))])
+ (bluesound .
+	    [(0 1 1 -4 20221104 656)
+	     ((emacs
+	       (26 1)))
+	     "Play, pause, resume music on a Bluesound player" single
+	     ((:commit . "416b9825db5feea326388ca1bec2614046522006")
+	      (:authors
+	       ("R.W. van 't Veer"))
+	      (:maintainer "R.W. van 't Veer")
+	      (:keywords "convenience" "multimedia")
+	      (:url . "https://git.sr.ht/~rwv/bluesound-el/"))])
  (bm .
      [(0 1 0 1 -4 20210421 1351)
       nil "Visible bookmarks in buffer." tar
@@ -4089,7 +4100,7 @@
 	      (:keywords "boolean" "convenience" "usability")
 	      (:url . "http://github.com/michaeljb/bool-flip/"))])
  (boon .
-       [(2 0 1 -4 20221004 1937)
+       [(2 0 1 -4 20221106 2025)
 	((emacs
 	  (26 1))
 	 (dash
@@ -4099,7 +4110,7 @@
 	 (multiple-cursors
 	  (1 3 0)))
 	"Ergonomic Command Mode for Emacs." tar
-	((:commit . "520f68699e2a5a8e022c058992d3d39737c32753"))])
+	((:commit . "106f842df7f68cbffbb2bb63f7f99f34fe7d3edf"))])
  (borg .
        [(3 3 1 -4 20221105 2231)
 	((emacs
@@ -11032,6 +11043,19 @@
 		 (:maintainer "Tilman Rassy" . "tilman.rassy@googlemail.com")
 		 (:keywords "tools" "convenience" "files")
 		 (:url . "https://github.com/tilmanrassy/emacs-dir-treeview"))])
+ (dir-treeview-themes .
+		      [(1 0 1 1 -4 20221103 37)
+		       ((emacs
+			 (24 4))
+			(dir-treeview
+			 (1 3 3)))
+		       "Themes for dir-treeview" tar
+		       ((:commit . "0fdc3f67d4959ac11bc2f44bf84ab8c9b32e6c64")
+			(:authors
+			 ("Tilman Rassy" . "tilman.rassy@googlemail.com"))
+			(:maintainer "Tilman Rassy" . "tilman.rassy@googlemail.com")
+			(:keywords "tools" "convenience" "files")
+			(:url . "https://github.com/tilmanrassy/emacs-dir-treeview-themes"))])
  (dircmp .
 	 [(1 1 -4 20141204 1756)
 	  nil "Compare and sync directories." tar
@@ -13398,13 +13422,13 @@
 	(:keywords "org-mode" "convenience" "beautify")
 	(:url . "https://github.com/emacs-china/EGO"))])
  (eide .
-       [(2 3 0 1 -4 20220531 452)
+       [(2 3 0 1 -4 20221101 2045)
 	nil "IDE interface" tar
-	((:commit . "a32b9266414d9173dfa92fa44b17064ebb39522f")
+	((:commit . "e0a5deb627da9cf70f02229601a1ebe6d78cabc8")
 	 (:authors
 	  ("C\303\251dric Marie" . "cedric@hjuvi.fr.eu.org"))
 	 (:maintainer "C\303\251dric Marie" . "cedric@hjuvi.fr.eu.org")
-	 (:url . "https://forge.chalec.org/hjuvi/eide"))])
+	 (:url . "https://software.hjuvi.fr.eu.org/eide/"))])
  (ein .
       [(0 1 0 1 -4 20220911 1319)
        ((emacs
@@ -21534,11 +21558,11 @@
 		       (:keywords "fsbot" "irc" "tabulated-list-mode")
 		       (:url . "http://github.com/benaiah/fsbot-data-browser"))])
  (fsharp-mode .
-	      [(1 11 -4 20220630 1931)
+	      [(1 11 -4 20221106 2050)
 	       ((emacs
 		 (25)))
 	       "Support for the F# programming language" tar
-	       ((:commit . "da57a3bb8a2521de1cd2bb61743ac64d19d91091")
+	       ((:commit . "cfd3f8827e8ec9cbf4d23653c4b05db4c01a5947")
 		(:authors
 		 ("1993-1997 Xavier Leroy, Jacques Garrigue and Ian T Zimmerman")
 		 ("2010-2011 Laurent Le Brun" . "laurent@le-brun.eu")
@@ -24654,13 +24678,13 @@
 		(:keywords "wp" "languages" "comm")
 		(:url . "https://github.com/lightquake/hamlet-mode"))])
  (hammy .
-	[(0 2 1 -4 20221103 1543)
+	[(0 2 1 1 -4 20221106 2041)
 	 ((emacs
 	   (28 1))
 	  (ts
 	   (0 2 2)))
 	 "Programmable, interactive interval timers" single
-	 ((:commit . "e76cefa2d7c97bd4c3b15d0f452a755c71a88072")
+	 ((:commit . "84c0f14e2fcbaa36dfbf2986d44e672d028fa2e6")
 	  (:authors
 	   ("Adam Porter" . "adam@alphapapa.net"))
 	  (:maintainer "Adam Porter" . "adam@alphapapa.net")
@@ -24944,13 +24968,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 8 8 1 -4 20221106 1740)
+       [(3 8 8 1 -4 20221106 2010)
 	((helm-core
 	  (3 8 8))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "2fcae8af8cbdce9303c77164fb0d7df03ebdd5e2")
+	((:commit . "ce00578ea1aa11692c1e05d1f5005dbdc856db87")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -25397,13 +25421,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 8 8 1 -4 20221103 1523)
+	    [(3 8 8 1 -4 20221106 1821)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 7)))
 	     "Development files for Helm" tar
-	     ((:commit . "e3194ed4645103031c60b152d4f5d5f1c3df4108")
+	     ((:commit . "27d21f76371c46ed61cbd744011ba4666af449a5")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -29606,6 +29630,17 @@
 	    (:maintainer "myuhe")
 	    (:keywords "convenience" "iimage.el" "cacoo.el")
 	    (:url . "https://github.com/myuhe/inlineR.el"))])
+ (insecure-lock .
+		[(0 0 0 1 -4 20221104 143)
+		 ((emacs
+		   (28 1)))
+		 "Extensible screen lock framework" single
+		 ((:commit . "808b211244886a5c94b22adbb9b3d0fc397c5b7c")
+		  (:authors
+		   ("Qiantan Hong" . "qhong@alum.mit.edu"))
+		  (:maintainer "Qiantan Hong" . "qhong@alum.mit.edu")
+		  (:keywords "unix" "screensaver" "security")
+		  (:url . "https://github.com/BlueFlo0d/insecure-lock"))])
  (insert-char-preview .
 		      [(0 1 1 -4 20201023 2108)
 		       ((emacs
@@ -40483,6 +40518,14 @@
 	 (:maintainer "Sebastian Wiesner" . "swiesner@lunaryorn.com")
 	 (:keywords "convenience")
 	 (:url . "https://github.com/lunaryorn/opam.el"))])
+ (opam-switch-mode .
+		   [(1 0 -4 20221101 1944)
+		    ((emacs
+		      (25 1)))
+		    "Select OCaml opam switches via a menu" single
+		    ((:commit . "5f3d2102ae6e38a4220e7c7c2d15acc795b94866")
+		     (:maintainer "Hendrik Tews" . "hendrik@askra.de")
+		     (:url . "https://github.com/ProofGeneral/opam-switch-mode"))])
  (open-in-msvs .
 	       [(0 2 1 -4 20170123 2228)
 		nil "Open current file:line:column in Microsoft Visual Studio" tar
