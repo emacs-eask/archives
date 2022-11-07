@@ -42036,6 +42036,27 @@
 		 ("Ric Lister"))
 		(:maintainer "Ric Lister")
 		(:url . "https://github.com/rlister/org-present"))])
+ (org-present-remote .
+		     [(0 1 0 1 -4 20221107 1139)
+		      ((org-present
+			(9))
+		       (elnode
+			(0 9))
+		       (emacs
+			(25))
+		       (fakir
+			(20140729 1652))
+		       (s
+			(20210616 619))
+		       (web
+			(20141231 2001)))
+		      "A web-based remote control for org-present" single
+		      ((:commit . "95ea38b985b5aaa49b8039010bbe5fda5188a197")
+		       (:authors
+			("Duncan Bayne" . "duncan@bayne.id.au"))
+		       (:maintainer "Duncan Bayne" . "duncan@bayne.id.au")
+		       (:keywords "comm" "docs")
+		       (:url . "https://gitlab.com/duncan-bayne/org-present-remote"))])
  (org-pretty-tags .
 		  [(0 2 2 1 -4 20211228 1546)
 		   ((emacs
@@ -42986,7 +43007,7 @@
 		  (:keywords "hypermedia" "outlines" "org" "web")
 		  (:url . "http://github.com/alphapapa/org-web-tools"))])
  (org-wild-notifier .
-		    [(0 4 1 1 -4 20221105 2056)
+		    [(0 4 1 1 -4 20221107 1009)
 		     ((alert
 		       (1 2))
 		      (async
@@ -42996,7 +43017,7 @@
 		      (emacs
 		       (24 4)))
 		     "Customizable org-agenda notifications" single
-		     ((:commit . "4e170958f315f0ddbd562338f9997443869b125b")
+		     ((:commit . "544df8a78090411479495494f9de724c350649ac")
 		      (:authors
 		       ("Artem Khramov" . "akhramov+emacs@pm.me"))
 		      (:maintainer "Artem Khramov" . "akhramov+emacs@pm.me")
