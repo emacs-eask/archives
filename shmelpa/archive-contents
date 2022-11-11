@@ -51000,14 +51000,16 @@
 	     (:keywords "languages")
 	     (:url . "https://github.com/hvesalai/emacs-sbt-mode"))])
  (scad-mode .
-	    [(92 0 1 -4 20200830 301)
-	     nil "A major mode for editing OpenSCAD code" single
-	     ((:commit . "aa43490a2b0085a6b32f2d8a1a6ded8de2a3a11b")
+	    [(93 0 1 -4 20221111 1325)
+	     ((emacs
+	       (27 1)))
+	     "A major mode for editing OpenSCAD code" tar
+	     ((:commit . "56a3af86619287767dec5ae209ca98371e9d94b6")
 	      (:authors
-	       ("Len Trigg, \305\201ukasz Stelmach"))
-	      (:maintainer "Len Trigg" . "lenbok@gmail.com")
+	       ("Len Trigg, \305\201ukasz Stelmach, zk_phi, Daniel Mendler"))
+	      (:maintainer "Len Trigg <lenbok@gmail.com>, Daniel Mendler" . "mail@daniel-mendler.de")
 	      (:keywords "languages")
-	      (:url . "https://raw.github.com/openscad/openscad/master/contrib/scad-mode.el"))])
+	      (:url . "https://github.com/openscad/emacs-scad-mode"))])
  (scad-preview .
 	       [(0 1 2 1 -4 20211212 1128)
 		((scad-mode
