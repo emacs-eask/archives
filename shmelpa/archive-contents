@@ -1357,13 +1357,15 @@
 		    (:keywords "theme" "dark" "emacs 24")
 		    (:url . "https://github.com/mjwall/ample-zen"))])
  (amread-mode .
-	      [(0 1 0 1 -4 20221111 517)
+	      [(0 1 0 1 -4 20221111 845)
 	       ((emacs
 		 (24 3))
 		(cl-lib
-		 (0 6 1)))
+		 (0 6 1))
+		(pyim
+		 (5 2 8)))
 	       "A minor mode helper user speed-reading" single
-	       ((:commit . "82d45a6573d58881ba4089269a72610a59ce0a2c")
+	       ((:commit . "3ff235a6204e224d47cb0c99368e6a0f21bf8dce")
 		(:keywords "wp")
 		(:url . "https://repo.or.cz/amread-mode.git"))])
  (amsreftex .
@@ -12133,7 +12135,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(3 3 2 1 -4 20221108 1426)
+		[(3 3 3 1 -4 20221111 711)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -12141,7 +12143,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "28e6a3698569b3e78c2515873550f97f0bc93aef")
+		 ((:commit . "440fd160b4dff530465938bed40094a0d413fc11")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
@@ -23216,16 +23218,14 @@
 	       (:keywords "tools" "c")
 	       (:url . "https://codeberg.org/akib/emacs-gnu-indent"))])
  (gnuplot .
-	  [(0 8 0 1 -4 20220913 1152)
+	  [(0 8 0 1 -4 20221111 821)
 	   ((emacs
-	     (24 3)))
+	     (25 1)))
 	   "Major-mode and interactive frontend for gnuplot" tar
-	   ((:commit . "d50c352b23d921ca94bbb4219b3c99697fbcd435")
+	   ((:commit . "72e70e309978f48cf4724cd99e78d09331f7acee")
 	    (:authors
-	     ("Jon Oddie")
-	     ("Bruce Ravel")
-	     ("Phil Type"))
-	    (:maintainer "Bruce Ravel" . "bruceravel1@gmail.com")
+	     ("Jon Oddie, Bruce Ravel, Phil Type"))
+	    (:maintainer "Maxime Tr\303\251ca <maxime@gmail.com>, Daniel Mendler" . "mail@daniel-mendler.de")
 	    (:keywords "data" "gnuplot" "plotting")
 	    (:url . "https://github.com/emacs-gnuplot/gnuplot"))])
  (gnuplot-mode .
@@ -23634,11 +23634,11 @@
 	   (:keywords "tools")
 	   (:url . "https://github.com/brantou/emacs-go-tag"))])
  (go-translate .
-	       [(2 0 1 -4 20221110 1618)
+	       [(2 0 1 -4 20221111 801)
 		((emacs
 		  (27 1)))
 		"Translation framework supports multiple engines such as Google/Bing/DeepL" tar
-		((:commit . "92cdb7c878eec96531b900f01075f67b885e50e3")
+		((:commit . "405cda34589ad76f006fe320478f0134cfcfbbb0")
 		 (:authors
 		  ("lorniu" . "lorniu@gmail.com"))
 		 (:maintainer "lorniu" . "lorniu@gmail.com")
