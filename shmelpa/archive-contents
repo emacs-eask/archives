@@ -20336,6 +20336,17 @@
 		 (:maintainer "Steve Purcell" . "steve@sanityinc.com")
 		 (:keywords "convenience" "internal")
 		 (:url . "https://github.com/purcell/flymake-easy"))])
+ (flymake-elisp-config .
+		       [(0 4 9 1 -4 20221110 1626)
+			((emacs
+			  (28 1)))
+			"Setup load-path for flymake on Emacs Lisp mode" single
+			((:commit . "e946d9a761a8427dfdd0ae634bcfce4d56111947")
+			 (:authors
+			  ("ROCKTAKEY" . "rocktakey@gmail.com"))
+			 (:maintainer "ROCKTAKEY" . "rocktakey@gmail.com")
+			 (:keywords "lisp")
+			 (:url . "https://github.com/ROCKTAKEY/flymake-elisp-config"))])
  (flymake-elixir .
 		 [(0 5 1 -4 20130810 1417)
 		  nil "A flymake handler for elixir-mode .ex files." single
@@ -23100,6 +23111,17 @@
 	     ((:commit . "9b2e5f28e489a1f73c4aed734105618ac0dc0c43")
 	      (:keywords "languages" "opengl" "gpu" "spir-v" "vulkan")
 	      (:url . "https://github.com/jimhourihan/glsl-mode"))])
+ (glue .
+       [(0 0 1 1 -4 20221108 1648)
+	((emacs
+	  (24 1)))
+	"Emacs - Common Lisp interop" single
+	((:commit . "7649e30bf7cdd43323a40e5330132f0e42f50a24")
+	 (:authors
+	  ("Gabor Poczkodi" . "hajovonta@gmail.com"))
+	 (:maintainer "Gabor Poczkodi" . "hajovonta@gmail.com")
+	 (:keywords "lisp" "emacs" "common" "lisp" "cl")
+	 (:url . "https://git.sr.ht/~hajovonta/glue/"))])
  (gmail-message-mode .
 		     [(1 4 1 -4 20160627 1847)
 		      ((ham-mode
@@ -23218,11 +23240,11 @@
 	       (:keywords "tools" "c")
 	       (:url . "https://codeberg.org/akib/emacs-gnu-indent"))])
  (gnuplot .
-	  [(0 8 0 1 -4 20221111 821)
+	  [(0 8 0 1 -4 20221112 2049)
 	   ((emacs
 	     (25 1)))
 	   "Major-mode and interactive frontend for gnuplot" tar
-	   ((:commit . "72e70e309978f48cf4724cd99e78d09331f7acee")
+	   ((:commit . "fe7ce76d797b34214178ac8e470f2fa9a63b2520")
 	    (:authors
 	     ("Jon Oddie, Bruce Ravel, Phil Type"))
 	    (:maintainer "Maxime Tr\303\251ca <maxime@gmail.com>, Daniel Mendler" . "mail@daniel-mendler.de")
@@ -34627,6 +34649,15 @@
 	     (:maintainer "Mario Rodas" . "marsam@users.noreply.github.com")
 	     (:keywords "convenience")
 	     (:url . "https://github.com/emacs-pe/luarocks.el"))])
+ (lurk-mode .
+	    [(0 1 3 1 -4 20221107 1338)
+	     ((emacs
+	       (25 1)))
+	     "A major mode for editing lurk files" single
+	     ((:commit . "b341ffbf5959bbbc7dd33b35e207ce8b7bfbf565")
+	      (:maintainer "Jeff Weiss" . "jweiss@protocol.ai")
+	      (:keywords "languages" "lurk" "lisp")
+	      (:url . "http://github.com/lurk-lang/lurk-emacs"))])
  (lush-theme .
 	     [(0 1 1 -4 20180816 2200)
 	      ((emacs
@@ -39783,6 +39814,17 @@
 	   (:maintainer "ZHOU Feng" . "zf.pascal@gmail.com")
 	   (:keywords "org" "babel" "lfe" "lisp" "erlang")
 	   (:url . "http://github.com/zweifisch/ob-lfe"))])
+ (ob-lurk .
+	  [(0 1 3 1 -4 20221107 1338)
+	   ((emacs
+	     (25 1))
+	    (lurk-mode
+	     (0 1 2)))
+	   "Evaluate lurk code blocks in org mode" single
+	   ((:commit . "b341ffbf5959bbbc7dd33b35e207ce8b7bfbf565")
+	    (:maintainer "Jeff Weiss" . "jweiss@protocol.ai")
+	    (:keywords "languages" "lurk" "lisp")
+	    (:url . "http://github.com/lurk-lang/lurk-emacs"))])
  (ob-mermaid .
 	     [(0 1 -4 20200320 1504)
 	      nil "org-babel support for mermaid evaluation" single
@@ -42161,6 +42203,17 @@
 		    (:maintainer "Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com")
 		    (:keywords "outlines")
 		    (:url . "https://github.com/Fuco1/org-radiobutton"))])
+ (org-rainbow-tags .
+		   [(0 1 -1 1 -4 20221107 1009)
+		    ((emacs
+		      (28 1)))
+		    "Colorize org tags automatically" single
+		    ((:commit . "9aecc819c14f65d5f7819a431be626e496e3db86")
+		     (:authors
+		      ("Furkan Karata\305\237" . "furkan.karatas02@gmail.com"))
+		     (:maintainer "Furkan Karata\305\237" . "furkan.karatas02@gmail.com")
+		     (:keywords "faces" "outlines")
+		     (:url . "https://github.com/KaratasFurkan/org-rainbow-tags"))])
  (org-random-todo .
 		  [(0 5 3 1 -4 20190214 2057)
 		   ((emacs
