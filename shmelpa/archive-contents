@@ -39628,13 +39628,15 @@
 	      (:keywords "fricas" "computer algebra" "extensions" "tools")
 	      (:url . "https://github.com/pdo/frimacs"))])
  (ob-fsharp .
-	    [(0 1 1 -4 20170618 1429)
-	     ((fsharp-mode
+	    [(0 1 1 -4 20221112 1135)
+	     ((emacs
+	       (25))
+	      (fsharp-mode
 	       (1 9 8))
-	      (emacs
-	       (25)))
-	     "Org-Babel F#" tar
-	     ((:commit . "65ec2b626ac55313d8a04e746940370f615fed1e")
+	      (seq
+	       (2 22)))
+	     "Org-Babel F#" single
+	     ((:commit . "fee0042f14edc32c33fb8bfc9599bb7b5c529c29")
 	      (:authors
 	       ("J\303\274rgen H\303\266tzel" . "juergen@archlinux.org"))
 	      (:maintainer "J\303\274rgen H\303\266tzel" . "juergen@archlinux.org")
@@ -47419,11 +47421,11 @@
 		       (:keywords "convenience")
 		       (:url . "https://github.com/fritzgrabo/project-tab-groups"))])
  (projectile .
-	     [(2 7 0 -4 20221105 1641)
+	     [(2 7 0 -4 20221112 914)
 	      ((emacs
 		(25 1)))
 	      "Manage and navigate projects in Emacs easily" single
-	      ((:commit . "3de6bdc2ae6c5ce08bce3726cec936e4da5d9bad")
+	      ((:commit . "1ca2303eaa60abc3fda94bd54572a2a5f1ce7c16")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
