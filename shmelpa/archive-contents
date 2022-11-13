@@ -58894,6 +58894,21 @@
 		     (:maintainer "Andreas Gerler" . "baron@bundesbrandschatzamt.de")
 		     (:keywords "convenience" "snippets")
 		     (:url . "https://github.com/baron42bba/vertica-snippets"))])
+ (vertico-prescient .
+		    [(6 0 0 1 -4 20221112 1827)
+		     ((emacs
+		       (27 1))
+		      (prescient
+		       (6 0 0))
+		      (vertico
+		       (0 28)))
+		     "Vertico integration" single
+		     ((:commit . "50b7b85d866106ff624a2a5f9c2d129d02480781")
+		      (:authors
+		       ("Radian LLC" . "contact+prescient@radian.codes"))
+		      (:maintainer "Radian LLC" . "contact+prescient@radian.codes")
+		      (:keywords "extensions")
+		      (:url . "https://github.com/radian-software/prescient.el"))])
  (vertigo .
 	  [(1 0 1 -4 20211224 1256)
 	   ((dash
@@ -60465,11 +60480,13 @@
 		(:keywords "session" "management" "window-configuration" "persistence")
 		(:url . "https://github.com/pashinin/workgroups2"))])
  (workroom .
-	   [(1 0 1 -4 20220608 1718)
+	   [(2 0 1 -4 20221113 1802)
 	    ((emacs
-	      (25 1)))
-	    "Named rooms for work without irrelevant distracting buffers" single
-	    ((:commit . "e1092127bdf93d8f1ae0c58ec595d0181f606f1e")
+	      (25 1))
+	     (project
+	      (0 3 0)))
+	    "Named rooms for work without irrelevant distracting buffers" tar
+	    ((:commit . "9db06cc7e7f988a767508133f5c4bedcba5cb555")
 	     (:authors
 	      ("Akib Azmain Turja" . "akib@disroot.org"))
 	     (:maintainer "Akib Azmain Turja" . "akib@disroot.org")
@@ -61689,6 +61706,20 @@
 	("Grant Rosson <https://github.com/localauthor>"))
        (:maintainer "Grant Rosson <https://github.com/localauthor>")
        (:url . "https://github.com/localauthor/zk"))])
+ (zk-desktop .
+	     [(0 1 1 -4 20221107 1204)
+	      ((emacs
+		(25 1))
+	       (zk
+		(0 3))
+	       (zk-index
+		(0 8)))
+	      "Desktop environment for zk" single
+	      ((:commit . "8cc0ca548f8fc1930bbc14b273b8a30df0c6327c")
+	       (:authors
+		("Grant Rosson <https://github.com/localauthor>"))
+	       (:maintainer "Grant Rosson <https://github.com/localauthor>")
+	       (:url . "https://github.com/localauthor/zk"))])
  (zk-index .
 	   [(0 8 1 -4 20221107 1204)
 	    ((emacs
