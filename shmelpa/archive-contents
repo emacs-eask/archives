@@ -8794,6 +8794,21 @@
 	      (:maintainer "Yuwei Tian" . "ibluefocus@NOSPAM.gmail.com")
 	      (:keywords "corfu" "popup" "documentation" "convenience")
 	      (:url . "https://github.com/galeo/corfu-doc"))])
+ (corfu-prescient .
+		  [(6 0 0 1 -4 20221112 1827)
+		   ((emacs
+		     (27 1))
+		    (prescient
+		     (6 0 0))
+		    (corfu
+		     (0 28)))
+		   "Corfu integration" single
+		   ((:commit . "50b7b85d866106ff624a2a5f9c2d129d02480781")
+		    (:authors
+		     ("Radian LLC" . "contact+prescient@radian.codes"))
+		    (:maintainer "Radian LLC" . "contact+prescient@radian.codes")
+		    (:keywords "extensions")
+		    (:url . "https://github.com/radian-software/prescient.el"))])
  (corral .
 	 [(0 3 0 1 -4 20160502 701)
 	  nil "Quickly surround text with delimiters" single
@@ -13757,11 +13772,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 2 3 -4 20221111 1951)
+	[(1 2 3 -4 20221113 1736)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "00b29384e96c49375112613939e333d46565b310")
+	 ((:commit . "d85eb428eb2077fa1a2380e1df8850804ba3c84f")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
@@ -23049,6 +23064,17 @@
 	     (:maintainer "Feng Shu" . "tumashu@163.com")
 	     (:keywords "convenience")
 	     (:url . "https://github.com/tumashu/gitpatch"))])
+ (gitstatus .
+	    [(0 1 0 1 -4 20221108 801)
+	     ((emacs
+	       (25 1)))
+	     "Front-end for gitstatusd" tar
+	     ((:commit . "6c5024ad76fa9bbf2e3bea8d03e77e1767fd3aee")
+	      (:authors
+	       ("Igor Epstein" . "igorepst@gmail.com"))
+	      (:maintainer "Igor Epstein" . "igorepst@gmail.com")
+	      (:keywords "tools" "processes")
+	      (:url . "https://github.com/igorepst/gitstatus-el"))])
  (gitter .
 	 [(1 1 -4 20220316 138)
 	  ((emacs
@@ -24981,13 +25007,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 9 0 1 -4 20221112 1259)
+       [(3 9 0 1 -4 20221113 1907)
 	((helm-core
 	  (3 9 0))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "371df21b1e73be03b90028e2f5d8554f70a989b7")
+	((:commit . "cbec5974ad9f4e5bfc51a2c741560b96b1ce5fca")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -25434,13 +25460,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 9 0 1 -4 20221112 1259)
+	    [(3 9 0 1 -4 20221113 1706)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 7)))
 	     "Development files for Helm" tar
-	     ((:commit . "371df21b1e73be03b90028e2f5d8554f70a989b7")
+	     ((:commit . "51b28e8c5ba63aa891d5d05aca08ac2688701971")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -39659,7 +39685,7 @@
 	      (:keywords "fricas" "computer algebra" "extensions" "tools")
 	      (:url . "https://github.com/pdo/frimacs"))])
  (ob-fsharp .
-	    [(0 1 1 -4 20221112 1135)
+	    [(0 1 1 -4 20221113 1904)
 	     ((emacs
 	       (25))
 	      (fsharp-mode
@@ -39667,7 +39693,7 @@
 	      (seq
 	       (2 22)))
 	     "Org-Babel F#" single
-	     ((:commit . "fee0042f14edc32c33fb8bfc9599bb7b5c529c29")
+	     ((:commit . "a5e893a88d47bd8ea01cf456331ce54910321b47")
 	      (:authors
 	       ("J\303\274rgen H\303\266tzel" . "juergen@archlinux.org"))
 	      (:maintainer "J\303\274rgen H\303\266tzel" . "juergen@archlinux.org")
@@ -40683,11 +40709,11 @@
 	 (:keywords "org" "convenience")
 	 (:url . "https://github.com/abo-abo/orca"))])
  (orderless .
-	    [(0 7 1 -4 20221023 1708)
+	    [(0 7 1 -4 20221113 1719)
 	     ((emacs
 	       (26 1)))
 	     "Completion style for matching regexps in any order" tar
-	     ((:commit . "b355ef6d386134f16eafe17051e9fafcfbea9cad")
+	     ((:commit . "2debd96da6f75703ccbca6d852ad994ce84fa529")
 	      (:authors
 	       ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	      (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -51055,11 +51081,11 @@
 	     (:keywords "languages")
 	     (:url . "https://github.com/hvesalai/emacs-sbt-mode"))])
  (scad-mode .
-	    [(93 1 1 -4 20221113 1506)
+	    [(93 1 1 -4 20221113 1728)
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing OpenSCAD code" tar
-	     ((:commit . "54c2105b400ace851e5c86da360ac69f106e4dc2")
+	     ((:commit . "d862a9ad8a570703709d096478494b6705d33ad0")
 	      (:authors
 	       ("Len Trigg, \305\201ukasz Stelmach, zk_phi, Daniel Mendler"))
 	      (:maintainer "Len Trigg <lenbok@gmail.com>, Daniel Mendler" . "mail@daniel-mendler.de")
@@ -52468,7 +52494,7 @@
 		 (:maintainer "Christopher Wellons" . "wellons@nullprogram.com")
 		 (:url . "https://github.com/skeeto/emacs-http-server"))])
  (simple-indentation .
-		     [(0 1 1 -4 20221112 1616)
+		     [(0 1 1 -4 20221113 1645)
 		      ((emacs
 			(24 3))
 		       (dash
@@ -52476,7 +52502,7 @@
 		       (s
 			(1 12 0)))
 		      "Simplify writing indentation functions, alternative to SMIE" tar
-		      ((:commit . "fa71b558285b9b514f8b3d662cb4436c6fd44bc4")
+		      ((:commit . "77685b3dd802dade7d60817fc0e24e60c101776b")
 		       (:authors
 			("Semen Khramtsov" . "hrams205@gmail.com"))
 		       (:maintainer "Semen Khramtsov" . "hrams205@gmail.com")
