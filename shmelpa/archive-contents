@@ -31089,6 +31089,17 @@
 		 ("David Raymond Christiansen" . "david@davidchristiansen.dk"))
 		(:maintainer "David Raymond Christiansen" . "david@davidchristiansen.dk")
 		(:keywords "languages"))])
+ (journalctl-mode .
+		  [(0 9 1 -4 20201217 1625)
+		   ((emacs
+		     (24 1)))
+		   "Sample major mode for  viewing output journalctl" single
+		   ((:commit . "c5bca1a5f42d2fe2a00fdf52fe480137ace971d3")
+		    (:authors
+		     ("Sebastian Meisel" . "sebastian.meisel@gmail.com"))
+		    (:maintainer "Sebastian Meisel" . "sebastian.meisel@gmail.com")
+		    (:keywords "unix")
+		    (:url . "https://github.com/SebastianMeisel/journalctl-mode"))])
  (jpop .
        [(20150724 -4 1604 1 -4 20170410 1250)
 	((emacs
@@ -35848,7 +35859,7 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/YiGeeker/masm-mode"))])
  (mastodon .
-	   [(1 0 0 1 -4 20221113 1523)
+	   [(1 0 0 1 -4 20221114 1032)
 	    ((emacs
 	      (27 1))
 	     (request
@@ -35858,7 +35869,7 @@
 	     (ts
 	      (0 3)))
 	    "Client for Mastodon, a federated social network" tar
-	    ((:commit . "de458e7865f91f187b1695c889fc77ea47f1497c")
+	    ((:commit . "ee9787e2b05878c9db8353d6321a0d04a65b0c4b")
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com")
 	      ("Marty Hiatt" . "martianhiatus@riseup.net"))
@@ -42238,11 +42249,11 @@
 		    (:keywords "outlines")
 		    (:url . "https://github.com/Fuco1/org-radiobutton"))])
  (org-rainbow-tags .
-		   [(0 1 -1 1 -4 20221107 1009)
+		   [(0 1 -1 1 -4 20221114 1307)
 		    ((emacs
 		      (28 1)))
 		    "Colorize org tags automatically" single
-		    ((:commit . "9aecc819c14f65d5f7819a431be626e496e3db86")
+		    ((:commit . "6001ec9345bea4e60b2178940ef197c055d5a5d8")
 		     (:authors
 		      ("Furkan Karata\305\237" . "furkan.karatas02@gmail.com"))
 		     (:maintainer "Furkan Karata\305\237" . "furkan.karatas02@gmail.com")
@@ -57247,13 +57258,13 @@
 		       (:maintainer "Erick Navarro" . "erick@navarro.io")
 		       (:url . "https://github.com/erickgnavar/tree-sitter-ispell.el"))])
  (tree-sitter-langs .
-		    [(0 12 4 1 -4 20220925 1020)
+		    [(0 12 5 1 -4 20221114 1054)
 		     ((emacs
 		       (25 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
-		     ((:commit . "00738cb725785cbd42978f944f8661c33b5d3fe5")
+		     ((:commit . "df7d7d1a46b5145d4101f6b313d22e815e4f42b4")
 		      (:authors
 		       ("Tu\341\272\245n-Anh Nguy\341\273\205n" . "ubolonton@gmail.com"))
 		      (:maintainer "Tu\341\272\245n-Anh Nguy\341\273\205n" . "ubolonton@gmail.com")
@@ -60451,13 +60462,13 @@
 	   "Major mode interface to WordNet" tar
 	   ((:commit . "feac531404041855312c1a046bde7ea18c674915"))])
  (wordreference .
-		[(0 2 1 -4 20221109 1339)
+		[(0 2 1 -4 20221114 1300)
 		 ((emacs
 		   (27 1))
 		  (s
 		   (1 12 0)))
 		 "Interface for wordreference.com" single
-		 ((:commit . "02d44e1ef05dc991fd964f70264a2fe362574843")
+		 ((:commit . "31d5c2c06f07a695d41212760726bd5036297405")
 		  (:authors
 		   ("Marty Hiatt <martianhiatus AT riseup.net>"))
 		  (:maintainer "Marty Hiatt <martianhiatus AT riseup.net>")
@@ -60499,13 +60510,13 @@
 		(:keywords "session" "management" "window-configuration" "persistence")
 		(:url . "https://github.com/pashinin/workgroups2"))])
  (workroom .
-	   [(2 0 1 -4 20221113 1802)
+	   [(2 0 1 1 -4 20221114 350)
 	    ((emacs
 	      (25 1))
 	     (project
 	      (0 3 0)))
 	    "Named rooms for work without irrelevant distracting buffers" tar
-	    ((:commit . "9db06cc7e7f988a767508133f5c4bedcba5cb555")
+	    ((:commit . "b81e76e0a39937b7544bf77cbff16cc8c239b58f")
 	     (:authors
 	      ("Akib Azmain Turja" . "akib@disroot.org"))
 	     (:maintainer "Akib Azmain Turja" . "akib@disroot.org")
