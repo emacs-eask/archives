@@ -15316,7 +15316,7 @@
 	  (:keywords "comm" "processes" "terminals" "unix")
 	  (:url . "https://github.com/sean-hut/eping"))])
  (epkg .
-       [(0 1 0 1 -4 20221114 1847)
+       [(0 1 0 1 -4 20221118 2249)
 	((emacs
 	  (25 1))
 	 (compat
@@ -15324,7 +15324,7 @@
 	 (closql
 	  (20210927)))
 	"Browse the Emacsmirror package database" tar
-	((:commit . "0349dfbccd9a99cff8984ede49dca4e776459ae1")
+	((:commit . "40bb1f5e0c4fe155d34dc6f7b002fd2560c51013")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -31069,11 +31069,11 @@
 			      (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 			      (:url . "https://codeberg.org/ideasman42/emacs-jit-lock-stealth-progress"))])
  (jmt-mode .
-	   [(0 -4 20220825 1612)
+	   [(0 -4 20221117 1441)
 	    ((emacs
 	      (24 4)))
 	    "Java Mode Tamed" single
-	    ((:commit . "ed80b7d736b2f0909dfa9a40be2bba80ea513d7b")
+	    ((:commit . "be47c70024dff044322b281ebbcea38de6d5b50b")
 	     (:authors
 	      ("Michael Allan" . "mike@reluk.ca"))
 	     (:maintainer "Michael Allan" . "mike@reluk.ca")
@@ -41402,21 +41402,25 @@
 	       (:keywords "outlines" "org" "games" "convenience" "api")
 	       (:url . "https://github.com/repelliuss/org-gamedb"))])
  (org-gcal .
-	   [(0 3 1 -4 20220809 1955)
-	    ((request
+	   [(0 4 0 1 -4 20221119 0)
+	    ((aio
+	      (1 0))
+	     (alert
+	      (1 2))
+	     (elnode
+	      (20190702 1509))
+	     (emacs
+	      (26 1))
+	     (org
+	      (9 3))
+	     (persist
+	      (0 4))
+	     (request
 	      (20190901))
 	     (request-deferred
-	      (20181129))
-	     (alert
-	      (0))
-	     (persist
-	      (0))
-	     (emacs
-	      (26))
-	     (org
-	      (9 3)))
+	      (20181129)))
 	    "Org sync with Google Calendar" tar
-	    ((:commit . "40291bec0cd0bf8a2f5db656e4d3077b256092ae")
+	    ((:commit . "86faad251d3109a900661d40001f214cf51bc635")
 	     (:authors
 	      ("myuhe <yuhei.maeda_at_gmail.com>"))
 	     (:maintainer "Raimon Grau" . "raimonster@gmail.com")
