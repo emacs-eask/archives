@@ -10192,11 +10192,11 @@
 		    (:keywords "extensions" "lisp")
 		    (:url . "https://github.com/magnars/dash.el"))])
  (dashboard .
-	    [(1 8 0 -4 20221118 1318)
+	    [(1 8 0 -4 20221121 1809)
 	     ((emacs
 	       (26 1)))
 	     "A startup screen extracted from Spacemacs" tar
-	     ((:commit . "92106c5a39e703bf18efa67a9c7dc92260845788")
+	     ((:commit . "bda7e33cace662b2bf5db13a265e9902b048baa3")
 	      (:authors
 	       ("Rakan Al-Hneiti" . "rakan.alhneiti@gmail.com"))
 	      (:maintainer "Jes\303\272s Mart\303\255nez" . "jesusmartinez93@gmail.com")
@@ -10701,11 +10701,11 @@
 		     (:keywords "convenience")
 		     (:url . "http://projects.ryuslash.org/desktop-registry/"))])
  (detached .
-	   [(0 9 2 1 -4 20221118 1226)
+	   [(0 9 2 1 -4 20221121 1551)
 	    ((emacs
 	      (27 1)))
 	    "A package to launch, and manage, detached processes" tar
-	    ((:commit . "8c7a2e1129b254946d86a7b7ae1c8378afab7b69")
+	    ((:commit . "0c7586847fc7bff2a815a31a65a88162d1377a21")
 	     (:authors
 	      ("Niklas Eklund" . "niklas.eklund@posteo.net"))
 	     (:maintainer "detached.el Development" . "~niklaseklund/detached.el@lists.sr.ht")
@@ -16131,11 +16131,11 @@
 		 (:keywords "data")
 		 (:url . "https://github.com/mhayashi1120/Emacs-esqlite"))])
  (ess .
-      [(18 10 3 -4 20221108 1714)
+      [(18 10 3 -4 20221121 1627)
        ((emacs
 	 (25 1)))
        "Emacs Speaks Statistics" tar
-       ((:commit . "7ec23bf341c23445c98f5e1faf6a1369b92f2e9f")
+       ((:commit . "66c07672308b30c1379af3510b5a6af793d5e8fa")
 	(:authors
 	 ("David Smith" . "dsmith@stats.adelaide.edu.au")
 	 ("A.J. Rossini" . "blindglobe@gmail.com")
@@ -17906,10 +17906,6 @@
 		     (:authors
 		      ("Wilfred Hughes" . "me@wilfred.me.uk"))
 		     (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk"))])
- (eziam-theme .
-	      [(4 1 -4 20221003 1256)
-	       nil "A mostly monochrome theme, inspired by Tao and Leuven, with dark and light versions." tar
-	       ((:commit . "5bec687a692331f7d8e1fe012817d66c40234bad"))])
  (f .
     [(0 20 0 1 -4 20220911 711)
      ((emacs
@@ -25053,13 +25049,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 9 0 1 -4 20221117 1800)
+       [(3 9 0 1 -4 20221118 600)
 	((helm-core
 	  (3 9 0))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "8de5444df2bafd1b3a91acd0e00cf1e0ee81682b")
+	((:commit . "788e90a4d0cf555d001ce88ab5b8431e60642f1a")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -25506,13 +25502,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 9 0 1 -4 20221113 1706)
+	    [(3 9 0 1 -4 20221120 1949)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 7)))
 	     "Development files for Helm" tar
-	     ((:commit . "51b28e8c5ba63aa891d5d05aca08ac2688701971")
+	     ((:commit . "67056a93d7a1f8ee6395bf6d8489821fa3f7d976")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -30057,13 +30053,13 @@
 		(:keywords "islisp" "lisp" "programming")
 		(:url . "https://gitlab.com/sasanidas/islisp-mode"))])
  (isortify .
-	   [(0 0 1 1 -4 20190315 2004)
+	   [(0 0 1 1 -4 20221121 1816)
 	    ((emacs
 	      (25))
 	     (pythonic
 	      (0 1 0)))
 	    "(automatically) format python buffers using isort." single
-	    ((:commit . "4d8ecfcadf58ea51368e66ecf6f2a95a95953fcf")
+	    ((:commit . "2751fb23eea4a40437e7d9bca77cbc9c06b44f3d")
 	     (:authors
 	      ("Artem Malyshev" . "proofit404@gmail.com"))
 	     (:maintainer "Artem Malyshev" . "proofit404@gmail.com")
@@ -34466,7 +34462,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20221121 1412)
+	   [(8 0 1 1 -4 20221121 1852)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -34482,7 +34478,7 @@
 	     (lv
 	      (0)))
 	    "LSP mode" tar
-	    ((:commit . "486365d9c7a011aedf1ffcd0843a3ca6137d6104")
+	    ((:commit . "903b790a820551b41b2b78845cafdbef46d29a08")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -48047,12 +48043,16 @@
 	 (:maintainer "Hao Wang" . "amaikinono@gmail.com")
 	 (:keywords "convenience" "lisp" "tools")
 	 (:url . "https://github.com/AmaiKinono/puni"))])
- (punpun-theme .
-	       [(0 1 0 1 -4 20210508 1635)
-		((emacs
-		  (24 1)))
-		"A bleak theme" tar
-		((:commit . "7026684cd568cb691af3ced5de14c375fe6f5a1a"))])
+ (punpun-themes .
+		[(0 1 0 1 -4 20221121 1018)
+		 ((emacs
+		   (24 1)))
+		 "A set of bleak themes" tar
+		 ((:commit . "6a7e04de1ad9f7ba9074b7206bffc9241c33349c")
+		  (:authors
+		   ("Vasilij Schneidermann" . "mail@vasilij.de"))
+		  (:maintainer "Vasilij Schneidermann" . "mail@vasilij.de")
+		  (:url . "https://depp.brause.cc/punpun-themes"))])
  (puppet-mode .
 	      [(0 4 1 -4 20210305 645)
 	       ((emacs
@@ -53717,11 +53717,11 @@
 	     (:keywords "sonicpi" "ruby")
 	     (:url . "http://www.github.com/repl-electric/sonic-pi.el"))])
  (soong-mode .
-	     [(0 1 1 1 -4 20221119 1417)
+	     [(0 1 2 -4 20221121 1930)
 	      ((emacs
 		(27 1)))
-	      "Support for the Soong build system" single
-	      ((:commit . "c51326d92862fd2b74275deed24092454c89dd2b")
+	      "Major mode for editing Soong build files" single
+	      ((:commit . "7a8fa60f5c9431aa061248646dad377183b51f7c")
 	       (:authors
 		("Sergey Bobrenok" . "bobrofon@gmail.com"))
 	       (:maintainer "Sergey Bobrenok" . "bobrofon@gmail.com")
@@ -59274,21 +59274,21 @@
 	   (:maintainer "Daniel Brockman" . "daniel@brockman.se")
 	   (:url . "http://www.brockman.se/software/volume-el/"))])
  (vs-dark-theme .
-		[(1 0 1 -4 20221024 1544)
+		[(1 0 1 -4 20221121 1655)
 		 ((emacs
 		   (24 1)))
 		 "Visual Studio IDE dark theme" single
-		 ((:commit . "94694257af1831359e645ae87a88437457d2fc49")
+		 ((:commit . "286271bb868058804992b7ee616001625cd9f693")
 		  (:authors
 		   ("Jen-Chieh Shen"))
 		  (:maintainer "Jen-Chieh Shen")
 		  (:url . "https://github.com/emacs-vs/vs-dark-theme"))])
  (vs-light-theme .
-		 [(1 0 1 -4 20221024 1546)
+		 [(1 0 1 -4 20221121 1654)
 		  ((emacs
 		    (24 1)))
 		  "Visual Studio IDE light theme" single
-		  ((:commit . "344a4dc59ecb25be772b5a15f07b448f3eb339b9")
+		  ((:commit . "204c9d59ce6081294fa02542dfbbd5e95b8bb172")
 		   (:authors
 		    ("Jen-Chieh Shen"))
 		   (:maintainer "Jen-Chieh Shen")
@@ -59304,9 +59304,9 @@
 		  (:maintainer "Alexander L. Belikoff")
 		  (:url . "https://github.com/abelikoff/vscdark-theme"))])
  (vscode-dark-plus-theme .
-			 [(0 0 0 1 -4 20220320 530)
+			 [(0 0 0 1 -4 20221121 1846)
 			  nil "Default Visual Studio Code Dark+ theme" single
-			  ((:commit . "cec18a9d816fef372a4e70f6ad1e16a42aa93b06")
+			  ((:commit . "f33e1f92f6b34bbd7ecc81cb4c6d48f9cab393d9")
 			   (:authors
 			    ("Ian Y.E. Pan"))
 			   (:maintainer "Ian Y.E. Pan")
@@ -60563,13 +60563,13 @@
 		(:keywords "session" "management" "window-configuration" "persistence")
 		(:url . "https://github.com/pashinin/workgroups2"))])
  (workroom .
-	   [(2 0 4 1 -4 20221120 1533)
+	   [(2 1 1 -4 20221121 1705)
 	    ((emacs
 	      (25 1))
 	     (project
 	      (0 3 0)))
 	    "Named rooms for work without irrelevant distracting buffers" tar
-	    ((:commit . "4e746fcd34c9d269d49a100d3729d13f88b1b858")
+	    ((:commit . "a02bb2a3a66d38f5166dd1e7e04e2d490c72e243")
 	     (:authors
 	      ("Akib Azmain Turja" . "akib@disroot.org"))
 	     (:maintainer "Akib Azmain Turja" . "akib@disroot.org")
