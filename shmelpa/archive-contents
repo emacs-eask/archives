@@ -53716,6 +53716,17 @@
 	     (:maintainer "Joseph Wilk" . "joe@josephwilk.net")
 	     (:keywords "sonicpi" "ruby")
 	     (:url . "http://www.github.com/repl-electric/sonic-pi.el"))])
+ (soong-mode .
+	     [(0 1 1 1 -4 20221119 1417)
+	      ((emacs
+		(27 1)))
+	      "Support for the Soong build system" single
+	      ((:commit . "c51326d92862fd2b74275deed24092454c89dd2b")
+	       (:authors
+		("Sergey Bobrenok" . "bobrofon@gmail.com"))
+	       (:maintainer "Sergey Bobrenok" . "bobrofon@gmail.com")
+	       (:keywords "languages")
+	       (:url . "https://github.com/bobrofon/soong-mode"))])
  (soothe-theme .
 	       [(2 1 8 1 -4 20220922 349)
 		((emacs
@@ -54360,11 +54371,11 @@
 	      (:keywords "c" "languages" "tools")
 	      (:url . "https://github.com/tuhdo/semantic-refactor"))])
  (srfi .
-       [(0 3 0 1 -4 20221116 52)
+       [(0 3 0 1 -4 20221120 2333)
 	((emacs
 	  (25 1)))
 	"Scheme Requests for Implementation browser" tar
-	((:commit . "689d27ed94254e3a3ce5a104057acc525e68a2ff")
+	((:commit . "708cf6434dc1af42cd756d3daceaa569553862ab")
 	 (:authors
 	  ("Lassi Kortela" . "lassi@lassi.io"))
 	 (:maintainer "Lassi Kortela" . "lassi@lassi.io")
@@ -59457,9 +59468,9 @@
 	    (:maintainer "Masamichi Hosoda" . "trueroad@trueroad.jp")
 	    (:url . "https://github.com/trueroad/w32-ime.el"))])
  (w3m .
-      [(0 1 0 1 -4 20221116 2331)
+      [(0 1 0 1 -4 20221120 2311)
        nil "an Emacs interface to w3m" tar
-       ((:commit . "b1642c87fe83700a929aebb774c89071e23c84e0")
+       ((:commit . "616a34b1ee5fb484c1581c914369ff05e5f3a3e5")
 	(:keywords "w3m" "www" "hypermedia"))])
  (wacspace .
 	   [(0 4 2 1 -4 20180311 2350)
