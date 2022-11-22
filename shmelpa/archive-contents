@@ -10701,11 +10701,11 @@
 		     (:keywords "convenience")
 		     (:url . "http://projects.ryuslash.org/desktop-registry/"))])
  (detached .
-	   [(0 9 2 1 -4 20221122 1423)
+	   [(0 9 2 1 -4 20221122 2023)
 	    ((emacs
 	      (27 1)))
 	    "A package to launch, and manage, detached processes" tar
-	    ((:commit . "00bf84e8f55ae7bcd015cf058ea1274f8e5dac17")
+	    ((:commit . "c41e6a035b05fb7c26c30c3f1c9572fbea05a0f9")
 	     (:authors
 	      ("Niklas Eklund" . "niklas.eklund@posteo.net"))
 	     (:maintainer "detached.el Development" . "~niklaseklund/detached.el@lists.sr.ht")
@@ -17267,7 +17267,7 @@
 		       ("Vegard \303\230ye <vegard_oye at hotmail.com>"))
 		      (:maintainer "Vegard \303\230ye <vegard_oye at hotmail.com>"))])
  (evil-tex .
-	   [(1 0 2 1 -4 20221021 1344)
+	   [(1 0 2 1 -4 20221122 2034)
 	    ((emacs
 	      (26 1))
 	     (evil
@@ -17275,7 +17275,7 @@
 	     (auctex
 	      (11 88)))
 	    "Useful features for editing LaTeX in evil-mode" single
-	    ((:commit . "97616a81fb88ad558051b57d899fdaba56d8d7fa")
+	    ((:commit . "fd7a2b4b1953bc46276324d308d764bba280d6bf")
 	     (:keywords "tex" "emulation" "vi" "evil" "wp")
 	     (:url . "https://github.com/iyefrat/evil-tex"))])
  (evil-text-object-python .
@@ -17906,6 +17906,15 @@
 		     (:authors
 		      ("Wilfred Hughes" . "me@wilfred.me.uk"))
 		     (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk"))])
+ (eziam-themes .
+	       [(4 1 -4 20221121 1609)
+		nil "The mostly monochrome Eziam theme family." tar
+		((:commit . "7fba717293072d0afdbd1c45351ddf47b26b3064")
+		 (:authors
+		  ("Thibault Polge" . "thibault@thb.lt"))
+		 (:maintainer "Thibault Polge" . "thibault@thb.lt")
+		 (:keywords "faces")
+		 (:url . "https://github.com/thblt/eziam-theme-emacs"))])
  (f .
     [(0 20 0 1 -4 20220911 711)
      ((emacs
@@ -34462,9 +34471,9 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20221122 1232)
+	   [(8 0 1 1 -4 20221122 1937)
 	    ((emacs
-	      (26 1))
+	      (26 3))
 	     (dash
 	      (2 18 0))
 	     (f
@@ -34476,9 +34485,11 @@
 	     (markdown-mode
 	      (2 3))
 	     (lv
-	      (0)))
+	      (0))
+	     (eldoc
+	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "459b51f9f902a8a0f633e4987d4362ca60111e31")
+	    ((:commit . "bc8889c2181361587f1310b29ce6c066d2adb859")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -34729,11 +34740,11 @@
 	     (:keywords "convenience")
 	     (:url . "https://github.com/emacs-pe/luarocks.el"))])
  (lurk-mode .
-	    [(0 1 6 1 -4 20221114 2218)
+	    [(0 1 7 1 -4 20221122 2058)
 	     ((emacs
 	       (25 1)))
 	     "A major mode for editing lurk files" single
-	     ((:commit . "568fdce7b80a3d71d09369318b18f86de2372105")
+	     ((:commit . "bd7cf661ccb31bfbfab542018c361bd79064d4f4")
 	      (:maintainer "Jeff Weiss" . "jweiss@protocol.ai")
 	      (:keywords "languages" "lurk" "lisp")
 	      (:url . "http://github.com/lurk-lang/lurk-emacs"))])
@@ -39894,13 +39905,13 @@
 	   (:keywords "org" "babel" "lfe" "lisp" "erlang")
 	   (:url . "http://github.com/zweifisch/ob-lfe"))])
  (ob-lurk .
-	  [(0 1 3 1 -4 20221107 1338)
+	  [(0 1 7 1 -4 20221122 2058)
 	   ((emacs
 	     (25 1))
 	    (lurk-mode
-	     (0 1 2)))
+	     (0 1 6)))
 	   "Evaluate lurk code blocks in org mode" single
-	   ((:commit . "b341ffbf5959bbbc7dd33b35e207ce8b7bfbf565")
+	   ((:commit . "bd7cf661ccb31bfbfab542018c361bd79064d4f4")
 	    (:maintainer "Jeff Weiss" . "jweiss@protocol.ai")
 	    (:keywords "languages" "lurk" "lisp")
 	    (:url . "http://github.com/lurk-lang/lurk-emacs"))])
@@ -41847,11 +41858,11 @@
 		    (:keywords "org-mode" "org" "mobile" "sync" "todo")
 		    (:url . "https://framagit.org/steckerhalter/org-mobile-sync"))])
  (org-modern .
-	     [(0 5 1 -4 20221020 749)
+	     [(0 6 1 -4 20221122 1836)
 	      ((emacs
 		(27 1)))
 	      "Modern looks for Org" single
-	      ((:commit . "59b2e3c94756b4e37b2cf7b9f81028c6d4758672")
+	      ((:commit . "e87ca8a9ec45fcfa2556028aa9feffb7bc3aecee")
 	       (:authors
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
 	       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -47557,11 +47568,11 @@
 		       (:keywords "convenience")
 		       (:url . "https://github.com/fritzgrabo/project-tab-groups"))])
  (projectile .
-	     [(2 7 0 -4 20221118 1035)
+	     [(2 7 0 1 -4 20221122 2032)
 	      ((emacs
 		(25 1)))
 	      "Manage and navigate projects in Emacs easily" single
-	      ((:commit . "5703797bb2a400e962479e670086aca4241a77b7")
+	      ((:commit . "14beeaee7a77601aee4d4982811f6a27f696403c")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
@@ -54369,11 +54380,11 @@
 	      (:keywords "c" "languages" "tools")
 	      (:url . "https://github.com/tuhdo/semantic-refactor"))])
  (srfi .
-       [(0 3 0 1 -4 20221120 2333)
+       [(0 3 0 1 -4 20221122 2057)
 	((emacs
 	  (25 1)))
 	"Scheme Requests for Implementation browser" tar
-	((:commit . "708cf6434dc1af42cd756d3daceaa569553862ab")
+	((:commit . "7123b49b83aa76a8e3f14afbd04184f92e2ebaba")
 	 (:authors
 	  ("Lassi Kortela" . "lassi@lassi.io"))
 	 (:maintainer "Lassi Kortela" . "lassi@lassi.io")
@@ -60561,7 +60572,7 @@
 		(:keywords "session" "management" "window-configuration" "persistence")
 		(:url . "https://github.com/pashinin/workgroups2"))])
  (workroom .
-	   [(2 2 2 1 -4 20221122 1755)
+	   [(2 2 4 1 -4 20221122 1938)
 	    ((emacs
 	      (25 1))
 	     (project
@@ -60569,7 +60580,7 @@
 	     (compat
 	      (28 1 2 2)))
 	    "Named rooms for work without irrelevant distracting buffers" tar
-	    ((:commit . "f9d88f211ce5a302688839ea7dbd71e424b0bb28")
+	    ((:commit . "3b7b17e2ccfa935843c5cd60f9c71a956f9f5c49")
 	     (:authors
 	      ("Akib Azmain Turja" . "akib@disroot.org"))
 	     (:maintainer "Akib Azmain Turja" . "akib@disroot.org")
