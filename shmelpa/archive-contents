@@ -34168,7 +34168,7 @@
 	     (:keywords "convenience")
 	     (:url . "https://github.com/0x60df/loophole"))])
  (loopy .
-	[(0 10 1 1 -4 20221125 1739)
+	[(0 11 0 1 -4 20221125 2001)
 	 ((emacs
 	   (27 1))
 	  (map
@@ -34176,22 +34176,22 @@
 	  (seq
 	   (2 22)))
 	 "A looping macro" tar
-	 ((:commit . "f08776e35fbb5c0f93d9b25e781e6c660302003e")
+	 ((:commit . "771c1d1edd4dfec96b576b1d2b551e4aae066dc9")
 	  (:authors
 	   ("Earl Hyatt"))
 	  (:maintainer "Earl Hyatt")
 	  (:keywords "extensions")
 	  (:url . "https://github.com/okamsn/loopy"))])
  (loopy-dash .
-	     [(0 10 1 1 -4 20220330 127)
+	     [(0 11 0 1 -4 20221125 2001)
 	      ((emacs
 		(25 1))
 	       (loopy
-		(0 10 1))
+		(0 11 0))
 	       (dash
 		(2 19)))
 	      "Dash destructuring for `loopy'" single
-	      ((:commit . "cd49433244ef450a1dd10a65a7839076d61bdcf1")
+	      ((:commit . "771c1d1edd4dfec96b576b1d2b551e4aae066dc9")
 	       (:authors
 		("Earl Hyatt"))
 	       (:maintainer "Earl Hyatt")
@@ -39650,13 +39650,15 @@
 	   (:keywords "literate programming" "reproducible research" "org" "babel" "dao")
 	   (:url . "https://github.com/xuchunyang/ob-dao"))])
  (ob-dart .
-	  [(0 1 0 1 -4 20170106 1624)
-	   nil "org-babel functions for Dart evaluation" single
-	   ((:commit . "2e463d83a3fe1c9c86f2040e0d22c06dfa49ecbf")
+	  [(1 0 1 1 -4 20221125 2033)
+	   ((emacs
+	     (24 4)))
+	   "Evaluate Dart source blocks in org-mode" single
+	   ((:commit . "869c0a0cb5b6e0d95fa11f9ff6fceafd1bce1311")
 	    (:authors
 	     ("Milan Zimmermann"))
 	    (:maintainer "Milan Zimmermann")
-	    (:keywords "literate programming" "reproducible research" "emacs" "org" "babel" "dart")
+	    (:keywords "languages")
 	    (:url . "http://github.org/mzimmerm/ob-dart"))])
  (ob-deno .
 	  [(1 0 1 1 -4 20201019 101)
@@ -56631,6 +56633,17 @@
 	 (:maintainer "Mola-T" . "Mola@molamola.xyz")
 	 (:keywords "internal" "lisp" "processes" "tools")
 	 (:url . "https://github.com/mola-T/timp"))])
+ (timu-caribbean-theme .
+		       [(1 0 1 -4 20221120 2213)
+			((emacs
+			  (27 1)))
+			"Color theme with cyan as a dominant color" single
+			((:commit . "6bbf68dde5780707ceb5a43d81cb690355f6ad59")
+			 (:authors
+			  ("Aim\303\251 Bertrand" . "aime.bertrand@macowners.club"))
+			 (:maintainer "Aim\303\251 Bertrand" . "aime.bertrand@macowners.club")
+			 (:keywords "faces" "themes")
+			 (:url . "https://gitlab.com/aimebertrand/timu-caribbean-theme"))])
  (timu-rouge-theme .
 		   [(1 4 1 -4 20220717 2158)
 		    ((emacs
