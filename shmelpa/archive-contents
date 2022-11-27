@@ -8376,13 +8376,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 20 1 -4 20221123 1845)
+	  [(0 20 1 -4 20221127 533)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (28 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "a3937825b5e5e27c7d6f82c204f28d41a2cd8053")
+	   ((:commit . "db16709e0d22f290eadfc48980f282ce7ae6d468")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -17356,7 +17356,7 @@
 			(:keywords "evil" "syntax" "highlight" "text-object")
 			(:url . "https://github.com/laishulu/evil-textobj-syntax"))])
  (evil-textobj-tree-sitter .
-			   [(0 1 1 -4 20221024 351)
+			   [(0 1 1 -4 20221127 348)
 			    ((emacs
 			      (25 1))
 			     (evil
@@ -17364,7 +17364,7 @@
 			     (tree-sitter
 			      (0 15 0)))
 			    "Provides evil textobjects using tree-sitter" tar
-			    ((:commit . "087c3c3ce249515446d01f4a98d9fadc2bc41666")
+			    ((:commit . "866928d3ee6b4623addc2324f2eebe55e95dd778")
 			     (:keywords "evil" "tree-sitter" "text-object" "convenience")
 			     (:url . "https://github.com/meain/evil-textobj-tree-sitter"))])
  (evil-traces .
@@ -21963,13 +21963,13 @@
 	     (:keywords "evernote" "geeknote" "note" "emacs-evernote" "evernote-mode")
 	     (:url . "http://github.com/avendael/emacs-geeknote"))])
  (geiser .
-	 [(0 28 1 -4 20221115 2228)
+	 [(0 28 1 1 -4 20221127 507)
 	  ((emacs
 	    (25 1))
 	   (project
 	    (0 8 1)))
 	  "GNU Emacs and Scheme talk to each other" tar
-	  ((:commit . "15dfe0fceea4d3508cd22a05fee18b617f84df2f")
+	  ((:commit . "a29ad0533090e804f84b72c064a595b35c077977")
 	   (:authors
 	    ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
 	   (:maintainer "Jose Antonio Ortega Ruiz" . "jao@gnu.org")
@@ -22041,15 +22041,15 @@
 		  (:keywords "languages" "gauche" "scheme" "geiser")
 		  (:url . "https://gitlab.com/emacs-geiser/gauche"))])
  (geiser-guile .
-	       [(0 28 0 1 -4 20221115 2230)
+	       [(0 28 1 1 -4 20221127 509)
 		((emacs
 		  (25 1))
 		 (transient
 		  (0 3))
 		 (geiser
-		  (0 28)))
+		  (0 28 1)))
 		"Guile and Geiser talk to each other" tar
-		((:commit . "961c9630f90733f517a9124750e72da55b569f10")
+		((:commit . "f57bfd5039ce158de95d2ef2933e64fb16def4f6")
 		 (:authors
 		  ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
 		 (:maintainer "Jose Antonio Ortega Ruiz" . "jao@gnu.org")
@@ -44159,11 +44159,11 @@
 		(:keywords "org" "pukiwiki")
 		(:url . "https://github.com/yashi/org-pukiwiki"))])
  (ox-qmd .
-	 [(1 0 5 1 -4 20221125 1557)
+	 [(1 0 5 1 -4 20221127 702)
 	  ((emacs
 	    (24 4)))
 	  "Qiita Markdown Back-End for Org Export Engine" single
-	  ((:commit . "0502c024afa27c261cb21b7728f43fa87664f18c")
+	  ((:commit . "026e4bd227589b3500294a56c2eca43b3405f992")
 	   (:authors
 	    ("0x60DF" . "0x60DF@gmail.com"))
 	   (:maintainer "0x60DF" . "0x60DF@gmail.com")
@@ -44183,11 +44183,11 @@
 	      (:keywords "org" "outlines" "report" "exporter" "meeting" "minutes")
 	      (:url . "https://github.com/DarkBuffalo/ox-report"))])
  (ox-reveal .
-	    [(1 0 1 -4 20221127 241)
+	    [(1 0 1 -4 20221127 702)
 	     ((org
 	       (8 3)))
 	     "reveal.js Presentation Back-End for Org Export Engine" single
-	     ((:commit . "0dc6d4f1dd6e509a2eb48e63c7d731085aefeff4")
+	     ((:commit . "2d5a04ddecd2c39efe6b46bfab26f7661e7750b4")
 	      (:authors
 	       ("Yujie Wen <yjwen.ty at gmail dot com>"))
 	      (:maintainer "Yujie Wen <yjwen.ty at gmail dot com>")
@@ -55924,11 +55924,11 @@
 		 (:keywords "comm" "help" "hypermedia")
 		 (:url . "https://github.com/lassik/emacs-teletext-yle"))])
  (tempel .
-	 [(0 5 1 -4 20221016 1017)
+	 [(0 5 1 -4 20221127 454)
 	  ((emacs
 	    (27 1)))
 	  "Tempo templates/snippets with in-buffer field editing" single
-	  ((:commit . "7d7adf155760d33b8c391fbf1e99c5be85bab85a")
+	  ((:commit . "1203094cad705b4b9c861eee120e57a5a26e6ef1")
 	   (:authors
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	   (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
