@@ -9529,11 +9529,11 @@
 		   (:keywords "languages")
 		   (:url . "https://github.com/wynro/emacs-csgo-conf-mode"))])
  (csharp-mode .
-	      [(1 1 1 1 -4 20221124 2217)
+	      [(2 0 0 1 -4 20221126 2005)
 	       ((emacs
 		 (26 1)))
 	       "C# mode derived mode" tar
-	       ((:commit . "e2b2e33557754524fd64cf64b39cbce0bc6aa674")
+	       ((:commit . "d8b058c9e9d0429ea7e81d121ce19b064bd7e0f5")
 		(:authors
 		 ("Theodor Thornhill" . "theo@thornhill.no"))
 		(:maintainer "Jostein Kj\303\270nigsen" . "jostein@gmail.com")
@@ -21242,7 +21242,7 @@
 	      (:keywords "faces")
 	      (:url . "https://depp.brause.cc/form-feed"))])
  (format-all .
-	     [(0 5 0 1 -4 20221008 1655)
+	     [(0 5 0 1 -4 20221126 2030)
 	      ((emacs
 		(24 4))
 	       (inheritenv
@@ -21250,7 +21250,7 @@
 	       (language-id
 		(0 19)))
 	      "Auto-format C, C++, JS, Python, Ruby and 50 other languages" single
-	      ((:commit . "c237c4cdf70a93c2d975b418314af33a210a5740")
+	      ((:commit . "1535577641e8bdd00636037c65a954386b87d500")
 	       (:authors
 		("Lassi Kortela" . "lassi@lassi.io"))
 	       (:maintainer "Lassi Kortela" . "lassi@lassi.io")
@@ -21902,11 +21902,11 @@
 	 (:keywords "internal")
 	 (:url . "https://gitlab.com/koral/gcmh"))])
  (gcode-mode .
-	     [(0 1 1 -4 20210522 1025)
+	     [(0 1 1 -4 20221126 2249)
 	      ((emacs
 		(24 4)))
 	      "Simple G-Code major mode" tar
-	      ((:commit . "1f83845af4102efc5e5856b55bd5ad165b2f0cdd")
+	      ((:commit . "94d2baf2ccbe24ef173e1b203aadb02b43ef2aa2")
 	       (:authors
 		("Yuri D'Elia" . "wavexx@thregr.org"))
 	       (:maintainer "Yuri D'Elia" . "wavexx@thregr.org")
@@ -23614,7 +23614,7 @@
 		 (:keywords "languages" "go" "test")
 		 (:url . "https://github.com/go-noisegate/go-noisegate.el"))])
  (go-playground .
-		[(1 7 1 1 -4 20221126 1952)
+		[(1 8 1 1 -4 20221126 2020)
 		 ((emacs
 		   (24))
 		  (go-mode
@@ -23622,7 +23622,7 @@
 		  (gotest
 		   (0 13 0)))
 		 "Local Golang playground for short snippets." single
-		 ((:commit . "f6c8b14bfb488523a6bf93980db503e6788a62d4")
+		 ((:commit . "41a05ad391d7cba2170335d221d09bf4e06d3f2a")
 		  (:authors
 		   ("Alexander I.Grafov" . "grafov@gmail.com"))
 		  (:maintainer "Alexander I.Grafov" . "grafov@gmail.com")
@@ -24951,13 +24951,13 @@
 		 (:maintainer "Daniel Mendler")
 		 (:url . "https://github.com/minad/hasklig-mode"))])
  (hass .
-       [(2 2 3 1 -4 20220813 1717)
+       [(2 2 3 1 -4 20221126 2152)
 	((emacs
 	  (25 1))
 	 (request
 	  (0 3 3)))
 	"Interact with Home Assistant" tar
-	((:commit . "c6d9bd2e29fc2c4f37c0c72f3d136e43f34addbc")
+	((:commit . "75bef04b88b5e7b5fbfcc225f4725d89e41630e8")
 	 (:authors
 	  ("Ben Whitley"))
 	 (:maintainer "Ben Whitley")
@@ -27864,9 +27864,9 @@
 		     (:keywords "faces" "matching")
 		     (:url . "http://nschum.de/src/emacs/highlight-symbol/"))])
  (highlight-thing .
-		  [(0 1 0 1 -4 20220726 2237)
+		  [(0 1 0 1 -4 20221126 2305)
 		   nil "Minimalistic minor mode to highlight current thing under point." single
-		   ((:commit . "cdf429c41c13c22d25fe43493cc5d85cc480dba6")
+		   ((:commit . "b9bb6e49fc20d2e1f688c2645f6f6653208145de")
 		    (:authors
 		     ("Felix Geller" . "fgeller@gmail.com"))
 		    (:maintainer "Felix Geller" . "fgeller@gmail.com")
@@ -44779,9 +44779,9 @@
 		    (:maintainer "Alex Griffin" . "a@ajgrf.com")
 		    (:url . "https://github.com/ajgrf/parchment"))])
  (paredit .
-	  [(26 -2 1 -4 20221126 1001)
+	  [(27 -2 1 -4 20221127 12)
 	   nil "minor mode for editing parentheses" single
-	   ((:commit . "a77a2f50060cb771dbf06674b52559f90bf9d38a")
+	   ((:commit . "74c008ed2c8ad7bbf03a12c76cb091199388ee1e")
 	    (:authors
 	     ("Taylor R. Campbell" . "campbell@paredit.org"))
 	    (:maintainer "Taylor R. Campbell" . "campbell@paredit.org")
@@ -44818,13 +44818,13 @@
 		    (:keywords "convenience")
 		    (:url . "https://github.com/MatthewBregg/paren-completer"))])
  (paren-face .
-	     [(0 1 0 1 -4 20220422 1627)
+	     [(0 1 0 1 -4 20221126 2342)
 	      ((emacs
 		(25 1))
 	       (compat
 		(28 1 1 0)))
 	      "A face for parentheses in lisp modes" single
-	      ((:commit . "7117d73a4d006be8a1e6730bb167d691e284c78b")
+	      ((:commit . "bf741a6038a2554abf98d31e658421c33f8bf7a4")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li"))
 	       (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
