@@ -2322,7 +2322,7 @@
 		     (:maintainer "sabof")
 		     (:url . "https://github.com/sabof/auto-auto-indent"))])
  (auto-compile .
-	       [(0 1 0 1 -4 20221120 1404)
+	       [(0 1 0 1 -4 20221127 2146)
 		((emacs
 		  (25 1))
 		 (compat
@@ -2330,7 +2330,7 @@
 		 (packed
 		  (3 0 3)))
 		"Automatically compile Emacs Lisp libraries" single
-		((:commit . "f9b7fbd45077780ed0573a13ac96164f0fbdd9d1")
+		((:commit . "68505c5fe8bd28a8b4637946c2c465dd3b4e4da0")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -4117,7 +4117,7 @@
 	"Ergonomic Command Mode for Emacs." tar
 	((:commit . "106f842df7f68cbffbb2bb63f7f99f34fe7d3edf"))])
  (borg .
-       [(3 3 1 -4 20221124 2315)
+       [(3 3 1 50 -4 20221127 2145)
 	((emacs
 	  (26))
 	 (epkg
@@ -4125,7 +4125,7 @@
 	 (magit
 	  (3 3 0)))
 	"Assimilate Emacs packages as Git submodules" tar
-	((:commit . "e27463e68ac813fa2f5a98270dec0ae98de375d3")
+	((:commit . "24167dfa6d29c7eb7e812a2ccb14227f78fcdbce")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -14722,29 +14722,29 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(3 1 1 -4 20221024 1455)
+	  [(3 1 1 50 -4 20221127 2146)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
-	   ((:commit . "e318a6c8f65371e2ab667d811205a0d9a98dacbb")
+	   ((:commit . "6b2e65bdf785364cf7c34c31fea5812e1e58c657")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	    (:url . "https://github.com/magit/emacsql"))])
  (emacsql-mysql .
-		[(0 1 0 1 -4 20221013 1512)
+		[(0 1 0 1 -4 20221127 2146)
 		 ((emacs
 		   (25 1))
 		  (emacsql
 		   (3 1 1)))
 		 "EmacSQL back-end for MySQL" single
-		 ((:commit . "ec4f3d091b8e2c60ee305a63a6f45f0ea5996ed6")
+		 ((:commit . "6b2e65bdf785364cf7c34c31fea5812e1e58c657")
 		  (:authors
 		   ("Christopher Wellons" . "wellons@nullprogram.com"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		  (:url . "https://github.com/magit/emacsql"))])
  (emacsql-pg .
-	     [(0 1 0 1 -4 20221013 1512)
+	     [(0 1 0 1 -4 20221127 2146)
 	      ((emacs
 		(25 1))
 	       (emacsql
@@ -14752,49 +14752,49 @@
 	       (pg
 		(0 16)))
 	      "EmacSQL back-end for PostgreSQL via pg" single
-	      ((:commit . "ec4f3d091b8e2c60ee305a63a6f45f0ea5996ed6")
+	      ((:commit . "6b2e65bdf785364cf7c34c31fea5812e1e58c657")
 	       (:authors
 		("Christopher Wellons" . "wellons@nullprogram.com"))
 	       (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	       (:url . "https://github.com/magit/emacsql"))])
  (emacsql-psql .
-	       [(0 1 0 1 -4 20221013 1512)
+	       [(0 1 0 1 -4 20221127 2146)
 		((emacs
 		  (25 1))
 		 (emacsql
 		  (3 1 1)))
 		"EmacSQL back-end for PostgreSQL via psql" single
-		((:commit . "ec4f3d091b8e2c60ee305a63a6f45f0ea5996ed6")
+		((:commit . "6b2e65bdf785364cf7c34c31fea5812e1e58c657")
 		 (:authors
 		  ("Christopher Wellons" . "wellons@nullprogram.com"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		 (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite .
-		 [(3 1 1 -4 20221024 1455)
+		 [(3 1 1 50 -4 20221127 2146)
 		  ((emacs
 		    (25 1))
 		   (emacsql
 		    (3 1 1)))
 		  "EmacSQL back-end for SQLite" tar
-		  ((:commit . "e318a6c8f65371e2ab667d811205a0d9a98dacbb")
+		  ((:commit . "6b2e65bdf785364cf7c34c31fea5812e1e58c657")
 		   (:authors
 		    ("Christopher Wellons" . "wellons@nullprogram.com"))
 		   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-builtin .
-			 [(0 1 0 1 -4 20221024 1455)
+			 [(0 1 0 1 -4 20221127 2146)
 			  ((emacs
 			    (29))
 			   (emacsql
 			    (3 1 1)))
 			  "EmacSQL back-end for SQLite using builtin support" single
-			  ((:commit . "e318a6c8f65371e2ab667d811205a0d9a98dacbb")
+			  ((:commit . "6b2e65bdf785364cf7c34c31fea5812e1e58c657")
 			   (:authors
 			    ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 			   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-module .
-			[(0 1 0 1 -4 20221024 1455)
+			[(0 1 0 1 -4 20221127 2146)
 			 ((emacs
 			   (25))
 			  (emacsql
@@ -14802,7 +14802,7 @@
 			  (sqlite3
 			   (0 16)))
 			 "EmacSQL back-end for SQLite using a module" single
-			 ((:commit . "e318a6c8f65371e2ab667d811205a0d9a98dacbb")
+			 ((:commit . "6b2e65bdf785364cf7c34c31fea5812e1e58c657")
 			  (:authors
 			   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -14864,11 +14864,11 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 17 1 -4 20221111 143)
+	 [(0 17 1 -4 20221127 1622)
 	  ((emacs
 	    (26 1)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "2aba953bf11f01b8ac9b2f44d151335eaf09802f")
+	  ((:commit . "fa5a59cf55d570d41f5da04d2a4951bb3ef10eaf")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -21200,7 +21200,7 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 1 -4 20221025 1208)
+	[(0 3 2 50 -4 20221127 2149)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -21224,7 +21224,7 @@
 	  (yaml
 	   (0 3 5)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "45b06b80137e981bca268b800469dada0ef7acb0")
+	 ((:commit . "9fc07458edf446aed1d30a5360b780ba3b42c3c0")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -21242,7 +21242,7 @@
 	      (:keywords "faces")
 	      (:url . "https://depp.brause.cc/form-feed"))])
  (format-all .
-	     [(0 5 0 1 -4 20221126 2030)
+	     [(0 5 0 1 -4 20221127 2215)
 	      ((emacs
 		(24 4))
 	       (inheritenv
@@ -21250,7 +21250,7 @@
 	       (language-id
 		(0 19)))
 	      "Auto-format C, C++, JS, Python, Ruby and 50 other languages" single
-	      ((:commit . "1535577641e8bdd00636037c65a954386b87d500")
+	      ((:commit . "12948e3fb43fc516bd5bd78b84e7245598471f96")
 	       (:authors
 		("Lassi Kortela" . "lassi@lassi.io"))
 	       (:maintainer "Lassi Kortela" . "lassi@lassi.io")
