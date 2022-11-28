@@ -22365,7 +22365,7 @@
 	(:maintainer "Roman Coedo" . "romancoedo@gmail.com")
 	(:keywords "ghq"))])
  (ghub .
-       [(0 1 -4 20220918 2022)
+       [(3 5 6 50 -4 20221127 2150)
 	((emacs
 	  (25 1))
 	 (compat
@@ -22375,7 +22375,7 @@
 	 (treepy
 	  (0 1 1)))
 	"Client libraries for Git forge APIs." tar
-	((:commit . "f07790b36beb563d5b87be896efbd3b8533f2acf")
+	((:commit . "141987e62dc908f54a6ef0b7847ae5296591956b")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -22543,7 +22543,7 @@
 		(:keywords "utility" "git")
 		(:url . "https://github.com/10sr/git-command-el"))])
  (git-commit .
-	     [(3 3 0 -4 20221106 1128)
+	     [(3 3 0 50 -4 20221127 2227)
 	      ((emacs
 		(25 1))
 	       (compat
@@ -22553,7 +22553,7 @@
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "161ab485209ecd0f304e16ca95f8a145327e7ffe")
+	      ((:commit . "3cf308c1c4cdb9404e3d3c6f9935ad9f628311d9")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -22715,11 +22715,11 @@
 		  (:maintainer "Neil Okamoto")
 		  (:url . "https://github.com/emacsorphanage/git-messenger"))])
  (git-modes .
-	    [(1 4 0 1 -4 20220422 1611)
+	    [(1 4 0 50 -4 20221127 2150)
 	     ((emacs
 	       (25 1)))
 	     "Major modes for editing Git configuration files" tar
-	     ((:commit . "845d333732ad9c8d65a28f12af645c6682db6f45")
+	     ((:commit . "be96ef14fab6a2d76cca3ebf9a15b462a695923d")
 	      (:authors
 	       ("Sebastian Wiesner" . "lunaryorn@gmail.com")
 	       ("R\303\274diger Sonderfeld" . "ruediger@c-plusplus.net")
@@ -32099,13 +32099,13 @@
 	    (:keywords "convenience" "keyboard" "keybindings")
 	    (:url . "http://github.com/vlevit/key-seq.el"))])
  (keycast .
-	  [(0 1 0 1 -4 20220422 1611)
+	  [(0 1 0 1 -4 20221127 2152)
 	   ((emacs
 	     (25 3))
 	    (compat
 	     (28 1 1 0)))
 	   "Show current command and its binding" single
-	   ((:commit . "0c37db482ca98e729430121209d70dd093082a5e")
+	   ((:commit . "92a14313fe65c6a57aca33e5dcc1c9421862ce32")
 	    (:authors
 	     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -35007,7 +35007,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 -4 20221125 21)
+	[(3 3 0 50 -4 20221127 2227)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -35015,15 +35015,15 @@
 	  (dash
 	   (20210826))
 	  (git-commit
-	   (20220222))
+	   (20221127))
 	  (magit-section
-	   (20220325))
+	   (20221127))
 	  (transient
 	   (20220325))
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "28d086270ceac61c10548dfb50321222152f5c80")
+	 ((:commit . "3cf308c1c4cdb9404e3d3c6f9935ad9f628311d9")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -35289,7 +35289,7 @@
 		      (:keywords "magit" "vc")
 		      (:url . "http://github.com/jtamagnan/magit-reviewboard"))])
  (magit-section .
-		[(3 3 0 -4 20220929 1014)
+		[(3 3 0 50 -4 20221127 2227)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -35297,7 +35297,7 @@
 		  (dash
 		   (20210826)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "cfe5a1260bf19191adab837e90acc1004529a0c9")
+		 ((:commit . "3cf308c1c4cdb9404e3d3c6f9935ad9f628311d9")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -43371,7 +43371,7 @@
 	   (:keywords "org")
 	   (:url . "https://github.com/yasuhito/orgbox"))])
  (orgit .
-	[(0 1 0 1 -4 20220425 1157)
+	[(0 1 0 1 -4 20221127 2228)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -43381,14 +43381,14 @@
 	  (org
 	   (9 4)))
 	 "Support for Org links to Magit buffers" single
-	 ((:commit . "6dc4d4bfffd6c11550952203a51346b13e120165")
+	 ((:commit . "ae5252fd47dd49a908d257fb59e9e8f53c5aad08")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	  (:keywords "hypermedia" "vc")
 	  (:url . "https://github.com/magit/orgit"))])
  (orgit-forge .
-	      [(0 1 0 1 -4 20220422 1625)
+	      [(0 1 0 1 -4 20221127 2228)
 	       ((emacs
 		 (25 1))
 		(compat
@@ -43402,7 +43402,7 @@
 		(orgit
 		 (1 8)))
 	       "Org links to Forge issue buffers" single
-	       ((:commit . "0ffae0b325824372e5e6b1451e5e863e170cdef3")
+	       ((:commit . "198caef15ba2ebff010eaa03f14402e17e021a13")
 		(:authors
 		 ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		(:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -44457,11 +44457,11 @@
 	     (:keywords "extensions" "tools")
 	     (:url . "https://github.com/zenspider/package"))])
  (package-build .
-		[(3 2 -4 20221113 1600)
+		[(3 2 50 -4 20221127 2229)
 		 ((emacs
 		   (25 1)))
 		 "Tools for assembling a package archive" tar
-		 ((:commit . "9190f3d21b7cd1c0e7c26f4c1cf6b4a07f7ab8fa")
+		 ((:commit . "c975d4fc3b8cbb261ca177af853927250ca19282")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		   ("Steve Purcell" . "steve@sanityinc.com")
@@ -52909,13 +52909,13 @@
 	      (:keywords "markup" "language")
 	      (:url . "http://github.com/slim-template/emacs-slim"))])
  (slime .
-	[(2 27 1 -4 20221127 2220)
+	[(2 27 1 -4 20221127 2251)
 	 ((cl-lib
 	   (0 5))
 	  (macrostep
 	   (0 9)))
 	 "Superior Lisp Interaction Mode for Emacs" tar
-	 ((:commit . "ac69b31b1c6ec0df4362442bbc34ddeb8079537f")
+	 ((:commit . "ba29269074534bd66758bd0a67082378e2587abe")
 	  (:keywords "languages" "lisp" "slime")
 	  (:url . "https://github.com/slime/slime"))])
  (slime-company .
@@ -57146,13 +57146,13 @@
 		(:keywords "comm" "convenience" "files")
 		(:url . "https://gitlab.com/tuedachu/transfer-sh.el"))])
  (transient .
-	    [(0 3 7 -4 20221124 2341)
+	    [(0 3 7 50 -4 20221127 2242)
 	     ((emacs
 	       (25 1))
 	      (compat
 	       (28 1 1 0)))
 	     "Transient commands" tar
-	     ((:commit . "ec20c0b65dcc3b274c124c15b0dcca01cf91ce4c")
+	     ((:commit . "23b8670bfda65436fc03eb03adc8191a3e4e5a0d")
 	      (:authors
 	       ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	      (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -60413,13 +60413,13 @@
 		(:maintainer "Kris Jenkins" . "krisajenkins@gmail.com")
 		(:url . "https://github.com/krisajenkins/wispjs-mode"))])
  (with-editor .
-	      [(3 2 0 -4 20220810 1159)
+	      [(3 2 0 50 -4 20221127 2243)
 	       ((emacs
 		 (25 1))
 		(compat
 		 (28 1 1 0)))
 	       "Use the Emacsclient as $EDITOR" tar
-	       ((:commit . "14a958d4f2fc932db1c1af30ca405e6570d60e24")
+	       ((:commit . "4da109748da0828b79198701eb641d5b724153ce")
 		(:authors
 		 ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		(:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
