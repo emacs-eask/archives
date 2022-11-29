@@ -28006,11 +28006,11 @@
 		 ("boyw165"))
 		(:maintainer "boyw165"))])
  (hl-block-mode .
-		[(0 1 1 -4 20220731 2352)
+		[(0 1 1 -4 20221129 351)
 		 ((emacs
 		   (26 1)))
 		 "Highlighting nested blocks" single
-		 ((:commit . "a9e8e8cfd83972a448bdbb0a9967989d0aa1d05a")
+		 ((:commit . "95df3ea6e93d5e4f5ce9eafc8be88f6883efda2a")
 		  (:authors
 		   ("Campbell Barton" . "ideasman42@gmail.com"))
 		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -28039,21 +28039,21 @@
 	      (:keywords "convenience" "faces")
 	      (:url . "https://github.com/ikirill/hl-indent"))])
  (hl-indent-scope .
-		  [(0 1 1 -4 20221016 508)
+		  [(0 1 1 -4 20221129 355)
 		   ((emacs
 		     (26 1)))
 		   "Highlight indentation by scope" tar
-		   ((:commit . "fa2f0f28ad869e83ae3c77d8d936dde5a1e45f24")
+		   ((:commit . "68420aa92947427ef71ef848c37a8e94e850f6f0")
 		    (:authors
 		     ("Campbell Barton" . "ideasman42@gmail.com"))
 		    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		    (:url . "https://codeberg.org/ideasman42/emacs-hl-indent-scope"))])
  (hl-prog-extra .
-		[(0 1 1 -4 20220731 2353)
+		[(0 1 1 -4 20221129 410)
 		 ((emacs
 		   (26 2)))
 		 "Customizable highlighting for source-code" tar
-		 ((:commit . "6d419cc36936f3bb3c9c63a6f77cc88a80b0db9c")
+		 ((:commit . "1436f7307b12fc9538238f95c2b223436537ba3d")
 		  (:authors
 		   ("Campbell Barton" . "ideasman42@gmail.com"))
 		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -31120,11 +31120,11 @@
 	 (:keywords "convenience")
 	 (:url . "https://github.com/emacs-pe/jist.el"))])
  (jit-lock-stealth-progress .
-			    [(0 1 1 -4 20220905 41)
+			    [(0 1 1 -4 20221129 357)
 			     ((emacs
 			       (28 1)))
 			     "JIT lock stealth mode-line progress" single
-			     ((:commit . "ebcff242ab90e7562f9873c946a9b067459da779")
+			     ((:commit . "fdf5109eb57f6b467c0766ab7d62ca3559c972a3")
 			      (:authors
 			       ("Campbell Barton" . "ideasman42@gmail.com"))
 			      (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -33339,11 +33339,11 @@
 	       (:keywords "tools")
 	       (:url . "https://gitlab.petton.fr/elcouch/libelcouch/"))])
  (liberime .
-	   [(0 0 6 1 -4 20221128 514)
+	   [(0 0 6 1 -4 20221129 616)
 	    ((emacs
 	      (25 1)))
 	    "Rime elisp binding" tar
-	    ((:commit . "95b61f311cf266a8ffbfd5c71f0a1c3c70145cdb")
+	    ((:commit . "bbd032c6aa438c240deaf5cefab51c8591029098")
 	     (:authors
 	      ("A.I."))
 	     (:maintainer "A.I.")
@@ -36523,9 +36523,9 @@
 	      (:maintainer "Jonathan Gregory <jgrg at autistici dot org>")
 	      (:url . "https://gitlab.com/jagrg/metronome"))])
  (mew .
-      [(0 1 0 1 -4 20221117 1310)
+      [(0 1 0 1 -4 20221129 556)
        nil "Messaging in the Emacs World" tar
-       ((:commit . "7e4dd83a1896f44e1b6c820263c850e3b33eec50")
+       ((:commit . "7ab02416029d0f15580efa3c4c3ff39f32d7c0ad")
 	(:authors
 	 ("Kazu Yamamoto" . "Kazu@Mew.org"))
 	(:maintainer "Kazu Yamamoto" . "Kazu@Mew.org"))])
@@ -45264,17 +45264,15 @@
 	     (:keywords "data" "pdb")
 	     (:url . "http://bondxray.org/software/pdb-mode/"))])
  (pdf-tools .
-	    [(1 0 0 -4 20221007 1404)
+	    [(1 0 0 1 -4 20221129 613)
 	     ((emacs
-	       (24 3))
-	      (nadvice
-	       (0 3))
+	       (26 3))
 	      (tablist
 	       (1 0))
 	      (let-alist
 		  (1 0 4)))
 	     "Support library for PDF documents" tar
-	     ((:commit . "d6980bc3273e1cf1a73feee6bb523d1568405685")
+	     ((:commit . "1885cefc24883c220cdd4acafdf1d14f290a6979")
 	      (:authors
 	       ("Andreas Politz" . "mail@andreas-politz.de"))
 	      (:maintainer "Vedang Manerikar" . "vedang.manerikar@gmail.com")
@@ -48178,11 +48176,11 @@
        (:maintainer "Aur\303\251lien Aptel" . "aurelien.aptel@gmail.com")
        (:url . "http://github.com/aaptel/preview-latex"))])
  (py-autopep8 .
-	      [(2016 1 1 -4 20220802 1154)
+	      [(2016 1 1 -4 20221129 411)
 	       ((emacs
 		 (26 1)))
 	       "Use autopep8 to beautify a Python buffer" single
-	       ((:commit . "4e5a8d5ddd77b45841f0e55d7c5326854f565830")
+	       ((:commit . "04e1202319e57baf85b7d5aff2b20db29b12358c")
 		(:authors
 		 ("Friedrich Paetzk" . "f.paetzke@gmail.com"))
 		(:maintainer "Friedrich Paetzk" . "f.paetzke@gmail.com")
@@ -51411,11 +51409,11 @@
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		   (:url . "https://codeberg.org/ideasman42/emacs-scroll-on-drag"))])
  (scroll-on-jump .
-		 [(0 1 1 -4 20221029 1138)
+		 [(0 1 1 -4 20221129 408)
 		  ((emacs
 		    (26 2)))
 		  "Scroll when jumping to a new point" single
-		  ((:commit . "b0525ea8812579b11428f3bd0cebc41dcb192ef0")
+		  ((:commit . "94d3d1995c9db075c4b8674201ca3d671737f1d5")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -52438,11 +52436,11 @@
 	       (:keywords "convenience")
 	       (:url . "https://github.com/rnkn/side-notes"))])
  (sidecar-locals .
-		 [(0 1 1 -4 20220921 501)
+		 [(0 1 1 -4 20221129 406)
 		  ((emacs
 		    (27 1)))
 		  "A flexible alternative to built-in dir-locals" single
-		  ((:commit . "4175fe207de8530474c4ec368d4507ddf97dc412")
+		  ((:commit . "03003996ca6243c643be5327b6d79417e2f2d6a4")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -54119,11 +54117,11 @@
 		(:keywords "date" "time")
 		(:url . "https://github.com/xuchunyang/emacs-speeddating"))])
  (spell-fu .
-	   [(0 3 1 -4 20221128 717)
+	   [(0 3 1 -4 20221129 407)
 	    ((emacs
 	      (26 2)))
 	    "Fast & light spelling highlighter" single
-	    ((:commit . "9cb2844fe2bf4578b206babdd4191be41929478d")
+	    ((:commit . "8d8e9b11d0e8924b6a7692cf10e658d210b4bc5a")
 	     (:authors
 	      ("Campbell Barton" . "ideasman42@gmail.com"))
 	     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
