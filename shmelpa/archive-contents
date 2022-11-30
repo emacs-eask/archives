@@ -2322,15 +2322,13 @@
 		     (:maintainer "sabof")
 		     (:url . "https://github.com/sabof/auto-auto-indent"))])
  (auto-compile .
-	       [(0 1 0 1 -4 20221127 2146)
+	       [(0 1 0 1 -4 20221130 1258)
 		((emacs
 		  (25 1))
 		 (compat
-		  (28 1 1 0))
-		 (packed
-		  (3 0 3)))
+		  (28 1 1 0)))
 		"Automatically compile Emacs Lisp libraries" single
-		((:commit . "68505c5fe8bd28a8b4637946c2c465dd3b4e4da0")
+		((:commit . "7c6a942bcb0ed30177841bd8d2f4184e419eb59d")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -4117,7 +4115,7 @@
 	"Ergonomic Command Mode for Emacs." tar
 	((:commit . "106f842df7f68cbffbb2bb63f7f99f34fe7d3edf"))])
  (borg .
-       [(3 3 1 50 -4 20221127 2145)
+       [(3 3 1 50 -4 20221130 1242)
 	((emacs
 	  (26))
 	 (epkg
@@ -4125,7 +4123,7 @@
 	 (magit
 	  (3 3 0)))
 	"Assimilate Emacs packages as Git submodules" tar
-	((:commit . "24167dfa6d29c7eb7e812a2ccb14227f78fcdbce")
+	((:commit . "14c140d8259c0f25062d74270e14fb773d1d7681")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -7164,11 +7162,11 @@
 			 (:keywords "snippets")
 			 (:url . "https://github.com/mrkkrp/common-lisp-snippets"))])
  (company .
-	  [(0 9 13 1 -4 20221007 2145)
+	  [(0 9 13 1 -4 20221130 1326)
 	   ((emacs
 	     (25 1)))
 	   "Modular text completion framework" tar
-	   ((:commit . "48fea7a905b3bcc6d97609316beced666da89b1f")
+	   ((:commit . "00a739f9684c68c8445b04f33fb8536a07ae34bd")
 	    (:authors
 	     ("Nikolaj Schumacher"))
 	    (:maintainer "Dmitry Gutov" . "dgutov@yandex.ru")
@@ -9910,9 +9908,9 @@
 		(:keywords "cypher" "graph")
 		(:url . "http://github.com/fxbois/cypher-mode"))])
  (cython-mode .
-	      [(0 1 0 1 -4 20211111 1407)
+	      [(0 1 0 1 -4 20221130 1257)
 	       nil "Major mode for editing Cython files" single
-	       ((:commit . "b75af38ce5c309cd84c1835220932e53e9a9adb6"))])
+	       ((:commit . "3e4790559d3168fe992cf2aa62f01423038cedb5"))])
  (czech-holidays .
 		 [(0 0 1 1 -4 20160113 1752)
 		  nil "Adds a list of Czech public holidays to Emacs calendar" single
@@ -14680,13 +14678,15 @@
 	 (:keywords "docs")
 	 (:url . "https://github.com/Fuco1/elwm"))])
  (elx .
-      [(0 1 0 1 -4 20221013 1037)
+      [(0 1 0 1 -4 20221130 1254)
        ((emacs
 	 (25 1))
 	(compat
-	 (28 1 1 0)))
+	 (28 1 1 0))
+	(llama
+	 (0 2 0)))
        "Extract information from Emacs Lisp libraries" single
-       ((:commit . "6f8894a7c7dde11679d38526f8d5717d009a1bd3")
+       ((:commit . "04839dd5a0fe5804a04d7f893bc460629bb2fcfd")
 	(:authors
 	 ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	(:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -21963,13 +21963,13 @@
 	     (:keywords "evernote" "geeknote" "note" "emacs-evernote" "evernote-mode")
 	     (:url . "http://github.com/avendael/emacs-geeknote"))])
  (geiser .
-	 [(0 28 1 1 -4 20221127 507)
+	 [(0 28 1 1 -4 20221130 1333)
 	  ((emacs
 	    (25 1))
 	   (project
 	    (0 8 1)))
 	  "GNU Emacs and Scheme talk to each other" tar
-	  ((:commit . "a29ad0533090e804f84b72c064a595b35c077977")
+	  ((:commit . "47bb86d6829ffa81ec021ee6217379b216d95bfc")
 	   (:authors
 	    ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
 	   (:maintainer "Jose Antonio Ortega Ruiz" . "jao@gnu.org")
