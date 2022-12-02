@@ -8374,13 +8374,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 20 1 -4 20221202 517)
+	  [(0 20 1 -4 20221202 1047)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (28 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "b96eb9944b433300c7e9ac5a856293821d93c549")
+	   ((:commit . "68ed535cc5d9943d29d9e45d1cbbb102ce7e2e74")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -35914,7 +35914,7 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/YiGeeker/masm-mode"))])
  (mastodon .
-	   [(1 0 0 1 -4 20221201 916)
+	   [(1 0 0 1 -4 20221202 1058)
 	    ((emacs
 	      (27 1))
 	     (request
@@ -35924,7 +35924,7 @@
 	     (ts
 	      (0 3)))
 	    "Client for Mastodon, a federated social network" tar
-	    ((:commit . "7a70e091f64729b03ad55079b5a3a86afd178d0c")
+	    ((:commit . "8db62b46a141dc862cee6e90afc935964a55b9d4")
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com")
 	      ("Marty Hiatt" . "martianhiatus@riseup.net"))
@@ -37664,13 +37664,13 @@
 		      (:keywords "mail" "convenience" "mu4e")
 		      (:url . "https://gitlab.com/Ambrevar/mu4e-conversation"))])
  (mu4e-jump-to-list .
-		    [(1 0 1 -4 20221124 1043)
+		    [(1 0 1 -4 20221202 1023)
 		     ((emacs
 		       (24 4))
 		      (cl-lib
 		       (0 5)))
 		     "mu4e jump-to-list extension" single
-		     ((:commit . "e3c5e1b5374ffcbe7f0f5f5de868411c13b9d2dc")
+		     ((:commit . "cf19684d2333cb0cda7f6b62c7607144baa49310")
 		      (:authors
 		       ("Yuri D'Elia" . "wavexx@thregr.org"))
 		      (:maintainer "Yuri D'Elia" . "wavexx@thregr.org")
@@ -42523,7 +42523,7 @@
 		  (:keywords "convenience" "hypermedia" "org")
 		  (:url . "https://github.com/unhammer/org-rich-yank"))])
  (org-roam .
-	   [(2 2 2 1 -4 20221202 757)
+	   [(2 2 2 1 -4 20221202 817)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -42537,7 +42537,7 @@
 	     (magit-section
 	      (3 0 0)))
 	    "A database abstraction layer for Org-mode" tar
-	    ((:commit . "c2e852e10263ee652651598708323ab5ccef2ebe")
+	    ((:commit . "3add6748aed069e62e307f15dabe97d86ca3c56a")
 	     (:authors
 	      ("Jethro Kuan" . "jethrokuan95@gmail.com"))
 	     (:maintainer "Jethro Kuan" . "jethrokuan95@gmail.com")
@@ -43158,7 +43158,7 @@
 		  (:keywords "hypermedia" "outlines" "org" "web")
 		  (:url . "http://github.com/alphapapa/org-web-tools"))])
  (org-wild-notifier .
-		    [(0 4 1 1 -4 20221107 1009)
+		    [(0 4 1 1 -4 20221202 932)
 		     ((alert
 		       (1 2))
 		      (async
@@ -43168,7 +43168,7 @@
 		      (emacs
 		       (24 4)))
 		     "Customizable org-agenda notifications" single
-		     ((:commit . "544df8a78090411479495494f9de724c350649ac")
+		     ((:commit . "9a503675a0b33decadca4eb2e52ac5b6bc8d3efb")
 		      (:authors
 		       ("Artem Khramov" . "akhramov+emacs@pm.me"))
 		      (:maintainer "Artem Khramov" . "akhramov+emacs@pm.me")
@@ -45252,7 +45252,7 @@
 	     (:keywords "data" "pdb")
 	     (:url . "http://bondxray.org/software/pdb-mode/"))])
  (pdf-tools .
-	    [(1 0 0 1 -4 20221202 715)
+	    [(1 0 0 1 -4 20221202 1104)
 	     ((emacs
 	       (26 3))
 	      (tablist
@@ -45260,7 +45260,7 @@
 	      (let-alist
 		  (1 0 4)))
 	     "Support library for PDF documents" tar
-	     ((:commit . "c3c05e3bc564cd1a009d944e8002634ffcaf7376")
+	     ((:commit . "b8079e4ebc2936f9772657332d50936350a65825")
 	      (:authors
 	       ("Andreas Politz" . "mail@andreas-politz.de"))
 	      (:maintainer "Vedang Manerikar" . "vedang.manerikar@gmail.com")
@@ -48023,9 +48023,9 @@
 	     (:keywords "markup" "language" "jade" "pug")
 	     (:url . "https://github.com/hlissner/emacs-pug-mode"))])
  (pulseaudio-control .
-		     [(0 1 1 -4 20221125 138)
+		     [(0 1 1 -4 20221202 1003)
 		      nil "Use `pactl' to manage PulseAudio volumes." single
-		      ((:commit . "2c939a0789b9a0f5e3691704afde512ada9c73f4")
+		      ((:commit . "d05575ad904e7e3548b009762b8449e800195499")
 		       (:authors
 			("Alexis <flexibeast@gmail.com>, Ellington Santos <ellingtonsantos@gmail.com>, Sergey Trofimov" . "sarg@sarg.org.ru"))
 		       (:maintainer "Alexis" . "flexibeast@gmail.com")
