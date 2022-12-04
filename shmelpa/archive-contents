@@ -13463,9 +13463,9 @@
 	(:keywords "org-mode" "convenience" "beautify")
 	(:url . "https://github.com/emacs-china/EGO"))])
  (eide .
-       [(2 3 0 1 -4 20221101 2045)
+       [(2 3 0 1 -4 20221204 2104)
 	nil "IDE interface" tar
-	((:commit . "e0a5deb627da9cf70f02229601a1ebe6d78cabc8")
+	((:commit . "ccddbb7b893c9b2439c19832aeb2c4d7dd8f5d90")
 	 (:authors
 	  ("C\303\251dric Marie" . "cedric@hjuvi.fr.eu.org"))
 	 (:maintainer "C\303\251dric Marie" . "cedric@hjuvi.fr.eu.org")
@@ -13531,11 +13531,11 @@
 	       (:keywords "convenience" "languages" "tools")
 	       (:url . "https://github.com/dantecatalfamo/ejson-mode"))])
  (el-fetch .
-	   [(3 1 0 1 -4 20221122 2207)
+	   [(3 2 0 1 -4 20221204 1846)
 	    ((emacs
 	      (25 1)))
 	    "Show system information in Neofetch-like style (eg CPU, RAM)" single
-	    ((:commit . "5cf7e32df03463853d41e0570d1c28e709fc8cf9")
+	    ((:commit . "1969852ffd44c0f089c939e0f598d931a4d38928")
 	     (:authors
 	      ("Maciej Bar\304\207" . "xgqt@riseup.net"))
 	     (:maintainer "Maciej Bar\304\207" . "xgqt@riseup.net")
@@ -22271,7 +22271,7 @@
 	   (:keywords "tools" "convenience")
 	   (:url . "https://github.com/leoliu/ggtags"))])
  (gh .
-     [(1 0 1 1 -4 20220302 549)
+     [(1 0 1 1 -4 20221204 1817)
       ((emacs
 	(25 1))
        (pcache
@@ -22283,7 +22283,7 @@
        (cl-lib
 	(0 3)))
       "A GitHub library for Emacs" tar
-      ((:commit . "27ccc892e94f7e747e5b879eec71119965d9ed6e")
+      ((:commit . "e1423a54fc97924e75d1fde27911c3c678a7d6c3")
        (:authors
 	("Yann Hodique" . "yhodique@gmail.com"))
        (:maintainer "Yann Hodique" . "yhodique@gmail.com")
@@ -33426,6 +33426,19 @@
 	     (:maintainer "Mickey Petersen" . "mickey@masteringemacs.org")
 	     (:keywords "tools" "faces")
 	     (:url . "https://www.github.com/mickeynp/ligature.el"))])
+ (ligature-pragmatapro .
+		       [(0 1 1 -4 20221127 2252)
+			((emacs
+			  (28))
+			 (ligature
+			  (1 0)))
+			"PragmataPro support for ligature.el" single
+			((:commit . "85f7b15a5cf5f2ee843bc0469e03602a0251c275")
+			 (:authors
+			  ("Yuri D'Elia" . "wavexx@thregr.org"))
+			 (:maintainer "Yuri D'Elia" . "wavexx@thregr.org")
+			 (:keywords "faces" "fonts" "ligatures" "programming-ligatures")
+			 (:url . "https://gitlab.com/wavexx/ligature-pragmatapro.el"))])
  (light-soap-theme .
 		   [(0 1 1 -4 20150607 1445)
 		    ((emacs
@@ -34094,7 +34107,7 @@
 		   ("Wilfred Hughes" . "me@wilfred.me.uk"))
 		  (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk"))])
  (logview .
-	  [(0 15 2 -4 20220916 2058)
+	  [(0 15 2 -4 20221204 1956)
 	   ((emacs
 	     (25 1))
 	    (datetime
@@ -34102,7 +34115,7 @@
 	    (extmap
 	     (1 0)))
 	   "Major mode for viewing log files" single
-	   ((:commit . "3b0b544b69759f4c119d4460f98263b6e739e7de")
+	   ((:commit . "e6d5a0a6863f0b1814f9852f02806634db395e8c")
 	    (:authors
 	     ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	    (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
@@ -34267,7 +34280,7 @@
 	     (:keywords "languages" "extensions")
 	     (:url . "https://emacs-lsp.github.io/lsp-dart"))])
  (lsp-docker .
-	     [(1 0 0 1 -4 20221123 1334)
+	     [(1 0 0 1 -4 20221204 2022)
 	      ((emacs
 		(26 1))
 	       (dash
@@ -34276,12 +34289,14 @@
 		(6 2 1))
 	       (f
 		(0 20 0))
+	       (s
+		(1 13 0))
 	       (yaml
 		(0 2 0))
 	       (ht
 		(2 0)))
 	      "LSP Docker integration" single
-	      ((:commit . "1d08ab56b4064f0e4b56493d723ff947d0e3c3c1")
+	      ((:commit . "7c8cff5103595e1341f4aaa512c833dbc58d6886")
 	       (:authors
 		("Ivan Yonchovski" . "yyoncho@gmail.com"))
 	       (:maintainer "Ivan Yonchovski" . "yyoncho@gmail.com")
@@ -37339,7 +37354,7 @@
 	    (:keywords "convenience")
 	    (:url . "https://github.com/tarsius/morlock"))])
  (mos-mode .
-	   [(0 0 1 1 -4 20221007 1641)
+	   [(0 0 1 1 -4 20221204 1932)
 	    ((emacs
 	      (24 4))
 	     (lsp-mode
@@ -37351,7 +37366,7 @@
 	     (ht
 	      (2 3)))
 	    "MOS toolkit usage" single
-	    ((:commit . "396abaa4afbca895fe27bc0570491fb005fc7693")
+	    ((:commit . "e6e3df3e1ea0a94848d09aa72eb214e5dc3b77ef")
 	     (:url . "https://github.com/themkat/mos-mode"))])
  (mosey .
 	[(0 2 1 -4 20180614 1649)
@@ -41048,6 +41063,16 @@
 		("David Engster" . "deng@randomsample.de"))
 	       (:maintainer "David Engster" . "deng@randomsample.de")
 	       (:keywords "calendar" "caldav"))])
+ (org-calibre-notes .
+		    [(0 0 1 1 -4 20221202 1657)
+		     ((emacs
+		       (27 1)))
+		     "Extract highlights and notes from Calibre EPUB reader" single
+		     ((:commit . "3120797ecbcb58827b91e3610e65579593d9a402")
+		      (:authors
+		       ("Bibek Panthi" . "bpanthi977@gmail.com"))
+		      (:maintainer "Bibek Panthi" . "bpanthi977@gmail.com")
+		      (:url . "https://github.com/bpanthi977/org-calibre-notes"))])
  (org-capture-pop-frame .
 			[(0 0 1 1 -4 20160518 1008)
 			 ((emacs
@@ -44960,13 +44985,13 @@
 	 (:maintainer "Nicolas Petton" . "petton.nicolas@gmail.com")
 	 (:keywords "password-store" "password" "keychain"))])
  (passmm .
-	 [(0 4 2 1 -4 20210109 8)
+	 [(1 0 0 1 -4 20221204 1927)
 	  ((emacs
-	    (24 4))
+	    (25))
 	   (password-store
-	    (0)))
-	  "A minor mode for pass (Password Store)." single
-	  ((:commit . "d78d1bf4f397180d2256248df589f33aafb4c8b4")
+	    (1 7 4)))
+	  "A minor mode for pass (Password Store)" single
+	  ((:commit . "66691e301dff476eaff7c6e817ed9df96d4404c8")
 	   (:authors
 	    ("Peter Jones" . "pjones@devalot.com"))
 	   (:maintainer "Peter Jones" . "pjones@devalot.com")
@@ -50811,7 +50836,7 @@
 		(:keywords "processes")
 		(:url . "https://github.com/bard/emacs-run-command"))])
  (run-command-recipes .
-		      [(0 0 3 1 -4 20221023 1807)
+		      [(0 0 3 1 -4 20221204 1907)
 		       ((emacs
 			 (25 1))
 			(dash
@@ -50821,7 +50846,7 @@
 			(run-command
 			 (0 1 0)))
 		       "This is collection of recipes to `run-command'" tar
-		       ((:commit . "ca44efc45b906bd377871b876171476f977e9fc1")
+		       ((:commit . "02dd25fc7abdfd719bc36f383651c837ff5e8314")
 			(:authors
 			 ("semenInRussia" . "hrams205@gmail.com"))
 			(:maintainer "semenInRussia" . "hrams205@gmail.com")
