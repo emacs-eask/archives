@@ -3994,13 +3994,13 @@
 	     (:keywords "c" "convenience" "tools")
 	     (:url . "http://github.com/josteink/bmx-mode"))])
  (bnf-mode .
-	   [(0 4 5 1 -4 20221205 151)
+	   [(0 4 5 1 -4 20221205 1451)
 	    ((cl-lib
 	      (0 5))
 	     (emacs
 	      (25 1)))
 	    "Major mode for editing BNF grammars." tar
-	    ((:commit . "5aec265406614582ba4ee1bc18671502f0621b2e")
+	    ((:commit . "dcdb422e219b29d53a9385e19083441c57f0beb3")
 	     (:authors
 	      ("Serghei Iakovlev" . "egrep@protonmail.ch"))
 	     (:maintainer "Serghei Iakovlev" . "egrep@protonmail.ch")
@@ -5862,7 +5862,7 @@
 		(:maintainer "Adam Chy\305\202a" . "adam@chyla.org")
 		(:url . "https://github.com/chyla/ChylaThemeForEmacs"))])
  (cider .
-	[(1 6 0 -4 20221203 1148)
+	[(1 6 0 -4 20221205 1314)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -5878,7 +5878,7 @@
 	  (sesman
 	   (0 3 2)))
 	 "Clojure Interactive Development Environment that Rocks" tar
-	 ((:commit . "6c5f89bc4ee3813af6c6c251f13ea5cf51c7923e")
+	 ((:commit . "c1329514842e30ca9eb30adf7e767de0539fe2c5")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
 	   ("Phil Hagelberg" . "technomancy@gmail.com")
@@ -6744,7 +6744,7 @@
 		 (:maintainer "DarkSun" . "lujun9972@gmail.com")
 		 (:keywords "lisp" "code"))])
  (code-review .
-	      [(0 0 7 1 -4 20221111 1212)
+	      [(0 0 7 1 -4 20221205 1335)
 	       ((emacs
 		 (25 1))
 		(closql
@@ -6768,7 +6768,7 @@
 		(emojify
 		 (1 2)))
 	       "Perform code review from Github, Gitlab, and Bitbucket Cloud" tar
-	       ((:commit . "182c1cc6ebced5c161aa37d01142dfab7eb8e7b3")
+	       ((:commit . "29055ed68fb81fb6d63df2d94562947b886afcc3")
 		(:authors
 		 ("Wanderson Ferreira <https://github.com/wandersoncferreira>"))
 		(:maintainer "Wanderson Ferreira" . "wand@hey.com")
@@ -11410,7 +11410,7 @@
 		 (:keywords "files" "matching")
 		 (:url . "https://git.sr.ht/~jakob/dired-rmjunk"))])
  (dired-rsync .
-	      [(0 6 1 -4 20220729 1031)
+	      [(0 6 1 -4 20221205 1242)
 	       ((s
 		 (1 12 0))
 		(dash
@@ -11418,7 +11418,7 @@
 		(emacs
 		 (24)))
 	       "Allow rsync from dired buffers" tar
-	       ((:commit . "7bdc1dd7c9e1217a20a4e1f26c3d1a3ed35f4a14")
+	       ((:commit . "e2c5a0a8f19a17040b348a1a56b8facce58c9fcd")
 		(:authors
 		 ("Alex Benn\303\251e" . "alex@bennee.com"))
 		(:maintainer "Alex Benn\303\251e" . "alex@bennee.com")
@@ -16530,7 +16530,7 @@
 			    (:keywords "evil" "vim" "motion")
 			    (:url . "https://github.com/yourfin/evil-better-visual-line"))])
  (evil-cleverparens .
-		    [(0 1 0 1 -4 20221202 1738)
+		    [(0 1 0 1 -4 20221205 1355)
 		     ((evil
 		       (1 0))
 		      (paredit
@@ -16542,7 +16542,7 @@
 		      (dash
 		       (2 12 0)))
 		     "Evil friendly minor-mode for editing lisp." tar
-		     ((:commit . "ec996c5209d31ab8035c548e1778d4203aed5c90")
+		     ((:commit . "22aa03d0f50aa70ae08fbe8765a88f5020afa635")
 		      (:authors
 		       ("Olli Piepponen" . "opieppo@gmail.com"))
 		      (:maintainer "Olli Piepponen" . "opieppo@gmail.com")
@@ -21142,11 +21142,11 @@
 	      (:keywords "data" "font" "rasterization" "ttf" "otf")
 	      (:url . "https://github.com/jollm/fontsloth"))])
  (for .
-      [(1 3 1 -4 20221205 1138)
+      [(1 3 1 -4 20221205 1247)
        ((emacs
 	 (28 1)))
        "Iteration and sequence" tar
-       ((:commit . "f2820b0a73c76d2ed1734f73991cc83baac7be52")
+       ((:commit . "6fcd8ef4e9d6d22d67c833e760078e0cea5a9d58")
 	(:authors
 	 ("Wing Hei Chan" . "whmunkchan@outlook.com"))
 	(:maintainer "Wing Hei Chan" . "whmunkchan@outlook.com")
@@ -32882,7 +32882,7 @@
 		       (:keywords "latex" "preview")
 		       (:url . "http://www.emacswiki.org/emacs/LaTeXPreviewPane"))])
  (latex-table-wizard .
-		     [(0 0 5 1 -4 20221205 248)
+		     [(0 0 5 1 -4 20221205 1420)
 		      ((emacs
 			(27 1))
 		       (auctex
@@ -32890,7 +32890,7 @@
 		       (transient
 			(0 3 7)))
 		      "Magic editing of LaTeX tables" single
-		      ((:commit . "da4a2e354026e0e88cb24283b68c42a7b742db49")
+		      ((:commit . "583bf279a327a9c852c59bae6f62487462c86b13")
 		       (:authors
 			("Enrico Flor" . "enrico@eflor.net"))
 		       (:maintainer "Enrico Flor" . "enrico@eflor.net")
