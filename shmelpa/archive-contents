@@ -8374,13 +8374,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 29 1 -4 20221203 545)
+	  [(0 29 1 -4 20221205 1709)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (28 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "c3608b1f634aebf8770ecb1d933a1ae9c34ecdf8")
+	   ((:commit . "df877109c836b3d1d6e57f68069348040fb0ebd4")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -10190,11 +10190,11 @@
 		    (:keywords "extensions" "lisp")
 		    (:url . "https://github.com/magnars/dash.el"))])
  (dashboard .
-	    [(1 8 0 -4 20221204 415)
+	    [(1 8 0 -4 20221205 1840)
 	     ((emacs
 	       (26 1)))
 	     "A startup screen extracted from Spacemacs" tar
-	     ((:commit . "87778851160a07c831197df83e4d399f671ea3c6")
+	     ((:commit . "0b1985a4934e1b3a42940429d99a6703cc9dc300")
 	      (:authors
 	       ("Rakan Al-Hneiti" . "rakan.alhneiti@gmail.com"))
 	      (:maintainer "Jes\303\272s Mart\303\255nez" . "jesusmartinez93@gmail.com")
@@ -21242,7 +21242,7 @@
 	      (:keywords "faces")
 	      (:url . "https://depp.brause.cc/form-feed"))])
  (format-all .
-	     [(0 5 0 1 -4 20221201 806)
+	     [(0 5 0 1 -4 20221205 1922)
 	      ((emacs
 		(24 4))
 	       (inheritenv
@@ -21250,7 +21250,7 @@
 	       (language-id
 		(0 19)))
 	      "Auto-format C, C++, JS, Python, Ruby and 50 other languages" single
-	      ((:commit . "c0cc80ee1a26f51d69b33cfbdb229a8582727cf5")
+	      ((:commit . "1f6b52a8cc253bc2df9c5f11a40571fe2b535b59")
 	       (:authors
 		("Lassi Kortela" . "lassi@lassi.io"))
 	       (:maintainer "Lassi Kortela" . "lassi@lassi.io")
@@ -21963,13 +21963,13 @@
 	     (:keywords "evernote" "geeknote" "note" "emacs-evernote" "evernote-mode")
 	     (:url . "http://github.com/avendael/emacs-geeknote"))])
  (geiser .
-	 [(0 28 1 1 -4 20221130 1333)
+	 [(0 28 1 1 -4 20221205 1417)
 	  ((emacs
 	    (25 1))
 	   (project
 	    (0 8 1)))
 	  "GNU Emacs and Scheme talk to each other" tar
-	  ((:commit . "47bb86d6829ffa81ec021ee6217379b216d95bfc")
+	  ((:commit . "a60efa80cdb8c72dacb1e16729a801206a4e80bf")
 	   (:authors
 	    ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
 	   (:maintainer "Jose Antonio Ortega Ruiz" . "jao@gnu.org")
@@ -22041,7 +22041,7 @@
 		  (:keywords "languages" "gauche" "scheme" "geiser")
 		  (:url . "https://gitlab.com/emacs-geiser/gauche"))])
  (geiser-guile .
-	       [(0 28 1 1 -4 20221127 509)
+	       [(0 28 1 1 -4 20221205 1425)
 		((emacs
 		  (25 1))
 		 (transient
@@ -22049,7 +22049,7 @@
 		 (geiser
 		  (0 28 1)))
 		"Guile and Geiser talk to each other" tar
-		((:commit . "f57bfd5039ce158de95d2ef2933e64fb16def4f6")
+		((:commit . "24ce15de235c105daf5ecfb818200dae1c9815ee")
 		 (:authors
 		  ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
 		 (:maintainer "Jose Antonio Ortega Ruiz" . "jao@gnu.org")
@@ -25069,13 +25069,13 @@
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
  (helm .
-       [(3 9 0 1 -4 20221126 2056)
+       [(3 9 0 1 -4 20221204 658)
 	((helm-core
 	  (3 9 0))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "45caa53090e3581fb64c00bd21979a35b3883173")
+	((:commit . "08c5e3367049b17f1c9e68928d72f253a8eb528b")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -25522,13 +25522,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 9 0 1 -4 20221203 1108)
+	    [(3 9 0 1 -4 20221204 658)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 7)))
 	     "Development files for Helm" tar
-	     ((:commit . "75c85ae15286c108d1f32f7ff92f6eaa89a553ef")
+	     ((:commit . "08c5e3367049b17f1c9e68928d72f253a8eb528b")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -34121,7 +34121,7 @@
 		   ("Wilfred Hughes" . "me@wilfred.me.uk"))
 		  (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk"))])
  (logview .
-	  [(0 15 2 -4 20221204 1956)
+	  [(0 15 2 -4 20221205 1855)
 	   ((emacs
 	     (25 1))
 	    (datetime
@@ -34129,7 +34129,7 @@
 	    (extmap
 	     (1 0)))
 	   "Major mode for viewing log files" single
-	   ((:commit . "e6d5a0a6863f0b1814f9852f02806634db395e8c")
+	   ((:commit . "e19ddc55eedf288b76962f28003906632dc8a462")
 	    (:authors
 	     ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	    (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
