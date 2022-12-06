@@ -35725,11 +35725,11 @@
 	      (:keywords "docker")
 	      (:url . "https://github.com/nlamirault/marcopolo"))])
  (marginalia .
-	     [(0 15 1 -4 20221129 2007)
+	     [(0 15 1 -4 20221206 147)
 	      ((emacs
 		(27 1)))
 	      "Enrich existing commands with completion annotations" single
-	      ((:commit . "c68164c56485e1ef855c2d12e4393f5f55ca2b12")
+	      ((:commit . "58ce23c92072a1274633f7567caa1aeca4c1b550")
 	       (:authors
 		("Omar Antol\303\255n Camarena <omar@matem.unam.mx>, Daniel Mendler" . "mail@daniel-mendler.de"))
 	       (:maintainer "Omar Antol\303\255n Camarena <omar@matem.unam.mx>, Daniel Mendler" . "mail@daniel-mendler.de")
@@ -36292,11 +36292,11 @@
 	   (:keywords "comm" "processes" "bittorrent")
 	   (:url . "https://github.com/skangas/mentor"))])
  (meow .
-       [(1 4 2 1 -4 20221027 28)
+       [(1 4 2 1 -4 20221206 156)
 	((emacs
 	  (27 1)))
 	"Yet Another modal editing" tar
-	((:commit . "4ad1a11d14c8bc0ba4137900c7833fbdacf7bdb3")
+	((:commit . "2eb74b0921d246f952c2cb549eeed8fde574a900")
 	 (:authors
 	  ("Shi Tianshu"))
 	 (:maintainer "Shi Tianshu")
@@ -43600,11 +43600,11 @@
 	       (:keywords "comm")
 	       (:url . "https://github.com/atomontage/osa-chrome"))])
  (osm .
-      [(0 8 1 -4 20221021 1152)
+      [(0 8 1 -4 20221206 140)
        ((emacs
 	 (27 1)))
        "OpenStreetMap viewer" tar
-       ((:commit . "5b24ed076c9998be627c19549d403d5b219b7b28")
+       ((:commit . "9f717ca40efc3f05ed9cafd4589baa887559edb5")
 	(:authors
 	 ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	(:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -44285,15 +44285,18 @@
 	     (:keywords "org" "slack" "outlines")
 	     (:url . "https://github.com/titaniumbones/ox-slack"))])
  (ox-spectacle .
-	       [(1 0 1 -4 20181211 953)
-		((org
+	       [(2 0 1 -4 20221206 320)
+		((emacs
+		  (28 1))
+		 (org
 		  (8 3)))
-		"spectacle.js Presentation Back-End for Org Export Engine" single
-		((:commit . "9d3ec9a6326289074d8620e97d65e3105307ff51")
+		"Spectacle.js Presentation Back-End for Org Export Engine" single
+		((:commit . "dd617331390ace6b6d6648131b76170fb2e59fc4")
 		 (:authors
-		  ("imfine" . "lorniu@gmail.com"))
-		 (:maintainer "imfine" . "lorniu@gmail.com")
-		 (:keywords "presentation"))])
+		  ("lorniu" . "lorniu@gmail.com"))
+		 (:maintainer "lorniu" . "lorniu@gmail.com")
+		 (:keywords "convenience")
+		 (:url . "https://github.com/lorniu/ox-spectacle"))])
  (ox-ssh .
 	 [(2 0 1 -4 20210917 1517)
 	  ((emacs
@@ -52934,13 +52937,13 @@
 	      (:keywords "markup" "language")
 	      (:url . "http://github.com/slim-template/emacs-slim"))])
  (slime .
-	[(2 27 1 -4 20221127 2251)
+	[(2 27 1 -4 20221206 26)
 	 ((cl-lib
 	   (0 5))
 	  (macrostep
 	   (0 9)))
 	 "Superior Lisp Interaction Mode for Emacs" tar
-	 ((:commit . "ba29269074534bd66758bd0a67082378e2587abe")
+	 ((:commit . "4d540c8fc963515662b14197a9835573c1d28687")
 	  (:keywords "languages" "lisp" "slime")
 	  (:url . "https://github.com/slime/slime"))])
  (slime-company .
