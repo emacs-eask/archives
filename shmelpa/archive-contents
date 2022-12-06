@@ -15339,7 +15339,7 @@
 	  (:keywords "comm" "processes" "terminals" "unix")
 	  (:url . "https://github.com/sean-hut/eping"))])
  (epkg .
-       [(0 1 0 1 -4 20221130 2318)
+       [(0 1 0 1 -4 20221205 2051)
 	((emacs
 	  (25 1))
 	 (compat
@@ -15347,7 +15347,7 @@
 	 (closql
 	  (20210927)))
 	"Browse the Emacsmirror package database" tar
-	((:commit . "1161cb95eddd4f70e25531f1a9ca8a738570d3d2")
+	((:commit . "0bcd76c4afbb140c80781efa229bb924a286020b")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -38073,11 +38073,13 @@
 			  (:keywords "myanmar" "unicode" "keyboard")
 			  (:url . "http://github.com/yelinkyaw/emacs-myanmar-input-methods"))])
  (mybigword .
-	    [(0 1 1 1 -4 20220715 615)
+	    [(0 2 0 1 -4 20221206 1257)
 	     ((emacs
-	       (25 1)))
+	       (26 1))
+	      (avy
+	       (0 5 0)))
 	     "Vocabulary builder using Zipf to extract English big words" tar
-	     ((:commit . "6c35dd44369930b039a37f6174617bb6ab93be27")
+	     ((:commit . "c5a7f43b38e2865333dd2603c14a2874cd25d2d0")
 	      (:authors
 	       ("Chen Bin <chenbin DOT sh AT gmail.com>"))
 	      (:maintainer "Chen Bin <chenbin DOT sh AT gmail.com>")
@@ -44285,13 +44287,13 @@
 	     (:keywords "org" "slack" "outlines")
 	     (:url . "https://github.com/titaniumbones/ox-slack"))])
  (ox-spectacle .
-	       [(2 0 1 -4 20221206 936)
+	       [(2 0 1 -4 20221206 1203)
 		((emacs
 		  (28 1))
 		 (org
 		  (8 3)))
 		"Spectacle.js Presentation Back-End for Org Export Engine" single
-		((:commit . "a36cc897b9d3d462d69526c68ebc9dbfa169e305")
+		((:commit . "dc504b2957beba3d4ab4d36eccfc9e695051786f")
 		 (:authors
 		  ("lorniu" . "lorniu@gmail.com"))
 		 (:maintainer "lorniu" . "lorniu@gmail.com")
