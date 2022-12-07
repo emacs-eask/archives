@@ -36556,7 +36556,7 @@
 		     (:keywords "calendar")
 		     (:url . "https://github.com/sggutier/mexican-holidays"))])
  (meyvn .
-	[(1 1 1 -4 20220821 2242)
+	[(1 1 1 -4 20221206 2219)
 	 ((emacs
 	   (25 1))
 	  (cider
@@ -36568,11 +36568,13 @@
 	  (dash
 	   (2 17))
 	  (parseedn
-	   (0 1 0))
+	   (1 1 0))
+	  (parseclj
+	   (1 1 0))
 	  (geiser
 	   (0 12)))
 	 "Meyvn client" single
-	 ((:commit . "43b2061f907dda533abd3136dccdb1ce467ec6c0")
+	 ((:commit . "493e652b8fffcbed226f69a2ea82e6f9fc51ab08")
 	  (:authors
 	   ("Daniel Szmulewicz" . "daniel.szmulewicz@gmail.com"))
 	  (:maintainer "Daniel Szmulewicz" . "daniel.szmulewicz@gmail.com")
@@ -38718,11 +38720,11 @@
 	     (:maintainer "Simon Hafner" . "hafnersimon@gmail.com")
 	     (:keywords "nim" "languages"))])
  (nimbus-theme .
-	       [(1 2 0 1 -4 20221201 1019)
+	       [(1 3 0 1 -4 20221206 2121)
 		((emacs
 		  (24 1)))
-		"An awesome dark theme" single
-		((:commit . "0dd87fefeb6f8c866f1d652c62aac95798b44e88")
+		"Nimbus dark theme" single
+		((:commit . "178557148f2e132c79be25429d04c5b89f6535dd")
 		 (:authors
 		  ("Marcin Swieczkowski" . "marcin.swieczkowski@gmail.com")
 		  ("See README.md for full list of contributors."))
@@ -44287,13 +44289,13 @@
 	     (:keywords "org" "slack" "outlines")
 	     (:url . "https://github.com/titaniumbones/ox-slack"))])
  (ox-spectacle .
-	       [(2 0 1 -4 20221206 1604)
+	       [(2 0 1 -4 20221207 50)
 		((emacs
 		  (28 1))
 		 (org
 		  (8 3)))
 		"Spectacle.js Presentation Back-End for Org Export Engine" single
-		((:commit . "84999eb88ae1a1855a03b4d24d8fa72e22ad82a3")
+		((:commit . "6e4d42805d8837338ecddb2798b5c86121992d84")
 		 (:authors
 		  ("lorniu" . "lorniu@gmail.com"))
 		 (:maintainer "lorniu" . "lorniu@gmail.com")
@@ -59569,9 +59571,9 @@
 	    (:maintainer "Masamichi Hosoda" . "trueroad@trueroad.jp")
 	    (:url . "https://github.com/trueroad/w32-ime.el"))])
  (w3m .
-      [(0 1 0 1 -4 20221120 2311)
+      [(0 1 0 1 -4 20221206 2328)
        nil "an Emacs interface to w3m" tar
-       ((:commit . "616a34b1ee5fb484c1581c914369ff05e5f3a3e5")
+       ((:commit . "4f278108c0d88fc8d7bc93beb5e283b98fff6efe")
 	(:keywords "w3m" "www" "hypermedia"))])
  (wacspace .
 	   [(0 4 2 1 -4 20180311 2350)
