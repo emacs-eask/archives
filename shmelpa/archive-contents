@@ -4115,7 +4115,7 @@
 	"Ergonomic Command Mode for Emacs." tar
 	((:commit . "106f842df7f68cbffbb2bb63f7f99f34fe7d3edf"))])
  (borg .
-       [(3 3 1 50 -4 20221206 2238)
+       [(3 3 1 50 -4 20221208 2129)
 	((emacs
 	  (26))
 	 (epkg
@@ -4123,7 +4123,7 @@
 	 (magit
 	  (3 3 0)))
 	"Assimilate Emacs packages as Git submodules" tar
-	((:commit . "2f41ec4bd62477911e2e192e9f926e210c081d1d")
+	((:commit . "adda3c1e4cb22a7754b46428ad0e7197ee60db1f")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -13501,7 +13501,7 @@
 	       (:maintainer "Marian Schubert" . "marian.schubert@gmail.com")
 	       (:url . "http://github.com/maio/eink-emacs"))])
  (ejc-sql .
-	  [(0 4 1 1 -4 20221101 922)
+	  [(0 4 1 1 -4 20221208 2116)
 	   ((emacs
 	     (26 3))
 	    (clomacs
@@ -13509,11 +13509,9 @@
 	    (dash
 	     (2 16 0))
 	    (spinner
-	     (1 7 3))
-	    (direx
-	     (1 0 0)))
+	     (1 7 3)))
 	   "Emacs SQL client uses Clojure JDBC." tar
-	   ((:commit . "83f39df28f9812773bf89d7af1caf5e7950fb84e")
+	   ((:commit . "c236f79b48c0f4691500723841a9d356203a4b13")
 	    (:authors
 	     ("Kostafey" . "kostafey@gmail.com"))
 	    (:maintainer "Kostafey" . "kostafey@gmail.com")
@@ -14678,7 +14676,7 @@
 	 (:keywords "docs")
 	 (:url . "https://github.com/Fuco1/elwm"))])
  (elx .
-      [(0 1 0 1 -4 20221207 1328)
+      [(0 1 0 1 -4 20221208 2336)
        ((emacs
 	 (25 1))
 	(compat
@@ -14686,7 +14684,7 @@
 	(llama
 	 (0 2 0)))
        "Extract information from Emacs Lisp libraries" single
-       ((:commit . "0524c5cf08534ffb34b284f0c1cbc1c86dd149b4")
+       ((:commit . "27846ebfec114552b6737dd4be37898e594c0f4c")
 	(:authors
 	 ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	(:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -21200,7 +21198,7 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 3 2 50 -4 20221127 2149)
+	[(0 3 2 50 -4 20221208 2159)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -21224,7 +21222,7 @@
 	  (yaml
 	   (0 3 5)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "9fc07458edf446aed1d30a5360b780ba3b42c3c0")
+	 ((:commit . "3ab86bb44073e48ff7e6e432b6b4d2af12e45295")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -35024,7 +35022,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20221127 2227)
+	[(3 3 0 50 -4 20221208 1848)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -35040,7 +35038,7 @@
 	  (with-editor
 	   (20220318)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "3cf308c1c4cdb9404e3d3c6f9935ad9f628311d9")
+	 ((:commit . "99d9b3008adf72a0c2cdb7df70b5ae03ea9271c8")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -44289,13 +44287,13 @@
 	     (:keywords "org" "slack" "outlines")
 	     (:url . "https://github.com/titaniumbones/ox-slack"))])
  (ox-spectacle .
-	       [(2 0 1 -4 20221208 1154)
+	       [(2 0 1 -4 20221208 2350)
 		((emacs
 		  (28 1))
 		 (org
 		  (8 3)))
 		"Spectacle.js Presentation Back-End for Org Export Engine" single
-		((:commit . "7bf9ed72a7b08b20107b86abd614b0fe9cbf01ed")
+		((:commit . "d0af6488e232ea1736440df074d559182d723823")
 		 (:authors
 		  ("lorniu" . "lorniu@gmail.com"))
 		 (:maintainer "lorniu" . "lorniu@gmail.com")
