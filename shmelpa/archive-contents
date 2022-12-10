@@ -1561,9 +1561,9 @@
 	     (:keywords "convenience" "tools" "keybindings" "org")
 	     (:url . "https://github.com/noctuid/annalist.el"))])
  (annotate .
-	   [(1 8 2 1 -4 20221122 1722)
+	   [(1 8 3 1 -4 20221210 1513)
 	    nil "annotate files without changing them" single
-	    ((:commit . "a92294e993a01d05d3f16d18a8b9759becf3e673")
+	    ((:commit . "7c39ccf838b87ba1ef7e7f775ad4e4423e323ce5")
 	     (:authors
 	      ("Bastian Bechtold"))
 	     (:maintainer "Bastian Bechtold <bastibe.dev@mailbox.org>, cage" . "cage-dev@twistfold.it")
@@ -3358,11 +3358,11 @@
 	 ((:commit . "0d04b79222812aa4978b6486a9ccac461850fe7a")
 	  (:url . "https://github.com/TheBlackBeans/emacs-beans"))])
  (bech32 .
-	 [(0 2 0 1 -4 20220810 1529)
+	 [(0 2 1 1 -4 20221210 1154)
 	  ((emacs
 	    (26 1)))
 	  "Bech32 library" single
-	  ((:commit . "2a0b54afd9e8fe586d64f7c4977c36d22d3fa6e2")
+	  ((:commit . "badbf267fa488df1cb87809ed234ebd67786f2f8")
 	   (:authors
 	    ("Oscar Najera <https://oscarnajera.com>"))
 	   (:maintainer "Oscar Najera" . "hi@oscarnajera.com")
@@ -5021,7 +5021,7 @@
 		  (:keywords "convenience")
 		  (:url . "https://github.com/veelenga/carbon-now-sh.el"))])
  (cardano-tx .
-	     [(0 1 0 1 -4 20221002 1553)
+	     [(0 1 0 1 -4 20221210 1155)
 	      ((emacs
 		(27 1))
 	       (f
@@ -5037,7 +5037,7 @@
 	       (cbor
 		(0 2 0))
 	       (bech32
-		(0 1 1))
+		(0 2 1))
 	       (readable-numbers
 		(0 1 0))
 	       (emacsql
@@ -5045,13 +5045,13 @@
 	       (emacsql-sqlite3
 		(1 0 2)))
 	      "Cardano transaction editor" tar
-	      ((:commit . "5654cd04cf0ab482a7f92a206abf43762ef653f3")
+	      ((:commit . "362989453e94def0f8863b7d3193fe87499a3cad")
 	       (:authors
 		("Oscar Najera <https://oscarnajera.com>"))
 	       (:maintainer "Oscar Najera" . "hi@oscarnajera.com")
 	       (:url . "https://github.com/Titan-C/cardano.el"))])
  (cardano-wallet .
-		 [(0 2 0 1 -4 20220718 1434)
+		 [(0 2 0 1 -4 20221210 1131)
 		  ((emacs
 		    (27 1))
 		   (yaml
@@ -5065,7 +5065,7 @@
 		   (cardano-tx
 		    (0 1 0)))
 		  "Interact with cardano wallet" single
-		  ((:commit . "4250104458df65c69a8c4287be29840975addbf2")
+		  ((:commit . "34dd1d5659e104eba56b3ef2d5e32e49f83cce7b")
 		   (:authors
 		    ("Oscar Najera <https://github.com/titan>"))
 		   (:maintainer "Oscar Najera" . "hi@oscarnajera.com")
@@ -5221,13 +5221,13 @@
 	(:keywords "buffers")
 	(:url . "http://github.com/akermu/cbm.el"))])
  (cbor .
-       [(0 2 2 1 -4 20220810 1600)
+       [(0 2 2 1 -4 20221210 1131)
 	((emacs
 	  (25 1))
 	 (dash
 	  (2 19 0)))
 	"CBOR utilities" single
-	((:commit . "5282753b9f4509468d391357147e13129859ccbe")
+	((:commit . "34dd1d5659e104eba56b3ef2d5e32e49f83cce7b")
 	 (:authors
 	  ("Oscar Najera <https://oscarnajera.com>"))
 	 (:maintainer "Oscar Najera" . "hi@oscarnajera.com")
@@ -14067,7 +14067,7 @@
 		 (:keywords "news")
 		 (:url . "https://github.com/sp1ff/elfeed-score"))])
  (elfeed-summary .
-		 [(0 1 1 1 -4 20221209 1717)
+		 [(0 1 1 1 -4 20221210 1349)
 		  ((emacs
 		    (27 1))
 		   (magit-section
@@ -14075,7 +14075,7 @@
 		   (elfeed
 		    (3 4 1)))
 		  "Feed summary interface for elfeed" single
-		  ((:commit . "fa917339d24a47c07c4fc9d6e56e18a2f242ff92")
+		  ((:commit . "ccbaf85d9ea442203027e784a42b21686f3a87d8")
 		   (:authors
 		    ("Korytov Pavel" . "thexcloud@gmail.com"))
 		   (:maintainer "Korytov Pavel" . "thexcloud@gmail.com")
