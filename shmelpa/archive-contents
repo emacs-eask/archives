@@ -4150,6 +4150,17 @@
 		 ("Jason Milkins"))
 		(:maintainer "Jason Milkins")
 		(:url . "https://github.com/emacsfodder/tmtheme-to-deftheme"))])
+ (boxes .
+	[(0 0 1 -4 20221208 1313)
+	 ((emacs
+	   (24 3)))
+	 "ASCII boxes unlimited!" single
+	 ((:commit . "d62637e6fa0e0b3450aa9c68a1d76d44ea9d6d8f")
+	  (:authors
+	   ("Jason L. Shiffer" . "jshiffer@zerotao.com"))
+	  (:maintainer "Jason L. Shiffer" . "jshiffer@zerotao.com")
+	  (:keywords "extensions")
+	  (:url . "https://boxes.thomasjensen.com"))])
  (boxquote .
 	   [(2 3 1 -4 20220919 714)
 	    ((cl-lib
@@ -32880,7 +32891,7 @@
 		       (:keywords "latex" "preview")
 		       (:url . "http://www.emacswiki.org/emacs/LaTeXPreviewPane"))])
  (latex-table-wizard .
-		     [(0 2 0 1 -4 20221212 15)
+		     [(0 2 1 1 -4 20221212 318)
 		      ((emacs
 			(27 1))
 		       (auctex
@@ -32888,7 +32899,7 @@
 		       (transient
 			(0 3 7)))
 		      "Magic editing of LaTeX tables" single
-		      ((:commit . "a53d3f615820146d496678c9b0bb794324d18aa4")
+		      ((:commit . "a0e0aff19c60d0754b2f3457219b3da51bf78777")
 		       (:authors
 			("Enrico Flor" . "enrico@eflor.net"))
 		       (:maintainer "Enrico Flor" . "enrico@eflor.net")
@@ -37438,6 +37449,17 @@
 	     (:maintainer "Jimmy Yuen Ho Wong" . "wyuenho@gmail.com")
 	     (:keywords "convenience" "text" "edit")
 	     (:url . "https://github.com/wyuenho/move-dup"))])
+ (move-mode .
+	    [(1 0 0 1 -4 20221205 1433)
+	     ((emacs
+	       (25 1)))
+	     "A major-mode for editing Move language" single
+	     ((:commit . "fa34fbe977d62c8297abc3547b9cfb25802e033c")
+	      (:authors
+	       ("Ashok Menon"))
+	      (:maintainer "Ashok Menon")
+	      (:keywords "languages")
+	      (:url . "https://github.com/amnn/move-mode"))])
  (move-text .
 	    [(2 0 10 1 -4 20221006 1634)
 	     nil "Move current line or region with M-up or M-down." single
@@ -41936,6 +41958,18 @@
 	       (:maintainer "Anh T Nguyen")
 	       (:keywords "hypermedia" "outlines" "org")
 	       (:url . "https://github.com/teeann/org-movies"))])
+ (org-mpv-notes .
+		[(0 0 1 1 -4 20221202 1657)
+		 ((emacs
+		   (27 1))
+		  (mpv
+		   (0 2 0)))
+		 "Take notes in org mode while watching videos in mpv" single
+		 ((:commit . "8c123996044cfb87101da6c5f16634188f019cca")
+		  (:authors
+		   ("Bibek Panthi" . "bpanthi977@gmail.com"))
+		  (:maintainer "Bibek Panthi" . "bpanthi977@gmail.com")
+		  (:url . "https://github.com/bpanthi977/org-mpv-notes"))])
  (org-mru-clock .
 		[(0 6 1 1 -4 20220902 654)
 		 ((emacs
@@ -44288,13 +44322,13 @@
 	     (:keywords "org" "slack" "outlines")
 	     (:url . "https://github.com/titaniumbones/ox-slack"))])
  (ox-spectacle .
-	       [(2 0 1 -4 20221211 1213)
+	       [(2 0 1 -4 20221212 406)
 		((emacs
 		  (28 1))
 		 (org
 		  (8 3)))
 		"Spectacle.js Presentation Back-End for Org Export Engine" single
-		((:commit . "65981377ff503073f86cc6c94efbe7cc2cee8373")
+		((:commit . "846b0dadcba77a68bc6381e479a9874e7842eec9")
 		 (:authors
 		  ("lorniu" . "lorniu@gmail.com"))
 		 (:maintainer "lorniu" . "lorniu@gmail.com")
