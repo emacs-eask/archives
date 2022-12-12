@@ -9940,6 +9940,17 @@
 	    ("William Baxter"))
 	   (:maintainer "Russel Winder" . "russel@winder.org.uk")
 	   (:keywords "d" "programming" "language" "emacs" "cc-mode"))])
+ (d2-mode .
+	  [(1 0 1 -4 20221205 421)
+	   ((emacs
+	     (26 1)))
+	   "Major mode for working with d2 graphs" single
+	   ((:commit . "ab2120c756bcb74580afb35e643d44b28a6f255d")
+	    (:authors
+	     ("Andor Kesselman" . "andor@henosisknot.com"))
+	    (:maintainer "Andor Kesselman" . "andor@henosisknot.com")
+	    (:keywords "d2" "graphs" "tools" "processes")
+	    (:url . "https://github.com/andorsk/d2-mode"))])
  (dactyl-mode .
 	      [(0 0 1 1 -4 20140906 1725)
 	       nil "Major mode for editing Pentadactyl config files" single
@@ -32278,6 +32289,17 @@
 		 (:maintainer "Jonas Enlund")
 		 (:keywords "languages" "clojure" "kibit")
 		 (:url . "http://www.github.com/brunchboy/kibit-helper"))])
+ (kill-file-path .
+		 [(1 0 1 -4 20221205 1119)
+		  ((emacs
+		    (26)))
+		  "Copy file name into kill ring" single
+		  ((:commit . "88de62d038d7e6e0e0a217c4773a1871549c7c3d")
+		   (:authors
+		    ("Adam Chy\305\202a" . "adam@chyla.org"))
+		   (:maintainer "Adam Chy\305\202a" . "adam@chyla.org")
+		   (:keywords "files")
+		   (:url . "https://github.com/chyla/kill-file-path/kill-file-path.el"))])
  (kill-or-bury-alive .
 		     [(0 1 3 1 -4 20210320 1231)
 		      ((emacs
@@ -32891,7 +32913,7 @@
 		       (:keywords "latex" "preview")
 		       (:url . "http://www.emacswiki.org/emacs/LaTeXPreviewPane"))])
  (latex-table-wizard .
-		     [(0 2 1 1 -4 20221212 318)
+		     [(0 3 0 1 -4 20221212 524)
 		      ((emacs
 			(27 1))
 		       (auctex
@@ -32899,7 +32921,7 @@
 		       (transient
 			(0 3 7)))
 		      "Magic editing of LaTeX tables" single
-		      ((:commit . "a0e0aff19c60d0754b2f3457219b3da51bf78777")
+		      ((:commit . "9ce3165694f84be20e6ea58cf3f62fea8f7f3643")
 		       (:authors
 			("Enrico Flor" . "enrico@eflor.net"))
 		       (:maintainer "Enrico Flor" . "enrico@eflor.net")
@@ -41803,7 +41825,7 @@
 		       (28 1))
 		      (all-the-icons
 		       (5 0 0)))
-		     "Beautify Org Links" single
+		     "Beautify Org Links" tar
 		     ((:commit . "098684c0fd8b9c9d940122faf96f62f579d98699")
 		      (:keywords "hypermedia")
 		      (:url . "https://repo.or.cz/org-link-beautify.git"))])
@@ -56955,11 +56977,11 @@
 		  (:keywords "hide" "window")
 		  (:url . "https://github.com/deadghost/toggle-window"))])
  (tok-theme .
-	    [(0 1 1 -4 20221208 1538)
+	    [(0 1 1 -4 20221212 909)
 	     ((emacs
 	       (26 1)))
-	     "Comfy light monochromatic theme" single
-	     ((:commit . "691ddd831795c2cfa2be9a541e6b04eb66d88d34")
+	     "Comfy minimal theme" single
+	     ((:commit . "9726cf6616217fd92972bf3b754799e4380a54ee")
 	      (:authors
 	       ("Topi Kettunen" . "topi@topikettunen.com"))
 	      (:maintainer "Topi Kettunen" . "topi@topikettunen.com")
