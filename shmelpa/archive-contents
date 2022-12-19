@@ -3725,6 +3725,17 @@
 	      (:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com")
 	      (:keywords "extensions")
 	      (:url . "https://github.com/cute-jumper/bing-dict.el"))])
+ (binky-mode .
+	     [(1 0 0 1 -4 20221219 1545)
+	      ((emacs
+		(26 3)))
+	      "Jump between points like a rabbit" single
+	      ((:commit . "ee6d482e9a27ce1721ef3b716aa76de714b7c665")
+	       (:authors
+		("liuyinz" . "liuyinz95@gmail.com"))
+	       (:maintainer "liuyinz" . "liuyinz95@gmail.com")
+	       (:keywords "convenience")
+	       (:url . "https://github.com/liuyinz/binky-mode"))])
  (birds-of-paradise-plus-theme .
 			       [(0 1 1 1 -4 20130419 2129)
 				nil "A brown/orange light-on-dark theme for Emacs 24 (deftheme)." single
@@ -8383,13 +8394,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 29 1 -4 20221211 1019)
+	  [(0 29 1 -4 20221219 1929)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (28 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "b404039f567ce296823425b641b2348482a1750e")
+	   ((:commit . "9481fe9a249b4b35ca861b4f89d68fecafd46b25")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -13823,11 +13834,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 3 1 -4 20221218 2216)
+	[(1 3 1 -4 20221219 2032)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "8d93a0940069e560b2483e605c9756c8540c797f")
+	 ((:commit . "510d52fc7724f82bc11f5774a32ba7216d7a239b")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
@@ -20352,7 +20363,7 @@
 		   (:maintainer "Steve Purcell" . "steve@sanityinc.com")
 		   (:url . "https://github.com/purcell/flymake-coffee"))])
  (flymake-collection .
-		     [(2 0 0 1 -4 20221113 1)
+		     [(2 0 0 1 -4 20221219 1854)
 		      ((emacs
 			(28 1))
 		       (let-alist
@@ -20360,7 +20371,7 @@
 		       (flymake
 			(1 2 1)))
 		      "Collection of checkers for flymake, bringing flymake to the level of flycheck" tar
-		      ((:commit . "274e5ec3e614e73fd0d7c3e1ffc652461bf5b5f3")
+		      ((:commit . "74e2f3fb4b9b4944f1c90377d7d2f16e57d6d5cd")
 		       (:authors
 			("Mohsin Kaleem" . "mohkale@kisara.moe"))
 		       (:maintainer "Mohsin Kaleem" . "mohkale@kisara.moe")
@@ -41669,6 +41680,23 @@
 	    ("Philip Woods" . "elzairthesorcerer@gmail.com"))
 	   (:maintainer "Philip Woods" . "elzairthesorcerer@gmail.com")
 	   (:keywords "if" "org-if" "org org-mode"))])
+ (org-incoming .
+	       [(0 1 1 -4 20221212 1952)
+		((emacs
+		  (24 4))
+		 (dash
+		  (2 19 1))
+		 (datetime
+		  (0 7 2))
+		 (s
+		  (1 13 1)))
+		"Sort incoming PDFs into your org files" single
+		((:commit . "76b2f2a0b9dcd6153b98a95d2bec28ec577bd792")
+		 (:authors
+		  ("Lukas Barth" . "mail@tinloaf.de"))
+		 (:maintainer "Lukas Barth" . "mail@tinloaf.de")
+		 (:keywords "files")
+		 (:url . "https://github.com/tinloaf/org-incoming"))])
  (org-index .
 	    [(7 4 3 1 -4 20220801 928)
 	     ((org
@@ -52773,6 +52801,19 @@
 	       (:maintainer "Roland Walker" . "walker@pobox.com")
 	       (:keywords "convenience")
 	       (:url . "http://github.com/rolandwalker/simpleclip"))])
+ (simplecov .
+	    [(2 0 1 -4 20221206 350)
+	     ((dash
+	       (2 19))
+	      (emacs
+	       (28)))
+	     "Colorize untested ruby code" single
+	     ((:commit . "215f2bdc5d2ef9b4439779ba4d3129210c9f34ab")
+	      (:authors
+	       ("Ryan Davis" . "ryand-ruby@zenspider.com"))
+	      (:maintainer "Ryan Davis" . "ryand-ruby@zenspider.com")
+	      (:keywords "tools" "languages")
+	      (:url . "https://github.org/zenspider/elisp"))])
  (simplenote .
 	     [(1 0 1 -4 20141118 1440)
 	      nil "Interact with simple-note.appspot.com" single
@@ -56778,11 +56819,11 @@
 			 (:keywords "faces" "themes")
 			 (:url . "https://gitlab.com/aimebertrand/timu-caribbean-theme"))])
  (timu-rouge-theme .
-		   [(1 6 1 -4 20221202 2140)
+		   [(1 7 1 -4 20221219 1845)
 		    ((emacs
 		      (27 1)))
 		    "Color theme inspired by the Rouge Theme for VSCode" single
-		    ((:commit . "6ec95d29ecfe0e3ed827de697347c5fd046774e3")
+		    ((:commit . "b0671163c4678b60e1894242ba7412da4729f2de")
 		     (:authors
 		      ("Aim\303\251 Bertrand" . "aime.bertrand@macowners.club"))
 		     (:maintainer "Aim\303\251 Bertrand" . "aime.bertrand@macowners.club")
