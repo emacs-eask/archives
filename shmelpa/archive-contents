@@ -7518,7 +7518,7 @@
 		(:keywords "convenience" "company" "fuzzy" "flx")
 		(:url . "https://github.com/PythonNut/company-flx"))])
  (company-fuzzy .
-		[(1 4 0 1 -4 20221129 1534)
+		[(1 4 0 1 -4 20221220 935)
 		 ((emacs
 		   (26 1))
 		  (company
@@ -7526,9 +7526,11 @@
 		  (s
 		   (1 12 0))
 		  (ht
-		   (2 0)))
+		   (2 0))
+		  (list-utils
+		   (0 4 6)))
 		 "Fuzzy matching for `company-mode'" single
-		 ((:commit . "a238ef9ee0f96940faeb467dce672f27f7f8899c")
+		 ((:commit . "242043064a88c9f58e222a4c934053454e6353e6")
 		  (:authors
 		   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -11466,7 +11468,7 @@
 		 (:keywords "files" "matching")
 		 (:url . "https://git.sr.ht/~jakob/dired-rmjunk"))])
  (dired-rsync .
-	      [(0 6 1 -4 20221219 2331)
+	      [(0 6 1 -4 20221220 1024)
 	       ((s
 		 (1 12 0))
 		(dash
@@ -11474,7 +11476,7 @@
 		(emacs
 		 (25 1)))
 	       "Allow rsync from dired buffers" single
-	       ((:commit . "0144f503fb07c1f162eac16bb29a0d5cdd684fbc")
+	       ((:commit . "fa7cbb69930fe7fb07367a9f2c75812cbddfa628")
 		(:authors
 		 ("Alex Benn\303\251e" . "alex@bennee.com"))
 		(:maintainer "Alex Benn\303\251e" . "alex@bennee.com")
@@ -29121,7 +29123,7 @@
 	     ("Georg Brandl" . "georg@python.org"))
 	    (:maintainer "Georg Brandl" . "georg@python.org"))])
  (idris-mode .
-	     [(1 1 0 1 -4 20221213 1032)
+	     [(1 1 0 1 -4 20221220 1018)
 	      ((emacs
 		(24))
 	       (prop-menu
@@ -29129,7 +29131,7 @@
 	       (cl-lib
 		(0 5)))
 	      "Major mode for editing Idris code" tar
-	      ((:commit . "e1d950e4fc8b7e532dcda4cc3b1c8048f92c3496")
+	      ((:commit . "a47903d2e12532ede66e7cd939e03d0fa2a1b549")
 	       (:keywords "languages")
 	       (:url . "https://github.com/idris-hackers/idris-mode"))])
  (ids-edit .
@@ -34611,7 +34613,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20221220 723)
+	   [(8 0 1 1 -4 20221220 1130)
 	    ((emacs
 	      (26 3))
 	     (dash
@@ -34629,7 +34631,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "7b4e2be925f38f7f86e911dbf36c9751418589af")
+	    ((:commit . "4cd7b9d4d7da45b544ab35a701bcd785dd20c2ed")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
