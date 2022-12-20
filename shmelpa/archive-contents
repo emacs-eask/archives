@@ -11441,19 +11441,33 @@
 		 (:keywords "files" "matching")
 		 (:url . "https://git.sr.ht/~jakob/dired-rmjunk"))])
  (dired-rsync .
-	      [(0 6 1 -4 20221214 1215)
+	      [(0 6 1 -4 20221219 2331)
 	       ((s
 		 (1 12 0))
 		(dash
 		 (2 0 0))
 		(emacs
-		 (24)))
-	       "Allow rsync from dired buffers" tar
-	       ((:commit . "c0e2168b80df00116ab9071bb214cf05ed943d73")
+		 (25 1)))
+	       "Allow rsync from dired buffers" single
+	       ((:commit . "0144f503fb07c1f162eac16bb29a0d5cdd684fbc")
 		(:authors
 		 ("Alex Benn\303\251e" . "alex@bennee.com"))
 		(:maintainer "Alex Benn\303\251e" . "alex@bennee.com")
 		(:url . "https://github.com/stsquad/dired-rsync"))])
+ (dired-rsync-transient .
+			[(0 6 1 -4 20221214 1215)
+			 ((dired-rsync
+			   (0 6))
+			  (transient
+			   (0 3 0))
+			  (emacs
+			   (24 4)))
+			 "Transient command for dired-rsync" single
+			 ((:commit . "c0e2168b80df00116ab9071bb214cf05ed943d73")
+			  (:authors
+			   ("Alex Benn\303\251e" . "alex@bennee.com"))
+			  (:maintainer "Alex Benn\303\251e" . "alex@bennee.com")
+			  (:url . "https://github.com/stsquad/dired-rsync"))])
  (dired-sidebar .
 		[(0 0 1 1 -4 20220618 237)
 		 ((emacs
@@ -13834,11 +13848,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 3 1 -4 20221219 2032)
+	[(1 3 2 -4 20221219 2107)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "510d52fc7724f82bc11f5774a32ba7216d7a239b")
+	 ((:commit . "68faab734bff388f7e53d3dbea321878684002c8")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
