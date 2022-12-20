@@ -8421,13 +8421,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 29 1 -4 20221220 1536)
+	  [(0 29 1 -4 20221220 2150)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (28 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "ac515e5157cc4a8ee2bdac5ae0c713b80fb34593")
+	   ((:commit . "4ff45b378210ce4bc942eb366011ee647f575506")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -8444,6 +8444,21 @@
 		("Kanon Kakuno" . "yadex205@outlook.jp"))
 	       (:maintainer "Kanon Kakuno" . "yadex205@outlook.jp")
 	       (:url . "https://github.com/yadex205/consult-ag"))])
+ (consult-codesearch .
+		     [(0 1 1 -4 20221220 1153)
+		      ((emacs
+			(27 1))
+		       (codesearch
+			(1))
+		       (consult
+			(0 20)))
+		      "Consult interface for codesearch" single
+		      ((:commit . "5dd9de752c77bc9a07c960bcecb83e9d05855ce9")
+		       (:authors
+			("Youngjoo Lee" . "youngker@gmail.com"))
+		       (:maintainer "Youngjoo Lee" . "youngker@gmail.com")
+		       (:keywords "tools")
+		       (:url . "https://github.com/youngker/consult-codesearch"))])
  (consult-company .
 		  [(0 2 1 -4 20220830 1834)
 		   ((emacs
@@ -10610,6 +10625,17 @@
      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
      (:keywords "convenience" "dictionary" "explanation" "search" "wiki")
      (:url . "https://github.com/jcs-elpa/define-it"))])
+ (define-scratch .
+   [(0 1 0 1 -4 20221220 946)
+    ((emacs
+      (24 3)))
+    "Define new commands to make scratch buffers" single
+    ((:commit . "26cf11f801c2b5df0fbd56d2c4f7ac41b3ccd1c6")
+     (:authors
+      ("Lassi Kortela" . "lassi@lassi.io"))
+     (:maintainer "Lassi Kortela" . "lassi@lassi.io")
+     (:keywords "languages" "util")
+     (:url . "https://github.com/lassik/emacs-define-scratch"))])
  (define-word .
    [(0 1 0 1 -4 20220104 1848)
     ((emacs
