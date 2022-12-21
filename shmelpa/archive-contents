@@ -17703,7 +17703,7 @@
 	     (:keywords "tools" "unix" "languages")
 	     (:url . "https://gitlab.com/KAction/emacs-execline"))])
  (exercism .
-	   [(0 0 0 1 -4 20221219 713)
+	   [(0 0 0 1 -4 20221220 2047)
 	    ((emacs
 	      (27 1))
 	     (dash
@@ -17723,7 +17723,7 @@
 	     (transient
 	      (0 3 7)))
 	    "Unofficial https://exercism.org integration" single
-	    ((:commit . "bfa546a1da7005b3df8ebd99851db4b306d56d6c")
+	    ((:commit . "a8248e1afdae9155992227611cf134ec49fdd489")
 	     (:authors
 	      ("Rafael Nicdao <https://github.com/anonimito>"))
 	     (:maintainer "Rafael Nicdao" . "nicdaoraf@gmail.com")
@@ -21830,13 +21830,13 @@
 	  (:keywords "matching")
 	  (:url . "https://github.com/jojojames/fussy"))])
  (futhark-mode .
-	       [(0 2 1 -4 20221218 918)
+	       [(0 2 1 -4 20221220 2014)
 		((emacs
 		  (24 3))
 		 (cl-lib
 		  (0 5)))
 		"major mode for editing Futhark source files" tar
-		((:commit . "534f4a76c96f0a67539a78ac6b7f9d761301d760")
+		((:commit . "5b3b44eb51626df6e81d8cde77096bb190d5b17d")
 		 (:keywords "languages")
 		 (:url . "https://github.com/diku-dk/futhark-mode"))])
  (fuz .
@@ -33936,13 +33936,13 @@
 		   (:keywords "lisp" "tools" "docs")
 		   (:url . "https://github.com/joodie/literal-string-mode/"))])
  (literate-calc-mode .
-		     [(0 1 1 -4 20220215 1814)
+		     [(0 1 1 -4 20221220 2151)
 		      ((emacs
 			(25 1))
 		       (s
 			(1 12 0)))
 		      "Inline results from calc" single
-		      ((:commit . "f5133e65d8ffdab918cdfc269ac0c067a0de5e9b")
+		      ((:commit . "db6a73f22d8a4f6561c87619ad7437e7a77f34d5")
 		       (:authors
 			("Robin Schroer"))
 		       (:maintainer "Robin Schroer")
@@ -37381,11 +37381,11 @@
 	   (:keywords "languages" "clojure" "nrepl" "lisp")
 	   (:url . "http://www.github.com/sanel/monroe"))])
  (mood-line .
-	    [(1 2 5 1 -4 20221220 439)
+	    [(1 2 5 1 -4 20221220 2135)
 	     ((emacs
 	       (25 1)))
 	     "A minimal mode-line inspired by doom-modeline" single
-	     ((:commit . "65ae1099e23f762b45fecd60bd43682dbd3965f4")
+	     ((:commit . "1a3128d0986f0cabb4b69ab4b4e7c13dfb5ac1ee")
 	      (:authors
 	       ("Jessie Hildebrandt <jessieh.net>"))
 	      (:maintainer "Jessie Hildebrandt <jessieh.net>")
@@ -48470,6 +48470,21 @@
 		 ("Damien Cassou" . "damien@cassou.me"))
 		(:maintainer "Damien Cassou" . "damien@cassou.me")
 		(:keywords "helm" "pyccarddav" "carddav" "message" "mu4e" "contacts"))])
+ (pyconf .
+	 [(0 1 0 1 -4 20221112 1827)
+	  ((pyvenv
+	    (1 21))
+	   (emacs
+	    (28 1))
+	   (transient
+	    (0 3 7)))
+	  "Set up python execution configurations like dap-mode ones" single
+	  ((:commit . "c49dbd71e69a3840344f644030f087688e73e31e")
+	   (:authors
+	    ("Andrew Favia <drewlinguistics01 at gmail dot com>"))
+	   (:maintainer "Andrew Favia <drewlinguistics01 at gmail dot com>")
+	   (:keywords "processes" "python")
+	   (:url . "https://github.com/andcarnivorous/pyconf"))])
  (pycoverage .
 	     [(20160323 1 -4 20200513 2047)
 	      ((emacs
