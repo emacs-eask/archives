@@ -21409,13 +21409,13 @@
 		   (:keywords "fortune" "cowsay" "scratch" "startup")
 		   (:url . "https://github.com/andschwa/fortune-cookie"))])
  (fountain-mode .
-		[(3 6 1 1 -4 20221220 1139)
+		[(3 6 2 1 -4 20221221 115)
 		 ((emacs
 		   (24 4))
 		  (seq
 		   (2 20)))
 		 "Major mode for screenwriting in Fountain markup" tar
-		 ((:commit . "1c175b5bbc4825916dcabed6dfd818080ed83afc")
+		 ((:commit . "1a0482e03e9cf05e481a57c057cf9b985c6ca4d5")
 		  (:authors
 		   ("Paul W. Rankin" . "hello@paulwrankin.com"))
 		  (:maintainer "Paul W. Rankin" . "hello@paulwrankin.com")
@@ -25060,13 +25060,15 @@
 		 (:maintainer "Daniel Mendler")
 		 (:url . "https://github.com/minad/hasklig-mode"))])
  (hass .
-       [(2 2 3 1 -4 20221213 306)
+       [(3 0 0 1 -4 20221220 2340)
 	((emacs
 	  (25 1))
 	 (request
-	  (0 3 3)))
+	  (0 3 3))
+	 (websocket
+	  (1 13)))
 	"Interact with Home Assistant" tar
-	((:commit . "65dc52effab92fea5b0a8896821b78fd00da66f0")
+	((:commit . "cbe701e2765588594c89c24192a86f96e079d827")
 	 (:authors
 	  ("Ben Whitley"))
 	 (:maintainer "Ben Whitley")
