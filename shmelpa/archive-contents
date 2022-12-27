@@ -4704,11 +4704,11 @@
 	   (:keywords "jenkins" "hudson" "ci")
 	   (:url . "http://www.github.com/AshtonKem/Butler.git"))])
  (buttercup .
-	    [(1 29 1 -4 20221204 2303)
+	    [(1 29 1 -4 20221227 10)
 	     ((emacs
 	       (24 3)))
 	     "Behavior-Driven Emacs Lisp Testing" tar
-	     ((:commit . "6a1a678ca76a525e6f9f34c5f2c8d9a1e11308b3")
+	     ((:commit . "ce2d86ad84610499063854e7d471903c05fea1bf")
 	      (:authors
 	       ("Jorgen Schaefer" . "contact@jorgenschaefer.de"))
 	      (:maintainer "Ola Nilsson" . "ola.nilsson@gmail.com")
@@ -8618,7 +8618,7 @@
 		(:keywords "tools" "completion" "lsp")
 		(:url . "https://github.com/gagbo/consult-lsp"))])
  (consult-notes .
-		[(0 7 1 -4 20221222 2153)
+		[(0 7 1 -4 20221227 17)
 		 ((emacs
 		   (27 1))
 		  (consult
@@ -8628,7 +8628,7 @@
 		  (dash
 		   (2 19)))
 		 "Manage notes with consult" tar
-		 ((:commit . "6aef8b5239b2cdd09badac757a345fd6edfeadbf")
+		 ((:commit . "cacd586e730930d0f90adc2f05fc66a9f276328f")
 		  (:authors
 		   ("Colin McLear" . "mclear@fastmail.com"))
 		  (:maintainer "Colin McLear")
@@ -19379,6 +19379,19 @@
 		     (:maintainer "Rapha\303\253l Cauderlier")
 		     (:keywords "convenience" "languages" "tools" "flycheck" "dedukti")
 		     (:url . "https://github.com/rafoo/flycheck-dedukti"))])
+ (flycheck-deno .
+		[(0 1 0 1 -4 20221222 1646)
+		 ((emacs
+		   (26 1))
+		  (flycheck
+		   (0 14)))
+		 "Flycheck for deno-lint" single
+		 ((:commit . "ea7a5330535bdb25edb1c147f4d6d426abb1e097")
+		  (:authors
+		   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
+		  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		  (:keywords "lisp" "deno")
+		  (:url . "https://github.com/jcs-elpa/flycheck-deno"))])
  (flycheck-dialyxir .
 		    [(0 1 0 1 -4 20170515 1525)
 		     ((flycheck
@@ -22654,7 +22667,7 @@
 		(:keywords "utility" "git")
 		(:url . "https://github.com/10sr/git-command-el"))])
  (git-commit .
-	     [(3 3 0 50 -4 20221127 2227)
+	     [(3 3 0 50 -4 20221226 2207)
 	      ((emacs
 		(25 1))
 	       (compat
@@ -22664,7 +22677,7 @@
 	       (with-editor
 		(20211001)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "3cf308c1c4cdb9404e3d3c6f9935ad9f628311d9")
+	      ((:commit . "8fd16d34068c54c1a0a6edcdccf60be1075a6915")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -32620,6 +32633,15 @@
 		 (:maintainer "Emily Backes" . "lucca@accela.net")
 		 (:keywords "data")
 		 (:url . "http://github.com/lashtear/ksp-cfg-mode"))])
+ (ksp-mode .
+	   [(0 1 1 -4 20221220 1136)
+	    ((emacs
+	      (27 1)))
+	    "Major mode for editing ksp files" single
+	    ((:commit . "89b91b8ed6753867e30aa494e5d80325dfe25569")
+	     (:maintainer "YoungJoo Lee" . "youngker@gmail.com")
+	     (:keywords "ksp" "languages")
+	     (:url . "https://github.com/youngker/ksp-mode.el"))])
  (kubectx-mode .
 	       [(1 2 0 1 -4 20200116 1918)
 		((emacs
@@ -36087,7 +36109,7 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/YiGeeker/masm-mode"))])
  (mastodon .
-	   [(1 0 0 1 -4 20221226 531)
+	   [(1 0 0 1 -4 20221227 47)
 	    ((emacs
 	      (27 1))
 	     (request
@@ -36097,7 +36119,7 @@
 	     (ts
 	      (0 3)))
 	    "Client for Mastodon, a federated social network" tar
-	    ((:commit . "eb0f38d2635872fca07ffc88b14a2dfe12807bc7")
+	    ((:commit . "911f78658887857c8aeb36d38590895c6582f66d")
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com")
 	      ("Marty Hiatt" . "martianhiatus@riseup.net"))
@@ -38875,11 +38897,11 @@
 	     (:maintainer "Simon Hafner" . "hafnersimon@gmail.com")
 	     (:keywords "nim" "languages"))])
  (nimbus-theme .
-	       [(1 3 0 1 -4 20221210 2257)
+	       [(1 3 0 1 -4 20221226 2344)
 		((emacs
 		  (24 1)))
 		"Nimbus dark theme" single
-		((:commit . "5caf48fec49adc5578cdf55b621994787d1982a9")
+		((:commit . "c207789798c8da70e98e950b34bb9f6fa830e863")
 		 (:authors
 		  ("Marcin Swieczkowski" . "marcin.swieczkowski@gmail.com")
 		  ("See README.md for full list of contributors."))
@@ -40165,6 +40187,17 @@
 	    ("Lompik"))
 	   (:maintainer "Lompik")
 	   (:keywords "literate programming" "reproducible research"))])
+ (ob-nix .
+	 [(0 1 1 -4 20221224 334)
+	  ((emacs
+	    (24 1)))
+	  "Simple org-babel support for nix" single
+	  ((:commit . "76d71b37fb031f25bd52ff9c98b29292ebe0424e")
+	   (:authors
+	    ("Wilko Meyer" . "w-devel@wmeyer.eu"))
+	   (:maintainer "Wilko Meyer" . "w-devel@wmeyer.eu")
+	   (:keywords "lisp" "tools")
+	   (:url . "https://codeberg.org/theesm/ob-nix"))])
  (ob-php .
 	 [(0 0 1 1 -4 20220221 1254)
 	  ((org
