@@ -4704,11 +4704,11 @@
 	   (:keywords "jenkins" "hudson" "ci")
 	   (:url . "http://www.github.com/AshtonKem/Butler.git"))])
  (buttercup .
-	    [(1 29 1 -4 20221227 10)
+	    [(1 29 1 -4 20221227 1857)
 	     ((emacs
 	       (24 3)))
 	     "Behavior-Driven Emacs Lisp Testing" tar
-	     ((:commit . "ce2d86ad84610499063854e7d471903c05fea1bf")
+	     ((:commit . "21ded874f7af380b593776eac06a87cf7f7ae439")
 	      (:authors
 	       ("Jorgen Schaefer" . "contact@jorgenschaefer.de"))
 	      (:maintainer "Ola Nilsson" . "ola.nilsson@gmail.com")
@@ -14255,6 +14255,16 @@
 	   (:maintainer "Demyan Rogozhin" . "demyan.rogozhin@gmail.com")
 	   (:keywords "lisp")
 	   (:url . "http://github.com/demyanrogozhin/elhome"))])
+ (elisp-autofmt .
+		[(0 1 1 -4 20221227 2243)
+		 ((emacs
+		   (28 1)))
+		 "Emacs lisp auto-format" tar
+		 ((:commit . "07065f761f09ef23da6129b9a1db52835b4d01af")
+		  (:authors
+		   ("Campbell Barton" . "ideasman42@gmail.com"))
+		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
+		  (:url . "https://codeberg.org/ideasman42/emacs-elisp-autofmt"))])
  (elisp-def .
 	    [(1 2 1 -4 20220803 1647)
 	     ((dash
@@ -23716,11 +23726,11 @@
 	       (:keywords "tools" "go" "import")
 	       (:url . "https://github.com/yasushi-saito/go-imports"))])
  (go-mode .
-	  [(1 6 0 1 -4 20220727 115)
+	  [(1 6 0 1 -4 20221227 2320)
 	   ((emacs
 	     (26 1)))
 	   "Major mode for the Go programming language" single
-	   ((:commit . "08aa90d52f0e7d2ad02f961b554e13329672d7cb")
+	   ((:commit . "f03998154bbed359f1912284a49b598fef074406")
 	    (:authors
 	     ("The go-mode Authors"))
 	    (:maintainer "The go-mode Authors")
@@ -23867,11 +23877,11 @@
 	   (:maintainer "Gergely Polonkai" . "gergely@polonkai.eu")
 	   (:keywords "gobject" "glib" "gtk" "helper" "utilities"))])
  (god-mode .
-	   [(2 18 0 1 -4 20221222 7)
+	   [(2 18 0 1 -4 20221227 2058)
 	    ((emacs
 	      (25 1)))
 	    "Minor mode for God-like command entering" tar
-	    ((:commit . "c7754eaadaeabae2df94e23317b4a04d19b3f9e0")
+	    ((:commit . "23bb1e2224e21c3c4cf1fba9795be95572902d8c")
 	     (:authors
 	      ("Chris Done" . "chrisdone@gmail.com"))
 	     (:maintainer "Chris Done" . "chrisdone@gmail.com")
@@ -28165,21 +28175,21 @@
 	      (:keywords "convenience" "faces")
 	      (:url . "https://github.com/ikirill/hl-indent"))])
  (hl-indent-scope .
-		  [(0 1 1 -4 20221227 1939)
+		  [(0 1 1 -4 20221227 2353)
 		   ((emacs
 		     (26 1)))
 		   "Highlight indentation by scope" tar
-		   ((:commit . "76b695956e6922e68de4cfb7040ffa04b9bcfd3f")
+		   ((:commit . "32cc5e185515bf3cb746a61ee266a5184886527c")
 		    (:authors
 		     ("Campbell Barton" . "ideasman42@gmail.com"))
 		    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		    (:url . "https://codeberg.org/ideasman42/emacs-hl-indent-scope"))])
  (hl-prog-extra .
-		[(0 1 1 -4 20221227 1159)
+		[(0 1 1 -4 20221227 2027)
 		 ((emacs
 		   (26 2)))
 		 "Customizable highlighting for source-code" tar
-		 ((:commit . "8aaabce509d0602cc5f8d8ae95b0c56de73806e9")
+		 ((:commit . "02dcf12167cfa9128904d0551de3ec9208e20fb8")
 		  (:authors
 		   ("Campbell Barton" . "ideasman42@gmail.com"))
 		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -28961,11 +28971,11 @@
 					   (:keywords "convenience")
 					   (:url . "https://github.com/ignacy/idle-highlight-in-visible-buffers"))])
  (idle-highlight-mode .
-		      [(1 1 3 1 -4 20221227 1943)
+		      [(1 1 3 1 -4 20221227 2028)
 		       ((emacs
 			 (27 1)))
 		       "Highlight the word the point is on" single
-		       ((:commit . "99c232927e92f2265bbc07e772cab18f68d9cf0b")
+		       ((:commit . "854b964aea29ffe1e3f7b702fa6369634a4c5cd5")
 			(:authors
 			 ("Phil Hagelberg, Cornelius Mika, Campbell Barton"))
 			(:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -29825,11 +29835,11 @@
 	     (:keywords "languages" "wp" "hypermedia")
 	     (:url . "https://github.com/Kungsgeten/ink-mode"))])
  (inkpot-theme .
-	       [(0 1 1 -4 20221227 1151)
+	       [(0 1 1 -4 20221227 2031)
 		((emacs
 		  (24 1)))
 		"A port of vim's inkpot theme" single
-		((:commit . "67a987b2a89607416abb343c1946139437efa3be")
+		((:commit . "d9ae250c6b0887adda596131e18b7104ffd0e0dd")
 		 (:authors
 		  ("Sarah Iovan" . "sarah@hwaetageek.com")
 		  ("Campbell Barton" . "ideasman42@gmail.com"))
@@ -41879,6 +41889,21 @@
 	    ("kuangdash" . "kuangdash@163.com"))
 	   (:maintainer "kuangdash" . "kuangdash@163.com")
 	   (:url . "https://github.com/kuangdash/org-iv"))])
+ (org-ivy-search .
+		 [(0 1 1 1 -4 20221227 614)
+		  ((emacs
+		    (25 1))
+		   (ivy
+		    (0 10 0))
+		   (org
+		    (0 10 0)))
+		  "Full text search for org files powered by ivy" single
+		  ((:commit . "ca9c1ecfb33e5fef2cb5fa5576edb76b26f0a508")
+		   (:authors
+		    ("Huming Chen" . "chenhuming@gmail.com"))
+		   (:maintainer "Huming Chen" . "chenhuming@gmail.com")
+		   (:keywords "convenience" "tool" "org")
+		   (:url . "https://github.com/beacoder/org-ivy-search"))])
  (org-jira .
 	   [(4 3 2 1 -4 20220725 1808)
 	    ((emacs
