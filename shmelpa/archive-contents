@@ -2342,13 +2342,13 @@
 		 (:keywords "compile" "convenience" "lisp")
 		 (:url . "https://github.com/emacscollective/auto-compile"))])
  (auto-complete .
-		[(1 5 1 1 -4 20220105 439)
+		[(1 5 1 1 -4 20221231 1633)
 		 ((popup
 		   (0 5 0))
 		  (cl-lib
 		   (0 5)))
 		 "Auto Completion for GNU Emacs" tar
-		 ((:commit . "57cb8f2ee32dff17ea1b4431fe5920272aa38d72")
+		 ((:commit . "59c11c453bfa0794302848a004d1be3b1684f17b")
 		  (:authors
 		   ("Tomohiro Matsuyama" . "m2ym.pub@gmail.com"))
 		  (:maintainer "Jen-Chieh Shen" . "jcs090218@gmail.com")
@@ -2505,13 +2505,13 @@
 			   (:maintainer "Michal Nazarewicz" . "mina86@mina86.com")
 			   (:url . "https://github.com/mina86/auto-dim-other-buffers.el"))])
  (auto-highlight-symbol .
-			[(1 61 1 -4 20220919 548)
+			[(1 61 1 -4 20221231 1631)
 			 ((emacs
 			   (26 1))
 			  (ht
 			   (2 3)))
 			 "Automatic highlighting current symbol minor mode" single
-			 ((:commit . "e10e4952fd23025f3f46edfde66e3ac2d7bdf069")
+			 ((:commit . "ece5e2c722efa5c9ea32a809b484afc222ebebe5")
 			  (:authors
 			   ("Mitsuo Saito" . "arch320@NOSPAM.gmail.com"))
 			  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -10261,11 +10261,11 @@
 		    (:keywords "extensions" "lisp")
 		    (:url . "https://github.com/magnars/dash.el"))])
  (dashboard .
-	    [(1 8 0 -4 20221222 931)
+	    [(1 8 0 -4 20221231 1629)
 	     ((emacs
 	       (26 1)))
 	     "A startup screen extracted from Spacemacs" tar
-	     ((:commit . "a69cc103aebd957f967e431399681b6d9d6b52fc")
+	     ((:commit . "ee1faec906ef74bb098a23dac0613652c1d37342")
 	      (:authors
 	       ("Rakan Al-Hneiti" . "rakan.alhneiti@gmail.com"))
 	      (:maintainer "Jes\303\272s Mart\303\255nez" . "jesusmartinez93@gmail.com")
@@ -10286,13 +10286,13 @@
 			 (:maintainer "Hayato KAJIYAMA" . "kaji1216@gmail.com")
 			 (:url . "https://github.com/hyakt/emacs-dashboard-hackernews"))])
  (dashboard-ls .
-	       [(0 3 0 1 -4 20221209 1940)
+	       [(0 3 0 1 -4 20221231 1629)
 		((emacs
 		  (26 1))
 		 (dashboard
 		  (1 2 5)))
 		"Display files/directories in current directory on Dashboard" single
-		((:commit . "dfae29a77ad4e8eaabc0b41a0138d1c084f91cf4")
+		((:commit . "b24e0bcb87e20ffcc71efb83a97f9516255fa8e4")
 		 (:authors
 		  ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		 (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -10881,15 +10881,13 @@
 		   (:maintainer "mcprvmec")
 		   (:keywords "emacs-w3m" "w3m" "dictionary"))])
  (dictcc .
-	 [(1 0 2 1 -4 20220219 1302)
+	 [(1 0 2 1 -4 20221231 1703)
 	  ((emacs
 	    (24 4))
 	   (cl-lib
-	    (0 5))
-	   (ivy
-	    (0 10 0)))
+	    (0 5)))
 	  "Look up translations on dict.cc" single
-	  ((:commit . "a938d4771e34a9e913262176a02498b8ac92373a")
+	  ((:commit . "30b505759e5a97c2aaa8b0e8ea5e187fdf625c65")
 	   (:authors
 	    ("Marten Lienen" . "marten.lienen@gmail.com"))
 	   (:maintainer "Marten Lienen" . "marten.lienen@gmail.com")
@@ -12196,13 +12194,13 @@
 	   (:keywords "docopt" "tools" "processes")
 	   (:url . "https://github.com/r0man/docopt.el"))])
  (docstr .
-	 [(5 7 0 1 -4 20220704 630)
+	 [(5 7 0 1 -4 20221231 1701)
 	  ((emacs
 	    (27 1))
 	   (s
 	    (1 9 0)))
 	  "A document string minor mode" tar
-	  ((:commit . "8242fcb2798dedf15b935845b8d6fa16c8e15798")
+	  ((:commit . "68a72e8a9abac28d8451769cab3846c342f657bc")
 	   (:authors
 	    ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	   (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -19623,7 +19621,7 @@
 			 (:keywords "i18n" "text")
 			 (:url . "https://git.umaneti.net/flycheck-grammalecte/"))])
  (flycheck-grammarly .
-		     [(0 2 3 1 -4 20221116 1127)
+		     [(0 2 3 1 -4 20221231 1654)
 		      ((emacs
 			(25 1))
 		       (flycheck
@@ -19633,7 +19631,7 @@
 		       (s
 			(1 12 0)))
 		      "Grammarly support for Flycheck" single
-		      ((:commit . "c9ed648745cb94dc3420d622f84456decd0d0aeb")
+		      ((:commit . "d4a788acc3875a1ffdd7460ab3377a887413c582")
 		       (:authors
 			("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		       (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -19822,13 +19820,13 @@
 		     ("Elric Milon" . "whirm_REMOVETHIS__@gmx.com"))
 		    (:maintainer "Elric Milon" . "whirm_REMOVETHIS__@gmx.com"))])
  (flycheck-languagetool .
-			[(0 3 0 1 -4 20221127 2001)
+			[(0 3 0 1 -4 20221231 1658)
 			 ((emacs
 			   (25 1))
 			  (flycheck
 			   (0 14)))
 			 "Flycheck support for LanguageTool" single
-			 ((:commit . "8f488c0d765c3d42e84612561530c5ba925e8c9b")
+			 ((:commit . "1fe838c8678a9a101935ce4a4f3183a731e38f01")
 			  (:authors
 			   ("Shen, Jen-Chieh" . "jcs090218@gmail.com")
 			   ("Peter Oliver" . "git@mavit.org.uk"))
@@ -20618,7 +20616,7 @@
 		   (:keywords "languages" "gradle")
 		   (:url . "https://github.com/jojojames/flymake-gradle"))])
  (flymake-grammarly .
-		    [(0 2 1 1 -4 20221116 1127)
+		    [(0 2 1 1 -4 20221231 1655)
 		     ((emacs
 		       (26 1))
 		      (grammarly
@@ -20626,7 +20624,7 @@
 		      (s
 		       (1 12 0)))
 		     "Flymake support for Grammarly" single
-		     ((:commit . "e3ed1a8bcb80a002a29fcc82e205d010bd9f3505")
+		     ((:commit . "078edd6e083067f2ad3b3beaa0098c16cebe3994")
 		      (:authors
 		       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -20735,13 +20733,13 @@
 		   (:keywords "languages" "ktlint")
 		   (:url . "https://github.com/jojojames/flymake-ktlint"))])
  (flymake-languagetool .
-		       [(0 2 0 1 -4 20221129 2359)
+		       [(0 2 0 1 -4 20221231 1658)
 			((emacs
 			  (27 1))
 			 (s
 			  (1 9 0)))
 			"Flymake support for LanguageTool" single
-			((:commit . "4a3ab89a0f85caa88f058db20eab24a85b359c76")
+			((:commit . "d995f90aac2d10baa617f4de5c6e40bc37e63f76")
 			 (:keywords "convenience" "grammar" "check")
 			 (:url . "https://github.com/emacs-languagetool/flymake-languagetool"))])
  (flymake-less .
@@ -21887,11 +21885,11 @@
 	(:keywords "lisp")
 	(:url . "https://github.com/cireu/fuz.el"))])
  (fuzzy .
-	[(0 3 1 -4 20211231 1837)
+	[(0 3 1 -4 20221231 1634)
 	 ((emacs
 	   (24 3)))
 	 "Fuzzy Matching" single
-	 ((:commit . "f63d6279a781cf9f33dd2f22826788d98d475961")
+	 ((:commit . "fc7ca5bc81f1798596bc1d254d74a5ea95edc432")
 	  (:authors
 	   ("Tomohiro Matsuyama" . "m2ym.pub@gmail.com"))
 	  (:maintainer "Tomohiro Matsuyama" . "m2ym.pub@gmail.com")
@@ -24095,11 +24093,11 @@
 		 (:maintainer "Vasilij Schneidermann" . "mail@vasilij.de")
 		 (:url . "https://depp.brause.cc/gotham-theme"))])
  (goto-char-preview .
-		    [(0 1 0 1 -4 20220704 630)
+		    [(0 1 0 1 -4 20221231 1701)
 		     ((emacs
 		       (24 3)))
 		     "Preview character when executing `goto-char` command" single
-		     ((:commit . "507bd498457cf755d3500209ec0c2a4625a96584")
+		     ((:commit . "b894dd00dcf48daab62f3cef14b67b36544a198c")
 		      (:authors
 		       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -24137,11 +24135,11 @@
 		    (:keywords "convenience")
 		    (:url . "https://github.com/manuel-uberti/goto-last-point"))])
  (goto-line-preview .
-		    [(0 1 1 1 -4 20220704 630)
+		    [(0 1 1 1 -4 20221231 1701)
 		     ((emacs
 		       (25)))
 		     "Preview line when executing `goto-line` command" single
-		     ((:commit . "ee1cb651c021d1cab1a9f2577fa76d54da894037")
+		     ((:commit . "9091885111e96590e9c9f4d311706497da6b8f84")
 		      (:authors
 		       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -24260,7 +24258,7 @@
 			   (:keywords "grails" "projectile")
 			   (:url . "https://github.com/yveszoundi/grails-projectile-mode"))])
  (grammarly .
-	    [(0 3 0 1 -4 20220704 624)
+	    [(0 3 0 1 -4 20221231 1655)
 	     ((emacs
 	       (26 1))
 	      (s
@@ -24270,7 +24268,7 @@
 	      (websocket
 	       (1 6)))
 	     "Grammarly API interface" single
-	     ((:commit . "284acc680a68ffeeed958e62a568b49b0d9e0551")
+	     ((:commit . "0d9fbee337cb8dd316e5dcf0bff91e44c115dd0d")
 	      (:authors
 	       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -27216,7 +27214,7 @@
 	      (:keywords "sage" "math" "helm")
 	      (:url . "https://github.com/stakemori/helm-sage"))])
  (helm-searcher .
-		[(0 2 5 1 -4 20220704 634)
+		[(0 2 5 1 -4 20221231 1632)
 		 ((emacs
 		   (25 1))
 		  (helm
@@ -27228,7 +27226,7 @@
 		  (f
 		   (0 20 0)))
 		 "Helm interface to use searcher" single
-		 ((:commit . "27a6cfc7f9b3c988b4c7c6f1b3954760a9701dc0")
+		 ((:commit . "225480fa89d73eb53478576610f48d035b77cda9")
 		  (:authors
 		   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -32348,11 +32346,11 @@
 	    (:keywords "convenience")
 	    (:url . "http://github.com/hardenedapple/keyswap.el"))])
  (keytar .
-	 [(0 1 2 1 -4 20220704 626)
+	 [(0 1 2 1 -4 20221231 1655)
 	  ((emacs
 	    (24 4)))
 	  "Emacs Lisp interface for node-keytar" single
-	  ((:commit . "9d232decb1dee73b1b60480eb9c7ab6750ea90e1")
+	  ((:commit . "51c8f2f1f207cc67af4e67731ee056860e107811")
 	   (:authors
 	    ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	   (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -33646,7 +33644,7 @@
 	      (:keywords "languages")
 	      (:url . "https://gitlab.com/ligolang/ligo/-/tree/dev/tools/emacs"))])
  (line-reminder .
-		[(0 5 1 1 -4 20221130 526)
+		[(0 5 1 1 -4 20221231 1702)
 		 ((emacs
 		   (25 1))
 		  (indicators
@@ -33658,7 +33656,7 @@
 		  (ht
 		   (2 0)))
 		 "Line annotation for changed and saved lines" single
-		 ((:commit . "61f5ade3a7b385fc8ef5d572dc45797c8966d4c9")
+		 ((:commit . "23fd91027591c07eeb2a7961dbff45986b2ce61f")
 		  (:authors
 		   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -34508,7 +34506,7 @@
 	      (:keywords "languages" "lsp-mode")
 	      (:url . "https://github.com/emacs-lsp/lsp-focus"))])
  (lsp-grammarly .
-		[(0 3 0 1 -4 20220916 441)
+		[(0 3 0 1 -4 20221231 1655)
 		 ((emacs
 		   (27 1))
 		  (lsp-mode
@@ -34522,7 +34520,7 @@
 		  (ht
 		   (2 3)))
 		 "LSP Clients for Grammarly" single
-		 ((:commit . "eab5292037478c32e7d658fb5cba8b8fb6d72a7c")
+		 ((:commit . "6d111728f9d062d723bb88bd462b6eafe5cafe3f")
 		  (:authors
 		   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -34645,13 +34643,13 @@
 	      (:keywords "languages" "tex")
 	      (:url . "https://github.com/ROCKTAKEY/lsp-latex"))])
  (lsp-ltex .
-	   [(0 2 1 1 -4 20221215 1744)
+	   [(0 2 1 1 -4 20221231 1658)
 	    ((emacs
 	      (27 1))
 	     (lsp-mode
 	      (6 1)))
 	    "LSP Clients for LTEX" single
-	    ((:commit . "af06a2537e01e539b44bc5faede671c2066c1eec")
+	    ((:commit . "d1a599c8ec3748c2b81899d5831b6e7158255479")
 	     (:authors
 	      ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -47150,11 +47148,11 @@
 	   (:keywords "convenience")
 	   (:url . "https://github.com/karthink/popper"))])
  (popup .
-	[(0 5 9 1 -4 20220927 1610)
+	[(0 5 9 1 -4 20221231 1634)
 	 ((emacs
 	   (24 3)))
 	 "Visual Popup User Interface" single
-	 ((:commit . "20ce6cbd2f06423be35b3b700c698f0e109e880c")
+	 ((:commit . "71cede0588c10526f88dd0375bce776ec2eed05e")
 	  (:authors
 	   ("Tomohiro Matsuyama" . "m2ym.pub@gmail.com"))
 	  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -47902,7 +47900,7 @@
 			     (:keywords "tools" "vc")
 			     (:url . "https://github.com/andrmuel/projectile-git-autofetch"))])
  (projectile-rails .
-		   [(0 22 0 1 -4 20220403 1621)
+		   [(0 22 0 1 -4 20221231 1643)
 		    ((emacs
 		      (25 1))
 		     (projectile
@@ -47918,7 +47916,7 @@
 		     (dash
 		      (2 18 1)))
 		    "Minor mode for Rails projects based on projectile-mode" single
-		    ((:commit . "f7877971cfe266d3d91b3a72012855e12a0112df")
+		    ((:commit . "701784df7befe17b861f1b53fe9cbc59d0b94b9f")
 		     (:authors
 		      ("Adam Sokolnicki" . "adam.sokolnicki@gmail.com"))
 		     (:maintainer "Adam Sokolnicki" . "adam.sokolnicki@gmail.com")
@@ -49069,7 +49067,7 @@
 	   (:keywords "tools" "package" "management" "build" "source" "elpa")
 	   (:url . "https://github.com/quelpa/quelpa"))])
  (quelpa-leaf .
-	      [(0 0 1 1 -4 20220704 635)
+	      [(0 0 1 1 -4 20221231 1618)
 	       ((emacs
 		 (25 1))
 		(quelpa
@@ -49077,7 +49075,7 @@
 		(leaf
 		 (4 1 0)))
 	       "Quelpa handler for leaf" single
-	       ((:commit . "dadbc96a3c806e1c2dd7614a44ccffa3ee673568")
+	       ((:commit . "296ef97c29d7540316441715b92f6d15430f3579")
 		(:authors
 		 ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		(:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -52756,18 +52754,18 @@
 		   (:keywords "convenience")
 		   (:url . "https://codeberg.org/ideasman42/emacs-sidecar-locals"))])
  (sideline .
-	   [(0 1 1 1 -4 20221216 749)
+	   [(0 1 1 1 -4 20221231 1635)
 	    ((emacs
 	      (27 1)))
 	    "Show information on the side" single
-	    ((:commit . "8a981bc41f0169d2b6553988bd091d4eaf5bd134")
+	    ((:commit . "5dc19c5463f164ac05710307ec829a57bc9db859")
 	     (:authors
 	      ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
 	     (:keywords "convenience")
 	     (:url . "https://github.com/emacs-sideline/sideline"))])
  (sideline-blame .
-		 [(0 1 0 1 -4 20220629 801)
+		 [(0 1 0 1 -4 20221231 1636)
 		  ((emacs
 		    (27 1))
 		   (sideline
@@ -52775,14 +52773,14 @@
 		   (vc-msg
 		    (1 1 1)))
 		  "Show blame messages with sideline" single
-		  ((:commit . "6e9fb45caea9031554e6e2110e39e219a407779e")
+		  ((:commit . "1a1d80a71bdabe77fe2a33cd681b7188f193acfc")
 		   (:authors
 		    ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		   (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
 		   (:keywords "convenience" "blame")
 		   (:url . "https://github.com/emacs-sideline/sideline-blame"))])
  (sideline-flycheck .
-		    [(0 1 0 1 -4 20220629 752)
+		    [(0 1 0 1 -4 20221231 1636)
 		     ((emacs
 		       (27 1))
 		      (sideline
@@ -52792,27 +52790,27 @@
 		      (ht
 		       (2 4)))
 		     "Show flycheck errors with sideline" single
-		     ((:commit . "a1fd5368acbc8cd15e00d23a0bf6f19d24f5c061")
+		     ((:commit . "5248264aa73bf5ef4a3c8e113933abea2e7f9660")
 		      (:authors
 		       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
 		      (:keywords "convenience" "flycheck")
 		      (:url . "https://github.com/emacs-sideline/sideline-flycheck"))])
  (sideline-flymake .
-		   [(0 1 1 1 -4 20221120 743)
+		   [(0 1 1 1 -4 20221231 1636)
 		    ((emacs
 		      (27 1))
 		     (sideline
 		      (0 1 0)))
 		    "Show flymake errors with sideline" single
-		    ((:commit . "6ab3557fadfe832bd9ea3e4818012d3ea5c4759b")
+		    ((:commit . "bd76c9cc2c90e81582c6e0ed133ce5520d6e460d")
 		     (:authors
 		      ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
 		     (:keywords "convenience" "flymake")
 		     (:url . "https://github.com/emacs-sideline/sideline-flymake"))])
  (sideline-lsp .
-	       [(0 1 0 1 -4 20220629 757)
+	       [(0 1 0 1 -4 20221231 1636)
 		((emacs
 		  (27 1))
 		 (sideline
@@ -52826,7 +52824,7 @@
 		 (s
 		  (1 12 0)))
 		"Show lsp information with sideline" single
-		((:commit . "8833cc33383ef3cc1b003be239cd5092b565ac34")
+		((:commit . "38ba700db1769de216989fb9217795934147d160")
 		 (:authors
 		  ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		 (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
