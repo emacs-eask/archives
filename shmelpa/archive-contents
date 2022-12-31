@@ -2275,7 +2275,7 @@
 		       (:keywords "languages" "configuration")
 		       (:url . "https://github.com/bdd/aurora-config.el"))])
  (auth-source-keytar .
-		     [(0 1 3 1 -4 20220704 626)
+		     [(0 1 3 1 -4 20221231 1654)
 		      ((emacs
 			(24 4))
 		       (keytar
@@ -2283,7 +2283,7 @@
 		       (s
 			(1 12 0)))
 		      "Integrate auth-source with keytar" single
-		      ((:commit . "fc6e221606e906a040c9df28e269bdc46dbfc9b3")
+		      ((:commit . "8fcd935ee131174a1ed7f132614257411ed441bc")
 		       (:authors
 			("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		       (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -2475,15 +2475,16 @@
 		       (:keywords "sage" "math" "auto-complete")
 		       (:url . "https://github.com/stakemori/auto-complete-sage"))])
  (auto-dark .
-	    [(0 7 1 -4 20221121 1215)
+	    [(0 8 1 -4 20221231 1914)
 	     ((emacs
 	       (24 4)))
-	     "Automatically set the dark-mode theme based on MacOS status" single
-	     ((:commit . "29808f3fd73cb795e68703ebc56108c377554aaf")
+	     "Automatically sets the dark-mode theme based on macOS/Linux/Windows status" single
+	     ((:commit . "19040dfd1e0ad2e89a12bbdd045559711bf3193e")
 	      (:authors
 	       ("Rahul M. Juliato")
 	       ("Tim Harper <timcharper at gmail dot com>")
-	       ("Vincent Zhang" . "seagle0128@gmail.com"))
+	       ("Vincent Zhang" . "seagle0128@gmail.com")
+	       ("Jonathan Arnett" . "jonathan.arnett@protonmail.com"))
 	      (:maintainer "Rahul M. Juliato")
 	      (:keywords "macos" "windows" "linux" "themes" "tools" "faces")
 	      (:url . "https://github.com/LionyxML/auto-dark-emacs"))])
@@ -7458,7 +7459,7 @@
 		  (:keywords "emoji" "company")
 		  (:url . "https://github.com/dunn/company-emoji.git"))])
  (company-emojify .
-		  [(0 1 0 1 -4 20221231 858)
+		  [(0 1 0 1 -4 20221231 1708)
 		   ((emacs
 		     (26 1))
 		    (company
@@ -7468,7 +7469,7 @@
 		    (ht
 		     (2 0)))
 		   "Company completion for Emojify" single
-		   ((:commit . "f4b71999cc07678f0bf80778760fa52bdfb5b23c")
+		   ((:commit . "89652ee1a5488fbbe7b73c03ac316b895bb3fc19")
 		    (:authors
 		     ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		    (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -7516,7 +7517,7 @@
 		(:keywords "convenience" "company" "fuzzy" "flx")
 		(:url . "https://github.com/PythonNut/company-flx"))])
  (company-fuzzy .
-		[(1 4 0 1 -4 20221220 935)
+		[(1 4 0 1 -4 20221231 1708)
 		 ((emacs
 		   (26 1))
 		  (company
@@ -7528,7 +7529,7 @@
 		  (list-utils
 		   (0 4 6)))
 		 "Fuzzy matching for `company-mode'" single
-		 ((:commit . "242043064a88c9f58e222a4c934053454e6353e6")
+		 ((:commit . "eff3b5429d7e8d0eb2d62fb352ae843fe1a99ac2")
 		  (:authors
 		   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -40390,7 +40391,7 @@
 	     (:keywords "org" "babel" "swift")
 	     (:url . "http://github.com/zweifisch/ob-swift"))])
  (ob-swiftui .
-	     [(0 1 1 -4 20210618 856)
+	     [(0 2 1 -4 20221231 1941)
 	      ((emacs
 		(25 1))
 	       (swift-mode
@@ -40398,7 +40399,7 @@
 	       (org
 		(9 2 0)))
 	      "Org babel functions for SwiftUI evaluation" single
-	      ((:commit . "31cfe991eb171bb0d2f53cf621be1b9d91573ac3")
+	      ((:commit . "0b453efeb8310311d7f722a0f2dce41c14d4090e")
 	       (:authors
 		("Alvaro Ramirez"))
 	       (:maintainer "Alvaro Ramirez")
@@ -42806,7 +42807,7 @@
 		  (:keywords "convenience" "hypermedia" "org")
 		  (:url . "https://github.com/unhammer/org-rich-yank"))])
  (org-roam .
-	   [(2 2 2 1 -4 20221227 219)
+	   [(2 2 2 1 -4 20221231 2122)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -42820,7 +42821,7 @@
 	     (magit-section
 	      (3 0 0)))
 	    "A database abstraction layer for Org-mode" tar
-	    ((:commit . "938c602faa4a07917654df71e7db8bd178db567d")
+	    ((:commit . "74422df546a515bc984c2f3d3a681c09d6f43916")
 	     (:authors
 	      ("Jethro Kuan" . "jethrokuan95@gmail.com"))
 	     (:maintainer "Jethro Kuan" . "jethrokuan95@gmail.com")
@@ -43844,11 +43845,11 @@
 	       (:keywords "comm")
 	       (:url . "https://github.com/atomontage/osa-chrome"))])
  (osm .
-      [(0 9 1 -4 20221231 940)
+      [(0 9 1 -4 20221231 2056)
        ((emacs
 	 (27 1)))
        "OpenStreetMap viewer" tar
-       ((:commit . "7a7be6ce999a9abd5d2e6a90f21d9626c73880c5")
+       ((:commit . "c0811546514d76e7e6e9d64ce1b5f0509a91c8ef")
 	(:authors
 	 ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	(:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
