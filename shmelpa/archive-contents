@@ -5015,11 +5015,11 @@
 	    (:keywords "convenience" "writing")
 	    (:url . "https://github.com/kisaragi-hiu/cangjie.el"))])
  (cape .
-       [(0 12 1 -4 20230101 1106)
+       [(0 12 1 -4 20230102 1816)
 	((emacs
 	  (27 1)))
 	"Completion At Point Extensions" tar
-	((:commit . "68ae230a5b7ca523bfac2eecf6e2ce9b691cdd04")
+	((:commit . "da2bf90d23f07c982e5e9dc6f87a059ae2ee52a2")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -10262,11 +10262,11 @@
 		    (:keywords "extensions" "lisp")
 		    (:url . "https://github.com/magnars/dash.el"))])
  (dashboard .
-	    [(1 8 0 -4 20221231 1629)
+	    [(1 8 0 -4 20230102 1749)
 	     ((emacs
 	       (26 1)))
 	     "A startup screen extracted from Spacemacs" tar
-	     ((:commit . "ee1faec906ef74bb098a23dac0613652c1d37342")
+	     ((:commit . "594f2d96d5adb68313210611d0d729d161e85f19")
 	      (:authors
 	       ("Rakan Al-Hneiti" . "rakan.alhneiti@gmail.com"))
 	      (:maintainer "Jes\303\272s Mart\303\255nez" . "jesusmartinez93@gmail.com")
@@ -14407,7 +14407,7 @@
 	     (:keywords "matching")
 	     (:url . "https://github.com/walseb/ellocate"))])
  (elm-mode .
-	   [(0 -4 20221025 1514)
+	   [(0 -4 20230102 1737)
 	    ((f
 	      (0 17))
 	     (s
@@ -14419,7 +14419,7 @@
 	     (reformatter
 	      (0 3)))
 	    "Major mode for Elm" tar
-	    ((:commit . "2c5184beea35ef92485710647b378bd8c881745b")
+	    ((:commit . "5797500d74dd8544a89938c09d3cd5cdf7b5d7bc")
 	     (:authors
 	      ("Joseph Collard"))
 	     (:maintainer "Joseph Collard")
@@ -34528,13 +34528,15 @@
 		  (:keywords "convenience" "lsp" "grammarly" "checker")
 		  (:url . "https://github.com/emacs-grammarly/lsp-grammarly"))])
  (lsp-haskell .
-	      [(1 0 1 -4 20220809 2129)
+	      [(1 1 1 -4 20230102 1912)
 	       ((emacs
 		 (24 3))
 		(lsp-mode
-		 (3 0)))
+		 (3 0))
+		(haskell-mode
+		 (16 1)))
 	       "Haskell support for lsp-mode" single
-	       ((:commit . "485c1148ce4d27030bb95b21c7289809294e7d31")
+	       ((:commit . "c5d3bc2223f16b59eb39906affefeb08f13b918f")
 		(:keywords "haskell")
 		(:url . "https://github.com/emacs-lsp/lsp-haskell"))])
  (lsp-intellij .
@@ -40207,6 +40209,17 @@
 	   (:maintainer "Wilko Meyer" . "w-devel@wmeyer.eu")
 	   (:keywords "lisp" "tools")
 	   (:url . "https://codeberg.org/theesm/ob-nix"))])
+ (ob-p5js .
+	  [(1 0 1 -4 20230101 1407)
+	   ((emacs
+	     (25 1)))
+	   "Support for p5js in org-babel" single
+	   ((:commit . "f4456b6533bcf2d41caffb267721ef00a0ef16c2")
+	    (:authors
+	     ("Alejandro Gallo" . "aamsgallo@gmail.com"))
+	    (:maintainer "Alejandro Gallo" . "aamsgallo@gmail.com")
+	    (:keywords "javascript" "graphics" "multimedia" "p5js" "processing" "org-babel")
+	    (:url . "https://github.com/alejandrogallo/p5js"))])
  (ob-php .
 	 [(0 0 1 1 -4 20220221 1254)
 	  ((org
@@ -41269,14 +41282,14 @@
 		(:maintainer "D. Williams" . "d.williams@posteo.net")
 		(:url . "https://github.com/integral-dw/org-bullets"))])
  (org-caldav .
-	     [(0 1 0 1 -4 20221222 37)
+	     [(0 1 0 1 -4 20230102 1941)
 	      ((org
-		(7)))
+		(9)))
 	      "Sync org files with external calendar through CalDAV" single
-	      ((:commit . "843d3668207c0932320dde22bf83b81662ce0c4c")
+	      ((:commit . "22c2f51896a71cf2f0948f4dc14dd9b4ac0b0615")
 	       (:authors
 		("David Engster" . "deng@randomsample.de"))
-	       (:maintainer "David Engster" . "deng@randomsample.de")
+	       (:maintainer "Jack Kamm" . "jackkamm@tatersworld.org")
 	       (:keywords "calendar" "caldav"))])
  (org-calibre-notes .
 		    [(0 0 1 1 -4 20221202 1657)
@@ -51122,7 +51135,7 @@
 		(:keywords "processes")
 		(:url . "https://github.com/bard/emacs-run-command"))])
  (run-command-recipes .
-		      [(0 0 3 1 -4 20221217 2001)
+		      [(0 0 3 1 -4 20230102 2031)
 		       ((emacs
 			 (25 1))
 			(dash
@@ -51132,7 +51145,7 @@
 			(run-command
 			 (0 1 0)))
 		       "This is collection of recipes to `run-command'" tar
-		       ((:commit . "fc37510ddb44cff7a832f6b90e3cd4e54a29cc93")
+		       ((:commit . "6395c773ac798eaac0cb2941d5c4057a5070b1d7")
 			(:authors
 			 ("semenInRussia" . "hrams205@gmail.com"))
 			(:maintainer "semenInRussia" . "hrams205@gmail.com")
@@ -57013,11 +57026,11 @@
 			 (:keywords "faces" "themes")
 			 (:url . "https://gitlab.com/aimebertrand/timu-caribbean-theme"))])
  (timu-rouge-theme .
-		   [(1 8 1 -4 20221226 1551)
+		   [(1 9 1 -4 20230102 1925)
 		    ((emacs
 		      (27 1)))
 		    "Color theme inspired by the Rouge Theme for VSCode" single
-		    ((:commit . "7b0a5ee05fbe0ea11e46094b2126bdba0c02f456")
+		    ((:commit . "87117f15ea5fcfacbbad23ea6f345d18c2ff0009")
 		     (:authors
 		      ("Aim\303\251 Bertrand" . "aime.bertrand@macowners.club"))
 		     (:maintainer "Aim\303\251 Bertrand" . "aime.bertrand@macowners.club")
@@ -59575,11 +59588,11 @@
 		      (:keywords "presentation")
 		      (:url . "https://github.com/Dewdrops/visual-ascii-mode"))])
  (visual-fill-column .
-		     [(2 5 1 -4 20220519 1959)
+		     [(2 5 1 1 -4 20230102 1830)
 		      ((emacs
 			(25 1)))
 		      "fill-column for visual-line-mode" single
-		      ((:commit . "453d698d7fc243a547665f8ba43c55eee574e0db")
+		      ((:commit . "695a59789209c42fa08a5bce92963ee32f4455be")
 		       (:authors
 			("Joost Kremers" . "joostkremers@fastmail.fm"))
 		       (:maintainer "Joost Kremers" . "joostkremers@fastmail.fm")
