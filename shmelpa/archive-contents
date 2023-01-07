@@ -1368,7 +1368,7 @@
 		    (:keywords "theme" "dark" "emacs 24")
 		    (:url . "https://github.com/mjwall/ample-zen"))])
  (amread-mode .
-	      [(0 1 0 1 -4 20221111 845)
+	      [(0 1 0 1 -4 20230107 1433)
 	       ((emacs
 		 (24 3))
 		(cl-lib
@@ -1376,7 +1376,7 @@
 		(pyim
 		 (5 2 8)))
 	       "A minor mode helper user speed-reading" single
-	       ((:commit . "3ff235a6204e224d47cb0c99368e6a0f21bf8dce")
+	       ((:commit . "4746c6adf81bedf8933faf912c4c65dafea9bb62")
 		(:keywords "wp")
 		(:url . "https://repo.or.cz/amread-mode.git"))])
  (amsreftex .
@@ -2331,11 +2331,11 @@
 		     (:maintainer "sabof")
 		     (:url . "https://github.com/sabof/auto-auto-indent"))])
  (auto-compile .
-	       [(0 1 0 1 -4 20221221 2246)
+	       [(0 1 0 1 -4 20230107 1509)
 		((emacs
 		  (25 1)))
 		"Automatically compile Emacs Lisp libraries" single
-		((:commit . "f0690b770c71d0a25957b48b8952190eb3fe4111")
+		((:commit . "c6a3b9f1ffd8ce057297f7197914b7e80fd3b218")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -2980,7 +2980,7 @@
 	      (:keywords "hardware")
 	      (:url . "https://github.com/mschuldt/backlight.el"))])
  (backline .
-	   [(0 1 0 1 -4 20220424 2212)
+	   [(0 1 0 1 -4 20230107 1509)
 	    ((emacs
 	      (25 1))
 	     (compat
@@ -2988,7 +2988,7 @@
 	     (outline-minor-faces
 	      (0 1 2)))
 	    "Preserve appearance of outline headings" single
-	    ((:commit . "0d44408262080cdf998de5a52516f220e7e7c99a")
+	    ((:commit . "1a3fa8235b9a6603a2c7e234c4817bffec731a3b")
 	     (:authors
 	      ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	     (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -3170,13 +3170,13 @@
 	      (:keywords "languages" "basic")
 	      (:url . "https://gitlab.com/sasanidas/emacs-c64-basic-ide"))])
  (basic-mode .
-	     [(1 0 0 1 -4 20221217 1847)
+	     [(1 0 1 1 -4 20230107 1513)
 	      ((seq
 		(2 20))
 	       (emacs
 		(25 1)))
 	      "Major mode for editing BASIC code" single
-	      ((:commit . "b719ab1e9e2052c319ebb2f46f234c0a4b2075e0")
+	      ((:commit . "61b7e31b4489668b21f3fc94b98295fd9eb94652")
 	       (:authors
 		("Johan Dykstrom"))
 	       (:maintainer "Johan Dykstrom")
@@ -3646,13 +3646,13 @@
 		 (:keywords "bibtex")
 		 (:url . "https://github.com/plantarum/bibtex-utils"))])
  (bicycle .
-	  [(0 1 0 1 -4 20220422 1600)
+	  [(0 1 0 1 -4 20230107 1510)
 	   ((emacs
 	     (25 1))
 	    (compat
 	     (28 1 1 0)))
 	   "Cycle outline and code visibility" single
-	   ((:commit . "298e33b4b02e499a61a68bb61ebef64cb7640b59")
+	   ((:commit . "5d8d3142a0f9b13d3eb5d59db7aca93960a70143")
 	    (:authors
 	     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -6601,7 +6601,7 @@
 	    (:keywords "clojure" "interaction")
 	    (:url . "https://github.com/clojure-emacs/clomacs"))])
  (closql .
-	 [(0 1 0 1 -4 20221017 952)
+	 [(0 1 0 1 -4 20230107 1510)
 	  ((emacs
 	    (25 1))
 	   (compat
@@ -6609,7 +6609,7 @@
 	   (emacsql-sqlite
 	    (3 0 0)))
 	  "Store EIEIO objects using EmacSQL" single
-	  ((:commit . "463b0f4d4c3e66acd5d30c6572cc45eaecc25633")
+	  ((:commit . "689c16f5360457accc571fd5bd947d06b30777cd")
 	   (:authors
 	    ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -8308,13 +8308,13 @@
 	     (:keywords "tools" "php" "dependency" "manager")
 	     (:url . "https://github.com/zonuexe/composer.el"))])
  (comware-router-mode .
-		      [(0 5 1 -4 20220108 2111)
+		      [(0 5 1 -4 20230107 1624)
 		       ((dash
 			 (2 16 0))
 			(emacs
 			 (24 3)))
 		       "Major mode for editing Comware configuration files" single
-		       ((:commit . "cd8c74653c0e221e3dd1ca540496c4b4c7ee4617")
+		       ((:commit . "cc0c1937e02f84ca8182b2de3ce5cc0982308ab8")
 			(:authors
 			 ("Davide Restivo" . "davide.restivo@yahoo.it"))
 			(:maintainer "Davide Restivo" . "davide.restivo@yahoo.it")
@@ -10081,7 +10081,7 @@
 	  (:keywords "haskell" "tools")
 	  (:url . "https://github.com/jyp/dante"))])
  (dap-mode .
-	   [(0 7 1 -4 20230101 757)
+	   [(0 7 1 -4 20230107 1728)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -10103,7 +10103,7 @@
 	     (lsp-docker
 	      (1 0 0)))
 	    "Debug Adapter Protocol mode" tar
-	    ((:commit . "98d13651ae777513032260efb00e66d3a9edd4ed")
+	    ((:commit . "6b3a915488faf9450a3a8044f15955105693e0a8")
 	     (:authors
 	      ("Ivan Yonchovski" . "yyoncho@gmail.com"))
 	     (:maintainer "Ivan Yonchovski" . "yyoncho@gmail.com")
@@ -10946,6 +10946,17 @@
 	    (:maintainer "Dmitry Gutov" . "dgutov@yandex.ru")
 	    (:keywords "vc" "diff")
 	    (:url . "https://github.com/dgutov/diff-hl"))])
+ (diffed .
+	 [(0 1 1 1 -4 20230105 1629)
+	  ((emacs
+	    (25 1)))
+	  "Diffed is for recursive diff like Dired is for ls" single
+	  ((:commit . "aabf4de060d88b30b86c28582288c28cfb310ad3")
+	   (:authors
+	    ("Bernhard Rotter" . "bernhard@b-rotter.de"))
+	   (:maintainer "Bernhard Rotter" . "bernhard@b-rotter.de")
+	   (:keywords "tools")
+	   (:url . "https://github.com/ber-ro/diffed"))])
  (difflib .
 	  [(0 3 7 1 -4 20210224 2242)
 	   ((emacs
@@ -10984,17 +10995,6 @@
 		    ("Edmund Jorgensen" . "edmund@hut8labs.com"))
 		   (:maintainer "Edmund Jorgensen" . "edmund@hut8labs.com")
 		   (:keywords "tools"))])
- (diffsync .
-	   [(0 1 1 -4 20220502 1513)
-	    ((emacs
-	      (25 1)))
-	    "Use diff to allow syncing of directories" single
-	    ((:commit . "3f8540ef0a677ea8c2b57aaf4a07937512bb148c")
-	     (:authors
-	      ("Bernhard Rotter" . "bernhard@b-rotter.de"))
-	     (:maintainer "Bernhard Rotter" . "bernhard@b-rotter.de")
-	     (:keywords "tools")
-	     (:url . "https://github.com/ber-ro/diffsync"))])
  (diffview .
 	   [(1 0 1 -4 20220322 2334)
 	    nil "View diffs in side-by-side format" single
@@ -11077,13 +11077,13 @@
 	(:keywords "convenience")
 	(:url . "https://github.com/alezost/dim.el"))])
  (dim-autoload .
-	       [(0 1 0 1 -4 20220422 1601)
+	       [(0 1 0 1 -4 20230107 1510)
 		((emacs
 		  (25 1))
 		 (compat
 		  (28 1 1 0)))
 		"Dim or hide autoload cookie lines" single
-		((:commit . "f1a489414dd7d344ef791c30e43e4f4e61db7582")
+		((:commit . "b556defe1e37a14b397a61aca2173fbd90e46c18")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -12278,7 +12278,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(3 3 3 1 -4 20230106 1427)
+		[(3 3 3 1 -4 20230107 1433)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -12286,7 +12286,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "4224fcee7a6356e312169ccdbb156f380298a843")
+		 ((:commit . "fb516af4369043811f98929d7fbe2e43d0847242")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
@@ -14782,7 +14782,7 @@
 	 (:keywords "docs")
 	 (:url . "https://github.com/Fuco1/elwm"))])
  (elx .
-      [(0 1 0 1 -4 20221208 2336)
+      [(0 1 0 1 -4 20230107 1511)
        ((emacs
 	 (25 1))
 	(compat
@@ -14790,7 +14790,7 @@
 	(llama
 	 (0 2 0)))
        "Extract information from Emacs Lisp libraries" single
-       ((:commit . "27846ebfec114552b6737dd4be37898e594c0f4c")
+       ((:commit . "e6e66a03f6cbd4425ae847824c24305d4f000bc5")
 	(:authors
 	 ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	(:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -15460,7 +15460,7 @@
 	 (:keywords "tools")
 	 (:url . "https://github.com/emacscollective/epkg"))])
  (epkg-marginalia .
-		  [(0 1 0 1 -4 20220511 1942)
+		  [(0 1 0 1 -4 20230107 1537)
 		   ((emacs
 		     (27 1))
 		    (compat
@@ -15470,7 +15470,7 @@
 		    (marginalia
 		     (0 12)))
 		   "Show Epkg information in completion annotations" single
-		   ((:commit . "ee784211346c7c374accec2bda78788cc68fa641")
+		   ((:commit . "b99994d5b651640964b7106fa911c91a9e6ecc0d")
 		    (:authors
 		     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
