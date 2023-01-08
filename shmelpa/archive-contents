@@ -10815,11 +10815,11 @@
 	    (:keywords "help")
 	    (:url . "https://github.com/astoff/devdocs.el"))])
  (devdocs-browser .
-		  [(20210525 1 -4 20220917 1403)
+		  [(20210525 1 -4 20230108 1456)
 		   ((emacs
 		     (27 1)))
 		   "Browse devdocs.io documents using EWW" single
-		   ((:commit . "badbb9cb57522cc0e002a32fe385f7ad1e929665")
+		   ((:commit . "6f090ec15f19b4868da1be0a4ea5c8a3f012f873")
 		    (:authors
 		     ("blahgeek" . "i@blahgeek.com"))
 		    (:maintainer "blahgeek" . "i@blahgeek.com")
@@ -12208,11 +12208,11 @@
 	   (:keywords "convenience" "document" "string")
 	   (:url . "https://github.com/emacs-vs/docstr"))])
  (doct .
-       [(3 1 10 1 -4 20220812 443)
+       [(3 1 10 1 -4 20230108 1507)
 	((emacs
 	  (25 1)))
 	"DOCT: Declarative Org capture templates" single
-	((:commit . "506c22f365b75f5423810c4933856802554df464")
+	((:commit . "69bfe30317c7fa7a5a51f2763515dfe9c989ebf1")
 	 (:authors
 	  ("Nicholas Vollmer" . "progfolio@protonmail.com"))
 	 (:maintainer "Nicholas Vollmer" . "progfolio@protonmail.com")
@@ -21948,11 +21948,11 @@
 	  (:maintainer "Masafumi Oyamada" . "stillpedant@gmail.com")
 	  (:keywords "languages"))])
  (fzf .
-      [(0 0 2 1 -4 20230106 2320)
+      [(0 0 2 1 -4 20230108 1324)
        ((emacs
 	 (24 4)))
        "A front-end for fzf." single
-       ((:commit . "29c715bd611e0f050604940377d73cbeb2f093d3")
+       ((:commit . "489780ef499111eccfae49a2174a5752bfe61b74")
 	(:authors
 	 ("Bailey Ling"))
 	(:maintainer "Bailey Ling")
@@ -34686,7 +34686,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20230107 2052)
+	   [(8 0 1 1 -4 20230108 1415)
 	    ((emacs
 	      (26 3))
 	     (dash
@@ -34704,7 +34704,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "0b1b36fe99741c127f498003381d772c43615c13")
+	    ((:commit . "a78f04ea4b6720609fb499e89f7cf089a6e19d7e")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -43525,18 +43525,18 @@
 		   (:keywords "convenience")
 		   (:url . "https://github.com/myuhe/org-wunderlist.el"))])
  (org-zettelkasten .
-		   [(0 3 0 1 -4 20221224 1144)
+		   [(0 7 0 1 -4 20230108 1711)
 		    ((emacs
-		      (24 3))
+		      (25 1))
 		     (org
-		      (9 0)))
-		    "Helper functions to use Zettelkasten in org-mode" single
-		    ((:commit . "d1309fe7f770a865441b91c1c8327036c307ef54")
+		      (9 3)))
+		    "A Zettelkasten mode leveraging Org" single
+		    ((:commit . "e13e1d870a9864f1e7f9cedfae5d9632c9554ae1")
 		     (:authors
 		      ("Yann Herklotz" . "yann@ymhg.org"))
 		     (:maintainer "Yann Herklotz" . "yann@ymhg.org")
 		     (:keywords "files" "hypermedia" "org" "notes")
-		     (:url . "https://github.com/ymherklotz/emacs-zettelkasten"))])
+		     (:url . "https://sr.ht/~ymherklotz/org-zettelkasten"))])
  (org2blog .
 	   [(1 1 16 1 -4 20221118 536)
 	    ((htmlize
@@ -48233,7 +48233,7 @@
 	 (:keywords "languages" "purescript" "psci" "repl")
 	 (:url . "https://github.com/purescript-emacs/emacs-psci"))])
  (psession .
-	   [(0 1 0 1 -4 20220318 1129)
+	   [(0 1 0 1 -4 20230105 503)
 	    ((emacs
 	      (24))
 	     (cl-lib
@@ -48241,7 +48241,7 @@
 	     (async
 	      (1 9 3)))
 	    "Persistent save of elisp objects." single
-	    ((:commit . "328c64804c4c9e15b373c7ba3bc82bfdfb27971a")
+	    ((:commit . "ca5bed69f803aab71851c46b0118b66f58455b8a")
 	     (:authors
 	      ("Thierry Volpiatto" . "thierry.volpiatto@gmail.com"))
 	     (:maintainer "Thierry Volpiatto" . "thierry.volpiatto@gmail.com")
@@ -57249,11 +57249,11 @@
 		  (:keywords "hide" "window")
 		  (:url . "https://github.com/deadghost/toggle-window"))])
  (tok-theme .
-	    [(0 1 1 -4 20230105 535)
+	    [(0 1 1 -4 20230108 1645)
 	     ((emacs
 	       (26 1)))
 	     "Calm theme with saffron color scheme" single
-	     ((:commit . "cd2e5ec69a777d0c77a69af7ea814098c261b60f")
+	     ((:commit . "1c1d5250a56caa7308c4b35d75dd628a2dde3273")
 	      (:authors
 	       ("Topi Kettunen" . "topi@topikettunen.com"))
 	      (:maintainer "Topi Kettunen" . "topi@topikettunen.com")
@@ -62157,13 +62157,13 @@
 		      (:maintainer "Vidianos Giannitsis" . "vidianosgiannitsis@gmail.com")
 		      (:url . "https://github.com/Vidianos-Giannitsis/zetteldesk-remark.el"))])
  (zettelkasten .
-	       [(0 3 0 1 -4 20220819 2351)
+	       [(0 3 0 1 -4 20230108 1724)
 		((emacs
 		  (25 1))
 		 (s
 		  (1 10 0)))
 		"Helper functions to organise notes in a Zettelkasten style" single
-		((:commit . "505fd41dea012e743962c3a376c1e63e7a1e127e")
+		((:commit . "cc4d69c302a46b8f802a1871aae091df1f3398ba")
 		 (:authors
 		  ("Yann Herklotz" . "yann@ymhg.org"))
 		 (:maintainer "Yann Herklotz" . "yann@ymhg.org")
