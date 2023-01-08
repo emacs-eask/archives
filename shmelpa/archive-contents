@@ -8420,13 +8420,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 31 1 -4 20230106 1927)
+	  [(0 31 1 -4 20230107 2138)
 	   ((emacs
 	     (27 1))
 	    (compat
-	     (29 1 0 1)))
+	     (29 1 1 0)))
 	   "Consulting completing-read" tar
-	   ((:commit . "17de436c58df1f0e2036b7cc590b74dcbdefd393")
+	   ((:commit . "98693ed79a270ff52b541ca1e11b2dd856b4bff7")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -10947,11 +10947,11 @@
 	    (:keywords "vc" "diff")
 	    (:url . "https://github.com/dgutov/diff-hl"))])
  (diffed .
-	 [(0 1 1 1 -4 20230105 1629)
+	 [(0 1 2 1 -4 20230107 2309)
 	  ((emacs
-	    (25 1)))
+	    (27 1)))
 	  "Diffed is for recursive diff like Dired is for ls" single
-	  ((:commit . "aabf4de060d88b30b86c28582288c28cfb310ad3")
+	  ((:commit . "e89b5cbfd2399c479b42ec38dddce546870f0b96")
 	   (:authors
 	    ("Bernhard Rotter" . "bernhard@b-rotter.de"))
 	   (:maintainer "Bernhard Rotter" . "bernhard@b-rotter.de")
@@ -15443,17 +15443,17 @@
 	  (:keywords "comm" "processes" "terminals" "unix")
 	  (:url . "https://github.com/sean-hut/eping"))])
  (epkg .
-       [(0 1 0 1 -4 20230105 1926)
+       [(0 1 0 1 -4 20230107 2147)
 	((emacs
 	  (25 1))
 	 (compat
-	  (29 1 0 1))
+	  (29 1 1 0))
 	 (closql
 	  (20210927))
 	 (llama
 	  (0 2 0)))
 	"Browse the Emacsmirror package database" tar
-	((:commit . "5bff5be316d4edd406aa1c38e8f5695f2f8c606c")
+	((:commit . "9d079e9490dc3040f0528f1673f3796cc8be5189")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -37723,6 +37723,23 @@
 	  (:maintainer "Damien Cassou" . "damien@cassou.me")
 	  (:keywords "multimedia")
 	  (:url . "https://github.com/mpdel/mpdel"))])
+ (mpdel-embark .
+	       [(0 4 0 1 -4 20230103 2021)
+		((emacs
+		  (26 1))
+		 (mpdel
+		  (2 0 0))
+		 (libmpdel
+		  (2 0 0))
+		 (embark
+		  (0 19)))
+		"Integrate MPDel with Embark" single
+		((:commit . "31d91a62b680fb4472ec34c04ac6af80bb3cf4b8")
+		 (:authors
+		  ("Damien Cassou" . "damien@cassou.me"))
+		 (:maintainer "Damien Cassou" . "damien@cassou.me")
+		 (:keywords "multimedia")
+		 (:url . "https://github.com/mpdel/mpdel-embark"))])
  (mpdmacs .
 	  [(0 2 2 1 -4 20210904 2048)
 	   ((emacs
@@ -47150,11 +47167,11 @@
 	   (:keywords "outlines" "tools")
 	   (:url . "https://github.com/QBobWatson/poporg"))])
  (popper .
-	 [(0 45 1 -4 20220711 836)
+	 [(0 45 1 -4 20230107 2344)
 	  ((emacs
 	    (26 1)))
 	  "Summon and dismiss buffers as popups" tar
-	  ((:commit . "d7560f18350faaee8362aee16481268de3cc6457")
+	  ((:commit . "50568b8af2ee4c43d4a5b55241fac7ef11e2f9db")
 	   (:authors
 	    ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
 	   (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
@@ -49849,11 +49866,11 @@
 		      (:keywords "convenience" "files" "processes" "tools")
 		      (:url . "https://github.com/maio/recompile-on-save.el"))])
  (recomplete .
-	     [(0 2 1 -4 20230107 420)
+	     [(0 2 1 -4 20230108 20)
 	      ((emacs
 		(26 1)))
 	      "Immediately (re)complete actions" single
-	      ((:commit . "9abea7d90bdc2e65af59e5c3f6745bf13e0d500d")
+	      ((:commit . "c4085d13ed64d4be6cfc771b74e07e0febcf0415")
 	       (:authors
 		("Campbell Barton" . "ideasman42@gmail.com"))
 	       (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -51719,25 +51736,25 @@
 		  (:keywords "convenience")
 		  (:url . "https://github.com/emacs-pe/scribble-mode"))])
  (scroll-on-drag .
-		 [(0 1 1 -4 20230105 2309)
+		 [(0 1 1 -4 20230108 7)
 		  ((emacs
 		    (26 2)))
 		  "Interactive scrolling" single
-		  ((:commit . "e7b95c6235da5c35a1b7c3927290b04ff65068cf")
+		  ((:commit . "b9541a601bddbc77792465fe57faba0f65341d8e")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		   (:url . "https://codeberg.org/ideasman42/emacs-scroll-on-drag"))])
  (scroll-on-jump .
-		 [(0 1 1 -4 20230105 2219)
+		 [(0 1 1 -4 20230108 12)
 		  ((emacs
 		    (26 2)))
 		  "Scroll when jumping to a new point" single
-		  ((:commit . "19d453875ee72f01ab4de93a72e99d65d9918789")
+		  ((:commit . "44a7654089d71a016469fe496d8ebc48bc305f41")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-		   (:url . "https://codeberg.org/ideasman42/emacs-scroll-on-jump"))])
+		   (:url . "https://codeberg.com/ideasman42/emacs-scroll-on-jump"))])
  (scrollable-quick-peek .
 			[(0 1 0 1 -4 20201224 329)
 			 ((quick-peek
@@ -58440,16 +58457,16 @@
 	    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 	    (:url . "https://codeberg.org/ideasman42/emacs-undo-fu"))])
  (undo-fu-session .
-		  [(0 4 1 -4 20230107 354)
+		  [(0 4 1 -4 20230108 2)
 		   ((emacs
 		     (28 1)))
 		   "Persistent undo, available between sessions" single
-		   ((:commit . "ef8ff5ad2ed1b603b746edb4bf7f97f0ae2ccd8e")
+		   ((:commit . "e6cf0dca6ae598b1c752dec7bdc18daeac88acec")
 		    (:authors
 		     ("Campbell Barton" . "ideasman42@gmail.com"))
 		    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		    (:keywords "convenience")
-		    (:url . "https://codeberg.org/ideasman42/emacs-undo-fu-session"))])
+		    (:url . "https://codeberg.com/ideasman42/emacs-undo-fu-session"))])
  (undo-propose .
 	       [(4 0 0 1 -4 20210207 45)
 		((emacs
