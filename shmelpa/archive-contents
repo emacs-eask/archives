@@ -25227,6 +25227,17 @@
 		    (:maintainer "Valentin Ignatev" . "valentignatev@gmail.com")
 		    (:keywords "faces")
 		    (:url . "https://github.com/valignatev/heaven-and-hell"))])
+ (heex-ts-mode .
+	       [(1 0 1 -4 20230102 2233)
+		((emacs
+		  (29)))
+		"Major mode for Heex with tree-sitter support" single
+		((:commit . "7e8bce0bb2117bf0213f6d709360942c3882282f")
+		 (:authors
+		  ("Wilhelm H Kirschbaum"))
+		 (:maintainer "Wilhelm H Kirschbaum")
+		 (:keywords "heex" "languages" "tree-sitter")
+		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
        [(3 9 0 1 -4 20230101 1922)
 	((helm-core
@@ -37310,11 +37321,11 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(4 0 1 1 -4 20230108 1255)
+	       [(4 0 1 1 -4 20230109 43)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "9225ac0d0a40fa3a6192ca69d2c3569e3fe00c0c")
+		((:commit . "0dc7854103ecd7eba4b57eb7ce8eb05628cc9fbf")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainer "Modus-Themes Development" . "~protesilaos/modus-themes@lists.sr.ht")
@@ -43550,13 +43561,13 @@
 		   (:keywords "convenience")
 		   (:url . "https://github.com/myuhe/org-wunderlist.el"))])
  (org-zettelkasten .
-		   [(0 7 0 1 -4 20230108 1711)
+		   [(0 7 0 1 -4 20230108 1326)
 		    ((emacs
 		      (25 1))
 		     (org
 		      (9 3)))
-		    "A Zettelkasten mode leveraging Org" single
-		    ((:commit . "e13e1d870a9864f1e7f9cedfae5d9632c9554ae1")
+		    "A Zettelkasten mode leveraging Org" tar
+		    ((:commit . "8002c96d94cb89a0f5af03974f6d1eaea45e1e41")
 		     (:authors
 		      ("Yann Herklotz" . "yann@ymhg.org"))
 		     (:maintainer "Yann Herklotz" . "yann@ymhg.org")
@@ -51247,11 +51258,11 @@
 		  (:maintainer "Rotem Yaari" . "rotemy@MBP.local")
 		  (:keywords "languages"))])
  (rust-mode .
-	    [(1 0 5 1 -4 20221225 2240)
+	    [(1 0 5 1 -4 20230109 35)
 	     ((emacs
 	       (25 1)))
 	     "A major-mode for editing Rust source code" tar
-	     ((:commit . "0431b10d2520918f3f250fdf4dc96e8d2eb7ea76")
+	     ((:commit . "26f4582293e0c11aaf5643c5064cd2c98444642c")
 	      (:authors
 	       ("Mozilla"))
 	      (:maintainer "Mozilla")
