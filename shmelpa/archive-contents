@@ -928,6 +928,18 @@
 			(:maintainer "Musa Al-hassy" . "alhassy@gmail.com")
 			(:keywords "abbrev" "convenience" "languages" "agda" "tools")
 			(:url . "https://github.com/alhassy/next-700-module-systems"))])
+ (age .
+      [(0 1 4 1 -4 20230102 2227)
+       ((emacs
+	 (28 1)))
+       "The Age Encryption Library" single
+       ((:commit . "0c94618fc10105da751007f90b44075f6e5d61ba")
+	(:authors
+	 ("Daiki Ueno" . "ueno@unixuser.org")
+	 ("Bas Alberts" . "bas@anti.computer"))
+	(:maintainer "Bas Alberts" . "bas@anti.computer")
+	(:keywords "data")
+	(:url . "https://github.com/anticomputer/age.el"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20180910 816)
 			     ((dash
@@ -14382,6 +14394,19 @@
 	       ((:commit . "4974ff9a83daf50f2f03dc0d6d00871296e088b0")
 		(:keywords "languages" "elixir")
 		(:url . "https://github.com/elixir-editors/emacs-elixir"))])
+ (elixir-ts-mode .
+		 [(1 0 1 -4 20230102 2134)
+		  ((emacs
+		    (29))
+		   (heex-ts-mode
+		    (1 0)))
+		  "Major mode for Elixir with tree-sitter support" single
+		  ((:commit . "cd8b6cab93e8ae55e1009eb64d1f830e3bb0c0e3")
+		   (:authors
+		    ("Wilhelm H Kirschbaum"))
+		   (:maintainer "Wilhelm H Kirschbaum")
+		   (:keywords "elixir" "languages" "tree-sitter")
+		   (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (elixir-yasnippets .
 		    [(0 0 1 1 -4 20150417 1239)
 		     ((yasnippet
@@ -16586,7 +16611,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20230108 955)
+       [(1 15 0 1 -4 20230108 2115)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -16594,7 +16619,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "e324f8daf152301fd59b045da2331da7497aaec4")
+	((:commit . "84bd6798c70fc43ebdfbb935586bd424e00fe057")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulations")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -21948,11 +21973,11 @@
 	  (:maintainer "Masafumi Oyamada" . "stillpedant@gmail.com")
 	  (:keywords "languages"))])
  (fzf .
-      [(0 0 2 1 -4 20230108 1324)
+      [(0 0 2 1 -4 20230108 2201)
        ((emacs
 	 (24 4)))
        "A front-end for fzf." single
-       ((:commit . "489780ef499111eccfae49a2174a5752bfe61b74")
+       ((:commit . "45b222f604703f88b4f316b3194cd3061008f1c9")
 	(:authors
 	 ("Bailey Ling"))
 	(:maintainer "Bailey Ling")
