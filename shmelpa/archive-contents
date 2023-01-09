@@ -8432,13 +8432,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 31 1 -4 20230108 1752)
+	  [(0 31 1 -4 20230109 1641)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (29 1 1 0)))
 	   "Consulting completing-read" tar
-	   ((:commit . "24cd25581ec269d26b664f278203a9c067023b4d")
+	   ((:commit . "83c007ac609cab2fe5179579f2c3ae3d4f0ed04d")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -10093,7 +10093,7 @@
 	  (:keywords "haskell" "tools")
 	  (:url . "https://github.com/jyp/dante"))])
  (dap-mode .
-	   [(0 7 1 -4 20230107 1728)
+	   [(0 7 1 -4 20230109 1849)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -10115,7 +10115,7 @@
 	     (lsp-docker
 	      (1 0 0)))
 	    "Debug Adapter Protocol mode" tar
-	    ((:commit . "6b3a915488faf9450a3a8044f15955105693e0a8")
+	    ((:commit . "0c2e32d727da99d26cd1e858d1037175ed344183")
 	     (:authors
 	      ("Ivan Yonchovski" . "yyoncho@gmail.com"))
 	     (:maintainer "Ivan Yonchovski" . "yyoncho@gmail.com")
@@ -13531,7 +13531,7 @@
 	       (:keywords "convenience" "languages")
 	       (:url . "https://github.com/yveszoundi/eglot-java"))])
  (eglot-jl .
-	   [(2 1 1 1 -4 20230106 1517)
+	   [(2 1 1 1 -4 20230109 1720)
 	    ((emacs
 	      (25 1))
 	     (eglot
@@ -13541,7 +13541,7 @@
 	     (cl-generic
 	      (1 0)))
 	    "Julia support for eglot" tar
-	    ((:commit . "b18dcd670ec19df0dd4001646363e549b5ed7342")
+	    ((:commit . "3e66d604b66a35290c686194de7cb39b113ab20a")
 	     (:authors
 	      ("Adam Beckmeyer" . "adam_git@thebeckmeyers.xyz"))
 	     (:maintainer "Adam Beckmeyer" . "adam_git@thebeckmeyers.xyz")
@@ -15770,13 +15770,15 @@
 	      (:keywords "extensions" "tools" "maint")
 	      (:url . "https://github.com/mhayashi1120/Emacs-erefactor"))])
  (ergoemacs-mode .
-		 [(5 16 10 12 1 -4 20220411 338)
+		 [(5 16 10 12 1 -4 20230109 1926)
 		  ((emacs
 		    (24 1))
 		   (cl-lib
-		    (0 5)))
+		    (0 5))
+		   ("nadvice"
+		    (0)))
 		  "Emacs mode based on common modern interface and ergonomics." tar
-		  ((:commit . "9cd89eef490f6c9f4af273bb3dd2c68d5ed2de61")
+		  ((:commit . "8b3c3eee91d4a1ebe4e2795f5b0c0e13a67395a4")
 		   (:authors
 		    ("Xah Lee" . "xah@xahlee.org")
 		    ("David Capello" . "davidcapello@gmail.com")
@@ -16611,7 +16613,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20230109 1013)
+       [(1 15 0 1 -4 20230109 1639)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -16619,7 +16621,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "67115c894f4be23bec843cacf0622500bb1b38e1")
+	((:commit . "a5ab49a49068b419f92de39ec046aa49aa80d3f1")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulations")
 	 (:url . "https://github.com/emacs-evil/evil"))])
