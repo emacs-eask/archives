@@ -929,11 +929,11 @@
 			(:keywords "abbrev" "convenience" "languages" "agda" "tools")
 			(:url . "https://github.com/alhassy/next-700-module-systems"))])
  (age .
-      [(0 1 4 1 -4 20230102 2227)
+      [(0 1 4 1 -4 20230109 2139)
        ((emacs
 	 (28 1)))
        "The Age Encryption Library" single
-       ((:commit . "0c94618fc10105da751007f90b44075f6e5d61ba")
+       ((:commit . "045c3f9127b431d4dd61e855b7d1c3fa92d6cf91")
 	(:authors
 	 ("Daiki Ueno" . "ueno@unixuser.org")
 	 ("Bas Alberts" . "bas@anti.computer"))
@@ -6931,13 +6931,13 @@
 		      (:maintainer "Jason Milkins")
 		      (:url . "https://github.com/emacsfodder/tmtheme-to-deftheme"))])
  (color-identifiers-mode .
-			 [(1 1 1 -4 20220629 1800)
+			 [(1 1 1 -4 20230109 1943)
 			  ((dash
 			    (2 5 0))
 			   (emacs
 			    (24)))
 			  "Color identifiers based on their names" single
-			  ((:commit . "caed36cc21b6a7f659dda8a3ace1a607daa30f6f")
+			  ((:commit . "5c2ea475023ee654cf207d2932f70cb7ee8c7724")
 			   (:authors
 			    ("Ankur Dave" . "ankurdave@gmail.com"))
 			   (:maintainer "Ankur Dave" . "ankurdave@gmail.com")
@@ -8432,13 +8432,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 31 1 -4 20230109 1641)
+	  [(0 31 1 -4 20230109 2217)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (29 1 1 0)))
 	   "Consulting completing-read" tar
-	   ((:commit . "83c007ac609cab2fe5179579f2c3ae3d4f0ed04d")
+	   ((:commit . "3119f692ac018471961bf503deeeb17119f92347")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -15770,7 +15770,7 @@
 	      (:keywords "extensions" "tools" "maint")
 	      (:url . "https://github.com/mhayashi1120/Emacs-erefactor"))])
  (ergoemacs-mode .
-		 [(5 16 10 12 1 -4 20230109 1926)
+		 [(5 16 10 12 1 -4 20230109 2029)
 		  ((emacs
 		    (24 1))
 		   (cl-lib
@@ -15778,7 +15778,7 @@
 		   ("nadvice"
 		    (0)))
 		  "Emacs mode based on common modern interface and ergonomics." tar
-		  ((:commit . "8b3c3eee91d4a1ebe4e2795f5b0c0e13a67395a4")
+		  ((:commit . "868382a650081fc22e84a45801500f1cba34cca0")
 		   (:authors
 		    ("Xah Lee" . "xah@xahlee.org")
 		    ("David Capello" . "davidcapello@gmail.com")
@@ -28076,14 +28076,16 @@
 			(:maintainer "Anders Lindgren")
 			(:keywords "tools"))])
  (himalaya .
-	   [(0 1 1 -4 20221007 1816)
+	   [(0 2 1 -4 20230109 2241)
 	    ((emacs
 	      (27 1)))
 	    "Interface for the himalaya email client" single
-	    ((:commit . "1735b55e4dd60c63fe3900e959655f1f8b961590")
+	    ((:commit . "dd90eed0780675baa0dd8f9e35fa0618561ba783")
 	     (:authors
-	      ("Dante Catalfamo"))
+	      ("Dante Catalfamo")
+	      ("soywod" . "clement.douin@posteo.net"))
 	     (:maintainer "Dante Catalfamo")
+	     (:keywords "mail" "comm")
 	     (:url . "https://github.com/dantecatalfamo/himalaya-emacs"))])
  (hindent .
 	  [(0 1 0 1 -4 20220625 444)
@@ -29007,11 +29009,11 @@
 					   (:keywords "convenience")
 					   (:url . "https://github.com/ignacy/idle-highlight-in-visible-buffers"))])
  (idle-highlight-mode .
-		      [(1 1 3 1 -4 20230109 536)
+		      [(1 1 3 1 -4 20230109 2313)
 		       ((emacs
 			 (27 1)))
 		       "Highlight the word the point is on" single
-		       ((:commit . "7ac07a330458e8917ac7524b6858eec32eea0192")
+		       ((:commit . "9fd6ecbcfa5c940e62720a489d799fd1588b3053")
 			(:authors
 			 ("Phil Hagelberg, Cornelius Mika, Campbell Barton"))
 			(:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -32197,7 +32199,7 @@
 	     (:keywords "convenience")
 	     (:url . "https://github.com/conao3/keg.el"))])
  (kele .
-       [(0 1 1 1 -4 20230109 1339)
+       [(0 1 1 1 -4 20230109 2211)
 	((emacs
 	  (27 1))
 	 (async
@@ -32215,7 +32217,7 @@
 	 (yaml
 	  (0 5 1)))
 	"Interface with Kubernetes" tar
-	((:commit . "e52fdc3177c1078b430321b453a4c51232537414")
+	((:commit . "60bc38389aca7821d5bd97e3923f7f1858926d92")
 	 (:authors
 	  ("Jonathan Jin" . "me@jonathanj.in"))
 	 (:maintainer "Jonathan Jin" . "me@jonathanj.in")
@@ -51799,11 +51801,11 @@
 		  (:keywords "convenience")
 		  (:url . "https://github.com/emacs-pe/scribble-mode"))])
  (scroll-on-drag .
-		 [(0 1 1 -4 20230109 855)
+		 [(0 1 1 -4 20230109 2302)
 		  ((emacs
 		    (26 2)))
 		  "Interactive scrolling" single
-		  ((:commit . "35aacce270a70e7174ae5e047b8f1fdf9c7e08dd")
+		  ((:commit . "bac9a6ce5da6e8745d85b04f6e8dc6984745c253")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -58510,11 +58512,11 @@
 		     (:maintainer "Jon-Michael Deldin" . "dev@jmdeldin.com")
 		     (:keywords "faces"))])
  (undo-fu .
-	  [(0 5 1 -4 20230109 543)
+	  [(0 5 1 -4 20230109 2256)
 	   ((emacs
 	     (25 1)))
 	   "Undo helper with redo" single
-	   ((:commit . "92fb6a9fc0d089d72218695ff7570ac3d2f6b864")
+	   ((:commit . "d59bba01de48a808a42d6e29e011ef641cdb6a77")
 	    (:authors
 	     ("Campbell Barton" . "ideasman42@gmail.com"))
 	    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
