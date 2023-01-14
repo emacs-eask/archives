@@ -36188,7 +36188,7 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/YiGeeker/masm-mode"))])
  (mastodon .
-	   [(1 0 0 1 -4 20230113 831)
+	   [(1 0 0 1 -4 20230114 1343)
 	    ((emacs
 	      (27 1))
 	     (request
@@ -36198,7 +36198,7 @@
 	     (ts
 	      (0 3)))
 	    "Client for Mastodon, a federated social network" tar
-	    ((:commit . "56fb980cb9e7cfc1e13e45312c964be8a0fd3e90")
+	    ((:commit . "480a1637007ff63792ae509f3659b2b7be2abb89")
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com")
 	      ("Marty Hiatt" . "martianhiatus@riseup.net"))
@@ -43705,9 +43705,9 @@
 	    (:keywords "org-mode" "convenience" "beautify")
 	    (:url . "https://github.com/tumashu/org2web"))])
  (organic-green-theme .
-		      [(0 1 0 1 -4 20230106 2340)
+		      [(0 1 0 1 -4 20230114 1204)
 		       nil "Low-contrast green color theme." single
-		       ((:commit . "bb0472993b8ffa6edcc8d787c18046b6fd3bac88"))])
+		       ((:commit . "8212471fdce8fe330ca6f8471e0b545c2f0fb519"))])
  (organize-imports-java .
 			[(0 3 0 1 -4 20220704 657)
 			 ((emacs
@@ -43943,11 +43943,13 @@
 	       (:keywords "comm")
 	       (:url . "https://github.com/atomontage/osa-chrome"))])
  (osm .
-      [(0 9 1 -4 20230112 1837)
+      [(0 9 1 -4 20230114 1331)
        ((emacs
-	 (27 1)))
+	 (27 1))
+	(compat
+	 (29 1 1 1)))
        "OpenStreetMap viewer" tar
-       ((:commit . "63426c9c032ef5bce406646de683205f2b851685")
+       ((:commit . "a786ea940b3d7befc3e8cc26c3550660b0e86811")
 	(:authors
 	 ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	(:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -48838,7 +48840,7 @@
 	 (:keywords "convenience")
 	 (:url . "https://github.com/ebanner/pynt"))])
  (pyramid .
-	  [(0 1 1 -4 20210427 1032)
+	  [(0 1 1 -4 20230114 1049)
 	   ((emacs
 	     (25 2))
 	    (pythonic
@@ -48846,7 +48848,7 @@
 	    (tablist
 	     (0 70)))
 	   "Minor mode for working with pyramid projects" tar
-	   ((:commit . "66f54f4a9cc9fa81edf768ab433d5b3c5517363c")
+	   ((:commit . "c8a8b36725d85664e74f59600fe5d18d06ea907d")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
 	    (:maintainer "Daniel Kraus" . "daniel@kraus.my")
