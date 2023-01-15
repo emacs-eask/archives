@@ -5027,13 +5027,13 @@
 	    (:keywords "convenience" "writing")
 	    (:url . "https://github.com/kisaragi-hiu/cangjie.el"))])
  (cape .
-       [(0 12 1 -4 20230113 1550)
+       [(0 12 1 -4 20230115 429)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 1 0)))
 	"Completion At Point Extensions" tar
-	((:commit . "bbc399e4724c86d80ee04c5d3af1567683c2b87c")
+	((:commit . "4a24927b5f0ca74dcd50ed29b316e020ba061781")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -6933,13 +6933,13 @@
 		      (:maintainer "Jason Milkins")
 		      (:url . "https://github.com/emacsfodder/tmtheme-to-deftheme"))])
  (color-identifiers-mode .
-			 [(1 1 1 -4 20230110 2257)
+			 [(1 1 1 -4 20230115 615)
 			  ((dash
 			    (2 5 0))
 			   (emacs
 			    (24)))
 			  "Color identifiers based on their names" single
-			  ((:commit . "c088af28484f84a6b728c561fce82a3359bd0fbe")
+			  ((:commit . "fec29e3fe147c739c90f5149cd7a93389f8e798e")
 			   (:authors
 			    ("Ankur Dave" . "ankurdave@gmail.com"))
 			   (:maintainer "Ankur Dave" . "ankurdave@gmail.com")
@@ -8434,13 +8434,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 31 1 -4 20230114 1619)
+	  [(0 31 1 -4 20230115 428)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (29 1 1 0)))
 	   "Consulting completing-read" tar
-	   ((:commit . "19055a962346d3d2293ab1a1c134f3f73b1813cb")
+	   ((:commit . "be2d8781d953afe471e311228e55ffebf5651b92")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -8982,13 +8982,13 @@
 		     (:keywords "convenience" "matching" "tools")
 		     (:url . "https://github.com/gexplorer/counsel-ag-popup"))])
  (counsel-at-point .
-		   [(0 1 1 -4 20230113 1254)
+		   [(0 1 1 -4 20230115 633)
 		    ((emacs
 		      (26 2))
 		     (counsel
 		      (0 13 0)))
 		    "Context sensitive project search" single
-		    ((:commit . "6a6d8749b511f7e1b2df7f368eb703dcc65d0d9a")
+		    ((:commit . "9a262a97374d16ab1d687e076baede0eaa3e53c2")
 		     (:authors
 		      ("Campbell Barton" . "ideasman42@gmail.com"))
 		     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -9934,13 +9934,13 @@
 	   (:keywords "files" "convenience" "buffer switching")
 	   (:url . "https://github.com/martinp26/cycbuf"))])
  (cycle-at-point .
-		 [(0 1 1 -4 20230113 1254)
+		 [(0 1 1 -4 20230115 633)
 		  ((emacs
 		    (28 1))
 		   (recomplete
 		    (0 2)))
 		  "Cycle (rotate) the thing under the cursor" tar
-		  ((:commit . "e85ae108ed5cee64dd80305dcc2e8e7934cc6d56")
+		  ((:commit . "24fdec928b58120f117717f1c50ade69db154d51")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -10928,21 +10928,21 @@
 	       (:keywords "convenience")
 	       (:url . "https://gitlab.com/kisaragi-hiu/didyoumean.el"))])
  (diff-ansi .
-	    [(0 2 1 -4 20230113 1254)
+	    [(0 2 1 -4 20230115 633)
 	     ((emacs
 	       (27 1)))
 	     "Display diff's using alternative diffing tools" single
-	     ((:commit . "f10837099d48454c470aa04a3803a8903d421d23")
+	     ((:commit . "5196771753b7b534fe00326b5b38b3e378451ee4")
 	      (:authors
 	       ("Campbell Barton" . "ideasman42@gmail.com"))
 	      (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 	      (:url . "https://codeberg.org/ideasman42/emacs-diff-ansi"))])
  (diff-at-point .
-		[(0 1 1 -4 20230113 1254)
+		[(0 1 1 -4 20230115 633)
 		 ((emacs
 		   (26 2)))
 		 "Diff navigation" single
-		 ((:commit . "f44782bac09f5f24254be0c1838050737c14a827")
+		 ((:commit . "89a373fe00e8cf7014f993ec2de33d558d048e3b")
 		  (:authors
 		   ("Campbell Barton" . "ideasman42@gmail.com"))
 		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -12069,11 +12069,11 @@
 	     (:keywords "dna" "emacs" "editing")
 	     (:url . "http://www.mahalito.net/~harley/elisp/dna-mode.el"))])
  (doc-show-inline .
-		  [(0 1 1 -4 20230113 1254)
+		  [(0 1 1 -4 20230115 633)
 		   ((emacs
 		     (27 1)))
 		   "Show doc-strings found in external files" single
-		   ((:commit . "9c7f489a41ab89400c888b1e9038fafe2944e95b")
+		   ((:commit . "c64c9e03d99662ee5777272c940ead171655ed9e")
 		    (:authors
 		     ("Campbell Barton" . "ideasman42@gmail.com"))
 		    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
