@@ -2286,6 +2286,16 @@
 		       (:maintainer "Berk D. Demir" . "bdd@mindcast.org")
 		       (:keywords "languages" "configuration")
 		       (:url . "https://github.com/bdd/aurora-config.el"))])
+ (auth-source-gopass .
+		     [(0 0 3 1 -4 20230109 1213)
+		      ((emacs
+			(24 4)))
+		      "Gopass integration for auth-source" single
+		      ((:commit . "6f7f0cc0d682f66d11f7fac4fa5c1e79904232da")
+		       (:authors
+			("Markus M. May" . "mmay@javafreedom.org"))
+		       (:maintainer "Markus M. May" . "mmay@javafreedom.org")
+		       (:url . "https://github.com/"))])
  (auth-source-keytar .
 		     [(0 1 3 1 -4 20221231 1654)
 		      ((emacs
@@ -3137,15 +3147,15 @@
 		 (:maintainer "Kaleb Elwert" . "belak@coded.io")
 		 (:url . "https://github.com/tinted-theming/base16-emacs"))])
  (bash-completion .
-		  [(3 1 0 1 -4 20220531 1104)
+		  [(3 1 1 1 -4 20230115 1847)
 		   ((emacs
-		     (24 3)))
-		   "BASH completion for the shell buffer" single
-		   ((:commit . "8e9c20dbfe01d8bf6c61db231593623a201c75c6")
+		     (25 3)))
+		   "Bash completion for the shell buffer" single
+		   ((:commit . "a021468eec8ff8cacb74a9ea595d3587186e29ea")
 		    (:authors
 		     ("Stephane Zermatten" . "szermatt@gmx.net"))
 		    (:maintainer "Stephane Zermatten" . "szermatt@gmail.com")
-		    (:keywords "shell" "bash" "bash-completion")
+		    (:keywords "convenience" "unix")
 		    (:url . "http://github.com/szermatt/emacs-bash-completion"))])
  (basic-c-compile .
 		  [(1 5 9 1 -4 20170302 1112)
@@ -14397,13 +14407,13 @@
 		(:keywords "languages" "elixir")
 		(:url . "https://github.com/elixir-editors/emacs-elixir"))])
  (elixir-ts-mode .
-		 [(1 0 1 -4 20230109 802)
+		 [(1 0 1 -4 20230115 1938)
 		  ((emacs
 		    (29))
 		   (heex-ts-mode
 		    (1 0)))
 		  "Major mode for Elixir with tree-sitter support" single
-		  ((:commit . "b243a71946654d3873e82ad3de2b2670e99d4340")
+		  ((:commit . "28bf45395684550678a5c6117919306452e667c7")
 		   (:authors
 		    ("Wilhelm H Kirschbaum"))
 		   (:maintainer "Wilhelm H Kirschbaum")
