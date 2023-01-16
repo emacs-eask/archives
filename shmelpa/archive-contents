@@ -14407,13 +14407,13 @@
 		(:keywords "languages" "elixir")
 		(:url . "https://github.com/elixir-editors/emacs-elixir"))])
  (elixir-ts-mode .
-		 [(1 0 1 -4 20230115 1938)
+		 [(1 0 1 -4 20230115 2005)
 		  ((emacs
 		    (29))
 		   (heex-ts-mode
 		    (1 0)))
 		  "Major mode for Elixir with tree-sitter support" single
-		  ((:commit . "28bf45395684550678a5c6117919306452e667c7")
+		  ((:commit . "c9aef25863433f14f569afaa0cb907b269a1e79d")
 		   (:authors
 		    ("Wilhelm H Kirschbaum"))
 		   (:maintainer "Wilhelm H Kirschbaum")
@@ -15497,17 +15497,19 @@
 	 (:keywords "tools")
 	 (:url . "https://github.com/emacscollective/epkg"))])
  (epkg-marginalia .
-		  [(0 1 0 1 -4 20230107 1537)
+		  [(0 1 0 1 -4 20230115 2300)
 		   ((emacs
 		     (27 1))
 		    (compat
 		     (28 1 1 0))
 		    (epkg
 		     (3 3 1))
+		    (llama
+		     (0 2 0))
 		    (marginalia
 		     (0 12)))
 		   "Show Epkg information in completion annotations" single
-		   ((:commit . "b99994d5b651640964b7106fa911c91a9e6ecc0d")
+		   ((:commit . "9939ddaf159c054fa00bc07cb73fd8d95229f10a")
 		    (:authors
 		     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -16625,7 +16627,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20230114 1957)
+       [(1 15 0 1 -4 20230115 2146)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -16633,7 +16635,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "29a5d464e973b66abae20e6c4b402a366547c7a5")
+	((:commit . "49fc382e97f1900c228749fa592fd31408d5eb51")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulations")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -18652,7 +18654,7 @@
 	    (:keywords "fingers" "modal" "editing" "workman")
 	    (:url . "http://github.com/fgeller/fingers.el"))])
  (finito .
-	 [(0 2 0 1 -4 20230115 1733)
+	 [(0 2 0 1 -4 20230115 2102)
 	  ((emacs
 	    (27 1))
 	   (dash
@@ -18670,7 +18672,7 @@
 	   (async
 	    (1 9 3)))
 	  "View and collect books" tar
-	  ((:commit . "5e20777922aafb6afc2ddac8f4a62cd0c1ed987d")
+	  ((:commit . "9103b1c4125fd0d91b05b9bf45d387980a498937")
 	   (:authors
 	    ("Laurence Warne"))
 	   (:maintainer "Laurence Warne")
@@ -24761,11 +24763,11 @@
 		     (:maintainer "Nicolas Petton" . "nicolas@petton.fr")
 		     (:keywords "convenience" "javascript"))])
  (gumshoe .
-	  [(2 0 1 -4 20220831 2055)
+	  [(2 0 1 -4 20230115 2105)
 	   ((emacs
 	     (25 1)))
 	   "Scoped spatial and temporal POINT movement tracking" tar
-	   ((:commit . "008e8fdec489a28e8cf807b3b511a9561c64268c")
+	   ((:commit . "0ada8c575d4e94b4f3edb0092239cfa835b17726")
 	    (:authors
 	     ("overdr0ne"))
 	    (:maintainer "overdr0ne")
@@ -29348,13 +29350,13 @@
 	    (:keywords "convenience")
 	    (:url . "https://github.com/imakado/emacs-imakado"))])
  (imake .
-	[(0 1 0 1 -4 20230107 1516)
+	[(0 1 0 1 -4 20230115 2230)
 	 ((emacs
 	   (25 1))
 	  (compat
 	   (28 1 1 0)))
 	 "Simple, opinionated make target runner" single
-	 ((:commit . "b4e915f5ef583a1fd628c62751766ea23e8dfb43")
+	 ((:commit . "428db7ea0589a7b53c992b58ece1fa223e91c157")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -32211,7 +32213,7 @@
 	     (:keywords "convenience")
 	     (:url . "https://github.com/conao3/keg.el"))])
  (kele .
-       [(0 2 0 1 -4 20230115 1541)
+       [(0 2 0 1 -4 20230115 2315)
 	((emacs
 	  (27 1))
 	 (async
@@ -32229,7 +32231,7 @@
 	 (yaml
 	  (0 5 1)))
 	"Spritzy Kubernetes cluster management" tar
-	((:commit . "4a212d0a2f631d79caf8db852dc669446f3ca20d")
+	((:commit . "c0abe726f7cf2407539c9279393a9f923ac6ede7")
 	 (:authors
 	  ("Jonathan Jin" . "me@jonathanj.in"))
 	 (:maintainer "Jonathan Jin" . "me@jonathanj.in")
@@ -43859,6 +43861,17 @@
 		       ("Michael Brand"))
 		      (:maintainer "Thierry Banel  tbanelwebmin at free dot fr")
 		      (:keywords "org" "table" "ascii" "plot"))])
+ (orgtbl-fit .
+	     [(1 0 1 -4 20230110 1544)
+	      ((emacs
+		(24 4)))
+	      "Regression-fit a column in an Org Mode table" single
+	      ((:commit . "5bde4902187b2578dc39ee3a02cd7c84c4470b8a")
+	       (:authors
+		("Thierry Banel tbanelwebmin at free dot fr"))
+	       (:maintainer "Thierry Banel tbanelwebmin at free dot fr")
+	       (:keywords "data" "extensions")
+	       (:url . "https://github.com/tbanel/orgtblfit/blob/master/README.org"))])
  (orgtbl-join .
 	      [(0 1 1 -4 20220928 1946)
 	       ((cl-lib
@@ -46894,18 +46907,6 @@
 			(:maintainer "Jeremiah Dodds" . "jeremiah.dodds@gmail.com")
 			(:keywords "languages" "games")
 			(:url . "https://github.com/jdodds/poe-lootfilter-mode"))])
- (poet-client .
-	      [(0 1 -1 1 -4 20190403 708)
-	       ((emacs
-		 (24 4))
-		(request
-		 (0 3 0)))
-	       "Client for po.et network api" single
-	       ((:commit . "38a9635cab4799224153f89ff47cf1b060fb3939")
-		(:authors
-		 ("W.Yahia"))
-		(:maintainer "W.Yahia")
-		(:url . "https://github.com/wailo/emacs-poet"))])
  (poet-theme .
 	     [(2 1 1 -4 20200606 2343)
 	      ((emacs
