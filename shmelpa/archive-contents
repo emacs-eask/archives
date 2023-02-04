@@ -8453,13 +8453,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 31 1 -4 20230202 1237)
+	  [(0 31 1 -4 20230204 1129)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (29 1 3 2)))
 	   "Consulting completing-read" tar
-	   ((:commit . "afce9bb88c74b5da3a18c90a8456d4386dd49319")
+	   ((:commit . "07b6a91f1a43e64e68b02dface961b839b6abcba")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -14287,11 +14287,11 @@
 	   (:keywords "lisp")
 	   (:url . "http://github.com/demyanrogozhin/elhome"))])
  (elisp-autofmt .
-		[(0 1 1 -4 20230203 3)
+		[(0 1 1 -4 20230204 1214)
 		 ((emacs
 		   (28 1)))
 		 "Emacs lisp auto-format" tar
-		 ((:commit . "cb9808b42041725290cbdda69e43174c38463cee")
+		 ((:commit . "a33340ccee2bed8aa15db6024721a29b1bffcd01")
 		  (:authors
 		   ("Campbell Barton" . "ideasman42@gmail.com"))
 		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -22785,17 +22785,17 @@
 		(:keywords "utility" "git")
 		(:url . "https://github.com/10sr/git-command-el"))])
  (git-commit .
-	     [(3 3 0 50 -4 20230103 2224)
+	     [(3 3 0 50 -4 20230204 1138)
 	      ((emacs
 		(25 1))
 	       (compat
-		(28 1 1 2))
+		(29 1 3 2))
 	       (transient
-		(20210920))
+		(20230201))
 	       (with-editor
-		(20211001)))
+		(20230118)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "f47b68929f01a1b8299f3160b0ab02d69d59fcb7")
+	      ((:commit . "bc00937dd78381efa07f39abd5d34c53ee500548")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -35371,23 +35371,23 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230203 1703)
+	[(3 3 0 50 -4 20230204 1138)
 	 ((emacs
 	   (25 1))
 	  (compat
-	   (29 1 1 0))
+	   (29 1 3 2))
 	  (dash
-	   (20210826))
+	   (20221013))
 	  (git-commit
-	   (20221127))
+	   (20230101))
 	  (magit-section
-	   (20221127))
+	   (20230101))
 	  (transient
-	   (20220325))
+	   (20230201))
 	  (with-editor
-	   (20220318)))
+	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "48d38df20c8c821272921e7f290e6162c57fdb3d")
+	 ((:commit . "bc00937dd78381efa07f39abd5d34c53ee500548")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -35653,15 +35653,15 @@
 		      (:keywords "magit" "vc")
 		      (:url . "http://github.com/jtamagnan/magit-reviewboard"))])
  (magit-section .
-		[(3 3 0 50 -4 20230106 1659)
+		[(3 3 0 50 -4 20230204 1138)
 		 ((emacs
 		   (25 1))
 		  (compat
-		   (28 1 1 2))
+		   (29 1 3 2))
 		  (dash
-		   (20210826)))
+		   (20221013)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "daed8848732a6be4cac35350caf25a16578ca6c0")
+		 ((:commit . "bc00937dd78381efa07f39abd5d34c53ee500548")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -37477,11 +37477,11 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(4 0 1 1 -4 20230203 705)
+	       [(4 0 1 1 -4 20230204 1253)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "2404de30c29ff0afca68a3b9d8badc483863b08f")
+		((:commit . "ca4d92aa0dd2046a06821281b12201bcaa95bb1d")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainer "Modus-Themes Development" . "~protesilaos/modus-themes@lists.sr.ht")
@@ -43293,11 +43293,11 @@
 		       (:maintainer "Akira Komamura" . "akira.komamura@gmail.com")
 		       (:url . "https://github.com/akirak/org-starter"))])
  (org-static-blog .
-		  [(1 6 0 1 -4 20230123 658)
+		  [(1 6 0 1 -4 20230204 1000)
 		   ((emacs
 		     (24 3)))
 		   "a simple org-mode based static blog generator" single
-		   ((:commit . "9d3dffddad4a7ebeb621e03ceb820ed0f1a09a4d")
+		   ((:commit . "99ee0c8261267a89708e3a9dd0e0d865e894f96e")
 		    (:authors
 		     ("Bastian Bechtold"))
 		    (:maintainer "Bastian Bechtold")
@@ -43985,11 +43985,11 @@
 	     (:keywords "lisp" "org" "org-mode" "bootstrap")
 	     (:url . "https://github.com/tgbugs/orgstrap"))])
  (orgtbl-aggregate .
-		   [(1 0 1 -4 20230124 1042)
+		   [(1 0 1 -4 20230204 1110)
 		    ((emacs
 		      (26 1)))
 		    "Create an aggregated Org table from another one" single
-		    ((:commit . "72b7d3f106ad84c339adc3f768cd1554ba786663")
+		    ((:commit . "5bec08af7240d188ea4c8ce47d25eb2f8809dc79")
 		     (:keywords "data" "extensions")
 		     (:url . "https://github.com/tbanel/orgaggregate/blob/master/README.org"))])
  (orgtbl-ascii-plot .
