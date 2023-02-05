@@ -13740,7 +13740,7 @@
 	     (:keywords "extensions")
 	     (:url . "https://github.com/radian-software/el-patch"))])
  (el-secretario .
-		[(0 0 1 1 -4 20220422 2005)
+		[(0 0 1 1 -4 20220426 1905)
 		 ((emacs
 		   (27 1))
 		  (org-ql
@@ -13748,7 +13748,7 @@
 		  (hercules
 		   (0 3)))
 		 "Unify all your inboxes with the Emacs secretary" tar
-		 ((:commit . "cc63663ff77b30c0eaf7b2724ddcd035a6b29d16")
+		 ((:commit . "575396ca689065188ad0f90c379d9bcf7ff6fc0b")
 		  (:authors
 		   ("Leo Okawa Ericson <http://github/Zetagon>"))
 		  (:maintainer "Leo" . "github@relevant-information.com")
@@ -13785,7 +13785,7 @@
 		       (:keywords "convenience" "mail")
 		       (:url . "https://git.sr.ht/~zetagon/el-secretario"))])
  (el-secretario-notmuch .
-			[(0 0 1 1 -4 20220426 1905)
+			[(0 0 1 1 -4 20220428 1058)
 			 ((emacs
 			   (27 1))
 			  (el-secretario
@@ -13793,7 +13793,7 @@
 			  (notmuch
 			   (0 3 1)))
 			 "Add notmuch inboxes to el-secretario" single
-			 ((:commit . "c28a4f42829ed1f96a17abb63a8616216db913a5")
+			 ((:commit . "c4e21ac5a9be2b2ea6cf7c153a6fae48c78a61b9")
 			  (:authors
 			   ("Leo Okawa Ericson <http://github/Zetagon>"))
 			  (:maintainer "Leo" . "github@relevant-information.com")
@@ -31995,7 +31995,7 @@
 	     (:keywords "jumplist" "vim")
 	     (:url . "https://github.com/ganmacs/jumplist"))])
  (jupyter .
-	  [(0 8 2 1 -4 20230204 212)
+	  [(0 8 2 1 -4 20230204 2258)
 	   ((emacs
 	     (26))
 	    (zmq
@@ -32007,7 +32007,7 @@
 	    (websocket
 	     (1 9)))
 	   "Jupyter" tar
-	   ((:commit . "14899664b601f39e59f62bdf9a180feb0f8ebff6")
+	   ((:commit . "16cbda79167b4e2f2c6b61b218658f0f660d97f9")
 	    (:authors
 	     ("Nathaniel Nicandro" . "nathanielnicandro@gmail.com"))
 	    (:maintainer "Nathaniel Nicandro" . "nathanielnicandro@gmail.com")
@@ -32783,6 +32783,16 @@
 		(:maintainer "Shodai Yokoyama" . "quantumcars@gmail.com")
 		(:keywords "languages")
 		(:url . "https://github.com/Emacs-Kotlin-Mode-Maintainers/kotlin-mode"))])
+ (kotlin-ts-mode .
+		 [(0 1 1 -4 20230119 1153)
+		  ((emacs
+		    (29)))
+		  "A mode for editing Kotlin files based on tree-sitter" single
+		  ((:commit . "28eb29a99a5f334e7e7c0e2f2ada23159f114bc5")
+		   (:authors
+		    ("Alex Figl-Brick" . "alex@alexbrick.me"))
+		   (:maintainer "Alex Figl-Brick" . "alex@alexbrick.me")
+		   (:url . "https://gitlab.com/bricka/emacs-kotlin-ts-mode"))])
  (kpm-list .
 	   [(1 0 1 -4 20170924 1352)
 	    nil "An emacs buffer list that tries to intelligently group together buffers." single
