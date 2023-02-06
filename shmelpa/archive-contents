@@ -3147,11 +3147,11 @@
 		 (:maintainer "Kaleb Elwert" . "belak@coded.io")
 		 (:url . "https://github.com/tinted-theming/base16-emacs"))])
  (bash-completion .
-		  [(3 1 1 1 -4 20230204 1434)
+		  [(3 1 1 1 -4 20230205 2239)
 		   ((emacs
 		     (25 3)))
 		   "Bash completion for the shell buffer" single
-		   ((:commit . "6a53b5ca827faae378e0049c135adc3ccdb0df3e")
+		   ((:commit . "639aba28fb26d735942f9877acfb9e67fc459658")
 		    (:authors
 		     ("Stephane Zermatten" . "szermatt@gmx.net"))
 		    (:maintainer "Stephane Zermatten" . "szermatt@gmail.com")
@@ -6952,13 +6952,13 @@
 		      (:maintainer "Jason Milkins")
 		      (:url . "https://github.com/emacsfodder/tmtheme-to-deftheme"))])
  (color-identifiers-mode .
-			 [(1 1 1 -4 20230205 1208)
+			 [(1 1 1 -4 20230205 2210)
 			  ((dash
 			    (2 5 0))
 			   (emacs
 			    (24)))
 			  "Color identifiers based on their names" single
-			  ((:commit . "65e5c8f6fcf13f32607054e54b412f137da67f5e")
+			  ((:commit . "a4aa1ca50ea59f342be33ac7f14eca5b59845603")
 			   (:authors
 			    ("Ankur Dave" . "ankurdave@gmail.com"))
 			   (:maintainer "Ankur Dave" . "ankurdave@gmail.com")
@@ -13655,6 +13655,19 @@
 	       (:maintainer "Dante Catalfamo")
 	       (:keywords "convenience" "languages" "tools")
 	       (:url . "https://github.com/dantecatalfamo/ejson-mode"))])
+ (ekg .
+      [(0 0 1 -4 20230204 2254)
+       ((triples
+	 (0 2 3))
+	(emacs
+	 (28 1)))
+       "A system for recording and linking information" single
+       ((:commit . "0866967de1aa1a7ced4167d2f025835e730f47d9")
+	(:authors
+	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
+	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
+	(:keywords "outlines" "hypermedia")
+	(:url . "https://github.com/ahyatt/ekg"))])
  (el-fetch .
 	   [(3 2 1 1 -4 20230101 1904)
 	    ((emacs
@@ -19560,6 +19573,21 @@
 		     ("J\303\274rgen H\303\266tzel" . "juergen@hoetzel.info"))
 		    (:maintainer "J\303\274rgen H\303\266tzel" . "juergen@hoetzel.info")
 		    (:keywords "languages" "convenience" "tools"))])
+ (flycheck-eglot .
+		 [(0 1 1 -4 20230202 1844)
+		  ((emacs
+		    (28 1))
+		   (eglot
+		    (1 9))
+		   (flycheck
+		    (32)))
+		  "Flycheck support for eglot" single
+		  ((:commit . "31905ad676d67fb2967a3b6d907312380696615f")
+		   (:authors
+		    ("Sergey Firsov" . "intramurz@gmail.com"))
+		   (:maintainer "Sergey Firsov" . "intramurz@gmail.com")
+		   (:keywords "convenience" "language" "tools")
+		   (:url . "https://github.com/intramurz/flycheck-eglot"))])
  (flycheck-eldev .
 		 [(1 1 1 -4 20210305 2231)
 		  ((flycheck
@@ -31302,6 +31330,19 @@
 		    ("Raymond Huang" . "rymndhng@gmail.com"))
 		   (:maintainer "Raymond Huang" . "rymndhng@gmail.com")
 		   (:url . "https://github.com/rymndhng/jest-test-mode.el"))])
+ (jet .
+      [(0 1 0 1 -4 20230130 39)
+       ((emacs
+	 (27 1))
+	(transient
+	 (0 3 7)))
+       "Emacs integration for jet Clojure tool" single
+       ((:commit . "156c9be37804c14a3560175549ccbb77443dd741")
+	(:authors
+	 ("Eric Dallo" . "ercdll1337@gmail.com"))
+	(:maintainer "Eric Dallo" . "ercdll1337@gmail.com")
+	(:keywords "tools")
+	(:url . "https://github.com/ericdallo/jet.el"))])
  (jetbrains .
 	    [(0 0 1 1 -4 20180301 502)
 	     ((emacs
@@ -33089,7 +33130,7 @@
 	   [(2 3 2 1 -4 20230129 304)
 	    ((emacs
 	      (24 3)))
-	    "Grammar check utility using LanguageTool" tar
+	    "Grammar check utility using LanguageTool" single
 	    ((:commit . "c4643526a81e35e7f5ef85f03d460b413505739f")
 	     (:authors
 	      ("Masahiro Hayashi" . "mhayashi1120@gmail.com"))
@@ -33108,6 +33149,19 @@
 			   ("Christopher Lloyd" . "cjl8zf@virginia.edu"))
 			  (:maintainer "Christopher Lloyd" . "cjl8zf@virginia.edu")
 			  (:url . "https://github.com/cjl8zf/langtool-ignore-fonts"))])
+ (langtool-popup .
+		 [(1 0 1 1 -4 20230129 304)
+		  ((emacs
+		    (24 3))
+		   (popup
+		    (20221231 1634)))
+		  "Popup message extension for langtool.el" single
+		  ((:commit . "c4643526a81e35e7f5ef85f03d460b413505739f")
+		   (:authors
+		    ("Masahiro Hayashi" . "mhayashi1120@gmail.com"))
+		   (:maintainer "Masahiro Hayashi" . "mhayashi1120@gmail.com")
+		   (:keywords "docs")
+		   (:url . "https://github.com/mhayashi1120/Emacs-langtool"))])
  (language-detection .
 		     [(0 1 0 1 -4 20161123 1813)
 		      ((emacs
@@ -41521,13 +41575,13 @@
 		(:maintainer "D. Williams" . "d.williams@posteo.net")
 		(:url . "https://github.com/integral-dw/org-bullets"))])
  (org-caldav .
-	     [(3 0 1 -4 20230120 2149)
+	     [(3 0 1 -4 20230205 2235)
 	      ((emacs
 		(26 3))
 	       (org
 		(9 1)))
 	      "Sync org files with external calendar through CalDAV" single
-	      ((:commit . "754989ae500b3f576bdb94fe2ef3059f12eaf7d7")
+	      ((:commit . "cc1b820773ccab9e3d8f584e96c14cdbb22cdb16")
 	       (:authors
 		("David Engster" . "deng@randomsample.de"))
 	       (:maintainer "Jack Kamm" . "jackkamm@tatersworld.org")
@@ -49157,11 +49211,11 @@
 		 (:keywords "languages")
 		 (:url . "https://github.com/wyuenho/emacs-python-isort"))])
  (python-mls .
-	     [(0 1 4 1 -4 20221125 1705)
+	     [(0 1 5 1 -4 20230205 2118)
 	      ((emacs
 		(27 1)))
 	      "Multi-line shell for (i)Python" single
-	      ((:commit . "55f198493b028153af04d2c6e56b40a42f76da78")
+	      ((:commit . "43892b9a9f245491aacc54c031aabe0944a9502d")
 	       (:authors
 		("J.D. Smith"))
 	       (:maintainer "J.D. Smith")
@@ -51698,6 +51752,19 @@
 	       (:maintainer "Krishna Thapa" . "thapakrish@gmail.com")
 	       (:keywords "convenience" "language" "samskrit" "sanskrit" "dictionary" "translation")
 	       (:url . "https://github.com/thapakrish/samskritam"))])
+ (sas-py .
+	 [(0 2 1 -4 20230131 523)
+	  ((emacs
+	    (28 1))
+	   (ess
+	    (18 10 1)))
+	  "SAS with SASPy" single
+	  ((:commit . "76a2226eb49ec37f211904c6395ee066bd440560")
+	   (:authors
+	    ("Shuguang Sun" . "shuguang79@qq.com"))
+	   (:maintainer "Shuguang Sun" . "shuguang79@qq.com")
+	   (:keywords "tools")
+	   (:url . "https://github.com/ShuguangSun/sas-py"))])
  (sass-mode .
 	    [(3 0 16 1 -4 20190502 53)
 	     ((haml-mode
@@ -55053,11 +55120,11 @@
 	      (:keywords "c" "languages" "tools")
 	      (:url . "https://github.com/tuhdo/semantic-refactor"))])
  (srfi .
-       [(0 3 0 1 -4 20230123 2301)
+       [(0 3 0 1 -4 20230205 2247)
 	((emacs
 	  (25 1)))
 	"Scheme Requests for Implementation browser" tar
-	((:commit . "204cdac0ad51a50d96bbe1a19ed2341b3b543943")
+	((:commit . "7e92ae3b4c4a7f3386bf1d7d620e5cd29e6e3b37")
 	 (:authors
 	  ("Lassi Kortela" . "lassi@lassi.io"))
 	 (:maintainer "Lassi Kortela" . "lassi@lassi.io")
@@ -57332,6 +57399,17 @@
 			 (:maintainer "Aim\303\251 Bertrand" . "aime.bertrand@macowners.club")
 			 (:keywords "faces" "themes")
 			 (:url . "https://gitlab.com/aimebertrand/timu-caribbean-theme"))])
+ (timu-macos-theme .
+		   [(1 2 1 -4 20230201 2203)
+		    ((emacs
+		      (27 1)))
+		    "Color theme inspired by the macOS UI" single
+		    ((:commit . "665c6e409c7d6a37575b3e64961b17ae3db18cb8")
+		     (:authors
+		      ("Aim\303\251 Bertrand" . "aime.bertrand@macowners.club"))
+		     (:maintainer "Aim\303\251 Bertrand" . "aime.bertrand@macowners.club")
+		     (:keywords "faces" "themes")
+		     (:url . "https://gitlab.com/aimebertrand/timu-macos-theme"))])
  (timu-rouge-theme .
 		   [(1 9 1 -4 20230102 1925)
 		    ((emacs
@@ -58032,13 +58110,13 @@
 		       (:maintainer "Erick Navarro" . "erick@navarro.io")
 		       (:url . "https://github.com/erickgnavar/tree-sitter-ispell.el"))])
  (tree-sitter-langs .
-		    [(0 12 15 1 -4 20230128 1459)
+		    [(0 12 16 1 -4 20230205 2032)
 		     ((emacs
 		       (25 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
-		     ((:commit . "1076cf2366be8ef1bd6fd7239f92f16cc0890fce")
+		     ((:commit . "d8f8ac4faeb4564fbb61e94a631b4672523d84a9")
 		      (:authors
 		       ("Tu\341\272\245n-Anh Nguy\341\273\205n" . "ubolonton@gmail.com"))
 		      (:maintainer "Tu\341\272\245n-Anh Nguy\341\273\205n" . "ubolonton@gmail.com")
