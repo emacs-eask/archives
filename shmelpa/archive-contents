@@ -13628,7 +13628,7 @@
 	       (:maintainer "Marian Schubert" . "marian.schubert@gmail.com")
 	       (:url . "http://github.com/maio/eink-emacs"))])
  (ejc-sql .
-	  [(0 4 1 1 -4 20221225 1527)
+	  [(0 4 1 1 -4 20230209 1734)
 	   ((emacs
 	     (26 3))
 	    (clomacs
@@ -13638,7 +13638,7 @@
 	    (spinner
 	     (1 7 3)))
 	   "Emacs SQL client uses Clojure JDBC." tar
-	   ((:commit . "c02e5c6c5bf98b62af456ddbc9f14bfd39f04333")
+	   ((:commit . "c1d68769861ee920cf0b2ae71ce2b6cac4313c73")
 	    (:authors
 	     ("Kostafey" . "kostafey@gmail.com"))
 	    (:maintainer "Kostafey" . "kostafey@gmail.com")
@@ -28185,14 +28185,16 @@
 			(:maintainer "Anders Lindgren")
 			(:keywords "tools"))])
  (himalaya .
-	   [(0 1 1 -4 20230128 1429)
+	   [(0 3 1 -4 20230209 1545)
 	    ((emacs
 	      (27 1)))
 	    "Interface for the himalaya email client" single
-	    ((:commit . "1e4b77833a3fcb67fd4c3a85ff290a8fb7724452")
+	    ((:commit . "712bb410afd4cd43d3a8e9bcf2b1930dcde7000c")
 	     (:authors
-	      ("Dante Catalfamo"))
+	      ("Dante Catalfamo")
+	      ("soywod" . "clement.douin@posteo.net"))
 	     (:maintainer "Dante Catalfamo")
+	     (:keywords "mail" "comm")
 	     (:url . "https://github.com/dantecatalfamo/himalaya-emacs"))])
  (hindent .
 	  [(0 1 0 1 -4 20220625 444)
@@ -41323,11 +41325,11 @@
 	 (:keywords "org" "convenience")
 	 (:url . "https://github.com/abo-abo/orca"))])
  (orderless .
-	    [(1 0 1 -4 20230129 1808)
+	    [(1 0 1 -4 20230209 1859)
 	     ((emacs
 	       (26 1)))
 	     "Completion style for matching regexps in any order" tar
-	     ((:commit . "ae849b3d9f8c8a777e05816321ed2b00e8304447")
+	     ((:commit . "d09aab37951b25627b96660f429eaec969d16d8a")
 	      (:authors
 	       ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	      (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
