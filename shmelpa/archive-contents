@@ -14708,7 +14708,7 @@
 	    (:keywords "html" "hypermedia" "tools" "webscale")
 	    (:url . "https://github.com/AdamNiederer/elquery"))])
  (elsa .
-       [(0 1 0 1 -4 20230207 1358)
+       [(0 1 0 1 -4 20230211 1636)
 	((trinary
 	  (1 0 0))
 	 (emacs
@@ -14722,7 +14722,7 @@
 	 (cl-lib
 	  (0 3)))
 	"Emacs Lisp Static Analyser" tar
-	((:commit . "d058d568a344b4b198e4289df27b521857779780")
+	((:commit . "85f5dae6c5468687648dbd3554e37b3da1cb8962")
 	 (:authors
 	  ("Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com"))
 	 (:maintainer "Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com")
@@ -16724,7 +16724,7 @@
 			    (:keywords "evil" "vim" "motion")
 			    (:url . "https://github.com/yourfin/evil-better-visual-line"))])
  (evil-cleverparens .
-		    [(0 1 0 1 -4 20230208 2249)
+		    [(0 1 0 1 -4 20230211 1624)
 		     ((evil
 		       (1 0))
 		      (paredit
@@ -16736,7 +16736,7 @@
 		      (dash
 		       (2 12 0)))
 		     "Evil friendly minor-mode for editing lisp." tar
-		     ((:commit . "46e3768d76d66fd67bf0299f058ecac13b8564fa")
+		     ((:commit . "63a180238b33f0a7f2c8ae0733069e704bff85da")
 		      (:authors
 		       ("Olli Piepponen" . "opieppo@gmail.com"))
 		      (:maintainer "Olli Piepponen" . "opieppo@gmail.com")
@@ -19629,13 +19629,13 @@
 		 (:maintainer "Brian Sermons")
 		 (:url . "https://github.com/bsermons/flycheck-elm"))])
  (flycheck-elsa .
-		[(1 0 0 1 -4 20220523 1105)
+		[(1 0 0 1 -4 20230211 1720)
 		 ((emacs
 		   (25))
 		  (seq
 		   (2 0)))
 		 "Flycheck for Elsa." tar
-		 ((:commit . "39c486096d76344f3045e69620b277ee34b6e5e8")
+		 ((:commit . "b3c81d9b64e805bdc9e72798212a07cc07ccc1ef")
 		  (:authors
 		   ("Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com"))
 		  (:maintainer "Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com")
@@ -22813,17 +22813,17 @@
 		(:keywords "utility" "git")
 		(:url . "https://github.com/10sr/git-command-el"))])
  (git-commit .
-	     [(3 3 0 50 -4 20230206 2135)
+	     [(3 3 0 50 -4 20230211 1642)
 	      ((emacs
 		(25 1))
 	       (compat
-		(29 1 3 2))
+		(29 1 3 3))
 	       (transient
 		(20230201))
 	       (with-editor
 		(20230118)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "6d325d90ba1374d48c4c7088f96864b678155f48")
+	      ((:commit . "2c583fd8ace1c9552f9991d0a7b1370ca1679869")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -24496,11 +24496,11 @@
 		 (:keywords "languages")
 		 (:url . "https://github.com/davazp/graphql-mode"))])
  (graphviz-dot-mode .
-		    [(0 4 2 1 -4 20230211 1123)
+		    [(0 4 2 1 -4 20230211 1551)
 		     ((emacs
 		       (25 0)))
 		     "Mode for the dot-language used by graphviz (att)." single
-		     ((:commit . "545493ce93fc1ea3107a2fbfabc4addf34287a35")
+		     ((:commit . "19d08c6d2af26bbdf479eb068150ee16b06bbeec")
 		      (:maintainer "Pieter Pareit" . "pieter.pareit@gmail.com")
 		      (:keywords "mode" "dot" "dot-language" "dotlanguage" "graphviz" "graphs" "att")
 		      (:url . "https://ppareit.github.io/graphviz-dot-mode/"))])
@@ -29942,9 +29942,11 @@
        ((:commit . "d50fe629497d51c6390a56bbded1ad77ce12e5af")
 	(:url . "https://github.com/EsaLaine/ini.el"))])
  (ini-mode .
-	   [(0 0 6 1 -4 20170424 909)
-	    nil "Major mode for Windows-style ini files." single
-	    ((:commit . "2194cfa2fd13196a37350ec20b3f00dcf6162b7c")
+	   [(0 0 7 1 -4 20230211 1512)
+	    ((emacs
+	      (24 1)))
+	    "Major mode for Windows-style ini files." single
+	    ((:commit . "5472abc94e564edc6b469c48d2324519a044a77c")
 	     (:authors
 	      ("Anders Lindgren"))
 	     (:maintainer "Anders Lindgren")
@@ -34925,7 +34927,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20230206 1806)
+	   [(8 0 1 1 -4 20230211 1732)
 	    ((emacs
 	      (26 3))
 	     (dash
@@ -34943,7 +34945,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "781889628b9e0504fde279371548149deae4849d")
+	    ((:commit . "99357031e0ea02bcee8e2ad3a926ab75488c67f1")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -35439,11 +35441,11 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230210 2323)
+	[(3 3 0 50 -4 20230211 1642)
 	 ((emacs
 	   (25 1))
 	  (compat
-	   (29 1 3 2))
+	   (29 1 3 3))
 	  (dash
 	   (20221013))
 	  (git-commit
@@ -35455,7 +35457,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "467bb21f7d773433a50ac6a89087b6c2b41ab86d")
+	 ((:commit . "2c583fd8ace1c9552f9991d0a7b1370ca1679869")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -35721,15 +35723,15 @@
 		      (:keywords "magit" "vc")
 		      (:url . "http://github.com/jtamagnan/magit-reviewboard"))])
  (magit-section .
-		[(3 3 0 50 -4 20230206 1143)
+		[(3 3 0 50 -4 20230211 1642)
 		 ((emacs
 		   (25 1))
 		  (compat
-		   (29 1 3 2))
+		   (29 1 3 3))
 		  (dash
 		   (20221013)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "9f237fbf5defbe7522b72862f169a0d4b8e917b7")
+		 ((:commit . "2c583fd8ace1c9552f9991d0a7b1370ca1679869")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
