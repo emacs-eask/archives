@@ -40976,6 +40976,19 @@
 	       (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	       (:keywords "hypermedia" "mail")
 	       (:url . "https://git.sr.ht/~tarsius/ol-notmuch"))])
+ (ol-tmsu .
+	  [(0 9 1 -4 20230207 1457)
+	   ((emacs
+	     (28 1))
+	    (tmsu
+	     (0 9)))
+	   "Org-mode links to TMSU queries" single
+	   ((:commit . "9672d193a51f2848696445528de757aa21b2b686")
+	    (:authors
+	     ("Wojciech Siewierski"))
+	    (:maintainer "Wojciech Siewierski")
+	    (:keywords "files" "outlines" "hypermedia")
+	    (:url . "https://github.com/vifon/tmsu.el"))])
  (olc .
       [(1 5 1 1 -4 20200818 1221)
        ((emacs
@@ -42091,6 +42104,17 @@
 	     ("Aldric Giacomoni" . "trevoke@gmail.com"))
 	    (:maintainer "Aldric Giacomoni" . "trevoke@gmail.com")
 	    (:url . "https://github.com/Trevoke/org-gtd.el"))])
+ (org-habit-stats .
+		  [(0 1 1 -4 20230210 1859)
+		   ((emacs
+		     (25 1)))
+		   "Display info about habits" single
+		   ((:commit . "0e28b1c1ba330d7d07064a7272104f7e793be4ce")
+		    (:authors
+		     ("ml729"))
+		    (:maintainer "ml729")
+		    (:keywords "calendar" "org-mode" "org-habit" "habits" "stats" "statistics" "charts" "graphs")
+		    (:url . "https://github.com/ml729/org-habit-stats/"))])
  (org-hyperscheduler .
 		     [(1 0 1 -4 20220704 2140)
 		      ((emacs
@@ -45077,11 +45101,11 @@
 	     (:keywords "extensions" "tools")
 	     (:url . "https://github.com/zenspider/package"))])
  (package-build .
-		[(4 0 0 50 -4 20230206 1931)
+		[(4 0 0 50 -4 20230211 1921)
 		 ((emacs
 		   (26 1)))
 		 "Tools for assembling a package archive" tar
-		 ((:commit . "10e8518f14e343e63251b4385206037ab6e1bf87")
+		 ((:commit . "676cd5082f6d267666fe77027ac8d63bf5b35ce8")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		   ("Steve Purcell" . "steve@sanityinc.com")
