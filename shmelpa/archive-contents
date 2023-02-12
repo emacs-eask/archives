@@ -875,16 +875,16 @@
 	(:keywords "data" "tools")
 	(:url . "https://github.com/Sauermann/emacs-aes"))])
  (affe .
-       [(0 5 1 -4 20230206 1719)
+       [(0 5 1 -4 20230212 23)
 	((emacs
 	  (27 1))
 	 (consult
 	  (0 32)))
 	"Asynchronous Fuzzy Finder for Emacs" tar
-	((:commit . "8a24f1b01f95583de2efa56c33ca49bfe04dfe3e")
+	((:commit . "76f49ab2f71e33d41d2789c08b55ad33d02d7f1f")
 	 (:authors
-	  ("Daniel Mendler"))
-	 (:maintainer "Daniel Mendler")
+	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
+	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	 (:url . "https://github.com/minad/affe"))])
  (afternoon-theme .
 		  [(0 1 1 -4 20140104 1859)
@@ -8553,7 +8553,7 @@
 		  (:keywords "tools" "completion" "lsp")
 		  (:url . "https://github.com/mohkale/consult-eglot"))])
  (consult-flycheck .
-		   [(0 9 1 -4 20230206 1707)
+		   [(0 9 1 -4 20230212 26)
 		    ((emacs
 		      (27 1))
 		     (consult
@@ -8561,7 +8561,7 @@
 		     (flycheck
 		      (32)))
 		    "Provides the command `consult-flycheck'" single
-		    ((:commit . "51b1b48e8dad314f9c9d963376f2ea8de94b97f2")
+		    ((:commit . "c371996c571b7139ef4d9a8db142bf37a7ee826b")
 		     (:authors
 		      ("Daniel Mendler and Consult contributors"))
 		     (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -13040,13 +13040,13 @@
 	(:maintainer "Alexey Kutepov" . "reximkut@gmail.com")
 	(:url . "http://github.com/rexim/ebf"))])
  (ebib .
-       [(2 39 1 -4 20221209 1456)
+       [(2 39 1 -4 20230211 2228)
 	((parsebib
 	  (4 0))
 	 (emacs
 	  (26 1)))
 	"a BibTeX database manager" tar
-	((:commit . "56c2d15d9eb796108b3105e17904c0e730f6247b")
+	((:commit . "abe6ed461b334673001b930f7e30752aa8aff526")
 	 (:authors
 	  ("Joost Kremers" . "joostkremers@fastmail.fm"))
 	 (:maintainer "Joost Kremers" . "joostkremers@fastmail.fm")
@@ -14708,7 +14708,7 @@
 	    (:keywords "html" "hypermedia" "tools" "webscale")
 	    (:url . "https://github.com/AdamNiederer/elquery"))])
  (elsa .
-       [(0 1 0 1 -4 20230211 1636)
+       [(0 1 0 1 -4 20230211 2259)
 	((trinary
 	  (1 0 0))
 	 (emacs
@@ -14722,7 +14722,7 @@
 	 (cl-lib
 	  (0 3)))
 	"Emacs Lisp Static Analyser" tar
-	((:commit . "85f5dae6c5468687648dbd3554e37b3da1cb8962")
+	((:commit . "5d25e711b38a8741ffa601dcb9f6cc4ebe5291f6")
 	 (:authors
 	  ("Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com"))
 	 (:maintainer "Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com")
@@ -57544,6 +57544,17 @@
 	 (:maintainer "Ono Hiroko" . "azazabc123@gmail.com")
 	 (:keywords "tools" "docs")
 	 (:url . "https://github.com/kuanyui/tldr.el"))])
+ (tmsu .
+       [(0 9 1 -4 20230207 1438)
+	((emacs
+	  (28 1)))
+	"A basic TMSU interface" tar
+	((:commit . "26fb81d2667c88bef4f571c87bd9842d1be21234")
+	 (:authors
+	  ("Wojciech Siewierski"))
+	 (:maintainer "Wojciech Siewierski")
+	 (:keywords "files")
+	 (:url . "https://github.com/vifon/tmsu.el"))])
  (tmux-pane .
 	    [(0 1 1 -4 20200730 520)
 	     ((names
