@@ -14708,7 +14708,7 @@
 	    (:keywords "html" "hypermedia" "tools" "webscale")
 	    (:url . "https://github.com/AdamNiederer/elquery"))])
  (elsa .
-       [(0 1 0 1 -4 20230212 1959)
+       [(0 1 0 1 -4 20230213 1301)
 	((trinary
 	  (1 0 0))
 	 (emacs
@@ -14722,7 +14722,7 @@
 	 (cl-lib
 	  (0 3)))
 	"Emacs Lisp Static Analyser" tar
-	((:commit . "eda99f0653e7cb08dff4ead0f7c1fbfd0b847ce6")
+	((:commit . "f9cb6aa6fb97dd1ca17d0c1a429a7d3912c9b588")
 	 (:authors
 	  ("Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com"))
 	 (:maintainer "Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com")
@@ -15512,7 +15512,7 @@
 	  (:keywords "comm" "processes" "terminals" "unix")
 	  (:url . "https://github.com/sean-hut/eping"))])
  (epkg .
-       [(0 1 0 1 -4 20230212 2018)
+       [(0 1 0 1 -4 20230212 2129)
 	((emacs
 	  (25 1))
 	 (compat
@@ -15522,7 +15522,7 @@
 	 (llama
 	  (0 2 0)))
 	"Browse the Emacsmirror package database" tar
-	((:commit . "c101e3458fb458f6a57dc811966e28df3fe06c2a")
+	((:commit . "f65b03df2da887c45984b4a4252548e8bb7a3ab4")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -16724,7 +16724,7 @@
 			    (:keywords "evil" "vim" "motion")
 			    (:url . "https://github.com/yourfin/evil-better-visual-line"))])
  (evil-cleverparens .
-		    [(0 1 0 1 -4 20230211 2304)
+		    [(0 1 0 1 -4 20230213 1051)
 		     ((evil
 		       (1 0))
 		      (paredit
@@ -16736,7 +16736,7 @@
 		      (dash
 		       (2 12 0)))
 		     "Evil friendly minor-mode for editing lisp." tar
-		     ((:commit . "8936d2edfca90d39c53e5217afd0bbb9273a82e5")
+		     ((:commit . "e4c753a9c74d5d4b7b06cb6fb5442b6b309b6793")
 		      (:authors
 		       ("Olli Piepponen" . "opieppo@gmail.com"))
 		      (:maintainer "Olli Piepponen" . "opieppo@gmail.com")
@@ -21482,11 +21482,11 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 3 2 50 -4 20230116 1714)
+	[(0 3 2 50 -4 20230213 1115)
 	 ((emacs
 	   (25 1))
 	  (compat
-	   (28 1 1 0))
+	   (29 1 3 4))
 	  (closql
 	   (1 2 0))
 	  (dash
@@ -21506,7 +21506,7 @@
 	  (yaml
 	   (0 3 5)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "ff74fd63a98d0a57fdebcfeed6459cf9bb5d79f9")
+	 ((:commit . "0db3e938b60cf809e321cff2b958e2b7db477f69")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -22066,13 +22066,13 @@
 	      (:keywords "files")
 	      (:url . "https://github.com/theBlackDragon/fvwm-mode"))])
  (fwb-cmds .
-	   [(0 1 0 1 -4 20230107 1514)
+	   [(0 1 0 1 -4 20230213 1143)
 	    ((emacs
 	      (25 1))
 	     (compat
-	      (28 1 1 0)))
+	      (29 1 3 4)))
 	    "misc frame, window and buffer commands" single
-	    ((:commit . "e51f92020cf7ed41fe2504e19c58788bd69c2b14")
+	    ((:commit . "1b375c6890de61eaccc97c92f2b46de6f9205417")
 	     (:authors
 	      ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	     (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -22647,17 +22647,17 @@
 	(:maintainer "Roman Coedo" . "romancoedo@gmail.com")
 	(:keywords "ghq"))])
  (ghub .
-       [(3 5 6 50 -4 20230210 420)
+       [(3 5 6 50 -4 20230212 2209)
 	((emacs
 	  (25 1))
 	 (compat
-	  (28 1 1 0))
+	  (29 1 3 4))
 	 (let-alist
 	     (1 0 6))
 	 (treepy
 	  (0 1 1)))
 	"Client libraries for Git forge APIs." tar
-	((:commit . "35c92984b49449ebd17e050b77b5b94bb07b853c")
+	((:commit . "47b7dc9bb299d50647cd24efebaf41dbc07d9e90")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -22825,17 +22825,17 @@
 		(:keywords "utility" "git")
 		(:url . "https://github.com/10sr/git-command-el"))])
  (git-commit .
-	     [(3 3 0 50 -4 20230211 1642)
+	     [(3 3 0 50 -4 20230212 2216)
 	      ((emacs
 		(25 1))
 	       (compat
-		(29 1 3 3))
+		(29 1 3 4))
 	       (transient
 		(20230201))
 	       (with-editor
 		(20230118)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "2c583fd8ace1c9552f9991d0a7b1370ca1679869")
+	      ((:commit . "756a4de1c408ee750405d323659406802e4c7fed")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -22997,11 +22997,13 @@
 		  (:maintainer "Neil Okamoto")
 		  (:url . "https://github.com/emacsorphanage/git-messenger"))])
  (git-modes .
-	    [(1 4 0 50 -4 20230107 1515)
+	    [(1 4 0 50 -4 20230212 2212)
 	     ((emacs
-	       (25 1)))
+	       (25 1))
+	      (compat
+	       (29 1 3 4)))
 	     "Major modes for editing Git configuration files" tar
-	     ((:commit . "06d64023445e40f1387f1156631f9e00c74b6317")
+	     ((:commit . "f0a0154bf48dd1c0c587596cf4cfd3c90f673a05")
 	      (:authors
 	       ("Sebastian Wiesner" . "lunaryorn@gmail.com")
 	       ("R\303\274diger Sonderfeld" . "ruediger@c-plusplus.net")
@@ -28364,13 +28366,13 @@
 		(:keywords "highlighting")
 		(:url . "http://github.com/milkypostman/hl-sentence"))])
  (hl-todo .
-	  [(0 1 0 1 -4 20230212 2017)
+	  [(0 1 0 1 -4 20230212 2213)
 	   ((emacs
 	     (25 1))
 	    (compat
 	     (29 1 3 4)))
 	   "Highlight TODO and similar keywords" single
-	   ((:commit . "29106498307788c58fdd59e05735b4d983cb45d8")
+	   ((:commit . "13034b2709b22631772ef24d08f8a16bfa06bc34")
 	    (:authors
 	     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -32498,13 +32500,13 @@
 	     ("Ryan Yeske, Michal Nazarewicz (mina86/AT/mina86.com)"))
 	    (:maintainer "David Capello, Xah lee"))])
  (keymap-utils .
-	       [(0 1 0 1 -4 20230210 2319)
+	       [(0 1 0 1 -4 20230213 1152)
 		((emacs
 		  (25 1))
 		 (compat
-		  (28 1 1 0)))
+		  (29 1 3 4)))
 		"Keymap utilities" single
-		((:commit . "d5c4bf965198105d6734f0346f665f83de147159")
+		((:commit . "1806ff73b0a68e84234d65c7d08a18cf3f0d29e5")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -35455,11 +35457,11 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230211 1642)
+	[(3 3 0 50 -4 20230212 2216)
 	 ((emacs
 	   (25 1))
 	  (compat
-	   (29 1 3 3))
+	   (29 1 3 4))
 	  (dash
 	   (20221013))
 	  (git-commit
@@ -35471,7 +35473,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "2c583fd8ace1c9552f9991d0a7b1370ca1679869")
+	 ((:commit . "756a4de1c408ee750405d323659406802e4c7fed")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -35737,15 +35739,15 @@
 		      (:keywords "magit" "vc")
 		      (:url . "http://github.com/jtamagnan/magit-reviewboard"))])
  (magit-section .
-		[(3 3 0 50 -4 20230211 1642)
+		[(3 3 0 50 -4 20230212 2216)
 		 ((emacs
 		   (25 1))
 		  (compat
-		   (29 1 3 3))
+		   (29 1 3 4))
 		  (dash
 		   (20221013)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "2c583fd8ace1c9552f9991d0a7b1370ca1679869")
+		 ((:commit . "756a4de1c408ee750405d323659406802e4c7fed")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
