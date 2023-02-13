@@ -18488,6 +18488,18 @@
 		  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
 		  (:keywords "multimedia" "video" "ffmpeg" "buffering" "images")
 		  (:url . "https://github.com/jcs-elpa/ffmpeg-player"))])
+ (ffmpeg-utils .
+	       [(0 1 1 -4 20230212 55)
+		((emacs
+		  (25 1))
+		 (alert
+		  (1 2))
+		 (transient
+		  (0 1 0)))
+		"FFmpeg command utilities wrappers" single
+		((:commit . "7ae311d235514b7b5bf12dc2c214856856c2c411")
+		 (:keywords "multimedia")
+		 (:url . "https://repo.or.cz/ffmpeg-utils.git"))])
  (fic-mode .
 	   [(0 1 0 1 -4 20180603 2035)
 	    nil "Show FIXME/TODO/BUG(...) in special face only in comments and strings" single
@@ -36713,11 +36725,11 @@
 	   (:keywords "comm" "processes" "bittorrent")
 	   (:url . "https://github.com/skangas/mentor"))])
  (meow .
-       [(1 4 2 1 -4 20230207 234)
+       [(1 4 2 1 -4 20230213 200)
 	((emacs
 	  (27 1)))
 	"Yet Another modal editing" tar
-	((:commit . "1994d6b614e31dc226a24ec872e9c8d982cb7418")
+	((:commit . "1e69067c1647ea634c87c021c5acf4a81152f4b2")
 	 (:authors
 	  ("Shi Tianshu"))
 	 (:maintainer "Shi Tianshu")
