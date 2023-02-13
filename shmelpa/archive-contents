@@ -5254,11 +5254,11 @@
 	    (:keywords "comm" "hardware")
 	    (:url . "https://bitbucket.org/pymaximus/catmacs"))])
  (catppuccin-theme .
-		   [(1 0 0 1 -4 20230210 1643)
+		   [(1 0 0 1 -4 20230213 1519)
 		    ((emacs
 		      (25 1)))
 		    "Catppuccin for Emacs - \360\237\215\204 Soothing pastel theme for Emacs" tar
-		    ((:commit . "c8a779a74ccbf4e4bd942c1c306ad79d66f4d9ab")
+		    ((:commit . "c80c0b83d6d1571b201212a2630c4d3da7f060d0")
 		     (:authors
 		      ("nyxkrage"))
 		     (:maintainer "Carsten Kragelund" . "carsten@kragelund.me")
@@ -8536,7 +8536,7 @@
 		(:keywords "convenience")
 		(:url . "https://github.com/karthink/consult-dir"))])
  (consult-eglot .
-		[(0 2 1 -4 20230204 1550)
+		[(0 2 1 -4 20230213 1359)
 		 ((emacs
 		   (27 1))
 		  (eglot
@@ -8546,7 +8546,7 @@
 		  (project
 		   (0 3 0)))
 		 "A consulting-read interface for eglot" single
-		 ((:commit . "a577cac39800ec3d5d3461f405eebe6913ec38d6")
+		 ((:commit . "6504ccd2b7555452c61cc24a45965f7e2a37c44d")
 		  (:authors
 		   ("mohsin kaleem" . "mohkale@kisara.moe"))
 		  (:maintainer "Mohsin Kaleem")
@@ -12670,9 +12670,9 @@
 		(:keywords "dummyparens" "auto-pair" "wrapping")
 		(:url . "https://github.com/snosov1/dummyparens"))])
  (dune .
-       [(1 0 1 -4 20220805 1652)
+       [(1 0 1 -4 20230213 1556)
 	nil "Integration with the dune build system" tar
-	((:commit . "3df932f7f91ea68c3fee789f133b4aa8f9bea807")
+	((:commit . "b9c27038fbf0d69e173e5f045b688d00eb47796b")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -14427,13 +14427,13 @@
 		(:keywords "languages" "elixir")
 		(:url . "https://github.com/elixir-editors/emacs-elixir"))])
  (elixir-ts-mode .
-		 [(1 0 1 -4 20230210 1231)
+		 [(1 0 1 -4 20230213 1240)
 		  ((emacs
 		    (29))
 		   (heex-ts-mode
 		    (1 0)))
 		  "Major mode for Elixir with tree-sitter support" single
-		  ((:commit . "ab0d896dca6362f49210f12e26b3750e9735334c")
+		  ((:commit . "55d2a73fc5aeb550fcc82deedd40c91f0416e9e5")
 		   (:authors
 		    ("Wilhelm H Kirschbaum"))
 		   (:maintainer "Wilhelm H Kirschbaum")
@@ -16771,7 +16771,7 @@
 			 (:keywords "colemak" "evil")
 			 (:url . "https://github.com/bmallred/evil-colemak-minimal"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20230128 650)
+		  [(0 4 1 1 -4 20230213 1715)
 		   ((emacs
 		     (26 3))
 		    (evil
@@ -16779,7 +16779,7 @@
 		    (annalist
 		     (1 0)))
 		   "A set of keybindings for Evil mode" tar
-		   ((:commit . "85743099972bfcc4d7788db70dfe33e864eba090")
+		   ((:commit . "692fb0fc8678c555e26961dea1db5df37e151cf6")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainer "James Nguyen" . "james@jojojames.com")
@@ -31349,13 +31349,13 @@
 		   (:maintainer "Raymond Huang" . "rymndhng@gmail.com")
 		   (:url . "https://github.com/rymndhng/jest-test-mode.el"))])
  (jet .
-      [(0 1 0 1 -4 20230130 39)
+      [(1 0 0 1 -4 20230213 1615)
        ((emacs
 	 (27 1))
 	(transient
 	 (0 3 7)))
        "Emacs integration for jet Clojure tool" single
-       ((:commit . "156c9be37804c14a3560175549ccbb77443dd741")
+       ((:commit . "90fcdec479d2b1755a1410ae65d53d421f7683c9")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
 	(:maintainer "Eric Dallo" . "ercdll1337@gmail.com")
@@ -35457,7 +35457,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230212 2216)
+	[(3 3 0 50 -4 20230213 1427)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -35473,7 +35473,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "756a4de1c408ee750405d323659406802e4c7fed")
+	 ((:commit . "0f597804786272d2a3b21552f1cbe29e365de72f")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -35739,7 +35739,7 @@
 		      (:keywords "magit" "vc")
 		      (:url . "http://github.com/jtamagnan/magit-reviewboard"))])
  (magit-section .
-		[(3 3 0 50 -4 20230212 2216)
+		[(3 3 0 50 -4 20230213 1424)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -35747,7 +35747,7 @@
 		  (dash
 		   (20221013)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "756a4de1c408ee750405d323659406802e4c7fed")
+		 ((:commit . "308a6cf87f5482bd2c5060a18e2e426424d99bc8")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -36378,7 +36378,7 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/YiGeeker/masm-mode"))])
  (mastodon .
-	   [(1 0 0 1 -4 20230128 1527)
+	   [(1 0 0 1 -4 20230213 1458)
 	    ((emacs
 	      (27 1))
 	     (request
@@ -36388,7 +36388,7 @@
 	     (ts
 	      (0 3)))
 	    "Client for Mastodon, a federated social network" tar
-	    ((:commit . "405ad09845e152990df09a3f2f1ed52e178df2c0")
+	    ((:commit . "696ee69f9877f92abd5221d2314e45f1ea953d8e")
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com")
 	      ("Marty Hiatt" . "martianhiatus@riseup.net"))
