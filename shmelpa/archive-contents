@@ -13628,15 +13628,17 @@
 	       (:maintainer "Marian Schubert" . "marian.schubert@gmail.com")
 	       (:url . "http://github.com/maio/eink-emacs"))])
  (ejc-sql .
-	  [(0 4 1 1 -4 20230215 40)
-	   ((clomacs
+	  [(0 4 1 1 -4 20230209 1734)
+	   ((emacs
+	     (26 3))
+	    (clomacs
 	     (0 0 5))
 	    (dash
 	     (2 16 0))
 	    (spinner
 	     (1 7 3)))
 	   "Emacs SQL client uses Clojure JDBC." tar
-	   ((:commit . "76fc36410c1f242b7aebdf63b9b54d11431ce127")
+	   ((:commit . "c1d68769861ee920cf0b2ae71ce2b6cac4313c73")
 	    (:authors
 	     ("Kostafey" . "kostafey@gmail.com"))
 	    (:maintainer "Kostafey" . "kostafey@gmail.com")
@@ -18453,11 +18455,11 @@
 		   (:maintainer "Hiroki YAMAKAWA" . "s06139@gmail.com")
 		   (:url . "https://github.com/HKey/feed-discovery"))])
  (fennel-mode .
-	      [(0 6 0 1 -4 20230123 432)
+	      [(0 6 0 1 -4 20230215 1641)
 	       ((emacs
 		 (26 1)))
 	       "A major-mode for editing Fennel code" tar
-	       ((:commit . "0aa919db3ea959977747685c65413e0c6636a9ad")
+	       ((:commit . "52da9715b0d046597cb322d3a98cb27ae6e5719e")
 		(:authors
 		 ("Phil Hagelberg"))
 		(:maintainer "Phil Hagelberg")
@@ -36156,13 +36158,13 @@
 	      (:keywords "docker")
 	      (:url . "https://github.com/nlamirault/marcopolo"))])
  (marginalia .
-	     [(1 0 1 -4 20230212 55)
+	     [(1 0 1 -4 20230215 1913)
 	      ((emacs
 		(27 1))
 	       (compat
 		(29 1 3 0)))
 	      "Enrich existing commands with completion annotations" single
-	      ((:commit . "3264eb905efda1a66cbd43a6faf07cc3f2241fdc")
+	      ((:commit . "0554ade246da93da033da5f4ac937d8498ff2709")
 	       (:authors
 		("Omar Antol\303\255n Camarena <omar@matem.unam.mx>, Daniel Mendler" . "mail@daniel-mendler.de"))
 	       (:maintainer "Omar Antol\303\255n Camarena <omar@matem.unam.mx>, Daniel Mendler" . "mail@daniel-mendler.de")
