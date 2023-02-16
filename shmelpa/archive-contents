@@ -1051,7 +1051,7 @@
 	    (:keywords "appletv" "airplay")
 	    (:url . "https://github.com/gongo/airplay-el"))])
  (alan-mode .
-	    [(1 0 0 1 -4 20220928 1229)
+	    [(1 0 0 1 -4 20230216 857)
 	     ((flycheck
 	       (32))
 	      (emacs
@@ -1059,7 +1059,7 @@
 	      (s
 	       (1 12)))
 	     "Major mode for editing Alan files" single
-	     ((:commit . "8856871633ef961a0dd7cf019be44212cfe1add1")
+	     ((:commit . "723cf8e8d7e00c1498935553c46f459aa1d26135")
 	      (:authors
 	       ("Paul van Dam" . "pvandam@kjerner.com"))
 	      (:maintainer "Paul van Dam" . "pvandam@kjerner.com")
@@ -6750,11 +6750,11 @@
 	    nil "Major mode for C-- source code" single
 	    ((:commit . "c3ad514dff3eb30434f6b20d953276d4c00de1ee"))])
  (cnfonts .
-	  [(1 0 0 1 -4 20230216 548)
+	  [(1 0 0 1 -4 20230216 803)
 	   ((emacs
 	     (24)))
 	   "A simple Chinese fonts config tool" tar
-	   ((:commit . "b350922f209f531eb4049517599b2a300b3cb6fd")
+	   ((:commit . "4b1bbf854009992858e86a19de49b8dc91e924eb")
 	    (:authors
 	     ("Feng Shu" . "tumashu@163.com"))
 	    (:maintainer "Feng Shu" . "tumashu@163.com")
@@ -8169,7 +8169,7 @@
 		    (:keywords "completion" "convenience")
 		    (:url . "https://github.com/juergenhoetzel/company-suggest"))])
  (company-tabnine .
-		  [(0 0 1 1 -4 20210310 2247)
+		  [(0 0 1 1 -4 20230216 817)
 		   ((emacs
 		     (25))
 		    (company
@@ -8179,11 +8179,9 @@
 		    (dash
 		     (2 16 0))
 		    (s
-		     (1 12 0))
-		    (unicode-escape
-		     (1 1)))
+		     (1 12 0)))
 		   "A company-mode backend for TabNine" single
-		   ((:commit . "98e9e8b38b6ca289fbe265b0a7b62c7fe38ed0e2")
+		   ((:commit . "96d0c2c05450359ce90ee99a474991391988d2e6")
 		    (:authors
 		     ("Tommy Xiang" . "tommyx058@gmail.com"))
 		    (:maintainer "Tommy Xiang" . "tommyx058@gmail.com")
@@ -8453,13 +8451,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 32 1 -4 20230211 1204)
+	  [(0 32 1 -4 20230216 940)
 	   ((emacs
 	     (27 1))
 	    (compat
-	     (29 1 3 3)))
+	     (29 1 3 4)))
 	   "Consulting completing-read" tar
-	   ((:commit . "618e2591a6ef375c0865ef57c45a153290316395")
+	   ((:commit . "0c73f24459492c26df159cefd8db73aeac133015")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -14427,13 +14425,13 @@
 		(:keywords "languages" "elixir")
 		(:url . "https://github.com/elixir-editors/emacs-elixir"))])
  (elixir-ts-mode .
-		 [(1 0 1 -4 20230214 2051)
+		 [(1 1 1 -4 20230216 555)
 		  ((emacs
 		    (29))
 		   (heex-ts-mode
 		    (1 0)))
 		  "Major mode for Elixir with tree-sitter support" single
-		  ((:commit . "84edeaf5beb6fa72cfbc5641d736b16a32607a78")
+		  ((:commit . "2b8821d545237eb9b7feb0862ab4569a072bca6c")
 		   (:authors
 		    ("Wilhelm H Kirschbaum"))
 		   (:maintainer "Wilhelm H Kirschbaum")
