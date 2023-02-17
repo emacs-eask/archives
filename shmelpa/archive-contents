@@ -12668,9 +12668,9 @@
 		(:keywords "dummyparens" "auto-pair" "wrapping")
 		(:url . "https://github.com/snosov1/dummyparens"))])
  (dune .
-       [(1 0 1 -4 20230213 1556)
+       [(1 0 1 -4 20230217 1444)
 	nil "Integration with the dune build system" tar
-	((:commit . "b9c27038fbf0d69e173e5f045b688d00eb47796b")
+	((:commit . "d3d628f2eda2278bd2df6e37452d8693f367fcfd")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -14706,7 +14706,7 @@
 	    (:keywords "html" "hypermedia" "tools" "webscale")
 	    (:url . "https://github.com/AdamNiederer/elquery"))])
  (elsa .
-       [(0 1 0 1 -4 20230215 1521)
+       [(0 1 0 1 -4 20230215 1605)
 	((trinary
 	  (1 0 0))
 	 (emacs
@@ -14720,7 +14720,7 @@
 	 (cl-lib
 	  (0 3)))
 	"Emacs Lisp Static Analyser" tar
-	((:commit . "87ae076ef09854da1108ed6424e73dfee9d51ade")
+	((:commit . "534bad88e57780e2b0167dda78a9f626bcf314cb")
 	 (:authors
 	  ("Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com"))
 	 (:maintainer "Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com")
@@ -14881,11 +14881,11 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(3 1 1 50 -4 20230118 2020)
+	  [(3 1 1 50 -4 20230217 1717)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
-	   ((:commit . "2e6056df110e76da4eabb413f8781c4f1edddf20")
+	   ((:commit . "4a9dc9234f774b384d064c56c05c4d1539a3496a")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -19639,13 +19639,15 @@
 		 (:maintainer "Brian Sermons")
 		 (:url . "https://github.com/bsermons/flycheck-elm"))])
  (flycheck-elsa .
-		[(1 0 0 1 -4 20230211 1720)
+		[(1 0 0 1 -4 20230217 1640)
 		 ((emacs
 		   (25))
+		  (flycheck
+		   (0 14))
 		  (seq
 		   (2 0)))
-		 "Flycheck for Elsa." tar
-		 ((:commit . "b3c81d9b64e805bdc9e72798212a07cc07ccc1ef")
+		 "Flycheck for Elsa" tar
+		 ((:commit . "d60db9544d0c4213f2478bcea0fd0e668e31cf34")
 		  (:authors
 		   ("Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com"))
 		  (:maintainer "Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com")
