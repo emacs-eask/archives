@@ -6080,7 +6080,7 @@
 		 (:maintainer "Robin Schroer")
 		 (:url . "https://github.com/sulami/circleci-api"))])
  (citar .
-	[(1 1 1 -4 20230216 1954)
+	[(1 1 1 -4 20230218 2016)
 	 ((emacs
 	   (27 1))
 	  (parsebib
@@ -6090,7 +6090,7 @@
 	  (citeproc
 	   (0 9)))
 	 "Citation-related commands for org, latex, markdown" tar
-	 ((:commit . "a5c769011288d0b1656784931de6ba06e64b2dd1")
+	 ((:commit . "5dac3d5bf287566f049b44465e415afb42f30ec3")
 	  (:authors
 	   ("Bruce D'Arcus <https://github.com/bdarcus>"))
 	  (:maintainer "Bruce D'Arcus <https://github.com/bdarcus>")
@@ -13654,13 +13654,13 @@
 	       (:keywords "convenience" "languages" "tools")
 	       (:url . "https://github.com/dantecatalfamo/ejson-mode"))])
  (ekg .
-      [(0 1 1 -4 20230208 251)
+      [(0 1 1 -4 20230218 2019)
        ((triples
 	 (0 2 3))
 	(emacs
 	 (28 1)))
-       "A system for recording and linking information" single
-       ((:commit . "cc006504788585382b325fa6d9dbdf26de79fd0b")
+       "A system for recording and linking information" tar
+       ((:commit . "7a112094e34ad54406e028e83afcff90ccab143f")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
 	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
@@ -14706,21 +14706,21 @@
 	    (:keywords "html" "hypermedia" "tools" "webscale")
 	    (:url . "https://github.com/AdamNiederer/elquery"))])
  (elsa .
-       [(0 1 0 1 -4 20230215 1605)
-	((trinary
-	  (1 0 0))
-	 (emacs
+       [(0 1 0 1 -4 20230218 2015)
+	((emacs
 	  (25 1))
-	 (seq
+	 (trinary
 	  (0))
 	 (f
 	  (0))
 	 (dash
 	  (2 14))
 	 (cl-lib
-	  (0 3)))
+	  (0 3))
+	 (lsp-mode
+	  (0)))
 	"Emacs Lisp Static Analyser" tar
-	((:commit . "534bad88e57780e2b0167dda78a9f626bcf314cb")
+	((:commit . "f96b4fcd6dba8b6bbc6bc20d4d9064a52b4f7820")
 	 (:authors
 	  ("Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com"))
 	 (:maintainer "Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com")
@@ -15023,20 +15023,20 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 21 1 1 -4 20230211 2325)
+	 [(0 21 1 1 -4 20230218 2115)
 	  ((emacs
 	    (27 1))
 	   (compat
 	    (29 1 3 0)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "1f6c87d79f5d138cd128c230d727c796b4bc46cd")
+	  ((:commit . "f2d59df788c74d185b4076a200a3334e724772e2")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
 	   (:keywords "convenience")
 	   (:url . "https://github.com/oantolin/embark"))])
  (embark-consult .
-		 [(0 7 1 -4 20230201 309)
+		 [(0 7 1 -4 20230218 2048)
 		  ((emacs
 		    (27 1))
 		   (embark
@@ -15044,7 +15044,7 @@
 		   (consult
 		    (0 17)))
 		  "Consult integration for Embark" single
-		  ((:commit . "127492fac048cecfdba145d496a902022a68d1d5")
+		  ((:commit . "0cc29e67784cff6315ac068bc97b28dc30e6409e")
 		   (:authors
 		    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -19190,19 +19190,19 @@
 		(:keywords "convenience" "search" "flx")
 		(:url . "https://github.com/pythonnut/flx-isearch"))])
  (flycheck .
-	   [(33 -4 20230211 1938)
-	    ((dash
+	   [(33 -4 20230218 2135)
+	    ((emacs
+	      (25 1))
+	     (dash
 	      (2 12 1))
 	     (pkg-info
 	      (0 4))
 	     (let-alist
 		 (1 0 4))
 	     (seq
-	      (1 11))
-	     (emacs
-	      (24 3)))
+	      (1 11)))
 	    "On-the-fly syntax checking" tar
-	    ((:commit . "9db727590b8f038b91cd1360ead1706f50043d2a")
+	    ((:commit . "55614401a955e73f5c0f05c0e098d9e717e3116d")
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
 	     (:maintainer "Cl\303\251ment Pit-Claudel" . "clement.pitclaudel@live.com")
