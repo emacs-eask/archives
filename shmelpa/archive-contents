@@ -14881,29 +14881,29 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(3 1 1 50 -4 20230217 1717)
+	  [(3 1 1 50 -4 20230217 2219)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
-	   ((:commit . "4a9dc9234f774b384d064c56c05c4d1539a3496a")
+	   ((:commit . "176fd090115b3c2aea46ec9bf24401503f337a9d")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	    (:url . "https://github.com/magit/emacsql"))])
  (emacsql-mysql .
-		[(0 1 0 1 -4 20221127 2146)
+		[(0 1 0 1 -4 20230217 2219)
 		 ((emacs
 		   (25 1))
 		  (emacsql
 		   (3 1 1)))
 		 "EmacSQL back-end for MySQL" single
-		 ((:commit . "6b2e65bdf785364cf7c34c31fea5812e1e58c657")
+		 ((:commit . "65357c6b8e96f4d1533bcc3100eeee6c34f70f46")
 		  (:authors
 		   ("Christopher Wellons" . "wellons@nullprogram.com"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		  (:url . "https://github.com/magit/emacsql"))])
  (emacsql-pg .
-	     [(0 1 0 1 -4 20221127 2146)
+	     [(0 1 0 1 -4 20230217 2219)
 	      ((emacs
 		(25 1))
 	       (emacsql
@@ -14911,49 +14911,49 @@
 	       (pg
 		(0 16)))
 	      "EmacSQL back-end for PostgreSQL via pg" single
-	      ((:commit . "6b2e65bdf785364cf7c34c31fea5812e1e58c657")
+	      ((:commit . "65357c6b8e96f4d1533bcc3100eeee6c34f70f46")
 	       (:authors
 		("Christopher Wellons" . "wellons@nullprogram.com"))
 	       (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	       (:url . "https://github.com/magit/emacsql"))])
  (emacsql-psql .
-	       [(0 1 0 1 -4 20221127 2146)
+	       [(0 1 0 1 -4 20230217 2219)
 		((emacs
 		  (25 1))
 		 (emacsql
 		  (3 1 1)))
 		"EmacSQL back-end for PostgreSQL via psql" single
-		((:commit . "6b2e65bdf785364cf7c34c31fea5812e1e58c657")
+		((:commit . "65357c6b8e96f4d1533bcc3100eeee6c34f70f46")
 		 (:authors
 		  ("Christopher Wellons" . "wellons@nullprogram.com"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		 (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite .
-		 [(3 1 1 50 -4 20230118 2015)
+		 [(3 1 1 50 -4 20230217 2219)
 		  ((emacs
 		    (25 1))
 		   (emacsql
 		    (3 1 1)))
 		  "EmacSQL back-end for SQLite" tar
-		  ((:commit . "93885039e99cf7b6bdcefa0fbe8fa69b34c57f71")
+		  ((:commit . "65357c6b8e96f4d1533bcc3100eeee6c34f70f46")
 		   (:authors
 		    ("Christopher Wellons" . "wellons@nullprogram.com"))
 		   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-builtin .
-			 [(0 1 0 1 -4 20221127 2146)
+			 [(0 1 0 1 -4 20230217 2219)
 			  ((emacs
 			    (29))
 			   (emacsql
 			    (3 1 1)))
 			  "EmacSQL back-end for SQLite using builtin support" single
-			  ((:commit . "6b2e65bdf785364cf7c34c31fea5812e1e58c657")
+			  ((:commit . "fbe3627422964b4e6f3702bc0b2769d35c398571")
 			   (:authors
 			    ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 			   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-module .
-			[(0 1 0 1 -4 20221127 2146)
+			[(0 1 0 1 -4 20230217 2219)
 			 ((emacs
 			   (25))
 			  (emacsql
@@ -14961,7 +14961,7 @@
 			  (sqlite3
 			   (0 16)))
 			 "EmacSQL back-end for SQLite using a module" single
-			 ((:commit . "6b2e65bdf785364cf7c34c31fea5812e1e58c657")
+			 ((:commit . "fbe3627422964b4e6f3702bc0b2769d35c398571")
 			  (:authors
 			   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -35457,7 +35457,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230215 1054)
+	[(3 3 0 50 -4 20230217 2343)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -35473,7 +35473,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "30b0debaaadadec6103a8d7eab92322fd9d30a15")
+	 ((:commit . "2c91c080a8e2f35e3b036a2f6b8011fa897d23a1")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -54804,11 +54804,11 @@
 		     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		     (:url . "https://codeberg.org/ideasman42/emacs-spatial-navigate"))])
  (spdx .
-       [(0 1 0 1 -4 20230217 120)
+       [(0 1 0 1 -4 20230218 115)
 	((emacs
 	  (24 4)))
 	"Insert SPDX license and copyright headers" tar
-	((:commit . "d8d0768e6e6dcf57ae710f82671cd75b60acfbaa")
+	((:commit . "d423c06d5762629cb0b40fc1e8634976a1df5cf2")
 	 (:authors
 	  ("Zhiwei Chen" . "condy0919@gmail.com"))
 	 (:maintainer "Zhiwei Chen" . "condy0919@gmail.com")
