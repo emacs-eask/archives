@@ -10314,11 +10314,11 @@
 		    (:keywords "extensions" "lisp")
 		    (:url . "https://github.com/magnars/dash.el"))])
  (dashboard .
-	    [(1 8 0 -4 20230216 2155)
+	    [(1 8 0 -4 20230219 2200)
 	     ((emacs
 	       (26 1)))
 	     "A startup screen extracted from Spacemacs" tar
-	     ((:commit . "ec61c1b469cc45e15f92672825f653aa308ddb1b")
+	     ((:commit . "482595b0eaf2498246197754713fab282bd0cae9")
 	      (:authors
 	       ("Rakan Al-Hneiti" . "rakan.alhneiti@gmail.com"))
 	      (:maintainer "Jes\303\272s Mart\303\255nez" . "jesusmartinez93@gmail.com")
@@ -19689,6 +19689,21 @@
 		  (:maintainer "Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com")
 		  (:keywords "convenience")
 		  (:url . "https://github.com/emacs-elsa/flycheck-elsa"))])
+ (flycheck-falco-rules .
+		       [(0 1 0 1 -4 20230213 1603)
+			((emacs
+			  (24 3))
+			 (flycheck
+			  (0 25))
+			 (let-alist
+			     (1 0 1)))
+			"On-the-fly syntax checking for falco rules files" single
+			((:commit . "ba359f2d5968df47a100e78758f280fe0c965f07")
+			 (:authors
+			  ("The Falco Developers (https://falco.org)"))
+			 (:maintainer "The Falco Developers (https://falco.org)")
+			 (:keywords "tools" "convenience")
+			 (:url . "https://github.com/falcosecurity/flycheck-falco-rules"))])
  (flycheck-flawfinder .
 		      [(0 1 1 -4 20211214 647)
 		       ((flycheck
@@ -54842,11 +54857,11 @@
 		     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		     (:url . "https://codeberg.org/ideasman42/emacs-spatial-navigate"))])
  (spdx .
-       [(0 1 0 1 -4 20230218 115)
+       [(0 1 0 1 -4 20230220 118)
 	((emacs
 	  (24 4)))
 	"Insert SPDX license and copyright headers" tar
-	((:commit . "d423c06d5762629cb0b40fc1e8634976a1df5cf2")
+	((:commit . "7ae6710a95a02c90b0f13486e8f20be3a746bee2")
 	 (:authors
 	  ("Zhiwei Chen" . "condy0919@gmail.com"))
 	 (:maintainer "Zhiwei Chen" . "condy0919@gmail.com")
