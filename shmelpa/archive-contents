@@ -14332,11 +14332,11 @@
 	   (:keywords "lisp")
 	   (:url . "http://github.com/demyanrogozhin/elhome"))])
  (elisp-autofmt .
-		[(0 1 1 -4 20230210 521)
+		[(0 1 1 -4 20230221 1124)
 		 ((emacs
 		   (28 1)))
 		 "Emacs lisp auto-format" tar
-		 ((:commit . "10e3a79a7a058e4956236b98852712b8b7b33e04")
+		 ((:commit . "153785d7e7d392ae07fe0f91a8ba3af6dd6d7df6")
 		  (:authors
 		   ("Campbell Barton" . "ideasman42@gmail.com"))
 		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -24269,17 +24269,15 @@
 		(:keywords "languages" "go" "golang" "gorepl")
 		(:url . "http://www.github.com/manute/gorepl-mode"))])
  (gotest .
-	 [(0 14 0 1 -4 20220728 750)
+	 [(0 14 0 1 -4 20230221 945)
 	  ((emacs
 	    (24 3))
 	   (s
 	    (1 11 0))
 	   (f
-	    (0 19 0))
-	   (go-mode
-	    (1 5 0)))
+	    (0 19 0)))
 	  "Launch GO unit tests" single
-	  ((:commit . "2ec82dcc70d5f6aa22f66b44f8b537be33bd7903")
+	  ((:commit . "490189e68d743a851bfb42d0017428a7550e8615")
 	   (:authors
 	    ("Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))
 	   (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com")
@@ -34996,7 +34994,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20230220 326)
+	   [(8 0 1 1 -4 20230221 1223)
 	    ((emacs
 	      (26 3))
 	     (dash
@@ -35014,7 +35012,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "771342f03986fe8d77696ae9b08e72741006843e")
+	    ((:commit . "2050da39970dbe32bcd6cc17a868d682feb11bfe")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -35510,7 +35508,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230219 1247)
+	[(3 3 0 50 -4 20230221 648)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -35526,7 +35524,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "451cbe5c24f2af7ed505f1422af6ad4e8f05205b")
+	 ((:commit . "97a95f70079b6613bf98d2306279d3e03fe51234")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -42412,13 +42410,13 @@
 			(:keywords "tex" "tools")
 			(:url . "https://github.com/yangsheng6810/org-latex-instant-preview"))])
  (org-link-beautify .
-		    [(1 2 2 1 -4 20221209 420)
+		    [(1 2 2 1 -4 20230221 1311)
 		     ((emacs
 		       (28 1))
 		      (all-the-icons
 		       (5 0 0)))
 		     "Beautify Org Links" tar
-		     ((:commit . "098684c0fd8b9c9d940122faf96f62f579d98699")
+		     ((:commit . "370535e4259888f686cb6cedcabb79c5b389e6bb")
 		      (:keywords "hypermedia")
 		      (:url . "https://repo.or.cz/org-link-beautify.git"))])
  (org-link-travis .
@@ -45170,11 +45168,11 @@
 	     (:keywords "extensions" "tools")
 	     (:url . "https://github.com/zenspider/package"))])
  (package-build .
-		[(4 0 0 50 -4 20230212 1950)
+		[(4 0 0 50 -4 20230221 1303)
 		 ((emacs
 		   (26 1)))
 		 "Tools for assembling a package archive" tar
-		 ((:commit . "ab5b94e3bf5d011fcf1f81e370af47f98b0749d3")
+		 ((:commit . "9199271d78dc0f4f85047d6daef0e9721a6e63cd")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		   ("Steve Purcell" . "steve@sanityinc.com")
@@ -59937,7 +59935,7 @@
 		     (:keywords "convenience" "snippets")
 		     (:url . "https://github.com/baron42bba/vertica-snippets"))])
  (vertico-prescient .
-		    [(6 1 0 1 -4 20221216 112)
+		    [(6 1 0 1 -4 20230221 1257)
 		     ((emacs
 		       (27 1))
 		      (prescient
@@ -59945,7 +59943,7 @@
 		      (vertico
 		       (0 28)))
 		     "prescient.el + Vertico" single
-		     ((:commit . "72b023f5fc1ae2bbf2f51f1786cc012d40671bf4")
+		     ((:commit . "822481e722502081deedbe6b1a9776eda0ca7bfe")
 		      (:authors
 		       ("Radian LLC" . "contact+prescient@radian.codes"))
 		      (:maintainer "Radian LLC" . "contact+prescient@radian.codes")
@@ -59972,7 +59970,7 @@
 	      (:keywords "convenience" "usability" "vhdl" "completion")
 	      (:url . "https://github.com/sh-ow/vhdl-capf"))])
  (vhdl-ext .
-	   [(0 1 0 1 -4 20230219 2252)
+	   [(0 1 0 1 -4 20230221 1104)
 	    ((emacs
 	      (28 1))
 	     (eglot
@@ -59983,14 +59981,12 @@
 	      (0 48))
 	     (ripgrep
 	      (0 4 0))
-	     (ggtags
-	      (0 9 0))
 	     (hydra
 	      (0 15 0))
 	     (flycheck
 	      (33 -4)))
 	    "VHDL Extensions" single
-	    ((:commit . "751f1d63ab6e08fec40ef8fda1cbead25dfbb316")
+	    ((:commit . "416b5539b7aaad7cd17a48582f287519c611a1a3")
 	     (:authors
 	      ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 	     (:maintainer "Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com")
