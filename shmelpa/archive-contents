@@ -8386,7 +8386,7 @@
 	       (:keywords "deferred" "async" "concurrent")
 	       (:url . "https://github.com/kiwanami/emacs-deferred/blob/master/README-concurrent.markdown"))])
  (conda .
-	[(0 4 1 -4 20230104 2059)
+	[(0 4 1 -4 20230221 1603)
 	 ((emacs
 	   (25 1))
 	  (pythonic
@@ -8398,7 +8398,7 @@
 	  (f
 	   (0 18 2)))
 	 "Work with your conda environments" single
-	 ((:commit . "667968184e40afa8514ece090893a160ae16b258")
+	 ((:commit . "28f51e49fd25abff14c1b46dea196a90a77ced64")
 	  (:authors
 	   ("Rami Chowdhury" . "rami.chowdhury@gmail.com"))
 	  (:maintainer "Rami Chowdhury" . "rami.chowdhury@gmail.com")
@@ -14915,87 +14915,87 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(3 1 1 50 -4 20230220 1858)
+	  [(3 1 1 50 -4 20230221 1532)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
-	   ((:commit . "8dd25b030701c1f9c8fe6c38b89399a82dfa558b")
+	   ((:commit . "f0249f655fd1a2c066c5a1b3daa93c80c5ed9865")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	    (:url . "https://github.com/magit/emacsql"))])
  (emacsql-mysql .
-		[(0 1 0 1 -4 20230217 2219)
+		[(0 1 0 1 -4 20230221 1532)
 		 ((emacs
 		   (25 1))
 		  (emacsql
-		   (3 1 1)))
+		   (20230220)))
 		 "EmacSQL back-end for MySQL" single
-		 ((:commit . "65357c6b8e96f4d1533bcc3100eeee6c34f70f46")
+		 ((:commit . "f0249f655fd1a2c066c5a1b3daa93c80c5ed9865")
 		  (:authors
 		   ("Christopher Wellons" . "wellons@nullprogram.com"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		  (:url . "https://github.com/magit/emacsql"))])
  (emacsql-pg .
-	     [(0 1 0 1 -4 20230220 1858)
+	     [(0 1 0 1 -4 20230221 1532)
 	      ((emacs
 		(25 1))
 	       (emacsql
-		(3 1 1))
+		(20230220))
 	       (pg
 		(0 16)))
 	      "EmacSQL back-end for PostgreSQL via pg" single
-	      ((:commit . "8dd25b030701c1f9c8fe6c38b89399a82dfa558b")
+	      ((:commit . "f0249f655fd1a2c066c5a1b3daa93c80c5ed9865")
 	       (:authors
 		("Christopher Wellons" . "wellons@nullprogram.com"))
 	       (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	       (:url . "https://github.com/magit/emacsql"))])
  (emacsql-psql .
-	       [(0 1 0 1 -4 20230217 2219)
+	       [(0 1 0 1 -4 20230221 1532)
 		((emacs
 		  (25 1))
 		 (emacsql
-		  (3 1 1)))
+		  (20230220)))
 		"EmacSQL back-end for PostgreSQL via psql" single
-		((:commit . "65357c6b8e96f4d1533bcc3100eeee6c34f70f46")
+		((:commit . "f0249f655fd1a2c066c5a1b3daa93c80c5ed9865")
 		 (:authors
 		  ("Christopher Wellons" . "wellons@nullprogram.com"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		 (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite .
-		 [(3 1 1 50 -4 20230217 2219)
+		 [(3 1 1 50 -4 20230221 1532)
 		  ((emacs
 		    (25 1))
 		   (emacsql
-		    (3 1 1)))
+		    (20230220)))
 		  "EmacSQL back-end for SQLite" tar
-		  ((:commit . "65357c6b8e96f4d1533bcc3100eeee6c34f70f46")
+		  ((:commit . "f0249f655fd1a2c066c5a1b3daa93c80c5ed9865")
 		   (:authors
 		    ("Christopher Wellons" . "wellons@nullprogram.com"))
 		   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-builtin .
-			 [(0 1 0 1 -4 20230220 1858)
+			 [(0 1 0 1 -4 20230221 1532)
 			  ((emacs
 			    (29))
 			   (emacsql
-			    (3 1 1)))
+			    (20230220)))
 			  "EmacSQL back-end for SQLite using builtin support" single
-			  ((:commit . "8dd25b030701c1f9c8fe6c38b89399a82dfa558b")
+			  ((:commit . "f0249f655fd1a2c066c5a1b3daa93c80c5ed9865")
 			   (:authors
 			    ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 			   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-module .
-			[(0 1 0 1 -4 20230220 1858)
+			[(0 1 0 1 -4 20230221 1532)
 			 ((emacs
 			   (25))
 			  (emacsql
-			   (3 1 1))
+			   (20230220))
 			  (sqlite3
 			   (0 16)))
 			 "EmacSQL back-end for SQLite using a module" single
-			 ((:commit . "8dd25b030701c1f9c8fe6c38b89399a82dfa558b")
+			 ((:commit . "f0249f655fd1a2c066c5a1b3daa93c80c5ed9865")
 			  (:authors
 			   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
