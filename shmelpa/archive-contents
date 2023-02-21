@@ -14740,7 +14740,7 @@
 	    (:keywords "html" "hypermedia" "tools" "webscale")
 	    (:url . "https://github.com/AdamNiederer/elquery"))])
  (elsa .
-       [(0 1 0 1 -4 20230218 2015)
+       [(0 1 0 1 -4 20230220 2011)
 	((emacs
 	  (25 1))
 	 (trinary
@@ -14754,7 +14754,7 @@
 	 (lsp-mode
 	  (0)))
 	"Emacs Lisp Static Analyser" tar
-	((:commit . "f96b4fcd6dba8b6bbc6bc20d4d9064a52b4f7820")
+	((:commit . "2776cd0c0617f99cac2da3da764d2f221f62ff2a")
 	 (:authors
 	  ("Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com"))
 	 (:maintainer "Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com")
@@ -14915,11 +14915,11 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(3 1 1 50 -4 20230217 2219)
+	  [(3 1 1 50 -4 20230220 1858)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
-	   ((:commit . "176fd090115b3c2aea46ec9bf24401503f337a9d")
+	   ((:commit . "8dd25b030701c1f9c8fe6c38b89399a82dfa558b")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -15544,17 +15544,19 @@
 	  (:keywords "comm" "processes" "terminals" "unix")
 	  (:url . "https://github.com/sean-hut/eping"))])
  (epkg .
-       [(0 1 0 1 -4 20230214 2135)
+       [(0 1 0 1 -4 20230220 1945)
 	((emacs
 	  (25 1))
 	 (compat
 	  (29 1 3 4))
 	 (closql
-	  (20210927))
+	  (20230220))
+	 (emacsql
+	  (20230220))
 	 (llama
 	  (0 2 0)))
 	"Browse the Emacsmirror package database" tar
-	((:commit . "57a886da663fa40afaccfb3de6ce8dfa7a33495f")
+	((:commit . "576ba9fedc360d2f7dfb724f9f767cc4688e5b7f")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -21533,17 +21535,17 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 3 2 50 -4 20230216 1755)
+	[(0 3 2 50 -4 20230220 1945)
 	 ((emacs
 	   (25 1))
 	  (compat
 	   (29 1 3 4))
 	  (closql
-	   (1 2 0))
+	   (20230220))
 	  (dash
 	   (2 19 1))
-	  (emacsql-sqlite
-	   (3 0 0))
+	  (emacsql
+	   (20230220))
 	  (ghub
 	   (20220621))
 	  (let-alist
@@ -21557,7 +21559,7 @@
 	  (yaml
 	   (0 3 5)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "f4aceb35f9d87277e23ee2017e49d11ef89bb7a5")
+	 ((:commit . "3164739dc70ee5ecf05d87dba9dc803d62a89adf")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -59844,7 +59846,7 @@
 	       (:keywords "convenience" "usability" "url")
 	       (:url . "https://github.com/lujun9972/verify-url"))])
  (verilog-ext .
-	      [(0 1 0 1 -4 20230219 1437)
+	      [(0 1 0 1 -4 20230220 1852)
 	       ((emacs
 		 (28 1))
 		(verilog-mode
@@ -59872,7 +59874,7 @@
 		(outshine
 		 (3 1 -1)))
 	       "Verilog Extensions" tar
-	       ((:commit . "dfda62a739a22b75695d53831d2a8d18a8f4f3f4")
+	       ((:commit . "6872a42791c5105bfe1de1d63abae537559c7ca9")
 		(:authors
 		 ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 		(:maintainer "Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com")
