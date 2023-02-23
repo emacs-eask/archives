@@ -14742,7 +14742,7 @@
 	    (:keywords "html" "hypermedia" "tools" "webscale")
 	    (:url . "https://github.com/AdamNiederer/elquery"))])
  (elsa .
-       [(0 1 0 1 -4 20230222 1847)
+       [(0 1 0 1 -4 20230222 1941)
 	((emacs
 	  (25 1))
 	 (trinary
@@ -14756,7 +14756,7 @@
 	 (lsp-mode
 	  (0)))
 	"Emacs Lisp Static Analyser" tar
-	((:commit . "9b169851cfd47dfe1668991291cf1cbaba4a41ed")
+	((:commit . "40b9f4accff4e2fe8027f27fb8c223a7c434cb2a")
 	 (:authors
 	  ("Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com"))
 	 (:maintainer "Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com")
@@ -14917,29 +14917,29 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(3 1 1 50 -4 20230221 1532)
+	  [(3 1 1 50 -4 20230222 1938)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
-	   ((:commit . "f0249f655fd1a2c066c5a1b3daa93c80c5ed9865")
+	   ((:commit . "497971121afcadbae6246fb842d1e6d22e3c05ad")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	    (:url . "https://github.com/magit/emacsql"))])
  (emacsql-mysql .
-		[(0 1 0 1 -4 20230221 1532)
+		[(0 1 0 1 -4 20230222 1914)
 		 ((emacs
 		   (25 1))
 		  (emacsql
 		   (20230220)))
 		 "EmacSQL back-end for MySQL" single
-		 ((:commit . "f0249f655fd1a2c066c5a1b3daa93c80c5ed9865")
+		 ((:commit . "0bcf526c48bed7004db7ff2fdc340ce018273d3e")
 		  (:authors
 		   ("Christopher Wellons" . "wellons@nullprogram.com"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		  (:url . "https://github.com/magit/emacsql"))])
  (emacsql-pg .
-	     [(0 1 0 1 -4 20230221 1532)
+	     [(0 1 0 1 -4 20230222 1914)
 	      ((emacs
 		(25 1))
 	       (emacsql
@@ -14947,49 +14947,49 @@
 	       (pg
 		(0 16)))
 	      "EmacSQL back-end for PostgreSQL via pg" single
-	      ((:commit . "f0249f655fd1a2c066c5a1b3daa93c80c5ed9865")
+	      ((:commit . "0bcf526c48bed7004db7ff2fdc340ce018273d3e")
 	       (:authors
 		("Christopher Wellons" . "wellons@nullprogram.com"))
 	       (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	       (:url . "https://github.com/magit/emacsql"))])
  (emacsql-psql .
-	       [(0 1 0 1 -4 20230221 1532)
+	       [(0 1 0 1 -4 20230222 1914)
 		((emacs
 		  (25 1))
 		 (emacsql
 		  (20230220)))
 		"EmacSQL back-end for PostgreSQL via psql" single
-		((:commit . "f0249f655fd1a2c066c5a1b3daa93c80c5ed9865")
+		((:commit . "0bcf526c48bed7004db7ff2fdc340ce018273d3e")
 		 (:authors
 		  ("Christopher Wellons" . "wellons@nullprogram.com"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		 (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite .
-		 [(3 1 1 50 -4 20230221 1532)
+		 [(3 1 1 50 -4 20230222 1914)
 		  ((emacs
 		    (25 1))
 		   (emacsql
 		    (20230220)))
 		  "EmacSQL back-end for SQLite" tar
-		  ((:commit . "f0249f655fd1a2c066c5a1b3daa93c80c5ed9865")
+		  ((:commit . "b33073257e0ad0cce8c026d24d9705e3b35f6e6d")
 		   (:authors
 		    ("Christopher Wellons" . "wellons@nullprogram.com"))
 		   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-builtin .
-			 [(0 1 0 1 -4 20230221 1532)
+			 [(0 1 0 1 -4 20230222 1914)
 			  ((emacs
 			    (29))
 			   (emacsql
 			    (20230220)))
 			  "EmacSQL back-end for SQLite using builtin support" single
-			  ((:commit . "f0249f655fd1a2c066c5a1b3daa93c80c5ed9865")
+			  ((:commit . "b33073257e0ad0cce8c026d24d9705e3b35f6e6d")
 			   (:authors
 			    ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 			   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-module .
-			[(0 1 0 1 -4 20230221 1532)
+			[(0 1 0 1 -4 20230222 1914)
 			 ((emacs
 			   (25))
 			  (emacsql
@@ -14997,7 +14997,7 @@
 			  (sqlite3
 			   (0 16)))
 			 "EmacSQL back-end for SQLite using a module" single
-			 ((:commit . "f0249f655fd1a2c066c5a1b3daa93c80c5ed9865")
+			 ((:commit . "b33073257e0ad0cce8c026d24d9705e3b35f6e6d")
 			  (:authors
 			   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -21537,7 +21537,7 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 3 2 50 -4 20230222 1316)
+	[(0 3 2 50 -4 20230222 1917)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -21561,7 +21561,7 @@
 	  (yaml
 	   (0 3 5)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "06aceeee3668fdc38087b5da9e2dd5af3e60ccaa")
+	 ((:commit . "ba35ffc9bafc6457cc95633904e53e34e544543f")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -31935,11 +31935,11 @@
 	  (:keywords "languages" "tools")
 	  (:url . "http://jtags.sourceforge.net"))])
  (julia-formatter .
-		  [(0 2 1 -4 20220106 1414)
+		  [(0 2 1 -4 20230222 2243)
 		   ((emacs
 		     (27 1)))
 		   "Use JuliaFormatter.jl for julia code" single
-		   ((:commit . "a17490fbf8902fc11827651f567924edb22f81cb")
+		   ((:commit . "9390974fa6d0317b4f604b71523071feb2f2150a")
 		    (:authors
 		     ("Felipe Lema" . "felipe.lema@mortemale.org"))
 		    (:maintainer "Felipe Lema" . "felipe.lema@mortemale.org")
@@ -37671,9 +37671,9 @@
 	       (:keywords "games")
 	       (:url . "https://github.com/jpablobr/emacs-monkeytype"))])
  (monky .
-	[(0 2 1 -4 20210417 12)
+	[(0 2 1 -4 20230222 2153)
 	 nil "Control Hg from Emacs." tar
-	 ((:commit . "72c7cd21b7b995c476e938fd0b92a494aa25c3a7")
+	 ((:commit . "7046eee5fc9ac625924382cb4a82b0d8efcd9ff0")
 	  (:authors
 	   ("Anantha kumaran" . "ananthakumaran@gmail.com"))
 	  (:maintainer "Anantha kumaran" . "ananthakumaran@gmail.com")
@@ -41729,11 +41729,11 @@
 		  (:keywords "calendar" "data" "org")
 		  (:url . "https://github.com/atheriel/org-clock-csv"))])
  (org-clock-reminder .
-		     [(1 0 1 -4 20230217 728)
+		     [(1 0 1 -4 20230222 1956)
 		      ((emacs
 			(26 1)))
 		      "Notifications that remind you about clocked-in tasks" tar
-		      ((:commit . "fd3d2ca9d5ca1a804c0e70193f89f650c69a8dc1")
+		      ((:commit . "d3bf97113fd519aa08198e2283ba9c236a6df168")
 		       (:authors
 			("Nikolay Brovko" . "i@nickey.ru"))
 		       (:maintainer "Nikolay Brovko" . "i@nickey.ru")
@@ -42434,11 +42434,11 @@
 		     (:keywords "convenience")
 		     (:url . "https://github.com/dfeich/org-listcruncher"))])
  (org-mac-link .
-	       [(1 9 1 -4 20220616 2340)
+	       [(1 9 1 -4 20230222 2228)
 		((emacs
 		  (27 1)))
 		"Insert org-mode links to items selected in various Mac apps" single
-		((:commit . "0b18c1d070b9601cc65c40e902169e367e4348c9")
+		((:commit . "16734797b56b5bd1f49929b59f7cd8fcdcd268e0")
 		 (:authors
 		  ("Anthony Lander" . "anthony.lander@gmail.com")
 		  ("John Wiegley" . "johnw@gnu.org")
