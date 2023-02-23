@@ -13690,13 +13690,13 @@
 	       (:keywords "convenience" "languages" "tools")
 	       (:url . "https://github.com/dantecatalfamo/ejson-mode"))])
  (ekg .
-      [(0 1 1 1 -4 20230221 602)
+      [(0 1 1 1 -4 20230223 328)
        ((triples
-	 (0 2 3))
+	 (0 2 5))
 	(emacs
 	 (28 1)))
        "A system for recording and linking information" tar
-       ((:commit . "cb3dfbf8c6faa0aa95f603b855eb37260acdc89d")
+       ((:commit . "a4c03f170a6aa0e691e4732f34204952ccef03f8")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
 	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
@@ -25402,13 +25402,13 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 0 1 -4 20230222 1404)
+       [(3 9 0 1 -4 20230223 525)
 	((helm-core
 	  (3 9 0))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "e8b40d3597b33ed69d0f294bc991b13b91bcc67a")
+	((:commit . "8ae6363c92c0a1dfaaf02bc234fd12d78b35da88")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -31935,11 +31935,13 @@
 	  (:keywords "languages" "tools")
 	  (:url . "http://jtags.sourceforge.net"))])
  (julia-formatter .
-		  [(0 2 1 -4 20230222 2243)
+		  [(0 3 1 -4 20230223 509)
 		   ((emacs
-		     (27 1)))
+		     (27 1))
+		    (session-async
+		     (0 0 4)))
 		   "Use JuliaFormatter.jl for julia code" single
-		   ((:commit . "9390974fa6d0317b4f604b71523071feb2f2150a")
+		   ((:commit . "5ffd8b745ea3f4f54b5ab243c1220bbb2f17e77a")
 		    (:authors
 		     ("Felipe Lema" . "felipe.lema@mortemale.org"))
 		    (:maintainer "Felipe Lema" . "felipe.lema@mortemale.org")
