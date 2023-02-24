@@ -474,7 +474,7 @@
 	   (:keywords "completion" "convenience" "intellisense")
 	   (:url . "https://github.com/xcwen/ac-php"))])
  (ac-php-core .
-	      [(2 0 8 1 -4 20220701 253)
+	      [(2 0 8 1 -4 20230224 1507)
 	       ((emacs
 		 (24 4))
 		(dash
@@ -490,7 +490,7 @@
 		(xcscope
 		 (1 0)))
 	       "The core library of the ac-php" tar
-	       ((:commit . "dc563f4b1efeac8ae75f217532f4c99b4ba417de")
+	       ((:commit . "35eeaa3aaf1a38b183783dc693012242c7dd2053")
 		(:authors
 		 ("jim" . "xcwenn@qq.com")
 		 ("Serghei Iakovlev" . "sadhooklay@gmail.com"))
@@ -3854,11 +3854,11 @@
 		     (:maintainer "Dong Zheng")
 		     (:url . "https://github.com/don9z/blackboard-theme"))])
  (blacken .
-	  [(0 2 0 1 -4 20220922 2045)
+	  [(0 2 0 1 -4 20230224 1336)
 	   ((emacs
 	     (25 2)))
 	   "Reformat python buffers using the \"black\" formatter" single
-	   ((:commit . "456596e00f8277eafd9a08c62a71df06e8cad2c5")
+	   ((:commit . "1e80b970b130d5c33031f2539c89eb2f13da2572")
 	    (:authors
 	     ("Artem Malyshev" . "proofit404@gmail.com"))
 	    (:maintainer "Artem Malyshev" . "proofit404@gmail.com")
@@ -11655,11 +11655,11 @@
 	   (:keywords "files")
 	   (:url . "https://github.com/Boruch-Baum/emacs-diredc"))])
  (diredfl .
-	  [(0 1 0 1 -4 20220508 805)
+	  [(0 1 0 1 -4 20230224 1302)
 	   ((emacs
 	     (24)))
 	   "Extra font lock rules for a more colourful dired" single
-	   ((:commit . "62b559e1d6b69834a56a57eb1832ac6ad4d2e5d0")
+	   ((:commit . "17e805763d57370c4eff2c92ed257b72eeb9f94a")
 	    (:authors
 	     ("Steve Purcell" . "steve@sanityinc.com"))
 	    (:maintainer "Steve Purcell" . "steve@sanityinc.com")
@@ -14917,29 +14917,29 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(3 1 1 50 -4 20230223 2131)
+	  [(3 1 1 50 -4 20230224 1201)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
-	   ((:commit . "f75ec0c6d8b041a2dc88a85ce1fcbb93b1edeaff")
+	   ((:commit . "7c533fb6c27c3a10b6ab05bddf663e37c109e459")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	    (:url . "https://github.com/magit/emacsql"))])
  (emacsql-mysql .
-		[(0 1 0 1 -4 20230222 1914)
+		[(0 1 0 1 -4 20230224 1201)
 		 ((emacs
 		   (25 1))
 		  (emacsql
 		   (20230220)))
 		 "EmacSQL back-end for MySQL" single
-		 ((:commit . "0bcf526c48bed7004db7ff2fdc340ce018273d3e")
+		 ((:commit . "7c533fb6c27c3a10b6ab05bddf663e37c109e459")
 		  (:authors
 		   ("Christopher Wellons" . "wellons@nullprogram.com"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		  (:url . "https://github.com/magit/emacsql"))])
  (emacsql-pg .
-	     [(0 1 0 1 -4 20230222 1914)
+	     [(0 1 0 1 -4 20230224 1201)
 	      ((emacs
 		(25 1))
 	       (emacsql
@@ -14947,49 +14947,49 @@
 	       (pg
 		(0 16)))
 	      "EmacSQL back-end for PostgreSQL via pg" single
-	      ((:commit . "0bcf526c48bed7004db7ff2fdc340ce018273d3e")
+	      ((:commit . "7c533fb6c27c3a10b6ab05bddf663e37c109e459")
 	       (:authors
 		("Christopher Wellons" . "wellons@nullprogram.com"))
 	       (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	       (:url . "https://github.com/magit/emacsql"))])
  (emacsql-psql .
-	       [(0 1 0 1 -4 20230222 1914)
+	       [(0 1 0 1 -4 20230224 1201)
 		((emacs
 		  (25 1))
 		 (emacsql
 		  (20230220)))
 		"EmacSQL back-end for PostgreSQL via psql" single
-		((:commit . "0bcf526c48bed7004db7ff2fdc340ce018273d3e")
+		((:commit . "7c533fb6c27c3a10b6ab05bddf663e37c109e459")
 		 (:authors
 		  ("Christopher Wellons" . "wellons@nullprogram.com"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		 (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite .
-		 [(3 1 1 50 -4 20230223 2131)
+		 [(3 1 1 50 -4 20230224 1201)
 		  ((emacs
 		    (25 1))
 		   (emacsql
 		    (20230220)))
 		  "EmacSQL back-end for SQLite" tar
-		  ((:commit . "f75ec0c6d8b041a2dc88a85ce1fcbb93b1edeaff")
+		  ((:commit . "7c533fb6c27c3a10b6ab05bddf663e37c109e459")
 		   (:authors
 		    ("Christopher Wellons" . "wellons@nullprogram.com"))
 		   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-builtin .
-			 [(0 1 0 1 -4 20230222 1914)
+			 [(0 1 0 1 -4 20230224 1201)
 			  ((emacs
 			    (29))
 			   (emacsql
 			    (20230220)))
 			  "EmacSQL back-end for SQLite using builtin support" single
-			  ((:commit . "b33073257e0ad0cce8c026d24d9705e3b35f6e6d")
+			  ((:commit . "7c533fb6c27c3a10b6ab05bddf663e37c109e459")
 			   (:authors
 			    ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 			   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-module .
-			[(0 1 0 1 -4 20230222 1914)
+			[(0 1 0 1 -4 20230224 1201)
 			 ((emacs
 			   (25))
 			  (emacsql
@@ -14997,7 +14997,7 @@
 			  (sqlite3
 			   (0 16)))
 			 "EmacSQL back-end for SQLite using a module" single
-			 ((:commit . "b33073257e0ad0cce8c026d24d9705e3b35f6e6d")
+			 ((:commit . "7c533fb6c27c3a10b6ab05bddf663e37c109e459")
 			  (:authors
 			   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -22153,11 +22153,11 @@
 	  (:maintainer "Masafumi Oyamada" . "stillpedant@gmail.com")
 	  (:keywords "languages"))])
  (fzf .
-      [(0 0 2 1 -4 20230221 1639)
+      [(0 0 2 1 -4 20230224 1236)
        ((emacs
 	 (24 4)))
        "A front-end for fzf." single
-       ((:commit . "6ba10122d590786d8fa9e98db1610d74fa3f159e")
+       ((:commit . "f90ee73f9427ddce396fdca93a5be1ea04e56a1b")
 	(:authors
 	 ("Bailey Ling"))
 	(:maintainer "Bailey Ling")
