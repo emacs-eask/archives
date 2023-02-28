@@ -10887,13 +10887,13 @@
 	 (:keywords "tools" "convenience" "languages" "dlang")
 	 (:url . "https://github.com/qsimpleq/elisp-dfmt"))])
  (dhall-mode .
-	     [(0 1 3 1 -4 20220519 1115)
+	     [(0 1 3 1 -4 20230228 1005)
 	      ((emacs
 		(24 4))
 	       (reformatter
 		(0 3)))
 	      "Major mode for the dhall configuration language" single
-	      ((:commit . "c77f1c1e75b6d2725019c5275fc102ae98d25628")
+	      ((:commit . "87ab69fe765d87b3bb1604a306a8c44d6887681d")
 	       (:authors
 		("Sibi Prabakaran" . "sibi@psibi.in"))
 	       (:maintainer "Sibi Prabakaran" . "sibi@psibi.in")
@@ -13986,11 +13986,11 @@
 	  (:keywords "maint" "tools")
 	  (:url . "https://github.com/doublep/eldev"))])
  (eldoc-box .
-	    [(1 10 1 -4 20230223 119)
+	    [(1 10 1 -4 20230228 237)
 	     ((emacs
 	       (27 1)))
 	     "Display documentation in childframe" single
-	     ((:commit . "c8da9703ea2a622ac82cb83c35f3ec59acc17aad")
+	     ((:commit . "16fbf1f17f09a8308d5e5df3a3a97277baa5736a")
 	      (:authors
 	       ("Sebastien Chapuis" . "sebastien@chapu.is"))
 	      (:maintainer "Yuan Fu" . "casouri@gmail.com")
@@ -14915,23 +14915,23 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(3 1 1 50 -4 20230224 1201)
+	  [(3 1 1 50 -4 20230228 1040)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
-	   ((:commit . "7c533fb6c27c3a10b6ab05bddf663e37c109e459")
+	   ((:commit . "415dbfd846f46d921a70a351695f0d0e8f75da35")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	    (:url . "https://github.com/magit/emacsql"))])
  (emacsql-mysql .
-		[(0 1 0 1 -4 20230224 1201)
+		[(0 1 0 1 -4 20230225 2205)
 		 ((emacs
 		   (25 1))
 		  (emacsql
 		   (20230220)))
 		 "EmacSQL back-end for MySQL" single
-		 ((:commit . "7c533fb6c27c3a10b6ab05bddf663e37c109e459")
+		 ((:commit . "b436adf09ebe058c28e0f473bed90ccd7084f6aa")
 		  (:authors
 		   ("Christopher Wellons" . "wellons@nullprogram.com"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -14951,25 +14951,25 @@
 	       (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	       (:url . "https://github.com/magit/emacsql"))])
  (emacsql-psql .
-	       [(0 1 0 1 -4 20230224 1201)
+	       [(0 1 0 1 -4 20230225 2205)
 		((emacs
 		  (25 1))
 		 (emacsql
 		  (20230220)))
 		"EmacSQL back-end for PostgreSQL via psql" single
-		((:commit . "7c533fb6c27c3a10b6ab05bddf663e37c109e459")
+		((:commit . "b436adf09ebe058c28e0f473bed90ccd7084f6aa")
 		 (:authors
 		  ("Christopher Wellons" . "wellons@nullprogram.com"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		 (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite .
-		 [(3 1 1 50 -4 20230224 1201)
+		 [(3 1 1 50 -4 20230225 2205)
 		  ((emacs
 		    (25 1))
 		   (emacsql
 		    (20230220)))
 		  "EmacSQL back-end for SQLite" tar
-		  ((:commit . "7c533fb6c27c3a10b6ab05bddf663e37c109e459")
+		  ((:commit . "b436adf09ebe058c28e0f473bed90ccd7084f6aa")
 		   (:authors
 		    ("Christopher Wellons" . "wellons@nullprogram.com"))
 		   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -17955,11 +17955,11 @@
 	       (:keywords "extend" "drag and drop")
 	       (:url . "https://github.com/mlf176f2/extend-dnd"))])
  (external-dict .
-		[(0 1 0 1 -4 20221210 407)
+		[(0 1 0 1 -4 20230228 828)
 		 ((emacs
 		   (25 1)))
 		 "Query external dictionary like goldendict, Bob.app etc" single
-		 ((:commit . "a9ceb6c2e12df460ce1686d47cafd88f212d0291")
+		 ((:commit . "68ab3e5f78239774d1710874e8a68e3f8498cee3")
 		  (:keywords "wp" "processes")
 		  (:url . "https://repo.or.cz/external-dict.el.git"))])
  (extmap .
@@ -42451,13 +42451,13 @@
 			(:keywords "tex" "tools")
 			(:url . "https://github.com/yangsheng6810/org-latex-instant-preview"))])
  (org-link-beautify .
-		    [(1 2 2 1 -4 20230221 1311)
+		    [(1 2 2 1 -4 20230228 958)
 		     ((emacs
 		       (28 1))
 		      (all-the-icons
 		       (5 0 0)))
 		     "Beautify Org Links" tar
-		     ((:commit . "370535e4259888f686cb6cedcabb79c5b389e6bb")
+		     ((:commit . "5d8ea07090dee2999f637ddcd61705b3b1cc34c7")
 		      (:keywords "hypermedia")
 		      (:url . "https://repo.or.cz/org-link-beautify.git"))])
  (org-link-travis .
