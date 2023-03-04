@@ -3875,13 +3875,13 @@
 	     (:keywords "extensions")
 	     (:url . "https://github.com/radian-software/blackout"))])
  (blamer .
-	 [(0 6 0 1 -4 20230302 1923)
+	 [(0 6 0 1 -4 20230304 907)
 	  ((emacs
 	    (27 1))
 	   (posframe
 	    (1 1 7)))
 	  "Show git blame info about current line" single
-	  ((:commit . "0494ef497a96cb50f83f941887666fc8ca10905f")
+	  ((:commit . "a8c4b8c3c8b3add17b10b7323c86228e322513c3")
 	   (:authors
 	    ("Artur Yaroshenko" . "artawower@protonmail.com"))
 	   (:maintainer "Artur Yaroshenko" . "artawower@protonmail.com")
@@ -14740,7 +14740,7 @@
 	    (:keywords "html" "hypermedia" "tools" "webscale")
 	    (:url . "https://github.com/AdamNiederer/elquery"))])
  (elsa .
-       [(0 1 0 1 -4 20230302 1504)
+       [(0 1 0 1 -4 20230304 1228)
 	((emacs
 	  (25 1))
 	 (trinary
@@ -14754,11 +14754,12 @@
 	 (lsp-mode
 	  (0)))
 	"Emacs Lisp Static Analyser" tar
-	((:commit . "1a92dd26a62ac501eb61966f92b87db65782bd45")
+	((:commit . "2126a72f6d5d632741d9f5209997fb4f11133fd7")
 	 (:authors
 	  ("Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com"))
 	 (:maintainer "Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com")
-	 (:keywords "languages" "lisp"))])
+	 (:keywords "languages" "lisp")
+	 (:url . "https://github.com/emacs-elsa/Elsa"))])
  (elscreen .
 	   [(20180321 1 -4 20181009 451)
 	    ((emacs
@@ -16682,7 +16683,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20230303 1006)
+       [(1 15 0 1 -4 20230304 949)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -16690,7 +16691,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "96280419b46d43f5b7c33e3c655b62da69e0c671")
+	((:commit . "2b2ba3cbeabe1f239b6b0ebdaddcb68dd158bd1f")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulations")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -42436,13 +42437,13 @@
 			(:keywords "tex" "tools")
 			(:url . "https://github.com/yangsheng6810/org-latex-instant-preview"))])
  (org-link-beautify .
-		    [(1 2 2 1 -4 20230301 19)
+		    [(1 2 2 1 -4 20230304 1214)
 		     ((emacs
 		       (28 1))
 		      (all-the-icons
 		       (5 0 0)))
 		     "Beautify Org Links" tar
-		     ((:commit . "f784f82176b23566b94acad6d3d451e5fb4608b5")
+		     ((:commit . "8e0e45bf5bb06996895e99a223ee038fa9da5bf9")
 		      (:keywords "hypermedia")
 		      (:url . "https://repo.or.cz/org-link-beautify.git"))])
  (org-link-travis .
@@ -56736,7 +56737,7 @@
 	 (:keywords "convenience" "emulations" "files")
 	 (:url . "https://github.com/mtk/teco.git"))])
  (telega .
-	 [(0 8 110 1 -4 20230225 2000)
+	 [(0 8 110 1 -4 20230304 1158)
 	  ((emacs
 	    (26 1))
 	   (visual-fill-column
@@ -56744,7 +56745,7 @@
 	   (rainbow-identifiers
 	    (0 2 2)))
 	  "Telegram client (unofficial)" tar
-	  ((:commit . "5032584ad9c79151a171967e191ba078f1266d72")
+	  ((:commit . "2af8f15c6b7ef1a338a11e479d375a97b647fb45")
 	   (:authors
 	    ("Zajcev Evgeny" . "zevlg@yandex.ru"))
 	   (:maintainer "Zajcev Evgeny" . "zevlg@yandex.ru")
@@ -58036,13 +58037,13 @@
 		(:keywords "comm" "convenience" "files")
 		(:url . "https://gitlab.com/tuedachu/transfer-sh.el"))])
  (transient .
-	    [(0 3 7 50 -4 20230220 1425)
+	    [(0 3 7 50 -4 20230304 1149)
 	     ((emacs
 	       (25 1))
 	      (compat
 	       (29 1 3 4)))
 	     "Transient commands" tar
-	     ((:commit . "0204a2432862aa187745995f1c378e6d875b35cb")
+	     ((:commit . "75a5076def1e6f5265eb2346a951ba9d97502fc9")
 	      (:authors
 	       ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	      (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -61563,13 +61564,13 @@
 	   "Major mode interface to WordNet" tar
 	   ((:commit . "feac531404041855312c1a046bde7ea18c674915"))])
  (wordreference .
-		[(0 2 1 -4 20230214 1735)
+		[(0 2 1 -4 20230304 1307)
 		 ((emacs
 		   (27 1))
 		  (s
 		   (1 12 0)))
 		 "Interface for wordreference.com" single
-		 ((:commit . "8ccda3422fc30fba23602327cc8e7de9f53bfa1d")
+		 ((:commit . "ea741be7ff0979552f7dfb591596075add0293b7")
 		  (:authors
 		   ("Marty Hiatt <martianhiatus AT riseup.net>"))
 		  (:maintainer "Marty Hiatt <martianhiatus AT riseup.net>")
