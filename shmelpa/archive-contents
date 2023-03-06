@@ -3644,6 +3644,21 @@
 	    ((:commit . "aeba96368f2a06959e4fe945375ce2a54d34b189")
 	     (:keywords "bibliography" "nasa ads")
 	     (:url . "https://github.com/mkmcc/bibslurp"))])
+ (bibtex-capf .
+	      [(1 0 1 -4 20230226 2331)
+	       ((emacs
+		 (27 1))
+		(parsebib
+		 (3 0))
+		(org
+		 (9 5)))
+	       "Completion at point for bibtex --- *- lexical-binding: t -*-" single
+	       ((:commit . "7635fec3bc565acafbb6e1bff1cc711844f869ce")
+		(:authors
+		 ("Colin McLear"))
+		(:maintainer "Colin McLear")
+		(:keywords "bibtex" "convenience")
+		(:url . "https://github.com/mclear-tools/bibtex-capf"))])
  (bibtex-completion .
 		    [(1 0 0 1 -4 20221024 857)
 		     ((parsebib
@@ -4256,11 +4271,11 @@
 	(:keywords "background" "async" "process" "management")
 	(:url . "https://github.com/ilya-babanov/emacs-bpr"))])
  (bqn-mode .
-	   [(0 1 0 1 -4 20230215 309)
+	   [(0 1 0 1 -4 20230305 2258)
 	    ((emacs
 	      (26 1)))
 	    "Emacs mode for BQN" tar
-	    ((:commit . "6089e141dd693f809673c518fa07283ffeadb734")
+	    ((:commit . "f7a5713c301bc90a66108a233344d3fab449c1b1")
 	     (:authors
 	      ("Marshall Lochbaum" . "mwlochbaum@gmail.com"))
 	     (:maintainer "Marshall Lochbaum" . "mwlochbaum@gmail.com")
@@ -10201,6 +10216,17 @@
 	       (:maintainer "Tom Jakubowski" . "tom@crystae.net")
 	       (:keywords "games")
 	       (:url . "http://github.com/tomjakubowski/dark-souls.el"))])
+ (darkman .
+	  [(0 7 0 1 -4 20230306 21)
+	   ((emacs
+	     (28 1)))
+	   "Seamless integration with Darkman" tar
+	   ((:commit . "3a0505fa79fd6feefbbde5c0af7292e484e5b715")
+	    (:authors
+	     ("Aziz Ben Ali" . "tahaaziz.benali@esprit.tn"))
+	    (:maintainer "Aziz Ben Ali" . "tahaaziz.benali@esprit.tn")
+	    (:keywords "convenience")
+	    (:url . "https://grtcdr.tn/darkman.el/"))])
  (darkmine-theme .
 		 [(0 5 1 -4 20160406 624)
 		  nil "Yet another emacs dark color theme." single
@@ -14332,11 +14358,11 @@
 	   (:keywords "lisp")
 	   (:url . "http://github.com/demyanrogozhin/elhome"))])
  (elisp-autofmt .
-		[(0 1 1 -4 20230305 1227)
+		[(0 1 1 -4 20230305 2340)
 		 ((emacs
 		   (28 1)))
 		 "Emacs lisp auto-format" tar
-		 ((:commit . "411dca7d4435eee20073a3447e9b1a4d626a861c")
+		 ((:commit . "93110e902a22599b20cf0077de3e0ec65a5efc21")
 		  (:authors
 		   ("Campbell Barton" . "ideasman42@gmail.com"))
 		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -15045,13 +15071,13 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 21 1 1 -4 20230305 1726)
+	 [(0 21 1 1 -4 20230305 2339)
 	  ((emacs
 	    (27 1))
 	   (compat
 	    (29 1 4 0)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "8245308630948a4e1f0d0539c8939e2831255d43")
+	  ((:commit . "1db978b1fea0d08f8100526ed0f734eee27bfd3c")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainer "Omar Antol\303\255n Camarena" . "omar@matem.unam.mx")
@@ -18382,7 +18408,7 @@
 	     (:keywords "languages" "faust")
 	     (:url . "https://bitbucket.org/yphil/faustine"))])
  (fb2-reader .
-	     [(0 1 0 1 -4 20230304 1832)
+	     [(0 1 1 1 -4 20230305 2309)
 	      ((emacs
 		(26 2))
 	       (f
@@ -18396,7 +18422,7 @@
 	       (async
 		(1 9 4)))
 	      "Read FB2 and FB2.ZIP documents" single
-	      ((:commit . "8ba78e4c029b077c7d2bab8082c12ecfa3b81bb7")
+	      ((:commit . "9836db284749e0cef4c43c2cb5358c82ae9b8589")
 	       (:authors
 		("Dmitriy Pshonko" . "jumper047@gmail.com"))
 	       (:maintainer "Dmitriy Pshonko" . "jumper047@gmail.com")
@@ -30034,11 +30060,11 @@
 	     (:keywords "languages" "wp" "hypermedia")
 	     (:url . "https://github.com/Kungsgeten/ink-mode"))])
  (inkpot-theme .
-	       [(0 1 1 -4 20230110 950)
+	       [(0 1 1 -4 20230306 3)
 		((emacs
 		  (24 1)))
 		"A port of vim's inkpot theme" single
-		((:commit . "fa0746d927ad205b2f17589e67703c18f42aacf4")
+		((:commit . "f30a84f3d98e5682ef123136394e5859752c5168")
 		 (:authors
 		  ("Sarah Iovan" . "sarah@hwaetageek.com")
 		  ("Campbell Barton" . "ideasman42@gmail.com"))
@@ -30148,6 +30174,17 @@
 	      (:maintainer "John D. Hume" . "duelin.markers@gmail.com")
 	      (:keywords "clojure")
 	      (:url . "http://github.com/duelinmarkers/insfactor.el"))])
+ (inspire .
+	  [(0 0 1 1 -4 20230222 719)
+	   ((emacs
+	     (27 1)))
+	   "Emacs interface for inspirehep.net" single
+	   ((:commit . "1157f8e16b0e7b6d68184993cb94332b0cb5494c")
+	    (:authors
+	     ("Simon Lin" . "n.sibetz@gmail.com"))
+	    (:maintainer "Simon Lin" . "n.sibetz@gmail.com")
+	    (:keywords "extensions" "tex")
+	    (:url . "https://github.com/Simon-Lin/inspire.el"))])
  (intel-hex-mode .
 		 [(0 1 3 1 -4 20180423 31)
 		  nil "Mode for Intel Hex files." single
@@ -32816,11 +32853,11 @@
 		(:maintainer "Wamm K. D." . "jaft.r@outlook.com")
 		(:url . "https://codeberg.org/WammKD/emacs-klere-theme"))])
  (kmacro-x .
-	   [(0 9 1 -4 20230305 1619)
+	   [(0 9 1 -4 20230306 27)
 	    ((emacs
 	      (27 2)))
 	    "Keyboard macro helpers and extensions" tar
-	    ((:commit . "82d10aae9e4ef1bd445667511f6fb6e1ec1a6e3a")
+	    ((:commit . "9c898e07ee1a10390889254ef38babcbe1a6c0fd")
 	     (:authors
 	      ("Wojciech Siewierski"))
 	     (:maintainer "Wojciech Siewierski")
@@ -33861,13 +33898,15 @@
 	     (:keywords "multimedia")
 	     (:url . "https://github.com/mpdel/libmpdel"))])
  (librera-sync .
-	       [(0 1 0 1 -4 20210827 2300)
+	       [(0 2 0 1 -4 20230306 17)
 		((emacs
 		  (26 1))
 		 (f
-		  (0 17)))
+		  (0 17))
+		 (dash
+		  (2 12 0)))
 		"Sync document's position with Librera Reader for Android" tar
-		((:commit . "b6b97adc08c26b1595249e1c129793100f4ca26e")
+		((:commit . "29e158fc478d5817dffc4045b067feed4c3d0dbe")
 		 (:authors
 		  ("Dmitriy Pshonko" . "jumper047@gmail.com"))
 		 (:maintainer "Dmitriy Pshonko" . "jumper047@gmail.com")
@@ -33950,7 +33989,7 @@
 	      (:keywords "languages")
 	      (:url . "https://gitlab.com/ligolang/ligo/-/tree/dev/tools/emacs"))])
  (line-reminder .
-		[(0 5 1 1 -4 20230104 1211)
+		[(0 5 1 1 -4 20230305 2230)
 		 ((emacs
 		   (25 1))
 		  (indicators
@@ -33962,7 +34001,7 @@
 		  (ht
 		   (2 0)))
 		 "Line annotation for changed and saved lines" single
-		 ((:commit . "41a22589ebc3843f6736669a4517014800f09e16")
+		 ((:commit . "ea916b5c040cbc7e39b46c1137b4d0bf5c19a241")
 		  (:authors
 		   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -37077,11 +37116,11 @@
 	  (:maintainer "Daniel Szmulewicz" . "daniel.szmulewicz@gmail.com")
 	  (:url . "https://github.com/danielsz/meyvn-el"))])
  (mgmtconfig-mode .
-		  [(0 1 0 1 -4 20220806 306)
+		  [(0 1 0 1 -4 20230305 2331)
 		   ((emacs
 		     (24 3)))
 		   "mgmt configuration management language" single
-		   ((:commit . "3cea4223657cdbb32fcb0afc54bb736388dfbd5e")
+		   ((:commit . "a7624a2bf97c4dd99745935f68883df907c2e9b3")
 		    (:authors
 		     ("Peter Oliver" . "mgmtconfig@mavit.org.uk"))
 		    (:maintainer "Mgmt contributors <https://github.com/purpleidea/mgmt>")
@@ -37715,6 +37754,16 @@
 	  (:maintainer "Anantha kumaran" . "ananthakumaran@gmail.com")
 	  (:keywords "tools")
 	  (:url . "http://github.com/ananthakumaran/monky"))])
+ (mono-complete .
+		[(0 1 1 -4 20230306 57)
+		 ((emacs
+		   (28 1)))
+		 "Completion suggestions with multiple back-ends" tar
+		 ((:commit . "eda613656bdf64760a593c73d36c706f6bfa7939")
+		  (:authors
+		   ("Campbell Barton" . "ideasman42@gmail.com"))
+		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
+		  (:url . "https://codeberg.org/ideasman42/emacs-mono-complete"))])
  (monochrome-theme .
 		   [(0 1 0 1 -4 20140326 1050)
 		    nil "A dark Emacs 24 theme for your focused hacking sessions" tar
@@ -40890,11 +40939,11 @@
 	  (:keywords "convenience")
 	  (:url . "https://github.com/clemera/objed"))])
  (oblivion-theme .
-		 [(0 1 1 -4 20230112 636)
+		 [(0 1 1 -4 20230306 1)
 		  ((emacs
 		    (24 1)))
 		  "A port of GEdit oblivion theme" single
-		  ((:commit . "751687dd6163593fca2b21bb06a75ac2597de055")
+		  ((:commit . "b1181a024a1c2295a42915c0110ac9816844aff6")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
@@ -54884,11 +54933,11 @@
 		     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		     (:url . "https://codeberg.org/ideasman42/emacs-spatial-navigate"))])
  (spdx .
-       [(0 1 0 1 -4 20230224 116)
+       [(0 1 0 1 -4 20230306 121)
 	((emacs
 	  (24 4)))
 	"Insert SPDX license and copyright headers" tar
-	((:commit . "66afaeda787edbb509b24fd3999763493822d3f5")
+	((:commit . "510679fd72ace18c5fc0c7d5f25c1fe67ba14c6f")
 	 (:authors
 	  ("Zhiwei Chen" . "condy0919@gmail.com"))
 	 (:maintainer "Zhiwei Chen" . "condy0919@gmail.com")
@@ -56627,6 +56676,17 @@
 	       ("Peter Kosov" . "11111000000@email.com"))
 	      (:maintainer "Peter Kosov" . "11111000000@email.com")
 	      (:url . "http://github.com/11111000000/tao-theme-emacs"))])
+ (tardis-theme .
+	       [(0 1 0 1 -4 20230212 2152)
+		((emacs
+		  (25 1)))
+		"Quantum Country Theme" single
+		((:commit . "352b1579d13e99cff9367b08208c1e241d76c89e")
+		 (:authors
+		  ("Anton Hibl" . "antonhibl11@gmail.com"))
+		 (:maintainer "Anton Hibl" . "antonhibl11@gmail.com")
+		 (:keywords "convenience")
+		 (:url . "https://github.com/antonhibl/tardis-theme"))])
  (taskpaper-mode .
 		 [(0 1 0 1 -4 20221030 1048)
 		  ((emacs
@@ -60648,6 +60708,17 @@
 		     (:authors
 		      ("martin haesler"))
 		     (:maintainer "martin haesler"))])
+ (wasp-mode .
+	    [(0 0 1 1 -4 20230226 2035)
+	     ((emacs
+	       (24 3)))
+	     "A major mode for the Wasp programming language" single
+	     ((:commit . "00fc41ecfe0291cc32e012a074d8a3a65e1bfd64")
+	      (:authors
+	       ("XXIV"))
+	      (:maintainer "XXIV")
+	      (:keywords "files" "wasp")
+	      (:url . "https://github.com/thechampagne/wasp-mode"))])
  (wavefront-obj-mode .
 		     [(0 6 1 -4 20170808 1716)
 		      nil "Major mode for Wavefront obj files" single
