@@ -11619,11 +11619,12 @@
 		  (:keywords "dired" "files" "tools")
 		  (:url . "https://github.com/jojojames/dired-sidebar"))])
  (dired-single .
-	       [(0 3 0 1 -4 20220917 625)
-		nil "Reuse the current dired buffer to visit a directory" single
-		((:commit . "3bb53664ccdfb2f911667947be6b6c022e4ec758")
-		 (:keywords "dired" "reuse" "buffer")
-		 (:url . "https://github.com/crocket/dired-single"))])
+	       [(0 3 1 1 -4 20230306 626)
+		((emacs
+		  (25 1)))
+		"Reuse the current dired buffer" single
+		((:commit . "c781b7dcff6e7f9a5060b067d2cdb0acbc840c49")
+		 (:url . "https://codeberg.org/amano.kenji/dired-single"))])
  (dired-subtree .
 		[(0 0 1 1 -4 20230118 1953)
 		 ((dash
@@ -21549,7 +21550,7 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 3 2 50 -4 20230222 1917)
+	[(0 3 2 50 -4 20230306 1332)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -21573,7 +21574,7 @@
 	  (yaml
 	   (0 3 5)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "ba35ffc9bafc6457cc95633904e53e34e544543f")
+	 ((:commit . "91e26db79dbb16af7226229d99d7ba75920aff1a")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -25425,13 +25426,13 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 0 1 -4 20230305 523)
+       [(3 9 0 1 -4 20230306 1500)
 	((helm-core
 	  (3 9 0))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "f846ff91a461718fc9b1c240e1ded771ade42808")
+	((:commit . "128e162fd3a16609fb618ff74d21d1470cdf1439")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -25878,13 +25879,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 9 0 1 -4 20230227 649)
+	    [(3 9 0 1 -4 20230306 1500)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 7)))
 	     "Development files for Helm" tar
-	     ((:commit . "e8957d1b38abd554aecfb2bf87ffc88b8d3311a7")
+	     ((:commit . "128e162fd3a16609fb618ff74d21d1470cdf1439")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
@@ -35547,7 +35548,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230302 2135)
+	[(3 3 0 50 -4 20230306 1421)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -35563,7 +35564,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "b926ab0e051e497e8ed43754cfd2012d23dbfc4c")
+	 ((:commit . "8586e49d81d88dcd483aa534e95a8b2b5fe0f640")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -37261,13 +37262,13 @@
 		     (:keywords "header-line" "mode-line")
 		     (:url . "https://github.com/ksjogo/mini-header-line"))])
  (mini-modeline .
-		[(0 1 1 -4 20220910 1508)
+		[(0 1 1 -4 20230306 1521)
 		 ((emacs
 		   (25 1))
 		  (dash
 		   (2 12 0)))
 		 "Display modeline in minibuffer" single
-		 ((:commit . "55ad82056dd26bbf60585574927ef28441d318d8")
+		 ((:commit . "86e753b6c38a06b0fc80d7560aa6a25245fd4d38")
 		  (:authors
 		   ("Kien Nguyen" . "kien.n.quang@gmail.com"))
 		  (:maintainer "Kien Nguyen" . "kien.n.quang@gmail.com")
@@ -52107,11 +52108,6 @@
 	   (:maintainer "Mario Rodas" . "marsam@users.noreply.github.com")
 	   (:keywords "convenience")
 	   (:url . "https://github.com/emacs-pe/scihub.el"))])
- (scion .
-	[(0 1 0 1 -4 20130315 1255)
-	 nil "Haskell Minor Mode for Interacting with the Scion Library" single
-	 ((:commit . "99b4589175665687181a932cd836850205625f71")
-	  (:url . "https://code.google.com/p/scion-lib/"))])
  (sclang-extensions .
 		    [(2 2 14 1 -4 20160509 338)
 		     ((auto-complete
