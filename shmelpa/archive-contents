@@ -1920,11 +1920,11 @@
 		 (:keywords "languages" "arduino")
 		 (:url . "https://repo.or.cz/arduino-mode.git"))])
  (aria2 .
-	[(2 1 -4 20230205 1008)
+	[(2 1 -4 20230310 1014)
 	 ((emacs
-	   (24 4)))
+	   (25 1)))
 	 "Control aria2c commandline tool from Emacs" single
-	 ((:commit . "cc1661525bdf5c908c94a9d891a62d9b2e313670")
+	 ((:commit . "55a2317a82aed56e12b1abb827807f05456f23a2")
 	  (:authors
 	   ("\305\201ukasz Gruner" . "lukasz@gruner.lu"))
 	  (:maintainer "\305\201ukasz Gruner" . "lukasz@gruner.lu")
@@ -13553,29 +13553,6 @@
 		 ("Satoshi Egi" . "egisatoshi@gmail.com"))
 		(:maintainer "Satoshi Egi" . "egisatoshi@gmail.com")
 		(:url . "https://github.com/egisatoshi/egison3/blob/master/elisp/egison-mode.el"))])
- (eglot .
-	[(1 9 1 -4 20221020 1010)
-	 ((emacs
-	   (26 3))
-	  (jsonrpc
-	   (1 0 14))
-	  (flymake
-	   (1 2 1))
-	  (project
-	   (0 3 0))
-	  (xref
-	   (1 0 1))
-	  (eldoc
-	   (1 11 0))
-	  (seq
-	   (2 23)))
-	 "The Emacs Client for LSP servers" single
-	 ((:commit . "e501275e06952889056268dabe08ccd0dbaf23e5")
-	  (:authors
-	   ("Jo\303\243o T\303\241vora" . "joaotavora@gmail.com"))
-	  (:maintainer "Jo\303\243o T\303\241vora" . "joaotavora@gmail.com")
-	  (:keywords "convenience" "languages")
-	  (:url . "https://github.com/joaotavora/eglot"))])
  (eglot-fsharp .
 	       [(1 10 1 -4 20230219 1511)
 		((emacs
