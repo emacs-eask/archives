@@ -46200,6 +46200,20 @@
 		   (:maintainer "Randall Wang" . "randall.wjz@gmail.com")
 		   (:keywords "convenience" "frames")
 		   (:url . "https://github.com/mpwang/perfect-margin"))])
+ (perject .
+	  [(3 2 1 -4 20230306 1033)
+	   ((emacs
+	     (27 1))
+	    (dash
+	     (2 10))
+	    (transient
+	     (0 3 7)))
+	   "Session-persistent project management" tar
+	   ((:commit . "82d007ec7201c21d8dd31d95e857632887582be6")
+	    (:authors
+	     ("overideal"))
+	    (:maintainer "overideal")
+	    (:url . "https://github.com/overideal/perject"))])
  (perlbrew .
 	   [(0 3 1 -4 20161109 709)
 	    nil "A perlbrew wrapper for Emacs" single
@@ -52145,6 +52159,16 @@
 		     ("ptrv" . "mail@petervasil.net"))
 		    (:maintainer "ptrv" . "mail@petervasil.net")
 		    (:keywords "snippets"))])
+ (scopeline .
+	    [(0 1 1 -4 20230311 705)
+	     ((emacs
+	       (26 1))
+	      (tree-sitter
+	       (0 15 0)))
+	     "Show scope info of blocks in buffer at end of scope" single
+	     ((:commit . "e8ac4b44292f48bc13435da49d69a290a741a53e")
+	      (:keywords "scope" "context" "tree-sitter" "convenience")
+	      (:url . "https://github.com/meain/scopeline.el"))])
  (scpaste .
 	  [(0 6 5 1 -4 20221125 1731)
 	   ((htmlize
@@ -61735,6 +61759,17 @@
 		(:maintainer "Johan Andersson" . "johan.rejeep@gmail.com")
 		(:keywords "speed" "convenience")
 		(:url . "http://github.com/rejeep/wrap-region"))])
+ (wren-mode .
+	    [(0 0 1 1 -4 20221227 227)
+	     ((emacs
+	       (24 3)))
+	     "A major mode for the Wren programming language" single
+	     ((:commit . "70b1b89f565679a15c8c9c1a9bda98b0d163e83e")
+	      (:authors
+	       ("XXIV"))
+	      (:maintainer "XXIV")
+	      (:keywords "files" "wren")
+	      (:url . "https://github.com/thechampagne/wren-mode"))])
  (writefreely .
 	      [(0 1 0 1 -4 20221221 1456)
 	       ((emacs
