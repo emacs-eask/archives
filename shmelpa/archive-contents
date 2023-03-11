@@ -3190,13 +3190,13 @@
 	      (:keywords "languages" "basic")
 	      (:url . "https://gitlab.com/sasanidas/emacs-c64-basic-ide"))])
  (basic-mode .
-	     [(1 0 3 1 -4 20230213 1822)
+	     [(1 0 4 1 -4 20230311 1518)
 	      ((seq
 		(2 20))
 	       (emacs
 		(25 1)))
 	      "Major mode for editing BASIC code" single
-	      ((:commit . "361dc1ea54bca3ab7a9ff36b64874dbe5c383382")
+	      ((:commit . "5773a2639471db7ce0ecea7bb2b6f797c7fcad9a")
 	       (:authors
 		("Johan Dykstrom"))
 	       (:maintainer "Johan Dykstrom")
@@ -4271,11 +4271,11 @@
 	(:keywords "background" "async" "process" "management")
 	(:url . "https://github.com/ilya-babanov/emacs-bpr"))])
  (bqn-mode .
-	   [(0 1 0 1 -4 20230311 143)
+	   [(0 1 0 1 -4 20230311 1245)
 	    ((emacs
 	      (26 1)))
 	    "Emacs mode for BQN" tar
-	    ((:commit . "53e99ff81993be389b0955aee7a6cdf12dfa1605")
+	    ((:commit . "8dd46215c4534a057758bd4ef15173d2820cefa7")
 	     (:authors
 	      ("Marshall Lochbaum" . "mwlochbaum@gmail.com"))
 	     (:maintainer "Marshall Lochbaum" . "mwlochbaum@gmail.com")
@@ -17578,15 +17578,13 @@
 			(:keywords "evil" "syntax" "highlight" "text-object")
 			(:url . "https://github.com/laishulu/evil-textobj-syntax"))])
  (evil-textobj-tree-sitter .
-			   [(0 1 1 -4 20230307 1120)
+			   [(0 1 1 -4 20230311 1441)
 			    ((emacs
 			      (25 1))
-			     (evil
-			      (1 0 0))
 			     (tree-sitter
 			      (0 15 0)))
 			    "Provides evil textobjects using tree-sitter" tar
-			    ((:commit . "30cd60a279945aa6dbd63bb9a698668fada4c9cb")
+			    ((:commit . "11bbbab2412aec2bca16381ff639385644ca4b98")
 			     (:keywords "evil" "tree-sitter" "text-object" "convenience")
 			     (:url . "https://github.com/meain/evil-textobj-tree-sitter"))])
  (evil-traces .
