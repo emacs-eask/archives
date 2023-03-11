@@ -873,13 +873,13 @@
 	(:keywords "data" "tools")
 	(:url . "https://github.com/Sauermann/emacs-aes"))])
  (affe .
-       [(0 6 1 -4 20230305 724)
+       [(0 7 1 -4 20230311 1902)
 	((emacs
 	  (27 1))
 	 (consult
-	  (0 32)))
+	  (0 33)))
 	"Asynchronous Fuzzy Finder for Emacs" tar
-	((:commit . "cc54d36846e1f2ff9d4decbde8220a69be94cbf3")
+	((:commit . "9e1524c1ad71c0f57b5a33ae0874dce70994b282")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -5639,6 +5639,17 @@
 		  ("Magnar Sveen" . "magnars@gmail.com"))
 		 (:maintainer "Magnar Sveen" . "magnars@gmail.com")
 		 (:keywords "convenience" "extensions"))])
+ (chaos-mode .
+	     [(0 0 1 1 -4 20221227 223)
+	      ((emacs
+		(24 3)))
+	      "A major mode for the Chaos programming language" single
+	      ((:commit . "801d869c461166eb2face2554b9b7883a26374c6")
+	       (:authors
+		("XXIV"))
+	       (:maintainer "XXIV")
+	       (:keywords "files" "chaos")
+	       (:url . "https://github.com/thechampagne/chaos-mode"))])
  (chapel-mode .
 	      [(0 0 1 1 -4 20210513 457)
 	       ((emacs
@@ -8500,13 +8511,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 32 1 -4 20230307 1455)
+	  [(0 33 1 -4 20230311 1859)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (29 1 4 0)))
 	   "Consulting completing-read" tar
-	   ((:commit . "e408ccfa41f542c1f55db1f15972291f1c79a557")
+	   ((:commit . "fd00979d2fbfad66960c621e9fc140eb8c6a06f3")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -14744,7 +14755,7 @@
 	    (:keywords "html" "hypermedia" "tools" "webscale")
 	    (:url . "https://github.com/AdamNiederer/elquery"))])
  (elsa .
-       [(0 1 0 1 -4 20230309 2152)
+       [(0 1 0 1 -4 20230311 1838)
 	((emacs
 	  (25 1))
 	 (trinary
@@ -14758,7 +14769,7 @@
 	 (lsp-mode
 	  (0)))
 	"Emacs Lisp Static Analyser" tar
-	((:commit . "e71b8329ffd6ea87a221ab25f4bfa245c59fe5d5")
+	((:commit . "e86ab1777bf4419ca358af677e314bbf8f84acbe")
 	 (:authors
 	  ("Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com"))
 	 (:maintainer "Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com")
@@ -18296,6 +18307,17 @@
 		 (:maintainer "Artur Malabarba" . "bruce.connor.am@gmail.com")
 		 (:keywords "faces" "convenience")
 		 (:url . "http://github.com/Bruce-Connor/fancy-narrow"))])
+ (fantom-mode .
+	      [(0 0 1 1 -4 20221227 218)
+	       ((emacs
+		 (24 3)))
+	       "A major mode for the Fantom programming language" single
+	       ((:commit . "51cd82d29a7dca7bfd043971ba1d0fd21ed11693")
+		(:authors
+		 ("XXIV"))
+		(:maintainer "XXIV")
+		(:keywords "files" "fantom")
+		(:url . "https://github.com/thechampagne/fantom-mode"))])
  (fantom-theme .
 	       [(1 0 1 -4 20200328 604)
 		((emacs
@@ -35985,10 +36007,6 @@
 	   ((:commit . "6309c001355126e3ade79493479b517925943d17")
 	    (:keywords "processes" "terminals")
 	    (:url . "https://github.com/p3r7/magrant"))])
- (majapahit-theme .
-		  [(1 0 0 1 -4 20160817 1848)
-		   nil "Color theme with a dark and light versions" tar
-		   ((:commit . "77c96df7619666b2102d90d452eeadf04adc89a6"))])
  (major-mode-hydra .
 		   [(0 2 2 1 -4 20210221 834)
 		    ((dash
