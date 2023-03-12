@@ -8360,6 +8360,17 @@
 				     (:maintainer "Seong Yong-ju" . "sei40kr@gmail.com")
 				     (:keywords "tools")
 				     (:url . "https://github.com/sei40kr/competitive-programming-snippets"))])
+ (compile-multi .
+		[(0 2 1 -4 20230311 1951)
+		 ((emacs
+		   (28 0)))
+		 "A multi target interface to compile" single
+		 ((:commit . "e475a0477e49d5ca48703bea874dfeea786b9af5")
+		  (:authors
+		   ("mohsin kaleem" . "mohkale@kisara.moe"))
+		  (:maintainer "mohsin kaleem" . "mohkale@kisara.moe")
+		  (:keywords "tools" "compile" "build")
+		  (:url . "https://github.com/mohkale/compile-multi"))])
  (compiler-explorer .
 		    [(0 2 0 1 -4 20221108 825)
 		     ((emacs
@@ -11790,11 +11801,11 @@
 		  (:keywords "mouse")
 		  (:url . "https://github.com/purcell/disable-mouse"))])
  (disaster .
-	   [(1 0 1 -4 20230310 2229)
+	   [(1 0 1 -4 20230311 2324)
 	    ((emacs
 	      (27)))
 	    "Disassemble C, C++ or Fortran code under cursor" single
-	    ((:commit . "50232ae95dd3dd149a82fc1b136c191c9ba9f0f4")
+	    ((:commit . "16bba9afb92aacf06c088c29ba47813b65a80d87")
 	     (:authors
 	      ("Justine Tunney" . "jtunney@gmail.com")
 	      ("Abdelhak Bougouffa" . "abougouffa@fedoraproject.org"))
@@ -16810,7 +16821,7 @@
 			 (:keywords "colemak" "evil")
 			 (:url . "https://github.com/bmallred/evil-colemak-minimal"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20230310 1318)
+		  [(0 4 1 1 -4 20230311 2121)
 		   ((emacs
 		     (26 3))
 		    (evil
@@ -16818,7 +16829,7 @@
 		    (annalist
 		     (1 0)))
 		   "A set of keybindings for Evil mode" tar
-		   ((:commit . "5c9646912c5564e4962b31f1675ad05995ffa846")
+		   ((:commit . "5d26b55d0a714837fe18aa9ea40df1d03d3bdcfe")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainer "James Nguyen" . "james@jojojames.com")
@@ -46042,6 +46053,21 @@
 	 (:maintainer "Masahiro Hayashi" . "mhayashi1120@gmail.com")
 	 (:keywords "data")
 	 (:url . "https://github.com/mhayashi1120/Emacs-pcsv"))])
+ (pd-remote .
+	    [(1 2 0 1 -4 20230307 2259)
+	     ((emacs
+	       (24 3))
+	      (faust-mode
+	       (0 6))
+	      (lua-mode
+	       (20210802)))
+	     "Pd remote control helper" single
+	     ((:commit . "e944426a4d59a31ee913c8547a1ff66c2f7fe82a")
+	      (:authors
+	       ("Albert Graef" . "aggraef@gmail.com"))
+	      (:maintainer "Albert Graef" . "aggraef@gmail.com")
+	      (:keywords "multimedia" "pure-data")
+	      (:url . "https://github.com/agraef/pd-remote"))])
  (pdb-capf .
 	   [(0 1 0 1 -4 20200419 1237)
 	    ((emacs
@@ -59973,7 +59999,7 @@
 	       (:keywords "convenience" "usability" "url")
 	       (:url . "https://github.com/lujun9972/verify-url"))])
  (verilog-ext .
-	      [(0 1 0 1 -4 20230220 1852)
+	      [(0 1 0 1 -4 20230311 2156)
 	       ((emacs
 		 (28 1))
 		(verilog-mode
@@ -59999,9 +60025,11 @@
 		(imenu-list
 		 (0 9))
 		(outshine
-		 (3 1 -1)))
-	       "Verilog Extensions" tar
-	       ((:commit . "6872a42791c5105bfe1de1d63abae537559c7ca9")
+		 (3 1 -1))
+		(async
+		 (1 9 7)))
+	       "SystemVerilog Extensions" tar
+	       ((:commit . "7f6e907c9691409070136e13ebd579392eed10c2")
 		(:authors
 		 ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 		(:maintainer "Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com")
