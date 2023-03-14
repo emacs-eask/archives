@@ -6138,7 +6138,7 @@
 		 (:maintainer "Robin Schroer")
 		 (:url . "https://github.com/sulami/circleci-api"))])
  (citar .
-	[(1 1 1 -4 20230313 2054)
+	[(1 1 1 -4 20230314 228)
 	 ((emacs
 	   (27 1))
 	  (parsebib
@@ -6148,7 +6148,7 @@
 	  (citeproc
 	   (0 9)))
 	 "Citation-related commands for org, latex, markdown" tar
-	 ((:commit . "39428105a7f6cb607c7c19112aef128e890139a9")
+	 ((:commit . "97092df80e4a9adcce0f9888a079aaecaac5438a")
 	  (:authors
 	   ("Bruce D'Arcus <https://github.com/bdarcus>"))
 	  (:maintainer "Bruce D'Arcus <https://github.com/bdarcus>")
@@ -8522,13 +8522,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 33 1 -4 20230311 1859)
+	  [(0 33 1 -4 20230314 142)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (29 1 4 0)))
 	   "Consulting completing-read" tar
-	   ((:commit . "fd00979d2fbfad66960c621e9fc140eb8c6a06f3")
+	   ((:commit . "26977a721dc97df8985c72203c80048517a64c3b")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -14792,7 +14792,7 @@
 	    (:keywords "html" "hypermedia" "tools" "webscale")
 	    (:url . "https://github.com/AdamNiederer/elquery"))])
  (elsa .
-       [(0 1 0 1 -4 20230311 1838)
+       [(0 1 0 1 -4 20230314 13)
 	((emacs
 	  (25 1))
 	 (trinary
@@ -14806,7 +14806,7 @@
 	 (lsp-mode
 	  (0)))
 	"Emacs Lisp Static Analyser" tar
-	((:commit . "e86ab1777bf4419ca358af677e314bbf8f84acbe")
+	((:commit . "b0d15956214d21aa63dab00f44c16f155cb70915")
 	 (:authors
 	  ("Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com"))
 	 (:maintainer "Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com")
@@ -34758,7 +34758,7 @@
 	     (:keywords "convenience")
 	     (:url . "https://github.com/0x60df/loophole"))])
  (loopy .
-	[(0 11 0 1 -4 20230312 1827)
+	[(0 11 1 1 -4 20230314 136)
 	 ((emacs
 	   (27 1))
 	  (map
@@ -34768,22 +34768,22 @@
 	  (compat
 	   (29 1 3)))
 	 "A looping macro" tar
-	 ((:commit . "0d806d7ce3f8bf02cf28456864d7cbbfa4cd1c1f")
+	 ((:commit . "0cb8714f0a77b257039b5269eb257e83718d1ef0")
 	  (:authors
 	   ("Earl Hyatt"))
 	  (:maintainer "Earl Hyatt")
 	  (:keywords "extensions")
 	  (:url . "https://github.com/okamsn/loopy"))])
  (loopy-dash .
-	     [(0 11 0 1 -4 20221125 2001)
+	     [(0 11 1 1 -4 20230314 136)
 	      ((emacs
 		(25 1))
 	       (loopy
-		(0 11 0))
+		(0 11 1))
 	       (dash
 		(2 19)))
 	      "Dash destructuring for `loopy'" single
-	      ((:commit . "771c1d1edd4dfec96b576b1d2b551e4aae066dc9")
+	      ((:commit . "0cb8714f0a77b257039b5269eb257e83718d1ef0")
 	       (:authors
 		("Earl Hyatt"))
 	       (:maintainer "Earl Hyatt")
@@ -43709,7 +43709,7 @@
 			    (:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com")
 			    (:keywords "extensions"))])
  (org-tag-beautify .
-		   [(0 1 0 1 -4 20230311 428)
+		   [(0 1 0 1 -4 20230314 322)
 		    ((emacs
 		      (26 1))
 		     (org-pretty-tags
@@ -43717,7 +43717,7 @@
 		     (all-the-icons
 		      (5 0 0)))
 		    "Beautify Org mode tags" single
-		    ((:commit . "c918ecbbf51f126696426221bf77ffc763b7f543")
+		    ((:commit . "a26bcbbff41bccd68a819f6e9f109008a203338c")
 		     (:keywords "hypermedia")
 		     (:url . "https://repo.or.cz/org-tag-beautify.git"))])
  (org-tagged .
@@ -44413,13 +44413,13 @@
 	       (:keywords "comm")
 	       (:url . "https://github.com/atomontage/osa-chrome"))])
  (osm .
-      [(0 10 1 -4 20230312 1923)
+      [(0 10 1 -4 20230314 155)
        ((emacs
 	 (27 1))
 	(compat
 	 (29 1 4 0)))
        "OpenStreetMap viewer" tar
-       ((:commit . "218bcf6b18f9a71828ec6ae211336cefc25a2fa5")
+       ((:commit . "8246774ad883c097dd63e95f114bbc825ac04cff")
 	(:authors
 	 ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	(:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -52234,11 +52234,11 @@
 		    (:maintainer "ptrv" . "mail@petervasil.net")
 		    (:keywords "snippets"))])
  (scopeline .
-	    [(0 1 1 -4 20230312 1509)
+	    [(0 1 1 -4 20230314 339)
 	     ((emacs
 	       (26 1)))
 	     "Show scope info of blocks in buffer at end of scope" single
-	     ((:commit . "e129dad3a37ff26594c6fa92eb8d047b213bb614")
+	     ((:commit . "0afaee9437b5e840a87af8bc1759397ffbd39245")
 	      (:keywords "scope" "context" "tree-sitter" "convenience")
 	      (:url . "https://github.com/meain/scopeline.el"))])
  (scpaste .
