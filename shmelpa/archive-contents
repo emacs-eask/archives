@@ -4180,7 +4180,7 @@
 	"Ergonomic Command Mode for Emacs." tar
 	((:commit . "1e85d6a11a756519dd4632b1bb2029a1e9c61f5a"))])
  (borg .
-       [(3 3 1 50 -4 20230215 1517)
+       [(3 3 1 50 -4 20230319 1956)
 	((emacs
 	  (27 1))
 	 (epkg
@@ -4188,7 +4188,7 @@
 	 (magit
 	  (3 3 0)))
 	"Assimilate Emacs packages as Git submodules" tar
-	((:commit . "15a89056ceccb611c28aed8943faabec0539494a")
+	((:commit . "723ffe760d535618794d9e90ff17c18f66120131")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -4553,11 +4553,11 @@
 		(:maintainer "Sid Kasivajhula" . "sid@countvajhula.com")
 		(:url . "https://github.com/countvajhula/buffer-ring"))])
  (buffer-sets .
-	      [(3 7 3 1 -4 20230220 2122)
+	      [(3 7 4 1 -4 20230319 1822)
 	       ((cl-lib
 		 (0 5)))
 	       "Sets of Buffers for Buffer Management" single
-	       ((:commit . "ac40dc72ffd9073f8425e833fda7d29cbce581c4")
+	       ((:commit . "951e894ef96d533324f7f24c2a0def45ae89d558")
 		(:authors
 		 ("Samuel W. Flint" . "swflint@flintfam.org"))
 		(:maintainer "Samuel W. Flint" . "swflint@flintfam.org")
@@ -6185,15 +6185,15 @@
 		 (:keywords "bib" "extensions")
 		 (:url . "https://github.com/emacs-citar/citar-embark"))])
  (citar-org-roam .
-		 [(0 3 1 -4 20230318 1833)
+		 [(0 4 0 1 -4 20230319 1845)
 		  ((emacs
 		    (27 1))
 		   (org-roam
 		    (2 2))
 		   (citar
-		    (1 0)))
+		    (1 2 0)))
 		  "Citar/org-roam integration" single
-		  ((:commit . "0ec6ae977e241969fd6f74d59ffa65a659c94e19")
+		  ((:commit . "5dc976c113225254a2b4118d20b8a7d0e1ed9f48")
 		   (:authors
 		    ("Bruce D'Arcus" . "bdarcus@gmail.com"))
 		   (:maintainer "Bruce D'Arcus" . "bdarcus@gmail.com")
@@ -13589,7 +13589,7 @@
 		(:maintainer "Satoshi Egi" . "egisatoshi@gmail.com")
 		(:url . "https://github.com/egisatoshi/egison3/blob/master/elisp/egison-mode.el"))])
  (eglot-fsharp .
-	       [(1 10 1 -4 20230219 1511)
+	       [(1 10 1 -4 20230319 1916)
 		((emacs
 		  (27 1))
 		 (eglot
@@ -13599,7 +13599,7 @@
 		 (jsonrpc
 		  (1 0 14)))
 		"fsharp-mode eglot integration" single
-		((:commit . "09fec6c91f9c18173f145e28c55d6f21be678231")
+		((:commit . "cbe4d3c7bec5431113df11f84b93876ea75ff8f1")
 		 (:authors
 		  ("J\303\274rgen H\303\266tzel" . "juergen@hoetzel.info"))
 		 (:maintainer "J\303\274rgen H\303\266tzel" . "juergen@hoetzel.info")
@@ -18537,6 +18537,16 @@
 		    ("Hiroki YAMAKAWA" . "s06139@gmail.com"))
 		   (:maintainer "Hiroki YAMAKAWA" . "s06139@gmail.com")
 		   (:url . "https://github.com/HKey/feed-discovery"))])
+ (feline .
+	 [(1 1 1 -4 20230315 1821)
+	  ((emacs
+	    (28 1)))
+	  "A modeline with very little" single
+	  ((:commit . "3f9247f48058285d3e03957680e011ecf58d6feb")
+	   (:authors
+	    ("chee" . "emacs@chee.party"))
+	   (:maintainer "chee" . "emacs@chee.party")
+	   (:url . "https://opensource.chee.party/chee/feline-mode"))])
  (fennel-mode .
 	      [(0 6 0 1 -4 20230215 1641)
 	       ((emacs
@@ -24450,6 +24460,19 @@
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com")
 	  (:keywords "comm" "convenience")
 	  (:url . "https://github.com/antonhibl/gptai"))])
+ (gptel .
+	[(0 10 1 -4 20230318 1959)
+	 ((emacs
+	   (27 1))
+	  (transient
+	   (0 3 7)))
+	 "A simple ChatGPT client" tar
+	 ((:commit . "9f8a984729c0a96c5c923e6ab997f9895dd8026e")
+	  (:authors
+	   ("Karthik Chikmagalur"))
+	  (:maintainer "Karthik Chikmagalur")
+	  (:keywords "convenience")
+	  (:url . "https://github.com/karthink/gptel"))])
  (grab-mac-link .
 		[(0 3 1 -4 20210511 1303)
 		 ((emacs
