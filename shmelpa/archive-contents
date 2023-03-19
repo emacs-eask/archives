@@ -28978,6 +28978,24 @@
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
+ (hyperdrive .
+	     [(0 0 1 1 -4 20230318 1142)
+	      ((emacs
+		(27 1))
+	       (map
+		(3 0))
+	       (compat
+		(29 1 3 2))
+	       (plz
+		(0 4))
+	       (persist
+		(0 5)))
+	      "Emacs gateway to the Hypercore network" tar
+	      ((:commit . "a360c04e1479aef1a1e05d048901c3a275e75697")
+	       (:authors
+		("Joseph Turner"))
+	       (:maintainer "Joseph Turner" . "joseph@ushin.org")
+	       (:url . "https://git.sr.ht/~ushin/hyperdrive.el"))])
  (hyperkitty .
 	     [(0 0 1 1 -4 20220226 1951)
 	      ((request
@@ -33363,6 +33381,17 @@
 		 (:maintainer "Joar Buitrago" . "jebuitragoc@unal.edu.co")
 		 (:keywords "grammar" "text" "docs" "tools" "convenience" "checker")
 		 (:url . "https://github.com/PillFall/Emacs-LanguageTool.el"))])
+ (lark-mode .
+	    [(0 0 1 1 -4 20230313 1851)
+	     ((emacs
+	       (24 3)))
+	     "Major mode for editing Lark parser code" single
+	     ((:commit . "8f5dcb26c38b5c6417001327189f0c71f8163afd")
+	      (:authors
+	       ("Ta Quang Trung"))
+	      (:maintainer "Ta Quang Trung")
+	      (:keywords "languages")
+	      (:url . "https://github.com/taquangtrung/lark-mode"))])
  (lastfm .
 	 [(1 2 1 -4 20211018 838)
 	  ((emacs
@@ -35615,7 +35644,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230319 1612)
+	[(3 3 0 50 -4 20230319 2208)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -35631,7 +35660,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "b7daf6a2ff00f7752d05dec17f2f5a825954b151")
+	 ((:commit . "2292d921019abfe58702582eb9bacda9d843e9c9")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -35639,13 +35668,13 @@
 	  (:keywords "git" "tools" "vc")
 	  (:url . "https://github.com/magit/magit"))])
  (magit-annex .
-	      [(1 8 1 1 -4 20220926 300)
+	      [(1 8 1 1 -4 20230319 2103)
 	       ((cl-lib
 		 (0 3))
 		(magit
 		 (3 0 0)))
 	       "Control git-annex from Magit" single
-	       ((:commit . "0b3787d2c2ed0603467be8152847b7539c8a955c")
+	       ((:commit . "f1bf48d79e51805a017e9c1501f4fb3698c3f310")
 		(:authors
 		 ("Kyle Meyer" . "kyle@kyleam.com")
 		 ("R\303\251mi Vanicat" . "vanicat@debian.org"))
@@ -41611,6 +41640,16 @@
 			(:maintainer "Artur Malabarba" . "bruce.connor.am@gmail.com")
 			(:keywords "calendar")
 			(:url . "http://github.com/Bruce-Connor/org-agenda-property"))])
+ (org-ai .
+	 [(0 1 4 1 -4 20230317 2217)
+	  ((emacs
+	    (28 2)))
+	  "Emacs org-mode integration for the OpenAI API" single
+	  ((:commit . "8748ac5687b22b7e637505871125554ec727189e")
+	   (:authors
+	    ("Robert Krahn" . "robert@kra.hn"))
+	   (:maintainer "Robert Krahn" . "robert@kra.hn")
+	   (:url . "https://github.com/rksm/org-ai"))])
  (org-alert .
 	    [(0 2 0 1 -4 20220721 1721)
 	     ((org
