@@ -42795,20 +42795,21 @@
 		 (:maintainer "Paul Elder" . "paul.elder@amanokami.net")
 		 (:keywords "convenience" "tools"))])
  (org-noter .
-	    [(1 4 1 1 -4 20191020 1212)
+	    [(1 5 0 1 -4 20230315 111)
 	     ((emacs
 	       (24 4))
 	      (cl-lib
 	       (0 6))
 	      (org
 	       (9 0)))
-	     "A synchronized, Org-mode, document annotator" single
-	     ((:commit . "d051a5909878e2214422fd275968ab4d7ef9bcab")
+	     "A synchronized, Org-mode, document annotator" tar
+	     ((:commit . "228a3c8f62d7c020770dfa5dbc4d7e4bfa84ea9d")
 	      (:authors
-	       (nil . "Gon\303\247alo Santos (aka. weirdNox@GitHub)"))
-	      (:maintainer nil . "Gon\303\247alo Santos (aka. weirdNox@GitHub)")
+	       ("Gon\303\247alo Santos (github.com/weirdNox)" . "in@bsentia")
+	       ("   Maintainer Dmitry M" . "dmitrym@gmail.com"))
+	      (:maintainer "Peter Mao" . "peter.mao@gmail.com")
 	      (:keywords "lisp" "pdf" "interleave" "annotate" "external" "sync" "notes" "documents" "org-mode")
-	      (:url . "https://github.com/weirdNox/org-noter"))])
+	      (:url . "https://github.com/org-noter/org-noter"))])
  (org-noter-pdftools .
 		     [(1 0 1 -4 20220320 300)
 		      ((emacs
@@ -45306,11 +45307,11 @@
 	     (:keywords "extensions" "tools")
 	     (:url . "https://github.com/zenspider/package"))])
  (package-build .
-		[(4 0 0 50 -4 20230221 1303)
+		[(4 0 0 50 -4 20230319 1115)
 		 ((emacs
 		   (26 1)))
 		 "Tools for assembling a package archive" tar
-		 ((:commit . "9199271d78dc0f4f85047d6daef0e9721a6e63cd")
+		 ((:commit . "974406211f9c9d6549f80ca33f6ba8797cb2b11f")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		   ("Steve Purcell" . "steve@sanityinc.com")
@@ -52225,11 +52226,11 @@
 		    (:maintainer "ptrv" . "mail@petervasil.net")
 		    (:keywords "snippets"))])
  (scopeline .
-	    [(0 1 1 -4 20230314 412)
+	    [(0 1 1 -4 20230319 1156)
 	     ((emacs
 	       (26 1)))
 	     "Show scope info of blocks in buffer at end of scope" single
-	     ((:commit . "eb6441667c12952d31a3c0f4e6b84fa408b97b90")
+	     ((:commit . "83438c7f08a9142e7998b92d8fef74719353fcaa")
 	      (:keywords "scope" "context" "tree-sitter" "convenience")
 	      (:url . "https://github.com/meain/scopeline.el"))])
  (scpaste .
@@ -58600,11 +58601,11 @@
 	   (:keywords "lisp" "maint" "tools")
 	   (:url . "https://github.com/volrath/treepy.el"))])
  (treesit-auto .
-	       [(0 6 1 1 -4 20230317 1253)
+	       [(0 6 2 1 -4 20230319 1400)
 		((emacs
 		  (29 0)))
 		"Automatically use tree-sitter enhanced major modes" single
-		((:commit . "556b1aa3d8c1e67cae3e648c64023612e44a9901")
+		((:commit . "f2b94c1dec1802fc09678f65b8f90228e4aa2212")
 		 (:authors
 		  ("Robb Enzmann" . "robbenzmann@gmail.com"))
 		 (:maintainer "Robb Enzmann" . "robbenzmann@gmail.com")
@@ -59795,11 +59796,11 @@
 		    (:keywords "vc" "convenience")
 		    (:url . "https://github.com/thisirs/vc-check-status"))])
  (vc-darcs .
-	   [(1 19 1 -4 20220406 659)
+	   [(1 19 1 -4 20230319 1149)
 	    ((emacs
 	      (24)))
 	    "a VC backend for darcs" single
-	    ((:commit . "56426a235b742618b48fad8538777a9b3ffb7240")
+	    ((:commit . "097e03f119b4fedb0186fd45d730a1c5acac10dc")
 	     (:authors
 	      ("Jorgen Schaefer" . "forcer@forcix.cx")
 	      ("Juliusz Chroboczek" . "jch@pps.univ-paris-diderot.fr"))
