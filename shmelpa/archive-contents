@@ -28979,7 +28979,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 0 1 1 -4 20230322 2051)
+	     [(0 0 1 1 -4 20230322 2215)
 	      ((emacs
 		(27 1))
 	       (map
@@ -28991,7 +28991,7 @@
 	       (persist
 		(0 5)))
 	      "Emacs gateway to the Hypercore network" tar
-	      ((:commit . "e1e1102c4c6f3e6a1710956da2c8d6349b112b3f")
+	      ((:commit . "655aecb96e96332e4584b168f67106c3d97b86ff")
 	       (:authors
 		("Joseph Turner"))
 	       (:maintainer "Joseph Turner" . "joseph@ushin.org")
@@ -32780,13 +32780,15 @@
 	    (:maintainer "Damien Cassou" . "damien@cassou.me")
 	    (:url . "https://github.com/DamienCassou/khardel"))])
  (khoj .
-       [(0 4 1 1 -4 20230310 2123)
+       [(0 4 1 1 -4 20230322 2232)
 	((emacs
 	  (27 1))
 	 (transient
-	  (0 3 0)))
+	  (0 3 0))
+	 (dash
+	  (2 19 1)))
 	"Natural, Incremental Search for your Second Brain" single
-	((:commit . "8bb8824d0c4cb4de3c9dc936db7ca512726cdd6b")
+	((:commit . "4070d13a960b29241bd6cd8525e544f8599d7f16")
 	 (:authors
 	  ("Debanjum Singh Solanky" . "debanjum@gmail.com"))
 	 (:maintainer "Debanjum Singh Solanky" . "debanjum@gmail.com")
@@ -55071,11 +55073,11 @@
 		     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		     (:url . "https://codeberg.org/ideasman42/emacs-spatial-navigate"))])
  (spdx .
-       [(0 1 0 1 -4 20230322 110)
+       [(0 1 0 1 -4 20230323 110)
 	((emacs
 	  (24 4)))
 	"Insert SPDX license and copyright headers" tar
-	((:commit . "7692d30983bd3299d42265266edb181d8bbc8d12")
+	((:commit . "ec718680d07b1b80598e7b2935445ec7e3706013")
 	 (:authors
 	  ("Zhiwei Chen" . "condy0919@gmail.com"))
 	 (:maintainer "Zhiwei Chen" . "condy0919@gmail.com")
@@ -57861,11 +57863,11 @@
 	 (:keywords "tools" "docs")
 	 (:url . "https://github.com/kuanyui/tldr.el"))])
  (tmsu .
-       [(0 9 1 -4 20230308 1935)
+       [(0 9 1 -4 20230322 2344)
 	((emacs
 	  (28 1)))
 	"A basic TMSU interface" tar
-	((:commit . "edad2cb7ff14d6dda6f98c2c21a134572fcfec8c")
+	((:commit . "567ba42958592e632bf611f004d24c09eb2eeac1")
 	 (:authors
 	  ("Wojciech Siewierski"))
 	 (:maintainer "Wojciech Siewierski")
