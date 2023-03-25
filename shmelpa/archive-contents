@@ -1752,11 +1752,11 @@
 	"A Portable Emacs Library provides support for portable Emacs Lisp programs" tar
 	((:commit . "82eb2325bd149dc57b43a9ce9402c6c6183e4052"))])
  (apheleia .
-	   [(3 2 1 -4 20230323 2100)
+	   [(3 2 1 -4 20230325 1456)
 	    ((emacs
 	      (26)))
 	    "Reformat buffer stably" tar
-	    ((:commit . "43ffed789064db2c59fe3fe8e1c1c2e142b3e483")
+	    ((:commit . "edec1e61c81da9e20575cf29a8875c56621e2edb")
 	     (:authors
 	      ("Radian LLC" . "contact+apheleia@radian.codes"))
 	     (:maintainer "Radian LLC" . "contact+apheleia@radian.codes")
@@ -2717,11 +2717,11 @@
 	      (:keywords "compile" "build" "pipeline" "autobuild" "extensions" "processes" "tools")
 	      (:url . "https://github.com/erjoalgo/autobuild"))])
  (autocrypt .
-	    [(0 4 0 1 -4 20230324 1841)
+	    [(0 4 1 1 -4 20230325 1342)
 	     ((emacs
 	       (24 3)))
 	     "Autocrypt implementation" tar
-	     ((:commit . "cf63019b3f58c8696b7251cde4087127557283a3")
+	     ((:commit . "a90aa6b644fe8cf72af9e1615a7c50b36b739e7c")
 	      (:authors
 	       ("Philip Kaludercic" . "philipk@posteo.net"))
 	      (:maintainer "Philip Kaludercic" . "~pkal/public-inbox@lists.sr.ht")
@@ -5301,11 +5301,11 @@
 	    (:keywords "comm" "hardware")
 	    (:url . "https://bitbucket.org/pymaximus/catmacs"))])
  (catppuccin-theme .
-		   [(1 0 0 1 -4 20230223 808)
+		   [(1 0 0 1 -4 20230325 1451)
 		    ((emacs
 		      (25 1)))
 		    "Catppuccin for Emacs - \360\237\215\204 Soothing pastel theme for Emacs" tar
-		    ((:commit . "cc450390d0b3a8fdbb032ee96deb0aeaa1984ce0")
+		    ((:commit . "165867f66eaff8a6790e9824ff16ff3ab8b5c594")
 		     (:authors
 		      ("nyxkrage"))
 		     (:maintainer "Carsten Kragelund" . "carsten@kragelund.me")
@@ -5609,11 +5609,11 @@
 	 (:maintainer "Alexander Miller" . "alexanderm@web.de")
 	 (:url . "https://github.com/Alexander-Miller/cfrs"))])
  (cg .
-     [(0 4 0 1 -4 20230316 856)
+     [(0 4 0 1 -4 20230325 1457)
       ((emacs
 	(26 1)))
       "Major mode for editing Constraint Grammar files" single
-      ((:commit . "59c26d965b689fdc4bd3c11eb5783d11efe370be")
+      ((:commit . "af16348a4428ef2ec3e403d198b5c8adcfdf876f")
        (:authors
 	("Kevin Brubeck Unhammer" . "unhammer@fsfe.org"))
        (:maintainer "Kevin Brubeck Unhammer" . "unhammer@fsfe.org")
@@ -18247,11 +18247,11 @@
 		  (:keywords "faces")
 		  (:url . "https://github.com/Lindydancer/face-explorer"))])
  (face-shift .
-	     [(0 2 0 1 -4 20210725 2146)
+	     [(0 2 1 1 -4 20230325 1353)
 	      ((emacs
 		(24 1)))
 	      "Shift the colour of certain faces" single
-	      ((:commit . "c214be3398a7671c6ea975f97740abdd38e910ea")
+	      ((:commit . "671e53fdef9ed3fdb9ee768216d05b90e3ce592a")
 	       (:authors
 		("Philip Kaludercic" . "philipk@posteo.net"))
 	       (:maintainer "Philip Kaludercic" . "philipk@posteo.net")
@@ -37742,11 +37742,11 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(4 1 1 1 -4 20230320 449)
+	       [(4 1 1 1 -4 20230325 1537)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "2c34f81b831e646fa31840be8102ecaf4df6b6bf")
+		((:commit . "038295f72c0f901f0944bb27e4be1a9ad052fe84")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainer "Modus-Themes Development" . "~protesilaos/modus-themes@lists.sr.ht")
@@ -45051,11 +45051,15 @@
 		(:keywords "org" "pukiwiki")
 		(:url . "https://github.com/yashi/org-pukiwiki"))])
  (ox-qmd .
-	 [(1 0 5 1 -4 20221127 702)
+	 [(1 0 6 1 -4 20230325 1315)
 	  ((emacs
-	    (24 4)))
-	  "Qiita Markdown Back-End for Org Export Engine" single
-	  ((:commit . "026e4bd227589b3500294a56c2eca43b3405f992")
+	    (27 2))
+	   (request
+	    (0 3 3))
+	   (mimetypes
+	    (1 0)))
+	  "Qiita Markdown Back-End for Org Export Engine" tar
+	  ((:commit . "0b5fa1e20aaa48d93600e1b8d09c3b6f55af3373")
 	   (:authors
 	    ("0x60DF" . "0x60DF@gmail.com"))
 	   (:maintainer "0x60DF" . "0x60DF@gmail.com")
