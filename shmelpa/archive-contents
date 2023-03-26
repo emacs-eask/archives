@@ -7122,6 +7122,16 @@
 	      (:maintainer "Abhinav Tushar" . "lepisma@fastmail.com")
 	      (:keywords "tools")
 	      (:url . "https://github.com/lepisma/colormaps.el"))])
+ (colors .
+	 [(1 0 0 1 -4 20230319 2026)
+	  ((emacs
+	    (24 1)))
+	  "Color manipulation library" single
+	  ((:commit . "173f3d2d3516d32b11b9a7d2f4e9bd17b5cd168e")
+	   (:authors
+	    ("Nicolas Martyanoff" . "nicolas@n16f.net"))
+	   (:maintainer "Nicolas Martyanoff" . "nicolas@n16f.net")
+	   (:url . "https://github.com/galdor/colors"))])
  (column-enforce-mode .
 		      [(1 0 4 1 -4 20200605 1933)
 		       nil "Highlight text that extends beyond a  column" single
@@ -8522,13 +8532,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 33 1 -4 20230325 1639)
+	  [(0 33 1 -4 20230326 1637)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (29 1 4 0)))
 	   "Consulting completing-read" tar
-	   ((:commit . "38ddf8489dc0ed70038fa40ddba16bed7a293c4b")
+	   ((:commit . "301ba70eacb8cefa67b7a310ef193f5946a3ce24")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -14948,9 +14958,9 @@
 		     (:keywords "conenience" "frames")
 		     (:url . "https://github.com/tecosaur/emacs-everywhere"))])
  (emacsc .
-	 [(1 4 20220420 1 -4 20221105 1715)
+	 [(1 4 20220420 1 -4 20230326 1852)
 	  nil "helper for emacsc(1)" tar
-	  ((:commit . "f7634a86c3643a6432dda3897bd524957cf9ff1f")
+	  ((:commit . "7a47eb85a715292e371d8bf663f7cd0f217787c2")
 	   (:authors
 	    ("Akinori MUSHA" . "knu@iDaemons.org"))
 	   (:maintainer "Akinori MUSHA" . "knu@iDaemons.org")
@@ -18922,11 +18932,11 @@
 		    (:maintainer "Pierre Neidhardt" . "mail@ambrevar.xyz")
 		    (:url . "https://gitlab.com/Ambrevar/emacs-fish-completion"))])
  (fish-mode .
-	    [(0 1 0 1 -4 20220505 1111)
+	    [(0 1 0 1 -4 20230326 1604)
 	     ((emacs
 	       (24)))
 	     "Major mode for fish shell scripts" single
-	     ((:commit . "d04478c0aba018cb789d77d591bfe315cb25132a")
+	     ((:commit . "6869efbc05cdb628209338bf57fe52742e53d956")
 	      (:authors
 	       ("Tony Wang" . "wwwjfy@gmail.com"))
 	      (:maintainer "Tony Wang" . "wwwjfy@gmail.com")
@@ -31866,6 +31876,20 @@
 	 (:maintainer "papaeye" . "papaeye@gmail.com")
 	 (:keywords "languages" "convenience")
 	 (:url . "https://github.com/papaeye/emacs-jscs"))])
+ (jsdoc .
+	[(0 3 1 -4 20230307 1806)
+	 ((emacs
+	   (29 1))
+	  (dash
+	   (2 11 0))
+	  (s
+	   (1 12 0)))
+	 "Insert JSDoc comments" single
+	 ((:commit . "486b9d65d47ab2e840264ec2aa3da67fb6dbff75")
+	  (:authors
+	   ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
+	  (:maintainer "Isa Mert Gurbuz" . "isamertgurbuz@gmail.com")
+	  (:url . "https://github.com/isamert/jsdoc.el"))])
  (jsfmt .
 	[(0 2 0 1 -4 20180920 1008)
 	 nil "Interface to jsfmt command for javascript files" single
@@ -33518,6 +33542,15 @@
 	      (:maintainer "Launay Gaby" . "gaby.launay@tutanota.com")
 	      (:keywords "tex" "vc" "tools" "git" "helm")
 	      (:url . "http://github.com/galaunay/latexdiff.el"))])
+ (latvian-holidays .
+		   [(1 0 0 1 -4 20230319 2130)
+		    nil "Latvian holidays for the calendar" single
+		    ((:commit . "ce6bc604fb4d7ff37f468b7ad703547a00193a7d")
+		     (:authors
+		      ("Alexander Shumilov" . "alexander.shumilov@me.com"))
+		     (:maintainer "Alexander Shumilov" . "alexander.shumilov@me.com")
+		     (:keywords "calendar")
+		     (:url . "https://github.com/ashumilov/latvian-holidays"))])
  (launch .
 	 [(1 1 0 1 -4 20130619 2204)
 	  nil "launch files with OS-standard associated applications." single
@@ -40437,6 +40470,19 @@
 		(:maintainer "Daniel Bergey")
 		(:keywords "literate programming" "reproducible research")
 		(:url . "http://orgmode.org"))])
+ (ob-drawtiming .
+		[(2023 -4 3 -4 10 1 -4 20230312 1740)
+		 ((emacs
+		   (24 1))
+		  (org
+		   (8 0)))
+		 "Functions for drawtiming evaluation in org-babel" single
+		 ((:commit . "813736e20ce1c223700c87a6e70e3f126a11e933")
+		  (:authors
+		   ("Fabien Perez"))
+		  (:maintainer "Fabien Perez")
+		  (:keywords "tools" "multimedia")
+		  (:url . "https://github.com/perfab71/ob-drawtiming"))])
  (ob-dsq .
 	 [(0 1 1 -4 20220915 1610)
 	  ((emacs
@@ -42842,7 +42888,7 @@
 		 (:maintainer "Paul Elder" . "paul.elder@amanokami.net")
 		 (:keywords "convenience" "tools"))])
  (org-noter .
-	    [(1 5 0 1 -4 20230315 111)
+	    [(1 5 0 1 -4 20230326 1812)
 	     ((emacs
 	       (24 4))
 	      (cl-lib
@@ -42850,7 +42896,7 @@
 	      (org
 	       (9 0)))
 	     "A synchronized, Org-mode, document annotator" tar
-	     ((:commit . "228a3c8f62d7c020770dfa5dbc4d7e4bfa84ea9d")
+	     ((:commit . "4daf946c0504ba348afb46fea0b2c2cd4cadcc61")
 	      (:authors
 	       ("Gon\303\247alo Santos (github.com/weirdNox)" . "in@bsentia")
 	       ("   Maintainer Dmitry M" . "dmitrym@gmail.com"))
@@ -44301,6 +44347,22 @@
 	    ("Yoshinari Nomura" . "nom@quickhack.net"))
 	   (:maintainer "Yoshinari Nomura" . "nom@quickhack.net")
 	   (:keywords "org"))])
+ (orgmdb .
+	 [(0 5 1 -4 20230312 2231)
+	  ((emacs
+	    (27 1))
+	   (dash
+	    (2 11 0))
+	   (s
+	    (1 12 0))
+	   (org
+	    (8 0 0)))
+	  "An OMDb API client with some convenience functions" single
+	  ((:commit . "385a747f41130b714207432045161915eb65b206")
+	   (:authors
+	    ("Isa Mert Gurbuz" . "isamert@protonmail.com"))
+	   (:maintainer "Isa Mert Gurbuz" . "isamert@protonmail.com")
+	   (:url . "https://github.com/isamert/orgmdb"))])
  (orgnav .
 	 [(2 0 3 1 -4 20170608 1713)
 	  ((helm
@@ -49482,9 +49544,9 @@
 		  (:keywords "languages")
 		  (:url . "https://github.com/fgallina/python-django.el"))])
  (python-docstring .
-		   [(0 1 0 1 -4 20230317 1742)
+		   [(0 1 0 1 -4 20230326 1929)
 		    nil "Smart Python docstring formatting" tar
-		    ((:commit . "3fe87a28acdc83e63191a29fed8649f57d075e3b"))])
+		    ((:commit . "40f0ca57831a71a9e6437088149784f37704ef6c"))])
  (python-environment .
 		     [(0 0 2 1 -4 20150310 853)
 		      ((deferred
@@ -56172,6 +56234,21 @@
 	 (:maintainer "Thibault Polge" . "thibault@thb.lt")
 	 (:keywords "frames")
 	 (:url . "https://github.com/thblt/sway.el"))])
+ (sway-lang-mode .
+		 [(0 0 1 1 -4 20230320 507)
+		  ((emacs
+		    (25 1))
+		   (lsp-mode
+		    (6 0))
+		   (rust-mode
+		    (1 0 5)))
+		  "Major mode for sway" single
+		  ((:commit . "1d4615cc99d57280fb4b301d8339f408d987d317")
+		   (:authors
+		    ("Hamza Hamud"))
+		   (:maintainer "Hamza Hamud")
+		   (:keywords "languages")
+		   (:url . "https://github.com/hhamud/sway-mode"))])
  (sweet-theme .
 	      [(4 1 -4 20200708 1202)
 	       ((emacs
@@ -56242,13 +56319,13 @@
 		(:keywords "languages" "swift")
 		(:url . "https://github.com/taku0/swift3-mode"))])
  (swiper .
-	 [(0 13 4 1 -4 20230326 1253)
+	 [(0 13 4 1 -4 20230326 1911)
 	  ((emacs
 	    (24 5))
 	   (ivy
 	    (0 13 4)))
 	  "Isearch with an overview.  Oh, man!" single
-	  ((:commit . "24a8262767b7917a91ed7ffc11298f28569e3087")
+	  ((:commit . "e3164aae1e98ab7e3721e983463b6500c30e043f")
 	   (:authors
 	    ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	   (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
@@ -57631,18 +57708,18 @@
 	 (:keywords "tile" "tiling" "window" "manager" "dynamic" "frames")
 	 (:url . "https://github.com/IvanMalison/tile"))])
  (time-block .
-	     [(1 5 1 1 -4 20230326 405)
+	     [(1 6 0 1 -4 20230326 1904)
 	      ((emacs
 		(25 1))
 	       (ts
 		(0 1)))
 	      "Block running commands using time" single
-	      ((:commit . "546825bafbc88a674c025b5c06403c9afa247a13")
+	      ((:commit . "90831463528a232414895b4905f67fa001550b9b")
 	       (:authors
 		("Samuel W. Flint" . "swflint@flintfam.org"))
 	       (:maintainer "Samuel W. Flint" . "swflint@flintfam.org")
 	       (:keywords "tools" "productivity" "convenience")
-	       (:url . "https://git.sr.ht/~swflint/time-block"))])
+	       (:url . "https://git.sr.ht/~swflint/time-block-command"))])
  (time-ext .
 	   [(0 1 0 1 -4 20170126 1215)
 	    nil "more function for time/date" single
