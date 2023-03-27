@@ -8521,13 +8521,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 33 1 -4 20230326 1637)
+	  [(0 33 1 -4 20230326 2048)
 	   ((emacs
 	     (27 1))
 	    (compat
-	     (29 1 4 0)))
+	     (29 1 4 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "301ba70eacb8cefa67b7a310ef193f5946a3ce24")
+	   ((:commit . "55874e4426836584590ffd1e222160c00430bfa0")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -14949,7 +14949,7 @@
  (emacsc .
 	 [(1 4 20220420 1 -4 20230326 1852)
 	  nil "helper for emacsc(1)" tar
-	  ((:commit . "7a47eb85a715292e371d8bf663f7cd0f217787c2")
+	  ((:commit . "b4afd616c4ef160c58fc9a9682d3431b30a9d434")
 	   (:authors
 	    ("Akinori MUSHA" . "knu@iDaemons.org"))
 	   (:maintainer "Akinori MUSHA" . "knu@iDaemons.org")
@@ -19082,6 +19082,16 @@
 		  ("John Louis Del Rosario" . "john2x@gmail.com"))
 		 (:maintainer "John Louis Del Rosario" . "john2x@gmail.com")
 		 (:url . "https://github.com/john2x/flatui-theme.el"))])
+ (fleetish-theme .
+		 [(0 1 1 -4 20230325 1938)
+		  ((emacs
+		    (24)))
+		  "A take on the JetBrains Fleet theme" single
+		  ((:commit . "4e6747500af3e8b1ae4bc4986a86ff57d82c9103")
+		   (:authors
+		    ("Scott Raine" . "scott@raine.sh"))
+		   (:maintainer "Scott Raine" . "scott@raine.sh")
+		   (:url . "https://github.com/nylar/fleetish-emacs-theme.el"))])
  (flex-compile .
 	       [(1 0 1 -4 20230116 1638)
 		((emacs
@@ -21580,7 +21590,7 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 3 2 50 -4 20230319 2100)
+	[(0 3 2 50 -4 20230326 2058)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -21604,7 +21614,7 @@
 	  (yaml
 	   (0 3 5)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "e82b45fc426ac2542932c63e926f868e535a813f")
+	 ((:commit . "422881e552afd9df15e591dbf52aa36e2d481758")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -29889,13 +29899,13 @@
 	 (:maintainer "Kevin W. van Rooijen" . "kevin.van.rooijen@attichacker.com")
 	 (:keywords "convenience" "matching" "tools"))])
  (inf-clojure .
-	      [(3 2 1 1 -4 20230226 653)
+	      [(3 2 1 1 -4 20230326 1946)
 	       ((emacs
-		 (25 1))
+		 (26 2))
 		(clojure-mode
 		 (5 11)))
 	       "Run an external Clojure process in an Emacs buffer" single
-	       ((:commit . "fb9b5ea55f9ef02be32660cc29df15023968fb78")
+	       ((:commit . "8ad2242b75ea1a06fad391deb8f858a392408a94")
 		(:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 		(:keywords "processes" "comint" "clojure")
 		(:url . "http://github.com/clojure-emacs/inf-clojure"))])
@@ -33521,9 +33531,9 @@
 	      (:keywords "tex" "vc" "tools" "git" "helm")
 	      (:url . "http://github.com/galaunay/latexdiff.el"))])
  (latvian-holidays .
-		   [(1 0 0 1 -4 20230319 2130)
+		   [(1 0 0 1 -4 20230326 2030)
 		    nil "Latvian holidays for the calendar" single
-		    ((:commit . "ce6bc604fb4d7ff37f468b7ad703547a00193a7d")
+		    ((:commit . "6b82f3bd9682c97f19a65b7d359ce7a02ec9cfec")
 		     (:authors
 		      ("Alexander Shumilov" . "alexander.shumilov@me.com"))
 		     (:maintainer "Alexander Shumilov" . "alexander.shumilov@me.com")
@@ -41644,7 +41654,7 @@
 	 [(0 1 4 1 -4 20230317 2217)
 	  ((emacs
 	    (28 2)))
-	  "Emacs org-mode integration for the OpenAI API" single
+	  "Emacs org-mode integration for the OpenAI API" tar
 	  ((:commit . "8748ac5687b22b7e637505871125554ec727189e")
 	   (:authors
 	    ("Robert Krahn" . "robert@kra.hn"))
@@ -48742,11 +48752,11 @@
 	   (:keywords "processes" "tools")
 	   (:url . "https://github.com/julianrubisch/pronto.el"))])
  (proof-general .
-		[(4 6 -4 20230317 2001)
+		[(4 6 -4 20230326 2334)
 		 ((emacs
 		   (25 2)))
 		 "A generic Emacs interface for proof assistants" tar
-		 ((:commit . "4a4a5cc8f4be16c1748ac81f0213ee981ffc42f9")
+		 ((:commit . "78a555a12dd40348fb098331a20aa6fd663c152d")
 		  (:maintainer nil . "proof-general-maintainers@groupes.renater.fr")
 		  (:url . "https://proofgeneral.github.io/"))])
  (prop-menu .
