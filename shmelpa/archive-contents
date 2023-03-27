@@ -31539,6 +31539,18 @@
 		(:authors
 		 ("Florian Mounier aka paradoxxxzero"))
 		(:maintainer "Florian Mounier aka paradoxxxzero"))])
+ (jinx .
+       [(0 2 1 -4 20230327 48)
+	((emacs
+	  (27 1))
+	 (compat
+	  (29 1 4 0)))
+	"Enchanted Just-in-time Spell Checker" single
+	((:commit . "ba2ef74303ca50cdabac61d7f0a2283dd9e48a7e")
+	 (:authors
+	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
+	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
+	 (:url . "https://github.com/minad/jinx"))])
  (jira-markup-mode .
 		   [(0 0 1 1 -4 20150601 2109)
 		    nil "Emacs Major mode for JIRA-markup-formatted text files" single
@@ -35153,7 +35165,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20230325 2347)
+	   [(8 0 1 1 -4 20230327 700)
 	    ((emacs
 	      (26 3))
 	     (dash
@@ -35171,7 +35183,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "d5c6bc411090308909c22c7d1119a6725b079826")
+	    ((:commit . "c0b888709ed90a71117d8a6893b941baa227d525")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -36935,11 +36947,11 @@
 	   (:keywords "comm" "processes" "bittorrent")
 	   (:url . "https://github.com/skangas/mentor"))])
  (meow .
-       [(1 4 2 1 -4 20230319 311)
+       [(1 4 2 1 -4 20230327 524)
 	((emacs
 	  (27 1)))
 	"Yet Another modal editing" tar
-	((:commit . "fb61ce5943d7ad11f4a7350e4b561947bbbaea71")
+	((:commit . "d80c2ff2f94333492dd7714c4210440162985b20")
 	 (:authors
 	  ("Shi Tianshu"))
 	 (:maintainer "Shi Tianshu")
@@ -44360,11 +44372,11 @@
 	   (:keywords "convenience" "outlines")
 	   (:url . "http://github.com/facetframer/orgnav"))])
  (orgstrap .
-	   [(1 5 3 1 -4 20230202 235)
+	   [(1 5 4 1 -4 20230327 650)
 	    ((emacs
 	      (24 4)))
 	    "Bootstrap an Org file using file local variables" single
-	    ((:commit . "3cf0fec936fc0dc72bd7bd970fa91d445e763af4")
+	    ((:commit . "045600b52dc5277b4fe4ec11fe140b1e7240f1f9")
 	     (:authors
 	      ("Tom Gillespie"))
 	     (:maintainer "Tom Gillespie")
@@ -57609,11 +57621,11 @@
 	   (:keywords "games")
 	   (:url . "https://github.com/xuchunyang/threes.el"))])
  (thrift .
-	 [(0 1 0 1 -4 20230319 2008)
+	 [(0 1 0 1 -4 20230327 401)
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" single
-	  ((:commit . "f1e05d4128a6b7098473fea7713c76fa428b46d4")
+	  ((:commit . "48771f2cb12529fdfb1f8765f4376b5a589bf4cc")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -62479,11 +62491,11 @@
 			 (:keywords "convenience")
 			 (:url . "https://github.com/canatella/xwwp"))])
  (yabaki-theme .
-	       [(1 0 0 1 -4 20230117 2312)
+	       [(2 0 0 1 -4 20230327 630)
 		((emacs
 		  (27 1)))
 		"Yabaki, the cast shadow" single
-		((:commit . "5b0aaaf352384f24b0104065b5c600e8e6fab707")
+		((:commit . "5face6a1194b039e09fe19238aa5db05450d7df1")
 		 (:authors
 		  ("David Goudou" . "david.goudou@gmail.com"))
 		 (:maintainer "David Goudou" . "david.goudou@gmail.com")
