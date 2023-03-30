@@ -43526,9 +43526,25 @@
 	    (:keywords "outlines" "data")
 	    (:url . "https://github.com/pmiddend/org-rtm"))])
  (org-runbook .
-	      [(1 1 1 -4 20230120 140)
-	       nil "Org mode for runbooks" tar
-	       ((:commit . "be8218d66493c122a60049ff5e6bd41abfaabbd8")
+	      [(1 1 1 -4 20230330 325)
+	       ((emacs
+		 (26 1))
+		(seq
+		 (2 3))
+		(f
+		 (0 20 0))
+		(s
+		 (1 12 0))
+		(dash
+		 (2 17 0))
+		(mustache
+		 (0 24))
+		(ht
+		 (0 9))
+		(ivy
+		 (0 8 0)))
+	       "Org mode for runbooks" tar
+	       ((:commit . "3de6e4e31cd240a2ba128287a3d1bc550c253144")
 		(:authors
 		 ("Tyler Dodge"))
 		(:maintainer "Tyler Dodge")
@@ -52825,7 +52841,7 @@
 		   (:keywords "theme")
 		   (:url . "http://github.com/anandpiyer/seoul256-emacs"))])
  (separedit .
-	    [(0 3 37 1 -4 20230329 1556)
+	    [(0 3 37 1 -4 20230330 416)
 	     ((emacs
 	       (25 1))
 	      (dash
@@ -52833,7 +52849,7 @@
 	      (edit-indirect
 	       (0 1 5)))
 	     "Edit comment/string/docstring/code block in separate buffer" single
-	     ((:commit . "bfc52ee3509925a21d12f3cba17d3c3657c623c2")
+	     ((:commit . "300fbb3938673bc593eafc97fb541276803f6f7c")
 	      (:authors
 	       ("Gong Qijian" . "gongqijian@gmail.com"))
 	      (:maintainer "Gong Qijian" . "gongqijian@gmail.com")
