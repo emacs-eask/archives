@@ -46867,15 +46867,17 @@
 	     (:keywords "tools" "php")
 	     (:url . "https://github.com/emacs-php/phpactor.el"))])
  (phpstan .
-	  [(0 6 0 1 -4 20230330 1237)
+	  [(0 6 0 1 -4 20230330 1702)
 	   ((emacs
 	     (24 3))
+	    (compat
+	     (29))
 	    (php-mode
 	     (1 22 3))
 	    (php-runtime
 	     (0 2)))
 	   "Interface to PHPStan" single
-	   ((:commit . "4645ff02afd184eda9e61616231e6aac4317b517")
+	   ((:commit . "7ab85a495cd8f49c011d4a9c27b292dfaf473c95")
 	    (:authors
 	     ("USAMI Kenta" . "tadsan@zonu.me"))
 	    (:maintainer "USAMI Kenta" . "tadsan@zonu.me")
