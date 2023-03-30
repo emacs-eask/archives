@@ -41663,11 +41663,13 @@
 			(:keywords "calendar")
 			(:url . "http://github.com/Bruce-Connor/org-agenda-property"))])
  (org-ai .
-	 [(0 1 4 1 -4 20230317 2217)
+	 [(0 2 0 1 -4 20230330 107)
 	  ((emacs
-	    (28 2)))
+	    (28 2))
+	   (greader
+	    (0 1)))
 	  "Emacs org-mode integration for the OpenAI API" tar
-	  ((:commit . "8748ac5687b22b7e637505871125554ec727189e")
+	  ((:commit . "e7cb3fc8705b576c10ed2d97f1e9346eb2df4d8f")
 	   (:authors
 	    ("Robert Krahn" . "robert@kra.hn"))
 	   (:maintainer "Robert Krahn" . "robert@kra.hn")
@@ -46838,13 +46840,15 @@
 	     (:keywords "tools" "php")
 	     (:url . "https://github.com/emacs-php/phpactor.el"))])
  (phpstan .
-	  [(0 6 0 1 -4 20221105 2112)
+	  [(0 6 0 1 -4 20230330 114)
 	   ((emacs
 	     (24 3))
 	    (php-mode
-	     (1 22 3)))
+	     (1 22 3))
+	    (php-runtime
+	     (0 2)))
 	   "Interface to PHPStan" single
-	   ((:commit . "8b4be09defe5856a1855c976474ada67557780cd")
+	   ((:commit . "e245f87e3ec4a1776037f3295d17be8a1c5abf9f")
 	    (:authors
 	     ("USAMI Kenta" . "tadsan@zonu.me"))
 	    (:maintainer "USAMI Kenta" . "tadsan@zonu.me")
