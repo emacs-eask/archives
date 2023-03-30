@@ -159,7 +159,7 @@
 		 (:keywords "magit" "diffs" "tools")
 		 (:url . "https://github.com/jdtsmith/abridge-diff"))])
  (abs-mode .
-	   [(1 5 1 -4 20220316 921)
+	   [(1 5 1 -4 20230330 1616)
 	    ((emacs
 	      (26 1))
 	     (erlang
@@ -167,9 +167,11 @@
 	     (maude-mode
 	      (0 3))
 	     (flymake
-	      (1 0)))
+	      (1 0))
+	     (yasnippet
+	      (0 14 0)))
 	    "Major mode for the modeling language Abs" single
-	    ((:commit . "d860ddbbd7cb93c7a77980c78c1a2a7634ef01e1")
+	    ((:commit . "42f37e1628ee00b8603a6d20f8d1dddcec0d1ba3")
 	     (:authors
 	      ("Rudi Schlatte" . "rudi@constantly.at"))
 	     (:maintainer "Rudi Schlatte" . "rudi@constantly.at")
@@ -6184,7 +6186,7 @@
 		 (:keywords "bib" "extensions")
 		 (:url . "https://github.com/emacs-citar/citar-embark"))])
  (citar-org-roam .
-		 [(0 5 0 1 -4 20230323 1929)
+		 [(0 5 0 1 -4 20230330 1401)
 		  ((emacs
 		    (27 1))
 		   (org-roam
@@ -6192,7 +6194,7 @@
 		   (citar
 		    (1 2 0)))
 		  "Citar/org-roam integration" single
-		  ((:commit . "451f004a96058f37608bfbe97496293bb19ef845")
+		  ((:commit . "509239241036043957cb673d780bde3542285e65")
 		   (:authors
 		    ("Bruce D'Arcus" . "bdarcus@gmail.com"))
 		   (:maintainer "Bruce D'Arcus" . "bdarcus@gmail.com")
