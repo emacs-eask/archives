@@ -39390,6 +39390,17 @@
 	       [(0 1 0 1 -4 20160416 1244)
 		nil "improve usability of Info pages" single
 		((:commit . "66b45916f1994e16ee023d29fa7cf8fec48078f1"))])
+ (nickel-mode .
+	      [(0 1 1 -4 20230330 1206)
+	       ((emacs
+		 (24 1)))
+	       "A major mode for editing Nickel source code" single
+	       ((:commit . "b909b815949516f806a56d59a14ee5e43be02952")
+		(:authors
+		 ("The Nickel Team" . "nickel-lang@tweag.io"))
+		(:maintainer "The Nickel Team" . "nickel-lang@tweag.io")
+		(:keywords "languages" "configuration-language" "configuration" "nickel" "infrastructure")
+		(:url . "https://github.com/nickel-lang/nickel-mode"))])
  (niconama .
 	   [(2 1 1 -4 20170910 1501)
 	    ((emacs
@@ -41665,11 +41676,11 @@
 			(:keywords "calendar")
 			(:url . "http://github.com/Bruce-Connor/org-agenda-property"))])
  (org-ai .
-	 [(0 2 1 1 -4 20230330 1352)
+	 [(0 2 1 1 -4 20230330 1511)
 	  ((emacs
 	    (28 2)))
 	  "Emacs org-mode integration for the OpenAI API" tar
-	  ((:commit . "8ea0a834bd9da160986d0c7a5803120a0b21c004")
+	  ((:commit . "b094db2d1cfde1e4d303fd08a62ec761616b3f94")
 	   (:authors
 	    ("Robert Krahn" . "robert@kra.hn"))
 	   (:maintainer "Robert Krahn" . "robert@kra.hn")
