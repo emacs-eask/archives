@@ -5075,13 +5075,13 @@
 	    (:keywords "convenience" "writing")
 	    (:url . "https://github.com/kisaragi-hiu/cangjie.el"))])
  (cape .
-       [(0 13 1 -4 20230326 1643)
+       [(0 13 1 -4 20230402 1532)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 4 0)))
 	"Completion At Point Extensions" tar
-	((:commit . "f953ea80f1a7ee628064a8478d94383f2763c262")
+	((:commit . "25f722a3cfa6e318677211f2cdf27ae4f94bbcc6")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -28981,7 +28981,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 0 1 1 -4 20230330 606)
+	     [(0 0 1 1 -4 20230402 1636)
 	      ((emacs
 		(27 1))
 	       (map
@@ -28993,7 +28993,7 @@
 	       (persist
 		(0 5)))
 	      "P2P filesystem in Emacs" tar
-	      ((:commit . "de2c62d48cf2eff4fb78c0549caf2c3fe70c17cf")
+	      ((:commit . "32a30383e7552a875daa8bbb0cf83dd0cc591259")
 	       (:authors
 		("Joseph Turner"))
 	       (:maintainer "Joseph Turner" . "joseph@ushin.org")
@@ -35683,7 +35683,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230402 958)
+	[(3 3 0 50 -4 20230402 1342)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -35699,7 +35699,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "a77734c6cd912554d36cbd51c559fbb5e8fb417a")
+	 ((:commit . "1abfb52886536f90f3561b18a49182ad21b6d8e8")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -46822,13 +46822,13 @@
 		      (:keywords "php" "refactor")
 		      (:url . "https://github.com/keelerm84/php-refactor-mode.el"))])
  (php-runtime .
-	      [(0 2 0 1 -4 20221009 1955)
+	      [(0 2 0 1 -4 20230402 1648)
 	       ((emacs
 		 (25 1))
-		(s
-		 (1 7)))
+		(compat
+		 (29)))
 	       "Language binding bridge to PHP" single
-	       ((:commit . "36e6ae862cb02104b5782a563f0a5846c00e0082")
+	       ((:commit . "f2ad065d787e782049fef2db795fe5e56247bd1c")
 		(:authors
 		 ("USAMI Kenta" . "tadsan@zonu.me"))
 		(:maintainer "USAMI Kenta" . "tadsan@zonu.me")
@@ -48104,7 +48104,7 @@
 	       (:keywords "powershell" "languages")
 	       (:url . "http://github.com/jschaf/powershell.el"))])
  (powerthesaurus .
-		 [(0 3 4 1 -4 20230401 1906)
+		 [(0 3 5 1 -4 20230402 1656)
 		  ((emacs
 		    (26 1))
 		   (jeison
@@ -48112,7 +48112,7 @@
 		   (s
 		    (1 13 0)))
 		  "Powerthesaurus integration" single
-		  ((:commit . "30ad1e81c95942edd52f650c4af5e9d9162715b1")
+		  ((:commit . "39d4cc28df04b6a9759acd5f231e7d9af62715d2")
 		   (:keywords "convenience" "writing")
 		   (:url . "http://github.com/SavchenkoValeriy/emacs-powerthesaurus"))])
  (ppcompile .
