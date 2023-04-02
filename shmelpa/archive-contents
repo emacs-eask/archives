@@ -6304,6 +6304,19 @@
 		 ((:commit . "ddd4bfe1a13c2fd494ce339a320a51124c1d2f68")
 		  (:keywords "c" "c++" "clang-format")
 		  (:url . "https://github.com/SavchenkoValeriy/emacs-clang-format-plus"))])
+ (clause .
+	 [(0 2 1 -4 20230323 1523)
+	  ((emacs
+	    (27 1))
+	   (mark-thing-at
+	    (0 3)))
+	  "Clause functions" single
+	  ((:commit . "efa50236734d66429d76edc6a70c0d1b7bd62ce7")
+	   (:authors
+	    ("Marty Hiatt <martianhiatus [a t] riseup [dot] net>"))
+	   (:maintainer "Marty Hiatt <martianhiatus [a t] riseup [dot] net>")
+	   (:keywords "wp" "convenience" "sentences" "text")
+	   (:url . "https://codeberg.org/martianh/clause.el"))])
  (clean-aindent-mode .
 		     [(1 5 0 1 -4 20171017 2043)
 		      nil "Simple indent and unindent, trims indent white-space" single
@@ -8917,17 +8930,13 @@
 		   (:keywords "github" "slack" "jira" "hipchat" "gitlab" "bitbucket" "org-mode" "pod" "rst" "asciidoc" "tools" "convenience")
 		   (:url . "https://github.com/sshaw/copy-as-format"))])
  (copy-file-on-save .
-		    [(0 0 5 1 -4 20200616 518)
+		    [(0 1 0 1 -4 20230402 1829)
 		     ((emacs
 		       (24 3))
-		      (cl-lib
-		       (0 5))
-		      (f
-		       (0 17))
-		      (s
-		       (1 7 0)))
-		     "Copy file on save, automatic deployment it." single
-		     ((:commit . "811c8fe638c5616b6471525421e61a4470be3b52")
+		      (compat
+		       (29)))
+		     "Copy file on save, automatic deployment it" single
+		     ((:commit . "370b1586feb2690d3c72185bd4f17c31ce03673a")
 		      (:authors
 		       ("USAMI Kenta" . "tadsan@zonu.me"))
 		      (:maintainer "USAMI Kenta" . "tadsan@zonu.me")
@@ -12763,9 +12772,9 @@
 		(:keywords "dummyparens" "auto-pair" "wrapping")
 		(:url . "https://github.com/snosov1/dummyparens"))])
  (dune .
-       [(1 0 1 -4 20230217 1444)
+       [(1 0 1 -4 20230402 1815)
 	nil "Integration with the dune build system" tar
-	((:commit . "d3d628f2eda2278bd2df6e37452d8693f367fcfd")
+	((:commit . "e53368337be3c353fd654bdbead322605fc875c5")
 	 (:url . "https://github.com/ocaml/dune"))])
  (dune-format .
 	      [(0 1 0 1 -4 20210505 108)
@@ -14744,7 +14753,7 @@
 	 (:keywords "lisp" "tool")
 	 (:url . "https://github.com/twlz0ne/elpl"))])
  (elpy .
-       [(1 35 0 1 -4 20220922 2253)
+       [(1 35 0 1 -4 20230402 1946)
 	((company
 	  (0 9 2))
 	 (emacs
@@ -14758,7 +14767,7 @@
 	 (s
 	  (1 11 0)))
 	"Emacs Python Development Environment" tar
-	((:commit . "ae7919d94659eb26d4146d4c3422c5f4c3610837")
+	((:commit . "840713f23af99b83d04034c3703f7e73c3baa7dc")
 	 (:authors
 	  ("Jorgen Schaefer <contact@jorgenschaefer.de>, Gaby Launay" . "gaby.launay@protonmail.com"))
 	 (:maintainer "Jorgen Schaefer <contact@jorgenschaefer.de>, Gaby Launay" . "gaby.launay@protonmail.com")
@@ -15401,13 +15410,13 @@
 	  (:keywords "citations" "reference" "bibtex" "reftex")
 	  (:url . "http://github.com/dimalik/empos/"))])
  (empv .
-       [(3 0 0 1 -4 20230402 1203)
+       [(3 0 0 1 -4 20230402 1852)
 	((emacs
 	  (28 1))
 	 (s
 	  (1 13 0)))
 	"A multimedia player/manager, YouTube interface" single
-	((:commit . "9b29457f05a16ce03f54b74444d91ac06599884a")
+	((:commit . "643bb7d1f42c627ae28b86d9554198e5b68665b1")
 	 (:authors
 	  ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
 	 (:maintainer "Isa Mert Gurbuz" . "isamertgurbuz@gmail.com")
@@ -16219,11 +16228,11 @@
 			 (:keywords "eshell" "prompt")
 			 (:url . "https://github.com/zwild/eshell-prompt-extras"))])
  (eshell-syntax-highlighting .
-			     [(0 3 1 -4 20220816 2017)
+			     [(0 4 1 -4 20230402 2034)
 			      ((emacs
 				(25 1)))
 			      "Highlight eshell commands" single
-			      ((:commit . "1ba39a9ffb2298cd716a4314cf3f369028c7bafe")
+			      ((:commit . "0ac5259d497a9794e147d2b9dc23edf5bc844e3c")
 			       (:authors
 				("Alex Kreisher" . "akreisher18@gmail.com"))
 			       (:maintainer "Alex Kreisher" . "akreisher18@gmail.com")
@@ -16402,11 +16411,11 @@
 		 (:keywords "data")
 		 (:url . "https://github.com/mhayashi1120/Emacs-esqlite"))])
  (ess .
-      [(18 10 3 -4 20230402 42)
+      [(18 10 3 -4 20230402 1752)
        ((emacs
 	 (25 1)))
        "Emacs Speaks Statistics" tar
-       ((:commit . "5857bb020a208c1f4c244a51a1a85bf0ed5c0c31")
+       ((:commit . "a08cdb292fc07e771b1a8aba1ad9558d2b37fa19")
 	(:authors
 	 ("David Smith" . "dsmith@stats.adelaide.edu.au")
 	 ("A.J. Rossini" . "blindglobe@gmail.com")
@@ -28981,7 +28990,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 0 1 1 -4 20230402 1636)
+	     [(0 0 1 1 -4 20230402 1725)
 	      ((emacs
 		(27 1))
 	       (map
@@ -28993,7 +29002,7 @@
 	       (persist
 		(0 5)))
 	      "P2P filesystem in Emacs" tar
-	      ((:commit . "32a30383e7552a875daa8bbb0cf83dd0cc591259")
+	      ((:commit . "ec5d7999e18b5bc32b39d0070730ab5752906b7a")
 	       (:authors
 		("Joseph Turner"))
 	       (:maintainer "Joseph Turner" . "joseph@ushin.org")
@@ -32422,7 +32431,7 @@
 		  (:maintainer "Magnar Sveen" . "magnars@gmail.com")
 		  (:url . "https://github.com/magnars/kaocha-runner.el"))])
  (kaolin-themes .
-		[(1 6 7 1 -4 20230330 2135)
+		[(1 6 8 1 -4 20230402 1851)
 		 ((emacs
 		   (25 1))
 		  (autothemer
@@ -32430,7 +32439,7 @@
 		  (cl-lib
 		   (0 6)))
 		 "A set of eye pleasing themes" tar
-		 ((:commit . "5756c94cf33ffad21057654981e7822f8babef4a")
+		 ((:commit . "facb2a08d3179103d4c3a9905b37c87831fe1665")
 		  (:authors
 		   ("Ogden Webb" . "ogdenwebb@gmail.com"))
 		  (:maintainer "Ogden Webb" . "ogdenwebb@gmail.com")
@@ -36054,7 +36063,7 @@
 		 (:maintainer "Robin Green" . "greenrd@greenrd.org")
 		 (:keywords "vc" "tools"))])
  (magit-vcsh .
-	     [(0 4 1 1 -4 20190817 2014)
+	     [(0 4 1 1 -4 20230402 1219)
 	      ((magit
 		(2 90 1))
 	       (vcsh
@@ -36062,12 +36071,12 @@
 	       (emacs
 		(24 4)))
 	      "Magit vcsh integration" single
-	      ((:commit . "fcff128cdbe3ef547dc64f2496cb6405b8ee21ca")
+	      ((:commit . "fd6c86c066b14bbf78644d38eca9711d6d9544a1")
 	       (:authors
-		("\305\240t\304\233p\303\241n N\304\233mec" . "stepnem@gmail.com"))
-	       (:maintainer "\305\240t\304\233p\303\241n N\304\233mec" . "stepnem@gmail.com")
+		("\305\240t\304\233p\303\241n N\304\233mec" . "stepnem@smrk.net"))
+	       (:maintainer "\305\240t\304\233p\303\241n N\304\233mec" . "stepnem@smrk.net")
 	       (:keywords "vc" "files" "magit")
-	       (:url . "https://gitlab.com/stepnem/magit-vcsh-el"))])
+	       (:url . "http://git.smrk.net/magit-vcsh.el"))])
  (magithub .
 	   [(0 1 7 1 -4 20220315 117)
 	    ((emacs
@@ -46822,17 +46831,17 @@
 		      (:keywords "php" "refactor")
 		      (:url . "https://github.com/keelerm84/php-refactor-mode.el"))])
  (php-runtime .
-	      [(0 2 0 1 -4 20230402 1648)
+	      [(0 3 0 1 -4 20230402 1814)
 	       ((emacs
 		 (25 1))
 		(compat
 		 (29)))
-	       "Language binding bridge to PHP" single
-	       ((:commit . "f2ad065d787e782049fef2db795fe5e56247bd1c")
+	       "Language binding bridge to PHP" tar
+	       ((:commit . "325add6f697a665c99acb43a2cc5509b023a3ced")
 		(:authors
 		 ("USAMI Kenta" . "tadsan@zonu.me"))
 		(:maintainer "USAMI Kenta" . "tadsan@zonu.me")
-		(:keywords "processes" "php")
+		(:keywords "processes" "php" "lisp")
 		(:url . "https://github.com/emacs-php/php-runtime.el"))])
  (php-scratch .
 	      [(0 1 0 1 -4 20210706 459)
@@ -48104,7 +48113,7 @@
 	       (:keywords "powershell" "languages")
 	       (:url . "http://github.com/jschaf/powershell.el"))])
  (powerthesaurus .
-		 [(0 3 5 1 -4 20230402 1656)
+		 [(0 3 6 1 -4 20230402 1904)
 		  ((emacs
 		    (26 1))
 		   (jeison
@@ -48112,7 +48121,7 @@
 		   (s
 		    (1 13 0)))
 		  "Powerthesaurus integration" single
-		  ((:commit . "39d4cc28df04b6a9759acd5f231e7d9af62715d2")
+		  ((:commit . "782df1d92f95acc100bc33d4b5f17fe6bad88682")
 		   (:keywords "convenience" "writing")
 		   (:url . "http://github.com/SavchenkoValeriy/emacs-powerthesaurus"))])
  (ppcompile .
@@ -53547,7 +53556,7 @@
 		   (:keywords "convenience" "blame")
 		   (:url . "https://github.com/emacs-sideline/sideline-blame"))])
  (sideline-flycheck .
-		    [(0 1 0 1 -4 20230216 859)
+		    [(0 1 0 1 -4 20230402 1816)
 		     ((emacs
 		       (27 1))
 		      (sideline
@@ -53557,20 +53566,20 @@
 		      (ht
 		       (2 4)))
 		     "Show flycheck errors with sideline" single
-		     ((:commit . "1f2f82d4383718a8dd2aff40cffafce4a8d0aca1")
+		     ((:commit . "3d74a008835eff71899b9455cd00f989378fe70e")
 		      (:authors
 		       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
 		      (:keywords "convenience" "flycheck")
 		      (:url . "https://github.com/emacs-sideline/sideline-flycheck"))])
  (sideline-flymake .
-		   [(0 1 1 1 -4 20230216 914)
+		   [(0 1 0 1 -4 20230402 1816)
 		    ((emacs
 		      (27 1))
 		     (sideline
 		      (0 1 0)))
 		    "Show flymake errors with sideline" single
-		    ((:commit . "e92fa5ca861ff5a54273aecde319974fe4aa9dda")
+		    ((:commit . "316325cb050d13f33e83e7d7823e3730a70ecf4e")
 		     (:authors
 		      ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -55901,17 +55910,17 @@
 		  (:maintainer "sabof" . "esabof@gmail.com")
 		  (:url . "https://github.com/sabof/stripe-buffer"))])
  (stripes .
-	  [(0 4 2 1 -4 20220310 2237)
+	  [(0 4 2 1 -4 20230402 1228)
 	   ((emacs
 	     (24 3)))
 	   "highlight alternating lines differently" single
-	   ((:commit . "618e40e0a9cf80decea32c8daecb1c9f6eae2991")
+	   ((:commit . "4683c9020da14bb1c1f74b90d27a4d9fdc7a9147")
 	    (:authors
 	     ("Michael Schierl" . "schierlm-public@gmx.de")
-	     ("\305\240t\304\233p\303\241n N\304\233mec" . "stepnem@gmail.com"))
-	    (:maintainer "\305\240t\304\233p\303\241n N\304\233mec" . "stepnem@gmail.com")
+	     ("\305\240t\304\233p\303\241n N\304\233mec" . "stepnem@smrk.net"))
+	    (:maintainer "\305\240t\304\233p\303\241n N\304\233mec" . "stepnem@smrk.net")
 	    (:keywords "convenience" "faces")
-	    (:url . "https://gitlab.com/stepnem/stripes-el"))])
+	    (:url . "http://git.smrk.net/stripes.el"))])
  (stumpwm-mode .
 	       [(0 1 0 1 -4 20171027 214)
 		nil "special lisp mode for evaluating code into running stumpwm" tar
@@ -60067,16 +60076,16 @@
 	  (:keywords "versions")
 	  (:url . "https://github.com/tarsius/vcomp"))])
  (vcsh .
-       [(0 4 4 1 -4 20200226 1339)
+       [(0 4 4 1 -4 20230402 1229)
 	((emacs
 	  (25 1)))
 	"vcsh integration" single
-	((:commit . "7e376436b8f450a5571e19246136ccf77bbdd4f1")
+	((:commit . "b9c0109a8c77446980de668785e6af1e46bdcdcd")
 	 (:authors
-	  ("\305\240t\304\233p\303\241n N\304\233mec" . "stepnem@gmail.com"))
-	 (:maintainer "\305\240t\304\233p\303\241n N\304\233mec" . "stepnem@gmail.com")
+	  ("\305\240t\304\233p\303\241n N\304\233mec" . "stepnem@smrk.net"))
+	 (:maintainer "\305\240t\304\233p\303\241n N\304\233mec" . "stepnem@smrk.net")
 	 (:keywords "vc" "files")
-	 (:url . "https://gitlab.com/stepnem/vcsh-el"))])
+	 (:url . "http://git.smrk.net/vcsh.el"))])
  (vdf-mode .
 	   [(1 2 1 -4 20210303 714)
 	    ((emacs
