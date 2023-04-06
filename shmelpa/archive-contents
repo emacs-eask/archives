@@ -24393,11 +24393,11 @@
 		     (:keywords "convenience")
 		     (:url . "https://github.com/camdez/goto-last-change.el"))])
  (goto-last-point .
-		  [(0 1 0 1 -4 20230324 155)
+		  [(0 1 0 1 -4 20230406 1822)
 		   ((emacs
 		     (24 3)))
 		   "Record and jump to the last point in the buffer" single
-		   ((:commit . "0b52576832c2393b161fe4ecb6d6871cd5d71667")
+		   ((:commit . "2ad8ff095bc34b433803c824ec4f500ff51cd1b2")
 		    (:authors
 		     ("Manuel Uberti" . "manuel.uberti@inventati.org"))
 		    (:maintainer "Manuel Uberti" . "manuel.uberti@inventati.org")
@@ -51883,7 +51883,7 @@
 		(:keywords "processes")
 		(:url . "https://github.com/bard/emacs-run-command"))])
  (run-command-recipes .
-		      [(0 0 3 1 -4 20230202 1326)
+		      [(0 0 3 1 -4 20230406 1757)
 		       ((emacs
 			 (25 1))
 			(dash
@@ -51893,7 +51893,7 @@
 			(run-command
 			 (0 1 0)))
 		       "This is collection of recipes to `run-command'" tar
-		       ((:commit . "60e6fdbe6e8bea3871674a0e5779324ed5dbd318")
+		       ((:commit . "adbde3fddd67f1f40b3374c1696af03ac9b72e5e")
 			(:authors
 			 ("semenInRussia" . "hrams205@gmail.com"))
 			(:maintainer "semenInRussia" . "hrams205@gmail.com")
@@ -60073,9 +60073,11 @@
 	    ("Adam Spiers (see vc.el for full credits)"))
 	   (:maintainer "Adam Spiers" . "aspiers@suse.com"))])
  (vcomp .
-	[(0 1 0 1 -4 20190128 20)
-	 nil "compare version strings" single
-	 ((:commit . "f839b3b3257a564b19d7f9557dc8bcbbe0b95842")
+	[(0 1 0 1 -4 20230406 1934)
+	 ((emacs
+	   (24 1)))
+	 "Compare version strings" single
+	 ((:commit . "5e5af87d20f7a7727198c9cb064b39e9fd2c8c08")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
