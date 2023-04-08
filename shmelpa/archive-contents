@@ -6722,6 +6722,21 @@
 	   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	   (:keywords "extensions")
 	   (:url . "https://github.com/emacscollective/closql"))])
+ (closql .
+	 [(0 1 0 1 -4 20230407 2158)
+	  ((emacs
+	    (25 1))
+	   (compat
+	    (29 1 3 4))
+	   (emacsql
+	    (20230220)))
+	  "Store EIEIO objects using EmacSQL" single
+	  ((:commit . "c3b34a6ec438d2e73309eed7bda26768b9a50335")
+	   (:authors
+	    ("Jonas Bernoulli" . "jonas@bernoul.li"))
+	   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+	   (:keywords "extensions")
+	   (:url . "https://github.com/emacscollective/closql"))])
  (cloud-theme .
 	      [(0 1 1 -4 20220205 1336)
 	       ((emacs
@@ -12830,6 +12845,16 @@
 			("Alvaro Ramirez"))
 		       (:maintainer "Alvaro Ramirez")
 		       (:url . "https://github.com/xenodium/dwim-shell-command"))])
+ (dwim-shell-command .
+		     [(0 44 1 -4 20230407 2002)
+		      ((emacs
+			(28 1)))
+		      "Shell commands with DWIM behaviour" tar
+		      ((:commit . "2222c483660ac04c77b51a0bd5e7871259aa526c")
+		       (:authors
+			("Alvaro Ramirez"))
+		       (:maintainer "Alvaro Ramirez")
+		       (:url . "https://github.com/xenodium/dwim-shell-command"))])
  (dyalog-mode .
 	      [(0 7 1 -4 20230214 1027)
 	       ((cl-lib
@@ -15612,6 +15637,25 @@
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	 (:keywords "tools")
 	 (:url . "https://github.com/emacscollective/epkg"))])
+ (epkg .
+       [(0 1 0 1 -4 20230407 2200)
+	((emacs
+	  (25 1))
+	 (compat
+	  (29 1 3 4))
+	 (closql
+	  (20230220))
+	 (emacsql
+	  (20230220))
+	 (llama
+	  (0 2 0)))
+	"Browse the Emacsmirror package database" tar
+	((:commit . "c1117eb93f65c15c81cb4822c5eec9a12fe268ed")
+	 (:authors
+	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
+	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+	 (:keywords "tools")
+	 (:url . "https://github.com/emacscollective/epkg"))])
  (epkg-marginalia .
 		  [(0 1 0 1 -4 20230212 2018)
 		   ((emacs
@@ -17674,6 +17718,26 @@
 		    (0 0 0)))
 		  "Evil structural editing for any language!" tar
 		  ((:commit . "eafee31ca4f532a9dbee326d3ec3bdd1e997223b")
+		   (:authors
+		    ("Ethan Leba" . "ethanleba5@gmail.com"))
+		   (:maintainer "Ethan Leba" . "ethanleba5@gmail.com")
+		   (:url . "https://github.com/ethan-leba/tree-edit"))])
+ (evil-tree-edit .
+		 [(0 1 0 1 -4 20230407 2105)
+		  ((emacs
+		    (27 1))
+		   (tree-edit
+		    (0 1 0))
+		   (tree-sitter
+		    (0 15 0))
+		   (evil
+		    (1 0 0))
+		   (avy
+		    (0 5 0))
+		   (s
+		    (0 0 0)))
+		  "Evil structural editing for any language!" single
+		  ((:commit . "86aef84896d67bcc61923663f799ab8dba05d108")
 		   (:authors
 		    ("Ethan Leba" . "ethanleba5@gmail.com"))
 		   (:maintainer "Ethan Leba" . "ethanleba5@gmail.com")
@@ -21628,6 +21692,37 @@
 	   (0 3 5)))
 	 "Access Git forges from Magit." tar
 	 ((:commit . "422881e552afd9df15e591dbf52aa36e2d481758")
+	  (:authors
+	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
+	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+	  (:keywords "git" "tools" "vc")
+	  (:url . "https://github.com/magit/forge"))])
+ (forge .
+	[(0 3 2 50 -4 20230407 2159)
+	 ((emacs
+	   (25 1))
+	  (compat
+	   (29 1 3 4))
+	  (closql
+	   (20230220))
+	  (dash
+	   (2 19 1))
+	  (emacsql
+	   (20230220))
+	  (ghub
+	   (20220621))
+	  (let-alist
+	      (1 0 6))
+	  (magit
+	   (20230319))
+	  (markdown-mode
+	   (2 4))
+	  (transient
+	   (0 3 6))
+	  (yaml
+	   (0 3 5)))
+	 "Access Git forges from Magit." tar
+	 ((:commit . "398ca3a17a3f1c63f7c49f36bf031f71d15f6ede")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -29007,6 +29102,24 @@
 		("Joseph Turner"))
 	       (:maintainer "Joseph Turner" . "joseph@ushin.org")
 	       (:url . "https://git.sr.ht/~ushin/hyperdrive.el"))])
+ (hyperdrive .
+	     [(0 0 1 1 -4 20230407 2151)
+	      ((emacs
+		(27 1))
+	       (map
+		(3 0))
+	       (compat
+		(29 1 3 2))
+	       (plz
+		(0 4))
+	       (persist
+		(0 5)))
+	      "P2P filesystem in Emacs" tar
+	      ((:commit . "959f6b576979c1e6aa74e5ef81c1ac7a67c425e3")
+	       (:authors
+		("Joseph Turner"))
+	       (:maintainer "Joseph Turner" . "joseph@ushin.org")
+	       (:url . "https://git.sr.ht/~ushin/hyperdrive.el"))])
  (hyperkitty .
 	     [(0 0 1 1 -4 20220226 1951)
 	      ((request
@@ -34555,6 +34668,17 @@
 		 (:maintainer "Don Kirkby http://donkirkby.github.io")
 		 (:keywords "live" "coding")
 		 (:url . "http://donkirkby.github.io/live-py-plugin/"))])
+ (live-py-mode .
+	       [(4 9 0 1 -4 20230407 2326)
+		((emacs
+		  (24 3)))
+		"Live Coding in Python" tar
+		((:commit . "c41918cfd432ed75747f47113d080a229fa31b47")
+		 (:authors
+		  ("Don Kirkby http://donkirkby.github.io"))
+		 (:maintainer "Don Kirkby http://donkirkby.github.io")
+		 (:keywords "live" "coding")
+		 (:url . "http://donkirkby.github.io/live-py-plugin/"))])
  (lively .
 	 [(0 1 0 1 -4 20171005 754)
 	  nil "interactively updating text" single
@@ -37218,6 +37342,13 @@
 	(:authors
 	 ("Kazu Yamamoto" . "Kazu@Mew.org"))
 	(:maintainer "Kazu Yamamoto" . "Kazu@Mew.org"))])
+ (mew .
+      [(0 1 0 1 -4 20230329 39)
+       nil "Messaging in the Emacs World" tar
+       ((:commit . "8c554e08f4ad5a023057af52b01c740727c454f4")
+	(:authors
+	 ("Mew developing team"))
+	(:maintainer "Mew developing team"))])
  (mexican-holidays .
 		   [(0 0 9 1 -4 20210604 1421)
 		    nil "Mexico holidays for Emacs calendar." single
@@ -45468,6 +45599,20 @@
 		  (:maintainer "Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		  (:keywords "maint" "tools")
 		  (:url . "https://github.com/melpa/package-build"))])
+ (package-build .
+		[(4 0 0 50 -4 20230407 2350)
+		 ((emacs
+		   (26 1)))
+		 "Tools for assembling a package archive" tar
+		 ((:commit . "95b5cc2ae66f946577df8b639213d345c97b67db")
+		  (:authors
+		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
+		   ("Steve Purcell" . "steve@sanityinc.com")
+		   ("Jonas Bernoulli" . "jonas@bernoul.li")
+		   ("Phil Hagelberg" . "technomancy@gmail.com"))
+		  (:maintainer "Donald Ephraim Curtis" . "dcurtis@milkbox.net")
+		  (:keywords "maint" "tools")
+		  (:url . "https://github.com/melpa/package-build"))])
  (package-filter .
 		 [(0 3 1 -4 20161122 719)
 		  nil "package archive whitelist and blacklist" single
@@ -49631,6 +49776,19 @@
 		(27 1)))
 	      "Multi-line shell for (i)Python" single
 	      ((:commit . "7d0167ecd71b8a2b9cedc08a490107c36b9ada43")
+	       (:authors
+		("J.D. Smith"))
+	       (:maintainer "J.D. Smith")
+	       (:keywords "languages" "processes")
+	       (:url . "https://github.com/jdtsmith/python-mls"))])
+ (python-mls .
+	     [(0 2 0 1 -4 20230407 2139)
+	      ((emacs
+		(27 1))
+	       (compat
+		(29 1)))
+	      "Multi-line shell for (i)Python" single
+	      ((:commit . "0dd0bb1eb8e580093bc35ee5610f894d4464d386")
 	       (:authors
 		("J.D. Smith"))
 	       (:maintainer "J.D. Smith")
@@ -58560,6 +58718,22 @@
 	       (0 0 0)))
 	     "A library for structural refactoring and editing" tar
 	     ((:commit . "774a1e9598617f334fcd31aa606c5e738012fb60")
+	      (:authors
+	       ("Ethan Leba" . "ethanleba5@gmail.com"))
+	      (:maintainer "Ethan Leba" . "ethanleba5@gmail.com")
+	      (:url . "https://github.com/ethan-leba/tree-edit"))])
+ (tree-edit .
+	    [(0 1 0 1 -4 20230407 2105)
+	     ((emacs
+	       (29 0))
+	      (dash
+	       (2 19))
+	      (reazon
+	       (0 4 0))
+	      (s
+	       (0 0 0)))
+	     "A library for structural refactoring and editing" tar
+	     ((:commit . "86aef84896d67bcc61923663f799ab8dba05d108")
 	      (:authors
 	       ("Ethan Leba" . "ethanleba5@gmail.com"))
 	      (:maintainer "Ethan Leba" . "ethanleba5@gmail.com")
