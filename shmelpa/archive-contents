@@ -159,7 +159,7 @@
 		 (:keywords "magit" "diffs" "tools")
 		 (:url . "https://github.com/jdtsmith/abridge-diff"))])
  (abs-mode .
-	   [(1 5 1 -4 20230402 1422)
+	   [(1 6 1 -4 20230409 1147)
 	    ((emacs
 	      (26 1))
 	     (erlang
@@ -171,7 +171,7 @@
 	     (yasnippet
 	      (0 14 0)))
 	    "Major mode for the modeling language Abs" tar
-	    ((:commit . "bfeeb70964ee03f7d29ff44959951c713318dee5")
+	    ((:commit . "e6edb867b5cc68b5c9c112a51f51f7c1d22554dc")
 	     (:authors
 	      ("Rudi Schlatte" . "rudi@constantly.at"))
 	     (:maintainer "Rudi Schlatte" . "rudi@constantly.at")
@@ -1380,15 +1380,17 @@
 		    (:keywords "theme" "dark" "emacs 24")
 		    (:url . "https://github.com/mjwall/ample-zen"))])
  (amread-mode .
-	      [(0 1 0 1 -4 20230408 334)
+	      [(0 1 0 1 -4 20230409 1018)
 	       ((emacs
 		 (24 3))
 		(cl-lib
 		 (0 6 1))
 		(pyim
-		 (5 2 8)))
+		 (5 2 8))
+		(hydra
+		 (0 15 0)))
 	       "A minor mode helper user speed-reading" single
-	       ((:commit . "65da842cae9878b0ed7ca518302df0dd4beaae49")
+	       ((:commit . "b8622ae7b05f27d6f84c4e5d724bc79163ba9ce3")
 		(:keywords "wp")
 		(:url . "https://repo.or.cz/amread-mode.git"))])
  (amsreftex .
@@ -5075,13 +5077,13 @@
 	    (:keywords "convenience" "writing")
 	    (:url . "https://github.com/kisaragi-hiu/cangjie.el"))])
  (cape .
-       [(0 13 1 -4 20230408 2051)
+       [(0 13 1 -4 20230409 1219)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 4 0)))
 	"Completion At Point Extensions" tar
-	((:commit . "2c2fa7f04a72590e82971c91e7617efcc7044cf6")
+	((:commit . "c88e1ee3026af6d1734c0e171555c1ae9152f07a")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -21937,11 +21939,11 @@
 		       ((:commit . "be572b8953b9e5a3a35c30bb64c2936d3e9802ba")
 			(:url . "https://github.com/p3r7/prf-tramp"))])
  (frimacs .
-	  [(1 0 1 -4 20221127 910)
+	  [(1 0 1 -4 20230409 1041)
 	   ((emacs
 	     (26 1)))
 	   "An environment for the FriCAS computer algebra system" tar
-	   ((:commit . "2aa343d743e70fa90ae06927fa2c7dabeca04fa2")
+	   ((:commit . "dfba4a1ca94b5f1d29659c3f786647dcdc315672")
 	    (:authors
 	     ("Paul Onions" . "paul.onions@acm.org"))
 	    (:maintainer "Paul Onions" . "paul.onions@acm.org")
@@ -24472,13 +24474,13 @@
 	  (:keywords "comm" "convenience")
 	  (:url . "https://github.com/antonhibl/gptai"))])
  (gptel .
-	[(0 10 1 -4 20230409 317)
+	[(0 10 1 -4 20230409 1122)
 	 ((emacs
 	   (27 1))
 	  (transient
 	   (0 3 7)))
 	 "A simple ChatGPT client" tar
-	 ((:commit . "acf12ee6e384e2b6a5df013ddcd9adec43a75c70")
+	 ((:commit . "3bf44478955d29837b8fcd7832d82226e5dcc1dd")
 	  (:authors
 	   ("Karthik Chikmagalur"))
 	  (:maintainer "Karthik Chikmagalur")
