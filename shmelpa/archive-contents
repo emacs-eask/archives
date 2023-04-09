@@ -5077,13 +5077,13 @@
 	    (:keywords "convenience" "writing")
 	    (:url . "https://github.com/kisaragi-hiu/cangjie.el"))])
  (cape .
-       [(0 13 1 -4 20230409 1720)
+       [(0 13 1 -4 20230409 1757)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 4 0)))
 	"Completion At Point Extensions" tar
-	((:commit . "6dd49c0f789ebd872fcc2861dc1ce58e68c905e6")
+	((:commit . "41e05124edcdb2d97f9baf4005707121a37498e3")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -5303,6 +5303,16 @@
 		      ("nyxkrage"))
 		     (:maintainer "Carsten Kragelund" . "carsten@kragelund.me")
 		     (:url . "https://github.com/catppuccin/emacs"))])
+ (cats .
+       [(0 0 1 1 -4 20230407 1316)
+	((emacs
+	  (26 1)))
+	"Monads for Elisp" tar
+	((:commit . "7fc70db0eeb2c33ffba5c13c4cdc0f31c7b95537")
+	 (:authors
+	  ("Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com"))
+	 (:maintainer "Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com")
+	 (:url . "https://github.com/Fuco1/emacs-cats"))])
  (cbm .
       [(0 3 1 -4 20171116 1240)
        ((cl-lib
@@ -9770,7 +9780,7 @@
 	(:maintainer "Ulf Jasper" . "ulf.jasper@web.de")
 	(:keywords "extensions" "data" "csv"))])
  (ct .
-     [(0 2 1 -4 20220610 1146)
+     [(0 2 1 -4 20230409 2050)
       ((emacs
 	(26 1))
        (dash
@@ -9778,7 +9788,7 @@
        (hsluv
 	(1 0 0)))
       "Color Tools - a color api" tar
-      ((:commit . "dd883e2315aba099e32fba9f1039437551b96ef3")
+      ((:commit . "62614d24109b11bc340cfd529740879f1c304c4f")
        (:authors
 	("neeasade"))
        (:maintainer "neeasade")
@@ -11435,6 +11445,17 @@
 	      (:maintainer "Naoya Yamashita" . "conao3@gmail.com")
 	      (:keywords "tools")
 	      (:url . "https://github.com/conao3/dired-git.el"))])
+ (dired-gitignore .
+		  [(0 1 0 1 -4 20230409 1606)
+		   ((emacs
+		     (27 1)))
+		   "A minor mode to hide gitignored files in a dired buffer" single
+		   ((:commit . "c71f5f60e173e8aa3f5b76fb796cce90355f1ace")
+		    (:authors
+		     ("Johannes Mueller" . "github@johannes-mueller.org"))
+		    (:maintainer "Johannes Mueller" . "github@johannes-mueller.org")
+		    (:keywords "dired" "convenience" "git")
+		    (:url . "https://github.com/johannes-mueller/dired-gitignore.el"))])
  (dired-hacks-utils .
 		    [(0 0 1 1 -4 20221127 1247)
 		     ((dash
@@ -14978,11 +14999,11 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(3 1 1 50 -4 20230228 1040)
+	  [(3 1 1 50 -4 20230409 1847)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
-	   ((:commit . "415dbfd846f46d921a70a351695f0d0e8f75da35")
+	   ((:commit . "f25de357fee74aae7a538e8eae3d9be5eb55c20e")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -15038,19 +15059,19 @@
 		   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-builtin .
-			 [(0 1 0 1 -4 20230224 1201)
+			 [(0 1 0 1 -4 20230409 1847)
 			  ((emacs
 			    (29))
 			   (emacsql
 			    (20230220)))
 			  "EmacSQL back-end for SQLite using builtin support" single
-			  ((:commit . "7c533fb6c27c3a10b6ab05bddf663e37c109e459")
+			  ((:commit . "f25de357fee74aae7a538e8eae3d9be5eb55c20e")
 			   (:authors
 			    ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 			   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-module .
-			[(0 1 0 1 -4 20230224 1201)
+			[(0 1 0 1 -4 20230409 1847)
 			 ((emacs
 			   (25))
 			  (emacsql
@@ -15058,7 +15079,7 @@
 			  (sqlite3
 			   (0 16)))
 			 "EmacSQL back-end for SQLite using a module" single
-			 ((:commit . "7c533fb6c27c3a10b6ab05bddf663e37c109e459")
+			 ((:commit . "f25de357fee74aae7a538e8eae3d9be5eb55c20e")
 			  (:authors
 			   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -15529,6 +15550,23 @@
 	     ("Alessandro Piras" . "laynor@gmail.com"))
 	    (:maintainer "Alessandro Piras" . "laynor@gmail.com")
 	    (:keywords "tools"))])
+ (environ .
+	  [(0 0 1 1 -4 20230409 2033)
+	   ((emacs
+	     (24 1))
+	    (dash
+	     (2 17 0))
+	    (f
+	     (0 20 0))
+	    (s
+	     (1 12 0)))
+	   "API for environment variables and env files" single
+	   ((:commit . "8d48e206f72471c376bc874e1583661f651bccaa")
+	    (:authors
+	     ("Chris Clark" . "cfclrk@gmail.com"))
+	    (:maintainer "Chris Clark" . "cfclrk@gmail.com")
+	    (:keywords "tools")
+	    (:url . "https://github.com/cfclrk/environ"))])
  (envrc .
 	[(0 1 0 1 -4 20230105 719)
 	 ((seq
@@ -24474,13 +24512,13 @@
 	  (:keywords "comm" "convenience")
 	  (:url . "https://github.com/antonhibl/gptai"))])
  (gptel .
-	[(0 10 1 -4 20230409 1122)
+	[(0 10 1 -4 20230409 2002)
 	 ((emacs
 	   (27 1))
 	  (transient
 	   (0 3 7)))
 	 "A simple ChatGPT client" tar
-	 ((:commit . "3bf44478955d29837b8fcd7832d82226e5dcc1dd")
+	 ((:commit . "c29e1cd673c432b8c3ead67318cc679e0c60305d")
 	  (:authors
 	   ("Karthik Chikmagalur"))
 	  (:maintainer "Karthik Chikmagalur")
@@ -25542,17 +25580,6 @@
 	     ("Syohei YOSHIDA" . "syohex@gmail.com"))
 	    (:maintainer "Syohei YOSHIDA" . "syohex@gmail.com")
 	    (:url . "https://github.com/syohex/emacs-helm-ag"))])
- (helm-ag-r .
-	    [(0 0 1 1 -4 20131123 1531)
-	     ((helm
-	       (1 0)))
-	     "Search something by ag and display by helm" single
-	     ((:commit . "67de4ebafe9b088db950eefa5ef590a6d78b4ac8")
-	      (:authors
-	       ("Yuta Yamada <cokesboy\"at\"gmail.com>"))
-	      (:maintainer "Yuta Yamada <cokesboy\"at\"gmail.com>")
-	      (:keywords "searching")
-	      (:url . "https://github.com/yuutayamada/helm-ag-r"))])
  (helm-apt .
 	   [(1 0 1 -4 20210324 1929)
 	    ((helm
@@ -25891,15 +25918,6 @@
 		     (:maintainer "Michal Buczko" . "michal.buczko@gmail.com")
 		     (:keywords "helm" "clojure")
 		     (:url . "https://github.com/mbuczko/helm-clojuredocs"))])
- (helm-cmd-t .
-	     [(0 1 1 -4 20170125 1459)
-	      nil "cmd-t style completion" tar
-	      ((:commit . "7fa3d4a9f7271512e54c5de999079b27c9eec6bf")
-	       (:authors
-		("Le Wang"))
-	       (:maintainer "Le Wang")
-	       (:keywords "helm" "project-management" "completion" "convenience" "cmd-t" "textmate")
-	       (:url . "https://github.com/lewang/helm-cmd-t"))])
  (helm-codesearch .
 		  [(0 6 0 1 -4 20221219 1219)
 		   ((emacs
@@ -26094,23 +26112,6 @@
 			    ("Akisute" . "akisute3@gmail.com"))
 			   (:maintainer "Akisute" . "akisute3@gmail.com")
 			   (:keywords "helm" "dired" "zsh"))])
- (helm-dirset .
-	      [(0 1 0 1 -4 20151209 12)
-	       ((f
-		 (0 16 2))
-		(helm
-		 (1 6 1))
-		(s
-		 (1 9 0))
-		(cl-lib
-		 (0 5)))
-	       "helm sources for multi directories" single
-	       ((:commit . "eb30810cd26e1ee73d84a863e6b2667700e9aead")
-		(:authors
-		 ("k1LoW (Kenichirou Oyama), <k1lowxb [at] gmail [dot] com> <k1low [at] 101000lab [dot] org>"))
-		(:maintainer "k1LoW (Kenichirou Oyama), <k1lowxb [at] gmail [dot] com> <k1low [at] 101000lab [dot] org>")
-		(:keywords "files" "directories")
-		(:url . "http://101000lab.org"))])
  (helm-dogears .
 	       [(0 1 -1 1 -4 20210822 2106)
 		((emacs
@@ -26430,17 +26431,6 @@
 	      ("iory" . "ab.ioryz@gmail.com"))
 	     (:maintainer "iory" . "ab.ioryz@gmail.com")
 	     (:url . "https://github.com/iory/emacs-helm-ghs"))])
- (helm-git-files .
-		 [(0 1 1 -4 20141212 1317)
-		  ((helm
-		    (1 5 9)))
-		  "helm for git files" single
-		  ((:commit . "43193960774069369ac6964bbf7c026900206fa8")
-		   (:authors
-		    ("INA Lintaro <tarao.gnn at gmail.com>")
-		    ("TAKAGI Kentaro <kentaro0910_at_gmail.com>"))
-		   (:maintainer "INA Lintaro <tarao.gnn at gmail.com>")
-		   (:keywords "helm" "git"))])
  (helm-git-grep .
 		[(0 10 1 1 -4 20170614 1411)
 		 ((helm-core
@@ -27346,19 +27336,6 @@
 	       (:maintainer "Adam Sokolnicki" . "adam.sokolnicki@gmail.com")
 	       (:keywords "helm" "rails" "git")
 	       (:url . "https://github.com/asok/helm-rails"))])
- (helm-rb .
-	  [(0 0 1 1 -4 20131123 1639)
-	   ((helm
-	     (1 0))
-	    (helm-ag-r
-	     (20131123)))
-	   "Search Ruby's method by ag and display helm" tar
-	   ((:commit . "4949d646420a9849af234dacdd8eb34a77c662fd")
-	    (:authors
-	     ("Yuta Yamada <cokesboy\"at\"gmail.com>"))
-	    (:maintainer "Yuta Yamada <cokesboy\"at\"gmail.com>")
-	    (:keywords "searching" "ruby")
-	    (:url . "https://github.com/yuutayamada/helm-rb"))])
  (helm-rdefs .
 	     [(1 0 1 1 -4 20161130 536)
 	      ((emacs
@@ -52959,22 +52936,6 @@
 	    (:maintainer "Johan Andersson" . "johan.rejeep@gmail.com")
 	    (:keywords "elpa" "server")
 	    (:url . "http://github.com/rejeep/servant.el"))])
- (serverspec .
-	     [(0 0 7 1 -4 20150623 1155)
-	      ((dash
-		(2 6 0))
-	       (s
-		(1 9 0))
-	       (f
-		(0 16 2))
-	       (helm
-		(1 6 1)))
-	      "Serverspec minor mode" tar
-	      ((:commit . "b6dfe82af9869438de5e5d860ced196641f372c0")
-	       (:authors
-		("k1LoW (Kenichirou Oyama), <k1lowxb [at] gmail [dot] com> <k1low [at] 101000lab [dot] org>"))
-	       (:maintainer "k1LoW (Kenichirou Oyama), <k1lowxb [at] gmail [dot] com> <k1low [at] 101000lab [dot] org>")
-	       (:url . "http://101000lab.org"))])
  (services .
 	   [(1 7 1 -4 20170802 1130)
 	    ((cl-lib
