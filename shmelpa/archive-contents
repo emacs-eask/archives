@@ -39235,6 +39235,17 @@
 	     ("jaypei" . "jaypei97159@gmail.com"))
 	    (:maintainer "jaypei" . "jaypei97159@gmail.com")
 	    (:url . "https://github.com/jaypei/emacs-neotree"))])
+ (nerd-icons .
+	     [(0 0 1 1 -4 20230408 2116)
+	      ((emacs
+		(24 3)))
+	      "Emacs Nerd Font Icons Library" tar
+	      ((:commit . "1589a878c203c1b6c44d5b071051be1e9e8d6103")
+	       (:authors
+		("Hongyu Ding" . "rainstormstudio@yahoo.com"))
+	       (:maintainer "Hongyu Ding" . "rainstormstudio@yahoo.com")
+	       (:keywords "lisp")
+	       (:url . "https://github.com/rainstormstudio/nerd-icons.el"))])
  (nerdtab .
 	  [(1 2 3 1 -4 20180811 339)
 	   ((emacs
@@ -43871,6 +43882,19 @@
 	       (:maintainer "Zachary Elliott" . "contact@zell.io")
 	       (:keywords "org-mode" "elisp" "project")
 	       (:url . "http://github.com/zellio/org-themis"))])
+ (org-tidy .
+	   [(0 1 1 -4 20230404 1119)
+	    ((emacs
+	      (27 1))
+	     (dash
+	      (2 19 1)))
+	    "A minor mode to tidy org-mode buffers" single
+	    ((:commit . "2acf3f9b132bed43ae1c869140bdcc4d2fb7e0eb")
+	     (:authors
+	      ("Xuqing Jia" . "jxq@jxq.me"))
+	     (:maintainer "Xuqing Jia" . "jxq@jxq.me")
+	     (:keywords "convenience" "org")
+	     (:url . "https://github.com/jxq0/org-tidy"))])
  (org-time-budgets .
 		   [(1 0 1 1 -4 20200715 1016)
 		    ((alert
@@ -45434,11 +45458,11 @@
 	     (:keywords "extensions" "tools")
 	     (:url . "https://github.com/zenspider/package"))])
  (package-build .
-		[(4 0 0 50 -4 20230408 1357)
+		[(4 0 0 50 -4 20230409 1829)
 		 ((emacs
 		   (26 1)))
 		 "Tools for assembling a package archive" tar
-		 ((:commit . "fbc2b76832919dc246552d8a5df32c22ef91ddc7")
+		 ((:commit . "53e9c5c7ecf47e55d1e725df3d546f58574db0d7")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		   ("Steve Purcell" . "steve@sanityinc.com")
@@ -56798,6 +56822,16 @@
 		 (:maintainer "Matthew L. Fidler")
 		 (:keywords "tabbar" "ruler mode" "menu" "tool bar.")
 		 (:url . "http://github.com/mlf176f2/tabbar-ruler.el"))])
+ (tabgo .
+	[(1 0 0 1 -4 20230409 1953)
+	 ((emacs
+	   (27 1)))
+	 "Jump to tabs, avy style" single
+	 ((:commit . "2556e1f8db6ebe913d1be1552d2fc966e81adde3")
+	  (:authors
+	   ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
+	  (:maintainer "Isa Mert Gurbuz" . "isamertgurbuz@gmail.com")
+	  (:url . "https://github.com/isamert/empv.el"))])
  (tablist .
 	  [(1 0 1 -4 20230321 705)
 	   ((emacs
