@@ -1819,9 +1819,9 @@
 	     (:keywords "environment" "project")
 	     (:url . "https://github.com/vietor/aproject"))])
  (apropospriate-theme .
-		      [(0 2 0 1 -4 20230310 2249)
+		      [(0 2 0 1 -4 20230409 2349)
 		       nil "A colorful, low-contrast, light & dark theme set for Emacs with a fun name." tar
-		       ((:commit . "99e492804de96a0bb98fa058c4c86908132b4cf7")
+		       ((:commit . "ce636368dd6aed6f268cc325cb55feb30b4a1345")
 			(:authors
 			 ("Justin Talbott" . "justin@waymondo.com"))
 			(:maintainer "Justin Talbott" . "justin@waymondo.com")
@@ -11054,13 +11054,13 @@
 		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		  (:url . "https://codeberg.org/ideasman42/emacs-diff-at-point"))])
  (diff-hl .
-	  [(1 9 2 1 -4 20230408 35)
+	  [(1 9 2 1 -4 20230409 2256)
 	   ((cl-lib
 	     (0 2))
 	    (emacs
 	     (25 1)))
 	   "Highlight uncommitted changes using VC" tar
-	   ((:commit . "170320efda0db99dc234b7759cf41539f6b6d9a8")
+	   ((:commit . "ed34450246598af02299053feb9d85d6675114dd")
 	    (:authors
 	     ("Dmitry Gutov" . "dgutov@yandex.ru"))
 	    (:maintainer "Dmitry Gutov" . "dgutov@yandex.ru")
@@ -11446,11 +11446,11 @@
 	      (:keywords "tools")
 	      (:url . "https://github.com/conao3/dired-git.el"))])
  (dired-gitignore .
-		  [(0 1 0 1 -4 20230409 1606)
+		  [(0 1 0 1 -4 20230409 2209)
 		   ((emacs
 		     (27 1)))
 		   "A minor mode to hide gitignored files in a dired buffer" single
-		   ((:commit . "c71f5f60e173e8aa3f5b76fb796cce90355f1ace")
+		   ((:commit . "b72b65cba49d29586a67a620e533ea6572c667db")
 		    (:authors
 		     ("Johannes Mueller" . "github@johannes-mueller.org"))
 		    (:maintainer "Johannes Mueller" . "github@johannes-mueller.org")
@@ -13434,13 +13434,13 @@
 			(:maintainer "Roland McGrath" . "roland@hack.frob.com")
 			(:url . "https://github.com/frobtech/edit-server-htmlize"))])
  (editorconfig .
-	       [(0 9 1 1 -4 20230329 118)
+	       [(0 9 1 1 -4 20230409 2346)
 		((emacs
 		  (26 1))
 		 (nadvice
 		  (0 3)))
 		"EditorConfig Emacs Plugin" tar
-		((:commit . "cd5799a6b728cfb9995605cdceffb5bf7c97622d")
+		((:commit . "ad021949d9a45cd1f00f6c096f41ba15b911b402")
 		 (:authors
 		  ("EditorConfig Team" . "editorconfig@googlegroups.com"))
 		 (:maintainer "EditorConfig Team" . "editorconfig@googlegroups.com")
@@ -13846,11 +13846,11 @@
 	    (:keywords "lisp" "testing" "unittest")
 	    (:url . "http://github.com/rejeep/el-mock.el"))])
  (el-patch .
-	   [(3 0 1 -4 20230312 851)
+	   [(3 0 1 -4 20230409 2156)
 	    ((emacs
 	      (26)))
 	    "Future-proof your Elisp" tar
-	    ((:commit . "c2be85bc1ffdf680a9c796dacb177e4b0cabef6f")
+	    ((:commit . "7dfbd374f9de256de03516d777146e7f8aba1cef")
 	     (:authors
 	      ("Radian LLC" . "contact+el-patch@radian.codes"))
 	     (:maintainer "Radian LLC" . "contact+el-patch@radian.codes")
@@ -15433,13 +15433,13 @@
 	  (:keywords "citations" "reference" "bibtex" "reftex")
 	  (:url . "http://github.com/dimalik/empos/"))])
  (empv .
-       [(3 0 0 1 -4 20230402 1852)
+       [(3 1 0 1 -4 20230409 2130)
 	((emacs
 	  (28 1))
 	 (s
 	  (1 13 0)))
 	"A multimedia player/manager, YouTube interface" single
-	((:commit . "643bb7d1f42c627ae28b86d9554198e5b68665b1")
+	((:commit . "af7def9dbb0156b2ec4e75c71ca29792b112768f")
 	 (:authors
 	  ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
 	 (:maintainer "Isa Mert Gurbuz" . "isamertgurbuz@gmail.com")
@@ -38460,7 +38460,7 @@
 			 (:keywords "mu4e" "mail" "convenience")
 			 (:url . "https://gitlab.com/wavexx/mu4e-query-fragments.el"))])
  (mu4e-views .
-	     [(0 3 1 -4 20220214 358)
+	     [(0 3 1 -4 20230105 1443)
 	      ((emacs
 		(26 1))
 	       (xwidgets-reuse
@@ -38470,7 +38470,7 @@
 	       (esxml
 		(20210323 1102)))
 	      "View emails in mu4e using xwidget-webkit" single
-	      ((:commit . "84a17bb3d725cb8b37cd700a6b88fbf98f5ca094")
+	      ((:commit . "ba223d69fa9edf7b039bd728f4630c64b08c39ff")
 	       (:authors
 		("Boris Glavic" . "lordpretzel@gmail.com"))
 	       (:maintainer "Boris Glavic" . "lordpretzel@gmail.com")
@@ -42756,7 +42756,7 @@
 		 (:keywords "orgmode" "extensions" "graphviz" "dot")
 		 (:url . "https://github.com/theodorewiles/org-mind-map"))])
  (org-ml .
-	 [(5 8 7 1 -4 20230401 230)
+	 [(5 8 8 1 -4 20230410 30)
 	  ((emacs
 	    (27 1))
 	   (org
@@ -42766,7 +42766,7 @@
 	   (s
 	    (1 12)))
 	  "Functional Org Mode API" tar
-	  ((:commit . "d1a942df35c0b37413ac335f89651cf46688df79")
+	  ((:commit . "f57336a9126a168ad32ccce017c072474555395a")
 	   (:authors
 	    ("Nathan Dwarshuis" . "ndwar@yavin4.ch"))
 	   (:maintainer "Nathan Dwarshuis" . "ndwar@yavin4.ch")
