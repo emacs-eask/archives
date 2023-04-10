@@ -61348,26 +61348,37 @@
 	      (:keywords "grep" "edit" "extensions")
 	      (:url . "http://github.com/mhayashi1120/Emacs-wgrep/raw/master/wgrep-ack.el"))])
  (wgrep-ag .
-	   [(3 0 0 1 -4 20230203 1214)
+	   [(3 0 0 1 -4 20230202 315)
 	    ((emacs
 	      (25 1))
 	     (wgrep
 	      (3 0 0)))
 	    "Writable ag buffer" single
-	    ((:commit . "b4d69280d8a6a5ded1597e02afbaa811a160383b")
+	    ((:commit . "ff3cf631b6842432daa59bf604049ca916cce73b")
 	     (:authors
 	      ("Masahiro Hayashi" . "mhayashi1120@gmail.com"))
 	     (:maintainer "Masahiro Hayashi" . "mhayashi1120@gmail.com")
 	     (:keywords "grep" "edit" "extensions")
 	     (:url . "http://github.com/mhayashi1120/Emacs-wgrep/raw/master/wgrep-ag.el"))])
+ (wgrep-deadgrep .
+		 [(2 3 0 1 -4 20230405 936)
+		  ((wgrep
+		    (2 3 0)))
+		  "Writable deadgrep buffer and apply the changes to files" single
+		  ((:commit . "3584e9ba43287d712e0c17df5328211c174e9c60")
+		   (:authors
+		    ("Masahiro Hayashi <mhayashi1120@gmail.com>, Iku Iwasa" . "iku.iwasa@gmail.com"))
+		   (:maintainer "Masahiro Hayashi <mhayashi1120@gmail.com>, Iku Iwasa" . "iku.iwasa@gmail.com")
+		   (:keywords "grep" "edit" "extensions")
+		   (:url . "http://github.com/mhayashi1120/Emacs-wgrep/raw/master/wgrep-deadgrep.el"))])
  (wgrep-helm .
-	     [(3 0 0 1 -4 20230203 1214)
+	     [(3 0 0 1 -4 20230202 315)
 	      ((emacs
 		(25 1))
 	       (wgrep
 		(3 0 0)))
 	      "Writable helm-grep-mode buffer" single
-	      ((:commit . "b4d69280d8a6a5ded1597e02afbaa811a160383b")
+	      ((:commit . "ff3cf631b6842432daa59bf604049ca916cce73b")
 	       (:authors
 		("Masahiro Hayashi" . "mhayashi1120@gmail.com"))
 	       (:maintainer "Masahiro Hayashi" . "mhayashi1120@gmail.com")
