@@ -8550,16 +8550,17 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 33 1 -4 20230406 1519)
+	  [(0 33 1 -4 20230410 1741)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (29 1 4 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "f93949999d3681dbede5cd88c849199d7adf3d8d")
+	   ((:commit . "bbb3daec33e842f0aaa3eae5b82dc9d84ef1cfe8")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
+	    (:keywords "matching" "files")
 	    (:url . "https://github.com/minad/consult"))])
  (consult-ag .
 	     [(0 2 0 1 -4 20230227 406)
@@ -8648,7 +8649,7 @@
 		  (:keywords "tools" "completion" "lsp")
 		  (:url . "https://github.com/mohkale/consult-eglot"))])
  (consult-flycheck .
-		   [(0 9 1 -4 20230212 26)
+		   [(0 9 1 -4 20230410 1754)
 		    ((emacs
 		      (27 1))
 		     (consult
@@ -8656,10 +8657,11 @@
 		     (flycheck
 		      (32)))
 		    "Provides the command `consult-flycheck'" single
-		    ((:commit . "c371996c571b7139ef4d9a8db142bf37a7ee826b")
+		    ((:commit . "9aae5b4eb999ca9c916c41c6517054967c9aa32b")
 		     (:authors
 		      ("Daniel Mendler and Consult contributors"))
 		     (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
+		     (:keywords "languages" "tools")
 		     (:url . "https://github.com/minad/consult"))])
  (consult-flyspell .
 		   [(0 5 1 -4 20230322 204)
@@ -9049,15 +9051,15 @@
 	  (:keywords "tools")
 	  (:url . "https://gitlab.com/montanari/cosmo-el"))])
  (counsel .
-	  [(0 13 4 1 -4 20230327 1216)
+	  [(0 14 0 1 -4 20230410 1815)
 	   ((emacs
 	     (24 5))
 	    (ivy
-	     (0 13 4))
+	     (0 14 0))
 	    (swiper
-	     (0 13 4)))
+	     (0 14 0)))
 	   "Various completion functions using Ivy" single
-	   ((:commit . "8df9516ae6d2e86ec6104b6783ad380fa3945dec")
+	   ((:commit . "d28225e86f8dfb3825809ad287f759f95ee9e479")
 	    (:authors
 	     ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	    (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
@@ -15636,19 +15638,19 @@
 	  (:keywords "comm" "processes" "terminals" "unix")
 	  (:url . "https://github.com/sean-hut/eping"))])
  (epkg .
-       [(0 1 0 1 -4 20230407 2200)
+       [(0 1 0 1 -4 20230410 1928)
 	((emacs
 	  (25 1))
 	 (compat
 	  (29 1 3 4))
 	 (closql
-	  (20230220))
+	  (20230407))
 	 (emacsql
-	  (20230220))
+	  (20230409))
 	 (llama
 	  (0 2 0)))
 	"Browse the Emacsmirror package database" tar
-	((:commit . "c1117eb93f65c15c81cb4822c5eec9a12fe268ed")
+	((:commit . "c5a29ca7cb816f94153efe3d9c48ab2b566f7506")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -21645,17 +21647,17 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 3 2 50 -4 20230410 752)
+	[(0 3 2 50 -4 20230410 1927)
 	 ((emacs
 	   (25 1))
 	  (compat
 	   (29 1 3 4))
 	  (closql
-	   (20230220))
+	   (20230407))
 	  (dash
 	   (2 19 1))
 	  (emacsql
-	   (20230220))
+	   (20230409))
 	  (ghub
 	   (20220621))
 	  (let-alist
@@ -21669,7 +21671,7 @@
 	  (yaml
 	   (0 3 5)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "8989f64bc1cfd18b338ede20eb78a5cc3ed4d339")
+	 ((:commit . "4dfbc3a0ca80101c7a3763df518485bd8106805f")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -24207,14 +24209,15 @@
 	     (:keywords "go" "golang" "refactoring")
 	     (:url . "https://github.com/microamp/godoctor.el"))])
  (goggles .
-	  [(0 3 1 -4 20230218 1710)
+	  [(0 3 1 -4 20230410 1751)
 	   ((emacs
 	     (27 1)))
 	   "Pulse modified regions" single
-	   ((:commit . "b715ff51e4b80c3c5487e7be6deadb1bb1497af6")
+	   ((:commit . "1bb04b55286dd6cb066d9609f228fc62817dbf56")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
+	    (:keywords "convenience" "wp")
 	    (:url . "https://github.com/minad/goggles"))])
  (gold-mode .
 	    [(0 0 1 1 -4 20140607 206)
@@ -30616,26 +30619,26 @@
 	     (:keywords "text")
 	     (:url . "http://github.com/kawabata/ivs-edit"))])
  (ivy .
-      [(0 13 4 1 -4 20230326 1253)
+      [(0 14 0 1 -4 20230410 1815)
        ((emacs
 	 (24 5)))
        "Incremental Vertical completYon" tar
-       ((:commit . "24a8262767b7917a91ed7ffc11298f28569e3087")
+       ((:commit . "d28225e86f8dfb3825809ad287f759f95ee9e479")
 	(:authors
 	 ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	(:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
 	(:keywords "matching")
 	(:url . "https://github.com/abo-abo/swiper"))])
  (ivy-avy .
-	  [(0 13 4 1 -4 20211021 1602)
+	  [(0 14 0 1 -4 20230410 1815)
 	   ((emacs
 	     (24 5))
 	    (ivy
-	     (0 13 4))
+	     (0 14 0))
 	    (avy
 	     (0 5 0)))
 	   "Avy integration for Ivy" single
-	   ((:commit . "bb77cf058d9fbc0a64e73491179e88c32e0b0b47")
+	   ((:commit . "d28225e86f8dfb3825809ad287f759f95ee9e479")
 	    (:authors
 	     ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	    (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
@@ -30828,15 +30831,15 @@
 		  (:keywords "convenience" "ivy")
 		  (:url . "https://github.com/PythonNut/historian.el"))])
  (ivy-hydra .
-	    [(0 13 5 1 -4 20220402 1348)
+	    [(0 14 0 1 -4 20230410 1815)
 	     ((emacs
 	       (24 5))
 	      (ivy
-	       (0 13 4))
+	       (0 14 0))
 	      (hydra
 	       (0 14 0)))
 	     "Additional key bindings for Ivy" single
-	     ((:commit . "40e017dc1bc4655f7c3cf4bbbe3a827ce2fff213")
+	     ((:commit . "d28225e86f8dfb3825809ad287f759f95ee9e479")
 	      (:authors
 	       ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	      (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
@@ -31532,16 +31535,17 @@
 		 ("Florian Mounier aka paradoxxxzero"))
 		(:maintainer "Florian Mounier aka paradoxxxzero"))])
  (jinx .
-       [(0 5 1 -4 20230406 2124)
+       [(0 5 1 -4 20230410 1740)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 4 0)))
 	"Enchanted Spell Checker" tar
-	((:commit . "8578f7fa7c94dba34dc5067e2940069df58c4fe4")
+	((:commit . "5c15a6646f4bc06a94bff6d478a843db4faef76b")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
+	 (:keywords "convenience" "wp")
 	 (:url . "https://github.com/minad/jinx"))])
  (jira-markup-mode .
 		   [(0 0 1 1 -4 20150601 2109)
@@ -36374,16 +36378,17 @@
 	      (:keywords "docker")
 	      (:url . "https://github.com/nlamirault/marcopolo"))])
  (marginalia .
-	     [(1 1 1 -4 20230410 1140)
+	     [(1 1 1 -4 20230410 1743)
 	      ((emacs
 		(27 1))
 	       (compat
 		(29 1 4 0)))
 	      "Enrich existing commands with completion annotations" single
-	      ((:commit . "a7446d5fbf44a4a7c12b60104d047c56c69fbead")
+	      ((:commit . "fbab90ba2ed13ddaf5e1a938a8897d83695902cc")
 	       (:authors
 		("Omar Antol\303\255n Camarena <omar@matem.unam.mx>, Daniel Mendler" . "mail@daniel-mendler.de"))
 	       (:maintainer "Omar Antol\303\255n Camarena <omar@matem.unam.mx>, Daniel Mendler" . "mail@daniel-mendler.de")
+	       (:keywords "docs" "help" "matching")
 	       (:url . "https://github.com/minad/marginalia"))])
  (mark-thing-at .
 		[(0 3 1 -4 20201219 232)
@@ -36943,11 +36948,11 @@
 	   (:keywords "comm" "processes" "bittorrent")
 	   (:url . "https://github.com/skangas/mentor"))])
  (meow .
-       [(1 4 2 1 -4 20230410 1028)
+       [(1 4 2 1 -4 20230410 1803)
 	((emacs
 	  (27 1)))
 	"Yet Another modal editing" tar
-	((:commit . "2437a95767597c95af4036d5c907dd0c89d80b6b")
+	((:commit . "4fe321a7a0b603474f8c348a8862a27b360f80a5")
 	 (:authors
 	  ("Shi Tianshu"))
 	 (:maintainer "Shi Tianshu")
@@ -39841,7 +39846,7 @@
 	      ((emacs
 		(24)))
 	      "An arctic, north-bluish clean and elegant theme" single
-	      ((:commit . "aa83e0de79190e2d0545c97c6720d46085f687bf")
+	      ((:commit . "5335a7e782fd4ea5b33cd630feae37d902709024")
 	       (:authors
 		("Sven Greb" . "development@svengreb.de"))
 	       (:maintainer "Sven Greb" . "development@svengreb.de")
@@ -42786,16 +42791,17 @@
 		    (:keywords "org-mode" "org" "mobile" "sync" "todo")
 		    (:url . "https://framagit.org/steckerhalter/org-mobile-sync"))])
  (org-modern .
-	     [(0 9 1 -4 20230312 852)
+	     [(0 9 1 -4 20230410 1751)
 	      ((emacs
 		(27 1))
 	       (compat
 		(29 1 4 0)))
 	      "Modern looks for Org" single
-	      ((:commit . "b614ad31d72c49f9eb29d3836995fd7fb0d1fd4a")
+	      ((:commit . "04ee69abdf928df18f50a48bf465d140c8876d85")
 	       (:authors
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
 	       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
+	       (:keywords "outlines" "hypermedia" "wp")
 	       (:url . "https://github.com/minad/org-modern"))])
  (org-movies .
 	     [(0 1 1 -4 20210920 101)
@@ -43365,7 +43371,7 @@
 		(:keywords "redmine" "org")
 		(:url . "https://github.com/gongo/org-redmine"))])
  (org-ref .
-	  [(3 0 1 -4 20230312 1711)
+	  [(3 0 1 -4 20230410 1750)
 	   ((org
 	     (9 4))
 	    (dash
@@ -43389,7 +43395,7 @@
 	    (ox-pandoc
 	     (0)))
 	   "citations, cross-references and bibliographies in org-mode" tar
-	   ((:commit . "1af17e6df1a8ad967352edff0223cd8d3cf55836")
+	   ((:commit . "c59f0e6eac99e32520143a5dc1a3c3ef2bd62ebb")
 	    (:authors
 	     ("John Kitchin" . "jkitchin@andrew.cmu.edu"))
 	    (:maintainer "John Kitchin" . "jkitchin@andrew.cmu.edu")
@@ -44552,16 +44558,17 @@
 	       (:keywords "comm")
 	       (:url . "https://github.com/atomontage/osa-chrome"))])
  (osm .
-      [(0 10 1 -4 20230405 1939)
+      [(0 10 1 -4 20230410 1808)
        ((emacs
 	 (27 1))
 	(compat
 	 (29 1 4 0)))
        "OpenStreetMap viewer" tar
-       ((:commit . "b3d90704b4e3caa5bf94216124ecdb9f9ae15207")
+       ((:commit . "5015fd12acd24070d258afe732eff8819d7a2959")
 	(:authors
 	 ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	(:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
+	(:keywords "comm" "multimedia" "hypermedia" "mouse")
 	(:url . "https://github.com/minad/osm"))])
  (osx-browse .
 	     [(0 8 8 1 -4 20140508 2041)
@@ -46808,11 +46815,11 @@
 	      (:maintainer "sabof")
 	      (:url . "https://github.com/sabof/php-eldoc"))])
  (php-mode .
-	   [(2 0 0 1 -4 20230410 1313)
+	   [(2 0 0 1 -4 20230410 1821)
 	    ((emacs
 	      (26 1)))
 	    "Major mode for editing PHP code" tar
-	    ((:commit . "9896cccd647fc85106cc4c6cfd3f0a0833854a24")
+	    ((:commit . "a8194bc884535eb7e8df9bed18658a5101724b3c")
 	     (:authors
 	      ("Eric James Michael Ritz"))
 	     (:maintainer "USAMI Kenta" . "tadsan@zonu.me")
@@ -50650,16 +50657,17 @@
 	  (:keywords "lisp")
 	  (:url . "https://github.com/ROCKTAKEY/recur"))])
  (recursion-indicator .
-		      [(0 4 1 -4 20230215 720)
+		      [(0 4 1 -4 20230410 1753)
 		       ((emacs
 			 (27 1))
 			(compat
 			 (29 1 3 4)))
 		       "Recursion indicator" single
-		       ((:commit . "31b67c17467fd8808efdc9875c9e8115f7b4b534")
+		       ((:commit . "95eb885d8719e5e31a42fc99a6a76812fd38df8d")
 			(:authors
 			 ("Daniel Mendler" . "mail@daniel-mendler.de"))
 			(:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
+			(:keywords "convenience")
 			(:url . "https://github.com/minad/recursion-indicator"))])
  (recursive-narrow .
 		   [(20140811 1546 1 -4 20190306 1521)
@@ -56349,13 +56357,13 @@
 		(:keywords "languages" "swift")
 		(:url . "https://github.com/taku0/swift3-mode"))])
  (swiper .
-	 [(0 13 4 1 -4 20230410 1502)
+	 [(0 14 0 1 -4 20230410 1815)
 	  ((emacs
 	    (24 5))
 	   (ivy
-	    (0 13 4)))
+	    (0 14 0)))
 	  "Isearch with an overview.  Oh, man!" single
-	  ((:commit . "17e3d22c062a7fc1c5cde10945bec9f0ce9593a2")
+	  ((:commit . "d28225e86f8dfb3825809ad287f759f95ee9e479")
 	   (:authors
 	    ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	   (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
@@ -57751,13 +57759,13 @@
 	 (:keywords "tile" "tiling" "window" "manager" "dynamic" "frames")
 	 (:url . "https://github.com/IvanMalison/tile"))])
  (time-block .
-	     [(1 6 0 1 -4 20230326 1904)
+	     [(1 6 1 1 -4 20230410 2110)
 	      ((emacs
 		(25 1))
 	       (ts
 		(0 1)))
 	      "Block running commands using time" single
-	      ((:commit . "90831463528a232414895b4905f67fa001550b9b")
+	      ((:commit . "02a7988f2a3d6124b48716fa341677f93da6eb30")
 	       (:authors
 		("Samuel W. Flint" . "swflint@flintfam.org"))
 	       (:maintainer "Samuel W. Flint" . "swflint@flintfam.org")
