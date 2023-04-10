@@ -5077,13 +5077,13 @@
 	    (:keywords "convenience" "writing")
 	    (:url . "https://github.com/kisaragi-hiu/cangjie.el"))])
  (cape .
-       [(0 13 1 -4 20230409 1757)
+       [(0 13 1 -4 20230410 844)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 4 0)))
 	"Completion At Point Extensions" tar
-	((:commit . "41e05124edcdb2d97f9baf4005707121a37498e3")
+	((:commit . "137763be8df35590f75d65f4a276bfeb4ca85c19")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -21643,7 +21643,7 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 3 2 50 -4 20230407 2159)
+	[(0 3 2 50 -4 20230410 752)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -21667,7 +21667,7 @@
 	  (yaml
 	   (0 3 5)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "398ca3a17a3f1c63f7c49f36bf031f71d15f6ede")
+	 ((:commit . "8989f64bc1cfd18b338ede20eb78a5cc3ed4d339")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -24512,13 +24512,13 @@
 	  (:keywords "comm" "convenience")
 	  (:url . "https://github.com/antonhibl/gptai"))])
  (gptel .
-	[(0 10 1 -4 20230409 2002)
+	[(0 10 1 -4 20230410 557)
 	 ((emacs
 	   (27 1))
 	  (transient
 	   (0 3 7)))
 	 "A simple ChatGPT client" tar
-	 ((:commit . "c29e1cd673c432b8c3ead67318cc679e0c60305d")
+	 ((:commit . "00abbf7597d7c4a5a5d9d4b8b4273afb89040a24")
 	  (:authors
 	   ("Karthik Chikmagalur"))
 	  (:maintainer "Karthik Chikmagalur")
@@ -35673,7 +35673,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230408 517)
+	[(3 3 0 50 -4 20230410 857)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -35689,7 +35689,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "beb3d6cae23e10a92797ac3c6d9f581d75e59cc3")
+	 ((:commit . "d62e8fb8c4d34ffdfc71fe9998b61cc0f8c0fa4a")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -39234,14 +39234,14 @@
 	    (:maintainer "jaypei" . "jaypei97159@gmail.com")
 	    (:url . "https://github.com/jaypei/emacs-neotree"))])
  (nerd-icons .
-	     [(0 0 1 1 -4 20230408 2116)
+	     [(0 0 1 1 -4 20230410 700)
 	      ((emacs
 		(24 3)))
 	      "Emacs Nerd Font Icons Library" tar
-	      ((:commit . "1589a878c203c1b6c44d5b071051be1e9e8d6103")
+	      ((:commit . "400208e6dc739d36cf7e2dea517db1d9d54ec279")
 	       (:authors
-		("Hongyu Ding" . "rainstormstudio@yahoo.com"))
-	       (:maintainer "Hongyu Ding" . "rainstormstudio@yahoo.com")
+		("Hongyu Ding <rainstormstudio@yahoo.com>, Vincent Zhang" . "seagle0128@gmail.com"))
+	       (:maintainer "Hongyu Ding <rainstormstudio@yahoo.com>, Vincent Zhang" . "seagle0128@gmail.com")
 	       (:keywords "lisp")
 	       (:url . "https://github.com/rainstormstudio/nerd-icons.el"))])
  (nerdtab .
@@ -39720,13 +39720,13 @@
 	     (:keywords "extensions")
 	     (:url . "https://github.com/ecraven/no-emoji"))])
  (no-littering .
-	       [(0 1 0 1 -4 20230220 1519)
+	       [(0 1 0 1 -4 20230410 852)
 		((emacs
 		  (25 1))
 		 (compat
 		  (29 1 3 4)))
-		"Help keeping ~/.emacs.d clean" single
-		((:commit . "b1ba75ab9296ada356219ff8ae26333a79871c61")
+		"Help keeping ~/.config/emacs clean" single
+		((:commit . "a1ddca79250bd476bf265aabfedef546f56d0042")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -48878,11 +48878,11 @@
 		  (:maintainer "Alexandre Vassalotti" . "alexandre@peadrop.com")
 		  (:keywords "google" "protobuf" "languages"))])
  (protobuf-ts-mode .
-		   [(1 0 1 -4 20230207 341)
+		   [(1 0 1 -4 20230410 855)
 		    ((emacs
 		      (29)))
 		    "Tree sitter support for Protocol Buffers (proto3 only)" single
-		    ((:commit . "3076f25bd5ce05f4a4a5840506c3a5a2c0e839d9")
+		    ((:commit . "cde61510b711d90bf2978ca4cbd3f36fce8b4c3e")
 		     (:authors
 		      ("ookami" . "mail@ookami.one"))
 		     (:maintainer "ookami" . "mail@ookami.one")
@@ -54725,13 +54725,13 @@
 	      (:keywords "languages" "soar")
 	      (:url . "https://github.com/adeschamps/soar-mode"))])
  (soccer .
-	 [(1 2 0 1 -4 20230409 1615)
+	 [(1 2 0 1 -4 20230410 626)
 	  ((emacs
 	    (26 1))
 	   (dash
 	    (2 19 1)))
 	  "Fixtures, results, table etc for soccer" tar
-	  ((:commit . "8998c156a13fe136c320aaeec81044e565aad65f")
+	  ((:commit . "c99a20c3af1011aa14bf2012d3b84cfa4282d0c2")
 	   (:authors
 	    ("Md Arif Shaikh" . "arifshaikh.astro@gmail.com"))
 	   (:maintainer "Md Arif Shaikh" . "arifshaikh.astro@gmail.com")
