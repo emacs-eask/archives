@@ -8550,17 +8550,17 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 33 1 -4 20230410 1741)
+	  [(0 33 1 -4 20230411 443)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (29 1 4 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "bbb3daec33e842f0aaa3eae5b82dc9d84ef1cfe8")
+	   ((:commit . "1eb5894aa29f39b4444a8b9b589d4d3a39d77db3")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-	    (:keywords "matching" "files")
+	    (:keywords "matching" "files" "completion")
 	    (:url . "https://github.com/minad/consult"))])
  (consult-ag .
 	     [(0 2 0 1 -4 20230227 406)
@@ -8649,7 +8649,7 @@
 		  (:keywords "tools" "completion" "lsp")
 		  (:url . "https://github.com/mohkale/consult-eglot"))])
  (consult-flycheck .
-		   [(0 9 1 -4 20230410 1754)
+		   [(0 9 1 -4 20230411 445)
 		    ((emacs
 		      (27 1))
 		     (consult
@@ -8657,11 +8657,11 @@
 		     (flycheck
 		      (32)))
 		    "Provides the command `consult-flycheck'" single
-		    ((:commit . "9aae5b4eb999ca9c916c41c6517054967c9aa32b")
+		    ((:commit . "fda630411ad9219f45136310f671b44eaefafcab")
 		     (:authors
 		      ("Daniel Mendler and Consult contributors"))
 		     (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-		     (:keywords "languages" "tools")
+		     (:keywords "languages" "tools" "completion")
 		     (:url . "https://github.com/minad/consult"))])
  (consult-flyspell .
 		   [(0 5 1 -4 20230322 204)
@@ -12848,11 +12848,11 @@
        (:keywords "convenience" "games")
        (:url . "https://github.com/integral-dw/dw-passphrase-generator"))])
  (dwim-shell-command .
-		     [(0 44 1 -4 20230410 2154)
+		     [(0 44 1 -4 20230411 721)
 		      ((emacs
 			(28 1)))
 		      "Shell commands with DWIM behaviour" tar
-		      ((:commit . "ed737d8de309fd8b1e1e4173dd383eae688249ff")
+		      ((:commit . "d04809778a3a28e594588efdee34f72e7bd8ef1f")
 		       (:authors
 			("Alvaro Ramirez"))
 		       (:maintainer "Alvaro Ramirez")
@@ -24173,7 +24173,7 @@
 		((emacs
 		  (27 1)))
 		"Translation framework supports multiple engines such as Google/Bing/DeepL" tar
-		((:commit . "cb8002277d44c6b548f7e924fa1715706b5f986a")
+		((:commit . "dd3b2cecd861aa49d0053d79a7109db8baddc6bb")
 		 (:authors
 		  ("lorniu" . "lorniu@gmail.com"))
 		 (:maintainer "lorniu" . "lorniu@gmail.com")
@@ -24517,13 +24517,13 @@
 	  (:keywords "comm" "convenience")
 	  (:url . "https://github.com/antonhibl/gptai"))])
  (gptel .
-	[(0 10 1 -4 20230410 557)
+	[(0 10 1 -4 20230411 549)
 	 ((emacs
 	   (27 1))
 	  (transient
 	   (0 3 7)))
 	 "A simple ChatGPT client" tar
-	 ((:commit . "00abbf7597d7c4a5a5d9d4b8b4273afb89040a24")
+	 ((:commit . "f218388d4dcd88aa339872c797f4805a66d10217")
 	  (:authors
 	   ("Karthik Chikmagalur"))
 	  (:maintainer "Karthik Chikmagalur")
@@ -24672,11 +24672,11 @@
 		(:maintainer "Ian Fitzpatrick")
 		(:url . "https://github.com/ifitzpatrick/graphql-doc.el"))])
  (graphql-mode .
-	       [(1 0 0 1 -4 20220716 827)
+	       [(1 0 0 1 -4 20230411 637)
 		((emacs
 		  (24 3)))
 		"Major mode for editing GraphQL schemas" single
-		((:commit . "92136cf9b5a4dcd8c202c8dba9064b497776d2f7")
+		((:commit . "27918fe500e679913c8764dc0703b6b179f6b346")
 		 (:authors
 		  ("David Vazquez Pua" . "davazp@gmail.com"))
 		 (:maintainer "David Vazquez Pua" . "davazp@gmail.com")
