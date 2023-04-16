@@ -52906,6 +52906,17 @@
 			(:maintainer "Fox Kiester" . "noct@openmailbox.org")
 			(:keywords "sentence" "evil")
 			(:url . "https://github.com/noctuid/emacs-sentence-navigation"))])
+ (sentex .
+	 [(0 2 1 -4 20230411 1650)
+	  ((emacs
+	    (27 1)))
+	  "Regex-based sentence navigation rules" tar
+	  ((:commit . "ab96ee0e9856222aaad6b085cf4ca0c5dda73789")
+	   (:authors
+	    ("Marty Hiatt <martianhiatus AT riseup.net>"))
+	   (:maintainer "Marty Hiatt <martianhiatus AT riseup.net>")
+	   (:keywords "languages" "convenience" "translation" "sentences" "text" "wp")
+	   (:url . "https://codeberg.org/martianh/sentex"))])
  (seoul256-theme .
 		 [(0 3 7 1 -4 20180505 757)
 		  ((emacs
@@ -57511,9 +57522,9 @@
 		(:keywords "unit-test")
 		(:url . "https://github.com/rocky/emacs-test-simple"))])
  (tex-smart-umlauts .
-		    [(1 4 0 1 -4 20190316 2215)
+		    [(1 5 0 1 -4 20230416 2051)
 		     nil "Smart umlaut conversion for TeX." single
-		     ((:commit . "f15ed781b1fb38bf3e46c481dd602c3999920b99")
+		     ((:commit . "b28bac71990e0442616157fdb64494179df5575e")
 		      (:authors
 		       ("Frank Fischer <frank-fischer at shadow-soft.de>"))
 		      (:maintainer "Frank Fischer <frank-fischer at shadow-soft.de>")
