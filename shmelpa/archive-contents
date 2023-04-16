@@ -35141,13 +35141,13 @@
 	      (:keywords "languages" "tex")
 	      (:url . "https://github.com/ROCKTAKEY/lsp-latex"))])
  (lsp-ltex .
-	   [(0 2 1 1 -4 20221231 1658)
+	   [(0 2 1 1 -4 20230416 1826)
 	    ((emacs
 	      (27 1))
 	     (lsp-mode
 	      (6 1)))
 	    "LSP Clients for LTEX" single
-	    ((:commit . "d1a599c8ec3748c2b81899d5831b6e7158255479")
+	    ((:commit . "c2faddc1197a360548aee7927b6512365e8c0d3a")
 	     (:authors
 	      ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
@@ -35184,7 +35184,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20230407 1752)
+	   [(8 0 1 1 -4 20230416 2018)
 	    ((emacs
 	      (26 3))
 	     (dash
@@ -35202,7 +35202,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "3143400be9dfc1335483838e24ae5e0f5705d420")
+	    ((:commit . "7a32abb8e91a95cd6809c9d27f2b8e1f855a0599")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainer "Vibhav Pant, Fangrui Song, Ivan Yonchovski")
@@ -35698,7 +35698,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230410 857)
+	[(3 3 0 50 -4 20230416 1739)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -35714,7 +35714,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "d62e8fb8c4d34ffdfc71fe9998b61cc0f8c0fa4a")
+	 ((:commit . "f59df798194d4213b5a2b2f43a2ee25b71cbbb90")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -39260,16 +39260,29 @@
 	    (:maintainer "jaypei" . "jaypei97159@gmail.com")
 	    (:url . "https://github.com/jaypei/emacs-neotree"))])
  (nerd-icons .
-	     [(0 0 1 1 -4 20230411 706)
+	     [(0 0 1 1 -4 20230416 1842)
 	      ((emacs
 		(24 3)))
 	      "Emacs Nerd Font Icons Library" tar
-	      ((:commit . "cb3944a1b0c5639fd82a9144177e97f6d3b50b85")
+	      ((:commit . "2ff304882c1c809713fc2b904b0309bfdb507b7b")
 	       (:authors
 		("Hongyu Ding <rainstormstudio@yahoo.com>, Vincent Zhang" . "seagle0128@gmail.com"))
 	       (:maintainer "Hongyu Ding <rainstormstudio@yahoo.com>, Vincent Zhang" . "seagle0128@gmail.com")
 	       (:keywords "lisp")
 	       (:url . "https://github.com/rainstormstudio/nerd-icons.el"))])
+ (nerd-icons-ibuffer .
+		     [(1 0 0 1 -4 20230413 1926)
+		      ((emacs
+			(24 3))
+		       (nerd-icons
+			(0 0 1)))
+		      "Display nerd icons in ibuffer" single
+		      ((:commit . "a38ed22c1d69647705588467a0f42c3c50b9585b")
+		       (:authors
+			("Vincent Zhang" . "seagle0128@gmail.com"))
+		       (:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
+		       (:keywords "convenience" "icons" "ibuffer")
+		       (:url . "https://github.com/seagle0128/nerd-icons-ibuffer"))])
  (nerdtab .
 	  [(1 2 3 1 -4 20180811 339)
 	   ((emacs
