@@ -36716,9 +36716,9 @@
 		     (:maintainer "Enrico Flor" . "enrico@eflor.net")
 		     (:url . "https://github.com/enricoflor/math-tex-convert"))])
  (matlab-mode .
-	      [(1 0 1 -4 20230408 1210)
+	      [(1 0 1 -4 20230424 1248)
 	       nil "Major mode for MATLAB(R) dot-m files" tar
-	       ((:commit . "bda900fd75ee2e507f56e411f54dc1512675559f"))])
+	       ((:commit . "ba655a6e1375fb251796e2fe16d14d5228e6de35"))])
  (maude-mode .
 	     [(0 3 1 -4 20220419 1454)
 	      ((emacs
@@ -39291,6 +39291,19 @@
 	       (:maintainer "Hongyu Ding <rainstormstudio@yahoo.com>, Vincent Zhang" . "seagle0128@gmail.com")
 	       (:keywords "lisp")
 	       (:url . "https://github.com/rainstormstudio/nerd-icons.el"))])
+ (nerd-icons-dired .
+		   [(0 0 1 1 -4 20230417 1541)
+		    ((emacs
+		      (24 4))
+		     (nerd-icons
+		      (0 0 1)))
+		    "Shows icons for each file in dired mode" single
+		    ((:commit . "bb1c6cf2c1c43eb01708f95dc085393f3f018c94")
+		     (:authors
+		      ("Hongyu Ding" . "rainstormstudio@yahoo.com"))
+		     (:maintainer "Hongyu Ding" . "rainstormstudio@yahoo.com")
+		     (:keywords "lisp")
+		     (:url . "https://github.com/rainstormstudio/nerd-icons-dired"))])
  (nerd-icons-ibuffer .
 		     [(1 0 0 1 -4 20230413 1926)
 		      ((emacs
@@ -39304,6 +39317,21 @@
 		       (:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
 		       (:keywords "convenience" "icons" "ibuffer")
 		       (:url . "https://github.com/seagle0128/nerd-icons-ibuffer"))])
+ (nerd-icons-ivy-rich .
+		      [(1 0 0 1 -4 20230420 1901)
+		       ((emacs
+			 (26 1))
+			(ivy-rich
+			 (0 1 0))
+			(nerd-icons
+			 (0 0 1)))
+		       "Excellent experience with nerd icons for ivy/counsel" single
+		       ((:commit . "441c7fa47d417cce0e7bf700b7535327292a598c")
+			(:authors
+			 ("Vincent Zhang" . "seagle0128@gmail.com"))
+			(:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
+			(:keywords "convenience" "icons" "ivy")
+			(:url . "https://github.com/seagle0128/nerd-icons-ivy-rich"))])
  (nerdtab .
 	  [(1 2 3 1 -4 20180811 339)
 	   ((emacs
@@ -41669,6 +41697,17 @@
 			       (:maintainer "Chmouel Boudjnah" . "chmouel@chmouel.com")
 			       (:keywords "convenience" "vc" "git" "cgit" "gerrit" "openstack")
 			       (:url . "https://github.com/chmouel/openstack-cgit-browse-file"))])
+ (opensub .
+	  [(1 0 0 1 -4 20230417 1635)
+	   ((emacs
+	     (25 1)))
+	   "Search and download from open-subtitles" single
+	   ((:commit . "0faef3dad6fc9c0eda1db1b237e6f66a8f411b01")
+	    (:authors
+	     ("Daniel Fleischer" . "danflscr@gmail.com"))
+	    (:maintainer "Daniel Fleischer" . "danflscr@gmail.com")
+	    (:keywords "multimedia")
+	    (:url . "https://github.com/danielfleischer/opensub"))])
  (operate-on-number .
 		    [(1 2 0 1 -4 20150707 623)
 		     nil "Operate on number at point with arithmetic functions" single
@@ -49621,11 +49660,11 @@
 		 (:keywords "languages")
 		 (:url . "https://github.com/wbolster/emacs-python-black"))])
  (python-cell .
-	      [(1 0 1 -4 20230224 1925)
+	      [(1 0 1 -4 20230424 1320)
 	       ((emacs
 		 (25 1)))
 	       "Support for MATLAB-like cells in python mode" single
-	       ((:commit . "cb8e6381b1fab16bcf475d115bb22fef503bea32")
+	       ((:commit . "0f96e6308c27344d3cea157c8128da7504e5e01e")
 		(:authors
 		 ("Thomas Hisch" . "t.hisch@gmail.com"))
 		(:maintainer "Thomas Hisch" . "t.hisch@gmail.com")
