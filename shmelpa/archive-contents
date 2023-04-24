@@ -53269,6 +53269,16 @@
 		("Ian Eure" . "ian.eure@gmail.com"))
 	       (:maintainer "Ian Eure" . "ian.eure@gmail.com")
 	       (:keywords "unix" "tools" "processes"))])
+ (shell-maker .
+	      [(0 17 1 1 -4 20230419 1616)
+	       ((emacs
+		 (27 1)))
+	       "Interaction mode for making comint shells" single
+	       ((:commit . "22aca37232aa25273e121e135fe31b87bb760527")
+		(:authors
+		 ("Alvaro Ramirez https://xenodium.com"))
+		(:maintainer "Alvaro Ramirez https://xenodium.com")
+		(:url . "https://github.com/xenodium/chatgpt-shell"))])
  (shell-pop .
 	    [(0 64 1 -4 20200315 1139)
 	     ((emacs
@@ -61136,11 +61146,11 @@
 		      ("martin haesler"))
 		     (:maintainer "martin haesler"))])
  (wasp-mode .
-	    [(0 0 1 1 -4 20230226 2035)
+	    [(0 0 1 1 -4 20230424 1307)
 	     ((emacs
 	       (24 3)))
 	     "A major mode for the Wasp programming language" single
-	     ((:commit . "00fc41ecfe0291cc32e012a074d8a3a65e1bfd64")
+	     ((:commit . "76198cdd5f0ece3770c3a586115caea3ea613169")
 	      (:authors
 	       ("XXIV"))
 	      (:maintainer "XXIV")
