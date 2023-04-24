@@ -2784,13 +2784,13 @@
 		     (:keywords "theme")
 		     (:url . "https://github.com/avkoval/avk-emacs-themes"))])
  (avy .
-      [(0 5 0 1 -4 20230316 2259)
+      [(0 5 0 1 -4 20230420 404)
        ((emacs
 	 (24 1))
 	(cl-lib
 	 (0 5)))
        "Jump to arbitrary positions in visible text and select text quickly." single
-       ((:commit . "d9634efe2631b608cb28c420f54d6e6689805cf7")
+       ((:commit . "be612110cb116a38b8603df367942e2bb3d9bdbe")
 	(:authors
 	 ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	(:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
@@ -5687,6 +5687,18 @@
 	    (:maintainer "Anan Mikami" . "lateau@gmail.com")
 	    (:keywords "unicode" "character" "ucs")
 	    (:url . "https://github.com/lateau/charmap"))])
+ (chatgpt-shell .
+		[(0 18 1 1 -4 20230423 1118)
+		 ((emacs
+		   (27 1))
+		  (shell-maker
+		   (0 17 1)))
+		 "Interaction mode for ChatGPT" single
+		 ((:commit . "b774d19a57ddf533de01771d29810e97e07d0921")
+		  (:authors
+		   ("Alvaro Ramirez https://xenodium.com"))
+		  (:maintainer "Alvaro Ramirez https://xenodium.com")
+		  (:url . "https://github.com/xenodium/chatgpt-shell"))])
  (chatwork .
 	   [(0 2 1 -4 20170511 442)
 	    nil "ChatWork client for Emacs" single
@@ -5987,7 +5999,7 @@
 		(:maintainer "Adam Chy\305\202a" . "adam@chyla.org")
 		(:url . "https://github.com/chyla/ChylaThemeForEmacs"))])
  (cider .
-	[(1 7 0 1 -4 20230413 743)
+	[(1 7 0 1 -4 20230424 1243)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -6003,7 +6015,7 @@
 	  (sesman
 	   (0 3 2)))
 	 "Clojure Interactive Development Environment that Rocks" tar
-	 ((:commit . "969a66a14df4c6356be91b01cff1a7e585a967c5")
+	 ((:commit . "0fa58acd93d7305ddc823d5bd670a2e3362bacd2")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
 	   ("Phil Hagelberg" . "technomancy@gmail.com")
@@ -31203,6 +31215,17 @@
 	      (:maintainer "Brian M. Carlson and other contributors")
 	      (:keywords "languages")
 	      (:url . "https://github.com/brianc/jade-mode"))])
+ (jami-bot .
+	   [(0 0 1 1 -4 20230416 1931)
+	    ((emacs
+	      (27 1)))
+	    "An extendable chat bot for the private messenger GNU Jami" single
+	    ((:commit . "63d7df8c5b6397d86bef9c0b7b2557ae11a88335")
+	     (:authors
+	      ("Hanno Perrey <http://gitlab.com/hperrey>"))
+	     (:maintainer "Hanno Perrey" . "hanno@hoowl.se")
+	     (:keywords "comm" "jami" "messenger" "chat bot" "dbus")
+	     (:url . "https://gitlab.com/hanno/jami-bot"))])
  (jammer .
 	 [(0 1 2 1 -4 20210508 1633)
 	  ((emacs
@@ -31552,13 +31575,13 @@
 		 ("Florian Mounier aka paradoxxxzero"))
 		(:maintainer "Florian Mounier aka paradoxxxzero"))])
  (jinx .
-       [(0 7 1 -4 20230424 1005)
+       [(0 7 1 -4 20230424 1149)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 4 0)))
 	"Enchanted Spell Checker" tar
-	((:commit . "16e6a8bc6d19341836446e83bc14086695206837")
+	((:commit . "d4280cb6e8e12822334c92d0f94cda6eb8f76d96")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
