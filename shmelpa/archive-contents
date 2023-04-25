@@ -28340,6 +28340,14 @@
 			 ("Anders Lindgren"))
 			(:maintainer "Anders Lindgren")
 			(:keywords "tools"))])
+ (hima-theme .
+	     [(0 1 1 -4 20230421 314)
+	      ((emacs
+		(25 1)))
+	      "A minimal theme with pretty colors" single
+	      ((:commit . "553541f1b66e0f00bada8273d1126d50de13bcd1")
+	       (:keywords "faces")
+	       (:url . "https://github.com/meain/hima-theme"))])
  (himalaya .
 	   [(0 3 1 -4 20230209 1545)
 	    ((emacs
@@ -33547,7 +33555,7 @@
 		       (:keywords "latex" "preview")
 		       (:url . "http://www.emacswiki.org/emacs/LaTeXPreviewPane"))])
  (latex-table-wizard .
-		     [(1 3 1 1 -4 20230413 1611)
+		     [(1 3 2 1 -4 20230424 2045)
 		      ((emacs
 			(27 1))
 		       (auctex
@@ -33555,7 +33563,7 @@
 		       (transient
 			(0 3 7)))
 		      "Magic editing of LaTeX tables" tar
-		      ((:commit . "841bed109ef1acd757a815a51d65bc50ce312589")
+		      ((:commit . "c496237fa11b57c4700f3db5a1f69e7f1ac0a912")
 		       (:authors
 			("Enrico Flor" . "enrico@eflor.net"))
 		       (:maintainer "Enrico Flor" . "enrico@eflor.net")
@@ -35719,7 +35727,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230423 1225)
+	[(3 3 0 50 -4 20230424 2107)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -35735,7 +35743,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "158c13a76a9eebf97b4427116599b5a6f08658c4")
+	 ((:commit . "25dbf32d86eaf1ccb7b652b2de392d749c4c2186")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -39557,11 +39565,11 @@
 	     (:maintainer "Simon Hafner" . "hafnersimon@gmail.com")
 	     (:keywords "nim" "languages"))])
  (nimbus-theme .
-	       [(1 3 0 1 -4 20230423 1555)
+	       [(1 3 0 1 -4 20230424 1954)
 		((emacs
 		  (24 1)))
 		"Nimbus dark theme" single
-		((:commit . "c7dbd9ae556cfb299bd760fe8b15ec5c1d8db138")
+		((:commit . "771bea18d5469abd7d935e69943282610aae008a")
 		 (:authors
 		  ("Marcin Swieczkowski" . "marcin.swieczkowski@gmail.com")
 		  ("See README.md for full list of contributors."))
@@ -39933,11 +39941,11 @@
 	       (:maintainer "Sven Greb" . "development@svengreb.de")
 	       (:url . "https://github.com/nordtheme/emacs"))])
  (nordic-night-theme .
-		     [(1 0 0 1 -4 20230421 2216)
+		     [(1 0 0 1 -4 20230424 2014)
 		      ((emacs
 			(24 1)))
 		      "A darker, more colorful version of the lovely Nord theme" single
-		      ((:commit . "5e3530197287e0df732209f52e93f24a66677624")
+		      ((:commit . "8d74012f80d29f5044db5b08a4550332ec36e48f")
 		       (:authors
 			("Ashton Wiersdorf" . "mail@wiersdorf.dev"))
 		       (:maintainer "Ashton Wiersdorf" . "mail@wiersdorf.dev")
@@ -42073,13 +42081,13 @@
 		 (:maintainer "Alexey Kutepov" . "reximkut@gmail.com")
 		 (:url . "http://github.com/rexim/org-cliplink"))])
  (org-clock-convenience .
-			[(1 3 1 -4 20221124 2304)
+			[(1 3 1 -4 20230424 2101)
 			 ((org
 			   (8))
 			  (emacs
 			   (24 3)))
 			 "Convenience functions for org time tracking" single
-			 ((:commit . "9d21d3a5ba2f8656aa23b8cb557017440f1b74e8")
+			 ((:commit . "08417dfd51deb400b890cf71c87b57393fc5ac8c")
 			  (:authors
 			   ("Derek Feichtinger <dfeich.gmail.com>"))
 			  (:maintainer "Derek Feichtinger <dfeich.gmail.com>")
@@ -43650,7 +43658,7 @@
 	    (:keywords "outlines" "data")
 	    (:url . "https://github.com/pmiddend/org-rtm"))])
  (org-runbook .
-	      [(1 1 1 -4 20230411 1806)
+	      [(1 1 1 -4 20230424 2002)
 	       ((emacs
 		 (27 1))
 		(seq
@@ -43668,7 +43676,7 @@
 		(ivy
 		 (0 8 0)))
 	       "Org mode for runbooks" tar
-	       ((:commit . "f9dcc1c9262752a2ecb561578fa01d58f8ad32aa")
+	       ((:commit . "1817e58bb2b0db9b76d30f38870fb854dbe51cac")
 		(:authors
 		 ("Tyler Dodge"))
 		(:maintainer "Tyler Dodge")
@@ -51392,6 +51400,17 @@
 		 ("Kenshi Muto" . "kmuto@kmuto.jp"))
 		(:maintainer "Kenshi Muto" . "kmuto@kmuto.jp")
 		(:url . "https://github.com/kmuto/review-el"))])
+ (rewriting-pcase .
+		  [(0 1 1 -4 20230419 23)
+		   ((emacs
+		     (27 1)))
+		   "Support for rewriting sexps in source code" single
+		   ((:commit . "3a2efb79bfc68629bd20a8bc1770c8f6d24575fa")
+		    (:authors
+		     ("Onnie Winebarger"))
+		    (:maintainer "Onnie Winebarger")
+		    (:keywords "extensions" "lisp")
+		    (:url . "https://github.com/owinebar/emacs-rewriting-pcase"))])
  (reykjavik-theme .
 		  [(0 1 1 -4 20201219 947)
 		   ((emacs
@@ -58783,7 +58802,7 @@
 	       (:keywords "outlines" "files" "convenience")
 	       (:url . "https://github.com/cyberthal/treefactor"))])
  (treemacs .
-	   [(3 1 1 -4 20230412 1624)
+	   [(3 1 1 -4 20230424 2017)
 	    ((emacs
 	      (26 1))
 	     (cl-lib
@@ -58803,7 +58822,7 @@
 	     (cfrs
 	      (1 3 2)))
 	    "A tree style file explorer package" tar
-	    ((:commit . "26c16e997d2fa9c088042061c652ab0f6e839e2c")
+	    ((:commit . "983ea5a66801a5c1f6e32e3d515bd48761677ac6")
 	     (:authors
 	      ("Alexander Miller" . "alexanderm@web.de"))
 	     (:maintainer "Alexander Miller" . "alexanderm@web.de")
