@@ -40425,7 +40425,7 @@
 	     (:keywords "languages" "extensions")
 	     (:url . "https://emacs-lsp.github.io/lsp-dart"))])
  (lsp-docker .
-	     [(1 0 0 1 -4 20221226 1000)
+	     [(1 0 0 1 -4 20230428 1825)
 	      ((emacs
 		(26 1))
 	       (dash
@@ -40441,7 +40441,7 @@
 	       (ht
 		(2 0)))
 	      "LSP Docker integration" single
-	      ((:commit . "1e1f33ed729c220485c16e6597738d8e416f31b7")
+	      ((:commit . "1e25ba9cfd462d323865165b5f99880391abded2")
 	       (:authors
 		("Ivan Yonchovski" . "yyoncho@gmail.com"))
 	       (:maintainers
@@ -41251,7 +41251,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230428 1246)
+	[(3 3 0 50 -4 20230428 1550)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -41267,7 +41267,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "654b8ceff31f3a0401d20c64fdb69b042bb1c81e")
+	 ((:commit . "152478b01f37e3aee1369e815985f184d8c864c5")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -41548,7 +41548,7 @@
 		      (:keywords "magit" "vc")
 		      (:url . "http://github.com/jtamagnan/magit-reviewboard"))])
  (magit-section .
-		[(3 3 0 50 -4 20230428 1239)
+		[(3 3 0 50 -4 20230428 1518)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -41556,7 +41556,7 @@
 		  (dash
 		   (20221013)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "3224b1765ff30c9f893527ce39d752342550bb25")
+		 ((:commit . "c5ebbf86ed9fa0cc33d5e7e788a55fe8c7ab4b93")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -42289,7 +42289,7 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/YiGeeker/masm-mode"))])
  (mastodon .
-	   [(1 0 0 1 -4 20230428 1327)
+	   [(1 0 0 1 -4 20230428 1508)
 	    ((emacs
 	      (27 1))
 	     (request
@@ -42299,7 +42299,7 @@
 	     (ts
 	      (0 3)))
 	    "Client for fediverse services that implement the Mastodon API" tar
-	    ((:commit . "d841c2522ea63e5a2e02811b20506185072740ca")
+	    ((:commit . "bec7a01c1fe63fdb9ca45602ec71315514b4572d")
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com")
 	      ("Marty Hiatt" . "martianhiatus@riseup.net"))
@@ -46121,11 +46121,11 @@
 	       (:maintainer "Sven Greb" . "development@svengreb.de")
 	       (:url . "https://github.com/nordtheme/emacs"))])
  (nordic-night-theme .
-		     [(1 0 0 1 -4 20230428 319)
+		     [(1 0 0 1 -4 20230428 1707)
 		      ((emacs
 			(24 1)))
 		      "A darker, more colorful version of the lovely Nord theme" single
-		      ((:commit . "b75801f1430c7f2abfa9ffc26aebf26d64c772fe")
+		      ((:commit . "c25bdf1bae65e8b877981f7702ce172cec73b647")
 		       (:authors
 			("Ashton Wiersdorf" . "mail@wiersdorf.dev"))
 		       (:maintainers
@@ -51116,13 +51116,13 @@
 		   (:keywords "convenience")
 		   (:url . "https://github.com/myuhe/org-wunderlist.el"))])
  (org-zettelkasten .
-		   [(0 8 0 1 -4 20230423 1804)
+		   [(0 8 0 1 -4 20230428 1502)
 		    ((emacs
 		      (25 1))
 		     (org
 		      (9 3)))
 		    "A Zettelkasten mode leveraging Org" tar
-		    ((:commit . "23ad5db1cb9aeea700e91db95bf0ac4401c01068")
+		    ((:commit . "ef005996a857af1049fdf80e07cb5eb46990626e")
 		     (:authors
 		      ("Yann Herklotz" . "yann@ymhg.org"))
 		     (:maintainers
@@ -57864,11 +57864,11 @@
 	  (:keywords "abbrev" "convenience" "matching" "rust" "tools")
 	  (:url . "https://github.com/racer-rust/emacs-racer"))])
  (racket-mode .
-	      [(1 1 -4 20230428 1328)
+	      [(1 1 -4 20230428 1424)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
-	       ((:commit . "dcb3a8619c6c999816db88737f74d6a68df7d726")
+	       ((:commit . "f67cccd625e1ed9987e186b06e45f23dabcfb405")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com"))
 		(:maintainers
@@ -61576,11 +61576,11 @@
 	       (:maintainer "Ian Eure" . "ian.eure@gmail.com")
 	       (:keywords "unix" "tools" "processes"))])
  (shell-maker .
-	      [(0 17 1 1 -4 20230428 657)
+	      [(0 17 1 1 -4 20230428 1800)
 	       ((emacs
 		 (27 1)))
 	       "Interaction mode for making comint shells" single
-	       ((:commit . "634667d5d003b341616508d48eab504989bab5ca")
+	       ((:commit . "c048f9c41dca8c13149161926aced51fda6e7252")
 		(:authors
 		 ("Alvaro Ramirez https://xenodium.com"))
 		(:maintainers
@@ -66873,7 +66873,7 @@
 	  (:keywords "tools")
 	  (:url . "https://github.com/tidalcycles/Tidal"))])
  (tide .
-       [(4 5 4 1 -4 20230129 1346)
+       [(4 5 4 1 -4 20230428 1846)
 	((emacs
 	  (25 1))
 	 (dash
@@ -66885,7 +66885,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Typescript Interactive Development Environment" tar
-	((:commit . "29475d9eee26f4101322209e9b6b199df5386094")
+	((:commit . "ea47d8faa64de4f48473dc753ae3ea5abeaf770e")
 	 (:authors
 	  ("Anantha kumaran" . "ananthakumaran@gmail.com"))
 	 (:maintainers
@@ -71849,11 +71849,11 @@
 	   "Major mode interface to WordNet" tar
 	   ((:commit . "feac531404041855312c1a046bde7ea18c674915"))])
  (wordreference .
-		[(0 2 1 -4 20230421 1937)
+		[(0 2 1 -4 20230428 1520)
 		 ((emacs
 		   (28 1)))
 		 "Interface for wordreference.com" single
-		 ((:commit . "ef31da10284dc677db6a51b4b971f85b1b59a4e8")
+		 ((:commit . "bc037c56f64fbaa2d5f78526d979227344845af5")
 		  (:authors
 		   ("Marty Hiatt <martianhiatus AT riseup.net>"))
 		  (:maintainers
