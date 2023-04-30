@@ -28347,11 +28347,11 @@
 	(:keywords "gpt3" "language" "copilot" "convenience" "tools")
 	(:url . "https://github.com/stuhlmueller/gpt.el"))])
  (gptai .
-	[(1 0 5 1 -4 20230318 1547)
+	[(1 0 5 1 -4 20230430 1823)
 	 ((emacs
 	   (24 1)))
 	 "Integrate with the OpenAI API" tar
-	 ((:commit . "5cdea5c85b102e1e57904ea6bb826cccd506067f")
+	 ((:commit . "a2e84a9936fb7dee82024082bc38e6f7564506e4")
 	  (:authors
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainers
@@ -39982,11 +39982,11 @@
 		 (:keywords "languages" "util")
 		 (:url . "https://github.com/lassik/emacs-live-preview"))])
  (live-py-mode .
-	       [(4 10 0 1 -4 20230425 237)
+	       [(4 10 0 1 -4 20230430 1540)
 		((emacs
 		  (24 3)))
 		"Live Coding in Python" tar
-		((:commit . "3d8b981c063df2951db7f8a32611b7dcc67feef5")
+		((:commit . "c927feefa62f4ce9b3b5029063f9654a317267ef")
 		 (:authors
 		  ("Don Kirkby http://donkirkby.github.io"))
 		 (:maintainers
@@ -42331,7 +42331,7 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/YiGeeker/masm-mode"))])
  (mastodon .
-	   [(1 0 0 1 -4 20230430 1342)
+	   [(1 0 0 1 -4 20230430 1434)
 	    ((emacs
 	      (27 1))
 	     (request
@@ -42341,7 +42341,7 @@
 	     (ts
 	      (0 3)))
 	    "Client for fediverse services using Mastodon API" tar
-	    ((:commit . "5bb860d943cde9260ced8bc6eb9570d1dbb3273d")
+	    ((:commit . "91b5c03eb49c5bf6d1da00d6bf6f192b4a592f16")
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com")
 	      ("Marty Hiatt" . "martianhiatus@riseup.net"))
@@ -48403,6 +48403,27 @@
 		    (:maintainer "Benjamin K\303\244stner" . "benjamin.kaestner@gmail.com")
 		    (:keywords "tools" "org" "calendar" "convenience")
 		    (:url . "https://github.com/bkaestner/org-arbeitszeit"))])
+ (org-assistant .
+		[(0 1 1 -4 20230430 1837)
+		 ((emacs
+		   (27 1))
+		  (uuidgen
+		   (1 2))
+		  (deferred
+		    (0 5 1))
+		  (s
+		   (1 12 0))
+		  (dash
+		   (2 19 1)))
+		 "Org babel extension for Chat Assistant APIs" single
+		 ((:commit . "ab169200ef9c6b0543c0225fd85fc13a01d07e11")
+		  (:authors
+		   ("Tyler Dodge" . "tyler@tdodge.consulting"))
+		  (:maintainers
+		   ("Tyler Dodge" . "tyler@tdodge.consulting"))
+		  (:maintainer "Tyler Dodge" . "tyler@tdodge.consulting")
+		  (:keywords "convenience")
+		  (:url . "https://github.com/tyler-dodge/org-assistant"))])
  (org-attach-screenshot .
 			[(0 9 1 -4 20210221 1336)
 			 ((emacs
@@ -66258,13 +66279,13 @@
 	   (:keywords "abbrev" "languages" "tools" "wp")
 	   (:url . "https://github.com/minad/tempel"))])
  (tempel-collection .
-		    [(0 2 1 -4 20230426 909)
+		    [(0 2 1 -4 20230430 1842)
 		     ((tempel
 		       (0 5))
 		      (emacs
 		       (27 1)))
 		     "Collection of templates for Tempel" tar
-		     ((:commit . "5fa13a7aee2f8881ba0785dd755e0370727cd904")
+		     ((:commit . "ba2ae39e66804337f604de69df6ae9b34b821e85")
 		      (:authors
 		       ("Vitalii Drevenchuk" . "cradlemann@gmail.com")
 		       ("Max Penet" . "mpenetr@s-exp.com")
@@ -72156,11 +72177,11 @@
 		  (:maintainer nil . "<lompik@ArchOrion>")
 		  (:keywords "convenience"))])
  (x509-mode .
-	    [(0 1 0 1 -4 20230119 838)
+	    [(0 1 0 1 -4 20230430 1518)
 	     ((emacs
 	       (25 1)))
 	     "View certificates, CRLs and keys using OpenSSL" tar
-	     ((:commit . "0118ac433f5aa0c4a7ea51709ba9da51388d644d")
+	     ((:commit . "3830cbfdadab4cd68e6f0b6a3a7a4931be8328ea")
 	      (:authors
 	       ("Fredrik Axelsson" . "f.axelsson@gmail.com"))
 	      (:maintainers
