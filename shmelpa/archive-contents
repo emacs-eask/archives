@@ -2457,6 +2457,23 @@
 		 (:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de")
 		 (:keywords "files")
 		 (:url . "https://tildegit.org/contrapunctus/async-backup"))])
+ (async-job-queue .
+		  [(0 1 1 -4 20230427 2122)
+		   ((async
+		     (1 4))
+		    (emacs
+		     (25 1))
+		    (queue
+		     (0 2)))
+		   "Dispatch queue of async jobs to a fixed number of slots" single
+		   ((:commit . "eeafcce7f960305666b2a51aec55cc6333f6af1b")
+		    (:authors
+		     ("Onnie Winebarger"))
+		    (:maintainers
+		     ("Onnie Winebarger"))
+		    (:maintainer "Onnie Winebarger")
+		    (:keywords "extensions" "lisp")
+		    (:url . "https://github.com/owinebar/emacs-async-job-queue"))])
  (atcoder-tools .
 		[(0 5 0 1 -4 20200109 1236)
 		 ((emacs
@@ -4316,6 +4333,18 @@
 	     (:maintainer "Dave Pearson" . "davep@davep.org")
 	     (:keywords "games" "time" "display")
 	     (:url . "https://github.com/davep/binclock.el"))])
+ (bind .
+       [(0 9 0 1 -4 20230425 2239)
+	((emacs
+	  (25 1)))
+	"Bind commands to keys" single
+	((:commit . "cfb5f42090a15e34ded2a1b2ddc8709e7e317676")
+	 (:authors
+	  ("repelliuss <https://github.com/repelliuss>"))
+	 (:maintainers
+	  ("repelliuss" . "repelliuss@gmail.com"))
+	 (:maintainer "repelliuss" . "repelliuss@gmail.com")
+	 (:url . "https://github.com/repelliuss/bind"))])
  (bind-chord .
 	     [(0 2 1 1 -4 20221117 1610)
 	      ((emacs
@@ -4508,6 +4537,19 @@
 	     ("Artem Malyshev" . "proofit404@gmail.com"))
 	    (:maintainer "Artem Malyshev" . "proofit404@gmail.com")
 	    (:url . "https://github.com/proofit404/blacken"))])
+ (blackjack .
+	    [(1 0 1 -4 20230428 1908)
+	     ((emacs
+	       (26 2)))
+	     "The game of Blackjack" single
+	     ((:commit . "2d71d7197549be5a19af5430012b3f819159b7a7")
+	      (:authors
+	       ("Greg Donald" . "gdonald@gmail.com"))
+	      (:maintainers
+	       ("Greg Donald" . "gdonald@gmail.com"))
+	      (:maintainer "Greg Donald" . "gdonald@gmail.com")
+	      (:keywords "games")
+	      (:url . "https://github.com/gdonald/blackjack-el"))])
  (blackout .
 	   [(1 0 1 -4 20220509 2350)
 	    ((emacs
