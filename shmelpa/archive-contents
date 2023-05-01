@@ -17555,13 +17555,13 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 22 1 1 -4 20230430 2345)
+	 [(0 22 1 1 -4 20230501 1819)
 	  ((emacs
 	    (27 1))
 	   (compat
 	    (29 1 4 0)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "820c7c677387181dd5fc5333578e7438fb4d7a57")
+	  ((:commit . "e4fa12a11c387e7004af009d2cef69cef56bcdd1")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainers
@@ -29565,13 +29565,13 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 0 1 -4 20230424 433)
+       [(3 9 0 1 -4 20230501 1445)
 	((helm-core
 	  (3 9 0))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "75e21fb81bcd24c0d42c8cfddea37237418a1650")
+	((:commit . "3c2c20a17dd343bfa20567cf0b764e56777f9fab")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -36523,13 +36523,13 @@
 		 ("Florian Mounier aka paradoxxxzero"))
 		(:maintainer "Florian Mounier aka paradoxxxzero"))])
  (jinx .
-       [(0 8 1 -4 20230501 1412)
+       [(0 8 1 -4 20230501 1557)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 4 0)))
 	"Enchanted Spell Checker" tar
-	((:commit . "1ff430cf948b52491203697f341b6d5cf966b2ac")
+	((:commit . "c8688c04e98bed59a459b90203d58b4b183577de")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainers
@@ -40875,7 +40875,7 @@
 		 (:keywords "languages")
 		 (:url . "https://github.com/jjlee/lsp-rescript"))])
  (lsp-scheme .
-	     [(0 2 2 1 -4 20221029 816)
+	     [(0 2 2 1 -4 20230501 1554)
 	      ((emacs
 		(26 1))
 	       (f
@@ -40883,7 +40883,7 @@
 	       (lsp-mode
 		(8 0 0)))
 	      "Scheme support for lsp-mode" tar
-	      ((:commit . "447df67e0347a2f26101432066a8724b1f39446e")
+	      ((:commit . "e6117fcb3c18d44a78407a1ce7770c0758d27a4a")
 	       (:authors
 		("Ricardo G. Herdt" . "r.herdt@posteo.de"))
 	       (:maintainers
@@ -41307,7 +41307,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230501 1101)
+	[(3 3 0 50 -4 20230501 1421)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -41323,7 +41323,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "6d1933ae66e6692c77305e549c13616ae02616b7")
+	 ((:commit . "09ac715a91fcdcfbf54d3ce11f909f29501fc582")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -45427,11 +45427,11 @@
 	    (:maintainer "jaypei" . "jaypei97159@gmail.com")
 	    (:url . "https://github.com/jaypei/emacs-neotree"))])
  (nerd-icons .
-	     [(0 0 1 1 -4 20230423 1522)
+	     [(0 0 1 1 -4 20230501 1614)
 	      ((emacs
 		(24 3)))
 	      "Emacs Nerd Font Icons Library" tar
-	      ((:commit . "0e2fe5bafd324540cda6745f8c91e0728beff32c")
+	      ((:commit . "e6245714bfb38d2ecbb3c25aa2b3e2e1f25dcf28")
 	       (:authors
 		("Hongyu Ding <rainstormstudio@yahoo.com>, Vincent Zhang" . "seagle0128@gmail.com"))
 	       (:maintainers
@@ -48461,7 +48461,7 @@
 		    (:keywords "tools" "org" "calendar" "convenience")
 		    (:url . "https://github.com/bkaestner/org-arbeitszeit"))])
  (org-assistant .
-		[(0 7 1 -4 20230501 1003)
+		[(0 7 1 -4 20230501 1817)
 		 ((emacs
 		   (27 1))
 		  (uuidgen
@@ -48473,7 +48473,7 @@
 		  (dash
 		   (2 19 1)))
 		 "Org babel extension for Chat Assistant APIs" single
-		 ((:commit . "a54583a099a5535ade253feafd19b9ba44b25cf7")
+		 ((:commit . "9f9700fb91bd051a18a420107c0832e2a51459e7")
 		  (:authors
 		   ("Tyler Dodge" . "tyler@tdodge.consulting"))
 		  (:maintainers
@@ -51664,13 +51664,13 @@
 	       (:keywords "comm")
 	       (:url . "https://github.com/atomontage/osa-chrome"))])
  (osm .
-      [(0 11 1 -4 20230429 924)
+      [(0 12 1 -4 20230501 1739)
        ((emacs
 	 (27 1))
 	(compat
 	 (29 1 4 0)))
        "OpenStreetMap viewer" tar
-       ((:commit . "65f7874919548d54f4785ae90f11a8782517fd71")
+       ((:commit . "f08f03860021fa334708829d705370614e383880")
 	(:authors
 	 ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	(:maintainers
@@ -52719,11 +52719,11 @@
 	     (:keywords "extensions" "tools")
 	     (:url . "https://github.com/zenspider/package"))])
  (package-build .
-		[(4 0 0 50 -4 20230428 1928)
+		[(4 0 0 50 -4 20230501 1706)
 		 ((emacs
 		   (26 1)))
 		 "Tools for assembling a package archive" tar
-		 ((:commit . "82677d41a8a7d601a11a39791d44f883df2ce2c5")
+		 ((:commit . "f23fd59f426f330d3d3ffb7077c97cea22469b70")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		   ("Steve Purcell" . "steve@sanityinc.com")
@@ -73758,7 +73758,7 @@
 	    ((:commit . "35e7e23c6baf31b5e65dd7405c8ab9b13c70637e")
 	     (:url . "https://github.com/ax487/zpl-mode.git"))])
  (zpresent .
-	   [(0 3 1 -4 20200417 309)
+	   [(0 3 1 -4 20201207 732)
 	    ((emacs
 	      (25 1))
 	     (org-parser
@@ -73768,7 +73768,7 @@
 	     (request
 	      (0 3 0)))
 	    "Simple presentation mode based on org files." single
-	    ((:commit . "406967322b7692492a5942d901335d626cace4d0")
+	    ((:commit . "341d1a4a91a8acff5be6b81f95695e17c79c5309")
 	     (:keywords "comm")
 	     (:url . "https://hg.sr.ht/~zck/zpresent"))])
  (zprint-format .
