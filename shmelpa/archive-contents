@@ -4538,11 +4538,11 @@
 	    (:maintainer "Artem Malyshev" . "proofit404@gmail.com")
 	    (:url . "https://github.com/proofit404/blacken"))])
  (blackjack .
-	    [(1 0 1 -4 20230428 1908)
+	    [(1 0 1 1 -4 20230430 2221)
 	     ((emacs
 	       (26 2)))
 	     "The game of Blackjack" single
-	     ((:commit . "2d71d7197549be5a19af5430012b3f819159b7a7")
+	     ((:commit . "4949a2339d2bcb8f70554925feae6eaef540883a")
 	      (:authors
 	       ("Greg Donald" . "gdonald@gmail.com"))
 	      (:maintainers
@@ -6662,13 +6662,13 @@
 	    (:keywords "unicode" "character" "ucs")
 	    (:url . "https://github.com/lateau/charmap"))])
  (chatgpt-shell .
-		[(0 20 1 1 -4 20230429 2205)
+		[(0 22 1 1 -4 20230430 2107)
 		 ((emacs
 		   (27 1))
 		  (shell-maker
 		   (0 17 1)))
 		 "Interaction mode for ChatGPT" single
-		 ((:commit . "65ea33ebed523b87c4bafd906ca2c58020ff2be5")
+		 ((:commit . "a8750a11c9731a438a02cd1b13cbfa229b0d927a")
 		  (:authors
 		   ("Alvaro Ramirez https://xenodium.com"))
 		  (:maintainers
@@ -11813,6 +11813,20 @@
 		  (:maintainer "Lee Hinman <lee _AT_ writequit.org>")
 		  (:keywords "color" "themes")
 		  (:url . "https://github.com/dakrone/dakrone-theme"))])
+ (dall-e-shell .
+	       [(0 18 1 1 -4 20230430 1944)
+		((emacs
+		  (27 1))
+		 (shell-maker
+		  (0 17 1)))
+		"Interaction mode for DALL-E" single
+		((:commit . "04beccbb29aeeb8a6b670432cba11da2138085a1")
+		 (:authors
+		  ("Alvaro Ramirez https://xenodium.com"))
+		 (:maintainers
+		  ("Alvaro Ramirez https://xenodium.com"))
+		 (:maintainer "Alvaro Ramirez https://xenodium.com")
+		 (:url . "https://github.com/xenodium/chatgpt-shell"))])
  (danneskjold-theme .
 		    [(1 0 0 1 -4 20221121 634)
 		     nil "Beautiful high-contrast Emacs theme." tar
@@ -19562,7 +19576,7 @@
 			 (:keywords "colemak" "evil")
 			 (:url . "https://github.com/bmallred/evil-colemak-minimal"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20230420 1435)
+		  [(0 4 1 1 -4 20230430 1927)
 		   ((emacs
 		     (26 3))
 		    (evil
@@ -19570,7 +19584,7 @@
 		    (annalist
 		     (1 0)))
 		   "A set of keybindings for Evil mode" tar
-		   ((:commit . "5092f5e04cfd0a31b1c5c46cb6b792a9e917c728")
+		   ((:commit . "d3b497db3172a34cbe9e51269fb6af57925303b3")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainers
@@ -36509,13 +36523,13 @@
 		 ("Florian Mounier aka paradoxxxzero"))
 		(:maintainer "Florian Mounier aka paradoxxxzero"))])
  (jinx .
-       [(0 8 1 -4 20230430 1102)
+       [(0 8 1 -4 20230430 2341)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 4 0)))
 	"Enchanted Spell Checker" tar
-	((:commit . "96a0739cd647020f042c3a0464c85738649115a6")
+	((:commit . "de2e13101892f57151b77a924ef78f4229e1550e")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainers
@@ -45425,6 +45439,21 @@
 	       (:maintainer "Hongyu Ding <rainstormstudio@yahoo.com>, Vincent Zhang" . "seagle0128@gmail.com")
 	       (:keywords "lisp")
 	       (:url . "https://github.com/rainstormstudio/nerd-icons.el"))])
+ (nerd-icons-completion .
+			[(0 0 1 1 -4 20230430 1611)
+			 ((emacs
+			   (25 1))
+			  (nerd-icons
+			   (0 0 1)))
+			 "Add icons to completion candidates" single
+			 ((:commit . "5cfee6ff1b9647c783bae944402d60440ce04cbb")
+			  (:authors
+			   ("Hongyu Ding" . "rainstormstudio@yahoo.com"))
+			  (:maintainers
+			   ("Hongyu Ding" . "rainstormstudio@yahoo.com"))
+			  (:maintainer "Hongyu Ding" . "rainstormstudio@yahoo.com")
+			  (:keywords "lisp")
+			  (:url . "https://github.com/rainstormstudio/nerd-icons-completion"))])
  (nerd-icons-dired .
 		   [(0 0 1 1 -4 20230427 1637)
 		    ((emacs
@@ -46163,11 +46192,11 @@
 	       (:maintainer "Sven Greb" . "development@svengreb.de")
 	       (:url . "https://github.com/nordtheme/emacs"))])
  (nordic-night-theme .
-		     [(1 0 0 1 -4 20230428 1707)
+		     [(1 0 0 1 -4 20230430 2026)
 		      ((emacs
 			(24 1)))
 		      "A darker, more colorful version of the lovely Nord theme" single
-		      ((:commit . "c25bdf1bae65e8b877981f7702ce172cec73b647")
+		      ((:commit . "188ea4cab4244c28afe28ac5e8293b46db0cec4f")
 		       (:authors
 			("Ashton Wiersdorf" . "mail@wiersdorf.dev"))
 		       (:maintainers
@@ -46760,6 +46789,20 @@
 		 (:maintainer "Nick Anderson" . "nick@cmdln.org")
 		 (:keywords "tools" "convenience")
 		 (:url . "https://github.com/nickanderson/ob-cfengine3"))])
+ (ob-chatgpt-shell .
+		   [(0 17 1 1 -4 20230426 1826)
+		    ((emacs
+		      (27 1))
+		     (chatgpt-shell
+		      (0 18 1)))
+		    "Org babel functions for ChatGPT evaluation" single
+		    ((:commit . "25bec6a46105d6cc62b127a9a0f16ff400254e96")
+		     (:authors
+		      ("Alvaro Ramirez"))
+		     (:maintainers
+		      ("Alvaro Ramirez"))
+		     (:maintainer "Alvaro Ramirez")
+		     (:url . "https://github.com/xenodium/chatgpt-shell"))])
  (ob-clojurescript .
 		   [(0 1 0 1 -4 20180406 1828)
 		    ((emacs
@@ -46859,6 +46902,20 @@
 	  (:maintainer "Xavier Capaldi")
 	  (:keywords "languages")
 	  (:url . "https://github.com/xcapaldi/ob-d2"))])
+ (ob-dall-e-shell .
+		  [(0 17 1 1 -4 20230429 1307)
+		   ((emacs
+		     (27 1))
+		    (dall-e-shell
+		     (0 18 1)))
+		   "Org babel functions for DALL-E evaluation" single
+		   ((:commit . "6e59b1e8206072b7622d08820b7409f52e5ab946")
+		    (:authors
+		     ("Alvaro Ramirez"))
+		    (:maintainers
+		     ("Alvaro Ramirez"))
+		    (:maintainer "Alvaro Ramirez")
+		    (:url . "https://github.com/xenodium/chatgpt-shell"))])
  (ob-dao .
 	 [(0 1 0 1 -4 20170816 1558)
 	  ((org
@@ -48404,7 +48461,7 @@
 		    (:keywords "tools" "org" "calendar" "convenience")
 		    (:url . "https://github.com/bkaestner/org-arbeitszeit"))])
  (org-assistant .
-		[(0 1 1 -4 20230430 1837)
+		[(0 1 1 -4 20230430 2336)
 		 ((emacs
 		   (27 1))
 		  (uuidgen
@@ -48416,7 +48473,7 @@
 		  (dash
 		   (2 19 1)))
 		 "Org babel extension for Chat Assistant APIs" single
-		 ((:commit . "ab169200ef9c6b0543c0225fd85fc13a01d07e11")
+		 ((:commit . "99d5ba7dcb2892d222ea67baa9bf94bb4196db2e")
 		  (:authors
 		   ("Tyler Dodge" . "tyler@tdodge.consulting"))
 		  (:maintainers
@@ -61639,11 +61696,11 @@
 	       (:maintainer "Ian Eure" . "ian.eure@gmail.com")
 	       (:keywords "unix" "tools" "processes"))])
  (shell-maker .
-	      [(0 18 1 1 -4 20230429 1233)
+	      [(0 18 1 1 -4 20230430 1957)
 	       ((emacs
 		 (27 1)))
 	       "Interaction mode for making comint shells" single
-	       ((:commit . "6534bde24ebf279c3068dcbcfa84c7eef885a1f7")
+	       ((:commit . "9d88c4c4cc81df7060ca746dfe97a999ba27cf2f")
 		(:authors
 		 ("Alvaro Ramirez https://xenodium.com"))
 		(:maintainers
