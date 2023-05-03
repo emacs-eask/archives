@@ -4538,17 +4538,17 @@
 	    (:maintainer "Artem Malyshev" . "proofit404@gmail.com")
 	    (:url . "https://github.com/proofit404/blacken"))])
  (blackjack .
-	    [(1 0 1 1 -4 20230501 2335)
+	    [(1 0 3 1 -4 20230503 1039)
 	     ((emacs
 	       (26 2)))
 	     "The game of Blackjack" single
-	     ((:commit . "5edfce240999dafa745219f5fb0d9f106bf68057")
+	     ((:commit . "d8c8d81093254f977778c55f8dc281a96b77d05d")
 	      (:authors
 	       ("Greg Donald" . "gdonald@gmail.com"))
 	      (:maintainers
 	       ("Greg Donald" . "gdonald@gmail.com"))
 	      (:maintainer "Greg Donald" . "gdonald@gmail.com")
-	      (:keywords "games")
+	      (:keywords "card" "game" "games" "blackjack" "21")
 	      (:url . "https://github.com/gdonald/blackjack-el"))])
  (blackout .
 	   [(1 0 1 -4 20220509 2350)
@@ -6896,11 +6896,11 @@
 		   (:keywords "execution" "processes" "unix" "lisp")
 		   (:url . "https://github.com/plandes/choice-program"))])
  (chroma .
-	 [(1 0 0 1 -4 20230422 1454)
+	 [(1 0 0 1 -4 20230503 1210)
 	  ((emacs
 	    (24 1)))
 	  "Color manipulation library" single
-	  ((:commit . "ea48af815988cbae65b8f48271bd98340ecc23e0")
+	  ((:commit . "e6ebe08ce439b0dd8cfd2a0a78abf34f195feb3c")
 	   (:authors
 	    ("Nicolas Martyanoff" . "nicolas@n16f.net"))
 	   (:maintainers
@@ -17570,7 +17570,7 @@
 	   (:keywords "convenience")
 	   (:url . "https://github.com/oantolin/embark"))])
  (embark-consult .
-		 [(0 7 1 -4 20230427 1446)
+		 [(0 7 1 -4 20230503 1055)
 		  ((emacs
 		    (27 1))
 		   (embark
@@ -17578,7 +17578,7 @@
 		   (consult
 		    (0 17)))
 		  "Consult integration for Embark" single
-		  ((:commit . "0cab30c2d3e46abfee3d342ab46cf6d1cd61a451")
+		  ((:commit . "6bacd160032f1ff59812268df9d215ae04f3d02b")
 		   (:authors
 		    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 		   (:maintainers
@@ -25939,13 +25939,13 @@
 	     (:keywords "evernote" "geeknote" "note" "emacs-evernote" "evernote-mode")
 	     (:url . "http://github.com/avendael/emacs-geeknote"))])
  (geiser .
-	 [(0 28 2 1 -4 20230503 159)
+	 [(0 28 2 1 -4 20230503 1044)
 	  ((emacs
 	    (25 1))
 	   (project
 	    (0 8 1)))
 	  "GNU Emacs and Scheme talk to each other" tar
-	  ((:commit . "dd81026d1c4bc40e03ced3a6ecc9025b14bdd93d")
+	  ((:commit . "83305e6bb5f13d68f8e31d457605b02d2a10c014")
 	   (:authors
 	    ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
 	   (:maintainers
@@ -26091,13 +26091,13 @@
 		  (:keywords "languages" "racket" "scheme" "geiser")
 		  (:url . "https://gitlab.com/emacs-geiser/racket"))])
  (geiser-stklos .
-		[(1 4 1 -4 20211117 2114)
+		[(1 4 1 -4 20230503 1146)
 		 ((emacs
 		   (24 4))
 		  (geiser
 		   (0 16)))
 		 "STklos Scheme implementation of the geiser protocols" single
-		 ((:commit . "9db60a7e751c97e30dd528e2a96ff19575b618d2")
+		 ((:commit . "e51a5f8b8dcc59db83a50e1b2f6aa52b21793369")
 		  (:authors
 		   ("Jeronimo Pellegrini" . "j_p@aleph0.info"))
 		  (:maintainers
@@ -36523,13 +36523,13 @@
 		 ("Florian Mounier aka paradoxxxzero"))
 		(:maintainer "Florian Mounier aka paradoxxxzero"))])
  (jinx .
-       [(0 8 1 -4 20230501 1557)
+       [(0 8 1 -4 20230503 1259)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 4 0)))
 	"Enchanted Spell Checker" tar
-	((:commit . "c8688c04e98bed59a459b90203d58b4b183577de")
+	((:commit . "c9be25dade6d959dab26dc6e3a2775258cc127ff")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainers
@@ -40719,7 +40719,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20230503 927)
+	   [(8 0 1 1 -4 20230503 1017)
 	    ((emacs
 	      (26 3))
 	     (dash
@@ -40737,7 +40737,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "e51317d77e4c72a0ef2fbd76257f4832bedfb2aa")
+	    ((:commit . "bbed1bd25ed892d0c077fd777a5cd9b5cf5a2bdc")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainers
