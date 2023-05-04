@@ -4538,11 +4538,11 @@
 	    (:maintainer "Artem Malyshev" . "proofit404@gmail.com")
 	    (:url . "https://github.com/proofit404/blacken"))])
  (blackjack .
-	    [(1 0 3 1 -4 20230504 1244)
+	    [(1 0 3 1 -4 20230504 1726)
 	     ((emacs
 	       (26 2)))
 	     "The game of Blackjack" single
-	     ((:commit . "ded5f5245b0992f2e53a7ae970219403aec7c709")
+	     ((:commit . "e9fce426e9acc7fc93573cd4437324c7ae35ec59")
 	      (:authors
 	       ("Greg Donald" . "gdonald@gmail.com"))
 	      (:maintainers
@@ -6662,13 +6662,13 @@
 	    (:keywords "unicode" "character" "ucs")
 	    (:url . "https://github.com/lateau/charmap"))])
  (chatgpt-shell .
-		[(0 23 1 1 -4 20230502 2000)
+		[(0 24 1 1 -4 20230504 1857)
 		 ((emacs
 		   (27 1))
 		  (shell-maker
 		   (0 17 1)))
 		 "Interaction mode for ChatGPT" single
-		 ((:commit . "89f78ca017e7024d28e39aa0d5ecb516f4ceb381")
+		 ((:commit . "667b2022cfce09ce15916295c48606f34de128ac")
 		  (:authors
 		   ("Alvaro Ramirez https://xenodium.com"))
 		  (:maintainers
@@ -14463,15 +14463,17 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(3 3 3 1 -4 20230504 554)
+		[(4 0 0 1 -4 20230504 1755)
 		 ((emacs
 		   (25 1))
 		  (compat
 		   (28 1 1 1))
+		  (nerd-icons
+		   (0 0 1))
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "8d9815186009956cb04c045739d31625d8dac6d5")
+		 ((:commit . "ad7eb6bb02b122d5ed579898cba51be3555ce2e9")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainers
