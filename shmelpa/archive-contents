@@ -38100,9 +38100,9 @@
 	      (:keywords "webkit")
 	      (:url . "https://github.com/tungd/kite-mini.el"))])
  (kivy-mode .
-	    [(0 1 0 1 -4 20220306 810)
+	    [(0 1 0 1 -4 20230504 513)
 	     nil "Emacs major mode for editing Kivy files" single
-	     ((:commit . "023bd79b90f9831b45bb8eb449346648aa5fe5f8")
+	     ((:commit . "22fd80d79f9ca66324018430e54232a4bf6cdbd4")
 	      (:authors
 	       ("Dean Serenevy" . "dean@serenevy.net"))
 	      (:maintainers
@@ -40943,7 +40943,7 @@
 		    (:keywords "language" "tools")
 		    (:url . "https://github.com/merrickluo/lsp-tailwindcss"))])
  (lsp-treemacs .
-	       [(0 4 1 -4 20230422 1912)
+	       [(0 4 1 -4 20230504 516)
 		((emacs
 		  (26 1))
 		 (dash
@@ -40957,7 +40957,7 @@
 		 (lsp-mode
 		  (6 0)))
 		"LSP treemacs" tar
-		((:commit . "fbd08a54d232bbae350632e3789f70d68ddcbc15")
+		((:commit . "eeb96b05e677147cf40292b86a1e5e8f73a8a586")
 		 (:authors
 		  ("Ivan Yonchovski"))
 		 (:maintainers
@@ -43720,11 +43720,11 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(4 1 1 1 -4 20230503 519)
+	       [(4 1 1 1 -4 20230504 505)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "ae8808400cfbb67e016e81343191606604f96231")
+		((:commit . "01b47a044678b66fdabfbb895bb0326e07990153")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainers
@@ -48461,9 +48461,9 @@
 		    (:keywords "tools" "org" "calendar" "convenience")
 		    (:url . "https://github.com/bkaestner/org-arbeitszeit"))])
  (org-assistant .
-		[(1 0 1 -4 20230503 1704)
+		[(1 1 1 -4 20230504 501)
 		 ((emacs
-		   (27 1))
+		   (28 1))
 		  (uuidgen
 		   (1 2))
 		  (deferred
@@ -48471,9 +48471,11 @@
 		  (s
 		   (1 12 0))
 		  (dash
-		   (2 19 1)))
+		   (2 19 1))
+		  (ht
+		   (0 9)))
 		 "Org babel extension for Chat Assistant APIs" single
-		 ((:commit . "3874e872689da5c1db4bdedce270b0120353256a")
+		 ((:commit . "d3e948de35a0ed4feb051f943ce518b99af3c368")
 		  (:authors
 		   ("Tyler Dodge" . "tyler@tdodge.consulting"))
 		  (:maintainers
@@ -66332,13 +66334,13 @@
 	   (:keywords "abbrev" "languages" "tools" "wp")
 	   (:url . "https://github.com/minad/tempel"))])
  (tempel-collection .
-		    [(0 2 1 -4 20230502 1844)
+		    [(0 2 1 -4 20230504 428)
 		     ((tempel
 		       (0 5))
 		      (emacs
 		       (27 1)))
 		     "Collection of templates for Tempel" tar
-		     ((:commit . "08e453ead37771b46da5f9687f9ae0c00cae3159")
+		     ((:commit . "8903f03227d3c3b83d31e6bb095743c350bcb578")
 		      (:authors
 		       ("Vitalii Drevenchuk" . "cradlemann@gmail.com")
 		       ("Max Penet" . "mpenetr@s-exp.com")
@@ -68735,11 +68737,11 @@
 	       (:keywords "outlines")
 	       (:url . "https://github.com/Ziqi-Yang/typst-mode.el"))])
  (tzc .
-      [(0 0 1 1 -4 20230503 1458)
+      [(0 0 1 1 -4 20230504 445)
        ((emacs
-	 (27 1)))
+	 (28 1)))
        "Converts time between different time zones" single
-       ((:commit . "f44d01326848baec324e2fa32fe96602d831b7e9")
+       ((:commit . "e815b43790d9a517f89a2bb592c665bd911a4477")
 	(:authors
 	 ("Md Arif Shaikh" . "arifshaikh.astro@gmail.com"))
 	(:maintainers
