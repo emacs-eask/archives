@@ -4538,11 +4538,11 @@
 	    (:maintainer "Artem Malyshev" . "proofit404@gmail.com")
 	    (:url . "https://github.com/proofit404/blacken"))])
  (blackjack .
-	    [(1 0 3 1 -4 20230504 1726)
+	    [(1 0 3 1 -4 20230506 1330)
 	     ((emacs
 	       (26 2)))
 	     "The game of Blackjack" single
-	     ((:commit . "e9fce426e9acc7fc93573cd4437324c7ae35ec59")
+	     ((:commit . "2b340ad93a733ec3b2c83af367434c740d62eecf")
 	      (:authors
 	       ("Greg Donald" . "gdonald@gmail.com"))
 	      (:maintainers
@@ -14463,7 +14463,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(4 0 0 1 -4 20230504 1810)
+		[(4 0 0 1 -4 20230506 1112)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -14473,7 +14473,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "379b45bffe7d67683f17c3e815797a082d8793d3")
+		 ((:commit . "3612082bc5cba712c07860ce37865f938beb9002")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainers
@@ -49519,13 +49519,13 @@
 			(:keywords "tex" "tools")
 			(:url . "https://github.com/yangsheng6810/org-latex-instant-preview"))])
  (org-link-beautify .
-		    [(1 2 2 1 -4 20230505 552)
+		    [(1 2 2 1 -4 20230506 1354)
 		     ((emacs
 		       (28 1))
 		      (nerd-icons
 		       (0 0 1)))
 		     "Beautify Org Links" tar
-		     ((:commit . "9fd7b2d996e8304a98b6a763dee14aa312a89e59")
+		     ((:commit . "48a35de9d25e922011c2462e8a4e84d79a9620f1")
 		      (:keywords "hypermedia")
 		      (:url . "https://repo.or.cz/org-link-beautify.git"))])
  (org-link-travis .
@@ -56529,17 +56529,15 @@
 			(:keywords "project" "convenience")
 			(:url . "https://github.com/zonuexe/projectile-variable"))])
  (projection .
-	     [(0 1 1 -4 20230416 1842)
+	     [(0 1 1 -4 20230506 1537)
 	      ((emacs
 		(29))
 	       (project
 		(0 9 8))
 	       (compat
-		(29 1 4 1))
-	       (compile-multi
-		(0 1)))
-	      "Project specific compilation commands" tar
-	      ((:commit . "a543618a9d06ebe4a8a04f6e1067f3f4cbd49fbb")
+		(29 1 4 1)))
+	      "Project type support for `project'" tar
+	      ((:commit . "a7e8edda22db5d8f24acfb35a864c83d1c2cb0d1")
 	       (:authors
 		("Mohsin Kaleem" . "mohkale@kisara.moe"))
 	       (:maintainers
@@ -57984,11 +57982,11 @@
 	  (:keywords "abbrev" "convenience" "matching" "rust" "tools")
 	  (:url . "https://github.com/racer-rust/emacs-racer"))])
  (racket-mode .
-	      [(1 1 -4 20230428 1424)
+	      [(1 1 -4 20230506 1437)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
-	       ((:commit . "f67cccd625e1ed9987e186b06e45f23dabcfb405")
+	       ((:commit . "c2fe266c18bb6e55a13c7ba795b0a5f7372b6c13")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com"))
 		(:maintainers
