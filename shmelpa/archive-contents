@@ -4028,6 +4028,18 @@
 	      (:maintainer "Iskander Sharipov" . "quasilyte@gmail.com")
 	      (:keywords "lisp")
 	      (:url . "https://github.com/Quasilyte/benchstat.el"))])
+ (bencode .
+	  [(1 0 1 -4 20190317 2010)
+	   ((emacs
+	     (24 4)))
+	   "Bencode encoding / decoding" single
+	   ((:commit . "b5fe9c9d4b9b5ea61cedd77987ca46eb8154bd16")
+	    (:authors
+	     ("Christopher Wellons" . "wellons@nullprogram.com"))
+	    (:maintainers
+	     ("Christopher Wellons" . "wellons@nullprogram.com"))
+	    (:maintainer "Christopher Wellons" . "wellons@nullprogram.com")
+	    (:url . "https://github.com/skeeto/emacs-bencode"))])
  (bencoding .
 	    [(0 1 -4 20200331 1102)
 	     ((emacs
@@ -12736,6 +12748,19 @@
 		    (:maintainer "blahgeek" . "i@blahgeek.com")
 		    (:keywords "docs" "help" "tools")
 		    (:url . "https://github.com/blahgeek/emacs-devdocs-browser"))])
+ (devil .
+	[(0 2 0 -1 1 1 -4 20230507 1556)
+	 ((emacs
+	   (24 4)))
+	 "Minor mode for Devil-like command entering" single
+	 ((:commit . "a98cb1a7bd04dcd242b85cb6c9545a1d870a037e")
+	  (:authors
+	   ("Susam Pal"))
+	  (:maintainers
+	   ("Susam Pal"))
+	  (:maintainer "Susam Pal")
+	  (:keywords "convenience")
+	  (:url . "https://github.com/susam/devil"))])
  (dfmt .
        [(0 1 0 1 -4 20170728 1023)
 	nil "Emacs Interface to D indenting/formatting tool dfmt." single
@@ -14463,7 +14488,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(4 0 0 1 -4 20230507 1652)
+		[(4 0 0 1 -4 20230507 1711)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -14473,7 +14498,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "9e1ce8d394c73a9159225bc1b40b4b63528de589")
+		 ((:commit . "04cfd303c816478150124063ada92f59f932d897")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainers
@@ -15921,9 +15946,9 @@
 	(:keywords "org-mode" "convenience" "beautify")
 	(:url . "https://github.com/emacs-china/EGO"))])
  (eide .
-       [(2 3 0 1 -4 20221204 2104)
+       [(2 3 0 1 -4 20230507 2000)
 	nil "IDE interface" tar
-	((:commit . "ccddbb7b893c9b2439c19832aeb2c4d7dd8f5d90")
+	((:commit . "bdc7a13434cb23c68f08f4ac7449569a61e03fd5")
 	 (:authors
 	  ("C\303\251dric Marie" . "cedric@hjuvi.fr.eu.org"))
 	 (:maintainer "C\303\251dric Marie" . "cedric@hjuvi.fr.eu.org")
