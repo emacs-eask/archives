@@ -4550,11 +4550,11 @@
 	    (:maintainer "Artem Malyshev" . "proofit404@gmail.com")
 	    (:url . "https://github.com/proofit404/blacken"))])
  (blackjack .
-	    [(1 0 3 1 -4 20230511 28)
+	    [(1 0 3 1 -4 20230511 1231)
 	     ((emacs
 	       (26 2)))
 	     "The game of Blackjack" tar
-	     ((:commit . "0868be70a7ad77d5417ed70ed79710fb465c6dfc")
+	     ((:commit . "72f57999d194276de940b179d6c565b187ef81f5")
 	      (:authors
 	       ("Greg Donald" . "gdonald@gmail.com"))
 	      (:maintainers
@@ -6092,11 +6092,11 @@
 	       (:keywords "tools")
 	       (:url . "https://github.com/ayrat555/cargo-mode"))])
  (cargo-transient .
-		  [(0 1 0 1 -4 20230511 1102)
+		  [(0 1 0 1 -4 20230511 1310)
 		   ((emacs
 		     (28 1)))
 		   "A transient UI for Cargo, Rust's package manager" single
-		   ((:commit . "b4caf94028f8d91ebacffa7808719f168e20ef16")
+		   ((:commit . "3ca4f2109913b1e05136ab4497a9c095a9ee7a28")
 		    (:authors
 		     ("Peter Stuart" . "peter@peterstuart.org"))
 		    (:maintainers
@@ -14488,7 +14488,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(4 0 0 1 -4 20230509 1511)
+		[(4 0 0 1 -4 20230511 1507)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -14498,7 +14498,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "b9d64389cbf897a7b1d2bc2e600c77bc85062668")
+		 ((:commit . "f63319318ea1b103dd4b5392d35283ab0087be6a")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainers
@@ -25695,13 +25695,13 @@
 	  (:keywords "matching")
 	  (:url . "https://github.com/jojojames/fussy"))])
  (futhark-mode .
-	       [(0 2 1 -4 20221223 1440)
+	       [(0 2 1 -4 20230511 1235)
 		((emacs
 		  (24 3))
 		 (cl-lib
 		  (0 5)))
 		"major mode for editing Futhark source files" tar
-		((:commit . "942450534547e2081a3ce6c13b6ccfbb4d6c05f4")
+		((:commit . "8e830a65983c5175b0116360eddefa3ae4fea897")
 		 (:keywords "languages")
 		 (:url . "https://github.com/diku-dk/futhark-mode"))])
  (fuz .
@@ -29403,11 +29403,11 @@
 		       (:keywords "haskell" "emacs" "ffi")
 		       (:url . "https://github.com/knupfer/haskell-emacs/modules/text"))])
  (haskell-mode .
-	       [(17 2 -4 20230304 921)
+	       [(17 2 -4 20230511 1509)
 		((emacs
 		  (25 1)))
 		"A Haskell editing mode" tar
-		((:commit . "20d4e2300302a9af673e82d0185d3f489bfb0f59")
+		((:commit . "98d0e193a6157a810330e83e46717a37d5a4d236")
 		 (:authors
 		  ("1992      Simon Marlow")
 		  ("1997-1998 Graeme E Moss" . "gem@cs.york.ac.uk")
@@ -42136,13 +42136,13 @@
 	      (:keywords "docker")
 	      (:url . "https://github.com/nlamirault/marcopolo"))])
  (marginalia .
-	     [(1 2 1 -4 20230511 429)
+	     [(1 2 1 -4 20230511 1531)
 	      ((emacs
 		(27 1))
 	       (compat
 		(29 1 4 0)))
 	      "Enrich existing commands with completion annotations" single
-	      ((:commit . "b570c3912b37698f0fb6a2920c675b9a1fa472dd")
+	      ((:commit . "b900ec5457068cd2b15b0e3600437f147c6bf636")
 	       (:authors
 		("Omar Antol\303\255n Camarena <omar@matem.unam.mx>, Daniel Mendler" . "mail@daniel-mendler.de"))
 	       (:maintainers
@@ -45473,11 +45473,11 @@
 	    (:maintainer "jaypei" . "jaypei97159@gmail.com")
 	    (:url . "https://github.com/jaypei/emacs-neotree"))])
  (nerd-icons .
-	     [(0 0 1 1 -4 20230510 2026)
+	     [(0 0 1 1 -4 20230511 1429)
 	      ((emacs
 		(24 3)))
 	      "Emacs Nerd Font Icons Library" tar
-	      ((:commit . "c4a882420452de4296499de5a6ea720f9764cc16")
+	      ((:commit . "73cdde86610fcfbb622f5c2bd8881544fc29c251")
 	       (:authors
 		("Hongyu Ding <rainstormstudio@yahoo.com>, Vincent Zhang" . "seagle0128@gmail.com"))
 	       (:maintainers
@@ -45501,13 +45501,13 @@
 			  (:keywords "lisp")
 			  (:url . "https://github.com/rainstormstudio/nerd-icons-completion"))])
  (nerd-icons-dired .
-		   [(0 0 1 1 -4 20230427 1637)
+		   [(0 0 1 1 -4 20230511 1453)
 		    ((emacs
 		      (24 4))
 		     (nerd-icons
 		      (0 0 1)))
 		    "Shows icons for each file in dired mode" single
-		    ((:commit . "c05ba4815d375d779644ca7ac215632fda75089c")
+		    ((:commit . "87c493858c2b7a4cf0f9a50445adfefd41b2a02d")
 		     (:authors
 		      ("Hongyu Ding" . "rainstormstudio@yahoo.com"))
 		     (:maintainers
@@ -48507,7 +48507,7 @@
 		    (:keywords "tools" "org" "calendar" "convenience")
 		    (:url . "https://github.com/bkaestner/org-arbeitszeit"))])
  (org-assistant .
-		[(1 1 1 -4 20230509 623)
+		[(1 1 1 -4 20230511 1440)
 		 ((emacs
 		   (28 1))
 		  (uuidgen
@@ -48521,7 +48521,7 @@
 		  (ht
 		   (0 9)))
 		 "Org babel extension for Chat Assistant APIs" single
-		 ((:commit . "5b024c6e841b33aa122f52d11f88adb9d2ca0a83")
+		 ((:commit . "3a89386c507a335c0b65fe9018c14c11e864b37d")
 		  (:authors
 		   ("Tyler Dodge" . "tyler@tdodge.consulting"))
 		  (:maintainers
