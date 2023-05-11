@@ -3786,11 +3786,11 @@
 		(:keywords "programming" "languages" "completion")
 		(:url . "https://github.com/AlonTzarafi/battle-haxe"))])
  (bazel .
-	[(0 1 -4 20230417 1342)
+	[(0 1 -4 20230510 2235)
 	 ((emacs
 	   (27 1)))
 	 "Bazel support for Emacs" single
-	 ((:commit . "4f084ed7988a6d178e0659e16ae0ce60ba3c7ea7")
+	 ((:commit . "d334a5d9c00def0995a36fe89f3bb8d4595409ad")
 	  (:keywords "build tools" "languages")
 	  (:url . "https://github.com/bazelbuild/emacs-bazel-mode"))])
  (bbcode-mode .
@@ -12095,11 +12095,11 @@
 		    (:keywords "extensions" "lisp")
 		    (:url . "https://github.com/magnars/dash.el"))])
  (dashboard .
-	    [(1 8 0 -4 20230509 834)
+	    [(1 8 0 -4 20230510 2305)
 	     ((emacs
 	       (26 1)))
 	     "A startup screen extracted from Spacemacs" tar
-	     ((:commit . "ce0c33cc5af0188a3ea2215c67cd3fb0ae193fea")
+	     ((:commit . "109bfc7b1279069bd00cfdbd08cefb6fb09233ae")
 	      (:authors
 	       ("Rakan Al-Hneiti" . "rakan.alhneiti@gmail.com"))
 	      (:maintainers
@@ -12749,17 +12749,17 @@
 		    (:keywords "docs" "help" "tools")
 		    (:url . "https://github.com/blahgeek/emacs-devdocs-browser"))])
  (devil .
-	[(0 2 0 1 -4 20230509 110)
+	[(0 3 0 1 -4 20230510 2339)
 	 ((emacs
 	   (24 4)))
 	 "Minor mode for Devil-like command entering" single
-	 ((:commit . "2cc21ac252b74c24858ca7b670e5574058b2643d")
+	 ((:commit . "79fd50fe22ce45968779f0e176247ab7988f0905")
 	  (:authors
-	   ("Susam Pal"))
+	   ("Susam Pal" . "susam@susam.net"))
 	  (:maintainers
-	   ("Susam Pal"))
-	  (:maintainer "Susam Pal")
-	  (:keywords "convenience")
+	   ("Susam Pal" . "susam@susam.net"))
+	  (:maintainer "Susam Pal" . "susam@susam.net")
+	  (:keywords "convenience" "abbrev")
 	  (:url . "https://github.com/susam/devil"))])
  (dfmt .
        [(0 1 0 1 -4 20170728 1023)
@@ -14968,11 +14968,11 @@
        (:keywords "convenience" "games")
        (:url . "https://github.com/integral-dw/dw-passphrase-generator"))])
  (dwim-shell-command .
-		     [(0 44 1 -4 20230509 716)
+		     [(0 45 1 -4 20230510 2118)
 		      ((emacs
 			(28 1)))
 		      "Shell commands with DWIM behaviour" tar
-		      ((:commit . "1a896221cc34319582b0921b919638ea2528b0e6")
+		      ((:commit . "6513e49a3929724136978a71742ed17d904fd0a7")
 		       (:authors
 			("Alvaro Ramirez"))
 		       (:maintainers
@@ -17701,7 +17701,7 @@
 	       (:keywords "convenience")
 	       (:url . "https://github.com/smihica/emmet-mode"))])
  (emms .
-       [(15 1 -4 20230421 1501)
+       [(15 1 -4 20230510 2034)
 	((cl-lib
 	  (0 5))
 	 (nadvice
@@ -17709,7 +17709,7 @@
 	 (seq
 	  (0)))
 	"The Emacs Multimedia System" tar
-	((:commit . "ff7221a367d326d023db523c2602969206d6027a")
+	((:commit . "81ce9109194c6b8415227fc88b5dfb16da6668e8")
 	 (:authors
 	  ("Jorgen Sch\303\244fer" . "forcer@forcix.cx"))
 	 (:maintainers
@@ -33565,7 +33565,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 0 1 1 -4 20230509 354)
+	     [(0 0 1 1 -4 20230511 2)
 	      ((emacs
 		(27 1))
 	       (map
@@ -33577,7 +33577,7 @@
 	       (persist
 		(0 5)))
 	      "P2P filesystem in Emacs" tar
-	      ((:commit . "92be07bcdc61887ffba1b66e7207937070a51288")
+	      ((:commit . "45ddabd8d6151dc03eb5f900fb9ca767fa437b70")
 	       (:authors
 		("Joseph Turner"))
 	       (:maintainers
@@ -36557,13 +36557,13 @@
 		 ("Florian Mounier aka paradoxxxzero"))
 		(:maintainer "Florian Mounier aka paradoxxxzero"))])
  (jinx .
-       [(0 8 1 -4 20230509 1935)
+       [(0 8 1 -4 20230510 2216)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 4 0)))
 	"Enchanted Spell Checker" tar
-	((:commit . "ad2a322e06891c7d23dbd860804dddebd626f963")
+	((:commit . "8cf4af0b8a807707a98289b2b7864e5200c24fe2")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainers
@@ -41341,7 +41341,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230509 1313)
+	[(3 3 0 50 -4 20230510 2139)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -41357,7 +41357,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "a380d56cddcffbe79647ffdacc5793f6a5b19abf")
+	 ((:commit . "5d91aadd05a8d85d7699c00193638dceb7c95166")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
