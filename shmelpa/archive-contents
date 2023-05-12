@@ -2749,11 +2749,11 @@
 		     (:maintainer "sabof")
 		     (:url . "https://github.com/sabof/auto-auto-indent"))])
  (auto-compile .
-	       [(0 1 0 1 -4 20230510 1705)
+	       [(0 1 0 1 -4 20230511 2120)
 		((emacs
 		  (25 1)))
 		"Automatically compile Emacs Lisp libraries" single
-		((:commit . "d2b9f24b483e4a059900074a3a84f33960176012")
+		((:commit . "36646df118dbea91e3d00d06ed712c5d05399404")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainers
@@ -13055,13 +13055,13 @@
 	(:keywords "convenience")
 	(:url . "https://github.com/alezost/dim.el"))])
  (dim-autoload .
-	       [(0 1 0 1 -4 20230212 2019)
+	       [(0 1 0 1 -4 20230511 2114)
 		((emacs
 		  (25 1))
 		 (compat
-		  (29 1 3 4)))
+		  (29 1 4 1)))
 		"Dim or hide autoload cookie lines" single
-		((:commit . "d9c2b592cef9dfbbebe066919a79d4ef9c31db80")
+		((:commit . "9e7b4d47f2dc972ec16baa6bd56b016000790ff4")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainers
@@ -17381,15 +17381,15 @@
 	 (:keywords "docs")
 	 (:url . "https://github.com/Fuco1/elwm"))])
  (elx .
-      [(0 1 0 1 -4 20230212 2019)
+      [(0 1 0 1 -4 20230511 2113)
        ((emacs
 	 (25 1))
 	(compat
-	 (29 1 3 4))
+	 (29 1 4 1))
 	(llama
 	 (0 2 0)))
        "Extract information from Emacs Lisp libraries" single
-       ((:commit . "9daf56b1b11ca267f263f70823ade6f1a92d307c")
+       ((:commit . "f3dfcb41c6471b8150cc19cea5ff96fe1321f5a1")
 	(:authors
 	 ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	(:maintainers
@@ -17582,13 +17582,13 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 22 1 1 -4 20230507 1612)
+	 [(0 22 1 1 -4 20230511 2200)
 	  ((emacs
 	    (27 1))
 	   (compat
 	    (29 1 4 0)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "f88314044d5492efeacb9466122889c6e60c8af4")
+	  ((:commit . "9b17d9a63b6960e026ad3c09a7871e0a3364e926")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainers
@@ -26837,13 +26837,13 @@
 		  (:maintainer "Neil Okamoto")
 		  (:url . "https://github.com/emacsorphanage/git-messenger"))])
  (git-modes .
-	    [(1 4 0 50 -4 20230212 2212)
+	    [(1 4 1 1 -4 20230511 2134)
 	     ((emacs
 	       (25 1))
 	      (compat
-	       (29 1 3 4)))
+	       (29 1 4 1)))
 	     "Major modes for editing Git configuration files" tar
-	     ((:commit . "f0a0154bf48dd1c0c587596cf4cfd3c90f673a05")
+	     ((:commit . "44d536ba637235c9dd203410281397417a3e60b6")
 	      (:authors
 	       ("Sebastian Wiesner" . "lunaryorn@gmail.com")
 	       ("R\303\274diger Sonderfeld" . "ruediger@c-plusplus.net")
@@ -34294,13 +34294,13 @@
 	    (:keywords "convenience")
 	    (:url . "https://github.com/imakado/emacs-imakado"))])
  (imake .
-	[(0 1 0 1 -4 20230212 2016)
+	[(0 1 0 1 -4 20230511 2108)
 	 ((emacs
 	   (25 1))
 	  (compat
-	   (29 1 3 4)))
+	   (29 1 4 1)))
 	 "Simple, opinionated make target runner" single
-	 ((:commit . "e8c0f88fa56e3b73307f50a21ab664a4b1bb59eb")
+	 ((:commit . "96ac809dbe9cae0e620bb5b1d5d1fb391f3f4741")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainers
@@ -38845,7 +38845,7 @@
 		       (:keywords "latex" "preview")
 		       (:url . "http://www.emacswiki.org/emacs/LaTeXPreviewPane"))])
  (latex-table-wizard .
-		     [(1 4 0 1 -4 20230502 1422)
+		     [(1 4 2 1 -4 20230511 2102)
 		      ((emacs
 			(27 1))
 		       (auctex
@@ -38853,7 +38853,7 @@
 		       (transient
 			(0 3 7)))
 		      "Magic editing of LaTeX tables" tar
-		      ((:commit . "04b3d59de71690e393a3ebeda26819deac6253d0")
+		      ((:commit . "80c1d68cf34e6726bb74b4deeb083d5785c6eda6")
 		       (:authors
 			("Enrico Flor" . "enrico@eflor.net"))
 		       (:maintainers
@@ -43674,13 +43674,13 @@
 		   (:maintainer "Steve Purcell" . "steve@sanityinc.com")
 		   (:keywords "convenience"))])
  (mode-line-debug .
-		  [(0 1 0 1 -4 20230212 2015)
+		  [(0 1 0 1 -4 20230511 2106)
 		   ((emacs
 		     (25 1))
 		    (compat
-		     (29 1 3 4)))
+		     (29 1 4 1)))
 		   "Show status of debug-on-error in mode-line" single
-		   ((:commit . "d6148f6819e8500c907271ef82c4604ee416f941")
+		   ((:commit . "8e58bd51f1a8292c5df92e75a8c4a470e11a03e4")
 		    (:authors
 		     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		    (:maintainers
@@ -44072,13 +44072,13 @@
 		    (:keywords "theme" "dark" "faces")
 		    (:url . "https://github.com/Melchizedek6809/morgentau-theme"))])
  (morlock .
-	  [(0 1 0 1 -4 20230212 2015)
+	  [(0 1 0 1 -4 20230511 2105)
 	   ((emacs
 	     (25 1))
 	    (compat
-	     (29 1 3 4)))
+	     (29 1 4 1)))
 	   "More font-lock keywords for elisp" single
-	   ((:commit . "674354d41bd2bccf0590467851796db6d4595873")
+	   ((:commit . "b7e2066a69c059c5d4c72e829b615a6b15cef4dc")
 	    (:authors
 	     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	    (:maintainers
@@ -46323,15 +46323,15 @@
 	   ((:commit . "48d774bbf4dc6e442e1be96aab712947b408fc5a")
 	    (:url . "https://notmuchmail.org"))])
  (notmuch-addr .
-	       [(0 1 0 1 -4 20230212 2014)
+	       [(0 1 0 1 -4 20230511 2057)
 		((emacs
 		  (27 1))
 		 (compat
-		  (29 1 3 4))
+		  (29 1 4 1))
 		 (notmuch
-		  (0 32)))
+		  (0 37)))
 		"An alternative to notmuch-address.el" single
-		((:commit . "fc00a3aac925d082b8f263e2a6d64b67535f5731")
+		((:commit . "89ced49cf3fb4d62bd4fea8bf9bd53ec8e4c7176")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainers
@@ -46370,15 +46370,15 @@
 		    (:keywords "emacs" "package" "elisp" "notmuch" "emails")
 		    (:url . "https://github.com/DamienCassou/notmuch-labeler"))])
  (notmuch-maildir .
-		  [(0 1 0 1 -4 20230212 2014)
+		  [(0 1 0 1 -4 20230511 2056)
 		   ((emacs
 		     (26 1))
 		    (compat
-		     (29 1 3 4))
+		     (29 1 4 1))
 		    (notmuch
-		     (0 30)))
+		     (0 37)))
 		   "Visualize maildirs as a tree" single
-		   ((:commit . "0d8f1534691e834f26e1899dd54df2db7f810669")
+		   ((:commit . "4686e8e7b6d88439d4b0c39c7b17502b102a6f58")
 		    (:authors
 		     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		    (:maintainers
@@ -46387,15 +46387,17 @@
 		    (:keywords "mail")
 		    (:url . "https://git.sr.ht/~tarsius/notmuch-maildir"))])
  (notmuch-transient .
-		    [(0 1 0 1 -4 20230212 2014)
+		    [(0 1 0 1 -4 20230511 2054)
 		     ((emacs
 		       (27 1))
 		      (compat
-		       (29 1 3 4))
+		       (29 1 4 1))
 		      (notmuch
-		       (0 31 4)))
+		       (0 37))
+		      (transient
+		       (0 4 0)))
 		     "Command dispatchers for Notmuch" single
-		     ((:commit . "9d1fa80be0656e712a3f86079ea0abba0542dd88")
+		     ((:commit . "3eeabdd9c922836d24433786265ef7c25fb599b2")
 		      (:authors
 		       ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		      (:maintainers
@@ -47918,17 +47920,17 @@
        (:keywords "convenience")
        (:url . "https://github.com/conao3/oj.el"))])
  (ol-notmuch .
-	     [(0 1 0 1 -4 20230212 2013)
+	     [(0 1 0 1 -4 20230511 2048)
 	      ((emacs
 		(25 1))
 	       (compat
-		(29 1 3 4))
+		(29 1 4 1))
 	       (notmuch
-		(0 32))
+		(0 37))
 	       (org
-		(9 4 5)))
+		(9 6 5)))
 	      "Links to notmuch messages" single
-	      ((:commit . "ee3646627e47312a0c6ab0a5f6eba3baf8b20cb6")
+	      ((:commit . "781c3518a537da2a8b5e8a4424f9441df463a147")
 	       (:authors
 		("Matthieu Lemerre" . "racin@free.fr"))
 	       (:maintainers
@@ -51445,17 +51447,17 @@
 	   (:keywords "org")
 	   (:url . "https://github.com/yasuhito/orgbox"))])
  (orgit .
-	[(0 1 0 1 -4 20230212 2013)
+	[(0 1 0 1 -4 20230511 2135)
 	 ((emacs
 	   (25 1))
 	  (compat
-	   (29 1 3 4))
+	   (29 1 4 1))
 	  (magit
-	   (3 0))
+	   (3 3 0))
 	  (org
-	   (9 4)))
+	   (9 6 5)))
 	 "Support for Org links to Magit buffers" single
-	 ((:commit . "fc40397f7b36fa513d41f3119b7430cb236de9dd")
+	 ((:commit . "4a585029875a1dbbe96d8ac157bd2fd02875f289")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainers
@@ -51487,17 +51489,17 @@
 		(:keywords "hypermedia" "vc")
 		(:url . "https://github.com/magit/orgit-forge"))])
  (orglink .
-	  [(0 1 0 1 -4 20230212 2213)
+	  [(0 1 0 1 -4 20230511 2059)
 	   ((emacs
 	     (25 1))
 	    (compat
-	     (29 1 3 4))
+	     (29 1 4 1))
 	    (org
-	     (9 5))
+	     (9 6 5))
 	    (seq
 	     (2 23)))
 	   "Use Org Mode links in other modes" single
-	   ((:commit . "168d46a33476c4c8ce56818faa6183421b16d211")
+	   ((:commit . "dbc50854ed6d46e39a9477064239dcbd1af67c97")
 	    (:authors
 	     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	    (:maintainers
@@ -53198,13 +53200,13 @@
 		    (:keywords "convenience")
 		    (:url . "https://github.com/MatthewBregg/paren-completer"))])
  (paren-face .
-	     [(0 1 0 1 -4 20230212 2012)
+	     [(0 1 0 1 -4 20230511 2101)
 	      ((emacs
 		(25 1))
 	       (compat
-		(29 1 3 4)))
+		(29 1 4 1)))
 	      "A face for parentheses in lisp modes" single
-	      ((:commit . "ff95d3cba363a1a0f60bf3088e8ec3170fe83e85")
+	      ((:commit . "8b575bc215e715525644ed66152a9bcefde3bd08")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li"))
 	       (:maintainers
@@ -68014,15 +68016,15 @@
 	   (:keywords "travis")
 	   (:url . "https://github.com/nlamirault/emacs-travis"))])
  (tray .
-       [(0 1 0 1 -4 20230212 2011)
+       [(0 1 0 1 -4 20230511 2102)
 	((emacs
 	  (27 1))
 	 (compat
-	  (29 1 3 4))
+	  (29 1 4 1))
 	 (transient
-	  (0 3 0)))
+	  (0 4 0)))
 	"Various transient menus" single
-	((:commit . "15b0faa8fede31887598b8dd64b69362c10e8a8e")
+	((:commit . "d620957377e451e8bf7c2eb7a2509a75f1ee160f")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainers
@@ -70186,7 +70188,7 @@
 	      (:keywords "convenience" "usability" "vhdl" "completion")
 	      (:url . "https://github.com/sh-ow/vhdl-capf"))])
  (vhdl-ext .
-	   [(0 1 0 1 -4 20230509 2343)
+	   [(0 1 0 1 -4 20230511 2227)
 	    ((emacs
 	      (28 1))
 	     (eglot
@@ -70202,7 +70204,7 @@
 	     (flycheck
 	      (33 -4)))
 	    "VHDL Extensions" tar
-	    ((:commit . "fef06c97bb1708ca91839a3e6bef8816c666f1b3")
+	    ((:commit . "a744e42c35fd9bc08b137a6f353a9046387a1376")
 	     (:authors
 	      ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 	     (:maintainers
@@ -71844,13 +71846,13 @@
 		(:maintainer "Kris Jenkins" . "krisajenkins@gmail.com")
 		(:url . "https://github.com/krisajenkins/wispjs-mode"))])
  (with-editor .
-	      [(3 2 0 50 -4 20230212 2214)
+	      [(3 3 0 1 -4 20230511 2142)
 	       ((emacs
 		 (25 1))
 		(compat
-		 (29 1 3 4)))
+		 (29 1 4 1)))
 	       "Use the Emacsclient as $EDITOR" tar
-	       ((:commit . "59867aebe16454be4d8c0c858f3b00b8a34f3f61")
+	       ((:commit . "bce8d1bf3faf5237332aada3bb0920bbbc037fe7")
 		(:authors
 		 ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		(:maintainers
