@@ -17582,13 +17582,13 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 22 1 1 -4 20230511 2200)
+	 [(0 22 1 1 -4 20230512 350)
 	  ((emacs
 	    (27 1))
 	   (compat
 	    (29 1 4 0)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "9b17d9a63b6960e026ad3c09a7871e0a3364e926")
+	  ((:commit . "ab920eaadf43bcb92832c980adbf2d8c9468ec98")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainers
@@ -42796,11 +42796,11 @@
 	   (:keywords "comm" "processes" "bittorrent")
 	   (:url . "https://github.com/skangas/mentor"))])
  (meow .
-       [(1 4 2 1 -4 20230505 2113)
+       [(1 4 2 1 -4 20230512 419)
 	((emacs
 	  (27 1)))
 	"Yet Another modal editing" tar
-	((:commit . "07ccf112fc1a56ddd96cfc39967957be7dc8dd5f")
+	((:commit . "f6a1b48eb5678b225666b8726962d26a81588d8e")
 	 (:authors
 	  ("Shi Tianshu"))
 	 (:maintainers
@@ -49565,13 +49565,15 @@
 			(:keywords "tex" "tools")
 			(:url . "https://github.com/yangsheng6810/org-latex-instant-preview"))])
  (org-link-beautify .
-		    [(1 2 2 1 -4 20230509 1441)
+		    [(1 2 2 1 -4 20230512 451)
 		     ((emacs
 		       (28 1))
 		      (nerd-icons
-		       (0 0 1)))
+		       (0 0 1))
+		      (fb2-reader
+		       (0 1 1)))
 		     "Beautify Org Links" tar
-		     ((:commit . "d55b3ff5331b7db54bd0adb18cb44490e263814a")
+		     ((:commit . "a7a909af2b7526e2bf442f97b895dac16849e35f")
 		      (:keywords "hypermedia")
 		      (:url . "https://repo.or.cz/org-link-beautify.git"))])
  (org-link-travis .
