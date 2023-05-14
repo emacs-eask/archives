@@ -17994,11 +17994,11 @@
 		   (:keywords "tools" "convenience")
 		   (:url . "https://github.com/cgshep/encrypt-region"))])
  (engine-mode .
-	      [(2 2 1 1 -4 20221217 2101)
+	      [(2 2 2 1 -4 20230514 1643)
 	       ((cl-lib
 		 (0 5)))
 	       "Define and query search engines from within Emacs" single
-	       ((:commit . "a5f1ae2b087109f37a704c496942cec9d9f48698")
+	       ((:commit . "00e0dde543e36745c8a14165bc0c9871468f7f3f")
 		(:authors
 		 ("Harry R. Schwartz" . "hello@harryrschwartz.com"))
 		(:maintainers
@@ -33565,7 +33565,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 0 1 1 -4 20230514 440)
+	     [(0 0 1 1 -4 20230514 1725)
 	      ((emacs
 		(27 1))
 	       (map
@@ -33577,7 +33577,7 @@
 	       (persist
 		(0 5)))
 	      "P2P filesystem in Emacs" tar
-	      ((:commit . "43f7ad4ee65f2bf9e8d702193269d9cc97d827da")
+	      ((:commit . "c148b3ee8d0971ece0aae0d43121450c998342cd")
 	       (:authors
 		("Joseph Turner"))
 	       (:maintainers
@@ -49141,11 +49141,15 @@
 	    (:keywords "lisp" "tex" "org")
 	    (:url . "https://github.com/guanyilun/org-elp"))])
  (org-emms .
-	   [(0 1 1 -4 20181010 1114)
+	   [(0 1 1 -4 20230514 1710)
 	    ((emacs
-	      (24)))
+	      (24 1))
+	     (org
+	      (9 3))
+	     (emms
+	      (0 0)))
 	    "Play multimedia files from org-mode" single
-	    ((:commit . "07a8917f3d628c32e5de1dbd118ac08203772533")
+	    ((:commit . "0fd7688d226ec098b47f5e4dab0f040e541e6b65")
 	     (:authors
 	      ("Jonathan Gregory <jgrg at autistici dot org>"))
 	     (:maintainers
