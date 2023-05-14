@@ -56655,6 +56655,23 @@
 	       (:maintainer "Mohsin Kaleem" . "mohkale@kisara.moe")
 	       (:keywords "project" "convenience")
 	       (:url . "https://github.com/mohkale/projection"))])
+ (projection-multi .
+		   [(0 1 1 -4 20230506 1541)
+		    ((emacs
+		      (29))
+		     (projection
+		      (0 1))
+		     (compile-multi
+		      (0 1)))
+		    "Projection integration for `compile-multi'" tar
+		    ((:commit . "d3981b262884613100d9ca4fe8c980a288b56ab0")
+		     (:authors
+		      ("Mohsin Kaleem" . "mohkale@kisara.moe"))
+		     (:maintainers
+		      ("Mohsin Kaleem" . "mohkale@kisara.moe"))
+		     (:maintainer "Mohsin Kaleem" . "mohkale@kisara.moe")
+		     (:keywords "project" "convenience")
+		     (:url . "https://github.com/mohkale/projection"))])
  (projector .
 	    [(0 3 3 1 -4 20211112 1514)
 	     ((alert
@@ -59279,6 +59296,29 @@
 	     (:maintainer "Xu Chunyang" . "mail@xuchunyang.me")
 	     (:keywords "convenience")
 	     (:url . "https://github.com/xuchunyang/repeater"))])
+ (repl-driven-development .
+			  [(1 0 1 -4 20230508 40)
+			   ((s
+			     (1 12 0))
+			    (dash
+			     (2 16 0))
+			    (eros
+			     (0 1 0))
+			    (bind-key
+			     (2 4 1))
+			    (emacs
+			     (27 1))
+			    (org
+			     (9 1)))
+			   "Send arbitrary code to a REPL in the background" single
+			   ((:commit . "581fa6ac02d77a7a4293965049d801411402098e")
+			    (:authors
+			     ("Musa Al-hassy" . "alhassy@gmail.com"))
+			    (:maintainers
+			     ("Musa Al-hassy" . "alhassy@gmail.com"))
+			    (:maintainer "Musa Al-hassy" . "alhassy@gmail.com")
+			    (:keywords "repl-driven-development" "rdd" "repl" "lisp" "java" "python" "ruby" "programming" "convenience")
+			    (:url . "https://alhassy.github.io/repl-driven-development/"))])
  (repl-toggle .
 	      [(0 7 2 1 -4 20220920 752)
 	       ((fullframe
