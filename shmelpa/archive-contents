@@ -3340,6 +3340,21 @@
 	    (:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com")
 	    (:keywords "extensions")
 	    (:url . "https://github.com/cute-jumper/avy-zap"))])
+ (awk-yasnippets .
+		 [(0 0 1 1 -4 20230513 2206)
+		  ((emacs
+		    (26 3))
+		   (yasnippet
+		    (0 8 0)))
+		  "Yasnippets for AWK" tar
+		  ((:commit . "0c721d7c472823806b1033227f17a9f4ca4933ca")
+		   (:authors
+		    ("Adriano Martinez"))
+		   (:maintainers
+		    ("Adriano Martinez" . "uberkael@gmail.com"))
+		   (:maintainer "Adriano Martinez" . "uberkael@gmail.com")
+		   (:keywords "extensions")
+		   (:url . "https://github.com/uberkael/awk-yasnippets"))])
  (aws-ec2 .
 	  [(0 0 3 1 -4 20221011 538)
 	   ((emacs
@@ -3485,15 +3500,15 @@
 	      (:keywords "hardware")
 	      (:url . "https://github.com/mschuldt/backlight.el"))])
  (backline .
-	   [(0 1 0 1 -4 20230212 2020)
+	   [(0 1 0 1 -4 20230514 1800)
 	    ((emacs
 	      (25 1))
 	     (compat
-	      (29 1 3 4))
+	      (29 1 4 1))
 	     (outline-minor-faces
 	      (0 1 2)))
 	    "Preserve appearance of outline headings" single
-	    ((:commit . "f6c235259052a69b70a1410d06f2f400eeb26a8d")
+	    ((:commit . "f1d9e1cd5cba6362b152b5f4227d1714918fba59")
 	     (:authors
 	      ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	     (:maintainers
@@ -6612,6 +6627,21 @@
 			   ("MaxSt"))
 			  (:maintainer "MaxSt")
 			  (:url . "https://github.com/challenger-deep-theme/emacs"))])
+ (champagne .
+	    [(0 2 0 1 -4 20230511 1540)
+	     ((emacs
+	       (28 1))
+	      (posframe
+	       (1 4 2)))
+	     "Graphical countdowns" single
+	     ((:commit . "069452fa162d6aefc693c8d0546a84d967218289")
+	      (:authors
+	       ("Psionik K" . "73710933+psionic-k@users.noreply.github.com"))
+	      (:maintainers
+	       ("Psionik K" . "73710933+psionic-k@users.noreply.github.com"))
+	      (:maintainer "Psionik K" . "73710933+psionic-k@users.noreply.github.com")
+	      (:keywords "games")
+	      (:url . "http://github.com/positron-solutions/champagne"))])
  (change-inner .
 	       [(0 2 0 1 -4 20210126 1456)
 		((expand-region
@@ -16347,11 +16377,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 3 2 -4 20230513 1709)
+	[(1 3 2 -4 20230514 1809)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "4a22abef00f052cbe0fe879df75caafda63fd6bb")
+	 ((:commit . "8e89f62c5b62ece7f295c24c5d2bc7f4cb27eeb9")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainers
@@ -19005,6 +19035,16 @@
 		 ("Aaron Jensen" . "aaronjensen@gmail.com"))
 		(:maintainer "Aaron Jensen" . "aaronjensen@gmail.com")
 		(:url . "https://github.com/aaronjensen/eslintd-fix"))])
+ (esmond-theme .
+	       [(0 1 1 -4 20230514 1010)
+		nil "Esmond dark theme" single
+		((:commit . "cfa178515f1bec20f8bf8195c1f4ca45c70ac884")
+		 (:authors
+		  ("\303\207a\304\237an Korkmaz" . "xcatalystt@gmail.com"))
+		 (:maintainers
+		  ("\303\207a\304\237an Korkmaz" . "xcatalystt@gmail.com"))
+		 (:maintainer "\303\207a\304\237an Korkmaz" . "xcatalystt@gmail.com")
+		 (:url . "https://github.com/xcatalyst/esmond-theme"))])
  (esonify .
 	  [(0 2 1 -4 20190110 1621)
 	   ((deferred
@@ -25908,11 +25948,11 @@
 	       (:keywords "gcode" "languages" "highlight" "syntax")
 	       (:url . "https://gitlab.com/wavexx/gcode-mode.el"))])
  (gdscript-mode .
-		[(1 0 0 1 -4 20230426 1923)
+		[(1 0 0 1 -4 20230514 2039)
 		 ((emacs
 		   (26 3)))
 		 "Major mode for Godot's GDScript language" tar
-		 ((:commit . "a48ad045024d34aee28607ee0afc572308b6e1f6")
+		 ((:commit . "cee6d61591e249ff2aff4beac17d55daa50330e4")
 		  (:authors
 		   ("Nathan Lovato <nathan@gdquest.com>, Fabi\303\241n E. Gallina" . "fgallina@gnu.org"))
 		  (:maintainers
@@ -33565,7 +33605,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 0 1 1 -4 20230514 1725)
+	     [(0 0 1 1 -4 20230514 2118)
 	      ((emacs
 		(27 1))
 	       (map
@@ -33577,7 +33617,7 @@
 	       (persist
 		(0 5)))
 	      "P2P filesystem in Emacs" tar
-	      ((:commit . "c148b3ee8d0971ece0aae0d43121450c998342cd")
+	      ((:commit . "0cf78a141d4f7bc77259656b9a2081a571489808")
 	       (:authors
 		("Joseph Turner"))
 	       (:maintainers
@@ -38546,6 +38586,24 @@
 	 (:maintainer "Yoav Marco" . "yoavm448@gmail.com")
 	 (:keywords "tools" "tex")
 	 (:url . "https://github.com/tecosaur/LaTeX-auto-activating-snippets"))])
+ (lab .
+      [(1 0 0 1 -4 20230507 59)
+       ((emacs
+	 (27 1))
+	(memoize
+	 (1 1))
+	(request
+	 (0 3 2))
+	(s
+	 (1 10 0)))
+       "An interface for GitLab" single
+       ((:commit . "3e33e532aea48ffadde4e4e48efd26523d362a0d")
+	(:authors
+	 ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
+	(:maintainers
+	 ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
+	(:maintainer "Isa Mert Gurbuz" . "isamertgurbuz@gmail.com")
+	(:url . "https://github.com/isamert/lab.el"))])
  (lab-themes .
 	     [(1 0 1 -4 20200815 2104)
 	      ((emacs
@@ -43375,13 +43433,13 @@
 		  (:keywords "color" "theme" "minimal")
 		  (:url . "http://github.com/ikame/minimal-theme"))])
  (minions .
-	  [(0 1 0 1 -4 20230425 1335)
+	  [(0 1 0 1 -4 20230514 1805)
 	   ((emacs
 	     (25 2))
 	    (compat
-	     (29 1 3 4)))
+	     (29 1 4 1)))
 	   "A minor-mode menu for the mode line" single
-	   ((:commit . "d982380bb1d7f20228eeee59c692a1d100392b2a")
+	   ((:commit . "62948a4a2951dab0716977421bfe0a87ea2583c5")
 	    (:authors
 	     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	    (:maintainers
@@ -43977,13 +44035,13 @@
 		   (:keywords "mode-line" "faces")
 		   (:url . "https://gitlab.com/jessieh/mood-one-theme"))])
  (moody .
-	[(0 1 0 1 -4 20230212 2015)
+	[(0 1 0 1 -4 20230514 1803)
 	 ((emacs
 	   (25 3))
 	  (compat
-	   (29 1 3 4)))
+	   (29 1 4 1)))
 	 "Tabs and ribbons for the mode line" single
-	 ((:commit . "4c7171cbe39adcf2ab1ae5290bdb0ecfd7d669d1")
+	 ((:commit . "888e6fb37eb5122803c70ae60d28fc54589e26c0")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainers
