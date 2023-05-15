@@ -16377,11 +16377,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 3 2 -4 20230514 1809)
+	[(1 3 2 -4 20230515 1856)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "8e89f62c5b62ece7f295c24c5d2bc7f4cb27eeb9")
+	 ((:commit . "20bacc2c0f0625115b9dc7d714855f5ae6462f9d")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainers
@@ -33605,7 +33605,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 0 1 1 -4 20230514 2118)
+	     [(0 0 1 1 -4 20230515 2057)
 	      ((emacs
 		(27 1))
 	       (map
@@ -33617,7 +33617,7 @@
 	       (persist
 		(0 5)))
 	      "P2P filesystem in Emacs" tar
-	      ((:commit . "0cf78a141d4f7bc77259656b9a2081a571489808")
+	      ((:commit . "e3a2be5e6443635eff2bbcca9f8d3705a0455d59")
 	       (:authors
 		("Joseph Turner"))
 	       (:maintainers
@@ -43128,17 +43128,17 @@
 		    (:keywords "calendar")
 		    (:url . "https://github.com/ianxm/emacs-tracker"))])
  (metronome .
-	    [(0 2 1 -4 20220210 147)
+	    [(0 2 1 -4 20230515 1850)
 	     ((emacs
 	       (25 1)))
-	     "A simple metronome" tar
-	     ((:commit . "1e1bd5234f3ecfb608041d423be7412c461ad3c2")
+	     "The missing metronome for GNU Emacs" tar
+	     ((:commit . "4811b54d800d1bb69fd501ffeab3adf86978362d")
 	      (:authors
 	       ("Jonathan Gregory <jgrg at autistici dot org>"))
 	      (:maintainers
 	       ("Jonathan Gregory <jgrg at autistici dot org>"))
 	      (:maintainer "Jonathan Gregory <jgrg at autistici dot org>")
-	      (:url . "https://gitlab.com/jagrg/metronome"))])
+	      (:url . "https://git.sr.ht/~jagrg/metronome"))])
  (mew .
       [(0 1 0 1 -4 20230415 633)
        nil "Messaging in the Emacs World" tar
@@ -43824,11 +43824,11 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(4 1 1 1 -4 20230509 419)
+	       [(4 1 1 1 -4 20230515 1944)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "7661b78509c86bb8f4faf8f9cf605dfbb29c18a2")
+		((:commit . "7b58110d84ed2b754bc754389d770eed60714182")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainers
@@ -49199,22 +49199,22 @@
 	    (:keywords "lisp" "tex" "org")
 	    (:url . "https://github.com/guanyilun/org-elp"))])
  (org-emms .
-	   [(0 1 1 -4 20230514 1710)
+	   [(0 2 1 -4 20230515 1838)
 	    ((emacs
 	      (24 1))
 	     (org
 	      (9 3))
 	     (emms
 	      (0 0)))
-	    "Play multimedia files from org-mode" single
-	    ((:commit . "0fd7688d226ec098b47f5e4dab0f040e541e6b65")
+	    "Play multimedia files in org-mode" single
+	    ((:commit . "3a4073565e88d6b17348a533a9ebd88941fb3da8")
 	     (:authors
 	      ("Jonathan Gregory <jgrg at autistici dot org>"))
 	     (:maintainers
 	      ("Jonathan Gregory <jgrg at autistici dot org>"))
 	     (:maintainer "Jonathan Gregory <jgrg at autistici dot org>")
 	     (:keywords "multimedia")
-	     (:url . "https://gitlab.com/jagrg/org-emms"))])
+	     (:url . "https://git.sr.ht/~jagrg/org-emms"))])
  (org-evil .
 	   [(0 6 0 1 -4 20210809 1724)
 	    ((dash
@@ -56073,7 +56073,7 @@
 		 (:keywords "environment" "faces" "frames")
 		 (:url . "https://github.com/zonuexe/emacs-presentation-mode"))])
  (prettier .
-	   [(1 3 0 1 -4 20220603 1338)
+	   [(1 3 0 1 -4 20230515 2017)
 	    ((emacs
 	      (26 1))
 	     (iter2
@@ -56083,7 +56083,7 @@
 	     (editorconfig
 	      (0 8)))
 	    "Code formatting with Prettier" tar
-	    ((:commit . "3fcf3ba3507f47b8ac1392e7901aa2c418147758")
+	    ((:commit . "1d9d789d91651a8773c7a3a688ec0cf3635fa94e")
 	     (:authors
 	      ("Julian Scheid" . "julians37@gmail.com"))
 	     (:maintainers
@@ -66486,13 +66486,13 @@
 		 (:keywords "comm" "help" "hypermedia")
 		 (:url . "https://github.com/lassik/emacs-teletext-yle"))])
  (tempel .
-	 [(0 7 1 -4 20230515 1657)
+	 [(0 7 1 -4 20230515 1854)
 	  ((emacs
 	    (27 1))
 	   (compat
 	    (29 1 4 0)))
 	  "Tempo templates/snippets with in-buffer field editing" single
-	  ((:commit . "cb55ca7d44f23e48f9c90804804f6ebb43d195c4")
+	  ((:commit . "7a6a95825d55df868a869cbbc80412fb44f6520b")
 	   (:authors
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	   (:maintainers
