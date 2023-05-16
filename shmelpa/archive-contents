@@ -6704,13 +6704,13 @@
 	    (:keywords "unicode" "character" "ucs")
 	    (:url . "https://github.com/lateau/charmap"))])
  (chatgpt-shell .
-		[(0 32 1 1 -4 20230515 837)
+		[(0 33 1 1 -4 20230516 1730)
 		 ((emacs
 		   (27 1))
 		  (shell-maker
 		   (0 21 1)))
-		 "Interaction mode for ChatGPT" single
-		 ((:commit . "eca332c365e257f11c8c8c443222f98f557e4395")
+		 "ChatGPT shell + buffer insert commands" single
+		 ((:commit . "9187acc96c7ebeb25f59615ec0b9049d257d52b1")
 		  (:authors
 		   ("Alvaro Ramirez https://xenodium.com"))
 		  (:maintainers
@@ -14841,7 +14841,7 @@
 	     (:keywords "dtb" "dts" "convenience")
 	     (:url . "https://github.com/schspa/dtb-mode"))])
  (dtk .
-      [(0 2 1 -4 20230516 1552)
+      [(0 2 1 -4 20230516 1745)
        ((emacs
 	 (24 4))
 	(cl-lib
@@ -14853,7 +14853,7 @@
 	(s
 	 (1 9)))
        "access SWORD content via diatheke" single
-       ((:commit . "bf10278b360f18989b5a813d665c853be08bac94")
+       ((:commit . "9d494f8281d5cdf166b91a219a8b9a1558fb51db")
 	(:authors
 	 ("David Thompson"))
 	(:maintainers
@@ -16377,11 +16377,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 3 2 -4 20230515 1856)
+	[(1 4 1 -4 20230516 1703)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "20bacc2c0f0625115b9dc7d714855f5ae6462f9d")
+	 ((:commit . "a34a17bb257c845e5b6ebf64e5a5b28d61fb4ca2")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainers
@@ -25044,7 +25044,7 @@
 		 (:keywords "faces")
 		 (:url . "https://github.com/Fuco1/fontify-face"))])
  (fontsloth .
-	    [(0 17 0 1 -4 20230516 7)
+	    [(0 17 0 1 -4 20230516 1901)
 	     ((f
 	       (0 20 0))
 	      (logito
@@ -25056,7 +25056,7 @@
 	      (emacs
 	       (28 1)))
 	     "Elisp otf/ttf font loader/renderer" tar
-	     ((:commit . "4d2abc7af4339558759f37163820560cb2a5bcd9")
+	     ((:commit . "8dd771aae34ce282036c7533735e6251770fcbd0")
 	      (:authors
 	       ("Jo Gay" . "jo.gay@mailfence.com"))
 	      (:maintainers
@@ -38903,7 +38903,7 @@
 		       (:keywords "latex" "preview")
 		       (:url . "http://www.emacswiki.org/emacs/LaTeXPreviewPane"))])
  (latex-table-wizard .
-		     [(1 5 1 1 -4 20230514 1135)
+		     [(1 5 2 1 -4 20230516 1857)
 		      ((emacs
 			(27 1))
 		       (auctex
@@ -38911,7 +38911,7 @@
 		       (transient
 			(0 3 7)))
 		      "Magic editing of LaTeX tables" tar
-		      ((:commit . "76d307f27eab65470592400819afaba493c78ef4")
+		      ((:commit . "2998be936aa31415051ee2a8d2912424045d966c")
 		       (:authors
 			("Enrico Flor" . "enrico@eflor.net"))
 		       (:maintainers
