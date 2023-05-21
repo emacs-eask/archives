@@ -16768,6 +16768,21 @@
 		("Christopher Wellons" . "wellons@nullprogram.com"))
 	       (:maintainer "Christopher Wellons" . "wellons@nullprogram.com")
 	       (:url . "https://github.com/skeeto/elfeed"))])
+ (elfeed-webkit .
+		[(0 1 1 -4 20230516 706)
+		 ((emacs
+		   (26 1))
+		  (elfeed
+		   (3 4 1)))
+		 "Render elfeed entries in embedded webkit widgets" single
+		 ((:commit . "f5c936ca33582366b9c2e88bcdd529f359b41173")
+		  (:authors
+		   ("Fritz Grabo" . "hello@fritzgrabo.com"))
+		  (:maintainers
+		   ("Fritz Grabo" . "hello@fritzgrabo.com"))
+		  (:maintainer "Fritz Grabo" . "hello@fritzgrabo.com")
+		  (:keywords "comm")
+		  (:url . "https://github.com/fritzgrabo/elfeed-webkit"))])
  (elforth .
 	  [(0 1 0 1 -4 20210522 928)
 	   ((emacs
@@ -17398,6 +17413,16 @@
 		 (:maintainer "Aki Syunsuke" . "sunny.day.dev@gmail.com")
 		 (:keywords "tools" "extensions")
 		 (:url . "https://github.com/aki-s/elscreen-tab"))])
+ (elune-theme .
+	      [(0 1 1 -4 20230520 1525)
+	       nil "Elune theme" single
+	       ((:commit . "39f7763f062d1be1574f70bfda79c647f39bf74b")
+		(:authors
+		 ("\303\207a\304\237an Korkmaz" . "xcatalystt@gmail.com"))
+		(:maintainers
+		 ("\303\207a\304\237an Korkmaz" . "xcatalystt@gmail.com"))
+		(:maintainer "\303\207a\304\237an Korkmaz" . "xcatalystt@gmail.com")
+		(:url . "https://github.com/xcatalyst/elune-theme"))])
  (elvish-mode .
 	      [(0 1 0 1 -4 20180809 1612)
 	       ((emacs
@@ -26694,7 +26719,7 @@
 		(:keywords "utility" "git")
 		(:url . "https://github.com/10sr/git-command-el"))])
  (git-commit .
-	     [(3 3 0 50 -4 20230516 2015)
+	     [(3 3 0 50 -4 20230521 1803)
 	      ((emacs
 		(25 1))
 	       (compat
@@ -26704,7 +26729,7 @@
 	       (with-editor
 		(20230118)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "e38500b5905d2ce9c68587744c1fee0806cc5b1a")
+	      ((:commit . "80959650b24a9c849b736234b56bc3d8aff2c0b9")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -28434,6 +28459,21 @@
 	    (:maintainer "Damien Cassou" . "damien@cassou.me")
 	    (:keywords "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/desktop-environment"))])
+ (gpr-yasnippets .
+		 [(0 5 0 1 -4 20230516 627)
+		  ((emacs
+		    (24 4))
+		   (yasnippet
+		    (0 14 0)))
+		  "Yasnippets for GNAT project files" tar
+		  ((:commit . "d66ea90e8e45f6d0c3bd62185967c26190117296")
+		   (:authors
+		    ("Troy Brown" . "brownts@troybrown.dev"))
+		   (:maintainers
+		    ("Troy Brown" . "brownts@troybrown.dev"))
+		   (:maintainer "Troy Brown" . "brownts@troybrown.dev")
+		   (:keywords "gpr" "gnat" "languages" "snippets")
+		   (:url . "https://github.com/brownts/gpr-yasnippets"))])
  (gpt .
       [(1 0 1 -4 20230502 2319)
        ((emacs
@@ -29383,7 +29423,7 @@
 	    (:keywords "convenience")
 	    (:url . "http://github.com/rolandwalker/hardhat"))])
  (harpoon .
-	  [(0 5 1 -4 20220604 50)
+	  [(0 5 1 -4 20230521 1907)
 	   ((emacs
 	     (27 2))
 	    (f
@@ -29393,7 +29433,7 @@
 	    (project
 	     (0 8 1)))
 	   "Bookmarks on steroids" single
-	   ((:commit . "b08d4af6e4ab404c8a1031ff8cbfff49d5c8aec4")
+	   ((:commit . "7b64b701e46b9117217c8b01e49e00db78463985")
 	    (:authors
 	     ("Ot\303\241vio Schwanck" . "otavioschwanck@gmail.com"))
 	    (:maintainers
