@@ -41452,7 +41452,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230520 2119)
+	[(3 3 0 50 -4 20230521 2016)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -41468,7 +41468,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "ebd7a0635df4e38931f89d9e7cd4c5c4c8f1e730")
+	 ((:commit . "2ddb7ca45e52ac43762ac769b4a50b92c67f9d21")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -41622,13 +41622,13 @@
 		  (:keywords "vc" "tools")
 		  (:url . "https://github.com/jtatarik/magit-gitflow"))])
  (magit-imerge .
-	       [(1 2 0 1 -4 20220306 2311)
+	       [(1 2 0 1 -4 20230521 2024)
 		((emacs
 		  (25 1))
 		 (magit
 		  (3 0 0)))
 		"Magit extension for git-imerge" single
-		((:commit . "37bca48218dc32cad964e01e0f9936a90f634fba")
+		((:commit . "c63ab1abbfb972db16f86399fd4eea7ab0a12d68")
 		 (:authors
 		  ("Kyle Meyer" . "kyle@kyleam.com"))
 		 (:maintainers
@@ -41749,7 +41749,7 @@
 		      (:keywords "magit" "vc")
 		      (:url . "http://github.com/jtamagnan/magit-reviewboard"))])
  (magit-section .
-		[(3 3 0 50 -4 20230428 1518)
+		[(3 3 0 50 -4 20230521 1803)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -41757,7 +41757,7 @@
 		  (dash
 		   (20221013)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "c5ebbf86ed9fa0cc33d5e7e788a55fe8c7ab4b93")
+		 ((:commit . "80959650b24a9c849b736234b56bc3d8aff2c0b9")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -53856,6 +53856,23 @@
 	      (:maintainer "Vedang Manerikar" . "vedang.manerikar@gmail.com")
 	      (:keywords "files" "multimedia")
 	      (:url . "http://github.com/vedang/pdf-tools/"))])
+ (pdf-view-pagemark .
+		    [(0 1 1 -4 20230516 252)
+		     ((pdf-tools
+		       (0 90))
+		      (posframe
+		       (1 4 2))
+		      (emacs
+		       (26 0)))
+		     "Add indicator in pdfview mode to show the page remaining" single
+		     ((:commit . "fa0ae8c8225b7489b6356e8521b91727681aa441")
+		      (:authors
+		       ("Kimi Ma" . "kimi.im@outlook.com"))
+		      (:maintainers
+		       ("Kimi Ma" . "kimi.im@outlook.com"))
+		      (:maintainer "Kimi Ma" . "kimi.im@outlook.com")
+		      (:keywords "multimedia" "convenience")
+		      (:url . "https://github.com/kimim/pdf-view-pagemark"))])
  (pdf-view-restore .
 		   [(0 1 1 -4 20190904 1708)
 		    ((pdf-tools
@@ -54458,11 +54475,11 @@
 	      (:maintainer "sabof")
 	      (:url . "https://github.com/sabof/php-eldoc"))])
  (php-mode .
-	   [(2 0 0 1 -4 20230423 1446)
+	   [(2 0 0 1 -4 20230521 1700)
 	    ((emacs
 	      (26 1)))
 	    "Major mode for editing PHP code" tar
-	    ((:commit . "37b2b883300e396d250d49c8d0f5a3abe6effa7f")
+	    ((:commit . "249b31c9b542e7a22050c97fb26ccbf44150b199")
 	     (:authors
 	      ("Eric James Michael Ritz"))
 	     (:maintainers
@@ -56754,6 +56771,19 @@
 		   (20130217 1405)))
 		 "Project oriented automatic builder and error highlighter, flymake for projects" tar
 		 ((:commit . "a897701f7e8f8cc11459ed44eb0e454db2a460c1"))])
+ (prometheus-mode .
+		  [(0 0 1 1 -4 20230516 434)
+		   ((emacs
+		     (26 1)))
+		   "Major modes for Prometheus files" tar
+		   ((:commit . "61e4c89db5ad50cc3ff0887dcd4b4bb4b14b4031")
+		    (:authors
+		     ("Peter Hoeg" . "peter@hoeg.com"))
+		    (:maintainers
+		     ("Peter Hoeg" . "peter@hoeg.com"))
+		    (:maintainer "Peter Hoeg" . "peter@hoeg.com")
+		    (:keywords "languages")
+		    (:url . "https://hoeg.com"))])
  (promise .
 	  [(1 1 1 -4 20210307 727)
 	   ((emacs
@@ -60426,7 +60456,7 @@
 		(:keywords "processes")
 		(:url . "https://github.com/bard/emacs-run-command"))])
  (run-command-recipes .
-		      [(0 0 3 1 -4 20230406 1757)
+		      [(0 0 3 1 -4 20230521 1950)
 		       ((emacs
 			 (25 1))
 			(dash
@@ -60436,7 +60466,7 @@
 			(run-command
 			 (0 1 0)))
 		       "This is collection of recipes to `run-command'" tar
-		       ((:commit . "adbde3fddd67f1f40b3374c1696af03ac9b72e5e")
+		       ((:commit . "c1fef8edcb23e184ea94905b3f4e1dc34c52691a")
 			(:authors
 			 ("semenInRussia" . "hrams205@gmail.com"))
 			(:maintainers
