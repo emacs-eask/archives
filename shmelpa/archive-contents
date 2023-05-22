@@ -30992,11 +30992,11 @@
 		   (:keywords "convenience")
 		   (:url . "https://github.com/l3msh0/helm-img"))])
  (helm-ispell .
-	      [(0 1 1 -4 20151231 853)
+	      [(0 1 1 -4 20220721 323)
 	       ((helm-core
-		 (1 7 7)))
+		 (3 6 0)))
 	       "ispell-complete-word with helm interface" single
-	       ((:commit . "cb735695ab3a0e66c123c2f3f3e8911fb1c2d5fc")
+	       ((:commit . "03e74ae7ebb17589a9f8860d1e2ae37f57378735")
 		(:authors
 		 ("Syohei YOSHIDA" . "syohex@gmail.com"))
 		(:maintainers
@@ -31369,15 +31369,15 @@
 		 (:keywords "mail")
 		 (:url . "https://github.com/emacs-helm/helm-notmuch"))])
  (helm-open-github .
-		   [(0 15 1 -4 20170220 159)
+		   [(0 15 1 -4 20220721 415)
 		    ((emacs
 		      (24 4))
 		     (helm-core
-		      (1 7 7))
+		      (3 6 0))
 		     (gh
 		      (0 8 2)))
 		    "Utilities of Opening Github Page" single
-		    ((:commit . "2f03d97552a1233db7694116d5f80ecde7612756")
+		    ((:commit . "5e6d700d1b484bd6cd44bc30674e96d157870c3f")
 		     (:authors
 		      ("Syohei YOSHIDA" . "syohex@gmail.com"))
 		     (:maintainers
@@ -31549,15 +31549,15 @@
 	      (:maintainer "Pierre Neidhardt" . "mail@ambrevar.xyz")
 	      (:url . "https://github.com/emacs-helm/helm-pass"))])
  (helm-perldoc .
-	       [(0 7 1 -4 20200315 1716)
+	       [(0 7 1 -4 20220721 431)
 		((helm-core
-		  (2 0))
+		  (3 6 0))
 		 (deferred
 		   (0 3 1))
 		 (emacs
 		  (24 4)))
 		"perldoc with helm interface" tar
-		((:commit . "6f3526f07f3df3059dbde779f8e681f5f1fee6ea")
+		((:commit . "affbf0f7357e5e0b33dab74d7193c91632d59b78")
 		 (:authors
 		  ("Syohei YOSHIDA" . "syohex@gmail.com"))
 		 (:maintainers
@@ -31693,13 +31693,13 @@
 		 (:maintainer "Bar Magal (2016)")
 		 (:url . "https://github.com/bmag/helm-purpose"))])
  (helm-pydoc .
-	     [(0 7 1 -4 20160918 542)
+	     [(0 7 1 -4 20220721 433)
 	      ((helm-core
-		(2 0))
+		(3 6 0))
 	       (emacs
 		(24 4)))
 	      "pydoc with helm interface" tar
-	      ((:commit . "85480a29b56dacde425655bc8f5a597c785afdf5")
+	      ((:commit . "cac7b8953adcab85e898bc42b699c3afde5d33c6")
 	       (:authors
 		("Syohei YOSHIDA" . "syohex@gmail.com"))
 	       (:maintainers
@@ -41622,13 +41622,13 @@
 		  (:keywords "vc" "tools")
 		  (:url . "https://github.com/jtatarik/magit-gitflow"))])
  (magit-imerge .
-	       [(1 2 0 1 -4 20230521 2024)
+	       [(1 2 0 1 -4 20230522 1054)
 		((emacs
 		  (25 1))
 		 (magit
 		  (3 0 0)))
 		"Magit extension for git-imerge" single
-		((:commit . "c63ab1abbfb972db16f86399fd4eea7ab0a12d68")
+		((:commit . "b7cfe49a197c2cf5948109921e053711b156389d")
 		 (:authors
 		  ("Kyle Meyer" . "kyle@kyleam.com"))
 		 (:maintainers
@@ -52086,11 +52086,11 @@
 	     (:keywords "convenience" "outlines" "org")
 	     (:url . "https://github.com/alphapapa/outshine"))])
  (ov .
-     [(1 0 6 1 -4 20200326 1042)
+     [(1 0 6 1 -4 20230522 1117)
       ((emacs
 	(24 3)))
       "Overlay library for Emacs Lisp" single
-      ((:commit . "c5b9aa4e1b00d702eb2caedd61c69a22a5fa1fab")
+      ((:commit . "e2971ad986b6ac441e9849031d34c56c980cf40b")
        (:authors
 	("Shingo Fukuyama - http://fukuyama.co"))
        (:maintainers
@@ -61730,6 +61730,17 @@
 	   (:maintainer "Vitalie Spinu")
 	   (:keywords "process")
 	   (:url . "https://github.com/vspinu/sesman"))])
+ (session .
+	  [(2 4 1 -4 20210422 53)
+	   nil "use variables, registers and buffer places across sessions" single
+	   ((:commit . "3be207c50dfe964de3cbf5cd8fa9b07fc7d2e609")
+	    (:authors
+	     ("Christoph Wedler" . "wedler@users.sourceforge.net"))
+	    (:maintainers
+	     ("Christoph Wedler" . "wedler@users.sourceforge.net"))
+	    (:maintainer "Christoph Wedler" . "wedler@users.sourceforge.net")
+	    (:keywords "session" "session management" "desktop" "data" "tools")
+	    (:url . "http://emacs-session.sourceforge.net/"))])
  (session-async .
 		[(0 0 4 1 -4 20230223 313)
 		 ((emacs
