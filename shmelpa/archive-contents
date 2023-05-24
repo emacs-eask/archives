@@ -12792,11 +12792,11 @@
 		    (:keywords "docs" "help" "tools")
 		    (:url . "https://github.com/blahgeek/emacs-devdocs-browser"))])
  (devil .
-	[(0 4 0 -1 2 1 -4 20230524 1125)
+	[(0 4 0 -1 4 1 -4 20230524 1705)
 	 ((emacs
 	   (24 4)))
 	 "Minor mode for translating key sequences" single
-	 ((:commit . "655cd02e6a764e23651607ef52303d589e95b3e8")
+	 ((:commit . "61d33d6e5a54064ba7c33c131c67edb625cd7e49")
 	  (:authors
 	   ("Susam Pal" . "susam@susam.net"))
 	  (:maintainers
@@ -29692,13 +29692,13 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 0 1 -4 20230524 935)
+       [(3 9 0 1 -4 20230524 1808)
 	((helm-core
 	  (3 9 0))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "c384714819296a621162ac1477ee3c11528e555e")
+	((:commit . "3dcabed9bd9aaf14d2ae47282e78508b5ba14077")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -39290,7 +39290,7 @@
 		(:keywords "whitespace" "characters")
 		(:url . "http://github.com/fgeller/leerzeichen.el"))])
  (leetcode .
-	   [(0 1 27 1 -4 20230524 1519)
+	   [(0 1 27 1 -4 20230524 1851)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -39304,7 +39304,7 @@
 	     (log4e
 	      (0 3 3)))
 	    "An leetcode client" single
-	    ((:commit . "bc1e1f6d9165aa9cbe9a90299266acc579be5928")
+	    ((:commit . "e5701191a98d043acdc7112f28d67e3d5c848228")
 	     (:authors
 	      ("Wang Kai" . "kaiwkx@gmail.com"))
 	     (:maintainers
@@ -40864,7 +40864,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20230522 1605)
+	   [(8 0 1 1 -4 20230524 1820)
 	    ((emacs
 	      (26 3))
 	     (dash
@@ -40882,7 +40882,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "de9e0a6f45e026795d9d2cf6556dced7a54c0a05")
+	    ((:commit . "c8bbdb80ed2dbfdbf55b6c4058308dab092306b5")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainers
@@ -46953,13 +46953,13 @@
 		 (:keywords "tools" "convenience")
 		 (:url . "https://github.com/nickanderson/ob-cfengine3"))])
  (ob-chatgpt-shell .
-		   [(0 19 1 1 -4 20230524 654)
+		   [(0 19 1 1 -4 20230524 2106)
 		    ((emacs
 		      (27 1))
 		     (chatgpt-shell
-		      (0 38 1)))
+		      (0 39 1)))
 		    "Org babel functions for ChatGPT evaluation" single
-		    ((:commit . "0118df8b2017c620608eae5226b9212977266d91")
+		    ((:commit . "9d05dbce300f0b1452ff8c22f5491ecaddbaf8bb")
 		     (:authors
 		      ("Alvaro Ramirez"))
 		     (:maintainers
@@ -49396,7 +49396,7 @@
 	     (:maintainer "Greg Minshall" . "minshall@umich.edu")
 	     (:url . "https://sr.ht/~minshall/org-grep/"))])
  (org-gtd .
-	  [(3 0 0 1 -4 20230524 1516)
+	  [(3 0 0 1 -4 20230524 1758)
 	   ((emacs
 	     (27 2))
 	    (org-edna
@@ -49410,7 +49410,7 @@
 	    (transient
 	     (0 3 7)))
 	   "An implementation of GTD." tar
-	   ((:commit . "d6fe323fe03a226f91ba4646afd8908253a8456a")
+	   ((:commit . "d3f3ce10097edc610c258ce7ca44029c2d7a949d")
 	    (:authors
 	     ("Aldric Giacomoni" . "trevoke@gmail.com"))
 	    (:maintainer "Aldric Giacomoni" . "trevoke@gmail.com")
@@ -70257,7 +70257,7 @@
 	       (:keywords "convenience" "usability" "url")
 	       (:url . "https://github.com/lujun9972/verify-url"))])
  (verilog-ext .
-	      [(0 1 0 1 -4 20230515 1659)
+	      [(0 1 0 1 -4 20230524 2043)
 	       ((emacs
 		 (28 1))
 		(verilog-mode
@@ -70285,7 +70285,7 @@
 		(async
 		 (1 9 7)))
 	       "SystemVerilog Extensions" tar
-	       ((:commit . "35db57ab648438e636c6034b8231df60304ae024")
+	       ((:commit . "0896c51f47a444a4c41d6c1b437456434fa7caff")
 		(:authors
 		 ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 		(:maintainers
@@ -70397,7 +70397,7 @@
 	      (:keywords "convenience" "usability" "vhdl" "completion")
 	      (:url . "https://github.com/sh-ow/vhdl-capf"))])
  (vhdl-ext .
-	   [(0 1 0 1 -4 20230511 2227)
+	   [(0 1 0 1 -4 20230524 2042)
 	    ((emacs
 	      (28 1))
 	     (eglot
@@ -70413,7 +70413,7 @@
 	     (flycheck
 	      (33 -4)))
 	    "VHDL Extensions" tar
-	    ((:commit . "a744e42c35fd9bc08b137a6f353a9046387a1376")
+	    ((:commit . "39938bdbdf93e924e9612cc527bc099b97231daa")
 	     (:authors
 	      ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 	     (:maintainers
