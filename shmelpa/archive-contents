@@ -11342,7 +11342,7 @@
 		(:keywords "c#" "languages" "oop" "mode")
 		(:url . "https://github.com/emacs-csharp/csharp-mode"))])
  (csound-mode .
-	      [(0 2 8 1 -4 20230217 853)
+	      [(0 2 8 1 -4 20230525 1753)
 	       ((emacs
 		 (25))
 		(shut-up
@@ -11354,7 +11354,7 @@
 		(highlight
 		 (0)))
 	       "A major mode for interacting and coding Csound" tar
-	       ((:commit . "a4dceb1febd3e7587e89158caf207d5da5624f51")
+	       ((:commit . "e8dc8eb22763482aad9b35dbf325637d2a47639c")
 		(:authors
 		 ("Hl\303\266\303\260ver Sigur\303\260sson" . "hlolli@gmail.com"))
 		(:maintainers
@@ -16390,11 +16390,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 4 1 -4 20230516 1703)
+	[(1 4 1 -4 20230525 1831)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "a34a17bb257c845e5b6ebf64e5a5b28d61fb4ca2")
+	 ((:commit . "1223282ab5d1b89f540ddefe2a2a59022eb9a497")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainers
@@ -17769,7 +17769,7 @@
 	       (:keywords "convenience")
 	       (:url . "https://github.com/smihica/emmet-mode"))])
  (emms .
-       [(15 1 -4 20230512 1735)
+       [(15 1 -4 20230525 2038)
 	((cl-lib
 	  (0 5))
 	 (nadvice
@@ -17777,7 +17777,7 @@
 	 (seq
 	  (0)))
 	"The Emacs Multimedia System" tar
-	((:commit . "271427fcb2f4af1495e3527ecde020a5b34e0391")
+	((:commit . "315051ec706c982e2b9f6fe225d06eaaa949bd74")
 	 (:authors
 	  ("Jorgen Sch\303\244fer" . "forcer@forcix.cx"))
 	 (:maintainers
@@ -29692,13 +29692,13 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 0 1 -4 20230524 1808)
+       [(3 9 0 1 -4 20230525 1831)
 	((helm-core
 	  (3 9 0))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "3dcabed9bd9aaf14d2ae47282e78508b5ba14077")
+	((:commit . "a980140467ea7abef34f14fa754b9a0db7298b20")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -36538,13 +36538,13 @@
 	    (:maintainer "Rustem Muslimov" . "r.muslimov@gmail.com")
 	    (:keywords "jenkins" "convenience"))])
  (jenkinsfile-mode .
-		   [(0 1 0 1 -4 20230525 752)
+		   [(0 1 0 1 -4 20230525 2006)
 		    ((emacs
 		      (24))
 		     (groovy-mode
 		      (2 0)))
 		    "Major mode for editing Jenkins declarative pipeline syntax" single
-		    ((:commit . "8e8491be69dbf611caea546503b70d5c33888368")
+		    ((:commit . "568865ee419e0592de0dd0717d6769a66d9df111")
 		     (:url . "https://github.com/john2x/jenkinsfile-mode"))])
  (jest .
        [(0 1 0 1 -4 20220807 2243)
@@ -37263,13 +37263,13 @@
 	  (:keywords "languages" "tools")
 	  (:url . "http://jtags.sourceforge.net"))])
  (julia-formatter .
-		  [(0 3 1 -4 20230301 1807)
+		  [(0 3 1 -4 20230525 1742)
 		   ((emacs
 		     (27 1))
 		    (session-async
 		     (0 0 4)))
 		   "Use JuliaFormatter.jl for julia code" single
-		   ((:commit . "6297a3e6b4b24ec0158b43b886be346043c2772f")
+		   ((:commit . "783df6cf8ef0db7adb4e81b86aa1e17992642493")
 		    (:authors
 		     ("Felipe Lema" . "felipe.lema@mortemale.org"))
 		    (:maintainers
@@ -42502,7 +42502,7 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/YiGeeker/masm-mode"))])
  (mastodon .
-	   [(1 0 0 1 -4 20230511 753)
+	   [(1 0 0 1 -4 20230525 1812)
 	    ((emacs
 	      (27 1))
 	     (request
@@ -42512,7 +42512,7 @@
 	     (ts
 	      (0 3)))
 	    "Client for fediverse services using the Mastodon API" tar
-	    ((:commit . "fc8d0fb6f20fbc291761648f2c7a801c41a6f876")
+	    ((:commit . "dfc40c0bc2c8f1653ca71335b6ad99230f38067e")
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com")
 	      ("Marty Hiatt" . "martianhiatus@riseup.net"))
@@ -64989,9 +64989,9 @@
 		      (:keywords "convenience" "wp")
 		      (:url . "https://gitlab.com/wavexx/stem-reading-mode.el"))])
  (stgit .
-	[(0 17 1 1 -4 20230515 1410)
+	[(0 17 1 1 -4 20230525 1553)
 	 nil "major mode for StGit interaction" single
-	 ((:commit . "24f14bd255612d536aadae46ce7749615c4cf681")
+	 ((:commit . "d34715b1f63643ed5f13516df614aa729bd65fd8")
 	  (:authors
 	   ("David K\303\245gedal" . "davidk@lysator.liu.se"))
 	  (:maintainers
@@ -70396,7 +70396,7 @@
 	      (:keywords "convenience" "usability" "vhdl" "completion")
 	      (:url . "https://github.com/sh-ow/vhdl-capf"))])
  (vhdl-ext .
-	   [(0 1 0 1 -4 20230524 2042)
+	   [(0 1 0 1 -4 20230525 1841)
 	    ((emacs
 	      (28 1))
 	     (eglot
@@ -70412,7 +70412,7 @@
 	     (flycheck
 	      (33 -4)))
 	    "VHDL Extensions" tar
-	    ((:commit . "39938bdbdf93e924e9612cc527bc099b97231daa")
+	    ((:commit . "dd6f7629199cf7a072b308def45aa6e14e918409")
 	     (:authors
 	      ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 	     (:maintainers
