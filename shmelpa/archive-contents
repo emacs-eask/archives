@@ -11342,7 +11342,7 @@
 		(:keywords "c#" "languages" "oop" "mode")
 		(:url . "https://github.com/emacs-csharp/csharp-mode"))])
  (csound-mode .
-	      [(0 2 9 1 -4 20230529 1449)
+	      [(0 2 9 1 -4 20230529 1850)
 	       ((emacs
 		 (25))
 		(shut-up
@@ -11354,7 +11354,7 @@
 		(highlight
 		 (0)))
 	       "A major mode for interacting and coding Csound" tar
-	       ((:commit . "38e814bd961a7d29b9a47a8e9dc069762e18eba4")
+	       ((:commit . "a40a225f5e1f807719c68f5a486998eb98a9ddeb")
 		(:authors
 		 ("Hl\303\266\303\260ver Sigur\303\260sson" . "hlolli@gmail.com"))
 		(:maintainers
@@ -11590,6 +11590,19 @@
 	     (:maintainer "Russell Sim" . "russell.sim@gmail.com")
 	     (:keywords "data" "languages")
 	     (:url . "https://github.com/russell/cue-mode"))])
+ (cue-sheet-mode .
+		 [(1 1 0 1 -4 20230522 511)
+		  ((emacs
+		    (27 1)))
+		  "Major mode for editing CUE sheet files" single
+		  ((:commit . "016dfa8aeed264e15e2f55b0b34fcfdb7e14b9d9")
+		   (:authors
+		    ("Peter Hoeg" . "peter@hoeg.com"))
+		   (:maintainers
+		    ("Peter Hoeg" . "peter@hoeg.com"))
+		   (:maintainer "Peter Hoeg" . "peter@hoeg.com")
+		   (:keywords "languages")
+		   (:url . "https://github.com/peterhoeg/cue-sheet-mode"))])
  (curl-to-elisp .
 		[(0 1 -4 20201124 1012)
 		 ((emacs
@@ -19555,7 +19568,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20230522 2123)
+       [(1 15 0 1 -4 20230529 2011)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -19563,7 +19576,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "c3ae7ef6a4d43dd950dcaf846239dd8705c7364b")
+	((:commit . "b7bc385a0b41c87133e8e7f3beaca2a97b74b17c")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulations")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -22125,6 +22138,19 @@
 	     (:maintainer "Mark Karpov" . "markkarpov92@gmail.com")
 	     (:keywords "word" "convenience")
 	     (:url . "https://github.com/mrkkrp/fix-word"))])
+ (fixed-page-mode .
+		  [(1 0 1 -4 20230526 1157)
+		   ((emacs
+		     (24 3)))
+		   "A fixed page length mode" single
+		   ((:commit . "f7f7925b59851419561be0784270b5d085359373")
+		    (:authors
+		     ("Igor Wojnicki" . "wojnicki@gmail.com"))
+		    (:maintainers
+		     ("Igor Wojnicki" . "wojnicki@gmail.com"))
+		    (:maintainer "Igor Wojnicki" . "wojnicki@gmail.com")
+		    (:keywords "wp")
+		    (:url . "https://gitlab.com/igorwojnicki/fixed-page-mode"))])
  (fixmee .
 	 [(0 8 6 1 -4 20230415 2027)
 	  ((button-lock
@@ -33658,7 +33684,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 0 1 1 -4 20230529 758)
+	     [(0 0 1 1 -4 20230529 1748)
 	      ((emacs
 		(27 1))
 	       (map
@@ -33670,7 +33696,7 @@
 	       (persist
 		(0 5)))
 	      "P2P filesystem in Emacs" tar
-	      ((:commit . "039bb85ef31c12478dee122e0822f05395094d2c")
+	      ((:commit . "a2321dec8125ee4afe21be7101639d7f4a722187")
 	       (:authors
 		("Joseph Turner"))
 	       (:maintainers
@@ -38389,11 +38415,11 @@
 		(:keywords "languages")
 		(:url . "https://github.com/Emacs-Kotlin-Mode-Maintainers/kotlin-mode"))])
  (kotlin-ts-mode .
-		 [(0 1 1 -4 20230516 818)
+		 [(0 1 1 -4 20230529 1908)
 		  ((emacs
 		    (29)))
 		  "A mode for editing Kotlin files based on tree-sitter" single
-		  ((:commit . "838c7c14cbadf9f42dd3a2c9f187826a9332afd0")
+		  ((:commit . "1f930772b8598efae6579fcd0bbdd12de1e1753b")
 		   (:authors
 		    ("Alex Figl-Brick" . "alex@alexbrick.me"))
 		   (:maintainers
@@ -43789,6 +43815,19 @@
 	    ("Yann Hodique" . "yann.hodique@gmail.com"))
 	   (:maintainer "Yann Hodique" . "yann.hodique@gmail.com")
 	   (:keywords "lisp" "testing"))])
+ (modaled .
+	  [(0 2 0 1 -4 20230528 112)
+	   ((emacs
+	     (25 1)))
+	   "Fully customizable modal editing" single
+	   ((:commit . "3324c7e79dbfab7e0a57390b2879e7edabc55b20")
+	    (:authors
+	     ("DCsunset"))
+	    (:maintainers
+	     ("DCsunset"))
+	    (:maintainer "DCsunset")
+	    (:keywords "convenience" "modal-editing")
+	    (:url . "https://github.com/DCsunset/modaled"))])
  (modalka .
 	  [(0 1 5 1 -4 20221004 1116)
 	   ((emacs
@@ -56769,7 +56808,7 @@
 			(:keywords "project" "convenience")
 			(:url . "https://github.com/zonuexe/projectile-variable"))])
  (projection .
-	     [(0 1 1 -4 20230529 1441)
+	     [(0 1 1 -4 20230529 1839)
 	      ((emacs
 		(29))
 	       (project
@@ -56777,7 +56816,7 @@
 	       (compat
 		(29 1 4 1)))
 	      "Project type support for `project'" tar
-	      ((:commit . "fb1de86f84bc0d46dbe6bbebf4bbf5880a56bdb9")
+	      ((:commit . "d2af6e04ba0369be55f66346523dcde1f4410bf0")
 	       (:authors
 		("Mohsin Kaleem" . "mohkale@kisara.moe"))
 	       (:maintainers
