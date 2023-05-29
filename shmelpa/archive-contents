@@ -9914,7 +9914,7 @@
 	       (:keywords "deferred" "async" "concurrent")
 	       (:url . "https://github.com/kiwanami/emacs-deferred/blob/master/README-concurrent.markdown"))])
  (conda .
-	[(0 4 1 -4 20230228 322)
+	[(0 4 1 -4 20230528 2355)
 	 ((emacs
 	   (25 1))
 	  (pythonic
@@ -9926,7 +9926,7 @@
 	  (f
 	   (0 18 2)))
 	 "Work with your conda environments" single
-	 ((:commit . "f90598f54af78469e61497560ddad05344810a35")
+	 ((:commit . "f3ea3876eecd00a1fca16fd7fd68e56e3beac87c")
 	  (:authors
 	   ("Rami Chowdhury" . "rami.chowdhury@gmail.com"))
 	  (:maintainers
@@ -56558,6 +56558,20 @@
 		       (:maintainer "Fritz Grabo" . "hello@fritzgrabo.com")
 		       (:keywords "convenience")
 		       (:url . "https://github.com/fritzgrabo/project-tab-groups"))])
+ (project-treemacs .
+		   [(0 1 1 -4 20230505 1121)
+		    ((emacs
+		      (28 1))
+		     (treemacs
+		      (3 1)))
+		    "Simple treemacs backend for project.el" single
+		    ((:commit . "26c95e025256f7070fafb69dc13f602831d1def8")
+		     (:authors
+		      ("Christopher McCloud"))
+		     (:maintainers
+		      ("Christopher McCloud"))
+		     (:maintainer "Christopher McCloud")
+		     (:url . "https://github.com/cmccloud/project-treemacs"))])
  (projectile .
 	     [(2 8 0 -4 20230317 1101)
 	      ((emacs
