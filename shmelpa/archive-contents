@@ -552,7 +552,7 @@
 	   (:keywords "completion" "convenience" "intellisense")
 	   (:url . "https://github.com/xcwen/ac-php"))])
  (ac-php-core .
-	      [(2 0 8 1 -4 20230522 1329)
+	      [(2 0 8 1 -4 20230529 1404)
 	       ((emacs
 		 (24 4))
 		(dash
@@ -568,7 +568,7 @@
 		(xcscope
 		 (1 0)))
 	       "The core library of the ac-php" tar
-	       ((:commit . "4c678709e1e1f1673a83b9eb01875e457c6ca658")
+	       ((:commit . "7b89fbf25360cc146aee9b2b2ca60f3462b21078")
 		(:authors
 		 ("jim" . "xcwenn@qq.com")
 		 ("Serghei Iakovlev" . "sadhooklay@gmail.com"))
@@ -6706,13 +6706,13 @@
 	    (:keywords "unicode" "character" "ucs")
 	    (:url . "https://github.com/lateau/charmap"))])
  (chatgpt-shell .
-		[(0 40 1 1 -4 20230528 1116)
+		[(0 40 1 1 -4 20230529 1516)
 		 ((emacs
 		   (27 1))
 		  (shell-maker
 		   (0 25 1)))
 		 "ChatGPT shell + buffer insert commands" single
-		 ((:commit . "a06693e743297311c6c6ac81bb205560edb1bab7")
+		 ((:commit . "8a477bb1a6241b1747d7f09b554c4fbaa1d394b8")
 		  (:authors
 		   ("Alvaro Ramirez https://xenodium.com"))
 		  (:maintainers
@@ -10014,13 +10014,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 34 1 -4 20230517 1159)
+	  [(0 34 1 -4 20230529 1356)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (29 1 4 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "7c7658ba7b1389fba1eff9dbc8962409f99343b7")
+	   ((:commit . "1745b97acd48368ce295166f8fe773bdc832e220")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainers
@@ -10074,7 +10074,7 @@
 		    (:maintainer "mohsin kaleem" . "mohkale@kisara.moe")
 		    (:url . "https://github.com/mohkale/consult-company"))])
  (consult-dash .
-	       [(0 5 1 -4 20220621 226)
+	       [(0 5 1 -4 20230529 1419)
 		((emacs
 		  (27 2))
 		 (dash-docs
@@ -10082,7 +10082,7 @@
 		 (consult
 		  (0 16)))
 		"Consult front-end for dash-docs" single
-		((:commit . "0eb8e133a12570f482efcf367dcc7887c15def32")
+		((:commit . "af9f26393583e4b5eb5f29fa4d7e72bf1a46d5f9")
 		 (:authors
 		  ("Ravi R Kiran" . "lists.ravi@gmail.com"))
 		 (:maintainers
@@ -11342,7 +11342,7 @@
 		(:keywords "c#" "languages" "oop" "mode")
 		(:url . "https://github.com/emacs-csharp/csharp-mode"))])
  (csound-mode .
-	      [(0 2 8 1 -4 20230525 1753)
+	      [(0 2 9 1 -4 20230529 1449)
 	       ((emacs
 		 (25))
 		(shut-up
@@ -11354,7 +11354,7 @@
 		(highlight
 		 (0)))
 	       "A major mode for interacting and coding Csound" tar
-	       ((:commit . "e8dc8eb22763482aad9b35dbf325637d2a47639c")
+	       ((:commit . "38e814bd961a7d29b9a47a8e9dc069762e18eba4")
 		(:authors
 		 ("Hl\303\266\303\260ver Sigur\303\260sson" . "hlolli@gmail.com"))
 		(:maintainers
@@ -29692,13 +29692,13 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 0 1 -4 20230528 1617)
+       [(3 9 0 1 -4 20230529 1452)
 	((helm-core
 	  (3 9 0))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "617f5fa96404ece6e3ec15b6f5e6baa6b24699b4")
+	((:commit . "e56d0a82a4037ab11e75a89999796a809f51901c")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -42633,7 +42633,7 @@
 	     (:maintainer "Ryan McGeary")
 	     (:keywords "display" "frame" "window" "maximize"))])
  (maxima .
-	 [(0 7 6 1 -4 20230529 1120)
+	 [(0 7 6 1 -4 20230529 1658)
 	  ((emacs
 	    (26 1))
 	   (s
@@ -42641,7 +42641,7 @@
 	   (test-simple
 	    (1 3 0)))
 	  "Major mode for Maxima" tar
-	  ((:commit . "83574afcd308e28210668680a7feead2b07aaad0")
+	  ((:commit . "2de798f6644753772553cd0420d3c419ed50dd0b")
 	   (:authors
 	    ("William F. Schelter")
 	    ("Jay Belanger")
@@ -42765,6 +42765,51 @@
 	  (:maintainer "Matthew Carter" . "m@ahungry.com")
 	  (:keywords "ahungry" "reddit" "browse" "news")
 	  (:url . "https://github.com/ahungry/md4rd"))])
+ (media-progress .
+		 [(0 1 0 1 -4 20230527 2209)
+		  ((emacs
+		    (28 1)))
+		  "Display position where media player stopped" single
+		  ((:commit . "0b22f92cf4bd40df6057485f63079c779eda9696")
+		   (:authors
+		    ("Dmitriy Pshonko <http://github.com/jumper047>"))
+		   (:maintainers
+		    ("Dmitriy Pshonko <http://github.com/jumper047>"))
+		   (:maintainer "Dmitriy Pshonko <http://github.com/jumper047>")
+		   (:keywords "files" "convenience")
+		   (:url . "https://github.com/jumper047/media-progress"))])
+ (media-progress-dired .
+		       [(0 1 0 1 -4 20230527 2209)
+			((emacs
+			  (28 1))
+			 (media-progress
+			  (0 1 0)))
+			"Display position where media player stopped in dired buffer" single
+			((:commit . "438a37019383eef35e45875b3e4df3fca4eaf39f")
+			 (:authors
+			  ("Dmitriy Pshonko <http://github.com/jumper047>"))
+			 (:maintainers
+			  ("Dmitriy Pshonko <http://github.com/jumper047>"))
+			 (:maintainer "Dmitriy Pshonko <http://github.com/jumper047>")
+			 (:keywords "files" "convenience")
+			 (:url . "https://github.com/jumper047/media-progress"))])
+ (media-progress-dirvish .
+			 [(0 1 0 1 -4 20230520 1547)
+			  ((emacs
+			    (28 1))
+			   (dirvish
+			    (2 0 0))
+			   (media-progress
+			    (0 1 0)))
+			  "Display position where media player stopped in dirvish" single
+			  ((:commit . "ec777d2d200ecb85795a225b482808f048c30a1c")
+			   (:authors
+			    ("Dmitriy Pshonko <http://github.com/jumper047>"))
+			   (:maintainers
+			    ("Dmitriy Pshonko <http://github.com/jumper047>"))
+			   (:maintainer "Dmitriy Pshonko <http://github.com/jumper047>")
+			   (:keywords "files" "convenience")
+			   (:url . "https://github.com/jumper047/media-progress"))])
  (media-thumbnail .
 		  [(0 0 1 1 -4 20220827 2325)
 		   ((emacs
@@ -46952,13 +46997,13 @@
 		 (:keywords "tools" "convenience")
 		 (:url . "https://github.com/nickanderson/ob-cfengine3"))])
  (ob-chatgpt-shell .
-		   [(0 19 1 1 -4 20230524 2106)
+		   [(0 19 1 1 -4 20230529 1516)
 		    ((emacs
 		      (27 1))
 		     (chatgpt-shell
 		      (0 39 1)))
 		    "Org babel functions for ChatGPT evaluation" single
-		    ((:commit . "9d05dbce300f0b1452ff8c22f5491ecaddbaf8bb")
+		    ((:commit . "8a477bb1a6241b1747d7f09b554c4fbaa1d394b8")
 		     (:authors
 		      ("Alvaro Ramirez"))
 		     (:maintainers
@@ -56724,7 +56769,7 @@
 			(:keywords "project" "convenience")
 			(:url . "https://github.com/zonuexe/projectile-variable"))])
  (projection .
-	     [(0 1 1 -4 20230521 1155)
+	     [(0 1 1 -4 20230529 1441)
 	      ((emacs
 		(29))
 	       (project
@@ -56732,7 +56777,7 @@
 	       (compat
 		(29 1 4 1)))
 	      "Project type support for `project'" tar
-	      ((:commit . "156edd6c95692d002d87cf3c3b9894e25073866b")
+	      ((:commit . "fb1de86f84bc0d46dbe6bbebf4bbf5880a56bdb9")
 	       (:authors
 		("Mohsin Kaleem" . "mohkale@kisara.moe"))
 	       (:maintainers
@@ -56741,7 +56786,7 @@
 	       (:keywords "project" "convenience")
 	       (:url . "https://github.com/mohkale/projection"))])
  (projection-multi .
-		   [(0 1 1 -4 20230521 1111)
+		   [(0 1 1 -4 20230529 1035)
 		    ((emacs
 		      (29))
 		     (projection
@@ -56749,7 +56794,7 @@
 		     (compile-multi
 		      (0 3)))
 		    "Projection integration for `compile-multi'" tar
-		    ((:commit . "872e23bd1c117e0f273b54b9f276e5e281f293ba")
+		    ((:commit . "917ac108a698056b819e31e7d06e8520150dac59")
 		     (:authors
 		      ("Mohsin Kaleem" . "mohkale@kisara.moe"))
 		     (:maintainers
