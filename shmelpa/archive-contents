@@ -2128,7 +2128,7 @@
 		     (:maintainer "Joe Wreschnig" . "joe.wreschnig@gmail.com")
 		     (:url . "https://git.korewanetadesu.com/apt-sources-list.git"))])
  (aqi .
-      [(0 1 1 -4 20200215 1334)
+      [(0 1 1 -4 20230530 1204)
        ((emacs
 	 (25 1))
 	(request
@@ -2136,7 +2136,7 @@
 	(let-alist
 	    (0 0)))
        "Air quality data from the World Air Quality Index" single
-       ((:commit . "265ab11044b527ca70762fc5d633227001dd4da6")
+       ((:commit . "cbff3c6ce691a3a1d2f5636384e29d43f0e1d236")
 	(:authors
 	 ("nik gaffney" . "nik@fo.am"))
 	(:maintainers
@@ -19441,9 +19441,9 @@
 		 (:maintainer "Ethan Glasser-Camp" . "ethan@betacantrips.com")
 		 (:keywords "whitespace" "tab" "newline" "trailing" "clean"))])
  (etherpad .
-	   [(0 1 1 -4 20211128 106)
+	   [(0 1 1 -4 20230530 1248)
 	    ((emacs
-	      (26 3))
+	      (27 1))
 	     (request
 	      (0 3))
 	     (let-alist
@@ -19455,7 +19455,7 @@
 	     (0xc
 	      (0 1)))
 	    "Interface to the Etherpad API" tar
-	    ((:commit . "1fae6a03084e0794e09ac036838b53aaae1dbd63")
+	    ((:commit . "29409bf9ff05b74d942c1cd7a421eeec2ef96e49")
 	     (:authors
 	      ("nik gaffney" . "nik@fo.am"))
 	     (:maintainers
@@ -33684,7 +33684,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 0 1 1 -4 20230530 721)
+	     [(0 0 1 1 -4 20230530 1001)
 	      ((emacs
 		(27 1))
 	       (map
@@ -33696,7 +33696,7 @@
 	       (persist
 		(0 5)))
 	      "P2P filesystem in Emacs" tar
-	      ((:commit . "ac51ddd460ce58f4afe6c6bebbe8c96d03252116")
+	      ((:commit . "efa45c1235263af6461821eafa97cbe21794d4e8")
 	       (:authors
 		("Joseph Turner"))
 	       (:maintainers
@@ -33747,13 +33747,13 @@
 	       (:keywords "tools" "convenience")
 	       (:url . "https://github.com/ieure/hyperspace-el"))])
  (i-ching .
-	  [(0 2 1 -4 20230526 1112)
+	  [(0 2 1 -4 20230530 937)
 	   ((emacs
 	     (25 1))
 	    (request
 	     (0 3)))
 	   "The Book of Changes" tar
-	   ((:commit . "ab9eaa445d21349213043298bbfe07e81c20a2e3")
+	   ((:commit . "2f1e8393b09f926188eb640604f5bc637707315e")
 	    (:authors
 	     ("nik gaffney" . "nik@fo.am"))
 	    (:maintainers
@@ -37338,7 +37338,7 @@
 		 ("Dennis Ogbe" . "dogbe@purdue.edu"))
 		(:maintainer "Dennis Ogbe" . "dogbe@purdue.edu"))])
  (julia-snail .
-	      [(1 2 2 1 -4 20230508 525)
+	      [(1 2 3 1 -4 20230530 1319)
 	       ((emacs
 		 (26 2))
 		(dash
@@ -37354,7 +37354,7 @@
 		(popup
 		 (0 5 9)))
 	       "Julia Snail" tar
-	       ((:commit . "117f62123bf168043fb9ab5df953ee444460afd9")
+	       ((:commit . "c33663abf081a06e0fdbf5818255f082070d2160")
 		(:url . "https://github.com/gcv/julia-snail"))])
  (julia-ts-mode .
 		[(0 2 2 1 -4 20230505 1846)
@@ -48625,11 +48625,11 @@
 			(:keywords "calendar")
 			(:url . "http://github.com/Bruce-Connor/org-agenda-property"))])
  (org-ai .
-	 [(0 3 4 1 -4 20230511 247)
+	 [(0 3 6 1 -4 20230530 1228)
 	  ((emacs
 	    (28 2)))
 	  "Your AI assistant with ChatGPT, DALL-E, Whisper" tar
-	  ((:commit . "8dbba5a117e2cd84beeba8f3578ad1f6e43850d4")
+	  ((:commit . "6251d25c6cc5afff0c735721761dc9192b771dcb")
 	   (:authors
 	    ("Robert Krahn" . "robert@kra.hn"))
 	   (:maintainers
