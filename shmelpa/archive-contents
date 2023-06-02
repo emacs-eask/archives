@@ -26413,11 +26413,11 @@
 	     (:maintainer "Matthew K. Junker" . "junker@alum.mit.edu")
 	     (:keywords "extensions" "convenience" "local"))])
  (ggtags .
-	 [(0 9 0 1 -4 20220511 610)
+	 [(0 9 0 1 -4 20230602 133)
 	  ((emacs
 	    (25)))
 	  "emacs frontend to GNU Global source code tagging system" single
-	  ((:commit . "40635a1effd3a9c2adef63c4760010c9468a7a4d")
+	  ((:commit . "4e3630c30fb836872b5d8f2ae3e5d5ae003365d8")
 	   (:authors
 	    ("Leo Liu" . "sdl.web@gmail.com"))
 	   (:maintainers
@@ -27694,11 +27694,11 @@
 	       (:keywords "convenience" "mail" "bbdb" "gnus" "helm" "org" "hydra")
 	       (:url . "https://github.com/deusmax/gnus-notes"))])
  (gnus-recent .
-	      [(0 4 0 1 -4 20230104 1924)
+	      [(0 4 0 1 -4 20230602 957)
 	       ((emacs
 		 (25 3 2)))
 	       "Article breadcrumbs for Gnus" single
-	       ((:commit . "5a4a28710dedef939dd8f1a743c5626e40271842")
+	       ((:commit . "5f85ddccd116b6c0cddf47795f25f930b7b767c4")
 		(:authors
 		 ("Kevin Brubeck Unhammer" . "unhammer@fsfe.org"))
 		(:maintainers
@@ -29576,7 +29576,7 @@
 		 (:maintainer "Daniel Mendler")
 		 (:url . "https://github.com/minad/hasklig-mode"))])
  (hass .
-       [(3 0 2 1 -4 20230529 1247)
+       [(3 0 2 1 -4 20230529 1312)
 	((emacs
 	  (25 1))
 	 (request
@@ -29584,7 +29584,7 @@
 	 (websocket
 	  (1 13)))
 	"Interact with Home Assistant" tar
-	((:commit . "f79aae0f5bad39ac96fdd5784651347273f2691e")
+	((:commit . "4c9da37c5217177d43dbd2cb9cd458c01b834c54")
 	 (:authors
 	  ("Ben Whitley"))
 	 (:maintainers
@@ -29718,13 +29718,13 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 0 1 -4 20230529 1452)
+       [(3 9 0 1 -4 20230602 903)
 	((helm-core
 	  (3 9 0))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "e56d0a82a4037ab11e75a89999796a809f51901c")
+	((:commit . "20cce89fc605a8d61a11608b845c6401549dce23")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -38141,21 +38141,21 @@
 	    (:maintainer "Damien Cassou" . "damien@cassou.me")
 	    (:url . "https://github.com/DamienCassou/khardel"))])
  (khoj .
-       [(0 6 2 1 -4 20230517 1434)
+       [(0 6 2 1 -4 20230602 512)
 	((emacs
 	  (27 1))
 	 (transient
 	  (0 3 0))
 	 (dash
 	  (2 19 1)))
-	"A search assistant for your second brain" single
-	((:commit . "ebb5d7b8e5d51f54c03bd363442fd4f48153028f")
+	"AI personal assistant for your digital brain" single
+	((:commit . "7af8a5643455c5a50bba9e2a2b0d87302183b373")
 	 (:authors
 	  ("Debanjum Singh Solanky" . "debanjum@gmail.com"))
 	 (:maintainers
 	  ("Debanjum Singh Solanky" . "debanjum@gmail.com"))
 	 (:maintainer "Debanjum Singh Solanky" . "debanjum@gmail.com")
-	 (:keywords "search" "chat" "org-mode" "outlines" "markdown" "beancount" "image")
+	 (:keywords "search" "chat" "org-mode" "outlines" "markdown" "pdf" "beancount" "image")
 	 (:url . "https://github.com/debanjum/khoj/tree/master/src/interface/emacs"))])
  (kibit-helper .
 	       [(0 1 1 1 -4 20150508 1533)
@@ -40890,7 +40890,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20230524 1820)
+	   [(8 0 1 1 -4 20230602 1742)
 	    ((emacs
 	      (26 3))
 	     (dash
@@ -40908,7 +40908,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "c8bbdb80ed2dbfdbf55b6c4058308dab092306b5")
+	    ((:commit . "a91f42f81c4c2ed7d2652e09fe860eba7061070c")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainers
@@ -41478,7 +41478,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230530 1403)
+	[(3 3 0 50 -4 20230602 1732)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -41494,7 +41494,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "e7e040fcc3975828a74754dc538e952dad137641")
+	 ((:commit . "8b1f599de4c54957d7dfbd2bc0fed2d9e04760a0")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -43816,11 +43816,11 @@
 	   (:maintainer "Yann Hodique" . "yann.hodique@gmail.com")
 	   (:keywords "lisp" "testing"))])
  (modaled .
-	  [(0 3 0 1 -4 20230531 2304)
+	  [(0 3 0 1 -4 20230602 1538)
 	   ((emacs
 	     (25 1)))
 	   "Build your own minor modes for modal editing" single
-	   ((:commit . "f977ce6dbc4ba3b4fc1ae114232a3ba67730755a")
+	   ((:commit . "2ebe985f8b170b101f4f8de5f833ba5718761638")
 	    (:authors
 	     ("DCsunset"))
 	    (:maintainers
@@ -43959,11 +43959,11 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(4 2 0 1 -4 20230530 627)
+	       [(4 2 0 1 -4 20230602 418)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "b4ef90bb950b820a3bf316d7b212320a5b2f84d7")
+		((:commit . "0f3e96982cb2b9e78df0ee8c96f7a0de211e37e9")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainers
@@ -51089,7 +51089,7 @@
 			    (:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com")
 			    (:keywords "extensions"))])
  (org-tag-beautify .
-		   [(0 1 0 1 -4 20230524 1202)
+		   [(0 1 0 1 -4 20230602 856)
 		    ((emacs
 		      (26 1))
 		     (org-pretty-tags
@@ -51097,7 +51097,7 @@
 		     (nerd-icons
 		      (0 0 1)))
 		    "Beautify Org mode tags" single
-		    ((:commit . "777a023294829b57e3750ba638fa6748171e9739")
+		    ((:commit . "972c1efa7eb3c7421b4feb63a3dffa7d3a6d6b3b")
 		     (:keywords "hypermedia")
 		     (:url . "https://repo.or.cz/org-tag-beautify.git"))])
  (org-tagged .
@@ -52971,11 +52971,11 @@
 	     (:keywords "extensions" "tools")
 	     (:url . "https://github.com/zenspider/package"))])
  (package-build .
-		[(4 0 0 50 -4 20230530 1457)
+		[(4 0 0 50 -4 20230602 816)
 		 ((emacs
 		   (26 1)))
 		 "Tools for assembling a package archive" tar
-		 ((:commit . "2f9fb0294e91e86a8973355425fee3091f5e94b3")
+		 ((:commit . "27f6e016c60839f35375fb4bcc5b05dbadb4383b")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		   ("Steve Purcell" . "steve@sanityinc.com")
@@ -55712,7 +55712,7 @@
 	    (:keywords "tools" "time" "applications" "pomodoro technique")
 	    (:url . "https://github.com/TatriX/pomidor"))])
  (pomm .
-       [(0 2 0 1 -4 20220815 824)
+       [(0 2 0 1 -4 20230602 2045)
 	((emacs
 	  (27 1))
 	 (alert
@@ -55722,7 +55722,7 @@
 	 (transient
 	  (0 3 0)))
 	"Pomodoro and Third Time timers" tar
-	((:commit . "42f03d6ff29109038b31a8647f1acdc80fb867be")
+	((:commit . "d05d9cb3339ce7fdaf535065b235a5e9bba681f9")
 	 (:authors
 	  ("Korytov Pavel" . "thexcloud@gmail.com"))
 	 (:maintainers
