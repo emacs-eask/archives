@@ -39426,6 +39426,19 @@
 	(:maintainer "M.T. Enders <michael AT michael-enders.com>")
 	(:keywords "convenience" "translate")
 	(:url . "https://github.com/mtenders/emacs-leo"))])
+ (lesim-mode .
+	     [(0 2 1 -4 20230604 1826)
+	      ((emacs
+		(28 1)))
+	      "Major mode for Learning Simulator scripts" tar
+	      ((:commit . "236c7d2ee726fc1ddb61ee0dd136d9a3c879a785")
+	       (:authors
+		("Stefano Ghirlanda" . "drghirlanda@gmail.com"))
+	       (:maintainers
+		("Stefano Ghirlanda" . "drghirlanda@gmail.com"))
+	       (:maintainer "Stefano Ghirlanda" . "drghirlanda@gmail.com")
+	       (:keywords "languages" "faces")
+	       (:url . "https://github.com/drghirlanda/lesim-mode"))])
  (less-css-mode .
 		[(0 1 0 1 -4 20161001 453)
 		 nil "Major mode for editing LESS CSS files (lesscss.org)" single
@@ -40029,6 +40042,21 @@
 	       (:maintainer "Roland Walker" . "walker@pobox.com")
 	       (:keywords "extensions")
 	       (:url . "http://github.com/rolandwalker/list-utils"))])
+ (listenbrainz .
+	       [(0 1 1 -4 20230530 741)
+		((emacs
+		  (27 1))
+		 (request
+		  (0 3)))
+		"ListenBrainz API interface" single
+		((:commit . "2386189ec8a19a74d7b8a46e08a9fa6d974a6305")
+		 (:authors
+		  ("nik gaffney" . "nik@fo.am"))
+		 (:maintainers
+		  ("nik gaffney" . "nik@fo.am"))
+		 (:maintainer "nik gaffney" . "nik@fo.am")
+		 (:keywords "music" "scrobbling" "multimedia")
+		 (:url . "https://github.com/zzkt/listenbrainz"))])
  (lister .
 	 [(0 9 4 1 -4 20230204 1357)
 	  ((emacs
@@ -44584,6 +44612,21 @@
 	(:maintainer "Johann Kl\303\244hn" . "johann@jklaehn.de")
 	(:keywords "tools" "multimedia")
 	(:url . "https://github.com/kljohann/mpv.el"))])
+ (mpvi .
+       [(1 0 1 -4 20230529 401)
+	((emacs
+	  (28 1))
+	 (emms
+	  (11)))
+	"Integrated MPV Tool" tar
+	((:commit . "3b338fd63d196898843558e1289dd942cb1abb1e")
+	 (:authors
+	  ("lorniu" . "lorniu@gmail.com"))
+	 (:maintainers
+	  ("lorniu" . "lorniu@gmail.com"))
+	 (:maintainer "lorniu" . "lorniu@gmail.com")
+	 (:keywords "convenience" "docs" "multimedia" "application")
+	 (:url . "https://github.com/lorniu/mpvi"))])
  (mqr .
       [(0 2 3 1 -4 20180527 1204)
        ((emacs
@@ -45031,6 +45074,21 @@
 	       ("Zajcev Evgeny" . "zevlg@yandex.ru"))
 	      (:maintainer "Zajcev Evgeny" . "zevlg@yandex.ru")
 	      (:keywords "dictionary" "hypermedia"))])
+ (musicbrainz .
+	      [(0 1 1 -4 20230530 749)
+	       ((emacs
+		 (28 1))
+		(request
+		 (0 3)))
+	       "MusicBrainz API interface" single
+	       ((:commit . "986690a515e67526598eaa4200bd383f03a007bd")
+		(:authors
+		 ("nik gaffney" . "nik@fo.am"))
+		(:maintainers
+		 ("nik gaffney" . "nik@fo.am"))
+		(:maintainer "nik gaffney" . "nik@fo.am")
+		(:keywords "music" "scrobbling" "multimedia")
+		(:url . "https://github.com/zzkt/metabrainz"))])
  (mustache .
 	   [(0 24 1 -4 20210224 710)
 	    ((ht
@@ -48650,11 +48708,11 @@
 			(:keywords "calendar")
 			(:url . "http://github.com/Bruce-Connor/org-agenda-property"))])
  (org-ai .
-	 [(0 3 6 1 -4 20230530 1228)
+	 [(0 3 7 1 -4 20230604 1751)
 	  ((emacs
 	    (28 2)))
 	  "Your AI assistant with ChatGPT, DALL-E, Whisper" tar
-	  ((:commit . "6251d25c6cc5afff0c735721761dc9192b771dcb")
+	  ((:commit . "6dbee4d7d204bff878421fb3da3435e1a840df54")
 	   (:authors
 	    ("Robert Krahn" . "robert@kra.hn"))
 	   (:maintainers
@@ -49677,6 +49735,21 @@
 		   (:maintainer "Huming Chen" . "chenhuming@gmail.com")
 		   (:keywords "convenience" "tool" "org")
 		   (:url . "https://github.com/beacoder/org-ivy-search"))])
+ (org-jami-bot .
+	       [(0 0 2 1 -4 20230529 1911)
+		((emacs
+		  (28 1))
+		 (jami-bot
+		  (0 0 1)))
+		"Capture GNU Jami messages as notes and todos in Org mode" single
+		((:commit . "99358b11e4be25299b62aa676365bc41cb9beb8b")
+		 (:authors
+		  ("Hanno Perrey <http://gitlab.com/hperrey>"))
+		 (:maintainers
+		  ("Hanno Perrey" . "hanno@hoowl.se"))
+		 (:maintainer "Hanno Perrey" . "hanno@hoowl.se")
+		 (:keywords "comm" "outlines" "org-capture" "jami")
+		 (:url . "https://gitlab.com/hperrey/org-jami-bot"))])
  (org-jira .
 	   [(4 3 3 1 -4 20230413 441)
 	    ((emacs
@@ -61527,6 +61600,19 @@
 	  (:maintainer "Kiyoka Nishiyama" . "kiyoka@sumibi.org")
 	  (:keywords "ime" "skk" "japanese")
 	  (:url . "https://github.com/kiyoka/sekka"))])
+ (selcand .
+	  [(0 0 1 1 -4 20230530 2118)
+	   ((emacs
+	     (24 4)))
+	   "Select a candidate from a tree of hint characters" single
+	   ((:commit . "b86d50bfd274b7f4b8b0d2359a62723821966db9")
+	    (:authors
+	     ("Ernesto Alfonso"))
+	    (:maintainers
+	     (nil . "(concat \"erjoalgo\" \"@\" \"gmail\" \".com\")"))
+	    (:maintainer nil . "(concat \"erjoalgo\" \"@\" \"gmail\" \".com\")")
+	    (:keywords "lisp" "completing-read" "prompt" "combinations" "vimium")
+	    (:url . "https://github.com/erjoalgo/selcand"))])
  (select-themes .
 		[(0 1 3 1 -4 20160221 106)
 		 nil "Color theme selection with completing-read" single
@@ -65514,6 +65600,25 @@
 		    ("Yuta Yamada <cokesboy\"at\"gmail.com>"))
 		   (:maintainer "Yuta Yamada <cokesboy\"at\"gmail.com>")
 		   (:keywords "convenience"))])
+ (sumibi .
+	 [(1 6 3 1 -4 20230531 1247)
+	  ((emacs
+	    (28 1))
+	   (popup
+	    (0 5 9))
+	   (unicode-escape
+	    (1 1))
+	   (deferred
+	     (0 5 1)))
+	  "Japanese input method powered by ChatGPT API" single
+	  ((:commit . "e23cef243d4b635a5e24e0b8684c256edf3d73c9")
+	   (:authors
+	    ("Kiyoka Nishiyama" . "kiyoka@sumibi.org"))
+	   (:maintainers
+	    ("Kiyoka Nishiyama" . "kiyoka@sumibi.org"))
+	   (:maintainer "Kiyoka Nishiyama" . "kiyoka@sumibi.org")
+	   (:keywords "lisp" "ime" "japanese")
+	   (:url . "https://github.com/kiyoka/Sumibi"))])
  (sunburn-theme .
 		[(1 0 1 -4 20201216 1539)
 		 ((emacs
