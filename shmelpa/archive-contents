@@ -41548,7 +41548,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230603 1122)
+	[(3 3 0 50 -4 20230604 2055)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -41564,7 +41564,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "6a3ddc275843560d28a664cd1670976d896f2c9e")
+	 ((:commit . "a003d3c11cdf13b959c2a9061f7066ebcf1bebbe")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -48987,6 +48987,19 @@
 	      (:maintainer "Erik Sj\303\266strand" . "sjostrand.erik@gmail.com")
 	      (:keywords "outlines" "hypermedia")
 	      (:url . "http://github.com/Kungsgeten/org-brain"))])
+ (org-bulletproof .
+		  [(0 2 1 -4 20230603 1314)
+		   ((emacs
+		     (27 1)))
+		   "Automatic plain list bullet cycling" single
+		   ((:commit . "a81c275e2e9d43ba98465df8b41adfd398184fda")
+		    (:authors
+		     ("Pontus Andersson" . "pondersson@gmail.com"))
+		    (:maintainers
+		     ("Pontus Andersson" . "pondersson@gmail.com"))
+		    (:maintainer "Pontus Andersson" . "pondersson@gmail.com")
+		    (:keywords "outlines" "convenience")
+		    (:url . "https://github.com/pondersson/org-bulletproof"))])
  (org-bullets .
 	      [(0 3 0 1 -4 20200317 1740)
 	       nil "Show bullets in org-mode as UTF-8 characters" single
@@ -58636,6 +58649,19 @@
 	  ("Antoine Kalmbach" . "ane@iki.fi"))
 	 (:maintainer "Antoine Kalmbach" . "ane@iki.fi")
 	 (:keywords "go"))])
+ (raycast-mode .
+	       [(1 0 1 -4 20230530 1132)
+		((emacs
+		  (26 1)))
+		"Develop Raycast Extensions" single
+		((:commit . "6700b625c9e7ded5201ea6ffeb598a80cb3d02c6")
+		 (:authors
+		  ("John Buckley" . "nhoj.buckley@gmail.com"))
+		 (:maintainers
+		  ("John Buckley" . "nhoj.buckley@gmail.com"))
+		 (:maintainer "John Buckley" . "nhoj.buckley@gmail.com")
+		 (:keywords "convenience" "languages" "tools")
+		 (:url . "https://github.com/nhojb/raycast-mode"))])
  (rbenv .
 	[(0 0 3 1 -4 20141120 749)
 	 nil "Emacs integration for rbenv" single
@@ -61618,11 +61644,11 @@
 	  (:keywords "ime" "skk" "japanese")
 	  (:url . "https://github.com/kiyoka/sekka"))])
  (selcand .
-	  [(0 0 1 1 -4 20230530 2118)
+	  [(0 0 2 1 -4 20230604 2132)
 	   ((emacs
-	     (24 4)))
+	     (25 1)))
 	   "Select a candidate from a tree of hint characters" single
-	   ((:commit . "b86d50bfd274b7f4b8b0d2359a62723821966db9")
+	   ((:commit . "c41b4c8a4ee01f8c069b219e2fea16a084c79f19")
 	    (:authors
 	     ("Ernesto Alfonso"))
 	    (:maintainers
@@ -66761,7 +66787,7 @@
 	 (:keywords "convenience" "emulations" "files")
 	 (:url . "https://github.com/mtk/teco.git"))])
  (telega .
-	 [(0 8 120 1 -4 20230420 958)
+	 [(0 8 140 1 -4 20230604 1946)
 	  ((emacs
 	    (27 1))
 	   (visual-fill-column
@@ -66769,7 +66795,7 @@
 	   (rainbow-identifiers
 	    (0 2 2)))
 	  "Telegram client (unofficial)" tar
-	  ((:commit . "879a8c7afc8967942613b6b898d9ea8c1f3641bf")
+	  ((:commit . "c09a8f3ca8cd921e11c8bc256066364c84eac023")
 	   (:authors
 	    ("Zajcev Evgeny" . "zevlg@yandex.ru"))
 	   (:maintainers
