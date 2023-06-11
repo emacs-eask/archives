@@ -3204,6 +3204,19 @@
 			     ("George Balatsouras <gbalats(at)gmail(dot)com>"))
 			    (:maintainer "George Balatsouras <gbalats(at)gmail(dot)com>")
 			    (:keywords "convenience" "data" "files"))])
+ (autoscratch .
+	      [(0 0 4 1 -4 20230605 617)
+	       ((emacs
+		 (24 1)))
+	       "Automatically switch scratch buffer mode" tar
+	       ((:commit . "350a27e5d271dbbb81bcd7509f559eb809853d60")
+		(:authors
+		 ("T.v.Dein" . "tlinden@cpan.org"))
+		(:maintainers
+		 ("T.v.Dein" . "tlinden@cpan.org"))
+		(:maintainer "T.v.Dein" . "tlinden@cpan.org")
+		(:keywords "convenience" "buffer" "scrach")
+		(:url . "https://github.com/tlinden/autoscratch"))])
  (autotetris-mode .
 		  [(0 1 0 1 -4 20141114 1646)
 		   ((cl-lib
@@ -33011,6 +33024,19 @@
 		     (:maintainer "Roland Walker" . "walker@pobox.com")
 		     (:keywords "convenience" "lisp" "tools" "completion")
 		     (:url . "http://github.com/rolandwalker/hippie-namespace"))])
+ (hippo-themes .
+	       [(0 0 1 1 -4 20230605 1110)
+		((emacs
+		  (24 1)))
+		"Hippo color theme" tar
+		((:commit . "d8cbc2dc1f5bec871e035b05f81c77f7058bb0b7")
+		 (:authors
+		  ("Kimi MA"))
+		 (:maintainers
+		  ("Kimi MA"))
+		 (:maintainer "Kimi MA")
+		 (:keywords "faces" "local" "color" "theme")
+		 (:url . "http://github.com/kimim/emacs-hippo-theme"))])
  (historian .
 	    [(20170111 1 -4 20200203 1927)
 	     ((emacs
@@ -34838,11 +34864,11 @@
 		(:keywords "languages" "crystal")
 		(:url . "https://github.com/brantou/inf-crystal.el"))])
  (inf-elixir .
-	     [(2 1 2 1 -4 20230611 324)
+	     [(2 1 2 1 -4 20230611 1945)
 	      ((emacs
 		(25 1)))
 	      "Run an interactive Elixir shell" tar
-	      ((:commit . "d4ace5ac49c2bb07818fd2f40bae1f1a25e95481")
+	      ((:commit . "77ac6af83eb4b816c62f58a0298b1bae0c3d69fd")
 	       (:authors
 		("Jonathan Arnett" . "jonathan.arnett@protonmail.com"))
 	       (:maintainers
