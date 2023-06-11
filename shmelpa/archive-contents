@@ -4579,11 +4579,13 @@
 	    (:maintainer "Artem Malyshev" . "proofit404@gmail.com")
 	    (:url . "https://github.com/proofit404/blacken"))])
  (blackjack .
-	    [(1 0 3 1 -4 20230528 1152)
+	    [(1 0 3 1 -4 20230611 1412)
 	     ((emacs
-	       (26 2)))
+	       (26 2))
+	      (dash
+	       (2 19 1)))
 	     "The game of Blackjack" tar
-	     ((:commit . "b58e0fab096314177a21275f64143199b628d429")
+	     ((:commit . "85ba3094c7171e7cec02817f36c4f578f260765d")
 	      (:authors
 	       ("Greg Donald" . "gdonald@gmail.com"))
 	      (:maintainers
@@ -26698,11 +26700,11 @@
 	      (:keywords "files" "data" "git" "annex")
 	      (:url . "https://github.com/jwiegley/git-annex-el"))])
  (git-assembler-mode .
-		     [(0 1 1 -4 20221205 1014)
+		     [(0 1 1 -4 20230611 1425)
 		      ((emacs
 			(24 4)))
 		      "git-assembler major mode" tar
-		      ((:commit . "e88d69d1fd93f166d8b31e02790a1d241fea44aa")
+		      ((:commit . "391f507269f4f243d81ebdc1f5d43388dc54bc2f")
 		       (:authors
 			("Yuri D'Elia" . "wavexx@thregr.org"))
 		       (:maintainers
@@ -46375,13 +46377,13 @@
 	     (:keywords "extensions")
 	     (:url . "https://github.com/ecraven/no-emoji"))])
  (no-littering .
-	       [(0 1 0 1 -4 20230606 1440)
+	       [(0 1 0 1 -4 20230611 1403)
 		((emacs
 		  (25 1))
 		 (compat
 		  (29 1 4 1)))
 		"Help keeping ~/.config/emacs clean" tar
-		((:commit . "8f3934a965ce66f897593a8400cf426dc20e5bd5")
+		((:commit . "b9c69118991070814081459238ee74857ec99ad9")
 		 (:authors
 		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		 (:maintainers
