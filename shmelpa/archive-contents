@@ -43921,11 +43921,11 @@
 	   (:maintainer "Yann Hodique" . "yann.hodique@gmail.com")
 	   (:keywords "lisp" "testing"))])
  (modaled .
-	  [(0 3 0 1 -4 20230602 1538)
+	  [(0 3 1 1 -4 20230612 255)
 	   ((emacs
 	     (25 1)))
 	   "Build your own minor modes for modal editing" tar
-	   ((:commit . "2ebe985f8b170b101f4f8de5f833ba5718761638")
+	   ((:commit . "6185171ddf51a877604002047dcd662cf58c9242")
 	    (:authors
 	     ("DCsunset"))
 	    (:maintainers
@@ -46961,6 +46961,19 @@
 	     (:maintainer "Doug Davis" . "ddavis@ddavis.io")
 	     (:keywords "convenience")
 	     (:url . "https://github.com/douglasdavis/numpydoc.el"))])
+ (nushell-mode .
+	       [(0 1 0 1 -4 20230611 1928)
+		((emacs
+		  (24 4)))
+		"Major mode for nushell scripts" tar
+		((:commit . "14dcab6491f3cb5f860ff9331a2baf12bb67ab9a")
+		 (:authors
+		  ("Azzam S.A" . "vcs@azzamsa.com"))
+		 (:maintainers
+		  ("Azzam S.A" . "vcs@azzamsa.com"))
+		 (:maintainer "Azzam S.A" . "vcs@azzamsa.com")
+		 (:keywords "languages" "unix")
+		 (:url . "https://github.com/mrkkrp/nushell-mode"))])
  (nv-delete-back .
 		 [(0 0 3 1 -4 20170224 1249)
 		  ((emacs
