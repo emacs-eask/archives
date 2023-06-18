@@ -46608,6 +46608,21 @@
 			("Eric Sessoms" . "esessoms@protonmail.com"))
 		       (:maintainer "Eric Sessoms" . "esessoms@protonmail.com")
 		       (:url . "https://gitlab.com/esessoms/nofrils-theme"))])
+ (noir-mode .
+	    [(0 0 2 1 -4 20230613 1526)
+	     ((emacs
+	       (25 1))
+	      (rust-mode
+	       (1 0 5)))
+	     "Description" tar
+	     ((:commit . "412a7807e569ee08fff8fe1197b699fb29c0f49d")
+	      (:authors
+	       ("Hamza Hamud"))
+	      (:maintainers
+	       ("Hamza Hamud"))
+	      (:maintainer "Hamza Hamud")
+	      (:keywords "languages")
+	      (:url . "https://github.com/hhamud/noir-mode"))])
  (nord-theme .
 	     [(0 5 0 1 -4 20230311 1131)
 	      ((emacs
@@ -47693,6 +47708,23 @@
 		    (:maintainer "Musa Al-hassy" . "alhassy@gmail.com")
 		    (:keywords "literate programming" "reproducible research" "org" "convenience")
 		    (:url . "https://github.com/alhassy/ob-latex-as-png"))])
+ (ob-lesim .
+	   [(0 2 1 -4 20230618 1923)
+	    ((emacs
+	      (28 1))
+	     (org
+	      (9 3))
+	     (lesim-mode
+	      (0 3 3)))
+	    "Org-babel functions for lesim-mode" tar
+	    ((:commit . "b6afa93969bd40ebc5a7a8d997137833e4424518")
+	     (:authors
+	      ("Stefano Ghirlanda" . "drghirlanda@gmail.com"))
+	     (:maintainers
+	      ("Stefano Ghirlanda" . "drghirlanda@gmail.com"))
+	     (:maintainer "Stefano Ghirlanda" . "drghirlanda@gmail.com")
+	     (:keywords "languages" "tools")
+	     (:url . "https://github.com/drghirlanda/ob-lesim"))])
  (ob-lfe .
 	 [(0 0 1 1 -4 20170725 1420)
 	  ((org
@@ -54380,6 +54412,19 @@
 	      ("Kentaro Kuribayashi" . "kentarok@gmail.com"))
 	     (:maintainer "Kentaro Kuribayashi" . "kentarok@gmail.com")
 	     (:keywords "emacs" "perl"))])
+ (persist-state .
+		[(0 2 1 -4 20230618 2016)
+		 ((emacs
+		   (28 2)))
+		 "Regularly persist bookmarks, history, recent files and more" tar
+		 ((:commit . "757a6049723b777930fda220234c10f315cd05bb")
+		  (:authors
+		   ("Bram Schoenmakers" . "me@bramschoenmakers.nl"))
+		  (:maintainers
+		   ("Bram Schoenmakers" . "me@bramschoenmakers.nl"))
+		  (:maintainer "Bram Schoenmakers" . "me@bramschoenmakers.nl")
+		  (:keywords "convenience")
+		  (:url . "https://codeberg.org/bram85/emacs-persist-state.git"))])
  (persistent-overlays .
 		      [(0 9 1 -4 20161128 700)
 		       nil "Minor mode to store selected overlays to be loaded later" tar
@@ -57055,7 +57100,7 @@
 			(:keywords "project" "convenience")
 			(:url . "https://github.com/zonuexe/projectile-variable"))])
  (projection .
-	     [(0 1 1 -4 20230603 1248)
+	     [(0 1 1 -4 20230617 2151)
 	      ((emacs
 		(29))
 	       (project
@@ -57063,7 +57108,7 @@
 	       (compat
 		(29 1 4 1)))
 	      "Project type support for `project'" tar
-	      ((:commit . "b53085ec53b01ccdd4305a34865cbfcf52770407")
+	      ((:commit . "e62aff4eb4a348e5f759ff972576d7c21c92f396")
 	       (:authors
 		("Mohsin Kaleem" . "mohkale@kisara.moe"))
 	       (:maintainers
@@ -57072,7 +57117,7 @@
 	       (:keywords "project" "convenience")
 	       (:url . "https://github.com/mohkale/projection"))])
  (projection-multi .
-		   [(0 1 1 -4 20230529 1035)
+		   [(0 1 1 -4 20230617 2151)
 		    ((emacs
 		      (29))
 		     (projection
@@ -57080,7 +57125,7 @@
 		     (compile-multi
 		      (0 3)))
 		    "Projection integration for `compile-multi'" tar
-		    ((:commit . "917ac108a698056b819e31e7d06e8520150dac59")
+		    ((:commit . "e62aff4eb4a348e5f759ff972576d7c21c92f396")
 		     (:authors
 		      ("Mohsin Kaleem" . "mohkale@kisara.moe"))
 		     (:maintainers
@@ -62350,11 +62395,11 @@
 	       (:maintainer "Ian Eure" . "ian.eure@gmail.com")
 	       (:keywords "unix" "tools" "processes"))])
  (shell-maker .
-	      [(0 25 1 1 -4 20230604 909)
+	      [(0 26 1 1 -4 20230618 2028)
 	       ((emacs
 		 (27 1)))
 	       "Interaction mode for making comint shells" tar
-	       ((:commit . "5ae92d7d43b9dc2d1f1de6d076b59fc6cbaadcd8")
+	       ((:commit . "5a25d2ed2d5bd4f3e034a692a80a875313d7af53")
 		(:authors
 		 ("Alvaro Ramirez https://xenodium.com"))
 		(:maintainers
@@ -64535,6 +64580,16 @@
 	       ("Syohei YOSHIDA" . "syohex@gmail.com"))
 	      (:maintainer "Syohei YOSHIDA" . "syohex@gmail.com")
 	      (:url . "https://github.com/syohex/emacs-sourcemap"))])
+ (sourcepawn-mode .
+		  [(0 3 -4 20230613 2043)
+		   nil "SourcePawn major mode" tar
+		   ((:commit . "41b3c5a263cb8d02d82a9146ccf8b2e1e443407a")
+		    (:authors
+		     ("Aaron Griffith" . "aargri@gmail.com"))
+		    (:maintainers
+		     ("Aaron Griffith" . "aargri@gmail.com"))
+		    (:maintainer "Aaron Griffith" . "aargri@gmail.com")
+		    (:url . "http://gammalevel.com/teamfortress2/sourcepawn-mode"))])
  (sourcerer-theme .
 		  [(0 1 0 1 -4 20161014 1625)
 		   nil "A version of sourcerer by xero" tar
