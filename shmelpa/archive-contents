@@ -6746,13 +6746,13 @@
 	    (:keywords "unicode" "character" "ucs")
 	    (:url . "https://github.com/lateau/charmap"))])
  (chatgpt-shell .
-		[(0 43 1 1 -4 20230614 719)
+		[(0 44 1 1 -4 20230618 2028)
 		 ((emacs
 		   (27 1))
 		  (shell-maker
 		   (0 25 1)))
 		 "ChatGPT shell + buffer insert commands" tar
-		 ((:commit . "8aafcaf3d661306407c9a8e839736ba1f3824069")
+		 ((:commit . "5a25d2ed2d5bd4f3e034a692a80a875313d7af53")
 		  (:authors
 		   ("Alvaro Ramirez https://xenodium.com"))
 		  (:maintainers
@@ -14486,6 +14486,20 @@
 	   (:maintainer "r0man" . "roman@burningswell.com")
 	   (:keywords "docopt" "tools" "processes")
 	   (:url . "https://github.com/r0man/docopt.el"))])
+ (docsim .
+	 [(0 1 0 1 -4 20230613 2024)
+	  ((emacs
+	    (24 4))
+	   (org
+	    (8 0)))
+	  "Find notes that are textually similar to this one" tar
+	  ((:commit . "f8b8ecc3aef5ffe6acdcf3a40fb4c13f2c03b593")
+	   (:authors
+	    ("Harry R. Schwartz" . "hello@harryrschwartz.com"))
+	   (:maintainers
+	    ("Harry R. Schwartz" . "hello@harryrschwartz.com"))
+	   (:maintainer "Harry R. Schwartz" . "hello@harryrschwartz.com")
+	   (:url . "https://github.com/hrs/docsim.el"))])
  (docstr .
 	 [(5 7 0 1 -4 20221231 1701)
 	  ((emacs
@@ -24727,11 +24741,13 @@
 		 (:maintainer "Steve Purcell" . "steve@sanityinc.com")
 		 (:url . "https://github.com/purcell/flymake-ruby"))])
  (flymake-ruff .
-	       [(0 1 0 1 -4 20230618 1600)
+	       [(0 1 0 1 -4 20230618 1852)
 		((emacs
-		  (26 1)))
+		  (26 1))
+		 (project
+		  (0 3 0)))
 		"A flymake plugin for python files using ruff" tar
-		((:commit . "e1c52b076a7448198054e02d1f166e3160e5f260")
+		((:commit . "31a7635da27dada872b28ad7adfa0df622438863")
 		 (:authors
 		  ("Erick Navarro" . "erick@navarro.io"))
 		 (:maintainers
@@ -28555,6 +28571,19 @@
 	    (:maintainer "Damien Cassou" . "damien@cassou.me")
 	    (:keywords "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/desktop-environment"))])
+ (gpr-ts-mode .
+	      [(0 5 0 1 -4 20230613 1237)
+	       ((emacs
+		 (29)))
+	       "Tree-sitter support for GNAT project" tar
+	       ((:commit . "b5c8419f3ff3e224aec922083b83654c77481e65")
+		(:authors
+		 ("Troy Brown" . "brownts@troybrown.dev"))
+		(:maintainers
+		 ("Troy Brown" . "brownts@troybrown.dev"))
+		(:maintainer "Troy Brown" . "brownts@troybrown.dev")
+		(:keywords "gpr" "gnat" "ada" "languages" "tree-sitter")
+		(:url . "https://github.com/brownts/gpr-ts-mode"))])
  (gpr-yasnippets .
 		 [(0 5 0 1 -4 20230516 627)
 		  ((emacs
@@ -28597,13 +28626,13 @@
 	  (:keywords "comm" "convenience")
 	  (:url . "https://github.com/antonhibl/gptai"))])
  (gptel .
-	[(0 3 5 1 -4 20230606 423)
+	[(0 3 5 1 -4 20230618 1910)
 	 ((emacs
 	   (27 1))
 	  (transient
 	   (0 4 0)))
 	 "A simple ChatGPT client" tar
-	 ((:commit . "20af9a8b99c57bc22b8af1e0baa8784b0b521813")
+	 ((:commit . "e6df1a5e335620c2c6729ad36c4938cd27364176")
 	  (:authors
 	   ("Karthik Chikmagalur"))
 	  (:maintainers
@@ -31717,6 +31746,20 @@
 	       ("Markus Hauck" . "markus1189@gmail.com"))
 	      (:maintainer "Markus Hauck" . "markus1189@gmail.com")
 	      (:keywords "helm"))])
+ (helm-project .
+	       [(0 1 1 -4 20230608 1212)
+		((emacs
+		  (28 1))
+		 (helm
+		  (3 9 0)))
+		"Helm source for project management" tar
+		((:commit . "1e0cd563b2470ab7dbfc47a8cbe7dafd030dce70")
+		 (:authors
+		  ("Christopher McCloud"))
+		 (:maintainers
+		  ("Christopher McCloud"))
+		 (:maintainer "Christopher McCloud")
+		 (:url . "https://github.com/cmccloud/helm-project"))])
  (helm-project-persist .
 		       [(1 0 0 1 -4 20151210 1543)
 			((helm
