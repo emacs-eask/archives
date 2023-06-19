@@ -18186,11 +18186,11 @@
 		   (:keywords "tools" "convenience")
 		   (:url . "https://github.com/cgshep/encrypt-region"))])
  (engine-mode .
-	      [(2 2 3 1 -4 20230516 1526)
-	       ((cl-lib
-		 (0 5)))
-	       "Define and query search engines from within Emacs" tar
-	       ((:commit . "fae1bd4fdf7d102744505bf2a8f4dc88d5b8f2fd")
+	      [(2 2 4 1 -4 20230619 1326)
+	       ((emacs
+		 (24 3)))
+	       "Define and query search engines" tar
+	       ((:commit . "81d4ae1054dab2dbf81c1efbed50f27112dddbb1")
 		(:authors
 		 ("Harry R. Schwartz" . "hello@harryrschwartz.com"))
 		(:maintainers
@@ -25354,7 +25354,7 @@
 	      (:keywords "faces")
 	      (:url . "https://depp.brause.cc/form-feed"))])
  (format-all .
-	     [(0 5 0 1 -4 20230615 1839)
+	     [(0 5 0 1 -4 20230619 1115)
 	      ((emacs
 		(24 4))
 	       (inheritenv
@@ -25362,7 +25362,7 @@
 	       (language-id
 		(0 19)))
 	      "Auto-format C, C++, JS, Python, Ruby and 50 other languages" tar
-	      ((:commit . "2e02fc6d487c9e7eb482f09b5b2bfbd0f9f11d24")
+	      ((:commit . "cf303daef7adb03ecf2dcb250458c54ad9df5db7")
 	       (:authors
 		("Lassi Kortela" . "lassi@lassi.io"))
 	       (:maintainers
