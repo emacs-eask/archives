@@ -9891,6 +9891,21 @@
 		  (:maintainer "mohsin kaleem" . "mohkale@kisara.moe")
 		  (:keywords "tools" "compile" "build")
 		  (:url . "https://github.com/mohkale/compile-multi"))])
+ (compile-multi-all-the-icons .
+			      [(0 1 1 -4 20230618 2022)
+			       ((emacs
+				 (28 0))
+				(all-the-icons-completion
+				 (0 0 1)))
+			       "Affixate `compile-multi' with icons" tar
+			       ((:commit . "0625042d50dd629c62af8cdc5457fa9d7179468e")
+				(:authors
+				 ("mohsin kaleem" . "mohkale@kisara.moe"))
+				(:maintainers
+				 ("mohsin kaleem" . "mohkale@kisara.moe"))
+				(:maintainer "mohsin kaleem" . "mohkale@kisara.moe")
+				(:keywords "tools" "compile" "build")
+				(:url . "https://github.com/mohkale/compile-multi"))])
  (compiler-explorer .
 		    [(0 2 0 1 -4 20221108 825)
 		     ((emacs
@@ -10125,6 +10140,23 @@
 		     ("mohsin kaleem" . "mohkale@kisara.moe"))
 		    (:maintainer "mohsin kaleem" . "mohkale@kisara.moe")
 		    (:url . "https://github.com/mohkale/consult-company"))])
+ (consult-compile-multi .
+			[(0 1 1 -4 20230618 2022)
+			 ((emacs
+			   (28 0))
+			  (compile-multi
+			   (0 3))
+			  (consult
+			   (0 34)))
+			 "Consulting read support for `compile-multi'" tar
+			 ((:commit . "0625042d50dd629c62af8cdc5457fa9d7179468e")
+			  (:authors
+			   ("mohsin kaleem" . "mohkale@kisara.moe"))
+			  (:maintainers
+			   ("mohsin kaleem" . "mohkale@kisara.moe"))
+			  (:maintainer "mohsin kaleem" . "mohkale@kisara.moe")
+			  (:keywords "tools" "compile" "build")
+			  (:url . "https://github.com/mohkale/compile-multi"))])
  (consult-dash .
 	       [(0 5 1 -4 20230529 1419)
 		((emacs
@@ -64761,11 +64793,11 @@
 		     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		     (:url . "https://codeberg.org/ideasman42/emacs-spatial-navigate"))])
  (spdx .
-       [(0 1 0 1 -4 20230614 117)
+       [(0 1 0 1 -4 20230619 118)
 	((emacs
 	  (24 4)))
 	"Insert SPDX license and copyright headers" tar
-	((:commit . "20bfbbd4aa226fc52b0f4a04b58cce348ad39cd6")
+	((:commit . "5c3374cb5b54159e20b658d4f0728db94e4389e1")
 	 (:authors
 	  ("Zhiwei Chen" . "condy0919@gmail.com"))
 	 (:maintainers
