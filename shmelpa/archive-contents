@@ -3467,6 +3467,20 @@
 	      (:maintainer "Tran Anh Vu")
 	      (:keywords "lisp" "theme" "emacs")
 	      (:url . "https://github.com/vutran1710/Ayu-Theme-Emacs"))])
+ (babashka .
+	   [(1 0 3 1 -4 20230618 2025)
+	    ((emacs
+	      (27 1))
+	     (parseedn
+	      (1 1 0)))
+	    "Babashka Tasks Interface" tar
+	    ((:commit . "2b71b3d5a9939836f1224817f0acc1ac7512ff24")
+	     (:authors
+	      ("Mykhaylo Bilyanskyy" . "mb@m1k.pw"))
+	     (:maintainers
+	      ("Mykhaylo Bilyanskyy" . "mb@m1k.pw"))
+	     (:maintainer "Mykhaylo Bilyanskyy" . "mb@m1k.pw")
+	     (:url . "https://github.com/licht1stein/babashka.el"))])
  (babel .
 	[(1 4 1 -4 20210612 640)
 	 nil "interface to web translation services such as Babelfish" tar
@@ -4592,13 +4606,11 @@
 	    (:maintainer "Artem Malyshev" . "proofit404@gmail.com")
 	    (:url . "https://github.com/proofit404/blacken"))])
  (blackjack .
-	    [(1 0 3 1 -4 20230611 1412)
+	    [(1 0 3 1 -4 20230619 5)
 	     ((emacs
-	       (26 2))
-	      (dash
-	       (2 19 1)))
+	       (26 2)))
 	     "The game of Blackjack" tar
-	     ((:commit . "85ba3094c7171e7cec02817f36c4f578f260765d")
+	     ((:commit . "0d0e8fd54ab2ceec428dc9228403ff4686b7bacc")
 	      (:authors
 	       ("Greg Donald" . "gdonald@gmail.com"))
 	      (:maintainers
