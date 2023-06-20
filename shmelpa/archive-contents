@@ -9981,7 +9981,7 @@
 	       (:keywords "deferred" "async" "concurrent")
 	       (:url . "https://github.com/kiwanami/emacs-deferred/blob/master/README-concurrent.markdown"))])
  (conda .
-	[(0 4 1 -4 20230528 2355)
+	[(0 4 1 -4 20230620 1745)
 	 ((emacs
 	   (25 1))
 	  (pythonic
@@ -9993,7 +9993,7 @@
 	  (f
 	   (0 18 2)))
 	 "Work with your conda environments" tar
-	 ((:commit . "f3ea3876eecd00a1fca16fd7fd68e56e3beac87c")
+	 ((:commit . "6a6a27dad7ab696b41b54a1cb7591ca489133fec")
 	  (:authors
 	   ("Rami Chowdhury" . "rami.chowdhury@gmail.com"))
 	  (:maintainers
@@ -14531,13 +14531,13 @@
 	   (:keywords "docopt" "tools" "processes")
 	   (:url . "https://github.com/r0man/docopt.el"))])
  (docsim .
-	 [(0 1 0 1 -4 20230619 251)
+	 [(0 1 0 1 -4 20230620 1518)
 	  ((emacs
 	    (24 4))
 	   (org
 	    (8 0)))
 	  "Search and compare notes with a local search engine" tar
-	  ((:commit . "d0345061658de86ebb40a8e0db7f83e33d638dd8")
+	  ((:commit . "fb9dd7f2d7aa3d09823701d923ed7bff12cabb5d")
 	   (:authors
 	    ("Harry R. Schwartz" . "hello@harryrschwartz.com"))
 	   (:maintainers
@@ -16185,13 +16185,13 @@
 	       (:keywords "convenience" "languages" "tools")
 	       (:url . "https://github.com/dantecatalfamo/ejson-mode"))])
  (ekg .
-      [(0 3 1 1 -4 20230613 1319)
+      [(0 3 2 1 -4 20230620 1807)
        ((triples
-	 (0 3 1))
+	 (0 3 2))
 	(emacs
 	 (28 1)))
        "A system for recording and linking information" tar
-       ((:commit . "edd6fa2ba7a0b83a0cc26662cc9b96e0ae9351a5")
+       ((:commit . "9fa918ae4b3a7a8541e570fc358174346d875e85")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
 	(:maintainers
@@ -31346,11 +31346,11 @@
 		  (:maintainer "Julien BLANCHARD" . "julien@sideburns.eu")
 		  (:url . "https://github.com/julienXX/helm-lobste.rs"))])
  (helm-ls-git .
-	      [(0 1 0 1 -4 20230617 1533)
+	      [(0 1 0 1 -4 20230620 1632)
 	       ((helm
 		 (1 7 8)))
 	       "list git files." tar
-	       ((:commit . "91e4ee3bcfe8a8a4c46124aff7803623edd8accd"))])
+	       ((:commit . "ac269326d695b39fda30d8b6590e5e23fe64614c"))])
  (helm-ls-hg .
 	     [(0 1 0 1 -4 20150909 543)
 	      ((helm
@@ -33852,7 +33852,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 0 1 1 -4 20230619 2253)
+	     [(0 0 1 1 -4 20230620 1851)
 	      ((emacs
 		(27 1))
 	       (map
@@ -33864,7 +33864,7 @@
 	       (persist
 		(0 5)))
 	      "P2P filesystem in Emacs" tar
-	      ((:commit . "e0da2e84e4e1787439e34b46266e784d38581f80")
+	      ((:commit . "8ba6994293f8475412b87817df666ce896b8f7d7")
 	       (:authors
 		("Joseph Turner"))
 	       (:maintainers
@@ -41097,7 +41097,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20230620 532)
+	   [(8 0 1 1 -4 20230620 1628)
 	    ((emacs
 	      (26 3))
 	     (dash
@@ -41115,7 +41115,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "a62fb2015f025c16e858d37824beb961c0ac8ae5")
+	    ((:commit . "f61671be7a1afc66603abb93e594d41cede825da")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainers
@@ -41321,7 +41321,7 @@
 		    (:keywords "language" "tools")
 		    (:url . "https://github.com/merrickluo/lsp-tailwindcss"))])
  (lsp-treemacs .
-	       [(0 4 1 -4 20230504 516)
+	       [(0 4 1 -4 20230620 1844)
 		((emacs
 		  (26 1))
 		 (dash
@@ -41335,7 +41335,7 @@
 		 (lsp-mode
 		  (6 0)))
 		"LSP treemacs" tar
-		((:commit . "eeb96b05e677147cf40292b86a1e5e8f73a8a586")
+		((:commit . "323b4c9790f8f48c6dbce65d31dd969d1f55df49")
 		 (:authors
 		  ("Ivan Yonchovski"))
 		 (:maintainers
@@ -54648,13 +54648,13 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/ksqsf/pest-mode"))])
  (pet .
-      [(1 1 0 1 -4 20230423 2326)
+      [(1 1 0 1 -4 20230620 1653)
        ((emacs
 	 (26 1))
 	(f
 	 (0 6 0)))
        "Executable and virtualenv tracker for python-mode" tar
-       ((:commit . "2e5c777a835283ee4fe9eb20fd82114f348ba1f2")
+       ((:commit . "094b17a25e9e1fd4ab63c3120cce7a7ebb7410c9")
 	(:authors
 	 ("Jimmy Yuen Ho Wong" . "wyuenho@gmail.com"))
 	(:maintainers
@@ -70759,7 +70759,7 @@
 	       (:keywords "convenience" "usability" "url")
 	       (:url . "https://github.com/lujun9972/verify-url"))])
  (verilog-ext .
-	      [(0 1 0 1 -4 20230617 1422)
+	      [(0 1 0 1 -4 20230620 1641)
 	       ((emacs
 		 (28 1))
 		(verilog-mode
@@ -70787,7 +70787,7 @@
 		(async
 		 (1 9 7)))
 	       "SystemVerilog Extensions" tar
-	       ((:commit . "574aa4d84389d9d09fc1f0164ac63915082c3845")
+	       ((:commit . "59fdd4fed6cd2fd67d6d9b2ab1e3df889c3ef4b5")
 		(:authors
 		 ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 		(:maintainers
