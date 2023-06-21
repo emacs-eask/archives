@@ -13362,7 +13362,7 @@
 	       (:maintainer "Matus Goljer" . "matus.goljer@gmail.com")
 	       (:keywords "files"))])
  (dired-collapse .
-		 [(1 1 0 1 -4 20221127 1247)
+		 [(1 1 0 1 -4 20230621 1019)
 		  ((dash
 		    (2 10 0))
 		   (f
@@ -13370,7 +13370,7 @@
 		   (dired-hacks-utils
 		    (0 0 1)))
 		  "Collapse unique nested paths in dired listing" tar
-		  ((:commit . "41d3eb42195d9f0894c20d18cc8e722b099aa1c1")
+		  ((:commit . "874449d6fc98aee565e1715ec18acec3c1c2cafb")
 		   (:authors
 		    ("Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com"))
 		   (:maintainers
@@ -17413,9 +17413,9 @@
 	    (:keywords "html" "hypermedia" "tools" "webscale")
 	    (:url . "https://github.com/AdamNiederer/elquery"))])
  (elsa .
-       [(0 1 0 1 -4 20230318 2024)
+       [(0 1 0 1 -4 20230621 1005)
 	((emacs
-	  (25 1))
+	  (26 1))
 	 (trinary
 	  (0))
 	 (f
@@ -17425,9 +17425,15 @@
 	 (cl-lib
 	  (0 3))
 	 (lsp-mode
-	  (0)))
+	  (0))
+	 (ansi
+	  (0))
+	 (async
+	  (1 9 7))
+	 (lgr
+	  (0 1 0)))
 	"Emacs Lisp Static Analyser" tar
-	((:commit . "2aa912dcc7d3732ba04eb96ab1cd186565a48f98")
+	((:commit . "f719e2404ab6f3323df9341751469cb2e413e013")
 	 (:authors
 	  ("Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com"))
 	 (:maintainer "Mat\303\272\305\241 Goljer" . "matus.goljer@gmail.com")
@@ -27127,13 +27133,13 @@
 		    (:keywords "tools" "gtm" "productivity" "time")
 		    (:url . "https://github.com/c301/gtm-emacs-plugin"))])
  (git-timemachine .
-		  [(4 12 1 -4 20230413 620)
+		  [(4 12 1 -4 20230621 921)
 		   ((emacs
 		     (24 3))
 		    (transient
 		     (0 1 0)))
 		   "Walk through git revisions of a file" tar
-		   ((:commit . "13769fb603ae88c64566529eae4525ce88026e86")
+		   ((:commit . "bc8c7d7c22aeeced2510023b2e6c5d8ce8c574aa")
 		    (:authors
 		     ("Peter Stiernstr\303\266m" . "peter@stiernstrom.se"))
 		    (:maintainers
@@ -38309,7 +38315,7 @@
 	    (:maintainer "Damien Cassou" . "damien@cassou.me")
 	    (:url . "https://github.com/DamienCassou/khardel"))])
  (khoj .
-       [(0 6 2 1 -4 20230621 713)
+       [(0 6 2 1 -4 20230621 857)
 	((emacs
 	  (27 1))
 	 (transient
@@ -38317,7 +38323,7 @@
 	 (dash
 	  (2 19 1)))
 	"AI personal assistant for your digital brain" tar
-	((:commit . "69d4fa652500f54bd78ba42feaf99afb8aa76467")
+	((:commit . "6d4aad57e1944e51934da59597096aa568cdaa15")
 	 (:authors
 	  ("Debanjum Singh Solanky" . "debanjum@gmail.com"))
 	 (:maintainers
@@ -54648,13 +54654,13 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/ksqsf/pest-mode"))])
  (pet .
-      [(1 1 0 1 -4 20230620 1653)
+      [(1 1 0 1 -4 20230621 814)
        ((emacs
 	 (26 1))
 	(f
 	 (0 6 0)))
        "Executable and virtualenv tracker for python-mode" tar
-       ((:commit . "094b17a25e9e1fd4ab63c3120cce7a7ebb7410c9")
+       ((:commit . "6e2621fff65623e679ba901ee4b74a32d59986ae")
 	(:authors
 	 ("Jimmy Yuen Ho Wong" . "wyuenho@gmail.com"))
 	(:maintainers
