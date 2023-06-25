@@ -58445,6 +58445,19 @@
 	[(0 1 0 1 -4 20181106 1301)
 	 nil "enhanced support for editing and running Scheme code" tar
 	 ((:commit . "2146805ce2b5a9b155d73929986f11e713787e26"))])
+ (quakec-mode .
+	      [(0 1 1 -4 20230619 947)
+	       ((emacs
+		 (27 1)))
+	       "Major mode for QuakeC" tar
+	       ((:commit . "7b5d13fbdd9dfdc319ee8db1f1e954e00bdfce54")
+		(:authors
+		 ("Vladimir Kazanov"))
+		(:maintainers
+		 ("Vladimir Kazanov"))
+		(:maintainer "Vladimir Kazanov")
+		(:keywords "games" "languages")
+		(:url . "https://github.com/vkazanov/quakec-mode"))])
  (quarto-mode .
 	      [(0 0 3 1 -4 20221005 1632)
 	       ((emacs
