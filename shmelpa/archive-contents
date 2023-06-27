@@ -10081,13 +10081,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 34 1 -4 20230626 1154)
+	  [(0 34 1 -4 20230627 1801)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (29 1 4 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "9ba8a9e287a9b6381338218077ec07cb77819684")
+	   ((:commit . "e154571fe329d5c12576f5299a79a932be35bcad")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainers
@@ -16515,11 +16515,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 4 2 -4 20230620 1909)
+	[(1 4 2 -4 20230627 1916)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "d7310740c0fe4e466a9531852511d41d1938f77a")
+	 ((:commit . "e9d5b616cc71cbbe244f7f3eda189edd69724f87")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainers
@@ -16846,7 +16846,7 @@
 		   (:maintainer "Korytov Pavel" . "thexcloud@gmail.com")
 		   (:url . "https://github.com/SqrtMinusOne/elfeed-summary.el"))])
  (elfeed-tube .
-	      [(0 15 1 -4 20230430 546)
+	      [(0 15 1 -4 20230627 1930)
 	       ((emacs
 		 (27 1))
 		(elfeed
@@ -16854,7 +16854,7 @@
 		(aio
 		 (1 0)))
 	       "YouTube integration for Elfeed" tar
-	       ((:commit . "3ac12d76402bf192de8ae3b18997f9a52726379f")
+	       ((:commit . "3f801e340ee92e4850486fea5f08bcbdbc89254c")
 		(:authors
 		 ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
 		(:maintainers
@@ -20543,11 +20543,11 @@
 			   (:maintainer "Filipe Silva" . "filipe.silva@gmail.com")
 			   (:url . "https://github.com/ninrod/evil-string-inflection"))])
  (evil-surround .
-		[(1 0 4 1 -4 20221229 1650)
+		[(1 0 4 1 -4 20230627 2052)
 		 ((evil
 		   (1 2 12)))
 		 "emulate surround.vim from Vim" tar
-		 ((:commit . "f273821f575ace519066fb106ee45a5b8577475f")
+		 ((:commit . "4a21d756b76a50e0c0619555836c9aa98f103d3d")
 		  (:authors
 		   ("Tim Harper <timcharper at gmail dot com>")
 		   ("Vegard \303\230ye <vegard_oye at hotmail dot com>"))
@@ -33874,7 +33874,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 0 1 1 -4 20230627 244)
+	     [(0 0 1 1 -4 20230627 2112)
 	      ((emacs
 		(27 1))
 	       (map
@@ -33886,7 +33886,7 @@
 	       (persist
 		(0 5)))
 	      "P2P filesystem in Emacs" tar
-	      ((:commit . "5df9e3445da1aeac5531aa5bb38565250b13867d")
+	      ((:commit . "5a17642bccd17a5c48ad4f120a862ffdac8595eb")
 	       (:authors
 		("Joseph Turner"))
 	       (:maintainers
@@ -37648,11 +37648,13 @@
 	     (:keywords "jumplist" "vim")
 	     (:url . "https://github.com/ganmacs/jumplist"))])
  (jupyter .
-	  [(0 8 2 1 -4 20230608 1504)
+	  [(0 8 2 1 -4 20230627 2030)
 	   ((emacs
 	     (26))
 	    (cl-lib
 	     (0 5))
+	    (org
+	     (9 1 6))
 	    (zmq
 	     (0 10 10))
 	    (simple-httpd
@@ -37660,7 +37662,7 @@
 	    (websocket
 	     (1 9)))
 	   "Jupyter" tar
-	   ((:commit . "1fb77da2d394b905f9dfa325a9d6ef9e2cf52541")
+	   ((:commit . "2f14f2e2531fc4ebfde5c3b5ae60c1d9c7a2b26b")
 	    (:authors
 	     ("Nathaniel Nicandro" . "nathanielnicandro@gmail.com"))
 	    (:maintainers
