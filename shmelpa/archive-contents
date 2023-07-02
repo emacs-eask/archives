@@ -2386,6 +2386,19 @@
 	   (:maintainers
 	    ("Phillip Lord" . "phillip.lord@russet.org.uk"))
 	   (:maintainer "Phillip Lord" . "phillip.lord@russet.org.uk"))])
+ (astro-ts-mode .
+		[(2 0 0 1 -4 20230626 1250)
+		 ((emacs
+		   (29)))
+		 "Major mode for editing Astro templates" tar
+		 ((:commit . "da4d4078ee9a5df01d2b02626d47cbe779543e19")
+		  (:authors
+		   ("Ruby Iris Juric" . "ruby@srxl.me"))
+		  (:maintainers
+		   ("Ruby Iris Juric" . "ruby@srxl.me"))
+		  (:maintainer "Ruby Iris Juric" . "ruby@srxl.me")
+		  (:keywords "languages")
+		  (:url . "https://github.com/Sorixelle/astro-ts-mode"))])
  (astyle .
 	 [(0 1 0 1 -4 20200328 616)
 	  ((emacs
@@ -16089,6 +16102,23 @@
 	     (:maintainer "Adam Beckmeyer" . "adam_git@thebeckmeyers.xyz")
 	     (:keywords "convenience" "languages")
 	     (:url . "https://github.com/non-Jedi/eglot-jl"))])
+ (eglot-tempel .
+	       [(0 5 1 -4 20230626 1004)
+		((eglot
+		  (1 9))
+		 (tempel
+		  (0 5))
+		 (emacs
+		  (24 4)))
+		"Use eglot as inline template expander" tar
+		((:commit . "70fee6ac33df7a6c5cce967005766b6702a9e9a5")
+		 (:authors
+		  ("Jeff Walsh" . "fejfighter@gmail.com"))
+		 (:maintainers
+		  ("Jeff Walsh" . "fejfighter@gmail.com"))
+		 (:maintainer "Jeff Walsh" . "fejfighter@gmail.com")
+		 (:keywords "convenience" "languages" "tools")
+		 (:url . "https://github.com/fejfighter/eglot-tempel"))])
  (ego .
       [(0 9 1 -4 20200803 1101)
        ((emacs
@@ -19812,7 +19842,7 @@
 			 (:keywords "colemak" "evil")
 			 (:url . "https://github.com/bmallred/evil-colemak-minimal"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20230615 404)
+		  [(0 4 1 1 -4 20230702 1846)
 		   ((emacs
 		     (26 3))
 		    (evil
@@ -19820,7 +19850,7 @@
 		    (annalist
 		     (1 0)))
 		   "A set of keybindings for Evil mode" tar
-		   ((:commit . "4a7d924dbd851ef1b2ccb85778be6e7a6a81ebd4")
+		   ((:commit . "1f34f5ec4ee8e7945ecd1f885f18789526a905ee")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainers
@@ -24529,6 +24559,18 @@
 			   ("Steve Purcell" . "steve@sanityinc.com"))
 			  (:maintainer "Steve Purcell" . "steve@sanityinc.com")
 			  (:url . "https://github.com/purcell/flymake-haskell-multi"))])
+ (flymake-hledger .
+		  [(0 1 0 1 -4 20230626 1926)
+		   ((emacs
+		     (28 2)))
+		   "Flymake module to check hledger journals" tar
+		   ((:commit . "ed2470610f492f6f6b75dac1c38aa3885fefdc77")
+		    (:authors
+		     ("Damien Cassou" . "damien@cassou.me"))
+		    (:maintainers
+		     ("Damien Cassou" . "damien@cassou.me"))
+		    (:maintainer "Damien Cassou" . "damien@cassou.me")
+		    (:url . "https://github.com/DamienCassou/flymake-hledger"))])
  (flymake-hlint .
 		[(0 1 -4 20170723 146)
 		 ((flymake-easy
@@ -29445,6 +29487,19 @@
 	       (:maintainer "Basil L. Contovounesios" . "contovob@tcd.ie")
 	       (:keywords "comm" "hypermedia" "news")
 	       (:url . "https://github.com/clarete/hackernews.el"))])
+ (haki-theme .
+	     [(0 1 1 -4 20230702 1709)
+	      ((emacs
+		(27 1)))
+	      "" tar
+	      ((:commit . "7499124df763ff348643b1f9210fb517993ec611")
+	       (:authors
+		("Dilip"))
+	       (:maintainers
+		("Dilip"))
+	       (:maintainer "Dilip")
+	       (:keywords "faces" "theme" "accessibility")
+	       (:url . "https://github.com/idlip/haki"))])
  (hal-mode .
 	   [(0 1 1 -4 20160704 1746)
 	    nil "Major mode for editing HAL files" tar
