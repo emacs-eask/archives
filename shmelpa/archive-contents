@@ -43672,6 +43672,20 @@
 	      (:maintainer "yzprofile" . "yzprofiles@gmail.com")
 	      (:keywords "mode-line" "powerline" "theme")
 	      (:url . "https://github.com/yzprofile/micgoline"))])
+ (micromamba .
+	     [(0 1 0 1 -4 20230620 845)
+	      ((emacs
+		(27 1))
+	       (pythonic
+		(0 1 0)))
+	      "A library for working with micromamba environments" tar
+	      ((:commit . "11b1f9653e2d5d179aab9bb502b961fed3e2e30b")
+	       (:authors
+		("Korytov Pavel" . "thexcloud@gmail.com"))
+	       (:maintainers
+		("Korytov Pavel" . "thexcloud@gmail.com"))
+	       (:maintainer "Korytov Pavel" . "thexcloud@gmail.com")
+	       (:url . "https://github.com/SqrtMinusOne/micromamba.el"))])
  (migemo .
 	 [(1 9 2 1 -4 20200913 12)
 	  ((cl-lib
@@ -51762,6 +51776,23 @@
 		  (:maintainer "Lucien Cartier-Tilet" . "lucien@phundrak.com")
 		  (:keywords "convenience")
 		  (:url . "https://labs.phundrak.com/phundrak/org-unique-id"))])
+ (org-upcoming-modeline .
+			[(0 1 3 1 -4 20230626 708)
+			 ((emacs
+			   (26 1))
+			  (ts
+			   (0 2))
+			  (org-ql
+			   (0 6)))
+			 "Show next org event in mode line" tar
+			 ((:commit . "4c02f9f3af872b81968ca6dd833c94874ddc4f24")
+			  (:authors
+			   ("Kevin Brubeck Unhammer" . "unhammer@fsfe.org"))
+			  (:maintainers
+			   ("Kevin Brubeck Unhammer" . "unhammer@fsfe.org"))
+			  (:maintainer "Kevin Brubeck Unhammer" . "unhammer@fsfe.org")
+			  (:keywords "convenience" "calendar")
+			  (:url . "https://github.com/unhammer/org-upcoming-modeline"))])
  (org-variable-pitch .
 		     [(2 1 1 -4 20220220 1757)
 		      ((emacs
