@@ -5474,6 +5474,18 @@
 		(:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
 		(:keywords "convenience" "buffer" "tool" "wrap")
 		(:url . "https://github.com/jcs-elpa/buffer-wrap"))])
+ (bufferbin .
+	    [(1 0 1 -4 20230702 1903)
+	     ((emacs
+	       (26 1)))
+	     "Quick mouse access to buffers" tar
+	     ((:commit . "1a3a5b8706a9d46391d89243f2ea041fbf6adb96")
+	      (:authors
+	       ("Ryan Walsh" . "blueridge-data@github"))
+	      (:maintainers
+	       ("Ryan Walsh" . "blueridge-data@github"))
+	      (:maintainer "Ryan Walsh" . "blueridge-data@github")
+	      (:url . "https://github.com/blueridge-data"))])
  (bufler .
 	 [(0 3 -1 1 -4 20221031 1852)
 	  ((emacs
@@ -6990,13 +7002,13 @@
 		   ((:commit . "ccc05f7ad96d3d1332727689bf6250443adc7ec0")
 		    (:url . "http://github.com/SavchenkoValeriy/emacs-chocolate-theme"))])
  (choice-program .
-		 [(0 10 1 -4 20201217 1751)
+		 [(0 10 1 -4 20220801 1839)
 		  ((emacs
 		    (26))
 		   (dash
 		    (2 17 0)))
 		  "Parameter based program" tar
-		  ((:commit . "b8b1b6c5568f8778783454d5747912487c8e69b8")
+		  ((:commit . "ae6dc9d3fcf020e46fdd41f2b6fe5ca52c12aa93")
 		   (:authors
 		    ("Paul Landes"))
 		   (:maintainers
@@ -16183,7 +16195,7 @@
 	       (:maintainer "Marian Schubert" . "marian.schubert@gmail.com")
 	       (:url . "http://github.com/maio/eink-emacs"))])
  (ejc-sql .
-	  [(0 4 1 1 -4 20230228 102)
+	  [(0 4 1 1 -4 20230702 2048)
 	   ((emacs
 	     (26 3))
 	    (clomacs
@@ -16193,7 +16205,7 @@
 	    (spinner
 	     (1 7 3)))
 	   "Emacs SQL client uses Clojure JDBC." tar
-	   ((:commit . "29308faad38e9cabd98fb5a8450df15db1e4a4cb")
+	   ((:commit . "cfb2a3b00d16c6b8575b84d4963ac0c21f91fa05")
 	    (:authors
 	     ("Kostafey" . "kostafey@gmail.com"))
 	    (:maintainers
@@ -33929,7 +33941,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 0 1 1 -4 20230702 552)
+	     [(0 0 1 1 -4 20230702 2129)
 	      ((emacs
 		(27 1))
 	       (map
@@ -33941,7 +33953,7 @@
 	       (persist
 		(0 5)))
 	      "P2P filesystem in Emacs" tar
-	      ((:commit . "0ee9d1f17c6e941b7f5941a816e97d3f997d74c2")
+	      ((:commit . "51e00d0a1c8f5b4461e754cc427192c36c651b10")
 	       (:authors
 		("Joseph Turner"))
 	       (:maintainers
@@ -34078,11 +34090,11 @@
 	      (:keywords ":" "tools")
 	      (:url . "https://github.com/RAttab/iasm-mode"))])
  (ibrowse .
-	  [(0 1 8 1 -4 20230123 737)
+	  [(0 1 8 1 -4 20230702 2040)
 	   ((emacs
 	     (27 1)))
 	   "Interact with your browser" tar
-	   ((:commit . "b42685528d7bb2ca968fbf536d8745838e633828")
+	   ((:commit . "1ae5ced39552ae75c83f345237241c10a2a586b1")
 	    (:authors
 	     ("Nicolas Graves" . "ngraves@ngraves.fr"))
 	    (:maintainers
@@ -46811,7 +46823,7 @@
 		   (:keywords "faces" "theme")
 		   (:url . "https://git.sr.ht/~lthms/colorless-themes.el"))])
  (norns .
-	[(0 0 1 1 -4 20220821 1614)
+	[(0 0 1 1 -4 20230702 2108)
 	 ((emacs
 	   (27 1))
 	  (dash
@@ -46825,7 +46837,7 @@
 	  (websocket
 	   (1 13)))
 	 "Interactive development environment for monome norns" tar
-	 ((:commit . "387c7ae65383f7e9ff7ae93250ef6cf0e2b1b71a")
+	 ((:commit . "b82aa3dbaef1216edcf06fd6db66abb17cd91a4a")
 	  (:keywords "processes" "terminals")
 	  (:url . "https://github.com/p3r7/norns.el"))])
  (northcode-theme .
@@ -53417,11 +53429,11 @@
 	     (:keywords "extensions" "tools")
 	     (:url . "https://github.com/zenspider/package"))])
  (package-build .
-		[(4 0 0 50 -4 20230615 1624)
+		[(4 0 0 50 -4 20230619 2318)
 		 ((emacs
 		   (26 1)))
 		 "Tools for assembling a package archive" tar
-		 ((:commit . "c9f743cc30a8752dbb8d948c536f198cd364de74")
+		 ((:commit . "c2a56f91982975b66c14be8e29ed422ed028842e")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		   ("Steve Purcell" . "steve@sanityinc.com")
@@ -62554,6 +62566,19 @@
 	    (:maintainer "Sebastian Monia" . "smonia@outlook.com")
 	    (:keywords "maint" "tool")
 	    (:url . "https://github.com/sebasmonia/sharper"))])
+ (shell-command-x .
+		  [(0 1 3 1 -4 20230702 1852)
+		   ((emacs
+		     (28 1)))
+		   "Extensions for shell commands" tar
+		   ((:commit . "416dad677314e3eec704d5b02594b5f8a7e7fd65")
+		    (:authors
+		     ("Eliza Velasquez"))
+		    (:maintainers
+		     ("Eliza Velasquez"))
+		    (:maintainer "Eliza Velasquez")
+		    (:keywords "convenience" "processes" "unix")
+		    (:url . "https://github.com/elizagamedev/shell-command-x.el"))])
  (shell-current-directory .
 			  [(0 1 1 -4 20140101 2354)
 			   nil "create new shell based on buffer directory" tar
@@ -70412,7 +70437,7 @@
 	    (:keywords "convenience" "customize" "font" "install" "ttf")
 	    (:url . "https://github.com/jcs-elpa/use-ttf"))])
  (ushin-shapes .
-	       [(0 2 0 1 -4 20230702 1111)
+	       [(0 2 0 1 -4 20230702 2210)
 		((emacs
 		  (27 1))
 		 (svg-tag-mode
@@ -70420,14 +70445,14 @@
 		 (svg-lib
 		  (0 2 5)))
 		"USHIN shapes in org-mode" tar
-		((:commit . "f82fa5487dffa5261ce1e043ce887ca605e69787")
+		((:commit . "30171af499d8117a2dbc3e978473793eced49bcb")
 		 (:authors
-		  ("Joseph Turner" . "joseph@breatheoutbreathe.in"))
+		  ("Joseph Turner" . "joseph@ushin.org"))
 		 (:maintainers
-		  ("Joseph Turner" . "joseph@breatheoutbreathe.in"))
-		 (:maintainer "Joseph Turner" . "joseph@breatheoutbreathe.in")
+		  ("Joseph Turner" . "joseph@ushin.org"))
+		 (:maintainer "Joseph Turner" . "joseph@ushin.org")
 		 (:keywords "convenience")
-		 (:url . "https://git.sr.ht/~breatheoutbreathein/ushin-shapes.el"))])
+		 (:url . "https://git.sr.ht/~ushin/ushin-shapes.el"))])
  (utimeclock .
 	     [(0 1 1 -4 20230601 25)
 	      ((emacs
