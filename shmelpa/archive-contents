@@ -4617,11 +4617,11 @@
 	    (:maintainer "Artem Malyshev" . "proofit404@gmail.com")
 	    (:url . "https://github.com/proofit404/blacken"))])
  (blackjack .
-	    [(1 0 3 1 -4 20230702 32)
+	    [(1 0 3 1 -4 20230704 2006)
 	     ((emacs
 	       (26 2)))
 	     "The game of Blackjack" tar
-	     ((:commit . "2f854832de5e30092cbd3a43481047058b28b199")
+	     ((:commit . "8e29aa312a7266f8ad025aff76419aeaab752dbc")
 	      (:authors
 	       ("Greg Donald" . "gdonald@gmail.com"))
 	      (:maintainers
@@ -6058,13 +6058,13 @@
 	    (:keywords "convenience" "writing")
 	    (:url . "https://github.com/kisaragi-hiu/cangjie.el"))])
  (cape .
-       [(0 16 1 -4 20230702 807)
+       [(0 16 1 -4 20230704 2128)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 4 0)))
 	"Completion At Point Extensions" tar
-	((:commit . "c8e3a75f2b1096fbb09c9f4b3f60ab1fdcfee13b")
+	((:commit . "75285d6e311a473a0e5ee94f71913ee23678d68f")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainers
@@ -10640,6 +10640,20 @@
 		  (:maintainer "Junyoung Clare Jang" . "jjc9310@gmail.com")
 		  (:keywords "comment" "coq" "proof")
 		  (:url . "http://github.com/ailrun/coq-commenter"))])
+ (corfu-candidate-overlay .
+			  [(1 5 1 -4 20230704 1404)
+			   ((emacs
+			     (28 1))
+			    (corfu
+			     (0 36)))
+			   "Show first candidate in an overlay while typing" tar
+			   ((:commit . "d3a2f729c90661f64e7eb45e93e7c498bcce328e")
+			    (:authors
+			     ("Adam Kruszewski" . "adam@kruszewski.name"))
+			    (:maintainers
+			     ("Adam Kruszewski" . "adam@kruszewski.name"))
+			    (:maintainer "Adam Kruszewski" . "adam@kruszewski.name")
+			    (:url . "https://code.bsdgeek.org/adam/corfu-candidate-overlay/"))])
  (corfu-prescient .
 		  [(6 1 0 1 -4 20221216 112)
 		   ((emacs
