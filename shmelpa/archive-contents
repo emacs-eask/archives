@@ -7142,7 +7142,7 @@
 		(:maintainer "Adam Chy\305\202a" . "adam@chyla.org")
 		(:url . "https://github.com/chyla/ChylaThemeForEmacs"))])
  (cider .
-	[(1 8 0 -4 20230702 650)
+	[(1 8 0 -4 20230705 734)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -7156,9 +7156,13 @@
 	  (seq
 	   (2 22))
 	  (sesman
-	   (0 3 2)))
+	   (0 3 2))
+	  (logview
+	   (0 16 1))
+	  (transient
+	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
-	 ((:commit . "c61c5583236b1e0ae95a3e01cb73d86499845311")
+	 ((:commit . "ada5df5bfff2f43956902e6078688149d702a93d")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
 	   ("Phil Hagelberg" . "technomancy@gmail.com")
@@ -15174,11 +15178,11 @@
 		    (:keywords "convenience" "hacks")
 		    (:url . "https://sadiqpk.org/projects/dwim-coder-mode.html"))])
  (dwim-shell-command .
-		     [(0 46 1 -4 20230628 1856)
+		     [(0 48 1 -4 20230705 845)
 		      ((emacs
 			(28 1)))
 		      "Shell commands with DWIM behaviour" tar
-		      ((:commit . "d261468583c8bc606e548293e35cc5578454cac3")
+		      ((:commit . "0f3472c4a4ba092cb2c455744bd3f317b22822d4")
 		       (:authors
 			("Alvaro Ramirez"))
 		       (:maintainers
