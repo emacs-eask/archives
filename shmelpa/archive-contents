@@ -4493,11 +4493,11 @@
 	      (:keywords "extensions")
 	      (:url . "https://github.com/cute-jumper/bing-dict.el"))])
  (binky-mode .
-	     [(1 1 0 1 -4 20230708 1542)
+	     [(1 1 0 1 -4 20230709 1952)
 	      ((emacs
 		(26 3)))
 	      "Jump between points like a rabbit" tar
-	      ((:commit . "8340a25b741af65cbf35c8a683fd1e08fd348c75")
+	      ((:commit . "7946e41f605c812925f5d185eb1a345c314e45aa")
 	       (:authors
 		("liuyinz" . "liuyinz95@gmail.com"))
 	       (:maintainers
@@ -11076,6 +11076,22 @@
 		((:commit . "f0ea446def59a3a8ca40e868fe9d82de268b2abe")
 		 (:keywords "tools" "ivy" "counsel" "testing" "ctest" "pytest")
 		 (:url . "http://github.com/xmagpie/counsel-test"))])
+ (counsel-toki .
+	       [(0 1 0 1 -4 20230705 1638)
+		((request
+		  (0 3 3))
+		 (emacs
+		  (25 1))
+		 (ivy
+		  (0 14 0)))
+		"Counsel support for toki pona dictionary lookup" tar
+		((:commit . "545aa4413ba8ce6a92d11d42e910a57a8cb58e2e")
+		 (:authors
+		  ("Emily Martins" . "emi@haskell.fyi"))
+		 (:maintainers
+		  ("Emily Martins" . "emi@haskell.fyi"))
+		 (:maintainer "Emily Martins" . "emi@haskell.fyi")
+		 (:url . "https://github.com/emiflake/counsel-toki"))])
  (counsel-tramp .
 		[(0 7 6 1 -4 20221228 1403)
 		 ((emacs
