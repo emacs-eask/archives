@@ -57023,6 +57023,18 @@
 		       (:maintainer "Juanjo Alvarez" . "juanjo@juanjoalvarez.net")
 		       (:keywords "theme" "light" "professional")
 		       (:url . "https://github.com/juanjux/emacs-professional-theme"))])
+ (prog-face-refine .
+		   [(0 2 1 -4 20230709 737)
+		    ((emacs
+		      (28 0)))
+		    "Refine faces for programming modes" tar
+		    ((:commit . "9b6bac3d6b9e889c7398b7f7b958e8a2c674d524")
+		     (:authors
+		      ("Campbell Barton" . "ideasman42@gmail.com"))
+		     (:maintainers
+		      ("Campbell Barton" . "ideasman42@gmail.com"))
+		     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
+		     (:url . "https://codeberg.org/ideasman42/emacs-prog-face-refine"))])
  (prog-fill .
 	    [(1 0 0 1 -4 20180607 132)
 	     ((emacs
@@ -62138,6 +62150,21 @@
 			(:maintainer "Radian LLC" . "contact+prescient@radian.codes")
 			(:keywords "extensions")
 			(:url . "https://github.com/raxod502/prescient.el"))])
+ (semantic-thrift .
+		  [(0 0 1 1 -4 20230706 649)
+		   ((thrift
+		     (0 0 1))
+		    (emacs
+		     (25 1)))
+		   "Thrift LALR parser" tar
+		   ((:commit . "270d3c70f6f8c00fea688a1055d18e6dd56e351e")
+		    (:authors
+		     (nil . "Guanghui Xu gh_xu@qq.com"))
+		    (:maintainers
+		     (nil . "Guanghui Xu gh_xu@qq.com"))
+		    (:maintainer nil . "Guanghui Xu gh_xu@qq.com")
+		    (:keywords "extensions" "thrift" "semantic")
+		    (:url . "https://github.com/jerryxgh/semantic-thrift"))])
  (semaphore .
 	    [(1 0 0 1 -4 20190607 1949)
 	     ((emacs
@@ -62650,11 +62677,11 @@
 	       (:maintainer "Ian Eure" . "ian.eure@gmail.com")
 	       (:keywords "unix" "tools" "processes"))])
  (shell-maker .
-	      [(0 41 1 1 -4 20230709 1634)
+	      [(0 42 1 1 -4 20230709 2036)
 	       ((emacs
 		 (27 1)))
 	       "Interaction mode for making comint shells" tar
-	       ((:commit . "ac0362e5b2c19712131de0b1144842bcb47b3788")
+	       ((:commit . "1ec51235295f4685f6cc1a7601255fdcabffc1b3")
 		(:authors
 		 ("Alvaro Ramirez https://xenodium.com"))
 		(:maintainers
