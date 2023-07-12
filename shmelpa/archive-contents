@@ -29998,13 +29998,15 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 1 1 -4 20230710 411)
+       [(3 9 1 1 -4 20230712 1159)
 	((helm-core
 	  (3 9 1))
+	 (wfnames
+	  (1 1))
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "1b411786346f1df38af3d37c389975db3a103353")
+	((:commit . "1bbcb458293e667f38ac79004598e238d7bc2b34")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -48882,11 +48884,11 @@
 	 (:keywords "convenience")
 	 (:url . "https://github.com/lunaryorn/opam.el"))])
  (opam-switch-mode .
-		   [(1 5 -4 20230711 1938)
+		   [(1 6 -4 20230712 1209)
 		    ((emacs
 		      (25 1)))
 		    "Select OCaml opam switches via a menu" tar
-		    ((:commit . "8da0c5643377dcd75571e6db3d315939e56179d3")
+		    ((:commit . "6a064bfac95e761e95dbce0bb37151836f7e6b5b")
 		     (:maintainers
 		      (nil . "proof-general-maintainers@groupes.renater.fr"))
 		     (:maintainer nil . "proof-general-maintainers@groupes.renater.fr")
@@ -53153,18 +53155,18 @@
 	   (:keywords "wp")
 	   (:url . "https://github.com/0x60df/ox-qmd"))])
  (ox-report .
-	    [(0 2 1 -4 20220910 951)
+	    [(0 2 1 -4 20230712 1303)
 	     ((emacs
 	       (24 4))
 	      (org-msg
 	       (3 9)))
 	     "Export your org file to minutes report PDF file" tar
-	     ((:commit . "029fac8d4c83cc8841ade0dfebc8b7d7508efbb2")
+	     ((:commit . "da4a690c54490557e0cc328b0590a58146dd02e6")
 	      (:authors
-	       ("Matthias David" . "matthias@gnu.re"))
+	       ("Matthias David" . "db@gnu.re"))
 	      (:maintainers
-	       ("Matthias David" . "matthias@gnu.re"))
-	      (:maintainer "Matthias David" . "matthias@gnu.re")
+	       ("Matthias David" . "db@gnu.re"))
+	      (:maintainer "Matthias David" . "db@gnu.re")
 	      (:keywords "org" "outlines" "report" "exporter" "meeting" "minutes")
 	      (:url . "https://github.com/DarkBuffalo/ox-report"))])
  (ox-reveal .
@@ -72266,11 +72268,11 @@
 			 (:maintainer "Joe Staursky")
 			 (:url . "https://github.com/jstaursky/weyland-yutani-theme"))])
  (wfnames .
-	  [(1 0 1 -4 20230712 756)
+	  [(1 1 1 -4 20230712 1154)
 	   ((emacs
 	     (24 3)))
 	   "Edit filenames" tar
-	   ((:commit . "c7e895f40671c28dc240074533f07ed050044b62")
+	   ((:commit . "4447417c58b063df1fca1ba4bec9cb650c7beb60")
 	    (:authors
 	     ("Thierry Volpiatto" . "thievol@posteo.net"))
 	    (:maintainers
@@ -74519,11 +74521,11 @@
 	    ((:commit . "76cf76bdc871cb0454a6fc555aeb1aa94f1b6e57")
 	     (:url . "https://github.com/schmir/zimports.el"))])
  (zk .
-     [(0 6 1 -4 20230709 1110)
+     [(0 6 1 -4 20230712 1103)
       ((emacs
 	(25 1)))
       "Functions for working with Zettelkasten-style linked notes" tar
-      ((:commit . "79e1dbac7de1ff5198206a499df8afdba54fde2e")
+      ((:commit . "5be59ca972f3f624d444b7b7d7ca75a06bcd2ce5")
        (:authors
 	("Grant Rosson <https://github.com/localauthor>"))
        (:maintainers
