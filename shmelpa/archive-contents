@@ -11988,11 +11988,13 @@
 	     (:keywords "games")
 	     (:url . "https://github.com/davep/dad-joke.el"))])
  (daemons .
-	  [(2 1 0 1 -4 20211214 1251)
+	  [(2 1 0 1 -4 20230717 1627)
 	   ((emacs
-	     (25 1)))
+	     (25 1))
+	    (s
+	     (1 13 0)))
 	   "UI for managing init system daemons (services)" tar
-	   ((:commit . "e18e84ccc13101f1609c213029cf011ae0ad1178")
+	   ((:commit . "060525c13eeb385b20898da93610dbe964f446f9")
 	    (:authors
 	     ("Chris Bowdon"))
 	    (:maintainers
@@ -19760,7 +19762,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20230714 1333)
+       [(1 15 0 1 -4 20230717 1702)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -19768,7 +19770,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "4b45f2619258374ebb34b07212806e77bc2997c3")
+	((:commit . "f84d3453b312bd8ec0a1c092d075bbc3d91e157b")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulations")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -41193,7 +41195,7 @@
 	      (:keywords "languages" "tools")
 	      (:url . "https://github.com/gdkrmr/lsp-julia"))])
  (lsp-latex .
-	    [(3 6 0 1 -4 20230717 1253)
+	    [(3 6 2 1 -4 20230717 1707)
 	     ((emacs
 	       (27 1))
 	      (lsp-mode
@@ -41201,7 +41203,7 @@
 	      (consult
 	       (0 35)))
 	     "LSP-mode client for LaTeX, on texlab" tar
-	     ((:commit . "b7193633509fe4a58bb70ebae2c8e970f5a843c8")
+	     ((:commit . "7d70e07a02f7b808ba97f1ed7d63491ab8f55900")
 	      (:authors
 	       ("ROCKTAKEY" . "rocktakey@gmail.com"))
 	      (:maintainers
