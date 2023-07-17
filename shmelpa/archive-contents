@@ -17855,13 +17855,13 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 22 1 1 -4 20230713 1739)
+	 [(0 22 1 1 -4 20230716 2345)
 	  ((emacs
 	    (27 1))
 	   (compat
 	    (29 1 4 0)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "644fb1022a694ce8ce5367658b7ebc910d94edc9")
+	  ((:commit . "9a44418c349e41020cdc5ad1bd21e8c77a429062")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainers
@@ -34012,7 +34012,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 0 1 1 -4 20230716 202)
+	     [(0 0 1 1 -4 20230717 120)
 	      ((emacs
 		(27 1))
 	       (map
@@ -34024,7 +34024,7 @@
 	       (persist
 		(0 5)))
 	      "P2P filesystem in Emacs" tar
-	      ((:commit . "538643bc799d02822d6996cd8661503d6250a6a2")
+	      ((:commit . "1c10ec8750ee07895a7fcd3890a7d8988e1b45c0")
 	       (:authors
 		("Joseph Turner"))
 	       (:maintainers
@@ -51666,13 +51666,13 @@
 	       (:keywords "org-mode" "elisp" "project")
 	       (:url . "http://github.com/zellio/org-themis"))])
  (org-tidy .
-	   [(0 1 1 -4 20230625 24)
+	   [(0 1 1 -4 20230717 6)
 	    ((emacs
 	      (27 1))
 	     (dash
 	      (2 19 1)))
 	    "A minor mode to tidy org-mode buffers" tar
-	    ((:commit . "11aeb5f92abfed08d835e89e248023ef782bbe0d")
+	    ((:commit . "d847af329b78ff860718fb344f13911741347ea3")
 	     (:authors
 	      ("Xuqing Jia" . "jxq@jxq.me"))
 	     (:maintainers
@@ -68064,6 +68064,21 @@
 	 (:maintainer "Anantha kumaran" . "ananthakumaran@gmail.com")
 	 (:keywords "typescript")
 	 (:url . "http://github.com/ananthakumaran/tide"))])
+ (tiktoken .
+	   [(0 0 1 1 -4 20230713 1219)
+	    ((emacs
+	      (28 0))
+	     (f
+	      (0 20 0)))
+	    "Count BPE Tokens" tar
+	    ((:commit . "c3dbe245ef24b8bab1f919cf74ea2b20c5562cb0")
+	     (:authors
+	      ("Zachary Romero"))
+	     (:maintainers
+	      ("Zachary Romero"))
+	     (:maintainer "Zachary Romero")
+	     (:keywords "tools")
+	     (:url . "https://github.com/zkry/tiktoken.el"))])
  (tikz .
        [(0 14 1 -4 20220526 521)
 	((emacs
@@ -72627,6 +72642,18 @@
 	      (:maintainer "Nicholas Vollmer" . "progfolio@protonmail.com")
 	      (:keywords "org" "convenience")
 	      (:url . "https://github.com/progfolio/wikinforg"))])
+ (wildcharm-light-theme .
+			[(0 3 1 -4 20230716 2251)
+			 ((emacs
+			   (24 1)))
+			 "Port of vim-wildcharm (light) colorscheme" tar
+			 ((:commit . "119833ef5d21c5d64bdb3153a74e05050579ced5")
+			  (:authors
+			   ("Maxim Kim" . "habamax@gmail.com"))
+			  (:maintainers
+			   ("Maxim Kim" . "habamax@gmail.com"))
+			  (:maintainer "Maxim Kim" . "habamax@gmail.com")
+			  (:url . "https://github.com/habamax/wildcharm-theme"))])
  (wildcharm-theme .
 		  [(0 3 1 -4 20230716 2251)
 		   ((emacs
