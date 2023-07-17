@@ -41193,13 +41193,15 @@
 	      (:keywords "languages" "tools")
 	      (:url . "https://github.com/gdkrmr/lsp-julia"))])
  (lsp-latex .
-	    [(3 5 0 1 -4 20230421 1814)
+	    [(3 6 0 1 -4 20230717 1253)
 	     ((emacs
-	       (26 3))
+	       (27 1))
 	      (lsp-mode
-	       (6 0)))
+	       (6 0))
+	      (consult
+	       (0 35)))
 	     "LSP-mode client for LaTeX, on texlab" tar
-	     ((:commit . "51bd8a0306a21c81a0c765b1857c534a29d92877")
+	     ((:commit . "b7193633509fe4a58bb70ebae2c8e970f5a843c8")
 	      (:authors
 	       ("ROCKTAKEY" . "rocktakey@gmail.com"))
 	      (:maintainers
