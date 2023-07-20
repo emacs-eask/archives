@@ -37651,7 +37651,7 @@
 		 ("Dennis Ogbe" . "dogbe@purdue.edu"))
 		(:maintainer "Dennis Ogbe" . "dogbe@purdue.edu"))])
  (julia-snail .
-	      [(1 2 3 1 -4 20230621 1809)
+	      [(1 2 3 1 -4 20230720 1934)
 	       ((emacs
 		 (26 2))
 		(dash
@@ -37667,7 +37667,7 @@
 		(popup
 		 (0 5 9)))
 	       "Julia Snail" tar
-	       ((:commit . "f2069f65303078e16e68a83ad1e868c984510f3e")
+	       ((:commit . "18b891b4569096d541e996cf7e24da01efdf2e03")
 		(:url . "https://github.com/gcv/julia-snail"))])
  (julia-ts-mode .
 		[(0 2 5 1 -4 20230711 2009)
@@ -41841,9 +41841,11 @@
 		       (:maintainer "zk_phi")
 		       (:url . "http://zk-phi.github.io/"))])
  (magik-mode .
-	     [(0 0 1 1 -4 20230623 1236)
-	      nil "mode for editing Magik + some utils." tar
-	      ((:commit . "d59e9212e44f62b40c4323ca8bbe53ea09cd00d0")
+	     [(0 0 1 1 -4 20230720 1927)
+	      ((emacs
+		(24 4)))
+	      "mode for editing Magik + some utils." tar
+	      ((:commit . "e47710ea69a85b27e4c95d3fee5c30a6c157a7be")
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
