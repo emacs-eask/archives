@@ -22837,6 +22837,23 @@
 		      ("Alex Murray" . "murray.alex@gmail.com"))
 		     (:maintainer "Alex Murray" . "murray.alex@gmail.com")
 		     (:url . "https://github.com/alexmurray/flycheck-bashate"))])
+ (flycheck-buf-lint .
+		    [(0 0 1 1 -4 20230719 1350)
+		     ((emacs
+		       (26 1))
+		      (flycheck
+		       (0 22))
+		      (s
+		       (1 12 0)))
+		     "Flycheck checker for protobuf with buf.build" tar
+		     ((:commit . "86a4f544af9b34f603000840a9bb6c5fbb42be48")
+		      (:authors
+		       ("Aaron Ji" . "shuxiao9058@gmail.com"))
+		      (:maintainers
+		       ("Aaron Ji" . "shuxiao9058@gmail.com"))
+		      (:maintainer "Aaron Ji" . "shuxiao9058@gmail.com")
+		      (:keywords "convenience" "tools" "buf" "protobuf")
+		      (:url . "https://github.com/shuxiao9058/flycheck-buf-lint"))])
  (flycheck-cask .
 		[(0 5 -4 20200926 1502)
 		 ((emacs
@@ -41868,7 +41885,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230723 1231)
+	[(3 3 0 50 -4 20230723 1601)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -41884,7 +41901,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "2c2b34d7ac8a595be68702e53ff6f77755bfcd52")
+	 ((:commit . "f6f4b96b641a5af75e90b5431a32369ab0f664a7")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
