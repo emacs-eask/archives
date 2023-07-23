@@ -55141,11 +55141,11 @@
 	      (:maintainer "sabof")
 	      (:url . "https://github.com/sabof/php-eldoc"))])
  (php-mode .
-	   [(2 0 0 1 -4 20230616 1919)
+	   [(2 0 0 1 -4 20230723 1907)
 	    ((emacs
 	      (26 1)))
 	    "Major mode for editing PHP code" tar
-	    ((:commit . "73d2dedb81cb210d8ba79d60af7918d52cc37bf7")
+	    ((:commit . "168fc4ec28dc54fc4366b64bc9c431ee53f25984")
 	     (:authors
 	      ("Eric James Michael Ritz"))
 	     (:maintainers
@@ -67088,6 +67088,33 @@
 	     ("Andreas Politz" . "politza@fh-trier.de"))
 	    (:maintainer "Andreas Politz" . "politza@fh-trier.de")
 	    (:keywords "extensions" "lisp"))])
+ (tabnine .
+	  [(0 0 1 1 -4 20230723 1913)
+	   ((emacs
+	     (28 1))
+	    (dash
+	     (2 16 0))
+	    (s
+	     (1 12 0))
+	    (editorconfig
+	     (0 9 1))
+	    (vterm
+	     (0 0 2))
+	    (language-id
+	     (0 5 1))
+	    (transient
+	     (0 4 0)))
+	   "An unofficial TabNine package with TabNine Chat supported" tar
+	   ((:commit . "c796978e62207987ff9d5359c25bef504c5be6c7")
+	    (:authors
+	     ("Aaron Ji" . "shuxiao9058@gmail.com")
+	     ("Tommy Xiang" . "tommyx058@gmail.com")
+	     ("John Gong" . "gjtzone@hotmail.com"))
+	    (:maintainers
+	     ("Aaron Ji" . "shuxiao9058@gmail.com"))
+	    (:maintainer "Aaron Ji" . "shuxiao9058@gmail.com")
+	    (:keywords "convenience")
+	    (:url . "https://github.com/shuxiao9058/tabnine/"))])
  (tabspaces .
 	    [(1 4 1 -4 20230612 1404)
 	     ((emacs
@@ -67385,6 +67412,21 @@
 		   (:maintainer "Daniel Bordak" . "dbordak@fastmail.fm")
 		   (:keywords "mode-line")
 		   (:url . "https://github.com/dbordak/telephone-line"))])
+ (teleport .
+	   [(0 0 1 1 -4 20230723 2009)
+	    ((emacs
+	      (27 1))
+	     (dash
+	      (2 18 0)))
+	    "Integration for tsh (goteleport.com)" tar
+	    ((:commit . "c1414e906c16edfb98db5f5a60000bf9c7dfdfb6")
+	     (:authors
+	      ("Caramel Hooves" . "caramel.hooves@protonmail.com"))
+	     (:maintainers
+	      ("Caramel Hooves" . "caramel.hooves@protonmail.com"))
+	     (:maintainer "Caramel Hooves" . "caramel.hooves@protonmail.com")
+	     (:keywords "tools")
+	     (:url . "https://github.com/caramelhooves/teleport.el"))])
  (teletext .
 	   [(0 1 0 1 -4 20211203 1111)
 	    ((emacs
