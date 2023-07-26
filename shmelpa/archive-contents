@@ -6921,11 +6921,11 @@
 			 (:maintainer "Ben Yelsey" . "byelsey1@gmail.com")
 			 (:url . "https://github.com/inlinestyle/emacs-cherry-blossom-theme"))])
  (chezmoi .
-	  [(1 0 0 1 -4 20230106 1716)
+	  [(1 1 0 1 -4 20230726 1638)
 	   ((emacs
 	     (26 1)))
 	   "A package for interacting with chezmoi" tar
-	   ((:commit . "0578f81ab01f5280e6c68d7a8a70ae4b4ba29755")
+	   ((:commit . "1389782f8c0780c7e66f8e77b10345ba1f4eabae")
 	    (:authors
 	     ("Harrison Pielke-Lombardo"))
 	    (:maintainers
@@ -7733,7 +7733,7 @@
 		 (:maintainer "jpe90" . "eskinjp@gmail.com")
 		 (:url . "https://github.com/jpe90/emacs-deps-new"))])
  (clj-refactor .
-	       [(3 9 0 1 -4 20230726 1333)
+	       [(3 9 1 1 -4 20230726 1357)
 		((emacs
 		  (26 1))
 		 (seq
@@ -7755,7 +7755,7 @@
 		 (hydra
 		  (0 13 2)))
 		"A collection of commands for refactoring Clojure code" tar
-		((:commit . "4336323e32b5522b02639ed2aa4dd65c3b3d29ef")
+		((:commit . "1fdc95a479406a83865d06f43122354c0dd2b93f")
 		 (:authors
 		  ("Magnar Sveen" . "magnars@gmail.com")
 		  ("Lars Andersen" . "expez@expez.com")
@@ -12965,11 +12965,11 @@
 		    (:keywords "docs" "help" "tools")
 		    (:url . "https://github.com/blahgeek/emacs-devdocs-browser"))])
  (devil .
-	[(0 5 0 1 -4 20230615 1129)
+	[(0 6 0 -2 1 1 -4 20230726 1628)
 	 ((emacs
 	   (24 4)))
 	 "Minor mode for translating key sequences" tar
-	 ((:commit . "20b44174c3c0f5c46ea15b463dc67c14e6f57681")
+	 ((:commit . "a955bcbf1b193cb2e3449ed54c493a31126a3b74")
 	  (:authors
 	   ("Susam Pal" . "susam@susam.net"))
 	  (:maintainers
@@ -14718,7 +14718,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(4 0 0 1 -4 20230725 1642)
+		[(4 0 0 1 -4 20230726 1624)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -14728,7 +14728,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "b55d6cb731a9557e3eb30af9ea259b214b53622b")
+		 ((:commit . "59c18bc343b850617c4eaddc0d3a696bed9cdc80")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainers
@@ -38113,15 +38113,13 @@
 		 (:keywords "kconfig" "languages" "linux" "kernel")
 		 (:url . "https://github.com/delaanthonio/kconfig-mode"))])
  (kconfig-ref .
-	      [(0 1 0 1 -4 20230220 1207)
+	      [(0 2 0 1 -4 20230726 1446)
 	       ((emacs
 		 (24 4))
-		(ripgrep
-		 (0 4 0))
 		(projectile
 		 (2 7 0)))
 	       "A simple package for looking up kconfig symbol quickly" tar
-	       ((:commit . "dfb127fa5ac003a06f108d2e876c84a1931e5678")
+	       ((:commit . "7953808d1cf79a7794c4fe9826acf98063efc636")
 		(:authors
 		 ("Jason Kim" . "sukbeom.kim@gmail.com"))
 		(:maintainers
