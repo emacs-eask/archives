@@ -63725,13 +63725,13 @@
 	      (:keywords "markup" "language")
 	      (:url . "http://github.com/slim-template/emacs-slim"))])
  (slime .
-	[(2 28 1 -4 20230707 1938)
+	[(2 28 1 -4 20230730 1734)
 	 ((cl-lib
 	   (0 5))
 	  (macrostep
 	   (0 9)))
 	 "Superior Lisp Interaction Mode for Emacs" tar
-	 ((:commit . "ba3d0794e7b2eb7b539fedd8109904b1fb4512a8")
+	 ((:commit . "1e4b7417a1ade842ba4938f66445af68a93176b9")
 	  (:keywords "languages" "lisp" "slime")
 	  (:url . "https://github.com/slime/slime"))])
  (slime-company .
@@ -67641,6 +67641,22 @@
 		 (:maintainer "Ivan Malison" . "IvanMalison@gmail.com")
 		 (:keywords "terminals" "tools")
 		 (:url . "https://www.github.com/IvanMalison/term-manager"))])
+ (term-project .
+	       [(0 1 0 1 -4 20230724 1651)
+		((emacs
+		  (28 1))
+		 (term-manager
+		  (0 1 0)))
+		"Terminal management for project.el" tar
+		((:commit . "f6e55491aedac15b9bf1ef92aaebf35ba9c9dd94")
+		 (:authors
+		  ("Ivan Malison" . "IvanMalison@gmail.com")
+		  ("ROCKTAKEY" . "rocktakey@gmail.com"))
+		 (:maintainers
+		  ("Ivan Malison" . "IvanMalison@gmail.com"))
+		 (:maintainer "Ivan Malison" . "IvanMalison@gmail.com")
+		 (:keywords "project" "tools" "terminals" "vc")
+		 (:url . "https://www.github.com/IvanMalison/term-manager"))])
  (term-projectile .
 		  [(0 1 0 1 -4 20230727 2308)
 		   ((emacs
@@ -68614,11 +68630,11 @@
 		  (:keywords "hide" "window")
 		  (:url . "https://github.com/deadghost/toggle-window"))])
  (tok-theme .
-	    [(0 1 1 -4 20230730 1519)
+	    [(0 1 1 -4 20230730 1922)
 	     ((emacs
 	       (27 0)))
 	     "Minimal light monochromatic theme for Emacs in the spirit of Zmacs and Smalltalk-80." tar
-	     ((:commit . "9529e1b1d830c055873f653a143674da02179d74")
+	     ((:commit . "b926f4a5891be2428489601b0de7e475dd1b697d")
 	      (:authors
 	       ("Topi Kettunen" . "topi@topikettunen.com"))
 	      (:maintainers
