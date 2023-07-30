@@ -8644,11 +8644,11 @@
 	      (:keywords "cli" "argv")
 	      (:url . "http://github.com/rejeep/commander.el"))])
  (comment-dwim-2 .
-		 [(1 4 3 1 -4 20210101 1820)
+		 [(1 4 3 1 -4 20230730 1619)
 		  ((emacs
 		    (24 4)))
 		  "An all-in-one comment command to rule them all" tar
-		  ((:commit . "b4d6bf4be5a159c4bcc7d43bea287315a16114ce")
+		  ((:commit . "69415caa1a381063d3e794912dfe88f672854ab0")
 		   (:authors
 		    ("R\303\251my Ferr\303\251" . "dev@remyferre.net"))
 		   (:maintainers
@@ -9729,6 +9729,16 @@
 		      (:maintainer "Nathan Kot" . "nk@nathankot.com")
 		      (:keywords "abbrev")
 		      (:url . "https://github.com/nathankot/company-sourcekit"))])
+ (company-spell .
+		[(1 0 0 1 -4 20230723 2249)
+		 ((emacs
+		   (24 4))
+		  (company
+		   (0 9 13)))
+		 "Autocompleting spelling for Company" tar
+		 ((:commit . "34c3e40af2e8b97e137478d98c5982e3fb2ceb3c")
+		  (:keywords "wp")
+		  (:url . "https://github.com/enzuru/company-spell"))])
  (company-stan .
 	       [(10 3 0 1 -4 20211129 2051)
 		((emacs
@@ -30034,7 +30044,7 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 1 1 -4 20230729 510)
+       [(3 9 1 1 -4 20230730 1830)
 	((helm-core
 	  (3 9 1))
 	 (wfnames
@@ -30042,7 +30052,7 @@
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "4cfa25d930cf4084d46e58dc403c5a5b67782a23")
+	((:commit . "255012f3d5702936117b2f9ef7e4568cedb31b3a")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -30531,13 +30541,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 9 1 1 -4 20230725 527)
+	    [(3 9 1 1 -4 20230730 1102)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 7)))
 	     "Development files for Helm" tar
-	     ((:commit . "a3d403cd95056ba22438e8b98e4194957b27d5bd")
+	     ((:commit . "fe8f0516047414f389d2abbab784edc0598d37f1")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainers
@@ -32802,7 +32812,7 @@
 		       (:keywords "convenience")
 		       (:url . "https://github.com/EricCrosson/help-find-org-mode"))])
  (helpful .
-	  [(0 20 1 -4 20230504 1546)
+	  [(0 22 1 -4 20230730 1732)
 	   ((emacs
 	     (25))
 	    (dash
@@ -32814,7 +32824,7 @@
 	    (elisp-refs
 	     (1 2)))
 	   "A better *help* buffer" tar
-	   ((:commit . "32cb28b50b3366ad35e2cb936367268ddeec745f")
+	   ((:commit . "6f8991a72c83d904725a9d6c00de2cabbef32de9")
 	    (:authors
 	     ("Wilfred Hughes" . "me@wilfred.me.uk"))
 	    (:maintainers
@@ -34700,6 +34710,23 @@
 	    ("Joel Rosdahl" . "joel@rosdahl.net"))
 	   (:maintainer "Joel Rosdahl" . "joel@rosdahl.net")
 	   (:url . "https://github.com/jrosdahl/iflipb"))])
+ (igist .
+	[(1 1 0 1 -4 20230421 1033)
+	 ((emacs
+	   (27 1))
+	  (ghub
+	   (3 5 6))
+	  (transient
+	   (0 3 7)))
+	 "List, create, update and delete GitHub gists" tar
+	 ((:commit . "b8944d96746c3a77d7a6340b679c69025a6ee840")
+	  (:authors
+	   ("Karim Aziiev" . "karim.aziiev@gmail.com"))
+	  (:maintainers
+	   ("Karim Aziiev" . "karim.aziiev@gmail.com"))
+	  (:maintainer "Karim Aziiev" . "karim.aziiev@gmail.com")
+	  (:keywords "tools")
+	  (:url . "https://github.com/KarimAziev/igist"))])
  (ignoramus .
 	    [(0 7 4 1 -4 20220611 1514)
 	     ((emacs
@@ -40830,7 +40857,7 @@
 		   ("Wilfred Hughes" . "me@wilfred.me.uk"))
 		  (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk"))])
  (logview .
-	  [(0 16 4 -4 20230730 1638)
+	  [(0 16 5 -4 20230730 1641)
 	   ((emacs
 	     (25 1))
 	    (datetime
@@ -40838,7 +40865,7 @@
 	    (extmap
 	     (1 0)))
 	   "Major mode for viewing log files" tar
-	   ((:commit . "3620b1ff3b7e86a353b61bd7b653a23b7b11a6f3")
+	   ((:commit . "32d833559100da489896e8791c9c6284ccb32ea5")
 	    (:authors
 	     ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	    (:maintainers
@@ -46324,6 +46351,16 @@
 	   ("Juergen Hoetzel" . "juergen@archlinux.org"))
 	  (:maintainer "Juergen Hoetzel" . "juergen@archlinux.org")
 	  (:keywords "comm"))])
+ (nezburn-theme .
+		[(0 1 1 -4 20230726 600)
+		 nil "A low contrast color theme for Emacs (inspired by zenburn)." tar
+		 ((:commit . "83ea665941de938350956d62f430de1255a2d36d")
+		  (:authors
+		   ("Jo\303\243o Lanjoni" . "joaoaugustolanjoni@gmail.com"))
+		  (:maintainers
+		   ("Jo\303\243o Lanjoni" . "joaoaugustolanjoni@gmail.com"))
+		  (:maintainer "Jo\303\243o Lanjoni" . "joaoaugustolanjoni@gmail.com")
+		  (:url . "http://github.com/lanjoni/nezburn"))])
  (ng2-mode .
 	   [(0 2 3 1 -4 20201203 1925)
 	    ((typescript-mode
@@ -55114,11 +55151,11 @@
 	      (:maintainer "sabof")
 	      (:url . "https://github.com/sabof/php-eldoc"))])
  (php-mode .
-	   [(2 0 0 1 -4 20230723 1907)
+	   [(2 0 0 1 -4 20230730 1735)
 	    ((emacs
 	      (26 1)))
 	    "Major mode for editing PHP code" tar
-	    ((:commit . "168fc4ec28dc54fc4366b64bc9c431ee53f25984")
+	    ((:commit . "38fd6ec205a02ccad6b3006afef0988e380adfa6")
 	     (:authors
 	      ("Eric James Michael Ritz"))
 	     (:maintainers
