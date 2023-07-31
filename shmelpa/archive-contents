@@ -27029,7 +27029,7 @@
 		(:keywords "utility" "git")
 		(:url . "https://github.com/10sr/git-command-el"))])
  (git-commit .
-	     [(3 3 0 50 -4 20230521 2344)
+	     [(3 3 0 50 -4 20230731 908)
 	      ((emacs
 		(25 1))
 	       (compat
@@ -27039,7 +27039,7 @@
 	       (with-editor
 		(20230118)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "d81db78a0611d21048c1e2ff069a83f964092f10")
+	      ((:commit . "9e95c2381375cb064d54a6afe70d61140da6fa30")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -41297,7 +41297,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20230731 1359)
+	   [(8 0 1 1 -4 20230731 1627)
 	    ((emacs
 	      (26 3))
 	     (dash
@@ -41315,7 +41315,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "55106f014c2cec4a8dec0ea1c37d2eb48d1a8ab7")
+	    ((:commit . "2b6b8999ef36a533816dbf0f4e4fcca5379080a7")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainers
@@ -41421,13 +41421,13 @@
 		(:keywords "languages" "tools" "lsp")
 		(:url . "https://github.com/emacs-lsp/lsp-pyright"))])
  (lsp-python-ms .
-		[(0 7 2 1 -4 20211204 1209)
+		[(0 7 2 1 -4 20230731 1458)
 		 ((emacs
 		   (25 1))
 		  (lsp-mode
 		   (6 1)))
 		 "The lsp-mode client for Microsoft python-language-server" tar
-		 ((:commit . "abf4d89ecf2fa0871130df5fce6065b7cf0a2721")
+		 ((:commit . "7bda327bec7b219d140c34dab4b1e1fbd41bc516")
 		  (:authors
 		   ("Charl Botha"))
 		  (:maintainers
@@ -41887,7 +41887,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230731 912)
+	[(3 3 0 50 -4 20230731 1514)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -41898,12 +41898,14 @@
 	   (20230101))
 	  (magit-section
 	   (20230101))
+	  (seq
+	   (2 23))
 	  (transient
 	   (20230201))
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "e8152c76bf636805c0eb9027083d0ff10d28d1a8")
+	 ((:commit . "6d300bfe3606350da804c1a2c11b3f0ab7a7f4af")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -60527,11 +60529,11 @@
        ((:commit . "4aab5a5be16b69b47ef5e67d02782df5e41dbd7b")
 	(:url . "https://gitlab.com/cwpitts/rgb.el"))])
  (rhq .
-      [(0 7 1 1 -4 20220916 1632)
+      [(0 7 2 1 -4 20230731 1544)
        ((emacs
 	 (24 4)))
        "Client for rhq" tar
-       ((:commit . "7d9c5dee2e493eb0c5d41afca1b6049de8c2a26d")
+       ((:commit . "9f571787bf0781c78c277db82394fb9a692ec21e")
 	(:authors
 	 ("ROCKTAKEY" . "rocktakey@gmail.com"))
 	(:maintainers
