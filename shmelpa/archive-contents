@@ -14728,7 +14728,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(4 0 0 1 -4 20230801 907)
+		[(4 0 0 1 -4 20230803 1452)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -14738,7 +14738,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "cb3234dab4ef2aa30e39143dc9e56ab2ce1f3e64")
+		 ((:commit . "5bd93c2c64fd6b7e45e1901f95b159d9113b3234")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainers
@@ -17466,7 +17466,7 @@
 	 (:keywords "lisp" "tool")
 	 (:url . "https://github.com/twlz0ne/elpl"))])
  (elpy .
-       [(1 35 0 1 -4 20230719 1452)
+       [(1 35 0 1 -4 20230803 1455)
 	((company
 	  (0 9 2))
 	 (emacs
@@ -17480,7 +17480,7 @@
 	 (s
 	  (1 11 0)))
 	"Emacs Python Development Environment" tar
-	((:commit . "2cef7e348badc2be43a5df6a71a50bea5b0464b5")
+	((:commit . "7ff8ffa918411887d165764f7a5a12bc46646e73")
 	 (:authors
 	  ("Jorgen Schaefer <contact@jorgenschaefer.de>, Gaby Launay" . "gaby.launay@protonmail.com"))
 	 (:maintainer "Jorgen Schaefer <contact@jorgenschaefer.de>, Gaby Launay" . "gaby.launay@protonmail.com")
@@ -30044,7 +30044,7 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 2 1 -4 20230803 628)
+       [(3 9 2 1 -4 20230803 950)
 	((helm-core
 	  (3 9 2))
 	 (wfnames
@@ -30052,7 +30052,7 @@
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "ce760c23c7369d98169563fdcf87f1e0363f29c8")
+	((:commit . "729d94aa2c10f25b83fe4e09f5dabd0c329ff98a")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -41879,11 +41879,13 @@
 		       (:maintainer "zk_phi")
 		       (:url . "http://zk-phi.github.io/"))])
  (magik-mode .
-	     [(0 0 1 1 -4 20230727 813)
+	     [(0 0 1 1 -4 20230803 1333)
 	      ((emacs
-		(24 4)))
+		(24 4))
+	       (compat
+		(28 1)))
 	      "mode for editing Magik + some utils." tar
-	      ((:commit . "545232bde1f8f9c6b74a7a31d9e1620d23979a9a")
+	      ((:commit . "628e827e086b1a0fbb3d373e3fab8857d3742348")
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
