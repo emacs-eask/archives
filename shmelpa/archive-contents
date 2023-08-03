@@ -30044,7 +30044,7 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 2 1 -4 20230803 950)
+       [(3 9 2 1 -4 20230803 1808)
 	((helm-core
 	  (3 9 2))
 	 (wfnames
@@ -30052,7 +30052,7 @@
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "729d94aa2c10f25b83fe4e09f5dabd0c329ff98a")
+	((:commit . "de31fc2483ec65fe005318934356537d2e474f36")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -40067,11 +40067,11 @@
 		    "Emacs 24 theme with a light background." tar
 		    ((:commit . "76a787bd40c6b567ae68ced7f5d9f9f10725e00d"))])
  (ligo-mode .
-	    [(0 2 0 1 -4 20230727 1523)
+	    [(0 2 0 1 -4 20230803 1446)
 	     ((emacs
 	       (27 1)))
 	     "A major mode for editing LIGO source code" tar
-	     ((:commit . "d9bad20098d2321600fedf051af250c79f622bec")
+	     ((:commit . "bdd69fa7cd9adc8756ca9e688ede0335672e29cf")
 	      (:authors
 	       ("LigoLang SASU"))
 	      (:maintainers
@@ -46161,13 +46161,13 @@
 			  (:keywords "lisp")
 			  (:url . "https://github.com/rainstormstudio/nerd-icons-completion"))])
  (nerd-icons-dired .
-		   [(0 0 1 1 -4 20230511 1453)
+		   [(0 0 1 1 -4 20230803 1848)
 		    ((emacs
 		      (24 4))
 		     (nerd-icons
 		      (0 0 1)))
 		    "Shows icons for each file in dired mode" tar
-		    ((:commit . "87c493858c2b7a4cf0f9a50445adfefd41b2a02d")
+		    ((:commit . "00038929395a2a10ed5614b59161f29f9e0ffddc")
 		     (:authors
 		      ("Hongyu Ding" . "rainstormstudio@yahoo.com"))
 		     (:maintainers
@@ -50077,15 +50077,15 @@
 		       (:keywords "org-mode" "calendar")
 		       (:url . "https://github.com/dmitrym0/org-hyperscheduler"))])
  (org-id-cleanup .
-		 [(1 7 1 1 -4 20230310 1639)
+		 [(1 7 1 1 -4 20230803 1640)
 		  ((org
 		    (9 3))
 		   (dash
 		    (2 12))
 		   (emacs
 		    (26 3)))
-		  "Interactively find, present and maybe clean up unused IDs of org-id" tar
-		  ((:commit . "73d3f750d236dd486b8bcc07c88bfda9ce5b384e")
+		  "Interactively find, present and maybe delete unused IDs of org-id" tar
+		  ((:commit . "588acb063f1c73025f973cbbba64a9f65a737bdd")
 		   (:authors
 		    ("Marc Ihm" . "marc@ihm.name"))
 		   (:maintainers
@@ -50120,7 +50120,7 @@
 		 (:keywords "files")
 		 (:url . "https://github.com/tinloaf/org-incoming"))])
  (org-index .
-	    [(7 4 4 1 -4 20230103 1720)
+	    [(7 4 4 1 -4 20230803 1629)
 	     ((org
 	       (9 3))
 	      (dash
@@ -50129,13 +50129,13 @@
 	       (1 12))
 	      (emacs
 	       (26 3)))
-	     "No description available." tar
-	     ((:commit . "d919b9e2ef8c0f814455b82ffea080e872b89c72")
+	     "Ranked and incremental search among selected org-headlines" tar
+	     ((:commit . "1bf6e8d540774da3880d7c8e78eee15805409470")
 	      (:authors
-	       ("Marc Ihm" . "1@2484.de"))
+	       ("Marc Ihm" . "marc@ihm.name"))
 	      (:maintainers
-	       ("Marc Ihm" . "1@2484.de"))
-	      (:maintainer "Marc Ihm" . "1@2484.de")
+	       ("Marc Ihm" . "marc@ihm.name"))
+	      (:maintainer "Marc Ihm" . "marc@ihm.name")
 	      (:url . "https://github.com/marcIhm/org-index"))])
  (org-inline-anim .
 		  [(0 4 1 -4 20230610 1504)
@@ -52027,7 +52027,7 @@
 		      (:keywords "notification" "alert" "org" "org-agenda" "agenda")
 		      (:url . "https://github.com/akhramov/org-wild-notifier.el"))])
  (org-working-set .
-		  [(2 6 5 1 -4 20220414 1402)
+		  [(2 6 5 1 -4 20230803 1640)
 		   ((org
 		     (9 3))
 		    (dash
@@ -52036,13 +52036,13 @@
 		     (1 12))
 		    (emacs
 		     (26 3)))
-		   "Manage and visit a small set of org-nodes." tar
-		   ((:commit . "6af54ed3a5d9bf90629223157803c42f5d3b152c")
+		   "Manage and visit a small and changing set of org-nodes that you work on" tar
+		   ((:commit . "c83a63f34829dca137941bc06e29c34bf056a43b")
 		    (:authors
-		     ("Marc Ihm" . "1@2484.de"))
+		     ("Marc Ihm" . "marc@ihm.name"))
 		    (:maintainers
-		     ("Marc Ihm" . "1@2484.de"))
-		    (:maintainer "Marc Ihm" . "1@2484.de")
+		     ("Marc Ihm" . "marc@ihm.name"))
+		    (:maintainer "Marc Ihm" . "marc@ihm.name")
 		    (:url . "https://github.com/marcIhm/org-working-set"))])
  (org-wunderlist .
 		 [(0 1 1 -4 20191017 1917)
