@@ -5239,13 +5239,13 @@
 		    (:maintainer "Gergely Nagy")
 		    (:url . "https://git.madhouse-project.org/algernon/brutalist-theme.el"))])
  (bshell .
-	 [(0 10 1 -4 20201219 139)
+	 [(1 0 1 -4 20230805 1646)
 	  ((emacs
 	    (26))
 	   (buffer-manage
-	    (0 11)))
+	    (1 1)))
 	  "Manage and track multiple inferior shells" tar
-	  ((:commit . "469c841f19f28c271b4f172b40f3f9ca830254df")
+	  ((:commit . "57f3409168ec9649508e3ee30d0d2de8f81b960e")
 	   (:authors
 	    ("Paul Landes"))
 	   (:maintainers
@@ -7002,13 +7002,13 @@
 		   ((:commit . "ccc05f7ad96d3d1332727689bf6250443adc7ec0")
 		    (:url . "http://github.com/SavchenkoValeriy/emacs-chocolate-theme"))])
  (choice-program .
-		 [(0 10 1 -4 20220801 1839)
+		 [(0 14 1 -4 20230805 1641)
 		  ((emacs
 		    (26))
 		   (dash
 		    (2 17 0)))
 		  "Parameter based program" tar
-		  ((:commit . "ae6dc9d3fcf020e46fdd41f2b6fe5ca52c12aa93")
+		  ((:commit . "90df8d118c20d5d05ee97daf81012dc39759be92")
 		   (:authors
 		    ("Paul Landes"))
 		   (:maintainers
@@ -14726,7 +14726,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(4 0 0 1 -4 20230805 944)
+		[(4 0 0 1 -4 20230805 1703)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -14736,7 +14736,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "d45f341b5e19be9cff7dd4e6751aa11b654d8f27")
+		 ((:commit . "608c97f3e1c71d0bc0988a1834a43260e344033e")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainers
@@ -16616,18 +16616,18 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 5 3 -4 20230805 1048)
+	[(1 5 3 -4 20230805 1640)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "6fc93733b65a4455a479549690f37ee993efab1e")
+	 ((:commit . "5ac5f26869cf4bcd96adc00edd254a845197e77a")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainers
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
 	  (:keywords "maint" "tools")
-	  (:url . "https://github.com/doublep/eldev"))])
+	  (:url . "https://github.com/emacs-eldev/eldev"))])
  (eldoc-box .
 	    [(1 11 1 1 -4 20230803 51)
 	     ((emacs
@@ -18223,13 +18223,13 @@
 	  (:keywords "citations" "reference" "bibtex" "reftex")
 	  (:url . "http://github.com/dimalik/empos/"))])
  (empv .
-       [(4 0 0 1 -4 20230730 932)
+       [(4 0 0 1 -4 20230805 1633)
 	((emacs
 	  (28 1))
 	 (s
 	  (1 13 0)))
 	"A multimedia player/manager, YouTube interface" tar
-	((:commit . "7a57fa24e618b05dbc73f96d3a4679d3211a9f09")
+	((:commit . "60df27d081735a65d63c0c64207fd9a0a10683fa")
 	 (:authors
 	  ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
 	 (:maintainers
@@ -22540,7 +22540,7 @@
 		   (:maintainer "Scott Raine" . "scott@raine.sh")
 		   (:url . "https://github.com/nylar/fleetish-emacs-theme"))])
  (flex-compile .
-	       [(1 3 1 -4 20230721 2034)
+	       [(1 4 1 -4 20230805 1653)
 		((emacs
 		  (26 1))
 		 (dash
@@ -22548,7 +22548,7 @@
 		 (buffer-manage
 		  (1 1)))
 		"Run, evaluate and compile across many languages" tar
-		((:commit . "e308d3d9400bc3e0e69eb53e133f1f2e7163d4d4")
+		((:commit . "58890e08800059550565a20dc7029e8bcccc55de")
 		 (:authors
 		  ("Paul Landes"))
 		 (:maintainers
@@ -25853,11 +25853,11 @@
 		       ((:commit . "be572b8953b9e5a3a35c30bb64c2936d3e9802ba")
 			(:url . "https://github.com/p3r7/prf-tramp"))])
  (frimacs .
-	  [(1 0 1 -4 20230409 1041)
+	  [(1 0 1 -4 20230805 1731)
 	   ((emacs
 	     (26 1)))
 	   "An environment for the FriCAS computer algebra system" tar
-	   ((:commit . "dfba4a1ca94b5f1d29659c3f786647dcdc315672")
+	   ((:commit . "0ff73440dcaced28cf35e5e542c8936702395185")
 	    (:authors
 	     ("Paul Onions" . "paul.onions@acm.org"))
 	    (:maintainers
@@ -42701,13 +42701,13 @@
 	       (:keywords "docs" "help" "matching" "completion")
 	       (:url . "https://github.com/minad/marginalia"))])
  (mark-thing-at .
-		[(0 3 1 -4 20201219 232)
+		[(1 0 1 -4 20230805 1701)
 		 ((emacs
 		   (26))
 		  (choice-program
-		   (0 13)))
+		   (0 14)))
 		 "Mark a pattern at the current point" tar
-		 ((:commit . "a622d128afc8d2d67de897666a1e2eccba8d7818")
+		 ((:commit . "22ce137450890421c8dce79943c96dec79a65d77")
 		  (:authors
 		   ("Paul Landes"))
 		  (:maintainers
@@ -42726,13 +42726,13 @@
 	       (:maintainer "Alex Benn\303\251e" . "alex@bennee.com")
 	       (:url . "https://github.com/stsquad/emacs-mark-tools"))])
  (markdown-changelog .
-		     [(0 1 1 -4 20200120 2253)
+		     [(0 2 1 -4 20230805 1720)
 		      ((emacs
 			(26))
 		       (dash
 			(2 13 0)))
 		      "Maintain changelog entries" tar
-		      ((:commit . "1a2c3a4c3e4196f2b5dbb145b01b4bc435a93a96")
+		      ((:commit . "403d2cd1cff932ae135692d57062824892e01d13")
 		       (:authors
 			("Paul Landes"))
 		       (:maintainers
@@ -72413,11 +72413,11 @@
 			 (:maintainer "Joe Staursky")
 			 (:url . "https://github.com/jstaursky/weyland-yutani-theme"))])
  (wfnames .
-	  [(1 1 1 -4 20230712 1154)
+	  [(1 1 1 -4 20230805 1952)
 	   ((emacs
 	     (24 3)))
 	   "Edit filenames" tar
-	   ((:commit . "4447417c58b063df1fca1ba4bec9cb650c7beb60")
+	   ((:commit . "7b50001525b477a66e74bb1f749195d59f800872")
 	    (:authors
 	     ("Thierry Volpiatto" . "thievol@posteo.net"))
 	    (:maintainers
