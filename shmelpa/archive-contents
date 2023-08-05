@@ -19702,16 +19702,18 @@
 		 (:keywords "euslisp" "euslisp" "github")
 		 (:url . "https://github.com/iory/euslisp-mode"))])
  (eval-in-repl .
-	       [(0 9 6 1 -4 20201121 1341)
+	       [(0 9 7 1 -4 20230805 2125)
 		((dash
-		  (0 0 0))
+		  (0))
 		 (paredit
-		  (0 0 0))
+		  (0))
 		 (ace-window
-		  (0 0 0)))
+		  (0)))
 		"Consistent ESS-like eval interface for various REPLs" tar
-		((:commit . "2abb9ccf6f08ae3a5ab504f0b3fd81ce0345b766")
+		((:commit . "a57c6a790c0ca72b0d1218b837d3114ef874dd1f")
 		 (:authors
+		  ("Kazuki YOSHIDA" . "kazukiyoshida@mail.harvard.edu"))
+		 (:maintainers
 		  ("Kazuki YOSHIDA" . "kazukiyoshida@mail.harvard.edu"))
 		 (:maintainer "Kazuki YOSHIDA" . "kazukiyoshida@mail.harvard.edu")
 		 (:keywords "tools" "convenience")
@@ -30042,7 +30044,7 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 2 1 -4 20230805 1410)
+       [(3 9 2 1 -4 20230805 1606)
 	((helm-core
 	  (3 9 2))
 	 (wfnames
@@ -30050,7 +30052,7 @@
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "a19d2742dd162fdd716ed6eecac6d7b310a375d5")
+	((:commit . "2e514ad65ea0fdd282becf4f99e16f9c2b360371")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -30539,13 +30541,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 9 2 1 -4 20230805 1410)
+	    [(3 9 2 1 -4 20230805 1946)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 7)))
 	     "Development files for Helm" tar
-	     ((:commit . "a19d2742dd162fdd716ed6eecac6d7b310a375d5")
+	     ((:commit . "cc045f492ed07692987808f82b7c2bcfd59551e2")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainers
@@ -43203,11 +43205,11 @@
 	  (:keywords "ahungry" "reddit" "browse" "news")
 	  (:url . "https://github.com/ahungry/md4rd"))])
  (media-progress .
-		 [(0 1 0 1 -4 20230701 911)
+		 [(0 1 0 1 -4 20230805 2231)
 		  ((emacs
 		    (28 1)))
 		  "Display position where media player stopped" tar
-		  ((:commit . "a9137d64bb6a786d6a50523237b9d9cc53ffed57")
+		  ((:commit . "951742e9e741a71bf527a23bf56deeedb12af7bd")
 		   (:authors
 		    ("Dmitriy Pshonko <http://github.com/jumper047>"))
 		   (:maintainers
