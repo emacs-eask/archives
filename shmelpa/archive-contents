@@ -909,6 +909,19 @@
 			(:maintainer "Paul d'Hubert" . "paul.dhubert@ya.ru")
 			(:keywords "calendar" "comm")
 			(:url . "https://github.com/pauldub/activity-watch-mode"))])
+ (ada-ts-mode .
+	      [(0 5 1 1 -4 20230730 1822)
+	       ((emacs
+		 (29 1)))
+	       "Major mode for Ada using Tree-sitter" tar
+	       ((:commit . "3aafc58656a43cbbfbcc9bcf868098e0dfa6c326")
+		(:authors
+		 ("Troy Brown" . "brownts@troybrown.dev"))
+		(:maintainers
+		 ("Troy Brown" . "brownts@troybrown.dev"))
+		(:maintainer "Troy Brown" . "brownts@troybrown.dev")
+		(:keywords "ada" "languages" "tree-sitter")
+		(:url . "https://github.com/brownts/ada-ts-mode"))])
  (adafruit-wisdom .
 		  [(0 3 0 1 -4 20200217 306)
 		   ((emacs
@@ -4505,6 +4518,26 @@
 	       (:maintainer "liuyinz" . "liuyinz95@gmail.com")
 	       (:keywords "convenience")
 	       (:url . "https://github.com/liuyinz/binky-mode"))])
+ (biome .
+	[(0 1 0 1 -4 20230725 1253)
+	 ((emacs
+	   (27 1))
+	  (transient
+	   (0 3 7))
+	  (ct
+	   (0 2))
+	  (request
+	   (0 3 3))
+	  (compat
+	   (29 1 4 1)))
+	 "Bountiful Interface to Open Meteo for Emacs" tar
+	 ((:commit . "aee39851e2827329f955d657a2bdf7d4874e97ae")
+	  (:authors
+	   ("Korytov Pavel" . "thexcloud@gmail.com"))
+	  (:maintainers
+	   ("Korytov Pavel" . "thexcloud@gmail.com"))
+	  (:maintainer "Korytov Pavel" . "thexcloud@gmail.com")
+	  (:url . "https://github.com/SqrtMinusOne/biome"))])
  (birds-of-paradise-plus-theme .
 			       [(0 1 1 1 -4 20130419 2129)
 				nil "A brown/orange light-on-dark theme for Emacs 24 (deftheme)." tar
@@ -7017,13 +7050,13 @@
 		   (:keywords "execution" "processes" "unix" "lisp")
 		   (:url . "https://github.com/plandes/choice-program"))])
  (chordpro-mode .
-		[(1 0 0 1 -4 20230725 1841)
+		[(1 0 0 1 -4 20230806 1830)
 		 ((emacs
 		   (28 1))
 		  (compat
 		   (29 1 4 1)))
 		 "Major mode for ChordPro lead sheet file format" tar
-		 ((:commit . "e0e0840fdce7bc689a3233545d43cc4776822563")
+		 ((:commit . "f34aca8faf2954c5dc32f4ee38aafc6b44af4093")
 		  (:authors
 		   ("Howard Ding" . "hading2@gmail.com"))
 		  (:maintainers
@@ -10135,13 +10168,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 35 1 -4 20230729 2329)
+	  [(0 35 1 -4 20230806 1802)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (29 1 4 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "be4fdb6246fb2cada13459fbabae5dd0553e1fd9")
+	   ((:commit . "c971f8db1bc69d2400c3c76d00ebc8a651c3926d")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainers
@@ -21841,6 +21874,18 @@
 		  ("Michael Klishin"))
 		 (:maintainer "Michael Klishin")
 		 (:url . "https://github.com/michaelklishin/cucumber.el"))])
+ (fedi .
+       [(0 0 2 1 -4 20230801 1500)
+	((emacs
+	  (28 1)))
+	"Helper functions for fediverse clients" tar
+	((:commit . "308e671f8f5329f28d3846b0c31039f52bd9d6e7")
+	 (:authors
+	  ("Marty Hiatt" . "martianhiatus@riseup.net"))
+	 (:maintainers
+	  ("Marty Hiatt" . "martianhiatus@riseup.net"))
+	 (:maintainer "Marty Hiatt" . "martianhiatus@riseup.net")
+	 (:url . "https://codeberg.org/martianh/fedi.el"))])
  (feebleline .
 	     [(2 0 1 -4 20190822 1401)
 	      nil "Replace modeline with a slimmer proxy" tar
@@ -22778,6 +22823,21 @@
 	     (:maintainer "Cl\303\251ment Pit-Claudel" . "clement.pitclaudel@live.com")
 	     (:keywords "convenience" "languages" "tools")
 	     (:url . "http://www.flycheck.org"))])
+ (flycheck-actionlint .
+		      [(0 2 0 1 -4 20230802 913)
+		       ((emacs
+			 (26))
+			(flycheck
+			 (32)))
+		       "Flycheck integration for actionlint" tar
+		       ((:commit . "f3baf396b534f8b874d3ae885cc1dd53b5098dff")
+			(:authors
+			 ("Theodor-Alexandru Irimia"))
+			(:maintainers
+			 ("Theodor-Alexandru Irimia"))
+			(:maintainer "Theodor-Alexandru Irimia")
+			(:keywords "convenience" "github" "linter" "flycheck")
+			(:url . "https://github.com/tirimia/flycheck-actionlint"))])
  (flycheck-ameba .
 		 [(0 1 -4 20191226 1011)
 		  ((emacs
@@ -24379,6 +24439,21 @@
 		   ("Austin Bingham" . "austin.bingham@gmail.com"))
 		  (:maintainer "Austin Bingham" . "austin.bingham@gmail.com")
 		  (:url . "https://github.com/abingham/emacs-ycmd"))])
+ (flymake-actionlint .
+		     [(0 1 0 1 -4 20230731 753)
+		      ((emacs
+			(24 1))
+		       (flymake-easy
+			(0 0 0)))
+		      "A Flymake handler for actionlint" tar
+		      ((:commit . "98a47bc6ae2d31f699e98caf8093d5bb8cc04771")
+		       (:authors
+			("ROCKTAKEY" . "rocktakey@gmail.com"))
+		       (:maintainers
+			("ROCKTAKEY" . "rocktakey@gmail.com"))
+		       (:maintainer "ROCKTAKEY" . "rocktakey@gmail.com")
+		       (:keywords "convenience")
+		       (:url . "https://github.com/ROCKTAKEY/flymake-actionlint"))])
  (flymake-aspell .
 		 [(0 1 0 1 -4 20230408 957)
 		  ((emacs
@@ -24392,6 +24467,19 @@
 		   (:maintainer "Leo Gaskin" . "leo.gaskin@le0.gs")
 		   (:keywords "wp" "flymake" "spell" "aspell")
 		   (:url . "https://github.com/leotaku/flycheck-aspell"))])
+ (flymake-clippy .
+		 [(1 0 0 1 -4 20230730 1924)
+		  ((emacs
+		    (26 1)))
+		  "Flymake backend for Clippy" tar
+		  ((:commit . "fb4ce2e9b9f7703bd38a2acc2595a02f3822cac7")
+		   (:authors
+		    ("Graham Marlow" . "info@mgmarlow.com"))
+		   (:maintainers
+		    ("Graham Marlow" . "info@mgmarlow.com"))
+		   (:maintainer "Graham Marlow" . "info@mgmarlow.com")
+		   (:keywords "tools")
+		   (:url . "https://sr.ht/~mgmarlow/flymake-clippy/"))])
  (flymake-coffee .
 		 [(0 1 -4 20170723 146)
 		  ((flymake-easy
@@ -24926,6 +25014,21 @@
 		   (:maintainer "Siavash Askari Nasr" . "ciavash@proton.me")
 		   (:keywords "language" "tools" "convenience")
 		   (:url . "https://github.com/Raku/flymake-rakudo"))])
+ (flymake-relint .
+		 [(0 1 0 1 -4 20230803 120)
+		  ((emacs
+		    (26 1))
+		   (relint
+		    (1 23)))
+		  "A relint Flymake backend" tar
+		  ((:commit . "cded537b8208e87632e1fb5b9bdc819a736eb9a3")
+		   (:authors
+		    ("liuyinz" . "liuyinz95@gmail.com"))
+		   (:maintainers
+		    ("liuyinz" . "liuyinz95@gmail.com"))
+		   (:maintainer "liuyinz" . "liuyinz95@gmail.com")
+		   (:keywords "lisp")
+		   (:url . "https://github.com/liuyinz/flymake-relint"))])
  (flymake-ruby .
 	       [(0 1 -4 20170723 146)
 		((flymake-easy
@@ -26354,13 +26457,13 @@
 	     (:keywords "evernote" "geeknote" "note" "emacs-evernote" "evernote-mode")
 	     (:url . "http://github.com/avendael/emacs-geeknote"))])
  (geiser .
-	 [(0 29 1 -4 20230719 2251)
+	 [(0 29 1 1 -4 20230806 1857)
 	  ((emacs
-	    (25 1))
+	    (27 1))
 	   (project
 	    (0 8 1)))
 	  "GNU Emacs and Scheme talk to each other" tar
-	  ((:commit . "761c65be5763a0cac161f2d9ea9dec510f58b83d")
+	  ((:commit . "d743a8cd1df4101a6dc2226ccfc3b4883ec761c5")
 	   (:authors
 	    ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
 	   (:maintainers
@@ -36758,9 +36861,9 @@
 	   (:maintainer "zk_phi")
 	   (:url . "http://zk-phi.github.io/"))])
  (jazz-theme .
-	     [(1 0 1 -4 20230722 1307)
+	     [(1 0 1 -4 20230806 1518)
 	      nil "A warm color theme for Emacs 24+." tar
-	      ((:commit . "1905841af1df7b7075dcc8e1e3df4a9b5022f4a8")
+	      ((:commit . "54777a103746a0b6413ce0210326e3d2c10a0288")
 	       (:authors
 		("Roman Parykin" . "donderom@ymail.com"))
 	       (:maintainers
@@ -37838,7 +37941,7 @@
 	      (:keywords "files" "languages" "tools")
 	      (:url . "https://github.com/leon-barrett/just-mode.el"))])
  (justl .
-	[(0 12 1 -4 20230612 1546)
+	[(0 12 1 -4 20230806 1709)
 	 ((transient
 	   (0 1 0))
 	  (emacs
@@ -37848,7 +37951,7 @@
 	  (f
 	   (0 20 0)))
 	 "Major mode for driving just files" tar
-	 ((:commit . "e5393959ecfa935de99757ea83da2ad6777e5def")
+	 ((:commit . "537323a0e7a1463ac99cebfb324126edfe0a1e80")
 	  (:authors
 	   ("Sibi Prabakaran"))
 	  (:maintainers
