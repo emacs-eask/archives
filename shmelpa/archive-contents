@@ -51376,6 +51376,28 @@
 		    (:maintainer "Mykhailo Shevchuk" . "mail@mshevchuk.com")
 		    (:keywords "bib" "hypermedia" "outlines" "wp")
 		    (:url . "https://github.com/org-roam/org-roam-bibtex"))])
+ (org-roam-ql .
+	      [(0 1 1 -4 20230801 213)
+	       ((emacs
+		 (28))
+		(org-roam
+		 (2 2 0))
+		(s
+		 (1 12 0))
+		(magit-section
+		 (3 3 0))
+		(transient
+		 (0 4))
+		(org-super-agenda
+		 (1 2)))
+	       "Interface to query and view results from org-roam" tar
+	       ((:commit . "13981848af3a75f0f4b43ab080a9734f69d2477d")
+		(:authors
+		 ("Shariff AM Faleel"))
+		(:maintainers
+		 ("Shariff AM Faleel"))
+		(:maintainer "Shariff AM Faleel")
+		(:url . "https://github.com/ahmed-shariff/org-roam-ql"))])
  (org-roam-timestamps .
 		      [(1 0 0 1 -4 20221104 1544)
 		       ((emacs
@@ -53494,13 +53516,13 @@
 	    (:keywords "org-mode" "trac")
 	    (:url . "https://github.com/JalapenoGremlin/ox-trac"))])
  (ox-tufte .
-	   [(2 0 0 1 -4 20230802 2339)
+	   [(2 0 1 1 -4 20230806 1726)
 	    ((org
 	      (9 5))
 	     (emacs
 	      (27 1)))
 	    "Tufte HTML org-mode export backend" tar
-	    ((:commit . "352d5ff5d5cd5edcb0d50ce50a5b2aaa8ae6862a")
+	    ((:commit . "108465438ba82ea0b2293fb64bd8645bc89ccbbe")
 	     (:authors
 	      ("M. Lee Hinman"))
 	     (:maintainers
@@ -65050,6 +65072,20 @@
 		    (:maintainer "Bryan Gilbert" . "gilbertw1@gmail.com")
 		    (:keywords "themes")
 		    (:url . "http://github.com/gilbertw1/sourcerer-emacs"))])
+ (sozluk .
+	 [(1 0 0 1 -4 20230730 1749)
+	  ((emacs
+	    (27 1))
+	   (dash
+	    (2 11 0)))
+	  "An online Turkish dictionary" tar
+	  ((:commit . "420ace999fa0d27fbc6aa6011313488c8664a925")
+	   (:authors
+	    ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
+	   (:maintainers
+	    ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
+	   (:maintainer "Isa Mert Gurbuz" . "isamertgurbuz@gmail.com")
+	   (:url . "https://github.com/isamert/sozluk.el"))])
  (space-theming .
 		[(0 1 0 1 -4 20200502 1032)
 		 ((emacs
@@ -75058,6 +75094,18 @@
 	   (:maintainer "Folkert van der Beek" . "folkertvanderbeek@gmail.com")
 	   (:keywords "zotero" "hypermedia")
 	   (:url . "https://gitlab.com/fvdbeek/emacs-zotero"))])
+ (zotra .
+	[(1 0 1 -4 20230806 1831)
+	 ((emacs
+	   (27 1)))
+	 "Library to use Zotero translators" tar
+	 ((:commit . "e9e08d3bf4b41b94049baa87c43e1f1e354c97a0")
+	  (:authors
+	   ("Mohammad Pedramfar <https://github.com/mpedramfar>"))
+	  (:maintainers
+	   ("Mohammad Pedramfar <https://github.com/mpedramfar>"))
+	  (:maintainer "Mohammad Pedramfar <https://github.com/mpedramfar>")
+	  (:url . "https://github.com/mpedramfar/zotra"))])
  (zotxt .
 	[(5 0 5 1 -4 20210908 402)
 	 ((request
