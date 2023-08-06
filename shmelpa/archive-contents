@@ -29848,20 +29848,12 @@
 		       (:keywords "haskell" "emacs" "ffi")
 		       (:url . "https://github.com/knupfer/haskell-emacs/modules/text"))])
  (haskell-mode .
-	       [(17 3 1 -4 20230804 640)
+	       [(17 4 1 -4 20230806 1107)
 		((emacs
 		  (25 1)))
 		"A Haskell editing mode" tar
-		((:commit . "e8358945845b15cbcc4c1479e51b5236bac61b72")
-		 (:authors
-		  ("1992      Simon Marlow")
-		  ("1997-1998 Graeme E Moss" . "gem@cs.york.ac.uk")
-		  ("Tommy Thorn" . "thorn@irisa.fr")
-		  ("2001-2002 Reuben Thomas (>=v1.4)")
-		  ("2003      Dave Love" . "fx@gnu.org")
-		  ("2016      Arthur Fayzrakhmanov"))
-		 (:maintainer "1992      Simon Marlow")
-		 (:keywords "faces" "files" "haskell")
+		((:commit . "79af559b6d750aff32a916a81cc4fb63ecfd588d")
+		 (:keywords "haskell" "cabal" "ghc" "repl" "languages")
 		 (:url . "https://github.com/haskell/haskell-mode"))])
  (haskell-snippets .
 		   [(0 1 0 1 -4 20210228 344)
@@ -53577,7 +53569,7 @@
 		   (:maintainer "Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		   (:url . "https://github.com/milkypostman/package-filter"))])
  (package-lint .
-	       [(0 18 1 -4 20230804 654)
+	       [(0 19 1 -4 20230806 1331)
 		((cl-lib
 		  (0 5))
 		 (emacs
@@ -53585,7 +53577,7 @@
 		 (let-alist
 		     (1 0 6)))
 		"A linting library for elisp package authors" tar
-		((:commit . "bc1ccda5e9accefcafa42712a274197a4b465733")
+		((:commit . "91d0f1077c78753e09973d63fb3e571413a4c206")
 		 (:authors
 		  ("Steve Purcell" . "steve@sanityinc.com")
 		  ("Fanael Linithien" . "fanael4@gmail.com"))
@@ -53595,13 +53587,13 @@
 		 (:keywords "lisp")
 		 (:url . "https://github.com/purcell/package-lint"))])
  (package-lint-flymake .
-		       [(0 1 -4 20230804 654)
+		       [(0 1 -4 20230806 1331)
 			((emacs
 			  (26 1))
 			 (package-lint
 			  (0 5)))
 			"A package-lint Flymake backend" tar
-			((:commit . "bc1ccda5e9accefcafa42712a274197a4b465733")
+			((:commit . "91d0f1077c78753e09973d63fb3e571413a4c206")
 			 (:url . "https://github.com/purcell/package-lint"))])
  (package-loading-notifier .
 			   [(0 3 0 1 -4 20220130 318)
