@@ -19822,7 +19822,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20230806 1536)
+       [(1 15 0 1 -4 20230807 852)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -19830,7 +19830,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "2b1e18552216a05014fa5ffe4cb54f595b1008a7")
+	((:commit . "fa41a4958c204f6e1254e7ebc5ca1b073889ed5c")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulations")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -20841,13 +20841,11 @@
 			(:keywords "evil" "syntax" "highlight" "text-object")
 			(:url . "https://github.com/laishulu/evil-textobj-syntax"))])
  (evil-textobj-tree-sitter .
-			   [(0 1 1 -4 20230704 1451)
+			   [(0 1 1 -4 20230807 1054)
 			    ((emacs
-			      (25 1))
-			     (tree-sitter
-			      (0 15 0)))
+			      (25 1)))
 			    "Provides evil textobjects using tree-sitter" tar
-			    ((:commit . "e8bb9d63deeb2953ff9600e1633de667b3d7673e")
+			    ((:commit . "c5f6368c6923f33057a62fc8808733c62609a761")
 			     (:keywords "evil" "tree-sitter" "text-object" "convenience")
 			     (:url . "https://github.com/meain/evil-textobj-tree-sitter"))])
  (evil-traces .
@@ -34806,7 +34804,7 @@
 	   (:maintainer "Joel Rosdahl" . "joel@rosdahl.net")
 	   (:url . "https://github.com/jrosdahl/iflipb"))])
  (igist .
-	[(1 2 0 1 -4 20230806 1423)
+	[(1 2 1 1 -4 20230807 831)
 	 ((emacs
 	   (27 1))
 	  (ghub
@@ -34814,7 +34812,7 @@
 	  (transient
 	   (0 3 7)))
 	 "List, create, update and delete GitHub gists" tar
-	 ((:commit . "87e71a596ae004f0ee3480753a03ab76f9eb927c")
+	 ((:commit . "ff8be673decc92d1dbfbfbb66785aaa2adec0b63")
 	  (:authors
 	   ("Karim Aziiev" . "karim.aziiev@gmail.com"))
 	  (:maintainers
@@ -41976,17 +41974,17 @@
 		       (:maintainer "zk_phi")
 		       (:url . "http://zk-phi.github.io/"))])
  (magik-mode .
-	     [(0 0 1 1 -4 20230804 949)
+	     [(0 0 1 1 -4 20230807 912)
 	      ((emacs
 		(24 4))
 	       (compat
 		(28 1)))
 	      "mode for editing Magik + some utils." tar
-	      ((:commit . "aa75213fad924a2ca72c6e2ac526f4d40a53682c")
+	      ((:commit . "1f395999f2ad25f96f10b766f939d180d860ad89")
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230807 53)
+	[(3 3 0 50 -4 20230807 1127)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -42004,7 +42002,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "e7ff79dcf1088339fcb01fd60f59620331210c63")
+	 ((:commit . "93d30c5459e75a0d53581da2a5539a54efa329ab")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
