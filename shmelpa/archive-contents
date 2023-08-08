@@ -25497,11 +25497,11 @@
 	      (:keywords "data" "font" "rasterization" "ttf" "otf")
 	      (:url . "https://github.com/jollm/fontsloth"))])
  (for .
-      [(1 4 1 -4 20230507 702)
+      [(1 4 1 -4 20230808 1022)
        ((emacs
 	 (28 1)))
        "Iteration and sequence" tar
-       ((:commit . "81f97e3f10c3ea9eb29759c2442dcf919d95d842")
+       ((:commit . "9af133104995be358c019fa24301db7d8c55e9ff")
 	(:authors
 	 ("Wing Hei Chan" . "whmunkchan@outlook.com"))
 	(:maintainers
@@ -30137,7 +30137,7 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 3 1 -4 20230806 1956)
+       [(3 9 3 1 -4 20230808 1057)
 	((helm-core
 	  (3 9 3))
 	 (wfnames
@@ -30145,7 +30145,7 @@
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "97edf0af7bad329bca11e0c617d4c81f2d126a11")
+	((:commit . "a968b9bdd243f9d8d9d572656268421cb1ea8b39")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -30634,13 +30634,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 9 3 1 -4 20230806 1956)
+	    [(3 9 3 1 -4 20230808 1057)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 7)))
 	     "Development files for Helm" tar
-	     ((:commit . "97edf0af7bad329bca11e0c617d4c81f2d126a11")
+	     ((:commit . "a968b9bdd243f9d8d9d572656268421cb1ea8b39")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainers
@@ -47044,7 +47044,7 @@
 		   (:keywords "faces" "theme")
 		   (:url . "https://git.sr.ht/~lthms/colorless-themes.el"))])
  (norns .
-	[(0 0 1 1 -4 20230715 858)
+	[(0 0 1 1 -4 20230808 938)
 	 ((emacs
 	   (27 1))
 	  (dash
@@ -47056,9 +47056,11 @@
 	  (request
 	   (0 3 2))
 	  (websocket
-	   (1 13)))
+	   (1 13))
+	  (lua-mode
+	   (20221218 605)))
 	 "Interactive development environment for monome norns" tar
-	 ((:commit . "1a342900d70b306578f6e1ab8daabc62a8a610fd")
+	 ((:commit . "da737848883152782abc746a197ce6fd3d371ef2")
 	  (:keywords "processes" "terminals")
 	  (:url . "https://github.com/p3r7/norns.el"))])
  (northcode-theme .
