@@ -67516,7 +67516,7 @@
 	 (:keywords "convenience" "emulations" "files")
 	 (:url . "https://github.com/mtk/teco.git"))])
  (telega .
-	 [(0 8 151 1 -4 20230808 943)
+	 [(0 8 151 1 -4 20230808 1055)
 	  ((emacs
 	    (27 1))
 	   (visual-fill-column
@@ -67524,7 +67524,7 @@
 	   (rainbow-identifiers
 	    (0 2 2)))
 	  "Telegram client (unofficial)" tar
-	  ((:commit . "ce21c3b506d7fe19bdd153f72a9c4ad95fce7ed8")
+	  ((:commit . "3e882f57e4ac91f4a296ca49a37f613c29db59bb")
 	   (:authors
 	    ("Zajcev Evgeny" . "zevlg@yandex.ru"))
 	   (:maintainers
@@ -71459,7 +71459,7 @@
 	      (:keywords "convenience" "usability" "vhdl" "completion")
 	      (:url . "https://github.com/sh-ow/vhdl-capf"))])
  (vhdl-ext .
-	   [(0 1 0 1 -4 20230618 1337)
+	   [(0 1 0 1 -4 20230808 1153)
 	    ((emacs
 	      (28 1))
 	     (eglot
@@ -71475,9 +71475,13 @@
 	     (flycheck
 	      (33 -4))
 	     (company
-	      (0 9 13)))
+	      (0 9 13))
+	     (outshine
+	      (3 1 -1))
+	     (async
+	      (1 9 7)))
 	    "VHDL Extensions" tar
-	    ((:commit . "4e2702723111f4a8cfc300ce502e6a177929f117")
+	    ((:commit . "fc103bb1a5b2851d81c5908191bf7ba5c4820486")
 	     (:authors
 	      ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 	     (:maintainers
