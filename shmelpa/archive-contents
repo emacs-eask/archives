@@ -14600,13 +14600,13 @@
 			(:keywords "convenience")
 			(:url . "https://github.com/meqif/docker-compose-mode"))])
  (docker-tramp .
-	       [(0 1 1 1 -4 20220219 420)
+	       [(0 1 1 1 -4 20230809 511)
 		((emacs
 		  (24))
 		 (cl-lib
 		  (0 5)))
-		"TRAMP integration for docker containers" tar
-		((:commit . "930d7b46c180d8a13240a028c1b40af84f2a3219")
+		"TRAMP integration for docker containers for Emacs 28 and earlier" tar
+		((:commit . "19d0771db4e6b89e19c00af5806438e315779c15")
 		 (:authors
 		  ("Mario Rodas" . "marsam@users.noreply.github.com"))
 		 (:maintainers
@@ -15239,11 +15239,11 @@
        (:keywords "convenience" "games")
        (:url . "https://github.com/integral-dw/dw-passphrase-generator"))])
  (dwim-coder-mode .
-		  [(0 0 1 1 -4 20230808 1755)
+		  [(0 0 1 1 -4 20230809 416)
 		   ((emacs
 		     (29)))
 		   "DWIM keybindings for C, Python, Rust, and more" tar
-		   ((:commit . "bf0b7acdad380382f217c4467e49e7a60a4bb93f")
+		   ((:commit . "ef24b18645ba506e6abe2d390db8f9bb4028f381")
 		    (:authors
 		     ("Mohammed Sadiq" . "sadiq@sadiqpk.org"))
 		    (:maintainers
