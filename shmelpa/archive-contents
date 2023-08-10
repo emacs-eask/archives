@@ -8134,11 +8134,11 @@
 	      (:keywords "languages")
 	      (:url . "http://github.com/atilaneves/cmake-ide"))])
  (cmake-mode .
-	     [(0 1 0 1 -4 20230725 1758)
+	     [(0 1 0 1 -4 20230810 1530)
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" tar
-	      ((:commit . "b5c54d9c8a1fdfdbf1a133040029a4924b69185e"))])
+	      ((:commit . "f3d9a8211042c3df043d886f2217a705a62168a8"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" tar
@@ -14759,17 +14759,17 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(4 0 0 1 -4 20230807 1218)
+		[(4 0 0 1 -4 20230810 1549)
 		 ((emacs
 		   (25 1))
 		  (compat
-		   (28 1 1 1))
+		   (29 1 1 1))
 		  (nerd-icons
 		   (0 0 1))
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "de4af51c04237555ee3030502bdb57597cefb181")
+		 ((:commit . "36dd97728611ca419de06cfec9da42a1fe9ba024")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainers
@@ -19822,7 +19822,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20230809 923)
+       [(1 15 0 1 -4 20230810 1538)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -19830,7 +19830,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "26db9441a13ebedb2481d7ada4c3b5e60ec22795")
+	((:commit . "5e72cf5b6d57b785ea229236bb5c4638db2c9a05")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulations")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -22613,7 +22613,7 @@
 		 (:keywords "convenience" "search")
 		 (:url . "https://bitbucket.org/jpkotta/flex-isearch"))])
  (flim .
-       [(1 14 9 1 -4 20230205 1423)
+       [(1 14 9 1 -4 20230808 1153)
 	((emacs
 	  (24 5))
 	 (apel
@@ -22621,7 +22621,7 @@
 	 (oauth2
 	  (0 11)))
 	"A library to provide basic features about message representation or encoding." tar
-	((:commit . "2cf5a7891090faca8de725b1d3743dcedf233ea2"))])
+	((:commit . "80b8121f05a5a0d7fcfe3e54085467a646dd2028"))])
  (flimenu .
 	  [(0 0 0 1 -4 20200810 1510)
 	   ((emacs
@@ -24609,13 +24609,13 @@
 		   (:keywords "languages" "tools")
 		   (:url . "https://github.com/orzechowskid/flymake-eslint"))])
  (flymake-flycheck .
-		   [(0 1 -1 1 -4 20220313 924)
+		   [(0 1 -1 1 -4 20230810 1654)
 		    ((flycheck
 		      (31))
 		     (emacs
 		      (26 1)))
 		    "Use flycheck checkers as flymake backends" tar
-		    ((:commit . "850a3f2f6908db5d4a3739e385b2c9fb3ad488f9")
+		    ((:commit . "bd278d47ee2cc4ea6b8bd1dcf502023f39823563")
 		     (:authors
 		      ("Steve Purcell" . "steve@sanityinc.com"))
 		     (:maintainers
@@ -29695,11 +29695,11 @@
 	       (:keywords "comm" "hypermedia" "news")
 	       (:url . "https://github.com/clarete/hackernews.el"))])
  (haki-theme .
-	     [(0 1 1 -4 20230802 729)
+	     [(0 1 1 -4 20230810 1516)
 	      ((emacs
 		(27 1)))
 	      "An elegant, high-contrast dark theme in modern sense" tar
-	      ((:commit . "522948af6b7d562d70e366dfce152464f058b8ea")
+	      ((:commit . "1508a65590aecb306d5cd5e740c243ec5fc6c503")
 	       (:authors
 		("Dilip"))
 	       (:maintainers
@@ -30137,7 +30137,7 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 3 1 -4 20230810 1221)
+       [(3 9 3 1 -4 20230810 1601)
 	((helm-core
 	  (3 9 3))
 	 (wfnames
@@ -30145,7 +30145,7 @@
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "dc56b5d582d637b326624598f6f639d4ea5339d9")
+	((:commit . "9ddd686e044d6f9293a4f299fb17e157f1288c4e")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -30634,13 +30634,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 9 3 1 -4 20230808 1057)
+	    [(3 9 3 1 -4 20230810 1455)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 7)))
 	     "Development files for Helm" tar
-	     ((:commit . "a968b9bdd243f9d8d9d572656268421cb1ea8b39")
+	     ((:commit . "ae6dac47c63ae9ec61fb918a1c89f716184f2e14")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainers
@@ -39769,11 +39769,11 @@
 		  (:maintainer "Damien Cassou" . "damien@cassou.me")
 		  (:url . "https://gitlab.petton.fr/mpdel/libmpdel"))])
  (ledger-mode .
-	      [(0 1 0 1 -4 20230727 615)
+	      [(0 1 0 1 -4 20230810 1707)
 	       ((emacs
 		 (25 1)))
 	       "Helper code for use with the \"ledger\" command-line tool" tar
-	       ((:commit . "846dd204dbf7d181947a5b6445ca19b37b3b06b0"))])
+	       ((:commit . "6ca9e1b487ba642dbc28a2d81e0dbbb1a5a617ba"))])
  (leerzeichen .
 	      [(0 1 0 1 -4 20220626 835)
 	       nil "Minor mode to display whitespace characters." tar
@@ -62387,7 +62387,7 @@
 		      (:keywords "processes" "unix")
 		      (:url . "http://github.com/webnf/semaphore.el"))])
  (semi .
-       [(1 14 7 1 -4 20230104 1321)
+       [(1 14 7 1 -4 20230810 1523)
 	((emacs
 	  (24 5))
 	 (apel
@@ -62395,7 +62395,7 @@
 	 (flim
 	  (1 14 9)))
 	"A library to provide MIME features." tar
-	((:commit . "7d8df0ef2f483e2dc063a72099295f467e6bc2c8"))])
+	((:commit . "9370961ddcee78e389e44b36d38c3d93f8351619"))])
  (seml-mode .
 	    [(1 7 0 1 -4 20230702 1446)
 	     ((emacs
@@ -69088,13 +69088,13 @@
 		(:keywords "comm" "convenience" "files")
 		(:url . "https://gitlab.com/tuedachu/transfer-sh.el"))])
  (transient .
-	    [(0 4 1 1 -4 20230723 1411)
+	    [(0 4 1 1 -4 20230810 1716)
 	     ((emacs
 	       (25 1))
 	      (compat
 	       (29 1 4 1)))
 	     "Transient commands" tar
-	     ((:commit . "323d6b6c84e6ae55e578efa1efb6bb4d42a69cac")
+	     ((:commit . "d056a6c013b9e7160a676365bcf29905bfe65093")
 	      (:authors
 	       ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	      (:maintainers
