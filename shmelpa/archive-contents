@@ -38,9 +38,11 @@
 	(:keywords "base" "conversion")
 	(:url . "http://github.com/AdamNiederer/0xc"))])
  (2048-game .
-	    [(2014 3 27 1 -4 20200417 259)
-	     nil "play 2048 in Emacs" tar
-	     ((:commit . "aad4a590ea91f9a3256233b9b345e9159c6993f2")
+	    [(2023 8 8 1 1 -4 20230809 356)
+	     ((emacs
+	       (24 3)))
+	     "play 2048 in Emacs" tar
+	     ((:commit . "8175ca5191175183b9522141dcb55d30673d2323")
 	      (:authors
 	       ("Zachary Kanfer" . "zkanfer@gmail.com"))
 	      (:maintainers
@@ -14759,7 +14761,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(4 0 0 1 -4 20230810 1549)
+		[(4 0 0 1 -4 20230811 236)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -14769,7 +14771,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "36dd97728611ca419de06cfec9da42a1fe9ba024")
+		 ((:commit . "dc4fab35ca5d3c75b59caa61ba7fd78b576838ee")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainers
