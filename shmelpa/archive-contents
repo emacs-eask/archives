@@ -4519,19 +4519,19 @@
 	      (:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com")
 	      (:keywords "extensions")
 	      (:url . "https://github.com/cute-jumper/bing-dict.el"))])
- (binky-mode .
-	     [(1 2 1 1 -4 20230810 714)
-	      ((emacs
-		(26 3)))
-	      "Jump between points like a rabbit" tar
-	      ((:commit . "a1bb3e4197ffeb4f534ee23b860b577a156eb81a")
-	       (:authors
-		("liuyinz" . "liuyinz95@gmail.com"))
-	       (:maintainers
-		("liuyinz" . "liuyinz95@gmail.com"))
-	       (:maintainer "liuyinz" . "liuyinz95@gmail.com")
-	       (:keywords "convenience")
-	       (:url . "https://github.com/liuyinz/binky-mode"))])
+ (binky .
+	[(1 2 2 1 -4 20230811 1234)
+	 ((emacs
+	   (26 3)))
+	 "Jump between points like a rabbit" tar
+	 ((:commit . "83ad537a185dacff6e1aacc8ccb3ca519bb71668")
+	  (:authors
+	   ("liuyinz" . "liuyinz95@gmail.com"))
+	  (:maintainers
+	   ("liuyinz" . "liuyinz95@gmail.com"))
+	  (:maintainer "liuyinz" . "liuyinz95@gmail.com")
+	  (:keywords "convenience")
+	  (:url . "https://github.com/liuyinz/binky-mode"))])
  (biome .
 	[(0 1 0 1 -4 20230725 1253)
 	 ((emacs
@@ -9775,13 +9775,13 @@
 		      (:keywords "abbrev")
 		      (:url . "https://github.com/nathankot/company-sourcekit"))])
  (company-spell .
-		[(1 0 0 1 -4 20230813 1514)
+		[(1 0 0 1 -4 20230813 1849)
 		 ((emacs
 		   (24 4))
 		  (company
 		   (0 9 13)))
 		 "Autocompleting spelling for Company" tar
-		 ((:commit . "67eb760210b3463202933a15e83bf8ac0e6f913e")
+		 ((:commit . "67505e492def67ae7bcf438882977fd857e94785")
 		  (:keywords "wp")
 		  (:url . "https://github.com/enzuru/company-spell"))])
  (company-stan .
@@ -13020,11 +13020,11 @@
 		    (:keywords "docs" "help" "tools")
 		    (:url . "https://github.com/blahgeek/emacs-devdocs-browser"))])
  (devil .
-	[(0 6 0 1 -4 20230810 2152)
+	[(0 7 0 -2 1 1 -4 20230813 2049)
 	 ((emacs
 	   (24 4)))
 	 "Minor mode for translating key sequences" tar
-	 ((:commit . "e0a12cd7737f17050f17174c8d9581fb0ad9e965")
+	 ((:commit . "bf1e65ff399f3443b5afc938f4735a721507148b")
 	  (:authors
 	   ("Susam Pal" . "susam@susam.net"))
 	  (:maintainers
@@ -20693,11 +20693,11 @@
 			   (:maintainer "Filipe Silva" . "filipe.silva@gmail.com")
 			   (:url . "https://github.com/ninrod/evil-string-inflection"))])
  (evil-surround .
-		[(1 0 4 1 -4 20230627 2052)
+		[(1 0 4 1 -4 20230813 2053)
 		 ((evil
 		   (1 2 12)))
 		 "emulate surround.vim from Vim" tar
-		 ((:commit . "4a21d756b76a50e0c0619555836c9aa98f103d3d")
+		 ((:commit . "ea14078cb2b934961b41d5179996ebd8d283273b")
 		  (:authors
 		   ("Tim Harper <timcharper at gmail dot com>")
 		   ("Vegard \303\230ye <vegard_oye at hotmail dot com>"))
@@ -21887,11 +21887,11 @@
 		 (:maintainer "Michael Klishin")
 		 (:url . "https://github.com/michaelklishin/cucumber.el"))])
  (fedi .
-       [(1 0 0 1 -4 20230812 1530)
+       [(1 0 0 1 -4 20230813 1959)
 	((emacs
 	  (28 1)))
 	"Helper functions for fediverse clients" tar
-	((:commit . "b898abb1d9b29f386b586d72f62596d298392987")
+	((:commit . "a02136c01751405ba19b9b928fecc932907ca547")
 	 (:authors
 	  ("Marty Hiatt" . "martianhiatus@riseup.net"))
 	 (:maintainers
@@ -34312,11 +34312,11 @@
 	      (:keywords ":" "tools")
 	      (:url . "https://github.com/RAttab/iasm-mode"))])
  (ibrowse .
-	  [(0 2 0 1 -4 20230813 1351)
+	  [(0 2 3 1 -4 20230813 2116)
 	   ((emacs
 	     (27 1)))
 	   "Interact with your browser" tar
-	   ((:commit . "5f432f026b5afdb3314586a0ab637d51572de32e")
+	   ((:commit . "0ace95c948b8fae87aaf08cc2b80ceb0b1713835")
 	    (:authors
 	     ("Nicolas Graves" . "ngraves@ngraves.fr"))
 	    (:maintainers
@@ -40966,7 +40966,7 @@
 		   ("Wilfred Hughes" . "me@wilfred.me.uk"))
 		  (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk"))])
  (logview .
-	  [(0 16 5 -4 20230813 1322)
+	  [(0 16 5 -4 20230813 1943)
 	   ((emacs
 	     (25 1))
 	    (datetime
@@ -40974,7 +40974,7 @@
 	    (extmap
 	     (1 0)))
 	   "Major mode for viewing log files" tar
-	   ((:commit . "4a19180676bc76656fa5848b21e25f6ebc651474")
+	   ((:commit . "cc870eef58476ac9023e7f3c6866899c2cee134c")
 	    (:authors
 	     ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	    (:maintainers
@@ -41903,11 +41903,11 @@
 	       (:keywords "convenience")
 	       (:url . "http://nschum.de/src/emacs/macro-math/"))])
  (macrostep .
-	    [(0 9 2 1 -4 20230518 1911)
+	    [(0 9 2 1 -4 20230813 2123)
 	     ((cl-lib
 	       (0 5)))
 	     "Interactive macro expander" tar
-	     ((:commit . "633586421e7fc14072cc1ca1655c1103b81a9093")
+	     ((:commit . "0b04a89f698c335c9ea492553470a8d45c113edd")
 	      (:authors
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:maintainers
@@ -49598,13 +49598,13 @@
 			  (:maintainer "Feng Shu" . "tumashu@163.com")
 			  (:url . "https://github.com/tumashu/org-capture-pop-frame.git"))])
  (org-category-capture .
-		       [(0 0 1 1 -4 20230813 153)
+		       [(0 0 1 1 -4 20230813 1934)
 			((org
 			  (9 0 0))
 			 (emacs
 			  (24)))
 			"Contextualy capture of org-mode TODOs." tar
-			((:commit . "5b484e95004f799f8f605a77550f18b00791e000")
+			((:commit . "07a9e561f043cfa143f0f8f12a502c229ee96ae4")
 			 (:authors
 			  ("Ivan Malison" . "IvanMalison@gmail.com"))
 			 (:maintainers
@@ -51014,7 +51014,7 @@
 		     (:keywords "org" "convenience" "outlines")
 		     (:url . "https://github.com/jakebox/org-preview-html"))])
  (org-projectile .
-		 [(1 1 0 1 -4 20230813 153)
+		 [(1 1 0 1 -4 20230813 1939)
 		  ((projectile
 		    (0 11 0))
 		   (dash
@@ -51026,7 +51026,7 @@
 		   (org-category-capture
 		    (0 0 0)))
 		  "Repository todo management for org-mode" tar
-		  ((:commit . "5b484e95004f799f8f605a77550f18b00791e000")
+		  ((:commit . "b904009a4f2f28ce9748e55730b6a419a516549e")
 		   (:authors
 		    ("Ivan Malison" . "IvanMalison@gmail.com"))
 		   (:maintainers
@@ -51035,7 +51035,7 @@
 		   (:keywords "org-mode" "projectile" "todo" "tools" "outlines")
 		   (:url . "https://github.com/IvanMalison/org-projectile"))])
  (org-projectile-helm .
-		      [(0 0 0 1 -4 20180601 1822)
+		      [(0 0 0 1 -4 20230813 1934)
 		       ((org-projectile
 			 (1 0 0))
 			(helm
@@ -51043,7 +51043,7 @@
 			(emacs
 			 (25)))
 		       "helm functions for org-projectile" tar
-		       ((:commit . "674e3cdda4a3ea4bdcc369dae032d49dfb5c5765")
+		       ((:commit . "07a9e561f043cfa143f0f8f12a502c229ee96ae4")
 			(:authors
 			 ("Ivan Malison" . "IvanMalison@gmail.com"))
 			(:maintainers
@@ -57559,7 +57559,7 @@
 			(:keywords "project" "convenience")
 			(:url . "https://github.com/zonuexe/projectile-variable"))])
  (projection .
-	     [(0 1 1 -4 20230624 1315)
+	     [(0 1 1 -4 20230813 2038)
 	      ((emacs
 		(29))
 	       (project
@@ -57567,7 +57567,7 @@
 	       (compat
 		(29 1 4 1)))
 	      "Project type support for `project'" tar
-	      ((:commit . "369ef38490065d6b951981c0fa4b69d49dbb4b95")
+	      ((:commit . "35dc6038e0e94c31fff0f0737579e697a1a4b383")
 	       (:authors
 		("Mohsin Kaleem" . "mohkale@kisara.moe"))
 	       (:maintainers
@@ -57576,7 +57576,7 @@
 	       (:keywords "project" "convenience")
 	       (:url . "https://github.com/mohkale/projection"))])
  (projection-multi .
-		   [(0 1 1 -4 20230624 1315)
+		   [(0 1 1 -4 20230813 1907)
 		    ((emacs
 		      (29))
 		     (projection
@@ -57584,7 +57584,7 @@
 		     (compile-multi
 		      (0 3)))
 		    "Projection integration for `compile-multi'" tar
-		    ((:commit . "369ef38490065d6b951981c0fa4b69d49dbb4b95")
+		    ((:commit . "b17811d6ff448939a7859cf19652b254864ad7b5")
 		     (:authors
 		      ("Mohsin Kaleem" . "mohkale@kisara.moe"))
 		     (:maintainers
@@ -68794,11 +68794,11 @@
 		  (:keywords "hide" "window")
 		  (:url . "https://github.com/deadghost/toggle-window"))])
  (tok-theme .
-	    [(0 1 1 -4 20230730 1922)
+	    [(0 1 1 -4 20230813 2008)
 	     ((emacs
 	       (27 0)))
-	     "Minimal light monochromatic theme for Emacs in the spirit of Zmacs and Smalltalk-80." tar
-	     ((:commit . "b926f4a5891be2428489601b0de7e475dd1b697d")
+	     "Minimal monochromatic theme for Emacs in the spirit of Zmacs and Smalltalk-80." tar
+	     ((:commit . "0fcf9a028ccfe2d8bdd2e7375cd325ca0ccdab61")
 	      (:authors
 	       ("Topi Kettunen" . "topi@topikettunen.com"))
 	      (:maintainers
