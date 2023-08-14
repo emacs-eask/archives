@@ -38243,13 +38243,15 @@
 		 (:keywords "kconfig" "languages" "linux" "kernel")
 		 (:url . "https://github.com/delaanthonio/kconfig-mode"))])
  (kconfig-ref .
-	      [(0 2 1 1 -4 20230805 737)
+	      [(0 2 1 1 -4 20230814 1052)
 	       ((emacs
 		 (24 4))
 		(projectile
-		 (2 7 0)))
+		 (2 7 0))
+		(emacsql
+		 (0)))
 	       "A simple package for looking up kconfig symbol quickly" tar
-	       ((:commit . "d2f27295053805c5ef4eea5f74e1920f4a24cb25")
+	       ((:commit . "a3f602032cd3b9a7167505bd8ad0f156ae34c0b8")
 		(:authors
 		 ("Jason Kim" . "sukbeom.kim@gmail.com"))
 		(:maintainers
