@@ -17070,13 +17070,13 @@
 	    (:keywords "games")
 	    (:url . "https://github.com/lassik/elforth"))])
  (elgrep .
-	 [(1 0 0 1 -4 20230810 645)
+	 [(1 0 0 1 -4 20230814 1215)
 	  ((emacs
 	    (26 2))
 	   (async
 	    (1 5)))
 	  "Searching files for regular expressions" tar
-	  ((:commit . "c006e2395ec38bbe5fa3e59613d21883a68ceaf1")
+	  ((:commit . "329eaf2e9e994e5535c7f7fe2685ec21d8323384")
 	   (:authors
 	    ("Tobias Zawada" . "i@tn-home.de"))
 	   (:maintainers
@@ -29709,11 +29709,11 @@
 	       (:keywords "comm" "hypermedia" "news")
 	       (:url . "https://github.com/clarete/hackernews.el"))])
  (haki-theme .
-	     [(0 1 1 -4 20230810 1516)
+	     [(0 1 1 -4 20230814 1414)
 	      ((emacs
 		(27 1)))
 	      "An elegant, high-contrast dark theme in modern sense" tar
-	      ((:commit . "1508a65590aecb306d5cd5e740c243ec5fc6c503")
+	      ((:commit . "bfa02d87b8b56965fbcc84d2662799a8e78198f6")
 	       (:authors
 		("Dilip"))
 	       (:maintainers
@@ -41408,7 +41408,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20230812 1018)
+	   [(8 0 1 1 -4 20230814 1307)
 	    ((emacs
 	      (27 1))
 	     (dash
@@ -41426,7 +41426,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "d14d3d5e1e21eb658b2cf2f6be34f43072027328")
+	    ((:commit . "a319b2c71edbbeb7a2ce88511cd7a6c637581216")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainers
@@ -41879,13 +41879,13 @@
 	       (:keywords "games" "word games" "anagram")
 	       (:url . "https://github.com/pawelbx/anagram-game"))])
  (macports .
-	   [(0 1 0 1 -4 20230427 1110)
+	   [(0 1 0 1 -4 20230814 1431)
 	    ((emacs
 	      (25 1))
 	     (transient
 	      (0 1 0)))
 	    "A porcelain for MacPorts" tar
-	    ((:commit . "1bd8406c84a80204f69f8bc328ab842a049a1aab")
+	    ((:commit . "14b1d84179d2cf3718381f4d399de4b937c81404")
 	     (:authors
 	      ("Aaron Madlon-Kay"))
 	     (:maintainers
@@ -49600,20 +49600,20 @@
 			  (:maintainer "Feng Shu" . "tumashu@163.com")
 			  (:url . "https://github.com/tumashu/org-capture-pop-frame.git"))])
  (org-category-capture .
-		       [(0 0 1 1 -4 20230813 1934)
+		       [(3 0 0 1 -4 20230814 45)
 			((org
 			  (9 0 0))
 			 (emacs
 			  (24)))
 			"Contextualy capture of org-mode TODOs." tar
-			((:commit . "07a9e561f043cfa143f0f8f12a502c229ee96ae4")
+			((:commit . "4dc597cf1f6ba4e80f4295a88fa67a61350799e1")
 			 (:authors
 			  ("Ivan Malison" . "IvanMalison@gmail.com"))
 			 (:maintainers
 			  ("Ivan Malison" . "IvanMalison@gmail.com"))
 			 (:maintainer "Ivan Malison" . "IvanMalison@gmail.com")
 			 (:keywords "org-mode" "todo" "tools" "outlines")
-			 (:url . "https://github.com/IvanMalison/org-projectile"))])
+			 (:url . "https://github.com/IvanMalison/org-project-capture"))])
  (org-change .
 	     [(0 1 1 -4 20230505 150)
 	      ((emacs
@@ -49625,13 +49625,13 @@
 	       (:keywords "wp" "convenience")
 	       (:url . "https://github.com/drghirlanda/org-change"))])
  (org-chef .
-	   [(0 1 3 1 -4 20220422 300)
+	   [(0 1 3 1 -4 20230814 1312)
 	    ((org
 	      (0))
 	     (emacs
 	      (24)))
 	    "Cookbook and recipe management with org-mode." tar
-	    ((:commit . "6a786e77e67a715b3cd4f5128b59d501614928af")
+	    ((:commit . "66d434b52a306222fe7e13ce4c0cec4a0408fbac")
 	     (:authors
 	      ("Calvin Beck" . "hobbes@ualberta.ca"))
 	     (:maintainers
@@ -51016,26 +51016,22 @@
 		     (:keywords "org" "convenience" "outlines")
 		     (:url . "https://github.com/jakebox/org-preview-html"))])
  (org-projectile .
-		 [(1 1 0 1 -4 20230813 1939)
+		 [(3 0 0 1 -4 20230814 159)
 		  ((projectile
-		    (0 11 0))
+		    (2 3 0))
 		   (dash
 		    (2 10 0))
-		   (emacs
-		    (24))
-		   (s
-		    (1 9 0))
 		   (org-category-capture
-		    (0 0 0)))
-		  "Repository todo management for org-mode" tar
-		  ((:commit . "b904009a4f2f28ce9748e55730b6a419a516549e")
+		    (1 0 0)))
+		  "Repository todo capture and management for org-mode with projectile" tar
+		  ((:commit . "ae8a474700298b5f8a511eb6952fa69647b4fa04")
 		   (:authors
 		    ("Ivan Malison" . "IvanMalison@gmail.com"))
 		   (:maintainers
 		    ("Ivan Malison" . "IvanMalison@gmail.com"))
 		   (:maintainer "Ivan Malison" . "IvanMalison@gmail.com")
-		   (:keywords "org-mode" "projectile" "todo" "tools" "outlines")
-		   (:url . "https://github.com/IvanMalison/org-projectile"))])
+		   (:keywords "org-mode" "projectile" "todo" "tools" "outlines" "project" "capture")
+		   (:url . "https://github.com/colonelpanic8/org-project-capture"))])
  (org-projectile-helm .
 		      [(0 0 0 1 -4 20230813 1934)
 		       ((org-projectile
