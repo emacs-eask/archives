@@ -36873,9 +36873,9 @@
 	   (:maintainer "zk_phi")
 	   (:url . "http://zk-phi.github.io/"))])
  (jazz-theme .
-	     [(1 0 1 -4 20230810 1758)
+	     [(1 0 1 -4 20230814 1916)
 	      nil "A warm color theme for Emacs 24+." tar
-	      ((:commit . "fff04a4141f3c4c61f255ed8527415048c6d8956")
+	      ((:commit . "b936b392e3ea3b6968530e3d5e5fccb9c454b5f8")
 	       (:authors
 		("Roman Parykin" . "donderom@ymail.com"))
 	       (:maintainers
@@ -40968,7 +40968,7 @@
 		   ("Wilfred Hughes" . "me@wilfred.me.uk"))
 		  (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk"))])
  (logview .
-	  [(0 16 5 -4 20230813 1943)
+	  [(0 16 5 -4 20230814 1952)
 	   ((emacs
 	     (25 1))
 	    (datetime
@@ -40976,7 +40976,7 @@
 	    (extmap
 	     (1 0)))
 	   "Major mode for viewing log files" tar
-	   ((:commit . "cc870eef58476ac9023e7f3c6866899c2cee134c")
+	   ((:commit . "673c90b48a94755c0f7d8d91ad9e2a7c529e7a1a")
 	    (:authors
 	     ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	    (:maintainers
@@ -41210,7 +41210,7 @@
 	      (:keywords "languages" "lsp-mode")
 	      (:url . "https://github.com/emacs-lsp/lsp-focus"))])
  (lsp-grammarly .
-		[(0 3 0 1 -4 20230814 1813)
+		[(0 3 0 1 -4 20230814 1827)
 		 ((emacs
 		   (27 1))
 		  (lsp-mode
@@ -41224,7 +41224,7 @@
 		  (ht
 		   (2 3)))
 		 "LSP Clients for Grammarly" tar
-		 ((:commit . "798fdf2eb764b3738992c7a0f256de0bd72cd622")
+		 ((:commit . "ac651a717af5e1effcd853846957fa0e85d82061")
 		  (:authors
 		   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 		  (:maintainers
@@ -41581,23 +41581,23 @@
 	       (:keywords "languages" "lisp" "tools")
 	       (:url . "https://codeberg.org/rgherdt/emacs-lsp-scheme"))])
  (lsp-sonarlint .
-		[(0 0 1 1 -4 20220510 1802)
+		[(0 0 1 1 -4 20230814 1954)
 		 ((emacs
-		   (25))
+		   (27 1))
 		  (dash
 		   (2 12 0))
 		  (lsp-mode
 		   (6 3))
 		  (ht
 		   (2 3)))
-		 "Emacs Sonarlint lsp client" tar
-		 ((:commit . "a429be2aea7797369a3c751ef54e3554733117be")
+		 "Emacs SonarLint lsp client" tar
+		 ((:commit . "d131779950d5d45c3129eb088cef5fd11099f47c")
 		  (:authors
 		   ("Fermin MF" . "fmfs@posteo.net"))
 		  (:maintainers
 		   ("Fermin MF" . "fmfs@posteo.net"))
 		  (:maintainer "Fermin MF" . "fmfs@posteo.net")
-		  (:keywords "languages" "tools" "php" "javascript" "xml" "ruby" "html" "scala" "java" "python")
+		  (:keywords "languages" "tools" "php" "javascript" "typescript" "go" "xml" "html" "java" "python")
 		  (:url . "https://github.com/emacs-lsp/lsp-sonarlint"))])
  (lsp-sourcekit .
 		[(0 1 1 -4 20210905 2017)
@@ -51015,6 +51015,25 @@
 		     (:maintainer "Jake B" . "jakebox0@protonmail.com")
 		     (:keywords "org" "convenience" "outlines")
 		     (:url . "https://github.com/jakebox/org-preview-html"))])
+ (org-project-capture .
+		      [(3 0 0 1 -4 20230814 159)
+		       ((dash
+			 (2 10 0))
+			(emacs
+			 (28))
+			(s
+			 (1 9 0))
+			(org-category-capture
+			 (1 0 0)))
+		       "Repository todo capture and management for org-mode" tar
+		       ((:commit . "ae8a474700298b5f8a511eb6952fa69647b4fa04")
+			(:authors
+			 ("Ivan Malison" . "IvanMalison@gmail.com"))
+			(:maintainers
+			 ("Ivan Malison" . "IvanMalison@gmail.com"))
+			(:maintainer "Ivan Malison" . "IvanMalison@gmail.com")
+			(:keywords "org-mode" "todo" "tools" "outlines" "project" "capture")
+			(:url . "https://github.com/colonelpanic8/org-project-capture"))])
  (org-projectile .
 		 [(3 0 0 1 -4 20230814 159)
 		  ((projectile
@@ -69439,7 +69458,7 @@
 	       (:keywords "outlines" "files" "convenience")
 	       (:url . "https://github.com/cyberthal/treefactor"))])
  (treemacs .
-	   [(3 1 1 -4 20230809 2040)
+	   [(3 1 1 -4 20230814 1949)
 	    ((emacs
 	      (26 1))
 	     (cl-lib
@@ -69459,7 +69478,7 @@
 	     (cfrs
 	      (1 3 2)))
 	    "A tree style file explorer package" tar
-	    ((:commit . "9a1a781475767c09eaea88276286e435c5b707a1")
+	    ((:commit . "8a1d66f5d658e9d0c0e752b97849271ee6734198")
 	     (:authors
 	      ("Alexander Miller" . "alexanderm@web.de"))
 	     (:maintainers
