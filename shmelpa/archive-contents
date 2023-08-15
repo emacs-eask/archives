@@ -34163,7 +34163,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 2 -1 1 -4 20230814 652)
+	     [(0 2 -1 1 -4 20230815 631)
 	      ((emacs
 		(27 1))
 	       (map
@@ -34175,7 +34175,7 @@
 	       (persist
 		(0 5)))
 	      "P2P filesystem" tar
-	      ((:commit . "d3c52619ab49854921b55182617b927878ce15ff")
+	      ((:commit . "d9fc97d70216ec14141aca61cfb98f894c0d8b8c")
 	       (:authors
 		("Joseph Turner"))
 	       (:maintainers
@@ -34818,7 +34818,7 @@
 	   (:maintainer "Joel Rosdahl" . "joel@rosdahl.net")
 	   (:url . "https://github.com/jrosdahl/iflipb"))])
  (igist .
-	[(1 3 0 1 -4 20230813 741)
+	[(1 3 0 1 -4 20230815 750)
 	 ((emacs
 	   (27 1))
 	  (ghub
@@ -34826,7 +34826,7 @@
 	  (transient
 	   (0 4 1)))
 	 "List, create, update and delete GitHub gists" tar
-	 ((:commit . "1cfcaa634617bf522825300c30031cac26a9cf24")
+	 ((:commit . "d788f6bfb8fb4e2e1dfc0a9cda851affd80aae46")
 	  (:authors
 	   ("Karim Aziiev" . "karim.aziiev@gmail.com"))
 	  (:maintainers
@@ -41168,9 +41168,9 @@
 	     (:keywords "languages" "extensions")
 	     (:url . "https://emacs-lsp.github.io/lsp-dart"))])
  (lsp-docker .
-	     [(1 0 0 1 -4 20230627 1601)
+	     [(1 0 0 1 -4 20230815 718)
 	      ((emacs
-		(26 1))
+		(27 1))
 	       (dash
 		(2 14 1))
 	       (lsp-mode
@@ -41184,7 +41184,7 @@
 	       (ht
 		(2 0)))
 	      "LSP Docker integration" tar
-	      ((:commit . "175b587e0def23d4560abdb06b12e05ea469aaea")
+	      ((:commit . "2bbc32ab0eb367ffe4f964eb08f4b35aa412aa1e")
 	       (:authors
 		("Ivan Yonchovski" . "yyoncho@gmail.com"))
 	       (:maintainers
@@ -41233,15 +41233,15 @@
 		  (:keywords "convenience" "lsp" "grammarly" "checker")
 		  (:url . "https://github.com/emacs-grammarly/lsp-grammarly"))])
  (lsp-haskell .
-	      [(1 1 1 -4 20230104 1508)
+	      [(1 1 1 -4 20230815 718)
 	       ((emacs
-		 (24 3))
+		 (27 1))
 		(lsp-mode
 		 (3 0))
 		(haskell-mode
 		 (16 1)))
 	       "Haskell support for lsp-mode" tar
-	       ((:commit . "3249cde75fb411f95fe173c222b848182fd0b752")
+	       ((:commit . "70ed6529ddfbf6e650f7c297090d60fc91d28c63")
 		(:keywords "haskell")
 		(:url . "https://github.com/emacs-lsp/lsp-haskell"))])
  (lsp-intellij .
@@ -41274,9 +41274,9 @@
 	    (:keywords "languages" "debug")
 	    (:url . "https://github.com/emacs-lsp/lsp-ivy"))])
  (lsp-java .
-	   [(3 0 1 -4 20230801 943)
+	   [(3 0 1 -4 20230815 717)
 	    ((emacs
-	      (25 1))
+	      (27 1))
 	     (lsp-mode
 	      (6 0))
 	     (markdown-mode
@@ -41294,7 +41294,7 @@
 	     (dap-mode
 	      (0 5)))
 	    "Java support for lsp-mode" tar
-	    ((:commit . "79882a2d2956c00a15b9497903ba0cc4da754cba")
+	    ((:commit . "08d41ba445f2830a51995de11f7f2c0ba9a826fd")
 	     (:keywords "languague" "tools")
 	     (:url . "https://github.com/emacs-lsp/lsp-java"))])
  (lsp-javacomp .
@@ -41458,13 +41458,15 @@
 	      (:keywords "data" "languages")
 	      (:url . "https://github.com/emacs-lsp/lsp-mssql"))])
  (lsp-origami .
-	      [(1 0 0 1 -4 20211016 1045)
-	       ((origami
+	      [(1 0 0 1 -4 20230815 704)
+	       ((emacs
+		 (27 1))
+		(origami
 		 (1 0))
 		(lsp-mode
 		 (6 1)))
 	       "origami.el support for lsp-mode" tar
-	       ((:commit . "5b88ab77dc2696c93fa5dd9debe183821c533b71")
+	       ((:commit . "86aa06517910141c3d5054eea5f7723461fce6a6")
 		(:authors
 		 ("Vibhav Pant"))
 		(:maintainers
@@ -41600,13 +41602,13 @@
 		  (:keywords "languages" "tools" "php" "javascript" "typescript" "go" "xml" "html" "java" "python")
 		  (:url . "https://github.com/emacs-lsp/lsp-sonarlint"))])
  (lsp-sourcekit .
-		[(0 1 1 -4 20210905 2017)
+		[(0 1 1 -4 20230815 717)
 		 ((emacs
-		   (25 1))
+		   (27 1))
 		  (lsp-mode
 		   (5)))
 		 "sourcekit-lsp client for lsp-mode" tar
-		 ((:commit . "97ff36b228a61e69734c7180f33cc6951b1a600f")
+		 ((:commit . "1cd5e7d2699598a97bdbcd289d9a88b249db474c")
 		  (:authors
 		   ("Daniel Mart\303\255n"))
 		  (:maintainers
@@ -55307,11 +55309,11 @@
 	      (:maintainer "sabof")
 	      (:url . "https://github.com/sabof/php-eldoc"))])
  (php-mode .
-	   [(2 0 0 1 -4 20230812 2333)
+	   [(2 0 0 1 -4 20230815 732)
 	    ((emacs
 	      (26 1)))
 	    "Major mode for editing PHP code" tar
-	    ((:commit . "f913c67d893ccba2584febb0386b1b7a8f4c2669")
+	    ((:commit . "e906093949d613d2771edf8e50fc48ccc481f539")
 	     (:authors
 	      ("Eric James Michael Ritz"))
 	     (:maintainers
@@ -57891,7 +57893,7 @@
 	     (:maintainer "Thierry Volpiatto" . "thierry.volpiatto@gmail.com")
 	     (:url . "https://github.com/thierryvolpiatto/psession"))])
  (psysh .
-	[(0 1 1 1 -4 20220607 1642)
+	[(0 1 1 1 -4 20230815 730)
 	 ((emacs
 	   (24 3))
 	  (s
@@ -57899,7 +57901,7 @@
 	  (php-runtime
 	   (0 2)))
 	 "PsySH, PHP interactive shell (REPL)" tar
-	 ((:commit . "796b26a5cd75df9d2ecb206718b310ff21787063")
+	 ((:commit . "8bf82fa68ca90fc72528ea406f0e57718bcb1cbf")
 	  (:authors
 	   ("USAMI Kenta" . "tadsan@zonu.me"))
 	  (:maintainers
@@ -72938,11 +72940,11 @@
 	      (:keywords "org" "convenience")
 	      (:url . "https://github.com/progfolio/wikinforg"))])
  (wildcharm-light-theme .
-			[(0 5 1 -4 20230814 1051)
+			[(0 5 1 -4 20230815 642)
 			 ((emacs
 			   (24 1)))
 			 "Port of vim-wildcharm (light) colorscheme" tar
-			 ((:commit . "484cc771272fb5f9bbce3101f5b76e0f678be0a6")
+			 ((:commit . "8c9ec24a56d49946dc6a6e3ab1e911b4834c5002")
 			  (:authors
 			   ("Maxim Kim" . "habamax@gmail.com"))
 			  (:maintainers
@@ -72950,11 +72952,11 @@
 			  (:maintainer "Maxim Kim" . "habamax@gmail.com")
 			  (:url . "https://github.com/habamax/wildcharm-theme"))])
  (wildcharm-theme .
-		  [(0 5 1 -4 20230814 1051)
+		  [(0 5 1 -4 20230815 642)
 		   ((emacs
 		     (24 1)))
 		   "Port of vim-wildcharm colorscheme" tar
-		   ((:commit . "484cc771272fb5f9bbce3101f5b76e0f678be0a6")
+		   ((:commit . "8c9ec24a56d49946dc6a6e3ab1e911b4834c5002")
 		    (:authors
 		     ("Maxim Kim" . "habamax@gmail.com"))
 		    (:maintainers
