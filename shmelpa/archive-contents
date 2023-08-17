@@ -14773,7 +14773,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(4 0 0 1 -4 20230815 230)
+		[(4 0 0 1 -4 20230817 649)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -14783,7 +14783,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "7429601d138a0cf12ae21eb6c563e4c3f8c2532c")
+		 ((:commit . "835edab3e8e6bae4a13647efae9c04bafd50a7f8")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainers
@@ -20855,11 +20855,11 @@
 			(:keywords "evil" "syntax" "highlight" "text-object")
 			(:url . "https://github.com/laishulu/evil-textobj-syntax"))])
  (evil-textobj-tree-sitter .
-			   [(0 1 1 -4 20230807 1054)
+			   [(0 1 1 -4 20230817 557)
 			    ((emacs
 			      (25 1)))
 			    "Provides evil textobjects using tree-sitter" tar
-			    ((:commit . "c5f6368c6923f33057a62fc8808733c62609a761")
+			    ((:commit . "19979843f5fc437917f9a4dae977f5e6d4793726")
 			     (:keywords "evil" "tree-sitter" "text-object" "convenience")
 			     (:url . "https://github.com/meain/evil-textobj-tree-sitter"))])
  (evil-traces .
@@ -30151,7 +30151,7 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 3 1 -4 20230815 1654)
+       [(3 9 3 1 -4 20230817 632)
 	((helm-core
 	  (3 9 3))
 	 (wfnames
@@ -30159,7 +30159,7 @@
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "90ce35979a4649ae5b843ce3dae028c462baf0aa")
+	((:commit . "7810a986c7666ff048cf692613f1c359e69c8b31")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -34338,13 +34338,15 @@
 		    (:keywords "tools")
 		    (:url . "https://github.com/muffinmad/emacs-ibuffer-project"))])
  (ibuffer-projectile .
-		     [(0 1 -4 20200805 604)
+		     [(0 4 1 -4 20230817 610)
 		      ((projectile
 			(0 11 0))
 		       (emacs
-			(24 1)))
+			(25 1))
+		       (seq
+			(2)))
 		      "Group ibuffer's list by projectile root" tar
-		      ((:commit . "ecbe482804a217b1471593f6c7a8b3d64f3cdc47")
+		      ((:commit . "710ecac1578273bf31debe52870f5844472e3428")
 		       (:authors
 			("Steve Purcell" . "steve@sanityinc.com"))
 		       (:maintainers
@@ -34390,11 +34392,13 @@
 		  (:keywords "convenience")
 		  (:url . "http://github.com/svend/ibuffer-tramp"))])
  (ibuffer-vc .
-	     [(0 1 -4 20230530 1713)
+	     [(0 12 1 -4 20230817 606)
 	      ((emacs
-		(25 1)))
+		(25 1))
+	       (seq
+		(2)))
 	      "Group ibuffer's list by VC project, or show VC status" tar
-	      ((:commit . "ac07ed3db55059bfa4b22e762ad9475dda37f1a1")
+	      ((:commit . "1388d2ea18287c74a79d053619dbdfa9090c26a2")
 	       (:authors
 		("Steve Purcell" . "steve@sanityinc.com"))
 	       (:maintainers
