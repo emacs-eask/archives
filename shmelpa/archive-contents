@@ -30151,7 +30151,7 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 3 1 -4 20230817 632)
+       [(3 9 3 1 -4 20230818 542)
 	((helm-core
 	  (3 9 3))
 	 (wfnames
@@ -30159,7 +30159,7 @@
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "7810a986c7666ff048cf692613f1c359e69c8b31")
+	((:commit . "b8e9509490e17cc0f23d267f7c5385868d59daee")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -41412,7 +41412,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20230814 1307)
+	   [(8 0 1 1 -4 20230818 511)
 	    ((emacs
 	      (27 1))
 	     (dash
@@ -41430,7 +41430,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "a319b2c71edbbeb7a2ce88511cd7a6c637581216")
+	    ((:commit . "0dfe2145734f91c79aa3bbe666327736982811d7")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainers
@@ -44526,9 +44526,9 @@
 		 (:keywords "faces" "theme" "accessibility")
 		 (:url . "https://git.sr.ht/~protesilaos/modus-themes"))])
  (moe-theme .
-	    [(1 0 2 1 -4 20230518 1108)
+	    [(1 0 2 1 -4 20230818 554)
 	     nil "A colorful eye-candy theme. Moe, moe, kyun!" tar
-	     ((:commit . "41bab7a3974b81dc40226bfd1e0190e2d7e57db0")
+	     ((:commit . "51795cd85ea5f01f3b2a82476914419a5bd89a55")
 	      (:authors
 	       ("kuanyui" . "azazabc123@gmail.com"))
 	      (:maintainers
@@ -72073,9 +72073,9 @@
 	    (:maintainer "Masamichi Hosoda" . "trueroad@trueroad.jp")
 	    (:url . "https://github.com/trueroad/w32-ime.el"))])
  (w3m .
-      [(0 1 0 1 -4 20230801 18)
+      [(0 1 0 1 -4 20230818 722)
        nil "an Emacs interface to w3m" tar
-       ((:commit . "1388eadc914bed79b0e06a6565388c5e8aff8014")
+       ((:commit . "e19e72815a3256d6de5347d8878ea6a00f01bc0b")
 	(:keywords "w3m" "www" "hypermedia"))])
  (wacspace .
 	   [(0 4 2 1 -4 20180311 2350)
@@ -72946,11 +72946,11 @@
 	      (:keywords "org" "convenience")
 	      (:url . "https://github.com/progfolio/wikinforg"))])
  (wildcharm-light-theme .
-			[(0 5 1 -4 20230818 259)
+			[(0 5 1 -4 20230818 718)
 			 ((emacs
 			   (24 1)))
 			 "Port of vim-wildcharm (light) colorscheme" tar
-			 ((:commit . "88374b4f809c7d49dd0b129ef4c56a54869a63ab")
+			 ((:commit . "2cc6542f31393c3927929ee821fd8072a53e4f80")
 			  (:authors
 			   ("Maxim Kim" . "habamax@gmail.com"))
 			  (:maintainers
@@ -72958,11 +72958,11 @@
 			  (:maintainer "Maxim Kim" . "habamax@gmail.com")
 			  (:url . "https://github.com/habamax/wildcharm-theme"))])
  (wildcharm-theme .
-		  [(0 5 1 -4 20230818 259)
+		  [(0 5 1 -4 20230818 718)
 		   ((emacs
 		     (24 1)))
 		   "Port of vim-wildcharm colorscheme" tar
-		   ((:commit . "88374b4f809c7d49dd0b129ef4c56a54869a63ab")
+		   ((:commit . "2cc6542f31393c3927929ee821fd8072a53e4f80")
 		    (:authors
 		     ("Maxim Kim" . "habamax@gmail.com"))
 		    (:maintainers
@@ -73644,11 +73644,13 @@
 		  (:maintainer nil . "<lompik@ArchOrion>")
 		  (:keywords "convenience"))])
  (x509-mode .
-	    [(0 1 0 1 -4 20230430 1518)
+	    [(0 1 0 1 -4 20230818 634)
 	     ((emacs
-	       (25 1)))
+	       (25 1))
+	      (compat
+	       (29 1 4 2)))
 	     "View certificates, CRLs and keys using OpenSSL" tar
-	     ((:commit . "3830cbfdadab4cd68e6f0b6a3a7a4931be8328ea")
+	     ((:commit . "fa9245fade7762c5550bac5608125dc64c93769e")
 	      (:authors
 	       ("Fredrik Axelsson" . "f.axelsson@gmail.com"))
 	      (:maintainers
