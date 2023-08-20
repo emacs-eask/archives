@@ -14856,6 +14856,21 @@
 		(:maintainer "Henrik Lissner" . "contact@henrik.io")
 		(:keywords "themes" "faces")
 		(:url . "https://github.com/doomemacs/themes"))])
+ (dot-env .
+	  [(1 0 0 1 -4 20230820 2014)
+	   ((emacs
+	     (24 4))
+	    (s
+	     (1 13 0)))
+	   "Dotenv functionality" tar
+	   ((:commit . "83ce690e8ef9175fc621c85d5fbef4f7ace7b7a8")
+	    (:authors
+	     ("Amo DelBello"))
+	    (:maintainers
+	     ("Amo DelBello"))
+	    (:maintainer "Amo DelBello")
+	    (:keywords "convenience" "dotenv" "environment" "configuration")
+	    (:url . "https://github.com/amodelbello/dot-env.el"))])
  (dot-mode .
 	   [(1 13 1 -4 20180312 2300)
 	    ((emacs
@@ -21929,11 +21944,11 @@
 		 (:maintainer "Michael Klishin")
 		 (:url . "https://github.com/michaelklishin/cucumber.el"))])
  (fedi .
-       [(1 0 0 1 -4 20230817 2004)
+       [(1 0 0 1 -4 20230820 1912)
 	((emacs
 	  (28 1)))
 	"Helper functions for fediverse clients" tar
-	((:commit . "924180a4ef4c15621e3f3fc855cd10de7b615c35")
+	((:commit . "0ff6bd3f57a799e2b3caadf0e0f1cf9ce3068dfb")
 	 (:authors
 	  ("Marty Hiatt" . "martianhiatus@riseup.net"))
 	 (:maintainers
@@ -44429,11 +44444,11 @@
 	   (:maintainer "Yann Hodique" . "yann.hodique@gmail.com")
 	   (:keywords "lisp" "testing"))])
  (modaled .
-	  [(0 4 0 1 -4 20230819 2001)
+	  [(0 4 0 1 -4 20230820 2113)
 	   ((emacs
 	     (25 1)))
 	   "Build your own minor modes for modal editing" tar
-	   ((:commit . "9426c286bef2a9e0c43146af4b8fde3f6a3bc7a6")
+	   ((:commit . "afae3cb778fb3f2f65eb6f4f06e4cfcefb427a0c")
 	    (:authors
 	     ("DCsunset"))
 	    (:maintainers
@@ -70800,6 +70815,19 @@
 	   (:maintainer "Taiki SUGAWARA" . "buzz.taiki@gmail.com")
 	   (:keywords "url")
 	   (:url . "https://github.com/buzztaiki/urlenc-el"))])
+ (ursa-ts-mode .
+	       [(1 2 1 -4 20230814 1337)
+		((emacs
+		  (29 1)))
+		"Tree-sitter support for Ursa" tar
+		((:commit . "a1141c424e607850b12059d95f7f9eebeb409b89")
+		 (:authors
+		  ("Reuben Thomas" . "rrt@sc3d.org"))
+		 (:maintainers
+		  ("Reuben Thomas" . "rrt@sc3d.org"))
+		 (:maintainer "Reuben Thomas" . "rrt@sc3d.org")
+		 (:keywords "ursalang" "languages" "tree-sitter")
+		 (:url . "https://github.com/ursalang/ursa-ts-mode"))])
  (urscript-mode .
 		[(0 0 2 1 -4 20190219 1604)
 		 ((emacs
@@ -71477,6 +71505,19 @@
 		(:maintainer "Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com")
 		(:keywords "verilog" "ide" "tools")
 		(:url . "https://github.com/gmlarumbe/verilog-ext"))])
+ (verilog-ts-mode .
+		  [(0 0 0 1 -4 20230813 2026)
+		   ((emacs
+		     (29 1)))
+		   "Verilog Tree-Sitter Mode" tar
+		   ((:commit . "0010eae29620503c6b53df716cfd88e4e8bdf648")
+		    (:authors
+		     ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
+		    (:maintainers
+		     ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
+		    (:maintainer "Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com")
+		    (:keywords "verilog" "ide" "tools")
+		    (:url . "https://github.com/gmlarumbe/verilog-ext"))])
  (verona-mode .
 	      [(0 0 1 1 -4 20200823 536)
 	       ((emacs
