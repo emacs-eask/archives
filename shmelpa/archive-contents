@@ -19893,7 +19893,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20230814 2222)
+       [(1 15 0 1 -4 20230820 2246)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -19901,7 +19901,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "60ba716bf500ca21cdf5a8f83101449a1cbe3413")
+	((:commit . "9eb69b7f5b3c72cfc66f69b3242e935015780654")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulations")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -20802,11 +20802,11 @@
 				 (:keywords "evil" "terminal" "cursor")
 				 (:url . "https://github.com/7696122/evil-terminal-cursor-changer"))])
  (evil-test-helpers .
-		    [(1 15 0 1 -4 20230813 1704)
+		    [(1 15 0 1 -4 20230820 2246)
 		     ((evil
 		       (1 15 0)))
 		     "unit test helpers for Evil" tar
-		     ((:commit . "b7b4961a14cd1a51e9a10564fd6c741567d39891")
+		     ((:commit . "4beec94d14fc4180c41314edff997dbb9c422a23")
 		      (:authors
 		       ("Vegard \303\230ye <vegard_oye at hotmail.com>"))
 		      (:maintainers
@@ -20920,13 +20920,13 @@
 			     (:keywords "evil" "tree-sitter" "text-object" "convenience")
 			     (:url . "https://github.com/meain/evil-textobj-tree-sitter"))])
  (evil-traces .
-	      [(0 2 0 1 -4 20230731 212)
+	      [(0 2 0 1 -4 20230820 2255)
 	       ((emacs
 		 (25 1))
 		(evil
 		 (1 2 13)))
 	       "Visual hints for `evil-ex'" tar
-	       ((:commit . "d4c53bd6addbe1bce7c77fdc10314f24451a2ecf")
+	       ((:commit . "3b4e08c522d1a4c6f458ab5dc21914fd307333a1")
 		(:authors
 		 ("Daniel Phan" . "daniel.phan36@gmail.com"))
 		(:maintainers
@@ -34237,7 +34237,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 2 -1 1 -4 20230819 2107)
+	     [(0 2 -1 1 -4 20230820 2356)
 	      ((emacs
 		(27 1))
 	       (map
@@ -34249,7 +34249,7 @@
 	       (persist
 		(0 5)))
 	      "P2P filesystem" tar
-	      ((:commit . "bca3d260cb71ee7a770b2cbff2f1b6d8f816071d")
+	      ((:commit . "c7a4078c1c06ce328ab78aa2d86d8b10c7232958")
 	       (:authors
 		("Joseph Turner"))
 	       (:maintainers
@@ -42932,11 +42932,11 @@
 		       (:keywords "markdown" "changelog" "files")
 		       (:url . "https://github.com/plandes/markdown-changelog"))])
  (markdown-mode .
-		[(2 6 -3 1 -4 20230817 847)
+		[(2 6 -3 1 -4 20230820 2349)
 		 ((emacs
 		   (27 1)))
 		 "Major mode for Markdown-formatted text" tar
-		 ((:commit . "bc0c0b9c38223ab3f777795c6430ced08292e6b0")
+		 ((:commit . "c71548a58f9b611a6670ba8e9036d3d8e8435bf8")
 		  (:authors
 		   ("Jason R. Blevins" . "jblevins@xbeta.org"))
 		  (:maintainers
@@ -44444,11 +44444,11 @@
 	   (:maintainer "Yann Hodique" . "yann.hodique@gmail.com")
 	   (:keywords "lisp" "testing"))])
  (modaled .
-	  [(0 4 0 1 -4 20230820 2113)
+	  [(0 5 0 1 -4 20230820 2140)
 	   ((emacs
 	     (25 1)))
 	   "Build your own minor modes for modal editing" tar
-	   ((:commit . "afae3cb778fb3f2f65eb6f4f06e4cfcefb427a0c")
+	   ((:commit . "c6d08582135dd047300e10b7a683151e4a9117af")
 	    (:authors
 	     ("DCsunset"))
 	    (:maintainers
@@ -47140,7 +47140,7 @@
 		   (:keywords "faces" "theme")
 		   (:url . "https://git.sr.ht/~lthms/colorless-themes.el"))])
  (norns .
-	[(0 0 1 1 -4 20230808 938)
+	[(0 0 1 1 -4 20230820 2157)
 	 ((emacs
 	   (27 1))
 	  (dash
@@ -47156,7 +47156,7 @@
 	  (lua-mode
 	   (20221218 605)))
 	 "Interactive development environment for monome norns" tar
-	 ((:commit . "da737848883152782abc746a197ce6fd3d371ef2")
+	 ((:commit . "7e8b73b621db7494a22914b16c614ef80521f7f7")
 	  (:keywords "processes" "terminals")
 	  (:url . "https://github.com/p3r7/norns.el"))])
  (northcode-theme .
@@ -51492,7 +51492,7 @@
 		    (:keywords "bib" "hypermedia" "outlines" "wp")
 		    (:url . "https://github.com/org-roam/org-roam-bibtex"))])
  (org-roam-ql .
-	      [(0 1 1 -4 20230801 213)
+	      [(0 1 1 -4 20230820 2138)
 	       ((emacs
 		 (28))
 		(org-roam
@@ -51506,7 +51506,7 @@
 		(org-super-agenda
 		 (1 2)))
 	       "Interface to query and view results from org-roam" tar
-	       ((:commit . "13981848af3a75f0f4b43ab080a9734f69d2477d")
+	       ((:commit . "65dfb7da102e126f933e528e6b531cd77af96e6d")
 		(:authors
 		 ("Shariff AM Faleel"))
 		(:maintainers
