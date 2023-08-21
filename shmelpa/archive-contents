@@ -1657,7 +1657,7 @@
 	(:keywords "convenience" "usability" "completion")
 	(:url . "http://github.com/DarwinAwardWinner/amx/"))])
  (anaconda-mode .
-		[(0 1 15 1 -4 20230516 2238)
+		[(0 1 15 1 -4 20230821 2131)
 		 ((emacs
 		   (25 1))
 		  (pythonic
@@ -1669,12 +1669,13 @@
 		  (f
 		   (0 16 2)))
 		 "Code navigation, documentation lookup and completion for Python" tar
-		 ((:commit . "1fd13a0f20fcc9e841e2d5c9af73c0b23f09cf39")
+		 ((:commit . "9dbd65b034cef519c01f63703399ae59651f85ca")
 		  (:authors
 		   ("Artem Malyshev" . "proofit404@gmail.com"))
 		  (:maintainers
 		   ("Artem Malyshev" . "proofit404@gmail.com"))
 		  (:maintainer "Artem Malyshev" . "proofit404@gmail.com")
+		  (:keywords "convenience" "anaconda")
 		  (:url . "https://github.com/proofit404/anaconda-mode"))])
  (anakondo .
 	   [(0 2 1 1 -4 20210221 1727)
@@ -8824,8 +8825,10 @@
 	    (:keywords "abbrev" "convenience" "matching")
 	    (:url . "http://company-mode.github.io/"))])
  (company-anaconda .
-		   [(0 2 0 1 -4 20200404 1859)
-		    ((company
+		   [(0 2 0 1 -4 20230821 2126)
+		    ((emacs
+		      (25 1))
+		     (company
 		      (0 8 0))
 		     (anaconda-mode
 		      (0 1 1))
@@ -8836,12 +8839,13 @@
 		     (s
 		      (1 9)))
 		    "Anaconda backend for company-mode" tar
-		    ((:commit . "da1566db41a68809ef7f91ebf2de28118067c89b")
+		    ((:commit . "14867265e474f7a919120bbac74870c3256cbacf")
 		     (:authors
 		      ("Artem Malyshev" . "proofit404@gmail.com"))
 		     (:maintainers
 		      ("Artem Malyshev" . "proofit404@gmail.com"))
 		     (:maintainer "Artem Malyshev" . "proofit404@gmail.com")
+		     (:keywords "convenience" "company" "anaconda")
 		     (:url . "https://github.com/proofit404/anaconda-mode"))])
  (company-ansible .
 		  [(0 8 0 1 -4 20200306 1441)
@@ -10217,13 +10221,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 35 1 -4 20230816 2049)
+	  [(0 35 1 -4 20230821 2055)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (29 1 4 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "7e660440c1636dc28d86b4ce86e9dc20df7e64c2")
+	   ((:commit . "5b7a9d0f506374f500a1216146f3dca3cb10306b")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainers
@@ -16722,11 +16726,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 5 3 -4 20230805 1640)
+	[(1 5 3 -4 20230821 2000)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "5ac5f26869cf4bcd96adc00edd254a845197e77a")
+	 ((:commit . "1d09509a6c52de1a5d9fe531df6cb7b6ba0658b2")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainers
@@ -17988,13 +17992,13 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 22 1 1 -4 20230820 542)
+	 [(0 22 1 1 -4 20230821 2007)
 	  ((emacs
 	    (27 1))
 	   (compat
 	    (29 1 4 0)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "38357251a22b4d48b2ea0cc6c48702e6920715a9")
+	  ((:commit . "66a8f5895dea60b128341813bb08495aa0d48ff4")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainers
@@ -32004,7 +32008,7 @@
 			     (:keywords "hypermedia" "outlines" "org")
 			     (:url . "http://github.com/alphapapa/org-recent-headings"))])
  (helm-org-rifle .
-		 [(1 8 -1 1 -4 20221024 1943)
+		 [(1 8 -1 1 -4 20230821 1927)
 		  ((emacs
 		    (24 4))
 		   (dash
@@ -32016,7 +32020,7 @@
 		   (s
 		    (1 10 0)))
 		  "Rifle through your Org files" tar
-		  ((:commit . "74725b63e71b1c941f354e6c8a2cf8b5ee7ef563")
+		  ((:commit . "03a52265040b8c6510a8269213d750c451779c38")
 		   (:authors
 		    ("Adam Porter" . "adam@alphapapa.net"))
 		   (:maintainers
