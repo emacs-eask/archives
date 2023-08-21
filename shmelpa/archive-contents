@@ -14807,7 +14807,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(4 0 0 1 -4 20230819 1826)
+		[(4 0 1 1 -4 20230821 1430)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -14817,7 +14817,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "f45a5a200313568d54d73dd38bae76930c2008b5")
+		 ((:commit . "87a10ad1a082996eb049d0a6236e936098172ce3")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainers
@@ -16358,7 +16358,7 @@
 	       (:maintainer "Marian Schubert" . "marian.schubert@gmail.com")
 	       (:url . "http://github.com/maio/eink-emacs"))])
  (ejc-sql .
-	  [(0 4 1 1 -4 20230702 2048)
+	  [(0 4 1 1 -4 20230821 1259)
 	   ((emacs
 	     (26 3))
 	    (clomacs
@@ -16368,7 +16368,7 @@
 	    (spinner
 	     (1 7 3)))
 	   "Emacs SQL client uses Clojure JDBC." tar
-	   ((:commit . "cfb2a3b00d16c6b8575b84d4963ac0c21f91fa05")
+	   ((:commit . "d1cbeb22870dd6dfff15aee3ca17ff6dfe7954ee")
 	    (:authors
 	     ("Kostafey" . "kostafey@gmail.com"))
 	    (:maintainers
@@ -21992,11 +21992,11 @@
 	   (:maintainer "chee" . "emacs@chee.party")
 	   (:url . "https://opensource.chee.party/chee/feline-mode"))])
  (fennel-mode .
-	      [(0 9 1 1 -4 20230715 1855)
+	      [(0 9 1 1 -4 20230814 1953)
 	       ((emacs
 		 (26 1)))
 	       "A major-mode for editing Fennel code" tar
-	       ((:commit . "8f721285e12382b72c2f7a769d21fd332461eb2a")
+	       ((:commit . "79b75f541da3007ebbbf28f7b9517321d4b487dd")
 		(:authors
 		 ("Phil Hagelberg"))
 		(:maintainers
@@ -27218,7 +27218,7 @@
 		(:keywords "utility" "git")
 		(:url . "https://github.com/10sr/git-command-el"))])
  (git-commit .
-	     [(3 3 0 50 -4 20230731 908)
+	     [(3 3 0 50 -4 20230821 1441)
 	      ((emacs
 		(25 1))
 	       (compat
@@ -27228,7 +27228,7 @@
 	       (with-editor
 		(20230118)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "9e95c2381375cb064d54a6afe70d61140da6fa30")
+	      ((:commit . "027bae37aef0e3f5a6e1192fa727c315eea9de66")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -46777,6 +46777,17 @@
 		 ("Sven Keidel" . "svenkeidel@gmail.com"))
 		(:maintainer "Sven Keidel" . "svenkeidel@gmail.com")
 		(:url . "https://github.com/travisbhartwell/nix-emacs"))])
+ (nix-ts-mode .
+	      [(0 1 2 1 -4 20230821 1334)
+	       ((emacs
+		 (29 1)))
+	       "Major mode for Nix expressions, powered by tree-sitter" tar
+	       ((:commit . "670023ec3d4e2f667a387a27990b4879e06ef60b")
+		(:maintainers
+		 ("Remi Gelinas" . "mail@remigelin.as"))
+		(:maintainer "Remi Gelinas" . "mail@remigelin.as")
+		(:keywords "nix" "languages")
+		(:url . "https://github.com/remi-gelinas/nix-ts-mode"))])
  (nix-update .
 	     [(1 0 1 -4 20220816 2212)
 	      ((emacs
