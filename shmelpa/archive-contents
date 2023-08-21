@@ -71488,11 +71488,13 @@
 	       (:keywords "convenience" "usability" "url")
 	       (:url . "https://github.com/lujun9972/verify-url"))])
  (verilog-ext .
-	      [(0 2 0 1 -4 20230812 2038)
+	      [(0 2 0 1 -4 20230821 1805)
 	       ((emacs
 		 (28 1))
 		(verilog-mode
 		 (2023 6 6 141322628))
+		(verilog-ts-mode
+		 (0 0 0))
 		(eglot
 		 (1 9))
 		(lsp-mode
@@ -71516,7 +71518,7 @@
 		(async
 		 (1 9 7)))
 	       "SystemVerilog Extensions" tar
-	       ((:commit . "acd0eae4be3af333e5370a2c5cfe4fe71ee7465d")
+	       ((:commit . "dae46f5a874fa3f17caa571785757de1e2696ec7")
 		(:authors
 		 ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 		(:maintainers
@@ -71525,11 +71527,11 @@
 		(:keywords "verilog" "ide" "tools")
 		(:url . "https://github.com/gmlarumbe/verilog-ext"))])
  (verilog-ts-mode .
-		  [(0 0 0 1 -4 20230813 2026)
+		  [(0 0 0 1 -4 20230821 1737)
 		   ((emacs
 		     (29 1)))
-		   "Verilog Tree-Sitter Mode" tar
-		   ((:commit . "0010eae29620503c6b53df716cfd88e4e8bdf648")
+		   "Verilog Tree-sitter major mode" tar
+		   ((:commit . "560d4693c51b944e4800f5e670c179bdfee74a73")
 		    (:authors
 		     ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 		    (:maintainers
