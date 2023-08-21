@@ -4664,11 +4664,11 @@
 	    (:maintainer "Artem Malyshev" . "proofit404@gmail.com")
 	    (:url . "https://github.com/proofit404/blacken"))])
  (blackjack .
-	    [(1 0 3 1 -4 20230820 121)
+	    [(1 0 3 1 -4 20230821 41)
 	     ((emacs
 	       (26 2)))
 	     "The game of Blackjack" tar
-	     ((:commit . "0398f9d59b323d7b9f6fd57f0c5c2e1b134e44aa")
+	     ((:commit . "7f9072630a159b59a146346b5dae24ab8fb5f290")
 	      (:authors
 	       ("Greg Donald" . "gdonald@gmail.com"))
 	      (:maintainers
@@ -38031,7 +38031,7 @@
 	      (:keywords "files" "languages" "tools")
 	      (:url . "https://github.com/leon-barrett/just-mode.el"))])
  (justl .
-	[(0 13 1 -4 20230810 957)
+	[(0 13 1 -4 20230821 318)
 	 ((transient
 	   (0 1 0))
 	  (emacs
@@ -38039,9 +38039,11 @@
 	  (s
 	   (1 2 0))
 	  (f
-	   (0 20 0)))
+	   (0 20 0))
+	  (inheritenv
+	   (0 2)))
 	 "Major mode for driving just files" tar
-	 ((:commit . "d8fae037a873b51e0b14b137f1c2b813dc89b853")
+	 ((:commit . "30350ded297b74980e0cafb75030001a21531acf")
 	  (:authors
 	   ("Sibi Prabakaran"))
 	  (:maintainers
