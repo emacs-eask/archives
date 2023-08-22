@@ -35252,6 +35252,25 @@
 		(:maintainer "Terje Larsen" . "terlar@gmail.com")
 		(:keywords "convenience" "tools")
 		(:url . "https://github.com/terlar/indent-info.el"))])
+ (indent-lint .
+	      [(1 1 4 1 -4 20230822 46)
+	       ((emacs
+		 (25 1))
+		(async-await
+		 (1 0))
+		(async
+		 (1 9 4))
+		(promise
+		 (1 1)))
+	       "Async indentation checker" tar
+	       ((:commit . "aee76faf54a55e0bcb5dc07a667d7f5999299c9b")
+		(:authors
+		 ("Naoya Yamashita" . "conao3@gmail.com"))
+		(:maintainers
+		 ("Naoya Yamashita" . "conao3@gmail.com"))
+		(:maintainer "Naoya Yamashita" . "conao3@gmail.com")
+		(:keywords "tools")
+		(:url . "https://github.com/conao3/indent-lint.el"))])
  (indent-tools .
 	       [(0 1 1 -4 20210622 1207)
 		((s
@@ -38865,11 +38884,11 @@
 	(:keywords "terminals")
 	(:url . "https://github.com/benjaminor/kkp"))])
  (klere-theme .
-	      [(0 1 1 -4 20230214 213)
+	      [(0 1 1 -4 20230822 144)
 	       ((emacs
 		 (24)))
 	       "A dark theme with lambent color highlights and incremental grays" tar
-	       ((:commit . "61d2cd649a1cf57ce61063f76b395f21f358372e")
+	       ((:commit . "fa83ea76c92705bc3c1b881b615a666ae3acae28")
 		(:authors
 		 ("Wamm K. D." . "jaft.r@outlook.com"))
 		(:maintainers
@@ -50230,11 +50249,11 @@
 	      (:maintainer "Nicolas Petton" . "petton.nicolas@gmail.com")
 	      (:keywords "org" "gnome"))])
  (org-grep .
-	   [(1 3 3 1 -4 20230424 2005)
+	   [(1 3 3 1 -4 20230821 2356)
 	    ((emacs
 	      (26 1)))
 	    "Kind of M-x rgrep adapted for Org mode" tar
-	    ((:commit . "428cfc2e2c35867272d32f82cadaea46772e3609")
+	    ((:commit . "64d23c2ca11ca68db85fc2c500377c9151e8e40b")
 	     (:authors
 	      ("Fran\303\247ois Pinard" . "pinard@iro.umontreal.ca"))
 	     (:maintainers
@@ -51512,7 +51531,7 @@
 		    (:keywords "bib" "hypermedia" "outlines" "wp")
 		    (:url . "https://github.com/org-roam/org-roam-bibtex"))])
  (org-roam-ql .
-	      [(0 1 1 -4 20230820 2138)
+	      [(0 1 1 -4 20230821 2334)
 	       ((emacs
 		 (28))
 		(org-roam
@@ -51526,7 +51545,7 @@
 		(org-super-agenda
 		 (1 2)))
 	       "Interface to query and view results from org-roam" tar
-	       ((:commit . "65dfb7da102e126f933e528e6b531cd77af96e6d")
+	       ((:commit . "588ef2952875761a1f4cfce598e79edf03e317bc")
 		(:authors
 		 ("Shariff AM Faleel"))
 		(:maintainers
