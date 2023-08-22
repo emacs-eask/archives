@@ -32136,7 +32136,7 @@
 		 (:keywords "phpunit" "helm" "php")
 		 (:url . "https://github.com/eric-hansen/phpunit-helm"))])
  (helm-posframe .
-		[(0 1 0 1 -4 20211103 236)
+		[(0 1 0 1 -4 20230822 2030)
 		 ((emacs
 		   (26 0))
 		  (posframe
@@ -32144,7 +32144,7 @@
 		  (helm
 		   (0 1)))
 		 "Using posframe to show helm window" tar
-		 ((:commit . "87461b52b6f3f378c63642a33f584d4a4ba28351")
+		 ((:commit . "0b6bb016f0ff4980860a9d00574de311748c40b0")
 		  (:authors
 		   ("Feng Shu"))
 		  (:maintainers
@@ -41514,7 +41514,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20230822 539)
+	   [(8 0 1 1 -4 20230822 1832)
 	    ((emacs
 	      (27 1))
 	     (dash
@@ -41532,7 +41532,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "72649c7f2e55cd9f272fc939b6bb2c00ae23e456")
+	    ((:commit . "2e6683fd3fc937c562d219523b9ebde7c0678c6f")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainers
@@ -48769,13 +48769,13 @@
 	    (:maintainer "Juan-Leon Lahoz" . "juanleon1@gmail.com")
 	    (:keywords "occur" "search" "convenience"))])
  (occurx-mode .
-	      [(0 1 1 -4 20230605 1357)
+	      [(0 1 1 -4 20230822 1841)
 	       ((emacs
 		 (27 1))
 		(rbit
 		 (0 1)))
 	       "Occur-like filtering of buffers with rx patterns" tar
-	       ((:commit . "e17c67b3701339270b3428172cce0ea237810e5f")
+	       ((:commit . "71ecab6b1cdf6159a02cef3dd7d2610c45cbaf02")
 		(:authors
 		 ("k32"))
 		(:maintainers
@@ -69595,7 +69595,7 @@
 	       (:keywords "outlines" "files" "convenience")
 	       (:url . "https://github.com/cyberthal/treefactor"))])
  (treemacs .
-	   [(3 1 1 -4 20230821 2056)
+	   [(3 1 1 -4 20230822 2039)
 	    ((emacs
 	      (26 1))
 	     (cl-lib
@@ -69615,7 +69615,7 @@
 	     (cfrs
 	      (1 3 2)))
 	    "A tree style file explorer package" tar
-	    ((:commit . "876c4a97a8fee59ac429fe06d4761a7f7d6ec2a9")
+	    ((:commit . "147594c4b84952a9897261420fea97b725bb6bac")
 	     (:authors
 	      ("Alexander Miller" . "alexanderm@web.de"))
 	     (:maintainers
@@ -69639,7 +69639,7 @@
 			   (:maintainer "Eric Dallo" . "ercdll1337@gmail.com")
 			   (:url . "https://github.com/Alexander-Miller/treemacs"))])
  (treemacs-evil .
-		[(0 1 -4 20230510 1644)
+		[(0 1 -4 20230822 2039)
 		 ((emacs
 		   (26 1))
 		  (evil
@@ -69647,7 +69647,7 @@
 		  (treemacs
 		   (0 0)))
 		 "Evil mode integration for treemacs" tar
-		 ((:commit . "12193dfa41d73f26386eacaeafd9ffaeee6491bd")
+		 ((:commit . "76a20a456cbbf45a317e1e5f6f5b970f938a3bfe")
 		  (:authors
 		   ("Alexander Miller" . "alexanderm@web.de"))
 		  (:maintainers
@@ -71511,7 +71511,7 @@
 	       (:keywords "convenience" "usability" "url")
 	       (:url . "https://github.com/lujun9972/verify-url"))])
  (verilog-ext .
-	      [(0 2 0 1 -4 20230822 1814)
+	      [(0 2 0 1 -4 20230822 2115)
 	       ((emacs
 		 (28 1))
 		(verilog-mode
@@ -71541,7 +71541,7 @@
 		(async
 		 (1 9 7)))
 	       "SystemVerilog Extensions" tar
-	       ((:commit . "fccddc36ffb9718b0c31ea13536f6a8b531bed75")
+	       ((:commit . "5b3f63bd8476ad1dbaa7b1f08ebc4038f2d78f69")
 		(:authors
 		 ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 		(:maintainers
@@ -71550,11 +71550,13 @@
 		(:keywords "verilog" "ide" "tools")
 		(:url . "https://github.com/gmlarumbe/verilog-ext"))])
  (verilog-ts-mode .
-		  [(0 0 0 1 -4 20230821 1737)
+		  [(0 0 0 1 -4 20230822 1827)
 		   ((emacs
-		     (29 1)))
+		     (28 1))
+		    (compat
+		     (29 1 4 0)))
 		   "Verilog Tree-sitter major mode" tar
-		   ((:commit . "560d4693c51b944e4800f5e670c179bdfee74a73")
+		   ((:commit . "ed165e8631f2c7acc526afc9762b04f226ec573a")
 		    (:authors
 		     ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 		    (:maintainers
