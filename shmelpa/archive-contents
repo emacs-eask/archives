@@ -11594,7 +11594,7 @@
 		(:keywords "c#" "languages" "oop" "mode")
 		(:url . "https://github.com/emacs-csharp/csharp-mode"))])
  (csound-mode .
-	      [(0 2 9 1 -4 20230529 1850)
+	      [(0 2 9 1 -4 20230823 1147)
 	       ((emacs
 		 (25))
 		(shut-up
@@ -11606,7 +11606,7 @@
 		(highlight
 		 (0)))
 	       "A major mode for interacting and coding Csound" tar
-	       ((:commit . "a40a225f5e1f807719c68f5a486998eb98a9ddeb")
+	       ((:commit . "6a30595594d86a049e25af2cc35c6ca032c3c4cf")
 		(:authors
 		 ("Hl\303\266\303\260ver Sigur\303\260sson" . "hlolli@gmail.com"))
 		(:maintainers
@@ -14587,7 +14587,7 @@
 	   (:keywords "convenience")
 	   (:url . "https://github.com/emacs-pe/docean.el"))])
  (docker .
-	 [(2 2 0 1 -4 20230823 619)
+	 [(2 2 0 1 -4 20230823 937)
 	  ((aio
 	    (1 0))
 	   (dash
@@ -14601,7 +14601,7 @@
 	   (transient
 	    (0 3 7)))
 	  "Interface to Docker" tar
-	  ((:commit . "84f68caaa50209fcb373604025eb3aa64933641f")
+	  ((:commit . "0899a56c41589e179d3b42994480802d8472e5b3")
 	   (:authors
 	    ("Philippe Vaucher" . "philippe.vaucher@gmail.com"))
 	   (:maintainers
@@ -17041,7 +17041,7 @@
 		 (:keywords "news")
 		 (:url . "https://github.com/sp1ff/elfeed-score"))])
  (elfeed-summary .
-		 [(0 1 1 1 -4 20230813 942)
+		 [(0 1 1 1 -4 20230823 925)
 		  ((emacs
 		    (27 1))
 		   (magit-section
@@ -17049,7 +17049,7 @@
 		   (elfeed
 		    (3 4 1)))
 		  "Feed summary interface for elfeed" tar
-		  ((:commit . "96ffc25862a1d5fd20af74130db1e816709e293b")
+		  ((:commit . "6bad19a7d4b2375233cd3ff571e2e6ed55d457b2")
 		   (:authors
 		    ("Korytov Pavel" . "thexcloud@gmail.com"))
 		   (:maintainers
@@ -21590,7 +21590,7 @@
 		 (:keywords "faces")
 		 (:url . "https://github.com/thblt/eziam-theme-emacs"))])
  (f .
-    [(0 20 0 1 -4 20230704 1346)
+    [(0 20 0 1 -4 20230823 1159)
      ((emacs
        (24 1))
       (s
@@ -21598,7 +21598,7 @@
       (dash
        (2 2 0)))
      "Modern API for working with files and directories" tar
-     ((:commit . "19e1da061e759b05e8c480b426287a063ca39484")
+     ((:commit . "ab3ee3811c53f9c2144ff45130361f3da242ffa2")
       (:authors
        ("Johan Andersson" . "johan.rejeep@gmail.com"))
       (:maintainers
@@ -37394,11 +37394,11 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/wbolster/emacs-jq-format"))])
  (jq-mode .
-	  [(0 4 1 1 -4 20230816 809)
+	  [(0 4 1 1 -4 20230823 1003)
 	   ((emacs
 	     (25 1)))
 	   "Edit jq scripts." tar
-	   ((:commit . "e2aebaab165a9f0b38a15186a77b356e69cd3ada")
+	   ((:commit . "4d9e98e21642007bc32ba75a5c259760f1fcf451")
 	    (:authors
 	     ("Bjarte Johansen <Bjarte dot Johansen at gmail dot com>"))
 	    (:maintainers
@@ -41339,7 +41339,7 @@
 		  (:keywords "convenience" "lsp" "grammarly" "checker")
 		  (:url . "https://github.com/emacs-grammarly/lsp-grammarly"))])
  (lsp-haskell .
-	      [(1 1 1 -4 20230821 929)
+	      [(1 1 1 -4 20230823 1043)
 	       ((emacs
 		 (27 1))
 		(lsp-mode
@@ -41347,7 +41347,7 @@
 		(haskell-mode
 		 (16 1)))
 	       "Haskell support for lsp-mode" tar
-	       ((:commit . "4bb4aff848a491c89e95eaa400fc6bc8c62d1b51")
+	       ((:commit . "d15bbb7e254f7a2b05a1f1511e453ed8c50eb434")
 		(:keywords "haskell")
 		(:url . "https://github.com/emacs-lsp/lsp-haskell"))])
  (lsp-intellij .
@@ -50971,7 +50971,7 @@
 		(:keywords "org-outlook")
 		(:url . "https://github.com/mlf176f2/org-outlook.el"))])
  (org-page .
-	   [(0 5 1 -4 20230821 929)
+	   [(0 5 1 -4 20230823 1105)
 	    ((ht
 	      (1 5))
 	     (simple-httpd
@@ -50989,7 +50989,7 @@
 	     (git
 	      (0 1 1)))
 	    "a static site generator based on org mode" tar
-	    ((:commit . "0ac92c485b08c2b2c12f532d90cb925b10de8aa6")
+	    ((:commit . "dba35475c04bb8539b6877138394e3006326327b")
 	     (:authors
 	      ("Kelvin Hu <ini DOT kelvin AT gmail DOT com>"))
 	     (:maintainer "Kelvin Hu <ini DOT kelvin AT gmail DOT com>")
@@ -61491,7 +61491,7 @@
 		(:keywords "processes")
 		(:url . "https://github.com/bard/emacs-run-command"))])
  (run-command-recipes .
-		      [(0 0 3 1 -4 20230815 1224)
+		      [(0 0 3 1 -4 20230823 1307)
 		       ((emacs
 			 (25 1))
 			(dash
@@ -61501,7 +61501,7 @@
 			(run-command
 			 (0 1 0)))
 		       "This is collection of recipes to `run-command'" tar
-		       ((:commit . "5ac7226725d273fc277f19832dd059ac88376c60")
+		       ((:commit . "ccc4022431ed82dbfcfe4e8b6aa1e9f2d0f76eab")
 			(:authors
 			 ("semenInRussia" . "hrams205@gmail.com"))
 			(:maintainers
@@ -67695,7 +67695,7 @@
 	 (:keywords "convenience" "emulations" "files")
 	 (:url . "https://github.com/mtk/teco.git"))])
  (telega .
-	 [(0 8 162 1 -4 20230822 2127)
+	 [(0 8 163 1 -4 20230823 1026)
 	  ((emacs
 	    (27 1))
 	   (visual-fill-column
@@ -67703,7 +67703,7 @@
 	   (rainbow-identifiers
 	    (0 2 2)))
 	  "Telegram client (unofficial)" tar
-	  ((:commit . "d8ab0fad55155215ae2d49e64ba25344b6f5c85f")
+	  ((:commit . "cfc216ac8f8da5f313c1831c23b83cff2fa9301d")
 	   (:authors
 	    ("Zajcev Evgeny" . "zevlg@yandex.ru"))
 	   (:maintainers
@@ -71511,9 +71511,9 @@
 	       (:keywords "convenience" "usability" "url")
 	       (:url . "https://github.com/lujun9972/verify-url"))])
  (verilog-ext .
-	      [(0 2 0 1 -4 20230822 2115)
+	      [(0 2 0 1 -4 20230823 1142)
 	       ((emacs
-		 (28 1))
+		 (28 2))
 		(verilog-mode
 		 (2023 6 6 141322628))
 		(verilog-ts-mode
@@ -71541,7 +71541,7 @@
 		(async
 		 (1 9 7)))
 	       "SystemVerilog Extensions" tar
-	       ((:commit . "5b3f63bd8476ad1dbaa7b1f08ebc4038f2d78f69")
+	       ((:commit . "cded4120491282710943f66f8d7b7b1b7affdf78")
 		(:authors
 		 ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 		(:maintainers
@@ -71550,13 +71550,13 @@
 		(:keywords "verilog" "ide" "tools")
 		(:url . "https://github.com/gmlarumbe/verilog-ext"))])
  (verilog-ts-mode .
-		  [(0 0 0 1 -4 20230822 1827)
+		  [(0 0 0 1 -4 20230823 1142)
 		   ((emacs
-		     (28 1))
+		     (28 2))
 		    (compat
 		     (29 1 4 0)))
 		   "Verilog Tree-sitter major mode" tar
-		   ((:commit . "ed165e8631f2c7acc526afc9762b04f226ec573a")
+		   ((:commit . "cded4120491282710943f66f8d7b7b1b7affdf78")
 		    (:authors
 		     ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 		    (:maintainers
