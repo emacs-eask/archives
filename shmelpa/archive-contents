@@ -14814,7 +14814,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(4 0 2 1 -4 20230823 552)
+		[(4 0 2 1 -4 20230826 1748)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -14824,7 +14824,7 @@
 		  (shrink-path
 		   (0 2 0)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "259ff6a1862b9860f9280f940fe949562766e62b")
+		 ((:commit . "63ce836cfe687ca50f8ad13ab2f96666ed98178c")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainers
@@ -24557,11 +24557,11 @@
 		   (:keywords "wp" "flymake" "spell" "aspell")
 		   (:url . "https://github.com/leotaku/flycheck-aspell"))])
  (flymake-clippy .
-		 [(1 0 0 1 -4 20230808 2328)
+		 [(1 0 1 1 -4 20230826 1702)
 		  ((emacs
 		    (26 1)))
 		  "Flymake backend for Clippy" tar
-		  ((:commit . "f488c7df2f56635dea0576ea2872c4c94b584a67")
+		  ((:commit . "d0774403fe96d88bd629d0825ffca46a1786d697")
 		   (:authors
 		    ("Graham Marlow" . "info@mgmarlow.com"))
 		   (:maintainers
@@ -42105,7 +42105,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230821 1700)
+	[(3 3 0 50 -4 20230826 1834)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -42123,7 +42123,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "f8353f575e9ed968715a685d69501e5c105f2aee")
+	 ((:commit . "cb41d8a4bb30df9df26db54b104db1520026ffe9")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -42479,7 +42479,7 @@
 		 (:keywords "vc" "tools")
 		 (:url . "https://github.com/magit/magit-tbdiff"))])
  (magit-todos .
-	      [(1 7 -1 1 -4 20230826 213)
+	      [(1 7 1 -4 20230826 1832)
 	       ((emacs
 		 (26 1))
 		(async
@@ -42499,7 +42499,7 @@
 		(transient
 		 (0 2 0)))
 	       "Show source file TODOs in Magit" tar
-	       ((:commit . "8da7a8e9008281999567a2fb39f2d13d102abfbb")
+	       ((:commit . "d85518d45d329cc0b465cc3b84910b7c66b3fc42")
 		(:authors
 		 ("Adam Porter" . "adam@alphapapa.net"))
 		(:maintainers
@@ -57694,15 +57694,17 @@
 			(:keywords "project" "convenience")
 			(:url . "https://github.com/zonuexe/projectile-variable"))])
  (projection .
-	     [(0 1 1 -4 20230822 2132)
+	     [(0 1 1 -4 20230826 1902)
 	      ((emacs
 		(29))
 	       (project
 		(0 9 8))
 	       (compat
-		(29 1 4 1)))
+		(29 1 4 1))
+	       (f
+		(0 20)))
 	      "Project type support for `project'" tar
-	      ((:commit . "d043418c707d5637d869c488e8abe2186e55b5fe")
+	      ((:commit . "363d3f79386735ae224c3692d333bc9d2a98f7f3")
 	       (:authors
 		("Mohsin Kaleem" . "mohkale@kisara.moe"))
 	       (:maintainers
@@ -57711,7 +57713,7 @@
 	       (:keywords "project" "convenience")
 	       (:url . "https://github.com/mohkale/projection"))])
  (projection-multi .
-		   [(0 1 1 -4 20230822 2132)
+		   [(0 1 1 -4 20230826 1801)
 		    ((emacs
 		      (29))
 		     (projection
@@ -57719,7 +57721,7 @@
 		     (compile-multi
 		      (0 5)))
 		    "Projection integration for `compile-multi'" tar
-		    ((:commit . "d043418c707d5637d869c488e8abe2186e55b5fe")
+		    ((:commit . "c7679c5cdb62a14d66195ed87b6466bd56c1e1c9")
 		     (:authors
 		      ("Mohsin Kaleem" . "mohkale@kisara.moe"))
 		     (:maintainers
