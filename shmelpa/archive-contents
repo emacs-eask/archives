@@ -34247,7 +34247,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 2 -1 1 -4 20230827 829)
+	     [(0 2 -1 1 -4 20230827 2045)
 	      ((emacs
 		(27 1))
 	       (map
@@ -34259,7 +34259,7 @@
 	       (persist
 		(0 5)))
 	      "P2P filesystem" tar
-	      ((:commit . "5cf818f97cfbdfc9654be5313c15dbf44d8fc7b5")
+	      ((:commit . "c35fe8b443534bcd132ff6d5b6ec598e3b359196")
 	       (:authors
 		("Joseph Turner"))
 	       (:maintainers
@@ -41165,7 +41165,7 @@
 	     (:keywords "convenience")
 	     (:url . "https://github.com/0x60df/loophole"))])
  (loopy .
-	[(0 11 2 1 -4 20230812 1837)
+	[(0 11 2 1 -4 20230827 1900)
 	 ((emacs
 	   (27 1))
 	  (map
@@ -41175,7 +41175,7 @@
 	  (compat
 	   (29 1 3)))
 	 "A looping macro" tar
-	 ((:commit . "9cae74c01fff32b02e8b4ac082a8fca5d8da7a7d")
+	 ((:commit . "420ed83c77e350461c3e7d8aab722b59956a9b23")
 	  (:authors
 	   ("Earl Hyatt"))
 	  (:maintainer "Earl Hyatt")
@@ -48732,6 +48732,19 @@
 		    ("martin haesler"))
 		   (:maintainer "martin haesler")
 		   (:url . "http://github.com/mswift42/obsidian-theme"))])
+ (ocaml-ts-mode .
+		[(0 1 0 1 -4 20230820 1946)
+		 ((emacs
+		   (29 1)))
+		 "Major mode for OCaml using tree-sitter" tar
+		 ((:commit . "bb8c86bd49e4e98f41e45fb0ec82e38f90bc3ee4")
+		  (:authors
+		   ("dmitrig"))
+		  (:maintainers
+		   ("dmitrig"))
+		  (:maintainer "dmitrig")
+		  (:keywords "ocaml" "languages" "tree-sitter")
+		  (:url . "https://github.com/dmitrig/ocaml-ts-mode"))])
  (ocamlformat .
 	      [(0 15 0 1 -4 20230718 1531)
 	       ((emacs
@@ -51556,6 +51569,28 @@
 		 ("Shariff AM Faleel"))
 		(:maintainer "Shariff AM Faleel")
 		(:url . "https://github.com/ahmed-shariff/org-roam-ql"))])
+ (org-roam-ql-ql .
+		 [(0 1 1 -4 20230820 1942)
+		  ((emacs
+		    (28))
+		   (org-roam-ql
+		    (0 1))
+		   (org-ql
+		    (0 7))
+		   (org-roam
+		    (2 2 0))
+		   (s
+		    (1 12 0))
+		   (transient
+		    (0 4)))
+		  "Intgrating org-roam and org-ql" tar
+		  ((:commit . "e5ee7db483c220f11b1517d1de92905fcc8e5879")
+		   (:authors
+		    ("Shariff AM Faleel"))
+		   (:maintainers
+		    ("Shariff AM Faleel"))
+		   (:maintainer "Shariff AM Faleel")
+		   (:url . "https://github.com/ahmed-shariff/org-roam-ql"))])
  (org-roam-timestamps .
 		      [(1 0 0 1 -4 20221104 1544)
 		       ((emacs
@@ -64291,6 +64326,19 @@
 	       (:maintainers
 		("Dennis Lambe Jr." . "malsyned@malsyned.net"))
 	       (:maintainer "Dennis Lambe Jr." . "malsyned@malsyned.net"))])
+ (smart-delete .
+	       [(0 1 0 1 -4 20230802 1113)
+		((emacs
+		  (24 1)))
+		"IntelliJ-like backspace/delete" tar
+		((:commit . "b1f90b9510caf21d87ba26e30d56dfbaec92d4e9")
+		 (:authors
+		  ("Leonardo Schripsema"))
+		 (:maintainers
+		  ("Leonardo Schripsema"))
+		 (:maintainer "Leonardo Schripsema")
+		 (:keywords "emulations" "wp")
+		 (:url . "https://github.com/leodag/smart-delete"))])
  (smart-forward .
 		[(1 0 0 1 -4 20140430 713)
 		 ((expand-region
