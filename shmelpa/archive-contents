@@ -6324,6 +6324,13 @@
 	       (:maintainer "Hiroki YAMAKAWA" . "s06139@gmail.com")
 	       (:keywords "convenience")
 	       (:url . "https://github.com/HKey/caseformat"))])
+ (caser .
+	[(0 1 1 -4 20230823 1527)
+	 ((emacs
+	   (29 1)))
+	 "Change text casing from camelCase to dash-case to snake_case" tar
+	 ((:commit . "ede9bbf3ee1f9fd7833c00f9169e282c5d1b5f9e")
+	  (:url . "https://hg.sr.ht/~zck/caser.el"))])
  (cask-mode .
 	    [(0 2 1 -4 20160410 1449)
 	     ((emacs
@@ -7242,7 +7249,7 @@
 		(:maintainer "Adam Chy\305\202a" . "adam@chyla.org")
 		(:url . "https://github.com/chyla/ChylaThemeForEmacs"))])
  (cider .
-	[(1 8 0 -4 20230826 2159)
+	[(1 8 0 -4 20230827 1616)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -7260,7 +7267,7 @@
 	  (transient
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
-	 ((:commit . "205facc6f2e6013f9209afd20cb9e8a2c783c1b6")
+	 ((:commit . "09a426ac673fd53fd814d18b277e1c50984b2a7e")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
 	   ("Phil Hagelberg" . "technomancy@gmail.com")
