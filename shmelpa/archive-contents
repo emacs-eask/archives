@@ -2515,6 +2515,23 @@
 		    (:maintainer "Onnie Winebarger")
 		    (:keywords "extensions" "lisp")
 		    (:url . "https://github.com/owinebar/emacs-async-job-queue"))])
+ (async-status .
+	       [(0 1 0 1 -4 20230821 204)
+		((emacs
+		  (28 1))
+		 (svg-lib
+		  (0 2 7))
+		 (posframe
+		  (1 4 2)))
+		"A package for indicator support" tar
+		((:commit . "d2f5becc9850c26aa71fb581f9fc389eac740f52")
+		 (:authors
+		  ("Jason Kim" . "sukbeom.kim@gmail.com"))
+		 (:maintainers
+		  ("Jason Kim" . "sukbeom.kim@gmail.com"))
+		 (:maintainer "Jason Kim" . "sukbeom.kim@gmail.com")
+		 (:keywords "tools" "async")
+		 (:url . "https://github.com/seokbeomkim/async-status"))])
  (atcoder-tools .
 		[(0 5 0 1 -4 20200109 1236)
 		 ((emacs
@@ -10027,11 +10044,11 @@
 				     (:keywords "tools")
 				     (:url . "https://github.com/sei40kr/competitive-programming-snippets"))])
  (compile-multi .
-		[(0 5 1 -4 20230822 1933)
+		[(0 5 1 -4 20230827 2151)
 		 ((emacs
-		   (28 0)))
+		   (29 1)))
 		 "A multi target interface to compile" tar
-		 ((:commit . "28595f31c4c9b37c2e342cd7bb4b7f1553d18943")
+		 ((:commit . "8d3f5aef027d7e214705803bb2733386e658b23d")
 		  (:authors
 		   ("mohsin kaleem" . "mohkale@kisara.moe"))
 		  (:maintainers
@@ -10289,15 +10306,15 @@
 		    (:maintainer "mohsin kaleem" . "mohkale@kisara.moe")
 		    (:url . "https://github.com/mohkale/consult-company"))])
  (consult-compile-multi .
-			[(0 5 1 -4 20230822 1933)
+			[(0 5 1 -4 20230827 2151)
 			 ((emacs
-			   (28 0))
+			   (29 1))
 			  (compile-multi
 			   (0 4))
 			  (consult
 			   (0 34)))
 			 "Consulting read support for `compile-multi'" tar
-			 ((:commit . "28595f31c4c9b37c2e342cd7bb4b7f1553d18943")
+			 ((:commit . "8d3f5aef027d7e214705803bb2733386e658b23d")
 			  (:authors
 			   ("mohsin kaleem" . "mohkale@kisara.moe"))
 			  (:maintainers
@@ -12063,11 +12080,11 @@
 		   (:maintainer "David Chkhikvadze" . "david.chk@outlook.com")
 		   (:keywords "calendar"))])
  (d-mode .
-	 [(202003130913 1 -4 20220602 649)
+	 [(202003130913 1 -4 20230827 2032)
 	  ((emacs
 	    (25 1)))
 	  "D Programming Language major mode for (X)Emacs" tar
-	  ((:commit . "024aca97d07e72bf3500fb6bf0cdf50c4992a741")
+	  ((:commit . "0c8c9e3a5ebb7bfd55bea138a8ad4390abf6b383")
 	   (:authors
 	    ("William Baxter"))
 	   (:maintainers
@@ -12944,6 +12961,19 @@
 	      ("Russell Clarey <http://github/rclarey>"))
 	     (:maintainer "Russell Clarey <http://github/rclarey>")
 	     (:url . "https://github.com/russell/deno-emacs"))])
+ (deno-ts-mode .
+	       [(0 1 0 1 -4 20230823 1554)
+		((emacs
+		  (29 1)))
+		"Major mode for Deno" tar
+		((:commit . "5b5b41ae05c7ed90825a7a93ed1d1fb90962225b")
+		 (:authors
+		  ("Graham Marlow" . "info@mgmarlow.com"))
+		 (:maintainers
+		  ("Graham Marlow" . "info@mgmarlow.com"))
+		 (:maintainer "Graham Marlow" . "info@mgmarlow.com")
+		 (:keywords "languages")
+		 (:url . "https://git.sr.ht/~mgmarlow/deno-ts-mode"))])
  (describe-hash .
 		[(0 1 0 1 -4 20200718 1556)
 		 nil "Help function for examining a hash map" tar
@@ -34247,7 +34277,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 2 -1 1 -4 20230827 2045)
+	     [(0 2 -1 1 -4 20230827 2133)
 	      ((emacs
 		(27 1))
 	       (map
@@ -34259,7 +34289,7 @@
 	       (persist
 		(0 5)))
 	      "P2P filesystem" tar
-	      ((:commit . "c35fe8b443534bcd132ff6d5b6ec598e3b359196")
+	      ((:commit . "32d4b744c58da1861ddd84f24e5c2262a30f6988")
 	       (:authors
 		("Joseph Turner"))
 	       (:maintainers
@@ -35111,6 +35141,19 @@
 		     (:maintainer "Peter Gardfj\303\244ll")
 		     (:keywords "themes")
 		     (:url . "https://github.com/petergardfjall/emacs-immaterial-theme"))])
+ (immersive-translate .
+		      [(0 3 0 1 -4 20230821 145)
+		       ((emacs
+			 (28 2)))
+		       "Translate the current buffer immersively" tar
+		       ((:commit . "7fe460980907f75217c0ecd3b6865f72f325ee90")
+			(:authors
+			 ("Eli Qian" . "eli.q.qian@gmail.com"))
+			(:maintainers
+			 ("Eli Qian" . "eli.q.qian@gmail.com"))
+			(:maintainer "Eli Qian" . "eli.q.qian@gmail.com")
+			(:keywords "convenience" "help" "translate")
+			(:url . "https://github.com/Elilif/emacs-immersive-translate"))])
  (immortal-scratch .
 		   [(0 1 1 -4 20160517 2118)
 		    nil "respawn the scratch buffer when it's killed" tar
@@ -37409,6 +37452,19 @@
 	     ("Bjarte Johansen <Bjarte dot Johansen at gmail dot com>"))
 	    (:maintainer "Bjarte Johansen <Bjarte dot Johansen at gmail dot com>")
 	    (:url . "https://github.com/ljos/jq-mode"))])
+ (jq-ts-mode .
+	     [(1 0 0 1 -4 20230826 1925)
+	      ((emacs
+		(29 1)))
+	      "Tree-sitter support for jq buffers" tar
+	      ((:commit . "a495509f6920756dcf5cbf87ef1907b5abda2e5c")
+	       (:authors
+		("Noah Peart" . "noah.v.peart@gmail.com"))
+	       (:maintainers
+		("Noah Peart" . "noah.v.peart@gmail.com"))
+	       (:maintainer "Noah Peart" . "noah.v.peart@gmail.com")
+	       (:keywords "jq" "languages" "tree-sitter")
+	       (:url . "https://github.com/nverno/jq-ts-mode"))])
  (jquery-doc .
 	     [(1 10 1 -4 20150812 758)
 	      nil "jQuery api documentation interface for emacs" tar
@@ -52379,6 +52435,19 @@
 		   (:maintainer "myuhe")
 		   (:keywords "convenience")
 		   (:url . "https://github.com/myuhe/org-wunderlist.el"))])
+ (org-xlatex .
+	     [(0 1 1 -4 20230820 2133)
+	      ((emacs
+		(29 1)))
+	      "Instant LaTeX preview in an xwidget" tar
+	      ((:commit . "f3cac5ea904e78ae2b47723fdce96e8e87edbe7c")
+	       (:authors
+		("ksqsf" . "justksqsf@gmail.com"))
+	       (:maintainers
+		("ksqsf" . "justksqsf@gmail.com"))
+	       (:maintainer "ksqsf" . "justksqsf@gmail.com")
+	       (:keywords "convenience" "org" "tex" "preview" "xwidget")
+	       (:url . "https://github.com/ksqsf/org-xlatex"))])
  (org-zettelkasten .
 		   [(0 8 0 1 -4 20230613 1924)
 		    ((emacs
