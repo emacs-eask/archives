@@ -8,7 +8,7 @@
 (source "nongnu")
 (source "celpa")
 (source "jcs-elpa")
-(source "marmalade")
+;;(source "marmalade")
 (source "melpa")
 (source "melpa-stable")
 (source "org")
