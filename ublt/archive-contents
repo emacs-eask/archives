@@ -1,0 +1,25 @@
+(1
+ (tsc . [(0 12 0) ((emacs (25 1)))
+         "Core Tree-sitter APIs" tar
+         ((:keywords "languages" "tools" "parsers" "dynamic-modules" "tree-sitter")
+          (:authors ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
+          (:maintainer "Tuấn-Anh Nguyễn" . "ubolonton@gmail.com")
+          (:url . "https://github.com/ubolonton/emacs-tree-sitter"))])
+ (tree-sitter . [(0 12 0) ((emacs (25 1)) (tsc (0 12 0)))
+                 "Incremental parsing system" tar
+                 ((:keywords "languages" "tools" "parsers" "tree-sitter")
+                  (:authors ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
+                  (:maintainer "Tuấn-Anh Nguyễn" . "ubolonton@gmail.com")
+                  (:url . "https://github.com/ubolonton/emacs-tree-sitter"))])
+ (tree-sitter-langs . [(0 7 2) ((emacs (25 1)) (tree-sitter (0 9 2)))
+                       "Grammar bundle for tree-sitter" tar
+                       ((:keywords "languages" "tools" "parsers" "tree-sitter")
+                        (:authors ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
+                        (:maintainer "Tuấn-Anh Nguyễn" . "ubolonton@gmail.com")
+                        (:url . "https://github.com/ubolonton/emacs-tree-sitter"))])
+ (pullover . [(0 1 1) ((emacs (25 1)))
+              "Pulling other apps over to do things" tar
+              ((:keywords "convenience" "mac")
+               (:authors ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
+               (:maintainer "Tuấn-Anh Nguyễn" . "ubolonton@gmail.com")
+               (:url . "https://github.com/ubolonton/pullover"))]))
