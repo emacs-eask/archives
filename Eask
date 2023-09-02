@@ -1,15 +1,23 @@
 (package "archives"
-         "0.4.0"
-         "Backup archives contents")
+         "0.0.0"
+         "Magic to prevent refreshing package archives failure")
+
+(website-url "https://github.com/emacs-eask/archives")
 
 (source "gnu")
 (source "nongnu")
 (source "celpa")
 (source "jcs-elpa")
+(source "marmalade")
 (source "melpa")
 (source "melpa-stable")
 (source "org")
 (source "shmelpa")
+(source "ublt")
+
+(source "gnu-devel")
+(source "nongnu-devel")
+
 
 (depends-on "emacs" "26.1")
 
