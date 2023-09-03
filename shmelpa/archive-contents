@@ -3152,6 +3152,19 @@
 			("ongaeshi"))
 		       (:maintainer "ongaeshi")
 		       (:keywords "shell" "save" "async" "deferred" "auto"))])
+ (auto-sort-mode .
+		 [(0 1 1 -4 20230827 2124)
+		  ((emacs
+		    (24 1)))
+		  "Automatically sort lines between two delimiters" tar
+		  ((:commit . "3ffa4e2a76a6dda949fdfd200f623a17c4796559")
+		   (:authors
+		    ("Rob Weir" . "rweir@ertius.org"))
+		   (:maintainers
+		    ("Rob Weir" . "rweir@ertius.org"))
+		   (:maintainer "Rob Weir" . "rweir@ertius.org")
+		   (:keywords "sorting" "sort" "matching" "tools")
+		   (:url . "https://github.com/rweir/auto-sort-mode"))])
  (auto-sudoedit .
 		[(1 1 0 1 -4 20230323 650)
 		 ((emacs
@@ -4538,11 +4551,11 @@
 	      (:keywords "extensions")
 	      (:url . "https://github.com/cute-jumper/bing-dict.el"))])
  (binky .
-	[(1 2 3 1 -4 20230829 1408)
+	[(1 3 0 1 -4 20230903 1723)
 	 ((emacs
 	   (26 3)))
 	 "Jump between points like a rabbit" tar
-	 ((:commit . "1201002d665b74fc2e8121933acf7dc4102cbcbd")
+	 ((:commit . "3c6dd054ecea835b9ccd81c2b74502fbc04bed22")
 	  (:authors
 	   ("liuyinz" . "liuyinz95@gmail.com"))
 	  (:maintainers
@@ -9108,13 +9121,13 @@
 		       "Eclim company backend" tar
 		       ((:commit . "edff7e0e30c87036710d88fb0b7a4644750858e8"))])
  (company-emoji .
-		[(2 7 0 1 -4 20221208 2344)
+		[(2 8 0 1 -4 20230903 1854)
 		 ((cl-lib
 		   (0 5))
 		  (company
 		   (0 8 0)))
 		 "company-mode backend for emoji" tar
-		 ((:commit . "9e2816ce9b5795bd0066f92d4f80d15ccf94ef36")
+		 ((:commit . "9c372be9406fba61d71aa0ed2d41adafae5a866e")
 		  (:authors
 		   ("Alex Dunn" . "dunn.alex@gmail.com"))
 		  (:maintainers
@@ -10071,6 +10084,23 @@
 				(:maintainer "mohsin kaleem" . "mohkale@kisara.moe")
 				(:keywords "tools" "compile" "build")
 				(:url . "https://github.com/mohkale/compile-multi"))])
+ (compile-multi-embark .
+		       [(0 5 1 -4 20230828 1034)
+			((emacs
+			  (28 1))
+			 (compile-multi
+			  (0 4))
+			 (embark
+			  (0 22 1)))
+			"Integration for `compile-multi' and `embark'" tar
+			((:commit . "870baff1d9e0ab199bfa7dfd3f54c2a81ee5ba46")
+			 (:authors
+			  ("Mohsin Kaleem" . "mohkale@kisara.moe"))
+			 (:maintainers
+			  ("Mohsin Kaleem" . "mohkale@kisara.moe"))
+			 (:maintainer "Mohsin Kaleem" . "mohkale@kisara.moe")
+			 (:keywords "project" "convenience")
+			 (:url . "https://github.com/mohkale/compile-multi"))])
  (compiler-explorer .
 		    [(0 2 0 1 -4 20221108 825)
 		     ((emacs
@@ -10778,6 +10808,21 @@
 		  (:maintainer "Junyoung Clare Jang" . "jjc9310@gmail.com")
 		  (:keywords "comment" "coq" "proof")
 		  (:url . "http://github.com/ailrun/coq-commenter"))])
+ (corfu .
+	[(0 38 1 -4 20230825 736)
+	 ((emacs
+	   (27 1))
+	  (compat
+	   (29 1 4 2)))
+	 "COmpletion in Region FUnction" tar
+	 ((:commit . "ab12503bdbef9e428dbe4ed75cb26c7c6dfc580b")
+	  (:authors
+	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
+	  (:maintainers
+	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
+	  (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
+	  (:keywords "abbrev" "convenience" "matching" "completion" "wp")
+	  (:url . "https://github.com/minad/corfu"))])
  (corfu-candidate-overlay .
 			  [(1 5 1 -4 20230814 1537)
 			   ((emacs
@@ -12806,6 +12851,21 @@
      (:maintainer "Steve Purcell" . "steve@sanityinc.com")
      (:keywords "frames" "faces")
      (:url . "https://github.com/purcell/default-text-scale"))])
+ (defcapture .
+   [(0 2 1 -4 20230831 2058)
+    ((emacs
+      (25 1))
+     (doct
+      (3 0)))
+    "A convenience macro for the Doct DSL" tar
+    ((:commit . "03438a59c69f31f090dfe1a06045d07e667319cd")
+     (:authors
+      ("Abraham Aguilar" . "a.aguilar@ciencias.unam.mx"))
+     (:maintainers
+      ("Abraham Aguilar" . "a.aguilar@ciencias.unam.mx"))
+     (:maintainer "Abraham Aguilar" . "a.aguilar@ciencias.unam.mx")
+     (:keywords "convenience" "org")
+     (:url . "https://github.com/aggu4/defcapture"))])
  (deferred .
    [(0 5 1 1 -4 20170901 1330)
     ((emacs
@@ -13307,6 +13367,21 @@
 		    ("Edmund Jorgensen" . "edmund@hut8labs.com"))
 		   (:maintainer "Edmund Jorgensen" . "edmund@hut8labs.com")
 		   (:keywords "tools"))])
+ (difftastic .
+	     [(0 0 0 1 -4 20230829 1234)
+	      ((emacs
+		(28 1))
+	       (magit
+		(20220326)))
+	      "Emacs wrapper for difftastic" tar
+	      ((:commit . "b2bc4136af8a1cf015c0136d16e40948b563e139")
+	       (:authors
+		("Przemyslaw Kryger" . "pkryger@gmail.com"))
+	       (:maintainers
+		("Przemyslaw Kryger" . "pkryger@gmail.com"))
+	       (:maintainer "Przemyslaw Kryger" . "pkryger@gmail.com")
+	       (:keywords "tools" "diff")
+	       (:url . "https://github.com/pkryger/difftastic.el.git"))])
  (diffview .
 	   [(1 0 1 -4 20230224 1916)
 	    nil "View diffs in side-by-side format" tar
@@ -15308,6 +15383,19 @@
 		(:maintainer "Steve Purcell" . "steve@sanityinc.com")
 		(:keywords "languages")
 		(:url . "https://github.com/purcell/emacs-dune-format"))])
+ (duplexer .
+	   [(0 1 0 1 -4 20230903 1836)
+	    ((emacs
+	      (26 3)))
+	    "Handle conflicts between local minor modes and reuse rules" tar
+	    ((:commit . "aa617ffa1cc37a06ce89a02fd8b38963e09fd4f3")
+	     (:authors
+	      ("liuyinz" . "liuyinz95@gmail.com"))
+	     (:maintainers
+	      ("liuyinz" . "liuyinz95@gmail.com"))
+	     (:maintainer "liuyinz" . "liuyinz95@gmail.com")
+	     (:keywords "tools")
+	     (:url . "https://github.com/liuyinz/duplexer.el"))])
  (duplicate-thing .
 		  [(0 2 1 -4 20181031 1500)
 		   nil "Duplicate current line & selection" tar
@@ -18026,13 +18114,13 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 22 1 1 -4 20230828 645)
+	 [(0 22 1 1 -4 20230903 2107)
 	  ((emacs
 	    (27 1))
 	   (compat
 	    (29 1 4 0)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "262070fd60e6f0bff68c5aa47ce45c21843f6408")
+	  ((:commit . "02962faa43f25c6de9b053271963ce27d4c4fba5")
 	   (:authors
 	    ("Omar Antol\303\255n Camarena" . "omar@matem.unam.mx"))
 	   (:maintainers
@@ -34279,7 +34367,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 2 -1 1 -4 20230903 1824)
+	     [(0 2 -1 1 -4 20230903 1852)
 	      ((emacs
 		(27 1))
 	       (map
@@ -34291,7 +34379,7 @@
 	       (persist
 		(0 5)))
 	      "P2P filesystem" tar
-	      ((:commit . "da6c62919b439970a761c6038367fef6cbb2efe9")
+	      ((:commit . "fd693d7f209b2e39443969dce7f0c5aa52298216")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
 	       (:maintainers
@@ -39019,6 +39107,21 @@
 	       (:maintainer "Sam Tran")
 	       (:keywords "xslate" "perl")
 	       (:url . "https://github.com/samvtran/kolon-mode"))])
+ (koopa-mode .
+	     [(1 2 2 1 -4 20230827 2357)
+	      ((company
+		(0 9 13))
+	       (emacs
+		(27 1)))
+	      "A major mode for Microsoft PowerShell" tar
+	      ((:commit . "f8ec7fb56b1b5c387bfe8fd17680fd659cb76eeb")
+	       (:authors
+		("Tyler Hooks"))
+	       (:maintainers
+		("Tyler Hooks"))
+	       (:maintainer "Tyler Hooks")
+	       (:keywords "powershell" "convenience")
+	       (:url . "https://github.com/sch0lars/koopa-mode"))])
  (kooten-theme .
 	       [(0 1 1 -4 20161023 905)
 		((emacs
@@ -39636,7 +39739,7 @@
 		       (:keywords "latex" "preview")
 		       (:url . "http://www.emacswiki.org/emacs/LaTeXPreviewPane"))])
  (latex-table-wizard .
-		     [(1 5 3 1 -4 20230821 1507)
+		     [(1 5 4 1 -4 20230903 2104)
 		      ((emacs
 			(27 1))
 		       (auctex
@@ -39644,7 +39747,7 @@
 		       (transient
 			(0 3 7)))
 		      "Magic editing of LaTeX tables" tar
-		      ((:commit . "9dcc3d62ce2be04946b67cc023f8655c0a14aa7a")
+		      ((:commit . "b55d215dbef321194dbf10553d4c0d3b244a50f0")
 		       (:authors
 			("Enrico Flor" . "enrico@eflor.net"))
 		       (:maintainers
@@ -42170,7 +42273,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230828 1932)
+	[(3 3 0 50 -4 20230903 1816)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -42188,7 +42291,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "86b8491ce87a67551e1fb4261a41f2160ded590a")
+	 ((:commit . "889ed3111a752de0b478ce071f63d620fd2f26d5")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -47201,6 +47304,19 @@
 	      (:maintainer "Hamza Hamud")
 	      (:keywords "languages")
 	      (:url . "https://github.com/hhamud/noir-mode"))])
+ (noir-ts-mode .
+	       [(0 0 1 1 -4 20230827 2052)
+		((emacs
+		  (29 1)))
+		"tree-sitter support for Noir" tar
+		((:commit . "bb47c9b770b7401c0ecdac0bb54466df6ca62d29")
+		 (:authors
+		  ("Hamza Hamud" . "self@hamzahamud.com"))
+		 (:maintainers
+		  ("Hamza Hamud" . "self@hamzahamud.com"))
+		 (:maintainer "Hamza Hamud" . "self@hamzahamud.com")
+		 (:keywords "noir" "languages" "tree-sitter")
+		 (:url . "https://github.com/hhamud/noir-ts-mode"))])
  (nord-theme .
 	     [(0 5 0 1 -4 20230311 1131)
 	      ((emacs
