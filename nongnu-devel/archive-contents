@@ -1,4 +1,15 @@
 (1
+ (adoc-mode .
+	    [(0 8 0 -4 0 20230827 203918)
+	     ((emacs
+	       (26)))
+	     "a major-mode for editing AsciiDoc files" tar
+	     ((:url . "https://github.com/bbatsov/adoc-mode")
+	      (:keywords "docs" "wp")
+	      (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
+	      (:authors
+	       ("Florian Kaufmann" . "sensorflo@gmail.com"))
+	      (:commit . "809fb47a26e8f3b0b907dfdd27a8a4aa83068cab"))])
  (afternoon-theme .
 		  [(0 1 0 20140104 185934)
 		   ((emacs
@@ -865,7 +876,7 @@
 		   ("Jeronimo Pellegrini" . "j_p@aleph0.info"))
 		  (:commit . "b4211af83d3662bee65db2ebbd63531bc4a9a921"))])
  (git-commit .
-	     [(3 3 0 50 -4 0 20230828 193214)
+	     [(3 3 0 50 -4 0 20230903 181654)
 	      ((emacs
 		(25 1))
 	       (compat
@@ -883,7 +894,7 @@
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
 		("Florian Ragwitz" . "rafl@debian.org")
 		("Marius Vollmer" . "marius.vollmer@gmail.com"))
-	       (:commit . "86b8491ce87a67551e1fb4261a41f2160ded590a"))])
+	       (:commit . "889ed3111a752de0b478ce071f63d620fd2f26d5"))])
  (git-modes .
 	    [(1 4 1 0 20230511 213416)
 	     ((emacs
@@ -1091,6 +1102,24 @@
 	    (:authors
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:keywords "hypermedia" "extensions"))])
+ (hyperdrive .
+	     [(0 2 -1 0 20230903 115200)
+	      ((emacs
+		(27 1))
+	       (map
+		(3 0))
+	       (compat
+		(29 1 4 0))
+	       (plz
+		(0 7))
+	       (persist
+		(0 5)))
+	      "P2P filesystem" tar
+	      ((:url . "https://git.sr.ht/~ushin/hyperdrive.el")
+	       (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
+	       (:authors
+		("Joseph Turner" . "joseph@ushin.org"))
+	       (:commit . "fd693d7f209b2e39443969dce7f0c5aa52298216"))])
  (idle-highlight-mode .
 		      [(1 1 4 0 20230806 235612)
 		       ((emacs
@@ -1268,7 +1297,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "0b04a89f698c335c9ea492553470a8d45c113edd"))])
  (magit .
-	[(3 3 0 50 -4 0 20230828 193214)
+	[(3 3 0 50 -4 0 20230903 181654)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -1294,9 +1323,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	  (:commit . "86b8491ce87a67551e1fb4261a41f2160ded590a"))])
+	  (:commit . "889ed3111a752de0b478ce071f63d620fd2f26d5"))])
  (magit-section .
-		[(3 3 0 50 -4 0 20230828 193214)
+		[(3 3 0 50 -4 0 20230903 181654)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -1309,7 +1338,7 @@
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
-		  (:commit . "86b8491ce87a67551e1fb4261a41f2160ded590a"))])
+		  (:commit . "889ed3111a752de0b478ce071f63d620fd2f26d5"))])
  (markdown-mode .
 		[(2 7 -3 0 20230830 133821)
 		 ((emacs
@@ -1983,7 +2012,7 @@
 	   ("Random User"))
 	  (:commit . "6ce7de37f21e123467ef1191db7a37cd99881c00"))])
  (sweeprolog .
-	     [(0 23 1 0 20230901 160914)
+	     [(0 23 1 0 20230903 94637)
 	      ((emacs
 		(27 1))
 	       (compat
@@ -1994,7 +2023,7 @@
 	       (:maintainer "Eshel Yaron" . "~eshel/dev@lists.sr.ht")
 	       (:authors
 		("Eshel Yaron" . "me@eshelyaron.com"))
-	       (:commit . "77d08bdd1401dea2def2cf2d3b31f88ccfc7aab4"))])
+	       (:commit . "f03d7ee380b9c1abc37b5ad747fc9dd7422a072c"))])
  (swift-mode .
 	     [(9 0 0 0 20230831 83201)
 	      ((emacs
