@@ -10057,11 +10057,11 @@
 				     (:keywords "tools")
 				     (:url . "https://github.com/sei40kr/competitive-programming-snippets"))])
  (compile-multi .
-		[(0 5 1 -4 20230828 1034)
+		[(0 6 1 -4 20230904 1806)
 		 ((emacs
 		   (28 1)))
 		 "A multi target interface to compile" tar
-		 ((:commit . "870baff1d9e0ab199bfa7dfd3f54c2a81ee5ba46")
+		 ((:commit . "30edb0e86287101269debf20f43cead92310029a")
 		  (:authors
 		   ("mohsin kaleem" . "mohkale@kisara.moe"))
 		  (:maintainers
@@ -10070,13 +10070,13 @@
 		  (:keywords "tools" "compile" "build")
 		  (:url . "https://github.com/mohkale/compile-multi"))])
  (compile-multi-all-the-icons .
-			      [(0 5 1 -4 20230822 1933)
+			      [(0 6 1 -4 20230904 1806)
 			       ((emacs
 				 (28 0))
 				(all-the-icons-completion
 				 (0 0 1)))
 			       "Affixate `compile-multi' with icons" tar
-			       ((:commit . "28595f31c4c9b37c2e342cd7bb4b7f1553d18943")
+			       ((:commit . "30edb0e86287101269debf20f43cead92310029a")
 				(:authors
 				 ("mohsin kaleem" . "mohkale@kisara.moe"))
 				(:maintainers
@@ -10085,7 +10085,7 @@
 				(:keywords "tools" "compile" "build")
 				(:url . "https://github.com/mohkale/compile-multi"))])
  (compile-multi-embark .
-		       [(0 5 1 -4 20230828 1034)
+		       [(0 6 1 -4 20230904 1806)
 			((emacs
 			  (28 1))
 			 (compile-multi
@@ -10093,7 +10093,7 @@
 			 (embark
 			  (0 22 1)))
 			"Integration for `compile-multi' and `embark'" tar
-			((:commit . "870baff1d9e0ab199bfa7dfd3f54c2a81ee5ba46")
+			((:commit . "30edb0e86287101269debf20f43cead92310029a")
 			 (:authors
 			  ("Mohsin Kaleem" . "mohkale@kisara.moe"))
 			 (:maintainers
@@ -10336,7 +10336,7 @@
 		    (:maintainer "mohsin kaleem" . "mohkale@kisara.moe")
 		    (:url . "https://github.com/mohkale/consult-company"))])
  (consult-compile-multi .
-			[(0 5 1 -4 20230828 1034)
+			[(0 6 1 -4 20230904 1806)
 			 ((emacs
 			   (28 1))
 			  (compile-multi
@@ -10344,7 +10344,7 @@
 			  (consult
 			   (0 34)))
 			 "Consulting read support for `compile-multi'" tar
-			 ((:commit . "870baff1d9e0ab199bfa7dfd3f54c2a81ee5ba46")
+			 ((:commit . "30edb0e86287101269debf20f43cead92310029a")
 			  (:authors
 			   ("mohsin kaleem" . "mohkale@kisara.moe"))
 			  (:maintainers
@@ -13818,9 +13818,9 @@
 	       (:keywords "dired" "files")
 	       (:url . "https://gitlab.com/xuhdev/dired-icon"))])
  (dired-imenu .
-	      [(0 5 1 -4 20140109 1610)
+	      [(0 5 1 -4 20230904 1810)
 	       nil "imenu binding for dired mode" tar
-	       ((:commit . "610e21fe0988c85931d34894d3eee2442c79ab0a")
+	       ((:commit . "4f6169f9056fe5f9b9a97e9e75f27825a15e05b9")
 		(:authors
 		 ("Damien Cassou" . "damien.cassou@gmail.com"))
 		(:maintainers
@@ -19491,11 +19491,11 @@
 	     (:keywords "convenience")
 	     (:url . "https://github.com/xuchunyang/eshell-z"))])
  (eslint-disable-rule .
-		      [(0 3 0 1 -4 20220811 1006)
+		      [(0 3 0 1 -4 20230904 1821)
 		       ((emacs
 			 (27 2)))
 		       "Commands to add JS comments disabling eslint rules" tar
-		       ((:commit . "642ead124172dd470e8ab59fd0645597dc9d8e66")
+		       ((:commit . "54771405e09e2cf5cb8f47aab2818e77d3046f53")
 			(:url . "https://github.com/DamienCassou/eslint-disable-rule"))])
  (eslint-fix .
 	     [(1 0 1 -4 20211005 221)
@@ -37822,13 +37822,13 @@
 	      (:maintainer "Josh Johnston")
 	      (:url . "https://github.com/joshwnj/json-mode"))])
  (json-navigator .
-		 [(0 1 1 1 -4 20191213 755)
+		 [(0 1 1 1 -4 20230904 1757)
 		  ((emacs
 		    (25 1))
 		   (hierarchy
 		    (0 6 0)))
 		  "View and navigate JSON structures" tar
-		  ((:commit . "afd902e0b5cde37fad4786515a695d17f1625286")
+		  ((:commit . "f3489153e8509f88296786cb00e31f59597a43f2")
 		   (:authors
 		    ("Damien Cassou" . "damien@cassou.me"))
 		   (:maintainers
@@ -40042,13 +40042,11 @@
 	       ((:commit . "abdc263537a6a534152a4eaaa17b2c3e4e10418b")
 		(:url . "https://github.com/pfitaxel/learn-ocaml.el"))])
  (ledger-import .
-		[(1 0 0 1 -4 20210419 818)
+		[(1 0 0 1 -4 20230904 1837)
 		 ((emacs
-		   (25 1))
-		  (ledger-mode
-		   (3 1 1)))
+		   (25 1)))
 		 "Fetch OFX files from bank and push them to Ledger" tar
-		 ((:commit . "f77adf79ce67524c3e08546448ac88ea1a665b64")
+		 ((:commit . "e47e8508794462986b982d6ce3d05bcd17c19242")
 		  (:authors
 		   ("Damien Cassou" . "damien@cassou.me"))
 		  (:maintainers
@@ -40106,6 +40104,23 @@
 	     (:maintainer "Jorgen Schaefer" . "forcer@forcix.cx")
 	     (:keywords "convenience")
 	     (:url . "https://github.com/jorgenschaefer/legalese"))])
+ (lem .
+      [(0 1 1 -4 20230828 1347)
+       ((emacs
+	 (28 1))
+	(fedi
+	 (0 1))
+	(markdown-mode
+	 (2 5)))
+       "A basic lemmy client" tar
+       ((:commit . "3165695121e4d0ab89d0b1f719ac1c2d8002e499")
+	(:authors
+	 ("martian hiatus <martianhiatus [a t] riseup [d o t] net>"))
+	(:maintainers
+	 ("martian hiatus <martianhiatus [a t] riseup [d o t] net>"))
+	(:maintainer "martian hiatus <martianhiatus [a t] riseup [d o t] net>")
+	(:keywords "multimedia" "comm" "web" "fediverse")
+	(:url . "https://codeberg.org/martianh/lem.el"))])
  (lemon-mode .
 	     [(0 0 1 1 -4 20130216 1304)
 	      nil "A major mode for editing lemon grammar files" tar
@@ -42273,7 +42288,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230903 2315)
+	[(3 3 0 50 -4 20230904 1624)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -42291,7 +42306,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "ace5ca440168389bbbf02dea37c40e1d71334626")
+	 ((:commit . "a3b9b007025572548a909b0cf5edc144c98fcb2f")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -47181,7 +47196,7 @@
 	    (:keywords "keyboard" "tools")
 	    (:url . "https://github.com/mamapanda/no-spam"))])
  (noaa .
-       [(0 1 1 -4 20230718 526)
+       [(0 1 1 -4 20230904 1815)
 	((emacs
 	  (27 1))
 	 (kv
@@ -47191,7 +47206,7 @@
 	 (s
 	  (1 12 0)))
 	"Get NOAA weather data" tar
-	((:commit . "0e40721ff97d1311e2b5d392344a961421fa75f0")
+	((:commit . "04da1d3467d08cd1d28539c2b132035a9fb1c793")
 	 (:authors
 	  ("David Thompson"))
 	 (:maintainers
@@ -68603,11 +68618,11 @@
 		 (:keywords "extensions" "lisp" "theme")
 		 (:url . "https://github.com/GongYiLiao/theme-anchor"))])
  (theme-changer .
-		[(2 2 0 1 -4 20230417 1502)
+		[(2 2 0 1 -4 20230904 1706)
 		 ((cl-lib
 		   (0)))
 		 "Sunrise/Sunset Theme Changer for Emacs" tar
-		 ((:commit . "2ff40a1750323a3547ca7a71c319971c8e1147ca")
+		 ((:commit . "7febd7632451bb99a5d92f24623432c4de035ff1")
 		  (:authors
 		   ("Joshua B. Griffith" . "josh.griffith@gmail.com"))
 		  (:maintainers
@@ -69828,13 +69843,13 @@
 		       (:maintainer "Erick Navarro" . "erick@navarro.io")
 		       (:url . "https://github.com/erickgnavar/tree-sitter-ispell.el"))])
  (tree-sitter-langs .
-		    [(0 12 39 1 -4 20230904 753)
+		    [(0 12 43 1 -4 20230904 1855)
 		     ((emacs
 		       (25 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
-		     ((:commit . "8160ed4bf828392738bc0d11cfd5e57c3172baa0")
+		     ((:commit . "95fb419b1e590222c8b23e5981a37ae3f2066112")
 		      (:authors
 		       ("Tu\341\272\245n-Anh Nguy\341\273\205n" . "ubolonton@gmail.com"))
 		      (:maintainers
@@ -71894,13 +71909,13 @@
 		     (:keywords "convenience" "snippets")
 		     (:url . "https://github.com/baron42bba/vertica-snippets"))])
  (vertico .
-	  [(1 4 1 -4 20230825 921)
+	  [(1 4 1 -4 20230904 1833)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (29 1 4 0)))
 	   "VERTical Interactive COmpletion" tar
-	   ((:commit . "956c81b1483f0ed530018bba330069bb4a9ba576")
+	   ((:commit . "5780fac84f67c19cd6906077ecd636bac3c0c7ad")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	    (:maintainers
