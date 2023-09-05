@@ -43884,11 +43884,11 @@
 		 (:keywords "ocaml" "languages")
 		 (:url . "http://github.com/ocaml/merlin"))])
  (mermaid-mode .
-	       [(1 0 1 -4 20230517 1527)
+	       [(1 0 1 -4 20230905 1916)
 		((emacs
 		  (25 3)))
 		"major mode for working with mermaid graphs" tar
-		((:commit . "105271870a872ae7a91838454b064a1153353b5f")
+		((:commit . "4cdc76e459d184fc241b607e9da131ebce9f4ce2")
 		 (:authors
 		  ("Adrien Brochard"))
 		 (:maintainers
@@ -49598,11 +49598,13 @@
 			(:keywords "calendar")
 			(:url . "http://github.com/Bruce-Connor/org-agenda-property"))])
  (org-ai .
-	 [(0 3 13 1 -4 20230820 1230)
+	 [(0 4 0 1 -4 20230905 1738)
 	  ((emacs
-	    (27)))
-	  "Your AI assistant with ChatGPT, DALL-E, Whisper, Stable Diffusion" tar
-	  ((:commit . "e188f2b3506da47452142746f7ea9e08e97a9c09")
+	    (27 1))
+	   (websocket
+	    (1 15)))
+	  "Use ChatGPT and other LLMs in org-mode and beyond" tar
+	  ((:commit . "5b187ba1225ec2790976289fd04b8b19804f2155")
 	   (:authors
 	    ("Robert Krahn" . "robert@kra.hn"))
 	   (:maintainers
@@ -55416,13 +55418,17 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/ksqsf/pest-mode"))])
  (pet .
-      [(1 1 0 1 -4 20230830 2336)
+      [(1 1 0 1 -4 20230905 1856)
        ((emacs
 	 (26 1))
 	(f
-	 (0 6 0)))
+	 (0 6 0))
+	(map
+	 (3 3 1))
+	(seq
+	 (2 24)))
        "Executable and virtualenv tracker for python-mode" tar
-       ((:commit . "fa623a5c091cac28f74ee4ff6e4d15c2962a5034")
+       ((:commit . "d903458f5aced7f6767c7110063591533ddcfdbc")
 	(:authors
 	 ("Jimmy Yuen Ho Wong" . "wyuenho@gmail.com"))
 	(:maintainers
@@ -56913,11 +56919,11 @@
 	   (:keywords "outlines" "tools")
 	   (:url . "https://github.com/QBobWatson/poporg"))])
  (popper .
-	 [(0 45 1 -4 20230802 238)
+	 [(0 45 1 -4 20230905 2050)
 	  ((emacs
 	    (26 1)))
 	  "Summon and dismiss buffers as popups" tar
-	  ((:commit . "a93ff38ab648eefa1a8eca393b0a357ff41411a0")
+	  ((:commit . "ecc01a46b0aebf282fadabf70d14fe6f0b8e34ba")
 	   (:authors
 	    ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
 	   (:maintainers
@@ -59453,11 +59459,11 @@
 	  (:keywords "abbrev" "convenience" "matching" "rust" "tools")
 	  (:url . "https://github.com/racer-rust/emacs-racer"))])
  (racket-mode .
-	      [(1 1 -4 20230508 1742)
+	      [(1 1 -4 20230905 1421)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
-	       ((:commit . "c6dbe023c688ad1845e1f8ee250f5fa2cf2b8b01")
+	       ((:commit . "bfe5a8fc418e9710e474db3e6dcbe66f6b177ecb")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com"))
 		(:maintainers
@@ -72844,11 +72850,11 @@
 			(:keywords "html" "auto-complete" "company")
 			(:url . "https://github.com/osv/web-completion-data"))])
  (web-mode .
-	   [(17 3 12 1 -4 20230905 1604)
+	   [(17 3 13 1 -4 20230905 1944)
 	    ((emacs
 	      (23 1)))
 	    "major mode for editing web templates" tar
-	    ((:commit . "325e1c9398fe727ace3605a989f8c4088dc477a4")
+	    ((:commit . "90502d9cd2b5bc9a13d2628e48fd66b78243e090")
 	     (:authors
 	      ("Fran\303\247ois-Xavier Bois"))
 	     (:maintainers
