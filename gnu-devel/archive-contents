@@ -360,6 +360,18 @@
 		  (:authors
 		   ("Taylor Grinn" . "grinntaylor@gmail.com"))
 		  (:commit . "a1f288fb673dcb3378c761c83d7352c2a41c3a95"))])
+ (breadcrumb .
+	     [(1 0 0 0 20230905 171726)
+	      ((emacs
+		(28 1))
+	       (project
+		(0 9 8)))
+	      "project and imenu-based breadcrumb paths" tar
+	      ((:maintainer "João Távora" . "joaotavora@gmail.com")
+	       (:authors
+		("João Távora" . "joaotavora@gmail.com"))
+	       (:url . "https://elpa.gnu.org/packages/breadcrumb.html")
+	       (:commit . "41210dfd8f9ce72e3372ba8154c2300454857103"))])
  (brief .
 	[(5 88 22 2 0 20230818 125719)
 	 ((nadvice
@@ -801,7 +813,7 @@
 		 (:url . "https://elpa.gnu.org/packages/dbus-codegen.html")
 		 (:commit . "04114e4cbc8f422e6b77cfc202d1109c96316117"))])
  (debbugs .
-	  [(0 36 0 20230904 191448)
+	  [(0 36 0 20230905 202240)
 	   ((emacs
 	     (26 1))
 	    (soap-client
@@ -812,7 +824,7 @@
 	    (:authors
 	     ("Michael Albinus" . "michael.albinus@gmx.de"))
 	    (:url . "https://elpa.gnu.org/packages/debbugs.html")
-	    (:commit . "c1934c0296817f8953cfbc3a4299ffb22d77d4f0"))])
+	    (:commit . "143b4c72de49501e2882e4b62caa0052a2bcdfd5"))])
  (delight .
 	  [(1 7 0 20200711 42851)
 	   ((cl-lib
@@ -1464,7 +1476,7 @@
 	    (:url . "https://elpa.gnu.org/packages/flylisp.html")
 	    (:commit . "7295025f4c0571013142dfb9cc1a893fff79904b"))])
  (flymake .
-	  [(1 3 4 0 20230713 135815)
+	  [(1 3 4 0 20230905 172742)
 	   ((emacs
 	     (26 1))
 	    (eldoc
@@ -1477,7 +1489,7 @@
 	    (:authors
 	     ("Pavel Kobyakov" . "pk_at_work@yahoo.com"))
 	    (:url . "https://elpa.gnu.org/packages/flymake.html")
-	    (:commit . "b94e7e6334718061879c32025941f00913078230"))])
+	    (:commit . "cd6dcfad1074cfdc2a3b18d905cb60ce977ed6b0"))])
  (flymake-proselint .
 		    [(0 3 0 0 20230325 160756)
 		     ((emacs
@@ -2657,7 +2669,7 @@
 	     (:authors
 	      ("Ian Dunn" . "dunni@gnu.org")))])
  (org-modern .
-	     [(0 10 0 20230816 203404)
+	     [(0 10 0 20230905 80609)
 	      ((emacs
 		(27 1))
 	       (compat
@@ -2668,7 +2680,7 @@
 	       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	       (:authors
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
-	       (:commit . "905a601796d02283e94a603b6011a537ee7e6090"))])
+	       (:commit . "afa7d44282d62dbba84afec2a1a6c2a3ee41e7b9"))])
  (org-notify .
 	     [(0 1 0 0 20221102 174044)
 	      ((emacs
@@ -2861,13 +2873,13 @@
 	      ("Harald Jörg" . "haj@posteo.de"))
 	     (:commit . "638009f98a144790ea85fd0fa311d7499fdac94f"))])
  (persist .
-	  [(0 5 0 20220622 42135)
+	  [(0 5 0 20230905 151959)
 	   nil "Persist Variables between Emacs Sessions" tar
 	   ((:maintainer "Phillip Lord" . "phillip.lord@russet.org.uk")
 	    (:authors
 	     ("Phillip Lord" . "phillip.lord@russet.org.uk"))
 	    (:url . "https://elpa.gnu.org/packages/persist.html")
-	    (:commit . "25d675307c03f720e592c3dc9a5a0ae8db0836eb"))])
+	    (:commit . "ec0b42318cc627e1b4a169bda0d335a67d74c320"))])
  (phpinspect .
 	     [(0 0 20230831 151323)
 	      ((compat
@@ -4099,7 +4111,7 @@
 		   (:url . "https://elpa.gnu.org/packages/url-http-oauth.html")
 		   (:commit . "c2d06036f22ce61f5a1e3084c8b265d897b7fcab"))])
  (url-scgi .
-	   [(0 9 0 20230130 74744)
+	   [(0 9 0 20230905 134155)
 	    ((emacs
 	      (24 3)))
 	    "SCGI support for url.el" tar
@@ -4108,7 +4120,7 @@
 	     (:maintainer "Stefan Kangas" . "stefankangas@gmail.com")
 	     (:authors
 	      ("Stefan Kangas" . "stefankangas@gmail.com"))
-	     (:commit . "ccf30c3647cd6a560cadc795bd92769c0a0c9de9"))])
+	     (:commit . "aa093d1a409152d624e181bd399d4be6041e3726"))])
  (use-package .
 	      [(2 4 5 0 20230115 133305)
 	       ((emacs

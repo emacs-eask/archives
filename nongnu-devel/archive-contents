@@ -1,6 +1,6 @@
 (1
  (adoc-mode .
-	    [(0 8 0 -4 0 20230827 203918)
+	    [(0 8 0 -4 0 20230905 81011)
 	     ((emacs
 	       (26)))
 	     "a major-mode for editing AsciiDoc files" tar
@@ -9,7 +9,7 @@
 	      (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 	      (:authors
 	       ("Florian Kaufmann" . "sensorflo@gmail.com"))
-	      (:commit . "809fb47a26e8f3b0b907dfdd27a8a4aa83068cab"))])
+	      (:commit . "05914c7319ac5c8a7e68047d5bb982d691a0d535"))])
  (afternoon-theme .
 		  [(0 1 0 20140104 185934)
 		   ((emacs
@@ -1063,7 +1063,7 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (helm .
-       [(3 9 4 0 20230902 53911)
+       [(3 9 4 0 20230905 95455)
 	((helm-core
 	  (3 9 4))
 	 (wfnames
@@ -1075,9 +1075,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "44a396e7a8dba7d3a62e3ed57adc37dd887313da"))])
+	 (:commit . "74917bc84b7e4cf64bba8beecd179736a7ce6fe4"))])
  (helm-core .
-	    [(3 9 4 0 20230902 53911)
+	    [(3 9 4 0 20230905 95455)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1087,7 +1087,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "44a396e7a8dba7d3a62e3ed57adc37dd887313da"))])
+	      (:commit . "74917bc84b7e4cf64bba8beecd179736a7ce6fe4"))])
  (highlight-parentheses .
 			[(2 1 1 0 20220408 84538)
 			 ((emacs
@@ -1129,7 +1129,7 @@
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:keywords "hypermedia" "extensions"))])
  (hyperdrive .
-	     [(0 2 -1 0 20230904 231810)
+	     [(0 2 -1 0 20230905 111856)
 	      ((emacs
 		(27 1))
 	       (map
@@ -1145,7 +1145,7 @@
 	       (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
-	       (:commit . "7d588375ac611e864f1d718c0eae704c6da5dff3"))])
+	       (:commit . "26a6e05dfe47d6fca82df304ff18fd281e140a52"))])
  (idle-highlight-mode .
 		      [(1 1 4 0 20230806 235612)
 		       ((emacs
@@ -1817,15 +1817,14 @@
 	      (:authors
 	       ("David Christiansen" . "david@davidchristiansen.dk")))])
  (racket-mode .
-	      [(1 0 20230628 162612)
+	      [(1 0 20230905 102118)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
 	       ((:url . "https://www.racket-mode.com/")
-		(:maintainer "Greg Hendershott")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com"))
-		(:commit . "32dbda45c27f51026d71f398a5872443a94bed77"))])
+		(:commit . "bfe5a8fc418e9710e474db3e6dcbe66f6b177ecb"))])
  (rainbow-delimiters .
 		     [(2 1 5 0 20230830 160022)
 		      nil "Highlight brackets according to their depth" tar
@@ -2290,16 +2289,14 @@
 			("Joost Kremers" . "joostkremers@fastmail.fm"))
 		       (:commit . "695a59789209c42fa08a5bce92963ee32f4455be"))])
  (web-mode .
-	   [(17 3 9 0 20230329 60138)
+	   [(17 3 13 0 20230905 194446)
 	    ((emacs
 	      (23 1)))
 	    "major mode for editing web templates" tar
 	    ((:url . "https://web-mode.org")
 	     (:keywords "languages")
 	     (:maintainer "François-Xavier Bois" . "fxbois@gmail.com")
-	     (:authors
-	      ("François-Xavier Bois"))
-	     (:commit . "57856ba64b9382811b35df0d9ab0a24aede0c1f0"))])
+	     (:commit . "90502d9cd2b5bc9a13d2628e48fd66b78243e090"))])
  (webpaste .
 	   [(3 2 2 0 20220524 174541)
 	    ((emacs
