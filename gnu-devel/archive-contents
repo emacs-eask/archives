@@ -612,7 +612,7 @@
 			("Ingo Lohmar" . "i.lohmar@gmail.com"))
 		       (:keywords "abbrev" "convenience" "matching"))])
  (compat .
-	 [(29 1 4 2 0 20230811 71752)
+	 [(29 1 4 2 0 20230908 194903)
 	  ((emacs
 	    (24 4))
 	   (seq
@@ -620,10 +620,13 @@
 	  "Emacs Lisp Compatibility Library" tar
 	  ((:url . "https://github.com/emacs-compat/compat")
 	   (:keywords "lisp" "maint")
-	   (:maintainer "Daniel Mendler <mail@daniel-mendler.de>, Compat Development" . "~pkal/compat-devel@lists.sr.ht")
+	   (:maintainer
+	    ("Daniel Mendler" . "mail@daniel-mendler.de")
+	    ("Compat Development" . "~pkal/compat-devel@lists.sr.ht"))
 	   (:authors
-	    ("Philip Kaludercic <philipk@posteo.net>, Daniel Mendler" . "mail@daniel-mendler.de"))
-	   (:commit . "75d0b8527f51aae42d23eee4aeb263e19055747e"))])
+	    ("Philip Kaludercic" . "philipk@posteo.net")
+	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
+	   (:commit . "cab0e8d7c331f87e5f664c1580640fb973024cc5"))])
  (consult .
 	  [(0 35 0 20230906 204754)
 	   ((emacs
@@ -1212,7 +1215,7 @@
 		    ("Ihor Radchenko" . "yantar92@posteo.net"))
 		   (:commit . "703516c63ce71ec68945d48c297d294990728686"))])
  (embark .
-	 [(0 22 1 0 20230903 152328)
+	 [(0 22 1 0 20230908 135001)
 	  ((emacs
 	    (27 1))
 	   (compat
@@ -1223,9 +1226,9 @@
 	   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-	   (:commit . "46fb2f8bd90bc374d2cd0a55da3510a09070c859"))])
+	   (:commit . "bacc3c819a2dd70e081175a2fb5e7f684011b5df"))])
  (embark-consult .
-		 [(0 7 0 20230903 152328)
+		 [(0 7 0 20230908 135001)
 		  ((emacs
 		    (27 1))
 		   (embark
@@ -1238,9 +1241,9 @@
 		   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 		   (:authors
 		    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-		   (:commit . "46fb2f8bd90bc374d2cd0a55da3510a09070c859"))])
+		   (:commit . "bacc3c819a2dd70e081175a2fb5e7f684011b5df"))])
  (ement .
-	[(0 12 -1 0 20230906 202116)
+	[(0 12 -1 0 20230908 125631)
 	 ((emacs
 	   (27 1))
 	  (map
@@ -1263,7 +1266,7 @@
 	  (:maintainer "Adam Porter" . "adam@alphapapa.net")
 	  (:authors
 	   ("Adam Porter" . "adam@alphapapa.net"))
-	  (:commit . "9da7b8e08565f5d4661673b3ddcdf3a2ceda0b50"))])
+	  (:commit . "d10ac0aaa93318eb184232635f4b8f1c6975255b"))])
  (emms .
        [(16 0 20230818 103820)
 	((cl-lib
@@ -2631,7 +2634,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "6936fe46ef07df168a423f04efeda130b4e69753"))])
  (org .
-      [(9 7 -1 0 20230907 120540)
+      [(9 7 -1 0 20230908 92331)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2640,7 +2643,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "1f88acd01394b1d78c875af21ba0e84b0f2f287a"))])
+	(:commit . "163bafb43dcc2bc94a2c7ccaa77d3d1dd488f1af"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs
@@ -2959,6 +2962,17 @@
 	     (:authors
 	      ("Vitalie Spinu"))
 	     (:commit . "ca060e081a1f849a880732670dc15370ac987b89"))])
+ (popper .
+	 [(0 4 6 0 20230906 101040)
+	  ((emacs
+	    (26 1)))
+	  "Summon and dismiss buffers as popups" tar
+	  ((:url . "https://github.com/karthink/popper")
+	   (:keywords "convenience")
+	   (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
+	   (:authors
+	    ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
+	   (:commit . "031e4d093c1e52337a3ca137740933a185f3d61d"))])
  (posframe .
 	   [(1 4 2 0 20230714 22752)
 	    ((emacs
