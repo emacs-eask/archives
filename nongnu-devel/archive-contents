@@ -497,7 +497,7 @@
 		 ("Harry R. Schwartz" . "hello@harryrschwartz.com"))
 		(:commit . "fae1bd4fdf7d102744505bf2a8f4dc88d5b8f2fd"))])
  (evil .
-       [(1 15 0 0 20230828 134242)
+       [(1 15 0 0 20230908 54408)
 	((emacs
 	  (24 1))
 	 (cl-lib
@@ -508,7 +508,7 @@
 	((:url . "https://github.com/emacs-evil/evil")
 	 (:keywords "emulations")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
-	 (:commit . "d6d2e5d2b170eb0ab3bec488868702009a0ee3b6"))])
+	 (:commit . "5fc16776c5eb00c956ec7e9d83facb6a38dd868d"))])
  (evil-anzu .
 	    [(0 2 0 20220911 193944)
 	     ((evil
@@ -902,7 +902,7 @@
 		   ("Jeronimo Pellegrini" . "j_p@aleph0.info"))
 		  (:commit . "b4211af83d3662bee65db2ebbd63531bc4a9a921"))])
  (git-commit .
-	     [(3 3 0 50 -4 0 20230905 172017)
+	     [(3 3 0 50 -4 0 20230907 221727)
 	      ((emacs
 		(25 1))
 	       (compat
@@ -920,7 +920,7 @@
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
 		("Florian Ragwitz" . "rafl@debian.org")
 		("Marius Vollmer" . "marius.vollmer@gmail.com"))
-	       (:commit . "ee0b557a94876cf89f9b8116ab9e9012c5d1404a"))])
+	       (:commit . "c316ca034ed3a8266f36c6f5f92563ba2df09d60"))])
  (git-modes .
 	    [(1 4 1 0 20230511 213416)
 	     ((emacs
@@ -975,6 +975,15 @@
 	   ((:url . "https://github.com/dominikh/go-mode.el")
 	    (:keywords "languages" "go")
 	    (:commit . "8dce1e3ba1cdc34a856ad53c8421413cfe33660e"))])
+ (golden-ratio .
+	       [(1 0 1 0 20230907 155840)
+		nil "Automatic resizing of Emacs windows to the golden ratio" tar
+		((:keywords "window" "resizing")
+		 (:maintainer "Roman Gonzalez" . "romanandreg@gmail.com")
+		 (:authors
+		  ("Roman Gonzalez" . "romanandreg@gmail.com"))
+		 (:url . "https://elpa.nongnu.org/nongnu/golden-ratio.html")
+		 (:commit . "bf0035fd6a1b2c1d9554909c795de1fcca5f3927"))])
  (gotham-theme .
 	       [(1 1 9 0 20220107 173034)
 		((emacs
@@ -1129,7 +1138,7 @@
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:keywords "hypermedia" "extensions"))])
  (hyperdrive .
-	     [(0 2 -1 0 20230907 11439)
+	     [(0 2 -1 0 20230907 235306)
 	      ((emacs
 		(27 1))
 	       (map
@@ -1145,7 +1154,7 @@
 	       (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
-	       (:commit . "d0e869e0217d3615d6a1d19cb3362dc3a031b37d"))])
+	       (:commit . "f39cdae8f74e8f3710c309971763b24d65801343"))])
  (idle-highlight-mode .
 		      [(1 1 4 0 20230806 235612)
 		       ((emacs
@@ -1323,7 +1332,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "0b04a89f698c335c9ea492553470a8d45c113edd"))])
  (magit .
-	[(3 3 0 50 -4 0 20230905 172017)
+	[(3 3 0 50 -4 0 20230907 221727)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -1349,9 +1358,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	  (:commit . "ee0b557a94876cf89f9b8116ab9e9012c5d1404a"))])
+	  (:commit . "c316ca034ed3a8266f36c6f5f92563ba2df09d60"))])
  (magit-section .
-		[(3 3 0 50 -4 0 20230905 172017)
+		[(3 3 0 50 -4 0 20230907 221727)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -1364,7 +1373,7 @@
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
-		  (:commit . "ee0b557a94876cf89f9b8116ab9e9012c5d1404a"))])
+		  (:commit . "c316ca034ed3a8266f36c6f5f92563ba2df09d60"))])
  (markdown-mode .
 		[(2 7 -3 0 20230830 133821)
 		 ((emacs
