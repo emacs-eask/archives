@@ -1505,6 +1505,23 @@
 			   (:maintainer "Vincent Zhang" . "seagle0128@gmail.com")
 			   (:keywords "convenience" "icons" "ivy")
 			   (:url . "https://github.com/seagle0128/all-the-icons-ivy-rich"))])
+ (all-the-icons-nerd-fonts .
+			   [(0 2 1 -4 20230904 1718)
+			    ((emacs
+			      (28 1))
+			     (all-the-icons
+			      (5 0))
+			     (nerd-icons
+			      (0 0 1)))
+			    "Nerd font integration for all-the-icons" tar
+			    ((:commit . "db513dafaa8b73b5abcf9737939863d0e5b2f03d")
+			     (:authors
+			      ("Mohsin Kaleem" . "mohkale@gmail.com"))
+			     (:maintainers
+			      ("Mohsin Kaleem" . "mohkale@gmail.com"))
+			     (:maintainer "Mohsin Kaleem" . "mohkale@gmail.com")
+			     (:keywords "convenience" "lisp")
+			     (:url . "https://github.com/mohkale/all-the-icons-nerd-fonts"))])
  (almost-mono-themes .
 		     [(1 0 0 1 -4 20220422 1714)
 		      ((emacs
@@ -14700,7 +14717,7 @@
 	   (:keywords "convenience")
 	   (:url . "https://github.com/emacs-pe/docean.el"))])
  (docker .
-	 [(2 2 0 1 -4 20230906 1916)
+	 [(2 2 0 1 -4 20230910 1911)
 	  ((aio
 	    (1 0))
 	   (dash
@@ -14714,7 +14731,7 @@
 	   (transient
 	    (0 3 7)))
 	  "Interface to Docker" tar
-	  ((:commit . "0d9e5609c288ec7f593d949c810129a57631a1cf")
+	  ((:commit . "6997c86a24d440fa04035aa8c9499a52df6e655d")
 	   (:authors
 	    ("Philippe Vaucher" . "philippe.vaucher@gmail.com"))
 	   (:maintainers
