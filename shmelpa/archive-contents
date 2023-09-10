@@ -51071,15 +51071,15 @@
 		 (:maintainer "Paul Elder" . "paul.elder@amanokami.net")
 		 (:keywords "convenience" "tools"))])
  (org-noter .
-	    [(1 5 0 1 -4 20230906 241)
+	    [(1 5 0 1 -4 20230910 1909)
 	     ((emacs
 	       (24 4))
 	      (cl-lib
 	       (0 6))
 	      (org
-	       (9 0)))
+	       (9 4)))
 	     "A synchronized, Org-mode, document annotator" tar
-	     ((:commit . "9d42ebc626981b6736b8078fb216b30cc5e34d21")
+	     ((:commit . "ab838691f0d6ae281597451de311f71a50ba8da6")
 	      (:authors
 	       ("Gonçalo Santos (github.com/weirdNox)" . "in@bsentia")
 	       ("   Maintainer Dmitry M" . "dmitrym@gmail.com"))
@@ -69880,6 +69880,20 @@
 		      (:maintainer "Tuấn-Anh Nguyễn" . "ubolonton@gmail.com")
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs"))])
+ (treebundel .
+	     [(0 1 0 1 -4 20230906 142)
+	      ((emacs
+		(27 1))
+	       (compat
+		(29 1 4 2)))
+	      "Bundle related git-worktrees together" tar
+	      ((:commit . "bfce013b6a5564e5ab21304e08f63152e0de5d8b")
+	       (:authors
+		("Ben Whitley"))
+	       (:maintainers
+		("Ben Whitley"))
+	       (:maintainer "Ben Whitley")
+	       (:url . "https://github.com/purplg/treebundel.el"))])
  (treefactor .
 	     [(3 2 2 1 -4 20200516 1631)
 	      ((emacs
@@ -72764,6 +72778,19 @@
 	      (:maintainer "XXIV")
 	      (:keywords "files" "wasp")
 	      (:url . "https://github.com/thechampagne/wasp-mode"))])
+ (wavedrom-mode .
+		[(0 0 0 1 -4 20230908 1615)
+		 ((emacs
+		   (29 1)))
+		 "WaveDrom Integration" tar
+		 ((:commit . "203f30717a449892039c99bd29379bb5fe326e52")
+		  (:authors
+		   ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
+		  (:maintainers
+		   ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
+		  (:maintainer "Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com")
+		  (:keywords "fpga" "asic" "tools")
+		  (:url . "https://github.com/gmlarumbe/wavedrom-mode"))])
  (wavefront-obj-mode .
 		     [(0 6 1 -4 20170808 1716)
 		      nil "Major mode for Wavefront obj files" tar
