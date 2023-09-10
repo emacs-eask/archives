@@ -446,7 +446,7 @@
 	     ("Kjartan Oli Agustsson" . "kjartanoli@disroot.org"))
 	    (:commit . "ad65bf9b51edaf85371db958a1dcaff2f620519f"))])
  (cape .
-       [(0 17 0 20230903 221854)
+       [(0 17 0 20230910 61037)
 	((emacs
 	  (27 1))
 	 (compat
@@ -457,7 +457,7 @@
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	 (:commit . "b3eb9a8a696c710b51399991a49639f1f8acb584"))])
+	 (:commit . "9d4249527820bd009293c9724998f66f37a048c2"))])
  (capf-autosuggest .
 		   [(0 3 0 20211123 104430)
 		    ((emacs
@@ -1243,7 +1243,7 @@
 		    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 		   (:commit . "4f2729c97817e950eda45c052e685018d9f71740"))])
  (ement .
-	[(0 12 -1 0 20230908 203729)
+	[(0 12 -1 0 20230910 20115)
 	 ((emacs
 	   (27 1))
 	  (map
@@ -1266,7 +1266,7 @@
 	  (:maintainer "Adam Porter" . "adam@alphapapa.net")
 	  (:authors
 	   ("Adam Porter" . "adam@alphapapa.net"))
-	  (:commit . "c9183c002890714b8609464ee0b27ca5da7ab8ff"))])
+	  (:commit . "44192614e395e52e9b835abe98f28e03fd661044"))])
  (emms .
        [(16 0 20230818 103820)
 	((cl-lib
@@ -1415,7 +1415,7 @@
 			(:url . "https://elpa.gnu.org/packages/external-completion.html")
 			(:commit . "4e4a808eca8f68a8079272442aab0f8815abdaa8"))])
  (exwm .
-       [(0 27 0 20230818 0)
+       [(0 27 0 20230910 0)
 	((xelb
 	  (0 18)))
 	"Emacs X Window Manager" tar
@@ -1424,7 +1424,7 @@
 	 (:maintainer "Adrián Medraño Calvo" . "adrian@medranocalvo.com")
 	 (:authors
 	  ("Chris Feng" . "chris.w.feng@gmail.com"))
-	 (:commit . "381637aa1c7b82671fab4cfdadebee590f7c1c45"))])
+	 (:commit . "8cab6c03fa2cc59d5863f5cc67197d480452c22a"))])
  (f90-interface-browser .
 			[(1 1 0 20221221 75553)
 			 ((cl-lib
@@ -1727,7 +1727,7 @@
 	     ("Sean Allred" . "code@seanallred.com"))
 	    (:commit . "67237f284f2dfb94f3cfba672ff64a37e1cb860f"))])
  (greader .
-	  [(0 2 0 20230909 122544)
+	  [(0 2 0 20230910 44443)
 	   ((emacs
 	     (25)))
 	   "gnamù reader, send buffer contents to a speech engine." tar
@@ -1736,7 +1736,7 @@
 	    (:authors
 	     ("Michelangelo Rodriguez" . "michelangelo.rodriguez@gmail.com"))
 	    (:url . "https://elpa.gnu.org/packages/greader.html")
-	    (:commit . "c7de1dea4edd0a3f2ec571889746975dfaa67efb"))])
+	    (:commit . "7c7850b9cb3166aea1b5a220c9ecdd54753d4427"))])
  (greenbar .
 	   [(1 1 0 20221221 80217)
 	    nil "Mark comint output with \"greenbar\" background" tar
@@ -2264,7 +2264,7 @@
 	(:url . "https://elpa.gnu.org/packages/map.html")
 	(:commit . "1f3995f65a065a28e108653128b31a2fb7eeb01c"))])
  (marginalia .
-	     [(1 3 0 20230805 91509)
+	     [(1 3 0 20230910 73921)
 	      ((emacs
 		(27 1))
 	       (compat
@@ -2272,10 +2272,13 @@
 	      "Enrich existing commands with completion annotations" tar
 	      ((:url . "https://github.com/minad/marginalia")
 	       (:keywords "docs" "help" "matching" "completion")
-	       (:maintainer "Omar Antolín Camarena <omar@matem.unam.mx>, Daniel Mendler" . "mail@daniel-mendler.de")
+	       (:maintainer
+		("Omar Antolín Camarena" . "omar@matem.unam.mx")
+		("Daniel Mendler" . "mail@daniel-mendler.de"))
 	       (:authors
-		("Omar Antolín Camarena <omar@matem.unam.mx>, Daniel Mendler" . "mail@daniel-mendler.de"))
-	       (:commit . "17fffc685731a1459fb5faa9e376b75ebe225d5c"))])
+		("Omar Antolín Camarena" . "omar@matem.unam.mx")
+		("Daniel Mendler" . "mail@daniel-mendler.de"))
+	       (:commit . "f1734375a5d8fa18e9cecb47ae4b5ae86c72399f"))])
  (markchars .
 	    [(0 2 2 0 20221221 80510)
 	     nil "Mark chars fitting certain characteristics" tar
@@ -2634,7 +2637,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "6936fe46ef07df168a423f04efeda130b4e69753"))])
  (org .
-      [(9 7 -1 0 20230909 105702)
+      [(9 7 -1 0 20230910 73819)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2643,7 +2646,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "2030c111eb659ece1f6fa6770658707762b83b95"))])
+	(:commit . "515e4ed49be9534971a5a36b78d39406e4775dcb"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs
