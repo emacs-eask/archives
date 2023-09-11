@@ -213,7 +213,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "9177058889e2dc985737006bf019d94d63074f13"))])
  (cider .
-	[(1 8 0 -4 0 20230909 44525)
+	[(1 8 0 -4 0 20230911 142802)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -241,16 +241,16 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "5718f13e09093466441d5fcbd308397c43a880d8"))])
+	  (:commit . "f56418106f32717c68874142be679a1ee20bbc84"))])
  (clojure-mode .
-	       [(5 16 2 0 20230907 75725)
+	       [(5 17 0 0 20230911 165346)
 		((emacs
 		  (25 1)))
 		"Major mode for Clojure code" tar
 		((:url . "https://github.com/clojure-emacs/clojure-mode")
 		 (:keywords "languages" "clojure" "clojurescript" "lisp")
 		 (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
-		 (:commit . "1dc343fe67c1b7b858df6250bfc500eca6823940"))])
+		 (:commit . "5fab97d0efc1ed932518fba0cb90afe6dcd00191"))])
  (clojure-ts-mode .
 		  [(0 1 5 0 20230910 134229)
 		   ((emacs
@@ -1138,7 +1138,7 @@
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:keywords "hypermedia" "extensions"))])
  (hyperdrive .
-	     [(0 2 -1 0 20230910 233540)
+	     [(0 2 -1 0 20230911 145448)
 	      ((emacs
 		(27 1))
 	       (map
@@ -1154,7 +1154,7 @@
 	       (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
-	       (:commit . "4b6ebf72b256862f043265afd58c1034af895c82"))])
+	       (:commit . "997c57ba7a7ea5414c5a655d5b9d733141732f72"))])
  (idle-highlight-mode .
 		      [(1 1 4 0 20230806 235612)
 		       ((emacs
@@ -1547,7 +1547,7 @@
 		     ("Yilkal Argaw" . "yilkalargawworkneh@gmail.com"))
 		    (:commit . "817eabf902e759e96782bdc54d2dab36c4a2c5ab"))])
  (org-contrib .
-	      [(0 4 2 0 20230910 91651)
+	      [(0 4 2 0 20230911 85040)
 	       ((emacs
 		 (25 1))
 		(org
@@ -1558,7 +1558,7 @@
 		(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 		(:authors
 		 ("Bastien Guerry" . "bzg@gnu.org"))
-		(:commit . "3385f15a303d40b4ffed563bc49b567462377751"))])
+		(:commit . "8acaa1b7afb612bd570f6beaaab8bf4594bc3cfc"))])
  (org-drill .
 	    [(2 7 0 0 20210428 101221)
 	     ((emacs
@@ -1702,7 +1702,7 @@
 	     ("Taylor R. Campbell" . "campbell@paredit.org"))
 	    (:commit . "9a2c4b37fc8c1c7bdbb1f86fdec874c0d0652e64"))])
  (parseclj .
-	   [(1 1 0 0 20220422 93615)
+	   [(1 1 0 0 20230911 162155)
 	    ((emacs
 	      (25)))
 	    "Clojure/EDN parser" tar
@@ -1711,9 +1711,9 @@
 	     (:authors
 	      ("Arne Brasseur" . "arne@arnebrasseur.net"))
 	     (:url . "https://elpa.nongnu.org/nongnu/parseclj.html")
-	     (:commit . "4d0e780e00f1828b00c43099e6eebc6582998f72"))])
+	     (:commit . "74ff7d63fed92a3c859e474ae85f011e794b751a"))])
  (parseedn .
-	   [(1 1 0 0 20220520 83536)
+	   [(1 1 0 0 20230911 151636)
 	    ((emacs
 	      (26))
 	     (parseclj
@@ -1721,12 +1721,12 @@
 	     (map
 	      (2)))
 	    "Clojure/EDN parser" tar
-	    ((:keywords "lisp" "clojure" "edn" "parser")
+	    ((:url . "http://www.github.com/clojure-emacs/parseedn")
+	     (:keywords "lisp" "clojure" "edn" "parser")
 	     (:maintainer "Arne Brasseur" . "arne@arnebrasseur.net")
 	     (:authors
 	      ("Arne Brasseur" . "arne@arnebrasseur.net"))
-	     (:url . "https://elpa.nongnu.org/nongnu/parseedn.html")
-	     (:commit . "a09686fbb9113b8b1b4f20c9e1dc0d6fea01a64f"))])
+	     (:commit . "5772dc9cb5e0ba6e8fe0b25f0897582b5348b5b5"))])
  (pcmpl-args .
 	     [(0 1 3 0 20220510 145627)
 	      ((emacs
@@ -2075,16 +2075,14 @@
 		     ("John Olsson" . "john@cryon.se"))
 		    (:commit . "9d0ac6aa5272d0285965a48505eb35658c5472b0"))])
  (subed .
-	[(1 2 3 0 20230618 140325)
+	[(1 2 4 0 20230911 140147)
 	 ((emacs
 	   (25 1)))
 	 "A major mode for editing subtitles" tar
 	 ((:url . "https://github.com/sachac/subed")
 	  (:keywords "convenience" "files" "hypermedia" "multimedia")
 	  (:maintainer "Sacha Chua" . "sacha@sachachua.com")
-	  (:authors
-	   ("Random User"))
-	  (:commit . "6ce7de37f21e123467ef1191db7a37cd99881c00"))])
+	  (:commit . "ccf071fb0bd815565c674ee8d2f213e3f209833d"))])
  (sweeprolog .
 	     [(0 24 1 0 20230909 75731)
 	      ((emacs
@@ -2298,14 +2296,14 @@
 			("Joost Kremers" . "joostkremers@fastmail.fm"))
 		       (:commit . "695a59789209c42fa08a5bce92963ee32f4455be"))])
  (web-mode .
-	   [(17 3 14 0 20230907 130400)
+	   [(17 3 14 0 20230911 181746)
 	    ((emacs
 	      (23 1)))
 	    "major mode for editing web templates" tar
 	    ((:url . "https://web-mode.org")
 	     (:keywords "languages")
 	     (:maintainer "François-Xavier Bois" . "fxbois@gmail.com")
-	     (:commit . "443a09423d23727df7efd4e60beedd3919e4800a"))])
+	     (:commit . "44c6bfa3626f476750ed3c1c0d253607c1606716"))])
  (webpaste .
 	   [(3 2 2 0 20220524 174541)
 	    ((emacs
@@ -2410,14 +2408,14 @@
 	      (:authors
 	       ("Le Wang")))])
  (xah-fly-keys .
-	       [(24 9 20230909155929 0 20230909 160253)
+	       [(24 10 20230911080522 0 20230911 80550)
 		((emacs
 		  (24 1)))
 		"ergonomic modal keybinding minor mode." tar
 		((:url . "http://xahlee.info/emacs/misc/xah-fly-keys.html")
 		 (:keywords "convenience" "emulations" "vim" "ergoemacs")
 		 (:maintainer "Xah Lee" . "xah@xahlee.org")
-		 (:commit . "c67afa46dc54a568683f7c4dcd9265c8695fe2c1"))])
+		 (:commit . "baa0ecff265c73e728e7157b78d3a473f475b95e"))])
  (xkcd .
        [(1 1 0 20220503 110939)
 	((json
