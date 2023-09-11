@@ -33140,7 +33140,7 @@
 		       (:keywords "convenience")
 		       (:url . "https://github.com/EricCrosson/help-find-org-mode"))])
  (helpful .
-	  [(0 22 1 -4 20230808 1519)
+	  [(0 22 1 -4 20230911 1547)
 	   ((emacs
 	     (25))
 	    (dash
@@ -33152,7 +33152,7 @@
 	    (elisp-refs
 	     (1 2)))
 	   "A better *help* buffer" tar
-	   ((:commit . "c57ff0d284b50ff430fe1f13fd48deaa0d1a910e")
+	   ((:commit . "66ba816b26b68dd7df08e86f8b96eaae16c8d6a2")
 	    (:authors
 	     ("Wilfred Hughes" . "me@wilfred.me.uk"))
 	    (:maintainers
@@ -37396,13 +37396,13 @@
 		 ("Florian Mounier aka paradoxxxzero"))
 		(:maintainer "Florian Mounier aka paradoxxxzero"))])
  (jinx .
-       [(0 9 1 -4 20230816 2045)
+       [(0 9 1 -4 20230911 1650)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 4 0)))
 	"Enchanted Spell Checker" tar
-	((:commit . "417d95002fbf6737d6463e56d2633badff25522c")
+	((:commit . "6f09016ea0b5ecc48e9becdc85c2dc44a5db956a")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainers
@@ -54618,11 +54618,11 @@
 	   (:keywords "extensions")
 	   (:url . "https://github.com/cute-jumper/parsec.el"))])
  (parseclj .
-	   [(1 1 0 1 -4 20220422 936)
+	   [(1 1 0 1 -4 20230911 1621)
 	    ((emacs
 	      (25)))
 	    "Clojure/EDN parser" tar
-	    ((:commit . "4d0e780e00f1828b00c43099e6eebc6582998f72")
+	    ((:commit . "74ff7d63fed92a3c859e474ae85f011e794b751a")
 	     (:authors
 	      ("Arne Brasseur" . "arne@arnebrasseur.net"))
 	     (:maintainers
@@ -54630,7 +54630,7 @@
 	     (:maintainer "Arne Brasseur" . "arne@arnebrasseur.net")
 	     (:keywords "lisp" "clojure" "edn" "parser"))])
  (parseedn .
-	   [(1 1 0 1 -4 20220520 835)
+	   [(1 1 0 1 -4 20230911 1516)
 	    ((emacs
 	      (26))
 	     (parseclj
@@ -54638,13 +54638,14 @@
 	     (map
 	      (2)))
 	    "Clojure/EDN parser" tar
-	    ((:commit . "a09686fbb9113b8b1b4f20c9e1dc0d6fea01a64f")
+	    ((:commit . "5772dc9cb5e0ba6e8fe0b25f0897582b5348b5b5")
 	     (:authors
 	      ("Arne Brasseur" . "arne@arnebrasseur.net"))
 	     (:maintainers
 	      ("Arne Brasseur" . "arne@arnebrasseur.net"))
 	     (:maintainer "Arne Brasseur" . "arne@arnebrasseur.net")
-	     (:keywords "lisp" "clojure" "edn" "parser"))])
+	     (:keywords "lisp" "clojure" "edn" "parser")
+	     (:url . "http://www.github.com/clojure-emacs/parseedn"))])
  (pasp-mode .
 	    [(0 1 0 1 -4 20180404 1700)
 	     ((emacs
@@ -58946,11 +58947,11 @@
 		 (:keywords "languages")
 		 (:url . "https://github.com/wbolster/emacs-python-black"))])
  (python-cell .
-	      [(1 0 1 -4 20230426 1602)
+	      [(1 0 1 -4 20230911 1630)
 	       ((emacs
 		 (25 1)))
 	       "Support for MATLAB-like cells in python mode" tar
-	       ((:commit . "0428186af2fac1252ec62e9be4f7bf3664682e83")
+	       ((:commit . "9f2a735e08362bf270ea74c27771ee3cd1bfefbf")
 		(:authors
 		 ("Thomas Hisch" . "t.hisch@gmail.com"))
 		(:maintainers
@@ -71832,7 +71833,7 @@
 	       (:keywords "convenience" "usability" "url")
 	       (:url . "https://github.com/lujun9972/verify-url"))])
  (verilog-ext .
-	      [(0 2 0 1 -4 20230908 1528)
+	      [(0 2 0 1 -4 20230911 1630)
 	       ((emacs
 		 (29 1))
 		(verilog-mode
@@ -71862,7 +71863,7 @@
 		(async
 		 (1 9 7)))
 	       "SystemVerilog Extensions" tar
-	       ((:commit . "d5237b71ed50001d2695d51554c937bd24040891")
+	       ((:commit . "6cd10a2ba89ec5c5d8c1d3f85592f2c7ad3f1c10")
 		(:authors
 		 ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 		(:maintainers
@@ -72002,7 +72003,7 @@
 	      (:keywords "convenience" "usability" "vhdl" "completion")
 	      (:url . "https://github.com/sh-ow/vhdl-capf"))])
  (vhdl-ext .
-	   [(0 2 0 1 -4 20230910 1346)
+	   [(0 2 0 1 -4 20230911 1633)
 	    ((emacs
 	      (29 1))
 	     (vhdl-ts-mode
@@ -72026,7 +72027,7 @@
 	     (async
 	      (1 9 7)))
 	    "VHDL Extensions" tar
-	    ((:commit . "c098e4b816f9fa8f7905c4fa56c4039b0b149b83")
+	    ((:commit . "aaf7b7e70b366cb70a36af6d9520d498eb179f0d")
 	     (:authors
 	      ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 	     (:maintainers
