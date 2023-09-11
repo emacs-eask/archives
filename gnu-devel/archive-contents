@@ -163,14 +163,14 @@
 	      (:url . "https://elpa.gnu.org/packages/arbitools.html")
 	      (:commit . "a086c646ee78389d2b21549ecbb73a309ed70eef"))])
  (ascii-art-to-unicode .
-		       [(1 13 0 20221221 74335)
+		       [(1 13 0 20230911 4520)
 			nil "a small artist adjunct" tar
 			((:url . "https://www.gnuvola.org/software/aa2u/")
 			 (:keywords "ascii" "unicode" "box-drawing")
-			 (:maintainer "Thien-Thi Nguyen" . "ttn@gnu.org")
+			 (:maintainer nil . "emacs-devel@gnu.org")
 			 (:authors
 			  ("Thien-Thi Nguyen" . "ttn@gnu.org"))
-			 (:commit . "ec8ce763e51fd91b3d9816799b6e828e3a9ea9eb"))])
+			 (:commit . "53b49ffcf2cabe8ef0f7fc1a74fd6748c3f99c58"))])
  (async .
 	[(1 9 7 0 20230802 104021)
 	 ((emacs
@@ -1215,7 +1215,7 @@
 		    ("Ihor Radchenko" . "yantar92@posteo.net"))
 		   (:commit . "703516c63ce71ec68945d48c297d294990728686"))])
  (embark .
-	 [(0 22 1 0 20230909 50050)
+	 [(0 22 1 0 20230910 181513)
 	  ((emacs
 	    (27 1))
 	   (compat
@@ -1226,9 +1226,9 @@
 	   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-	   (:commit . "4f2729c97817e950eda45c052e685018d9f71740"))])
+	   (:commit . "9bafe8f570922df23a6ca353be35c97bb8fc7bbd"))])
  (embark-consult .
-		 [(0 7 0 20230909 50050)
+		 [(0 7 0 20230910 181513)
 		  ((emacs
 		    (27 1))
 		   (embark
@@ -1241,7 +1241,7 @@
 		   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 		   (:authors
 		    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-		   (:commit . "4f2729c97817e950eda45c052e685018d9f71740"))])
+		   (:commit . "9bafe8f570922df23a6ca353be35c97bb8fc7bbd"))])
  (ement .
 	[(0 12 -1 0 20230910 60516)
 	 ((emacs
@@ -1313,7 +1313,7 @@
 	       (:url . "https://elpa.gnu.org/packages/epoch-view.html")
 	       (:commit . "7a9773a8b55491bd47f23dfdb6c4224f5cc8e50c"))])
  (erc .
-      [(5 6 -4 0 20230722 73307)
+      [(5 6 -4 0 20230910 204449)
        ((emacs
 	 (27 1))
 	(compat
@@ -1321,10 +1321,12 @@
        "An Emacs Internet Relay Chat client" tar
        ((:url . "https://www.gnu.org/software/emacs/erc.html")
 	(:keywords "irc" "chat" "client" "internet")
-	(:maintainer "Amin Bandali <bandali@gnu.org>, F. Jason Park" . "jp@neverwas.me")
+	(:maintainer
+	 ("Amin Bandali" . "bandali@gnu.org")
+	 ("F. Jason Park" . "jp@neverwas.me"))
 	(:authors
 	 ("Alexander L. Belikoff" . "alexander@belikoff.net"))
-	(:commit . "5d2d28458d0eb378a7e94363ef716e8648ef129a"))])
+	(:commit . "f6568dabf2996a1310dad13a2d4cdc197fa2d304"))])
  (ergoemacs-mode .
 		 [(5 16 10 12 0 20230207 95118)
 		  ((emacs
@@ -1656,7 +1658,7 @@
 			    (:url . "https://elpa.gnu.org/packages/gnu-elpa-keyring-update.html")
 			    (:commit . "685192692f809e3d8c336e27170a2b819925202f"))])
  (gnugo .
-	[(3 1 2 0 20221212 224439)
+	[(3 1 2 0 20230911 4426)
 	 ((ascii-art-to-unicode
 	   (1 5))
 	  (xpm
@@ -1666,10 +1668,10 @@
 	 "play GNU Go in a buffer" tar
 	 ((:url . "https://www.gnuvola.org/software/gnugo/")
 	  (:keywords "games" "processes")
-	  (:maintainer "Thien-Thi Nguyen" . "ttn@gnu.org")
+	  (:maintainer nil . "emacs-devel@gnu.org")
 	  (:authors
 	   ("Thien-Thi Nguyen" . "ttn@gnu.org"))
-	  (:commit . "49045259101d734312a8811d3d19ca6d185552de"))])
+	  (:commit . "a9b2979c20258b00c49f9932a5eac104bab1124e"))])
  (gnus-mock .
 	    [(0 5 0 20210503 105756)
 	     nil "Mock Gnus installation for testing" tar
@@ -4487,7 +4489,7 @@
 	  ("Chris Feng" . "chris.w.feng@gmail.com"))
 	 (:keywords "unix"))])
  (xpm .
-      [(1 0 5 0 20221221 82958)
+      [(1 0 5 0 20230911 4618)
        ((cl-lib
 	 (0 5))
 	(queue
@@ -4495,10 +4497,10 @@
        "edit XPM images" tar
        ((:url . "https://www.gnuvola.org/software/xpm/")
 	(:keywords "multimedia" "xpm")
-	(:maintainer "Thien-Thi Nguyen" . "ttn@gnu.org")
+	(:maintainer nil . "emacs-devel@gnu.org")
 	(:authors
 	 ("Thien-Thi Nguyen" . "ttn@gnu.org"))
-	(:commit . "838f3402394a1f75f0b3890367c04e4a9bc14886"))])
+	(:commit . "72f43a16fdc629e3d7bf90bf6cdebdaff97a95c7"))])
  (xr .
      [(1 24 0 20230901 120103)
       ((emacs
