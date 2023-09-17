@@ -7298,7 +7298,7 @@
 		(:maintainer "Adam Chyła" . "adam@chyla.org")
 		(:url . "https://github.com/chyla/ChylaThemeForEmacs"))])
  (cider .
-	[(1 8 0 -4 20230914 1350)
+	[(1 8 0 -4 20230917 1951)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -7316,7 +7316,7 @@
 	  (transient
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
-	 ((:commit . "09d72192a4734653ca0b1b4b227c38760880fc63")
+	 ((:commit . "b75e53882faa05cffcd1982fde90dcfe9429ec9f")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
 	   ("Phil Hagelberg" . "technomancy@gmail.com")
@@ -12037,6 +12037,19 @@
 		     "A Theme with overwhelming bias towards cyan" tar
 		     ((:commit . "9b20e33a8cc2c76bfe6ad45916be6881386707f5")
 		      (:url . "http://github.com/emacsfodder/emacs-theme-cyanometric"))])
+ (cybercafe-theme .
+		  [(0 3 2 1 -4 20230915 1506)
+		   ((emacs
+		     (24 1)))
+		   "Cybercafe color theme" tar
+		   ((:commit . "b23fa2baf039ad863c35d37b34c5376e18db68ef")
+		    (:authors
+		     (nil . "Gabriel de Brito gabrielgbrito@icloud.com"))
+		    (:maintainers
+		     (nil . "Gabriel de Brito gabrielgbrito@icloud.com"))
+		    (:maintainer nil . "Gabriel de Brito gabrielgbrito@icloud.com")
+		    (:keywords "faces")
+		    (:url . "http://github.com/gboncoffee/cybercafe-emacs-theme"))])
  (cyberpunk-2019-theme .
 		       [(0 0 1 1 -4 20191008 1133)
 			((emacs
@@ -12595,13 +12608,13 @@
 	      (:keywords "files" "convenience")
 	      (:url . "https://github.com/DerBeutlin/date2name.el"))])
  (datetime .
-	   [(0 8 1 -4 20230917 1822)
+	   [(0 9 1 -4 20230917 1852)
 	    ((emacs
 	      (24 4))
 	     (extmap
 	      (1 1 1)))
 	    "Parsing, formatting and matching timestamps" tar
-	    ((:commit . "58b7ac95ad39db0426de5e6e96b32487773d090d")
+	    ((:commit . "32e6d3f1f32977a66169a11b38578bc29ceb6f6f")
 	     (:authors
 	      ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	     (:maintainers
@@ -15732,6 +15745,21 @@
 		    ("Thanabodee Charoenpiriyakij" . "wingyminus@gmail.com"))
 		   (:maintainer "Thanabodee Charoenpiriyakij" . "wingyminus@gmail.com")
 		   (:url . "https://github.com/earthly/earthly-mode"))])
+ (eask .
+       [(0 8 2 1 -4 20230915 625)
+	((emacs
+	  (26 1))
+	 (dash
+	  (2 14 1)))
+	"Core Eask APIs, for Eask CLI development" tar
+	((:commit . "79c714859f7b61c96def49f43f10619895287af9")
+	 (:authors
+	  ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
+	 (:maintainers
+	  ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
+	 (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	 (:keywords "lisp" "eask" "api")
+	 (:url . "https://github.com/emacs-eask/eask"))])
  (easy-after-load .
 		  [(0 1 1 -4 20170817 1231)
 		   nil "eval-after-load for all files in a directory" tar
@@ -18133,13 +18161,13 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 22 1 1 -4 20230917 508)
+	 [(0 22 1 1 -4 20230917 1917)
 	  ((emacs
 	    (27 1))
 	   (compat
 	    (29 1 4 0)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "c6145d07e522df0b328aa1dccfb37b7618420f63")
+	  ((:commit . "60e3a02429f0187164878cf006172fa3f87f89ff")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	   (:maintainers
@@ -30846,6 +30874,21 @@
 		     ("Youngjoo Lee" . "youngker@gmail.com"))
 		    (:maintainer "Youngjoo Lee" . "youngker@gmail.com")
 		    (:keywords "tools"))])
+ (helm-comint .
+	      [(0 0 1 1 -4 20230911 1725)
+	       ((emacs
+		 (29 1))
+		(helm
+		 (3 9 4)))
+	       "Comint prompt navigation for helm" tar
+	       ((:commit . "60476860d88b9786118ffb9a593f8006779a4c55")
+		(:authors
+		 ("Pierre Neidhardt" . "mail@ambrevar.xyz"))
+		(:maintainers
+		 ("Benedict Wang" . "foss@bhw.name"))
+		(:maintainer "Benedict Wang" . "foss@bhw.name")
+		(:keywords "processes" "matching")
+		(:url . "https://github.com/benedicthw/helm-comint.git"))])
  (helm-commandlinefu .
 		     [(0 3 1 -4 20150611 545)
 		      ((emacs
@@ -36040,6 +36083,17 @@
 		 (:maintainer "Srđan Panić" . "srdja.panic@gmail.com")
 		 (:keywords "themes")
 		 (:url . "https://github.com/srdja/iodine-theme"))])
+ (iota .
+       [(1 0 0 1 -4 20230820 2033)
+	nil "Replace marker with increasing integers" tar
+	((:commit . "9dbf2741a2471044e58ccee6635ae8c6e311b7a8")
+	 (:authors
+	  ("Thomas Voss" . "mail@thomasvoss.com"))
+	 (:maintainers
+	  ("Thomas Voss" . "mail@thomasvoss.com"))
+	 (:maintainer "Thomas Voss" . "mail@thomasvoss.com")
+	 (:keywords "abbrev" "data" "wp")
+	 (:url . "https://git.sr.ht/~mango/iota"))])
  (ipcalc .
 	 [(0 2 6 1 -4 20210903 958)
 	  ((cl-lib
