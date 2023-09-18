@@ -47838,6 +47838,19 @@
 		 (:maintainer "Azzam S.A" . "vcs@azzamsa.com")
 		 (:keywords "languages" "unix")
 		 (:url . "https://github.com/mrkkrp/nushell-mode"))])
+ (nushell-ts-mode .
+		  [(0 0 1 1 -4 20230911 152)
+		   ((emacs
+		     (29 1)))
+		   "Tree-sitter support for Nushell" tar
+		   ((:commit . "68afe1a8275880995b4d9a122fecf4accca15183")
+		    (:authors
+		     ("Herbert Jones" . "jones.herbert@gmail.com"))
+		    (:maintainers
+		     ("Herbert Jones" . "jones.herbert@gmail.com"))
+		    (:maintainer "Herbert Jones" . "jones.herbert@gmail.com")
+		    (:keywords "nu" "nushell" "languages" "tree-sitter")
+		    (:url . "https://github.com/herbertjones/nushell-ts-mode"))])
  (nv-delete-back .
 		 [(0 0 3 1 -4 20170224 1249)
 		  ((emacs
@@ -71124,6 +71137,20 @@
 				 (:maintainer nil . "<gcr@wisdomandwonder.com>")
 				 (:keywords "convenience" "docs" "languages")
 				 (:url . "https://github.com/grettke/universal-emotions-emoticons"))])
+ (universal-sidecar .
+		    [(1 3 0 1 -4 20230914 1511)
+		     ((emacs
+		       (26 1))
+		      (magit-section
+		       (3 0 0)))
+		     "A universal sidecar buffer" tar
+		     ((:commit . "2c627a8862ade31f3836b1bc34f9c5f3130fad01")
+		      (:authors
+		       ("Samuel W. Flint" . "me@samuelwflint.com"))
+		      (:maintainers
+		       ("Samuel W. Flint" . "me@samuelwflint.com"))
+		      (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
+		      (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
  (unkillable-scratch .
 		     [(1 0 0 1 -4 20221015 1323)
 		      ((emacs
