@@ -64472,6 +64472,21 @@
 		      ("Thomas Fitzsimmons" . "fitzsim@fitzsim.org"))
 		     (:maintainer "Thomas Fitzsimmons" . "fitzsim@fitzsim.org")
 		     (:keywords "games"))])
+ (slint-mode .
+	     [(0 1 0 1 -4 20230917 1145)
+	      ((emacs
+		(24 4))
+	       (lsp-mode
+		(6 0)))
+	      "Major-mode for the Slint UI language" tar
+	      ((:commit . "2859f20bbc5ba2d193af1223b37669f87ac5853d")
+	       (:authors
+		("Niklas Cathor" . "niklas.cathor@gmx.de"))
+	       (:maintainers
+		("Niklas Cathor" . "niklas.cathor@gmx.de"))
+	       (:maintainer "Niklas Cathor" . "niklas.cathor@gmx.de")
+	       (:keywords "languages")
+	       (:url . "https://github.com/nilclass/slint-mode"))])
  (slirm .
 	[(1 0 1 -4 20160201 1425)
 	 ((emacs
@@ -72897,6 +72912,19 @@
 	      (:maintainer "XXIV")
 	      (:keywords "files" "wasp")
 	      (:url . "https://github.com/thechampagne/wasp-mode"))])
+ (wat-ts-mode .
+	      [(1 0 0 1 -4 20230917 2330)
+	       ((emacs
+		 (29 1)))
+	       "Major mode for webassembly text format" tar
+	       ((:commit . "78ba6a2ecfe31acbbad87630c9244c949a776c30")
+		(:authors
+		 ("Noah Peart" . "noah.v.peart@gmail.com"))
+		(:maintainers
+		 ("Noah Peart" . "noah.v.peart@gmail.com"))
+		(:maintainer "Noah Peart" . "noah.v.peart@gmail.com")
+		(:keywords "wasm" "wat" "wast" "languages" "tree-sitter")
+		(:url . "https://github.com/nverno/wat-ts-mode"))])
  (wavedrom-mode .
 		[(0 1 0 1 -4 20230913 2246)
 		 ((emacs
