@@ -628,7 +628,7 @@
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	   (:commit . "a16662cbc5db33350b7ab0f5a345952fd6c03403"))])
  (consult .
-	  [(0 35 0 20230919 195645)
+	  [(0 35 0 20230919 201223)
 	   ((emacs
 	     (27 1))
 	    (compat
@@ -637,7 +637,7 @@
 	   ((:url . "https://github.com/minad/consult")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-	    (:commit . "d86a0b64539893bfc700299343294a3eb34812b6"))])
+	    (:commit . "43380042daaaf57f60aa22962a97ed904a7d56ce"))])
  (consult-recoll .
 		 [(0 8 0 20221014 200255)
 		  ((emacs
@@ -2177,6 +2177,18 @@
 	(:authors
 	 ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	(:commit . "75983a770d70b57c090db8cd503a340c32f51827"))])
+ (llm .
+      [(0 1 0 20230919 184603)
+       ((request
+	 (0 3 3))
+	(emacs
+	 (28 1)))
+       "Interface to pluggable llm backends" tar
+       ((:url . "https://github.com/ahyatt/llm")
+	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
+	(:authors
+	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
+	(:commit . "8fcfdd359e103d7a401e7d8043c5e93f405d0a4e"))])
  (lmc .
       [(1 4 0 20230105 113402)
        ((emacs
@@ -2628,7 +2640,7 @@
 	     ("Philip Kaludercic" . "philipk@posteo.net"))
 	    (:commit . "25babb1060622c1560c8be64cdbb009af535959a"))])
  (orderless .
-	    [(1 0 0 20230801 201828)
+	    [(1 0 0 20230919 235319)
 	     ((emacs
 	       (26 1)))
 	     "Completion style for matching regexps in any order" tar
@@ -2637,7 +2649,7 @@
 	      (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 	      (:authors
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-	      (:commit . "6936fe46ef07df168a423f04efeda130b4e69753"))])
+	      (:commit . "d6b402a89e234d0e6166247ed6025f9acc8b4d9a"))])
  (org .
       [(9 7 -1 0 20230919 124909)
        ((emacs
@@ -3984,7 +3996,7 @@
 	       (:url . "https://elpa.gnu.org/packages/transcribe.html")
 	       (:commit . "2c2d493d5488f3b444d2a771ab443589fcc72c13"))])
  (transient .
-	    [(0 4 3 0 20230919 125156)
+	    [(0 4 3 0 20230919 214625)
 	     ((emacs
 	       (25 1))
 	      (compat
@@ -3995,7 +4007,7 @@
 	      (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	      (:authors
 	       ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	      (:commit . "7c08beb8d2c8a071c9e947617dbee369f17add84"))])
+	      (:commit . "04f87b4ab3c7448a78f452cadaaf5d9e7a216d1d"))])
  (transient-cycles .
 		   [(1 0 0 20220410 130412)
 		    ((emacs
