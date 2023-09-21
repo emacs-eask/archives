@@ -22487,7 +22487,7 @@
 	    (:keywords "fingers" "modal" "editing" "workman")
 	    (:url . "http://github.com/fgeller/fingers.el"))])
  (finito .
-	 [(0 2 0 1 -4 20230730 834)
+	 [(0 2 0 1 -4 20230921 1805)
 	  ((emacs
 	    (27 1))
 	   (dash
@@ -22505,7 +22505,7 @@
 	   (async
 	    (1 9 3)))
 	  "View and collect books" tar
-	  ((:commit . "b19bc85657c3d0d12a7f828b668cda23f1524fdb")
+	  ((:commit . "8ae51b38a496f01b379b1535c6935d36d786b13a")
 	   (:authors
 	    ("Laurence Warne"))
 	   (:maintainers
@@ -25828,7 +25828,7 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 3 2 50 -4 20230921 1626)
+	[(0 3 2 50 -4 20230921 2020)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -25847,12 +25847,14 @@
 	   (20230319))
 	  (markdown-mode
 	   (2 4))
+	  (seq
+	   (2 24))
 	  (transient
 	   (0 4 0))
 	  (yaml
 	   (0 5 2)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "0dbd85d9cce988322a3f1913a73544057563dd8f")
+	 ((:commit . "514a5f0a04247e276b3db906d41494113ef886dc")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -26428,13 +26430,13 @@
 	  ("Natalie Weizenbaum" . "nweiz@google.com"))
 	 (:maintainer "Natalie Weizenbaum" . "nweiz@google.com"))])
  (fussy .
-	[(1 0 1 -4 20230714 53)
+	[(1 0 1 -4 20230921 1850)
 	 ((emacs
 	   (27 2))
 	  (flx
 	   (0 5)))
 	 "Fuzzy completion style using `flx'" tar
-	 ((:commit . "9cd9fef9c0b319f7e33f687760cc6efe7e11faba")
+	 ((:commit . "2ff8317c403b15d3c898f7dcd8511b6d16f92c1d")
 	  (:authors
 	   ("James Nguyen" . "james@jojojames.com"))
 	  (:maintainers
@@ -37461,13 +37463,13 @@
 		 ("Florian Mounier aka paradoxxxzero"))
 		(:maintainer "Florian Mounier aka paradoxxxzero"))])
  (jinx .
-       [(0 9 1 -4 20230914 1043)
+       [(0 9 1 -4 20230921 1918)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 4 0)))
 	"Enchanted Spell Checker" tar
-	((:commit . "c9c5bde6a5abb7410f58ef51006ba44f76622779")
+	((:commit . "5e80f9839bb1ad51dbf96d6e5bbe1bc2648d8822")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainers
@@ -41351,7 +41353,7 @@
 		   ("Wilfred Hughes" . "me@wilfred.me.uk"))
 		  (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk"))])
  (logview .
-	  [(0 17 1 -4 20230818 1411)
+	  [(0 17 2 -4 20230921 1903)
 	   ((emacs
 	     (25 1))
 	    (datetime
@@ -41359,7 +41361,7 @@
 	    (extmap
 	     (1 0)))
 	   "Major mode for viewing log files" tar
-	   ((:commit . "cabaf93f1df86c92aa022dde4a92d92371d72572")
+	   ((:commit . "00b3b01dfc99d1b3fb6d255e1ba9c3b4581cf065")
 	    (:authors
 	     ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	    (:maintainers
@@ -42385,7 +42387,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230919 2156)
+	[(3 3 0 50 -4 20230921 2037)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -42397,13 +42399,13 @@
 	  (magit-section
 	   (20230101))
 	  (seq
-	   (2 23))
+	   (2 24))
 	  (transient
 	   (20230201))
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "ae7f5e9fb4fa5253ec0ee64e06f7b3afc0cbee7f")
+	 ((:commit . "84eaa203f3c70d55f29fbe6a8d6d9d5334cb6818")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -44583,11 +44585,11 @@
 	      (:keywords "languages" "mips" "assembly")
 	      (:url . "https://github.com/hlissner/emacs-mips-mode"))])
  (mistty .
-	 [(0 9 1 -4 20230921 1634)
+	 [(0 9 1 -4 20230921 2014)
 	  ((emacs
 	    (29 1)))
 	  "Shell/Comint alternative based on term.el" tar
-	  ((:commit . "76eda346729608c2e77026d202782b2406dc79b9")
+	  ((:commit . "5fa2b91c1dec9eaa4f363d13e9ef2ff301f85b66")
 	   (:authors
 	    ("Stephane Zermatten" . "szermatt@gmx.net"))
 	   (:maintainers
@@ -51578,11 +51580,11 @@
 		    (:keywords "outlines")
 		    (:url . "https://github.com/Fuco1/org-radiobutton"))])
  (org-rainbow-tags .
-		   [(0 1 -1 1 -4 20230607 1927)
+		   [(0 1 -1 1 -4 20230921 2038)
 		    ((emacs
 		      (28 1)))
 		    "Colorize org tags automatically" tar
-		    ((:commit . "550cc521013ba631bb3ad5fc4acdb72b655b24b7")
+		    ((:commit . "fd0b68921302fdc3f0d086db7a09b5196251160f")
 		     (:authors
 		      ("Furkan Karataş" . "furkan.karatas02@gmail.com"))
 		     (:maintainers
@@ -52177,7 +52179,7 @@
 		      (:keywords "hypermedia" "outlines" "org")
 		      (:url . "http://github.com/alphapapa/org-sticky-header"))])
  (org-super-agenda .
-		   [(1 3 -1 1 -4 20220826 2315)
+		   [(1 3 -1 1 -4 20230921 1914)
 		    ((emacs
 		      (26 1))
 		     (s
@@ -52191,7 +52193,7 @@
 		     (ts
 		      (0 2)))
 		    "Supercharge your agenda" tar
-		    ((:commit . "f4f528985397c833c870967884b013cf91a1da4a")
+		    ((:commit . "a871f3913d4a1c80ea56c3aea022c36db97529da")
 		     (:authors
 		      ("Adam Porter" . "adam@alphapapa.net"))
 		     (:maintainers
