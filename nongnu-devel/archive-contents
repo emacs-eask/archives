@@ -214,7 +214,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "7521fa1b39de735dcbd32bca92a792d5261e9ce2"))])
  (cider .
-	[(1 8 0 -4 0 20230922 54450)
+	[(1 8 0 -4 0 20230922 103219)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -242,7 +242,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "147055a5583e0192358b2ccb1aa8ba5accdbaab5"))])
+	  (:commit . "95d8facd9a94aa723c9a11e5061ed0e109541b55"))])
  (clojure-mode .
 	       [(5 17 0 0 20230911 165346)
 		((emacs
@@ -406,13 +406,13 @@
 		    (:keywords "docker" "languages" "processes" "tools")
 		    (:commit . "52c6c00da1d31c0b6c29c74335b3af63ed6bf06c"))])
  (dracula-theme .
-		[(1 8 1 0 20230922 74642)
+		[(1 8 1 0 20230922 143352)
 		 ((emacs
 		   (24 3)))
 		 "Dracula Theme" tar
 		 ((:url . "https://github.com/dracula/emacs")
 		  (:maintainer "tienne Deparis" . "etienne@depar.is")
-		  (:commit . "dabe74904036717b06546c382df6e77a28921cff"))])
+		  (:commit . "3b689522435845df0f85dbee4cbad1e035d356df"))])
  (drupal-mode .
 	      [(0 7 4 0 20220125 104446)
 	       ((php-mode
@@ -425,16 +425,18 @@
 		 ("Arne Jørgensen" . "arne@arnested.dk"))
 		(:commit . "17927723adc5921e8058f7c29e5e50e88b975639"))])
  (eat .
-      [(0 8 0 20230918 90832)
+      [(0 8 0 20230922 93737)
        ((emacs
-	 (28 1)))
+	 (28 1))
+	(compat
+	 (29 1)))
        "Emulate A Terminal, in a region, in a buffer and in Eshell" tar
        ((:url . "https://codeberg.org/akib/emacs-eat")
 	(:keywords "terminals" "processes")
 	(:maintainer "Akib Azmain Turja" . "akib@disroot.org")
 	(:authors
 	 ("Akib Azmain Turja" . "akib@disroot.org"))
-	(:commit . "0fe5d5cb9d8fad984892c14f1e047677f3c67e38"))])
+	(:commit . "3f4d4a9c36526e82ee0c84ae312d95291699ac19"))])
  (edit-indirect .
 		[(0 1 10 0 20220511 112427)
 		 ((emacs
@@ -762,7 +764,7 @@
 		("Akib Azmain Turja" . "akib@disroot.org"))
 	       (:commit . "ce2ea016a67b200862788e81f0ff1f8f7e4e0454"))])
  (geiser .
-	 [(0 29 1 0 20230806 185728)
+	 [(0 29 1 0 20230922 170957)
 	  ((emacs
 	    (27 1))
 	   (project
@@ -770,10 +772,10 @@
 	  "GNU Emacs and Scheme talk to each other" tar
 	  ((:url . "https://gitlab.com/emacs-geiser/")
 	   (:keywords "languages" "scheme" "geiser")
-	   (:maintainer "Jose Antonio Ortega Ruiz" . "jao@gnu.org")
+	   (:maintainer "Jose Antonio Ortega Ruiz" . "(jao@gnu.org)")
 	   (:authors
-	    ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
-	   (:commit . "d743a8cd1df4101a6dc2226ccfc3b4883ec761c5"))])
+	    ("Jose Antonio Ortega Ruiz" . "(jao@gnu.org)"))
+	   (:commit . "6d106be16772e777c5bbb2c22750a344a21ff116"))])
  (geiser-chez .
 	      [(0 18 0 20230707 93440)
 	       ((emacs
@@ -903,7 +905,7 @@
 		   ("Jeronimo Pellegrini" . "j_p@aleph0.info"))
 		  (:commit . "b4211af83d3662bee65db2ebbd63531bc4a9a921"))])
  (git-commit .
-	     [(3 3 0 50 -4 0 20230921 203703)
+	     [(3 3 0 50 -4 0 20230922 133223)
 	      ((emacs
 		(25 1))
 	       (compat
@@ -921,7 +923,7 @@
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
 		("Florian Ragwitz" . "rafl@debian.org")
 		("Marius Vollmer" . "marius.vollmer@gmail.com"))
-	       (:commit . "84eaa203f3c70d55f29fbe6a8d6d9d5334cb6818"))])
+	       (:commit . "b4c6744d0d56d7b4777a02d2aa61a3f3f8e016d4"))])
  (git-modes .
 	    [(1 4 1 0 20230920 122421)
 	     ((emacs
@@ -1073,7 +1075,7 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (helm .
-       [(3 9 5 0 20230919 44244)
+       [(3 9 5 0 20230922 145811)
 	((helm-core
 	  (3 9 4))
 	 (wfnames
@@ -1085,9 +1087,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "89fb29c93f1f670c2b31733e732c5b6f6690c866"))])
+	 (:commit . "4b781e229c1872c674f77d695530241abba988f0"))])
  (helm-core .
-	    [(3 9 5 0 20230919 44244)
+	    [(3 9 5 0 20230922 145811)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1097,7 +1099,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "89fb29c93f1f670c2b31733e732c5b6f6690c866"))])
+	      (:commit . "4b781e229c1872c674f77d695530241abba988f0"))])
  (highlight-parentheses .
 			[(2 1 1 0 20220408 84538)
 			 ((emacs
@@ -1333,7 +1335,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "0b04a89f698c335c9ea492553470a8d45c113edd"))])
  (magit .
-	[(3 3 0 50 -4 0 20230921 203703)
+	[(3 3 0 50 -4 0 20230922 133223)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -1359,9 +1361,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	  (:commit . "84eaa203f3c70d55f29fbe6a8d6d9d5334cb6818"))])
+	  (:commit . "b4c6744d0d56d7b4777a02d2aa61a3f3f8e016d4"))])
  (magit-section .
-		[(3 3 0 50 -4 0 20230921 203703)
+		[(3 3 0 50 -4 0 20230922 133223)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -1374,7 +1376,7 @@
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
-		  (:commit . "84eaa203f3c70d55f29fbe6a8d6d9d5334cb6818"))])
+		  (:commit . "b4c6744d0d56d7b4777a02d2aa61a3f3f8e016d4"))])
  (markdown-mode .
 		[(2 7 -3 0 20230830 133821)
 		 ((emacs
@@ -1548,7 +1550,7 @@
 		     ("Yilkal Argaw" . "yilkalargawworkneh@gmail.com"))
 		    (:commit . "817eabf902e759e96782bdc54d2dab36c4a2c5ab"))])
  (org-contrib .
-	      [(0 4 2 0 20230921 105706)
+	      [(0 4 2 0 20230922 110723)
 	       ((emacs
 		 (25 1))
 		(org
@@ -1559,7 +1561,7 @@
 		(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 		(:authors
 		 ("Bastien Guerry" . "bzg@gnu.org"))
-		(:commit . "596b58f985162ffa564eb9aeb4029b6870ba54f6"))])
+		(:commit . "1b7df17b3d0937ead2b476e8b4c7eeb6fcf7b490"))])
  (org-drill .
 	    [(2 7 0 0 20210428 101221)
 	     ((emacs
@@ -2085,7 +2087,7 @@
 	  (:maintainer "Sacha Chua" . "sacha@sachachua.com")
 	  (:commit . "ccf071fb0bd815565c674ee8d2f213e3f209833d"))])
  (sweeprolog .
-	     [(0 25 0 0 20230917 74412)
+	     [(0 25 1 0 20230922 150426)
 	      ((emacs
 		(27 1))
 	       (compat
@@ -2096,7 +2098,7 @@
 	       (:maintainer "Eshel Yaron" . "~eshel/dev@lists.sr.ht")
 	       (:authors
 		("Eshel Yaron" . "me@eshelyaron.com"))
-	       (:commit . "526c1fae14f28cf2a7741bbe008bfac04db6281d"))])
+	       (:commit . "3fb029a918ebce83f541085b859966441317deef"))])
  (swift-mode .
 	     [(9 0 0 0 20230831 83201)
 	      ((emacs
