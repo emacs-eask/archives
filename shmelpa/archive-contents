@@ -7298,7 +7298,7 @@
 		(:maintainer "Adam Chyła" . "adam@chyla.org")
 		(:url . "https://github.com/chyla/ChylaThemeForEmacs"))])
  (cider .
-	[(1 8 0 -4 20230922 544)
+	[(1 8 0 -4 20230922 1032)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -7316,7 +7316,7 @@
 	  (transient
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
-	 ((:commit . "147055a5583e0192358b2ccb1aa8ba5accdbaab5")
+	 ((:commit . "95d8facd9a94aa723c9a11e5061ed0e109541b55")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
 	   ("Phil Hagelberg" . "technomancy@gmail.com")
@@ -13400,20 +13400,22 @@
 		   (:maintainer "Edmund Jorgensen" . "edmund@hut8labs.com")
 		   (:keywords "tools"))])
  (difftastic .
-	     [(0 0 0 1 -4 20230904 1049)
+	     [(0 0 0 1 -4 20230922 1058)
 	      ((emacs
-		(28 1))
+		(27 1))
+	       (compat
+		(29 1 4 2))
 	       (magit
 		(20220326)))
 	      "Wrapper for difftastic" tar
-	      ((:commit . "bfeb7dd4186ba954860d7ceff0397135b6a1fd71")
+	      ((:commit . "f9ac514bdcb4fd9a7c8f176f29252d7269a4c8a3")
 	       (:authors
 		("Przemyslaw Kryger" . "pkryger@gmail.com"))
 	       (:maintainers
 		("Przemyslaw Kryger" . "pkryger@gmail.com"))
 	       (:maintainer "Przemyslaw Kryger" . "pkryger@gmail.com")
 	       (:keywords "tools" "diff")
-	       (:url . "https://github.com/pkryger/difftastic.el.git"))])
+	       (:url . "https://github.com/pkryger/difftastic.el"))])
  (diffview .
 	   [(1 0 1 -4 20230224 1916)
 	    nil "View diffs in side-by-side format" tar
@@ -14958,7 +14960,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(4 0 2 1 -4 20230921 646)
+		[(4 0 2 1 -4 20230922 1050)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -14968,7 +14970,7 @@
 		  (shrink-path
 		   (0 3 1)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "ec62bcd3bacdd77114ab09a0c60e3d4c6227f61a")
+		 ((:commit . "4511397d3f50466819861a39cef9abdb357d1ee0")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainers
@@ -30413,7 +30415,7 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 5 1 -4 20230919 442)
+       [(3 9 5 1 -4 20230920 434)
 	((helm-core
 	  (3 9 4))
 	 (wfnames
@@ -30421,7 +30423,7 @@
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "89fb29c93f1f670c2b31733e732c5b6f6690c866")
+	((:commit . "ea4c9cc61e5d3d37c3338a627b6951e9e50a95e7")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -30925,13 +30927,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 9 5 1 -4 20230916 1702)
+	    [(3 9 5 1 -4 20230922 558)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 7)))
 	     "Development files for Helm" tar
-	     ((:commit . "7a7f79cfee7c10aafbac216e15d455e3b4c3b1b8")
+	     ((:commit . "a2f829e85bd09874f40ed66061c6e1b517004529")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainers
@@ -31040,11 +31042,11 @@
 			(:keywords "docs" "convenience")
 			(:url . "https://github.com/emacs-helm/helm-describe-modes"))])
  (helm-dictionary .
-		  [(1 0 0 1 -4 20220514 714)
+		  [(1 0 0 1 -4 20230922 1111)
 		   ((helm
 		     (1 5 5)))
 		   "Helm source for looking up dictionaries" tar
-		   ((:commit . "65fdf36e9a5c6dd8dffa71dfb6c65bc03879abe2")
+		   ((:commit . "fc1c097cc53dd3451bfb49ea7e99fdfc6d93bc16")
 		    (:authors
 		     ("Titus von der Malsburg" . "malsburg@posteo.de")
 		     ("Michael Heerdegen" . "michael_heerdegen@web.de"))
@@ -41659,7 +41661,7 @@
 	    (:keywords "languages" "debug")
 	    (:url . "https://github.com/emacs-lsp/lsp-ivy"))])
  (lsp-java .
-	   [(3 0 1 -4 20230827 428)
+	   [(3 0 1 -4 20230922 1154)
 	    ((emacs
 	      (27 1))
 	     (lsp-mode
@@ -41679,7 +41681,7 @@
 	     (dap-mode
 	      (0 5)))
 	    "Java support for lsp-mode" tar
-	    ((:commit . "bc89297c72136f7250df6b745ae2364b5a4f10a2")
+	    ((:commit . "449673da7221a30f1b1756cedcc48b9a2b52a51e")
 	     (:keywords "languague" "tools")
 	     (:url . "https://github.com/emacs-lsp/lsp-java"))])
  (lsp-javacomp .
@@ -44585,11 +44587,11 @@
 	      (:keywords "languages" "mips" "assembly")
 	      (:url . "https://github.com/hlissner/emacs-mips-mode"))])
  (mistty .
-	 [(0 9 1 -4 20230921 2014)
+	 [(0 9 1 -4 20230922 1305)
 	  ((emacs
 	    (29 1)))
 	  "Shell/Comint alternative based on term.el" tar
-	  ((:commit . "5fa2b91c1dec9eaa4f363d13e9ef2ff301f85b66")
+	  ((:commit . "1962da030a4ea16ac86766ee11f2ac2027005201")
 	   (:authors
 	    ("Stephane Zermatten" . "szermatt@gmx.net"))
 	   (:maintainers
@@ -50642,7 +50644,7 @@
 		       (:keywords "org-mode" "calendar")
 		       (:url . "https://github.com/dmitrym0/org-hyperscheduler"))])
  (org-id-cleanup .
-		 [(1 7 1 1 -4 20230803 1640)
+		 [(1 7 1 1 -4 20230922 1258)
 		  ((org
 		    (9 3))
 		   (dash
@@ -50650,7 +50652,7 @@
 		   (emacs
 		    (26 3)))
 		  "Interactively find, present and maybe delete unused IDs of org-id" tar
-		  ((:commit . "588acb063f1c73025f973cbbba64a9f65a737bdd")
+		  ((:commit . "45b598c7971d149ce4eae5f790469d89f691c8e6")
 		   (:authors
 		    ("Marc Ihm" . "marc@ihm.name"))
 		   (:maintainers
@@ -64473,13 +64475,13 @@
 		     (:maintainer "Thomas Fitzsimmons" . "fitzsim@fitzsim.org")
 		     (:keywords "games"))])
  (slint-mode .
-	     [(0 1 -4 20230921 844)
+	     [(0 1 -4 20230922 1143)
 	      ((emacs
 		(24 4))
 	       (lsp-mode
 		(6 0)))
 	      "Major-mode for the Slint UI language" tar
-	      ((:commit . "795d9b07a20d3a7ffb09bb5271b42aa8ce68e4d0")
+	      ((:commit . "1ef68ca9cf0cffd2c863c3135f96202a19cf8182")
 	       (:authors
 		("Niklas Cathor" . "niklas.cathor@gmx.de"))
 	       (:maintainers
@@ -65701,7 +65703,7 @@
 		    (:keywords "themes")
 		    (:url . "http://github.com/bruce/emacs-spacegray-theme"))])
  (spaceline .
-	    [(2 0 1 1 -4 20230920 735)
+	    [(2 0 1 1 -4 20230922 1127)
 	     ((emacs
 	       (24 4))
 	      (cl-lib
@@ -65713,7 +65715,7 @@
 	      (s
 	       (1 10 0)))
 	     "Modeline configuration library for powerline" tar
-	     ((:commit . "76f02e33a6a3382c9171afd096abc7cfacc5a8e5")
+	     ((:commit . "086420d16e526c79b67fc1edec4c2ae1e699f372")
 	      (:authors
 	       ("Eivind Fonn" . "evfonn@gmail.com"))
 	      (:maintainers
@@ -72069,11 +72071,11 @@
 	    (:maintainer "Roman Scherer" . "roman@burningswell.com")
 	    (:keywords "sql" "vertica"))])
  (vertica-snippets .
-		   [(0 1 0 1 -4 20200423 1200)
+		   [(0 1 0 1 -4 20230922 1258)
 		    ((yasnippet
 		      (0 6 1)))
 		    "Yasnippets for Vertica" tar
-		    ((:commit . "6ced718d9120878878700592fab430a8542b748f")
+		    ((:commit . "2a0449975e0de19bf4ea9dd989d9c636cf083b97")
 		     (:authors
 		      ("Andreas Gerler" . "baron@bundesbrandschatzamt.de"))
 		     (:maintainers
