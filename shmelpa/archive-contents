@@ -16571,13 +16571,15 @@
 	       (:keywords "convenience" "languages" "tools")
 	       (:url . "https://github.com/dantecatalfamo/ejson-mode"))])
  (ekg .
-      [(0 3 3 1 -4 20230810 316)
+      [(0 4 0 1 -4 20230923 1957)
        ((triples
 	 (0 3 5))
 	(emacs
-	 (28 1)))
+	 (28 1))
+	(llm
+	 (0 1 1)))
        "A system for recording and linking information" tar
-       ((:commit . "c668d397add6b84a7e35dfae04cdfb2be451f032")
+       ((:commit . "503659a031913f4bf1c4ba0577f84aab649ae1f4")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
 	(:maintainers
@@ -25830,7 +25832,7 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 3 2 50 -4 20230922 1334)
+	[(0 3 2 50 -4 20230923 1926)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -25856,7 +25858,7 @@
 	  (yaml
 	   (0 5 2)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "f6cede0f7df451b8aa3bf80751a9be1a14823425")
+	 ((:commit . "9162fe53544735eef86d4e18672087eec4a1e3f3")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -42389,7 +42391,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230923 1526)
+	[(3 3 0 50 -4 20230923 1851)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -42407,7 +42409,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "3329bf0f4fbcdc9dc02f0c9b79f9038d4223cb4c")
+	 ((:commit . "ffae79e65f110e9adfb3efa8fbbba8f1980401ea")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
