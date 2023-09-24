@@ -31919,11 +31919,14 @@
 		  (:maintainer "Julien BLANCHARD" . "julien@sideburns.eu")
 		  (:url . "https://github.com/julienXX/helm-lobste.rs"))])
  (helm-ls-git .
-	      [(0 1 0 1 -4 20230901 1732)
+	      [(1 9 4 1 -4 20230924 1610)
 	       ((helm
-		 (1 7 8)))
+		 (3 9 5))
+		(emacs
+		 (25 3)))
 	       "list git files." tar
-	       ((:commit . "cb5de7155662fc876f53a954163a03d16069b97b"))])
+	       ((:commit . "35b3a548694039463749cc18bd628e8f4e3c8019")
+		(:url . "https://github.com/emacs-helm/helm-ls-git"))])
  (helm-ls-hg .
 	     [(0 1 0 1 -4 20150909 543)
 	      ((helm
@@ -44589,11 +44592,11 @@
 	      (:keywords "languages" "mips" "assembly")
 	      (:url . "https://github.com/hlissner/emacs-mips-mode"))])
  (mistty .
-	 [(0 9 1 -4 20230924 1116)
+	 [(0 9 1 -4 20230924 1718)
 	  ((emacs
 	    (29 1)))
 	  "Shell/Comint alternative based on term.el" tar
-	  ((:commit . "6088e76ceabf17a1eb01d7001fc2725f58ca50aa")
+	  ((:commit . "c430e98443e7a3378ce35bf9c7a17f78fa179f59")
 	   (:authors
 	    ("Stephane Zermatten" . "szermatt@gmx.net"))
 	   (:maintainers
