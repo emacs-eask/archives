@@ -1192,6 +1192,19 @@
 		  (:maintainer "Matthew Carter" . "m@ahungry.com")
 		  (:keywords "ahungry" "palette" "color" "theme" "emacs" "color-theme" "deftheme")
 		  (:url . "https://github.com/ahungry/color-theme-ahungry"))])
+ (aiken-mode .
+	     [(1 0 2 1 -4 20230920 1210)
+	      ((emacs
+		(26 1)))
+	      "Major mode for Aiken" tar
+	      ((:commit . "1af54e4df02eb52cf62034acbe1c6dd54776d843")
+	       (:authors
+		("Sebastian Nagel" . "sebastian.nagel@ncoding.at"))
+	       (:maintainers
+		("Sebastian Nagel" . "sebastian.nagel@ncoding.at"))
+	       (:maintainer "Sebastian Nagel" . "sebastian.nagel@ncoding.at")
+	       (:keywords "languages" "aiken")
+	       (:url . "https://github.com/aiken-lang/aiken-mode"))])
  (aio .
       [(1 0 1 -4 20200610 1904)
        ((emacs
@@ -2549,6 +2562,19 @@
 		 (:maintainer "Jason Kim" . "sukbeom.kim@gmail.com")
 		 (:keywords "tools" "async")
 		 (:url . "https://github.com/seokbeomkim/async-status"))])
+ (asyncloop .
+	    [(0 3 2 -1 1 -4 20230922 1459)
+	     ((emacs
+	       (28 1)))
+	     "Non-blocking series of functions" tar
+	     ((:commit . "7f7009cce440dcf1710d8d9f5750342a362db1e4")
+	      (:authors
+	       (nil . "<meedstrom91@gmail.com>"))
+	      (:maintainers
+	       (nil . "<meedstrom91@gmail.com>"))
+	      (:maintainer nil . "<meedstrom91@gmail.com>")
+	      (:keywords "tools")
+	      (:url . "https://github.com/meedstrom/asyncloop"))])
  (atcoder-tools .
 		[(0 5 0 1 -4 20200109 1236)
 		 ((emacs
@@ -16571,7 +16597,7 @@
 	       (:keywords "convenience" "languages" "tools")
 	       (:url . "https://github.com/dantecatalfamo/ejson-mode"))])
  (ekg .
-      [(0 4 0 1 -4 20230923 1957)
+      [(0 4 0 1 -4 20230924 1825)
        ((triples
 	 (0 3 5))
 	(emacs
@@ -16579,7 +16605,7 @@
 	(llm
 	 (0 1 1)))
        "A system for recording and linking information" tar
-       ((:commit . "503659a031913f4bf1c4ba0577f84aab649ae1f4")
+       ((:commit . "40e854fe8fee461af1ebae2166c28733ad94ca30")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
 	(:maintainers
@@ -18165,13 +18191,13 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 23 1 -4 20230924 700)
+	 [(0 23 1 -4 20230924 1726)
 	  ((emacs
 	    (27 1))
 	   (compat
 	    (29 1 4 0)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "7758a1ac64d784fa71f14b202b7a26c27f29d03e")
+	  ((:commit . "93b28752ae0d3afbb19a12398138c96fd51ee83d")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	   (:maintainers
@@ -27395,7 +27421,7 @@
 		(:keywords "utility" "git")
 		(:url . "https://github.com/10sr/git-command-el"))])
  (git-commit .
-	     [(3 3 0 50 -4 20230911 2217)
+	     [(3 3 0 50 -4 20230924 1834)
 	      ((emacs
 		(25 1))
 	       (compat
@@ -27405,7 +27431,7 @@
 	       (with-editor
 		(20230118)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "7a1d50347086678217cf90a32dda277b76ea3081")
+	      ((:commit . "19b85820b0ac195ffe4cb54ed83032340cb01555")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -42394,7 +42420,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20230923 1851)
+	[(3 3 0 50 -4 20230924 1834)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -42412,7 +42438,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "ffae79e65f110e9adfb3efa8fbbba8f1980401ea")
+	 ((:commit . "19b85820b0ac195ffe4cb54ed83032340cb01555")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -42693,7 +42719,7 @@
 		      (:keywords "magit" "vc")
 		      (:url . "http://github.com/jtamagnan/magit-reviewboard"))])
  (magit-section .
-		[(3 3 0 50 -4 20230922 1332)
+		[(3 3 0 50 -4 20230924 1834)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -42701,7 +42727,7 @@
 		  (dash
 		   (20221013)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "b4c6744d0d56d7b4777a02d2aa61a3f3f8e016d4")
+		 ((:commit . "19b85820b0ac195ffe4cb54ed83032340cb01555")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -44592,11 +44618,11 @@
 	      (:keywords "languages" "mips" "assembly")
 	      (:url . "https://github.com/hlissner/emacs-mips-mode"))])
  (mistty .
-	 [(0 9 1 -4 20230924 1718)
+	 [(0 9 1 -4 20230924 1851)
 	  ((emacs
 	    (29 1)))
 	  "Shell/Comint alternative based on term.el" tar
-	  ((:commit . "c430e98443e7a3378ce35bf9c7a17f78fa179f59")
+	  ((:commit . "98f874960380b8875f71ded1bf87f8ae1eae7260")
 	   (:authors
 	    ("Stephane Zermatten" . "szermatt@gmx.net"))
 	   (:maintainers
