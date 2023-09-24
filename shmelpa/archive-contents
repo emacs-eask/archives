@@ -50015,13 +50015,13 @@
 		(:maintainer "D. Williams" . "d.williams@posteo.net")
 		(:url . "https://github.com/integral-dw/org-bullets"))])
  (org-caldav .
-	     [(3 0 1 -4 20230708 134)
+	     [(3 0 1 -4 20230923 2140)
 	      ((emacs
 		(26 3))
 	       (org
 		(9 1)))
 	      "Sync org files with external calendar through CalDAV" tar
-	      ((:commit . "f6bf3c402918d0a5f958a7d18e86ad9df2e4a9bc")
+	      ((:commit . "2bbd36a2e6917e0f003ddc0192c5f3cc1f1d29ec")
 	       (:authors
 		("David Engster" . "deng@randomsample.de"))
 	       (:maintainers
@@ -52183,9 +52183,11 @@
 		      (:keywords "hypermedia" "outlines" "org")
 		      (:url . "http://github.com/alphapapa/org-sticky-header"))])
  (org-super-agenda .
-		   [(1 3 -1 1 -4 20230921 1914)
+		   [(1 4 -1 1 -4 20230924 5)
 		    ((emacs
 		      (26 1))
+		     (compat
+		      (29 1 4 1))
 		     (s
 		      (1 10 0))
 		     (dash
@@ -52197,7 +52199,7 @@
 		     (ts
 		      (0 2)))
 		    "Supercharge your agenda" tar
-		    ((:commit . "a871f3913d4a1c80ea56c3aea022c36db97529da")
+		    ((:commit . "51c0022e4a194ba050c278b442f3592147a5607d")
 		     (:authors
 		      ("Adam Porter" . "adam@alphapapa.net"))
 		     (:maintainers
