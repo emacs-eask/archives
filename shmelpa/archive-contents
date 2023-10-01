@@ -3479,6 +3479,19 @@
 	    (:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com")
 	    (:keywords "extensions")
 	    (:url . "https://github.com/cute-jumper/avy-zap"))])
+ (awk-ts-mode .
+	      [(1 0 0 1 -4 20231001 502)
+	       ((emacs
+		 (29 1)))
+	       "Major mode for awk" tar
+	       ((:commit . "601492fdf36bcdb53ef880030eaf7716a906d64a")
+		(:authors
+		 ("Noah Peart" . "noah.v.peart@gmail.com"))
+		(:maintainers
+		 ("Noah Peart" . "noah.v.peart@gmail.com"))
+		(:maintainer "Noah Peart" . "noah.v.peart@gmail.com")
+		(:keywords "awk" "languages" "tree-sitter")
+		(:url . "https://github.com/nverno/awk-ts-mode"))])
  (awk-yasnippets .
 		 [(0 0 1 1 -4 20230515 1756)
 		  ((emacs
@@ -4514,11 +4527,11 @@
 	     (:keywords "games" "time" "display")
 	     (:url . "https://github.com/davep/binclock.el"))])
  (bind .
-       [(0 9 1 1 -4 20230827 1429)
+       [(0 9 1 1 -4 20231001 2051)
 	((emacs
 	  (25 1)))
 	"Bind commands to keys" tar
-	((:commit . "8e5ab488f0529565af5ba62bc047ac4b149ce945")
+	((:commit . "4c1698a7c1c9f3d45559c3be871d87d76a1cbe00")
 	 (:authors
 	  ("repelliuss <https://github.com/repelliuss>"))
 	 (:maintainers
@@ -26746,13 +26759,13 @@
 	     (:keywords "evernote" "geeknote" "note" "emacs-evernote" "evernote-mode")
 	     (:url . "http://github.com/avendael/emacs-geeknote"))])
  (geiser .
-	 [(0 29 1 1 -4 20230923 21)
+	 [(0 29 1 1 -4 20231001 1932)
 	  ((emacs
 	    (27 1))
 	   (project
 	    (0 8 1)))
 	  "GNU Emacs and Scheme talk to each other" tar
-	  ((:commit . "5575975b5a4ff774768f48d6b014d62198b1fe47")
+	  ((:commit . "58bd510da5d09d9de52f4a6e60882b35445ca17a")
 	   (:authors
 	    ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
 	   (:maintainers
@@ -37496,13 +37509,13 @@
 		 ("Florian Mounier aka paradoxxxzero"))
 		(:maintainer "Florian Mounier aka paradoxxxzero"))])
  (jinx .
-       [(0 9 1 -4 20230930 1720)
+       [(0 9 1 -4 20231001 2105)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 4 0)))
 	"Enchanted Spell Checker" tar
-	((:commit . "b849ec2a28a39891d829acb757e26b6127155d82")
+	((:commit . "2ac0e1af5b1c10f3f3a7b3805d6bdb8e6d975580")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainers
