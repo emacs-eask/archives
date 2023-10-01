@@ -16929,11 +16929,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 6 1 -4 20230926 1800)
+	[(1 6 1 -4 20231001 1804)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "2cc4925afc214e5d9dc6902d85873cb15ef38a84")
+	 ((:commit . "df2be1a28d1062414e5e8912760fbb486e5f1bae")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainers
@@ -44618,11 +44618,11 @@
 	      (:keywords "languages" "mips" "assembly")
 	      (:url . "https://github.com/hlissner/emacs-mips-mode"))])
  (mistty .
-	 [(0 9 1 -4 20230930 1918)
+	 [(0 9 1 -4 20231001 1847)
 	  ((emacs
 	    (29 1)))
 	  "Shell/Comint alternative based on term.el" tar
-	  ((:commit . "bd83639a0f6cb5de837dd58d4c4b0b78200161ad")
+	  ((:commit . "b24fb56d6925f0bca2812aaa85734500375865cd")
 	   (:authors
 	    ("Stephane Zermatten" . "szermatt@gmx.net"))
 	   (:maintainers
@@ -45709,18 +45709,6 @@
 		      (:maintainer "Yuri D'Elia" . "wavexx@thregr.org")
 		      (:keywords "mu4e" "mail" "convenience")
 		      (:url . "https://gitlab.com/wavexx/mu4e-jump-to-list.el"))])
- (mu4e-maildirs-extension .
-			  [(0 1 1 -4 20220517 1852)
-			   ((dash
-			     (0 0 0)))
-			   "Show mu4e maildirs summary in mu4e-main-view" tar
-			   ((:commit . "cdc2e141d8ecd59508a5cd50d6d02120073bf4f1")
-			    (:authors
-			     ("Andreu Gil Pàmies" . "agpchil@gmail.com"))
-			    (:maintainers
-			     ("Andreu Gil Pàmies" . "agpchil@gmail.com"))
-			    (:maintainer "Andreu Gil Pàmies" . "agpchil@gmail.com")
-			    (:url . "http://github.com/agpchil/mu4e-maildirs-extension"))])
  (mu4e-marker-icons .
 		    [(0 1 0 1 -4 20230423 1039)
 		     ((emacs
@@ -47478,6 +47466,19 @@
 		 (:maintainer "Hamza Hamud" . "self@hamzahamud.com")
 		 (:keywords "noir" "languages" "tree-sitter")
 		 (:url . "https://github.com/hhamud/noir-ts-mode"))])
+ (non-edit-mode .
+		[(0 1 0 1 -4 20230926 1404)
+		 ((emacs
+		   (24 1)))
+		 "Minor mode that disables editing" tar
+		 ((:commit . "bc9d29e437d70675c725f3ef8a66abe574b9a142")
+		  (:authors
+		   ("aragaer" . "aragaer@gmail.com"))
+		  (:maintainers
+		   ("aragaer" . "aragaer@gmail.com"))
+		  (:maintainer "aragaer" . "aragaer@gmail.com")
+		  (:keywords "convenience")
+		  (:url . "https://gitlab.com/aragaer/non-edit-mode"))])
  (nord-theme .
 	     [(0 5 0 1 -4 20230311 1131)
 	      ((emacs
@@ -47862,16 +47863,6 @@
 	    ("Enrico Flor" . "enrico@eflor.net"))
 	   (:maintainer "Enrico Flor" . "enrico@eflor.net")
 	   (:url . "https://github.com/enricoflor/numbex"))])
- (nummm-mode .
-	     [(0 1 1 -4 20131117 1014)
-	      nil "Display the number of minor modes instead of their names" tar
-	      ((:commit . "73b1aa8643d86197c82cd28acdaefcb48a1e0abe")
-	       (:authors
-		("Andreu Gil" . "agpchil@gmail.com"))
-	       (:maintainers
-		("Andreu Gil" . "agpchil@gmail.com"))
-	       (:maintainer "Andreu Gil" . "agpchil@gmail.com")
-	       (:url . "http://github.com/agpchil/nummm-mode"))])
  (numpydoc .
 	   [(0 9 1 -4 20230811 1708)
 	    ((emacs
