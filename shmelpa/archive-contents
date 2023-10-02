@@ -40047,6 +40047,19 @@
 		"Query thesaurus.com for synonyms of a given word" tar
 		((:commit . "83e8df8957a3b8167cc2bf97849a1eca555ce9a6")
 		 (:url . "https://github.com/AnselmC/le-thesaurus.el"))])
+ (leader-key .
+	     [(0 1 1 -4 20231001 2236)
+	      ((emacs
+		(25 1)))
+	      "Leader key configuration (e.g. for god-mode)" tar
+	      ((:commit . "64d2a29e2f667399869f2b0334855a647211e50e")
+	       (:authors
+		("Lukasz Pawelczyk" . "havner@gmail.com"))
+	       (:maintainers
+		("Lukasz Pawelczyk" . "havner@gmail.com"))
+	       (:maintainer "Lukasz Pawelczyk" . "havner@gmail.com")
+	       (:keywords "convenience" "keys" "keybinding" "config" "leader" "god" "god-mode")
+	       (:url . "https://github.com/havner/leader-key"))])
  (leaf .
        [(4 5 5 1 -4 20230803 729)
 	((emacs
@@ -44071,6 +44084,19 @@
 		 (:maintainer "Adrien Brochard")
 		 (:keywords "mermaid" "graphs" "tools" "processes")
 		 (:url . "https://github.com/abrochard/mermaid-mode"))])
+ (mermaid-ts-mode .
+		  [(1 0 1 -4 20231001 1704)
+		   ((emacs
+		     (29 1)))
+		   "Major mode for Mermaid" tar
+		   ((:commit . "3f3a537d249b44e939d6a0d65a6c316761ff8c41")
+		    (:authors
+		     ("Jonathan Hope" . "jhope@theflatfield.net"))
+		    (:maintainers
+		     ("Jonathan Hope" . "jhope@theflatfield.net"))
+		    (:maintainer "Jonathan Hope" . "jhope@theflatfield.net")
+		    (:keywords "mermaid" "languages")
+		    (:url . "https://github.com/JonathanHope/mermaid-ts-mode"))])
  (meson-mode .
 	     [(0 2 1 -4 20210820 905)
 	      ((emacs
@@ -52105,6 +52131,18 @@
 		 (:maintainer "lordnik22")
 		 (:keywords "extensions" "matching")
 		 (:url . "https://github.com/lordnik22"))])
+ (org-side-tree .
+		[(0 4 1 -4 20231001 2007)
+		 ((emacs
+		   (28 1)))
+		 "Navigate Org outlines in side window tree" tar
+		 ((:commit . "61207c68705b4f8d90b55cf49972f382d8603322")
+		  (:authors
+		   ("Grant Rosson <https://github.com/localauthor>"))
+		  (:maintainers
+		   ("Grant Rosson <https://github.com/localauthor>"))
+		  (:maintainer "Grant Rosson <https://github.com/localauthor>")
+		  (:url . "https://github.com/localauthor/org-side-tree"))])
  (org-sidebar .
 	      [(0 4 -1 1 -4 20210912 1321)
 	       ((emacs
