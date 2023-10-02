@@ -15801,6 +15801,21 @@
 	 (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
 	 (:keywords "lisp" "eask" "api")
 	 (:url . "https://github.com/emacs-eask/eask"))])
+ (eask-mode .
+	    [(0 1 0 1 -4 20231001 1914)
+	     ((emacs
+	       (24 3))
+	      (eask
+	       (0 1 0)))
+	     "Major mode for editing Eask files" tar
+	     ((:commit . "2fb19f30812c5c0db2bcc7078fdd43958731bfef")
+	      (:authors
+	       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
+	      (:maintainers
+	       ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
+	      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	      (:keywords "lisp" "eask")
+	      (:url . "https://github.com/emacs-eask/eask-mode"))])
  (easy-after-load .
 		  [(0 1 1 -4 20170817 1231)
 		   nil "eval-after-load for all files in a directory" tar
@@ -17170,6 +17185,21 @@
 		   (:maintainer "Paul Elms" . "paul@elms.pro")
 		   (:keywords "news")
 		   (:url . "https://github.com/paulelms/elfeed-autotag"))])
+ (elfeed-curate .
+		[(0 1 0 1 -4 20231001 1837)
+		 ((emacs
+		   (25 1))
+		  (elfeed
+		   (3 4 1)))
+		 "Elfeed entry curation" tar
+		 ((:commit . "1a099323cafcb3f9176c5d7ca7fbe539f7dd77bc")
+		  (:authors
+		   ("Robert Nadler" . "robert.nadler@gmail.com"))
+		  (:maintainers
+		   ("Robert Nadler" . "robert.nadler@gmail.com"))
+		  (:maintainer "Robert Nadler" . "robert.nadler@gmail.com")
+		  (:keywords "news")
+		  (:url . "https://github.com/rnadler/elfeed-curate"))])
  (elfeed-dashboard .
 		   [(0 0 0 1 -4 20210727 603)
 		    ((emacs
