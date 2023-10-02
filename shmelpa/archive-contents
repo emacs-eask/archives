@@ -65933,11 +65933,11 @@
 		     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		     (:url . "https://codeberg.org/ideasman42/emacs-spatial-navigate"))])
  (spdx .
-       [(0 1 0 1 -4 20231001 107)
+       [(0 1 0 1 -4 20231002 100)
 	((emacs
 	  (24 4)))
 	"Insert SPDX license and copyright headers" tar
-	((:commit . "d277276d0c6e9dcc7da3531ea9a5de04fd80d4f0")
+	((:commit . "0f6d8f98987d982ad8ac2ffcb7b10ac5d7060e91")
 	 (:authors
 	  ("Zhiwei Chen" . "condy0919@gmail.com"))
 	 (:maintainers
@@ -69217,6 +69217,21 @@
 			 (:maintainer "Aimé Bertrand" . "aime.bertrand@macowners.club")
 			 (:keywords "faces" "themes")
 			 (:url . "https://gitlab.com/aimebertrand/timu-caribbean-theme"))])
+ (timu-line .
+	    [(0 8 1 -4 20231001 2029)
+	     ((emacs
+	       (28 1))
+	      (f
+	       (0 20 0)))
+	     "Custom and simple mode line" tar
+	     ((:commit . "f0682223785e2699213e0601ffadbc8a213231c6")
+	      (:authors
+	       ("Aimé Bertrand" . "aime.bertrand@macowners.club"))
+	      (:maintainers
+	       ("Aimé Bertrand" . "aime.bertrand@macowners.club"))
+	      (:maintainer "Aimé Bertrand" . "aime.bertrand@macowners.club")
+	      (:keywords "modeline" "frames" "ui")
+	      (:url . "https://gitlab.com/aimebertrand/timu-line"))])
  (timu-macos-theme .
 		   [(1 2 1 -4 20230911 2059)
 		    ((emacs
@@ -70525,13 +70540,13 @@
 	    nil "mode for Turtle (and Notation 3)" tar
 	    ((:commit . "b4084667f92afbfe5916d1307916acbd68c52e5e"))])
  (tuareg .
-	 [(3 0 2 -4 20230718 2055)
+	 [(3 0 2 -4 20231002 121)
 	  ((emacs
 	    (26 3))
 	   (caml
 	    (4 8)))
 	  "OCaml mode" tar
-	  ((:commit . "d484910213d6a241d72a651cb46b7de17dac1ad5")
+	  ((:commit . "f03eb1cb0c6f897d6f670b916ea7d768b906d329")
 	   (:authors
 	    ("Albert Cohen" . "Albert.Cohen@inria.fr")
 	    ("Sam Steingold" . "sds@gnu.org")
@@ -71291,6 +71306,24 @@
 		       ("Samuel W. Flint" . "me@samuelwflint.com"))
 		      (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
 		      (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
+ (universal-sidecar-elfeed-related .
+				   [(1 0 1 1 -4 20231002 22)
+				    ((emacs
+				      (25 1))
+				     (universal-sidecar
+				      (1 0 0))
+				     (bibtex-completion
+				      (1 0 0))
+				     (elfeed
+				      (3 4 1)))
+				    "Related Papers Sidecar Section for Elfeed" tar
+				    ((:commit . "8e9b4ce2faf304aedc485e7bedb6f0e460d9ea09")
+				     (:authors
+				      ("Samuel W. Flint" . "me@samuelwflint.com"))
+				     (:maintainers
+				      ("Samuel W. Flint" . "me@samuelwflint.com"))
+				     (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
+				     (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
  (universal-sidecar-elfeed-score .
 				 [(0 5 0 1 -4 20230925 9)
 				  ((emacs
@@ -75298,7 +75331,7 @@
 		(:keywords "faces")
 		(:url . "http://projects.ryuslash.org/yoshi-theme/"))])
  (youdao-dictionary .
-		    [(0 5 1 1 -4 20230929 402)
+		    [(0 5 2 1 -4 20231002 124)
 		     ((popup
 		       (0 5 0))
 		      (pos-tip
@@ -75310,7 +75343,7 @@
 		      (emacs
 		       (24)))
 		     "Youdao Dictionary interface for Emacs" tar
-		     ((:commit . "3486a0d80b34d365b166ad0c5c3989bd4bc34e14")
+		     ((:commit . "b4b15ae9516be476cba1beab1ee45974f076671c")
 		      (:authors
 		       ("Chunyang Xu" . "xuchunyang56@gmail.com"))
 		      (:maintainers
