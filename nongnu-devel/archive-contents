@@ -160,14 +160,16 @@
 	  ("Akib Azmain Turja" . "akib@disroot.org"))
 	 (:commit . "19152095662c95bc73f1f25b8dcce432294b06a1"))])
  (blueprint-ts-mode .
-		    [(0 0 1 0 20230909 114958)
-		     nil "tree-sitter support for Blueprint files" tar
+		    [(0 0 1 0 20231002 165651)
+		     ((emacs
+		       (29 1)))
+		     "tree-sitter support for Blueprint files" tar
 		     ((:url . "https://github.com/huanie/blueprint-ts-mode")
 		      (:keywords "languages" "blueprint" "tree-sitter" "gnome" "gtk")
 		      (:maintainer "Huan Thieu Nguyen" . "nguyenthieuhuan@gmail.com")
 		      (:authors
 		       ("Huan Thieu Nguyen" . "nguyenthieuhuan@gmail.com"))
-		      (:commit . "6898bd96540ee77f6caf250ccea523dc8ea38c1d"))])
+		      (:commit . "55fffa342ff8f976a297e06df6d98db340c2602a"))])
  (boxquote .
 	   [(2 3 0 20220919 71457)
 	    ((cl-lib
@@ -340,16 +342,14 @@
 	   (:url . "https://elpa.nongnu.org/nongnu/d-mode.html")
 	   (:commit . "0c8c9e3a5ebb7bfd55bea138a8ad4390abf6b383"))])
  (dart-mode .
-	    [(1 0 7 0 20230929 144028)
+	    [(1 0 7 0 20231002 113821)
 	     ((emacs
 	       (27 1)))
 	     "Major mode for editing Dart files" tar
 	     ((:url . "https://github.com/emacsorphanage/dart-mode")
 	      (:keywords "languages")
 	      (:maintainer "Jen-Chieh Shen" . "jcs090218@gmail.com")
-	      (:authors
-	       ("Natalie Weizenbaum" . "nex342@gmail.com"))
-	      (:commit . "722e7a2d6b885542a14bf27b9d0b0b5898aba78a"))])
+	      (:commit . "61e01142352f6813aca6512bedadb5007de3a0b9"))])
  (denote-refs .
 	      [(0 1 2 0 20230115 155857)
 	       ((emacs
@@ -1214,18 +1214,18 @@
 		(:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 		(:commit . "9aea5012bf9047781a21a3b62cea134b126f7709"))])
  (inf-ruby .
-	   [(2 7 0 0 20231001 11948)
+	   [(2 8 0 0 20231002 122947)
 	    ((emacs
 	      (26 1)))
 	    "Run a Ruby process in a buffer" tar
 	    ((:url . "http://github.com/nonsequitur/inf-ruby")
 	     (:keywords "languages" "ruby")
-	     (:maintainer "Dmitry Gutov" . "dgutov@yandex.ru")
+	     (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
 	     (:authors
 	      ("Cornelius Mika" . "cornelius.mika@gmail.com")
 	      ("Dmitry Gutov" . "dgutov@yandex.ru")
 	      ("Kyle Hargraves" . "pd@krh.me"))
-	     (:commit . "6191ca21d32cd1defaa98c3176028b980216a32f"))])
+	     (:commit . "991fe74b1c1b83412b42832a39aafc2d88ae625c"))])
  (inkpot-theme .
 	       [(0 1 0 20220507 111829)
 		((emacs
