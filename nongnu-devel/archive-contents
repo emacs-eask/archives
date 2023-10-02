@@ -159,6 +159,15 @@
 	 (:authors
 	  ("Akib Azmain Turja" . "akib@disroot.org"))
 	 (:commit . "19152095662c95bc73f1f25b8dcce432294b06a1"))])
+ (blueprint-ts-mode .
+		    [(0 0 1 0 20230909 114958)
+		     nil "tree-sitter support for Blueprint files" tar
+		     ((:url . "https://github.com/huanie/blueprint-ts-mode")
+		      (:keywords "languages" "blueprint" "tree-sitter" "gnome" "gtk")
+		      (:maintainer "Huan Thieu Nguyen" . "nguyenthieuhuan@gmail.com")
+		      (:authors
+		       ("Huan Thieu Nguyen" . "nguyenthieuhuan@gmail.com"))
+		      (:commit . "6898bd96540ee77f6caf250ccea523dc8ea38c1d"))])
  (boxquote .
 	   [(2 3 0 20220919 71457)
 	    ((cl-lib
@@ -425,7 +434,7 @@
 		 ("Arne Jørgensen" . "arne@arnested.dk"))
 		(:commit . "17927723adc5921e8058f7c29e5e50e88b975639"))])
  (eat .
-      [(0 8 0 20230928 73445)
+      [(0 8 0 20231002 75428)
        ((emacs
 	 (28 1))
 	(compat
@@ -436,7 +445,7 @@
 	(:maintainer "Akib Azmain Turja" . "akib@disroot.org")
 	(:authors
 	 ("Akib Azmain Turja" . "akib@disroot.org"))
-	(:commit . "2df07e6613a0da6f3b332a34620725f2773c9202"))])
+	(:commit . "a78301a2b7fd280ece6c0f8b7ac4e1c8c0de9d14"))])
  (edit-indirect .
 		[(0 1 10 0 20220511 112427)
 		 ((emacs
@@ -1383,7 +1392,7 @@
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:commit . "19b85820b0ac195ffe4cb54ed83032340cb01555"))])
  (markdown-mode .
-		[(2 7 -3 0 20230830 133821)
+		[(2 7 -3 0 20231002 72135)
 		 ((emacs
 		   (27 1)))
 		 "Major mode for Markdown-formatted text" tar
@@ -1392,7 +1401,7 @@
 		  (:maintainer "Jason R. Blevins" . "jblevins@xbeta.org")
 		  (:authors
 		   ("Jason R. Blevins" . "jblevins@xbeta.org"))
-		  (:commit . "50e4452c95113df55953cfc310d7e18d8e6205de"))])
+		  (:commit . "c12adcfbeb2d45d376df50c843758c6ef22fdd08"))])
  (mastodon .
 	   [(1 0 2 0 20230927 123021)
 	    ((emacs
@@ -2221,7 +2230,7 @@
 	      ("Tilman Rassy" . "tilman.rassy@googlemail.com"))
 	     (:commit . "c6888e5f3aa0d72a7b4db625fcc2a847fd3bb1ce"))])
  (tuareg .
-	 [(3 0 2 -4 0 20230718 182730)
+	 [(3 0 2 -4 0 20231001 212109)
 	  ((emacs
 	    (26 3))
 	   (caml
@@ -2229,7 +2238,9 @@
 	  "OCaml mode" tar
 	  ((:url . "https://github.com/ocaml/tuareg")
 	   (:keywords "ocaml" "languages")
-	   (:maintainer "Christophe Troestler" . "Christophe.Troestler@umons.ac.be")
+	   (:maintainer
+	    ("Christophe Troestler" . "Christophe.Troestler@umons.ac.be")
+	    ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
 	   (:authors
 	    ("Albert Cohen" . "Albert.Cohen@inria.fr")
 	    ("Sam Steingold" . "sds@gnu.org")
@@ -2237,7 +2248,7 @@
 	    ("Till Varoquaux" . "till@pps.jussieu.fr")
 	    ("Sean McLaughlin" . "seanmcl@gmail.com")
 	    ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
-	   (:commit . "301c80b48919614c2b2220c27a4002477e55f016"))])
+	   (:commit . "f03eb1cb0c6f897d6f670b916ea7d768b906d329"))])
  (typescript-mode .
 		  [(0 4 0 20230116 153319)
 		   ((emacs
