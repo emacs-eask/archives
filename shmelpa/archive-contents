@@ -25901,7 +25901,7 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 3 2 50 -4 20230928 1210)
+	[(0 3 2 50 -4 20231003 2110)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -25927,7 +25927,7 @@
 	  (yaml
 	   (0 5 2)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "adce8470e7f57af4091eac294f5894055084ca40")
+	 ((:commit . "a6c2126c88238bb26dbc2415374280d31b3d9aaf")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -42980,7 +42980,7 @@
 		     (:maintainer "Alexander F. Adhyatma")
 		     (:url . "http:/gitlab.com/franksn/majapahit-theme/"))])
  (major-mode-hydra .
-		   [(0 2 2 1 -4 20210221 834)
+		   [(0 2 2 1 -4 20231003 2050)
 		    ((dash
 		      (2 18 0))
 		     (pretty-hydra
@@ -42988,7 +42988,7 @@
 		     (emacs
 		      (25)))
 		    "Major mode keybindings managed by Hydra" tar
-		    ((:commit . "84c1929a5153be169ca5c36737439d51dffde505")
+		    ((:commit . "d0a5dadee97c3752fcdef113cf2ba1923972a480")
 		     (:authors
 		      ("Jerry Peng" . "pr2jerry@gmail.com"))
 		     (:maintainers
@@ -44687,11 +44687,11 @@
 	      (:keywords "languages" "mips" "assembly")
 	      (:url . "https://github.com/hlissner/emacs-mips-mode"))])
  (mistty .
-	 [(0 9 1 -4 20231002 2204)
+	 [(0 9 1 -4 20231003 1927)
 	  ((emacs
 	    (29 1)))
 	  "Shell/Comint alternative based on term.el" tar
-	  ((:commit . "a7c7471abbc7fb011e055ef11fe748b531ed4f52")
+	  ((:commit . "505f664d850108a72720bf31119e77f788033395")
 	   (:authors
 	    ("Stephane Zermatten" . "szermatt@gmx.net"))
 	   (:maintainers
@@ -52132,11 +52132,11 @@
 		 (:keywords "extensions" "matching")
 		 (:url . "https://github.com/lordnik22"))])
  (org-side-tree .
-		[(0 5 1 -4 20231003 956)
+		[(0 5 1 -4 20231003 2014)
 		 ((emacs
 		   (28 1)))
 		 "Navigate Org outlines in side window tree" tar
-		 ((:commit . "b1aede5c4b7ddf6a8ccc77aad3c07cb2f8bdcfe4")
+		 ((:commit . "1a7b9629023e41d11fb13de395e78084b374a1a6")
 		  (:authors
 		   ("Grant Rosson <https://github.com/localauthor>"))
 		  (:maintainers
@@ -53051,7 +53051,7 @@
 	   (:maintainer "Yoshinari Nomura" . "nom@quickhack.net")
 	   (:keywords "org"))])
  (orgmdb .
-	 [(0 5 1 -4 20230522 1817)
+	 [(0 5 1 -4 20231003 2144)
 	  ((emacs
 	    (27 1))
 	   (dash
@@ -53061,7 +53061,7 @@
 	   (org
 	    (8 0 0)))
 	  "An OMDb API client with some convenience functions" tar
-	  ((:commit . "292a58b3bd19b61d24d897efefeee1a309a666fd")
+	  ((:commit . "4338a0a34d500a214df8293590960011f761fe24")
 	   (:authors
 	    ("Isa Mert Gurbuz" . "isamert@protonmail.com"))
 	   (:maintainers
@@ -57644,7 +57644,7 @@
 		  (:keywords "math" "asciimath" "tex" "latex" "prettify" "mathjax")
 		  (:url . "https://github.com/shaqxu/prettify-math"))])
  (pretty-hydra .
-	       [(0 2 2 1 -4 20230516 2122)
+	       [(0 2 2 1 -4 20231003 2046)
 		((hydra
 		  (0 15 0))
 		 (s
@@ -57652,9 +57652,11 @@
 		 (dash
 		  (2 18 0))
 		 (emacs
-		  (24)))
+		  (24))
+		 (compat
+		  (29 1 4 1)))
 		"A macro for creating nice-looking hydras" tar
-		((:commit . "72bdce649245df276a3f49fb57f890c10fbf0a31")
+		((:commit . "5181a31631589ffd870f70293aeee00b7b773b58")
 		 (:authors
 		  ("Jerry Peng" . "pr2jerry@gmail.com"))
 		 (:maintainers
