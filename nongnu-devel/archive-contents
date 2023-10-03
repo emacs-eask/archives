@@ -160,7 +160,7 @@
 	  ("Akib Azmain Turja" . "akib@disroot.org"))
 	 (:commit . "19152095662c95bc73f1f25b8dcce432294b06a1"))])
  (blueprint-ts-mode .
-		    [(0 0 1 0 20231002 165651)
+		    [(0 0 2 0 20231003 121514)
 		     ((emacs
 		       (29 1)))
 		     "tree-sitter support for Blueprint files" tar
@@ -169,7 +169,7 @@
 		      (:maintainer "Huan Thieu Nguyen" . "nguyenthieuhuan@gmail.com")
 		      (:authors
 		       ("Huan Thieu Nguyen" . "nguyenthieuhuan@gmail.com"))
-		      (:commit . "55fffa342ff8f976a297e06df6d98db340c2602a"))])
+		      (:commit . "048202cb4cc2bbe44372f6ebd7e9259b7a94d282"))])
  (boxquote .
 	   [(2 3 0 20220919 71457)
 	    ((cl-lib
@@ -203,9 +203,9 @@
 	    ("Akib Azmain Turja" . "akib@disroot.org"))
 	   (:commit . "9b8454ea1a4be507a948b20c101646f8a116d222"))])
  (caml .
-       [(4 10 -4 0 20230129 114550)
+       [(4 10 -4 0 20231003 125721)
 	((emacs
-	  (24 3)))
+	  (24 4)))
 	"Caml mode for GNU Emacs" tar
 	((:url . "https://github.com/ocaml/caml-mode")
 	 (:keywords "ocaml")
@@ -214,7 +214,7 @@
 	  ("Jacques Garrigue" . "garrigue@kurims.kyoto-u.ac.jp")
 	  ("Ian T Zimmerman" . "itz@rahul.net")
 	  ("Damien Doligez" . "damien.doligez@inria.fr"))
-	 (:commit . "959a5a27bfdbaa43a9ff99be136d62e0798f5e01"))])
+	 (:commit . "9fda737890e91e2eddca6b43b6582d35d27a4d0b"))])
  (cdlatex .
 	  [(4 18 3 0 20230920 94236)
 	   nil "Fast input methods for LaTeX environments and math" tar
@@ -434,7 +434,7 @@
 		 ("Arne Jørgensen" . "arne@arnested.dk"))
 		(:commit . "17927723adc5921e8058f7c29e5e50e88b975639"))])
  (eat .
-      [(0 8 0 20231002 75428)
+      [(0 8 0 20231003 173922)
        ((emacs
 	 (28 1))
 	(compat
@@ -445,7 +445,7 @@
 	(:maintainer "Akib Azmain Turja" . "akib@disroot.org")
 	(:authors
 	 ("Akib Azmain Turja" . "akib@disroot.org"))
-	(:commit . "a78301a2b7fd280ece6c0f8b7ac4e1c8c0de9d14"))])
+	(:commit . "8b3a38c1d566ae9bf8d12cee72282227a04dca2f"))])
  (edit-indirect .
 		[(0 1 10 0 20220511 112427)
 		 ((emacs
@@ -1087,7 +1087,7 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (helm .
-       [(3 9 5 0 20231001 41324)
+       [(3 9 5 0 20231003 91944)
 	((helm-core
 	  (3 9 4))
 	 (wfnames
@@ -1099,9 +1099,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "9a14bb46700f88b61c72de93c06ba0a525ecbf91"))])
+	 (:commit . "d43a9e283d7a898574a74ee85e548db5cd7b9f5b"))])
  (helm-core .
-	    [(3 9 5 0 20231001 41324)
+	    [(3 9 5 0 20231003 91944)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1111,7 +1111,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "9a14bb46700f88b61c72de93c06ba0a525ecbf91"))])
+	      (:commit . "d43a9e283d7a898574a74ee85e548db5cd7b9f5b"))])
  (highlight-parentheses .
 			[(2 1 1 0 20220408 84538)
 			 ((emacs
@@ -2230,7 +2230,7 @@
 	      ("Tilman Rassy" . "tilman.rassy@googlemail.com"))
 	     (:commit . "c6888e5f3aa0d72a7b4db625fcc2a847fd3bb1ce"))])
  (tuareg .
-	 [(3 0 2 -4 0 20231001 212109)
+	 [(3 0 2 -4 0 20231003 124908)
 	  ((emacs
 	    (26 3))
 	   (caml
@@ -2248,7 +2248,7 @@
 	    ("Till Varoquaux" . "till@pps.jussieu.fr")
 	    ("Sean McLaughlin" . "seanmcl@gmail.com")
 	    ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
-	   (:commit . "f03eb1cb0c6f897d6f670b916ea7d768b906d329"))])
+	   (:commit . "ce92fb442812e14af49a469b666f38a88869334d"))])
  (typescript-mode .
 		  [(0 4 0 20230116 153319)
 		   ((emacs
@@ -2456,7 +2456,7 @@
 	    (:maintainer "Mark A. Hershberger" . "mah@everybody.org")
 	    (:commit . "8272789df8a4deab4de7d50e63b73b7d0543bc7f"))])
  (yaml-mode .
-	    [(0 0 15 0 20230714 44011)
+	    [(0 0 16 0 20231003 114239)
 	     ((emacs
 	       (24 1)))
 	     "Major mode for editing YAML files" tar
@@ -2466,7 +2466,7 @@
 	      (:authors
 	       ("Yoshiki Kurihara" . "clouder@gmail.com")
 	       ("Marshall T. Vandegrift" . "llasram@gmail.com"))
-	      (:commit . "13728b4b1b1bd33d3a754236a0f23e4c76d6ba91"))])
+	      (:commit . "23395dfcf004c952850691b70e63f97f169596e8"))])
  (yasnippet-snippets .
 		     [(1 0 0 20230815 82004)
 		      ((yasnippet
