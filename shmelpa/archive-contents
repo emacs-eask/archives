@@ -34516,7 +34516,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 2 -1 1 -4 20231001 409)
+	     [(0 2 -1 1 -4 20231006 202)
 	      ((emacs
 		(27 1))
 	       (map
@@ -34526,9 +34526,11 @@
 	       (plz
 		(0 7))
 	       (persist
-		(0 5)))
+		(0 5))
+	       (transient
+		(0 4 3)))
 	      "P2P filesystem" tar
-	      ((:commit . "653bbf67060260f29853cd6ab492788968446b33")
+	      ((:commit . "b5dc019164ff6faad32b80039070c2bea043cf1a")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
 	       (:maintainers
@@ -41529,7 +41531,7 @@
 	     (:keywords "convenience")
 	     (:url . "https://github.com/0x60df/loophole"))])
  (loopy .
-	[(0 11 2 1 -4 20230924 2103)
+	[(0 11 2 1 -4 20231006 54)
 	 ((emacs
 	   (27 1))
 	  (map
@@ -41539,7 +41541,7 @@
 	  (compat
 	   (29 1 3)))
 	 "A looping macro" tar
-	 ((:commit . "795f95e17f905e36c823fa45e598cf4f411414d8")
+	 ((:commit . "1a0e7c483664b0bfa2273f5a52ee7cb5624e7c3b")
 	  (:authors
 	   ("Earl Hyatt"))
 	  (:maintainer "Earl Hyatt")
@@ -70119,13 +70121,13 @@
 		       (:maintainer "Erick Navarro" . "erick@navarro.io")
 		       (:url . "https://github.com/erickgnavar/tree-sitter-ispell.el"))])
  (tree-sitter-langs .
-		    [(0 12 57 1 -4 20231005 2330)
+		    [(0 12 59 1 -4 20231006 243)
 		     ((emacs
 		       (25 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
-		     ((:commit . "2b932f9c110faae8ca4a4c1336d1e61c883ba855")
+		     ((:commit . "82101db1379fb94f3c17c08b5457cddca727b2a0")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
 		      (:maintainers
@@ -73063,11 +73065,11 @@
 	      (:keywords "files" "wasp")
 	      (:url . "https://github.com/thechampagne/wasp-mode"))])
  (wat-ts-mode .
-	      [(1 0 0 1 -4 20230923 349)
+	      [(1 0 0 1 -4 20231006 223)
 	       ((emacs
 		 (29 1)))
-	       "Major mode for webassembly text format" tar
-	       ((:commit . "1cb99e67fd0cc83fd56e5eaddf9835257beba154")
+	       "Major modes for webassembly text formats using tree sitter" tar
+	       ((:commit . "d2bbd7dbb57482dc0407574d61b2dcad31b96204")
 		(:authors
 		 ("Noah Peart" . "noah.v.peart@gmail.com"))
 		(:maintainers
