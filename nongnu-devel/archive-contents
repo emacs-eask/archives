@@ -182,7 +182,7 @@
 	      ("Dave Pearson" . "davep@davep.org"))
 	     (:commit . "fe676396fa7e4372e01bf2c3d9a62e8d53615d46"))])
  (buttercup .
-	    [(1 31 0 20230919 223414)
+	    [(1 32 0 20231005 212038)
 	     ((emacs
 	       (24 3)))
 	     "Behavior-Driven Emacs Lisp Testing" tar
@@ -190,7 +190,7 @@
 	      (:maintainer "Ola Nilsson" . "ola.nilsson@gmail.com")
 	      (:authors
 	       ("Jorgen Schaefer" . "contact@jorgenschaefer.de"))
-	      (:commit . "9cbbc9999e3ae28091e93015b2996a1e698f8b0e"))])
+	      (:commit . "3780eb081913d1aeef2bc5950891a3fbe3b3771d"))])
  (camera .
 	 [(0 3 0 20230828 93723)
 	  ((emacs
@@ -225,7 +225,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "7521fa1b39de735dcbd32bca92a792d5261e9ce2"))])
  (cider .
-	[(1 8 0 -4 0 20231005 183142)
+	[(1 8 0 -4 0 20231006 65952)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -253,7 +253,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "e7a52cda07ea23da5fd6b0bc87ecc43245b406c5"))])
+	  (:commit . "5edfbc0bedef4c751f2e753477eb3ca4986bf0f0"))])
  (clojure-mode .
 	       [(5 17 0 0 20230911 165346)
 		((emacs
@@ -375,7 +375,7 @@
 	     ("Akib Azmain Turja" . "akib@disroot.org"))
 	    (:commit . "bebdb6a165bdc3bb6b357706d0ce58f57271d137"))])
  (devil .
-	[(0 7 0 -2 3 0 20230925 224045)
+	[(0 7 0 -2 3 0 20231005 225912)
 	 ((emacs
 	   (24 4)))
 	 "Minor mode for translating key sequences" tar
@@ -384,7 +384,7 @@
 	  (:maintainer "Susam Pal" . "susam@susam.net")
 	  (:authors
 	   ("Susam Pal" . "susam@susam.net"))
-	  (:commit . "ad8320c647ec0078caf5f0745520e5c340b191ca"))])
+	  (:commit . "39469b2d1ebbf40ab1f63aae7a6c4326f5da0e7a"))])
  (diff-ansi .
 	    [(0 2 0 20230808 134325)
 	     ((emacs
@@ -1087,7 +1087,7 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (helm .
-       [(3 9 5 0 20231005 51940)
+       [(3 9 5 0 20231006 63504)
 	((helm-core
 	  (3 9 4))
 	 (wfnames
@@ -1099,9 +1099,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "202928b70eacdb3d9b4175f62b8345520b683c98"))])
+	 (:commit . "d6806ad23304277b19b0646ce5b19e1a6509ea06"))])
  (helm-core .
-	    [(3 9 5 0 20231005 51940)
+	    [(3 9 5 0 20231006 63504)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1111,7 +1111,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "202928b70eacdb3d9b4175f62b8345520b683c98"))])
+	      (:commit . "d6806ad23304277b19b0646ce5b19e1a6509ea06"))])
  (highlight-parentheses .
 			[(2 1 1 0 20220408 84538)
 			 ((emacs
@@ -1153,7 +1153,7 @@
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:keywords "hypermedia" "extensions"))])
  (hyperdrive .
-	     [(0 2 -1 0 20230930 210905)
+	     [(0 2 -1 0 20231005 221555)
 	      ((emacs
 		(27 1))
 	       (map
@@ -1163,13 +1163,15 @@
 	       (plz
 		(0 7))
 	       (persist
-		(0 5)))
+		(0 5))
+	       (transient
+		(0 4 3)))
 	      "P2P filesystem" tar
 	      ((:url . "https://git.sr.ht/~ushin/hyperdrive.el")
 	       (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
-	       (:commit . "653bbf67060260f29853cd6ab492788968446b33"))])
+	       (:commit . "2d3f038790afc86f7c0daa9d4dbaaeba6addd914"))])
  (idle-highlight-mode .
 		      [(1 1 4 0 20230806 235612)
 		       ((emacs
@@ -1466,14 +1468,14 @@
 	     ("Akib Azmain Turja" . "akib@disroot.org"))
 	    (:commit . "22831489d3bbc22aef315c0f003bf3756b8889fa"))])
  (moe-theme .
-	    [(1 0 2 0 20230818 55411)
+	    [(1 0 2 0 20231006 63925)
 	     nil "A colorful eye-candy theme. Moe, moe, kyun!" tar
 	     ((:url . "https://github.com/kuanyui/moe-theme.el")
 	      (:keywords "themes")
 	      (:maintainer "kuanyui" . "azazabc123@gmail.com")
 	      (:authors
 	       ("kuanyui" . "azazabc123@gmail.com"))
-	      (:commit . "51795cd85ea5f01f3b2a82476914419a5bd89a55"))])
+	      (:commit . "1872aebc016e1c1a8d4e2a4037cd54b618de5453"))])
  (monokai-theme .
 		[(3 5 3 0 20220117 124458)
 		 nil "A fruity color theme for Emacs." tar
