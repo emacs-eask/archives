@@ -25973,6 +25973,19 @@
 	      (:maintainer "Vasilij Schneidermann" . "mail@vasilij.de")
 	      (:keywords "faces")
 	      (:url . "https://depp.brause.cc/form-feed"))])
+ (form-feed-st .
+	       [(0 2 0 1 -4 20231002 2211)
+		((emacs
+		  (25 1)))
+		"Display ^L glyphs as full-width horizontal lines" tar
+		((:commit . "f91c8daf35b7588e0aa24c8716c8cfd8ff0067c8")
+		 (:authors
+		  ("Leonardo Schripsema"))
+		 (:maintainers
+		  ("Leonardo Schripsema"))
+		 (:maintainer "Leonardo Schripsema")
+		 (:keywords "faces")
+		 (:url . "https://github.com/leodag/form-feed-st"))])
  (format-all .
 	     [(0 5 0 1 -4 20230920 850)
 	      ((emacs
@@ -30092,6 +30105,21 @@
 	     (:maintainer "Alexander Rössler")
 	     (:keywords "language")
 	     (:url . "https://github.com/strahlex/hal-mode/"))])
+ (halloweenie-theme .
+		    [(0 1 0 1 -4 20231002 1321)
+		     ((emacs
+		       (27 1))
+		      (autothemer
+		       (0 2)))
+		     "Dark and spooky Halloween color theme" tar
+		     ((:commit . "1a7b91541b05df7ace7d1ceb445aa441876154bd")
+		      (:authors
+		       ("Colin Okay" . "colin@cicadas.surf"))
+		      (:maintainers
+		       ("Colin Okay" . "colin@cicadas.surf"))
+		      (:maintainer "Colin Okay" . "colin@cicadas.surf")
+		      (:keywords "faces" "theme" "halloween" "pumpkin")
+		      (:url . "https://cicadas.surf/cgit/halloweenie-theme.git"))])
  (ham-mode .
 	   [(1 1 2 1 -4 20150811 1306)
 	    ((html-to-markdown
@@ -34473,6 +34501,19 @@
 		   ("Nathaniel Flath" . "flat0103@gmail.com"))
 		  (:maintainer "Nathaniel Flath" . "flat0103@gmail.com")
 		  (:url . "http://github.com/nflath/hungry-delete"))])
+ (hush .
+       [(0 1 3 1 -4 20231007 1406)
+	((emacs
+	  (27 1)))
+	"Pluggable secret manager" tar
+	((:commit . "56e55e69a05dbc64b8fffc708429135756498d91")
+	 (:authors
+	  ("Theodor-Alexandru Irimia"))
+	 (:maintainers
+	  ("Theodor-Alexandru Irimia"))
+	 (:maintainer "Theodor-Alexandru Irimia")
+	 (:keywords "extensions" "lisp" "local" "tools")
+	 (:url . "https://github.com/tirimia/hush"))])
  (hy-mode .
 	  [(1 0 1 -4 20211016 2011)
 	   ((dash
@@ -41911,7 +41952,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20230928 1235)
+	   [(8 0 1 1 -4 20231008 1720)
 	    ((emacs
 	      (27 1))
 	     (dash
@@ -41929,7 +41970,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "8bd6a507850db226e334577e21128b885642b275")
+	    ((:commit . "73bb98eb1863564ae1e1f64f6ca3e0b59167bc2c")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainers
@@ -46790,6 +46831,21 @@
 			  (:maintainer "Hongyu Ding" . "rainstormstudio@yahoo.com")
 			  (:keywords "lisp")
 			  (:url . "https://github.com/rainstormstudio/nerd-icons-completion"))])
+ (nerd-icons-corfu .
+		   [(0 2 0 1 -4 20231002 1545)
+		    ((emacs
+		      (27 1))
+		     (nerd-icons
+		      (0 1 0)))
+		    "Icons for Corfu via nerd-icons" tar
+		    ((:commit . "a26bb491181f94d2818b8129c74e92a8dc08af5f")
+		     (:authors
+		      ("Luigi Sartor Piucco" . "luigipiucco@gmail.com"))
+		     (:maintainers
+		      ("Luigi Sartor Piucco" . "luigipiucco@gmail.com"))
+		     (:maintainer "Luigi Sartor Piucco" . "luigipiucco@gmail.com")
+		     (:keywords "convenience" "files" "icons")
+		     (:url . "https://github.com/LuigiPiucco/nerd-icons-corfu"))])
  (nerd-icons-dired .
 		   [(0 0 1 1 -4 20230917 210)
 		    ((emacs
@@ -58645,6 +58701,21 @@
 		       (:maintainer "Alexis" . "flexibeast@gmail.com")
 		       (:keywords "multimedia" "hardware" "sound" "pulseaudio")
 		       (:url . "https://git.sr.ht/~flexibeast/pulseaudio-control"))])
+ (pumpkin-spice-theme .
+		      [(0 1 0 1 -4 20231002 1323)
+		       ((emacs
+			 (27 1))
+			(autothemer
+			 (0 2)))
+		       "Spice up your day with a delightful pumpkin colored theme" tar
+		       ((:commit . "e87ad63bcf39cdde7b26bf5f1e30c899b0c6005c")
+			(:authors
+			 ("Grant Shangreaux" . "shoshin@cicadas.surf"))
+			(:maintainers
+			 ("Grant Shangreaux" . "shoshin@cicadas.surf"))
+			(:maintainer "Grant Shangreaux" . "shoshin@cicadas.surf")
+			(:keywords "faces" "theme" "halloween" "pumpkin")
+			(:url . "https://cicadas.surf/cgit/pumpkin-spice-theme.git"))])
  (punctuality-logger .
 		     [(0 8 1 -4 20141120 2031)
 		      nil "Punctuality logger for Emacs" tar
