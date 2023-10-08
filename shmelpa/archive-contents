@@ -68888,6 +68888,22 @@
 		   (:maintainer "Nikolaj Schumacher <bugs * nschum de>")
 		   (:keywords "tools")
 		   (:url . "http://nschum.de/src/emacs/test-case-mode/"))])
+ (test-cockpit .
+	       [(0 1 0 1 -4 20231004 936)
+		((emacs
+		  (28 1))
+		 (projectile
+		  (2 7))
+		 (toml
+		  (20230411 1449)))
+		"A command center to run tests of a software project" tar
+		((:commit . "bc18b0168a56311e5422ec6b5f37dd07464da16b")
+		 (:authors
+		  ("Johannes Mueller" . "github@johannes-mueller.org"))
+		 (:maintainers
+		  ("Johannes Mueller" . "github@johannes-mueller.org"))
+		 (:maintainer "Johannes Mueller" . "github@johannes-mueller.org")
+		 (:url . "https://github.com/johannes-mueller/test-cockpit.el"))])
  (test-kitchen .
 	       [(0 4 0 1 -4 20171129 2035)
 		nil "Run test-kitchen inside of emacs" tar
@@ -71604,13 +71620,13 @@
 	 (:keywords "javascript" "js" "test" "karma")
 	 (:url . "http://github.com/shiren"))])
  (uptimes .
-	  [(3 8 1 -4 20191121 1030)
+	  [(3 8 1 -4 20231008 2125)
 	   ((cl-lib
 	     (0 5))
 	    (emacs
 	     (24)))
 	   "Track and display Emacs session uptimes." tar
-	   ((:commit . "29ae6585eeed5a00719b2e52f5ae1082087c1778")
+	   ((:commit . "b2420c297b7d9b06de7025752a7d8c328a29419b")
 	    (:authors
 	     ("Dave Pearson" . "davep@davep.org"))
 	    (:maintainers
@@ -75946,7 +75962,7 @@
 	     (:maintainer "Grant Rosson <https://github.com/localauthor>")
 	     (:url . "https://github.com/localauthor/zk"))])
  (zk-luhmann .
-	     [(0 3 1 -4 20230505 2107)
+	     [(0 3 1 -4 20231008 2014)
 	      ((emacs
 		(25 1))
 	       (zk
@@ -75954,7 +75970,7 @@
 	       (zk-index
 		(0 9)))
 	      "Support for Luhmann-style IDs in zk" tar
-	      ((:commit . "be0d6aa9fb856736406a43e3908fc4a01e073b99")
+	      ((:commit . "c52411f079bbd8597bb7b9aa92906c17dffbdb82")
 	       (:authors
 		("Grant Rosson <https://github.com/localauthor>"))
 	       (:maintainers
