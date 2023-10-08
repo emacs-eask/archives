@@ -4634,11 +4634,11 @@
 	      (:keywords "extensions")
 	      (:url . "https://github.com/cute-jumper/bing-dict.el"))])
  (binky .
-	[(1 3 2 1 -4 20230905 346)
+	[(1 3 2 1 -4 20231008 2014)
 	 ((emacs
 	   (26 3)))
 	 "Jump between points like a rabbit" tar
-	 ((:commit . "cf08e27e31ad4488bc6e78fa5b7ea2a46898d7c6")
+	 ((:commit . "98e4922fe5038ac5fe61cdc624ec07c60680923a")
 	  (:authors
 	   ("liuyinz" . "liuyinz95@gmail.com"))
 	  (:maintainers
@@ -4972,9 +4972,9 @@
 	      (:keywords "convenience" "multimedia")
 	      (:url . "https://git.sr.ht/~rwv/bluesound-el/"))])
  (bm .
-     [(0 1 0 1 -4 20230903 2236)
+     [(0 1 0 1 -4 20231008 2005)
       nil "Visible bookmarks in buffer." tar
-      ((:commit . "62fd17d27d5f16a92bccc9ce2ad3868c01413985")
+      ((:commit . "1351e2e15a7666e614c94b41414c8f024dc10a50")
        (:authors
 	("Jo Odland <jo.odland(at)gmail.com>"))
        (:maintainers
@@ -9195,6 +9195,23 @@
 		   (:maintainer "Sebastian Weddmark Olsson")
 		   (:keywords "erlang" "distel" "company")
 		   (:url . "github.com/sebastiw/distel-completion"))])
+ (company-eask .
+	       [(0 1 0 1 -4 20231002 11)
+		((emacs
+		  (26 1))
+		 (company
+		  (0 8 0))
+		 (eask
+		  (0 1 0)))
+		"Company backend for Eask-file" tar
+		((:commit . "3e9d8d366cee023a60dd1c3149b1f7c466b94bb8")
+		 (:authors
+		  ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
+		 (:maintainers
+		  ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
+		 (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		 (:keywords "convenience")
+		 (:url . "https://github.com/emacs-eask/company-eask"))])
  (company-emacs-eclim .
 		      [(0 1 0 1 -4 20180911 1121)
 		       ((eclim
@@ -13132,6 +13149,19 @@
 		 (:maintainer "Graham Marlow" . "info@mgmarlow.com")
 		 (:keywords "languages")
 		 (:url . "https://git.sr.ht/~mgmarlow/deno-ts-mode"))])
+ (derl .
+       [(0 1 1 -4 20231004 821)
+	((emacs
+	  (29 1)))
+	"Erlang distribution protocol implementation" tar
+	((:commit . "6f31592bb3083de366cdb13a7db0ed69fc72de47")
+	 (:authors
+	  ("Axel Forsman" . "axel@axelf.se"))
+	 (:maintainers
+	  ("Axel Forsman" . "axel@axelf.se"))
+	 (:maintainer "Axel Forsman" . "axel@axelf.se")
+	 (:keywords "comm" "extensions" "languages" "processes")
+	 (:url . "https://github.com/axelf4/derl.el"))])
  (describe-hash .
 		[(0 1 0 1 -4 20200718 1556)
 		 nil "Help function for examining a hash map" tar
@@ -27488,6 +27518,21 @@
 	      nil "Minor mode for incremental blame for Git" tar
 	      ((:commit . "cef196abf398e2dd11f775d1e6cd8690567408aa")
 	       (:keywords "git" "version control" "release management"))])
+ (git-cliff .
+	    [(0 4 2 1 -4 20231008 2005)
+	     ((emacs
+	       (27 1))
+	      (transient
+	       (0 4 3)))
+	     "Generate and update changelog using git-cliff" tar
+	     ((:commit . "c9d563e34322667779ad6ba506f326d82d7d05f0")
+	      (:authors
+	       ("liuyinz" . "liuyinz95@gmail.com"))
+	      (:maintainers
+	       ("liuyinz" . "liuyinz95@gmail.com"))
+	      (:maintainer "liuyinz" . "liuyinz95@gmail.com")
+	      (:keywords "tools")
+	      (:url . "https://github.com/liuyinz/git-cliff.el"))])
  (git-command .
 	      [(0 2 0 1 -4 20191028 333)
 	       ((term-run
@@ -39936,6 +39981,19 @@
 		(:maintainer "Artur Malabarba" . "artur@endlessparentheses.com")
 		(:keywords "tex")
 		(:url . "http://github.com/Malabarba/latex-extra"))])
+ (latex-labeler .
+		[(1 0 0 1 -4 20231007 2222)
+		 ((emacs
+		   (28 1)))
+		 "Simplify equation labeling in LaTeX" tar
+		 ((:commit . "b17fe782665aa46a9187c78f0575e7a527edf5f8")
+		  (:authors
+		   ("X9hRRDys"))
+		  (:maintainers
+		   ("X9hRRDys"))
+		  (:maintainer "X9hRRDys")
+		  (:keywords "tools")
+		  (:url . "https://github.com/X9hRRDys/latex-labeler"))])
  (latex-math-preview .
 		     [(0 7 4 1 -4 20211228 641)
 		      nil "preview LaTeX mathematical expressions." tar
@@ -49066,7 +49124,7 @@
 	     (:keywords "org" "babel" "swift")
 	     (:url . "http://github.com/zweifisch/ob-swift"))])
  (ob-swiftui .
-	     [(0 8 1 -4 20231008 1228)
+	     [(0 9 1 -4 20231008 2123)
 	      ((emacs
 		(25 1))
 	       (swift-mode
@@ -49074,7 +49132,7 @@
 	       (org
 		(9 2 0)))
 	      "Org babel functions for SwiftUI evaluation" tar
-	      ((:commit . "0855f426cdba12bb02bf35c154fd3cc8a03894ba")
+	      ((:commit . "1f4e2162fb296764250f3d6f2816c2c2b71ae474")
 	       (:authors
 		("Alvaro Ramirez"))
 	       (:maintainers
@@ -57826,6 +57884,19 @@
 	  (:maintainer "Adam Porter" . "adam@alphapapa.net")
 	  (:keywords "faces" "lisp")
 	  (:url . "https://github.com/alphapapa/prism.el"))])
+ (prisma-ts-mode .
+		 [(1 0 0 1 -4 20231007 904)
+		  ((emacs
+		    (29 1)))
+		  "Major mode for prisma using tree-sitter" tar
+		  ((:commit . "b597a437a96c0f03cf2bc038794d6a98ba1bd48b")
+		   (:authors
+		    ("Noah Peart" . "noah.v.peart@gmail.com"))
+		   (:maintainers
+		    ("Noah Peart" . "noah.v.peart@gmail.com"))
+		   (:maintainer "Noah Peart" . "noah.v.peart@gmail.com")
+		   (:keywords "prisma" "languages" "tree-sitter")
+		   (:url . "https://github.com/nverno/prisma-ts-mode"))])
  (private .
 	  [(0 1 1 -4 20150122 157)
 	   ((aes
