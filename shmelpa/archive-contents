@@ -34629,7 +34629,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 2 -1 1 -4 20231011 536)
+	     [(0 2 -1 1 -4 20231011 827)
 	      ((emacs
 		(27 1))
 	       (map
@@ -34643,7 +34643,7 @@
 	       (transient
 		(0 4 3)))
 	      "P2P filesystem" tar
-	      ((:commit . "10275fa1f12b829b875e6f14b3553d05ee937d0b")
+	      ((:commit . "c2c9b90a0a982838a2e817d062f6724d012b1790")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
 	       (:maintainers
@@ -58190,11 +58190,11 @@
 		     (:maintainer "Christopher McCloud")
 		     (:url . "https://github.com/cmccloud/project-treemacs"))])
  (projectile .
-	     [(2 8 0 -4 20230919 646)
+	     [(2 8 0 -4 20231011 744)
 	      ((emacs
 		(25 1)))
 	      "Manage and navigate projects in Emacs easily" tar
-	      ((:commit . "4247ac77173b6f92f28af04f5a72ff68de19f057")
+	      ((:commit . "f34d5245c0afee5ffe48ae9966892edb744d339e")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	       (:maintainers
@@ -61073,7 +61073,7 @@
 	     (:keywords "convenience")
 	     (:url . "https://github.com/xuchunyang/repeater"))])
  (repl-driven-development .
-			  [(1 0 7 1 -4 20231005 142)
+			  [(1 0 8 1 -4 20231011 944)
 			   ((s
 			     (1 12 0))
 			    (lf
@@ -61091,9 +61091,15 @@
 			    (devdocs
 			     (0 5))
 			    (pulsar
-			     (1 0 1)))
+			     (1 0 1))
+			    (peg
+			     (1 0 1))
+			    (hierarchy
+			     (0 6 0))
+			    (json-navigator
+			     (0 1 1)))
 			   "Send arbitrary code to a REPL in the background" tar
-			   ((:commit . "f532e9c7f8e655a1029836eb7d5c94700129aedb")
+			   ((:commit . "939fc4e4ee4d52198ba7c2c5aa37a010bfcf59a2")
 			    (:authors
 			     ("Musa Al-hassy" . "alhassy@gmail.com"))
 			    (:maintainers
