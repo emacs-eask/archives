@@ -660,7 +660,7 @@
 		     (:authors
 		      ("Jackson Ray Hamilton" . "jackson@jacksonrayhamilton.com")))])
  (corfu .
-	[(0 38 0 20231012 170750)
+	[(0 38 0 20231013 185720)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -671,7 +671,7 @@
 	  (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	  (:commit . "7a3b56fcc5bd9b68150a0fee4738f1fbe92f61ba"))])
+	  (:commit . "b2b9a2312f58117514724e729fda43efc4433ecd"))])
  (coterm .
 	 [(1 6 0 20221015 160420)
 	  ((emacs
@@ -839,7 +839,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:keywords "convenience"))])
  (denote .
-	 [(2 0 0 0 20231013 51039)
+	 [(2 0 0 0 20231013 104303)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -847,7 +847,7 @@
 	   (:maintainer "Denote Development" . "~protesilaos/denote@lists.sr.ht")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "a820e9408180f832d293f72fa20d4cd3ea56bc75"))])
+	   (:commit . "b954ade554326cb973b2c5927a4b0ce73439e600"))])
  (denote-menu .
 	      [(1 2 0 0 20230927 131718)
 	       ((emacs
@@ -1311,7 +1311,7 @@
 	       (:url . "https://elpa.gnu.org/packages/epoch-view.html")
 	       (:commit . "7a9773a8b55491bd47f23dfdb6c4224f5cc8e50c"))])
  (erc .
-      [(5 6 -4 0 20231010 193740)
+      [(5 6 -4 0 20231013 74701)
        ((emacs
 	 (27 1))
 	(compat
@@ -1324,7 +1324,7 @@
 	 ("F. Jason Park" . "jp@neverwas.me"))
 	(:authors
 	 ("Alexander L. Belikoff" . "alexander@belikoff.net"))
-	(:commit . "6265b7195d10150ad6948f45f4e33869be580d1c"))])
+	(:commit . "baf778c7caa0908789de7740aad719e168fffdf6"))])
  (ergoemacs-mode .
 		 [(5 16 10 12 0 20230207 95118)
 		  ((emacs
@@ -2648,7 +2648,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "d6b402a89e234d0e6166247ed6025f9acc8b4d9a"))])
  (org .
-      [(9 7 -1 0 20231012 143454)
+      [(9 7 -1 0 20231013 123439)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2657,7 +2657,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "f3de4c3e041e0ea825b5b512dc0db37c78b7909e"))])
+	(:commit . "abf5156096c06ee5aa05795c3dc5a065f76ada97"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs
@@ -4269,15 +4269,17 @@
 	   ("Justin Burkett" . "justin@burkett.cc"))
 	  (:commit . "170e968c6a46a572b30c52c1b038232d418734cc"))])
  (verilog-mode .
-	       [(2023 6 6 141322628 0 20230606 214619)
+	       [(2023 6 6 141322628 0 20231013 132356)
 		nil "major mode for editing verilog source in Emacs" tar
 		((:url . "https://www.veripool.org")
 		 (:keywords "languages")
-		 (:maintainer "Michael McNamara" . "mac@verilog.com")
+		 (:maintainer
+		  ("Michael McNamara" . "mac@verilog.com")
+		  ("Wilson Snyder" . "wsnyder@wsnyder.org"))
 		 (:authors
 		  ("Michael McNamara" . "mac@verilog.com")
 		  ("Wilson Snyder" . "wsnyder@wsnyder.org"))
-		 (:commit . "f68d962ede0cc3d7758d3304e7411a10694acce8"))])
+		 (:commit . "baf778c7caa0908789de7740aad719e168fffdf6"))])
  (vertico .
 	  [(1 4 0 20230930 192253)
 	   ((emacs
