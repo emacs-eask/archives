@@ -768,14 +768,16 @@
 	   ("Lars Tveito" . "larstvei@ifi.uio.no"))
 	  (:commit . "2507ec4ec5a9402647ef85540669db1815520c15"))])
  (forth-mode .
-	     [(0 2 0 20220629 51915)
-	      nil "Programming language mode for Forth" tar
+	     [(0 2 0 20231014 101804)
+	      ((cl-lib
+		(0 2)))
+	      "Programming language mode for Forth" tar
 	      ((:url . "http://github.com/larsbrinkhoff/forth-mode")
 	       (:keywords "languages" "forth")
 	       (:maintainer "Lars Brinkhoff" . "lars@nocrew.org")
 	       (:authors
 		("Lars Brinkhoff" . "lars@nocrew.org"))
-	       (:commit . "162b79f005a64b1f91e60b8f4c022d1d90cd3d95"))])
+	       (:commit . "3ef319bf2da443cf9f999f42bf854160b32448a0"))])
  (free-keys .
 	    [(1 0 0 20211116 150106)
 	     ((cl-lib
@@ -1178,7 +1180,7 @@
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:keywords "hypermedia" "extensions"))])
  (hyperdrive .
-	     [(0 2 -1 0 20231013 222401)
+	     [(0 2 -1 0 20231014 145705)
 	      ((emacs
 		(27 1))
 	       (map
@@ -1196,7 +1198,7 @@
 	       (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
-	       (:commit . "73006298c897ae3563e8a3c9c6aafc519c175af3"))])
+	       (:commit . "4bfb60b6f0987506e3b26726726c5bd8a0fc9dd0"))])
  (idle-highlight-mode .
 		      [(1 1 4 0 20230806 235612)
 		       ((emacs
@@ -1430,7 +1432,7 @@
 		   ("Jason R. Blevins" . "jblevins@xbeta.org"))
 		  (:commit . "c12adcfbeb2d45d376df50c843758c6ef22fdd08"))])
  (mastodon .
-	   [(1 0 9 0 20231013 214046)
+	   [(1 0 9 0 20231014 83926)
 	    ((emacs
 	      (27 1))
 	     (request
@@ -1443,7 +1445,7 @@
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com")
 	      ("Marty Hiatt" . "martianhiatus@riseup.net"))
-	     (:commit . "2cb0a5012af337dd99663d0a3cbbebd332009633"))])
+	     (:commit . "dc6f827bcbf06e1f942318eeec4e58334beea3c0"))])
  (material-theme .
 		 [(2015 0 20210904 122621)
 		  ((emacs
@@ -1591,7 +1593,7 @@
 		     ("Yilkal Argaw" . "yilkalargawworkneh@gmail.com"))
 		    (:commit . "817eabf902e759e96782bdc54d2dab36c4a2c5ab"))])
  (org-contrib .
-	      [(0 4 2 0 20231013 123318)
+	      [(0 4 2 0 20231014 90648)
 	       ((emacs
 		 (25 1))
 		(org
@@ -1602,7 +1604,7 @@
 		(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 		(:authors
 		 ("Bastien Guerry" . "bzg@gnu.org"))
-		(:commit . "e0840e8b1acefc20ed7c03baea62242ae693ee68"))])
+		(:commit . "04816c45e442d333ea2da67dea66801b7f24de7f"))])
  (org-drill .
 	    [(2 7 0 0 20210428 101221)
 	     ((emacs
