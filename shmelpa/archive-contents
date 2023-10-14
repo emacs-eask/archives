@@ -26059,9 +26059,11 @@
 		 (:keywords "data")
 		 (:url . "https://github.com/functionreturnfunction/format-table"))])
  (forth-mode .
-	     [(0 2 1 -4 20220629 519)
-	      nil "Programming language mode for Forth" tar
-	      ((:commit . "162b79f005a64b1f91e60b8f4c022d1d90cd3d95")
+	     [(0 2 1 -4 20231014 1018)
+	      ((cl-lib
+		(0 2)))
+	      "Programming language mode for Forth" tar
+	      ((:commit . "3ef319bf2da443cf9f999f42bf854160b32448a0")
 	       (:authors
 		("Lars Brinkhoff" . "lars@nocrew.org"))
 	       (:maintainers
