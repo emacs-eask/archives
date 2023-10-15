@@ -533,7 +533,7 @@
 	       (:url . "https://elpa.gnu.org/packages/cobol-mode.html")
 	       (:commit . "33e8cfe3ea62acca3cead32dfb6b78182fe5543b"))])
  (code-cells .
-	     [(0 3 0 20220917 143159)
+	     [(0 3 0 20231015 132845)
 	      ((emacs
 		(27 1)))
 	      "Lightweight notebooks with support for ipynb files" tar
@@ -542,7 +542,7 @@
 	       (:maintainer "Augusto Stoffel" . "arstoffel@gmail.com")
 	       (:authors
 		("Augusto Stoffel" . "arstoffel@gmail.com"))
-	       (:commit . "fd68a33eb43b3cbd44fed767f48e230382903592"))])
+	       (:commit . "8a1f0281f88239b956250a8c76bada8aa9debe2c"))])
  (comint-mime .
 	      [(0 3 0 20231008 111300)
 	       ((emacs
@@ -564,14 +564,14 @@
 			("Clément Pit-Claudel" . "clement.pitclaudel@live.com"))
 		       (:commit . "3b2233120d33943b8af65fec6257f0c16ad3c6fd"))])
  (company .
-	  [(0 10 2 0 20231015 12245)
+	  [(0 10 2 0 20231015 120324)
 	   ((emacs
 	     (25 1)))
 	   "Modular text completion framework" tar
 	   ((:url . "http://company-mode.github.io/")
 	    (:keywords "abbrev" "convenience" "matching")
 	    (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
-	    (:commit . "87d159fe16259bb6a2356461008aeca416817c92"))])
+	    (:commit . "38d62541107d8d1ebb3164bdd37eb89291d3907c"))])
  (company-ebdb .
 	       [(1 1 0 20221221 74915)
 		((company
@@ -839,7 +839,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:keywords "convenience"))])
  (denote .
-	 [(2 0 0 0 20231015 63434)
+	 [(2 0 0 0 20231015 152515)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -847,7 +847,7 @@
 	   (:maintainer "Denote Development" . "~protesilaos/denote@lists.sr.ht")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "9b8fb2e4906c6a240a572efc5178323b957d9c37"))])
+	   (:commit . "58b9be353097095c2952903f1b7b78e9902a21b8"))])
  (denote-menu .
 	      [(1 2 0 0 20230927 131718)
 	       ((emacs
@@ -883,19 +883,22 @@
 	     ("Augusto Stoffel" . "arstoffel@gmail.com"))
 	    (:commit . "2988d4d201df16d72c3bea465d2b93b554dbddfc"))])
  (dict-tree .
-	    [(0 16 0 20201214 122037)
+	    [(0 17 0 20231015 24654)
 	     ((trie
-	       (0 3))
+	       (0 6))
 	      (tNFA
 	       (0 1 1))
 	      (heap
-	       (0 3)))
+	       (0 3))
+	      (emacs
+	       (24 1)))
 	     "Dictionary data structure" tar
 	     ((:url . "http://www.dr-qubit.org/emacs.php")
 	      (:keywords "extensions" "matching" "data structures trie" "tree" "dictionary" "completion" "regexp")
 	      (:maintainer "Toby Cubitt" . "toby-predictive@dr-qubit.org")
 	      (:authors
-	       ("Toby Cubitt" . "toby-predictive@dr-qubit.org")))])
+	       ("Toby Cubitt" . "toby-predictive@dr-qubit.org"))
+	      (:commit . "a83ea986982b2d09d150456028a9f1e73658333a"))])
  (diff-hl .
 	  [(1 9 2 0 20230807 151654)
 	   ((cl-lib
@@ -1388,13 +1391,16 @@
 		 ("Thomas Fitzsimmons" . "fitzsim@fitzsim.org"))
 		(:commit . "a6617dea1f9c3af8a4d8a20a53f5b265455b8e96"))])
  (expand-region .
-		[(0 11 0 0 20200225 132539)
-		 nil "Increase selected region by semantic units." tar
+		[(0 11 0 0 20231015 151149)
+		 ((emacs
+		   (24 4)))
+		 "Increase selected region by semantic units." tar
 		 ((:url . "https://github.com/magnars/expand-region.el")
 		  (:keywords "marking" "region")
 		  (:maintainer "Magnar Sveen" . "magnars@gmail.com")
 		  (:authors
-		   ("Magnar Sveen" . "magnars@gmail.com")))])
+		   ("Magnar Sveen" . "magnars@gmail.com"))
+		  (:commit . "849323280027035b693f727f7119faaa186a54d2"))])
  (expreg .
 	 [(1 3 1 0 20230915 150818)
 	  ((emacs
@@ -2004,7 +2010,7 @@
 		(:url . "https://elpa.gnu.org/packages/jgraph-mode.html")
 		(:commit . "1bd355ecda036f23468d82b803146d3258a84977"))])
  (jinx .
-       [(0 9 0 20231001 230824)
+       [(0 9 0 20231015 170125)
 	((emacs
 	  (27 1))
 	 (compat
@@ -2015,7 +2021,7 @@
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	 (:commit . "f5467b66c63460cea76bb912e3660d6e2427783a"))])
+	 (:commit . "610cc3c567bd30f8a192d77f698b1e63e1cd020c"))])
  (jit-spell .
 	    [(0 3 0 20230826 155115)
 	     ((emacs
@@ -2655,7 +2661,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "d6b402a89e234d0e6166247ed6025f9acc8b4d9a"))])
  (org .
-      [(9 7 -1 0 20231014 90934)
+      [(9 7 -1 0 20231015 85305)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2664,7 +2670,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "9fcbd19b3b76bac13427b471ed3469e08c04758d"))])
+	(:commit . "061988c02443b38f55814b762c50f1c7cf052842"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs
@@ -4139,18 +4145,20 @@
 	   (:keywords "grep" "search")
 	   (:commit . "d58b501140ad14453624d7c69d700f8e798f92ed"))])
  (url-http-ntlm .
-		[(2 0 4 0 20221221 82537)
+		[(2 0 4 0 20231015 130736)
 		 ((cl-lib
 		   (0 5))
 		  (ntlm
-		   (2 1 0)))
+		   (2 1 0))
+		  (nadvice
+		   (0 3)))
 		 "NTLM authentication for the url library" tar
 		 ((:url . "https://code.google.com/p/url-http-ntlm/")
 		  (:keywords "comm" "data" "processes" "hypermedia")
 		  (:maintainer "Thomas Fitzsimmons" . "fitzsim@fitzsim.org")
 		  (:authors
 		   ("Tom Schutzer-Weissmann" . "tom.weissmann@gmail.com"))
-		  (:commit . "ddffee7338136b46c8f1f544872045e991312ba2"))])
+		  (:commit . "0ef4ebadff403a535a53f78a328009d155f6236a"))])
  (url-http-oauth .
 		 [(0 8 3 0 20230510 175959)
 		  nil "OAuth 2.0 for URL library" tar
@@ -4289,7 +4297,7 @@
 		  ("Wilson Snyder" . "wsnyder@wsnyder.org"))
 		 (:commit . "baf778c7caa0908789de7740aad719e168fffdf6"))])
  (vertico .
-	  [(1 4 0 20231014 223443)
+	  [(1 4 0 20231015 92801)
 	   ((emacs
 	     (27 1))
 	    (compat
@@ -4300,7 +4308,7 @@
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	    (:commit . "0f8bfe14c622db65e101abeabecb66d92076d2af"))])
+	    (:commit . "edbb370ad237781eb893a5c2b505cfa24e6b2d9a"))])
  (vertico-posframe .
 		   [(0 7 3 0 20230818 15224)
 		    ((emacs
