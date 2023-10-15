@@ -564,14 +564,14 @@
 			("Clément Pit-Claudel" . "clement.pitclaudel@live.com"))
 		       (:commit . "3b2233120d33943b8af65fec6257f0c16ad3c6fd"))])
  (company .
-	  [(0 10 2 0 20231013 234730)
+	  [(0 10 2 0 20231015 12245)
 	   ((emacs
 	     (25 1)))
 	   "Modular text completion framework" tar
 	   ((:url . "http://company-mode.github.io/")
 	    (:keywords "abbrev" "convenience" "matching")
 	    (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
-	    (:commit . "88f0b4d792dc409b5abf77c50a972b1b3722ad91"))])
+	    (:commit . "87d159fe16259bb6a2356461008aeca416817c92"))])
  (company-ebdb .
 	       [(1 1 0 20221221 74915)
 		((company
@@ -839,7 +839,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:keywords "convenience"))])
  (denote .
-	 [(2 0 0 0 20231014 60747)
+	 [(2 0 0 0 20231015 63434)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -847,7 +847,7 @@
 	   (:maintainer "Denote Development" . "~protesilaos/denote@lists.sr.ht")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "c0db85dc68c5ea4ea3430a99f183e61fbf879ae1"))])
+	   (:commit . "9b8fb2e4906c6a240a572efc5178323b957d9c37"))])
  (denote-menu .
 	      [(1 2 0 0 20230927 131718)
 	       ((emacs
@@ -2067,13 +2067,13 @@
 	    (:url . "https://elpa.gnu.org/packages/jsonrpc.html")
 	    (:commit . "4038f1b40d35601711031b14178bd40bded22bdd"))])
  (jumpc .
-	[(3 0 0 20221221 80412)
+	[(3 1 0 20231015 14814)
 	 nil "jump to previous insertion points" tar
 	 ((:maintainer "Ivan Kanis" . "ivan@kanis.fr")
 	  (:authors
 	   ("Ivan Kanis" . "ivan@kanis.fr"))
 	  (:url . "https://elpa.gnu.org/packages/jumpc.html")
-	  (:commit . "491e6ac3a783bb485bb310144a1143c14e310331"))])
+	  (:commit . "ab83a2a5416f83405361e25df8cbd8aab35cb8b3"))])
  (kind-icon .
 	    [(0 2 0 0 20230926 75840)
 	     ((emacs
@@ -2587,6 +2587,13 @@
 	    ("Julien Danjou" . "julien@danjou.info"))
 	   (:url . "https://elpa.gnu.org/packages/oauth2.html")
 	   (:commit . "cc2dd7f3e2aae621365a8297b61198c1694bdb5e"))])
+ (ob-asymptote .
+	       [(1 0 0 20230908 121002)
+		nil "Babel Functions for Asymptote" tar
+		((:url . "https://github.com/hurrja/ob-asymptote")
+		 (:keywords "literate programming" "reproducible research")
+		 (:maintainer "Jarmo Hurri" . "jarmo.hurri@iki.fi")
+		 (:commit . "3f24c4f0720fb2e37a515021fc1ff0fd1212e8b6"))])
  (ob-haxe .
 	  [(1 0 0 20210211 73431)
 	   nil "org-babel functions for haxe evaluation" tar
@@ -2949,13 +2956,13 @@
 	  ("Jose E. Marchesi" . "jemarch@gnu.org"))
 	 (:commit . "1268958f1d9eb2a21ab548101b3bdf0dcc348253"))])
  (poke-mode .
-	    [(3 0 0 20230312 110305)
+	    [(3 1 0 20231014 222558)
 	     nil "Major mode for editing Poke programs" tar
 	     ((:maintainer "Jose E. Marchesi" . "jemarch@gnu.org")
 	      (:authors
 	       ("Aurelien Aptel" . "aaptel@suse.com"))
 	      (:url . "https://elpa.gnu.org/packages/poke-mode.html")
-	      (:commit . "f383c236ebc56d7d7197abb2ff9b7ab90a4ce3ac"))])
+	      (:commit . "340bb45867cce7f86d09a00b809c2c2078302a9e"))])
  (poker .
 	[(0 2 0 20221221 81510)
 	 nil "Texas hold 'em poker" tar
@@ -4043,7 +4050,7 @@
 		    ("Mariano Montone" . "marianomontone@gmail.com"))
 		   (:commit . "bbb8d2dfe84fbf857fcc1579de5a1324b09a877e"))])
  (trie .
-       [(0 5 0 20201214 113408)
+       [(0 6 0 20231015 13107)
 	((tNFA
 	  (0 1 1))
 	 (heap
@@ -4053,7 +4060,8 @@
 	 (:keywords "extensions" "matching" "data structures trie" "ternary search tree" "tree" "completion" "regexp")
 	 (:maintainer "Toby Cubitt" . "toby-predictive@dr-qubit.org")
 	 (:authors
-	  ("Toby Cubitt" . "toby-predictive@dr-qubit.org")))])
+	  ("Toby Cubitt" . "toby-predictive@dr-qubit.org"))
+	 (:commit . "e7326a61b1cd2605867063fcfc5ddddaeed6d993"))])
  (triples .
 	  [(0 3 5 0 20230809 231343)
 	   ((seq
@@ -4281,7 +4289,7 @@
 		  ("Wilson Snyder" . "wsnyder@wsnyder.org"))
 		 (:commit . "baf778c7caa0908789de7740aad719e168fffdf6"))])
  (vertico .
-	  [(1 4 0 20230930 192253)
+	  [(1 4 0 20231014 223443)
 	   ((emacs
 	     (27 1))
 	    (compat
@@ -4292,7 +4300,7 @@
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	    (:commit . "3baad81495ea8db56966066732d69fd8a25d7d18"))])
+	    (:commit . "0f8bfe14c622db65e101abeabecb66d92076d2af"))])
  (vertico-posframe .
 		   [(0 7 3 0 20230818 15224)
 		    ((emacs
