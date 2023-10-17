@@ -274,7 +274,7 @@
 	    ("Artur Malabarba" . "emacs@endlessparentheses.com"))
 	   (:commit . "85261a928ae0ec3b41e639f05291ffd6bf7c231c"))])
  (beframe .
-	  [(0 3 0 0 20231014 40858)
+	  [(0 3 0 0 20231017 145435)
 	   ((emacs
 	     (28 1)))
 	   "Isolate buffers per frame" tar
@@ -282,7 +282,7 @@
 	    (:maintainer "Protesilaos Stavrou General Issues" . "~protesilaos/general-issues@lists.sr.ht")
 	    (:authors
 	     ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	    (:commit . "bfff3abcf584d652f04e778b84611c878dc199e9"))])
+	    (:commit . "993d4f47cdbe263124efd6eb5a22524fcdb93e9b"))])
  (bind-key .
 	   [(2 4 1 0 20230930 220905)
 	    ((emacs
@@ -626,7 +626,7 @@
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	   (:commit . "6571f834e19c874752d0d70e1c610886b5872ade"))])
  (consult .
-	  [(0 35 0 20231006 142354)
+	  [(0 35 0 20231017 195316)
 	   ((emacs
 	     (27 1))
 	    (compat
@@ -635,7 +635,7 @@
 	   ((:url . "https://github.com/minad/consult")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-	    (:commit . "e5406f282f76076d10440037ecd3460fb280706c"))])
+	    (:commit . "7296f1de471d9907c84df320cec78a475ca626b9"))])
  (consult-recoll .
 		 [(0 8 0 20221014 200255)
 		  ((emacs
@@ -839,7 +839,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:keywords "convenience"))])
  (denote .
-	 [(2 0 0 0 20231017 64333)
+	 [(2 0 0 0 20231017 115315)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -847,7 +847,7 @@
 	   (:maintainer "Denote Development" . "~protesilaos/denote@lists.sr.ht")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "ffad320332645abb922b26d1d83781066eeff937"))])
+	   (:commit . "382cce8b9fae5dd3ffb4a482e3177736b1fdaec5"))])
  (denote-menu .
 	      [(1 2 0 0 20230927 131718)
 	       ((emacs
@@ -1181,14 +1181,6 @@
 	   ("Noah Friedman" . "friedman@splode.com"))
 	  (:url . "https://elpa.gnu.org/packages/eldoc.html")
 	  (:commit . "c3038bf5e1d79c3dfa83717a5a61ecc86116f04a"))])
- (eldoc-eval .
-	     [(0 2 0 20220106 195151)
-	      nil "Enable eldoc support when minibuffer is in use." tar
-	      ((:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
-	       (:authors
-		("Thierry Volpiatto" . "thievol@posteo.net"))
-	       (:url . "https://elpa.gnu.org/packages/eldoc-eval.html")
-	       (:commit . "e91800503c90cb75dc70abe42f1d6ae499346cc1"))])
  (electric-spacing .
 		   [(5 0 0 20201201 154407)
 		    nil "Insert operators with surrounding spaces smartly" tar
@@ -1269,7 +1261,7 @@
 	   ("Adam Porter" . "adam@alphapapa.net"))
 	  (:commit . "26be559103eb070ea4f31dfa7ac9425235c105a9"))])
  (emms .
-       [(16 0 20231002 175546)
+       [(16 0 20231017 153742)
 	((cl-lib
 	  (0 5))
 	 (nadvice
@@ -1282,7 +1274,7 @@
 	 (:maintainer "Yoni Rabkin" . "yrk@gnu.org")
 	 (:authors
 	  ("Jorgen Schäfer" . "forcer@forcix.cx"))
-	 (:commit . "4b05827071c9dface4ff75de588a82b5c2385948"))])
+	 (:commit . "b1c1c2ef579b1737a86b9d9550261c77afb93992"))])
  (engrave-faces .
 		[(0 3 1 0 20230115 70118)
 		 ((emacs
@@ -2661,7 +2653,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "d6b402a89e234d0e6166247ed6025f9acc8b4d9a"))])
  (org .
-      [(9 7 -1 0 20231016 130505)
+      [(9 7 -1 0 20231017 100125)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2670,7 +2662,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "9bbc21df84d507e568a3ebd17e105cdb9e163784"))])
+	(:commit . "b223a3cc75a45e817a78df08959dbf2c8111e411"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs
@@ -2839,15 +2831,6 @@
 	  (:maintainer "Ian Dunn" . "dunni@gnu.org")
 	  (:authors
 	   ("Ian Dunn" . "dunni@gnu.org")))])
- (package-fixes .
-		[(0 0 20221221 81359)
-		 nil "package.el bug fixes ported to older Emacsen" tar
-		 ((:keywords "tools")
-		  (:maintainer "Artur Malabarba" . "emacs@endlessparentheses.com")
-		  (:authors
-		   ("Artur Malabarba" . "emacs@endlessparentheses.com"))
-		  (:url . "https://elpa.gnu.org/packages/package-fixes.html")
-		  (:commit . "e4d643528e5f0e093990cc13fd2182b2b8b1c145"))])
  (parsec .
 	 [(0 1 3 0 20180729 171626)
 	  ((emacs
