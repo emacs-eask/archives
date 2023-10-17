@@ -564,14 +564,14 @@
 			("Clément Pit-Claudel" . "clement.pitclaudel@live.com"))
 		       (:commit . "3b2233120d33943b8af65fec6257f0c16ad3c6fd"))])
  (company .
-	  [(0 10 2 0 20231016 343)
+	  [(0 10 2 0 20231016 232437)
 	   ((emacs
 	     (25 1)))
 	   "Modular text completion framework" tar
 	   ((:url . "http://company-mode.github.io/")
 	    (:keywords "abbrev" "convenience" "matching")
 	    (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
-	    (:commit . "7414aac908cdc1e29826de36608cf1d01004b525"))])
+	    (:commit . "a0c7c1775ab15d5d7df57a2126b6b9699049b7f0"))])
  (company-ebdb .
 	       [(1 1 0 20221221 74915)
 		((company
@@ -839,7 +839,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:keywords "convenience"))])
  (denote .
-	 [(2 0 0 0 20231016 120819)
+	 [(2 0 0 0 20231017 64333)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -847,7 +847,7 @@
 	   (:maintainer "Denote Development" . "~protesilaos/denote@lists.sr.ht")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "0eacf6673f184ec34f9c22ccb14e0e11a58c76f5"))])
+	   (:commit . "ffad320332645abb922b26d1d83781066eeff937"))])
  (denote-menu .
 	      [(1 2 0 0 20230927 131718)
 	       ((emacs
@@ -3030,14 +3030,14 @@
 		  (:url . "https://elpa.gnu.org/packages/prefixed-core.html")
 		  (:commit . "32cf255af5aada47d173c9877487e70c98e30151"))])
  (project .
-	  [(0 10 0 0 20231011 62728)
+	  [(0 10 0 0 20231016 232802)
 	   ((emacs
 	     (26 1))
 	    (xref
 	     (1 4 0)))
 	   "Operations on the current project" tar
 	   ((:url . "https://elpa.gnu.org/packages/project.html")
-	    (:commit . "6265b7195d10150ad6948f45f4e33869be580d1c"))])
+	    (:commit . "0d536f27557843d0652267bc6c20bc1357f716a4"))])
  (psgml .
 	[(1 3 5 0 20221229 184738)
 	 nil "SGML-editing mode with parsing support" tar
@@ -4354,11 +4354,14 @@
 		 ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
 		(:url . "https://elpa.gnu.org/packages/visual-fill.html"))])
  (vlf .
-      [(1 7 2 0 20201128 5141)
-       nil "View Large Files" tar
-       ((:url . "https://github.com/m00natic/vlfi")
-	(:keywords "large files" "utilities")
-	(:maintainer "Andrey Kotlarski" . "m00naticus@gmail.com"))])
+      [(1 7 2 0 20231016 224412)
+       ((emacs
+	 (24 4)))
+       "View Large Files" tar
+       ((:keywords "large files" "utilities")
+	(:maintainer "Andrey Kotlarski" . "m00naticus@gmail.com")
+	(:url . "https://elpa.gnu.org/packages/vlf.html")
+	(:commit . "6192573ee088079bf1f81abc2bf2a370a5a92397"))])
  (vundo .
 	[(2 1 0 0 20230928 182756)
 	 ((emacs
