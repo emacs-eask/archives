@@ -3507,11 +3507,11 @@
 	    (:keywords "extensions")
 	    (:url . "https://github.com/cute-jumper/avy-zap"))])
  (awk-ts-mode .
-	      [(1 0 0 1 -4 20231022 437)
+	      [(1 0 0 1 -4 20231022 1757)
 	       ((emacs
 		 (29 1)))
 	       "Major mode for awk using tree-sitter" tar
-	       ((:commit . "56eed1a18a4df76fcc98d62e18bfca688a574b9a")
+	       ((:commit . "a32d83a2c8714c5f2fdb8cc8cb6733a2eb1a4e87")
 		(:authors
 		 ("Noah Peart" . "noah.v.peart@gmail.com"))
 		(:maintainers
@@ -10262,6 +10262,23 @@
 			(:maintainer "Davide Restivo" . "davide.restivo@yahoo.it")
 			(:keywords "convenience" "faces")
 			(:url . "https://github.com/daviderestivo/comware-router-mode"))])
+ (conan .
+	[(0 0 1 1 -4 20231016 830)
+	 ((emacs
+	   (29 1))
+	  (s
+	   (1 7 0))
+	  (f
+	   (0 20 0)))
+	 "Generate flags for c++ using conan 2.0" tar
+	 ((:commit . "80d17373cb6c3dc7952c538efd9f94a7f564ffec")
+	  (:authors
+	   ("Carl Olsen"))
+	  (:maintainers
+	   ("Calle"))
+	  (:maintainer "Calle")
+	  (:keywords "tools")
+	  (:url . "https://github.com/Carl2/conan-elisp"))])
  (concurrent .
 	     [(0 5 0 1 -4 20170601 435)
 	      ((emacs
@@ -10752,6 +10769,22 @@
 		(:maintainer "Titus Pinta" . "titus.pinta@gmail.com")
 		(:keywords "consult" "tex" "latex")
 		(:url . "https://gitlab.com/titus.pinta/consult-TeX"))])
+ (consult-todo .
+	       [(0 4 0 1 -4 20231015 2219)
+		((emacs
+		  (27 1))
+		 (consult
+		  (0 35))
+		 (hl-todo
+		  (3 1 2)))
+		"Search hl-todo keywords in consult" tar
+		((:commit . "63dc4b72f0bd98c44f73bd6a059566e95d324d20")
+		 (:authors
+		  ("liuyinz" . "liuyinz@gmail.com"))
+		 (:maintainers
+		  ("liuyinz" . "liuyinz@gmail.com"))
+		 (:maintainer "liuyinz" . "liuyinz@gmail.com")
+		 (:url . "https://github.com/liuyinz/consult-todo"))])
  (consult-yasnippet .
 		    [(0 2 1 -4 20220724 1338)
 		     ((emacs
@@ -10837,11 +10870,11 @@
 			   (:keywords "tools")
 			   (:url . "https://github.com/liuyinz/emacs-conventional-changelog"))])
  (cool-mode .
-	    [(1 0 0 1 -4 20220612 1904)
+	    [(1 0 0 1 -4 20231022 1801)
 	     ((emacs
 	       (25)))
 	     "Major mode for cool compiler language" tar
-	     ((:commit . "961e66956412a1dd63f79473a8273da8853f7179")
+	     ((:commit . "0f03f851c6aaccfa4699f8818f4b77e4b4e4f576")
 	      (:authors
 	       ("Noah Peart" . "noah.v.peart@gmail.com"))
 	      (:maintainers
@@ -16012,11 +16045,11 @@
 	 (:keywords "text" "bibtex")
 	 (:url . "http://joostkremers.github.io/ebib/"))])
  (ebnf-mode .
-	    [(1 0 0 1 -4 20220606 1846)
+	    [(1 0 0 1 -4 20231022 1759)
 	     ((emacs
 	       (25 1)))
 	     "Major mode for EBNF files" tar
-	     ((:commit . "9bc7242557dcef797afdcb4a50c70bf153aa221d")
+	     ((:commit . "61486b1c9d4746249640410e58087e318f801ed8")
 	      (:authors
 	       ("Noah Peart" . "noah.v.peart@gmail.com"))
 	      (:maintainers
@@ -17386,7 +17419,7 @@
 		   (:maintainer "Korytov Pavel" . "thexcloud@gmail.com")
 		   (:url . "https://github.com/SqrtMinusOne/elfeed-summary.el"))])
  (elfeed-tube .
-	      [(0 15 1 -4 20231021 605)
+	      [(0 15 1 -4 20231022 1733)
 	       ((emacs
 		 (27 1))
 		(elfeed
@@ -17394,7 +17427,7 @@
 		(aio
 		 (1 0)))
 	       "YouTube integration for Elfeed" tar
-	       ((:commit . "1e61ba02afa7e4258e63b5243e2efebe93f28ae4")
+	       ((:commit . "0291038a00c17d780aded05b1e90860a2d586546")
 		(:authors
 		 ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
 		(:maintainers
@@ -23727,6 +23760,21 @@
 		     ("Jürgen Hötzel" . "juergen@hoetzel.info"))
 		    (:maintainer "Jürgen Hötzel" . "juergen@hoetzel.info")
 		    (:keywords "languages" "convenience" "tools"))])
+ (flycheck-eask .
+		[(0 1 0 1 -4 20230212 1748)
+		 ((emacs
+		   (26 1))
+		  (flycheck
+		   (0 14)))
+		 "Eask support in Flycheck" tar
+		 ((:commit . "93cf80d60a8d7080f380e16443e0882ac4656ff1")
+		  (:authors
+		   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
+		  (:maintainers
+		   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
+		  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		  (:keywords "lisp" "eask")
+		  (:url . "https://github.com/flycheck/flycheck-eask"))])
  (flycheck-eglot .
 		 [(0 1 1 -4 20230630 1803)
 		  ((emacs
@@ -37896,11 +37944,11 @@
 	    (:maintainer "Bjarte Johansen <Bjarte dot Johansen at gmail dot com>")
 	    (:url . "https://github.com/ljos/jq-mode"))])
  (jq-ts-mode .
-	     [(1 0 0 1 -4 20231018 1047)
+	     [(1 0 0 1 -4 20231022 1757)
 	      ((emacs
 		(29 1)))
 	      "Tree-sitter support for jq buffers" tar
-	      ((:commit . "14a4df0ed089bc9d322b9846d1b87f603c241161")
+	      ((:commit . "977fc1f17f26e9a007cef7cc1941756ef9a384f6")
 	       (:authors
 		("Noah Peart" . "noah.v.peart@gmail.com"))
 	       (:maintainers
@@ -57993,11 +58041,11 @@
 	  (:keywords "faces" "lisp")
 	  (:url . "https://github.com/alphapapa/prism.el"))])
  (prisma-ts-mode .
-		 [(1 0 0 1 -4 20231007 904)
+		 [(1 0 0 1 -4 20231022 1802)
 		  ((emacs
 		    (29 1)))
 		  "Major mode for prisma using tree-sitter" tar
-		  ((:commit . "b597a437a96c0f03cf2bc038794d6a98ba1bd48b")
+		  ((:commit . "a7029980140ae60612ef876efa17ab81bf4b3add")
 		   (:authors
 		    ("Noah Peart" . "noah.v.peart@gmail.com"))
 		   (:maintainers
@@ -69531,11 +69579,11 @@
 	 (:keywords "internal" "lisp" "processes" "tools")
 	 (:url . "https://github.com/mola-T/timp"))])
  (timu-caribbean-theme .
-		       [(1 5 1 -4 20230911 2112)
+		       [(1 5 1 -4 20231022 1816)
 			((emacs
 			  (27 1)))
 			"Color theme with cyan as a dominant color" tar
-			((:commit . "ab1c4d0df4f4a8fcb4eaa78dbf9d6f6f3e834462")
+			((:commit . "5fc2cad6c91748afa98d1df2b65b3b5329d21b03")
 			 (:authors
 			  ("Aimé Bertrand" . "aime.bertrand@macowners.club"))
 			 (:maintainers
@@ -69559,11 +69607,11 @@
 	      (:keywords "modeline" "frames" "ui")
 	      (:url . "https://gitlab.com/aimebertrand/timu-line"))])
  (timu-macos-theme .
-		   [(1 2 1 -4 20230911 2059)
+		   [(1 2 1 -4 20231022 1832)
 		    ((emacs
 		      (27 1)))
 		    "Color theme inspired by the macOS UI" tar
-		    ((:commit . "bbd88a1460f184cc8701a361e0eeea34f71accaa")
+		    ((:commit . "f1ecdf8415e4cb3d35019af5b2ad0d6bea96e610")
 		     (:authors
 		      ("Aimé Bertrand" . "aime.bertrand@macowners.club"))
 		     (:maintainers
@@ -69585,11 +69633,11 @@
 		     (:keywords "faces" "themes")
 		     (:url . "https://gitlab.com/aimebertrand/timu-rouge-theme"))])
  (timu-spacegrey-theme .
-		       [(2 9 1 -4 20231002 1522)
+		       [(2 9 1 -4 20231010 2137)
 			((emacs
 			  (26 1)))
 			"Color theme inspired by the Spacegray theme in Sublime Text" tar
-			((:commit . "145ee85b9d65bbef32687681d65f72e227e52225")
+			((:commit . "fbe0aacc0d1010631ba8b2848b78e26514ce60c6")
 			 (:authors
 			  ("Aimé Bertrand" . "aime.bertrand@macowners.club"))
 			 (:maintainers
@@ -72805,11 +72853,11 @@
 	       (:keywords "languages" "vim")
 	       (:url . "https://github.com/mcandre/vimrc-mode"))])
  (vimscript-ts-mode .
-		    [(0 0 1 1 -4 20231020 1008)
+		    [(0 0 1 1 -4 20231022 1758)
 		     ((emacs
 		       (29 1)))
 		     "Vim-script major mode using tree-sitter" tar
-		     ((:commit . "84c061f4f80f0768fbe2a8e4b7fb337da83bd150")
+		     ((:commit . "20aea980ef94d643100638f2528aafc4b136e20c")
 		      (:authors
 		       ("Noah Peart" . "noah.v.peart@gmail.com"))
 		      (:maintainers
