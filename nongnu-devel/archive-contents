@@ -225,7 +225,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "7521fa1b39de735dcbd32bca92a792d5261e9ce2"))])
  (cider .
-	[(1 8 3 0 20231021 122113)
+	[(1 8 3 0 20231023 183755)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -253,7 +253,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "4c99c02b5762c107cdf771a771a1216b040ba53e"))])
+	  (:commit . "ded24d8929c04e8492fb9f99c91110b0cb897328"))])
  (clojure-mode .
 	       [(5 18 0 0 20231018 92231)
 		((emacs
@@ -1345,25 +1345,31 @@
 		 ("Jean-Philippe Theberge" . "jphil21@sourceforge.net"))
 		(:commit . "4e87a899868e908a7a9e1812831d76c8d072f885"))])
  (lua-mode .
-	   [(20221027 0 20230810 93121)
+	   [(20221027 0 20231023 94721)
 	    ((emacs
 	      (24 3)))
 	    "a major-mode for editing Lua scripts" tar
 	    ((:url . "https://immerrr.github.io/lua-mode")
 	     (:keywords "languages" "processes" "tools")
-	     (:maintainer "2011-2013 immerrr" . "immerrr+lua@gmail.com")
+	     (:maintainer
+	      ("2011-2013 immerrr" . "immerrr+lua@gmail.com")
+	      ("2010-2011 Reuben Thomas" . "rrt@sc3d.org")
+	      ("2006 Juergen Hoetzel" . "juergen@hoetzel.info")
+	      ("2001 Christian Vogler" . "cvogler@gradient.cis.upenn.edu")
+	      ("1997 Bret Mogilefsky starting from" . "mogul-lua@gelatinous.com")
+	      ("tcl-mode by Gregor Schmid" . "schmid@fb3-s7.math.tu-berlin.de")
+	      ("Paul Du Bois and" . "pld-lua@gelatinous.com")
+	      ("Aaron Smith" . "aaron-lua@gelatinous.com"))
 	     (:authors
 	      ("2011-2013 immerrr" . "immerrr+lua@gmail.com")
 	      ("2010-2011 Reuben Thomas" . "rrt@sc3d.org")
 	      ("2006 Juergen Hoetzel" . "juergen@hoetzel.info")
-	      ("2004 various (support for Lua 5 and byte compilation)")
 	      ("2001 Christian Vogler" . "cvogler@gradient.cis.upenn.edu")
-	      ("1997 Bret Mogilefsky" . "mogul-lua@gelatinous.com")
+	      ("1997 Bret Mogilefsky starting from" . "mogul-lua@gelatinous.com")
 	      ("tcl-mode by Gregor Schmid" . "schmid@fb3-s7.math.tu-berlin.de")
-	      ("with tons of assistance from")
-	      ("Paul Du Bois" . "pld-lua@gelatinous.com")
+	      ("Paul Du Bois and" . "pld-lua@gelatinous.com")
 	      ("Aaron Smith" . "aaron-lua@gelatinous.com"))
-	     (:commit . "7eb8eaa420c25477c830623b830fd18dc350cdfb"))])
+	     (:commit . "d074e4134b1beae9ed4c9b512af741ca0d852ba3"))])
  (macrostep .
 	    [(0 9 2 0 20230813 212323)
 	     ((cl-lib
@@ -1593,7 +1599,7 @@
 		     ("Yilkal Argaw" . "yilkalargawworkneh@gmail.com"))
 		    (:commit . "817eabf902e759e96782bdc54d2dab36c4a2c5ab"))])
  (org-contrib .
-	      [(0 4 2 0 20231022 91643)
+	      [(0 4 2 0 20231023 93021)
 	       ((emacs
 		 (25 1))
 		(org
@@ -1604,7 +1610,7 @@
 		(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 		(:authors
 		 ("Bastien Guerry" . "bzg@gnu.org"))
-		(:commit . "2dfffe177407fc9c720169befd1bd0e20c951910"))])
+		(:commit . "c5ce9ce792881bc091ab95be499440b38f07486c"))])
  (org-drill .
 	    [(2 7 0 0 20210428 101221)
 	     ((emacs
