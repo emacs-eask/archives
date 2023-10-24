@@ -20,13 +20,13 @@
 	 ("Leo Liu" . "sdl.web@gmail.com"))
 	(:commit . "90c90a80322aa9f26ce88f2f24a224afc4c994b8"))])
  (ada-mode .
-	   [(8 0 5 0 20230208 70712)
+	   [(8 1 0 0 20231018 91522)
 	    ((uniquify-files
 	      (1 0 4))
 	     (wisi
-	      (4 2 2))
+	      (4 3 0))
 	     (gnat-compiler
-	      (1 0 2))
+	      (1 0 3))
 	     (emacs
 	      (25 3)))
 	    "major-mode for editing Ada sources" tar
@@ -35,7 +35,7 @@
 	     (:maintainer "Stephen Leake" . "stephen_leake@stephe-leake.org")
 	     (:authors
 	      ("Stephen Leake" . "stephen_leake@stephe-leake.org"))
-	     (:commit . "8660d5e9b2219208e5d43b979f5fb57fbb518924"))])
+	     (:commit . "357ac189bea640023e33214e8efe9288d9d1416c"))])
  (ada-ref-man .
 	      [(2020 1 0 20201129 190419)
 	       nil "Ada Reference Manual 2012" tar
@@ -335,31 +335,31 @@
 	      ("Serghei Iakovlev" . "egrep@protonmail.ch"))
 	     (:commit . "1a7e177c282b8e07a2c33bd89232464b347dfc17"))])
  (boxy .
-       [(1 1 3 0 20230408 95238)
+       [(1 1 3 0 20231024 113314)
 	((emacs
 	  (26 1)))
 	"A boxy layout framework" tar
 	((:url . "https://gitlab.com/tygrdev/boxy")
 	 (:keywords "tools")
-	 (:maintainer "Taylor Grinn" . "grinntaylor@gmail.com")
+	 (:maintainer "Amy Grinn" . "grinn.amy@gmail.com")
 	 (:authors
-	  ("Taylor Grinn" . "grinntaylor@gmail.com"))
-	 (:commit . "6567d846a06cdc75da8e88a5a961172cb3f77519"))])
+	  ("Amy Grinn" . "grinn.amy@gmail.com"))
+	 (:commit . "a8afcf68216a67325138e09f8678e2c2d5d0e599"))])
  (boxy-headings .
-		[(2 1 4 0 20221114 84552)
+		[(2 1 4 0 20231024 114002)
 		 ((emacs
 		   (26 1))
 		  (boxy
-		   (1 0))
+		   (1 1))
 		  (org
 		   (9 4)))
 		 "View org files in a boxy diagram" tar
 		 ((:url . "https://gitlab.com/tygrdev/boxy-headings")
 		  (:keywords "tools")
-		  (:maintainer "Taylor Grinn" . "grinntaylor@gmail.com")
+		  (:maintainer "Amy Grinn" . "grinn.amy@gmail.com")
 		  (:authors
-		   ("Taylor Grinn" . "grinntaylor@gmail.com"))
-		  (:commit . "a1f288fb673dcb3378c761c83d7352c2a41c3a95"))])
+		   ("Amy Grinn" . "grinn.amy@gmail.com"))
+		  (:commit . "698432b8310bf29bae883a738de542bc5838f25d"))])
  (breadcrumb .
 	     [(1 0 1 0 20230913 180643)
 	      ((emacs
@@ -1208,7 +1208,7 @@
 		    ("Ihor Radchenko" . "yantar92@posteo.net"))
 		   (:commit . "703516c63ce71ec68945d48c297d294990728686"))])
  (embark .
-	 [(0 23 0 20231007 130222)
+	 [(0 23 0 20231024 71123)
 	  ((emacs
 	    (27 1))
 	   (compat
@@ -1219,9 +1219,9 @@
 	   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-	   (:commit . "b22bcc42c70e75e5c7cb479eb830ecebda0b8cc3"))])
+	   (:commit . "690d187c3cf6d02901e94a463e7665d361c30e58"))])
  (embark-consult .
-		 [(0 8 0 20231007 130222)
+		 [(0 8 0 20231024 71123)
 		  ((emacs
 		    (27 1))
 		   (embark
@@ -1234,7 +1234,7 @@
 		   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 		   (:authors
 		    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-		   (:commit . "b22bcc42c70e75e5c7cb479eb830ecebda0b8cc3"))])
+		   (:commit . "690d187c3cf6d02901e94a463e7665d361c30e58"))])
  (ement .
 	[(0 14 -1 0 20231007 60132)
 	 ((emacs
@@ -2653,7 +2653,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "d6b402a89e234d0e6166247ed6025f9acc8b4d9a"))])
  (org .
-      [(9 7 -1 0 20231023 112804)
+      [(9 7 -1 0 20231024 104428)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2662,7 +2662,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "098f0815916fcfd88b24d7a0a842c3b294b4383d"))])
+	(:commit . "c7db1c09814788a231c1e8781c58c0a6a8b1b373"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs
@@ -2715,20 +2715,20 @@
 		("Peter Münster" . "pm@a16n.net"))
 	       (:commit . "c08cf5b931960bc12eb782c1fe1ec82266cb4bc8"))])
  (org-real .
-	   [(1 0 6 0 20221114 84409)
+	   [(1 0 7 0 20231024 111108)
 	    ((emacs
 	      (26 1))
 	     (boxy
-	      (1 0))
+	      (1 1))
 	     (org
 	      (9 3)))
 	    "Keep track of real things as org-mode links" tar
 	    ((:url . "https://gitlab.com/tygrdev/org-real")
 	     (:keywords "tools")
-	     (:maintainer "Taylor Grinn" . "grinntaylor@gmail.com")
+	     (:maintainer "Amy Grinn" . "grinn.amy@gmail.com")
 	     (:authors
-	      ("Taylor Grinn" . "grinntaylor@gmail.com"))
-	     (:commit . "27ea5d8b9be5bffb2a014324493383593b976ebf"))])
+	      ("Amy Grinn" . "grinn.amy@gmail.com"))
+	     (:commit . "f88f005fc9527fb318ec802d7bb31aadf0c71c26"))])
  (org-remark .
 	     [(1 2 1 0 20231007 205129)
 	      ((emacs
@@ -4002,18 +4002,20 @@
 	       (:url . "https://elpa.gnu.org/packages/transcribe.html")
 	       (:commit . "2c2d493d5488f3b444d2a771ab443589fcc72c13"))])
  (transient .
-	    [(0 4 3 0 20230919 214625)
+	    [(0 4 3 0 20231024 181508)
 	     ((emacs
-	       (25 1))
+	       (26 1))
 	      (compat
-	       (29 1 4 1)))
+	       (29 1 4 1))
+	      (seq
+	       (2 24)))
 	     "Transient commands" tar
 	     ((:url . "https://github.com/magit/transient")
 	      (:keywords "extensions")
 	      (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	      (:authors
 	       ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	      (:commit . "04f87b4ab3c7448a78f452cadaaf5d9e7a216d1d"))])
+	      (:commit . "74b0d7446ef6c014097bcf15b61aa5d400c1123c"))])
  (transient-cycles .
 		   [(1 0 0 20220410 130412)
 		    ((emacs
