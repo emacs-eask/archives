@@ -839,7 +839,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:keywords "convenience"))])
  (denote .
-	 [(2 0 0 0 20231020 121249)
+	 [(2 0 0 0 20231024 53803)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -847,7 +847,7 @@
 	   (:maintainer "Denote Development" . "~protesilaos/denote@lists.sr.ht")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "c6f4f8779663c3dad59bee86fe1f95799b4fc95b"))])
+	   (:commit . "85d34f0fba960d05494979d33a3a65e9a9ca6c31"))])
  (denote-menu .
 	      [(1 2 0 0 20230927 131718)
 	       ((emacs
@@ -1063,7 +1063,7 @@
 	       ("Leo Liu" . "sdl.web@gmail.com"))
 	      (:commit . "de7d66c3c864a4722a973ee9bc228a14be49ba0c"))])
  (ebdb .
-       [(0 8 18 0 20231021 161113)
+       [(0 8 18 0 20231023 175242)
 	((emacs
 	  (25 1))
 	 (seq
@@ -1074,7 +1074,7 @@
 	 (:maintainer "Eric Abrahamsen" . "eric@ericabrahamsen.net")
 	 (:authors
 	  ("Eric Abrahamsen" . "eric@ericabrahamsen.net"))
-	 (:commit . "dff7a1c43223d1a2b218f4a2efc85c80a5cc0c03"))])
+	 (:commit . "f7b50402cf672448c4999e069b8b58294ef18595"))])
  (ebdb-gnorb .
 	     [(1 0 2 0 20221221 75324)
 	      ((gnorb
@@ -1604,17 +1604,17 @@
 	     (:url . "https://elpa.gnu.org/packages/gle-mode.html")
 	     (:commit . "ff6e97819b525cbc1fea07f78e5b93eb5814eeb1"))])
  (gnat-compiler .
-		[(1 0 2 0 20230124 51334)
+		[(1 0 3 0 20230915 165808)
 		 ((emacs
 		   (25 3))
 		  (wisi
-		   (4 2 0)))
+		   (4 3 0)))
 		 "Support for running GNAT tools" tar
 		 ((:maintainer "Stephen Leake" . "stephen_leake@member.fsf.org")
 		  (:authors
 		   ("Stephen Leake" . "stephen_leake@member.fsf.org"))
 		  (:url . "https://elpa.gnu.org/packages/gnat-compiler.html")
-		  (:commit . "49774d33dc26ee75944a7380180cd748881e3a3f"))])
+		  (:commit . "9db5c393ee0f9694e83305ef8b0b1e37f0560111"))])
  (gnome-c-style .
 		[(0 1 0 20230924 235858)
 		 nil "minor mode for editing GNOME-style C source code" tar
@@ -1687,33 +1687,33 @@
 	     ("Damien Cassou" . "damien@cassou.me"))
 	    (:keywords "tools"))])
  (gpr-mode .
-	   [(1 0 3 0 20230119 135149)
+	   [(1 0 4 0 20231015 114428)
 	    ((emacs
 	      (25 3))
 	     (wisi
-	      (4 2 2))
+	      (4 3 0))
 	     (gnat-compiler
-	      (1 0 1)))
+	      (1 0 3)))
 	    "Major mode for editing GNAT project files" tar
 	    ((:url . "https://stephe-leake.org/ada/wisitoken.html")
 	     (:maintainer "Stephen Leake" . "stephen_leake@member.fsf.org")
 	     (:authors
 	      ("Stephen Leake" . "stephen_leake@member.fsf.org"))
-	     (:commit . "9676e6361ef38fd953835b405ccccdf0d0c5517b"))])
+	     (:commit . "ed12dc73272f9f77c974db0ff0290f959125224f"))])
  (gpr-query .
-	    [(1 0 3 0 20230128 112055)
+	    [(1 0 4 0 20231018 92052)
 	     ((emacs
 	       (25 3))
 	      (wisi
-	       (4 2 2))
+	       (4 3 0))
 	      (gnat-compiler
-	       (1 0 2)))
+	       (1 0 3)))
 	     "Minor mode for navigating sources using gpr_query" tar
 	     ((:maintainer "Stephen Leake" . "stephen_leake@member.fsf.org")
 	      (:authors
 	       ("Stephen Leake" . "stephen_leake@member.fsf.org"))
 	      (:url . "https://elpa.gnu.org/packages/gpr-query.html")
-	      (:commit . "ada0d0afcefe88b66b9cc53de5d76db661bfb2d7"))])
+	      (:commit . "090cbafa5d1f79e703a10e9db4cdbc726de92b44"))])
  (graphql .
 	  [(0 1 2 0 20221202 2453)
 	   ((emacs
@@ -4116,7 +4116,7 @@
 		   (:url . "https://elpa.gnu.org/packages/uniquify-files.html")
 		   (:commit . "7f84a579906eb449270ffe5e5ccc090aa3821c97"))])
  (urgrep .
-	 [(0 3 0 -4 0 20230831 195518)
+	 [(0 3 0 -4 0 20231023 212918)
 	  ((emacs
 	    (27 1))
 	   (compat
@@ -4126,9 +4126,9 @@
 	  "Universal recursive grep" tar
 	  ((:url . "https://github.com/jimporter/urgrep")
 	   (:keywords "grep" "search")
-	   (:commit . "d58b501140ad14453624d7c69d700f8e798f92ed"))])
+	   (:commit . "5552eee4a2c923dd18b5616e0c240215835eefd2"))])
  (url-http-ntlm .
-		[(2 0 4 0 20231015 130736)
+		[(2 0 5 0 20231024 31412)
 		 ((cl-lib
 		   (0 5))
 		  (ntlm
@@ -4141,7 +4141,7 @@
 		  (:maintainer "Thomas Fitzsimmons" . "fitzsim@fitzsim.org")
 		  (:authors
 		   ("Tom Schutzer-Weissmann" . "tom.weissmann@gmail.com"))
-		  (:commit . "0ef4ebadff403a535a53f78a328009d155f6236a"))])
+		  (:commit . "2c76d9491304e485a91c9d457fc25130279e1324"))])
  (url-http-oauth .
 		 [(0 8 3 0 20230510 175959)
 		  nil "OAuth 2.0 for URL library" tar
