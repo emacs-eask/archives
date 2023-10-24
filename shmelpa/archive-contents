@@ -42720,7 +42720,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20231023 420)
+	[(3 3 0 50 -4 20231024 1845)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -42738,7 +42738,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "fbb32ee30fbfbf9dc081187aab9931cfcf55f5d5")
+	 ((:commit . "51eaa9fbe2c8426d4eeed76752fe55297cc552ea")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -64671,13 +64671,13 @@
 		   (:keywords "convenience" "multimedia")
 		   (:url . "https://github.com/DaniruKun/siri-shortcuts.el"))])
  (sis .
-      [(1 0 1 -4 20230305 1006)
+      [(1 0 1 -4 20231024 1738)
        ((emacs
 	 (25 1))
 	(terminal-focus-reporting
 	 (0 0)))
        "Less manual switch for native or OS input source (input method)." tar
-       ((:commit . "e4142baa470e5f33dd508bce0264359dc5204b6f")
+       ((:commit . "80b2e7c3be365c7685cc4070294359341799cd47")
 	(:keywords "convenience")
 	(:url . "https://github.com/laishulu/emacs-smart-input-source"))])
  (sisyphus .
@@ -65363,13 +65363,13 @@
 		 (:keywords "window")
 		 (:url . "https://github.com/dryman/smart-window.el"))])
  (smartparens .
-	      [(1 11 0 1 -4 20231021 1239)
+	      [(1 11 0 1 -4 20231024 1804)
 	       ((dash
 		 (2 13 0))
 		(cl-lib
 		 (0 3)))
 	       "Automatic insertion, wrapping and paredit-like navigation with user defined pairs." tar
-	       ((:commit . "e3e563b20e405d87e3f1b3792174803bb8de2b7b")
+	       ((:commit . "0778a8a84064cf2bc3a9857bd0e7a4619cc1e5c3")
 		(:authors
 		 ("Matus Goljer" . "matus.goljer@gmail.com"))
 		(:maintainer "Matus Goljer" . "matus.goljer@gmail.com")
@@ -69072,7 +69072,7 @@
 		   (:keywords "tools")
 		   (:url . "http://nschum.de/src/emacs/test-case-mode/"))])
  (test-cockpit .
-	       [(0 1 0 1 -4 20231022 2120)
+	       [(0 1 0 1 -4 20231024 1724)
 		((emacs
 		  (28 1))
 		 (projectile
@@ -69080,7 +69080,7 @@
 		 (toml
 		  (20230411 1449)))
 		"A command center to run tests of a software project" tar
-		((:commit . "e6657d5fa89a32c78ef45be6daf13a2f9473edde")
+		((:commit . "5bb054649369b04b7c8f2c97d110133ce991f00f")
 		 (:authors
 		  ("Johannes Mueller" . "github@johannes-mueller.org"))
 		 (:maintainers
@@ -70223,13 +70223,15 @@
 		(:keywords "comm" "convenience" "files")
 		(:url . "https://gitlab.com/tuedachu/transfer-sh.el"))])
  (transient .
-	    [(0 4 3 1 -4 20231019 1421)
+	    [(0 4 3 1 -4 20231024 1815)
 	     ((emacs
-	       (25 1))
+	       (26 1))
 	      (compat
-	       (29 1 4 1)))
+	       (29 1 4 1))
+	      (seq
+	       (2 24)))
 	     "Transient commands" tar
-	     ((:commit . "a81eff942bb2cd5bb5b6450dcf7db78c876abd1f")
+	     ((:commit . "74b0d7446ef6c014097bcf15b61aa5d400c1123c")
 	      (:authors
 	       ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	      (:maintainers
@@ -70565,7 +70567,7 @@
 	       (:keywords "outlines" "files" "convenience")
 	       (:url . "https://github.com/cyberthal/treefactor"))])
  (treemacs .
-	   [(3 1 1 -4 20231016 2107)
+	   [(3 1 1 -4 20231024 1919)
 	    ((emacs
 	      (26 1))
 	     (cl-lib
@@ -70585,7 +70587,7 @@
 	     (cfrs
 	      (1 3 2)))
 	    "A tree style file explorer package" tar
-	    ((:commit . "474febd6c3f2d5059ed26c13277b9a3a8a5a8a82")
+	    ((:commit . "95c07470b281a1eaa3ce88290748bcb2045a163a")
 	     (:authors
 	      ("Alexander Miller" . "alexanderm@web.de"))
 	     (:maintainers
