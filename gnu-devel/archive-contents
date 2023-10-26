@@ -1120,7 +1120,7 @@
 	 ("Eduardo Ochs" . "eduardoochs@gmail.com"))
 	(:commit . "2ad26ad87504f0f6c7643bdab7007b6b555fe5ad"))])
  (ef-themes .
-	    [(1 3 0 0 20231025 95410)
+	    [(1 3 0 0 20231026 72724)
 	     ((emacs
 	       (27 1)))
 	     "Colorful and legible themes" tar
@@ -1129,7 +1129,7 @@
 	      (:maintainer "Ef-Themes Development" . "~protesilaos/ef-themes@lists.sr.ht")
 	      (:authors
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	      (:commit . "db3338c20ea041db17336797a1bc58973b67428e"))])
+	      (:commit . "dcfdf3d7ea6a28864d474e7b8cc06f0a61f4a6ad"))])
  (eglot .
 	[(1 15 0 20231021 100531)
 	 ((emacs
@@ -1208,7 +1208,7 @@
 		    ("Ihor Radchenko" . "yantar92@posteo.net"))
 		   (:commit . "703516c63ce71ec68945d48c297d294990728686"))])
  (embark .
-	 [(0 23 0 20231024 71123)
+	 [(0 23 0 20231025 232855)
 	  ((emacs
 	    (27 1))
 	   (compat
@@ -1219,9 +1219,9 @@
 	   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-	   (:commit . "690d187c3cf6d02901e94a463e7665d361c30e58"))])
+	   (:commit . "a96d8c3f89709273280cfe4f8835484f1c8955f3"))])
  (embark-consult .
-		 [(0 8 0 20231024 71123)
+		 [(0 8 0 20231025 232855)
 		  ((emacs
 		    (27 1))
 		   (embark
@@ -1234,7 +1234,7 @@
 		   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 		   (:authors
 		    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-		   (:commit . "690d187c3cf6d02901e94a463e7665d361c30e58"))])
+		   (:commit . "a96d8c3f89709273280cfe4f8835484f1c8955f3"))])
  (ement .
 	[(0 14 -1 0 20231007 60132)
 	 ((emacs
@@ -1726,7 +1726,7 @@
 	     ("Sean Allred" . "code@seanallred.com"))
 	    (:commit . "67237f284f2dfb94f3cfba672ff64a37e1cb860f"))])
  (greader .
-	  [(0 5 0 0 20230927 204955)
+	  [(0 5 0 0 20231026 5322)
 	   ((emacs
 	     (25)))
 	   "gnamù reader, send buffer contents to a speech engine." tar
@@ -1735,7 +1735,7 @@
 	    (:authors
 	     ("Michelangelo Rodriguez" . "michelangelo.rodriguez@gmail.com"))
 	    (:url . "https://elpa.gnu.org/packages/greader.html")
-	    (:commit . "c87373438efacfd3e7e81189aa58e5a2a65c5167"))])
+	    (:commit . "7dc61246faf5b7d98a49f51157349e6c66361ddb"))])
  (greenbar .
 	   [(1 1 0 20221221 80217)
 	    nil "Mark comint output with \"greenbar\" background" tar
@@ -1905,31 +1905,31 @@
 	      (:url . "https://elpa.gnu.org/packages/iterators.html")
 	      (:commit . "babf1d9fe2d6d0259dc8e496eb134fdbc3b4ec33"))])
  (ivy .
-      [(0 14 1 0 20231025 120440)
+      [(0 14 2 0 20231025 231958)
        ((emacs
 	 (24 5)))
        "Incremental Vertical completYon" tar
        ((:url . "https://github.com/abo-abo/swiper")
 	(:keywords "matching")
-	(:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
+	(:maintainer "Basil L. Contovounesios" . "contovob@tcd.ie")
 	(:authors
 	 ("Oleh Krehel" . "ohwoeowho@gmail.com"))
-	(:commit . "775488ded030546e533a1e1462174d8735aaedcd"))])
+	(:commit . "75d7136cfc04b8cee13898e0a015409747b3149a"))])
  (ivy-avy .
-	  [(0 14 0 0 20230410 182616)
+	  [(0 14 2 0 20231025 232243)
 	   ((emacs
 	     (24 5))
 	    (ivy
-	     (0 14 0))
+	     (0 14 2))
 	    (avy
 	     (0 5 0)))
 	   "Avy integration for Ivy" tar
 	   ((:url . "https://github.com/abo-abo/swiper")
 	    (:keywords "convenience")
-	    (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
+	    (:maintainer "Basil L. Contovounesios" . "contovob@tcd.ie")
 	    (:authors
 	     ("Oleh Krehel" . "ohwoeowho@gmail.com"))
-	    (:commit . "522c2ed7a62d3c7ff9e7ea455ad3c5d63b3c4b54"))])
+	    (:commit . "79598f9c16d7c14e4903b37d6142f7dde75fa2d9"))])
  (ivy-explorer .
 	       [(0 3 2 0 20190909 192125)
 		((emacs
@@ -1943,20 +1943,20 @@
 		  ("Clemens Radermacher" . "clemera@posteo.net"))
 		 (:keywords "convenience" "files" "matching"))])
  (ivy-hydra .
-	    [(0 14 0 0 20230410 182324)
+	    [(0 14 2 0 20231025 232457)
 	     ((emacs
 	       (24 5))
 	      (ivy
-	       (0 14 0))
+	       (0 14 2))
 	      (hydra
 	       (0 14 0)))
 	     "Additional key bindings for Ivy" tar
 	     ((:url . "https://github.com/abo-abo/swiper")
 	      (:keywords "convenience")
-	      (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
+	      (:maintainer "Basil L. Contovounesios" . "contovob@tcd.ie")
 	      (:authors
 	       ("Oleh Krehel" . "ohwoeowho@gmail.com"))
-	      (:commit . "1ee6eda9f632d66f5e6b582a0d565e52feb856ed"))])
+	      (:commit . "01aab502490f877731b3e222a7eb981f334a304b"))])
  (ivy-posframe .
 	       [(0 6 3 0 20211217 23411)
 		((emacs
@@ -2002,7 +2002,7 @@
 		(:url . "https://elpa.gnu.org/packages/jgraph-mode.html")
 		(:commit . "1bd355ecda036f23468d82b803146d3258a84977"))])
  (jinx .
-       [(0 9 0 20231019 170830)
+       [(0 9 0 20231026 52134)
 	((emacs
 	  (27 1))
 	 (compat
@@ -2013,7 +2013,7 @@
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	 (:commit . "884379eeea2cd5329788a3948418133ad762ed31"))])
+	 (:commit . "efcac16438eb4ac591512572aca846844379e6e1"))])
  (jit-spell .
 	    [(0 3 0 20230826 155115)
 	     ((emacs
@@ -2175,7 +2175,7 @@
 	 ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	(:commit . "75983a770d70b57c090db8cd503a340c32f51827"))])
  (llm .
-      [(0 4 0 0 20231024 203551)
+      [(0 5 0 0 20231026 5843)
        ((emacs
 	 (28 1)))
        "Interface to pluggable llm backends" tar
@@ -2183,7 +2183,7 @@
 	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
-	(:commit . "b69b6e8480afdf127bba80cd1716939d024b6a89"))])
+	(:commit . "8f431fad9e4dd173fe12d7f9849dff934ea0331d"))])
  (lmc .
       [(1 4 0 20230105 113402)
        ((emacs
@@ -2642,7 +2642,7 @@
 	     ("Philip Kaludercic" . "philipk@posteo.net"))
 	    (:commit . "25babb1060622c1560c8be64cdbb009af535959a"))])
  (orderless .
-	    [(1 0 0 20230919 235319)
+	    [(1 0 0 20231025 204425)
 	     ((emacs
 	       (26 1)))
 	     "Completion style for matching regexps in any order" tar
@@ -2651,7 +2651,7 @@
 	      (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 	      (:authors
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-	      (:commit . "d6b402a89e234d0e6166247ed6025f9acc8b4d9a"))])
+	      (:commit . "89eb3775daa53cfb52ad03015410c23f28c72d30"))])
  (org .
       [(9 7 -1 0 20231025 134753)
        ((emacs
@@ -3761,18 +3761,18 @@
 		  ("Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr"))
 		 (:commit . "c914980f09a9c7e2ba4faf64874ef17505bdc861"))])
  (swiper .
-	 [(0 14 0 0 20231025 114212)
+	 [(0 14 2 0 20231025 232825)
 	  ((emacs
 	    (24 5))
 	   (ivy
-	    (0 14 0)))
+	    (0 14 2)))
 	  "Isearch with an overview.  Oh, man!" tar
 	  ((:url . "https://github.com/abo-abo/swiper")
 	   (:keywords "matching")
-	   (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com")
+	   (:maintainer "Basil L. Contovounesios" . "contovob@tcd.ie")
 	   (:authors
 	    ("Oleh Krehel" . "ohwoeowho@gmail.com"))
-	   (:commit . "59356a97ef7febc908ad8e014fd45ea2d8f37d33"))])
+	   (:commit . "57fce9bd64c2f57bc96c79dfd8a3f45882b1f2ed"))])
  (switchy-window .
 		 [(1 3 0 20230411 180529)
 		  ((emacs
@@ -4118,7 +4118,7 @@
 		   (:url . "https://elpa.gnu.org/packages/uniquify-files.html")
 		   (:commit . "7f84a579906eb449270ffe5e5ccc090aa3821c97"))])
  (urgrep .
-	 [(0 3 0 -4 0 20231024 215844)
+	 [(0 3 0 -4 0 20231025 133744)
 	  ((emacs
 	    (27 1))
 	   (compat
@@ -4128,7 +4128,7 @@
 	  "Universal recursive grep" tar
 	  ((:url . "https://github.com/jimporter/urgrep")
 	   (:keywords "grep" "search")
-	   (:commit . "e0a22c598d4fb8f91bbe2e53db86f7bd3b2e8f22"))])
+	   (:commit . "2943a2f195bd1d025fd2b1455189352aac397b2f"))])
  (url-http-ntlm .
 		[(2 0 5 0 20231024 31412)
 		 ((cl-lib
