@@ -70910,11 +70910,13 @@
 	(:keywords "languages" "tools" "parsers" "dynamic-modules" "tree-sitter")
 	(:url . "https://github.com/emacs-tree-sitter/elisp-tree-sitter"))])
  (tsort .
-	[(1 0 0 1 -4 20231015 2136)
+	[(1 0 0 1 -4 20231027 334)
 	 ((emacs
-	   (28 1)))
+	   (24 4))
+	  (compat
+	   (29 1 4 2)))
 	 "Topological sort for Emacs Lisp" tar
-	 ((:commit . "844a983841798a5e9de4a442674d691fea6d09ff")
+	 ((:commit . "3f9cffdbd4ac83a6a69dd4ccbb135e95950494ad")
 	  (:authors
 	   ("Ethan Hawk" . "ethan.hawk@valpo.edu"))
 	  (:maintainers
