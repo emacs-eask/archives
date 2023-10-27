@@ -69074,7 +69074,7 @@
 		   (:keywords "tools")
 		   (:url . "http://nschum.de/src/emacs/test-case-mode/"))])
  (test-cockpit .
-	       [(0 1 0 1 -4 20231024 1724)
+	       [(0 1 0 1 -4 20231027 1842)
 		((emacs
 		  (28 1))
 		 (projectile
@@ -69082,7 +69082,7 @@
 		 (toml
 		  (20230411 1449)))
 		"A command center to run tests of a software project" tar
-		((:commit . "5bb054649369b04b7c8f2c97d110133ce991f00f")
+		((:commit . "911e42d1b71e844b9821a4561154734adaa0f1e0")
 		 (:authors
 		  ("Johannes Mueller" . "github@johannes-mueller.org"))
 		 (:maintainers
@@ -75575,11 +75575,13 @@
 	     (:keywords "convenience")
 	     (:url . "https://github.com/emacsorphanage/yascroll"))])
  (yasnippet .
-	    [(0 14 0 1 -4 20200604 246)
+	    [(0 14 0 1 -4 20230914 1400)
 	     ((cl-lib
-	       (0 5)))
+	       (0 5))
+	      (emacs
+	       (24 4)))
 	     "Yet another snippet extension for Emacs" tar
-	     ((:commit . "5cbdbf0d2015540c59ed8ee0fcf4788effdf75b6")
+	     ((:commit . "52a1c5031912243c791c55e0fe345d04f219b507")
 	      (:maintainers
 	       ("Noam Postavsky" . "npostavs@gmail.com"))
 	      (:maintainer "Noam Postavsky" . "npostavs@gmail.com")
