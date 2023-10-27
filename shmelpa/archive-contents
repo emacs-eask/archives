@@ -6988,13 +6988,13 @@
 	    (:keywords "unicode" "character" "ucs")
 	    (:url . "https://github.com/lateau/charmap"))])
  (chatgpt-shell .
-		[(0 80 1 1 -4 20231024 1151)
+		[(0 80 1 1 -4 20231027 1804)
 		 ((emacs
 		   (27 1))
 		  (shell-maker
 		   (0 42 1)))
 		 "ChatGPT shell + buffer insert commands" tar
-		 ((:commit . "311d732593d0b128a8bf69a8a70dc51b76731707")
+		 ((:commit . "7f11d4a8d979473ea7390cfcbed1ba1ab0fb6732")
 		  (:authors
 		   ("Alvaro Ramirez https://xenodium.com"))
 		  (:maintainers
@@ -17062,11 +17062,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 6 1 -4 20231026 2017)
+	[(1 6 1 -4 20231027 1758)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "d09e6f396be539aa7b88595d7ff05d7b45ccc548")
+	 ((:commit . "108bccfab4e566c72d16401a675a5fee7ebbb3d8")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainers
@@ -17695,13 +17695,15 @@
 		      (:maintainer "Yinghai Zhao" . "zyinghai@gmail.com")
 		      (:keywords "snippets"))])
  (ellama .
-	 [(0 1 0 1 -4 20231025 1830)
+	 [(0 1 0 1 -4 20231027 1759)
 	  ((emacs
 	    (28 1))
+	   (llm
+	    (0 5 0))
 	   (spinner
 	    (1 7 4)))
-	  "Ollama client for calling local LLMs" tar
-	  ((:commit . "6b0108b8d6d538b1f68a338e337855f485854712")
+	  "Tool for interacting with LLMs" tar
+	  ((:commit . "2e5219afbef9ae0c9adc288d3d13b21e49c847d1")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
 	   (:maintainers
