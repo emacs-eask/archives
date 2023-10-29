@@ -15638,11 +15638,11 @@
 		    (:keywords "convenience" "hacks")
 		    (:url . "https://sadiqpk.org/projects/dwim-coder-mode.html"))])
  (dwim-shell-command .
-		     [(0 54 1 -4 20231024 1346)
+		     [(0 55 1 -4 20231029 1905)
 		      ((emacs
 			(28 1)))
 		      "Shell commands with DWIM behaviour" tar
-		      ((:commit . "19be1c2f3792c95f04fd369cb931a52f7df9cfd5")
+		      ((:commit . "853318d58a9060c17538eaeacc00e4e6eb4fd642")
 		       (:authors
 			("Alvaro Ramirez"))
 		       (:maintainers
@@ -25083,6 +25083,21 @@
 				(:maintainer "Ricardo Martins" . "ricardo@scarybox.net")
 				(:keywords "convenience" "languages" "tools")
 				(:url . "https://github.com/meqif/flymake-diagnostic-at-point"))])
+ (flymake-eask .
+	       [(0 1 0 1 -4 20231022 1740)
+		((emacs
+		  (26 1))
+		 (flymake-easy
+		  (0 1)))
+		"Eask support in Flymake" tar
+		((:commit . "82204f96fd4168a7641df81fd90cb6d8561914f3")
+		 (:authors
+		  ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
+		 (:maintainers
+		  ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
+		 (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		 (:keywords "lisp" "eask")
+		 (:url . "https://github.com/flymake/flymake-eask"))])
  (flymake-easy .
 	       [(0 1 0 1 -4 20141022 1828)
 		nil "Helpers for easily building flymake checkers" tar
@@ -38949,15 +38964,18 @@
 		(:keywords "tools" "kconfig" "linux" "kernel")
 		(:url . "https://github.com/seokbeomkim/kconfig-ref"))])
  (kdeconnect .
-	     [(1 2 2 1 -4 20210519 2016)
-	      nil "An interface for KDE Connect" tar
-	      ((:commit . "4977af8cb5fdc21da770f3ee43ad7823f2937da3")
+	     [(1 2 2 1 -4 20231029 2113)
+	      ((emacs
+		(25 1)))
+	      "An interface for KDE Connect" tar
+	      ((:commit . "4e903805d2da898b852c07ba451917fa15640492")
 	       (:authors
 		("Carl Lieberman" . "dev@carl.ac"))
 	       (:maintainers
 		("Carl Lieberman" . "dev@carl.ac"))
 	       (:maintainer "Carl Lieberman" . "dev@carl.ac")
-	       (:keywords "kdeconnect" "android"))])
+	       (:keywords "convenience")
+	       (:url . "https://github.com/carldotac/kdeconnect.el"))])
  (keepass-mode .
 	       [(0 0 4 1 -4 20211030 958)
 		((emacs
@@ -44753,6 +44771,19 @@
 	   (:maintainer "Niels Giesen <pft on #emacs>")
 	   (:keywords "multimedia" "elisp" "music" "mpd")
 	   (:url . "https://github.com/pft/mingus"))])
+ (mini-echo .
+	    [(0 5 1 1 -4 20231029 217)
+	     ((emacs
+	       (28 1)))
+	     "Echo buffer status in minibuffer window" tar
+	     ((:commit . "bbbbde4c8f1e14a1917e6bdc25cadd858c724937")
+	      (:authors
+	       ("liuyinz" . "liuyinz95@gmail.com"))
+	      (:maintainers
+	       ("liuyinz" . "liuyinz95@gmail.com"))
+	      (:maintainer "liuyinz" . "liuyinz95@gmail.com")
+	      (:keywords "frames")
+	      (:url . "https://github.com/liuyinz/mini-echo.el"))])
  (mini-frame .
 	     [(1 19 1 -4 20220627 2041)
 	      ((emacs
@@ -55958,6 +55989,21 @@
 		      ("Korytov Pavel" . "thexcloud@gmail.com"))
 		     (:maintainer "Korytov Pavel" . "thexcloud@gmail.com")
 		     (:url . "https://github.com/SqrtMinusOne/perspective-exwm.el"))])
+ (perspective-project-bridge .
+			     [(0 1 1 -4 20231024 1737)
+			      ((emacs
+				(27 1))
+			       (perspective
+				(2 18)))
+			      "Integration of perspective.el + project.el" tar
+			      ((:commit . "7b65b08a0151b8279fc3ae75f0016cb8d5eadb53")
+			       (:authors
+				("Arunkumar Vaidyanathan" . "arunkumarmv1997@gmail.com"))
+			       (:maintainers
+				("Arunkumar Vaidyanathan" . "arunkumarmv1997@gmail.com"))
+			       (:maintainer "Arunkumar Vaidyanathan" . "arunkumarmv1997@gmail.com")
+			       (:keywords "perspective" "project" "convenience" "frames")
+			       (:url . "https://github.com/arunkmv/perspective-project-bridge"))])
  (perspeen .
 	   [(0 1 0 1 -4 20171203 1021)
 	    ((emacs
@@ -68295,19 +68341,18 @@
 	      (:keywords "convenience" "tabs")
 	      (:url . "http://github.com/tarao/tab-group-el"))])
  (tab-jump-out .
-	       [(0 1 0 1 -4 20151006 130)
-		((dash
-		  (2 10))
-		 (emacs
+	       [(2 0 0 1 -4 20231023 342)
+		((emacs
 		  (24 4)))
-		"Use tab to jump out of delimiter pairs." tar
-		((:commit . "1c3fec1826d2891177ea78e4e7cce1dc67e83e51")
+		"Use tab to jump out of delimiter pairs" tar
+		((:commit . "8cffbfafb24ea6d9121fd19e38e6a0c25caaa1c4")
 		 (:authors
 		  ("Zhang Kai Yu" . "yeannylam@gmail.com"))
 		 (:maintainers
-		  ("Zhang Kai Yu" . "yeannylam@gmail.com"))
-		 (:maintainer "Zhang Kai Yu" . "yeannylam@gmail.com")
-		 (:keywords "tab" "editing"))])
+		  ("Michael Kleehammer" . "michael@kleehammer.com"))
+		 (:maintainer "Michael Kleehammer" . "michael@kleehammer.com")
+		 (:keywords "convenience")
+		 (:url . "https://github.com/mkleehammer/tab-jump-out"))])
  (tabbar .
 	 [(2 2 1 -4 20180726 1735)
 	  nil "Display a tab bar in the header line" tar
