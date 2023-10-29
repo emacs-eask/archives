@@ -17075,11 +17075,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 6 1 -4 20231029 1608)
+	[(1 7 1 -4 20231029 1641)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "7707ab93086498c2a3bf560a54f257ba42450b2d")
+	 ((:commit . "57eac02a4e6f195184518c322a73293af57dd01b")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainers
@@ -25623,11 +25623,11 @@
 		     (:maintainer "Pascal van Kooten" . "kootenpv@gmail.com")
 		     (:url . "https://github.com/kootenvp/flymake-solidity"))])
  (flymake-sqlfluff .
-		   [(0 1 0 1 -4 20230129 2035)
+		   [(0 1 0 1 -4 20231029 1805)
 		    ((emacs
 		      (27 1)))
 		    "A flymake plugin for SQL files using sqlfluff" tar
-		    ((:commit . "f7921a5b762eb0675b8fca7cfb00273a76eaee5b")
+		    ((:commit . "f23324690066a2841f82f166d63f4d7ff0334b01")
 		     (:authors
 		      ("Erick Navarro" . "erick@navarro.io"))
 		     (:maintainers
@@ -38801,6 +38801,21 @@
 	 (:maintainer "Damon Chan" . "elecming@gmail.com")
 	 (:keywords "tools")
 	 (:url . "https://github.com/chenyanming/kana"))])
+ (kanagawa-theme .
+		 [(0 0 1 1 -4 20231023 114)
+		  ((autothemer
+		    (0 2 18))
+		   (emacs
+		    (28 1)))
+		  "Retro elegant theme" tar
+		  ((:commit . "08debfc56e052ed69c7ecc3b08c687bb5af4a33c")
+		   (:authors
+		    ("Meritamen" . "meritamen@sdf.org"))
+		   (:maintainers
+		    ("Meritamen" . "meritamen@sdf.org"))
+		   (:maintainer "Meritamen" . "meritamen@sdf.org")
+		   (:keywords "themes" "faces")
+		   (:url . "https://github.com/Meritamen/kanagawa-theme"))])
  (kanban .
 	 [(0 2 4 1 -4 20230210 1505)
 	  nil "Parse org-todo headlines to use org-tables as Kanban tables" tar
@@ -42733,7 +42748,7 @@
 	       (:keywords "languages")
 	       (:url . "http://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20231028 959)
+	[(3 3 0 50 -4 20231029 1759)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -42751,7 +42766,7 @@
 	  (with-editor
 	   (20230118)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "598219a33875594858e378453aa5de61ea9f75e4")
+	 ((:commit . "631a1f9b9ed3e2ff311ce2bcd9b987c1a3ccee0b")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -67494,6 +67509,18 @@
 		  ("Jaime Fournier" . "jaimef@linbsd.org"))
 		 (:maintainer "Jaime Fournier" . "jaimef@linbsd.org")
 		 (:keywords "supergenpass"))])
+ (surround .
+	   [(1 0 0 1 -4 20231022 1838)
+	    ((emacs
+	      (24 3)))
+	    "Easily add/delete/change parens, quotes, and more" tar
+	    ((:commit . "b75abfaf3e157d232c10e09cd6316a0ad92d2468")
+	     (:authors
+	      ("Michael Kleehammer" . "michael@kleehammer.com"))
+	     (:maintainers
+	      ("Michael Kleehammer" . "michael@kleehammer.com"))
+	     (:maintainer "Michael Kleehammer" . "michael@kleehammer.com")
+	     (:url . "https://github.com/mkleehammer/surround"))])
  (suscolors-theme .
 		  [(0 1 0 1 -4 20190713 1009)
 		   nil "Colorful theme, inspired by Gruvbox." tar
