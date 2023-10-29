@@ -29490,13 +29490,13 @@
 	  (:keywords "comm" "convenience")
 	  (:url . "https://github.com/antonhibl/gptai"))])
  (gptel .
-	[(0 3 5 1 -4 20231024 2326)
+	[(0 3 5 1 -4 20231029 234)
 	 ((emacs
 	   (27 1))
 	  (transient
 	   (0 4 0)))
 	 "A simple ChatGPT client" tar
-	 ((:commit . "644fc1de2f1934f2db1e448de1edae065e848b77")
+	 ((:commit . "61c0df5e19e44f50f96002c8c7a75c8a2d3112bb")
 	  (:authors
 	   ("Karthik Chikmagalur"))
 	  (:maintainers
@@ -53022,11 +53022,13 @@
 	    ("Simon Guest"))
 	   (:maintainer "Simon Guest"))])
  (org-web-tools .
-		[(1 2 -1 1 -4 20230904 107)
+		[(1 2 -1 1 -4 20231029 333)
 		 ((emacs
 		   (25 1))
 		  (org
 		   (9 0))
+		  (compat
+		   (29 1 4 2))
 		  (dash
 		   (2 12))
 		  (esxml
@@ -53036,7 +53038,7 @@
 		  (request
 		   (0 3 0)))
 		 "Display and capture web content with Org-mode" tar
-		 ((:commit . "d5bdeb7a772082885a77e98279ad63307977cef7")
+		 ((:commit . "de6450aaa43b073007b3c5a2c9d45368a297ec27")
 		  (:authors
 		   ("Adam Porter" . "adam@alphapapa.net"))
 		  (:maintainers
