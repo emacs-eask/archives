@@ -7377,7 +7377,7 @@
 		(:maintainer "Adam Chyła" . "adam@chyla.org")
 		(:url . "https://github.com/chyla/ChylaThemeForEmacs"))])
  (cider .
-	[(1 10 0 -4 20231030 743)
+	[(1 10 0 -4 20231030 1828)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -7395,7 +7395,7 @@
 	  (transient
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
-	 ((:commit . "612e37408ca3386084285351d0c33f322a48cc7f")
+	 ((:commit . "c60d2db4d1b2be7babbfa6837e99b71d49afb5eb")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
 	   ("Phil Hagelberg" . "technomancy@gmail.com")
@@ -12345,13 +12345,15 @@
 	     (:keywords "games")
 	     (:url . "https://github.com/davep/dad-joke.el"))])
  (daemons .
-	  [(2 1 0 1 -4 20230717 1627)
+	  [(2 1 0 1 -4 20231030 1710)
 	   ((emacs
 	     (25 1))
 	    (s
-	     (1 13 0)))
+	     (1 13 0))
+	    (compat
+	     (29 1 4 2)))
 	   "UI for managing init system daemons (services)" tar
-	   ((:commit . "060525c13eeb385b20898da93610dbe964f446f9")
+	   ((:commit . "c329ca135e3e33a4bd6d898d2e803a6ca4e64b47")
 	    (:authors
 	     ("Chris Bowdon"))
 	    (:maintainers
@@ -15638,11 +15640,11 @@
 		    (:keywords "convenience" "hacks")
 		    (:url . "https://sadiqpk.org/projects/dwim-coder-mode.html"))])
  (dwim-shell-command .
-		     [(0 56 1 -4 20231030 955)
+		     [(0 57 1 -4 20231030 1718)
 		      ((emacs
 			(28 1)))
 		      "Shell commands with DWIM behaviour" tar
-		      ((:commit . "fdb92936ecc8a8e3ca46e32cbd8fce4f4adb79fd")
+		      ((:commit . "8b90a964f09e69b1c55258e91710b0488e0bf135")
 		       (:authors
 			("Alvaro Ramirez"))
 		       (:maintainers
@@ -43818,7 +43820,7 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/YiGeeker/masm-mode"))])
  (mastodon .
-	   [(1 0 12 1 -4 20231016 946)
+	   [(1 0 12 1 -4 20231030 1922)
 	    ((emacs
 	      (27 1))
 	     (request
@@ -43826,7 +43828,7 @@
 	     (persist
 	      (0 4)))
 	    "Client for fediverse services using the Mastodon API" tar
-	    ((:commit . "cd2d6f23b4f7af63df3000f2fb68227c22bc8dee")
+	    ((:commit . "a8c80d25b7790746a439ae6c2deea3dc6bcac710")
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com")
 	      ("Marty Hiatt" . "martianhiatus@riseup.net"))
