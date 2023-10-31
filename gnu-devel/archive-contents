@@ -1120,7 +1120,7 @@
 	 ("Eduardo Ochs" . "eduardoochs@gmail.com"))
 	(:commit . "2ad26ad87504f0f6c7643bdab7007b6b555fe5ad"))])
  (ef-themes .
-	    [(1 4 0 0 20231026 80318)
+	    [(1 4 0 0 20231031 71401)
 	     ((emacs
 	       (27 1)))
 	     "Colorful and legible themes" tar
@@ -1129,7 +1129,7 @@
 	      (:maintainer "Ef-Themes Development" . "~protesilaos/ef-themes@lists.sr.ht")
 	      (:authors
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	      (:commit . "3f10dea8d8f85ddb011e9beaf4ca1b107d2d9683"))])
+	      (:commit . "662495807744faed80dd31e5b5fb29af6dde7226"))])
  (eglot .
 	[(1 15 0 20231021 100531)
 	 ((emacs
@@ -1491,6 +1491,19 @@
 	     ("Pavel Kobyakov" . "pk_at_work@yahoo.com"))
 	    (:url . "https://elpa.gnu.org/packages/flymake.html")
 	    (:commit . "967ee6a70cd053e9dc9b51f6945b0bf030df081b"))])
+ (flymake-codespell .
+		    [(0 1 0 20231030 222337)
+		     ((emacs
+		       (26 1))
+		      (compat
+		       (29 1 4 2)))
+		     "Flymake backend for codespell" tar
+		     ((:url . "https://www.github.com/skangas/flymake-codespell")
+		      (:keywords "extensions")
+		      (:maintainer "Stefan Kangas" . "stefankangas@gmail.com")
+		      (:authors
+		       ("Stefan Kangas" . "stefankangas@gmail.com"))
+		      (:commit . "d72e3ad4cdfd5cea1509a241d55e18f54ae2aeca"))])
  (flymake-proselint .
 		    [(0 3 0 0 20230325 160756)
 		     ((emacs
@@ -1677,15 +1690,16 @@
 	       ("Eric Abrahamsen" . "eric@ericabrahamsen.net"))
 	      (:url . "https://elpa.gnu.org/packages/gnus-mock.html"))])
  (gpastel .
-	  [(0 5 0 0 20181231 183754)
+	  [(0 5 0 0 20231030 71342)
 	   ((emacs
 	     (25 1)))
 	   "Integrates GPaste with the kill-ring" tar
-	   ((:url . "https://gitlab.petton.fr/DamienCassou/desktop-environment")
+	   ((:url . "https://github.com/DamienCassou/gpastel")
+	    (:keywords "tools")
 	    (:maintainer "Damien Cassou" . "damien@cassou.me")
 	    (:authors
 	     ("Damien Cassou" . "damien@cassou.me"))
-	    (:keywords "tools"))])
+	    (:commit . "d35505abb1e38ddda61440b033ebd4decac7a25c"))])
  (gpr-mode .
 	   [(1 0 4 0 20231015 114428)
 	    ((emacs
@@ -1841,7 +1855,7 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:commit . "54e9db2b023e03b6f6b46aeec48ea74fd51d4e11"))])
  (hyperbole .
-	    [(8 0 1 -1 0 20231029 145304)
+	    [(8 0 1 -1 0 20231030 222339)
 	     ((emacs
 	       (27 0)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
@@ -1850,7 +1864,7 @@
 	      (:maintainer
 	       ("Bob Weiner" . "rsw@gnu.org")
 	       ("Mats Lidell" . "matsl@gnu.org"))
-	      (:commit . "69b4a495b9512e0c9936adf4efd6e3b1243e3c16"))])
+	      (:commit . "a016782154d801772e66dee1b2a2d07a60b73b81"))])
  (ilist .
 	[(0 1 0 20220115 130125)
 	 nil "Display a list in an ibuffer way." tar
@@ -2175,7 +2189,7 @@
 	 ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	(:commit . "75983a770d70b57c090db8cd503a340c32f51827"))])
  (llm .
-      [(0 5 0 0 20231029 235518)
+      [(0 5 0 0 20231031 15744)
        ((emacs
 	 (28 1)))
        "Interface to pluggable llm backends" tar
@@ -2183,7 +2197,7 @@
 	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
-	(:commit . "39e462d5125e615d8bf33edae6d69b851bc2d4fd"))])
+	(:commit . "d87261daa4243304193f0492778ba32f4c4e4af9"))])
  (lmc .
       [(1 4 0 20230105 113402)
        ((emacs
@@ -2395,7 +2409,7 @@
 	      ("Michael Abraham Shulman" . "viritrilbia@gmail.com"))
 	     (:commit . "96906747e862449b722b6e2c741b61871894ac3a"))])
  (modus-themes .
-	       [(4 3 0 0 20230926 152405)
+	       [(4 3 0 0 20231031 71656)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
@@ -2404,7 +2418,7 @@
 		 (:maintainer "Modus-Themes Development" . "~protesilaos/modus-themes@lists.sr.ht")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		 (:commit . "284433625ed7cd3b19d2e34589c3041e16dd0deb"))])
+		 (:commit . "ff70fd4136df589945d06de6926286d70243345b"))])
  (multi-mode .
 	     [(1 14 0 20221221 80812)
 	      nil "support for multiple major modes" tar
@@ -3013,14 +3027,14 @@
 		  (:url . "https://elpa.gnu.org/packages/prefixed-core.html")
 		  (:commit . "32cf255af5aada47d173c9877487e70c98e30151"))])
  (project .
-	  [(0 10 0 0 20231030 14249)
+	  [(0 10 0 0 20231031 73403)
 	   ((emacs
 	     (26 1))
 	    (xref
 	     (1 4 0)))
 	   "Operations on the current project" tar
 	   ((:url . "https://elpa.gnu.org/packages/project.html")
-	    (:commit . "ecc8870981ef1a802f9504b1d0f261d19ab372b1"))])
+	    (:commit . "dd92ccc7ee12807bbc1c30f0d6576fad738bd104"))])
  (psgml .
 	[(1 3 5 0 20221229 184738)
 	 nil "SGML-editing mode with parsing support" tar
@@ -3680,7 +3694,7 @@
 		("Christian Johansson" . "christian@cvj.se"))
 	       (:commit . "95fb076c9b657c5f1bfad3ee5bf1f8691c50d428"))])
  (standard-themes .
-		  [(1 2 0 0 20230916 90636)
+		  [(1 2 0 0 20231031 71926)
 		   ((emacs
 		     (27 1)))
 		   "Like the default theme but more consistent" tar
@@ -3689,7 +3703,7 @@
 		    (:maintainer "Standard-Themes Development" . "~protesilaos/standard-themes@lists.sr.ht")
 		    (:authors
 		     ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		    (:commit . "b7c89d4f2b36d0a7fcfdac8a7c5b13c132abeddb"))])
+		    (:commit . "fba33e81789e33c81e8434aeb4ddddd813a940d7"))])
  (stream .
 	 [(2 3 0 0 20230908 74447)
 	  ((emacs
