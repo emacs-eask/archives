@@ -225,7 +225,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "7521fa1b39de735dcbd32bca92a792d5261e9ce2"))])
  (cider .
-	[(1 11 0 -4 0 20231031 200156)
+	[(1 11 0 -4 0 20231103 133333)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -253,7 +253,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "fb34038db7234df7e9b4bde2891a5e9541b2189b"))])
+	  (:commit . "e92bd5944ecbf1b3954d8aa0d3bf7d7866352826"))])
  (clojure-mode .
 	       [(5 18 0 0 20231018 92231)
 		((emacs
@@ -942,7 +942,7 @@
 		   ("Jeronimo Pellegrini" . "(j_p@aleph0.info)"))
 		  (:commit . "c634fc2049f1616b772f5e9cb78c6171dcc4c34d"))])
  (git-commit .
-	     [(3 3 0 50 -4 0 20231030 224315)
+	     [(3 3 0 50 -4 0 20231103 151602)
 	      ((emacs
 		(25 1))
 	       (compat
@@ -962,7 +962,7 @@
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
 		("Florian Ragwitz" . "rafl@debian.org")
 		("Marius Vollmer" . "marius.vollmer@gmail.com"))
-	       (:commit . "5cf664cd32010d3a5207c09da60e0c8f0c37b496"))])
+	       (:commit . "2b02bfb0495bf738e006d82f3a233e8f511b90b8"))])
  (git-modes .
 	    [(1 4 2 0 20231101 232321)
 	     ((emacs
@@ -1382,7 +1382,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "0b04a89f698c335c9ea492553470a8d45c113edd"))])
  (magit .
-	[(3 3 0 50 -4 0 20231030 224315)
+	[(3 3 0 50 -4 0 20231103 151602)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -1408,9 +1408,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	  (:commit . "5cf664cd32010d3a5207c09da60e0c8f0c37b496"))])
+	  (:commit . "2b02bfb0495bf738e006d82f3a233e8f511b90b8"))])
  (magit-section .
-		[(3 3 0 50 -4 0 20231030 224315)
+		[(3 3 0 50 -4 0 20231103 151602)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -1425,7 +1425,7 @@
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
-		  (:commit . "5cf664cd32010d3a5207c09da60e0c8f0c37b496"))])
+		  (:commit . "2b02bfb0495bf738e006d82f3a233e8f511b90b8"))])
  (markdown-mode .
 		[(2 7 -3 0 20231028 85325)
 		 ((emacs
@@ -1700,13 +1700,15 @@
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:commit . "b60efabc4a1b15d7eacaabc5bdfe6f3c20fee161"))])
  (package-lint .
-	       [(0 19 0 20230905 65458)
+	       [(0 20 0 20231103 181024)
 		((cl-lib
 		  (0 5))
 		 (emacs
-		  (24 1))
+		  (24 4))
 		 (let-alist
-		     (1 0 6)))
+		     (1 0 6))
+		 (compat
+		  (29 1)))
 		"A linting library for elisp package authors" tar
 		((:url . "https://github.com/purcell/package-lint")
 		 (:keywords "lisp")
@@ -1716,7 +1718,7 @@
 		 (:authors
 		  ("Steve Purcell" . "steve@sanityinc.com")
 		  ("Fanael Linithien" . "fanael4@gmail.com"))
-		 (:commit . "ee6b670eeaf95ed0fa88ea49e7037a351ed0352a"))])
+		 (:commit . "5eba825d657b490c320b2ea2c302b1fa0c999610"))])
  (pacmacs .
 	  [(0 1 1 0 20220411 143014)
 	   ((emacs
@@ -2336,7 +2338,7 @@
 	       ("Daniel Semyonov" . "daniel@dsemy.com"))
 	      (:commit . "34007904a828cfa24bfeae20a40ce53cc8a23b4f"))])
  (visual-fill-column .
-		     [(2 5 1 0 20230102 183037)
+		     [(2 5 1 0 20231103 94339)
 		      ((emacs
 			(25 1)))
 		      "fill-column for visual-line-mode" tar
@@ -2344,7 +2346,7 @@
 		       (:maintainer "Joost Kremers" . "joostkremers@fastmail.fm")
 		       (:authors
 			("Joost Kremers" . "joostkremers@fastmail.fm"))
-		       (:commit . "695a59789209c42fa08a5bce92963ee32f4455be"))])
+		       (:commit . "db7c7c236555c9c684e1294a277efefdc25fa5c4"))])
  (web-mode .
 	   [(17 3 15 0 20231025 192755)
 	    ((emacs
