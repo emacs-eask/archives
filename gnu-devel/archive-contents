@@ -172,7 +172,7 @@
 			  ("Thien-Thi Nguyen" . "ttn@gnu.org"))
 			 (:commit . "53b49ffcf2cabe8ef0f7fc1a74fd6748c3f99c58"))])
  (async .
-	[(1 9 7 0 20230802 104021)
+	[(1 9 7 0 20231104 110803)
 	 ((emacs
 	   (24 4)))
 	 "Asynchronous processing in Emacs" tar
@@ -181,7 +181,7 @@
 	  (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	  (:authors
 	   ("John Wiegley" . "jwiegley@gmail.com"))
-	  (:commit . "bb0509060ddc9c94bc7db7bddb12995acb3b53e4"))])
+	  (:commit . "37ea3e2403e9c2d98118c224382d48884bbf7723"))])
  (auctex .
 	 [(13 2 2 0 20231011 93504)
 	  ((emacs
@@ -610,7 +610,7 @@
 			("Ingo Lohmar" . "i.lohmar@gmail.com"))
 		       (:keywords "abbrev" "convenience" "matching"))])
  (compat .
-	 [(29 1 4 2 0 20230927 210420)
+	 [(29 1 4 3 0 20231104 83810)
 	  ((emacs
 	    (24 4))
 	   (seq
@@ -624,9 +624,9 @@
 	   (:authors
 	    ("Philip Kaludercic" . "philipk@posteo.net")
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	   (:commit . "6571f834e19c874752d0d70e1c610886b5872ade"))])
+	   (:commit . "14f5f74dd98dcd0410559942aae4d8ed49e36154"))])
  (consult .
-	  [(0 35 0 20231030 43821)
+	  [(0 35 0 20231104 142724)
 	   ((emacs
 	     (27 1))
 	    (compat
@@ -635,7 +635,7 @@
 	   ((:url . "https://github.com/minad/consult")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-	    (:commit . "e03041b1f5019c2fe5fc54c68740df78603d60a0"))])
+	    (:commit . "1ae8945dbec77fc01a33b3b32e3b74fd8eaf45fe"))])
  (consult-recoll .
 		 [(0 8 0 20221014 200255)
 		  ((emacs
@@ -839,7 +839,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:keywords "convenience"))])
  (denote .
-	 [(2 0 0 0 20231104 60808)
+	 [(2 0 0 0 20231104 133108)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -847,7 +847,7 @@
 	   (:maintainer "Denote Development" . "~protesilaos/denote@lists.sr.ht")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "1f55b206bd9d7ae9d3f2b4ec97e29b6431b7347d"))])
+	   (:commit . "538b3ec2e7829ace3509cc42a8aa9a70ce1d1101"))])
  (denote-menu .
 	      [(1 2 0 0 20230927 131718)
 	       ((emacs
@@ -945,6 +945,17 @@
 	      ("Tino Calancha" . "tino.calancha@gmail.com"))
 	     (:url . "https://elpa.gnu.org/packages/dired-du.html")
 	     (:commit . "f7e1593e94388b0dfb71af8e9a3d5d07edf5a159"))])
+ (dired-duplicates .
+		   [(0 1 0 20231102 80541)
+		    ((emacs
+		      (27 1)))
+		    "Find duplicate files locally and remotely" tar
+		    ((:url . "https://codeberg.org/hjudt/dired-duplicates")
+		     (:keywords "files")
+		     (:maintainer "Harald Judt" . "h.judt@gmx.at")
+		     (:authors
+		      ("Harald Judt" . "h.judt@gmx.at"))
+		     (:commit . "ec0a89ca325b4fb970824d0663d91e4f8f58235f"))])
  (dired-git-info .
 		 [(0 3 1 0 20191229 192948)
 		  ((emacs
@@ -1131,7 +1142,7 @@
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	      (:commit . "662495807744faed80dd31e5b5fb29af6dde7226"))])
  (eglot .
-	[(1 15 0 20231021 100531)
+	[(1 15 0 20231104 52138)
 	 ((emacs
 	   (26 3))
 	  (jsonrpc
@@ -1154,7 +1165,7 @@
 	  (:maintainer "João Távora" . "joaotavora@gmail.com")
 	  (:authors
 	   ("João Távora" . "joaotavora@gmail.com"))
-	  (:commit . "8c15515b62cacae06dd3ced6492142ce185e5adb"))])
+	  (:commit . "0b5e2ce7612f71365fe061b8a15648e7b4ee053f"))])
  (el-search .
 	    [(1 12 6 1 0 20221221 75346)
 	     ((emacs
@@ -2016,7 +2027,7 @@
 		(:url . "https://elpa.gnu.org/packages/jgraph-mode.html")
 		(:commit . "1bd355ecda036f23468d82b803146d3258a84977"))])
  (jinx .
-       [(0 9 0 20231026 154650)
+       [(0 9 0 20231104 142700)
 	((emacs
 	  (27 1))
 	 (compat
@@ -2027,7 +2038,7 @@
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	 (:commit . "908cff9b6637eff0be32e4b42e4ec31ed287f03a"))])
+	 (:commit . "6f6108896744d1da4887b08e4fe4fff403ac10ac"))])
  (jit-spell .
 	    [(0 3 0 20230826 155115)
 	     ((emacs
