@@ -12983,6 +12983,19 @@
 	      (:maintainer "Sanel Zukan" . "sanelz@gmail.com")
 	      (:keywords "html" "hypermedia" "terminals")
 	      (:url . "http://www.github.com/sanel/declutter"))])
+ (decor .
+	[(1 0 0 1 -4 20231101 2354)
+	 ((emacs
+	   (24 1)))
+	 "Modify visual decorations (X11)" tar
+	 ((:commit . "aad4fa9f4e0d4140e2707f4cc678b1dc3c0672fa")
+	  (:authors
+	   ("Peter Badida" . "keyweeusr@gmail.com"))
+	  (:maintainers
+	   ("Peter Badida" . "keyweeusr@gmail.com"))
+	  (:maintainer "Peter Badida" . "keyweeusr@gmail.com")
+	  (:keywords "convenience" "window" "decoration" "distraction" "x11" "xprop")
+	  (:url . "https://github.com/KeyWeeUsr/decor"))])
  (dedicated .
 	    [(1 0 0 1 -4 20151202 110)
 	     nil "A very simple minor mode for dedicated buffers" tar
@@ -65609,6 +65622,21 @@
 		  ("Lennart Borgman (lennart O borgman A gmail O com)"))
 		 (:maintainer "Lennart Borgman (lennart O borgman A gmail O com)")
 		 (:url . "http://bazaar.launchpad.net/~nxhtml/nxhtml/main/annotate/head%3A/util/sml-modeline.el"))])
+ (smlfmt .
+	 [(0 1 0 1 -4 20231102 853)
+	  ((emacs
+	    (24))
+	   (reformatter
+	    (0 4)))
+	  "Format SML source code using the \"smlfmt\" program" tar
+	  ((:commit . "7a70cce029a7c37c5e976ab6b426f62561e4e352")
+	   (:authors
+	    ("Troels Henriksen" . "athas@sigkill"))
+	   (:maintainers
+	    ("Troels Henriksen" . "athas@sigkill"))
+	   (:maintainer "Troels Henriksen" . "athas@sigkill")
+	   (:keywords "files" "tools")
+	   (:url . "https://github.com/diku-dk/smlfmt.el"))])
  (smmry .
 	[(0 0 3 1 -4 20161024 901)
 	 nil "SMMRY client" tar
