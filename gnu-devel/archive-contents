@@ -172,7 +172,7 @@
 			  ("Thien-Thi Nguyen" . "ttn@gnu.org"))
 			 (:commit . "53b49ffcf2cabe8ef0f7fc1a74fd6748c3f99c58"))])
  (async .
-	[(1 9 7 0 20231105 72154)
+	[(1 9 7 0 20231105 171300)
 	 ((emacs
 	   (24 4)))
 	 "Asynchronous processing in Emacs" tar
@@ -181,7 +181,7 @@
 	  (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	  (:authors
 	   ("John Wiegley" . "jwiegley@gmail.com"))
-	  (:commit . "aa7a29aaf8de4a82af4c5ed98391349911566d26"))])
+	  (:commit . "3bade0e92e1ee8e716c5db14bc8315b17299f138"))])
  (auctex .
 	 [(13 2 2 0 20231011 93504)
 	  ((emacs
@@ -410,6 +410,17 @@
 		  (:authors
 		   ("Clemens Radermacher" . "clemera@posteo.net"))
 		  (:keywords "convenience"))])
+ (bufferlo .
+	   [(0 2 0 20231105 144449)
+	    ((emacs
+	      (27 1)))
+	    "Manage frame/tab-local buffer lists" tar
+	    ((:url . "https://github.com/florommel/bufferlo")
+	     (:keywords "buffer" "frame" "tabs" "local")
+	     (:maintainer "Florian Rommel" . "mail@florommel.de")
+	     (:authors
+	      ("Florian Rommel" . "mail@florommel.de"))
+	     (:commit . "6d27fbd70428f85ac621e5e3ab57c458ca30b3a5"))])
  (bug-hunter .
 	     [(1 3 1 0 20201128 92354)
 	      ((seq
@@ -2678,7 +2689,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "89eb3775daa53cfb52ad03015410c23f28c72d30"))])
  (org .
-      [(9 7 -1 0 20231104 74839)
+      [(9 7 -1 0 20231105 155155)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2687,7 +2698,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "054bdb6ce34290651de068815458a312ab5bb693"))])
+	(:commit . "089fda1219476be087e308283d52c36e6632a48f"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs
