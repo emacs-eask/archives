@@ -7377,7 +7377,7 @@
 		(:maintainer "Adam Chyła" . "adam@chyla.org")
 		(:url . "https://github.com/chyla/ChylaThemeForEmacs"))])
  (cider .
-	[(1 11 0 -4 20231104 2203)
+	[(1 11 0 -4 20231106 759)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -7395,7 +7395,7 @@
 	  (transient
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
-	 ((:commit . "20d85426025b78b5ea9219fc92c28eac9fa1176f")
+	 ((:commit . "1c1ef926cda1533ab211ce8cab3ca70b019d5a36")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
 	   ("Phil Hagelberg" . "technomancy@gmail.com")
@@ -12397,6 +12397,40 @@
 		  ("Alvaro Ramirez https://xenodium.com"))
 		 (:maintainer "Alvaro Ramirez https://xenodium.com")
 		 (:url . "https://github.com/xenodium/chatgpt-shell"))])
+ (daml-lsp .
+	   [(1 0 1 -4 20231101 1818)
+	    ((daml-mode
+	      (1 0))
+	     (dash
+	      (2 18 0))
+	     (f
+	      (0 20 0))
+	     (ht
+	      (2 3))
+	     (lsp-mode
+	      (7 0)))
+	    "LSP client definition for daml" tar
+	    ((:commit . "26ea6a1b34c49aaa5a2b395a0468c8af710bfab7")
+	     (:authors
+	      ("Bártfai Tamás"))
+	     (:maintainers
+	      ("Bártfai Tamás"))
+	     (:maintainer "Bártfai Tamás")
+	     (:url . "https://github.com/bartfaitamas/daml-mode"))])
+ (daml-mode .
+	    [(1 0 1 -4 20231104 741)
+	     ((emacs
+	       (27 1))
+	      (haskell-mode
+	       (16 1)))
+	     "Emacs mode for daml" tar
+	     ((:commit . "211d584ad73a23e60601a852b98ce61aebc8ef0d")
+	      (:authors
+	       ("Bártfai Tamás"))
+	      (:maintainers
+	       ("Bártfai Tamás"))
+	      (:maintainer "Bártfai Tamás")
+	      (:url . "https://github.com/bartfaitamas/daml-mode"))])
  (danneskjold-theme .
 		    [(1 0 0 1 -4 20221121 634)
 		     nil "Beautiful high-contrast Emacs theme." tar
@@ -42191,7 +42225,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20231103 1522)
+	   [(8 0 1 1 -4 20231106 734)
 	    ((emacs
 	      (27 1))
 	     (dash
@@ -42209,7 +42243,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "00932b02d74f569eccc7c55cfa38b8269d535239")
+	    ((:commit . "625671a7b518170e081a91fddb293a39bedc9f0c")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainers
