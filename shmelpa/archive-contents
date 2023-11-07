@@ -128,13 +128,15 @@
 		 (:maintainer "USAMI Kenta" . "tadsan@zonu.me")
 		 (:keywords "wp" "text" "shiftjis" "mlt" "yaruo"))])
  (aangit .
-	 [(0 1 1 -4 20231106 2008)
+	 [(0 1 1 -4 20231106 2115)
 	  ((emacs
 	    (29 1))
 	   (transient
-	    (0 4)))
+	    (0 4))
+	   (s
+	    (1 13)))
 	  "Quickly scaffold new Angular apps with Aangit" tar
-	  ((:commit . "23c09ee557d6918b6d01f8d8802e4be046889c54")
+	  ((:commit . "7527a366c542cb7b09672597876e83f429ca6b46")
 	   (:authors
 	    ("Steven Edwards" . "steven@stephenwithav.io"))
 	   (:maintainers
@@ -8948,11 +8950,11 @@
 			 (:keywords "snippets")
 			 (:url . "https://github.com/mrkkrp/common-lisp-snippets"))])
  (company .
-	  [(0 2 1 -4 20231106 1211)
+	  [(0 2 1 -4 20231106 2043)
 	   ((emacs
 	     (25 1)))
 	   "Modular text completion framework" tar
-	   ((:commit . "4301ea14c53315b8cadaf7321ee556c259e9f7a3")
+	   ((:commit . "f64f73e9efd3f9ef30fe6868816086c2794616a1")
 	    (:authors
 	     ("Nikolaj Schumacher"))
 	    (:maintainers
@@ -17124,11 +17126,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 7 1 -4 20231106 2028)
+	[(1 7 1 -4 20231106 2202)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "b70afe3cd09a7dec7d6596a5bfc3639f135aeab2")
+	 ((:commit . "96971ba07d04b39eb8a3c97355ba9e92bf540665")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainers
@@ -18552,7 +18554,7 @@
 	       (:keywords "convenience")
 	       (:url . "https://github.com/smihica/emmet-mode"))])
  (emms .
-       [(16 1 -4 20231101 1917)
+       [(16 1 -4 20231106 2235)
 	((cl-lib
 	  (0 5))
 	 (nadvice
@@ -18560,7 +18562,7 @@
 	 (seq
 	  (0)))
 	"The Emacs Multimedia System" tar
-	((:commit . "32fd570ed712d5ed591a6955e2927a3817acef06")
+	((:commit . "f3701eea3d0159ea9a2b44c5cce3886be73ff3df")
 	 (:authors
 	  ("Jorgen Schäfer" . "forcer@forcix.cx"))
 	 (:maintainers
@@ -52018,7 +52020,7 @@
 			 ("Vladimir S. Ivanov" . "ivvl82@gmail.com"))
 			(:maintainer "Vladimir S. Ivanov" . "ivvl82@gmail.com"))])
  (org-ql .
-	 [(0 8 -1 1 -4 20231101 1937)
+	 [(0 8 -1 1 -4 20231106 2230)
 	  ((emacs
 	    (26 1))
 	   (dash
@@ -52042,7 +52044,7 @@
 	   (ts
 	    (0 2 -1)))
 	  "Org Query Language, search command, and agenda-like view" tar
-	  ((:commit . "e885001a2ad14b8367ce66e011ecd6088782f677")
+	  ((:commit . "4f62ba3bd6d639b021ee9f159357b2a80d7a2f92")
 	   (:authors
 	    ("Adam Porter" . "adam@alphapapa.net"))
 	   (:maintainers
