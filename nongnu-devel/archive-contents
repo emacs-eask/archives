@@ -682,7 +682,7 @@
 		    (:authors
 		     ("Bailey Ling")))])
  (exec-path-from-shell .
-		       [(2 1 0 20231104 93837)
+		       [(2 1 0 20231110 172728)
 			((emacs
 			  (24 1))
 			 (cl-lib
@@ -693,7 +693,7 @@
 			 (:maintainer "Steve Purcell" . "steve@sanityinc.com")
 			 (:authors
 			  ("Steve Purcell" . "steve@sanityinc.com"))
-			 (:commit . "1d110cb57ee2dedf1cf58f762c8dd39488534ad7"))])
+			 (:commit . "99b1b731d55614dceb72b6f16602df2b8d030dc9"))])
  (flx .
       [(0 6 2 0 20221213 4208)
        ((cl-lib
@@ -1083,7 +1083,7 @@
 	      (:authors
 	       ("Bozhidar Batsov" . "bozhidar@batsov.dev")))])
  (haml-mode .
-	    [(3 2 1 0 20230608 183319)
+	    [(3 2 1 0 20231110 173413)
 	     ((emacs
 	       (24 1))
 	      (cl-lib
@@ -1091,18 +1091,15 @@
 	     "Major mode for editing Haml files" tar
 	     ((:url . "https://github.com/nex3/haml-mode")
 	      (:keywords "markup" "languages" "html")
-	      (:maintainer "Natalie Weizenbaum")
-	      (:authors
-	       ("Natalie Weizenbaum"))
-	      (:commit . "fe83c65c1f002f7c36480b758727c1afbad9a1b2"))])
+	      (:commit . "a64d58df8f098f858c6c11fa1629a90969f9c7e8"))])
  (haskell-mode .
-	       [(17 4 0 20231026 160227)
+	       [(17 4 0 20231110 173437)
 		((emacs
 		  (25 1)))
 		"A Haskell editing mode" tar
 		((:url . "https://github.com/haskell/haskell-mode")
 		 (:keywords "haskell" "cabal" "ghc" "repl" "languages")
-		 (:commit . "ef3fe51f7c207db3c55b9a3a720b3af665d2e606"))])
+		 (:commit . "21d78e3f9d036ab5009ea8b6b4c09786f892ff86"))])
  (haskell-tng-mode .
 		   [(0 0 1 0 20230522 221126)
 		    ((emacs
@@ -1702,7 +1699,7 @@
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:commit . "b60efabc4a1b15d7eacaabc5bdfe6f3c20fee161"))])
  (package-lint .
-	       [(0 20 0 20231103 181024)
+	       [(0 20 0 20231110 171019)
 		((cl-lib
 		  (0 5))
 		 (emacs
@@ -1720,7 +1717,7 @@
 		 (:authors
 		  ("Steve Purcell" . "steve@sanityinc.com")
 		  ("Fanael Linithien" . "fanael4@gmail.com"))
-		 (:commit . "5eba825d657b490c320b2ea2c302b1fa0c999610"))])
+		 (:commit . "5f2ae2d7745306c761954008336028d100834821"))])
  (pacmacs .
 	  [(0 1 1 0 20220411 143014)
 	   ((emacs
@@ -1734,7 +1731,7 @@
 	     ("Codingteam" . "codingteam@conference.jabber.ru"))
 	    (:commit . "071d008ebd734f469b87597cbdd34139a92e5308"))])
  (page-break-lines .
-		   [(0 15 0 20230804 65851)
+		   [(0 15 0 20231110 173116)
 		    ((emacs
 		      (24 4)))
 		    "Display ^L page breaks as tidy horizontal lines" tar
@@ -1743,7 +1740,7 @@
 		     (:maintainer "Steve Purcell" . "steve@sanityinc.com")
 		     (:authors
 		      ("Steve Purcell" . "steve@sanityinc.com"))
-		     (:commit . "5e9ed86bb56fd076b12ae7adaf40eeaa09aed4c5"))])
+		     (:commit . "f4568ccba7cc5dc63c82ded1fdb52c6161c15a62"))])
  (paredit .
 	  [(27 -2 0 20230110 131918)
 	   nil "minor mode for editing parentheses" tar
@@ -1878,14 +1875,14 @@
 	      (:authors
 	       ("David Christiansen" . "david@davidchristiansen.dk")))])
  (racket-mode .
-	      [(1 0 20231109 110741)
+	      [(1 0 20231110 100840)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
 	       ((:url . "https://www.racket-mode.com/")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com"))
-		(:commit . "51535efa5202c422eebaff01652cea9b83bfb200"))])
+		(:commit . "24d59b1546d963c2b92f67a8efde951db90182da"))])
  (rainbow-delimiters .
 		     [(2 1 5 0 20230830 160022)
 		      nil "Highlight brackets according to their depth" tar
@@ -1918,7 +1915,7 @@
 		("Campbell Barton" . "ideasman42@gmail.com"))
 	       (:commit . "4c9002938fa0480c68e22b86c20d20cea6396ce6"))])
  (reformatter .
-	      [(0 7 0 20231106 215729)
+	      [(0 7 0 20231110 173142)
 	       ((emacs
 		 (24 3)))
 	       "Define commands which run reformatters on the current buffer" tar
@@ -1927,7 +1924,7 @@
 		(:maintainer "Steve Purcell" . "steve@sanityinc.com")
 		(:authors
 		 ("Steve Purcell" . "steve@sanityinc.com"))
-		(:commit . "66409aba066c6af314e576ae58c631951b8aae64"))])
+		(:commit . "af56cd5e47c3732f9d972fc8fd64ceca1e0bf4b7"))])
  (request .
 	  [(0 3 3 0 20230126 231738)
 	   ((emacs
@@ -2165,7 +2162,7 @@
 		("Arthur Evstifeev" . "lod@pisem.net"))
 	       (:commit . "e58417ec871d260fe47183ffe4b7e47ac09bc682"))])
  (symbol-overlay .
-		 [(4 1 0 20230729 80753)
+		 [(4 1 0 20231110 173648)
 		  ((emacs
 		    (24 3))
 		   (seq
@@ -2176,7 +2173,7 @@
 		   (:maintainer "wolray" . "wolray@foxmail.com")
 		   (:authors
 		    ("wolray" . "wolray@foxmail.com"))
-		   (:commit . "a783d7b5d8dee5ba9f5e7c00a834fbd6d645081b"))])
+		   (:commit . "029c6c3b88d12afd3da8512630b2a439d7eefc0b"))])
  (systemd .
 	  [(1 6 1 0 20230131 220207)
 	   ((emacs
