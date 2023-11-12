@@ -10895,17 +10895,17 @@
 	      (:maintainer "Noah Peart" . "noah.v.peart@gmail.com")
 	      (:url . "https://github.com/nverno/cool-mode"))])
  (copy-as-format .
-		 [(0 0 8 1 -4 20231104 1933)
+		 [(0 0 9 1 -4 20231112 1710)
 		  ((cl-lib
 		    (0 5)))
 		  "Copy buffer locations as GitHub/Slack/JIRA etc... formatted code" tar
-		  ((:commit . "d4a88544d3e89385cc401f2026e8d46ca02e7ca4")
+		  ((:commit . "b9f6f725ca9701c5a02bfb479573fdfcce2e1e30")
 		   (:authors
 		    ("Skye Shaw" . "skye.shaw@gmail.com"))
 		   (:maintainers
 		    ("Skye Shaw" . "skye.shaw@gmail.com"))
 		   (:maintainer "Skye Shaw" . "skye.shaw@gmail.com")
-		   (:keywords "github" "slack" "jira" "hipchat" "gitlab" "bitbucket" "org-mode" "pod" "rst" "asciidoc" "tools" "convenience")
+		   (:keywords "github" "slack" "jira" "telegram" "gitlab" "bitbucket" "org-mode" "pod" "rst" "asciidoc" "whatsapp" "tools" "convenience")
 		   (:url . "https://github.com/sshaw/copy-as-format"))])
  (copy-file-on-save .
 		    [(0 1 0 1 -4 20230402 1829)
@@ -43657,6 +43657,18 @@
 		("Alex Bennée" . "alex@bennee.com"))
 	       (:maintainer "Alex Bennée" . "alex@bennee.com")
 	       (:url . "https://github.com/stsquad/emacs-mark-tools"))])
+ (mark-yank .
+	    [(2 0 0 1 -4 20231105 2027)
+	     ((emacs
+	       (24 4)))
+	     "Set region to the last yank" tar
+	     ((:commit . "7207aabe9edd0872ec6d506a58b942b43926c122")
+	      (:authors
+	       ("Michael Kleehammer" . "michael@kleehammer.com"))
+	      (:maintainers
+	       ("Michael Kleehammer" . "michael@kleehammer.com"))
+	      (:maintainer "Michael Kleehammer" . "michael@kleehammer.com")
+	      (:url . "https://github.com/mkleehammer/mark-yank"))])
  (markdown-changelog .
 		     [(0 2 1 -4 20230805 1720)
 		      ((emacs
@@ -52878,7 +52890,7 @@
 		      ("Arthur Leonard Andersen" . "leoc.git@gmail.com"))
 		     (:maintainer "Arthur Leonard Andersen" . "leoc.git@gmail.com"))])
  (org-timeblock .
-		[(0 2 -1 1 -4 20231112 1328)
+		[(0 2 -1 1 -4 20231112 1748)
 		 ((emacs
 		   (28 1))
 		  (compat
@@ -52892,7 +52904,7 @@
 		  (persist
 		   (0 5)))
 		 "Interactive SVG calendar for orgmode tasks" tar
-		 ((:commit . "8704633b1505c3cda9ea8794fd2d733ff7499661")
+		 ((:commit . "72a72bad4644f7b6045403e93e99d7a362b03b9c")
 		  (:authors
 		   ("Ilya Chernyshov" . "ichernyshovvv@gmail.com"))
 		  (:maintainers
