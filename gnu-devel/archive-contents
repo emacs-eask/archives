@@ -621,7 +621,7 @@
 			("Ingo Lohmar" . "i.lohmar@gmail.com"))
 		       (:keywords "abbrev" "convenience" "matching"))])
  (compat .
-	 [(29 1 4 3 0 20231107 184238)
+	 [(29 1 4 3 0 20231112 185913)
 	  ((emacs
 	    (24 4))
 	   (seq
@@ -629,13 +629,11 @@
 	  "Emacs Lisp Compatibility Library" tar
 	  ((:url . "https://github.com/emacs-compat/compat")
 	   (:keywords "lisp" "maint")
-	   (:maintainer
-	    ("Daniel Mendler" . "mail@daniel-mendler.de")
-	    ("Compat Development" . "~pkal/compat-devel@lists.sr.ht"))
+	   (:maintainer "Compat Development" . "~pkal/compat-devel@lists.sr.ht")
 	   (:authors
 	    ("Philip Kaludercic" . "philipk@posteo.net")
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	   (:commit . "35d2ae24f7cb38e0fbd4a8a79456145014095b6e"))])
+	   (:commit . "6bed57b83afce3a352d5862b8444fd61ec9640e0"))])
  (consult .
 	  [(0 35 0 20231110 92639)
 	   ((emacs
@@ -850,7 +848,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:keywords "convenience"))])
  (denote .
-	 [(2 0 0 0 20231107 64253)
+	 [(2 1 0 0 20231112 134906)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -858,7 +856,7 @@
 	   (:maintainer "Denote Development" . "~protesilaos/denote@lists.sr.ht")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "e42f590f1f26b5d70cc72f79e2d77933f1a3f1d2"))])
+	   (:commit . "5f10fbf0197b0b51dde5fbd8916d1a881d84c534"))])
  (denote-menu .
 	      [(1 2 0 0 20230927 131718)
 	       ((emacs
@@ -1052,6 +1050,19 @@
 	     ("Chong Yidong" . "cyd@gnu.org"))
 	    (:url . "https://elpa.gnu.org/packages/docbook.html")
 	    (:commit . "9b7c2dbae38b523442f7c1155bc4e3db16a0c49f"))])
+ (drepl .
+	[(0 1 0 20231112 180047)
+	 ((emacs
+	   (29 1))
+	  (comint-mime
+	   (0 3)))
+	 "REPL protocol for the dumb terminal" tar
+	 ((:url . "https://github.com/astoff/drepl")
+	  (:keywords "languages" "processes")
+	  (:maintainer "Augusto Stoffel" . "arstoffel@gmail.com")
+	  (:authors
+	   ("Augusto Stoffel" . "arstoffel@gmail.com"))
+	  (:commit . "0f3cb40bab1ef42d080c1e2cd5eae124f7e5cf80"))])
  (dts-mode .
 	   [(1 0 0 20221221 75311)
 	    ((emacs
@@ -1230,7 +1241,7 @@
 		    ("Ihor Radchenko" . "yantar92@posteo.net"))
 		   (:commit . "703516c63ce71ec68945d48c297d294990728686"))])
  (embark .
-	 [(0 23 0 20231111 182732)
+	 [(0 23 0 20231112 53804)
 	  ((emacs
 	    (27 1))
 	   (compat
@@ -1241,9 +1252,9 @@
 	   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-	   (:commit . "b6cdce906e1def10e395354d751e2045c162c7ed"))])
+	   (:commit . "3f08fc8ede9dddad3752223e01643058594781b2"))])
  (embark-consult .
-		 [(0 8 0 20231111 182732)
+		 [(0 8 0 20231112 53804)
 		  ((emacs
 		    (27 1))
 		   (embark
@@ -1256,7 +1267,7 @@
 		   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 		   (:authors
 		    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-		   (:commit . "b6cdce906e1def10e395354d751e2045c162c7ed"))])
+		   (:commit . "3f08fc8ede9dddad3752223e01643058594781b2"))])
  (ement .
 	[(0 14 -1 0 20231111 212243)
 	 ((emacs
@@ -3705,7 +3716,7 @@
 	     (:url . "https://elpa.gnu.org/packages/sql-smie.html")
 	     (:commit . "902d88d3ec4a0e6fd0040d239634e44bc00d65b1"))])
  (srht .
-       [(0 3 0 20231111 235341)
+       [(0 3 0 20231112 134334)
 	((emacs
 	  (27 1))
 	 (plz
@@ -3716,7 +3727,7 @@
 	 (:maintainer "Aleksandr Vityazev" . "avityazev@posteo.org")
 	 (:authors
 	  ("Aleksandr Vityazev" . "avityazev@posteo.org"))
-	 (:commit . "b3bcde4d5b7d125b4d1f1d9003a68be1dedfad02"))])
+	 (:commit . "4bffcc1781c3ed54c0b42410872b26fdeb1a1ed3"))])
  (ssh-deploy .
 	     [(3 1 16 0 20230702 92809)
 	      ((emacs

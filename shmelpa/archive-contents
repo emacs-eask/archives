@@ -17124,11 +17124,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 7 1 -4 20231107 2029)
+	[(1 7 1 -4 20231112 2018)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "ce5f3e14d7c5ab21dfb3e50235bfe495808b705a")
+	 ((:commit . "f6fdcf8031e5cdf9e92c1ec77ee06f0114c66b27")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainers
@@ -27251,6 +27251,19 @@
 		 (:maintainer "Alex Schroeder" . "alex@gnu.org")
 		 (:keywords "comm" "gemini")
 		 (:url . "https://alexschroeder.ch/cgit/gemini-write"))])
+ (gemtext-mode .
+	       [(1 0 1 -4 20231029 2010)
+		((emacs
+		  (29 1)))
+		"Major mode for Gemtext-formatted text" tar
+		((:commit . "431b3b1d7c4310ef09ba16adbc870bc0af2c0e9b")
+		 (:authors
+		  ("Antoine Aubé" . "courriel@arjca.fr"))
+		 (:maintainers
+		  ("Antoine Aubé" . "courriel@arjca.fr"))
+		 (:maintainer "Antoine Aubé" . "courriel@arjca.fr")
+		 (:keywords "languages" "gemtext" "gemini")
+		 (:url . "https://sr.ht/~arjca/gemtext-mode.el/"))])
  (general .
 	  [(0 1 1 -4 20230311 1229)
 	   ((emacs
@@ -29527,11 +29540,11 @@
 		   (:keywords "gpr" "gnat" "languages" "snippets")
 		   (:url . "https://github.com/brownts/gpr-yasnippets"))])
  (gpt .
-      [(1 0 1 -4 20231108 150)
+      [(1 0 1 -4 20231112 2012)
        ((emacs
 	 (24 4)))
        "Run instruction-following language models" tar
-       ((:commit . "fb0ab4b1e95a6ba97c09ff072fc91ac7c7f22afa")
+       ((:commit . "c1091d25db420320de4b121baba99d7ac2e23932")
 	(:authors
 	 ("Andreas Stuhlmueller" . "andreas@ought.org"))
 	(:maintainers
@@ -37438,6 +37451,19 @@
 		 (:maintainers
 		  ("Stefano Barbi" . "stefanobarbi@gmail.com"))
 		 (:maintainer "Stefano Barbi" . "stefanobarbi@gmail.com"))])
+ (jack-ts-mode .
+	       [(1 0 0 1 -4 20231110 1615)
+		((emacs
+		  (29 1)))
+		"Major mode for jack buffers using tree-sitter" tar
+		((:commit . "f57f211d96608a90142619a925caeb8808e7c632")
+		 (:authors
+		  ("Noah Peart" . "noah.v.peart@gmail.com"))
+		 (:maintainers
+		  ("Noah Peart" . "noah.v.peart@gmail.com"))
+		 (:maintainer "Noah Peart" . "noah.v.peart@gmail.com")
+		 (:keywords "tree-sitter" "languages" "jack" "nand2tetris")
+		 (:url . "https://github.com/nverno/jack-ts-mode"))])
  (jade-mode .
 	    [(1 0 1 1 -4 20210908 2121)
 	     nil "Major mode for editing .jade files" tar
@@ -47059,11 +47085,11 @@
 		    (:maintainer "Robert Cochran" . "robert-git@cochranmail.com")
 		    (:url . "https://gitlab.com/RobertCochran/neato-graph-bar"))])
  (neil .
-       [(0 0 1 1 -4 20231002 1014)
+       [(0 0 1 1 -4 20231112 2006)
 	((emacs
 	  (27 1)))
 	"companion for Babashka Neil" tar
-	((:commit . "f597921dcbf4774d799be62d8fbbce7171b12c3f")
+	((:commit . "03cc51e546c2b1dd534cdc17160ffc5ff6e6e81d")
 	 (:authors
 	  ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
 	 (:maintainers
