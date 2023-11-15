@@ -575,14 +575,14 @@
 			("Clément Pit-Claudel" . "clement.pitclaudel@live.com"))
 		       (:commit . "3b2233120d33943b8af65fec6257f0c16ad3c6fd"))])
  (company .
-	  [(0 10 2 0 20231115 12252)
+	  [(0 10 2 0 20231115 182802)
 	   ((emacs
 	     (25 1)))
 	   "Modular text completion framework" tar
 	   ((:url . "http://company-mode.github.io/")
 	    (:keywords "abbrev" "convenience" "matching")
 	    (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
-	    (:commit . "06b1ebe9a1ca38740788fc98dd40f932fb3bb9a7"))])
+	    (:commit . "f1b36de47ced087c7e0d7a55be3f655ddb0adbb6"))])
  (company-ebdb .
 	       [(1 1 0 20221221 74915)
 		((company
@@ -635,7 +635,7 @@
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	   (:commit . "3809be4d24a301c78d40bd00fc15bb763e0a3a2a"))])
  (consult .
-	  [(0 35 0 20231110 92639)
+	  [(0 35 0 20231115 174657)
 	   ((emacs
 	     (27 1))
 	    (compat
@@ -644,7 +644,7 @@
 	   ((:url . "https://github.com/minad/consult")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-	    (:commit . "f36be0c05b9bea10cc7b477a7c82a196cee7c58a"))])
+	    (:commit . "d7a0415c4ff3a84b696e5ddbc2ef15d0d45c405d"))])
  (consult-recoll .
 		 [(0 8 0 20221014 200255)
 		  ((emacs
@@ -848,7 +848,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:keywords "convenience"))])
  (denote .
-	 [(2 1 0 0 20231115 61756)
+	 [(2 1 0 0 20231115 111152)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -856,7 +856,7 @@
 	   (:maintainer "Denote Development" . "~protesilaos/denote@lists.sr.ht")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "d26b50bf5840b58321675ffdc35c189a197b2a7f"))])
+	   (:commit . "4ad77f92dd6c71a701afe1f969cae54ab0cbddd3"))])
  (denote-menu .
 	      [(1 2 0 0 20230927 131718)
 	       ((emacs
@@ -1164,7 +1164,7 @@
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	      (:commit . "662495807744faed80dd31e5b5fb29af6dde7226"))])
  (eglot .
-	[(1 15 0 20231114 624)
+	[(1 15 0 20231115 41203)
 	 ((emacs
 	   (26 3))
 	  (jsonrpc
@@ -1187,7 +1187,7 @@
 	  (:maintainer "João Távora" . "joaotavora@gmail.com")
 	  (:authors
 	   ("João Távora" . "joaotavora@gmail.com"))
-	  (:commit . "7d42a76234ea5ca417915f8d5d755cc1f5aae7e5"))])
+	  (:commit . "ff1f82cbe3fa9aee354581f2798faaae7163ea44"))])
  (el-search .
 	    [(1 12 6 1 0 20221221 75346)
 	     ((emacs
@@ -1734,11 +1734,11 @@
 	     ("Damien Cassou" . "damien@cassou.me"))
 	    (:commit . "d35505abb1e38ddda61440b033ebd4decac7a25c"))])
  (gpr-mode .
-	   [(1 0 4 0 20231015 114428)
+	   [(1 0 5 0 20231115 90848)
 	    ((emacs
 	      (25 3))
 	     (wisi
-	      (4 3 0))
+	      (4 3 2))
 	     (gnat-compiler
 	      (1 0 3)))
 	    "Major mode for editing GNAT project files" tar
@@ -1746,7 +1746,7 @@
 	     (:maintainer "Stephen Leake" . "stephen_leake@member.fsf.org")
 	     (:authors
 	      ("Stephen Leake" . "stephen_leake@member.fsf.org"))
-	     (:commit . "ed12dc73272f9f77c974db0ff0290f959125224f"))])
+	     (:commit . "9ca25ec5ca871f04b4704b39fb3ba129694e02ac"))])
  (gpr-query .
 	    [(1 0 4 0 20231018 92052)
 	     ((emacs
@@ -2442,7 +2442,7 @@
 	      ("Michael Abraham Shulman" . "viritrilbia@gmail.com"))
 	     (:commit . "96906747e862449b722b6e2c741b61871894ac3a"))])
  (modus-themes .
-	       [(4 3 0 0 20231031 71656)
+	       [(4 3 0 0 20231115 130235)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
@@ -2451,7 +2451,7 @@
 		 (:maintainer "Modus-Themes Development" . "~protesilaos/modus-themes@lists.sr.ht")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		 (:commit . "ff70fd4136df589945d06de6926286d70243345b"))])
+		 (:commit . "bdb18b2ee27344e44e2a17c78524205d02d5174c"))])
  (multi-mode .
 	     [(1 14 0 20221221 80812)
 	      nil "support for multiple major modes" tar
@@ -2700,7 +2700,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "b24748093b00b37c3a572c4909f61c08fa27504f"))])
  (org .
-      [(9 7 -1 0 20231114 180747)
+      [(9 7 -1 0 20231115 92033)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2709,7 +2709,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "4758255035a18ad8fd66fd2c0a9063c376fabb0c"))])
+	(:commit . "819cd73cb4caaa407dfa88fa89dcd60096c2d41d"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs
@@ -3655,7 +3655,7 @@
 	     ("Artur Malabarba" . "emacs@endlessparentheses.com"))
 	    (:commit . "04186129f2dccf48e288639b78adeb9c0e94be54"))])
  (spacious-padding .
-		   [(0 1 0 0 20230606 175440)
+		   [(0 1 0 0 20231115 114712)
 		    ((emacs
 		      (28 1)))
 		    "Increase the padding/spacing of frames and windows" tar
@@ -3664,7 +3664,7 @@
 		     (:maintainer "Protesilaos Stavrou General Issues" . "~protesilaos/general-issues@lists.sr.ht")
 		     (:authors
 		      ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		     (:commit . "166c0a1d649025152b6e515f674cabca2ef5d816"))])
+		     (:commit . "058c2e2c317fb740ebddc222917bfd85e66fe409"))])
  (spinner .
 	  [(1 7 4 0 20220915 94959)
 	   ((emacs
@@ -4342,7 +4342,7 @@
 		  ("Wilson Snyder" . "wsnyder@wsnyder.org"))
 		 (:commit . "baf778c7caa0908789de7740aad719e168fffdf6"))])
  (vertico .
-	  [(1 4 0 20231114 131053)
+	  [(1 4 0 20231115 164627)
 	   ((emacs
 	     (27 1))
 	    (compat
@@ -4353,7 +4353,7 @@
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	    (:commit . "8cd5e5a69edf494e832446e98f28783472fba5c3"))])
+	    (:commit . "d6971cc1ef87a69cb69cb79fca423fea4ac8a76d"))])
  (vertico-posframe .
 		   [(0 7 3 0 20231115 51213)
 		    ((emacs
