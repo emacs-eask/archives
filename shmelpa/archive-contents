@@ -8420,11 +8420,11 @@
 		 (:maintainer "Michael Schuldt" . "mbschuldt@gmail.com")
 		 (:url . "https://github.com/mschuldt/code-archive"))])
  (code-cells .
-	     [(0 3 1 -4 20231118 1635)
+	     [(0 4 1 -4 20231119 2138)
 	      ((emacs
 		(27 1)))
 	      "Lightweight notebooks with support for ipynb files" tar
-	      ((:commit . "e470ea314cab37c63e223f1f31c2bd075f9ccd7b")
+	      ((:commit . "44546ca256f3da29e3ac884e3d699c8455acbd6e")
 	       (:authors
 		("Augusto Stoffel" . "arstoffel@gmail.com"))
 	       (:maintainers
@@ -15985,6 +15985,29 @@
 	      (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
 	      (:keywords "lisp" "eask")
 	      (:url . "https://github.com/emacs-eask/eask-mode"))])
+ (easky .
+	[(0 1 0 1 -4 20231113 942)
+	 ((emacs
+	   (27 1))
+	  (eask-mode
+	   (0 1 0))
+	  (eask
+	   (0 1 0))
+	  (ansi
+	   (0 4 1))
+	  (lv
+	   (0 0))
+	  (marquee-header
+	   (0 1 0)))
+	 "Control the Eask command-line interface" tar
+	 ((:commit . "8adb088b6f1edee55115b16810cbee0c21277fc3")
+	  (:authors
+	   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
+	  (:maintainers
+	   ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
+	  (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	  (:keywords "maint" "easky")
+	  (:url . "https://github.com/emacs-eask/easky"))])
  (easy-after-load .
 		  [(0 1 1 -4 20170817 1231)
 		   nil "eval-after-load for all files in a directory" tar
