@@ -63804,11 +63804,11 @@
 		       (:keywords "convenience" "lisp")
 		       (:url . "http://www.emacswiki.org/cgi-bin/wiki/download/sequential-command.el"))])
  (sequential-yank .
-		  [(0 1 1 1 -4 20231114 818)
+		  [(0 1 1 1 -4 20231120 841)
 		   ((emacs
 		     (24 4)))
 		   "Minor mode to copy and paste strings sequentially" tar
-		   ((:commit . "7d04f9ccdf3000d82b8ac8821fd3f4276ab328ce")
+		   ((:commit . "954692135d62fdcc052bfa81d9aff5fb01299f43")
 		    (:authors
 		     ("Akinori MUSHA" . "knu@iDaemons.org"))
 		    (:maintainers
@@ -68879,7 +68879,7 @@
 	 (:keywords "convenience" "emulations" "files")
 	 (:url . "https://github.com/mtk/teco.git"))])
  (telega .
-	 [(0 8 215 1 -4 20231119 2246)
+	 [(0 8 215 1 -4 20231120 912)
 	  ((emacs
 	    (27 1))
 	   (visual-fill-column
@@ -68887,7 +68887,7 @@
 	   (rainbow-identifiers
 	    (0 2 2)))
 	  "Telegram client (unofficial)" tar
-	  ((:commit . "528e6046151ee4395b4eafc6bef8f01dd9a1e00d")
+	  ((:commit . "ed0c25e68da40c9642e24e903f55534f4317dc7e")
 	   (:authors
 	    ("Zajcev Evgeny" . "zevlg@yandex.ru"))
 	   (:maintainers
@@ -75968,11 +75968,13 @@
 	     (:keywords "faces" "games" "languages" "ydk" "yugioh" "yu-gi-oh")
 	     (:url . "https://github.com/jacksonrayhamilton/ydk-mode"))])
  (yeetube .
-	  [(2 0 7 1 -4 20231108 1016)
+	  [(2 0 7 1 -4 20231120 830)
 	   ((emacs
-	     (27 2)))
+	     (27 2))
+	    (compat
+	     (29 1 4 2)))
 	   "YouTube Front End" tar
-	   ((:commit . "cca40d2020ba45b0113d4a5d6a5c26995e07d83d")
+	   ((:commit . "38a43ae1fb133daac4e8115a9ad794345dacd73c")
 	    (:authors
 	     ("Thanos Apollo" . "public@thanosapollo.org"))
 	    (:maintainers
