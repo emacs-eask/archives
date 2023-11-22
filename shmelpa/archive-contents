@@ -47172,11 +47172,11 @@
 	    (:maintainer "jaypei" . "jaypei97159@gmail.com")
 	    (:url . "https://github.com/jaypei/emacs-neotree"))])
  (nerd-icons .
-	     [(0 1 0 1 -4 20231115 1110)
+	     [(0 1 0 1 -4 20231122 838)
 	      ((emacs
 		(24 3)))
 	      "Emacs Nerd Font Icons Library" tar
-	      ((:commit . "cfda588dc1e865a8a121b9071f3720fd4937492b")
+	      ((:commit . "e109d09b95706bb93c821b1229ca09cf00195690")
 	       (:authors
 		("Hongyu Ding <rainstormstudio@yahoo.com>, Vincent Zhang" . "seagle0128@gmail.com"))
 	       (:maintainers
@@ -49725,13 +49725,13 @@
 	      (:keywords "octopress" "blog")
 	      (:url . "https://github.com/aaronbieber/octopress.el"))])
  (oer-reveal .
-	     [(4 12 0 1 -4 20231121 1253)
+	     [(4 12 1 1 -4 20231122 820)
 	      ((emacs
 		(24 4))
 	       (org-re-reveal
 		(3 22 0)))
 	      "OER with reveal.js, plugins, and org-re-reveal" tar
-	      ((:commit . "cb5a82dc0d5bb9f2a24aff40b03e663d371eaf91")
+	      ((:commit . "8585201444b3c7bfdea38b61a133ee4940162ec6")
 	       (:authors
 		("Jens Lechtenbörger"))
 	       (:maintainers
@@ -61205,11 +61205,11 @@
 	   (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk")
 	   (:keywords "convenience"))])
  (reformatter .
-	      [(0 7 1 -4 20230804 648)
+	      [(0 8 1 -4 20231122 838)
 	       ((emacs
 		 (24 3)))
 	       "Define commands which run reformatters on the current buffer" tar
-	       ((:commit . "bfe3f1c6ece952d39921db16f601123bdd1748ab")
+	       ((:commit . "ebea79504b40fecb150caf8c39621146164f997e")
 		(:authors
 		 ("Steve Purcell" . "steve@sanityinc.com"))
 		(:maintainers
@@ -71593,6 +71593,26 @@
 	    ("DarkSun" . "lujun9972@gmail.com"))
 	   (:maintainer "DarkSun" . "lujun9972@gmail.com")
 	   (:keywords "lisp" "url" "image"))])
+ (uiua-mode .
+	    [(0 0 5 1 -4 20231121 1924)
+	     ((emacs
+	       (27 1))
+	      (reformatter
+	       (0 7)))
+	     "Uiua integration" tar
+	     ((:commit . "c156f8ec6ac2fe1da95f4fcc981c8f07ea32b20b")
+	      (:keywords "languages" "uiua")
+	      (:url . "https://github.com/crmsnbleyd/uiua-mode"))])
+ (uiua-ts-mode .
+	       [(0 0 5 1 -4 20231121 1924)
+		((emacs
+		  (29 1))
+		 (uiua-mode
+		  (0 0 5)))
+		"Uiua treesiter mode" tar
+		((:commit . "c156f8ec6ac2fe1da95f4fcc981c8f07ea32b20b")
+		 (:keywords "languages" "uiua")
+		 (:url . "https://github.com/crmsnbleyd/uiua-mode"))])
  (ujelly-theme .
 	       [(1 2 9 1 -4 20180214 1624)
 		nil "Ujelly theme for GNU Emacs 24 (deftheme)" tar
