@@ -1716,7 +1716,7 @@
 	(:keywords "convenience" "usability" "completion")
 	(:url . "http://github.com/DarwinAwardWinner/amx/"))])
  (anaconda-mode .
-		[(0 1 15 1 -4 20230821 2131)
+		[(0 1 16 1 -4 20231123 1806)
 		 ((emacs
 		   (25 1))
 		  (pythonic
@@ -1728,7 +1728,7 @@
 		  (f
 		   (0 16 2)))
 		 "Code navigation, documentation lookup and completion for Python" tar
-		 ((:commit . "9dbd65b034cef519c01f63703399ae59651f85ca")
+		 ((:commit . "92a6295622df7fae563d6b599e2dc8640e940ddf")
 		  (:authors
 		   ("Artem Malyshev" . "proofit404@gmail.com"))
 		  (:maintainers
@@ -7954,7 +7954,7 @@
 		 (:maintainer "jpe90" . "eskinjp@gmail.com")
 		 (:url . "https://github.com/jpe90/emacs-deps-new"))])
  (clj-refactor .
-	       [(3 10 0 1 -4 20231116 525)
+	       [(3 11 0 1 -4 20231124 724)
 		((emacs
 		  (26 1))
 		 (seq
@@ -7966,17 +7966,17 @@
 		 (multiple-cursors
 		  (1 2 2))
 		 (clojure-mode
-		  (5 17 0))
+		  (5 18 0))
 		 (cider
-		  (1 7 0))
+		  (1 11 1))
 		 (parseedn
-		  (1 1 0))
+		  (1 2 0))
 		 (inflections
 		  (2 6))
 		 (hydra
 		  (0 13 2)))
 		"A collection of commands for refactoring Clojure code" tar
-		((:commit . "05e90bd9a0f24027011aab1bf041c16a24797e0c")
+		((:commit . "0a2a6cbc2e29177f4f55730637a357433a03fa38")
 		 (:authors
 		  ("Magnar Sveen" . "magnars@gmail.com")
 		  ("Lars Andersen" . "expez@expez.com")
@@ -8150,22 +8150,22 @@
 			     ((:commit . "6741bf65cf9b9bc896ab1cc3c384573e8ffe5f96")
 			      (:url . "https://github.com/p3r7/clojure-essential-ref"))])
  (clojure-mode .
-	       [(5 18 0 1 -4 20231105 1254)
+	       [(5 18 1 1 -4 20231124 732)
 		((emacs
 		  (25 1)))
 		"Major mode for Clojure code" tar
-		((:commit . "481ca480e8b7b6c90881f8bd8434addab1d33778")
+		((:commit . "25d713a67d8e0209ee74bfc0153fdf677697b43f")
 		 (:maintainers
 		  ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 		 (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 		 (:keywords "languages" "clojure" "clojurescript" "lisp")
 		 (:url . "https://github.com/clojure-emacs/clojure-mode"))])
  (clojure-mode-extra-font-locking .
-				  [(3 0 0 1 -4 20231018 922)
+				  [(3 0 0 1 -4 20231124 732)
 				   ((clojure-mode
 				     (3 0)))
 				   "Extra font-locking for Clojure mode" tar
-				   ((:commit . "525fc1b131b1fc537aa82d83d9eb2ea833cface6")
+				   ((:commit . "25d713a67d8e0209ee74bfc0153fdf677697b43f")
 				    (:authors
 				     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 				    (:maintainers
@@ -42295,7 +42295,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20231120 1519)
+	   [(8 0 1 1 -4 20231124 833)
 	    ((emacs
 	      (27 1))
 	     (dash
@@ -42313,7 +42313,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "d441f3d268a31a4a514af2db506a5eec47ee617d")
+	    ((:commit . "60bdeab88ee9fd9992abdfc9b2e2a98852672be4")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainers
@@ -45445,11 +45445,11 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(4 3 0 1 -4 20231118 616)
+	       [(4 3 0 1 -4 20231124 814)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "fef91168712d208dc3b692d59c8ad3a12f2299ca")
+		((:commit . "b7b60365fbf848622b49ba59f5c7a2dbc6a47f52")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainers
@@ -73947,11 +73947,11 @@
 			(:keywords "html" "auto-complete" "company")
 			(:url . "https://github.com/osv/web-completion-data"))])
  (web-mode .
-	   [(17 3 15 1 -4 20231025 1927)
+	   [(17 3 15 1 -4 20231124 833)
 	    ((emacs
 	      (23 1)))
 	    "major mode for editing web templates" tar
-	    ((:commit . "848fce94de202541cd3fcd35e9c9d22783e9e828")
+	    ((:commit . "c40fdcc91ed4bc1773531be3b6bfcbb9b1a0303c")
 	     (:authors
 	      ("François-Xavier Bois"))
 	     (:maintainers
