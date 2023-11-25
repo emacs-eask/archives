@@ -70495,6 +70495,19 @@
 	       (:maintainer "Randy Morris" . "randy.morris@archlinux.us")
 	       (:keywords "comm" "terminals")
 	       (:url . "https://github.com/randymorris/tramp-term.el"))])
+ (transducers .
+	      [(1 0 0 1 -4 20231120 348)
+	       ((emacs
+		 (28 1)))
+	       "Ergonomic, efficient data processing" tar
+	       ((:commit . "657c8074b0d98bb191434c9bf074cf039105ac3a")
+		(:authors
+		 ("Colin Woodbury" . "colin@fosskers.ca"))
+		(:maintainers
+		 ("Colin Woodbury" . "colin@fosskers.ca"))
+		(:maintainer "Colin Woodbury" . "colin@fosskers.ca")
+		(:keywords "lisp")
+		(:url . "https://git.sr.ht/~fosskers/transducers.el"))])
  (transfer-sh .
 	      [(2 1 1 -4 20200601 1708)
 	       ((emacs
@@ -70815,13 +70828,13 @@
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs"))])
  (treebundel .
-	     [(0 1 0 1 -4 20231007 1424)
+	     [(0 1 0 1 -4 20231125 1934)
 	      ((emacs
 		(27 1))
 	       (compat
 		(29 1 4 2)))
 	      "Bundle related git-worktrees together" tar
-	      ((:commit . "0e63d0b3c9029b63b3e446e6317bd7d366c0436a")
+	      ((:commit . "8a52d0174d1f03a18b73904bccf3f28c35de74c2")
 	       (:authors
 		("Ben Whitley"))
 	       (:maintainers
