@@ -7640,7 +7640,7 @@
 		   (:maintainer "Bruce D'Arcus" . "bdarcus@gmail.com")
 		   (:url . "https://github.com/emacs-citar/citar-org-roam"))])
  (citeproc .
-	   [(0 9 3 1 -4 20230228 1414)
+	   [(0 9 3 1 -4 20231126 851)
 	    ((emacs
 	      (26))
 	     (dash
@@ -7656,9 +7656,11 @@
 	     (org
 	      (9))
 	     (parsebib
-	      (2 4)))
+	      (2 4))
+	     (compat
+	      (28 1)))
 	    "A CSL 1.0.2 Citation Processor" tar
-	    ((:commit . "290320fc579f886255f00d7268600df7fa5cc7e8")
+	    ((:commit . "b704e7d72e9c4d7d221e2ac92ce8e203698e3d2d")
 	     (:authors
 	      ("András Simonyi" . "andras.simonyi@gmail.com"))
 	     (:maintainers
@@ -10974,13 +10976,13 @@
 		  (:keywords "comment" "coq" "proof")
 		  (:url . "http://github.com/ailrun/coq-commenter"))])
  (corfu .
-	[(0 38 1 -4 20231124 1256)
+	[(0 38 1 -4 20231126 952)
 	 ((emacs
 	   (27 1))
 	  (compat
-	   (29 1 4 2)))
+	   (29 1 4 4)))
 	 "COmpletion in Region FUnction" tar
-	 ((:commit . "007437dc81b41d7165cf1d84772e602b6193726c")
+	 ((:commit . "2d860cff5e9e89e7c66179f1bf6007b6bf51396d")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	  (:maintainers
