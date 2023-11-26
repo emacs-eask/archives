@@ -669,18 +669,18 @@
 		     (:authors
 		      ("Jackson Ray Hamilton" . "jackson@jacksonrayhamilton.com")))])
  (corfu .
-	[(0 38 0 20231124 125646)
+	[(0 38 0 20231126 95200)
 	 ((emacs
 	   (27 1))
 	  (compat
-	   (29 1 4 2)))
+	   (29 1 4 4)))
 	 "COmpletion in Region FUnction" tar
 	 ((:url . "https://github.com/minad/corfu")
 	  (:keywords "abbrev" "convenience" "matching" "completion" "wp")
 	  (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	  (:commit . "007437dc81b41d7165cf1d84772e602b6193726c"))])
+	  (:commit . "2d860cff5e9e89e7c66179f1bf6007b6bf51396d"))])
  (coterm .
 	 [(1 6 0 20221015 160420)
 	  ((emacs
@@ -848,7 +848,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:keywords "convenience"))])
  (denote .
-	 [(2 1 1 0 20231123 131336)
+	 [(2 1 1 0 20231126 122522)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -856,7 +856,7 @@
 	   (:maintainer "Denote Development" . "~protesilaos/denote@lists.sr.ht")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "bf8af068e6fdc020e2a0f1cb7f93705153470a24"))])
+	   (:commit . "e3a7572feaee8ac4822b9d239774e86bd838ab4b"))])
  (denote-menu .
 	      [(1 2 0 0 20230927 131718)
 	       ((emacs
@@ -1888,7 +1888,7 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:commit . "54e9db2b023e03b6f6b46aeec48ea74fd51d4e11"))])
  (hyperbole .
-	    [(8 0 1 -1 0 20231121 124020)
+	    [(8 0 1 -1 0 20231126 152054)
 	     ((emacs
 	       (27 0)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
@@ -1897,7 +1897,7 @@
 	      (:maintainer
 	       ("Bob Weiner" . "rsw@gnu.org")
 	       ("Mats Lidell" . "matsl@gnu.org"))
-	      (:commit . "c371a2dae9da86c1f9a3b03a35a599ccc6e2d7ba"))])
+	      (:commit . "9d596dcc72b69c9fc237eaace39a464d3c3ee131"))])
  (ilist .
 	[(0 1 0 20220115 130125)
 	 nil "Display a list in an ibuffer way." tar
@@ -2120,18 +2120,18 @@
 	  (:url . "https://elpa.gnu.org/packages/jumpc.html")
 	  (:commit . "ab83a2a5416f83405361e25df8cbd8aab35cb8b3"))])
  (kind-icon .
-	    [(0 2 0 0 20230926 75840)
+	    [(0 2 1 0 20231126 131913)
 	     ((emacs
 	       (27 1))
 	      (svg-lib
-	       (0)))
+	       (0 2 8)))
 	     "Completion kind icons" tar
 	     ((:url . "https://github.com/jdtsmith/kind-icon")
-	      (:keywords "completion")
+	      (:keywords "completion" "convenience")
 	      (:maintainer "J.D. Smith" . "jdtsmith@gmail.com")
 	      (:authors
 	       ("J.D. Smith" . "jdtsmith@gmail.com"))
-	      (:commit . "c5efb8d03398893eb0e5bf555961c0edd41ee906"))])
+	      (:commit . "f3ada62160bc2a9fb351857c6546e93031b9bcce"))])
  (kiwix .
 	[(1 1 5 0 20220316 84759)
 	 ((emacs
@@ -2320,7 +2320,7 @@
 	(:url . "https://elpa.gnu.org/packages/map.html")
 	(:commit . "7caa3f5499b1ca4b6d66c1655a4e0d6903755679"))])
  (marginalia .
-	     [(1 3 0 20231028 90751)
+	     [(1 3 0 20231126 93239)
 	      ((emacs
 		(27 1))
 	       (compat
@@ -2334,7 +2334,7 @@
 	       (:authors
 		("Omar Antolín Camarena" . "omar@matem.unam.mx")
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
-	       (:commit . "e4ff0838da33bf5102ee009ff28d541f0b51c9a3"))])
+	       (:commit . "785c436ebe4a8475ac04f70ed59f8c7a87421594"))])
  (markchars .
 	    [(0 2 2 0 20221221 80510)
 	     nil "Mark chars fitting certain characteristics" tar
@@ -2963,13 +2963,14 @@
 	       ("Christian Johansson" . "christian@cvj.se"))
 	      (:commit . "378f886bdba484805e105e340e1880cc9ab7f3bc"))])
  (pinentry .
-	   [(0 1 0 20180116 131526)
+	   [(0 1 0 20231126 141402)
 	    nil "GnuPG Pinentry server implementation" tar
 	    ((:keywords "gnupg")
 	     (:maintainer "Daiki Ueno" . "ueno@gnu.org")
 	     (:authors
 	      ("Daiki Ueno" . "ueno@gnu.org"))
-	     (:url . "https://elpa.gnu.org/packages/pinentry.html"))])
+	     (:url . "https://elpa.gnu.org/packages/pinentry.html")
+	     (:commit . "a6441224da04656370e993e2616185cc31afaff9"))])
  (plz .
       [(0 8 -1 0 20230709 214633)
        ((emacs
@@ -3742,7 +3743,7 @@
 		("Christian Johansson" . "christian@cvj.se"))
 	       (:commit . "95fb076c9b657c5f1bfad3ee5bf1f8691c50d428"))])
  (standard-themes .
-		  [(1 2 0 0 20231126 75420)
+		  [(1 2 0 0 20231126 110057)
 		   ((emacs
 		     (27 1)))
 		   "Like the default theme but more consistent" tar
@@ -3751,7 +3752,7 @@
 		    (:maintainer "Standard-Themes Development" . "~protesilaos/standard-themes@lists.sr.ht")
 		    (:authors
 		     ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		    (:commit . "9b29031e98e6d7292d4c6a2066151b47071ac14a"))])
+		    (:commit . "20e0c3e014af03bfb19ab67d669d52f5c18fbdda"))])
  (stream .
 	 [(2 3 0 0 20230908 74447)
 	  ((emacs
@@ -4355,18 +4356,18 @@
 		  ("Wilson Snyder" . "wsnyder@wsnyder.org"))
 		 (:commit . "baf778c7caa0908789de7740aad719e168fffdf6"))])
  (vertico .
-	  [(1 4 0 20231119 191143)
+	  [(1 4 0 20231126 95058)
 	   ((emacs
 	     (27 1))
 	    (compat
-	     (29 1 4 3)))
+	     (29 1 4 4)))
 	   "VERTical Interactive COmpletion" tar
 	   ((:url . "https://github.com/minad/vertico")
 	    (:keywords "convenience" "files" "matching" "completion")
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	    (:commit . "0115a6e01d143e5b6ce00a6ce8eb9c8a309e4067"))])
+	    (:commit . "d9eaa3043907cb266e23f2cf3f70032230e0392b"))])
  (vertico-posframe .
 		   [(0 7 5 0 20231121 23902)
 		    ((emacs
