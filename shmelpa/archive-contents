@@ -18462,13 +18462,13 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(0 23 1 -4 20231112 1138)
+	 [(0 23 1 -4 20231129 1548)
 	  ((emacs
 	    (27 1))
 	   (compat
 	    (29 1 4 0)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "3f08fc8ede9dddad3752223e01643058594781b2")
+	  ((:commit . "7cee898bac30dc9505394d9421e0c5f066901f25")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	   (:maintainers
@@ -18477,15 +18477,17 @@
 	   (:keywords "convenience")
 	   (:url . "https://github.com/oantolin/embark"))])
  (embark-consult .
-		 [(0 8 1 -4 20231126 305)
+		 [(0 8 1 -4 20231129 1534)
 		  ((emacs
 		    (27 1))
+		   (compat
+		    (29 1 4 0))
 		   (embark
-		    (0 20))
+		    (0 23))
 		   (consult
-		    (0 17)))
+		    (0 35)))
 		  "Consult integration for Embark" tar
-		  ((:commit . "c98bf2e9b57e273d9c9759abfc373bea98cf54f9")
+		  ((:commit . "38922a246271488a203511a47ac954096d8071ac")
 		   (:authors
 		    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 		   (:maintainers
@@ -70534,7 +70536,7 @@
 		(:keywords "comm" "convenience" "files")
 		(:url . "https://gitlab.com/tuedachu/transfer-sh.el"))])
  (transient .
-	    [(0 5 0 1 -4 20231128 1536)
+	    [(0 5 0 1 -4 20231129 1714)
 	     ((emacs
 	       (26 1))
 	      (compat
@@ -70542,7 +70544,7 @@
 	      (seq
 	       (2 24)))
 	     "Transient commands" tar
-	     ((:commit . "9050a0d058041e5e54d4e16359fd061e779c2ecb")
+	     ((:commit . "5f2cfc9f73e756fb337df70909fcd3d0bce56911")
 	      (:authors
 	       ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	      (:maintainers
