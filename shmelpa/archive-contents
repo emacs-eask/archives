@@ -1045,13 +1045,13 @@
 	(:keywords "data" "tools")
 	(:url . "https://github.com/Sauermann/emacs-aes"))])
  (affe .
-       [(0 7 1 -4 20230411 441)
+       [(0 8 1 -4 20231201 17)
 	((emacs
 	  (27 1))
 	 (consult
-	  (0 33)))
+	  (1 0)))
 	"Asynchronous Fuzzy Finder for Emacs" tar
-	((:commit . "ae3169ac4bbd64520d165b4ce4806b7a34b972dc")
+	((:commit . "caec8551df2ce09868af5147ef33c065f81ff4b5")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainers
@@ -6260,13 +6260,13 @@
 	    (:keywords "convenience" "writing")
 	    (:url . "https://github.com/kisaragi-hiu/cangjie.el"))])
  (cape .
-       [(0 17 1 -4 20231127 1912)
+       [(1 0 1 -4 20231130 2353)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 4 2)))
 	"Completion At Point Extensions" tar
-	((:commit . "d63052ac2a3d8193d5df60568b74b47c4d4fed50")
+	((:commit . "18a30f48bb8754421cb10dad99e0a406173d4551")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainers
@@ -10414,13 +10414,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(0 35 1 -4 20231130 213)
+	  [(1 0 1 -4 20231201 0)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (29 1 4 1)))
 	   "Consulting completing-read" tar
-	   ((:commit . "49144b6a1f4ce639093c181402a5b29e6eeebd3b")
+	   ((:commit . "10a1d7012af5186e6462f44312724359d33748c3")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainers
@@ -10542,15 +10542,15 @@
 		  (:keywords "tools" "completion" "lsp")
 		  (:url . "https://github.com/mohkale/consult-eglot"))])
  (consult-flycheck .
-		   [(0 9 1 -4 20230702 1115)
+		   [(1 0 1 -4 20231201 12)
 		    ((emacs
 		      (27 1))
 		     (consult
-		      (0 32))
+		      (1 0))
 		     (flycheck
 		      (32)))
 		    "Provides the command `consult-flycheck'" tar
-		    ((:commit . "3f2a7c17cc2fe64e0c07e3bf90e33c885c0d7062")
+		    ((:commit . "0662839aa5db429130f5ffd15c14d4a980b2e694")
 		     (:authors
 		      ("Daniel Mendler and Consult contributors"))
 		     (:maintainers
@@ -10976,13 +10976,13 @@
 		  (:keywords "comment" "coq" "proof")
 		  (:url . "http://github.com/ailrun/coq-commenter"))])
  (corfu .
-	[(0 38 1 -4 20231126 952)
+	[(1 0 1 -4 20231130 2358)
 	 ((emacs
 	   (27 1))
 	  (compat
 	   (29 1 4 4)))
 	 "COmpletion in Region FUnction" tar
-	 ((:commit . "2d860cff5e9e89e7c66179f1bf6007b6bf51396d")
+	 ((:commit . "24dccafeea114b1aec7118f2a8405b46aa0051e0")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	  (:maintainers
@@ -34882,7 +34882,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 3 -1 1 -4 20231130 858)
+	     [(0 3 -1 1 -4 20231201 51)
 	      ((emacs
 		(28 1))
 	       (map
@@ -34898,7 +34898,7 @@
 	       (transient
 		(0 5 0)))
 	      "P2P filesystem" tar
-	      ((:commit . "36fe1c951921eaded9353c75c6585fc1225e87b0")
+	      ((:commit . "5fb03b3b3e2ca69cc23cac554dddf22693498bda")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
 	       (:maintainers
@@ -37922,13 +37922,13 @@
 		 ("Florian Mounier aka paradoxxxzero"))
 		(:maintainer "Florian Mounier aka paradoxxxzero"))])
  (jinx .
-       [(0 9 1 -4 20231124 1250)
+       [(1 0 1 -4 20231130 2349)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 4 0)))
 	"Enchanted Spell Checker" tar
-	((:commit . "a3901127d82cc61768104c71ee58bcacd8fb8d29")
+	((:commit . "2533991bfe9da75aa6adad73770fe5b196ea0bb1")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainers
@@ -43705,13 +43705,13 @@
 	      (:keywords "docker")
 	      (:url . "https://github.com/nlamirault/marcopolo"))])
  (marginalia .
-	     [(1 3 1 -4 20231130 214)
+	     [(1 4 1 -4 20231130 2350)
 	      ((emacs
 		(27 1))
 	       (compat
 		(29 1 4 0)))
 	      "Enrich existing commands with completion annotations" tar
-	      ((:commit . "8e2f682fd06dac24451c4349b18410fc8d6b4f9d")
+	      ((:commit . "270d0d9bf766900e605883567b5131ae739918be")
 	       (:authors
 		("Omar Antolín Camarena <omar@matem.unam.mx>, Daniel Mendler" . "mail@daniel-mendler.de"))
 	       (:maintainers
@@ -61062,13 +61062,13 @@
 	  (:keywords "lisp")
 	  (:url . "https://github.com/ROCKTAKEY/recur"))])
  (recursion-indicator .
-		      [(0 4 1 -4 20230924 818)
+		      [(1 0 1 -4 20231201 8)
 		       ((emacs
 			 (27 1))
 			(compat
-			 (29 1 4 2)))
+			 (29 1 4 4)))
 		       "Recursion indicator" tar
-		       ((:commit . "52b40acd95d1be370cad90805acd6f1a9a02f596")
+		       ((:commit . "d100b78f9ef922913c1619c2a9528d5c5972b457")
 			(:authors
 			 ("Daniel Mendler" . "mail@daniel-mendler.de"))
 			(:maintainers
