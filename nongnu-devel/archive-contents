@@ -225,13 +225,13 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "33770dec73138909714711b05a63e79da5a19ccd"))])
  (cider .
-	[(1 13 0 -4 0 20231202 135017)
+	[(1 13 0 -4 0 20231204 84330)
 	 ((emacs
 	   (26))
 	  (clojure-mode
 	   (5 18 1))
 	  (parseedn
-	   (1 2 0))
+	   (1 2 1))
 	  (queue
 	   (0 2))
 	  (spinner
@@ -253,7 +253,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "511b242ed25cb42184f2d2109543350f641e26d2"))])
+	  (:commit . "25c51fd4b1246801ba3fa15c57b44d860772417c"))])
  (clojure-mode .
 	       [(5 18 1 0 20231124 172141)
 		((emacs
@@ -942,17 +942,17 @@
 		   ("Jeronimo Pellegrini" . "(j_p@aleph0.info)"))
 		  (:commit . "c634fc2049f1616b772f5e9cb78c6171dcc4c34d"))])
  (git-commit .
-	     [(3 3 0 50 -4 0 20231202 155118)
+	     [(3 3 0 50 -4 0 20231204 190347)
 	      ((emacs
 		(25 1))
 	       (compat
-		(29 1 3 4))
+		(29 1 4 4))
 	       (seq
 		(2 24))
 	       (transient
-		(0 3 6))
+		(0 5 0))
 	       (with-editor
-		(3 0 5)))
+		(3 3 2)))
 	      "Edit Git commit messages" tar
 	      ((:url . "https://github.com/magit/magit")
 	       (:keywords "git" "tools" "vc")
@@ -962,7 +962,7 @@
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
 		("Florian Ragwitz" . "rafl@debian.org")
 		("Marius Vollmer" . "marius.vollmer@gmail.com"))
-	       (:commit . "5ad367d7a3094fb6098c1d8e457ed80630ed3e5e"))])
+	       (:commit . "f25d10351fc1d44282dad45caaf99cb19913eda4"))])
  (git-modes .
 	    [(1 4 2 0 20231101 232321)
 	     ((emacs
@@ -1111,7 +1111,7 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (helm .
-       [(3 9 6 0 20231128 51325)
+       [(3 9 6 0 20231130 102832)
 	((helm-core
 	  (3 9 6))
 	 (wfnames
@@ -1123,9 +1123,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "96aad023cb12e995e92763195086ccee3aa5a141"))])
+	 (:commit . "e9cc7a80d0c01d6714400e662136733af7ddeee3"))])
  (helm-core .
-	    [(3 9 6 0 20231128 51325)
+	    [(3 9 6 0 20231130 102832)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1135,7 +1135,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "96aad023cb12e995e92763195086ccee3aa5a141"))])
+	      (:commit . "e9cc7a80d0c01d6714400e662136733af7ddeee3"))])
  (highlight-parentheses .
 			[(2 1 1 0 20220408 84538)
 			 ((emacs
@@ -1381,11 +1381,11 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "0b04a89f698c335c9ea492553470a8d45c113edd"))])
  (magit .
-	[(3 3 0 50 -4 0 20231202 155118)
+	[(3 3 0 50 -4 0 20231204 190347)
 	 ((emacs
 	   (25 1))
 	  (compat
-	   (29 1 3 4))
+	   (29 1 4 4))
 	  (dash
 	   (2 19 1))
 	  (git-commit
@@ -1395,9 +1395,9 @@
 	  (seq
 	   (2 24))
 	  (transient
-	   (0 3 6))
+	   (0 5 0))
 	  (with-editor
-	   (3 0 5)))
+	   (3 3 2)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
 	  (:keywords "git" "tools" "vc")
@@ -1407,13 +1407,13 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	  (:commit . "5ad367d7a3094fb6098c1d8e457ed80630ed3e5e"))])
+	  (:commit . "f25d10351fc1d44282dad45caaf99cb19913eda4"))])
  (magit-section .
-		[(3 3 0 50 -4 0 20231202 155118)
+		[(3 3 0 50 -4 0 20231204 190347)
 		 ((emacs
 		   (25 1))
 		  (compat
-		   (29 1 3 4))
+		   (29 1 4 4))
 		  (dash
 		   (2 19 1))
 		  (seq
@@ -1424,7 +1424,7 @@
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
-		  (:commit . "5ad367d7a3094fb6098c1d8e457ed80630ed3e5e"))])
+		  (:commit . "f25d10351fc1d44282dad45caaf99cb19913eda4"))])
  (markdown-mode .
 		[(2 7 -3 0 20231130 54930)
 		 ((emacs
@@ -2468,14 +2468,14 @@
 	      (:authors
 	       ("Le Wang")))])
  (xah-fly-keys .
-	       [(24 18 20231124130215 0 20231124 130408)
+	       [(24 19 20231204080156 0 20231204 80602)
 		((emacs
 		  (27)))
 		"ergonomic modal keybinding minor mode." tar
 		((:url . "http://xahlee.info/emacs/misc/xah-fly-keys.html")
 		 (:keywords "convenience" "vi" "vim" "ergoemacs" "keybinding")
 		 (:maintainer "Xah Lee" . "xah@xahlee.org")
-		 (:commit . "770b9dc860cb0b58c80136c94ba39762143a3da7"))])
+		 (:commit . "e81f8143e9f7b8e55fa549ec6113048e4959b96e"))])
  (xkcd .
        [(1 1 0 20220503 110939)
 	((json
