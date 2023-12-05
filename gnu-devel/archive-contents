@@ -575,14 +575,14 @@
 			("Clément Pit-Claudel" . "clement.pitclaudel@live.com"))
 		       (:commit . "3b2233120d33943b8af65fec6257f0c16ad3c6fd"))])
  (company .
-	  [(0 10 2 0 20231128 162500)
+	  [(0 10 2 0 20231205 5520)
 	   ((emacs
 	     (25 1)))
 	   "Modular text completion framework" tar
 	   ((:url . "http://company-mode.github.io/")
 	    (:keywords "abbrev" "convenience" "matching")
 	    (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
-	    (:commit . "ed46a616ab9906fd43a630479b6a6c3f79e606f0"))])
+	    (:commit . "73edf6b7fbf4824580fe494728e35c1f873c66df"))])
  (company-ebdb .
 	       [(1 1 0 20221221 74915)
 		((company
@@ -790,6 +790,13 @@
 		  ("Simen Heggestøyl" . "simenheg@gmail.com"))
 		 (:url . "https://elpa.gnu.org/packages/cycle-quotes.html")
 		 (:commit . "c1ef993f8c66fec71b10d70eb7a2cd0c416aaa12"))])
+ (dape .
+       [(0 2 0 20231204 215554)
+	((emacs
+	  (29 1)))
+	"Debug Adapter Protocol for Emacs" tar
+	((:url . "https://github.com/svaante/dape")
+	 (:commit . "b52882f627f29e96278b152b567c5c7bcab5bbce"))])
  (darkroom .
 	   [(0 3 0 20200507 173652)
 	    ((cl-lib
@@ -848,7 +855,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:keywords "convenience"))])
  (denote .
-	 [(2 1 1 0 20231204 44050)
+	 [(2 1 1 0 20231205 64123)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -856,7 +863,7 @@
 	   (:maintainer "Denote Development" . "~protesilaos/denote@lists.sr.ht")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "f1a942f2e7043dc07a338e0dcf06e9c63a3de666"))])
+	   (:commit . "a44b129601c226539acb4938f532f143bdaa2637"))])
  (denote-menu .
 	      [(1 2 0 0 20230927 131718)
 	       ((emacs
@@ -1142,7 +1149,7 @@
 	       ("Markus Triska" . "triska@metalevel.at"))
 	      (:commit . "cfcdf9e42821d246b7fbc84877aa4ecacc184a1c"))])
  (eev .
-      [(20230127 0 20231203 1626)
+      [(20230127 0 20231205 22631)
        ((emacs
 	 (24 4)))
        "Support for e-scripts (eepitch blocks, elisp hyperlinks, etc)" tar
@@ -1151,9 +1158,9 @@
 	(:maintainer "Eduardo Ochs" . "eduardoochs@gmail.com")
 	(:authors
 	 ("Eduardo Ochs" . "eduardoochs@gmail.com"))
-	(:commit . "c4a895a4c136eba1e99d57219bffdf736fe0cc82"))])
+	(:commit . "bd9a806d166664fd59fcdfb6861a1e4e76f3d896"))])
  (ef-themes .
-	    [(1 4 0 0 20231124 82620)
+	    [(1 4 0 0 20231205 64730)
 	     ((emacs
 	       (27 1)))
 	     "Colorful and legible themes" tar
@@ -1162,7 +1169,7 @@
 	      (:maintainer "Ef-Themes Development" . "~protesilaos/ef-themes@lists.sr.ht")
 	      (:authors
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	      (:commit . "0a2f0078b009eb3b90b520e3c9a5f658c159b33d"))])
+	      (:commit . "2af428e558c365da70912a3cc3995c7ca0e464c7"))])
  (eglot .
 	[(1 15 0 20231128 183309)
 	 ((emacs
@@ -2444,7 +2451,7 @@
 	      ("Michael Abraham Shulman" . "viritrilbia@gmail.com"))
 	     (:commit . "96906747e862449b722b6e2c741b61871894ac3a"))])
  (modus-themes .
-	       [(4 3 0 0 20231124 81421)
+	       [(4 3 0 0 20231205 40033)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
@@ -2453,7 +2460,7 @@
 		 (:maintainer "Modus-Themes Development" . "~protesilaos/modus-themes@lists.sr.ht")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		 (:commit . "b7b60365fbf848622b49ba59f5c7a2dbc6a47f52"))])
+		 (:commit . "642cc5f8358fd1f2911792a4bbed160d24e9b01b"))])
  (multi-mode .
 	     [(1 14 0 20221221 80812)
 	      nil "support for multiple major modes" tar
@@ -2702,7 +2709,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "b24748093b00b37c3a572c4909f61c08fa27504f"))])
  (org .
-      [(9 7 -1 0 20231204 145216)
+      [(9 7 -1 0 20231204 233347)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2711,7 +2718,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "08c9664a42d4932ac79532d53f0d5b383d2a9875"))])
+	(:commit . "1e353648ef8aacd92a9d0e496b7c7ae7c2e4efa3"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs
@@ -3389,14 +3396,14 @@
 	     (:url . "https://elpa.gnu.org/packages/rnc-mode.html")
 	     (:commit . "17247bf06abb4de085858aff7bce0d7b1e7fd2cd"))])
  (rt-liberation .
-		[(5 0 20220503 141657)
+		[(6 0 20231204 173138)
 		 nil "Emacs interface to RT" tar
 		 ((:url . "http://www.nongnu.org/rtliber/")
 		  (:keywords "rt" "tickets")
 		  (:maintainer "Yoni Rabkin" . "yrk@gnu.org")
 		  (:authors
 		   ("Yoni Rabkin" . "yrk@gnu.org"))
-		  (:commit . "b76ae2828b12efc5f45f51ba873489e049a70924"))])
+		  (:commit . "c97eff6716c2438f9052b4641fa6128bf759af96"))])
  (ruby-end .
 	   [(0 4 3 0 20230205 12506)
 	    nil "Automatic insertion of end blocks for Ruby" tar
@@ -3658,7 +3665,7 @@
 	     ("Artur Malabarba" . "emacs@endlessparentheses.com"))
 	    (:commit . "04186129f2dccf48e288639b78adeb9c0e94be54"))])
  (spacious-padding .
-		   [(0 2 2 0 20231125 121131)
+		   [(0 2 2 0 20231205 82637)
 		    ((emacs
 		      (28 1)))
 		    "Increase the padding/spacing of frames and windows" tar
@@ -3667,7 +3674,7 @@
 		     (:maintainer "Protesilaos Stavrou General Issues" . "~protesilaos/general-issues@lists.sr.ht")
 		     (:authors
 		      ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		     (:commit . "55b9e26d58c006389e43de27cdc2903b7bbd4338"))])
+		     (:commit . "531f2c6628884e7af3ca145fb0fdd11a6b161a5e"))])
  (spinner .
 	  [(1 7 4 0 20220915 94959)
 	   ((emacs
