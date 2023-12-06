@@ -38979,11 +38979,11 @@
 	 (:keywords "tools")
 	 (:url . "https://github.com/chenyanming/kana"))])
  (kanagawa-theme .
-		 [(1 0 0 1 -4 20231205 328)
+		 [(1 0 0 1 -4 20231206 149)
 		  ((emacs
 		    (24 3)))
 		  "An elegant theme inspired by The Great Wave off Kanagawa by Katsushika Hokusa" tar
-		  ((:commit . "fad62c62d77a43a35723bbacfd8b2a856981c58e")
+		  ((:commit . "78ccf6930336da98f248896af53ab0307c4d6459")
 		   (:authors
 		    ("Meritamen" . "meritamen@sdf.org"))
 		   (:maintainers
@@ -51596,7 +51596,7 @@
 		 (:keywords "files" "wp" "url" "org")
 		 (:url . "https://gitlab.com/aimebertrand/org-mac-link"))])
  (org-make-toc .
-	       [(0 6 -1 1 -4 20231025 2326)
+	       [(0 6 -1 1 -4 20231206 101)
 		((emacs
 		  (26 1))
 		 (dash
@@ -51604,9 +51604,11 @@
 		 (s
 		  (1 10 0))
 		 (org
-		  (9 0)))
+		  (9 3))
+		 (compat
+		  (29 1)))
 		"Automatic tables of contents for Org files" tar
-		((:commit . "df29826107ad12fd1d5f173a9a8e070b84f21a68")
+		((:commit . "412f211e8477c37f2e775e02341c43d42fe92bb9")
 		 (:authors
 		  ("Adam Porter" . "adam@alphapapa.net"))
 		 (:maintainers
