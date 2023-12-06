@@ -55458,24 +55458,25 @@
 	      (:keywords "asp" "pasp" "answer set programs" "potassco answer set programs" "major mode" "languages")
 	      (:url . "https://github.com/santifa/pasp-mode"))])
  (pass .
-       [(2 0 1 -4 20231203 1555)
+       [(2 0 1 1 -4 20231206 736)
 	((emacs
 	  (25))
 	 (password-store
-	  (2 1 0))
+	  (1 7 4))
 	 (password-store-otp
 	  (0 1 5))
 	 (f
 	  (0 17)))
 	"Major mode for password-store.el" tar
-	((:commit . "9fe45015db8839803e2ef54f51a0b0c5d64873b4")
+	((:commit . "ed7031c5c33a384d07da2d15c9d5f854027a26a2")
 	 (:authors
 	  ("Nicolas Petton" . "petton.nicolas@gmail.com")
 	  ("Damien Cassou" . "damien@cassou.me"))
 	 (:maintainers
 	  ("Nicolas Petton" . "petton.nicolas@gmail.com"))
 	 (:maintainer "Nicolas Petton" . "petton.nicolas@gmail.com")
-	 (:keywords "password-store" "password" "keychain"))])
+	 (:keywords "password-store" "password" "keychain")
+	 (:url . "https://github.com/NicolasPetton/pass"))])
  (passmm .
 	 [(1 0 0 1 -4 20221204 1927)
 	  ((emacs
@@ -56002,13 +56003,11 @@
 		     (:keywords "themes")
 		     (:url . "https://hg.serna.eu/emacs/per-buffer-theme"))])
  (perfect-margin .
-		 [(0 1 1 -4 20220426 1701)
+		 [(0 1 1 -4 20231206 423)
 		  ((emacs
-		    (24 0))
-		   (cl-lib
-		    (0 5)))
-		  "auto center windows, work with minimap and/or linum-mode" tar
-		  ((:commit . "e811665951cd48819a63e477e7206c43232a78bd")
+		    (24 3)))
+		  "Auto center windows, works with line numbers" tar
+		  ((:commit . "5a26d898e25a22bdcdc84e877045afcde199ac19")
 		   (:authors
 		    ("Randall Wang" . "randall.wjz@gmail.com"))
 		   (:maintainers
