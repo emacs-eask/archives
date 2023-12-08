@@ -8967,11 +8967,11 @@
 			 (:keywords "snippets")
 			 (:url . "https://github.com/mrkkrp/common-lisp-snippets"))])
  (company .
-	  [(0 2 1 -4 20231207 1344)
+	  [(0 2 1 -4 20231208 16)
 	   ((emacs
 	     (25 1)))
 	   "Modular text completion framework" tar
-	   ((:commit . "f0fee2c59de4642f4c8a782734f24dfcf25c0a3a")
+	   ((:commit . "ead3d00e62eca7cb8febce7516ed163516ae84e6")
 	    (:authors
 	     ("Nikolaj Schumacher"))
 	    (:maintainers
@@ -12967,9 +12967,15 @@
 	     (:keywords "tools")
 	     (:url . "https://github.com/Wilfred/deadgrep"))])
  (debian-el .
-	    [(1 15 1 -4 20231017 1037)
-	     nil "Emacs helpers specific to Debian users" tar
-	     ((:commit . "586300cb4747128b7f8397d9dd9f09fa1e27b118"))])
+	    [(37 11 1 -4 20231207 2347)
+	     nil "startup file for the debian-el package" tar
+	     ((:commit . "67dbe593b650b7748e8cbe93fdb8f0cf883563ad")
+	      (:authors
+	       ("Debian Emacsen Team" . "debian-emacsen@lists.debian.org"))
+	      (:maintainers
+	       ("Debian Emacsen Team" . "debian-emacsen@lists.debian.org"))
+	      (:maintainer "Debian Emacsen Team" . "debian-emacsen@lists.debian.org")
+	      (:keywords "debian" "apt" "elisp"))])
  (debpaste .
 	   [(0 1 5 1 -4 20161214 2023)
 	    ((xml-rpc
