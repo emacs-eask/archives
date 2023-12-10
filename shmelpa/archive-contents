@@ -15526,6 +15526,19 @@
 	     (:maintainer "Schspa Shi" . "schspa@gmail.com")
 	     (:keywords "dtb" "dts" "convenience")
 	     (:url . "https://github.com/schspa/dtb-mode"))])
+ (dtext-mode .
+	     [(1 0 -3 3 1 -4 20231120 1606)
+	      ((emacs
+		(24 4)))
+	      "Major mode for Danbooru DText" tar
+	      ((:commit . "5c68d1c05c4606f68384569d9baaef4f6e72fc73")
+	       (:authors
+		("John Russell" . "johndevlopment7@gmail.com"))
+	       (:maintainers
+		("John Russell" . "johndevlopment7@gmail.com"))
+	       (:maintainer "John Russell" . "johndevlopment7@gmail.com")
+	       (:keywords "languages")
+	       (:url . "https://github.com/JohnDevlopment/dtext-mode.el"))])
  (dtk .
       [(0 2 1 -4 20230924 2038)
        ((emacs
@@ -22920,11 +22933,11 @@
 		(:keywords "languages" "firrtl")
 		(:url . "https://github.com/ibm/firrtl-mode"))])
  (fish-completion .
-		  [(1 2 1 -4 20191103 1210)
+		  [(1 2 1 -4 20231028 2123)
 		   ((emacs
 		     (25 1)))
 		   "Fish completion for pcomplete (shell and Eshell)" tar
-		   ((:commit . "10384881817b5ae38cf6197a077a663420090d2c")
+		   ((:commit . "99f0672c20ea61d21f106183e80f32c0c6525faa")
 		    (:authors
 		     ("Pierre Neidhardt" . "mail@ambrevar.xyz"))
 		    (:maintainers
@@ -27415,7 +27428,7 @@
 	      (:keywords "convenience")
 	      (:url . "https://github.com/matsuyoshi30/germanium-el"))])
  (gerrit .
-	 [(0 1 1 -4 20231209 26)
+	 [(0 1 1 -4 20231210 2032)
 	  ((emacs
 	    (25 1))
 	   (magit
@@ -27425,7 +27438,7 @@
 	   (dash
 	    (0 2 15)))
 	  "Gerrit client" tar
-	  ((:commit . "8acf7416beec47cd09eae0dceb134f9bcf57b1d4")
+	  ((:commit . "e825b5277c33fda47eaa569c509761415e980874")
 	   (:authors
 	    ("Thomas Hisch" . "t.hisch@gmail.com"))
 	   (:maintainers
@@ -36259,6 +36272,19 @@
 	     (:maintainer "Anders Lindgren")
 	     (:keywords "languages" "faces")
 	     (:url . "https://github.com/Lindydancer/ini-mode"))])
+ (init-dir .
+	   [(0 1 -2 1 -4 20231126 457)
+	    ((emacs
+	      (27 1)))
+	    "Init directory instead of just a single file" tar
+	    ((:commit . "f8c05a011279edfe904522fec8614702aad5ef78")
+	     (:authors
+	      ("Jared Finder" . "jared@finder.org"))
+	     (:maintainers
+	      ("Jared Finder" . "jared@finder.org"))
+	     (:maintainer "Jared Finder" . "jared@finder.org")
+	     (:keywords "extensions" "internal")
+	     (:url . "http://github.com/chaosemer/init-dir"))])
  (init-loader .
 	      [(0 2 1 -4 20210703 902)
 	       ((cl-lib
@@ -50098,6 +50124,23 @@
 	      (:maintainer "Michael Heerdegen" . "michael_heerdegen@web.de")
 	      (:keywords "convenience")
 	      (:url . "https://github.com/michael-heerdegen/on-screen.el"))])
+ (one .
+      [(1 1 1 -4 20231205 1423)
+       ((emacs
+	 (28 1))
+	(jack
+	 (1 0))
+	(htmlize
+	 (1 57)))
+       "Static Site Generator for org-mode users" tar
+       ((:commit . "fa52cf0144f89eabee06f598b021a37087c69670")
+	(:authors
+	 ("Tony Aldon" . "tony@tonyaldon.com"))
+	(:maintainers
+	 ("Tony Aldon" . "tony@tonyaldon.com"))
+	(:maintainer "Tony Aldon" . "tony@tonyaldon.com")
+	(:keywords "hypermedia" "outlines")
+	(:url . "https://github.com/tonyaldon/one.el"))])
  (one-themes .
 	     [(0 1 -4 20200720 1444)
 	      ((emacs
@@ -53671,6 +53714,18 @@
 	   (:maintainer "Facet Framer" . "facet@facetframer.com")
 	   (:keywords "convenience" "outlines")
 	   (:url . "http://github.com/facetframer/orgnav"))])
+ (orgnote .
+	  [(0 10 2 1 -4 20231204 1515)
+	   ((emacs
+	     (27 1)))
+	   "Sync org roam notes with OrgNote app" tar
+	   ((:commit . "3ea51324172a80ce0e50f18209a1c1a628debcc4")
+	    (:authors
+	     ("Artur Yaroshenko" . "artawower@protonmail.com"))
+	    (:maintainers
+	     ("Artur Yaroshenko" . "artawower@protonmail.com"))
+	    (:maintainer "Artur Yaroshenko" . "artawower@protonmail.com")
+	    (:url . "https://github.com/Artawower/orgnote.el"))])
  (orgstrap .
 	   [(1 5 5 1 -4 20230408 2232)
 	    ((emacs
@@ -64212,11 +64267,11 @@
 	       (:maintainer "Ian Eure" . "ian.eure@gmail.com")
 	       (:keywords "unix" "tools" "processes"))])
  (shell-maker .
-	      [(0 44 1 1 -4 20231112 442)
+	      [(0 44 1 1 -4 20231210 1932)
 	       ((emacs
 		 (27 1)))
 	       "Interaction mode for making comint shells" tar
-	       ((:commit . "b9f193703f34a5ec923b0fdd34f38b3579d04140")
+	       ((:commit . "edf2d046c116897ce06e85dc82e198a7460e57f6")
 		(:authors
 		 ("Alvaro Ramirez https://xenodium.com"))
 		(:maintainers
@@ -65958,13 +66013,13 @@
 	       (:maintainer "Uriel G Maldonado" . "uriel781@gmail.com")
 	       (:keywords "color" "theme" "smyx"))])
  (snakemake-mode .
-		 [(2 0 0 1 -4 20230418 147)
+		 [(2 0 0 1 -4 20231210 2008)
 		  ((emacs
 		    (26 1))
 		   (transient
 		    (0 3 0)))
 		  "Major mode for editing Snakemake files" tar
-		  ((:commit . "0c4c5b6a25735ac025ce124ace9f0259eb5198e9")
+		  ((:commit . "5c47042e088d69375b6407a7eded166403d6fd81")
 		   (:authors
 		    ("Kyle Meyer" . "kyle@kyleam.com"))
 		   (:maintainers
@@ -68357,6 +68412,19 @@
 		 (:maintainer "François Févotte" . "fevotte@gmail.com")
 		 (:keywords "recentf")
 		 (:url . "https://github.com/ffevotte/sync-recentf"))])
+ (syncthing .
+	    [(1 2 2 1 -4 20231210 1924)
+	     ((emacs
+	       (27 1)))
+	     "Client for Syncthing" tar
+	     ((:commit . "5091577252ffe78bf0a9d38a3220414b043fcfbb")
+	      (:authors
+	       ("Peter Badida" . "keyweeusr@gmail.com"))
+	      (:maintainers
+	       ("Peter Badida" . "keyweeusr@gmail.com"))
+	      (:maintainer "Peter Badida" . "keyweeusr@gmail.com")
+	      (:keywords "convenience" "syncthing" "sync" "client" "view")
+	      (:url . "https://github.com/KeyWeeUsr/emacs-syncthing"))])
  (synonymous .
 	     [(1 0 1 -4 20180325 1817)
 	      ((emacs
