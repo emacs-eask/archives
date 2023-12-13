@@ -8711,9 +8711,11 @@
 				    (:keywords "faces" "themes")
 				    (:url . "https://github.com/purcell/color-theme-sanityinc-solarized"))])
  (color-theme-sanityinc-tomorrow .
-				 [(0 1 -4 20230806 1552)
-				  nil "A version of Chris Kempson's \"tomorrow\" themes" tar
-				  ((:commit . "d34e8db507ee0c7b465ff18a8f220c33ed77cd79")
+				 [(0 1 -4 20231213 1748)
+				  ((emacs
+				    (24 1)))
+				  "A version of Chris Kempson's \"tomorrow\" themes" tar
+				  ((:commit . "b6703bb326da6ba08fb1f73b88445ba52abda499")
 				   (:authors
 				    ("Steve Purcell" . "steve@sanityinc.com"))
 				   (:maintainers
@@ -37993,13 +37995,13 @@
 		 ("Florian Mounier aka paradoxxxzero"))
 		(:maintainer "Florian Mounier aka paradoxxxzero"))])
  (jinx .
-       [(1 0 1 -4 20231130 2349)
+       [(1 0 1 -4 20231213 1934)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 4 0)))
 	"Enchanted Spell Checker" tar
-	((:commit . "2533991bfe9da75aa6adad73770fe5b196ea0bb1")
+	((:commit . "71706642cdc0031daef2c9df63cf73be8134d691")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainers
@@ -45021,11 +45023,11 @@
 	   (:keywords "multimedia" "elisp" "music" "mpd")
 	   (:url . "https://github.com/pft/mingus"))])
  (mini-echo .
-	    [(0 6 0 1 -4 20231213 1423)
+	    [(0 6 0 1 -4 20231213 1754)
 	     ((emacs
 	       (28 1)))
 	     "Echo buffer status in minibuffer window" tar
-	     ((:commit . "b039eef2fa61005bc251d7e5ee3026760c83f9ef")
+	     ((:commit . "1db61d51f96cc42e6c75ffbae7cdedf407beebea")
 	      (:authors
 	       ("liuyinz" . "liuyinz95@gmail.com"))
 	      (:maintainers
