@@ -70437,11 +70437,13 @@
 	     (:keywords "convenience" "scrolling" "center" "cursor" "margin" "padding")
 	     (:url . "https://github.com/trevorpogue/topspace"))])
  (topsy .
-	[(0 1 -1 1 -4 20230414 1738)
+	[(0 1 -1 1 -4 20231214 734)
 	 ((emacs
-	   (26 3)))
+	   (26 3))
+	  (compat
+	   (29 1)))
 	 "Simple sticky header" tar
-	 ((:commit . "149ee929dad667fd7668728d9b59dedb0183dfe5")
+	 ((:commit . "53507a18350bf643232e8560ec51fdd9fc44355a")
 	  (:authors
 	   ("Adam Porter" . "adam@alphapapa.net"))
 	  (:maintainers
