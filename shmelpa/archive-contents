@@ -7653,7 +7653,7 @@
 		   (:maintainer "Bruce D'Arcus" . "bdarcus@gmail.com")
 		   (:url . "https://github.com/emacs-citar/citar-org-roam"))])
  (citeproc .
-	   [(0 9 3 1 -4 20231213 2254)
+	   [(0 9 3 1 -4 20231216 1221)
 	    ((emacs
 	      (26))
 	     (dash
@@ -7673,7 +7673,7 @@
 	     (compat
 	      (28 1)))
 	    "A CSL 1.0.2 Citation Processor" tar
-	    ((:commit . "c6f5cca2827dafad22c04ad393abd733d7e8381c")
+	    ((:commit . "9fe5f28b274eda5212fe1936c1b58184b63cca6d")
 	     (:authors
 	      ("András Simonyi" . "andras.simonyi@gmail.com"))
 	     (:maintainers
@@ -11922,9 +11922,9 @@
 	 (:keywords "clusterssh" "ssh" "cssh")
 	 (:url . "http://tapoueh.org/emacs/cssh.html"))])
  (csv .
-      [(2 1 1 -4 20161113 1510)
-       nil "Functions for reading and parsing CSV files." tar
-       ((:commit . "aa1dfa1263565d5fac3879c21d8ddf5f8915e411")
+      [(2 1 1 -4 20231216 1243)
+       nil "Functions for reading and parsing CSV files" tar
+       ((:commit . "8ed083c171a5e8caf11ebfbec67af3119ab1fd90")
 	(:authors
 	 ("Ulf Jasper" . "ulf.jasper@web.de"))
 	(:maintainers
@@ -43366,7 +43366,7 @@
 		 (:keywords "vc" "tools")
 		 (:url . "https://github.com/magit/magit-tbdiff"))])
  (magit-todos .
-	      [(1 8 -1 1 -4 20231027 1452)
+	      [(1 8 -1 1 -4 20231216 1205)
 	       ((emacs
 		 (26 1))
 		(async
@@ -43386,7 +43386,7 @@
 		(transient
 		 (0 2 0)))
 	       "Show source file TODOs in Magit" tar
-	       ((:commit . "a197a04da1620ee7d41f3aa4f846a479760e2273")
+	       ((:commit . "debb77b3589f2d83c8b43706edc1f8f90bf1ad91")
 		(:authors
 		 ("Adam Porter" . "adam@alphapapa.net"))
 		(:maintainers
@@ -50601,11 +50601,11 @@
 	      (:keywords "org" "bookmarks" "archives")
 	      (:url . "https://github.com/scallywag/org-board"))])
  (org-bookmark-heading .
-		       [(1 3 1 1 -4 20231208 327)
+		       [(1 4 -1 1 -4 20231216 1234)
 			((emacs
 			  (24 4)))
 			"Emacs bookmark support for Org mode" tar
-			((:commit . "3e95313837898ec8660c7a8b0f601ec7edda7bfc")
+			((:commit . "ed8b7fe2a08b06a1d750d1e1230e6728815e0bcd")
 			 (:authors
 			  ("Adam Porter" . "adam@alphapapa.net"))
 			 (:maintainers
@@ -52228,9 +52228,11 @@
 			 ("Vladimir S. Ivanov" . "ivvl82@gmail.com"))
 			(:maintainer "Vladimir S. Ivanov" . "ivvl82@gmail.com"))])
  (org-ql .
-	 [(0 8 -1 1 -4 20231216 1047)
+	 [(0 8 -1 1 -4 20231216 1310)
 	  ((emacs
-	    (26 1))
+	    (27 1))
+	   (compat
+	    (29 1))
 	   (dash
 	    (2 18 1))
 	   (f
@@ -52252,7 +52254,7 @@
 	   (ts
 	    (0 2 -1)))
 	  "Org Query Language, search command, and agenda-like view" tar
-	  ((:commit . "a31baebc4ffb75649825683fb1fcf897bf4bebef")
+	  ((:commit . "3dc2409539eb67206954effdcb22f1a78f52ab56")
 	   (:authors
 	    ("Adam Porter" . "adam@alphapapa.net"))
 	   (:maintainers
