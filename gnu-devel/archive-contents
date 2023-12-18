@@ -1150,7 +1150,7 @@
 	       ("Markus Triska" . "triska@metalevel.at"))
 	      (:commit . "cfcdf9e42821d246b7fbc84877aa4ecacc184a1c"))])
  (eev .
-      [(20231216 0 20231217 32248)
+      [(20231217 0 20231217 233453)
        ((emacs
 	 (24 4)))
        "Support for e-scripts (eepitch blocks, elisp hyperlinks, etc)" tar
@@ -1159,7 +1159,7 @@
 	(:maintainer "Eduardo Ochs" . "eduardoochs@gmail.com")
 	(:authors
 	 ("Eduardo Ochs" . "eduardoochs@gmail.com"))
-	(:commit . "a0fb35ffa9c6173a113f77eae4e5ef3c58e76a10"))])
+	(:commit . "b7e99541e34d8867db542deb583d86681c0e76f5"))])
  (ef-themes .
 	    [(1 4 1 0 20231213 74502)
 	     ((emacs
@@ -1238,6 +1238,21 @@
 		      ("Andrea Corallo" . "akrl@sdf.org"))
 		     (:url . "https://elpa.gnu.org/packages/elisp-benchmarks.html")
 		     (:commit . "ce92b922cb86f9db549fdfc3add0f5e6050a8d93"))])
+ (ellama .
+	 [(0 3 2 0 20231218 63455)
+	  ((emacs
+	    (28 1))
+	   (llm
+	    (0 6 0))
+	   (spinner
+	    (1 7 4)))
+	  "Tool for interacting with LLMs" tar
+	  ((:url . "http://github.com/s-kostyaev/ellama")
+	   (:keywords "help" "local" "tools")
+	   (:maintainer "Sergey Kostyaev" . "sskostyaev@gmail.com")
+	   (:authors
+	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
+	   (:commit . "7ffb9558ddb254d1d605d5a2bc3166379771848f"))])
  (emacs-gc-stats .
 		 [(1 4 2 0 20231206 152254)
 		  ((emacs
@@ -1349,7 +1364,7 @@
 	       (:url . "https://elpa.gnu.org/packages/epoch-view.html")
 	       (:commit . "7a9773a8b55491bd47f23dfdb6c4224f5cc8e50c"))])
  (erc .
-      [(5 6 -4 0 20231210 130645)
+      [(5 6 -4 0 20231217 201755)
        ((emacs
 	 (27 1))
 	(compat
@@ -1362,7 +1377,7 @@
 	 ("F. Jason Park" . "jp@neverwas.me"))
 	(:authors
 	 ("Alexander L. Belikoff" . "alexander@belikoff.net"))
-	(:commit . "9ee911ce318ad701c024b151d8b625e9311bf945"))])
+	(:commit . "14504fca8b5589c5c80a69dcab6e02681b196fa1"))])
  (ergoemacs-mode .
 		 [(5 16 10 12 0 20230207 95118)
 		  ((emacs
@@ -2232,7 +2247,7 @@
 	 ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	(:commit . "75983a770d70b57c090db8cd503a340c32f51827"))])
  (llm .
-      [(0 6 0 0 20231214 214953)
+      [(0 7 0 0 20231218 4619)
        ((emacs
 	 (28 1)))
        "Interface to pluggable llm backends" tar
@@ -2240,7 +2255,7 @@
 	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
-	(:commit . "9fe2f7597d284e6dde5395b1bfb243e06ba25c59"))])
+	(:commit . "384e04d471b8bbba2cb0644c25f4ba8dd0528a02"))])
  (lmc .
       [(1 4 0 20230105 113402)
        ((emacs
@@ -4432,7 +4447,7 @@
 	(:url . "https://elpa.gnu.org/packages/vlf.html")
 	(:commit . "6192573ee088079bf1f81abc2bf2a370a5a92397"))])
  (vundo .
-	[(2 1 0 0 20231216 172937)
+	[(2 1 0 0 20231217 205049)
 	 ((emacs
 	   (28 1)))
 	 "Visual undo tree" tar
@@ -4441,7 +4456,7 @@
 	  (:maintainer "Yuan Fu" . "casouri@gmail.com")
 	  (:authors
 	   ("Yuan Fu" . "casouri@gmail.com"))
-	  (:commit . "e42f5409853bf05d8efd415bd87dbad17a9dfdc9"))])
+	  (:commit . "299a9f9ebd38ebd0de24db041e45eafda383549e"))])
  (wcheck-mode .
 	      [(2021 0 20220101 81620)
 	       nil "General interface for text checkers" tar
