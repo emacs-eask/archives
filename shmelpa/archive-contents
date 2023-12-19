@@ -59130,7 +59130,7 @@
 	  (:keywords "tools" "php")
 	  (:url . "https://github.com/emacs-php/psalm.el"))])
  (psc-ide .
-	  [(0 1 0 1 -4 20210219 2247)
+	  [(0 1 0 1 -4 20231219 49)
 	   ((emacs
 	     (25))
 	    (dash
@@ -59144,9 +59144,11 @@
 	    (let-alist
 		(1 0 4))
 	    (seq
-	     (1 11)))
+	     (1 11))
+	    (inheritenv
+	     (0 2)))
 	   "Minor mode for PureScript's IDE server." tar
-	   ((:commit . "ce97d719458ea099b40c02f05b6609601c727e66")
+	   ((:commit . "9ab7c8419c199c85502b739c007015ac1ecced7c")
 	    (:authors
 	     ("Erik Post" . "erik@shinsetsu.nl")
 	     ("Dmitry Bushenko" . "d.bushenko@gmail.com")
