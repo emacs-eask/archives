@@ -16720,7 +16720,7 @@
 		 (:keywords "languages")
 		 (:url . "https://github.com/fsharp/emacs-fsharp-mode"))])
  (eglot-java .
-	     [(1 18 1 -4 20231224 1943)
+	     [(1 19 1 -4 20231224 2257)
 	      ((emacs
 		(26 1))
 	       (eglot
@@ -16728,7 +16728,7 @@
 	       (jsonrpc
 		(1 0 0)))
 	      "Java extension for the eglot LSP client" tar
-	      ((:commit . "e551c2e56d898dab3154cffa262c5fda528cfc87")
+	      ((:commit . "2f6dfdeca8cbf066c50c0697d5b47ac16f22625f")
 	       (:authors
 		("Yves Zoundi" . "yves_zoundi@hotmail.com"))
 	       (:maintainers
@@ -50203,6 +50203,19 @@
 		      (nil . "proof-general-maintainers@groupes.renater.fr"))
 		     (:maintainer nil . "proof-general-maintainers@groupes.renater.fr")
 		     (:url . "https://github.com/ProofGeneral/opam-switch-mode"))])
+ (open-color .
+	     [(0 0 1 1 -4 20231220 1921)
+	      ((emacs
+		(25 1)))
+	      "Open Color color palette" tar
+	      ((:commit . "4db381311d4b659922566236697a424f5f3fde6f")
+	       (:authors
+		("DK" . "a13@users.noreply.github.com"))
+	       (:maintainers
+		("DK" . "a13@users.noreply.github.com"))
+	       (:maintainer "DK" . "a13@users.noreply.github.com")
+	       (:keywords "faces")
+	       (:url . "https://github.com/a13/open-color.el"))])
  (open-in-msvs .
 	       [(0 2 1 -4 20170123 2228)
 		nil "Open current file:line:column in Microsoft Visual Studio" tar
@@ -60449,11 +60462,11 @@
 	  (:keywords "abbrev" "convenience" "matching" "rust" "tools")
 	  (:url . "https://github.com/racer-rust/emacs-racer"))])
  (racket-mode .
-	      [(1 1 -4 20231222 2114)
+	      [(1 1 -4 20231224 2126)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
-	       ((:commit . "a4035b5065765c6730b25a0c065c706891ed5e9a")
+	       ((:commit . "7b6c9d7f493d301969c6a17a6a4e2171608e119a")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com"))
 		(:maintainers
