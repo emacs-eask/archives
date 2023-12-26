@@ -43333,7 +43333,7 @@
 		(:keywords "vc" "convenience")
 		(:url . "https://github.com/LionyxML/magit-stats"))])
  (magit-stgit .
-	      [(0 1 0 1 -4 20220914 1349)
+	      [(0 1 0 1 -4 20231226 1514)
 	       ((emacs
 		 (24 4))
 		(magit
@@ -43341,13 +43341,14 @@
 		(magit-popup
 		 (2 12 0)))
 	       "StGit extension for Magit" tar
-	       ((:commit . "bf96fa0f40c087329ad7e6a3b1946de7df03559c")
+	       ((:commit . "59d1eb355caf4adbbdf1e351f5861de61b0b5efa")
 		(:authors
 		 ("Lluís Vilanova" . "vilanova@ac.upc.edu"))
 		(:maintainers
-		 ("UNMAINTAINED"))
-		(:maintainer "UNMAINTAINED")
-		(:keywords "vc" "tools"))])
+		 ("Peter Grayson" . "pete@jpgrayson.net"))
+		(:maintainer "Peter Grayson" . "pete@jpgrayson.net")
+		(:keywords "git" "tools" "vc")
+		(:url . "https://github.com/stacked-git/magit-stgit"))])
  (magit-svn .
 	    [(0 1 0 1 -4 20220314 1451)
 	     ((emacs
