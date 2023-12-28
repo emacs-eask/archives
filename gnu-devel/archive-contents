@@ -1150,7 +1150,7 @@
 	       ("Markus Triska" . "triska@metalevel.at"))
 	      (:commit . "cfcdf9e42821d246b7fbc84877aa4ecacc184a1c"))])
  (eev .
-      [(20231226 0 20231226 20138)
+      [(20231226 0 20231228 41857)
        ((emacs
 	 (24 4)))
        "Support for e-scripts (eepitch blocks, elisp hyperlinks, etc)" tar
@@ -1159,7 +1159,7 @@
 	(:maintainer "Eduardo Ochs" . "eduardoochs@gmail.com")
 	(:authors
 	 ("Eduardo Ochs" . "eduardoochs@gmail.com"))
-	(:commit . "e481c0da2d62a4bbe61ba06b069ee475fd0f4489"))])
+	(:commit . "17c1bcbdd9d3036168f562654054b5397b3667f2"))])
  (ef-themes .
 	    [(1 4 1 0 20231225 114822)
 	     ((emacs
@@ -1172,11 +1172,11 @@
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	      (:commit . "e3d72e155b0417e80776321afebb3d7d65e26189"))])
  (eglot .
-	[(1 16 0 20231227 164241)
+	[(1 15 0 20231226 101014)
 	 ((emacs
 	   (26 3))
 	  (jsonrpc
-	   (1 0 23))
+	   (1 0 16))
 	  (flymake
 	   (1 2 1))
 	  (project
@@ -1195,7 +1195,7 @@
 	  (:maintainer "João Távora" . "joaotavora@gmail.com")
 	  (:authors
 	   ("João Távora" . "joaotavora@gmail.com"))
-	  (:commit . "9e0eeb2d49ccd443bb667be9231fe932be67bb10"))])
+	  (:commit . "731cfee3b45361158d88bded3c32c9a48ace7bdb"))])
  (el-search .
 	    [(1 12 6 1 0 20221221 75346)
 	     ((emacs
@@ -1239,7 +1239,7 @@
 		     (:url . "https://elpa.gnu.org/packages/elisp-benchmarks.html")
 		     (:commit . "ce92b922cb86f9db549fdfc3add0f5e6050a8d93"))])
  (ellama .
-	 [(0 4 12 0 20231227 133400)
+	 [(0 4 13 0 20231228 51916)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -1252,7 +1252,7 @@
 	   (:maintainer "Sergey Kostyaev" . "sskostyaev@gmail.com")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
-	   (:commit . "4bee1325428459a6df6eec23319cd7600927753a"))])
+	   (:commit . "4bf9c6c08d43779a0ae838ba6a1045772050f8a4"))])
  (emacs-gc-stats .
 		 [(1 4 2 0 20231206 152254)
 		  ((emacs
@@ -2129,7 +2129,7 @@
 	      (:url . "https://elpa.gnu.org/packages/json-mode.html")
 	      (:commit . "2e8fc7e33b3b7e2418de32baad46d59c5e343bd2"))])
  (jsonrpc .
-	  [(1 0 23 0 20231227 80220)
+	  [(1 0 23 0 20231227 75345)
 	   ((emacs
 	     (25 2)))
 	   "JSON-RPC library" tar
@@ -2138,7 +2138,7 @@
 	    (:authors
 	     ("João Távora" . "joaotavora@gmail.com"))
 	    (:url . "https://elpa.gnu.org/packages/jsonrpc.html")
-	    (:commit . "9e0eeb2d49ccd443bb667be9231fe932be67bb10"))])
+	    (:commit . "731cfee3b45361158d88bded3c32c9a48ace7bdb"))])
  (jumpc .
 	[(3 1 0 20231015 14814)
 	 nil "jump to previous insertion points" tar
@@ -2348,11 +2348,11 @@
 	(:url . "https://elpa.gnu.org/packages/map.html")
 	(:commit . "7caa3f5499b1ca4b6d66c1655a4e0d6903755679"))])
  (marginalia .
-	     [(1 4 0 20231215 142739)
+	     [(1 5 0 20231227 192728)
 	      ((emacs
 		(27 1))
 	       (compat
-		(29 1 4 0)))
+		(29 1 4 4)))
 	      "Enrich existing commands with completion annotations" tar
 	      ((:url . "https://github.com/minad/marginalia")
 	       (:keywords "docs" "help" "matching" "completion")
@@ -2362,7 +2362,7 @@
 	       (:authors
 		("Omar Antolín Camarena" . "omar@matem.unam.mx")
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
-	       (:commit . "ecb4a9345e2df7a7ab0a306fdae84e7fe0c33282"))])
+	       (:commit . "98f6e58c12d57283bd7c1cb241664c966dc38ac3"))])
  (markchars .
 	    [(0 2 2 0 20221221 80510)
 	     nil "Mark chars fitting certain characteristics" tar
@@ -2728,7 +2728,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "b24748093b00b37c3a572c4909f61c08fa27504f"))])
  (org .
-      [(9 7 -1 0 20231226 153651)
+      [(9 7 -1 0 20231227 134905)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2737,7 +2737,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "60f357e8bf704e6c278e7c1fe2dc0fc3ab4558f7"))])
+	(:commit . "5092ecd46ac2f98fbd26f10e2544b4bea7ac1738"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs
@@ -2863,18 +2863,18 @@
 	(:url . "https://elpa.gnu.org/packages/osc.html")
 	(:commit . "62eda3d8fb288b6a16c35a7220a507d0991c5a74"))])
  (osm .
-      [(1 1 0 20231225 113800)
+      [(1 2 0 20231227 192519)
        ((emacs
 	 (27 1))
 	(compat
-	 (29 1 4 2)))
+	 (29 1 4 4)))
        "OpenStreetMap viewer" tar
        ((:url . "https://github.com/minad/osm")
 	(:keywords "network" "multimedia" "hypermedia" "mouse")
 	(:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	(:authors
 	 ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	(:commit . "e38d82d5ca4984ae72539bdefc3c950de6032bd3"))])
+	(:commit . "54d8fac06c36bf319cdac1c92bef2fcfc372b53f"))])
  (other-frame-window .
 		     [(1 0 6 0 20221221 81352)
 		      ((emacs
@@ -4384,7 +4384,7 @@
 		  ("Wilson Snyder" . "wsnyder@wsnyder.org"))
 		 (:commit . "baf778c7caa0908789de7740aad719e168fffdf6"))])
  (vertico .
-	  [(1 5 0 20231227 74953)
+	  [(1 6 0 20231227 193420)
 	   ((emacs
 	     (27 1))
 	    (compat
@@ -4395,7 +4395,7 @@
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	    (:commit . "3633584549ae38c4938a03b59375400e2d3c9d71"))])
+	    (:commit . "f7aeda39df860ba1d82d0d94396f8bdeb13c4c8c"))])
  (vertico-posframe .
 		   [(0 7 5 0 20231121 23902)
 		    ((emacs
