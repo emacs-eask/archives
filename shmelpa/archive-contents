@@ -34169,17 +34169,17 @@
 	       (:keywords "faces")
 	       (:url . "https://github.com/meain/hima-theme"))])
  (himalaya .
-	   [(0 3 1 -4 20231216 934)
+	   [(1 0 1 -4 20240101 2203)
 	    ((emacs
 	      (27 1)))
-	    "Interface for the himalaya email client" tar
-	    ((:commit . "2032ba4a7d5be88035accb24aa1f87c50fe321a2")
+	    "Interface for the email client Himalaya CLI" tar
+	    ((:commit . "108e275f25ea35f2adeedbeb4af28c4a99c07fa7")
 	     (:authors
 	      ("Dante Catalfamo")
 	      ("soywod" . "clement.douin@posteo.net"))
 	     (:maintainers
-	      ("Dante Catalfamo"))
-	     (:maintainer "Dante Catalfamo")
+	      ("soywod" . "clement.douin@posteo.net"))
+	     (:maintainer "soywod" . "clement.douin@posteo.net")
 	     (:keywords "mail" "comm")
 	     (:url . "https://github.com/dantecatalfamo/himalaya-emacs"))])
  (hindent .
@@ -37215,6 +37215,23 @@
 		  (:maintainer "PythonNut" . "pythonnut@pythonnut.com")
 		  (:keywords "convenience" "ivy")
 		  (:url . "https://github.com/PythonNut/historian.el"))])
+ (ivy-hoogle .
+	     [(0 1 0 1 -4 20231231 639)
+	      ((emacs
+		(28 1))
+	       (async
+		(1 9))
+	       (ivy
+		(0 13 2)))
+	      "Search Hoogle using ivy" tar
+	      ((:commit . "157e6ce0240198f779e1dba4a24b20b30a57dcb7")
+	       (:authors
+		("Aliaksei Artamonau" . "aliaksiej.artamonau@gmail.com"))
+	       (:maintainers
+		("Aliaksei Artamonau" . "aliaksiej.artamonau@gmail.com"))
+	       (:maintainer "Aliaksei Artamonau" . "aliaksiej.artamonau@gmail.com")
+	       (:keywords "matching" "haskell" "hoogle")
+	       (:url . "https://github.com/aartamonau/ivy-hoogle"))])
  (ivy-hydra .
 	    [(0 14 2 1 -4 20231025 2311)
 	     ((emacs
@@ -41947,11 +41964,11 @@
 	  (:keywords "maint" "debug" "log")
 	  (:url . "https://github.com/jcs-elpa/logms"))])
  (lognav-mode .
-	      [(0 0 9 1 -4 20220410 1344)
+	      [(0 0 11 1 -4 20231226 1630)
 	       ((emacs
 		 (24 3)))
 	       "Navigate Log Error Messages" tar
-	       ((:commit . "100541ec31468b771073a7d2ad4512c1dcb1eb07")
+	       ((:commit . "294e6088d426910082c1b87792ff5125f2725a88")
 		(:authors
 		 ("Shawn Ellis" . "shawn.ellis17@gmail.com"))
 		(:maintainers
@@ -46350,6 +46367,19 @@
 		      (:maintainer "Pierre Neidhardt" . "mail@ambrevar.xyz")
 		      (:keywords "mail" "convenience" "mu4e")
 		      (:url . "https://gitlab.com/Ambrevar/mu4e-conversation"))])
+ (mu4e-crypto .
+	      [(0 0 1 1 -4 20231225 546)
+	       ((emacs
+		 (24 3)))
+	       "Encrypt and decrypt emails for mu4e with GnuPG" tar
+	       ((:commit . "849ca35d87329c4c8dde32aaec4eda63a6ae5517")
+		(:authors
+		 ("Meritamen" . "meritamen@sdf.org"))
+		(:maintainers
+		 ("Meritamen" . "meritamen@sdf.org"))
+		(:maintainer "Meritamen" . "meritamen@sdf.org")
+		(:keywords "mu4e" "mail" "crypto")
+		(:url . "https://github.com/meritamen/mu4e-crypto"))])
  (mu4e-jump-to-list .
 		    [(1 0 1 -4 20221202 1023)
 		     ((emacs
@@ -46525,11 +46555,11 @@
 	       (:keywords "multi" "line" "length" "whitespace" "programming" "tools" "convenience" "files")
 	       (:url . "https://github.com/IvanMalison/multi-line"))])
  (multi-project .
-		[(0 0 46 1 -4 20230729 1543)
+		[(0 0 47 1 -4 20231226 1630)
 		 ((emacs
-		   (25)))
-		 "Find files, compile, and search for multiple projects." tar
-		 ((:commit . "0ba7d337d8764b4f83788bc6c1f17080aad2b6c7")
+		   (26 1)))
+		 "Find files, compile, and search for multiple projects" tar
+		 ((:commit . "a81a536c7c73d471b65e8456d4530e6341a8ce65")
 		  (:authors
 		   ("Shawn Ellis" . "shawn.ellis17@gmail.com"))
 		  (:maintainers
@@ -48735,6 +48765,19 @@
 	      ("Paul Onions"))
 	     (:maintainer "Paul Onions")
 	     (:keywords "axiom" "openaxiom" "fricas"))])
+ (ob-base64 .
+	    [(1 1 3 1 -4 20240101 1955)
+	     ((emacs
+	       (26 1)))
+	     "Org-babel for base64 content" tar
+	     ((:commit . "d6a728f3c87981f590579af6cb543447fd56a081")
+	      (:authors
+	       ("Peter Badida" . "keyweeusr@gmail.com"))
+	      (:maintainers
+	       ("Peter Badida" . "keyweeusr@gmail.com"))
+	      (:maintainer "Peter Badida" . "keyweeusr@gmail.com")
+	      (:keywords "convenience" "embedding" "orgmode" "base64" "rendering")
+	      (:url . "https://github.com/keyweeusr/ob-base64"))])
  (ob-bitfield .
 	      [(0 1 1 -4 20220401 600)
 	       ((emacs
@@ -53686,7 +53729,7 @@
 	   (:keywords "org")
 	   (:url . "https://github.com/yasuhito/orgbox"))])
  (orgit .
-	[(1 9 0 1 -4 20230917 1001)
+	[(1 9 0 1 -4 20240101 2222)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -53696,7 +53739,7 @@
 	  (org
 	   (9 6 5)))
 	 "Support for Org links to Magit buffers" tar
-	 ((:commit . "b60efabc4a1b15d7eacaabc5bdfe6f3c20fee161")
+	 ((:commit . "84bcb5c318f01b9ffc8d5aa18a7c393fe9c714b2")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainers
@@ -53705,7 +53748,7 @@
 	  (:keywords "hypermedia" "vc")
 	  (:url . "https://github.com/magit/orgit"))])
  (orgit-forge .
-	      [(0 1 4 1 -4 20231227 1236)
+	      [(0 1 4 1 -4 20240101 2222)
 	       ((emacs
 		 (25 1))
 		(compat
@@ -53719,7 +53762,7 @@
 		(orgit
 		 (1 9)))
 	       "Org links to Forge issue buffers" tar
-	       ((:commit . "fc1e79ebbae42f13a45b3d8df8bc2b4352c8a36f")
+	       ((:commit . "f2ff9e5ad68b3e860379a1d368ad6d8a9696b719")
 		(:authors
 		 ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		(:maintainers
@@ -53728,7 +53771,7 @@
 		(:keywords "hypermedia" "vc")
 		(:url . "https://github.com/magit/orgit-forge"))])
  (orglink .
-	  [(0 1 0 1 -4 20230531 1610)
+	  [(0 1 0 1 -4 20240101 2222)
 	   ((emacs
 	     (25 1))
 	    (compat
@@ -53738,7 +53781,7 @@
 	    (seq
 	     (2 23)))
 	   "Use Org Mode links in other modes" tar
-	   ((:commit . "afbeffdfa15a9fc532bba2e03626b9e82768ba2c")
+	   ((:commit . "f62d2804026c10a1da0b7c4a4cb0d647bb2e4829")
 	    (:authors
 	     ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	    (:maintainers
@@ -54145,13 +54188,13 @@
 		  (:maintainer "Thorsten Jolitz <tjolitz AT gmail DOT com>")
 		  (:keywords "outlines"))])
  (outline-minor-faces .
-		      [(0 1 0 1 -4 20230514 1801)
+		      [(0 1 0 1 -4 20240101 2223)
 		       ((emacs
 			 (25 1))
 			(compat
 			 (29 1 4 1)))
 		       "Highlight only section headings" tar
-		       ((:commit . "57c4a0fac36a26cfa8d1296e76afbcf7a5b87a57")
+		       ((:commit . "77dd2a24f3db3641980cca515fbc4cfafdf03630")
 			(:authors
 			 ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			(:maintainers
@@ -55019,11 +55062,11 @@
 	     (:keywords "extensions" "tools")
 	     (:url . "https://github.com/zenspider/package"))])
  (package-build .
-		[(4 0 0 50 -4 20231230 1739)
+		[(4 0 0 50 -4 20240101 2224)
 		 ((emacs
 		   (27 1)))
 		 "Tools for assembling a package archive" tar
-		 ((:commit . "abad0d94a5e79d3c39b0f89ce2aac02053d0f6a5")
+		 ((:commit . "9f62062900b2186a6c9a1d06de3cb75d7daa6110")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		   ("Steve Purcell" . "steve@sanityinc.com")
@@ -55452,13 +55495,13 @@
 		    (:keywords "convenience")
 		    (:url . "https://github.com/MatthewBregg/paren-completer"))])
  (paren-face .
-	     [(0 1 0 1 -4 20230901 1236)
+	     [(0 1 0 1 -4 20240101 2224)
 	      ((emacs
 		(25 1))
 	       (compat
 		(29 1 4 1)))
 	      "A face for parentheses in lisp modes" tar
-	      ((:commit . "0755d46be6cd0448fd9cdc1c8143885f6e03e115")
+	      ((:commit . "d36fab3529aa3e046493ec373f2c080874cc184f")
 	       (:authors
 		("Jonas Bernoulli" . "jonas@bernoul.li"))
 	       (:maintainers
