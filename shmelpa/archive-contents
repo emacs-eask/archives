@@ -4426,6 +4426,27 @@
 		(:maintainer "Clément Pit-Claudel" . "clement.pitclaudel@live.com")
 		(:keywords "bib" "tex" "convenience" "hypermedia")
 		(:url . "https://github.com/cpitclaudel/biblio.el"))])
+ (biblio-gbooks .
+		[(1 0 1 -4 20231225 313)
+		 ((emacs
+		   (24 4))
+		  (biblio-core
+		   (0 2))
+		  (let-alist
+		      (1 0 6))
+		  (seq
+		   (2 24))
+		  (compat
+		   (29 1 4 2)))
+		 "Google Books backend for biblio.el" tar
+		 ((:commit . "ebcaed8eb49d91fee5c83bc66490bf14361a2caa")
+		  (:authors
+		   ("Joshua Rasband and contributors"))
+		  (:maintainers
+		   ("Joshua Rasband and contributors"))
+		  (:maintainer "Joshua Rasband and contributors")
+		  (:keywords "bib" "tex")
+		  (:url . "http://github.com/jrasband/biblio-gbooks"))])
  (bibliothek .
 	     [(0 2 0 1 -4 20190124 1828)
 	      ((emacs
