@@ -55047,11 +55047,13 @@
 	     (:keywords "extensions" "tools")
 	     (:url . "https://github.com/zenspider/package"))])
  (package-build .
-		[(4 0 0 50 -4 20240101 2224)
+		[(4 0 0 50 -4 20240102 1647)
 		 ((emacs
+		   (26 1))
+		  (compat
 		   (27 1)))
 		 "Tools for assembling a package archive" tar
-		 ((:commit . "9f62062900b2186a6c9a1d06de3cb75d7daa6110")
+		 ((:commit . "414b328a4f18a6237867739c56e8777e8086d2e8")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		   ("Steve Purcell" . "steve@sanityinc.com")
@@ -58003,15 +58005,13 @@
 		    (:keywords "popup" "kill-ring" "pos-tip")
 		    (:url . "https://github.com/waymondo/popup-kill-ring"))])
  (popup-switcher .
-		 [(0 2 15 1 -4 20210402 1208)
+		 [(0 2 14 1 -4 20201216 2229)
 		  ((cl-lib
 		    (0 3))
 		   (popup
-		    (0 5 3))
-		   (dash
-		    (2 10 0)))
+		    (0 5 3)))
 		  "switch to other buffers and files via popup." tar
-		  ((:commit . "94e01b9ea7970e86ed0f2fbeaa8cd320b60ae821")
+		  ((:commit . "166a90c13310b829bd392235bf7cc1e45188faff")
 		   (:authors
 		    ("Kostafey" . "kostafey@gmail.com"))
 		   (:maintainers
@@ -60726,9 +60726,9 @@
 		 (:keywords "convenience" "languages" "tools")
 		 (:url . "https://github.com/nhojb/raycast-mode"))])
  (rbenv .
-	[(0 0 3 1 -4 20141120 749)
+	[(0 0 3 1 -4 20240102 1708)
 	 nil "Emacs integration for rbenv" tar
-	 ((:commit . "2ea1a5bdc1266caef1dd77700f2c8f42429b03f1")
+	 ((:commit . "dc735351edd1169233434ae93204e170444380ee")
 	  (:authors
 	   ("Yves Senn" . "yves.senn@gmail.com"))
 	  (:maintainers
@@ -61282,13 +61282,13 @@
 	  (:keywords "lisp")
 	  (:url . "https://github.com/ROCKTAKEY/recur"))])
  (recursion-indicator .
-		      [(1 0 1 -4 20240102 333)
+		      [(1 0 1 -4 20240102 1630)
 		       ((emacs
 			 (27 1))
 			(compat
 			 (29 1 4 4)))
 		       "Recursion indicator" tar
-		       ((:commit . "0133ab27085625983d09a82f518e735aa9ec6d0d")
+		       ((:commit . "dd9195da974c330d00e63e14cafc855590154ff5")
 			(:authors
 			 ("Daniel Mendler" . "mail@daniel-mendler.de"))
 			(:maintainers
@@ -70600,11 +70600,11 @@
 	 (:maintainer "Erik Hetzner" . "egh@e6h.org")
 	 (:keywords "help"))])
  (totp .
-       [(0 1 1 -4 20230902 1828)
+       [(0 1 1 -4 20240102 1721)
 	((emacs
 	  (27 1)))
 	"Time-based One-time Password (TOTP)" tar
-	((:commit . "755e645c063860adb3f22f170b9fee86a4054882")
+	((:commit . "fe05ce6130ff1e9a76fc2aca289083475f70fd52")
 	 (:authors
 	  ("Jürgen Hötzel" . "juergen@hoetzel.info"))
 	 (:maintainers
@@ -73719,11 +73719,11 @@
 		(:keywords "files" "tools")
 		(:url . "https://github.com/jojojames/vscode-icon-emacs"))])
  (vterm .
-	[(0 0 2 1 -4 20230417 424)
+	[(0 0 2 1 -4 20240102 1640)
 	 ((emacs
 	   (25 1)))
 	 "Fully-featured terminal emulator" tar
-	 ((:commit . "94e2b0b2b4a750e7907dacd5b4c0584900846dd1")
+	 ((:commit . "e96c53f5035c841b20937b65142498bd8e161a40")
 	  (:authors
 	   ("Lukas Fürmetz" . "fuermetz@mailbox.org"))
 	  (:maintainers
