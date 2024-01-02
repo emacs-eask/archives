@@ -52444,7 +52444,7 @@
 		   (:maintainer "Michael Fogleman" . "michaelwfogleman@gmail.com")
 		   (:url . "http://github.com/mwfogleman/org-randomnote"))])
  (org-re-reveal .
-		[(3 24 3 1 -4 20240101 1509)
+		[(3 25 0 1 -4 20240102 1358)
 		 ((emacs
 		   (24 4))
 		  (org
@@ -52452,7 +52452,7 @@
 		  (htmlize
 		   (1 34)))
 		 "Org export to reveal.js presentations" tar
-		 ((:commit . "e0dacd5b3bb4f70cd68bcc0ce146a3bb455ed00e")
+		 ((:commit . "d8d3094891af437e1c3868f66c5460800ceacb34")
 		  (:keywords "tools" "outlines" "hypermedia" "slideshow" "presentation" "oer")
 		  (:url . "https://gitlab.com/oer/org-re-reveal"))])
  (org-re-reveal-citeproc .
@@ -52858,11 +52858,11 @@
 		 (:keywords "extensions" "matching")
 		 (:url . "https://github.com/lordnik22"))])
  (org-side-tree .
-		[(0 5 1 -4 20231229 1509)
+		[(0 5 1 -4 20240102 1403)
 		 ((emacs
 		   (28 1)))
 		 "Navigate Org outlines in side window tree" tar
-		 ((:commit . "fb7115acbe1f4ba61df28426520889d53275391f")
+		 ((:commit . "77e88e8c528b809f24827c7cd986580d5bc4cd17")
 		  (:authors
 		   ("Grant Rosson <https://github.com/localauthor>"))
 		  (:maintainers
@@ -59115,11 +59115,11 @@
 	   (:keywords "processes" "tools")
 	   (:url . "https://github.com/julianrubisch/pronto.el"))])
  (proof-general .
-		[(4 6 -4 20231128 1504)
+		[(4 6 -4 20240102 1221)
 		 ((emacs
 		   (25 2)))
 		 "A generic Emacs interface for proof assistants" tar
-		 ((:commit . "879444ca374dc67e89f305b03d5e764bab863c55")
+		 ((:commit . "250c2f8dfb6d5894bbf7d7242f9fc494cffff3cf")
 		  (:maintainers
 		   (nil . "proof-general-maintainers@groupes.renater.fr"))
 		  (:maintainer nil . "proof-general-maintainers@groupes.renater.fr")
@@ -65617,9 +65617,9 @@
 		  (:maintainer "Simon Friis Vindum" . "simon@vindum.io")
 		  (:keywords "lisp"))])
  (smart-compile .
-		[(20230822 1 -4 20230822 1208)
+		[(20240102 1 -4 20240102 1350)
 		 nil "an interface to `compile'" tar
-		 ((:commit . "8dcf2d1639f662c355c3fe2f533995042dce0ca8")
+		 ((:commit . "09f31e1adf2bd900138b0b8e6d2060c336eb07ad")
 		  (:authors
 		   ("Seiji Zenitani" . "zenitani@gmail.com"))
 		  (:maintainers
@@ -76776,11 +76776,11 @@
 	    ((:commit . "76cf76bdc871cb0454a6fc555aeb1aa94f1b6e57")
 	     (:url . "https://github.com/schmir/zimports.el"))])
  (zk .
-     [(0 6 1 -4 20230821 2127)
+     [(0 6 1 -4 20240102 1405)
       ((emacs
 	(25 1)))
       "Functions for working with Zettelkasten-style linked notes" tar
-      ((:commit . "05b253b60d86799e839239316b660efe69e0268f")
+      ((:commit . "82f636c1edda416794c7115757ecded64f22afbf")
        (:authors
 	("Grant Rosson <https://github.com/localauthor>"))
        (:maintainers
@@ -76788,7 +76788,7 @@
        (:maintainer "Grant Rosson <https://github.com/localauthor>")
        (:url . "https://github.com/localauthor/zk"))])
  (zk-desktop .
-	     [(0 1 1 -4 20230712 1103)
+	     [(0 1 1 -4 20240102 1405)
 	      ((emacs
 		(27 1))
 	       (zk
@@ -76796,7 +76796,7 @@
 	       (zk-index
 		(0 9)))
 	      "Desktop environment for zk" tar
-	      ((:commit . "5be59ca972f3f624d444b7b7d7ca75a06bcd2ce5")
+	      ((:commit . "82f636c1edda416794c7115757ecded64f22afbf")
 	       (:authors
 		("Grant Rosson <https://github.com/localauthor>"))
 	       (:maintainers
@@ -76804,13 +76804,13 @@
 	       (:maintainer "Grant Rosson <https://github.com/localauthor>")
 	       (:url . "https://github.com/localauthor/zk"))])
  (zk-index .
-	   [(0 9 1 -4 20230930 1422)
+	   [(0 9 1 -4 20240102 1405)
 	    ((emacs
 	      (27 1))
 	     (zk
 	      (0 3)))
 	    "Index for zk" tar
-	    ((:commit . "afb7c078863b1b7e631019647d53d37f59a1554a")
+	    ((:commit . "82f636c1edda416794c7115757ecded64f22afbf")
 	     (:authors
 	      ("Grant Rosson <https://github.com/localauthor>"))
 	     (:maintainers
@@ -76818,7 +76818,7 @@
 	     (:maintainer "Grant Rosson <https://github.com/localauthor>")
 	     (:url . "https://github.com/localauthor/zk"))])
  (zk-luhmann .
-	     [(0 3 1 -4 20231009 1303)
+	     [(0 3 1 -4 20240102 1406)
 	      ((emacs
 		(25 1))
 	       (zk
@@ -76826,7 +76826,7 @@
 	       (zk-index
 		(0 9)))
 	      "Support for Luhmann-style IDs in zk" tar
-	      ((:commit . "e2af1477e5fc59cd4499eede991114561d8a7a37")
+	      ((:commit . "836943c5f6c6cdb932762385bbdf79e8bcfef3d7")
 	       (:authors
 		("Grant Rosson <https://github.com/localauthor>"))
 	       (:maintainers
