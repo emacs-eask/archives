@@ -434,7 +434,7 @@
 		 ("Arne Jørgensen" . "arne@arnested.dk"))
 		(:commit . "17927723adc5921e8058f7c29e5e50e88b975639"))])
  (eat .
-      [(0 9 4 0 20240101 153710)
+      [(0 9 4 0 20240104 60046)
        ((emacs
 	 (26 1))
 	(compat
@@ -445,7 +445,7 @@
 	(:maintainer "Akib Azmain Turja" . "akib@disroot.org")
 	(:authors
 	 ("Akib Azmain Turja" . "akib@disroot.org"))
-	(:commit . "2708a00ecbf0b7b2f7314a9a97fb36496ccccc2f"))])
+	(:commit . "77bc6d7acc8e6d26905310ad9e9ca09469a7ef1c"))])
  (edit-indirect .
 		[(0 1 10 0 20220511 112427)
 		 ((emacs
@@ -545,6 +545,21 @@
 	      (:authors
 	       ("Connor Smith" . "wconnorsmith@gmail.com"))
 	      (:commit . "2671071a4a57eaee7cc8c27b9e4b6fc60fd2ccd3"))])
+ (evil-escape .
+	      [(3 16 0 20231122 211452)
+	       ((emacs
+		 (26))
+		(evil
+		 (1 14 0))
+		(cl-lib
+		 (0 5)))
+	       "Escape from anything with a customizable key sequence" tar
+	       ((:url . "https://github.com/emacsorphanage/evil-escape")
+		(:keywords "convenience" "editing" "evil")
+		(:maintainer "Sylvain Benner" . "sylvain.benner@gmail.com")
+		(:authors
+		 ("Sylvain Benner" . "sylvain.benner@gmail.com"))
+		(:commit . "bdb1e69971520cbd65fe61830a1cdea5734d743c"))])
  (evil-exchange .
 		[(0 41 0 20220111 55801)
 		 ((evil
@@ -1111,7 +1126,7 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (helm .
-       [(3 9 7 0 20231230 72313)
+       [(3 9 7 0 20240104 55324)
 	((helm-core
 	  (3 9 7))
 	 (wfnames
@@ -1123,9 +1138,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "9262f9590c0a40f2f3339f10de2463e23659e726"))])
+	 (:commit . "f7ca648c2c3b308b90739f1862b4f750585ee362"))])
  (helm-core .
-	    [(3 9 7 0 20231230 72313)
+	    [(3 9 7 0 20240104 55324)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1135,7 +1150,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "9262f9590c0a40f2f3339f10de2463e23659e726"))])
+	      (:commit . "f7ca648c2c3b308b90739f1862b4f750585ee362"))])
  (highlight-parentheses .
 			[(2 1 1 0 20220408 84538)
 			 ((emacs
