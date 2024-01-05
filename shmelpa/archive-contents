@@ -23725,11 +23725,11 @@
 		      (:maintainer "Alex Murray" . "murray.alex@gmail.com")
 		      (:url . "https://github.com/alexmurray/flycheck-coverity"))])
  (flycheck-credo .
-		 [(0 1 0 1 -4 20170526 1545)
+		 [(0 1 0 1 -4 20240105 1655)
 		  ((flycheck
 		    (29)))
 		  "flycheck checker for elixir credo" tar
-		  ((:commit . "e88f11ead53805c361ec7706e44c3dfee1daa19f")
+		  ((:commit . "e285bd042a535d0f13e0b4c5226df404cdda4033")
 		   (:authors
 		    ("Aaron Jensen" . "aaronjensen@gmail.com"))
 		   (:maintainers
@@ -42420,7 +42420,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20231230 715)
+	   [(8 0 1 1 -4 20240105 1735)
 	    ((emacs
 	      (27 1))
 	     (dash
@@ -42438,7 +42438,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "2fe02448bb1c0adccbfae87119cc160df951f931")
+	    ((:commit . "57cd9bf153c5ac4ef49d8833aeac77ffa7ec8ea9")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainers
@@ -70038,20 +70038,20 @@
 		   (:keywords "extensions" "convenience" "data" "tools")
 		   (:url . "https://github.com/RobertPlant/time-uuid-mode"))])
  (timecop .
-	  [(0 0 1 1 -4 20160520 1052)
-	   ((cl-lib
-	     (0 5))
+	  [(0 0 1 1 -4 20240105 1901)
+	   ((emacs
+	     (26 3))
 	    (datetime-format
 	     (0 0 1)))
 	   "Freeze Time for testing" tar
-	   ((:commit . "3a1871613facc928ff250ed8f12fbc7073e46b75")
+	   ((:commit . "007dd38851621bee277d11e777c513a806f70c3a")
 	    (:authors
 	     ("USAMI Kenta" . "tadsan@zonu.me"))
 	    (:maintainers
 	     ("USAMI Kenta" . "tadsan@zonu.me"))
 	    (:maintainer "USAMI Kenta" . "tadsan@zonu.me")
-	    (:keywords "datetime" "testing")
-	    (:url . "https://github.com/zonuexe/emacs-datetime"))])
+	    (:keywords "lisp" "datetime" "testing")
+	    (:url . "https://github.com/emacs-php/emacs-datetime"))])
  (timer-revert .
 	       [(0 1 1 -4 20150122 2032)
 		nil "minor mode to revert buffer for a given time interval." tar
