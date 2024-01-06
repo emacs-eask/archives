@@ -2431,13 +2431,13 @@
 	   (:maintainer "Fanael Linithien" . "fanael4@gmail.com")
 	   (:url . "https://github.com/Fanael/asilea"))])
  (asm-blox .
-	   [(0 0 1 1 -4 20221220 1716)
+	   [(0 0 1 1 -4 20240106 1930)
 	    ((emacs
 	      (26 1))
 	     (yaml
 	      (0 5 1)))
 	    "Programming game involving WAT" tar
-	    ((:commit . "5517efb1e186139197a2d348b7339a72dd379af8")
+	    ((:commit . "6731d8e4f78d0b43ec9b90d8184c1d86d725ac7c")
 	     (:authors
 	      ("Zachary Romero"))
 	     (:maintainers
@@ -52525,7 +52525,7 @@
 		(:keywords "redmine" "org")
 		(:url . "https://github.com/gongo/org-redmine"))])
  (org-ref .
-	  [(3 0 1 -4 20231124 1419)
+	  [(3 0 1 -4 20240106 1704)
 	   ((org
 	     (9 4))
 	    (dash
@@ -52549,7 +52549,7 @@
 	    (ox-pandoc
 	     (0)))
 	   "citations, cross-references and bibliographies in org-mode" tar
-	   ((:commit . "a70ca9aed2eca1d4d0226eccb99c643f2198bb76")
+	   ((:commit . "0c7cd960ab2b0a78cd3940e7205621ecb1f142cf")
 	    (:authors
 	     ("John Kitchin" . "jkitchin@andrew.cmu.edu"))
 	    (:maintainers
@@ -76205,9 +76205,13 @@
 	 nil "Yet Another tex-mode for emacs //野鳥//" tar
 	 ((:commit . "157aa7974191bbb4707d26b05ce830282ad70ef5"))])
  (yaxception .
-	     [(0 3 3 1 -4 20150105 1540)
-	      nil "Provide framework about exception like Java for Elisp" tar
-	      ((:commit . "4e94cf3e0b9b5631b0e90eb4b7de597ee7185875")
+	     [(1 0 0 1 -4 20240106 1731)
+	      ((emacs
+		(28))
+	       (dash
+		(2 19 1)))
+	      "Provide framework about exception like Java for Elisp" tar
+	      ((:commit . "5785abd30247663c43565d1c49b2e1f92cf4658f")
 	       (:authors
 		("Hiroaki Otsu" . "ootsuhiroaki@gmail.com"))
 	       (:maintainers
