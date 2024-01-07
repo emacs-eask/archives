@@ -14666,15 +14666,11 @@
 	      (:keywords "frames")
 	      (:url . "https://github.com/mnp/dispwatch"))])
  (dist-file-mode .
-		 [(0 9 0 1 -4 20180830 418)
+		 [(0 9 0 1 -4 20240107 2040)
 		  ((emacs
-		    (24))
-		   (cl-lib
-		    (0 5))
-		   (s
-		    (1 9 0)))
+		    (26)))
 		  "Dispatch major mode for *.dist files" tar
-		  ((:commit . "e1ce8f592bc5d4d86d2f09e334728ac0d524c761")
+		  ((:commit . "8bb2f05487164cd690cac9c9c442969f6f79b81f")
 		   (:authors
 		    ("USAMI Kenta" . "tadsan@zonu.me"))
 		   (:maintainers
@@ -17839,7 +17835,7 @@
 		      (:maintainer "Yinghai Zhao" . "zyinghai@gmail.com")
 		      (:keywords "snippets"))])
  (ellama .
-	 [(0 5 1 1 -4 20240107 1828)
+	 [(0 5 2 1 -4 20240107 1930)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -17847,7 +17843,7 @@
 	   (spinner
 	    (1 7 4)))
 	  "Tool for interacting with LLMs" tar
-	  ((:commit . "a93b48f12050da14fe5d192167905d03f02e21d3")
+	  ((:commit . "7b6a6b0d8893d2f6a7aadf36e8664df4471f1179")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
 	   (:maintainers
@@ -68825,6 +68821,19 @@
 		 (:maintainer "Matthew L. Fidler")
 		 (:keywords "tabbar" "ruler mode" "menu" "tool bar.")
 		 (:url . "http://github.com/mlf176f2/tabbar-ruler.el"))])
+ (tabby-mode .
+	     [(1 0 1 -4 20240107 2124)
+	      ((emacs
+		(25 1)))
+	      "Minor mode for the Tabby AI coding assistant" tar
+	      ((:commit . "b656727247c5fc78690827fecf232edc1945a331")
+	       (:authors
+		("Ragnar Dahlén" . "r.dahlen@gmail.com"))
+	       (:maintainers
+		("Ragnar Dahlén" . "r.dahlen@gmail.com"))
+	       (:maintainer "Ragnar Dahlén" . "r.dahlen@gmail.com")
+	       (:keywords "tools" "convenience")
+	       (:url . "https://github.com/ragnard/tabby-mode"))])
  (tabgo .
 	[(1 0 0 1 -4 20230425 907)
 	 ((emacs
