@@ -172,7 +172,7 @@
 			  ("Thien-Thi Nguyen" . "ttn@gnu.org"))
 			 (:commit . "53b49ffcf2cabe8ef0f7fc1a74fd6748c3f99c58"))])
  (async .
-	[(1 9 8 0 20240106 144823)
+	[(1 9 8 0 20240108 152601)
 	 ((emacs
 	   (24 4)))
 	 "Asynchronous processing in Emacs" tar
@@ -181,16 +181,16 @@
 	  (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	  (:authors
 	   ("John Wiegley" . "jwiegley@gmail.com"))
-	  (:commit . "9e5814a0e1007d19795cac7fdb90d1dbd59b192a"))])
+	  (:commit . "d040f72cb0be5265d50ac541ddb09ebbc68b7908"))])
  (auctex .
-	 [(13 2 3 0 20231219 80716)
+	 [(13 2 4 0 20240108 130055)
 	  ((emacs
 	    (26 1)))
 	  "Integrated environment for *TeX*" tar
 	  ((:url . "https://www.gnu.org/software/auctex/")
 	   (:keywords "tex" "latex" "texinfo" "context" "doctex" "preview-latex")
 	   (:maintainer nil . "auctex-devel@gnu.org")
-	   (:commit . "306b7a4c401115f5102a84ddbb803c4f4e640b93"))])
+	   (:commit . "62befc2176987f202770b974cbda89314abc254e"))])
  (aumix-mode .
 	     [(7 0 20221221 74552)
 	      nil "run the aumix program in a buffer" tar
@@ -1473,8 +1473,10 @@
 			(:url . "https://elpa.gnu.org/packages/external-completion.html")
 			(:commit . "7c6e44e5ccb009a63da30fbc468c924dd383b521"))])
  (exwm .
-       [(0 28 0 20231006 0)
-	((xelb
+       [(0 28 0 20240108 0)
+	((emacs
+	  (26 1))
+	 (xelb
 	  (0 18)))
 	"Emacs X Window Manager" tar
 	((:url . "https://github.com/ch11ng/exwm")
@@ -1482,7 +1484,7 @@
 	 (:maintainer "Adrián Medraño Calvo" . "adrian@medranocalvo.com")
 	 (:authors
 	  ("Chris Feng" . "chris.w.feng@gmail.com"))
-	 (:commit . "56db521a3ed6a2ccc1193110a56545a1992e9654"))])
+	 (:commit . "798dc60a9b926e3fb3e48198ac507c8f9cc7299c"))])
  (f90-interface-browser .
 			[(1 1 0 20221221 75553)
 			 ((cl-lib
@@ -3387,7 +3389,7 @@
 	    ("Mattias Engdegård" . "mattiase@acm.org"))
 	   (:commit . "74da82a95cc58672507d90a438e4712edef8bf6e"))])
  (repology .
-	   [(1 2 3 0 20220320 111223)
+	   [(1 2 4 0 20240108 130348)
 	    ((emacs
 	      (26 1)))
 	    "Repology API access via Elisp" tar
@@ -3396,7 +3398,7 @@
 	     (:authors
 	      ("Nicolas Goaziou" . "mail@nicolasgoaziou.fr"))
 	     (:url . "https://elpa.gnu.org/packages/repology.html")
-	     (:commit . "b5829003decbdbe9002e7e1d29f45989a4659927"))])
+	     (:commit . "a6b41709525e60bdac807f153a3199003ee9d50f"))])
  (rich-minority .
 		[(1 0 3 0 20190419 83620)
 		 ((cl-lib
@@ -3832,16 +3834,16 @@
 	      (:url . "https://elpa.gnu.org/packages/svg-clock.html")
 	      (:commit . "bbac80d0cf1a67c9cf24ce1409248bdcdbd4a2c1"))])
  (svg-lib .
-	  [(0 3 0 20240104 62538)
+	  [(0 3 0 20240108 113737)
 	   ((emacs
 	     (27 1)))
 	   "SVG tags, progress bars & icons" tar
 	   ((:url . "https://github.com/rougier/svg-lib")
 	    (:keywords "svg" "icons" "tags" "convenience")
 	    (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
-	    (:commit . "913d86b0ec91e84366f9ef1e870bb5e3f51ffe65"))])
+	    (:commit . "0778c51c55aab280b9b28176c836fdb944ef4b09"))])
  (svg-tag-mode .
-	       [(0 3 2 0 20230824 94303)
+	       [(0 3 2 0 20240108 113259)
 		((emacs
 		  (27 1))
 		 (svg-lib
@@ -3852,7 +3854,7 @@
 		 (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
 		 (:authors
 		  ("Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr"))
-		 (:commit . "c914980f09a9c7e2ba4faf64874ef17505bdc861"))])
+		 (:commit . "03989f66b45944271faa6dd8eb977d623561de86"))])
  (swiper .
 	 [(0 14 2 0 20231025 232825)
 	  ((emacs
@@ -4672,7 +4674,7 @@
 		("Philip Kaludercic" . "philipk@posteo.net"))
 	       (:commit . "2bb88d0dc526177c3c6612d6585cee6b2c57803a"))])
  (yasnippet .
-	    [(0 14 0 0 20240104 151351)
+	    [(0 14 0 0 20240108 114246)
 	     ((cl-lib
 	       (0 5))
 	      (emacs
@@ -4681,7 +4683,7 @@
 	     ((:url . "http://github.com/joaotavora/yasnippet")
 	      (:keywords "convenience" "emulation")
 	      (:maintainer "Noam Postavsky" . "npostavs@gmail.com")
-	      (:commit . "ae36504a5f4f1db8240ad99df1ee9f5e3f570db4"))])
+	      (:commit . "d7f55c7501a67a27f45154a6d4bdc50c2c235623"))])
  (yasnippet-classic-snippets .
 			     [(1 0 2 0 20221221 83103)
 			      ((yasnippet
