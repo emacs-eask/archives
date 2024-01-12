@@ -621,7 +621,7 @@
 			("Ingo Lohmar" . "i.lohmar@gmail.com"))
 		       (:keywords "abbrev" "convenience" "matching"))])
  (compat .
-	 [(29 1 4 4 0 20240106 133615)
+	 [(29 1 4 4 0 20240112 163440)
 	  ((emacs
 	    (24 4))
 	   (seq
@@ -633,7 +633,7 @@
 	   (:authors
 	    ("Philip Kaludercic" . "philipk@posteo.net")
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	   (:commit . "dff3639b70f3c9916c5397056a51cdc3e60d5668"))])
+	   (:commit . "f94ddcc1680089121e6476ae55a506a72b18a68c"))])
  (consult .
 	  [(1 1 0 20240106 134438)
 	   ((emacs
@@ -791,7 +791,7 @@
 		 (:url . "https://elpa.gnu.org/packages/cycle-quotes.html")
 		 (:commit . "c1ef993f8c66fec71b10d70eb7a2cd0c416aaa12"))])
  (dape .
-       [(0 3 0 0 20240105 130404)
+       [(0 3 0 0 20240112 160331)
 	((emacs
 	  (29 1))
 	 (jsonrpc
@@ -799,7 +799,7 @@
 	"Debug Adapter Protocol for Emacs" tar
 	((:url . "https://github.com/svaante/dape")
 	 (:maintainer "Daniel Pettersson" . "daniel@dpettersson.net")
-	 (:commit . "4393b10a53b10c1e73ec13652f69e72a260b2bbe"))])
+	 (:commit . "8632214a6badeb84554810685e95c0bafbf9a40a"))])
  (darkroom .
 	   [(0 3 0 20200507 173652)
 	    ((cl-lib
@@ -1152,7 +1152,7 @@
 	       ("Markus Triska" . "triska@metalevel.at"))
 	      (:commit . "cfcdf9e42821d246b7fbc84877aa4ecacc184a1c"))])
  (eev .
-      [(20240107 0 20240107 33038)
+      [(20240107 0 20240112 151619)
        ((emacs
 	 (24 4)))
        "Support for e-scripts (eepitch blocks, elisp hyperlinks, etc)" tar
@@ -1161,7 +1161,7 @@
 	(:maintainer "Eduardo Ochs" . "eduardoochs@gmail.com")
 	(:authors
 	 ("Eduardo Ochs" . "eduardoochs@gmail.com"))
-	(:commit . "97288160f3077b3acfa966bbb10b436a5cda5950"))])
+	(:commit . "91dcf84cf56ac8d3ad5ccf4d89016ad80d3865d8"))])
  (ef-themes .
 	    [(1 5 0 0 20240112 62519)
 	     ((emacs
@@ -1321,7 +1321,7 @@
 	   ("Adam Porter" . "adam@alphapapa.net"))
 	  (:commit . "c8fa9444cd6a31cb1b3931cccc173a2dc7a8f843"))])
  (emms .
-       [(17 0 20240109 193537)
+       [(17 0 20240112 191745)
 	((cl-lib
 	  (0 5))
 	 (nadvice
@@ -1334,7 +1334,7 @@
 	 (:maintainer "Yoni Rabkin" . "yrk@gnu.org")
 	 (:authors
 	  ("Jorgen Schäfer" . "forcer@forcix.cx"))
-	 (:commit . "c5040a340216860fa276958538e7923bc5154413"))])
+	 (:commit . "66baf98e5dbd51c67fbf0bb5febfcc8ec661ce2f"))])
  (engrave-faces .
 		[(0 3 1 0 20230115 70118)
 		 ((emacs
@@ -1473,18 +1473,21 @@
 			(:url . "https://elpa.gnu.org/packages/external-completion.html")
 			(:commit . "7c6e44e5ccb009a63da30fbc468c924dd383b521"))])
  (exwm .
-       [(0 28 0 20240108 0)
+       [(0 28 0 20240112 140118)
 	((emacs
 	  (26 1))
 	 (xelb
 	  (0 18)))
 	"Emacs X Window Manager" tar
-	((:url . "https://github.com/ch11ng/exwm")
+	((:url . "https://github.com/emacs-exwm/exwm")
 	 (:keywords "unix")
-	 (:maintainer "Adrián Medraño Calvo" . "adrian@medranocalvo.com")
+	 (:maintainer
+	  ("Adrián Medraño Calvo" . "adrian@medranocalvo.com")
+	  ("Steven Allen" . "steven@stebalien.com")
+	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:authors
 	  ("Chris Feng" . "chris.w.feng@gmail.com"))
-	 (:commit . "798dc60a9b926e3fb3e48198ac507c8f9cc7299c"))])
+	 (:commit . "4a3feec76f94a2688e885e4742b600a76b6fa8af"))])
  (f90-interface-browser .
 			[(1 1 0 20221221 75553)
 			 ((cl-lib
@@ -2732,7 +2735,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "b24748093b00b37c3a572c4909f61c08fa27504f"))])
  (org .
-      [(9 7 -1 0 20240111 153459)
+      [(9 7 -1 0 20240112 191712)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2741,7 +2744,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "2708a6371456dded8997f1ea466420b86034cd24"))])
+	(:commit . "1aa4552e5c5d6dfde76c1d48b5c6486e6dfa7c1e"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs
@@ -4621,17 +4624,19 @@
 	  ("Yuan Fu" . "casouri@gmail.com"))
 	 (:commit . "32735a2a631fc2957b79cc65ad851546b7d572df"))])
  (xelb .
-       [(0 18 0 20200719 0)
+       [(0 18 0 20240112 140915)
 	((emacs
-	  (24 4))
-	 (cl-generic
-	  (0 2)))
+	  (26 1)))
 	"X protocol Emacs Lisp Binding" tar
-	((:url . "https://github.com/ch11ng/xelb")
-	 (:maintainer "Chris Feng" . "chris.w.feng@gmail.com")
+	((:url . "https://github.com/emacs-exwm/xelb")
+	 (:keywords "unix")
+	 (:maintainer
+	  ("Adrián Medraño Calvo" . "adrian@medranocalvo.com")
+	  ("Steven Allen" . "steven@stebalien.com")
+	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:authors
 	  ("Chris Feng" . "chris.w.feng@gmail.com"))
-	 (:keywords "unix"))])
+	 (:commit . "2f29a7fb44356411e515b4a57ad94464090f510e"))])
  (xpm .
       [(1 0 5 0 20230911 4618)
        ((cl-lib
