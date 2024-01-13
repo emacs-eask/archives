@@ -45,21 +45,28 @@
 		(:authors
 		 ("Stephen Leake" . "stephen_leake@member.fsf.org")))])
  (adaptive-wrap .
-		[(0 8 0 20210602 91446)
-		 nil "Smart line-wrapping with wrap-prefix" tar
-		 ((:maintainer "Stephen Berman" . "stephen.berman@gmx.net")
+		[(0 8 0 20240113 95028)
+		 ((emacs
+		   (24 1)))
+		 "Smart line-wrapping with wrap-prefix" tar
+		 ((:maintainer
+		   ("Stephen Berman" . "stephen.berman@gmx.net")
+		   ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
 		  (:authors
 		   ("Stephen Berman" . "stephen.berman@gmx.net")
 		   ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
-		  (:url . "https://elpa.gnu.org/packages/adaptive-wrap.html"))])
+		  (:url . "https://elpa.gnu.org/packages/adaptive-wrap.html")
+		  (:commit . "cb759c0ad5a3203464687c09dbe0e56464c2126e"))])
  (adjust-parens .
-		[(3 1 0 20221221 73810)
-		 nil "Indent and dedent Lisp code, automatically adjust close parens" tar
+		[(3 2 0 20240113 95404)
+		 ((emacs
+		   (24 3)))
+		 "Indent and dedent Lisp code, automatically adjust close parens" tar
 		 ((:maintainer "Barry O'Reilly" . "gundaetiapo@gmail.com")
 		  (:authors
 		   ("Barry O'Reilly" . "gundaetiapo@gmail.com"))
 		  (:url . "https://elpa.gnu.org/packages/adjust-parens.html")
-		  (:commit . "e6723f0fd214197dbcc69ae5898a166cc3662b9b"))])
+		  (:commit . "a7e0ece3037821ea438fe401ade6d3c60b3d24e0"))])
  (advice-patch .
 	       [(0 1 0 20201220 233221)
 		((emacs
@@ -125,14 +132,16 @@
 		  ("Gregory Chamberlain" . "greg@cosine.blue"))
 		 (:commit . "0cecd81e7f6631c91ed0437d801517677e018c1d"))])
  (all .
-      [(1 0 0 20221221 74133)
-       nil "Edit all lines matching a given regexp" tar
+      [(1 0 0 20240113 95556)
+       ((emacs
+	 (24 1)))
+       "Edit all lines matching a given regexp" tar
        ((:keywords "matching")
 	(:maintainer "Per Abrahamsen" . "per.abrahamsen@gmail.com")
 	(:authors
 	 ("Per Abrahamsen" . "per.abrahamsen@gmail.com"))
 	(:url . "https://elpa.gnu.org/packages/all.html")
-	(:commit . "0f3f880cba8783045cfd94dca6d750d51a9f212c"))])
+	(:commit . "c0df99f455c82f8718cf4f8f2b64a2a285f31b9a"))])
  (altcaps .
 	  [(1 2 0 0 20240112 62607)
 	   ((emacs
@@ -144,14 +153,16 @@
 	     ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	    (:commit . "b1577423a0ae046ac0bb67550a7f42229998a3f5"))])
  (ampc .
-       [(0 2 0 20221214 153219)
-	nil "Asynchronous Music Player Controller" tar
+       [(0 2 0 20240113 95846)
+	((emacs
+	  (24 3)))
+	"Asynchronous Music Player Controller" tar
 	((:keywords "ampc" "mpc" "mpd")
 	 (:maintainer nil . "emacs-devel@gnu.org")
 	 (:authors
 	  ("Christopher Schmidt" . "christopher@ch.ristopher.com"))
 	 (:url . "https://elpa.gnu.org/packages/ampc.html")
-	 (:commit . "9fffb61cf060433fce9960d766eb3e641b6046ca"))])
+	 (:commit . "fb8b8fe157c7e2ffe4523ac564516431968dea2f"))])
  (arbitools .
 	    [(0 977 0 20221212 221354)
 	     ((cl-lib
@@ -1152,7 +1163,7 @@
 	       ("Markus Triska" . "triska@metalevel.at"))
 	      (:commit . "cfcdf9e42821d246b7fbc84877aa4ecacc184a1c"))])
  (eev .
-      [(20240107 0 20240112 151619)
+      [(20240107 0 20240113 14718)
        ((emacs
 	 (24 4)))
        "Support for e-scripts (eepitch blocks, elisp hyperlinks, etc)" tar
@@ -1161,7 +1172,7 @@
 	(:maintainer "Eduardo Ochs" . "eduardoochs@gmail.com")
 	(:authors
 	 ("Eduardo Ochs" . "eduardoochs@gmail.com"))
-	(:commit . "91dcf84cf56ac8d3ad5ccf4d89016ad80d3865d8"))])
+	(:commit . "fb09b2d7c9bd67859d7fac6636318ef96d137309"))])
  (ef-themes .
 	    [(1 5 0 0 20240112 62519)
 	     ((emacs
@@ -1321,7 +1332,7 @@
 	   ("Adam Porter" . "adam@alphapapa.net"))
 	  (:commit . "c8fa9444cd6a31cb1b3931cccc173a2dc7a8f843"))])
  (emms .
-       [(17 0 20240112 191745)
+       [(17 0 20240112 210839)
 	((cl-lib
 	  (0 5))
 	 (nadvice
@@ -1334,7 +1345,7 @@
 	 (:maintainer "Yoni Rabkin" . "yrk@gnu.org")
 	 (:authors
 	  ("Jorgen Schäfer" . "forcer@forcix.cx"))
-	 (:commit . "66baf98e5dbd51c67fbf0bb5febfcc8ec661ce2f"))])
+	 (:commit . "de8d0a3aa855e1ea319d22671222ca612e31941d"))])
  (engrave-faces .
 		[(0 3 1 0 20230115 70118)
 		 ((emacs
@@ -2257,7 +2268,7 @@
 	 ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	(:commit . "6edda7b47b09ba0007458a7a66baf94513d740d8"))])
  (llm .
-      [(0 8 0 0 20231229 210251)
+      [(0 8 0 0 20240112 170508)
        ((emacs
 	 (28 1)))
        "Interface to pluggable llm backends" tar
@@ -2265,7 +2276,7 @@
 	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
-	(:commit . "dac199a3dd43cf70d69f9cb042191ca89ef07445"))])
+	(:commit . "97933359cb4f1bf4b03ded5ae43ea3360b818e77"))])
  (lmc .
       [(1 4 0 20230105 113402)
        ((emacs
@@ -2968,13 +2979,13 @@
 	      ("Harald Jörg" . "haj@posteo.de"))
 	     (:commit . "638009f98a144790ea85fd0fa311d7499fdac94f"))])
  (persist .
-	  [(0 5 0 20240107 145528)
+	  [(0 6 0 20240113 94225)
 	   nil "Persist Variables between Emacs Sessions" tar
-	   ((:maintainer "Phillip Lord" . "phillip.lord@russet.org.uk")
+	   ((:maintainer "Joseph Turner" . "persist-el@breatheoutbreathe.in")
 	    (:authors
 	     ("Phillip Lord" . "phillip.lord@russet.org.uk"))
 	    (:url . "https://elpa.gnu.org/packages/persist.html")
-	    (:commit . "01e5001da9fbe2dd7dc085f28be43ec4f4be886e"))])
+	    (:commit . "cd28c6589800f222644934bfc7ebe58213347a57"))])
  (phpinspect .
 	     [(0 0 20230831 151323)
 	      ((compat
@@ -3173,7 +3184,7 @@
 		   ("Feng Shu" . "tumashu@163.com"))
 		  (:commit . "d61af27686f7a39e6c138b7261a686e7ea7a0ef7"))])
  (python .
-	 [(0 28 0 20240102 22814)
+	 [(0 28 0 20240113 93319)
 	  ((emacs
 	    (24 4))
 	   (compat
@@ -3186,7 +3197,7 @@
 	   (:maintainer nil . "emacs-devel@gnu.org")
 	   (:authors
 	    ("Fabián E. Gallina" . "fgallina@gnu.org"))
-	   (:commit . "7c6e44e5ccb009a63da30fbc468c924dd383b521"))])
+	   (:commit . "9b8b352ebc09de3259f655fa4d491507109044b3"))])
  (quarter-plane .
 		[(0 1 0 20221221 81727)
 		 nil "Minor mode for quarter-plane style editing" tar
