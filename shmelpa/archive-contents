@@ -29675,7 +29675,7 @@
 	  (:keywords "comm" "convenience")
 	  (:url . "https://github.com/antonhibl/gptai"))])
  (gptel .
-	[(0 5 5 1 -4 20240113 453)
+	[(0 6 0 1 -4 20240113 705)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -29683,7 +29683,7 @@
 	  (compat
 	   (29 1 4 1)))
 	 "Interact with ChatGPT or other LLMs" tar
-	 ((:commit . "bb523ec2b5ded5494483e2fe77d160ce0edf9b3d")
+	 ((:commit . "3f3db912f6648480d186b39bb33e5cafd570993a")
 	  (:authors
 	   ("Karthik Chikmagalur"))
 	  (:maintainers
@@ -32655,7 +32655,7 @@
 			(:keywords "org" "outlines")
 			(:url . "https://github.com/akirak/org-multi-wiki"))])
  (helm-org-ql .
-	      [(0 6 1 1 -4 20240110 756)
+	      [(0 6 1 1 -4 20240113 603)
 	       ((emacs
 		 (26 1))
 		(dash
@@ -32667,7 +32667,7 @@
 		(org-ql
 		 (0 6 -1)))
 	       "Helm support for org-ql" tar
-	       ((:commit . "7d8bd8b8847e4cf7a9fa04c7d4a4cbb2ae223e46")
+	       ((:commit . "9606aaf81230d1faf2c7f54925b45e527fa32bf0")
 		(:authors
 		 ("Adam Porter" . "adam@alphapapa.net"))
 		(:maintainers
@@ -34946,7 +34946,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 4 -1 1 -4 20240105 615)
+	     [(0 4 -1 1 -4 20240106 1342)
 	      ((emacs
 		(28 1))
 	       (map
@@ -34962,7 +34962,7 @@
 	       (transient
 		(0 5 2)))
 	      "P2P filesystem" tar
-	      ((:commit . "3db4bc0e326675d27e52791d182c0eae28508695")
+	      ((:commit . "96436b4e58ea9094a89588cb564f92b350c628dc")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
 	       (:maintainers
@@ -48340,7 +48340,7 @@
 		    (:keywords "mail")
 		    (:url . "https://git.sr.ht/~tarsius/notmuch-maildir"))])
  (notmuch-transient .
-		    [(0 1 0 1 -4 20240106 34)
+		    [(0 1 0 1 -4 20240106 1322)
 		     ((emacs
 		       (27 1))
 		      (compat
@@ -48350,7 +48350,7 @@
 		      (transient
 		       (0 5 2)))
 		     "Command dispatchers for Notmuch" tar
-		     ((:commit . "2e4204b91b2e2230222d528a76c0f962cdd23742")
+		     ((:commit . "0dc26288276e43a2e362acae850444a47b7db652")
 		      (:authors
 		       ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		      (:maintainers
@@ -52346,7 +52346,7 @@
 			 ("Vladimir S. Ivanov" . "ivvl82@gmail.com"))
 			(:maintainer "Vladimir S. Ivanov" . "ivvl82@gmail.com"))])
  (org-ql .
-	 [(0 9 -1 1 -4 20240110 756)
+	 [(0 9 -1 1 -4 20240113 647)
 	  ((emacs
 	    (27 1))
 	   (compat
@@ -52372,7 +52372,7 @@
 	   (ts
 	    (0 2 -1)))
 	  "Org Query Language, search command, and agenda-like view" tar
-	  ((:commit . "6679bdea0012711372a6b3736c13020bfe68e7f9")
+	  ((:commit . "8d3c93b8838bd5d5347dd8962b68cc3cabcf0147")
 	   (:authors
 	    ("Adam Porter" . "adam@alphapapa.net"))
 	   (:maintainers
@@ -65561,6 +65561,21 @@
 			 (:maintainer "João Távora" . "joaotavora@gmail.com")
 			 (:keywords "languages" "lisp" "sly")
 			 (:url . "https://github.com/capitaomorte/sly-named-readtables"))])
+ (sly-overlay .
+	      [(1 0 0 1 -4 20240107 2206)
+	       ((emacs
+		 (24 4))
+		(sly
+		 (1 0)))
+	       "Overlay Common Lisp evaluation results" tar
+	       ((:commit . "078c2db5390ef19d1336da067fe85b9586b261e4")
+		(:authors
+		 ("Colin Woodbury" . "colin@fosskers.ca"))
+		(:maintainers
+		 ("Colin Woodbury" . "colin@fosskers.ca"))
+		(:maintainer "Colin Woodbury" . "colin@fosskers.ca")
+		(:keywords "lisp")
+		(:url . "https://git.sr.ht/~fosskers/sly-overlay"))])
  (sly-quicklisp .
 		[(0 1 1 -4 20211206 948)
 		 ((sly
@@ -72328,13 +72343,13 @@
 				 (:keywords "convenience" "docs" "languages")
 				 (:url . "https://github.com/grettke/universal-emotions-emoticons"))])
  (universal-sidecar .
-		    [(1 4 3 1 -4 20240104 1701)
+		    [(1 5 0 1 -4 20240107 2146)
 		     ((emacs
 		       (26 1))
 		      (magit-section
 		       (3 0 0)))
 		     "A universal sidecar buffer" tar
-		     ((:commit . "7ba324c1e67ab22a24db5136098f5cb080d8dad2")
+		     ((:commit . "64c2e7a65906fe280a104e2c08574a540c718361")
 		      (:authors
 		       ("Samuel W. Flint" . "me@samuelwflint.com"))
 		      (:maintainers
@@ -72342,7 +72357,7 @@
 		      (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
 		      (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
  (universal-sidecar-elfeed-related .
-				   [(1 0 1 1 -4 20240103 2118)
+				   [(1 0 1 1 -4 20240106 1755)
 				    ((emacs
 				      (25 1))
 				     (universal-sidecar
@@ -72352,7 +72367,7 @@
 				     (elfeed
 				      (3 4 1)))
 				    "Related Papers Sidecar Section for Elfeed" tar
-				    ((:commit . "cf2cdcef95f5e3c30943506dda269c4295f2f5a0")
+				    ((:commit . "4c1be458ed7cde1d97d2e30630fb94958eb89ed3")
 				     (:authors
 				      ("Samuel W. Flint" . "me@samuelwflint.com"))
 				     (:maintainers
@@ -72360,7 +72375,7 @@
 				     (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
 				     (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
  (universal-sidecar-elfeed-score .
-				 [(0 5 0 1 -4 20240103 2118)
+				 [(0 5 0 1 -4 20240106 1755)
 				  ((emacs
 				    (25 1))
 				   (universal-sidecar
@@ -72370,7 +72385,7 @@
 				   (elfeed-score
 				    (1 2 6)))
 				  "Show Elfeed Score information in sidecar" tar
-				  ((:commit . "cf2cdcef95f5e3c30943506dda269c4295f2f5a0")
+				  ((:commit . "4c1be458ed7cde1d97d2e30630fb94958eb89ed3")
 				   (:authors
 				    ("Samuel W. Flint" . "me@samuelwflint.com"))
 				   (:maintainers
@@ -72378,7 +72393,7 @@
 				   (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
 				   (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
  (universal-sidecar-roam .
-			 [(1 0 4 1 -4 20240103 2118)
+			 [(1 0 4 1 -4 20240106 1755)
 			  ((emacs
 			    (26 1))
 			   (universal-sidecar
@@ -72386,7 +72401,7 @@
 			   (org-roam
 			    (2 0 0)))
 			  "Integrate universal-sidecar and org-roam" tar
-			  ((:commit . "cf2cdcef95f5e3c30943506dda269c4295f2f5a0")
+			  ((:commit . "4c1be458ed7cde1d97d2e30630fb94958eb89ed3")
 			   (:authors
 			    ("Samuel W. Flint" . "me@samuelwflint.com"))
 			   (:maintainers
