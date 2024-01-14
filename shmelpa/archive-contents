@@ -18634,7 +18634,7 @@
 	       (:keywords "convenience")
 	       (:url . "https://github.com/smihica/emmet-mode"))])
  (emms .
-       [(17 1 -4 20240113 2312)
+       [(18 1 -4 20240114 2024)
 	((cl-lib
 	  (0 5))
 	 (nadvice
@@ -18642,7 +18642,7 @@
 	 (seq
 	  (0)))
 	"The Emacs Multimedia System" tar
-	((:commit . "6e36f3e1cc3ef6a56bbdbacd2567b2afe70255e3")
+	((:commit . "1d7547f3fd2659b1b9a4b4534b4673341ee81c92")
 	 (:authors
 	  ("Jorgen Schäfer" . "forcer@forcix.cx"))
 	 (:maintainers
@@ -37616,11 +37616,11 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/brianc/jade-mode"))])
  (jami-bot .
-	   [(0 0 1 1 -4 20231229 1348)
+	   [(0 0 2 1 -4 20240114 1828)
 	    ((emacs
 	      (27 1)))
 	    "An extendable chat bot for the private messenger GNU Jami" tar
-	    ((:commit . "349b3ab3000e874dc87f970e8f1900939b3ce3e5")
+	    ((:commit . "1da4d471587f55599686f97e143dfdb80d080fd5")
 	     (:authors
 	      ("Hanno Perrey <http://gitlab.com/hperrey>"))
 	     (:maintainers
@@ -38073,6 +38073,19 @@
 	     (:maintainer "Henrik Nyman" . "h@nyymanni.com")
 	     (:keywords "comm" "jira" "rest" "api")
 	     (:url . "https://github.com/nyyManni/jiralib2"))])
+ (jirascope .
+	    [(0 2 0 1 -4 20240111 1954)
+	     ((emacs
+	       (25 1)))
+	     "A Jira client" tar
+	     ((:commit . "60fe4d8e7060a7b3e13ad7a70ca7b331490def94")
+	      (:authors
+	       ("Stanisław Zagórowski" . "duckonaut@gmail.com"))
+	      (:maintainers
+	       ("Stanisław Zagórowski" . "duckonaut@gmail.com"))
+	      (:maintainer "Stanisław Zagórowski" . "duckonaut@gmail.com")
+	      (:keywords "tools")
+	      (:url . "https://github.com/Duckonaut/jirascope"))])
  (jist .
        [(0 0 1 1 -4 20161229 1721)
 	((emacs
@@ -38108,6 +38121,19 @@
 			       ("Campbell Barton" . "ideasman42@gmail.com"))
 			      (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 			      (:url . "https://codeberg.org/ideasman42/emacs-jit-lock-stealth-progress"))])
+ (jmespath .
+	   [(0 0 1 1 -4 20240113 2153)
+	    ((emacs
+	      (24 3)))
+	    "Query JSON using jmespath" tar
+	    ((:commit . "9d688c0620dcde91bdee668cad97293fdf50c13b")
+	     (:authors
+	      ("Shubham Kumar" . "unresolved.shubham@gmail.com"))
+	     (:maintainers
+	      ("Shubham Kumar" . "unresolved.shubham@gmail.com"))
+	     (:maintainer "Shubham Kumar" . "unresolved.shubham@gmail.com")
+	     (:keywords "json" "data" "languages" "tools")
+	     (:url . "https://github.com/unresolvedcold/jmespath"))])
  (jmt-mode .
 	   [(0 -4 20230519 1523)
 	    ((emacs
@@ -50888,6 +50914,23 @@
 	     (:maintainer "Calvin Beck" . "hobbes@ualberta.ca")
 	     (:keywords "convenience" "abbrev" "outlines" "org" "food" "recipes" "cooking")
 	     (:url . "https://github.com/Chobbes/org-chef"))])
+ (org-cite-sidecar .
+		   [(0 5 0 1 -4 20240114 1810)
+		    ((emacs
+		      (28 1))
+		     (citeproc
+		      (0 9 4))
+		     (universal-sidecar
+		      (1 5 0)))
+		    "Sidecar to show references in Org Mode" tar
+		    ((:commit . "4bc8f42dc5bc9e87b83fcb55a144391b501e0bec")
+		     (:authors
+		      ("Samuel W. Flint" . "me@samuelwflint.com"))
+		     (:maintainers
+		      ("Samuel W. Flint" . "me@samuelwflint.com"))
+		     (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
+		     (:keywords "bib" "org")
+		     (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
  (org-cliplink .
 	       [(0 2 1 -4 20201126 1020)
 		((emacs
@@ -52641,7 +52684,7 @@
 		  (:keywords "convenience" "hypermedia" "org")
 		  (:url . "https://github.com/unhammer/org-rich-yank"))])
  (org-roam .
-	   [(2 2 2 1 -4 20230307 1721)
+	   [(2 2 2 1 -4 20240114 1941)
 	    ((emacs
 	      (26 1))
 	     (dash
@@ -52653,7 +52696,7 @@
 	     (magit-section
 	      (3 0 0)))
 	    "A database abstraction layer for Org-mode" tar
-	    ((:commit . "5c06471c3a11348342719fd9011486455adeb701")
+	    ((:commit . "2e94f55cc58f6dce2772a6f33521eb5afcf67265")
 	     (:authors
 	      ("Jethro Kuan" . "jethrokuan95@gmail.com"))
 	     (:maintainers
@@ -63300,6 +63343,19 @@
 	      ((:commit . "4c6d636b86e3bb1d95de819dc48dda92abdfbcf4")
 	       (:keywords "languages")
 	       (:url . "https://github.com/hvesalai/emacs-scala-mode"))])
+ (scala-ts-mode .
+		[(0 0 1 1 -4 20231107 1258)
+		 ((emacs
+		   (29 1)))
+		 "Scala Tree-Sitter Mode" tar
+		 ((:commit . "cbfab189842ce564d9514f1b65a72b0af0d51438")
+		  (:authors
+		   ("Karan Ahlawat" . "ahlawatkaran12@gmail.com"))
+		  (:maintainers
+		   ("Karan Ahlawat" . "ahlawatkaran12@gmail.com"))
+		  (:maintainer "Karan Ahlawat" . "ahlawatkaran12@gmail.com")
+		  (:keywords "scala" "languages" "tree-sitter")
+		  (:url . "https://github.com/KaranAhlawat/scala-ts-mode"))])
  (scf-mode .
 	   [(0 1 1 -4 20151122 248)
 	    nil "shorten file-names in compilation type buffers" tar
