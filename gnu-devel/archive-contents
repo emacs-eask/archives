@@ -632,7 +632,7 @@
 			("Ingo Lohmar" . "i.lohmar@gmail.com"))
 		       (:keywords "abbrev" "convenience" "matching"))])
  (compat .
-	 [(29 1 4 4 0 20240112 163440)
+	 [(29 1 4 4 0 20240113 225710)
 	  ((emacs
 	    (24 4))
 	   (seq
@@ -644,7 +644,7 @@
 	   (:authors
 	    ("Philip Kaludercic" . "philipk@posteo.net")
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	   (:commit . "f94ddcc1680089121e6476ae55a506a72b18a68c"))])
+	   (:commit . "1bf572df407f3e40fa062810ac2e7342b4eca140"))])
  (consult .
 	  [(1 1 0 20240106 134438)
 	   ((emacs
@@ -1332,7 +1332,7 @@
 	   ("Adam Porter" . "adam@alphapapa.net"))
 	  (:commit . "c8fa9444cd6a31cb1b3931cccc173a2dc7a8f843"))])
  (emms .
-       [(17 0 20240112 210839)
+       [(17 0 20240113 181225)
 	((cl-lib
 	  (0 5))
 	 (nadvice
@@ -1345,7 +1345,7 @@
 	 (:maintainer "Yoni Rabkin" . "yrk@gnu.org")
 	 (:authors
 	  ("Jorgen Schäfer" . "forcer@forcix.cx"))
-	 (:commit . "de8d0a3aa855e1ea319d22671222ca612e31941d"))])
+	 (:commit . "6e36f3e1cc3ef6a56bbdbacd2567b2afe70255e3"))])
  (engrave-faces .
 		[(0 3 1 0 20230115 70118)
 		 ((emacs
@@ -1484,7 +1484,7 @@
 			(:url . "https://elpa.gnu.org/packages/external-completion.html")
 			(:commit . "7c6e44e5ccb009a63da30fbc468c924dd383b521"))])
  (exwm .
-       [(0 28 0 20240113 194300)
+       [(0 28 0 20240114 739)
 	((emacs
 	  (27 1))
 	 (xelb
@@ -1498,7 +1498,7 @@
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:authors
 	  ("Chris Feng" . "chris.w.feng@gmail.com"))
-	 (:commit . "f3c03ebbc3bb57906209e3c396ac50177e8c577c"))])
+	 (:commit . "5acb8bea8a4c1e01e05c29eedbd85360a0e27309"))])
  (f90-interface-browser .
 			[(1 1 0 20221221 75553)
 			 ((cl-lib
@@ -2979,13 +2979,15 @@
 	      ("Harald Jörg" . "haj@posteo.de"))
 	     (:commit . "638009f98a144790ea85fd0fa311d7499fdac94f"))])
  (persist .
-	  [(0 6 0 20240113 94225)
-	   nil "Persist Variables between Emacs Sessions" tar
+	  [(0 6 0 20240114 52348)
+	   ((emacs
+	     (26 1)))
+	   "Persist Variables between Emacs Sessions" tar
 	   ((:maintainer "Joseph Turner" . "persist-el@breatheoutbreathe.in")
 	    (:authors
 	     ("Phillip Lord" . "phillip.lord@russet.org.uk"))
 	    (:url . "https://elpa.gnu.org/packages/persist.html")
-	    (:commit . "cd28c6589800f222644934bfc7ebe58213347a57"))])
+	    (:commit . "f569906232c3812f5f5d934130edfefbc9165d7f"))])
  (phpinspect .
 	     [(0 0 20230831 151323)
 	      ((compat
@@ -4635,7 +4637,7 @@
 	  ("Yuan Fu" . "casouri@gmail.com"))
 	 (:commit . "32735a2a631fc2957b79cc65ad851546b7d572df"))])
  (xelb .
-       [(0 18 0 20240113 193452)
+       [(0 18 0 20240114 83709)
 	((emacs
 	  (27 1)))
 	"X protocol Emacs Lisp Binding" tar
@@ -4647,7 +4649,7 @@
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:authors
 	  ("Chris Feng" . "chris.w.feng@gmail.com"))
-	 (:commit . "3908bd1bf895ab4f1d841bf2a799a6ff521e6447"))])
+	 (:commit . "a68977a9697401a8326745493a1e4be3f0473022"))])
  (xpm .
       [(1 0 5 0 20230911 4618)
        ((cl-lib
@@ -4690,7 +4692,7 @@
 		("Philip Kaludercic" . "philipk@posteo.net"))
 	       (:commit . "2bb88d0dc526177c3c6612d6585cee6b2c57803a"))])
  (yasnippet .
-	    [(0 14 0 0 20240108 114246)
+	    [(0 14 0 0 20240114 3422)
 	     ((cl-lib
 	       (0 5))
 	      (emacs
@@ -4699,7 +4701,7 @@
 	     ((:url . "http://github.com/joaotavora/yasnippet")
 	      (:keywords "convenience" "emulation")
 	      (:maintainer "Noam Postavsky" . "npostavs@gmail.com")
-	      (:commit . "d7f55c7501a67a27f45154a6d4bdc50c2c235623"))])
+	      (:commit . "8ce506e32f629b549fd3be8c466fe87819f54d13"))])
  (yasnippet-classic-snippets .
 			     [(1 0 2 0 20221221 83103)
 			      ((yasnippet
