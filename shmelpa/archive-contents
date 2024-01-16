@@ -3254,7 +3254,7 @@
 		  (:maintainer "ncaq" . "ncaq@ncaq.net")
 		  (:url . "https://github.com/ncaq/auto-sudoedit"))])
  (auto-virtualenv .
-		  [(1 4 1 1 -4 20220712 1612)
+		  [(1 4 1 1 -4 20240115 1548)
 		   ((cl-lib
 		     (0 5))
 		    (pyvenv
@@ -3262,7 +3262,7 @@
 		    (s
 		     (1 10 0)))
 		   "Auto activate python virtualenvs" tar
-		   ((:commit . "1e58a878984dbd2c91b4f128ded03fd954336907")
+		   ((:commit . "5771eb59fc2f589aa3066297ff3bbeeae474d846")
 		    (:authors
 		     ("Marcwebbie" . "marcwebbie@gmail.com"))
 		    (:maintainers
@@ -7759,11 +7759,11 @@
 	       (:keywords "c" "abbrev" "convenience")
 	       (:url . "https://git.sr.ht/~pkal/clang-capf"))])
  (clang-format .
-	       [(0 1 0 1 -4 20230809 2200)
+	       [(0 1 0 1 -4 20240115 1750)
 		((cl-lib
 		  (0 3)))
 		"Format code using clang-format" tar
-		((:commit . "bce0bb4ca17ecb6e6927074920945cef2a78f5b6")
+		((:commit . "9f4358fcc8b04018cc1ed46fcc96fc7bfa361a47")
 		 (:keywords "tools" "c"))])
  (clang-format+ .
 		[(1 0 0 1 -4 20190824 2216)
@@ -14395,13 +14395,13 @@
 		    (:keywords "tools")
 		    (:url . "https://github.com/ShuguangSun/dired-view-data"))])
  (diredc .
-	 [(1 0 1 -4 20220113 332)
+	 [(1 0 1 -4 20240115 1433)
 	  ((emacs
 	    (26 1))
 	   (key-assist
 	    (1 0)))
 	  "Extensions for dired" tar
-	  ((:commit . "7ee68f6b1c87f8ab86cf23416472747e88860717")
+	  ((:commit . "221437779f2550ecede095dfb6ab415d1f08b1ef")
 	   (:keywords "files")
 	   (:url . "https://github.com/Boruch-Baum/emacs-diredc"))])
  (diredfl .
@@ -16800,9 +16800,9 @@
 	(:keywords "org-mode" "convenience" "beautify")
 	(:url . "https://github.com/emacs-china/EGO"))])
  (eide .
-       [(2 3 1 1 -4 20231112 2210)
+       [(2 3 1 1 -4 20240115 2010)
 	nil "IDE interface" tar
-	((:commit . "1979bec36dba95168c9e6c68bd7d9248502de68e")
+	((:commit . "057dd71ab7f5d3e4a27a6a65c07615ecc8192f85")
 	 (:authors
 	  ("Cédric Marie" . "cedric@hjuvi.fr.eu.org"))
 	 (:maintainer "Cédric Marie" . "cedric@hjuvi.fr.eu.org")
@@ -17695,11 +17695,11 @@
 	      (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk")
 	      (:keywords "lisp"))])
  (elisp-demos .
-	      [(2020 3 30 1 -4 20230726 2059)
+	      [(2024 1 16 1 -4 20240115 1734)
 	       ((emacs
 		 (24 4)))
 	       "Elisp API Demos" tar
-	       ((:commit . "8d0cd806b109076e6c4383edf59dbab9435dc5dc")
+	       ((:commit . "bf22eddd42c8fcc52648d2cafd842f120d4dc591")
 		(:authors
 		 ("Xu Chunyang"))
 		(:maintainers
@@ -17812,13 +17812,13 @@
 		(:keywords "languages" "elixir")
 		(:url . "https://github.com/elixir-editors/emacs-elixir"))])
  (elixir-ts-mode .
-		 [(1 6 1 -4 20240113 1103)
+		 [(1 6 1 -4 20240116 645)
 		  ((emacs
 		    (29 1))
 		   (heex-ts-mode
 		    (1 3)))
 		  "Major mode for Elixir with tree-sitter support" tar
-		  ((:commit . "0f43be6dd597f1110c09e2931761158f3e0ef60c")
+		  ((:commit . "6db05baed9a34d01edf0bfdd804d951dedc6dccb")
 		   (:authors
 		    ("Wilhelm H Kirschbaum"))
 		   (:maintainers
@@ -27163,13 +27163,13 @@
 	     (:keywords "evernote" "geeknote" "note" "emacs-evernote" "evernote-mode")
 	     (:url . "http://github.com/avendael/emacs-geeknote"))])
  (geiser .
-	 [(0 30 1 -4 20240113 2047)
+	 [(0 30 1 -4 20240115 1854)
 	  ((emacs
 	    (27 1))
 	   (project
 	    (0 8 1)))
 	  "GNU Emacs and Scheme talk to each other" tar
-	  ((:commit . "d25b2a3e176fb1a8dade23e2e827f774e3599a8c")
+	  ((:commit . "0e189dfb1e531c7b2609c5865659badec7cb6f28")
 	   (:authors
 	    ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
 	   (:maintainers
@@ -29690,7 +29690,7 @@
 	  (:keywords "comm" "convenience")
 	  (:url . "https://github.com/antonhibl/gptai"))])
  (gptel .
-	[(0 6 0 1 -4 20240113 717)
+	[(0 6 0 1 -4 20240116 129)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -29698,7 +29698,7 @@
 	  (compat
 	   (29 1 4 1)))
 	 "Interact with ChatGPT or other LLMs" tar
-	 ((:commit . "c6a07043af9c185bdeb068ef7660991588714ea2")
+	 ((:commit . "3fb064a76334c1b04c0e1f6584b8b29f5110d9c5")
 	  (:authors
 	   ("Karthik Chikmagalur"))
 	  (:maintainers
@@ -34157,11 +34157,11 @@
 			(:maintainer "Anders Lindgren")
 			(:keywords "tools"))])
  (hima-theme .
-	     [(0 1 1 -4 20230421 314)
+	     [(0 1 1 -4 20240116 404)
 	      ((emacs
 		(25 1)))
 	      "A minimal theme with pretty colors" tar
-	      ((:commit . "553541f1b66e0f00bada8273d1126d50de13bcd1")
+	      ((:commit . "e928d62558ffaa9b2cca6d891069858d33535d59")
 	       (:keywords "faces")
 	       (:url . "https://github.com/meain/hima-theme"))])
  (himalaya .
@@ -38177,11 +38177,11 @@
 		(:maintainer "David Raymond Christiansen" . "david@davidchristiansen.dk")
 		(:keywords "languages"))])
  (journalctl-mode .
-		  [(1 1 1 -4 20231206 1549)
+		  [(1 1 1 -4 20240115 1650)
 		   ((emacs
 		     (27 1)))
 		   "Sample major mode for  viewing output journalctl" tar
-		   ((:commit . "248c790b6eb8fe98393270569d2bfa3216b13f52")
+		   ((:commit . "b3dbb5b4149bc1020f81323ec38c2a7a53647289")
 		    (:authors
 		     ("Sebastian Meisel" . "sebastian.meisel@gmail.com"))
 		    (:maintainers
@@ -39020,13 +39020,13 @@
 		  (:keywords "data")
 		  (:url . "https://github.com/mhayashi1120/Emacs-kaesar"))])
  (kagi .
-       [(0 1 1 -4 20240115 1535)
+       [(0 1 1 -4 20240116 530)
 	((emacs
 	  (29 1))
 	 (shell-maker
 	  (0 46 1)))
 	"Kagi API integration" tar
-	((:commit . "f054879d376aef2f3533bcb9cc70cae1dd2e0824")
+	((:commit . "d75542ac7f7f1745badae6722b10369be50caa37")
 	 (:authors
 	  ("Bram Schoenmakers" . "me@bramschoenmakers.nl"))
 	 (:maintainers
@@ -42001,18 +42001,18 @@
 	  (:keywords "maint" "debug" "log")
 	  (:url . "https://github.com/jcs-elpa/logms"))])
  (lognav-mode .
-	      [(0 0 11 1 -4 20231226 1630)
+	      [(0 0 12 1 -4 20240115 1637)
 	       ((emacs
 		 (24 3)))
 	       "Navigate Log Error Messages" tar
-	       ((:commit . "294e6088d426910082c1b87792ff5125f2725a88")
+	       ((:commit . "139da9eb356b4432f416d1db49fdbfa46fb1bf8d")
 		(:authors
 		 ("Shawn Ellis" . "shawn.ellis17@gmail.com"))
 		(:maintainers
 		 ("Shawn Ellis" . "shawn.ellis17@gmail.com"))
 		(:maintainer "Shawn Ellis" . "shawn.ellis17@gmail.com")
 		(:keywords "log" "error" "lognav-mode" "convenience")
-		(:url . "https://hg.osdn.net/view/lognav-mode/lognav-mode"))])
+		(:url . "https://github.com/ellisvelo/lognav-mode.git"))])
  (logpad .
 	 [(1 0 2 1 -4 20201113 917)
 	  nil "Simulate Windows Notepad for logging." tar
@@ -43382,7 +43382,7 @@
 		      (:keywords "magit" "vc")
 		      (:url . "http://github.com/jtamagnan/magit-reviewboard"))])
  (magit-section .
-		[(3 3 0 50 -4 20240113 1545)
+		[(3 3 0 50 -4 20240114 13)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -43390,7 +43390,7 @@
 		  (dash
 		   (20221013)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "47f333e1fa989a81c0265d2f523aff4108254238")
+		 ((:commit . "efb6c0df175eaf35b7a83833194621bdf9cc0d71")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -46592,18 +46592,18 @@
 	       (:keywords "multi" "line" "length" "whitespace" "programming" "tools" "convenience" "files")
 	       (:url . "https://github.com/IvanMalison/multi-line"))])
  (multi-project .
-		[(0 0 47 1 -4 20231226 1630)
+		[(0 0 48 1 -4 20240115 1635)
 		 ((emacs
 		   (26 1)))
-		 "Find files, compile, and search for multiple projects" tar
-		 ((:commit . "a81a536c7c73d471b65e8456d4530e6341a8ce65")
+		 "Find files, compile, and search in multiple projects" tar
+		 ((:commit . "3bc67ba8adf10a0844fa2f9cce9d78f130307645")
 		  (:authors
 		   ("Shawn Ellis" . "shawn.ellis17@gmail.com"))
 		  (:maintainers
 		   ("Shawn Ellis" . "shawn.ellis17@gmail.com"))
 		  (:maintainer "Shawn Ellis" . "shawn.ellis17@gmail.com")
 		  (:keywords "convenience" "project" "management")
-		  (:url . "https://hg.osdn.net/view/multi-project/multi-project"))])
+		  (:url . "https://github.com/ellisvelo/multi-project.git"))])
  (multi-run .
 	    [(1 0 1 -4 20210108 336)
 	     ((emacs
@@ -50928,7 +50928,7 @@
 	     (:keywords "convenience" "abbrev" "outlines" "org" "food" "recipes" "cooking")
 	     (:url . "https://github.com/Chobbes/org-chef"))])
  (org-cite-sidecar .
-		   [(0 5 0 1 -4 20240114 1810)
+		   [(0 5 0 1 -4 20240115 1727)
 		    ((emacs
 		      (28 1))
 		     (citeproc
@@ -50936,7 +50936,7 @@
 		     (universal-sidecar
 		      (1 5 0)))
 		    "Sidecar to show references in Org Mode" tar
-		    ((:commit . "4bc8f42dc5bc9e87b83fcb55a144391b501e0bec")
+		    ((:commit . "9050eaea7946e613a4b9ecd9dd1462614699edb1")
 		     (:authors
 		      ("Samuel W. Flint" . "me@samuelwflint.com"))
 		     (:maintainers
@@ -52594,7 +52594,7 @@
 		(:keywords "redmine" "org")
 		(:url . "https://github.com/gongo/org-redmine"))])
  (org-ref .
-	  [(3 0 1 -4 20240113 2201)
+	  [(3 0 1 -4 20240116 154)
 	   ((org
 	     (9 4))
 	    (dash
@@ -52618,7 +52618,7 @@
 	    (ox-pandoc
 	     (0)))
 	   "citations, cross-references and bibliographies in org-mode" tar
-	   ((:commit . "7bcbd7c6ff36ff8950a1e6fa30a7970a9c4d288b")
+	   ((:commit . "6fc62e68dfa608620ae067a70db6ab31c237ad93")
 	    (:authors
 	     ("John Kitchin" . "jkitchin@andrew.cmu.edu"))
 	    (:maintainers
@@ -53168,13 +53168,13 @@
 			    (:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com")
 			    (:keywords "extensions"))])
  (org-tag-beautify .
-		   [(0 1 0 1 -4 20240115 1306)
+		   [(0 1 0 1 -4 20240116 501)
 		    ((emacs
 		      (26 1))
 		     (nerd-icons
 		      (0 0 1)))
 		    "Beautify Org mode tags" tar
-		    ((:commit . "a11dbb1f1d8b55c48c6610dcf29b835a65e8a142")
+		    ((:commit . "b43f05f22248ae863401172db4f5997c17858287")
 		     (:keywords "hypermedia")
 		     (:url . "https://repo.or.cz/org-tag-beautify.git"))])
  (org-tagged .
@@ -64192,11 +64192,11 @@
 	     (:keywords "convenience" "net" "services")
 	     (:url . "https://github.com/davep/services.el"))])
  (sesman .
-	 [(0 3 3 1 -4 20210901 1134)
+	 [(0 3 3 1 -4 20240115 2143)
 	  ((emacs
 	    (25)))
 	  "Generic Session Manager" tar
-	  ((:commit . "e0f555f963c9f02f8e4a50e06fc353eb4c15ee77")
+	  ((:commit . "ec7390c0d0fb8b278aa06848634f922bc893de31")
 	   (:authors
 	    ("Vitalie Spinu"))
 	   (:maintainers
@@ -70019,11 +70019,11 @@
 	   (:keywords "games")
 	   (:url . "https://github.com/xuchunyang/threes.el"))])
  (thrift .
-	 [(0 1 0 1 -4 20240108 1302)
+	 [(0 1 0 1 -4 20240114 1732)
 	  ((emacs
 	    (24)))
 	  "major mode for fbthrift and Apache Thrift files" tar
-	  ((:commit . "337dfa0e5a9d7bb2f7a24acc9a996b9e030b2535")
+	  ((:commit . "d1b93d92a26325c2b991fe37e5e1808a4ae8c72b")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -70892,7 +70892,7 @@
 		(:keywords "comm" "convenience" "files")
 		(:url . "https://gitlab.com/tuedachu/transfer-sh.el"))])
  (transient .
-	    [(0 5 3 1 -4 20240113 1627)
+	    [(0 5 3 1 -4 20240114 1722)
 	     ((emacs
 	       (26 1))
 	      (compat
@@ -70900,7 +70900,7 @@
 	      (seq
 	       (2 24)))
 	     "Transient commands" tar
-	     ((:commit . "3ebb6acfae3a08a747146606d7ae6ab7bf5fa305")
+	     ((:commit . "f582a9bc4d3ff839a95c8b68d12fefb6397be4ec")
 	      (:authors
 	       ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	      (:maintainers
@@ -72412,13 +72412,13 @@
 				 (:keywords "convenience" "docs" "languages")
 				 (:url . "https://github.com/grettke/universal-emotions-emoticons"))])
  (universal-sidecar .
-		    [(1 5 1 1 -4 20240114 1810)
+		    [(1 5 2 1 -4 20240115 1727)
 		     ((emacs
 		       (26 1))
 		      (magit-section
 		       (3 0 0)))
 		     "A universal sidecar buffer" tar
-		     ((:commit . "4bc8f42dc5bc9e87b83fcb55a144391b501e0bec")
+		     ((:commit . "9050eaea7946e613a4b9ecd9dd1462614699edb1")
 		      (:authors
 		       ("Samuel W. Flint" . "me@samuelwflint.com"))
 		      (:maintainers
@@ -72426,7 +72426,7 @@
 		      (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
 		      (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
  (universal-sidecar-elfeed-related .
-				   [(1 0 1 1 -4 20240114 1810)
+				   [(1 0 2 1 -4 20240115 1727)
 				    ((emacs
 				      (25 1))
 				     (universal-sidecar
@@ -72436,7 +72436,7 @@
 				     (elfeed
 				      (3 4 1)))
 				    "Related Papers Sidecar Section for Elfeed" tar
-				    ((:commit . "4bc8f42dc5bc9e87b83fcb55a144391b501e0bec")
+				    ((:commit . "9050eaea7946e613a4b9ecd9dd1462614699edb1")
 				     (:authors
 				      ("Samuel W. Flint" . "me@samuelwflint.com"))
 				     (:maintainers
@@ -72444,7 +72444,7 @@
 				     (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
 				     (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
  (universal-sidecar-elfeed-score .
-				 [(0 5 0 1 -4 20240114 1810)
+				 [(0 5 0 1 -4 20240115 1727)
 				  ((emacs
 				    (25 1))
 				   (universal-sidecar
@@ -72454,7 +72454,7 @@
 				   (elfeed-score
 				    (1 2 6)))
 				  "Show Elfeed Score information in sidecar" tar
-				  ((:commit . "4bc8f42dc5bc9e87b83fcb55a144391b501e0bec")
+				  ((:commit . "9050eaea7946e613a4b9ecd9dd1462614699edb1")
 				   (:authors
 				    ("Samuel W. Flint" . "me@samuelwflint.com"))
 				   (:maintainers
@@ -72462,7 +72462,7 @@
 				   (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
 				   (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
  (universal-sidecar-roam .
-			 [(1 0 4 1 -4 20240114 1810)
+			 [(1 0 4 1 -4 20240115 1727)
 			  ((emacs
 			    (26 1))
 			   (universal-sidecar
@@ -72470,7 +72470,7 @@
 			   (org-roam
 			    (2 0 0)))
 			  "Integrate universal-sidecar and org-roam" tar
-			  ((:commit . "4bc8f42dc5bc9e87b83fcb55a144391b501e0bec")
+			  ((:commit . "9050eaea7946e613a4b9ecd9dd1462614699edb1")
 			   (:authors
 			    ("Samuel W. Flint" . "me@samuelwflint.com"))
 			   (:maintainers

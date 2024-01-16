@@ -802,7 +802,7 @@
 		 (:url . "https://elpa.gnu.org/packages/cycle-quotes.html")
 		 (:commit . "c1ef993f8c66fec71b10d70eb7a2cd0c416aaa12"))])
  (dape .
-       [(0 3 0 0 20240114 212012)
+       [(0 3 0 0 20240115 232907)
 	((emacs
 	  (29 1))
 	 (jsonrpc
@@ -810,7 +810,7 @@
 	"Debug Adapter Protocol for Emacs" tar
 	((:url . "https://github.com/svaante/dape")
 	 (:maintainer "Daniel Pettersson" . "daniel@dpettersson.net")
-	 (:commit . "12e6753d6185276825a643d3bf9fcc13a532e193"))])
+	 (:commit . "b9d0579cd2dc2f79f6b24a2b30123adcd3e3131a"))])
  (darkroom .
 	   [(0 3 0 20200507 173652)
 	    ((cl-lib
@@ -912,6 +912,17 @@
 	    (:authors
 	     ("Augusto Stoffel" . "arstoffel@gmail.com"))
 	    (:commit . "f0436bc0e2077683438e838acdfc425337898175"))])
+ (devicetree-ts-mode .
+		     [(0 3 0 20231222 194823)
+		      ((emacs
+			(29 1)))
+		      "Tree-sitter support for DTS" tar
+		      ((:url . "https://sr.ht/~akagi/devicetree-ts-mode")
+		       (:keywords "languages" "devicetree" "tree-sitter")
+		       (:maintainer "Aleksandr Vityazev" . "avityazew@gmail.com")
+		       (:authors
+			("Aleksandr Vityazev" . "avityazew@gmail.com"))
+		       (:commit . "bc07c1124545cbf6e5ebe64e92bfaa306e309033"))])
  (dict-tree .
 	    [(0 17 0 20231015 24654)
 	     ((trie
@@ -1117,7 +1128,7 @@
 	       ("Leo Liu" . "sdl.web@gmail.com"))
 	      (:commit . "de7d66c3c864a4722a973ee9bc228a14be49ba0c"))])
  (ebdb .
-       [(0 8 20 0 20231215 192912)
+       [(0 8 21 0 20240115 101712)
 	((emacs
 	  (25 1))
 	 (seq
@@ -1128,7 +1139,7 @@
 	 (:maintainer "Eric Abrahamsen" . "eric@ericabrahamsen.net")
 	 (:authors
 	  ("Eric Abrahamsen" . "eric@ericabrahamsen.net"))
-	 (:commit . "ec5699d349d6deb43f063eeddfe6114b102f43d9"))])
+	 (:commit . "a03d36f847c9384215638be1180f1690d76f6b30"))])
  (ebdb-gnorb .
 	     [(1 0 2 0 20221221 75324)
 	      ((gnorb
@@ -1163,7 +1174,7 @@
 	       ("Markus Triska" . "triska@metalevel.at"))
 	      (:commit . "cfcdf9e42821d246b7fbc84877aa4ecacc184a1c"))])
  (eev .
-      [(20240107 0 20240114 171043)
+      [(20240115 0 20240115 214625)
        ((emacs
 	 (24 4)))
        "Support for e-scripts (eepitch blocks, elisp hyperlinks, etc)" tar
@@ -1172,7 +1183,7 @@
 	(:maintainer "Eduardo Ochs" . "eduardoochs@gmail.com")
 	(:authors
 	 ("Eduardo Ochs" . "eduardoochs@gmail.com"))
-	(:commit . "28711455e5e68447b198817eef271b2047562d70"))])
+	(:commit . "eb0943c620716b50808ac19036c54cf3049671f2"))])
  (ef-themes .
 	    [(1 5 0 0 20240112 62519)
 	     ((emacs
@@ -1484,7 +1495,7 @@
 			(:url . "https://elpa.gnu.org/packages/external-completion.html")
 			(:commit . "7c6e44e5ccb009a63da30fbc468c924dd383b521"))])
  (exwm .
-       [(0 28 0 20240114 113202)
+       [(0 28 0 20240115 193050)
 	((emacs
 	  (27 1))
 	 (xelb
@@ -1498,7 +1509,7 @@
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:authors
 	  ("Chris Feng" . "chris.w.feng@gmail.com"))
-	 (:commit . "eb28ebf165123c6731db90ef2558939003feb8c5"))])
+	 (:commit . "089e0c86830c28d754ec8a812f833b2ab248c6ce"))])
  (f90-interface-browser .
 			[(1 1 0 20221221 75553)
 			 ((cl-lib
@@ -2147,7 +2158,7 @@
 	      (:url . "https://elpa.gnu.org/packages/json-mode.html")
 	      (:commit . "2e8fc7e33b3b7e2418de32baad46d59c5e343bd2"))])
  (jsonrpc .
-	  [(1 0 23 0 20240107 208)
+	  [(1 0 24 0 20240115 63624)
 	   ((emacs
 	     (25 2)))
 	   "JSON-RPC library" tar
@@ -2156,7 +2167,7 @@
 	    (:authors
 	     ("João Távora" . "joaotavora@gmail.com"))
 	    (:url . "https://elpa.gnu.org/packages/jsonrpc.html")
-	    (:commit . "f866c85ac4e32df8061b285b6b44b15346994f3d"))])
+	    (:commit . "2ef3111b136599ee26ec4316199677107bffedbc"))])
  (jumpc .
 	[(3 1 0 20231015 14814)
 	 nil "jump to previous insertion points" tar
@@ -2746,7 +2757,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "b24748093b00b37c3a572c4909f61c08fa27504f"))])
  (org .
-      [(9 7 -1 0 20240113 190414)
+      [(9 7 -1 0 20240115 195720)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2755,7 +2766,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "83f17091e6398e7530000799a9bf514884d13a35"))])
+	(:commit . "b79d9dd604bb3134f3ccd7f8d1f7f2d21247d520"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs
@@ -3000,7 +3011,7 @@
 	       (:url . "https://elpa.gnu.org/packages/phpinspect.html")
 	       (:commit . "7f2baf2c680cf82ba18c58920ff0dda609a9eacf"))])
  (phps-mode .
-	    [(0 4 46 0 20230414 164307)
+	    [(0 4 47 0 20240115 73646)
 	     ((emacs
 	       (26)))
 	     "Major mode for PHP with code intelligence" tar
@@ -3009,7 +3020,7 @@
 	      (:maintainer "Christian Johansson" . "christian@cvj.se")
 	      (:authors
 	       ("Christian Johansson" . "christian@cvj.se"))
-	      (:commit . "378f886bdba484805e105e340e1880cc9ab7f3bc"))])
+	      (:commit . "70559d03740801d6230a0a61f2d78e0f8c240fa8"))])
  (pinentry .
 	   [(0 1 0 20231126 141402)
 	    nil "GnuPG Pinentry server implementation" tar
@@ -4124,7 +4135,7 @@
 	       (:url . "https://elpa.gnu.org/packages/transcribe.html")
 	       (:commit . "2c2d493d5488f3b444d2a771ab443589fcc72c13"))])
  (transient .
-	    [(0 5 3 0 20240106 145710)
+	    [(0 5 3 0 20240114 172236)
 	     ((emacs
 	       (26 1))
 	      (compat
@@ -4137,7 +4148,7 @@
 	      (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	      (:authors
 	       ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	      (:commit . "a2fe06ac00d419ddcbf8f9ef59bf1c4d2350ccbe"))])
+	      (:commit . "f582a9bc4d3ff839a95c8b68d12fefb6397be4ec"))])
  (transient-cycles .
 		   [(1 0 0 20220410 130412)
 		    ((emacs
@@ -4637,7 +4648,7 @@
 	  ("Yuan Fu" . "casouri@gmail.com"))
 	 (:commit . "32735a2a631fc2957b79cc65ad851546b7d572df"))])
  (xelb .
-       [(0 18 0 20240114 83709)
+       [(0 18 0 20240115 193029)
 	((emacs
 	  (27 1)))
 	"X protocol Emacs Lisp Binding" tar
@@ -4649,7 +4660,7 @@
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:authors
 	  ("Chris Feng" . "chris.w.feng@gmail.com"))
-	 (:commit . "a68977a9697401a8326745493a1e4be3f0473022"))])
+	 (:commit . "c4f1eb58cfefe313af12a597ed2cf079fee574c7"))])
  (xpm .
       [(1 0 5 0 20230911 4618)
        ((cl-lib
