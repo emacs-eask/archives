@@ -294,6 +294,15 @@
 	    (:authors
 	     ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	    (:commit . "8074d199008c2c9f8b5d4b3784ed9eba02c3c480"))])
+ (bicep-ts-mode .
+		[(0 1 0 20240117 172347)
+		 nil "tree-sitter support for Bicep" tar
+		 ((:keywords "bicep" "languages" "tree-sitter")
+		  (:maintainer "Jostein Kjønigsen" . "jostein@kjonigsen.net")
+		  (:authors
+		   ("Jostein Kjønigsen" . "jostein@kjonigsen.net"))
+		  (:url . "https://elpa.gnu.org/packages/bicep-ts-mode.html")
+		  (:commit . "197ccf3d4b8b7bb89eb379b90e701429275d58ee"))])
  (bind-key .
 	   [(2 4 1 0 20240102 22814)
 	    ((emacs
@@ -802,7 +811,7 @@
 		 (:url . "https://elpa.gnu.org/packages/cycle-quotes.html")
 		 (:commit . "c1ef993f8c66fec71b10d70eb7a2cd0c416aaa12"))])
  (dape .
-       [(0 3 0 0 20240116 193422)
+       [(0 4 0 0 20240117 204409)
 	((emacs
 	  (29 1))
 	 (jsonrpc
@@ -810,7 +819,7 @@
 	"Debug Adapter Protocol for Emacs" tar
 	((:url . "https://github.com/svaante/dape")
 	 (:maintainer "Daniel Pettersson" . "daniel@dpettersson.net")
-	 (:commit . "848ba377977c58f89c333596a30dfe88fce2053e"))])
+	 (:commit . "3b39d3739f9671536e33ae52a405812ba2cdec61"))])
  (darkroom .
 	   [(0 3 0 20200507 173652)
 	    ((cl-lib
@@ -913,16 +922,16 @@
 	     ("Augusto Stoffel" . "arstoffel@gmail.com"))
 	    (:commit . "f0436bc0e2077683438e838acdfc425337898175"))])
  (devicetree-ts-mode .
-		     [(0 3 0 20231222 194823)
+		     [(0 3 0 20240117 132538)
 		      ((emacs
 			(29 1)))
 		      "Tree-sitter support for DTS" tar
 		      ((:url . "https://sr.ht/~akagi/devicetree-ts-mode")
 		       (:keywords "languages" "devicetree" "tree-sitter")
-		       (:maintainer "Aleksandr Vityazev" . "avityazew@gmail.com")
+		       (:maintainer "Devicetree-ts Development" . "~akagi/devicetree-ts-mode@lists.sr.ht")
 		       (:authors
-			("Aleksandr Vityazev" . "avityazew@gmail.com"))
-		       (:commit . "bc07c1124545cbf6e5ebe64e92bfaa306e309033"))])
+			("Aleksandr Vityazev" . "avityazev@disroot.org"))
+		       (:commit . "3a4819f76c2af3437b95d5cee46b7e0252a3a8f3"))])
  (dict-tree .
 	    [(0 17 0 20231015 24654)
 	     ((trie
@@ -1128,7 +1137,7 @@
 	       ("Leo Liu" . "sdl.web@gmail.com"))
 	      (:commit . "de7d66c3c864a4722a973ee9bc228a14be49ba0c"))])
  (ebdb .
-       [(0 8 21 0 20240115 101712)
+       [(0 8 22 0 20240117 72338)
 	((emacs
 	  (25 1))
 	 (seq
@@ -1139,7 +1148,7 @@
 	 (:maintainer "Eric Abrahamsen" . "eric@ericabrahamsen.net")
 	 (:authors
 	  ("Eric Abrahamsen" . "eric@ericabrahamsen.net"))
-	 (:commit . "a03d36f847c9384215638be1180f1690d76f6b30"))])
+	 (:commit . "b96e5470c54503eab2159e69c822648ad55e6915"))])
  (ebdb-gnorb .
 	     [(1 0 2 0 20221221 75324)
 	      ((gnorb
@@ -2757,7 +2766,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "b24748093b00b37c3a572c4909f61c08fa27504f"))])
  (org .
-      [(9 7 -1 0 20240116 133843)
+      [(9 7 -1 0 20240117 144024)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2766,7 +2775,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "0254854eea382cca5d14b8ad55da8fc4d825ae7d"))])
+	(:commit . "a19a72f7d3ffd5f7f7ab73f7bac42a16a3b18446"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs
@@ -4648,7 +4657,7 @@
 	  ("Yuan Fu" . "casouri@gmail.com"))
 	 (:commit . "32735a2a631fc2957b79cc65ad851546b7d572df"))])
  (xelb .
-       [(0 18 0 20240115 193029)
+       [(0 18 0 20240117 173936)
 	((emacs
 	  (27 1)))
 	"X protocol Emacs Lisp Binding" tar
@@ -4660,7 +4669,7 @@
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:authors
 	  ("Chris Feng" . "chris.w.feng@gmail.com"))
-	 (:commit . "c4f1eb58cfefe313af12a597ed2cf079fee574c7"))])
+	 (:commit . "dfcdbeddf57a813907d0ffc270524f33c5fdf970"))])
  (xpm .
       [(1 0 5 0 20230911 4618)
        ((cl-lib
@@ -4703,7 +4712,7 @@
 		("Philip Kaludercic" . "philipk@posteo.net"))
 	       (:commit . "2bb88d0dc526177c3c6612d6585cee6b2c57803a"))])
  (yasnippet .
-	    [(0 14 0 0 20240115 5521)
+	    [(0 14 0 0 20240117 132415)
 	     ((cl-lib
 	       (0 5))
 	      (emacs
@@ -4712,7 +4721,7 @@
 	     ((:url . "http://github.com/joaotavora/yasnippet")
 	      (:keywords "convenience" "emulation")
 	      (:maintainer "Noam Postavsky" . "npostavs@gmail.com")
-	      (:commit . "c6488ac6fb8053e2f0cbae65af2ebc79b135e763"))])
+	      (:commit . "9f253badfb21b88d83680535e7fab252332b060b"))])
  (yasnippet-classic-snippets .
 			     [(1 0 2 0 20221221 83103)
 			      ((yasnippet
