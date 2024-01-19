@@ -17837,15 +17837,17 @@
 		      (:maintainer "Yinghai Zhao" . "zyinghai@gmail.com")
 		      (:keywords "snippets"))])
  (ellama .
-	 [(0 6 0 1 -4 20240118 1822)
+	 [(0 7 0 1 -4 20240119 2148)
 	  ((emacs
 	    (28 1))
 	   (llm
 	    (0 6 0))
 	   (spinner
-	    (1 7 4)))
+	    (1 7 4))
+	   (dash
+	    (2 19 1)))
 	  "Tool for interacting with LLMs" tar
-	  ((:commit . "b301ed87f5573f6d278335d884b663554dc61d98")
+	  ((:commit . "77d614fd442790c7b10175af2359550b65a57991")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
 	   (:maintainers
