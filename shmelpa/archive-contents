@@ -18366,11 +18366,11 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(3 1 1 50 -4 20230417 1448)
+	  [(3 1 1 50 -4 20240119 2314)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
-	   ((:commit . "64012261f65fcdd7ea137d1973ef051af1dced42")
+	   ((:commit . "ffd501a588e4ca884f949119e7c79d214dfd2ffa")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainers
@@ -18378,13 +18378,13 @@
 	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	    (:url . "https://github.com/magit/emacsql"))])
  (emacsql-mysql .
-		[(3 1 1 50 -4 20230225 2205)
+		[(3 1 1 50 -4 20240119 2314)
 		 ((emacs
 		   (25 1))
 		  (emacsql
 		   (20230220)))
 		 "EmacSQL back-end for MySQL" tar
-		 ((:commit . "b436adf09ebe058c28e0f473bed90ccd7084f6aa")
+		 ((:commit . "1b8297b671a6e9df9554df5f62d7e0748a2200dd")
 		  (:authors
 		   ("Christopher Wellons" . "wellons@nullprogram.com"))
 		  (:maintainers
@@ -18408,13 +18408,13 @@
 	       (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 	       (:url . "https://github.com/magit/emacsql"))])
  (emacsql-psql .
-	       [(3 1 1 50 -4 20230225 2205)
+	       [(3 1 1 50 -4 20240119 2314)
 		((emacs
 		  (25 1))
 		 (emacsql
 		  (20230220)))
 		"EmacSQL back-end for PostgreSQL via psql" tar
-		((:commit . "b436adf09ebe058c28e0f473bed90ccd7084f6aa")
+		((:commit . "ffd501a588e4ca884f949119e7c79d214dfd2ffa")
 		 (:authors
 		  ("Christopher Wellons" . "wellons@nullprogram.com"))
 		 (:maintainers
@@ -18422,13 +18422,13 @@
 		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		 (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite .
-		 [(3 1 1 50 -4 20230225 2205)
+		 [(3 1 1 50 -4 20240119 2314)
 		  ((emacs
 		    (25 1))
 		   (emacsql
 		    (20230220)))
 		  "EmacSQL back-end for SQLite" tar
-		  ((:commit . "b436adf09ebe058c28e0f473bed90ccd7084f6aa")
+		  ((:commit . "777abb9e9ed47245636cdc7ea814ce12ad11e2ac")
 		   (:authors
 		    ("Christopher Wellons" . "wellons@nullprogram.com"))
 		   (:maintainers
@@ -18436,13 +18436,13 @@
 		   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-builtin .
-			 [(3 1 1 50 -4 20230409 1847)
+			 [(3 1 1 50 -4 20240119 2314)
 			  ((emacs
 			    (29))
 			   (emacsql
 			    (20230220)))
 			  "EmacSQL back-end for SQLite using builtin support" tar
-			  ((:commit . "f25de357fee74aae7a538e8eae3d9be5eb55c20e")
+			  ((:commit . "777abb9e9ed47245636cdc7ea814ce12ad11e2ac")
 			   (:authors
 			    ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			   (:maintainers
@@ -18450,7 +18450,7 @@
 			   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 			   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-module .
-			[(3 1 1 50 -4 20230409 1847)
+			[(3 1 1 50 -4 20240119 2314)
 			 ((emacs
 			   (25))
 			  (emacsql
@@ -18458,7 +18458,7 @@
 			  (sqlite3
 			   (0 16)))
 			 "EmacSQL back-end for SQLite using a module" tar
-			 ((:commit . "f25de357fee74aae7a538e8eae3d9be5eb55c20e")
+			 ((:commit . "777abb9e9ed47245636cdc7ea814ce12ad11e2ac")
 			  (:authors
 			   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			  (:maintainers
@@ -29692,7 +29692,7 @@
 	  (:keywords "comm" "convenience")
 	  (:url . "https://github.com/antonhibl/gptai"))])
  (gptel .
-	[(0 6 0 1 -4 20240119 142)
+	[(0 6 0 1 -4 20240119 2245)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -29700,7 +29700,7 @@
 	  (compat
 	   (29 1 4 1)))
 	 "Interact with ChatGPT or other LLMs" tar
-	 ((:commit . "7b19cdf11790f2b4ff95e689b44ae95433831095")
+	 ((:commit . "8a25058eed13ee4de0e2767eba5482e2be565049")
 	  (:authors
 	   ("Karthik Chikmagalur"))
 	  (:maintainers
@@ -45386,11 +45386,11 @@
 	   (:keywords "markdown")
 	   (:url . "https://github.com/ajtulloch/mkdown.el"))])
  (mlscroll .
-	   [(0 1 8 1 -4 20231212 1936)
+	   [(0 1 9 1 -4 20240119 2149)
 	    ((emacs
 	      (27 1)))
 	    "A scroll bar for the modeline" tar
-	    ((:commit . "d4661c2bfd20da79185b904d8a28357e3c4d9c7d")
+	    ((:commit . "47182e0afb966994e4ea26842652fb4da9735103")
 	     (:authors
 	      ("J.D. Smith"))
 	     (:maintainers
