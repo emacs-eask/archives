@@ -3867,6 +3867,19 @@
 		  ("Neil Bhakta"))
 		 (:maintainer "Kaleb Elwert" . "belak@coded.io")
 		 (:url . "https://github.com/tinted-theming/base16-emacs"))])
+ (base32 .
+	 [(0 2 1 -4 20240114 2352)
+	  ((emacs
+	    (27 1)))
+	  "Base32 support" tar
+	  ((:commit . "269044a4a210906e2ebbf789c029441fcc5cc70e")
+	   (:authors
+	    ("Vivek Das Mohapatra" . "vivek@etla.org"))
+	   (:maintainers
+	    ("Vivek Das Mohapatra" . "vivek@etla.org"))
+	   (:maintainer "Vivek Das Mohapatra" . "vivek@etla.org")
+	   (:keywords "tools")
+	   (:url . "https://gitlab.com/fledermaus/totp.el"))])
  (bash-completion .
 		  [(3 1 1 1 -4 20230612 1103)
 		   ((emacs
@@ -7400,7 +7413,7 @@
 		(:maintainer "Adam Chyła" . "adam@chyla.org")
 		(:url . "https://github.com/chyla/ChylaThemeForEmacs"))])
  (cider .
-	[(1 14 0 -4 20240117 1447)
+	[(1 14 0 -4 20240121 2104)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -7418,7 +7431,7 @@
 	  (transient
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
-	 ((:commit . "f7f8e2c5beec0d0d4b22859328312c5ad4b9a872")
+	 ((:commit . "60c9cea54315b08fb129cb57db5ade70ae28371a")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
 	   ("Phil Hagelberg" . "technomancy@gmail.com")
@@ -7790,6 +7803,21 @@
 	   (:maintainer "Marty Hiatt <martianhiatus [a t] riseup [dot] net>")
 	   (:keywords "wp" "convenience" "sentences" "text")
 	   (:url . "https://codeberg.org/martianh/clause.el"))])
+ (clay .
+       [(1 2 1 -4 20240115 2125)
+	((emacs
+	  (26 1))
+	 (cider
+	  (1 0)))
+	"Emacs commands Clay - literate in Clojure" tar
+	((:commit . "26b65a107cf55e4955401d3dbc63d58479f29773")
+	 (:authors
+	  ("daslu"))
+	 (:maintainers
+	  ("daslu"))
+	 (:maintainer "daslu")
+	 (:keywords "lisp")
+	 (:url . "https://github.com/scicloj/clay.el"))])
  (clean-aindent-mode .
 		     [(1 5 0 1 -4 20171017 2043)
 		      nil "Simple indent and unindent, trims indent white-space" tar
@@ -16155,6 +16183,23 @@
 		(:maintainer "Chunyang Xu" . "xuchunyang56@gmail.com")
 		(:keywords "repeat" "convenience")
 		(:url . "https://github.com/xuchunyang/easy-repeat.el"))])
+ (ebdb-mua-sidecar .
+		   [(0 1 0 1 -4 20240115 1727)
+		    ((emacs
+		      (28 1))
+		     (universal-sidecar
+		      (1 5 1))
+		     (ebdb
+		      (0 8 20)))
+		    "EBDB Integration for Universal Sidecar" tar
+		    ((:commit . "9050eaea7946e613a4b9ecd9dd1462614699edb1")
+		     (:authors
+		      ("Samuel W. Flint" . "me@samuelwflint.com"))
+		     (:maintainers
+		      ("Samuel W. Flint" . "me@samuelwflint.com"))
+		     (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
+		     (:keywords "mail" "convenience")
+		     (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
  (ebf .
       [(1 0 0 1 -4 20210225 1211)
        ((dash
@@ -20065,11 +20110,11 @@
 		 (:keywords "data")
 		 (:url . "https://github.com/mhayashi1120/Emacs-esqlite"))])
  (ess .
-      [(24 1 0 1 -4 20240121 1819)
+      [(24 1 0 1 -4 20240121 1946)
        ((emacs
 	 (25 1)))
        "Emacs Speaks Statistics" tar
-       ((:commit . "88d611c6833d521d0fbb2ef9c638bf6b3525a622")
+       ((:commit . "c9a66069be2dae226c2dc1df8db06bea4cce4a57")
 	(:authors
 	 ("David Smith" . "dsmith@stats.adelaide.edu.au")
 	 ("A.J. Rossini" . "blindglobe@gmail.com")
@@ -25257,6 +25302,21 @@
 		 (:maintainer "Steve Purcell" . "steve@sanityinc.com")
 		 (:keywords "convenience" "internal")
 		 (:url . "https://github.com/purcell/flymake-easy"))])
+ (flymake-eldev .
+		[(0 9 1 -4 20240115 1927)
+		 ((dash
+		   (2 17))
+		  (emacs
+		   (28 1)))
+		 "Eldev support in Flymake" tar
+		 ((:commit . "901b2837c7d575f929f87aa83b8e725841927584")
+		  (:authors
+		   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
+		  (:maintainers
+		   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
+		  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
+		  (:keywords "tools" "convenience")
+		  (:url . "https://github.com/emacs-eldev/flymake-eldev"))])
  (flymake-elisp-config .
 		       [(1 0 2 1 -4 20230711 1833)
 			((emacs
@@ -34963,7 +35023,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 4 -1 1 -4 20240120 552)
+	     [(0 4 -1 1 -4 20240121 1756)
 	      ((emacs
 		(28 1))
 	       (map
@@ -34979,7 +35039,7 @@
 	       (transient
 		(0 5 2)))
 	      "P2P filesystem" tar
-	      ((:commit . "ab84122ceb852053ca8f1d5ce9676f81370f4640")
+	      ((:commit . "f9fe74ac9399dc5f37b17a1361fc87fa6fe3ac59")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
 	       (:maintainers
