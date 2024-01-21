@@ -70797,6 +70797,21 @@
 	 (:maintainer "Jürgen Hötzel" . "juergen@hoetzel.info")
 	 (:keywords "tools" "pass" "password")
 	 (:url . "https://github.com/juergenhoetzel/emacs-totp"))])
+ (totp-auth .
+	    [(0 4 1 -4 20240114 2352)
+	     ((emacs
+	       (27 1))
+	      (base32
+	       (0 1)))
+	     "RFC6238 TOTP" tar
+	     ((:commit . "269044a4a210906e2ebbf789c029441fcc5cc70e")
+	      (:authors
+	       ("Vivek Das Mohapatra" . "vivek@etla.org"))
+	      (:maintainers
+	       ("Vivek Das Mohapatra" . "vivek@etla.org"))
+	      (:maintainer "Vivek Das Mohapatra" . "vivek@etla.org")
+	      (:keywords "2fa" "two-factor" "totp" "otp" "password" "comm")
+	      (:url . "https://gitlab.com/fledermaus/totp.el"))])
  (tox .
       [(0 4 0 1 -4 20170404 1059)
        nil "Launch current python test with tox" tar
@@ -72489,6 +72504,21 @@
 		       ("Samuel W. Flint" . "me@samuelwflint.com"))
 		      (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
 		      (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
+ (universal-sidecar-citeproc .
+			     [(1 0 0 1 -4 20240115 1727)
+			      ((emacs
+				(28 1))
+			       (citeproc
+				(0 9 4)))
+			      "Centralise Citeproc Support for Universal Sidecar" tar
+			      ((:commit . "9050eaea7946e613a4b9ecd9dd1462614699edb1")
+			       (:authors
+				("Samuel W. Flint" . "me@samuelwflint.com"))
+			       (:maintainers
+				("Samuel W. Flint" . "me@samuelwflint.com"))
+			       (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
+			       (:keywords "bib" "convenience")
+			       (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
  (universal-sidecar-elfeed-related .
 				   [(1 0 2 1 -4 20240115 1727)
 				    ((emacs
