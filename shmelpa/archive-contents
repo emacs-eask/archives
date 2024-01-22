@@ -16769,7 +16769,7 @@
 		 (:keywords "languages")
 		 (:url . "https://github.com/fsharp/emacs-fsharp-mode"))])
  (eglot-java .
-	     [(1 24 1 -4 20240116 2029)
+	     [(1 25 1 -4 20240122 2026)
 	      ((emacs
 		(26 1))
 	       (eglot
@@ -16777,7 +16777,7 @@
 	       (jsonrpc
 		(1 0 0)))
 	      "Java extension for the eglot LSP client" tar
-	      ((:commit . "4c528bf382e31587040e1ba5885150cfdec53b98")
+	      ((:commit . "b5aaa5c92fc3bfc20e07a3b7751910d6b667e6c8")
 	       (:authors
 		("Yves Zoundi" . "yves_zoundi@hotmail.com"))
 	       (:maintainers
@@ -16845,9 +16845,11 @@
 	(:keywords "org-mode" "convenience" "beautify")
 	(:url . "https://github.com/emacs-china/EGO"))])
  (eide .
-       [(2 3 1 1 -4 20240115 2010)
-	nil "IDE interface" tar
-	((:commit . "057dd71ab7f5d3e4a27a6a65c07615ecc8192f85")
+       [(2 3 1 1 -4 20240122 1953)
+	((emacs
+	  (26 1)))
+	"IDE interface" tar
+	((:commit . "d497539f00c33e3bee85d0f4b8ca367672fa2219")
 	 (:authors
 	  ("Cédric Marie" . "cedric@hjuvi.fr.eu.org"))
 	 (:maintainer "Cédric Marie" . "cedric@hjuvi.fr.eu.org")
