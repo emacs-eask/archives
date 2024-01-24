@@ -6621,7 +6621,7 @@
 	(:keywords "cursor")
 	(:url . "https://github.com/skk-dev/ddskk"))])
  (ccls .
-       [(20200621 1 -4 20230815 731)
+       [(20200621 1 -4 20240124 1050)
 	((emacs
 	  (27 1))
 	 (lsp-mode
@@ -6629,7 +6629,7 @@
 	 (dash
 	  (2 14 1)))
 	"ccls client for lsp-mode" tar
-	((:commit . "47f8caa374f38eba7d557f61aac000164387a33f")
+	((:commit . "9b4a47e0418de8cc2fc93317e27cbdde75286df1")
 	 (:authors
 	  ("Tobias Pisani, Fangrui Song"))
 	 (:maintainers
@@ -54455,15 +54455,13 @@
 	  (:keywords "convenience")
 	  (:url . "https://github.com/fishyfriend/owcmd"))])
  (owdriver .
-	   [(0 2 0 1 -4 20200410 1901)
-	    ((smartrep
-	      (0 0 3))
-	     (log4e
-	      (0 2 0))
+	   [(0 3 1 1 -4 20240124 925)
+	    ((log4e
+	      (0 4 1))
 	     (yaxception
-	      (0 2 0)))
+	      (1 0 0)))
 	    "Quickly perform various actions on other windows" tar
-	    ((:commit . "3c52a7b11c8275fdb2e4cf98f68f2a48ad09a3ae")
+	    ((:commit . "f272f7c7b374cc4410f56b2ee69b6e9df404819e")
 	     (:authors
 	      ("Hiroaki Otsu" . "ootsuhiroaki@gmail.com"))
 	     (:maintainers
@@ -65493,13 +65491,13 @@
 	      (:keywords "markup" "language")
 	      (:url . "http://github.com/slim-template/emacs-slim"))])
  (slime .
-	[(2 29 1 -4 20240123 1745)
+	[(2 29 1 1 -4 20240124 1046)
 	 ((cl-lib
 	   (0 5))
 	  (macrostep
 	   (0 9)))
 	 "Superior Lisp Interaction Mode for Emacs" tar
-	 ((:commit . "f1f9991c697de2ecf0f3c1f0d43175ac35cb713c")
+	 ((:commit . "d85dd9899f7524513c8ad1bd47b0dd248b1915cb")
 	  (:keywords "languages" "lisp" "slime")
 	  (:url . "https://github.com/slime/slime"))])
  (slime-company .
