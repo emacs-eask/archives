@@ -4685,7 +4685,7 @@
 	  (:keywords "convenience")
 	  (:url . "https://github.com/liuyinz/binky-mode"))])
  (biome .
-	[(0 1 0 1 -4 20240116 1102)
+	[(0 1 0 1 -4 20240128 1235)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -4697,7 +4697,7 @@
 	  (compat
 	   (29 1 4 1)))
 	 "Bountiful Interface to Open Meteo for Emacs" tar
-	 ((:commit . "c879e80dfe1eae8615ac65bfbcc9d778615bd5c8")
+	 ((:commit . "bc4f229c74c725a4981b4a5eab21674ac5097116")
 	  (:authors
 	   ("Korytov Pavel" . "thexcloud@gmail.com"))
 	  (:maintainers
@@ -4826,7 +4826,7 @@
 	     (:keywords "extensions")
 	     (:url . "https://github.com/radian-software/blackout"))])
  (blamer .
-	 [(0 8 1 1 -4 20240117 2200)
+	 [(0 8 1 1 -4 20240128 1314)
 	  ((emacs
 	    (27 1))
 	   (posframe
@@ -4834,7 +4834,7 @@
 	   (async
 	    (1 9 7)))
 	  "Show git blame info about current line" tar
-	  ((:commit . "285e14a566170dfa56235964d6fd82bcc6e86f21")
+	  ((:commit . "89b3e1a49cbf1cb0c6ccf614d0b56fb9fad45d50")
 	   (:authors
 	    ("Artur Yaroshenko" . "artawower@protonmail.com"))
 	   (:maintainers
@@ -6869,7 +6869,7 @@
 	      (:maintainer "Andrew Myers" . "am2605@gmail.com")
 	      (:url . "https://github.com/am2605/cfml-mode"))])
  (cfn-mode .
-	   [(1 0 4 1 -4 20240121 904)
+	   [(1 0 4 1 -4 20240128 904)
 	    ((emacs
 	      (26 0))
 	     (f
@@ -6879,7 +6879,7 @@
 	     (yaml-mode
 	      (0 0 13)))
 	    "AWS cloudformation mode" tar
-	    ((:commit . "1c2d731a8f3ab08fcecba12a4526ba09a9786d01")
+	    ((:commit . "b00bd56bd3afba49764720e506a03a3bd577be60")
 	     (:authors
 	      ("William Orr" . "will@worrbase.com"))
 	     (:maintainers
@@ -7024,13 +7024,13 @@
 	    (:keywords "unicode" "character" "ucs")
 	    (:url . "https://github.com/lateau/charmap"))])
  (chatgpt-shell .
-		[(1 0 1 1 -4 20240113 1737)
+		[(1 0 2 1 -4 20240126 735)
 		 ((emacs
 		   (27 1))
 		  (shell-maker
 		   (0 49 1)))
 		 "ChatGPT shell + buffer insert commands" tar
-		 ((:commit . "3bf5464d2c7354f212446e9af151749aef80c2c9")
+		 ((:commit . "0314de8f94613c04e1e8eb45e16ed1544803ae71")
 		  (:authors
 		   ("Alvaro Ramirez https://xenodium.com"))
 		  (:maintainers
@@ -8275,7 +8275,7 @@
 	    (:keywords "clojure" "interaction")
 	    (:url . "https://github.com/clojure-emacs/clomacs"))])
  (closql .
-	 [(0 1 0 1 -4 20240101 2212)
+	 [(0 1 0 1 -4 20240125 1741)
 	  ((emacs
 	    (25 1))
 	   (compat
@@ -8283,7 +8283,7 @@
 	   (emacsql
 	    (20230220)))
 	  "Store EIEIO objects using EmacSQL" tar
-	  ((:commit . "6bc90e8bef74778883bfa2092a6fedc3c4eb032c")
+	  ((:commit . "dc8cacbafc4d99ac25280c973a754a5ee5dbe2b0")
 	   (:authors
 	    ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	   (:maintainers
@@ -8373,11 +8373,11 @@
 	      (:keywords "languages")
 	      (:url . "http://github.com/atilaneves/cmake-ide"))])
  (cmake-mode .
-	     [(0 1 0 1 -4 20231214 1547)
+	     [(0 1 0 1 -4 20240126 1513)
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" tar
-	      ((:commit . "1eed682d7cca9bb2c2b0709a6c3202a3b08613b2"))])
+	      ((:commit . "409ab01039dd3c8f5ae0df48a1ee1c356132a9bf"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" tar
@@ -9016,11 +9016,11 @@
 			 (:keywords "snippets")
 			 (:url . "https://github.com/mrkkrp/common-lisp-snippets"))])
  (company .
-	  [(0 2 1 -4 20240107 2310)
+	  [(0 2 1 -4 20240125 1838)
 	   ((emacs
 	     (25 1)))
 	   "Modular text completion framework" tar
-	   ((:commit . "0cf923231702b8fb7e494af1ae06666a7aa5851d")
+	   ((:commit . "84b111f26663c65cb9e465a028c9558332b4951b")
 	    (:authors
 	     ("Nikolaj Schumacher"))
 	    (:maintainers
@@ -10476,13 +10476,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(1 2 1 -4 20240124 2059)
+	  [(1 2 1 -4 20240127 1420)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (29 1 4 4)))
 	   "Consulting completing-read" tar
-	   ((:commit . "59f26fe48d990699ed8e625a246eceb88d9b57bc")
+	   ((:commit . "e4d371235647a7f4967f093eff2125652796957c")
 	    (:authors
 	     ("Daniel Mendler and Consult contributors"))
 	    (:maintainers
@@ -10735,7 +10735,7 @@
 		  (:keywords "convenience")
 		  (:url . "https://github.com/mclear-tools/consult-notes"))])
  (consult-notmuch .
-		  [(0 8 1 1 -4 20221216 1701)
+		  [(0 8 1 1 -4 20240127 406)
 		   ((emacs
 		     (26 1))
 		    (consult
@@ -10743,7 +10743,7 @@
 		    (notmuch
 		     (0 31)))
 		   "Notmuch search using consult" tar
-		   ((:commit . "d0d4129d45ccceddaeeaa3631eb42d5dd09a758b")
+		   ((:commit . "d8022e2ddc67ed4e89cc6f5bbe664fdb04e1e815")
 		    (:authors
 		     ("Jose A Ortega Ruiz" . "jao@gnu.org"))
 		    (:maintainers
@@ -13608,13 +13608,13 @@
 		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		  (:url . "https://codeberg.org/ideasman42/emacs-diff-at-point"))])
  (diff-hl .
-	  [(1 9 2 1 -4 20240121 2340)
+	  [(1 9 2 1 -4 20240127 34)
 	   ((cl-lib
 	     (0 2))
 	    (emacs
 	     (25 1)))
 	   "Highlight uncommitted changes using VC" tar
-	   ((:commit . "2c07ababaa621c593fbd2746551311e14ce5af55")
+	   ((:commit . "b8b2727a72fdf64ac98e6cfa136a43cb0cacf72f")
 	    (:authors
 	     ("Dmitry Gutov" . "dmitry@gutov.dev"))
 	    (:maintainers
@@ -14423,13 +14423,13 @@
 		    (:keywords "tools")
 		    (:url . "https://github.com/ShuguangSun/dired-view-data"))])
  (diredc .
-	 [(1 0 1 -4 20240124 1812)
+	 [(1 0 1 -4 20240125 332)
 	  ((emacs
 	    (26 1))
 	   (key-assist
 	    (1 0)))
 	  "Midnight Commander features (plus) for dired" tar
-	  ((:commit . "35ec03ce9fbfd8c2783117ae4dcb00f272571c18")
+	  ((:commit . "a56e26a288f977a46c567c3cfb8c2d2461727c08")
 	   (:keywords "files")
 	   (:url . "https://github.com/Boruch-Baum/emacs-diredc"))])
  (diredfl .
@@ -16037,13 +16037,11 @@
 		   (:maintainer "Thanabodee Charoenpiriyakij" . "wingyminus@gmail.com")
 		   (:url . "https://github.com/earthly/earthly-mode"))])
  (eask .
-       [(0 9 3 1 -4 20240112 1215)
+       [(0 9 4 1 -4 20240128 1012)
 	((emacs
-	  (26 1))
-	 (dash
-	  (2 14 1)))
+	  (26 1)))
 	"Core Eask APIs, for Eask CLI development" tar
-	((:commit . "b7a68d3a4a39425d27ed9f96aadabeb04f93a240")
+	((:commit . "3f8d4b668c4568d65f40c4f8bbb20c3b8dbfaa05")
 	 (:authors
 	  ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
 	 (:maintainers
@@ -16474,11 +16472,11 @@
 		     (:maintainer "sabof")
 		     (:url . "https://github.com/sabof/edit-color-stamp"))])
  (edit-indirect .
-		[(0 1 11 1 -4 20240108 206)
+		[(0 1 13 1 -4 20240128 119)
 		 ((emacs
 		   (24 3)))
 		 "Edit regions in separate buffers" tar
-		 ((:commit . "d0378d9747791fcd78370a0e52ec018d5970c482")
+		 ((:commit . "82a28d8a85277cfe453af464603ea330eae41c05")
 		  (:authors
 		   ("Fanael Linithien" . "fanael4@gmail.com"))
 		  (:maintainers
@@ -17742,11 +17740,11 @@
 	      (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk")
 	      (:keywords "lisp"))])
  (elisp-demos .
-	      [(2024 1 16 1 -4 20240120 1010)
+	      [(2024 1 16 1 -4 20240128 810)
 	       ((emacs
 		 (26 3)))
 	       "Elisp API Demos" tar
-	       ((:commit . "b724c90bd74334bdcd84f18d20791ef15fc9a544")
+	       ((:commit . "1a108d1c5011f9ced58be2ca98bea1fbd4130a2f")
 		(:authors
 		 ("Xu Chunyang"))
 		(:maintainers
@@ -18378,11 +18376,11 @@
 	(:keywords "docs" "libraries" "packages")
 	(:url . "https://github.com/emacscollective/elx"))])
  (emacs-everywhere .
-		   [(0 1 0 1 -4 20230706 1152)
+		   [(0 1 0 1 -4 20240128 921)
 		    ((emacs
 		      (26 3)))
 		    "System-wide popup windows for quick edits" tar
-		    ((:commit . "44775589ad050134adf433885be0a94398055630")
+		    ((:commit . "fbeff19825336777dccaefedf3f376dd622cd294")
 		     (:authors
 		      ("TEC <https://github.com/tecosaur>"))
 		     (:maintainers
@@ -18577,7 +18575,7 @@
 	   (:keywords "convenience")
 	   (:url . "https://github.com/oantolin/embark"))])
  (embark-consult .
-		 [(1 0 1 -4 20231208 459)
+		 [(1 0 1 -4 20240128 1808)
 		  ((emacs
 		    (27 1))
 		   (compat
@@ -18587,7 +18585,7 @@
 		   (consult
 		    (1 0)))
 		  "Consult integration for Embark" tar
-		  ((:commit . "47b0c75d4bf4f72a7af839667c877c80bd493cdb")
+		  ((:commit . "9add9248b404e808a32f13e99dbad27f0eb18d6a")
 		   (:authors
 		    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 		   (:maintainers
@@ -22512,27 +22510,6 @@
 	     (:maintainer "Rashawn Zhang" . "namy.19@gmail.com")
 	     (:keywords "tools" "fd" "find" "dired")
 	     (:url . "https://github.com/yqrashawn/fd-dired"))])
- (feather .
-	  [(0 1 0 1 -4 20200321 1237)
-	   ((emacs
-	     (26 3))
-	    (async
-	     (1 9))
-	    (async-await
-	     (1 0))
-	    (ppp
-	     (1 0))
-	    (page-break-lines
-	     (0 1)))
-	   "Parallel thread modern package manager" tar
-	   ((:commit . "529b7ec69f1694d7dc8aacb5066cf4ddcf24cc58")
-	    (:authors
-	     ("Naoya Yamashita" . "conao3@gmail.com"))
-	    (:maintainers
-	     ("Naoya Yamashita" . "conao3@gmail.com"))
-	    (:maintainer "Naoya Yamashita" . "conao3@gmail.com")
-	    (:keywords "convenience" "package")
-	    (:url . "https://github.com/conao3/feather.el"))])
  (feature-mode .
 	       [(0 4 1 -4 20220418 848)
 		nil "Major mode for editing Gherkin (i.e. Cucumber) user stories" tar
@@ -55247,20 +55224,6 @@
 			     (:maintainer "SeungKi Kim" . "tttuuu888@gmail.com")
 			     (:keywords "convenience" "faces" "config" "startup")
 			     (:url . "https://github.com/tttuuu888/package-loading-notifier"))])
- (package-safe-delete .
-		      [(0 1 7 1 -4 20150116 1607)
-		       ((emacs
-			 (24))
-			(epl
-			 (0 7 -4)))
-		       "Safely delete package.el packages" tar
-		       ((:commit . "138171e4fc03c0ef05a8260cbb5cd2e114c1c194")
-			(:authors
-			 ("Fanael Linithien" . "fanael4@gmail.com"))
-			(:maintainers
-			 ("Fanael Linithien" . "fanael4@gmail.com"))
-			(:maintainer "Fanael Linithien" . "fanael4@gmail.com")
-			(:url . "https://github.com/Fanael/package-safe-delete"))])
  (package-utils .
 		[(1 0 1 1 -4 20220630 2345)
 		 ((restart-emacs
