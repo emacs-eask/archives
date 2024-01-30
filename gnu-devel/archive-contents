@@ -490,7 +490,7 @@
 	     ("Kjartan Oli Agustsson" . "kjartanoli@disroot.org"))
 	    (:commit . "7fe464d21895c4cde2566c3e707c1d30b0782089"))])
  (cape .
-       [(1 2 0 20240122 230413)
+       [(1 2 0 20240130 175007)
 	((emacs
 	  (27 1))
 	 (compat
@@ -501,7 +501,7 @@
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	 (:commit . "a687fbeddc0f1dcdc7e4c2d2a69c96243587317d"))])
+	 (:commit . "e60773ec02e82140dda5a36df71aab052cfde02a"))])
  (capf-autosuggest .
 		   [(0 3 0 20211123 104430)
 		    ((emacs
@@ -608,14 +608,14 @@
 			("Clément Pit-Claudel" . "clement.pitclaudel@live.com"))
 		       (:commit . "3b2233120d33943b8af65fec6257f0c16ad3c6fd"))])
  (company .
-	  [(0 10 2 0 20240125 183834)
+	  [(0 10 2 0 20240130 190554)
 	   ((emacs
 	     (25 1)))
 	   "Modular text completion framework" tar
 	   ((:url . "http://company-mode.github.io/")
 	    (:keywords "abbrev" "convenience" "matching")
 	    (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
-	    (:commit . "84b111f26663c65cb9e465a028c9558332b4951b"))])
+	    (:commit . "02903bd7088d65a87df0ae0f0d0a7118de147b69"))])
  (company-ebdb .
 	       [(1 1 0 20221221 74915)
 		((company
@@ -1312,7 +1312,7 @@
 		    ("Ihor Radchenko" . "yantar92@posteo.net"))
 		   (:commit . "05d669e123f411c9582f99a9a6182efa43d01a6b"))])
  (embark .
-	 [(1 0 0 20240128 184830)
+	 [(1 0 0 20240130 105350)
 	  ((emacs
 	    (27 1))
 	   (compat
@@ -1323,9 +1323,9 @@
 	   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-	   (:commit . "e0ee1c78620c7cdc81bd786fb44bf0e2ee918e31"))])
+	   (:commit . "a3f4549d3292f2d3f71492a3a6f3a08f2f1649f0"))])
  (embark-consult .
-		 [(1 0 0 20240128 184830)
+		 [(1 0 0 20240130 105350)
 		  ((emacs
 		    (27 1))
 		   (compat
@@ -1340,7 +1340,7 @@
 		   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 		   (:authors
 		    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-		   (:commit . "e0ee1c78620c7cdc81bd786fb44bf0e2ee918e31"))])
+		   (:commit . "a3f4549d3292f2d3f71492a3a6f3a08f2f1649f0"))])
  (ement .
 	[(0 15 -1 0 20240126 232546)
 	 ((emacs
@@ -2094,6 +2094,17 @@
 		 (:authors
 		  ("Feng Shu" . "tumashu@163.com")
 		  ("Naoya Yamashita" . "conao3@gmail.com")))])
+ (jami-bot .
+	   [(0 0 3 0 20240120 144422)
+	    ((emacs
+	      (27 1)))
+	    "An extendable chat bot for the private messenger GNU Jami" tar
+	    ((:url . "https://gitlab.com/hperrey/jami-bot")
+	     (:keywords "comm" "jami" "messenger" "chat bot" "dbus")
+	     (:maintainer "Hanno Perrey" . "hanno@hoowl.se")
+	     (:authors
+	      ("Hanno Perrey" . "hanno@hoowl.se"))
+	     (:commit . "4502fcfe8c97bb147ae12a7d3462c49a94693b3f"))])
  (jarchive .
 	   [(0 11 0 0 20231010 221311)
 	    ((emacs
@@ -2778,7 +2789,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "b24748093b00b37c3a572c4909f61c08fa27504f"))])
  (org .
-      [(9 7 -1 0 20240129 165642)
+      [(9 7 -1 0 20240130 161905)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2787,7 +2798,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "f490c1548a6a76e74a6790bd6373811ac28c8e15"))])
+	(:commit . "afc529b4a04c5c5570e2d62c5d3e09ae7981e4d4"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs
@@ -4115,7 +4126,7 @@
 	      ("Trevor Edwin Pogue" . "trevor.pogue@gmail.com"))
 	     (:commit . "88604ffb6d0eed3f0153e95a79beb885966d3165"))])
  (tramp .
-	[(2 6 2 0 0 20231230 113126)
+	[(2 6 2 1 0 20240130 101154)
 	 ((emacs
 	   (26 1)))
 	 "Transparent Remote Access, Multiple Protocol" tar
@@ -4124,7 +4135,7 @@
 	  (:maintainer "Michael Albinus" . "michael.albinus@gmx.de")
 	  (:authors
 	   ("Kai Großjohann" . "kai.grossjohann@gmx.net"))
-	  (:commit . "6a997f3da9da089b0ac0da82c1df70ab82e6e676"))])
+	  (:commit . "60000ace7314c10c76b3fbfe3a9ca80bbf21b3a1"))])
  (tramp-nspawn .
 	       [(1 0 1 0 20220923 120957)
 		((emacs
@@ -4208,7 +4219,7 @@
 	  ("Toby Cubitt" . "toby-predictive@dr-qubit.org"))
 	 (:commit . "e7326a61b1cd2605867063fcfc5ddddaeed6d993"))])
  (triples .
-	  [(0 3 5 0 20230809 231343)
+	  [(0 3 5 0 20240130 111902)
 	   ((seq
 	     (2 0))
 	    (emacs
@@ -4219,7 +4230,7 @@
 	    (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
 	    (:authors
 	     ("Andrew Hyatt" . "ahyatt@gmail.com"))
-	    (:commit . "fc824c689d1935932e074d4563b0024a8a923d40"))])
+	    (:commit . "523d5be1bac5753216508fa5cfe4d2eb553cc093"))])
  (typo .
        [(1 0 1 0 20230730 150555)
 	((emacs
