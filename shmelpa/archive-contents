@@ -50969,15 +50969,17 @@
 	     (:keywords "convenience" "abbrev" "outlines" "org" "food" "recipes" "cooking")
 	     (:url . "https://github.com/Chobbes/org-chef"))])
  (org-cite-sidecar .
-		   [(0 5 0 1 -4 20240115 1727)
+		   [(1 0 0 1 -4 20240203 1618)
 		    ((emacs
 		      (28 1))
 		     (citeproc
 		      (0 9 4))
 		     (universal-sidecar
-		      (1 5 0)))
+		      (1 5 0))
+		     (universal-sidecar-citeproc
+		      (1 0 0)))
 		    "Sidecar to show references in Org Mode" tar
-		    ((:commit . "9050eaea7946e613a4b9ecd9dd1462614699edb1")
+		    ((:commit . "9998eea0cff6216acfc354a99431c4506dec1839")
 		     (:authors
 		      ("Samuel W. Flint" . "me@samuelwflint.com"))
 		     (:maintainers
@@ -71243,13 +71245,13 @@
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs"))])
  (treebundel .
-	     [(0 2 0 1 -4 20240203 1544)
+	     [(0 2 0 1 -4 20240203 1555)
 	      ((emacs
 		(27 1))
 	       (compat
 		(29 1 4 2)))
 	      "Bundle related git-worktrees together" tar
-	      ((:commit . "38b7719a46bbe39febed54640db9ae6ffea034fb")
+	      ((:commit . "d04174fe881efea704ce4a5065dd486ab0040db5")
 	       (:authors
 		("Ben Whitley"))
 	       (:maintainers
