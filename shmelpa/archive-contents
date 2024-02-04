@@ -23460,9 +23460,9 @@
 		(:keywords "convenience" "search" "flx")
 		(:url . "https://github.com/pythonnut/flx-isearch"))])
  (flycheck .
-	   [(33 -4 20240204 1427)
+	   [(33 1 1 -4 20240204 1739)
 	    ((emacs
-	      (25 1))
+	      (26))
 	     (dash
 	      (2 12 1))
 	     (pkg-info
@@ -23472,7 +23472,7 @@
 	     (seq
 	      (1 11)))
 	    "On-the-fly syntax checking" tar
-	    ((:commit . "642475f2c54f7574d6a46e91757edc7647854fb4")
+	    ((:commit . "bdc0f6e5804df9e76f85c87ad7140d3659a880aa")
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
 	     (:maintainers
@@ -26299,33 +26299,33 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 3 2 50 -4 20240203 2128)
+	[(0 3 2 50 -4 20240204 1741)
 	 ((emacs
 	   (25 1))
 	  (compat
-	   (29 1 4 1))
+	   (29 1 4 4))
 	  (closql
-	   (20230407))
+	   (20240125))
 	  (dash
 	   (2 19 1))
 	  (emacsql
-	   (20230409))
+	   (20240125))
 	  (ghub
-	   (20220621))
+	   (20240101))
 	  (let-alist
 	      (1 0 6))
 	  (magit
-	   (20230319))
+	   (20240125))
 	  (markdown-mode
-	   (2 4))
+	   (2 6))
 	  (seq
 	   (2 24))
 	  (transient
-	   (0 4 0))
+	   (20240201))
 	  (yaml
-	   (0 5 2)))
+	   (0 5 5)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "298e9f6e7afda28b2e5e47d4c4e200f707fa2eec")
+	 ((:commit . "06cadfa41fd67ebccb2fbb61ab71aa982a168181")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -27686,17 +27686,17 @@
 	(:keywords "convenience")
 	(:url . "https://github.com/lafrenierejm/emacs-ghq"))])
  (ghub .
-       [(3 6 0 1 -4 20240101 2217)
+       [(3 6 0 1 -4 20240204 1741)
 	((emacs
 	  (25 1))
 	 (compat
-	  (29 1 4 1))
+	  (29 1 4 4))
 	 (let-alist
 	     (1 0 6))
 	 (treepy
 	  (0 1 2)))
 	"Client libraries for Git forge APIs." tar
-	((:commit . "ba56fe223fbabab89fee577a1d3b0704d7c4a0df")
+	((:commit . "af4bf6172f8522173a725ed83e04a7d8e591fe63")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -71245,13 +71245,13 @@
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs"))])
  (treebundel .
-	     [(0 2 0 1 -4 20240203 1555)
+	     [(0 2 0 1 -4 20240204 1616)
 	      ((emacs
 		(27 1))
 	       (compat
 		(29 1 4 2)))
 	      "Bundle related git-worktrees together" tar
-	      ((:commit . "d04174fe881efea704ce4a5065dd486ab0040db5")
+	      ((:commit . "f0c90015c0edea43bab4eeb1b39fc6b212c290d2")
 	       (:authors
 		("Ben Whitley"))
 	       (:maintainers
