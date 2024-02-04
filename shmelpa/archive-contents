@@ -13331,6 +13331,22 @@
 		 (:maintainer "Graham Marlow" . "info@mgmarlow.com")
 		 (:keywords "languages")
 		 (:url . "https://git.sr.ht/~mgmarlow/deno-ts-mode"))])
+ (denote-explore .
+		 [(1 1 1 -4 20240129 1106)
+		  ((emacs
+		    (29 1))
+		   (dash
+		    (2 19 1))
+		   (denote
+		    (2 2 4)))
+		  "Explore Denote files" tar
+		  ((:commit . "fb545d49544c9ae95f675363f34aebf61d801376")
+		   (:authors
+		    ("Peter Prevos" . "peter@prevos.net"))
+		   (:maintainers
+		    ("Peter Prevos" . "peter@prevos.net"))
+		   (:maintainer "Peter Prevos" . "peter@prevos.net")
+		   (:url . "https://github.com/pprevos/denote-extra/"))])
  (derl .
        [(0 1 1 -4 20231004 821)
 	((emacs
@@ -16227,6 +16243,27 @@
 	 (:maintainer "Joost Kremers" . "joostkremers@fastmail.fm")
 	 (:keywords "text" "bibtex")
 	 (:url . "http://joostkremers.github.io/ebib/"))])
+ (ebib-sidecar .
+	       [(1 0 0 1 -4 20240203 1945)
+		((emacs
+		  (28 1))
+		 (citeproc
+		  (0 9 4))
+		 (universal-sidecar
+		  (1 5 0))
+		 (universal-sidecar-citeproc
+		  (1 0 0))
+		 (ebib
+		  (2 39)))
+		"Sidecar to show formatted reference of current Ebib Entry" tar
+		((:commit . "fbeaba52260f5ee7323839cbe15c4125532a9240")
+		 (:authors
+		  ("Samuel W. Flint" . "me@samuelwflint.com"))
+		 (:maintainers
+		  ("Samuel W. Flint" . "me@samuelwflint.com"))
+		 (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
+		 (:keywords "bib")
+		 (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
  (ebnf-mode .
 	    [(1 0 0 1 -4 20231022 1759)
 	     ((emacs
@@ -30671,6 +30708,19 @@
 	     ("Johan Andersson" . "johan.rejeep@gmail.com"))
 	    (:maintainer "Johan Andersson" . "johan.rejeep@gmail.com")
 	    (:url . "http://github.com/rejeep/handoff.el"))])
+ (haproxy-mode .
+	       [(0 9 1 1 -4 20240204 1948)
+		((emacs
+		  (24 3)))
+		"Major mode for editing HAProxy config files" tar
+		((:commit . "c017880e3366795c595993b289e949ef081827b6")
+		 (:authors
+		  ("port19" . "port19@port19.xyz"))
+		 (:maintainers
+		  ("port19" . "port19@port19.xyz"))
+		 (:maintainer "port19" . "port19@port19.xyz")
+		 (:keywords "haproxy" "languages" "tools")
+		 (:url . "https://github.com/port19x/haproxy-mode"))])
  (hardcore-mode .
 		[(0 1 0 1 -4 20151114 701)
 		 nil "Disable arrow keys + optionally backspace and return" tar
@@ -45694,18 +45744,18 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(4 3 0 1 -4 20240104 1122)
+	       [(4 3 0 1 -4 20240203 614)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "64823c7767710207cdf443492e0f712876dc4ee4")
+		((:commit . "a0019a75bf242f59dc5cdf64ea70e201d1beae7e")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainers
-		  ("Modus-Themes Development" . "~protesilaos/modus-themes@lists.sr.ht"))
-		 (:maintainer "Modus-Themes Development" . "~protesilaos/modus-themes@lists.sr.ht")
+		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
+		 (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 		 (:keywords "faces" "theme" "accessibility")
-		 (:url . "https://git.sr.ht/~protesilaos/modus-themes"))])
+		 (:url . "https://github.com/protesilaos/modus-themes"))])
  (moe-theme .
 	    [(1 0 2 1 -4 20231006 639)
 	     nil "A colorful eye-candy theme. Moe, moe, kyun!" tar
@@ -55157,13 +55207,13 @@
 	     (:keywords "extensions" "tools")
 	     (:url . "https://github.com/zenspider/package"))])
  (package-build .
-		[(4 0 0 50 -4 20240102 1647)
+		[(4 0 0 50 -4 20240204 2043)
 		 ((emacs
 		   (26 1))
 		  (compat
 		   (27 1)))
 		 "Tools for assembling a package archive" tar
-		 ((:commit . "414b328a4f18a6237867739c56e8777e8086d2e8")
+		 ((:commit . "6ae02eddae6846d17ad6b13f036de35ee7d7f60b")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		   ("Steve Purcell" . "steve@sanityinc.com")
@@ -62503,6 +62553,32 @@
 	       (:authors
 		("Steven Rémot"))
 	       (:maintainer "Steven Rémot"))])
+ (rom-party .
+	    [(0 1 1 -4 20240131 1838)
+	     ((emacs
+	       (28))
+	      (dash
+	       (2 17 0))
+	      (f
+	       (0 2 0))
+	      (s
+	       (1 12 0))
+	      (ht
+	       (2 3))
+	      (extmap
+	       (1 3))
+	      (compat
+	       (29 1 4 4))
+	      (async
+	       (1 9 7)))
+	     "Rendition of jklm.fun's \"Bomb Party\" game" tar
+	     ((:commit . "a53f1e6c9949caf699e5e731a320f44bd88ee5fa")
+	      (:authors
+	       ("Laurence Warne"))
+	      (:maintainers
+	       ("Laurence Warne"))
+	      (:maintainer "Laurence Warne")
+	      (:url . "https://github.com/LaurenceWarne/rom-party.el"))])
  (ron-mode .
 	   [(1 1 -4 20200830 1554)
 	    ((emacs
@@ -63895,6 +63971,21 @@
 	     (:maintainer "Erik Sjöstrand")
 	     (:keywords "convenience")
 	     (:url . "http://github.com/Kungsgeten/selected.el"))])
+ (selected-window-accent-mode .
+			      [(0 5 0 1 -4 20240129 2125)
+			       ((emacs
+				 (25 1))
+				(visual-fill-column
+				 (0 0)))
+			       "Accent Selected Window" tar
+			       ((:commit . "3c1c1a019261b585e50776c6cdca136f451f15ac")
+				(:authors
+				 ("James Dyer" . "captainflasmr@gmail.com"))
+				(:maintainers
+				 ("James Dyer" . "captainflasmr@gmail.com"))
+				(:maintainer "James Dyer" . "captainflasmr@gmail.com")
+				(:keywords "convenience")
+				(:url . "https://github.com/captainflasmr/selected-window-accent-mode"))])
  (selectric-mode .
 		 [(1 4 2 1 -4 20200209 2107)
 		  nil "IBM Selectric mode for Emacs" tar

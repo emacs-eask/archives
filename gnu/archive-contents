@@ -2691,7 +2691,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "847694e78c12d903d5e3f6cb365a5d3b984db537"))])
  (org .
-      [(9 6 17)
+      [(9 6 18)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2700,7 +2700,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "25c786f0fb5e49af27ed1790f966b3958e210d7f"))])
+	(:commit . "97f4ae0c2d43384d8b03addcafbc7fe0738ab2b7"))])
  (org-contacts .
 	       [(1 1)
 		((emacs
@@ -2728,6 +2728,19 @@
 	     (:authors
 	      ("Ian Dunn" . "dunni@gnu.org"))
 	     (:keywords "convenience" "text" "org"))])
+ (org-jami-bot .
+	       [(0 0 5)
+		((emacs
+		  (28 1))
+		 (jami-bot
+		  (0 0 4)))
+		"Capture GNU Jami messages as notes and todos in Org mode" tar
+		((:url . "https://gitlab.com/hperrey/org-jami-bot")
+		 (:keywords "comm" "outlines" "org-capture" "jami")
+		 (:maintainer "Hanno Perrey" . "hanno@hoowl.se")
+		 (:authors
+		  ("Hanno Perrey" . "hanno@hoowl.se"))
+		 (:commit . "020b03f299dad438f65d7bcbf93553b273fd7c33"))])
  (org-modern .
 	     [(1 1)
 	      ((emacs
