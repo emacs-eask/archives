@@ -2592,11 +2592,11 @@
 		 (:keywords "tools" "async")
 		 (:url . "https://github.com/seokbeomkim/async-status"))])
  (asyncloop .
-	    [(0 5 1 -4 20240203 1944)
+	    [(0 5 1 1 -4 20240206 1241)
 	     ((emacs
 	       (28)))
 	     "Non-blocking series of functions" tar
-	     ((:commit . "8bf885b7e540f231fbc45ab15228f9b30aafc245")
+	     ((:commit . "7923083d610a5502e030bda966661828574c2f88")
 	      (:authors
 	       ("Martin Edström" . "meedstrom91@gmail.com"))
 	      (:maintainers
@@ -55153,14 +55153,17 @@
        (:maintainer "Gareth Rees" . "gdr@garethrees.org")
        (:url . "https://github.com/gareth-rees/p4.el"))])
  (pabbrev .
-	  [(4 2 1 1 -4 20160320 2101)
-	   nil "Predictive abbreviation expansion" tar
-	   ((:commit . "56400d5d256b42ffe45c229ea9827f026b650cf5")
+	  [(4 2 1 1 -4 20240204 1740)
+	   ((emacs
+	     (25 1)))
+	   "Predictive abbreviation expansion" tar
+	   ((:commit . "aa1cb9d8f51a8d18167a37db160f9b878d201fe1")
 	    (:authors
 	     ("Phillip Lord" . "phillip.lord@newcastle.ac.uk"))
 	    (:maintainers
-	     ("Phillip Lord" . "phillip.lord@newcastle.ac.uk"))
-	    (:maintainer "Phillip Lord" . "phillip.lord@newcastle.ac.uk"))])
+	     ("Arthur Miller" . "arthur.miller@live.com"))
+	    (:maintainer "Arthur Miller" . "arthur.miller@live.com")
+	    (:url . "https://github.com/phillord/pabbrev"))])
  (pacfiles-mode .
 		[(1 2 1 -4 20230503 1523)
 		 ((emacs
