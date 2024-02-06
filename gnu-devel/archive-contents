@@ -678,6 +678,16 @@
 	    (:keywords "matching" "files" "completion")
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	    (:commit . "9463146ba754103db9475ae56e46561366ba4773"))])
+ (consult-hoogle .
+		 [(0 0 1 0 20240205 210806)
+		  ((emacs
+		    (27 1))
+		   (haskell-mode
+		    (16 1)))
+		  "Hoogle frontend using consult" tar
+		  ((:url . "https://codeberg.org/rahguzar/consult-hoogle")
+		   (:keywords "docs" "languages")
+		   (:commit . "a4bde80ebde311e67c3aeaf53d39a3b6e3164dab"))])
  (consult-recoll .
 		 [(0 8 1 0 20231211 122134)
 		  ((emacs
@@ -891,7 +901,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:keywords "convenience"))])
  (denote .
-	 [(2 2 4 0 20240205 94103)
+	 [(2 2 4 0 20240206 53351)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -899,7 +909,7 @@
 	   (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "d769f445ddc1ff0059a58edf6d8795ce60615bc4"))])
+	   (:commit . "cc8ab0db83fe3a0ccc77e57f53af54f6d1a29203"))])
  (denote-menu .
 	      [(1 2 0 0 20230927 131718)
 	       ((emacs
@@ -1312,7 +1322,7 @@
 		    ("Ihor Radchenko" . "yantar92@posteo.net"))
 		   (:commit . "05d669e123f411c9582f99a9a6182efa43d01a6b"))])
  (embark .
-	 [(1 0 0 20240205 133801)
+	 [(1 0 0 20240205 152225)
 	  ((emacs
 	    (27 1))
 	   (compat
@@ -1323,9 +1333,9 @@
 	   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-	   (:commit . "e10bd62e2abb201c0f6f833baa91d30919508575"))])
+	   (:commit . "60139db8794f7e4a08076d9f7597d08f6c8083d1"))])
  (embark-consult .
-		 [(1 0 0 20240205 133801)
+		 [(1 0 0 20240205 152225)
 		  ((emacs
 		    (27 1))
 		   (compat
@@ -1340,9 +1350,9 @@
 		   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 		   (:authors
 		    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-		   (:commit . "e10bd62e2abb201c0f6f833baa91d30919508575"))])
+		   (:commit . "60139db8794f7e4a08076d9f7597d08f6c8083d1"))])
  (ement .
-	[(0 15 -1 0 20240126 232546)
+	[(0 15 -1 0 20240206 21358)
 	 ((emacs
 	   (27 1))
 	  (map
@@ -1365,7 +1375,7 @@
 	  (:maintainer "Adam Porter" . "adam@alphapapa.net")
 	  (:authors
 	   ("Adam Porter" . "adam@alphapapa.net"))
-	  (:commit . "5ef7417ee5e8d4e691a362282bce4172fce64dea"))])
+	  (:commit . "38b5ec5447aabe4eb9e443a83bb4759613c1d1b7"))])
  (emms .
        [(18 0 20240202 162234)
 	((cl-lib
@@ -1555,6 +1565,19 @@
 	       (:authors
 		("Philip Kaludercic" . "philipk@posteo.net"))
 	       (:commit . "b9f09af534086fe6baf93188b2574c99977d3070"))])
+ (filechooser .
+	      [(0 0 1 0 20240205 213114)
+	       ((emacs
+		 (28 1))
+		(compat
+		 (29 1)))
+	       "An xdg-desktop-portal filechooser" tar
+	       ((:url . "https://codeberg.org/rahguzar/filechooser")
+		(:keywords "convenience" "files" "tools" "unix")
+		(:maintainer "rahguzar" . "rahguzar@zohomail.eu")
+		(:authors
+		 ("rahguzar" . "rahguzar@zohomail.eu"))
+		(:commit . "d377a2e88c5932816913c093464a37f2cef15a11"))])
  (filladapt .
 	    [(2 12 2 0 20221221 75607)
 	     ((emacs
