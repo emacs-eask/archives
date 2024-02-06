@@ -20,7 +20,7 @@
 	 ("Leo Liu" . "sdl.web@gmail.com"))
 	(:commit . "90c90a80322aa9f26ce88f2f24a224afc4c994b8"))])
  (activities .
-	     [(0 4 0 20240201 202903)
+	     [(0 5 -1 0 20240206 62712)
 	      ((emacs
 		(29 1))
 	       (persist
@@ -31,7 +31,7 @@
 	       (:maintainer "Adam Porter" . "adam@alphapapa.net")
 	       (:authors
 		("Adam Porter" . "adam@alphapapa.net"))
-	       (:commit . "3e1ba4e12531f2e01a1b29ac5d53ff543a210d03"))])
+	       (:commit . "5e34512b4a910481baee87faf0aa98be51dcfdfb"))])
  (ada-mode .
 	   [(8 1 0 0 20231018 91522)
 	    ((uniquify-files
@@ -679,7 +679,7 @@
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	    (:commit . "9463146ba754103db9475ae56e46561366ba4773"))])
  (consult-hoogle .
-		 [(0 0 1 0 20240205 210806)
+		 [(0 1 0 0 20240206 192822)
 		  ((emacs
 		    (27 1))
 		   (haskell-mode
@@ -687,7 +687,7 @@
 		  "Hoogle frontend using consult" tar
 		  ((:url . "https://codeberg.org/rahguzar/consult-hoogle")
 		   (:keywords "docs" "languages")
-		   (:commit . "a4bde80ebde311e67c3aeaf53d39a3b6e3164dab"))])
+		   (:commit . "593094b154f0ae5a404724d6ac7b7e1592fac680"))])
  (consult-recoll .
 		 [(0 8 1 0 20231211 122134)
 		  ((emacs
@@ -1352,7 +1352,7 @@
 		    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 		   (:commit . "60139db8794f7e4a08076d9f7597d08f6c8083d1"))])
  (ement .
-	[(0 15 -1 0 20240206 21358)
+	[(0 15 -1 0 20240206 60808)
 	 ((emacs
 	   (27 1))
 	  (map
@@ -1375,7 +1375,7 @@
 	  (:maintainer "Adam Porter" . "adam@alphapapa.net")
 	  (:authors
 	   ("Adam Porter" . "adam@alphapapa.net"))
-	  (:commit . "38b5ec5447aabe4eb9e443a83bb4759613c1d1b7"))])
+	  (:commit . "cd25c8264a4e2fb05377131f025e38eebc84dea6"))])
  (emms .
        [(18 0 20240202 162234)
 	((cl-lib
@@ -1566,7 +1566,7 @@
 		("Philip Kaludercic" . "philipk@posteo.net"))
 	       (:commit . "b9f09af534086fe6baf93188b2574c99977d3070"))])
  (filechooser .
-	      [(0 0 1 0 20240205 213114)
+	      [(0 1 0 0 20240206 193014)
 	       ((emacs
 		 (28 1))
 		(compat
@@ -1577,7 +1577,7 @@
 		(:maintainer "rahguzar" . "rahguzar@zohomail.eu")
 		(:authors
 		 ("rahguzar" . "rahguzar@zohomail.eu"))
-		(:commit . "d377a2e88c5932816913c093464a37f2cef15a11"))])
+		(:commit . "5be1380af54f0fa24882dad17b42a356c4e7d49a"))])
  (filladapt .
 	    [(2 12 2 0 20221221 75607)
 	     ((emacs
@@ -2812,7 +2812,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "b24748093b00b37c3a572c4909f61c08fa27504f"))])
  (org .
-      [(9 7 -1 0 20240205 143848)
+      [(9 7 -1 0 20240206 193101)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2821,7 +2821,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "10d2868c587360d3d17d7ef5fbf11ca036bb2f31"))])
+	(:commit . "18d98ee655ef32d06bd056e4cd43f8755171235a"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs
@@ -2984,13 +2984,15 @@
 		       (:url . "https://elpa.gnu.org/packages/other-frame-window.html")
 		       (:commit . "66899436aefb444a427b30d3f86bb8387737f166"))])
  (pabbrev .
-	  [(4 2 2 0 20230101 115226)
-	   nil "Predictive abbreviation expansion" tar
-	   ((:maintainer "Phillip Lord" . "phillip.lord@newcastle.ac.uk")
+	  [(4 2 3 0 20240206 164002)
+	   ((emacs
+	     (25 1)))
+	   "Predictive abbreviation expansion" tar
+	   ((:url . "https://github.com/phillord/pabbrev")
+	    (:maintainer "Arthur Miller" . "arthur.miller@live.com")
 	    (:authors
 	     ("Phillip Lord" . "phillip.lord@newcastle.ac.uk"))
-	    (:url . "https://elpa.gnu.org/packages/pabbrev.html")
-	    (:commit . "6d9e97a6b6b7897e0fdd101299751219855114c0"))])
+	    (:commit . "7869017d6275bf20ed022d4bbf4aca1c21ea580f"))])
  (paced .
 	[(1 1 3 0 20190227 204125)
 	 ((emacs
@@ -3201,14 +3203,14 @@
 		  (:url . "https://elpa.gnu.org/packages/prefixed-core.html")
 		  (:commit . "32cf255af5aada47d173c9877487e70c98e30151"))])
  (project .
-	  [(0 10 0 0 20240126 10023)
+	  [(0 10 0 0 20240206 175541)
 	   ((emacs
 	     (26 1))
 	    (xref
 	     (1 4 0)))
 	   "Operations on the current project" tar
 	   ((:url . "https://elpa.gnu.org/packages/project.html")
-	    (:commit . "723b0973512c0e6e9fb0f07678124347ccd44b54"))])
+	    (:commit . "77f240012f1e9a7cfee60adedebc8e6a230ce49b"))])
  (psgml .
 	[(1 3 5 0 20221229 184738)
 	 nil "SGML-editing mode with parsing support" tar
