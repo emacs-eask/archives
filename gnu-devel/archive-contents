@@ -679,15 +679,20 @@
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	    (:commit . "9463146ba754103db9475ae56e46561366ba4773"))])
  (consult-hoogle .
-		 [(0 1 0 0 20240206 192822)
+		 [(0 1 1 0 20240207 80608)
 		  ((emacs
 		    (27 1))
+		   (consult
+		    (0 18))
 		   (haskell-mode
 		    (16 1)))
 		  "Hoogle frontend using consult" tar
 		  ((:url . "https://codeberg.org/rahguzar/consult-hoogle")
 		   (:keywords "docs" "languages")
-		   (:commit . "593094b154f0ae5a404724d6ac7b7e1592fac680"))])
+		   (:maintainer "rahguzar" . "rahguzar@zohomail.eu")
+		   (:authors
+		    ("rahguzar" . "rahguzar@zohomail.eu"))
+		   (:commit . "77e4294e438afcc0fcfca2cce30a69d584cea603"))])
  (consult-recoll .
 		 [(0 8 1 0 20231211 122134)
 		  ((emacs
@@ -834,7 +839,7 @@
 		 (:url . "https://elpa.gnu.org/packages/cycle-quotes.html")
 		 (:commit . "c1ef993f8c66fec71b10d70eb7a2cd0c416aaa12"))])
  (dape .
-       [(0 5 0 0 20240202 115007)
+       [(0 5 0 0 20240206 220515)
 	((emacs
 	  (29 1))
 	 (jsonrpc
@@ -842,7 +847,7 @@
 	"Debug Adapter Protocol for Emacs" tar
 	((:url . "https://github.com/svaante/dape")
 	 (:maintainer "Daniel Pettersson" . "daniel@dpettersson.net")
-	 (:commit . "1cb2327202badb903b53997f133db4985c2f5214"))])
+	 (:commit . "3dac6e46e9d085f6e84131212f058ea9eaa8b670"))])
  (darkroom .
 	   [(0 3 0 20200507 173652)
 	    ((cl-lib
@@ -1566,7 +1571,7 @@
 		("Philip Kaludercic" . "philipk@posteo.net"))
 	       (:commit . "b9f09af534086fe6baf93188b2574c99977d3070"))])
  (filechooser .
-	      [(0 1 0 0 20240206 193014)
+	      [(0 1 1 0 20240206 212720)
 	       ((emacs
 		 (28 1))
 		(compat
@@ -1577,7 +1582,7 @@
 		(:maintainer "rahguzar" . "rahguzar@zohomail.eu")
 		(:authors
 		 ("rahguzar" . "rahguzar@zohomail.eu"))
-		(:commit . "5be1380af54f0fa24882dad17b42a356c4e7d49a"))])
+		(:commit . "fbabc1eaab111349819a454cda2c4d01993dde1e"))])
  (filladapt .
 	    [(2 12 2 0 20221221 75607)
 	     ((emacs
