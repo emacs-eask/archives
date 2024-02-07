@@ -265,14 +265,14 @@
 		 (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 		 (:commit . "222fdafa2add56a171ded245339a383e5e3078ec"))])
  (clojure-ts-mode .
-		  [(0 2 0 0 20230924 232019)
+		  [(0 2 0 0 20240207 191206)
 		   ((emacs
 		     (29)))
 		   "Major mode for Clojure code" tar
 		   ((:url . "http://github.com/clojure-emacs/clojure-ts-mode")
 		    (:keywords "languages" "clojure" "clojurescript" "lisp")
 		    (:maintainer "Danny Freeman" . "danny@dfreeman.email")
-		    (:commit . "8e61fe8ff4795975ec9e225af931d3a514c99445"))])
+		    (:commit . "5c52695acf18b4f400b684fe2730d38be0b779e8"))])
  (coffee-mode .
 	      [(0 6 3 0 20230908 103000)
 	       ((emacs
@@ -953,7 +953,7 @@
 		   ("Jeronimo Pellegrini" . "(j_p@aleph0.info)"))
 		  (:commit . "c634fc2049f1616b772f5e9cb78c6171dcc4c34d"))])
  (git-commit .
-	     [(3 3 0 50 -4 0 20240206 225617)
+	     [(3 3 0 50 -4 0 20240207 182453)
 	      ((emacs
 		(25 1))
 	       (compat
@@ -973,7 +973,7 @@
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
 		("Florian Ragwitz" . "rafl@debian.org")
 		("Marius Vollmer" . "marius.vollmer@gmail.com"))
-	       (:commit . "b68e0a3c3388af8daac662f25ccfd3e980590e12"))])
+	       (:commit . "540c744aed137f379b11a7eddf42cd082a70c476"))])
  (git-modes .
 	    [(1 4 2 0 20240206 184428)
 	     ((emacs
@@ -1188,7 +1188,7 @@
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:keywords "hypermedia" "extensions"))])
  (hyperdrive .
-	     [(0 4 -1 0 20240202 231157)
+	     [(0 4 -1 0 20240207 114916)
 	      ((emacs
 		(28 1))
 	       (map
@@ -1208,7 +1208,7 @@
 	       (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
-	       (:commit . "81c5ffb4ff129b0d5ab45f399e24c2bd70b083b1"))])
+	       (:commit . "8c41b805a522deb86e8b496090769c7251345115"))])
  (idle-highlight-mode .
 		      [(1 1 4 0 20230806 235612)
 		       ((emacs
@@ -1392,7 +1392,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "0b04a89f698c335c9ea492553470a8d45c113edd"))])
  (magit .
-	[(3 3 0 50 -4 0 20240206 225617)
+	[(3 3 0 50 -4 0 20240207 182453)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -1418,9 +1418,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	  (:commit . "b68e0a3c3388af8daac662f25ccfd3e980590e12"))])
+	  (:commit . "540c744aed137f379b11a7eddf42cd082a70c476"))])
  (magit-section .
-		[(3 3 0 50 -4 0 20240206 225617)
+		[(3 3 0 50 -4 0 20240207 182453)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -1435,7 +1435,7 @@
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
-		  (:commit . "b68e0a3c3388af8daac662f25ccfd3e980590e12"))])
+		  (:commit . "540c744aed137f379b11a7eddf42cd082a70c476"))])
  (markdown-mode .
 		[(2 7 -3 0 20240107 83143)
 		 ((emacs
@@ -1609,7 +1609,7 @@
 		     ("Yilkal Argaw" . "yilkalargawworkneh@gmail.com"))
 		    (:commit . "817eabf902e759e96782bdc54d2dab36c4a2c5ab"))])
  (org-contrib .
-	      [(0 4 2 0 20240206 113224)
+	      [(0 4 2 0 20240207 113337)
 	       ((emacs
 		 (25 1))
 		(org
@@ -1620,7 +1620,7 @@
 		(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 		(:authors
 		 ("Bastien Guerry" . "bzg@gnu.org"))
-		(:commit . "bd39cca48b1c4a8a1cdfb1cdd6be2ce700acdd97"))])
+		(:commit . "4f767bb0aea18ae0bf8c03fa3b019b775b4fe63f"))])
  (org-drill .
 	    [(2 7 0 0 20210428 101221)
 	     ((emacs
@@ -2250,14 +2250,14 @@
 			 ("Akib Azmain Turja" . "akib@disroot.org"))
 			(:commit . "36a2a9422dcdf6f01e842b153fa492c1604ca48b"))])
  (textile-mode .
-	       [(1 0 0 0 20230112 103003)
+	       [(1 0 0 0 20240207 155045)
 		nil "Textile markup editing major mode" tar
 		((:url . "https://github.com/juba/textile-mode")
 		 (:keywords "wp" "languages")
 		 (:maintainer "Julien Barnier" . "julien@nozav.org")
 		 (:authors
 		  ("Julien Barnier" . "julien@nozav.org"))
-		 (:commit . "8f8c09ef097a95a713307fdb5c92b9778dfbc1fc"))])
+		 (:commit . "54ac1bb8b28626568c641fc1ade14444b02b7a1e"))])
  (toc-org .
 	  [(1 1 0 20230831 75249)
 	   nil "add table of contents to org-mode files (formerly, org-toc)" tar
@@ -2364,14 +2364,14 @@
 			("Joost Kremers" . "joostkremers@fastmail.fm"))
 		       (:commit . "5e74afe39d0afb911dae51af4e7a60ccdf9701f3"))])
  (web-mode .
-	   [(17 3 17 0 20231225 145807)
+	   [(17 3 18 0 20240207 123128)
 	    ((emacs
 	      (23 1)))
 	    "major mode for editing web templates" tar
 	    ((:url . "https://web-mode.org")
 	     (:keywords "languages")
 	     (:maintainer "François-Xavier Bois" . "fxbois@gmail.com")
-	     (:commit . "82847071ce93293bdb7945db08d970f13fd883cf"))])
+	     (:commit . "208f32b98873f5381f6516f9de8424418e3cf16f"))])
  (webpaste .
 	   [(3 2 2 0 20220524 174541)
 	    ((emacs
