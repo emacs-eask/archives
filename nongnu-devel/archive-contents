@@ -109,6 +109,17 @@
 	      ((:url . "https://github.com/jasonm23/autothemer")
 	       (:maintainer "Jason Milkins" . "jasonm23@gmail.com")
 	       (:commit . "cb4d4b69f8bb1f8158d2311692b7607794b75829"))])
+ (base32 .
+	 [(1 0 0 20240203 215227)
+	  ((emacs
+	    (27 1)))
+	  "Base32 support" tar
+	  ((:url . "https://gitlab.com/fledermaus/totp.el")
+	   (:keywords "tools")
+	   (:maintainer "Vivek Das Mohapatra" . "vivek@etla.org")
+	   (:authors
+	    ("Vivek Das Mohapatra" . "vivek@etla.org"))
+	   (:commit . "5fa6529ace892972d2d7ce08af88c7912a1c25a6"))])
  (bash-completion .
 		  [(3 1 1 0 20230612 110320)
 		   ((emacs
@@ -1492,13 +1503,13 @@
 	    ("Stefan Kangas" . "stefankangas@gmail.com"))
 	   (:commit . "ed42ae8333d801c841ecf80fb5e4957badb99b51"))])
  (meow .
-       [(1 4 4 0 20240209 172357)
+       [(1 4 5 0 20240210 164404)
 	((emacs
 	  (27 1)))
 	"Yet Another modal editing" tar
 	((:url . "https://www.github.com/DogLooksGood/meow")
 	 (:keywords "convenience" "modal-editing")
-	 (:commit . "f81fef5893f16908a939ad3332b67828ffc9e7d5"))])
+	 (:commit . "54d4e933039827c158a4f593a94681a64e0d8042"))])
  (minibar .
 	  [(0 3 0 20230414 114052)
 	   ((emacs
@@ -1862,7 +1873,7 @@
 	   ("Tomohiro Matsuyama" . "m2ym.pub@gmail.com"))
 	  (:commit . "4d6f6c22a5abf130fe8359171cb9d6b00dc41c0b"))])
  (projectile .
-	     [(2 8 0 0 20240205 102151)
+	     [(2 8 0 0 20240210 170605)
 	      ((emacs
 		(25 1)))
 	      "Manage and navigate projects in Emacs easily" tar
@@ -1871,7 +1882,7 @@
 	       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
-	       (:commit . "e45f0b0cc43fdc066e7971ff3ed3bf4c78015ed0"))])
+	       (:commit . "ec4cb8d4d6aa836668bfef860a2f59d2e30d8cba"))])
  (proof-general .
 		[(4 6 -4 0 20240207 74735)
 		 ((emacs
@@ -2055,7 +2066,7 @@
 	      ("Chen Bin" . "chenbin.sh@gmail.com"))
 	     (:commit . "173e4d632c94af6670869729c09bfb8ba484d257"))])
  (slime .
-	[(2 29 1 0 20240209 175030)
+	[(2 29 1 0 20240210 112240)
 	 ((cl-lib
 	   (0 5))
 	  (macrostep
@@ -2063,7 +2074,7 @@
 	 "Superior Lisp Interaction Mode for Emacs" tar
 	 ((:url . "https://github.com/slime/slime")
 	  (:keywords "languages" "lisp" "slime")
-	  (:commit . "249520d2a0726b542f2264f1ab4b8f096c2c751b"))])
+	  (:commit . "14898710bd65cb261a1ce9adc774af41d488a021"))])
  (sly .
       [(1 0 43 0 20231213 103049)
        ((emacs
@@ -2267,6 +2278,19 @@
 	    (:authors
 	     ("Sergei Nosov" . "sergei.nosov[at]gmail.com"))
 	    (:commit . "6d3ae0fc47ce79b1ea06cabe21a3c596395409cd"))])
+ (totp-auth .
+	    [(1 0 0 20240203 215227)
+	     ((emacs
+	       (27 1))
+	      (base32
+	       (0 1)))
+	     "RFC6238 TOTP" tar
+	     ((:url . "https://gitlab.com/fledermaus/totp.el")
+	      (:keywords "2fa" "two-factor" "totp" "otp" "password" "comm")
+	      (:maintainer "Vivek Das Mohapatra" . "vivek@etla.org")
+	      (:authors
+	       ("Vivek Das Mohapatra" . "vivek@etla.org"))
+	      (:commit . "5fa6529ace892972d2d7ce08af88c7912a1c25a6"))])
  (treeview .
 	   [(1 2 0 0 20230728 234322)
 	    ((emacs
@@ -2364,14 +2388,14 @@
 			("Joost Kremers" . "joostkremers@fastmail.fm"))
 		       (:commit . "5e74afe39d0afb911dae51af4e7a60ccdf9701f3"))])
  (web-mode .
-	   [(17 3 18 0 20240207 123128)
+	   [(17 3 18 0 20240210 151127)
 	    ((emacs
 	      (23 1)))
 	    "major mode for editing web templates" tar
 	    ((:url . "https://web-mode.org")
 	     (:keywords "languages")
 	     (:maintainer "François-Xavier Bois" . "fxbois@gmail.com")
-	     (:commit . "208f32b98873f5381f6516f9de8424418e3cf16f"))])
+	     (:commit . "f19788e76c2359075975c20b8fda1f0b5080f042"))])
  (webpaste .
 	   [(3 2 2 0 20220524 174541)
 	    ((emacs
