@@ -20,7 +20,7 @@
 	 ("Leo Liu" . "sdl.web@gmail.com"))
 	(:commit . "90c90a80322aa9f26ce88f2f24a224afc4c994b8"))])
  (activities .
-	     [(0 5 -1 0 20240208 81750)
+	     [(0 5 -1 0 20240209 154246)
 	      ((emacs
 		(29 1))
 	       (persist
@@ -31,7 +31,7 @@
 	       (:maintainer "Adam Porter" . "adam@alphapapa.net")
 	       (:authors
 		("Adam Porter" . "adam@alphapapa.net"))
-	       (:commit . "f08ca7d7f44ae090e1145ed504c83315cd8b8b84"))])
+	       (:commit . "6ef5924bd1ec726b07d3d6699ecc35c215e5d2f0"))])
  (ada-mode .
 	   [(8 1 0 0 20231018 91522)
 	    ((uniquify-files
@@ -298,7 +298,7 @@
 	    ("Artur Malabarba" . "emacs@endlessparentheses.com"))
 	   (:commit . "85261a928ae0ec3b41e639f05291ffd6bf7c231c"))])
  (beframe .
-	  [(1 0 0 0 20240209 140116)
+	  [(1 0 1 0 20240210 51926)
 	   ((emacs
 	     (28 1)))
 	   "Isolate buffers per frame" tar
@@ -306,7 +306,7 @@
 	    (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	    (:authors
 	     ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	    (:commit . "a0cd62015e641f0bc73ccb3bba9ebc2b2c61cc5b"))])
+	    (:commit . "e911ab388d01aba00efc0ed7148f4e955c46f866"))])
  (bicep-ts-mode .
 		[(0 1 1 0 20240202 73552)
 		 nil "tree-sitter support for Bicep" tar
@@ -317,7 +317,7 @@
 		   ("Jostein Kjønigsen" . "jostein@kjonigsen.net"))
 		  (:commit . "27eda6d6a05f48d523bdff037ee542eabd36f2d0"))])
  (bind-key .
-	   [(2 4 1 0 20240102 22814)
+	   [(2 4 1 0 20240210 91008)
 	    ((emacs
 	      (24 3)))
 	    "A simple way to manage personal keybindings" tar
@@ -326,7 +326,7 @@
 	     (:maintainer "John Wiegley" . "johnw@newartisans.com")
 	     (:authors
 	      ("John Wiegley" . "johnw@newartisans.com"))
-	     (:commit . "7c6e44e5ccb009a63da30fbc468c924dd383b521"))])
+	     (:commit . "7f3baf352bad03de50135556a561af0c7fb1bd6a"))])
  (blist .
 	[(0 3 0 20231213 61103)
 	 ((ilist
@@ -668,7 +668,7 @@
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	   (:commit . "eb8fbfa5582a8e5880e2eaa66d15d498bca6a45a"))])
  (consult .
-	  [(1 2 0 20240202 141958)
+	  [(1 2 0 20240209 210420)
 	   ((emacs
 	     (27 1))
 	    (compat
@@ -677,7 +677,7 @@
 	   ((:url . "https://github.com/minad/consult")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-	    (:commit . "9463146ba754103db9475ae56e46561366ba4773"))])
+	    (:commit . "8cb56f8d6637e55340271274a20dfc163d77fff5"))])
  (consult-hoogle .
 		 [(0 1 1 0 20240207 80608)
 		  ((emacs
@@ -906,7 +906,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:keywords "convenience"))])
  (denote .
-	 [(2 2 4 0 20240208 93434)
+	 [(2 2 4 0 20240210 64922)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -914,7 +914,7 @@
 	   (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "03f8a93b94a7be2617ac68eea3599d91ffb24b33"))])
+	   (:commit . "571abd42e89f90a467e7780c7f0e2a2e1c0480a1"))])
  (denote-menu .
 	      [(1 2 0 0 20230927 131718)
 	       ((emacs
@@ -1222,7 +1222,7 @@
 	 ("Eduardo Ochs" . "eduardoochs@gmail.com"))
 	(:commit . "fc9ba324c5df224d4103856eef1f6ae2b462e343"))])
  (ef-themes .
-	    [(1 5 0 0 20240207 104924)
+	    [(1 5 1 0 20240210 52010)
 	     ((emacs
 	       (27 1)))
 	     "Colorful and legible themes" tar
@@ -1231,7 +1231,7 @@
 	      (:maintainer "Ef-Themes Development" . "~protesilaos/ef-themes@lists.sr.ht")
 	      (:authors
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	      (:commit . "5c9f11f616821bd56cf92caf5b1f975a68722580"))])
+	      (:commit . "1c4fc0440064a79bc788b21c70b399d031656a00"))])
  (eglot .
 	[(1 17 0 20240204 100650)
 	 ((emacs
@@ -2590,13 +2590,14 @@
 		("Ken Manheimer" . "ken.manheimer@gmail.com"))
 	       (:commit . "d08d9549222e5ba75013f1c32af24b6dda22190d"))])
  (muse .
-       [(3 20 2 0 20201128 92545)
+       [(3 20 2 0 20240209 184001)
 	nil "Authoring and publishing tool for Emacs" tar
 	((:url . "http://mwolson.org/projects/EmacsMuse.html")
 	 (:keywords "hypermedia")
 	 (:maintainer "Michael Olson" . "mwolson@gnu.org")
 	 (:authors
-	  ("John Wiegley" . "johnw@gnu.org")))])
+	  ("John Wiegley" . "johnw@gnu.org"))
+	 (:commit . "8710adde8fef5fb570e23383900f5cfa1d39060c"))])
  (myers .
 	[(0 1 0 20221221 80834)
 	 ((emacs
