@@ -51429,6 +51429,19 @@
 	     (:maintainer "Jonathan Gregory <jgrg at autistici dot org>")
 	     (:keywords "multimedia")
 	     (:url . "https://git.sr.ht/~jagrg/org-emms"))])
+ (org-epa-gpg .
+	      [(3 0 0 1 -4 20240208 20)
+	       ((emacs
+		 (26 1)))
+	       "Patch to enable EasyPG .gpg images in Org mode inline" tar
+	       ((:commit . "817b8e732c72bacddd8574f2c8f64fb26a1cfcc9")
+		(:authors
+		 ("Peter Badida" . "keyweeusr@gmail.com"))
+		(:maintainers
+		 ("Peter Badida" . "keyweeusr@gmail.com"))
+		(:maintainer "Peter Badida" . "keyweeusr@gmail.com")
+		(:keywords "lisp" "org" "gpg" "pgp" "epa" "encryption" "image" "inline" "patch")
+		(:url . "https://github.com/KeyWeeUsr/org-epa-gpg"))])
  (org-evil .
 	   [(0 6 0 1 -4 20210809 1724)
 	    ((dash
@@ -52844,7 +52857,7 @@
 		    (:keywords "bib" "hypermedia" "outlines" "wp")
 		    (:url . "https://github.com/org-roam/org-roam-bibtex"))])
  (org-roam-ql .
-	      [(0 1 1 -4 20231220 503)
+	      [(0 1 1 -4 20240212 202)
 	       ((emacs
 		 (28))
 		(org-roam
@@ -52858,7 +52871,7 @@
 		(org-super-agenda
 		 (1 2)))
 	       "Interface to query and view results from org-roam" tar
-	       ((:commit . "04c0a88d86ec66a4586c819048d0ae1833efee83")
+	       ((:commit . "9f5f1234a69b1df9d65ab947a003060fb5a28b60")
 		(:authors
 		 ("Shariff AM Faleel"))
 		(:maintainers
