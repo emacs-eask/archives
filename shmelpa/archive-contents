@@ -34849,9 +34849,11 @@
 	     (:keywords "convenience" "html" "org")
 	     (:url . "http://github.com/lujun9972/html2org.el"))])
  (htmlize .
-	  [(1 57 1 -4 20210825 2150)
-	   nil "Convert buffer text and decorations to HTML." tar
-	   ((:commit . "dd27bc3f26efd728f2b1f01f9e4ac4f61f2ffbf9")
+	  [(1 57 1 -4 20240212 1001)
+	   ((emacs
+	     (25 1)))
+	   "Convert buffer text and decorations to HTML." tar
+	   ((:commit . "09d43dfa44899f194095bb3500a45ec5b34d59c6")
 	    (:authors
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:maintainers
@@ -39132,13 +39134,13 @@
 		  (:keywords "data")
 		  (:url . "https://github.com/mhayashi1120/Emacs-kaesar"))])
  (kagi .
-       [(0 3 1 1 -4 20240210 1932)
+       [(0 3 1 1 -4 20240212 1022)
 	((emacs
 	  (29 1))
 	 (shell-maker
 	  (0 46 1)))
 	"Kagi API integration" tar
-	((:commit . "16e20a9c88c4a6f2babb9199238ffc3336f88839")
+	((:commit . "2c57f819ec09f536cfb34e98165a24e960c79ec3")
 	 (:authors
 	  ("Bram Schoenmakers" . "me@bramschoenmakers.nl"))
 	 (:maintainers
@@ -58994,11 +58996,11 @@
 		     (:maintainer "Christopher McCloud")
 		     (:url . "https://github.com/cmccloud/project-treemacs"))])
  (projectile .
-	     [(2 9 0 -4 20240212 854)
+	     [(2 9 0 -4 20240212 1100)
 	      ((emacs
 		(25 1)))
 	      "Manage and navigate projects in Emacs easily" tar
-	      ((:commit . "69642afead6d6b784d730ff9d2d845c425e76e8b")
+	      ((:commit . "0163b335a18af0f077a474d4dc6b36e22b5e3274")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	       (:maintainers
