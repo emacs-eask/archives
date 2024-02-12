@@ -1972,13 +1972,13 @@
 	 (:keywords "terminals" "color" "ansi")
 	 (:url . "http://github.com/rejeep/ansi"))])
  (ansible .
-	  [(0 3 2 1 -4 20220114 45)
+	  [(0 3 2 1 -4 20240212 325)
 	   ((s
 	     (1 9 0))
 	    (f
 	     (0 16 2)))
 	   "Ansible minor mode" tar
-	   ((:commit . "d89ac0ee57742cca0f0e0a3453d9dcc521575690")
+	   ((:commit . "1d7de8d3ddac980715eebd87ee66859f8665b101")
 	    (:authors
 	     ("k1LoW (Kenichirou Oyama), <k1lowxb [at] gmail [dot] com> <k1low [at] 101000lab [dot] org>"))
 	    (:maintainers
@@ -15180,6 +15180,14 @@
 	 (:maintainer "Nicholas Vollmer" . "progfolio@protonmail.com")
 	 (:keywords "org" "convenience")
 	 (:url . "https://github.com/progfolio/doct"))])
+ (doctest .
+	  [(0 0 0 1 -4 20240206 42)
+	   ((emacs
+	     (28 1)))
+	   "Doctests for Emacs Lisp" tar
+	   ((:commit . "ef80293f18f0ea842380adfcfabe7f8f36057d98")
+	    (:keywords "lisp" "maint" "docs" "help")
+	    (:url . "https://github.com/riscy/doctest"))])
  (dogears .
 	  [(0 2 -1 1 -4 20231016 2356)
 	   ((emacs
@@ -73431,7 +73439,7 @@
 	       (:keywords "convenience" "usability" "url")
 	       (:url . "https://github.com/lujun9972/verify-url"))])
  (verilog-ext .
-	      [(0 4 1 1 -4 20240112 1542)
+	      [(0 4 1 1 -4 20240212 57)
 	       ((emacs
 		 (29 1))
 		(verilog-mode
@@ -73457,7 +73465,7 @@
 		(async
 		 (1 9 7)))
 	       "SystemVerilog Extensions" tar
-	       ((:commit . "3f54bcc3cf0925e76a8bc9df7f4bac0567d1712e")
+	       ((:commit . "9da79ac0c79e8819381002c205ae6817bbc9b642")
 		(:authors
 		 ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 		(:maintainers
@@ -73599,7 +73607,7 @@
 	      (:keywords "convenience" "usability" "vhdl" "completion")
 	      (:url . "https://github.com/sh-ow/vhdl-capf"))])
  (vhdl-ext .
-	   [(0 4 1 1 -4 20240109 1630)
+	   [(0 4 1 1 -4 20240212 153)
 	    ((emacs
 	      (29 1))
 	     (vhdl-ts-mode
@@ -73619,7 +73627,7 @@
 	     (async
 	      (1 9 7)))
 	    "VHDL Extensions" tar
-	    ((:commit . "0003f47e4063e37894be26b82c65b03b1c2c42cf")
+	    ((:commit . "64111386bd793ceb6a8f78ab5f5caf5655fb3aa0")
 	     (:authors
 	      ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 	     (:maintainers
