@@ -276,14 +276,14 @@
 		 (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 		 (:commit . "c66ada83f3dce7e071b361048b51c4e70323b35a"))])
  (clojure-ts-mode .
-		  [(0 2 0 0 20240211 191755)
+		  [(0 2 0 0 20240212 170032)
 		   ((emacs
 		     (29)))
 		   "Major mode for Clojure code" tar
 		   ((:url . "http://github.com/clojure-emacs/clojure-ts-mode")
 		    (:keywords "languages" "clojure" "clojurescript" "lisp")
 		    (:maintainer "Danny Freeman" . "danny@dfreeman.email")
-		    (:commit . "f11b680b6b6adaf6748800b7e64ed7e265d6e9ba"))])
+		    (:commit . "b5e70662cfe49e0af0f78b61b594b02f3aa960cd"))])
  (coffee-mode .
 	      [(0 6 3 0 20230908 103000)
 	       ((emacs
@@ -1191,13 +1191,16 @@
 	       ("Akib Azmain Turja" . "akib@disroot.org"))
 	      (:commit . "2d3a3f551b52c07a11b9ea0f842ef39915911c55"))])
  (htmlize .
-	  [(1 57 0 20210825 215038)
-	   nil "Convert buffer text and decorations to HTML." tar
+	  [(1 57 0 20240212 100109)
+	   ((emacs
+	     (25 1)))
+	   "Convert buffer text and decorations to HTML." tar
 	   ((:url . "https://github.com/hniksic/emacs-htmlize")
+	    (:keywords "hypermedia" "extensions")
 	    (:maintainer "Hrvoje Niksic" . "hniksic@gmail.com")
 	    (:authors
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
-	    (:keywords "hypermedia" "extensions"))])
+	    (:commit . "09d43dfa44899f194095bb3500a45ec5b34d59c6"))])
  (hyperdrive .
 	     [(0 4 -1 0 20240207 114916)
 	      ((emacs
@@ -1873,7 +1876,7 @@
 	   ("Tomohiro Matsuyama" . "m2ym.pub@gmail.com"))
 	  (:commit . "4d6f6c22a5abf130fe8359171cb9d6b00dc41c0b"))])
  (projectile .
-	     [(2 9 0 -4 0 20240212 85415)
+	     [(2 9 0 -4 0 20240212 110040)
 	      ((emacs
 		(25 1)))
 	      "Manage and navigate projects in Emacs easily" tar
@@ -1882,7 +1885,7 @@
 	       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
-	       (:commit . "69642afead6d6b784d730ff9d2d845c425e76e8b"))])
+	       (:commit . "0163b335a18af0f077a474d4dc6b36e22b5e3274"))])
  (proof-general .
 		[(4 6 -4 0 20240207 74735)
 		 ((emacs
@@ -2261,14 +2264,14 @@
 			 ("Akib Azmain Turja" . "akib@disroot.org"))
 			(:commit . "36a2a9422dcdf6f01e842b153fa492c1604ca48b"))])
  (textile-mode .
-	       [(1 0 0 0 20240207 155045)
+	       [(1 0 0 0 20240212 175553)
 		nil "Textile markup editing major mode" tar
 		((:url . "https://github.com/juba/textile-mode")
 		 (:keywords "wp" "languages")
 		 (:maintainer "Julien Barnier" . "julien@nozav.org")
 		 (:authors
 		  ("Julien Barnier" . "julien@nozav.org"))
-		 (:commit . "54ac1bb8b28626568c641fc1ade14444b02b7a1e"))])
+		 (:commit . "2ad90cb6ed2560ee147417a3ec65222cc2ad33f1"))])
  (toc-org .
 	  [(1 1 0 20230831 75249)
 	   nil "add table of contents to org-mode files (formerly, org-toc)" tar
