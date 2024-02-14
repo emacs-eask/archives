@@ -491,7 +491,7 @@
 		(:keywords "languages" "elixir")
 		(:commit . "00d6580a040a750e019218f9392cf9a4c2dac23a"))])
  (elpher .
-	 [(3 5 0 0 20230505 81717)
+	 [(3 5 1 0 20240214 95244)
 	  ((emacs
 	    (27 1)))
 	  "A friendly gopher and gemini client" tar
@@ -500,7 +500,7 @@
 	   (:maintainer "Tim Vaughan" . "plugd@thelambdalab.xyz")
 	   (:authors
 	    ("Tim Vaughan" . "plugd@thelambdalab.xyz"))
-	   (:commit . "81f2883614c303184116449ec3583ef5c136ec2f"))])
+	   (:commit . "3f53ed5b6550d25a66bc83f6f26d8cfb06b1dcce"))])
  (emacsql .
 	  [(3 1 1 50 -4 0 20240206 185218)
 	   ((emacs
@@ -1731,15 +1731,11 @@
 	       (:url . "https://elpa.nongnu.org/nongnu/p4-16-mode.html")
 	       (:commit . "794dd0056b4ca736ae5ecb39072547f22a006137"))])
  (package-lint .
-	       [(0 21 0 20240128 13117)
-		((cl-lib
-		  (0 5))
-		 (emacs
+	       [(0 21 0 20240214 150519)
+		((emacs
 		  (24 4))
 		 (let-alist
-		     (1 0 6))
-		 (compat
-		  (29 1)))
+		     (1 0 6)))
 		"A linting library for elisp package authors" tar
 		((:url . "https://github.com/purcell/package-lint")
 		 (:keywords "lisp")
@@ -1749,7 +1745,7 @@
 		 (:authors
 		  ("Steve Purcell" . "steve@sanityinc.com")
 		  ("Fanael Linithien" . "fanael4@gmail.com"))
-		 (:commit . "a6a74293dbc9c69c568c79c509d2aa3b67bc6769"))])
+		 (:commit . "86371484e56f8f0f92624bfaf58fe2fbad7e199c"))])
  (pacmacs .
 	  [(0 1 1 0 20220411 143014)
 	   ((emacs
