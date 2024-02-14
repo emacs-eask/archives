@@ -30543,14 +30543,14 @@
 		 (:keywords "hacker" "typer" "multimedia" "games")
 		 (:url . "http://github.com/therockmandolinist/emacs-hacker-typer"))])
  (hackernews .
-	     [(0 7 0 1 -4 20240113 2137)
+	     [(0 7 0 1 -4 20240214 1452)
 	      nil "Hacker News Client for Emacs" tar
-	      ((:commit . "38ad768e95ca651d836ee2fa2d795ac2e84e8e03")
+	      ((:commit . "34423948fd37e9f6904e4e3f6d103e311017ed09")
 	       (:authors
-		("Lincoln de Sousa" . "lincoln@comum.org"))
+		("Lincoln de Sousa" . "lincoln@clarete.li"))
 	       (:maintainers
-		("Basil L. Contovounesios" . "contovob@tcd.ie"))
-	       (:maintainer "Basil L. Contovounesios" . "contovob@tcd.ie")
+		("Basil L. Contovounesios" . "basil@contovou.net"))
+	       (:maintainer "Basil L. Contovounesios" . "basil@contovou.net")
 	       (:keywords "comm" "hypermedia" "news")
 	       (:url . "https://github.com/clarete/hackernews.el"))])
  (haki-theme .
@@ -55287,17 +55287,13 @@
 		   (:maintainer "Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		   (:url . "https://github.com/milkypostman/package-filter"))])
  (package-lint .
-	       [(0 21 1 -4 20240118 1725)
-		((cl-lib
-		  (0 5))
-		 (emacs
+	       [(0 21 1 -4 20240214 1423)
+		((emacs
 		  (24 4))
 		 (let-alist
-		     (1 0 6))
-		 (compat
-		  (29 1)))
+		     (1 0 6)))
 		"A linting library for elisp package authors" tar
-		((:commit . "3d74189df110b1656c2cd97c332921f4856dbd76")
+		((:commit . "a78eb9a77dc1c6f0ffee6704b99621d10ca44be0")
 		 (:authors
 		  ("Steve Purcell" . "steve@sanityinc.com")
 		  ("Fanael Linithien" . "fanael4@gmail.com"))
