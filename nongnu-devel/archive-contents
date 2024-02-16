@@ -276,14 +276,14 @@
 		 (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 		 (:commit . "fc3e7bc9b8718d60744b5d5f6e3212206b083254"))])
  (clojure-ts-mode .
-		  [(0 2 0 0 20240215 54347)
+		  [(0 2 2 0 20240216 132330)
 		   ((emacs
 		     (29 1)))
 		   "Major mode for Clojure code" tar
 		   ((:url . "http://github.com/clojure-emacs/clojure-ts-mode")
 		    (:keywords "languages" "clojure" "clojurescript" "lisp")
 		    (:maintainer "Danny Freeman" . "danny@dfreeman.email")
-		    (:commit . "95520cb12bc2af57b55cb8a049906c7e40805a42"))])
+		    (:commit . "a923aa83a61751a588ed3afc133d45898995762e"))])
  (coffee-mode .
 	      [(0 6 3 0 20230908 103000)
 	       ((emacs
@@ -640,7 +640,7 @@
 		    (:authors
 		     ("Sylvain Benner" . "sylvain.benner@gmail.com")))])
  (evil-matchit .
-	       [(3 0 2 0 20240216 411)
+	       [(3 0 4 0 20240216 130425)
 		((emacs
 		  (25 1)))
 		"Vim matchit ported to Evil" tar
@@ -649,9 +649,9 @@
 		 (:maintainer "Chen Bin" . "chenbin.sh@gmail.com")
 		 (:authors
 		  ("Chen Bin" . "chenbin.sh@gmail.com"))
-		 (:commit . "c245365e1cc83b4c7bdf6dc52f3cfc5ad64a6d6f"))])
+		 (:commit . "1c4fefa9bb11cc4b1d7f10614d2021c12ed12e89"))])
  (evil-nerd-commenter .
-		      [(3 6 1 0 20240216 548)
+		      [(3 6 1 0 20240216 114656)
 		       ((emacs
 			 (26 1)))
 		       "Comment/uncomment lines efficiently. Like Nerd Commenter in Vim" tar
@@ -660,7 +660,7 @@
 			(:maintainer "Chen Bin" . "chenbin.sh@gmail.com")
 			(:authors
 			 ("Chen Bin" . "chenbin.sh@gmail.com"))
-			(:commit . "a01f96084424e0333aed3864d0cb65445e0fd8e3"))])
+			(:commit . "ae52c5070a48793e2c24474c9c8dbf20175d18a0"))])
  (evil-numbers .
 	       [(0 7 0 20230201 12520)
 		((emacs
@@ -710,7 +710,7 @@
 		    (:authors
 		     ("Bailey Ling")))])
  (exec-path-from-shell .
-		       [(2 1 0 20240104 172156)
+		       [(2 1 0 20240216 160639)
 			((emacs
 			  (24 1))
 			 (cl-lib
@@ -721,7 +721,7 @@
 			 (:maintainer "Steve Purcell" . "steve@sanityinc.com")
 			 (:authors
 			  ("Steve Purcell" . "steve@sanityinc.com"))
-			 (:commit . "6c10a9d4a38425f2b494013b6bdff91537a6b6da"))])
+			 (:commit . "d95677ad608c214647b87bc20df1642763e3b400"))])
  (flx .
       [(0 6 2 0 20240204 195634)
        ((cl-lib
@@ -2007,18 +2007,18 @@
 	       ("Natalie Weizenbaum"))
 	      (:keywords "markup" "language" "css"))])
  (scad-mode .
-	    [(93 2 0 20231229 220732)
+	    [(93 3 0 20240216 153611)
 	     ((emacs
 	       (27 1))
 	      (compat
-	       (29 1 4 0)))
+	       (29 1 4 4)))
 	     "A major mode for editing OpenSCAD code" tar
 	     ((:url . "https://github.com/openscad/emacs-scad-mode")
 	      (:keywords "languages")
 	      (:maintainer
 	       ("Len Trigg" . "lenbok@gmail.com")
 	       ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	      (:commit . "cd7070569f4ada5469087773e1b542514ed19974"))])
+	      (:commit . "8d5650c5cfee96c42d64427bfcadb89f6bda66be"))])
  (scala-mode .
 	     [(0 23 0 20240113 174352)
 	      nil "Major mode for editing Scala" tar
