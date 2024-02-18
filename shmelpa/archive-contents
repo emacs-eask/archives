@@ -23538,13 +23538,11 @@
 		(:keywords "convenience" "search" "flx")
 		(:url . "https://github.com/pythonnut/flx-isearch"))])
  (flycheck .
-	   [(34 0 1 -4 20240214 1657)
+	   [(34 1 1 -4 20240218 1919)
 	    ((emacs
-	      (26 1))
-	     (seq
-	      (2 24)))
+	      (26 1)))
 	    "On-the-fly syntax checking" tar
-	    ((:commit . "e66068989ec5f3e96ff73b22bb8494b23722c8f9")
+	    ((:commit . "5a9ff918f91e230ae08a6bdce7ec1f107864a5e2")
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
 	     (:maintainers
@@ -37000,6 +36998,21 @@
 		(:maintainer "Fermin Munoz" . "fmfs@posteo.net")
 		(:keywords "islisp" "lisp" "programming")
 		(:url . "https://gitlab.com/sasanidas/islisp-mode"))])
+ (iso-639 .
+	  [(1 0 1 -4 20240218 1008)
+	   ((emacs
+	     (25 1))
+	    (levenshtein
+	     (20090830 1040)))
+	   "ISO 639" tar
+	   ((:commit . "c217a36102a566bbaf6f0aec81511fc5a9cfc247")
+	    (:authors
+	     ("Wamm K. D." . "jaft.r@outlook.com"))
+	    (:maintainers
+	     ("Wamm K. D." . "jaft.r@outlook.com"))
+	    (:maintainer "Wamm K. D." . "jaft.r@outlook.com")
+	    (:keywords "tools" "multilingual" "language" "iso-639")
+	    (:url . "https://codeberg.org/WammKD/emacs-iso-639"))])
  (isortify .
 	   [(0 0 1 1 -4 20230821 1632)
 	    ((emacs
@@ -51109,7 +51122,7 @@
 			     (:keywords "bib")
 			     (:url . "https://git.sr.ht/~swflint/org-cite-overlay"))])
  (org-cite-sidecar .
-		   [(1 0 0 1 -4 20240203 1618)
+		   [(1 1 0 1 -4 20240218 1917)
 		    ((emacs
 		      (28 1))
 		     (citeproc
@@ -51119,7 +51132,7 @@
 		     (universal-sidecar-citeproc
 		      (1 0 0)))
 		    "Sidecar to show references in Org Mode" tar
-		    ((:commit . "9998eea0cff6216acfc354a99431c4506dec1839")
+		    ((:commit . "94e349534e049c9bcf08eb70ef4ebfc9b9f80d0d")
 		     (:authors
 		      ("Samuel W. Flint" . "me@samuelwflint.com"))
 		     (:maintainers
@@ -53711,11 +53724,11 @@
 	      (:keywords "outlines" "org" "vcard")
 	      (:url . "https://github.com/flexibeast/org-vcard"))])
  (org-view-mode .
-		[(1 0 0 1 -4 20221208 327)
+		[(1 0 0 1 -4 20240218 1930)
 		 ((emacs
 		   (25 1)))
 		 "Read-only viewer with less markup clutter in org mode files" tar
-		 ((:commit . "014f96acb7093ffae93c62aabff750e63c3babc5")
+		 ((:commit . "0d48e9c7e81d973f33e97d364e4ea77576d53f46")
 		  (:authors
 		   ("Arthur Miller" . "arthur.miller@live.com"))
 		  (:maintainers
