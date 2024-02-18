@@ -17925,7 +17925,7 @@
 		      (:maintainer "Yinghai Zhao" . "zyinghai@gmail.com")
 		      (:keywords "snippets"))])
  (ellama .
-	 [(0 8 3 1 -4 20240215 1259)
+	 [(0 8 4 1 -4 20240218 1342)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -17935,7 +17935,7 @@
 	   (dash
 	    (2 19 1)))
 	  "Tool for interacting with LLMs" tar
-	  ((:commit . "90ec5e86bae8c0071f1f44c1ddbb14b62004b71d")
+	  ((:commit . "4e2dbf4322b4340dca356ded3321f4c04135ba37")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
 	   (:maintainers
@@ -28792,7 +28792,7 @@
 	    (:keywords "processes" "hardware")
 	    (:url . "http://github.com/nicferrier/emacs-nm"))])
  (gnosis .
-	 [(0 1 6 1 -4 20240215 2359)
+	 [(0 1 7 1 -4 20240218 1437)
 	  ((emacs
 	    (27 2))
 	   (compat
@@ -28800,7 +28800,7 @@
 	   (emacsql
 	    (20240124)))
 	  "Spaced Repetition System For Note Taking & Self Testing" tar
-	  ((:commit . "e4ca956cc7da0de1ec18e8ff844cb07896894f4d")
+	  ((:commit . "51d5b4661e59b6ac291aa887391689372a7e4843")
 	   (:authors
 	    ("Thanos Apollo" . "public@thanosapollo.org"))
 	   (:maintainers
@@ -48244,9 +48244,9 @@
 		  (:keywords "convenience" "nodejs" "javascript" "npm")
 		  (:url . "https://github.com/meandavejustice/node-resolver.el"))])
  (nodejs-repl .
-	      [(0 2 4 1 -4 20240218 1242)
+	      [(0 2 4 1 -4 20240218 1345)
 	       nil "Run Node.js REPL" tar
-	       ((:commit . "91eec69e73cb4032f2c25f4569471093ce5461b6")
+	       ((:commit . "ec8f726a0939395a15d32d16d17a8ce77ab1e4f7")
 		(:authors
 		 ("Takeshi Arabiki"))
 		(:maintainers
@@ -51039,6 +51039,21 @@
 	     (:maintainer "Calvin Beck" . "hobbes@ualberta.ca")
 	     (:keywords "convenience" "abbrev" "outlines" "org" "food" "recipes" "cooking")
 	     (:url . "https://github.com/Chobbes/org-chef"))])
+ (org-cite-overlay .
+		   [(0 5 0 1 -4 20240207 1611)
+		    ((emacs
+		      (28 1))
+		     (citeproc
+		      (0 9 4)))
+		    "Overlays for org-cite citations" tar
+		    ((:commit . "cb401787b4569f43815cac55be8a319c489de3de")
+		     (:authors
+		      ("Samuel W. Flint" . "me@samuelwflint.com"))
+		     (:maintainers
+		      ("Samuel W. Flint" . "me@samuelwflint.com"))
+		     (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
+		     (:keywords "bib" "tex")
+		     (:url . "https://git.sr.ht/~swflint/org-cite-overlay"))])
  (org-cite-sidecar .
 		   [(1 0 0 1 -4 20240203 1618)
 		    ((emacs
@@ -51795,13 +51810,13 @@
 	     (:keywords "ahungry" "jira" "org" "bug" "tracker")
 	     (:url . "https://github.com/ahungry/org-jira"))])
  (org-journal .
-	      [(2 2 0 1 -4 20240107 1922)
+	      [(2 2 0 1 -4 20240218 1501)
 	       ((emacs
-		 (25 1))
+		 (26 1))
 		(org
 		 (9 1)))
 	       "a simple org-mode based journaling mode" tar
-	       ((:commit . "605a7eb984a95fc6ec122df800632bf56ff59514")
+	       ((:commit . "b1548879e9147cc270c600f86361a9616316b385")
 		(:authors
 		 ("Bastian Bechtold")
 		 ("Christian Schwarzgruber"))
@@ -70150,11 +70165,11 @@
 	   (:keywords "convenience" "quoting")
 	   (:url . "https://github.com/davep/thinks.el"))])
  (third-time .
-	     [(1 3 0 1 -4 20231023 316)
+	     [(1 3 0 1 -4 20240207 1621)
 	      ((emacs
 		(27 1)))
 	      "Third Time: A Better Way to Work" tar
-	      ((:commit . "05bed0c25ce5def3db6b885ffcee74a705dc0dfb")
+	      ((:commit . "093b74be860fac389fb173caef5fabf61e417eef")
 	       (:authors
 		("Samuel W. Flint" . "swflint@flintfam.org"))
 	       (:maintainers
@@ -71613,11 +71628,11 @@
 	   (:keywords "lisp" "maint" "tools")
 	   (:url . "https://github.com/volrath/treepy.el"))])
  (treesit-auto .
-	       [(1 0 2 1 -4 20240131 1815)
+	       [(1 0 3 1 -4 20240218 1446)
 		((emacs
 		  (29 0)))
 		"Automatically use tree-sitter enhanced major modes" tar
-		((:commit . "4225f2245247585d581bffb09225dcb21d443421")
+		((:commit . "e5a71408d29d3e5796369e3091ecd3f78751c80e")
 		 (:authors
 		  ("Robb Enzmann" . "robbenzmann@gmail.com"))
 		 (:maintainers
@@ -76350,13 +76365,13 @@
 	      (:keywords "data" "yaml")
 	      (:url . "https://github.com/yoshiki/yaml-mode"))])
  (yaml-pro .
-	   [(0 3 1 1 -4 20240218 529)
+	   [(0 3 1 1 -4 20240218 1418)
 	    ((emacs
 	      (26 1))
 	     (yaml
 	      (0 5 1)))
 	    "Parser-aided YAML editing features" tar
-	    ((:commit . "2c0acfd16b097e2a8996741d530d748a00bf5ba1")
+	    ((:commit . "2fb320bd4719ede50b01d3ebe4b1f1578f1dd4c0")
 	     (:authors
 	      ("Zachary Romero"))
 	     (:maintainers
