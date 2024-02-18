@@ -308,14 +308,14 @@
 	     ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	    (:commit . "e911ab388d01aba00efc0ed7148f4e955c46f866"))])
  (bicep-ts-mode .
-		[(0 1 2 0 20240216 212537)
+		[(0 1 3 0 20240218 140135)
 		 nil "tree-sitter support for Bicep" tar
 		 ((:url . "https://github.com/josteink/bicep-ts-mode")
 		  (:keywords "bicep" "languages" "tree-sitter")
 		  (:maintainer "Jostein Kjønigsen" . "jostein@kjonigsen.net")
 		  (:authors
 		   ("Jostein Kjønigsen" . "jostein@kjonigsen.net"))
-		  (:commit . "c70e067362e3848efcb3d0727571b33c5d9775c8"))])
+		  (:commit . "5350edd6a1bd05292a26e7a3b291de8cbaf6bc05"))])
  (bind-key .
 	   [(2 4 1 0 20240210 91008)
 	    ((emacs
@@ -608,14 +608,14 @@
 			("Clément Pit-Claudel" . "clement.pitclaudel@live.com"))
 		       (:commit . "3b2233120d33943b8af65fec6257f0c16ad3c6fd"))])
  (company .
-	  [(0 10 2 0 20240211 212222)
+	  [(0 10 2 0 20240218 181202)
 	   ((emacs
 	     (25 1)))
 	   "Modular text completion framework" tar
 	   ((:url . "http://company-mode.github.io/")
 	    (:keywords "abbrev" "convenience" "matching")
 	    (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
-	    (:commit . "695b94b86ee5b24641724260b296bdc247690f4a"))])
+	    (:commit . "0c0186cca8e7e9a12a44ffe42ad7037ffa6bfac7"))])
  (company-ebdb .
 	       [(1 1 0 20221221 74915)
 		((company
@@ -1300,7 +1300,7 @@
 		     (:url . "https://elpa.gnu.org/packages/elisp-benchmarks.html")
 		     (:commit . "ce92b922cb86f9db549fdfc3add0f5e6050a8d93"))])
  (ellama .
-	 [(0 8 3 0 20240215 125941)
+	 [(0 8 4 0 20240218 134236)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -1315,7 +1315,7 @@
 	   (:maintainer "Sergey Kostyaev" . "sskostyaev@gmail.com")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
-	   (:commit . "90ec5e86bae8c0071f1f44c1ddbb14b62004b71d"))])
+	   (:commit . "4e2dbf4322b4340dca356ded3321f4c04135ba37"))])
  (emacs-gc-stats .
 		 [(1 4 2 0 20231206 152254)
 		  ((emacs
@@ -1327,7 +1327,7 @@
 		    ("Ihor Radchenko" . "yantar92@posteo.net"))
 		   (:commit . "05d669e123f411c9582f99a9a6182efa43d01a6b"))])
  (embark .
-	 [(1 0 0 20240205 152225)
+	 [(1 0 0 20240218 144436)
 	  ((emacs
 	    (27 1))
 	   (compat
@@ -1338,9 +1338,9 @@
 	   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-	   (:commit . "60139db8794f7e4a08076d9f7597d08f6c8083d1"))])
+	   (:commit . "fc936f1a48f2a7971bec7532f51a3bcb78d0806f"))])
  (embark-consult .
-		 [(1 0 0 20240205 152225)
+		 [(1 0 0 20240218 144436)
 		  ((emacs
 		    (27 1))
 		   (compat
@@ -1355,7 +1355,7 @@
 		   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 		   (:authors
 		    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-		   (:commit . "60139db8794f7e4a08076d9f7597d08f6c8083d1"))])
+		   (:commit . "fc936f1a48f2a7971bec7532f51a3bcb78d0806f"))])
  (ement .
 	[(0 15 -1 0 20240216 193240)
 	 ((emacs
@@ -2339,7 +2339,7 @@
 	 ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	(:commit . "7a043603d1b46bde4df06eaf6947569c816cb3ef"))])
  (llm .
-      [(0 9 1 0 20240207 224339)
+      [(0 9 1 0 20240218 124933)
        ((emacs
 	 (28 1)))
        "Interface to pluggable llm backends" tar
@@ -2347,7 +2347,7 @@
 	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
-	(:commit . "4add6102f83176beb9655083dd3844ab91672238"))])
+	(:commit . "4086581eae104f192b1f34c0c79c07e1080375ae"))])
  (lmc .
       [(1 4 0 20230105 113402)
        ((emacs
@@ -2818,7 +2818,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "61aed3e622f90ee8ace44a84a05abc1074567b74"))])
  (org .
-      [(9 7 -1 0 20240217 152519)
+      [(9 7 -1 0 20240218 164718)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2827,7 +2827,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "388ba5b5c415ef75adc79a2553d5f5ae06c044af"))])
+	(:commit . "d3148823019353f98d2cb88273d451b3b0d08c13"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs

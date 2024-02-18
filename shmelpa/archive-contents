@@ -1687,11 +1687,11 @@
 		(:keywords "wp")
 		(:url . "https://repo.or.cz/amread-mode.git"))])
  (amsreftex .
-	    [(0 3 1 -4 20220822 1749)
+	    [(0 3 1 1 -4 20240210 1109)
 	     ((emacs
 	       (25 1)))
 	     "Add amsrefs bibliography support for reftex" tar
-	     ((:commit . "8932c4a48f9d430ccc9ae2259551649d1443035d")
+	     ((:commit . "d64705a7a252be2554b717a38252d8999b0c1504")
 	      (:authors
 	       ("Fran Burstall" . "fran.burstall@gmail.com"))
 	      (:maintainers
@@ -7424,7 +7424,7 @@
 		(:maintainer "Adam Chyła" . "adam@chyla.org")
 		(:url . "https://github.com/chyla/ChylaThemeForEmacs"))])
  (cider .
-	[(1 14 0 -4 20240201 2038)
+	[(1 14 0 -4 20240218 2020)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -7442,7 +7442,7 @@
 	  (transient
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
-	 ((:commit . "aa26d62ac59930079e47e652ccd73e8e447defd5")
+	 ((:commit . "e0ce74d212d9650d81217387cd494ba57cd4483d")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
 	   ("Phil Hagelberg" . "technomancy@gmail.com")
@@ -18636,13 +18636,13 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(1 0 1 -4 20240131 1248)
+	 [(1 0 1 -4 20240218 2044)
 	  ((emacs
 	    (27 1))
 	   (compat
 	    (29 1 4 0)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "99484b04ec72b9febfb2175b075ba55e40bcbf72")
+	  ((:commit . "fc936f1a48f2a7971bec7532f51a3bcb78d0806f")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	   (:maintainers
@@ -22965,7 +22965,7 @@
 	    (:keywords "fingers" "modal" "editing" "workman")
 	    (:url . "http://github.com/fgeller/fingers.el"))])
  (finito .
-	 [(0 2 0 1 -4 20231209 1912)
+	 [(0 2 0 1 -4 20240218 2123)
 	  ((emacs
 	    (27 1))
 	   (dash
@@ -22983,7 +22983,7 @@
 	   (async
 	    (1 9 3)))
 	  "View and collect books" tar
-	  ((:commit . "15e5870843751bd3d7bb5e2bcafe4cb2d859706e")
+	  ((:commit . "47ab84e86628198cb33fc55ddca6534c0ee172f6")
 	   (:authors
 	    ("Laurence Warne"))
 	   (:maintainers
@@ -23538,18 +23538,18 @@
 		(:keywords "convenience" "search" "flx")
 		(:url . "https://github.com/pythonnut/flx-isearch"))])
  (flycheck .
-	   [(34 1 1 -4 20240218 1919)
+	   [(34 1 1 -4 20240218 2046)
 	    ((emacs
 	      (26 1)))
 	    "On-the-fly syntax checking" tar
-	    ((:commit . "5a9ff918f91e230ae08a6bdce7ec1f107864a5e2")
+	    ((:commit . "9854769249686cb23c79ec1fff0ac0735a0f7e81")
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
 	     (:maintainers
 	      ("Clément Pit-Claudel" . "clement.pitclaudel@live.com"))
 	     (:maintainer "Clément Pit-Claudel" . "clement.pitclaudel@live.com")
 	     (:keywords "convenience" "languages" "tools")
-	     (:url . "http://www.flycheck.org"))])
+	     (:url . "https://www.flycheck.org"))])
  (flycheck-actionlint .
 		      [(0 2 0 1 -4 20230802 913)
 		       ((emacs
@@ -27756,7 +27756,7 @@
 	(:keywords "convenience")
 	(:url . "https://github.com/lafrenierejm/emacs-ghq"))])
  (ghub .
-       [(3 6 0 1 -4 20240204 1741)
+       [(3 6 0 1 -4 20240218 2101)
 	((emacs
 	  (25 1))
 	 (compat
@@ -27766,7 +27766,7 @@
 	 (treepy
 	  (0 1 2)))
 	"Client libraries for Git forge APIs." tar
-	((:commit . "af4bf6172f8522173a725ed83e04a7d8e591fe63")
+	((:commit . "c59de91717c2343ccba3adb9047d846edc35bc36")
 	 (:authors
 	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -71477,13 +71477,13 @@
 		       (:maintainer "Erick Navarro" . "erick@navarro.io")
 		       (:url . "https://github.com/erickgnavar/tree-sitter-ispell.el"))])
  (tree-sitter-langs .
-		    [(0 12 130 1 -4 20240218 949)
+		    [(0 12 131 1 -4 20240218 1942)
 		     ((emacs
 		       (25 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
-		     ((:commit . "64a2b3ede03415ac4d3d3e759b902ce826b469c0")
+		     ((:commit . "a7b7f5dc442c342f850249e7dd11c540cd6439c4")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
 		      (:maintainers
