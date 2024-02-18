@@ -9027,11 +9027,11 @@
 			 (:keywords "snippets")
 			 (:url . "https://github.com/mrkkrp/common-lisp-snippets"))])
  (company .
-	  [(0 2 1 -4 20240211 2122)
+	  [(0 2 1 -4 20240218 1812)
 	   ((emacs
 	     (25 1)))
 	   "Modular text completion framework" tar
-	   ((:commit . "695b94b86ee5b24641724260b296bdc247690f4a")
+	   ((:commit . "0c0186cca8e7e9a12a44ffe42ad7037ffa6bfac7")
 	    (:authors
 	     ("Nikolaj Schumacher"))
 	    (:maintainers
@@ -16858,6 +16858,26 @@
 	     (:maintainer "Adam Beckmeyer" . "adam_git@thebeckmeyers.xyz")
 	     (:keywords "convenience" "languages")
 	     (:url . "https://github.com/non-Jedi/eglot-jl"))])
+ (eglot-signature-eldoc-talkative .
+				  [(0 0 5 1 -4 20240209 2034)
+				   ((emacs
+				     (29 1))
+				    (eglot
+				     (1 16))
+				    (eldoc
+				     (1 14 0))
+				    (jsonrpc
+				     (1 0 23)))
+				   "Make Eglot make ElDoc echo docs" tar
+				   ((:commit . "b6604648a2ea5d260fa315ffbaebebbf3872343a")
+				    (:authors
+				     ("João Távora" . "joaotavora@gmail.com")
+				     ("Mekeor Melire" . "mekeor@posteo.de"))
+				    (:maintainers
+				     ("Mekeor Melire" . "mekeor@posteo.de"))
+				    (:maintainer "Mekeor Melire" . "mekeor@posteo.de")
+				    (:keywords "convenience" "documentation" "eglot" "eldoc" "languages" "lsp")
+				    (:url . "https://codeberg.org/mekeor/emacs-eglot-signature-eldoc-talkative"))])
  (eglot-tempel .
 	       [(0 5 1 -4 20230626 1004)
 		((eglot
@@ -51067,6 +51087,27 @@
 		     (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
 		     (:keywords "bib" "tex")
 		     (:url . "https://git.sr.ht/~swflint/org-cite-overlay"))])
+ (org-cite-overlay-sidecar .
+			   [(0 5 0 1 -4 20240213 1802)
+			    ((emacs
+			      (28 1))
+			     (citeproc
+			      (0 9 4))
+			     (org-cite-overlay
+			      (0 1 0))
+			     (universal-sidecar
+			      (1 5 0))
+			     (universal-sidecar-citeproc
+			      (1 0 0)))
+			    "Show Sidecar for overlaid org-cite citations" tar
+			    ((:commit . "bb23142f5d0d390196839fa9b3ce27ce4d149b59")
+			     (:authors
+			      ("Samuel W. Flint" . "me@samuelwflint.com"))
+			     (:maintainers
+			      ("Samuel W. Flint" . "me@samuelwflint.com"))
+			     (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
+			     (:keywords "bib")
+			     (:url . "https://git.sr.ht/~swflint/org-cite-overlay"))])
  (org-cite-sidecar .
 		   [(1 0 0 1 -4 20240203 1618)
 		    ((emacs
@@ -52204,6 +52245,19 @@
 	       (:maintainer "Zweihänder" . "zweidev@zweihander.me")
 	       (:keywords "outlines")
 	       (:url . "https://github.com/Zweihander-Main/org-newtab"))])
+ (org-nix-shell .
+		[(0 3 2 1 -4 20240205 1642)
+		 ((emacs
+		   (27 1))
+		  (org
+		   (9 4)))
+		 "Org local nix-shell" tar
+		 ((:commit . "d9843aa0f62a39b9938a89388e25129ecb39a4cc")
+		  (:maintainers
+		   ("Anton Hakansson" . "anton@hakanssn.com"))
+		  (:maintainer "Anton Hakansson" . "anton@hakanssn.com")
+		  (:keywords "processes" "outlines")
+		  (:url . "https://github.com/AntonHakansson/"))])
  (org-notebook .
 	       [(1 1 1 -4 20170322 452)
 		((emacs
@@ -57199,6 +57253,19 @@
 	   (:maintainer "Xu Chunyang" . "mail@xuchunyang.me")
 	   (:keywords "extensions")
 	   (:url . "https://github.com/xuchunyang/pinyin.el"))])
+ (pinyin-isearch .
+		 [(1 6 9 1 -4 20240215 1554)
+		  ((emacs
+		    (28 1)))
+		  "Pinyin mode for isearch" tar
+		  ((:commit . "1ed4218cb50b4de614c11dc41ab6053255271ae7")
+		   (:authors
+		    ("Anoncheg1"))
+		   (:maintainers
+		    ("Anoncheg1"))
+		   (:maintainer "Anoncheg1")
+		   (:keywords "chinese" "pinyin" "matching" "convenience")
+		   (:url . "https://github.com/Anoncheg1/pinyin-isearch"))])
  (pinyin-search .
 		[(1 0 0 1 -4 20230919 538)
 		 ((pinyinlib
