@@ -6607,6 +6607,19 @@
 	       ("Xu Chunyang"))
 	      (:maintainer "Xu Chunyang")
 	      (:url . "https://github.com/xuchunyang/cc-cedict.el"))])
+ (cc-isearch-menu .
+		  [(1 0 1 1 -4 20240213 2312)
+		   ((emacs
+		     (29 1)))
+		   "A Transient menu for isearch" tar
+		   ((:commit . "a5e24c5b4cd88d0192c633543a9fcd16084d05f0")
+		    (:authors
+		     ("Charles Choi" . "kickingvegas@gmail.com"))
+		    (:maintainers
+		     ("Charles Choi" . "kickingvegas@gmail.com"))
+		    (:maintainer "Charles Choi" . "kickingvegas@gmail.com")
+		    (:keywords "wp")
+		    (:url . "https://github.com/kickingvegas/cc-isearch-menu"))])
  (ccc .
       [(0 1 0 1 -4 20210501 820)
        nil "buffer local cursor color control library" tar
@@ -22612,11 +22625,11 @@
 	   (:maintainer "chee" . "emacs@chee.party")
 	   (:url . "https://opensource.chee.party/chee/feline-mode"))])
  (fennel-mode .
-	      [(0 9 1 1 -4 20231022 1926)
+	      [(0 9 1 1 -4 20240217 1848)
 	       ((emacs
 		 (26 1)))
 	       "A major-mode for editing Fennel code" tar
-	       ((:commit . "5965c8fc693a49e65237a087e693690cf8c9fcb3")
+	       ((:commit . "0997a3853e56bfcd29167687f8ababcf8fd89c36")
 		(:authors
 		 ("Phil Hagelberg"))
 		(:maintainers
@@ -28792,7 +28805,7 @@
 	    (:keywords "processes" "hardware")
 	    (:url . "http://github.com/nicferrier/emacs-nm"))])
  (gnosis .
-	 [(0 1 7 1 -4 20240218 1437)
+	 [(0 1 7 1 -4 20240218 1628)
 	  ((emacs
 	    (27 2))
 	   (compat
@@ -28800,7 +28813,7 @@
 	   (emacsql
 	    (20240124)))
 	  "Spaced Repetition System For Note Taking & Self Testing" tar
-	  ((:commit . "51d5b4661e59b6ac291aa887391689372a7e4843")
+	  ((:commit . "f2d56ebcec73817f97561cbb7c2048c0d4952559")
 	   (:authors
 	    ("Thanos Apollo" . "public@thanosapollo.org"))
 	   (:maintainers
@@ -29960,11 +29973,11 @@
 		(:maintainer "Ian Fitzpatrick")
 		(:url . "https://github.com/ifitzpatrick/graphql-doc.el"))])
  (graphql-mode .
-	       [(1 0 0 1 -4 20230923 1315)
+	       [(1 0 0 1 -4 20240218 1603)
 		((emacs
 		  (25 1)))
 		"Major mode for editing GraphQL schemas" tar
-		((:commit . "49a391b5290e3354b07f7b77ded97a154c084f46")
+		((:commit . "2183895ea7932359586c4bb99e8562c4aef3aaf7")
 		 (:authors
 		  ("David Vazquez Pua" . "davazp@gmail.com"))
 		 (:maintainers
@@ -29973,11 +29986,11 @@
 		 (:keywords "languages")
 		 (:url . "https://github.com/davazp/graphql-mode"))])
  (graphql-ts-mode .
-		  [(0 1 0 1 -4 20230911 2036)
+		  [(0 1 0 1 -4 20240105 1236)
 		   ((emacs
 		     (29 1)))
 		   "Tree-sitter support for GraphQL" tar
-		   ((:commit . "dc88c4bb1702b910cdc68dd7b361a0fc5bf96486")
+		   ((:commit . "e933f235408ea195762700fd07c2d828e8f09aac")
 		    (:authors
 		     ("Joram Schrijver" . "i@joram.io"))
 		    (:maintainers
@@ -35071,7 +35084,7 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperdrive .
-	     [(0 4 -1 1 -4 20240203 429)
+	     [(0 4 -1 1 -4 20240207 1949)
 	      ((emacs
 		(28 1))
 	       (map
@@ -35087,7 +35100,7 @@
 	       (transient
 		(0 5 2)))
 	      "P2P filesystem" tar
-	      ((:commit . "6252ee1ba84a15c3eb9f53fb253590247759115f")
+	      ((:commit . "8c41b805a522deb86e8b496090769c7251345115")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
 	       (:maintainers
@@ -40984,7 +40997,7 @@
 	     (:keywords "convenience")
 	     (:url . "https://github.com/jorgenschaefer/legalese"))])
  (lem .
-      [(0 6 1 -4 20240217 1414)
+      [(0 6 1 -4 20240218 1628)
        ((emacs
 	 (29 1))
 	(fedi
@@ -40992,7 +41005,7 @@
 	(markdown-mode
 	 (2 5)))
        "A lemmy client" tar
-       ((:commit . "3ee37323b647f941e0860e010841bac62c176dbf")
+       ((:commit . "81ae24d1b4a9ca1d1064b5a419fb34c5de05417c")
 	(:authors
 	 ("martian hiatus <martianhiatus [a t] riseup [d o t] net>"))
 	(:maintainers
@@ -44153,11 +44166,11 @@
 		(:keywords "markdown")
 		(:url . "https://github.com/nlamirault/emacs-markdownfmt"))])
  (markless .
-	   [(1 0 1 -4 20220702 1811)
+	   [(1 0 1 -4 20240218 1639)
 	    ((emacs
 	      (24 4)))
 	    "Major mode for Markless documents" tar
-	    ((:commit . "048eec3278ab82c1040d063d4f677f01090d4dab")
+	    ((:commit . "686dcf2592a042ebb4e01cbf60d4d8840dd74eaa")
 	     (:authors
 	      ("Nicolas Hafner" . "shinmera@tymoon.eu"))
 	     (:maintainers
@@ -51810,13 +51823,13 @@
 	     (:keywords "ahungry" "jira" "org" "bug" "tracker")
 	     (:url . "https://github.com/ahungry/org-jira"))])
  (org-journal .
-	      [(2 2 0 1 -4 20240218 1501)
+	      [(2 2 0 1 -4 20240218 1645)
 	       ((emacs
 		 (26 1))
 		(org
 		 (9 1)))
 	       "a simple org-mode based journaling mode" tar
-	       ((:commit . "b1548879e9147cc270c600f86361a9616316b385")
+	       ((:commit . "859dc19168dc6b10eba3843f24980a7db79f6869")
 		(:authors
 		 ("Bastian Bechtold")
 		 ("Christian Schwarzgruber"))
