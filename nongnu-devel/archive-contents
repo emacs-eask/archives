@@ -738,6 +738,20 @@
 	   "flx integration for ido" tar
 	   ((:url . "https://github.com/lewang/flx")
 	    (:commit . "4b1346eb9a8a76ee9c9dede69738c63ad97ac5b6"))])
+ (flycheck .
+	   [(34 1 0 20240221 60756)
+	    ((emacs
+	      (26 1)))
+	    "On-the-fly syntax checking" tar
+	    ((:url . "https://www.flycheck.org")
+	     (:keywords "convenience" "languages" "tools")
+	     (:maintainer
+	      ("Clément Pit-Claudel" . "clement.pitclaudel@live.com")
+	      ("fmdkdd" . "fmdkdd@gmail.com")
+	      ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
+	     (:authors
+	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
+	     (:commit . "eb87e051fb32cc20e892a32229225271c7cecb4c"))])
  (flymake-guile .
 		[(0 5 0 20230905 194410)
 		 ((emacs
@@ -964,7 +978,7 @@
 		   ("Jeronimo Pellegrini" . "(j_p@aleph0.info)"))
 		  (:commit . "c634fc2049f1616b772f5e9cb78c6171dcc4c34d"))])
  (git-commit .
-	     [(3 3 0 50 -4 0 20240221 144510)
+	     [(3 3 0 50 -4 0 20240221 183510)
 	      ((emacs
 		(25 1))
 	       (compat
@@ -984,7 +998,7 @@
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
 		("Florian Ragwitz" . "rafl@debian.org")
 		("Marius Vollmer" . "marius.vollmer@gmail.com"))
-	       (:commit . "09961f67a403c53b62669f40a088d5720dc77270"))])
+	       (:commit . "039a1801efd2c75412de65d7b6a36e39361938af"))])
  (git-modes .
 	    [(1 4 2 0 20240206 184428)
 	     ((emacs
@@ -1133,7 +1147,7 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (helm .
-       [(3 9 7 0 20240221 63807)
+       [(3 9 7 0 20240222 75144)
 	((helm-core
 	  (3 9 7))
 	 (wfnames
@@ -1145,9 +1159,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "20a7088b117272e6079f55f413ab8b66b0eb9afa"))])
+	 (:commit . "93b10a8a458df32e9e86b70fd015315c603edfbd"))])
  (helm-core .
-	    [(3 9 7 0 20240221 63807)
+	    [(3 9 7 0 20240222 75144)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1157,7 +1171,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "20a7088b117272e6079f55f413ab8b66b0eb9afa"))])
+	      (:commit . "93b10a8a458df32e9e86b70fd015315c603edfbd"))])
  (highlight-parentheses .
 			[(2 1 1 0 20220408 84538)
 			 ((emacs
@@ -1406,7 +1420,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "0b04a89f698c335c9ea492553470a8d45c113edd"))])
  (magit .
-	[(3 3 0 50 -4 0 20240221 144510)
+	[(3 3 0 50 -4 0 20240221 183510)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -1432,9 +1446,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	  (:commit . "09961f67a403c53b62669f40a088d5720dc77270"))])
+	  (:commit . "039a1801efd2c75412de65d7b6a36e39361938af"))])
  (magit-section .
-		[(3 3 0 50 -4 0 20240221 144510)
+		[(3 3 0 50 -4 0 20240221 183510)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -1449,7 +1463,7 @@
 		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
 		  (:authors
 		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
-		  (:commit . "09961f67a403c53b62669f40a088d5720dc77270"))])
+		  (:commit . "039a1801efd2c75412de65d7b6a36e39361938af"))])
  (markdown-mode .
 		[(2 7 -3 0 20240107 83143)
 		 ((emacs
@@ -2374,7 +2388,7 @@
 	       ("Daniel Semyonov" . "daniel@dsemy.com"))
 	      (:commit . "34007904a828cfa24bfeae20a40ce53cc8a23b4f"))])
  (visual-fill-column .
-		     [(2 5 2 0 20240205 150513)
+		     [(2 6 0 0 20240222 152049)
 		      ((emacs
 			(25 1)))
 		      "fill-column for visual-line-mode" tar
@@ -2382,7 +2396,7 @@
 		       (:maintainer "Joost Kremers" . "joostkremers@fastmail.fm")
 		       (:authors
 			("Joost Kremers" . "joostkremers@fastmail.fm"))
-		       (:commit . "5e74afe39d0afb911dae51af4e7a60ccdf9701f3"))])
+		       (:commit . "87448429024a9392d3446880b89083f045de2073"))])
  (web-mode .
 	   [(17 3 18 0 20240210 151127)
 	    ((emacs
