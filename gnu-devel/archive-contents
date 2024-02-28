@@ -195,6 +195,18 @@
 			 (:authors
 			  ("Thien-Thi Nguyen" . "ttn@gnu.org"))
 			 (:commit . "53b49ffcf2cabe8ef0f7fc1a74fd6748c3f99c58"))])
+ (assess .
+	 [(0 6 0 20231120 170108)
+	  ((emacs
+	    (24 4))
+	   (m-buffer
+	    (0 15)))
+	  "Test support functions" tar
+	  ((:maintainer "Phillip Lord" . "phillip.lord@russet.org.uk")
+	   (:authors
+	    ("Phillip Lord" . "phillip.lord@russet.org.uk"))
+	   (:url . "https://elpa.gnu.org/packages/assess.html")
+	   (:commit . "2399936d5b75094ed0e131b3f9d48041005383e2"))])
  (async .
 	[(1 9 8 0 20240108 152601)
 	 ((emacs
@@ -1879,7 +1891,7 @@
 	     ("Sean Allred" . "code@seanallred.com"))
 	    (:commit . "67237f284f2dfb94f3cfba672ff64a37e1cb860f"))])
  (greader .
-	  [(0 9 13 0 20240227 95359)
+	  [(0 9 14 0 20240228 83807)
 	   ((emacs
 	     (25)))
 	   "gnamù reader, send buffer contents to a speech engine." tar
@@ -1888,7 +1900,7 @@
 	    (:authors
 	     ("Michelangelo Rodriguez" . "michelangelo.rodriguez@gmail.com"))
 	    (:url . "https://elpa.gnu.org/packages/greader.html")
-	    (:commit . "d5437d1324a74cf0d1dc82facade8c70553bd8eb"))])
+	    (:commit . "577fc7c791be5e684ddd5c154983708a99d249be"))])
  (greenbar .
 	   [(1 1 0 20221221 80217)
 	    nil "Mark comint output with \"greenbar\" background" tar
@@ -2306,6 +2318,32 @@
 	 (:authors
 	  ("Naoya Yamashita" . "conao3@gmail.com"))
 	 (:commit . "466e12a4161fdee53bca60a786a460b4680255f1"))])
+ (lentic .
+	 [(0 11 0 20240227 111850)
+	  ((emacs
+	    (25))
+	   (m-buffer
+	    (0 13))
+	   (dash
+	    (2 5 0)))
+	  "One buffer as a view of another" tar
+	  ((:maintainer "Phillip Lord" . "phillip.lord@russet.org.uk")
+	   (:authors
+	    ("Phillip Lord" . "phillip.lord@russet.org.uk"))
+	   (:url . "https://elpa.gnu.org/packages/lentic.html")
+	   (:commit . "2bce4eeb78199662169f0e833322112c87cde491"))])
+ (lentic-server .
+		[(0 1 0 20240227 115743)
+		 ((lentic
+		   (0 8))
+		  (web-server
+		   (0 1 1)))
+		 "Web Server for Emacs Literate Source" tar
+		 ((:maintainer "Phillip Lord" . "phillip.lord@newcastle.ac.uk")
+		  (:authors
+		   ("Phillip Lord" . "phillip.lord@newcastle.ac.uk"))
+		  (:url . "https://elpa.gnu.org/packages/lentic-server.html")
+		  (:commit . "febe60ccccf9c715b56ff1d2ef16d4f98587b145"))])
  (let-alist .
    [(1 0 6 0 20240102 14710)
     ((emacs
@@ -2441,7 +2479,7 @@
        (:url . "https://elpa.gnu.org/packages/lv.html")
        (:commit . "54e9db2b023e03b6f6b46aeec48ea74fd51d4e11"))])
  (m-buffer .
-	   [(0 15 0 20221019 152716)
+	   [(0 15 0 20240227 180755)
 	    ((seq
 	      (2 14)))
 	    "List-Oriented, Functional Buffer Manipulation" tar
@@ -2449,7 +2487,7 @@
 	     (:authors
 	      ("Phillip Lord" . "phillip.lord@russet.org.uk"))
 	     (:url . "https://elpa.gnu.org/packages/m-buffer.html")
-	     (:commit . "3f71fb0b62ff3ff387869486bd7bc49c34650c07"))])
+	     (:commit . "ac1adbf0ec7a274d54195fa8e4d35b3949adc98b"))])
  (map .
       [(3 3 1 0 20240221 84915)
        ((emacs
@@ -2843,7 +2881,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "2e904412e4e31a0312d77dd7697d6a59faa627fe"))])
  (org .
-      [(9 7 -1 0 20240227 124018)
+      [(9 7 -1 0 20240228 75450)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2852,7 +2890,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "356072c1d6ffb2b4d34681967a24df2db83f11b7"))])
+	(:commit . "755fef38f5b83f09f899be357b4ad3635db14c16"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs
@@ -3827,7 +3865,7 @@
 	     ("Artur Malabarba" . "emacs@endlessparentheses.com"))
 	    (:commit . "04186129f2dccf48e288639b78adeb9c0e94be54"))])
  (spacious-padding .
-		   [(0 3 0 0 20240227 111759)
+		   [(0 3 0 0 20240228 60756)
 		    ((emacs
 		      (28 1)))
 		    "Increase the padding/spacing of frames and windows" tar
@@ -3836,7 +3874,7 @@
 		     (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 		     (:authors
 		      ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		     (:commit . "7e3552fa54cc0b02f3433145895f378d567a6903"))])
+		     (:commit . "ec8e43f8581afbf9b2c1f66e6aa8a79c13e25786"))])
  (spinner .
 	  [(1 7 4 0 20220915 94959)
 	   ((emacs
