@@ -29816,7 +29816,7 @@
 	  (:keywords "comm" "convenience")
 	  (:url . "https://github.com/antonhibl/gptai"))])
  (gptel .
-	[(0 7 0 1 -4 20240221 811)
+	[(0 7 0 1 -4 20240228 636)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -29824,7 +29824,7 @@
 	  (compat
 	   (29 1 4 1)))
 	 "Interact with ChatGPT or other LLMs" tar
-	 ((:commit . "8ba07d042c11cb65ebce69fc1dc069905ec00e5e")
+	 ((:commit . "149261ee79502284d8886a9f5133e4f6be0ba5ca")
 	  (:authors
 	   ("Karthik Chikmagalur"))
 	  (:maintainers
@@ -31057,7 +31057,7 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 7 1 -4 20240227 1435)
+       [(3 9 7 1 -4 20240227 1522)
 	((helm-core
 	  (3 9 7))
 	 (wfnames
@@ -31065,7 +31065,7 @@
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "d290f3adcc7bf19e56dcabb7400d122357464c8a")
+	((:commit . "e4af8a9811234673e144ba80c9f9aa7f8aeb8f63")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -31569,13 +31569,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 9 7 1 -4 20240227 1435)
+	    [(3 9 7 1 -4 20240228 622)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 7)))
 	     "Development files for Helm" tar
-	     ((:commit . "d290f3adcc7bf19e56dcabb7400d122357464c8a")
+	     ((:commit . "17c7bd015280b472eda80b90908233a97ba63fca")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainers
@@ -51238,13 +51238,13 @@
 		   (:keywords "convenience" "docs" "tools")
 		   (:url . "https://github.com/smaximov/org-commentary"))])
  (org-contacts .
-	       [(1 1 1 -4 20240228 330)
+	       [(1 1 1 -4 20240228 712)
 		((emacs
 		  (27 1))
 		 (org
 		  (9 3 4)))
-		"Contacts management system for Org Mode" tar
-		((:commit . "fe1f566f1b5cd0f5a7cf0d6f1c5cac99948d0493")
+		"Contacts management system for Org mode" tar
+		((:commit . "73ba57b6a624799a81d4223e25f8a3b1590b5fdd")
 		 (:authors
 		  ("Julien Danjou" . "julien@danjou.info"))
 		 (:maintainers
@@ -54157,11 +54157,11 @@
 	     (:keywords "lisp" "org" "org-mode" "bootstrap")
 	     (:url . "https://github.com/tgbugs/orgstrap"))])
  (orgtbl-aggregate .
-		   [(1 0 1 -4 20240227 1604)
+		   [(1 0 1 -4 20240228 720)
 		    ((emacs
 		      (26 1)))
 		    "Create an aggregated Org table from another one" tar
-		    ((:commit . "f35c3f7c2ad441970123c664acd1885cd18ee8ed")
+		    ((:commit . "cc129b543c472c704c8dc074500a8192ac3d9f88")
 		     (:keywords "data" "extensions")
 		     (:url . "https://github.com/tbanel/orgaggregate/blob/master/README.org"))])
  (orgtbl-ascii-plot .
@@ -54176,11 +54176,11 @@
 		      (:maintainer "Thierry Banel  tbanelwebmin at free dot fr")
 		      (:keywords "org" "table" "ascii" "plot"))])
  (orgtbl-fit .
-	     [(1 0 1 -4 20230110 1544)
+	     [(1 0 1 -4 20240228 716)
 	      ((emacs
 		(24 4)))
 	      "Regression-fit a column in an Org Mode table" tar
-	      ((:commit . "5bde4902187b2578dc39ee3a02cd7c84c4470b8a")
+	      ((:commit . "a22f3a137f3590d7f13c3be38bbd1e55d39cb2ad")
 	       (:authors
 		("Thierry Banel tbanelwebmin at free dot fr"))
 	       (:maintainers
@@ -54189,11 +54189,11 @@
 	       (:keywords "data" "extensions")
 	       (:url . "https://github.com/tbanel/orgtblfit/blob/master/README.org"))])
  (orgtbl-join .
-	      [(0 1 1 -4 20240227 1615)
+	      [(0 1 1 -4 20240228 719)
 	       ((emacs
 		 (24 3)))
 	       "Join columns from another Org Mode table" tar
-	       ((:commit . "b22883053d65c54904b4bc70fd05f9f998fa2e43")
+	       ((:commit . "f243511ec4b3a712d0b868ecbc4c7b1310a3382d")
 		(:authors
 		 ("Thierry Banel tbanelwebmin at free dot fr"))
 		(:maintainers
@@ -55312,6 +55312,19 @@
 	     ("Arthur Miller" . "arthur.miller@live.com"))
 	    (:maintainer "Arthur Miller" . "arthur.miller@live.com")
 	    (:url . "https://github.com/phillord/pabbrev"))])
+ (pacdiff .
+	  [(0 1 1 -4 20240219 1606)
+	   ((emacs
+	     (28 1)))
+	   "Manage pacdiff files" tar
+	   ((:commit . "74996064f7270a3b8fc57bbc8b166f3966c0a4c1")
+	    (:authors
+	     ("Fabian Brosda" . "fabi3141@gmx.de")
+	     ("Nicholas Vollmer"))
+	    (:maintainers
+	     ("Fabian Brosda" . "fabi3141@gmx.de"))
+	    (:maintainer "Fabian Brosda" . "fabi3141@gmx.de")
+	    (:url . "https://github.com/fbrosda/pacdiff.el"))])
  (pacfiles-mode .
 		[(1 2 1 -4 20230503 1523)
 		 ((emacs
