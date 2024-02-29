@@ -25695,6 +25695,19 @@
 		 (:maintainer "Jürgen Hötzel")
 		 (:keywords "tools" "languages")
 		 (:url . "http://github.com/juergenhoetzel/flymake-nasm"))])
+ (flymake-perlcritic .
+		     [(1 0 3 1 -4 20240229 953)
+		      ((flymake
+			(1 2)))
+		      "Flymake handler for Perl to invoke Perl::Critic" tar
+		      ((:commit . "f65ac37608b78ce785808c27fba86a8102a4ff95")
+		       (:authors
+			("Sam Graham <libflymake-perlcritic-emacs BLAHBLAH illusori.co.uk>")
+			("gemmaro" . "gemmaro.dev@gmail.com"))
+		       (:maintainers
+			("Sam Graham <libflymake-perlcritic-emacs BLAHBLAH illusori.co.uk>"))
+		       (:maintainer "Sam Graham <libflymake-perlcritic-emacs BLAHBLAH illusori.co.uk>")
+		       (:url . "https://github.com/illusori/emacs-flymake-perlcritic"))])
  (flymake-pest .
 	       [(0 1 1 -4 20200710 2327)
 		((emacs
