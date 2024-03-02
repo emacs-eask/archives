@@ -2158,6 +2158,18 @@
 	    (:maintainer "Sean Allred" . "code@seanallred.com")
 	    (:keywords "tools" "maint" "convenience")
 	    (:url . "https://github.com/vermiculus/apiwrap.el"))])
+ (app-monochrome-themes .
+			[(0 0 1 1 -4 20240228 1146)
+			 ((emacs
+			   (24 4)))
+			 "Low contrast monochrome themes" tar
+			 ((:commit . "182a6e562729f59ad440cb5006de2ba2160f23b2")
+			  (:authors
+			   ("Aleksandr Petrosyan" . "appetrosan3@gmail.com"))
+			  (:maintainers
+			   ("Aleksandr Petrosyan" . "appetrosan3@gmail.com"))
+			  (:maintainer "Aleksandr Petrosyan" . "appetrosan3@gmail.com")
+			  (:url . "https://github.com/Greybeard-Entertainment/app-monochrome"))])
  (apparmor-mode .
 		[(0 8 1 -4 20240211 2243)
 		 ((emacs
@@ -7048,6 +7060,23 @@
 		   ("Alvaro Ramirez https://xenodium.com"))
 		  (:maintainer "Alvaro Ramirez https://xenodium.com")
 		  (:url . "https://github.com/xenodium/chatgpt-shell"))])
+ (chatu .
+	[(0 1 1 -4 20240302 124)
+	 ((org
+	   (9 6 6))
+	  (emacs
+	   (29 1))
+	  (plantuml-mode
+	   (1 2 9)))
+	 "Convert and insert diagram to buffer" tar
+	 ((:commit . "2d6b781d3fa9b36b2c0aab44088424117fd4b57a")
+	  (:authors
+	   ("Kimi Ma" . "kimi.im@outlook.com"))
+	  (:maintainers
+	   ("Kimi Ma" . "kimi.im@outlook.com"))
+	  (:maintainer "Kimi Ma" . "kimi.im@outlook.com")
+	  (:keywords "multimedia" "convenience")
+	  (:url . "https://github.com/kimim/chatu"))])
  (chatwork .
 	   [(0 2 1 -4 20170511 442)
 	    nil "ChatWork client for Emacs" tar
@@ -51020,13 +51049,13 @@
 		(:maintainer "D. Williams" . "d.williams@posteo.net")
 		(:url . "https://github.com/integral-dw/org-bullets"))])
  (org-caldav .
-	     [(3 0 1 -4 20240221 704)
+	     [(3 1 1 -4 20240302 1807)
 	      ((emacs
 		(26 3))
 	       (org
 		(9 1)))
 	      "Sync org files with external calendar through CalDAV" tar
-	      ((:commit . "9a3062cea3d1081450abbbef6a0d2b83014f31fb")
+	      ((:commit . "7c0ae0dd84d47f7f28a5e74e68ecbbd53df401d8")
 	       (:authors
 		("David Engster" . "deng@randomsample.de"))
 	       (:maintainers
@@ -70576,11 +70605,11 @@
 	      (:keywords "modeline" "frames" "ui")
 	      (:url . "https://gitlab.com/aimebertrand/timu-line"))])
  (timu-macos-theme .
-		   [(1 2 1 -4 20240215 1822)
+		   [(1 3 1 -4 20240302 1736)
 		    ((emacs
 		      (27 1)))
 		    "Color theme inspired by the macOS UI" tar
-		    ((:commit . "b99b7d77530748009366910b69c238b4c21f5bc0")
+		    ((:commit . "43c2ebc4364c227e9e8943478c21250c594b3c50")
 		     (:authors
 		      ("Aimé Bertrand" . "aime.bertrand@macowners.club"))
 		     (:maintainers
