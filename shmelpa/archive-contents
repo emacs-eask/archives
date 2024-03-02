@@ -2120,11 +2120,11 @@
 	"A Portable Emacs Library provides support for portable Emacs Lisp programs" tar
 	((:commit . "1a6fd3bab2cc6b0a450c2d801f77a1c9da0f72fb"))])
  (apheleia .
-	   [(4 1 1 -4 20240226 205)
+	   [(4 1 1 -4 20240302 2127)
 	    ((emacs
 	      (27)))
 	    "Reformat buffer stably" tar
-	    ((:commit . "7ba74c7cc28e4f0da4006968ecb8587133daa142")
+	    ((:commit . "2fec5692e424cd24e7450d63bbe58f75eafb7417")
 	     (:authors
 	      ("Radian LLC" . "contact+apheleia@radian.codes"))
 	     (:maintainers
@@ -18698,6 +18698,23 @@
 		   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 		   (:keywords "convenience")
 		   (:url . "https://github.com/oantolin/embark"))])
+ (embark-org-roam .
+		  [(0 2 1 -4 20240223 1820)
+		   ((emacs
+		     (27 1))
+		    (embark
+		     (0 23))
+		    (org-roam
+		     (2 2 0)))
+		   "Embark export buffer for org roam nodes" tar
+		   ((:commit . "4374bd22328d099b405503ea59683eeeede97b01")
+		    (:authors
+		     ("Bram Adams" . "bram.adams@queensu.ca"))
+		    (:maintainers
+		     ("Bram Adams" . "bram.adams@queensu.ca"))
+		    (:maintainer "Bram Adams" . "bram.adams@queensu.ca")
+		    (:keywords "outlines" "hypermedia")
+		    (:url . "https://github.com/bramadams/embark-org-roam"))])
  (embark-vc .
 	    [(0 2 1 -4 20230212 1920)
 	     ((emacs
