@@ -18699,7 +18699,7 @@
 		   (:keywords "convenience")
 		   (:url . "https://github.com/oantolin/embark"))])
  (embark-org-roam .
-		  [(0 2 1 -4 20240223 1820)
+		  [(0 2 1 -4 20240303 326)
 		   ((emacs
 		     (27 1))
 		    (embark
@@ -18707,7 +18707,7 @@
 		    (org-roam
 		     (2 2 0)))
 		   "Embark export buffer for org roam nodes" tar
-		   ((:commit . "4374bd22328d099b405503ea59683eeeede97b01")
+		   ((:commit . "acc554bc40cdea886452b7a23bed2940665effb0")
 		    (:authors
 		     ("Bram Adams" . "bram.adams@queensu.ca"))
 		    (:maintainers
@@ -25683,11 +25683,13 @@
 		   (:keywords "languages" "ktlint")
 		   (:url . "https://github.com/jojojames/flymake-ktlint"))])
  (flymake-languagetool .
-		       [(0 2 0 1 -4 20240302 2304)
+		       [(0 2 0 1 -4 20240303 212)
 			((emacs
-			  (28 1)))
+			  (27 1))
+			 (compat
+			  (29 1 4 4)))
 			"Flymake support for LanguageTool" tar
-			((:commit . "d271f2b255611111af5bf7d80eae9fb5c1096fa3")
+			((:commit . "870012d34daba5d2ca44c8c060fd74f1ed48e28f")
 			 (:keywords "convenience" "grammar" "check")
 			 (:url . "https://github.com/emacs-languagetool/flymake-languagetool"))])
  (flymake-less .
