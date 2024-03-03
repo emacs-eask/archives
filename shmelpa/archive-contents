@@ -25683,11 +25683,11 @@
 		   (:keywords "languages" "ktlint")
 		   (:url . "https://github.com/jojojames/flymake-ktlint"))])
  (flymake-languagetool .
-		       [(0 2 0 1 -4 20240302 1558)
+		       [(0 2 0 1 -4 20240302 2304)
 			((emacs
-			  (27 1)))
+			  (28 1)))
 			"Flymake support for LanguageTool" tar
-			((:commit . "b7f03bc0a6e06e1cc5614694e9d51949685fe3b0")
+			((:commit . "d271f2b255611111af5bf7d80eae9fb5c1096fa3")
 			 (:keywords "convenience" "grammar" "check")
 			 (:url . "https://github.com/emacs-languagetool/flymake-languagetool"))])
  (flymake-less .
@@ -43138,11 +43138,11 @@
 		   (:maintainer "Korytov Pavel" . "thexcloud@gmail.com")
 		   (:url . "https://github.com/SqrtMinusOne/lyrics-fetcher.el"))])
  (m-buffer .
-	   [(0 15 1 -4 20240227 2307)
+	   [(0 16 1 -4 20240302 2255)
 	    ((seq
 	      (2 14)))
 	    "List-Oriented, Functional Buffer Manipulation" tar
-	    ((:commit . "ac1adbf0ec7a274d54195fa8e4d35b3949adc98b")
+	    ((:commit . "8a51de3366599e7fa52e37b596c9ce226b6f04c5")
 	     (:authors
 	      ("Phillip Lord" . "phillip.lord@russet.org.uk"))
 	     (:maintainers
@@ -48598,7 +48598,7 @@
 		    (:keywords "mail")
 		    (:url . "https://git.sr.ht/~tarsius/notmuch-maildir"))])
  (notmuch-transient .
-		    [(0 1 0 1 -4 20240106 1322)
+		    [(0 1 0 1 -4 20240302 2332)
 		     ((emacs
 		       (27 1))
 		      (compat
@@ -48608,7 +48608,7 @@
 		      (transient
 		       (0 5 2)))
 		     "Command dispatchers for Notmuch" tar
-		     ((:commit . "0dc26288276e43a2e362acae850444a47b7db652")
+		     ((:commit . "f08ef922b88d90a7cad348743c8470f443b1fa8e")
 		      (:authors
 		       ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		      (:maintainers
@@ -62414,6 +62414,22 @@
 		   ("Syohei YOSHIDA" . "syohex@gmail.com"))
 		  (:maintainer "Syohei YOSHIDA" . "syohex@gmail.com")
 		  (:url . "https://github.com/syohex/emacs-reverse-theme"))])
+ (reverso .
+	  [(0 1 2 1 -4 20240113 2128)
+	   ((emacs
+	     (27 1))
+	    (transient
+	     (0 3 7))
+	    (request
+	     (0 3 2)))
+	   "Translation, grammar checking, context search" tar
+	   ((:commit . "7ae99550cd6076009560c4c7a3e4cdf101826041")
+	    (:authors
+	     ("Korytov Pavel" . "thexcloud@gmail.com"))
+	    (:maintainers
+	     ("Korytov Pavel" . "thexcloud@gmail.com"))
+	    (:maintainer "Korytov Pavel" . "thexcloud@gmail.com")
+	    (:url . "https://github.com/SqrtMinusOne/reverso.el"))])
  (revert-buffer-all .
 		    [(0 1 1 -4 20230109 536)
 		     ((emacs
@@ -73419,11 +73435,11 @@
 	    ("Adam Spiers" . "aspiers@suse.com"))
 	   (:maintainer "Adam Spiers" . "aspiers@suse.com"))])
  (vcomp .
-	[(0 1 0 1 -4 20230407 1426)
+	[(0 1 0 1 -4 20240302 2255)
 	 ((emacs
-	   (24 1)))
+	   (25 1)))
 	 "Compare version strings" tar
-	 ((:commit . "fdd010e9081d62aa6aaa1b25a2df925efd662d0c")
+	 ((:commit . "99831d234481a61488aca4b96b842b63a79c732a")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainers
