@@ -143,7 +143,7 @@
 		   ("Bryan Gilbert <http://github/gilbertw1>"))
 		  (:commit . "47622213783ece37d5337dc28d33b530540fc319"))])
  (bind-map .
-	   [(1 1 2 0 20240307 133732)
+	   [(1 1 2 0 20240308 155008)
 	    ((emacs
 	      (24 3)))
 	    "Bind personal keymaps in multiple locations" tar
@@ -151,7 +151,7 @@
 	     (:maintainer "Justin Burkett" . "justin@burkett.cc")
 	     (:authors
 	      ("Justin Burkett" . "justin@burkett.cc"))
-	     (:commit . "d0e33d07cdca9b6c4cb6bef54ac7f29201094e2a"))])
+	     (:commit . "d7b0e42b78f708669ec368ebbd1f503094ceee22"))])
  (bison-mode .
 	     [(0 4 0 20210527 1753)
 	      nil "Major mode for editing bison, yacc and lex files." tar
@@ -237,7 +237,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "33770dec73138909714711b05a63e79da5a19ccd"))])
  (cider .
-	[(1 14 0 -4 0 20240307 101908)
+	[(1 14 0 -4 0 20240308 134117)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -265,7 +265,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "9edb2d20c3436708a79d4b5bf561e2b4c40b4867"))])
+	  (:commit . "23540fdfcdac02b2d18e51a170cd07b32d20e80d"))])
  (clojure-mode .
 	       [(5 19 0 -4 0 20240305 221841)
 		((emacs
@@ -1129,13 +1129,13 @@
 	      (:keywords "markup" "languages" "html")
 	      (:commit . "a64d58df8f098f858c6c11fa1629a90969f9c7e8"))])
  (haskell-mode .
-	       [(17 5 0 20240116 171831)
+	       [(17 5 0 20240308 102019)
 		((emacs
 		  (25 1)))
 		"A Haskell editing mode" tar
 		((:url . "https://github.com/haskell/haskell-mode")
 		 (:keywords "haskell" "cabal" "ghc" "repl" "languages")
-		 (:commit . "43b4036bf02b02de75643a1a2a31e28efac1c50b"))])
+		 (:commit . "d23ec34788286405f377ce485d2a17e302d94a4f"))])
  (haskell-tng-mode .
 		   [(0 0 1 0 20230522 221126)
 		    ((emacs
@@ -1147,7 +1147,7 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (helm .
-       [(3 9 7 0 20240305 141017)
+       [(3 9 7 0 20240308 70515)
 	((helm-core
 	  (3 9 7))
 	 (wfnames
@@ -1159,9 +1159,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "0d0bf177e619f412667f46832d132c30664629ca"))])
+	 (:commit . "8c4561d3661031801aa3c38d60e4a0e461c1fa1c"))])
  (helm-core .
-	    [(3 9 7 0 20240305 141017)
+	    [(3 9 7 0 20240308 70515)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1171,7 +1171,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "0d0bf177e619f412667f46832d132c30664629ca"))])
+	      (:commit . "8c4561d3661031801aa3c38d60e4a0e461c1fa1c"))])
  (highlight-parentheses .
 			[(2 1 1 0 20220408 84538)
 			 ((emacs
@@ -1537,14 +1537,14 @@
 	     ("Akib Azmain Turja" . "akib@disroot.org"))
 	    (:commit . "22831489d3bbc22aef315c0f003bf3756b8889fa"))])
  (moe-theme .
-	    [(1 0 2 0 20231006 63925)
+	    [(1 0 2 0 20240308 92126)
 	     nil "A colorful eye-candy theme. Moe, moe, kyun!" tar
 	     ((:url . "https://github.com/kuanyui/moe-theme.el")
 	      (:keywords "themes")
 	      (:maintainer "kuanyui" . "azazabc123@gmail.com")
 	      (:authors
 	       ("kuanyui" . "azazabc123@gmail.com"))
-	      (:commit . "1872aebc016e1c1a8d4e2a4037cd54b618de5453"))])
+	      (:commit . "56286c6b869520807596e3e8af1b37c50e5a1349"))])
  (monokai-theme .
 		[(3 5 3 0 20220117 124458)
 		 nil "A fruity color theme for Emacs." tar
@@ -1895,13 +1895,13 @@
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	       (:commit . "0163b335a18af0f077a474d4dc6b36e22b5e3274"))])
  (proof-general .
-		[(4 6 -4 0 20240306 200254)
+		[(4 6 -4 0 20240308 94952)
 		 ((emacs
 		   (25 2)))
 		 "A generic Emacs interface for proof assistants" tar
 		 ((:url . "https://proofgeneral.github.io/")
 		  (:maintainer nil . "proof-general-maintainers@groupes.renater.fr")
-		  (:commit . "a6f8243ed2860cc7c9cb051496f1543d981e9f7e"))])
+		  (:commit . "e793ac46a18873fab3a1d6ee80c6a5b38d25561f"))])
  (prop-menu .
 	    [(0 1 2 0 20150728 51803)
 	     ((emacs
