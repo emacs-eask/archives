@@ -237,7 +237,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "33770dec73138909714711b05a63e79da5a19ccd"))])
  (cider .
-	[(1 14 0 -4 0 20240308 134117)
+	[(1 14 0 -4 0 20240310 192615)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -265,7 +265,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "23540fdfcdac02b2d18e51a170cd07b32d20e80d"))])
+	  (:commit . "c4fa1a84a3b3d03ef5f61cc5d33ff4e91b9a1dce"))])
  (clojure-mode .
 	       [(5 19 0 -4 0 20240305 221841)
 		((emacs
@@ -295,6 +295,19 @@
 		(:authors
 		 ("Chris Wanstrath" . "chris@ozmm.org"))
 		(:commit . "1c6adeae14f3795d3b1e44321189ed7c2c93c967"))])
+ (consult-flycheck .
+		   [(1 0 0 20240310 144218)
+		    ((emacs
+		      (27 1))
+		     (consult
+		      (1 4))
+		     (flycheck
+		      (34)))
+		    "Provides the command `consult-flycheck'" tar
+		    ((:url . "https://github.com/minad/consult-flycheck")
+		     (:keywords "languages" "tools" "completion")
+		     (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
+		     (:commit . "754f5497d827f7d58009256a21af614cc44378a3"))])
  (corfu-terminal .
 		 [(0 7 0 20230810 20636)
 		  ((emacs
@@ -1279,7 +1292,7 @@
 		(:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 		(:commit . "9aea5012bf9047781a21a3b62cea134b126f7709"))])
  (inf-ruby .
-	   [(2 8 1 0 20240127 183214)
+	   [(2 8 1 0 20240310 180335)
 	    ((emacs
 	      (26 1)))
 	    "Run a Ruby process in a buffer" tar
@@ -1290,7 +1303,7 @@
 	      ("Cornelius Mika" . "cornelius.mika@gmail.com")
 	      ("Dmitry Gutov" . "dgutov@yandex.ru")
 	      ("Kyle Hargraves" . "pd@krh.me"))
-	     (:commit . "dac615c7fdbb57587465b1c497f8be4c979439e1"))])
+	     (:commit . "b88ff8bd5fe2e468de611b0211842634beaeb5da"))])
  (inkpot-theme .
 	       [(0 1 0 20220507 111829)
 		((emacs

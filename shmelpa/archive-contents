@@ -1059,6 +1059,19 @@
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	 (:keywords "matching" "files" "completion")
 	 (:url . "https://github.com/minad/affe"))])
+ (afterglow .
+	    [(0 2 0 1 -4 20240303 353)
+	     ((emacs
+	       (26 1)))
+	     "Temporary Highlighting after Function Calls" tar
+	     ((:commit . "62181a09a7c39733233eb956bc872180aeae9e9e")
+	      (:authors
+	       ("Ernest M. van der Linden " . "hello@ernestoz.com"))
+	      (:maintainers
+	       ("Ernest M. van der Linden " . "hello@ernestoz.com"))
+	      (:maintainer "Ernest M. van der Linden " . "hello@ernestoz.com")
+	      (:keywords "highlight" "line" "convenience" "evil")
+	      (:url . "https://github.com/ernestvanderlinden/emacs-afterglow"))])
  (afternoon-theme .
 		  [(0 1 1 -4 20140104 1859)
 		   ((emacs
@@ -7453,7 +7466,7 @@
 		(:maintainer "Adam Chyła" . "adam@chyla.org")
 		(:url . "https://github.com/chyla/ChylaThemeForEmacs"))])
  (cider .
-	[(1 14 0 -4 20240308 1341)
+	[(1 14 0 -4 20240310 1926)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -7471,7 +7484,7 @@
 	  (transient
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
-	 ((:commit . "23540fdfcdac02b2d18e51a170cd07b32d20e80d")
+	 ((:commit . "c4fa1a84a3b3d03ef5f61cc5d33ff4e91b9a1dce")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
 	   ("Phil Hagelberg" . "technomancy@gmail.com")
