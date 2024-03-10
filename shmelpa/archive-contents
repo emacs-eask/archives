@@ -26197,6 +26197,23 @@
 		 (:maintainer "Ono Hiroko" . "azazabc123@gmail.com")
 		 (:keywords "files" "convenience")
 		 (:url . "http://github.com/kuanyui/fm-bookmarks.el"))])
+ (fmo-mode .
+	   [(0 1 2 1 -4 20240306 1442)
+	    ((emacs
+	      (29 1))
+	     (difflib
+	      (0 3 7))
+	     (format-all
+	      (0 5 0)))
+	    "Format only changed lines" tar
+	    ((:commit . "eb63a36ee8ca0ec985e6fd043db974e6f9b38c83")
+	     (:authors
+	      ("Xichen Zhou" . "sichem.zh@gmail.com"))
+	     (:maintainers
+	      ("Xichen Zhou" . "sichem.zh@gmail.com"))
+	     (:maintainer "Xichen Zhou" . "sichem.zh@gmail.com")
+	     (:keywords "languages" "util")
+	     (:url . "https://github.com/xeechou/fmo-mode.el"))])
  (fn .
      [(0 1 2 1 -4 20210304 1812)
       ((emacs
@@ -36357,11 +36374,11 @@
 	      (:keywords "databases" "mongodb")
 	      (:url . "http://github.com/endofunky/inf-mongo"))])
  (inf-ruby .
-	   [(2 8 1 1 -4 20240127 1832)
+	   [(2 8 1 1 -4 20240310 1803)
 	    ((emacs
 	      (26 1)))
 	    "Run a Ruby process in a buffer" tar
-	    ((:commit . "dac615c7fdbb57587465b1c497f8be4c979439e1")
+	    ((:commit . "b88ff8bd5fe2e468de611b0211842634beaeb5da")
 	     (:authors
 	      ("Yukihiro Matsumoto")
 	      ("Nobuyoshi Nakada")
@@ -38634,13 +38651,13 @@
 		       (:maintainer "Mihai Bazon" . "mihai.bazon@gmail.com")
 		       (:url . "http://mihai.bazon.net/projects/editing-javascript-with-emacs-js2-mode/js2-highlight-vars-mode"))])
  (js2-mode .
-	   [(20231224 1 -4 20240221 351)
+	   [(20231224 1 -4 20240310 1755)
 	    ((emacs
 	      (24 1))
 	     (cl-lib
 	      (0 5)))
 	    "Improved JavaScript editing mode" tar
-	    ((:commit . "e7373b0e0891b2521d8f9b9862b77607317b2f39")
+	    ((:commit . "e92829da3d6387252a0a5737c0c5344cb3de1578")
 	     (:authors
 	      ("Steve Yegge" . "steve.yegge@gmail.com")
 	      ("mooz" . "stillpedant@gmail.com")
@@ -51231,6 +51248,21 @@
 		  ("Alexey Kutepov" . "reximkut@gmail.com"))
 		 (:maintainer "Alexey Kutepov" . "reximkut@gmail.com")
 		 (:url . "http://github.com/rexim/org-cliplink"))])
+ (org-clock-agenda-daytime-mode .
+				[(0 0 1 1 -4 20240303 846)
+				 ((org
+				   (9 6 18))
+				  (emacs
+				   (26 1)))
+				 "Display the time clocked today in the modeline" tar
+				 ((:commit . "82e2cd5a523f5fda75176a08eb120a0872700add")
+				  (:authors
+				   ("Arne Babenhauserheide" . "arne_bab@web.de"))
+				  (:maintainers
+				   ("Arne Babenhauserheide" . "arne_bab@web.de"))
+				  (:maintainer "Arne Babenhauserheide" . "arne_bab@web.de")
+				  (:keywords "org" "lisp" "clock" "time" "agenda")
+				  (:url . "https://www.draketo.de/software/emacs-daytime"))])
  (org-clock-convenience .
 			[(1 3 1 -4 20230424 2101)
 			 ((org
@@ -52053,7 +52085,7 @@
 			(:keywords "tex" "tools")
 			(:url . "https://github.com/yangsheng6810/org-latex-instant-preview"))])
  (org-link-beautify .
-		    [(1 2 2 1 -4 20240310 1711)
+		    [(1 2 2 1 -4 20240310 1745)
 		     ((emacs
 		       (28 1))
 		      (nerd-icons
@@ -52061,7 +52093,7 @@
 		      (fb2-reader
 		       (0 1 1)))
 		     "Beautify Org Links" tar
-		     ((:commit . "1d8a31b5917136f7fecb1f5be4289c33083e948b")
+		     ((:commit . "c5b22bf7d1b6dca586777ba961856f4c2c9dad68")
 		      (:keywords "hypermedia")
 		      (:url . "https://repo.or.cz/org-link-beautify.git"))])
  (org-link-travis .
