@@ -28902,13 +28902,15 @@
 	    (:keywords "processes" "hardware")
 	    (:url . "http://github.com/nicferrier/emacs-nm"))])
  (gnosis .
-	 [(0 2 0 1 -4 20240308 1056)
+	 [(0 2 1 1 -4 20240310 1045)
 	  ((emacs
-	    (29 1))
+	    (27 2))
 	   (emacsql
-	    (20240124)))
+	    (20240124))
+	   (compat
+	    (29 1 4 2)))
 	  "Spaced Repetition System For Note Taking & Self Testing" tar
-	  ((:commit . "39c13d240bd6f22161df07a7bda7f1ef2d56832a")
+	  ((:commit . "d99b81b165450308a1f2290eb4d0b233fe0967e2")
 	   (:authors
 	    ("Thanos Apollo" . "public@thanosapollo.org"))
 	   (:maintainers
@@ -38281,13 +38283,13 @@
 		 ("Florian Mounier aka paradoxxxzero"))
 		(:maintainer "Florian Mounier aka paradoxxxzero"))])
  (jinx .
-       [(1 3 1 -4 20240309 2134)
+       [(1 4 1 -4 20240310 1041)
 	((emacs
 	  (27 1))
 	 (compat
 	  (29 1 4 4)))
 	"Enchanted Spell Checker" tar
-	((:commit . "8432ec301d62d5acf4558cd5ac5d518be7808af2")
+	((:commit . "b2ef3af2857896e20cff0488c46a4bfcfee39ecc")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainers
