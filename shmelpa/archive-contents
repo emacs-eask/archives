@@ -29925,7 +29925,7 @@
 	  (:keywords "comm" "convenience")
 	  (:url . "https://github.com/antonhibl/gptai"))])
  (gptel .
-	[(0 7 0 1 -4 20240309 2226)
+	[(0 7 0 1 -4 20240311 402)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -29933,7 +29933,7 @@
 	  (compat
 	   (29 1 4 1)))
 	 "Interact with ChatGPT or other LLMs" tar
-	 ((:commit . "3d6147830e8bae5787975b817e0f769f3123bc6a")
+	 ((:commit . "3935a6dcf82389f9112473a7662e0ad802b124e8")
 	  (:authors
 	   ("Karthik Chikmagalur"))
 	  (:maintainers
@@ -44235,11 +44235,11 @@
 		       (:keywords "markdown" "changelog" "files")
 		       (:url . "https://github.com/plandes/markdown-changelog"))])
  (markdown-mode .
-		[(2 7 -3 1 -4 20240107 831)
+		[(2 7 -3 1 -4 20240311 318)
 		 ((emacs
 		   (27 1)))
 		 "Major mode for Markdown-formatted text" tar
-		 ((:commit . "e096bb97a91fcd4dc2b46d8b6e093194b03b7364")
+		 ((:commit . "b7f7da9b2dbab9a5e3de7a674495c0b1627b456c")
 		  (:authors
 		   ("Jason R. Blevins" . "jblevins@xbeta.org"))
 		  (:maintainers
@@ -52116,15 +52116,17 @@
 			(:keywords "tex" "tools")
 			(:url . "https://github.com/yangsheng6810/org-latex-instant-preview"))])
  (org-link-beautify .
-		    [(1 2 2 1 -4 20240310 1745)
+		    [(1 2 2 1 -4 20240311 355)
 		     ((emacs
 		       (28 1))
 		      (nerd-icons
 		       (0 0 1))
 		      (fb2-reader
-		       (0 1 1)))
+		       (0 1 1))
+		      (qrencode
+		       (1 2)))
 		     "Beautify Org Links" tar
-		     ((:commit . "c5b22bf7d1b6dca586777ba961856f4c2c9dad68")
+		     ((:commit . "cbaffe35ef7386764aa260ee1042804347e59831")
 		      (:keywords "hypermedia")
 		      (:url . "https://repo.or.cz/org-link-beautify.git"))])
  (org-link-travis .
