@@ -26992,7 +26992,7 @@
 		(:maintainer "Jürgen Hötzel")
 		(:keywords "languages"))])
  (fstar-mode .
-	     [(0 4 1 -4 20230506 1606)
+	     [(0 4 1 -4 20240312 1632)
 	      ((emacs
 		(24 3))
 	       (dash
@@ -27008,7 +27008,7 @@
 	       (company-quickhelp
 		(2 2 0)))
 	      "Support for F* programming" tar
-	      ((:commit . "56039769454d3b71cad7248d144d04bb6f97a522")
+	      ((:commit . "6e5d3ea858f3c8a9d01161d9089909c2b22fdfca")
 	       (:authors
 		("Clément Pit-Claudel" . "clement.pitclaudel@live.com"))
 	       (:maintainers
@@ -27471,7 +27471,7 @@
 		  (:keywords "languages" "gauche" "scheme" "geiser")
 		  (:url . "https://gitlab.com/emacs-geiser/gauche"))])
  (geiser-guile .
-	       [(0 28 1 1 -4 20231227 1512)
+	       [(0 28 1 1 -4 20240312 1448)
 		((emacs
 		  (25 1))
 		 (transient
@@ -27479,7 +27479,7 @@
 		 (geiser
 		  (0 28 1)))
 		"Guile and Geiser talk to each other" tar
-		((:commit . "6e0811c75d13c3c8488e7a11a018e1ea2ae3288a")
+		((:commit . "635d312b9084fa2d4eea4b57f20a7ad5197da2ba")
 		 (:authors
 		  ("Jose Antonio Ortega Ruiz" . "jao@gnu.org"))
 		 (:maintainers
@@ -39168,11 +39168,11 @@
 	    (:maintainer "Nathaniel Nicandro" . "nathanielnicandro@gmail.com")
 	    (:url . "https://github.com/emacs-jupyter/jupyter"))])
  (just-mode .
-	    [(0 1 0 1 -4 20230303 2255)
+	    [(0 1 0 1 -4 20240312 1626)
 	     ((emacs
 	       (26 1)))
 	     "Justfile editing mode" tar
-	     ((:commit . "d7f52eab8fa3828106f80acb1e2176e5877b7191")
+	     ((:commit . "57d854c26033c2f629b63fa4be90236fd3015278")
 	      (:authors
 	       ("Leon Barrett" . "leon@barrettnexus.com"))
 	      (:maintainers
@@ -42066,11 +42066,9 @@
 	     (:keywords "abbrev" "convenience" "tools" "c" "lisp")
 	     (:url . "https://github.com/replrep/ll-debug"))])
  (llama .
-	[(0 1 0 1 -4 20240101 2218)
-	 ((seq
-	   (2 23)))
-	 "Compact syntax for short lambda" tar
-	 ((:commit . "05c14ca9bcc63f4afa27fc18df1c32ab63b8ed7b")
+	[(0 1 0 1 -4 20240228 2245)
+	 nil "Compact syntax for short lambda" tar
+	 ((:commit . "67510f8e915e4b7d6eeb6b49fa6feaebc9588ee6")
 	  (:keywords "extensions")
 	  (:url . "https://git.sr.ht/~tarsius/llama"))])
  (llama-cpp .
