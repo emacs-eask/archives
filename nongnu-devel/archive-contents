@@ -1160,7 +1160,7 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (helm .
-       [(3 9 7 0 20240311 63112)
+       [(3 9 7 0 20240312 205654)
 	((helm-core
 	  (3 9 7))
 	 (wfnames
@@ -1172,9 +1172,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "3f8c40ed912aa4fe47338a92e5d6106f987dd494"))])
+	 (:commit . "9afc9062baf52a332e3c9fe186bb7a710b14f638"))])
  (helm-core .
-	    [(3 9 7 0 20240311 63112)
+	    [(3 9 7 0 20240312 205654)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1184,7 +1184,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "3f8c40ed912aa4fe47338a92e5d6106f987dd494"))])
+	      (:commit . "9afc9062baf52a332e3c9fe186bb7a710b14f638"))])
  (highlight-parentheses .
 			[(2 1 1 0 20220408 84538)
 			 ((emacs
@@ -2009,13 +2009,16 @@
 	     ("Bozhidar Batsov"))
 	    (:keywords "project" "convenience"))])
  (rust-mode .
-	    [(1 0 5 0 20240312 73635)
+	    [(1 0 5 0 20240313 15705)
 	     ((emacs
 	       (25 1)))
 	     "A major-mode for editing Rust source code" tar
 	     ((:url . "https://github.com/rust-lang/rust-mode")
 	      (:keywords "languages")
-	      (:commit . "9239745140b1cef2bcf9b18842dece08052e749d"))])
+	      (:maintainer "Mozilla" . "rust-mode@noreply.github.com")
+	      (:authors
+	       ("Mozilla" . "rust-mode@noreply.github.com"))
+	      (:commit . "87bf4ea711456c858445ec4c22b3552fd796708d"))])
  (sass-mode .
 	    [(3 0 16 0 20190502 5315)
 	     ((haml-mode
