@@ -63395,16 +63395,16 @@
 		  (:maintainer "Rotem Yaari" . "rotemy@MBP.local")
 		  (:keywords "languages"))])
  (rust-mode .
-	    [(1 0 5 1 -4 20240312 736)
+	    [(1 0 5 1 -4 20240313 157)
 	     ((emacs
 	       (25 1)))
 	     "A major-mode for editing Rust source code" tar
-	     ((:commit . "9239745140b1cef2bcf9b18842dece08052e749d")
+	     ((:commit . "87bf4ea711456c858445ec4c22b3552fd796708d")
 	      (:authors
-	       ("Mozilla"))
+	       ("Mozilla" . "rust-mode@noreply.github.com"))
 	      (:maintainers
-	       ("Mozilla"))
-	      (:maintainer "Mozilla")
+	       ("Mozilla" . "rust-mode@noreply.github.com"))
+	      (:maintainer "Mozilla" . "rust-mode@noreply.github.com")
 	      (:keywords "languages")
 	      (:url . "https://github.com/rust-lang/rust-mode"))])
  (rust-playground .
@@ -76632,13 +76632,13 @@
 	      (:keywords "data" "yaml")
 	      (:url . "https://github.com/yoshiki/yaml-mode"))])
  (yaml-pro .
-	   [(0 3 1 1 -4 20240302 531)
+	   [(0 3 1 1 -4 20240313 307)
 	    ((emacs
 	      (26 1))
 	     (yaml
 	      (0 5 1)))
 	    "Parser-aided YAML editing features" tar
-	    ((:commit . "c5d4d7eb3d2221dea7ee8c04286f1272806929c1")
+	    ((:commit . "775c0a4b82c79da0eb91620fb0cbbf6c8642815b")
 	     (:authors
 	      ("Zachary Romero"))
 	     (:maintainers
