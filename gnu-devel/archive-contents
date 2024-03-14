@@ -20,7 +20,7 @@
 	 ("Leo Liu" . "sdl.web@gmail.com"))
 	(:commit . "90c90a80322aa9f26ce88f2f24a224afc4c994b8"))])
  (activities .
-	     [(0 7 0 20240312 173832)
+	     [(0 8 -1 0 20240313 183743)
 	      ((emacs
 		(29 1))
 	       (persist
@@ -31,7 +31,7 @@
 	       (:maintainer "Adam Porter" . "adam@alphapapa.net")
 	       (:authors
 		("Adam Porter" . "adam@alphapapa.net"))
-	       (:commit . "b63ccc58fc3b5b3e6ed5b74bf84bd4eff9bb1660"))])
+	       (:commit . "ddb080f551f16e1b446918eec0007cd44fa9f9cb"))])
  (ada-mode .
 	   [(8 1 0 0 20231018 91522)
 	    ((uniquify-files
@@ -680,7 +680,7 @@
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	   (:commit . "e398e1a8f098359c768b2a8e2e99d6e1d31e3c57"))])
  (consult .
-	  [(1 4 0 20240308 172420)
+	  [(1 4 0 20240314 64203)
 	   ((emacs
 	     (27 1))
 	    (compat
@@ -689,7 +689,7 @@
 	   ((:url . "https://github.com/minad/consult")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-	    (:commit . "0eab65fe3273c97a422c99ee426eef7f2d2dffa4"))])
+	    (:commit . "b48ff6bf0527baeb6bfd07c6da9d303ff0b79c3d"))])
  (consult-hoogle .
 		 [(0 2 0 0 20240309 142502)
 		  ((emacs
@@ -2373,7 +2373,7 @@
 	 ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	(:commit . "7a043603d1b46bde4df06eaf6947569c816cb3ef"))])
  (listen .
-	 [(0 7 -1 0 20240313 44641)
+	 [(0 7 0 20240314 606)
 	  ((emacs
 	    (29 1))
 	   (persist
@@ -2381,14 +2381,16 @@
 	   (taxy
 	    (0 10))
 	   (taxy-magit-section
-	    (0 13)))
+	    (0 13))
+	   (transient
+	    (0 5 3)))
 	  "Audio/Music player" tar
 	  ((:url . "https://github.com/alphapapa/listen.el")
 	   (:keywords "multimedia")
 	   (:maintainer "Adam Porter" . "adam@alphapapa.net")
 	   (:authors
 	    ("Adam Porter" . "adam@alphapapa.net"))
-	   (:commit . "44ce41c24ca400caacbfab54e390df6e25d9df97"))])
+	   (:commit . "457083ca85a263831ab8fb386f285b27759cf822"))])
  (llm .
       [(0 10 0 0 20240302 150322)
        ((emacs
@@ -4742,7 +4744,7 @@
 	       (:url . "https://elpa.gnu.org/packages/windresize.html")
 	       (:commit . "b61132c344f10ca02df56357b0aa3e8eaf4a3392"))])
  (wisi .
-       [(4 3 2 0 20231026 105332)
+       [(4 3 2 0 20240313 173240)
 	((emacs
 	  (25 3))
 	 (seq
@@ -4753,7 +4755,7 @@
 	 (:maintainer "Stephen Leake" . "stephen_leake@stephe-leake.org")
 	 (:authors
 	  ("Stephen Leake" . "stephen_leake@stephe-leake.org"))
-	 (:commit . "1c4b099bf1f93cebee523b0ba75ccab6c6c2a2f0"))])
+	 (:commit . "f2945aa7f63d9708281d90343a825b472d68d5e3"))])
  (wisitoken-grammar-mode .
 			 [(1 3 0 0 20231023 83923)
 			  ((wisi
