@@ -62480,13 +62480,18 @@
 			 (:keywords "os x" "finder")
 			 (:url . "https://github.com/kaz-yos/reveal-in-osx-finder"))])
  (reverse-im .
-	     [(0 0 8 1 -4 20230125 1846)
+	     [(0 0 8 1 -4 20240315 1320)
 	      ((emacs
 		(25 1))
 	       (seq
 		(2 23)))
 	      "Reverse mapping for non-default system layouts" tar
-	      ((:commit . "83c639756357c6b154842997b86e63c583ff8ff4")
+	      ((:commit . "bcd70b49b16abab53165cb464d0a9a5f95bf946b")
+	       (:authors
+		("Juri Linkov" . "juri@jurta.org"))
+	       (:maintainers
+		("DK" . "a13@users.noreply.github.com"))
+	       (:maintainer "DK" . "a13@users.noreply.github.com")
 	       (:keywords "i18n")
 	       (:url . "https://github.com/a13/reverse-im.el"))])
  (reverse-theme .
