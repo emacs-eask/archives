@@ -5416,6 +5416,19 @@
 		      (:maintainer nil . "daniel@viseztrance.com")
 		      (:keywords "languages")
 		      (:url . "https://github.com/viseztrance/brightscript-mode"))])
+ (bril-mode .
+	    [(0 0 1 1 -4 20240315 1157)
+	     ((emacs
+	       (27 1)))
+	     "Major mode for Bril text format" tar
+	     ((:commit . "da61316385e31973c462a1e8a3213327b34df3ff")
+	      (:authors
+	       ("Noah Peart" . "noah.v.peart@gmail.com"))
+	      (:maintainers
+	       ("Noah Peart" . "noah.v.peart@gmail.com"))
+	      (:maintainer "Noah Peart" . "noah.v.peart@gmail.com")
+	      (:keywords "languages" "bril")
+	      (:url . "https://github.com/nverno/bril-mode"))])
  (broadcast .
 	    [(20150303 1 -4 20151205 212)
 	     ((emacs
@@ -51231,25 +51244,6 @@
 			     (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
 			     (:keywords "bib")
 			     (:url . "https://git.sr.ht/~swflint/org-cite-overlay"))])
- (org-cite-sidecar .
-		   [(1 1 0 1 -4 20240218 1917)
-		    ((emacs
-		      (28 1))
-		     (citeproc
-		      (0 9 4))
-		     (universal-sidecar
-		      (1 5 0))
-		     (universal-sidecar-citeproc
-		      (1 0 0)))
-		    "Sidecar to show references in Org Mode" tar
-		    ((:commit . "94e349534e049c9bcf08eb70ef4ebfc9b9f80d0d")
-		     (:authors
-		      ("Samuel W. Flint" . "me@samuelwflint.com"))
-		     (:maintainers
-		      ("Samuel W. Flint" . "me@samuelwflint.com"))
-		     (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
-		     (:keywords "bib" "org")
-		     (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
  (org-cliplink .
 	       [(0 2 1 -4 20201126 1020)
 		((emacs
