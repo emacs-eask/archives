@@ -14253,18 +14253,18 @@
 	    (:maintainer "Neil Okamoto" . "neil.okamoto+melpa@gmail.com")
 	    (:url . "https://github.com/emacsorphanage/dired-k"))])
  (dired-launch .
-	       [(0 2 1 -4 20240123 611)
+	       [(0 2 1 -4 20240317 2344)
 		((emacs
 		  (24 3)))
 		"Use dired as a launcher" tar
-		((:commit . "5bd3e4b8068bc5c345965f09d46709e08e15d666")
+		((:commit . "0a7dbe002306cbeeedcf5b9fbbc72adc83f0d331")
 		 (:authors
 		  ("David Thompson"))
 		 (:maintainers
 		  ("David Thompson"))
 		 (:maintainer "David Thompson")
 		 (:keywords "dired" "launch")
-		 (:url . "https://github.com/thomp/dired-launch"))])
+		 (:url . "https://codeberg.org/thomp/dired-launch"))])
  (dired-list .
 	     [(0 0 1 1 -4 20230512 1107)
 	      ((dash
@@ -15693,7 +15693,7 @@
 	       (:keywords "languages")
 	       (:url . "https://github.com/JohnDevlopment/dtext-mode.el"))])
  (dtk .
-      [(0 2 1 -4 20230924 2038)
+      [(0 2 1 -4 20240317 2328)
        ((emacs
 	 (24 4))
 	(cl-lib
@@ -15705,14 +15705,14 @@
 	(s
 	 (1 9)))
        "access SWORD content via diatheke" tar
-       ((:commit . "5d7fc18eee0d219f52585e05b303f494dc5831cd")
+       ((:commit . "461f30f2e2038c3c469e710309046c0af4d6b41a")
 	(:authors
 	 ("David Thompson"))
 	(:maintainers
 	 ("David Thompson"))
 	(:maintainer "David Thompson")
 	(:keywords "hypermedia")
-	(:url . "https://github.com/dtk01/dtk.el"))])
+	(:url . "https://codeberg.org/thomp/dtk"))])
  (dtrace-script-mode .
 		     [(0 1 0 1 -4 20150214 623)
 		      nil "DTrace code editing commands for Emacs" tar
@@ -66424,13 +66424,13 @@
 		 (:keywords "window")
 		 (:url . "https://github.com/dryman/smart-window.el"))])
  (smartparens .
-	      [(1 11 0 1 -4 20240317 2102)
+	      [(1 11 0 1 -4 20240317 2220)
 	       ((dash
 		 (2 13 0))
 		(cl-lib
 		 (0 3)))
 	       "Automatic insertion, wrapping and paredit-like navigation with user defined pairs." tar
-	       ((:commit . "69014613446baf9b199aa09cc023e165d5fc1976")
+	       ((:commit . "ce1b3b9ff83e7eef0da3d2e0e08c8b9e43a08d9a")
 		(:authors
 		 ("Matus Goljer" . "matus.goljer@gmail.com"))
 		(:maintainer "Matus Goljer" . "matus.goljer@gmail.com")
