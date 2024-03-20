@@ -727,7 +727,7 @@
 		     (:authors
 		      ("Jackson Ray Hamilton" . "jackson@jacksonrayhamilton.com")))])
  (corfu .
-	[(1 2 0 20240314 200700)
+	[(1 2 0 20240320 91948)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -738,7 +738,7 @@
 	  (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	  (:commit . "c1e7b6190b00158e67347b4db0a8f7964e5d2f8b"))])
+	  (:commit . "46c5ec84e096b852229b32f054462f0a63abfeb5"))])
  (coterm .
 	 [(1 6 0 20221015 160420)
 	  ((emacs
@@ -1335,7 +1335,7 @@
 		    ("Ihor Radchenko" . "yantar92@posteo.net"))
 		   (:commit . "05d669e123f411c9582f99a9a6182efa43d01a6b"))])
  (embark .
-	 [(1 0 0 20240319 201003)
+	 [(1 0 0 20240320 63025)
 	  ((emacs
 	    (27 1))
 	   (compat
@@ -1346,9 +1346,9 @@
 	   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-	   (:commit . "194c042ef450db7f3b77e3400e1f2e6a80a71ef8"))])
+	   (:commit . "30910d48e5779343c5c8c204b1a5ae63e8468354"))])
  (embark-consult .
-		 [(1 0 0 20240319 201003)
+		 [(1 0 0 20240320 63025)
 		  ((emacs
 		    (27 1))
 		   (compat
@@ -1363,7 +1363,7 @@
 		   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 		   (:authors
 		    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-		   (:commit . "194c042ef450db7f3b77e3400e1f2e6a80a71ef8"))])
+		   (:commit . "30910d48e5779343c5c8c204b1a5ae63e8468354"))])
  (ement .
 	[(0 15 -1 0 20240319 190705)
 	 ((emacs
@@ -2371,7 +2371,7 @@
 	 ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	(:commit . "7a043603d1b46bde4df06eaf6947569c816cb3ef"))])
  (listen .
-	 [(0 8 -1 0 20240318 4141)
+	 [(0 8 -1 0 20240320 55640)
 	  ((emacs
 	    (29 1))
 	   (persist
@@ -2388,7 +2388,7 @@
 	   (:maintainer "Adam Porter" . "adam@alphapapa.net")
 	   (:authors
 	    ("Adam Porter" . "adam@alphapapa.net"))
-	   (:commit . "e79b1e59948cbf050d12f1aa77aabd4a27230dcd"))])
+	   (:commit . "7f88ccd04bcf18d01891215fff1f33a4700c4824"))])
  (llm .
       [(0 12 0 0 20240317 12613)
        ((emacs
@@ -2879,16 +2879,18 @@
 	     ("Philip Kaludercic" . "philipk@posteo.net"))
 	    (:commit . "25babb1060622c1560c8be64cdbb009af535959a"))])
  (orderless .
-	    [(1 0 0 20240312 191404)
+	    [(1 1 0 20240320 163827)
 	     ((emacs
 	       (27 1)))
 	     "Completion style for matching regexps in any order" tar
 	     ((:url . "https://github.com/oantolin/orderless")
 	      (:keywords "extensions")
-	      (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
+	      (:maintainer
+	       ("Omar Antolín Camarena" . "omar@matem.unam.mx")
+	       ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	      (:authors
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-	      (:commit . "dc7a781acf2e58ac7d20d1b522be0cde5213e057"))])
+	      (:commit . "3847f311077efa17951a786d2759f2639c5f43c8"))])
  (org .
       [(9 7 -1 0 20240319 203530)
        ((emacs
@@ -4574,7 +4576,7 @@
 		  ("Wilson Snyder" . "wsnyder@wsnyder.org"))
 		 (:commit . "f03f14165ed51148b72b431ac99c4a4829bb1a7f"))])
  (vertico .
-	  [(1 7 0 20240225 155645)
+	  [(1 7 0 20240320 105242)
 	   ((emacs
 	     (27 1))
 	    (compat
@@ -4585,7 +4587,7 @@
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	    (:commit . "68cbd47589446e9674921bae0b98ff8fbe28be23"))])
+	    (:commit . "453b548625149f76fadcfc936e3943fd26b2cb32"))])
  (vertico-posframe .
 		   [(0 7 7 0 20240202 84736)
 		    ((emacs
