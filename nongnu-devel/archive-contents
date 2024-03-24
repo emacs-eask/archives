@@ -433,13 +433,13 @@
 		     ("Campbell Barton" . "ideasman42@gmail.com"))
 		    (:commit . "dc914d79b99fc76694d356ea786eb39aab74649a"))])
  (dockerfile-mode .
-		  [(1 7 0 20240323 105739)
+		  [(1 7 0 20240324 61044)
 		   ((emacs
 		     (24)))
 		   "Major mode for editing Docker's Dockerfiles" tar
 		   ((:url . "https://github.com/spotify/dockerfile-mode")
 		    (:keywords "docker" "languages" "processes" "tools")
-		    (:commit . "ae99b30c68ccbdf37d542bc214c328959fd751de"))])
+		    (:commit . "39a012a27fcf6fb629c447d13b6974baf906714c"))])
  (dracula-theme .
 		[(1 8 2 0 20231013 82126)
 		 ((emacs
@@ -504,7 +504,7 @@
 		(:keywords "languages" "elixir")
 		(:commit . "00d6580a040a750e019218f9392cf9a4c2dac23a"))])
  (elpher .
-	 [(3 5 1 0 20240214 95244)
+	 [(3 6 0 0 20240324 131555)
 	  ((emacs
 	    (27 1)))
 	  "A friendly gopher and gemini client" tar
@@ -513,7 +513,7 @@
 	   (:maintainer "Tim Vaughan" . "plugd@thelambdalab.xyz")
 	   (:authors
 	    ("Tim Vaughan" . "plugd@thelambdalab.xyz"))
-	   (:commit . "3f53ed5b6550d25a66bc83f6f26d8cfb06b1dcce"))])
+	   (:commit . "56bc74e224d9835c41b6e6b68c9705b60e6dbbe2"))])
  (emacsql .
 	  [(3 1 1 50 -4 0 20240206 185218)
 	   ((emacs
@@ -535,7 +535,7 @@
 		 ("Harry R. Schwartz" . "hello@harryrschwartz.com"))
 		(:commit . "f9efca3ad600e0c498cff776de5a873b8dd978cb"))])
  (evil .
-       [(1 15 0 0 20240222 65210)
+       [(1 15 0 0 20240324 173156)
 	((emacs
 	  (24 1))
 	 (cl-lib
@@ -546,7 +546,7 @@
 	((:url . "https://github.com/emacs-evil/evil")
 	 (:keywords "emulations")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
-	 (:commit . "a7ffa73bbdc523c0e473d79c0ded7c6457bcb65c"))])
+	 (:commit . "64a07c7aca2933ed1feec80704db49dc2c3476b3"))])
  (evil-anzu .
 	    [(0 2 0 20220911 193944)
 	     ((evil
@@ -1160,7 +1160,7 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (helm .
-       [(3 9 7 0 20240323 62423)
+       [(3 9 7 0 20240324 190951)
 	((helm-core
 	  (3 9 7))
 	 (wfnames
@@ -1172,9 +1172,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "f93f44c050b62b25e52a92d757595020ac90a662"))])
+	 (:commit . "8068f5301cd1a8495dee6882de99ffec6f89f55f"))])
  (helm-core .
-	    [(3 9 7 0 20240323 62423)
+	    [(3 9 7 0 20240324 190951)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1184,7 +1184,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "f93f44c050b62b25e52a92d757595020ac90a662"))])
+	      (:commit . "8068f5301cd1a8495dee6882de99ffec6f89f55f"))])
  (highlight-parentheses .
 			[(2 1 1 0 20220408 84538)
 			 ((emacs
@@ -1559,13 +1559,13 @@
 	       ("kuanyui" . "azazabc123@gmail.com"))
 	      (:commit . "56286c6b869520807596e3e8af1b37c50e5a1349"))])
  (monokai-theme .
-		[(3 5 3 0 20220117 124458)
+		[(3 5 3 0 20240324 183012)
 		 nil "A fruity color theme for Emacs." tar
 		 ((:url . "http://github.com/oneKelvinSmith/monokai-emacs")
 		  (:maintainer "Kelvin Smith" . "oneKelvinSmith@gmail.com")
 		  (:authors
 		   ("Kelvin Smith" . "oneKelvinSmith@gmail.com"))
-		  (:commit . "4a09c59f948ba5b602b6f395e667f53224fd75a2"))])
+		  (:commit . "df6c23d14e52f9d7f5bc2265facfbedfb07a444e"))])
  (mpv .
       [(0 2 0 0 20220801 191738)
        ((emacs
@@ -2108,14 +2108,14 @@
 	(:keywords "languages" "lisp" "sly")
 	(:commit . "ed17d2c2bd7aead0fbb09c3d22861c80a522a097"))])
  (smartparens .
-	      [(1 11 0 0 20240320 124909)
+	      [(1 11 0 0 20240324 94606)
 	       nil "Automatic insertion, wrapping and paredit-like navigation with user defined pairs." tar
 	       ((:url . "https://github.com/Fuco1/smartparens")
 		(:keywords "abbrev" "convenience" "editing")
 		(:maintainer "Matus Goljer" . "matus.goljer@gmail.com")
 		(:authors
 		 ("Matus Goljer" . "matus.goljer@gmail.com"))
-		(:commit . "1d59608a6ed73a3546ec9f9526d11f78e4fd318e"))])
+		(:commit . "ddc6233ea6fc2da7a3a8e44face465c15631b02b"))])
  (solarized-theme .
 		  [(2 0 1 0 20231204 71322)
 		   ((emacs
@@ -2524,14 +2524,14 @@
 	      (:authors
 	       ("Le Wang")))])
  (xah-fly-keys .
-	       [(24 23 20240321233250 0 20240322 319)
+	       [(24 24 20240324101507 0 20240324 101541)
 		((emacs
 		  (27)))
 		"ergonomic modal keybinding minor mode." tar
 		((:url . "http://xahlee.info/emacs/misc/xah-fly-keys.html")
 		 (:keywords "convenience" "vi" "vim" "ergoemacs" "keybinding")
 		 (:maintainer "Xah Lee" . "xah@xahlee.org")
-		 (:commit . "85886ff8ef5745d81a23d6c55e23d6cff3a09564"))])
+		 (:commit . "c70f6c921a8614b4bc1c66d271c1b92685e62791"))])
  (xkcd .
        [(1 1 0 20220503 110939)
 	((json
