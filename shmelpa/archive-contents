@@ -6558,6 +6558,19 @@
 	   (:maintainer "Hiroaki Otsu" . "ootsuhiroaki@gmail.com")
 	   (:keywords "convenience")
 	   (:url . "https://github.com/aki2o/caskxy"))])
+ (casual .
+	 [(1 2 1 1 -4 20240317 2027)
+	  ((emacs
+	    (29 1)))
+	  "Transient UI for Calc" tar
+	  ((:commit . "643af803258fd9524582fc1d56472ea44c70100f")
+	   (:authors
+	    ("Charles Choi" . "kickingvegas@gmail.com"))
+	   (:maintainers
+	    ("Charles Choi" . "kickingvegas@gmail.com"))
+	   (:maintainer "Charles Choi" . "kickingvegas@gmail.com")
+	   (:keywords "tools")
+	   (:url . "https://github.com/kickingvegas/casual"))])
  (catmacs .
 	  [(0 1 1 1 -4 20170826 1157)
 	   ((emacs
@@ -10656,6 +10669,23 @@
 		  (:maintainer "Mohsin Kaleem")
 		  (:keywords "tools" "completion" "lsp")
 		  (:url . "https://github.com/mohkale/consult-eglot"))])
+ (consult-eglot-embark .
+		       [(0 3 1 -4 20240324 1211)
+			((emacs
+			  (27 1))
+			 (consult-eglot
+			  (0 3))
+			 (embark-consult
+			  (1 0)))
+			"Embark integration for `consult-eglot'" tar
+			((:commit . "64262e72452f8fe6dd49d31bcdd4bd577b7d682d")
+			 (:authors
+			  ("mohsin kaleem" . "mohkale@kisara.moe"))
+			 (:maintainers
+			  ("Mohsin Kaleem"))
+			 (:maintainer "Mohsin Kaleem")
+			 (:keywords "tools" "completion" "lsp")
+			 (:url . "https://github.com/mohkale/consult-eglot"))])
  (consult-flycheck .
 		   [(1 0 1 -4 20240310 1442)
 		    ((emacs
@@ -20685,7 +20715,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20240222 652)
+       [(1 15 0 1 -4 20240324 1731)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -20693,7 +20723,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "a7ffa73bbdc523c0e473d79c0ded7c6457bcb65c")
+	((:commit . "64a07c7aca2933ed1feec80704db49dc2c3476b3")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulations")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -23189,6 +23219,19 @@
 		(:maintainer "Schuyler Eldridge" . "schuyler.eldridge@ibm.com")
 		(:keywords "languages" "firrtl")
 		(:url . "https://github.com/ibm/firrtl-mode"))])
+ (firstly-search .
+		 [(0 1 1 1 -4 20240324 1536)
+		  ((emacs
+		    (29 1)))
+		  "Search with any key: Dired, Package, Buffer menu modes" tar
+		  ((:commit . "5a5a60ba276c4362c371e44ff1cfa242b94eef62")
+		   (:authors
+		    ("Anoncheg1"))
+		   (:maintainers
+		    ("Anoncheg1"))
+		   (:maintainer "Anoncheg1")
+		   (:keywords "matching" "isearch" "navigation" "dired" "packagemenu")
+		   (:url . "https://github.com/Anoncheg1/firstly-search"))])
  (fish-completion .
 		  [(1 2 1 -4 20240310 1442)
 		   ((emacs
@@ -31724,13 +31767,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 9 7 1 -4 20240323 624)
+	    [(3 9 7 1 -4 20240324 1900)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 7)))
 	     "Development files for Helm" tar
-	     ((:commit . "f93f44c050b62b25e52a92d757595020ac90a662")
+	     ((:commit . "0a3eabc8106cc07714719c57f9521b6e84fedaf9")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainers
@@ -42802,7 +42845,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(8 0 1 1 -4 20240324 847)
+	   [(8 0 1 1 -4 20240324 1820)
 	    ((emacs
 	      (27 1))
 	     (dash
@@ -42820,7 +42863,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "6de1cc7dbee84aa4ff423d986f18f3fbb2f457ae")
+	    ((:commit . "17e583c253e0cba71ee8a0c25743933c478d5c62")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainers
@@ -46153,9 +46196,9 @@
 		      (:maintainer "Kaleb Elwert" . "belak@coded.io")
 		      (:url . "https://github.com/belak/emacs-monokai-pro-theme"))])
  (monokai-theme .
-		[(3 5 3 1 -4 20220117 1244)
+		[(3 5 3 1 -4 20240324 1830)
 		 nil "A fruity color theme for Emacs." tar
-		 ((:commit . "4a09c59f948ba5b602b6f395e667f53224fd75a2")
+		 ((:commit . "df6c23d14e52f9d7f5bc2265facfbedfb07a444e")
 		  (:authors
 		   ("Kelvin Smith" . "oneKelvinSmith@gmail.com"))
 		  (:maintainers
@@ -53371,6 +53414,20 @@
 		(:maintainer "Adam Porter" . "adam@alphapapa.net")
 		(:keywords "hypermedia" "outlines" "org" "agenda")
 		(:url . "https://github.com/alphapapa/org-sidebar"))])
+ (org-sliced-images .
+		    [(0 1 1 -4 20240324 32)
+		     ((emacs
+		       (29 1))
+		      (org
+		       (9 6 15)))
+		     "Sliced inline images in org-mode" tar
+		     ((:commit . "db64e31ad4decc30599638e63dbe69bf18e78dcb")
+		      (:authors
+		       ("Jacob Fong" . "jacobcfong@gmail.com"))
+		      (:maintainers
+		       ("Jacob Fong" . "jacobcfong@gmail.com"))
+		      (:maintainer "Jacob Fong" . "jacobcfong@gmail.com")
+		      (:url . "https://github.com/jcfk/org-sliced-images"))])
  (org-snooze .
 	     [(0 1 1 -4 20181229 1424)
 	      ((emacs
@@ -63717,6 +63774,19 @@
 	      (:maintainer "Natalie Weizenbaum")
 	      (:keywords "markup" "language" "css")
 	      (:url . "http://github.com/nex3/haml/tree/master"))])
+ (satysfi-ts-mode .
+		  [(0 1 0 1 -4 20240319 321)
+		   ((emacs
+		     (29 1)))
+		   "A tree-sitter based major-mode for SATySFi" tar
+		   ((:commit . "b40d55ebd6ffeadadb85aabaf2e636110c85370c")
+		    (:authors
+		     ("Kyure_A <twitter.com/kyureq>"))
+		    (:maintainers
+		     ("Kyure_A <twitter.com/kyureq>"))
+		    (:maintainer "Kyure_A <twitter.com/kyureq>")
+		    (:keywords "languages")
+		    (:url . "https://github.com/Kyure-A/satysfi-ts-mode"))])
  (sauron .
 	 [(0 2 1 1 -4 20201015 836)
 	  nil "Track (erc/org/dbus/...) events and react to them." tar
@@ -71728,13 +71798,13 @@
 		       (:maintainer "Erick Navarro" . "erick@navarro.io")
 		       (:url . "https://github.com/erickgnavar/tree-sitter-ispell.el"))])
  (tree-sitter-langs .
-		    [(0 12 161 1 -4 20240324 711)
+		    [(0 12 162 1 -4 20240324 1816)
 		     ((emacs
 		       (25 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
-		     ((:commit . "90f681fdb3fc05e2ebb57ef20f13edeb93043f05")
+		     ((:commit . "23bcd4f47196affd986b6261ab87deef1331cf92")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
 		      (:maintainers
