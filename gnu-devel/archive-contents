@@ -727,7 +727,7 @@
 		     (:authors
 		      ("Jackson Ray Hamilton" . "jackson@jacksonrayhamilton.com")))])
  (corfu .
-	[(1 2 0 20240329 94427)
+	[(1 2 0 20240330 93001)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -738,7 +738,7 @@
 	  (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	  (:commit . "8ea189de9a791dfe6c0b2c72ddd434b45ebbbfe3"))])
+	  (:commit . "35cd5a0f3cba89766072e3e933d1fe2ee02f2289"))])
  (coterm .
 	 [(1 6 0 20221015 160420)
 	  ((emacs
@@ -1243,7 +1243,7 @@
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	      (:commit . "96aaab126510bfd303558e2a9b85a745dab32f41"))])
  (eglot .
-	[(1 17 0 20240323 73745)
+	[(1 17 0 20240330 194832)
 	 ((emacs
 	   (26 3))
 	  (jsonrpc
@@ -1266,7 +1266,7 @@
 	  (:maintainer "João Távora" . "joaotavora@gmail.com")
 	  (:authors
 	   ("João Távora" . "joaotavora@gmail.com"))
-	  (:commit . "e52bc9ef6f7942b15d876566aca52340210ac27c"))])
+	  (:commit . "a33e7c0286c2a9c8af1c96db42f5c0c37611c9db"))])
  (el-search .
 	    [(1 12 6 1 0 20221221 75346)
 	     ((emacs
@@ -1999,14 +1999,16 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:commit . "54e9db2b023e03b6f6b46aeec48ea74fd51d4e11"))])
  (hyperbole .
-	    [(9 0 2 -1 0 20240328 80113)
+	    [(9 0 2 -1 0 20240330 135028)
 	     ((emacs
 	       (27 1)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:maintainer "Mats Lidell" . "matsl@gnu.org")
-	      (:commit . "c46acab0ef5f2c93db7cd00251bb09233298873b"))])
+	      (:authors
+	       ("Robert Weiner" . "rsw@gnu.org"))
+	      (:commit . "e009e2429ef5b6c16b636e01cc0c3902e92f06cc"))])
  (ilist .
 	[(0 3 0 20240219 40214)
 	 nil "Display a list in an ibuffer way." tar
@@ -2892,7 +2894,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "3847f311077efa17951a786d2759f2639c5f43c8"))])
  (org .
-      [(9 7 -1 0 20240329 111118)
+      [(9 7 -1 0 20240330 100117)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2901,7 +2903,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "e9c288dfaccc2960e5b6889e6aabea700ad4e05a"))])
+	(:commit . "c0e732266b2a6845394a2b757c4be0ddf2cac80f"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs
@@ -4459,7 +4461,7 @@
 	      ("Stefan Kangas" . "stefankangas@gmail.com"))
 	     (:commit . "0f20f8b59011471523b650cf1a3478a04362083d"))])
  (use-package .
-	      [(2 4 5 0 20240113 53615)
+	      [(2 4 5 0 20240330 124921)
 	       ((emacs
 		 (24 3))
 		(bind-key
@@ -4470,7 +4472,7 @@
 		(:maintainer "John Wiegley" . "johnw@newartisans.com")
 		(:authors
 		 ("John Wiegley" . "johnw@newartisans.com"))
-		(:commit . "d2c3a983146b7c0fb0f8b855268effb695d0bbf5"))])
+		(:commit . "a33e7c0286c2a9c8af1c96db42f5c0c37611c9db"))])
  (validate .
 	   [(1 0 4 0 20180215 204244)
 	    ((emacs
