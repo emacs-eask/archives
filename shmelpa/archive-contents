@@ -5376,11 +5376,11 @@
 		       (:keywords "calendar" "holidays" "brazilian")
 		       (:url . "https://github.com/jadler/brazilian-holidays"))])
  (brec-mode .
-	    [(0 -4 20240329 1414)
+	    [(0 -4 20240330 1739)
 	     ((emacs
 	       (24 3)))
 	     "A major mode for editing Breccian text" tar
-	     ((:commit . "f9083b341516f0d0a74d8db111cfa10f906c4851")
+	     ((:commit . "2a03d01bdabae5dd83ec945aaa95a7228dce54a7")
 	      (:authors
 	       ("Michael Allan" . "mike@reluk.ca"))
 	      (:maintainers
@@ -6646,11 +6646,11 @@
 	      (:maintainer "Xu Chunyang")
 	      (:url . "https://github.com/xuchunyang/cc-cedict.el"))])
  (cc-isearch-menu .
-		  [(1 3 1 1 -4 20240320 532)
+		  [(1 4 0 1 -4 20240330 1857)
 		   ((emacs
 		     (29 1)))
 		   "A Transient menu for isearch" tar
-		   ((:commit . "4ffb8c42b84a2b3c1773d285980b46110920928e")
+		   ((:commit . "704893af5eb7c83f7c1dae9e566f8f11c04d9d0b")
 		    (:authors
 		     ("Charles Choi" . "kickingvegas@gmail.com"))
 		    (:maintainers
@@ -14340,13 +14340,13 @@
 		 (:maintainer "Matúš Goljer" . "matus.goljer@gmail.com")
 		 (:keywords "files"))])
  (dired-open .
-	     [(0 0 1 1 -4 20230512 1107)
+	     [(0 0 1 1 -4 20240330 1831)
 	      ((dash
 		(2 5 0))
 	       (dired-hacks-utils
 		(0 0 1)))
 	      "Open files from dired using using custom actions" tar
-	      ((:commit . "523f51b4152a3bf4e60fe57f512732c698b5c96f")
+	      ((:commit . "a01c126c3b1068655509487c76971895f5459d09")
 	       (:authors
 		("Matúš Goljer" . "matus.goljer@gmail.com"))
 	       (:maintainers
@@ -31255,7 +31255,7 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 7 1 -4 20240329 1003)
+       [(3 9 7 1 -4 20240330 1754)
 	((helm-core
 	  (3 9 7))
 	 (wfnames
@@ -31263,7 +31263,7 @@
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "5632e1eb9a11e9df149dee23b2fe469dd7413739")
+	((:commit . "ce29722e518b6a6c3c260ef90f7cbf2628104e28")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -35300,11 +35300,13 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperbole .
-	    [(9 0 2 -1 1 -4 20240330 903)
+	    [(9 0 2 -1 1 -4 20240330 1750)
 	     ((emacs
 	       (27 1)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
-	     ((:commit . "daf4aa7e2ac40266c6aa07f90627db8bd1be6899")
+	     ((:commit . "e009e2429ef5b6c16b636e01cc0c3902e92f06cc")
+	      (:authors
+	       ("Robert Weiner" . "rsw@gnu.org"))
 	      (:maintainers
 	       ("Mats Lidell" . "matsl@gnu.org"))
 	      (:maintainer "Mats Lidell" . "matsl@gnu.org")
@@ -39977,7 +39979,7 @@
 	    (:maintainer "Damien Cassou" . "damien@cassou.me")
 	    (:url . "https://github.com/DamienCassou/khardel"))])
  (khoj .
-       [(1 7 0 1 -4 20240314 1838)
+       [(1 8 0 1 -4 20240330 1836)
 	((emacs
 	  (27 1))
 	 (transient
@@ -39985,7 +39987,7 @@
 	 (dash
 	  (2 19 1)))
 	"AI copilot for your Second Brain" tar
-	((:commit . "fba0338787b3197e22d6b4ea7dc94be153be7396")
+	((:commit . "4f65dde2010141a81d30fa26ce64b0eb1aa4d48b")
 	 (:authors
 	  ("Debanjum Singh Solanky" . "debanjum@khoj.dev")
 	  ("Saba Imran" . "saba@khoj.dev"))
@@ -66505,13 +66507,13 @@
 		 (:keywords "window")
 		 (:url . "https://github.com/dryman/smart-window.el"))])
  (smartparens .
-	      [(1 11 0 1 -4 20240325 2141)
+	      [(1 11 0 1 -4 20240330 1851)
 	       ((dash
 		 (2 13 0))
 		(cl-lib
 		 (0 3)))
 	       "Automatic insertion, wrapping and paredit-like navigation with user defined pairs." tar
-	       ((:commit . "37dfec50978609049ac402bf6514f9abc7b10b29")
+	       ((:commit . "8459f2f7f025baa8c0c98d18531a5fa32f63d949")
 		(:authors
 		 ("Matus Goljer" . "matus.goljer@gmail.com"))
 		(:maintainer "Matus Goljer" . "matus.goljer@gmail.com")
@@ -73879,7 +73881,7 @@
 	       (:keywords "convenience" "usability" "url")
 	       (:url . "https://github.com/lujun9972/verify-url"))])
  (verilog-ext .
-	      [(0 4 1 1 -4 20240329 1808)
+	      [(0 4 1 1 -4 20240330 1952)
 	       ((emacs
 		 (29 1))
 		(verilog-mode
@@ -73905,7 +73907,7 @@
 		(async
 		 (1 9 7)))
 	       "SystemVerilog Extensions" tar
-	       ((:commit . "8a1c11e99c6e8a91c0049dd53628b5eadefc8aed")
+	       ((:commit . "71059d6ea3ed065ea596c4498b6bfcd4d755ca42")
 		(:authors
 		 ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 		(:maintainers
