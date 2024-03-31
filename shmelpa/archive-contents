@@ -5376,11 +5376,11 @@
 		       (:keywords "calendar" "holidays" "brazilian")
 		       (:url . "https://github.com/jadler/brazilian-holidays"))])
  (brec-mode .
-	    [(0 -4 20240331 1150)
+	    [(0 -4 20240331 2055)
 	     ((emacs
 	       (24 3)))
 	     "A major mode for editing Breccian text" tar
-	     ((:commit . "e31073ba2505b4bc574cde247c41362c9a85edc4")
+	     ((:commit . "e3e914a7f86a5e39e400767b4ea8c0c5016bc123")
 	      (:authors
 	       ("Michael Allan" . "mike@reluk.ca"))
 	      (:maintainers
@@ -7854,6 +7854,21 @@
 		 ((:commit . "ddd4bfe1a13c2fd494ce339a320a51124c1d2f68")
 		  (:keywords "c" "c++" "clang-format")
 		  (:url . "https://github.com/SavchenkoValeriy/emacs-clang-format-plus"))])
+ (claude-shell .
+	       [(0 0 3 1 -4 20240326 1721)
+		((emacs
+		  (29 1))
+		 (shell-maker
+		  (0 50 1)))
+		"Integration with Anthropic's Claude LLM" tar
+		((:commit . "0ade87053de313ea63d05bce7c5ce344e976a8ff")
+		 (:authors
+		  ("Armin Friedl" . "dev@friedl.net"))
+		 (:maintainers
+		  ("Armin Friedl" . "dev@friedl.net"))
+		 (:maintainer "Armin Friedl" . "dev@friedl.net")
+		 (:keywords "anthropic" "claude" "claude-shell" "shell-maker" "terminals" "wp" "help" "tools")
+		 (:url . "https://github.com/arminfriedl/claude-shell"))])
  (clause .
 	 [(0 2 1 -4 20230405 1235)
 	  ((emacs
@@ -10351,13 +10366,13 @@
 			 (:keywords "project" "convenience")
 			 (:url . "https://github.com/mohkale/compile-multi"))])
  (compiler-explorer .
-		    [(0 3 0 1 -4 20240329 1658)
+		    [(0 3 0 1 -4 20240331 1934)
 		     ((emacs
 		       (26 1))
 		      (request
 		       (0 3 0)))
 		     "Compiler explorer client (godbolt.org)" tar
-		     ((:commit . "7c43c67b1bd4416afe57a6661fbd674d2f597004")
+		     ((:commit . "18297fca5dcd43786646d700907b0e088e0c3d81")
 		      (:authors
 		       ("Michał Krzywkowski" . "k.michal@zoho.com"))
 		      (:maintainers
@@ -11207,7 +11222,7 @@
 	  (:keywords "tools")
 	  (:url . "https://gitlab.com/montanari/cosmo-el"))])
  (counsel .
-	  [(0 14 2 1 -4 20240229 1509)
+	  [(0 14 2 1 -4 20240331 2106)
 	   ((emacs
 	     (24 5))
 	    (ivy
@@ -11215,7 +11230,7 @@
 	    (swiper
 	     (0 14 2)))
 	   "Various completion functions using Ivy" tar
-	   ((:commit . "14c696aa2d6cd905795ba543374457a04a13ccae")
+	   ((:commit . "ee56399de6d7b66b20735111682ca1900c2a44bc")
 	    (:authors
 	     ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	    (:maintainers
@@ -12937,13 +12952,13 @@
 	      (:keywords "files" "convenience")
 	      (:url . "https://github.com/DerBeutlin/date2name.el"))])
  (datetime .
-	   [(0 9 2 -4 20240331 1909)
+	   [(0 10 1 -4 20240331 2024)
 	    ((emacs
 	      (25 1))
 	     (extmap
 	      (1 1 1)))
 	    "Parsing, formatting and matching timestamps" tar
-	    ((:commit . "3d27814a099898f1ff68016a2e46558d0ffa6143")
+	    ((:commit . "a71c4abd7993ab207fc33527f4d9aa09d116a0fb")
 	     (:authors
 	      ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	     (:maintainers
@@ -35300,11 +35315,11 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperbole .
-	    [(9 0 2 -1 1 -4 20240331 1726)
+	    [(9 0 2 -1 1 -4 20240331 2046)
 	     ((emacs
 	       (27 1)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
-	     ((:commit . "8adaf7582246eab83c2c8cf8309e67d9523303da")
+	     ((:commit . "409d052d937cc44bda2ce968e1611c3e3ede9222")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
 	      (:maintainers
@@ -38519,11 +38534,11 @@
 	     (:keywords "json" "data" "languages" "tools")
 	     (:url . "https://github.com/unresolvedcold/jmespath"))])
  (jmt-mode .
-	   [(0 -4 20240328 139)
+	   [(0 -4 20240331 2056)
 	    ((emacs
 	      (27 1)))
 	    "Java Mode Tamed" tar
-	    ((:commit . "89e794b5ab93bf53840e4e9deed5e5aa7b70add2")
+	    ((:commit . "a60a5d7894080c81e8cbe83d837e217aec415df3")
 	     (:authors
 	      ("Michael Allan" . "mike@reluk.ca"))
 	     (:maintainers
@@ -40979,6 +40994,21 @@
 		       (:maintainer "Thomas Letan" . "lthms@soap.coffee")
 		       (:keywords "faces" "theme")
 		       (:url . "https://git.sr.ht/~lthms/colorless-themes.el"))])
+ (lazy-ruff .
+	    [(0 2 1 1 -4 20240326 1943)
+	     ((emacs
+	       (24 3))
+	      (org
+	       (9 1)))
+	     "Integration with the Ruff Python linter/formatter" tar
+	     ((:commit . "90cbeb77a370448364d2eb59870eee781636beff")
+	      (:authors
+	       ("Christopher Buch Madsen"))
+	      (:maintainers
+	       ("Christopher Buch Madsen"))
+	      (:maintainer "Christopher Buch Madsen")
+	      (:keywords "languages" "tools")
+	      (:url . "http://github.com/yourusername/emacs-lazy-ruff"))])
  (lcb-mode .
 	   [(0 1 0 1 -4 20160816 630)
 	    ((emacs
@@ -46862,7 +46892,7 @@
 			 (:keywords "mu4e" "mail" "convenience")
 			 (:url . "https://gitlab.com/wavexx/mu4e-query-fragments.el"))])
  (mu4e-views .
-	     [(0 3 1 -4 20240331 1658)
+	     [(0 3 1 -4 20240331 2133)
 	      ((emacs
 		(26 1))
 	       (xwidgets-reuse
@@ -46872,7 +46902,7 @@
 	       (esxml
 		(20210323 1102)))
 	      "View emails in mu4e using xwidget-webkit" tar
-	      ((:commit . "3bb50720b85e916087d8334749d44dc83d7e6e82")
+	      ((:commit . "f8c9271642c7f6f1c9a64f065bbecb974e69a379")
 	       (:authors
 		("Boris Glavic" . "lordpretzel@gmail.com"))
 	       (:maintainers
@@ -49115,6 +49145,25 @@
 	  (:maintainer "Folkert van der Beek" . "folkertvanderbeek@gmail.com")
 	  (:keywords "comm")
 	  (:url . "https://github.com/fvdbeek/emacs-oauth"))])
+ (oauth2-auto .
+	      [(0 1 1 -4 20240326 2225)
+	       ((emacs
+		 (26 1))
+		(aio
+		 (1 0))
+		(alert
+		 (1 2))
+		(dash
+		 (2 19)))
+	       "Automatically refreshing OAuth 2.0 tokens" tar
+	       ((:commit . "ff9a45e27621aad5b1a2e12a09b01f3e4eaecf96")
+		(:authors
+		 ("Adrià Garriga-Alonso" . "adria.garriga@gmail.com"))
+		(:maintainers
+		 ("Adrià Garriga-Alonso" . "adria.garriga@gmail.com"))
+		(:maintainer "Adrià Garriga-Alonso" . "adria.garriga@gmail.com")
+		(:keywords "comm" "oauth2")
+		(:url . "https://github.com/rhaps0dy/emacs-oauth2-auto"))])
  (oauth2-request .
 		 [(1 0 0 1 -4 20210215 657)
 		  ((emacs
@@ -52200,6 +52249,23 @@
 			(:maintainer "Sheng Yang" . "styang@fastmail.com")
 			(:keywords "tex" "tools")
 			(:url . "https://github.com/yangsheng6810/org-latex-instant-preview"))])
+ (org-linenote .
+	       [(0 2 0 1 -4 20240325 320)
+		((emacs
+		  (29 1))
+		 (projectile
+		  (2 8 0))
+		 (vertico
+		  (1 7)))
+		"A package inspired by VSCode Linenote" tar
+		((:commit . "4c081f4bbe13c48df7cb17f2f006465b8b95196b")
+		 (:authors
+		  ("Jason Kim" . "sukbeom.kim@gmail.com"))
+		 (:maintainers
+		  ("Jason Kim" . "sukbeom.kim@gmail.com"))
+		 (:maintainer "Jason Kim" . "sukbeom.kim@gmail.com")
+		 (:keywords "tools" "note" "org")
+		 (:url . "https://github.com/seokbeomKim/org-linenote"))])
  (org-link-beautify .
 		    [(1 2 3 1 -4 20240312 529)
 		     ((emacs
@@ -59527,6 +59593,23 @@
 	       (:maintainer "Mohsin Kaleem" . "mohkale@kisara.moe")
 	       (:keywords "project" "convenience")
 	       (:url . "https://github.com/mohkale/projection"))])
+ (projection-dape .
+		  [(0 1 1 -4 20240325 1931)
+		   ((emacs
+		     (29 1))
+		    (projection
+		     (0 1))
+		    (dape
+		     (0 8)))
+		   "Projection integration for `dape'" tar
+		   ((:commit . "68abb9dfab5e85daa31961be10362ca02effeeeb")
+		    (:authors
+		     ("Mohsin Kaleem" . "mohkale@kisara.moe"))
+		    (:maintainers
+		     ("Mohsin Kaleem" . "mohkale@kisara.moe"))
+		    (:maintainer "Mohsin Kaleem" . "mohkale@kisara.moe")
+		    (:keywords "project" "convenience")
+		    (:url . "https://github.com/mohkale/projection"))])
  (projection-multi .
 		   [(0 1 1 -4 20240316 2222)
 		    ((emacs
