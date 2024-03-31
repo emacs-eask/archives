@@ -19,7 +19,8 @@
 		    (:keywords "themes")
 		    (:maintainer "Ozan Sener" . "ozan@ozansener.com")
 		    (:authors
-		     ("Ozan Sener" . "ozan@ozansener.com")))])
+		     ("Ozan Sener" . "ozan@ozansener.com"))
+		    (:commit . "89b1d778a1f8b385775c122f2bd1c62f0fbf931a"))])
  (alect-themes .
 	       [(0 10 0 20211022 165129)
 		((emacs
@@ -29,7 +30,8 @@
 		 (:keywords "color" "theme")
 		 (:maintainer "Alex Kost" . "alezost@gmail.com")
 		 (:authors
-		  ("Alex Kost" . "alezost@gmail.com")))])
+		  ("Alex Kost" . "alezost@gmail.com"))
+		 (:commit . "89560047934c236d05ea6b911c0c63702a8e06f3"))])
  (ample-theme .
 	      [(0 3 0 0 20200106 170448)
 	       nil "Calm Dark Theme for Emacs" tar
@@ -37,7 +39,8 @@
 		(:keywords "theme" "dark")
 		(:maintainer "Jordon Biondo" . "jordonbiondo@gmail.com")
 		(:authors
-		 ("Jordon Biondo" . "jordonbiondo@gmail.com")))])
+		 ("Jordon Biondo" . "jordonbiondo@gmail.com"))
+		(:commit . "f5a163626e04abda2d3c168f703c3f330f302a7c"))])
  (annotate .
 	   [(2 2 1 0 20240326 182829)
 	    nil "annotate files without changing them" tar
@@ -52,7 +55,8 @@
 		      ((:url . "https://github.com/m00natic/anti-zenburn-theme")
 		       (:maintainer "Andrey Kotlarski" . "m00naticus@gmail.com")
 		       (:authors
-			("Andrey Kotlarski" . "m00naticus@gmail.com")))])
+			("Andrey Kotlarski" . "m00naticus@gmail.com"))
+		       (:commit . "dbafbaa86be67c1d409873f57a5c0bbe1e7ca158"))])
  (anzu .
        [(0 64 0 20240201 224751)
 	((emacs
@@ -140,7 +144,7 @@
 		  (:keywords "convenience" "jump" "history" "evil")
 		  (:maintainer "Bryan Gilbert" . "bryan@bryan.sh")
 		  (:authors
-		   ("Bryan Gilbert <http://github/gilbertw1>"))
+		   ("Bryan Gilbert" . "http://github/gilbertw1"))
 		  (:commit . "47622213783ece37d5337dc28d33b530540fc319"))])
  (bind-map .
 	   [(1 1 2 0 20240308 155008)
@@ -159,7 +163,8 @@
 	       (:maintainer "Eric Beuscher" . "beuscher@eecs.tulane.edu")
 	       (:authors
 		("Eric Beuscher" . "beuscher@eecs.tulane.edu"))
-	       (:url . "https://elpa.nongnu.org/nongnu/bison-mode.html"))])
+	       (:url . "https://elpa.nongnu.org/nongnu/bison-mode.html")
+	       (:commit . "4f2e20394a475931409618c1635e9c9f1cf07d9c"))])
  (blow .
        [(1 0 0 20221128 51815)
 	((emacs
@@ -352,9 +357,6 @@
 		  "Cycle (rotate) the thing under the cursor" tar
 		  ((:url . "https://codeberg.com/ideasman42/emacs-cycle-at-point")
 		   (:keywords "convenience")
-		   (:maintainer "Campbell Barton")
-		   (:authors
-		    ("Campbell Barton"))
 		   (:commit . "85750fa695797b95608b331b64ea49d81f7c8a36"))])
  (d-mode .
 	 [(202003130913 0 20240218 175353)
@@ -535,7 +537,7 @@
 		 ("Harry R. Schwartz" . "hello@harryrschwartz.com"))
 		(:commit . "f9efca3ad600e0c498cff776de5a873b8dd978cb"))])
  (evil .
-       [(1 15 0 0 20240326 205601)
+       [(1 15 0 0 20240330 233927)
 	((emacs
 	  (24 1))
 	 (cl-lib
@@ -546,7 +548,7 @@
 	((:url . "https://github.com/emacs-evil/evil")
 	 (:keywords "emulations")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
-	 (:commit . "700d574843e2ae3545c983dcf6ad6db604d38c43"))])
+	 (:commit . "476f5fbcf1288c5a46a6ba35efe0b8dd1e4dd0ec"))])
  (evil-anzu .
 	    [(0 2 0 20220911 193944)
 	     ((evil
@@ -555,7 +557,9 @@
 	       (0 46)))
 	     "anzu for evil-mode" tar
 	     ((:url . "https://github.com/syohex/emacs-evil-anzu")
-	      (:maintainer "Syohei YOSHIDA" . "syohex@gmail.com")
+	      (:maintainer
+	       ("Syohei YOSHIDA" . "syohex@gmail.com")
+	       ("Fredrik Bergroth" . "fbergroth@gmail.com"))
 	      (:authors
 	       ("Syohei YOSHIDA" . "syohex@gmail.com")
 	       ("Fredrik Bergroth" . "fbergroth@gmail.com"))
@@ -651,7 +655,8 @@
 		    (:keywords "convenience" "editing" "evil" "smartparens" "lisp" "mnemonic")
 		    (:maintainer "Sylvain Benner" . "sylvain.benner@gmail.com")
 		    (:authors
-		     ("Sylvain Benner" . "sylvain.benner@gmail.com")))])
+		     ("Sylvain Benner" . "sylvain.benner@gmail.com"))
+		    (:commit . "3c65fecd9917a41eaf6460f22187e2323821f3ce"))])
  (evil-matchit .
 	       [(3 0 4 0 20240216 130425)
 		((emacs

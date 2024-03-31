@@ -19,7 +19,8 @@
 		    (:keywords "themes")
 		    (:maintainer "Ozan Sener" . "ozan@ozansener.com")
 		    (:authors
-		     ("Ozan Sener" . "ozan@ozansener.com")))])
+		     ("Ozan Sener" . "ozan@ozansener.com"))
+		    (:commit . "b58731c3b0bbaac9d3ed8d5ae900063df5db090d"))])
  (alect-themes .
 	       [(0 10)
 		((emacs
@@ -29,7 +30,8 @@
 		 (:keywords "color" "theme")
 		 (:maintainer "Alex Kost" . "alezost@gmail.com")
 		 (:authors
-		  ("Alex Kost" . "alezost@gmail.com")))])
+		  ("Alex Kost" . "alezost@gmail.com"))
+		 (:commit . "89560047934c236d05ea6b911c0c63702a8e06f3"))])
  (ample-theme .
 	      [(0 3 0)
 	       nil "Calm Dark Theme for Emacs" tar
@@ -37,7 +39,8 @@
 		(:keywords "theme" "dark")
 		(:maintainer "Jordon Biondo" . "jordonbiondo@gmail.com")
 		(:authors
-		 ("Jordon Biondo" . "jordonbiondo@gmail.com")))])
+		 ("Jordon Biondo" . "jordonbiondo@gmail.com"))
+		(:commit . "33691c93ee302690e41f631f82083bcc15d229e8"))])
  (annotate .
 	   [(2 2 1)
 	    nil "annotate files without changing them" tar
@@ -52,7 +55,8 @@
 		      ((:url . "https://github.com/m00natic/anti-zenburn-theme")
 		       (:maintainer "Andrey Kotlarski" . "m00naticus@gmail.com")
 		       (:authors
-			("Andrey Kotlarski" . "m00naticus@gmail.com")))])
+			("Andrey Kotlarski" . "m00naticus@gmail.com"))
+		       (:commit . "c80cc51bb1aaf11dd53b9d08e01d61bc9b32622f"))])
  (anzu .
        [(0 64)
 	((emacs
@@ -61,15 +65,17 @@
 	((:url . "https://github.com/emacsorphanage/anzu")
 	 (:maintainer "Neil Okamoto" . "neil.okamoto+melpa@gmail.com")
 	 (:authors
-	  ("Syohei YOSHIDA" . "syohex@gmail.com")))])
+	  ("Syohei YOSHIDA" . "syohex@gmail.com"))
+	 (:commit . "bdb3da5028935a4aea55c40769bc191a81afb54e"))])
  (apache-mode .
 	      [(2 2 0)
 	       nil "Major mode for editing Apache httpd configuration files" tar
 	       ((:url . "https://github.com/emacs-php/apache-mode")
+		(:keywords "languages" "faces")
 		(:maintainer "USAMI Kenta" . "tadsan@zonu.me")
 		(:authors
 		 ("Karl Chen" . "quarl@nospam.quarl.org"))
-		(:keywords "languages" "faces"))])
+		(:commit . "354f9302a8d805ac80d846adcd1cef10830b3d51"))])
  (apropospriate-theme .
 		      [(0 2 0)
 		       nil "A light & dark theme set for Emacs." tar
@@ -77,7 +83,7 @@
 			(:maintainer "Justin Talbott" . "justin@waymondo.com")
 			(:authors
 			 ("Justin Talbott" . "justin@waymondo.com"))
-			(:commit . "a03fd98f438806bfd74ed3cd0957de859ea7fd2f"))])
+			(:commit . "cb56b8c1a4ea42a329b279e57b3db473f0be4adc"))])
  (arduino-mode .
 	       [(1 3 0)
 		((emacs
@@ -86,8 +92,9 @@
 		  (1 7 3)))
 		"Major mode for editing Arduino code" tar
 		((:url . "https://github.com/stardiviner/arduino-mode")
+		 (:keywords "languages" "arduino")
 		 (:maintainer "stardiviner" . "numbchild@gmail.com")
-		 (:keywords "languages" "arduino"))])
+		 (:commit . "b1e264568688a1225126c7b9e522bcdc394f354c"))])
  (auto-dim-other-buffers .
 			 [(2 1 1)
 			  nil "Makes windows without focus less prominent" tar
@@ -137,7 +144,8 @@
 		  (:keywords "convenience" "jump" "history" "evil")
 		  (:maintainer "Bryan Gilbert" . "bryan@bryan.sh")
 		  (:authors
-		   ("Bryan Gilbert <http://github/gilbertw1>")))])
+		   ("Bryan Gilbert" . "http://github/gilbertw1"))
+		  (:commit . "17821e7f55aeaa40c9337b766bfb991625436de4"))])
  (bind-map .
 	   [(1 1 2)
 	    ((emacs
@@ -151,11 +159,12 @@
  (bison-mode .
 	     [(0 4)
 	      nil "Major mode for editing bison, yacc and lex files." tar
-	      ((:maintainer "Eric Beuscher" . "beuscher@eecs.tulane.edu")
+	      ((:keywords "bison-mode" "yacc-mode")
+	       (:maintainer "Eric Beuscher" . "beuscher@eecs.tulane.edu")
 	       (:authors
 		("Eric Beuscher" . "beuscher@eecs.tulane.edu"))
-	       (:keywords "bison-mode" "yacc-mode")
-	       (:url . "https://elpa.nongnu.org/nongnu/bison-mode.html"))])
+	       (:url . "https://elpa.nongnu.org/nongnu/bison-mode.html")
+	       (:commit . "4f2e20394a475931409618c1635e9c9f1cf07d9c"))])
  (blow .
        [(1 0)
 	((emacs
@@ -216,12 +225,13 @@
 	  (24 3)))
 	"Caml mode for GNU Emacs" tar
 	((:url . "https://github.com/ocaml/caml-mode")
+	 (:keywords "ocaml")
 	 (:maintainer "Christophe Troestler" . "Christophe.Troestler@umons.ac.be")
 	 (:authors
 	  ("Jacques Garrigue" . "garrigue@kurims.kyoto-u.ac.jp")
 	  ("Ian T Zimmerman" . "itz@rahul.net")
 	  ("Damien Doligez" . "damien.doligez@inria.fr"))
-	 (:keywords "ocaml"))])
+	 (:commit . "2905a436e956c5bba16c4633a6e4c4fceefa6535"))])
  (cdlatex .
 	  [(4 18 4)
 	   nil "Fast input methods for LaTeX environments and math" tar
@@ -282,7 +292,9 @@
  (coffee-mode .
 	      [(0 6 3)
 	       ((emacs
-		 (24 3)))
+		 (24 1))
+		(cl-lib
+		 (0 5)))
 	       "Major mode for CoffeeScript code" tar
 	       ((:url . "http://github.com/defunkt/coffee-mode")
 		(:keywords "coffeescript" "major" "mode")
@@ -336,40 +348,37 @@
 		    (:keywords "color" "theme" "cyberpunk")
 		    (:maintainer "Nicholas M. Van Horn" . "nvanhorn@protonmail.com")
 		    (:authors
-		     ("Nicholas M. Van Horn" . "nvanhorn@protonmail.com")))])
+		     ("Nicholas M. Van Horn" . "nvanhorn@protonmail.com"))
+		    (:commit . "81004fc774d373777d426926fc11abcf1e7ab334"))])
  (cycle-at-point .
 		 [(0 1)
 		  ((emacs
-		    (28 1))
+		    (27 1))
 		   (recomplete
 		    (0 2)))
 		  "Cycle (rotate) the thing under the cursor" tar
-		  ((:url . "https://codeberg.com/ideasman42/emacs-cycle-at-point")
+		  ((:url . "https://gitlab.com/ideasman42/emacs-cycle-at-point")
 		   (:keywords "convenience")
-		   (:maintainer "Campbell Barton")
-		   (:authors
-		    ("Campbell Barton"))
 		   (:commit . "ea22b90f35f4cef73387047b3ef3fad83787d4e2"))])
  (d-mode .
 	 [(202003130913)
 	  ((emacs
 	    (25 1)))
 	  "D Programming Language major mode for (X)Emacs" tar
-	  ((:maintainer "Russel Winder" . "russel@winder.org.uk")
-	   (:authors
-	    ("William Baxter"))
-	   (:keywords "d" "programming" "language" "emacs" "cc-mode")
-	   (:url . "https://elpa.nongnu.org/nongnu/d-mode.html"))])
+	  ((:keywords "d" "programming" "language" "emacs" "cc-mode")
+	   (:maintainer
+	    ("Russel Winder" . "russel@winder.org.uk")
+	    ("Vladimir Panteleev" . "vladimir@thecybershadow.net"))
+	   (:url . "https://elpa.nongnu.org/nongnu/d-mode.html")
+	   (:commit . "6624fcbc1539613753af542923e27b3211690d39"))])
  (dart-mode .
 	    [(1 0 7)
 	     ((emacs
 	       (24 3)))
 	     "Major mode for editing Dart files" tar
 	     ((:url . "https://github.com/bradyt/dart-mode")
-	      (:maintainer "https://github.com/bradyt/dart-mode/issues")
-	      (:authors
-	       ("https://github.com/bradyt/dart-mode/issues"))
-	      (:keywords "languages"))])
+	      (:keywords "languages")
+	      (:commit . "3bac14200f9f8f8fcebc383087572da5c3823c34"))])
  (denote-refs .
 	      [(0 1 2)
 	       ((emacs
@@ -420,7 +429,7 @@
 		   ((emacs
 		     (26 2)))
 		   "Show doc-strings found in external files" tar
-		   ((:url . "https://codeberg.com/ideasman42/emacs-doc-show-inline")
+		   ((:url . "https://gitlab.com/ideasman42/emacs-doc-show-inline")
 		    (:keywords "convenience")
 		    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		    (:authors
@@ -533,10 +542,13 @@
 	       (0 46)))
 	     "anzu for evil-mode" tar
 	     ((:url . "https://github.com/syohex/emacs-evil-anzu")
-	      (:maintainer "Syohei YOSHIDA" . "syohex@gmail.com")
+	      (:maintainer
+	       ("Syohei YOSHIDA" . "syohex@gmail.com")
+	       ("Fredrik Bergroth" . "fbergroth@gmail.com"))
 	      (:authors
 	       ("Syohei YOSHIDA" . "syohex@gmail.com")
-	       ("Fredrik Bergroth" . "fbergroth@gmail.com")))])
+	       ("Fredrik Bergroth" . "fbergroth@gmail.com"))
+	      (:commit . "5aa524dd2dbccdb607fcea0ea708be44a5cfe730"))])
  (evil-args .
 	    [(1 1)
 	     ((evil
@@ -574,7 +586,8 @@
 		  (:keywords "evil" "plugin")
 		  (:maintainer "Dewdrops" . "v_v_4474@126.com")
 		  (:authors
-		   ("Dewdrops" . "v_v_4474@126.com")))])
+		   ("Dewdrops" . "v_v_4474@126.com"))
+		  (:commit . "47691537815150715e64e6f6ec79be7746c96120"))])
  (evil-goggles .
 	       [(0 0 2)
 		((emacs
@@ -612,7 +625,8 @@
 		     (:keywords "convenience" "evil")
 		     (:maintainer "Eivind Fonn" . "evfonn@gmail.com")
 		     (:authors
-		      ("Eivind Fonn" . "evfonn@gmail.com")))])
+		      ("Eivind Fonn" . "evfonn@gmail.com"))
+		     (:commit . "db8cfd6b6fd51a13054922d8f53f93a481b40544"))])
  (evil-lisp-state .
 		  [(8 2)
 		   ((evil
@@ -626,7 +640,8 @@
 		    (:keywords "convenience" "editing" "evil" "smartparens" "lisp" "mnemonic")
 		    (:maintainer "Sylvain Benner" . "sylvain.benner@gmail.com")
 		    (:authors
-		     ("Sylvain Benner" . "sylvain.benner@gmail.com")))])
+		     ("Sylvain Benner" . "sylvain.benner@gmail.com"))
+		    (:commit . "3c65fecd9917a41eaf6460f22187e2323821f3ce"))])
  (evil-matchit .
 	       [(3 0 4)
 		((emacs
