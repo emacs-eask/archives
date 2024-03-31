@@ -56,7 +56,8 @@
 		(:keywords "languages" "ada")
 		(:maintainer "Stephen Leake" . "stephen_leake@member.fsf.org")
 		(:authors
-		 ("Stephen Leake" . "stephen_leake@member.fsf.org")))])
+		 ("Stephen Leake" . "stephen_leake@member.fsf.org"))
+		(:commit . "42a4321966c8bc6aba62cf0af1eb653d39030fd7"))])
  (adaptive-wrap .
 		[(0 8 0 20240113 95028)
 		 ((emacs
@@ -88,7 +89,8 @@
 		((:maintainer "Stefan Monnier" . "monnier@iro.umontreal.ca")
 		 (:authors
 		  ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
-		 (:url . "https://elpa.gnu.org/packages/advice-patch.html"))])
+		 (:url . "https://elpa.gnu.org/packages/advice-patch.html")
+		 (:commit . "2990c6647ffe1c188b84ade4da0314d2d9430437"))])
  (aggressive-completion .
 			[(1 7 0 20220417 71805)
 			 ((emacs
@@ -263,7 +265,8 @@
 		  (:keywords "extensions")
 		  (:maintainer "Toby Cubitt" . "toby-predictive@dr-qubit.org")
 		  (:authors
-		   ("Toby Cubitt" . "toby-predictive@dr-qubit.org")))])
+		   ("Toby Cubitt" . "toby-predictive@dr-qubit.org"))
+		  (:commit . "0807a75d2606462ef636b737e8f3873f98141a82"))])
  (autocrypt .
 	    [(0 4 1 0 20230505 70117)
 	     ((emacs
@@ -338,7 +341,7 @@
 	     (:maintainer "John Wiegley" . "johnw@newartisans.com")
 	     (:authors
 	      ("John Wiegley" . "johnw@newartisans.com"))
-	     (:commit . "c1530a2e4973005633ebe00d447f1f3aa1200301"))])
+	     (:commit . "7f377407b4b7d6ac9994ed983d7516bc42139885"))])
  (blist .
 	[(0 3 0 20231213 61103)
 	 ((ilist
@@ -364,7 +367,7 @@
 	      (:maintainer "Raffael Stocker" . "r.stocker@mnet-mail.de")
 	      (:authors
 	       ("Raffael Stocker" . "r.stocker@mnet-mail.de")
-	       ("Etienne Prud’homme" . "e.e.f.prudhomme@gmail.com"))
+	       ("Etienne Prud homme" . "e.e.f.prudhomme@gmail.com"))
 	      (:commit . "c719b1ebf80a21ba6618ba15fefac5c5886e4e55"))])
  (bnf-mode .
 	   [(0 4 5 0 20221205 150230)
@@ -451,10 +454,11 @@
 		   (0 5)))
 		 "Visual buffer switching using a window grid" tar
 		 ((:url . "https://github.com/clemera/buffer-expose")
+		  (:keywords "convenience")
 		  (:maintainer "Clemens Radermacher" . "clemera@posteo.net")
 		  (:authors
 		   ("Clemens Radermacher" . "clemera@posteo.net"))
-		  (:keywords "convenience"))])
+		  (:commit . "c4a1c745123b86c15ba7bb4858255b5252e8440a"))])
  (bufferlo .
 	   [(0 6 0 20240105 200601)
 	    ((emacs
@@ -477,7 +481,8 @@
 	       (:keywords "lisp")
 	       (:maintainer "Artur Malabarba" . "emacs@endlessparentheses.com")
 	       (:authors
-		("Artur Malabarba" . "emacs@endlessparentheses.com")))])
+		("Artur Malabarba" . "emacs@endlessparentheses.com"))
+	       (:commit . "3eaaa92f981e034da6ea874420238a1b5058cce6"))])
  (buildbot .
 	   [(0 0 1 0 20230726 134747)
 	    ((emacs
@@ -502,7 +507,7 @@
 	     ("Kjartan Oli Agustsson" . "kjartanoli@disroot.org"))
 	    (:commit . "855a9cb092eecf1e5c17ea56c440a0200f95eb4c"))])
  (cape .
-       [(1 4 0 20240329 103627)
+       [(1 4 0 20240331 3042)
 	((emacs
 	  (27 1))
 	 (compat
@@ -513,7 +518,7 @@
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	 (:commit . "934cb157dd6ddfee657801d409c289e12af3d8ad"))])
+	 (:commit . "441340fe2c37bcda35f00b00cdc84c2fd75937de"))])
  (capf-autosuggest .
 		   [(0 3 0 20211123 104430)
 		    ((emacs
@@ -522,7 +527,8 @@
 		    ((:url . "https://repo.or.cz/emacs-capf-autosuggest.git")
 		     (:maintainer "jakanakaevangeli" . "jakanakaevangeli@chiru.no")
 		     (:authors
-		      ("jakanakaevangeli" . "jakanakaevangeli@chiru.no")))])
+		      ("jakanakaevangeli" . "jakanakaevangeli@chiru.no"))
+		     (:commit . "6d66f0ce52c6a41945a48e7b562dd6d262c62cd9"))])
  (caps-lock .
 	    [(1 0 0 20221221 74713)
 	     nil "Caps-lock as a minor mode" tar
@@ -573,10 +579,11 @@
 			 (25)))
 		       "Collect clipboard entries according to regex rules" tar
 		       ((:url . "https://github.com/clemera/clipboard-collector")
+			(:keywords "convenience")
 			(:maintainer "Clemens Radermacher" . "clemera@posteo.net")
 			(:authors
 			 ("Clemens Radermacher" . "clemera@posteo.net"))
-			(:keywords "convenience"))])
+			(:commit . "72131b92b74b24e1c1851233ddbfc1225f33322a"))])
  (cobol-mode .
 	     [(1 1 0 20221221 74904)
 	      ((cl-lib
@@ -661,10 +668,11 @@
 			(0 8 5)))
 		      "Sort candidates using completion history" tar
 		      ((:url . "https://github.com/company-mode/company-statistics")
+		       (:keywords "abbrev" "convenience" "matching")
 		       (:maintainer "Ingo Lohmar" . "i.lohmar@gmail.com")
 		       (:authors
 			("Ingo Lohmar" . "i.lohmar@gmail.com"))
-		       (:keywords "abbrev" "convenience" "matching"))])
+		       (:commit . "e62157d43b2c874d2edbd547c3bdfb05d0a7ae5c"))])
  (compat .
 	 [(29 1 4 5 0 20240316 105418)
 	  ((emacs
@@ -725,7 +733,8 @@
 		     (:keywords "convenience" "faces" "tools")
 		     (:maintainer "Jackson Ray Hamilton" . "jackson@jacksonrayhamilton.com")
 		     (:authors
-		      ("Jackson Ray Hamilton" . "jackson@jacksonrayhamilton.com")))])
+		      ("Jackson Ray Hamilton" . "jackson@jacksonrayhamilton.com"))
+		     (:commit . "c487f63cfb2ec4e36ac4baaef28cb0994cf01c06"))])
  (corfu .
 	[(1 2 0 20240330 93001)
 	 ((emacs
@@ -776,7 +785,8 @@
 	      (:maintainer "Douglas Lewan" . "d.lewan2000@gmail.com")
 	      (:authors
 	       ("Douglas Lewan" . "d.lewan2000@gmail.com"))
-	      (:url . "https://elpa.gnu.org/packages/cpio-mode.html"))])
+	      (:url . "https://elpa.gnu.org/packages/cpio-mode.html")
+	      (:commit . "75891efd33e720208f4d353e892f8ed590f45d7d"))])
  (cpupower .
 	   [(1 0 5 0 20230704 131557)
 	    nil "cpupower command interface" tar
@@ -811,7 +821,9 @@
 	       "C# mode derived mode" tar
 	       ((:url . "https://github.com/emacs-csharp/csharp-mode")
 		(:keywords "c#" "languages" "oop" "mode")
-		(:maintainer "Jostein Kjønigsen" . "jostein@gmail.com")
+		(:maintainer
+		 ("Jostein Kjønigsen" . "jostein@gmail.com")
+		 ("Theodor Thornhill" . "theo@thornhill.no"))
 		(:authors
 		 ("Theodor Thornhill" . "theo@thornhill.no"))
 		(:commit . "02c61c219b2c22491eff9b7315fed661fab423d4"))])
@@ -867,7 +879,8 @@
 	     (:maintainer "João Távora" . "joaotavora@gmail.com")
 	     (:authors
 	      ("João Távora" . "joaotavora@gmail.com"))
-	     (:url . "https://elpa.gnu.org/packages/darkroom.html"))])
+	     (:url . "https://elpa.gnu.org/packages/darkroom.html")
+	     (:commit . "4496945487130ae1123a9f17b40674ec24c54e8f"))])
  (dash .
        [(2 19 1 0 20240216 133446)
 	((emacs
