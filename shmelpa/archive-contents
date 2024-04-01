@@ -7855,13 +7855,13 @@
 		  (:keywords "c" "c++" "clang-format")
 		  (:url . "https://github.com/SavchenkoValeriy/emacs-clang-format-plus"))])
  (claude-shell .
-	       [(0 0 3 1 -4 20240326 1721)
+	       [(0 0 4 1 -4 20240401 1228)
 		((emacs
 		  (29 1))
 		 (shell-maker
 		  (0 50 1)))
 		"Integration with Anthropic's Claude LLM" tar
-		((:commit . "0ade87053de313ea63d05bce7c5ce344e976a8ff")
+		((:commit . "675c0cc7f2180773273c5d996759dff7a1c69f41")
 		 (:authors
 		  ("Armin Friedl" . "dev@friedl.net"))
 		 (:maintainers
@@ -11920,11 +11920,11 @@
 	      (:keywords "games")
 	      (:url . "https://github.com/Boruch-Baum/emacs-crossword"))])
  (crux .
-       [(0 5 0 1 -4 20240229 957)
+       [(0 5 0 1 -4 20240401 1136)
 	((emacs
 	  (26 1)))
 	"A Collection of Ridiculously Useful eXtensions" tar
-	((:commit . "7980df10e47eef41d4d1c57cfb690ec406381ed3")
+	((:commit . "6ed75a69f542fb7feab6b8f182caf0924b3fb510")
 	 (:authors
 	  ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	 (:maintainers
@@ -20546,21 +20546,6 @@
 	(:maintainer "Chris Zheng")
 	(:keywords "convenience" "usability")
 	(:url . "https://www.github.com/zcaudate/eta"))])
- (etable .
-	 [(0 1 1 -4 20161028 2009)
-	  ((dash
-	    (2 9 0))
-	   (interval-list
-	    (0 1))
-	   (emacs
-	    (24 4)))
-	  "Implementation of javax.swing.JTable for Emacs." tar
-	  ((:commit . "d502141f0c69bf95256ba5cb9cd15350c7e942d2")
-	   (:authors
-	    ("Matus Goljer" . "matus.goljer@gmail.com"))
-	   (:maintainer "Matus Goljer" . "matus.goljer@gmail.com")
-	   (:keywords "convenience")
-	   (:url . "https://github.com/Fuco1/ETable"))])
  (etc-sudoers-mode .
 		   [(1 1 0 1 -4 20201102 1707)
 		    ((sudo-edit
