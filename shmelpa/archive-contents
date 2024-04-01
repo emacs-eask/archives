@@ -6670,7 +6670,7 @@
 	(:keywords "cursor")
 	(:url . "https://github.com/skk-dev/ddskk"))])
  (ccls .
-       [(20200621 1 -4 20240124 1050)
+       [(20200621 1 -4 20240331 2132)
 	((emacs
 	  (27 1))
 	 (lsp-mode
@@ -6678,14 +6678,14 @@
 	 (dash
 	  (2 14 1)))
 	"ccls client for lsp-mode" tar
-	((:commit . "9b4a47e0418de8cc2fc93317e27cbdde75286df1")
+	((:commit . "9c91aad768d5c401295c79f341c5296b69b29490")
 	 (:authors
 	  ("Tobias Pisani, Fangrui Song"))
 	 (:maintainers
 	  ("Tobias Pisani, Fangrui Song"))
 	 (:maintainer "Tobias Pisani, Fangrui Song")
 	 (:keywords "languages" "lsp" "c++")
-	 (:url . "https://github.com/MaskRay/emacs-ccls"))])
+	 (:url . "https://github.com/emacs-lsp/emacs-ccls"))])
  (cd-compile .
 	     [(0 1 1 -4 20141108 1957)
 	      nil "run compile in a specific directory" tar
@@ -9385,20 +9385,20 @@
 		       "Eclim company backend" tar
 		       ((:commit . "edff7e0e30c87036710d88fb0b7a4644750858e8"))])
  (company-emoji .
-		[(2 8 0 1 -4 20230903 1854)
+		[(3 0 0 1 -4 20240331 2127)
 		 ((cl-lib
 		   (0 5))
 		  (company
 		   (0 8 0)))
 		 "company-mode backend for emoji" tar
-		 ((:commit . "9c372be9406fba61d71aa0ed2d41adafae5a866e")
+		 ((:commit . "0b4371d8668712e71236e0f174bdd6d03c04aede")
 		  (:authors
-		   ("Alex Dunn" . "dunn.alex@gmail.com"))
+		   ("Alex Dunn" . "git@garbage.world"))
 		  (:maintainers
-		   ("Alex Dunn" . "dunn.alex@gmail.com"))
-		  (:maintainer "Alex Dunn" . "dunn.alex@gmail.com")
+		   ("Alex Dunn" . "git@garbage.world"))
+		  (:maintainer "Alex Dunn" . "git@garbage.world")
 		  (:keywords "emoji" "company")
-		  (:url . "https://github.com/dunn/company-emoji.git"))])
+		  (:url . "https://codeberg.org/egirl/company-emoji"))])
  (company-emojify .
 		  [(0 1 0 1 -4 20240101 926)
 		   ((emacs
@@ -16974,6 +16974,19 @@
 	     (:maintainer "Adam Beckmeyer" . "adam_git@thebeckmeyers.xyz")
 	     (:keywords "convenience" "languages")
 	     (:url . "https://github.com/non-Jedi/eglot-jl"))])
+ (eglot-luau .
+	     [(0 1 1 1 -4 20240330 42)
+	      ((emacs
+		(29 1)))
+	      "Luau language server integration for eglot" tar
+	      ((:commit . "9ce68bfee3d7270237c0f6f0ac0a147b33c1b8d8")
+	       (:authors
+		("Kenneth Loeffler" . "kenloef@gmail.com"))
+	       (:maintainers
+		("Kenneth Loeffler" . "kenloef@gmail.com"))
+	       (:maintainer "Kenneth Loeffler" . "kenloef@gmail.com")
+	       (:keywords "roblox" "luau" "tools")
+	       (:url . "https://github.com/kennethloeffler/eglot-luau"))])
  (eglot-signature-eldoc-talkative .
 				  [(0 0 5 1 -4 20240209 2034)
 				   ((emacs
@@ -20012,6 +20025,20 @@
 	     (:maintainer "Tomoya Tanjo" . "ttanjo@gmail.com")
 	     (:keywords "eshell" "extensions")
 	     (:url . "https://github.com/tom-tan/esh-help/"))])
+ (eshell-atuin .
+	       [(0 2 0 1 -4 20240312 1546)
+		((emacs
+		  (27 1))
+		 (compat
+		  (29 1 4 1)))
+		"Intergrate eshell with atuin, a shell history tool" tar
+		((:commit . "24ac9fac36ef8a7919e081d22d5a7fa5428a01ba")
+		 (:authors
+		  ("Korytov Pavel" . "thexcloud@gmail.com"))
+		 (:maintainers
+		  ("Korytov Pavel" . "thexcloud@gmail.com"))
+		 (:maintainer "Korytov Pavel" . "thexcloud@gmail.com")
+		 (:url . "https://github.com/SqrtMinusOne/eshell-atuin.el"))])
  (eshell-autojump .
 		  [(0 2 1 -4 20201117 235)
 		   nil "autojump command for Eshell" tar
@@ -20730,7 +20757,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20240330 2339)
+       [(1 15 0 1 -4 20240331 2216)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -20738,7 +20765,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "476f5fbcf1288c5a46a6ba35efe0b8dd1e4dd0ec")
+	((:commit . "004ac4e0cd766d49d48d53270e9c0c080ad9f173")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulations")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -35315,11 +35342,11 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperbole .
-	    [(9 0 2 -1 1 -4 20240331 2046)
+	    [(9 0 2 -1 1 -4 20240331 2145)
 	     ((emacs
 	       (27 1)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
-	     ((:commit . "409d052d937cc44bda2ce968e1611c3e3ede9222")
+	     ((:commit . "32f6c69f8759e5d45af08b8688a7a77d7c72a02b")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
 	      (:maintainers
@@ -46892,7 +46919,7 @@
 			 (:keywords "mu4e" "mail" "convenience")
 			 (:url . "https://gitlab.com/wavexx/mu4e-query-fragments.el"))])
  (mu4e-views .
-	     [(0 3 1 -4 20240331 2133)
+	     [(0 3 1 -4 20240331 2201)
 	      ((emacs
 		(26 1))
 	       (xwidgets-reuse
@@ -46902,7 +46929,7 @@
 	       (esxml
 		(20210323 1102)))
 	      "View emails in mu4e using xwidget-webkit" tar
-	      ((:commit . "f8c9271642c7f6f1c9a64f065bbecb974e69a379")
+	      ((:commit . "13a2b820964b70b348027188753902f7f8315d7a")
 	       (:authors
 		("Boris Glavic" . "lordpretzel@gmail.com"))
 	       (:maintainers
@@ -74132,7 +74159,7 @@
 	      (:keywords "convenience" "usability" "vhdl" "completion")
 	      (:url . "https://github.com/sh-ow/vhdl-capf"))])
  (vhdl-ext .
-	   [(0 4 1 1 -4 20240330 21)
+	   [(0 4 1 1 -4 20240330 58)
 	    ((emacs
 	      (29 1))
 	     (vhdl-ts-mode
@@ -74152,7 +74179,7 @@
 	     (async
 	      (1 9 7)))
 	    "VHDL Extensions" tar
-	    ((:commit . "d745296c304c78e4e21d44f50d98b09da86b2252")
+	    ((:commit . "27a33ba2a72abeffaa6ac471c69e3a550e1e374b")
 	     (:authors
 	      ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 	     (:maintainers
@@ -76035,6 +76062,23 @@
 	       (:maintainer "Christina Whyte" . "kurisu.whyte@gmail.com")
 	       (:keywords "configuration" "profile" "wonderland")
 	       (:url . "http://github.com/kurisuwhyte/emacs-wonderland"))])
+ (wordcount-section .
+		    [(0 1 0 1 -4 20240323 1901)
+		     ((emacs
+		       (28 1))
+		      (compat
+		       (29 1))
+		      (universal-sidecar
+		       (1 5 1)))
+		     "Universal Sidecar Section to show Word Counts" tar
+		     ((:commit . "b67153c880284db0ed9864370b16287fd855fb54")
+		      (:authors
+		       ("Samuel W. Flint" . "me@samuelwflint.com"))
+		      (:maintainers
+		       ("Samuel W. Flint" . "me@samuelwflint.com"))
+		      (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
+		      (:keywords "text" "convenience")
+		      (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
  (wordel .
 	 [(0 0 0 1 -4 20240104 603)
 	  ((emacs
