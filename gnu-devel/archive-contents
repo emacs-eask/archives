@@ -147,16 +147,16 @@
 		  ("Gregory Chamberlain" . "greg@cosine.blue"))
 		 (:commit . "b0b53e198848cd0cef8271cb768963be09d8ab67"))])
  (all .
-      [(1 0 0 20240113 95556)
+      [(1 1 0 20240405 133638)
        ((emacs
-	 (24 1)))
+	 (24 3)))
        "Edit all lines matching a given regexp" tar
        ((:keywords "matching")
 	(:maintainer "Per Abrahamsen" . "per.abrahamsen@gmail.com")
 	(:authors
 	 ("Per Abrahamsen" . "per.abrahamsen@gmail.com"))
 	(:url . "https://elpa.gnu.org/packages/all.html")
-	(:commit . "c0df99f455c82f8718cf4f8f2b64a2a285f31b9a"))])
+	(:commit . "55aa1ac8853d81040aec0b3a2bd43200923146fd"))])
  (altcaps .
 	  [(1 2 0 0 20240117 23410)
 	   ((emacs
@@ -882,7 +882,7 @@
 	     (:url . "https://elpa.gnu.org/packages/darkroom.html")
 	     (:commit . "4496945487130ae1123a9f17b40674ec24c54e8f"))])
  (dash .
-       [(2 19 1 0 20240331 212529)
+       [(2 19 1 0 20240405 94636)
 	((emacs
 	  (24)))
 	"A modern list library for Emacs" tar
@@ -891,7 +891,7 @@
 	 (:maintainer "Magnar Sveen" . "magnars@gmail.com")
 	 (:authors
 	  ("Magnar Sveen" . "magnars@gmail.com"))
-	 (:commit . "e018d7669911a69fe73a02e06019fa01c872dad9"))])
+	 (:commit . "885332bbc4582b08d4f24526250876f3a7569067"))])
  (dbus-codegen .
 	       [(0 1 0 20220306 62546)
 		((cl-lib
@@ -2091,7 +2091,7 @@
 	      (:url . "https://elpa.gnu.org/packages/iterators.html")
 	      (:commit . "babf1d9fe2d6d0259dc8e496eb134fdbc3b4ec33"))])
  (ivy .
-      [(0 14 2 0 20240214 214034)
+      [(0 14 2 0 20240405 203954)
        ((emacs
 	 (24 5)))
        "Incremental Vertical completYon" tar
@@ -2100,7 +2100,7 @@
 	(:maintainer "Basil L. Contovounesios" . "basil@contovou.net")
 	(:authors
 	 ("Oleh Krehel" . "ohwoeowho@gmail.com"))
-	(:commit . "d631cb34198bcabf5847bae59b9d1718305a68f6"))])
+	(:commit . "83d7035b34bac83825a737a11aa1e3199feea17e"))])
  (ivy-avy .
 	  [(0 14 2 0 20240214 214218)
 	   ((emacs
@@ -2930,7 +2930,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "ac4aeb66f331f4c4a430d5556071e33177304c37"))])
  (org .
-      [(9 7 -1 0 20240404 171104)
+      [(9 7 -1 0 20240405 140341)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2939,7 +2939,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "90045c45e27705d39bfd37bc33e34ab114b32717"))])
+	(:commit . "b45b393265490be454736c9e751dab10a8d38cab"))])
  (org-contacts .
 	       [(1 1 0 20230227 141730)
 		((emacs
@@ -3034,7 +3034,7 @@
 		("Noboru Ota" . "me@nobiot.com"))
 	       (:commit . "b49ef0a0a0bd61c912567bcdcc201d4afe110a75"))])
  (org-transclusion .
-		   [(1 3 2 0 20240222 204851)
+		   [(1 3 2 0 20240405 184457)
 		    ((emacs
 		      (27 1))
 		     (org
@@ -3045,7 +3045,7 @@
 		     (:maintainer "Noboru Ota" . "me@nobiot.com")
 		     (:authors
 		      ("Noboru Ota" . "me@nobiot.com"))
-		     (:commit . "baa1e1f1d90235e71a404f26a82bfaa74f3d290a"))])
+		     (:commit . "19f6da95e36dcd555159c98cf6f26f5ea0d1d548"))])
  (org-translate .
 		[(0 1 4 0 20220312 90634)
 		 ((emacs
@@ -4083,7 +4083,7 @@
 		  ("Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr"))
 		 (:commit . "f01307dd7720ed952355db0a552ae555c13ced13"))])
  (swiper .
-	 [(0 14 2 0 20240214 214428)
+	 [(0 14 2 0 20240405 204232)
 	  ((emacs
 	    (24 5))
 	   (ivy
@@ -4094,7 +4094,7 @@
 	   (:maintainer "Basil L. Contovounesios" . "basil@contovou.net")
 	   (:authors
 	    ("Oleh Krehel" . "ohwoeowho@gmail.com"))
-	   (:commit . "aec3260a595be12ca744d2b105f5538b3e466315"))])
+	   (:commit . "3c65e3fc579742133320a83837f59386ab3bb775"))])
  (switchy-window .
 		 [(1 3 0 20230411 180529)
 		  ((emacs
@@ -4140,16 +4140,18 @@
 	    (:url . "https://elpa.gnu.org/packages/systemd.html")
 	    (:commit . "a0a88926a101fadaa269c0ddc3a9b8de80050a31"))])
  (tNFA .
-       [(0 1 1 0 20170804 211606)
+       [(0 1 1 0 20240405 140856)
 	((queue
-	  (0 1)))
+	  (0 1))
+	 (cl-lib
+	  (0 5)))
 	"Tagged non-deterministic finite-state automata" tar
 	((:url . "http://www.dr-qubit.org/emacs.php")
 	 (:keywords "extensions" "matching" "data structures tnfa" "nfa" "dfa" "finite state automata" "automata" "regexp")
 	 (:maintainer "Toby Cubitt" . "toby-predictive@dr-qubit.org")
 	 (:authors
 	  ("Toby Cubitt" . "toby-predictive@dr-qubit.org"))
-	 (:commit . "892122c94889aca6d0453b2f1dbb212ff8919150"))])
+	 (:commit . "83369d2f195a3f9b3eb204d938d3cb01434d24bd"))])
  (tam .
       [(0 1 0 20230920 103516)
        ((emacs
