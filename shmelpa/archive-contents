@@ -11248,7 +11248,7 @@
 	  (:keywords "tools")
 	  (:url . "https://gitlab.com/montanari/cosmo-el"))])
  (counsel .
-	  [(0 14 2 1 -4 20240331 2106)
+	  [(0 14 2 1 -4 20240407 2125)
 	   ((emacs
 	     (24 5))
 	    (ivy
@@ -11256,7 +11256,7 @@
 	    (swiper
 	     (0 14 2)))
 	   "Various completion functions using Ivy" tar
-	   ((:commit . "ee56399de6d7b66b20735111682ca1900c2a44bc")
+	   ((:commit . "871091d6bc2d04afccdd33cabaf88d9f146c787d")
 	    (:authors
 	     ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	    (:maintainers
@@ -26636,33 +26636,33 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 3 2 50 -4 20240405 1509)
+	[(0 3 2 50 -4 20240407 2150)
 	 ((emacs
-	   (25 1))
+	   (26 1))
 	  (compat
-	   (29 1 4 4))
+	   (29 1 4 5))
 	  (closql
-	   (20240125))
+	   (20240405))
 	  (dash
 	   (2 19 1))
 	  (emacsql
 	   (20240124))
 	  (ghub
-	   (20240101))
+	   (20240311))
 	  (let-alist
 	      (1 0 6))
 	  (magit
-	   (20240125))
+	   (20240404))
 	  (markdown-mode
 	   (2 6))
 	  (seq
 	   (2 24))
 	  (transient
-	   (20240201))
+	   (20240405))
 	  (yaml
 	   (0 5 5)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "d228574077695f801e2f488642ea1e021e99a0c1")
+	 ((:commit . "323a6f2ac5c4377ac8fce5e743b24af5605a743d")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
 	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
@@ -56291,11 +56291,11 @@
 		       (:maintainer "Vandrlexay")
 		       (:url . "http://github.com/vandrlexay/emacs-password-genarator"))])
  (password-menu .
-		[(0 1 0 1 -4 20240401 149)
+		[(0 1 0 1 -4 20240407 2241)
 		 ((emacs
 		   (28 1)))
 		 "Password Menu for auth-source secrets" tar
-		 ((:commit . "77be1d6a9f742cb6e2982fc8bdb120f752fb76e5")
+		 ((:commit . "46fb7241f7ee8ff646b9a3ea1b3138031de1c0d6")
 		  (:authors
 		   ("Robert Nadler" . "robert.nadler@gmail.com"))
 		  (:maintainers
@@ -58088,11 +58088,11 @@
 	       (:keywords "convenience" "pocket")
 	       (:url . "https://github.com/lujun9972/pocket-api.el"))])
  (pocket-lib .
-	     [(0 2 -1 1 -4 20240403 2059)
+	     [(0 3 -1 1 -4 20240407 2247)
 	      ((emacs
 		(25 1))
-	       (request
-		(0 2))
+	       (plz
+		(0 7 3))
 	       (dash
 		(2 13 0))
 	       (kv
@@ -58100,7 +58100,7 @@
 	       (s
 		(1 12 0)))
 	      "Library for accessing getpocket.com API" tar
-	      ((:commit . "1e53ce8f205eec514d625c2212ab910ab0758b14")
+	      ((:commit . "b13c899223a15481738c3105f07ee2205dcc937c")
 	       (:authors
 		("Adam Porter" . "adam@alphapapa.net"))
 	       (:maintainers
@@ -58123,7 +58123,7 @@
 		(:maintainer "DarkSun" . "lujun9972@gmail.com")
 		(:keywords "convenience" "pocket"))])
  (pocket-reader .
-		[(0 3 1 -4 20230904 539)
+		[(0 4 -1 1 -4 20240407 2303)
 		 ((emacs
 		   (25 1))
 		  (dash
@@ -58133,19 +58133,17 @@
 		  (peg
 		   (1 0 1))
 		  (pocket-lib
-		   (0 1))
+		   (0 3 -1))
 		  (s
 		   (1 10))
 		  (ov
 		   (1 0 6))
-		  (rainbow-identifiers
-		   (0 2 2))
 		  (org-web-tools
 		   (0 1))
 		  (ht
 		   (2 2)))
 		 "Client for Pocket reading list" tar
-		 ((:commit . "ef6b6892ef13eff3479d79c7f6bc918dd0444e88")
+		 ((:commit . "cb9f6b108ebd3a67f77fb75d85351ffb3b0bb3d4")
 		  (:authors
 		   ("Adam Porter" . "adam@alphapapa.net"))
 		  (:maintainers
@@ -68277,9 +68275,9 @@
 		      (:keywords "convenience" "wp")
 		      (:url . "https://gitlab.com/wavexx/stem-reading-mode.el"))])
  (stgit .
-	[(0 17 1 1 -4 20240218 2150)
+	[(0 17 1 1 -4 20240407 2229)
 	 nil "major mode for StGit interaction" tar
-	 ((:commit . "38ff3c3b2adc6d2c0f2e8fe5cb59f67d701741b3")
+	 ((:commit . "9afe502c74f51ed7d4e794da11c01e25718b0f64")
 	  (:authors
 	   ("David Kågedal" . "davidk@lysator.liu.se"))
 	  (:maintainers
