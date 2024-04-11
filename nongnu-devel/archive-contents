@@ -726,18 +726,16 @@
 		    (:keywords "evil" "vim" "visualstar")
 		    (:commit . "06c053d8f7381f91c53311b1234872ca96ced752"))])
  (exec-path-from-shell .
-		       [(2 1 0 20240216 160639)
+		       [(2 2 0 20240411 85903)
 			((emacs
-			  (24 1))
-			 (cl-lib
-			  (0 6)))
+			  (24 4)))
 			"Get environment variables such as $PATH from the shell" tar
 			((:url . "https://github.com/purcell/exec-path-from-shell")
 			 (:keywords "unix" "environment")
 			 (:maintainer "Steve Purcell" . "steve@sanityinc.com")
 			 (:authors
 			  ("Steve Purcell" . "steve@sanityinc.com"))
-			 (:commit . "d95677ad608c214647b87bc20df1642763e3b400"))])
+			 (:commit . "72ede29a0e0467b3b433e8edbee3c79bab005884"))])
  (flx .
       [(0 6 2 0 20240204 195634)
        ((cl-lib
@@ -1177,7 +1175,7 @@
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:commit . "9cfbe512feb4bf4dd9cd49f0f3e33ffecbe44a67"))])
  (helm-core .
-	    [(3 9 7 0 20240409 143246)
+	    [(3 9 8 0 20240411 171947)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1187,7 +1185,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "9cfbe512feb4bf4dd9cd49f0f3e33ffecbe44a67"))])
+	      (:commit . "6ae44dba0cb72a3a6950cbe36d104db9c69dfb49"))])
  (highlight-parentheses .
 			[(2 2 2 0 20240408 112634)
 			 ((emacs
@@ -1851,7 +1849,7 @@
 	     ("joddie" . "jonxfieldatgmail.com"))
 	    (:commit . "380723b2701cceb75c266440fb8db918f3340d50"))])
  (pdf-tools .
-	    [(1 1 0 0 20240405 131120)
+	    [(1 1 0 0 20240411 170321)
 	     ((emacs
 	       (26 3))
 	      (tablist
@@ -1864,7 +1862,7 @@
 	      (:maintainer "Vedang Manerikar" . "vedang.manerikar@gmail.com")
 	      (:authors
 	       ("Andreas Politz" . "mail@andreas-politz.de"))
-	      (:commit . "a1048bceb2bd3f635437b0f2bfac27cae8c2dabc"))])
+	      (:commit . "94e9f20a78f64a83daf641891923681a52d03919"))])
  (php-mode .
 	   [(1 25 1 0 20240327 1356)
 	    ((emacs
@@ -2087,7 +2085,7 @@
 	      ("Chen Bin" . "chenbin.sh@gmail.com"))
 	     (:commit . "173e4d632c94af6670869729c09bfb8ba484d257"))])
  (slime .
-	[(2 29 1 0 20240407 2430)
+	[(2 29 1 0 20240411 143645)
 	 ((emacs
 	   (24 3))
 	  (macrostep
@@ -2095,7 +2093,7 @@
 	 "Superior Lisp Interaction Mode for Emacs" tar
 	 ((:url . "https://github.com/slime/slime")
 	  (:keywords "languages" "lisp" "slime")
-	  (:commit . "4cee4d3b1549aa4bc784d13ccd841b00b123a1b1"))])
+	  (:commit . "3247e0d8e6bb94b80f02d30e6ec9629270eaaa3f"))])
  (sly .
       [(1 0 43 0 20240408 93150)
        ((emacs
