@@ -6804,7 +6804,7 @@
 			(:keywords "extensions")
 			(:url . "https://github.com/ecraven/celestial-mode-line"))])
  (centaur-tabs .
-	       [(5 1 -4 20230607 1501)
+	       [(5 1 -4 20240411 859)
 		((emacs
 		  (24 4))
 		 (powerline
@@ -6812,12 +6812,13 @@
 		 (cl-lib
 		  (0 5)))
 		"Aesthetic, modern looking customizable tabs plugin" tar
-		((:commit . "0bb1aa18d475319df85f192dce3327802866c3c3")
+		((:commit . "6914d86558f31c2de9db90049627dc5f4c21eb61")
 		 (:authors
 		  ("Emmanuel Bustos" . "ema2159@gmail.com"))
 		 (:maintainers
-		  ("Emmanuel Bustos" . "ema2159@gmail.com"))
-		 (:maintainer "Emmanuel Bustos" . "ema2159@gmail.com")
+		  ("Jen-Chieh Shen" . "jcs090218@gmail.com"))
+		 (:maintainer "Jen-Chieh Shen" . "jcs090218@gmail.com")
+		 (:keywords "frames")
 		 (:url . "https://github.com/ema2159/centaur-tabs"))])
  (centered-cursor-mode .
 		       [(0 5 13 1 -4 20230914 1358)
@@ -19343,7 +19344,7 @@
 	    (:keywords "tools")
 	    (:url . "https://github.com/cfclrk/environ"))])
  (envrc .
-	[(0 7 1 -4 20240410 1237)
+	[(0 8 1 -4 20240411 909)
 	 ((seq
 	   (2))
 	  (emacs
@@ -19351,7 +19352,7 @@
 	  (inheritenv
 	   (0 1)))
 	 "Support for `direnv' that operates buffer-locally" tar
-	 ((:commit . "9c983470d38228f82de65bf23629aef67f807c57")
+	 ((:commit . "b8180d3d89d954aa12853a457545986e746b5eb3")
 	  (:authors
 	   ("Steve Purcell" . "steve@sanityinc.com"))
 	  (:maintainers
@@ -22071,13 +22072,11 @@
 	  (:maintainer "Filipe Silva" . "filipe.silva@gmail.com")
 	  (:url . "https://github.com/ninrod/exato"))])
  (exec-path-from-shell .
-		       [(2 1 1 -4 20240216 1606)
+		       [(2 2 1 -4 20240411 859)
 			((emacs
-			  (24 1))
-			 (cl-lib
-			  (0 6)))
+			  (24 4)))
 			"Get environment variables such as $PATH from the shell" tar
-			((:commit . "d95677ad608c214647b87bc20df1642763e3b400")
+			((:commit . "72ede29a0e0467b3b433e8edbee3c79bab005884")
 			 (:authors
 			  ("Steve Purcell" . "steve@sanityinc.com"))
 			 (:maintainers
@@ -31326,7 +31325,7 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 7 1 -4 20240409 1347)
+       [(3 9 7 1 -4 20240411 731)
 	((helm-core
 	  (3 9 7))
 	 (wfnames
@@ -31334,7 +31333,7 @@
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "3117dfa6fde48a7ffbd47547e9e7501872ad9244")
+	((:commit . "60e504a5c6fc8ce77d9f6ed4795679d6ead31c26")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -31838,13 +31837,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(3 9 7 1 -4 20240409 1432)
+	    [(3 9 7 1 -4 20240411 731)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 7)))
 	     "Development files for Helm" tar
-	     ((:commit . "9cfbe512feb4bf4dd9cd49f0f3e33ffecbe44a67")
+	     ((:commit . "60e504a5c6fc8ce77d9f6ed4795679d6ead31c26")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainers
