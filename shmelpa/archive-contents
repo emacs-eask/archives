@@ -10392,13 +10392,15 @@
 			 (:keywords "project" "convenience")
 			 (:url . "https://github.com/mohkale/compile-multi"))])
  (compiler-explorer .
-		    [(0 3 0 1 -4 20240409 821)
+		    [(0 3 0 1 -4 20240410 1336)
 		     ((emacs
 		       (26 1))
 		      (request
-		       (0 3 0)))
+		       (0 3 0))
+		      (eldoc
+		       (1 15 0)))
 		     "Compiler explorer client (godbolt.org)" tar
-		     ((:commit . "effc59c59069d40db391b0618410b986b51c580c")
+		     ((:commit . "504a9939268c6eb1a7671b749ab387bbd845dfe3")
 		      (:authors
 		       ("Michał Krzywkowski" . "k.michal@zoho.com"))
 		      (:maintainers
