@@ -6945,7 +6945,7 @@
 	      (:maintainer "Andrew Myers" . "am2605@gmail.com")
 	      (:url . "https://github.com/am2605/cfml-mode"))])
  (cfn-mode .
-	   [(1 0 4 1 -4 20240407 804)
+	   [(1 0 4 1 -4 20240414 804)
 	    ((emacs
 	      (26 0))
 	     (f
@@ -6955,7 +6955,7 @@
 	     (yaml-mode
 	      (0 0 13)))
 	    "AWS cloudformation mode" tar
-	    ((:commit . "0f69082f4e997edf5b8cfde5c13f05f0c9b132bb")
+	    ((:commit . "093dbc6f4ba15e82372da3827507797a9edab103")
 	     (:authors
 	      ("William Orr" . "will@worrbase.com"))
 	     (:maintainers
@@ -15950,11 +15950,11 @@
 		    (:keywords "convenience" "hacks")
 		    (:url . "https://sadiqpk.org/projects/dwim-coder-mode.html"))])
  (dwim-shell-command .
-		     [(0 61 1 -4 20240405 1227)
+		     [(0 61 1 -4 20240414 1607)
 		      ((emacs
 			(28 1)))
 		      "Shell commands with DWIM behaviour" tar
-		      ((:commit . "50fbdfa3435b8ef086fe9fee2664f7f95b9d20ab")
+		      ((:commit . "3dc879fa4c473d1f7c0929ebb0cebcbe729553cc")
 		       (:authors
 			("Alvaro Ramirez"))
 		       (:maintainers
@@ -18627,11 +18627,11 @@
 	(:keywords "docs" "libraries" "packages")
 	(:url . "https://github.com/emacscollective/elx"))])
  (emacs-everywhere .
-		   [(0 1 0 1 -4 20240411 1649)
+		   [(0 1 0 1 -4 20240414 1544)
 		    ((emacs
 		      (26 3)))
 		    "System-wide popup windows for quick edits" tar
-		    ((:commit . "d0d7542b321e0362f57b014998aa93271560887b")
+		    ((:commit . "91d72e4c05f16afcce89d7230c1a426b1de8b1ea")
 		     (:authors
 		      ("TEC <https://github.com/tecosaur>"))
 		     (:maintainers
@@ -20787,7 +20787,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20240413 2133)
+       [(1 15 0 1 -4 20240414 1929)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -20795,7 +20795,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "27c9dce3cf49bb3714820d4485bdade8c70434e0")
+	((:commit . "e31bff8cb64d773bbfd9a8e326db8645eaee43fd")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulations")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -25906,6 +25906,19 @@
 		 (nil . "Sébastien Roccaserra (format \"<%s%s@%s.%s>\" \"s\" \"roccaserra\" \"yahoo\" \"com\")"))
 		(:maintainer nil . "Sébastien Roccaserra (format \"<%s%s@%s.%s>\" \"s\" \"roccaserra\" \"yahoo\" \"com\")")
 		(:keywords "lua"))])
+ (flymake-margin .
+		 [(0 1 0 1 -4 20240401 2342)
+		  ((emacs
+		    (29 1)))
+		  "Sets flymake to work with margin instead of fringes" tar
+		  ((:commit . "fe4da9f947c7a11aba331dd77637d471cedbd061")
+		   (:authors
+		    ("Rahul M. Juliato"))
+		   (:maintainers
+		    ("Rahul M. Juliato"))
+		   (:maintainer "Rahul M. Juliato")
+		   (:keywords "languages" "maint" "tools")
+		   (:url . "https://github.com/LionyxML/flymake-margin"))])
  (flymake-markdownlint .
 		       [(0 1 3 1 -4 20220320 1208)
 			((emacs
@@ -35325,11 +35338,11 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperbole .
-	    [(9 0 2 -1 1 -4 20240410 346)
+	    [(9 0 2 -1 1 -4 20240414 1812)
 	     ((emacs
 	       (27 1)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
-	     ((:commit . "bf304d6f100ca26c0be9dc6405b3de4637957cca")
+	     ((:commit . "de692018b3cae9b6d35f9f52fcfee4f7fde8f604")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
 	      (:maintainers
@@ -37039,6 +37052,19 @@
 	   (:maintainer "\"Aleksandar Simic\"" . "asimic@gmail.com")
 	   (:keywords "networking" "tools")
 	   (:url . "http://github.com/dotemacs/ipcalc.el"))])
+ (ipe .
+      [(1 1 1 -4 20240413 2352)
+       ((emacs
+	 (24 4)))
+       "Insert, Update and Delete PAIRs using overlays" tar
+       ((:commit . "853979b08cf55f61a7cd7acc3a17145e86a67a2f")
+	(:authors
+	 (nil . "Brian Kavanagh (concat \"Brians.Emacs\" \"@\" \"gmail.com\")"))
+	(:maintainers
+	 (nil . "Brian Kavanagh (concat \"Brians.Emacs\" \"@\" \"gmail.com\")"))
+	(:maintainer nil . "Brian Kavanagh (concat \"Brians.Emacs\" \"@\" \"gmail.com\")")
+	(:keywords "convenience" "tools")
+	(:url . "https://github.com/BriansEmacs/insert-pair-edit.el"))])
  (iplayer .
 	  [(0 1 1 -4 20240305 1633)
 	   nil "Browse and download BBC TV/radio shows" tar
@@ -39400,13 +39426,13 @@
 		  (:keywords "data")
 		  (:url . "https://github.com/mhayashi1120/Emacs-kaesar"))])
  (kagi .
-       [(0 4 1 -4 20240412 2137)
+       [(0 4 1 -4 20240414 1658)
 	((emacs
 	  (29 1))
 	 (shell-maker
 	  (0 46 1)))
 	"Kagi API integration" tar
-	((:commit . "4e2a15a23d11490cdc002bde1dd2f17a463a3db3")
+	((:commit . "0f96a54818f26f9b6ad7f56ebce031945912e144")
 	 (:authors
 	  ("Bram Schoenmakers" . "me@bramschoenmakers.nl"))
 	 (:maintainers
@@ -39679,7 +39705,7 @@
 	     (:keywords "convenience")
 	     (:url . "https://github.com/conao3/keg.el"))])
  (kele .
-       [(0 4 1 1 -4 20240413 1209)
+       [(0 4 1 1 -4 20240414 2000)
 	((emacs
 	  (28 1))
 	 (async
@@ -39690,6 +39716,8 @@
 	  (0 20 0))
 	 (ht
 	  (2 3))
+	 (memoize
+	  (0))
 	 (plz
 	  (0 7 3))
 	 (s
@@ -39697,7 +39725,7 @@
 	 (yaml
 	  (0 5 1)))
 	"Spritzy Kubernetes cluster management" tar
-	((:commit . "642c415a833a7a2aa1fb577261b1e2ae0c4bbb72")
+	((:commit . "60c1a94dd89eee5eb7c51d887c47e339c492fed4")
 	 (:authors
 	  ("Jonathan Jin" . "me@jonathanj.in"))
 	 (:maintainers
@@ -41792,6 +41820,13 @@
 		(:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
 		(:keywords "matching" "fuzzy")
 		(:url . "https://github.com/jcs-elpa/liquidmetal"))])
+ (lirve .
+	[(1 2 0 1 -4 20240408 531)
+	 ((emacs
+	   (26 1)))
+	 "Learn irregular verbs in English. -*- lexical-binding: t" tar
+	 ((:commit . "45a45e2213dc2b0f48b776cb962c2c9f67c4fef8")
+	  (:url . "https://github.com/tanrax/lirve.el"))])
  (liso-theme .
 	     [(2 1 1 -4 20160410 2029)
 	      nil "Eclectic Dark Theme for GNU Emacs" tar
@@ -47995,6 +48030,18 @@
 		(:maintainer "felko <http://github/felko>")
 		(:keywords "outlines")
 		(:url . "https://github.com/felko/neuron-mode"))])
+ (neut-mode .
+	    [(1 0 0 1 -4 20240407 2322)
+	     ((emacs
+	       (29)))
+	     "A major mode for Neut" tar
+	     ((:commit . "fac0d1bbd3763eb7509249c34d5798f73d59d715")
+	      (:authors
+	       ("vekatze" . "vekatze@icloud.com"))
+	      (:maintainers
+	       ("vekatze" . "vekatze@icloud.com"))
+	      (:maintainer "vekatze" . "vekatze@icloud.com")
+	      (:url . "https://github.com/vekatze/neut-mode"))])
  (never-comment .
 		[(1 0 1 -4 20140104 2207)
 		 nil "Never blocks are comment" tar
@@ -57058,11 +57105,11 @@
 	    (:maintainer "Alexander Miller" . "alexanderm@web.de")
 	    (:url . "https://github.com/Alexander-Miller/pfuture"))])
  (pg .
-     [(0 31 1 -4 20240407 1950)
+     [(0 32 1 -4 20240414 1912)
       ((emacs
 	(28 1)))
       "Emacs Lisp socket-level interface to the PostgreSQL RDBMS" tar
-      ((:commit . "f5e43bc581aeff982655032110cb52f1f300d698")
+      ((:commit . "4b71a337fedf16678e546fa8d1df0ea496762f40")
        (:authors
 	("Eric Marsden" . "eric.marsden@risk-engineering.org"))
        (:maintainers
@@ -62605,6 +62652,38 @@
 		     ("Simen Heggestøyl" . "simenheg@runbox.com"))
 		    (:maintainer "Simen Heggestøyl" . "simenheg@runbox.com")
 		    (:url . "https://github.com/simenheg/restclient-test.el"))])
+ (retraction-viewer .
+		    [(1 0 2 1 -4 20240327 154)
+		     ((emacs
+		       (26 1))
+		      (plz
+		       (0 7)))
+		     "View retraction information for current citation" tar
+		     ((:commit . "1b7030a435786e4c6fd757391c92d9c4f4a3ee62")
+		      (:authors
+		       ("Samuel W. Flint" . "me@samuelwflint.com"))
+		      (:maintainers
+		       ("Samuel W. Flint" . "me@samuelwflint.com"))
+		      (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
+		      (:keywords "bib" "tex" "data")
+		      (:url . "https://git.sr.ht/~swflint/retraction-viewer"))])
+ (retraction-viewer-section .
+			    [(1 0 0 1 -4 20240408 1355)
+			     ((emacs
+			       (25 1))
+			      (retraction-viewer
+			       (1 0 2))
+			      (universal-sidecar
+			       (1 5 1)))
+			     "Show retraction information in the universal-sidecar" tar
+			     ((:commit . "3298fddbf0469d5db9525783de0ca3418e6d507b")
+			      (:authors
+			       ("Samuel W. Flint" . "me@samuelwflint.com"))
+			      (:maintainers
+			       ("Samuel W. Flint" . "me@samuelwflint.com"))
+			      (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
+			      (:keywords "bib" "tex")
+			      (:url . "https://git.sr.ht/~swflint/retraction-viewer"))])
  (retrie .
 	 [(0 0 1 1 -4 20200519 551)
 	  ((emacs
@@ -68997,6 +69076,19 @@
 	       (:maintainer "taku0" . "mxxouy6x3m_github@tatapa.org")
 	       (:keywords "languages" "swift")
 	       (:url . "https://github.com/swift-emacs/swift-mode"))])
+ (swift-ts-mode .
+		[(0 1 1 -4 20240414 949)
+		 ((emacs
+		   (29 1)))
+		 "Major mode for Swift based on tree-sitter" tar
+		 ((:commit . "a62f4d84b836fe208d912c26fb561c93a0c8e296")
+		  (:authors
+		   ("Martin Rechsteiner"))
+		  (:maintainers
+		   ("Martin Rechsteiner"))
+		  (:maintainer "Martin Rechsteiner")
+		  (:keywords "swift" "languages" "tree-sitter")
+		  (:url . "https://github.com/rechsteiner/swift-ts-mode"))])
  (swift3-mode .
 	      [(2 1 1 1 -4 20160918 1250)
 	       ((emacs
@@ -71881,13 +71973,13 @@
 		       (:maintainer "Erick Navarro" . "erick@navarro.io")
 		       (:url . "https://github.com/erickgnavar/tree-sitter-ispell.el"))])
  (tree-sitter-langs .
-		    [(0 12 171 1 -4 20240407 1827)
+		    [(0 12 174 1 -4 20240414 1923)
 		     ((emacs
 		       (25 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
-		     ((:commit . "bc106a00c5efd957a8d159c0d271e9f3193ed367")
+		     ((:commit . "6351acb48a2111cf711f918e457f253a63e1c528")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
 		      (:maintainers
@@ -77112,13 +77204,13 @@
 	     (:keywords "faces" "games" "languages" "ydk" "yugioh" "yu-gi-oh")
 	     (:url . "https://github.com/jacksonrayhamilton/ydk-mode"))])
  (yeetube .
-	  [(2 1 6 1 -4 20240414 1315)
+	  [(2 1 6 1 -4 20240411 1328)
 	   ((emacs
 	     (27 2))
 	    (compat
 	     (29 1 4 2)))
 	   "Scrape YouTube - Play with mpv & Download with yt-dlp |" tar
-	   ((:commit . "ee33aa21e8e24ef34b34cc724170e5ee635f7d23")
+	   ((:commit . "dfcbb8498b30b83d6f97d5777603d5f2dce39298")
 	    (:authors
 	     ("Thanos Apollo" . "public@thanosapollo.org"))
 	    (:maintainers
