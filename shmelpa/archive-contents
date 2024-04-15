@@ -2903,16 +2903,16 @@
 		     (:maintainer "sabof")
 		     (:url . "https://github.com/sabof/auto-auto-indent"))])
  (auto-compile .
-	       [(2 0 0 1 -4 20240326 1303)
+	       [(2 0 0 1 -4 20240415 1533)
 		((emacs
 		  (26 1)))
 		"Automatically compile Emacs Lisp libraries" tar
-		((:commit . "da3771bf93cef704b40b84831c2b94b8c1ae3415")
+		((:commit . "01844064e3f2bb9f109a8a064998baf89a864fbc")
 		 (:authors
-		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
+		  ("Jonas Bernoulli" . "emacs.auto-compile@jonas.bernoulli.dev"))
 		 (:maintainers
-		  ("Jonas Bernoulli" . "jonas@bernoul.li"))
-		 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+		  ("Jonas Bernoulli" . "emacs.auto-compile@jonas.bernoulli.dev"))
+		 (:maintainer "Jonas Bernoulli" . "emacs.auto-compile@jonas.bernoulli.dev")
 		 (:keywords "compile" "convenience" "lisp")
 		 (:url . "https://github.com/emacscollective/auto-compile"))])
  (auto-complete .
@@ -3707,7 +3707,7 @@
 	      (:keywords "hardware")
 	      (:url . "https://github.com/mschuldt/backlight.el"))])
  (backline .
-	   [(0 1 0 1 -4 20240306 1822)
+	   [(0 1 0 1 -4 20240415 1533)
 	    ((emacs
 	      (25 1))
 	     (compat
@@ -3715,12 +3715,12 @@
 	     (outline-minor-faces
 	      (0 1 2)))
 	    "Preserve appearance of outline headings" tar
-	    ((:commit . "1bbfc53a92fbae5a2b4afa34584a008dc9337c3e")
+	    ((:commit . "f070ebb33eb44087e07ff647d8d87d1b27ce40d4")
 	     (:authors
-	      ("Jonas Bernoulli" . "jonas@bernoul.li"))
+	      ("Jonas Bernoulli" . "emacs.backline@jonas.bernoulli.dev"))
 	     (:maintainers
-	      ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	     (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+	      ("Jonas Bernoulli" . "emacs.backline@jonas.bernoulli.dev"))
+	     (:maintainer "Jonas Bernoulli" . "emacs.backline@jonas.bernoulli.dev")
 	     (:keywords "outlines")
 	     (:url . "https://github.com/tarsius/backline"))])
  (backup-each-save .
@@ -4566,18 +4566,18 @@
 		 (:keywords "bibtex")
 		 (:url . "https://github.com/plantarum/bibtex-utils"))])
  (bicycle .
-	  [(0 1 0 1 -4 20240101 2211)
+	  [(0 1 0 1 -4 20240415 1533)
 	   ((emacs
 	     (25 1))
 	    (compat
 	     (29 1 4 1)))
 	   "Cycle outline and code visibility" tar
-	   ((:commit . "998e39095481ced3844efaa8f8f0c5343641df9e")
+	   ((:commit . "0ac08d9946f0da7066a6c2242025b42983c0c2e8")
 	    (:authors
-	     ("Jonas Bernoulli" . "jonas@bernoul.li"))
+	     ("Jonas Bernoulli" . "emacs.bicycle@jonas.bernoulli.dev"))
 	    (:maintainers
-	     ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+	     ("Jonas Bernoulli" . "emacs.bicycle@jonas.bernoulli.dev"))
+	    (:maintainer "Jonas Bernoulli" . "emacs.bicycle@jonas.bernoulli.dev")
 	    (:keywords "outlines")
 	    (:url . "https://github.com/tarsius/bicycle"))])
  (bifocal .
@@ -5232,7 +5232,7 @@
 	"Ergonomic Command Mode for Emacs." tar
 	((:commit . "9e006726be9ac508e0bb0393393abce06f7493f4"))])
  (borg .
-       [(3 3 1 50 -4 20240320 2244)
+       [(3 3 1 50 -4 20240415 1553)
 	((emacs
 	  (27 1))
 	 (epkg
@@ -5240,12 +5240,12 @@
 	 (magit
 	  (3 3 0)))
 	"Assimilate Emacs packages as Git submodules" tar
-	((:commit . "96ea859c8da74f415b76ccc8dd63b27ce0b6b267")
+	((:commit . "dfc5d58b439042a6e323cb342ab7531692d118a0")
 	 (:authors
-	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
+	  ("Jonas Bernoulli" . "emacs.borg@jonas.bernoulli.dev"))
 	 (:maintainers
-	  ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+	  ("Jonas Bernoulli" . "emacs.borg@jonas.bernoulli.dev"))
+	 (:maintainer "Jonas Bernoulli" . "emacs.borg@jonas.bernoulli.dev")
 	 (:keywords "tools")
 	 (:url . "https://github.com/emacscollective/borg"))])
  (borland-blue-theme .
@@ -8383,7 +8383,7 @@
 	    (:keywords "clojure" "interaction")
 	    (:url . "https://github.com/clojure-emacs/clomacs"))])
  (closql .
-	 [(0 1 0 1 -4 20240405 1948)
+	 [(0 1 0 1 -4 20240415 1534)
 	  ((emacs
 	    (25 1))
 	   (compat
@@ -8391,12 +8391,12 @@
 	   (emacsql
 	    (20240124)))
 	  "Store EIEIO objects using EmacSQL" tar
-	  ((:commit . "042a6b3657ceab8fc952b9d2b8190c81307c20cb")
+	  ((:commit . "2bff36edd28c9a0d0c25b545b3837fa874376cc5")
 	   (:authors
-	    ("Jonas Bernoulli" . "jonas@bernoul.li"))
+	    ("Jonas Bernoulli" . "emacs.closql@jonas.bernoulli.dev"))
 	   (:maintainers
-	    ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+	    ("Jonas Bernoulli" . "emacs.closql@jonas.bernoulli.dev"))
+	   (:maintainer "Jonas Bernoulli" . "emacs.closql@jonas.bernoulli.dev")
 	   (:keywords "extensions")
 	   (:url . "https://github.com/emacscollective/closql"))])
  (cloud-theme .
