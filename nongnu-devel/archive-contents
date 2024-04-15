@@ -517,15 +517,15 @@
 	    ("Tim Vaughan" . "plugd@thelambdalab.xyz"))
 	   (:commit . "56bc74e224d9835c41b6e6b68c9705b60e6dbbe2"))])
  (emacsql .
-	  [(3 1 1 50 -4 0 20240206 185218)
+	  [(3 1 1 50 -4 0 20240415 153515)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
 	   ((:url . "https://github.com/magit/emacsql")
-	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+	    (:maintainer "Jonas Bernoulli" . "emacs.emacsql@jonas.bernoulli.dev")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
-	    (:commit . "fdcf44749650b978532e056dc8e108c3c1741ed3"))])
+	    (:commit . "5108c16c5e1d5bfdd41fcc0807241e28886ab763"))])
  (engine-mode .
 	      [(2 2 4 0 20230911 95607)
 	       ((emacs
@@ -537,7 +537,7 @@
 		 ("Harry R. Schwartz" . "hello@harryrschwartz.com"))
 		(:commit . "f9efca3ad600e0c498cff776de5a873b8dd978cb"))])
  (evil .
-       [(1 15 0 0 20240414 205922)
+       [(1 15 0 0 20240415 100933)
 	((emacs
 	  (24 1))
 	 (cl-lib
@@ -548,7 +548,7 @@
 	((:url . "https://github.com/emacs-evil/evil")
 	 (:keywords "emulations")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
-	 (:commit . "f4bacddbf3e56f53dab64e2b071e743cb42e8677"))])
+	 (:commit . "eae05b5a1b2de6fe2d262a9fc0fd24e46bebc2c8"))])
  (evil-anzu .
 	    [(0 2 0 20220911 193944)
 	     ((evil
@@ -989,7 +989,7 @@
 		   ("Jeronimo Pellegrini" . "(j_p@aleph0.info)"))
 		  (:commit . "c634fc2049f1616b772f5e9cb78c6171dcc4c34d"))])
  (git-commit .
-	     [(3 3 0 50 -4 0 20240412 145952)
+	     [(3 3 0 50 -4 0 20240415 155708)
 	      ((emacs
 		(25 1))
 	       (compat
@@ -1003,15 +1003,15 @@
 	      "Edit Git commit messages" tar
 	      ((:url . "https://github.com/magit/magit")
 	       (:keywords "git" "tools" "vc")
-	       (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+	       (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 	       (:authors
-		("Jonas Bernoulli" . "jonas@bernoul.li")
+		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
 		("Florian Ragwitz" . "rafl@debian.org")
 		("Marius Vollmer" . "marius.vollmer@gmail.com"))
-	       (:commit . "da14749d9a98333c55b0cf338ff1b3ad4f221d3e"))])
+	       (:commit . "35ce2ecca2890e7d34c993c2a157f2ebbe2baae9"))])
  (git-modes .
-	    [(1 4 2 0 20240206 184428)
+	    [(1 4 2 0 20240415 153833)
 	     ((emacs
 	       (25 1))
 	      (compat
@@ -1019,12 +1019,12 @@
 	     "Major modes for editing Git configuration files" tar
 	     ((:url . "https://github.com/magit/git-modes")
 	      (:keywords "convenience" "vc" "git")
-	      (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+	      (:maintainer "Jonas Bernoulli" . "emacs.git-modes@jonas.bernoulli.dev")
 	      (:authors
 	       ("Sebastian Wiesner" . "lunaryorn@gmail.com")
 	       ("Rüdiger Sonderfeld" . "ruediger@c-plusplus.net")
-	       ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	      (:commit . "3cc94974c09c43462dfbfbe20396a414352dbb92"))])
+	       ("Jonas Bernoulli" . "emacs.git-modes@jonas.bernoulli.dev"))
+	      (:commit . "52ea2a1281ea9df9b8732fe2add0e6a0c9c2cd11"))])
  (gnu-apl-mode .
 	       [(1 5 1 0 20220404 34102)
 		nil "Emacs mode for GNU APL" tar
@@ -1359,7 +1359,7 @@
 	       (:keywords "languages")
 	       (:commit . "60f23fea669add4a1624573eb6383f4180f5a6c9"))])
  (keycast .
-	  [(1 3 3 0 20240304 191638)
+	  [(1 3 3 0 20240415 153927)
 	   ((emacs
 	     (25 3))
 	    (compat
@@ -1367,10 +1367,10 @@
 	   "Show current command and its binding" tar
 	   ((:url . "https://github.com/tarsius/keycast")
 	    (:keywords "multimedia")
-	    (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+	    (:maintainer "Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev")
 	    (:authors
-	     ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	    (:commit . "ec90b16baa0e9e7eb43d8c38e6cf6dccf75a95de"))])
+	     ("Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev"))
+	    (:commit . "04fa2c65f0ae901ed3015f691ea70f7658ea24b8"))])
  (kotlin-mode .
 	      [(2 0 0 0 20230123 105957)
 	       ((emacs
@@ -1429,7 +1429,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "e28d0a028f702d2dbf9a33ab691c3459268ed35e"))])
  (magit .
-	[(3 3 0 50 -4 0 20240412 145952)
+	[(3 3 0 50 -4 0 20240415 155708)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -1450,14 +1450,14 @@
 	 ((:url . "https://github.com/magit/magit")
 	  (:keywords "git" "tools" "vc")
 	  (:maintainer
-	   ("Jonas Bernoulli" . "jonas@bernoul.li")
+	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 	   ("Kyle Meyer" . "kyle@kyleam.com"))
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
-	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	  (:commit . "da14749d9a98333c55b0cf338ff1b3ad4f221d3e"))])
+	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
+	  (:commit . "35ce2ecca2890e7d34c993c2a157f2ebbe2baae9"))])
  (magit-section .
-		[(3 3 0 50 -4 0 20240412 145952)
+		[(3 3 0 50 -4 0 20240415 155708)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -1469,10 +1469,10 @@
 		 "Sections for read-only buffers" tar
 		 ((:url . "https://github.com/magit/magit")
 		  (:keywords "tools")
-		  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
-		   ("Jonas Bernoulli" . "jonas@bernoul.li"))
-		  (:commit . "da14749d9a98333c55b0cf338ff1b3ad4f221d3e"))])
+		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
+		  (:commit . "35ce2ecca2890e7d34c993c2a157f2ebbe2baae9"))])
  (markdown-mode .
 		[(2 7 -3 0 20240318 130742)
 		 ((emacs
@@ -1728,7 +1728,7 @@
 		    ("Takaaki ISHIKAWA" . "takaxpatieeedotorg"))
 		   (:commit . "e2599a106a26ce5511095e23df4ea04be6687a8a"))])
  (orgit .
-	[(1 9 0 0 20240206 182809)
+	[(1 9 0 0 20240415 154628)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -1740,10 +1740,10 @@
 	 "Support for Org links to Magit buffers" tar
 	 ((:url . "https://github.com/magit/orgit")
 	  (:keywords "hypermedia" "vc")
-	  (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+	  (:maintainer "Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev")
 	  (:authors
-	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	  (:commit . "a57beefa24712430fe6b5016b9273129931a8287"))])
+	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
+	  (:commit . "ca3bf7aa20074e25fee37b71cfef127b93a3dde7"))])
  (p4-16-mode .
 	     [(0 3 0 20231118 161633)
 	      nil "Support for the P4_16 programming language" tar
@@ -2006,7 +2006,7 @@
 	    (:keywords "project" "convenience")
 	    (:commit . "f5fd18aa810c3d3269188cbbd731ddc09006f8f5"))])
  (rust-mode .
-	    [(1 0 5 0 20240329 83604)
+	    [(1 0 5 0 20240415 93602)
 	     ((emacs
 	       (25 1)))
 	     "A major-mode for editing Rust source code" tar
@@ -2015,7 +2015,7 @@
 	      (:maintainer "Mozilla" . "rust-mode@noreply.github.com")
 	      (:authors
 	       ("Mozilla" . "rust-mode@noreply.github.com"))
-	      (:commit . "b2b18aa6c135d9b06242b3d081d94fe0c0cb8e86"))])
+	      (:commit . "e54bbae8c4c2af580b5721ad5ac151f2ad19293e"))])
  (sass-mode .
 	    [(3 0 16 0 20190502 5315)
 	     ((haml-mode
@@ -2462,7 +2462,7 @@
 	      ("Akib Azmain Turja" . "akib@disroot.org"))
 	     (:commit . "5203d9379afaf6703746823a580c804e1dd98e08"))])
  (with-editor .
-	      [(3 3 2 0 20240206 230153)
+	      [(3 3 2 0 20240415 155856)
 	       ((emacs
 		 (25 1))
 		(compat
@@ -2470,10 +2470,10 @@
 	       "Use the Emacsclient as $EDITOR" tar
 	       ((:url . "https://github.com/magit/with-editor")
 		(:keywords "processes" "terminals")
-		(:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+		(:maintainer "Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev")
 		(:authors
-		 ("Jonas Bernoulli" . "jonas@bernoul.li"))
-		(:commit . "5db5f0eb2202f52d44f529fe00654c866bb64eb1"))])
+		 ("Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev"))
+		(:commit . "1b4526453ef6bdee30635f469aa26085c02b1ac1"))])
  (with-simulated-input .
 		       [(3 0 0 20210602 224623)
 			((emacs
