@@ -861,7 +861,7 @@
 		 (:url . "https://elpa.gnu.org/packages/cycle-quotes.html")
 		 (:commit . "c1ef993f8c66fec71b10d70eb7a2cd0c416aaa12"))])
  (dape .
-       [(0 10 0 0 20240416 214045)
+       [(0 10 0 0 20240417 162721)
 	((emacs
 	  (29 1))
 	 (jsonrpc
@@ -869,7 +869,7 @@
 	"Debug Adapter Protocol for Emacs" tar
 	((:url . "https://github.com/svaante/dape")
 	 (:maintainer "Daniel Pettersson" . "daniel@dpettersson.net")
-	 (:commit . "70818c834a6b323314e94e5109a134c226522417"))])
+	 (:commit . "fb6908dbd857628891f6d5296643865e21ca4c01"))])
  (darkroom .
 	   [(0 3 0 20200507 173652)
 	    ((cl-lib
@@ -1145,7 +1145,7 @@
 	    (:url . "https://elpa.gnu.org/packages/docbook.html")
 	    (:commit . "9b7c2dbae38b523442f7c1155bc4e3db16a0c49f"))])
  (drepl .
-	[(0 2 0 20240415 174559)
+	[(0 2 0 20240417 185158)
 	 ((emacs
 	   (29 1))
 	  (comint-mime
@@ -1156,7 +1156,7 @@
 	  (:maintainer "Augusto Stoffel" . "arstoffel@gmail.com")
 	  (:authors
 	   ("Augusto Stoffel" . "arstoffel@gmail.com"))
-	  (:commit . "982672ceabb799ae4a922f03e07ae9a181fc86f2"))])
+	  (:commit . "ac8e9d1cdc34c2d3c3591ac14a82ef58d352181c"))])
  (dts-mode .
 	   [(1 0 0 20221221 75311)
 	    ((emacs
@@ -1259,7 +1259,7 @@
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	      (:commit . "e97aa81f456d517da5c34bee8b7e8d2d5a3570fc"))])
  (eglot .
-	[(1 17 0 20240416 215705)
+	[(1 17 0 20240417 184223)
 	 ((emacs
 	   (26 3))
 	  (jsonrpc
@@ -1282,7 +1282,7 @@
 	  (:maintainer "João Távora" . "joaotavora@gmail.com")
 	  (:authors
 	   ("João Távora" . "joaotavora@gmail.com"))
-	  (:commit . "1606e14c6f1fb5c524dd21ac1b1187b5230f683e"))])
+	  (:commit . "0dbd9ed04660152276696e462359204a45ca933d"))])
  (el-search .
 	    [(1 12 6 1 0 20221221 75346)
 	     ((emacs
@@ -4297,6 +4297,16 @@
 	     (:authors
 	      ("Trevor Edwin Pogue" . "trevor.pogue@gmail.com"))
 	     (:commit . "88604ffb6d0eed3f0153e95a79beb885966d3165"))])
+ (track-changes .
+		[(1 1 0 20240417 105711)
+		 ((emacs
+		   (24)))
+		 "API to react to buffer modifications" tar
+		 ((:maintainer "Stefan Monnier" . "monnier@iro.umontreal.ca")
+		  (:authors
+		   ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
+		  (:url . "https://elpa.gnu.org/packages/track-changes.html")
+		  (:commit . "0dbd9ed04660152276696e462359204a45ca933d"))])
  (tramp .
 	[(2 6 3 0 20240331 120258)
 	 ((emacs
