@@ -541,7 +541,7 @@
 	      (:keywords "octave" "auto-complete" "completion")
 	      (:url . "https://github.com/coldnew/ac-octave"))])
  (ac-php .
-	 [(0 1 0 1 -4 20240222 320)
+	 [(0 1 0 1 -4 20240328 1036)
 	  ((ac-php-core
 	    (2 0))
 	   (auto-complete
@@ -549,7 +549,7 @@
 	   (yasnippet
 	    (0 8 0)))
 	  "Auto Completion source for PHP." tar
-	  ((:commit . "d4378a857aa1c60b34d86557aa10238785d1ac66")
+	  ((:commit . "a69ae4a12e40900619b4e5a1613fd449aef649c3")
 	   (:authors
 	    ("jim" . "xcwenn@qq.com"))
 	   (:maintainers
@@ -558,7 +558,7 @@
 	   (:keywords "completion" "convenience" "intellisense")
 	   (:url . "https://github.com/xcwen/ac-php"))])
  (ac-php-core .
-	      [(2 0 8 1 -4 20240325 1034)
+	      [(2 0 8 1 -4 20240328 1036)
 	       ((emacs
 		 (24 4))
 		(dash
@@ -574,7 +574,7 @@
 		(xcscope
 		 (1 0)))
 	       "The core library of the ac-php" tar
-	       ((:commit . "5b319bc61bb51cbdea3c591f2c6aa315b3e7becf")
+	       ((:commit . "a69ae4a12e40900619b4e5a1613fd449aef649c3")
 		(:authors
 		 ("jim" . "xcwenn@qq.com")
 		 ("Serghei Iakovlev" . "sadhooklay@gmail.com"))
@@ -9842,7 +9842,7 @@
 		      (:maintainer "Alvaro Ramirez")
 		      (:url . "https://github.com/xenodium/company-org-block"))])
  (company-php .
-	      [(0 1 0 1 -4 20240327 608)
+	      [(0 1 0 1 -4 20240328 1036)
 	       ((cl-lib
 		 (0 5))
 		(ac-php-core
@@ -9850,7 +9850,7 @@
 		(company
 		 (0 9)))
 	       "A company back-end for PHP." tar
-	       ((:commit . "0d4893f5d3eba668ed7784d3cb30d7bef4c5db3e")
+	       ((:commit . "a69ae4a12e40900619b4e5a1613fd449aef649c3")
 		(:authors
 		 ("jim" . "xcwenn@qq.com"))
 		(:maintainers
@@ -35323,11 +35323,11 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperbole .
-	    [(9 0 2 -1 1 -4 20240416 412)
+	    [(9 0 2 -1 1 -4 20240417 412)
 	     ((emacs
 	       (27 1)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
-	     ((:commit . "fba4d6b6d4840b3aa47df38bfb6469c988f6b3bb")
+	     ((:commit . "91de35dac59fcbedf9d39bbbd7145fb7f6514b05")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
 	      (:maintainers
@@ -42891,7 +42891,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(9 0 1 1 -4 20240416 830)
+	   [(9 0 1 1 -4 20240417 611)
 	    ((emacs
 	      (27 1))
 	     (dash
@@ -42909,7 +42909,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "e67008b3d00a97840aa0a17f754ede7cf5551c97")
+	    ((:commit . "e379ae512787aee67cf383ee7639fc341104cd27")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainers
