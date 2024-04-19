@@ -8435,11 +8435,13 @@
 		(:maintainer "Jason Milkins" . "jasonm23@gmail.com")
 		(:url . "https://github.com/emacsfodder/emacs-clues-theme"))])
  (cm-mode .
-	  [(1 6 1 -4 20240418 1831)
-	   ((cl-lib
+	  [(1 8 1 -4 20240419 756)
+	   ((emacs
+	     (25 1))
+	    (cl-lib
 	     (0 5)))
 	   "Minor mode for CriticMarkup" tar
-	   ((:commit . "41a11ebe5a4561c2f2706684764503767e23af40")
+	   ((:commit . "7cd1a4db7109260d227103ca8da89ce085c8d7ee")
 	    (:authors
 	     ("Joost Kremers" . "joostkremers@fastmail.fm"))
 	    (:maintainers
@@ -62638,13 +62640,13 @@
 		    (:maintainer "Simen Heggestøyl" . "simenheg@runbox.com")
 		    (:url . "https://github.com/simenheg/restclient-test.el"))])
  (retraction-viewer .
-		    [(1 0 3 1 -4 20240415 1431)
+		    [(1 0 4 1 -4 20240419 837)
 		     ((emacs
 		       (26 1))
 		      (plz
 		       (0 7)))
 		     "View retraction information for current citation" tar
-		     ((:commit . "b2b0b99e3b6fba37ee6d32a4604a6062fd599695")
+		     ((:commit . "87efb813a0dd3b320299d771779e68efe4344cf0")
 		      (:authors
 		       ("Samuel W. Flint" . "me@samuelwflint.com"))
 		      (:maintainers
@@ -62653,7 +62655,7 @@
 		      (:keywords "bib" "tex" "data")
 		      (:url . "https://git.sr.ht/~swflint/retraction-viewer"))])
  (retraction-viewer-section .
-			    [(1 0 0 1 -4 20240415 1431)
+			    [(1 0 0 1 -4 20240419 837)
 			     ((emacs
 			       (25 1))
 			      (retraction-viewer
@@ -62661,7 +62663,7 @@
 			      (universal-sidecar
 			       (1 5 1)))
 			     "Show retraction information in the universal-sidecar" tar
-			     ((:commit . "b2b0b99e3b6fba37ee6d32a4604a6062fd599695")
+			     ((:commit . "87efb813a0dd3b320299d771779e68efe4344cf0")
 			      (:authors
 			       ("Samuel W. Flint" . "me@samuelwflint.com"))
 			      (:maintainers
