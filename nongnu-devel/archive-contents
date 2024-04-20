@@ -242,7 +242,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "33770dec73138909714711b05a63e79da5a19ccd"))])
  (cider .
-	[(1 14 0 -4 0 20240417 133011)
+	[(1 14 0 -4 0 20240420 184451)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -270,7 +270,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "af37662b686a5849ae70b1c273154c15a98e162c"))])
+	  (:commit . "9b977afe9ee5eb2515aa6e6ec9fe79a7a86c39c8"))])
  (clojure-mode .
 	       [(5 19 0 -4 0 20240305 221841)
 		((emacs
@@ -414,26 +414,26 @@
 	   ("Susam Pal" . "susam@susam.net"))
 	  (:commit . "c2dc9fc2886471daff654e12b46a144a4d1361ae"))])
  (diff-ansi .
-	    [(0 2 0 20231221 5704)
+	    [(0 2 0 20240420 110329)
 	     ((emacs
-	       (27 1)))
+	       (29 1)))
 	     "Display diff's using alternative diffing tools" tar
 	     ((:url . "https://codeberg.org/ideasman42/emacs-diff-ansi")
 	      (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 	      (:authors
 	       ("Campbell Barton" . "ideasman42@gmail.com"))
-	      (:commit . "cdae72a4713704692aa4edf3433d6b6df1d84746"))])
+	      (:commit . "c4a32e8bd5575be3e9c561c374831f4f8f3c09cf"))])
  (doc-show-inline .
-		  [(0 1 0 20230808 134400)
+		  [(0 1 0 20240420 104900)
 		   ((emacs
-		     (27 1)))
+		     (29 1)))
 		   "Show doc-strings found in external files" tar
 		   ((:url . "https://codeberg.org/ideasman42/emacs-doc-show-inline")
 		    (:keywords "convenience")
 		    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		    (:authors
 		     ("Campbell Barton" . "ideasman42@gmail.com"))
-		    (:commit . "dc914d79b99fc76694d356ea786eb39aab74649a"))])
+		    (:commit . "8a6d933d72de6af57d0430557c6ac33489674574"))])
  (dockerfile-mode .
 		  [(1 7 0 20240324 61044)
 		   ((emacs
@@ -1198,15 +1198,15 @@
 			   ("Nikolaj Schumacher" . "bugs*nschumde"))
 			  (:commit . "965b18dd69eff4457e17c9e84b3cbfdbfca2ddfb"))])
  (hl-block-mode .
-		[(0 2 0 20230521 230629)
+		[(0 2 0 20240420 112442)
 		 ((emacs
-		   (26 1)))
+		   (29 1)))
 		 "Highlighting nested blocks" tar
 		 ((:url . "https://codeberg.org/ideasman42/emacs-hl-block-mode")
 		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		  (:authors
 		   ("Campbell Barton" . "ideasman42@gmail.com"))
-		  (:commit . "768d92aa93c1894afb6f79feb5eb6b070ab24e4f"))])
+		  (:commit . "036676c3cad45bbc6bebc3686231c4c8f19a2b05"))])
  (hl-column .
 	    [(1 0 0 20221128 50752)
 	     ((emacs
@@ -1252,14 +1252,14 @@
 		("Joseph Turner" . "joseph@ushin.org"))
 	       (:commit . "f162c3eea8429bc9406de53f93463c28df634ac0"))])
  (idle-highlight-mode .
-		      [(1 1 4 0 20240222 225757)
+		      [(1 1 4 0 20240420 110632)
 		       ((emacs
-			 (27 1)))
+			 (29 1)))
 		       "Highlight the word the point is on" tar
 		       ((:url . "https://codeberg.org/ideasman42/emacs-idle-highlight-mode")
 			(:keywords "convenience")
 			(:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-			(:commit . "cfb4efba3bbe1f697f6545bee98c479c3f1081b0"))])
+			(:commit . "0a0e117c87f21e2a1e347d625916f57f7a307118"))])
  (idris-mode .
 	     [(1 1 0 0 20230802 15444)
 	      ((emacs
@@ -1906,13 +1906,13 @@
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	       (:commit . "0163b335a18af0f077a474d4dc6b36e22b5e3274"))])
  (proof-general .
-		[(4 6 -4 0 20240418 90609)
+		[(4 6 -4 0 20240420 125453)
 		 ((emacs
 		   (25 2)))
 		 "A generic Emacs interface for proof assistants" tar
 		 ((:url . "https://proofgeneral.github.io/")
 		  (:maintainer nil . "proof-general-maintainers@groupes.renater.fr")
-		  (:commit . "d30569d8c56629cfa93fcd46e59cb52e863fe77a"))])
+		  (:commit . "7a28fa207a5992224c32abc988f936596f13a6b2"))])
  (prop-menu .
 	    [(0 1 2 0 20150728 51803)
 	     ((emacs
@@ -1927,14 +1927,14 @@
 	       ("David Christiansen" . "david@davidchristiansen.dk"))
 	      (:commit . "50b102c1c0935fd3e0c465feed7f27d66b21cdf3"))])
  (racket-mode .
-	      [(1 0 20240416 91625)
+	      [(1 0 20240419 71343)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
 	       ((:url . "https://www.racket-mode.com/")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com"))
-		(:commit . "7f2a6a8f2c21b45576302102b68024e9e5ba5282"))])
+		(:commit . "0be7ba95815bd598d0d8b2684b11f1b4a3494ec3"))])
  (rainbow-delimiters .
 		     [(2 1 5 0 20230830 160022)
 		      nil "Highlight brackets according to their depth" tar
@@ -2046,15 +2046,15 @@
 	       (:keywords "languages")
 	       (:commit . "4c6d636b86e3bb1d95de819dc48dda92abdfbcf4"))])
  (scroll-on-drag .
-		 [(0 1 0 20230313 54616)
+		 [(0 1 0 20240420 110034)
 		  ((emacs
-		    (26 2)))
+		    (29 1)))
 		  "Interactive scrolling" tar
 		  ((:url . "https://codeberg.org/ideasman42/emacs-scroll-on-drag")
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
-		   (:commit . "179c2acecc48d3ceca4b449b2a225d684002bb32"))])
+		   (:commit . "e752d84a9cb6371b147cbaee5da7939ccd900480"))])
  (scroll-on-jump .
 		 [(0 2 0 20240206 110307)
 		  ((emacs
