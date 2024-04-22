@@ -12425,13 +12425,13 @@
 	   (:keywords "files" "convenience" "buffer switching")
 	   (:url . "https://github.com/martinp26/cycbuf"))])
  (cycle-at-point .
-		 [(0 1 1 -4 20240421 912)
+		 [(0 1 1 -4 20240421 2355)
 		  ((emacs
 		    (29 1))
 		   (recomplete
 		    (0 2)))
 		  "Cycle (rotate) the thing under the cursor" tar
-		  ((:commit . "082d7aa7a472db02ff2d7723d620ecdee2abff5a")
+		  ((:commit . "c7e10161abba951b64a4e00d41d0b0990aac64e6")
 		   (:authors
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainers
@@ -19191,7 +19191,7 @@
 	  (:keywords "citations" "reference" "bibtex" "reftex")
 	  (:url . "http://github.com/dimalik/empos/"))])
  (empv .
-       [(4 1 0 1 -4 20240417 13)
+       [(4 2 0 1 -4 20240421 2347)
 	((emacs
 	  (28 1))
 	 (s
@@ -19199,7 +19199,7 @@
 	 (compat
 	  (29 1 4 4)))
 	"A multimedia player/manager, YouTube interface" tar
-	((:commit . "19c30cf7503ecab7d5e2227bd393f27489e267a6")
+	((:commit . "b5d22eb036edcea7f3f9949229e20795821c1eda")
 	 (:authors
 	  ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
 	 (:maintainers
@@ -19920,6 +19920,19 @@
 		  ("Chris Barrett" . "chris.d.barrett@me.com"))
 		 (:maintainer "Chris Barrett" . "chris.d.barrett@me.com")
 		 (:keywords "tools" "tests" "convenience"))])
+ (ert-results .
+	      [(1 0 6 1 -4 20240108 1358)
+	       ((emacs
+		 (24 1)))
+	       "Filter ERT test results display" tar
+	       ((:commit . "32200a195f68c25a013497329d85ae0703ab475d")
+		(:authors
+		 ("Robert Weiner" . "rsw@gnu.org"))
+		(:maintainers
+		 ("Robert Weiner" . "rsw@gnu.org"))
+		(:maintainer "Robert Weiner" . "rsw@gnu.org")
+		(:keywords "lisp" "maint" "tools")
+		(:url . "https://github.com/rswgnu/ert-results"))])
  (ert-runner .
 	     [(0 7 0 1 -4 20231110 1358)
 	      ((s
