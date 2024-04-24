@@ -3202,7 +3202,7 @@
 	       (:url . "https://elpa.gnu.org/packages/phpinspect.html")
 	       (:commit . "4d9907fedc77fd42300888ad600dcb0a8ea1f121"))])
  (phps-mode .
-	    [(0 4 48 0 20240215 72135)
+	    [(0 4 49 0 20240424 65247)
 	     ((emacs
 	       (26)))
 	     "Major mode for PHP with code intelligence" tar
@@ -3211,7 +3211,7 @@
 	      (:maintainer "Christian Johansson" . "christian@cvj.se")
 	      (:authors
 	       ("Christian Johansson" . "christian@cvj.se"))
-	      (:commit . "e7e5cdacf06ab9e7a8ff60271569a8ee5c81ffb5"))])
+	      (:commit . "98fdd10d6299dfc5ad24cc214c9eaa0fdba946e4"))])
  (pinentry .
 	   [(0 1 0 20231126 141402)
 	    nil "GnuPG Pinentry server implementation" tar
@@ -4624,7 +4624,7 @@
 	   ("Justin Burkett" . "justin@burkett.cc"))
 	  (:commit . "170e968c6a46a572b30c52c1b038232d418734cc"))])
  (verilog-mode .
-	       [(2024 3 1 121933719 0 20240301 121107)
+	       [(2024 3 1 121933719 0 20240314 104026)
 		nil "major mode for editing verilog source in Emacs" tar
 		((:url . "https://www.veripool.org")
 		 (:keywords "languages")
@@ -4634,9 +4634,9 @@
 		 (:authors
 		  ("Michael McNamara" . "mac@verilog.com")
 		  ("Wilson Snyder" . "wsnyder@wsnyder.org"))
-		 (:commit . "b2d18ff944ae374fa03579ca2574f1fba8ae2e4b"))])
+		 (:commit . "3776539152711ca364d94f0d4f8166d6f67eb413"))])
  (vertico .
-	  [(1 7 0 20240322 111445)
+	  [(1 7 0 20240423 45133)
 	   ((emacs
 	     (27 1))
 	    (compat
@@ -4647,7 +4647,7 @@
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	    (:commit . "68e51fda552a2f91caab69e83564bc91275b09b1"))])
+	    (:commit . "c5ab3ddc65909dc8bc5c6dd9d275b8912729e265"))])
  (vertico-posframe .
 		   [(0 7 7 0 20240202 84736)
 		    ((emacs
@@ -4691,7 +4691,8 @@
 	       ((:maintainer "Stefan Monnier" . "monnier@iro.umontreal.ca")
 		(:authors
 		 ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
-		(:url . "https://elpa.gnu.org/packages/visual-fill.html"))])
+		(:url . "https://elpa.gnu.org/packages/visual-fill.html")
+		(:commit . "e10f6409880e464fce191ce61d579ba93559b206"))])
  (vlf .
       [(1 7 2 0 20231016 224412)
        ((emacs
@@ -4702,7 +4703,7 @@
 	(:url . "https://elpa.gnu.org/packages/vlf.html")
 	(:commit . "6192573ee088079bf1f81abc2bf2a370a5a92397"))])
  (vundo .
-	[(2 2 0 0 20240219 110913)
+	[(2 3 0 0 20240420 153413)
 	 ((emacs
 	   (28 1)))
 	 "Visual undo tree" tar
@@ -4711,7 +4712,7 @@
 	  (:maintainer "Yuan Fu" . "casouri@gmail.com")
 	  (:authors
 	   ("Yuan Fu" . "casouri@gmail.com"))
-	  (:commit . "cf440667b4ece07a74e68dc84f029779f1ddfc24"))])
+	  (:commit . "4c01db9c011b7b4ca4ef5da338cdc6ea45aac7a5"))])
  (wcheck-mode .
 	      [(2021 0 20220101 81620)
 	       nil "General interface for text checkers" tar
@@ -4719,17 +4720,19 @@
 		(:keywords "text" "spell" "check" "languages" "ispell")
 		(:maintainer "Teemu Likonen" . "tlikonen@iki.fi")
 		(:authors
-		 ("Teemu Likonen" . "tlikonen@iki.fi")))])
+		 ("Teemu Likonen" . "tlikonen@iki.fi"))
+		(:commit . "4a2439ed486342d825259b62cde2e73ef34dbc04"))])
  (wconf .
 	[(0 2 1 0 20201202 220257)
 	 ((emacs
 	   (24 4)))
 	 "Minimal window layout manager" tar
 	 ((:url . "https://github.com/ilohmar/wconf")
+	  (:keywords "windows" "frames" "layout")
 	  (:maintainer "Ingo Lohmar" . "i.lohmar@gmail.com")
 	  (:authors
 	   ("Ingo Lohmar" . "i.lohmar@gmail.com"))
-	  (:keywords "windows" "frames" "layout"))])
+	  (:commit . "447e0b33a3ccf9e0ecb577ad3b880cb8ee1c788b"))])
  (web-server .
 	     [(0 1 2 0 20210811 22503)
 	      ((emacs
@@ -4741,17 +4744,19 @@
 	       (:keywords "http" "server" "network")
 	       (:maintainer "Eric Schulte" . "schulte.eric@gmail.com")
 	       (:authors
-		("Eric Schulte" . "schulte.eric@gmail.com")))])
+		("Eric Schulte" . "schulte.eric@gmail.com"))
+	       (:commit . "5dbb1f956e7efe2065e66e3d95fe74c8b8697b86"))])
  (webfeeder .
 	    [(1 1 2 0 20210605 74155)
 	     ((emacs
 	       (25 1)))
 	     "Build RSS and Atom webfeeds from HTML files" tar
 	     ((:url . "https://gitlab.com/Ambrevar/emacs-webfeeder")
+	      (:keywords "news" "hypermedia" "blog" "feed" "rss" "atom")
 	      (:maintainer "Pierre Neidhardt" . "mail@ambrevar.xyz")
 	      (:authors
 	       ("Pierre Neidhardt" . "mail@ambrevar.xyz"))
-	      (:keywords "news" "hypermedia" "blog" "feed" "rss" "atom"))])
+	      (:commit . "6037848ee495a67510d8b43f1fbe319b76dbd859"))])
  (websocket .
 	    [(1 15 0 20230808 230535)
 	     ((cl-lib
@@ -4764,7 +4769,7 @@
 	       ("Andrew Hyatt" . "ahyatt@gmail.com"))
 	      (:commit . "40c208eaab99999d7c1e4bea883648da24c03be3"))])
  (which-key .
-	    [(3 6 0 0 20240327 214329)
+	    [(3 6 0 0 20240423 92028)
 	     ((emacs
 	       (24 4)))
 	     "Display available keybindings in popup" tar
@@ -4772,7 +4777,7 @@
 	      (:authors
 	       ("Justin Burkett" . "justin@burkett.cc"))
 	      (:url . "https://elpa.gnu.org/packages/which-key.html")
-	      (:commit . "5111e377a2ae9881545710a9331f6788a26cdcbd"))])
+	      (:commit . "ba323d6712d54806aa82847d017e94eafcf99d6f"))])
  (window-commander .
 		   [(3 0 2 0 20240314 125442)
 		    ((emacs
@@ -4790,10 +4795,11 @@
 	      (25)))
 	    "Helper functions for window manipulation." tar
 	    ((:url . "https://gitlab.com/ambrevar/windower")
+	     (:keywords "convenience" "tools")
 	     (:maintainer "Pierre Neidhardt" . "mail@ambrevar.xyz")
 	     (:authors
 	      ("Pierre Neidhardt" . "mail@ambrevar.xyz"))
-	     (:keywords "convenience" "tools"))])
+	     (:commit . "63b94d6436c2f7ef8018783a10a3579010154022"))])
  (windresize .
 	     [(0 1 0 20221221 82616)
 	      nil "Resize windows interactively" tar
@@ -4840,14 +4846,14 @@
 	    (:url . "https://elpa.gnu.org/packages/wpuzzle.html")
 	    (:commit . "cc5e4c53177d01ab160e4f42e4e66410aeb69419"))])
  (wrap-search .
-	      [(4 12 10 0 20231002 184917)
+	      [(4 14 10 0 20240409 112534)
 	       nil "wrapped, non-incremental search" tar
 	       ((:url . "https://dataswamp.org/~incal/emacs-init/wrap-search.el")
 		(:keywords "matching")
 		(:maintainer "Emanuel Berg" . "incal@dataswamp.org")
 		(:authors
 		 ("Emanuel Berg" . "incal@dataswamp.org"))
-		(:commit . "12a50aa425278d5982364b0f97e7a9f13ac52fe9"))])
+		(:commit . "982f8941af5993721bc899de2efccb4026276441"))])
  (xclip .
 	[(1 11 0 20221221 82941)
 	 nil "Copy&paste GUI clipboard from text terminal" tar
@@ -4869,7 +4875,7 @@
 	  ("Yuan Fu" . "casouri@gmail.com"))
 	 (:commit . "32735a2a631fc2957b79cc65ad851546b7d572df"))])
  (xelb .
-       [(0 18 0 20240212 225455)
+       [(0 18 0 20240415 160551)
 	((emacs
 	  (27 1)))
 	"X protocol Emacs Lisp Binding" tar
@@ -4881,7 +4887,7 @@
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:authors
 	  ("Chris Feng" . "chris.w.feng@gmail.com"))
-	 (:commit . "67ae522f491f636d917d428106572d7cf30cbc47"))])
+	 (:commit . "cd3c1ca8c842765321892f424818acf37885b148"))])
  (xpm .
       [(1 0 5 0 20230911 4618)
        ((cl-lib
@@ -4896,7 +4902,7 @@
 	 ("Thien-Thi Nguyen" . "ttn@gnu.org"))
 	(:commit . "72f43a16fdc629e3d7bf90bf6cdebdaff97a95c7"))])
  (xr .
-     [(1 25 0 20240123 121048)
+     [(1 25 0 20240401 74532)
       ((emacs
 	(26 1)))
       "Convert string regexp to rx notation" tar
@@ -4905,14 +4911,14 @@
        (:maintainer "Mattias Engdegård" . "mattiase@acm.org")
        (:authors
 	("Mattias Engdegård" . "mattiase@acm.org"))
-       (:commit . "7a7035cdc136a7e79fd0ca2ada8b4ca1773e8ba6"))])
+       (:commit . "71c748ed7c6cf42f5c8421feed6e3d9b0aa42119"))])
  (xref .
        [(1 6 3 0 20240328 32323)
 	((emacs
 	  (26 1)))
 	"Cross-referencing commands" tar
 	((:url . "https://elpa.gnu.org/packages/xref.html")
-	 (:commit . "f1fe13ea057237f5426c93876488cb95be86156c"))])
+	 (:commit . "3776539152711ca364d94f0d4f8166d6f67eb413"))])
  (xref-union .
 	     [(0 2 0 0 20231225 162837)
 	      ((emacs
@@ -4924,7 +4930,7 @@
 		("Philip Kaludercic" . "philipk@posteo.net"))
 	       (:commit . "2bb88d0dc526177c3c6612d6585cee6b2c57803a"))])
  (yasnippet .
-	    [(0 14 1 0 20240308 31533)
+	    [(0 14 1 0 20240406 91451)
 	     ((cl-lib
 	       (0 5))
 	      (emacs
@@ -4933,7 +4939,7 @@
 	     ((:url . "http://github.com/joaotavora/yasnippet")
 	      (:keywords "convenience" "emulation")
 	      (:maintainer "Noam Postavsky" . "npostavs@gmail.com")
-	      (:commit . "33587a8551b8f6991b607d3532062a384c010ce1"))])
+	      (:commit . "eb5ba2664c3a68ae4a53bb38b85418dd131b208f"))])
  (yasnippet-classic-snippets .
 			     [(1 0 2 0 20221221 83103)
 			      ((yasnippet
