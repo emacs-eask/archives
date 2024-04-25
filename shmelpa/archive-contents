@@ -31338,7 +31338,7 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 8 1 -4 20240418 1057)
+       [(3 9 8 1 -4 20240425 825)
 	((helm-core
 	  (3 9 8))
 	 (wfnames
@@ -31346,7 +31346,7 @@
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "ff43aedfe0391221459f1f8c54db8e6a443ae7f6")
+	((:commit . "753563ee010e865f3f0fd9d491c2052eb1347fd8")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -40641,19 +40641,15 @@
 		 (:maintainer "Henry Newcomer" . "a.cliche.email@gmail.com")
 		 (:url . "https://github.com/HenryNewcomer/laguna-theme"))])
  (lambdapi-mode .
-		[(1 0 1 -4 20240329 1056)
-		 ((emacs
-		   (26 1))
-		  (eglot
-		   (1 5))
+		[(1 1 0 1 -4 20240425 941)
+		 ((eglot
+		   (1 6))
 		  (math-symbol-lists
 		   (1 2 1))
 		  (highlight
 		   (20190710 1527)))
-		 "A major mode for editing Lambdapi source code" tar
-		 ((:commit . "e30b9790784ee97dec66ac5a4420084700107b27")
-		  (:maintainers
-		   ("Deducteam" . "dedukti-dev@inria.fr"))
+		 "A major mode to edit Lambdapi files." tar
+		 ((:commit . "a4bc3a492ff542be2989b545362cd98ed38412e1")
 		  (:maintainer "Deducteam" . "dedukti-dev@inria.fr")
 		  (:keywords "languages")
 		  (:url . "https://github.com/Deducteam/lambdapi"))])
