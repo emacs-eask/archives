@@ -10395,15 +10395,19 @@
 			 (:keywords "project" "convenience")
 			 (:url . "https://github.com/mohkale/compile-multi"))])
  (compiler-explorer .
-		    [(0 4 0 1 -4 20240424 1700)
+		    [(0 4 0 1 -4 20240425 2138)
 		     ((emacs
 		       (26 1))
 		      (request
 		       (0 3 0))
 		      (eldoc
-		       (1 15 0)))
+		       (1 15 0))
+		      (map
+		       (3 3 1))
+		      (seq
+		       (2 24)))
 		     "Compiler explorer client (godbolt.org)" tar
-		     ((:commit . "9d207b8e4a4cc2f1b085e3743804f838c540194a")
+		     ((:commit . "fcf17db156877e35be589dbc82dd6d5736038961")
 		      (:authors
 		       ("Michał Krzywkowski" . "k.michal@zoho.com"))
 		      (:maintainers
@@ -17485,11 +17489,11 @@
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
  (eldev .
-	[(1 9 2 -4 20240424 2103)
+	[(1 9 2 -4 20240425 1957)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
-	 ((:commit . "c5180b98ea386b22d3e1a419d6f0d4367022c115")
+	 ((:commit . "24b9e568ca9c92192bd820d712fffd47017c506c")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainers
