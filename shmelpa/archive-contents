@@ -30115,7 +30115,7 @@
 	  (:keywords "comm" "convenience")
 	  (:url . "https://github.com/antonhibl/gptai"))])
  (gptel .
-	[(0 8 5 1 -4 20240428 314)
+	[(0 8 5 1 -4 20240428 1616)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -30123,7 +30123,7 @@
 	  (compat
 	   (29 1 4 1)))
 	 "Interact with ChatGPT or other LLMs" tar
-	 ((:commit . "306fe3bd8c2933b48a871976161a7030c7e5b9f8")
+	 ((:commit . "b2985392f4c0594f30d848ea9954f02dae83a79f")
 	  (:authors
 	   ("Karthik Chikmagalur"))
 	  (:maintainers
@@ -43529,7 +43529,7 @@
 	       (:keywords "languages")
 	       (:url . "https://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20240426 2118)
+	[(3 3 0 50 -4 20240428 1821)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -43539,7 +43539,7 @@
 	  (git-commit
 	   (20240123))
 	  (magit-section
-	   (20240114))
+	   (20240428))
 	  (seq
 	   (2 24))
 	  (transient
@@ -43547,7 +43547,7 @@
 	  (with-editor
 	   (20240101)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "49ba535f526266b69fcaf7442acfa59ad8473caf")
+	 ((:commit . "058ca81497c2400db45644bfe3920bcaac21f1f1")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -43846,7 +43846,7 @@
 		      (:keywords "magit" "vc")
 		      (:url . "http://github.com/jtamagnan/magit-reviewboard"))])
  (magit-section .
-		[(3 3 0 50 -4 20240426 1325)
+		[(3 3 0 50 -4 20240428 800)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -43854,7 +43854,7 @@
 		  (dash
 		   (20221013)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "fef45b274ecb4dc0448bd34dac26f7eaff621e59")
+		 ((:commit . "f5189a6a3e92e010bbe21072c942a18b287a44ea")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
@@ -45811,6 +45811,21 @@
 	      (:maintainer "Henrik Lissner" . "contact@henrik.io")
 	      (:keywords "languages" "mips" "assembly")
 	      (:url . "https://github.com/hlissner/emacs-mips-mode"))])
+ (mise .
+       [(0 1 0 1 -4 20240426 217)
+	((emacs
+	  (29 1))
+	 (inheritenv
+	  (0 2)))
+	"Support for `mise' cli" tar
+	((:commit . "bf73e113b5f7d4ec42b49e4ebc5c9fc25494aaf8")
+	 (:authors
+	  ("liuyinz" . "liuyinz95@gmail.com"))
+	 (:maintainers
+	  ("liuyinz" . "liuyinz95@gmail.com"))
+	 (:maintainer "liuyinz" . "liuyinz95@gmail.com")
+	 (:keywords "tools" "processes")
+	 (:url . "https://github.com/liuyinz/mise.el"))])
  (mistty .
 	 [(1 0 9 1 -4 20231122 2029)
 	  ((emacs
@@ -54138,6 +54153,23 @@
 		  (:maintainer "Adam Porter" . "adam@alphapapa.net")
 		  (:keywords "hypermedia" "outlines" "org" "web")
 		  (:url . "http://github.com/alphapapa/org-web-tools"))])
+ (org-web-track .
+		[(0 0 2 1 -4 20240424 756)
+		 ((emacs
+		   (29 1))
+		  (request
+		   (0 3 0))
+		  (enlive
+		   (0 0 1)))
+		 "Web data tracking framework in org mode" tar
+		 ((:commit . "92e97112aa63cbe14f7727b157eb3c11239bf86c")
+		  (:authors
+		   ("p-snow" . "public@p-snow.org"))
+		  (:maintainers
+		   ("p-snow" . "public@p-snow.org"))
+		  (:maintainer "p-snow" . "public@p-snow.org")
+		  (:keywords "org" "agenda" "web" "hypermedia")
+		  (:url . "https://github.com/p-snow/org-web-track"))])
  (org-wild-notifier .
 		    [(0 5 0 1 -4 20240325 744)
 		     ((alert
@@ -57830,6 +57862,19 @@
 		  (:maintainer "Juergen Hoetzel" . "juergen@hoetzel.info")
 		  (:keywords "languages")
 		  (:url . "https://github.com/juergenhoetzel/pkgbuild-mode"))])
+ (pkl-mode .
+	   [(1 0 0 1 -4 20240422 1529)
+	    ((emacs
+	      (24 3)))
+	    "Major mode for editing Pkl files" tar
+	    ((:commit . "c57fe374a9c57eee6432d0b449e410ab8dc40a89")
+	     (:authors
+	      ("sin-ack" . "sin-ack@protonmail.com"))
+	     (:maintainers
+	      ("sin-ack" . "sin-ack@protonmail.com"))
+	     (:maintainer "sin-ack" . "sin-ack@protonmail.com")
+	     (:keywords "languages" "pkl")
+	     (:url . "https://github.com/sin-ack/pkl-mode"))])
  (plain-org-wiki .
 		 [(0 1 0 1 -4 20201217 1027)
 		  ((emacs
@@ -64079,6 +64124,19 @@
 	      ((:commit . "4c6d636b86e3bb1d95de819dc48dda92abdfbcf4")
 	       (:keywords "languages")
 	       (:url . "https://github.com/hvesalai/emacs-scala-mode"))])
+ (scala-repl .
+	     [(0 1 0 1 -4 20240427 1456)
+	      ((emacs
+		(29 1)))
+	      "Scala REPL Mode" tar
+	      ((:commit . "679bdf663e0b32a5a285d6f98daa2e3d5de60289")
+	       (:authors
+		("Daian YUE" . "sheepduke@gmail.com"))
+	       (:maintainers
+		("Daian YUE" . "sheepduke@gmail.com"))
+	       (:maintainer "Daian YUE" . "sheepduke@gmail.com")
+	       (:keywords "languages" "tools")
+	       (:url . "https://github.com/sheepduke/scala-repl.el"))])
  (scala-ts-mode .
 		[(1 0 0 1 -4 20240420 1150)
 		 ((emacs
@@ -73213,13 +73271,13 @@
 				 (:keywords "convenience" "docs" "languages")
 				 (:url . "https://github.com/grettke/universal-emotions-emoticons"))])
  (universal-sidecar .
-		    [(1 5 2 1 -4 20240130 2120)
+		    [(1 6 0 1 -4 20240428 1852)
 		     ((emacs
 		       (26 1))
 		      (magit-section
 		       (3 0 0)))
 		     "A universal sidecar buffer" tar
-		     ((:commit . "d7a30e53fdda44a07160ef438ae1068178f23785")
+		     ((:commit . "4c78015d10caba9c700e6e6b582004ae1c1d5344")
 		      (:authors
 		       ("Samuel W. Flint" . "me@samuelwflint.com"))
 		      (:maintainers
@@ -73227,13 +73285,13 @@
 		      (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
 		      (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
  (universal-sidecar-citeproc .
-			     [(1 0 0 1 -4 20240115 1727)
+			     [(1 0 0 1 -4 20240428 1852)
 			      ((emacs
 				(28 1))
 			       (citeproc
 				(0 9 4)))
 			      "Centralise Citeproc Support for Universal Sidecar" tar
-			      ((:commit . "9050eaea7946e613a4b9ecd9dd1462614699edb1")
+			      ((:commit . "4c78015d10caba9c700e6e6b582004ae1c1d5344")
 			       (:authors
 				("Samuel W. Flint" . "me@samuelwflint.com"))
 			       (:maintainers
@@ -73242,7 +73300,7 @@
 			       (:keywords "bib" "convenience")
 			       (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
  (universal-sidecar-elfeed-related .
-				   [(1 0 2 1 -4 20240115 1727)
+				   [(1 0 2 1 -4 20240428 1852)
 				    ((emacs
 				      (25 1))
 				     (universal-sidecar
@@ -73252,7 +73310,7 @@
 				     (elfeed
 				      (3 4 1)))
 				    "Related Papers Sidecar Section for Elfeed" tar
-				    ((:commit . "9050eaea7946e613a4b9ecd9dd1462614699edb1")
+				    ((:commit . "4c78015d10caba9c700e6e6b582004ae1c1d5344")
 				     (:authors
 				      ("Samuel W. Flint" . "me@samuelwflint.com"))
 				     (:maintainers
@@ -73260,7 +73318,7 @@
 				     (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
 				     (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
  (universal-sidecar-elfeed-score .
-				 [(0 5 0 1 -4 20240115 1727)
+				 [(0 5 0 1 -4 20240428 1852)
 				  ((emacs
 				    (25 1))
 				   (universal-sidecar
@@ -73270,7 +73328,7 @@
 				   (elfeed-score
 				    (1 2 6)))
 				  "Show Elfeed Score information in sidecar" tar
-				  ((:commit . "9050eaea7946e613a4b9ecd9dd1462614699edb1")
+				  ((:commit . "4c78015d10caba9c700e6e6b582004ae1c1d5344")
 				   (:authors
 				    ("Samuel W. Flint" . "me@samuelwflint.com"))
 				   (:maintainers
@@ -73278,7 +73336,7 @@
 				   (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
 				   (:url . "https://git.sr.ht/~swflint/emacs-universal-sidecar"))])
  (universal-sidecar-roam .
-			 [(1 0 4 1 -4 20240115 1727)
+			 [(1 0 4 1 -4 20240428 1852)
 			  ((emacs
 			    (26 1))
 			   (universal-sidecar
@@ -73286,7 +73344,7 @@
 			   (org-roam
 			    (2 0 0)))
 			  "Integrate universal-sidecar and org-roam" tar
-			  ((:commit . "9050eaea7946e613a4b9ecd9dd1462614699edb1")
+			  ((:commit . "4c78015d10caba9c700e6e6b582004ae1c1d5344")
 			   (:authors
 			    ("Samuel W. Flint" . "me@samuelwflint.com"))
 			   (:maintainers
@@ -76139,7 +76197,7 @@
 	       (:keywords "configuration" "profile" "wonderland")
 	       (:url . "http://github.com/kurisuwhyte/emacs-wonderland"))])
  (wordcount-section .
-		    [(0 1 0 1 -4 20240323 1901)
+		    [(0 1 0 1 -4 20240428 1852)
 		     ((emacs
 		       (28 1))
 		      (compat
@@ -76147,7 +76205,7 @@
 		      (universal-sidecar
 		       (1 5 1)))
 		     "Universal Sidecar Section to show Word Counts" tar
-		     ((:commit . "b67153c880284db0ed9864370b16287fd855fb54")
+		     ((:commit . "4c78015d10caba9c700e6e6b582004ae1c1d5344")
 		      (:authors
 		       ("Samuel W. Flint" . "me@samuelwflint.com"))
 		      (:maintainers
