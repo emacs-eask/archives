@@ -2049,6 +2049,13 @@
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
 	      (:commit . "63ed77a7bad56d801234344d712af442dcde1181"))])
+ (idlwave .
+	  [(6 5 0 0 20240429 112457)
+	   nil "IDL editing mode for GNU Emacs" tar
+	   ((:keywords "languages")
+	    (:maintainer "J.D. Smith" . "jdtsmith@gmail.com")
+	    (:url . "https://elpa.gnu.org/packages/idlwave.html")
+	    (:commit . "a299e882a360e266b0b8f62dc00aa5a783b603d0"))])
  (ilist .
 	[(0 3 0 20240219 40214)
 	 nil "Display a list in an ibuffer way." tar
@@ -2771,14 +2778,14 @@
 		(:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
 		(:commit . "3d1e280fd94ac1abd630d0c100a860b94472836d"))])
  (nano-modeline .
-		[(1 0 1 0 20240318 92455)
+		[(1 1 0 0 20240429 102433)
 		 ((emacs
 		   (27 1)))
 		 "N Λ N O modeline" tar
 		 ((:url . "https://github.com/rougier/nano-modeline")
 		  (:keywords "convenience" "mode-line" "header-line")
 		  (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
-		  (:commit . "e0a1d9f688000bdd4e0d7adaea4b21d078614edb"))])
+		  (:commit . "04676d57a1e602123a593836745a744d1b2028fb"))])
  (nano-theme .
 	     [(0 3 4 0 20240319 93238)
 	      ((emacs
@@ -2943,7 +2950,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "ac4aeb66f331f4c4a430d5556071e33177304c37"))])
  (org .
-      [(9 7 -1 0 20240428 125730)
+      [(9 7 -1 0 20240429 164631)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2952,7 +2959,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "a2514c97debadd099f44df4aca6aaf1605b8961b"))])
+	(:commit . "3e11b2eb88fcc728c11423b488e5ea5bbf1e817d"))])
  (org-contacts .
 	       [(1 1 0 20240410 112834)
 		((emacs
@@ -2995,7 +3002,7 @@
 		  ("Hanno Perrey" . "hanno@hoowl.se"))
 		 (:commit . "68aef8d4b4c7a562bfc664639568706ba625d0a1"))])
  (org-modern .
-	     [(1 2 0 20240428 205130)
+	     [(1 2 0 20240429 142314)
 	      ((emacs
 		(27 1))
 	       (compat
@@ -3006,7 +3013,7 @@
 	       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	       (:authors
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
-	       (:commit . "92262afb504653da218ee90d4df2e9a1ae9935b5"))])
+	       (:commit . "e644ea08a976b53f5d759f574a546570718f46b6"))])
  (org-notify .
 	     [(0 1 1 0 20231016 93952)
 	      ((emacs
@@ -3928,7 +3935,7 @@
 	     ("Artur Malabarba" . "emacs@endlessparentheses.com"))
 	    (:commit . "04186129f2dccf48e288639b78adeb9c0e94be54"))])
  (spacious-padding .
-		   [(0 4 1 0 20240429 64011)
+		   [(0 5 0 0 20240429 82953)
 		    ((emacs
 		      (28 1)))
 		    "Increase the padding/spacing of frames and windows" tar
@@ -3937,7 +3944,7 @@
 		     (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 		     (:authors
 		      ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		     (:commit . "af8030e75e7106e5af6ba481207de6506f23bab2"))])
+		     (:commit . "e48f3335f50217e40081631abacc40964150f3ab"))])
  (spinner .
 	  [(1 7 4 0 20220915 94959)
 	   ((emacs
@@ -4083,7 +4090,7 @@
 	    (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
 	    (:commit . "39621cd178dbf903414156d893c1eefe217b7c29"))])
  (svg-tag-mode .
-	       [(0 3 2 0 20240122 120925)
+	       [(0 3 2 0 20240429 105240)
 		((emacs
 		  (27 1))
 		 (svg-lib
@@ -4094,7 +4101,7 @@
 		 (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
 		 (:authors
 		  ("Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr"))
-		 (:commit . "f01307dd7720ed952355db0a552ae555c13ced13"))])
+		 (:commit . "a152bc90a7c9dc17112893a19ddf91078b909057"))])
  (swiper .
 	 [(0 14 2 0 20240405 204232)
 	  ((emacs
@@ -4362,7 +4369,7 @@
 	       (:url . "https://elpa.gnu.org/packages/transcribe.html")
 	       (:commit . "2c2d493d5488f3b444d2a771ab443589fcc72c13"))])
  (transient .
-	    [(0 6 0 0 20240414 135949)
+	    [(0 6 0 0 20240421 173733)
 	     ((emacs
 	       (26 1))
 	      (compat
@@ -4372,10 +4379,10 @@
 	     "Transient commands" tar
 	     ((:url . "https://github.com/magit/transient")
 	      (:keywords "extensions")
-	      (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
+	      (:maintainer "Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev")
 	      (:authors
-	       ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	      (:commit . "2698d62d2e209023d5cf11ec4190aaa751f40bbe"))])
+	       ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
+	      (:commit . "2dd0102ec3df901d421fc338e5c768467cc54ecf"))])
  (transient-cycles .
 		   [(1 0 0 20220410 130412)
 		    ((emacs

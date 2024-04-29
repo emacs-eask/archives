@@ -135,6 +135,14 @@
 		    (:authors
 		     ("Stephane Zermatten" . "szermatt@gmx.net"))
 		    (:commit . "f1daac0386c24cbe8a244a62c7588cc6847b07ae"))])
+ (beancount .
+	    [(0 0 20240303 104742)
+	     nil "A major mode to edit Beancount input files." tar
+	     ((:maintainer "Martin Blais" . "blais@furius.ca")
+	      (:authors
+	       ("Martin Blais" . "blais@furius.ca"))
+	      (:url . "https://elpa.nongnu.org/nongnu/beancount.html")
+	      (:commit . "3725c027026f45431d891a13810c218dc60e723e"))])
  (better-jumper .
 		[(1 0 1 0 20220111 101829)
 		 ((emacs
@@ -992,7 +1000,7 @@
 		   ("Jeronimo Pellegrini" . "(j_p@aleph0.info)"))
 		  (:commit . "c634fc2049f1616b772f5e9cb78c6171dcc4c34d"))])
  (git-commit .
-	     [(3 3 0 50 -4 0 20240428 182103)
+	     [(3 3 0 50 -4 0 20240429 154008)
 	      ((emacs
 		(25 1))
 	       (compat
@@ -1012,7 +1020,7 @@
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
 		("Florian Ragwitz" . "rafl@debian.org")
 		("Marius Vollmer" . "marius.vollmer@gmail.com"))
-	       (:commit . "058ca81497c2400db45644bfe3920bcaac21f1f1"))])
+	       (:commit . "8b3b341d0480916995c6fde85c7862d489cd0632"))])
  (git-modes .
 	    [(1 4 2 0 20240415 153833)
 	     ((emacs
@@ -1164,7 +1172,7 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (helm .
-       [(3 9 8 0 20240425 82509)
+       [(3 9 8 0 20240429 70910)
 	((helm-core
 	  (3 9 8))
 	 (wfnames
@@ -1176,9 +1184,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "753563ee010e865f3f0fd9d491c2052eb1347fd8"))])
+	 (:commit . "21a3a3327ed2fc133a80307105362e30eba4dd90"))])
  (helm-core .
-	    [(3 9 8 0 20240425 82509)
+	    [(3 9 8 0 20240429 70910)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1188,7 +1196,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "753563ee010e865f3f0fd9d491c2052eb1347fd8"))])
+	      (:commit . "21a3a3327ed2fc133a80307105362e30eba4dd90"))])
  (highlight-parentheses .
 			[(2 2 2 0 20240408 112634)
 			 ((emacs
@@ -1432,7 +1440,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "e28d0a028f702d2dbf9a33ab691c3459268ed35e"))])
  (magit .
-	[(3 3 0 50 -4 0 20240428 182103)
+	[(3 3 0 50 -4 0 20240429 154008)
 	 ((emacs
 	   (25 1))
 	  (compat
@@ -1458,9 +1466,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	  (:commit . "058ca81497c2400db45644bfe3920bcaac21f1f1"))])
+	  (:commit . "8b3b341d0480916995c6fde85c7862d489cd0632"))])
  (magit-section .
-		[(3 3 0 50 -4 0 20240428 182103)
+		[(3 3 0 50 -4 0 20240429 154008)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -1475,7 +1483,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "058ca81497c2400db45644bfe3920bcaac21f1f1"))])
+		  (:commit . "8b3b341d0480916995c6fde85c7862d489cd0632"))])
  (markdown-mode .
 		[(2 7 -3 0 20240318 130742)
 		 ((emacs
@@ -1909,13 +1917,13 @@
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	       (:commit . "0163b335a18af0f077a474d4dc6b36e22b5e3274"))])
  (proof-general .
-		[(4 6 -4 0 20240425 93947)
+		[(4 6 -4 0 20240429 141144)
 		 ((emacs
 		   (25 2)))
 		 "A generic Emacs interface for proof assistants" tar
 		 ((:url . "https://proofgeneral.github.io/")
 		  (:maintainer nil . "proof-general-maintainers@groupes.renater.fr")
-		  (:commit . "6cace58d0d632c4eafa18959319a484fb5c07238"))])
+		  (:commit . "afae49509f5cf06bb8a9573444dbf0137adfd6e0"))])
  (prop-menu .
 	    [(0 1 2 0 20150728 51803)
 	     ((emacs
@@ -1949,7 +1957,7 @@
 			("Fanael Linithien" . "fanael4@gmail.com"))
 		       (:commit . "f40ece58df8b2f0fb6c8576b527755a552a5e763"))])
  (raku-mode .
-	    [(0 2 1 0 20211121 100033)
+	    [(0 2 1 0 20240429 100744)
 	     ((emacs
 	       (24 4)))
 	     "Major mode for editing Raku code" tar
@@ -1958,7 +1966,7 @@
 	      (:maintainer "Hinrik rn Sigurðsson" . "hinrik.sig@gmail.com")
 	      (:authors
 	       ("Hinrik rn Sigurðsson" . "hinrik.sig@gmail.com"))
-	      (:commit . "977b14a7c1295ebf2aad2f807d3f8e7c27aeb47f"))])
+	      (:commit . "14f9b9bba08c0bbb7f3895380d0b1a9feb7a168d"))])
  (recomplete .
 	     [(0 2 0 20240422 1549)
 	      ((emacs
@@ -2030,7 +2038,7 @@
 	      (:keywords "markup" "language" "css")
 	      (:commit . "247a0d4b509f10b28e4687cd8763492bca03599b"))])
  (scad-mode .
-	    [(93 3 0 20240428 115249)
+	    [(93 3 0 20240429 162806)
 	     ((emacs
 	       (27 1))
 	      (compat
@@ -2041,7 +2049,7 @@
 	      (:maintainer
 	       ("Len Trigg" . "lenbok@gmail.com")
 	       ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	      (:commit . "37689c4bd06c40fcadc96065de5945d9c9a5d236"))])
+	      (:commit . "8b830727c343bf762d9469b413f0c2a4c1996fe2"))])
  (scala-mode .
 	     [(0 23 0 20240113 174352)
 	      nil "Major mode for editing Scala" tar
