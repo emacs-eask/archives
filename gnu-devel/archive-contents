@@ -874,7 +874,7 @@
 		 (:url . "https://elpa.gnu.org/packages/cycle-quotes.html")
 		 (:commit . "c1ef993f8c66fec71b10d70eb7a2cd0c416aaa12"))])
  (dape .
-       [(0 10 0 0 20240428 161909)
+       [(0 10 0 0 20240501 122521)
 	((emacs
 	  (29 1))
 	 (jsonrpc
@@ -882,7 +882,7 @@
 	"Debug Adapter Protocol for Emacs" tar
 	((:url . "https://github.com/svaante/dape")
 	 (:maintainer "Daniel Pettersson" . "daniel@dpettersson.net")
-	 (:commit . "443fd8dab6ee7277352d82dfeb61dd1c4ca853f3"))])
+	 (:commit . "19d4408ca9aa2145fa109ef0899402fb85dc3d23"))])
  (darkroom .
 	   [(0 3 0 20200507 173652)
 	    ((cl-lib
@@ -1272,7 +1272,7 @@
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	      (:commit . "4d7cd1fdef459b9f76b9c1f35ec063d0eafe469a"))])
  (eglot .
-	[(1 17 0 20240423 182809)
+	[(1 17 0 20240501 144413)
 	 ((emacs
 	   (26 3))
 	  (jsonrpc
@@ -1288,14 +1288,16 @@
 	  (seq
 	   (2 23))
 	  (external-completion
-	   (0 1)))
+	   (0 1))
+	  (compat
+	   (27 1)))
 	 "The Emacs Client for LSP servers" tar
 	 ((:url . "https://github.com/joaotavora/eglot")
 	  (:keywords "convenience" "languages")
 	  (:maintainer "João Távora" . "joaotavora@gmail.com")
 	  (:authors
 	   ("João Távora" . "joaotavora@gmail.com"))
-	  (:commit . "d8d4fd8c6dbe11542432fccdc31701da9f686460"))])
+	  (:commit . "468f3f1cb44b8807c49add4235af3fe20ea7a73b"))])
  (el-search .
 	    [(1 12 6 1 0 20221221 75346)
 	     ((emacs
@@ -2950,7 +2952,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "ac4aeb66f331f4c4a430d5556071e33177304c37"))])
  (org .
-      [(9 7 -1 0 20240430 134101)
+      [(9 7 -1 0 20240501 184107)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2959,7 +2961,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "c6bbde4c78559379d05a42d01da0405ef5e5710e"))])
+	(:commit . "646f6ec133bf56dc05d45c91cfbdb140966ed175"))])
  (org-contacts .
 	       [(1 1 0 20240430 11427)
 		((emacs
@@ -3252,6 +3254,32 @@
 	(:authors
 	 ("Adam Porter" . "adam@alphapapa.net"))
 	(:commit . "57f10482655f02c3cc8ff35d31bd83dd6d809d02"))])
+ (plz-event-source .
+		   [(0 1 -1 0 20240501 111443)
+		    ((emacs
+		      (26 3))
+		     (plz
+		      (0 8)))
+		    "Plz Event Source" tar
+		    ((:url . "https://github.com/r0man/plz-event-source.el")
+		     (:keywords "comm" "network" "http")
+		     (:maintainer "r0man" . "roman@burningswell.com")
+		     (:authors
+		      ("r0man" . "roman@burningswell.com"))
+		     (:commit . "544432be2dee5dd39532aeb2fbd5247af56b57e0"))])
+ (plz-media-type .
+		 [(0 1 -1 0 20240501 111146)
+		  ((emacs
+		    (26 3))
+		   (plz
+		    (0 8)))
+		  "Plz Media Types" tar
+		  ((:url . "https://github.com/r0man/plz-media-type.el")
+		   (:keywords "comm" "network" "http")
+		   (:maintainer "r0man" . "roman@burningswell.com")
+		   (:authors
+		    ("r0man" . "roman@burningswell.com"))
+		   (:commit . "06910752fa53b7fdc0d55acdfcf8cab5949ec437"))])
  (plz-see .
 	  [(0 1 0 20231101 73512)
 	   ((emacs
@@ -4789,7 +4817,7 @@
 	       ("Andrew Hyatt" . "ahyatt@gmail.com"))
 	      (:commit . "40c208eaab99999d7c1e4bea883648da24c03be3"))])
  (which-key .
-	    [(3 6 0 0 20240423 92028)
+	    [(3 6 0 0 20240501 85118)
 	     ((emacs
 	       (24 4)))
 	     "Display available keybindings in popup" tar
@@ -4797,7 +4825,7 @@
 	      (:authors
 	       ("Justin Burkett" . "justin@burkett.cc"))
 	      (:url . "https://elpa.gnu.org/packages/which-key.html")
-	      (:commit . "ba323d6712d54806aa82847d017e94eafcf99d6f"))])
+	      (:commit . "1e89fa000e9ba9549f15ef57abccd118d5f2fe1a"))])
  (window-commander .
 		   [(3 0 2 0 20240314 125442)
 		    ((emacs
