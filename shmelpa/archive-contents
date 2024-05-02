@@ -37414,11 +37414,11 @@
 	     (:keywords "text")
 	     (:url . "http://github.com/kawabata/ivs-edit"))])
  (ivy .
-      [(0 14 2 1 -4 20240405 2019)
+      [(0 14 2 1 -4 20240502 808)
        ((emacs
 	 (24 5)))
        "Incremental Vertical completYon" tar
-       ((:commit . "a38bc60eb78e38304d1183d98d4fc76671263ee1")
+       ((:commit . "4c1690c5feb5b4e0b55ad7ad96cd3d9b51d3ec77")
 	(:authors
 	 ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	(:maintainers
@@ -56192,11 +56192,13 @@
 		(:maintainer "Fanael Linithien" . "fanael4@gmail.com")
 		(:url . "https://github.com/Fanael/parent-mode"))])
  (parinfer-rust-mode .
-		     [(0 8 6 1 -4 20240502 612)
+		     [(0 8 6 1 -4 20240502 727)
 		      ((emacs
-			(26 1)))
+			(26 1))
+		       (track-changes
+			(1 1)))
 		      "An interface for the parinfer-rust library" tar
-		      ((:commit . "ef99d4229add1608e81453ef99acf1c844f017fd")
+		      ((:commit . "a88eff726d50cbb9c666cf75c31df38b697c2ee4")
 		       (:authors
 			("Justin Barclay" . "justinbarclay@gmail.com"))
 		       (:maintainers
