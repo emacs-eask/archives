@@ -15455,17 +15455,17 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(4 2 0 1 -4 20240506 1404)
+		[(4 2 0 1 -4 20240506 1449)
 		 ((emacs
 		   (25 1))
 		  (compat
-		   (29 1 4 2))
+		   (29 1 4 5))
 		  (nerd-icons
 		   (0 1 0))
 		  (shrink-path
 		   (0 3 1)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "7c0f0d880ca49637a2fed1f8b272311c9a5f09f1")
+		 ((:commit . "82bfc3ed9850644c0170660741d4e02bb2325071")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainers
@@ -18649,7 +18649,7 @@
 	 (:keywords "docs")
 	 (:url . "https://github.com/Fuco1/elwm"))])
  (elx .
-      [(0 1 0 1 -4 20240415 1535)
+      [(0 1 0 1 -4 20240506 1556)
        ((emacs
 	 (25 1))
 	(compat
@@ -18657,7 +18657,7 @@
 	(llama
 	 (0 2 0)))
        "Extract information from Emacs Lisp libraries" tar
-       ((:commit . "4b3b0af5b8d1e530a1a8fc44af650886b23918b1")
+       ((:commit . "9db9f8dcc595717d82943fef66f554a4b40aff0b")
 	(:authors
 	 ("Jonas Bernoulli" . "emacs.elx@jonas.bernoulli.dev"))
 	(:maintainers
@@ -20824,7 +20824,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20240503 1656)
+       [(1 15 0 1 -4 20240506 1505)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -20832,7 +20832,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "76667a1a46d896d673f51f7f5782125d06b3a022")
+	((:commit . "a8b28f57f78255378c37c6d5ef1f2c7a45bc499b")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulations")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -28309,7 +28309,7 @@
 		(:keywords "utility" "git")
 		(:url . "https://github.com/10sr/git-command-el"))])
  (git-commit .
-	     [(3 3 0 50 -4 20240502 15)
+	     [(3 3 0 50 -4 20240506 1557)
 	      ((emacs
 		(26 1))
 	       (compat
@@ -28319,7 +28319,7 @@
 	       (with-editor
 		(20240415)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "f72a02f852c12a18574ab68137950e673e5023d1")
+	      ((:commit . "b6c928659711b45ea2b684a85380bbde924cd82b")
 	       (:authors
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -31391,7 +31391,7 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 8 1 -4 20240506 1134)
+       [(3 9 8 1 -4 20240506 1454)
 	((helm-core
 	  (3 9 8))
 	 (wfnames
@@ -31399,7 +31399,7 @@
 	 (popup
 	  (0 5 3)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "cce3ed1e1f82029527edea899b89f40dffae763f")
+	((:commit . "9d8d7f281e0055734444b31988a04b1b4db62321")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -43564,7 +43564,7 @@
 	       (:keywords "languages")
 	       (:url . "https://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20240505 1801)
+	[(3 3 0 50 -4 20240506 1557)
 	 ((emacs
 	   (26 1))
 	  (compat
@@ -43582,7 +43582,7 @@
 	  (with-editor
 	   (20240415)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "ea0d30d9a6056064b6d2cb4b4a5a8ca8fd036d2d")
+	 ((:commit . "b6c928659711b45ea2b684a85380bbde924cd82b")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -48393,11 +48393,11 @@
 		(:maintainer "Sven Keidel" . "svenkeidel@gmail.com")
 		(:url . "https://github.com/travisbhartwell/nix-emacs"))])
  (nix-ts-mode .
-	      [(0 1 2 1 -4 20231107 1639)
+	      [(0 1 2 1 -4 20240506 1650)
 	       ((emacs
 		 (29 1)))
 	       "Major mode for Nix expressions, powered by tree-sitter" tar
-	       ((:commit . "2dddc6e9ca33be211675afca3896fd661fc38a0c")
+	       ((:commit . "a1cf595a2dd4354b219b980e9927f084c74618cb")
 		(:maintainers
 		 ("Remi Gelinas" . "mail@remigelin.as"))
 		(:maintainer "Remi Gelinas" . "mail@remigelin.as")
@@ -66094,7 +66094,7 @@
 	(:keywords "convenience")
 	(:url . "https://github.com/laishulu/emacs-smart-input-source"))])
  (sisyphus .
-	   [(0 1 0 50 -4 20240415 1548)
+	   [(0 1 0 50 -4 20240506 1558)
 	    ((emacs
 	      (27 1))
 	     (compat
@@ -66106,7 +66106,7 @@
 	     (magit
 	      (3 4 0)))
 	    "Create releases of Emacs packages" tar
-	    ((:commit . "38285f880302b9a2363085d816d6cd660ff7d17d")
+	    ((:commit . "db9b36065faf149fef214248bdba1d90492cd2e9")
 	     (:authors
 	      ("Jonas Bernoulli" . "emacs.sisyphus@jonas.bernoulli.dev"))
 	     (:maintainers
@@ -71806,7 +71806,7 @@
 		(:keywords "comm" "convenience" "files")
 		(:url . "https://gitlab.com/tuedachu/transfer-sh.el"))])
  (transient .
-	    [(0 6 0 1 -4 20240421 1737)
+	    [(0 6 0 1 -4 20240506 1559)
 	     ((emacs
 	       (26 1))
 	      (compat
@@ -71814,7 +71814,7 @@
 	      (seq
 	       (2 24)))
 	     "Transient commands" tar
-	     ((:commit . "2dd0102ec3df901d421fc338e5c768467cc54ecf")
+	     ((:commit . "753de9088e0f71ed57120f4e42e81430ab9e48d6")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
 	      (:maintainers
