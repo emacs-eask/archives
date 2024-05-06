@@ -221,14 +221,14 @@
 	   ("John Wiegley" . "jwiegley@gmail.com"))
 	  (:commit . "72b70b004505db2f06318fefd6b358704b9167d7"))])
  (auctex .
-	 [(14 0 4 0 20240427 91120)
+	 [(14 0 4 0 20240506 132858)
 	  ((emacs
 	    (27 1)))
 	  "Integrated environment for *TeX*" tar
 	  ((:url . "https://www.gnu.org/software/auctex/")
 	   (:keywords "tex" "latex" "texinfo" "context" "doctex" "preview-latex")
 	   (:maintainer nil . "auctex-devel@gnu.org")
-	   (:commit . "56b5dab16630ea31dbcec239f10b04a3748c5408"))])
+	   (:commit . "5a64a805e5b3030712b78f537a13bfdca00a84ea"))])
  (aumix-mode .
 	     [(7 0 20221221 74552)
 	      nil "run the aumix program in a buffer" tar
@@ -313,7 +313,7 @@
 	    ("Artur Malabarba" . "emacs@endlessparentheses.com"))
 	   (:commit . "85261a928ae0ec3b41e639f05291ffd6bf7c231c"))])
  (beframe .
-	  [(1 0 1 0 20240506 72544)
+	  [(1 1 0 0 20240506 81229)
 	   ((emacs
 	     (28 1)))
 	   "Isolate buffers per frame" tar
@@ -321,7 +321,7 @@
 	    (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	    (:authors
 	     ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	    (:commit . "ddd41afaf368830d1cdded94cf2d6e483a0186dc"))])
+	    (:commit . "f5ff228db2f1afaf5ee19ab9c933ba1b3774396c"))])
  (bicep-ts-mode .
 		[(0 1 3 0 20240218 140135)
 		 nil "tree-sitter support for Bicep" tar
@@ -1272,32 +1272,34 @@
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	      (:commit . "4d7cd1fdef459b9f76b9c1f35ec063d0eafe469a"))])
  (eglot .
-	[(1 17 0 20240504 171446)
+	[(1 17 0 20240505 172329)
 	 ((emacs
 	   (26 3))
-	  (jsonrpc
-	   (1 0 24))
-	  (flymake
-	   (1 2 1))
-	  (project
-	   (0 9 8))
-	  (xref
-	   (1 6 2))
+	  (compat
+	   (27 1))
 	  (eldoc
 	   (1 14 0))
-	  (seq
-	   (2 23))
 	  (external-completion
 	   (0 1))
-	  (compat
-	   (27 1)))
+	  (flymake
+	   (1 2 1))
+	  (jsonrpc
+	   (1 0 24))
+	  (project
+	   (0 9 8))
+	  (seq
+	   (2 23))
+	  (track-changes
+	   (1 2))
+	  (xref
+	   (1 6 2)))
 	 "The Emacs Client for LSP servers" tar
 	 ((:url . "https://github.com/joaotavora/eglot")
 	  (:keywords "convenience" "languages")
 	  (:maintainer "João Távora" . "joaotavora@gmail.com")
 	  (:authors
 	   ("João Távora" . "joaotavora@gmail.com"))
-	  (:commit . "8098ad9679c7f5ea19493bdae18227f7a81b3eb4"))])
+	  (:commit . "67e1b9d0553238ec6a5af68b41f43ba157f529e1"))])
  (el-search .
 	    [(1 12 6 1 0 20221221 75346)
 	     ((emacs
@@ -2952,7 +2954,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "ac4aeb66f331f4c4a430d5556071e33177304c37"))])
  (org .
-      [(9 7 -1 0 20240505 172713)
+      [(9 7 -1 0 20240506 125500)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2961,7 +2963,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "c8bd2092b10bb535abbdb3ffa29efa8113e7a623"))])
+	(:commit . "51aff8a11bd660c1b9ae00efbaa91d9a90f245cc"))])
  (org-contacts .
 	       [(1 1 0 20240430 11427)
 		((emacs
@@ -4024,7 +4026,7 @@
 	     (:url . "https://elpa.gnu.org/packages/sql-smie.html")
 	     (:commit . "902d88d3ec4a0e6fd0040d239634e44bc00d65b1"))])
  (srht .
-       [(0 4 0 20231117 115741)
+       [(0 4 0 20240506 104337)
 	((emacs
 	  (27 1))
 	 (plz
@@ -4037,7 +4039,7 @@
 	 (:maintainer "Aleksandr Vityazev" . "avityazev@posteo.org")
 	 (:authors
 	  ("Aleksandr Vityazev" . "avityazev@posteo.org"))
-	 (:commit . "053c79fb41278f11e98c61785e8cc500ed4c853b"))])
+	 (:commit . "e7ee980ff7713c58fa31d620c5679d78c7dde947"))])
  (ssh-deploy .
 	     [(3 1 16 0 20230702 92809)
 	      ((emacs
