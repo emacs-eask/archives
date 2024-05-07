@@ -7519,7 +7519,7 @@
 		(:maintainer "Adam Chyła" . "adam@chyla.org")
 		(:url . "https://github.com/chyla/ChylaThemeForEmacs"))])
  (cider .
-	[(1 14 0 -4 20240507 822)
+	[(1 14 0 -4 20240507 1531)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -7537,7 +7537,7 @@
 	  (transient
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
-	 ((:commit . "4f53c0b1d43fa7ff7ee7155769e260adaace0a38")
+	 ((:commit . "380073eea28b47f69d320361f560beabadea534a")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
 	   ("Phil Hagelberg" . "technomancy@gmail.com")
@@ -11035,11 +11035,11 @@
 		      (:maintainer "mohsin kaleem" . "mohkale@kisara.moe")
 		      (:url . "https://github.com/mohkale/consult-yasnippet"))])
  (context-transient .
-		    [(1 0 0 1 -4 20240429 2059)
+		    [(1 0 0 1 -4 20240507 1534)
 		     ((emacs
 		       (29 1)))
 		     "Context specific transients" tar
-		     ((:commit . "10e8261cedc6401cf33ee57198b42d75c0a0dc12")
+		     ((:commit . "efd8343f46f9fb2a1ee391c0292fb35d4f91b107")
 		      (:authors
 		       ("Mykhaylo Bilyanskyy" . "mb@m1k.pw"))
 		      (:maintainers
@@ -26703,9 +26703,9 @@
 		       ("olkinn"))
 		      (:maintainer "olkinn"))])
  (forge .
-	[(0 3 2 50 -4 20240504 2310)
+	[(0 3 2 50 -4 20240507 1652)
 	 ((emacs
-	   (26 1))
+	   (26 3))
 	  (compat
 	   (29 1 4 5))
 	  (closql
@@ -26715,7 +26715,7 @@
 	  (emacsql
 	   (20240124))
 	  (ghub
-	   (20240311))
+	   (20240507))
 	  (let-alist
 	      (1 0 6))
 	  (magit
@@ -26729,7 +26729,7 @@
 	  (yaml
 	   (0 5 5)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "359e424b968ad6763854bb9b11157caff1e775ca")
+	 ((:commit . "8b956fef88f2bab1539e664de93c570433fe2f55")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
 	  (:maintainer "Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev")
@@ -28090,17 +28090,17 @@
 	(:keywords "convenience")
 	(:url . "https://github.com/lafrenierejm/emacs-ghq"))])
  (ghub .
-       [(3 6 0 1 -4 20240415 1555)
+       [(3 6 0 1 -4 20240507 1647)
 	((emacs
-	  (25 1))
+	  (26 3))
 	 (compat
-	  (29 1 4 4))
+	  (29 1 4 5))
 	 (let-alist
 	     (1 0 6))
 	 (treepy
 	  (0 1 2)))
 	"Client libraries for Git forge APIs." tar
-	((:commit . "e0a65456098c5e0f2cf2724d071e9033f7b0bf3a")
+	((:commit . "1df5298c3c4d26ec3720dc6c31f8bfd07858f8a9")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
 	 (:maintainer "Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev")
@@ -55834,13 +55834,13 @@
 		   (:maintainer "Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		   (:url . "https://github.com/milkypostman/package-filter"))])
  (package-lint .
-	       [(0 23 1 -4 20240330 1458)
+	       [(0 23 1 -4 20240507 1722)
 		((emacs
 		  (24 4))
 		 (let-alist
 		     (1 0 6)))
 		"A linting library for elisp package authors" tar
-		((:commit . "17e4ab20dd3e36fa540007b4f4047170c23bdb10")
+		((:commit . "cb8b0ddaa14cafe9e4ab9a81b2ad47319fd54f27")
 		 (:authors
 		  ("Steve Purcell" . "steve@sanityinc.com")
 		  ("Fanael Linithien" . "fanael4@gmail.com"))
