@@ -701,7 +701,7 @@
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	   (:commit . "ffa38f0a9d4af12ba7e1dbebd5fe766de7ee8095"))])
  (consult .
-	  [(1 5 0 20240508 153300)
+	  [(1 5 0 20240509 193332)
 	   ((emacs
 	     (27 1))
 	    (compat
@@ -710,7 +710,21 @@
 	   ((:url . "https://github.com/minad/consult")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-	    (:commit . "369592fe2f160c1b54f91266104992fc25bc5e14"))])
+	    (:commit . "73971a47e12bfb54eaf72f0443a8095fa082607a"))])
+ (consult-denote .
+		 [(0 0 0 0 20240509 110447)
+		  ((emacs
+		    (28 1))
+		   (denote
+		    (2 3 0))
+		   (consult
+		    (1 4)))
+		  "Use Consult in tandem with Denote" tar
+		  ((:url . "https://github.com/protesilaos/consult-denote")
+		   (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
+		   (:authors
+		    ("Protesilaos Stavrou" . "info@protesilaos.com"))
+		   (:commit . "4004bf59e85123ac09d41d1cff09d0fee6883d44"))])
  (consult-hoogle .
 		 [(0 2 1 0 20240427 131842)
 		  ((emacs
@@ -943,7 +957,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:commit . "5a0cd5ccb650d7bba1c1ea02cf67b71d7cfa6e9a"))])
  (denote .
-	 [(2 3 5 0 20240509 40714)
+	 [(2 3 5 0 20240509 105945)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -951,7 +965,7 @@
 	   (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "cd11a789016d6423faca377c0bf7b4f81afdea99"))])
+	   (:commit . "d0effdb11df1508771c8a805ec57fcf669d3566c"))])
  (denote-menu .
 	      [(1 2 0 0 20230927 131718)
 	       ((emacs
@@ -2954,7 +2968,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "ac4aeb66f331f4c4a430d5556071e33177304c37"))])
  (org .
-      [(9 7 -1 0 20240507 92146)
+      [(9 7 -1 0 20240509 113324)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2963,7 +2977,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "773bba92a8e2b927427cf1daf374fa774fe834e0"))])
+	(:commit . "3bf33c0d7bc83a8366e90792dedbc4eede6f63fe"))])
  (org-contacts .
 	       [(1 1 0 20240430 11427)
 		((emacs
