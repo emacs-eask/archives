@@ -43469,11 +43469,13 @@
 	       (:keywords "convenience")
 	       (:url . "http://nschum.de/src/emacs/macro-math/"))])
  (macrostep .
-	    [(0 9 3 1 -4 20240430 2219)
+	    [(0 9 4 1 -4 20240509 2157)
 	     ((cl-lib
-	       (0 5)))
+	       (0 5))
+	      (compat
+	       (29)))
 	     "Interactive macro expander" tar
-	     ((:commit . "81fcf3dafb761fed82c8c3b1c2dfe6956b62344d")
+	     ((:commit . "31d4adcca4f08cfd7a45f85e691aaa7a9316b355")
 	      (:authors
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:maintainers
