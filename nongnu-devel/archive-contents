@@ -1444,16 +1444,18 @@
 	      ("Aaron Smith" . "aaron-lua@gelatinous.com"))
 	     (:commit . "d074e4134b1beae9ed4c9b512af741ca0d852ba3"))])
  (macrostep .
-	    [(0 9 3 0 20240430 221945)
+	    [(0 9 4 0 20240509 220255)
 	     ((cl-lib
-	       (0 5)))
+	       (0 5))
+	      (compat
+	       (29)))
 	     "Interactive macro expander" tar
 	     ((:url . "https://github.com/emacsorphanage/macrostep")
 	      (:keywords "lisp" "languages" "macro" "debugging")
 	      (:maintainer "Jon Oddie" . "j.j.oddie@gmail.com")
 	      (:authors
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
-	      (:commit . "81fcf3dafb761fed82c8c3b1c2dfe6956b62344d"))])
+	      (:commit . "4890a4cf8ac65a38a3b9cea889bbca8f1301fa58"))])
  (magit .
 	[(3 3 0 50 -4 0 20240509 90617)
 	 ((emacs
