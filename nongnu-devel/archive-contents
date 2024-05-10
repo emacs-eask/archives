@@ -250,7 +250,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "33770dec73138909714711b05a63e79da5a19ccd"))])
  (cider .
-	[(1 14 0 -4 0 20240507 153105)
+	[(1 14 0 -4 0 20240510 143603)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -278,7 +278,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "380073eea28b47f69d320361f560beabadea534a"))])
+	  (:commit . "176a8e748540705b9229870be1ebe8a77f756966"))])
  (clojure-mode .
 	       [(5 19 0 -4 0 20240305 221841)
 		((emacs
@@ -1000,7 +1000,7 @@
 		   ("Jeronimo Pellegrini" . "(j_p@aleph0.info)"))
 		  (:commit . "c634fc2049f1616b772f5e9cb78c6171dcc4c34d"))])
  (git-commit .
-	     [(3 3 0 50 -4 0 20240509 90617)
+	     [(3 3 0 50 -4 0 20240510 170108)
 	      ((emacs
 		(26 1))
 	       (compat
@@ -1020,7 +1020,7 @@
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
 		("Florian Ragwitz" . "rafl@debian.org")
 		("Marius Vollmer" . "marius.vollmer@gmail.com"))
-	       (:commit . "24ea9b0ffd650f1a47e21c4db4a93c893e5a1447"))])
+	       (:commit . "02ecf1a1e34accb41f922b77af21c9eb5a0fed25"))])
  (git-modes .
 	    [(1 4 2 0 20240415 153833)
 	     ((emacs
@@ -1187,7 +1187,7 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (helm .
-       [(3 9 8 0 20240506 145440)
+       [(3 9 8 0 20240510 183323)
 	((helm-core
 	  (3 9 8))
 	 (wfnames
@@ -1199,9 +1199,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "9d8d7f281e0055734444b31988a04b1b4db62321"))])
+	 (:commit . "85aae8a8bee8940e761cbabc92d6af7dcf1a92e2"))])
  (helm-core .
-	    [(3 9 8 0 20240506 145440)
+	    [(3 9 8 0 20240510 183323)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1211,7 +1211,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "9d8d7f281e0055734444b31988a04b1b4db62321"))])
+	      (:commit . "85aae8a8bee8940e761cbabc92d6af7dcf1a92e2"))])
  (highlight-parentheses .
 			[(2 2 2 0 20240408 112634)
 			 ((emacs
@@ -1457,7 +1457,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "4890a4cf8ac65a38a3b9cea889bbca8f1301fa58"))])
  (magit .
-	[(3 3 0 50 -4 0 20240509 90617)
+	[(3 3 0 50 -4 0 20240510 170108)
 	 ((emacs
 	   (26 1))
 	  (compat
@@ -1483,9 +1483,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	  (:commit . "24ea9b0ffd650f1a47e21c4db4a93c893e5a1447"))])
+	  (:commit . "02ecf1a1e34accb41f922b77af21c9eb5a0fed25"))])
  (magit-section .
-		[(3 3 0 50 -4 0 20240509 90617)
+		[(3 3 0 50 -4 0 20240510 170108)
 		 ((emacs
 		   (26 1))
 		  (compat
@@ -1500,7 +1500,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "24ea9b0ffd650f1a47e21c4db4a93c893e5a1447"))])
+		  (:commit . "02ecf1a1e34accb41f922b77af21c9eb5a0fed25"))])
  (markdown-mode .
 		[(2 7 -3 0 20240501 105706)
 		 ((emacs
@@ -2541,14 +2541,14 @@
 	     ((:url . "https://github.com/lewang/ws-butler")
 	      (:commit . "e3a38d93e01014cd47bf5af4924459bd145fd7c4"))])
  (xah-fly-keys .
-	       [(25 2 20240427131540 0 20240427 131628)
+	       [(25 4 20240510104842 0 20240510 110019)
 		((emacs
 		  (27)))
 		"ergonomic modal keybinding minor mode." tar
 		((:url . "http://xahlee.info/emacs/misc/xah-fly-keys.html")
 		 (:keywords "convenience" "vi" "vim" "ergoemacs" "keybinding")
 		 (:maintainer "Xah Lee" . "xah@xahlee.org")
-		 (:commit . "ba9d9cbfd08545336888642ea48a6b658be417ac"))])
+		 (:commit . "d36b208ec1cd11bd5aaa2025137b854f086d2f8e"))])
  (xkcd .
        [(1 1 0 20220503 110939)
 	((json
