@@ -28275,13 +28275,15 @@
 	      ((:commit . "cef196abf398e2dd11f775d1e6cd8690567408aa")
 	       (:keywords "git" "version control" "release management"))])
  (git-cliff .
-	    [(0 6 0 1 -4 20240501 1641)
+	    [(0 7 0 1 -4 20240514 346)
 	     ((emacs
 	       (29 1))
 	      (transient
-	       (0 6 0)))
+	       (0 6 0))
+	      (dash
+	       (2 19 1)))
 	     "Generate and update changelog using git-cliff" tar
-	     ((:commit . "813f8569a784352c33200229aa0faafe269e4f16")
+	     ((:commit . "14be943b04c1a0e9a0771bc6fc748d0e961af825")
 	      (:authors
 	       ("liuyinz" . "liuyinz95@gmail.com"))
 	      (:maintainers
