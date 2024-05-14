@@ -45642,13 +45642,15 @@
 	   (:keywords "multimedia" "elisp" "music" "mpd")
 	   (:url . "https://github.com/pft/mingus"))])
  (mini-echo .
-	    [(0 9 0 1 -4 20240508 2021)
+	    [(0 9 2 1 -4 20240514 420)
 	     ((emacs
 	       (29 1))
+	      (dash
+	       (2 19 1))
 	      (hide-mode-line
 	       (1 0 3)))
 	     "Echo buffer status in minibuffer window" tar
-	     ((:commit . "cc1ffccbc35ccfffbefa5c5bb34d658dbdfe0763")
+	     ((:commit . "f0feae3bbd0becd79ea086d4a1b811162470b162")
 	      (:authors
 	       ("liuyinz" . "liuyinz95@gmail.com"))
 	      (:maintainers
@@ -45862,13 +45864,15 @@
 	      (:keywords "languages" "mips" "assembly")
 	      (:url . "https://github.com/hlissner/emacs-mips-mode"))])
  (mise .
-       [(0 1 0 1 -4 20240428 2309)
+       [(0 1 0 1 -4 20240514 452)
 	((emacs
 	  (29 1))
 	 (inheritenv
-	  (0 2)))
+	  (0 2))
+	 (dash
+	  (2 19 1)))
 	"Support for `mise' cli" tar
-	((:commit . "07ee51e71b744a9cb4922534a48d769c17e4873e")
+	((:commit . "cb19405eba3cfd679a5e3ac75c8c4c1146b16015")
 	 (:authors
 	  ("liuyinz" . "liuyinz95@gmail.com"))
 	 (:maintainers
