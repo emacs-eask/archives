@@ -701,7 +701,7 @@
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	   (:commit . "ffa38f0a9d4af12ba7e1dbebd5fe766de7ee8095"))])
  (consult .
-	  [(1 6 0 20240516 63909)
+	  [(1 6 0 20240516 224021)
 	   ((emacs
 	     (27 1))
 	    (compat
@@ -710,7 +710,7 @@
 	   ((:url . "https://github.com/minad/consult")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-	    (:commit . "e5afa2c1ba4097f0a364c527efad526c92c895b3"))])
+	    (:commit . "80407622f323669c735737272ecbc3b602434b77"))])
  (consult-denote .
 		 [(0 0 0 0 20240515 40125)
 		  ((emacs
@@ -957,7 +957,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:commit . "5a0cd5ccb650d7bba1c1ea02cf67b71d7cfa6e9a"))])
  (denote .
-	 [(2 3 5 0 20240516 130900)
+	 [(2 3 5 0 20240517 44455)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -965,7 +965,7 @@
 	   (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "88a67e949359157eea13893846427f32cc3a32d4"))])
+	   (:commit . "8880bf3ca377802a25ba7eff49ca7b964df7eed5"))])
  (denote-menu .
 	      [(1 2 0 0 20230927 131718)
 	       ((emacs
@@ -2057,7 +2057,7 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:commit . "54e9db2b023e03b6f6b46aeec48ea74fd51d4e11"))])
  (hyperbole .
-	    [(9 0 2 -1 0 20240427 202203)
+	    [(9 0 2 -1 0 20240517 71341)
 	     ((emacs
 	       (27 1)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
@@ -2066,7 +2066,7 @@
 	      (:maintainer "Mats Lidell" . "matsl@gnu.org")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
-	      (:commit . "63ed77a7bad56d801234344d712af442dcde1181"))])
+	      (:commit . "0176666b6125be769e17f20dc80085b3a9975a09"))])
  (idlwave .
 	  [(6 5 0 0 20240430 163614)
 	   nil "IDL editing mode for GNU Emacs" tar
@@ -2460,15 +2460,17 @@
 	    ("Adam Porter" . "adam@alphapapa.net"))
 	   (:commit . "db6378230cc2491a23d3fdee86a1a04c8b190b2d"))])
  (llm .
-      [(0 14 2 0 20240515 12959)
+      [(0 14 3 0 20240516 232255)
        ((emacs
-	 (28 1)))
+	 (28 1))
+	(plz
+	 (0 8)))
        "Interface to pluggable llm backends" tar
        ((:url . "https://github.com/ahyatt/llm")
 	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
-	(:commit . "efe218ac13144ea8f062912da12ac8599162e705"))])
+	(:commit . "478afbcb41714690fa7ef2ceed797c3691e7eeab"))])
  (lmc .
       [(1 4 0 20230105 113402)
        ((emacs
@@ -4977,12 +4979,12 @@
 	("Mattias Engdegård" . "mattiase@acm.org"))
        (:commit . "71c748ed7c6cf42f5c8421feed6e3d9b0aa42119"))])
  (xref .
-       [(1 6 3 0 20240514 212205)
+       [(1 6 3 0 20240516 220611)
 	((emacs
 	  (26 1)))
 	"Cross-referencing commands" tar
 	((:url . "https://elpa.gnu.org/packages/xref.html")
-	 (:commit . "38fe837f83448338b6ce5aaf771811ce6755d00a"))])
+	 (:commit . "6ca3a60db3427bc6aef08144c1524920ff3d9c4d"))])
  (xref-union .
 	     [(0 2 0 0 20231225 162837)
 	      ((emacs
