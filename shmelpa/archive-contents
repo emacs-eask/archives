@@ -20803,7 +20803,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20240526 1348)
+       [(1 15 0 1 -4 20240526 1524)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -20811,7 +20811,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible Vi layer for Emacs." tar
-	((:commit . "e8c8e028261f9d57f8c570952043fcd165df41cb")
+	((:commit . "89efb079a1b31c1881adcc6b370b20ce85f2b5bc")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulations")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -48784,6 +48784,19 @@
 		 (:maintainer "Hamza Hamud" . "self@hamzahamud.com")
 		 (:keywords "noir" "languages" "tree-sitter")
 		 (:url . "https://github.com/hhamud/noir-ts-mode"))])
+ (noman .
+	[(0 4 1 -4 20240524 1536)
+	 ((emacs
+	   (29 1)))
+	 "Read command line help without a man page" tar
+	 ((:commit . "c7e88857654d5ce5115a0314fc895957b08dfde8")
+	  (:authors
+	   ("Andy Kuszyk" . "emacs@akuszyk.com"))
+	  (:maintainers
+	   ("Andy Kuszyk" . "emacs@akuszyk.com"))
+	  (:maintainer "Andy Kuszyk" . "emacs@akuszyk.com")
+	  (:keywords "docs")
+	  (:url . "https://github.com/andykuszyk/noman.el"))])
  (non-edit-mode .
 		[(0 1 0 1 -4 20230926 1404)
 		 ((emacs
@@ -53370,7 +53383,7 @@
 		  (:keywords "convenience")
 		  (:url . "https://github.com/waymondo/org-repo-todo"))])
  (org-reverse-datetree .
-		       [(0 4 2 1 -4 20221203 259)
+		       [(0 4 2 1 -4 20240526 1603)
 			((emacs
 			  (28 1))
 			 (dash
@@ -53378,7 +53391,7 @@
 			 (org
 			  (9 5)))
 			"Create reverse date trees in org-mode" tar
-			((:commit . "fca95cd22ed29653f3217034c71ec0ab0a7c7734")
+			((:commit . "153ce326b10f96580d3d3008b398f03fd570aad4")
 			 (:authors
 			  ("Akira Komamura" . "akira.komamura@gmail.com"))
 			 (:maintainers
