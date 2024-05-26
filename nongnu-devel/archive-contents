@@ -280,14 +280,14 @@
 	   ("Steve Purcell" . "steve@sanityinc.com"))
 	  (:commit . "8be2bcffca2c58491ec24255a760302f1c81562f"))])
  (clojure-mode .
-	       [(5 19 0 -4 0 20240516 52537)
+	       [(5 20 0 -4 0 20240526 182523)
 		((emacs
 		  (25 1)))
 		"Major mode for Clojure code" tar
 		((:url . "https://github.com/clojure-emacs/clojure-mode")
 		 (:keywords "languages" "clojure" "clojurescript" "lisp")
 		 (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
-		 (:commit . "baddab32cdf4302208a2a67c04e16858db11a7ab"))])
+		 (:commit . "815bc387ec1436fb2fcac00ba8a61207636d0186"))])
  (clojure-ts-mode .
 		  [(0 2 2 0 20240314 55225)
 		   ((emacs
@@ -548,7 +548,7 @@
 		 ("Harry R. Schwartz" . "hello@harryrschwartz.com"))
 		(:commit . "f9efca3ad600e0c498cff776de5a873b8dd978cb"))])
  (evil .
-       [(1 15 0 0 20240521 95435)
+       [(1 15 0 0 20240526 152432)
 	((emacs
 	  (24 1))
 	 (cl-lib
@@ -559,7 +559,7 @@
 	((:url . "https://github.com/emacs-evil/evil")
 	 (:keywords "emulations")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
-	 (:commit . "0b134d3bbf73c93f5fed2bb89a35f408a9d627ed"))])
+	 (:commit . "89efb079a1b31c1881adcc6b370b20ce85f2b5bc"))])
  (evil-anzu .
 	    [(0 2 0 20220911 193944)
 	     ((evil
@@ -1187,21 +1187,19 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (helm .
-       [(3 9 8 0 20240524 152201)
+       [(3 9 8 0 20240526 110717)
 	((helm-core
 	  (3 9 8))
 	 (wfnames
-	  (1 1))
-	 (popup
-	  (0 5 3)))
+	  (1 1)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "04b2baa9abacdd6642c5ace055e0d62a70271bd8"))])
+	 (:commit . "dda71478e367f90288e0c1b98954e7408f888e45"))])
  (helm-core .
-	    [(3 9 8 0 20240524 152201)
+	    [(3 9 8 0 20240526 110717)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1211,7 +1209,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "04b2baa9abacdd6642c5ace055e0d62a70271bd8"))])
+	      (:commit . "dda71478e367f90288e0c1b98954e7408f888e45"))])
  (highlight-parentheses .
 			[(2 2 2 0 20240408 112634)
 			 ((emacs
