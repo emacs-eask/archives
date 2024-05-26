@@ -6577,13 +6577,13 @@
 	   (:keywords "tools")
 	   (:url . "https://github.com/kickingvegas/casual"))])
  (casual-avy .
-	     [(1 0 3 1 -4 20240519 2120)
+	     [(1 0 4 1 -4 20240526 2018)
 	      ((emacs
 		(29 1))
 	       (avy
 		(0 5 0)))
 	      "Casual Avy" tar
-	      ((:commit . "29a97e343e6da3cd5f1adb193fff36e3fa4ab986")
+	      ((:commit . "615f9dac1126d77b1d16c039ef98b63259bd1135")
 	       (:authors
 		("Charles Choi" . "kickingvegas@gmail.com"))
 	       (:maintainers
@@ -60395,6 +60395,19 @@
 		(:maintainer "Vox Pupuli" . "voxpupuli@groups.io")
 		(:keywords "languages")
 		(:url . "https://github.com/voxpupuli/puppet-mode"))])
+ (puppet-ts-mode .
+		 [(0 1 0 1 -4 20240525 730)
+		  ((emacs
+		    (29 1)))
+		  "Major mode for Puppet using Tree-sitter" tar
+		  ((:commit . "cc0fc5066cc7a3b25b1a242c9ce6d683c7e5aa83")
+		   (:authors
+		    ("Stefan Möding" . "stm@kill-9.net"))
+		   (:maintainers
+		    ("Stefan Möding" . "stm@kill-9.net"))
+		   (:maintainer "Stefan Möding" . "stm@kill-9.net")
+		   (:keywords "languages")
+		   (:url . "https://github.com/smoeding/puppet-ts-mode"))])
  (purescript-mode .
 		  [(1 2 1 -4 20230309 1301)
 		   ((emacs
@@ -66197,6 +66210,13 @@
 		     (:maintainer "Matthieu Petiteau" . "mpetiteau.pro@gmail.com")
 		     (:keywords "faces" "theme" "minimal")
 		     (:url . "http://github.com/smallwat3r/emacs-simplicity-theme"))])
+ (sink .
+       [(1 0 0 1 -4 20240523 747)
+	((emacs
+	  (25 1)))
+	"Receive messages from the plan9 plumber" tar
+	((:commit . "a14e1cc0a051543723c043a5ece081ce9a567ddd")
+	 (:url . "https://github.com/alcah/sink.el"))])
  (siri-shortcuts .
 		 [(0 3 1 -4 20211229 1833)
 		  ((emacs
@@ -71559,6 +71579,19 @@
 		  (:maintainer "Jim Tian" . "tianjin.sc@gmail.com")
 		  (:keywords "convenience" "quotes")
 		  (:url . "https://github.com/toctan/toggle-quotes.el"))])
+ (toggle-term .
+	      [(0 0 1 1 -4 20240526 2049)
+	       ((emacs
+		 (24 3)))
+	       "Quickly toggle persistent term and shell buffers" tar
+	       ((:commit . "80fe050478627ca36450d3cd145a313bc97fdb37")
+		(:authors
+		 ("justinlime"))
+		(:maintainers
+		 ("justinlime"))
+		(:maintainer "justinlime")
+		(:keywords "frames" "convenience" "terminals")
+		(:url . "https://github.com/justinlime/toggle-term.el"))])
  (toggle-test .
 	      [(1 0 2 1 -4 20140723 537)
 	       nil "Toggle between source and test files in various programming languages" tar
