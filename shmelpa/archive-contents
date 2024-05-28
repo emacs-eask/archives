@@ -48357,11 +48357,13 @@
 		 (:keywords "faces")
 		 (:url . "https://github.com/mrcnski/nimbus-theme"))])
  (ninja-mode .
-	     [(0 1 0 1 -4 20230421 1748)
+	     [(0 1 0 1 -4 20240528 1945)
 	      ((emacs
 		(24)))
 	      "Major mode for editing .ninja files" tar
-	      ((:commit . "adf9bddd73869084a505fac83246e55c35880079"))])
+	      ((:commit . "0b4b43aa3e2fee391443dcc0c961c9d2354d8954")
+	       (:keywords "languages")
+	       (:url . "https://ninja-build.org/"))])
  (nix-buffer .
 	     [(3 1 1 1 -4 20180212 1518)
 	      ((f
@@ -55968,21 +55970,6 @@
 		  (:maintainer "Philippe Vaucher" . "philippe.vaucher@gmail.com")
 		  (:keywords "package" "convenience")
 		  (:url . "https://github.com/Silex/package-utils"))])
- (packed .
-	 [(0 1 0 1 -4 20221130 2228)
-	  ((emacs
-	    (25 1))
-	   (compat
-	    (28 1 1 0)))
-	  "[DEPRECATED] Package manager agnostic Emacs Lisp package utilities" tar
-	  ((:commit . "169064f7acfe198cc7dd43d02518b773691e1314")
-	   (:authors
-	    ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	   (:maintainers
-	    ("Jonas Bernoulli" . "jonas@bernoul.li"))
-	   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li")
-	   (:keywords "lisp")
-	   (:url . "https://github.com/emacscollective/packed"))])
  (pacmacs .
 	  [(0 1 1 -4 20220106 2248)
 	   ((emacs
