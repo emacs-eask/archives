@@ -6604,6 +6604,19 @@
 		 (:maintainer "Charles Choi" . "kickingvegas@gmail.com")
 		 (:keywords "tools")
 		 (:url . "https://github.com/kickingvegas/casual-dired"))])
+ (casual-info .
+	      [(1 0 0 1 -4 20240531 1854)
+	       ((emacs
+		 (29 1)))
+	       "A Transient UI for Info" tar
+	       ((:commit . "0017be4be7e48cb291f856c99c65c415ec0dcea5")
+		(:authors
+		 ("Charles Choi" . "kickingvegas@gmail.com"))
+		(:maintainers
+		 ("Charles Choi" . "kickingvegas@gmail.com"))
+		(:maintainer "Charles Choi" . "kickingvegas@gmail.com")
+		(:keywords "tools")
+		(:url . "https://github.com/kickingvegas/casual-info"))])
  (catmacs .
 	  [(0 1 1 1 -4 20170826 1157)
 	   ((emacs
@@ -18183,7 +18196,7 @@
 		      (:maintainer "Yinghai Zhao" . "zyinghai@gmail.com")
 		      (:keywords "snippets"))])
  (ellama .
-	 [(0 9 6 1 -4 20240602 1504)
+	 [(0 9 7 1 -4 20240602 1852)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -18191,7 +18204,7 @@
 	   (spinner
 	    (1 7 4)))
 	  "Tool for interacting with LLMs" tar
-	  ((:commit . "ef2f43b45d42a086938322c73387833b2acdf94f")
+	  ((:commit . "361e1aa26541f2a8675fcda2c907fea4b68aff00")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
 	   (:maintainers
@@ -77891,6 +77904,17 @@
 	      "Zero Chinese input method framework" tar
 	      ((:commit . "e87bbf24c1475a784ad9d1ba8447e038824d796b")
 	       (:url . "https://gitlab.emacsos.com/sylecn/zero-el"))])
+ (zero-input-panel-posframe .
+			    [(1 0 1 1 -4 20240526 1604)
+			     ((emacs
+			       (24 4))
+			      (zero-input
+			       (2 9 0))
+			      (posframe
+			       (1 4 3)))
+			     "Posframe based zero-input panel implementation" tar
+			     ((:commit . "714102090ba87b75a06b87792df696f6f48c2ea8")
+			      (:url . "https://gitlab.emacsos.com/sylecn/zero-el"))])
  (zerodark-theme .
 		 [(4 3 1 -4 20211115 841)
 		  ((all-the-icons
