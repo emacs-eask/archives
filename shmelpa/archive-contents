@@ -14430,6 +14430,21 @@
 		("Matúš Goljer" . "matus.goljer@gmail.com"))
 	       (:maintainer "Matúš Goljer" . "matus.goljer@gmail.com")
 	       (:keywords "files"))])
+ (dired-open-with .
+		  [(1 0 1 -4 20240527 1855)
+		   ((emacs
+		     (27 1))
+		    (s
+		     (1 13 0)))
+		   "And \"Open with\" dialog for Dired" tar
+		   ((:commit . "e75bc673d11ecc1385e53c378c8f31d85d157113")
+		    (:authors
+		     ("Jakub Kadlčík" . "frostyx@email.cz"))
+		    (:maintainers
+		     ("Jakub Kadlčík" . "frostyx@email.cz"))
+		    (:maintainer "Jakub Kadlčík" . "frostyx@email.cz")
+		    (:keywords "files" "dired" "xdg" "open-with")
+		    (:url . "https://github.com/FrostyX/dired-open-with"))])
  (dired-posframe .
 		 [(1 0 0 1 -4 20200817 420)
 		  ((emacs
@@ -19319,6 +19334,21 @@
 		  (:maintainer "Ryan Davis")
 		  (:keywords "languages" "elisp" "ruby")
 		  (:url . "https://github.com/zenspider/Enhanced-Ruby-Mode"))])
+ (enlight .
+	  [(0 1 1 -4 20240601 1150)
+	   ((emacs
+	     (27 1))
+	    (compat
+	     (29 1 4 1)))
+	   "Highly customizable startup screen" tar
+	   ((:commit . "76753736da1777c8f9ebbeb08beec15b330a5878")
+	    (:authors
+	     ("Ilya Chernyshov" . "ichernyshovvv@gmail.com"))
+	    (:maintainers
+	     ("Ilya Chernyshov" . "ichernyshovvv@gmail.com"))
+	    (:maintainer "Ilya Chernyshov" . "ichernyshovvv@gmail.com")
+	    (:keywords "startup" "screen" "tools" "dashboard")
+	    (:url . "https://github.com/ichernyshovvv/enlight"))])
  (enlightened-theme .
 		    [(0 1 0 1 -4 20210220 2327)
 		     nil "A theme based on enlightened" tar
@@ -28370,6 +28400,19 @@
 			    (:maintainer "Vindarel")
 			    (:keywords "tools" "vc" "github" "gitlab" "bitbucket" "commit" "issues")
 			    (:url . "https://gitlab.com/emacs-stuff/git-commit-insert-issue/"))])
+ (git-commit-ts-mode .
+		     [(1 0 1 -4 20240527 708)
+		      ((emacs
+			(29 1)))
+		      "Tree-sitter support for Git commit messages" tar
+		      ((:commit . "04219fdac2a5c1816cd08141513770adc0c2a48b")
+		       (:authors
+			("Daniil Shvalov" . "daniil.shvalov@gmail.com"))
+		       (:maintainers
+			("Daniil Shvalov" . "daniil.shvalov@gmail.com"))
+		       (:maintainer "Daniil Shvalov" . "daniil.shvalov@gmail.com")
+		       (:keywords "tree-sitter" "git" "faces")
+		       (:url . "https://github.com/danilshvalov/git-commit-ts-mode"))])
  (git-dwim .
 	   [(0 1 0 1 -4 20170126 1214)
 	    nil "Context-aware git commands such as branch handling" tar
@@ -28394,6 +28437,25 @@
 	     (:maintainer "tychoish" . "garen@tychoish.com")
 	     (:keywords "matching" "files" "grep" "search" "using" "git-grep")
 	     (:url . "https://github.com/tychoish/git-grep.el"))])
+ (git-grep-transient .
+		     [(0 1 1 1 -4 20240521 648)
+		      ((emacs
+			(27 1))
+		       (magit
+			(3 3 0))
+		       (transient
+			(0 6 0))
+		       (symbol-overlay
+			(4 2)))
+		      "Search for text using git grep command" tar
+		      ((:commit . "c9eb6d76e6b0600d2f90d009fdc28a171f69dd80")
+		       (:authors
+			("Alain Delplanque" . "alaindelplanque@mailoo.org"))
+		       (:maintainers
+			("Alain Delplanque" . "alaindelplanque@mailoo.org"))
+		       (:maintainer "Alain Delplanque" . "alaindelplanque@mailoo.org")
+		       (:keywords "git" "tools" "vc")
+		       (:url . "https://github.com/adelplanque/git-grep-transient"))])
  (git-gutter .
 	     [(0 92 1 -4 20240425 647)
 	      ((emacs
@@ -35515,6 +35577,18 @@
 	       (:maintainer "Ian Eure" . "ian@retrospec.tv")
 	       (:keywords "tools" "convenience")
 	       (:url . "https://github.com/ieure/hyperspace-el"))])
+ (hyperstitional-themes .
+			[(1 2 1 -4 20240528 2016)
+			 ((emacs
+			   (24 1)))
+			 "Weird themes with incremental palettes" tar
+			 ((:commit . "e87e4ca39384c75398c64c920bf4cbc253f6740b")
+			  (:authors
+			   ("precompute" . "git@precompute.net"))
+			  (:maintainers
+			   ("precompute" . "git@precompute.net"))
+			  (:maintainer "precompute" . "git@precompute.net")
+			  (:url . "https://github.com/precompute/hyperstitional-themes"))])
  (i-ching .
 	  [(0 2 1 -4 20230530 937)
 	   ((emacs
@@ -45694,7 +45768,7 @@
 	   (:keywords "multimedia" "elisp" "music" "mpd")
 	   (:url . "https://github.com/pft/mingus"))])
  (mini-echo .
-	    [(0 10 0 1 -4 20240602 1242)
+	    [(0 11 0 1 -4 20240602 1724)
 	     ((emacs
 	       (29 1))
 	      (dash
@@ -45702,7 +45776,7 @@
 	      (hide-mode-line
 	       (1 0 3)))
 	     "Echo buffer status in minibuffer window" tar
-	     ((:commit . "6d419f8b118fa2858da3563e2dfeadcbc51e8902")
+	     ((:commit . "bba194a1e4d3cf243917ed0a456de6a689f78115")
 	      (:authors
 	       ("liuyinz" . "liuyinz95@gmail.com"))
 	      (:maintainers
