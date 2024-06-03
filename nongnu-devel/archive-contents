@@ -250,7 +250,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "33770dec73138909714711b05a63e79da5a19ccd"))])
  (cider .
-	[(1 15 0 -4 0 20240602 121308)
+	[(1 15 0 -4 0 20240603 72126)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -278,7 +278,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "5f79b02fda70179349ba34a4fed1436708c669c3"))])
+	  (:commit . "49b15275d771db3a627dfcb37ec10df45f1adbf0"))])
  (clojure-mode .
 	       [(5 20 0 -4 0 20240527 53403)
 		((emacs
@@ -347,6 +347,18 @@
 	 (:authors
 	  ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	 (:commit . "6ed75a69f542fb7feab6b8f182caf0924b3fb510"))])
+ (csv2ledger .
+	     [(1 5 2 0 20240602 211519)
+	      ((emacs
+		(29 1))
+	       (csv-mode
+		(1 24)))
+	      "Convert csv files to ledger entries" tar
+	      ((:url . "https://codeberg.org/joostkremers/csv2ledger")
+	       (:maintainer "Joost Kremers" . "joostkremers@fastmail.fm")
+	       (:authors
+		("Joost Kremers" . "joostkremers@fastmail.fm"))
+	       (:commit . "1d1004507c4973b35f54d3b7207ee0477e067ba3"))])
  (cyberpunk-theme .
 		  [(1 22 0 20240112 144451)
 		   nil "Cyberpunk Color Theme" tar
@@ -2366,13 +2378,13 @@
 	    ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
 	   (:commit . "1d53723e39f22ab4ab76d31f2b188a2879305092"))])
  (typescript-mode .
-		  [(0 4 0 20240507 61711)
+		  [(0 4 0 20240603 63040)
 		   ((emacs
 		     (24 3)))
 		   "Major mode for editing typescript" tar
 		   ((:url . "http://github.com/ananthakumaran/typescript.el")
 		    (:keywords "typescript" "languages")
-		    (:commit . "1cf78d7ef8e0a1684a2cf265539c54ccff4068c0"))])
+		    (:commit . "5bb294411ff06ad40186bb7ca141fdbfff902e09"))])
  (ujelly-theme .
 	       [(1 2 9 0 20180214 162459)
 		nil "Ujelly theme for GNU Emacs 24 (deftheme)" tar
@@ -2580,7 +2592,7 @@
 	       ("Marshall T. Vandegrift" . "llasram@gmail.com"))
 	      (:commit . "7b5ce294fb15c2c8926fa476d7218aa415550a2a"))])
  (yasnippet-snippets .
-		     [(1 0 0 20240507 94334)
+		     [(1 0 0 20240603 75736)
 		      ((yasnippet
 			(0 8 0)))
 		      "Collection of yasnippet snippets" tar
@@ -2589,7 +2601,7 @@
 		       (:maintainer "Andrea Crotti" . "andrea.crotti.0@gmail.com")
 		       (:authors
 			("Andrea Crotti" . "andrea.crotti.0@gmail.com"))
-		       (:commit . "6fafad13bb4689600285d9e38c61958dd63c356d"))])
+		       (:commit . "1bf034887c4048c38266842686b7f9c8384f72e7"))])
  (zenburn-theme .
 		[(2 9 0 -4 0 20240331 135521)
 		 nil "A low contrast color theme for Emacs." tar
