@@ -7526,7 +7526,7 @@
 		(:maintainer "Adam Chyła" . "adam@chyla.org")
 		(:url . "https://github.com/chyla/ChylaThemeForEmacs"))])
  (cider .
-	[(1 15 0 -4 20240603 825)
+	[(1 15 0 -4 20240603 1315)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -7544,7 +7544,7 @@
 	  (transient
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
-	 ((:commit . "03981778afc601f0ff703eb818c87760af6ef206")
+	 ((:commit . "78e4a1c9b904e32f1a95b9e74beff3b1e64b33c9")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
 	   ("Phil Hagelberg" . "technomancy@gmail.com")
@@ -19494,19 +19494,19 @@
 	  (:keywords "comm" "processes" "terminals" "unix")
 	  (:url . "https://github.com/sean-hut/eping"))])
  (epkg .
-       [(0 1 0 1 -4 20240415 1554)
+       [(0 1 0 1 -4 20240603 1436)
 	((emacs
-	  (25 1))
+	  (26 1))
 	 (compat
-	  (29 1 4 1))
+	  (29 1 4 5))
 	 (closql
-	  (20230407))
+	  (20240601))
 	 (emacsql
-	  (20230409))
+	  (20240415))
 	 (llama
-	  (0 2 0)))
+	  (0 3 1)))
 	"Browse the Emacsmirror package database" tar
-	((:commit . "91c3e441eaa9f85b13d5957ee82f7c440addd147")
+	((:commit . "c3a6599e76481e5a83edd601cdbf17f0cc2e931a")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))
 	 (:maintainers
@@ -20861,7 +20861,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20240531 1609)
+       [(1 15 0 1 -4 20240603 1454)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -20869,7 +20869,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible vi layer" tar
-	((:commit . "9fada7828a1afadbec1f84675ce3c8e9729e1cdc")
+	((:commit . "3ba76c1c1f6e8f0389d7bebbd220eefaca796da4")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulations")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -39288,11 +39288,11 @@
 	  (:keywords "languages" "tools")
 	  (:url . "http://jtags.sourceforge.net"))])
  (jtsx .
-       [(0 5 0 -1 1 1 -4 20240519 1546)
+       [(0 5 0 1 -4 20240603 1501)
 	((emacs
 	  (29 1)))
 	"Extends JSX/TSX built-in support" tar
-	((:commit . "7bbf02f046e375c23fe5a90eb0a9557e843eba41")
+	((:commit . "2ad20cef1b2a6fc1e8b282f34127de82f6e463b1")
 	 (:authors
 	  ("Loïc Lemaître" . "loic.lemaitre@gmail.com"))
 	 (:maintainers
