@@ -59418,13 +59418,15 @@
 		    (:keywords "tex")
 		    (:url . "https://github.com/TobiasZawada/preview-dvisvgm"))])
  (prism .
-	[(0 3 2 1 -4 20230524 1130)
+	[(0 3 3 1 -4 20240603 2115)
 	 ((emacs
-	   (26 1))
+	   (27 1))
+	  (compat
+	   (29 1 4 5))
 	  (dash
 	   (2 14 1)))
 	 "Customizable, depth-based syntax coloring" tar
-	 ((:commit . "169b49afa91e69d35b8756df49ed3ca06f418d35")
+	 ((:commit . "f64f9811b80a80956ddfb4a017254389b378ab3f")
 	  (:authors
 	   ("Adam Porter" . "adam@alphapapa.net"))
 	  (:maintainers
@@ -72036,7 +72038,7 @@
 		(:keywords "comm" "convenience" "files")
 		(:url . "https://gitlab.com/tuedachu/transfer-sh.el"))])
  (transient .
-	    [(0 6 0 1 -4 20240603 1505)
+	    [(0 6 0 1 -4 20240603 2200)
 	     ((emacs
 	       (26 1))
 	      (compat
@@ -72044,7 +72046,7 @@
 	      (seq
 	       (2 24)))
 	     "Transient commands" tar
-	     ((:commit . "3ead3849420b82e08214a5a25e69dbe1becf5647")
+	     ((:commit . "bf2901927dce31d5522db95c6ab22a93f7738a09")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
 	      (:maintainers
