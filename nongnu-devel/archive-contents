@@ -508,7 +508,7 @@
 		   ("Fanael Linithien" . "fanael4@gmail.com"))
 		  (:commit . "82a28d8a85277cfe453af464603ea330eae41c05"))])
  (editorconfig .
-	       [(0 11 0 0 20240604 60256)
+	       [(0 11 0 0 20240607 155206)
 		((emacs
 		  (26 1))
 		 (nadvice
@@ -519,7 +519,7 @@
 		 (:maintainer "EditorConfig Team" . "editorconfig@googlegroups.com")
 		 (:authors
 		  ("EditorConfig Team" . "editorconfig@googlegroups.com"))
-		 (:commit . "0ce1abc65bfb030ccec97b0d4231667ca431e663"))])
+		 (:commit . "1651294334f3987d749eeb287f11d256cf2ba5b1"))])
  (elixir-mode .
 	      [(2 5 0 0 20230626 143859)
 	       ((emacs
@@ -1012,7 +1012,7 @@
 		   ("Jeronimo Pellegrini" . "(j_p@aleph0.info)"))
 		  (:commit . "efdac7298e3a64f1138e3949b3312f491f2c706a"))])
  (git-commit .
-	     [(3 3 0 50 -4 0 20240605 150038)
+	     [(3 3 0 50 -4 0 20240607 181704)
 	      ((emacs
 		(26 1))
 	       (compat
@@ -1032,7 +1032,7 @@
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
 		("Florian Ragwitz" . "rafl@debian.org")
 		("Marius Vollmer" . "marius.vollmer@gmail.com"))
-	       (:commit . "8b2d4b03ecf9635c165d1c0f90cd6f2eb415cafa"))])
+	       (:commit . "fb714e9796350e31b0a7e2b8e155ec75e0136e88"))])
  (git-modes .
 	    [(1 4 2 0 20240415 153833)
 	     ((emacs
@@ -1266,13 +1266,15 @@
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:commit . "ed5e5b05fd260e8f161a488d56f10e7f6e01fb75"))])
  (hyperdrive .
-	     [(0 4 -1 0 20240531 161215)
+	     [(0 4 -1 0 20240607 142215)
 	      ((emacs
 		(28 1))
 	       (map
 		(3 0))
 	       (compat
 		(29 1 4 4))
+	       (org
+		(9 7 3))
 	       (plz
 		(0 7 2))
 	       (persist
@@ -1286,7 +1288,7 @@
 	       (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
-	       (:commit . "bb7a699a4bc44ffa448ceddfd4cb89a0c6bc93aa"))])
+	       (:commit . "5230b1103d87e06a913ef023a7d09c7e81e1cb92"))])
  (idle-highlight-mode .
 		      [(1 1 4 0 20240421 64727)
 		       ((emacs
@@ -1467,7 +1469,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "4939d88779761e8b5461b4cf73f86600172987db"))])
  (magit .
-	[(3 3 0 50 -4 0 20240605 150038)
+	[(3 3 0 50 -4 0 20240607 181704)
 	 ((emacs
 	   (26 1))
 	  (compat
@@ -1493,9 +1495,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	  (:commit . "8b2d4b03ecf9635c165d1c0f90cd6f2eb415cafa"))])
+	  (:commit . "fb714e9796350e31b0a7e2b8e155ec75e0136e88"))])
  (magit-section .
-		[(3 3 0 50 -4 0 20240605 150038)
+		[(3 3 0 50 -4 0 20240607 181704)
 		 ((emacs
 		   (26 1))
 		  (compat
@@ -1510,7 +1512,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "8b2d4b03ecf9635c165d1c0f90cd6f2eb415cafa"))])
+		  (:commit . "fb714e9796350e31b0a7e2b8e155ec75e0136e88"))])
  (markdown-mode .
 		[(2 7 -3 0 20240501 105706)
 		 ((emacs
@@ -1965,14 +1967,14 @@
 	       ("David Christiansen" . "david@davidchristiansen.dk"))
 	      (:commit . "50b102c1c0935fd3e0c465feed7f27d66b21cdf3"))])
  (racket-mode .
-	      [(1 0 20240514 112412)
+	      [(1 0 20240607 81112)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
 	       ((:url . "https://www.racket-mode.com/")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com"))
-		(:commit . "d2cff2b7f210846108875c7eccb1b5ab98bceb74"))])
+		(:commit . "ac5ede46b55b7602548c895272c8ab9c82053b2f"))])
  (rainbow-delimiters .
 		     [(2 1 5 0 20230830 160022)
 		      nil "Highlight brackets according to their depth" tar
@@ -2500,7 +2502,7 @@
 	      ("Akib Azmain Turja" . "akib@disroot.org"))
 	     (:commit . "5203d9379afaf6703746823a580c804e1dd98e08"))])
  (with-editor .
-	      [(3 3 2 0 20240415 155856)
+	      [(3 3 2 0 20240607 182730)
 	       ((emacs
 		 (25 1))
 		(compat
@@ -2511,7 +2513,7 @@
 		(:maintainer "Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev")
 		(:authors
 		 ("Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev"))
-		(:commit . "1b4526453ef6bdee30635f469aa26085c02b1ac1"))])
+		(:commit . "0361482f3eba7289530d667b552df855f11c2cdd"))])
  (with-simulated-input .
 		       [(3 0 0 20210602 224623)
 			((emacs
