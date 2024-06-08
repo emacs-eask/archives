@@ -2880,11 +2880,11 @@
 		     (:maintainer "sabof")
 		     (:url . "https://github.com/sabof/auto-auto-indent"))])
  (auto-compile .
-	       [(2 0 0 1 -4 20240415 1533)
+	       [(2 0 1 1 -4 20240607 2343)
 		((emacs
 		  (26 1)))
 		"Automatically compile Emacs Lisp libraries" tar
-		((:commit . "01844064e3f2bb9f109a8a064998baf89a864fbc")
+		((:commit . "fc5b66cc6ee0f7dcf0b54ce576f46c0e2fa8c4e8")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.auto-compile@jonas.bernoulli.dev"))
 		 (:maintainers
@@ -13191,9 +13191,9 @@
 	     (:keywords "tools")
 	     (:url . "https://github.com/Wilfred/deadgrep"))])
  (debian-el .
-	    [(37 12 1 -4 20240519 1104)
+	    [(37 13 -4 20240606 2249)
 	     nil "startup file for the debian-el package" tar
-	     ((:commit . "a76a38cf0af5625b38e1d298bbfa3ae5a2a1ebc9")
+	     ((:commit . "aed8571894f44a3e2394ed201c94f138b2d24365")
 	      (:authors
 	       ("Debian Emacsen Team" . "debian-emacsen@lists.debian.org"))
 	      (:maintainers
@@ -15647,9 +15647,13 @@
 	      (:maintainer "Thejaswi Puthraya" . "thejaswi.puthraya@gmail.com")
 	      (:keywords "pastebin"))])
  (dpkg-dev-el .
-	      [(37 12 1 -4 20240421 628)
-	       nil "startup file for the elpa-dpkg-dev-el package" tar
-	       ((:commit . "acfc3bd42271286d22d7cbadd48a5b9d5675f85c")
+	      [(37 13 -4 20240607 640)
+	       ((emacs
+		 (27 1))
+		(debian-el
+		 (37 0)))
+	       "startup file for the elpa-dpkg-dev-el package" tar
+	       ((:commit . "215b4a03e37242d39e8049084b69e74d75ee8907")
 		(:authors
 		 ("Peter S Galbraith" . "psg@debian.org"))
 		(:maintainers
@@ -18870,13 +18874,13 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(1 1 1 -4 20240419 452)
+	 [(1 1 1 -4 20240607 2213)
 	  ((emacs
 	    (27 1))
 	   (compat
 	    (29 1 4 0)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "195add1f1ccd1059472c9df7334c97c4d155425e")
+	  ((:commit . "9c166c4b96a0b1e85401bcc6fb95ce021e7b5013")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	   (:maintainers
@@ -27368,13 +27372,13 @@
 	  ("Natalie Weizenbaum" . "nweiz@google.com"))
 	 (:maintainer "Natalie Weizenbaum" . "nweiz@google.com"))])
  (fussy .
-	[(1 0 1 -4 20240224 1641)
+	[(1 0 1 -4 20240607 2153)
 	 ((emacs
 	   (27 2))
 	  (flx
 	   (0 5)))
 	 "Fuzzy completion style using `flx'" tar
-	 ((:commit . "0f58683355986e3f8d49734cb1f2ecdd71729439")
+	 ((:commit . "21f4ac6b971f61890d46308d7ac5db64c20228e6")
 	  (:authors
 	   ("James Nguyen" . "james@jojojames.com"))
 	  (:maintainers
@@ -31136,7 +31140,7 @@
 		(:keywords "wp" "languages" "comm")
 		(:url . "https://github.com/lightquake/hamlet-mode"))])
  (hammy .
-	[(0 3 -1 1 -4 20240423 407)
+	[(0 3 -1 1 -4 20240607 2122)
 	 ((emacs
 	   (28 1))
 	  (svg-lib
@@ -31144,7 +31148,7 @@
 	  (ts
 	   (0 2 2)))
 	 "Programmable, interactive interval timers" tar
-	 ((:commit . "e3b2e365140abd87537edc09cd87fb04268bc439")
+	 ((:commit . "694617b8edc187981067d62475c82f865b5468cc")
 	  (:authors
 	   ("Adam Porter" . "adam@alphapapa.net"))
 	  (:maintainers
@@ -35522,7 +35526,7 @@
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:url . "http://www.gnu.org/software/hyperbole"))])
  (hyperdrive .
-	     [(0 4 -1 1 -4 20240607 2030)
+	     [(0 4 -1 1 -4 20240607 2048)
 	      ((emacs
 		(28 1))
 	       (map
@@ -35540,7 +35544,7 @@
 	       (transient
 		(0 6 0)))
 	      "P2P filesystem" tar
-	      ((:commit . "f734bc49b243900b6ea3d3daf8869806a4cfb5e7")
+	      ((:commit . "ea8e4317ccea886a1b2dc010d7c22fa53cda6e59")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
 	       (:maintainers
