@@ -61491,6 +61491,20 @@
 	 (:maintainer "Dave Pearson" . "davep@davep.org")
 	 (:keywords "games" "trivia" "quiz")
 	 (:url . "https://github.com/davep/quiz.el"))])
+ (qwen-chat-shell .
+		  [(0 0 1 1 -4 20240604 1050)
+		   ((emacs
+		     (27 1))
+		    (shell-maker
+		     (0 50 1)))
+		   "Qwen-chat shell + buffer insert commands" tar
+		   ((:commit . "ad6f162667e00f2313a3d98d8b6f41c88386a0ac")
+		    (:authors
+		     ("Pavinberg" . "pavin0702@gmail.com"))
+		    (:maintainers
+		     ("Pavinberg" . "pavin0702@gmail.com"))
+		    (:maintainer "Pavinberg" . "pavin0702@gmail.com")
+		    (:url . "https://github.com/Pavinberg/qwen-chat-shell"))])
  (r-autoyas .
 	    [(0 28 1 -4 20140101 1510)
 	     ((ess
@@ -62591,6 +62605,18 @@
 	      (:maintainer "Sibi Prabakaran" . "sibi@psibi.in")
 	      (:keywords "languages")
 	      (:url . "https://github.com/psibi/rego-mode"))])
+ (regswap .
+	  [(1 0 1 -4 20240602 2051)
+	   ((emacs
+	     (24 3)))
+	   "Functionality for swapping two regions" tar
+	   ((:commit . "65e2319e013c5d59f338edde12b98ef1c737e870")
+	    (:authors
+	     ("Sergey Kitov"))
+	    (:maintainers
+	     ("Sergey Kitov"))
+	    (:maintainer "Sergey Kitov")
+	    (:url . "http://github.com/skitov/regswap"))])
  (related .
 	  [(0 0 1 1 -4 20190327 1024)
 	   ((cl-lib
@@ -74745,6 +74771,19 @@
 		("ongaeshi" . "ongaeshi0621@gmail.com"))
 	       (:maintainer "ongaeshi" . "ongaeshi0621@gmail.com")
 	       (:url . "https://github.com/ongaeshi/emacs-vim-region"))])
+ (vim-tab-bar .
+	      [(1 0 0 1 -4 20240603 1259)
+	       ((emacs
+		 (28 1)))
+	       "Vim-like tab bar" tar
+	       ((:commit . "2199ef6c8a15984865c7569aee44dbb8f5c37b83")
+		(:authors
+		 ("James Cherti"))
+		(:maintainers
+		 ("James Cherti"))
+		(:maintainer "James Cherti")
+		(:keywords "frames")
+		(:url . "https://github.com/jamescherti/vim-tab-bar.el"))])
  (vimgolf .
 	  [(0 10 4 -4 20200205 1420)
 	   nil "VimGolf interface for the One True Editor" tar
