@@ -74378,11 +74378,11 @@
 		    ((:commit . "db60ce0fe327ae7e4371545179ed94483b1132a8")
 		     (:url . "http://github.com/emacsfodder/emacs-theme-vegetative"))])
  (verb .
-       [(2 16 0 1 -4 20240426 2014)
+       [(2 16 0 1 -4 20240609 1723)
 	((emacs
 	  (26 3)))
 	"Organize and send HTTP requests" tar
-	((:commit . "24784e7a81a937b4b294a2a57238999c53d6e5d1")
+	((:commit . "5caa09dd24a3aeefe53ced5250a2ae4e638e576b")
 	 (:authors
 	  ("Federico Tedin" . "federicotedin@gmail.com"))
 	 (:maintainers
@@ -76435,6 +76435,21 @@
 	      (:maintainer "10sr <8.slashes [at] gmail [dot] com>")
 	      (:keywords "processes" "python" "venv")
 	      (:url . "https://github.com/10sr/with-venv-el"))])
+ (wiz .
+      [(0 0 4 1 -4 20240528 2109)
+       ((emacs
+	 (29 1))
+	(exec-path-from-shell
+	 (2 1)))
+       "Macros to simplify startup initialization" tar
+       ((:commit . "25977a054b9c35c4ab337043efa8a73ed59fb7d6")
+	(:authors
+	 ("USAMI Kenta" . "tadsan@zonu.me"))
+	(:maintainers
+	 ("USAMI Kenta" . "tadsan@zonu.me"))
+	(:maintainer "USAMI Kenta" . "tadsan@zonu.me")
+	(:keywords "convenience" "lisp")
+	(:url . "https://github.com/zonuexe/emacs-wiz"))])
  (wn-mode .
 	  [(0 1 0 1 -4 20151110 552)
 	   ((emacs
@@ -78073,7 +78088,7 @@
 	     (:keywords "zig" "languages")
 	     (:url . "https://github.com/zig-lang/zig-mode"))])
  (zim-wiki-mode .
-		[(0 2 0 1 -4 20230927 1410)
+		[(0 2 0 1 -4 20240609 1712)
 		 ((emacs
 		   (25 1))
 		  (helm-ag
@@ -78087,7 +78102,7 @@
 		  (pretty-hydra
 		   (0 2 2)))
 		 "Zim Desktop Wiki edit mode" tar
-		 ((:commit . "7c62e0304750654709b4173bcc1e2681cf1fbe49")
+		 ((:commit . "5316f7609771ed6c61b54a2bb81dfde64581a557")
 		  (:authors
 		   ("Will Foran" . "willforan+zim-wiki-mode@gmail.com"))
 		  (:maintainers
