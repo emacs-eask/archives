@@ -13506,6 +13506,27 @@
 		 (:maintainer "Graham Marlow" . "info@mgmarlow.com")
 		 (:keywords "languages")
 		 (:url . "https://git.sr.ht/~mgmarlow/deno-ts-mode"))])
+ (denote-citar-sections .
+			[(0 2 0 1 -4 20240608 1629)
+			 ((emacs
+			   (26 1))
+			  (denote
+			   (2 2 4))
+			  (universal-sidecar
+			   (2 5 0))
+			  (citar-denote
+			   (2 2 2))
+			  (citar
+			   (1 4)))
+			 "Universal Sidecar sections for citar-denote" tar
+			 ((:commit . "00c7084652fa32f9f4ab504facaaed623f299684")
+			  (:authors
+			   ("Samuel W. Flint" . "me@samuelwflint.com"))
+			  (:maintainers
+			   ("Samuel W. Flint" . "me@samuelwflint.com"))
+			  (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
+			  (:keywords "convenience" "files" "hypermedia" "notes")
+			  (:url . "https://git.sr.ht/~swflint/denote-sections"))])
  (denote-explore .
 		 [(1 6 1 -4 20240608 251)
 		  ((emacs
@@ -13522,6 +13543,23 @@
 		    ("Peter Prevos" . "peter@prevos.net"))
 		   (:maintainer "Peter Prevos" . "peter@prevos.net")
 		   (:url . "https://github.com/pprevos/denote-explore/"))])
+ (denote-sections .
+		  [(0 2 0 1 -4 20240608 1629)
+		   ((universal-sidecar
+		     (2 5 0))
+		    (denote
+		     (2 2 4))
+		    (emacs
+		     (27 1)))
+		   "Universal Sidecar Sections for Denote" tar
+		   ((:commit . "00c7084652fa32f9f4ab504facaaed623f299684")
+		    (:authors
+		     ("Samuel W. Flint" . "me@samuelwflint.com"))
+		    (:maintainers
+		     ("Samuel W. Flint" . "me@samuelwflint.com"))
+		    (:maintainer "Samuel W. Flint" . "me@samuelwflint.com")
+		    (:keywords "convenience" "files" "notes" "hypermedia")
+		    (:url . "https://git.sr.ht/~swflint/denote-sections"))])
  (derl .
        [(0 1 1 -4 20231004 821)
 	((emacs
@@ -35526,7 +35564,7 @@
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:url . "http://www.gnu.org/software/hyperbole"))])
  (hyperdrive .
-	     [(0 4 -1 1 -4 20240609 1721)
+	     [(0 4 -1 1 -4 20240609 1832)
 	      ((emacs
 		(28 1))
 	       (map
@@ -35544,7 +35582,7 @@
 	       (transient
 		(0 6 0)))
 	      "P2P filesystem" tar
-	      ((:commit . "d48e43042390c159db7fca4e3299aebf9cbc5a1e")
+	      ((:commit . "5a0ab0042d7b0de222f544f2ebd3c77acc14493d")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
 	       (:maintainers
@@ -43078,7 +43116,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(9 0 1 1 -4 20240531 2326)
+	   [(9 0 1 1 -4 20240609 1830)
 	    ((emacs
 	      (27 1))
 	     (dash
@@ -43096,7 +43134,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "acad044ebc343c1eff0d9a875a13fb34ad113a9e")
+	    ((:commit . "171d5a6f67cd80b493086439d4331a0a51ed6ce6")
 	     (:authors
 	      ("Vibhav Pant, Fangrui Song, Ivan Yonchovski"))
 	     (:maintainers
