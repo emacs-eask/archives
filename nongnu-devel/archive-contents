@@ -250,7 +250,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "33770dec73138909714711b05a63e79da5a19ccd"))])
  (cider .
-	[(1 15 0 -4 0 20240608 224426)
+	[(1 15 0 0 20240610 165640)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -278,7 +278,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "05e7570e33d1aa795b1a0f85a6aa2162b42b93cd"))])
+	  (:commit . "f5928ebe49f26fb16f607251c1f59496a1a79eda"))])
  (clojure-mode .
 	       [(5 20 0 -4 0 20240527 53403)
 		((emacs
@@ -1266,7 +1266,7 @@
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:commit . "ed5e5b05fd260e8f161a488d56f10e7f6e01fb75"))])
  (hyperdrive .
-	     [(0 4 -1 0 20240610 5157)
+	     [(0 4 -1 0 20240610 124551)
 	      ((emacs
 		(28 1))
 	       (map
@@ -1276,7 +1276,7 @@
 	       (org
 		(9 7 3))
 	       (plz
-		(0 7 2))
+		(0 9 0))
 	       (persist
 		(0 6))
 	       (taxy-magit-section
@@ -1288,7 +1288,7 @@
 	       (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
-	       (:commit . "ce7b87f3e73acd1b5708f8c49586807b72cab5dd"))])
+	       (:commit . "d43b015997f475aff5d752062f09f5c07cfa7ddf"))])
  (idle-highlight-mode .
 		      [(1 1 4 0 20240421 64727)
 		       ((emacs
@@ -1299,7 +1299,7 @@
 			(:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 			(:commit . "531be0c2d6dc13c525138c1c9a0f59ac42268f58"))])
  (idris-mode .
-	     [(1 1 0 0 20240423 132018)
+	     [(1 1 0 0 20240610 94409)
 	      ((emacs
 		(24))
 	       (prop-menu
@@ -1309,7 +1309,7 @@
 	      "Major mode for editing Idris code" tar
 	      ((:url . "https://github.com/idris-hackers/idris-mode")
 	       (:keywords "languages")
-	       (:commit . "aa580b61eb3d409ae9ceb141547937ad27fae24c"))])
+	       (:commit . "01ecdba625c6254fd0d0835ae07ef4930d55083e"))])
  (iedit .
 	[(0 9 9 9 9 0 20220216 75011)
 	 nil "Edit multiple regions in the same way simultaneously." tar
@@ -1344,18 +1344,18 @@
 	      ("Kyle Hargraves" . "pd@krh.me"))
 	     (:commit . "0cfe8b2fb1ab222ed423a8e6f339d398fa32966f"))])
  (inkpot-theme .
-	       [(0 1 0 20220507 111829)
+	       [(0 1 0 20240610 140611)
 		((emacs
 		  (24 1)))
 		"A port of vim's inkpot theme" tar
-		((:url . "https://codeberg.com/ideasman42/emacs-inkpot-theme")
+		((:url . "https://codeberg.org/ideasman42/emacs-inkpot-theme")
 		 (:maintainer
 		  ("Sarah Iovan" . "sarah@hwaetageek.com")
 		  ("Campbell Barton" . "ideasman42@gmail.com"))
 		 (:authors
 		  ("Sarah Iovan" . "sarah@hwaetageek.com")
 		  ("Campbell Barton" . "ideasman42@gmail.com"))
-		 (:commit . "59056ef2e8850d33abc6e787219fcff404217afc"))])
+		 (:commit . "259272084f8ead2453f83f526ed95061f879d464"))])
  (iwindow .
 	  [(1 1 0 20230920 203903)
 	   ((emacs
@@ -1626,7 +1626,7 @@
 		      ("Magnar Sveen" . "magnars@gmail.com"))
 		     (:commit . "c870c18462461df19382ecd2f9374c8b902cd804"))])
  (nasm-mode .
-	    [(1 1 1 0 20190409 234208)
+	    [(1 1 1 0 20240610 150504)
 	     ((emacs
 	       (24 3)))
 	     "NASM x86 assembly major mode" tar
@@ -1634,7 +1634,7 @@
 	      (:maintainer "Christopher Wellons" . "wellons@nullprogram.com")
 	      (:authors
 	       ("Christopher Wellons" . "wellons@nullprogram.com"))
-	      (:commit . "65ca6546fc395711fac5b3b4299e76c2303d43a8"))])
+	      (:commit . "7079eb4ce14d94830513facf9bf2fca9e030a4d1"))])
  (nginx-mode .
 	     [(1 1 10 0 20240412 40234)
 	      nil "major mode for editing nginx config files" tar
@@ -2143,14 +2143,14 @@
 	(:keywords "languages" "lisp" "sly")
 	(:commit . "ba40c8f054ec3b7040a6c36a1ef3e9596b936421"))])
  (smartparens .
-	      [(1 11 0 0 20240418 123148)
+	      [(1 11 0 0 20240610 125124)
 	       nil "Automatic insertion, wrapping and paredit-like navigation with user defined pairs." tar
 	       ((:url . "https://github.com/Fuco1/smartparens")
 		(:keywords "abbrev" "convenience" "editing")
 		(:maintainer "Matus Goljer" . "matus.goljer@gmail.com")
 		(:authors
 		 ("Matus Goljer" . "matus.goljer@gmail.com"))
-		(:commit . "a5c68cac1bea737b482a37aa92de4f6efbf7580b"))])
+		(:commit . "f7cf316715e5018186c226aab8242c9e5ce131c8"))])
  (solarized-theme .
 		  [(2 0 1 0 20231204 71322)
 		   ((emacs
