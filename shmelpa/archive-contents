@@ -72648,6 +72648,18 @@
 		 (:maintainer "Robb Enzmann" . "robbenzmann@gmail.com")
 		 (:keywords "treesitter" "auto" "automatic" "major" "mode" "fallback" "convenience")
 		 (:url . "https://github.com/renzmann/treesit-auto.git"))])
+ (treesit-ispell .
+		 [(0 1 0 1 -4 20240611 117)
+		  ((emacs
+		    (29 1)))
+		  "Run ispell on tree-sitter text nodes" tar
+		  ((:commit . "56740dccd5a72277fa05f19491e032e0c4701ad2")
+		   (:authors
+		    ("Erick Navarro" . "erick@navarro.io"))
+		   (:maintainers
+		    ("Erick Navarro" . "erick@navarro.io"))
+		   (:maintainer "Erick Navarro" . "erick@navarro.io")
+		   (:url . "https://github.com/erickgnavar/treesit-ispell.el"))])
  (treeview .
 	   [(1 2 0 1 -4 20230728 2343)
 	    ((emacs
