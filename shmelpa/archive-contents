@@ -29821,11 +29821,11 @@
 	   (:keywords "tools")
 	   (:url . "https://github.com/brantou/emacs-go-tag"))])
  (go-translate .
-	       [(3 0 5 1 -4 20240605 806)
+	       [(3 0 5 1 -4 20240613 233)
 		((emacs
 		  (28 1)))
 		"Translation framework, configurable and scalable" tar
-		((:commit . "64a01dc5cc1cbf1b79edbd970a94661f1a4dad90")
+		((:commit . "32fad2479641c85a920dfefb4d57ab1d5b54d173")
 		 (:authors
 		  ("lorniu" . "lorniu@gmail.com"))
 		 (:maintainers
@@ -33262,9 +33262,11 @@
 			(:keywords "org" "outlines")
 			(:url . "https://github.com/akirak/org-multi-wiki"))])
  (helm-org-ql .
-	      [(0 6 1 1 -4 20240403 2026)
+	      [(0 6 2 1 -4 20240613 355)
 	       ((emacs
 		 (26 1))
+		(compat
+		 (29 1 4 5))
 		(dash
 		 (2 18 1))
 		(s
@@ -33274,7 +33276,7 @@
 		(org-ql
 		 (0 6 -1)))
 	       "Helm support for org-ql" tar
-	       ((:commit . "1f264bf4649dc2ad90f16a763794561ee6164d84")
+	       ((:commit . "f7c3a61e32e8da62da1e69a2a79ec5b333a7d1f5")
 		(:authors
 		 ("Adam Porter" . "adam@alphapapa.net"))
 		(:maintainers
@@ -35564,7 +35566,7 @@
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:url . "http://www.gnu.org/software/hyperbole"))])
  (hyperdrive .
-	     [(0 4 -1 1 -4 20240612 2017)
+	     [(0 4 -1 1 -4 20240613 234)
 	      ((emacs
 		(28 1))
 	       (map
@@ -35582,7 +35584,7 @@
 	       (transient
 		(0 6 0)))
 	      "P2P filesystem" tar
-	      ((:commit . "ad6c7b90abf6748a8c47ea0d9db27233a55dd503")
+	      ((:commit . "554648a7f8c024e18346a5e9f244cf8314472d81")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
 	       (:maintainers
@@ -52589,7 +52591,7 @@
 			(:keywords "tex" "tools")
 			(:url . "https://github.com/yangsheng6810/org-latex-instant-preview"))])
  (org-linenote .
-	       [(0 2 0 1 -4 20240325 320)
+	       [(0 2 1 1 -4 20240410 410)
 		((emacs
 		  (29 1))
 		 (projectile
@@ -52597,7 +52599,7 @@
 		 (vertico
 		  (1 7)))
 		"A package inspired by VSCode Linenote" tar
-		((:commit . "4c081f4bbe13c48df7cb17f2f006465b8b95196b")
+		((:commit . "a015295ebf271c8b518238f7969a0b6e60429805")
 		 (:authors
 		  ("Jason Kim" . "sukbeom.kim@gmail.com"))
 		 (:maintainers
@@ -53275,7 +53277,7 @@
 			 ("Vladimir S. Ivanov" . "ivvl82@gmail.com"))
 			(:maintainer "Vladimir S. Ivanov" . "ivvl82@gmail.com"))])
  (org-ql .
-	 [(0 9 -1 1 -4 20240403 2027)
+	 [(0 9 -1 1 -4 20240613 433)
 	  ((emacs
 	    (27 1))
 	   (compat
@@ -53301,7 +53303,7 @@
 	   (ts
 	    (0 2 -1)))
 	  "Org Query Language, search command, and agenda-like view" tar
-	  ((:commit . "c9370982bfd4df04b590762bd795a7da3012c4dd")
+	  ((:commit . "e9d08ca3443a10cd751e56c6fe0021ca73b4c8c2")
 	   (:authors
 	    ("Adam Porter" . "adam@alphapapa.net"))
 	   (:maintainers
