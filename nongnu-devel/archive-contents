@@ -136,13 +136,13 @@
 		     ("Stephane Zermatten" . "szermatt@gmx.net"))
 		    (:commit . "f1daac0386c24cbe8a244a62c7588cc6847b07ae"))])
  (beancount .
-	    [(0 0 20240603 183535)
+	    [(0 0 20240615 105627)
 	     nil "A major mode to edit Beancount input files." tar
 	     ((:maintainer "Martin Blais" . "blais@furius.ca")
 	      (:authors
 	       ("Martin Blais" . "blais@furius.ca"))
 	      (:url . "https://elpa.nongnu.org/nongnu/beancount.html")
-	      (:commit . "bdd71c570df3466560260072a863e215f7d5ba1e"))])
+	      (:commit . "0a242aff8f57139fcaca2923b26327dd86549325"))])
  (better-jumper .
 		[(1 0 1 0 20220111 101829)
 		 ((emacs
@@ -437,7 +437,7 @@
 	   ("Susam Pal" . "susam@susam.net"))
 	  (:commit . "c2dc9fc2886471daff654e12b46a144a4d1361ae"))])
  (diff-ansi .
-	    [(0 2 0 20240421 81052)
+	    [(0 2 0 20240615 112922)
 	     ((emacs
 	       (29 1)))
 	     "Display diff's using alternative diffing tools" tar
@@ -445,9 +445,9 @@
 	      (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 	      (:authors
 	       ("Campbell Barton" . "ideasman42@gmail.com"))
-	      (:commit . "9e5b61a82e04ffd0e81f88fcf159575618886d72"))])
+	      (:commit . "245b27e7892b6375e1d29418df30cc29dc7d3f18"))])
  (doc-show-inline .
-		  [(0 1 0 20240421 94308)
+		  [(0 1 0 20240615 113503)
 		   ((emacs
 		     (29 1)))
 		   "Show doc-strings found in external files" tar
@@ -456,7 +456,7 @@
 		    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		    (:authors
 		     ("Campbell Barton" . "ideasman42@gmail.com"))
-		    (:commit . "d2bfa37f2f027c5da0abca319882daa3740ca57b"))])
+		    (:commit . "e75d142d6d829381c209df8051082923e54e33f4"))])
  (dockerfile-mode .
 		  [(1 7 0 20240324 61044)
 		   ((emacs
@@ -1222,6 +1222,16 @@
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:commit . "d1556d5e1221bd12bcb195912869c66f9c0857f8"))])
+ (hideshowvis .
+	      [(0 8 0 20240529 112833)
+	       ((emacs
+		 (27 1)))
+	       "Fringe markers for regions foldable by hideshow.el" tar
+	       ((:url . "https://github.com/sheijk/hideshowvis")
+		(:maintainer "Jan Rehders" . "jan@sheijk.net")
+		(:authors
+		 ("Jan Rehders" . "jan@sheijk.net"))
+		(:commit . "3a605b78d88bb974a7346dce72a2508674db310c"))])
  (highlight-parentheses .
 			[(2 2 2 0 20240408 112634)
 			 ((emacs
@@ -1266,7 +1276,7 @@
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:commit . "ed5e5b05fd260e8f161a488d56f10e7f6e01fb75"))])
  (hyperdrive .
-	     [(0 4 -1 0 20240612 193448)
+	     [(0 4 -1 0 20240615 113035)
 	      ((emacs
 		(28 1))
 	       (map
@@ -1278,7 +1288,7 @@
 	       (plz
 		(0 9 0))
 	       (persist
-		(0 6))
+		(0 6 1))
 	       (taxy-magit-section
 		(0 13))
 	       (transient
@@ -1288,7 +1298,7 @@
 	       (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
-	       (:commit . "554648a7f8c024e18346a5e9f244cf8314472d81"))])
+	       (:commit . "66f817b68f250f0c230da282b68eb04519a9061a"))])
  (idle-highlight-mode .
 		      [(1 1 4 0 20240421 64727)
 		       ((emacs
@@ -1756,6 +1766,20 @@
 		  (:authors
 		   ("D. Williams" . "d.williams@posteo.net"))
 		  (:commit . "54c81c27dde2a6dc461bb064e79a8b2089093a2e"))])
+ (org-transclusion-http .
+			[(0 4 -1 0 20240615 114548)
+			 ((emacs
+			   (28 1))
+			  (org-transclusion
+			   (1 4 0))
+			  (plz
+			   (0 7 2)))
+			 "Transclude over HTTP" tar
+			 ((:url . "https://git.sr.ht/~ushin/org-transclusion-http")
+			  (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
+			  (:authors
+			   ("Joseph Turner" . "firstnameatushin.org"))
+			  (:commit . "ebbeba006c06a8d59bda1c8cfa2bf42af106af14"))])
  (org-tree-slide .
 		 [(2 8 22 0 20230826 132200)
 		  ((emacs
@@ -1946,13 +1970,13 @@
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	       (:commit . "0163b335a18af0f077a474d4dc6b36e22b5e3274"))])
  (proof-general .
-		[(4 6 -4 0 20240513 72008)
+		[(4 6 -4 0 20240615 154655)
 		 ((emacs
 		   (25 2)))
 		 "A generic Emacs interface for proof assistants" tar
 		 ((:url . "https://proofgeneral.github.io/")
 		  (:maintainer nil . "proof-general-maintainers@groupes.renater.fr")
-		  (:commit . "cb23709ad0c9a9ca0ee48b3ee73c29caea243b98"))])
+		  (:commit . "b9fdbbf0b50fc2c0c2ef799d05b9c6c1019d17aa"))])
  (prop-menu .
 	    [(0 1 2 0 20150728 51803)
 	     ((emacs
@@ -1997,7 +2021,7 @@
 	       ("Hinrik rn Sigurðsson" . "hinrik.sig@gmail.com"))
 	      (:commit . "14f9b9bba08c0bbb7f3895380d0b1a9feb7a168d"))])
  (recomplete .
-	     [(0 2 0 20240422 1549)
+	     [(0 2 0 20240615 112151)
 	      ((emacs
 		(26 1)))
 	      "Immediately (re)complete actions" tar
@@ -2005,7 +2029,7 @@
 	       (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 	       (:authors
 		("Campbell Barton" . "ideasman42@gmail.com"))
-	       (:commit . "9b4ab842e37eed9b8314ba81b4eac49beeea8c1c"))])
+	       (:commit . "ef32c49fb6001b953bf84f65de651877d721d8d4"))])
  (reformatter .
 	      [(0 8 0 20240515 204925)
 	       ((emacs
@@ -2171,7 +2195,7 @@
 		    (:keywords "color" "theme")
 		    (:commit . "319ad1cd6aa05dcb43e4edca50eca339892e0865"))])
  (spell-fu .
-	   [(0 3 0 20240421 235117)
+	   [(0 3 0 20240615 111930)
 	    ((emacs
 	      (26 2)))
 	    "Fast & light spelling highlighter" tar
@@ -2180,7 +2204,7 @@
 	     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 	     (:authors
 	      ("Campbell Barton" . "ideasman42@gmail.com"))
-	     (:commit . "7f9332a299b41e1fa4da9a82669f5981f6ffd3cc"))])
+	     (:commit . "853e2f8c41404f578b7bd732f35c9d5114da6032"))])
  (sqlite3 .
 	  [(0 17 0 20231124 132621)
 	   ((emacs
@@ -2396,7 +2420,7 @@
 		  ("Mark Tran" . "mark.tran@gmail.com"))
 		 (:commit . "bf724ce7806a738d2043544061e5f9bbfc56e674"))])
  (undo-fu .
-	  [(0 5 0 20240422 652)
+	  [(0 5 0 20240615 92033)
 	   ((emacs
 	     (25 1)))
 	   "Undo helper with redo" tar
@@ -2404,7 +2428,7 @@
 	    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 	    (:authors
 	     ("Campbell Barton" . "ideasman42@gmail.com"))
-	    (:commit . "d935af2c57ecfa14248a70b3fe8a84fb78fef209"))])
+	    (:commit . "acd4f6c92521716c1010ff3aba471218ba14a5e9"))])
  (undo-fu-session .
 		  [(0 6 0 20240421 83426)
 		   ((emacs
