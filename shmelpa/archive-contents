@@ -6578,6 +6578,19 @@
 	       (:maintainer "Charles Choi" . "kickingvegas@gmail.com")
 	       (:keywords "tools")
 	       (:url . "https://github.com/kickingvegas/casual-avy"))])
+ (casual-calc .
+	      [(1 8 0 1 -4 20240615 1647)
+	       ((emacs
+		 (29 1)))
+	       "Transient UI for Calc" tar
+	       ((:commit . "c060df6ab8de7d0c6059c106042d32ba15f2adef")
+		(:authors
+		 ("Charles Choi" . "kickingvegas@gmail.com"))
+		(:maintainers
+		 ("Charles Choi" . "kickingvegas@gmail.com"))
+		(:maintainer "Charles Choi" . "kickingvegas@gmail.com")
+		(:keywords "tools")
+		(:url . "https://github.com/kickingvegas/casual-calc"))])
  (casual-dired .
 	       [(1 3 0 1 -4 20240607 14)
 		((emacs
@@ -6604,6 +6617,19 @@
 		(:maintainer "Charles Choi" . "kickingvegas@gmail.com")
 		(:keywords "tools")
 		(:url . "https://github.com/kickingvegas/casual-info"))])
+ (casual-isearch .
+		 [(1 6 0 1 -4 20240615 1631)
+		  ((emacs
+		    (29 1)))
+		  "Transient UI for I-Search" tar
+		  ((:commit . "80022641e89689f40446e5c6dd94e1cc86c9f862")
+		   (:authors
+		    ("Charles Choi" . "kickingvegas@gmail.com"))
+		   (:maintainers
+		    ("Charles Choi" . "kickingvegas@gmail.com"))
+		   (:maintainer "Charles Choi" . "kickingvegas@gmail.com")
+		   (:keywords "wp")
+		   (:url . "https://github.com/kickingvegas/casual-isearch"))])
  (catmacs .
 	  [(0 1 1 1 -4 20170826 1157)
 	   ((emacs
@@ -28154,7 +28180,7 @@
 	(:keywords "convenience")
 	(:url . "https://github.com/lafrenierejm/emacs-ghq"))])
  (ghub .
-       [(3 6 0 1 -4 20240507 1647)
+       [(3 6 0 1 -4 20240616 1956)
 	((emacs
 	  (26 3))
 	 (compat
@@ -28164,7 +28190,7 @@
 	 (treepy
 	  (0 1 2)))
 	"Client libraries for Git forge APIs." tar
-	((:commit . "1df5298c3c4d26ec3720dc6c31f8bfd07858f8a9")
+	((:commit . "b3dd176b5a6873e48e21aa02ae00aa457bd291d4")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
 	 (:maintainer "Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev")
@@ -29267,7 +29293,7 @@
 	    (:keywords "processes" "hardware")
 	    (:url . "http://github.com/nicferrier/emacs-nm"))])
  (gnosis .
-	 [(0 2 4 1 -4 20240529 1437)
+	 [(0 2 4 1 -4 20240616 1733)
 	  ((emacs
 	    (27 2))
 	   (emacsql
@@ -29275,7 +29301,7 @@
 	   (compat
 	    (29 1 4 2)))
 	  "Spaced Repetition System" tar
-	  ((:commit . "9960c893190e3ce462568f987bad0dde9fc9b07c")
+	  ((:commit . "8b24e05f6f02cad2063673271f199b268406a408")
 	   (:authors
 	    ("Thanos Apollo" . "public@thanosapollo.org"))
 	   (:maintainers
@@ -42535,6 +42561,19 @@
 		   ("Preetpal S. Sohal"))
 		  (:maintainer "Preetpal S. Sohal")
 		  (:url . "https://github.com/preetpalS/emacs-lockfile-mode"))])
+ (loco .
+       [(0 1 0 1 -4 20240616 1647)
+	((emacs
+	  (29 1)))
+	"A library and minor mode for entering key sequences" tar
+	((:commit . "4e4d9f8aae55e0f4f9f088aa4f99b158508b12a9")
+	 (:authors
+	  ("Chris McLaren" . "csmclaren@me.com"))
+	 (:maintainers
+	  ("Chris McLaren" . "csmclaren@me.com"))
+	 (:maintainer "Chris McLaren" . "csmclaren@me.com")
+	 (:keywords "abbrev" "convenience")
+	 (:url . "https://github.com/csmclaren/loco"))])
  (lodgeit .
 	  [(1 0 1 -4 20190802 1308)
 	   nil "Paste to a lodgeit powered pastebin" tar
@@ -43703,7 +43742,7 @@
 	       (:keywords "languages")
 	       (:url . "https://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20240614 2318)
+	[(3 3 0 50 -4 20240616 1902)
 	 ((emacs
 	   (26 1))
 	  (compat
@@ -43721,7 +43760,7 @@
 	  (with-editor
 	   (20240415)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "ea02c8e6349b4f29c1bd325632fb12bbd65f6b2f")
+	 ((:commit . "b80c4dbb64b081eedc5cff797b696225945d1f8b")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
