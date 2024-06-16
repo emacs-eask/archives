@@ -6965,7 +6965,7 @@
 	      (:maintainer "Andrew Myers" . "am2605@gmail.com")
 	      (:url . "https://github.com/am2605/cfml-mode"))])
  (cfn-mode .
-	   [(1 0 4 1 -4 20240609 805)
+	   [(1 0 4 1 -4 20240616 804)
 	    ((emacs
 	      (27 0))
 	     (f
@@ -6975,7 +6975,7 @@
 	     (yaml-mode
 	      (0 0 13)))
 	    "AWS cloudformation mode" tar
-	    ((:commit . "869a904be5efda5df2312b1db385f4fd8d6a0491")
+	    ((:commit . "c41a6868743b8135413788e8529572bcae7ad78a")
 	     (:authors
 	      ("William Orr" . "will@worrbase.com"))
 	     (:maintainers
@@ -20901,7 +20901,7 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20240616 1423)
+       [(1 15 0 1 -4 20240616 1645)
 	((emacs
 	  (24 1))
 	 (goto-chg
@@ -20909,7 +20909,7 @@
 	 (cl-lib
 	  (0 5)))
 	"Extensible vi layer" tar
-	((:commit . "e72562f0fa0256eb0868eaba271db31d602b91ee")
+	((:commit . "7bfdb135882495ab7528b87c121ddafc3640d60e")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulations")
 	 (:url . "https://github.com/emacs-evil/evil"))])
@@ -46744,6 +46744,19 @@
 	  (:maintainer "Adam Porter" . "adam@alphapapa.net")
 	  (:keywords "convenience")
 	  (:url . "http://github.com/alphapapa/mosey.el"))])
+ (most-faces .
+	     [(0 2 1 -4 20240610 724)
+	      ((emacs
+		(24)))
+	      "A List of Most Available Faces" tar
+	      ((:commit . "e37cd1baa74f1bdf3230a9174e5c6cde73e3474c")
+	       (:authors
+		("Mekeor Melire" . "mekeor@posteo.de"))
+	       (:maintainers
+		("Mekeor Melire" . "mekeor@posteo.de"))
+	       (:maintainer "Mekeor Melire" . "mekeor@posteo.de")
+	       (:keywords "faces")
+	       (:url . "https://codeberg.org/mekeor/most-faces"))])
  (most-used-words .
 		  [(0 1 1 -4 20200808 1353)
 		   ((emacs
