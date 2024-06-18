@@ -18724,15 +18724,15 @@
 	 (:keywords "docs")
 	 (:url . "https://github.com/Fuco1/elwm"))])
  (elx .
-      [(0 1 0 1 -4 20240506 1556)
+      [(0 1 0 1 -4 20240618 1556)
        ((emacs
 	 (25 1))
 	(compat
-	 (29 1 4 1))
+	 (29 1 4 5))
 	(llama
-	 (0 2 0)))
+	 (0 3 1)))
        "Extract information from Emacs Lisp libraries" tar
-       ((:commit . "9db9f8dcc595717d82943fef66f554a4b40aff0b")
+       ((:commit . "ff711c1bcd8b22459d58d263ef5eb18b4174710f")
 	(:authors
 	 ("Jonas Bernoulli" . "emacs.elx@jonas.bernoulli.dev"))
 	(:maintainers
@@ -27062,13 +27062,13 @@
 		     (:keywords "frames" "windows")
 		     (:url . "https://github.com/davidshepherd7/frames-only-mode"))])
  (frameshot .
-	    [(0 1 0 1 -4 20240415 1537)
+	    [(0 1 0 1 -4 20240618 1603)
 	     ((emacs
 	       (25 3))
 	      (compat
-	       (29 1 4 1)))
+	       (29 1 4 5)))
 	     "Take screenshots of a frame" tar
-	     ((:commit . "8bceac0988ea2e84452f87b96e0a9f669d717843")
+	     ((:commit . "009ee5f8d754b940c4f86f2276fce401845bb40a")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.frameshot@jonas.bernoulli.dev"))
 	      (:maintainers
@@ -27498,13 +27498,13 @@
 	      (:keywords "files")
 	      (:url . "https://github.com/theBlackDragon/fvwm-mode"))])
  (fwb-cmds .
-	   [(0 1 0 1 -4 20240415 1537)
+	   [(0 1 0 1 -4 20240618 1605)
 	    ((emacs
 	      (25 1))
 	     (compat
-	      (29 1 3 4)))
+	      (29 1 4 5)))
 	    "misc frame, window and buffer commands" tar
-	    ((:commit . "2214ad1094b0b4d466825521eefe39bba65634d0")
+	    ((:commit . "a2569c7c986dcde2c859e390a0da5aeacf69db77")
 	     (:authors
 	      ("Jonas Bernoulli" . "emacs.fwb-cmds@jonas.bernoulli.dev"))
 	     (:maintainers
@@ -28193,7 +28193,7 @@
 	(:keywords "convenience")
 	(:url . "https://github.com/lafrenierejm/emacs-ghq"))])
  (ghub .
-       [(3 6 0 1 -4 20240616 1956)
+       [(3 6 0 1 -4 20240618 1527)
 	((emacs
 	  (26 3))
 	 (compat
@@ -28203,7 +28203,7 @@
 	 (treepy
 	  (0 1 2)))
 	"Client libraries for Git forge APIs." tar
-	((:commit . "b3dd176b5a6873e48e21aa02ae00aa457bd291d4")
+	((:commit . "e44aceeb12831f8b7afac4e089525b5a2dd5a5e8")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
 	 (:maintainer "Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev")
@@ -28654,13 +28654,13 @@
 		  (:maintainer "Neil Okamoto")
 		  (:url . "https://github.com/emacsorphanage/git-messenger"))])
  (git-modes .
-	    [(1 4 2 1 -4 20240415 1538)
+	    [(1 4 3 1 -4 20240618 1609)
 	     ((emacs
 	       (25 1))
 	      (compat
-	       (29 1 4 1)))
+	       (29 1 4 5)))
 	     "Major modes for editing Git configuration files" tar
-	     ((:commit . "52ea2a1281ea9df9b8732fe2add0e6a0c9c2cd11")
+	     ((:commit . "7901415b39bef1b789d161ca2c10dfb910d13780")
 	      (:authors
 	       ("Sebastian Wiesner" . "lunaryorn@gmail.com")
 	       ("Rüdiger Sonderfeld" . "ruediger@c-plusplus.net")
@@ -36347,13 +36347,13 @@
 	    (:keywords "convenience")
 	    (:url . "https://github.com/imakado/emacs-imakado"))])
  (imake .
-	[(0 1 0 1 -4 20240415 1539)
+	[(0 1 0 1 -4 20240618 1725)
 	 ((emacs
 	   (25 1))
 	  (compat
-	   (29 1 4 1)))
+	   (29 1 4 5)))
 	 "Simple, opinionated make target runner" tar
-	 ((:commit . "55c86a15fb253c7e351d55e762ece0a15dc816b9")
+	 ((:commit . "fa1e9d8885158f9bd4776e3529b26994dcdba43d")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.imake@jonas.bernoulli.dev"))
 	  (:maintainers
@@ -40060,13 +40060,13 @@
 	    (:keywords "convenience" "keyboard" "keybindings")
 	    (:url . "http://github.com/vlevit/key-seq.el"))])
  (keycast .
-	  [(1 3 3 1 -4 20240609 1438)
+	  [(1 4 0 1 -4 20240618 1727)
 	   ((emacs
 	     (25 3))
 	    (compat
-	     (29 1 4 1)))
+	     (29 1 4 5)))
 	   "Show current command and its binding" tar
-	   ((:commit . "c156fd1c5ee02fc6395dcf10cb55cbd6fc5296a9")
+	   ((:commit . "f04466cd8f8226715f113635204dc978171f63b7")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev"))
 	    (:maintainers
@@ -45978,13 +45978,13 @@
 		  (:keywords "color" "theme" "minimal")
 		  (:url . "http://github.com/ikame/minimal-theme"))])
  (minions .
-	  [(0 1 0 1 -4 20240415 1544)
+	  [(0 1 0 1 -4 20240618 1732)
 	   ((emacs
 	     (25 2))
 	    (compat
-	     (29 1 4 1)))
+	     (29 1 4 5)))
 	   "A minor-mode menu for the mode line" tar
-	   ((:commit . "ef234da0625397b994c0a17d1038037732c3c457")
+	   ((:commit . "4566325917791b878430526f42349a644b03089d")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.minions@jonas.bernoulli.dev"))
 	    (:maintainers
@@ -46318,13 +46318,13 @@
 		   (:maintainer "Steve Purcell" . "steve@sanityinc.com")
 		   (:keywords "convenience"))])
  (mode-line-debug .
-		  [(0 1 0 1 -4 20240415 1545)
+		  [(0 1 0 1 -4 20240618 1733)
 		   ((emacs
 		     (25 1))
 		    (compat
-		     (29 1 4 1)))
+		     (29 1 4 5)))
 		   "Show status of debug-on-error in mode-line" tar
-		   ((:commit . "0ff591110c9db0bbc1372234902e28486c168a86")
+		   ((:commit . "b6d2821a84646d484a34b45c10bb1630bf001d0b")
 		    (:authors
 		     ("Jonas Bernoulli" . "emacs.mode-line-debug@jonas.bernoulli.dev"))
 		    (:maintainers
