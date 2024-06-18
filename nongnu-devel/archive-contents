@@ -560,7 +560,7 @@
 		 ("Harry R. Schwartz" . "hello@harryrschwartz.com"))
 		(:commit . "f9efca3ad600e0c498cff776de5a873b8dd978cb"))])
  (evil .
-       [(1 15 0 0 20240617 143046)
+       [(1 15 0 0 20240618 182332)
 	((emacs
 	  (24 1))
 	 (cl-lib
@@ -571,7 +571,7 @@
 	((:url . "https://github.com/emacs-evil/evil")
 	 (:keywords "emulations")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
-	 (:commit . "491da1a1be2cf380a2174b5d3a282f9d1b9f8ac0"))])
+	 (:commit . "051e5c9c9ee08f49d523d63c71085af469321a56"))])
  (evil-anzu .
 	    [(0 2 0 20220911 193944)
 	     ((evil
@@ -1012,7 +1012,7 @@
 		   ("Jeronimo Pellegrini" . "(j_p@aleph0.info)"))
 		  (:commit . "efdac7298e3a64f1138e3949b3312f491f2c706a"))])
  (git-commit .
-	     [(3 3 0 50 -4 0 20240616 190225)
+	     [(3 3 0 50 -4 0 20240618 114213)
 	      ((emacs
 		(26 1))
 	       (compat
@@ -1032,13 +1032,13 @@
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
 		("Florian Ragwitz" . "rafl@debian.org")
 		("Marius Vollmer" . "marius.vollmer@gmail.com"))
-	       (:commit . "b80c4dbb64b081eedc5cff797b696225945d1f8b"))])
+	       (:commit . "13850341e375bd12e1d1541daab07b111034ff4c"))])
  (git-modes .
-	    [(1 4 2 0 20240415 153833)
+	    [(1 4 3 0 20240618 160901)
 	     ((emacs
 	       (25 1))
 	      (compat
-	       (29 1 4 1)))
+	       (29 1 4 5)))
 	     "Major modes for editing Git configuration files" tar
 	     ((:url . "https://github.com/magit/git-modes")
 	      (:keywords "convenience" "vc" "git")
@@ -1047,7 +1047,7 @@
 	       ("Sebastian Wiesner" . "lunaryorn@gmail.com")
 	       ("Rüdiger Sonderfeld" . "ruediger@c-plusplus.net")
 	       ("Jonas Bernoulli" . "emacs.git-modes@jonas.bernoulli.dev"))
-	      (:commit . "52ea2a1281ea9df9b8732fe2add0e6a0c9c2cd11"))])
+	      (:commit . "7901415b39bef1b789d161ca2c10dfb910d13780"))])
  (gnu-apl-mode .
 	       [(1 5 1 0 20220404 34102)
 		nil "Emacs mode for GNU APL" tar
@@ -1407,18 +1407,18 @@
 	       (:keywords "languages")
 	       (:commit . "d360ad5285b8a0be1818fd6c2b4307c34e468c6e"))])
  (keycast .
-	  [(1 3 3 0 20240609 143841)
+	  [(1 4 0 0 20240618 172735)
 	   ((emacs
 	     (25 3))
 	    (compat
-	     (29 1 4 1)))
+	     (29 1 4 5)))
 	   "Show current command and its binding" tar
 	   ((:url . "https://github.com/tarsius/keycast")
 	    (:keywords "multimedia")
 	    (:maintainer "Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev"))
-	    (:commit . "c156fd1c5ee02fc6395dcf10cb55cbd6fc5296a9"))])
+	    (:commit . "f04466cd8f8226715f113635204dc978171f63b7"))])
  (kotlin-mode .
 	      [(2 0 0 0 20230123 105957)
 	       ((emacs
@@ -1479,7 +1479,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "4939d88779761e8b5461b4cf73f86600172987db"))])
  (magit .
-	[(3 3 0 50 -4 0 20240616 190225)
+	[(3 3 0 50 -4 0 20240618 114213)
 	 ((emacs
 	   (26 1))
 	  (compat
@@ -1505,9 +1505,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	  (:commit . "b80c4dbb64b081eedc5cff797b696225945d1f8b"))])
+	  (:commit . "13850341e375bd12e1d1541daab07b111034ff4c"))])
  (magit-section .
-		[(3 3 0 50 -4 0 20240616 190225)
+		[(3 3 0 50 -4 0 20240618 114213)
 		 ((emacs
 		   (26 1))
 		  (compat
@@ -1522,7 +1522,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "b80c4dbb64b081eedc5cff797b696225945d1f8b"))])
+		  (:commit . "13850341e375bd12e1d1541daab07b111034ff4c"))])
  (markdown-mode .
 		[(2 7 -3 0 20240501 105706)
 		 ((emacs
@@ -2526,18 +2526,18 @@
 	      ("Akib Azmain Turja" . "akib@disroot.org"))
 	     (:commit . "5203d9379afaf6703746823a580c804e1dd98e08"))])
  (with-editor .
-	      [(3 3 2 0 20240609 151838)
+	      [(3 3 3 0 20240618 184030)
 	       ((emacs
 		 (25 1))
 		(compat
-		 (29 1 4 1)))
+		 (29 1 4 5)))
 	       "Use the Emacsclient as $EDITOR" tar
 	       ((:url . "https://github.com/magit/with-editor")
 		(:keywords "processes" "terminals")
 		(:maintainer "Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev")
 		(:authors
 		 ("Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev"))
-		(:commit . "f6a3fc8f6735fbc804e02f9c54bc621746afd5b0"))])
+		(:commit . "0eff758e59b0efeab0a4f40b19c51e5712c19d4e"))])
  (with-simulated-input .
 		       [(3 0 0 20210602 224623)
 			((emacs
