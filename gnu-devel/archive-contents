@@ -221,14 +221,14 @@
 	   ("John Wiegley" . "jwiegley@gmail.com"))
 	  (:commit . "cff2bd0be3c78a2eb76717eed60302972fe9b8c5"))])
  (auctex .
-	 [(14 0 5 0 20240620 131047)
+	 [(14 0 5 0 20240621 63235)
 	  ((emacs
 	    (27 1)))
 	  "Integrated environment for *TeX*" tar
 	  ((:url . "https://www.gnu.org/software/auctex/")
 	   (:keywords "tex" "latex" "texinfo" "context" "doctex" "preview-latex")
 	   (:maintainer nil . "auctex-devel@gnu.org")
-	   (:commit . "dee7d873ba5ef38961d531cc32f50526f7c59d1d"))])
+	   (:commit . "6e43249fa99e3e42fa5a64d255dd2f84deaf28b1"))])
  (auctex-cont-latexmk .
 		      [(0 2 0 20240617 174742)
 		       ((emacs
@@ -2486,6 +2486,17 @@
 	   (:authors
 	    ("Adam Porter" . "adam@alphapapa.net"))
 	   (:commit . "db6378230cc2491a23d3fdee86a1a04c8b190b2d"))])
+ (literate-scratch .
+		   [(1 0 0 20240621 41043)
+		    ((emacs
+		      (29 1)))
+		    "Lisp Interaction w/ text paragraphs" tar
+		    ((:url . "https://git.spwhitton.name/dotfiles/tree/.emacs.d/site-lisp/literate-scratch.el")
+		     (:keywords "lisp" "text")
+		     (:maintainer "Sean Whitton" . "spwhitton@spwhitton.name")
+		     (:authors
+		      ("Sean Whitton" . "spwhitton@spwhitton.name"))
+		     (:commit . "c22a15e86acf28da716532c26ba1371574c8e979"))])
  (llm .
       [(0 16 1 0 20240609 224731)
        ((emacs
@@ -4912,15 +4923,15 @@
 	       ("Andrew Hyatt" . "ahyatt@gmail.com"))
 	      (:commit . "40c208eaab99999d7c1e4bea883648da24c03be3"))])
  (which-key .
-	    [(3 6 0 0 20240501 85118)
+	    [(3 6 0 0 20240620 174547)
 	     ((emacs
-	       (24 4)))
+	       (25 1)))
 	     "Display available keybindings in popup" tar
 	     ((:maintainer "Justin Burkett" . "justin@burkett.cc")
 	      (:authors
 	       ("Justin Burkett" . "justin@burkett.cc"))
 	      (:url . "https://elpa.gnu.org/packages/which-key.html")
-	      (:commit . "1e89fa000e9ba9549f15ef57abccd118d5f2fe1a"))])
+	      (:commit . "ed389312170df955aaf10c2e120cc533ed5c509e"))])
  (window-commander .
 		   [(3 0 2 0 20240314 125442)
 		    ((emacs
