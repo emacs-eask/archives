@@ -51584,11 +51584,13 @@
 	      (:keywords "org" "bookmarks" "archives")
 	      (:url . "https://github.com/scallywag/org-board"))])
  (org-bookmark-heading .
-		       [(1 4 -1 1 -4 20231216 1234)
+		       [(1 4 -1 1 -4 20240622 947)
 			((emacs
-			  (24 4)))
+			  (25 1))
+			 (compat
+			  (29 1 4 5)))
 			"Emacs bookmark support for Org mode" tar
-			((:commit . "ed8b7fe2a08b06a1d750d1e1230e6728815e0bcd")
+			((:commit . "b667cfdde7631c656778473e6c87bc51e46280cd")
 			 (:authors
 			  ("Adam Porter" . "adam@alphapapa.net"))
 			 (:maintainers
@@ -53326,7 +53328,7 @@
 			 ("Vladimir S. Ivanov" . "ivvl82@gmail.com"))
 			(:maintainer "Vladimir S. Ivanov" . "ivvl82@gmail.com"))])
  (org-ql .
-	 [(0 9 -1 1 -4 20240613 445)
+	 [(0 9 -1 1 -4 20240622 1000)
 	  ((emacs
 	    (27 1))
 	   (compat
@@ -53352,7 +53354,7 @@
 	   (ts
 	    (0 2 -1)))
 	  "Org Query Language, search command, and agenda-like view" tar
-	  ((:commit . "d5269bb5e283f3b12b45fb05c4a7926d23e07d1f")
+	  ((:commit . "5ef4364d0a439e409dcc5610f7df9e161a0144d7")
 	   (:authors
 	    ("Adam Porter" . "adam@alphapapa.net"))
 	   (:maintainers
@@ -69518,13 +69520,13 @@
 		  (:keywords "help" "swift")
 		  (:url . "https://github.com/danielmartin/swift-helpful"))])
  (swift-mode .
-	     [(9 1 0 1 -4 20240217 631)
+	     [(9 1 0 1 -4 20240622 935)
 	      ((emacs
 		(24 4))
 	       (seq
 		(2 3)))
 	      "Major-mode for Apple's Swift programming language" tar
-	      ((:commit . "25cf8237312bf5eddc2c90001feb8f73633ab523")
+	      ((:commit . "b06c97b909418b5dca3d15351b2ce86a04df32fb")
 	       (:authors
 		("taku0" . "mxxouy6x3m_github@tatapa.org")
 		("Chris Barrett" . "chris.d.barrett@me.com")
@@ -75229,7 +75231,7 @@
 	  (:keywords "multimedia")
 	  (:url . "https://github.com/mihaiolteanu/vuiet"))])
  (vulpea .
-	 [(0 3 0 1 -4 20240528 1638)
+	 [(0 3 0 1 -4 20240622 1018)
 	  ((emacs
 	    (27 2))
 	   (org
@@ -75241,7 +75243,7 @@
 	   (dash
 	    (2 19)))
 	  "A collection of org-roam note-taking functions" tar
-	  ((:commit . "06c705a77f2b4b9ccee8d7726398c1668e2af752")
+	  ((:commit . "2cd14af26e4ffafd069b2ed867c07102ad89bdd3")
 	   (:authors
 	    ("Boris Buliga" . "boris@d12frosted.io"))
 	   (:maintainers
