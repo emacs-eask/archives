@@ -73828,6 +73828,21 @@
 			    (:maintainer "Thomas A. Brown" . "tabsoftwareconsulting@gmail.com")
 			    (:keywords "faces" "vc" "magit")
 			    (:url . "https://github.com/tee3/unobtrusive-magit-theme"))])
+ (unspecified-theme .
+		    [(0 2 1 -4 20240620 2310)
+		     ((emacs
+		       (25))
+		      (most-faces
+		       (0 0 3)))
+		     "Theme that unspecifies all attributes of all faces" tar
+		     ((:commit . "822f461bb04b4f8751bc2431140197a077d6c4a6")
+		      (:authors
+		       ("Mekeor Melire" . "mekeor@posteo.de"))
+		      (:maintainers
+		       ("Mekeor Melire" . "mekeor@posteo.de"))
+		      (:maintainer "Mekeor Melire" . "mekeor@posteo.de")
+		      (:keywords "faces" "theme")
+		      (:url . "https://codeberg.org/mekeor/unspecified-theme"))])
  (untappd .
 	  [(0 0 1 1 -4 20240316 1755)
 	   ((emacs
@@ -76500,13 +76515,13 @@
 		(:maintainer "Kris Jenkins" . "krisajenkins@gmail.com")
 		(:url . "https://github.com/krisajenkins/wispjs-mode"))])
  (with-editor .
-	      [(3 3 3 1 -4 20240623 1753)
+	      [(3 3 4 1 -4 20240623 1757)
 	       ((emacs
 		 (25 1))
 		(compat
 		 (29 1 4 5)))
 	       "Use the Emacsclient as $EDITOR" tar
-	       ((:commit . "3141aa0e0adb394518b6cbfdd0cfead9e0dbd64c")
+	       ((:commit . "322ee26d3a7d3d67840293041837b7e70cffa8d1")
 		(:authors
 		 ("Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev"))
 		(:maintainers
@@ -77518,13 +77533,13 @@
 	      (:keywords "data" "yaml")
 	      (:url . "https://github.com/yoshiki/yaml-mode"))])
  (yaml-pro .
-	   [(0 3 1 1 -4 20240611 1706)
+	   [(0 3 1 1 -4 20240623 1904)
 	    ((emacs
 	      (26 1))
 	     (yaml
 	      (0 5 1)))
 	    "Parser-aided YAML editing features" tar
-	    ((:commit . "d8a02469ec617a1276e41f98008b049e8a02ca0b")
+	    ((:commit . "5f06949e92dc19dcc48dc31662b2aa958fe33726")
 	     (:authors
 	      ("Zachary Romero"))
 	     (:maintainers
