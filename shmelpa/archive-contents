@@ -15916,9 +15916,9 @@
 		      nil "DTrace code editing commands for Emacs" tar
 		      ((:commit . "a92f76c65b9fb64d448e503b4ea7ff06085be8ee"))])
  (dtrt-indent .
-	      [(1 17 1 -4 20240616 1053)
+	      [(1 17 1 -4 20240623 2115)
 	       nil "Adapt to foreign indentation offsets" tar
-	       ((:commit . "939c5e374ac0175bb7d561542e22e47a72d04aa8")
+	       ((:commit . "2b0bcf66524dbd52c3fbb4887155e75499e3c29e")
 		(:authors
 		 ("Julian Scheid" . "julians37@googlemail.com"))
 		(:maintainers
@@ -27673,6 +27673,19 @@
 	       (:maintainer "Yuri D'Elia" . "wavexx@thregr.org")
 	       (:keywords "gcode" "languages" "highlight" "syntax")
 	       (:url . "https://gitlab.com/wavexx/gcode-mode.el"))])
+ (gdb-x .
+	[(0 0 1 1 -4 20240617 1857)
+	 ((emacs
+	   (29 1)))
+	 "Improve GDB-MI user interface" tar
+	 ((:commit . "367dbb31e1591ffb3f4b7630f2c8ddcc0692e133")
+	  (:authors
+	   ("Sergio Pastor Pérez" . "sergio.pastorperez@outlook.es"))
+	  (:maintainers
+	   ("Sergio Pastor Pérez" . "sergio.pastorperez@outlook.es"))
+	  (:maintainer "Sergio Pastor Pérez" . "sergio.pastorperez@outlook.es")
+	  (:keywords "extensions")
+	  (:url . "https://codeberg.org/shepherd/gdb-x"))])
  (gdscript-mode .
 		[(1 0 0 1 -4 20240509 1523)
 		 ((emacs
@@ -43980,6 +43993,24 @@
 		  (:maintainer "Jan Tatarik" . "Jan.Tatarik@gmail.com")
 		  (:keywords "vc" "tools")
 		  (:url . "https://github.com/jtatarik/magit-gitflow"))])
+ (magit-gitlab .
+	       [(0 1 0 1 -4 20240621 908)
+		((emacs
+		  (26 1))
+		 (magit
+		  (3 3 0))
+		 (ghub
+		  (3 6 0))
+		 (transient
+		  (0 6 0)))
+		"Magit plugin for manipulating GitLab merge requests" tar
+		((:commit . "bce71a0ec40d08d70ae06f9e20775bfb8a80779a")
+		 (:authors
+		  ("Arvid Jakobsson" . "arvid.jakobsson@gmail.com"))
+		 (:maintainers
+		  ("Arvid Jakobsson" . "arvid.jakobsson@gmail.com"))
+		 (:maintainer "Arvid Jakobsson" . "arvid.jakobsson@gmail.com")
+		 (:url . "https://gitlab.com/arvidnl/magit-gitlab"))])
  (magit-gptcommit .
 		  [(0 1 0 1 -4 20240406 807)
 		   ((emacs
@@ -45361,6 +45392,21 @@
 	 (:maintainer "Shi Tianshu")
 	 (:keywords "convenience" "modal-editing")
 	 (:url . "https://www.github.com/DogLooksGood/meow"))])
+ (meow-tree-sitter .
+		   [(1 0 0 1 -4 20240618 1545)
+		    ((emacs
+		      (29 1))
+		     (meow
+		      (1 2 0)))
+		    "Tree-sitter powered motions for Meow" tar
+		    ((:commit . "a69947f11264a887d00954254492eb8d2784aad8")
+		     (:authors
+		      ("Ad" . "me@skissue.xyz"))
+		     (:maintainers
+		      ("Ad" . "me@skissue.xyz"))
+		     (:maintainer "Ad" . "me@skissue.xyz")
+		     (:keywords "convenience" "files" "languages" "tools")
+		     (:url . "https://github.com/skissue/meow-tree-sitter"))])
  (merlin .
 	 [(3 0 1 -4 20240604 1521)
 	  ((emacs
@@ -54285,6 +54331,22 @@
 		   (:maintainer "tty-tourist" . "andreasrasholm@protonmail.com")
 		   (:keywords "org" "writing")
 		   (:url . "https://github.com/tty-tourist/org-tracktable"))])
+ (org-transclusion-http .
+			[(0 5 -1 1 -4 20240619 2130)
+			 ((emacs
+			   (28 1))
+			  (org-transclusion
+			   (1 4 0))
+			  (plz
+			   (0 7 2)))
+			 "Transclude over HTTP" tar
+			 ((:commit . "65caad0d9b19bf19c815bd7c033ffb907c3ebb12")
+			  (:authors
+			   ("Joseph Turner <first name at ushin.org>"))
+			  (:maintainers
+			   ("Joseph Turner" . "~ushin/ushin@lists.sr.ht"))
+			  (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
+			  (:url . "https://git.sr.ht/~ushin/org-transclusion-http"))])
  (org-transform-tree-table .
 			   [(0 1 2 1 -4 20200413 1959)
 			    ((dash
