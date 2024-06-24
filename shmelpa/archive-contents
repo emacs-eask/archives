@@ -1949,18 +1949,21 @@
 	 (:keywords "terminals" "color" "ansi")
 	 (:url . "http://github.com/rejeep/ansi"))])
  (ansible .
-	  [(0 4 0 1 -4 20240607 1340)
+	  [(0 4 1 1 -4 20240624 1452)
 	   ((s
 	     (1 9 0))
 	    (f
-	     (0 16 2)))
+	     (0 16 2))
+	    (emacs
+	     (25 1)))
 	   "Ansible minor mode" tar
-	   ((:commit . "079c993b0825eef7c527f1e9083c3f0a0fefc01d")
+	   ((:commit . "eebb2fb49d3c0a0586d1e4ead9ba618c7d003cae")
 	    (:authors
-	     ("k1LoW (Kenichirou Oyama), <k1lowxb [at] gmail [dot] com> <k1low [at] 101000lab [dot] org>"))
+	     ("k1LoW (Kenichirou Oyama), <k1lowxb [at] gmail [dot] com>")
+	     ("<k1low [at] 101000lab [dot] org>"))
 	    (:maintainers
-	     ("k1LoW (Kenichirou Oyama), <k1lowxb [at] gmail [dot] com> <k1low [at] 101000lab [dot] org>"))
-	    (:maintainer "k1LoW (Kenichirou Oyama), <k1lowxb [at] gmail [dot] com> <k1low [at] 101000lab [dot] org>")
+	     ("k1LoW (Kenichirou Oyama), <k1lowxb [at] gmail [dot] com>"))
+	    (:maintainer "k1LoW (Kenichirou Oyama), <k1lowxb [at] gmail [dot] com>")
 	    (:url . "https://gitlab.com/emacs-ansible/emacs-ansible"))])
  (ansible-doc .
 	      [(0 4 1 -4 20160924 824)
@@ -8549,11 +8552,11 @@
 	      (:keywords "languages")
 	      (:url . "http://github.com/atilaneves/cmake-ide"))])
  (cmake-mode .
-	     [(0 1 0 1 -4 20240412 1329)
+	     [(0 1 0 1 -4 20240624 1425)
 	      ((emacs
 		(24 1)))
 	      "major-mode for editing CMake sources" tar
-	      ((:commit . "3bb04b05a527b2443298cb7bc9520f58e56c4e9e"))])
+	      ((:commit . "4b874546fc3711bb24fcdba5718e6c85a17c740a"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" tar
