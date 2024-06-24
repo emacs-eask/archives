@@ -1949,19 +1949,19 @@
 	 (:keywords "terminals" "color" "ansi")
 	 (:url . "http://github.com/rejeep/ansi"))])
  (ansible .
-	  [(0 3 2 1 -4 20240615 112)
+	  [(0 4 0 1 -4 20240607 1340)
 	   ((s
 	     (1 9 0))
 	    (f
 	     (0 16 2)))
 	   "Ansible minor mode" tar
-	   ((:commit . "b4dca00f89334392d770a7a67fffc935ec7354aa")
+	   ((:commit . "079c993b0825eef7c527f1e9083c3f0a0fefc01d")
 	    (:authors
 	     ("k1LoW (Kenichirou Oyama), <k1lowxb [at] gmail [dot] com> <k1low [at] 101000lab [dot] org>"))
 	    (:maintainers
 	     ("k1LoW (Kenichirou Oyama), <k1lowxb [at] gmail [dot] com> <k1low [at] 101000lab [dot] org>"))
 	    (:maintainer "k1LoW (Kenichirou Oyama), <k1lowxb [at] gmail [dot] com> <k1low [at] 101000lab [dot] org>")
-	    (:url . "https://github.com/k1LoW/emacs-ansible"))])
+	    (:url . "https://gitlab.com/emacs-ansible/emacs-ansible"))])
  (ansible-doc .
 	      [(0 4 1 -4 20160924 824)
 	       ((emacs
@@ -6653,6 +6653,29 @@
 	       (:maintainer "Charles Choi" . "kickingvegas@gmail.com")
 	       (:keywords "tools")
 	       (:url . "https://github.com/kickingvegas/casual-lib"))])
+ (casual-suite .
+	       [(1 1 0 1 -4 20240620 1908)
+		((emacs
+		  (29 1))
+		 (casual-calc
+		  (1 9 0))
+		 (casual-isearch
+		  (1 7 0))
+		 (casual-dired
+		  (1 4 0))
+		 (casual-avy
+		  (1 2 0))
+		 (casual-info
+		  (1 2 0)))
+		"A suite of opinionated Transient UIs" tar
+		((:commit . "2ddc92b3ea479c7bd92666c0d694244cb31d7f26")
+		 (:authors
+		  ("Charles Choi" . "kickingvegas@gmail.com"))
+		 (:maintainers
+		  ("Charles Choi" . "kickingvegas@gmail.com"))
+		 (:maintainer "Charles Choi" . "kickingvegas@gmail.com")
+		 (:keywords "tools")
+		 (:url . "https://github.com/kickingvegas/casual-suite"))])
  (catmacs .
 	  [(0 1 1 1 -4 20170826 1157)
 	   ((emacs
@@ -15853,6 +15876,19 @@
 		 (:maintainer "Arne Jørgensen" . "arne@arnested.dk")
 		 (:keywords "wp")
 		 (:url . "https://github.com/arnested/drupal-spell"))])
+ (dslide .
+	 [(0 5 2 1 -4 20240624 17)
+	  ((emacs
+	    (29 2)))
+	  "Domain Specific sLIDEs. A presentation framework" tar
+	  ((:commit . "8f56d6914d6efce0740b50db5d638afb350581f6")
+	   (:authors
+	    ("Positron" . "contact@positron.solutions"))
+	   (:maintainers
+	    ("Positron" . "contact@positron.solutions"))
+	   (:maintainer "Positron" . "contact@positron.solutions")
+	   (:keywords "convenience" "org-mode" "presentation" "narrowing")
+	   (:url . "https://github.com/positron-solutions/dslide"))])
  (dsvn .
        [(0 1 0 1 -4 20221102 1416)
 	nil "Subversion interface" tar
