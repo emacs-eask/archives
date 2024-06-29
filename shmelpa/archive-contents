@@ -6567,15 +6567,15 @@
 	   (:keywords "convenience")
 	   (:url . "https://github.com/aki2o/caskxy"))])
  (casual-avy .
-	     [(1 2 2 1 -4 20240621 2151)
+	     [(1 3 0 1 -4 20240628 2305)
 	      ((emacs
 		(29 1))
 	       (avy
 		(0 5 0))
 	       (casual-lib
-		(1 0 0)))
+		(1 1 0)))
 	      "Transient UI for Avy" tar
-	      ((:commit . "6835d78c5b75215da3a0971222ecefad1cfb1a8a")
+	      ((:commit . "0e6351cc894996935731ec223059513076517605")
 	       (:authors
 		("Charles Choi" . "kickingvegas@gmail.com"))
 	       (:maintainers
@@ -6584,13 +6584,13 @@
 	       (:keywords "tools")
 	       (:url . "https://github.com/kickingvegas/casual-avy"))])
  (casual-calc .
-	      [(1 9 0 1 -4 20240620 1851)
+	      [(1 10 0 1 -4 20240628 2332)
 	       ((emacs
 		 (29 1))
 		(casual-lib
-		 (1 0 0)))
+		 (1 1 0)))
 	       "Transient UI for Calc" tar
-	       ((:commit . "8c7a3b3140a3d3d035f0a0d245683561a5b14003")
+	       ((:commit . "47d8c4fd2b4a2d91d3891320a42451577d9c804a")
 		(:authors
 		 ("Charles Choi" . "kickingvegas@gmail.com"))
 		(:maintainers
@@ -6599,13 +6599,13 @@
 		(:keywords "tools")
 		(:url . "https://github.com/kickingvegas/casual-calc"))])
  (casual-dired .
-	       [(1 4 0 1 -4 20240620 1828)
+	       [(1 5 0 1 -4 20240628 2328)
 		((emacs
 		  (29 1))
 		 (casual-lib
-		  (1 0 0)))
+		  (1 1 0)))
 		"Transient UI for Dired" tar
-		((:commit . "ed114d5ca952d8d725a1a2bae8db3ea591b9f67f")
+		((:commit . "44f31a84d9d5ee917a5ac05858c768b704c41530")
 		 (:authors
 		  ("Charles Choi" . "kickingvegas@gmail.com"))
 		 (:maintainers
@@ -6614,13 +6614,13 @@
 		 (:keywords "tools")
 		 (:url . "https://github.com/kickingvegas/casual-dired"))])
  (casual-info .
-	      [(1 2 0 1 -4 20240620 1817)
+	      [(1 3 0 1 -4 20240628 2326)
 	       ((emacs
 		 (29 1))
 		(casual-lib
-		 (1 0 0)))
+		 (1 1 0)))
 	       "Transient UI for Info" tar
-	       ((:commit . "b20e4af7b5760b360089ea6125b8374cfada402e")
+	       ((:commit . "ab8d31e8610ca47ecfdb730410a28f489076703e")
 		(:authors
 		 ("Charles Choi" . "kickingvegas@gmail.com"))
 		(:maintainers
@@ -6629,13 +6629,13 @@
 		(:keywords "tools")
 		(:url . "https://github.com/kickingvegas/casual-info"))])
  (casual-isearch .
-		 [(1 7 0 1 -4 20240620 1822)
+		 [(1 8 0 1 -4 20240628 2324)
 		  ((emacs
 		    (29 1))
 		   (casual-lib
-		    (1 0 0)))
+		    (1 1 0)))
 		  "Transient UI for I-Search" tar
-		  ((:commit . "e3aed24fe945cb11d9adf4ded4da59ed9ea2e57d")
+		  ((:commit . "999bbe9672cd2ac4606ef72be604c4572202bd18")
 		   (:authors
 		    ("Charles Choi" . "kickingvegas@gmail.com"))
 		   (:maintainers
@@ -6644,11 +6644,13 @@
 		   (:keywords "wp")
 		   (:url . "https://github.com/kickingvegas/casual-isearch"))])
  (casual-lib .
-	     [(1 0 1 1 -4 20240620 1804)
+	     [(1 1 0 1 -4 20240628 2300)
 	      ((emacs
-		(29 1)))
+		(29 1))
+	       (transient
+		(0 6 0)))
 	      "Library routines for Casual porcelains" tar
-	      ((:commit . "688a32b28d3dbfd2333e7b5be645ef53844537ed")
+	      ((:commit . "a7b4a576f01fa227aaff074e0ef2778cdd06fc5d")
 	       (:authors
 		("Charles Choi" . "kickingvegas@gmail.com"))
 	       (:maintainers
@@ -6657,7 +6659,7 @@
 	       (:keywords "tools")
 	       (:url . "https://github.com/kickingvegas/casual-lib"))])
  (casual-suite .
-	       [(1 1 0 1 -4 20240620 1908)
+	       [(1 1 1 1 -4 20240628 2310)
 		((emacs
 		  (29 1))
 		 (casual-calc
@@ -6671,7 +6673,7 @@
 		 (casual-info
 		  (1 2 0)))
 		"A suite of opinionated Transient UIs" tar
-		((:commit . "2ddc92b3ea479c7bd92666c0d694244cb31d7f26")
+		((:commit . "81593d638de46a59245d869c28ca639324968d44")
 		 (:authors
 		  ("Charles Choi" . "kickingvegas@gmail.com"))
 		 (:maintainers
@@ -28700,11 +28702,11 @@
 	     (:keywords "vc" "convenience")
 	     (:url . "https://github.com/pidu/git-lens"))])
  (git-link .
-	   [(0 9 0 1 -4 20240413 1547)
+	   [(0 9 0 1 -4 20240628 2338)
 	    ((emacs
 	      (24 3)))
 	    "Get the GitHub/Bitbucket/GitLab URL for a buffer location" tar
-	    ((:commit . "f16ced38f954f1159fda2f0ba7b60842f8d7e9f9")
+	    ((:commit . "495391ad83f149aff1c2264a3f00226d5a14f6f8")
 	     (:authors
 	      ("Skye Shaw" . "skye.shaw@gmail.com"))
 	     (:maintainers
@@ -31013,11 +31015,11 @@
 		     (:maintainer "Nicolas Petton" . "nicolas@petton.fr")
 		     (:keywords "convenience" "javascript"))])
  (gumshoe .
-	  [(2 0 1 -4 20240628 512)
+	  [(2 0 1 -4 20240628 2142)
 	   ((emacs
 	     (25 1)))
 	   "Scoped spatial and temporal POINT movement tracking" tar
-	   ((:commit . "bdb7997d466b56948fe4ab5b6c6a4bed2fe95be7")
+	   ((:commit . "569ee770d022df9f6d51ff448652788a379c377c")
 	    (:authors
 	     ("overdr0ne"))
 	    (:maintainers
@@ -43420,7 +43422,7 @@
 	       (:keywords "convenience" "shader")
 	       (:url . "https://github.com/shader-ls/lsp-shader"))])
  (lsp-sonarlint .
-		[(0 0 1 1 -4 20230814 1954)
+		[(0 0 1 1 -4 20240628 2255)
 		 ((emacs
 		   (27 1))
 		  (dash
@@ -43430,7 +43432,7 @@
 		  (ht
 		   (2 3)))
 		 "Emacs SonarLint lsp client" tar
-		 ((:commit . "d131779950d5d45c3129eb088cef5fd11099f47c")
+		 ((:commit . "043bda7b2210440169a4a551e16ae9a093a14589")
 		  (:authors
 		   ("Fermin MF" . "fmfs@posteo.net"))
 		  (:maintainers
@@ -45778,7 +45780,7 @@
 		     (:keywords "calendar")
 		     (:url . "https://github.com/sggutier/mexican-holidays"))])
  (meyvn .
-	[(1 2 1 -4 20231213 230)
+	[(1 3 1 -4 20240628 2350)
 	 ((emacs
 	   (25 1))
 	  (cider
@@ -45796,7 +45798,7 @@
 	  (geiser
 	   (0 12)))
 	 "Meyvn client" tar
-	 ((:commit . "3afb0a4283afd4f63ef7fdd48eb5da972421fd7a")
+	 ((:commit . "f2b809da1d1bf66f1a215a0e5c64f95d10118b76")
 	  (:authors
 	   ("Daniel Szmulewicz" . "daniel.szmulewicz@gmail.com"))
 	  (:maintainers
