@@ -250,7 +250,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "33770dec73138909714711b05a63e79da5a19ccd"))])
  (cider .
-	[(1 15 0 0 20240611 52359)
+	[(1 15 0 0 20240629 62419)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -278,7 +278,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "105da319b09a436552f1b3c6194cbbc833017dd2"))])
+	  (:commit . "20f9a8f97cd01bc1bc8d064e653863ccc17d6d8b"))])
  (clojure-mode .
 	       [(5 20 0 -4 0 20240611 73422)
 		((emacs
@@ -776,7 +776,7 @@
 	   ((:url . "https://github.com/lewang/flx")
 	    (:commit . "4b1346eb9a8a76ee9c9dede69738c63ad97ac5b6"))])
  (flycheck .
-	   [(35 0 -4 0 20240519 95747)
+	   [(35 0 -4 0 20240629 40435)
 	    ((emacs
 	      (26 1)))
 	    "On-the-fly syntax checking" tar
@@ -788,7 +788,7 @@
 	      ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
-	     (:commit . "10430dee428f7bab176743097d996182fac29daa"))])
+	     (:commit . "3e394f0eba60cedfad5ebf39121adbf802efb008"))])
  (flymake-guile .
 		[(0 5 0 20230905 194410)
 		 ((emacs
@@ -1012,7 +1012,7 @@
 		   ("Jeronimo Pellegrini" . "(j_p@aleph0.info)"))
 		  (:commit . "efdac7298e3a64f1138e3949b3312f491f2c706a"))])
  (git-commit .
-	     [(3 3 0 50 -4 0 20240628 164159)
+	     [(3 3 0 50 -4 0 20240628 201415)
 	      ((emacs
 		(26 1))
 	       (compat
@@ -1032,7 +1032,7 @@
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
 		("Florian Ragwitz" . "rafl@debian.org")
 		("Marius Vollmer" . "marius.vollmer@gmail.com"))
-	       (:commit . "6359e5c98fb55f270464a22f10e8552e989084ab"))])
+	       (:commit . "61a6e609096bdad3b4332e40f1a0648478a62bb2"))])
  (git-modes .
 	    [(1 4 3 0 20240618 160901)
 	     ((emacs
@@ -1199,7 +1199,7 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (helm .
-       [(3 9 9 0 20240628 161759)
+       [(3 9 9 0 20240629 65318)
 	((helm-core
 	  (3 9 9))
 	 (wfnames
@@ -1209,9 +1209,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "6309dc2b2f3d884646e8fd3498f52327e97d0f4e"))])
+	 (:commit . "39ca479d0b3ae2141687993af967a364e366efe1"))])
  (helm-core .
-	    [(3 9 9 0 20240628 161759)
+	    [(3 9 9 0 20240629 65318)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1221,7 +1221,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "6309dc2b2f3d884646e8fd3498f52327e97d0f4e"))])
+	      (:commit . "39ca479d0b3ae2141687993af967a364e366efe1"))])
  (hideshowvis .
 	      [(0 8 0 20240529 112833)
 	       ((emacs
@@ -1479,7 +1479,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "4939d88779761e8b5461b4cf73f86600172987db"))])
  (magit .
-	[(3 3 0 50 -4 0 20240628 164159)
+	[(3 3 0 50 -4 0 20240628 201415)
 	 ((emacs
 	   (26 1))
 	  (compat
@@ -1505,9 +1505,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	  (:commit . "6359e5c98fb55f270464a22f10e8552e989084ab"))])
+	  (:commit . "61a6e609096bdad3b4332e40f1a0648478a62bb2"))])
  (magit-section .
-		[(3 3 0 50 -4 0 20240628 164159)
+		[(3 3 0 50 -4 0 20240628 201415)
 		 ((emacs
 		   (26 1))
 		  (compat
@@ -1522,7 +1522,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "6359e5c98fb55f270464a22f10e8552e989084ab"))])
+		  (:commit . "61a6e609096bdad3b4332e40f1a0648478a62bb2"))])
  (markdown-mode .
 		[(2 7 -3 0 20240626 82642)
 		 ((emacs
@@ -1903,7 +1903,7 @@
 		("Jonathan Waltman" . "jonathan.waltman@gmail.com"))
 	       (:commit . "43229e1096f89c277190f09a3d794781f8fa0015"))])
  (pcre2el .
-	  [(1 12 0 20240220 73041)
+	  [(1 12 0 20240628 140539)
 	   ((emacs
 	     (25 1)))
 	   "regexp syntax converter" tar
@@ -1911,7 +1911,7 @@
 	    (:maintainer "joddie" . "jonxfieldatgmail.com")
 	    (:authors
 	     ("joddie" . "jonxfieldatgmail.com"))
-	    (:commit . "380723b2701cceb75c266440fb8db918f3340d50"))])
+	    (:commit . "0565b3a7eed1b43287ce72714c67ebb3a61e3aae"))])
  (pdf-tools .
 	    [(1 1 0 0 20240429 40722)
 	     ((emacs
