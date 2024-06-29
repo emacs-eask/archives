@@ -14236,35 +14236,41 @@
 		      (:keywords "tools" "convenience")
 		      (:url . "https://github.com/amno1/dired-auto-readme"))])
  (dired-avfs .
-	     [(0 0 1 1 -4 20240627 1305)
+	     [(0 0 1 1 -4 20240629 1857)
 	      ((dash
 		(2 5 0))
 	       (dired-hacks-utils
-		(0 0 1)))
+		(0 0 1))
+	       (emacs
+		(24)))
 	      "AVFS support for dired" tar
-	      ((:commit . "5f582edf3f7c2db0812ba162a69f0748cba13a96")
+	      ((:commit . "d1a85901c892ba7ec273995070a43cbbbe5d0b37")
 	       (:authors
 		("Matus Goljer" . "matus.goljer@gmail.com"))
 	       (:maintainers
 		("Matus Goljer" . "matus.goljer@gmail.com"))
 	       (:maintainer "Matus Goljer" . "matus.goljer@gmail.com")
-	       (:keywords "files"))])
+	       (:keywords "files")
+	       (:url . "https://github.com/Fuco1/dired-hacks"))])
  (dired-collapse .
-		 [(1 1 0 1 -4 20240629 1754)
+		 [(1 1 0 1 -4 20240629 1857)
 		  ((f
 		    (0 19 0))
 		   (s
 		    (1 13 1))
 		   (dired-hacks-utils
-		    (0 0 1)))
+		    (0 0 1))
+		   (emacs
+		    (24)))
 		  "Collapse unique nested paths in dired listing" tar
-		  ((:commit . "dab22a3dcf3b40c3be0f981eff872199a552800b")
+		  ((:commit . "d1a85901c892ba7ec273995070a43cbbbe5d0b37")
 		   (:authors
 		    ("Matúš Goljer" . "matus.goljer@gmail.com"))
 		   (:maintainers
 		    ("Matúš Goljer" . "matus.goljer@gmail.com"))
 		   (:maintainer "Matúš Goljer" . "matus.goljer@gmail.com")
-		   (:keywords "files"))])
+		   (:keywords "files")
+		   (:url . "https://github.com/Fuco1/dired-hacks"))])
  (dired-duplicates .
 		   [(0 4 1 -4 20240328 2016)
 		    ((emacs
@@ -14333,7 +14339,7 @@
 			(:keywords "dired" "filetype" "face")
 			(:url . "https://github.com/jixiuf/dired-filetype-face"))])
  (dired-filter .
-	       [(0 0 2 1 -4 20221127 1247)
+	       [(0 0 2 1 -4 20240629 1857)
 		((dash
 		  (2 10 0))
 		 (dired-hacks-utils
@@ -14341,15 +14347,18 @@
 		 (f
 		  (0 17 0))
 		 (cl-lib
-		  (0 3)))
+		  (0 3))
+		 (emacs
+		  (24)))
 		"Ibuffer-like filtering for dired" tar
-		((:commit . "41d3eb42195d9f0894c20d18cc8e722b099aa1c1")
+		((:commit . "d1a85901c892ba7ec273995070a43cbbbe5d0b37")
 		 (:authors
 		  ("Matúš Goljer" . "matus.goljer@gmail.com"))
 		 (:maintainers
 		  ("Matúš Goljer" . "matus.goljer@gmail.com"))
 		 (:maintainer "Matúš Goljer" . "matus.goljer@gmail.com")
-		 (:keywords "files"))])
+		 (:keywords "files")
+		 (:url . "https://github.com/Fuco1/dired-hacks"))])
  (dired-git .
 	    [(0 0 1 1 -4 20220828 6)
 	     ((emacs
@@ -14385,17 +14394,20 @@
 		    (:keywords "dired" "convenience" "git")
 		    (:url . "https://github.com/johannes-mueller/dired-gitignore.el"))])
  (dired-hacks-utils .
-		    [(0 0 1 1 -4 20230512 1107)
+		    [(0 0 1 1 -4 20240629 1906)
 		     ((dash
-		       (2 5 0)))
+		       (2 5 0))
+		      (emacs
+		       (24 3)))
 		     "Utilities and helpers for dired-hacks collection" tar
-		     ((:commit . "523f51b4152a3bf4e60fe57f512732c698b5c96f")
+		     ((:commit . "63b04d17936c98cb4ad7ce6bc3331cda8e30c55a")
 		      (:authors
 		       ("Matúš Goljer" . "matus.goljer@gmail.com"))
 		      (:maintainers
 		       ("Matúš Goljer" . "matus.goljer@gmail.com"))
 		      (:maintainer "Matúš Goljer" . "matus.goljer@gmail.com")
-		      (:keywords "files"))])
+		      (:keywords "files")
+		      (:url . "https://github.com/Fuco1/dired-hacks"))])
  (dired-hide-dotfiles .
 		      [(0 1 1 -4 20210222 1919)
 		       ((emacs
@@ -14503,33 +14515,39 @@
 	      (:keywords "convenience")
 	      (:url . "https://github.com/conao3/dired-lsi.el"))])
  (dired-narrow .
-	       [(0 0 1 1 -4 20230512 1107)
+	       [(0 0 1 1 -4 20240629 1953)
 		((dash
 		  (2 7 0))
 		 (dired-hacks-utils
-		  (0 0 1)))
+		  (0 0 1))
+		 (emacs
+		  (24)))
 		"Live-narrowing of search results for dired" tar
-		((:commit . "523f51b4152a3bf4e60fe57f512732c698b5c96f")
+		((:commit . "e9e408e8571aee5574ca0a431ef15cac5a3585d4")
 		 (:authors
 		  ("Matúš Goljer" . "matus.goljer@gmail.com"))
 		 (:maintainers
 		  ("Matúš Goljer" . "matus.goljer@gmail.com"))
 		 (:maintainer "Matúš Goljer" . "matus.goljer@gmail.com")
-		 (:keywords "files"))])
+		 (:keywords "files")
+		 (:url . "https://github.com/Fuco1/dired-hacks"))])
  (dired-open .
-	     [(0 0 1 1 -4 20240330 1831)
+	     [(0 0 1 1 -4 20240629 1857)
 	      ((dash
 		(2 5 0))
 	       (dired-hacks-utils
-		(0 0 1)))
+		(0 0 1))
+	       (emacs
+		(24)))
 	      "Open files from dired using using custom actions" tar
-	      ((:commit . "a01c126c3b1068655509487c76971895f5459d09")
+	      ((:commit . "d1a85901c892ba7ec273995070a43cbbbe5d0b37")
 	       (:authors
 		("Matúš Goljer" . "matus.goljer@gmail.com"))
 	       (:maintainers
 		("Matúš Goljer" . "matus.goljer@gmail.com"))
 	       (:maintainer "Matúš Goljer" . "matus.goljer@gmail.com")
-	       (:keywords "files"))])
+	       (:keywords "files")
+	       (:url . "https://github.com/Fuco1/dired-hacks"))])
  (dired-open-with .
 		  [(1 1 1 -4 20240614 2213)
 		   ((emacs
@@ -14574,31 +14592,39 @@
 		     (:keywords "convenience" "files")
 		     (:url . "https://gitlab.com/xuhdev/dired-quick-sort#dired-quick-sort"))])
  (dired-rainbow .
-		[(0 0 3 1 -4 20221127 1247)
+		[(0 0 3 1 -4 20240629 1857)
 		 ((dash
 		   (2 5 0))
 		  (dired-hacks-utils
-		   (0 0 1)))
+		   (0 0 1))
+		  (emacs
+		   (24)))
 		 "Extended file highlighting according to its type" tar
-		 ((:commit . "41d3eb42195d9f0894c20d18cc8e722b099aa1c1")
+		 ((:commit . "d1a85901c892ba7ec273995070a43cbbbe5d0b37")
 		  (:authors
 		   ("Matus Goljer" . "matus.goljer@gmail.com"))
 		  (:maintainers
 		   ("Matus Goljer" . "matus.goljer@gmail.com"))
 		  (:maintainer "Matus Goljer" . "matus.goljer@gmail.com")
-		  (:keywords "files"))])
+		  (:keywords "files")
+		  (:url . "https://github.com/Fuco1/dired-hacks"))])
  (dired-ranger .
-	       [(0 0 1 1 -4 20230512 1107)
+	       [(0 0 1 1 -4 20240629 1857)
 		((dash
-		  (2 7 0)))
+		  (2 7 0))
+		 (dired-hacks-utils
+		  (0 0 1))
+		 (emacs
+		  (24 3)))
 		"Implementation of useful ranger features for dired" tar
-		((:commit . "523f51b4152a3bf4e60fe57f512732c698b5c96f")
+		((:commit . "d1a85901c892ba7ec273995070a43cbbbe5d0b37")
 		 (:authors
 		  ("Matúš Goljer" . "matus.goljer@gmail.com"))
 		 (:maintainers
 		  ("Matúš Goljer" . "matus.goljer@gmail.com"))
 		 (:maintainer "Matúš Goljer" . "matus.goljer@gmail.com")
-		 (:keywords "files"))])
+		 (:keywords "files")
+		 (:url . "https://github.com/Fuco1/dired-hacks"))])
  (dired-recent .
 	       [(0 9 1 -4 20211004 1924)
 		((emacs
@@ -14689,19 +14715,22 @@
 		((:commit . "60fce6599326e12cc2033c28d50b8bf6c6ba164a")
 		 (:url . "https://codeberg.org/amano.kenji/dired-single"))])
  (dired-subtree .
-		[(0 0 1 1 -4 20230512 1107)
+		[(0 0 1 1 -4 20240629 1859)
 		 ((dash
 		   (2 5 0))
 		  (dired-hacks-utils
-		   (0 0 1)))
+		   (0 0 1))
+		  (emacs
+		   (24 3)))
 		 "Insert subdirectories in a tree-like fashion" tar
-		 ((:commit . "523f51b4152a3bf4e60fe57f512732c698b5c96f")
+		 ((:commit . "b769c7de9c8c5dc70e4dcdbb3267c70fae3cb9b7")
 		  (:authors
 		   ("Matúš Goljer" . "matus.goljer@gmail.com"))
 		  (:maintainers
 		   ("Matúš Goljer" . "matus.goljer@gmail.com"))
 		  (:maintainer "Matúš Goljer" . "matus.goljer@gmail.com")
-		  (:keywords "files"))])
+		  (:keywords "files")
+		  (:url . "https://github.com/Fuco1/dired-hacks"))])
  (dired-toggle .
 	       [(0 1 1 -4 20190616 303)
 		nil "Show dired as sidebar and will not create new buffers when changing dir" tar
@@ -33100,13 +33129,13 @@
 		  (:maintainer "Julien BLANCHARD" . "julien@sideburns.eu")
 		  (:url . "https://github.com/julienXX/helm-lobste.rs"))])
  (helm-ls-git .
-	      [(1 9 4 1 -4 20240619 738)
+	      [(1 9 4 1 -4 20240629 1440)
 	       ((helm
 		 (3 9 5))
 		(emacs
 		 (25 3)))
 	       "list git files." tar
-	       ((:commit . "e9e225c4678fee03ed189abdf48f54381bd17ec6")
+	       ((:commit . "41920f714421ed53b1cd7ba11256e25e7db35906")
 		(:url . "https://github.com/emacs-helm/helm-ls-git"))])
  (helm-ls-hg .
 	     [(0 1 0 1 -4 20150909 543)
