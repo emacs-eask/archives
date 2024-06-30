@@ -61418,6 +61418,18 @@
 	     (:maintainer "Artem Malyshev" . "proofit404@gmail.com")
 	     (:keywords "convenience" "pythonic")
 	     (:url . "https://github.com/proofit404/pythonic"))])
+ (pythontest .
+	     [(0 1 0 1 -4 20240610 2226)
+	      ((emacs
+		(29 1)))
+	      "Testing executor for python" tar
+	      ((:commit . "5b46552a7afdd91070ac528909e032d0df5aa2da")
+	       (:authors
+		("Erick Navarro" . "erick@navarro.io"))
+	       (:maintainers
+		("Erick Navarro" . "erick@navarro.io"))
+	       (:maintainer "Erick Navarro" . "erick@navarro.io")
+	       (:url . "https://github.com/erickgnavar/pythontest.el"))])
  (pyvenv .
 	 [(1 21 1 -4 20211014 707)
 	  nil "Python virtual environment interface" tar
@@ -70765,6 +70777,23 @@
 		  (:maintainer "David Anderson" . "dave@natulte.net")
 		  (:keywords "languages")
 		  (:url . "https://github.com/danderson/templ-ts-mode"))])
+ (template-dumper .
+		  [(1 0 1 -4 20240619 1716)
+		   ((emacs
+		     (28 1))
+		    (yasnippet
+		     (0 14 0))
+		    (f
+		     (0 20 0)))
+		   "Create files from yasnippet templates" tar
+		   ((:commit . "2afb640bd61e58e3f84a76101296017bd20eaac3")
+		    (:authors
+		     ("Nathan Nichols"))
+		    (:maintainers
+		     ("Nathan Nichols"))
+		    (:maintainer "Nathan Nichols")
+		    (:keywords "yasnippet" "templating" "convenience" "tools")
+		    (:url . "https://resultsmotivated.com/"))])
  (template-overlays .
 		    [(0 0 1 1 -4 20180706 1132)
 		     ((emacs
