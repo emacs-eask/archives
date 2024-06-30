@@ -64664,11 +64664,11 @@
 	       (:keywords "languages" "tools")
 	       (:url . "https://github.com/sheepduke/scala-repl.el"))])
  (scala-ts-mode .
-		[(1 0 0 1 -4 20240623 905)
+		[(1 0 0 1 -4 20240630 1733)
 		 ((emacs
 		   (29 1)))
 		 "Scala Tree-Sitter Mode" tar
-		 ((:commit . "8147803401ada30d0e817c01df73293e0a967c99")
+		 ((:commit . "8c4ace721fb525d1a790121a8625bc2623c9f207")
 		  (:authors
 		   ("Karan Ahlawat" . "ahlawatkaran12@gmail.com"))
 		  (:maintainers
@@ -76200,6 +76200,23 @@
 	      (:maintainer "Anthony Cowley")
 	      (:keywords "wgsl" "c")
 	      (:url . "https://github.com/acowley/wgsl-mode"))])
+ (whaler .
+	 [(0 0 1 1 -4 20240609 1850)
+	  ((emacs
+	    (25 1))
+	   (f
+	    (0 20 0))
+	   (ivy
+	    (0 13 0)))
+	  "Minimalistic and customizable project manager" tar
+	  ((:commit . "18791f9b5cfa05f7eabd686d572fa37f210ebe85")
+	   (:authors
+	    ("Hector \"Salorak\" Alarcon" . "salorack@protonmail.com"))
+	   (:maintainers
+	    ("Hector \"Salorak\" Alarcon" . "salorack@protonmail.com"))
+	   (:maintainer "Hector \"Salorak\" Alarcon" . "salorack@protonmail.com")
+	   (:keywords "tools")
+	   (:url . "https://github.com/salorak/whaler.el"))])
  (what-the-commit .
 		  [(1 0 1 -4 20150901 1316)
 		   nil "Random commit message generator" tar
