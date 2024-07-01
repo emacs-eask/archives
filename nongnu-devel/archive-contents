@@ -250,7 +250,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "33770dec73138909714711b05a63e79da5a19ccd"))])
  (cider .
-	[(1 15 0 0 20240629 62419)
+	[(1 15 1 0 20240701 161416)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -278,7 +278,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "20f9a8f97cd01bc1bc8d064e653863ccc17d6d8b"))])
+	  (:commit . "810337cee931d9f14aa16550a74516f8337a47f3"))])
  (clojure-mode .
 	       [(5 20 0 -4 0 20240611 73422)
 		((emacs
@@ -289,14 +289,14 @@
 		 (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 		 (:commit . "59888c84b61081e9b0085e388f55132925a66e7a"))])
  (clojure-ts-mode .
-		  [(0 2 2 0 20240617 200135)
+		  [(0 2 2 0 20240701 52532)
 		   ((emacs
 		     (29 1)))
 		   "Major mode for Clojure code" tar
 		   ((:url . "http://github.com/clojure-emacs/clojure-ts-mode")
 		    (:keywords "languages" "clojure" "clojurescript" "lisp")
 		    (:maintainer "Danny Freeman" . "danny@dfreeman.email")
-		    (:commit . "7b7a4705d1a952b4414672955e67fb9471213f2a"))])
+		    (:commit . "79e33b7b11c7a7ed0c7e477da36802077875106c"))])
  (coffee-mode .
 	      [(0 6 3 0 20230908 103000)
 	       ((emacs
@@ -1535,7 +1535,7 @@
 		   ("Jason R. Blevins" . "jblevins@xbeta.org"))
 		  (:commit . "8aab017f4790f7a1e0d8403239cce989c88412f6"))])
  (mastodon .
-	   [(1 0 24 0 20240624 131541)
+	   [(1 0 24 0 20240701 160422)
 	    ((emacs
 	      (27 1))
 	     (request
@@ -1548,7 +1548,7 @@
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com")
 	      ("Marty Hiatt" . "martianhiatus@riseup.net"))
-	     (:commit . "c14891151345abc20efb5669bbe209604c57450e"))])
+	     (:commit . "a191fb5f3fb118892845792fe34ab41d98ccdf53"))])
  (material-theme .
 		 [(2015 0 20210904 122621)
 		  ((emacs
@@ -2372,6 +2372,20 @@
 	      (:authors
 	       ("Vivek Das Mohapatra" . "vivek@etla.org"))
 	      (:commit . "af2ca2f0623d5268e31f1fe19bc1370c14b601b1"))])
+ (treesit-fold .
+	       [(0 1 0 0 20240630 204821)
+		((emacs
+		  (29 1)))
+		"Code folding using treesit" tar
+		((:url . "https://github.com/emacs-tree-sitter/treesit-fold")
+		 (:keywords "convenience" "folding" "tree-sitter")
+		 (:maintainer
+		  ("Junyi Hou" . "junyi.yi.hou@gmail.com")
+		  ("Jen-Chieh" . "jcs090218@gmail.com"))
+		 (:authors
+		  ("Junyi Hou" . "junyi.yi.hou@gmail.com")
+		  ("Jen-Chieh" . "jcs090218@gmail.com"))
+		 (:commit . "f66e2b8be923ed7c18b48a64c563fc7c4c9afec6"))])
  (treeview .
 	   [(1 2 0 0 20230728 234322)
 	    ((emacs
