@@ -18342,7 +18342,7 @@
 		      (:maintainer "Yinghai Zhao" . "zyinghai@gmail.com")
 		      (:keywords "snippets"))])
  (ellama .
-	 [(0 11 0 1 -4 20240702 1906)
+	 [(0 11 1 1 -4 20240704 2028)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -18350,7 +18350,7 @@
 	   (spinner
 	    (1 7 4)))
 	  "Tool for interacting with LLMs" tar
-	  ((:commit . "b1f8bf1842b92b7b2a9d7111fcb7be6866b0cfba")
+	  ((:commit . "1392f12e37720702bfd9ab73b23751ccb26e1860")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
 	   (:maintainers
@@ -51347,6 +51347,12 @@
 	   (:maintainer "徐春阳" . "mail@xuchunyang.me")
 	   (:keywords "chinese")
 	   (:url . "https://github.com/xuchunyang/emacs-opencc"))])
+ (opencl-c-mode .
+		[(1 0 1 -4 20240621 1714)
+		 nil "Syntax coloring for opencl kernels" tar
+		 ((:commit . "d33ce29c19629e9c2f42e468d2687a475915f531")
+		  (:keywords "c" "opencl")
+		  (:url . "https://github.com/salmanebah/opencl-mode"))])
  (opener .
 	 [(0 2 2 1 -4 20161207 1810)
 	  ((request
@@ -66398,13 +66404,13 @@
 		     (:keywords "bookmark" "functioncall")
 		     (:url . "https://github.com/jtkDvlp/simple-bookmarks"))])
  (simple-call-tree .
-		   [(20151116 1603 1 -4 20240703 910)
+		   [(20151116 1603 1 -4 20240704 2008)
 		    ((emacs
 		      (24 3))
 		     (anaphora
 		      (1 0 0)))
 		    "analyze source code based on font-lock text-properties" tar
-		    ((:commit . "d0a606c94bab253567ef6b71237fed5c92a379a1")
+		    ((:commit . "7f91ef5cc7c8c50c2481762d63bcde18853f327e")
 		     (:authors
 		      ("Joe Bloggs" . "vapniks@yahoo.com"))
 		     (:maintainers
