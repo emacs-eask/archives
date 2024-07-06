@@ -69446,8 +69446,6 @@
 	  [(0 1 0 1 -4 20170910 1511)
 	   nil "Convert to Turkish characters on-the-fly" tar
 	   ((:commit . "9831a316c176bb21a1b91226323ea4133163e00c")
-	    (:authors
-	     ("Deniz Yüret"))
 	    (:maintainers
 	     ("Emre Sevinç" . "emre.sevinc@gmail.com"))
 	    (:maintainer "Emre Sevinç" . "emre.sevinc@gmail.com")
@@ -69470,12 +69468,7 @@
  (twig-mode .
 	    [(0 1 1 -4 20130220 1850)
 	     nil "A major mode for twig" tar
-	     ((:commit . "51bcd41666a234119a855b9fd348d3dae7832de1")
-	      (:authors
-	       ("Bojan Matic aka moljac024"))
-	      (:maintainers
-	       ("Bojan Matic aka moljac024"))
-	      (:maintainer "Bojan Matic aka moljac024"))])
+	     ((:commit . "51bcd41666a234119a855b9fd348d3dae7832de1"))])
  (twilight-anti-bright-theme .
 			     [(0 3 1 1 -4 20160622 848)
 			      nil "A soothing Emacs 24 light-on-dark theme" tar
@@ -69519,7 +69512,11 @@
 		     ("Alberto Garcia" . "agarcia@igalia.com")
 		     ("Xavier Maillard" . "xavier@maillard.im"))
 		    (:maintainers
-		     ("Tadashi MATSUO" . "tad@mymail.twin.ne.jp"))
+		     ("Tadashi MATSUO" . "tad@mymail.twin.ne.jp")
+		     ("Y. Hayamizu" . "y.hayamizu@gmail.com")
+		     ("Tsuyoshi CHO" . "Tsuyoshi.CHO+develop@Gmail.com")
+		     ("Alberto Garcia" . "agarcia@igalia.com")
+		     ("Xavier Maillard" . "xavier@maillard.im"))
 		    (:maintainer "Tadashi MATSUO" . "tad@mymail.twin.ne.jp")
 		    (:keywords "twitter" "web")
 		    (:url . "http://twmode.sf.net/"))])
@@ -69622,10 +69619,10 @@
 		"Don't make typos with the help of helm and company" tar
 		((:commit . "3014d18ae2f0b6b857bb613f373e034c743f4d2e")
 		 (:authors
-		  ("Kadir Can Çetin" . "kadircancetin@gmail.com"))
+		  ("Kadir Can etin" . "kadircancetin@gmail.com"))
 		 (:maintainers
-		  ("Kadir Can Çetin" . "kadircancetin@gmail.com"))
-		 (:maintainer "Kadir Can Çetin" . "kadircancetin@gmail.com")
+		  ("Kadir Can etin" . "kadircancetin@gmail.com"))
+		 (:maintainer "Kadir Can etin" . "kadircancetin@gmail.com")
 		 (:keywords "convenience" "wp")
 		 (:url . "https://github.com/kadircancetin/typo-suggest"))])
  (tzc .
@@ -69657,11 +69654,6 @@
 	      (25 1)))
 	    "Major-mode for chess engine interaction" tar
 	    ((:commit . "2cdf4de5af96d56108a0a5716416ef3c8ac7bb7c")
-	     (:authors
-	      ("Dodge Coates and Roland Walker"))
-	     (:maintainers
-	      ("Dodge Coates and Roland Walker"))
-	     (:maintainer "Dodge Coates and Roland Walker")
 	     (:keywords "data" "games" "chess")
 	     (:url . "https://github.com/dwcoates/uci-mode"))])
  (ucs-utils .
@@ -69821,10 +69813,10 @@
 		  "Theme styled after undersea imagery" tar
 		  ((:commit . "0730e21187367003c533e67cdb676a423a8dccd0")
 		   (:authors
-		    ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
+		    ("Jen-Chieh" . "jcs090218@gmail.com"))
 		   (:maintainers
-		    ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
-		   (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+		    ("Jen-Chieh" . "jcs090218@gmail.com"))
+		   (:maintainer "Jen-Chieh" . "jcs090218@gmail.com")
 		   (:keywords "theme" "sea")
 		   (:url . "https://github.com/jcs-elpa/undersea-theme"))])
  (underwater-theme .
@@ -69868,11 +69860,6 @@
 		  (24 3)))
 		"Simple and safe undo navigation" tar
 		((:commit . "91a1dfe516d90dab69c368f6669bacb2458ec5e9")
-		 (:authors
-		  ("Jack Kamm"))
-		 (:maintainers
-		  ("Jack Kamm"))
-		 (:maintainer "Jack Kamm")
 		 (:keywords "convenience" "files" "undo" "redo" "history")
 		 (:url . "https://github.com/jackkamm/undo-propose.el"))])
  (undohist .
@@ -69919,11 +69906,6 @@
 		    [(0 1 1 -4 20150204 1108)
 		     nil "Shortcuts for common unicode emoticons" tar
 		     ((:commit . "52a09955c2afc1807c0f37f1467ccfc1e1da690a")
-		      (:authors
-		       ("Gunther Hagleitner"))
-		      (:maintainers
-		       ("Gunther Hagleitner"))
-		      (:maintainer "Gunther Hagleitner")
 		      (:keywords "games" "entertainment" "comms")
 		      (:url . "https://github.com/hagleitn/unicode-emoticons"))])
  (unicode-enbox .
@@ -69958,10 +69940,10 @@
 		  "Escape/Unescape unicode notations" tar
 		  ((:commit . "afbb09c774571eefd4e639fc6163280476484363")
 		   (:authors
-		    ("KOBAYASHI Shigeru (kosh)" . "shigeru.kb@gmail.com"))
+		    ("KOBAYASHI Shigeru" . "shigeru.kb@gmail.com"))
 		   (:maintainers
-		    ("KOBAYASHI Shigeru (kosh)" . "shigeru.kb@gmail.com"))
-		   (:maintainer "KOBAYASHI Shigeru (kosh)" . "shigeru.kb@gmail.com")
+		    ("KOBAYASHI Shigeru" . "shigeru.kb@gmail.com"))
+		   (:maintainer "KOBAYASHI Shigeru" . "shigeru.kb@gmail.com")
 		   (:keywords "i18n" "unicode")
 		   (:url . "https://github.com/kosh04/unicode-escape.el"))])
  (unicode-fonts .
@@ -69991,11 +69973,6 @@
 			(25)))
 		      "Insert Unicode math symbols using TeX notation" tar
 		      ((:commit . "06bf37d649fc3b41fcd5fa29c0b0eda555aaf8bb")
-		       (:authors
-			("Augusto Stoffel"))
-		       (:maintainers
-			("Augusto Stoffel"))
-		       (:maintainer "Augusto Stoffel")
 		       (:url . "https://github.com/astoff/unicode-math-input.el"))])
  (unicode-progress-reporter .
 			    [(0 5 4 1 -4 20140508 2041)
@@ -70053,7 +70030,7 @@
 	     nil "Transliterate Unicode to ASCII" tar
 	     ((:commit . "525b51b38f5b0435642005957740fe22ecb2a53c")
 	      (:authors
-	       ("sindikat <sindikat at mail36 dot net>"))
+	       ("sindikat" . "sindikatatmail36dotnet"))
 	      (:maintainers
 	       ("John Mastro" . "john.b.mastro@gmail.com"))
 	      (:maintainer "John Mastro" . "john.b.mastro@gmail.com"))])
@@ -70061,11 +70038,6 @@
 	  [(0 0 1 1 -4 20200517 514)
 	   nil "Delete code guarded by processor directives" tar
 	   ((:commit . "7a4b76f664c4375e3d98e8af0a29270752c13701")
-	    (:authors
-	     ("Anders Lindgren"))
-	    (:maintainers
-	     ("Anders Lindgren"))
-	    (:maintainer "Anders Lindgren")
 	    (:keywords "convenience" "languages")
 	    (:url . "https://github.com/Lindydancer/unifdef"))])
  (unify-opening .
@@ -70120,11 +70092,6 @@
 		     (25 1)))
 		   "Simple major mode for editing Unison" tar
 		   ((:commit . "b8da68fc2a6a62a255a6089b0c6794bfa2370f34")
-		    (:authors
-		     ("Dario Oddenino"))
-		    (:maintainers
-		     ("Dario Oddenino"))
-		    (:maintainer "Dario Oddenino")
 		    (:keywords "languages")
 		    (:url . "https://github.com/dariooddenino/unison-mode-emacs"))])
  (units-mode .
@@ -70149,8 +70116,8 @@
 				 (:authors
 				  ("Grant Rettke" . "gcr@wisdomandwonder.com"))
 				 (:maintainers
-				  (nil . "<gcr@wisdomandwonder.com>"))
-				 (:maintainer nil . "<gcr@wisdomandwonder.com>")
+				  (nil . "gcr@wisdomandwonder.com"))
+				 (:maintainer nil . "gcr@wisdomandwonder.com")
 				 (:keywords "convenience" "docs" "languages")
 				 (:url . "https://github.com/grettke/universal-emotions-emoticons"))])
  (universal-sidecar .
@@ -70253,11 +70220,6 @@
 		       (24 1)))
 		     "Auto revert modified buffer state" tar
 		     ((:commit . "9095a3f870aa570804a11d75aba0952294199715")
-		      (:authors
-		       ("Arthur Colombini Gusmao"))
-		      (:maintainers
-		       ("Arthur Colombini Gusmao"))
-		      (:maintainer "Arthur Colombini Gusmao")
 		      (:url . "https://github.com/arthurcgusmao/unmodified-buffer"))])
  (unobtrusive-magit-theme .
 			  [(0 2 1 -4 20200411 1349)
@@ -70326,11 +70288,6 @@
 	  (24 4)))
 	"Karma Test Runner Integration" tar
 	((:commit . "63514c484e70cd6eeae828f7e58216e1a3429184")
-	 (:authors
-	  ("Sungho Kim(shiren)"))
-	 (:maintainers
-	  ("Sungho Kim(shiren)"))
-	 (:maintainer "Sungho Kim(shiren)")
 	 (:keywords "javascript" "js" "test" "karma")
 	 (:url . "http://github.com/shiren"))])
  (uptimes .
@@ -70389,10 +70346,10 @@
 		 "major mode for editing URScript." tar
 		 ((:commit . "b341f96b129ead8fb74d680cb4f546985bf110a9")
 		  (:authors
-		   ("Guido Schmidt" . "git@guidoschmidt.cc"))
+		   ("Guido Schmidt" . "(git@guidoschmidt.cc)"))
 		  (:maintainers
-		   ("Guido Schmidt" . "git@guidoschmidt.cc"))
-		  (:maintainer "Guido Schmidt" . "git@guidoschmidt.cc")
+		   ("Guido Schmidt" . "(git@guidoschmidt.cc)"))
+		  (:maintainer "Guido Schmidt" . "(git@guidoschmidt.cc)")
 		  (:keywords "languages")
 		  (:url . "https://github.com/guidoschmidt/urscript-mode"))])
  (usage-memo .
@@ -70505,10 +70462,10 @@
 	   "Keep font consistency across different OSs" tar
 	   ((:commit . "694282b9ba7669fcbceb7088808147f68e3ac066")
 	    (:authors
-	     ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
+	     ("Jen-Chieh" . "jcs090218@gmail.com"))
 	    (:maintainers
-	     ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
-	    (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	     ("Jen-Chieh" . "jcs090218@gmail.com"))
+	    (:maintainer "Jen-Chieh" . "jcs090218@gmail.com")
 	    (:keywords "convenience" "customize" "font" "install" "ttf")
 	    (:url . "https://github.com/jcs-elpa/use-ttf"))])
  (ushin-shapes .
@@ -70571,11 +70528,6 @@
 	       (24 1)))
 	     "An awesome dark color scheme" tar
 	     ((:commit . "821c3a84c8e26263d898566cc27b3982854db60c")
-	      (:authors
-	       ("Kevin Borling"))
-	      (:maintainers
-	       ("Kevin Borling"))
-	      (:maintainer "Kevin Borling")
 	      (:keywords "custom themes" "dark" "faces")
 	      (:url . "https://github.com/kborling/uwu-theme"))])
  (uxntal-mode .
@@ -70638,9 +70590,10 @@
 		 ((:commit . "2b7a4fabd328961384da06e0e302250cd97edc47")
 		  (:authors
 		   ("Doug MacEachern" . "dougm@vmware.com")
-		   ("Ryan Prior     " . "ryanprior@gmail.com"))
+		   ("Ryan Prior" . "ryanprior@gmail.com"))
 		  (:maintainers
-		   ("Doug MacEachern" . "dougm@vmware.com"))
+		   ("Doug MacEachern" . "dougm@vmware.com")
+		   ("Ryan Prior" . "ryanprior@gmail.com"))
 		  (:maintainer "Doug MacEachern" . "dougm@vmware.com")
 		  (:keywords "vagrant")
 		  (:url . "https://github.com/dougm/vagrant-tramp"))])
@@ -70648,12 +70601,9 @@
 	    [(0 1 1 -4 20201218 2109)
 	     nil "Vala mode derived mode" tar
 	     ((:commit . "d696a8177e94c81ea557ad364a3b3dcc3abbc50f")
-	      (:authors
-	       ("2005 Dylan R. E. Moonfire")
-	       ("       2008 Étienne BERSAC"))
 	      (:maintainers
-	       ("Étienne BERSAC" . "bersace03@laposte.net"))
-	      (:maintainer "Étienne BERSAC" . "bersace03@laposte.net")
+	       ("tienne BERSAC" . "bersace03@laposte.net"))
+	      (:maintainer "tienne BERSAC" . "bersace03@laposte.net")
 	      (:keywords "vala" "languages" "oop"))])
  (vala-snippets .
 		[(0 1 0 1 -4 20150429 352)
@@ -70661,11 +70611,6 @@
 		   (0 8 0)))
 		 "Yasnippets for Vala" tar
 		 ((:commit . "671439501060449bd100b9fffd524a86064fbfbb")
-		  (:authors
-		   ("Daniel Gopar"))
-		  (:maintainers
-		   ("Daniel Gopar"))
-		  (:maintainer "Daniel Gopar")
 		  (:url . "https://github.com/gopar/vala-snippets"))])
  (vale-mode .
 	    [(0 1 1 -4 20190725 125)
@@ -70722,10 +70667,10 @@
 		  nil "Auto-committing feature for your repository" tar
 		  ((:commit . "56f478016a541b395092a9d3cdc0da84a37b30a1")
 		   (:authors
-		    ("Sylvain Rousseau <thisirs at gmail dot com>"))
+		    ("Sylvain Rousseau" . "thisirsatgmaildotcom"))
 		   (:maintainers
-		    ("Sylvain Rousseau <thisirs at gmail dot com>"))
-		   (:maintainer "Sylvain Rousseau <thisirs at gmail dot com>")
+		    ("Sylvain Rousseau" . "thisirsatgmaildotcom"))
+		   (:maintainer "Sylvain Rousseau" . "thisirsatgmaildotcom")
 		   (:keywords "vc" "convenience")
 		   (:url . "http://github.com/thisirs/vc-auto-commit.git"))])
  (vc-check-status .
@@ -70733,10 +70678,10 @@
 		   nil "Warn you when quitting emacs and leaving repo dirty." tar
 		   ((:commit . "d95ef8f0799cd3dd83726ffa9b01b076f378ce34")
 		    (:authors
-		     ("Sylvain Rousseau <thisirs at gmail dot com>"))
+		     ("Sylvain Rousseau" . "thisirsatgmaildotcom"))
 		    (:maintainers
-		     ("Sylvain Rousseau <thisirs at gmail dot com>"))
-		    (:maintainer "Sylvain Rousseau <thisirs at gmail dot com>")
+		     ("Sylvain Rousseau" . "thisirsatgmaildotcom"))
+		    (:maintainer "Sylvain Rousseau" . "thisirsatgmaildotcom")
 		    (:keywords "vc" "convenience")
 		    (:url . "https://github.com/thisirs/vc-check-status"))])
  (vc-darcs .
@@ -70749,8 +70694,8 @@
 	      ("Jorgen Schaefer" . "forcer@forcix.cx")
 	      ("Juliusz Chroboczek" . "jch@pps.univ-paris-diderot.fr"))
 	     (:maintainers
-	      ("Libor Čapák" . "capak@inputwish.com"))
-	     (:maintainer "Libor Čapák" . "capak@inputwish.com")
+	      ("Libor apák" . "capak@inputwish.com"))
+	     (:maintainer "Libor apák" . "capak@inputwish.com")
 	     (:keywords "vc"))])
  (vc-defer .
 	   [(0 1 1 -4 20201116 701)
@@ -70796,18 +70741,16 @@
 	  "Show commit information of current line" tar
 	  ((:commit . "027fefad63868cd7695372510c27922656cf996a")
 	   (:authors
-	    ("Chen Bin <chenbin DOT sh AT gmail DOT com>"))
+	    ("Chen Bin" . "chenbinDOTshATgmailDOTcom"))
 	   (:maintainers
-	    ("Chen Bin <chenbin DOT sh AT gmail DOT com>"))
-	   (:maintainer "Chen Bin <chenbin DOT sh AT gmail DOT com>")
+	    ("Chen Bin" . "chenbinDOTshATgmailDOTcom"))
+	   (:maintainer "Chen Bin" . "chenbinDOTshATgmailDOTcom")
 	   (:keywords "git" "vc" "svn" "hg" "messenger")
 	   (:url . "http://github.com/redguardtoo/vc-msg"))])
  (vc-osc .
 	 [(0 1 0 1 -4 20190402 2349)
 	  nil "non-resident support for osc version-control" tar
 	  ((:commit . "bf5a515ed85f7d7cdfe66ed5bf4ef7554f8561e5")
-	   (:authors
-	    ("Adam Spiers (see vc.el for full credits)"))
 	   (:maintainers
 	    ("Adam Spiers" . "aspiers@suse.com"))
 	   (:maintainer "Adam Spiers" . "aspiers@suse.com"))])
@@ -70831,10 +70774,10 @@
 	"vcsh integration" tar
 	((:commit . "b9c0109a8c77446980de668785e6af1e46bdcdcd")
 	 (:authors
-	  ("Štěpán Němec" . "stepnem@smrk.net"))
+	  ("těpán Němec" . "stepnem@smrk.net"))
 	 (:maintainers
-	  ("Štěpán Němec" . "stepnem@smrk.net"))
-	 (:maintainer "Štěpán Němec" . "stepnem@smrk.net")
+	  ("těpán Němec" . "stepnem@smrk.net"))
+	 (:maintainer "těpán Němec" . "stepnem@smrk.net")
 	 (:keywords "vc" "files")
 	 (:url . "http://git.smrk.net/vcsh.el"))])
  (vdf-mode .
@@ -70843,11 +70786,6 @@
 	      (24 3)))
 	    "Major mode for editing Valve VDF files." tar
 	    ((:commit . "0910d4f847e9c817eb8da5434b3879048ec4ac92")
-	     (:authors
-	      ("Philipp Middendorf"))
-	     (:maintainers
-	      ("Philipp Middendorf"))
-	     (:maintainer "Philipp Middendorf")
 	     (:url . "https://github.com/plapadoo/vdf-mode"))])
  (vdiff .
 	[(0 2 4 1 -4 20230621 201)
@@ -71231,11 +71169,6 @@
 		(3 1 -1)))
 	      "Utilities for navigating vhdl sources" tar
 	      ((:commit . "9cb2354874608d971be407ad9299ed918a6c061a")
-	       (:authors
-		("Cayetano Santos"))
-	       (:maintainers
-		("Cayetano Santos"))
-	       (:maintainer "Cayetano Santos")
 	       (:keywords "convenience" "languages" "vhdl")
 	       (:url . "https://gitlab.com/emacs-elisp/vhdl-tools/-/wikis/home"))])
  (vhdl-ts-mode .
@@ -71317,11 +71250,6 @@
 		 (28 1)))
 	       "Vim-like tab bar" tar
 	       ((:commit . "d6d1f04f6c30e8d3a82915a869abc592f5245faa")
-		(:authors
-		 ("James Cherti"))
-		(:maintainers
-		 ("James Cherti"))
-		(:maintainer "James Cherti")
 		(:keywords "frames")
 		(:url . "https://github.com/jamescherti/vim-tab-bar.el"))])
  (vimgolf .
@@ -71491,11 +71419,6 @@
 	 (25 1)))
        "VideoLAN VLC Media Player Control" tar
        ((:commit . "07c4a12904f2700fb8420c4e71395fd59a5e6faa")
-	(:authors
-	 ("Xu Chunyang"))
-	(:maintainers
-	 ("Xu Chunyang"))
-	(:maintainer "Xu Chunyang")
 	(:keywords "tools")
 	(:url . "https://github.com/xuchunyang/vlc.el"))])
  (vlf .
@@ -71551,10 +71474,10 @@
 		       nil "Minor mode for visual feedback on some operations." tar
 		       ((:commit . "fcf6e2778454ce514c189a7d1fe70e03ad81c325")
 			(:authors
-			 ("K-talo Miyazaki <Keitaro dot Miyazaki at gmail dot com>"))
+			 ("K-talo Miyazaki" . "KeitarodotMiyazakiatgmaildotcom"))
 			(:maintainers
-			 ("K-talo Miyazaki <Keitaro dot Miyazaki at gmail dot com>"))
-			(:maintainer "K-talo Miyazaki <Keitaro dot Miyazaki at gmail dot com>")
+			 ("K-talo Miyazaki" . "KeitarodotMiyazakiatgmaildotcom"))
+			(:maintainer "K-talo Miyazaki" . "KeitarodotMiyazakiatgmaildotcom")
 			(:keywords "emulations" "convenience" "wp")
 			(:url . "http://www.emacswiki.org/emacs/download/volatile-highlights.el"))])
  (volume .
@@ -71573,11 +71496,6 @@
 		   (24 1)))
 		 "Visual Studio IDE dark theme" tar
 		 ((:commit . "351300bad1a28f5e86f39f6fae9ca5d8a0cfb24d")
-		  (:authors
-		   ("Jen-Chieh Shen"))
-		  (:maintainers
-		   ("Jen-Chieh Shen"))
-		  (:maintainer "Jen-Chieh Shen")
 		  (:url . "https://github.com/emacs-vs/vs-dark-theme"))])
  (vs-light-theme .
 		 [(1 0 1 -4 20240605 133)
@@ -71585,11 +71503,6 @@
 		    (24 1)))
 		  "Visual Studio IDE light theme" tar
 		  ((:commit . "5eeb6e5df24172497c844da750697b2ca3b750fe")
-		   (:authors
-		    ("Jen-Chieh Shen"))
-		   (:maintainers
-		    ("Jen-Chieh Shen"))
-		   (:maintainer "Jen-Chieh Shen")
 		   (:url . "https://github.com/emacs-vs/vs-light-theme"))])
  (vscdark-theme .
 		[(0 1 1 -4 20191212 107)
@@ -71597,21 +71510,11 @@
 		   (24 1)))
 		 "VS Code Dark+ like theme" tar
 		 ((:commit . "f419553e2a2f091a8bc257fb5ab520326e93ddd4")
-		  (:authors
-		   ("Alexander L. Belikoff"))
-		  (:maintainers
-		   ("Alexander L. Belikoff"))
-		  (:maintainer "Alexander L. Belikoff")
 		  (:url . "https://github.com/abelikoff/vscdark-theme"))])
  (vscode-dark-plus-theme .
 			 [(0 0 0 1 -4 20230725 1703)
 			  nil "Default Visual Studio Code Dark+ theme" tar
 			  ((:commit . "65420ca73b543e1e7955905bea1a8d7e5fe6c5ff")
-			   (:authors
-			    ("Ian Y.E. Pan"))
-			   (:maintainers
-			    ("Ian Y.E. Pan"))
-			   (:maintainer "Ian Y.E. Pan")
 			   (:url . "https://github.com/ianpan870102/vscode-dark-plus-emacs-theme"))])
  (vscode-icon .
 	      [(0 0 1 1 -4 20230330 2206)
@@ -71648,10 +71551,10 @@
 		"Toggles between the vterm buffer and other buffers." tar
 		((:commit . "06cb4f3c565e46470a3c4505c11e26066d869715")
 		 (:authors
-		  (nil . "jixiuf  jixiuf@qq.com"))
+		  (nil . "jixiufjixiuf@qq.com"))
 		 (:maintainers
-		  (nil . "jixiuf  jixiuf@qq.com"))
-		 (:maintainer nil . "jixiuf  jixiuf@qq.com")
+		  (nil . "jixiufjixiuf@qq.com"))
+		 (:maintainer nil . "jixiufjixiuf@qq.com")
 		 (:keywords "vterm" "terminals")
 		 (:url . "https://github.com/jixiuf/vterm-toggle"))])
  (vtm .
@@ -71767,11 +71670,9 @@
 	      [(0 1 -4 20170101 1954)
 	       nil "Run Windows application associated with a file." tar
 	       ((:commit . "e5c60eafd8f8d3546a0fa295ad5af2414d36b4e6")
-		(:authors
-		 ("Emacs Wiki, Drew Adams"))
 		(:maintainers
-		 (nil . "Drew Adams (concat \"drew.adams\" \"@\" \"oracle\" \".com\")"))
-		(:maintainer nil . "Drew Adams (concat \"drew.adams\" \"@\" \"oracle\" \".com\")")
+		 ("Drew Adams (concat \"drew.adams\" \"oracle\" \".com\"" . "\"@\" "))
+		(:maintainer "Drew Adams (concat \"drew.adams\" \"oracle\" \".com\"" . "\"@\" ")
 		(:keywords "mouse" "dired" "w32" "explorer")
 		(:url . "http://www.emacswiki.org/w32-browser.el"))])
  (w32-ime .
@@ -71781,13 +71682,6 @@
 	   "Windows IME UI/UX controler" tar
 	   ((:commit . "9c62273dce0ba685a591577885b1e216ba832ec1")
 	    (:authors
-	     ("H.Miyashita")
-	     ("MIYOSHI Masanori")
-	     ("KOBAYASHI Yasuhiro")
-	     ("NTEmacsJP")
-	     ("ksugita (gnupack)")
-	     ("rzl24ozi")
-	     ("TANE")
 	     ("Masamichi Hosoda" . "trueroad@trueroad.jp")
 	     ("Naoya Yamashita" . "conao3@gmail.com"))
 	    (:maintainers
@@ -71850,11 +71744,6 @@
 		(24 4)))
 	      "Minor Mode for Modern Keybindings" tar
 	      ((:commit . "ed86134f91c532a38d2739dd15ea6cec879cbd8a")
-	       (:authors
-		("Abdulla Bubshait"))
-	       (:maintainers
-		("Abdulla Bubshait"))
-	       (:maintainer "Abdulla Bubshait")
 	       (:keywords "convenience" "keybindings" "keys")
 	       (:url . "https://github.com/darkstego/wakib-keys/"))])
  (wal-mode .
@@ -71882,11 +71771,6 @@
 	     (1 0 0)))
 	   "Manipulate Clojure parse trees" tar
 	   ((:commit . "875ee7a350f5141f425c4b5350a630e1ee1795e8")
-	    (:authors
-	     ("Arne Brasseur"))
-	    (:maintainers
-	     ("Arne Brasseur"))
-	    (:maintainer "Arne Brasseur")
 	    (:keywords "languages")
 	    (:url . "https://github.com/plexus/walkclj"))])
  (walkman .
@@ -71901,11 +71785,6 @@
 	     (26 3)))
 	   "Write HTTP requests in Org mode" tar
 	   ((:commit . "f5021a4d9f16a2013e67a9fa7c121f87bf030203")
-	    (:authors
-	     ("Adrien Brochard"))
-	    (:maintainers
-	     ("Adrien Brochard"))
-	    (:maintainer "Adrien Brochard")
 	    (:keywords "walkman" "http" "curl" "org" "comm")
 	    (:url . "https://github.com/abrochard/walkman"))])
  (wallpaper .
@@ -71933,10 +71812,10 @@
 	nil "Magic wand for Emacs - Select and execute" tar
 	((:commit . "e4afc0469c818e7ce73ef31c38d911477947d72e")
 	 (:authors
-	  ("Ha-Duong Nguyen <cmpitgATgmail>"))
+	  ("Ha-Duong Nguyen" . "cmpitgATgmail"))
 	 (:maintainers
-	  ("Ha-Duong Nguyen <cmpitgATgmail>"))
-	 (:maintainer "Ha-Duong Nguyen <cmpitgATgmail>")
+	  ("Ha-Duong Nguyen" . "cmpitgATgmail"))
+	 (:maintainer "Ha-Duong Nguyen" . "cmpitgATgmail")
 	 (:keywords "extensions" "tools")
 	 (:url . "https://github.com/cmpitg/wand"))])
  (wandbox .
@@ -71950,10 +71829,10 @@
 	   "Wandbox client" tar
 	   ((:commit . "e002fe41f2cd9b4ce2b1dc80b83301176e9117f1")
 	    (:authors
-	     ("KOBAYASHI Shigeru (kosh)" . "shigeru.kb@gmail.com"))
+	     ("KOBAYASHI Shigeru" . "shigeru.kb@gmail.com"))
 	    (:maintainers
-	     ("KOBAYASHI Shigeru (kosh)" . "shigeru.kb@gmail.com"))
-	    (:maintainer "KOBAYASHI Shigeru (kosh)" . "shigeru.kb@gmail.com")
+	     ("KOBAYASHI Shigeru" . "shigeru.kb@gmail.com"))
+	    (:maintainer "KOBAYASHI Shigeru" . "shigeru.kb@gmail.com")
 	    (:keywords "tools")
 	    (:url . "https://github.com/kosh04/emacs-wandbox"))])
  (wanderlust .
@@ -71973,23 +71852,13 @@
 		    ((emacs
 		      (24)))
 		    "Emacs 24 theme with a dark background." tar
-		    ((:commit . "020f084d23409b5035150508ba6e57c2509edd64")
-		     (:authors
-		      ("martin haesler"))
-		     (:maintainers
-		      ("martin haesler"))
-		     (:maintainer "martin haesler"))])
+		    ((:commit . "020f084d23409b5035150508ba6e57c2509edd64"))])
  (wasp-mode .
 	    [(0 0 1 1 -4 20230424 1307)
 	     ((emacs
 	       (24 3)))
 	     "A major mode for the Wasp programming language" tar
 	     ((:commit . "76198cdd5f0ece3770c3a586115caea3ea613169")
-	      (:authors
-	       ("XXIV"))
-	      (:maintainers
-	       ("XXIV"))
-	      (:maintainer "XXIV")
 	      (:keywords "files" "wasp")
 	      (:url . "https://github.com/thechampagne/wasp-mode"))])
  (wat-ts-mode .
@@ -72032,11 +71901,6 @@
 	       [(2 1 1 -4 20140829 1359)
 		nil "Running word count with goals (minor mode)" tar
 		((:commit . "bf21ab9c5a449bcc20dd207a4915dcec218d2699")
-		 (:authors
-		  ("Benjamin Beckwith"))
-		 (:maintainers
-		  ("Benjamin Beckwith"))
-		 (:maintainer "Benjamin Beckwith")
 		 (:url . "https://github.com/bnbeckwith/wc-goal-mode"))])
  (wc-mode .
 	  [(1 4 1 -4 20210418 47)
@@ -72044,11 +71908,6 @@
 	     (24 1)))
 	   "Running word count with goals (minor mode)" tar
 	   ((:commit . "63be1433b8a63cdc3239cc751e36360429c42b51")
-	    (:authors
-	     ("Benjamin Beckwith"))
-	    (:maintainers
-	     ("Benjamin Beckwith"))
-	    (:maintainer "Benjamin Beckwith")
 	    (:url . "https://github.com/bnbeckwith/wc-mode"))])
  (wdl-mode .
 	   [(20170709 1 -4 20180831 1946)
@@ -72128,8 +71987,6 @@
 	      (23 1)))
 	    "major mode for editing web templates" tar
 	    ((:commit . "005aa62d6f41fbf9bc045cac3b3b772716ee8ba7")
-	     (:authors
-	      ("François-Xavier Bois"))
 	     (:maintainers
 	      ("François-Xavier Bois" . "fxbois@gmail.com"))
 	     (:maintainer "François-Xavier Bois" . "fxbois@gmail.com")
@@ -72227,11 +72084,6 @@
 	    (25 1)))
 	  "Look up Japanese words on Weblio.jp" tar
 	  ((:commit . "952d085fd814b139562ef947c7dcabc31f92341d")
-	   (:authors
-	    ("Simon Zelazny"))
-	   (:maintainers
-	    ("Simon Zelazny"))
-	   (:maintainer "Simon Zelazny")
 	   (:keywords "langauges" "i18n")
 	   (:url . "https://github.com/pzel/weblio"))])
  (weblorg .
@@ -72259,10 +72111,10 @@
 	    "Paste to pastebin-like services" tar
 	    ((:commit . "d96da58fe42988d5c433c71ee9f8e6fb75d595a9")
 	     (:authors
-	      ("Elis \"etu\" Hirwing" . "elis@hirwing.se"))
+	      ("Elis etu Hirwing" . "elis@hirwing.se"))
 	     (:maintainers
-	      ("Elis \"etu\" Hirwing" . "elis@hirwing.se"))
-	     (:maintainer "Elis \"etu\" Hirwing" . "elis@hirwing.se")
+	      ("Elis etu Hirwing" . "elis@hirwing.se"))
+	     (:maintainer "Elis etu Hirwing" . "elis@hirwing.se")
 	     (:keywords "convenience" "comm" "paste")
 	     (:url . "https://github.com/etu/webpaste.el"))])
  (websearch .
@@ -72356,11 +72208,6 @@
 			  (24 1)))
 			"Emacs theme based off Alien movie franchise" tar
 			((:commit . "e89a63a62e071180c9cdd9067679fadc3f7bf796")
-			 (:authors
-			  ("Joe Staursky"))
-			 (:maintainers
-			  ("Joe Staursky"))
-			 (:maintainer "Joe Staursky")
 			 (:url . "https://github.com/jstaursky/weyland-yutani-theme"))])
  (wfnames .
 	  [(1 2 1 -4 20240418 1005)
@@ -72426,10 +72273,12 @@
 		  "Writable deadgrep buffer and apply the changes to files" tar
 		  ((:commit . "07cd02dddefd99bd4128100579ecaca929a57d6e")
 		   (:authors
-		    ("Masahiro Hayashi <mhayashi1120@gmail.com>, Iku Iwasa" . "iku.iwasa@gmail.com"))
+		    ("Masahiro Hayashi" . "mhayashi1120@gmail.com")
+		    ("Iku Iwasa" . "iku.iwasa@gmail.com"))
 		   (:maintainers
-		    ("Masahiro Hayashi <mhayashi1120@gmail.com>, Iku Iwasa" . "iku.iwasa@gmail.com"))
-		   (:maintainer "Masahiro Hayashi <mhayashi1120@gmail.com>, Iku Iwasa" . "iku.iwasa@gmail.com")
+		    ("Masahiro Hayashi" . "mhayashi1120@gmail.com")
+		    ("Iku Iwasa" . "iku.iwasa@gmail.com"))
+		   (:maintainer "Masahiro Hayashi" . "mhayashi1120@gmail.com")
 		   (:keywords "grep" "edit" "extensions")
 		   (:url . "http://github.com/mhayashi1120/Emacs-wgrep/raw/master/wgrep-deadgrep.el"))])
  (wgrep-helm .
@@ -72456,10 +72305,12 @@
 	    "Writable pt buffer" tar
 	    ((:commit . "edf768732a56840db6879706b64c5773c316d619")
 	     (:authors
-	      ("Masahiro Hayashi <mhayashi1120@gmail.com>, Bailey Ling" . "bling@live.ca"))
+	      ("Masahiro Hayashi" . "mhayashi1120@gmail.com")
+	      ("Bailey Ling" . "bling@live.ca"))
 	     (:maintainers
-	      ("Masahiro Hayashi <mhayashi1120@gmail.com>, Bailey Ling" . "bling@live.ca"))
-	     (:maintainer "Masahiro Hayashi <mhayashi1120@gmail.com>, Bailey Ling" . "bling@live.ca")
+	      ("Masahiro Hayashi" . "mhayashi1120@gmail.com")
+	      ("Bailey Ling" . "bling@live.ca"))
+	     (:maintainer "Masahiro Hayashi" . "mhayashi1120@gmail.com")
 	     (:keywords "grep" "edit" "extensions")
 	     (:url . "http://github.com/mhayashi1120/Emacs-wgrep/raw/master/wgrep-pt.el"))])
  (wgsl-mode .
@@ -72468,11 +72319,6 @@
 	       (24)))
 	     "Syntax highlighting for the WebGPU Shading Language" tar
 	     ((:commit . "003a4e99491fa2a0b777f74658e6ffc70fd3a8c2")
-	      (:authors
-	       ("Anthony Cowley"))
-	      (:maintainers
-	       ("Anthony Cowley"))
-	      (:maintainer "Anthony Cowley")
 	      (:keywords "wgsl" "c")
 	      (:url . "https://github.com/acowley/wgsl-mode"))])
  (whaler .
@@ -72486,10 +72332,10 @@
 	  "Minimalistic and customizable project manager" tar
 	  ((:commit . "18791f9b5cfa05f7eabd686d572fa37f210ebe85")
 	   (:authors
-	    ("Hector \"Salorak\" Alarcon" . "salorack@protonmail.com"))
+	    ("Hector Salorak Alarcon" . "salorack@protonmail.com"))
 	   (:maintainers
-	    ("Hector \"Salorak\" Alarcon" . "salorack@protonmail.com"))
-	   (:maintainer "Hector \"Salorak\" Alarcon" . "salorack@protonmail.com")
+	    ("Hector Salorak Alarcon" . "salorack@protonmail.com"))
+	   (:maintainer "Hector Salorak Alarcon" . "salorack@protonmail.com")
 	   (:keywords "tools")
 	   (:url . "https://github.com/salorak/whaler.el"))])
  (what-the-commit .
@@ -72561,12 +72407,7 @@
 		    ((emacs
 		      (24)))
 		    "Emacs theme with a light background." tar
-		    ((:commit . "729dd52cc1936250183d6761eed406c4be514a71")
-		     (:authors
-		      ("Martin Haesler"))
-		     (:maintainers
-		      ("Martin Haesler"))
-		     (:maintainer "Martin Haesler"))])
+		    ((:commit . "729dd52cc1936250183d6761eed406c4be514a71"))])
  (white-theme .
 	      [(0 1 0 1 -4 20160917 1743)
 	       ((emacs
@@ -72659,10 +72500,10 @@
 	      nil "MVC framework for the emacs widgets" tar
 	      ((:commit . "2576e6f0c35d8dedfa9c2cd6ea4fb4c14cb72b63")
 	       (:authors
-		("SAKURAI Masashi <m.sakurai at kiwanami.net>"))
+		("SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))
 	       (:maintainers
-		("SAKURAI Masashi <m.sakurai at kiwanami.net>"))
-	       (:maintainer "SAKURAI Masashi <m.sakurai at kiwanami.net>")
+		("SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))
+	       (:maintainer "SAKURAI Masashi" . "m.sakuraiatkiwanami.net")
 	       (:keywords "lisp" "widget"))])
  (wiki-nav .
 	   [(1 0 2 1 -4 20230304 2212)
@@ -72685,11 +72526,6 @@
 		  (24)))
 		"View Wikipedia summaries in Emacs easily." tar
 		((:commit . "fa41ab6e50b3b80e54148af9d4bac18fd0405000")
-		 (:authors
-		  ("Danny Gratzer"))
-		 (:maintainers
-		  ("Danny Gratzer"))
-		 (:maintainer "Danny Gratzer")
 		 (:keywords "wikipedia" "utility")
 		 (:url . "https://github.com/jozefg/wiki-summary.el"))])
  (wikinfo .
@@ -72788,11 +72624,6 @@
 	      [(0 1 0 1 -4 20170809 2208)
 	       nil "Move left/right/up/down through your windows." tar
 	       ((:commit . "6bdb51e9a346907d60a9625f6180bddd06be6674")
-		(:authors
-		 ("Steven Thomas"))
-		(:maintainers
-		 ("Steven Thomas"))
-		(:maintainer "Steven Thomas")
 		(:keywords "frames" "convenience")
 		(:url . "https://github.com/chumpage/chumpy-windows"))])
  (window-layout .
@@ -72800,19 +72631,21 @@
 		 nil "window layout manager" tar
 		 ((:commit . "cd2e4f967b610c2bbef53182829e47250d027056")
 		  (:authors
-		   ("SAKURAI Masashi <m.sakurai atmark kiwanami.net>"))
+		   ("SAKURAI Masashi" . "m.sakuraiatmarkkiwanami.net"))
 		  (:maintainers
-		   ("SAKURAI Masashi <m.sakurai atmark kiwanami.net>"))
-		  (:maintainer "SAKURAI Masashi <m.sakurai atmark kiwanami.net>")
+		   ("SAKURAI Masashi" . "m.sakuraiatmarkkiwanami.net"))
+		  (:maintainer "SAKURAI Masashi" . "m.sakuraiatmarkkiwanami.net")
 		  (:keywords "window" "layout"))])
  (window-number .
 		[(1 0 3 1 -4 20170801 151)
 		 nil "Select windows by numbers." tar
 		 ((:commit . "d41722de646ffeb3f70d26e4a86a5a1ba5c6be87")
 		  (:authors
-		   ("Johann \"Myrkraverk\" Oskarsson" . "myrkraverk@users.sourceforge.net"))
+		   ("Johann Myrkraverk Oskarsson" . "myrkraverk@users.sourceforge.net"))
 		  (:maintainers
-		   ("Nik Nyby" . "niknyby@riseup.net"))
+		   ("Nik Nyby" . "niknyby@riseup.net")
+		   ("Johann Myrkraverk Oskarsson" . "myrkraverk@users.sourceforge.net")
+		   ("Andy Stewart" . "lazycat.manatee@gmail.com"))
 		  (:maintainer "Nik Nyby" . "niknyby@riseup.net")
 		  (:keywords "windows")
 		  (:url . "https://github.com/nikolas/window-number"))])
@@ -72821,10 +72654,10 @@
 		    nil "Numbered window shortcuts" tar
 		    ((:commit . "10809b3993a97c7b544240bf5d7ce9b1110a1b89")
 		     (:authors
-		      ("Nikolaj Schumacher <bugs * nschum de>"))
+		      ("Nikolaj Schumacher" . "bugs*nschumde"))
 		     (:maintainers
-		      ("Nikolaj Schumacher <bugs * nschum de>"))
-		     (:maintainer "Nikolaj Schumacher <bugs * nschum de>")
+		      ("Nikolaj Schumacher" . "bugs*nschumde"))
+		     (:maintainer "Nikolaj Schumacher" . "bugs*nschumde")
 		     (:keywords "faces" "matching")
 		     (:url . "http://nschum.de/src/emacs/window-numbering-mode/"))])
  (window-purpose .
@@ -72837,11 +72670,6 @@
 		    (0 1)))
 		  "Purpose-based window management for Emacs" tar
 		  ((:commit . "776c5ef8fe2f0da0f9885526e3556af0f5736600")
-		   (:authors
-		    ("Bar Magal"))
-		   (:maintainers
-		    ("Bar Magal"))
-		   (:maintainer "Bar Magal")
 		   (:keywords "frames")
 		   (:url . "https://github.com/bmag/emacs-purpose"))])
  (winds .
@@ -72926,11 +72754,6 @@
 	  [(0 1 0 1 -4 20180530 18)
 	   nil "Window configuration rings" tar
 	   ((:commit . "f2d072bd446b73e93b127523f19ea82b99b9267f")
-	    (:authors
-	     ("1997-2018 Barry A. Warsaw"))
-	    (:maintainers
-	     ("1997-2018 Barry A. Warsaw"))
-	    (:maintainer "1997-2018 Barry A. Warsaw")
 	    (:keywords "frames" "tools")
 	    (:url . "https://gitlab.com/warsaw/winring"))])
  (winum .
@@ -73061,10 +72884,10 @@
 	     "Execute with Python virtual environment activated" tar
 	     ((:commit . "773192d892ec0341e023d8b5e80639f8eb79f2a5")
 	      (:authors
-	       ("10sr <8.slashes [at] gmail [dot] com>"))
+	       ("10sr" . "8.slashes[at]gmail[dot]com"))
 	      (:maintainers
-	       ("10sr <8.slashes [at] gmail [dot] com>"))
-	      (:maintainer "10sr <8.slashes [at] gmail [dot] com>")
+	       ("10sr" . "8.slashes[at]gmail[dot]com"))
+	      (:maintainer "10sr" . "8.slashes[at]gmail[dot]com")
 	      (:keywords "processes" "python" "venv")
 	      (:url . "https://github.com/10sr/with-venv-el"))])
  (wiz .
@@ -73088,8 +72911,6 @@
 	     (24)))
 	   "numeric window switching shortcuts" tar
 	   ((:commit . "f05c3151523e529af5a0a3fa8c948b61fb369f6e")
-	    (:authors
-	     ("Anonymous"))
 	    (:maintainers
 	     ("Luís Oliveira" . "luismbo@gmail.com"))
 	    (:maintainer "Luís Oliveira" . "luismbo@gmail.com")
@@ -73112,10 +72933,10 @@
 		"Mathematica editing and inferior mode." tar
 		((:commit . "be680190cac6ccf579dbce107deaae495928d1b3")
 		 (:authors
-		  ("Daichi Mochihashi <daichi at cslab.kecl.ntt.co.jp>"))
+		  ("Daichi Mochihashi" . "daichiatcslab.kecl.ntt.co.jp"))
 		 (:maintainers
-		  ("Daichi Mochihashi <daichi at cslab.kecl.ntt.co.jp>"))
-		 (:maintainer "Daichi Mochihashi <daichi at cslab.kecl.ntt.co.jp>")
+		  ("Daichi Mochihashi" . "daichiatcslab.kecl.ntt.co.jp"))
+		 (:maintainer "Daichi Mochihashi" . "daichiatcslab.kecl.ntt.co.jp")
 		 (:keywords "languages" "processes" "tools")
 		 (:url . "https://github.com/kawabata/wolfram-mode/"))])
  (wonderland .
@@ -73194,10 +73015,10 @@
 		 "Interface for wordreference.com" tar
 		 ((:commit . "6cd9e43c809267fc37e21e99d49ded4e4731b48a")
 		  (:authors
-		   ("Marty Hiatt <martianhiatus AT riseup.net>"))
+		   ("Marty Hiatt" . "martianhiatusATriseup.net"))
 		  (:maintainers
-		   ("Marty Hiatt <martianhiatus AT riseup.net>"))
-		  (:maintainer "Marty Hiatt <martianhiatus AT riseup.net>")
+		   ("Marty Hiatt" . "martianhiatusATriseup.net"))
+		  (:maintainer "Marty Hiatt" . "martianhiatusATriseup.net")
 		  (:keywords "convenience" "translate" "wp" "dictionary")
 		  (:url . "https://codeberg.org/martianh/wordreference.el"))])
  (wordsmith-mode .
@@ -73235,10 +73056,10 @@
 	       "save&load multiple named workspaces (or \"workgroups\")" tar
 	       ((:commit . "aff9d76b7be5eed33f30be2fabf111818749cbd5")
 		(:authors
-		 ("Sergey Pashinin <sergey at pashinin dot com>"))
+		 ("Sergey Pashinin" . "sergeyatpashinindotcom"))
 		(:maintainers
-		 ("Sergey Pashinin <sergey at pashinin dot com>"))
-		(:maintainer "Sergey Pashinin <sergey at pashinin dot com>")
+		 ("Sergey Pashinin" . "sergeyatpashinindotcom"))
+		(:maintainer "Sergey Pashinin" . "sergeyatpashinindotcom")
 		(:keywords "session" "management" "window-configuration" "persistence")
 		(:url . "https://github.com/pashinin/workgroups2"))])
  (workroom .
@@ -73301,11 +73122,6 @@
 	       (24 3)))
 	     "A major mode for the Wren programming language" tar
 	     ((:commit . "70b1b89f565679a15c8c9c1a9bda98b0d163e83e")
-	      (:authors
-	       ("XXIV"))
-	      (:maintainers
-	       ("XXIV"))
-	      (:maintainer "XXIV")
 	      (:keywords "files" "wren")
 	      (:url . "https://github.com/thechampagne/wren-mode"))])
  (writefreely .
@@ -73321,21 +73137,16 @@
 	       "Push your Org files as markdown to a writefreely instance" tar
 	       ((:commit . "db70444eb5fbe0820754574d70b1ae44967607dc")
 		(:authors
-		 ("Daniel Gomez <d.gomez at posteo dot org>"))
+		 ("Daniel Gomez" . "d.gomezatposteodotorg"))
 		(:maintainers
-		 ("Daniel Gomez <d.gomez at posteo dot org>"))
-		(:maintainer "Daniel Gomez <d.gomez at posteo dot org>")
+		 ("Daniel Gomez" . "d.gomezatposteodotorg"))
+		(:maintainer "Daniel Gomez" . "d.gomezatposteodotorg")
 		(:keywords "convenience")
 		(:url . "https://github.com/dangom/writefreely.el"))])
  (writegood-mode .
 		 [(2 2 0 1 -4 20220511 2109)
 		  nil "Polish up poor writing on the fly" tar
 		  ((:commit . "d54eadeedb8bf3aa0e0a584c0a7373c69644f4b8")
-		   (:authors
-		    ("Benjamin Beckwith"))
-		   (:maintainers
-		    ("Benjamin Beckwith"))
-		   (:maintainer "Benjamin Beckwith")
 		   (:keywords "writing" "weasel-words" "grammar")
 		   (:url . "http://github.com/bnbeckwith/writegood-mode"))])
  (writeroom-mode .
@@ -73357,11 +73168,6 @@
 	    [(0 6 1 -4 20201117 1528)
 	     nil "Unobtrusively remove trailing whitespace." tar
 	     ((:commit . "e3a38d93e01014cd47bf5af4924459bd145fd7c4")
-	      (:authors
-	       ("Le Wang"))
-	      (:maintainers
-	       ("Le Wang"))
-	      (:maintainer "Le Wang")
 	      (:url . "https://github.com/lewang/ws-butler"))])
  (wsd-mode .
 	   [(0 5 0 1 -4 20191031 1211)
@@ -73394,10 +73200,10 @@
 	 "Fastest solution to spell check camel case code or plain text" tar
 	 ((:commit . "8a9080019d294906f8be4e0285eda970679d6ca0")
 	  (:authors
-	   ("Chen Bin <chenbin DOT sh AT gmail DOT com>"))
+	   ("Chen Bin" . "chenbinDOTshATgmailDOTcom"))
 	  (:maintainers
-	   ("Chen Bin <chenbin DOT sh AT gmail DOT com>"))
-	  (:maintainer "Chen Bin <chenbin DOT sh AT gmail DOT com>")
+	   ("Chen Bin" . "chenbinDOTshATgmailDOTcom"))
+	  (:maintainer "Chen Bin" . "chenbinDOTshATgmailDOTcom")
 	  (:keywords "convenience")
 	  (:url . "http://github.com/redguardtoo/wucuo"))])
  (wwg .
@@ -73407,10 +73213,10 @@
        "Writer word goals" tar
        ((:commit . "46c8a7c71275ced2c662c1222d4b85319f80dd83")
 	(:authors
-	 (nil . "Andrea andrea-dev@hotmail.com>"))
+	 (nil . "Andreaandrea-dev@hotmail.com"))
 	(:maintainers
-	 (nil . "Andrea andrea-dev@hotmail.com>"))
-	(:maintainer nil . "Andrea andrea-dev@hotmail.com>")
+	 (nil . "Andreaandrea-dev@hotmail.com"))
+	(:maintainer nil . "Andreaandrea-dev@hotmail.com")
 	(:keywords "wp")
 	(:url . "https://github.com/ag91/writer-word-goals"))])
  (wwtime .
@@ -73444,10 +73250,10 @@
 		 "Navigation feature for JSON/XML/HTML based on path (imenu like)" tar
 		 ((:commit . "c91deaaba0d5cc9018008a39c96222deacba3868")
 		  (:authors
-		   (nil . "<lompik@ArchOrion>"))
+		   (nil . "lompik@ArchOrion"))
 		  (:maintainers
-		   (nil . "<lompik@ArchOrion>"))
-		  (:maintainer nil . "<lompik@ArchOrion>")
+		   (nil . "lompik@ArchOrion"))
+		  (:maintainer nil . "lompik@ArchOrion")
 		  (:keywords "convenience"))])
  (x509-mode .
 	    [(0 1 0 1 -4 20231215 850)
@@ -73783,10 +73589,10 @@
 		   "Let you extra keybinds in xterm/urxvt" tar
 		   ((:commit . "b29c4f700b0fa0c9f627f6725b36462b8fab06d6")
 		    (:authors
-		     ("Yuta Yamada <cokesboy\"at\"gmail.com>"))
+		     ("Yuta Yamada" . "cokesboy\"at\"gmail.com"))
 		    (:maintainers
-		     ("Yuta Yamada <cokesboy\"at\"gmail.com>"))
-		    (:maintainer "Yuta Yamada <cokesboy\"at\"gmail.com>")
+		     ("Yuta Yamada" . "cokesboy\"at\"gmail.com"))
+		    (:maintainer "Yuta Yamada" . "cokesboy\"at\"gmail.com")
 		    (:keywords "convenient"))])
  (xtest .
 	[(1 1 0 1 -4 20141214 1706)
@@ -73794,11 +73600,6 @@
 	   (0 5)))
 	 "Simple Testing with Emacs & ERT" tar
 	 ((:commit . "8099be9c2d856f98489834ddb20a01c6fd8922f1")
-	  (:authors
-	   ("Mustafa Shameem"))
-	  (:maintainers
-	   ("Mustafa Shameem"))
-	  (:maintainer "Mustafa Shameem")
 	  (:keywords "testing" "ert")
 	  (:url . "https://github.com/promethial/xtest"))])
  (xwidgete .
@@ -73808,10 +73609,7 @@
 	    "enhances usability of current xwidget browser" tar
 	    ((:commit . "e4e8410fe32176df85b46234717824519443fb04")
 	     (:authors
-	      ("Tu, Do Hoang" . "tuhdo1710@gmail.com"))
-	     (:maintainers
-	      ("Tu, Do Hoang"))
-	     (:maintainer "Tu, Do Hoang")
+	      ("Do Hoang" . "tuhdo1710@gmail.com"))
 	     (:keywords "xwidgete" "tools")
 	     (:url . "https://github.com/tuhdo/xwidgete"))])
  (xwidgets-reuse .
@@ -73846,11 +73644,6 @@
 	  (26 1)))
 	"Enhance xwidget webkit browser" tar
 	((:commit . "0c875e460d1c0637766204dc289ffbd0f2284194")
-	 (:authors
-	  ("Damien Merenne"))
-	 (:maintainers
-	  ("Damien Merenne"))
-	 (:maintainer "Damien Merenne")
 	 (:keywords "convenience")
 	 (:url . "https://github.com/canatella/xwwp"))])
  (xwwp-follow-link-helm .
@@ -73861,11 +73654,6 @@
 			   (0 1)))
 			 "Link navigation in `xwidget-webkit' sessions using `helm'" tar
 			 ((:commit . "99670ec37e2083eada9691a342441d2fa4589002")
-			  (:authors
-			   ("Damien Merenne"))
-			  (:maintainers
-			   ("Damien Merenne"))
-			  (:maintainer "Damien Merenne")
 			  (:keywords "convenience")
 			  (:url . "https://github.com/canatella/xwwp"))])
  (xwwp-follow-link-ivy .
@@ -73876,11 +73664,6 @@
 			  (0 1)))
 			"Link navigation in `xwidget-webkit' sessions using `ivy'" tar
 			((:commit . "1f1646feaf3328568da40200cc218337fbbabc1a")
-			 (:authors
-			  ("Damien Merenne"))
-			 (:maintainers
-			  ("Damien Merenne"))
-			 (:maintainer "Damien Merenne")
 			 (:keywords "convenience")
 			 (:url . "https://github.com/canatella/xwwp"))])
  (yabaki-theme .
@@ -73999,11 +73782,6 @@
 	      (0 5 1)))
 	    "Parser-aided YAML editing features" tar
 	    ((:commit . "5f06949e92dc19dcc48dc31662b2aa958fe33726")
-	     (:authors
-	      ("Zachary Romero"))
-	     (:maintainers
-	      ("Zachary Romero"))
-	     (:maintainer "Zachary Romero")
 	     (:keywords "tools")
 	     (:url . "https://github.com/zkry/yaml-pro"))])
  (yaml-tomato .
@@ -74012,11 +73790,6 @@
 		 (1 9)))
 	       "copy or show the yaml path currently under cursor." tar
 	       ((:commit . "1272c502fac6ce6b0f8b7f8a9beb353f0b35e13c")
-		(:authors
-		 ("qrczeno"))
-		(:maintainers
-		 ("qrczeno"))
-		(:maintainer "qrczeno")
 		(:keywords "yaml"))])
  (yang-mode .
 	    [(0 9 9 1 -4 20190507 724)
@@ -74033,11 +73806,6 @@
 	     (25 1)))
 	   "Paste snippets from an org-mode file" tar
 	   ((:commit . "927e6d26956ac7219b8a69d641acf486854fba16")
-	    (:authors
-	     ("Erik Sjöstrand"))
-	    (:maintainers
-	     ("Erik Sjöstrand"))
-	    (:maintainer "Erik Sjöstrand")
 	    (:keywords "abbrev" "convenience")
 	    (:url . "http://github.com/Kungsgeten/yankpad"))])
  (yapfify .
@@ -74067,11 +73835,6 @@
 	    [(0 1 1 -4 20230505 1950)
 	     nil "Minor mode for Ruby YARD comments" tar
 	     ((:commit . "de1701753a64544c3376b015805f3661136d8038")
-	      (:authors
-	       ("Kyle Hargraves"))
-	      (:maintainers
-	       ("Kyle Hargraves"))
-	      (:maintainer "Kyle Hargraves")
 	      (:url . "https://github.com/pd/yard-mode.el"))])
  (yari .
        [(0 8 1 -4 20151128 739)
@@ -74105,8 +73868,8 @@
 	     (:authors
 	      ("Tomohiro Matsuyama" . "m2ym.pub@gmail.com"))
 	     (:maintainers
-	      ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
-	     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	      ("Jen-Chieh" . "jcs090218@gmail.com"))
+	     (:maintainer "Jen-Chieh" . "jcs090218@gmail.com")
 	     (:keywords "convenience")
 	     (:url . "https://github.com/emacsorphanage/yascroll"))])
  (yasnippet .
@@ -74294,7 +74057,7 @@
 	"Major mode for YNAB (you need a budget)" tar
 	((:commit . "2c6beb4d2c4996017f6b3c62c26db52a61e5c479")
 	 (:authors
-	  ("Jim Anders <https://github.com/janders223>"))
+	  ("Jim Anders" . "https://github.com/janders223"))
 	 (:maintainers
 	  ("Jim Anders" . "jimanders223@gmail.com"))
 	 (:maintainer "Jim Anders" . "jimanders223@gmail.com")
@@ -74308,7 +74071,8 @@
 	       ("Eugene Minkovskii" . "emin@mccme.ru")
 	       ("Alexander Krotov" . "ilabdsf@gmail.com"))
 	      (:maintainers
-	       ("Eugene Minkovskii" . "emin@mccme.ru"))
+	       ("Eugene Minkovskii" . "emin@mccme.ru")
+	       ("Alexander Krotov" . "ilabdsf@gmail.com"))
 	      (:maintainer "Eugene Minkovskii" . "emin@mccme.ru")
 	      (:url . "https://gitlab.com/link2xt/yoficator"))])
  (yoshi-theme .
@@ -74375,12 +74139,6 @@
 	     (25 3)))
 	   "Query / Preview YouTube via Invidious" tar
 	   ((:commit . "941460b51e43ef6764e15e2b9c4af54c3e56115f")
-	    (:authors
-	     ("Stefan Huchler")
-	     ("Gabriele Rastello"))
-	    (:maintainers
-	     ("Stefan Huchler"))
-	    (:maintainer "Stefan Huchler")
 	    (:keywords "youtube" "matching" "multimedia")
 	    (:url . "https://github.com/spiderbit/ytdious"))])
  (ytdl .
@@ -74408,11 +74166,6 @@
 	  (25 3)))
 	"Query YouTube via Invidious" tar
 	((:commit . "d80c7964ec66589d5580fc13773e94f1834ab76f")
-	 (:authors
-	  ("Gabriele Rastello"))
-	 (:maintainers
-	  ("Gabriele Rastello"))
-	 (:maintainer "Gabriele Rastello")
 	 (:keywords "youtube" "matching" "multimedia")
 	 (:url . "https://github.com/grastello/ytel"))])
  (yuck-mode .
@@ -74421,22 +74174,12 @@
 	       (25 1)))
 	     "Major mode for the yuck configuration language" tar
 	     ((:commit . "e084416fa3e7f91bb429edbf7ff1585aa5674367")
-	      (:authors
-	       ("mmcjimsey26"))
-	      (:maintainers
-	       ("mmcjimsey26"))
-	      (:maintainer "mmcjimsey26")
 	      (:keywords "languages" "yuck" "eww" "widgets")
 	      (:url . "https://github.com/mmcjimsey26/yuck-mode"))])
  (yul-mode .
 	   [(0 0 2 1 -4 20220927 338)
 	    nil "Major mode for editing Ethereum Yul intermediate code" tar
 	    ((:commit . "56cba05549873fcf1b66e304969011dc1a1ad228")
-	     (:authors
-	      ("Ta Quang Trung"))
-	     (:maintainers
-	      ("Ta Quang Trung"))
-	     (:maintainer "Ta Quang Trung")
 	     (:keywords "languages")
 	     (:url . "https://github.com/taquangtrung/emacs-yul-mode"))])
  (z3-mode .
@@ -74471,10 +74214,16 @@
 	    "A major mode for the Zen programming language" tar
 	    ((:commit . "c1b1806358f3cce6c04b30699987d82dc7d42559")
 	     (:authors
-	      ("Andrea Orru <andreaorru1991@gmail.com>, Andrew Kelley <superjoe30@gmail.com>, kristopher tate <kt@connectfree.co.jp>, Yoshitaka Takemoto" . "yt.3b8@connectfree.co.jp"))
+	      ("Andrea Orru" . "andreaorru1991@gmail.com")
+	      ("Andrew Kelley" . "superjoe30@gmail.com")
+	      ("kristopher tate" . "kt@connectfree.co.jp")
+	      ("Yoshitaka Takemoto" . "yt.3b8@connectfree.co.jp"))
 	     (:maintainers
-	      ("Andrea Orru <andreaorru1991@gmail.com>, Andrew Kelley <superjoe30@gmail.com>, kristopher tate <kt@connectfree.co.jp>, Yoshitaka Takemoto" . "yt.3b8@connectfree.co.jp"))
-	     (:maintainer "Andrea Orru <andreaorru1991@gmail.com>, Andrew Kelley <superjoe30@gmail.com>, kristopher tate <kt@connectfree.co.jp>, Yoshitaka Takemoto" . "yt.3b8@connectfree.co.jp")
+	      ("Andrea Orru" . "andreaorru1991@gmail.com")
+	      ("Andrew Kelley" . "superjoe30@gmail.com")
+	      ("kristopher tate" . "kt@connectfree.co.jp")
+	      ("Yoshitaka Takemoto" . "yt.3b8@connectfree.co.jp"))
+	     (:maintainer "Andrea Orru" . "andreaorru1991@gmail.com")
 	     (:keywords "zen" "languages")
 	     (:url . "https://github.com/zenlang/zen-mode"))])
  (zenburn-theme .
@@ -74592,10 +74341,10 @@
 	      "Turn deft into a zettelkasten system" tar
 	      ((:commit . "63be6478751376f04d36c6ea52fe65acd69f0927")
 	       (:authors
-		("EFLS <Elias Storms>"))
+		("EFLS" . "EliasStorms"))
 	       (:maintainers
-		("EFLS <Elias Storms>"))
-	       (:maintainer "EFLS <Elias Storms>")
+		("EFLS" . "EliasStorms"))
+	       (:maintainer "EFLS" . "EliasStorms")
 	       (:keywords "deft" "zettelkasten" "zetteldeft" "wp" "files")
 	       (:url . "https://efls.github.io/zetteldeft/"))])
  (zetteldesk .
@@ -74715,8 +74464,8 @@
 	      ("Andrea Orru" . "andreaorru1991@gmail.com")
 	      ("Andrew Kelley" . "superjoe30@gmail.com"))
 	     (:maintainers
-	      ("Shen, Jen-Chieh" . "jcs090218@gmail.com"))
-	     (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com")
+	      ("Jen-Chieh" . "jcs090218@gmail.com"))
+	     (:maintainer "Jen-Chieh" . "jcs090218@gmail.com")
 	     (:keywords "zig" "languages")
 	     (:url . "https://github.com/zig-lang/zig-mode"))])
  (zim-wiki-mode .
@@ -74758,10 +74507,10 @@
       "Functions for working with Zettelkasten-style linked notes" tar
       ((:commit . "225d2628025195283170908e81341e3a8d49b022")
        (:authors
-	("Grant Rosson <https://github.com/localauthor>"))
+	("Grant Rosson" . "https://github.com/localauthor"))
        (:maintainers
-	("Grant Rosson <https://github.com/localauthor>"))
-       (:maintainer "Grant Rosson <https://github.com/localauthor>")
+	("Grant Rosson" . "https://github.com/localauthor"))
+       (:maintainer "Grant Rosson" . "https://github.com/localauthor")
        (:url . "https://github.com/localauthor/zk"))])
  (zk-desktop .
 	     [(0 1 1 -4 20240102 1405)
@@ -74774,10 +74523,10 @@
 	      "Desktop environment for zk" tar
 	      ((:commit . "82f636c1edda416794c7115757ecded64f22afbf")
 	       (:authors
-		("Grant Rosson <https://github.com/localauthor>"))
+		("Grant Rosson" . "https://github.com/localauthor"))
 	       (:maintainers
-		("Grant Rosson <https://github.com/localauthor>"))
-	       (:maintainer "Grant Rosson <https://github.com/localauthor>")
+		("Grant Rosson" . "https://github.com/localauthor"))
+	       (:maintainer "Grant Rosson" . "https://github.com/localauthor")
 	       (:url . "https://github.com/localauthor/zk"))])
  (zk-index .
 	   [(0 9 1 -4 20240704 1102)
@@ -74788,10 +74537,10 @@
 	    "Index for zk" tar
 	    ((:commit . "9a2ece35d2ecec20cc11e2888413a86d03beb40b")
 	     (:authors
-	      ("Grant Rosson <https://github.com/localauthor>"))
+	      ("Grant Rosson" . "https://github.com/localauthor"))
 	     (:maintainers
-	      ("Grant Rosson <https://github.com/localauthor>"))
-	     (:maintainer "Grant Rosson <https://github.com/localauthor>")
+	      ("Grant Rosson" . "https://github.com/localauthor"))
+	     (:maintainer "Grant Rosson" . "https://github.com/localauthor")
 	     (:url . "https://github.com/localauthor/zk"))])
  (zk-luhmann .
 	     [(0 3 1 -4 20240102 1406)
@@ -74804,10 +74553,10 @@
 	      "Support for Luhmann-style IDs in zk" tar
 	      ((:commit . "836943c5f6c6cdb932762385bbdf79e8bcfef3d7")
 	       (:authors
-		("Grant Rosson <https://github.com/localauthor>"))
+		("Grant Rosson" . "https://github.com/localauthor"))
 	       (:maintainers
-		("Grant Rosson <https://github.com/localauthor>"))
-	       (:maintainer "Grant Rosson <https://github.com/localauthor>")
+		("Grant Rosson" . "https://github.com/localauthor"))
+	       (:maintainer "Grant Rosson" . "https://github.com/localauthor")
 	       (:url . "https://github.com/localauthor/zk-luhmann"))])
  (zlc .
       [(0 0 5 1 -4 20151011 157)
@@ -74840,21 +74589,11 @@
 	 (0 2)))
        "ZNC + ERC" tar
        ((:commit . "2605f78e37a8a759067dc14fa25a82824ba1bacc")
-	(:authors
-	 ("Yaroslav Shirokov"))
-	(:maintainers
-	 ("Yaroslav Shirokov"))
-	(:maintainer "Yaroslav Shirokov")
 	(:url . "https://github.com/sshirokov/ZNC.el"))])
  (zombie .
 	 [(1 0 0 1 -4 20141222 1616)
 	  nil "major mode for editing ZOMBIE programs" tar
 	  ((:commit . "ff8cd1b4cdbb4b0b9b8fd1ec8f6fb93eba249345")
-	   (:authors
-	    ("zk_phi"))
-	   (:maintainers
-	    ("zk_phi"))
-	   (:maintainer "zk_phi")
 	   (:url . "http://hins11.yu-yake.com/"))])
  (zombie-trellys-mode .
 		      [(0 2 1 1 -4 20150304 1702)
@@ -74894,10 +74633,10 @@
 		"Zone out with rainbow." tar
 		((:commit . "2ba4f1a87c69c4712124ebf12c1f3ea171e1af36")
 		 (:authors
-		  ("KAWABATA, Taichi <kawabata.taichi_at_gmail.com>"))
+		  ("Taichi" . "kawabata.taichi_at_gmail.com"))
 		 (:maintainers
-		  ("KAWABATA, Taichi <kawabata.taichi_at_gmail.com>"))
-		 (:maintainer "KAWABATA, Taichi <kawabata.taichi_at_gmail.com>")
+		  ("Taichi" . "kawabata.taichi_at_gmail.com"))
+		 (:maintainer "Taichi" . "kawabata.taichi_at_gmail.com")
 		 (:keywords "games")
 		 (:url . "https://github.com/kawabata/zone-rainbow"))])
  (zone-select .
@@ -74909,10 +74648,10 @@
 	       "Select zone programs." tar
 	       ((:commit . "bf30da12f1625fe6563448fccf3c506acad10af7")
 		(:authors
-		 ("KAWABATA, Taichi <kawabata.taichi_at_gmail.com>"))
+		 ("Taichi" . "kawabata.taichi_at_gmail.com"))
 		(:maintainers
-		 ("KAWABATA, Taichi <kawabata.taichi_at_gmail.com>"))
-		(:maintainer "KAWABATA, Taichi <kawabata.taichi_at_gmail.com>")
+		 ("Taichi" . "kawabata.taichi_at_gmail.com"))
+		(:maintainer "Taichi" . "kawabata.taichi_at_gmail.com")
 		(:keywords "games")
 		(:url . "https://github.com/kawabata/zone-select"))])
  (zone-sl .
@@ -74922,10 +74661,10 @@
 	   "Zone out with steam locomotives." tar
 	   ((:commit . "737b21b4b35c28a487ad8a31598e745bc183b209")
 	    (:authors
-	     ("KAWABATA, Taichi <kawabata.taichi_at_gmail.com>"))
+	     ("Taichi" . "kawabata.taichi_at_gmail.com"))
 	    (:maintainers
-	     ("KAWABATA, Taichi <kawabata.taichi_at_gmail.com>"))
-	    (:maintainer "KAWABATA, Taichi <kawabata.taichi_at_gmail.com>")
+	     ("Taichi" . "kawabata.taichi_at_gmail.com"))
+	    (:maintainer "Taichi" . "kawabata.taichi_at_gmail.com")
 	    (:keywords "games")
 	    (:url . "https://github.com/kawabata/zone-sl"))])
  (zone-tmux-clock .
@@ -74984,11 +74723,6 @@
 	    (0 5)))
 	  "Manage Zotero collections from emacs" tar
 	  ((:commit . "d9dc089b9adfcc70a63f2a84269a12eb7cb4c748")
-	   (:authors
-	    ("Spinu Vitalie"))
-	   (:maintainers
-	    ("Spinu Vitalie"))
-	   (:maintainer "Spinu Vitalie")
 	   (:keywords "zotero" "emacs" "reftex" "bibtex" "mozrepl" "bibliography manager")
 	   (:url . "https://github.com/vitoshka/zotelo"))])
  (zotero .
@@ -75017,10 +74751,10 @@
 	 "Import bibliographic data from (almost) everywhere" tar
 	 ((:commit . "fe9093b226a1678fc6c2fadd31a09d5a22ecdcf1")
 	  (:authors
-	   ("Mohammad Pedramfar <https://github.com/mpedramfar>"))
+	   ("Mohammad Pedramfar" . "https://github.com/mpedramfar"))
 	  (:maintainers
-	   ("Mohammad Pedramfar <https://github.com/mpedramfar>"))
-	  (:maintainer "Mohammad Pedramfar <https://github.com/mpedramfar>")
+	   ("Mohammad Pedramfar" . "https://github.com/mpedramfar"))
+	  (:maintainer "Mohammad Pedramfar" . "https://github.com/mpedramfar")
 	  (:url . "https://github.com/mpedramfar/zotra"))])
  (zotxt .
 	[(5 0 5 1 -4 20240203 647)
@@ -75101,10 +74835,10 @@
 	       "Reformat Clojure(Script) code using zprint" tar
 	       ((:commit . "ac3b25e250c83aedc49d1eab508142e3060e3833")
 		(:authors
-		 ("Paulus Esterhazy" . "pesterhazy@gmail.com"))
+		 ("Paulus Esterhazy" . "(pesterhazy@gmail.com)"))
 		(:maintainers
-		 ("Paulus Esterhazy" . "pesterhazy@gmail.com"))
-		(:maintainer "Paulus Esterhazy" . "pesterhazy@gmail.com")
+		 ("Paulus Esterhazy" . "(pesterhazy@gmail.com)"))
+		(:maintainer "Paulus Esterhazy" . "(pesterhazy@gmail.com)")
 		(:keywords "tools")
 		(:url . "https://github.com/pesterhazy/zprint-mode.el"))])
  (ztree .
