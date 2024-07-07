@@ -16925,6 +16925,14 @@
 	    (:maintainer "Damien Cassou" . "damien@cassou.me")
 	    (:keywords "data" "tools")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/elcouch"))])
+ (elcute .
+	 [(1 0 1 -4 20240707 434)
+	  ((emacs
+	    (29 1)))
+	  "Commands for marking and killing lines electrically" tar
+	  ((:commit . "b511b7705e48167e6544b4daa2d74b2460fc541c")
+	   (:keywords "convenience")
+	   (:url . "https://codeberg.org/vilij/slurpbarf-elcute"))])
  (eldev .
 	[(1 10 2 -4 20240609 1211)
 	 ((emacs
@@ -62651,6 +62659,19 @@
 	 ("Chris Done" . "chrisdone@gmail.com"))
 	(:maintainer "Chris Done" . "chrisdone@gmail.com")
 	(:keywords "development" "haskell" "structured"))])
+ (shortcuts-mode .
+		 [(1 0 0 1 -4 20240707 1606)
+		  ((emacs
+		    (25 1)))
+		  "Minor mode providing a buffer shortcut bar" tar
+		  ((:commit . "a781ae97e33f5a0bf75058c21a7784032e22b28d")
+		   (:authors
+		    ("Peter Amstutz" . "tetron@interreality.org"))
+		   (:maintainers
+		    ("Peter Amstutz" . "tetron@interreality.org"))
+		   (:maintainer "Peter Amstutz" . "tetron@interreality.org")
+		   (:keywords "lisp")
+		   (:url . "https://github.com/tetron/shortcuts-mode"))])
  (shoulda .
 	  [(0 1 1 -4 20140616 1833)
 	   ((cl-lib
