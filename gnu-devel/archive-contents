@@ -1375,14 +1375,14 @@
 		     (:url . "https://elpa.gnu.org/packages/electric-spacing.html")
 		     (:commit . "60b1e298a78d679be99399bc57f53ec15d00eacf"))])
  (elisp-benchmarks .
-		   [(1 16 0 20240518 180006)
+		   [(1 16 0 20240707 141252)
 		    nil "elisp benchmarks collection" tar
 		    ((:keywords "languages" "lisp")
 		     (:maintainer "Andrea Corallo" . "acorallo@gnu.org")
 		     (:authors
 		      ("Andrea Corallo" . "acorallo@gnu.org"))
 		     (:url . "https://elpa.gnu.org/packages/elisp-benchmarks.html")
-		     (:commit . "1a3d97954957a95a179806e0d49ca6d178b097af"))])
+		     (:commit . "dd950259268d6cb215b3b072f0cfd28c4da0c93d"))])
  (ellama .
 	 [(0 11 2 0 20240705 212012)
 	  ((emacs
@@ -1617,11 +1617,13 @@
 			(:url . "https://elpa.gnu.org/packages/external-completion.html")
 			(:commit . "f18a915690c48119daaecf5b8684c46129496866"))])
  (exwm .
-       [(0 30 0 20240621 175621)
+       [(0 30 0 20240707 164318)
 	((emacs
 	  (27 1))
 	 (xelb
-	  (0 19)))
+	  (0 19))
+	 (compat
+	  (29 1)))
 	"Emacs X Window Manager" tar
 	((:url . "https://github.com/emacs-exwm/exwm")
 	 (:keywords "unix")
@@ -1631,7 +1633,7 @@
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:authors
 	  ("Chris Feng" . "chris.w.feng@gmail.com"))
-	 (:commit . "94c9f369dd21e1ed6c6e9b5d66d0451ad6c979d5"))])
+	 (:commit . "841ead81413de618252feba4dc6b2ba9649f0ce3"))])
  (f90-interface-browser .
 			[(1 1 0 20221221 75553)
 			 ((cl-lib
@@ -1654,7 +1656,7 @@
 		("Philip Kaludercic" . "philipk@posteo.net"))
 	       (:commit . "b9f09af534086fe6baf93188b2574c99977d3070"))])
  (filechooser .
-	      [(0 2 0 0 20240310 203607)
+	      [(0 2 1 0 20240707 120050)
 	       ((emacs
 		 (28 1))
 		(compat
@@ -1665,7 +1667,7 @@
 		(:maintainer "rahguzar" . "rahguzar@zohomail.eu")
 		(:authors
 		 ("rahguzar" . "rahguzar@zohomail.eu"))
-		(:commit . "6ed354db031a3e530954fd9098080b6d96855c64"))])
+		(:commit . "62a9ef588331b06c818ea5db5a73e756f20fd13d"))])
  (filladapt .
 	    [(2 12 2 0 20221221 75607)
 	     ((emacs
@@ -2088,7 +2090,7 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:commit . "54e9db2b023e03b6f6b46aeec48ea74fd51d4e11"))])
  (hyperbole .
-	    [(9 0 2 -1 0 20240630 180255)
+	    [(9 0 2 -1 0 20240706 15438)
 	     ((emacs
 	       (27 1)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
@@ -2097,7 +2099,7 @@
 	      (:maintainer "Mats Lidell" . "matsl@gnu.org")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
-	      (:commit . "54f9e057eb0fa9d1d0d5040cf1c9bb9e010968de"))])
+	      (:commit . "395693f9445653610d685a7a51097f5349106f20"))])
  (idlwave .
 	  [(6 5 1 0 20240523 142720)
 	   nil "IDL editing mode for GNU Emacs" tar
@@ -3012,7 +3014,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "53f5204ad3f541e11eb6eeb9b86584964b7a3678"))])
  (org .
-      [(9 8 -1 0 20240707 62623)
+      [(9 8 -1 0 20240707 152401)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -3021,7 +3023,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "bcb88fcac83f784bea4e3a09c35c3fc27b1fc600"))])
+	(:commit . "d38d53a1783dde6ad672473fce7286faf1527462"))])
  (org-contacts .
 	       [(1 1 0 20240609 105801)
 		((emacs
@@ -5044,9 +5046,11 @@
 	  ("Yuan Fu" . "casouri@gmail.com"))
 	 (:commit . "32735a2a631fc2957b79cc65ad851546b7d572df"))])
  (xelb .
-       [(0 19 0 20240523 171835)
+       [(0 19 0 20240707 164606)
 	((emacs
-	  (27 1)))
+	  (27 1))
+	 (compat
+	  (29 1)))
 	"X protocol Emacs Lisp Binding" tar
 	((:url . "https://github.com/emacs-exwm/xelb")
 	 (:keywords "unix")
@@ -5056,7 +5060,7 @@
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:authors
 	  ("Chris Feng" . "chris.w.feng@gmail.com"))
-	 (:commit . "3546afe73ef7c65181624da3a99ee6d7d7278582"))])
+	 (:commit . "d64a416004c7004f2c1d8d32e024a303448a100c"))])
  (xpm .
       [(1 0 5 0 20230911 4618)
        ((cl-lib
