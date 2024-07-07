@@ -38023,6 +38023,19 @@
 	 (:maintainer "Damon Chan" . "elecming@gmail.com")
 	 (:keywords "tools")
 	 (:url . "https://github.com/chenyanming/kana"))])
+ (kanagawa-theme .
+		 [(1 0 0 1 -4 20240707 59)
+		  ((emacs
+		    (24 3)))
+		  "An elegant theme inspired by The Great Wave off Kanagawa" tar
+		  ((:commit . "e3d6aceb37417db0dd3e0ecb81d241d1b9ce7569")
+		   (:authors
+		    ("Shira Filianore" . "meritamen@sdf.org"))
+		   (:maintainers
+		    ("Fabio Kleis" . "fabiohkrc@gmail.com"))
+		   (:maintainer "Fabio Kleis" . "fabiohkrc@gmail.com")
+		   (:keywords "themes" "faces")
+		   (:url . "https://github.com/Fabiokleis/emacs-kanagawa-theme"))])
  (kanban .
 	 [(0 2 4 1 -4 20230210 1505)
 	  nil "Parse org-todo headlines to use org-tables as Kanban tables" tar
@@ -71559,6 +71572,16 @@
 	  (:maintainer "Lukas Fürmetz" . "fuermetz@mailbox.org")
 	  (:keywords "terminals")
 	  (:url . "https://github.com/akermu/emacs-libvterm"))])
+ (vterm-hotkey .
+	       [(0 1 1 -4 20240702 1445)
+		((emacs
+		  (29 4))
+		 (vterm
+		  (0 0)))
+		"Control vterm buffers with hotkeys" tar
+		((:commit . "039033a4c30dabca625d6924d1796bb9e13d85c7")
+		 (:keywords "terminals" "processes" "hotkeys")
+		 (:url . "https://github.com/rootatpixel/vterm-hotkey"))])
  (vterm-toggle .
 	       [(0 0 4 1 -4 20230912 246)
 		((emacs
