@@ -5912,7 +5912,7 @@
 	      (:maintainer "SAKURAI Masashi" . "m.sakuraiatkiwanami.net")
 	      (:keywords "calendar" "org"))])
  (calibredb .
-	    [(2 12 0 1 -4 20240507 456)
+	    [(2 13 0 1 -4 20240707 1121)
 	     ((emacs
 	       (25 1))
 	      (org
@@ -5928,7 +5928,7 @@
 	      (esxml
 	       (0 3 7)))
 	     "Yet another calibre client" tar
-	     ((:commit . "8ca1b5262f0f0e4a0e295efc2c14db00333e9a85")
+	     ((:commit . "a12746cdd2605eba0ff88706473a04492dec84a2")
 	      (:authors
 	       ("Damon Chan" . "elecming@gmail.com"))
 	      (:maintainers
@@ -7200,9 +7200,11 @@
 	   (:keywords "languages")
 	   (:url . "https://github.com/plexus/chruby.el"))])
  (chyla-theme .
-	      [(0 1 1 -4 20231220 1545)
-	       nil "chyla.org - green color theme." tar
-	       ((:commit . "4d4b9dca3547e919ed5311cc7d04821f77860fbd")
+	      [(0 1 1 -4 20240707 956)
+	       ((emacs
+		 (24 1)))
+	       "Chyla.org - green color theme" tar
+	       ((:commit . "e7b5237c15bc9fc76e15861418c68616efbb103b")
 		(:authors
 		 ("Adam Chyła https://chyla.org/" . "adam@chyla.org"))
 		(:maintainers
@@ -44075,7 +44077,7 @@
 	      (:keywords "languages" "mips" "assembly")
 	      (:url . "https://github.com/hlissner/emacs-mips-mode"))])
  (mise .
-       [(0 2 0 1 -4 20240612 1314)
+       [(0 2 0 1 -4 20240707 1042)
 	((emacs
 	  (29 1))
 	 (inheritenv
@@ -44083,7 +44085,7 @@
 	 (dash
 	  (2 19 1)))
 	"Support for `mise' cli" tar
-	((:commit . "34a34505ec72d984329881884ed05311cc0aa133")
+	((:commit . "92c24f06d8d47028ea30ba1c27808ed638372c12")
 	 (:authors
 	  ("liuyinz" . "liuyinz95@gmail.com"))
 	 (:maintainers
