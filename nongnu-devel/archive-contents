@@ -207,7 +207,7 @@
 	      ("Dave Pearson" . "davep@davep.org"))
 	     (:commit . "8d6c307ab3b783c5042065d0ae54961adb506484"))])
  (buttercup .
-	    [(1 35 0 20240328 201640)
+	    [(1 35 0 20240328 203317)
 	     ((emacs
 	       (24 4)))
 	     "Behavior-Driven Emacs Lisp Testing" tar
@@ -215,7 +215,7 @@
 	      (:maintainer "Ola Nilsson" . "ola.nilsson@gmail.com")
 	      (:authors
 	       ("Jorgen Schaefer" . "contact@jorgenschaefer.de"))
-	      (:commit . "a1a86b027ffe030e1c78a9f43c50cd20a6fed19a"))])
+	      (:commit . "f7c30e5ba7fb153476af6647eb22bcfc46fcd080"))])
  (camera .
 	 [(0 3 0 20230828 93723)
 	  ((emacs
@@ -250,7 +250,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "33770dec73138909714711b05a63e79da5a19ccd"))])
  (cider .
-	[(1 15 1 0 20240702 163648)
+	[(1 15 1 0 20240705 72852)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -278,7 +278,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "a6ccb6d9c66ca06353479e8e5f10eb2f7a61c19d"))])
+	  (:commit . "964a17fdc6fc79477319cc3642e178831ec7b325"))])
  (clojure-mode .
 	       [(5 20 0 -4 0 20240611 73422)
 		((emacs
@@ -484,6 +484,17 @@
 		(:authors
 		 ("Arne Jørgensen" . "arne@arnested.dk"))
 		(:commit . "17927723adc5921e8058f7c29e5e50e88b975639"))])
+ (dslide .
+	 [(0 5 3 0 20240704 131127)
+	  ((emacs
+	    (29 2)))
+	  "Domain Specific sLIDEs. A presentation framework" tar
+	  ((:url . "https://github.com/positron-solutions/dslide")
+	   (:keywords "convenience" "org-mode" "presentation" "narrowing")
+	   (:maintainer "Positron" . "contact@positron.solutions")
+	   (:authors
+	    ("Positron" . "contact@positron.solutions"))
+	   (:commit . "54e2a8fdc451fd41905d0f7a5163fa918329c0d2"))])
  (eat .
       [(0 9 4 0 20240314 193241)
        ((emacs
@@ -560,7 +571,7 @@
 		 ("Harry R. Schwartz" . "hello@harryrschwartz.com"))
 		(:commit . "f9efca3ad600e0c498cff776de5a873b8dd978cb"))])
  (evil .
-       [(1 15 0 0 20240627 104900)
+       [(1 15 0 0 20240710 164246)
 	((emacs
 	  (24 1))
 	 (cl-lib
@@ -571,7 +582,7 @@
 	((:url . "https://github.com/emacs-evil/evil")
 	 (:keywords "emulations")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
-	 (:commit . "0347d79957f17c6e9690571628704fd33f4f48fa"))])
+	 (:commit . "1a5ddab958982b6bf5e21bc7cb0f77a64415479d"))])
  (evil-anzu .
 	    [(0 2 0 20220911 193944)
 	     ((evil
@@ -776,7 +787,7 @@
 	   ((:url . "https://github.com/lewang/flx")
 	    (:commit . "4b1346eb9a8a76ee9c9dede69738c63ad97ac5b6"))])
  (flycheck .
-	   [(35 0 -4 0 20240630 60425)
+	   [(35 0 -4 0 20240703 135224)
 	    ((emacs
 	      (26 1)))
 	    "On-the-fly syntax checking" tar
@@ -788,7 +799,7 @@
 	      ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
-	     (:commit . "0f4cce922f187d44ba384928e7d0d55ae872560b"))])
+	     (:commit . "eb29cd8b4adb211226e2b87eac49b8d5fb169c55"))])
  (flymake-guile .
 		[(0 5 0 20230905 194410)
 		 ((emacs
@@ -872,7 +883,7 @@
 		("Akib Azmain Turja" . "akib@disroot.org"))
 	       (:commit . "ce2ea016a67b200862788e81f0ff1f8f7e4e0454"))])
  (geiser .
-	 [(0 31 0 20240523 3347)
+	 [(0 31 0 20240706 153723)
 	  ((emacs
 	    (27 1))
 	   (project
@@ -883,7 +894,7 @@
 	   (:maintainer "Jose Antonio Ortega Ruiz" . "(jao@gnu.org)")
 	   (:authors
 	    ("Jose Antonio Ortega Ruiz" . "(jao@gnu.org)"))
-	   (:commit . "b6b4ac070d136345345c80ff649f0084e3c512a5"))])
+	   (:commit . "a81969a5271f155d2d1e389ccbe47e1c7ec36ae7"))])
  (geiser-chez .
 	      [(0 18 0 20230707 93440)
 	       ((emacs
@@ -1012,7 +1023,7 @@
 		   ("Jeronimo Pellegrini" . "(j_p@aleph0.info)"))
 		  (:commit . "efdac7298e3a64f1138e3949b3312f491f2c706a"))])
  (git-commit .
-	     [(3 3 0 50 -4 0 20240701 183102)
+	     [(3 3 0 50 -4 0 20240710 212544)
 	      ((emacs
 		(26 1))
 	       (compat
@@ -1032,7 +1043,7 @@
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
 		("Florian Ragwitz" . "rafl@debian.org")
 		("Marius Vollmer" . "marius.vollmer@gmail.com"))
-	       (:commit . "e2876c8bc9d92443488bb73ffb0d4281023d0d74"))])
+	       (:commit . "804c623cf6fa50a291273f582e3355fde408239b"))])
  (git-modes .
 	    [(1 4 3 0 20240618 160901)
 	     ((emacs
@@ -1199,7 +1210,7 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (helm .
-       [(3 9 9 0 20240702 180423)
+       [(3 9 9 0 20240710 50929)
 	((helm-core
 	  (3 9 9))
 	 (wfnames
@@ -1209,9 +1220,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "1a026492de4673c276653cc3958f9cf3a5dbc389"))])
+	 (:commit . "568f104747876a675aad5f2ded395f487a5e6492"))])
  (helm-core .
-	    [(3 9 9 0 20240702 180423)
+	    [(3 9 9 0 20240710 50929)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1221,7 +1232,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "1a026492de4673c276653cc3958f9cf3a5dbc389"))])
+	      (:commit . "568f104747876a675aad5f2ded395f487a5e6492"))])
  (hideshowvis .
 	      [(0 8 0 20240529 112833)
 	       ((emacs
@@ -1309,7 +1320,7 @@
 			(:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 			(:commit . "531be0c2d6dc13c525138c1c9a0f59ac42268f58"))])
  (idris-mode .
-	     [(1 1 0 0 20240619 170010)
+	     [(1 1 0 0 20240704 133442)
 	      ((emacs
 		(24))
 	       (prop-menu
@@ -1319,7 +1330,7 @@
 	      "Major mode for editing Idris code" tar
 	      ((:url . "https://github.com/idris-hackers/idris-mode")
 	       (:keywords "languages")
-	       (:commit . "38dd2380dca5025311cee669cce2361fb8725f51"))])
+	       (:commit . "09de86a8f056c61de72c678386039894779a9375"))])
  (iedit .
 	[(0 9 9 9 9 0 20220216 75011)
 	 nil "Edit multiple regions in the same way simultaneously." tar
@@ -1479,7 +1490,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "18142bc915dfe4a65d337e3aa5ad851d95d1d5c9"))])
  (magit .
-	[(3 3 0 50 -4 0 20240701 183102)
+	[(3 3 0 50 -4 0 20240710 212544)
 	 ((emacs
 	   (26 1))
 	  (compat
@@ -1505,9 +1516,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	  (:commit . "e2876c8bc9d92443488bb73ffb0d4281023d0d74"))])
+	  (:commit . "804c623cf6fa50a291273f582e3355fde408239b"))])
  (magit-section .
-		[(3 3 0 50 -4 0 20240701 183102)
+		[(3 3 0 50 -4 0 20240710 212544)
 		 ((emacs
 		   (26 1))
 		  (compat
@@ -1522,7 +1533,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "e2876c8bc9d92443488bb73ffb0d4281023d0d74"))])
+		  (:commit . "804c623cf6fa50a291273f582e3355fde408239b"))])
  (markdown-mode .
 		[(2 7 -3 0 20240626 82642)
 		 ((emacs
@@ -1580,13 +1591,13 @@
 	    ("Stefan Kangas" . "stefankangas@gmail.com"))
 	   (:commit . "ed42ae8333d801c841ecf80fb5e4957badb99b51"))])
  (meow .
-       [(1 4 5 0 20240613 164410)
+       [(1 4 5 0 20240709 151201)
 	((emacs
 	  (27 1)))
 	"Yet Another modal editing" tar
 	((:url . "https://www.github.com/DogLooksGood/meow")
 	 (:keywords "convenience" "modal-editing")
-	 (:commit . "bc05b048d3582425717d114b837b8fe78d47a753"))])
+	 (:commit . "552412fd885edfbb0d2ecc4de950d9dfeca0374e"))])
  (minibar .
 	  [(0 3 0 20230414 114052)
 	   ((emacs
@@ -1608,13 +1619,13 @@
 	       ("kuanyui" . "azazabc123@gmail.com"))
 	      (:commit . "6df0d99a1a2006b218282f15d84609b88478ca7a"))])
  (monokai-theme .
-		[(3 5 3 0 20240324 183012)
+		[(3 5 3 0 20240710 102754)
 		 nil "A fruity color theme for Emacs." tar
 		 ((:url . "http://github.com/oneKelvinSmith/monokai-emacs")
 		  (:maintainer "Kelvin Smith" . "oneKelvinSmith@gmail.com")
 		  (:authors
 		   ("Kelvin Smith" . "oneKelvinSmith@gmail.com"))
-		  (:commit . "df6c23d14e52f9d7f5bc2265facfbedfb07a444e"))])
+		  (:commit . "9222cdf8209f0c3329f857ccb9edc1c79b06041a"))])
  (mpv .
       [(0 2 0 0 20220801 191738)
        ((emacs
@@ -1970,13 +1981,13 @@
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	       (:commit . "0163b335a18af0f077a474d4dc6b36e22b5e3274"))])
  (proof-general .
-		[(4 6 -4 0 20240619 120959)
+		[(4 6 -4 0 20240708 152546)
 		 ((emacs
 		   (25 2)))
 		 "A generic Emacs interface for proof assistants" tar
 		 ((:url . "https://proofgeneral.github.io/")
 		  (:maintainer nil . "proof-general-maintainers@groupes.renater.fr")
-		  (:commit . "99f91e873ec2fdc41079555db1130f07d9a9ce89"))])
+		  (:commit . "eca47ea8afdfcd94b4c8d88ee640f6631cfe5c5d"))])
  (prop-menu .
 	    [(0 1 2 0 20150728 51803)
 	     ((emacs
@@ -2091,18 +2102,18 @@
 	      (:keywords "markup" "language" "css")
 	      (:commit . "247a0d4b509f10b28e4687cd8763492bca03599b"))])
  (scad-mode .
-	    [(94 0 0 20240523 173825)
+	    [(94 0 0 20240708 212011)
 	     ((emacs
 	       (27 1))
 	      (compat
-	       (29 1 4 4)))
+	       (30)))
 	     "A major mode for editing OpenSCAD code" tar
 	     ((:url . "https://github.com/openscad/emacs-scad-mode")
 	      (:keywords "languages")
 	      (:maintainer
 	       ("Len Trigg" . "lenbok@gmail.com")
 	       ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	      (:commit . "3c32b141f083c31539bb24700eb0aa23ea55918c"))])
+	      (:commit . "17a8158cc55fed473aa87d53f3f2b42e1c249d11"))])
  (scala-mode .
 	     [(0 23 0 20240113 174352)
 	      nil "Major mode for editing Scala" tar
@@ -2149,7 +2160,7 @@
 	      ("Chen Bin" . "chenbin.sh@gmail.com"))
 	     (:commit . "173e4d632c94af6670869729c09bfb8ba484d257"))])
  (slime .
-	[(2 30 -4 0 20240630 235044)
+	[(2 30 -4 0 20240705 225542)
 	 ((emacs
 	   (24 3))
 	  (macrostep
@@ -2157,7 +2168,7 @@
 	 "Superior Lisp Interaction Mode for Emacs" tar
 	 ((:url . "https://github.com/slime/slime")
 	  (:keywords "languages" "lisp" "slime")
-	  (:commit . "41a9bfe2f4f3c46cdef0cac51d2e1862d45bd183"))])
+	  (:commit . "eb30f9f7bae4f8eed27a060390ff8aadcf69174e"))])
  (sly .
       [(1 0 43 0 20240501 111815)
        ((emacs
@@ -2167,14 +2178,14 @@
 	(:keywords "languages" "lisp" "sly")
 	(:commit . "ba40c8f054ec3b7040a6c36a1ef3e9596b936421"))])
  (smartparens .
-	      [(1 11 0 0 20240702 143047)
+	      [(1 11 0 0 20240707 163606)
 	       nil "Automatic insertion, wrapping and paredit-like navigation with user defined pairs." tar
 	       ((:url . "https://github.com/Fuco1/smartparens")
 		(:keywords "abbrev" "convenience" "editing")
 		(:maintainer "Matus Goljer" . "matus.goljer@gmail.com")
 		(:authors
 		 ("Matus Goljer" . "matus.goljer@gmail.com"))
-		(:commit . "71eab0b1a92137453375590425378edc8748f4a7"))])
+		(:commit . "ab475c78916d7b1666a495e3fe9c54b250195637"))])
  (solarized-theme .
 		  [(2 0 1 0 20231204 71322)
 		   ((emacs
@@ -2232,14 +2243,14 @@
 		     ("John Olsson" . "john@cryon.se"))
 		    (:commit . "9d0ac6aa5272d0285965a48505eb35658c5472b0"))])
  (subed .
-	[(1 2 11 0 20240123 71217)
+	[(1 2 14 0 20240710 202151)
 	 ((emacs
 	   (25 1)))
 	 "A major mode for editing subtitles" tar
 	 ((:url . "https://github.com/sachac/subed")
 	  (:keywords "convenience" "files" "hypermedia" "multimedia")
 	  (:maintainer "Sacha Chua" . "sacha@sachachua.com")
-	  (:commit . "07567d51ffc78d07528a6e69f2527f2765cbe3bc"))])
+	  (:commit . "14f1ca37316507a60fbb20b0638a36ecfb46261c"))])
  (sweeprolog .
 	     [(0 27 5 0 20240411 60241)
 	      ((emacs
@@ -2434,7 +2445,7 @@
 		  ("Mark Tran" . "mark.tran@gmail.com"))
 		 (:commit . "bf724ce7806a738d2043544061e5f9bbfc56e674"))])
  (undo-fu .
-	  [(0 5 0 20240617 93909)
+	  [(0 5 0 20240707 141050)
 	   ((emacs
 	     (25 1)))
 	   "Undo helper with redo" tar
@@ -2442,9 +2453,9 @@
 	    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 	    (:authors
 	     ("Campbell Barton" . "ideasman42@gmail.com"))
-	    (:commit . "ea902716f39c725db1b90dbb285b44404b3bd6df"))])
+	    (:commit . "dbb3e4b699dd488497ef9b32a04b8e928a6bc8ef"))])
  (undo-fu-session .
-		  [(0 6 0 20240620 224441)
+		  [(0 7 0 20240709 141815)
 		   ((emacs
 		     (28 1)))
 		   "Persistent undo, available between sessions" tar
@@ -2453,7 +2464,7 @@
 		    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		    (:authors
 		     ("Campbell Barton" . "ideasman42@gmail.com"))
-		    (:commit . "2a543d41685908e8ab52a9bab7d1c9dafbb0b0ab"))])
+		    (:commit . "ae94c87b3f6f0ac0639005f506762866e65dcf9a"))])
  (vc-fossil .
 	    [(20230504 0 20230504 162626)
 	     nil "VC backend for the fossil sofware configuraiton management system" tar
@@ -2591,14 +2602,14 @@
 	     ((:url . "https://github.com/lewang/ws-butler")
 	      (:commit . "e3a38d93e01014cd47bf5af4924459bd145fd7c4"))])
  (xah-fly-keys .
-	       [(25 9 20240621104221 0 20240621 104722)
+	       [(25 9 20240703220947 0 20240703 221119)
 		((emacs
 		  (27)))
 		"ergonomic modal keybinding minor mode." tar
 		((:url . "http://xahlee.info/emacs/misc/xah-fly-keys.html")
 		 (:keywords "convenience" "vi" "vim" "ergoemacs" "keybinding")
 		 (:maintainer "Xah Lee" . "xah@xahlee.org")
-		 (:commit . "c9d578dfa2a9863c70ce0012efdfba5a3e462dc3"))])
+		 (:commit . "7c8789acf9a0256df3f42b9748e739254e806830"))])
  (xkcd .
        [(1 1 0 20220503 110939)
 	((json
