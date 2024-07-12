@@ -8098,15 +8098,15 @@
 	    (:keywords "clojure" "interaction")
 	    (:url . "https://github.com/clojure-emacs/clomacs"))])
  (closql .
-	 [(0 1 0 1 -4 20240701 2240)
+	 [(0 1 0 1 -4 20240712 2215)
 	  ((emacs
 	    (26 1))
 	   (compat
-	    (29 1 4 5))
+	    (30 0 0 0))
 	   (emacsql
 	    (20240124)))
 	  "Store EIEIO objects using EmacSQL" tar
-	  ((:commit . "0386b7f0fa866a80e4aa596cf48baeaa367a200e")
+	  ((:commit . "ebfb860510d895ebcbbe920dd0d86381f1b6504c")
 	   (:authors
 	    ("Jonas Bernoulli" . "emacs.closql@jonas.bernoulli.dev"))
 	   (:maintainers
@@ -13484,13 +13484,13 @@
 	(:keywords "convenience")
 	(:url . "https://github.com/alezost/dim.el"))])
  (dim-autoload .
-	       [(0 1 0 1 -4 20240618 1555)
+	       [(0 1 0 1 -4 20240712 2215)
 		((emacs
 		  (25 1))
 		 (compat
-		  (29 1 4 5)))
+		  (30 0 0 0)))
 		"Dim or hide autoload cookie lines" tar
-		((:commit . "bb57bf5367b48862864f0dea4287fa81d51a0d5e")
+		((:commit . "9d08ecf4f8b00e53093864a59b51f58e4fb6ae4b")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.dim-autoload@jonas.bernoulli.dev"))
 		 (:maintainers
@@ -18029,15 +18029,15 @@
 	 (:keywords "docs")
 	 (:url . "https://github.com/Fuco1/elwm"))])
  (elx .
-      [(2 0 2 1 -4 20240707 1348)
+      [(2 0 2 1 -4 20240712 2216)
        ((emacs
 	 (25 1))
 	(compat
-	 (29 1 4 5))
+	 (30 0 0 0))
 	(llama
 	 (0 3 1)))
        "Extract information from Emacs Lisp libraries" tar
-       ((:commit . "bb621713e2a111be5d2e3c45f4d168ccc8dd6fcd")
+       ((:commit . "1159333ab9a09eaf32b3ab4fe10e4e7cea5a1a64")
 	(:authors
 	 ("Jonas Bernoulli" . "emacs.elx@jonas.bernoulli.dev"))
 	(:maintainers
@@ -18829,11 +18829,11 @@
 	  (:keywords "comm" "processes" "terminals" "unix")
 	  (:url . "https://github.com/sean-hut/eping"))])
  (epkg .
-       [(0 1 0 1 -4 20240628 2004)
+       [(0 1 0 1 -4 20240712 2216)
 	((emacs
 	  (26 1))
 	 (compat
-	  (29 1 4 5))
+	  (30 0 0 0))
 	 (closql
 	  (20240601))
 	 (emacsql
@@ -18841,7 +18841,7 @@
 	 (llama
 	  (0 3 1)))
 	"Browse the Emacsmirror package database" tar
-	((:commit . "61d7bce1505f2813659ee2a7d28cb6619b4e9af9")
+	((:commit . "e864055a1916a54127050fbb50f07614e2f6319b")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))
 	 (:maintainers
@@ -18850,11 +18850,11 @@
 	 (:keywords "tools")
 	 (:url . "https://github.com/emacscollective/epkg"))])
  (epkg-marginalia .
-		  [(0 1 0 1 -4 20240415 1536)
+		  [(0 1 0 1 -4 20240712 2216)
 		   ((emacs
 		     (27 1))
 		    (compat
-		     (29 1 4 1))
+		     (30 0 0 0))
 		    (epkg
 		     (3 3 3))
 		    (llama
@@ -18862,7 +18862,7 @@
 		    (marginalia
 		     (1 2)))
 		   "Show Epkg information in completion annotations" tar
-		   ((:commit . "41bb627934e0a389e24573d2c9d088f6f6afdbcc")
+		   ((:commit . "11e551187b7fa37aa8989bee50939ed0adbacdeb")
 		    (:authors
 		     ("Jonas Bernoulli" . "emacs.epkg-marginalia@jonas.bernoulli.dev"))
 		    (:maintainers
@@ -26045,13 +26045,13 @@
 		     (:keywords "frames" "windows")
 		     (:url . "https://github.com/davidshepherd7/frames-only-mode"))])
  (frameshot .
-	    [(0 2 8 1 -4 20240707 1349)
+	    [(0 2 8 1 -4 20240712 2217)
 	     ((emacs
 	       (25 3))
 	      (compat
-	       (29 1 4 5)))
+	       (30 0 0 0)))
 	     "Take screenshots of a frame" tar
-	     ((:commit . "c60ef067f582f7dc7ebdfb8e1b544068f56e2bf1")
+	     ((:commit . "23d550389ca978945300f5a1076d5c4f530d8d0e")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.frameshot@jonas.bernoulli.dev"))
 	      (:maintainers
@@ -26461,13 +26461,13 @@
 	      (:keywords "files")
 	      (:url . "https://github.com/theBlackDragon/fvwm-mode"))])
  (fwb-cmds .
-	   [(0 1 0 1 -4 20240618 1605)
+	   [(0 1 0 1 -4 20240712 2218)
 	    ((emacs
 	      (25 1))
 	     (compat
-	      (29 1 4 5)))
+	      (30 0 0 0)))
 	    "misc frame, window and buffer commands" tar
-	    ((:commit . "a2569c7c986dcde2c859e390a0da5aeacf69db77")
+	    ((:commit . "257659fc0bf0112d40f921717c57e558b25f91ea")
 	     (:authors
 	      ("Jonas Bernoulli" . "emacs.fwb-cmds@jonas.bernoulli.dev"))
 	     (:maintainers
@@ -39078,7 +39078,7 @@
 	 (:keywords "tools" "tex")
 	 (:url . "https://github.com/tecosaur/LaTeX-auto-activating-snippets"))])
  (lab .
-      [(2 0 0 1 -4 20240712 1534)
+      [(2 0 0 1 -4 20240712 2254)
        ((emacs
 	 (27 1))
 	(memoize
@@ -39096,7 +39096,7 @@
 	(async-await
 	 (1 1)))
        "An interface for GitLab" tar
-       ((:commit . "a1dc10f55c632f05e9a816a9a60dbd2e643950a4")
+       ((:commit . "0528ca5c9e445700d7361b4263e85f618686fb38")
 	(:authors
 	 ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
 	(:maintainers
@@ -43380,11 +43380,11 @@
 	   (:keywords "comm" "processes" "bittorrent")
 	   (:url . "https://github.com/skangas/mentor"))])
  (meow .
-       [(1 4 5 1 -4 20240709 1912)
+       [(1 4 5 1 -4 20240712 2221)
 	((emacs
 	  (27 1)))
 	"Yet Another modal editing" tar
-	((:commit . "552412fd885edfbb0d2ecc4de950d9dfeca0374e")
+	((:commit . "369014fd92e44f4cec54a78fa9be11d35b44f277")
 	 (:keywords "convenience" "modal-editing")
 	 (:url . "https://www.github.com/DogLooksGood/meow"))])
  (meow-tree-sitter .
