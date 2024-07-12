@@ -17391,17 +17391,19 @@
 	   (:keywords "lisp")
 	   (:url . "http://github.com/demyanrogozhin/elhome"))])
  (elisa .
-	[(0 1 4 1 -4 20240401 1528)
+	[(1 0 0 1 -4 20240712 1639)
 	 ((emacs
 	   (29 2))
 	  (ellama
-	   (0 8 6))
+	   (0 11 2))
 	  (llm
 	   (0 9 1))
 	  (async
-	   (1 9 8)))
+	   (1 9 8))
+	  (plz
+	   (0 9)))
 	 "Emacs Lisp Information System Assistant" tar
-	 ((:commit . "c03baded1e6b1bb6b37f8df83a0d1af4cdbaf860")
+	 ((:commit . "3882b9b322cc8ac65d552bf8d134c20856ce3c1a")
 	  (:authors
 	   ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
 	  (:maintainers
@@ -26740,7 +26742,7 @@
 		  (:keywords "languages" "gauche" "scheme" "geiser")
 		  (:url . "https://gitlab.com/emacs-geiser/gauche"))])
  (geiser-guile .
-	       [(0 28 1 1 -4 20240702 2013)
+	       [(0 28 1 1 -4 20240712 1202)
 		((emacs
 		  (25 1))
 		 (transient
@@ -26748,7 +26750,7 @@
 		 (geiser
 		  (0 28 1)))
 		"Guile and Geiser talk to each other" tar
-		((:commit . "d5175439c01b177d4f27686e5d6dfdae0505ee1f")
+		((:commit . "ebdd1923b0780778706ea6b16aa2b0ce3e7dc33d")
 		 (:authors
 		  ("Jose Antonio Ortega Ruiz" . "(jao@gnu.org)"))
 		 (:maintainers
@@ -39076,7 +39078,7 @@
 	 (:keywords "tools" "tex")
 	 (:url . "https://github.com/tecosaur/LaTeX-auto-activating-snippets"))])
  (lab .
-      [(2 0 0 1 -4 20240606 737)
+      [(2 0 0 1 -4 20240712 1534)
        ((emacs
 	 (27 1))
 	(memoize
@@ -39094,7 +39096,7 @@
 	(async-await
 	 (1 1)))
        "An interface for GitLab" tar
-       ((:commit . "097cee132fa57530da947a5a24fec0bd6510bb69")
+       ((:commit . "a1dc10f55c632f05e9a816a9a60dbd2e643950a4")
 	(:authors
 	 ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
 	(:maintainers
@@ -54778,7 +54780,7 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/ksqsf/pest-mode"))])
  (pet .
-      [(3 1 0 1 -4 20240708 1016)
+      [(3 1 0 1 -4 20240712 1700)
        ((emacs
 	 (26 1))
 	(f
@@ -54788,7 +54790,7 @@
 	(seq
 	 (2 24)))
        "Executable and virtualenv tracker for python-mode" tar
-       ((:commit . "20450db646955ba8a2a3b258ec184a22af47879f")
+       ((:commit . "2bd9e2d65dc16cb6ebc56d1a9f7ba2ed09c7cecc")
 	(:authors
 	 ("Jimmy Yuen Ho Wong" . "wyuenho@gmail.com"))
 	(:maintainers
