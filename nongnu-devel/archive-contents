@@ -1023,17 +1023,17 @@
 		   ("Jeronimo Pellegrini" . "(j_p@aleph0.info)"))
 		  (:commit . "efdac7298e3a64f1138e3949b3312f491f2c706a"))])
  (git-commit .
-	     [(3 3 0 50 -4 0 20240711 231358)
+	     [(3 3 0 50 -4 0 20240713 192528)
 	      ((emacs
 		(26 1))
 	       (compat
-		(29 1 4 5))
+		(30 0 0 0))
 	       (seq
 		(2 24))
 	       (transient
-		(0 6 0))
+		(0 7 2))
 	       (with-editor
-		(3 3 2)))
+		(3 3 4)))
 	      "Edit Git commit messages" tar
 	      ((:url . "https://github.com/magit/magit")
 	       (:keywords "git" "tools" "vc")
@@ -1043,13 +1043,13 @@
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
 		("Florian Ragwitz" . "rafl@debian.org")
 		("Marius Vollmer" . "marius.vollmer@gmail.com"))
-	       (:commit . "7b4ab4348ea9ab1022a2717c2bcada62575bf091"))])
+	       (:commit . "b9948f9571928bb7f39f4b3a112bd76e52a072ce"))])
  (git-modes .
-	    [(1 4 3 0 20240618 160901)
+	    [(1 4 3 0 20240713 191814)
 	     ((emacs
 	       (25 1))
 	      (compat
-	       (29 1 4 5)))
+	       (30 0 0 0)))
 	     "Major modes for editing Git configuration files" tar
 	     ((:url . "https://github.com/magit/git-modes")
 	      (:keywords "convenience" "vc" "git")
@@ -1058,7 +1058,7 @@
 	       ("Sebastian Wiesner" . "lunaryorn@gmail.com")
 	       ("Rüdiger Sonderfeld" . "ruediger@c-plusplus.net")
 	       ("Jonas Bernoulli" . "emacs.git-modes@jonas.bernoulli.dev"))
-	      (:commit . "7901415b39bef1b789d161ca2c10dfb910d13780"))])
+	      (:commit . "d96fa7a3c7d754812675b37247c6a77e459eec53"))])
  (gnu-apl-mode .
 	       [(1 5 1 0 20220404 34102)
 		nil "Emacs mode for GNU APL" tar
@@ -1287,7 +1287,7 @@
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:commit . "ed5e5b05fd260e8f161a488d56f10e7f6e01fb75"))])
  (hyperdrive .
-	     [(0 4 -1 0 20240712 213426)
+	     [(0 4 -1 0 20240713 114210)
 	      ((emacs
 		(28 1))
 	       (map
@@ -1309,7 +1309,7 @@
 	       (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
-	       (:commit . "5afca563c757a7c3ced908f9193beee0cc0b013c"))])
+	       (:commit . "c2d69e94e2ae10790e65dc8d3a3d9597d16fa33a"))])
  (idle-highlight-mode .
 		      [(1 1 4 0 20240421 64727)
 		       ((emacs
@@ -1418,18 +1418,18 @@
 	       (:keywords "languages")
 	       (:commit . "d360ad5285b8a0be1818fd6c2b4307c34e468c6e"))])
  (keycast .
-	  [(1 4 0 0 20240618 172735)
+	  [(1 4 0 0 20240713 191915)
 	   ((emacs
 	     (25 3))
 	    (compat
-	     (29 1 4 5)))
+	     (30 0 0 0)))
 	   "Show current command and its binding" tar
 	   ((:url . "https://github.com/tarsius/keycast")
 	    (:keywords "multimedia")
 	    (:maintainer "Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev"))
-	    (:commit . "f04466cd8f8226715f113635204dc978171f63b7"))])
+	    (:commit . "cce63c166a47593c2d2a0a4e0e1e9671a537f1cb"))])
  (kotlin-mode .
 	      [(2 0 0 0 20230123 105957)
 	       ((emacs
@@ -1490,11 +1490,11 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "18142bc915dfe4a65d337e3aa5ad851d95d1d5c9"))])
  (magit .
-	[(3 3 0 50 -4 0 20240711 231358)
+	[(3 3 0 50 -4 0 20240713 192528)
 	 ((emacs
 	   (26 1))
 	  (compat
-	   (29 1 4 5))
+	   (30 0 0 0))
 	  (dash
 	   (2 19 1))
 	  (git-commit
@@ -1504,9 +1504,9 @@
 	  (seq
 	   (2 24))
 	  (transient
-	   (0 6 0))
+	   (0 7 2))
 	  (with-editor
-	   (3 3 2)))
+	   (3 3 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
 	  (:keywords "git" "tools" "vc")
@@ -1516,13 +1516,13 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	  (:commit . "7b4ab4348ea9ab1022a2717c2bcada62575bf091"))])
+	  (:commit . "b9948f9571928bb7f39f4b3a112bd76e52a072ce"))])
  (magit-section .
-		[(3 3 0 50 -4 0 20240711 231358)
+		[(3 3 0 50 -4 0 20240713 192528)
 		 ((emacs
 		   (26 1))
 		  (compat
-		   (29 1 4 5))
+		   (30 0 0 0))
 		  (dash
 		   (2 19 1))
 		  (seq
@@ -1533,7 +1533,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "7b4ab4348ea9ab1022a2717c2bcada62575bf091"))])
+		  (:commit . "b9948f9571928bb7f39f4b3a112bd76e52a072ce"))])
  (markdown-mode .
 		[(2 7 -3 0 20240626 82642)
 		 ((emacs
@@ -1803,11 +1803,11 @@
 		    ("Takaaki ISHIKAWA" . "takaxpatieeedotorg"))
 		   (:commit . "e2599a106a26ce5511095e23df4ea04be6687a8a"))])
  (orgit .
-	[(1 9 0 0 20240415 154628)
+	[(1 9 0 0 20240713 192819)
 	 ((emacs
 	   (25 1))
 	  (compat
-	   (29 1 4 1))
+	   (30 0 0 0))
 	  (magit
 	   (3 3 0))
 	  (org
@@ -1818,7 +1818,7 @@
 	  (:maintainer "Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
-	  (:commit . "ca3bf7aa20074e25fee37b71cfef127b93a3dde7"))])
+	  (:commit . "29a0f37e5cc74b2979f3f256913460624deaf152"))])
  (p4-16-mode .
 	     [(0 3 0 20231118 161633)
 	      nil "Support for the P4_16 programming language" tar
@@ -2178,14 +2178,14 @@
 	(:keywords "languages" "lisp" "sly")
 	(:commit . "ba40c8f054ec3b7040a6c36a1ef3e9596b936421"))])
  (smartparens .
-	      [(1 11 0 0 20240707 163606)
+	      [(1 11 0 0 20240713 100215)
 	       nil "Automatic insertion, wrapping and paredit-like navigation with user defined pairs." tar
 	       ((:url . "https://github.com/Fuco1/smartparens")
 		(:keywords "abbrev" "convenience" "editing")
 		(:maintainer "Matus Goljer" . "matus.goljer@gmail.com")
 		(:authors
 		 ("Matus Goljer" . "matus.goljer@gmail.com"))
-		(:commit . "ab475c78916d7b1666a495e3fe9c54b250195637"))])
+		(:commit . "c7519a1b69f196050a13e2230b7532893b077086"))])
  (solarized-theme .
 		  [(2 0 1 0 20231204 71322)
 		   ((emacs
@@ -2551,18 +2551,18 @@
 	      ("Akib Azmain Turja" . "akib@disroot.org"))
 	     (:commit . "5203d9379afaf6703746823a580c804e1dd98e08"))])
  (with-editor .
-	      [(3 3 4 0 20240702 195217)
+	      [(3 3 4 0 20240713 193157)
 	       ((emacs
 		 (25 1))
 		(compat
-		 (29 1 4 5)))
+		 (30 0 0 0)))
 	       "Use the Emacsclient as $EDITOR" tar
 	       ((:url . "https://github.com/magit/with-editor")
 		(:keywords "processes" "terminals")
 		(:maintainer "Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev")
 		(:authors
 		 ("Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev"))
-		(:commit . "6c9a51b72fa7f454a5a123f738a6a067972eca4e"))])
+		(:commit . "97dd5dd4b69a040506f4fc104dc0b855e84c1c0f"))])
  (with-simulated-input .
 		       [(3 0 0 20210602 224623)
 			((emacs
