@@ -25794,11 +25794,11 @@
 		     "Emacs theme with a dark background." tar
 		     ((:commit . "58096ce1a25615d2bae806c3775bae3e2775019d"))])
  (forge .
-	[(0 3 2 50 -4 20240712 1313)
+	[(0 3 2 50 -4 20240713 1917)
 	 ((emacs
 	   (27 1))
 	  (compat
-	   (29 1 4 5))
+	   (30 0 0 0))
 	  (closql
 	   (20240701))
 	  (dash
@@ -25820,7 +25820,7 @@
 	  (yaml
 	   (0 5 5)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "03d012ae24eafa89a1a5ba7d9ed4069b05d54e21")
+	 ((:commit . "67314e2f83db358d3734183008586d8bd7cb2395")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
 	  (:maintainer "Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev")
@@ -27125,17 +27125,17 @@
 	(:keywords "convenience")
 	(:url . "https://github.com/lafrenierejm/emacs-ghq"))])
  (ghub .
-       [(3 6 0 1 -4 20240618 1527)
+       [(3 6 0 1 -4 20240713 1918)
 	((emacs
 	  (26 3))
 	 (compat
-	  (29 1 4 5))
+	  (30 0 0 0))
 	 (let-alist
 	     (1 0 6))
 	 (treepy
 	  (0 1 2)))
 	"Client libraries for Git forge APIs." tar
-	((:commit . "e44aceeb12831f8b7afac4e089525b5a2dd5a5e8")
+	((:commit . "56c76725348da9d7abab88cec64a06505c67abe9")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
 	 (:maintainer "Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev")
@@ -27358,17 +27358,17 @@
 		(:keywords "utility" "git")
 		(:url . "https://github.com/10sr/git-command-el"))])
  (git-commit .
-	     [(3 3 0 50 -4 20240623 1335)
+	     [(3 3 0 50 -4 20240713 1925)
 	      ((emacs
 		(26 1))
 	       (compat
-		(29 1 4 5))
+		(30 0 0 0))
 	       (transient
-		(20240421))
+		(20240629))
 	       (with-editor
-		(20240415)))
+		(20240702)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "196abe727054a440bf6262c5c254ad4565cbaa66")
+	      ((:commit . "b9948f9571928bb7f39f4b3a112bd76e52a072ce")
 	       (:authors
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -27577,13 +27577,13 @@
 		   ("Syohei YOSHIDA" . "syohex@gmail.com"))
 		  (:url . "https://github.com/emacsorphanage/git-messenger"))])
  (git-modes .
-	    [(1 4 3 1 -4 20240618 1609)
+	    [(1 4 3 1 -4 20240713 1918)
 	     ((emacs
 	       (25 1))
 	      (compat
-	       (29 1 4 5)))
+	       (30 0 0 0)))
 	     "Major modes for editing Git configuration files" tar
-	     ((:commit . "7901415b39bef1b789d161ca2c10dfb910d13780")
+	     ((:commit . "d96fa7a3c7d754812675b37247c6a77e459eec53")
 	      (:authors
 	       ("Sebastian Wiesner" . "lunaryorn@gmail.com")
 	       ("Rüdiger Sonderfeld" . "ruediger@c-plusplus.net")
@@ -33567,13 +33567,13 @@
 		(:keywords "highlighting")
 		(:url . "http://github.com/milkypostman/hl-sentence"))])
  (hl-todo .
-	  [(3 8 0 1 -4 20240707 1351)
+	  [(3 8 0 1 -4 20240713 1918)
 	   ((emacs
 	     (26 1))
 	    (compat
-	     (29 1 4 5)))
+	     (30 0 0 0)))
 	   "Highlight TODO and similar keywords" tar
-	   ((:commit . "2e50b16a9cb263706ecea7e0e54bb7f131b65c8d")
+	   ((:commit . "aa58c45a78c64bb8d5509120c775a33b4b2c6aa2")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.hl-todo@jonas.bernoulli.dev"))
 	    (:maintainers
@@ -34840,13 +34840,13 @@
 	    (:keywords "convenience")
 	    (:url . "https://github.com/imakado/emacs-imakado"))])
  (imake .
-	[(0 1 0 1 -4 20240618 1725)
+	[(0 1 0 1 -4 20240713 1918)
 	 ((emacs
 	   (25 1))
 	  (compat
-	   (29 1 4 5)))
+	   (30 0 0 0)))
 	 "Simple, opinionated make target runner" tar
-	 ((:commit . "fa1e9d8885158f9bd4776e3529b26994dcdba43d")
+	 ((:commit . "3fda90d4f86649181b6d743cf2bcef37e96c1655")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.imake@jonas.bernoulli.dev"))
 	  (:maintainers
@@ -38390,13 +38390,13 @@
 	    (:keywords "convenience" "keyboard" "keybindings")
 	    (:url . "http://github.com/vlevit/key-seq.el"))])
  (keycast .
-	  [(1 4 0 1 -4 20240618 1727)
+	  [(1 4 0 1 -4 20240713 1919)
 	   ((emacs
 	     (25 3))
 	    (compat
-	     (29 1 4 5)))
+	     (30 0 0 0)))
 	   "Show current command and its binding" tar
-	   ((:commit . "f04466cd8f8226715f113635204dc978171f63b7")
+	   ((:commit . "cce63c166a47593c2d2a0a4e0e1e9671a537f1cb")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev"))
 	    (:maintainers
@@ -38422,13 +38422,13 @@
 	   "track command frequencies" tar
 	   ((:commit . "c6955162307f37c2ac631d9daf118781009f8dda"))])
  (keymap-utils .
-	       [(0 1 0 1 -4 20240628 1857)
+	       [(0 1 0 1 -4 20240713 1919)
 		((emacs
 		  (25 1))
 		 (compat
-		  (29 1 4 5)))
+		  (30 0 0 0)))
 		"Keymap utilities" tar
-		((:commit . "6605cc638e22865f2c9b98345db4f9f52a2c3d2e")
+		((:commit . "1e131cc842f5f66227802e9d367a510fc372710d")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.keymap-utils@jonas.bernoulli.dev"))
 		 (:maintainers
@@ -41860,25 +41860,25 @@
 	       (:keywords "languages")
 	       (:url . "https://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20240711 2313)
+	[(3 3 0 50 -4 20240713 1925)
 	 ((emacs
 	   (26 1))
 	  (compat
-	   (29 1 4 5))
+	   (30 0 0 0))
 	  (dash
-	   (20240405))
+	   (20240510))
 	  (git-commit
-	   (20240429))
+	   (20240623))
 	  (magit-section
-	   (20240429))
+	   (20240710))
 	  (seq
 	   (2 24))
 	  (transient
-	   (20240421))
+	   (20240629))
 	  (with-editor
-	   (20240415)))
+	   (20240702)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "7b4ab4348ea9ab1022a2717c2bcada62575bf091")
+	 ((:commit . "b9948f9571928bb7f39f4b3a112bd76e52a072ce")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -42209,15 +42209,15 @@
 		      (:keywords "magit" "vc")
 		      (:url . "http://github.com/jtamagnan/magit-reviewboard"))])
  (magit-section .
-		[(3 3 0 50 -4 20240710 2125)
+		[(3 3 0 50 -4 20240713 1925)
 		 ((emacs
 		   (26 1))
 		  (compat
-		   (29 1 4 5))
+		   (30 0 0 0))
 		  (dash
-		   (20240405)))
+		   (20240510)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "804c623cf6fa50a291273f582e3355fde408239b")
+		 ((:commit . "b9948f9571928bb7f39f4b3a112bd76e52a072ce")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
@@ -44024,13 +44024,13 @@
 		  (:keywords "color" "theme" "minimal")
 		  (:url . "http://github.com/ikame/minimal-theme"))])
  (minions .
-	  [(0 1 0 1 -4 20240618 1732)
+	  [(0 1 0 1 -4 20240713 1926)
 	   ((emacs
 	     (25 2))
 	    (compat
-	     (29 1 4 5)))
+	     (30 0 0 0)))
 	   "A minor-mode menu for the mode line" tar
-	   ((:commit . "4566325917791b878430526f42349a644b03089d")
+	   ((:commit . "f263ccb8a5a16022a6be3c1015ab008edf55a06d")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.minions@jonas.bernoulli.dev"))
 	    (:maintainers
@@ -44339,13 +44339,13 @@
 		   (:maintainer "Steve Purcell" . "steve@sanityinc.com")
 		   (:keywords "convenience"))])
  (mode-line-debug .
-		  [(0 1 0 1 -4 20240618 1733)
+		  [(0 1 0 1 -4 20240713 1926)
 		   ((emacs
 		     (25 1))
 		    (compat
-		     (29 1 4 5)))
+		     (30 0 0 0)))
 		   "Show status of debug-on-error in mode-line" tar
-		   ((:commit . "b6d2821a84646d484a34b45c10bb1630bf001d0b")
+		   ((:commit . "7e6b2651a7ed10c5080d09388e36dc1adc828d65")
 		    (:authors
 		     ("Jonas Bernoulli" . "emacs.mode-line-debug@jonas.bernoulli.dev"))
 		    (:maintainers
@@ -44627,13 +44627,13 @@
 		   (:keywords "mode-line" "faces")
 		   (:url . "https://gitlab.com/jessieh/mood-one-theme"))])
  (moody .
-	[(0 1 0 1 -4 20240618 1736)
+	[(0 1 0 1 -4 20240713 1926)
 	 ((emacs
 	   (25 3))
 	  (compat
-	   (29 1 4 5)))
+	   (30 0 0 0)))
 	 "Tabs and ribbons for the mode line" tar
-	 ((:commit . "7f7d390bd082c0786cc52618866905f28e31ec98")
+	 ((:commit . "dc212d034d49935bb1b2391996896a0237443222")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.moody@jonas.bernoulli.dev"))
 	  (:maintainers
@@ -44721,13 +44721,13 @@
 		    (:keywords "theme" "dark" "faces")
 		    (:url . "https://github.com/Melchizedek6809/morgentau-theme"))])
  (morlock .
-	  [(0 1 0 1 -4 20240618 1737)
+	  [(0 1 0 1 -4 20240713 1926)
 	   ((emacs
 	     (25 1))
 	    (compat
-	     (29 1 4 5)))
+	     (30 0 0 0)))
 	   "More font-lock keywords for elisp" tar
-	   ((:commit . "c9b6fff41e72f27f5c93230e4f3649a2cfb447f0")
+	   ((:commit . "9331f28fffc63ceb2df5279a28285d46d4721616")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.morlock@jonas.bernoulli.dev"))
 	    (:maintainers
@@ -46708,13 +46708,13 @@
 	     (:keywords "extensions")
 	     (:url . "https://github.com/ecraven/no-emoji"))])
  (no-littering .
-	       [(0 1 0 1 -4 20240624 1447)
+	       [(0 1 0 1 -4 20240713 1927)
 		((emacs
 		  (25 1))
 		 (compat
-		  (29 1 4 5)))
+		  (30 0 0 0)))
 		"Help keeping ~/.config/emacs clean" tar
-		((:commit . "f45335ede7c1246f922816610139face112e236b")
+		((:commit . "71cd6b2fb0b1ab6a6474bc16106dbb2581784d27")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.no-littering@jonas.bernoulli.dev"))
 		 (:maintainers
@@ -46973,15 +46973,15 @@
 	   ((:commit . "b526c5ef0e1ae78380e68e5a24170542b884cbe3")
 	    (:url . "https://notmuchmail.org"))])
  (notmuch-addr .
-	       [(0 1 0 1 -4 20240618 1830)
+	       [(0 1 0 1 -4 20240713 1927)
 		((emacs
 		  (27 1))
 		 (compat
-		  (29 1 4 5))
+		  (30 0 0 0))
 		 (notmuch
 		  (0 38)))
 		"An alternative to notmuch-address.el" tar
-		((:commit . "fee2fbe426edad380104f8ef13e4e36f974c11d4")
+		((:commit . "ebc002857f1eab47f2d36d7ad9d3cfdcb49ff7a0")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.notmuch-addr@jonas.bernoulli.dev"))
 		 (:maintainers
@@ -47020,15 +47020,15 @@
 		    (:keywords "emacs" "package" "elisp" "notmuch" "emails")
 		    (:url . "https://github.com/DamienCassou/notmuch-labeler"))])
  (notmuch-maildir .
-		  [(0 1 0 1 -4 20240618 1831)
+		  [(0 1 0 1 -4 20240713 1927)
 		   ((emacs
 		     (26 1))
 		    (compat
-		     (29 1 4 5))
+		     (30 0 0 0))
 		    (notmuch
 		     (0 38)))
 		   "Visualize maildirs as a tree" tar
-		   ((:commit . "b7183378f4a47c4717746c1f000f75a94c299ae6")
+		   ((:commit . "44fef436c3f4d44420d72fca969e957cbfb9b4b4")
 		    (:authors
 		     ("Jonas Bernoulli" . "emacs.notmuch-maildir@jonas.bernoulli.dev"))
 		    (:maintainers
@@ -47037,17 +47037,17 @@
 		    (:keywords "mail")
 		    (:url . "https://git.sr.ht/~tarsius/notmuch-maildir"))])
  (notmuch-transient .
-		    [(0 1 0 1 -4 20240618 1832)
+		    [(0 1 0 1 -4 20240713 1927)
 		     ((emacs
 		       (27 1))
 		      (compat
-		       (29 1 4 5))
+		       (30 0 0 0))
 		      (notmuch
 		       (0 38 2))
 		      (transient
 		       (0 7 0)))
 		     "Command dispatchers for Notmuch" tar
-		     ((:commit . "c161fb66cfe148c046274f8efea23bdf7ccfc2f3")
+		     ((:commit . "e81bf8b0002dd725a9edd9a15caa985248dc348f")
 		      (:authors
 		       ("Jonas Bernoulli" . "emacs.notmuch-transient@jonas.bernoulli.dev"))
 		      (:maintainers
@@ -48479,17 +48479,17 @@
        (:keywords "convenience")
        (:url . "https://github.com/conao3/oj.el"))])
  (ol-notmuch .
-	     [(0 1 0 1 -4 20240618 1833)
+	     [(0 1 0 1 -4 20240713 1928)
 	      ((emacs
 		(25 1))
 	       (compat
-		(29 1 4 5))
+		(30 0 0 0))
 	       (notmuch
 		(0 38))
 	       (org
 		(9 7 4)))
 	      "Links to notmuch messages" tar
-	      ((:commit . "f58197816a6c7e2576696415aefad93bd778a224")
+	      ((:commit . "44369674e674aa5d8d7805aa7e279bc15b462d80")
 	       (:authors
 		("Matthieu Lemerre" . "racin@free.fr"))
 	       (:maintainers
@@ -52226,17 +52226,17 @@
 	   (:keywords "org")
 	   (:url . "https://github.com/yasuhito/orgbox"))])
  (orgit .
-	[(1 9 0 1 -4 20240415 1546)
+	[(1 9 0 1 -4 20240713 1928)
 	 ((emacs
 	   (25 1))
 	  (compat
-	   (29 1 4 1))
+	   (30 0 0 0))
 	  (magit
 	   (3 3 0))
 	  (org
 	   (9 6 5)))
 	 "Support for Org links to Magit buffers" tar
-	 ((:commit . "ca3bf7aa20074e25fee37b71cfef127b93a3dde7")
+	 ((:commit . "29a0f37e5cc74b2979f3f256913460624deaf152")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
 	  (:maintainers
@@ -52245,11 +52245,11 @@
 	  (:keywords "hypermedia" "vc")
 	  (:url . "https://github.com/magit/orgit"))])
  (orgit-forge .
-	      [(0 1 4 1 -4 20240415 1546)
+	      [(0 1 4 1 -4 20240713 1928)
 	       ((emacs
 		 (25 1))
 		(compat
-		 (29 1 4 1))
+		 (30 0 0 0))
 		(forge
 		 (0 3))
 		(magit
@@ -52259,7 +52259,7 @@
 		(orgit
 		 (1 9)))
 	       "Org links to Forge issue buffers" tar
-	       ((:commit . "7b010465ab96bea6d380ae1cfbd7999d528f1de9")
+	       ((:commit . "a989b2b54d116bda9d0396a9773b3e11b9f54e05")
 		(:authors
 		 ("Jonas Bernoulli" . "emacs.orgit-forge@jonas.bernoulli.dev"))
 		(:maintainers
@@ -52268,17 +52268,17 @@
 		(:keywords "hypermedia" "vc")
 		(:url . "https://github.com/magit/orgit-forge"))])
  (orglink .
-	  [(0 1 0 1 -4 20240618 1835)
+	  [(0 1 0 1 -4 20240713 1928)
 	   ((emacs
 	     (25 1))
 	    (compat
-	     (29 1 4 5))
+	     (30 0 0 0))
 	    (org
 	     (9 7 4))
 	    (seq
 	     (2 24)))
 	   "Use Org Mode links in other modes" tar
-	   ((:commit . "6d482393c45f52c793b7ccfac871c87937a58640")
+	   ((:commit . "a1085403d9df5dc5ecc0e1af3bf20a14803bdf6b")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.orglink@jonas.bernoulli.dev"))
 	    (:maintainers
@@ -52656,13 +52656,13 @@
 		  (:maintainer "Thorsten Jolitz" . "tjolitzATgmailDOTcom")
 		  (:keywords "outlines"))])
  (outline-minor-faces .
-		      [(0 1 0 1 -4 20240628 2016)
+		      [(0 1 0 1 -4 20240713 1929)
 		       ((emacs
 			 (25 1))
 			(compat
-			 (29 1 4 5)))
+			 (30 0 0 0)))
 		       "Highlight only section headings" tar
-		       ((:commit . "8f1b8ab4c49b30d0a58b55666463ed2318150178")
+		       ((:commit . "c133cf70b43f1a0f26874dc817a86be2ac404264")
 			(:authors
 			 ("Jonas Bernoulli" . "emacs.outline-minor-faces@jonas.bernoulli.dev"))
 			(:maintainers
@@ -53887,13 +53887,13 @@
 		    (:keywords "convenience")
 		    (:url . "https://github.com/MatthewBregg/paren-completer"))])
  (paren-face .
-	     [(0 1 0 1 -4 20240618 1837)
+	     [(0 1 0 1 -4 20240713 1929)
 	      ((emacs
 		(25 1))
 	       (compat
-		(29 1 4 5)))
+		(30 0 0 0)))
 	      "A face for parentheses in lisp modes" tar
-	      ((:commit . "b6b60ad39391cde91e36c127714f7658eb4151ff")
+	      ((:commit . "f8f62a312d0c191983955a16257d74fc62523905")
 	       (:authors
 		("Jonas Bernoulli" . "emacs.paren-face@jonas.bernoulli.dev"))
 	       (:maintainers
