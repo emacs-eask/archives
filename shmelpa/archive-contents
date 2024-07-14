@@ -6354,6 +6354,21 @@
 	       (:maintainer "Charles Choi" . "kickingvegas@gmail.com")
 	       (:keywords "tools")
 	       (:url . "https://github.com/kickingvegas/casual-lib"))])
+ (casual-re-builder .
+		    [(1 0 1 1 -4 20240714 19)
+		     ((emacs
+		       (29 1))
+		      (casual-lib
+		       (1 1 0)))
+		     "Transient UI for RE-Builder" tar
+		     ((:commit . "57d0dcd83df7bcaaca52f58887a254c376e48aff")
+		      (:authors
+		       ("Charles Choi" . "kickingvegas@gmail.com"))
+		      (:maintainers
+		       ("Charles Choi" . "kickingvegas@gmail.com"))
+		      (:maintainer "Charles Choi" . "kickingvegas@gmail.com")
+		      (:keywords "tools")
+		      (:url . "https://github.com/kickingvegas/casual-re-builder"))])
  (casual-suite .
 	       [(1 2 0 1 -4 20240705 1758)
 		((emacs
@@ -17581,7 +17596,7 @@
 		      (:maintainer "Yinghai Zhao" . "zyinghai@gmail.com")
 		      (:keywords "snippets"))])
  (ellama .
-	 [(0 11 9 1 -4 20240710 2027)
+	 [(0 11 10 1 -4 20240714 1802)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -17591,7 +17606,7 @@
 	   (compat
 	    (29 1)))
 	  "Tool for interacting with LLMs" tar
-	  ((:commit . "8ee58b9f850f788f3fddd8e924a01091f3c76328")
+	  ((:commit . "f5e12cbf064dac95a59cbf28e21e576c6165e311")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
 	   (:maintainers
@@ -18094,11 +18109,11 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(3 1 1 50 -4 20240623 1340)
+	  [(3 1 1 50 -4 20240714 1824)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
-	   ((:commit . "efddd69c5e69214dbbe921fbf90f938501414894")
+	   ((:commit . "8aeffcfc3f5700af7a6216889610330cb438d3b9")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainers
@@ -18120,15 +18135,15 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.emacsql@jonas.bernoulli.dev")
 		  (:url . "https://github.com/magit/emacsql"))])
  (emacsql-pg .
-	     [(3 1 1 50 -4 20240415 1535)
+	     [(3 1 1 50 -4 20240714 1824)
 	      ((emacs
-		(25 1))
+		(28 1))
 	       (emacsql
-		(20230220))
+		(20240623))
 	       (pg
-		(0 16)))
+		(0 37)))
 	      "EmacSQL back-end for PostgreSQL via pg" tar
-	      ((:commit . "5108c16c5e1d5bfdd41fcc0807241e28886ab763")
+	      ((:commit . "8aeffcfc3f5700af7a6216889610330cb438d3b9")
 	       (:authors
 		("Christopher Wellons" . "wellons@nullprogram.com"))
 	       (:maintainers
