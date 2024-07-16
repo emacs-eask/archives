@@ -571,7 +571,7 @@
 		 ("Harry R. Schwartz" . "hello@harryrschwartz.com"))
 		(:commit . "f9efca3ad600e0c498cff776de5a873b8dd978cb"))])
  (evil .
-       [(1 15 0 0 20240712 224045)
+       [(1 15 0 0 20240716 110028)
 	((emacs
 	  (24 1))
 	 (cl-lib
@@ -582,7 +582,7 @@
 	((:url . "https://github.com/emacs-evil/evil")
 	 (:keywords "emulations")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
-	 (:commit . "fc993435bbb3c486bdf0666298e2204ec170880b"))])
+	 (:commit . "81ec688488e8818697004b52eda170e31b28a78c"))])
  (evil-anzu .
 	    [(0 2 0 20220911 193944)
 	     ((evil
@@ -1610,14 +1610,14 @@
 	     ("Akib Azmain Turja" . "akib@disroot.org"))
 	    (:commit . "22831489d3bbc22aef315c0f003bf3756b8889fa"))])
  (moe-theme .
-	    [(1 0 2 0 20240430 160157)
+	    [(1 0 2 0 20240716 85432)
 	     nil "A colorful eye-candy theme. Moe, moe, kyun!" tar
 	     ((:url . "https://github.com/kuanyui/moe-theme.el")
 	      (:keywords "themes")
 	      (:maintainer "kuanyui" . "azazabc123@gmail.com")
 	      (:authors
 	       ("kuanyui" . "azazabc123@gmail.com"))
-	      (:commit . "6df0d99a1a2006b218282f15d84609b88478ca7a"))])
+	      (:commit . "4b3642157bfe9a9268310d321cfe67c8c236b5e1"))])
  (monokai-theme .
 		[(3 5 3 0 20240710 102754)
 		 nil "A fruity color theme for Emacs." tar
@@ -2494,6 +2494,14 @@
 		       (:authors
 			("Joost Kremers" . "joostkremers@fastmail.fm"))
 		       (:commit . "e04d3521b6dc2435de4c4a4b9cac5feb194f0d5b"))])
+ (vm .
+     [(8 3 0 -4 0 20240715 181352)
+      ((cl-lib
+	(0 5)))
+      "Entry points for VM" tar
+      ((:url . "https://gitlab.com/emacs-vm/vm")
+       (:maintainer nil . "viewmail-info@nongnu.org")
+       (:commit . "b6eb1886b831c17cc1e6eddf129b11ba60cbe235"))])
  (web-mode .
 	   [(17 3 19 0 20240413 145507)
 	    ((emacs
