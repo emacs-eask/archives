@@ -6280,13 +6280,13 @@
 		(:keywords "tools")
 		(:url . "https://github.com/kickingvegas/casual-calc"))])
  (casual-dired .
-	       [(1 6 1 1 -4 20240710 2115)
+	       [(1 7 0 1 -4 20240716 2120)
 		((emacs
 		  (29 1))
 		 (casual-lib
 		  (1 1 0)))
 		"Transient UI for Dired" tar
-		((:commit . "fadaf987ea42e0f0b4adb96ceba86bdf3f02e897")
+		((:commit . "4be72b52f91700cdb529a185b8f6f21bd0a86542")
 		 (:authors
 		  ("Charles Choi" . "kickingvegas@gmail.com"))
 		 (:maintainers
@@ -6340,13 +6340,13 @@
 		   (:keywords "wp")
 		   (:url . "https://github.com/kickingvegas/casual-isearch"))])
  (casual-lib .
-	     [(1 1 0 1 -4 20240628 2300)
+	     [(1 1 1 1 -4 20240716 2021)
 	      ((emacs
 		(29 1))
 	       (transient
 		(0 6 0)))
 	      "Library routines for Casual porcelains" tar
-	      ((:commit . "a7b4a576f01fa227aaff074e0ef2778cdd06fc5d")
+	      ((:commit . "74ae8cf0b88efefe9afc58605ccb1576ec1b035a")
 	       (:authors
 		("Charles Choi" . "kickingvegas@gmail.com"))
 	       (:maintainers
@@ -10822,13 +10822,13 @@
 		  (:keywords "comment" "coq" "proof")
 		  (:url . "http://github.com/ailrun/coq-commenter"))])
  (corfu .
-	[(1 4 1 -4 20240716 1916)
+	[(1 4 1 -4 20240716 2011)
 	 ((emacs
 	   (27 1))
 	  (compat
 	   (30)))
 	 "COmpletion in Region FUnction" tar
-	 ((:commit . "1a2c1f262c0dc1bcbff7d1ccde841d7b609294d0")
+	 ((:commit . "5294a6ba0256230a7c92daf6b39afc351c45af9d")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	  (:maintainers
@@ -11866,15 +11866,16 @@
 		       (:maintainer "Glen Stampoultzis" . "gstamp@gmail.com")
 		       (:url . "http://orthogonal.me"))])
  (cuda-mode .
-	    [(0 1 0 1 -4 20201013 2230)
-	     nil "NVIDIA CUDA Major Mode" tar
-	     ((:commit . "7f593518fd135fc6af994024bcb47986dfa502d2")
+	    [(0 1 1 -4 20240716 1936)
+	     nil "NVIDIA CUDA Major Mode derived from C++-mode." tar
+	     ((:commit . "7dd07a20c36b41c8cb38cdec989673b73d03e144")
 	      (:authors
 	       ("Jack Morrison" . "jackmorrison1@gmail.com"))
 	      (:maintainers
 	       ("Jack Morrison" . "jackmorrison1@gmail.com"))
 	      (:maintainer "Jack Morrison" . "jackmorrison1@gmail.com")
-	      (:keywords "c" "languages"))])
+	      (:keywords "c" "languages" "cuda")
+	      (:url . "https://github.com/chachi/cuda-mode"))])
  (cue-mode .
 	   [(1 0 11 1 -4 20220811 1938)
 	    ((emacs
