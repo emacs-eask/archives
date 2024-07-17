@@ -2495,13 +2495,15 @@
 			("Joost Kremers" . "joostkremers@fastmail.fm"))
 		       (:commit . "e04d3521b6dc2435de4c4a4b9cac5feb194f0d5b"))])
  (vm .
-     [(8 3 0 -4 0 20240715 181352)
+     [(8 3 0 -4 0 20240717 40023)
       ((cl-lib
-	(0 5)))
+	(0 5))
+       (nadvice
+	(0 3)))
       "Entry points for VM" tar
       ((:url . "https://gitlab.com/emacs-vm/vm")
        (:maintainer nil . "viewmail-info@nongnu.org")
-       (:commit . "b6eb1886b831c17cc1e6eddf129b11ba60cbe235"))])
+       (:commit . "9aa3a94cd33aeb97a980d67554599a8b7aa30111"))])
  (web-mode .
 	   [(17 3 19 0 20240413 145507)
 	    ((emacs
