@@ -15494,11 +15494,11 @@
 		    (:keywords "convenience" "hacks")
 		    (:url . "https://sadiqpk.org/projects/dwim-coder-mode.html"))])
  (dwim-shell-command .
-		     [(0 61 1 -4 20240712 859)
+		     [(0 61 1 -4 20240717 1516)
 		      ((emacs
 			(28 1)))
 		      "Shell commands with DWIM behaviour" tar
-		      ((:commit . "715f0ae8cfe455f1dc611074bb8bb90e03533dab")
+		      ((:commit . "77c45846de3ba251f15632b1d3b4c7e1143ff537")
 		       (:url . "https://github.com/xenodium/dwim-shell-command"))])
  (dyalog-mode .
 	      [(0 7 1 -4 20230214 1027)
@@ -38527,11 +38527,11 @@
 		  (:keywords "tools")
 		  (:url . "https://github.com/peterpaul/keystore-mode"))])
  (keyswap .
-	  [(0 1 1 1 -4 20160813 957)
+	  [(0 1 1 1 -4 20240717 1440)
 	   ((emacs
-	     (24 3)))
+	     (25 1)))
 	   "swap bindings between key pairs" tar
-	   ((:commit . "cd682a7c4a8d64d6bae6a005db5045232e5e7b95")
+	   ((:commit . "d4f9f56a0e6e1365fc7c8ea8d953b8fdffad27fe")
 	    (:authors
 	     ("Matthew Malcomson" . "hardenedapple@gmail.com"))
 	    (:maintainers
@@ -48961,11 +48961,13 @@
 	 (:keywords "org" "convenience")
 	 (:url . "https://github.com/abo-abo/orca"))])
  (orderless .
-	    [(1 1 1 -4 20240711 2002)
+	    [(1 1 1 -4 20240717 758)
 	     ((emacs
-	       (27 1)))
+	       (27 1))
+	      (compat
+	       (30)))
 	     "Completion style for matching regexps in any order" tar
-	     ((:commit . "178b0c55f2cb49f27cd972f731ea45e5d3aea262")
+	     ((:commit . "49d1fdfb80b55699a00b11bc916ad29c0447039b")
 	      (:authors
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:maintainers
