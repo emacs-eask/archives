@@ -666,14 +666,14 @@
 			("Clément Pit-Claudel" . "clement.pitclaudel@live.com"))
 		       (:commit . "3b2233120d33943b8af65fec6257f0c16ad3c6fd"))])
  (company .
-	  [(0 10 2 0 20240714 2904)
+	  [(0 10 2 0 20240718 3228)
 	   ((emacs
 	     (25 1)))
 	   "Modular text completion framework" tar
 	   ((:url . "http://company-mode.github.io/")
 	    (:keywords "abbrev" "convenience" "matching")
 	    (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
-	    (:commit . "c67946d6e32060a046543411ce93d1656c2c882c"))])
+	    (:commit . "bc5d233909b69546928f85d1f37a094db9307000"))])
  (company-ebdb .
 	       [(1 1 0 20221221 74915)
 		((company
@@ -983,7 +983,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:commit . "5a0cd5ccb650d7bba1c1ea02cf67b71d7cfa6e9a"))])
  (denote .
-	 [(3 0 7 0 20240717 174500)
+	 [(3 0 7 0 20240718 55847)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -991,7 +991,7 @@
 	   (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "ba79556066ec7a6f1a29cdd7d7c2cb8600d7823b"))])
+	   (:commit . "6b762364f7d1595ca3c2fb35f561f5abd5109b10"))])
  (denote-menu .
 	      [(1 2 0 0 20240712 110155)
 	       ((emacs
@@ -1290,7 +1290,7 @@
 	       ("Markus Triska" . "triska@metalevel.at"))
 	      (:commit . "cfcdf9e42821d246b7fbc84877aa4ecacc184a1c"))])
  (eev .
-      [(20240710 0 20240710 214351)
+      [(20240718 0 20240718 31556)
        ((emacs
 	 (25 1)))
        "Support for e-scripts (eepitch blocks, elisp hyperlinks, etc)" tar
@@ -1299,7 +1299,7 @@
 	(:maintainer "Eduardo Ochs" . "eduardoochs@gmail.com")
 	(:authors
 	 ("Eduardo Ochs" . "eduardoochs@gmail.com"))
-	(:commit . "8e242228e9987aa7ec2e708efd4b109311d778e2"))])
+	(:commit . "515e29bf3566911ec5566964a7b994c59f6a9e93"))])
  (ef-themes .
 	    [(1 7 0 0 20240605 183445)
 	     ((emacs
@@ -1374,6 +1374,25 @@
 		      ("William Xu" . "william.xwl@gmail.com"))
 		     (:url . "https://elpa.gnu.org/packages/electric-spacing.html")
 		     (:commit . "60b1e298a78d679be99399bc57f53ec15d00eacf"))])
+ (elisa .
+	[(1 0 2 0 20240717 212307)
+	 ((emacs
+	   (29 2))
+	  (ellama
+	   (0 11 2))
+	  (llm
+	   (0 9 1))
+	  (async
+	   (1 9 8))
+	  (plz
+	   (0 9)))
+	 "Emacs Lisp Information System Assistant" tar
+	 ((:url . "http://github.com/s-kostyaev/elisa")
+	  (:keywords "help" "local" "tools")
+	  (:maintainer "Sergey Kostyaev" . "sskostyaev@gmail.com")
+	  (:authors
+	   ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
+	  (:commit . "c842f1ce32569f40571bf37b589454c0eeabb5e2"))])
  (elisp-benchmarks .
 		   [(1 16 0 20240708 114026)
 		    nil "elisp benchmarks collection" tar
@@ -1411,35 +1430,35 @@
 		    ("Ihor Radchenko" . "yantar92@posteo.net"))
 		   (:commit . "05d669e123f411c9582f99a9a6182efa43d01a6b"))])
  (embark .
-	 [(1 1 0 20240607 161338)
+	 [(1 1 0 20240717 160305)
 	  ((emacs
 	    (27 1))
 	   (compat
-	    (29 1 4 0)))
+	    (30)))
 	  "Conveniently act on minibuffer completions" tar
 	  ((:url . "https://github.com/oantolin/embark")
 	   (:keywords "convenience")
 	   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-	   (:commit . "9c166c4b96a0b1e85401bcc6fb95ce021e7b5013"))])
+	   (:commit . "4ddbe6326bc596a05b574cf0109acdb5a79bc748"))])
  (embark-consult .
-		 [(1 1 0 20240607 161338)
+		 [(1 1 0 20240717 160305)
 		  ((emacs
 		    (27 1))
 		   (compat
-		    (29 1 4 0))
+		    (30))
 		   (embark
 		    (1 0))
 		   (consult
-		    (1 0)))
+		    (1 7)))
 		  "Consult integration for Embark" tar
 		  ((:url . "https://github.com/oantolin/embark")
 		   (:keywords "convenience")
 		   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 		   (:authors
 		    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-		   (:commit . "9c166c4b96a0b1e85401bcc6fb95ce021e7b5013"))])
+		   (:commit . "4ddbe6326bc596a05b574cf0109acdb5a79bc748"))])
  (ement .
 	[(0 16 -1 0 20240707 203749)
 	 ((emacs
@@ -4931,7 +4950,7 @@
 	       ("Andrew Hyatt" . "ahyatt@gmail.com"))
 	      (:commit . "40c208eaab99999d7c1e4bea883648da24c03be3"))])
  (which-key .
-	    [(3 6 0 0 20240625 112213)
+	    [(3 6 0 0 20240713 155007)
 	     ((emacs
 	       (25 1)))
 	     "Display available keybindings in popup" tar
@@ -4939,7 +4958,7 @@
 	      (:authors
 	       ("Justin Burkett" . "justin@burkett.cc"))
 	      (:url . "https://elpa.gnu.org/packages/which-key.html")
-	      (:commit . "38d4308d1143b61e4004b6e7a940686784e51500"))])
+	      (:commit . "da97096fdbb50bf69348813c960eb8d10b2bdc44"))])
  (window-commander .
 		   [(3 0 2 0 20240314 125442)
 		    ((emacs
