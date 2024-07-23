@@ -190,7 +190,7 @@
 		 (:keywords "magit" "diffs" "tools")
 		 (:url . "https://github.com/jdtsmith/abridge-diff"))])
  (abs-mode .
-	   [(1 7 1 -4 20240718 1057)
+	   [(1 7 1 -4 20240723 1401)
 	    ((emacs
 	      (26 1))
 	     (erlang
@@ -202,7 +202,7 @@
 	     (yasnippet
 	      (0 14 0)))
 	    "Major mode for the modeling language Abs" tar
-	    ((:commit . "33f51510e894cea91b6d19c37e1575d7093392f5")
+	    ((:commit . "c3ba6466507bd35ae1d5a2d12e1da9d5c44a02b3")
 	     (:authors
 	      ("Rudi Schlatte" . "rudi@constantly.at"))
 	     (:maintainers
@@ -30353,13 +30353,13 @@
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
  (helm .
-       [(3 9 9 1 -4 20240723 1139)
+       [(3 9 9 1 -4 20240723 1540)
 	((helm-core
 	  (3 9 9))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "8ba77082fd8d6e194b798e966ca139d054a0fbef")
+	((:commit . "e95518f43e00a345e725f598c843f340149a3320")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -32373,7 +32373,7 @@
 		   (:maintainer "Thomas Winant" . "dewinant@gmail.com")
 		   (:url . "https://github.com/mrBliss/helm-rhythmbox"))])
  (helm-roam .
-	    [(1 0 1 1 -4 20240715 1115)
+	    [(1 0 2 1 -4 20240723 1443)
 	     ((emacs
 	       (24 1))
 	      (org
@@ -32383,7 +32383,7 @@
 	      (org-roam
 	       (2 2 2)))
 	     "Helm command for org-roam" tar
-	     ((:commit . "fa35f0a0ab67ab09ec75cc8b887b9e54f8cf1590")
+	     ((:commit . "85222a9ea50c69b18c1e31a66cc70adb851967d5")
 	      (:authors
 	       ("VHQR" . "zq_cmd@163.com"))
 	      (:maintainers
@@ -55341,11 +55341,11 @@
 	   (:keywords "extensions")
 	   (:url . "https://github.com/xuchunyang/pinyin.el"))])
  (pinyin-isearch .
-		 [(1 6 9 1 -4 20240224 709)
+		 [(1 6 9 1 -4 20240328 2110)
 		  ((emacs
 		    (28 1)))
 		  "Pinyin mode for isearch" tar
-		  ((:commit . "bb956213c6ccd3067d5e3c33d7695bdc5ba58133")
+		  ((:commit . "bc69e38e25e623a321c5c37959fb175334cf9e1a")
 		   (:keywords "chinese" "pinyin" "matching" "convenience")
 		   (:url . "https://github.com/Anoncheg1/pinyin-isearch"))])
  (pinyin-search .
@@ -61334,19 +61334,21 @@
 	      (:keywords "languages")
 	      (:url . "https://github.com/glynnforrest/salt-mode"))])
  (samskritam .
-	     [(0 1 0 1 -4 20220912 255)
+	     [(0 1 0 1 -4 20240723 1609)
 	      ((emacs
 		(28 1))
 	       (google-translate
-		(0 12 0)))
-	      "Library to get samskrit word definition, translate to & from" tar
-	      ((:commit . "93566481023b2645ca1f1dfcc5440712c2ec843b")
+		(0 12 0))
+	       (popper
+		(0 4 6)))
+	      "Show samskrit word definitions and translations" tar
+	      ((:commit . "c1ff0ff27d37312549c7345b58593ab0a6083e31")
 	       (:authors
 		("Krishna Thapa" . "thapakrish@gmail.com"))
 	       (:maintainers
 		("Krishna Thapa" . "thapakrish@gmail.com"))
 	       (:maintainer "Krishna Thapa" . "thapakrish@gmail.com")
-	       (:keywords "convenience" "language" "samskrit" "sanskrit" "dictionary" "translation")
+	       (:keywords "samskrit" "sanskrit" "संस्कृत" "dictionary" "devanagari" "translation" "convenience" "language")
 	       (:url . "https://github.com/thapakrish/samskritam"))])
  (sas-py .
 	 [(0 2 1 -4 20230131 523)
