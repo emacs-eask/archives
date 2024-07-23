@@ -55994,7 +55994,7 @@
 	   (:keywords "languages" "multi-modes")
 	   (:url . "https://github.com/polymode/poly-R"))])
  (poly-ansible .
-	       [(0 4 1 1 -4 20240626 1320)
+	       [(0 5 0 1 -4 20240723 1202)
 		((ansible
 		  (0 4 1))
 		 (ansible-doc
@@ -56005,10 +56005,12 @@
 		  (0 2))
 		 (polymode
 		  (0 2))
+		 (systemd
+		  (1 4))
 		 (yaml-mode
 		  (0 0 13)))
 		"Polymode for Ansible: Jinja2 in YAML" tar
-		((:commit . "24a17c6b965a085c737bee857eff919dfd0f961d")
+		((:commit . "4a4fab87d0db84774484837db3e4488cd9c853ba")
 		 (:authors
 		  ("Peter Oliver" . "poly-ansible@mavit.org.uk"))
 		 (:maintainers
