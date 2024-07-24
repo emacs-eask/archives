@@ -41919,7 +41919,7 @@
 	       (:keywords "languages")
 	       (:url . "https://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20240724 1233)
+	[(3 3 0 50 -4 20240724 1704)
 	 ((emacs
 	   (26 1))
 	  (compat
@@ -41937,7 +41937,7 @@
 	  (with-editor
 	   (20240702)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "52e07a772ba80e6d3fe84cea5ee1a044a9e0b6f5")
+	 ((:commit . "930d34395262af381917800f73a7209c71f45a4f")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -46608,6 +46608,21 @@
 	       (:maintainer "John Wiegley" . "johnw@newartisans.com")
 	       (:keywords "nix")
 	       (:url . "https://github.com/jwiegley/nix-update-el"))])
+ (nixfmt .
+	 [(0 1 1 -4 20240724 1531)
+	  ((emacs
+	    (24))
+	   (reformatter
+	    (0 3)))
+	  "Reformat Nix using nixfmt" tar
+	  ((:commit . "9c8a1c12320247a3fe643191b7574a3674fba317")
+	   (:authors
+	    ("Steve Purcell" . "steve@sanityinc.com"))
+	   (:maintainers
+	    ("Steve Purcell" . "steve@sanityinc.com"))
+	   (:maintainer "Steve Purcell" . "steve@sanityinc.com")
+	   (:keywords "languages")
+	   (:url . "https://github.com/purcell/emacs-nixfmt"))])
  (nixos-options .
 		[(0 0 1 1 -4 20160209 1841)
 		 ((emacs
