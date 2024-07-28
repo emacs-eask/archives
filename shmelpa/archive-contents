@@ -823,6 +823,13 @@
 	      nil "A color theme based on Acme & Sam from Plan 9" tar
 	      ((:commit . "ae8788b5851ea353fbb80ab586a3bbd5dc8e91aa")
 	       (:url . "https://github.com/ianpan870102/acme-emacs-theme"))])
+ (act-mode .
+	   [(1 0 1 -4 20240718 39)
+	    ((emacs
+	      (26 1)))
+	    "Major mode for the ACT programming language" tar
+	    ((:commit . "90d7d626691591b24d83596149bc89fd51ba39b4")
+	     (:url . "https://github.com/rafaelcn/act"))])
  (actionscript-mode .
 		    [(0 1 0 1 -4 20180527 1701)
 		     nil "A simple mode for editing Actionscript 3 files" tar
@@ -16224,11 +16231,11 @@
 			(:maintainer "Roland McGrath" . "roland@hack.frob.com")
 			(:url . "https://github.com/frobtech/edit-server-htmlize"))])
  (editorconfig .
-	       [(0 11 0 1 -4 20240718 1623)
+	       [(0 11 0 1 -4 20240728 1714)
 		((emacs
 		  (26 1)))
 		"EditorConfig Emacs Plugin" tar
-		((:commit . "7c7b1f81f8fac654791fa2b04da55edced2cef33")
+		((:commit . "fbd078ad647888c971abe3508dd0ba27fac97cb9")
 		 (:authors
 		  ("EditorConfig Team" . "editorconfig@googlegroups.com"))
 		 (:maintainers
@@ -16645,7 +16652,7 @@
 	       (:keywords "convenience" "languages" "tools")
 	       (:url . "https://github.com/dantecatalfamo/ejson-mode"))])
  (ekg .
-      [(0 6 1 1 -4 20240728 452)
+      [(0 6 2 1 -4 20240728 1623)
        ((triples
 	 (0 3 5))
 	(emacs
@@ -16653,7 +16660,7 @@
 	(llm
 	 (0 17 0)))
        "A system for recording and linking information" tar
-       ((:commit . "c31a6e7d049c0dc0a02065993b21c4ffab95fb04")
+       ((:commit . "a03117f117e2eaf63c56061e2beb7f4868111596")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
 	(:maintainers
@@ -18619,7 +18626,7 @@
 	  (:keywords "citations" "reference" "bibtex" "reftex")
 	  (:url . "http://github.com/dimalik/empos/"))])
  (empv .
-       [(4 5 0 1 -4 20240723 2217)
+       [(4 5 0 1 -4 20240728 1657)
 	((emacs
 	  (28 1))
 	 (s
@@ -18627,7 +18634,7 @@
 	 (compat
 	  (29 1 4 4)))
 	"A multimedia player/manager, YouTube interface" tar
-	((:commit . "ccfe44bbfa79a2a4d2cab06b807d494d4e85d45b")
+	((:commit . "1a8b93b72cc574355150edf984f1fc896db63921")
 	 (:authors
 	  ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
 	 (:maintainers
@@ -30352,6 +30359,12 @@
 		((:commit . "90142df2929956536dc1eaae3bb5ca04dc4232ab")
 		 (:keywords "heex" "languages" "tree-sitter")
 		 (:url . "https://github.com/wkirschbaum/elixir-ts-mode"))])
+ (helix-theme .
+	      [(1 0 1 -4 20240722 1310)
+	       nil "Color theme inspired by Helix editor's default colors" tar
+	       ((:commit . "38a146111f928640b12fa61cf286f6e25f759e60")
+		(:keywords "faces")
+		(:url . "https://github.com/ibakepunk/helix-theme"))])
  (helm .
        [(3 9 9 1 -4 20240728 459)
 	((helm-core
@@ -34162,11 +34175,11 @@
 	  (:keywords "bindings")
 	  (:url . "https://github.com/abo-abo/hydra"))])
  (hyperbole .
-	    [(9 0 2 -1 1 -4 20240714 2149)
+	    [(9 0 2 -1 1 -4 20240728 1711)
 	     ((emacs
 	       (27 1)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
-	     ((:commit . "74c52f9da3f72d0db0e32359f582a94c5a77976e")
+	     ((:commit . "9ee1f8ea1244e4ef8c3291e098b6dbb329077627")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
 	      (:maintainers
