@@ -6271,6 +6271,21 @@
 	       (:maintainer "Charles Choi" . "kickingvegas@gmail.com")
 	       (:keywords "tools")
 	       (:url . "https://github.com/kickingvegas/casual-avy"))])
+ (casual-bookmarks .
+		   [(1 0 0 1 -4 20240721 2001)
+		    ((emacs
+		      (29 1))
+		     (casual-lib
+		      (1 1 0)))
+		    "Transient UI for Bookmarks" tar
+		    ((:commit . "57cd69570d6737259e7fa08ada309f891dc91474")
+		     (:authors
+		      ("Charles Choi" . "kickingvegas@gmail.com"))
+		     (:maintainers
+		      ("Charles Choi" . "kickingvegas@gmail.com"))
+		     (:maintainer "Charles Choi" . "kickingvegas@gmail.com")
+		     (:keywords "tools")
+		     (:url . "https://github.com/kickingvegas/casual-bookmarks"))])
  (casual-calc .
 	      [(1 10 0 1 -4 20240628 2332)
 	       ((emacs
@@ -41934,7 +41949,7 @@
 	       (:keywords "languages")
 	       (:url . "https://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20240725 2110)
+	[(3 3 0 50 -4 20240727 2004)
 	 ((emacs
 	   (26 1))
 	  (compat
@@ -41952,7 +41967,7 @@
 	  (with-editor
 	   (20240702)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "6cd698d36ae44e806857a667143f2253d27a6ac2")
+	 ((:commit . "e77782272082977d56635308b89cf686abd87ef5")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -54736,11 +54751,11 @@
 	     (:keywords "perspectives" "workspace" "windows" "convenience")
 	     (:url . "http://github.com/rocher/persp-fr"))])
  (persp-mode .
-	     [(3 0 9 1 -4 20240726 1208)
+	     [(3 0 9 1 -4 20240728 1839)
 	      ((emacs
 		(24 3)))
 	      "windows/buffers sets shared among frames + save/load." tar
-	      ((:commit . "c55a27ecdc1136c5d1dd639586531b0b642ef1bb")
+	      ((:commit . "1653acffef1d190e6b6c2a5e1beba60b51f9ea00")
 	       (:authors
 		("Constantin Kulikov" . "zxnotdead@gmail.com"))
 	       (:maintainers
