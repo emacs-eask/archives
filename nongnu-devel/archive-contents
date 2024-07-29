@@ -1285,13 +1285,13 @@
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:commit . "ed5e5b05fd260e8f161a488d56f10e7f6e01fb75"))])
  (hyperdrive .
-	     [(0 4 -1 0 20240715 162425)
+	     [(0 4 -1 0 20240728 163952)
 	      ((emacs
 		(28 1))
 	       (map
 		(3 0))
 	       (compat
-		(29 1 4 4))
+		(30 0 0 0))
 	       (org
 		(9 7 6))
 	       (plz
@@ -1307,7 +1307,7 @@
 	       (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
-	       (:commit . "e92ef2742104e97d5d3064e46cdbedd6a16f7e6e"))])
+	       (:commit . "1aabcbb570f768491264dd74b23acd421b4da0c8"))])
  (idle-highlight-mode .
 		      [(1 1 4 0 20240421 64727)
 		       ((emacs
@@ -2113,11 +2113,13 @@
 	       ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	      (:commit . "17a8158cc55fed473aa87d53f3f2b42e1c249d11"))])
  (scala-mode .
-	     [(0 23 0 20240113 174352)
-	      nil "Major mode for editing Scala" tar
+	     [(1 1 0 0 20240729 42046)
+	      ((emacs
+		(24 2)))
+	      "Major mode for editing Scala" tar
 	      ((:url . "https://github.com/hvesalai/emacs-scala-mode")
 	       (:keywords "languages")
-	       (:commit . "4c6d636b86e3bb1d95de819dc48dda92abdfbcf4"))])
+	       (:commit . "bd0638c32ab0f2eadacf2809329abf5388211760"))])
  (scroll-on-drag .
 		 [(0 1 0 20240421 80350)
 		  ((emacs
