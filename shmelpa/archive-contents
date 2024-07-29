@@ -17209,11 +17209,11 @@
 	     (:keywords "matching")
 	     (:url . "https://github.com/abo-abo/elf-mode"))])
  (elfeed .
-	 [(3 4 1 1 -4 20240331 1348)
+	 [(3 4 2 1 -4 20240729 1741)
 	  ((emacs
 	    (24 3)))
 	  "an Emacs Atom/RSS feed reader" tar
-	  ((:commit . "5c05a1eab37bc113ecb158a4d57fe05352fa2c6a")
+	  ((:commit . "904b6d4feca78e7e5336d7dbb7b8ba53b8c4dac1")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
 	   (:maintainer "Christopher Wellons" . "wellons@nullprogram.com")
@@ -17384,7 +17384,7 @@
 		    (:keywords "news" "hypermedia")
 		    (:url . "https://github.com/karthink/elfeed-tube"))])
  (elfeed-web .
-	     [(3 4 1 1 -4 20210226 258)
+	     [(3 4 2 1 -4 20240729 1741)
 	      ((simple-httpd
 		(1 5 1))
 	       (elfeed
@@ -17392,7 +17392,7 @@
 	       (emacs
 		(24 3)))
 	      "web interface to Elfeed" tar
-	      ((:commit . "0ccd59aaace34546017a1a0d7c393749747d5bc6")
+	      ((:commit . "904b6d4feca78e7e5336d7dbb7b8ba53b8c4dac1")
 	       (:authors
 		("Christopher Wellons" . "wellons@nullprogram.com"))
 	       (:maintainer "Christopher Wellons" . "wellons@nullprogram.com")
@@ -22887,7 +22887,7 @@
 		   (:maintainer "Scott Raine" . "scott@raine.sh")
 		   (:url . "https://github.com/nylar/fleetish-emacs-theme"))])
  (flex-compile .
-	       [(1 4 1 -4 20231219 2113)
+	       [(1 4 1 -4 20240729 1757)
 		((emacs
 		  (26 1))
 		 (dash
@@ -22895,7 +22895,7 @@
 		 (buffer-manage
 		  (1 1)))
 		"Run, evaluate and compile across many languages" tar
-		((:commit . "817dd32411748682c13f752786b901041a470504")
+		((:commit . "335f6f2e9abb5b5bc1ccabf1136688a3a4e851b6")
 		 (:keywords "compilation" "integration" "processes")
 		 (:url . "https://github.com/plandes/flex-compile"))])
  (flex-isearch .
@@ -25870,7 +25870,7 @@
 		     "Emacs theme with a dark background." tar
 		     ((:commit . "58096ce1a25615d2bae806c3775bae3e2775019d"))])
  (forge .
-	[(0 3 2 50 -4 20240726 1807)
+	[(0 3 2 50 -4 20240729 1719)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -25896,7 +25896,7 @@
 	  (yaml
 	   (0 5 5)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "21d410c8102422f32db14ddac4eae9e28c2b5c5a")
+	 ((:commit . "5449df3f718cff13b683ac866ed99eee9d8b68e9")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
 	  (:maintainer "Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev")
@@ -30393,13 +30393,13 @@
 		(:keywords "faces")
 		(:url . "https://github.com/ibakepunk/helix-theme"))])
  (helm .
-       [(3 9 9 1 -4 20240728 459)
+       [(3 9 9 1 -4 20240729 1705)
 	((helm-core
 	  (3 9 9))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "8e3fe7958815a71f328b48f89b4f86694d2617ef")
+	((:commit . "228ba22048e3a7d48d4bd62f415906a397be45d0")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -39247,7 +39247,7 @@
 		 (:maintainer "Henry Newcomer" . "a.cliche.email@gmail.com")
 		 (:url . "https://github.com/HenryNewcomer/laguna-theme"))])
  (lambdapi-mode .
-		[(1 1 0 1 -4 20240708 1514)
+		[(1 1 0 1 -4 20240729 1656)
 		 ((eglot
 		   (1 6))
 		  (math-symbol-lists
@@ -39255,7 +39255,7 @@
 		  (highlight
 		   (20190710 1527)))
 		 "A major mode to edit Lambdapi files." tar
-		 ((:commit . "e119c8cee3647e1d17fa6fdaf1bb6129f42927bc")
+		 ((:commit . "230d5726b91d11d4b356235f37445ead0a99f3f5")
 		  (:maintainer "Deducteam" . "dedukti-dev@inria.fr")
 		  (:keywords "languages")
 		  (:url . "https://github.com/Deducteam/lambdapi"))])
@@ -41255,7 +41255,7 @@
 		  (:keywords "convenience" "lsp" "grammarly" "checker")
 		  (:url . "https://github.com/emacs-grammarly/lsp-grammarly"))])
  (lsp-haskell .
-	      [(1 1 1 -4 20240705 832)
+	      [(1 1 1 -4 20240729 1637)
 	       ((emacs
 		 (27 1))
 		(lsp-mode
@@ -41263,7 +41263,7 @@
 		(haskell-mode
 		 (16 1)))
 	       "Haskell support for lsp-mode" tar
-	       ((:commit . "1d15706321ac86ce2275442fe67c2778ecb567a6")
+	       ((:commit . "85a82c9cf4a7ed4be339e80a98cf41cbf2c999d3")
 		(:keywords "haskell")
 		(:url . "https://github.com/emacs-lsp/lsp-haskell"))])
  (lsp-intellij .
