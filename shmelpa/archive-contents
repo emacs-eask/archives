@@ -5238,20 +5238,6 @@
 	  ((:commit . "d59559cf7c5dded8b9639346ae5c1384d8b9be4e")
 	   (:keywords "unix" "interactive" "shell" "management")
 	   (:url . "https://github.com/plandes/bshell"))])
- (btc-ticker .
-	     [(0 1 1 -4 20220409 1647)
-	      ((json
-		(1 2))
-	       (request
-		(0 2 0)))
-	      "Shows latest bitcoin price" tar
-	      ((:commit . "2ed18ac6338d5fe98c578f0875840af07f0bc42a")
-	       (:authors
-		("Jorge Niedbalski R." . "jnr@metaklass.org"))
-	       (:maintainers
-		("Jorge Niedbalski R." . "jnr@metaklass.org"))
-	       (:maintainer "Jorge Niedbalski R." . "jnr@metaklass.org")
-	       (:keywords "news"))])
  (bts .
       [(0 1 0 1 -4 20151109 1333)
        ((widget-mvc
@@ -6870,13 +6856,13 @@
 	    (:keywords "unicode" "character" "ucs")
 	    (:url . "https://github.com/lateau/charmap"))])
  (chatgpt-shell .
-		[(1 0 20 1 -4 20240726 1058)
+		[(1 0 21 1 -4 20240731 1734)
 		 ((emacs
 		   (27 1))
 		  (shell-maker
 		   (0 50 5)))
 		 "ChatGPT shell + buffer insert commands" tar
-		 ((:commit . "f7b1f1e4b8a07c97deba92d9a23145d192ce715f")
+		 ((:commit . "4e09c9ee074bb8c1e03128c817ab99b6f228ccb5")
 		  (:url . "https://github.com/xenodium/chatgpt-shell"))])
  (chatu .
 	[(0 1 1 -4 20240518 615)
@@ -12193,13 +12179,13 @@
 		  (:keywords "color" "themes")
 		  (:url . "https://github.com/dakrone/dakrone-theme"))])
  (dall-e-shell .
-	       [(0 41 1 1 -4 20240112 1749)
+	       [(0 41 1 1 -4 20240731 1734)
 		((emacs
 		  (27 1))
 		 (shell-maker
 		  (0 49 1)))
 		"Interaction mode for DALL-E" tar
-		((:commit . "39dd8e7415ebe6d836a1d721337019cfea89f5ad")
+		((:commit . "4e09c9ee074bb8c1e03128c817ab99b6f228ccb5")
 		 (:url . "https://github.com/xenodium/chatgpt-shell"))])
  (daml-lsp .
 	   [(1 0 1 -4 20231101 1818)
@@ -13455,9 +13441,9 @@
 	     (:keywords "convenience" "diff")
 	     (:url . "https://github.com/mgalgs/diffview-mode"))])
  (digistar-mode .
-		[(0 9 14 1 -4 20240613 225)
+		[(0 9 14 1 -4 20240731 1643)
 		 nil "major mode for Digistar scripts" tar
-		 ((:commit . "1a02a4773d1380d8cab44f5e342a1e9bcc7276e8")
+		 ((:commit . "38aecbd07e52e36ed07e969c7a374fdef75def22")
 		  (:authors
 		   ("John Foerch" . "jjfoerch@gmail.com"))
 		  (:maintainers
@@ -40604,12 +40590,6 @@
 	     (:maintainer "nik gaffney" . "nik@fo.am")
 	     (:keywords "tools" "latour litany" "alien phenomenology" "ontography" "metaphorism" "carpentry")
 	     (:url . "https://github.com/zzkt/litanizer"))])
- (litecoin-ticker .
-		  [(20160513 1 -4 20160612 11)
-		   ((json
-		     (1 2)))
-		   "litecoin price in modeline" tar
-		   ((:commit . "3d8047c736e4ee0b8638953f8cc63eaefad34106"))])
  (literal-string .
 		 [(0 5 1 -4 20191023 733)
 		  ((emacs
@@ -54174,20 +54154,6 @@
 	 (:maintainer "Nicolas Petton" . "petton.nicolas@gmail.com")
 	 (:keywords "password-store" "password" "keychain")
 	 (:url . "https://github.com/NicolasPetton/pass"))])
- (passmm .
-	 [(1 0 0 1 -4 20221204 1927)
-	  ((emacs
-	    (25))
-	   (password-store
-	    (1 7 4)))
-	  "A minor mode for pass (Password Store)" tar
-	  ((:commit . "66691e301dff476eaff7c6e817ed9df96d4404c8")
-	   (:authors
-	    ("Peter Jones" . "pjones@devalot.com"))
-	   (:maintainers
-	    ("Peter Jones" . "pjones@devalot.com"))
-	   (:maintainer "Peter Jones" . "pjones@devalot.com")
-	   (:url . "https://github.com/pjones/passmm"))])
  (password-generator .
 		     [(1 20 1 -4 20210425 2227)
 		      nil "Password generator for humans. Good, Bad, Phonetic passwords included." tar
