@@ -38491,13 +38491,13 @@
 	    (:keywords "convenience" "keyboard" "keybindings")
 	    (:url . "http://github.com/vlevit/key-seq.el"))])
  (keycast .
-	  [(1 4 0 1 -4 20240713 1919)
+	  [(1 4 0 1 -4 20240731 1152)
 	   ((emacs
 	     (25 3))
 	    (compat
 	     (30 0 0 0)))
 	   "Show current command and its binding" tar
-	   ((:commit . "cce63c166a47593c2d2a0a4e0e1e9671a537f1cb")
+	   ((:commit . "82affc7bb85b4b7c53c849cfd216b115d9f84972")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev"))
 	    (:maintainers
@@ -46184,13 +46184,15 @@
 	       (:keywords "lisp")
 	       (:url . "https://github.com/rainstormstudio/nerd-icons.el"))])
  (nerd-icons-completion .
-			[(0 0 1 1 -4 20230430 1611)
+			[(0 0 1 1 -4 20240731 1213)
 			 ((emacs
 			   (25 1))
 			  (nerd-icons
-			   (0 0 1)))
+			   (0 0 1))
+			  (compat
+			   (30)))
 			 "Add icons to completion candidates" tar
-			 ((:commit . "5cfee6ff1b9647c783bae944402d60440ce04cbb")
+			 ((:commit . "426a1d7c29a04ae8e6ae9b55b0559f11a1e8b420")
 			  (:authors
 			   ("Hongyu Ding" . "rainstormstudio@yahoo.com"))
 			  (:maintainers
@@ -68484,11 +68486,11 @@
 		  (:keywords "convenience" "quotes")
 		  (:url . "https://github.com/toctan/toggle-quotes.el"))])
  (toggle-term .
-	      [(0 0 1 1 -4 20240731 1034)
+	      [(0 0 1 1 -4 20240731 1245)
 	       ((emacs
 		 (24 3)))
 	       "Quickly toggle persistent term and shell buffers" tar
-	       ((:commit . "8f0014db7f9a928128f4f4f13951f796da4be55c")
+	       ((:commit . "3573d0ee7b7f19d37341c524f0656508d3b2b169")
 		(:keywords "frames" "convenience" "terminals")
 		(:url . "https://github.com/justinlime/toggle-term.el"))])
  (toggle-test .
