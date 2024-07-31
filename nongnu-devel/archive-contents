@@ -549,7 +549,7 @@
 	    ("Tim Vaughan" . "plugd@thelambdalab.xyz"))
 	   (:commit . "0bd12913940a047724d830725bf8649e4f8df499"))])
  (emacsql .
-	  [(3 1 1 50 -4 0 20240714 182430)
+	  [(3 1 1 50 -4 0 20240730 133904)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
@@ -557,7 +557,7 @@
 	    (:maintainer "Jonas Bernoulli" . "emacs.emacsql@jonas.bernoulli.dev")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
-	    (:commit . "8aeffcfc3f5700af7a6216889610330cb438d3b9"))])
+	    (:commit . "32f086e6e1aca48120b71fec2437b4c8b21b29fd"))])
  (engine-mode .
 	      [(2 2 4 0 20230911 95607)
 	       ((emacs
@@ -1021,7 +1021,7 @@
 		   ("Jeronimo Pellegrini" . "(j_p@aleph0.info)"))
 		  (:commit . "efdac7298e3a64f1138e3949b3312f491f2c706a"))])
  (git-commit .
-	     [(3 3 0 50 -4 0 20240727 200453)
+	     [(3 3 0 50 -4 0 20240730 174107)
 	      ((emacs
 		(26 1))
 	       (compat
@@ -1041,7 +1041,7 @@
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
 		("Florian Ragwitz" . "rafl@debian.org")
 		("Marius Vollmer" . "marius.vollmer@gmail.com"))
-	       (:commit . "e77782272082977d56635308b89cf686abd87ef5"))])
+	       (:commit . "d9ff4e8b3a8203454bfcbedfbac378a80cd6c8fe"))])
  (git-modes .
 	    [(1 4 3 0 20240713 191814)
 	     ((emacs
@@ -1127,7 +1127,7 @@
 	      ("David Andersson" . "l.david.anderssonsverige.nu"))
 	     (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel .
-	[(0 9 0 0 20240724 131301)
+	[(0 9 0 0 20240730 123127)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -1140,7 +1140,7 @@
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-	  (:commit . "dda5a2f3fc69af9b61d2f45ebb89e47ee32e9bda"))])
+	  (:commit . "73ec10831bf3ad85384ead962878b2437928def4"))])
  (graphql-mode .
 	       [(1 0 0 0 20240328 173129)
 		((emacs
@@ -1285,7 +1285,7 @@
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:commit . "ed5e5b05fd260e8f161a488d56f10e7f6e01fb75"))])
  (hyperdrive .
-	     [(0 4 -1 0 20240728 163952)
+	     [(0 4 -1 0 20240730 233412)
 	      ((emacs
 		(28 1))
 	       (map
@@ -1307,7 +1307,7 @@
 	       (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
-	       (:commit . "1aabcbb570f768491264dd74b23acd421b4da0c8"))])
+	       (:commit . "52297ba0bdb2f9d3f3d3632d36374dbd3ab83ac0"))])
  (idle-highlight-mode .
 		      [(1 1 4 0 20240421 64727)
 		       ((emacs
@@ -1488,7 +1488,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "18142bc915dfe4a65d337e3aa5ad851d95d1d5c9"))])
  (magit .
-	[(3 3 0 50 -4 0 20240727 200453)
+	[(3 3 0 50 -4 0 20240730 174107)
 	 ((emacs
 	   (26 1))
 	  (compat
@@ -1514,9 +1514,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	  (:commit . "e77782272082977d56635308b89cf686abd87ef5"))])
+	  (:commit . "d9ff4e8b3a8203454bfcbedfbac378a80cd6c8fe"))])
  (magit-section .
-		[(3 3 0 50 -4 0 20240727 200453)
+		[(3 3 0 50 -4 0 20240730 174107)
 		 ((emacs
 		   (26 1))
 		  (compat
@@ -1531,7 +1531,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "e77782272082977d56635308b89cf686abd87ef5"))])
+		  (:commit . "d9ff4e8b3a8203454bfcbedfbac378a80cd6c8fe"))])
  (markdown-mode .
 		[(2 7 -3 0 20240716 24909)
 		 ((emacs
@@ -2000,14 +2000,14 @@
 	       ("David Christiansen" . "david@davidchristiansen.dk"))
 	      (:commit . "50b102c1c0935fd3e0c465feed7f27d66b21cdf3"))])
  (racket-mode .
-	      [(1 0 20240729 85224)
+	      [(1 0 20240730 82029)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
 	       ((:url . "https://www.racket-mode.com/")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com"))
-		(:commit . "ada192863b0eb162c31015345f0158828e9dba22"))])
+		(:commit . "af3c32277b30e261ef742e454073b8e593c08081"))])
  (rainbow-delimiters .
 		     [(2 1 5 0 20230830 160022)
 		      nil "Highlight brackets according to their depth" tar
@@ -2505,14 +2505,14 @@
        (:maintainer nil . "viewmail-info@nongnu.org")
        (:commit . "fd3d5c31faeffe6aa281b40d8431550a308d5aab"))])
  (web-mode .
-	   [(17 3 19 0 20240729 153740)
+	   [(17 3 19 0 20240730 160053)
 	    ((emacs
 	      (23 1)))
 	    "major mode for editing web templates" tar
 	    ((:url . "https://web-mode.org")
 	     (:keywords "languages")
 	     (:maintainer "François-Xavier Bois" . "fxbois@gmail.com")
-	     (:commit . "2815efbd5b8b0789cdebd47697eae815ce8eeb5f"))])
+	     (:commit . "cbb12727591ba4360ac8e09ae5f9fe666175cc30"))])
  (webpaste .
 	   [(3 2 2 0 20240306 62647)
 	    ((emacs
