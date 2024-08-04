@@ -39790,11 +39790,11 @@
 		  (:maintainer "Damien Cassou" . "damien@cassou.me")
 		  (:url . "https://gitlab.petton.fr/mpdel/libmpdel"))])
  (ledger-mode .
-	      [(0 1 0 1 -4 20240709 1803)
+	      [(0 1 0 1 -4 20240804 1623)
 	       ((emacs
 		 (25 1)))
 	       "Helper code for use with the \"ledger\" command-line tool" tar
-	       ((:commit . "17983be9e9de42eadccd50709ccc1d3c147e85ca"))])
+	       ((:commit . "a6be7a2d79281a442ce5abd3f073b6c20d7d11d8"))])
  (leerzeichen .
 	      [(0 1 0 1 -4 20220626 835)
 	       nil "Minor mode to display whitespace characters." tar
@@ -52723,6 +52723,14 @@
 	       ("Oscar Najera" . "hi@oscarnajera.com"))
 	      (:maintainer "Oscar Najera" . "hi@oscarnajera.com")
 	      (:url . "https://github.com/Titan-C/cardano.el"))])
+ (outline-indent .
+		 [(1 0 5 1 -4 20240725 2005)
+		  ((emacs
+		    (25 1)))
+		  "Outline and fold text using indentation" tar
+		  ((:commit . "69de157db109b9af94241f6b15c67d834e944361")
+		   (:keywords "outlines")
+		   (:url . "https://github.com/jamescherti/outline-indent.el"))])
  (outline-magic .
 		[(0 9 1 1 -4 20180619 1819)
 		 nil "outline mode extensions for Emacs" tar
