@@ -3525,15 +3525,15 @@
 	      (:keywords "hardware")
 	      (:url . "https://github.com/mschuldt/backlight.el"))])
  (backline .
-	   [(0 1 0 1 -4 20240712 2214)
+	   [(1 0 2 1 -4 20240805 1306)
 	    ((emacs
-	      (25 1))
+	      (26 1))
 	     (compat
 	      (30 0 0 0))
 	     (outline-minor-faces
-	      (0 1 2)))
+	      (1 0 2)))
 	    "Preserve appearance of outline headings" tar
-	    ((:commit . "39726634051b2c1ee8d661df894b130447fb7632")
+	    ((:commit . "9c791fb9a4a2e4a09443ec8b0da8f1f10890c0c6")
 	     (:authors
 	      ("Jonas Bernoulli" . "emacs.backline@jonas.bernoulli.dev"))
 	     (:maintainers
@@ -13525,13 +13525,13 @@
 	(:keywords "convenience")
 	(:url . "https://github.com/alezost/dim.el"))])
  (dim-autoload .
-	       [(0 1 0 1 -4 20240712 2215)
+	       [(2 0 7 1 -4 20240805 1309)
 		((emacs
-		  (25 1))
+		  (26 1))
 		 (compat
 		  (30 0 0 0)))
 		"Dim or hide autoload cookie lines" tar
-		((:commit . "9d08ecf4f8b00e53093864a59b51f58e4fb6ae4b")
+		((:commit . "dbe0f038c0a7fcc7e0f021947a42db5b0e8f143d")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.dim-autoload@jonas.bernoulli.dev"))
 		 (:maintainers
@@ -14770,7 +14770,7 @@
 	   (:keywords "convenience")
 	   (:url . "https://github.com/emacs-pe/docean.el"))])
  (docker .
-	 [(2 3 1 1 -4 20231110 1006)
+	 [(2 3 1 1 -4 20240805 1313)
 	  ((aio
 	    (1 0))
 	   (dash
@@ -14784,7 +14784,7 @@
 	   (transient
 	    (0 4 3)))
 	  "Interface to Docker" tar
-	  ((:commit . "2def2ab7fa04ed14403d00e3547a94c3822302cb")
+	  ((:commit . "d837c7dfc6c5a949f19e9d673a4ac70b960d282e")
 	   (:authors
 	    ("Philippe Vaucher" . "philippe.vaucher@gmail.com"))
 	   (:maintainers
@@ -18078,15 +18078,15 @@
 	 (:keywords "docs")
 	 (:url . "https://github.com/Fuco1/elwm"))])
  (elx .
-      [(2 0 2 1 -4 20240712 2216)
+      [(2 0 3 1 -4 20240805 1311)
        ((emacs
-	 (25 1))
+	 (26 1))
 	(compat
 	 (30 0 0 0))
 	(llama
 	 (0 3 1)))
        "Extract information from Emacs Lisp libraries" tar
-       ((:commit . "1159333ab9a09eaf32b3ab4fe10e4e7cea5a1a64")
+       ((:commit . "be1afda54a182c726d7f0c584b2ac4854384ffda")
 	(:authors
 	 ("Jonas Bernoulli" . "emacs.elx@jonas.bernoulli.dev"))
 	(:maintainers
@@ -26523,13 +26523,13 @@
 	      (:keywords "files")
 	      (:url . "https://github.com/theBlackDragon/fvwm-mode"))])
  (fwb-cmds .
-	   [(0 1 0 1 -4 20240712 2218)
+	   [(2 0 2 1 -4 20240805 1318)
 	    ((emacs
-	      (25 1))
+	      (26 1))
 	     (compat
 	      (30 0 0 0)))
 	    "misc frame, window and buffer commands" tar
-	    ((:commit . "257659fc0bf0112d40f921717c57e558b25f91ea")
+	    ((:commit . "973a0033c406ce644ce0fb87de70c2f4046ab1b7")
 	     (:authors
 	      ("Jonas Bernoulli" . "emacs.fwb-cmds@jonas.bernoulli.dev"))
 	     (:maintainers
@@ -27639,13 +27639,13 @@
 		   ("Syohei YOSHIDA" . "syohex@gmail.com"))
 		  (:url . "https://github.com/emacsorphanage/git-messenger"))])
  (git-modes .
-	    [(1 4 3 1 -4 20240713 1918)
+	    [(1 4 4 1 -4 20240805 1320)
 	     ((emacs
-	       (25 1))
+	       (26 1))
 	      (compat
 	       (30 0 0 0)))
 	     "Major modes for editing Git configuration files" tar
-	     ((:commit . "d96fa7a3c7d754812675b37247c6a77e459eec53")
+	     ((:commit . "f99010bbeb8b6d8a0819fac0195a2ef0159d08f0")
 	      (:authors
 	       ("Sebastian Wiesner" . "lunaryorn@gmail.com")
 	       ("Rüdiger Sonderfeld" . "ruediger@c-plusplus.net")
@@ -33632,13 +33632,13 @@
 		(:keywords "highlighting")
 		(:url . "http://github.com/milkypostman/hl-sentence"))])
  (hl-todo .
-	  [(3 8 0 1 -4 20240713 1918)
+	  [(3 8 1 1 -4 20240805 1444)
 	   ((emacs
 	     (26 1))
 	    (compat
 	     (30 0 0 0)))
 	   "Highlight TODO and similar keywords" tar
-	   ((:commit . "aa58c45a78c64bb8d5509120c775a33b4b2c6aa2")
+	   ((:commit . "82eba6b8f7b5a4cbcf22436d5c5b88fb3134f57e")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.hl-todo@jonas.bernoulli.dev"))
 	    (:maintainers
@@ -34905,13 +34905,13 @@
 	    (:keywords "convenience")
 	    (:url . "https://github.com/imakado/emacs-imakado"))])
  (imake .
-	[(0 1 0 1 -4 20240713 1918)
+	[(1 2 2 1 -4 20240805 1321)
 	 ((emacs
-	   (25 1))
+	   (26 1))
 	  (compat
 	   (30 0 0 0)))
 	 "Simple, opinionated make target runner" tar
-	 ((:commit . "3fda90d4f86649181b6d743cf2bcef37e96c1655")
+	 ((:commit . "f3765f893e74e63ccb15a577d6bdf5be5f0da788")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.imake@jonas.bernoulli.dev"))
 	  (:maintainers
@@ -38457,13 +38457,13 @@
 	    (:keywords "convenience" "keyboard" "keybindings")
 	    (:url . "http://github.com/vlevit/key-seq.el"))])
  (keycast .
-	  [(1 4 0 1 -4 20240731 1152)
+	  [(1 4 1 1 -4 20240805 1322)
 	   ((emacs
-	     (25 3))
+	     (26 1))
 	    (compat
 	     (30 0 0 0)))
 	   "Show current command and its binding" tar
-	   ((:commit . "82affc7bb85b4b7c53c849cfd216b115d9f84972")
+	   ((:commit . "c44618d2867fc2410e5061fef2a805e974198cf2")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev"))
 	    (:maintainers
@@ -38489,13 +38489,13 @@
 	   "track command frequencies" tar
 	   ((:commit . "c6955162307f37c2ac631d9daf118781009f8dda"))])
  (keymap-utils .
-	       [(0 1 0 1 -4 20240713 1919)
+	       [(4 0 2 1 -4 20240805 1326)
 		((emacs
-		  (25 1))
+		  (26 1))
 		 (compat
 		  (30 0 0 0)))
 		"Keymap utilities" tar
-		((:commit . "1e131cc842f5f66227802e9d367a510fc372710d")
+		((:commit . "a1ea60ce0adfbb4b47cdd7f29943e5ee362b71ce")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.keymap-utils@jonas.bernoulli.dev"))
 		 (:maintainers
