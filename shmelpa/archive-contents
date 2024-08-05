@@ -47051,15 +47051,15 @@
 	   ((:commit . "fefc7a94740946e9d13a2d25c6170b55c9e075e4")
 	    (:url . "https://notmuchmail.org"))])
  (notmuch-addr .
-	       [(0 1 0 1 -4 20240713 1927)
+	       [(1 0 0 1 -4 20240805 1915)
 		((emacs
 		  (27 1))
 		 (compat
 		  (30 0 0 0))
 		 (notmuch
 		  (0 38)))
-		"An alternative to notmuch-address.el" tar
-		((:commit . "ebc002857f1eab47f2d36d7ad9d3cfdcb49ff7a0")
+		"Improved address completion for Notmuch" tar
+		((:commit . "0d07e6fc9aff0f632a0d8aa9bd91ffccbef34e3b")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.notmuch-addr@jonas.bernoulli.dev"))
 		 (:maintainers
@@ -47098,15 +47098,15 @@
 		    (:keywords "emacs" "package" "elisp" "notmuch" "emails")
 		    (:url . "https://github.com/DamienCassou/notmuch-labeler"))])
  (notmuch-maildir .
-		  [(0 1 0 1 -4 20240713 1927)
+		  [(1 0 0 1 -4 20240805 1916)
 		   ((emacs
 		     (26 1))
 		    (compat
 		     (30 0 0 0))
 		    (notmuch
 		     (0 38)))
-		   "Visualize maildirs as a tree" tar
-		   ((:commit . "44fef436c3f4d44420d72fca969e957cbfb9b4b4")
+		   "Display maildirs as a tree" tar
+		   ((:commit . "f723dd29c836e1288abb99958376a086b9f6197a")
 		    (:authors
 		     ("Jonas Bernoulli" . "emacs.notmuch-maildir@jonas.bernoulli.dev"))
 		    (:maintainers
@@ -47115,7 +47115,7 @@
 		    (:keywords "mail")
 		    (:url . "https://git.sr.ht/~tarsius/notmuch-maildir"))])
  (notmuch-transient .
-		    [(0 1 0 1 -4 20240713 1927)
+		    [(1 0 0 1 -4 20240805 1916)
 		     ((emacs
 		       (27 1))
 		      (compat
@@ -47125,7 +47125,7 @@
 		      (transient
 		       (0 7 0)))
 		     "Command dispatchers for Notmuch" tar
-		     ((:commit . "e81bf8b0002dd725a9edd9a15caa985248dc348f")
+		     ((:commit . "ee365ca56140ab9c4c2324cb3c42e9037b6fa240")
 		      (:authors
 		       ("Jonas Bernoulli" . "emacs.notmuch-transient@jonas.bernoulli.dev"))
 		      (:maintainers
@@ -47591,13 +47591,13 @@
 		 (:keywords "tools" "convenience")
 		 (:url . "https://github.com/nickanderson/ob-cfengine3"))])
  (ob-chatgpt-shell .
-		   [(0 32 1 1 -4 20240805 1642)
+		   [(0 32 1 1 -4 20240805 1934)
 		    ((emacs
 		      (27 1))
 		     (chatgpt-shell
 		      (1 0 3)))
 		    "Org babel functions for ChatGPT evaluation" tar
-		    ((:commit . "7003d9f06a7eb060047ecf80bfcb20d14e0b4231")
+		    ((:commit . "fe75c5d516b149c635cda97627e8f920f277d36e")
 		     (:url . "https://github.com/xenodium/chatgpt-shell"))])
  (ob-clojurescript .
 		   [(0 1 0 1 -4 20180406 1828)
@@ -47689,13 +47689,13 @@
 	  (:keywords "languages")
 	  (:url . "https://github.com/xcapaldi/ob-d2"))])
  (ob-dall-e-shell .
-		  [(0 31 1 1 -4 20240805 1642)
+		  [(0 31 1 1 -4 20240805 1934)
 		   ((emacs
 		     (27 1))
 		    (dall-e-shell
 		     (0 37 1)))
 		   "Org babel functions for DALL-E evaluation" tar
-		   ((:commit . "7003d9f06a7eb060047ecf80bfcb20d14e0b4231")
+		   ((:commit . "fe75c5d516b149c635cda97627e8f920f277d36e")
 		    (:url . "https://github.com/xenodium/chatgpt-shell"))])
  (ob-dao .
 	 [(0 1 0 1 -4 20170816 1558)
@@ -48555,7 +48555,7 @@
        (:keywords "convenience")
        (:url . "https://github.com/conao3/oj.el"))])
  (ol-notmuch .
-	     [(0 1 0 1 -4 20240805 1450)
+	     [(2 0 3 1 -4 20240805 1917)
 	      ((emacs
 		(26 1))
 	       (compat
@@ -48565,7 +48565,7 @@
 	       (org
 		(9 7 4)))
 	      "Links to notmuch messages" tar
-	      ((:commit . "9e798731e2fc379bfb7e20330c9f34c665b0a3aa")
+	      ((:commit . "437aab56192ea86a52738fa5e9216c006df80bd0")
 	       (:authors
 		("Matthieu Lemerre" . "racin@free.fr"))
 	       (:maintainers
@@ -62567,11 +62567,11 @@
 	       (:maintainer "Ian Eure" . "ian.eure@gmail.com")
 	       (:keywords "unix" "tools" "processes"))])
  (shell-maker .
-	      [(0 50 5 1 -4 20240805 1642)
+	      [(0 50 5 1 -4 20240805 1934)
 	       ((emacs
 		 (27 1)))
 	       "Interaction mode for making comint shells" tar
-	       ((:commit . "7003d9f06a7eb060047ecf80bfcb20d14e0b4231")
+	       ((:commit . "fe75c5d516b149c635cda97627e8f920f277d36e")
 		(:url . "https://github.com/xenodium/chatgpt-shell"))])
  (shell-pop .
 	    [(0 64 1 -4 20231228 612)
