@@ -6856,13 +6856,13 @@
 	    (:keywords "unicode" "character" "ucs")
 	    (:url . "https://github.com/lateau/charmap"))])
  (chatgpt-shell .
-		[(1 2 3 1 -4 20240806 1414)
+		[(1 2 4 1 -4 20240807 1213)
 		 ((emacs
 		   (27 1))
 		  (shell-maker
 		   (0 50 5)))
 		 "ChatGPT shell + buffer insert commands" tar
-		 ((:commit . "e42e4d42b8978cdf8d7e7e8a5b7936cba80a035a")
+		 ((:commit . "96f40272f64384915afe01274f8ae595d3ddb216")
 		  (:url . "https://github.com/xenodium/chatgpt-shell"))])
  (chatu .
 	[(0 1 1 -4 20240518 615)
@@ -28236,15 +28236,17 @@
 	    (:keywords "processes" "hardware")
 	    (:url . "http://github.com/nicferrier/emacs-nm"))])
  (gnosis .
-	 [(0 3 2 1 -4 20240717 722)
+	 [(0 4 0 1 -4 20240807 1204)
 	  ((emacs
 	    (27 2))
 	   (emacsql
 	    (20240124))
 	   (compat
-	    (29 1 4 2)))
+	    (29 1 4 2))
+	   (transient
+	    (0 7 2)))
 	  "Spaced Repetition System" tar
-	  ((:commit . "4cd3ce6993a9b97b698537c428addf7387b13a3f")
+	  ((:commit . "bc0d2a3ec6195d79903ad7badec10a26538763c2")
 	   (:authors
 	    ("Thanos Apollo" . "public@thanosapollo.org"))
 	   (:maintainers
