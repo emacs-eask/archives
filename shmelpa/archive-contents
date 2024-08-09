@@ -4951,15 +4951,15 @@
 	"Ergonomic Command Mode for Emacs." tar
 	((:commit . "19a7f76e75759f5266986b40c470edb1f70c43df"))])
  (borg .
-       [(3 3 1 50 -4 20240803 2134)
+       [(4 0 0 1 -4 20240808 1953)
 	((emacs
 	  (27 1))
 	 (epkg
-	  (3 3 3))
+	  (4 0 0))
 	 (magit
-	  (3 3 0)))
+	  (4 0 0)))
 	"Assimilate Emacs packages as Git submodules" tar
-	((:commit . "8b3c9d2074bd0b6acbb7bcd38454eba406b09c81")
+	((:commit . "e7a5a696d776f2b61c38335a8cec6108f4af2166")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.borg@jonas.bernoulli.dev"))
 	 (:maintainers
@@ -8125,15 +8125,15 @@
 	    (:keywords "clojure" "interaction")
 	    (:url . "https://github.com/clojure-emacs/clomacs"))])
  (closql .
-	 [(0 1 0 1 -4 20240712 2215)
+	 [(2 0 0 1 -4 20240808 1934)
 	  ((emacs
 	    (26 1))
 	   (compat
 	    (30 0 0 0))
 	   (emacsql
-	    (20240124)))
+	    (4 0 0)))
 	  "Store EIEIO objects using EmacSQL" tar
-	  ((:commit . "ebfb860510d895ebcbbe920dd0d86381f1b6504c")
+	  ((:commit . "c1a346d56ecee16d1f0d7707f0d62c72604a8802")
 	   (:authors
 	    ("Jonas Bernoulli" . "emacs.closql@jonas.bernoulli.dev"))
 	   (:maintainers
@@ -14996,7 +14996,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(4 2 0 1 -4 20240803 1723)
+		[(4 2 0 1 -4 20240809 1652)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -15006,7 +15006,7 @@
 		  (shrink-path
 		   (0 3 1)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "9920ef511620e9fa5599cb357e48487f758b1bb1")
+		 ((:commit . "207f69ded9ac8d754cb84ff4466dcdef338c92c6")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainers
@@ -18130,11 +18130,11 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(3 1 1 50 -4 20240730 1339)
+	  [(4 0 0 1 -4 20240808 1856)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
-	   ((:commit . "32f086e6e1aca48120b71fec2437b4c8b21b29fd")
+	   ((:commit . "3d9622aabbf3ab925beadd12ce928370d7704573")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainers
@@ -18142,13 +18142,9 @@
 	    (:maintainer "Jonas Bernoulli" . "emacs.emacsql@jonas.bernoulli.dev")
 	    (:url . "https://github.com/magit/emacsql"))])
  (emacsql-mysql .
-		[(3 1 1 50 -4 20240415 1535)
-		 ((emacs
-		   (25 1))
-		  (emacsql
-		   (20230220)))
-		 "EmacSQL back-end for MySQL" tar
-		 ((:commit . "5108c16c5e1d5bfdd41fcc0807241e28886ab763")
+		[(4 0 0 1 -4 20240808 2016)
+		 nil "This package has been merged into emacsql" tar
+		 ((:commit . "c786ea159facf5892e9c4e5b7bdda44da95cd62e")
 		  (:authors
 		   ("Christopher Wellons" . "wellons@nullprogram.com"))
 		  (:maintainers
@@ -18156,15 +18152,9 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.emacsql@jonas.bernoulli.dev")
 		  (:url . "https://github.com/magit/emacsql"))])
  (emacsql-pg .
-	     [(3 1 1 50 -4 20240714 1824)
-	      ((emacs
-		(28 1))
-	       (emacsql
-		(20240623))
-	       (pg
-		(0 37)))
-	      "EmacSQL back-end for PostgreSQL via pg" tar
-	      ((:commit . "8aeffcfc3f5700af7a6216889610330cb438d3b9")
+	     [(4 0 0 1 -4 20240808 2016)
+	      nil "This package has been merged into emacsql" tar
+	      ((:commit . "c786ea159facf5892e9c4e5b7bdda44da95cd62e")
 	       (:authors
 		("Christopher Wellons" . "wellons@nullprogram.com"))
 	       (:maintainers
@@ -18172,13 +18162,9 @@
 	       (:maintainer "Jonas Bernoulli" . "emacs.emacsql@jonas.bernoulli.dev")
 	       (:url . "https://github.com/magit/emacsql"))])
  (emacsql-psql .
-	       [(3 1 1 50 -4 20240415 1535)
-		((emacs
-		  (25 1))
-		 (emacsql
-		  (20230220)))
-		"EmacSQL back-end for PostgreSQL via psql" tar
-		((:commit . "5108c16c5e1d5bfdd41fcc0807241e28886ab763")
+	       [(4 0 0 1 -4 20240808 2016)
+		nil "This package has been merged into emacsql" tar
+		((:commit . "c786ea159facf5892e9c4e5b7bdda44da95cd62e")
 		 (:authors
 		  ("Christopher Wellons" . "wellons@nullprogram.com"))
 		 (:maintainers
@@ -18186,13 +18172,9 @@
 		 (:maintainer "Jonas Bernoulli" . "emacs.emacsql@jonas.bernoulli.dev")
 		 (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite .
-		 [(3 1 1 50 -4 20240623 1340)
-		  ((emacs
-		    (25 1))
-		   (emacsql
-		    (20230220)))
-		  "EmacSQL back-end for SQLite" tar
-		  ((:commit . "efddd69c5e69214dbbe921fbf90f938501414894")
+		 [(4 0 0 1 -4 20240808 2016)
+		  nil "This package has been merged into emacsql" tar
+		  ((:commit . "c786ea159facf5892e9c4e5b7bdda44da95cd62e")
 		   (:authors
 		    ("Christopher Wellons" . "wellons@nullprogram.com"))
 		   (:maintainers
@@ -18200,13 +18182,9 @@
 		   (:maintainer "Jonas Bernoulli" . "emacs.emacsql@jonas.bernoulli.dev")
 		   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-builtin .
-			 [(3 1 1 50 -4 20240415 1535)
-			  ((emacs
-			    (29))
-			   (emacsql
-			    (20230220)))
-			  "EmacSQL back-end for SQLite using builtin support" tar
-			  ((:commit . "5108c16c5e1d5bfdd41fcc0807241e28886ab763")
+			 [(4 0 0 1 -4 20240808 2016)
+			  nil "This package has been merged into emacsql" tar
+			  ((:commit . "c786ea159facf5892e9c4e5b7bdda44da95cd62e")
 			   (:authors
 			    ("Jonas Bernoulli" . "emacs.emacsql@jonas.bernoulli.dev"))
 			   (:maintainers
@@ -18214,15 +18192,9 @@
 			   (:maintainer "Jonas Bernoulli" . "emacs.emacsql@jonas.bernoulli.dev")
 			   (:url . "https://github.com/magit/emacsql"))])
  (emacsql-sqlite-module .
-			[(3 1 1 50 -4 20240415 1535)
-			 ((emacs
-			   (25))
-			  (emacsql
-			   (20230220))
-			  (sqlite3
-			   (0 16)))
-			 "EmacSQL back-end for SQLite using a module" tar
-			 ((:commit . "5108c16c5e1d5bfdd41fcc0807241e28886ab763")
+			[(4 0 0 1 -4 20240808 2016)
+			 nil "This package has been merged into emacsql" tar
+			 ((:commit . "c786ea159facf5892e9c4e5b7bdda44da95cd62e")
 			  (:authors
 			   ("Jonas Bernoulli" . "emacs.emacsql@jonas.bernoulli.dev"))
 			  (:maintainers
@@ -18878,19 +18850,19 @@
 	  (:keywords "comm" "processes" "terminals" "unix")
 	  (:url . "https://github.com/sean-hut/eping"))])
  (epkg .
-       [(0 1 0 1 -4 20240712 2216)
+       [(4 0 0 1 -4 20240808 1949)
 	((emacs
 	  (26 1))
 	 (compat
 	  (30 0 0 0))
 	 (closql
-	  (20240601))
+	  (2 0 0))
 	 (emacsql
-	  (20240415))
+	  (4 0 0))
 	 (llama
 	  (0 3 1)))
 	"Browse the Emacsmirror package database" tar
-	((:commit . "e864055a1916a54127050fbb50f07614e2f6319b")
+	((:commit . "e14d2b4808631d37faac1ff1c7f962d60ec28825")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))
 	 (:maintainers
@@ -18899,19 +18871,19 @@
 	 (:keywords "tools")
 	 (:url . "https://github.com/emacscollective/epkg"))])
  (epkg-marginalia .
-		  [(0 1 0 1 -4 20240712 2216)
+		  [(0 2 0 1 -4 20240808 1951)
 		   ((emacs
 		     (27 1))
 		    (compat
 		     (30 0 0 0))
 		    (epkg
-		     (3 3 3))
+		     (4 0 0))
 		    (llama
-		     (0 3 0))
+		     (0 3 1))
 		    (marginalia
-		     (1 2)))
+		     (1 7)))
 		   "Show Epkg information in completion annotations" tar
-		   ((:commit . "11e551187b7fa37aa8989bee50939ed0adbacdeb")
+		   ((:commit . "1e291facfbcce0d515a7a90b0bfd82d5b6358e92")
 		    (:authors
 		     ("Jonas Bernoulli" . "emacs.epkg-marginalia@jonas.bernoulli.dev"))
 		    (:maintainers
@@ -25856,33 +25828,33 @@
 		     "Emacs theme with a dark background." tar
 		     ((:commit . "58096ce1a25615d2bae806c3775bae3e2775019d"))])
  (forge .
-	[(0 3 2 50 -4 20240808 1809)
+	[(0 4 0 1 -4 20240808 1943)
 	 ((emacs
 	   (27 1))
 	  (compat
 	   (30 0 0 0))
 	  (closql
-	   (20240701))
+	   (2 0 0))
 	  (dash
 	   (2 19 1))
 	  (emacsql
-	   (20240124))
+	   (4 0 0))
 	  (ghub
-	   (20240507))
+	   (4 0 0))
 	  (let-alist
 	      (1 0 6))
 	  (magit
-	   (20240701))
+	   (4 0 0))
 	  (markdown-mode
 	   (2 6))
 	  (seq
 	   (2 24))
 	  (transient
-	   (20240729))
+	   (0 7 4))
 	  (yaml
 	   (0 5 5)))
 	 "Access Git forges from Magit." tar
-	 ((:commit . "efbebd4b5ed556acef0fa369348b8ae932935f1c")
+	 ((:commit . "0b5571b40e544bd182e5ed76d2400fe2fa8716d1")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
 	  (:maintainer "Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev")
@@ -27187,7 +27159,7 @@
 	(:keywords "convenience")
 	(:url . "https://github.com/lafrenierejm/emacs-ghq"))])
  (ghub .
-       [(3 6 0 1 -4 20240713 1918)
+       [(4 0 0 1 -4 20240808 1936)
 	((emacs
 	  (26 3))
 	 (compat
@@ -27197,7 +27169,7 @@
 	 (treepy
 	  (0 1 2)))
 	"Client libraries for Git forge APIs." tar
-	((:commit . "56c76725348da9d7abab88cec64a06505c67abe9")
+	((:commit . "c20bc86c70eb2f43df8674097db7847e172ef2c2")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
 	 (:maintainer "Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev")
@@ -27420,17 +27392,17 @@
 		(:keywords "utility" "git")
 		(:url . "https://github.com/10sr/git-command-el"))])
  (git-commit .
-	     [(3 3 0 50 -4 20240730 1355)
+	     [(4 0 0 1 -4 20240808 1852)
 	      ((emacs
 		(26 1))
 	       (compat
 		(30 0 0 0))
 	       (transient
-		(20240629))
+		(0 7 4))
 	       (with-editor
-		(20240702)))
+		(3 4 1)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "57e6a2404070241a3fc9c4f18fd0c40b89075be2")
+	      ((:commit . "020aca7c9c4154dbc4a72acbd56165ecccea1bf1")
 	       (:authors
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -38636,7 +38608,7 @@
 	    (:maintainer "Damien Cassou" . "damien@cassou.me")
 	    (:url . "https://github.com/DamienCassou/khardel"))])
  (khoj .
-       [(1 20 2 1 -4 20240806 1046)
+       [(1 20 3 1 -4 20240809 1241)
 	((emacs
 	  (27 1))
 	 (transient
@@ -38644,7 +38616,7 @@
 	 (dash
 	  (2 19 1)))
 	"AI copilot for your Second Brain" tar
-	((:commit . "00ee4c2697c99bdd88cc0e2d683463a09f820e3c")
+	((:commit . "acf1c14122fde4a79dbaf77dd1ff63c29422f43c")
 	 (:authors
 	  ("Debanjum Singh Solanky" . "debanjum@khoj.dev")
 	  ("Saba Imran" . "saba@khoj.dev"))
@@ -41921,25 +41893,25 @@
 	       (:keywords "languages")
 	       (:url . "https://github.com/roadrunner1776/magik"))])
  (magit .
-	[(3 3 0 50 -4 20240808 1208)
+	[(4 0 0 1 -4 20240808 1852)
 	 ((emacs
 	   (26 1))
 	  (compat
 	   (30 0 0 0))
 	  (dash
-	   (20240510))
+	   (2 19 1))
 	  (git-commit
-	   (20240623))
+	   (4 0 0))
 	  (magit-section
-	   (20240710))
+	   (4 0 0))
 	  (seq
 	   (2 24))
 	  (transient
-	   (20240629))
+	   (0 7 4))
 	  (with-editor
-	   (20240702)))
+	   (3 4 1)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "27f81d6e5cdcc7ddfb0d4a33f6566ef98a0faaa5")
+	 ((:commit . "020aca7c9c4154dbc4a72acbd56165ecccea1bf1")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -42270,15 +42242,15 @@
 		      (:keywords "magit" "vc")
 		      (:url . "http://github.com/jtamagnan/magit-reviewboard"))])
  (magit-section .
-		[(3 3 0 50 -4 20240730 1741)
+		[(4 0 0 1 -4 20240808 1852)
 		 ((emacs
 		   (26 1))
 		  (compat
 		   (30 0 0 0))
 		  (dash
-		   (20240510)))
+		   (2 19 1)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "d9ff4e8b3a8203454bfcbedfbac378a80cd6c8fe")
+		 ((:commit . "020aca7c9c4154dbc4a72acbd56165ecccea1bf1")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
@@ -47046,9 +47018,9 @@
 		 (:keywords "faces")
 		 (:url . "https://github.com/MetroWind/notink-theme"))])
  (notmuch .
-	  [(0 1 0 1 -4 20240806 1129)
+	  [(0 1 0 1 -4 20240809 1318)
 	   nil "run notmuch within emacs" tar
-	   ((:commit . "bf9b9fe0469d24d1f0924074ffd5904363cb49cc")
+	   ((:commit . "4e85abda157eac8888809b2dde885f60f312a5fb")
 	    (:url . "https://notmuchmail.org"))])
  (notmuch-addr .
 	       [(1 0 0 1 -4 20240805 1915)
@@ -52304,17 +52276,17 @@
 	   (:keywords "org")
 	   (:url . "https://github.com/yasuhito/orgbox"))])
  (orgit .
-	[(1 9 0 1 -4 20240805 1428)
+	[(2 0 0 1 -4 20240808 1945)
 	 ((emacs
 	   (26 1))
 	  (compat
 	   (30 0 0 0))
 	  (magit
-	   (3 3 0))
+	   (4 0 0))
 	  (org
-	   (9 6 5)))
+	   (9 7 8)))
 	 "Support for Org links to Magit buffers" tar
-	 ((:commit . "7159e237191c35b1ee19a417a9824db89eb2d39d")
+	 ((:commit . "59d21fdb21f84238c3172d37fdd2446b753e98dc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
 	  (:maintainers
@@ -52323,21 +52295,21 @@
 	  (:keywords "hypermedia" "vc")
 	  (:url . "https://github.com/magit/orgit"))])
  (orgit-forge .
-	      [(0 1 4 1 -4 20240713 1928)
+	      [(1 0 0 1 -4 20240808 1947)
 	       ((emacs
-		 (25 1))
+		 (27 1))
 		(compat
 		 (30 0 0 0))
 		(forge
-		 (0 3))
+		 (0 4 0))
 		(magit
-		 (3 3))
+		 (4 0 0))
 		(org
-		 (9 6))
+		 (9 7 8))
 		(orgit
-		 (1 9)))
+		 (2 0 0)))
 	       "Org links to Forge issue buffers" tar
-	       ((:commit . "a989b2b54d116bda9d0396a9773b3e11b9f54e05")
+	       ((:commit . "2718a6aaf0f64cb52c64c419053fbc80eb358c8d")
 		(:authors
 		 ("Jonas Bernoulli" . "emacs.orgit-forge@jonas.bernoulli.dev"))
 		(:maintainers
@@ -66752,11 +66724,11 @@
 		    (:keywords "convenience" "frames")
 		    (:url . "https://github.com/ajrosen/tab-bar-buffers"))])
  (tab-bar-echo-area .
-		    [(0 2 1 -4 20221115 1953)
+		    [(0 2 1 -4 20240809 1442)
 		     ((emacs
 		       (27 1)))
 		     "Display tab names of the tab bar in the echo area" tar
-		     ((:commit . "3ab62ca7db3c1d83f96b7971ea4b3b0101b51ae9")
+		     ((:commit . "9ccff3b93385796bec1cd435674807c3907436dd")
 		      (:authors
 		       ("Fritz Grabo" . "hello@fritzgrabo.com"))
 		      (:maintainers
@@ -69125,7 +69097,7 @@
 	       (:keywords "outlines" "files" "convenience")
 	       (:url . "https://github.com/cyberthal/treefactor"))])
  (treemacs .
-	   [(3 1 1 -4 20240808 1112)
+	   [(3 1 1 -4 20240809 1523)
 	    ((emacs
 	      (26 1))
 	     (cl-lib
@@ -69145,7 +69117,7 @@
 	     (cfrs
 	      (1 3 2)))
 	    "A tree style file explorer package" tar
-	    ((:commit . "202d7f01d61359bb4b2a775d8d8eeb726d91a086")
+	    ((:commit . "568357c8f97a98c40684f74b69981dc2176f90e8")
 	     (:authors
 	      ("Alexander Miller" . "alexanderm@web.de"))
 	     (:maintainers
