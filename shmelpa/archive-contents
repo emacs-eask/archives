@@ -2401,11 +2401,11 @@
 	(:keywords "convenience")
 	(:url . "https://github.com/ragone/asx"))])
  (async .
-	[(1 9 8 1 -4 20240808 645)
+	[(1 9 8 1 -4 20240811 1434)
 	 ((emacs
 	   (24 4)))
 	 "Asynchronous processing in Emacs" tar
-	 ((:commit . "67613344e153009ac9afb96b455130b7d27ba361")
+	 ((:commit . "e1d46f97a56e0c57206bd1ea31d04311097a8cbb")
 	  (:authors
 	   ("John Wiegley" . "jwiegley@gmail.com"))
 	  (:maintainers
@@ -14996,7 +14996,7 @@
 	 (:keywords "xml" "dom")
 	 (:url . "http://www.github.com/kensanata/doom.el/"))])
  (doom-modeline .
-		[(4 2 0 1 -4 20240810 1702)
+		[(4 2 0 1 -4 20240811 1437)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -15006,7 +15006,7 @@
 		  (shrink-path
 		   (0 3 1)))
 		 "A minimal and modern mode-line" tar
-		 ((:commit . "35215cbe0293e9404ab2ce96177a995f9623832a")
+		 ((:commit . "790e6817814a1fa893a91722861cba9424b0f004")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
 		  (:maintainers
@@ -27392,17 +27392,17 @@
 		(:keywords "utility" "git")
 		(:url . "https://github.com/10sr/git-command-el"))])
  (git-commit .
-	     [(4 0 0 1 -4 20240808 1852)
+	     [(4 0 0 1 -4 20240811 1419)
 	      ((emacs
 		(26 1))
 	       (compat
 		(30 0 0 0))
 	       (transient
-		(0 7 4))
+		(20240805))
 	       (with-editor
-		(3 4 1)))
+		(20240806)))
 	      "Edit Git commit messages." tar
-	      ((:commit . "020aca7c9c4154dbc4a72acbd56165ecccea1bf1")
+	      ((:commit . "a2739d7db1fdf19b95f36f6ddd15b0c1f523bd26")
 	       (:authors
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -30333,13 +30333,13 @@
 		(:keywords "faces")
 		(:url . "https://github.com/ibakepunk/helix-theme"))])
  (helm .
-       [(3 9 9 1 -4 20240811 642)
+       [(3 9 9 1 -4 20240811 1127)
 	((helm-core
 	  (3 9 9))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "85414449ad0668867073a4f0ef21d9e7f7f7792b")
+	((:commit . "41bfb4693d035bf2f2cb9900c6c69c111efe58b2")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -38039,7 +38039,7 @@
 		  (:keywords "data")
 		  (:url . "https://github.com/mhayashi1120/Emacs-kaesar"))])
  (kagi .
-       [(0 6 1 -4 20240802 2153)
+       [(0 6 1 -4 20240811 1525)
 	((emacs
 	  (29 1))
 	 (markdown-mode
@@ -38047,7 +38047,7 @@
 	 (shell-maker
 	  (0 46 1)))
 	"Kagi API integration" tar
-	((:commit . "9e48fc96d513f863acde3689077197306e3d205c")
+	((:commit . "6109a0d3b115551ca5999eb938a42a37062a88b1")
 	 (:authors
 	  ("Bram Schoenmakers" . "me@bramschoenmakers.nl"))
 	 (:maintainers
@@ -41895,25 +41895,25 @@
 	       (:keywords "languages")
 	       (:url . "https://github.com/roadrunner1776/magik"))])
  (magit .
-	[(4 0 0 1 -4 20240808 1852)
+	[(4 0 0 1 -4 20240811 1419)
 	 ((emacs
 	   (26 1))
 	  (compat
 	   (30 0 0 0))
 	  (dash
-	   (2 19 1))
+	   (20240510))
 	  (git-commit
-	   (4 0 0))
+	   (20240808))
 	  (magit-section
-	   (4 0 0))
+	   (20240808))
 	  (seq
 	   (2 24))
 	  (transient
-	   (0 7 4))
+	   (20240805))
 	  (with-editor
-	   (3 4 1)))
+	   (20240806)))
 	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "020aca7c9c4154dbc4a72acbd56165ecccea1bf1")
+	 ((:commit . "a2739d7db1fdf19b95f36f6ddd15b0c1f523bd26")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -42244,15 +42244,15 @@
 		      (:keywords "magit" "vc")
 		      (:url . "http://github.com/jtamagnan/magit-reviewboard"))])
  (magit-section .
-		[(4 0 0 1 -4 20240808 1852)
+		[(4 0 0 1 -4 20240811 1419)
 		 ((emacs
 		   (26 1))
 		  (compat
 		   (30 0 0 0))
 		  (dash
-		   (2 19 1)))
+		   (20240510)))
 		 "Sections for read-only buffers." tar
-		 ((:commit . "020aca7c9c4154dbc4a72acbd56165ecccea1bf1")
+		 ((:commit . "a2739d7db1fdf19b95f36f6ddd15b0c1f523bd26")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
