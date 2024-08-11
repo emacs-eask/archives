@@ -10299,13 +10299,13 @@
 		   (:keywords "themes")
 		   (:url . "https://github.com/jannis/emacs-constant-theme"))])
  (consult .
-	  [(1 8 1 -4 20240725 508)
+	  [(1 8 1 -4 20240811 1858)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (30)))
 	   "Consulting completing-read" tar
-	   ((:commit . "4889458dccf842ab6223099f8a73ff8b147e9459")
+	   ((:commit . "3d0fc6a8c6a74b21ca854b8632b3f58e0e513b85")
 	    (:maintainers
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
@@ -31745,13 +31745,13 @@
 		  (:maintainer "Julien BLANCHARD" . "julien@sideburns.eu")
 		  (:url . "https://github.com/julienXX/helm-lobste.rs"))])
  (helm-ls-git .
-	      [(1 9 4 1 -4 20240810 1145)
+	      [(1 9 4 1 -4 20240811 1739)
 	       ((helm
 		 (3 9 5))
 		(emacs
 		 (25 3)))
 	       "list git files." tar
-	       ((:commit . "78bc27b61faf82a0adf815aa5aa8616f95bca48d")
+	       ((:commit . "244b6854c1c118e41c8fac0201eff03ba034ddc6")
 		(:url . "https://github.com/emacs-helm/helm-ls-git"))])
  (helm-ls-hg .
 	     [(0 1 0 1 -4 20150909 543)
@@ -41921,13 +41921,13 @@
 	  (:keywords "git" "tools" "vc")
 	  (:url . "https://github.com/magit/magit"))])
  (magit-annex .
-	      [(1 8 1 1 -4 20231210 2140)
-	       ((cl-lib
-		 (0 3))
+	      [(1 9 0 1 -4 20240811 1850)
+	       ((emacs
+		 (26 1))
 		(magit
-		 (3 0 0)))
+		 (4 0 0)))
 	       "Control git-annex from Magit" tar
-	       ((:commit . "056f0d4462cdccbd7bb7589994da7fef9de766da")
+	       ((:commit . "9db0bc61461f222106c7ae3d8cd6d3de1f1b143f")
 		(:authors
 		 ("Kyle Meyer" . "kyle@kyleam.com")
 		 ("Rémi Vanicat" . "vanicat@debian.org"))
@@ -42122,13 +42122,13 @@
 		    (:maintainer "Tiou Lims" . "dourokinga@gmail.com")
 		    (:url . "https://github.com/douo/magit-gptcommit"))])
  (magit-imerge .
-	       [(1 2 0 1 -4 20230522 1054)
+	       [(1 3 0 1 -4 20240811 1933)
 		((emacs
-		  (25 1))
+		  (26 1))
 		 (magit
-		  (3 0 0)))
+		  (4 0 0)))
 		"Magit extension for git-imerge" tar
-		((:commit . "b7cfe49a197c2cf5948109921e053711b156389d")
+		((:commit . "e9955c3b4dac2661f67d9882ed3367471e529cfc")
 		 (:authors
 		  ("Kyle Meyer" . "kyle@kyleam.com"))
 		 (:maintainers
@@ -42300,13 +42300,13 @@
 	      (:maintainer "Phil Jackson" . "phil@shellarchive.co.uk")
 	      (:keywords "vc" "tools"))])
  (magit-tbdiff .
-	       [(1 1 1 1 -4 20220527 2213)
+	       [(1 2 0 1 -4 20240811 1938)
 		((emacs
-		  (25 1))
+		  (26 1))
 		 (magit
-		  (3 0 0)))
+		  (4 0 0)))
 		"Magit extension for range diffs" tar
-		((:commit . "55e6443710def357f3f78eea27d5bbe023d868f5")
+		((:commit . "03cb872f00dd7fc868de0c8d7661803b5d011aa0")
 		 (:authors
 		  ("Kyle Meyer" . "kyle@kyleam.com"))
 		 (:maintainers
