@@ -30509,7 +30509,7 @@
 		   (:keywords "matching")
 		   (:url . "https://github.com/dragonwasrobot/helm-bitbucket"))])
  (helm-bm .
-	  [(0 3 1 -4 20240722 1430)
+	  [(1 0 1 -4 20240812 1738)
 	   ((bm
 	     (1 0))
 	    (cl-lib
@@ -30517,14 +30517,15 @@
 	    (helm
 	     (1 9 3)))
 	   "helm sources for bm.el" tar
-	   ((:commit . "9a34b29d5a034e97f509046f63df66a89278416b")
+	   ((:commit . "4744b5784df5800f36c3c54de5269034191155f5")
 	    (:authors
-	     ("Yasuyuki Oka" . "yasuyk@gmail.com"))
+	     ("Yasuyuki Oka" . "yasuyk@gmail.com")
+	     ("Thierry Volpiatto" . "thievol@posteo.net"))
 	    (:maintainers
-	     ("Yasuyuki Oka" . "yasuyk@gmail.com"))
-	    (:maintainer "Yasuyuki Oka" . "yasuyk@gmail.com")
+	     ("Thierry Volpiatto" . "thievol@posteo.net"))
+	    (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	    (:keywords "helm" "bookmark")
-	    (:url . "https://github.com/yasuyk/helm-bm"))])
+	    (:url . "https://github.com/emacs-helm/helm-bm"))])
  (helm-books .
 	     [(1 0 1 -4 20170325 631)
 	      ((helm
@@ -34155,7 +34156,7 @@
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:url . "http://www.gnu.org/software/hyperbole"))])
  (hyperdrive .
-	     [(0 4 -1 1 -4 20240809 2154)
+	     [(0 4 -1 1 -4 20240812 1909)
 	      ((emacs
 		(28 1))
 	       (map
@@ -34171,9 +34172,9 @@
 	       (taxy-magit-section
 		(0 13))
 	       (transient
-		(0 7 2)))
+		(0 7 4)))
 	      "P2P filesystem" tar
-	      ((:commit . "d98780cfab3813e2a847d5c204fa725807062593")
+	      ((:commit . "468cda16f0529e05a60570af18d5e1a9ef877cd5")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
 	       (:maintainers
