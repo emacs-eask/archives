@@ -966,7 +966,7 @@
 		 (:url . "https://elpa.gnu.org/packages/dbus-codegen.html")
 		 (:commit . "04114e4cbc8f422e6b77cfc202d1109c96316117"))])
  (debbugs .
-	  [(0 40 0 20240811 125440)
+	  [(0 40 0 20240812 95045)
 	   ((emacs
 	     (26 1))
 	    (soap-client
@@ -977,7 +977,7 @@
 	    (:authors
 	     ("Michael Albinus" . "michael.albinus@gmx.de"))
 	    (:url . "https://elpa.gnu.org/packages/debbugs.html")
-	    (:commit . "0d29984c1485ba5b1547922984881184e7a44087"))])
+	    (:commit . "a978cdf56efb9138f82b4326998ce87ab50bb207"))])
  (delight .
 	  [(1 7 0 20200711 42851)
 	   ((cl-lib
@@ -3360,20 +3360,20 @@
 	 ("Adam Porter" . "adam@alphapapa.net"))
 	(:commit . "399ad3e1aafa7b86c1ce0cfab8bcf2e09cb0e956"))])
  (plz-event-source .
-		   [(0 1 -1 0 20240607 160859)
+		   [(0 1 0 0 20240812 174207)
 		    ((emacs
 		      (26 3))
-		     (plz
-		      (0 8)))
+		     (plz-media-type
+		      (0 1 0)))
 		    "Plz Event Source" tar
 		    ((:url . "https://github.com/r0man/plz-event-source.el")
 		     (:keywords "comm" "network" "http")
 		     (:maintainer "r0man" . "roman@burningswell.com")
 		     (:authors
 		      ("r0man" . "roman@burningswell.com"))
-		     (:commit . "8eb517aff8d58181eb2288dfadc694f63e8bdb50"))])
+		     (:commit . "aa0bc38d552b7e96867c92350130ec4a35e2c047"))])
  (plz-media-type .
-		 [(0 1 1 -1 0 20240811 123119)
+		 [(0 2 0 0 20240812 162315)
 		  ((emacs
 		    (26 3))
 		   (plz
@@ -3384,7 +3384,7 @@
 		   (:maintainer "r0man" . "roman@burningswell.com")
 		   (:authors
 		    ("r0man" . "roman@burningswell.com"))
-		   (:commit . "0c5347ddff33a1cf09037d200022ec1a6c37f1eb"))])
+		   (:commit . "585fef494e0d9d79ab55146ab5f6c5bf8ed0f5ee"))])
  (plz-see .
 	  [(0 1 0 20231101 73512)
 	   ((emacs
