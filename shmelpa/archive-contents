@@ -15504,11 +15504,11 @@
 		    (:keywords "convenience" "hacks")
 		    (:url . "https://sadiqpk.org/projects/dwim-coder-mode.html"))])
  (dwim-shell-command .
-		     [(0 62 2 1 -4 20240817 2048)
+		     [(0 62 2 1 -4 20240818 1615)
 		      ((emacs
 			(28 1)))
 		      "Shell commands with DWIM behaviour" tar
-		      ((:commit . "e704103e1cb946d80690d30c8842902b53151833")
+		      ((:commit . "2a97a027a0bb1c48fc2004d6e9ae4340522a9bfc")
 		       (:url . "https://github.com/xenodium/dwim-shell-command"))])
  (dyalog-mode .
 	      [(0 7 1 -4 20230214 1027)
@@ -25828,7 +25828,7 @@
 		     "Emacs theme with a dark background." tar
 		     ((:commit . "58096ce1a25615d2bae806c3775bae3e2775019d"))])
  (forge .
-	[(0 4 1 1 -4 20240818 1047)
+	[(0 4 1 1 -4 20240818 1702)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -25853,9 +25853,11 @@
 	   (0 7 4))
 	  (yaml
 	   (0 5 5)))
-	 "Access Git forges from Magit." tar
-	 ((:commit . "6aebd0d3a5569fe1d8c797c83769fcaac549880d")
+	 "Access Git forges from Magit" tar
+	 ((:commit . "a56eb3cbb27c61387d35cbff6b036a2c1bc1559d")
 	  (:authors
+	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
+	  (:maintainers
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
 	  (:maintainer "Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev")
 	  (:keywords "git" "tools" "vc")
@@ -27159,7 +27161,7 @@
 	(:keywords "convenience")
 	(:url . "https://github.com/lafrenierejm/emacs-ghq"))])
  (ghub .
-       [(4 0 0 1 -4 20240817 2000)
+       [(4 0 0 1 -4 20240818 1702)
 	((emacs
 	  (26 3))
 	 (compat
@@ -27168,9 +27170,11 @@
 	     (1 0 6))
 	 (treepy
 	  (0 1 2)))
-	"Client libraries for Git forge APIs." tar
-	((:commit . "32e579e47bbeb20b2e92950ca2b52d5ab0833403")
+	"Client libraries for Git forge APIs" tar
+	((:commit . "3ad921bf1f5e91446f2a33004dfd51fa1b64ed59")
 	 (:authors
+	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
+	 (:maintainers
 	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
 	 (:maintainer "Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev")
 	 (:keywords "tools")
@@ -27392,22 +27396,26 @@
 		(:keywords "utility" "git")
 		(:url . "https://github.com/10sr/git-command-el"))])
  (git-commit .
-	     [(4 0 0 1 -4 20240811 1419)
+	     [(4 0 0 1 -4 20240808 1852)
 	      ((emacs
 		(26 1))
 	       (compat
 		(30 0 0 0))
+	       (seq
+		(2 24))
 	       (transient
-		(20240805))
+		(0 7 4))
 	       (with-editor
-		(20240806)))
-	      "Edit Git commit messages." tar
-	      ((:commit . "a2739d7db1fdf19b95f36f6ddd15b0c1f523bd26")
+		(3 4 1)))
+	      "Edit Git commit messages" tar
+	      ((:commit . "020aca7c9c4154dbc4a72acbd56165ecccea1bf1")
 	       (:authors
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
 		("Florian Ragwitz" . "rafl@debian.org")
 		("Marius Vollmer" . "marius.vollmer@gmail.com"))
+	       (:maintainers
+		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
 	       (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 	       (:keywords "git" "tools" "vc")
 	       (:url . "https://github.com/magit/magit"))])
@@ -42251,10 +42259,14 @@
 		  (compat
 		   (30 0 0 0))
 		  (dash
-		   (20240510)))
-		 "Sections for read-only buffers." tar
+		   (2 19 1))
+		  (seq
+		   (2 24)))
+		 "Sections for read-only buffers" tar
 		 ((:commit . "61f6a778ab5b0ca97069778a5955ae527996cd0f")
 		  (:authors
+		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
+		  (:maintainers
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:keywords "tools")
