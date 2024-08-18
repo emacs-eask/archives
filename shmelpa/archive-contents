@@ -41904,28 +41904,31 @@
 	       (:keywords "languages")
 	       (:url . "https://github.com/roadrunner1776/magik"))])
  (magit .
-	[(4 0 0 1 -4 20240818 1037)
+	[(4 0 0 1 -4 20240818 1914)
 	 ((emacs
 	   (26 1))
 	  (compat
 	   (30 0 0 0))
 	  (dash
-	   (20240510))
+	   (2 19 1))
 	  (git-commit
-	   (20240808))
+	   (4 0 0))
 	  (magit-section
-	   (20240808))
+	   (4 0 0))
 	  (seq
 	   (2 24))
 	  (transient
-	   (20240805))
+	   (0 7 4))
 	  (with-editor
-	   (20240806)))
-	 "A Git porcelain inside Emacs." tar
-	 ((:commit . "61f6a778ab5b0ca97069778a5955ae527996cd0f")
+	   (3 4 1)))
+	 "A Git porcelain inside Emacs" tar
+	 ((:commit . "cf94190410ef163fd102cdbcb67f28599d31eabc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
+	  (:maintainers
+	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
+	   ("Kyle Meyer" . "kyle@kyleam.com"))
 	  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 	  (:keywords "git" "tools" "vc")
 	  (:url . "https://github.com/magit/magit"))])
@@ -42253,7 +42256,7 @@
 		      (:keywords "magit" "vc")
 		      (:url . "http://github.com/jtamagnan/magit-reviewboard"))])
  (magit-section .
-		[(4 0 0 1 -4 20240818 1037)
+		[(4 0 0 1 -4 20240818 1914)
 		 ((emacs
 		   (26 1))
 		  (compat
@@ -42263,7 +42266,7 @@
 		  (seq
 		   (2 24)))
 		 "Sections for read-only buffers" tar
-		 ((:commit . "61f6a778ab5b0ca97069778a5955ae527996cd0f")
+		 ((:commit . "cf94190410ef163fd102cdbcb67f28599d31eabc")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
 		  (:maintainers
