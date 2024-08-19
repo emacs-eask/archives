@@ -11876,9 +11876,11 @@
 		       (:maintainer "Glen Stampoultzis" . "gstamp@gmail.com")
 		       (:url . "http://orthogonal.me"))])
  (cuda-mode .
-	    [(0 1 1 -4 20240716 1936)
-	     nil "NVIDIA CUDA Major Mode derived from C++-mode." tar
-	     ((:commit . "7dd07a20c36b41c8cb38cdec989673b73d03e144")
+	    [(0 1 1 -4 20240819 11)
+	     ((compat
+	       (29)))
+	     "NVIDIA CUDA Major Mode derived from C++-mode." tar
+	     ((:commit . "c3dae31b3d1abedf4d0b98840127e2cac73d6ad8")
 	      (:authors
 	       ("Jack Morrison" . "jackmorrison1@gmail.com"))
 	      (:maintainers
@@ -13317,11 +13319,11 @@
 	       (:keywords "convenience")
 	       (:url . "https://gitlab.com/kisaragi-hiu/didyoumean.el"))])
  (diff-ansi .
-	    [(0 2 1 -4 20240616 2345)
+	    [(0 2 1 -4 20240818 2359)
 	     ((emacs
 	       (29 1)))
 	     "Display diff's using alternative diffing tools" tar
-	     ((:commit . "0338970469375eadd3c0e492997aec2fcb06bb27")
+	     ((:commit . "8edf92e34058f49788a085f490ad7ff169ef0d72")
 	      (:authors
 	       ("Campbell Barton" . "ideasman42@gmail.com"))
 	      (:maintainers
@@ -28216,17 +28218,17 @@
 	    (:keywords "processes" "hardware")
 	    (:url . "http://github.com/nicferrier/emacs-nm"))])
  (gnosis .
-	 [(0 4 0 1 -4 20240811 2007)
+	 [(0 4 1 1 -4 20240818 2127)
 	  ((emacs
 	    (27 2))
 	   (emacsql
-	    (20240124))
+	    (4 0 0))
 	   (compat
 	    (29 1 4 2))
 	   (transient
 	    (0 7 2)))
 	  "Spaced Repetition System" tar
-	  ((:commit . "fe019d58f26e99e59a5601d2e276ad06676b1b66")
+	  ((:commit . "4fe415d70277046f6b81a00e8e012634e4f0ac05")
 	   (:authors
 	    ("Thanos Apollo" . "public@thanosapollo.org"))
 	   (:maintainers
@@ -43773,7 +43775,7 @@
 		     (:keywords "calendar")
 		     (:url . "https://github.com/sggutier/mexican-holidays"))])
  (meyvn .
-	[(1 4 1 -4 20240813 2139)
+	[(1 5 1 -4 20240818 2247)
 	 ((emacs
 	   (25 1))
 	  (cider
@@ -43791,7 +43793,7 @@
 	  (geiser
 	   (0 12)))
 	 "Meyvn client" tar
-	 ((:commit . "62802ab42ee021f89f980bd3de3e1336ad760944")
+	 ((:commit . "c72e41cff7b03e263fc2b850b7e0b6ddbf2267b0")
 	  (:authors
 	   ("Daniel Szmulewicz" . "daniel.szmulewicz@gmail.com"))
 	  (:maintainers
@@ -56016,6 +56018,18 @@
 	    ((:commit . "56c744b8d87d8cbe0aba2696d4e8525afc4aa0e8")
 	     (:keywords "emacs")
 	     (:url . "https://github.com/polymode/poly-erb"))])
+ (poly-gams .
+	    [(0 9 1 -4 20240812 1540)
+	     ((emacs
+	       (25))
+	      (polymode
+	       (0 2 2))
+	      (gams-mode
+	       (6 12)))
+	     "Polymode for GAMS" tar
+	     ((:commit . "e3abb2a195077750c89146900607894ed6239cb4")
+	      (:keywords "languages" "multi-modes" "gams")
+	      (:url . "https://github.com/ShiroTakeda/poly-gams"))])
  (poly-markdown .
 		[(0 2 2 1 -4 20230202 1210)
 		 ((emacs
@@ -66643,7 +66657,7 @@
 	   (:keywords "sysctl" "tools" "unix")
 	   (:url . "https://github.com/dantecatalfamo/sysctl.el"))])
  (syslog-mode .
-	      [(0 1 0 1 -4 20210910 1952)
+	      [(0 1 0 1 -4 20240818 2215)
 	       ((hide-lines
 		 (20130623))
 		(ov
@@ -66651,7 +66665,7 @@
 		(hsluv
 		 (20181127)))
 	       "Major-mode for viewing log files & strace output" tar
-	       ((:commit . "072664784dae41a573a9de8d178bf577b7526b82")
+	       ((:commit . "3972f7e6697c052b293a8b090f08a94bf7296729")
 		(:authors
 		 ("Harley Gorrell" . "harley@panix.com"))
 		(:maintainers
