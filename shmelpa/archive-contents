@@ -13607,6 +13607,14 @@
 	     (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com")
 	     (:keywords "music")
 	     (:url . "https://github.com/nlamirault/dionysos"))])
+ (dir-config .
+	     [(1 0 1 1 -4 20240818 1831)
+	      ((emacs
+		(25 1)))
+	      "Automatically find and load and evaluate .dir-config.el" tar
+	      ((:commit . "b51e814923079f923ef516661753bcc87e77009e")
+	       (:keywords "convenience")
+	       (:url . "https://github.com/jamescherti/dir-config.el"))])
  (dir-treeview .
 	       [(1 4 0 1 -4 20230922 2328)
 		((emacs
@@ -18132,11 +18140,11 @@
 		  (:keywords "convenience" "usability")
 		  (:url . "https://github.com/lujun9972/emacsist-view"))])
  (emacsql .
-	  [(4 0 0 1 -4 20240808 1856)
+	  [(4 0 1 1 -4 20240819 1559)
 	   ((emacs
 	     (25 1)))
 	   "High-level SQL database front-end" tar
-	   ((:commit . "3d9622aabbf3ab925beadd12ce928370d7704573")
+	   ((:commit . "e5f0928a047dba8e3a00b6333400422b301bac35")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainers
@@ -28080,6 +28088,14 @@
 		((:commit . "9136a9b737e0a5b6471a91571d104c487c43f35b")
 		 (:keywords "git" "gitolite" "languages")
 		 (:url . "https://github.com/llloret/gitolite-emacs"))])
+ (gleam-ts-mode .
+		[(0 1 0 1 -4 20240819 1355)
+		 ((emacs
+		   (29 1)))
+		 "Major mode for Gleam" tar
+		 ((:commit . "8d2f1cf6d4b7850bb8fa66cf26b7365f0ad1e925")
+		  (:keywords "languages" "gleam")
+		  (:url . "https://github.com/gleam-lang/gleam-mode"))])
  (global-tags .
 	      [(0 7 1 -4 20211120 347)
 	       ((emacs
