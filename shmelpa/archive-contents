@@ -15514,11 +15514,11 @@
 		    (:keywords "convenience" "hacks")
 		    (:url . "https://sadiqpk.org/projects/dwim-coder-mode.html"))])
  (dwim-shell-command .
-		     [(0 62 2 1 -4 20240818 1615)
+		     [(0 62 2 1 -4 20240820 1143)
 		      ((emacs
 			(28 1)))
 		      "Shell commands with DWIM behaviour" tar
-		      ((:commit . "2a97a027a0bb1c48fc2004d6e9ae4340522a9bfc")
+		      ((:commit . "df4da38d12802ba22c8c1324999e2c4cc9f17fa9")
 		       (:url . "https://github.com/xenodium/dwim-shell-command"))])
  (dyalog-mode .
 	      [(0 7 1 -4 20230214 1027)
@@ -30359,19 +30359,19 @@
 		(:keywords "faces")
 		(:url . "https://github.com/ibakepunk/helix-theme"))])
  (helm .
-       [(3 9 9 1 -4 20240820 859)
+       [(3 9 9 1 -4 20240820 1136)
 	((helm-core
 	  (3 9 9))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "ce2fe592a03f418ab82c60054376b28a1373637a")
+	((:commit . "85c816ec5147c156e832d234e9a7ec3c2e7bcf29")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
-	 (:keywords "helm" "convenience" "files" "completion" "lisp" "matching" "tools" "help")
+	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help")
 	 (:url . "https://emacs-helm.github.io/helm/"))])
  (helm-ack .
 	   [(0 13 1 -4 20141030 1226)
@@ -31773,13 +31773,14 @@
 		  (:maintainer "Julien BLANCHARD" . "julien@sideburns.eu")
 		  (:url . "https://github.com/julienXX/helm-lobste.rs"))])
  (helm-ls-git .
-	      [(1 9 4 1 -4 20240811 1739)
+	      [(1 9 4 1 -4 20240820 1207)
 	       ((helm
 		 (3 9 5))
 		(emacs
 		 (25 3)))
 	       "list git files." tar
-	       ((:commit . "244b6854c1c118e41c8fac0201eff03ba034ddc6")
+	       ((:commit . "2685aad6fc6407edae1e1a3bc40c9674b0df9e5c")
+		(:keywords "helm" "convenience" "vc" "files" "buffers" "completion" "diff" "log" "git")
 		(:url . "https://github.com/emacs-helm/helm-ls-git"))])
  (helm-ls-hg .
 	     [(0 1 0 1 -4 20150909 543)
