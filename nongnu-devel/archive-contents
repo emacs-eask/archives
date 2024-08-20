@@ -1225,19 +1225,20 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (helm .
-       [(3 9 9 0 20240819 80351)
+       [(3 9 9 0 20240820 155334)
 	((helm-core
 	  (3 9 9))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
+	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help")
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "dd1c2c052dcdd6c712d48f240fa339cecadee71f"))])
+	 (:commit . "64f410680fbffc4b616dd116cafd5f079f885dde"))])
  (helm-core .
-	    [(3 9 9 0 20240819 80351)
+	    [(3 9 9 0 20240820 155334)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1247,7 +1248,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "dd1c2c052dcdd6c712d48f240fa339cecadee71f"))])
+	      (:commit . "64f410680fbffc4b616dd116cafd5f079f885dde"))])
  (hideshowvis .
 	      [(0 8 0 20240529 112833)
 	       ((emacs
@@ -1302,7 +1303,7 @@
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:commit . "ed5e5b05fd260e8f161a488d56f10e7f6e01fb75"))])
  (hyperdrive .
-	     [(0 4 -1 0 20240819 222936)
+	     [(0 4 -1 0 20240820 13043)
 	      ((emacs
 		(28 1))
 	       (map
@@ -1324,7 +1325,7 @@
 	       (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
-	       (:commit . "87442c4896ad0bfccfc422442d8a3befda889acd"))])
+	       (:commit . "5e32667239d42e960cd6c73a2bc32c3ff5519cfe"))])
  (idle-highlight-mode .
 		      [(1 1 4 0 20240421 64727)
 		       ((emacs
@@ -2546,15 +2547,16 @@
 	      ("Elis etu Hirwing" . "elis@hirwing.se"))
 	     (:commit . "8ac7b2d409f158bcaa853aa1c5763e8acf2857bb"))])
  (wfnames .
-	  [(1 2 0 20240418 100527)
+	  [(1 2 0 20240820 90633)
 	   ((emacs
 	     (24 4)))
 	   "Edit filenames" tar
 	   ((:url . "https://github.com/thierryvolpiatto/wfnames")
+	    (:keywords "wfnames" "convenience" "files" "editing" "helm")
 	    (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	    (:authors
 	     ("Thierry Volpiatto" . "thievol@posteo.net"))
-	    (:commit . "2f014c48fde0979da4ce3c0dbda81389c61a26bc"))])
+	    (:commit . "3652cbd131b23df541e306b9c20a65111f05806d"))])
  (wgrep .
 	[(3 0 0 0 20231216 120954)
 	 ((emacs
