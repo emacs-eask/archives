@@ -466,13 +466,13 @@
 		    (:keywords "docker" "languages" "processes" "tools")
 		    (:commit . "39a012a27fcf6fb629c447d13b6974baf906714c"))])
  (dracula-theme .
-		[(1 8 2 0 20240614 130330)
+		[(1 8 2 0 20240821 204622)
 		 ((emacs
 		   (24 3)))
 		 "Dracula Theme" tar
 		 ((:url . "https://github.com/dracula/emacs")
 		  (:maintainer "tienne Deparis" . "etienne@depar.is")
-		  (:commit . "1dd3702bcca1191b082783062bde42668515c700"))])
+		  (:commit . "62045abe55de683ef328f0081801451a53f33b3b"))])
  (drupal-mode .
 	      [(0 8 1 0 20240816 123653)
 	       ((php-mode
@@ -1021,7 +1021,7 @@
 		   ("Jeronimo Pellegrini" . "(j_p@aleph0.info)"))
 		  (:commit . "efdac7298e3a64f1138e3949b3312f491f2c706a"))])
  (git-commit .
-	     [(4 0 0 0 20240820 215621)
+	     [(4 0 0 0 20240821 221222)
 	      ((emacs
 		(26 1))
 	       (compat
@@ -1041,7 +1041,7 @@
 		("Sebastian Wiesner" . "lunaryorn@gmail.com")
 		("Florian Ragwitz" . "rafl@debian.org")
 		("Marius Vollmer" . "marius.vollmer@gmail.com"))
-	       (:commit . "2da34f1317c619ec2dfb9e0d969449261ca7f31f"))])
+	       (:commit . "cd959c78c3444285aa3576622d3471b216075245"))])
  (git-modes .
 	    [(1 4 4 0 20240805 132007)
 	     ((emacs
@@ -1238,7 +1238,7 @@
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:commit . "64f410680fbffc4b616dd116cafd5f079f885dde"))])
  (helm-core .
-	    [(3 9 9 0 20240820 155334)
+	    [(4 0 0 20240822 53416)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1248,7 +1248,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "64f410680fbffc4b616dd116cafd5f079f885dde"))])
+	      (:commit . "e0d028081f1f24da8e649f6ea3ecea42216d4632"))])
  (hideshowvis .
 	      [(0 8 0 20240529 112833)
 	       ((emacs
@@ -1303,7 +1303,7 @@
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:commit . "ed5e5b05fd260e8f161a488d56f10e7f6e01fb75"))])
  (hyperdrive .
-	     [(0 4 -1 0 20240821 112931)
+	     [(0 4 -1 0 20240821 174144)
 	      ((emacs
 		(28 1))
 	       (map
@@ -1325,7 +1325,7 @@
 	       (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
-	       (:commit . "d3a11e7e687d1a84f126127151e3c4348fba85a7"))])
+	       (:commit . "58f15a0d5eaf866439853543f8e5658ffab2e88f"))])
  (idle-highlight-mode .
 		      [(1 1 4 0 20240421 64727)
 		       ((emacs
@@ -1506,7 +1506,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "18142bc915dfe4a65d337e3aa5ad851d95d1d5c9"))])
  (magit .
-	[(4 0 0 0 20240820 215621)
+	[(4 0 0 0 20240821 221222)
 	 ((emacs
 	   (26 1))
 	  (compat
@@ -1532,9 +1532,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	  (:commit . "2da34f1317c619ec2dfb9e0d969449261ca7f31f"))])
+	  (:commit . "cd959c78c3444285aa3576622d3471b216075245"))])
  (magit-section .
-		[(4 0 0 0 20240820 215621)
+		[(4 0 0 0 20240821 221222)
 		 ((emacs
 		   (26 1))
 		  (compat
@@ -1549,7 +1549,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "2da34f1317c619ec2dfb9e0d969449261ca7f31f"))])
+		  (:commit . "cd959c78c3444285aa3576622d3471b216075245"))])
  (markdown-mode .
 		[(2 7 -3 0 20240820 23107)
 		 ((emacs
@@ -2097,7 +2097,7 @@
 	    (:keywords "project" "convenience")
 	    (:commit . "f5fd18aa810c3d3269188cbbd731ddc09006f8f5"))])
  (rust-mode .
-	    [(1 0 5 0 20240520 74946)
+	    [(1 0 6 0 20240822 42601)
 	     ((emacs
 	       (25 1)))
 	     "A major-mode for editing Rust source code" tar
@@ -2106,7 +2106,7 @@
 	      (:maintainer "Mozilla" . "rust-mode@noreply.github.com")
 	      (:authors
 	       ("Mozilla" . "rust-mode@noreply.github.com"))
-	      (:commit . "d00d83d3a207a5b7c2994392b2781f627e3159ce"))])
+	      (:commit . "a529a4518120bd1c662edc31b82062f41bbfb990"))])
  (sass-mode .
 	    [(3 0 16 0 20190502 5315)
 	     ((haml-mode
