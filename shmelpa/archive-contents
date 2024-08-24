@@ -2242,6 +2242,19 @@
 		     (:maintainer "Arjen Wiersma" . "arjen@wiersma.org")
 		     (:keywords "faces")
 		     (:url . "https://github.com/credmp/arjen-grey"))])
+ (arscript-mode .
+		[(0 1 0 1 -4 20240819 1927)
+		 ((emacs
+		   (25 1)))
+		 "Major mode for editing arscript files" tar
+		 ((:commit . "797e1d0ef1312e8ff846abd0c6853358041f7691")
+		  (:authors
+		   ("James Dyer" . "captainflasmr@gmail.com"))
+		  (:maintainers
+		   ("James Dyer" . "captainflasmr@gmail.com"))
+		  (:maintainer "James Dyer" . "captainflasmr@gmail.com")
+		  (:keywords "convenience")
+		  (:url . "https://github.com/captainflasmr/arscript-mode"))])
  (artbollocks-mode .
 		   [(1 1 2 1 -4 20170524 422)
 		    nil "Improve your writing (especially about art)" tar
@@ -10459,7 +10472,7 @@
 		     (:keywords "convenience")
 		     (:url . "https://gitlab.com/OlMon/consult-flyspell"))])
  (consult-gh .
-	     [(1 1 1 -4 20240820 2112)
+	     [(1 1 1 -4 20240824 1809)
 	      ((emacs
 		(29 1))
 	       (consult
@@ -10467,7 +10480,7 @@
 	       (markdown-mode
 		(2 6)))
 	      "Consulting GitHub Client" tar
-	      ((:commit . "a0d11ef16a2005eacc348ab959b05ce81ada1271")
+	      ((:commit . "8a443c2586f37db174a1de03490cefd861aa5bfb")
 	       (:keywords "convenience" "matching" "tools" "vc")
 	       (:url . "https://github.com/armindarvish/consult-gh"))])
  (consult-ghq .
