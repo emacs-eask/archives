@@ -15,7 +15,7 @@ Workflow automatically downloads package archives and stores them here.
 ## ❓ Why do we need this?
 
 When sandboxing during Emacs package development, we might need to call
-`package-refresh-contents` multiple times due to the newly configured
+`package-refresh-contents` multiple times due to the newly set up
 environment. While Eask already minimizes unnecessary refreshes, you
 may still encounter `404` errors from the archive servers (`elpa`,
 `melpa`, etc.). This typically happens when the server temporarily
@@ -23,9 +23,9 @@ blocks your IP after too many requests within a short period. In such
 cases, you’ll need to wait a few minutes (depending on the server) for
 your IP to be unblocked.
 
-This is where the `archives` feature comes in! Eask helps you avoid this
-situation by downloading the `archive-contents` files when a `404` is
-encountered. In other words, your package refreshes will never fail. 🎉
+This is where the `archives` comes in! Eask helps you avoid this situation
+by downloading the `archive-contents` files when a `404` is encountered.
+In other words, your package refreshes will never fail. 🎉
 
 ## ⚜️ License
 
