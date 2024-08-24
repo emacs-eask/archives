@@ -54225,6 +54225,21 @@
 		   (:maintainer "Tino Calancha" . "tino.calancha@gmail.com")
 		   (:keywords "tools" "pass" "password" "password-store" "gpg")
 		   (:url . "https://www.passwordstore.org/"))])
+ (password-store-menu .
+		      [(1 0 1 1 -4 20240820 1055)
+		       ((emacs
+			 (29 1))
+			(password-store
+			 (2 3 2)))
+		       "A better, more complete UI for password-store" tar
+		       ((:commit . "0b181f878c47f2f06da51f5279e04382d6da6527")
+			(:authors
+			 ("Reindert-Jan Ekker" . "info@rjekker.nl"))
+			(:maintainers
+			 ("Reindert-Jan Ekker" . "info@rjekker.nl"))
+			(:maintainer "Reindert-Jan Ekker" . "info@rjekker.nl")
+			(:keywords "convenience" "data" "files")
+			(:url . "https://github.com/rjekker/password-store-menu"))])
  (password-store-otp .
 		     [(0 1 0 1 -4 20220128 1320)
 		      ((emacs
@@ -62064,13 +62079,13 @@
 	     (:keywords "convenience")
 	     (:url . "http://github.com/Kungsgeten/selected.el"))])
  (selected-window-accent-mode .
-			      [(0 9 1 1 -4 20240815 1934)
+			      [(0 9 5 1 -4 20240824 1943)
 			       ((emacs
 				 (28 1))
 				(transient
 				 (0 1 0)))
 			       "Accent Selected Window" tar
-			       ((:commit . "8a49af37909779cb47d53ea41922deec2d87fe29")
+			       ((:commit . "59f3bd5eab7521d8bbb644be9b428e690cac6c97")
 				(:authors
 				 ("James Dyer" . "captainflasmr@gmail.com"))
 				(:maintainers
@@ -63059,13 +63074,13 @@
 		   (:keywords "convenience")
 		   (:url . "https://codeberg.org/ideasman42/emacs-sidecar-locals"))])
  (sideline .
-	   [(0 1 1 1 -4 20240627 47)
+	   [(0 2 0 1 -4 20240824 2019)
 	    ((emacs
 	      (27 1))
 	     (ht
 	      (2 4)))
 	    "Show information on the side" tar
-	    ((:commit . "ba55945617f04763f9e93525fdf1e2826e4d667a")
+	    ((:commit . "795673c66bb77e6edc46e2667612924f9faaa828")
 	     (:authors
 	      ("Jen-Chieh" . "jcs090218@gmail.com"))
 	     (:maintainers
