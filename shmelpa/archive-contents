@@ -41113,6 +41113,19 @@
 	     (:maintainer "Timmy Jose" . "zoltan.jose@gmail.com")
 	     (:keywords "languages" "lox")
 	     (:url . "https://github.com/timmyjose-projects/lox-mode"))])
+ (lox-ts-mode .
+	      [(0 1 0 1 -4 20240820 345)
+	       ((emacs
+		 (29 1)))
+	       "Major mode for Lox using tree-sitter" tar
+	       ((:commit . "3a482f6a96318d617d35683089d5edb405cd0752")
+		(:authors
+		 ("Noah Peart" . "noah.v.peart@gmail.com"))
+		(:maintainers
+		 ("Noah Peart" . "noah.v.peart@gmail.com"))
+		(:maintainer "Noah Peart" . "noah.v.peart@gmail.com")
+		(:keywords "lox" "tree-sitter" "languages")
+		(:url . "https://github.com/nverno/lox-ts-mode"))])
  (lpy .
       [(0 1 0 1 -4 20231026 1525)
        ((emacs
@@ -47600,13 +47613,13 @@
 		 (:keywords "tools" "convenience")
 		 (:url . "https://github.com/nickanderson/ob-cfengine3"))])
  (ob-chatgpt-shell .
-		   [(0 32 1 1 -4 20240814 938)
+		   [(0 32 1 1 -4 20240824 1737)
 		    ((emacs
 		      (27 1))
 		     (chatgpt-shell
 		      (1 0 3)))
 		    "Org babel functions for ChatGPT evaluation" tar
-		    ((:commit . "6fb85746bd0d316c97e375dcc14eb5314778e74d")
+		    ((:commit . "bafd917c0849bd66b828f7538d8f8e78cb0509a9")
 		     (:url . "https://github.com/xenodium/chatgpt-shell"))])
  (ob-clojurescript .
 		   [(0 1 0 1 -4 20180406 1828)
@@ -47698,13 +47711,13 @@
 	  (:keywords "languages")
 	  (:url . "https://github.com/xcapaldi/ob-d2"))])
  (ob-dall-e-shell .
-		  [(0 31 1 1 -4 20240814 938)
+		  [(0 31 1 1 -4 20240824 1737)
 		   ((emacs
 		     (27 1))
 		    (dall-e-shell
 		     (0 37 1)))
 		   "Org babel functions for DALL-E evaluation" tar
-		   ((:commit . "6fb85746bd0d316c97e375dcc14eb5314778e74d")
+		   ((:commit . "bafd917c0849bd66b828f7538d8f8e78cb0509a9")
 		    (:url . "https://github.com/xenodium/chatgpt-shell"))])
  (ob-dao .
 	 [(0 1 0 1 -4 20170816 1558)
@@ -60666,6 +60679,21 @@
 		    (:maintainer "USAMI Kenta" . "tadsan@zonu.me")
 		    (:keywords "languages" "comm" "web")
 		    (:url . "https://github.com/emacs-php/robots-txt-mode"))])
+ (roc-ts-mode .
+	      [(0 1 -1 1 -4 20240820 1737)
+	       ((emacs
+		 (29 1)))
+	       "Roc programming language mode" tar
+	       ((:commit . "8a85436227a9fdc07bce9ad773a46ba78cb3cdd0")
+		(:authors
+		 ("Tad Lispy" . "tadeusz@lazurski.pl")
+		 ("Ajai Khatri Nelson" . "emacs@ajai.dev"))
+		(:maintainers
+		 ("Tad Lispy" . "tadeusz@lazurski.pl")
+		 ("Ajai Khatri Nelson" . "emacs@ajai.dev"))
+		(:maintainer "Tad Lispy" . "tadeusz@lazurski.pl")
+		(:keywords "languages")
+		(:url . "https://gitlab.com/tad-lispy/roc-ts-mode"))])
  (roguel-ike .
 	     [(0 1 0 1 -4 20160120 302)
 	      ((popup
@@ -62589,11 +62617,11 @@
 	       (:maintainer "Ian Eure" . "ian.eure@gmail.com")
 	       (:keywords "unix" "tools" "processes"))])
  (shell-maker .
-	      [(0 50 5 1 -4 20240814 938)
+	      [(0 51 1 1 -4 20240824 1737)
 	       ((emacs
 		 (27 1)))
 	       "Interaction mode for making comint shells" tar
-	       ((:commit . "6fb85746bd0d316c97e375dcc14eb5314778e74d")
+	       ((:commit . "bafd917c0849bd66b828f7538d8f8e78cb0509a9")
 		(:url . "https://github.com/xenodium/chatgpt-shell"))])
  (shell-pop .
 	    [(0 64 1 -4 20231228 612)
