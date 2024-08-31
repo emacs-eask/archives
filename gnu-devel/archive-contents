@@ -977,7 +977,7 @@
 		 (:url . "https://elpa.gnu.org/packages/dbus-codegen.html")
 		 (:commit . "04114e4cbc8f422e6b77cfc202d1109c96316117"))])
  (debbugs .
-	  [(0 40 0 20240812 95045)
+	  [(0 40 0 20240831 165556)
 	   ((emacs
 	     (26 1))
 	    (soap-client
@@ -988,7 +988,7 @@
 	    (:authors
 	     ("Michael Albinus" . "michael.albinus@gmx.de"))
 	    (:url . "https://elpa.gnu.org/packages/debbugs.html")
-	    (:commit . "a978cdf56efb9138f82b4326998ce87ab50bb207"))])
+	    (:commit . "0c42004727833e9d84bae0b6590262169acdfac7"))])
  (delight .
 	  [(1 7 0 20200711 42851)
 	   ((cl-lib
@@ -1742,7 +1742,7 @@
 	    (:url . "https://elpa.gnu.org/packages/flylisp.html")
 	    (:commit . "7295025f4c0571013142dfb9cc1a893fff79904b"))])
  (flymake .
-	  [(1 3 7 0 20240707 154630)
+	  [(1 3 7 0 20240829 203038)
 	   ((emacs
 	     (26 1))
 	    (eldoc
@@ -1751,11 +1751,11 @@
 	     (0 7 1)))
 	   "A universal on-the-fly syntax checker" tar
 	   ((:keywords "c" "languages" "tools")
-	    (:maintainer "João Távora" . "joaotavora@gmail.com")
+	    (:maintainer "Spencer Baugh" . "sbaugh@janestreet.com")
 	    (:authors
 	     ("Pavel Kobyakov" . "pk_at_work@yahoo.com"))
 	    (:url . "https://elpa.gnu.org/packages/flymake.html")
-	    (:commit . "ce56f939affe8147f4172aa030058029a3c7922b"))])
+	    (:commit . "59e0b82776ade72680e7c369f6089eab4a74dc4a"))])
  (flymake-codespell .
 		    [(0 1 0 20231030 222337)
 		     ((emacs
@@ -2556,7 +2556,7 @@
 		      ("Sean Whitton" . "spwhitton@spwhitton.name"))
 		     (:commit . "c22a15e86acf28da716532c26ba1371574c8e979"))])
  (llm .
-      [(0 17 2 0 20240828 202826)
+      [(0 17 2 0 20240831 95332)
        ((emacs
 	 (28 1))
 	(plz
@@ -2566,7 +2566,7 @@
 	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
-	(:commit . "454f8c0b6c31c14750f9ca1b73db8571aca28db5"))])
+	(:commit . "b9f27d238a3e36f7a7161d5d39517cb9013506c9"))])
  (lmc .
       [(1 4 0 20230105 113402)
        ((emacs
@@ -3068,7 +3068,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "49d1fdfb80b55699a00b11bc916ad29c0447039b"))])
  (org .
-      [(9 8 -1 0 20240822 123715)
+      [(9 8 -1 0 20240831 133113)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -3077,7 +3077,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "7a3fc3d78bad1fb4d7afaccdaca8fc1dbffe4b5f"))])
+	(:commit . "07dd3bcae6b7b5e0692fc40dd307a7e841179b52"))])
  (org-contacts .
 	       [(1 1 0 20240807 73345)
 		((emacs
@@ -3329,7 +3329,7 @@
 	    (:url . "https://elpa.gnu.org/packages/persist.html")
 	    (:commit . "076bf3ffc4fb0fa904c6ace9620fccaacb3454ba"))])
  (phpinspect .
-	     [(1 2 0 0 20240822 230037)
+	     [(2 0 0 0 20240831 111355)
 	      ((compat
 		(29)))
 	      "PHP parsing and code intelligence package" tar
@@ -3338,7 +3338,7 @@
 	       (:authors
 		("Hugo Thunnissen" . "devel@hugot.nl"))
 	       (:url . "https://elpa.gnu.org/packages/phpinspect.html")
-	       (:commit . "85399a6b1d05403216e622641c2ba6ad9541e754"))])
+	       (:commit . "95a29a39828e5122a13ebdec21734db5a46312d5"))])
  (phps-mode .
 	    [(0 4 49 0 20240424 65247)
 	     ((emacs
@@ -3576,7 +3576,7 @@
 		   ("Feng Shu" . "tumashu@163.com"))
 		  (:commit . "d61af27686f7a39e6c138b7261a686e7ea7a0ef7"))])
  (python .
-	 [(0 28 0 20240708 74355)
+	 [(0 28 0 20240831 81414)
 	  ((emacs
 	    (24 4))
 	   (compat
@@ -3589,7 +3589,7 @@
 	   (:maintainer nil . "emacs-devel@gnu.org")
 	   (:authors
 	    ("Fabián E. Gallina" . "fgallina@gnu.org"))
-	   (:commit . "ce56f939affe8147f4172aa030058029a3c7922b"))])
+	   (:commit . "59e0b82776ade72680e7c369f6089eab4a74dc4a"))])
  (quarter-plane .
 		[(0 1 0 20221221 81727)
 		 nil "Minor mode for quarter-plane style editing" tar
@@ -4613,7 +4613,7 @@
 	  ("Toby Cubitt" . "toby-predictive@dr-qubit.org"))
 	 (:commit . "e7326a61b1cd2605867063fcfc5ddddaeed6d993"))])
  (triples .
-	  [(0 3 5 0 20240201 233852)
+	  [(0 3 5 0 20240831 154754)
 	   ((seq
 	     (2 0))
 	    (emacs
@@ -4624,7 +4624,7 @@
 	    (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
 	    (:authors
 	     ("Andrew Hyatt" . "ahyatt@gmail.com"))
-	    (:commit . "1112c57419edfd14eb6f7ad523c320ed7a377d7b"))])
+	    (:commit . "79365099c13375a47cf734bdb5b43c0bcc058729"))])
  (typo .
        [(1 0 1 0 20230730 150555)
 	((emacs
@@ -4724,7 +4724,7 @@
 	      ("Stefan Kangas" . "stefankangas@gmail.com"))
 	     (:commit . "0f20f8b59011471523b650cf1a3478a04362083d"))])
  (use-package .
-	      [(2 4 6 0 20240824 60447)
+	      [(2 4 6 0 20240831 81414)
 	       ((emacs
 		 (24 3))
 		(bind-key
@@ -4735,7 +4735,7 @@
 		(:maintainer "John Wiegley" . "johnw@newartisans.com")
 		(:authors
 		 ("John Wiegley" . "johnw@newartisans.com"))
-		(:commit . "32afdcca8815331f1231fe9d8279ab9914197381"))])
+		(:commit . "59e0b82776ade72680e7c369f6089eab4a74dc4a"))])
  (validate .
 	   [(1 0 4 0 20180215 204244)
 	    ((emacs
