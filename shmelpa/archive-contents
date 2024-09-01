@@ -6253,6 +6253,23 @@
 	   (:maintainer "Hiroaki Otsu" . "ootsuhiroaki@gmail.com")
 	   (:keywords "convenience")
 	   (:url . "https://github.com/aki2o/caskxy"))])
+ (casual-agenda .
+		[(1 0 3 1 -4 20240826 1836)
+		 ((emacs
+		   (29 1))
+		  (casual-lib
+		   (1 1 0))
+		  (org
+		   (9 7 1)))
+		 "Transient UI for Agenda" tar
+		 ((:commit . "e7f76fb5b822af19b09d81baf30c81dd63605244")
+		  (:authors
+		   ("Charles Choi" . "kickingvegas@gmail.com"))
+		  (:maintainers
+		   ("Charles Choi" . "kickingvegas@gmail.com"))
+		  (:maintainer "Charles Choi" . "kickingvegas@gmail.com")
+		  (:keywords "tools")
+		  (:url . "https://github.com/kickingvegas/casual-agenda"))])
  (casual-avy .
 	     [(1 4 2 1 -4 20240828 223)
 	      ((emacs
@@ -12741,7 +12758,7 @@
  (debian-el .
 	    [(37 16 -4 20240829 1723)
 	     nil "startup file for the debian-el package" tar
-	     ((:commit . "a91658277bd4d34c499b1c490247e6505c53be11")
+	     ((:commit . "e45b6597873602295fb33c030617a3e0986a1d3a")
 	      (:authors
 	       ("Debian Emacsen Team" . "debian-emacsen@lists.debian.org"))
 	      (:maintainers
@@ -15188,13 +15205,13 @@
 	      (:maintainer "Thejaswi Puthraya" . "thejaswi.puthraya@gmail.com")
 	      (:keywords "pastebin"))])
  (dpkg-dev-el .
-	      [(37 16 -4 20240727 2303)
+	      [(37 16 1 -4 20240728 519)
 	       ((emacs
 		 (27 1))
 		(debian-el
 		 (37 0)))
 	       "startup file for the elpa-dpkg-dev-el package" tar
-	       ((:commit . "eb00c58726be5e914b2487bccf7e3f716e7a61e1")
+	       ((:commit . "113c08e96f2d010a3082b038dfc0fd5188209fb1")
 		(:authors
 		 ("Peter S Galbraith" . "psg@debian.org"))
 		(:maintainers
@@ -24743,6 +24760,16 @@
 		   (:maintainer "Leo Gaskin" . "leo.gaskin@le0.gs")
 		   (:keywords "wp" "flymake" "spell" "aspell")
 		   (:url . "https://github.com/leotaku/flycheck-aspell"))])
+ (flymake-bashate .
+		  [(1 0 1 1 -4 20240830 344)
+		   ((flymake-quickdef
+		     (1 0 0))
+		    (emacs
+		     (26 1)))
+		   "A Flymake backend for bashate (a Bash style checker)" tar
+		   ((:commit . "2339c28cd2aa6e63c5aeb5e904dd5b0060dc264e")
+		    (:keywords "tools")
+		    (:url . "https://github.com/jamescherti/flymake-bashate.el"))])
  (flymake-clippy .
 		 [(1 1 0 1 -4 20231102 1616)
 		  ((emacs
@@ -26728,13 +26755,13 @@
 	     (:keywords "evernote" "geeknote" "note" "emacs-evernote" "evernote-mode")
 	     (:url . "http://github.com/avendael/emacs-geeknote"))])
  (geiser .
-	 [(0 31 1 -4 20240726 1217)
+	 [(0 31 1 1 -4 20240901 1954)
 	  ((emacs
 	    (27 1))
 	   (project
 	    (0 8 1)))
 	  "GNU Emacs and Scheme talk to each other" tar
-	  ((:commit . "3b02581c8422d416d1d4dc3168db5cf7b0ef16fc")
+	  ((:commit . "c034c129cfa7442881f13ae146c87785b367cff5")
 	   (:authors
 	    ("Jose Antonio Ortega Ruiz" . "(jao@gnu.org)"))
 	   (:maintainers
