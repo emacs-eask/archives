@@ -15539,11 +15539,11 @@
 		    (:keywords "convenience" "hacks")
 		    (:url . "https://sadiqpk.org/projects/dwim-coder-mode.html"))])
  (dwim-shell-command .
-		     [(0 62 2 1 -4 20240825 1728)
+		     [(0 62 2 1 -4 20240901 1845)
 		      ((emacs
 			(28 1)))
 		      "Shell commands with DWIM behaviour" tar
-		      ((:commit . "8a25f3ea9271a1172fe5d639c43f699c9258b943")
+		      ((:commit . "28ee92b3e28e2e6a9021090bba44ad2769f4dfee")
 		       (:url . "https://github.com/xenodium/dwim-shell-command"))])
  (dyalog-mode .
 	      [(0 7 1 -4 20230214 1027)
@@ -16700,15 +16700,15 @@
 	       (:keywords "convenience" "languages" "tools")
 	       (:url . "https://github.com/dantecatalfamo/ejson-mode"))])
  (ekg .
-      [(0 6 2 1 -4 20240901 1541)
+      [(0 6 3 1 -4 20240901 1906)
        ((triples
-	 (0 3 5))
+	 (0 4 0))
 	(emacs
 	 (28 1))
 	(llm
 	 (0 17 0)))
        "A system for recording and linking information" tar
-       ((:commit . "fb87da86d5dfd316277217398fd5f8a49c31167f")
+       ((:commit . "12d2524b4b7fdbb2e60b564456c463e594919ca2")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
 	(:maintainers
@@ -40987,7 +40987,7 @@
 		   ("Wilfred Hughes" . "me@wilfred.me.uk"))
 		  (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk"))])
  (logview .
-	  [(0 17 5 -4 20240831 1130)
+	  [(0 18 1 -4 20240901 1851)
 	   ((emacs
 	     (25 1))
 	    (datetime
@@ -40995,7 +40995,7 @@
 	    (extmap
 	     (1 0)))
 	   "Major mode for viewing log files" tar
-	   ((:commit . "749255d1600c966187a195ef05a4608c2853ec49")
+	   ((:commit . "272e5ccc13c3c058c73f9b89cd90b9832d976dc0")
 	    (:authors
 	     ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	    (:maintainers
@@ -52752,6 +52752,21 @@
 		     (:maintainer "Xu Chunyang" . "mail@xuchunyang.me")
 		     (:keywords "tools")
 		     (:url . "https://github.com/xuchunyang/other-emacs-eval"))])
+ (otpp .
+       [(3 0 1 1 -4 20240824 1650)
+	((emacs
+	  (28 1))
+	 (compat
+	  (29 1)))
+	"One tab per project, with unique names" tar
+	((:commit . "f515d0636426394af9c671bf58107091f9fac072")
+	 (:authors
+	  ("Abdelhak Bougouffa (rot13" . "\"nobhtbhssn@srqbencebwrpg.bet\")"))
+	 (:maintainers
+	  ("Abdelhak Bougouffa (rot13" . "\"nobhtbhssn@srqbencebwrpg.bet\")"))
+	 (:maintainer "Abdelhak Bougouffa (rot13" . "\"nobhtbhssn@srqbencebwrpg.bet\")")
+	 (:keywords "convenience")
+	 (:url . "https://github.com/abougouffa/one-tab-per-project"))])
  (ouroboros .
 	    [(0 1 2 1 -4 20230606 1150)
 	     ((emacs
