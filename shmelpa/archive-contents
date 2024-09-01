@@ -50684,6 +50684,27 @@
 		  (:maintainer "Anton Hakansson" . "anton@hakanssn.com")
 		  (:keywords "processes" "outlines")
 		  (:url . "https://github.com/AntonHakansson/"))])
+ (org-node .
+	   [(0 6 0 50 -4 20240824 1956)
+	    ((emacs
+	      (28 1))
+	     (compat
+	      (30))
+	     (dash
+	      (2 19 1))
+	     (transient
+	      (0 7 4))
+	     (persist
+	      (0 6 1)))
+	    "Link org-id entries into a network" tar
+	    ((:commit . "7d58a4a39b0480cdf4745ff7b097a7183dcf25df")
+	     (:authors
+	      ("Martin Edström" . "meedstrom91@gmail.com"))
+	     (:maintainers
+	      ("Martin Edström" . "meedstrom91@gmail.com"))
+	     (:maintainer "Martin Edström" . "meedstrom91@gmail.com")
+	     (:keywords "org" "hypermedia")
+	     (:url . "https://github.com/meedstrom/org-node"))])
  (org-notebook .
 	       [(1 1 1 -4 20170322 452)
 		((emacs
@@ -65504,11 +65525,11 @@
 	       (:maintainer "Noam Postavsky" . "npostavs@user.sourceforge.net")
 	       (:url . "https://github.com/magit/ssh-agency"))])
  (ssh-config-mode .
-		  [(1 14 1 -4 20240826 800)
+		  [(1 14 1 -4 20240901 2018)
 		   ((emacs
 		     (24 3)))
 		   "Mode for fontification of ~/.ssh/config" tar
-		   ((:commit . "93d52e35cc75fd618397ba094fc76c45cdd78f6e")
+		   ((:commit . "2d8e321c34a7535ae6dd0f6a1b0fd54e47aba612")
 		    (:authors
 		     ("Harley Gorrell" . "harley@panix.com"))
 		    (:maintainers
