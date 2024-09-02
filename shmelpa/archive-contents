@@ -16610,15 +16610,17 @@
 				    (:keywords "convenience" "documentation" "eglot" "eldoc" "languages" "lsp")
 				    (:url . "https://codeberg.org/mekeor/eglot-signature-eldoc-talkative"))])
  (eglot-tempel .
-	       [(0 5 1 -4 20230626 1004)
+	       [(0 7 1 -4 20240902 523)
 		((eglot
 		  (1 9))
 		 (tempel
 		  (0 5))
 		 (emacs
-		  (24 4)))
-		"Use eglot as inline template expander" tar
-		((:commit . "70fee6ac33df7a6c5cce967005766b6702a9e9a5")
+		  (29 1))
+		 (peg
+		  (1 0 1)))
+		"Use tempel to expand snippets from eglot" tar
+		((:commit . "0df12c93d400e6a8e80bfc71788f4922264346cf")
 		 (:authors
 		  ("Jeff Walsh" . "fejfighter@gmail.com"))
 		 (:maintainers
@@ -29258,7 +29260,7 @@
 	  (:keywords "comm" "convenience")
 	  (:url . "https://github.com/antonhibl/gptai"))])
  (gptel .
-	[(0 9 0 1 -4 20240901 210)
+	[(0 9 0 1 -4 20240902 524)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -29266,7 +29268,7 @@
 	  (compat
 	   (29 1 4 1)))
 	 "Interact with ChatGPT or other LLMs" tar
-	 ((:commit . "3f1026ecff8ebf1862af28d589d77231ead5cfa8")
+	 ((:commit . "87dfb2d1de3909e6471666d7009643d7c309a93b")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
 	  (:maintainers
@@ -50620,13 +50622,13 @@
 		  (:keywords "convenience" "calendar")
 		  (:url . "https://github.com/unhammer/org-mru-clock"))])
  (org-msg .
-	  [(4 0 1 -4 20240828 1613)
+	  [(4 0 1 -4 20240902 447)
 	   ((emacs
 	     (24 4))
 	    (htmlize
 	     (1 54)))
 	   "Org mode to send and reply to email in HTML." tar
-	   ((:commit . "979a9f1d7bbfdf156322acabeedc2d9cc953dda8")
+	   ((:commit . "59e2042e5f23e25f31c6aef0db1e70c6f54f117d")
 	    (:authors
 	     ("Jérémy Compostella" . "jeremy.compostella@gmail.com"))
 	    (:maintainers
