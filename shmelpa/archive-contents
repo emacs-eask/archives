@@ -53849,25 +53849,27 @@
 			      (:maintainer "Nathaniel Flath" . "nflath@gmail.com")
 			      (:url . "http://github.com/nflath/pager-default-keybindings"))])
  (paimon .
-	 [(0 1 6 -4 20230521 1002)
+	 [(0 2 0 -4 20240904 1857)
 	  ((aio
 	    (1 0))
 	   (closql
-	    (20230520 1519))
+	    (2 0 0))
 	   (emacs
 	    (28 1))
 	   (emacsql
-	    (20230417 1448))
+	    (4 0 2))
 	   (f
 	    (0 20 0))
 	   (ht
 	    (2 4))
 	   (transient
-	    (0 3 7))
+	    (0 7 5))
 	   (request
-	    (0 3 3)))
+	    (0 3 2))
+	   (compat
+	    (30 0 0 0)))
 	  "A major mode for Splunk" tar
-	  ((:commit . "4c71bea56d0cfdca8ea90c5a6d8d584647d053af")
+	  ((:commit . "b3a5b1ca20e221cc88e20169635076b9b1b08a51")
 	   (:authors
 	    ("r0man" . "roman@burningswell.com"))
 	   (:maintainers
