@@ -6406,7 +6406,7 @@
 		      (:keywords "tools")
 		      (:url . "https://github.com/kickingvegas/casual-re-builder"))])
  (casual-suite .
-	       [(1 5 0 1 -4 20240901 2116)
+	       [(1 6 0 1 -4 20240908 2222)
 		((emacs
 		  (29 1))
 		 (casual-calc
@@ -6426,9 +6426,11 @@
 		 (casual-bookmarks
 		  (1 0 0))
 		 (casual-agenda
+		  (1 0 1))
+		 (casual-symbol-overlay
 		  (1 0 1)))
 		"A suite of opinionated Transient UIs" tar
-		((:commit . "c8fcf6d389d577dde57bda88bf25a620f38e3226")
+		((:commit . "29a8f3eaf8596de619beae88c8330a5b72b472b5")
 		 (:authors
 		  ("Charles Choi" . "kickingvegas@gmail.com"))
 		 (:maintainers
@@ -49494,13 +49496,13 @@
 		(:maintainer "D. Williams" . "d.williams@posteo.net")
 		(:url . "https://github.com/integral-dw/org-bullets"))])
  (org-caldav .
-	     [(3 1 1 -4 20240825 2327)
+	     [(3 1 1 -4 20240908 2256)
 	      ((emacs
 		(26 3))
 	       (org
 		(9 1)))
 	      "Sync org files with external calendar through CalDAV" tar
-	      ((:commit . "313cb71855f200f74c8ef8962e0019266bb8a422")
+	      ((:commit . "6a2683211baa4b4efed0ca210275bf68dbbcfc4f")
 	       (:authors
 		("David Engster" . "deng@randomsample.de"))
 	       (:maintainers
