@@ -5064,11 +5064,13 @@
 	(:keywords "background" "async" "process" "management")
 	(:url . "https://github.com/ilya-babanov/emacs-bpr"))])
  (bqn-mode .
-	   [(0 1 0 1 -4 20240721 2036)
+	   [(0 1 0 1 -4 20240910 1638)
 	    ((emacs
-	      (26 1)))
+	      (26 1))
+	     (compat
+	      (30 0 0 0)))
 	    "Emacs mode for BQN" tar
-	    ((:commit . "80f6be6ca678d2f072be7a39e88b10d3c56e63e5")
+	    ((:commit . "2471b5e1b90c678db5732305723f24642b7dec38")
 	     (:authors
 	      ("Marshall Lochbaum" . "mwlochbaum@gmail.com"))
 	     (:maintainers
