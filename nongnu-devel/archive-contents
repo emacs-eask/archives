@@ -125,7 +125,7 @@
 	    ("Vivek Das Mohapatra" . "vivek@etla.org"))
 	   (:commit . "af2ca2f0623d5268e31f1fe19bc1370c14b601b1"))])
  (bash-completion .
-		  [(3 1 1 0 20230612 110320)
+		  [(3 1 1 0 20240913 153607)
 		   ((emacs
 		     (25 3)))
 		   "Bash completion for the shell buffer" tar
@@ -134,7 +134,7 @@
 		    (:maintainer "Stephane Zermatten" . "szermatt@gmail.com")
 		    (:authors
 		     ("Stephane Zermatten" . "szermatt@gmx.net"))
-		    (:commit . "f1daac0386c24cbe8a244a62c7588cc6847b07ae"))])
+		    (:commit . "53d503a1199188e4a190a669d00b7b693a6afb3e"))])
  (beancount .
 	    [(0 9 0 20240908 163924)
 	     nil "A major mode to edit Beancount input files." tar
@@ -1185,13 +1185,13 @@
 	      (:keywords "markup" "languages" "html")
 	      (:commit . "a64d58df8f098f858c6c11fa1629a90969f9c7e8"))])
  (haskell-mode .
-	       [(17 5 0 20240911 102048)
+	       [(17 5 0 20240913 154408)
 		((emacs
 		  (25 1)))
 		"A Haskell editing mode" tar
 		((:url . "https://github.com/haskell/haskell-mode")
 		 (:keywords "haskell" "cabal" "ghc" "repl" "languages")
-		 (:commit . "cf387f92b160ee87ce3e247542558d1b6ed84b3c"))])
+		 (:commit . "c9dbfdc3ba79afab4a6fcd10fe8606039e4faacc"))])
  (haskell-tng-mode .
 		   [(0 0 1 0 20230522 221126)
 		    ((emacs
@@ -1495,7 +1495,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "18142bc915dfe4a65d337e3aa5ad851d95d1d5c9"))])
  (magit .
-	[(4 1 0 0 20240910 213130)
+	[(4 1 0 0 20240913 145559)
 	 ((emacs
 	   (26 1))
 	  (compat
@@ -1519,9 +1519,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	  (:commit . "61c051ea1cda5fe6c9404cb5ae228088d2e254f0"))])
+	  (:commit . "9395de2c94cc430ca865f497046c16f66deccf16"))])
  (magit-section .
-		[(4 1 0 0 20240910 213130)
+		[(4 1 0 0 20240913 145559)
 		 ((emacs
 		   (26 1))
 		  (compat
@@ -1536,7 +1536,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "61c051ea1cda5fe6c9404cb5ae228088d2e254f0"))])
+		  (:commit . "9395de2c94cc430ca865f497046c16f66deccf16"))])
  (markdown-mode .
 		[(2 7 -3 0 20240829 32430)
 		 ((emacs
@@ -1832,7 +1832,7 @@
 	       (:url . "https://elpa.nongnu.org/nongnu/p4-16-mode.html")
 	       (:commit . "794dd0056b4ca736ae5ecb39072547f22a006137"))])
  (package-lint .
-	       [(0 23 0 20240516 73305)
+	       [(0 23 0 20240913 154609)
 		((emacs
 		  (24 4))
 		 (let-alist
@@ -1846,7 +1846,7 @@
 		 (:authors
 		  ("Steve Purcell" . "steve@sanityinc.com")
 		  ("Fanael Linithien" . "fanael4@gmail.com"))
-		 (:commit . "972dd8403ac8d2d43f298ef89a6b118e49c7355f"))])
+		 (:commit . "a60fcca5b8a94c07d7a12e446c4ca7fb6a84cdc6"))])
  (pacmacs .
 	  [(0 1 1 0 20220411 143014)
 	   ((emacs
@@ -2045,7 +2045,7 @@
 		("Campbell Barton" . "ideasman42@gmail.com"))
 	       (:commit . "7a5c4c86cdbf8ba6b045d5ace466e5dcb2f10db0"))])
  (reformatter .
-	      [(0 8 0 20240906 140555)
+	      [(0 8 0 20240913 153354)
 	       ((emacs
 		 (24 3)))
 	       "Define commands which run reformatters on the current buffer" tar
@@ -2054,7 +2054,7 @@
 		(:maintainer "Steve Purcell" . "steve@sanityinc.com")
 		(:authors
 		 ("Steve Purcell" . "steve@sanityinc.com"))
-		(:commit . "155b235f6c76f2f5790aa53798c7a7e36ce5aded"))])
+		(:commit . "48277af8b15d3a6a279cd489a55957e2dc819d8f"))])
  (request .
 	  [(0 3 3 0 20230126 231738)
 	   ((emacs
@@ -2286,7 +2286,7 @@
 		("Arthur Evstifeev" . "lod@pisem.net"))
 	       (:commit . "b06c97b909418b5dca3d15351b2ce86a04df32fb"))])
  (symbol-overlay .
-		 [(4 2 0 20240912 105304)
+		 [(4 3 0 20240913 162400)
 		  ((emacs
 		    (24 3))
 		   (seq
@@ -2297,7 +2297,7 @@
 		   (:maintainer "wolray" . "wolray@foxmail.com")
 		   (:authors
 		    ("wolray" . "wolray@foxmail.com"))
-		   (:commit . "5faed2480c60c9a0898d9706b9b197fa64fd61a0"))])
+		   (:commit . "6151f4279bd94b5960149596b202cdcb45cacec2"))])
  (systemd .
 	  [(1 6 1 0 20230131 220207)
 	   ((emacs
