@@ -4785,13 +4785,13 @@
 	     (:keywords "c" "convenience" "tools")
 	     (:url . "http://github.com/josteink/bmx-mode"))])
  (bnf-mode .
-	   [(0 4 5 1 -4 20240915 737)
+	   [(0 4 5 1 -4 20240915 752)
 	    ((cl-lib
 	      (0 5))
 	     (emacs
 	      (25 1)))
 	    "Major mode for editing BNF grammars." tar
-	    ((:commit . "05dea0805fc7d3e9634ba351dc6c51ac33fffef4")
+	    ((:commit . "ccb8c0df0addc0d78b831a4181e48b0ebb697f6d")
 	     (:authors
 	      ("Serghei Iakovlev" . "gnu@serghei.pl"))
 	     (:maintainers
@@ -20279,15 +20279,19 @@
 			(:keywords "convenience" "tool")
 			(:url . "https://github.com/beacoder/everlasting-scratch"))])
  (evil .
-       [(1 15 0 1 -4 20240810 1655)
+       [(1 15 0 1 -4 20240915 832)
 	((emacs
 	  (24 1))
+	 (cl-lib
+	  (0 5))
 	 (goto-chg
 	  (1 6))
-	 (cl-lib
-	  (0 5)))
+	 (nadvice
+	  (0 3)))
 	"Extensible vi layer" tar
-	((:commit . "5db0bdc7dcd9300b983526d37cbe480f35e36211")
+	((:commit . "ea552efeeb809898932f55d1690da9cbe8ef5fa1")
+	 (:maintainers
+	  ("Tom Dalziel" . "tom.dalziel@gmail.com"))
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
 	 (:keywords "emulations")
 	 (:url . "https://github.com/emacs-evil/evil"))])
