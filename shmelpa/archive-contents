@@ -2388,6 +2388,19 @@
 		  (:maintainer "Ruby Iris Juric" . "ruby@srxl.me")
 		  (:keywords "languages")
 		  (:url . "https://github.com/Sorixelle/astro-ts-mode"))])
+ (astute .
+	 [(0 1 0 1 -4 20240910 1312)
+	  ((emacs
+	    (25 1)))
+	  "A minor mode to redisplay `smart' typography" tar
+	  ((:commit . "54ed0a94b1f0ce03becf91847a026403c697d2b6")
+	   (:authors
+	    ("Paul W. Rankin" . "rnkn@rnkn.xyz"))
+	   (:maintainers
+	    ("Paul W. Rankin" . "rnkn@rnkn.xyz"))
+	   (:maintainer "Paul W. Rankin" . "rnkn@rnkn.xyz")
+	   (:keywords "faces" "wp")
+	   (:url . "https://github.com/rnkn/astute"))])
  (astyle .
 	 [(0 1 0 1 -4 20200328 616)
 	  ((emacs
@@ -8487,6 +8500,16 @@
 	       (:maintainer "Patrick Thomson" . "patrickt@github.com")
 	       (:keywords "comm")
 	       (:url . "https://github.com/patrickt/codespaces.el"))])
+ (codex-theme .
+	      [(0 1 1 -4 20240914 204)
+	       nil "Codex theme, a simple high contrast theme" tar
+	       ((:commit . "fe5ce22e801423e7a5dafb7b57674e2dffbeb86d")
+		(:authors
+		 ("ağan Korkmaz" . "root@hsnovel.net"))
+		(:maintainers
+		 ("ağan Korkmaz" . "root@hsnovel.net"))
+		(:maintainer "ağan Korkmaz" . "root@hsnovel.net")
+		(:url . "https://github.com/hsnovel/codex-theme"))])
  (codic .
 	[(0 3 1 -4 20150926 1127)
 	 ((emacs
@@ -18169,6 +18192,20 @@
 	(:maintainer "Jonas Bernoulli" . "emacs.elx@jonas.bernoulli.dev")
 	(:keywords "docs" "libraries" "packages")
 	(:url . "https://github.com/emacscollective/elx"))])
+ (elysium .
+	  [(0 0 1 1 -4 20240907 1607)
+	   ((emacs
+	     (27 1))
+	    (gptel
+	     (0 9 0)))
+	   "Automatically apply LLM-created code-suggestions" tar
+	   ((:commit . "030650fdf5ccf1ed137eb5fa69e1cef9365ba004")
+	    (:authors
+	     ("Lance Bergeron" . "bergeron.lance6@gmail.com"))
+	    (:maintainers
+	     ("Lance Bergeron" . "bergeron.lance6@gmail.com"))
+	    (:maintainer "Lance Bergeron" . "bergeron.lance6@gmail.com")
+	    (:url . "https://github.com/lanceberge/elysium/"))])
  (emacs-everywhere .
 		   [(0 1 0 1 -4 20240509 1715)
 		    ((emacs
@@ -38223,19 +38260,6 @@
 	 (:maintainer "Damon Chan" . "elecming@gmail.com")
 	 (:keywords "tools")
 	 (:url . "https://github.com/chenyanming/kana"))])
- (kanagawa-theme .
-		 [(1 0 0 1 -4 20240721 1720)
-		  ((emacs
-		    (24 3)))
-		  "An elegant theme inspired by The Great Wave off Kanagawa" tar
-		  ((:commit . "e1cf4ddb7245031fb214baae95ebbffce27dec06")
-		   (:authors
-		    ("Shira Filianore" . "meritamen@sdf.org"))
-		   (:maintainers
-		    ("Fabio Kleis" . "fabiohkrc@gmail.com"))
-		   (:maintainer "Fabio Kleis" . "fabiohkrc@gmail.com")
-		   (:keywords "themes" "faces")
-		   (:url . "https://github.com/Fabiokleis/emacs-kanagawa-theme"))])
  (kanban .
 	 [(0 2 4 1 -4 20230210 1505)
 	  nil "Parse org-todo headlines to use org-tables as Kanban tables" tar
