@@ -856,11 +856,11 @@
 			(:keywords "calendar" "comm")
 			(:url . "https://github.com/pauldub/activity-watch-mode"))])
  (ada-ts-mode .
-	      [(0 7 0 1 -4 20240713 1754)
+	      [(0 7 1 1 -4 20240915 1446)
 	       ((emacs
 		 (29 1)))
 	       "Major mode for Ada using Tree-sitter" tar
-	       ((:commit . "1e7ea28c1cdfe10a37855105bd47f820bfc90a27")
+	       ((:commit . "99bfa648f5a1a8d935a0540264e0c6b989a3b2b0")
 		(:authors
 		 ("Troy Brown" . "brownts@troybrown.dev"))
 		(:maintainers
@@ -15953,13 +15953,13 @@
 		(:keywords "repeat" "convenience")
 		(:url . "https://github.com/xuchunyang/easy-repeat.el"))])
  (easysession .
-	      [(1 1 0 1 -4 20240914 2204)
+	      [(1 1 0 1 -4 20240915 1519)
 	       ((emacs
 		 (25 1))
 		(f
 		 (0 18 2)))
 	       "Easily persist and restore your editing sessions" tar
-	       ((:commit . "6cc9fdeda12dc647d8e08a1ae4aba9f167d98e2e")
+	       ((:commit . "7c89571d14a3c31e4516a6768076f6effb875774")
 		(:keywords "convenience")
 		(:url . "https://github.com/jamescherti/easysession.el"))])
  (ebdb-mua-sidecar .
@@ -17692,7 +17692,7 @@
 		      (:maintainer "Yinghai Zhao" . "zyinghai@gmail.com")
 		      (:keywords "snippets"))])
  (ellama .
-	 [(0 11 13 1 -4 20240721 1138)
+	 [(0 11 14 1 -4 20240915 1523)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -17702,7 +17702,7 @@
 	   (compat
 	    (29 1)))
 	  "Tool for interacting with LLMs" tar
-	  ((:commit . "8270e71c335b1656384e6c1b9d61c2a7ecc65bbb")
+	  ((:commit . "74767cbd6dc582bd6ce99a83bc84d41bfad4b4ee")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
 	   (:maintainers
@@ -40814,11 +40814,11 @@
 	     (:keywords "abbrev" "convenience" "tools" "c" "lisp")
 	     (:url . "https://github.com/replrep/ll-debug"))])
  (llama .
-	[(0 1 0 1 -4 20240907 1546)
+	[(0 1 0 1 -4 20240915 1629)
 	 ((emacs
 	   (26 1)))
 	 "Compact syntax for short lambda" tar
-	 ((:commit . "763a6746e79ae773ae7951825b681fda42fb439c")
+	 ((:commit . "86115bc3a1c3d4db701687be69126c76c76af653")
 	  (:keywords "extensions")
 	  (:url . "https://github.com/tarsius/llama"))])
  (llama-cpp .
@@ -53723,24 +53723,21 @@
 	     (:keywords "extensions" "tools")
 	     (:url . "https://github.com/zenspider/package"))])
  (package-build .
-		[(4 0 0 50 -4 20240915 1503)
+		[(4 0 0 50 -4 20240915 1552)
 		 ((emacs
 		   (26 1))
 		  (compat
 		   (30 0 0 0)))
 		 "Tools for assembling a package archive" tar
-		 ((:commit . "7d815bb0b8993661b7feeec8c0017219c653599f")
+		 ((:commit . "9756e18fbe951e05dc1fdcb677e1788c0397c970")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		   ("Steve Purcell" . "steve@sanityinc.com")
 		   ("Jonas Bernoulli" . "emacs.package-build@jonas.bernoulli.dev")
 		   ("Phil Hagelberg" . "technomancy@gmail.com"))
 		  (:maintainers
-		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
-		   ("Steve Purcell" . "steve@sanityinc.com")
-		   ("Jonas Bernoulli" . "emacs.package-build@jonas.bernoulli.dev")
-		   ("Phil Hagelberg" . "technomancy@gmail.com"))
-		  (:maintainer "Donald Ephraim Curtis" . "dcurtis@milkbox.net")
+		   ("Jonas Bernoulli" . "emacs.package-build@jonas.bernoulli.dev"))
+		  (:maintainer "Jonas Bernoulli" . "emacs.package-build@jonas.bernoulli.dev")
 		  (:keywords "maint" "tools")
 		  (:url . "https://github.com/melpa/package-build"))])
  (package-filter .
