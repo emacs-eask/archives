@@ -4798,13 +4798,13 @@
 	     (:keywords "c" "convenience" "tools")
 	     (:url . "http://github.com/josteink/bmx-mode"))])
  (bnf-mode .
-	   [(0 4 5 1 -4 20240915 1252)
+	   [(0 4 5 1 -4 20240915 2118)
 	    ((cl-lib
 	      (0 5))
 	     (emacs
 	      (27 1)))
 	    "Major mode for editing BNF grammars." tar
-	    ((:commit . "a8fd3f4c28c44c0cfa0cc98932f320491a080e10")
+	    ((:commit . "5304ab647e04916c5be4fdde41477ad429a89120")
 	     (:authors
 	      ("Serghei Iakovlev" . "gnu@serghei.pl"))
 	     (:maintainers
@@ -50804,7 +50804,7 @@
 		  (:keywords "processes" "outlines")
 		  (:url . "https://github.com/AntonHakansson/"))])
  (org-node .
-	   [(0 1 0 1 -4 20240909 1940)
+	   [(0 1 0 1 -4 20240915 1605)
 	    ((emacs
 	      (28 1))
 	     (compat
@@ -50812,11 +50812,11 @@
 	     (dash
 	      (2 19 1))
 	     (transient
-	      (0 7 4))
+	      (0 4 3))
 	     (persist
 	      (0 6 1)))
 	    "Link org-id entries into a network" tar
-	    ((:commit . "faecba314546e0fd080ea33e61e99e02afa13d42")
+	    ((:commit . "e7159dce57d6657f2f914b4941b7a3603a9bdd87")
 	     (:authors
 	      ("Martin Edström" . "meedstrom91@gmail.com"))
 	     (:maintainers
@@ -50825,19 +50825,19 @@
 	     (:keywords "org" "hypermedia")
 	     (:url . "https://github.com/meedstrom/org-node"))])
  (org-node-fakeroam .
-		    [(0 1 0 1 -4 20240915 1605)
+		    [(0 1 0 1 -4 20240915 2017)
 		     ((emacs
 		       (28 1))
 		      (compat
 		       (30))
 		      (org-node
-		       (0 7))
+		       (0))
 		      (org-roam
 		       (2 2 2))
 		      (emacsql
 		       (4 0 0)))
 		     "Stand-ins for org-roam-autosync-mode" tar
-		     ((:commit . "575dfa93af90571fe7946db2100b4446a7308bac")
+		     ((:commit . "32c09a3e08a4c0c7bd1455fab98a78cebd2cfdeb")
 		      (:authors
 		       ("Martin Edström" . "meedstrom91@gmail.com"))
 		      (:maintainers
@@ -58253,7 +58253,7 @@
 	    (:keywords "python" "testing" "py.test")
 	    (:url . "https://github.com/Bogdanp/py-test.el"))])
  (py-vterm-interaction .
-		       [(1 0 6 1 -4 20240915 1759)
+		       [(1 0 6 1 -4 20240915 2042)
 			((emacs
 			  (27 1))
 			 (vterm
@@ -58261,7 +58261,7 @@
 			 (python
 			  (0 28)))
 			"A mode for Python REPL using vterm" tar
-			((:commit . "47b1254f4f2c43d0e039ab713b424391e7bfbc40")
+			((:commit . "95d6842790767c5b8ed1043c1a10c437d955b436")
 			 (:maintainers
 			  ("Valentin Boettcher" . "hiroatprotagon.space"))
 			 (:maintainer "Valentin Boettcher" . "hiroatprotagon.space")
