@@ -26961,6 +26961,21 @@
 	       (:maintainer "Jose A Ortega Ruiz" . "jao@gnu.org")
 	       (:keywords "languages" "mit" "scheme" "geiser")
 	       (:url . "https://gitlab.com/emacs-geiser/mit"))])
+ (geiser-overlay .
+		 [(1 1 0 1 -4 20240911 832)
+		  ((emacs
+		    (24 4))
+		   (geiser
+		    (0 31)))
+		  "Overlay Scheme evaluation results" tar
+		  ((:commit . "b9a353a9b4892c05db5e0dda0ab5bb43aeddf3d3")
+		   (:authors
+		    ("port19" . "port19@port19.xyz"))
+		   (:maintainers
+		    ("port19" . "port19@port19.xyz"))
+		   (:maintainer "port19" . "port19@port19.xyz")
+		   (:keywords "lisp" "scheme")
+		   (:url . "https://github.com/port19x/geiser-overlay"))])
  (geiser-racket .
 		[(0 16 1 -4 20210421 125)
 		 ((emacs
@@ -28205,6 +28220,18 @@
 		((:commit . "9136a9b737e0a5b6471a91571d104c487c43f35b")
 		 (:keywords "git" "gitolite" "languages")
 		 (:url . "https://github.com/llloret/gitolite-emacs"))])
+ (glass-tty-theme .
+		  [(1 0 0 1 -4 20240909 1259)
+		   ((emacs
+		     (24 1)))
+		   "Reverse video-like theme for the Glass TTY VT220 font" tar
+		   ((:commit . "59126e888d9a237c6a0461e3712665d543f1320d")
+		    (:authors
+		     ("Matthew X. Economou" . "xenophon+glass-tty-theme@irtnog.org"))
+		    (:maintainers
+		     ("Matthew X. Economou" . "xenophon+glass-tty-theme@irtnog.org"))
+		    (:maintainer "Matthew X. Economou" . "xenophon+glass-tty-theme@irtnog.org")
+		    (:url . "https://github.com/irtnog/glass-tty-theme"))])
  (gleam-ts-mode .
 		[(0 1 0 1 -4 20240819 1355)
 		 ((emacs
@@ -34087,11 +34114,11 @@
 	     (:keywords "convenience" "html" "org")
 	     (:url . "http://github.com/lujun9972/html2org.el"))])
  (htmlize .
-	  [(1 57 1 -4 20240527 1456)
+	  [(1 58 1 -4 20240915 1657)
 	   ((emacs
 	     (25 1)))
 	   "Convert buffer text and decorations to HTML." tar
-	   ((:commit . "ed5e5b05fd260e8f161a488d56f10e7f6e01fb75")
+	   ((:commit . "8e3841c837b4b78bd72ad7f0436e919f39315a46")
 	    (:authors
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:maintainers
@@ -38260,6 +38287,19 @@
 	 (:maintainer "Damon Chan" . "elecming@gmail.com")
 	 (:keywords "tools")
 	 (:url . "https://github.com/chenyanming/kana"))])
+ (kanagawa-themes .
+		  [(1 0 0 1 -4 20240910 1649)
+		   ((emacs
+		     (24 3)))
+		   "Elegant theme inspired by The Great Wave off Kanagawa" tar
+		   ((:commit . "94418acc89f789f4172c5f68b2afacd784bf176d")
+		    (:authors
+		     ("Meritamen" . "meritamen@sdf.org"))
+		    (:maintainers
+		     ("Fabio Kleis" . "fabiohkrc@gmail.com"))
+		    (:maintainer "Fabio Kleis" . "fabiohkrc@gmail.com")
+		    (:keywords "themes" "faces")
+		    (:url . "https://github.com/Fabiokleis/kanagawa-emacs"))])
  (kanban .
 	 [(0 2 4 1 -4 20230210 1505)
 	  nil "Parse org-todo headlines to use org-tables as Kanban tables" tar
@@ -48882,6 +48922,19 @@
 			[(0 2 0 1 -4 20161111 2120)
 			 nil "A dark theme, with cold bluish touch." tar
 			 ((:commit . "66f99633e199e65bd28641626435e8e59246529a"))])
+ (on .
+     [(0 1 0 1 -4 20221206 600)
+      ((emacs
+	(27 1)))
+      "Hooks for faster startup" tar
+      ((:commit . "3cf623e1a4331e259ef92e49154ed0551f300436")
+       (:authors
+	("Alex Griffin" . "a@ajgrf.com"))
+       (:maintainers
+	("Alex Griffin" . "a@ajgrf.com"))
+       (:maintainer "Alex Griffin" . "a@ajgrf.com")
+       (:keywords "convenience")
+       (:url . "https://gitlab.com/ajgrf/on.el"))])
  (on-parens .
 	    [(0 1 0 1 -4 20210928 1913)
 	     ((dash
@@ -50771,6 +50824,27 @@
 	     (:maintainer "Martin Edström" . "meedstrom91@gmail.com")
 	     (:keywords "org" "hypermedia")
 	     (:url . "https://github.com/meedstrom/org-node"))])
+ (org-node-fakeroam .
+		    [(0 1 0 1 -4 20240915 1605)
+		     ((emacs
+		       (28 1))
+		      (compat
+		       (30))
+		      (org-node
+		       (0 7))
+		      (org-roam
+		       (2 2 2))
+		      (emacsql
+		       (4 0 0)))
+		     "Stand-ins for org-roam-autosync-mode" tar
+		     ((:commit . "575dfa93af90571fe7946db2100b4446a7308bac")
+		      (:authors
+		       ("Martin Edström" . "meedstrom91@gmail.com"))
+		      (:maintainers
+		       ("Martin Edström" . "meedstrom91@gmail.com"))
+		      (:maintainer "Martin Edström" . "meedstrom91@gmail.com")
+		      (:keywords "org" "hypermedia")
+		      (:url . "https://github.com/meedstrom/org-node-fakeroam"))])
  (org-notebook .
 	       [(1 1 1 -4 20170322 452)
 		((emacs
@@ -56974,7 +57048,7 @@
 		    (:keywords "tex")
 		    (:url . "https://github.com/TobiasZawada/preview-dvisvgm"))])
  (prism .
-	[(0 4 -1 1 -4 20240807 147)
+	[(0 4 -1 1 -4 20240915 1804)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -56982,7 +57056,7 @@
 	  (dash
 	   (2 14 1)))
 	 "Customizable, depth-based syntax coloring" tar
-	 ((:commit . "25df8494ee92c65bf66194e0e2663de487f9296b")
+	 ((:commit . "646840f74ffa7c289426b54426f147e126812070")
 	  (:authors
 	   ("Adam Porter" . "adam@alphapapa.net"))
 	  (:maintainers
@@ -58178,6 +58252,21 @@
 	    (:maintainer "Bogdan Paul Popa" . "popa.bogdanp@gmail.com")
 	    (:keywords "python" "testing" "py.test")
 	    (:url . "https://github.com/Bogdanp/py-test.el"))])
+ (py-vterm-interaction .
+		       [(1 0 6 1 -4 20240915 1759)
+			((emacs
+			  (27 1))
+			 (vterm
+			  (0 0 2))
+			 (python
+			  (0 28)))
+			"A mode for Python REPL using vterm" tar
+			((:commit . "47b1254f4f2c43d0e039ab713b424391e7bfbc40")
+			 (:maintainers
+			  ("Valentin Boettcher" . "hiroatprotagon.space"))
+			 (:maintainer "Valentin Boettcher" . "hiroatprotagon.space")
+			 (:keywords "languages" "python")
+			 (:url . "https://github.com/vale981/py-vterm-interaction.el"))])
  (py-yapf .
 	  [(2016 1 1 -4 20160925 1122)
 	   nil "Use yapf to beautify a Python buffer" tar
