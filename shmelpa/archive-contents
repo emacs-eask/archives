@@ -37717,7 +37717,7 @@
 	 (:keywords "languages" "convenience")
 	 (:url . "https://github.com/papaeye/emacs-jscs"))])
  (jsdoc .
-	[(0 3 1 -4 20240916 1846)
+	[(0 3 1 -4 20240916 1856)
 	 ((emacs
 	   (29 1))
 	  (dash
@@ -37725,7 +37725,7 @@
 	  (s
 	   (1 12 0)))
 	 "Insert JSDoc comments" tar
-	 ((:commit . "36d750448eedad47f9f9d2cfd422e5992d6322e3")
+	 ((:commit . "ac520fae2fe089c6c31607c2d4156184db471892")
 	  (:authors
 	   ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
 	  (:maintainers
@@ -49857,7 +49857,7 @@
 	     (2 12 0))
 	    (emacs
 	     (24)))
-	   "minor mode for d20 tabletop roleplaying games" tar
+	   "Minor mode for d20 tabletop roleplaying games" tar
 	   ((:commit . "ad399cde0ee21adc67ed0c95ae20900fa936f008")
 	    (:authors
 	     ("Sean Whitton" . "spwhitton@spwhitton.name"))
@@ -51041,24 +51041,6 @@
 		 (:maintainer "Feng Shu" . "tumashu@163.com")
 		 (:keywords "convenience")
 		 (:url . "https://github.com/tumashu/org-picklink"))])
- (org-pivotal .
-	      [(0 1 1 -4 20210705 408)
-	       ((a
-		 (0 1 1))
-		(dash
-		 (2 18 0))
-		(emacs
-		 (26 1))
-		(request
-		 (0 3 0)))
-	       "Sync Pivotal Tracker to org buffer" tar
-	       ((:commit . "91b675f696b83fd63d4171fa731b09c50327b008")
-		(:authors
-		 ("Huy Duong" . "qhuyduong@hotmail.com"))
-		(:maintainers
-		 ("Huy Duong" . "qhuyduong@hotmail.com"))
-		(:maintainer "Huy Duong" . "qhuyduong@hotmail.com")
-		(:url . "https://github.com/org-pivotal/org-pivotal"))])
  (org-pomodoro .
 	       [(2 1 0 1 -4 20220318 1618)
 		((alert
@@ -53306,19 +53288,6 @@
 	    (:maintainer "Kaushal Modi" . "kaushal.modi@gmail.com")
 	    (:keywords "org" "markdown" "docs")
 	    (:url . "https://ox-hugo.scripter.co"))])
- (ox-impress-js .
-		[(0 1 1 -4 20150412 1716)
-		 ((org
-		   (8)))
-		 "impress.js Back-End for Org Export Engine" tar
-		 ((:commit . "91c6d2af6af308ade352a03355c4fb551b238c6b")
-		  (:authors
-		   ("Takumi Kinjo <takumi dot kinjo at gmail dot org>"))
-		  (:maintainers
-		   ("Takumi Kinjo <takumi dot kinjo at gmail dot org>"))
-		  (:maintainer "Takumi Kinjo <takumi dot kinjo at gmail dot org>")
-		  (:keywords "outlines" "hypermedia" "calendar" "wp")
-		  (:url . "https://github.com/kinjo/org-impress-js.el"))])
  (ox-jekyll-md .
 	       [(0 1 1 -4 20211222 1718)
 		nil "Export Jekyll on Markdown articles using org-mode" tar
@@ -70868,19 +70837,6 @@
 		       (:maintainer "Justin Talbott" . "justin@waymondo.com")
 		       (:keywords "convenience" "tools" "extensions")
 		       (:url . "https://github.com/jwiegley/use-package"))])
- (use-package-el-get .
-		     [(0 1 1 -4 20180131 505)
-		      ((use-package
-			(1 0)))
-		      "el-get support for use package" tar
-		      ((:commit . "f33c448ed43ecb003b60ff601ee7ef9b08cff947")
-		       (:authors
-			("Edward Knyshov" . "edvorg@gmail.com"))
-		       (:maintainers
-			("Edward Knyshov" . "edvorg@gmail.com"))
-		       (:maintainer "Edward Knyshov" . "edvorg@gmail.com")
-		       (:keywords "dotemacs" "startup" "speed" "config" "package" "tools")
-		       (:url . "https://github.com/edvorg/use-package-el-get"))])
  (use-package-ensure-system-package .
 				    [(0 2 1 -4 20221209 2013)
 				     ((use-package
