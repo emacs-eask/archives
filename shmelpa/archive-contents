@@ -5077,13 +5077,15 @@
 	(:keywords "background" "async" "process" "management")
 	(:url . "https://github.com/ilya-babanov/emacs-bpr"))])
  (bqn-mode .
-	   [(0 1 0 1 -4 20240910 1638)
+	   [(0 1 0 1 -4 20240916 1439)
 	    ((emacs
 	      (26 1))
 	     (compat
-	      (30 0 0 0)))
+	      (30 0 0 0))
+	     (eros
+	      (0 1 0)))
 	    "Emacs mode for BQN" tar
-	    ((:commit . "2471b5e1b90c678db5732305723f24642b7dec38")
+	    ((:commit . "668e3f5fcbcb8532b185467e6a2d69ac809871fe")
 	     (:authors
 	      ("Marshall Lochbaum" . "mwlochbaum@gmail.com"))
 	     (:maintainers
@@ -6920,13 +6922,13 @@
 	    (:keywords "unicode" "character" "ucs")
 	    (:url . "https://github.com/lateau/charmap"))])
  (chatgpt-shell .
-		[(1 6 1 1 -4 20240914 1021)
+		[(1 6 1 1 -4 20240916 1625)
 		 ((emacs
 		   (27 1))
 		  (shell-maker
-		   (0 52 1)))
+		   (0 53 1)))
 		 "ChatGPT shell + buffer insert commands" tar
-		 ((:commit . "ebcb5673452fe8bbd6091813412cda8174408943")
+		 ((:commit . "b7515ec406b9595365cca246f3ee18909995539f")
 		  (:url . "https://github.com/xenodium/chatgpt-shell"))])
  (chatu .
 	[(0 1 1 -4 20240518 615)
@@ -55770,11 +55772,11 @@
 		 (:keywords "docs" "help" "lisp" "maint" "outlines" "tools")
 		 (:url . "https://github.com/Boruch-Baum/emacs-pkg-overview"))])
  (pkgbuild-mode .
-		[(1 0 -4 20240531 1602)
+		[(1 0 -4 20240916 1630)
 		 ((emacs
 		   (26 1)))
 		 "Interface to the Arch Linux package manager" tar
-		 ((:commit . "8ef396d8fa9187b65c065a6bc2ca15dfaf3255df")
+		 ((:commit . "8fe743b9a59a9a96fcfd322f1837f7d3d624b7c5")
 		  (:authors
 		   ("Juergen Hoetzel" . "juergen@hoetzel.info"))
 		  (:maintainers
