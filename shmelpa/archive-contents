@@ -50806,7 +50806,7 @@
 		  (:keywords "processes" "outlines")
 		  (:url . "https://github.com/AntonHakansson/"))])
  (org-node .
-	   [(0 1 0 1 -4 20240917 928)
+	   [(0 1 0 1 -4 20240917 1724)
 	    ((emacs
 	      (28 1))
 	     (compat
@@ -50818,7 +50818,7 @@
 	     (persist
 	      (0 6 1)))
 	    "Link org-id entries into a network" tar
-	    ((:commit . "d2cf200c5379a7e4d7220b681fb8813c36dc4a2b")
+	    ((:commit . "4157a01bc132e60c85818857bc163112f9753d28")
 	     (:authors
 	      ("Martin Edström" . "meedstrom91@gmail.com"))
 	     (:maintainers
@@ -50827,7 +50827,7 @@
 	     (:keywords "org" "hypermedia")
 	     (:url . "https://github.com/meedstrom/org-node"))])
  (org-node-fakeroam .
-		    [(0 1 0 1 -4 20240917 1729)
+		    [(0 1 0 1 -4 20240917 1923)
 		     ((emacs
 		       (28 1))
 		      (compat
@@ -50839,7 +50839,7 @@
 		      (emacsql
 		       (4 0 0)))
 		     "Stand-ins for org-roam-autosync-mode" tar
-		     ((:commit . "17807fa58e1e46b6e8206d0a921be0d9e28614ee")
+		     ((:commit . "8682b838bce8fffef56624d105c0e303cc841197")
 		      (:authors
 		       ("Martin Edström" . "meedstrom91@gmail.com"))
 		      (:maintainers
@@ -71423,11 +71423,13 @@
 		(:keywords "verilog" "ide" "tools")
 		(:url . "https://github.com/gmlarumbe/verilog-ext"))])
  (verilog-ts-mode .
-		  [(0 2 1 1 -4 20240912 1408)
+		  [(0 2 1 1 -4 20240917 1859)
 		   ((emacs
-		     (29 1)))
+		     (29 1))
+		    (verilog-mode
+		     (2024 3 1 121933719)))
 		   "Verilog Tree-sitter major mode" tar
-		   ((:commit . "af4b4c7e9357c0902ee6640a203816463793d6ba")
+		   ((:commit . "a2eac50542fcbd7f72512084ded2a518fd83775a")
 		    (:authors
 		     ("Gonzalo Larumbe" . "gonzalomlarumbe@gmail.com"))
 		    (:maintainers
