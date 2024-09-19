@@ -18364,13 +18364,13 @@
 	  (:keywords "convenience" "keyboard" "keymap" "utility")
 	  (:url . "https://github.com/GuiltyDolphin/emaps"))])
  (embark .
-	 [(1 1 1 -4 20240724 1801)
+	 [(1 1 1 -4 20240919 1831)
 	  ((emacs
-	    (27 1))
+	    (28 1))
 	   (compat
 	    (30)))
 	  "Conveniently act on minibuffer completions" tar
-	  ((:commit . "19a13e344e04bbf861eaa74491b23da52b398672")
+	  ((:commit . "718f0f293440b2d5e951c6c4a88ee548180af016")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	   (:maintainers
@@ -18379,17 +18379,17 @@
 	   (:keywords "convenience")
 	   (:url . "https://github.com/oantolin/embark"))])
  (embark-consult .
-		 [(1 1 1 -4 20240717 2103)
+		 [(1 1 1 -4 20240919 1831)
 		  ((emacs
-		    (27 1))
+		    (28 1))
 		   (compat
 		    (30))
 		   (embark
-		    (1 0))
+		    (1 1))
 		   (consult
-		    (1 7)))
+		    (1 8)))
 		  "Consult integration for Embark" tar
-		  ((:commit . "4ddbe6326bc596a05b574cf0109acdb5a79bc748")
+		  ((:commit . "718f0f293440b2d5e951c6c4a88ee548180af016")
 		   (:authors
 		    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 		   (:maintainers
@@ -30507,13 +30507,13 @@
 		(:keywords "faces")
 		(:url . "https://github.com/ibakepunk/helix-theme"))])
  (helm .
-       [(4 0 1 -4 20240919 642)
+       [(4 0 1 -4 20240919 1800)
 	((helm-core
 	  (4 0))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "5f3a973daf27a9cd4ec573c271fa42a2109021e8")
+	((:commit . "f728686f9df5fcd20dbdc4fb8efd0f05b4b7f167")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
