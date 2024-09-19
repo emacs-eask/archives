@@ -15549,11 +15549,13 @@
 		(:keywords "languages")
 		(:url . "https://github.com/purcell/emacs-dune-format"))])
  (duplexer .
-	   [(0 1 0 1 -4 20230903 1836)
+	   [(0 2 0 1 -4 20240919 1018)
 	    ((emacs
-	      (26 3)))
+	      (29 1))
+	     (dash
+	      (2 19 1)))
 	    "Handle conflicts between local minor modes and reuse rules" tar
-	    ((:commit . "aa617ffa1cc37a06ce89a02fd8b38963e09fd4f3")
+	    ((:commit . "883e9e24f1c7bb7132c1eac0bf5bedf78081058f")
 	     (:authors
 	      ("liuyinz" . "liuyinz95@gmail.com"))
 	     (:maintainers
@@ -30505,13 +30507,13 @@
 		(:keywords "faces")
 		(:url . "https://github.com/ibakepunk/helix-theme"))])
  (helm .
-       [(4 0 1 -4 20240910 956)
+       [(4 0 1 -4 20240919 642)
 	((helm-core
 	  (4 0))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "eef5d8b918f2504ef3aa398caf1c0e5d51159036")
+	((:commit . "5f3a973daf27a9cd4ec573c271fa42a2109021e8")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -30997,13 +30999,13 @@
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com")
 		 (:url . "https://github.com/Sodel-the-Vociferous/helm-company"))])
  (helm-core .
-	    [(4 0 1 -4 20240913 525)
+	    [(4 0 1 -4 20240918 712)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 8)))
 	     "Development files for Helm" tar
-	     ((:commit . "2d6718ef0938ad193a98b60534cd5170b2a1eabd")
+	     ((:commit . "c2dcd1cc1cc50993a12ca20eb91244d9933716e9")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainers
