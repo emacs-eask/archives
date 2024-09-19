@@ -611,7 +611,7 @@
 			 ("Clemens Radermacher" . "clemera@posteo.net"))
 			(:commit . "72131b92b74b24e1c1851233ddbfc1225f33322a"))])
  (cobol-mode .
-	     [(1 1 0 20240505 191317)
+	     [(1 1 0 20240702 201136)
 	      ((cl-lib
 		(0 5)))
 	      "Mode for editing COBOL code" tar
@@ -620,7 +620,7 @@
 	       (:authors
 		("Edward Hart" . "edward.dan.hart@gmail.com"))
 	       (:url . "https://elpa.gnu.org/packages/cobol-mode.html")
-	       (:commit . "c8af9effa96666f0b74812f5d07ab7ba60ae4214"))])
+	       (:commit . "16058362f62a89e0ca5287c2165859970e617038"))])
  (code-cells .
 	     [(0 4 0 20240809 93222)
 	      ((emacs
@@ -800,7 +800,7 @@
 		      ("Jackson Ray Hamilton" . "jackson@jacksonrayhamilton.com"))
 		     (:commit . "75a8c811874c231b49729e76c696824463e54402"))])
  (corfu .
-	[(1 5 0 20240912 173137)
+	[(1 5 0 20240919 154740)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -811,7 +811,7 @@
 	  (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	  (:commit . "12c30824b3d177cc3a65eba440c5cf499e06017a"))])
+	  (:commit . "9affbbb03b4e3d03d520c5f82377057e8df8aaa9"))])
  (coterm .
 	 [(1 6 0 20221015 160420)
 	  ((emacs
@@ -1321,7 +1321,7 @@
 	 ("Eduardo Ochs" . "eduardoochs@gmail.com"))
 	(:commit . "c88e745c65a740f11004e0d1c1108a052ce1acc7"))])
  (ef-themes .
-	    [(1 8 0 0 20240917 63012)
+	    [(1 8 0 0 20240919 104457)
 	     ((emacs
 	       (27 1)))
 	     "Colorful and legible themes" tar
@@ -1330,7 +1330,7 @@
 	      (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	      (:authors
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	      (:commit . "466d1b7444e826448d5f1fb4b25dd768ce13c192"))])
+	      (:commit . "6684589d0ea1c2b540664a9bb3a0fa135c86fa6e"))])
  (eglot .
 	[(1 17 0 20240829 5352)
 	 ((emacs
@@ -1450,9 +1450,9 @@
 		    ("Ihor Radchenko" . "yantar92@posteo.net"))
 		   (:commit . "05d669e123f411c9582f99a9a6182efa43d01a6b"))])
  (embark .
-	 [(1 1 0 20240724 120153)
+	 [(1 1 0 20240919 123158)
 	  ((emacs
-	    (27 1))
+	    (28 1))
 	   (compat
 	    (30)))
 	  "Conveniently act on minibuffer completions" tar
@@ -1461,24 +1461,24 @@
 	   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-	   (:commit . "19a13e344e04bbf861eaa74491b23da52b398672"))])
+	   (:commit . "718f0f293440b2d5e951c6c4a88ee548180af016"))])
  (embark-consult .
-		 [(1 1 0 20240724 120153)
+		 [(1 1 0 20240919 123158)
 		  ((emacs
-		    (27 1))
+		    (28 1))
 		   (compat
 		    (30))
 		   (embark
-		    (1 0))
+		    (1 1))
 		   (consult
-		    (1 7)))
+		    (1 8)))
 		  "Consult integration for Embark" tar
 		  ((:url . "https://github.com/oantolin/embark")
 		   (:keywords "convenience")
 		   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx")
 		   (:authors
 		    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
-		   (:commit . "19a13e344e04bbf861eaa74491b23da52b398672"))])
+		   (:commit . "718f0f293440b2d5e951c6c4a88ee548180af016"))])
  (ement .
 	[(0 16 -1 0 20240910 194859)
 	 ((emacs
@@ -1628,7 +1628,7 @@
 		 ("Thomas Fitzsimmons" . "fitzsim@fitzsim.org"))
 		(:commit . "8d1167ac47aa88265546ee7a82fd49ff6f9c8d66"))])
  (expand-region .
-		[(1 0 0 0 20240119 103925)
+		[(1 0 0 0 20240919 142744)
 		 ((emacs
 		   (24 4)))
 		 "Increase selected region by semantic units." tar
@@ -1637,7 +1637,7 @@
 		  (:maintainer "Magnar Sveen" . "magnars@gmail.com")
 		  (:authors
 		   ("Magnar Sveen" . "magnars@gmail.com"))
-		  (:commit . "e8f4e0fe9c9a80a6a26e2b438502aba9a799d580"))])
+		  (:commit . "541d971f7c77ca5c0f66c88bcbfeb0d165883023"))])
  (expreg .
 	 [(1 3 1 0 20230915 150818)
 	  ((emacs
@@ -2158,7 +2158,7 @@
 	   ("Durand" . "mmemmew@gmail.com"))
 	  (:commit . "8f221c58a8c694112738e346c630d4d49a41d967"))])
  (indent-bars .
-	      [(0 7 4 0 20240918 182308)
+	      [(0 7 4 0 20240919 155641)
 	       ((emacs
 		 (27 1))
 		(compat
@@ -2169,7 +2169,7 @@
 		(:maintainer "J.D. Smith" . "jdtsmith+elpa@gmail.com")
 		(:authors
 		 ("J.D. Smith" . "jdtsmith+elpa@gmail.com"))
-		(:commit . "8a0c294841f9897ad26dd8c2251f5e4a6011924c"))])
+		(:commit . "d39b1e3e67ec74d6642bcc904a03be1e5fbf664a"))])
  (inspector .
 	    [(0 38 0 20240911 94847)
 	     ((emacs
@@ -2824,14 +2824,14 @@
 	    (:url . "https://elpa.gnu.org/packages/mpdired.html")
 	    (:commit . "3065192e37cf49e73e8020d001587a0f0d1a953e"))])
  (multi-mode .
-	     [(1 14 0 20221221 80812)
+	     [(1 14 0 20240919 113013)
 	      nil "support for multiple major modes" tar
 	      ((:url . "http://www.loveshack.ukfsn.org/emacs")
 	       (:keywords "languages" "extensions" "files")
 	       (:maintainer "Dave Love" . "fx@gnu.org")
 	       (:authors
 		("Dave Love" . "fx@gnu.org"))
-	       (:commit . "9abc32d7a04266a6bb21e4dc6081bfa130e9af7f"))])
+	       (:commit . "aa25809db7af993011247d335482400e49d46670"))])
  (multishell .
 	     [(1 1 10 0 20220605 120254)
 	      ((cl-lib
@@ -3185,7 +3185,7 @@
 		("Noboru Ota" . "me@nobiot.com"))
 	       (:commit . "2e6fca7a294ab7a2220b61d2259616eba7046868"))])
  (org-transclusion .
-		   [(1 4 0 0 20240918 173027)
+		   [(1 4 0 0 20240919 122714)
 		    ((emacs
 		      (27 1))
 		     (org
@@ -3196,7 +3196,7 @@
 		     (:maintainer "Noboru Ota" . "me@nobiot.com")
 		     (:authors
 		      ("Noboru Ota" . "me@nobiot.com"))
-		     (:commit . "c33f39988b246ac042c7d3c93d508e56dd074a4f"))])
+		     (:commit . "1edfced7a146f3c5cf720a33874d090c81c60ad9"))])
  (org-translate .
 		[(0 1 4 0 20220312 90634)
 		 ((emacs
@@ -4389,7 +4389,7 @@
 	  ("Adam Porter" . "adam@alphapapa.net"))
 	 (:commit . "3099ae5cb27a34961e06a3af67555919c62c12d7"))])
  (taxy-magit-section .
-		     [(0 14 1 0 20240908 40452)
+		     [(0 14 2 0 20240919 62537)
 		      ((emacs
 			(26 3))
 		       (magit-section
@@ -4402,7 +4402,7 @@
 		       (:maintainer "Adam Porter" . "adam@alphapapa.net")
 		       (:authors
 			("Adam Porter" . "adam@alphapapa.net"))
-		       (:commit . "72e9f381f9bdfe114f86b646ce4c6b2bd40c9be5"))])
+		       (:commit . "b7b60a4be829c28420e3a589ddf3141e4896038b"))])
  (temp-buffer-browse .
 		     [(1 5 0 20160804 124501)
 		      ((emacs
