@@ -50808,19 +50808,21 @@
 		  (:keywords "processes" "outlines")
 		  (:url . "https://github.com/AntonHakansson/"))])
  (org-node .
-	   [(0 1 0 1 -4 20240918 835)
+	   [(0 1 0 1 -4 20240919 2257)
 	    ((emacs
 	      (28 1))
 	     (compat
 	      (30))
-	     (dash
-	      (2 19 1))
 	     (transient
 	      (0 4 3))
 	     (persist
-	      (0 6 1)))
+	      (0 6 1))
+	     (llama
+	      (0))
+	     (seq
+	      (2 24)))
 	    "Link org-id entries into a network" tar
-	    ((:commit . "5dcb4c010c16352c95dd1975931d759a8f7d9658")
+	    ((:commit . "1bdd456e0f0aafdb96d3dfc2d48dbbd65e42d6a6")
 	     (:authors
 	      ("Martin Edström" . "meedstrom91@gmail.com"))
 	     (:maintainers
@@ -50829,7 +50831,7 @@
 	     (:keywords "org" "hypermedia")
 	     (:url . "https://github.com/meedstrom/org-node"))])
  (org-node-fakeroam .
-		    [(0 1 0 1 -4 20240917 1923)
+		    [(0 1 0 1 -4 20240919 2329)
 		     ((emacs
 		       (28 1))
 		      (compat
@@ -50839,9 +50841,11 @@
 		      (org-roam
 		       (2 2 2))
 		      (emacsql
-		       (4 0 0)))
+		       (4 0 3))
+		      (persist
+		       (0 6 1)))
 		     "Stand-ins for org-roam-autosync-mode" tar
-		     ((:commit . "8682b838bce8fffef56624d105c0e303cc841197")
+		     ((:commit . "fa94304ae8c5cb039770f861ffdb0690898e52dd")
 		      (:authors
 		       ("Martin Edström" . "meedstrom91@gmail.com"))
 		      (:maintainers
