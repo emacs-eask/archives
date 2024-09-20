@@ -25969,7 +25969,7 @@
 		     "Emacs theme with a dark background" tar
 		     ((:commit . "58096ce1a25615d2bae806c3775bae3e2775019d"))])
  (forge .
-	[(0 4 3 1 -4 20240909 1304)
+	[(0 4 3 1 -4 20240920 1417)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -25995,7 +25995,7 @@
 	  (yaml
 	   (0 5 5)))
 	 "Access Git forges from Magit" tar
-	 ((:commit . "612eb4203b9cbef7708074086caeea9f3499af78")
+	 ((:commit . "84e3e1cec2fe2ed39645e16c41bfbd9c5b8fd4c0")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
 	  (:maintainers
@@ -44661,11 +44661,11 @@
 		   (:keywords "startup" "lisp" "tools")
 		   (:url . "https://github.com/SidharthArya/modular-config.el"))])
  (modus-themes .
-	       [(4 5 0 1 -4 20240908 439)
+	       [(4 5 0 1 -4 20240920 1450)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
-		((:commit . "c2cb0404c33ebc1a38faf59fa1755679c435e219")
+		((:commit . "19e91f9e72cd79af1d7305bb7aae0c9ae18ccba4")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:maintainers
@@ -50808,21 +50808,15 @@
 		  (:keywords "processes" "outlines")
 		  (:url . "https://github.com/AntonHakansson/"))])
  (org-node .
-	   [(0 1 0 1 -4 20240919 2257)
+	   [(0 1 0 1 -4 20240920 1511)
 	    ((emacs
 	      (28 1))
 	     (compat
 	      (30))
-	     (transient
-	      (0 4 3))
-	     (persist
-	      (0 6 1))
 	     (llama
-	      (0))
-	     (seq
-	      (2 24)))
+	      (0)))
 	    "Link org-id entries into a network" tar
-	    ((:commit . "1bdd456e0f0aafdb96d3dfc2d48dbbd65e42d6a6")
+	    ((:commit . "8dd8d324ecceda52b54d33febd48698ee0db3718")
 	     (:authors
 	      ("Martin Edström" . "meedstrom91@gmail.com"))
 	     (:maintainers
