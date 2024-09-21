@@ -55107,13 +55107,13 @@
 	    (:maintainer "Alexander Miller" . "alexanderm@web.de")
 	    (:url . "https://github.com/Alexander-Miller/pfuture"))])
  (pg .
-     [(0 41 1 -4 20240831 1158)
+     [(0 42 1 -4 20240921 1119)
       ((emacs
 	(28 1))
        (peg
 	(1 0)))
       "Emacs Lisp socket-level interface to the PostgreSQL RDBMS" tar
-      ((:commit . "1adb48ffcf7577256661b9220f6395b54b8ea7a3")
+      ((:commit . "c4b050c52a31aab0ca27d9c24bdb5eb71cd8764e")
        (:authors
 	("Eric Marsden" . "eric.marsden@risk-engineering.org"))
        (:maintainers
@@ -61577,9 +61577,13 @@
 			(:keywords "sb2" "mb2" "building" "scratchbox" "sailfish")
 			(:url . "https://github.com/vityafx/sailfish-scratchbox.el"))])
  (sakura-theme .
-	       [(1 0 1 1 -4 20220822 254)
-		nil "Filled with cherry blossoms" tar
-		((:commit . "d78648632a94dd5354d2fed0f94fcb7aece29132")
+	       [(1 0 2 1 -4 20240921 1028)
+		((autothemer
+		  (0 2))
+		 (emacs
+		  (24)))
+		"Filled with cherry blossoms" tar
+		((:commit . "22d36d0a9b05e4e24ec701c585145b032e42bc7a")
 		 (:url . "http://github.com/emacsfodder/emacs-theme-sakura"))])
  (salesforce-utils .
 		   [(1 0 1 -4 20160814 154)
