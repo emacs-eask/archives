@@ -20931,9 +20931,11 @@
 			(:keywords "convenience" "evil")
 			(:url . "http://github.com/redguardtoo/evil-nerd-commenter"))])
  (evil-nl-break-undo .
-		     [(0 1 0 1 -4 20181125 2054)
-		      nil "Break evil's undo sequence on CR" tar
-		      ((:commit . "8acaecadd32937f6f1d8c3f8141fcee0de7d324e")
+		     [(0 1 0 1 -4 20240921 953)
+		      ((evil
+			(0)))
+		      "Break evil's undo sequence on CR" tar
+		      ((:commit . "fabd063c097f1b23112a29936dc5be5214153a0d")
 		       (:authors
 			("VanLaser" . "Gabriel.Lazar@com.utcluj.ro"))
 		       (:maintainers
