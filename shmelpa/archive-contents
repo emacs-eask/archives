@@ -19442,6 +19442,23 @@
 	 (:maintainer "Tianxiang Xiong" . "tianxiang.xiong@gmail.com")
 	 (:keywords "convenience" "lisp")
 	 (:url . "https://github.com/xiongtx/eros"))])
+ (eros-inspector .
+		 [(1 0 0 1 -4 20240920 909)
+		  ((emacs
+		    (24 4))
+		   (eros
+		    (0 1 0))
+		   (inspector
+		    (0 38)))
+		  "Glue between eros and inspector" tar
+		  ((:commit . "1558048128ef7bf1883437b2d517ab31aed16a64")
+		   (:authors
+		    ("port19" . "port19@port19.xyz"))
+		   (:maintainers
+		    ("port19" . "port19@port19.xyz"))
+		   (:maintainer "port19" . "port19@port19.xyz")
+		   (:keywords "convenience" "lisp" "tool" "debugging" "development")
+		   (:url . "https://github.com/port19x/eros-inspector"))])
  (ert-async .
 	    [(0 1 2 1 -4 20200105 1031)
 	     ((emacs
@@ -33496,11 +33513,11 @@
 			       (:keywords "convenience")
 			       (:url . "https://github.com/dgutov/highlight-escape-sequences"))])
  (highlight-function-calls .
-			   [(0 2 -1 1 -4 20240112 731)
+			   [(0 2 -1 1 -4 20240922 1826)
 			    ((emacs
 			      (24 4)))
 			    "Highlight function/macro calls" tar
-			    ((:commit . "dd9d78bff973bbf2dbc6bdbc3a18d5d6ebcee737")
+			    ((:commit . "3037e64c740e799ecefd06419cc1ceffca6320b5")
 			     (:authors
 			      ("Adam Porter" . "adam@alphapapa.net"))
 			     (:maintainers
@@ -38544,7 +38561,7 @@
 	     (:keywords "convenience")
 	     (:url . "https://github.com/conao3/keg.el"))])
  (kele .
-       [(0 4 1 1 -4 20240621 2110)
+       [(0 4 1 1 -4 20240922 2012)
 	((emacs
 	  (29 1))
 	 (async
@@ -38564,7 +38581,7 @@
 	 (yaml
 	  (0 5 1)))
 	"Spritzy Kubernetes cluster management" tar
-	((:commit . "2460094aede77054f3200c61d807a445e3b79c9a")
+	((:commit . "9d0763776642b98094bfdfd4802a6038b5b732e9")
 	 (:authors
 	  ("Jonathan Jin" . "me@jonathanj.in"))
 	 (:maintainers
@@ -52943,9 +52960,11 @@
 	      (:keywords "convenience")
 	      (:url . "https://github.com/gonewest818/osx-plist"))])
  (osx-pseudo-daemon .
-		    [(2 2 1 -4 20211208 137)
-		     nil "Daemon mode that plays nice with OSX" tar
-		     ((:commit . "b95260ff605f67bce40fce6b3e35811859ce12bb")
+		    [(2 2 1 -4 20240922 2024)
+		     ((mac-pseudo-daemon
+		       (2 2)))
+		     "Daemon mode that plays nice with OSX" tar
+		     ((:commit . "c2326fe5baf53790d51386a75f09a114e0678c5e")
 		      (:keywords "convenience" "osx")
 		      (:url . "https://github.com/DarwinAwardWinner/mac-pseudo-daemon"))])
  (osx-trash .
