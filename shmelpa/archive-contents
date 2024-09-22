@@ -10174,6 +10174,21 @@
 			 (:maintainer "Mohsin Kaleem" . "mohkale@kisara.moe")
 			 (:keywords "project" "convenience")
 			 (:url . "https://github.com/mohkale/compile-multi"))])
+ (compile-multi-nerd-icons .
+			   [(0 6 1 -4 20240921 1212)
+			    ((emacs
+			      (28 0))
+			     (nerd-icons-completion
+			      (0 0 1)))
+			    "Affixate `compile-multi' with nerd icons" tar
+			    ((:commit . "d6115349becc71cce3a335bf9b34265fe073e0bf")
+			     (:authors
+			      ("mohsin kaleem" . "mohkale@kisara.moe"))
+			     (:maintainers
+			      ("mohsin kaleem" . "mohkale@kisara.moe"))
+			     (:maintainer "mohsin kaleem" . "mohkale@kisara.moe")
+			     (:keywords "tools" "compile" "build")
+			     (:url . "https://github.com/mohkale/compile-multi"))])
  (compiler-explorer .
 		    [(0 5 0 1 -4 20240617 2114)
 		     ((emacs
@@ -63978,11 +63993,11 @@
 	      ((:commit . "4e6ac09245313cf4018b8e5784b2fca8604269d7")
 	       (:url . "https://github.com/ffevotte/slurm.el"))])
  (slurpbarf .
-	    [(1 0 1 -4 20240920 1811)
+	    [(1 0 1 -4 20240922 1741)
 	     ((emacs
 	       (29 1)))
 	     "Commands for slurping and barfing" tar
-	     ((:commit . "88e3a74330020a6310b1926e6c89579c1b8e0ee7")
+	     ((:commit . "98f0a9a124e46dd16683ff54208fee539945db46")
 	      (:keywords "convenience")
 	      (:url . "https://codeberg.org/vilij/slurpbarf-elcute"))])
  (sly .
@@ -70014,6 +70029,23 @@
 	   ("DEADBLACKCLOVER" . "deadblackclover@protonmail.com"))
 	  (:maintainer "DEADBLACKCLOVER" . "deadblackclover@protonmail.com")
 	  (:url . "https://codeberg.org/deadblackclover/twtxt-el"))])
+ (txl .
+      [(0 0 2 1 -4 20240916 618)
+       ((request
+	 (0 3 2))
+	(guess-language
+	 (0 0 1))
+	(emacs
+	 (24 4)))
+       "Provides machine translation via DeepL's REST API" tar
+       ((:commit . "b60b2127cd342d54cb4f54984e84f6e39da68678")
+	(:authors
+	 ("Titus von der Malsburg" . "malsburg@posteo.de"))
+	(:maintainers
+	 ("Titus von der Malsburg" . "malsburg@posteo.de"))
+	(:maintainer "Titus von der Malsburg" . "malsburg@posteo.de")
+	(:keywords "wp")
+	(:url . "https://github.com/tmalsburg/txl.el"))])
  (typescript-mode .
 		  [(0 4 1 -4 20240603 630)
 		   ((emacs
