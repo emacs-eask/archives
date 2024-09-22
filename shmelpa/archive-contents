@@ -12547,11 +12547,11 @@
 		    (:keywords "extensions" "lisp")
 		    (:url . "https://github.com/magnars/dash.el"))])
  (dashboard .
-	    [(1 9 0 -4 20240823 1529)
+	    [(1 9 0 -4 20240922 1710)
 	     ((emacs
 	       (26 1)))
 	     "A startup screen extracted from Spacemacs" tar
-	     ((:commit . "c9d2dda2cd75e9f6d05be0e52fb126f63e6e7430")
+	     ((:commit . "6257b4afbd10f1238783b05df4067d8325c67c14")
 	      (:authors
 	       ("Rakan Al-Hneiti" . "rakan.alhneiti@gmail.com"))
 	      (:maintainers
@@ -12740,6 +12740,19 @@
        ((:commit . "6728e72f72347d098b7d75ac4c29a7d687cc9ed3")
 	(:keywords "convenience")
 	(:url . "https://gitlab.com/matsievskiysv/display-buffer-control"))])
+ (dbml-mode .
+	    [(1 0 0 1 -4 20240920 1526)
+	     ((emacs
+	       (24 4)))
+	     "Major mode for DBML" tar
+	     ((:commit . "c5252c0cd3645cfeadbed77b9cb613986f60f474")
+	      (:authors
+	       ("Peter Badida" . "keyweeusr@gmail.com"))
+	      (:maintainers
+	       ("Peter Badida" . "keyweeusr@gmail.com"))
+	      (:maintainer "Peter Badida" . "keyweeusr@gmail.com")
+	      (:keywords "convenience" "dbml" "language" "markup" "highlight")
+	      (:url . "https://github.com/KeyWeeUsr/dbml-mode"))])
  (ddate .
 	[(0 0 1 1 -4 20221031 1611)
 	 ((emacs
@@ -17005,6 +17018,19 @@
 	   (:maintainer "Yuuki Arisawa" . "yuuki.ari@gmail.com")
 	   (:keywords "test")
 	   (:url . "https://github.com/uk-ar/el-spy"))])
+ (el-who .
+	 [(1 0 1 -4 20240916 613)
+	  ((emacs
+	    (25 1)))
+	  "A s-expression html DSL library compatible with cl-who" tar
+	  ((:commit . "bfefb23742ac3695578d4b748895df5ccbba6b44")
+	   (:authors
+	    ("Alejandro Gallo" . "aamsgallo@gmail.com"))
+	   (:maintainers
+	    ("Alejandro Gallo" . "aamsgallo@gmail.com"))
+	   (:maintainer "Alejandro Gallo" . "aamsgallo@gmail.com")
+	   (:keywords "lisp" "hypermedia" "docs" "tools" "html" "web")
+	   (:url . "https://github.com/alejandrogallo/el-who"))])
  (el2markdown .
 	      [(0 0 7 1 -4 20170630 1858)
 	       nil "Convert commentary section of elisp files to markdown" tar
@@ -24830,6 +24856,14 @@
 		       (:maintainer "ROCKTAKEY" . "rocktakey@gmail.com")
 		       (:keywords "convenience")
 		       (:url . "https://github.com/ROCKTAKEY/flymake-actionlint"))])
+ (flymake-ansible-lint .
+		       [(1 0 0 1 -4 20240922 1632)
+			((emacs
+			  (26 1)))
+			"A Flymake backend for ansible-lint" tar
+			((:commit . "77a4488e7d13b556db81c6b3edb40e3bca999dfa")
+			 (:keywords "tools")
+			 (:url . "https://github.com/jamescherti/flymake-ansible-lint.el"))])
  (flymake-aspell .
 		 [(0 1 0 1 -4 20240101 1945)
 		  ((emacs
@@ -35282,6 +35316,19 @@
 	      (:maintainer "Sébastien Helleu" . "flashcode@flashtux.org")
 	      (:keywords "tools")
 	      (:url . "https://github.com/flashcode/impostman"))])
+ (incus-tramp .
+	      [(1 1 1 -4 20240917 906)
+	       ((emacs
+		 (24 4)))
+	       "TRAMP integration for Incus containers" tar
+	       ((:commit . "dfeb8381bcde28209bafb45b03bb8d6795aedb61")
+		(:authors
+		 ("Lennart C. Karssen" . "lennart@karssen.org"))
+		(:maintainers
+		 ("Lennart C. Karssen" . "lennart@karssen.org"))
+		(:maintainer "Lennart C. Karssen" . "lennart@karssen.org")
+		(:keywords "incus" "convenience")
+		(:url . "https://gitlab.com/lckarssen/incus-tramp.git"))])
  (indent-control .
 		 [(0 3 4 1 -4 20240512 503)
 		  ((emacs
