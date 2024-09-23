@@ -6442,7 +6442,7 @@
 		      (:keywords "tools")
 		      (:url . "https://github.com/kickingvegas/casual-re-builder"))])
  (casual-suite .
-	       [(1 6 0 1 -4 20240908 2222)
+	       [(1 7 0 1 -4 20240922 2209)
 		((emacs
 		  (29 1))
 		 (casual-calc
@@ -6464,9 +6464,11 @@
 		 (casual-agenda
 		  (1 0 1))
 		 (casual-symbol-overlay
-		  (1 0 1)))
+		  (1 0 1))
+		 (casual-editkit
+		  (1 0 5)))
 		"A suite of opinionated Transient UIs" tar
-		((:commit . "29a8f3eaf8596de619beae88c8330a5b72b472b5")
+		((:commit . "8a62af57216cc3f658ae9ef25bd29f64c3027f92")
 		 (:authors
 		  ("Charles Choi" . "kickingvegas@gmail.com"))
 		 (:maintainers
@@ -15595,6 +15597,19 @@
 		(:maintainer "Steve Purcell" . "steve@sanityinc.com")
 		(:keywords "languages")
 		(:url . "https://github.com/purcell/emacs-dune-format"))])
+ (dup-transform .
+		[(0 2 0 1 -4 20240922 1924)
+		 ((emacs
+		   (29 1)))
+		 "RGB/XY graphics code helpers" tar
+		 ((:commit . "6cbfb9b6fdf811a4e1e2ddad993fb16f35ec7622")
+		  (:authors
+		   ("Gary Oberbrunner" . "garyo@darkstarsystems.com"))
+		  (:maintainers
+		   ("Gary Oberbrunner" . "garyo@darkstarsystems.com"))
+		  (:maintainer "Gary Oberbrunner" . "garyo@darkstarsystems.com")
+		  (:keywords "graphics" "tools" "convenience" "c++" "3d" "video" "rgb")
+		  (:url . "https://github.com/garyo/dup-transform.el"))])
  (duplexer .
 	   [(0 2 0 1 -4 20240919 1018)
 	    ((emacs
@@ -38580,7 +38595,7 @@
 	     (:keywords "convenience")
 	     (:url . "https://github.com/conao3/keg.el"))])
  (kele .
-       [(0 4 1 1 -4 20240922 2012)
+       [(0 4 1 1 -4 20240922 2240)
 	((emacs
 	  (29 1))
 	 (async
@@ -38600,7 +38615,7 @@
 	 (yaml
 	  (0 5 1)))
 	"Spritzy Kubernetes cluster management" tar
-	((:commit . "9d0763776642b98094bfdfd4802a6038b5b732e9")
+	((:commit . "e9d5e8f8d0564611d8e3395e983eb2fa4ad50305")
 	 (:authors
 	  ("Jonathan Jin" . "me@jonathanj.in"))
 	 (:maintainers
