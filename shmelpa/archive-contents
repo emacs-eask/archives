@@ -6348,7 +6348,7 @@
 		 (:keywords "tools")
 		 (:url . "https://github.com/kickingvegas/casual-dired"))])
  (casual-editkit .
-		 [(1 0 7 1 -4 20240923 224)
+		 [(1 0 8 1 -4 20240924 1809)
 		  ((emacs
 		    (29 1))
 		   (casual-lib
@@ -6356,9 +6356,11 @@
 		   (casual-symbol-overlay
 		    (1 0 1))
 		   (magit
-		    (4 0 0)))
+		    (4 0 0))
+		   (transpose-frame
+		    (0 2 1)))
 		  "Transient UI for Symbol Overlay" tar
-		  ((:commit . "5e3ba8468bb68b3dd58688fe751604cc754f6ab3")
+		  ((:commit . "6d8f5897df3b38737f735fd5e96950d5adde2489")
 		   (:authors
 		    ("Charles Choi" . "kickingvegas@gmail.com"))
 		   (:maintainers
@@ -29453,7 +29455,7 @@
 	  (:keywords "comm" "convenience")
 	  (:url . "https://github.com/antonhibl/gptai"))])
  (gptel .
-	[(0 9 0 1 -4 20240923 735)
+	[(0 9 0 1 -4 20240924 1931)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -29461,7 +29463,7 @@
 	  (compat
 	   (29 1 4 1)))
 	 "Interact with ChatGPT or other LLMs" tar
-	 ((:commit . "68e3ed1ad24159d15ea9c3dcbd268212e687132e")
+	 ((:commit . "462078e0bae331348349a3259353ff807c6bfd78")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
 	  (:maintainers
@@ -30609,13 +30611,13 @@
 		(:keywords "faces")
 		(:url . "https://github.com/ibakepunk/helix-theme"))])
  (helm .
-       [(4 0 1 -4 20240924 629)
+       [(4 0 1 -4 20240924 1840)
 	((helm-core
 	  (4 0))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
-	((:commit . "b6f3a0c645ee72406a9608adb499e0dc2845bc27")
+	((:commit . "99f34406aab956ea9420c592bbfd676e043344e6")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainers
@@ -38898,7 +38900,7 @@
 	    (:maintainer "Damien Cassou" . "damien@cassou.me")
 	    (:url . "https://github.com/DamienCassou/khardel"))])
  (khoj .
-       [(1 23 2 1 -4 20240915 1007)
+       [(1 23 3 1 -4 20240924 1944)
 	((emacs
 	  (27 1))
 	 (transient
@@ -38906,7 +38908,7 @@
 	 (dash
 	  (2 19 1)))
 	"Your Second Brain" tar
-	((:commit . "79980feb7b9887ca0d78b627a592e9d3135b6852")
+	((:commit . "0c936cecc0839eaf40aa79508e85037ce05e964b")
 	 (:authors
 	  ("Debanjum Singh Solanky" . "debanjum@khoj.dev")
 	  ("Saba Imran" . "saba@khoj.dev"))
