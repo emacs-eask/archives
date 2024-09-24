@@ -50921,7 +50921,7 @@
 		  (:keywords "processes" "outlines")
 		  (:url . "https://github.com/AntonHakansson/"))])
  (org-node .
-	   [(0 1 0 1 -4 20240924 724)
+	   [(0 1 0 1 -4 20240924 1224)
 	    ((emacs
 	      (28 1))
 	     (compat
@@ -50929,7 +50929,7 @@
 	     (llama
 	      (0)))
 	    "Link org-id entries into a network" tar
-	    ((:commit . "3d7d68e9035ab3acb4cfd59327b82a3dda275ace")
+	    ((:commit . "aff6bbb46b420ce82e60cb2ff645cf67b694345b")
 	     (:authors
 	      ("Martin Edström" . "meedstrom91@gmail.com"))
 	     (:maintainers
@@ -52027,13 +52027,13 @@
 			    (:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com")
 			    (:keywords "extensions"))])
  (org-tag-beautify .
-		   [(0 1 0 1 -4 20240924 635)
+		   [(0 1 0 1 -4 20240924 1346)
 		    ((emacs
 		      (26 1))
 		     (nerd-icons
 		      (0 0 1)))
 		    "Beautify Org mode tags" tar
-		    ((:commit . "5bc2b9523f133d7990d7968fd4f948bd68e06a7e")
+		    ((:commit . "cf8d5544f40b585762e980b04b38acfe54ee0043")
 		     (:keywords "hypermedia")
 		     (:url . "https://repo.or.cz/org-tag-beautify.git"))])
  (org-tagged .
@@ -59158,11 +59158,11 @@
 	  (:keywords "abbrev" "convenience" "matching" "rust" "tools")
 	  (:url . "https://github.com/racer-rust/emacs-racer"))])
  (racket-mode .
-	      [(1 1 -4 20240923 1416)
+	      [(1 1 -4 20240924 159)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
-	       ((:commit . "7ede89ca36c2b23bd1c646b670a59c18740ec354")
+	       ((:commit . "587672012b10ee8456199d78eb4085346f32c11d")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com"))
 		(:url . "https://www.racket-mode.com/"))])
@@ -67300,13 +67300,13 @@
 	    (:keywords "convenience")
 	    (:url . "https://github.com/shuxiao9058/tabnine/"))])
  (tabspaces .
-	    [(1 5 1 -4 20240713 2215)
+	    [(1 5 1 -4 20240924 1414)
 	     ((emacs
 	       (27 1))
 	      (project
 	       (0 8 1)))
 	     "Leverage tab-bar and project for buffer-isolated workspaces" tar
-	     ((:commit . "7ca3131835da6eae52af723ec8a951801b2376f5")
+	     ((:commit . "49bd9508bade2962f72f4fab9ffc12ef31c271f7")
 	      (:authors
 	       ("Colin McLear" . "mclear@fastmail.com"))
 	      (:keywords "convenience" "frames")
@@ -75059,6 +75059,19 @@
 	     (:maintainer "Jen-Chieh" . "jcs090218@gmail.com")
 	     (:keywords "zig" "languages")
 	     (:url . "https://github.com/zig-lang/zig-mode"))])
+ (zig-ts-mode .
+	      [(0 1 0 1 -4 20240924 1421)
+	       ((emacs
+		 (29 1)))
+	       "Tree Sitter support for Zig" tar
+	       ((:commit . "b82ceecd54d89d54a4e758ab465e5da9452c3002")
+		(:authors
+		 ("meowking" . "mr.meowking@tutamail.com"))
+		(:maintainers
+		 ("meowking" . "mr.meowking@tutamail.com"))
+		(:maintainer "meowking" . "mr.meowking@tutamail.com")
+		(:keywords "zig" "languages" "tree-sitter")
+		(:url . "https://codeberg.org/meow_king/zig-ts-mode"))])
  (zim-wiki-mode .
 		[(0 2 0 1 -4 20240613 8)
 		 ((emacs
