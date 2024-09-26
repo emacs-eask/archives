@@ -1858,7 +1858,7 @@
 	 (:keywords "terminals" "color" "ansi")
 	 (:url . "http://github.com/rejeep/ansi"))])
  (ansible .
-	  [(0 4 1 1 -4 20240624 1452)
+	  [(0 4 1 1 -4 20240926 2144)
 	   ((s
 	     (1 9 0))
 	    (f
@@ -1866,7 +1866,7 @@
 	    (emacs
 	     (25 1)))
 	   "Ansible minor mode" tar
-	   ((:commit . "eebb2fb49d3c0a0586d1e4ead9ba618c7d003cae")
+	   ((:commit . "e171dacc12eeaba5dbd7fd887f94d11b357fe958")
 	    (:authors
 	     (nil . "k1lowxb[at]gmail[dot]com")
 	     (nil . "k1low[at]101000lab[dot]org"))
@@ -2942,19 +2942,21 @@
 		       (:keywords "sage" "math" "auto-complete")
 		       (:url . "https://github.com/stakemori/auto-complete-sage"))])
  (auto-dark .
-	    [(0 13 1 -4 20240914 248)
+	    [(0 13 1 1 -4 20240926 2036)
 	     ((emacs
 	       (24 4)))
 	     "Automatically sets the dark-mode theme based on macOS/Linux/Windows status" tar
-	     ((:commit . "681537d9ae770a51fc12329e7c70e4465506d5ec")
+	     ((:commit . "abcf10354bde98b6793d9b6ef0afcda3962b5589")
 	      (:authors
 	       ("Tim Harper" . "timcharperatgmaildotcom")
 	       ("Vincent Zhang" . "seagle0128@gmail.com")
-	       ("Jonathan Arnett" . "jonathan.arnett@protonmail.com"))
+	       ("Jonathan Arnett" . "jonathan.arnett@protonmail.com")
+	       ("Greg Pfeil" . "greg@technomadic.org"))
 	      (:maintainers
 	       ("Tim Harper" . "timcharperatgmaildotcom")
 	       ("Vincent Zhang" . "seagle0128@gmail.com")
-	       ("Jonathan Arnett" . "jonathan.arnett@protonmail.com"))
+	       ("Jonathan Arnett" . "jonathan.arnett@protonmail.com")
+	       ("Greg Pfeil" . "greg@technomadic.org"))
 	      (:maintainer "Tim Harper" . "timcharperatgmaildotcom")
 	      (:keywords "macos" "windows" "linux" "themes" "tools" "faces")
 	      (:url . "https://github.com/LionyxML/auto-dark-emacs"))])
@@ -8956,11 +8958,11 @@
 	       (:keywords "docs")
 	       (:url . "https://codeberg.org/mekeor/emacs-communinfo"))])
  (company .
-	  [(1 0 2 1 -4 20240923 34)
+	  [(1 0 2 1 -4 20240926 2127)
 	   ((emacs
 	     (25 1)))
 	   "Modular text completion framework" tar
-	   ((:commit . "393940f76aec1f2500441d4e0b97f783acbb536b")
+	   ((:commit . "9c273fc7c1a9dd69ccf508589211c4f8bd0e0765")
 	    (:maintainers
 	     ("Dmitry Gutov" . "dmitry@gutov.dev"))
 	    (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
@@ -10153,11 +10155,11 @@
 				     (:keywords "tools")
 				     (:url . "https://github.com/sei40kr/competitive-programming-snippets"))])
  (compile-multi .
-		[(0 6 1 -4 20240906 2127)
+		[(0 6 1 -4 20240923 1814)
 		 ((emacs
 		   (28 1)))
 		 "A multi target interface to compile" tar
-		 ((:commit . "ea7c3f6dc3e07cb58320e3a2b1a7004342c991e2")
+		 ((:commit . "94b2f267d1e424cf523643a3c9841c83f0a86368")
 		  (:authors
 		   ("mohsin kaleem" . "mohkale@kisara.moe"))
 		  (:maintainers
@@ -10166,13 +10168,13 @@
 		  (:keywords "tools" "compile" "build")
 		  (:url . "https://github.com/mohkale/compile-multi"))])
  (compile-multi-all-the-icons .
-			      [(0 6 1 -4 20240506 1319)
+			      [(0 6 1 -4 20240923 1814)
 			       ((emacs
 				 (28 0))
 				(all-the-icons-completion
 				 (0 0 1)))
 			       "Affixate `compile-multi' with icons" tar
-			       ((:commit . "4f9cc1d3c448ecc496540a65578191733c09b0fd")
+			       ((:commit . "94b2f267d1e424cf523643a3c9841c83f0a86368")
 				(:authors
 				 ("mohsin kaleem" . "mohkale@kisara.moe"))
 				(:maintainers
@@ -10181,7 +10183,7 @@
 				(:keywords "tools" "compile" "build")
 				(:url . "https://github.com/mohkale/compile-multi"))])
  (compile-multi-embark .
-		       [(0 6 1 -4 20240831 1302)
+		       [(0 6 1 -4 20240923 1814)
 			((emacs
 			  (28 1))
 			 (compile-multi
@@ -10189,7 +10191,7 @@
 			 (embark
 			  (0 22 1)))
 			"Integration for `compile-multi' and `embark'" tar
-			((:commit . "52a504e065103b0c4b993898e21f9f27360f8606")
+			((:commit . "94b2f267d1e424cf523643a3c9841c83f0a86368")
 			 (:authors
 			  ("Mohsin Kaleem" . "mohkale@kisara.moe"))
 			 (:maintainers
@@ -10471,7 +10473,7 @@
 		    (:maintainer "mohsin kaleem" . "mohkale@kisara.moe")
 		    (:url . "https://github.com/mohkale/consult-company"))])
  (consult-compile-multi .
-			[(0 6 1 -4 20240507 1949)
+			[(0 6 1 -4 20240923 1814)
 			 ((emacs
 			   (28 1))
 			  (compile-multi
@@ -10479,7 +10481,7 @@
 			  (consult
 			   (0 34)))
 			 "Consulting read support for `compile-multi'" tar
-			 ((:commit . "a8782ac55115b1afe0bee52664b46bfbd9bf202e")
+			 ((:commit . "94b2f267d1e424cf523643a3c9841c83f0a86368")
 			  (:authors
 			   ("mohsin kaleem" . "mohkale@kisara.moe"))
 			  (:maintainers
@@ -41667,7 +41669,7 @@
 	       (:keywords "languages" "extensions")
 	       (:url . "https://github.com/emacs-lsp/lsp-metals"))])
  (lsp-mode .
-	   [(9 0 1 1 -4 20240926 2058)
+	   [(9 0 1 1 -4 20240926 2100)
 	    ((emacs
 	      (27 1))
 	     (dash
@@ -41685,7 +41687,7 @@
 	     (eldoc
 	      (1 11)))
 	    "LSP mode" tar
-	    ((:commit . "522b1ad30c1b36583a09b58275da0546bcdc5166")
+	    ((:commit . "b333977fd57287de9e91565fa9b56ce2dd84032f")
 	     (:keywords "languages")
 	     (:url . "https://github.com/emacs-lsp/lsp-mode"))])
  (lsp-mssql .
