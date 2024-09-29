@@ -12158,6 +12158,34 @@
 	       (:commit . "4e4a1ef9a4823b37cf7057208f712aa69e1e0e2c")
 	       (:revdesc . "4e4a1ef9a482")
 	       (:keywords "convenience" "matching" "tools" "vc"))])
+ (consult-gh-embark .
+		    [(0 1 0 1 -4 20240929 803)
+		     ((emacs
+		       (29 1))
+		      (consult-gh
+		       (2 0))
+		      (embark-consult
+		       (1 1)))
+		     "Embark Actions for consult-gh" tar
+		     ((:url . "https://github.com/armindarvish/consult-gh")
+		      (:commit . "4e4a1ef9a4823b37cf7057208f712aa69e1e0e2c")
+		      (:revdesc . "4e4a1ef9a482")
+		      (:keywords "matching" "git" "repositories" "forges" "completion"))])
+ (consult-gh-forge .
+		   [(0 1 0 1 -4 20240927 1004)
+		    ((emacs
+		      (29 1))
+		     (consult
+		      (1 0))
+		     (forge
+		      (0 3 3))
+		     (consult-gh
+		      (2 0)))
+		    "Magit/Forge Integration for consult-gh" tar
+		    ((:url . "https://github.com/armindarvish/consult-gh")
+		     (:commit . "79204bab021d9c58687dbce44694419c966d6998")
+		     (:revdesc . "79204bab021d")
+		     (:keywords "matching" "git" "repositories" "forges" "completion"))])
  (consult-ghq .
 	      [(0 0 5 1 -4 20231111 1303)
 	       ((emacs
@@ -43931,6 +43959,15 @@
 	      ("Martin Trojer" . "martin.trojer@gmail.com"))
 	     (:maintainer
 	      ("Martin Trojer" . "martin.trojer@gmail.com")))])
+ (jwt .
+      [(0 1 0 1 -4 20240923 1831)
+       ((emacs
+	 (29 1)))
+       "Interact with JSON Web Tokens" tar
+       ((:url . "https://github.com/joshbax189/jwt-el")
+	(:commit . "98c9fb2e8a45592062b9bf84cec1be0e51f70f7b")
+	(:revdesc . "98c9fb2e8a45")
+	(:keywords "tools" "convenience"))])
  (k8s-mode .
 	   [(0 1 0 1 -4 20230305 1039)
 	    ((emacs
@@ -61829,15 +61866,15 @@
 	     (:maintainer
 	      ("Ryan Davis" . "ryand-ruby@zenspider.com")))])
  (package-build .
-		[(0 1 0 1 -4 20240928 2149)
+		[(0 1 0 1 -4 20240929 1939)
 		 ((emacs
 		   (26 1))
 		  (compat
 		   (30 0 0 0)))
 		 "Tools for assembling a package archive" tar
 		 ((:url . "https://github.com/melpa/package-build")
-		  (:commit . "89477a466ccfb5f21d8535fd0b6ebedf8110e8f6")
-		  (:revdesc . "89477a466ccf")
+		  (:commit . "dd32541fc45a4f3afb1dfc9637d1b21d2b56f60e")
+		  (:revdesc . "dd32541fc45a")
 		  (:keywords "maint" "tools")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
@@ -65673,7 +65710,7 @@
 			(:maintainer
 			 ("Peter Vasil" . "mail@petervasil.net")))])
  (prodigy .
-	  [(1 0 0 1 -4 20230925 1820)
+	  [(0 1 0 1 -4 20240929 1820)
 	   ((s
 	     (1 8 0))
 	    (dash
@@ -65684,8 +65721,8 @@
 	     (27 1)))
 	   "Manage external services" tar
 	   ((:url . "https://github.com/rejeep/prodigy.el")
-	    (:commit . "cc68fa9d604a0739a63247237a801b03a184aca6")
-	    (:revdesc . "cc68fa9d604a")
+	    (:commit . "18c0a3b6de3613440679375fcb2b2163d6cf5bef")
+	    (:revdesc . "18c0a3b6de36")
 	    (:authors
 	     ("Johan Andersson" . "johan.rejeep@gmail.com"))
 	    (:maintainers
