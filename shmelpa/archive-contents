@@ -23183,7 +23183,7 @@
 		  (:maintainer
 		   ("Shuguang Sun" . "shuguang79@qq.com")))])
  (essgd .
-	[(0 1 1 -4 20240418 752)
+	[(0 1 0 1 -4 20240929 2107)
 	 ((websocket
 	   (1 15))
 	  (ess
@@ -23192,8 +23192,8 @@
 	   (29 1)))
 	 "Show R plots from ESS within a buffer" tar
 	 ((:url . "https://github.com/sje30/essgd")
-	  (:commit . "2a88e9cc0e47b2bb3ec39db0399b279e2276280e")
-	  (:revdesc . "2a88e9cc0e47")
+	  (:commit . "d9a3729ebaeeeec78984f00508cf2785bc7e8978")
+	  (:revdesc . "d9a3729ebaee")
 	  (:authors
 	   ("Stephen Eglen" . "sje30@cam.ac.uk"))
 	  (:maintainers
@@ -67919,13 +67919,13 @@
 	  (:revdesc . "1e63e9862673")
 	  (:keywords "abbrev" "convenience" "matching" "rust" "tools"))])
  (racket-mode .
-	      [(0 1 0 1 -4 20240929 1556)
+	      [(0 1 0 1 -4 20240929 1857)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
 	       ((:url . "https://github.com/greghendershott/racket-mode")
-		(:commit . "10a5f7c69460a23f8f124093659aa64f62a71494")
-		(:revdesc . "10a5f7c69460")
+		(:commit . "325c14d79b64a2088b29d2cd7db12eef1c7081f5")
+		(:revdesc . "325c14d79b64")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com")))])
  (rails-i18n .
@@ -79256,6 +79256,24 @@
 			 ((:url . "https://github.com/paradoxxxzero/tornado-template-mode")
 			  (:commit . "667c0663dbbd279b6c345446b9f2bc50eb52b747")
 			  (:revdesc . "667c0663dbbd"))])
+ (torrent-mode .
+	       [(0 1 0 1 -4 20240923 503)
+		((emacs
+		  (26 1))
+		 (tablist
+		  (1 0))
+		 (bencoding
+		  (1 0)))
+		"Display torrent files in a tabulated view" tar
+		((:url . "https://github.com/sarg/torrent-mode.el")
+		 (:commit . "c7ef935dcf7b999981f441794ddbd98c3216bfee")
+		 (:revdesc . "c7ef935dcf7b")
+		 (:authors
+		  ("Sergey Trofimov" . "sarg@sarg.org.ru"))
+		 (:maintainers
+		  ("Sergey Trofimov" . "sarg@sarg.org.ru"))
+		 (:maintainer
+		  ("Sergey Trofimov" . "sarg@sarg.org.ru")))])
  (torus .
 	[(1 10 1 -4 20190325 753)
 	 ((emacs
