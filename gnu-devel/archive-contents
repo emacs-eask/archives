@@ -533,7 +533,7 @@
 	     ("Kjartan Oli Agustsson" . "kjartanoli@disroot.org"))
 	    (:commit . "855a9cb092eecf1e5c17ea56c440a0200f95eb4c"))])
  (cape .
-       [(1 7 0 20240926 91852)
+       [(1 7 0 20241004 61437)
 	((emacs
 	  (28 1))
 	 (compat
@@ -544,7 +544,7 @@
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	 (:commit . "2734e4ea0631f0e2944eac1aed79a55951157f55"))])
+	 (:commit . "63ab1490a14f5a6cbfec29eb5af5ffd12ee49180"))])
  (capf-autosuggest .
 		   [(0 3 0 20211123 104430)
 		    ((emacs
@@ -938,7 +938,7 @@
 		 (:url . "https://elpa.gnu.org/packages/cycle-quotes.html")
 		 (:commit . "c1ef993f8c66fec71b10d70eb7a2cd0c416aaa12"))])
  (dape .
-       [(0 15 0 0 20241002 154221)
+       [(0 15 0 0 20241003 215004)
 	((emacs
 	  (29 1))
 	 (jsonrpc
@@ -946,7 +946,7 @@
 	"Debug Adapter Protocol for Emacs" tar
 	((:url . "https://github.com/svaante/dape")
 	 (:maintainer "Daniel Pettersson" . "daniel@dpettersson.net")
-	 (:commit . "d164cafa77ba8455a1cea8f5c2c43fe381e707fb"))])
+	 (:commit . "29afbfd23d1f0575b77a8a613c7da8cb3d299b34"))])
  (darkroom .
 	   [(0 3 0 20200507 173652)
 	    ((cl-lib
@@ -1555,7 +1555,7 @@
 	       (:url . "https://elpa.gnu.org/packages/epoch-view.html")
 	       (:commit . "7a9773a8b55491bd47f23dfdb6c4224f5cc8e50c"))])
  (erc .
-      [(5 6 1 -4 0 20240929 164339)
+      [(5 6 1 -4 0 20241003 233811)
        ((emacs
 	 (27 1))
 	(compat
@@ -1568,7 +1568,7 @@
 	 ("F. Jason Park" . "jp@neverwas.me"))
 	(:authors
 	 ("Alexander L. Belikoff" . "alexander@belikoff.net"))
-	(:commit . "685ec273ecbb54439ed84474fb96ec847bebb630"))])
+	(:commit . "336e977f18f0f823af229e037f0df71505366839"))])
  (ergoemacs-mode .
 		 [(5 16 10 12 0 20240828 210215)
 		  ((emacs
@@ -2162,7 +2162,7 @@
 	   ("Durand" . "mmemmew@gmail.com"))
 	  (:commit . "8f221c58a8c694112738e346c630d4d49a41d967"))])
  (indent-bars .
-	      [(0 7 6 0 20241003 151504)
+	      [(0 7 6 0 20241003 220914)
 	       ((emacs
 		 (27 1))
 		(compat
@@ -2173,7 +2173,7 @@
 		(:maintainer "J.D. Smith" . "jdtsmith+elpa@gmail.com")
 		(:authors
 		 ("J.D. Smith" . "jdtsmith+elpa@gmail.com"))
-		(:commit . "d8dde7aff6cfcf774fed9db1b827530bd4b0297b"))])
+		(:commit . "0d50abef909bb55bc4284550374e6d4184764438"))])
  (inspector .
 	    [(0 38 0 20240911 94847)
 	     ((emacs
@@ -2573,17 +2573,21 @@
 		      ("Sean Whitton" . "spwhitton@spwhitton.name"))
 		     (:commit . "c22a15e86acf28da716532c26ba1371574c8e979"))])
  (llm .
-      [(0 17 4 0 20240930 235014)
+      [(0 17 4 0 20241003 232025)
        ((emacs
 	 (28 1))
 	(plz
-	 (0 8)))
+	 (0 8))
+	(plz-event-source
+	 (0 1 1))
+	(plz-media-type
+	 (0 2 1)))
        "Interface to pluggable llm backends" tar
        ((:url . "https://github.com/ahyatt/llm")
 	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
-	(:commit . "805ce30fc8fb0c7e0cbbc90eca61a2ac81d0c061"))])
+	(:commit . "c81b44943b2bfeac5114566ab5ad66640bad1e3e"))])
  (lmc .
       [(1 4 0 20230105 113402)
        ((emacs
@@ -2806,7 +2810,7 @@
 	      ("Michael Abraham Shulman" . "viritrilbia@gmail.com"))
 	     (:commit . "b1f5c7dbdc405e6e10d9ddd99a43a6b2ad61b176"))])
  (modus-themes .
-	       [(4 5 0 0 20241002 123136)
+	       [(4 5 0 0 20241004 74841)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
@@ -2815,7 +2819,7 @@
 		 (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		 (:commit . "0c4a9973e0f26cbbb54e9e323e1b284289d9364f"))])
+		 (:commit . "4932dfc3492ba4aaaca122f9abc37048ab7cc3d1"))])
  (mpdired .
 	  [(2 0 20240614 95804)
 	   ((emacs
@@ -3595,7 +3599,7 @@
 		   ("Feng Shu" . "tumashu@163.com"))
 		  (:commit . "55d9b324831b0fc79ff62f1c6f21aad72341a114"))])
  (python .
-	 [(0 28 0 20241001 193102)
+	 [(0 28 0 20241003 235144)
 	  ((emacs
 	    (24 4))
 	   (compat
@@ -3608,7 +3612,7 @@
 	   (:maintainer nil . "emacs-devel@gnu.org")
 	   (:authors
 	    ("Fabián E. Gallina" . "fgallina@gnu.org"))
-	   (:commit . "bf3129d5821bb8804e486bc5d51de04846a31f12"))])
+	   (:commit . "336e977f18f0f823af229e037f0df71505366839"))])
  (quarter-plane .
 		[(0 1 0 20221221 81727)
 		 nil "Minor mode for quarter-plane style editing" tar
