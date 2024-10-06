@@ -4952,6 +4952,20 @@
 	    (:commit . "8285f46fe19cb99fe5ed42d38de0fe5c51c98fb0")
 	    (:revdesc . "8285f46fe19c")
 	    (:keywords "convenience"))])
+ (bitbake-ts-mode .
+		  [(0 1 0 1 -4 20240908 1435)
+		   ((emacs
+		     (29 1)))
+		   "A major mode to use bitbake tree-sitter" tar
+		   ((:url . "https://github.com/seokbeomKim/bitbake-ts-mode")
+		    (:commit . "224d7fb93f0c06968421dd8536c64840a2f13273")
+		    (:revdesc . "224d7fb93f0c")
+		    (:keywords "bitbake" "tree-sitter" "languages")
+		    (:authors
+		     ("Jason Kim" . "sukbeom.kim@gmail.com"))
+		    (:maintainers
+		     ("Jason Kim" . "sukbeom.kim@gmail.com"))
+		    (:maintainer "Jason Kim" . "sukbeom.kim@gmail.com"))])
  (bitlbee .
 	  [(0 1 0 1 -4 20151203 0)
 	   nil "Help get Bitlbee (http://www.bitlbee.org) up and running" tar
@@ -7092,13 +7106,13 @@
 	     ("Frank Singleton" . "b17flyboy@gmail.com"))
 	    (:maintainer "Frank Singleton" . "b17flyboy@gmail.com"))])
  (catppuccin-theme .
-		   [(1 0 0 1 -4 20240829 2151)
+		   [(0 1 0 1 -4 20241006 2057)
 		    ((emacs
 		      (25 1)))
 		    "Catppuccin for Emacs - 🍄 Soothing pastel theme for Emacs" tar
 		    ((:url . "https://github.com/catppuccin/emacs")
-		     (:commit . "b7bc1170917499deb76f4d2d1116252ed30c629d")
-		     (:revdesc . "b7bc11709174")
+		     (:commit . "f579a6aa26234f067c06e85e203ac2b89db99b4d")
+		     (:revdesc . "f579a6aa2623")
 		     (:maintainers
 		      ("Jeremy Baxter" . "jeremy@baxters.nz"))
 		     (:maintainer "Jeremy Baxter" . "jeremy@baxters.nz"))])
@@ -11994,6 +12008,22 @@
 	   (:maintainers
 	    ("Kevin Liu" . "mail@nivekuil.com"))
 	   (:maintainer "Kevin Liu" . "mail@nivekuil.com"))])
+ (corsair .
+	  [(0 1 0 1 -4 20241003 1318)
+	   ((emacs
+	     (28 1))
+	    (gptel
+	     (0 9 0)))
+	   "Text accumulation enhancements for GPTel" tar
+	   ((:url . "https://github.com/rob137/corsair")
+	    (:commit . "f316963d883017349dd6c0181dee9d40d9175cec")
+	    (:revdesc . "f316963d8830")
+	    (:keywords "convenience" "tools")
+	    (:authors
+	     ("Robert Kirby" . "corsair.el.package@gmail.com"))
+	    (:maintainers
+	     ("Robert Kirby" . "corsair.el.package@gmail.com"))
+	    (:maintainer "Robert Kirby" . "corsair.el.package@gmail.com"))])
  (cort .
        [(7 2 0 1 -4 20211020 18)
 	((emacs
@@ -27157,6 +27187,19 @@
 		    (:commit . "71acb57748694e7f18de252d4f808e12bfa07fef")
 		    (:revdesc . "71acb5774869")
 		    (:keywords "tools"))])
+ (flymake-biome .
+		[(0 1 0 1 -4 20240929 2055)
+		 ((emacs
+		   (27 1)))
+		 "A flymake plugin for SQL files using biome" tar
+		 ((:url . "https://github.com/erickgnavar/flymake-biome")
+		  (:commit . "cff985e0731d09328bd94a12830ade7668d65801")
+		  (:revdesc . "cff985e0731d")
+		  (:authors
+		   ("Erick Navarro" . "erick@navarro.io"))
+		  (:maintainers
+		   ("Erick Navarro" . "erick@navarro.io"))
+		  (:maintainer "Erick Navarro" . "erick@navarro.io"))])
  (flymake-clippy .
 		 [(1 1 0 1 -4 20231102 1616)
 		  ((emacs
