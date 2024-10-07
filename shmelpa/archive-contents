@@ -15584,14 +15584,6 @@
 		  (:maintainers
 		   ("James Nguyen" . "james@jojojames.com"))
 		  (:maintainer "James Nguyen" . "james@jojojames.com"))])
- (dired-single .
-	       [(0 3 1 1 -4 20240131 1148)
-		((emacs
-		  (25 1)))
-		"Reuse the current dired buffer" tar
-		((:url . "https://codeberg.org/amano.kenji/dired-single")
-		 (:commit . "60fce6599326e12cc2033c28d50b8bf6c6ba164a")
-		 (:revdesc . "60fce6599326"))])
  (dired-subtree .
 		[(0 0 1 1 -4 20240629 1859)
 		 ((dash
@@ -76012,7 +76004,7 @@
 		  ((emacs
 		    (24 3)))
 		  "A minor mode to trim trailing whitespace and newlines" tar
-		  ((:url . "https://git.sr.ht/~bkhl/trimspace-mode")
+		  ((:url . "https://github.com/bkhl/trimspace-mode")
 		   (:commit . "68fb627ba552644ddee0cf9048b2fefd722a59fb")
 		   (:revdesc . "68fb627ba552")
 		   (:keywords "files" "convenience")
@@ -77596,6 +77588,19 @@
 		      ((:url . "https://github.com/VampyricDark/emacs")
 		       (:commit . "24e43991ae50098e1f8fecaaabc768183de76947")
 		       (:revdesc . "24e43991ae50"))])
+ (varuga .
+	 [(0 1 0 1 -4 20241006 2204)
+	  ((emacs
+	    (26 1)))
+	  "Send ical calendar invites by email" tar
+	  ((:url . "https://git.systemreboot.net/varuga/")
+	   (:commit . "b88ea762f7f0c321176ffd0d5d47c89d6971faf7")
+	   (:revdesc . "b88ea762f7f0")
+	   (:authors
+	    ("Arun Isaac" . "arunisaac@systemreboot.net"))
+	   (:maintainers
+	    ("Arun Isaac" . "arunisaac@systemreboot.net"))
+	   (:maintainer "Arun Isaac" . "arunisaac@systemreboot.net"))])
  (vbasense .
 	   [(0 1 1 1 -4 20140221 2353)
 	    ((auto-complete
