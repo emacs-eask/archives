@@ -11866,6 +11866,26 @@
 	      (:maintainers
 	       ("Noah Peart" . "noah.v.peart@gmail.com"))
 	      (:maintainer "Noah Peart" . "noah.v.peart@gmail.com"))])
+ (copilot-chat .
+	       [(0 1 0 1 -4 20241008 2152)
+		((request
+		  (0 3 2))
+		 (markdown-mode
+		  (2 6))
+		 (emacs
+		  (27 1))
+		 (chatgpt-shell
+		  (1 6 1)))
+		"Copilot chat interface" tar
+		((:url . "https://github.com/chep/copilot-chat.el")
+		 (:commit . "48445c1d42f29cea7d02fc1aa15c38c47a0d4119")
+		 (:revdesc . "48445c1d42f2")
+		 (:keywords "convenience" "tools")
+		 (:authors
+		  ("cedric.chepied" . "cedric.chepied@gmail.com"))
+		 (:maintainers
+		  ("cedric.chepied" . "cedric.chepied@gmail.com"))
+		 (:maintainer "cedric.chepied" . "cedric.chepied@gmail.com"))])
  (copy-as-format .
 		 [(0 0 9 1 -4 20231112 1710)
 		  ((cl-lib
@@ -48426,13 +48446,13 @@
 	  ("Liuyinz" . "liuyinz95@gmail.com"))
 	 (:maintainer "Liuyinz" . "liuyinz95@gmail.com"))])
  (mistty .
-	 [(0 1 0 1 -4 20241012 1904)
+	 [(0 1 0 1 -4 20241013 1752)
 	  ((emacs
 	    (29 1)))
 	  "Shell/Comint alternative based on term.el" tar
 	  ((:url . "https://github.com/szermatt/mistty")
-	   (:commit . "e7310ccb43c4051f2e55fe10a5bcebfb7029ae95")
-	   (:revdesc . "e7310ccb43c4")
+	   (:commit . "92ce320189c26b7368df5b52a8338c126eb5b7eb")
+	   (:revdesc . "92ce320189c2")
 	   (:keywords "convenience" "unix")
 	   (:authors
 	    ("Stephane Zermatten" . "szermatt@gmx.net"))
@@ -54963,6 +54983,20 @@
 		   (:commit . "2460c429e0977587863f41176aafe1ca858c13e8")
 		   (:revdesc . "2460c429e097")
 		   (:keywords "org" "outlines" "hypermedia"))])
+ (org-inline-pdfcomment .
+			[(0 1 0 1 -4 20241012 1640)
+			 ((emacs
+			   (24 4)))
+			 "Export Support for Inline Tasks as PDF Comments" tar
+			 ((:url . "https://git.sr.ht/~swflint/org-inline-pdfcomment")
+			  (:commit . "0ff90ae65ba2948b44b02174f29d1fa12a0675ed")
+			  (:revdesc . "0ff90ae65ba2")
+			  (:keywords "docs" "text")
+			  (:authors
+			   ("Samuel W. Flint" . "me@samuelwflint.com"))
+			  (:maintainers
+			   ("Samuel W. Flint" . "me@samuelwflint.com"))
+			  (:maintainer "Samuel W. Flint" . "me@samuelwflint.com"))])
  (org-iv .
 	 [(1 0 1 1 -4 20171001 1022)
 	  ((impatient-mode
@@ -70303,6 +70337,22 @@
 		((:url . "https://github.com/emacsattic/sml-modeline")
 		 (:commit . "d2f9f70174c4cf68c67eb3bb8088235735e34d9a")
 		 (:revdesc . "d2f9f70174c4"))])
+ (sml-ts-mode .
+	      [(0 1 0 1 -4 20241009 528)
+	       ((emacs
+		 (29 1))
+		(sml-mode
+		 (6 12)))
+	       "SML major-mode using tree-sitter" tar
+	       ((:url . "https://github.com/nverno/sml-ts-mode")
+		(:commit . "649408a823f8aef23ea1697c5f897950e9b1cd9b")
+		(:revdesc . "649408a823f8")
+		(:keywords "sml" "languages" "tree-sitter")
+		(:authors
+		 ("Noah Peart" . "noah.v.peart@gmail.com"))
+		(:maintainers
+		 ("Noah Peart" . "noah.v.peart@gmail.com"))
+		(:maintainer "Noah Peart" . "noah.v.peart@gmail.com"))])
  (smlfmt .
 	 [(0 1 0 1 -4 20231102 853)
 	  ((emacs
@@ -76961,6 +77011,17 @@
 		  (:maintainers
 		   ("Damien Cassou" . "damien.cassou@gmail.com"))
 		  (:maintainer "Damien Cassou" . "damien.cassou@gmail.com"))])
+ (uniline .
+	  [(0 1 0 1 -4 20241008 2114)
+	   ((emacs
+	     (29 1))
+	    (hydra
+	     (0 15 0)))
+	   "Draw lines, boxes, & arrows with the keyboard" tar
+	   ((:url . "https://github.com/tbanel/uniline")
+	    (:commit . "a901fc9a41ab72a9e0617e39f468bfa7ead5b5e5")
+	    (:revdesc . "a901fc9a41ab")
+	    (:keywords "convenience" "text"))])
  (unipoint .
 	   [(0 1 0 1 -4 20140113 2224)
 	    nil "A simple way to insert unicode characters by TeX name" tar
@@ -80129,6 +80190,15 @@
 		 (:maintainers
 		  ("Daichi Mochihashi" . "daichiatcslab.kecl.ntt.co.jp"))
 		 (:maintainer "Daichi Mochihashi" . "daichiatcslab.kecl.ntt.co.jp"))])
+ (wollok-mode .
+	      [(0 1 0 1 -4 20241012 1950)
+	       ((emacs
+		 (24 4)))
+	       "Major mode for the Wollok programming language" tar
+	       ((:url . "https://github.com/tralph3/wollok-mode")
+		(:commit . "bd52ad66d7c43d7e46f7edd6693619e47aeceef9")
+		(:revdesc . "bd52ad66d7c4")
+		(:keywords "wollok" "languages"))])
  (wonderland .
 	     [(0 1 1 1 -4 20130913 119)
 	      ((dash
