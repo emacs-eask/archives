@@ -250,7 +250,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider .
-	[(1 16 0 0 20240925 134028)
+	[(1 16 0 0 20241019 74815)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -278,7 +278,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "be4b4acb6d32cb32118fc46042ab07184c194b37"))])
+	  (:commit . "e51ebbc19c5b29515e4799de38b43b2ed0aa77f3"))])
  (clojure-mode .
 	       [(5 20 0 -4 0 20240611 73422)
 		((emacs
@@ -1124,7 +1124,7 @@
 	      ("David Andersson" . "l.david.anderssonsverige.nu"))
 	     (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel .
-	[(0 9 6 0 20241018 123512)
+	[(0 9 6 0 20241018 183721)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -1137,7 +1137,7 @@
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-	  (:commit . "05122e2d6deacff40b2ebc0fe8b43aa644f3d712"))])
+	  (:commit . "f91b682d02def1d88999b34c8e7bfd0da175a8d8"))])
  (graphql-mode .
 	       [(1 0 0 0 20240918 121927)
 		((emacs
@@ -2404,6 +2404,17 @@
 	      (:authors
 	       ("Vivek Das Mohapatra" . "vivek@etla.org"))
 	      (:commit . "af2ca2f0623d5268e31f1fe19bc1370c14b601b1"))])
+ (tp .
+     [(0 1 0 20241014 70030)
+      ((emacs
+	(28 1)))
+      "Transient utilities for posting to an API" tar
+      ((:url . "https://codeberg.org/martianh/transient-post.el")
+       (:keywords "convenience" "api" "requests")
+       (:maintainer "Marty Hiatt" . "martianhiatusATriseup.net")
+       (:authors
+	("Marty Hiatt" . "martianhiatusATriseup.net"))
+       (:commit . "bb3578db134400e55f64a22a22a2fa424bd9b434"))])
  (treesit-fold .
 	       [(0 1 0 0 20240630 204821)
 		((emacs
