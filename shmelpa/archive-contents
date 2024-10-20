@@ -56227,7 +56227,7 @@
 		     ("Leo Vivier" . "leo.vivier+dev@gmail.com"))
 		    (:maintainer "Mykhailo Shevchuk" . "mail@mshevchuk.com"))])
  (org-roam-ql .
-	      [(0 2 1 -4 20240826 2002)
+	      [(0 1 0 1 -4 20241020 516)
 	       ((emacs
 		 (28))
 		(org-roam
@@ -56239,11 +56239,13 @@
 		(transient
 		 (0 4))
 		(org-super-agenda
-		 (1 2)))
+		 (1 2))
+		(dash
+		 (2 0)))
 	       "Interface to query and view results from org-roam" tar
 	       ((:url . "https://github.com/ahmed-shariff/org-roam-ql")
-		(:commit . "9071426d97b329bb98bc54b5287a322dc3814d95")
-		(:revdesc . "9071426d97b3"))])
+		(:commit . "db372e0c5c0b131cad29e61e586600b54be416c8")
+		(:revdesc . "db372e0c5c0b"))])
  (org-roam-ql-ql .
 		 [(0 1 1 -4 20240721 306)
 		  ((emacs
@@ -75731,15 +75733,15 @@
 			("Erick Navarro" . "erick@navarro.io"))
 		       (:maintainer "Erick Navarro" . "erick@navarro.io"))])
  (tree-sitter-langs .
-		    [(0 1 0 1 -4 20241006 953)
+		    [(0 1 0 1 -4 20241020 211)
 		     ((emacs
 		       (25 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
 		     ((:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs")
-		      (:commit . "62e169d3122658761581105c91d8a6aad103fed5")
-		      (:revdesc . "62e169d31226")
+		      (:commit . "70fa81d17242b02a796ccb7f8d34d328597135f3")
+		      (:revdesc . "70fa81d17242")
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
