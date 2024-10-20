@@ -32055,13 +32055,13 @@
 		    ("Troy Brown" . "brownts@troybrown.dev"))
 		   (:maintainer "Troy Brown" . "brownts@troybrown.dev"))])
  (gpt .
-      [(1 1 1 -4 20240721 1747)
+      [(0 1 0 1 -4 20241020 1841)
        ((emacs
 	 (24 4)))
        "Run instruction-following language models" tar
        ((:url . "https://github.com/stuhlmueller/gpt.el")
-	(:commit . "06afbecccac8bf0d7a47b4c1b768a74ed66c5e84")
-	(:revdesc . "06afbecccac8")
+	(:commit . "3f3d0c4c1f2d5460ed3296a63c7938c5040aaa8e")
+	(:revdesc . "3f3d0c4c1f2d")
 	(:keywords "openai" "anthropic" "claude" "language" "copilot" "convenience" "tools")
 	(:authors
 	 ("Andreas Stuhlmueller" . "andreas@ought.org"))
@@ -41606,6 +41606,20 @@
 	      (:maintainers
 	       ("Leon Barrett" . "(leon@barrettnexus.com)"))
 	      (:maintainer "Leon Barrett" . "(leon@barrettnexus.com)"))])
+ (just-ts-mode .
+	       [(0 1 0 1 -4 20241014 2252)
+		((emacs
+		  (29 1)))
+		"Justfile editing mode" tar
+		((:url . "https://github.com/leon-barrett/just-ts-mode.el")
+		 (:commit . "acb598f1edabae9f679a507c8e22c21b3f2da132")
+		 (:revdesc . "acb598f1edab")
+		 (:keywords "files" "languages" "tools" "treesitter")
+		 (:authors
+		  ("Leon Barrett" . "(leon@barrettnexus.com)"))
+		 (:maintainers
+		  ("Leon Barrett" . "(leon@barrettnexus.com)"))
+		 (:maintainer "Leon Barrett" . "(leon@barrettnexus.com)"))])
  (justl .
 	[(0 14 1 -4 20240925 455)
 	 ((transient
@@ -47190,11 +47204,11 @@
 		      ("Enrico Flor" . "enrico@eflor.net"))
 		     (:maintainer "Enrico Flor" . "enrico@eflor.net"))])
  (matlab-mode .
-	      [(0 1 0 1 -4 20241006 1633)
+	      [(0 1 0 1 -4 20241020 1701)
 	       nil "Major mode for MATLAB(R) dot-m files" tar
-	       ((:url . "https://git.code.sf.net/p/matlab-emacs/src")
-		(:commit . "c021c7f7c95f01bf9b0f10ee1e466658e3e65a1d")
-		(:revdesc . "c021c7f7c95f")
+	       ((:url . "https://github.com/mathworks/Emacs-MATLAB-Mode")
+		(:commit . "bde1e9752382e431992ed447b466d5eb260dda91")
+		(:revdesc . "bde1e9752382")
 		(:keywords "matlab(r)")
 		(:authors
 		 ("Matt Wette" . "mwette@alumni.caltech.edu")
@@ -47556,13 +47570,13 @@
 	    ("Stefan Kangas" . "stefankangas@gmail.com"))
 	   (:maintainer "Stefan Kangas" . "stefankangas@gmail.com"))])
  (meow .
-       [(0 1 0 1 -4 20241020 1605)
+       [(0 1 0 1 -4 20241020 1932)
 	((emacs
 	  (27 1)))
 	"Yet Another modal editing" tar
 	((:url . "https://github.com/meow-edit/meow")
-	 (:commit . "ebf7ebb5eb3ac7bb3cfaca9c32d9063f385aee9a")
-	 (:revdesc . "ebf7ebb5eb3a")
+	 (:commit . "2d4c92f4511b3a417494a2ee68d0eda2467488dd")
+	 (:revdesc . "2d4c92f4511b")
 	 (:keywords "convenience" "modal-editing"))])
  (meow-tree-sitter .
 		   [(2 0 0 1 -4 20240701 1422)
@@ -75196,6 +75210,20 @@
 	       (:maintainers
 		("Karsten Schmidt" . "info@postspectacular.com"))
 	       (:maintainer "Karsten Schmidt" . "info@postspectacular.com"))])
+ (tp .
+     [(0 1 0 1 -4 20241020 1146)
+      ((emacs
+	(28 1)))
+      "Transient utilities for posting to an API" tar
+      ((:url . "https://codeberg.org/martianh/tp.el")
+       (:commit . "196d8c3d6067f32796ce6d373518ca42260f5656")
+       (:revdesc . "196d8c3d6067")
+       (:keywords "convenience" "api" "requests")
+       (:authors
+	("Marty Hiatt" . "mousebot@disroot.org"))
+       (:maintainers
+	("Marty Hiatt" . "mousebot@disroot.org"))
+       (:maintainer "Marty Hiatt" . "mousebot@disroot.org"))])
  (tql-mode .
 	   [(0 1 1 -4 20170724 254)
 	    ((emacs
