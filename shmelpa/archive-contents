@@ -10325,33 +10325,6 @@
 		 (:maintainers
 		  ("Neil Okamoto" . "neil.okamoto+melpa@gmail.com"))
 		 (:maintainer "Neil Okamoto" . "neil.okamoto+melpa@gmail.com"))])
- (company-lean .
-	       [(0 1 0 1 -4 20210305 1705)
-		((emacs
-		  (24 3))
-		 (dash
-		  (2 18 0))
-		 (s
-		  (1 10 0))
-		 (f
-		  (0 19 0))
-		 (company
-		  (0 9 3))
-		 (lean-mode
-		  (3 3 0)))
-		"A company backend for lean-mode" tar
-		((:url . "https://github.com/leanprover/lean3-mode")
-		 (:commit . "5c50338ac149ca5225fc737be291db1f63c45f1d")
-		 (:revdesc . "5c50338ac149")
-		 (:keywords "languages")
-		 (:authors
-		  ("Leonardo de Moura" . "leonardo@microsoft.com")
-		  ("Soonho Kong" . "soonhok@cs.cmu.edu")
-		  ("Gabriel Ebner" . "gebner@gebner.org")
-		  ("Sebastian Ullrich" . "sebasti@nullri.ch"))
-		 (:maintainers
-		  ("Sebastian Ullrich" . "sebasti@nullri.ch"))
-		 (:maintainer "Sebastian Ullrich" . "sebasti@nullri.ch"))])
  (company-ledger .
 		 [(0 1 0 1 -4 20210910 250)
 		  ((emacs
@@ -34839,29 +34812,6 @@
 		  (:maintainers
 		   ("Xu Chunyang" . "mail@xuchunyang.me"))
 		  (:maintainer "Xu Chunyang" . "mail@xuchunyang.me"))])
- (helm-lean .
-	    [(0 1 0 1 -4 20210305 1705)
-	     ((emacs
-	       (24 3))
-	      (dash
-	       (2 18 0))
-	      (helm
-	       (2 8 0))
-	      (lean-mode
-	       (3 3 0)))
-	     "Helm interfaces for lean-mode" tar
-	     ((:url . "https://github.com/leanprover/lean3-mode")
-	      (:commit . "5c50338ac149ca5225fc737be291db1f63c45f1d")
-	      (:revdesc . "5c50338ac149")
-	      (:keywords "languages")
-	      (:authors
-	       ("Leonardo de Moura" . "leonardo@microsoft.com")
-	       ("Soonho Kong" . "soonhok@cs.cmu.edu")
-	       ("Gabriel Ebner" . "gebner@gebner.org")
-	       ("Sebastian Ullrich" . "sebasti@nullri.ch"))
-	      (:maintainers
-	       ("Sebastian Ullrich" . "sebasti@nullri.ch"))
-	      (:maintainer "Sebastian Ullrich" . "sebasti@nullri.ch"))])
  (helm-lib-babel .
 		 [(1 0 1 -4 20180510 1324)
 		  ((cl-lib
@@ -43577,31 +43527,6 @@
 	      (:maintainers
 	       ("Naoya Yamashita" . "conao3@gmail.com"))
 	      (:maintainer "Naoya Yamashita" . "conao3@gmail.com"))])
- (lean-mode .
-	    [(0 1 1 -4 20230611 728)
-	     ((emacs
-	       (24 3))
-	      (dash
-	       (2 18 0))
-	      (s
-	       (1 10 0))
-	      (f
-	       (0 19 0))
-	      (flycheck
-	       (30)))
-	     "A major mode for the Lean 3 language" tar
-	     ((:url . "https://github.com/leanprover/lean3-mode")
-	      (:commit . "99d6a34dc5b12f6e996e9217fa9f6fe4a6af037a")
-	      (:revdesc . "99d6a34dc5b1")
-	      (:keywords "languages")
-	      (:authors
-	       ("Leonardo de Moura" . "leonardo@microsoft.com")
-	       ("Soonho Kong" . "soonhok@cs.cmu.edu")
-	       ("Gabriel Ebner" . "gebner@gebner.org")
-	       ("Sebastian Ullrich" . "sebasti@nullri.ch"))
-	      (:maintainers
-	       ("Sebastian Ullrich" . "sebasti@nullri.ch"))
-	      (:maintainer "Sebastian Ullrich" . "sebasti@nullri.ch"))])
  (leanote .
 	  [(0 4 1 1 -4 20161223 139)
 	   ((emacs
@@ -81257,18 +81182,6 @@
 		   (:maintainers
 		    ("Ellis Kenyő" . "me@elken.dev"))
 		   (:maintainer "Ellis Kenyő" . "me@elken.dev"))])
- (yasnippet-lean .
-		 [(0 1 1 -4 20220105 2251)
-		  ((yasnippet
-		    (0 8 0)))
-		  "Collection of snippets for the Lean prover" tar
-		  ((:url . "https://github.com/leanprover-community/yasnippet-lean")
-		   (:commit . "c75485757cc8675ad4f36c1eb028d9d54dc21733")
-		   (:revdesc . "c75485757cc8")
-		   (:keywords "convenience" "snippets" "leanprover")
-		   (:maintainers
-		    ("Simon Hudon" . "simon.hudon@gmail.com"))
-		   (:maintainer "Simon Hudon" . "simon.hudon@gmail.com"))])
  (yatemplate .
 	     [(1 0 1 -4 20211115 1208)
 	      ((yasnippet
