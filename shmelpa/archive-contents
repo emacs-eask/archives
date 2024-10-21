@@ -9609,13 +9609,15 @@
 		      ("Matthew Bauer" . "mjbauer95@gmail.com"))
 		     (:maintainer "Matthew Bauer" . "mjbauer95@gmail.com"))])
  (comint-intercept .
-		   [(20170317 1 -4 20230930 956)
+		   [(0 1 0 1 -4 20241021 629)
 		    ((emacs
-		      (24 3)))
+		      (24 3))
+		     (vterm
+		      (20240102 1640)))
 		    "Intercept input in comint-mode" tar
 		    ((:url . "https://github.com/hying-caritas/comint-intercept")
-		     (:commit . "79cfa3f15558f99285734ff36e80e3c4628565ae")
-		     (:revdesc . "79cfa3f15558")
+		     (:commit . "99b17be632ff1d892f427244cad9e37752cbf71b")
+		     (:revdesc . "99b17be632ff")
 		     (:keywords "processes" "terminals")
 		     (:authors
 		      ("Huang, Ying" . "huang.ying.caritas@gmail.com"))
