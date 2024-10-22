@@ -37487,7 +37487,7 @@
 	       ("Robert Weiner" . "rsw@gnu.org"))
 	      (:maintainer "Robert Weiner" . "rsw@gnu.org"))])
  (hyperdrive .
-	     [(0 1 0 1 -4 20241022 913)
+	     [(0 1 0 1 -4 20241022 2054)
 	      ((emacs
 		(28 1))
 	       (map
@@ -37506,8 +37506,8 @@
 		(0 7 7)))
 	      "P2P filesystem" tar
 	      ((:url . "https://git.sr.ht/~ushin/hyperdrive.el")
-	       (:commit . "c1efca834be035fcb733a5cc1b5f13aa993eb28e")
-	       (:revdesc . "c1efca834be0")
+	       (:commit . "0e8de75b4debe1c9bf3a04e906378b4857f18847")
+	       (:revdesc . "0e8de75b4deb")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
 	       (:maintainers
@@ -42361,7 +42361,7 @@
 	     ("Damien Cassou" . "damien@cassou.me"))
 	    (:maintainer "Damien Cassou" . "damien@cassou.me"))])
  (khoj .
-       [(0 1 0 1 -4 20241021 1519)
+       [(0 1 0 1 -4 20241022 2050)
 	((emacs
 	  (27 1))
 	 (transient
@@ -42370,8 +42370,8 @@
 	  (2 19 1)))
 	"Your Second Brain" tar
 	((:url . "https://github.com/khoj-ai/khoj")
-	 (:commit . "21e69b506d706dcacf80b3c01850160a311742fe")
-	 (:revdesc . "21e69b506d70")
+	 (:commit . "1e993d561bbae07659c7243c5df37c19305d691f")
+	 (:revdesc . "1e993d561bba")
 	 (:keywords "search" "chat" "ai" "org-mode" "outlines" "markdown" "pdf" "image")
 	 (:authors
 	  ("Debanjum Singh Solanky" . "debanjum@khoj.dev")
@@ -47210,11 +47210,13 @@
 		      ("Enrico Flor" . "enrico@eflor.net"))
 		     (:maintainer "Enrico Flor" . "enrico@eflor.net"))])
  (matlab-mode .
-	      [(0 1 0 1 -4 20241022 1918)
-	       nil "Major mode for MATLAB(R) dot-m files" tar
+	      [(0 1 0 1 -4 20241022 1959)
+	       ((emacs
+		 (27 2)))
+	       "Major mode for MATLAB(R) dot-m files" tar
 	       ((:url . "https://github.com/mathworks/Emacs-MATLAB-Mode")
-		(:commit . "b1dd400a90e3746028debd829f26c0ba033e90f8")
-		(:revdesc . "b1dd400a90e3")
+		(:commit . "ff7ad0880003e496ccd289aa56461861c8272c99")
+		(:revdesc . "ff7ad0880003")
 		(:keywords "matlab(r)")
 		(:authors
 		 ("Matt Wette" . "mwette@alumni.caltech.edu")
@@ -51619,13 +51621,13 @@
 	 ("Vasilij Schneidermann" . "mail@vasilij.de"))
 	(:maintainer "Vasilij Schneidermann" . "mail@vasilij.de"))])
  (nova-theme .
-	     [(0 1 0 1 -4 20230906 1542)
+	     [(0 1 0 1 -4 20240904 2127)
 	      ((emacs
 		(24 3)))
 	      "A dark, pastel color theme" tar
 	      ((:url . "https://github.com/muirdm/emacs-nova-theme")
-	       (:commit . "ca1a4cb71452ece3e18c0c46f9e7abc20f7123ca")
-	       (:revdesc . "ca1a4cb71452")
+	       (:commit . "51b2899ac56c29638d11336d3b2a9894bb35b86e")
+	       (:revdesc . "51b2899ac56c")
 	       (:keywords "theme" "dark" "nova" "pastel" "faces")
 	       (:authors
 		("Muir Manders" . "muir+emacs@mnd.rs"))
@@ -55427,7 +55429,7 @@
 		   ("Anton Hakansson" . "anton@hakanssn.com"))
 		  (:maintainer "Anton Hakansson" . "anton@hakanssn.com"))])
  (org-node .
-	   [(0 1 0 1 -4 20241022 1240)
+	   [(0 1 0 1 -4 20241022 1418)
 	    ((emacs
 	      (28 1))
 	     (compat
@@ -55436,8 +55438,8 @@
 	      (0)))
 	    "Link org-id entries into a network" tar
 	    ((:url . "https://github.com/meedstrom/org-node")
-	     (:commit . "5543ee3cdbfe17d8bf281ebde7bf660c96562b77")
-	     (:revdesc . "5543ee3cdbfe")
+	     (:commit . "b02451c5c66ff714d264e38a05d3708cc5a0b1b8")
+	     (:revdesc . "b02451c5c66f")
 	     (:keywords "org" "hypermedia")
 	     (:authors
 	      ("Martin Edström" . "meedstrom91@gmail.com"))
@@ -56172,7 +56174,7 @@
 		     ("Leo Vivier" . "leo.vivier+dev@gmail.com"))
 		    (:maintainer "Mykhailo Shevchuk" . "mail@mshevchuk.com"))])
  (org-roam-ql .
-	      [(0 1 0 1 -4 20241020 516)
+	      [(0 1 0 1 -4 20241022 2109)
 	       ((emacs
 		 (28))
 		(org-roam
@@ -56189,8 +56191,8 @@
 		 (2 0)))
 	       "Interface to query and view results from org-roam" tar
 	       ((:url . "https://github.com/ahmed-shariff/org-roam-ql")
-		(:commit . "db372e0c5c0b131cad29e61e586600b54be416c8")
-		(:revdesc . "db372e0c5c0b"))])
+		(:commit . "2c803f64c0f44a71fd01658c9a5807a52c716df1")
+		(:revdesc . "2c803f64c0f4"))])
  (org-roam-ql-ql .
 		 [(0 1 1 -4 20240721 306)
 		  ((emacs
@@ -59152,13 +59154,13 @@
 	      ("Jen-Chieh" . "jcs090218@gmail.com"))
 	     (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (parsebib .
-	   [(0 1 0 1 -4 20241016 2147)
+	   [(0 1 0 1 -4 20241022 2006)
 	    ((emacs
 	      (25 1)))
 	    "A library for parsing bib files" tar
 	    ((:url . "https://github.com/joostkremers/parsebib")
-	     (:commit . "73fe6204a3f204b45316fc25f17ad035a00acc16")
-	     (:revdesc . "73fe6204a3f2")
+	     (:commit . "3d1a70f5bd482c0ce807578511690f33d7512400")
+	     (:revdesc . "3d1a70f5bd48")
 	     (:keywords "text" "bibtex")
 	     (:authors
 	      ("Joost Kremers" . "joostkremers@fastmail.fm"))
@@ -81305,15 +81307,15 @@
 	      ("Jackson Ray Hamilton" . "jackson@jacksonrayhamilton.com"))
 	     (:maintainer "Jackson Ray Hamilton" . "jackson@jacksonrayhamilton.com"))])
  (yeetube .
-	  [(0 1 0 1 -4 20241012 758)
+	  [(0 1 0 1 -4 20241022 2200)
 	   ((emacs
 	     (27 2))
 	    (compat
 	     (29 1 4 2)))
 	   "Scrape YouTube, Play with mpv & Download with yt-dlp" tar
 	   ((:url . "https://git.thanosapollo.org/yeetube")
-	    (:commit . "f73172433a944551558204554efae0e441388034")
-	    (:revdesc . "f73172433a94")
+	    (:commit . "d3437030bcd8d64b2e5a3bc579e2f2f0b4581d1f")
+	    (:revdesc . "d3437030bcd8")
 	    (:keywords "extensions" "youtube" "videos")
 	    (:authors
 	     ("Thanos Apollo" . "public@thanosapollo.org"))
