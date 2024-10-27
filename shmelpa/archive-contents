@@ -37330,6 +37330,23 @@
 	       (:maintainers
 		("Joseph Turner" . "~ushin/ushin@lists.sr.ht"))
 	       (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht"))])
+ (hyperdrive-org-transclusion .
+			      [(0 1 0 1 -4 20241022 833)
+			       ((emacs
+				 (28 1))
+				(hyperdrive
+				 (0 4 2))
+				(org-transclusion
+				 (1 4 0)))
+			       "Tranclude hyperdrive content" tar
+			       ((:url . "https://git.sr.ht/~ushin/hyperdrive-org-transclusion")
+				(:commit . "25570c6e4b90dce0858b80b7f557db19744b3955")
+				(:revdesc . "25570c6e4b90")
+				(:authors
+				 ("Joseph Turner" . "joseph@ushin.org"))
+				(:maintainers
+				 ("Joseph Turner" . "~ushin/ushin@lists.sr.ht"))
+				(:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht"))])
  (hyperkitty .
 	     [(0 0 1 1 -4 20220226 1951)
 	      ((request
@@ -75511,15 +75528,15 @@
 			("Erick Navarro" . "erick@navarro.io"))
 		       (:maintainer "Erick Navarro" . "erick@navarro.io"))])
  (tree-sitter-langs .
-		    [(0 1 0 1 -4 20241021 437)
+		    [(0 1 0 1 -4 20241027 912)
 		     ((emacs
 		       (25 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
 		     ((:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs")
-		      (:commit . "465a64032d45f51347a9b68a0e8f33d658039172")
-		      (:revdesc . "465a64032d45")
+		      (:commit . "562e4681d365c70169d807e23db4c37427628627")
+		      (:revdesc . "562e4681d365")
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
@@ -78273,6 +78290,20 @@
 			   (:maintainers
 			    ("Marko Bencun" . "mbencun@gmail.com"))
 			   (:maintainer "Marko Bencun" . "mbencun@gmail.com"))])
+ (visual-replace .
+		 [(0 1 0 1 -4 20241027 1814)
+		  ((emacs
+		    (26 1)))
+		  "A prompt for replace-string and query-replace" tar
+		  ((:url . "https://github.com/szermatt/visual-replace")
+		   (:commit . "2635502331433355c5667f7858f362ca81285a74")
+		   (:revdesc . "263550233143")
+		   (:keywords "convenience" "matching" "replace")
+		   (:authors
+		    ("Stephane Zermatten" . "szermatt@gmail.com"))
+		   (:maintainers
+		    ("Stephane Zermatten" . "szermatt@gmail.com"))
+		   (:maintainer "Stephane Zermatten" . "szermatt@gmail.com"))])
  (vlc .
       [(0 1 -4 20200328 1143)
        ((emacs
