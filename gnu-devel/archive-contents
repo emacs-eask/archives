@@ -382,19 +382,23 @@
 	   ("Durand" . "durand@jsdurand.xyz"))
 	  (:commit . "f5751add5626ad437459e484b66219952287c517"))])
  (bluetooth .
-	    [(0 3 1 0 20241007 201319)
+	    [(0 4 1 0 20241028 70437)
 	     ((emacs
-	       (25 1))
+	       (26 1))
 	      (dash
-	       (2 18 1)))
-	     "A Major mode for Bluetooth devices" tar
-	     ((:url . "https://gitlab.com/rstocker/emacs-bluetooth")
+	       (2 18 1))
+	      (compat
+	       (30 0 0 0))
+	      (transient
+	       (0 5 0)))
+	     "A mode for interacting with Bluetooth devices" tar
+	     ((:url . "https://codeberg.org/rstocker/emacs-bluetooth")
 	      (:keywords "hardware")
 	      (:maintainer "Raffael Stocker" . "r.stocker@mnet-mail.de")
 	      (:authors
 	       ("Raffael Stocker" . "r.stocker@mnet-mail.de")
 	       ("Etienne Prud homme" . "e.e.f.prudhomme@gmail.com"))
-	      (:commit . "6b6f14a8e3aa8364d850a8507e479b910a93cf83"))])
+	      (:commit . "db880e306e00f51e5456b7388371ad6329452165"))])
  (bnf-mode .
 	   [(0 4 5 0 20240915 211838)
 	    ((cl-lib
@@ -2139,7 +2143,7 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:commit . "54e9db2b023e03b6f6b46aeec48ea74fd51d4e11"))])
  (hyperbole .
-	    [(9 0 2 -1 0 20241025 222257)
+	    [(9 0 2 -1 0 20241028 15147)
 	     ((emacs
 	       (27 2)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
@@ -2148,7 +2152,7 @@
 	      (:maintainer "Robert Weiner" . "rsw@gnu.org")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
-	      (:commit . "2f53b74703765cd1840f58f739720122f5c8517e"))])
+	      (:commit . "3555e549f83cb0899643af5fc29706466893e84d"))])
  (idlwave .
 	  [(6 5 1 0 20240523 142720)
 	   nil "IDL editing mode for GNU Emacs" tar
@@ -3537,14 +3541,14 @@
 		    ("Paul D. Nelson" . "nelson.paul.david@gmail.com"))
 		   (:commit . "038afeb09917f977cd6a24521129fd6010546e58"))])
  (project .
-	  [(0 11 1 0 20241024 85007)
+	  [(0 11 1 0 20241028 35334)
 	   ((emacs
 	     (26 1))
 	    (xref
 	     (1 7 0)))
 	   "Operations on the current project" tar
 	   ((:url . "https://elpa.gnu.org/packages/project.html")
-	    (:commit . "8903106bb783c2825233c149b6799960aacdea57"))])
+	    (:commit . "ea685170063b59855322ceffdeaaab4acaf8e388"))])
  (psgml .
 	[(1 3 5 0 20221229 184738)
 	 nil "SGML-editing mode with parsing support" tar
