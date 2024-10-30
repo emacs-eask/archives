@@ -3403,18 +3403,14 @@
 		   ("ncaq" . "ncaq@ncaq.net"))
 		  (:maintainer "ncaq" . "ncaq@ncaq.net"))])
  (auto-virtualenv .
-		  [(1 4 1 1 -4 20240115 1548)
+		  [(0 1 0 1 -4 20241030 44)
 		   ((cl-lib
-		     (0 5))
-		    (pyvenv
-		     (1 9))
-		    (s
-		     (1 10 0)))
-		   "Auto activate python virtualenvs" tar
+		     (0 5)))
+		   "Automatically activate Python virtualenvs based on project directory" tar
 		   ((:url . "https://github.com/marcwebbie/auto-virtualenv")
-		    (:commit . "5771eb59fc2f589aa3066297ff3bbeeae474d846")
-		    (:revdesc . "5771eb59fc2f")
-		    (:keywords "python" "virtualenv" "tools")
+		    (:commit . "94f6223180d1c468eb549a937bc9cc3377b4a00b")
+		    (:revdesc . "94f6223180d1")
+		    (:keywords "python" "virtualenv" "environment" "tools" "projects")
 		    (:authors
 		     ("Marcwebbie" . "marcwebbie@gmail.com"))
 		    (:maintainers
@@ -28391,15 +28387,15 @@
 		    ("Andrew Schwartzmeyer" . "andrew@schwartzmeyer.com"))
 		   (:maintainer "Andrew Schwartzmeyer" . "andrew@schwartzmeyer.com"))])
  (fountain-mode .
-		[(0 1 0 1 -4 20241029 303)
+		[(0 1 0 1 -4 20241030 159)
 		 ((emacs
 		   (24 4))
 		  (seq
 		   (2 20)))
 		 "Major mode for screenwriting in Fountain markup" tar
 		 ((:url . "https://github.com/rnkn/fountain-mode")
-		  (:commit . "d164ad2221b9448e602d88d4365b780675347ccf")
-		  (:revdesc . "d164ad2221b9")
+		  (:commit . "9ac338822f040035305f51798bc8cb257cf3ef15")
+		  (:revdesc . "9ac338822f04")
 		  (:keywords "wp" "text")
 		  (:authors
 		   ("Paul W. Rankin" . "rnkn@rnkn.xyz"))
@@ -78629,11 +78625,11 @@
 	     ("Masamichi Hosoda" . "trueroad@trueroad.jp"))
 	    (:maintainer "Masamichi Hosoda" . "trueroad@trueroad.jp"))])
  (w3m .
-      [(0 1 0 1 -4 20240712 248)
+      [(0 1 0 1 -4 20241030 52)
        nil "An Emacs interface to w3m" tar
        ((:url . "https://github.com/emacs-w3m/emacs-w3m")
-	(:commit . "a3dd9b16224893ef1d75ee9bf0c2b088bc2a5d92")
-	(:revdesc . "a3dd9b162248")
+	(:commit . "cce39eb257b27f737b4264f7b41c70ae70dc3906")
+	(:revdesc . "cce39eb257b2")
 	(:keywords "w3m" "www" "hypermedia"))])
  (wacspace .
 	   [(0 4 2 1 -4 20180311 2350)
