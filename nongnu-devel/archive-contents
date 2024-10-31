@@ -250,7 +250,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider .
-	[(1 16 0 0 20241021 175754)
+	[(1 16 0 0 20241031 74951)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -278,7 +278,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "7b051c4298816fdb70f3d301f0840379e28eca63"))])
+	  (:commit . "c7bed56c3dac124c232956c96957e21bbaf3749f"))])
  (clojure-mode .
 	       [(5 20 0 -4 0 20240611 73422)
 		((emacs
@@ -289,14 +289,14 @@
 		 (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 		 (:commit . "59888c84b61081e9b0085e388f55132925a66e7a"))])
  (clojure-ts-mode .
-		  [(0 2 2 0 20241027 45810)
+		  [(0 2 2 0 20241031 64845)
 		   ((emacs
 		     (29 1)))
 		   "Major mode for Clojure code" tar
 		   ((:url . "http://github.com/clojure-emacs/clojure-ts-mode")
 		    (:keywords "languages" "clojure" "clojurescript" "lisp")
 		    (:maintainer "Danny Freeman" . "danny@dfreeman.email")
-		    (:commit . "49844a061a7b61d44bb90ba386edf0980eff3baf"))])
+		    (:commit . "e69b0ac63b864f82df3f194aebf4d453d82ccb9c"))])
  (coffee-mode .
 	      [(0 6 3 0 20230908 103000)
 	       ((emacs
@@ -1216,7 +1216,7 @@
 		     ("Pranshu Sharma" . "pranshusharma366atgmail"))
 		    (:commit . "6cf94ac3a191ba46a8b288824ad4ed38c5d4d548"))])
  (helm .
-       [(4 0 0 20240929 41608)
+       [(4 0 0 20240929 123002)
 	((helm-core
 	  (4 0))
 	 (wfnames
@@ -1227,9 +1227,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "c0fd64b5491576853ecad9337996b38743effeee"))])
+	 (:commit . "b988c8054d7c432819cdb4493d45bc9ac8c98024"))])
  (helm-core .
-	    [(4 0 0 20240929 41608)
+	    [(4 0 0 20240929 123002)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1239,7 +1239,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "c0fd64b5491576853ecad9337996b38743effeee"))])
+	      (:commit . "b988c8054d7c432819cdb4493d45bc9ac8c98024"))])
  (hideshowvis .
 	      [(0 8 0 20240529 112833)
 	       ((emacs
@@ -1294,7 +1294,7 @@
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:commit . "8e3841c837b4b78bd72ad7f0436e919f39315a46"))])
  (hyperdrive .
-	     [(0 5 -1 0 20241024 101451)
+	     [(0 5 -1 0 20241030 233214)
 	      ((emacs
 		(28 1))
 	       (map
@@ -1316,7 +1316,7 @@
 	       (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
-	       (:commit . "2cbe0452e7eb1b5beb392b4782fa03d48ac1fee6"))])
+	       (:commit . "a7617131f04b531861083e78a6e3ff062bc29ec0"))])
  (hyperdrive-org-transclusion .
 			      [(0 3 1 0 20241027 212737)
 			       ((emacs
@@ -2407,16 +2407,18 @@
 	       ("Vivek Das Mohapatra" . "vivek@etla.org"))
 	      (:commit . "af2ca2f0623d5268e31f1fe19bc1370c14b601b1"))])
  (tp .
-     [(0 5 0 20241030 112927)
+     [(0 6 0 20241031 72940)
       ((emacs
-	(28 1)))
-      "Utilities for transient menu that POST to an API." tar
+	(28 1))
+       (transient
+	(0 5 0)))
+      "Utilities for transient menus that POST to an API" tar
       ((:url . "https://codeberg.org/martianh/tp.el")
        (:keywords "convenience" "api" "requests")
        (:maintainer "Marty Hiatt" . "mousebot@disroot.org")
        (:authors
 	("Marty Hiatt" . "mousebot@disroot.org"))
-       (:commit . "6a2676d9de2d018f957a361abdfa2d6d13950e1b"))])
+       (:commit . "df6490d86f24fff22f5ea4f7d887fc60caed1163"))])
  (treesit-fold .
 	       [(0 1 0 0 20240630 204821)
 		((emacs
