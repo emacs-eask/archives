@@ -8759,13 +8759,13 @@
 		      ("Max Penet" . "m@qbits.cc"))
 		     (:maintainer "Max Penet" . "m@qbits.cc"))])
  (clojure-ts-mode .
-		  [(0 1 0 1 -4 20241027 458)
+		  [(0 1 0 1 -4 20241031 648)
 		   ((emacs
 		     (29 1)))
 		   "Major mode for Clojure code" tar
 		   ((:url . "https://github.com/clojure-emacs/clojure-ts-mode")
-		    (:commit . "98060c51a24767f7f48e7a12f049d407930e6a40")
-		    (:revdesc . "98060c51a247")
+		    (:commit . "2e7765cc389979deaf2b0488a6dbb2a42ea842df")
+		    (:revdesc . "2e7765cc3899")
 		    (:keywords "languages" "clojure" "clojurescript" "lisp")
 		    (:maintainers
 		     ("Danny Freeman" . "danny@dfreeman.email"))
@@ -33193,15 +33193,15 @@
 		(:revdesc . "8c70b48fe5fb")
 		(:keywords "faces"))])
  (helm .
-       [(0 1 0 1 -4 20240929 416)
+       [(0 1 0 1 -4 20240929 1230)
 	((helm-core
 	  (4 0))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://github.com/emacs-helm/helm")
-	 (:commit . "c0fd64b5491576853ecad9337996b38743effeee")
-	 (:revdesc . "c0fd64b54915")
+	 (:commit . "b988c8054d7c432819cdb4493d45bc9ac8c98024")
+	 (:revdesc . "b988c8054d7c")
 	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
@@ -37302,7 +37302,7 @@
 	       ("Robert Weiner" . "rsw@gnu.org"))
 	      (:maintainer "Robert Weiner" . "rsw@gnu.org"))])
  (hyperdrive .
-	     [(0 1 0 1 -4 20241031 202)
+	     [(0 1 0 1 -4 20241031 632)
 	      ((emacs
 		(28 1))
 	       (map
@@ -37321,8 +37321,8 @@
 		(0 7 7)))
 	      "P2P filesystem" tar
 	      ((:url . "https://git.sr.ht/~ushin/hyperdrive.el")
-	       (:commit . "185007541cb4af5d91a485cdb7d86602afce7d6d")
-	       (:revdesc . "185007541cb4")
+	       (:commit . "a7617131f04b531861083e78a6e3ff062bc29ec0")
+	       (:revdesc . "a7617131f04b")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
 	       (:maintainers
@@ -41052,15 +41052,13 @@
 	      (:commit . "77125b01c0ddce537085201098bea9b4b8ba6be3")
 	      (:revdesc . "77125b01c0dd"))])
  (json-navigator .
-		 [(0 1 1 1 -4 20230904 1757)
+		 [(0 1 0 1 -4 20241031 630)
 		  ((emacs
-		    (25 1))
-		   (hierarchy
-		    (0 6 0)))
+		    (28 1)))
 		  "View and navigate JSON structures" tar
 		  ((:url . "https://github.com/DamienCassou/json-navigator")
-		   (:commit . "f3489153e8509f88296786cb00e31f59597a43f2")
-		   (:revdesc . "f3489153e850")
+		   (:commit . "8ab49b066bc23de731a29ef07bbafa29999e1852")
+		   (:revdesc . "8ab49b066bc2")
 		   (:authors
 		    ("Damien Cassou" . "damien@cassou.me"))
 		   (:maintainers
@@ -46953,7 +46951,7 @@
 	       ("YiGeeker" . "zyfchinese@yeah.net"))
 	      (:maintainer "YiGeeker" . "zyfchinese@yeah.net"))])
  (mastodon .
-	   [(0 1 0 1 -4 20241030 1142)
+	   [(0 1 0 1 -4 20241031 743)
 	    ((emacs
 	      (28 1))
 	     (request
@@ -46961,11 +46959,11 @@
 	     (persist
 	      (0 4))
 	     (tp
-	      (0 5)))
+	      (0 6)))
 	    "Client for fediverse services using the Mastodon API" tar
 	    ((:url . "https://codeberg.org/martianh/mastodon.el")
-	     (:commit . "16c4ddcd693068c738ae4bb271c60841f1912f4c")
-	     (:revdesc . "16c4ddcd6930")
+	     (:commit . "c241b0ba9d809157aa4bca659a6a2cc04f362932")
+	     (:revdesc . "c241b0ba9d80")
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com")
 	      ("Marty Hiatt" . "mousebot@disroot.org"))
@@ -75052,13 +75050,15 @@
 		("Karsten Schmidt" . "info@postspectacular.com"))
 	       (:maintainer "Karsten Schmidt" . "info@postspectacular.com"))])
  (tp .
-     [(0 1 0 1 -4 20241030 1129)
+     [(0 1 0 1 -4 20241031 729)
       ((emacs
-	(28 1)))
-      "Utilities for transient menu that POST to an API" tar
+	(28 1))
+       (transient
+	(0 5 0)))
+      "Utilities for transient menus that POST to an API" tar
       ((:url . "https://codeberg.org/martianh/tp.el")
-       (:commit . "6a2676d9de2d018f957a361abdfa2d6d13950e1b")
-       (:revdesc . "6a2676d9de2d")
+       (:commit . "df6490d86f24fff22f5ea4f7d887fc60caed1163")
+       (:revdesc . "df6490d86f24")
        (:keywords "convenience" "api" "requests")
        (:authors
 	("Marty Hiatt" . "mousebot@disroot.org"))
