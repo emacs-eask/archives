@@ -537,7 +537,7 @@
 	     ("Kjartan Oli Agustsson" . "kjartanoli@disroot.org"))
 	    (:commit . "855a9cb092eecf1e5c17ea56c440a0200f95eb4c"))])
  (cape .
-       [(1 7 0 20241007 50103)
+       [(1 7 0 20241105 85806)
 	((emacs
 	  (28 1))
 	 (compat
@@ -548,7 +548,7 @@
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	 (:commit . "485d8d4ad5aeb17a0f5d3337e600070276448c54"))])
+	 (:commit . "74c3501ecd19ec9af0d30c16c10ded47dc995ffa"))])
  (capf-autosuggest .
 		   [(0 3 0 20211123 104430)
 		    ((emacs
@@ -672,14 +672,14 @@
 			("Clément Pit-Claudel" . "clement.pitclaudel@live.com"))
 		       (:commit . "3b2233120d33943b8af65fec6257f0c16ad3c6fd"))])
  (company .
-	  [(1 0 2 0 20240926 212727)
+	  [(1 0 2 0 20241105 170935)
 	   ((emacs
 	     (25 1)))
 	   "Modular text completion framework" tar
 	   ((:url . "http://company-mode.github.io/")
 	    (:keywords "abbrev" "convenience" "matching")
 	    (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
-	    (:commit . "9c273fc7c1a9dd69ccf508589211c4f8bd0e0765"))])
+	    (:commit . "e8a9d38e5332912433712947bab28af5adb27d7c"))])
  (company-ebdb .
 	       [(1 1 0 20221221 74915)
 		((company
@@ -808,7 +808,7 @@
 		      ("Jackson Ray Hamilton" . "jackson@jacksonrayhamilton.com"))
 		     (:commit . "75a8c811874c231b49729e76c696824463e54402"))])
  (corfu .
-	[(1 5 0 20241105 83924)
+	[(1 5 0 20241105 191642)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -819,7 +819,7 @@
 	  (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	  (:commit . "37d4ed3ca0a7c314382af64bda643a9dbf31c469"))])
+	  (:commit . "dad862a863d25c0e89e0f8924d01e9e65d02cfe0"))])
  (coterm .
 	 [(1 6 0 20221015 160420)
 	  ((emacs
@@ -2725,6 +2725,15 @@
 		      (:authors
 		       ("Vitalie Spinu" . "spinuvit@gmail.com"))
 		      (:commit . "ac3eb053d3b576fcdd192b0ac6ad5090ea3a7079"))])
+ (mathjax .
+	  [(0 0 20241105 182944)
+	   nil "Render formulas using MathJax" tar
+	   ((:url . "https://github.com/astoff/mathjax.el")
+	    (:keywords "tex" "text" "tools")
+	    (:maintainer "Augusto Stoffel" . "arstoffel@gmail.com")
+	    (:authors
+	     ("Augusto Stoffel" . "arstoffel@gmail.com"))
+	    (:commit . "8240165574398831a3a8efb1e289b406c05f7796"))])
  (mct .
       [(1 0 0 0 20241025 81140)
        ((emacs
@@ -3246,7 +3255,7 @@
 	(:url . "https://elpa.gnu.org/packages/osc.html")
 	(:commit . "62eda3d8fb288b6a16c35a7220a507d0991c5a74"))])
  (osm .
-      [(1 4 0 20241006 1334)
+      [(1 4 0 20241105 201930)
        ((emacs
 	 (28 1))
 	(compat
@@ -3257,7 +3266,7 @@
 	(:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	(:authors
 	 ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	(:commit . "e9db7161f62459d61518888bb7d4aadea15c7b1c"))])
+	(:commit . "9553c0aa63e0c28c76e0bbb592be5eb3710ea7b8"))])
  (other-frame-window .
 		     [(1 0 6 0 20221221 81352)
 		      ((emacs
