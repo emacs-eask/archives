@@ -17373,15 +17373,15 @@
 		 ("Chunyang Xu" . "xuchunyang56@gmail.com"))
 		(:maintainer "Chunyang Xu" . "xuchunyang56@gmail.com"))])
  (easysession .
-	      [(0 1 0 1 -4 20241110 1807)
+	      [(0 1 0 1 -4 20241110 1924)
 	       ((emacs
 		 (25 1))
 		(f
 		 (0 18 2)))
 	       "Easily persist and restore your editing sessions" tar
 	       ((:url . "https://github.com/jamescherti/easysession.el")
-		(:commit . "07d26a173be3e5eeec2a4ce32d2617bc8d24ea5b")
-		(:revdesc . "07d26a173be3")
+		(:commit . "507aca3a3e01f79cf7b8ee73a056b2ecdfa7cc12")
+		(:revdesc . "507aca3a3e01")
 		(:keywords "convenience"))])
  (ebdb-mua-sidecar .
 		   [(0 1 0 1 -4 20240428 1852)
@@ -18330,6 +18330,22 @@
 		   (:maintainers
 		    ("Hiroki YAMAKAWA" . "s06139@gmail.com"))
 		   (:maintainer "Hiroki YAMAKAWA" . "s06139@gmail.com"))])
+ (el-job .
+	 [(0 1 0 1 -4 20241102 1057)
+	  ((emacs
+	    (28 1))
+	   (compat
+	    (30)))
+	  "Call a function using all CPU cores" tar
+	  ((:url . "https://github.com/meedstrom/el-job")
+	   (:commit . "6323ebbb6727f7b8611e210d08cbe3edf9772d8d")
+	   (:revdesc . "6323ebbb6727")
+	   (:keywords "processes")
+	   (:authors
+	    ("Martin Edström" . "meedstrom91@gmail.com"))
+	   (:maintainers
+	    ("Martin Edström" . "meedstrom91@gmail.com"))
+	   (:maintainer "Martin Edström" . "meedstrom91@gmail.com"))])
  (el-mock .
 	  [(1 25 1 1 -4 20220625 1949)
 	   nil "Tiny Mock and Stub framework in Emacs Lisp" tar
@@ -38751,6 +38767,15 @@
 	       (:maintainers
 		("Steve Purcell" . "steve@sanityinc.com"))
 	       (:maintainer "Steve Purcell" . "steve@sanityinc.com"))])
+ (inhibit-mouse .
+		[(0 1 0 1 -4 20241104 531)
+		 ((emacs
+		   (24 1)))
+		 "Deactivate mouse input during editing" tar
+		 ((:url . "https://github.com/jamescherti/inhibit-mouse.el")
+		  (:commit . "204106ea994a253c3de1029fddaadd6bb2b5fd65")
+		  (:revdesc . "204106ea994a")
+		  (:keywords "convenience"))])
  (ini .
       [(1 0 1 -4 20220827 2009)
        ((emacs
