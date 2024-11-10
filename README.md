@@ -4,7 +4,7 @@
 
 <a href="#"><img align="right" src="https://raw.githubusercontent.com/emacs-eask/cli/master/docs/static/logo.png" width="20%"></a>
 # archives
-> Magic to prevent refreshing package archives failure
+> Handle refreshing package archives failure
 
 [![Refresh](https://github.com/emacs-eask/archives/actions/workflows/refresh.yml/badge.svg)](https://github.com/emacs-eask/archives/actions/workflows/refresh.yml)
 
