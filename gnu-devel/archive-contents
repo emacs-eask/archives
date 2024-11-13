@@ -719,7 +719,7 @@
 			("Ingo Lohmar" . "i.lohmar@gmail.com"))
 		       (:commit . "e62157d43b2c874d2edbd547c3bdfb05d0a7ae5c"))])
  (compat .
-	 [(30 0 0 0 0 20241110 84905)
+	 [(30 0 0 0 0 20241113 165030)
 	  ((emacs
 	    (24 4))
 	   (seq
@@ -731,7 +731,7 @@
 	   (:authors
 	    ("Philip Kaludercic" . "philipk@posteo.net")
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	   (:commit . "666205866c8e4cd63c6478683feea8b2fa756444"))])
+	   (:commit . "1238e60ae568286f72fed3c289376cb6771916df"))])
  (constants .
 	    [(2 11 1 0 20240827 95043)
 	     ((emacs
@@ -1042,18 +1042,20 @@
 	      ("Niklas Eklund" . "niklas.eklund@posteo.net"))
 	     (:commit . "6b64d4d8064cee781e071e825857b442ea96c3d9"))])
  (devdocs .
-	  [(0 6 1 0 20241006 5137)
+	  [(0 6 1 0 20241113 134137)
 	   ((emacs
 	     (27 1))
 	    (compat
-	     (29 1)))
+	     (29 1))
+	    (mathjax
+	     (0 1)))
 	   "Emacs viewer for DevDocs" tar
 	   ((:url . "https://github.com/astoff/devdocs.el")
 	    (:keywords "help")
 	    (:maintainer "Augusto Stoffel" . "arstoffel@gmail.com")
 	    (:authors
 	     ("Augusto Stoffel" . "arstoffel@gmail.com"))
-	    (:commit . "98518166efe18c2f2dd9a1c4c89430b83fdbbe3c"))])
+	    (:commit . "d2214d34cdeb4483a594dd6973fcd095cef4653f"))])
  (devicetree-ts-mode .
 		     [(0 3 0 20240117 132538)
 		      ((emacs
