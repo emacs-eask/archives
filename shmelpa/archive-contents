@@ -4805,20 +4805,6 @@
 	       (:maintainers
 		("Justin Talbott" . "justin@waymondo.com"))
 	       (:maintainer "Justin Talbott" . "justin@waymondo.com"))])
- (bind-key .
-	   [(2 4 1 1 -4 20230203 2004)
-	    ((emacs
-	      (24 3)))
-	    "A simple way to manage personal keybindings" tar
-	    ((:url . "https://github.com/jwiegley/use-package")
-	     (:commit . "77945e002f11440eae72d8730d3de218163d551e")
-	     (:revdesc . "77945e002f11")
-	     (:keywords "keys" "keybinding" "config" "dotemacs" "extensions")
-	     (:authors
-	      ("John Wiegley" . "johnw@newartisans.com"))
-	     (:maintainers
-	      ("John Wiegley" . "johnw@newartisans.com"))
-	     (:maintainer "John Wiegley" . "johnw@newartisans.com"))])
  (bind-map .
 	   [(1 1 2 1 -4 20240308 2050)
 	    ((emacs
@@ -77164,22 +77150,6 @@
 	       (:maintainers
 		("rubikitch" . "rubikitch@ruby-lang.org"))
 	       (:maintainer "rubikitch" . "rubikitch@ruby-lang.org"))])
- (use-package .
-	      [(2 4 4 1 -4 20230426 2324)
-	       ((emacs
-		 (24 3))
-		(bind-key
-		 (2 4)))
-	       "A configuration macro for simplifying your .emacs" tar
-	       ((:url . "https://github.com/jwiegley/use-package")
-		(:commit . "b59b4dc2361c7b351238990d0c34eece8d79ecf0")
-		(:revdesc . "b59b4dc2361c")
-		(:keywords "dotemacs" "startup" "speed" "config" "package" "extensions")
-		(:authors
-		 ("John Wiegley" . "johnw@newartisans.com"))
-		(:maintainers
-		 ("John Wiegley" . "johnw@newartisans.com"))
-		(:maintainer "John Wiegley" . "johnw@newartisans.com"))])
  (use-package-chords .
 		     [(0 2 1 1 -4 20221117 1610)
 		      ((use-package
@@ -77200,22 +77170,6 @@
 		       (:maintainers
 			("Justin Talbott" . "justin@waymondo.com"))
 		       (:maintainer "Justin Talbott" . "justin@waymondo.com"))])
- (use-package-ensure-system-package .
-				    [(0 2 1 -4 20221209 2013)
-				     ((use-package
-				       (2 1))
-				      (system-packages
-				       (1 0 4)))
-				     "Auto install system packages" tar
-				     ((:url . "https://github.com/jwiegley/use-package")
-				      (:commit . "bcf0984cf55b70fe6896c6a15f61df92b24f8ffd")
-				      (:revdesc . "bcf0984cf55b")
-				      (:keywords "convenience" "tools" "extensions")
-				      (:authors
-				       ("Justin Talbott" . "justin@waymondo.com"))
-				      (:maintainers
-				       ("Justin Talbott" . "justin@waymondo.com"))
-				      (:maintainer "Justin Talbott" . "justin@waymondo.com"))])
  (use-package-hydra .
 		    [(0 1 1 -4 20181228 745)
 		     ((emacs
