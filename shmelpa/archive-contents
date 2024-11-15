@@ -18317,15 +18317,15 @@
 		    ("Hiroki YAMAKAWA" . "s06139@gmail.com"))
 		   (:maintainer "Hiroki YAMAKAWA" . "s06139@gmail.com"))])
  (el-job .
-	 [(0 1 0 1 -4 20241102 1057)
+	 [(0 1 0 1 -4 20241114 2235)
 	  ((emacs
 	    (28 1))
 	   (compat
 	    (30)))
 	  "Call a function using all CPU cores" tar
 	  ((:url . "https://github.com/meedstrom/el-job")
-	   (:commit . "6323ebbb6727f7b8611e210d08cbe3edf9772d8d")
-	   (:revdesc . "6323ebbb6727")
+	   (:commit . "32ea3c18394ef56bb61c4699c02038122160ea3a")
+	   (:revdesc . "32ea3c18394e")
 	   (:keywords "processes")
 	   (:authors
 	    ("Martin Edström" . "meedstrom91@gmail.com"))
@@ -48218,13 +48218,13 @@
 	  ("Liuyinz" . "liuyinz95@gmail.com"))
 	 (:maintainer "Liuyinz" . "liuyinz95@gmail.com"))])
  (mistty .
-	 [(0 1 0 1 -4 20241114 1938)
+	 [(0 1 0 1 -4 20241114 2325)
 	  ((emacs
 	    (29 1)))
 	  "Shell/Comint alternative based on term.el" tar
 	  ((:url . "https://github.com/szermatt/mistty")
-	   (:commit . "c68709e00c03caf8f676e229dcd824ee4beffa4e")
-	   (:revdesc . "c68709e00c03")
+	   (:commit . "6bb6025d5ebf09a84790d301f0d67c4fb0863ab9")
+	   (:revdesc . "6bb6025d5ebf")
 	   (:keywords "convenience" "unix")
 	   (:authors
 	    ("Stephane Zermatten" . "szermatt@gmx.net"))
@@ -55252,17 +55252,19 @@
 		   ("Anton Hakansson" . "anton@hakanssn.com"))
 		  (:maintainer "Anton Hakansson" . "anton@hakanssn.com"))])
  (org-node .
-	   [(0 1 0 1 -4 20241114 1152)
+	   [(0 1 0 1 -4 20241114 2232)
 	    ((emacs
 	      (28 1))
 	     (compat
 	      (30))
+	     (el-job
+	      (0 3 2))
 	     (llama
 	      (0)))
 	    "Link org-id entries into a network" tar
 	    ((:url . "https://github.com/meedstrom/org-node")
-	     (:commit . "f11220bd85fe063531780a2a47413da0311d9e1d")
-	     (:revdesc . "f11220bd85fe")
+	     (:commit . "e19d11891ad2c422dc8d290976b884566291322c")
+	     (:revdesc . "e19d11891ad2")
 	     (:keywords "org" "hypermedia")
 	     (:authors
 	      ("Martin Edström" . "meedstrom91@gmail.com"))
