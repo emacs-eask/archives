@@ -4788,7 +4788,7 @@
 	  ("repelliuss" . "repelliuss@gmail.com"))
 	 (:maintainer "repelliuss" . "repelliuss@gmail.com"))])
  (bind-chord .
-	     [(0 2 1 1 -4 20221117 1610)
+	     [(0 1 0 1 -4 20241115 2228)
 	      ((emacs
 		(24 3))
 	       (bind-key
@@ -4796,9 +4796,9 @@
 	       (key-chord
 		(0 6)))
 	      "Key-chord binding helper for use-package-chords" tar
-	      ((:url . "https://github.com/jwiegley/use-package")
-	       (:commit . "9090080b15486c3e337be254226efe7e5fde4c99")
-	       (:revdesc . "9090080b1548")
+	      ((:url . "https://github.com/waymondo/use-package-chords")
+	       (:commit . "a2b16a1e64b19ae9428a6cd8f3e09b8159707a29")
+	       (:revdesc . "a2b16a1e64b1")
 	       (:keywords "convenience" "tools" "extensions")
 	       (:authors
 		("Justin Talbott" . "justin@waymondo.com"))
@@ -17874,28 +17874,18 @@
 	 (:maintainers
 	  ("Simon Nicolussi" . "sinic@sinic.name"))
 	 (:maintainer "Simon Nicolussi" . "sinic@sinic.name"))])
- (edts .
-       [(1 2 0 1 -4 20230926 2146)
-	((auto-complete
-	  (20201213 1255))
-	 (auto-highlight-symbol
-	  (20211106 638))
-	 (dash
-	  (20210609 1330))
-	 (emacs
-	  (24 3))
-	 (erlang
-	  (20210315 1640))
-	 (f
-	  (20191110 1357))
-	 (popup
-	  (20210317 138))
-	 (s
-	  (20210603 736)))
-	"Erlang Development Tool Suite" tar
-	((:url . "https://github.com/sebastiw/edts")
-	 (:commit . "5c3cded3fab56baa60874f4e1efd14155cec587f")
-	 (:revdesc . "5c3cded3fab5"))])
+ (edts-mode .
+	    [(0 1 0 1 -4 20230926 2146)
+	     nil "EDTS setup and configuration" tar
+	     ((:url . "https://github.com/sebastiw/edts")
+	      (:commit . "5c3cded3fab56baa60874f4e1efd14155cec587f")
+	      (:revdesc . "5c3cded3fab5")
+	      (:keywords "erlang")
+	      (:authors
+	       ("Thomas Järvstrand" . "thomas.jarvstrand@gmail.com"))
+	      (:maintainers
+	       ("Thomas Järvstrand" . "thomas.jarvstrand@gmail.com"))
+	      (:maintainer "Thomas Järvstrand" . "thomas.jarvstrand@gmail.com"))])
  (edwina .
 	 [(0 3 0 -1 1 -4 20221206 1610)
 	  ((emacs
@@ -57547,15 +57537,15 @@
 		      ("Xu Chunyang" . "mail@xuchunyang.me"))
 		     (:maintainer "Xu Chunyang" . "mail@xuchunyang.me"))])
  (otpp .
-       [(3 0 1 1 -4 20240824 1650)
+       [(0 1 0 1 -4 20241115 2256)
 	((emacs
 	  (28 1))
 	 (compat
 	  (29 1)))
 	"One tab per project, with unique names" tar
 	((:url . "https://github.com/abougouffa/one-tab-per-project")
-	 (:commit . "f515d0636426394af9c671bf58107091f9fac072")
-	 (:revdesc . "f515d0636426")
+	 (:commit . "6507da9014b6d4b76925c089cafa62f1cb0b4500")
+	 (:revdesc . "6507da9014b6")
 	 (:keywords "convenience")
 	 (:authors
 	  ("Abdelhak Bougouffa (rot13" . "\"nobhtbhssn@srqbencebwrpg.bet\")"))
@@ -58991,13 +58981,13 @@
 	      ("Jen-Chieh" . "jcs090218@gmail.com"))
 	     (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (parsebib .
-	   [(0 1 0 1 -4 20241112 2030)
+	   [(0 1 0 1 -4 20241115 2225)
 	    ((emacs
 	      (25 1)))
 	    "A library for parsing bib files" tar
 	    ((:url . "https://github.com/joostkremers/parsebib")
-	     (:commit . "fb48634089b8795fd7695733aba5f06109cb4cf6")
-	     (:revdesc . "fb48634089b8")
+	     (:commit . "c0ee4d5f10bf801af03f633b6b73ced4a0ffead7")
+	     (:revdesc . "c0ee4d5f10bf")
 	     (:keywords "text" "bibtex")
 	     (:authors
 	      ("Joost Kremers" . "joostkremers@fastmail.fm"))
@@ -64214,13 +64204,13 @@
 	  (:revdesc . "1e63e9862673")
 	  (:keywords "abbrev" "convenience" "matching" "rust" "tools"))])
  (racket-mode .
-	      [(0 1 0 1 -4 20241112 1938)
+	      [(0 1 0 1 -4 20241115 2112)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
 	       ((:url . "https://github.com/greghendershott/racket-mode")
-		(:commit . "5a8fbb6eab46cc8b371fc2d589fb3503f820795d")
-		(:revdesc . "5a8fbb6eab46")
+		(:commit . "64dca5f9f6eeef155a7a24916be21f195d7d5b1f")
+		(:revdesc . "64dca5f9f6ee")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com")))])
  (rails-i18n .
@@ -71429,13 +71419,13 @@
 	      (:authors
 	       ("Do Hoang" . "tuhdo1710@gmail.com")))])
  (srfi .
-       [(0 3 0 1 -4 20240924 1924)
+       [(0 1 0 1 -4 20241115 2307)
 	((emacs
 	  (25 1)))
 	"Scheme Requests for Implementation browser" tar
 	((:url . "https://github.com/srfi-explorations/emacs-srfi")
-	 (:commit . "1dcf802700b39a078d970c2e18fcae91f674b0ff")
-	 (:revdesc . "1dcf802700b3")
+	 (:commit . "72d09e6c34f0809536a668ca7031ead6ba082ded")
+	 (:revdesc . "72d09e6c34f0")
 	 (:keywords "languages" "util")
 	 (:authors
 	  ("Lassi Kortela" . "lassi@lassi.io"))
@@ -77165,7 +77155,7 @@
 		("rubikitch" . "rubikitch@ruby-lang.org"))
 	       (:maintainer "rubikitch" . "rubikitch@ruby-lang.org"))])
  (use-package-chords .
-		     [(0 2 1 1 -4 20221117 1610)
+		     [(0 1 0 1 -4 20241115 2228)
 		      ((use-package
 			(2 1))
 		       (bind-key
@@ -77175,9 +77165,9 @@
 		       (key-chord
 			(0 6)))
 		      "Key-chord keyword for use-package" tar
-		      ((:url . "https://github.com/jwiegley/use-package")
-		       (:commit . "9090080b15486c3e337be254226efe7e5fde4c99")
-		       (:revdesc . "9090080b1548")
+		      ((:url . "https://github.com/waymondo/use-package-chords")
+		       (:commit . "a2b16a1e64b19ae9428a6cd8f3e09b8159707a29")
+		       (:revdesc . "a2b16a1e64b1")
 		       (:keywords "convenience" "tools" "extensions")
 		       (:authors
 			("Justin Talbott" . "justin@waymondo.com"))
