@@ -652,16 +652,20 @@
 		   ("Elias G. Perez" . "eg642616@gmail.com"))
 		  (:commit . "706472ea7f0ee2fe5719cd91df7315fe9ca86114"))])
  (comint-mime .
-	      [(0 6 0 20240928 153818)
+	      [(0 7 0 20241116 123039)
 	       ((emacs
-		 (28 1)))
+		 (28 1))
+		(compat
+		 (29 1))
+		(mathjax
+		 (0 1)))
 	       "Display content of various MIME types in comint buffers" tar
 	       ((:url . "https://github.com/astoff/comint-mime")
 		(:keywords "processes" "multimedia")
 		(:maintainer "Augusto Stoffel" . "arstoffel@gmail.com")
 		(:authors
 		 ("Augusto Stoffel" . "arstoffel@gmail.com"))
-		(:commit . "b8a5347f80ffc55421997493b646eb922450c720"))])
+		(:commit . "5e7b609a4f8c4ba8ec6d1d994c01143b79b93c33"))])
  (compact-docstrings .
 		     [(0 2 0 20220305 183958)
 		      nil "Shrink blank lines in docstrings and doc comments" tar
@@ -940,7 +944,7 @@
 		 (:url . "https://elpa.gnu.org/packages/cycle-quotes.html")
 		 (:commit . "c1ef993f8c66fec71b10d70eb7a2cd0c416aaa12"))])
  (dape .
-       [(0 16 0 0 20241114 161411)
+       [(0 16 0 0 20241116 195941)
 	((emacs
 	  (29 1))
 	 (jsonrpc
@@ -948,7 +952,7 @@
 	"Debug Adapter Protocol for Emacs" tar
 	((:url . "https://github.com/svaante/dape")
 	 (:maintainer "Daniel Pettersson" . "daniel@dpettersson.net")
-	 (:commit . "973ad76700d459923d7799252176954af6800264"))])
+	 (:commit . "5489f03997ae359919cc3c6d7aeb89c9a9e939cd"))])
  (darkroom .
 	   [(0 3 0 20200507 173652)
 	    ((cl-lib
@@ -1331,7 +1335,7 @@
 	 ("Eduardo Ochs" . "eduardoochs@gmail.com"))
 	(:commit . "25c810004c2201960f32a60b362eb6ebe524de9f"))])
  (ef-themes .
-	    [(1 8 0 0 20241114 54747)
+	    [(1 9 0 0 20241116 183040)
 	     ((emacs
 	       (27 1)))
 	     "Colorful and legible themes" tar
@@ -1340,7 +1344,7 @@
 	      (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	      (:authors
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	      (:commit . "b77b26eb0b8caee3a6c985b7874d8f0cf9468600"))])
+	      (:commit . "b1333b703805a21ed6414386830cb5d1977475b7"))])
  (eglot .
 	[(1 17 0 20241024 85007)
 	 ((emacs
