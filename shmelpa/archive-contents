@@ -10875,6 +10875,15 @@
 				     (:maintainers
 				      ("Seong Yong-ju" . "sei40kr@gmail.com"))
 				     (:maintainer "Seong Yong-ju" . "sei40kr@gmail.com"))])
+ (compile-angel .
+		[(0 1 0 1 -4 20241117 1720)
+		 ((emacs
+		   (24 4)))
+		 "Compile Emacs Lisp libraries automatically" tar
+		 ((:url . "https://github.com/jamescherti/compile-angel.el")
+		  (:commit . "cc8cc2ddcdd5f5dda3bebf57b8ade68cfddbb6d4")
+		  (:revdesc . "cc8cc2ddcdd5")
+		  (:keywords "convenience"))])
  (compile-multi .
 		[(0 6 1 -4 20240923 1814)
 		 ((emacs
@@ -15765,6 +15774,22 @@
 		 (:maintainers
 		  ("Jose G Perez Taveras" . "josegpt27@gmail.com"))
 		 (:maintainer "Jose G Perez Taveras" . "josegpt27@gmail.com"))])
+ (disproject .
+	     [(0 1 0 1 -4 20241116 2150)
+	      ((emacs
+		(29 4))
+	       (transient
+		(0 7 8)))
+	      "Dispatch project commands with Transient" tar
+	      ((:url . "https://github.com/aurtzy/disproject")
+	       (:commit . "505ffc8a64f24cf481ad59c207e9852abbdad11b")
+	       (:revdesc . "505ffc8a64f2")
+	       (:keywords "convenience" "files" "vc")
+	       (:authors
+		("aurtzy" . "aurtzy@gmail.com"))
+	       (:maintainers
+		("aurtzy" . "aurtzy@gmail.com"))
+	       (:maintainer "aurtzy" . "aurtzy@gmail.com"))])
  (dispwatch .
 	    [(1 1 -4 20210305 342)
 	     ((emacs
@@ -17233,13 +17258,13 @@
 		    ("Thanabodee Charoenpiriyakij" . "wingyminus@gmail.com"))
 		   (:maintainer "Thanabodee Charoenpiriyakij" . "wingyminus@gmail.com"))])
  (eask .
-       [(0 1 0 1 -4 20241114 423)
+       [(0 1 0 1 -4 20241117 1929)
 	((emacs
 	  (26 1)))
 	"Core Eask APIs, for Eask CLI development" tar
 	((:url . "https://github.com/emacs-eask/eask")
-	 (:commit . "d449538ab8d5783d22dc84680c6f27b273cb4478")
-	 (:revdesc . "d449538ab8d5")
+	 (:commit . "79eef0a2d94f5f6880baa90fde50b885a71e2d2c")
+	 (:revdesc . "79eef0a2d94f")
 	 (:keywords "lisp" "eask" "api")
 	 (:authors
 	  ("Jen-Chieh" . "jcs090218@gmail.com"))
@@ -22048,6 +22073,22 @@
 	     (:maintainers
 	      ("Joshua Cole" . "joshuafcole@gmail.com"))
 	     (:maintainer "Joshua Cole" . "joshuafcole@gmail.com"))])
+ (evedel .
+	 [(0 1 0 1 -4 20241114 11)
+	  ((emacs
+	    (29 1))
+	   (gptel
+	    (0 9 0)))
+	  "Instructed LLM programmer/assistant" tar
+	  ((:url . "https://github.com/daedsidog/evedel")
+	   (:commit . "0e6faec72903e1fd541c416883696309aa300ced")
+	   (:revdesc . "0e6faec72903")
+	   (:keywords "convenience" "tools")
+	   (:authors
+	    ("daedsidog" . "contact@daedsidog.com"))
+	   (:maintainers
+	    ("daedsidog" . "contact@daedsidog.com"))
+	   (:maintainer "daedsidog" . "contact@daedsidog.com"))])
  (evenok .
 	 [(0 1 0 1 -4 20241031 2134)
 	  ((emacs
@@ -47828,6 +47869,12 @@
 	(:maintainers
 	 ("Yoshinari Nomura" . "nom@quickhack.net"))
 	(:maintainer "Yoshinari Nomura" . "nom@quickhack.net"))])
+ (miasma-theme .
+	       [(0 1 0 1 -4 20241117 1403)
+		nil "Miasma: color theme inspired by the woods" tar
+		((:url . "https://github.com/daut/miasma-theme.el")
+		 (:commit . "6af2ce87940f5a10e3f2e64788029b68be606607")
+		 (:revdesc . "6af2ce87940f"))])
  (mic .
       [(0 37 1 1 -4 20240806 1655)
        ((emacs
