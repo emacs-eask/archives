@@ -10876,13 +10876,13 @@
 				      ("Seong Yong-ju" . "sei40kr@gmail.com"))
 				     (:maintainer "Seong Yong-ju" . "sei40kr@gmail.com"))])
  (compile-angel .
-		[(0 1 0 1 -4 20241118 1600)
+		[(0 1 0 1 -4 20241118 1837)
 		 ((emacs
 		   (24 4)))
 		 "Compile Emacs Lisp libraries automatically" tar
 		 ((:url . "https://github.com/jamescherti/compile-angel.el")
-		  (:commit . "dfe06c3b1403ce9ddfaa8e29dd05795571c5afea")
-		  (:revdesc . "dfe06c3b1403")
+		  (:commit . "972bb9fc9ca187004a9a00d52192c172e2f39934")
+		  (:revdesc . "972bb9fc9ca1")
 		  (:keywords "convenience"))])
  (compile-multi .
 		[(0 6 1 -4 20240923 1814)
@@ -20535,15 +20535,17 @@
 	     ("Chris Clark" . "cfclrk@gmail.com"))
 	    (:maintainer "Chris Clark" . "cfclrk@gmail.com"))])
  (envrc .
-	[(0 12 1 -4 20240613 907)
+	[(0 1 0 1 -4 20241118 1700)
 	 ((emacs
 	   (26 1))
 	  (inheritenv
-	   (0 1)))
+	   (0 1))
+	  (seq
+	   (2 24)))
 	 "Support for `direnv' that operates buffer-locally" tar
 	 ((:url . "https://github.com/purcell/envrc")
-	  (:commit . "2316e004c1574234fe4d991bd75a254cdeaa83ae")
-	  (:revdesc . "2316e004c157")
+	  (:commit . "9bbe723eb0749b66da0dead9d7eb49aa62a36bb9")
+	  (:revdesc . "9bbe723eb074")
 	  (:keywords "processes" "tools")
 	  (:authors
 	   ("Steve Purcell" . "steve@sanityinc.com"))
@@ -23228,13 +23230,13 @@
 			(:revdesc . "64252ded690a")
 			(:keywords "evil" "syntax" "highlight" "text-object"))])
  (evil-textobj-tree-sitter .
-			   [(0 5 1 -4 20240829 247)
+			   [(0 1 0 1 -4 20241118 1711)
 			    ((emacs
 			      (25 1)))
 			    "Provides evil textobjects using tree-sitter" tar
 			    ((:url . "https://github.com/meain/evil-textobj-tree-sitter")
-			     (:commit . "b4ef204ff80ed00b03cf8839ee29101ed867dd58")
-			     (:revdesc . "b4ef204ff80e")
+			     (:commit . "bce236e5d2cc2fa4eae7d284ffd19ad18d46349a")
+			     (:revdesc . "bce236e5d2cc")
 			     (:keywords "evil" "tree-sitter" "text-object" "convenience"))])
  (evil-traces .
 	      [(0 2 0 1 -4 20230820 2255)
@@ -72968,19 +72970,6 @@
 		(:maintainers
 		 ("Joe Bloggs" . "vapniks@yahoo.com"))
 		(:maintainer "Joe Bloggs" . "vapniks@yahoo.com"))])
- (system-packages .
-		  [(1 0 11 1 -4 20220409 1023)
-		   ((emacs
-		     (24 3)))
-		   "Functions to manage system packages" tar
-		   ((:url . "https://gitlab.com/jabranham/system-packages")
-		    (:commit . "c087d2c6e598f85fc2760324dce20104ea442fa3")
-		    (:revdesc . "c087d2c6e598")
-		    (:authors
-		     ("J. Alexander Branham" . "alex.branham@gmail.com"))
-		    (:maintainers
-		     ("J. Alexander Branham" . "alex.branham@gmail.com"))
-		    (:maintainer "J. Alexander Branham" . "alex.branham@gmail.com"))])
  (system-specific-settings .
 			   [(0 2 1 -4 20140818 1457)
 			    nil "Apply settings only on certain systems" tar
