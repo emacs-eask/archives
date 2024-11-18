@@ -15775,15 +15775,15 @@
 		  ("Jose G Perez Taveras" . "josegpt27@gmail.com"))
 		 (:maintainer "Jose G Perez Taveras" . "josegpt27@gmail.com"))])
  (disproject .
-	     [(0 1 0 1 -4 20241117 2219)
+	     [(0 1 0 1 -4 20241118 31)
 	      ((emacs
 		(29 4))
 	       (transient
 		(0 7 8)))
 	      "Dispatch project commands with Transient" tar
 	      ((:url . "https://github.com/aurtzy/disproject")
-	       (:commit . "645d67bf86fd5b72e534c9220e4da23e9eea5db8")
-	       (:revdesc . "645d67bf86fd")
+	       (:commit . "8369d7ccc47fc6360ec503d5e8a83a70e9282a79")
+	       (:revdesc . "8369d7ccc47f")
 	       (:keywords "convenience" "files" "vc")
 	       (:authors
 		("aurtzy" . "aurtzy@gmail.com"))
@@ -19898,13 +19898,13 @@
 		   ("DarkSun" . "lujun9972@gmail.com"))
 		  (:maintainer "DarkSun" . "lujun9972@gmail.com"))])
  (emacsql .
-	  [(0 1 0 1 -4 20241117 1614)
+	  [(0 1 0 1 -4 20241117 2114)
 	   ((emacs
 	     (26 1)))
 	   "High-level SQL database front-end" tar
 	   ((:url . "https://github.com/magit/emacsql")
-	    (:commit . "be76529215cfdf477e2424de6f828dac019a6cdc")
-	    (:revdesc . "be76529215cf")
+	    (:commit . "c8fceaf236fc4b68e95160e0d4161a3e50a670ad")
+	    (:revdesc . "c8fceaf236fc")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainers
@@ -44758,7 +44758,7 @@
 		   ("Wilfred Hughes" . "me@wilfred.me.uk"))
 		  (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk"))])
  (logview .
-	  [(0 1 0 1 -4 20241104 2042)
+	  [(0 1 0 1 -4 20241117 2130)
 	   ((emacs
 	     (25 1))
 	    (datetime
@@ -44767,8 +44767,8 @@
 	     (1 0)))
 	   "Major mode for viewing log files" tar
 	   ((:url . "https://github.com/doublep/logview")
-	    (:commit . "0db778bb0ced79989a5112a722d218761893101d")
-	    (:revdesc . "0db778bb0ced")
+	    (:commit . "aaa3c8a832cf57b00ccab49c1c66fcc85d342d1b")
+	    (:revdesc . "aaa3c8a832cf")
 	    (:keywords "files" "tools")
 	    (:authors
 	     ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
@@ -47870,11 +47870,11 @@
 	 ("Yoshinari Nomura" . "nom@quickhack.net"))
 	(:maintainer "Yoshinari Nomura" . "nom@quickhack.net"))])
  (miasma-theme .
-	       [(0 1 0 1 -4 20241117 1403)
+	       [(0 1 0 1 -4 20241117 2101)
 		nil "Miasma: color theme inspired by the woods" tar
 		((:url . "https://github.com/daut/miasma-theme.el")
-		 (:commit . "6af2ce87940f5a10e3f2e64788029b68be606607")
-		 (:revdesc . "6af2ce87940f"))])
+		 (:commit . "9212213d12d40c6631a30a407b1b981e1a1101f0")
+		 (:revdesc . "9212213d12d4"))])
  (mic .
       [(0 37 1 1 -4 20240806 1655)
        ((emacs
@@ -60922,6 +60922,22 @@
 		  (:maintainers
 		   ("Hiroaki Otsu" . "ootsuhiroaki@gmail.com"))
 		  (:maintainer "Hiroaki Otsu" . "ootsuhiroaki@gmail.com"))])
+ (plumber .
+	  [(0 1 0 1 -4 20241110 2234)
+	   ((emacs
+	     (25 1))
+	    (compat
+	     (28 1 2 2)))
+	   "Run different commands depending on the text format" tar
+	   ((:url . "https://github.com/8dcc/plumber.el")
+	    (:commit . "7655ed6d6d69249488abf57a3b39fc762792be6f")
+	    (:revdesc . "7655ed6d6d69")
+	    (:keywords "convenience" "matching" "tools")
+	    (:authors
+	     ("8dcc" . "8dcc.git@gmail.com"))
+	    (:maintainers
+	     ("8dcc" . "8dcc.git@gmail.com"))
+	    (:maintainer "8dcc" . "8dcc.git@gmail.com"))])
  (plur .
        [(0 1 1 -4 20160504 924)
 	((emacs
@@ -69441,7 +69457,7 @@
 	  (emojify
 	   (0 2)))
 	 "Slack client for Emacs" tar
-	 ((:url . "https://github.com/yuya373/emacs-slack")
+	 ((:url . "https://github.com/emacs-slack/emacs-slack")
 	  (:commit . "ff46d88726482211e3ac3d0b9c95dd4fdffe11c2")
 	  (:revdesc . "ff46d8872648")
 	  (:keywords "tools")
@@ -75586,15 +75602,15 @@
 			("Erick Navarro" . "erick@navarro.io"))
 		       (:maintainer "Erick Navarro" . "erick@navarro.io"))])
  (tree-sitter-langs .
-		    [(0 1 0 1 -4 20241110 1307)
+		    [(0 1 0 1 -4 20241117 1530)
 		     ((emacs
 		       (25 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
 		     ((:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs")
-		      (:commit . "213b1c4db852a97480e029453af869ff1a0764e0")
-		      (:revdesc . "213b1c4db852")
+		      (:commit . "6d53bcbe185f653a5314d86ddc68ace6ca0f44ad")
+		      (:revdesc . "6d53bcbe185f")
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
