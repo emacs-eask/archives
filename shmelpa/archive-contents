@@ -10876,13 +10876,13 @@
 				      ("Seong Yong-ju" . "sei40kr@gmail.com"))
 				     (:maintainer "Seong Yong-ju" . "sei40kr@gmail.com"))])
  (compile-angel .
-		[(0 1 0 1 -4 20241118 2102)
+		[(0 1 0 1 -4 20241118 2135)
 		 ((emacs
 		   (24 4)))
 		 "Compile Emacs Lisp libraries automatically" tar
 		 ((:url . "https://github.com/jamescherti/compile-angel.el")
-		  (:commit . "6d4f38c08a64596feb730537eac6ce1c6c8c1647")
-		  (:revdesc . "6d4f38c08a64")
+		  (:commit . "0266ce84b84caa021ef8e13aa3eebd827674faaa")
+		  (:revdesc . "0266ce84b84c")
 		  (:keywords "convenience"))])
  (compile-multi .
 		[(0 6 1 -4 20240923 1814)
@@ -17899,18 +17899,28 @@
 	 (:maintainers
 	  ("Simon Nicolussi" . "sinic@sinic.name"))
 	 (:maintainer "Simon Nicolussi" . "sinic@sinic.name"))])
- (edts-mode .
-	    [(0 1 0 1 -4 20230926 2146)
-	     nil "EDTS setup and configuration" tar
-	     ((:url . "https://github.com/sebastiw/edts")
-	      (:commit . "5c3cded3fab56baa60874f4e1efd14155cec587f")
-	      (:revdesc . "5c3cded3fab5")
-	      (:keywords "erlang")
-	      (:authors
-	       ("Thomas Järvstrand" . "thomas.jarvstrand@gmail.com"))
-	      (:maintainers
-	       ("Thomas Järvstrand" . "thomas.jarvstrand@gmail.com"))
-	      (:maintainer "Thomas Järvstrand" . "thomas.jarvstrand@gmail.com"))])
+ (edts .
+       [(1 2 0 1 -4 20230926 2146)
+	((auto-complete
+	  (20201213 1255))
+	 (auto-highlight-symbol
+	  (20211106 638))
+	 (dash
+	  (20210609 1330))
+	 (emacs
+	  (24 3))
+	 (erlang
+	  (20210315 1640))
+	 (f
+	  (20191110 1357))
+	 (popup
+	  (20210317 138))
+	 (s
+	  (20210603 736)))
+	"Erlang Development Tool Suite" tar
+	((:url . "https://github.com/sebastiw/edts")
+	 (:commit . "5c3cded3fab56baa60874f4e1efd14155cec587f")
+	 (:revdesc . "5c3cded3fab5"))])
  (edwina .
 	 [(0 3 0 -1 1 -4 20221206 1610)
 	  ((emacs
@@ -41445,7 +41455,7 @@
 	      ("ganmacs" . "ganmacs_at_gmail.com"))
 	     (:maintainer "ganmacs" . "ganmacs_at_gmail.com"))])
  (jupyter .
-	  [(0 1 0 1 -4 20241118 1836)
+	  [(0 1 0 1 -4 20241118 2345)
 	   ((emacs
 	     (27))
 	    (cl-lib
@@ -41460,8 +41470,8 @@
 	     (1 9)))
 	   "Jupyter" tar
 	   ((:url . "https://github.com/emacs-jupyter/jupyter")
-	    (:commit . "be52a622b904439eca0e133a4aceb33fdd5a5f8f")
-	    (:revdesc . "be52a622b904")
+	    (:commit . "e966c5d3d6ac147992832af69135655290072042")
+	    (:revdesc . "e966c5d3d6ac")
 	    (:authors
 	     ("Nathaniel Nicandro" . "nathanielnicandro@gmail.com"))
 	    (:maintainers
@@ -55303,7 +55313,7 @@
 		   ("Anton Hakansson" . "anton@hakanssn.com"))
 		  (:maintainer "Anton Hakansson" . "anton@hakanssn.com"))])
  (org-node .
-	   [(0 1 0 1 -4 20241118 1103)
+	   [(0 1 0 1 -4 20241118 2231)
 	    ((emacs
 	      (28 1))
 	     (compat
@@ -55311,11 +55321,11 @@
 	     (el-job
 	      (0 3 4))
 	     (llama
-	      (0)))
+	      (0 4 0)))
 	    "Link org-id entries into a network" tar
 	    ((:url . "https://github.com/meedstrom/org-node")
-	     (:commit . "2b00e581249c99b24699a47c9a4c6c8657960792")
-	     (:revdesc . "2b00e581249c")
+	     (:commit . "aa85867614083b7add1ae2b64341bae059959fcb")
+	     (:revdesc . "aa8586761408")
 	     (:keywords "org" "hypermedia")
 	     (:authors
 	      ("Martin Edström" . "meedstrom91@gmail.com"))
@@ -55323,11 +55333,11 @@
 	      ("Martin Edström" . "meedstrom91@gmail.com"))
 	     (:maintainer "Martin Edström" . "meedstrom91@gmail.com"))])
  (org-node-fakeroam .
-		    [(0 1 0 1 -4 20241118 2044)
+		    [(0 1 0 1 -4 20241118 2229)
 		     ((emacs
 		       (28 1))
 		      (org-node
-		       (1 7 0))
+		       (1 9 0))
 		      (compat
 		       (30))
 		      (org-roam
@@ -55336,8 +55346,8 @@
 		       (4 0 3)))
 		     "Stand-ins for org-roam-autosync-mode" tar
 		     ((:url . "https://github.com/meedstrom/org-node-fakeroam")
-		      (:commit . "8503e56b7254e3db48708337ec4cf6c7ee2c8d47")
-		      (:revdesc . "8503e56b7254")
+		      (:commit . "a85a73b3da879c93091c65f8370866047a4d71b0")
+		      (:revdesc . "a85a73b3da87")
 		      (:keywords "org" "hypermedia")
 		      (:authors
 		       ("Martin Edström" . "meedstrom91@gmail.com"))
@@ -69445,7 +69455,7 @@
 	("Chunyang Xu" . "mail@xuchunyang.me"))
        (:maintainer "Chunyang Xu" . "mail@xuchunyang.me"))])
  (slack .
-	[(0 0 2 1 -4 20211129 310)
+	[(0 1 -4 20241119 0)
 	 ((websocket
 	   (1 8))
 	  (request
@@ -69460,8 +69470,8 @@
 	   (0 2)))
 	 "Slack client for Emacs" tar
 	 ((:url . "https://github.com/emacs-slack/emacs-slack")
-	  (:commit . "ff46d88726482211e3ac3d0b9c95dd4fdffe11c2")
-	  (:revdesc . "ff46d8872648")
+	  (:commit . "d0faaee06a3af59e906a112a6c7e21cf1aba108a")
+	  (:revdesc . "d0faaee06a3a")
 	  (:keywords "tools")
 	  (:authors
 	   ("yuya.minami" . "yuya.minami@yuyaminami-no-MacBook-Pro.local"))
