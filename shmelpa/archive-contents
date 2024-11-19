@@ -69455,7 +69455,7 @@
 	("Chunyang Xu" . "mail@xuchunyang.me"))
        (:maintainer "Chunyang Xu" . "mail@xuchunyang.me"))])
  (slack .
-	[(0 1 -4 20241119 0)
+	[(0 1 -4 20241119 1031)
 	 ((websocket
 	   (1 8))
 	  (request
@@ -69467,11 +69467,17 @@
 	  (alert
 	   (1 2))
 	  (emojify
-	   (0 2)))
+	   (0 2))
+	  (emacs
+	   (25 1))
+	  (dash
+	   (2 19 1))
+	  (s
+	   (1 13 1)))
 	 "Slack client for Emacs" tar
 	 ((:url . "https://github.com/emacs-slack/emacs-slack")
-	  (:commit . "d0faaee06a3af59e906a112a6c7e21cf1aba108a")
-	  (:revdesc . "d0faaee06a3a")
+	  (:commit . "8d83ee62faffd079ccb5911d527020898da2fff9")
+	  (:revdesc . "8d83ee62faff")
 	  (:keywords "tools")
 	  (:authors
 	   ("yuya.minami" . "yuya.minami@yuyaminami-no-MacBook-Pro.local"))
