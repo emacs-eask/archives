@@ -7393,15 +7393,15 @@
 	     ("Anan Mikami" . "lateau@gmail.com"))
 	    (:maintainer "Anan Mikami" . "lateau@gmail.com"))])
  (chatgpt-shell .
-		[(0 1 0 1 -4 20241120 1025)
+		[(0 1 0 1 -4 20241120 1812)
 		 ((emacs
 		   (28 1))
 		  (shell-maker
 		   (0 68 1)))
-		 "A multi-llm comint Emacs shell (plus other goodies)" tar
+		 "A multi-llm Emacs shell (ChatGPT, Claude, Gemini) + editing integrations" tar
 		 ((:url . "https://github.com/xenodium/chatgpt-shell")
-		  (:commit . "7132a3d718941493818df47a61f6d6006a513ac1")
-		  (:revdesc . "7132a3d71894"))])
+		  (:commit . "b9a9c71385d1d08a5474b5b2f14396439d1cbb99")
+		  (:revdesc . "b9a9c71385d1"))])
  (chatu .
 	[(0 1 1 -4 20240518 615)
 	 ((org
@@ -18356,15 +18356,15 @@
 		    ("Hiroki YAMAKAWA" . "s06139@gmail.com"))
 		   (:maintainer "Hiroki YAMAKAWA" . "s06139@gmail.com"))])
  (el-job .
-	 [(0 1 0 1 -4 20241119 1918)
+	 [(0 1 0 1 -4 20241120 1908)
 	  ((emacs
 	    (28 1))
 	   (compat
 	    (30)))
 	  "Call a function using all CPU cores" tar
 	  ((:url . "https://github.com/meedstrom/el-job")
-	   (:commit . "c1d9aec762c7ca571ec61a6cbf581279bbb8ee67")
-	   (:revdesc . "c1d9aec762c7")
+	   (:commit . "c0598fb26b0ec95fdf7707616f4efc09d26984ad")
+	   (:revdesc . "c0598fb26b0e")
 	   (:keywords "processes")
 	   (:authors
 	    ("Martin Edström" . "meedstrom91@gmail.com"))
@@ -41734,11 +41734,11 @@
 	    ("Arne Babenhauserheide" . "arne_bab@web.de"))
 	   (:maintainer "Arne Babenhauserheide" . "arne_bab@web.de"))])
  (kanji-mode .
-	     [(1 0 1 -4 20230928 1113)
+	     [(0 1 0 1 -4 20241120 1923)
 	      nil "View stroke order for kanji characters at cursor" tar
 	      ((:url . "https://github.com/wsgac/kanji-mode")
-	       (:commit . "731b3a5447bcb899ba1d86b645a344e0915d04f3")
-	       (:revdesc . "731b3a5447bc")
+	       (:commit . "09719b00d60e22bd31c93b21c0c817eced9d0406")
+	       (:revdesc . "09719b00d60e")
 	       (:authors
 		("Wojciech Gac" . "wojciech.s.gac@gmail.com"))
 	       (:maintainers
@@ -68445,13 +68445,13 @@
 		("Ian Eure" . "ian.eure@gmail.com"))
 	       (:maintainer "Ian Eure" . "ian.eure@gmail.com"))])
  (shell-maker .
-	      [(0 1 0 1 -4 20241119 1109)
+	      [(0 1 0 1 -4 20241120 1933)
 	       ((emacs
 		 (27 1)))
 	       "Interaction mode for making comint shells" tar
 	       ((:url . "https://github.com/xenodium/shell-maker")
-		(:commit . "d90ec9ad3f83d381de65159043318f3381bb3a36")
-		(:revdesc . "d90ec9ad3f83"))])
+		(:commit . "aeeb8335ca6befa11606b62616f298c5449f3ec8")
+		(:revdesc . "aeeb8335ca6b"))])
  (shell-pop .
 	    [(0 64 1 -4 20231228 612)
 	     ((emacs
@@ -68915,15 +68915,15 @@
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
  (sideline .
-	   [(0 1 0 1 -4 20241117 1845)
+	   [(0 1 0 1 -4 20241120 2005)
 	    ((emacs
 	      (27 1))
 	     (ht
 	      (2 4)))
 	    "Show information on the side" tar
 	    ((:url . "https://github.com/emacs-sideline/sideline")
-	     (:commit . "56d4a8558870546516523bf08d35a6859f632855")
-	     (:revdesc . "56d4a8558870")
+	     (:commit . "b6b79458d5fd1f6bb2501ce78bb9cc0d0f583b11")
+	     (:revdesc . "b6b79458d5fd")
 	     (:keywords "convenience")
 	     (:authors
 	      ("Jen-Chieh" . "jcs090218@gmail.com"))
@@ -69455,7 +69455,7 @@
 	("Chunyang Xu" . "mail@xuchunyang.me"))
        (:maintainer "Chunyang Xu" . "mail@xuchunyang.me"))])
  (slack .
-	[(0 1 -4 20241120 1329)
+	[(0 1 -4 20241120 1814)
 	 ((websocket
 	   (1 8))
 	  (request
@@ -69473,11 +69473,13 @@
 	  (dash
 	   (2 19 1))
 	  (s
-	   (1 13 1)))
+	   (1 13 1))
+	  (ts
+	   (0 3)))
 	 "Slack client for Emacs" tar
 	 ((:url . "https://github.com/emacs-slack/emacs-slack")
-	  (:commit . "549cbb8dc800288f00be3c97e3f34b3f42bf9a71")
-	  (:revdesc . "549cbb8dc800")
+	  (:commit . "b58a84b7b7b41dfd3d1f0cdcdbbbb1383b1ba43f")
+	  (:revdesc . "b58a84b7b7b4")
 	  (:keywords "tools")
 	  (:authors
 	   ("yuya.minami" . "yuya.minami@yuyaminami-no-MacBook-Pro.local"))
