@@ -7393,15 +7393,15 @@
 	     ("Anan Mikami" . "lateau@gmail.com"))
 	    (:maintainer "Anan Mikami" . "lateau@gmail.com"))])
  (chatgpt-shell .
-		[(0 1 0 1 -4 20241123 1404)
+		[(0 1 0 1 -4 20241123 1810)
 		 ((emacs
 		   (28 1))
 		  (shell-maker
-		   (0 70 1)))
+		   (0 70 2)))
 		 "A multi-llm Emacs shell (ChatGPT, Claude, Gemini) + editing integrations" tar
 		 ((:url . "https://github.com/xenodium/chatgpt-shell")
-		  (:commit . "b455f1a0e0041b572700683f1e18435e6d7a687a")
-		  (:revdesc . "b455f1a0e004"))])
+		  (:commit . "8b2670e987b21abbd00cb1d7448b9efb8e7443a2")
+		  (:revdesc . "8b2670e987b2"))])
  (chatu .
 	[(0 1 1 -4 20240518 615)
 	 ((org
@@ -19130,21 +19130,21 @@
 	    ("Demyan Rogozhin" . "demyan.rogozhin@gmail.com"))
 	   (:maintainer "Demyan Rogozhin" . "demyan.rogozhin@gmail.com"))])
  (elisa .
-	[(0 1 0 1 -4 20241106 1905)
+	[(0 1 0 1 -4 20241123 1700)
 	 ((emacs
 	   (29 2))
 	  (ellama
 	   (0 11 2))
 	  (llm
-	   (0 9 1))
+	   (0 18 1))
 	  (async
 	   (1 9 8))
 	  (plz
 	   (0 9)))
 	 "Emacs Lisp Information System Assistant" tar
 	 ((:url . "https://github.com/s-kostyaev/elisa")
-	  (:commit . "4a4d1db3594a53fd90fcd453cf642d96f70a70ff")
-	  (:revdesc . "4a4d1db3594a")
+	  (:commit . "1c1e0f17155a5e6fc8a019403aac5888d7f12dcd")
+	  (:revdesc . "1c1e0f17155a")
 	  (:keywords "help" "local" "tools")
 	  (:authors
 	   ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
@@ -48279,13 +48279,13 @@
 	  ("Liuyinz" . "liuyinz95@gmail.com"))
 	 (:maintainer "Liuyinz" . "liuyinz95@gmail.com"))])
  (mistty .
-	 [(0 1 0 1 -4 20241123 1100)
+	 [(0 1 0 1 -4 20241123 1803)
 	  ((emacs
 	    (29 1)))
 	  "Shell/Comint alternative based on term.el" tar
 	  ((:url . "https://github.com/szermatt/mistty")
-	   (:commit . "4bf0f712fe58ed011172a20c50cbc0180f3057dd")
-	   (:revdesc . "4bf0f712fe58")
+	   (:commit . "83765deb96d8420bb966322c2683f81c3a8bf296")
+	   (:revdesc . "83765deb96d8")
 	   (:keywords "convenience" "unix")
 	   (:authors
 	    ("Stephane Zermatten" . "szermatt@gmx.net"))
@@ -68445,13 +68445,13 @@
 		("Ian Eure" . "ian.eure@gmail.com"))
 	       (:maintainer "Ian Eure" . "ian.eure@gmail.com"))])
  (shell-maker .
-	      [(0 1 0 1 -4 20241121 1520)
+	      [(0 1 0 1 -4 20241123 1808)
 	       ((emacs
 		 (27 1)))
 	       "Interaction mode for making comint shells" tar
 	       ((:url . "https://github.com/xenodium/shell-maker")
-		(:commit . "ead7b8a126ad1e631d9a9f605644192799abea0f")
-		(:revdesc . "ead7b8a126ad"))])
+		(:commit . "82db4dbedfd8196d487bb18be186204b9b840a85")
+		(:revdesc . "82db4dbedfd8"))])
  (shell-pop .
 	    [(0 64 1 -4 20231228 612)
 	     ((emacs
@@ -73230,15 +73230,15 @@
 	     ("John Gong" . "gjtzone@hotmail.com"))
 	    (:maintainer "Aaron Ji" . "shuxiao9058@gmail.com"))])
  (tabspaces .
-	    [(1 5 1 -4 20240924 1414)
+	    [(0 1 0 1 -4 20241123 1921)
 	     ((emacs
 	       (27 1))
 	      (project
 	       (0 8 1)))
 	     "Leverage tab-bar and project for buffer-isolated workspaces" tar
 	     ((:url . "https://github.com/mclear-tools/tabspaces")
-	      (:commit . "49bd9508bade2962f72f4fab9ffc12ef31c271f7")
-	      (:revdesc . "49bd9508bade")
+	      (:commit . "43cbefa73b00c15ef0a0ba34a87d3ab97d8dd5f3")
+	      (:revdesc . "43cbefa73b00")
 	      (:keywords "convenience" "frames")
 	      (:authors
 	       ("Colin McLear" . "mclear@fastmail.com")))])
@@ -75296,7 +75296,7 @@
 		(:revdesc . "0621a66d00ec")
 		(:keywords "comm" "convenience" "files"))])
  (transient .
-	    [(0 1 0 1 -4 20241122 1928)
+	    [(0 1 0 1 -4 20241122 2145)
 	     ((emacs
 	       (26 1))
 	      (compat
@@ -75305,8 +75305,8 @@
 	       (2 24)))
 	     "Transient commands" tar
 	     ((:url . "https://github.com/magit/transient")
-	      (:commit . "aaefee0d016633a6178a8335b247e839668dc46c")
-	      (:revdesc . "aaefee0d0166")
+	      (:commit . "c9a62d5a16e957380ff8e05223e05b18798f98b9")
+	      (:revdesc . "c9a62d5a16e9")
 	      (:keywords "extensions")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
