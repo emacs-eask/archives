@@ -22086,15 +22086,15 @@
 	      ("Joshua Cole" . "joshuafcole@gmail.com"))
 	     (:maintainer "Joshua Cole" . "joshuafcole@gmail.com"))])
  (evedel .
-	 [(0 1 0 1 -4 20241124 31)
+	 [(0 1 0 1 -4 20241124 1710)
 	  ((emacs
 	    (29 1))
 	   (gptel
 	    (0 9 0)))
 	  "Instructed LLM programmer/assistant" tar
 	  ((:url . "https://github.com/daedsidog/evedel")
-	   (:commit . "d1605980b0968e42063ae6a80344e9bb48cfd9f5")
-	   (:revdesc . "d1605980b096")
+	   (:commit . "baba80b7e38935cd9209aa24867f87aa862ee4ab")
+	   (:revdesc . "baba80b7e389")
 	   (:keywords "convenience" "tools")
 	   (:authors
 	    ("daedsidog" . "contact@daedsidog.com"))
@@ -22269,7 +22269,7 @@
 			  ("Bryan Allred" . "bryan@revolvingcow.com"))
 			 (:maintainer "Bryan Allred" . "bryan@revolvingcow.com"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20241123 2106)
+		  [(0 4 1 1 -4 20241124 1725)
 		   ((emacs
 		     (26 3))
 		    (evil
@@ -22278,8 +22278,8 @@
 		     (1 0)))
 		   "A set of keybindings for Evil mode" tar
 		   ((:url . "https://github.com/emacs-evil/evil-collection")
-		    (:commit . "2c4e2aca1ad7be8eb41e4cb9b58b8023d8a5fd8b")
-		    (:revdesc . "2c4e2aca1ad7")
+		    (:commit . "05731c551be8cdda40ae6479adfb30b7e9c7fe39")
+		    (:revdesc . "05731c551be8")
 		    (:keywords "evil" "tools")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
@@ -27550,7 +27550,7 @@
 			((emacs
 			  (27 1)))
 			"Markdown linter with markdownlint" tar
-			((:url . "https://github.com/shaohme/flymake-markdownlint")
+			((:url . "https://codeberg.org/shaohme/flymake-markdownlint")
 			 (:commit . "59e3520668d9394c573e07b7980a2d48d9f6086c")
 			 (:revdesc . "59e3520668d9")
 			 (:authors
@@ -27864,7 +27864,7 @@
 		    ((emacs
 		      (26 1)))
 		    "YAML linter with yamllint" tar
-		    ((:url . "https://github.com/shaohme/flymake-yamllint")
+		    ((:url . "https://codeberg.org/shaohme/flymake-yamllint")
 		     (:commit . "020d2a33568c8069801db9dd6992b8961a58de8d")
 		     (:revdesc . "020d2a33568c")
 		     (:authors
@@ -31974,7 +31974,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20241124 1706)
+	[(0 1 0 1 -4 20241124 1919)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -31983,8 +31983,8 @@
 	   (29 1 4 1)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "8fc6c28e6c908a33ae048a1af3ef34936843c118")
-	  (:revdesc . "8fc6c28e6c90")
+	  (:commit . "11612b9101e394fcc43542364d40c75e28132c3c")
+	  (:revdesc . "11612b9101e3")
 	  (:keywords "convenience")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -38254,6 +38254,20 @@
 	  (:maintainers
 	   ("Peter" . "craven@gmx.net"))
 	  (:maintainer "Peter" . "craven@gmx.net"))])
+ (imgur .
+	[(0 1 0 1 -4 20241117 2229)
+	 ((emacs
+	   (27 1)))
+	 "Imgur client" tar
+	 ((:url . "https://github.com/KeyWeeUsr/imgur")
+	  (:commit . "fa62a07a45bb1469a11c45dd54f5ab884434f49e")
+	  (:revdesc . "fa62a07a45bb")
+	  (:keywords "convenience" "imgur" "client")
+	  (:authors
+	   ("Peter Badida" . "keyweeusr@gmail.com"))
+	  (:maintainers
+	   ("Peter Badida" . "keyweeusr@gmail.com"))
+	  (:maintainer "Peter Badida" . "keyweeusr@gmail.com"))])
  (immaterial-theme .
 		   [(0 9 2 1 -4 20240908 821)
 		    ((emacs
@@ -47882,11 +47896,11 @@
 	 ("Yoshinari Nomura" . "nom@quickhack.net"))
 	(:maintainer "Yoshinari Nomura" . "nom@quickhack.net"))])
  (miasma-theme .
-	       [(0 1 0 1 -4 20241122 1754)
+	       [(0 1 0 1 -4 20241124 1939)
 		nil "Miasma: color theme inspired by the woods" tar
 		((:url . "https://github.com/daut/miasma-theme.el")
-		 (:commit . "ada1805f4485851d61b39c1855386d356fd2d00c")
-		 (:revdesc . "ada1805f4485"))])
+		 (:commit . "cd48a842041989592bab270f05b15d4134ede1d2")
+		 (:revdesc . "cd48a8420419"))])
  (mic .
       [(0 37 1 1 -4 20240806 1655)
        ((emacs
@@ -53786,6 +53800,22 @@
 		    (:maintainers
 		     ("Adam Porter" . "adam@alphapapa.net"))
 		    (:maintainer "Adam Porter" . "adam@alphapapa.net"))])
+ (org-auto-export-pandoc .
+			 [(0 1 0 1 -4 20241026 832)
+			  ((ox-pandoc
+			    (2 0))
+			   (emacs
+			    (24 1)))
+			  "Add org auto export with pandoc" tar
+			  ((:url . "https://github.com/Y0ngg4n/org-auto-export-pandoc")
+			   (:commit . "4c63da7ed3c6bae6fd512d2b886ed3c57c850219")
+			   (:revdesc . "4c63da7ed3c6")
+			   (:keywords "convenience")
+			   (:authors
+			    ("Yonggan" . "yonggan@obco.pro"))
+			   (:maintainers
+			    ("Yonggan" . "yonggan@obco.pro"))
+			   (:maintainer "Yonggan" . "yonggan@obco.pro"))])
  (org-auto-tangle .
 		  [(0 6 0 1 -4 20220812 2327)
 		   ((emacs
@@ -57631,13 +57661,13 @@
 	       ("Oscar Najera" . "hi@oscarnajera.com"))
 	      (:maintainer "Oscar Najera" . "hi@oscarnajera.com"))])
  (outline-indent .
-		 [(0 1 0 1 -4 20241124 514)
+		 [(0 1 0 1 -4 20241124 1911)
 		  ((emacs
 		    (26 1)))
 		  "Folding text based on indentation (origami alternative)" tar
 		  ((:url . "https://github.com/jamescherti/outline-indent.el")
-		   (:commit . "c10ac32b0a241e62d92d91e79be5c67cac449864")
-		   (:revdesc . "c10ac32b0a24")
+		   (:commit . "86f1ea4be8a0fa1f498bf317dcf54467033fd75b")
+		   (:revdesc . "86f1ea4be8a0")
 		   (:keywords "outlines"))])
  (outline-magic .
 		[(0 9 1 1 -4 20180619 1819)
@@ -58405,6 +58435,17 @@
 	     (:maintainers
 	      ("Derek Feichtinger" . "derek.feichtinger@psi.ch"))
 	     (:maintainer "Derek Feichtinger" . "derek.feichtinger@psi.ch"))])
+ (ox-typst .
+	   [(0 1 0 1 -4 20241124 1931)
+	    ((emacs
+	      (29 1))
+	     (org
+	      (9 7)))
+	    "Typst Back-End for Org Export Engine" tar
+	    ((:url . "https://github.com/jmpunkt/ox-typst")
+	     (:commit . "0352b368f7713606bef2e90f76b6e7af3171e08f")
+	     (:revdesc . "0352b368f771")
+	     (:keywords "text" "wp" "org" "typst"))])
  (ox-wk .
 	[(0 2 1 -4 20191231 2058)
 	 ((emacs
@@ -75609,15 +75650,15 @@
 			("Erick Navarro" . "erick@navarro.io"))
 		       (:maintainer "Erick Navarro" . "erick@navarro.io"))])
  (tree-sitter-langs .
-		    [(0 1 0 1 -4 20241120 1722)
+		    [(0 1 0 1 -4 20241124 1640)
 		     ((emacs
 		       (25 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
 		     ((:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs")
-		      (:commit . "2e9f14626bbbcf7b37487d9b2b2969dea9284c6a")
-		      (:revdesc . "2e9f14626bbb")
+		      (:commit . "0ebb3c1179c8eec13d12e64c70369a522f6ca84f")
+		      (:revdesc . "0ebb3c1179c8")
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
