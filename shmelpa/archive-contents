@@ -2172,11 +2172,13 @@
 	      (:authors
 	       ("H. Dieter Wilhelm" . "dieter@duenenhof-wilhelm.de")))])
  (apel .
-       [(10 8 1 -4 20200823 2222)
-	nil "APEL (A Portable Emacs Library) provides support for portable Emacs Lisp programs" tar
+       [(10 8 1 -4 20240301 1235)
+	((emacs
+	  (24 5)))
+	"A Portable Emacs Library provides support for portable Emacs Lisp programs" tar
 	((:url . "https://github.com/emacsmirror/apel")
-	 (:commit . "414dc330cc8327fdaf6aeb5234e9fafdd69964ca")
-	 (:revdesc . "414dc330cc83"))])
+	 (:commit . "ef5604d02411f94d77d943b42f4751fea8aec791")
+	 (:revdesc . "ef5604d02411"))])
  (apheleia .
 	   [(0 1 0 1 -4 20241113 351)
 	    ((emacs
