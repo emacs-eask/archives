@@ -2172,13 +2172,11 @@
 	      (:authors
 	       ("H. Dieter Wilhelm" . "dieter@duenenhof-wilhelm.de")))])
  (apel .
-       [(10 8 1 -4 20221214 1337)
-	((emacs
-	  (24 5)))
-	"A Portable Emacs Library provides support for portable Emacs Lisp programs" tar
-	((:url . "https://github.com/wanderlust/apel")
-	 (:commit . "1a6fd3bab2cc6b0a450c2d801f77a1c9da0f72fb")
-	 (:revdesc . "1a6fd3bab2cc"))])
+       [(10 8 1 -4 20200823 2222)
+	nil "APEL (A Portable Emacs Library) provides support for portable Emacs Lisp programs" tar
+	((:url . "https://github.com/emacsmirror/apel")
+	 (:commit . "414dc330cc8327fdaf6aeb5234e9fafdd69964ca")
+	 (:revdesc . "414dc330cc83"))])
  (apheleia .
 	   [(0 1 0 1 -4 20241113 351)
 	    ((emacs
@@ -7393,15 +7391,15 @@
 	     ("Anan Mikami" . "lateau@gmail.com"))
 	    (:maintainer "Anan Mikami" . "lateau@gmail.com"))])
  (chatgpt-shell .
-		[(0 1 0 1 -4 20241124 2044)
+		[(0 1 0 1 -4 20241124 2243)
 		 ((emacs
 		   (28 1))
 		  (shell-maker
 		   (0 70 2)))
 		 "A multi-llm Emacs shell (ChatGPT, Claude, Gemini) + editing integrations" tar
 		 ((:url . "https://github.com/xenodium/chatgpt-shell")
-		  (:commit . "6c372c41426cad8ab9b3c226b4d87f4510c2cfb0")
-		  (:revdesc . "6c372c41426c"))])
+		  (:commit . "82cb9bceecc675d966141c64e97bdf4806d92847")
+		  (:revdesc . "82cb9bceecc6"))])
  (chatu .
 	[(0 1 1 -4 20240518 615)
 	 ((org
@@ -17900,7 +17898,7 @@
 	  ("Simon Nicolussi" . "sinic@sinic.name"))
 	 (:maintainer "Simon Nicolussi" . "sinic@sinic.name"))])
  (edts .
-       [(1 2 0 1 -4 20230926 2146)
+       [(0 1 0 1 -4 20241124 2303)
 	((auto-complete
 	  (20201213 1255))
 	 (auto-highlight-symbol
@@ -17918,9 +17916,17 @@
 	 (s
 	  (20210603 736)))
 	"Erlang Development Tool Suite" tar
-	((:url . "https://github.com/sebastiw/edts")
-	 (:commit . "5c3cded3fab56baa60874f4e1efd14155cec587f")
-	 (:revdesc . "5c3cded3fab5"))])
+	((:url . "https://github.com/emacsmirror/edts")
+	 (:commit . "291b3ac2b96c92225bfce11c5fa31fb11657602d")
+	 (:revdesc . "291b3ac2b96c")
+	 (:keywords "erlang" "tools" "programming" "development")
+	 (:authors
+	  ("Thomas Järvstrand" . "tjarvstrand@gmail.com")
+	  ("Sebastian Weddmark Olsson" . "visnae@gmail.com"))
+	 (:maintainers
+	  ("Thomas Järvstrand" . "tjarvstrand@gmail.com")
+	  ("Sebastian Weddmark Olsson" . "visnae@gmail.com"))
+	 (:maintainer "Thomas Järvstrand" . "tjarvstrand@gmail.com"))])
  (edwina .
 	 [(0 3 0 -1 1 -4 20221206 1610)
 	  ((emacs
@@ -25053,7 +25059,7 @@
 		    ("Andrew Jose" . "mail@drewsh.com"))
 		   (:maintainer "Andrew Jose" . "mail@drewsh.com"))])
  (flim .
-       [(1 14 9 1 -4 20240221 1353)
+       [(1 14 9 1 -4 20240301 1244)
 	((emacs
 	  (24 5))
 	 (apel
@@ -25061,9 +25067,10 @@
 	 (oauth2
 	  (0 11)))
 	"A library to provide basic features about message representation or encoding" tar
-	((:url . "https://github.com/wanderlust/flim")
-	 (:commit . "23bb29d70a13cada2eaab425ef80071564586a6d")
-	 (:revdesc . "23bb29d70a13"))])
+	((:url . "https://github.com/emacsmirror/flim")
+	 (:commit . "e4e147c3f279f2ef475254fc3762da040e505ebf")
+	 (:revdesc . "e4e147c3f279")
+	 (:keywords "mime" "multimedia" "mail" "news"))])
  (flimenu .
 	  [(0 0 0 1 -4 20200810 1510)
 	   ((emacs
@@ -47479,15 +47486,15 @@
 	 (:revdesc . "813892013b97")
 	 (:keywords "convenience" "modal-editing"))])
  (meow-tree-sitter .
-		   [(2 0 0 1 -4 20240701 1422)
+		   [(0 1 0 1 -4 20241124 2224)
 		    ((emacs
 		      (29 1))
 		     (meow
 		      (1 2 0)))
 		    "Tree-sitter powered motions for Meow" tar
 		    ((:url . "https://github.com/skissue/meow-tree-sitter")
-		     (:commit . "d8dce964fac631a6d44b650a733075e14854159c")
-		     (:revdesc . "d8dce964fac6")
+		     (:commit . "d8e80d5ab97c85340b21be125f1e17edec2f21dd")
+		     (:revdesc . "d8e80d5ab97c")
 		     (:keywords "convenience" "files" "languages" "tools")
 		     (:authors
 		      ("Ad" . "me@skissue.xyz"))
@@ -67978,17 +67985,19 @@
 		       ("Herwig Hochleitner" . "herwig@bendlas.net"))
 		      (:maintainer "Herwig Hochleitner" . "herwig@bendlas.net"))])
  (semi .
-       [(1 14 7 1 -4 20240606 1327)
-	((emacs
-	  (24 5))
-	 (apel
-	  (10 8))
-	 (flim
+       [(1 14 7 1 -4 20170314 1219)
+	((flim
 	  (1 14 9)))
 	"A library to provide MIME features" tar
-	((:url . "https://github.com/wanderlust/semi")
-	 (:commit . "85a52b899ac89be504d9e38d8d406bba98f4b0b3")
-	 (:revdesc . "85a52b899ac8"))])
+	((:url . "https://github.com/emacsmirror/semi")
+	 (:commit . "425098e6a57e7668ba2eeccba31f73e59c3d3a7f")
+	 (:revdesc . "425098e6a57e")
+	 (:keywords "mime" "multimedia" "mail" "news")
+	 (:authors
+	  ("MORIOKA Tomohiko" . "tomo@m17n.org"))
+	 (:maintainers
+	  ("MORIOKA Tomohiko" . "tomo@m17n.org"))
+	 (:maintainer "MORIOKA Tomohiko" . "tomo@m17n.org"))])
  (seml-mode .
 	    [(1 7 0 1 -4 20230702 1446)
 	     ((emacs
@@ -78882,7 +78891,7 @@
 	     ("KOBAYASHI Shigeru" . "shigeru.kb@gmail.com"))
 	    (:maintainer "KOBAYASHI Shigeru" . "shigeru.kb@gmail.com"))])
  (wanderlust .
-	     [(2 15 9 1 -4 20241111 934)
+	     [(2 15 9 1 -4 20241111 2133)
 	      ((emacs
 		(24 5))
 	       (apel
@@ -78892,9 +78901,17 @@
 	       (semi
 		(1 14 7)))
 	      "Yet Another Message Interface on Emacsen" tar
-	      ((:url . "https://github.com/wanderlust/wanderlust")
-	       (:commit . "891e223673c2c550efbe411885af860c909f0120")
-	       (:revdesc . "891e223673c2"))])
+	      ((:url . "https://github.com/emacsmirror/wanderlust")
+	       (:commit . "e548887cf81fce74eee7f553ded4d55ac7da59ba")
+	       (:revdesc . "e548887cf81f")
+	       (:keywords "mail" "net news")
+	       (:authors
+		("Yuuichi Teranishi" . "teranisi@gohome.org")
+		("Masahiro MURATA" . "muse@ba2.so-net.ne.jp"))
+	       (:maintainers
+		("Yuuichi Teranishi" . "teranisi@gohome.org")
+		("Masahiro MURATA" . "muse@ba2.so-net.ne.jp"))
+	       (:maintainer "Yuuichi Teranishi" . "teranisi@gohome.org"))])
  (warm-night-theme .
 		   [(0 1 1 -4 20161101 1428)
 		    ((emacs
