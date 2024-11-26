@@ -2172,13 +2172,17 @@
 	      (:authors
 	       ("H. Dieter Wilhelm" . "dieter@duenenhof-wilhelm.de")))])
  (apel .
-       [(10 8 1 -4 20240301 1235)
+       [(0 1 0 1 -4 20241125 2201)
 	((emacs
-	  (24 5)))
-	"A Portable Emacs Library provides support for portable Emacs Lisp programs" tar
+	  (24 5))
+	 (apel
+	  (0))
+	 (flim
+	  (0)))
+	"Support for portable Emacs Lisp programs" tar
 	((:url . "https://github.com/emacsmirror/apel")
-	 (:commit . "ef5604d02411f94d77d943b42f4751fea8aec791")
-	 (:revdesc . "ef5604d02411"))])
+	 (:commit . "e03e8995d3f6c1279bc1596bcb14ec05730994e5")
+	 (:revdesc . "e03e8995d3f6"))])
  (apheleia .
 	   [(0 1 0 1 -4 20241113 351)
 	    ((emacs
@@ -9033,7 +9037,7 @@
 		("Augusto Stoffel" . "arstoffel@gmail.com"))
 	       (:maintainer "Augusto Stoffel" . "arstoffel@gmail.com"))])
  (code-compass .
-	       [(0 1 4 1 -4 20231108 1618)
+	       [(0 1 0 1 -4 20241125 2243)
 		((emacs
 		  (26 1))
 		 (s
@@ -9046,8 +9050,8 @@
 		  (1 5 1)))
 		"Navigate software aided by metrics and visualization" tar
 		((:url . "https://github.com/ag91/code-compass")
-		 (:commit . "67ec53f9ca43bea941ec5ba6fccba8565c1d937f")
-		 (:revdesc . "67ec53f9ca43")
+		 (:commit . "6510b97280892d8831ff35dedefe9a7aa7b6326a")
+		 (:revdesc . "6510b9728089")
 		 (:keywords "tools" "extensions" "help")
 		 (:authors
 		  ("Andrea" . "andrea-dev@hotmail.com"))
@@ -25061,17 +25065,17 @@
 		    ("Andrew Jose" . "mail@drewsh.com"))
 		   (:maintainer "Andrew Jose" . "mail@drewsh.com"))])
  (flim .
-       [(1 14 9 1 -4 20240301 1244)
+       [(0 1 0 1 -4 20241125 2201)
 	((emacs
 	  (24 5))
 	 (apel
-	  (10 8))
+	  (0))
 	 (oauth2
-	  (0 11)))
-	"A library to provide basic features about message representation or encoding" tar
+	  (0 17)))
+	"Basic message representation and encoding features" tar
 	((:url . "https://github.com/emacsmirror/flim")
-	 (:commit . "e4e147c3f279f2ef475254fc3762da040e505ebf")
-	 (:revdesc . "e4e147c3f279")
+	 (:commit . "4ffe9e88a80528be4d653563fe2ed0693a2738d1")
+	 (:revdesc . "4ffe9e88a805")
 	 (:keywords "mime" "multimedia" "mail" "news"))])
  (flimenu .
 	  [(0 0 0 1 -4 20200810 1510)
@@ -31983,7 +31987,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20241125 120)
+	[(0 1 0 1 -4 20241125 2314)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -31992,8 +31996,8 @@
 	   (29 1 4 1)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "de8d65d9fd49ba235adb56489f151b91cd6a2343")
-	  (:revdesc . "de8d65d9fd49")
+	  (:commit . "48d9515c269962ff2095a398a1dcfbb51720cef9")
+	  (:revdesc . "48d9515c2699")
 	  (:keywords "convenience")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -62812,13 +62816,13 @@
 	    ("Julian Rubisch" . "julian@julianrubisch.at"))
 	   (:maintainer "Julian Rubisch" . "julian@julianrubisch.at"))])
  (proof-general .
-		[(0 1 0 1 -4 20241121 1756)
+		[(0 1 0 1 -4 20241126 32)
 		 ((emacs
 		   (25 2)))
 		 "A generic Emacs interface for proof assistants" tar
 		 ((:url . "https://github.com/ProofGeneral/PG")
-		  (:commit . "8401163e42a2a92894c987005498da0f84a03773")
-		  (:revdesc . "8401163e42a2")
+		  (:commit . "d6689469298b4140dc1f0f8b0ff7e8f937041ffe")
+		  (:revdesc . "d6689469298b")
 		  (:maintainers
 		   (nil . "proof-general-maintainers@groupes.renater.fr"))
 		  (:maintainer nil . "proof-general-maintainers@groupes.renater.fr"))])
@@ -69507,7 +69511,7 @@
 	("Chunyang Xu" . "mail@xuchunyang.me"))
        (:maintainer "Chunyang Xu" . "mail@xuchunyang.me"))])
  (slack .
-	[(0 1 -4 20241123 1653)
+	[(0 1 -4 20241126 6)
 	 ((websocket
 	   (1 8))
 	  (request
@@ -69530,8 +69534,8 @@
 	   (0 3)))
 	 "Slack client for Emacs" tar
 	 ((:url . "https://github.com/emacs-slack/emacs-slack")
-	  (:commit . "603e26caf0ae2cfec0c64bd8861060ee1871ebe9")
-	  (:revdesc . "603e26caf0ae")
+	  (:commit . "661041b5c398a1e7c226b2805aaffd4387ec3e94")
+	  (:revdesc . "661041b5c398")
 	  (:keywords "tools")
 	  (:authors
 	   ("yuya.minami" . "yuya.minami@yuyaminami-no-MacBook-Pro.local"))
