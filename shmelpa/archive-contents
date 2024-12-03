@@ -41464,7 +41464,7 @@
 	      ("ganmacs" . "ganmacs_at_gmail.com"))
 	     (:maintainer "ganmacs" . "ganmacs_at_gmail.com"))])
  (jupyter .
-	  [(0 1 0 1 -4 20241202 1021)
+	  [(0 1 0 1 -4 20241203 1917)
 	   ((emacs
 	     (27))
 	    (cl-lib
@@ -41479,8 +41479,8 @@
 	     (1 9)))
 	   "Jupyter" tar
 	   ((:url . "https://github.com/emacs-jupyter/jupyter")
-	    (:commit . "d06b2912a2a839ac12f265756965f8d89a7e1d35")
-	    (:revdesc . "d06b2912a2a8")
+	    (:commit . "db8a9e233a010a61063f34220821ec76157a2d84")
+	    (:revdesc . "db8a9e233a01")
 	    (:authors
 	     ("Nathaniel Nicandro" . "nathanielnicandro@gmail.com"))
 	    (:maintainers
@@ -54259,15 +54259,15 @@
 		    ("Sergei Maximov" . "s.b.maximov@gmail.com"))
 		   (:maintainer "Sergei Maximov" . "s.b.maximov@gmail.com"))])
  (org-contacts .
-	       [(1 1 1 -4 20240807 733)
+	       [(0 1 0 1 -4 20241203 1934)
 		((emacs
 		  (29 1))
 		 (org
 		  (9 7)))
 		"Contacts management system for Org mode" tar
 		((:url . "https://repo.or.cz/org-contacts.git")
-		 (:commit . "f0a430442b2ae60035dcd74fc6a76299875694f3")
-		 (:revdesc . "f0a430442b2a")
+		 (:commit . "1a6554bb2afc684701a289f284ee425960944425")
+		 (:revdesc . "1a6554bb2afc")
 		 (:keywords "contacts" "org-mode" "outlines" "hypermedia" "calendar")
 		 (:authors
 		  ("Julien Danjou" . "julien@danjou.info"))
@@ -57692,15 +57692,15 @@
 		   ("Thorsten Jolitz" . "tjolitzATgmailDOTcom"))
 		  (:maintainer "Thorsten Jolitz" . "tjolitzATgmailDOTcom"))])
  (outline-minor-faces .
-		      [(1 1 0 1 -4 20240831 2209)
+		      [(0 1 0 1 -4 20241202 1859)
 		       ((emacs
 			 (26 1))
 			(compat
 			 (30 0 0 0)))
 		       "Highlight only section headings" tar
 		       ((:url . "https://github.com/tarsius/outline-minor-faces")
-			(:commit . "4628613f3570b865b2c22b750ebd41443c1848c2")
-			(:revdesc . "4628613f3570")
+			(:commit . "41de0cd1633c610d5097ce3bf7d9dd18ca8371bf")
+			(:revdesc . "41de0cd1633c")
 			(:keywords "faces" "outlines")
 			(:authors
 			 ("Jonas Bernoulli" . "emacs.outline-minor-faces@jonas.bernoulli.dev"))
@@ -58585,15 +58585,15 @@
 	      ("Ryan Davis" . "ryand-ruby@zenspider.com"))
 	     (:maintainer "Ryan Davis" . "ryand-ruby@zenspider.com"))])
  (package-build .
-		[(0 1 0 1 -4 20241123 2136)
+		[(0 1 0 1 -4 20241202 1900)
 		 ((emacs
 		   (26 1))
 		  (compat
 		   (30 0 0 0)))
 		 "Tools for assembling a package archive" tar
 		 ((:url . "https://github.com/melpa/package-build")
-		  (:commit . "c1b276904278f0f89da2684f5e044760e3232c29")
-		  (:revdesc . "c1b276904278")
+		  (:commit . "4492f2e57dc41e5bdca80b793fa33ceb7aefd708")
+		  (:revdesc . "4492f2e57dc4")
 		  (:keywords "maint" "tools")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
@@ -69350,7 +69350,7 @@
 	(:revdesc . "d55ea5c0271c")
 	(:keywords "convenience"))])
  (sisyphus .
-	   [(0 1 0 1 -4 20241015 1351)
+	   [(0 1 0 1 -4 20241202 1902)
 	    ((emacs
 	      (27 1))
 	     (compat
@@ -69363,8 +69363,8 @@
 	      (4 1 1)))
 	    "Create releases of Emacs packages" tar
 	    ((:url . "https://github.com/magit/sisyphus")
-	     (:commit . "e6ec5d8687f34644b4d049a6be463269792c9fd6")
-	     (:revdesc . "e6ec5d8687f3")
+	     (:commit . "6a231d81f88e11305db7fc524bf24732f0b1da03")
+	     (:revdesc . "6a231d81f88e")
 	     (:keywords "git" "tools" "vc")
 	     (:authors
 	      ("Jonas Bernoulli" . "emacs.sisyphus@jonas.bernoulli.dev"))
@@ -80342,19 +80342,19 @@
 	      (:revdesc . "70b1b89f5656")
 	      (:keywords "files" "wren"))])
  (writefreely .
-	      [(0 1 0 1 -4 20221221 1456)
+	      [(0 1 0 1 -4 20241203 1759)
 	       ((emacs
 		 (24 3))
 		(org
 		 (9 0))
-		(ox-gfm
-		 (0 0))
+		(ox-hugo
+		 (0 12))
 		(request
 		 (0 3)))
 	       "Push your Org files as markdown to a writefreely instance" tar
 	       ((:url . "https://github.com/dangom/writefreely.el")
-		(:commit . "db70444eb5fbe0820754574d70b1ae44967607dc")
-		(:revdesc . "db70444eb5fb")
+		(:commit . "e0366f4e2e19906a27c540d614c6f8b351f123fa")
+		(:revdesc . "e0366f4e2e19")
 		(:keywords "convenience")
 		(:authors
 		 ("Daniel Gomez" . "d.gomezatposteodotorg"))
