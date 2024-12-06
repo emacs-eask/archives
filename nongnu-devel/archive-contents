@@ -542,6 +542,16 @@
 		 (:authors
 		  ("EditorConfig Team" . "editorconfig@googlegroups.com"))
 		 (:commit . "24f5b2b1cd4e37adc245fb59f7edeb6872a707a4"))])
+ (eglot-inactive-regions .
+			 [(0 6 3 0 20241206 115752)
+			  ((emacs
+			    (29 1)))
+			  "Highlight inactive code regions with eglot power" tar
+			  ((:url . "https://github.com/fargiolas/eglot-inactive-regions")
+			   (:maintainer "Filippo Argiolas" . "filippo.argiolas@gmail.com")
+			   (:authors
+			    ("Filippo Argiolas" . "filippo.argiolas@gmail.com"))
+			   (:commit . "2c83a3230d4ee9336b0311dbaa6fa77c2d2538c6"))])
  (elixir-mode .
 	      [(2 5 0 0 20230626 143859)
 	       ((emacs
@@ -1137,7 +1147,7 @@
 	      ("David Andersson" . "l.david.anderssonsverige.nu"))
 	     (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel .
-	[(0 9 7 0 20241204 185355)
+	[(0 9 7 0 20241206 84011)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -1150,7 +1160,7 @@
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-	  (:commit . "5a5cddb93d610bd59ec52a070b0f89a9ec842152"))])
+	  (:commit . "0128c96d2bd59e94df5e8b4a9cd9191d03894d0f"))])
  (graphql-mode .
 	       [(1 0 0 0 20241206 72535)
 		((emacs
@@ -1307,7 +1317,7 @@
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
 	    (:commit . "8e3841c837b4b78bd72ad7f0436e919f39315a46"))])
  (hyperdrive .
-	     [(0 5 -1 0 20241206 1204)
+	     [(0 5 -1 0 20241206 121537)
 	      ((emacs
 		(28 1))
 	       (map
@@ -1329,7 +1339,7 @@
 	       (:maintainer "Joseph Turner" . "~ushin/ushin@lists.sr.ht")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
-	       (:commit . "0c99211cb63832add7a91849989051fb9f746709"))])
+	       (:commit . "f30744e5b187427302a041aa6304f5041338b9ca"))])
  (hyperdrive-org-transclusion .
 			      [(0 3 1 0 20241027 212737)
 			       ((emacs
@@ -1625,13 +1635,13 @@
 	    ("Stefan Kangas" . "stefankangas@gmail.com"))
 	   (:commit . "ed42ae8333d801c841ecf80fb5e4957badb99b51"))])
  (meow .
-       [(1 5 0 0 20241204 194347)
+       [(1 5 0 0 20241206 92210)
 	((emacs
 	  (27 1)))
 	"Yet Another modal editing" tar
 	((:url . "https://www.github.com/DogLooksGood/meow")
 	 (:keywords "convenience" "modal-editing")
-	 (:commit . "49bfe255e326c0fe2417290c349b41f0f87dcebc"))])
+	 (:commit . "73f2dd2fce8069c4ac4f6ae2a8afdda40450a7e4"))])
  (minibar .
 	  [(0 3 0 20230414 114052)
 	   ((emacs
@@ -2036,14 +2046,14 @@
 	       ("David Christiansen" . "david@davidchristiansen.dk"))
 	      (:commit . "50b102c1c0935fd3e0c465feed7f27d66b21cdf3"))])
  (racket-mode .
-	      [(1 0 20241129 85359)
+	      [(1 0 20241206 91913)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
 	       ((:url . "https://www.racket-mode.com/")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com"))
-		(:commit . "986c9ad883a1b96076a0da6ae75761c75baaac09"))])
+		(:commit . "22dc95ced15a1c153386bc9ec12635b3b0225113"))])
  (rainbow-delimiters .
 		     [(2 1 5 0 20230830 160022)
 		      nil "Highlight brackets according to their depth" tar
@@ -2589,7 +2599,7 @@
 	     ("Thierry Volpiatto" . "thievol@posteo.net"))
 	    (:commit . "164e4efa2a96bed201a0a5402e137ebeef15bcc6"))])
  (wgrep .
-	[(3 0 0 0 20231216 120954)
+	[(3 0 0 0 20241206 130617)
 	 ((emacs
 	   (25 1)))
 	 "Writable grep buffer" tar
@@ -2598,7 +2608,7 @@
 	  (:maintainer "Masahiro Hayashi" . "mhayashi1120@gmail.com")
 	  (:authors
 	   ("Masahiro Hayashi" . "mhayashi1120@gmail.com"))
-	  (:commit . "208b9d01cfffa71037527e3a324684b3ce45ddc4"))])
+	  (:commit . "49f09ab9b706d2312cab1199e1eeb1bcd3f27f6f"))])
  (why-this .
 	   [(2 0 4 0 20221129 81751)
 	    ((emacs
