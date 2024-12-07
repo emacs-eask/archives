@@ -18642,13 +18642,13 @@
 	   (:revdesc . "c6e7d4b5da6f")
 	   (:keywords "convenience"))])
  (eldev .
-	[(0 1 0 1 -4 20241204 2158)
+	[(0 1 0 1 -4 20241207 2020)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
 	 ((:url . "https://github.com/emacs-eldev/eldev")
-	  (:commit . "019dfcfc3fb9b6f7f89b2f45a78aa2d0c2ce0765")
-	  (:revdesc . "019dfcfc3fb9")
+	  (:commit . "96d5baa1c08bf78c683fb449b00c49a2770f59e8")
+	  (:revdesc . "96d5baa1c08b")
 	  (:keywords "maint" "tools")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
@@ -21710,13 +21710,21 @@
 		  ("Masahiro Hayashi" . "mhayashi1120@gmail.com"))
 		 (:maintainer "Masahiro Hayashi" . "mhayashi1120@gmail.com"))])
  (ess .
-      [(0 1 0 1 -4 20241127 1620)
+      [(0 1 0 1 -4 20241207 1936)
        ((emacs
-	 (25 1)))
+	 (26 1))
+	(polymode
+	 (0 2 2))
+	(poly-R
+	 (0 2 2))
+	(poly-noweb
+	 (0 2 2))
+	(poly-markdown
+	 (0 2 2)))
        "Emacs Speaks Statistics" tar
        ((:url . "https://github.com/emacs-ess/ESS")
-	(:commit . "e7b0bbc4ac40e6ea209c345042e280d3af0c6d07")
-	(:revdesc . "e7b0bbc4ac40")
+	(:commit . "462b3fad7d7fcc8ca1da3d7ace57a42884403b04")
+	(:revdesc . "462b3fad7d7f")
 	(:authors
 	 ("David Smith" . "dsmith@stats.adelaide.edu.au")
 	 ("A.J. Rossini" . "blindglobe@gmail.com")
@@ -31973,7 +31981,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20241206 1640)
+	[(0 1 0 1 -4 20241207 1916)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -31982,8 +31990,8 @@
 	   (29 1 4 1)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "0128c96d2bd59e94df5e8b4a9cd9191d03894d0f")
-	  (:revdesc . "0128c96d2bd5")
+	  (:commit . "ba07a52e73f8a6cbce6b94b8628ddcb9c0677330")
+	  (:revdesc . "ba07a52e73f8")
 	  (:keywords "convenience")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
