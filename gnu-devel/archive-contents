@@ -1013,7 +1013,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:commit . "5a0cd5ccb650d7bba1c1ea02cf67b71d7cfa6e9a"))])
  (denote .
-	 [(3 1 0 0 20241206 104806)
+	 [(3 1 0 0 20241207 63409)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -1021,7 +1021,7 @@
 	   (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "392f6ebe77ebbbf496bdbd590db95c79cc82ed96"))])
+	   (:commit . "75094832ced54da1a1dccb3dc3a170dd0370c5c8"))])
  (denote-menu .
 	      [(1 3 0 0 20240813 204446)
 	       ((emacs
@@ -3112,16 +3112,16 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "96b74d2450ab4ab1a175d0e86c62f6695c4709b5"))])
  (org .
-      [(9 8 -1 0 20241127 183434)
+      [(9 8 -1 0 20241207 72755)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
        ((:url . "https://orgmode.org")
 	(:keywords "outlines" "hypermedia" "calendar" "text")
-	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
+	(:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "e87ecf88be043445f2af2acac53b1c61a382d0e5"))])
+	(:commit . "bfcb101685117127c0e15051ad9d50ca73f363e1"))])
  (org-contacts .
 	       [(1 1 0 20241203 194117)
 		((emacs
@@ -4172,6 +4172,19 @@
 		     (:authors
 		      ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		     (:commit . "2995d6030365df3b8fedd097f4a7725384ea8806"))])
+ (speedrect .
+	    [(0 6 0 20241203 154705)
+	     ((emacs
+	       (29 1))
+	      (compat
+	       (30)))
+	     "Fast modal rectangle commands" tar
+	     ((:url . "https://github.com/jdtsmith/speedrect")
+	      (:keywords "convenience")
+	      (:maintainer "JD Smith" . "jdtsmith+elpa@gmail.com")
+	      (:authors
+	       ("JD Smith" . "jdtsmith+elpa@gmail.com"))
+	      (:commit . "4603a1ff092462e3d918493fe9ee935380ddd775"))])
  (spinner .
 	  [(1 7 4 0 20220915 94959)
 	   ((emacs
@@ -4356,7 +4369,7 @@
 		    ("Tassilo Horn" . "tsdh@gnu.org"))
 		   (:commit . "c743c47b7b4326c411470ba98410b7bfe3685edc"))])
  (sxhkdrc-mode .
-	       [(1 0 0 0 20240913 71503)
+	       [(1 0 0 0 20241207 74849)
 		((emacs
 		  (27 1)))
 		"Major mode for sxhkdrc files (Simple X Hot Key Daemon)" tar
@@ -4364,7 +4377,7 @@
 		 (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		 (:commit . "873f76da30bb28aab5ae59bff32db763b8a7f6eb"))])
+		 (:commit . "4541a740278a73997e911c3830d2c5421fc730af"))])
  (system-packages .
 		  [(1 0 13 0 20230908 453)
 		   ((emacs
@@ -4616,7 +4629,7 @@
 	       (:url . "https://elpa.gnu.org/packages/transcribe.html")
 	       (:commit . "2c2d493d5488f3b444d2a771ab443589fcc72c13"))])
  (transient .
-	    [(0 7 9 0 20241203 214158)
+	    [(0 8 0 0 20241206 220403)
 	     ((emacs
 	       (26 1))
 	      (compat
@@ -4629,7 +4642,7 @@
 	      (:maintainer "Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
-	      (:commit . "c9d46a40ee66932ca118e48bdda63f89d1de9ef9"))])
+	      (:commit . "005e50bf4683cbb58b5c48c873609e7f4af7ac5f"))])
  (transient-cycles .
 		   [(1 0 0 20220410 130412)
 		    ((emacs
