@@ -7229,7 +7229,7 @@
 	       ("Andrew Myers" . "am2605@gmail.com"))
 	      (:maintainer "Andrew Myers" . "am2605@gmail.com"))])
  (cfn-mode .
-	   [(0 1 0 1 -4 20241202 1313)
+	   [(0 1 0 1 -4 20241208 904)
 	    ((emacs
 	      (27 0))
 	     (f
@@ -7240,8 +7240,8 @@
 	      (0 0 13)))
 	    "AWS cloudformation mode" tar
 	    ((:url . "https://gitlab.com/worr/cfn-mode")
-	     (:commit . "4e7dd76067a910f03649f297a841cebd6c8131c6")
-	     (:revdesc . "4e7dd76067a9")
+	     (:commit . "0457130319e6d41a28812f293199516378302e0a")
+	     (:revdesc . "0457130319e6")
 	     (:keywords "convenience" "languages" "tools")
 	     (:authors
 	      ("William Orr" . "will@worrbase.com"))
@@ -15011,13 +15011,13 @@
 		   (:revdesc . "3ade0a31b534")
 		   (:keywords "dired" "explorer"))])
  (dired-fdclone .
-		[(0 1 0 1 -4 20241206 1723)
+		[(0 1 0 1 -4 20241208 1810)
 		 ((emacs
 		   (28 1)))
 		 "Dired functions and settings to mimic FD/FDclone" tar
 		 ((:url . "https://github.com/knu/dired-fdclone.el")
-		  (:commit . "d461b643838061d703d6b3af16f2ba28b483ca3b")
-		  (:revdesc . "d461b6438380")
+		  (:commit . "e234c0bf91649bd13de984f6ef1b2354565fd4ce")
+		  (:revdesc . "e234c0bf9164")
 		  (:keywords "unix" "directories" "dired")
 		  (:authors
 		   ("Akinori MUSHA" . "knu@iDaemons.org"))
@@ -18642,13 +18642,13 @@
 	   (:revdesc . "c6e7d4b5da6f")
 	   (:keywords "convenience"))])
  (eldev .
-	[(0 1 0 1 -4 20241207 2108)
+	[(0 1 0 1 -4 20241208 1709)
 	 ((emacs
 	   (24 4)))
 	 "Elisp development tool" tar
 	 ((:url . "https://github.com/emacs-eldev/eldev")
-	  (:commit . "98349e8591080cfd26882e784100bd3b12708d28")
-	  (:revdesc . "98349e859108")
+	  (:commit . "3671b55cdba956bdd23aa91155ebceb4175ba665")
+	  (:revdesc . "3671b55cdba9")
 	  (:keywords "maint" "tools")
 	  (:authors
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
@@ -21710,12 +21710,10 @@
 		  ("Masahiro Hayashi" . "mhayashi1120@gmail.com"))
 		 (:maintainer "Masahiro Hayashi" . "mhayashi1120@gmail.com"))])
  (ess .
-      [(0 1 0 1 -4 20241207 1936)
+      [(0 1 0 1 -4 20241208 1630)
        ((emacs
 	 (26 1))
 	(polymode
-	 (0 2 2))
-	(poly-R
 	 (0 2 2))
 	(poly-noweb
 	 (0 2 2))
@@ -21723,8 +21721,8 @@
 	 (0 2 2)))
        "Emacs Speaks Statistics" tar
        ((:url . "https://github.com/emacs-ess/ESS")
-	(:commit . "462b3fad7d7fcc8ca1da3d7ace57a42884403b04")
-	(:revdesc . "462b3fad7d7f")
+	(:commit . "a2eb8a8e68d34897ee936a665d44252515613ec7")
+	(:revdesc . "a2eb8a8e68d3")
 	(:authors
 	 ("David Smith" . "dsmith@stats.adelaide.edu.au")
 	 ("A.J. Rossini" . "blindglobe@gmail.com")
@@ -24076,6 +24074,18 @@
 		 (:maintainers
 		  ("Artur Malabarba" . "bruce.connor.am@gmail.com"))
 		 (:maintainer "Artur Malabarba" . "bruce.connor.am@gmail.com"))])
+ (fancy-urls-menu .
+		  [(0 1 0 1 -4 20241202 324)
+		   ((emacs
+		     (29 1)))
+		   "Interface for viewing and opening URLs in current buffer" tar
+		   ((:url . "https://codeberg.org/kakafarm/emacs-fancy-urls-menu")
+		    (:commit . "1c93db4f295689126cb077752bdbdb9422264b6a")
+		    (:revdesc . "1c93db4f2956")
+		    (:keywords "convenience")
+		    (:maintainers
+		     (nil . "yuval.langer@gmail.com"))
+		    (:maintainer nil . "yuval.langer@gmail.com"))])
  (fantom-mode .
 	      [(0 0 1 1 -4 20221227 218)
 	       ((emacs
@@ -31787,6 +31797,17 @@
 	   (:maintainers
 	    ("Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))
 	   (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
+ (gotest-ts .
+	    [(0 1 0 1 -4 20241206 1905)
+	     ((emacs
+	       (29 1))
+	      (gotest
+	       (0 16 0)))
+	     "Gotest with treesitter" tar
+	     ((:url . "https://github.com/chmouel/gotest-ts.el")
+	      (:commit . "fc291328059ad615409b2377c93281e7354782b6")
+	      (:revdesc . "fc291328059a")
+	      (:keywords "languages" "go" "tests"))])
  (gotham-theme .
 	       [(1 1 9 1 -4 20220107 1730)
 		((emacs
@@ -31936,13 +31957,13 @@
 		    ("Troy Brown" . "brownts@troybrown.dev"))
 		   (:maintainer "Troy Brown" . "brownts@troybrown.dev"))])
  (gpt .
-      [(0 1 0 1 -4 20241020 1841)
+      [(0 1 0 1 -4 20241208 1724)
        ((emacs
 	 (24 4)))
        "Run instruction-following language models" tar
        ((:url . "https://github.com/stuhlmueller/gpt.el")
-	(:commit . "3f3d0c4c1f2d5460ed3296a63c7938c5040aaa8e")
-	(:revdesc . "3f3d0c4c1f2d")
+	(:commit . "3575afcb3c379f9067ab80eefe696f3758564397")
+	(:revdesc . "3575afcb3c37")
 	(:keywords "openai" "anthropic" "claude" "language" "copilot" "convenience" "tools")
 	(:authors
 	 ("Andreas Stuhlmueller" . "andreas@ought.org"))
@@ -47110,13 +47131,13 @@
 		      ("Enrico Flor" . "enrico@eflor.net"))
 		     (:maintainer "Enrico Flor" . "enrico@eflor.net"))])
  (matlab-mode .
-	      [(0 1 0 1 -4 20241207 1014)
+	      [(0 1 0 1 -4 20241208 1657)
 	       ((emacs
 		 (27 2)))
 	       "Major mode for MATLAB(R) dot-m files" tar
 	       ((:url . "https://github.com/mathworks/Emacs-MATLAB-Mode")
-		(:commit . "7f2a48d85c4a0e87ebe5ed117f8351dd668444e3")
-		(:revdesc . "7f2a48d85c4a")
+		(:commit . "935137844e16551a5369f928d2591556be7fb9c2")
+		(:revdesc . "935137844e16")
 		(:keywords "matlab(r)")
 		(:authors
 		 ("Matt Wette" . "mwette@alumni.caltech.edu")
