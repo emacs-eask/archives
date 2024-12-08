@@ -5905,6 +5905,15 @@
 		(:maintainers
 		 ("Samuel W. Flint" . "swflint@flintfam.org"))
 		(:maintainer "Samuel W. Flint" . "swflint@flintfam.org"))])
+ (buffer-terminator .
+		    [(0 1 0 1 -4 20241208 1913)
+		     ((emacs
+		       (24 4)))
+		     "Safely Terminate/Kill Buffers Automatically" tar
+		     ((:url . "https://github.com/jamescherti/buffer-terminator.el")
+		      (:commit . "5af54a24701d4550872a265bdd76fa362c208dec")
+		      (:revdesc . "5af54a24701d")
+		      (:keywords "convenience"))])
  (buffer-utils .
 	       [(0 1 0 1 -4 20140512 1400)
 		nil "Buffer-manipulation utility functions" tar
@@ -7381,15 +7390,15 @@
 	     ("Anan Mikami" . "lateau@gmail.com"))
 	    (:maintainer "Anan Mikami" . "lateau@gmail.com"))])
  (chatgpt-shell .
-		[(0 1 0 1 -4 20241206 1854)
+		[(0 1 0 1 -4 20241208 1836)
 		 ((emacs
 		   (28 1))
 		  (shell-maker
 		   (0 74 1)))
 		 "A multi-LLM shell (ChatGPT, Claude, Gemini, Kagi, Ollama, Perplexity) + editing integrations" tar
 		 ((:url . "https://github.com/xenodium/chatgpt-shell")
-		  (:commit . "e1d042ebb6cc593b35857f9ca4484efac95e7818")
-		  (:revdesc . "e1d042ebb6cc"))])
+		  (:commit . "2b6fe835a9115b4aa0c893f393feba4b95a3673b")
+		  (:revdesc . "2b6fe835a911"))])
  (chatu .
 	[(0 1 1 -4 20240518 615)
 	 ((org
@@ -11785,15 +11794,15 @@
 		   ("Junyoung Clare Jang" . "jjc9310@gmail.com"))
 		  (:maintainer "Junyoung Clare Jang" . "jjc9310@gmail.com"))])
  (corfu .
-	[(0 1 0 1 -4 20241127 1554)
+	[(0 1 0 1 -4 20241208 1840)
 	 ((emacs
 	   (28 1))
 	  (compat
 	   (30)))
 	 "COmpletion in Region FUnction" tar
 	 ((:url . "https://github.com/minad/corfu")
-	  (:commit . "f10f58f446e2cbda738ae8738cf4a7464a8aeeab")
-	  (:revdesc . "f10f58f446e2")
+	  (:commit . "19cd6aa956efbadd8cffab2de55d6ea65e9608c7")
+	  (:revdesc . "19cd6aa956ef")
 	  (:keywords "abbrev" "convenience" "matching" "completion" "text")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -15010,20 +15019,6 @@
 		   (:commit . "3ade0a31b5340271d05e9bf443f2504960f6c6dd")
 		   (:revdesc . "3ade0a31b534")
 		   (:keywords "dired" "explorer"))])
- (dired-fdclone .
-		[(0 1 0 1 -4 20241208 1810)
-		 ((emacs
-		   (28 1)))
-		 "Dired functions and settings to mimic FD/FDclone" tar
-		 ((:url . "https://github.com/knu/dired-fdclone.el")
-		  (:commit . "e234c0bf91649bd13de984f6ef1b2354565fd4ce")
-		  (:revdesc . "e234c0bf9164")
-		  (:keywords "unix" "directories" "dired")
-		  (:authors
-		   ("Akinori MUSHA" . "knu@iDaemons.org"))
-		  (:maintainers
-		   ("Akinori MUSHA" . "knu@iDaemons.org"))
-		  (:maintainer "Akinori MUSHA" . "knu@iDaemons.org"))])
  (dired-filetype-face .
 		      [(1 0 1 -4 20180907 1339)
 		       nil "Set different faces for different filetypes in dired" tar
@@ -15494,6 +15489,20 @@
 	   (:commit . "447cd0a87dc188793e0482ab8289d09ccdea0bee")
 	   (:revdesc . "447cd0a87dc1")
 	   (:keywords "files"))])
+ (diredfd .
+	  [(0 1 0 1 -4 20241208 1810)
+	   ((emacs
+	     (28 1)))
+	   "Dired functions and settings to mimic FD/FDclone" tar
+	   ((:url . "https://github.com/knu/diredfd.el")
+	    (:commit . "e234c0bf91649bd13de984f6ef1b2354565fd4ce")
+	    (:revdesc . "e234c0bf9164")
+	    (:keywords "unix" "directories" "dired")
+	    (:authors
+	     ("Akinori MUSHA" . "knu@iDaemons.org"))
+	    (:maintainers
+	     ("Akinori MUSHA" . "knu@iDaemons.org"))
+	    (:maintainer "Akinori MUSHA" . "knu@iDaemons.org"))])
  (diredfl .
 	  [(0 1 0 1 -4 20241201 1141)
 	   ((emacs
@@ -30237,13 +30246,13 @@
 	      ("Peter Stiernström" . "peter@stiernstrom.se"))
 	     (:maintainer "Peter Stiernström" . "peter@stiernstrom.se"))])
  (git-link .
-	   [(0 1 0 1 -4 20241022 2208)
+	   [(0 1 0 1 -4 20241208 1850)
 	    ((emacs
 	      (24 3)))
 	    "Get the GitHub/Bitbucket/GitLab URL for a buffer location" tar
 	    ((:url . "https://github.com/sshaw/git-link")
-	     (:commit . "8df5f1f0a70c0668bafb1b70421b651df3bde999")
-	     (:revdesc . "8df5f1f0a70c")
+	     (:commit . "40f7b1674d2c703199ff2f82b464f17aa6f61b4b")
+	     (:revdesc . "40f7b1674d2c")
 	     (:keywords "git" "vc" "github" "bitbucket" "gitlab" "sourcehut" "aws" "azure" "convenience")
 	     (:authors
 	      ("Skye Shaw" . "skye.shaw@gmail.com"))
@@ -33011,6 +33020,20 @@
 	    (:maintainers
 	     ("Roland Walker" . "walker@pobox.com"))
 	    (:maintainer "Roland Walker" . "walker@pobox.com"))])
+ (hardtime .
+	   [(0 1 0 1 -4 20241203 1647)
+	    ((emacs
+	      (26 3)))
+	    "Prevents overuse of specified commands" tar
+	    ((:url . "https://github.com/ichernyshovvv/hardtime.el")
+	     (:commit . "a14df12bda3951e53553426629f4af7a638f6eee")
+	     (:revdesc . "a14df12bda39")
+	     (:keywords "navigation" "convenience")
+	     (:authors
+	      ("Ilya Chernyshov" . "ichernyshovvv@gmail.com"))
+	     (:maintainers
+	      ("Ilya Chernyshov" . "ichernyshovvv@gmail.com"))
+	     (:maintainer "Ilya Chernyshov" . "ichernyshovvv@gmail.com"))])
  (harpoon .
 	  [(0 5 1 -4 20240920 1714)
 	   ((emacs
