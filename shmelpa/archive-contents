@@ -69542,7 +69542,7 @@
 	("Chunyang Xu" . "mail@xuchunyang.me"))
        (:maintainer "Chunyang Xu" . "mail@xuchunyang.me"))])
  (slack .
-	[(0 1 -4 20241207 106)
+	[(0 1 -4 20241208 1701)
 	 ((websocket
 	   (1 8))
 	  (request
@@ -69565,8 +69565,8 @@
 	   (0 3)))
 	 "Slack client for Emacs" tar
 	 ((:url . "https://github.com/emacs-slack/emacs-slack")
-	  (:commit . "aaa25c8f54f086c0d8d3ff2e1da599ce3b1008c1")
-	  (:revdesc . "aaa25c8f54f0")
+	  (:commit . "cfe8472d98b150b3c1c6b2cfff72ca87506e0818")
+	  (:revdesc . "cfe8472d98b1")
 	  (:keywords "tools")
 	  (:authors
 	   ("yuya.minami" . "yuya.minami@yuyaminami-no-MacBook-Pro.local"))
@@ -71903,6 +71903,20 @@
 	   (:maintainers
 	    ("rubikitch" . "rubikitch@ruby-lang.org"))
 	   (:maintainer "rubikitch" . "rubikitch@ruby-lang.org"))])
+ (sticky-scroll-mode .
+		     [(0 1 0 1 -4 20241202 1322)
+		      ((emacs
+			(29 4)))
+		      "Sticky scrolling" tar
+		      ((:url . "https://github.com/jclasley/sticky-scroll-mode")
+		       (:commit . "4c8cad80f63ce23eb35c9955824b7f07812ee0fc")
+		       (:revdesc . "4c8cad80f63c")
+		       (:keywords "convenience" "extensions" "tools")
+		       (:authors
+			("Jon Lasley" . "jon.lasley+sticky@gmail.com"))
+		       (:maintainers
+			("Jon Lasley" . "jon.lasley+sticky@gmail.com"))
+		       (:maintainer "Jon Lasley" . "jon.lasley+sticky@gmail.com"))])
  (sticky-shell .
 	       [(1 0 1 1 -4 20240928 427)
 		((emacs
@@ -75398,6 +75412,19 @@
 		(:commit . "0621a66d00ec91a209a542c10b158095088bd44d")
 		(:revdesc . "0621a66d00ec")
 		(:keywords "comm" "convenience" "files"))])
+ (transform-symbol-at-point .
+			    [(0 1 0 1 -4 20241202 1802)
+			     ((emacs
+			       (24))
+			      (s
+			       (1 12 0))
+			      (transient
+			       (0 3 7)))
+			     "Transforming your symbols at point" tar
+			     ((:url . "https://github.com/waymondo/transform-symbol-at-point")
+			      (:commit . "57911a5065a694bf0b404bde2ebf64b8ee8f5d89")
+			      (:revdesc . "57911a5065a6")
+			      (:keywords "convenience" "tools"))])
  (transient .
 	    [(0 1 0 1 -4 20241208 1224)
 	     ((emacs
@@ -78073,15 +78100,15 @@
 		      ("Andreas Gerler" . "baron@bundesbrandschatzamt.de"))
 		     (:maintainer "Andreas Gerler" . "baron@bundesbrandschatzamt.de"))])
  (vertico .
-	  [(0 1 0 1 -4 20241105 2131)
+	  [(0 1 0 1 -4 20241208 1840)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30)))
 	   "VERTical Interactive COmpletion" tar
 	   ((:url . "https://github.com/minad/vertico")
-	    (:commit . "b0f9e7679be590b976576e4056b6af4b31212ab0")
-	    (:revdesc . "b0f9e7679be5")
+	    (:commit . "a0d5610f0c37c611645719d2acea43cd2ddd2851")
+	    (:revdesc . "a0d5610f0c37")
 	    (:keywords "convenience" "files" "matching" "completion")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
