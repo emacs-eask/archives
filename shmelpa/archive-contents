@@ -11794,15 +11794,15 @@
 		   ("Junyoung Clare Jang" . "jjc9310@gmail.com"))
 		  (:maintainer "Junyoung Clare Jang" . "jjc9310@gmail.com"))])
  (corfu .
-	[(0 1 0 1 -4 20241208 1840)
+	[(0 1 0 1 -4 20241208 2242)
 	 ((emacs
 	   (28 1))
 	  (compat
 	   (30)))
 	 "COmpletion in Region FUnction" tar
 	 ((:url . "https://github.com/minad/corfu")
-	  (:commit . "19cd6aa956efbadd8cffab2de55d6ea65e9608c7")
-	  (:revdesc . "19cd6aa956ef")
+	  (:commit . "90987f35152ce844ab3db76204b2ce32321da7fe")
+	  (:revdesc . "90987f35152c")
 	  (:keywords "abbrev" "convenience" "matching" "completion" "text")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -28306,9 +28306,9 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20241206 2221)
+	[(0 1 0 1 -4 20241208 2219)
 	 ((emacs
-	   (27 1))
+	   (29 1))
 	  (compat
 	   (30 0 0 0))
 	  (closql
@@ -28318,7 +28318,7 @@
 	  (emacsql
 	   (4 1 0))
 	  (ghub
-	   (4 1 1))
+	   (4 2 0))
 	  (let-alist
 	      (1 0 6))
 	  (magit
@@ -28333,8 +28333,8 @@
 	   (0 5 5)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "6db169535e0fd014e31a2e1e2f0618e3c975c236")
-	  (:revdesc . "6db169535e0f")
+	  (:commit . "b2bf67a8fef501ebe01a19b39fa832482738f2f5")
+	  (:revdesc . "b2bf67a8fef5")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -28954,7 +28954,7 @@
 	  ("Natalie Weizenbaum" . "nweiz@google.com"))
 	 (:maintainer "Natalie Weizenbaum" . "nweiz@google.com"))])
  (fussy .
-	[(0 1 0 1 -4 20241205 147)
+	[(0 1 0 1 -4 20241208 2139)
 	 ((emacs
 	   (28 2))
 	  (flx
@@ -28963,8 +28963,8 @@
 	   (30 0 0 0)))
 	 "Fuzzy completion style using `flx'" tar
 	 ((:url . "https://github.com/jojojames/fussy")
-	  (:commit . "991fd52b4f5b2fa00f5b856882553951bb8aadd2")
-	  (:revdesc . "991fd52b4f5b")
+	  (:commit . "309614c3acbdca9d0a50827e94c2ac8cda11f420")
+	  (:revdesc . "309614c3acbd")
 	  (:keywords "matching")
 	  (:authors
 	   ("James Nguyen" . "james@jojojames.com"))
@@ -29791,9 +29791,9 @@
 	 ("Joseph LaFreniere" . "joseph@lafreniere.xyz"))
 	(:maintainer "Joseph LaFreniere" . "joseph@lafreniere.xyz"))])
  (ghub .
-       [(0 1 0 1 -4 20241123 2135)
+       [(0 1 0 1 -4 20241208 2219)
 	((emacs
-	  (26 3))
+	  (29 1))
 	 (compat
 	  (30 0 0 0))
 	 (let-alist
@@ -29802,8 +29802,8 @@
 	  (0 1 2)))
 	"Client libraries for Git forge APIs" tar
 	((:url . "https://github.com/magit/ghub")
-	 (:commit . "4f39b86544ab064204efd0dda381af90fae70f43")
-	 (:revdesc . "4f39b86544ab")
+	 (:commit . "97edaf450ef74f40e6c0bd6a35ebd3fcb710ca4d")
+	 (:revdesc . "97edaf450ef7")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
@@ -32011,7 +32011,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20241208 141)
+	[(0 1 0 1 -4 20241208 2307)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -32020,8 +32020,8 @@
 	   (29 1 4 1)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "983a9dfbf87f526efe2cfcf8a749f51ce466beaa")
-	  (:revdesc . "983a9dfbf87f")
+	  (:commit . "1b6c36c51998a71075e382b1de58996ba36a0da2")
+	  (:revdesc . "1b6c36c51998")
 	  (:keywords "convenience")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -69587,7 +69587,7 @@
 	("Chunyang Xu" . "mail@xuchunyang.me"))
        (:maintainer "Chunyang Xu" . "mail@xuchunyang.me"))])
  (slack .
-	[(0 1 -4 20241208 1710)
+	[(0 1 -4 20241208 2357)
 	 ((websocket
 	   (1 8))
 	  (request
@@ -69610,8 +69610,8 @@
 	   (0 3)))
 	 "Slack client for Emacs" tar
 	 ((:url . "https://github.com/emacs-slack/emacs-slack")
-	  (:commit . "74ae2c42b2604ba44525ff43371967584dd4ab0d")
-	  (:revdesc . "74ae2c42b260")
+	  (:commit . "aeb4f2c2f6355cf7cee00edf1004fd94a9ef31d1")
+	  (:revdesc . "aeb4f2c2f635")
 	  (:keywords "tools")
 	  (:authors
 	   ("yuya.minami" . "yuya.minami@yuyaminami-no-MacBook-Pro.local"))
@@ -75471,7 +75471,7 @@
 			      (:revdesc . "57911a5065a6")
 			      (:keywords "convenience" "tools"))])
  (transient .
-	    [(0 1 0 1 -4 20241208 1224)
+	    [(0 1 0 1 -4 20241208 2227)
 	     ((emacs
 	       (26 1))
 	      (compat
@@ -75480,8 +75480,8 @@
 	       (2 24)))
 	     "Transient commands" tar
 	     ((:url . "https://github.com/magit/transient")
-	      (:commit . "dd69194d95f0e21a56d1f78206b1e6a5deb2327c")
-	      (:revdesc . "dd69194d95f0")
+	      (:commit . "dbe18e3f5e0812b8d086f92ca776935e41fafc75")
+	      (:revdesc . "dbe18e3f5e08")
 	      (:keywords "extensions")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
@@ -78145,15 +78145,15 @@
 		      ("Andreas Gerler" . "baron@bundesbrandschatzamt.de"))
 		     (:maintainer "Andreas Gerler" . "baron@bundesbrandschatzamt.de"))])
  (vertico .
-	  [(0 1 0 1 -4 20241208 2119)
+	  [(0 1 0 1 -4 20241208 2233)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30)))
 	   "VERTical Interactive COmpletion" tar
 	   ((:url . "https://github.com/minad/vertico")
-	    (:commit . "5c4a2cbe9916c2761bfb56ac129eb4b8f9210b22")
-	    (:revdesc . "5c4a2cbe9916")
+	    (:commit . "d2cc65ee37557d9d23300b238b60aeae4a975229")
+	    (:revdesc . "d2cc65ee3755")
 	    (:keywords "convenience" "files" "matching" "completion")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
