@@ -42,7 +42,7 @@
 	     "Play 2048 in Emacs" tar
 	     ((:url . "https://hg.sr.ht/~zck/game-2048")
 	      (:commit . "8175ca5191175183b9522141dcb55d30673d2323")
-	      (:revdesc . "8175ca5191175183b9522141dcb55d30673d2323")
+	      (:revdesc . "8175ca519117")
 	      (:authors
 	       ("Zachary Kanfer" . "zkanfer@gmail.com"))
 	      (:maintainers
@@ -6744,7 +6744,7 @@
 	 "Change text casing from camelCase to UpperCamelCase to dash-case to snake_case" tar
 	 ((:url . "https://hg.sr.ht/~zck/caser.el")
 	  (:commit . "6ed8fe13ff6a4c39a831cf51b031a9e9fdcba5ff")
-	  (:revdesc . "6ed8fe13ff6a4c39a831cf51b031a9e9fdcba5ff"))])
+	  (:revdesc . "6ed8fe13ff6a"))])
  (cask-mode .
 	    [(0 2 1 -4 20160410 1449)
 	     ((emacs
@@ -11409,7 +11409,7 @@
 		(:revdesc . "68583913168b")
 		(:keywords "tools" "completion" "lsp"))])
  (consult-notes .
-		[(0 7 1 -4 20240810 1318)
+		[(0 1 0 1 -4 20241213 1718)
 		 ((emacs
 		   (27 1))
 		  (consult
@@ -11420,8 +11420,8 @@
 		   (2 19)))
 		 "Manage notes with consult" tar
 		 ((:url . "https://github.com/mclear-tools/consult-notes")
-		  (:commit . "6ece62337d6065e88a91b222fac5e252c00a8d53")
-		  (:revdesc . "6ece62337d60")
+		  (:commit . "7c9cd970c75fae9a6140ca1beefed9532d8e1b96")
+		  (:revdesc . "7c9cd970c75f")
 		  (:keywords "convenience")
 		  (:authors
 		   ("Colin McLear" . "mclear@fastmail.com")))])
@@ -15742,15 +15742,15 @@
 		  ("Jose G Perez Taveras" . "josegpt27@gmail.com"))
 		 (:maintainer "Jose G Perez Taveras" . "josegpt27@gmail.com"))])
  (disproject .
-	     [(0 1 0 1 -4 20241213 520)
+	     [(0 1 0 1 -4 20241213 1848)
 	      ((emacs
 		(29 4))
 	       (transient
 		(0 8 0)))
 	      "Dispatch project commands with Transient" tar
 	      ((:url . "https://github.com/aurtzy/disproject")
-	       (:commit . "30ed3967fe8cc0a594b1eb6629eeca234f477680")
-	       (:revdesc . "30ed3967fe8c")
+	       (:commit . "bbe8f5cb9a2b5ef7482d3a109c81d6622c55677a")
+	       (:revdesc . "bbe8f5cb9a2b")
 	       (:keywords "convenience" "files" "vc")
 	       (:authors
 		("aurtzy" . "aurtzy@gmail.com"))
@@ -15808,7 +15808,7 @@
 	     nil "Emacs interface to Ditz issue tracking system" tar
 	     ((:url . "https://hg.sr.ht/~zondo/ditz-mode")
 	      (:commit . "56668844acd91c3d15a08ba406dbb1ba0c2fe9b4")
-	      (:revdesc . "56668844acd91c3d15a08ba406dbb1ba0c2fe9b4")
+	      (:revdesc . "56668844acd9")
 	      (:keywords "tools")
 	      (:authors
 	       ("Glenn Hutchings" . "zondo42@gmail.com"))
@@ -20394,7 +20394,7 @@
 		     nil "A theme based on enlightened" tar
 		     ((:url . "https://hg.sr.ht/~slondr/enlightened")
 		      (:commit . "1bfebd8f47e8a8357c9e557cf6e95d7027861e6d")
-		      (:revdesc . "1bfebd8f47e8a8357c9e557cf6e95d7027861e6d"))])
+		      (:revdesc . "1bfebd8f47e8"))])
  (enlive .
 	 [(0 0 1 1 -4 20170725 1417)
 	  nil "Query html document with css selectors" tar
@@ -21609,21 +21609,13 @@
 		  ("Masahiro Hayashi" . "mhayashi1120@gmail.com"))
 		 (:maintainer "Masahiro Hayashi" . "mhayashi1120@gmail.com"))])
  (ess .
-      [(0 1 0 1 -4 20241209 1703)
+      [(0 1 0 1 -4 20241213 1750)
        ((emacs
-	 (26 1))
-	(polymode
-	 (0 2 2))
-	(poly-noweb
-	 (0 2 2))
-	(poly-markdown
-	 (0 2 2))
-	(poly-R
-	 (0 2 2)))
+	 (25 1)))
        "Emacs Speaks Statistics" tar
        ((:url . "https://github.com/emacs-ess/ESS")
-	(:commit . "685aff6934af2a7e27b75a071b06804d9fa6dd31")
-	(:revdesc . "685aff6934af")
+	(:commit . "1ab207d1084c4228d7fa01275db96215ef996497")
+	(:revdesc . "1ab207d1084c")
 	(:authors
 	 ("David Smith" . "dsmith@stats.adelaide.edu.au")
 	 ("A.J. Rossini" . "blindglobe@gmail.com")
