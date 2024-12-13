@@ -29907,21 +29907,6 @@
 		(:maintainers
 		 ("10sr" . "8slashes+el[at]gmail[dot]com"))
 		(:maintainer "10sr" . "8slashes+el[at]gmail[dot]com"))])
- (git-commit .
-	     [(4 1 0 1 -4 20240831 2335)
-	      nil "This package has been merged into magit" tar
-	      ((:url . "https://github.com/magit/magit")
-	       (:commit . "9be8a4ab7a7dc6f34615f1011e8da263651c8f87")
-	       (:revdesc . "9be8a4ab7a7d")
-	       (:keywords "git" "tools" "vc")
-	       (:authors
-		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
-		("Sebastian Wiesner" . "lunaryorn@gmail.com")
-		("Florian Ragwitz" . "rafl@debian.org")
-		("Marius Vollmer" . "marius.vollmer@gmail.com"))
-	       (:maintainers
-		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	       (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))])
  (git-commit-insert-issue .
 			  [(0 4 1 1 -4 20230512 1416)
 			   ((emacs
@@ -30011,22 +29996,6 @@
 		("Neil Okamoto" . "neil.okamoto+melpa@gmail.com")
 		("Jen-Chieh" . "jcs090218@gmail.com"))
 	       (:maintainer "Neil Okamoto" . "neil.okamoto+melpa@gmail.com"))])
- (git-gutter+ .
-	      [(0 4 1 -4 20151204 1723)
-	       ((git-commit
-		 (0))
-		(dash
-		 (0)))
-	       "Manage Git hunks straight from the buffer" tar
-	       ((:url . "https://github.com/nonsequitur/git-gutter-plus")
-		(:commit . "b7726997806d9a2da9fe84ff00ecf21d62b6f975")
-		(:revdesc . "b7726997806d")
-		(:keywords "git" "vc")
-		(:authors
-		 ("Syohei YOSHIDA and contributors" . "syohex@gmail.com"))
-		(:maintainers
-		 ("Syohei YOSHIDA and contributors" . "syohex@gmail.com"))
-		(:maintainer "Syohei YOSHIDA and contributors" . "syohex@gmail.com"))])
  (git-gutter-fringe .
 		    [(0 23 1 -4 20211003 2228)
 		     ((git-gutter
@@ -30046,21 +30015,6 @@
 		      (:maintainers
 		       ("Neil Okamoto" . "neil.okamoto+melpa@gmail.com"))
 		      (:maintainer "Neil Okamoto" . "neil.okamoto+melpa@gmail.com"))])
- (git-gutter-fringe+ .
-		     [(0 0 2 1 -4 20140729 1103)
-		      ((git-gutter+
-			(0 1))
-		       (fringe-helper
-			(1 0 1)))
-		      "Fringe version of git-gutter+.el" tar
-		      ((:url . "https://github.com/nonsequitur/git-gutter-fringe-plus")
-		       (:commit . "3857d486e5b3eca9281fba1c76756cb39a9f9866")
-		       (:revdesc . "3857d486e5b3")
-		       (:authors
-			("Syohei YOSHIDA and contributors" . "syohex@gmail.com"))
-		       (:maintainers
-			("Syohei YOSHIDA and contributors" . "syohex@gmail.com"))
-		       (:maintainer "Syohei YOSHIDA and contributors" . "syohex@gmail.com"))])
  (git-identity .
 	       [(0 2 1 1 -4 20220721 912)
 		((emacs
@@ -41203,24 +41157,24 @@
 		     ("Felipe Lema" . "felipe.lema@mortemale.org"))
 		    (:maintainer "Felipe Lema" . "felipe.lema@mortemale.org"))])
  (julia-mode .
-	     [(0 1 0 1 -4 20241120 857)
+	     [(0 1 0 1 -4 20241213 1620)
 	      ((emacs
 		(26 1)))
 	      "Major mode for editing Julia source code" tar
 	      ((:url . "https://github.com/JuliaEditorSupport/julia-emacs")
-	       (:commit . "709c43410fb5da068d7d582cf3f545f7a7a68133")
-	       (:revdesc . "709c43410fb5")
+	       (:commit . "0f4d74f9049df28e2f522733141bfc5b7a0f69a3")
+	       (:revdesc . "0f4d74f9049d")
 	       (:keywords "languages"))])
  (julia-repl .
-	     [(0 1 0 1 -4 20241120 1523)
+	     [(0 1 0 1 -4 20241213 1619)
 	      ((emacs
-		(25 1))
+		(27 1))
 	       (s
 		(1 12)))
 	      "A minor mode for a Julia REPL" tar
 	      ((:url . "https://github.com/tpapp/julia-repl")
-	       (:commit . "1f4f6b4e01ff1529b0d7917fbd9ce29451a66510")
-	       (:revdesc . "1f4f6b4e01ff")
+	       (:commit . "317d56021889a336b4be241604ba71e46dc80581")
+	       (:revdesc . "317d56021889")
 	       (:keywords "languages")
 	       (:authors
 		("Tamas Papp" . "tkpapp@gmail.com"))
@@ -46198,30 +46152,6 @@
 	       (:maintainers
 		("těpán Němec" . "stepnem@smrk.net"))
 	       (:maintainer "těpán Němec" . "stepnem@smrk.net"))])
- (magithub .
-	   [(0 1 7 1 -4 20220315 117)
-	    ((emacs
-	      (25))
-	     (magit
-	      (2 12))
-	     (s
-	      (1 12 0))
-	     (ghub+
-	      (0 3))
-	     (git-commit
-	      (2 12))
-	     (markdown-mode
-	      (2 3)))
-	    "Magit interfaces for GitHub" tar
-	    ((:url . "https://github.com/vermiculus/magithub")
-	     (:commit . "dd62c7057155c0a334e6d9087779a2923d2300b8")
-	     (:revdesc . "dd62c7057155")
-	     (:keywords "git" "tools" "vc")
-	     (:authors
-	      ("Sean Allred" . "code@seanallred.com"))
-	     (:maintainers
-	      ("Sean Allred" . "code@seanallred.com"))
-	     (:maintainer "Sean Allred" . "code@seanallred.com"))])
  (magma-mode .
 	     [(0 1 0 1 -4 20211018 917)
 	      ((emacs
