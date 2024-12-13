@@ -96,13 +96,16 @@
 		 (:maintainer "stardiviner" . "numbchild@gmail.com")
 		 (:commit . "b2ffd8441851659cb1cc844156073967729585e5"))])
  (auto-dim-other-buffers .
-			 [(2 1 1 0 20240515 131159)
-			  nil "Makes windows without focus less prominent" tar
+			 [(2 1 1 0 20241213 183015)
+			  ((emacs
+			    (27 1)))
+			  "Makes windows without focus less prominent" tar
 			  ((:url . "https://github.com/mina86/auto-dim-other-buffers.el")
+			   (:keywords "faces")
 			   (:maintainer "Michal Nazarewicz" . "mina86@mina86.com")
 			   (:authors
 			    ("Michal Nazarewicz" . "mina86@mina86.com"))
-			   (:commit . "f0f1905fdf1ca3021e49f220687a4fad2081ba08"))])
+			   (:commit . "4831cdec23f0f9f785d899f7ceb90e4260dac0a0"))])
  (autothemer .
 	     [(0 2 18 0 20230907 60046)
 	      ((dash
@@ -552,6 +555,17 @@
 			   (:authors
 			    ("Filippo Argiolas" . "filippo.argiolas@gmail.com"))
 			   (:commit . "84056f8cb26c6b5237644ddfeb5a8ba38ba674c3"))])
+ (eldoc-diffstat .
+		 [(0 1 0 20241210 214113)
+		  ((emacs
+		    (29 1)))
+		  "Make VCS diffstat available via eldoc" tar
+		  ((:keywords "vc" "docs")
+		   (:maintainer "Johann Klähn" . "johann@jklaehn.de")
+		   (:authors
+		    ("Johann Klähn" . "johann@jklaehn.de"))
+		   (:url . "https://elpa.nongnu.org/nongnu/eldoc-diffstat.html")
+		   (:commit . "99b49c9793f9bfa1680c5cf3a7db8d44b3f0e13f"))])
  (elixir-mode .
 	      [(2 5 0 0 20230626 143859)
 	       ((emacs
@@ -1147,7 +1161,7 @@
 	      ("David Andersson" . "l.david.anderssonsverige.nu"))
 	     (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel .
-	[(0 9 7 0 20241208 190132)
+	[(0 9 7 0 20241213 123734)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -1160,7 +1174,7 @@
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-	  (:commit . "97218f8247a3772114d2e47f2ca59ec0e905a96a"))])
+	  (:commit . "4b784cb602b0ea78e34d6c3e586cb75029807aed"))])
  (graphql-mode .
 	       [(1 0 0 0 20241206 72535)
 		((emacs
@@ -1454,13 +1468,13 @@
 	       ((:url . "https://elpa.nongnu.org/nongnu/jinja2-mode.html")
 		(:commit . "03e5430a7efe1d163a16beaf3c82c5fd2c2caee1"))])
  (julia-mode .
-	     [(1 0 1 0 20241120 85729)
+	     [(1 0 2 0 20241213 162017)
 	      ((emacs
 		(26 1)))
 	      "Major mode for editing Julia source code" tar
 	      ((:url . "https://github.com/JuliaEditorSupport/julia-emacs")
 	       (:keywords "languages")
-	       (:commit . "709c43410fb5da068d7d582cf3f545f7a7a68133"))])
+	       (:commit . "0f4d74f9049df28e2f522733141bfc5b7a0f69a3"))])
  (keycast .
 	  [(1 4 1 0 20240805 132239)
 	   ((emacs
@@ -1635,13 +1649,13 @@
 	    ("Stefan Kangas" . "stefankangas@gmail.com"))
 	   (:commit . "ed42ae8333d801c841ecf80fb5e4957badb99b51"))])
  (meow .
-       [(1 5 0 0 20241211 74417)
+       [(1 5 0 0 20241213 104034)
 	((emacs
 	  (27 1)))
 	"Yet Another modal editing" tar
 	((:url . "https://www.github.com/DogLooksGood/meow")
 	 (:keywords "convenience" "modal-editing")
-	 (:commit . "57e2c29fbdc5108e43eff5d4fb11423c1d325ab2"))])
+	 (:commit . "f74017c172167edbe15bf7a922a6313c7aa848bd"))])
  (minibar .
 	  [(0 3 0 20230414 114052)
 	   ((emacs
@@ -2289,14 +2303,14 @@
 		     ("John Olsson" . "john@cryon.se"))
 		    (:commit . "9d0ac6aa5272d0285965a48505eb35658c5472b0"))])
  (subed .
-	[(1 2 21 0 20241209 124112)
+	[(1 2 21 0 20241213 80149)
 	 ((emacs
 	   (25 1)))
 	 "A major mode for editing subtitles" tar
 	 ((:url . "https://github.com/sachac/subed")
 	  (:keywords "convenience" "files" "hypermedia" "multimedia")
 	  (:maintainer "Sacha Chua" . "sacha@sachachua.com")
-	  (:commit . "a80297b9c14ee65f20dc1abcee5df31a1d4fe20e"))])
+	  (:commit . "00d9568b272a5597c729dfdc5602f17a1e887a97"))])
  (sweeprolog .
 	     [(0 27 6 0 20241107 191437)
 	      ((emacs
