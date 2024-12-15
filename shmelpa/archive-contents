@@ -371,7 +371,11 @@
 	     (:maintainer "Syohei YOSHIDA" . "syohex@gmail.com"))])
  (ac-geiser .
 	    [(0 1 1 -4 20200318 824)
-	     nil "Emacs auto-complete backend for geiser" tar
+	     ((geiser
+	       (0 5))
+	      (auto-complete
+	       (1 4)))
+	     "Auto-complete backend for geiser" tar
 	     ((:url . "https://github.com/xiaohanyu/ac-geiser")
 	      (:commit . "93818c936ee7e2f1ba1b315578bde363a7d43d05")
 	      (:revdesc . "93818c936ee7"))])
@@ -862,7 +866,9 @@
 	       (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (achievements .
 	       [(0 1 0 1 -4 20240703 318)
-		nil "Achievements for emacs usage" tar
+		((keyfreq
+		  (0 0 3)))
+		"Achievements for emacs usage" tar
 		((:url . "https://gitlab.com/gvol/emacs-achievements")
 		 (:commit . "c229d21ad5d1e13be08e087ab498800b2b9b7c97")
 		 (:revdesc . "c229d21ad5d1")
@@ -2158,7 +2164,7 @@
 	    [(20 7 0 1 -4 20211023 1831)
 	     ((emacs
 	       (25 1)))
-	     "Major mode for the scripting language APDL" tar
+	     "Major mode for the APDL programming language" tar
 	     ((:url . "https://github.com/dieter-wilhelm/apdl-mode")
 	      (:commit . "ba756eaa1d229c9bf6936fb8d2d4126ad073d488")
 	      (:revdesc . "ba756eaa1d22")
@@ -2257,7 +2263,7 @@
 		     (:maintainer "sakito" . "sakito@users.sourceforge.jp"))])
  (apropospriate-theme .
 		      [(0 1 0 1 -4 20241119 1)
-		       nil "A light & dark theme set for Emacs" tar
+		       nil "A colorful, low-contrast, light & dark theme set for Emacs with a fun name" tar
 		       ((:url . "https://github.com/waymondo/apropospriate-theme")
 			(:commit . "56c8c1b575106e72bcab2227fd73cf34f7f3df79")
 			(:revdesc . "56c8c1b57510")
@@ -2348,7 +2354,9 @@
 		   (:maintainer "rubikitch" . "rubikitch@ruby-lang.org"))])
  (archive-rpm .
 	      [(0 1 1 -4 20220527 632)
-	       nil "RPM support for archive-mode" tar
+	       ((emacs
+		 (24 4)))
+	       "RPM and CPIO support for archive-mode" tar
 	       ((:url . "https://github.com/nbarrientos/archive-rpm")
 		(:commit . "cb48fee04cb0cbb26f760a3b95649f7dac78c6ec")
 		(:revdesc . "cb48fee04cb0")
@@ -3029,10 +3037,10 @@
 		 (:maintainer "Jonas Bernoulli" . "emacs.auto-compile@jonas.bernoulli.dev"))])
  (auto-complete .
 		[(1 5 1 1 -4 20240320 1734)
-		 ((emacs
-		   (25 1))
-		  (popup
-		   (0 5 8)))
+		 ((popup
+		   (0 5 0))
+		  (cl-lib
+		   (0 5)))
 		 "Auto Completion for GNU Emacs" tar
 		 ((:url . "https://github.com/auto-complete/auto-complete")
 		  (:commit . "0c2f5a7d28b70bfe30b87378d58d74798a62741d")
@@ -3555,7 +3563,7 @@
 	   (:maintainer "Tom Willemse" . "tom@ryuslash.org"))])
  (avk-emacs-themes .
 		   [(0 2 1 -4 20230825 922)
-		    nil "Various themes by Alex V. Koval" tar
+		    nil "Collection of avk themes" tar
 		    ((:url . "https://github.com/avkoval/avk-emacs-themes")
 		     (:commit . "abe6fd059e0a7e8fcf2eb95b16c3dfac5620b1e7")
 		     (:revdesc . "abe6fd059e0a")
@@ -4025,7 +4033,7 @@
 	      (:maintainer "Michael Schuldt" . "mbschuldt@gmail.com"))])
  (base16-theme .
 	       [(3 0 1 -4 20241215 126)
-		nil "A set of base16 themes for your favorite editor" tar
+		nil "Collection of themes built on combinations of 16 base colors" tar
 		((:url . "https://github.com/tinted-theming/base16-emacs")
 		 (:commit . "1d48474c3c07521276f4e7d73317a654997b4381")
 		 (:revdesc . "1d48474c3c07")
@@ -4565,8 +4573,8 @@
 	  ((emacs
 	    (24 3))
 	   (biblio-core
-	    (0 3)))
-	  "Browse and import bibliographic references and BibTeX records from CrossRef, arXiv, DBLP, HAL, IEEE Xplore, Dissemin, and doi.org" tar
+	    (0 2)))
+	  "Browse and import bibliographic references from CrossRef, arXiv, DBLP, HAL, Dissemin, and doi.org" tar
 	  ((:url . "https://github.com/cpitclaudel/biblio.el")
 	   (:commit . "ee52f6cda82ea6fbc3b400e7b12132595cc0374c")
 	   (:revdesc . "ee52f6cda82e")
@@ -5324,7 +5332,17 @@
 		  (:revdesc . "d3df185fce78"))])
  (boogie-friends .
 		 [(0 1 1 -4 20221115 658)
-		  nil "A collection of programming modes for Boogie, Dafny, and Z3 (SMTLIB v2)" tar
+		  ((cl-lib
+		    (0 5))
+		   (dash
+		    (2 10 0))
+		   (flycheck
+		    (0 23))
+		   (yasnippet
+		    (0 9 0 1))
+		   (company
+		    (0 8 12)))
+		  "A collection of programming modes for Boogie, Dafny, and Z3 (SMTLIB v2)" tar
 		  ((:url . "https://github.com/boogie-org/boogie-friends")
 		   (:commit . "5b32e4859823ed7f5e70fd5d2eac5d813a8e3e51")
 		   (:revdesc . "5b32e4859823")
@@ -5386,7 +5404,15 @@
 	      (:maintainer "Michael Brandt" . "michaelbrandt5@gmail.com"))])
  (boon .
        [(2 0 1 -4 20240628 703)
-	nil "An Ergonomic Command Mode" tar
+	((emacs
+	  (26 1))
+	 (dash
+	  (2 12 0))
+	 (expand-region
+	  (0 10 0))
+	 (multiple-cursors
+	  (1 3 0)))
+	"Ergonomic Command Mode for Emacs" tar
 	((:url . "https://github.com/jyp/boon")
 	 (:commit . "19a7f76e75759f5266986b40c470edb1f70c43df")
 	 (:revdesc . "19a7f76e7575"))])
@@ -6155,7 +6181,7 @@
 	    (1 2))
 	   (emacs
 	    (24)))
-	  "Client for Jenkins" tar
+	  "Emacs client for Jenkins" tar
 	  ((:url . "https://github.com/AshtonKem/Butler")
 	   (:commit . "10943ccdf2030187b2f7bd97337d78acb7fd31c9")
 	   (:revdesc . "10943ccdf203")
@@ -7556,7 +7582,7 @@
 		   (:maintainer "zhcosin" . "zhcosin@163.com"))])
  (chinese-wbim .
 	       [(0 1 1 -4 20190727 854)
-		nil "Enable Wubi(五笔) Input Method in Emacs" tar
+		nil "Enable Wubi Input Method in Emacs" tar
 		((:url . "https://github.com/zilongshanren/chinese-wbim")
 		 (:commit . "5d496364b0b6bbaaf0f9b37e5a6d260d4994f260")
 		 (:revdesc . "5d496364b0b6")
@@ -7950,7 +7976,11 @@
 	      (:maintainer "Guido Schmidt" . "git@guidoschmidt.cc"))])
  (circe .
 	[(2 13 1 -4 20241101 1641)
-	 nil "Client for IRC in Emacs" tar
+	 ((emacs
+	   (25 1))
+	  (cl-lib
+	   (0 5)))
+	 "Client for IRC in Emacs" tar
 	 ((:url . "https://github.com/emacs-circe/circe")
 	  (:commit . "0346f3f64383d88bb3ea49a492fcb80334a55cc4")
 	  (:revdesc . "0346f3f64383")
@@ -8130,9 +8160,7 @@
 	  (:maintainer "Hao Wang" . "amaikinono@gmail.com"))])
  (cl-format .
 	    [(1 2 1 1 -4 20230818 1726)
-	     ((emacs
-	       (25 1)))
-	     "Common Lisp format function" tar
+	     nil "CL format routine" tar
 	     ((:url . "https://gitlab.com/akater/elisp-cl-format")
 	      (:commit . "42b662d27eefa458c1a39bea1836d6ada740b863")
 	      (:revdesc . "42b662d27eef")
@@ -8422,7 +8450,7 @@
 	   (:maintainer "Matus Goljer" . "matus.goljer@gmail.com"))])
  (clips-mode .
 	     [(0 7 1 -4 20170909 823)
-	      nil "Clips editing mode" tar
+	      nil "Major mode for editing CLIPS code and REPL" tar
 	      ((:url . "https://github.com/clips-mode/clips-mode")
 	       (:commit . "dd38e2822640a38f7d8bfec4f69d8dd24be27074")
 	       (:revdesc . "dd38e2822640")
@@ -8721,9 +8749,7 @@
  (clojure-snippets .
 		   [(1 0 1 1 -4 20220914 950)
 		    ((yasnippet
-		      (0 8 0))
-		     (cl-lib
-		      (0 5)))
+		      (0 10 0)))
 		    "Yasnippets for clojure" tar
 		    ((:url . "https://github.com/mpenet/clojure-snippets")
 		     (:commit . "66d23f0ffedf2cc2be0387c3504b5f89d7300cfa")
@@ -9281,7 +9307,9 @@
 			     (:maintainer "Victor Borja" . "vic.borja@gmail.com"))])
  (color-theme-modern .
 		     [(0 1 1 -4 20231116 2258)
-		      nil "Ports of color-theme themes to deftheme" tar
+		      ((emacs
+			(24)))
+		      "Reimplement colortheme with Emacs 24 theme framework" tar
 		      ((:url . "https://github.com/emacs-jp/replace-colorthemes")
 		       (:commit . "5f790421b6eff5d2915819fa23cfcdb19827fa91")
 		       (:revdesc . "5f790421b6ef")
@@ -12518,10 +12546,10 @@
 		(:maintainer "Kijima Daigo" . "norimaking777@gmail.com"))])
  (creds .
 	[(0 0 6 1 1 -4 20140510 1706)
-	 ((dash
-	   (2 5 0))
-	  (s
-	   (1 9 0)))
+	 ((s
+	   (1 9 0))
+	  (dash
+	   (2 5 0)))
 	 "A parser credentials file library (not limited to credentials entries)" tar
 	 ((:url . "https://github.com/ardumont/emacs-creds")
 	  (:commit . "00ebefd10005c170b790a01380cb6a98f798ce5c")
@@ -13303,7 +13331,7 @@
 	      (:revdesc . "3ba1166edd4c"))])
  (danneskjold-theme .
 		    [(1 0 0 1 -4 20241114 749)
-		     nil "[No description available]" tar
+		     nil "Beautiful high-contrast Emacs theme" tar
 		     ((:url . "https://github.com/rails-to-cosmos/danneskjold-theme")
 		      (:commit . "96c000887d5bf7be17ff315c939bb7c8c962b86a")
 		      (:revdesc . "96c000887d5b")
@@ -13812,7 +13840,11 @@
 	  (:maintainer "Erik L. Arneson" . "earneson@arnesonium.com"))])
  (ddskk .
 	[(17 1 1 -4 20230701 2340)
-	 nil "Daredevil SKK (Simple Kana to Kanji conversion program)" tar
+	 ((ccc
+	   (1 43))
+	  (cdb
+	   (20141201 754)))
+	 "Simple Kana to Kanji conversion program" tar
 	 ((:url . "https://github.com/skk-dev/ddskk")
 	  (:commit . "8c47f46e38a29a0f3eabcd524268d20573102467")
 	  (:revdesc . "8c47f46e38a2")
@@ -15852,7 +15884,7 @@
 	     (:maintainer "Kevin Brubeck Unhammer" . "unhammer@fsfe.org"))])
  (dizzee .
 	 [(0 1 1 1 -4 20171201 916)
-	  nil "Utilities for managing subprocesses in Emacs" tar
+	  nil "A more pleasant way to manage your project's subprocesses in Emacs" tar
 	  ((:url . "https://github.com/davidmiller/dizzee")
 	   (:commit . "e3cf1c2ea5d0fc00747524b6f3c5b905d0a8c8e1")
 	   (:revdesc . "e3cf1c2ea5d0")
@@ -16620,7 +16652,9 @@
 		(:maintainer "Dirk-Jan C. Binnema" . "djcb@djcbsoftware.nl"))])
  (drill-instructor-AZIK-force .
 			      [(0 1 1 -4 20151123 514)
-			       nil "Support AZIK input" tar
+			       ((popup
+				 (0 5)))
+			       "Support AZIK input" tar
 			       ((:url . "https://github.com/myuhe/drill-instructor-AZIK-force.el")
 				(:commit . "008cea202dc31d7d6fb1e7d8e6334d516403b7a5")
 				(:revdesc . "008cea202dc3")
@@ -17506,7 +17540,19 @@
 	     (:maintainer "Adam Tillou" . "qaiviq@gmail.com"))])
  (eclim .
 	[(1 0 1 -4 20181108 1134)
-	 nil "An interface to the Eclipse IDE" tar
+	 ((dash
+	   (2 11 0))
+	  (json
+	   (1 2))
+	  (popup
+	   (0 5 2))
+	  (s
+	   (1 9 0))
+	  (cl-lib
+	   (0 5))
+	  (yasnippet
+	   (0 10 0)))
+	 "An interface to the Eclipse IDE" tar
 	 ((:url . "https://github.com/emacs-eclim/emacs-eclim")
 	  (:commit . "23f5b294f833ce58516d7b9ae08a7792d70022a1")
 	  (:revdesc . "23f5b294f833"))])
@@ -17524,13 +17570,33 @@
 		  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (ecukes .
 	 [(0 7 0 1 -4 20240315 2350)
-	  nil "Cucumber for Emacs" tar
+	  ((emacs
+	    (25))
+	   (commander
+	    (0 6 1))
+	   (espuds
+	    (0 2 2))
+	   (ansi
+	    (0 3 0))
+	   (dash
+	    (2 2 0))
+	   (s
+	    (1 8 0))
+	   (f
+	    (0 11 0)))
+	  "Cucumber for Emacs" tar
 	  ((:url . "https://github.com/ecukes/ecukes")
 	   (:commit . "11225972934b3cfe09ada87dd785f8dd0082b6e3")
 	   (:revdesc . "11225972934b"))])
  (edbi .
        [(0 1 3 1 -4 20160225 141)
-	nil "Database independent interface for Emacs" tar
+	((concurrent
+	  (0 3 1))
+	 (ctable
+	  (0 1 2))
+	 (epc
+	  (0 1 1)))
+	"Emacs Database Interface" tar
 	((:url . "https://github.com/kiwanami/emacs-edbi")
 	 (:commit . "6f50aaf4bde75255221f2292c7a4ad3fa9d918c0")
 	 (:revdesc . "6f50aaf4bde7")
@@ -18099,7 +18165,19 @@
 		 (:maintainer "Jeff Walsh" . "fejfighter@gmail.com"))])
  (ego .
       [(0 9 1 -4 20200803 1101)
-       nil "Static site generator based on Emacs, Git and Org-mode" tar
+       ((emacs
+	 (24 5))
+	(ht
+	 (1 5))
+	(mustache
+	 (0 22))
+	(htmlize
+	 (1 47))
+	(org
+	 (8 0))
+	(dash
+	 (2 0 0)))
+       "A static site generator based on org mode, forked from org-page" tar
        ((:url . "https://github.com/emacs-china/EGO")
 	(:commit . "211c4cb2af2582849d9df984fb2346deecaf79be")
 	(:revdesc . "211c4cb2af25")
@@ -18115,7 +18193,9 @@
 	(:maintainer "Feng Shu" . "tumashuAT163.com"))])
  (eide .
        [(0 1 0 1 -4 20241213 2028)
-	nil "Emacs-IDE: Main file" tar
+	((emacs
+	  (26 1)))
+	"IDE interface" tar
 	((:url . "https://forge.tedomum.net/hjuvi/eide.git")
 	 (:commit . "ec04e7f707f9e526af9efd13c3ab4af3d8c485ba")
 	 (:revdesc . "ec04e7f707f9")
@@ -18433,7 +18513,13 @@
 	     (:maintainer "Vedang Manerikar" . "vedang.manerikar@gmail.com"))])
  (el-sprunge .
 	     [(0 1 0 1 -4 20200312 1212)
-	      nil "Command line paste server with Emacs highlighting" tar
+	      ((web-server
+		(20140105 2246))
+	       (htmlize
+		(20130207 1202))
+	       (emacs
+		(24 3)))
+	      "Command line paste server with Emacs highlighting" tar
 	      ((:url . "https://github.com/eschulte/el-sprunge")
 	       (:commit . "e4365ea0bdf60969817619376bdcc98003fec33d")
 	       (:revdesc . "e4365ea0bdf6")
@@ -18788,7 +18874,9 @@
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
 	 [(3 4 2 1 -4 20241202 22)
-	  nil "An Emacs Atom/RSS feed reader" tar
+	  ((emacs
+	    (24 3)))
+	  "An Emacs Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/skeeto/elfeed")
 	   (:commit . "a39fb78e34ee25dc8baea83376f929d7c128344f")
 	   (:revdesc . "a39fb78e34ee")
@@ -18976,7 +19064,13 @@
 		    (:maintainer "Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))])
  (elfeed-web .
 	     [(3 4 2 1 -4 20240729 1741)
-	      nil "Web interface to Elfeed" tar
+	      ((simple-httpd
+		(1 5 1))
+	       (elfeed
+		(3 2 0))
+	       (emacs
+		(24 3)))
+	      "Web interface to Elfeed" tar
 	      ((:url . "https://github.com/skeeto/elfeed")
 	       (:commit . "904b6d4feca78e7e5336d7dbb7b8ba53b8c4dac1")
 	       (:revdesc . "904b6d4feca7")
@@ -19368,7 +19462,23 @@
 	  (:maintainer "Michael Herstine" . "sp1ff@pobox.com"))])
  (elnode .
 	 [(0 9 9 9 1 -4 20190702 1509)
-	  nil "A simple emacs async HTTP server" tar
+	  ((web
+	    (0 1 4))
+	   (dash
+	    (1 1 0))
+	   (noflet
+	    (0 0 7))
+	   (s
+	    (1 5 0))
+	   (creole
+	    (0 8 14))
+	   (fakir
+	    (0 1 6))
+	   (db
+	    (0 0 5))
+	   (kv
+	    (0 0 17)))
+	  "The Emacs webserver" tar
 	  ((:url . "https://github.com/jcaw/elnode")
 	   (:commit . "29ef0f51a65a24fca7fdcdb4140d2e4556e4bb29")
 	   (:revdesc . "29ef0f51a65a")
@@ -19506,17 +19616,17 @@
  (elpy .
        [(1 35 0 1 -4 20240109 1445)
 	((company
-	  (0 9 10))
+	  (0 9 2))
 	 (emacs
 	  (24 4))
 	 (highlight-indentation
-	  (0 7 0))
+	  (0 5 0))
 	 (pyvenv
-	  (1 20))
+	  (1 3))
 	 (yasnippet
-	  (0 13 0))
+	  (0 8 0))
 	 (s
-	  (1 12 0)))
+	  (1 11 0)))
 	"Emacs Python Development Environment" tar
 	((:url . "https://github.com/jorgenschaefer/elpy")
 	 (:commit . "777e9909c8f1c11f1cfb8dbf5fe4a66d2ab95e1e")
@@ -20427,7 +20537,7 @@
 	(:maintainer nil . "e.enoson@gmail.com"))])
  (enotify .
 	  [(0 0 0 1 -4 20130407 1348)
-	   nil "A networked notification system for Emacs" tar
+	   nil "A networked notification system for emacs" tar
 	   ((:url . "https://github.com/laynor/enotify")
 	    (:commit . "7fd2f48ef4ff32c8f013c634ea2dd6b1d1409f80")
 	    (:revdesc . "7fd2f48ef4ff")
@@ -20986,8 +21096,8 @@
  (erlang .
 	 [(2 7 0 1 -4 20241212 826)
 	  ((emacs
-	    (24 3)))
-	  "Major modes for editing and running Erlang" tar
+	    (24 1)))
+	  "Erlang major mode" tar
 	  ((:url . "https://github.com/erlang/otp")
 	   (:commit . "0ac5855b0f4e40a6072891c346bf78de661300eb")
 	   (:revdesc . "0ac5855b0f4e")
@@ -21764,7 +21874,13 @@
 	 (:maintainer "Serghei Iakovlev" . "egrep@protonmail.ch"))])
  (esxml .
 	[(0 3 7 1 -4 20230308 2254)
-	 nil "Library for working with xml via esxml and sxml" tar
+	 ((emacs
+	   (24 1))
+	  (kv
+	   (0 0 5))
+	  (cl-lib
+	   (0 5)))
+	 "Library for working with xml via esxml and sxml" tar
 	 ((:url . "https://github.com/tali713/esxml")
 	  (:commit . "225693096a587492d76bf696d1f0c25c61f7d531")
 	  (:revdesc . "225693096a58")
@@ -21834,9 +21950,9 @@
 		   (:maintainer "Diego A. Mundo" . "dieggsy@pm.me"))])
  (eterm-fn .
 	   [(0 1 -4 20191010 2331)
-	    ((emacs
-	      (25)))
-	    "Function (F1--F12) keys for term" tar
+	    ((term
+	      (0)))
+	    "Function keys (F1--F12) for term" tar
 	    ((:url . "https://github.com/oitofelix/eterm-fn")
 	     (:commit . "66f3b2f6308fa2ac4d8a32be5a7e35a96e08a9ee")
 	     (:revdesc . "66f3b2f6308f")
@@ -22176,7 +22292,7 @@
 			  ("Bryan Allred" . "bryan@revolvingcow.com"))
 			 (:maintainer "Bryan Allred" . "bryan@revolvingcow.com"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20241208 1201)
+		  [(0 4 1 1 -4 20241215 833)
 		   ((emacs
 		     (26 3))
 		    (evil
@@ -22185,8 +22301,8 @@
 		     (1 0)))
 		   "A set of keybindings for Evil mode" tar
 		   ((:url . "https://github.com/emacs-evil/evil-collection")
-		    (:commit . "64590b1aad11f8aeb4a334ba3c62a97186e36338")
-		    (:revdesc . "64590b1aad11")
+		    (:commit . "950f7cfe9bf8d863ebc6abf4f90777e1dcbb028f")
+		    (:revdesc . "950f7cfe9bf8")
 		    (:keywords "evil" "tools")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
@@ -22211,7 +22327,7 @@
 	      [(0 2 1 -4 20160416 1841)
 	       ((evil
 		 (1 0 8)))
-	       "Allows you to use evil with appropriate dvorak bindings" tar
+	       "Evil keybindings for that work with dvorak mode" tar
 	       ((:url . "https://github.com/jbranso/evil-dvorak")
 		(:commit . "e7b80077d6f332452049eb3d7ea51f6c8fbf5947")
 		(:revdesc . "e7b80077d6f3")
@@ -24413,7 +24529,15 @@
 	     (:maintainer "Case Duckworth" . "acdw@acdw.net"))])
  (finalize .
 	   [(2 0 0 1 -4 20170418 1945)
-	    nil "Lisp object finalization" tar
+	    ((emacs
+	      (24 1))
+	     (cl-generic
+	      (0 3))
+	     (cl-lib
+	      (0 3))
+	     (eieio
+	      (1 4)))
+	    "Finalizers for Emacs Lisp" tar
 	    ((:url . "https://github.com/skeeto/elisp-finalize")
 	     (:commit . "0f7d47c4d50f1c76fc3b43bfc2d4886dd3e8ca27")
 	     (:revdesc . "0f7d47c4d50f")
@@ -24556,7 +24680,11 @@
 	   (:keywords "outlines"))])
  (fiplr .
 	[(0 2 8 1 -4 20140724 645)
-	 nil "Fuzzy finder for files in a project" tar
+	 ((grizzl
+	   (0 1 0))
+	  (cl-lib
+	   (0 1)))
+	 "Fuzzy Search for Files in Projects" tar
 	 ((:url . "https://github.com/grizzl/fiplr")
 	  (:commit . "bb6b90ba3c558988c195048c4c40140b2ee17530")
 	  (:revdesc . "bb6b90ba3c55")
@@ -28739,7 +28867,7 @@
 	  (0 2))
 	 (emacs
 	  (24 2)))
-	"Factor's Ultimate Emacs Library" tar
+	"Major mode for the Factor programming language" tar
 	((:url . "https://github.com/factor/fuel")
 	 (:commit . "6d0e98494f89d8b7dcfcae4cf83775562bf44ea9")
 	 (:revdesc . "6d0e98494f89")
@@ -29538,7 +29666,17 @@
 	   (:maintainer "Leo Liu" . "sdl.web@gmail.com"))])
  (gh .
      [(1 0 1 1 -4 20230825 1217)
-      nil "Github API client libraries" tar
+      ((emacs
+	(25 1))
+       (pcache
+	(0 4 2))
+       (logito
+	(0 1))
+       (marshal
+	(0 9 0))
+       (cl-lib
+	(0 3)))
+      "A GitHub library for Emacs" tar
       ((:url . "https://github.com/sigma/gh.el")
        (:commit . "b5a8d8209340d49ad82dab22d23dae0434499fdf")
        (:revdesc . "b5a8d8209340")
@@ -30784,7 +30922,9 @@
 	 (:maintainer "Engelke Eschner" . "tekai@gmx.li"))])
  (gnu-apl-mode .
 	       [(1 5 1 1 -4 20220404 341)
-		nil "Emacs mode for GNU APL" tar
+		((emacs
+		  (27)))
+		"Integrate GNU APL with Emacs" tar
 		((:url . "https://github.com/lokedhs/gnu-apl-mode")
 		 (:commit . "c8695b0d55b5167263a843252ffd21a589018427")
 		 (:revdesc . "c8695b0d55b5")
@@ -31934,14 +32074,36 @@
 	      (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (grandshell-theme .
 		   [(0 1 0 1 -4 20180606 517)
-		    nil "Grand Shell color theme for Emacs > 24" tar
+		    nil "Dark color theme for Emacs > 24 with intensive colors" tar
 		    ((:url . "https://framagit.org/steckerhalter/grandshell-theme.git")
 		     (:commit . "0ed8e4273607dd4fcaa742b4097259233b09eda6")
 		     (:revdesc . "0ed8e4273607")
 		     (:keywords "color" "theme" "grand" "shell" "faces"))])
  (graphene .
 	   [(1 0 0 1 -4 20180529 1112)
-	    nil "Newbie-friendly defaults" tar
+	    ((dash
+	      (2 10 0))
+	     (exec-path-from-shell
+	      (1 9))
+	     (ppd-sr-speedbar
+	      (0 0 6))
+	     (sr-speedbar
+	      (20140505))
+	     (ido-completing-read+
+	      (4 3))
+	     (smex
+	      (3 0))
+	     (web-mode
+	      (11 2))
+	     (smartparens
+	      (1 8 0))
+	     (graphene-meta-theme
+	      (0 0 2))
+	     (flycheck
+	      (0 23))
+	     (company
+	      (0 8 12)))
+	    "Friendly Emacs defaults" tar
 	    ((:url . "https://github.com/rdallasgray/graphene")
 	     (:commit . "cc8477fcfb7771ea4e5bbaf3c01f9e679234c1c1")
 	     (:revdesc . "cc8477fcfb77")
@@ -35022,9 +35184,7 @@
  (helm-proc .
 	    [(0 0 4 1 -4 20161006 305)
 	     ((helm
-	       (1 6 0))
-	      (cl-lib
-	       (0 5)))
+	       (1 6 0)))
 	     "Helm interface for managing system processes" tar
 	     ((:url . "https://github.com/markus1189/helm-proc")
 	      (:commit . "576d31c2d74ba3897d56e2acd2b0993f52c2547c")
@@ -35092,12 +35252,8 @@
  (helm-pt .
 	  [(20150307 141210 1 -4 20160214 2342)
 	   ((helm
-	     (1 5 6))
-	    (cl-lib
-	     (0 5))
-	    (emacs
-	     (24 4)))
-	   "Platinum searcher helm interface" tar
+	     (1 5 6)))
+	   "Helm interface to the platinum searcher" tar
 	   ((:url . "https://github.com/punassuming/helm-pt")
 	    (:commit . "8acc52911dad1ed0c3975f134a468762afe0b76b")
 	    (:revdesc . "8acc52911dad"))])
@@ -38559,7 +38715,7 @@
 	 [(1 4 1 -4 20200723 500)
 	  ((emacs
 	    (25 1)))
-	  "Link symbols in Info buffers to their help documentation" tar
+	  "Symbol links in Info buffers to their help documentation" tar
 	  ((:url . "https://github.com/dieter-wilhelm/inform")
 	   (:commit . "8ff0a19a9f40cfa8283da8ed73de94c35a327423")
 	   (:revdesc . "8ff0a19a9f40")
@@ -39488,7 +39644,17 @@
 	      (:maintainer "Gabriele Bozzola" . "sbozzolator@gmail.com"))])
  (ivy-erlang-complete .
 		      [(1 0 0 1 -4 20211019 447)
-		       nil "Erlang completion at point using ivy" tar
+		       ((async
+			 (1 9))
+			(counsel
+			 (0 13 4))
+			(ivy
+			 (0 13 4))
+			(erlang
+			 (19 2))
+			(emacs
+			 (25 1)))
+		       "Erlang context sensitive completion at point using ivy. It also support xref and eldoc" tar
 		       ((:url . "https://github.com/s-kostyaev/ivy-erlang-complete")
 			(:commit . "6913f6ef7c942a5a2c42bc17635d09c91353e7ca")
 			(:revdesc . "6913f6ef7c94")
@@ -39960,10 +40126,10 @@
 	  ((emacs
 	    (27 1))
 	   (fsm
-	    (0 2 0))
+	    (0 2))
 	   (srv
-	    (0 2 0)))
-	  "A minimal Jabber client" tar
+	    (0 2)))
+	  "A Jabber client for Emacs" tar
 	  ((:url . "https://codeberg.org/emacs-jabber/emacs-jabber")
 	   (:commit . "e766d84b81d5df6abc30fcbbb94f7c8640ea54e2")
 	   (:revdesc . "e766d84b81d5")
@@ -40846,7 +41012,19 @@
 	     (:maintainer "Steve Yegge" . "steve.yegge@gmail.com"))])
  (js2-refactor .
 	       [(0 8 0 1 -4 20210306 2003)
-		nil "The beginnings of a JavaScript refactoring library in emacs" tar
+		((js2-mode
+		  (20101228))
+		 (s
+		  (1 9 0))
+		 (multiple-cursors
+		  (1 0 0))
+		 (dash
+		  (1 0 0))
+		 (s
+		  (1 0 0))
+		 (yasnippet
+		  (0 9 0 1)))
+		"A JavaScript refactoring library for emacs" tar
 		((:url . "https://github.com/js-emacs/js2-refactor.el")
 		 (:commit . "1372f8449c620d6209173ac12bcb7ac4ce6a3651")
 		 (:revdesc . "1372f8449c62")
@@ -41714,7 +41892,7 @@
 	       [(0 0 4 1 -4 20211030 958)
 		((emacs
 		  (27)))
-		"Mode to open Keepass DB" tar
+		"Mode for KeePass DB" tar
 		((:url . "https://github.com/ifosch/keepass-mode")
 		 (:commit . "f432bb60f9f3bd027025140d723906dcabeefaef")
 		 (:revdesc . "f432bb60f9f3")
@@ -42715,15 +42893,13 @@
 		 (:maintainer "Henry Newcomer" . "a.cliche.email@gmail.com"))])
  (lambdapi-mode .
 		[(1 1 0 1 -4 20241110 1640)
-		 ((emacs
-		   (28 1))
-		  (eglot
+		 ((eglot
 		   (1 6))
 		  (math-symbol-lists
 		   (1 2 1))
 		  (highlight
 		   (20190710 1527)))
-		 "A major mode for editing Lambdapi source code" tar
+		 "A major mode to edit Lambdapi files" tar
 		 ((:url . "https://github.com/Deducteam/lambdapi")
 		  (:commit . "bd45582bb912bad97f614264ff3142d11a6399a1")
 		  (:revdesc . "bd45582bb912")
@@ -43997,7 +44173,19 @@
 	    (:maintainer "rubikitch" . "rubikitch@ruby-lang.org"))])
  (lispy .
 	[(0 27 0 1 -4 20230314 1738)
-	 nil "Vi-like Paredit" tar
+	 ((emacs
+	   (24 3))
+	  (ace-window
+	   (0 9 0))
+	  (iedit
+	   (0 9 9))
+	  (swiper
+	   (0 13 4))
+	  (hydra
+	   (0 14 0))
+	  (zoutline
+	   (0 2 0)))
+	 "Vi-like Paredit" tar
 	 ((:url . "https://github.com/abo-abo/lispy")
 	  (:commit . "fe44efd21573868638ca86fc8313241148fabbe3")
 	  (:revdesc . "fe44efd21573")
