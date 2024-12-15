@@ -2262,11 +2262,11 @@
 		      ("sakito" . "sakito@users.sourceforge.jp"))
 		     (:maintainer "sakito" . "sakito@users.sourceforge.jp"))])
  (apropospriate-theme .
-		      [(0 1 0 1 -4 20241119 1)
+		      [(0 1 0 1 -4 20241215 1911)
 		       nil "A colorful, low-contrast, light & dark theme set for Emacs with a fun name" tar
 		       ((:url . "https://github.com/waymondo/apropospriate-theme")
-			(:commit . "56c8c1b575106e72bcab2227fd73cf34f7f3df79")
-			(:revdesc . "56c8c1b57510")
+			(:commit . "1e8daa3e21e44a2fbc138db6fb38a915b4288479")
+			(:revdesc . "1e8daa3e21e4")
 			(:authors
 			 ("Justin Talbott" . "justin@waymondo.com"))
 			(:maintainers
@@ -4057,13 +4057,13 @@
 	    ("Vivek Das Mohapatra" . "vivek@etla.org"))
 	   (:maintainer "Vivek Das Mohapatra" . "vivek@etla.org"))])
  (bash-completion .
-		  [(0 1 0 1 -4 20241215 1641)
+		  [(0 1 0 1 -4 20241215 1717)
 		   ((emacs
 		     (25 3)))
 		   "Bash completion for the shell buffer" tar
 		   ((:url . "https://github.com/szermatt/emacs-bash-completion")
-		    (:commit . "b2c976cd04969f28f2c44d2913d489052781a951")
-		    (:revdesc . "b2c976cd0496")
+		    (:commit . "432492adffbd7ef706041ebb0475cf4d1d1f87a6")
+		    (:revdesc . "432492adffbd")
 		    (:keywords "convenience" "unix")
 		    (:authors
 		     ("Stephane Zermatten" . "szermatt@gmx.net"))
@@ -7186,20 +7186,6 @@
 		   (:maintainers
 		    ("Jay Morgan" . "jay@morganwastaken.com"))
 		   (:maintainer "Jay Morgan" . "jay@morganwastaken.com"))])
- (ceylon-mode .
-	      [(0 2 1 -4 20180606 1324)
-	       ((emacs
-		 (25)))
-	       "Major mode for editing Ceylon source code" tar
-	       ((:url . "https://github.com/lucaswerkmeister/ceylon-mode")
-		(:commit . "948515672bc596dc118e8e3ede3ede5ec6a3c95a")
-		(:revdesc . "948515672bc5")
-		(:keywords "languages" "ceylon")
-		(:authors
-		 ("Lucas Werkmeister" . "mail@lucaswerkmeister.de"))
-		(:maintainers
-		 ("Lucas Werkmeister" . "mail@lucaswerkmeister.de"))
-		(:maintainer "Lucas Werkmeister" . "mail@lucaswerkmeister.de"))])
  (cfengine-code-style .
 		      [(0 1 0 1 -4 20171111 1027)
 		       nil "C code style for CFEngine project" tar
@@ -11576,6 +11562,22 @@
 		 (:maintainers
 		  ("liuyinz" . "liuyinz@gmail.com"))
 		 (:maintainer "liuyinz" . "liuyinz@gmail.com"))])
+ (consult-vc-modified-files .
+			    [(0 1 0 1 -4 20241210 2248)
+			     ((emacs
+			       (28 1))
+			      (consult
+			       (0 9)))
+			     "Show git modified files in a vc project with consult" tar
+			     ((:url . "https://github.com/chmouel/consult-vc-modified-files")
+			      (:commit . "b38eb3b77ccbfedfd7e7da213a1a12ddedb5fe49")
+			      (:revdesc . "b38eb3b77ccb")
+			      (:keywords "vc" "convenience")
+			      (:authors
+			       ("Chmouel Boudjnah" . "chmouel@chmouel.com"))
+			      (:maintainers
+			       ("Chmouel Boudjnah" . "chmouel@chmouel.com"))
+			      (:maintainer "Chmouel Boudjnah" . "chmouel@chmouel.com"))])
  (consult-yasnippet .
 		    [(0 2 1 -4 20240314 1838)
 		     ((emacs
@@ -13021,6 +13023,20 @@
 		     (:maintainers
 		      ("Lassi Kortela" . "lassi@lassi.io"))
 		     (:maintainer "Lassi Kortela" . "lassi@lassi.io"))])
+ (current-window-only .
+		      [(0 1 0 1 -4 20241214 156)
+		       ((emacs
+			 (25 1)))
+		       "Open things only in the current window" tar
+		       ((:url . "https://github.com/FrostyX/current-window-only")
+			(:commit . "9f49b87915a4d6c398944ebe1445e35139726690")
+			(:revdesc . "9f49b87915a4")
+			(:keywords "frames")
+			(:authors
+			 ("Jakub Kadlčík" . "frostyx@email.cz"))
+			(:maintainers
+			 ("Jakub Kadlčík" . "frostyx@email.cz"))
+			(:maintainer "Jakub Kadlčík" . "frostyx@email.cz"))])
  (current-word-highlight .
 			 [(1 0 4 1 -4 20210323 1401)
 			  nil "Highlight the current word minor mode" tar
@@ -36568,6 +36584,20 @@
 	    (:maintainers
 	     ("Chris Done" . "chrisdone@gmail.com"))
 	    (:maintainer "Chris Done" . "chrisdone@gmail.com"))])
+ (hindu-calendar .
+		 [(0 1 0 1 -4 20241214 2300)
+		  ((emacs
+		    (24 3)))
+		  "Arithmetical traditional Hindu calendar (panchanga)" tar
+		  ((:url . "https://github.com/bdsatish/hindu-calendar")
+		   (:commit . "637605c848888f4921cbda7083230f7125d123bf")
+		   (:revdesc . "637605c84888")
+		   (:keywords "calendar" "panchanga" "hindu" "indian")
+		   (:authors
+		    ("B.D.Satish" . "bdsatish@gmail.com"))
+		   (:maintainers
+		    ("B.D.Satish" . "bdsatish@gmail.com"))
+		   (:maintainer "B.D.Satish" . "bdsatish@gmail.com"))])
  (hippie-exp-ext .
 		 [(0 1 1 -4 20160502 2326)
 		  nil "Extension of hippie-expand" tar
@@ -40950,6 +40980,20 @@
 	      (:maintainers
 	       ("Jakob Lind" . "karl.jakob.lind@gmail.com"))
 	      (:maintainer "Jakob Lind" . "karl.jakob.lind@gmail.com"))])
+ (js-pkg-mode .
+	      [(0 1 0 1 -4 20241211 744)
+	       ((emacs
+		 (25 1)))
+	       "Minor mode for working with javascript projects" tar
+	       ((:url . "https://github.com/ovistoica/js-pkg-mode")
+		(:commit . "d2a609a6cfa0a00d6a96e53e124542e464ccc192")
+		(:revdesc . "d2a609a6cfa0")
+		(:keywords "convenience" "project" "javascript" "package-manager")
+		(:authors
+		 ("Ovi Stoica" . "ovidiu.stoica1094@gmail.com"))
+		(:maintainers
+		 ("Ovi Stoica" . "ovidiu.stoica1094@gmail.com"))
+		(:maintainer "Ovi Stoica" . "ovidiu.stoica1094@gmail.com"))])
  (js-react-redux-yasnippets .
 			    [(0 0 2 1 -4 20200316 1144)
 			     ((emacs
@@ -43315,6 +43359,22 @@
 	(:maintainers
 	 ("Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com"))
 	(:maintainer "Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com"))])
+ (le-gpt .
+	 [(0 1 0 1 -4 20241212 1114)
+	  ((emacs
+	    (28 1))
+	   (markdown-mode
+	    (2 6)))
+	  "Emacs on steroids with GPT" tar
+	  ((:url . "https://github.com/AnselmC/le-gpt.el")
+	   (:commit . "3966cab122cdaf851de6d48c23257eb772487ce3")
+	   (:revdesc . "3966cab122cd")
+	   (:keywords "openai" "anthropic" "claude" "language" "copilot" "convenience" "tools")
+	   (:authors
+	    ("Andreas Stuhlmueller" . "andreas@ought.org"))
+	   (:maintainers
+	    ("Anselm Coogan" . "anselm.coogan@gmail.com"))
+	   (:maintainer "Anselm Coogan" . "anselm.coogan@gmail.com"))])
  (le-thesaurus .
 	       [(0 3 0 1 -4 20230112 1604)
 		((request
@@ -45553,7 +45613,7 @@
 	     ((emacs
 	       (25 1)))
 	     "A major mode for editing lurk files" tar
-	     ((:url . "https://github.com/argumentcomputer/lurk-emacs")
+	     ((:url . "https://github.com/lurk-lab/lurk-emacs")
 	      (:commit . "59a3f956944a5ddd43cfd57deeff6b647fc46554")
 	      (:revdesc . "59a3f956944a")
 	      (:keywords "languages" "lurk" "lisp")
