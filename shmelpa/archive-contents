@@ -46380,7 +46380,7 @@
 	    (:keywords "processes" "terminals"))])
  (majapahit-themes .
 		   [(1 0 0 1 -4 20221207 121)
-		    nil "Majapahit theme with two variants" tar
+		    nil "Color theme with a dark and light versions" tar
 		    ((:url . "https://github.com/emacsmirror/majapahit-themes")
 		     (:commit . "7200f16f0fd4cc18e8c7d82b62cc351b610609af")
 		     (:revdesc . "7200f16f0fd4"))])
@@ -46834,14 +46834,12 @@
 		  (:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
  (markdown-toc .
 	       [(0 1 5 1 -4 20241129 1248)
-		((emacs
-		  (27 1))
-		 (markdown-mode
-		  (2 1))
+		((s
+		  (1 9 0))
 		 (dash
 		  (2 11 0))
-		 (s
-		  (1 9 0)))
+		 (markdown-mode
+		  (2 1)))
 		"A simple TOC generator for markdown file" tar
 		((:url . "https://github.com/ardumont/markdown-toc")
 		 (:commit . "ba74a85ec94a638054ee65cbc8d95581946d018b")
@@ -49348,7 +49346,9 @@
 		  (:keywords "data" "mtg" "magic"))])
  (mu-cite .
 	  [(8 1 1 -4 20190803 439)
-	   nil "Yet another citation tool for GNU Emacs" tar
+	   ((flim
+	     (1 14 9)))
+	   "A library to provide MIME features" tar
 	   ((:url . "https://github.com/ksato9700/mu-cite")
 	    (:commit . "b2c83bbce4646d100b942f0f0de0877a8d47298c")
 	    (:revdesc . "b2c83bbce464")
@@ -49683,7 +49683,9 @@
 	       (:maintainer "Magnar Sveen" . "magnars@gmail.com"))])
  (multiple-cursors .
 		   [(1 4 0 1 -4 20241201 1841)
-		    nil "Multiple cursors for emacs" tar
+		    ((cl-lib
+		      (0 5)))
+		    "Multiple cursors for Emacs" tar
 		    ((:url . "https://github.com/magnars/multiple-cursors.el")
 		     (:commit . "46635e7f693560213b56ca8eca1adb13559672e5")
 		     (:revdesc . "46635e7f6935")
@@ -50323,7 +50325,7 @@
 	   [(0 99 2 1 -4 20180129 703)
 	    ((emacs
 	      (24)))
-	    "Major Mode for editing NCL scripts" tar
+	    "Major Mode for editing NCL scripts and other goodies" tar
 	    ((:url . "https://github.com/yyr/ncl-mode")
 	     (:commit . "602292712a9e6b7e7c25155978999e77d06b7338")
 	     (:revdesc . "602292712a9e")
@@ -51080,14 +51082,36 @@
 	     (:maintainer "Taichi" . "kawabata.taichi_at_gmail.com"))])
  (nnreddit .
 	   [(0 2 1 1 -4 20241014 1932)
-	    nil "Gnus backend for reddit" tar
+	    ((emacs
+	      (25 1))
+	     (request
+	      (0 3 3))
+	     (anaphora
+	      (1 0 4))
+	     (dash
+	      (2 18 1))
+	     (json-rpc
+	      (0 0 1))
+	     (virtualenvwrapper
+	      (20151123))
+	     (s
+	      (1 6 1)))
+	    "Gnus Backend For Reddit" tar
 	    ((:url . "https://github.com/dickmao/nnreddit")
 	     (:commit . "4f8f6e8d1bf584a2bdbb4e9039576ad361f9636d")
 	     (:revdesc . "4f8f6e8d1bf5")
 	     (:keywords "news"))])
  (nntwitter .
 	    [(0 1 -4 20230705 1110)
-	     nil "Gnus backend for twitter" tar
+	     ((emacs
+	       (25 1))
+	      (dash
+	       (20190401))
+	      (anaphora
+	       (20180618))
+	      (request
+	       (20190819)))
+	     "Gnus Backend For Twitter" tar
 	     ((:url . "https://github.com/dickmao/nntwitter")
 	      (:commit . "e27acca9beeb6645dd13545d42f6d4d97d59d82c")
 	      (:revdesc . "e27acca9beeb")
@@ -51623,7 +51647,19 @@
 	    (:maintainer "Joost Kremers" . "joostkremers@fastmail.fm"))])
  (nu-mode .
 	  [(0 8 5 1 -4 20190404 2032)
-	   nil "Modern Emacs Keybinding" tar
+	   ((undo-tree
+	     (0 6 5))
+	    (ace-window
+	     (0))
+	    (lv
+	     (0))
+	    (avy
+	     (0))
+	    (which-key
+	     (0))
+	    (transpose-frame
+	     (0)))
+	   "Modern Emacs Prompts Based Keybinding" tar
 	   ((:url . "https://github.com/pyluyten/emacs-nu")
 	    (:commit . "d5fb4d26d1b0bb383ea2827cc5af5dfb2a269d2b")
 	    (:revdesc . "d5fb4d26d1b0"))])
@@ -52931,7 +52967,7 @@
 		      [(0 1 4 1 -4 20150516 1419)
 		       ((svg-mode-line-themes
 			 (0)))
-		       "[No description available]" tar
+		       "A collection of beautiful SVG modelines" tar
 		       ((:url . "https://github.com/ocodo/ocodo-svg-modelines")
 			(:commit . "a6c5b9a7536c7a8fa3bd9d9dafdebc8d99903018")
 			(:revdesc . "a6c5b9a7536c")
@@ -53657,9 +53693,7 @@
 	      (:maintainer "Stephen Pegoraro" . "spegoraro@tutive.com"))])
  (org-analyzer .
 	       [(1 0 4 1 -4 20191001 1717)
-		((emacs
-		  (26)))
-		"Visualizes org-mode time tracking data" tar
+		nil "Org-analyzer is a tool that extracts time tracking data from org files" tar
 		((:url . "https://github.com/rksm/clj-org-analyzer")
 		 (:commit . "19da62aa4dcf1090be8f574f6f2d4c7e116163a8")
 		 (:revdesc . "19da62aa4dcf")
@@ -54469,7 +54503,11 @@
 		   (:maintainer "James Wong" . "jianwang.academic@gmail.com"))])
  (org-ehtml .
 	    [(0 1 0 1 -4 20220216 2054)
-	     nil "[No description available]" tar
+	     ((web-server
+	       (20140109 2200))
+	      (emacs
+	       (24 3)))
+	     "Export Org-mode files as editable web pages" tar
 	     ((:url . "https://github.com/eschulte/org-ehtml")
 	      (:commit . "419932d6dbce193b0d90b1ccf9bf643169d21f52")
 	      (:revdesc . "419932d6dbce")
@@ -54595,7 +54633,23 @@
 	       (:maintainer "repelliuss" . "repelliuss@gmail.com"))])
  (org-gcal .
 	   [(0 4 2 1 -4 20240426 2253)
-	    nil "Org sync with Google Calendar" tar
+	    ((aio
+	      (1 0))
+	     (alert
+	      (1 2))
+	     (elnode
+	      (20190702 1509))
+	     (emacs
+	      (26 1))
+	     (org
+	      (9 3))
+	     (persist
+	      (0 4))
+	     (request
+	      (20190901))
+	     (request-deferred
+	      (20181129)))
+	    "Org sync with Google Calendar" tar
 	    ((:url . "https://github.com/kidd/org-gcal.el")
 	     (:commit . "9f9d93e4f0d5863b1318e9e702e1ee6e841c2649")
 	     (:revdesc . "9f9d93e4f0d5")
@@ -54816,7 +54870,7 @@
 	    (8 0))
 	   (cl-lib
 	    (0 5)))
-	  "A tool used to view html generated by org-file immediately (lively)" tar
+	  "A tool used to view html (in browser) generated by org-file once the org-file changes" tar
 	  ((:url . "https://github.com/kuangdash/org-iv")
 	   (:commit . "7f2bb1b32647655fd9d6684f6f09dcc66b61b0cd")
 	   (:revdesc . "7f2bb1b32647")
@@ -55477,7 +55531,23 @@
 		(:keywords "org-outlook"))])
  (org-page .
 	   [(0 5 1 -4 20230829 942)
-	    nil "Static site generator based on org mode" tar
+	    ((ht
+	      (1 5))
+	     (simple-httpd
+	      (1 4 6))
+	     (mustache
+	      (0 22))
+	     (htmlize
+	      (1 47))
+	     (org
+	      (8 0))
+	     (dash
+	      (2 0 0))
+	     (cl-lib
+	      (0 5))
+	     (git
+	      (0 1 1)))
+	    "A static site generator based on org mode" tar
 	    ((:url . "https://github.com/emacsorphanage/org-page")
 	     (:commit . "7a73b110df12c29804d32ecfb051d3320dce3892")
 	     (:revdesc . "7a73b110df12")
@@ -56713,14 +56783,14 @@
 	     [(0 8 2 1 -4 20210314 1901)
 	      ((emacs
 		(24 3))
-	       (dash
-		(2 18 0))
-	       (s
-		(1 11 0))
+	       (request-deferred
+		(0 2 0))
 	       (deferred
 		 (0 4 0))
-	       (request-deferred
-		(0 2 0)))
+	       (s
+		(1 11 0))
+	       (dash
+		(2 18 0)))
 	      "Minor mode to synchronize org-mode buffer and trello board" tar
 	      ((:url . "https://github.com/org-trello/org-trello")
 	       (:commit . "9c1c94dff1a46631669023286078b887d077c305")
@@ -56965,9 +57035,7 @@
 		     (:maintainer "Yann Herklotz" . "git@yannherklotz.com"))])
  (org2blog .
 	   [(1 1 16 1 -4 20230501 2319)
-	    ((emacs
-	      (27 1))
-	     (htmlize
+	    ((htmlize
 	      (1 56))
 	     (hydra
 	      (0 15 0))
@@ -57054,7 +57122,23 @@
 	       (:maintainer "Antoine R. Dumont" . "antoine.romain.dumont@gmail.com"))])
  (org2web .
 	  [(0 1 1 -4 20210203 324)
-	   nil "Static site generator based on org mode" tar
+	   ((cl-lib
+	     (1 0))
+	    (ht
+	     (1 5))
+	    (mustache
+	     (0 22))
+	    (htmlize
+	     (1 47))
+	    (org
+	     (8 0))
+	    (dash
+	     (2 0 0))
+	    (el2org
+	     (0 10))
+	    (simple-httpd
+	     (0 1)))
+	   "A static site generator based on org mode" tar
 	   ((:url . "https://github.com/tumashu/org2web")
 	    (:commit . "6f5c5f0cc5c877ac3a383782bbe8751264d807b6")
 	    (:revdesc . "6f5c5f0cc5c8")
@@ -59958,7 +60042,9 @@
 	     (:maintainer "Dimitri Fontaine" . "dim@tapoueh.org"))])
  (ph .
      [(0 1 0 1 -4 20161029 1522)
-      nil "Easily open/close/switch groups of related files" tar
+      ((emacs
+	(24 3)))
+      "A global minor mode for managing multiple projects" tar
       ((:url . "https://github.com/gromnitsky/ph")
        (:commit . "a66e38637d1898b2ec31ee611033ac3f295fd97f")
        (:revdesc . "a66e38637d18")
@@ -61395,7 +61481,7 @@
 	     (:maintainer "David Kerschner" . "dkerschner@gmail.com"))])
  (pony-mode .
 	    [(0 3 2 1 -4 20170807 1522)
-	     nil "Minor mode for working with Django projects" tar
+	     nil "Minor mode for working with Django Projects" tar
 	     ((:url . "https://github.com/davidmiller/pony-mode")
 	      (:commit . "760684d30b6c234d1b88c9a4673a808f36f7f341")
 	      (:revdesc . "760684d30b6c")
@@ -61668,7 +61754,7 @@
 		    (:maintainer "Peiwen Lu" . "hi@peiwen.lu"))])
  (pov-mode .
 	   [(3 3 1 -4 20161115 743)
-	    nil "Major mode for Povray scene files" tar
+	    nil "Major mode for editing POV-Ray scene files" tar
 	    ((:url . "https://github.com/melmothx/pov-mode")
 	     (:commit . "9fc1db3aab7c27155674dd1a87ec62606035d074")
 	     (:revdesc . "9fc1db3aab7c")
@@ -61757,7 +61843,11 @@
 	       ("Guangwang Huang" . "whatacold@gmail.com")))])
  (ppd-sr-speedbar .
 		  [(0 0 6 1 -4 20151108 1224)
-		   nil "Sr Speedbar Adaptor for project-persist-drawer" tar
+		   ((sr-speedbar
+		     (20140914 2339))
+		    (project-persist-drawer
+		     (0 0 4)))
+		   "Sr Speedbar adaptor for project-persist-drawer" tar
 		   ((:url . "https://github.com/rdallasgray/ppd-sr-speedbar")
 		    (:commit . "19d3e924407f40a6bb38c8fe427a159af755adce")
 		    (:revdesc . "19d3e924407f")
@@ -62142,7 +62232,7 @@
 		      [(1 0 0 1 -4 20140426 1428)
 		       ((yasnippet
 			 (0 8 0)))
-		       "Snippets for the Processing major mode" tar
+		       "Snippets for processing-mode" tar
 		       ((:url . "https://github.com/ptrv/processing2-emacs")
 			(:commit . "6175b8eef76369c4b1b8608b8df9a37f14b1be5c")
 			(:revdesc . "6175b8eef763")
@@ -62301,7 +62391,9 @@
 		    (:keywords "project" "persistence"))])
  (project-persist-drawer .
 			 [(0 0 4 1 -4 20151108 1222)
-			  nil "Use a project drawer with project-persist" tar
+			  ((project-persist
+			    (0 3)))
+			  "Use a project drawer with project-persist" tar
 			  ((:url . "https://github.com/rdallasgray/project-persist-drawer")
 			   (:commit . "35bbe132a4fab6a0fec15ce6c0fd2fe6a4aa9626")
 			   (:revdesc . "35bbe132a4fa")
@@ -62646,7 +62738,11 @@
 	    (:maintainer "Engelke Eschner" . "tekai@gmx.li"))])
  (projmake-mode .
 		[(0 0 11 1 -4 20161031 1715)
-		 nil "Run build system for project" tar
+		 ((dash
+		   (20150611 922))
+		  (indicators
+		   (20130217 1405)))
+		 "Project oriented automatic builder and error highlighter, flymake for projects" tar
 		 ((:url . "https://github.com/ericbmerritt/projmake-mode")
 		  (:commit . "a897701f7e8f8cc11459ed44eb0e454db2a460c1")
 		  (:revdesc . "a897701f7e8f"))])
@@ -63097,7 +63193,9 @@
 	 (:maintainer "Hao Wang" . "amaikinono@gmail.com"))])
  (punpun-themes .
 		[(0 1 0 1 -4 20240929 2238)
-		 nil "Common color definitions for punpun themes" tar
+		 ((emacs
+		   (24 1)))
+		 "A set of bleak themes" tar
 		 ((:url . "https://depp.brause.cc/punpun-themes.git")
 		  (:commit . "a0b26442293e7afc6fd2ba9be199fc7b4f5138e3")
 		  (:revdesc . "a0b26442293e")
@@ -63144,7 +63242,9 @@
 		   (:maintainer "Stefan Möding" . "stm@kill-9.net"))])
  (purescript-mode .
 		  [(0 1 0 1 -4 20241210 1117)
-		   nil "A PureScript editing mode" tar
+		   ((emacs
+		     (25 1)))
+		   "A PureScript editing mode" tar
 		   ((:url . "https://github.com/purescript-emacs/purescript-mode")
 		    (:commit . "07e4d6ecfe677d595ed3759c912c0b262d886b98")
 		    (:revdesc . "07e4d6ecfe67")
@@ -63778,9 +63878,7 @@
 	       (:keywords "languages" "processes"))])
  (python-mode .
 	      [(6 3 1 1 -4 20240911 1346)
-	       ((emacs
-		 (24)))
-	       "Edit, debug, develop, run Python programs" tar
+	       nil "Python major mode" tar
 	       ((:url . "https://gitlab.com/python-mode-devs/python-mode")
 		(:commit . "16affa2f0f1a3b918547d665235a24bd57d4b9b2")
 		(:revdesc . "16affa2f0f1a")
@@ -63856,7 +63954,13 @@
 		     (:maintainer "Shuguang Sun" . "shuguang79@qq.com"))])
  (python-x .
 	   [(0 1 0 1 -4 20230117 1408)
-	    nil "Python.el extras for interactive evaluation" tar
+	    ((python
+	      (0 24))
+	     (folding
+	      (0))
+	     (cl-lib
+	      (0 5)))
+	    "Python.el extras for interactive evaluation" tar
 	    ((:url . "https://gitlab.com/wavexx/python-x.el")
 	     (:commit . "744924e7468200f3e8ac7ad60a496ad9d080308e")
 	     (:revdesc . "744924e74682")
@@ -64015,7 +64119,7 @@
 		(:keywords "languages" "multi-modes"))])
  (quasi-monochrome-theme .
 			 [(1 0 1 -4 20200415 705)
-			  nil "High contrast quasi monochrome color theme" tar
+			  nil "Quasi Monochrome theme" tar
 			  ((:url . "https://github.com/lbolla/emacs-quasi-monochrome")
 			   (:commit . "b38d71860fdea945e10e8a766ac9dfa1410ade67")
 			   (:revdesc . "b38d71860fde")
@@ -66288,7 +66392,9 @@
 		(:maintainer "Tad Lispy" . "tadeusz@lazurski.pl"))])
  (roguel-ike .
 	     [(0 1 0 1 -4 20240924 1706)
-	      nil "Main file for roguel-ike" tar
+	      ((popup
+		(0 5 0)))
+	      "A coffee-break roguelike" tar
 	      ((:url . "https://github.com/stevenremot/roguel-ike")
 	       (:commit . "4f3fe2bce0394f7f00201410d15c72847bd35b2e")
 	       (:revdesc . "4f3fe2bce039"))])
@@ -67110,7 +67216,7 @@
 		    (:maintainer "Kyure_A" . "twitter.com/kyureq"))])
  (sauron .
 	 [(0 2 1 1 -4 20201015 836)
-	  nil "A frame tracking events inside and outside your emacs buffers" tar
+	  nil "Track (erc/org/dbus/...) events and react to them" tar
 	  ((:url . "https://github.com/djcb/sauron")
 	   (:commit . "5daade4836da5b1b2ab26d84128d6c38328a5d52")
 	   (:revdesc . "5daade4836da")
@@ -67885,7 +67991,9 @@
 		      (:maintainer "Herwig Hochleitner" . "herwig@bendlas.net"))])
  (semi .
        [(1 14 7 1 -4 20170314 1219)
-	nil "MIME features" tar
+	((flim
+	  (1 14 9)))
+	"A library to provide MIME features" tar
 	((:url . "https://github.com/emacsmirror/semi")
 	 (:commit . "425098e6a57e7668ba2eeccba31f73e59c3d3a7f")
 	 (:revdesc . "425098e6a57e")
@@ -68427,7 +68535,9 @@
 		       (:maintainer "10sr" . "8.slashes+el[at]gmail[dot]com"))])
  (shell-switcher .
 		 [(0 1 6 1 -4 20210509 1045)
-		  nil "Provide fast switching between shell buffers" tar
+		  ((emacs
+		    (24)))
+		  "Provide fast switching between shell buffers" tar
 		  ((:url . "https://github.com/DamienCassou/shell-switcher")
 		   (:commit . "ed74b20fa12935be0068765f5bc8de97b92a8020")
 		   (:revdesc . "ed74b20fa129")
@@ -68509,7 +68619,9 @@
 		   (:maintainer "Dustin Fechner" . "dfe@rtrn.io"))])
  (shen-elisp .
 	     [(19 2 -4 0 0 1 1 -4 20221211 1313)
-	      nil "An implementation of the Shen programming language" tar
+	      ((emacs
+		(24 4)))
+	      "Shen implementation in Elisp" tar
 	      ((:url . "https://github.com/deech/shen-elisp")
 	       (:commit . "957ab44654fc7a7cc1b78181d244fa25166f9b09")
 	       (:revdesc . "957ab44654fc")
@@ -69342,7 +69454,13 @@
 		(:maintainer "Steve Purcell" . "steve@sanityinc.com"))])
  (skewer-mode .
 	      [(1 8 0 1 -4 20200304 1142)
-	       nil "Live browser JavaScript, CSS, and HTML interaction" tar
+	       ((simple-httpd
+		 (1 4 0))
+		(js2-mode
+		 (20090723))
+		(emacs
+		 (24)))
+	       "Live browser JavaScript, CSS, and HTML interaction" tar
 	       ((:url . "https://github.com/skeeto/skewer-mode")
 		(:commit . "e5bed351939c92a1f788f78398583c2f83f1bb3c")
 		(:revdesc . "e5bed351939c")
@@ -69392,15 +69510,17 @@
  (slack .
 	[(0 1 -4 20241210 1543)
 	 ((websocket
-	   (1 12))
+	   (1 8))
 	  (request
-	   (0 3 2))
+	   (0 2 0))
+	  (oauth2
+	   (0 10))
 	  (circe
-	   (2 11))
+	   (2 2))
 	  (alert
 	   (1 2))
 	  (emojify
-	   (1 2 1))
+	   (0 2))
 	  (emacs
 	   (25 1))
 	  (dash
@@ -69409,7 +69529,7 @@
 	   (1 13 1))
 	  (ts
 	   (0 3)))
-	 "Slack client" tar
+	 "Slack client for Emacs" tar
 	 ((:url . "https://github.com/emacs-slack/emacs-slack")
 	  (:commit . "cc81aa05e32c7a62deb4a7951328af7e15898a7b")
 	  (:revdesc . "cc81aa05e32c")
@@ -69983,7 +70103,11 @@
 		 (:maintainer "Felix Chern" . "idryman@gmail.com"))])
  (smartparens .
 	      [(1 11 0 1 -4 20240713 1002)
-	       nil "Automatic insertion, wrapping and paredit-like navigation with user defined pairs" tar
+	       ((dash
+		 (2 13 0))
+		(cl-lib
+		 (0 3)))
+	       "Automatic insertion, wrapping and paredit-like navigation with user defined pairs" tar
 	       ((:url . "https://github.com/Fuco1/smartparens")
 		(:commit . "c7519a1b69f196050a13e2230b7532893b077086")
 		(:revdesc . "c7519a1b69f1")
@@ -70229,7 +70353,7 @@
 		     (:maintainer "Adam Spiers" . "emacs-ss@adamspiers.org"))])
  (smotitah .
 	   [(0 0 0 1 -4 20150218 1030)
-	    nil "Modular configuration framework for Emacs" tar
+	    nil "Modular emacs configuration framework" tar
 	    ((:url . "https://github.com/laynor/smotitah")
 	     (:commit . "f9ab562128a5460549d016913533778e8c94bcf3")
 	     (:revdesc . "f9ab562128a5")
@@ -70910,9 +71034,7 @@
 			    (:maintainer "Dominic Charlesworth" . "dgc336@gmail.com"))])
  (spacemacs-theme .
 		  [(0 2 1 -4 20241101 1030)
-		   ((emacs
-		     (24)))
-		   "Color theme with a dark and light versions" tar
+		   nil "Color theme with a dark and light versions" tar
 		   ((:url . "https://github.com/nashamri/spacemacs-theme")
 		    (:commit . "6c74684c4d55713c8359bedf1936e429918a8c33")
 		    (:revdesc . "6c74684c4d55")
@@ -71017,7 +71139,7 @@
 		  (:maintainer "Danny McClanahan" . "danieldmcclanahan@gmail.com"))])
  (speechd-el .
 	     [(2 12 1 -4 20240513 1716)
-	      nil "Info file for package managers" tar
+	      nil "Client to speech synthesizers and Braille displays" tar
 	      ((:url . "https://github.com/brailcom/speechd-el")
 	       (:commit . "ac7497e394bf7d46e0b2c27570f5507f6a50a157")
 	       (:revdesc . "ac7497e394bf")
@@ -71115,10 +71237,10 @@
 		    (:maintainer "Kostafey" . "kostafey@gmail.com"))])
  (sphinx-mode .
 	      [(0 1 0 1 -4 20220417 1552)
-	       ((dash
-		 (2 14 0))
-		(f
-		 (0 20)))
+	       ((f
+		 (0 20 0))
+		(dash
+		 (2 14 1)))
 	       "Minor mode providing sphinx support" tar
 	       ((:url . "https://github.com/Fuco1/sphinx-mode")
 		(:commit . "77ca51adf9ee877f3a8f43e744f59e650772f121")
@@ -71665,7 +71787,7 @@
 	  (:maintainer "Sylvain Rousseau" . "thisirsatgmaildotcom"))])
  (status .
 	 [(0 3 1 -4 20151230 1408)
-	  nil "Notification area support for Emacs" tar
+	  nil "This package adds support for status icons to Emacs" tar
 	  ((:url . "https://github.com/tromey/emacs-status")
 	   (:commit . "b62c74bf272566f82a68622f29fb9edafea0f241")
 	   (:revdesc . "b62c74bf2725")
@@ -72207,7 +72329,7 @@
 	     (:maintainer "Aaron Bieber" . "aaron@aaronbieber.com"))])
  (suomalainen-kalenteri .
 			[(2023 1 2 1 -4 20230102 904)
-			 nil "Finnish holidays for Emacs calendar" tar
+			 nil "Finnish national and Christian holidays for calendar" tar
 			 ((:url . "https://github.com/tlikonen/suomalainen-kalenteri")
 			  (:commit . "95d8b7f9b404c749831d7b4e0e396c76bd822015")
 			  (:revdesc . "95d8b7f9b404")
@@ -72822,7 +72944,9 @@
 	       (:maintainer "Katherine Whitlock" . "toroidalcode@gmail.com"))])
  (synosaurus .
 	     [(0 2 0 1 -4 20191125 552)
-	      nil "An Emacs frontend for thesauri" tar
+	      ((cl-lib
+		(0 5)))
+	      "An extensible thesaurus supporting lookup and substitution" tar
 	      ((:url . "https://github.com/hpdeifel/synosaurus")
 	       (:commit . "14d34fc92a77c3a916b4d58400424c44ae99cd81")
 	       (:revdesc . "14d34fc92a77")
@@ -73299,9 +73423,7 @@
 		     (:maintainer "Julien Barnier" . "julien@nozav.org"))])
  (tao-theme .
 	    [(1 1 3 1 -4 20240615 517)
-	     ((cl-lib
-	       (0 5)))
-	     "Tao of EMACS grayscale color theme" tar
+	     nil "This package provides two parametrized uncoloured color themes for Emacs: tao-yin and tao-yang" tar
 	     ((:url . "https://github.com/11111000000/tao-theme-emacs")
 	      (:commit . "cd8ac4aee9fff55bc092ce78d93bd40517fa2c2a")
 	      (:revdesc . "cd8ac4aee9ff")
@@ -76133,7 +76255,13 @@
 	   (:maintainer "Federico Builes" . "federico.builes@gmail.com"))])
  (tumblesocks .
 	      [(0 0 6 1 -4 20191014 356)
-	       nil "An Emacs tumblr client" tar
+	       ((htmlize
+		 (1 39))
+		(oauth
+		 (1 0 3))
+		(markdown-mode
+		 (1 8 1)))
+	       "An Emacs tumblr client" tar
 	       ((:url . "https://github.com/gcr/tumblesocks")
 		(:commit . "0e4c3847e31a59d405b9927107a23dde9531d744")
 		(:revdesc . "0e4c3847e31a")
@@ -78653,10 +78781,10 @@
 	(:keywords "w3m" "www" "hypermedia"))])
  (wacspace .
 	   [(0 4 2 1 -4 20180311 2350)
-	    ((emacs
-	      (24))
-	     (dash
-	      (1 2 0)))
+	    ((dash
+	      (1 2 0))
+	     (cl-lib
+	      (0 2)))
 	    "The WACky WorkSPACE manager for emACS" tar
 	    ((:url . "https://github.com/shosti/wacspace.el")
 	     (:commit . "54d19aab6fd2bc5945b7ffc58104e695064927e2")
@@ -78927,7 +79055,11 @@
 	     (:maintainer "Christopher Wellons" . "wellons@nullprogram.com"))])
  (weather-metno .
 		[(0 1 0 1 -4 20230129 1540)
-		 nil "Weather data from met.no in Emacs" tar
+		 ((emacs
+		   (24))
+		  (cl-lib
+		   (0 3)))
+		 "Weather data from met.no in Emacs" tar
 		 ((:url . "https://github.com/ruediger/weather-metno-el")
 		  (:commit . "58b3aa479d85b4b38eb233ac2fbac40faf906f4c")
 		  (:revdesc . "58b3aa479d85")
@@ -79164,7 +79296,15 @@
 	     (:maintainer "Anders Eurenius" . "aes@spotify.com"))])
  (weechat .
 	  [(0 1 0 1 -4 20190520 1551)
-	   nil "[No description available]" tar
+	   ((s
+	     (1 3 1))
+	    (cl-lib
+	     (0 2))
+	    (emacs
+	     (24))
+	    (tracking
+	     (1 2)))
+	   "Chat via WeeChat's relay protocol in Emacs" tar
 	   ((:url . "https://github.com/the-kenny/weechat.el")
 	    (:commit . "d9a13306ea8be27367f92e9202d116a88fa1f441")
 	    (:revdesc . "d9a13306ea8b")
@@ -80094,7 +80234,9 @@
 	    (:maintainer "Fanael Linithien" . "fanael4@gmail.com"))])
  (wordnut .
 	  [(0 0 2 1 -4 20180313 443)
-	   nil "[No description available]" tar
+	   ((emacs
+	     (24 4)))
+	   "Major mode interface to WordNet" tar
 	   ((:url . "https://github.com/gromnitsky/wordnut")
 	    (:commit . "feac531404041855312c1a046bde7ea18c674915")
 	    (:revdesc . "feac53140404"))])
@@ -82003,9 +82145,11 @@
 	  (:maintainer "Mohammad Pedramfar" . "https://github.com/mpedramfar"))])
  (zotxt .
 	[(5 0 5 1 -4 20240203 647)
-	 ((emacs
-	   (24 3)))
-	 "Interface emacs with Zotero via the zotxt extension" tar
+	 ((request
+	   (0 3 2))
+	  (deferred
+	    (0 5 1)))
+	 "Tools to integrate emacs with Zotero via the zotxt plugin" tar
 	 ((:url . "https://gitlab.com/egh/zotxt-emacs")
 	  (:commit . "7eae5196dbe6fa3045b31412538ce4a81204abc4")
 	  (:revdesc . "7eae5196dbe6")
