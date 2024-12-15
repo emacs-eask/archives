@@ -66562,17 +66562,26 @@
 	    ("daichi.hirata" . "hirata.daichiatgmail.com"))
 	   (:maintainer "daichi.hirata" . "hirata.daichiatgmail.com"))])
  (rpm-spec-mode .
-		[(0 16 1 -4 20160710 1136)
-		 nil "RPM spec file editing commands for Emacs/XEmacs" tar
-		 ((:url . "https://github.com/stigbjorlykke/rpm-spec-mode")
-		  (:commit . "c1c38050c48ea330c7cea632b8785d66daeefb2b")
-		  (:revdesc . "c1c38050c48e")
-		  (:keywords "unix" "languages")
+		[(0 1 0 1 -4 20241209 2001)
+		 ((emacs
+		   (27 1)))
+		 "RPM spec mode for Emacs/XEmacs" tar
+		 ((:url . "https://github.com/Thaodan/rpm-spec-mode")
+		  (:commit . "283d2aac4ede343586a1fb9e9d2a5917f34809a1")
+		  (:revdesc . "283d2aac4ede")
+		  (:keywords "unix" "languages" "rpm")
 		  (:authors
-		   (nil . "stig@bjorlykke.org"))
+		   (nil . "stig@bjorlykke.org")
+		   ("Tore Olsen" . "toreo@tihlde.org")
+		   ("Steve Sanbeg" . "sanbeg@dset.com")
+		   ("Tim Powers" . "timp@redhat.com")
+		   ("Trond Eivind Glomsrød" . "teg@redhat.com")
+		   ("Chmouel Boudjnah" . "chmouel@mandrakesoft.com")
+		   ("Ville Skyttä" . "ville.skytta@iki.fi")
+		   ("Adam Spiers" . "elisp@adamspiers.org"))
 		  (:maintainers
-		   (nil . "stig@bjorlykke.org"))
-		  (:maintainer nil . "stig@bjorlykke.org"))])
+		   ("Björn Bidar" . "bjorn.bidar@thaodan.de"))
+		  (:maintainer "Björn Bidar" . "bjorn.bidar@thaodan.de"))])
  (rpn-calc .
 	   [(1 1 1 1 -4 20210306 426)
 	    ((popup
@@ -74110,6 +74119,20 @@
 		  (:maintainers
 		   ("Giap Tran" . "txgvnn@gmail.com"))
 		  (:maintainer "Giap Tran" . "txgvnn@gmail.com"))])
+ (terraform-docs .
+		 [(0 1 0 1 -4 20241202 935)
+		  ((emacs
+		    (27 1)))
+		  "Integrate terraform-docs" tar
+		  ((:url . "https://github.com/loispostula/terraform-docs.el")
+		   (:commit . "ac6241c5089376faad0a1f2c0aecaac6a2ffe6fd")
+		   (:revdesc . "ac6241c50893")
+		   (:keywords "terraform" "tools" "docs")
+		   (:authors
+		    ("Lois Postula" . "lois@postu.la"))
+		   (:maintainers
+		    ("Lois Postula" . "lois@postu.la"))
+		   (:maintainer "Lois Postula" . "lois@postu.la"))])
  (terraform-mode .
 		 [(0 6 1 -4 20240801 921)
 		  ((emacs
