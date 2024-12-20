@@ -2238,14 +2238,16 @@
 	(:keywords "languages" "lisp" "sly")
 	(:commit . "742355f7554ab6c46e5c1c9bdb89068f55359eaa"))])
  (smartparens .
-	      [(1 11 0 0 20240713 100215)
-	       nil "Automatic insertion, wrapping and paredit-like navigation with user defined pairs." tar
+	      [(1 11 0 0 20241220 125445)
+	       ((dash
+		 (2 13 0)))
+	       "Automatic insertion, wrapping and paredit-like navigation with user defined pairs." tar
 	       ((:url . "https://github.com/Fuco1/smartparens")
 		(:keywords "abbrev" "convenience" "editing")
 		(:maintainer "Matus Goljer" . "matus.goljer@gmail.com")
 		(:authors
 		 ("Matus Goljer" . "matus.goljer@gmail.com"))
-		(:commit . "c7519a1b69f196050a13e2230b7532893b077086"))])
+		(:commit . "b0d935c11813bcd40f8d35bae8800e0741334c29"))])
  (solarized-theme .
 		  [(2 0 1 0 20240725 161711)
 		   ((emacs

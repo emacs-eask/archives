@@ -944,7 +944,7 @@
 		 (:url . "https://elpa.gnu.org/packages/cycle-quotes.html")
 		 (:commit . "c1ef993f8c66fec71b10d70eb7a2cd0c416aaa12"))])
  (dape .
-       [(0 18 0 0 20241216 220230)
+       [(0 18 0 0 20241220 172330)
 	((emacs
 	  (29 1))
 	 (jsonrpc
@@ -952,7 +952,7 @@
 	"Debug Adapter Protocol for Emacs" tar
 	((:url . "https://github.com/svaante/dape")
 	 (:maintainer "Daniel Pettersson" . "daniel@dpettersson.net")
-	 (:commit . "4523745b583fe5049c8831c61d748fb1abb949da"))])
+	 (:commit . "331de080a662d4d2a97f21a37a7421f3470e83af"))])
  (darkroom .
 	   [(0 3 0 20200507 173652)
 	    ((cl-lib
@@ -1071,6 +1071,19 @@
 		       (:authors
 			("Aleksandr Vityazev" . "avityazev@disroot.org"))
 		       (:commit . "3a4819f76c2af3437b95d5cee46b7e0252a3a8f3"))])
+ (dicom .
+	[(0 1 0 20241220 204823)
+	 ((emacs
+	   (28 1))
+	  (compat
+	   (30)))
+	 "DICOM viewer" tar
+	 ((:url . "https://github.com/minad/dicom")
+	  (:keywords "multimedia" "hypermedia" "files")
+	  (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
+	  (:authors
+	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
+	  (:commit . "fc2eab62c7c3d18b06822685c093b2a97c32f5c2"))])
  (dict-tree .
 	    [(0 17 0 20231015 24654)
 	     ((trie
@@ -1201,7 +1214,7 @@
 	 (:url . "https://elpa.gnu.org/packages/djvu.html")
 	 (:commit . "1251c94f85329de9f957408d405742023f6c50e2"))])
  (do-at-point .
-	      [(0 1 2 0 20240625 155102)
+	      [(0 1 2 0 20241220 111054)
 	       ((emacs
 		 (26 1)))
 	       "Generic context-sensitive action dispatcher." tar
@@ -1210,7 +1223,7 @@
 		(:maintainer "Philip Kaludercic" . "~pkal/public-inbox@lists.sr.ht")
 		(:authors
 		 ("Philip Kaludercic" . "philipk@posteo.net"))
-		(:commit . "da0742df74cbb36347aefd5dcb17d674ee4846d3"))])
+		(:commit . "c8b95d4d5dcfbebda4cd9f9c516f416ee9f48eea"))])
  (doc-toc .
 	  [(1 2 0 20230409 212954)
 	   ((emacs
@@ -3335,7 +3348,7 @@
 	    ("Junpeng Qiu" . "qjpchmail@gmail.com"))
 	   (:commit . "2cbbbc2254aa7bcaa4fb5e07c8c1bf2f381dba26"))])
  (parser-generator .
-		   [(0 2 3 0 20241214 83947)
+		   [(0 2 4 0 20241220 142732)
 		    ((emacs
 		      (26)))
 		    "Parser Generator library" tar
@@ -3344,7 +3357,7 @@
 		     (:maintainer "Christian Johansson" . "christian@cvj.se")
 		     (:authors
 		      ("Christian Johansson" . "christian@cvj.se"))
-		     (:commit . "37732431e129f380d254a4d0d4f6c760975e9399"))])
+		     (:commit . "06458c9c925a07eb548d1c1ac6502ed7ca320e87"))])
  (path-iterator .
 		[(1 0 0 20221221 81414)
 		 ((emacs
@@ -4187,7 +4200,7 @@
 		      ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		     (:commit . "38f420d8567a816365258a59201a7b34943934c2"))])
  (speedrect .
-	    [(0 7 0 20241219 85730)
+	    [(0 7 0 20241220 133155)
 	     ((emacs
 	       (29 1))
 	      (compat
@@ -4198,7 +4211,7 @@
 	      (:maintainer "JD Smith" . "jdtsmith+elpa@gmail.com")
 	      (:authors
 	       ("JD Smith" . "jdtsmith+elpa@gmail.com"))
-	      (:commit . "7b6b487c1b15986ed169a6e84bf11cc35bea41fb"))])
+	      (:commit . "ec3e08544494838e0e6c476d87966f14180bd5e4"))])
  (spinner .
 	  [(1 7 4 0 20220915 94959)
 	   ((emacs
