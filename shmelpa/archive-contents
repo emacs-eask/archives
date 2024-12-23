@@ -14530,6 +14530,22 @@
 		   (:commit . "3254ab10cbf0078c7162557dd1f68dac28459cf9")
 		   (:revdesc . "3254ab10cbf0")
 		   (:keywords "emacs-w3m" "w3m" "dictionary"))])
+ (dicom .
+	[(0 1 0 1 -4 20241223 1330)
+	 ((emacs
+	   (28 1))
+	  (compat
+	   (30)))
+	 "DICOM viewer - Digital Imaging & Communications in Medicine" tar
+	 ((:url . "https://github.com/minad/dicom")
+	  (:commit . "95ec2a5c049b766fc91f4e24807b404ad9451d7f")
+	  (:revdesc . "95ec2a5c049b")
+	  (:keywords "multimedia" "hypermedia" "files")
+	  (:authors
+	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
+	  (:maintainers
+	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
+	  (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de"))])
  (dictcc .
 	 [(1 0 2 1 -4 20221231 1703)
 	  ((emacs
@@ -45870,7 +45886,7 @@
 	       (:revdesc . "441389f75bdf")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20241222 1752)
+	[(0 1 0 1 -4 20241223 650)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -45887,8 +45903,8 @@
 	   (3 4 3)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "f4c9753d81b030f520061ebde4279dc9f433a75a")
-	  (:revdesc . "f4c9753d81b0")
+	  (:commit . "bfbab898a80e7bce839f65f1985076e1056aeddf")
+	  (:revdesc . "bfbab898a80e")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
