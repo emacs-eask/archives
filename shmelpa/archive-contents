@@ -11686,6 +11686,31 @@
 	      (:maintainers
 	       ("Noah Peart" . "noah.v.peart@gmail.com"))
 	      (:maintainer "Noah Peart" . "noah.v.peart@gmail.com"))])
+ (copilot .
+	  [(0 1 0 1 -4 20241214 1652)
+	   ((emacs
+	     (27 2))
+	    (s
+	     (1 12 0))
+	    (dash
+	     (2 19 1))
+	    (editorconfig
+	     (0 8 2))
+	    (jsonrpc
+	     (1 0 14))
+	    (f
+	     (0 20 0)))
+	   "An unofficial Copilot plugin" tar
+	   ((:url . "https://github.com/copilot-emacs/copilot.el")
+	    (:commit . "b7bff7b934837744688fd74191ecffb83b3bcc05")
+	    (:revdesc . "b7bff7b93483")
+	    (:keywords "convenience" "copilot")
+	    (:authors
+	     ("zerol" . "z@zerol.me"))
+	    (:maintainers
+	     ("Jen-Chieh" . "jcs090218@gmail.com")
+	     ("Rakotomandimby Mihamina" . "mihamina.rakotomandimby@rktmb.org"))
+	    (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (copilot-chat .
 	       [(0 1 0 1 -4 20241210 2034)
 		((request
@@ -15787,15 +15812,15 @@
 		  ("Jose G Perez Taveras" . "josegpt27@gmail.com"))
 		 (:maintainer "Jose G Perez Taveras" . "josegpt27@gmail.com"))])
  (disproject .
-	     [(0 1 0 1 -4 20241218 426)
+	     [(0 1 0 1 -4 20241222 2157)
 	      ((emacs
 		(29 4))
 	       (transient
 		(0 8 0)))
 	      "Dispatch project commands with Transient" tar
 	      ((:url . "https://github.com/aurtzy/disproject")
-	       (:commit . "b1b90428e85f6bf986ba33ef1750aea9961d49ef")
-	       (:revdesc . "b1b90428e85f")
+	       (:commit . "0fe2242cdbc239f3d4c88daa5b9b3c94a0e7a1e8")
+	       (:revdesc . "0fe2242cdbc2")
 	       (:keywords "convenience" "files" "vc")
 	       (:authors
 		("aurtzy" . "aurtzy@gmail.com"))
@@ -41312,13 +41337,13 @@
 	   ("Johan Dykstrom" . "jody4711-sf@yahoo.se"))
 	  (:maintainer "Johan Dykstrom" . "jody4711-sf@yahoo.se"))])
  (jtsx .
-       [(0 5 1 1 -4 20240715 2002)
+       [(0 1 0 1 -4 20241222 2209)
 	((emacs
 	  (29 1)))
 	"Extends JSX/TSX built-in support" tar
 	((:url . "https://github.com/llemaitre19/jtsx")
-	 (:commit . "e81259a7584619ce3266a2d532f674ef45ee4274")
-	 (:revdesc . "e81259a75846")
+	 (:commit . "bf0cd9ffc631cc2a3205e669b365e646c15523c4")
+	 (:revdesc . "bf0cd9ffc631")
 	 (:keywords "languages")
 	 (:authors
 	  ("Loïc Lemaître" . "loic.lemaitre@gmail.com"))
@@ -42306,6 +42331,15 @@
 		 (:maintainers
 		  ("James Elliott" . "james@brunchboy.com"))
 		 (:maintainer "James Elliott" . "james@brunchboy.com"))])
+ (kill-dollar-mode .
+		   [(0 1 0 1 -4 20241217 1947)
+		    ((emacs
+		      (27 1)))
+		    "Remove leading $ from shell-script-like text" tar
+		    ((:url . "https://github.com/sandinmyjoints/kill-dollar-mode")
+		     (:commit . "e51c076f93605c5a651b549731ccfc85a2564aca")
+		     (:revdesc . "e51c076f9360")
+		     (:keywords "convenience" "tools"))])
  (kill-file-path .
 		 [(1 0 1 -4 20230306 1041)
 		  ((emacs
@@ -48444,6 +48478,24 @@
 		  (:maintainers
 		   ("Shihpin Tseng" . "deftsp@gmail.com"))
 		  (:maintainer "Shihpin Tseng" . "deftsp@gmail.com"))])
+ (moc .
+      [(0 1 0 1 -4 20241218 618)
+       ((emacs
+	 (29 4))
+	(hide-mode-line
+	 (1 0 3))
+	(transient
+	 (0 7 2)))
+       "Master of Ceremonies" tar
+       ((:url . "https://github.com/positron-solutions/moc")
+	(:commit . "a6a076f315461d422d202bae57ebfb52c5ddbb05")
+	(:revdesc . "a6a076f31546")
+	(:keywords "convenience" "outline")
+	(:authors
+	 ("Positron Solutions" . "contact@positron.solutions"))
+	(:maintainers
+	 ("Positron Solutions" . "contact@positron.solutions"))
+	(:maintainer "Positron Solutions" . "contact@positron.solutions"))])
  (mocha .
 	[(1 1 1 -4 20200729 1130)
 	 ((js2-mode
@@ -52909,6 +52961,20 @@
 		  ((:url . "https://github.com/mswift42/obsidian-theme")
 		   (:commit . "f45efb2ebe9942466c1db6abbe2d0e6847b785ea")
 		   (:revdesc . "f45efb2ebe99"))])
+ (ocaml-eglot .
+	      [(0 1 0 1 -4 20241216 1636)
+	       ((emacs
+		 (29 1)))
+	       "An OCaml companion for Eglot" tar
+	       ((:url . "https://github.com/tarides/ocaml-eglot")
+		(:commit . "5c2baaccfac4d6bac45f1a7138d4533f31a3a6fc")
+		(:revdesc . "5c2baaccfac4")
+		(:keywords "ocaml" "languages")
+		(:authors
+		 ("Xavier Van de Woestyne" . "xaviervdw@gmail.com"))
+		(:maintainers
+		 ("Xavier Van de Woestyne" . "xaviervdw@gmail.com"))
+		(:maintainer "Xavier Van de Woestyne" . "xaviervdw@gmail.com"))])
  (ocaml-ts-mode .
 		[(0 1 0 1 -4 20230820 1946)
 		 ((emacs
@@ -58533,6 +58599,22 @@
        (:maintainers
 	("Gareth Rees" . "gdr@garethrees.org"))
        (:maintainer "Gareth Rees" . "gdr@garethrees.org"))])
+ (p4-ts-mode .
+	     [(0 1 0 1 -4 20241215 2358)
+	      ((emacs
+		(29 1))
+	       (xcscope
+		(1 0)))
+	      "Major mode for the P4_16 programming language" tar
+	      ((:url . "https://github.com/oxidecomputer/p4-ts-mode")
+	       (:commit . "a2b8a0ecde12b23487dff2bb85b2a9dcd1962cb8")
+	       (:revdesc . "a2b8a0ecde12")
+	       (:keywords "languages" "p4_16" "p4")
+	       (:authors
+		("Zeeshan Lakhani" . "zeeshan@oxidecomputer.com"))
+	       (:maintainers
+		("Zeeshan Lakhani" . "zeeshan@oxidecomputer.com"))
+	       (:maintainer "Zeeshan Lakhani" . "zeeshan@oxidecomputer.com"))])
  (pabbrev .
 	  [(4 3 0 1 -4 20240617 1622)
 	   ((emacs
@@ -66908,6 +66990,15 @@
 	     (:maintainers
 	      ("Sune Simonsen" . "sune@we-knowhow.dk"))
 	     (:maintainer "Sune Simonsen" . "sune@we-knowhow.dk"))])
+ (russian-calendar .
+		   [(0 1 0 1 -4 20241221 2203)
+		    ((emacs
+		      (29 1)))
+		    "Russian holidays and conferences. Updated 2024-11-22" tar
+		    ((:url . "https://codeberg.org/Anoncheg/emacs-russian-calendar")
+		     (:commit . "984f568abcbfa29ec13119c8eb13da365a502327")
+		     (:revdesc . "984f568abcbf")
+		     (:keywords "calendar" "holidays"))])
  (russian-holidays .
 		   [(0 4 1 -4 20170109 2140)
 		    nil "Russian holidays for the calendar" tar
@@ -72840,6 +72931,19 @@
 		   (:maintainers
 		    ("wolray" . "wolray@foxmail.com"))
 		   (:maintainer "wolray" . "wolray@foxmail.com"))])
+ (symbol-overlay-mc .
+		    [(0 1 0 1 -4 20241216 1436)
+		     ((emacs
+		       (28 1))
+		      (multiple-cursors
+		       (1 4 0))
+		      (symbol-overlay
+		       (4 1)))
+		     "Mark highlighted symbols with multiple cursors" tar
+		     ((:url . "https://github.com/xenodium/symbol-overlay-mc")
+		      (:commit . "188fa07fe5cc142dbabcd2b4a102a9ec5f132839")
+		      (:revdesc . "188fa07fe5cc")
+		      (:keywords "convenience"))])
  (symbolist .
 	    [(0 1 0 1 -4 20211107 1615)
 	     ((emacs
@@ -77500,6 +77604,21 @@
 	    (:maintainers
 	     ("Kan-Ru Chen" . "kanru@kanru.info"))
 	    (:maintainer "Kan-Ru Chen" . "kanru@kanru.info"))])
+ (uv-mode .
+	  [(0 1 0 1 -4 20241216 640)
+	   ((emacs
+	     (25 1))
+	    (pythonic
+	     (0 1 0)))
+	   "Integrate uv with python-mode" tar
+	   ((:url . "https://github.com/z80dev/uv-mode")
+	    (:commit . "4055d9e05fb54a4fbb655fa4413728b3db7bcd68")
+	    (:revdesc . "4055d9e05fb5")
+	    (:authors
+	     ("z80" . "z80@ophy.xyz"))
+	    (:maintainers
+	     ("z80" . "z80@ophy.xyz"))
+	    (:maintainer "z80" . "z80@ophy.xyz"))])
  (uwu-theme .
 	    [(1 0 0 1 -4 20231103 130)
 	     ((emacs
