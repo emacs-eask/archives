@@ -7369,15 +7369,15 @@
 	     ("Anan Mikami" . "lateau@gmail.com"))
 	    (:maintainer "Anan Mikami" . "lateau@gmail.com"))])
  (chatgpt-shell .
-		[(0 1 0 1 -4 20241222 1926)
+		[(0 1 0 1 -4 20241226 2219)
 		 ((emacs
 		   (28 1))
 		  (shell-maker
-		   (0 74 1)))
+		   (0 76 2)))
 		 "A multi-LLM shell (ChatGPT, Claude, Gemini, Kagi, Ollama, Perplexity) + editing integrations" tar
 		 ((:url . "https://github.com/xenodium/chatgpt-shell")
-		  (:commit . "ef0a008feda0e94e951481df958f73c45a95fb34")
-		  (:revdesc . "ef0a008feda0"))])
+		  (:commit . "9ec90352efac16ee48729c86757ace4ac465a61e")
+		  (:revdesc . "9ec90352efac"))])
  (chatu .
 	[(0 1 0 1 -4 20241225 1308)
 	 ((org
@@ -69680,19 +69680,17 @@
 	("Chunyang Xu" . "mail@xuchunyang.me"))
        (:maintainer "Chunyang Xu" . "mail@xuchunyang.me"))])
  (slack .
-	[(0 1 -4 20241216 1212)
+	[(0 1 0 1 -4 20241226 2336)
 	 ((websocket
-	   (1 8))
+	   (1 12))
 	  (request
-	   (0 2 0))
-	  (oauth2
-	   (0 10))
+	   (0 3 2))
 	  (circe
-	   (2 2))
+	   (2 11))
 	  (alert
 	   (1 2))
 	  (emojify
-	   (0 2))
+	   (1 2 1))
 	  (emacs
 	   (25 1))
 	  (dash
@@ -69701,10 +69699,10 @@
 	   (1 13 1))
 	  (ts
 	   (0 3)))
-	 "Slack client for Emacs" tar
+	 "Slack client" tar
 	 ((:url . "https://github.com/emacs-slack/emacs-slack")
-	  (:commit . "8ac6cff38db26166e8f224580f9131dc776d037e")
-	  (:revdesc . "8ac6cff38db2")
+	  (:commit . "ea3b1a30dc349df33288eb4eefbbd3a5ee28a9ae")
+	  (:revdesc . "ea3b1a30dc34")
 	  (:keywords "tools")
 	  (:authors
 	   ("yuya.minami" . "yuya.minami@yuyaminami-no-MacBook-Pro.local"))
