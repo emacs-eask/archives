@@ -128,7 +128,7 @@
 	    ("Vivek Das Mohapatra" . "vivek@etla.org"))
 	   (:commit . "af2ca2f0623d5268e31f1fe19bc1370c14b601b1"))])
  (bash-completion .
-		  [(3 1 1 0 20241228 184752)
+		  [(3 2 1 -4 0 20250101 145820)
 		   ((emacs
 		     (25 3)))
 		   "Bash completion for the shell buffer" tar
@@ -137,7 +137,7 @@
 		    (:maintainer "Stephane Zermatten" . "szermatt@gmail.com")
 		    (:authors
 		     ("Stephane Zermatten" . "szermatt@gmx.net"))
-		    (:commit . "ff338230b4d342091d3578db21896845aa49d113"))])
+		    (:commit . "a4c8fbc90221b01d5376ad068d3640350d9130a8"))])
  (beancount .
 	    [(0 9 0 20240908 163924)
 	     nil "A major mode to edit Beancount input files." tar
@@ -253,7 +253,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider .
-	[(1 16 1 0 20241223 132011)
+	[(1 16 1 0 20250101 190515)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -281,7 +281,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "430cfd40c57ad3ba4ef39262acf411531dc734f5"))])
+	  (:commit . "f009efed1aa2a8fdbb0246925811c02f9cb02e33"))])
  (clojure-mode .
 	       [(5 20 0 -4 0 20241211 152233)
 		((emacs
@@ -312,7 +312,7 @@
 		 ("Chris Wanstrath" . "chris@ozmm.org"))
 		(:commit . "1c6adeae14f3795d3b1e44321189ed7c2c93c967"))])
  (consult-flycheck .
-		   [(1 0 0 20241114 112007)
+		   [(1 0 0 20250101 91433)
 		    ((emacs
 		      (28 1))
 		     (consult
@@ -323,7 +323,7 @@
 		    ((:url . "https://github.com/minad/consult-flycheck")
 		     (:keywords "languages" "tools" "completion")
 		     (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-		     (:commit . "fa7a3a3b5d31d318582f7a1935a3c812fcdc4368"))])
+		     (:commit . "3bc2141daf8cfad7e4d2e2f78b15d45033f707a5"))])
  (corfu-terminal .
 		 [(0 7 0 20230810 20636)
 		  ((emacs
@@ -1242,7 +1242,7 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (haskell-ts-mode .
-		  [(1 0 20241231 74452)
+		  [(1 0 20250101 102728)
 		   ((emacs
 		     (29 3)))
 		   "A treesit based major mode for haskell" tar
@@ -1251,7 +1251,7 @@
 		    (:maintainer "Pranshu Sharma" . "pranshusharma366atgmail")
 		    (:authors
 		     ("Pranshu Sharma" . "pranshusharma366atgmail"))
-		    (:commit . "0cbd38fbe6063029deac29f13f0ddbb367cfc34e"))])
+		    (:commit . "3427f84c9b9787aed1aac944dfc37da0392c93e5"))])
  (helm .
        [(4 0 0 20241229 195748)
 	((helm-core
@@ -1574,11 +1574,11 @@
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
 	  (:commit . "873da4a62dc609ff0c8a7e0ec417b263e3ed2269"))])
  (magit-section .
-		[(4 1 3 0 20241223 213330)
+		[(4 2 0 0 20250101 180326)
 		 ((emacs
 		   (27 1))
 		  (compat
-		   (30 0 0 0))
+		   (30 0 1 0))
 		  (dash
 		   (2 19 1))
 		  (seq
@@ -1589,7 +1589,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "692cc5e7696f9de6fce4a2e076eb51507809aaf3"))])
+		  (:commit . "7dfebba55bf687a25049882c2316166d968048ea"))])
  (markdown-mode .
 		[(2 7 -3 0 20241210 10425)
 		 ((emacs
@@ -2160,9 +2160,9 @@
 	      (:keywords "markup" "language" "css")
 	      (:commit . "247a0d4b509f10b28e4687cd8763492bca03599b"))])
  (scad-mode .
-	    [(94 0 0 20240926 92457)
+	    [(94 0 0 20250101 200539)
 	     ((emacs
-	       (27 1))
+	       (28 1))
 	      (compat
 	       (30)))
 	     "A major mode for editing OpenSCAD code" tar
@@ -2171,7 +2171,7 @@
 	      (:maintainer
 	       ("Len Trigg" . "lenbok@gmail.com")
 	       ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	      (:commit . "2dc2457650d56d7b495a3db1926acdfb57ad430a"))])
+	      (:commit . "481ba0e9da4a783b1255107a1501ebc99eab9b62"))])
  (scala-mode .
 	     [(1 1 1 0 20241231 83915)
 	      ((emacs
@@ -2305,14 +2305,14 @@
 		     ("John Olsson" . "john@cryon.se"))
 		    (:commit . "9d0ac6aa5272d0285965a48505eb35658c5472b0"))])
  (subed .
-	[(1 2 23 0 20241228 114101)
+	[(1 2 23 0 20250101 141954)
 	 ((emacs
 	   (25 1)))
 	 "A major mode for editing subtitles" tar
 	 ((:url . "https://github.com/sachac/subed")
 	  (:keywords "convenience" "files" "hypermedia" "multimedia")
 	  (:maintainer "Sacha Chua" . "sacha@sachachua.com")
-	  (:commit . "f0b2e3db0db6be74522d78a7492e6fa7e6679a6e"))])
+	  (:commit . "a44616d79637672a81c47ad9a1d036cfa34049ba"))])
  (sweeprolog .
 	     [(0 27 6 0 20241107 191437)
 	      ((emacs
