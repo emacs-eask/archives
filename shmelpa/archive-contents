@@ -26165,15 +26165,15 @@
 			    ("Daniel J. R. May" . "daniel.may@danieljrmay.com"))
 			   (:maintainer "Daniel J. R. May" . "daniel.may@danieljrmay.com"))])
  (flycheck-inline .
-		  [(0 1 -4 20240709 1812)
+		  [(0 1 0 1 -4 20250101 1906)
 		   ((emacs
 		     (25 1))
 		    (flycheck
 		     (32)))
 		   "Display Flycheck errors inline" tar
 		   ((:url . "https://github.com/flycheck/flycheck-inline")
-		    (:commit . "de96ba2eb4619a9a7d891773629ec70f2be89aec")
-		    (:revdesc . "de96ba2eb461")
+		    (:commit . "247058cce68b788814a40c1761e6b699a4bf45d3")
+		    (:revdesc . "247058cce68b")
 		    (:keywords "tools" "convenience"))])
  (flycheck-irony .
 		 [(0 1 0 1 -4 20180604 2152)
@@ -28317,11 +28317,11 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20241223 1032)
+	[(0 1 0 1 -4 20250101 1813)
 	 ((emacs
 	   (29 1))
 	  (compat
-	   (30 0 0 0))
+	   (30 0 1 0))
 	  (closql
 	   (2 1 0))
 	  (dash
@@ -28333,19 +28333,19 @@
 	  (let-alist
 	      (1 0 6))
 	  (magit
-	   (4 1 3))
+	   (4 2 0))
 	  (markdown-mode
 	   (2 6))
 	  (seq
 	   (2 24))
 	  (transient
-	   (0 8 0))
+	   (0 8 2))
 	  (yaml
 	   (0 5 5)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "8bace81bce397af6942c7efe012498dc181466d1")
-	  (:revdesc . "8bace81bce39")
+	  (:commit . "0c9060626200902f7b0078a85566ef0eea8cc0b6")
+	  (:revdesc . "0c9060626200")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -44952,7 +44952,7 @@
 	      ("0x60DF" . "0x60df@gmail.com"))
 	     (:maintainer "0x60DF" . "0x60df@gmail.com"))])
  (loopy .
-	[(0 13 0 1 -4 20241212 345)
+	[(0 13 0 1 -4 20250101 1740)
 	 ((emacs
 	   (27 1))
 	  (map
@@ -44965,8 +44965,8 @@
 	   (2 3 0)))
 	 "A looping macro" tar
 	 ((:url . "https://github.com/okamsn/loopy")
-	  (:commit . "ccd4d83ee84c3bfe3bc7db9e24708dde98497892")
-	  (:revdesc . "ccd4d83ee84c")
+	  (:commit . "b1103eda2a040cdae478381ffb308ba9b5ed1ec5")
+	  (:revdesc . "b1103eda2a04")
 	  (:keywords "extensions"))])
  (loopy-dash .
 	     [(0 13 0 1 -4 20240818 245)
@@ -45885,25 +45885,25 @@
 	       (:revdesc . "441389f75bdf")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20241223 2133)
+	[(0 1 0 1 -4 20250101 1803)
 	 ((emacs
 	   (27 1))
 	  (compat
-	   (30 0 0 0))
+	   (30 0 1 0))
 	  (dash
 	   (2 19 1))
 	  (magit-section
-	   (4 1 3))
+	   (4 2 0))
 	  (seq
 	   (2 24))
 	  (transient
-	   (20241217))
+	   (0 8 2))
 	  (with-editor
 	   (3 4 3)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "692cc5e7696f9de6fce4a2e076eb51507809aaf3")
-	  (:revdesc . "692cc5e7696f")
+	  (:commit . "7dfebba55bf687a25049882c2316166d968048ea")
+	  (:revdesc . "7dfebba55bf6")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -46257,19 +46257,19 @@
 		       ("Jules Tamagnan" . "jtamagnan@gmail.com"))
 		      (:maintainer "Jules Tamagnan" . "jtamagnan@gmail.com"))])
  (magit-section .
-		[(0 1 0 1 -4 20241217 845)
+		[(0 1 0 1 -4 20250101 1803)
 		 ((emacs
 		   (27 1))
 		  (compat
-		   (30 0 0 0))
+		   (30 0 1 0))
 		  (dash
 		   (2 19 1))
 		  (seq
 		   (2 24)))
 		 "Sections for read-only buffers" tar
 		 ((:url . "https://github.com/magit/magit")
-		  (:commit . "c1a86066e8d20b5b54d4c3df0c044c4b9a99a30e")
-		  (:revdesc . "c1a86066e8d2")
+		  (:commit . "7dfebba55bf687a25049882c2316166d968048ea")
+		  (:revdesc . "7dfebba55bf6")
 		  (:keywords "tools")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -51577,19 +51577,19 @@
 		     ("Jonas Bernoulli" . "emacs.notmuch-maildir@jonas.bernoulli.dev"))
 		    (:maintainer "Jonas Bernoulli" . "emacs.notmuch-maildir@jonas.bernoulli.dev"))])
  (notmuch-transient .
-		    [(0 1 0 1 -4 20241211 801)
+		    [(0 1 0 1 -4 20250101 1804)
 		     ((emacs
 		       (27 1))
 		      (compat
-		       (30 0 0 0))
+		       (30 0 1 0))
 		      (notmuch
 		       (0 38 2))
 		      (transient
-		       (0 7 0)))
+		       (0 8 2)))
 		     "Command dispatchers for Notmuch" tar
 		     ((:url . "https://git.sr.ht/~tarsius/notmuch-transient")
-		      (:commit . "4e35dd13ec30d28288ca9d2ec233df0b1e910cd5")
-		      (:revdesc . "4e35dd13ec30")
+		      (:commit . "f9006043702a3d0178d0118d8348c5733c1c81aa")
+		      (:revdesc . "f9006043702a")
 		      (:keywords "mail")
 		      (:authors
 		       ("Jonas Bernoulli" . "emacs.notmuch-transient@jonas.bernoulli.dev"))
@@ -58718,15 +58718,15 @@
 	      ("Ryan Davis" . "ryand-ruby@zenspider.com"))
 	     (:maintainer "Ryan Davis" . "ryand-ruby@zenspider.com"))])
  (package-build .
-		[(0 1 0 1 -4 20241230 1327)
+		[(0 1 0 1 -4 20250101 1820)
 		 ((emacs
 		   (26 1))
 		  (compat
 		   (30 0 0 0)))
 		 "Tools for assembling a package archive" tar
 		 ((:url . "https://github.com/melpa/package-build")
-		  (:commit . "f8510affa34a89d61da1f8ff9f092ad3565641a6")
-		  (:revdesc . "f8510affa34a")
+		  (:commit . "c8ddc4a9a23b8514a8ee8d95e508b58adbeebd64")
+		  (:revdesc . "c8ddc4a9a23b")
 		  (:keywords "maint" "tools")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
@@ -67456,15 +67456,15 @@
 	     (:revdesc . "cc68728a6ef0")
 	     (:keywords "languages"))])
  (scad-mode .
-	    [(94 0 1 -4 20240926 924)
+	    [(0 1 0 1 -4 20250101 1940)
 	     ((emacs
 	       (27 1))
 	      (compat
 	       (30)))
 	     "A major mode for editing OpenSCAD code" tar
 	     ((:url . "https://github.com/openscad/emacs-scad-mode")
-	      (:commit . "2dc2457650d56d7b495a3db1926acdfb57ad430a")
-	      (:revdesc . "2dc2457650d5")
+	      (:commit . "5dfec8f8dcf587c15b616b9dc840c55b38a9dba9")
+	      (:revdesc . "5dfec8f8dcf5")
 	      (:keywords "languages")
 	      (:maintainers
 	       ("Len Trigg" . "lenbok@gmail.com")
@@ -69513,21 +69513,21 @@
 	(:revdesc . "fa12ae71e96d")
 	(:keywords "convenience"))])
  (sisyphus .
-	   [(0 1 0 1 -4 20241218 1258)
+	   [(0 1 0 1 -4 20250101 1807)
 	    ((emacs
 	      (27 1))
 	     (compat
-	      (30 0 0 0))
+	      (30 0 1 0))
 	     (elx
-	      (2 0 3))
+	      (2 0 4))
 	     (llama
-	      (0 3 1))
+	      (0 4 1))
 	     (magit
-	      (4 1 1)))
+	      (4 2 0)))
 	    "Create releases of Emacs packages" tar
 	    ((:url . "https://github.com/magit/sisyphus")
-	     (:commit . "fd1931ce99faf39fd9b8d19c1db67da658745cb4")
-	     (:revdesc . "fd1931ce99fa")
+	     (:commit . "b5303108fcccca495fe36202d023a068ee7af2f7")
+	     (:revdesc . "b5303108fccc")
 	     (:keywords "git" "tools" "vc")
 	     (:authors
 	      ("Jonas Bernoulli" . "emacs.sisyphus@jonas.bernoulli.dev"))
@@ -75577,7 +75577,7 @@
 			      (:revdesc . "57911a5065a6")
 			      (:keywords "convenience" "tools"))])
  (transient .
-	    [(0 1 0 1 -4 20241224 2234)
+	    [(0 1 0 1 -4 20250101 1744)
 	     ((emacs
 	       (26 1))
 	      (compat
@@ -75586,8 +75586,8 @@
 	       (2 24)))
 	     "Transient commands" tar
 	     ((:url . "https://github.com/magit/transient")
-	      (:commit . "280df1350bad1800501349b539d0b718ae60de65")
-	      (:revdesc . "280df1350bad")
+	      (:commit . "ab22ba0e3b4c088b2981b22857fa09211a2c74ee")
+	      (:revdesc . "ab22ba0e3b4c")
 	      (:keywords "extensions")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
