@@ -38218,13 +38218,13 @@
 		("Jonas Bernoulli" . "jonas@bernoul.li"))
 	       (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li"))])
  (imbot .
-	[(0 1 0 1 -4 20250102 1113)
+	[(0 1 0 1 -4 20250108 1419)
 	 ((emacs
 	   (25 1)))
 	 "Automatic system input method switcher" tar
 	 ((:url . "https://github.com/QiangF/imbot")
-	  (:commit . "d0fe4aca029e251d00102107c3747b41376c32c6")
-	  (:revdesc . "d0fe4aca029e")
+	  (:commit . "3d4d5b0e73981a5249bcedfabd6bb188a1283075")
+	  (:revdesc . "3d4d5b0e7398")
 	  (:keywords "convenience"))])
  (imenu-anywhere .
 		 [(1 1 6 1 -4 20210201 1704)
@@ -57047,17 +57047,19 @@
 		   ("Adam Porter" . "adam@alphapapa.net"))
 		  (:maintainer "Adam Porter" . "adam@alphapapa.net"))])
  (org-web-track .
-		[(0 1 0 1 -4 20241110 1121)
+		[(0 1 0 1 -4 20250108 1321)
 		 ((emacs
 		   (29 1))
 		  (request
 		   (0 3 0))
 		  (enlive
-		   (0 0 1)))
+		   (0 0 1))
+		  (gnuplot
+		   (0 8 1)))
 		 "Web data tracking framework in Org Mode" tar
 		 ((:url . "https://github.com/p-snow/org-web-track")
-		  (:commit . "3e75df16ec05960e973f044966cdc0b9d1a0fa6d")
-		  (:revdesc . "3e75df16ec05")
+		  (:commit . "06021d7505eeed29604ad17473a411c68079319e")
+		  (:revdesc . "06021d7505ee")
 		  (:keywords "org" "agenda" "web" "hypermedia")
 		  (:authors
 		   ("p-snow" . "public@p-snow.org"))
@@ -58752,15 +58754,15 @@
 		    ("Donald Ephraim Curtis" . "dcurtis@milkbox.net"))
 		   (:maintainer "Donald Ephraim Curtis" . "dcurtis@milkbox.net"))])
  (package-lint .
-	       [(0 1 0 1 -4 20241127 1826)
+	       [(0 1 0 1 -4 20250108 1407)
 		((emacs
 		  (24 4))
 		 (let-alist
 		     (1 0 6)))
 		"A linting library for elisp package authors" tar
 		((:url . "https://github.com/purcell/package-lint")
-		 (:commit . "0dee43756be149aac216cfa2794ba28f66137962")
-		 (:revdesc . "0dee43756be1")
+		 (:commit . "6f05a369e0718e93c5dce0951cad5e6646296612")
+		 (:revdesc . "6f05a369e071")
 		 (:keywords "lisp")
 		 (:authors
 		  ("Steve Purcell" . "steve@sanityinc.com")
@@ -64266,13 +64268,13 @@
 			    ("Lorenzo Bolla" . "lbolla@gmail.com"))
 			   (:maintainer "Lorenzo Bolla" . "lbolla@gmail.com"))])
  (quelpa .
-	 [(1 0 1 -4 20230620 1343)
+	 [(0 1 0 1 -4 20250108 1418)
 	  ((emacs
 	    (25 1)))
 	  "Emacs Lisp packages built directly from source" tar
 	  ((:url . "https://github.com/quelpa/quelpa")
-	   (:commit . "b6a73d4e9e06631d2adb7bfbd83bbe7ee4211809")
-	   (:revdesc . "b6a73d4e9e06")
+	   (:commit . "c979ef066ada119dcfb0260610aa8af6292d5a84")
+	   (:revdesc . "c979ef066ada")
 	   (:keywords "tools" "package" "management" "build" "source" "elpa"))])
  (quelpa-leaf .
 	      [(0 1 0 1 -4 20250101 904)
