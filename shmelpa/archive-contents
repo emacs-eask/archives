@@ -6615,62 +6615,6 @@
 		  (:commit . "e66f2e43e288f35ad9075f5fc84d59ad348efc88")
 		  (:revdesc . "e66f2e43e288")
 		  (:keywords "convenience"))])
- (cardano-tx .
-	     [(0 1 2 1 -4 20230606 1150)
-	      ((emacs
-		(27 1))
-	       (f
-		(0 20 0))
-	       (yasnippet
-		(0 14 0))
-	       (yaml-mode
-		(0 0 15))
-	       (yaml
-		(0 1 0))
-	       (helm
-		(3 6 2))
-	       (cbor
-		(0 2 5))
-	       (bech32
-		(0 2 1))
-	       (readable-numbers
-		(0 1 0))
-	       (emacsql
-		(3 0 0))
-	       (emacsql-sqlite
-		(3 1 1)))
-	      "Cardano transaction editor" tar
-	      ((:url . "https://github.com/Titan-C/cardano.el")
-	       (:commit . "cf85424b305e8f89debb756dc67eebc84639f711")
-	       (:revdesc . "cf85424b305e")
-	       (:authors
-		("Oscar Najera" . "https://oscarnajera.com"))
-	       (:maintainers
-		("Oscar Najera" . "hi@oscarnajera.com"))
-	       (:maintainer "Oscar Najera" . "hi@oscarnajera.com"))])
- (cardano-wallet .
-		 [(0 2 2 1 -4 20230606 1150)
-		  ((emacs
-		    (27 1))
-		   (yaml
-		    (0 1 0))
-		   (dash
-		    (2 19 0))
-		   (yaml-mode
-		    (0 0 15))
-		   (readable-numbers
-		    (0 1 0))
-		   (cardano-tx
-		    (0 1 2)))
-		  "Interact with cardano wallet" tar
-		  ((:url . "https://github.com/Titan-C/cardano.el")
-		   (:commit . "cf85424b305e8f89debb756dc67eebc84639f711")
-		   (:revdesc . "cf85424b305e")
-		   (:authors
-		    ("Oscar Najera" . "https://github.com/titan"))
-		   (:maintainers
-		    ("Oscar Najera" . "hi@oscarnajera.com"))
-		   (:maintainer "Oscar Najera" . "hi@oscarnajera.com"))])
  (cargo .
 	[(0 4 0 1 -4 20231229 915)
 	 ((emacs
@@ -37357,13 +37301,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20250107 2133)
+	    [(0 1 0 1 -4 20250109 1748)
 	     ((emacs
 	       (27 2)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "ec44804a87ad4210ef3b62e990eac80d60f1e764")
-	      (:revdesc . "ec44804a87ad")
+	      (:commit . "7e3bb0f41fafd587b03e34738ceee98a42f7f392")
+	      (:revdesc . "7e3bb0f41faf")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -45891,7 +45835,7 @@
 	       (:revdesc . "441389f75bdf")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20250107 2324)
+	[(0 1 0 1 -4 20250109 1854)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -45908,8 +45852,8 @@
 	   (3 4 3)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "8b6bb7c7e88c298e1447ca7c86138588a3953784")
-	  (:revdesc . "8b6bb7c7e88c")
+	  (:commit . "46c3d8b0ad0a7e583fc382243ab84b95a1d2da52")
+	  (:revdesc . "46c3d8b0ad0a")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -46263,7 +46207,7 @@
 		       ("Jules Tamagnan" . "jtamagnan@gmail.com"))
 		      (:maintainer "Jules Tamagnan" . "jtamagnan@gmail.com"))])
  (magit-section .
-		[(0 1 0 1 -4 20250107 641)
+		[(0 1 0 1 -4 20250109 1854)
 		 ((emacs
 		   (27 1))
 		  (compat
@@ -46274,8 +46218,8 @@
 		   (2 24)))
 		 "Sections for read-only buffers" tar
 		 ((:url . "https://github.com/magit/magit")
-		  (:commit . "3ec4a182a602ac890844588ab39829912f0e168d")
-		  (:revdesc . "3ec4a182a602")
+		  (:commit . "46c3d8b0ad0a7e583fc382243ab84b95a1d2da52")
+		  (:revdesc . "46c3d8b0ad0a")
 		  (:keywords "tools")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
