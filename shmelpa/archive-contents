@@ -39561,13 +39561,13 @@
 	      ("Taichi" . "kawabata.taichi_at_gmail.com"))
 	     (:maintainer "Taichi" . "kawabata.taichi_at_gmail.com"))])
  (ivy .
-      [(0 14 2 1 -4 20240829 1723)
+      [(0 1 0 1 -4 20250108 2025)
        ((emacs
 	 (24 5)))
        "Incremental Vertical completYon" tar
        ((:url . "https://github.com/abo-abo/swiper")
-	(:commit . "8dc02d5b725f78d1f80904807b46f5406f129674")
-	(:revdesc . "8dc02d5b725f")
+	(:commit . "9fa8ba5afcfbf727f5dd8ca7f9c1749de3657381")
+	(:revdesc . "9fa8ba5afcfb")
 	(:keywords "matching")
 	(:authors
 	 ("Oleh Krehel" . "ohwoeowho@gmail.com"))
@@ -43680,14 +43680,18 @@
 		   ("Phillip Lord" . "phillip.lord@newcastle.ac.uk"))
 		  (:maintainer "Phillip Lord" . "phillip.lord@newcastle.ac.uk"))])
  (leo .
-      [(0 3 1 -4 20220111 1045)
+      [(0 1 0 1 -4 20250109 1131)
        ((emacs
-	 (27 1)))
+	 (28 1))
+	(s
+	 (1 12 0))
+	(aio
+	 (1 0)))
        "Interface for dict.leo.org" tar
-       ((:url . "https://github.com/mtenders/emacs-leo")
-	(:commit . "9f6aeb9670241255c373432af7785c7b87cee290")
-	(:revdesc . "9f6aeb967024")
-	(:keywords "convenience" "translate")
+       ((:url . "https://codeberg.org/martianh/emacs-leo")
+	(:commit . "24020b11de5975f71f4b57efbb9ef874ec0bcd87")
+	(:revdesc . "24020b11de59")
+	(:keywords "convenience" "translate" "wp" "dictionary")
 	(:authors
 	 ("M.T. Enders" . "michaelATmichael-enders.com")
 	 ("Marty Hiatt" . "martianhiatusATriseup.net"))
