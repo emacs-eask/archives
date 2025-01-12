@@ -45532,6 +45532,23 @@
 	    ("Sebastien Chapuis" . "sebastien@chapu.is")
 	    ("Fangrui Song" . "i@maskray.me"))
 	   (:maintainer "Sebastien Chapuis" . "sebastien@chapu.is"))])
+ (lte .
+      [(0 1 0 1 -4 20250112 2019)
+       ((emacs
+	 (29 1))
+	(org
+	 (9 6))
+	(edit-indirect
+	 (0 1 13)))
+       "Large Table Edition in Org and Markdown buffers" tar
+       ((:url . "http://github.com/fredericgiquel/lte.el")
+	(:commit . "5c5f1f554ae6583350e487b676cefdcc3944ff5d")
+	(:revdesc . "5c5f1f554ae6")
+	(:authors
+	 ("Frédéric Giquel" . "frederic.giquel@laposte.net"))
+	(:maintainers
+	 ("Frédéric Giquel" . "frederic.giquel@laposte.net"))
+	(:maintainer "Frédéric Giquel" . "frederic.giquel@laposte.net"))])
  (lua-mode .
 	   [(20221027 1 -4 20231023 947)
 	    ((emacs
@@ -59646,6 +59663,22 @@
 	     (:maintainers
 	      (nil . "aix.bing@gmail.com"))
 	     (:maintainer nil . "aix.bing@gmail.com"))])
+ (pdf-meta-edit .
+		[(0 1 0 1 -4 20241229 2057)
+		 ((emacs
+		   (24 3))
+		  (compat
+		   (29 1)))
+		 "Edit PDF metadata" tar
+		 ((:url . "https://github.com/krisbalintona/pdf-meta-edit")
+		  (:commit . "02006c9484231867c79d33ba72c95f2ef005e9b7")
+		  (:revdesc . "02006c948423")
+		  (:keywords "files" "data")
+		  (:authors
+		   ("Kristoffer Balintona" . "krisbalintona@gmail.com"))
+		  (:maintainers
+		   ("Kristoffer Balintona" . "krisbalintona@gmail.com"))
+		  (:maintainer "Kristoffer Balintona" . "krisbalintona@gmail.com"))])
  (pdf-tools .
 	    [(1 1 0 1 -4 20240429 407)
 	     ((emacs
@@ -61749,11 +61782,11 @@
 	    ("Jen-Chieh Shen" . "jcs090218@gmail.com"))
 	   (:maintainer "Jen-Chieh Shen" . "jcs090218@gmail.com"))])
  (portage-modes .
-		[(0 1 0 1 -4 20250112 29)
+		[(0 1 0 1 -4 20250112 1959)
 		 nil "Major modes for editing Portage config files" tar
 		 ((:url . "https://github.com/OpenSauce04/portage-modes")
-		  (:commit . "9864675f5151802df8941059baf3d3bf89a4b1b0")
-		  (:revdesc . "9864675f5151")
+		  (:commit . "05863001fb528ed737c3ba6b7872dbfe1646debd")
+		  (:revdesc . "05863001fb52")
 		  (:authors
 		   ("OpenSauce" . "opensauce04@gmail.com"))
 		  (:maintainers
@@ -76459,6 +76492,22 @@
 	   (:maintainers
 	    ("Johann Klähn" . "kljohann@gmail.com"))
 	   (:maintainer "Johann Klähn" . "kljohann@gmail.com"))])
+ (turtles .
+	  [(0 1 0 1 -4 20250106 1620)
+	   ((emacs
+	     (26 1))
+	    (compat
+	     (30 0 1 0)))
+	   "Screen-grabbing test utility" tar
+	   ((:url . "http://github.com/szermatt/turtles")
+	    (:commit . "144ffad332a8c13ad60dbd797376cc8eac021633")
+	    (:revdesc . "144ffad332a8")
+	    (:keywords "testing" "unix")
+	    (:authors
+	     ("Stephane Zermatten" . "szermatt@gmx.net"))
+	    (:maintainers
+	     ("Stephane Zermatten" . "szermatt@gmail.com"))
+	    (:maintainer "Stephane Zermatten" . "szermatt@gmail.com"))])
  (twig-mode .
 	    [(0 1 1 -4 20130220 1850)
 	     nil "A major mode for twig" tar
