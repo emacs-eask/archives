@@ -7918,7 +7918,7 @@
 		 (:commit . "1432b0ad0f32b03fec564c0815951d5e096c2f6a")
 		 (:revdesc . "1432b0ad0f32"))])
  (citar .
-	[(0 1 0 1 -4 20241027 1331)
+	[(0 1 0 1 -4 20250112 1842)
 	 ((emacs
 	   (27 1))
 	  (parsebib
@@ -7929,8 +7929,8 @@
 	   (0 9)))
 	 "Citation-related commands for org, latex, markdown" tar
 	 ((:url . "https://github.com/emacs-citar/citar")
-	  (:commit . "46bc177f53147a387407b1578ca38a3e96ad49a3")
-	  (:revdesc . "46bc177f5314")
+	  (:commit . "6f2c61e2dcbda47a7aad0d87f40568c4e3c88f6b")
+	  (:revdesc . "6f2c61e2dcbd")
 	  (:authors
 	   ("Bruce D'Arcus" . "https://github.com/bdarcus"))
 	  (:maintainers
@@ -9339,6 +9339,22 @@
 	  (:maintainers
 	   ("Sergey Kostyaev" . "feo.me@ya.ru"))
 	  (:maintainer "Sergey Kostyaev" . "feo.me@ya.ru"))])
+ (comint-histories .
+		   [(0 1 0 1 -4 20250105 2014)
+		    ((emacs
+		      (25 1))
+		     (f
+		      (0 21 0)))
+		    "Many comint histories" tar
+		    ((:url . "https://github.com/NicholasBHubbard/comint-histories")
+		     (:commit . "bc7be36d0abd3332bb7919cf81ab46a4bdbeb315")
+		     (:revdesc . "bc7be36d0abd")
+		     (:keywords "convenience")
+		     (:authors
+		      ("Nicholas Hubbard" . "nicholashubbard@posteo.net"))
+		     (:maintainers
+		      ("Nicholas Hubbard" . "nicholashubbard@posteo.net"))
+		     (:maintainer "Nicholas Hubbard" . "nicholashubbard@posteo.net"))])
  (comint-hyperlink .
 		   [(0 1 6 1 -4 20211026 100)
 		    ((emacs
@@ -18244,7 +18260,7 @@
 	       (:revdesc . "9630dfac9549")
 	       (:keywords "convenience" "languages" "tools"))])
  (ekg .
-      [(0 1 0 1 -4 20241118 224)
+      [(0 1 0 1 -4 20250112 2041)
        ((triples
 	 (0 4 0))
 	(emacs
@@ -18253,8 +18269,8 @@
 	 (0 18 0)))
        "A system for recording and linking information" tar
        ((:url . "https://github.com/ahyatt/ekg")
-	(:commit . "942457bb75574f17058cba1da25e46aeee3fde4b")
-	(:revdesc . "942457bb7557")
+	(:commit . "aed37ebadb0ff7dac12039a0e794519ce0f2e55c")
+	(:revdesc . "aed37ebadb0f")
 	(:keywords "outlines" "hypermedia")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
@@ -36665,6 +36681,22 @@
 		    (:maintainers
 		     ("Campbell Barton" . "ideasman42@gmail.com"))
 		    (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
+ (hl-printf .
+	    [(0 1 0 1 -4 20250105 1101)
+	     ((emacs
+	       (24 1))
+	      (compat
+	       (29 1 0 1)))
+	     "Minor mode for highlighting \"printf\" format specifiers" tar
+	     ((:url . "https://github.com/8dcc/hl-printf.el")
+	      (:commit . "2e5efd8e08023e2afa6be09f86109c08102633dc")
+	      (:revdesc . "2e5efd8e0802")
+	      (:keywords "c" "faces")
+	      (:authors
+	       ("8dcc" . "8dcc.git@gmail.com"))
+	      (:maintainers
+	       ("8dcc" . "8dcc.git@gmail.com"))
+	      (:maintainer "8dcc" . "8dcc.git@gmail.com"))])
  (hl-prog-extra .
 		[(0 2 1 -4 20240829 101)
 		 ((emacs
