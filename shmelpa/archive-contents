@@ -929,6 +929,15 @@
 			(:maintainers
 			 ("Paul d'Hubert" . "paul.dhubert@ya.ru"))
 			(:maintainer "Paul d'Hubert" . "paul.dhubert@ya.ru"))])
+ (acton-mode .
+	     [(0 1 0 1 -4 20250110 1923)
+	      ((emacs
+		(25 1)))
+	      "Major mode for editing Acton source code" tar
+	      ((:url . "https://github.com/actonlang/acton-mode")
+	       (:commit . "afc8dbf21ee69cad97aebb490a7a66f2653ddd33")
+	       (:revdesc . "afc8dbf21ee6")
+	       (:keywords "languages" "programming"))])
  (ada-ts-mode .
 	      [(0 1 0 1 -4 20250111 1616)
 	       ((emacs
@@ -9340,16 +9349,16 @@
 	   ("Sergey Kostyaev" . "feo.me@ya.ru"))
 	  (:maintainer "Sergey Kostyaev" . "feo.me@ya.ru"))])
  (comint-histories .
-		   [(0 1 0 1 -4 20250105 2014)
+		   [(0 1 0 1 -4 20250112 2315)
 		    ((emacs
 		      (25 1))
 		     (f
 		      (0 21 0)))
 		    "Many comint histories" tar
 		    ((:url . "https://github.com/NicholasBHubbard/comint-histories")
-		     (:commit . "bc7be36d0abd3332bb7919cf81ab46a4bdbeb315")
-		     (:revdesc . "bc7be36d0abd")
-		     (:keywords "convenience")
+		     (:commit . "410943315dd685373197d5ea7048fa5f41feaedf")
+		     (:revdesc . "410943315dd6")
+		     (:keywords "convenience" "processes" "terminals")
 		     (:authors
 		      ("Nicholas Hubbard" . "nicholashubbard@posteo.net"))
 		     (:maintainers
@@ -20350,7 +20359,7 @@
 	   ("Dimitris Alikaniotis" . "da352[at]cam.ac.uk"))
 	  (:maintainer "Dimitris Alikaniotis" . "da352[at]cam.ac.uk"))])
  (empv .
-       [(0 1 0 1 -4 20250111 2232)
+       [(0 1 0 1 -4 20250112 2246)
 	((emacs
 	  (28 1))
 	 (s
@@ -20359,8 +20368,8 @@
 	  (29 1 4 4)))
 	"A multimedia player/manager, YouTube interface" tar
 	((:url . "https://github.com/isamert/empv.el")
-	 (:commit . "cfc2e906124c31515f14ba122665063484b5e777")
-	 (:revdesc . "cfc2e906124c")
+	 (:commit . "7ddca378f8bff42bedd6cef1c6f52eec3b9f8119")
+	 (:revdesc . "7ddca378f8bf")
 	 (:authors
 	  ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
 	 (:maintainers
@@ -31873,13 +31882,13 @@
 		    ("Troy Brown" . "brownts@troybrown.dev"))
 		   (:maintainer "Troy Brown" . "brownts@troybrown.dev"))])
  (gpt .
-      [(0 1 0 1 -4 20241208 1724)
+      [(0 1 0 1 -4 20250112 2218)
        ((emacs
 	 (24 4)))
        "Run instruction-following language models" tar
        ((:url . "https://github.com/stuhlmueller/gpt.el")
-	(:commit . "3575afcb3c379f9067ab80eefe696f3758564397")
-	(:revdesc . "3575afcb3c37")
+	(:commit . "781c08949d95b49a4342c5cb6035e2ae2732040b")
+	(:revdesc . "781c08949d95")
 	(:keywords "openai" "anthropic" "claude" "language" "copilot" "convenience" "tools")
 	(:authors
 	 ("Andreas Stuhlmueller" . "andreas@ought.org"))
@@ -36682,15 +36691,15 @@
 		     ("Campbell Barton" . "ideasman42@gmail.com"))
 		    (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
  (hl-printf .
-	    [(0 1 0 1 -4 20250105 1101)
+	    [(0 1 0 1 -4 20250112 2319)
 	     ((emacs
 	       (24 1))
 	      (compat
 	       (29 1 0 1)))
 	     "Minor mode for highlighting \"printf\" format specifiers" tar
 	     ((:url . "https://github.com/8dcc/hl-printf.el")
-	      (:commit . "2e5efd8e08023e2afa6be09f86109c08102633dc")
-	      (:revdesc . "2e5efd8e0802")
+	      (:commit . "059939078453be49a946fed26bda2d87d004718b")
+	      (:revdesc . "059939078453")
 	      (:keywords "c" "faces")
 	      (:authors
 	       ("8dcc" . "8dcc.git@gmail.com"))
@@ -41939,7 +41948,7 @@
 	      ("Naoya Yamashita" . "conao3@gmail.com"))
 	     (:maintainer "Naoya Yamashita" . "conao3@gmail.com"))])
  (kele .
-       [(0 1 0 1 -4 20250112 1517)
+       [(0 1 0 1 -4 20250112 2243)
 	((emacs
 	  (29 1))
 	 (async
@@ -41960,8 +41969,8 @@
 	  (0 5 1)))
 	"Spritzy Kubernetes cluster management" tar
 	((:url . "https://github.com/jinnovation/kele.el")
-	 (:commit . "c054b404a4e0f123b149ca904739ced4adb92a47")
-	 (:revdesc . "c054b404a4e0")
+	 (:commit . "1d23e6a18a031466a2c41f72d0e2f67b5cc45373")
+	 (:revdesc . "1d23e6a18a03")
 	 (:keywords "kubernetes" "tools")
 	 (:authors
 	  ("Jonathan Jin" . "me@jonathanj.in"))
@@ -45533,7 +45542,7 @@
 	    ("Fangrui Song" . "i@maskray.me"))
 	   (:maintainer "Sebastien Chapuis" . "sebastien@chapu.is"))])
  (lte .
-      [(0 1 0 1 -4 20250112 2019)
+      [(0 1 0 1 -4 20250112 2154)
        ((emacs
 	 (29 1))
 	(org
@@ -45542,8 +45551,8 @@
 	 (0 1 13)))
        "Large Table Edition in Org and Markdown buffers" tar
        ((:url . "http://github.com/fredericgiquel/lte.el")
-	(:commit . "5c5f1f554ae6583350e487b676cefdcc3944ff5d")
-	(:revdesc . "5c5f1f554ae6")
+	(:commit . "011c86d9fb72d00105293efabef4756274d851b4")
+	(:revdesc . "011c86d9fb72")
 	(:authors
 	 ("Frédéric Giquel" . "frederic.giquel@laposte.net"))
 	(:maintainers
