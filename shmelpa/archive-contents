@@ -2189,13 +2189,13 @@
 	 (:commit . "c58622cc6d2f6b503d3a930a2c48050be8e695cf")
 	 (:revdesc . "c58622cc6d2f"))])
  (apheleia .
-	   [(0 1 0 1 -4 20250118 1908)
+	   [(0 1 0 1 -4 20250119 2023)
 	    ((emacs
 	      (27)))
 	    "Reformat buffer stably" tar
 	    ((:url . "https://github.com/radian-software/apheleia")
-	     (:commit . "fa50cb3a3c7cb8f2b4216760c05f8a885a3ce906")
-	     (:revdesc . "fa50cb3a3c7c")
+	     (:commit . "e3db0e795b7675062b9a65ed19077dfa6d913ea8")
+	     (:revdesc . "e3db0e795b76")
 	     (:keywords "tools")
 	     (:authors
 	      ("Radian LLC" . "contact+apheleia@radian.codes"))
@@ -3598,6 +3598,22 @@
 	(:maintainers
 	 ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	(:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
+ (avy-act .
+	  [(0 1 0 1 -4 20250119 1906)
+	   ((avy
+	     (0 5 0))
+	    (emacs
+	     (29 1)))
+	   "Commands that let avy act from a distance" tar
+	   ((:url . "https://gitlab.com/nameiwillforget/avy-act")
+	    (:commit . "62bba41c79c519d7c363c63aee1288d0e0dfee64")
+	    (:revdesc . "62bba41c79c5")
+	    (:keywords "tools" "convenience")
+	    (:authors
+	     ("Alexander Prähauser" . "ahprae@protonmail.com"))
+	    (:maintainers
+	     ("Alexander Prähauser" . "ahprae@protonmail.com"))
+	    (:maintainer "Alexander Prähauser" . "ahprae@protonmail.com"))])
  (avy-embark-collect .
 		     [(0 3 1 -4 20240419 452)
 		      ((emacs
