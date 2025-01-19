@@ -48361,13 +48361,13 @@
 	  ("Liuyinz" . "liuyinz95@gmail.com"))
 	 (:maintainer "Liuyinz" . "liuyinz95@gmail.com"))])
  (mistty .
-	 [(0 1 0 1 -4 20250118 1658)
+	 [(0 1 0 1 -4 20250119 1938)
 	  ((emacs
 	    (29 1)))
 	  "Shell/Comint alternative based on term.el" tar
 	  ((:url . "http://github.com/szermatt/mistty")
-	   (:commit . "62f38ba3a427725d74676014831e47b34b35183c")
-	   (:revdesc . "62f38ba3a427")
+	   (:commit . "b369a43a0085a74d78062d336926575398e121b1")
+	   (:revdesc . "b369a43a0085")
 	   (:keywords "convenience" "unix")
 	   (:authors
 	    ("Stephane Zermatten" . "szermatt@gmx.net"))
@@ -49129,6 +49129,22 @@
 	       ((:url . "https://github.com/ainame/motion-mode")
 		(:commit . "4c94180e3ecea611a61240a0c0cd48f1032c4a55")
 		(:revdesc . "4c94180e3ece"))])
+ (motion-selection-mode .
+			[(0 1 0 1 -4 20250113 19)
+			 ((emacs
+			   (29 3))
+			  (god-mode
+			   (2 18 0)))
+			 "A minor mode to add a text editing grammar" tar
+			 ((:url . "https://github.com/alexispurslane/motion-selection-mode")
+			  (:commit . "19d12003a6d14ec2fc10ee387de07dd1d9255e2c")
+			  (:revdesc . "19d12003a6d1")
+			  (:keywords "tools")
+			  (:authors
+			   ("Alexis Purslane" . "alexispurslane@pm.me"))
+			  (:maintainers
+			   ("Alexis Purslane" . "alexispurslane@pm.me"))
+			  (:maintainer "Alexis Purslane" . "alexispurslane@pm.me"))])
  (move-dup .
 	   [(2 0 0 1 -4 20210127 1938)
 	    ((emacs
@@ -59373,7 +59389,7 @@
 		    ("Tino Calancha" . "tino.calancha@gmail.com"))
 		   (:maintainer "Tino Calancha" . "tino.calancha@gmail.com"))])
  (password-store-menu .
-		      [(0 1 0 1 -4 20250119 943)
+		      [(0 1 0 1 -4 20250119 2014)
 		       ((emacs
 			 (29 1))
 			(password-store
@@ -59382,8 +59398,8 @@
 			 (2 0 1)))
 		       "A better, more complete UI for password-store" tar
 		       ((:url . "https://github.com/rjekker/password-store-menu")
-			(:commit . "318ba3b1a80eb60f2be210e3a3970d152681dc2a")
-			(:revdesc . "318ba3b1a80e")
+			(:commit . "cbe18f4cb3bcf6258c8a594f351b0b32bcbb8544")
+			(:revdesc . "cbe18f4cb3bc")
 			(:keywords "convenience" "data" "files")
 			(:authors
 			 ("Reindert-Jan Ekker" . "info@rjekker.nl"))
@@ -75603,7 +75619,7 @@
 			      (:revdesc . "57911a5065a6")
 			      (:keywords "convenience" "tools"))])
  (transient .
-	    [(0 1 0 1 -4 20250108 1351)
+	    [(0 1 0 1 -4 20250119 1927)
 	     ((emacs
 	       (26 1))
 	      (compat
@@ -75612,8 +75628,8 @@
 	       (2 24)))
 	     "Transient commands" tar
 	     ((:url . "https://github.com/magit/transient")
-	      (:commit . "69202c123205f396fefd35acdbc66fe8d0dfad12")
-	      (:revdesc . "69202c123205")
+	      (:commit . "13f3f5e0da85805e9ead0db70ba76a6bbc62d3a7")
+	      (:revdesc . "13f3f5e0da85")
 	      (:keywords "extensions")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
@@ -76266,6 +76282,20 @@
 		     ((:url . "https://github.com/ianpan870102/tron-legacy-emacs-theme")
 		      (:commit . "44996469041a9b7f54c2a42ad2a3c16ac9579d77")
 		      (:revdesc . "44996469041a"))])
+ (trope-mode .
+	     [(0 1 0 1 -4 20250113 107)
+	      ((emacs
+		(29 1)))
+	      "Major mode to edit TV Tropes format \".trp\" files" tar
+	      ((:url . "https://github.com/TriAttack238/trope-mode")
+	       (:commit . "05f162921fa4a6ea4c2d6b6b8329dad77bebc2a9")
+	       (:revdesc . "05f162921fa4")
+	       (:keywords "tv tropes" "trope" "wp")
+	       (:authors
+		("Sean Vo" . "triattack238@gmail.com"))
+	       (:maintainers
+		("Sean Vo" . "triattack238@gmail.com"))
+	       (:maintainer "Sean Vo" . "triattack238@gmail.com"))])
  (trr .
       [(0 1 0 1 -4 20191019 1403)
        nil "A type-writing training program on GNU Emacs" tar
