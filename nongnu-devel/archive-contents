@@ -253,7 +253,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider .
-	[(1 17 0 -4 0 20250118 90655)
+	[(1 17 0 -4 0 20250120 93508)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -281,7 +281,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "5f8b17c44778caaab0ce93f304a0e4bd484c9428"))])
+	  (:commit . "7818864a9de3cbad5f977e7a058044c76401ec1f"))])
  (clojure-mode .
 	       [(5 20 0 -4 0 20241211 152233)
 		((emacs
@@ -606,7 +606,7 @@
 		 ("Harry R. Schwartz" . "hello@harryrschwartz.com"))
 		(:commit . "f9efca3ad600e0c498cff776de5a873b8dd978cb"))])
  (evil .
-       [(1 15 0 0 20250116 102803)
+       [(1 15 0 0 20250120 195229)
 	((emacs
 	  (24 1))
 	 (cl-lib
@@ -619,7 +619,7 @@
 	((:url . "https://github.com/emacs-evil/evil")
 	 (:keywords "emulations")
 	 (:maintainer "Tom Dalziel" . "tom.dalziel@gmail.com")
-	 (:commit . "9adbebddcdd495b53748559fae7750bbcf9eec6b"))])
+	 (:commit . "c07438d3cb4ca49c9f2acc5636f8fab8a2a08c0e"))])
  (evil-anzu .
 	    [(0 2 0 20220911 193944)
 	     ((evil
@@ -1161,11 +1161,11 @@
 	      ("David Andersson" . "l.david.anderssonsverige.nu"))
 	     (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel .
-	[(0 9 7 0 20250119 204825)
+	[(0 9 7 0 20250120 95913)
 	 ((emacs
 	   (27 1))
 	  (transient
-	   (0 4 0))
+	   (0 7 4))
 	  (compat
 	   (29 1 4 1)))
 	 "Interact with ChatGPT or other LLMs" tar
@@ -1174,7 +1174,7 @@
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-	  (:commit . "455f540e43c90e8c16cba463916235a22f8af971"))])
+	  (:commit . "da66b37c75a48d1db075ce9dd525121e58a2c9af"))])
  (graphql-mode .
 	       [(1 0 0 0 20241206 72535)
 		((emacs
@@ -1242,7 +1242,7 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (haskell-ts-mode .
-		  [(1 0 20250119 81018)
+		  [(1 0 20250120 151713)
 		   ((emacs
 		     (29 3)))
 		   "A treesit based major mode for haskell" tar
@@ -1251,7 +1251,7 @@
 		    (:maintainer "Pranshu Sharma" . "pranshusharma366atgmail")
 		    (:authors
 		     ("Pranshu Sharma" . "pranshusharma366atgmail"))
-		    (:commit . "c85a390ea90129c7766a5c13e0cbf5e4bedaa948"))])
+		    (:commit . "fd955a92fc16cf266a5c6de8b3ec031cf0fc5871"))])
  (helm .
        [(4 0 0 20250120 80609)
 	((helm-core
@@ -2028,7 +2028,7 @@
 	   ("Tomohiro Matsuyama" . "m2ym.pub@gmail.com"))
 	  (:commit . "7a05700a37aae66d2b24f0cd8851f65383a5cf96"))])
  (projectile .
-	     [(2 9 0 -4 0 20250118 90750)
+	     [(2 9 0 -4 0 20250120 100216)
 	      ((emacs
 		(25 1)))
 	      "Manage and navigate projects in Emacs easily" tar
@@ -2037,7 +2037,7 @@
 	       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
-	       (:commit . "48c648df4ac6addb06d6a3b4180cf8dd5f3478f1"))])
+	       (:commit . "3b32633d8f90cea05de8ec04bf3b3f5e80b34935"))])
  (proof-general .
 		[(4 6 -4 0 20241126 3245)
 		 ((emacs
@@ -2060,14 +2060,14 @@
 	       ("David Christiansen" . "david@davidchristiansen.dk"))
 	      (:commit . "50b102c1c0935fd3e0c465feed7f27d66b21cdf3"))])
  (racket-mode .
-	      [(1 0 20250115 114907)
+	      [(1 0 20250120 105804)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
 	       ((:url . "https://www.racket-mode.com/")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com"))
-		(:commit . "9e6ea1fea9e99d844ae99e02719068e3b0900d0d"))])
+		(:commit . "aaae3ef6082d1875db717d314f5a46a93394a367"))])
  (rainbow-delimiters .
 		     [(2 1 5 0 20230830 160022)
 		      nil "Highlight brackets according to their depth" tar
@@ -2220,7 +2220,7 @@
 	      ("Chen Bin" . "chenbin.sh@gmail.com"))
 	     (:commit . "173e4d632c94af6670869729c09bfb8ba484d257"))])
  (slime .
-	[(2 31 -4 0 20250117 164658)
+	[(2 31 -4 0 20250120 165234)
 	 ((emacs
 	   (24 3))
 	  (macrostep
@@ -2228,7 +2228,7 @@
 	 "Superior Lisp Interaction Mode for Emacs" tar
 	 ((:url . "https://github.com/slime/slime")
 	  (:keywords "languages" "lisp" "slime")
-	  (:commit . "7f6194c8257f399e6b67b5d0147e4a857882cca2"))])
+	  (:commit . "48371a44221c58b69faab50ee5baaa47b122cbf9"))])
  (sly .
       [(1 0 43 0 20240809 211904)
        ((emacs
