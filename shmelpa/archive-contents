@@ -11295,47 +11295,49 @@
 		     (:revdesc . "7011e6634598")
 		     (:keywords "convenience"))])
  (consult-gh .
-	     [(0 1 0 1 -4 20250121 2346)
+	     [(0 1 0 1 -4 20250122 1238)
 	      ((emacs
 		(30 0))
 	       (consult
-		(202501220))
+		(20250121 1423))
 	       (markdown-mode
 		(2 6))
 	       (ox-gfm
 		(1 0)))
 	      "Consulting GitHub Client" tar
 	      ((:url . "https://github.com/armindarvish/consult-gh")
-	       (:commit . "afb5ed7ba9b0558c07571981320e0fa20409993c")
-	       (:revdesc . "afb5ed7ba9b0")
+	       (:commit . "b0211642051e246874cf960cef288fd3cd0bc170")
+	       (:revdesc . "b0211642051e")
 	       (:keywords "convenience" "matching" "tools" "vc"))])
  (consult-gh-embark .
-		    [(0 1 0 1 -4 20250120 2238)
+		    [(0 1 0 1 -4 20250122 1255)
 		     ((emacs
 		       (30 0))
-		      (embark-consult
-		       (1 1))
+		      (consult
+		       (20250121 1423))
 		      (consult-gh
-		       (2 2)))
+		       (2 2))
+		      (embark-consult
+		       (1 1)))
 		     "Embark Actions for consult-gh" tar
 		     ((:url . "https://github.com/armindarvish/consult-gh")
-		      (:commit . "ec2ae24604b0edf5eff7d7b3e203354478f8f47e")
-		      (:revdesc . "ec2ae24604b0")
+		      (:commit . "53aa5d08159c1723d4158307d757f5df3cca3ce5")
+		      (:revdesc . "53aa5d08159c")
 		      (:keywords "matching" "git" "repositories" "forges" "completion"))])
  (consult-gh-forge .
-		   [(0 1 0 1 -4 20250121 2346)
+		   [(0 1 0 1 -4 20250122 1238)
 		    ((emacs
 		      (30 0))
 		     (consult
-		      (202501220))
+		      (20250121 1423))
 		     (forge
 		      (0 3 3))
 		     (consult-gh
 		      (2 2)))
 		    "Magit/Forge Integration for consult-gh" tar
 		    ((:url . "https://github.com/armindarvish/consult-gh")
-		     (:commit . "afb5ed7ba9b0558c07571981320e0fa20409993c")
-		     (:revdesc . "afb5ed7ba9b0")
+		     (:commit . "b0211642051e246874cf960cef288fd3cd0bc170")
+		     (:revdesc . "b0211642051e")
 		     (:keywords "matching" "git" "repositories" "forges" "completion"))])
  (consult-ghq .
 	      [(0 0 5 1 -4 20231111 1303)
@@ -11697,7 +11699,7 @@
 	     ("Rakotomandimby Mihamina" . "mihamina.rakotomandimby@rktmb.org"))
 	    (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (copilot-chat .
-	       [(0 1 0 1 -4 20250113 1507)
+	       [(0 1 0 1 -4 20250122 1219)
 		((request
 		  (0 3 2))
 		 (markdown-mode
@@ -11710,8 +11712,8 @@
 		  (4 0 0)))
 		"Copilot chat interface" tar
 		((:url . "https://github.com/chep/copilot-chat.el")
-		 (:commit . "918b8d8195f029c078ffd0fcb8394e14d63c631d")
-		 (:revdesc . "918b8d8195f0")
+		 (:commit . "66946519192794c8493a1b5996d2b444b376b4c4")
+		 (:revdesc . "669465191927")
 		 (:keywords "convenience" "tools")
 		 (:authors
 		  ("cedric.chepied" . "cedric.chepied@gmail.com"))
@@ -17480,7 +17482,7 @@
 	 ("Alexey Kutepov" . "reximkut@gmail.com"))
 	(:maintainer "Alexey Kutepov" . "reximkut@gmail.com"))])
  (ebib .
-       [(0 1 0 1 -4 20250120 2351)
+       [(0 1 0 1 -4 20250122 1155)
 	((parsebib
 	  (6 0))
 	 (emacs
@@ -17489,8 +17491,8 @@
 	  (29 1 4 3)))
 	"A BibTeX database manager" tar
 	((:url . "http://joostkremers.github.io/ebib/")
-	 (:commit . "64e82377ce41d2dba182be8c9e655d40424060a0")
-	 (:revdesc . "64e82377ce41")
+	 (:commit . "afe85e3d048ec602ededc24d241b4d8bd459ea99")
+	 (:revdesc . "afe85e3d048e")
 	 (:keywords "text" "bibtex")
 	 (:authors
 	  ("Joost Kremers" . "joostkremers@fastmail.fm"))
@@ -37030,13 +37032,13 @@
 	      ("Thanh Vuong" . "thanhvg@gmail.com"))
 	     (:maintainer "Thanh Vuong" . "thanhvg@gmail.com"))])
  (howm .
-       [(0 1 0 1 -4 20250103 449)
+       [(0 1 0 1 -4 20250122 1141)
 	((cl-lib
 	  (0 5)))
 	"Wiki-like note-taking tool" tar
 	((:url . "https://kaorahi.github.io/howm/")
-	 (:commit . "b1a3066f089cebda7932f8b2cd41fd6d8a68d364")
-	 (:revdesc . "b1a3066f089c")
+	 (:commit . "f02a472ed2d79070b2ae84218051c7b066589743")
+	 (:revdesc . "f02a472ed2d7")
 	 (:authors
 	  ("HIRAOKA Kazuyuki" . "kakkokakko@gmail.com"))
 	 (:maintainers
