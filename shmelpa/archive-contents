@@ -10835,13 +10835,13 @@
 				      ("Seong Yong-ju" . "sei40kr@gmail.com"))
 				     (:maintainer "Seong Yong-ju" . "sei40kr@gmail.com"))])
  (compile-angel .
-		[(0 1 0 1 -4 20250121 2017)
+		[(0 1 0 1 -4 20250123 1751)
 		 ((emacs
 		   (26 1)))
 		 "Automatically Compile Elisp files (auto-compile alternative)" tar
 		 ((:url . "https://github.com/jamescherti/compile-angel.el")
-		  (:commit . "ad532a42573480822402bfb378671302c2c6a845")
-		  (:revdesc . "ad532a425734")
+		  (:commit . "84023838fa67621197ab7ad9a0842887d1e9e323")
+		  (:revdesc . "84023838fa67")
 		  (:keywords "convenience"))])
  (compile-multi .
 		[(0 1 0 1 -4 20250101 2156)
@@ -11295,7 +11295,7 @@
 		     (:revdesc . "7011e6634598")
 		     (:keywords "convenience"))])
  (consult-gh .
-	     [(0 1 0 1 -4 20250122 1238)
+	     [(0 1 0 1 -4 20250123 1733)
 	      ((emacs
 		(30 0))
 	       (consult
@@ -11306,11 +11306,11 @@
 		(1 0)))
 	      "Consulting GitHub Client" tar
 	      ((:url . "https://github.com/armindarvish/consult-gh")
-	       (:commit . "b0211642051e246874cf960cef288fd3cd0bc170")
-	       (:revdesc . "b0211642051e")
+	       (:commit . "144454f4dfff9b2ca0e5d8178a35fe5f68a252bf")
+	       (:revdesc . "144454f4dfff")
 	       (:keywords "convenience" "matching" "tools" "vc"))])
  (consult-gh-embark .
-		    [(0 1 0 1 -4 20250122 1255)
+		    [(0 1 0 1 -4 20250123 1733)
 		     ((emacs
 		       (30 0))
 		      (consult
@@ -11321,11 +11321,11 @@
 		       (1 1)))
 		     "Embark Actions for consult-gh" tar
 		     ((:url . "https://github.com/armindarvish/consult-gh")
-		      (:commit . "53aa5d08159c1723d4158307d757f5df3cca3ce5")
-		      (:revdesc . "53aa5d08159c")
+		      (:commit . "144454f4dfff9b2ca0e5d8178a35fe5f68a252bf")
+		      (:revdesc . "144454f4dfff")
 		      (:keywords "matching" "git" "repositories" "forges" "completion"))])
  (consult-gh-forge .
-		   [(0 1 0 1 -4 20250122 1238)
+		   [(0 1 0 1 -4 20250123 1733)
 		    ((emacs
 		      (30 0))
 		     (consult
@@ -11336,8 +11336,8 @@
 		      (2 2)))
 		    "Magit/Forge Integration for consult-gh" tar
 		    ((:url . "https://github.com/armindarvish/consult-gh")
-		     (:commit . "b0211642051e246874cf960cef288fd3cd0bc170")
-		     (:revdesc . "b0211642051e")
+		     (:commit . "144454f4dfff9b2ca0e5d8178a35fe5f68a252bf")
+		     (:revdesc . "144454f4dfff")
 		     (:keywords "matching" "git" "repositories" "forges" "completion"))])
  (consult-ghq .
 	      [(0 0 5 1 -4 20231111 1303)
@@ -11525,7 +11525,7 @@
 		 ("Titus Pinta" . "titus.pinta@gmail.com"))
 		(:maintainer "Titus Pinta" . "titus.pinta@gmail.com"))])
  (consult-todo .
-	       [(0 1 0 1 -4 20250123 752)
+	       [(0 1 0 1 -4 20250123 1632)
 		((emacs
 		  (29 1))
 		 (consult
@@ -11534,8 +11534,8 @@
 		  (3 8 2)))
 		"Search hl-todo keywords in consult" tar
 		((:url . "https://github.com/liuyinz/consult-todo")
-		 (:commit . "d454a50e9f3847b7cddaaec38e085678dcb8a894")
-		 (:revdesc . "d454a50e9f38")
+		 (:commit . "af8016ff26a8ccd5b07fcf6896a95fa28fcfca8b")
+		 (:revdesc . "af8016ff26a8")
 		 (:authors
 		  ("liuyinz" . "liuyinz@gmail.com"))
 		 (:maintainers
@@ -30012,7 +30012,7 @@
 	       (:revdesc . "cef196abf398")
 	       (:keywords "git" "version control" "release management"))])
  (git-cliff .
-	    [(0 1 0 1 -4 20250102 1432)
+	    [(0 1 0 1 -4 20250123 1829)
 	     ((emacs
 	       (29 1))
 	      (transient
@@ -30020,15 +30020,15 @@
 	      (dash
 	       (2 19 1)))
 	     "Generate and update changelog using git-cliff" tar
-	     ((:url . "https://github.com/liuyinz/git-cliff.el")
-	      (:commit . "1a8bed36236338815d5f3c1420d4e6ac9a88ca0f")
-	      (:revdesc . "1a8bed362363")
+	     ((:url . "https://github.com/eki3z/git-cliff.el")
+	      (:commit . "e2bb130a7fa35b47bd90d43af0c17d3bf6ea655b")
+	      (:revdesc . "e2bb130a7fa3")
 	      (:keywords "tools")
 	      (:authors
-	       ("liuyinz" . "liuyinz95@gmail.com"))
+	       ("Eki Zhang" . "liuyinz95@gmail.com"))
 	      (:maintainers
-	       ("liuyinz" . "liuyinz95@gmail.com"))
-	      (:maintainer "liuyinz" . "liuyinz95@gmail.com"))])
+	       ("Eki Zhang" . "liuyinz95@gmail.com"))
+	      (:maintainer "Eki Zhang" . "liuyinz95@gmail.com"))])
  (git-command .
 	      [(0 2 0 1 -4 20191028 333)
 	       ((term-run
@@ -48125,7 +48125,7 @@
 	    ("Niels Giesen" . "pfton#emacs"))
 	   (:maintainer "Niels Giesen" . "pfton#emacs"))])
  (mini-echo .
-	    [(0 1 0 1 -4 20250121 1533)
+	    [(0 1 0 1 -4 20250123 1840)
 	     ((emacs
 	       (29 1))
 	      (dash
@@ -48133,15 +48133,15 @@
 	      (hide-mode-line
 	       (1 0 3)))
 	     "Echo buffer status in minibuffer window" tar
-	     ((:url . "https://github.com/liuyinz/mini-echo.el")
-	      (:commit . "e82295c5c7506562fd6da5c907c88c0c32549e5d")
-	      (:revdesc . "e82295c5c750")
+	     ((:url . "https://github.com/eki3z/mini-echo.el")
+	      (:commit . "e3faeed53a2230287d183b2cf254ef8e16d4e95e")
+	      (:revdesc . "e3faeed53a22")
 	      (:keywords "frames")
 	      (:authors
-	       ("liuyinz" . "liuyinz95@gmail.com"))
+	       ("Eki Zhang" . "liuyinz95@gmail.com"))
 	      (:maintainers
-	       ("liuyinz" . "liuyinz95@gmail.com"))
-	      (:maintainer "liuyinz" . "liuyinz95@gmail.com"))])
+	       ("Eki Zhang" . "liuyinz95@gmail.com"))
+	      (:maintainer "Eki Zhang" . "liuyinz95@gmail.com"))])
  (mini-frame .
 	     [(1 19 1 -4 20220627 2041)
 	      ((emacs
@@ -48367,7 +48367,7 @@
 	       ("Henrik Lissner" . "contact@henrik.io"))
 	      (:maintainer "Henrik Lissner" . "contact@henrik.io"))])
  (mise .
-       [(0 1 0 1 -4 20250102 1433)
+       [(0 1 0 1 -4 20250123 1837)
 	((emacs
 	  (29 1))
 	 (inheritenv
@@ -48375,15 +48375,15 @@
 	 (dash
 	  (2 19 1)))
 	"Support for `mise' cli" tar
-	((:url . "https://github.com/liuyinz/mise.el")
-	 (:commit . "99e4ca1acd987099f84993bc8a2facb42628dcbf")
-	 (:revdesc . "99e4ca1acd98")
+	((:url . "https://github.com/eki3z/mise.el")
+	 (:commit . "eab4e60b2aae46eb2dcd1a3b5df08d8e128adf2f")
+	 (:revdesc . "eab4e60b2aae")
 	 (:keywords "tools" "processes")
 	 (:authors
-	  ("liuyinz" . "liuyinz95@gmail.com"))
+	  ("Eki Zhang" . "liuyinz95@gmail.com"))
 	 (:maintainers
-	  ("Liuyinz" . "liuyinz95@gmail.com"))
-	 (:maintainer "Liuyinz" . "liuyinz95@gmail.com"))])
+	  ("Eki Zhang" . "liuyinz95@gmail.com"))
+	 (:maintainer "Eki Zhang" . "liuyinz95@gmail.com"))])
  (mistty .
 	 [(0 1 0 1 -4 20250119 1938)
 	  ((emacs
