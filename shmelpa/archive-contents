@@ -42639,6 +42639,15 @@
 	    ((:url . "https://github.com/KMahoney/kpm-list/")
 	     (:commit . "e0f5112e5ce8ec1b603f4428fa51681c68bb28f5")
 	     (:revdesc . "e0f5112e5ce8"))])
+ (kql-mode .
+	   [(0 1 0 1 -4 20250125 1727)
+	    ((emacs
+	      (26 1)))
+	    "Major mode for highlighting KQL" tar
+	    ((:url . "https://gitlab.com/aimebertrand/kql-mode")
+	     (:commit . "3833e5d0c95ceca9b1b5ecc3ef379d184b734f04")
+	     (:revdesc . "3833e5d0c95c")
+	     (:keywords "files" "languages" "azure" "entra" "kql" "faces" "syntax" "major-mode"))])
  (kroman .
 	 [(0 1 0 1 -4 20150827 2340)
 	  nil "Korean hangul romanization" tar
@@ -44733,6 +44742,21 @@
 	 (:maintainers
 	  ("Chris McLaren" . "csmclaren@me.com"))
 	 (:maintainer "Chris McLaren" . "csmclaren@me.com"))])
+ (locs-and-refs .
+		[(0 1 0 1 -4 20250120 835)
+		 ((emacs
+		   (27 1))
+		  (pcre2el
+		   (1 12)))
+		 "Define locations and references for text files and buffers" tar
+		 ((:url . "https://github.com/phf-1/locs-and-refs")
+		  (:commit . "132abd4436c16ac02301e67d7afce9e5c935f30c")
+		  (:revdesc . "132abd4436c1")
+		  (:authors
+		   ("Pierre-Henry FRÖHRING" . "contact@phfrohring.com"))
+		  (:maintainers
+		   ("Pierre-Henry FRÖHRING" . "contact@phfrohring.com"))
+		  (:maintainer "Pierre-Henry FRÖHRING" . "contact@phfrohring.com"))])
  (lodgeit .
 	  [(1 0 1 -4 20190802 1308)
 	   nil "Paste to a lodgeit powered pastebin" tar
@@ -48322,6 +48346,23 @@
 	      (:maintainers
 	       ("jgart" . "jgart@dismail.de"))
 	      (:maintainer "jgart" . "jgart@dismail.de"))])
+ (minuet .
+	 [(0 1 0 1 -4 20250126 1823)
+	  ((emacs
+	    (29))
+	   (plz
+	    (0 9))
+	   (dash
+	    (2 19 1)))
+	  "Code completion using LLM" tar
+	  ((:url . "https://github.com/milanglacier/minuet-ai.el")
+	   (:commit . "df2478180b180d2a967e6f331535c1f8d45eaadb")
+	   (:revdesc . "df2478180b18")
+	   (:authors
+	    ("Milan Glacier" . "dev@milanglacier.com"))
+	   (:maintainers
+	    ("Milan Glacier" . "dev@milanglacier.com"))
+	   (:maintainer "Milan Glacier" . "dev@milanglacier.com"))])
  (mip-mode .
 	   [(0 1 0 1 -4 20151127 617)
 	    nil "Virtual projects for emacs" tar
@@ -48367,13 +48408,13 @@
 	  ("Eki Zhang" . "liuyinz95@gmail.com"))
 	 (:maintainer "Eki Zhang" . "liuyinz95@gmail.com"))])
  (mistty .
-	 [(0 1 0 1 -4 20250119 1938)
+	 [(0 1 0 1 -4 20250126 1726)
 	  ((emacs
 	    (29 1)))
 	  "Shell/Comint alternative based on term.el" tar
 	  ((:url . "http://github.com/szermatt/mistty")
-	   (:commit . "b369a43a0085a74d78062d336926575398e121b1")
-	   (:revdesc . "b369a43a0085")
+	   (:commit . "0622a702ddc5767b841bb0374342c0456bd1d8b8")
+	   (:revdesc . "0622a702ddc5")
 	   (:keywords "convenience" "unix")
 	   (:authors
 	    ("Stephane Zermatten" . "szermatt@gmx.net"))
@@ -76664,6 +76705,20 @@
 		    (:commit . "481df3ad2cdf569d8e6697679669ff6206fbd2f9")
 		    (:revdesc . "481df3ad2cdf")
 		    (:keywords "typescript" "languages"))])
+ (typespec-ts-mode .
+		   [(0 1 0 1 -4 20250120 743)
+		    ((emacs
+		      (29 1)))
+		    "Emacs major mode for TypeSpec (using tree-sitter)" tar
+		    ((:url . "https://github.com/pradyuman/typespec-ts-mode")
+		     (:commit . "4b814a3578b414430c99837bdc1bac8984e4994c")
+		     (:revdesc . "4b814a3578b4")
+		     (:keywords "languages" "tree-sitter" "typespec")
+		     (:authors
+		      ("Pradyuman Vig" . "me@pmn.co"))
+		     (:maintainers
+		      ("Pradyuman Vig" . "me@pmn.co"))
+		     (:maintainer "Pradyuman Vig" . "me@pmn.co"))])
  (typewriter-roll-mode .
 		       [(0 1 0 1 -4 20241127 1742)
 			((emacs
@@ -80977,6 +81032,15 @@
 	   (:maintainers
 	    ("Philip Jackson" . "phil@shellarchive.co.uk"))
 	   (:maintainer "Philip Jackson" . "phil@shellarchive.co.uk"))])
+ (xmltokf .
+	  [(0 1 0 1 -4 20250126 656)
+	   ((emacs
+	     (25 1)))
+	   "Functional wrappers around xmltok" tar
+	   ((:url . "https://github.com/paddymcall/xmltokf.el")
+	    (:commit . "b241550af98c7c367803d0fa34735c7aa0eb352c")
+	    (:revdesc . "b241550af98c")
+	    (:keywords "text" "hypermedia" "languages" "xml"))])
  (xmlunicode .
 	     [(1 26 1 -4 20230820 814)
 	      nil "Unicode support for XML" tar
