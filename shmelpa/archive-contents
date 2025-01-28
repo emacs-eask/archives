@@ -11124,15 +11124,15 @@
 		    ("Jannis Pohlmann" . "contact@jannispohlmann.de"))
 		   (:maintainer "Jannis Pohlmann" . "contact@jannispohlmann.de"))])
  (consult .
-	  [(0 1 0 1 -4 20250128 835)
+	  [(0 1 0 1 -4 20250128 1730)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30)))
 	   "Consulting completing-read" tar
 	   ((:url . "https://github.com/minad/consult")
-	    (:commit . "406aee45006ee63eede7517bd77c8239f395028c")
-	    (:revdesc . "406aee45006e")
+	    (:commit . "5b0c682d7092e02a0e8e0f047370be8c61ad3b4e")
+	    (:revdesc . "5b0c682d7092")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainers
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -11683,7 +11683,7 @@
 	     ("Rakotomandimby Mihamina" . "mihamina.rakotomandimby@rktmb.org"))
 	    (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (copilot-chat .
-	       [(0 1 0 1 -4 20250124 2300)
+	       [(0 1 0 1 -4 20250128 1735)
 		((request
 		  (0 3 2))
 		 (markdown-mode
@@ -11693,11 +11693,17 @@
 		 (chatgpt-shell
 		  (1 6 1))
 		 (magit
-		  (4 0 0)))
+		  (4 0 0))
+		 (transient
+		  (0 8 3))
+		 (org
+		  (9 4 6))
+		 (shell-maker
+		  (0 76 2)))
 		"Copilot chat interface" tar
 		((:url . "https://github.com/chep/copilot-chat.el")
-		 (:commit . "45d1ff3efee1cf35c40f5bcf5ae49ee3ad3beb37")
-		 (:revdesc . "45d1ff3efee1")
+		 (:commit . "a7e55ba820505e1106f2e557ff04e69f152c3595")
+		 (:revdesc . "a7e55ba82050")
 		 (:keywords "convenience" "tools")
 		 (:authors
 		  ("cedric.chepied" . "cedric.chepied@gmail.com"))
@@ -17000,13 +17006,13 @@
 		     ("Mohammed Sadiq" . "sadiq@sadiqpk.org"))
 		    (:maintainer "Mohammed Sadiq" . "sadiq@sadiqpk.org"))])
  (dwim-shell-command .
-		     [(0 1 0 1 -4 20241115 845)
+		     [(0 1 0 1 -4 20250128 1617)
 		      ((emacs
 			(28 1)))
 		      "Shell commands with DWIM behaviour" tar
 		      ((:url . "https://github.com/xenodium/dwim-shell-command")
-		       (:commit . "1fa8b9d361f01618bf65111ac0b253adb0599a09")
-		       (:revdesc . "1fa8b9d361f0"))])
+		       (:commit . "4a166377289ab89258fbaf6be070bbf6936c1797")
+		       (:revdesc . "4a166377289a"))])
  (dyalog-mode .
 	      [(0 7 1 -4 20230214 1027)
 	       ((cl-lib
