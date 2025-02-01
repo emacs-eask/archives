@@ -1185,7 +1185,7 @@
 	      ("David Andersson" . "l.david.anderssonsverige.nu"))
 	     (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel .
-	[(0 9 7 0 20250131 183351)
+	[(0 9 7 0 20250201 124348)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -1198,7 +1198,7 @@
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-	  (:commit . "553a4035004ef9153df8fcc3fda5593351f55fb7"))])
+	  (:commit . "1e27322633b97145cef3c6f432e1d71ef5db518f"))])
  (graphql-mode .
 	       [(1 0 0 0 20241206 72535)
 		((emacs
@@ -1277,7 +1277,7 @@
 		     ("Pranshu Sharma" . "pranshusharma366atgmail"))
 		    (:commit . "1162459e4a0ad182394f6e359bcc61c006084645"))])
  (helm .
-       [(4 0 0 20250130 110027)
+       [(4 0 0 20250201 54156)
 	((helm-core
 	  (4 0))
 	 (wfnames
@@ -1288,9 +1288,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "9a75f112a1b8a1853bdd01f351595d8981547d26"))])
+	 (:commit . "9ed0f213cb0c1086ddb646accaeb609a6ae1999b"))])
  (helm-core .
-	    [(4 0 0 20250130 110027)
+	    [(4 0 0 20250201 54156)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1300,7 +1300,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "9a75f112a1b8a1853bdd01f351595d8981547d26"))])
+	      (:commit . "9ed0f213cb0c1086ddb646accaeb609a6ae1999b"))])
  (hideshowvis .
 	      [(0 8 0 20240529 112833)
 	       ((emacs
@@ -1540,6 +1540,34 @@
 	    (:authors
 	     ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	    (:commit . "034c240c816188bf8be7441c9b0925abb92e861c"))])
+ (loopy .
+	[(0 14 0 0 20250119 13540)
+	 ((emacs
+	   (27 1))
+	  (map
+	   (3 3 1))
+	  (seq
+	   (2 22))
+	  (compat
+	   (29 1 3))
+	  (stream
+	   (2 4 0)))
+	 "A looping macro" tar
+	 ((:url . "https://github.com/okamsn/loopy")
+	  (:keywords "extensions")
+	  (:commit . "36f76980ea52a31a4c7682f7bd26c4baa32a1d4c"))])
+ (loopy-dash .
+	     [(0 13 0 0 20250114 23438)
+	      ((emacs
+		(25 1))
+	       (loopy
+		(0 13 0))
+	       (dash
+		(2 19)))
+	      "Dash destructuring for `loopy'" tar
+	      ((:url . "https://github.com/okamsn/loopy")
+	       (:keywords "extensions")
+	       (:commit . "d8ca506cd8ca3c04144670ded6c43e2e7d59afbd"))])
  (lorem-ipsum .
 	      [(0 4 0 20221214 105746)
 	       nil "Insert dummy pseudo Latin text" tar
@@ -1690,13 +1718,13 @@
 	    ("Stefan Kangas" . "stefankangas@gmail.com"))
 	   (:commit . "ed42ae8333d801c841ecf80fb5e4957badb99b51"))])
  (meow .
-       [(1 5 0 0 20250129 180058)
+       [(1 5 0 0 20250201 191149)
 	((emacs
 	  (27 1)))
 	"Yet Another modal editing" tar
 	((:url . "https://www.github.com/DogLooksGood/meow")
 	 (:keywords "convenience" "modal-editing")
-	 (:commit . "33414b9b1cd3207002a5b94d1300f2f4947e8126"))])
+	 (:commit . "0314cd1bc661c8900bae5ef65d55f67a9ddc7193"))])
  (minibar .
 	  [(0 3 0 20230414 114052)
 	   ((emacs
@@ -2101,14 +2129,14 @@
 	       ("David Christiansen" . "david@davidchristiansen.dk"))
 	      (:commit . "50b102c1c0935fd3e0c465feed7f27d66b21cdf3"))])
  (racket-mode .
-	      [(1 0 20250125 153651)
+	      [(1 0 20250201 91223)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
 	       ((:url . "https://www.racket-mode.com/")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com"))
-		(:commit . "a3bcfd2e25bb0e79a5d33b113e12a4375d99de76"))])
+		(:commit . "937ae8e207684d762619bcb6a30ee14a052636da"))])
  (rainbow-delimiters .
 		     [(2 1 5 0 20230830 160022)
 		      nil "Highlight brackets according to their depth" tar
