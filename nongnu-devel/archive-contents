@@ -404,6 +404,19 @@
 	      (:keywords "languages")
 	      (:maintainer "Jen-Chieh Shen" . "jcs090218@gmail.com")
 	      (:commit . "02e919c1cf200b4938139c18068577faff1fb364"))])
+ (datetime .
+	   [(0 10 2 -4 0 20240418 160158)
+	    ((emacs
+	      (25 1))
+	     (extmap
+	      (1 1 1)))
+	    "Parsing, formatting and matching timestamps" tar
+	    ((:url . "https://github.com/doublep/datetime")
+	     (:keywords "lisp" "i18n")
+	     (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
+	     (:authors
+	      ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
+	     (:commit . "38f0e180ae36257d77ce9612dfca8404f39ddcfc"))])
  (denote-refs .
 	      [(0 1 2 0 20230115 155857)
 	       ((emacs
@@ -835,7 +848,7 @@
 	   ((:url . "https://github.com/lewang/flx")
 	    (:commit . "4b1346eb9a8a76ee9c9dede69738c63ad97ac5b6"))])
  (flycheck .
-	   [(35 0 -4 0 20250109 71404)
+	   [(35 0 -4 0 20250201 75945)
 	    ((emacs
 	      (27 1)))
 	    "On-the-fly syntax checking" tar
@@ -847,7 +860,7 @@
 	      ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
-	     (:commit . "87ad201889b2055d0c4b0839d2f8b80eeccae59e"))])
+	     (:commit . "af1e8ca7257298dd6c51ed4424c09283b4fedb7a"))])
  (flymake-guile .
 		[(0 5 0 20230905 194410)
 		 ((emacs
@@ -1172,7 +1185,7 @@
 	      ("David Andersson" . "l.david.anderssonsverige.nu"))
 	     (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel .
-	[(0 9 7 0 20250131 323)
+	[(0 9 7 0 20250131 183351)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -1185,7 +1198,7 @@
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-	  (:commit . "e1c01f86e602be606915ce18440fb775f8384e77"))])
+	  (:commit . "553a4035004ef9153df8fcc3fda5593351f55fb7"))])
  (graphql-mode .
 	       [(1 0 0 0 20241206 72535)
 		((emacs
@@ -1510,6 +1523,23 @@
 		(:authors
 		 ("Shodai Yokoyama" . "(quantumcars@gmail.com)"))
 		(:commit . "fddd747e5b4736e8b27a147960f369b86179ddff"))])
+ (logview .
+	  [(0 19 2 -4 0 20241225 141048)
+	   ((emacs
+	     (25 1))
+	    (datetime
+	     (0 8))
+	    (extmap
+	     (1 0))
+	    (compat
+	     (29)))
+	   "Major mode for viewing log files" tar
+	   ((:url . "https://github.com/doublep/logview")
+	    (:keywords "files" "tools")
+	    (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
+	    (:authors
+	     ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
+	    (:commit . "034c240c816188bf8be7441c9b0925abb92e861c"))])
  (lorem-ipsum .
 	      [(0 4 0 20221214 105746)
 	       nil "Insert dummy pseudo Latin text" tar
@@ -2039,7 +2069,7 @@
 	   ("Tomohiro Matsuyama" . "m2ym.pub@gmail.com"))
 	  (:commit . "7a05700a37aae66d2b24f0cd8851f65383a5cf96"))])
  (projectile .
-	     [(2 9 0 -4 0 20250131 200909)
+	     [(2 9 0 -4 0 20250131 213250)
 	      ((emacs
 		(26 1)))
 	      "Manage and navigate projects in Emacs easily" tar
@@ -2048,7 +2078,7 @@
 	       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
-	       (:commit . "c64975df4e882f8434029ec62ca91a2606d52995"))])
+	       (:commit . "9dd005e7f9b9b36e6a6513eaf4cf565603836e09"))])
  (proof-general .
 		[(4 6 -4 0 20250129 125602)
 		 ((emacs
