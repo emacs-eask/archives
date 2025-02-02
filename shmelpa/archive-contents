@@ -60616,6 +60616,20 @@
 	      (:maintainers
 	       ("Johan Claesson" . "johanwclaesson@gmail.com"))
 	      (:maintainer "Johan Claesson" . "johanwclaesson@gmail.com"))])
+ (pif .
+      [(0 1 0 1 -4 20250127 1429)
+       ((emacs
+	 (29 1)))
+       "Prevent Initial Flash of Light" tar
+       ((:url . "https://github.com/oliverepper/pif")
+	(:commit . "28da7a9024b32170ad977fdfbe3ebaf5adf83ecc")
+	(:revdesc . "28da7a9024b3")
+	(:keywords "convenience" "faces" "display" "startup" "appearance" "dark-theme")
+	(:authors
+	 ("Oliver Epper" . "oliver.epper@gmail.com"))
+	(:maintainers
+	 ("Oliver Epper" . "oliver.epper@gmail.com"))
+	(:maintainer "Oliver Epper" . "oliver.epper@gmail.com"))])
  (pig-mode .
 	   [(20130821 1454 1 -4 20180520 1400)
 	    nil "Major mode for Pig files" tar
@@ -72158,6 +72172,17 @@
 		       (:keywords "c" "languages" "tools")
 		       (:authors
 			("Do Hoang" . "tuhdo1710@gmail.com")))])
+ (stillness-mode .
+		 [(0 1 0 1 -4 20250126 2133)
+		  ((emacs
+		    (26 1))
+		   (dash
+		    (2 18 0)))
+		  "Prevent windows from jumping on minibuffer activation" tar
+		  ((:url . "https://github.com/neeasade/stillness-mode.el")
+		   (:commit . "b7bdde04529126a0b4fba263efd7b4786fd24682")
+		   (:revdesc . "b7bdde045291")
+		   (:keywords "convenience"))])
  (stimmung-themes .
 		  [(0 1 0 1 -4 20241030 823)
 		   ((emacs
@@ -73839,7 +73864,7 @@
 	  ("Mark T. Kennedy" . "mtk@acm.org"))
 	 (:maintainer "Mark T. Kennedy" . "mtk@acm.org"))])
  (telega .
-	 [(0 1 0 1 -4 20250201 720)
+	 [(0 1 0 1 -4 20250202 2123)
 	  ((emacs
 	    (27 1))
 	   (visual-fill-column
@@ -73848,8 +73873,8 @@
 	    (0 3 0)))
 	  "Telegram client (unofficial)" tar
 	  ((:url . "https://github.com/zevlg/telega.el")
-	   (:commit . "cd73d4ca12769d44a791dcd95cd79202d6bf377b")
-	   (:revdesc . "cd73d4ca1276")
+	   (:commit . "06a428f5fe4e9bf4593dcf2b44763add797d4e3a")
+	   (:revdesc . "06a428f5fe4e")
 	   (:keywords "comm")
 	   (:authors
 	    ("Zajcev Evgeny" . "zevlg@yandex.ru"))
