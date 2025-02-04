@@ -463,7 +463,7 @@
 	       ("Campbell Barton" . "ideasman42@gmail.com"))
 	      (:commit . "13f5938a087362776dd0e883734d48c610a0b379"))])
  (dirvish .
-	  [(2 0 53 0 20250202 150346)
+	  [(2 0 53 0 20250204 4316)
 	   ((emacs
 	     (27 1))
 	    (transient
@@ -474,7 +474,7 @@
 	    (:maintainer "Alex Lu" . "https://github.com/alexluigit")
 	    (:authors
 	     ("Alex Lu" . "https://github.com/alexluigit"))
-	    (:commit . "c0b435c4a546e879d2029fd77b94d710bb8dc8d1"))])
+	    (:commit . "f05c4d7847af55061bf700f5e22e6229d12de2f2"))])
  (doc-show-inline .
 		  [(0 1 0 20241208 50508)
 		   ((emacs
@@ -1277,7 +1277,7 @@
 		     ("Pranshu Sharma" . "pranshusharma366atgmail"))
 		    (:commit . "fc4bf18386d37cf398db5fd8e99c3c8c0dd4be69"))])
  (helm .
-       [(4 0 0 20250201 54156)
+       [(4 0 0 20250204 62423)
 	((helm-core
 	  (4 0))
 	 (wfnames
@@ -1288,9 +1288,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "9ed0f213cb0c1086ddb646accaeb609a6ae1999b"))])
+	 (:commit . "1dfabbd368a2c73646f8d5ebbaeb47cdb38e57cc"))])
  (helm-core .
-	    [(4 0 0 20250201 54156)
+	    [(4 0 0 20250204 62423)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1300,7 +1300,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "9ed0f213cb0c1086ddb646accaeb609a6ae1999b"))])
+	      (:commit . "1dfabbd368a2c73646f8d5ebbaeb47cdb38e57cc"))])
  (hideshowvis .
 	      [(0 8 0 20240529 112833)
 	       ((emacs
@@ -1523,6 +1523,16 @@
 		(:authors
 		 ("Shodai Yokoyama" . "(quantumcars@gmail.com)"))
 		(:commit . "fddd747e5b4736e8b27a147960f369b86179ddff"))])
+ (llama .
+	[(0 6 0 0 20250201 130026)
+	 ((emacs
+	   (26 1))
+	  (compat
+	   (30 0 2 0)))
+	 "Compact syntax for short lambda" tar
+	 ((:url . "https://github.com/tarsius/llama")
+	  (:keywords "extensions")
+	  (:commit . "9802c215a3eea748d9d7f81a1465850388006897"))])
  (logview .
 	  [(0 19 2 -4 0 20250203 195605)
 	   ((emacs
@@ -1617,19 +1627,19 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit .
-	[(4 2 0 0 20250130 203401)
+	[(4 2 0 0 20250203 232159)
 	 ((emacs
 	   (27 1))
 	  (compat
-	   (30 0 1 0))
-	  (dash
-	   (2 19 1))
+	   (30 0 2 0))
+	  (llama
+	   (0 6 0))
 	  (magit-section
 	   (4 2 0))
 	  (seq
 	   (2 24))
 	  (transient
-	   (0 8 2))
+	   (0 8 4))
 	  (with-editor
 	   (3 4 3)))
 	 "A Git porcelain inside Emacs" tar
@@ -1641,15 +1651,15 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	  (:commit . "becbda1071a1dc5fac47854f6d02e576d704fdd0"))])
+	  (:commit . "e959ab1057016fd1759b9b4a930eca8aa71828ef"))])
  (magit-section .
-		[(4 2 0 0 20250130 203401)
+		[(4 2 0 0 20250203 232159)
 		 ((emacs
 		   (27 1))
 		  (compat
-		   (30 0 1 0))
-		  (dash
-		   (2 19 1))
+		   (30 0 2 0))
+		  (llama
+		   (0 6 0))
 		  (seq
 		   (2 24)))
 		 "Sections for read-only buffers" tar
@@ -1658,7 +1668,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "becbda1071a1dc5fac47854f6d02e576d704fdd0"))])
+		  (:commit . "e959ab1057016fd1759b9b4a930eca8aa71828ef"))])
  (markdown-mode .
 		[(2 7 -3 0 20250115 165803)
 		 ((emacs
