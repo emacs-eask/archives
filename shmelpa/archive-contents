@@ -28298,11 +28298,11 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20250203 1409)
+	[(0 1 0 1 -4 20250204 1340)
 	 ((emacs
 	   (29 1))
 	  (compat
-	   (30 0 1 0))
+	   (30 0 2 0))
 	  (closql
 	   (2 2 0))
 	  (emacsql
@@ -28314,19 +28314,19 @@
 	  (llama
 	   (0 6 0))
 	  (magit
-	   (4 2 0))
+	   (4 3 0))
 	  (markdown-mode
 	   (2 6))
 	  (seq
 	   (2 24))
 	  (transient
-	   (0 8 2))
+	   (0 8 4))
 	  (yaml
-	   (0 5 5)))
+	   (1 0 0)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "b17be58bc995f8cd3e00c87fb828458f1c5d52fa")
-	  (:revdesc . "b17be58bc995")
+	  (:commit . "33e240d360b8e3950e9c8b7024e3e763465c0c13")
+	  (:revdesc . "33e240d360b8")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -33046,13 +33046,13 @@
 		       (:revdesc . "a2c6a0791759")
 		       (:keywords "haskell" "emacs" "ffi"))])
  (haskell-mode .
-	       [(0 1 0 1 -4 20250116 1954)
+	       [(0 1 0 1 -4 20250202 2044)
 		((emacs
 		  (25 1)))
 		"A Haskell editing mode" tar
 		((:url . "https://github.com/haskell/haskell-mode")
-		 (:commit . "4cec530008ef4054826eb1b55d6b26ae8e2807c0")
-		 (:revdesc . "4cec530008ef")
+		 (:commit . "a41e809986cb31422a4945e15c6683bb1b744c66")
+		 (:revdesc . "a41e809986cb")
 		 (:keywords "haskell" "cabal" "ghc" "repl" "languages"))])
  (haskell-snippets .
 		   [(0 1 0 1 -4 20210228 344)
@@ -33226,15 +33226,15 @@
 		(:revdesc . "8c70b48fe5fb")
 		(:keywords "faces"))])
  (helm .
-       [(0 1 0 1 -4 20250204 624)
+       [(0 1 0 1 -4 20250204 1208)
 	((helm-core
 	  (4 0))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
-	 (:commit . "1dfabbd368a2c73646f8d5ebbaeb47cdb38e57cc")
-	 (:revdesc . "1dfabbd368a2")
+	 (:commit . "3f461712084446e59c4c563acef081c7dc484301")
+	 (:revdesc . "3f4617120844")
 	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
@@ -45929,7 +45929,7 @@
 	       (:revdesc . "441389f75bdf")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20250203 2321)
+	[(0 1 0 1 -4 20250204 1334)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -45937,7 +45937,7 @@
 	  (llama
 	   (0 6 0))
 	  (magit-section
-	   (4 2 0))
+	   (4 3 0))
 	  (seq
 	   (2 24))
 	  (transient
@@ -45946,8 +45946,8 @@
 	   (3 4 3)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "e959ab1057016fd1759b9b4a930eca8aa71828ef")
-	  (:revdesc . "e959ab105701")
+	  (:commit . "f52dfada8fa0fa6cd70886819868d84e198773a3")
+	  (:revdesc . "f52dfada8fa0")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -46299,7 +46299,7 @@
 		       ("Jules Tamagnan" . "jtamagnan@gmail.com"))
 		      (:maintainer "Jules Tamagnan" . "jtamagnan@gmail.com"))])
  (magit-section .
-		[(0 1 0 1 -4 20250203 1351)
+		[(0 1 0 1 -4 20250204 1334)
 		 ((emacs
 		   (27 1))
 		  (compat
@@ -46310,8 +46310,8 @@
 		   (2 24)))
 		 "Sections for read-only buffers" tar
 		 ((:url . "https://github.com/magit/magit")
-		  (:commit . "e40e8f199447bc8f121ad128ecd50017a595659f")
-		  (:revdesc . "e40e8f199447")
+		  (:commit . "f52dfada8fa0fa6cd70886819868d84e198773a3")
+		  (:revdesc . "f52dfada8fa0")
 		  (:keywords "tools")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -62702,13 +62702,13 @@
 		     (:commit . "36bec1109ba0498c2d1ef29756c841d2e23b063e")
 		     (:revdesc . "36bec1109ba0"))])
  (projectile .
-	     [(0 1 0 1 -4 20250203 2035)
+	     [(0 1 0 1 -4 20250204 1346)
 	      ((emacs
 		(26 1)))
 	      "Manage and navigate projects in Emacs easily" tar
 	      ((:url . "https://github.com/bbatsov/projectile")
-	       (:commit . "a4a6cacd908bc614d60c6233a7f224baebfe1178")
-	       (:revdesc . "a4a6cacd908b")
+	       (:commit . "1d02b6a391a81a0011aa16128170798bab6d7f3f")
+	       (:revdesc . "1d02b6a391a8")
 	       (:keywords "project" "convenience")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -63470,13 +63470,13 @@
 		    ("Stefan Möding" . "stm@kill-9.net"))
 		   (:maintainer "Stefan Möding" . "stm@kill-9.net"))])
  (purescript-mode .
-		  [(0 1 0 1 -4 20241210 1117)
+		  [(0 1 0 1 -4 20250204 1410)
 		   ((emacs
 		     (25 1)))
 		   "A PureScript editing mode" tar
 		   ((:url . "https://github.com/purescript-emacs/purescript-mode")
-		    (:commit . "07e4d6ecfe677d595ed3759c912c0b262d886b98")
-		    (:revdesc . "07e4d6ecfe67")
+		    (:commit . "e0de552627487e4c6613318e42d4402563362d28")
+		    (:revdesc . "e0de55262748")
 		    (:keywords "faces" "files" "purescript")
 		    (:authors
 		     ("1997-1998 Graeme E Moss and" . "gem@cs.york.ac.uk")
