@@ -232,14 +232,14 @@
 	   ("John Wiegley" . "jwiegley@gmail.com"))
 	  (:commit . "b99658e831bc7e7d20ed4bb0a85bdb5c7dd74142"))])
  (auctex .
-	 [(14 0 8 0 20250122 201658)
+	 [(14 0 8 0 20250207 132239)
 	  ((emacs
 	    (27 1)))
 	  "Integrated environment for *TeX*" tar
 	  ((:url . "https://www.gnu.org/software/auctex/")
 	   (:keywords "tex" "latex" "texinfo" "context" "doctex" "preview-latex")
 	   (:maintainer nil . "auctex-devel@gnu.org")
-	   (:commit . "efc1355ca3cea1b48c08bda2759bfb6030146d73"))])
+	   (:commit . "2b2b91de473c1501692652c7e9a802f103b82ab7"))])
  (auctex-cont-latexmk .
 		      [(0 3 0 20250115 185937)
 		       ((emacs
@@ -275,6 +275,18 @@
 	       (:authors
 		("Kevin Ryde" . "user42_kevin@yahoo.com.au"))
 	       (:commit . "ded8e75454a3d33f93efc8a5ca2c6041173d6c74"))])
+ (auth-source-xoauth2-plugin .
+			     [(0 1 0 20250201 220645)
+			      ((emacs
+				(28 1))
+			       (oauth2
+				(0 17)))
+			      "authentication source plugin for xoauth2" tar
+			      ((:maintainer "Xiyue Deng" . "manphiz@gmail.com")
+			       (:authors
+				("Xiyue Deng" . "manphiz@gmail.com"))
+			       (:url . "https://elpa.gnu.org/packages/auth-source-xoauth2-plugin.html")
+			       (:commit . "991ef1751a31fb0157ccc16245903bf1743615ed"))])
  (auto-correct .
 	       [(1 1 4 0 20221221 74656)
 		nil "Remembers and automatically fixes past corrections" tar
@@ -315,6 +327,17 @@
 	      (:authors
 	       ("Philip Kaludercic" . "philipk@posteo.net"))
 	      (:commit . "dc0223f11daf526621fda206b38bf06c29759c94"))])
+ (autorevert-tail-truncate .
+			   [(1 0 -1 0 20250207 125358)
+			    ((emacs
+			      (29 1)))
+			    "auto-revert-tail your files with RAM control" tar
+			    ((:url . "https://github.com/shipmints/autorevert-tail-truncate.el")
+			     (:keywords "convenience" "tools" "log files" "autorevert")
+			     (:maintainer "Stephane Marks" . "shipmints@gmail.com")
+			     (:authors
+			      ("Stephane Marks" . "shipmints@gmail.com"))
+			     (:commit . "d1b9c3f6fb8ba963d562a77539ea50ab34e0c988"))])
  (avy .
       [(0 5 0 0 20241101 125753)
        ((emacs
@@ -650,7 +673,7 @@
 		("Augusto Stoffel" . "arstoffel@gmail.com"))
 	       (:commit . "caffb420be106cebbdfe4474ed0507a601603f83"))])
  (colorful-mode .
-		[(1 1 0 0 20250206 221953)
+		[(1 1 0 0 20250207 130750)
 		 ((emacs
 		   (28 1))
 		  (compat
@@ -661,7 +684,7 @@
 		  (:maintainer "Jen-Chieh" . "jcs090218@gmail.com")
 		  (:authors
 		   ("Elias G. Perez" . "eg642616@gmail.com"))
-		  (:commit . "1aece9055546b30157c83b3b7cb51e808eeeca37"))])
+		  (:commit . "2032b8e5bbe61039bfc9b3668bb60f1067c4c5df"))])
  (comint-mime .
 	      [(0 7 0 20241116 123039)
 	       ((emacs
@@ -759,7 +782,7 @@
 	       ("Carsten Dominik" . "carsten.dominik@gmail.com"))
 	      (:commit . "f07e221d4d5597c7ccf4b0003c0909a88bdfcc9e"))])
  (consult .
-	  [(2 0 0 20250128 173030)
+	  [(2 0 0 20250207 161222)
 	   ((emacs
 	     (28 1))
 	    (compat
@@ -768,7 +791,7 @@
 	   ((:url . "https://github.com/minad/consult")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-	    (:commit . "5b0c682d7092e02a0e8e0f047370be8c61ad3b4e"))])
+	    (:commit . "c74ae6149172e3429b844c22d67e02b01abea1e4"))])
  (consult-denote .
 		 [(0 2 4 0 20250121 61759)
 		  ((emacs
@@ -1370,7 +1393,7 @@
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	      (:commit . "03017b99c673b47957fe813b3934bcd2ae3f9557"))])
  (eglot .
-	[(1 18 0 20250204 145951)
+	[(1 18 0 20250207 203403)
 	 ((emacs
 	   (26 3))
 	  (eldoc
@@ -1393,7 +1416,7 @@
 	  (:maintainer "João Távora" . "joaotavora@gmail.com")
 	  (:authors
 	   ("João Távora" . "joaotavora@gmail.com"))
-	  (:commit . "782ec71053d8535511522f27f28c11682ca0f40b"))])
+	  (:commit . "93206cbcea31add3da76cc1025b2f148312fe6f1"))])
  (el-search .
 	    [(1 12 6 1 0 20221221 75346)
 	     ((emacs
@@ -2362,7 +2385,7 @@
 		(:url . "https://elpa.gnu.org/packages/jgraph-mode.html")
 		(:commit . "1bd355ecda036f23468d82b803146d3258a84977"))])
  (jinx .
-       [(1 12 0 20250128 70732)
+       [(1 12 0 20250207 140139)
 	((emacs
 	  (28 1))
 	 (compat
@@ -2373,7 +2396,7 @@
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	 (:commit . "2144d03f7bcc3f461b4e67f913dfc0055e4ad7e2"))])
+	 (:commit . "e1a5a8921e42cd4ae7cb0dba95fe968d04359ee0"))])
  (jit-spell .
 	    [(0 4 0 20240810 110215)
 	     ((emacs
