@@ -328,7 +328,7 @@
 	       ("Philip Kaludercic" . "philipk@posteo.net"))
 	      (:commit . "dc0223f11daf526621fda206b38bf06c29759c94"))])
  (autorevert-tail-truncate .
-			   [(1 0 -1 0 20250207 125358)
+			   [(1 0 0 0 20250208 61538)
 			    ((emacs
 			      (29 1)))
 			    "auto-revert-tail your files with RAM control" tar
@@ -337,7 +337,7 @@
 			     (:maintainer "Stephane Marks" . "shipmints@gmail.com")
 			     (:authors
 			      ("Stephane Marks" . "shipmints@gmail.com"))
-			     (:commit . "d1b9c3f6fb8ba963d562a77539ea50ab34e0c988"))])
+			     (:commit . "a9ce5a63d37c0a5ab3603d168599c72fbd57da50"))])
  (avy .
       [(0 5 0 0 20241101 125753)
        ((emacs
@@ -403,7 +403,7 @@
 	      ("John Wiegley" . "johnw@newartisans.com"))
 	     (:commit . "b36b1be491e0b19062fa38ee197aa3daeba96415"))])
  (blist .
-	[(0 4 0 20240807 40202)
+	[(0 4 0 20250207 24413)
 	 ((ilist
 	   (0 4))
 	  (emacs
@@ -414,7 +414,7 @@
 	  (:maintainer "Durand" . "durand@jsdurand.xyz")
 	  (:authors
 	   ("Durand" . "durand@jsdurand.xyz"))
-	  (:commit . "f5751add5626ad437459e484b66219952287c517"))])
+	  (:commit . "abf7cc1d6dc1075c64f158ee296d4567d30b3bcf"))])
  (bluetooth .
 	    [(0 4 1 0 20241028 70437)
 	     ((emacs
@@ -473,7 +473,7 @@
 		   ("Amy Grinn" . "grinn.amy@gmail.com"))
 		  (:commit . "d9ff199273bd96011fe5bfe20cafab57dc189930"))])
  (breadcrumb .
-	     [(1 0 1 0 20231126 221621)
+	     [(1 0 1 0 20250208 145328)
 	      ((emacs
 		(28 1))
 	       (project
@@ -483,7 +483,7 @@
 	       (:authors
 		("João Távora" . "joaotavora@gmail.com"))
 	       (:url . "https://elpa.gnu.org/packages/breadcrumb.html")
-	       (:commit . "dcb6e2e82de2432d8eb75be74c8d6215fc97a2d3"))])
+	       (:commit . "da34d030e6d01db2bba45b30080204b23a714c9f"))])
  (brief .
 	[(5 92 0 20240823 62608)
 	 ((nadvice
@@ -673,7 +673,7 @@
 		("Augusto Stoffel" . "arstoffel@gmail.com"))
 	       (:commit . "caffb420be106cebbdfe4474ed0507a601603f83"))])
  (colorful-mode .
-		[(1 1 0 0 20250207 130750)
+		[(1 1 0 0 20250208 162726)
 		 ((emacs
 		   (28 1))
 		  (compat
@@ -681,10 +681,12 @@
 		 "Preview any color in your buffer in real time" tar
 		 ((:url . "https://github.com/DevelopmentCool2449/colorful-mode")
 		  (:keywords "faces" "tools" "matching" "convenience")
-		  (:maintainer "Jen-Chieh" . "jcs090218@gmail.com")
+		  (:maintainer
+		   ("Jen-Chieh" . "jcs090218@gmail.com")
+		   ("Elias G. Perez" . "eg642616@gmail.com"))
 		  (:authors
 		   ("Elias G. Perez" . "eg642616@gmail.com"))
-		  (:commit . "2032b8e5bbe61039bfc9b3668bb60f1067c4c5df"))])
+		  (:commit . "c57656d9376125df9e58016a7dbbdf346d67055e"))])
  (comint-mime .
 	      [(0 7 0 20241116 123039)
 	       ((emacs
@@ -1021,7 +1023,7 @@
 		 (:url . "https://elpa.gnu.org/packages/dbus-codegen.html")
 		 (:commit . "04114e4cbc8f422e6b77cfc202d1109c96316117"))])
  (debbugs .
-	  [(0 43 0 20250128 92424)
+	  [(0 43 0 20250208 110220)
 	   ((emacs
 	     (26 1))
 	    (soap-client
@@ -1032,7 +1034,7 @@
 	    (:authors
 	     ("Michael Albinus" . "michael.albinus@gmx.de"))
 	    (:url . "https://elpa.gnu.org/packages/debbugs.html")
-	    (:commit . "71d3ab1e248a035e68f2a7907c1424417884b8c6"))])
+	    (:commit . "af445940e35a7d60799832a907b9d24197d4a996"))])
  (delight .
 	  [(1 7 0 20200711 42851)
 	   ((cl-lib
@@ -1382,7 +1384,7 @@
 	 ("Eduardo Ochs" . "eduardoochs@gmail.com"))
 	(:commit . "678d194374bce0453028bccfc4ecb6a83b7ad714"))])
  (ef-themes .
-	    [(1 9 0 0 20250127 85559)
+	    [(1 9 0 0 20250208 100006)
 	     ((emacs
 	       (28 1)))
 	     "Colorful and legible themes" tar
@@ -1391,7 +1393,7 @@
 	      (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	      (:authors
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	      (:commit . "03017b99c673b47957fe813b3934bcd2ae3f9557"))])
+	      (:commit . "9fca59c2fe2e90ed63e34b811595e7708928a050"))])
  (eglot .
 	[(1 18 0 20250208 134208)
 	 ((emacs
@@ -1480,7 +1482,7 @@
 		     (:url . "https://elpa.gnu.org/packages/elisp-benchmarks.html")
 		     (:commit . "03e668caf878c9b9780356e447e3fd85e0696f77"))])
  (ellama .
-	 [(0 13 5 0 20250202 144902)
+	 [(0 13 7 0 20250208 110313)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -1497,7 +1499,7 @@
 	   (:maintainer "Sergey Kostyaev" . "sskostyaev@gmail.com")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
-	   (:commit . "ed530c7f0d7d0aa9916ca73016034829731ddc54"))])
+	   (:commit . "cc436ef525b15015b99becb032bffb2c71a77e58"))])
  (emacs-gc-stats .
 		 [(1 4 2 0 20231206 152254)
 		  ((emacs
@@ -2190,7 +2192,7 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:commit . "54e9db2b023e03b6f6b46aeec48ea74fd51d4e11"))])
  (hyperbole .
-	    [(9 0 2 -1 0 20250206 124635)
+	    [(9 0 2 -1 0 20250208 215943)
 	     ((emacs
 	       (27 2)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
@@ -2199,7 +2201,7 @@
 	      (:maintainer "Robert Weiner" . "rsw@gnu.org")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
-	      (:commit . "e81710d3780ed68a8048a269cc2b1521f7ad58b7"))])
+	      (:commit . "c3ff71d9ce31a333470ab8d73fe13ab84ad8af66"))])
  (idlwave .
 	  [(6 5 1 0 20240523 142720)
 	   nil "IDL editing mode for GNU Emacs" tar
@@ -2628,7 +2630,7 @@
 		      ("Sean Whitton" . "spwhitton@spwhitton.name"))
 		     (:commit . "c22a15e86acf28da716532c26ba1371574c8e979"))])
  (llm .
-      [(0 23 0 0 20250201 1321)
+      [(0 23 0 0 20250208 202943)
        ((emacs
 	 (28 1))
 	(plz
@@ -2642,7 +2644,7 @@
 	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
-	(:commit . "874d76211c6933f2f5e41583a495e9b3aee51fb3"))])
+	(:commit . "1d2250805db9e71d7d004cc0a86077ae4e498213"))])
  (lmc .
       [(1 4 0 20230105 113402)
        ((emacs
@@ -2890,7 +2892,7 @@
 	      ("Michael Abraham Shulman" . "viritrilbia@gmail.com"))
 	     (:commit . "b1f5c7dbdc405e6e10d9ddd99a43a6b2ad61b176"))])
  (modus-themes .
-	       [(4 6 0 0 20250127 85644)
+	       [(4 6 0 0 20250208 95815)
 		((emacs
 		  (28 1)))
 		"Elegant, highly legible and customizable themes" tar
@@ -2899,7 +2901,7 @@
 		 (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		 (:commit . "4b10426687d2b417a93ccffbe8d05b2039aa7d7c"))])
+		 (:commit . "610ae60123707c4669651b8da3308e9c54b83620"))])
  (mpdired .
 	  [(2 0 20240614 95804)
 	   ((emacs
@@ -3994,18 +3996,18 @@
 	    (:url . "https://elpa.gnu.org/packages/satchel.html")
 	    (:commit . "d741c1f36cca51a64a2d02a58f9ae25f25f84e8b"))])
  (scanner .
-	  [(0 2 0 20210104 105054)
+	  [(0 3 0 20250208 195044)
 	   ((emacs
 	     (25 1))
 	    (dash
 	     (2 12 0)))
 	   "Scan documents and images" tar
-	   ((:url . "https://gitlab.com/rstocker/scanner.git")
+	   ((:url . "https://codeberg.org/rstocker/scanner.git")
 	    (:keywords "hardware" "multimedia")
 	    (:maintainer "Raffael Stocker" . "r.stocker@mnet-mail.de")
 	    (:authors
 	     ("Raffael Stocker" . "r.stocker@mnet-mail.de"))
-	    (:commit . "43cf030c7338d59f42b90c2d45e2eb7755623447"))])
+	    (:commit . "44eab47963a61e67cd4aa3a96a6762764367de5f"))])
  (scroll-restore .
 		 [(1 0 0 20221221 81959)
 		  nil "restore original position after scrolling" tar
@@ -4319,7 +4321,7 @@
 		("Christian Johansson" . "christian@cvj.se"))
 	       (:commit . "dc8882d1806c0fdd635bc625b109179dfa3c929c"))])
  (standard-themes .
-		  [(2 2 0 0 20250127 85517)
+		  [(2 2 0 0 20250208 100140)
 		   ((emacs
 		     (28 1)))
 		   "Like the default theme but more consistent" tar
@@ -4328,7 +4330,7 @@
 		    (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 		    (:authors
 		     ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		    (:commit . "6a118f749eb9fde4418690f17502d6590631a18c"))])
+		    (:commit . "4eaea72366f0d589efc11f7223c355147c951196"))])
  (stream .
 	 [(2 4 0 0 20250102 122330)
 	  ((emacs
@@ -5282,7 +5284,7 @@
 		("Philip Kaludercic" . "philipk@posteo.net"))
 	       (:commit . "2bb88d0dc526177c3c6612d6585cee6b2c57803a"))])
  (yaml .
-       [(1 1 0 0 20250204 162341)
+       [(1 2 0 0 20250208 153456)
 	((emacs
 	  (25 1)))
 	"YAML parser for Elisp" tar
@@ -5291,7 +5293,7 @@
 	 (:maintainer "Zachary Romero" . "zkry@posteo.org")
 	 (:authors
 	  ("Zachary Romero" . "zkry@posteo.org"))
-	 (:commit . "73a9f5356284716a123952ce194c14ad9d183444"))])
+	 (:commit . "09e46d563f1f3ff948852e08360c7d3c76e2acba"))])
  (yasnippet .
 	    [(0 14 1 0 20250112 175154)
 	     ((cl-lib
