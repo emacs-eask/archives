@@ -7157,15 +7157,15 @@
 			 ("Mikhail Gusarov" . "mikhail.gusarov@cfengine.com"))
 			(:maintainer "Mikhail Gusarov" . "mikhail.gusarov@cfengine.com"))])
  (cff .
-      [(1 0 1 1 -4 20160118 2018)
+      [(0 1 0 1 -4 20250209 2203)
        ((cl-lib
 	 (0 5))
 	(emacs
 	 (24)))
        "Search of the C/C++ file header by the source and vice versa" tar
        ((:url . "https://github.com/fourier/cff")
-	(:commit . "b6ab2a28e64ef06f281ec74cfe3114e450644dfa")
-	(:revdesc . "b6ab2a28e64e")
+	(:commit . "2c14de7e104302c040a687cf103fddcb99bb562f")
+	(:revdesc . "2c14de7e1043")
 	(:keywords "find-file")
 	(:authors
 	 ("Alexey Veretennikov" . "alexey.veretennikov@gmail.com"))
@@ -10835,13 +10835,13 @@
 				      ("Seong Yong-ju" . "sei40kr@gmail.com"))
 				     (:maintainer "Seong Yong-ju" . "sei40kr@gmail.com"))])
  (compile-angel .
-		[(0 1 0 1 -4 20250204 1654)
+		[(0 1 0 1 -4 20250209 2223)
 		 ((emacs
 		   (26 1)))
 		 "Automatically Compile Elisp files (auto-compile alternative)" tar
 		 ((:url . "https://github.com/jamescherti/compile-angel.el")
-		  (:commit . "71f6cae711c943354dea34d35b435f84f6607129")
-		  (:revdesc . "71f6cae711c9")
+		  (:commit . "e3eff8c9c6be39e24faedb622d4c6788fc7435bc")
+		  (:revdesc . "e3eff8c9c6be")
 		  (:keywords "convenience"))])
  (compile-multi .
 		[(0 1 0 1 -4 20250101 2156)
@@ -19353,7 +19353,7 @@
 		       ("Yinghai Zhao" . "zyinghai@gmail.com"))
 		      (:maintainer "Yinghai Zhao" . "zyinghai@gmail.com"))])
  (ellama .
-	 [(0 1 0 1 -4 20250209 2020)
+	 [(0 1 0 1 -4 20250209 2025)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -19366,8 +19366,8 @@
 	    (29 1)))
 	  "Tool for interacting with LLMs" tar
 	  ((:url . "http://github.com/s-kostyaev/ellama")
-	   (:commit . "36f14da0c0d99bb25279fd0a3ecb4559615a8228")
-	   (:revdesc . "36f14da0c0d9")
+	   (:commit . "6fb94007b983a81f06e693569faf70513a1e2157")
+	   (:revdesc . "6fb94007b983")
 	   (:keywords "help" "local" "tools")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
@@ -21116,6 +21116,17 @@
 	   (:commit . "dd160c846e656634a34f4cc4b4aed46cbe5d6744")
 	   (:revdesc . "dd160c846e65")
 	   (:keywords "erlang" "languages" "processes"))])
+ (erlang-ts .
+	    [(0 1 0 1 -4 20250202 1841)
+	     ((emacs
+	       (29 2))
+	      (erlang
+	       (27 2)))
+	     "Major modes for editing Erlang" tar
+	     ((:url . "https://github.com/erlang/emacs-erlang-ts")
+	      (:commit . "eb579dd55fbb2cf721290939e7b3a50be19c0305")
+	      (:revdesc . "eb579dd55fbb")
+	      (:keywords "erlang" "languages" "treesitter"))])
  (erlstack-mode .
 		[(0 2 0 1 -4 20230608 909)
 		 ((emacs
@@ -31959,7 +31970,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20250209 344)
+	[(0 1 0 1 -4 20250209 2252)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -31968,8 +31979,8 @@
 	   (29 1 4 1)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "2dd3e317bf4af82cddfa1d1b127c04c17589c878")
-	  (:revdesc . "2dd3e317bf4a")
+	  (:commit . "d57eb9896eb1d1f9dc19a420c3e88498f2898780")
+	  (:revdesc . "d57eb9896eb1")
 	  (:keywords "convenience")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -33046,13 +33057,13 @@
 		       (:revdesc . "a2c6a0791759")
 		       (:keywords "haskell" "emacs" "ffi"))])
  (haskell-mode .
-	       [(0 1 0 1 -4 20250205 1440)
+	       [(0 1 0 1 -4 20250209 2258)
 		((emacs
 		  (25 1)))
 		"A Haskell editing mode" tar
 		((:url . "https://github.com/haskell/haskell-mode")
-		 (:commit . "495fb9688e12ed1bf945b4876f124ee38b84c039")
-		 (:revdesc . "495fb9688e12")
+		 (:commit . "80054782bf1f981d448e542975ea59ea6407f5d1")
+		 (:revdesc . "80054782bf1f")
 		 (:keywords "haskell" "cabal" "ghc" "repl" "languages"))])
  (haskell-snippets .
 		   [(0 1 0 1 -4 20210228 344)
