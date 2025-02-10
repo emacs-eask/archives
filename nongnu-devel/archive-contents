@@ -463,7 +463,7 @@
 	       ("Campbell Barton" . "ideasman42@gmail.com"))
 	      (:commit . "463efc61b44bb34f34e44a1cb028f5f69ac1bed4"))])
  (dirvish .
-	  [(2 0 53 0 20250210 20120)
+	  [(2 0 53 0 20250210 175040)
 	   ((emacs
 	     (27 1))
 	    (transient
@@ -474,7 +474,7 @@
 	    (:maintainer "Alex Lu" . "https://github.com/alexluigit")
 	    (:authors
 	     ("Alex Lu" . "https://github.com/alexluigit"))
-	    (:commit . "3bdb7f23b94aeebd9c6e6fd218e8135c26f5ec1b"))])
+	    (:commit . "ed0ab52cdd01f4f43e0763cf2c43bafc4a6893c9"))])
  (doc-show-inline .
 		  [(0 1 0 20250209 60743)
 		   ((emacs
@@ -1185,7 +1185,7 @@
 	      ("David Andersson" . "l.david.anderssonsverige.nu"))
 	     (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel .
-	[(0 9 7 0 20250209 145201)
+	[(0 9 7 0 20250210 110925)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -1198,7 +1198,7 @@
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-	  (:commit . "d57eb9896eb1d1f9dc19a420c3e88498f2898780"))])
+	  (:commit . "bca2b84be6e32f01a6d375dec70f99f4bf9c6660"))])
  (graphql-mode .
 	       [(1 0 0 0 20241206 72535)
 		((emacs
@@ -1248,13 +1248,13 @@
 	      (:keywords "markup" "languages" "html")
 	      (:commit . "a64d58df8f098f858c6c11fa1629a90969f9c7e8"))])
  (haskell-mode .
-	       [(17 5 0 20250209 225818)
+	       [(17 5 0 20250210 192701)
 		((emacs
 		  (25 1)))
 		"A Haskell editing mode" tar
 		((:url . "https://github.com/haskell/haskell-mode")
 		 (:keywords "haskell" "cabal" "ghc" "repl" "languages")
-		 (:commit . "80054782bf1f981d448e542975ea59ea6407f5d1"))])
+		 (:commit . "7f452cc9e6c3316b5a4a2b790d3a396f271609d9"))])
  (haskell-tng-mode .
 		   [(0 0 1 0 20230522 221126)
 		    ((emacs
@@ -1775,14 +1775,16 @@
 	 ("Johann Klähn" . "johann@jklaehn.de"))
 	(:commit . "62cb8825d525d7c9475dd93d62ba84d419bc4832"))])
  (multiple-cursors .
-		   [(1 4 0 0 20241202 163103)
-		    nil "Multiple cursors for emacs." tar
+		   [(1 5 0 0 20250210 181349)
+		    ((cl-lib
+		      (0 5)))
+		    "Multiple cursors for emacs." tar
 		    ((:url . "https://github.com/magnars/multiple-cursors.el")
 		     (:keywords "editing" "cursors")
 		     (:maintainer "Magnar Sveen" . "magnars@gmail.com")
 		     (:authors
 		      ("Magnar Sveen" . "magnars@gmail.com"))
-		     (:commit . "dd10cf2334333838e4550f091a75695448e26765"))])
+		     (:commit . "89f1a8df9b1fc721b1672b4c7b6d3ab451e7e3ef"))])
  (nasm-mode .
 	    [(1 1 1 0 20240610 150504)
 	     ((emacs
@@ -2299,7 +2301,7 @@
 	      ("Chen Bin" . "chenbin.sh@gmail.com"))
 	     (:commit . "173e4d632c94af6670869729c09bfb8ba484d257"))])
  (slime .
-	[(2 31 -4 0 20250209 172150)
+	[(2 31 -4 0 20250210 114954)
 	 ((emacs
 	   (24 3))
 	  (macrostep
@@ -2307,7 +2309,7 @@
 	 "Superior Lisp Interaction Mode for Emacs" tar
 	 ((:url . "https://github.com/slime/slime")
 	  (:keywords "languages" "lisp" "slime")
-	  (:commit . "e20765caf12db8e118bdf7beab7dc5a11da7329e"))])
+	  (:commit . "b2ee8a8c991c5195804e7f2c2f38482f3a6f12b2"))])
  (sly .
       [(1 0 43 0 20250203 154027)
        ((emacs
