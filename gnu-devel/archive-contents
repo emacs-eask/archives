@@ -1023,7 +1023,7 @@
 		 (:url . "https://elpa.gnu.org/packages/dbus-codegen.html")
 		 (:commit . "04114e4cbc8f422e6b77cfc202d1109c96316117"))])
  (debbugs .
-	  [(0 43 0 20250208 110220)
+	  [(0 43 0 20250211 110100)
 	   ((emacs
 	     (26 1))
 	    (soap-client
@@ -1034,7 +1034,7 @@
 	    (:authors
 	     ("Michael Albinus" . "michael.albinus@gmx.de"))
 	    (:url . "https://elpa.gnu.org/packages/debbugs.html")
-	    (:commit . "af445940e35a7d60799832a907b9d24197d4a996"))])
+	    (:commit . "c2f34b23793310c17a77bd2555488af28737a93b"))])
  (delight .
 	  [(1 7 0 20200711 42851)
 	   ((cl-lib
@@ -1395,7 +1395,7 @@
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	      (:commit . "9fca59c2fe2e90ed63e34b811595e7708928a050"))])
  (eglot .
-	[(1 18 0 20250208 134208)
+	[(1 18 0 20250211 161443)
 	 ((emacs
 	   (26 3))
 	  (eldoc
@@ -1418,7 +1418,7 @@
 	  (:maintainer "João Távora" . "joaotavora@gmail.com")
 	  (:authors
 	   ("João Távora" . "joaotavora@gmail.com"))
-	  (:commit . "eb365182440f236e6b5fe2a9192a0c3675e0e306"))])
+	  (:commit . "e2991272f286af94f13d9d78ac609f08ad77183e"))])
  (el-search .
 	    [(1 12 6 1 0 20221221 75346)
 	     ((emacs
@@ -1482,7 +1482,7 @@
 		     (:url . "https://elpa.gnu.org/packages/elisp-benchmarks.html")
 		     (:commit . "03e668caf878c9b9780356e447e3fd85e0696f77"))])
  (ellama .
-	 [(0 13 11 0 20250209 202508)
+	 [(1 0 0 0 20250211 190744)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -1492,14 +1492,16 @@
 	   (transient
 	    (0 7))
 	   (compat
-	    (29 1)))
+	    (29 1))
+	   (posframe
+	    (1 4 0)))
 	  "Tool for interacting with LLMs" tar
 	  ((:url . "http://github.com/s-kostyaev/ellama")
 	   (:keywords "help" "local" "tools")
 	   (:maintainer "Sergey Kostyaev" . "sskostyaev@gmail.com")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
-	   (:commit . "6fb94007b983a81f06e693569faf70513a1e2157"))])
+	   (:commit . "c20394170bcaf4333d44b64d96a015b57113a6bb"))])
  (emacs-gc-stats .
 		 [(1 4 2 0 20231206 152254)
 		  ((emacs
@@ -2498,7 +2500,7 @@
 	(:url . "https://elpa.gnu.org/packages/kmb.html")
 	(:commit . "bc71038e9ac9e7612374485e5af442f0c3326388"))])
  (kubed .
-	[(0 4 3 0 20250121 152631)
+	[(0 4 3 0 20250211 173738)
 	 ((emacs
 	   (29 1)))
 	 "Kubernetes, Emacs, done!" tar
@@ -2507,7 +2509,7 @@
 	  (:maintainer "Eshel Yaron" . "~eshel/kubed-devel@lists.sr.ht")
 	  (:authors
 	   ("Eshel Yaron" . "me@eshelyaron.com"))
-	  (:commit . "8f979a198537532ce7749951ee6a85072eeb0610"))])
+	  (:commit . "3f66195a62764895c7143fb4e02b2d5b0e1d460b"))])
  (landmark .
 	   [(1 0 0 20221221 80428)
 	    nil "Neural-network robot that learns landmarks" tar
@@ -3210,7 +3212,7 @@
 	      ("Ian Dunn" . "dunni@gnu.org"))
 	     (:commit . "8258a4dfa00aa522249cdf9aeea5be4de97bd7c1"))])
  (org-gnosis .
-	     [(0 0 2 0 20250211 25508)
+	     [(0 0 2 0 20250211 203914)
 	      ((emacs
 		(27 2))
 	       (emacsql
@@ -3223,7 +3225,7 @@
 	       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
 	       (:authors
 		("Thanos Apollo" . "public@thanosapollo.org"))
-	       (:commit . "2588a75a1592bb3bf73af669ece465c78dad751f"))])
+	       (:commit . "f949378ce7325fe41da23c3b028a531f7a455413"))])
  (org-jami-bot .
 	       [(0 0 5 0 20240204 184749)
 		((emacs
