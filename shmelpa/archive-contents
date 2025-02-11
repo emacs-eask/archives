@@ -13608,20 +13608,20 @@
 		     ("Magnar Sveen" . "magnars@gmail.com"))
 		    (:maintainer "Matus Goljer" . "matus.goljer@gmail.com"))])
  (dashboard .
-	    [(0 1 0 1 -4 20250110 2013)
+	    [(0 1 0 1 -4 20250211 124)
 	     ((emacs
 	       (27 1)))
 	     "A startup screen extracted from Spacemacs" tar
 	     ((:url . "https://github.com/emacs-dashboard/emacs-dashboard")
-	      (:commit . "7b7846689845078cb5604508c5075e28e2160efe")
-	      (:revdesc . "7b7846689845")
+	      (:commit . "6906bf8288eb017c295d9f28d200f83c09878160")
+	      (:revdesc . "6906bf8288eb")
 	      (:keywords "startup" "screen" "tools" "dashboard")
 	      (:authors
 	       ("Rakan Al-Hneiti" . "rakan.alhneiti@gmail.com"))
 	      (:maintainers
-	       ("Jesús Martínez" . "jesusmartinez93@gmail.com")
-	       ("Jen-Chieh" . "jcs090218@gmail.com"))
-	      (:maintainer "Jesús Martínez" . "jesusmartinez93@gmail.com"))])
+	       ("Jen-Chieh" . "jcs090218@gmail.com")
+	       ("Ricardo Arredondo" . "ricardo.richo@gmail.com"))
+	      (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (dashboard-hackernews .
 		       [(0 0 2 1 -4 20240918 1301)
 			((emacs
@@ -31970,7 +31970,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20250209 2252)
+	[(0 1 0 1 -4 20250211 49)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -31979,8 +31979,8 @@
 	   (29 1 4 1)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "d57eb9896eb1d1f9dc19a420c3e88498f2898780")
-	  (:revdesc . "d57eb9896eb1")
+	  (:commit . "7b48146a74e5286151c024100294661a2e99c8fa")
+	  (:revdesc . "7b48146a74e5")
 	  (:keywords "convenience")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -38472,13 +38472,13 @@
 		 ("Lennart C. Karssen" . "lennart@karssen.org"))
 		(:maintainer "Lennart C. Karssen" . "lennart@karssen.org"))])
  (indent-control .
-		 [(0 1 0 1 -4 20250101 1009)
+		 [(0 1 0 1 -4 20250211 48)
 		  ((emacs
 		    (26 1)))
 		  "Management for indentation level" tar
 		  ((:url . "https://github.com/jcs-elpa/indent-control")
-		   (:commit . "6b55986999f230760389a4dcd5d784121305de24")
-		   (:revdesc . "6b55986999f2")
+		   (:commit . "d8fcfff53abfb47cc806c99ebb7b151e9fff4811")
+		   (:revdesc . "d8fcfff53abf")
 		   (:keywords "convenience" "control" "indent" "tab" "generic" "level")
 		   (:authors
 		    ("Jen-Chieh" . "jcs090218@gmail.com"))
@@ -45944,7 +45944,7 @@
 	       (:revdesc . "441389f75bdf")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20250210 1055)
+	[(0 1 0 1 -4 20250211 22)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -45961,8 +45961,8 @@
 	   (3 4 3)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "ae5f8b0b03773d00f2fd8034af106428b31cb8a4")
-	  (:revdesc . "ae5f8b0b0377")
+	  (:commit . "7116d0572765ab4ca79084e16536fa54f5cffdfd")
+	  (:revdesc . "7116d0572765")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -60404,13 +60404,13 @@
 			 (:revdesc . "8648eba604e4")
 			 (:keywords "php" "repl" "eval"))])
  (php-cs-fixer .
-	       [(0 1 0 1 -4 20250210 1723)
-		((cl-lib
-		  (0 5)))
+	       [(0 1 0 1 -4 20250211 214)
+		((emacs
+		  (24 3)))
 		"The php-cs-fixer wrapper" tar
-		((:url . "https://github.com/OVYA/php-cs-fixer")
-		 (:commit . "fa8a4cdd39f23940beea7cfcee4177d8f5903e37")
-		 (:revdesc . "fa8a4cdd39f2")
+		((:url . "https://github.com/pivaldi/php-cs-fixer")
+		 (:commit . "4bf549c1dedad2a2a52257b866bcb180a31f129d")
+		 (:revdesc . "4bf549c1deda")
 		 (:keywords "languages" "php"))])
  (php-eldoc .
 	    [(0 1 1 -4 20140202 1941)
@@ -61943,13 +61943,13 @@
 	    (:revdesc . "4889e08cf907")
 	    (:keywords "tooltip"))])
  (posframe .
-	   [(0 1 0 1 -4 20241202 1311)
+	   [(0 1 0 1 -4 20250211 110)
 	    ((emacs
 	      (26 1)))
 	    "Pop a posframe (just a frame) at point" tar
 	    ((:url . "https://github.com/tumashu/posframe")
-	     (:commit . "81651536827c96bf5af5265ee7918ab70e1dd5b1")
-	     (:revdesc . "81651536827c")
+	     (:commit . "12f540c9ad5da09673b2bca1132b41f94c134e82")
+	     (:revdesc . "12f540c9ad5d")
 	     (:keywords "convenience" "tooltip")
 	     (:authors
 	      ("Feng Shu" . "tumashu@163.com"))
