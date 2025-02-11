@@ -10544,7 +10544,7 @@
 			("Iku Iwasa" . "iku.iwasa@gmail.com"))
 		       (:maintainer "Iku Iwasa" . "iku.iwasa@gmail.com"))])
  (company-rtags .
-		[(0 5 1 -4 20191222 920)
+		[(0 1 0 1 -4 20250211 1817)
 		 ((emacs
 		   (24 3))
 		  (company
@@ -10553,8 +10553,8 @@
 		   (2 10)))
 		 "RTags back-end for company" tar
 		 ((:url . "https://github.com/Andersbakken/rtags")
-		  (:commit . "595055b5316a7c92ba1d638f324f98842a0f41a5")
-		  (:revdesc . "595055b5316a")
+		  (:commit . "74bd7db18411c15aa66f817184a61dfafb5ce2df")
+		  (:revdesc . "74bd7db18411")
 		  (:authors
 		   ("Jan Erik Hanssen" . "jhanssen@gmail.com")
 		   ("Anders Bakken" . "agbakken@gmail.com"))
@@ -10835,13 +10835,13 @@
 				      ("Seong Yong-ju" . "sei40kr@gmail.com"))
 				     (:maintainer "Seong Yong-ju" . "sei40kr@gmail.com"))])
  (compile-angel .
-		[(0 1 0 1 -4 20250210 1650)
+		[(0 1 0 1 -4 20250211 1704)
 		 ((emacs
 		   (26 1)))
 		 "Automatically Compile Elisp files (auto-compile alternative)" tar
 		 ((:url . "https://github.com/jamescherti/compile-angel.el")
-		  (:commit . "a66c92a6904338f4b22f60b44be1eb12e9fb6cd9")
-		  (:revdesc . "a66c92a69043")
+		  (:commit . "333e943b12754bfe844f9d2bbc8a6f4d54503ad2")
+		  (:revdesc . "333e943b1275")
 		  (:keywords "convenience"))])
  (compile-multi .
 		[(0 1 0 1 -4 20250101 2156)
@@ -19353,7 +19353,7 @@
 		       ("Yinghai Zhao" . "zyinghai@gmail.com"))
 		      (:maintainer "Yinghai Zhao" . "zyinghai@gmail.com"))])
  (ellama .
-	 [(0 1 0 1 -4 20250209 2025)
+	 [(0 1 0 1 -4 20250211 1907)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -19363,11 +19363,13 @@
 	   (transient
 	    (0 7))
 	   (compat
-	    (29 1)))
+	    (29 1))
+	   (posframe
+	    (1 4 0)))
 	  "Tool for interacting with LLMs" tar
 	  ((:url . "http://github.com/s-kostyaev/ellama")
-	   (:commit . "6fb94007b983a81f06e693569faf70513a1e2157")
-	   (:revdesc . "6fb94007b983")
+	   (:commit . "c20394170bcaf4333d44b64d96a015b57113a6bb")
+	   (:revdesc . "c20394170bca")
 	   (:keywords "help" "local" "tools")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
@@ -25924,15 +25926,15 @@
 		     ("Shen Chao" . "scturtle@gmail.com"))
 		    (:maintainer "Shen Chao" . "scturtle@gmail.com"))])
  (flycheck-golangci-lint .
-			 [(0 1 0 1 -4 20240329 1647)
+			 [(0 1 0 1 -4 20250211 1910)
 			  ((emacs
 			    (24))
 			   (flycheck
 			    (0 22)))
 			  "Flycheck checker for golangci-lint" tar
 			  ((:url . "https://github.com/weijiangan/flycheck-golangci-lint")
-			   (:commit . "91c59b128aa6f719069cfb3e5df77588691a3e14")
-			   (:revdesc . "91c59b128aa6")
+			   (:commit . "424ba1b3a13f5548c440b7a25822932ad4b51cd6")
+			   (:revdesc . "424ba1b3a13f")
 			   (:keywords "convenience" "tools" "go")
 			   (:authors
 			    ("Wei Jian Gan" . "weijiangan@outlook.com"))
@@ -35446,15 +35448,15 @@
 	      ("David Landry" . "davidlandry93@gmail.com"))
 	     (:maintainer "David Landry" . "davidlandry93@gmail.com"))])
  (helm-rtags .
-	     [(0 2 1 -4 20191222 920)
+	     [(0 1 0 1 -4 20250211 1817)
 	      ((helm
 		(2 0))
 	       (rtags
 		(2 10)))
 	      "A front-end for rtags" tar
 	      ((:url . "https://github.com/Andersbakken/rtags")
-	       (:commit . "595055b5316a7c92ba1d638f324f98842a0f41a5")
-	       (:revdesc . "595055b5316a")
+	       (:commit . "74bd7db18411c15aa66f817184a61dfafb5ce2df")
+	       (:revdesc . "74bd7db18411")
 	       (:authors
 		("Jan Erik Hanssen" . "jhanssen@gmail.com")
 		("Anders Bakken" . "agbakken@gmail.com"))
@@ -39994,15 +39996,15 @@
 	      ("Yevgnen Koh" . "wherejoystarts@gmail.com"))
 	     (:maintainer "Yevgnen Koh" . "wherejoystarts@gmail.com"))])
  (ivy-rtags .
-	    [(0 1 1 -4 20191222 920)
+	    [(0 1 0 1 -4 20250211 1817)
 	     ((ivy
 	       (0 7 0))
 	      (rtags
 	       (2 10)))
 	     "RTags completion back-end for ivy" tar
 	     ((:url . "https://github.com/Andersbakken/rtags")
-	      (:commit . "595055b5316a7c92ba1d638f324f98842a0f41a5")
-	      (:revdesc . "595055b5316a")
+	      (:commit . "74bd7db18411c15aa66f817184a61dfafb5ce2df")
+	      (:revdesc . "74bd7db18411")
 	      (:authors
 	       ("Jan Erik Hanssen" . "jhanssen@gmail.com")
 	       ("Anders Bakken" . "agbakken@gmail.com"))
@@ -57842,13 +57844,13 @@
 	       ("Oscar Najera" . "hi@oscarnajera.com"))
 	      (:maintainer "Oscar Najera" . "hi@oscarnajera.com"))])
  (outline-indent .
-		 [(0 1 0 1 -4 20250130 2007)
+		 [(0 1 0 1 -4 20250130 2037)
 		  ((emacs
 		    (26 1)))
 		  "Folding text based on indentation (origami alternative)" tar
 		  ((:url . "https://github.com/jamescherti/outline-indent.el")
-		   (:commit . "ef49c673802a4127d6fcdc4771f74a9cef8d8894")
-		   (:revdesc . "ef49c673802a")
+		   (:commit . "d5d43e6907c073f9e586dbb7d6a976c07e4e8382")
+		   (:revdesc . "d5d43e6907c0")
 		   (:keywords "outlines"))])
  (outline-magic .
 		[(0 9 1 1 -4 20180619 1819)
