@@ -340,7 +340,7 @@
 		    ("Akib Azmain Turja" . "akib@disroot.org"))
 		   (:commit . "501548c3d51f926c687e8cd838c5865ec45d03cc"))])
  (crux .
-       [(0 5 0 0 20250211 114204)
+       [(0 6 0 -4 0 20250212 201746)
 	((emacs
 	  (26 1)))
 	"A Collection of Ridiculously Useful eXtensions" tar
@@ -349,7 +349,7 @@
 	 (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 	 (:authors
 	  ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
-	 (:commit . "519c2907c31259cd07b45264a7c2b885881be1d8"))])
+	 (:commit . "c83c54d3d746e83861bcb22b0309c66a2d4db17f"))])
  (csv2ledger .
 	     [(1 5 4 0 20241109 230511)
 	      ((emacs
@@ -1290,17 +1290,17 @@
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:commit . "80d5c9e68f7ce162967f0818ea8c9abb7d24594f"))])
  (helm-core .
-	    [(4 0 0 20250208 103323)
+	    [(4 0 1 0 20250212 165652)
 	     ((emacs
 	       (25 1))
 	      (async
-	       (1 9 8)))
+	       (1 9 9)))
 	     "Development files for Helm" tar
 	     ((:url . "https://emacs-helm.github.io/helm/")
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "80d5c9e68f7ce162967f0818ea8c9abb7d24594f"))])
+	      (:commit . "f96488425c83cbf5753a9cc50cd1ab980cd64c3f"))])
  (hideshowvis .
 	      [(0 8 0 20240529 112833)
 	       ((emacs
@@ -1968,7 +1968,7 @@
 	       (:url . "https://elpa.nongnu.org/nongnu/p4-16-mode.html")
 	       (:commit . "794dd0056b4ca736ae5ecb39072547f22a006137"))])
  (package-lint .
-	       [(0 24 0 20250108 140733)
+	       [(0 24 0 20250212 151509)
 		((emacs
 		  (24 4))
 		 (let-alist
@@ -1982,7 +1982,7 @@
 		 (:authors
 		  ("Steve Purcell" . "steve@sanityinc.com")
 		  ("Fanael Linithien" . "fanael4@gmail.com"))
-		 (:commit . "6f05a369e0718e93c5dce0951cad5e6646296612"))])
+		 (:commit . "21edc6d0d0eadd2d0a537f422fb9b7b8a3ae6991"))])
  (pacmacs .
 	  [(0 1 1 0 20220411 143014)
 	   ((emacs
@@ -2109,7 +2109,7 @@
 	   ("Tomohiro Matsuyama" . "m2ym.pub@gmail.com"))
 	  (:commit . "4b35c57ec88428233eecf27537854fc1f5f802ff"))])
  (projectile .
-	     [(2 9 0 -4 0 20250209 60525)
+	     [(2 9 0 0 20250212 205908)
 	      ((emacs
 		(26 1)))
 	      "Manage and navigate projects in Emacs easily" tar
@@ -2118,7 +2118,7 @@
 	       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
-	       (:commit . "cdb22f6b588c8ffa508f6fda586ee1253c73490b"))])
+	       (:commit . "ce6e637cc2b9d4fdffdbdc1c7b8d7e2ac388515b"))])
  (proof-general .
 		[(4 6 -4 0 20250129 125602)
 		 ((emacs
@@ -2141,14 +2141,25 @@
 	       ("David Christiansen" . "david@davidchristiansen.dk"))
 	      (:commit . "50b102c1c0935fd3e0c465feed7f27d66b21cdf3"))])
  (racket-mode .
-	      [(1 0 20250205 162816)
+	      [(1 0 20250212 102351)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
 	       ((:url . "https://www.racket-mode.com/")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com"))
-		(:commit . "d9e66c7571722101a87a86ef611056c47b791ad4"))])
+		(:commit . "eef5e9ab2c8991e7c73d4232bde28a77124005a5"))])
+ (radio .
+	[(0 1 3 0 20250212 101912)
+	 ((emacs
+	   (29 1)))
+	 "Listen to Internet radio" tar
+	 ((:url . "https://github.com/jroimartin/radio")
+	  (:keywords "multimedia")
+	  (:maintainer "Roi Martin" . "jroi.martin@gmail.com")
+	  (:authors
+	   ("Roi Martin" . "jroi.martin@gmail.com"))
+	  (:commit . "b86348b73dff7852f9d2898bedb615e0cb685c89"))])
  (rainbow-delimiters .
 		     [(2 1 5 0 20230830 160022)
 		      nil "Highlight brackets according to their depth" tar
@@ -2467,6 +2478,15 @@
 		     (:authors
 		      ("Julien Barnier" . "julien@nozav.org"))
 		     (:commit . "6202d4a19ac1def1b2596f1906c4524dd7303563"))])
+ (teco .
+       [(9 0 20200801 144333)
+	nil "Teco interpreter" tar
+	((:url . "https://github.com/mtk/teco.git")
+	 (:keywords "convenience" "emulations" "files")
+	 (:maintainer "Mark T. Kennedy" . "mtk@acm.org")
+	 (:authors
+	  ("Dale R. Worley" . "worley@alum.mit.edu"))
+	 (:commit . "61caf8f419659a0567a269f290c90427a215d77b"))])
  (telephone-line .
 		 [(0 5 0 20240109 152108)
 		  ((emacs
@@ -2540,19 +2560,17 @@
 	("Marty Hiatt" . "mousebot@disroot.org"))
        (:commit . "cce2dfe0ec2b5c070cb13a7bdf95695eeb6e3caf"))])
  (treesit-fold .
-	       [(0 1 0 0 20250210 180703)
+	       [(0 1 0 0 20250212 114521)
 		((emacs
 		  (29 1)))
 		"Code folding using treesit" tar
 		((:url . "https://github.com/emacs-tree-sitter/treesit-fold")
 		 (:keywords "convenience" "folding" "tree-sitter")
-		 (:maintainer
-		  ("Junyi Hou" . "junyi.yi.hou@gmail.com")
-		  ("Jen-Chieh" . "jcs090218@gmail.com"))
+		 (:maintainer "Jen-Chieh" . "jcs090218@gmail.com")
 		 (:authors
 		  ("Junyi Hou" . "junyi.yi.hou@gmail.com")
 		  ("Jen-Chieh" . "jcs090218@gmail.com"))
-		 (:commit . "ea39768092311b857d7b46498eae93cc43807acf"))])
+		 (:commit . "3699d29f5cbe946fbdc27f536eeb902786784dab"))])
  (treeview .
 	   [(1 3 1 0 20241101 11503)
 	    ((emacs
