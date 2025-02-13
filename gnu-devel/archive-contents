@@ -673,7 +673,7 @@
 		("Augusto Stoffel" . "arstoffel@gmail.com"))
 	       (:commit . "caffb420be106cebbdfe4474ed0507a601603f83"))])
  (colorful-mode .
-		[(1 1 0 0 20250211 233634)
+		[(1 1 0 0 20250213 2706)
 		 ((emacs
 		   (28 1))
 		  (compat
@@ -686,7 +686,7 @@
 		   ("Elias G. Perez" . "eg642616@gmail.com"))
 		  (:authors
 		   ("Elias G. Perez" . "eg642616@gmail.com"))
-		  (:commit . "2767f253e9ddf5e5701b50c9f9ea54b1fad5b9da"))])
+		  (:commit . "da42d5c37796a13193f5a33c5e922b636a9a54c7"))])
  (comint-mime .
 	      [(0 7 0 20241116 123039)
 	       ((emacs
@@ -784,7 +784,7 @@
 	       ("Carsten Dominik" . "carsten.dominik@gmail.com"))
 	      (:commit . "f07e221d4d5597c7ccf4b0003c0909a88bdfcc9e"))])
  (consult .
-	  [(2 0 0 20250207 161222)
+	  [(2 0 0 20250213 75746)
 	   ((emacs
 	     (28 1))
 	    (compat
@@ -793,7 +793,7 @@
 	   ((:url . "https://github.com/minad/consult")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-	    (:commit . "c74ae6149172e3429b844c22d67e02b01abea1e4"))])
+	    (:commit . "2643235a853d55805822239bb2cd75a7aabef48d"))])
  (consult-denote .
 		 [(0 2 4 0 20250121 61759)
 		  ((emacs
@@ -1482,7 +1482,7 @@
 		     (:url . "https://elpa.gnu.org/packages/elisp-benchmarks.html")
 		     (:commit . "03e668caf878c9b9780356e447e3fd85e0696f77"))])
  (ellama .
-	 [(1 0 2 0 20250212 204239)
+	 [(1 0 3 0 20250213 84044)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -1501,7 +1501,7 @@
 	   (:maintainer "Sergey Kostyaev" . "sskostyaev@gmail.com")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
-	   (:commit . "cb672c6981007916e105695ac1a671cf609409eb"))])
+	   (:commit . "d1d28e4a613aa4f445806d2b37b5a53dcbe2afe6"))])
  (emacs-gc-stats .
 		 [(1 4 2 0 20231206 152254)
 		  ((emacs
@@ -2632,7 +2632,7 @@
 		      ("Sean Whitton" . "spwhitton@spwhitton.name"))
 		     (:commit . "c22a15e86acf28da716532c26ba1371574c8e979"))])
  (llm .
-      [(0 23 0 0 20250211 5543)
+      [(0 23 0 0 20250213 4241)
        ((emacs
 	 (28 1))
 	(plz
@@ -2646,7 +2646,7 @@
 	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
-	(:commit . "286b1cf18eb358ac9c208a709a625f3ee19ae451"))])
+	(:commit . "bfabae264ff39a22ddd20c485b97db20293c465a"))])
  (lmc .
       [(1 4 0 20230105 113402)
        ((emacs
@@ -3212,7 +3212,7 @@
 	      ("Ian Dunn" . "dunni@gnu.org"))
 	     (:commit . "8258a4dfa00aa522249cdf9aeea5be4de97bd7c1"))])
  (org-gnosis .
-	     [(0 0 4 0 20250212 213717)
+	     [(0 0 5 0 20250213 15639)
 	      ((emacs
 		(27 2))
 	       (emacsql
@@ -3225,7 +3225,7 @@
 	       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
 	       (:authors
 		("Thanos Apollo" . "public@thanosapollo.org"))
-	       (:commit . "59cc5917ab2b1ce473e23f63db98a50b5d70404a"))])
+	       (:commit . "16142440ddb3a145bf054f2b9bc793f145fad110"))])
  (org-jami-bot .
 	       [(0 0 5 0 20240204 184749)
 		((emacs
@@ -3383,6 +3383,15 @@
 	  (:authors
 	   ("Ian Dunn" . "dunni@gnu.org"))
 	  (:commit . "ce8b57131aaa038165445e6d2eb0f791b118afa6"))])
+ (package-x .
+	    [(1 0 0 20250212 211602)
+	     nil "Package extras" tar
+	     ((:keywords "tools")
+	      (:maintainer "Philip Kaludercic" . "philipk@posteo.net")
+	      (:authors
+	       ("Tom Tromey" . "tromey@redhat.com"))
+	      (:url . "https://elpa.gnu.org/packages/package-x.html")
+	      (:commit . "a4aaf1a7dc31af40b33435fae3c1674d744031f7"))])
  (parsec .
 	 [(0 1 3 0 20180729 171626)
 	  ((emacs
@@ -3439,15 +3448,17 @@
 	      ("Harald Jörg" . "haj@posteo.de"))
 	     (:commit . "638009f98a144790ea85fd0fa311d7499fdac94f"))])
  (persist .
-	  [(0 6 1 0 20240801 14323)
+	  [(0 6 1 0 20250213 95218)
 	   ((emacs
-	     (26 1)))
+	     (26 1))
+	    (compat
+	     (30 0 2 0)))
 	   "Persist Variables between Emacs Sessions" tar
 	   ((:maintainer "Joseph Turner" . "persist-el@breatheoutbreathe.in")
 	    (:authors
 	     ("Phillip Lord" . "phillip.lord@russet.org.uk"))
 	    (:url . "https://elpa.gnu.org/packages/persist.html")
-	    (:commit . "076bf3ffc4fb0fa904c6ace9620fccaacb3454ba"))])
+	    (:commit . "bf9a52b8608f00a86cdf5b82207fc7bbc747566c"))])
  (phpinspect .
 	     [(2 1 0 0 20240930 174944)
 	      ((compat
@@ -3632,14 +3643,14 @@
 		    ("Paul D. Nelson" . "nelson.paul.david@gmail.com"))
 		   (:commit . "038afeb09917f977cd6a24521129fd6010546e58"))])
  (project .
-	  [(0 11 1 0 20250212 171846)
+	  [(0 11 1 0 20250213 1457)
 	   ((emacs
 	     (26 1))
 	    (xref
 	     (1 7 0)))
 	   "Operations on the current project" tar
 	   ((:url . "https://elpa.gnu.org/packages/project.html")
-	    (:commit . "b93cdeb04769fde8e553a03ed4c68b442f9c43b4"))])
+	    (:commit . "6967587daef027b0f4fd917b5181b43e45c7cb56"))])
  (psgml .
 	[(1 3 5 0 20221229 184738)
 	 nil "SGML-editing mode with parsing support" tar
