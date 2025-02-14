@@ -253,7 +253,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider .
-	[(1 17 0 -4 0 20250214 85554)
+	[(1 17 0 -4 0 20250214 122447)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -281,7 +281,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "e905618055cc95c7fd2f01c10d8cd08ed35f08f2"))])
+	  (:commit . "7e9e70ce6647894d7833aa8598f4c48440d6444b"))])
  (clojure-mode .
 	       [(5 20 0 -4 0 20241211 152233)
 		((emacs
@@ -463,18 +463,16 @@
 	       ("Campbell Barton" . "ideasman42@gmail.com"))
 	      (:commit . "463efc61b44bb34f34e44a1cb028f5f69ac1bed4"))])
  (dirvish .
-	  [(2 0 53 0 20250214 84334)
+	  [(2 1 0 0 20250214 184412)
 	   ((emacs
-	     (27 1))
-	    (transient
-	     (0 3 7)))
+	     (28 1)))
 	   "A modern file manager based on dired mode" tar
 	   ((:url . "https://github.com/alexluigit/dirvish")
 	    (:keywords "files" "convenience")
 	    (:maintainer "Alex Lu" . "https://github.com/alexluigit")
 	    (:authors
 	     ("Alex Lu" . "https://github.com/alexluigit"))
-	    (:commit . "ed9a2f077c76a2461ec6dc119a5cf5789f35c9cf"))])
+	    (:commit . "8771edc00cc7befefd9d65e218fa7a6a84f923cc"))])
  (doc-show-inline .
 		  [(0 1 0 20250209 60743)
 		   ((emacs
@@ -1185,7 +1183,7 @@
 	      ("David Andersson" . "l.david.anderssonsverige.nu"))
 	     (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel .
-	[(0 9 7 0 20250213 193252)
+	[(0 9 7 0 20250214 85236)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -1198,7 +1196,7 @@
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-	  (:commit . "7425ec9f6c3ec5627b15b6c218650f9cccecaa95"))])
+	  (:commit . "970debee285412efecca781d9229906e68b1ebc8"))])
  (graphql-mode .
 	       [(1 0 0 0 20241206 72535)
 		((emacs
@@ -1277,7 +1275,7 @@
 		     ("Pranshu Sharma" . "pranshusharma366atgmail"))
 		    (:commit . "fc4bf18386d37cf398db5fd8e99c3c8c0dd4be69"))])
  (helm .
-       [(4 0 1 0 20250213 174216)
+       [(4 0 1 0 20250214 202128)
 	((helm-core
 	  (4 0 1))
 	 (wfnames
@@ -1288,9 +1286,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "3a8164f6df960802c16e447bcb0dcb089c13f791"))])
+	 (:commit . "4193cde3fb48532b55795fe87cb8167888f73f46"))])
  (helm-core .
-	    [(4 0 1 0 20250213 174216)
+	    [(4 0 1 0 20250214 202128)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1300,7 +1298,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "3a8164f6df960802c16e447bcb0dcb089c13f791"))])
+	      (:commit . "4193cde3fb48532b55795fe87cb8167888f73f46"))])
  (hideshowvis .
 	      [(0 8 0 20240529 112833)
 	       ((emacs
@@ -1627,7 +1625,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit .
-	[(4 3 0 0 20250209 231819)
+	[(4 3 0 0 20250211 103302)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -1651,9 +1649,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	  (:commit . "689716648c883d546a018c9bb550f1179941c94b"))])
+	  (:commit . "4a01405bf1b6cdcaafabcbf7692a1ad0f67ea7b5"))])
  (magit-section .
-		[(4 3 0 0 20250209 231819)
+		[(4 3 0 0 20250211 103302)
 		 ((emacs
 		   (27 1))
 		  (compat
@@ -1668,7 +1666,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "689716648c883d546a018c9bb550f1179941c94b"))])
+		  (:commit . "4a01405bf1b6cdcaafabcbf7692a1ad0f67ea7b5"))])
  (markdown-mode .
 		[(2 7 -3 0 20250212 25916)
 		 ((emacs
@@ -1681,7 +1679,7 @@
 		   ("Jason R. Blevins" . "jblevins@xbeta.org"))
 		  (:commit . "038f0fb9789afafff99b7f23de107862dde113ee"))])
  (mastodon .
-	   [(1 1 9 0 20250204 190250)
+	   [(1 1 10 0 20250214 91752)
 	    ((emacs
 	      (28 1))
 	     (request
@@ -1689,14 +1687,14 @@
 	     (persist
 	      (0 4))
 	     (tp
-	      (0 6)))
+	      (0 7)))
 	    "Client for fediverse services using the Mastodon API" tar
 	    ((:url . "https://codeberg.org/martianh/mastodon.el")
 	     (:maintainer "Marty Hiatt" . "mousebot@disroot.org")
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com")
 	      ("Marty Hiatt" . "mousebot@disroot.org"))
-	     (:commit . "1dfe4368488d2b0539b7626b0c105343ca92322e"))])
+	     (:commit . "ca57fc7e87bb144986f1ef9b3d889732cc2f07ae"))])
  (material-theme .
 		 [(2015 0 20210904 122621)
 		  ((emacs
@@ -2109,7 +2107,7 @@
 	   ("Tomohiro Matsuyama" . "m2ym.pub@gmail.com"))
 	  (:commit . "4b35c57ec88428233eecf27537854fc1f5f802ff"))])
  (projectile .
-	     [(2 9 1 0 20250214 61213)
+	     [(2 9 1 0 20250214 150100)
 	      ((emacs
 		(26 1)))
 	      "Manage and navigate projects in Emacs easily" tar
@@ -2118,7 +2116,7 @@
 	       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
-	       (:commit . "8f9aff2d2284e08abed2fb563ee8e747907b3fd3"))])
+	       (:commit . "82cecc2b0c0ae17208d6eaf4059bf29056c9bde6"))])
  (proof-general .
 		[(4 6 -4 0 20250129 125602)
 		 ((emacs
@@ -2610,6 +2608,19 @@
 		   ((:url . "http://github.com/ananthakumaran/typescript.el")
 		    (:keywords "typescript" "languages")
 		    (:commit . "481df3ad2cdf569d8e6697679669ff6206fbd2f9"))])
+ (typst-ts-mode .
+		[(0 11 0 0 20250212 192208)
+		 ((emacs
+		   (29 1)))
+		 "Tree Sitter support for Typst" tar
+		 ((:url . "https://codeberg.org/meow_king/typst-ts-mode")
+		  (:keywords "typst" "languages" "tree-sitter")
+		  (:maintainer
+		   ("Ziqi Yang" . "mr.meowking@anche.no")
+		   ("Huan Nguyen" . "nguyenthieuhuan@gmail.com"))
+		  (:authors
+		   ("Ziqi Yang" . "mr.meowking@anche.no"))
+		  (:commit . "d4e4a21f1396fbbdcfbc33a117aff5285062bef8"))])
  (ujelly-theme .
 	       [(1 3 6 0 20241111 2243)
 		nil "Ujelly theme for GNU Emacs 24 (deftheme)" tar
