@@ -71957,7 +71957,7 @@
 		   ("Christian Lück" . "christian.lueck@ruhr-uni-bochum.de"))
 		  (:maintainer "Christian Lück" . "christian.lueck@ruhr-uni-bochum.de"))])
  (starhugger .
-	     [(0 1 0 1 -4 20250204 1630)
+	     [(0 1 0 1 -4 20250216 948)
 	      ((emacs
 		(28 2))
 	       (compat
@@ -71972,8 +71972,8 @@
 		(0 3 2)))
 	      "Hugging Face/AI-powered text & code completion client" tar
 	      ((:url . "https://gitlab.com/daanturo/starhugger.el")
-	       (:commit . "46f32d4444d4cf6a8937e89538371c97eb0a65dd")
-	       (:revdesc . "46f32d4444d4")
+	       (:commit . "c9753808184eaa9328b6ada18bfe418150b92eac")
+	       (:revdesc . "c9753808184e")
 	       (:keywords "completion" "convenience" "languages"))])
  (starlit-theme .
 		[(0 1 0 1 -4 20241130 2124)
@@ -75473,12 +75473,14 @@
 	       ("Vivek Das Mohapatra" . "vivek@etla.org"))
 	      (:maintainer "Vivek Das Mohapatra" . "vivek@etla.org"))])
  (tox .
-      [(0 4 0 1 -4 20170404 1059)
-       nil "Launch current python test with tox" tar
+      [(0 1 0 1 -4 20250216 1042)
+       ((emacs
+	 (25 1)))
+       "Run Python tests with tox" tar
        ((:url . "https://github.com/chmouel/tox.el")
-	(:commit . "7655eb254038d5e34433e8a9d66b3ffc9c72e40c")
-	(:revdesc . "7655eb254038")
-	(:keywords "convenience" "tox" "python" "tests")
+	(:commit . "831521fdfdd0b903c50616c6d675e63279c8b4aa")
+	(:revdesc . "831521fdfdd0")
+	(:keywords "convenience" "tools" "python" "testing")
 	(:authors
 	 ("Chmouel Boudjnah" . "chmouel@chmouel.com"))
 	(:maintainers
