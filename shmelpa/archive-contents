@@ -11683,7 +11683,7 @@
 	     ("Rakotomandimby Mihamina" . "mihamina.rakotomandimby@rktmb.org"))
 	    (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (copilot-chat .
-	       [(0 1 0 1 -4 20250216 951)
+	       [(0 1 0 1 -4 20250216 1805)
 		((request
 		  (0 3 2))
 		 (markdown-mode
@@ -11702,8 +11702,8 @@
 		  (0 76 2)))
 		"Copilot chat interface" tar
 		((:url . "https://github.com/chep/copilot-chat.el")
-		 (:commit . "54cea8a4878df4045de8c9ebb44f1cc972931898")
-		 (:revdesc . "54cea8a4878d")
+		 (:commit . "d358e33f3f37267774c92f413f528cff89ecccb9")
+		 (:revdesc . "d358e33f3f37")
 		 (:keywords "convenience" "tools")
 		 (:authors
 		  ("cedric.chepied" . "cedric.chepied@gmail.com"))
@@ -19351,7 +19351,7 @@
 		       ("Yinghai Zhao" . "zyinghai@gmail.com"))
 		      (:maintainer "Yinghai Zhao" . "zyinghai@gmail.com"))])
  (ellama .
-	 [(0 1 0 1 -4 20250215 1712)
+	 [(0 1 0 1 -4 20250216 1957)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -19366,8 +19366,8 @@
 	    (1 4 0)))
 	  "Tool for interacting with LLMs" tar
 	  ((:url . "http://github.com/s-kostyaev/ellama")
-	   (:commit . "1e3b3210f0b553e7158065116a4d84adc7f3f1bd")
-	   (:revdesc . "1e3b3210f0b5")
+	   (:commit . "1fd599f3a7158b32bc3b188bbfba41937dc33e00")
+	   (:revdesc . "1fd599f3a715")
 	   (:keywords "help" "local" "tools")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
@@ -33113,6 +33113,15 @@
 	 ((:url . "http://github.com/rlister/emacs-haste-client")
 	  (:commit . "f1099c6296fc9575675e281402b89854739114bb")
 	  (:revdesc . "f1099c6296fc"))])
+ (hatty .
+	[(0 1 0 1 -4 20250215 1204)
+	 ((emacs
+	   (26 1)))
+	 "Query positions through hats" tar
+	 ((:url . "https://github.com/ErikPrantare/hatty.el")
+	  (:commit . "65ef1ea35cdb7b8211af6ece17e6948ab08ffc83")
+	  (:revdesc . "65ef1ea35cdb")
+	  (:keywords "convenience"))])
  (haxe-imports .
 	       [(0 1 0 1 -4 20170330 2304)
 		((emacs
@@ -48135,17 +48144,17 @@
 	    ("Niels Giesen" . "pfton#emacs"))
 	   (:maintainer "Niels Giesen" . "pfton#emacs"))])
  (mini-echo .
-	    [(0 1 0 1 -4 20250209 1407)
+	    [(0 1 0 1 -4 20250216 1955)
 	     ((emacs
 	       (29 1))
-	      (dash
-	       (2 19 1))
+	      (llama
+	       (0 6 0))
 	      (hide-mode-line
 	       (1 0 3)))
 	     "Echo buffer status in minibuffer window" tar
 	     ((:url . "https://github.com/eki3z/mini-echo.el")
-	      (:commit . "197260e3e7121d60aa6f6d8f86de9a921fa1230c")
-	      (:revdesc . "197260e3e712")
+	      (:commit . "a604f1c6630452e99a18a61586cc984822550985")
+	      (:revdesc . "a604f1c66304")
 	      (:keywords "frames")
 	      (:authors
 	       ("Eki Zhang" . "liuyinz95@gmail.com"))
@@ -48394,17 +48403,17 @@
 	       ("Henrik Lissner" . "contact@henrik.io"))
 	      (:maintainer "Henrik Lissner" . "contact@henrik.io"))])
  (mise .
-       [(0 1 0 1 -4 20250123 1922)
+       [(0 1 0 1 -4 20250216 2030)
 	((emacs
 	  (29 1))
 	 (inheritenv
 	  (0 2))
-	 (dash
-	  (2 19 1)))
+	 (llama
+	  (0 6 0)))
 	"Support for `mise' cli" tar
 	((:url . "https://github.com/eki3z/mise.el")
-	 (:commit . "2ba633b84c5d678ef128901c443ee43f6052d3de")
-	 (:revdesc . "2ba633b84c5d")
+	 (:commit . "97d244417d28605306f3a98eac0b67564677f277")
+	 (:revdesc . "97d244417d28")
 	 (:keywords "tools" "processes")
 	 (:authors
 	  ("Eki Zhang" . "liuyinz95@gmail.com"))
@@ -52715,6 +52724,20 @@
 	   (:maintainers
 	    ("stardiviner" . "numbchild@gmail.com"))
 	   (:maintainer "stardiviner" . "numbchild@gmail.com"))])
+ (ob-pic .
+	 [(0 1 0 1 -4 20241209 1043)
+	  ((emacs
+	    (24 1)))
+	  "Org babel functions for pic language -*- lexical-binding: t;" tar
+	  ((:url . "https://github.com/ob-pic")
+	   (:commit . "6bb3cbf814ab0c3e3dfc41a7535dee5e30340ba3")
+	   (:revdesc . "6bb3cbf814ab")
+	   (:keywords "org" "babel" "pic" "tools")
+	   (:authors
+	    ("Daniel E. Doherty" . "ded-obpic@ddoherty.net"))
+	   (:maintainers
+	    ("Daniel E. Doherty" . "ded-obpic@ddoherty.net"))
+	   (:maintainer "Daniel E. Doherty" . "ded-obpic@ddoherty.net"))])
  (ob-powershell .
 		[(1 0 1 -4 20240718 1429)
 		 ((emacs
@@ -59958,6 +59981,20 @@
 	   ((:url . "https://github.com/overideal/perject")
 	    (:commit . "28fad17c048685d89c815b6bf6e69c3102ee3712")
 	    (:revdesc . "28fad17c0486"))])
+ (perl-ts-mode .
+	       [(0 1 0 1 -4 20250128 1327)
+		((emacs
+		  (30 1)))
+		"Another Major mode for Perl" tar
+		((:url . "https://hg.sr.ht/~pranshu/perl-ts-mode")
+		 (:commit . "c343d3573e3165f151b93fc7517b22d72bbd5d6d")
+		 (:revdesc . "c343d3573e31")
+		 (:keywords "languages" "perl")
+		 (:authors
+		  ("Pranshu Sharma" . "pranshu@bauherren.ovh"))
+		 (:maintainers
+		  ("Pranshu Sharma" . "pranshu@bauherren.ovh"))
+		 (:maintainer "Pranshu Sharma" . "pranshu@bauherren.ovh"))])
  (perlbrew .
 	   [(0 3 1 -4 20230823 1652)
 	    nil "A perlbrew wrapper for Emacs" tar
