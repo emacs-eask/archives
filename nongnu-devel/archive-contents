@@ -253,7 +253,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider .
-	[(1 17 0 0 20250217 143837)
+	[(1 17 0 0 20250221 130608)
 	 ((emacs
 	   (26))
 	  (clojure-mode
@@ -281,7 +281,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "41c77310a2404a778643532a0c434096e7294caa"))])
+	  (:commit . "a0d616902667b287ad20b18889d7f073c6a50b41"))])
  (clojure-mode .
 	       [(5 20 0 -4 0 20241211 152233)
 		((emacs
@@ -463,7 +463,7 @@
 	       ("Campbell Barton" . "ideasman42@gmail.com"))
 	      (:commit . "463efc61b44bb34f34e44a1cb028f5f69ac1bed4"))])
  (dirvish .
-	  [(2 1 0 0 20250221 83823)
+	  [(2 1 0 0 20250221 170835)
 	   ((emacs
 	     (28 1)))
 	   "A modern file manager based on dired mode" tar
@@ -472,7 +472,7 @@
 	    (:maintainer "Alex Lu" . "https://github.com/alexluigit")
 	    (:authors
 	     ("Alex Lu" . "https://github.com/alexluigit"))
-	    (:commit . "ea4d1ed66b1f7d4b59c8e4e4c13495208ee09f95"))])
+	    (:commit . "d449b153d8cad0436ea5f82363cfc8cec9bd3375"))])
  (doc-show-inline .
 		  [(0 1 0 20250209 60743)
 		   ((emacs
@@ -1275,7 +1275,7 @@
 		     ("Pranshu Sharma" . "pranshusharma366atgmail"))
 		    (:commit . "fc4bf18386d37cf398db5fd8e99c3c8c0dd4be69"))])
  (helm .
-       [(4 0 1 0 20250221 81915)
+       [(4 0 1 0 20250221 124604)
 	((helm-core
 	  (4 0 1))
 	 (wfnames
@@ -1286,9 +1286,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "52e1a7f952db47b7118773048a41fe05873114e3"))])
+	 (:commit . "9f71fefd34402c0db27efba78c605194d9f65113"))])
  (helm-core .
-	    [(4 0 1 0 20250221 81915)
+	    [(4 0 1 0 20250221 124604)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1298,7 +1298,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "52e1a7f952db47b7118773048a41fe05873114e3"))])
+	      (:commit . "9f71fefd34402c0db27efba78c605194d9f65113"))])
  (hideshowvis .
 	      [(0 8 0 20240529 112833)
 	       ((emacs
@@ -1498,18 +1498,18 @@
 	       (:keywords "languages")
 	       (:commit . "0f4d74f9049df28e2f522733141bfc5b7a0f69a3"))])
  (keycast .
-	  [(1 4 1 0 20240805 132239)
+	  [(1 4 1 0 20250221 153401)
 	   ((emacs
-	     (26 1))
+	     (28 1))
 	    (compat
-	     (30 0 0 0)))
+	     (30 0 2 0)))
 	   "Show current command and its binding" tar
 	   ((:url . "https://github.com/tarsius/keycast")
 	    (:keywords "multimedia")
 	    (:maintainer "Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev"))
-	    (:commit . "c44618d2867fc2410e5061fef2a805e974198cf2"))])
+	    (:commit . "011cf538a2459b44f5c8664f3e43f1492f6558a8"))])
  (kotlin-mode .
 	      [(2 0 0 0 20230123 105957)
 	       ((emacs
@@ -1625,7 +1625,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit .
-	[(4 3 0 0 20250217 231525)
+	[(4 3 0 0 20250221 10537)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -1649,9 +1649,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	  (:commit . "12e1f3838cd6879fa79f5548eba5e80ad19d94f9"))])
+	  (:commit . "9914feb4d5a2feab091076be554d80781594869d"))])
  (magit-section .
-		[(4 3 0 0 20250217 231525)
+		[(4 3 0 0 20250221 10537)
 		 ((emacs
 		   (27 1))
 		  (compat
@@ -1666,7 +1666,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "12e1f3838cd6879fa79f5548eba5e80ad19d94f9"))])
+		  (:commit . "9914feb4d5a2feab091076be554d80781594869d"))])
  (markdown-mode .
 		[(2 7 -3 0 20250216 81025)
 		 ((emacs
@@ -1940,7 +1940,7 @@
 		    ("Takaaki ISHIKAWA" . "takaxpatieeedotorg"))
 		   (:commit . "e2599a106a26ce5511095e23df4ea04be6687a8a"))])
  (orgit .
-	[(2 0 0 0 20240808 194549)
+	[(2 0 0 0 20250221 152651)
 	 ((emacs
 	   (26 1))
 	  (compat
@@ -1955,7 +1955,7 @@
 	  (:maintainer "Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
-	  (:commit . "59d21fdb21f84238c3172d37fdd2446b753e98dc"))])
+	  (:commit . "3b6b34bd1109adcad2c6dca920617fc91982547f"))])
  (p4-16-mode .
 	     [(0 3 0 20231118 161633)
 	      nil "Support for the P4_16 programming language" tar
@@ -2558,7 +2558,7 @@
 	("Marty Hiatt" . "mousebot@disroot.org"))
        (:commit . "cce2dfe0ec2b5c070cb13a7bdf95695eeb6e3caf"))])
  (treesit-fold .
-	       [(0 2 1 0 20250220 113124)
+	       [(0 2 1 0 20250221 123518)
 		((emacs
 		  (29 1)))
 		"Code folding using treesit" tar
@@ -2568,7 +2568,7 @@
 		 (:authors
 		  ("Junyi Hou" . "junyi.yi.hou@gmail.com")
 		  ("Jen-Chieh" . "jcs090218@gmail.com"))
-		 (:commit . "4fda86966424ae0e8f8c61a39eee18150afa1d0a"))])
+		 (:commit . "864e79cce4873c854ffea993d984dc15a56b6419"))])
  (treeview .
 	   [(1 3 1 0 20241101 11503)
 	    ((emacs
@@ -2609,7 +2609,7 @@
 		    (:keywords "typescript" "languages")
 		    (:commit . "481df3ad2cdf569d8e6697679669ff6206fbd2f9"))])
  (typst-ts-mode .
-		[(0 11 0 0 20250220 50237)
+		[(0 11 0 0 20250221 91757)
 		 ((emacs
 		   (29 1)))
 		 "Tree Sitter support for Typst" tar
@@ -2620,7 +2620,7 @@
 		   ("Huan Nguyen" . "nguyenthieuhuan@gmail.com"))
 		  (:authors
 		   ("Ziqi Yang" . "mr.meowking@anche.no"))
-		  (:commit . "eb2f385c16a4cebf2c3f109b641f2b8304e22c46"))])
+		  (:commit . "34d522c0a0d8eec9a8b3a6855cf394e7d5c8fb84"))])
  (ujelly-theme .
 	       [(1 3 6 0 20241111 2243)
 		nil "Ujelly theme for GNU Emacs 24 (deftheme)" tar
@@ -2793,7 +2793,7 @@
 		   (:keywords "writing" "weasel-words" "grammar")
 		   (:commit . "d54eadeedb8bf3aa0e0a584c0a7373c69644f4b8"))])
  (ws-butler .
-	    [(1 1 -1 0 20250221 65653)
+	    [(1 1 0 20250221 104343)
 	     ((emacs
 	       (24 1)))
 	     "Unobtrusively remove trailing whitespace" tar
@@ -2802,7 +2802,7 @@
 	      (:maintainer "Sean Whitton" . "spwhitton@spwhitton.name")
 	      (:authors
 	       ("Le Wang" . "l26wang@gmail.com"))
-	      (:commit . "9cff8eb0c7ed12146ce58e62ba2c8b5b218539e6"))])
+	      (:commit . "77e7aa3d6faa3c2d0ce76283c21bc3f0aa6b3db3"))])
  (xah-fly-keys .
 	       [(26 9 20250205172500 0 20250205 172824)
 		((emacs
