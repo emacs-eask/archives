@@ -5584,6 +5584,19 @@
 		   (:maintainers
 		    ("Tomoya Tanjo" . "ttanjo@gmail.com"))
 		   (:maintainer "Tomoya Tanjo" . "ttanjo@gmail.com"))])
+ (bray .
+       [(0 1 0 1 -4 20250217 533)
+	((emacs
+	  (29 1)))
+	"Lightweight modal editing" tar
+	((:url . "https://codeberg.org/ideasman42/emacs-bray")
+	 (:commit . "269cb1e39d4e78533d46cc9a2e540b14639e79a8")
+	 (:revdesc . "269cb1e39d4e")
+	 (:authors
+	  ("Campbell Barton" . "ideasman42@gmail.com"))
+	 (:maintainers
+	  ("Campbell Barton" . "ideasman42@gmail.com"))
+	 (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
  (brazilian-holidays .
 		     [(2 2 0 1 -4 20220828 2348)
 		      ((emacs
@@ -14232,6 +14245,22 @@
 		 (:maintainers
 		  ("Graham Marlow" . "info@mgmarlow.com"))
 		 (:maintainer "Graham Marlow" . "info@mgmarlow.com"))])
+ (denote-agenda .
+		[(0 1 0 1 -4 20250222 1706)
+		 ((emacs
+		   (27 1))
+		  (denote
+		   (3 1 0)))
+		 "Integrate Denote and Org-Agenda" tar
+		 ((:url . "https://git.sr.ht/~swflint/denote-extras")
+		  (:commit . "63a77470bf07051e4f0874879bd0b0d10186bfae")
+		  (:revdesc . "63a77470bf07")
+		  (:keywords "calendar")
+		  (:authors
+		   ("Samuel W. Flint" . "swflint@samuelwflint.com"))
+		  (:maintainers
+		   ("Samuel W. Flint" . "swflint@samuelwflint.com"))
+		  (:maintainer "Samuel W. Flint" . "swflint@samuelwflint.com"))])
  (denote-citar-sections .
 			[(0 2 0 1 -4 20240608 1629)
 			 ((emacs
@@ -14590,15 +14619,15 @@
 		   ("Campbell Barton" . "ideasman42@gmail.com"))
 		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
  (diff-hl .
-	  [(0 1 0 1 -4 20241205 2338)
+	  [(0 1 0 1 -4 20250223 2320)
 	   ((cl-lib
 	     (0 2))
 	    (emacs
 	     (25 1)))
 	   "Highlight uncommitted changes using VC" tar
 	   ((:url . "https://github.com/dgutov/diff-hl")
-	    (:commit . "65a5de16e21c87b7c12a78a63fc3b57e07c03c86")
-	    (:revdesc . "65a5de16e21c")
+	    (:commit . "685e99135001da13caecdff71acea1ee20bed373")
+	    (:revdesc . "685e99135001")
 	    (:keywords "vc" "diff")
 	    (:authors
 	     ("Dmitry Gutov" . "dmitry@gutov.dev"))
@@ -18395,15 +18424,15 @@
 		    ("Hiroki YAMAKAWA" . "s06139@gmail.com"))
 		   (:maintainer "Hiroki YAMAKAWA" . "s06139@gmail.com"))])
  (el-job .
-	 [(0 1 0 1 -4 20250131 953)
+	 [(0 1 0 1 -4 20250223 2033)
 	  ((emacs
 	    (28 1))
 	   (compat
 	    (30)))
 	  "Call a function using all CPU cores" tar
 	  ((:url . "https://github.com/meedstrom/el-job")
-	   (:commit . "aa852eaf10b5a9b1618d4c3447b15606b88da4c8")
-	   (:revdesc . "aa852eaf10b5")
+	   (:commit . "252c669cd5b56bb4ca4c36976cb183ab52e1a608")
+	   (:revdesc . "252c669cd5b5")
 	   (:keywords "processes")
 	   (:authors
 	    ("Martin Edström" . "meedstrom91@gmail.com"))
@@ -19351,7 +19380,7 @@
 		       ("Yinghai Zhao" . "zyinghai@gmail.com"))
 		      (:maintainer "Yinghai Zhao" . "zyinghai@gmail.com"))])
  (ellama .
-	 [(0 1 0 1 -4 20250223 1046)
+	 [(0 1 0 1 -4 20250223 2136)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -19364,8 +19393,8 @@
 	    (29 1)))
 	  "Tool for interacting with LLMs" tar
 	  ((:url . "http://github.com/s-kostyaev/ellama")
-	   (:commit . "ad88edf9edc313f10107c45a8a21ecf6b6b6d139")
-	   (:revdesc . "ad88edf9edc3")
+	   (:commit . "c1b51834c95bc843bde2e694cc3ed51163df2191")
+	   (:revdesc . "c1b51834c95b")
 	   (:keywords "help" "local" "tools")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
@@ -31985,6 +32014,38 @@
 	  (:maintainers
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))])
+ (gptel-aibo .
+	     [(0 1 0 1 -4 20250223 28)
+	      ((emacs
+		(27 1))
+	       (gptel
+		(0 9 7)))
+	      "An AI Writing Assistant" tar
+	      ((:url . "https://github.com/dolmens/gptel-aibo")
+	       (:commit . "d063cef514cae6ea6c8226092729983fba48d100")
+	       (:revdesc . "d063cef514ca")
+	       (:keywords "emacs" "tools" "editing" "gptel" "ai" "assistant" "code-completion" "productivity")
+	       (:authors
+		("Sun Yi Ming" . "dolmens@gmail.com"))
+	       (:maintainers
+		("Sun Yi Ming" . "dolmens@gmail.com"))
+	       (:maintainer "Sun Yi Ming" . "dolmens@gmail.com"))])
+ (gptel-fn-complete .
+		    [(0 1 0 1 -4 20250219 1755)
+		     ((emacs
+		       (29 1))
+		      (gptel
+		       (0 9 7)))
+		     "Complete the function at point using gptel" tar
+		     ((:url . "https://github.com/mwolson/gptel-fn-complete")
+		      (:commit . "1a28af9c6c37db8a92937316fe43042ef01a1186")
+		      (:revdesc . "1a28af9c6c37")
+		      (:keywords "hypermedia" "convenience" "tools")
+		      (:authors
+		       ("Michael Olson" . "mwolson@gnu.org"))
+		      (:maintainers
+		       ("Michael Olson" . "mwolson@gnu.org"))
+		      (:maintainer "Michael Olson" . "mwolson@gnu.org"))])
  (gpx .
       [(0 1 0 1 -4 20240609 2200)
        ((emacs
@@ -44524,6 +44585,20 @@
 	       (:maintainers
 		("Gaurav Atreya" . "allmanpride@gmail.com"))
 	       (:maintainer "Gaurav Atreya" . "allmanpride@gmail.com"))])
+ (lithium .
+	  [(0 1 0 1 -4 20250219 417)
+	   ((emacs
+	     (25 1)))
+	   "Lightweight modal interfaces" tar
+	   ((:url . "https://github.com/countvajhula/lithium")
+	    (:commit . "97cc8d1fe68bab02f95ede45e35dc1d2f37e54b3")
+	    (:revdesc . "97cc8d1fe68b")
+	    (:keywords "convenience" "emulations" "lisp" "tools")
+	    (:authors
+	     ("Siddhartha Kasivajhula" . "sid@countvajhula.com"))
+	    (:maintainers
+	     ("Siddhartha Kasivajhula" . "sid@countvajhula.com"))
+	    (:maintainer "Siddhartha Kasivajhula" . "sid@countvajhula.com"))])
  (live-code-talks .
 		  [(0 2 1 1 -4 20180907 1647)
 		   ((emacs
@@ -53317,6 +53392,20 @@
 	     (:maintainers
 	      ("Paul W. Rankin" . "rnkn@rnkn.xyz"))
 	     (:maintainer "Paul W. Rankin" . "rnkn@rnkn.xyz"))])
+ (ollama-buddy .
+	       [(0 1 0 1 -4 20250217 2040)
+		((emacs
+		  (26 1)))
+		"Ollama Buddy: Your Friendly AI Assistant" tar
+		((:url . "https://github.com/captainflasmr/ollama-buddy")
+		 (:commit . "202834250122512749c5c2d654df6e7ba914cd6c")
+		 (:revdesc . "202834250122")
+		 (:keywords "applications" "tools" "convenience")
+		 (:authors
+		  ("James Dyer" . "captainflasmr@gmail.com"))
+		 (:maintainers
+		  ("James Dyer" . "captainflasmr@gmail.com"))
+		 (:maintainer "James Dyer" . "captainflasmr@gmail.com"))])
  (om-mode .
 	  [(0 5 20140916 1 -4 20140915 2110)
 	   nil "Insert Om component template with life cycle" tar
@@ -69659,7 +69748,7 @@
 	(:revdesc . "e09728891a99")
 	(:keywords "convenience"))])
  (sisyphus .
-	   [(0 1 0 1 -4 20250223 2218)
+	   [(0 1 0 1 -4 20250223 2220)
 	    ((emacs
 	      (27 1))
 	     (compat
@@ -69672,8 +69761,8 @@
 	      (4 2 0)))
 	    "Create releases of Emacs packages" tar
 	    ((:url . "https://github.com/magit/sisyphus")
-	     (:commit . "59bc997bf2c410f0c4b13845efdce83282246fe2")
-	     (:revdesc . "59bc997bf2c4")
+	     (:commit . "fea66476e80fab13055fdcf3e395cdb694e23f78")
+	     (:revdesc . "fea66476e80f")
 	     (:keywords "git" "tools" "vc")
 	     (:authors
 	      ("Jonas Bernoulli" . "emacs.sisyphus@jonas.bernoulli.dev"))
@@ -74039,13 +74128,13 @@
 		       ("Daniel Mendler" . "mail@daniel-mendler.de"))
 		      (:maintainer "Vitalii Drevenchuk" . "cradlemann@gmail.com"))])
  (templ-ts-mode .
-		[(0 1 1 -4 20240118 338)
+		[(0 1 0 1 -4 20250223 2347)
 		 ((emacs
 		   (29 1)))
 		 "Major mode for editing Templ files" tar
 		 ((:url . "https://github.com/danderson/templ-ts-mode")
-		  (:commit . "e43dc22adada160906bd411b03cfa022d787486d")
-		  (:revdesc . "e43dc22adada")
+		  (:commit . "ddf13c1a08ed3d05d9701b1a2e8bb4b9febad57b")
+		  (:revdesc . "ddf13c1a08ed")
 		  (:keywords "languages")
 		  (:authors
 		   ("David Anderson" . "dave@natulte.net"))
