@@ -17317,13 +17317,13 @@
 		    ("Thanabodee Charoenpiriyakij" . "wingyminus@gmail.com"))
 		   (:maintainer "Thanabodee Charoenpiriyakij" . "wingyminus@gmail.com"))])
  (eask .
-       [(0 1 0 1 -4 20250131 627)
+       [(0 1 0 1 -4 20250226 2354)
 	((emacs
 	  (26 1)))
 	"Core Eask APIs, for Eask CLI development" tar
 	((:url . "https://github.com/emacs-eask/eask")
-	 (:commit . "50b70ff0e67bbdbdbf9c37570956c5c47bf50bc2")
-	 (:revdesc . "50b70ff0e67b")
+	 (:commit . "8d831ff25d085634e288b35d4774f8c4a48a4d76")
+	 (:revdesc . "8d831ff25d08")
 	 (:keywords "lisp" "eask" "api")
 	 (:authors
 	  ("Jen-Chieh" . "jcs090218@gmail.com"))
@@ -17457,15 +17457,15 @@
 		 ("Chunyang Xu" . "xuchunyang56@gmail.com"))
 		(:maintainer "Chunyang Xu" . "xuchunyang56@gmail.com"))])
  (easysession .
-	      [(0 1 0 1 -4 20250226 1833)
+	      [(0 1 0 1 -4 20250227 20)
 	       ((emacs
 		 (25 1))
 		(f
 		 (0 18 2)))
 	       "Persist and restore your sessions (desktop.el alternative)" tar
 	       ((:url . "https://github.com/jamescherti/easysession.el")
-		(:commit . "76cd092f7ad7468434c39da6fda383d0ecf731d7")
-		(:revdesc . "76cd092f7ad7")
+		(:commit . "610395e12b8d73bcb48804319dba22cfb46ea879")
+		(:revdesc . "610395e12b8d")
 		(:keywords "convenience"))])
  (ebdb-mua-sidecar .
 		   [(0 1 0 1 -4 20240428 1852)
@@ -19888,7 +19888,7 @@
 	  ("Matus Goljer" . "matus.goljer@gmail.com"))
 	 (:maintainer "Matus Goljer" . "matus.goljer@gmail.com"))])
  (elx .
-      [(0 1 0 1 -4 20250220 1124)
+      [(0 1 0 1 -4 20250225 2315)
        ((emacs
 	 (26 1))
 	(compat
@@ -19897,8 +19897,8 @@
 	 (0 4 1)))
        "Extract information from Emacs Lisp libraries" tar
        ((:url . "https://github.com/emacscollective/elx")
-	(:commit . "4b4e606ae32271be051c92f85af6b97f8076ad2f")
-	(:revdesc . "4b4e606ae322")
+	(:commit . "ac03564542d5666246cc471265918c871af89bd8")
+	(:revdesc . "ac03564542d5")
 	(:keywords "docs" "libraries" "packages")
 	(:authors
 	 ("Jonas Bernoulli" . "emacs.elx@jonas.bernoulli.dev"))
@@ -25690,15 +25690,15 @@
 		     (:revdesc . "3dbff5646355")
 		     (:keywords "convenience" "languages" "tools" "flycheck" "dedukti"))])
  (flycheck-deno .
-		[(0 1 0 1 -4 20250101 902)
+		[(0 1 0 1 -4 20250226 2238)
 		 ((emacs
-		   (26 1))
+		   (27 1))
 		  (flycheck
 		   (0 14)))
 		 "Flycheck for deno-lint" tar
 		 ((:url . "https://github.com/flycheck/flycheck-deno")
-		  (:commit . "47671457b649b2de422cd56f7b3950aabc015c1f")
-		  (:revdesc . "47671457b649")
+		  (:commit . "d59b0cceb81b776a7143d7e25e06f7c3e71aa56f")
+		  (:revdesc . "d59b0cceb81b")
 		  (:keywords "lisp" "deno")
 		  (:authors
 		   ("Jen-Chieh" . "jcs090218@gmail.com"))
@@ -25983,13 +25983,15 @@
 			   ("Diep Pham" . "me@favadi.com"))
 			  (:maintainer "Diep Pham" . "me@favadi.com"))])
  (flycheck-google-cpplint .
-			  [(0 1 0 1 -4 20250101 901)
-			   ((flycheck
+			  [(0 1 0 1 -4 20250226 2239)
+			   ((emacs
+			     (27 1))
+			    (flycheck
 			     (0 20 -4 1)))
 			   "Help to comply with the Google C++ Style Guide" tar
 			   ((:url . "https://github.com/flycheck/flycheck-google-cpplint/")
-			    (:commit . "9b2f8eeb46874cbb0c34caaa91ac3cdc3d0d6f56")
-			    (:revdesc . "9b2f8eeb4687")
+			    (:commit . "bba4b07ef39fe2c1d404584c0a561e4e0c5dc90d")
+			    (:revdesc . "bba4b07ef39f")
 			    (:keywords "flycheck" "c" "c++")
 			    (:authors
 			     ("Akiha Senda" . "senda.akiha@gmail.com"))
@@ -26028,9 +26030,9 @@
 			  ("tienne Deparis" . "etienne@depar.is"))
 			 (:maintainer "tienne Deparis" . "etienne@depar.is"))])
  (flycheck-grammarly .
-		     [(0 1 0 1 -4 20250101 849)
+		     [(0 1 0 1 -4 20250226 2244)
 		      ((emacs
-			(25 1))
+			(27 1))
 		       (flycheck
 			(0 14))
 		       (grammarly
@@ -26039,8 +26041,8 @@
 			(1 12 0)))
 		      "Grammarly support for Flycheck" tar
 		      ((:url . "https://github.com/emacs-grammarly/flycheck-grammarly")
-		       (:commit . "3cb1853bcdf62856604a081c0d88ae09d69f1601")
-		       (:revdesc . "3cb1853bcdf6")
+		       (:commit . "34ee0901e1de05b0c60208293c8beb9a4587e5c7")
+		       (:revdesc . "34ee0901e1de")
 		       (:keywords "convenience" "grammar" "check")
 		       (:authors
 			("Jen-Chieh" . "jcs090218@gmail.com"))
@@ -26784,9 +26786,9 @@
 		    ("Christian Schwarzgruber" . "c.schwarzgruber.cs@gmail.com"))
 		   (:maintainer "Christian Schwarzgruber" . "c.schwarzgruber.cs@gmail.com"))])
  (flycheck-rust .
-		[(0 1 0 1 -4 20250101 902)
+		[(0 1 0 1 -4 20250226 2240)
 		 ((emacs
-		   (24 1))
+		   (27 1))
 		  (flycheck
 		   (28))
 		  (dash
@@ -26797,8 +26799,8 @@
 		      (1 0 4)))
 		 "Flycheck: Rust additions and Cargo support" tar
 		 ((:url . "https://github.com/flycheck/flycheck-rust")
-		  (:commit . "d499471ec433a62898a95ce76561964e3d015ce5")
-		  (:revdesc . "d499471ec433")
+		  (:commit . "2b544bab19b987bfb41d5d88801b89e29bdf69c7")
+		  (:revdesc . "2b544bab19b9")
 		  (:keywords "tools" "convenience")
 		  (:authors
 		   ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
@@ -45240,9 +45242,9 @@
 	      (:revdesc . "3420d82c6c86")
 	      (:keywords "languages" "lsp-mode"))])
  (lsp-grammarly .
-		[(0 1 0 1 -4 20250222 1741)
+		[(0 1 0 1 -4 20250226 2340)
 		 ((emacs
-		   (27 1))
+		   (28 1))
 		  (lsp-mode
 		   (6 1))
 		  (grammarly
@@ -45255,8 +45257,8 @@
 		   (2 3)))
 		 "LSP Clients for Grammarly" tar
 		 ((:url . "https://github.com/emacs-grammarly/lsp-grammarly")
-		  (:commit . "5f7f0e564fe52767ea00c2bde7dcc0f3b5b991a0")
-		  (:revdesc . "5f7f0e564fe5")
+		  (:commit . "7b788f97d21d689d152c31e7876a04813391d48a")
+		  (:revdesc . "7b788f97d21d")
 		  (:keywords "convenience" "lsp" "grammarly" "checker")
 		  (:authors
 		   ("Jen-Chieh" . "jcs090218@gmail.com"))
@@ -46028,7 +46030,7 @@
 	       (:revdesc . "224f0eca413f")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20250221 105)
+	[(0 1 0 1 -4 20250225 837)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -46045,8 +46047,8 @@
 	   (3 4 3)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "9914feb4d5a2feab091076be554d80781594869d")
-	  (:revdesc . "9914feb4d5a2")
+	  (:commit . "ea811b143b41a217cffe5d980d150437dddc4cef")
+	  (:revdesc . "ea811b143b41")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
