@@ -232,14 +232,14 @@
 	   ("John Wiegley" . "jwiegley@gmail.com"))
 	  (:commit . "b99658e831bc7e7d20ed4bb0a85bdb5c7dd74142"))])
  (auctex .
-	 [(14 0 9 0 20250225 213505)
+	 [(14 0 9 0 20250228 124408)
 	  ((emacs
 	    (28 1)))
 	  "Integrated environment for *TeX*" tar
 	  ((:url . "https://www.gnu.org/software/auctex/")
 	   (:keywords "tex" "latex" "texinfo" "context" "doctex" "preview-latex")
 	   (:maintainer nil . "auctex-devel@gnu.org")
-	   (:commit . "cd583b86dc552be0c1728f3c3f0db72aebdc57da"))])
+	   (:commit . "2ebd33057b5a681f2d01d1358b26dd538c3fc86f"))])
  (auctex-cont-latexmk .
 		      [(0 3 0 20250115 185937)
 		       ((emacs
@@ -1070,6 +1070,19 @@
 		(:authors
 		 ("Mohamed Suliman" . "sulimanm@tcd.ie"))
 		(:commit . "d3b890648404eb4df2dabbb3d783105672e0ea23"))])
+ (denote-search .
+		[(1 0 2 0 20250228 102658)
+		 ((emacs
+		   (29 1))
+		  (denote
+		   (3 0)))
+		 "Search the contents of your notes" tar
+		 ((:url . "https://github.com/lmq-10/denote-search")
+		  (:keywords "matching")
+		  (:maintainer "Lucas Quintana" . "lmq10@protonmail.com")
+		  (:authors
+		   ("Lucas Quintana" . "lmq10@protonmail.com"))
+		  (:commit . "02d2d6d361d5e86376b2a1b102515cc899efabd2"))])
  (detached .
 	   [(0 10 1 0 20221129 143049)
 	    ((emacs
@@ -3513,18 +3526,18 @@
 		      ("r0man" . "roman@burningswell.com"))
 		     (:commit . "e9c54b3325bcbcfd961d4d7d77316e59897f2232"))])
  (plz-media-type .
-		 [(0 2 3 -1 0 20241106 190902)
+		 [(0 2 4 -1 0 20250228 133501)
 		  ((emacs
 		    (26 3))
 		   (plz
-		    (0 9)))
+		    (0 9 1)))
 		  "Plz Media Types" tar
 		  ((:url . "https://github.com/r0man/plz-media-type")
 		   (:keywords "comm" "network" "http")
 		   (:maintainer "r0man" . "roman@burningswell.com")
 		   (:authors
 		    ("r0man" . "roman@burningswell.com"))
-		   (:commit . "4404f213b4ba906668a4233e801610d984b26442"))])
+		   (:commit . "ab69de91ae93ab6650175fdf0c4bb394d698b49a"))])
  (plz-see .
 	  [(0 1 0 20231101 73512)
 	   ((emacs
