@@ -292,14 +292,14 @@
 		 (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 		 (:commit . "eabe29b076fff19db552d36d4babaa36ecf0b704"))])
  (clojure-ts-mode .
-		  [(0 2 2 0 20250216 85255)
+		  [(0 2 2 0 20250301 145938)
 		   ((emacs
 		     (29 1)))
 		   "Major mode for Clojure code" tar
 		   ((:url . "http://github.com/clojure-emacs/clojure-ts-mode")
 		    (:keywords "languages" "clojure" "clojurescript" "lisp")
 		    (:maintainer "Danny Freeman" . "danny@dfreeman.email")
-		    (:commit . "5794188e44459cf4c6ca6f2c4d0d1521d810b9a8"))])
+		    (:commit . "fa889a996ac407e2b75ac42ccbc5aed6683dca6c"))])
  (coffee-mode .
 	      [(0 6 3 0 20230908 103000)
 	       ((emacs
@@ -463,7 +463,7 @@
 	       ("Campbell Barton" . "ideasman42@gmail.com"))
 	      (:commit . "c2a402967b4043e104a431ab72c55477805ad2cb"))])
  (dirvish .
-	  [(2 1 0 0 20250228 90945)
+	  [(2 1 0 0 20250301 144226)
 	   ((emacs
 	     (28 1)))
 	   "A modern file manager based on dired mode" tar
@@ -472,7 +472,7 @@
 	    (:maintainer "Alex Lu" . "https://github.com/alexluigit")
 	    (:authors
 	     ("Alex Lu" . "https://github.com/alexluigit"))
-	    (:commit . "afefb33d722579f80ffe68b3c17945dd21fc81fd"))])
+	    (:commit . "f58c8178c9af9e6be84a24be7b6af9a474922fbf"))])
  (doc-show-inline .
 		  [(0 1 0 20250209 60743)
 		   ((emacs
@@ -597,7 +597,7 @@
 	    ("Tim Vaughan" . "plugd@thelambdalab.xyz"))
 	   (:commit . "a1c5fbf16b528fb67d087437d44d66e9edc99664"))])
  (emacsql .
-	  [(4 1 0 0 20250223 174337)
+	  [(4 2 0 0 20250301 163737)
 	   ((emacs
 	     (26 1)))
 	   "High-level SQL database front-end" tar
@@ -605,7 +605,7 @@
 	    (:maintainer "Jonas Bernoulli" . "emacs.emacsql@jonas.bernoulli.dev")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
-	    (:commit . "e4f1dcae91f91c5fa6dc1b0097a6c524e98fdf2b"))])
+	    (:commit . "f111b0acc79eadeeb3c6c1332d943f11fd6932ff"))])
  (engine-mode .
 	      [(2 2 4 0 20230911 95607)
 	       ((emacs
@@ -1498,7 +1498,7 @@
 	       (:keywords "languages")
 	       (:commit . "0f4d74f9049df28e2f522733141bfc5b7a0f69a3"))])
  (keycast .
-	  [(1 4 1 0 20250221 153401)
+	  [(1 4 2 0 20250301 164536)
 	   ((emacs
 	     (28 1))
 	    (compat
@@ -1509,7 +1509,7 @@
 	    (:maintainer "Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev"))
-	    (:commit . "011cf538a2459b44f5c8664f3e43f1492f6558a8"))])
+	    (:commit . "df329db48c22a3905d540c4240ac65c7b45f51dd"))])
  (kotlin-mode .
 	      [(2 0 0 0 20230123 105957)
 	       ((emacs
@@ -1522,7 +1522,7 @@
 		 ("Shodai Yokoyama" . "(quantumcars@gmail.com)"))
 		(:commit . "fddd747e5b4736e8b27a147960f369b86179ddff"))])
  (llama .
-	[(0 6 0 0 20250218 154441)
+	[(0 6 1 0 20250301 163350)
 	 ((emacs
 	   (26 1))
 	  (compat
@@ -1530,7 +1530,7 @@
 	 "Compact syntax for short lambda" tar
 	 ((:url . "https://github.com/tarsius/llama")
 	  (:keywords "extensions")
-	  (:commit . "27751668706838e845cee356b7299f734e1cc7dc"))])
+	  (:commit . "c1b320d6308a68d8841116745310cc55ac5ce74b"))])
  (logview .
 	  [(0 19 2 -4 0 20250203 195605)
 	   ((emacs
@@ -1625,7 +1625,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit .
-	[(4 3 0 0 20250227 214029)
+	[(4 3 0 0 20250301 162342)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -1649,9 +1649,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	  (:commit . "ec036ccdcf00a91f531c7bb1fda93425e713ee07"))])
+	  (:commit . "1e986bdbf2126167d1bd6ef51d90907a2dd0a644"))])
  (magit-section .
-		[(4 3 0 0 20250227 214029)
+		[(4 3 0 0 20250301 162342)
 		 ((emacs
 		   (27 1))
 		  (compat
@@ -1666,7 +1666,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "ec036ccdcf00a91f531c7bb1fda93425e713ee07"))])
+		  (:commit . "1e986bdbf2126167d1bd6ef51d90907a2dd0a644"))])
  (markdown-mode .
 		[(2 8 -3 0 20250228 151302)
 		 ((emacs
