@@ -8721,13 +8721,13 @@
 		      ("Max Penet" . "m@qbits.cc"))
 		     (:maintainer "Max Penet" . "m@qbits.cc"))])
  (clojure-ts-mode .
-		  [(0 1 0 1 -4 20250216 852)
+		  [(0 1 0 1 -4 20250301 1455)
 		   ((emacs
 		     (29 1)))
 		   "Major mode for Clojure code" tar
 		   ((:url . "http://github.com/clojure-emacs/clojure-ts-mode")
-		    (:commit . "5794188e44459cf4c6ca6f2c4d0d1521d810b9a8")
-		    (:revdesc . "5794188e4445")
+		    (:commit . "ad7c89bc57c9e4370f934621c193651fff70ae15")
+		    (:revdesc . "ad7c89bc57c9")
 		    (:keywords "languages" "clojure" "clojurescript" "lisp")
 		    (:maintainers
 		     ("Danny Freeman" . "danny@dfreeman.email"))
@@ -15663,13 +15663,13 @@
 		      ("Austin Bingham" . "austin.bingham@gmail.com"))
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com"))])
  (dirvish .
-	  [(0 1 0 1 -4 20250301 1406)
+	  [(0 1 0 1 -4 20250301 1442)
 	   ((emacs
 	     (28 1)))
 	   "A modern file manager based on dired mode" tar
 	   ((:url . "https://github.com/alexluigit/dirvish")
-	    (:commit . "e46e356df7bb326032a8d1f21e6a0d7e0e138f1d")
-	    (:revdesc . "e46e356df7bb")
+	    (:commit . "f58c8178c9af9e6be84a24be7b6af9a474922fbf")
+	    (:revdesc . "f58c8178c9af")
 	    (:keywords "files" "convenience")
 	    (:authors
 	     ("Alex Lu" . "https://github.com/alexluigit"))
@@ -19888,17 +19888,19 @@
 	  ("Matus Goljer" . "matus.goljer@gmail.com"))
 	 (:maintainer "Matus Goljer" . "matus.goljer@gmail.com"))])
  (elx .
-      [(0 1 0 1 -4 20250225 2315)
+      [(0 1 0 1 -4 20250301 1701)
        ((emacs
 	 (26 1))
 	(compat
 	 (30 0 2 0))
 	(llama
-	 (0 4 1)))
+	 (0 6 1))
+	(seq
+	 (2 24)))
        "Extract information from Emacs Lisp libraries" tar
        ((:url . "https://github.com/emacscollective/elx")
-	(:commit . "ac03564542d5666246cc471265918c871af89bd8")
-	(:revdesc . "ac03564542d5")
+	(:commit . "ff70b824c17193af6e66f748573d5120a3527377")
+	(:revdesc . "ff70b824c171")
 	(:keywords "docs" "libraries" "packages")
 	(:authors
 	 ("Jonas Bernoulli" . "emacs.elx@jonas.bernoulli.dev"))
@@ -19959,13 +19961,13 @@
 		   ("DarkSun" . "lujun9972@gmail.com"))
 		  (:maintainer "DarkSun" . "lujun9972@gmail.com"))])
  (emacsql .
-	  [(0 1 0 1 -4 20250223 1743)
+	  [(0 1 0 1 -4 20250301 1637)
 	   ((emacs
 	     (26 1)))
 	   "High-level SQL database front-end" tar
 	   ((:url . "https://github.com/magit/emacsql")
-	    (:commit . "e4f1dcae91f91c5fa6dc1b0097a6c524e98fdf2b")
-	    (:revdesc . "e4f1dcae91f9")
+	    (:commit . "f111b0acc79eadeeb3c6c1332d943f11fd6932ff")
+	    (:revdesc . "f111b0acc79e")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainers
@@ -28609,15 +28611,15 @@
 		      ("David Shepherd" . "davidshepherd7@gmail.com"))
 		     (:maintainer "David Shepherd" . "davidshepherd7@gmail.com"))])
  (frameshot .
-	    [(0 1 0 1 -4 20250220 1125)
+	    [(0 1 0 1 -4 20250301 1639)
 	     ((emacs
 	       (26 1))
 	      (compat
-	       (30 0 0 0)))
+	       (30 0 2 0)))
 	     "Take screenshots of a frame" tar
 	     ((:url . "https://github.com/tarsius/frameshot")
-	      (:commit . "ceb94b93865186bbcbee05aafce8b6567dbc2d49")
-	      (:revdesc . "ceb94b938651")
+	      (:commit . "2b0dab1dc1ed9a5e6f706d08538372c30fd2a5cd")
+	      (:revdesc . "2b0dab1dc1ed")
 	      (:keywords "multimedia")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.frameshot@jonas.bernoulli.dev"))
@@ -29823,7 +29825,7 @@
 	 ("Joseph LaFreniere" . "joseph@lafreniere.xyz"))
 	(:maintainer "Joseph LaFreniere" . "joseph@lafreniere.xyz"))])
  (ghub .
-       [(0 1 0 1 -4 20250220 1447)
+       [(0 1 0 1 -4 20250301 1641)
 	((emacs
 	  (29 1))
 	 (compat
@@ -29831,13 +29833,13 @@
 	 (let-alist
 	     (1 0 6))
 	 (llama
-	  (0 6 0))
+	  (0 6 1))
 	 (treepy
 	  (0 1 2)))
 	"Client libraries for Git forge APIs" tar
 	((:url . "https://github.com/magit/ghub")
-	 (:commit . "3257231c79ce287108bff738e9c714028466871c")
-	 (:revdesc . "3257231c79ce")
+	 (:commit . "af663777c47a3dce64b2144b4409587b35521e47")
+	 (:revdesc . "af663777c47a")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
@@ -36846,15 +36848,15 @@
 		 ("Donald Ephraim Curtis" . "dcurtis@milkbox.net"))
 		(:maintainer "Donald Ephraim Curtis" . "dcurtis@milkbox.net"))])
  (hl-todo .
-	  [(0 1 0 1 -4 20250223 1917)
+	  [(0 1 0 1 -4 20250301 1643)
 	   ((emacs
 	     (26 1))
 	    (compat
 	     (30 0 2 0)))
 	   "Highlight TODO and similar keywords" tar
 	   ((:url . "https://github.com/tarsius/hl-todo")
-	    (:commit . "845575e3960eab090686aca3ba457ab4f60f0097")
-	    (:revdesc . "845575e3960e")
+	    (:commit . "0ce21c329b686802121df45bf4ae15ae201137bf")
+	    (:revdesc . "0ce21c329b68")
 	    (:keywords "convenience")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.hl-todo@jonas.bernoulli.dev"))
@@ -42197,15 +42199,15 @@
 	     ("Vyacheslav Levit" . "dev@vlevit.org"))
 	    (:maintainer "Vyacheslav Levit" . "dev@vlevit.org"))])
  (keycast .
-	  [(0 1 0 1 -4 20250221 1534)
+	  [(0 1 0 1 -4 20250301 1645)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30 0 2 0)))
 	   "Show current command and its binding" tar
 	   ((:url . "https://github.com/tarsius/keycast")
-	    (:commit . "011cf538a2459b44f5c8664f3e43f1492f6558a8")
-	    (:revdesc . "011cf538a245")
+	    (:commit . "df329db48c22a3905d540c4240ac65c7b45f51dd")
+	    (:revdesc . "df329db48c22")
 	    (:keywords "multimedia")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev"))
@@ -43843,11 +43845,11 @@
 		    ("Fernando Leboran" . "f.leboran@gmail.com"))
 		   (:maintainer "Fernando Leboran" . "f.leboran@gmail.com"))])
  (leuven-theme .
-	       [(0 1 0 1 -4 20250212 1953)
+	       [(0 1 0 1 -4 20250301 1634)
 		nil "Elegant Emacs color theme for a white background" tar
 		((:url . "https://github.com/fniessen/emacs-leuven-theme")
-		 (:commit . "d1d100242322caa17d1e3064bbc1aac2fb41b15f")
-		 (:revdesc . "d1d100242322")
+		 (:commit . "43c9836cd3a3b96a56b200a340eb5c92e0766efa")
+		 (:revdesc . "43c9836cd3a3")
 		 (:keywords "color" "theme")
 		 (:authors
 		  ("Fabrice Niessen" . ""))
@@ -44708,15 +44710,15 @@
 	      ("Claus Brunzema" . "mail@cbrunzema.de"))
 	     (:maintainer "Claus Brunzema" . "mail@cbrunzema.de"))])
  (llama .
-	[(0 1 0 1 -4 20250218 1544)
+	[(0 1 0 1 -4 20250301 1633)
 	 ((emacs
 	   (26 1))
 	  (compat
 	   (30 0 2 0)))
 	 "Compact syntax for short lambda" tar
 	 ((:url . "https://github.com/tarsius/llama")
-	  (:commit . "27751668706838e845cee356b7299f734e1cc7dc")
-	  (:revdesc . "277516687068")
+	  (:commit . "c1b320d6308a68d8841116745310cc55ac5ce74b")
+	  (:revdesc . "c1b320d6308a")
 	  (:keywords "extensions"))])
  (llama-cpp .
 	    [(1 0 0 1 -4 20240511 1039)
@@ -46030,7 +46032,7 @@
 	       (:revdesc . "224f0eca413f")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20250328 2210)
+	[(0 1 0 1 -4 20250301 1623)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -46047,8 +46049,8 @@
 	   (3 4 3)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "eef5e862d8d4f8add13b7ac8c9343c85f017e8cf")
-	  (:revdesc . "eef5e862d8d4")
+	  (:commit . "1e986bdbf2126167d1bd6ef51d90907a2dd0a644")
+	  (:revdesc . "1e986bdbf212")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -46383,7 +46385,7 @@
 		       ("Jules Tamagnan" . "jtamagnan@gmail.com"))
 		      (:maintainer "Jules Tamagnan" . "jtamagnan@gmail.com"))])
  (magit-section .
-		[(0 1 0 1 -4 20250221 105)
+		[(0 1 0 1 -4 20250301 1617)
 		 ((emacs
 		   (27 1))
 		  (compat
@@ -46394,8 +46396,8 @@
 		   (2 24)))
 		 "Sections for read-only buffers" tar
 		 ((:url . "https://github.com/magit/magit")
-		  (:commit . "3ad94012b0f570809c52eb3323fa1436e180984e")
-		  (:revdesc . "3ad94012b0f5")
+		  (:commit . "dfbc8fb91367dd6c12072c4cddabb47470c23f8c")
+		  (:revdesc . "dfbc8fb91367")
 		  (:keywords "tools")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -51697,7 +51699,7 @@
 		     ("Damien Cassou" . "damien.cassou@gmail.com"))
 		    (:maintainer "Damien Cassou" . "damien.cassou@gmail.com"))])
  (notmuch-maildir .
-		  [(0 1 0 1 -4 20250221 1528)
+		  [(0 1 0 1 -4 20250301 1647)
 		   ((emacs
 		     (29 1))
 		    (compat
@@ -51706,8 +51708,8 @@
 		     (0 38 2)))
 		   "Display maildirs as a tree" tar
 		   ((:url . "https://github.com/tarsius/notmuch-maildir")
-		    (:commit . "69752e9b6ff2a29b15f400ce8b99b9a2a1203373")
-		    (:revdesc . "69752e9b6ff2")
+		    (:commit . "3e458cefe3289b56072a76300a0140054c64040f")
+		    (:revdesc . "3e458cefe328")
 		    (:keywords "mail")
 		    (:authors
 		     ("Jonas Bernoulli" . "emacs.notmuch-maildir@jonas.bernoulli.dev"))
@@ -53397,13 +53399,13 @@
 	      ("Paul W. Rankin" . "rnkn@rnkn.xyz"))
 	     (:maintainer "Paul W. Rankin" . "rnkn@rnkn.xyz"))])
  (ollama-buddy .
-	       [(0 1 0 1 -4 20250228 1527)
+	       [(0 1 0 1 -4 20250301 1548)
 		((emacs
 		  (26 1)))
 		"Ollama Buddy: Your Friendly AI Assistant" tar
 		((:url . "https://github.com/captainflasmr/ollama-buddy")
-		 (:commit . "5e98c6a25ab77fc23dcb50d246c8ce34b281e7e4")
-		 (:revdesc . "5e98c6a25ab7")
+		 (:commit . "18e7571426f4e36e0dc5a88ee1729f89039c4b01")
+		 (:revdesc . "18e7571426f4")
 		 (:keywords "applications" "tools" "convenience")
 		 (:authors
 		  ("James Dyer" . "captainflasmr@gmail.com"))
@@ -57530,19 +57532,19 @@
 		 ("Jonas Bernoulli" . "emacs.orgit-forge@jonas.bernoulli.dev"))
 		(:maintainer "Jonas Bernoulli" . "emacs.orgit-forge@jonas.bernoulli.dev"))])
  (orglink .
-	  [(0 1 0 1 -4 20250221 1542)
+	  [(0 1 0 1 -4 20250301 1703)
 	   ((emacs
 	     (26 1))
 	    (compat
-	     (30 0 0 0))
+	     (30 0 2 0))
 	    (org
-	     (9 7 4))
+	     (9 7 11))
 	    (seq
 	     (2 24)))
 	   "Use Org Mode links in other modes" tar
 	   ((:url . "https://github.com/tarsius/orglink")
-	    (:commit . "9fc64992e9ee1173eec4c806e7220279fa9787c0")
-	    (:revdesc . "9fc64992e9ee")
+	    (:commit . "dca26f299545aa74a0caf5381daa53ad8ae2227f")
+	    (:revdesc . "dca26f299545")
 	    (:keywords "hypermedia")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.orglink@jonas.bernoulli.dev"))
@@ -57763,15 +57765,15 @@
 		("xristos" . "xristos@sdf.org"))
 	       (:maintainer "xristos" . "xristos@sdf.org"))])
  (osm .
-      [(0 1 0 1 -4 20250128 824)
+      [(0 1 0 1 -4 20250301 1613)
        ((emacs
 	 (28 1))
 	(compat
 	 (30)))
        "OpenStreetMap viewer" tar
        ((:url . "https://github.com/minad/osm")
-	(:commit . "308e67cc25c2c2725a32f48fed6e67c87dcc3eed")
-	(:revdesc . "308e67cc25c2")
+	(:commit . "7af69f09465219d65ec75ffd4bb44a47d7f56dc9")
+	(:revdesc . "7af69f094652")
 	(:keywords "network" "multimedia" "hypermedia" "mouse")
 	(:authors
 	 ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -59311,15 +59313,15 @@
 		    (:revdesc . "74183a8e13fa")
 		    (:keywords "convenience"))])
  (paren-face .
-	     [(0 1 0 1 -4 20250221 1543)
+	     [(0 1 0 1 -4 20250301 1705)
 	      ((emacs
 		(26 1))
 	       (compat
-		(30 0 0 0)))
+		(30 0 2 0)))
 	      "A face for parentheses in lisp modes" tar
 	      ((:url . "https://github.com/tarsius/paren-face")
-	       (:commit . "27d9115c7087e25b496031e4c579d31f7d91795e")
-	       (:revdesc . "27d9115c7087")
+	       (:commit . "9a7c19aab050c23962049fdeb8d27091ff7bbf10")
+	       (:revdesc . "9a7c19aab050")
 	       (:keywords "faces" "lisp")
 	       (:authors
 		("Jonas Bernoulli" . "emacs.paren-face@jonas.bernoulli.dev"))
@@ -69752,7 +69754,7 @@
 	(:revdesc . "e09728891a99")
 	(:keywords "convenience"))])
  (sisyphus .
-	   [(0 1 0 1 -4 20250223 2220)
+	   [(0 1 0 1 -4 20250301 1714)
 	    ((emacs
 	      (27 1))
 	     (compat
@@ -69765,8 +69767,8 @@
 	      (4 2 0)))
 	    "Create releases of Emacs packages" tar
 	    ((:url . "https://github.com/magit/sisyphus")
-	     (:commit . "fea66476e80fab13055fdcf3e395cdb694e23f78")
-	     (:revdesc . "fea66476e80f")
+	     (:commit . "f04a145396e5534e09d381d218ec051e2137c9e0")
+	     (:revdesc . "f04a145396e5")
 	     (:keywords "git" "tools" "vc")
 	     (:authors
 	      ("Jonas Bernoulli" . "emacs.sisyphus@jonas.bernoulli.dev"))
