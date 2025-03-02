@@ -19395,7 +19395,7 @@
 		       ("Yinghai Zhao" . "zyinghai@gmail.com"))
 		      (:maintainer "Yinghai Zhao" . "zyinghai@gmail.com"))])
  (ellama .
-	 [(0 1 0 1 -4 20250226 2045)
+	 [(0 1 0 1 -4 20250302 1702)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -19405,11 +19405,11 @@
 	   (transient
 	    (0 7))
 	   (compat
-	    (29 1)))
+	    (30 1)))
 	  "Tool for interacting with LLMs" tar
 	  ((:url . "http://github.com/s-kostyaev/ellama")
-	   (:commit . "aaef7946c90668a147d98994df7b038124c73cf0")
-	   (:revdesc . "aaef7946c906")
+	   (:commit . "57e349cebaf05165d9b23a46bef8b93036a17c6a")
+	   (:revdesc . "57e349cebaf0")
 	   (:keywords "help" "local" "tools")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
@@ -48792,6 +48792,15 @@
 		   (:maintainers
 		    ("Campbell Barton" . "ideasman42@gmail.com"))
 		   (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
+ (mode-line-keyboard .
+		     [(0 1 0 1 -4 20250225 727)
+		      ((emacs
+			(26 0)))
+		      "Keyboard in mode line for touch screens" tar
+		      ((:url . "https://github.com/Lindydancer/mode-line-keyboard")
+		       (:commit . "7e71506647ac0685277e6e856f03112f310dff5f")
+		       (:revdesc . "7e71506647ac")
+		       (:keywords "convenience"))])
  (modelica-mode .
 		[(2 0 0 1 -4 20230508 1020)
 		 ((emacs
@@ -54603,6 +54612,22 @@
 	    (:maintainers
 	     ("Sean Whitton" . "spwhitton@spwhitton.name"))
 	    (:maintainer "Sean Whitton" . "spwhitton@spwhitton.name"))])
+ (org-daily-reflection .
+		       [(0 1 0 1 -4 20250301 519)
+			((emacs
+			  (26 1))
+			 (org
+			  (9 4)))
+			"Concurrent display of org(-roam) dailies" tar
+			((:url . "https://github.com/emacsomancer/org-daily-reflection")
+			 (:commit . "798373e64a670abe961596adf00d0d9108b019cd")
+			 (:revdesc . "798373e64a67")
+			 (:keywords "convenience" "frames" "terminals" "tools" "window-system")
+			 (:authors
+			  ("Benjamin Slade" . "slade@lambda-y.net"))
+			 (:maintainers
+			  ("Benjamin Slade" . "slade@lambda-y.net"))
+			 (:maintainer "Benjamin Slade" . "slade@lambda-y.net"))])
  (org-dashboard .
 		[(1 0 1 -4 20171223 1924)
 		 ((cl-lib
