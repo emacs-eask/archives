@@ -2643,7 +2643,7 @@
 		      ("Sean Whitton" . "spwhitton@spwhitton.name"))
 		     (:commit . "c22a15e86acf28da716532c26ba1371574c8e979"))])
  (llm .
-      [(0 23 0 0 20250225 105154)
+      [(0 23 0 0 20250301 191836)
        ((emacs
 	 (28 1))
 	(plz
@@ -2657,7 +2657,7 @@
 	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
-	(:commit . "cb62272688282002fbabb917c859be74b9acd74b"))])
+	(:commit . "74b609949dc973f757f67708e194eebee445f1c2"))])
  (lmc .
       [(1 4 0 20230105 113402)
        ((emacs
@@ -3720,20 +3720,24 @@
 		   ("Feng Shu" . "tumashu@163.com"))
 		  (:commit . "55d9b324831b0fc79ff62f1c6f21aad72341a114"))])
  (python .
-	 [(0 28 0 20250222 134829)
+	 [(0 28 0 20250302 44027)
 	  ((emacs
-	    (24 4))
+	    (26 3))
 	   (compat
 	    (29 1 1 0))
 	   (seq
-	    (2 23)))
+	    (2 23))
+	   (project
+	    (0 1))
+	   (flymake
+	    (1 0)))
 	  "Python's flying circus support for Emacs" tar
 	  ((:url . "https://github.com/fgallina/python.el")
 	   (:keywords "languages")
 	   (:maintainer nil . "emacs-devel@gnu.org")
 	   (:authors
 	    ("Fabián E. Gallina" . "fgallina@gnu.org"))
-	   (:commit . "c830caab2c5bd3d03673c26f053397042dc58ad3"))])
+	   (:commit . "c4232a08f135b347a24cb75bb901659d45c61787"))])
  (quarter-plane .
 		[(0 1 0 20221221 81727)
 		 nil "Minor mode for quarter-plane style editing" tar
@@ -4727,7 +4731,7 @@
 	       (:url . "https://elpa.gnu.org/packages/transcribe.html")
 	       (:commit . "2c2d493d5488f3b444d2a771ab443589fcc72c13"))])
  (transient .
-	    [(0 8 4 0 20250226 214622)
+	    [(0 8 5 0 20250301 221818)
 	     ((emacs
 	       (26 1))
 	      (compat
@@ -4740,7 +4744,7 @@
 	      (:maintainer "Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
-	      (:commit . "e3644faf15644630e1e234d23c5be3b9f90a8b8e"))])
+	      (:commit . "b51a52a9c7a6562c19d03de4ce30b9c071bca8d2"))])
  (transient-cycles .
 		   [(1 1 0 20250225 93512)
 		    ((emacs
@@ -4890,7 +4894,7 @@
 	      ("Stefan Kangas" . "stefankangas@gmail.com"))
 	     (:commit . "0f20f8b59011471523b650cf1a3478a04362083d"))])
  (use-package .
-	      [(2 4 6 0 20250227 172902)
+	      [(2 4 6 0 20250302 30748)
 	       ((emacs
 		 (24 3))
 		(bind-key
@@ -4901,7 +4905,7 @@
 		(:maintainer "John Wiegley" . "johnw@newartisans.com")
 		(:authors
 		 ("John Wiegley" . "johnw@newartisans.com"))
-		(:commit . "ea715b0183f6a19d491cad36eb18c2c9cf0f0dd3"))])
+		(:commit . "c4232a08f135b347a24cb75bb901659d45c61787"))])
  (validate .
 	   [(1 0 4 0 20180215 204244)
 	    ((emacs
