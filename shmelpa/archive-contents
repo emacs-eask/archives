@@ -5430,17 +5430,17 @@
 	 (:commit . "237b963231eeb820b5024191ebdf2a4353851bbb")
 	 (:revdesc . "237b963231ee"))])
  (borg .
-       [(0 1 0 1 -4 20250220 1123)
+       [(0 1 0 1 -4 20250301 2325)
 	((emacs
 	  (27 1))
 	 (epkg
-	  (4 0 2))
+	  (4 0 4))
 	 (magit
-	  (4 1 2)))
+	  (4 3 1)))
 	"Assimilate Emacs packages as Git submodules" tar
 	((:url . "https://github.com/emacscollective/borg")
-	 (:commit . "96a9b6e78bdd2e0477972fa408d782fffc30bc7e")
-	 (:revdesc . "96a9b6e78bdd")
+	 (:commit . "581e11718985bc80df66d34beff6b2d08a9abff8")
+	 (:revdesc . "581e11718985")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.borg@jonas.bernoulli.dev"))
@@ -7351,15 +7351,15 @@
 	     ("Anan Mikami" . "lateau@gmail.com"))
 	    (:maintainer "Anan Mikami" . "lateau@gmail.com"))])
  (chatgpt-shell .
-		[(0 1 0 1 -4 20250301 2218)
+		[(0 1 0 1 -4 20250301 2239)
 		 ((emacs
 		   (28 1))
 		  (shell-maker
 		   (0 76 2)))
 		 "A multi-LLM shell (ChatGPT, Claude, Gemini, Kagi, Ollama, Perplexity) + editing integrations" tar
 		 ((:url . "https://github.com/xenodium/chatgpt-shell")
-		  (:commit . "9f14b871590d9cfbc42a0c30b32b13da5ebcbc13")
-		  (:revdesc . "9f14b871590d"))])
+		  (:commit . "73dc47ebdde0dc7ac828758c79e593d9b4347e29")
+		  (:revdesc . "73dc47ebdde0"))])
  (chatu .
 	[(0 1 0 1 -4 20250301 319)
 	 ((org
@@ -8755,17 +8755,17 @@
 	     ("Kostafey" . "kostafey@gmail.com"))
 	    (:maintainer "Kostafey" . "kostafey@gmail.com"))])
  (closql .
-	 [(0 1 0 1 -4 20250220 1124)
+	 [(0 1 0 1 -4 20250301 2221)
 	  ((emacs
 	    (26 1))
 	   (compat
-	    (30 0 0 0))
+	    (30 0 2 0))
 	   (emacsql
-	    (4 1 0)))
+	    (4 2 0)))
 	  "Store EIEIO objects using EmacSQL" tar
 	  ((:url . "https://github.com/emacscollective/closql")
-	   (:commit . "b499d11932047fd69e9a1e23ee3a07f2abb67601")
-	   (:revdesc . "b499d1193204")
+	   (:commit . "dc7924c1d206483a2555a98470c96fadf419f32d")
+	   (:revdesc . "dc7924c1d206")
 	   (:keywords "extensions")
 	   (:authors
 	    ("Jonas Bernoulli" . "emacs.closql@jonas.bernoulli.dev"))
@@ -11308,7 +11308,7 @@
 		     (:revdesc . "7011e6634598")
 		     (:keywords "convenience"))])
  (consult-gh .
-	     [(0 1 0 1 -4 20250214 2256)
+	     [(0 1 0 1 -4 20250301 2354)
 	      ((emacs
 		(29 4))
 	       (consult
@@ -11319,8 +11319,8 @@
 		(1 0)))
 	      "Consulting GitHub Client" tar
 	      ((:url . "https://github.com/armindarvish/consult-gh")
-	       (:commit . "0a62a3bfe03f772357bdd8f4caade986433166b8")
-	       (:revdesc . "0a62a3bfe03f")
+	       (:commit . "8fed571a32fa0fa5010f6db3e6caeeb3910d5345")
+	       (:revdesc . "8fed571a32fa")
 	       (:keywords "convenience" "matching" "tools" "vc"))])
  (consult-gh-embark .
 		    [(0 1 0 1 -4 20250201 1318)
@@ -15663,13 +15663,13 @@
 		      ("Austin Bingham" . "austin.bingham@gmail.com"))
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com"))])
  (dirvish .
-	  [(0 1 0 1 -4 20250301 1442)
+	  [(0 1 0 1 -4 20250301 2238)
 	   ((emacs
 	     (28 1)))
 	   "A modern file manager based on dired mode" tar
 	   ((:url . "https://github.com/alexluigit/dirvish")
-	    (:commit . "f58c8178c9af9e6be84a24be7b6af9a474922fbf")
-	    (:revdesc . "f58c8178c9af")
+	    (:commit . "d020b13287a0a131d5537e6cf6d0fc8b52507c22")
+	    (:revdesc . "d020b13287a0")
 	    (:keywords "files" "convenience")
 	    (:authors
 	     ("Alex Lu" . "https://github.com/alexluigit"))
@@ -20693,21 +20693,21 @@
 	   ("Sean Hutchings" . "seanhut@yandex.com"))
 	  (:maintainer "Sean Hutchings" . "seanhut@yandex.com"))])
  (epkg .
-       [(0 1 0 1 -4 20250220 1435)
+       [(0 1 0 1 -4 20250302 4)
 	((emacs
-	  (26 1))
+	  (28 1))
 	 (compat
 	  (30 0 2 0))
 	 (closql
-	  (2 2 0))
+	  (2 2 1))
 	 (emacsql
-	  (4 1 0))
+	  (4 2 0))
 	 (llama
-	  (0 6 0)))
+	  (0 6 1)))
 	"Browse the Emacsmirror package database" tar
 	((:url . "https://github.com/emacscollective/epkg")
-	 (:commit . "3e3593d30c6ecaa942b90f3c8e12ffe6de19ec12")
-	 (:revdesc . "3e3593d30c6e")
+	 (:commit . "553550bf285af0f168ce8b58483d70ceb3dee73f")
+	 (:revdesc . "553550bf285a")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))
@@ -20715,19 +20715,19 @@
 	  ("Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))
 	 (:maintainer "Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))])
  (epkg-marginalia .
-		  [(0 1 0 1 -4 20250220 1442)
+		  [(0 1 0 1 -4 20250302 21)
 		   ((emacs
 		     (27 1))
 		    (compat
-		     (30 0 0 0))
+		     (30 0 2 0))
 		    (epkg
-		     (4 0 0))
+		     (4 0 4))
 		    (marginalia
-		     (1 7)))
+		     (1 8)))
 		   "Show Epkg information in completion annotations" tar
 		   ((:url . "https://github.com/emacscollective/epkg-marginalia")
-		    (:commit . "a6363efac79f5a7376dc9d74851a4e5815f2c124")
-		    (:revdesc . "a6363efac79f")
+		    (:commit . "ad41118a3fed2b4312a0b3266ffa029996523aa4")
+		    (:revdesc . "ad41118a3fed")
 		    (:keywords "tools")
 		    (:authors
 		     ("Jonas Bernoulli" . "emacs.epkg-marginalia@jonas.bernoulli.dev"))
@@ -28340,35 +28340,35 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20250223 1744)
+	[(0 1 0 1 -4 20250301 2353)
 	 ((emacs
 	   (29 1))
 	  (compat
 	   (30 0 2 0))
 	  (closql
-	   (2 2 0))
+	   (2 2 1))
 	  (emacsql
-	   (4 1 0))
-	  (ghub
 	   (4 2 0))
+	  (ghub
+	   (4 2 2))
 	  (let-alist
 	      (1 0 6))
 	  (llama
-	   (0 6 0))
+	   (0 6 1))
 	  (magit
-	   (4 3 0))
+	   (4 3 1))
 	  (markdown-mode
-	   (2 6))
+	   (2 7))
 	  (seq
 	   (2 24))
 	  (transient
-	   (0 8 4))
+	   (0 8 5))
 	  (yaml
-	   (1 0 0)))
+	   (1 2 0)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "29bf441b391ffc59a28fa9e820236df2e182b4ee")
-	  (:revdesc . "29bf441b391f")
+	  (:commit . "1c904090dfdcd201d9170997052c43846ddce149")
+	  (:revdesc . "1c904090dfdc")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -42592,19 +42592,19 @@
 		 ("Jean Libète" . "tomenzgg@mail.mayfirst.org"))
 		(:maintainer "Jean Libète" . "tomenzgg@mail.mayfirst.org"))])
  (klondike .
-	   [(0 1 0 1 -4 20250130 113)
+	   [(0 1 0 1 -4 20250301 2336)
 	    ((emacs
 	      (28 1)))
 	    "Klondike" tar
-	    ((:url . "https://codeberg.org/Nzgg/Emacs-Klondike")
-	     (:commit . "24cd355c0ab7281e9a884cf373774aeb7d0a4d3f")
-	     (:revdesc . "24cd355c0ab7")
+	    ((:url . "https://codeberg.org/tomenzgg/Emacs-Klondike")
+	     (:commit . "891cc54c1d9411f7848a4bba34811370ae19960e")
+	     (:revdesc . "891cc54c1d94")
 	     (:keywords "games" "cards" "solitaire" "klondike")
 	     (:authors
-	      ("Nzgg" . "jaft.r@mail.mayfirst.org"))
+	      ("Jean Libète" . "tomenzgg@mail.mayfirst.org"))
 	     (:maintainers
-	      ("Nzgg" . "jaft.r@mail.mayfirst.org"))
-	     (:maintainer "Nzgg" . "jaft.r@mail.mayfirst.org"))])
+	      ("Jean Libète" . "tomenzgg@mail.mayfirst.org"))
+	     (:maintainer "Jean Libète" . "tomenzgg@mail.mayfirst.org"))])
  (kmacro-x .
 	   [(0 9 1 -4 20240721 1103)
 	    ((emacs
@@ -46032,25 +46032,25 @@
 	       (:revdesc . "224f0eca413f")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20250301 1623)
+	[(0 1 0 1 -4 20250301 2315)
 	 ((emacs
 	   (27 1))
 	  (compat
 	   (30 0 2 0))
 	  (llama
-	   (0 6 0))
+	   (0 6 1))
 	  (magit-section
-	   (4 3 0))
+	   (4 3 1))
 	  (seq
 	   (2 24))
 	  (transient
-	   (0 8 4))
+	   (0 8 5))
 	  (with-editor
 	   (3 4 3)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "1e986bdbf2126167d1bd6ef51d90907a2dd0a644")
-	  (:revdesc . "1e986bdbf212")
+	  (:commit . "28d272ce0bcecc2e312d22ed15a48ad4cea564eb")
+	  (:revdesc . "28d272ce0bce")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -46385,19 +46385,19 @@
 		       ("Jules Tamagnan" . "jtamagnan@gmail.com"))
 		      (:maintainer "Jules Tamagnan" . "jtamagnan@gmail.com"))])
  (magit-section .
-		[(0 1 0 1 -4 20250301 1617)
+		[(0 1 0 1 -4 20250301 2315)
 		 ((emacs
 		   (27 1))
 		  (compat
 		   (30 0 2 0))
 		  (llama
-		   (0 6 0))
+		   (0 6 1))
 		  (seq
 		   (2 24)))
 		 "Sections for read-only buffers" tar
 		 ((:url . "https://github.com/magit/magit")
-		  (:commit . "dfbc8fb91367dd6c12072c4cddabb47470c23f8c")
-		  (:revdesc . "dfbc8fb91367")
+		  (:commit . "28d272ce0bcecc2e312d22ed15a48ad4cea564eb")
+		  (:revdesc . "28d272ce0bce")
 		  (:keywords "tools")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -57488,19 +57488,19 @@
 	    ("Yasuhito Takamiya" . "yasuhito@gmail.com"))
 	   (:maintainer "Yasuhito Takamiya" . "yasuhito@gmail.com"))])
  (orgit .
-	[(0 1 0 1 -4 20250221 1526)
+	[(0 1 0 1 -4 20250301 2339)
 	 ((emacs
 	   (26 1))
 	  (compat
-	   (30 0 0 0))
+	   (30 0 2 0))
 	  (magit
-	   (4 0 0))
+	   (4 3 1))
 	  (org
-	   (9 7 8)))
+	   (9 7 11)))
 	 "Support for Org links to Magit buffers" tar
 	 ((:url . "https://github.com/magit/orgit")
-	  (:commit . "3b6b34bd1109adcad2c6dca920617fc91982547f")
-	  (:revdesc . "3b6b34bd1109")
+	  (:commit . "6ad0dc35c8df54fae4ef27e5145760e22fbbf890")
+	  (:revdesc . "6ad0dc35c8df")
 	  (:keywords "hypermedia" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
