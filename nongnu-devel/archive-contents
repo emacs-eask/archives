@@ -463,7 +463,7 @@
 	       ("Campbell Barton" . "ideasman42@gmail.com"))
 	      (:commit . "c2a402967b4043e104a431ab72c55477805ad2cb"))])
  (dirvish .
-	  [(2 1 0 0 20250301 223800)
+	  [(2 1 0 0 20250302 153907)
 	   ((emacs
 	     (28 1)))
 	   "A modern file manager based on dired mode" tar
@@ -472,7 +472,7 @@
 	    (:maintainer "Alex Lu" . "https://github.com/alexluigit")
 	    (:authors
 	     ("Alex Lu" . "https://github.com/alexluigit"))
-	    (:commit . "d020b13287a0a131d5537e6cf6d0fc8b52507c22"))])
+	    (:commit . "77e0ca2f0bf31a1527622bbf8b81c3eb57c8d468"))])
  (doc-show-inline .
 		  [(0 1 0 20250209 60743)
 		   ((emacs
@@ -1625,19 +1625,19 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit .
-	[(4 3 0 0 20250301 162342)
+	[(4 3 1 0 20250301 231530)
 	 ((emacs
 	   (27 1))
 	  (compat
 	   (30 0 2 0))
 	  (llama
-	   (0 6 0))
+	   (0 6 1))
 	  (magit-section
-	   (4 3 0))
+	   (4 3 1))
 	  (seq
 	   (2 24))
 	  (transient
-	   (0 8 4))
+	   (0 8 5))
 	  (with-editor
 	   (3 4 3)))
 	 "A Git porcelain inside Emacs" tar
@@ -1649,7 +1649,7 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	  (:commit . "1e986bdbf2126167d1bd6ef51d90907a2dd0a644"))])
+	  (:commit . "28d272ce0bcecc2e312d22ed15a48ad4cea564eb"))])
  (magit-section .
 		[(4 3 1 0 20250301 231530)
 		 ((emacs
@@ -1940,22 +1940,22 @@
 		    ("Takaaki ISHIKAWA" . "takaxpatieeedotorg"))
 		   (:commit . "e2599a106a26ce5511095e23df4ea04be6687a8a"))])
  (orgit .
-	[(2 0 0 0 20250221 152651)
+	[(2 0 1 0 20250301 233925)
 	 ((emacs
 	   (26 1))
 	  (compat
-	   (30 0 0 0))
+	   (30 0 2 0))
 	  (magit
-	   (4 0 0))
+	   (4 3 1))
 	  (org
-	   (9 7 8)))
+	   (9 7 11)))
 	 "Support for Org links to Magit buffers" tar
 	 ((:url . "https://github.com/magit/orgit")
 	  (:keywords "hypermedia" "vc")
 	  (:maintainer "Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
-	  (:commit . "3b6b34bd1109adcad2c6dca920617fc91982547f"))])
+	  (:commit . "6ad0dc35c8df54fae4ef27e5145760e22fbbf890"))])
  (p4-16-mode .
 	     [(0 3 0 20231118 161633)
 	      nil "Support for the P4_16 programming language" tar
