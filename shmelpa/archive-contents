@@ -14261,15 +14261,15 @@
 		  ("Graham Marlow" . "info@mgmarlow.com"))
 		 (:maintainer "Graham Marlow" . "info@mgmarlow.com"))])
  (denote-agenda .
-		[(0 1 0 1 -4 20250222 1706)
+		[(0 1 0 1 -4 20250302 2012)
 		 ((emacs
 		   (27 1))
 		  (denote
 		   (3 1 0)))
 		 "Integrate Denote and Org-Agenda" tar
 		 ((:url . "https://git.sr.ht/~swflint/denote-extras")
-		  (:commit . "63a77470bf07051e4f0874879bd0b0d10186bfae")
-		  (:revdesc . "63a77470bf07")
+		  (:commit . "ad03c7f4778552f9aa42ed5eadac067f2fe8a6d0")
+		  (:revdesc . "ad03c7f47785")
 		  (:keywords "calendar")
 		  (:authors
 		   ("Samuel W. Flint" . "swflint@samuelwflint.com"))
@@ -14315,6 +14315,22 @@
 		   (:maintainers
 		    ("Peter Prevos" . "peter@prevos.net"))
 		   (:maintainer "Peter Prevos" . "peter@prevos.net"))])
+ (denote-journal-capture .
+			 [(0 1 0 1 -4 20250302 2013)
+			  ((emacs
+			    (24 1))
+			   (denote
+			    (3 1 0)))
+			  "Better Integration for Denote Journal and Org Capture" tar
+			  ((:url . "https://git.sr.ht/~swflint/denote-extras")
+			   (:commit . "6c2c81fff472de81b8e7ba9bccf26788f257ffa6")
+			   (:revdesc . "6c2c81fff472")
+			   (:keywords "convenience")
+			   (:authors
+			    ("Samuel W. Flint" . "swflint@samuelwflint.com"))
+			   (:maintainers
+			    ("Samuel W. Flint" . "swflint@samuelwflint.com"))
+			   (:maintainer "Samuel W. Flint" . "swflint@samuelwflint.com"))])
  (denote-sections .
 		  [(0 2 0 1 -4 20240608 1629)
 		   ((universal-sidecar
@@ -22178,15 +22194,15 @@
 	      ("Joshua Cole" . "joshuafcole@gmail.com"))
 	     (:maintainer "Joshua Cole" . "joshuafcole@gmail.com"))])
  (evedel .
-	 [(0 1 0 1 -4 20250227 838)
+	 [(0 1 0 1 -4 20250303 1213)
 	  ((emacs
 	    (29 1))
 	   (gptel
 	    (0 9 0)))
 	  "Instructed LLM programmer/assistant" tar
 	  ((:url . "https://github.com/daedsidog/evedel")
-	   (:commit . "93a0461ae91469d7a71270dc860a4b9b2015476e")
-	   (:revdesc . "93a0461ae914")
+	   (:commit . "d979801f5f496ff20aebf4c3343bffcd0e0d3a0b")
+	   (:revdesc . "d979801f5f49")
 	   (:keywords "convenience" "tools")
 	   (:authors
 	    ("daedsidog" . "contact@daedsidog.com"))
@@ -46034,7 +46050,7 @@
 		       (:commit . "903ec91872760e47c0e5715795f8465173615098")
 		       (:revdesc . "903ec9187276"))])
  (magik-mode .
-	     [(0 1 0 1 -4 20250303 942)
+	     [(0 1 0 1 -4 20250303 1217)
 	      ((emacs
 		(24 4))
 	       (compat
@@ -46043,11 +46059,11 @@
 		(0 14 0)))
 	      "Emacs major mode for Smallworld Magik files" tar
 	      ((:url . "https://github.com/roadrunner1776/magik")
-	       (:commit . "939f44c70f283a73718f87d1344280cc4a6aa137")
-	       (:revdesc . "939f44c70f28")
+	       (:commit . "5f573b30333cc900e98ab6bfe3ca6f9825bdcd26")
+	       (:revdesc . "5f573b30333c")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20250301 2315)
+	[(0 1 0 1 -4 20250302 1612)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -46064,8 +46080,8 @@
 	   (3 4 3)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "28d272ce0bcecc2e312d22ed15a48ad4cea564eb")
-	  (:revdesc . "28d272ce0bce")
+	  (:commit . "c0a8e694b9af60a7e255fa34252abab45096e523")
+	  (:revdesc . "c0a8e694b9af")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -55664,19 +55680,21 @@
 		   ("Anton Hakansson" . "anton@hakanssn.com"))
 		  (:maintainer "Anton Hakansson" . "anton@hakanssn.com"))])
  (org-node .
-	   [(0 1 0 1 -4 20250303 118)
+	   [(0 1 0 1 -4 20250303 1456)
 	    ((emacs
 	      (28 1))
 	     (compat
-	      (30))
+	      (30 0 0 0))
 	     (el-job
-	      (0 3 22))
+	      (1 0 2))
 	     (llama
-	      (0 4 0)))
+	      (0 5 0))
+	     (magit-section
+	      (4 3 0)))
 	    "Fast org-roam replacement" tar
 	    ((:url . "https://github.com/meedstrom/org-node")
-	     (:commit . "e01c5893b8274fabddfb8a5900619cdf299d0bfa")
-	     (:revdesc . "e01c5893b827")
+	     (:commit . "67203470eba5cbb5f1e6ee259ea263f689364855")
+	     (:revdesc . "67203470eba5")
 	     (:keywords "org" "hypermedia")
 	     (:authors
 	      ("Martin Edström" . "meedstrom91@gmail.com"))
@@ -57669,13 +57687,13 @@
 	     (:revdesc . "f35bccde556b")
 	     (:keywords "lisp" "org" "org-mode" "bootstrap"))])
  (orgtbl-aggregate .
-		   [(0 1 0 1 -4 20250209 2226)
+		   [(0 1 0 1 -4 20250303 1454)
 		    ((emacs
 		      (26 1)))
 		    "Create an Org Mode aggregated table from another table" tar
 		    ((:url . "https://github.com/tbanel/orgaggregate/blob/master/README.org")
-		     (:commit . "893a1ed423b2773f843294c1f4070afff9868f19")
-		     (:revdesc . "893a1ed423b2")
+		     (:commit . "51a95f9322ffa61db5b3f037206085d3e44d59be")
+		     (:revdesc . "51a95f9322ff")
 		     (:keywords "data" "extensions"))])
  (orgtbl-ascii-plot .
 		    [(1 1 1 -4 20230122 816)
@@ -58962,15 +58980,15 @@
 		    ("Donald Ephraim Curtis" . "dcurtis@milkbox.net"))
 		   (:maintainer "Donald Ephraim Curtis" . "dcurtis@milkbox.net"))])
  (package-lint .
-	       [(0 1 0 1 -4 20250303 1119)
+	       [(0 1 0 1 -4 20250303 1353)
 		((emacs
 		  (24 4))
 		 (let-alist
 		     (1 0 6)))
 		"A linting library for elisp package authors" tar
 		((:url . "https://github.com/purcell/package-lint")
-		 (:commit . "f923812b09d0fc7dceace7c14bcbf2db68343fc7")
-		 (:revdesc . "f923812b09d0")
+		 (:commit . "43681bca2333b47d914a59df3b4888e361b91c28")
+		 (:revdesc . "43681bca2333")
 		 (:keywords "lisp")
 		 (:authors
 		  ("Steve Purcell" . "steve@sanityinc.com")
@@ -69794,7 +69812,7 @@
 	(:revdesc . "e09728891a99")
 	(:keywords "convenience"))])
  (sisyphus .
-	   [(0 1 0 1 -4 20250301 1714)
+	   [(0 1 0 1 -4 20250302 1547)
 	    ((emacs
 	      (27 1))
 	     (compat
@@ -69807,8 +69825,8 @@
 	      (4 2 0)))
 	    "Create releases of Emacs packages" tar
 	    ((:url . "https://github.com/magit/sisyphus")
-	     (:commit . "f04a145396e5534e09d381d218ec051e2137c9e0")
-	     (:revdesc . "f04a145396e5")
+	     (:commit . "a93f6329efddbd1273f774046904886b6d2f20c3")
+	     (:revdesc . "a93f6329efdd")
 	     (:keywords "git" "tools" "vc")
 	     (:authors
 	      ("Jonas Bernoulli" . "emacs.sisyphus@jonas.bernoulli.dev"))
