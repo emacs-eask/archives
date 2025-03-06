@@ -232,14 +232,14 @@
 	   ("John Wiegley" . "jwiegley@gmail.com"))
 	  (:commit . "b99658e831bc7e7d20ed4bb0a85bdb5c7dd74142"))])
  (auctex .
-	 [(14 0 9 0 20250305 172846)
+	 [(14 0 9 0 20250306 111653)
 	  ((emacs
 	    (28 1)))
 	  "Integrated environment for *TeX*" tar
 	  ((:url . "https://www.gnu.org/software/auctex/")
 	   (:keywords "tex" "latex" "texinfo" "context" "doctex" "preview-latex")
 	   (:maintainer nil . "auctex-devel@gnu.org")
-	   (:commit . "cd23c19918edb57e8901326d3e942b10ea271771"))])
+	   (:commit . "8e292a7740306788cf6a9ea9496610fc2c982046"))])
  (auctex-cont-latexmk .
 		      [(0 3 0 20250115 185937)
 		       ((emacs
@@ -673,7 +673,7 @@
 		("Augusto Stoffel" . "arstoffel@gmail.com"))
 	       (:commit . "caffb420be106cebbdfe4474ed0507a601603f83"))])
  (colorful-mode .
-		[(1 2 1 0 20250305 132504)
+		[(1 2 3 0 20250306 110523)
 		 ((emacs
 		   (28 1))
 		  (compat
@@ -686,7 +686,7 @@
 		   ("Elias G. Perez" . "eg642616@gmail.com"))
 		  (:authors
 		   ("Elias G. Perez" . "eg642616@gmail.com"))
-		  (:commit . "0bba38e8c67b8c42873dc1d3f17217909e0f372e"))])
+		  (:commit . "f749116188d4be195050c2c96baf5b7899734dab"))])
  (comint-mime .
 	      [(0 7 0 20241116 123039)
 	       ((emacs
@@ -772,6 +772,14 @@
 	    ("Philip Kaludercic" . "philipk@posteo.net")
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	   (:commit . "d22f221811b51ba3939436f481074e0bda84b2f1"))])
+ (cond-star .
+	    [(1 0 0 20250306 185816)
+	     ((emacs
+	       (24 3)))
+	     "Extended form of `cond' construct" tar
+	     ((:maintainer "Richard Stallman" . "rms@gnu.org")
+	      (:url . "https://elpa.gnu.org/packages/cond-star.html")
+	      (:commit . "fb33e3b4c79f8d922d9fe6e593dcc12c3c4b24eb"))])
  (constants .
 	    [(2 11 1 0 20240827 95043)
 	     ((emacs
@@ -970,6 +978,17 @@
 	    (:authors
 	     ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	    (:commit . "42e642bcbc0e8c517fd076f62037f95565661fe7"))])
+ (cus-abbrev .
+	     [(0 1 0 20250305 64248)
+	      ((emacs
+		(29 1)))
+	      "Easy Customization interface for Abbrevs" tar
+	      ((:url . "https://gitlab.com/mauroaranda/cus-abbrev")
+	       (:keywords "convenience")
+	       (:maintainer "Mauro Aranda" . "maurooaranda@gmail.com")
+	       (:authors
+		("Mauro Aranda" . "maurooaranda@gmail.com"))
+	       (:commit . "1fe96883a9cfd3c2cc6381049d95e6330907f140"))])
  (cycle-quotes .
 	       [(0 1 0 20221221 75021)
 		nil "Cycle between quote styles" tar
@@ -1495,7 +1514,7 @@
 		     (:url . "https://elpa.gnu.org/packages/elisp-benchmarks.html")
 		     (:commit . "94d1d747cdf9b37b1634019208594b0d366638be"))])
  (ellama .
-	 [(1 4 5 0 20250303 165816)
+	 [(1 4 5 0 20250306 132438)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -1512,7 +1531,7 @@
 	   (:maintainer "Sergey Kostyaev" . "sskostyaev@gmail.com")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
-	   (:commit . "6cdeb5806dafdff98e72b875dbfa91918d21c0a2"))])
+	   (:commit . "19bf5ed03f85ba21a2aa90bd891b06478437cef9"))])
  (emacs-gc-stats .
 		 [(1 4 2 0 20231206 152254)
 		  ((emacs
@@ -2232,7 +2251,7 @@
 	   ("Durand" . "mmemmew@gmail.com"))
 	  (:commit . "8f221c58a8c694112738e346c630d4d49a41d967"))])
  (indent-bars .
-	      [(0 8 2 0 20250223 224444)
+	      [(0 8 2 0 20250306 142956)
 	       ((emacs
 		 (27 1))
 		(compat
@@ -2243,7 +2262,7 @@
 		(:maintainer "J.D. Smith" . "jdtsmith+elpa@gmail.com")
 		(:authors
 		 ("J.D. Smith" . "jdtsmith+elpa@gmail.com"))
-		(:commit . "e9b9f26218f9ed3137df48a3184745db408556f8"))])
+		(:commit . "fa293f98abe353599353c94177fe0bb77cdbd0b8"))])
  (inspector .
 	    [(0 38 0 20241108 155318)
 	     ((emacs
@@ -4731,7 +4750,7 @@
 	       (:url . "https://elpa.gnu.org/packages/transcribe.html")
 	       (:commit . "2c2d493d5488f3b444d2a771ab443589fcc72c13"))])
  (transient .
-	    [(0 8 5 0 20250301 221818)
+	    [(0 8 5 0 20250306 191617)
 	     ((emacs
 	       (26 1))
 	      (compat
@@ -4744,7 +4763,7 @@
 	      (:maintainer "Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
-	      (:commit . "b51a52a9c7a6562c19d03de4ce30b9c071bca8d2"))])
+	      (:commit . "4030862396130b3dcfedabe509a4fc6cb218c49f"))])
  (transient-cycles .
 		   [(1 1 0 20250225 93512)
 		    ((emacs
