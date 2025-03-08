@@ -571,7 +571,7 @@
 	     ("Kjartan Oli Agustsson" . "kjartanoli@disroot.org"))
 	    (:commit . "855a9cb092eecf1e5c17ea56c440a0200f95eb4c"))])
  (cape .
-       [(1 9 0 20250307 212118)
+       [(1 9 0 20250308 121335)
 	((emacs
 	  (28 1))
 	 (compat
@@ -582,7 +582,7 @@
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	 (:commit . "c854d98373fb6eec3e1ed5a2611c0089aa565e1b"))])
+	 (:commit . "cc9cf45c651ad4784444cfdbdf238ac18dce39c9"))])
  (capf-autosuggest .
 		   [(0 3 0 20211123 104430)
 		    ((emacs
@@ -759,7 +759,7 @@
 			("Ingo Lohmar" . "i.lohmar@gmail.com"))
 		       (:commit . "e62157d43b2c874d2edbd547c3bdfb05d0a7ae5c"))])
  (compat .
-	 [(30 0 2 0 0 20250307 162242)
+	 [(30 0 2 0 0 20250308 104508)
 	  ((emacs
 	    (24 4))
 	   (seq
@@ -771,7 +771,7 @@
 	   (:authors
 	    ("Philip Kaludercic" . "philipk@posteo.net")
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	   (:commit . "f0f35b6a432398487d286e4fc058edb3fc2344ee"))])
+	   (:commit . "c89bba6524501bde03db6266a3ac47b266b81e02"))])
  (cond-star .
 	    [(1 0 0 20250306 185816)
 	     ((emacs
@@ -1514,7 +1514,7 @@
 		     (:url . "https://elpa.gnu.org/packages/elisp-benchmarks.html")
 		     (:commit . "94d1d747cdf9b37b1634019208594b0d366638be"))])
  (ellama .
-	 [(1 4 5 0 20250306 132438)
+	 [(1 5 0 0 20250308 94813)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -1531,7 +1531,7 @@
 	   (:maintainer "Sergey Kostyaev" . "sskostyaev@gmail.com")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
-	   (:commit . "19bf5ed03f85ba21a2aa90bd891b06478437cef9"))])
+	   (:commit . "e370c3f23a22ad36de76155ce60704cd9bb6ccb2"))])
  (emacs-gc-stats .
 		 [(1 4 2 0 20231206 152254)
 		  ((emacs
@@ -1997,6 +1997,17 @@
 		   ("Daiki Ueno" . "ueno@gnu.org"))
 		  (:url . "https://elpa.gnu.org/packages/gnome-c-style.html")
 		  (:commit . "87beebf24a999a253ac6ec5d14d223619a624c2b"))])
+ (gnome-dark-style .
+		   [(0 1 0 20250307 184114)
+		    ((emacs
+		      (30 1)))
+		    "Sync theme with GNOME color-scheme" tar
+		    ((:url . "https://github.com/dimagid/gnome-dark-style")
+		     (:keywords "themes" "gnome" "sync" "dark" "light" "color-scheme")
+		     (:maintainer "David Dimagid" . "davidimagid@gmail.com")
+		     (:authors
+		      ("David Dimagid" . "davidimagid@gmail.com"))
+		     (:commit . "a54f47728f418aebe42e7363c622927d27fff75c"))])
  (gnorb .
 	[(1 6 11 0 20230108 110132)
 	 ((cl-lib
