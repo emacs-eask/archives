@@ -673,7 +673,7 @@
 		("Augusto Stoffel" . "arstoffel@gmail.com"))
 	       (:commit . "caffb420be106cebbdfe4474ed0507a601603f83"))])
  (colorful-mode .
-		[(1 2 3 0 20250310 213131)
+		[(1 2 3 0 20250313 231844)
 		 ((emacs
 		   (28 1))
 		  (compat
@@ -686,7 +686,7 @@
 		   ("Elias G. Perez" . "eg642616@gmail.com"))
 		  (:authors
 		   ("Elias G. Perez" . "eg642616@gmail.com"))
-		  (:commit . "f238805dcd4367a50f3b5e05b1f10f943030ab91"))])
+		  (:commit . "a086428f794d2b261073698bba481bd05f559922"))])
  (comint-mime .
 	      [(0 7 0 20241116 123039)
 	       ((emacs
@@ -1077,6 +1077,30 @@
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	   (:commit . "ba165ee456206cdc6136c785602016de245c7b43"))])
+ (denote-journal .
+		 [(0 0 0 0 20250314 50903)
+		  ((emacs
+		    (28 1))
+		   (denote
+		    (3 1 0)))
+		  "Convenience functions for daily journaling with Denote" tar
+		  ((:url . "https://github.com/protesilaos/denote-journal")
+		   (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
+		   (:authors
+		    ("Protesilaos Stavrou" . "info@protesilaos.com"))
+		   (:commit . "f6061c49c4c4ffd755824065fc6209292cb0bb09"))])
+ (denote-markdown .
+		  [(0 0 0 0 20250314 50820)
+		   ((emacs
+		     (28 1))
+		    (denote
+		     (3 1 0)))
+		   "Extensions that better integrate Denote with Markdown" tar
+		   ((:url . "https://github.com/protesilaos/denote-markdown")
+		    (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
+		    (:authors
+		     ("Protesilaos Stavrou" . "info@protesilaos.com"))
+		    (:commit . "f7d5fa4e68729b0e95d456d32aad11577d7e40dd"))])
  (denote-menu .
 	      [(1 3 0 0 20240813 204446)
 	       ((emacs
@@ -1089,6 +1113,18 @@
 		(:authors
 		 ("Mohamed Suliman" . "sulimanm@tcd.ie"))
 		(:commit . "d3b890648404eb4df2dabbb3d783105672e0ea23"))])
+ (denote-org .
+	     [(0 0 0 0 20250314 50942)
+	      ((emacs
+		(28 1))
+	       (denote
+		(3 1 0)))
+	      "Denote extensions for Org mode" tar
+	      ((:url . "https://github.com/protesilaos/denote-org")
+	       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
+	       (:authors
+		("Protesilaos Stavrou" . "info@protesilaos.com"))
+	       (:commit . "7a228bbfe03a1679a4deb6d057274f7f204b6815"))])
  (denote-search .
 		[(1 0 3 0 20250302 121931)
 		 ((emacs
@@ -1102,6 +1138,30 @@
 		  (:authors
 		   ("Lucas Quintana" . "lmq10@protonmail.com"))
 		  (:commit . "4df3e77a495b4f0df7fe56924509afe7f2fa735d"))])
+ (denote-sequence .
+		  [(0 0 0 0 20250314 51010)
+		   ((emacs
+		     (28 1))
+		    (denote
+		     (3 1 0)))
+		   "Sequence notes or Folgezettel with Denote" tar
+		   ((:url . "https://github.com/protesilaos/denote-sequence")
+		    (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
+		    (:authors
+		     ("Protesilaos Stavrou" . "info@protesilaos.com"))
+		    (:commit . "bb0347b821899c977fee6221b6b1c802b957b03f"))])
+ (denote-silo .
+	      [(0 0 0 0 20250314 51057)
+	       ((emacs
+		 (28 1))
+		(denote
+		 (3 1 0)))
+	       "Convenience functions for using Denote in multiple silos" tar
+	       ((:url . "https://github.com/protesilaos/denote-silo")
+		(:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
+		(:authors
+		 ("Protesilaos Stavrou" . "info@protesilaos.com"))
+		(:commit . "3f19b8523eb973a61e5657531f435e4f91420c28"))])
  (detached .
 	   [(0 10 1 0 20221129 143049)
 	    ((emacs
@@ -1514,7 +1574,7 @@
 		     (:url . "https://elpa.gnu.org/packages/elisp-benchmarks.html")
 		     (:commit . "94d1d747cdf9b37b1634019208594b0d366638be"))])
  (ellama .
-	 [(1 5 5 0 20250313 165205)
+	 [(1 5 6 0 20250313 205435)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -1531,7 +1591,7 @@
 	   (:maintainer "Sergey Kostyaev" . "sskostyaev@gmail.com")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
-	   (:commit . "306073dae3b72a41140256f390e5374b7203e61e"))])
+	   (:commit . "3059baa169a5d4a296d68db1d05c7584c5747ca6"))])
  (emacs-gc-stats .
 		 [(1 4 2 0 20231206 152254)
 		  ((emacs
