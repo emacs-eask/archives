@@ -571,7 +571,7 @@
 	     ("Kjartan Oli Agustsson" . "kjartanoli@disroot.org"))
 	    (:commit . "855a9cb092eecf1e5c17ea56c440a0200f95eb4c"))])
  (cape .
-       [(2 0 0 20250311 165029)
+       [(2 0 0 20250315 85532)
 	((emacs
 	  (28 1))
 	 (compat
@@ -582,7 +582,7 @@
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	 (:commit . "2e86b6deed2844fc1345ff01bc92c3a849a33778"))])
+	 (:commit . "f72ebcaeff4252ca0d7a9ac4636d8db0fdf54c55"))])
  (capf-autosuggest .
 		   [(0 3 0 20211123 104430)
 		    ((emacs
@@ -792,7 +792,7 @@
 	       ("Carsten Dominik" . "carsten.dominik@gmail.com"))
 	      (:commit . "f07e221d4d5597c7ccf4b0003c0909a88bdfcc9e"))])
  (consult .
-	  [(2 1 0 20250311 165829)
+	  [(2 1 0 20250315 180046)
 	   ((emacs
 	     (28 1))
 	    (compat
@@ -801,7 +801,7 @@
 	   ((:url . "https://github.com/minad/consult")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-	    (:commit . "d557305b730f7666d46bc3eb04c87cfcc493a8e5"))])
+	    (:commit . "99fcdf3b64de2f48a834a6d7bde028996ed13687"))])
  (consult-denote .
 		 [(0 2 4 0 20250121 61759)
 		  ((emacs
@@ -4199,14 +4199,14 @@
 		    ("Philip Kaludercic" . "philipk@posteo.net"))
 		   (:commit . "b5032a88c5ba54a60835e57d72a8d77f5b66aa31"))])
  (shell-quasiquote .
-		   [(0 0 20221221 82030)
+		   [(0 0 20250315 115249)
 		    nil "Turn s-expressions into shell command strings." tar
 		    ((:keywords "extensions" "unix")
 		     (:maintainer "Taylan Ulrich Bayırlı/Kammer" . "taylanbayirli@gmail.com")
 		     (:authors
 		      ("Taylan Ulrich Bayırlı/Kammer" . "taylanbayirli@gmail.com"))
 		     (:url . "https://elpa.gnu.org/packages/shell-quasiquote.html")
-		     (:commit . "36f919b5dc2426d826077b1d59a62b21528bdb60"))])
+		     (:commit . "99f8162e00f8882240c999c3ab676bba9b472f5a"))])
  (shen-mode .
 	    [(0 1 0 20221221 82050)
 	     nil "A major mode for editing shen source code" tar
@@ -4306,7 +4306,7 @@
 	     (:url . "https://elpa.gnu.org/packages/sml-mode.html")
 	     (:commit . "7ebf91114292eead967d1a9bb4f235d66f6dd525"))])
  (so-long .
-	  [(1 1 2 0 20250101 73917)
+	  [(1 1 2 0 20250315 100518)
 	   ((emacs
 	     (24 4)))
 	   "Say farewell to performance problems with minified code." tar
@@ -4315,7 +4315,7 @@
 	    (:maintainer "Phil Sainty" . "psainty@orcon.net.nz")
 	    (:authors
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
-	    (:commit . "b36b1be491e0b19062fa38ee197aa3daeba96415"))])
+	    (:commit . "f5f3fb7dd4e7d0c1fa235309d29d8d1c9432c277"))])
  (soap-client .
 	      [(3 2 3 0 20250226 15703)
 	       ((emacs
@@ -4653,7 +4653,7 @@
 		       (:url . "https://elpa.gnu.org/packages/temp-buffer-browse.html")
 		       (:commit . "db6041b0413fdeefb1f1285e1d9c1039c10fbf04"))])
  (tempel .
-	 [(1 3 0 20250101 92736)
+	 [(1 3 0 20250315 163443)
 	  ((emacs
 	    (28 1))
 	   (compat
@@ -4664,7 +4664,7 @@
 	   (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	   (:authors
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	   (:commit . "12a2072ce97d7489296dbb950da946b77d215506"))])
+	   (:commit . "e3bd2de9e61a382bbe4f89d1b862e784146c579c"))])
  (test-simple .
 	      [(1 3 0 0 20230916 123447)
 	       ((cl-lib
@@ -4821,7 +4821,7 @@
 	       (:url . "https://elpa.gnu.org/packages/transcribe.html")
 	       (:commit . "2c2d493d5488f3b444d2a771ab443589fcc72c13"))])
  (transient .
-	    [(0 8 5 0 20250306 191617)
+	    [(0 8 6 0 20250315 190303)
 	     ((emacs
 	       (26 1))
 	      (compat
@@ -4834,7 +4834,7 @@
 	      (:maintainer "Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
-	      (:commit . "4030862396130b3dcfedabe509a4fc6cb218c49f"))])
+	      (:commit . "52f737a696cad846d528a5a06e412f740a1de38a"))])
  (transient-cycles .
 		   [(1 1 0 20250225 93512)
 		    ((emacs
@@ -5060,6 +5060,19 @@
 	     (:authors
 	      ("Andrii Kolomoiets" . "andreyk.mad@gmail.com"))
 	     (:commit . "aec2ee7733c38e55d7406c362b9fd5485b21299c"))])
+ (vc-jj .
+	[(0 1 0 20250315 132907)
+	 ((emacs
+	   (28 1))
+	  (compat
+	   (29 4)))
+	 "VC backend for the Jujutsu version control system" tar
+	 ((:url . "https://codeberg.org/emacs-jj-vc/vc-jj.el")
+	  (:keywords "vc" "tools")
+	  (:maintainer "Rudolf Schlatte" . "rudi@constantly.at")
+	  (:authors
+	   ("Rudolf Schlatte" . "rudi@constantly.at"))
+	  (:commit . "c75b27e49c869b98a69ee10520915f6f93721fdc"))])
  (vcard .
 	[(0 2 2 0 20230718 145809)
 	 ((emacs
