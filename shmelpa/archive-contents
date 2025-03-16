@@ -18555,13 +18555,13 @@
 		    ("Hiroki YAMAKAWA" . "s06139@gmail.com"))
 		   (:maintainer "Hiroki YAMAKAWA" . "s06139@gmail.com"))])
  (el-job .
-	 [(0 1 0 1 -4 20250313 1138)
+	 [(0 1 0 1 -4 20250316 2031)
 	  ((emacs
 	    (29 1)))
 	  "Contrived way to call a function using all CPU cores" tar
 	  ((:url . "https://github.com/meedstrom/el-job")
-	   (:commit . "33ee1713e1219e4f86c7817cb5491e7532750afa")
-	   (:revdesc . "33ee1713e121")
+	   (:commit . "1c2a3e958e0d4d00295e244177eb1cb58862c79c")
+	   (:revdesc . "1c2a3e958e0d")
 	   (:keywords "processes")
 	   (:authors
 	    ("Martin Edström" . "meedstrom91@gmail.com"))
@@ -38753,6 +38753,22 @@
 		 (:maintainers
 		  ("vindarel" . "vindarel@mailz.org"))
 		 (:maintainer "vindarel" . "vindarel@mailz.org"))])
+ (indexed .
+	  [(0 1 0 1 -4 20250316 2222)
+	   ((emacs
+	     (29 1))
+	    (el-job
+	     (2 2 0)))
+	   "Cache metadata on all Org files" tar
+	   ((:url . "https://github.com/meedstrom/org-node")
+	    (:commit . "f749e9f4e7c46a50db4de21ded9f9cdac8727879")
+	    (:revdesc . "f749e9f4e7c4")
+	    (:keywords "text")
+	    (:authors
+	     ("Martin Edström" . "meedstrom91@gmail.com"))
+	    (:maintainers
+	     ("Martin Edström" . "meedstrom91@gmail.com"))
+	    (:maintainer "Martin Edström" . "meedstrom91@gmail.com"))])
  (indian-ext .
 	     [(0 1 1 -4 20231009 740)
 	      ((emacs
@@ -47051,15 +47067,15 @@
 	       ("Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))
 	      (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
  (marginalia .
-	     [(0 1 0 1 -4 20250203 1018)
+	     [(0 1 0 1 -4 20250316 2125)
 	      ((emacs
 		(28 1))
 	       (compat
 		(30)))
 	      "Enrich existing commands with completion annotations" tar
 	      ((:url . "https://github.com/minad/marginalia")
-	       (:commit . "a527fb03b76a2bce1e360c6e73a095e06922c3f3")
-	       (:revdesc . "a527fb03b76a")
+	       (:commit . "f6c1f50686c5c96761d0b9d12773e2391459487c")
+	       (:revdesc . "f6c1f50686c5")
 	       (:keywords "docs" "help" "matching" "completion")
 	       (:authors
 		("Omar Antolín Camarena" . "omar@matem.unam.mx")
@@ -48668,13 +48684,13 @@
 	  ("Eki Zhang" . "liuyinz95@gmail.com"))
 	 (:maintainer "Eki Zhang" . "liuyinz95@gmail.com"))])
  (mistty .
-	 [(0 1 0 1 -4 20250315 2158)
+	 [(0 1 0 1 -4 20250316 2045)
 	  ((emacs
 	    (29 1)))
 	  "Shell/Comint alternative based on term.el" tar
 	  ((:url . "http://github.com/szermatt/mistty")
-	   (:commit . "1410e262cdbbdb30616b91c09c2c150275da31b9")
-	   (:revdesc . "1410e262cdbb")
+	   (:commit . "3a75e33a257f14d15c8bfdefc4694a11376ed040")
+	   (:revdesc . "3a75e33a257f")
 	   (:keywords "convenience" "unix")
 	   (:authors
 	    ("Stephane Zermatten" . "szermatt@gmx.net"))
@@ -54038,16 +54054,16 @@
 	  ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	 (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (orderless .
-	    [(0 1 0 1 -4 20250201 2341)
+	    [(0 1 0 1 -4 20250316 2046)
 	     ((emacs
 	       (27 1))
 	      (compat
 	       (30)))
 	     "Completion style for matching regexps in any order" tar
 	     ((:url . "https://github.com/oantolin/orderless")
-	      (:commit . "c7cb04499d94ee1c17affb29b1cfcd2a45116c97")
-	      (:revdesc . "c7cb04499d94")
-	      (:keywords "extensions")
+	      (:commit . "254f2412489bbbf62700f9d3d5f18e537841dcc3")
+	      (:revdesc . "254f2412489b")
+	      (:keywords "matching" "completion")
 	      (:authors
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:maintainers
@@ -55477,15 +55493,15 @@
 		      ("Korytov Pavel" . "thexcloud@gmail.com"))
 		     (:maintainer "Korytov Pavel" . "thexcloud@gmail.com"))])
  (org-kanban .
-	     [(0 1 0 1 -4 20250314 2231)
+	     [(0 1 0 1 -4 20250316 2106)
 	      ((s
 		(0))
 	       (dash
 		(2 17 0)))
 	      "Kanban dynamic block for org-mode" tar
 	      ((:url . "http://github.com/gizmomogwai/org-kanban")
-	       (:commit . "15681651da2e30350541ff0053796eaddceb8c47")
-	       (:revdesc . "15681651da2e")
+	       (:commit . "a517d2177e642b818fd502734eed26ca43b02c37")
+	       (:revdesc . "a517d2177e64")
 	       (:keywords "org-mode" "org" "kanban" "tools")
 	       (:authors
 		("Christian Köstlin" . "christian.koestlin@gmail.com"))
