@@ -1283,15 +1283,17 @@
 	   ("Kang Tu" . "tninja@gmail.com"))
 	  (:maintainer "Kang Tu" . "tninja@gmail.com"))])
  (aidermacs .
-	    [(0 1 0 1 -4 20250317 459)
+	    [(0 1 0 1 -4 20250317 631)
 	     ((emacs
 	       (26 1))
 	      (transient
-	       (0 3 0)))
+	       (0 3 0))
+	      (compat
+	       (30 0 2 0)))
 	     "AI pair programming with Aider" tar
 	     ((:url . "https://github.com/MatthewZMD/aidermacs")
-	      (:commit . "be43d00da65ad0f4bea375f4bc7532f213618ddb")
-	      (:revdesc . "be43d00da65a")
+	      (:commit . "99f91da7ff696fcc523f58d7991bb93128fb264a")
+	      (:revdesc . "99f91da7ff69")
 	      (:keywords "ai" "emacs" "llm" "aider" "ai-pair-programming" "tools")
 	      (:authors
 	       ("Mingde Zeng" . "matthewzmd@posteo.net"))
@@ -5644,13 +5646,13 @@
 		    ("Tomoya Tanjo" . "ttanjo@gmail.com"))
 		   (:maintainer "Tomoya Tanjo" . "ttanjo@gmail.com"))])
  (bray .
-       [(0 1 0 1 -4 20250225 2239)
+       [(0 1 0 1 -4 20250317 734)
 	((emacs
 	  (29 1)))
 	"Lightweight modal editing" tar
 	((:url . "https://codeberg.org/ideasman42/emacs-bray")
-	 (:commit . "99488037cf61cfa6e6694d6a0d9725d23c15add5")
-	 (:revdesc . "99488037cf61")
+	 (:commit . "b7b03762ca12db4f69a24c2e1758af30e3a78446")
+	 (:revdesc . "b7b03762ca12")
 	 (:authors
 	  ("Campbell Barton" . "ideasman42@gmail.com"))
 	 (:maintainers
