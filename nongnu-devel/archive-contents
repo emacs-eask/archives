@@ -22,16 +22,20 @@
 		     ("Ozan Sener" . "ozan@ozansener.com"))
 		    (:commit . "89b1d778a1f8b385775c122f2bd1c62f0fbf931a"))])
  (aidermacs .
-	    [(1 0 0 20250316 154543)
+	    [(1 0 0 20250317 23149)
 	     ((emacs
-	       (29 1)))
+	       (26 1))
+	      (transient
+	       (0 3 0))
+	      (compat
+	       (30 0 2 0)))
 	     "AI pair programming with Aider" tar
 	     ((:url . "https://github.com/MatthewZMD/aidermacs")
 	      (:keywords "ai" "emacs" "llm" "aider" "ai-pair-programming" "tools")
 	      (:maintainer "Mingde Zeng" . "matthewzmd@posteo.net")
 	      (:authors
 	       ("Mingde Zeng" . "matthewzmd@posteo.net"))
-	      (:commit . "2a15be0dd350e79c39ee2221ab972f7b10b7c63e"))])
+	      (:commit . "99f91da7ff696fcc523f58d7991bb93128fb264a"))])
  (alect-themes .
 	       [(0 10 0 20211022 165129)
 		((emacs
@@ -1194,7 +1198,7 @@
 	      ("David Andersson" . "l.david.anderssonsverige.nu"))
 	     (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel .
-	[(0 9 8 0 20250316 75915)
+	[(0 9 8 0 20250316 171236)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -1207,7 +1211,7 @@
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-	  (:commit . "b1d9d54f5c9dc5a5cb0bbbc4a4818a5bd92e87ce"))])
+	  (:commit . "54ce1c3d26715414a014c67e3b9062d9997333ce"))])
  (graphql-mode .
 	       [(1 0 0 0 20241206 72535)
 		((emacs
