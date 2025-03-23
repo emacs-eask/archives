@@ -55739,15 +55739,17 @@
 		    (:revdesc . "06764b943a52")
 		    (:keywords "org-mode" "org" "mobile" "sync" "todo"))])
  (org-modern .
-	     [(0 1 0 1 -4 20250311 1701)
+	     [(0 1 0 1 -4 20250323 1736)
 	      ((emacs
 		(28 1))
+	       (org
+		(9 5))
 	       (compat
 		(30)))
 	      "Modern looks for Org" tar
 	      ((:url . "https://github.com/minad/org-modern")
-	       (:commit . "e7a4c5e4a1d309895c60b3a3b3e62ab1f6a926b4")
-	       (:revdesc . "e7a4c5e4a1d3")
+	       (:commit . "0cf27c5ef6185181bc796cb0497d7784837295b2")
+	       (:revdesc . "0cf27c5ef618")
 	       (:keywords "outlines" "hypermedia" "text")
 	       (:authors
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -66693,6 +66695,20 @@
 	("David Landell" . "david.landell@sunnyhill.email")
 	("Roland McGrath" . "roland@gnu.org"))
        (:maintainer "David Landell" . "david.landell@sunnyhill.email"))])
+ (rg-themes .
+	    [(0 1 0 1 -4 20250317 817)
+	     ((emacs
+	       (25 1)))
+	     "The rg theme collection" tar
+	     ((:url . "https://github.com/raegnald/rg-themes")
+	      (:commit . "26aa40ebfa40a3a6190106d84060ca3ad1f75cc4")
+	      (:revdesc . "26aa40ebfa40")
+	      (:keywords "faces")
+	      (:authors
+	       ("Ronaldo Gligan" . "ronaldogligan@gmail.com"))
+	      (:maintainers
+	       ("Ronaldo Gligan" . "ronaldogligan@gmail.com"))
+	      (:maintainer "Ronaldo Gligan" . "ronaldogligan@gmail.com"))])
  (rgb .
       [(2 0 0 1 -4 20220717 1940)
        ((emacs
