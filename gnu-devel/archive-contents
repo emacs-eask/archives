@@ -1512,16 +1512,16 @@
 	   ("João Távora" . "joaotavora@gmail.com"))
 	  (:commit . "d2445c8c23595efdd444fce6f0c33ba66b596812"))])
  (el-job .
-	 [(2 3 1 0 20250322 162024)
+	 [(2 3 1 0 20250322 212812)
 	  ((emacs
 	    (29 1)))
 	  "Contrived way to call a function using all CPU cores" tar
 	  ((:url . "https://github.com/meedstrom/el-job")
 	   (:keywords "processes")
-	   (:maintainer "Martin Edström" . "meedstrom91@gmail.com")
+	   (:maintainer "Martin Edström" . "meedstrom@runbox.eu")
 	   (:authors
-	    ("Martin Edström" . "meedstrom91@gmail.com"))
-	   (:commit . "23a698822e44c73843a59180745bbf0a9b6712a6"))])
+	    ("Martin Edström" . "meedstrom@runbox.eu"))
+	   (:commit . "6956cef553f477cc35b1c4035423bfc9797957c3"))])
  (el-search .
 	    [(1 12 6 1 0 20250307 74553)
 	     ((emacs
@@ -1920,6 +1920,17 @@
 	     ("Pavel Kobyakov" . "pk_at_work@yahoo.com"))
 	    (:url . "https://elpa.gnu.org/packages/flymake.html")
 	    (:commit . "53eec34da1bf2fb9381680734a99f3fb11225787"))])
+ (flymake-clippy .
+		 [(1 1 0 0 20250323 23403)
+		  ((emacs
+		    (27)))
+		  "Flymake backend for Clippy" tar
+		  ((:url . "https://github.com/mak-kirkland/flymake-clippy")
+		   (:keywords "languages" "tools")
+		   (:maintainer "Michael Kirkland" . "mak.kirkland@proton.me")
+		   (:authors
+		    ("Michael Kirkland" . "mak.kirkland@proton.me"))
+		   (:commit . "38aeda6a8f4090b00f3c7fdb5188f80e04c556de"))])
  (flymake-codespell .
 		    [(0 1 0 20231030 222337)
 		     ((emacs
