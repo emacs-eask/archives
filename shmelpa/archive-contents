@@ -1283,7 +1283,7 @@
 	   ("Kang Tu" . "tninja@gmail.com"))
 	  (:maintainer "Kang Tu" . "tninja@gmail.com"))])
  (aidermacs .
-	    [(0 1 0 1 -4 20250325 1543)
+	    [(0 1 0 1 -4 20250325 2214)
 	     ((emacs
 	       (26 1))
 	      (transient
@@ -1292,8 +1292,8 @@
 	       (30 0 2 0)))
 	     "AI pair programming with Aider" tar
 	     ((:url . "https://github.com/MatthewZMD/aidermacs")
-	      (:commit . "afbc23a0e239091e36b0917c00bf3fef30b84887")
-	      (:revdesc . "afbc23a0e239")
+	      (:commit . "0593ba41cb88f039a8c42e26a4080040658bb454")
+	      (:revdesc . "0593ba41cb88")
 	      (:keywords "ai" "emacs" "llm" "aider" "ai-pair-programming" "tools")
 	      (:authors
 	       ("Mingde Zeng" . "matthewzmd@posteo.net"))
@@ -17636,7 +17636,7 @@
 	 ("Alexey Kutepov" . "reximkut@gmail.com"))
 	(:maintainer "Alexey Kutepov" . "reximkut@gmail.com"))])
  (ebib .
-       [(0 1 0 1 -4 20250222 1322)
+       [(0 1 0 1 -4 20250325 2311)
 	((parsebib
 	  (6 0))
 	 (emacs
@@ -17645,8 +17645,8 @@
 	  (29 1 4 3)))
 	"A BibTeX database manager" tar
 	((:url . "http://joostkremers.github.io/ebib/")
-	 (:commit . "aa54f33ee2b1205e651da1153014c128d82f1659")
-	 (:revdesc . "aa54f33ee2b1")
+	 (:commit . "7a11f676401434623bf3a6e24b1e0b07d78ce0d6")
+	 (:revdesc . "7a11f6764014")
 	 (:keywords "text" "bibtex")
 	 (:authors
 	  ("Joost Kremers" . "joostkremers@fastmail.fm"))
@@ -18559,13 +18559,13 @@
 		    ("Hiroki YAMAKAWA" . "s06139@gmail.com"))
 		   (:maintainer "Hiroki YAMAKAWA" . "s06139@gmail.com"))])
  (el-job .
-	 [(0 1 0 1 -4 20250325 1758)
+	 [(0 1 0 1 -4 20250325 2152)
 	  ((emacs
 	    (29 1)))
 	  "Contrived way to call a function using all CPU cores" tar
 	  ((:url . "https://github.com/meedstrom/el-job")
-	   (:commit . "8dcd2db2a2275ca94513c792a2a0e0cdf4402499")
-	   (:revdesc . "8dcd2db2a227")
+	   (:commit . "71eeac61b49eabdc8f8fc4182859103b2d8d5bef")
+	   (:revdesc . "71eeac61b49e")
 	   (:keywords "processes")
 	   (:authors
 	    ("Martin Edström" . "meedstrom@runbox.eu"))
@@ -20560,7 +20560,7 @@
 	   ("Dimitris Alikaniotis" . "da352[at]cam.ac.uk"))
 	  (:maintainer "Dimitris Alikaniotis" . "da352[at]cam.ac.uk"))])
  (empv .
-       [(0 1 0 1 -4 20250225 1652)
+       [(0 1 0 1 -4 20250325 2330)
 	((emacs
 	  (28 1))
 	 (s
@@ -20569,8 +20569,8 @@
 	  (29 1 4 4)))
 	"A multimedia player/manager, YouTube interface" tar
 	((:url . "https://github.com/isamert/empv.el")
-	 (:commit . "4c660fe44f7ea562896924ce9de28cd37ef15a38")
-	 (:revdesc . "4c660fe44f7e")
+	 (:commit . "2d84bece5569d3ba28808677230f999b6118685a")
+	 (:revdesc . "2d84bece5569")
 	 (:authors
 	  ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
 	 (:maintainers
@@ -32145,7 +32145,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20250325 2103)
+	[(0 1 0 1 -4 20250325 2240)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -32154,8 +32154,8 @@
 	   (29 1 4 1)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "3dc1cf4cefb73a668caa1cbd0be74040f9a5eb22")
-	  (:revdesc . "3dc1cf4cefb7")
+	  (:commit . "66d93f3ddc8f657fad15c7c62eada0343ecaea6d")
+	  (:revdesc . "66d93f3ddc8f")
 	  (:keywords "convenience" "tools")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -38749,19 +38749,19 @@
 		  ("vindarel" . "vindarel@mailz.org"))
 		 (:maintainer "vindarel" . "vindarel@mailz.org"))])
  (indexed .
-	  [(0 1 0 1 -4 20250325 1327)
+	  [(0 1 0 1 -4 20250325 2136)
 	   ((emacs
 	     (29 1))
 	    (el-job
-	     (2 2 0))
-	    (llama
-	     (0 5 0))
+	     (2 4 0))
 	    (emacsql
-	     (4 2 0)))
+	     (4 2 0))
+	    (llama
+	     (0 5 0)))
 	   "Cache metadata on all Org files" tar
 	   ((:url . "https://github.com/meedstrom/org-node")
-	    (:commit . "9fe77b6035862f124bde7b65711a0349dd91f386")
-	    (:revdesc . "9fe77b603586")
+	    (:commit . "5a158c3df1905afe5924ee6b813a64953639eda2")
+	    (:revdesc . "5a158c3df190")
 	    (:keywords "text")
 	    (:authors
 	     ("Martin Edström" . "meedstrom@runbox.eu"))
@@ -45621,7 +45621,7 @@
 		("Evgeny Kurnevsky" . "kurnevsky@gmail.com"))
 	       (:maintainer "Ross A. Baker" . "ross@rossabaker.com"))])
  (lsp-mode .
-	   [(0 1 0 1 -4 20250317 532)
+	   [(0 1 0 1 -4 20250325 2330)
 	    ((emacs
 	      (28 1))
 	     (dash
@@ -45640,8 +45640,8 @@
 	      (1 11)))
 	    "LSP mode" tar
 	    ((:url . "https://github.com/emacs-lsp/lsp-mode")
-	     (:commit . "4cddd2d99d9e61609396e562df876351007aaf2b")
-	     (:revdesc . "4cddd2d99d9e")
+	     (:commit . "df76c06f6db23cb1bdec5b9b677d18a181f0c3c7")
+	     (:revdesc . "df76c06f6db2")
 	     (:keywords "languages"))])
  (lsp-mssql .
 	    [(0 1 0 1 -4 20250301 131)
@@ -70199,7 +70199,7 @@
 	("Chunyang Xu" . "mail@xuchunyang.me"))
        (:maintainer "Chunyang Xu" . "mail@xuchunyang.me"))])
  (slack .
-	[(0 1 0 1 -4 20250318 1342)
+	[(0 1 0 1 -4 20250325 2312)
 	 ((websocket
 	   (1 12))
 	  (request
@@ -70220,8 +70220,8 @@
 	   (0 3)))
 	 "Slack client" tar
 	 ((:url . "https://github.com/emacs-slack/emacs-slack")
-	  (:commit . "c0f0258b14646e67a2bdbcc06f30a93432117cfb")
-	  (:revdesc . "c0f0258b1464")
+	  (:commit . "6ad26b1858bfa48dafea7282b18417b9c5f88bab")
+	  (:revdesc . "6ad26b1858bf")
 	  (:keywords "tools")
 	  (:authors
 	   ("yuya.minami" . "yuya.minami@yuyaminami-no-MacBook-Pro.local"))
