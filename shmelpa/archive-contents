@@ -15800,13 +15800,15 @@
 		      ("Austin Bingham" . "austin.bingham@gmail.com"))
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com"))])
  (dirvish .
-	  [(0 1 0 1 -4 20250326 1006)
+	  [(0 1 0 1 -4 20250328 148)
 	   ((emacs
-	     (28 1)))
+	     (28 1))
+	    (compat
+	     (30)))
 	   "A modern file manager based on dired mode" tar
 	   ((:url . "https://github.com/alexluigit/dirvish")
-	    (:commit . "5a3cf2b0a655c841a492f59fd1af4bbb1e6857f5")
-	    (:revdesc . "5a3cf2b0a655")
+	    (:commit . "2d63995d3296c259cef90830cf0433602429ecec")
+	    (:revdesc . "2d63995d3296")
 	    (:keywords "files" "convenience")
 	    (:authors
 	     ("Alex Lu" . "https://github.com/alexluigit"))
