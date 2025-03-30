@@ -28557,6 +28557,24 @@
 	  (:maintainers
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
 	  (:maintainer "Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))])
+ (forge-llm .
+	    [(0 1 0 1 -4 20250330 1552)
+	     ((emacs
+	       (25 1))
+	      (forge
+	       (0 3 0))
+	      (llm
+	       (0 16 1)))
+	     "LLM integration for generating PR descriptions in Forge" tar
+	     ((:url . "https://gitlab.com/rogs/forge-llm")
+	      (:commit . "a0a42b42b2d1f6c4fbb110d1aecec61c55122758")
+	      (:revdesc . "a0a42b42b2d1")
+	      (:keywords "convenience" "forge" "git" "llm" "github" "gitlab" "pull-request")
+	      (:authors
+	       ("Roger Gonzalez" . "roger@rogs.me"))
+	      (:maintainers
+	       ("Roger Gonzalez" . "roger@rogs.me"))
+	      (:maintainer "Roger Gonzalez" . "roger@rogs.me"))])
  (form-feed .
 	    [(0 2 3 1 -4 20210508 1627)
 	     ((emacs
@@ -34021,15 +34039,15 @@
 		  ("Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com"))
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com"))])
  (helm-core .
-	    [(0 1 0 1 -4 20250321 632)
+	    [(0 1 0 1 -4 20250330 1543)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 9)))
 	     "Development files for Helm" tar
 	     ((:url . "https://emacs-helm.github.io/helm/")
-	      (:commit . "3084975808b30c68f280b70024e0c2cd6af78090")
-	      (:revdesc . "3084975808b3")
+	      (:commit . "563cb9b83eddb2efd0a5458593a789bb86b1ed56")
+	      (:revdesc . "563cb9b83edd")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainers
@@ -47409,19 +47427,17 @@
 	       ("YiGeeker" . "zyfchinese@yeah.net"))
 	      (:maintainer "YiGeeker" . "zyfchinese@yeah.net"))])
  (mastodon .
-	   [(0 1 0 1 -4 20250305 2104)
+	   [(0 1 0 1 -4 20250330 1519)
 	    ((emacs
 	      (28 1))
-	     (request
-	      (0 3 0))
 	     (persist
 	      (0 4))
 	     (tp
 	      (0 7)))
 	    "Client for fediverse services using the Mastodon API" tar
 	    ((:url . "https://codeberg.org/martianh/mastodon.el")
-	     (:commit . "fd59828c89e808d0a6d0d9abab8e830df494b515")
-	     (:revdesc . "fd59828c89e8")
+	     (:commit . "163ba2b0b89a292b99bff0f574f5584ec888469a")
+	     (:revdesc . "163ba2b0b89a")
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com")
 	      ("Marty Hiatt" . "mousebot@disroot.org"))
@@ -53654,13 +53670,13 @@
 	      ("Paul W. Rankin" . "rnkn@rnkn.xyz"))
 	     (:maintainer "Paul W. Rankin" . "rnkn@rnkn.xyz"))])
  (ollama-buddy .
-	       [(0 1 0 1 -4 20250330 710)
+	       [(0 1 0 1 -4 20250330 1504)
 		((emacs
 		  (28 1)))
 		"Ollama Buddy: Your Friendly AI Assistant" tar
 		((:url . "https://github.com/captainflasmr/ollama-buddy")
-		 (:commit . "afec73666747098be51dda1883a6acdd6646b921")
-		 (:revdesc . "afec73666747")
+		 (:commit . "8ca99011498ff6e07923d13615bf590dadfa4c9e")
+		 (:revdesc . "8ca99011498f")
 		 (:keywords "applications" "tools" "convenience")
 		 (:authors
 		  ("James Dyer" . "captainflasmr@gmail.com"))
@@ -55408,6 +55424,19 @@
 			  (:maintainers
 			   ("Samuel W. Flint" . "me@samuelwflint.com"))
 			  (:maintainer "Samuel W. Flint" . "me@samuelwflint.com"))])
+ (org-invoice-table .
+		    [(0 1 0 1 -4 20250323 2313)
+		     ((emacs
+		       (26 1)))
+		     "Invoicing table formatter for org-mode" tar
+		     ((:url . "https://codeberg.org/trevdev/org-invoice-table")
+		      (:commit . "32340ccad5ba20486b80acddeb7f5455e86cf006")
+		      (:revdesc . "32340ccad5ba")
+		      (:authors
+		       ("Trevor Richards" . "trev@trevdev.ca"))
+		      (:maintainers
+		       ("Trevor Richards" . "trev@trevdev.ca"))
+		      (:maintainer "Trevor Richards" . "trev@trevdev.ca"))])
  (org-iv .
 	 [(1 0 1 1 -4 20171001 1022)
 	  ((impatient-mode
@@ -66167,6 +66196,20 @@
 	  (:maintainers
 	   ("Dave Love Quildreen Motta Billy Wade" . "https://github.com/billywade"))
 	  (:maintainer "Dave Love Quildreen Motta Billy Wade" . "https://github.com/billywade"))])
+ (repeat-fu .
+	    [(0 1 0 1 -4 20250323 2149)
+	     ((emacs
+	       (29 1)))
+	     "Minor mode to repeat typing or commands" tar
+	     ((:url . "https://codeberg.org/ideasman42/emacs-repeat-fu")
+	      (:commit . "682ae483e16bb12b5451392aed367d41101b8c7f")
+	      (:revdesc . "682ae483e16b")
+	      (:keywords "convenience")
+	      (:authors
+	       ("Campbell Barton" . "ideasman42@gmail.com"))
+	      (:maintainers
+	       ("Campbell Barton" . "ideasman42@gmail.com"))
+	      (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
  (repeat-help .
 	      [(0 10 1 -4 20230118 24)
 	       ((emacs
@@ -70290,15 +70333,15 @@
 	      (:revdesc . "8c92169817f2")
 	      (:keywords "markup" "language"))])
  (slime .
-	[(0 1 0 1 -4 20250329 1541)
+	[(0 1 0 1 -4 20250330 1740)
 	 ((emacs
 	   (24 3))
 	  (macrostep
 	   (0 9)))
 	 "Superior Lisp Interaction Mode for Emacs" tar
 	 ((:url . "https://github.com/slime/slime")
-	  (:commit . "62f4a5bd11480229f1aceb6bf810a995da511a0b")
-	  (:revdesc . "62f4a5bd1148")
+	  (:commit . "36878496d6f9d06cd3e4dfa3f51ab57acc5fe95f")
+	  (:revdesc . "36878496d6f9")
 	  (:keywords "languages" "lisp" "slime"))])
  (slime-company .
 		[(0 1 0 1 -4 20250301 21)
@@ -72819,6 +72862,15 @@
 	    (:maintainers
 	     ("těpán Němec" . "stepnem@smrk.net"))
 	    (:maintainer "těpán Němec" . "stepnem@smrk.net"))])
+ (stripspace .
+	     [(0 1 0 1 -4 20250328 157)
+	      ((emacs
+		(24 3)))
+	      "Auto remove trailing whitespace and restore column" tar
+	      ((:url . "https://github.com/jamescherti/stripspace.el")
+	       (:commit . "2047a2611840fe6a590aceeb008530cfa171803c")
+	       (:revdesc . "2047a2611840")
+	       (:keywords "convenience"))])
  (stumpwm-mode .
 	       [(0 1 0 1 -4 20171027 214)
 		nil "Special lisp mode for evaluating code into running stumpwm" tar
