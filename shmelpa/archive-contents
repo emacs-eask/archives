@@ -42349,19 +42349,19 @@
 		("Boruch Baum" . "boruch_baum@gmx.com"))
 	       (:maintainer "Boruch Baum" . "boruch_baum@gmx.com"))])
  (key-chord .
-	    [(0 7 1 1 -4 20240910 1441)
+	    [(0 1 0 1 -4 20250330 2011)
 	     ((emacs
 	       (24)))
 	     "Map pairs of simultaneously pressed keys to commands" tar
-	     ((:url . "https://github.com/emacsorphanage/key-chord")
-	      (:commit . "fc75b1451759121601110da8ddfadcf5156318af")
-	      (:revdesc . "fc75b1451759")
+	     ((:url . "https://github.com/LemonBreezes/key-chord")
+	      (:commit . "cb646e815c61f253ad9fdfbe058049dda4e2b32b")
+	      (:revdesc . "cb646e815c61")
 	      (:keywords "keyboard" "chord" "input")
 	      (:authors
 	       ("David Andersson" . "l.david.anderssonsverige.nu"))
 	      (:maintainers
-	       ("David Andersson" . "l.david.anderssonsverige.nu"))
-	      (:maintainer "David Andersson" . "l.david.anderssonsverige.nu"))])
+	       ("LemonBreezes" . "look@strawberrytea.xyz"))
+	      (:maintainer "LemonBreezes" . "look@strawberrytea.xyz"))])
  (key-combo .
 	    [(1 6 1 -4 20230323 829)
 	     nil "Map key sequence to commands" tar
@@ -43067,7 +43067,7 @@
 	       (:revdesc . "3d2f86fccdf8")
 	       (:keywords "kubernetes" "k8s" "tools" "processes" "evil" "keybindings"))])
  (kubernetes .
-	     [(0 1 0 1 -4 20250330 1358)
+	     [(0 1 0 1 -4 20250330 1936)
 	      ((dash
 		(2 12 0))
 	       (magit-section
@@ -43084,8 +43084,8 @@
 		(0 3 0)))
 	      "Magit-like porcelain for Kubernetes" tar
 	      ((:url . "https://github.com/kubernetes-el/kubernetes-el")
-	       (:commit . "32b8f38f13e501600f14d05376e532234b91c1b3")
-	       (:revdesc . "32b8f38f13e5")
+	       (:commit . "938ef502414d093de827bf7f11bdb30843878a37")
+	       (:revdesc . "938ef502414d")
 	       (:keywords "kubernetes")
 	       (:authors
 		("Chris Barrett" . "chris+emacs@walrus.cool"))
@@ -46262,7 +46262,7 @@
 	       (:revdesc . "487642167df6")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20250329 935)
+	[(0 1 0 1 -4 20250330 1739)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -46279,8 +46279,8 @@
 	   (3 4 3)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "bec296e8d7d524beabcb9f56d9befb3f8e4d29fb")
-	  (:revdesc . "bec296e8d7d5")
+	  (:commit . "aa0166c92a8e70d6e28450fe2fbcac1847045280")
+	  (:revdesc . "aa0166c92a8e")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -46484,6 +46484,21 @@
 		    (:maintainers
 		     ("Tiou Lims" . "dourokinga@gmail.com"))
 		    (:maintainer "Tiou Lims" . "dourokinga@gmail.com"))])
+ (magit-ido .
+	    [(0 1 0 1 -4 20250330 1737)
+	     ((ido-completing-read+
+	       (4 14))
+	      (magit
+	       (4 3 2)))
+	     "Support using Ido in Magit" tar
+	     ((:url . "https://github.com/emacsorphanage/magit-ido")
+	      (:commit . "2b94abf65a208e4c844d046217350efbf77cf582")
+	      (:revdesc . "2b94abf65a20")
+	      (:authors
+	       ("Jonas Bernoulli" . "emacs.magit-ido@jonas.bernoulli.dev"))
+	      (:maintainers
+	       ("Jonas Bernoulli" . "emacs.magit-ido@jonas.bernoulli.dev"))
+	      (:maintainer "Jonas Bernoulli" . "emacs.magit-ido@jonas.bernoulli.dev"))])
  (magit-imerge .
 	       [(1 3 0 1 -4 20240811 1933)
 		((emacs
@@ -69782,15 +69797,15 @@
 		       ("Jen-Chieh" . "jcs090218@gmail.com"))
 		      (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (sideline-flymake .
-		   [(0 1 0 1 -4 20250201 1749)
+		   [(0 1 0 1 -4 20250330 2040)
 		    ((emacs
 		      (28 1))
 		     (sideline
 		      (0 1 0)))
 		    "Show flymake errors with sideline" tar
 		    ((:url . "https://github.com/emacs-sideline/sideline-flymake")
-		     (:commit . "87459e2b083674520d7fc4ee36b6b04c990b2e4f")
-		     (:revdesc . "87459e2b0836")
+		     (:commit . "cece68ca230e8a539b91ef5cb89934a938ea3970")
+		     (:revdesc . "cece68ca230e")
 		     (:keywords "convenience" "flymake")
 		     (:authors
 		      ("Jen-Chieh" . "jcs090218@gmail.com"))
@@ -78206,19 +78221,19 @@
 		("rubikitch" . "rubikitch@ruby-lang.org"))
 	       (:maintainer "rubikitch" . "rubikitch@ruby-lang.org"))])
  (use-package-chords .
-		     [(0 1 0 1 -4 20241115 2228)
+		     [(0 1 0 1 -4 20250330 1852)
 		      ((use-package
 			(2 1))
 		       (bind-key
 			(1 0))
 		       (bind-chord
-			(0 2))
+			(0 2 2))
 		       (key-chord
 			(0 6)))
 		      "Key-chord keyword for use-package" tar
 		      ((:url . "https://github.com/jwiegley/use-package")
-		       (:commit . "a2b16a1e64b19ae9428a6cd8f3e09b8159707a29")
-		       (:revdesc . "a2b16a1e64b1")
+		       (:commit . "0793b50e2bf1ec8bfc532b10baeef716c5aa947a")
+		       (:revdesc . "0793b50e2bf1")
 		       (:keywords "convenience" "tools" "extensions")
 		       (:authors
 			("Justin Talbott" . "justin@waymondo.com"))
@@ -79814,7 +79829,7 @@
 	     ("KOBAYASHI Shigeru" . "shigeru.kb@gmail.com"))
 	    (:maintainer "KOBAYASHI Shigeru" . "shigeru.kb@gmail.com"))])
  (wanderlust .
-	     [(0 1 0 1 -4 20241125 2206)
+	     [(0 1 0 1 -4 20250330 1813)
 	      ((emacs
 		(24 5))
 	       (apel
@@ -79825,8 +79840,8 @@
 		(0)))
 	      "Yet Another Message Interface on Emacsen" tar
 	      ((:url . "https://github.com/emacsmirror/wanderlust")
-	       (:commit . "dddd7d64f27747cfa546d6656beee6ec4e5c55cf")
-	       (:revdesc . "dddd7d64f277")
+	       (:commit . "840bb4b137a2e35cb30f4b78437b11b852ef6389")
+	       (:revdesc . "840bb4b137a2")
 	       (:keywords "mail" "net news")
 	       (:authors
 		("Yuuichi Teranishi" . "teranisi@gohome.org")
