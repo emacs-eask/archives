@@ -81247,11 +81247,19 @@
 		    ("Joost Kremers" . "joostkremers@fastmail.fm"))
 		   (:maintainer "Joost Kremers" . "joostkremers@fastmail.fm"))])
  (ws-butler .
-	    [(0 1 0 1 -4 20241107 519)
-	     nil "Unobtrusively remove trailing whitespace" tar
-	     ((:url . "https://github.com/lewang/ws-butler")
-	      (:commit . "d3927f6131f215e9cd3e1f747be5a91e5be8ca9a")
-	      (:revdesc . "d3927f6131f2"))])
+	    [(0 1 0 1 -4 20250310 205)
+	     ((emacs
+	       (24 1)))
+	     "Unobtrusively remove trailing whitespace" tar
+	     ((:url . "https://elpa.nongnu.org/nongnu/ws-butler.html")
+	      (:commit . "9ee5a7657a22e836618813c2e2b64a548d27d2ff")
+	      (:revdesc . "9ee5a7657a22")
+	      (:keywords "text")
+	      (:authors
+	       ("Le Wang" . "l26wang@gmail.com"))
+	      (:maintainers
+	       ("Sean Whitton" . "spwhitton@spwhitton.name"))
+	      (:maintainer "Sean Whitton" . "spwhitton@spwhitton.name"))])
  (wsd-mode .
 	   [(0 5 0 1 -4 20191031 1211)
 	    nil "Emacs major-mode for www.websequencediagrams.com" tar
