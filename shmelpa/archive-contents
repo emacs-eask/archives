@@ -8120,6 +8120,26 @@
 		 (:maintainers
 		  ("Bruce D'Arcus" . "bdarcus@gmail.com"))
 		 (:maintainer "Bruce D'Arcus" . "bdarcus@gmail.com"))])
+ (citar-org-node .
+		 [(0 1 0 1 -4 20250325 643)
+		  ((emacs
+		    (26 1))
+		   (citar
+		    (1 1))
+		   (org-node
+		    (2 0 0))
+		   (ht
+		    (1 6)))
+		  "Citar integration with org-node" tar
+		  ((:url . "https://github.com/krisbalintona/citar-org-node")
+		   (:commit . "78bf121991fbc3b892dca4716a6211f113dbb2c4")
+		   (:revdesc . "78bf121991fb")
+		   (:keywords "tools")
+		   (:authors
+		    ("Kristoffer Balintona" . "krisbalintona@gmail.com"))
+		   (:maintainers
+		    ("Kristoffer Balintona" . "krisbalintona@gmail.com"))
+		   (:maintainer "Kristoffer Balintona" . "krisbalintona@gmail.com"))])
  (citar-org-roam .
 		 [(0 1 0 1 -4 20241203 2325)
 		  ((emacs
@@ -11776,7 +11796,7 @@
 	       ("Noah Peart" . "noah.v.peart@gmail.com"))
 	      (:maintainer "Noah Peart" . "noah.v.peart@gmail.com"))])
  (copilot .
-	  [(0 1 0 1 -4 20250223 139)
+	  [(0 1 0 1 -4 20250330 1506)
 	   ((emacs
 	     (27 2))
 	    (s
@@ -11791,8 +11811,8 @@
 	     (0 20 0)))
 	   "An unofficial Copilot plugin" tar
 	   ((:url . "https://github.com/copilot-emacs/copilot.el")
-	    (:commit . "7d105d708a23d16cdfd5240500be8bb02f95a46e")
-	    (:revdesc . "7d105d708a23")
+	    (:commit . "445f2b5c9275717c0ad1c46289ccaf1d3f1c284a")
+	    (:revdesc . "445f2b5c9275")
 	    (:keywords "convenience" "copilot")
 	    (:authors
 	     ("zerol" . "z@zerol.me"))
@@ -11801,7 +11821,7 @@
 	     ("Rakotomandimby Mihamina" . "mihamina.rakotomandimby@rktmb.org"))
 	    (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (copilot-chat .
-	       [(0 1 0 1 -4 20250328 1952)
+	       [(0 1 0 1 -4 20250330 1413)
 		((emacs
 		  (27 1))
 		 (aio
@@ -11820,8 +11840,8 @@
 		  (0 76 2)))
 		"Copilot chat interface" tar
 		((:url . "https://github.com/chep/copilot-chat.el")
-		 (:commit . "92c4476ee7c27a78c8ef8e4ac624920a19032620")
-		 (:revdesc . "92c4476ee7c2")
+		 (:commit . "26919ddd95022141bb6358663be735565d7c47f9")
+		 (:revdesc . "26919ddd9502")
 		 (:keywords "convenience" "tools")
 		 (:authors
 		  ("cedric.chepied" . "cedric.chepied@gmail.com"))
@@ -14437,6 +14457,22 @@
 			 (:maintainers
 			  ("Samuel W. Flint" . "swflint@samuelwflint.com"))
 			 (:maintainer "Samuel W. Flint" . "swflint@samuelwflint.com"))])
+ (denote-regexp .
+		[(0 1 0 1 -4 20250324 146)
+		 ((emacs
+		   (27 1))
+		  (denote
+		   (3 1 0)))
+		 "Compose regexps to match Denote files" tar
+		 ((:url . "https://git.sr.ht/~swflint/denote-regexp")
+		  (:commit . "f61b8b895552364d4ce4903beb42d4afb4f4d98c")
+		  (:revdesc . "f61b8b895552")
+		  (:keywords "convenience")
+		  (:authors
+		   ("Samuel W. Flint" . "swflint@samuelwflint.com"))
+		  (:maintainers
+		   ("Samuel W. Flint" . "swflint@samuelwflint.com"))
+		  (:maintainer "Samuel W. Flint" . "swflint@samuelwflint.com"))])
  (denote-sections .
 		  [(0 2 0 1 -4 20240608 1629)
 		   ((universal-sidecar
