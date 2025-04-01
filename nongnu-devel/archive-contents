@@ -22,7 +22,7 @@
 		     ("Ozan Sener" . "ozan@ozansener.com"))
 		    (:commit . "89b1d778a1f8b385775c122f2bd1c62f0fbf931a"))])
  (aidermacs .
-	    [(1 1 0 20250329 4456)
+	    [(1 1 0 20250401 150826)
 	     ((emacs
 	       (26 1))
 	      (transient
@@ -35,7 +35,7 @@
 	      (:maintainer "Mingde Zeng" . "matthewzmd@posteo.net")
 	      (:authors
 	       ("Mingde Zeng" . "matthewzmd@posteo.net"))
-	      (:commit . "a252760d74a06c4287244ac9d5f4fb19ef2e33fb"))])
+	      (:commit . "3a5199e42db4ab0fa137d74872208b624d8c8cd2"))])
  (alect-themes .
 	       [(0 10 0 20211022 165129)
 		((emacs
@@ -268,7 +268,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider .
-	[(1 18 0 -4 0 20250331 183211)
+	[(1 18 0 -4 0 20250401 193622)
 	 ((emacs
 	   (27))
 	  (clojure-mode
@@ -296,7 +296,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "fdfa7c22003abb255f01a0d6fce6c41fb01b79ff"))])
+	  (:commit . "de548e3084f6f6b5802dd7f939fd9ddf36e62038"))])
  (clojure-mode .
 	       [(5 20 0 -4 0 20241211 152233)
 		((emacs
@@ -614,7 +614,7 @@
 	    ("Tim Vaughan" . "plugd@thelambdalab.xyz"))
 	   (:commit . "972a069f240f071a79da23c98d3519df45bb5851"))])
  (emacsql .
-	  [(4 2 0 0 20250320 150152)
+	  [(4 3 0 0 20250401 150013)
 	   ((emacs
 	     (26 1)))
 	   "High-level SQL database front-end" tar
@@ -622,7 +622,7 @@
 	    (:maintainer "Jonas Bernoulli" . "emacs.emacsql@jonas.bernoulli.dev")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
-	    (:commit . "770120b674fe1ebd7968bfb3f17871629a4bcd11"))])
+	    (:commit . "5470adaf5dcabebc80c913ac831258fd47a87cbe"))])
  (engine-mode .
 	      [(2 2 4 0 20230911 95607)
 	       ((emacs
@@ -1263,13 +1263,13 @@
 	      (:keywords "markup" "languages" "html")
 	      (:commit . "a64d58df8f098f858c6c11fa1629a90969f9c7e8"))])
  (haskell-mode .
-	       [(17 5 0 20250324 192155)
+	       [(17 5 0 20250401 174200)
 		((emacs
 		  (25 1)))
 		"A Haskell editing mode" tar
 		((:url . "https://github.com/haskell/haskell-mode")
 		 (:keywords "haskell" "cabal" "ghc" "repl" "languages")
-		 (:commit . "be2639592f0fd3c779bcdcec54e2124277baa03f"))])
+		 (:commit . "e9c356739310332afe59b10ffa2e6c3e76f124e3"))])
  (haskell-tng-mode .
 		   [(0 0 1 0 20230522 221126)
 		    ((emacs
@@ -1292,7 +1292,7 @@
 		     ("Pranshu Sharma" . "pranshusharma366atgmail"))
 		    (:commit . "add1496b7062972526da88e45db2726e5ff53e28"))])
  (helm .
-       [(4 0 2 0 20250331 172519)
+       [(4 0 2 0 20250401 65011)
 	((helm-core
 	  (4 0 2))
 	 (wfnames
@@ -1303,9 +1303,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "91b9bb40f26bc1fc64e35751be90694d6cc73745"))])
+	 (:commit . "f948dc4464d3a02eebd5b75d75a8cd811c18b271"))])
  (helm-core .
-	    [(4 0 2 0 20250331 172519)
+	    [(4 0 2 0 20250401 65011)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1315,7 +1315,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "91b9bb40f26bc1fc64e35751be90694d6cc73745"))])
+	      (:commit . "f948dc4464d3a02eebd5b75d75a8cd811c18b271"))])
  (hideshowvis .
 	      [(0 8 0 20250225 175051)
 	       ((emacs
@@ -1549,7 +1549,7 @@
 	  (:keywords "extensions")
 	  (:commit . "48e5bc4919a4a29665362832d59ade8e248b0c3e"))])
  (logview .
-	  [(0 19 3 -4 0 20250306 133154)
+	  [(0 19 3 -4 0 20250401 172309)
 	   ((emacs
 	     (25 1))
 	    (datetime
@@ -1564,7 +1564,7 @@
 	    (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
 	    (:authors
 	     ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
-	    (:commit . "cd990bf63785897bfdfa0ec954db986f0361449f"))])
+	    (:commit . "649d878f7e2aad0f938b2cf0a870f1968b4d5e30"))])
  (loopy .
 	[(0 14 0 0 20250306 20614)
 	 ((emacs
@@ -1668,7 +1668,7 @@
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
 	  (:commit . "bec296e8d7d524beabcb9f56d9befb3f8e4d29fb"))])
  (magit-section .
-		[(4 3 1 0 20250329 93558)
+		[(4 3 2 0 20250401 175331)
 		 ((emacs
 		   (27 1))
 		  (compat
@@ -1683,7 +1683,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "bec296e8d7d524beabcb9f56d9befb3f8e4d29fb"))])
+		  (:commit . "bf58615a033b8c827bf630962531c67539789215"))])
  (markdown-mode .
 		[(2 8 -3 0 20250314 31135)
 		 ((emacs
