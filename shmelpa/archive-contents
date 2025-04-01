@@ -2105,17 +2105,17 @@
 		 ("Sebastian Wiesner" . "swiesner@lunaryorn"))
 		(:maintainer "Sebastian Wiesner" . "swiesner@lunaryorn"))])
  (ansible-vault .
-		[(0 1 0 1 -4 20211119 1459)
+		[(0 1 0 1 -4 20250331 2155)
 		 ((emacs
-		   (24 3)))
+		   (25 1)))
 		 "Minor mode for editing ansible vault files" tar
-		 ((:url . "http://github.com/zellio/ansible-vault-mode")
-		  (:commit . "9b3d82ee49d484a494f2d88927b37fcd6245d51e")
-		  (:revdesc . "9b3d82ee49d4")
+		 ((:url . "http://github.com/freehck/ansible-vault-mode;; Created: 2016-09-25")
+		  (:commit . "f0fab5d8d56e4c16f9fa85f22635cb0cec3637e1")
+		  (:revdesc . "f0fab5d8d56e")
 		  (:keywords "ansible" "ansible-vault" "tools")
 		  (:maintainers
-		   ("Zachary Elliott" . "contact@zell.io"))
-		  (:maintainer "Zachary Elliott" . "contact@zell.io"))])
+		   ("Dmitrii Kashin" . "freehck@yandex.ru"))
+		  (:maintainer "Dmitrii Kashin" . "freehck@yandex.ru"))])
  (ansilove .
 	   [(2 0 0 1 -4 20230210 1338)
 	    ((emacs
@@ -2236,13 +2236,13 @@
 	 (:commit . "c58622cc6d2f6b503d3a930a2c48050be8e695cf")
 	 (:revdesc . "c58622cc6d2f"))])
  (apheleia .
-	   [(0 1 0 1 -4 20250308 1920)
+	   [(0 1 0 1 -4 20250331 2246)
 	    ((emacs
 	      (27)))
 	    "Reformat buffer stably" tar
 	    ((:url . "https://github.com/radian-software/apheleia")
-	     (:commit . "2c8e8229cbe26c7fd264c2ffe3fbeb9435dad3ae")
-	     (:revdesc . "2c8e8229cbe2")
+	     (:commit . "2b491144fe157867ce1cc4538a9562edff57c891")
+	     (:revdesc . "2b491144fe15")
 	     (:keywords "tools")
 	     (:authors
 	      ("Radian LLC" . "contact+apheleia@radian.codes"))
@@ -24498,11 +24498,13 @@
 	      ("Rashawn Zhang" . "namy.19@gmail.com"))
 	     (:maintainer "Rashawn Zhang" . "namy.19@gmail.com"))])
  (feature-mode .
-	       [(0 6 0 1 -4 20250328 1426)
-		nil "Major mode for editing Gherkin (i.e. Cucumber) user stories" tar
-		((:url . "https://github.com/michaelklishin/cucumber.el")
-		 (:commit . "eea85684660ef0e63c55778eee5c392990f8eac9")
-		 (:revdesc . "eea85684660e"))])
+	       [(0 1 0 1 -4 20250331 2206)
+		((emacs
+		  (28 1)))
+		"Major mode for editing Gherkin (i.e. Cucumber) user stories" tar
+		((:url . "https://github.com/freesteph/cucumber.el")
+		 (:commit . "76c91c05d15aca7732315b46dd3dcc13ec5235fd")
+		 (:revdesc . "76c91c05d15a"))])
  (fedi .
        [(0 1 0 1 -4 20250316 1151)
 	((emacs
@@ -47526,13 +47528,13 @@
 		      ("Enrico Flor" . "enrico@eflor.net"))
 		     (:maintainer "Enrico Flor" . "enrico@eflor.net"))])
  (matlab-mode .
-	      [(0 1 0 1 -4 20250331 1421)
+	      [(0 1 0 1 -4 20250331 2330)
 	       ((emacs
 		 (27 2)))
 	       "Major mode for MATLAB(R) dot-m files" tar
 	       ((:url . "https://github.com/mathworks/Emacs-MATLAB-Mode")
-		(:commit . "55d4d1b0ad957657f215ffc349b55881bf73d7e9")
-		(:revdesc . "55d4d1b0ad95")
+		(:commit . "66e6c72602373cc474fca8f1d13ed19408372115")
+		(:revdesc . "66e6c7260237")
 		(:keywords "matlab(r)")
 		(:authors
 		 ("Matt Wette" . "mwette@alumni.caltech.edu")
