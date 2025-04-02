@@ -22,7 +22,7 @@
 		     ("Ozan Sener" . "ozan@ozansener.com"))
 		    (:commit . "89b1d778a1f8b385775c122f2bd1c62f0fbf931a"))])
  (aidermacs .
-	    [(1 1 0 20250401 150826)
+	    [(1 1 0 20250401 165709)
 	     ((emacs
 	       (26 1))
 	      (transient
@@ -35,7 +35,7 @@
 	      (:maintainer "Mingde Zeng" . "matthewzmd@posteo.net")
 	      (:authors
 	       ("Mingde Zeng" . "matthewzmd@posteo.net"))
-	      (:commit . "3a5199e42db4ab0fa137d74872208b624d8c8cd2"))])
+	      (:commit . "38aa5bfa5c5a66664abb5bb9cd7f191d1ac3d915"))])
  (alect-themes .
 	       [(0 10 0 20211022 165129)
 		((emacs
@@ -1200,7 +1200,7 @@
 	      ("David Andersson" . "l.david.anderssonsverige.nu"))
 	     (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel .
-	[(0 9 8 0 20250331 142420)
+	[(0 9 8 0 20250401 224641)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -1213,7 +1213,7 @@
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-	  (:commit . "397cc2fc7c97666ef0c8fe1bd8496329891bf5c3"))])
+	  (:commit . "e0736662389612d779345ae2f45267307d990ebd"))])
  (graphql-mode .
 	       [(1 0 0 0 20241206 72535)
 		((emacs
@@ -1642,19 +1642,19 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit .
-	[(4 3 1 0 20250329 93558)
+	[(4 3 2 0 20250401 175331)
 	 ((emacs
 	   (27 1))
 	  (compat
 	   (30 0 2 0))
 	  (llama
-	   (0 6 1))
+	   (0 6 2))
 	  (magit-section
-	   (4 3 1))
+	   (4 3 2))
 	  (seq
 	   (2 24))
 	  (transient
-	   (0 8 5))
+	   (0 8 7))
 	  (with-editor
 	   (3 4 3)))
 	 "A Git porcelain inside Emacs" tar
@@ -1666,7 +1666,7 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	  (:commit . "bec296e8d7d524beabcb9f56d9befb3f8e4d29fb"))])
+	  (:commit . "bf58615a033b8c827bf630962531c67539789215"))])
  (magit-section .
 		[(4 3 2 0 20250401 175331)
 		 ((emacs
@@ -1685,7 +1685,7 @@
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
 		  (:commit . "bf58615a033b8c827bf630962531c67539789215"))])
  (markdown-mode .
-		[(2 8 -3 0 20250314 31135)
+		[(2 8 -3 0 20250402 45223)
 		 ((emacs
 		   (28 1)))
 		 "Major mode for Markdown-formatted text" tar
@@ -1694,7 +1694,7 @@
 		  (:maintainer "Jason R. Blevins" . "jblevins@xbeta.org")
 		  (:authors
 		   ("Jason R. Blevins" . "jblevins@xbeta.org"))
-		  (:commit . "d2d960bec164e91e1a3315b176e2bcc324e63c95"))])
+		  (:commit . "9d2850ed58719778d3e76411242d112e54998fd3"))])
  (mastodon .
 	   [(2 0 0 0 20250330 151927)
 	    ((emacs
@@ -1955,22 +1955,22 @@
 		    ("Takaaki ISHIKAWA" . "takaxpatieeedotorg"))
 		   (:commit . "e2599a106a26ce5511095e23df4ea04be6687a8a"))])
  (orgit .
-	[(2 0 1 0 20250330 232538)
+	[(2 0 2 0 20250401 181022)
 	 ((emacs
 	   (27 1))
 	  (compat
 	   (30 0 2 0))
 	  (magit
-	   (4 3 1))
+	   (4 3 2))
 	  (org
-	   (9 7 11)))
+	   (9 7 26)))
 	 "Support for Org links to Magit buffers" tar
 	 ((:url . "https://github.com/magit/orgit")
 	  (:keywords "hypermedia" "vc")
 	  (:maintainer "Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
-	  (:commit . "657f8cdd5d4654313e7e182e8e0ba32144763eeb"))])
+	  (:commit . "efd98e5caaac1d08677dae95be40fab65dcda2c8"))])
  (p4-16-mode .
 	     [(0 3 0 20231118 161633)
 	      nil "Support for the P4_16 programming language" tar
@@ -2122,7 +2122,7 @@
 	   ("Tomohiro Matsuyama" . "m2ym.pub@gmail.com"))
 	  (:commit . "47ce4bca22b66bd3f49e40af8a359e8cc28146de"))])
  (projectile .
-	     [(2 9 1 0 20250312 165928)
+	     [(2 9 1 0 20250402 71553)
 	      ((emacs
 		(26 1)))
 	      "Manage and navigate projects in Emacs easily" tar
@@ -2131,15 +2131,15 @@
 	       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
-	       (:commit . "55db082cdf7b849335ccf24b7ba5aa2607d6fe93"))])
+	       (:commit . "4dd84b02c9cd7b04616dc2d01ba7bc87f0d15be8"))])
  (proof-general .
-		[(4 6 -4 0 20250331 112818)
+		[(4 6 -4 0 20250402 70535)
 		 ((emacs
 		   (25 2)))
 		 "A generic Emacs interface for proof assistants" tar
 		 ((:url . "https://proofgeneral.github.io/")
 		  (:maintainer nil . "proof-general-maintainers@groupes.renater.fr")
-		  (:commit . "a967f2280543b885175ef5b0c6aec23ac1f96c2c"))])
+		  (:commit . "1f93bf273d3e7f8e371671cbab58f9fbb8c5f68a"))])
  (prop-menu .
 	    [(0 1 2 0 20150728 51803)
 	     ((emacs
