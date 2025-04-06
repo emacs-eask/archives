@@ -59228,6 +59228,19 @@
 		  (:maintainers
 		   ("Carlos G. Cordero" . "pacfiles@binarycharly.com"))
 		  (:maintainer "Carlos G. Cordero" . "pacfiles@binarycharly.com"))])
+ (pache-dark-theme .
+		   [(0 1 0 1 -4 20250330 1714)
+		    ((emacs
+		      (24 1)))
+		    "High-contrast theme based on Gruvbox" tar
+		    ((:url . "https://github.com/0xhenrique/pache-dark-theme")
+		     (:commit . "fd6ead16c9f33bebd2cd6fea70c5350d0dd2a6bc")
+		     (:revdesc . "fd6ead16c9f3")
+		     (:authors
+		      ("Henrique Marques" . "hm2030master@proton.me"))
+		     (:maintainers
+		      ("Henrique Marques" . "hm2030master@proton.me"))
+		     (:maintainer "Henrique Marques" . "hm2030master@proton.me"))])
  (pack .
        [(0 1 1 1 -4 20191017 456)
 	((emacs
@@ -61193,6 +61206,14 @@
 		     (:maintainers
 		      ("Eric Crosson" . "eric.s.crosson@utexas.edu"))
 		     (:maintainer "Eric Crosson" . "eric.s.crosson@utexas.edu"))])
+ (pink-bliss-uwu-theme .
+		       [(0 1 0 1 -4 20250330 1916)
+			((emacs
+			  (24 1)))
+			"Pink color theme" tar
+			((:url . "https://github.com/themkat/pink-bliss-uwu")
+			 (:commit . "c45e886dd822191b65c0aaff25a958fb8c5e1281")
+			 (:revdesc . "c45e886dd822"))])
  (pinot .
 	[(0 1 1 -4 20140211 2026)
 	 nil "Emacs interface to pinot-search" tar
@@ -70017,7 +70038,7 @@
 	       (dash
 		(2 0 0)))
 	      "Interactive Emacs mode for Remember The Milk" tar
-	      ((:url . "https://gitlab.com/mbunkus/simple-rtm")
+	      ((:url . "https://codeberg.org/mbunkus/simple-rtm")
 	       (:commit . "37c5feffea7c9b571279b6f549d06cf9c0720273")
 	       (:revdesc . "37c5feffea7c")
 	       (:keywords "remember" "the" "milk" "productivity" "todo")
@@ -78996,15 +79017,15 @@
 		      ("Andreas Gerler" . "baron@bundesbrandschatzamt.de"))
 		     (:maintainer "Andreas Gerler" . "baron@bundesbrandschatzamt.de"))])
  (vertico .
-	  [(0 1 0 1 -4 20250406 1455)
+	  [(0 1 0 1 -4 20250406 1754)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30)))
 	   "VERTical Interactive COmpletion" tar
 	   ((:url . "https://github.com/minad/vertico")
-	    (:commit . "59b3400df3106d918b861b074ef007e8fb24078b")
-	    (:revdesc . "59b3400df310")
+	    (:commit . "edee5c68972b9270ac4f23b2c34aa43fe4403d52")
+	    (:revdesc . "edee5c68972b")
 	    (:keywords "convenience" "files" "matching" "completion")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -79595,6 +79616,24 @@
 	     (:maintainers
 	      ("codefalling" . "code.falling@gmail.com"))
 	     (:maintainer "codefalling" . "code.falling@gmail.com"))])
+ (vue3-mode .
+	    [(0 1 0 1 -4 20250331 1625)
+	     ((emacs
+	       (29 1))
+	      (polymode
+	       (0 2 2))
+	      (vue-html-mode
+	       (0 2)))
+	     "Syntax highlighting for modern Vue.js 3" tar
+	     ((:url . "https://github.com/vsalvino/vue3-mode")
+	      (:commit . "a1ad84c0cc5ea100dd11aeae9b52669918830730")
+	      (:revdesc . "a1ad84c0cc5e")
+	      (:keywords "languages" "vue")
+	      (:authors
+	       ("Vince Salvino" . "mvsalvino@gmail.com"))
+	      (:maintainers
+	       ("Vince Salvino" . "mvsalvino@gmail.com"))
+	      (:maintainer "Vince Salvino" . "mvsalvino@gmail.com"))])
  (vuiet .
 	[(1 0 1 -4 20231231 1051)
 	 ((emacs
