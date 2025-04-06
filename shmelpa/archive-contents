@@ -8064,6 +8064,15 @@
 		((:url . "https://github.com/sulami/circleci-api")
 		 (:commit . "1432b0ad0f32b03fec564c0815951d5e096c2f6a")
 		 (:revdesc . "1432b0ad0f32"))])
+ (circom-mode .
+	      [(0 1 0 1 -4 20250406 1817)
+	       ((emacs
+		 (24 3)))
+	       "Major mode for editing Circom circuit" tar
+	       ((:url . "https://github.com/taquangtrung/emacs-circom-mode")
+		(:commit . "6473decb0d89b756fcfc643ea302d476b9147186")
+		(:revdesc . "6473decb0d89")
+		(:keywords "languages"))])
  (citar .
 	[(0 1 0 1 -4 20250113 1556)
 	 ((emacs
@@ -8121,7 +8130,7 @@
 		  ("Bruce D'Arcus" . "bdarcus@gmail.com"))
 		 (:maintainer "Bruce D'Arcus" . "bdarcus@gmail.com"))])
  (citar-org-node .
-		 [(0 1 0 1 -4 20250402 2014)
+		 [(0 1 0 1 -4 20250406 1610)
 		  ((emacs
 		    (26 1))
 		   (citar
@@ -8132,8 +8141,8 @@
 		    (1 6)))
 		  "Citar integration with org-node" tar
 		  ((:url . "https://github.com/krisbalintona/citar-org-node")
-		   (:commit . "a5df0165af6c0a8b417664b1c194c7ba93ff3025")
-		   (:revdesc . "a5df0165af6c")
+		   (:commit . "b5a1870b958bd872482f163fd337b11eb4d49fc6")
+		   (:revdesc . "b5a1870b958b")
 		   (:keywords "tools")
 		   (:authors
 		    ("Kristoffer Balintona" . "krisbalintona@gmail.com"))
@@ -11928,15 +11937,15 @@
 		   ("Junyoung Clare Jang" . "jjc9310@gmail.com"))
 		  (:maintainer "Junyoung Clare Jang" . "jjc9310@gmail.com"))])
  (corfu .
-	[(0 1 0 1 -4 20250406 1211)
+	[(0 1 0 1 -4 20250406 1754)
 	 ((emacs
 	   (28 1))
 	  (compat
 	   (30)))
 	 "COmpletion in Region FUnction" tar
 	 ((:url . "https://github.com/minad/corfu")
-	  (:commit . "ab3de89622462d2c45e1914a4f07b266b613e4fd")
-	  (:revdesc . "ab3de8962246")
+	  (:commit . "6460a3516ba6478114b947d7c18c2b9c5b45d0cc")
+	  (:revdesc . "6460a3516ba6")
 	  (:keywords "abbrev" "convenience" "matching" "completion" "text")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -20078,15 +20087,15 @@
 	 ("Jonas Bernoulli" . "emacs.elx@jonas.bernoulli.dev"))
 	(:maintainer "Jonas Bernoulli" . "emacs.elx@jonas.bernoulli.dev"))])
  (elysium .
-	  [(0 1 0 1 -4 20250216 2328)
+	  [(0 1 0 1 -4 20250406 1638)
 	   ((emacs
 	     (27 1))
 	    (gptel
 	     (0 9 0)))
 	   "Automatically apply LLM-created code-suggestions" tar
 	   ((:url . "https://github.com/lanceberge/elysium/")
-	    (:commit . "21276b513f009f291594ba072f5e5fbf9c14d2d8")
-	    (:revdesc . "21276b513f00")
+	    (:commit . "049ad3091baf3ce578791187c5e5e4f932c26044")
+	    (:revdesc . "049ad3091baf")
 	    (:authors
 	     ("Lance Bergeron" . "bergeron.lance6@gmail.com"))
 	    (:maintainers
@@ -28915,6 +28924,19 @@
 	      (:maintainers
 	       ("Paul W. Rankin" . "rnkn@rnkn.xyz"))
 	      (:maintainer "Paul W. Rankin" . "rnkn@rnkn.xyz"))])
+ (fretboard .
+	    [(0 1 0 1 -4 20250331 509)
+	     ((emacs
+	       (27 1))
+	      (s
+	       (1 13 0))
+	      (dash
+	       (2 19 0)))
+	     "Visualize guitar scales and chord shapes on a fretboard" tar
+	     ((:url . "https://github.com/skyefreeman/fretboard.el")
+	      (:commit . "78124dc24d942c678ce59037d98056f0e4c048f3")
+	      (:revdesc . "78124dc24d94")
+	      (:keywords "music" "guitar" "tools"))])
  (friendly-remote-shell .
 			[(0 2 5 1 -4 20230916 1426)
 			 ((emacs
@@ -48869,7 +48891,7 @@
  (mo-git-blame .
 	       [(0 1 0 1 -4 20160129 1759)
 		nil "An interactive, iterative 'git blame' mode for Emacs" tar
-		((:url . "https://gitlab.com/mbunkus/mo-git-blame")
+		((:url . "https://codeberg.org/mbunkus/mo-git-blame")
 		 (:commit . "254a675eb794cdbbdef9fa2b4b7bb510b70089c0")
 		 (:revdesc . "254a675eb794")
 		 (:keywords "tools")
