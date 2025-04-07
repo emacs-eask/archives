@@ -315,16 +315,6 @@
 	   (:maintainers
 	    (nil . "atila.neves@gmail.com"))
 	   (:maintainer nil . "atila.neves@gmail.com"))])
- (ac-emacs-eclim .
-		 [(0 1 0 1 -4 20180911 1121)
-		  ((eclim
-		    (0 3))
-		   (auto-complete
-		    (1 5)))
-		  "Auto-complete source for eclim" tar
-		  ((:url . "https://github.com/emacs-eclim/emacs-eclim")
-		   (:commit . "edff7e0e30c87036710d88fb0b7a4644750858e8")
-		   (:revdesc . "edff7e0e30c8"))])
  (ac-emmet .
 	   [(0 1 0 1 -4 20131015 1558)
 	    ((emmet-mode
@@ -9987,18 +9977,6 @@
 		 (:maintainers
 		  ("Jen-Chieh" . "jcs090218@gmail.com"))
 		 (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
- (company-emacs-eclim .
-		      [(0 1 0 1 -4 20180911 1121)
-		       ((eclim
-			 (0 3))
-			(company
-			 (0 7))
-			(cl-lib
-			 (0 5)))
-		       "Eclim company backend" tar
-		       ((:url . "https://github.com/emacs-eclim/emacs-eclim")
-			(:commit . "edff7e0e30c87036710d88fb0b7a4644750858e8")
-			(:revdesc . "edff7e0e30c8"))])
  (company-emoji .
 		[(3 0 0 1 -4 20240331 2127)
 		 ((cl-lib
@@ -13523,7 +13501,7 @@
 	   ("Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com"))
 	  (:maintainer "Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com"))])
  (dap-mode .
-	   [(0 1 0 1 -4 20250228 2153)
+	   [(0 1 0 1 -4 20250406 2127)
 	    ((emacs
 	      (28 1))
 	     (dash
@@ -13546,8 +13524,8 @@
 	      (1 0 0)))
 	    "Debug Adapter Protocol mode" tar
 	    ((:url . "https://github.com/emacs-lsp/dap-mode")
-	     (:commit . "56e92dd86b526c191275cf7813208baad14e0c5d")
-	     (:revdesc . "56e92dd86b52")
+	     (:commit . "68357594a615cb3af833346e869f10b2de260406")
+	     (:revdesc . "68357594a615")
 	     (:keywords "languages" "debug")
 	     (:authors
 	      ("Ivan Yonchovski" . "yyoncho@gmail.com"))
@@ -17776,24 +17754,6 @@
 	     (:maintainers
 	      ("Adam Tillou" . "qaiviq@gmail.com"))
 	     (:maintainer "Adam Tillou" . "qaiviq@gmail.com"))])
- (eclim .
-	[(1 0 1 -4 20181108 1134)
-	 ((dash
-	   (2 11 0))
-	  (json
-	   (1 2))
-	  (popup
-	   (0 5 2))
-	  (s
-	   (1 9 0))
-	  (cl-lib
-	   (0 5))
-	  (yasnippet
-	   (0 10 0)))
-	 "An interface to the Eclipse IDE" tar
-	 ((:url . "https://github.com/emacs-eclim/emacs-eclim")
-	  (:commit . "23f5b294f833ce58516d7b9ae08a7792d70022a1")
-	  (:revdesc . "23f5b294f833"))])
  (eclipse-theme .
 		[(0 1 0 1 -4 20191113 1518)
 		 nil "Theme based on Eclipse circa 2010" tar
@@ -37683,7 +37643,7 @@
 	       ("Robert Weiner" . "rsw@gnu.org"))
 	      (:maintainer "Robert Weiner" . "rsw@gnu.org"))])
  (hyperdrive .
-	     [(0 1 0 1 -4 20250331 427)
+	     [(0 1 0 1 -4 20250406 2225)
 	      ((emacs
 		(28 1))
 	       (map
@@ -37702,8 +37662,8 @@
 		(0 8 0)))
 	      "P2P filesystem" tar
 	      ((:url . "https://git.sr.ht/~ushin/hyperdrive.el")
-	       (:commit . "1784ae20556990d205360463f069aba319c25909")
-	       (:revdesc . "1784ae205569")
+	       (:commit . "42048ef8bc7e568f9f1e1fa82c9f70b06a4d574d")
+	       (:revdesc . "42048ef8bc7e")
 	       (:authors
 		("Joseph Turner" . "joseph@ushin.org"))
 	       (:maintainers
@@ -53904,20 +53864,6 @@
 	      (:commit . "b8ee8cea45c9b34820fcb951f522f13e3736d216")
 	      (:revdesc . "b8ee8cea45c9")
 	      (:keywords "evil" "smartparens"))])
- (on-screen .
-	    [(1 3 2 1 -4 20160302 950)
-	     ((cl-lib
-	       (0)))
-	     "Guide your eyes while scrolling" tar
-	     ((:url . "https://github.com/michael-heerdegen/on-screen.el")
-	      (:commit . "206468aa4de299ad26c2db12b757f5ad7290912f")
-	      (:revdesc . "206468aa4de2")
-	      (:keywords "convenience")
-	      (:authors
-	       ("Michael Heerdegen" . "michael_heerdegen@web.de"))
-	      (:maintainers
-	       ("Michael Heerdegen" . "michael_heerdegen@web.de"))
-	      (:maintainer "Michael Heerdegen" . "michael_heerdegen@web.de"))])
  (one .
       [(1 1 1 -4 20231205 1423)
        ((emacs
