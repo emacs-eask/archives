@@ -6050,6 +6050,15 @@
 	      (:maintainers
 	       ("Ryan Walsh" . "blueridge-data@github"))
 	      (:maintainer "Ryan Walsh" . "blueridge-data@github"))])
+ (bufferfile .
+	     [(0 1 0 1 -4 20250407 1245)
+	      ((emacs
+		(26 1)))
+	      "Rename/Delete/Copy Files and Associated Buffers" tar
+	      ((:url . "https://github.com/jamescherti/bufferfile.el")
+	       (:commit . "a0ef947b51b69cd7cabb9c7623af9d628e481587")
+	       (:revdesc . "a0ef947b51b6")
+	       (:keywords "convenience"))])
  (bufler .
 	 [(0 1 0 1 -4 20250327 2246)
 	  ((emacs
@@ -11138,6 +11147,28 @@
 	  (:maintainers
 	   ("Rami Chowdhury" . "rami.chowdhury@gmail.com"))
 	  (:maintainer "Rami Chowdhury" . "rami.chowdhury@gmail.com"))])
+ (conda-project .
+		[(0 1 0 1 -4 20250408 507)
+		 ((emacs
+		   (28 1))
+		  (s
+		   (1 13 0))
+		  (yaml
+		   (0 1 1))
+		  (pythonic
+		   (0 2 0))
+		  (transient
+		   (0 8 6)))
+		 "Work with conda-project environments" tar
+		 ((:url . "http://github.com/gilbertwong96/conda-project.el")
+		  (:commit . "5c47b586d7a83d33c34431560e2e976d11aad01e")
+		  (:revdesc . "5c47b586d7a8")
+		  (:keywords "python" "conda-project" "tools")
+		  (:authors
+		   ("Gilbert" . "gilbertwong96@icloud.com"))
+		  (:maintainers
+		   ("Gilbert" . "gilbertwong96@icloud.com"))
+		  (:maintainer "Gilbert" . "gilbertwong96@icloud.com"))])
  (config-general-mode .
 		      [(0 3 1 -4 20171024 1840)
 		       nil "Config::General config file mode" tar
@@ -11234,15 +11265,15 @@
 		    ("Jannis Pohlmann" . "contact@jannispohlmann.de"))
 		   (:maintainer "Jannis Pohlmann" . "contact@jannispohlmann.de"))])
  (consult .
-	  [(0 1 0 1 -4 20250402 659)
+	  [(0 1 0 1 -4 20250413 1714)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30)))
 	   "Consulting completing-read" tar
 	   ((:url . "https://github.com/minad/consult")
-	    (:commit . "30a42ac8f3d42f653eda234ee538c1960704f4f2")
-	    (:revdesc . "30a42ac8f3d4")
+	    (:commit . "fd8ec29b799640706f76c16c9446a5a73445b88a")
+	    (:revdesc . "fd8ec29b7996")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainers
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -13970,6 +14001,20 @@
 	  (:maintainers
 	   ("Erik L. Arneson" . "earneson@arnesonium.com"))
 	  (:maintainer "Erik L. Arneson" . "earneson@arnesonium.com"))])
+ (ddp .
+      [(0 1 0 1 -4 20250410 552)
+       ((emacs
+	 (29 1)))
+       "Dynamic Data Processor with cmd tools" tar
+       ((:url . "https://github.com/eki3z/ddp.el")
+	(:commit . "a78219fe401bf9ca5f96ef3fa8fb9a8202d6f37c")
+	(:revdesc . "a78219fe401b")
+	(:keywords "tools")
+	(:authors
+	 ("Eki Zhang" . "liuyinz@gmail.com"))
+	(:maintainers
+	 ("Eki Zhang" . "liuyinz@gmail.com"))
+	(:maintainer "Eki Zhang" . "liuyinz@gmail.com"))])
  (ddskk .
 	[(0 1 0 1 -4 20241227 2223)
 	 ((ccc
@@ -30752,6 +30797,22 @@
 		 (:maintainers
 		  ("Xu Chunyang" . "mail@xuchunyang.me"))
 		 (:maintainer "Xu Chunyang" . "mail@xuchunyang.me"))])
+ (github-topics .
+		[(0 1 0 1 -4 20250409 1520)
+		 ((emacs
+		   (29 4))
+		  (ts
+		   (0 3)))
+		 "Lookup PRs matching a query" tar
+		 ((:url . "https://github.com/agzam/github-topics")
+		  (:commit . "ac51256b0dc562b8bebbd5f94b1a8ba62159b990")
+		  (:revdesc . "ac51256b0dc5")
+		  (:keywords "vc" "matching" "tools")
+		  (:authors
+		   ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
+		  (:maintainers
+		   ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
+		  (:maintainer "Ag Ibragimov" . "agzam.ibragimov@gmail.com"))])
  (gitignore-snippets .
 		     [(1 0 0 1 -4 20201118 1551)
 		      ((emacs
