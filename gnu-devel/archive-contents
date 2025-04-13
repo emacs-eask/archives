@@ -792,7 +792,7 @@
 	       ("Carsten Dominik" . "carsten.dominik@gmail.com"))
 	      (:commit . "f07e221d4d5597c7ccf4b0003c0909a88bdfcc9e"))])
  (consult .
-	  [(2 2 0 20250402 65908)
+	  [(2 2 0 20250413 171422)
 	   ((emacs
 	     (28 1))
 	    (compat
@@ -801,7 +801,7 @@
 	   ((:url . "https://github.com/minad/consult")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-	    (:commit . "30a42ac8f3d42f653eda234ee538c1960704f4f2"))])
+	    (:commit . "fd8ec29b799640706f76c16c9446a5a73445b88a"))])
  (consult-denote .
 		 [(0 2 4 0 20250325 81913)
 		  ((emacs
@@ -1363,6 +1363,17 @@
 	    (:authors
 	     ("Daniel Laurens Nicolai" . "dalanicolai@gmail.com"))
 	    (:commit . "4a179fbacd7bc9efbd6cfcdc8772d42935e6de29"))])
+ (doc-view-follow .
+		  [(0 2 0 20250413 175937)
+		   ((emacs
+		     (29 1)))
+		   "Synchronize windows showing the same document" tar
+		   ((:url . "https://github.com/ultronozm/doc-view-follow.el")
+		    (:keywords "convenience")
+		    (:maintainer "Paul D. Nelson" . "ultrono@gmail.com")
+		    (:authors
+		     ("Paul D. Nelson" . "ultrono@gmail.com"))
+		    (:commit . "55384318cdca17335ce81e03cff105023e36fce3"))])
  (docbook .
 	  [(0 1 0 20221221 75233)
 	   nil "Info-like viewer for DocBook" tar
@@ -2330,16 +2341,16 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:commit . "84a9db01eff1fcc52ad054c5ad3c22316739573f"))])
  (hyperbole .
-	    [(9 0 2 -1 0 20250406 213357)
+	    [(9 0 2 -1 0 20250413 43904)
 	     ((emacs
-	       (27 2)))
+	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:maintainer "Robert Weiner" . "rsw@gnu.org")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
-	      (:commit . "62e9eb4b249db853953aa1e8a4d3f27d1ac37beb"))])
+	      (:commit . "1773ce63928ea44706b5878fedac8551d356867e"))])
  (idlwave .
 	  [(6 5 1 0 20240523 142720)
 	   nil "IDL editing mode for GNU Emacs" tar
@@ -3323,7 +3334,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "254f2412489bbbf62700f9d3d5f18e537841dcc3"))])
  (org .
-      [(9 8 -1 0 20250412 175727)
+      [(9 8 -1 0 20250413 163523)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -3332,7 +3343,7 @@
 	(:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "54c4786d957daf6f9c9fbb914dc70b7e7f5a5b57"))])
+	(:commit . "85ecc551c70d2f5403b9cc6e54db888bc71e92da"))])
  (org-contacts .
 	       [(1 1 0 20250309 165914)
 		((emacs
@@ -3654,18 +3665,18 @@
 	 ("Adam Porter" . "adam@alphapapa.net"))
 	(:commit . "e2d07838e3b64ee5ebe59d4c3c9011adefb7b58e"))])
  (plz-event-source .
-		   [(0 1 3 -1 0 20250228 134816)
+		   [(0 1 4 -1 0 20250413 93107)
 		    ((emacs
 		      (26 3))
 		     (plz-media-type
-		      (0 2 3)))
+		      (0 2 4)))
 		    "Plz Event Source" tar
 		    ((:url . "https://github.com/r0man/plz-event-source")
 		     (:keywords "comm" "network" "http")
 		     (:maintainer "r0man" . "roman@burningswell.com")
 		     (:authors
 		      ("r0man" . "roman@burningswell.com"))
-		     (:commit . "79e726da2e697f99c8f1196e4badabac6ae3176b"))])
+		     (:commit . "de89214ce14e2b82cbfdc30e1adcf3e77b1f250a"))])
  (plz-media-type .
 		 [(0 2 5 -1 0 20250412 100044)
 		  ((emacs
