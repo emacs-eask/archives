@@ -317,16 +317,16 @@
 		   ("Toby Cubitt" . "toby-predictive@dr-qubit.org"))
 		  (:commit . "0807a75d2606462ef636b737e8f3873f98141a82"))])
  (autocrypt .
-	    [(0 4 2 0 20240410 70023)
+	    [(0 4 2 0 20250415 115030)
 	     ((emacs
 	       (24 3)))
 	     "Autocrypt implementation" tar
-	     ((:url . "https://git.sr.ht/~pkal/autocrypt")
+	     ((:url . "https://codeberg.org/pkal/autocrypt.el")
 	      (:keywords "comm")
-	      (:maintainer "Philip Kaludercic" . "~pkal/public-inbox@lists.sr.ht")
+	      (:maintainer "Philip Kaludercic" . "philipk@posteo.net")
 	      (:authors
 	       ("Philip Kaludercic" . "philipk@posteo.net"))
-	      (:commit . "dc0223f11daf526621fda206b38bf06c29759c94"))])
+	      (:commit . "08c1e2c9c2cfa00b16a05968cb553f19ec680330"))])
  (autorevert-tail-truncate .
 			   [(1 0 1 0 20250209 105211)
 			    ((emacs
@@ -803,7 +803,7 @@
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	    (:commit . "fd8ec29b799640706f76c16c9446a5a73445b88a"))])
  (consult-denote .
-		 [(0 2 4 0 20250325 81913)
+		 [(0 3 0 0 20250415 141824)
 		  ((emacs
 		    (28 1))
 		   (denote
@@ -815,7 +815,7 @@
 		   (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 		   (:authors
 		    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		   (:commit . "50c4f7be0ac7e6076fc9d93bfc1a1b9173f789b0"))])
+		   (:commit . "62a1b64ebebb927bc204b87e61c4b1a1c576954e"))])
  (consult-hoogle .
 		 [(0 5 0 0 20250219 74017)
 		  ((emacs
@@ -854,7 +854,7 @@
 		      ("Jackson Ray Hamilton" . "jackson@jacksonrayhamilton.com"))
 		     (:commit . "75a8c811874c231b49729e76c696824463e54402"))])
  (corfu .
-	[(2 0 0 20250412 181933)
+	[(2 0 0 20250415 61008)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -865,7 +865,7 @@
 	  (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	  (:commit . "62709792cb17d679ad0f10d1246fe30f401cffac"))])
+	  (:commit . "5834e3ed652068209a653ea067f91d3f537d0be5"))])
  (coterm .
 	 [(1 6 0 20221015 160420)
 	  ((emacs
@@ -1068,7 +1068,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:commit . "5a0cd5ccb650d7bba1c1ea02cf67b71d7cfa6e9a"))])
  (denote .
-	 [(3 1 0 0 20250414 165616)
+	 [(4 0 0 0 20250415 143211)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -1076,9 +1076,9 @@
 	   (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "089cd57d400675067c1c585877343a563506d151"))])
+	   (:commit . "c98c74ec74fb6f0c894c5bf730d092d716e55b84"))])
  (denote-journal .
-		 [(0 0 0 1 0 20250404 94238)
+		 [(0 1 0 0 20250415 141342)
 		  ((emacs
 		    (28 1))
 		   (denote
@@ -1088,9 +1088,9 @@
 		   (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 		   (:authors
 		    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		   (:commit . "1919bfe7abe37b2585886bafb6e9ae7ad7a0dee5"))])
+		   (:commit . "47fd533e381bd15a7308939271800b2ed87ecc5d"))])
  (denote-markdown .
-		  [(0 0 0 1 0 20250322 71429)
+		  [(0 1 0 0 20250415 141716)
 		   ((emacs
 		     (28 1))
 		    (denote
@@ -1100,7 +1100,7 @@
 		    (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 		    (:authors
 		     ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		    (:commit . "85438bebbde45e9747f12347375159502baa2e12"))])
+		    (:commit . "2f62d7975d943ba2eef21b031bf9207d128db8a9"))])
  (denote-menu .
 	      [(1 4 0 0 20250317 132443)
 	       ((emacs
@@ -1114,7 +1114,7 @@
 		 ("Mohamed Suliman" . "sulimanm@tcd.ie"))
 		(:commit . "13ffe8a5c180b826ec55570a981931f56d8e2323"))])
  (denote-org .
-	     [(0 0 0 1 0 20250322 71330)
+	     [(0 1 0 0 20250415 141604)
 	      ((emacs
 		(28 1))
 	       (denote
@@ -1124,7 +1124,7 @@
 	       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	       (:authors
 		("Protesilaos Stavrou" . "info@protesilaos.com"))
-	       (:commit . "2139f833dd3f0705bfe57afbb8df8e3859d07e23"))])
+	       (:commit . "7c8d53bf8e4ee073b1654ad0221be01e7801d4c6"))])
  (denote-search .
 		[(1 0 3 0 20250330 114925)
 		 ((emacs
@@ -1139,7 +1139,7 @@
 		   ("Lucas Quintana" . "lmq10@protonmail.com"))
 		  (:commit . "431def4d56b0ecd920099c64b567533f9d481ca5"))])
  (denote-sequence .
-		  [(0 0 0 1 0 20250401 84519)
+		  [(0 1 0 0 20250415 141354)
 		   ((emacs
 		     (28 1))
 		    (denote
@@ -1149,9 +1149,9 @@
 		    (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 		    (:authors
 		     ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		    (:commit . "c41c3dea4d02811ab285abd139451b5850b4320c"))])
+		    (:commit . "fd938da75573cc8b70e77ea00248c0c446613d43"))])
  (denote-silo .
-	      [(0 0 0 1 0 20250322 71039)
+	      [(0 1 0 0 20250415 141146)
 	       ((emacs
 		 (28 1))
 		(denote
@@ -1161,7 +1161,7 @@
 		(:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 		(:authors
 		 ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		(:commit . "ec75ba34e004f4f59b8399583437378c1e8628a7"))])
+		(:commit . "cd85764fcceb21fc11a163da0d36bf4b7f166f53"))])
  (detached .
 	   [(0 10 1 0 20221129 143049)
 	    ((emacs
@@ -1364,7 +1364,7 @@
 	     ("Daniel Laurens Nicolai" . "dalanicolai@gmail.com"))
 	    (:commit . "4a179fbacd7bc9efbd6cfcdc8772d42935e6de29"))])
  (doc-view-follow .
-		  [(0 3 0 20250414 142827)
+		  [(0 3 1 0 20250415 110913)
 		   ((emacs
 		     (29 1)))
 		   "Synchronize windows showing the same document" tar
@@ -1373,7 +1373,7 @@
 		    (:maintainer "Paul D. Nelson" . "ultrono@gmail.com")
 		    (:authors
 		     ("Paul D. Nelson" . "ultrono@gmail.com"))
-		    (:commit . "e9d80f5db7549ebddb311f294c6f7a826cc02c9a"))])
+		    (:commit . "78f18efb3d9769d5df281d71c3ddeb4a956b7c0d"))])
  (docbook .
 	  [(0 1 0 20221221 75233)
 	   nil "Info-like viewer for DocBook" tar
@@ -1967,7 +1967,7 @@
 		       ("Manuel Uberti" . "manuel.uberti@inventati.org"))
 		      (:commit . "d93ee5b1f0c9a20fe04f263c0988769c439b3c13"))])
  (fontaine .
-	   [(3 0 0 0 20250220 111012)
+	   [(3 0 1 0 20250415 152114)
 	    ((emacs
 	      (29 1)))
 	    "Set font configurations using presets" tar
@@ -1975,7 +1975,7 @@
 	     (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	     (:authors
 	      ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	     (:commit . "fe78a2be64b09f55748fa0c6e62d59e787b761b4"))])
+	     (:commit . "8b1ddcaa47a495564fb0b24a9e043de46000a029"))])
  (frame-tabs .
 	     [(1 1 0 20221221 75627)
 	      nil "show buffer tabs in side window" tar
@@ -2341,7 +2341,7 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:commit . "84a9db01eff1fcc52ad054c5ad3c22316739573f"))])
  (hyperbole .
-	    [(9 0 2 -1 0 20250413 162815)
+	    [(9 0 2 -1 0 20250415 135749)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
@@ -2350,7 +2350,7 @@
 	      (:maintainer "Robert Weiner" . "rsw@gnu.org")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
-	      (:commit . "20468a62698bf8903fef67d0b1d3a05603874175"))])
+	      (:commit . "29ae2e15a8da66c296d6cd2fcf121d27f5b0073e"))])
  (idlwave .
 	  [(6 5 1 0 20240523 142720)
 	   nil "IDL editing mode for GNU Emacs" tar
@@ -3028,7 +3028,7 @@
 	    (:url . "https://elpa.gnu.org/packages/minimap.html")
 	    (:commit . "b295cab07c1932c11dd00f23ba29c1ff0de486ab"))])
  (minuet .
-	 [(0 5 4 0 20250413 234449)
+	 [(0 5 4 0 20250414 165300)
 	  ((emacs
 	    (29))
 	   (plz
@@ -3040,7 +3040,7 @@
 	   (:maintainer "Milan Glacier" . "dev@milanglacier.com")
 	   (:authors
 	    ("Milan Glacier" . "dev@milanglacier.com"))
-	   (:commit . "8e4075713885f7ec7253936e3e74c7860ce7f77f"))])
+	   (:commit . "64bf340be09fd666a501869eefb3f523a12fc5f6"))])
  (mmm-mode .
 	   [(0 5 11 0 20240222 42825)
 	    ((emacs
@@ -3055,7 +3055,7 @@
 	      ("Michael Abraham Shulman" . "viritrilbia@gmail.com"))
 	     (:commit . "b1f5c7dbdc405e6e10d9ddd99a43a6b2ad61b176"))])
  (modus-themes .
-	       [(4 6 0 0 20250412 151504)
+	       [(4 6 0 0 20250415 51937)
 		((emacs
 		  (28 1)))
 		"Elegant, highly legible and customizable themes" tar
@@ -3064,7 +3064,7 @@
 		 (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		 (:commit . "cfe8702f56f9c06254d9a8f8996766ffa2c6f609"))])
+		 (:commit . "2569f4a596edb10351c623a70c17eb8f168a74a7"))])
  (mpdired .
 	  [(3 0 20250314 151545)
 	   ((emacs
@@ -3401,7 +3401,7 @@
 		  ("Hanno Perrey" . "hanno@hoowl.se"))
 		 (:commit . "68aef8d4b4c7a562bfc664639568706ba625d0a1"))])
  (org-modern .
-	     [(1 7 0 20250402 171258)
+	     [(1 7 0 20250415 150645)
 	      ((emacs
 		(28 1))
 	       (org
@@ -3411,10 +3411,12 @@
 	      "Modern looks for Org" tar
 	      ((:url . "https://github.com/minad/org-modern")
 	       (:keywords "outlines" "hypermedia" "text")
-	       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
+	       (:maintainer
+		("Daniel Mendler" . "mail@daniel-mendler.de")
+		("J.D. Smith" . "jdtsmith+elpa@gmail.com"))
 	       (:authors
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
-	       (:commit . "3cc432dc99f262579d1cc464e7d6d5b9fe77083a"))])
+	       (:commit . "40f32b5b940b49ed49bf1ab6bb6971af6ea0764f"))])
  (org-notify .
 	     [(0 1 1 0 20231016 93952)
 	      ((emacs
@@ -5184,7 +5186,7 @@
 		  ("Wilson Snyder" . "wsnyder@wsnyder.org"))
 		 (:commit . "64d314e0f6495de6fcf4f4c51e710b597a237e4f"))])
  (vertico .
-	  [(2 0 0 20250406 175408)
+	  [(2 0 0 20250415 60938)
 	   ((emacs
 	     (28 1))
 	    (compat
@@ -5195,7 +5197,7 @@
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	    (:commit . "edee5c68972b9270ac4f23b2c34aa43fe4403d52"))])
+	    (:commit . "000a415630c4be0fb6be5c5a8fc31b6caaa7a76e"))])
  (vertico-posframe .
 		   [(0 8 0 0 20250211 11642)
 		    ((emacs
