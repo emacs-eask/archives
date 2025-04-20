@@ -3760,6 +3760,20 @@
 		   (:maintainers
 		    ("Adriano Martinez" . "uberkael@gmail.com"))
 		   (:maintainer "Adriano Martinez" . "uberkael@gmail.com"))])
+ (aws-athena-babel .
+		   [(0 1 0 1 -4 20250420 1632)
+		    ((emacs
+		      (26 1)))
+		    "Run AWS Athena queries from Org Babel" tar
+		    ((:url . "https://github.com/will-abb/aws-athena-babel")
+		     (:commit . "fce1b2d49e0862782405168f37a2dc392f6f8928")
+		     (:revdesc . "fce1b2d49e08")
+		     (:keywords "aws" "athena" "org" "babel" "sql" "tools")
+		     (:authors
+		      ("Williams Bosch-Bello" . "williamsbosch@gmail.com"))
+		     (:maintainers
+		      ("Williams Bosch-Bello" . "williamsbosch@gmail.com"))
+		     (:maintainer "Williams Bosch-Bello" . "williamsbosch@gmail.com"))])
  (aws-ec2 .
 	  [(0 0 3 1 -4 20221011 538)
 	   ((emacs
@@ -4027,6 +4041,22 @@
 		     (:maintainers
 		      ("wouter bolsterlee" . "wouter@bolsterl.ee"))
 		     (:maintainer "wouter bolsterlee" . "wouter@bolsterl.ee"))])
+ (bank-buddy .
+	     [(0 1 0 1 -4 20250414 743)
+	      ((emacs
+		(26 1))
+	       (async
+		(1 9 4)))
+	      "Financial analysis and reporting" tar
+	      ((:url . "https://github.com/captainflasmr/bank-buddy")
+	       (:commit . "8a3842b2a01403e599e143423d3d7fce367c6b6c")
+	       (:revdesc . "8a3842b2a014")
+	       (:keywords "matching")
+	       (:authors
+		("James Dyer" . "captainflasmr@gmail.com"))
+	       (:maintainers
+		("James Dyer" . "captainflasmr@gmail.com"))
+	       (:maintainer "James Dyer" . "captainflasmr@gmail.com"))])
  (banner-comment .
 		 [(0 1 0 1 -4 20250131 300)
 		  ((emacs
@@ -14522,6 +14552,21 @@
 		    (:maintainers
 		     ("Samuel W. Flint" . "me@samuelwflint.com"))
 		    (:maintainer "Samuel W. Flint" . "me@samuelwflint.com"))])
+ (departure-times-norway .
+			 [(0 1 0 1 -4 20250419 2145)
+			  ((emacs
+			    (27 1))
+			   (persist
+			    (0 6 1)))
+			  "Description" tar
+			  ((:url . "https://github.com/hsolg/emacs-departure-times-norway")
+			   (:commit . "aea0214e291ba4f3d21ee43265a4981756c3e9e2")
+			   (:revdesc . "aea0214e291b")
+			   (:authors
+			    ("Henrik Solgaard" . "henrik.solgaard@gmail.com"))
+			   (:maintainers
+			    ("Henrik Solgaard" . "henrik.solgaard@gmail.com"))
+			   (:maintainer "Henrik Solgaard" . "henrik.solgaard@gmail.com"))])
  (describe-hash .
 		[(0 1 0 1 -4 20200718 1556)
 		 nil "Help function for examining a hash map" tar
