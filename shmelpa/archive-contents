@@ -39145,6 +39145,21 @@
 	   (:keywords "help" "docs" "convenience")
 	   (:authors
 	    ("H. Dieter Wilhelm" . "dieter@duenenhof-wilhelm.de")))])
+ (inform-mode .
+	      [(0 1 0 1 -4 20250415 1252)
+	       ((emacs
+		 (29 1)))
+	       "Major mode for Inform 6 interactive fiction code" tar
+	       ((:url . "https://rrthomas.github.io/inform-mode")
+		(:commit . "f24b44dfd623d47a3a83b43bd969dad33435cd09")
+		(:revdesc . "f24b44dfd623")
+		(:keywords "languages")
+		(:authors
+		 ("Rupert Lane" . "rupert@rupert-lane.org")
+		 ("Gareth Rees" . "Gareth.Rees@cl.cam.ac.uk"))
+		(:maintainers
+		 ("Reuben Thomas" . "rrt@sc3d.org"))
+		(:maintainer "Reuben Thomas" . "rrt@sc3d.org"))])
  (inform7 .
 	  [(0 1 1 1 -4 20200430 1539)
 	   ((emacs
@@ -58328,15 +58343,15 @@
 		      ("Xu Chunyang" . "mail@xuchunyang.me"))
 		     (:maintainer "Xu Chunyang" . "mail@xuchunyang.me"))])
  (otpp .
-       [(0 1 0 1 -4 20250414 47)
+       [(0 1 0 1 -4 20250420 1309)
 	((emacs
 	  (28 1))
 	 (compat
 	  (29 1)))
 	"One tab per project, with unique names" tar
 	((:url . "https://github.com/abougouffa/one-tab-per-project")
-	 (:commit . "5a4f043cdeb057b52910a4a9de776ba22a567e63")
-	 (:revdesc . "5a4f043cdeb0")
+	 (:commit . "83bf57278abb5055cecf9335e84eaf7773c752c1")
+	 (:revdesc . "83bf57278abb")
 	 (:keywords "convenience")
 	 (:authors
 	  ("Abdelhak Bougouffa (rot13" . "\"nobhtbhssn@srqbencebwrpg.bet\")"))
@@ -60544,6 +60559,15 @@
 		  (:maintainers
 		   ("Bram Schoenmakers" . "me@bramschoenmakers.nl"))
 		  (:maintainer "Bram Schoenmakers" . "me@bramschoenmakers.nl"))])
+ (persist-text-scale .
+		     [(0 1 0 1 -4 20250420 1613)
+		      ((emacs
+			(26 1)))
+		      "Persist and restore text scale" tar
+		      ((:url . "https://github.com/jamescherti/persist-text-scale.el")
+		       (:commit . "ed628274e79f42a320779ba9fa6422bbb15db01b")
+		       (:revdesc . "ed628274e79f")
+		       (:keywords "convenience"))])
  (persistent-overlays .
 		      [(0 9 1 -4 20161128 700)
 		       nil "Minor mode to store selected overlays to be loaded later" tar
@@ -76109,6 +76133,19 @@
 		(:commit . "c762f08d039c8103f71c747e00304f209c2254f4")
 		(:revdesc . "c762f08d039c")
 		(:keywords "convenience" "mode-line"))])
+ (total-recall .
+	       [(0 1 0 1 -4 20250419 655)
+		((emacs
+		  (30 1)))
+		"Spaced repetition system" tar
+		((:url . "https://github.com/phf-1/total-recall")
+		 (:commit . "b71c53bb16fdb31db1fcdece46c937d1bcc89e67")
+		 (:revdesc . "b71c53bb16fd")
+		 (:authors
+		  ("Pierre-Henry FRÖHRING" . "contact@phfrohring.com"))
+		 (:maintainers
+		  ("Pierre-Henry FRÖHRING" . "contact@phfrohring.com"))
+		 (:maintainer "Pierre-Henry FRÖHRING" . "contact@phfrohring.com"))])
  (totd .
        [(0 1 0 1 -4 20150519 1440)
 	((s
