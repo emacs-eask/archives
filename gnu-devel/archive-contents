@@ -1,6 +1,6 @@
 (1
  (a68-mode .
-	   [(1 0 0 20250417 231424)
+	   [(1 0 0 20250421 32325)
 	    ((emacs
 	      (24 3)))
 	    "Major mode for editing Algol 68 code" tar
@@ -9,7 +9,7 @@
 	     (:maintainer "Jose E. Marchesi" . "jemarch@gnu.org")
 	     (:authors
 	      ("Omar Polo" . "op@omarpolo.com"))
-	     (:commit . "757e9ec2af857dc367ecb60e04390b1f83bafd08"))])
+	     (:commit . "39664b8f3fb64f7398e7c0636d0fc9898201e928"))])
  (ace-window .
 	     [(0 10 0 0 20220911 35841)
 	      ((avy
@@ -676,7 +676,7 @@
 		("Augusto Stoffel" . "arstoffel@gmail.com"))
 	       (:commit . "caffb420be106cebbdfe4474ed0507a601603f83"))])
  (colorful-mode .
-		[(1 2 3 0 20250410 221546)
+		[(1 2 3 0 20250420 221411)
 		 ((emacs
 		   (28 1))
 		  (compat
@@ -689,7 +689,7 @@
 		   ("Elias G. Perez" . "eg642616@gmail.com"))
 		  (:authors
 		   ("Elias G. Perez" . "eg642616@gmail.com"))
-		  (:commit . "6bfed16947334e8f27069a3606aa0885e4026c92"))])
+		  (:commit . "43be868a7f7ab08d15649e56e03ad2e25d0a8756"))])
  (comint-mime .
 	      [(0 7 0 20241116 123039)
 	       ((emacs
@@ -715,14 +715,14 @@
 			("Clément Pit-Claudel" . "clement.pitclaudel@live.com"))
 		       (:commit . "3b2233120d33943b8af65fec6257f0c16ad3c6fd"))])
  (company .
-	  [(1 0 2 0 20250228 25856)
+	  [(1 0 2 0 20250421 15533)
 	   ((emacs
 	     (26 1)))
 	   "Modular text completion framework" tar
 	   ((:url . "http://company-mode.github.io/")
 	    (:keywords "abbrev" "convenience" "matching")
 	    (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
-	    (:commit . "8d599ebc8a9aca27c0a6157aeb31c5b7f05ed0a3"))])
+	    (:commit . "eef2f451c9817c6816cc7525b6f543d7b87092e5"))])
  (company-ebdb .
 	       [(1 1 0 20221221 74915)
 		((company
@@ -1501,7 +1501,7 @@
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	      (:commit . "2b79ded6ac5f1805f7e4c10f64d58c2193152a41"))])
  (eglot .
-	[(1 18 0 20250416 233138)
+	[(1 18 0 20250420 222033)
 	 ((emacs
 	   (26 3))
 	  (eldoc
@@ -1509,7 +1509,7 @@
 	  (external-completion
 	   (0 1))
 	  (flymake
-	   (1 2 1))
+	   (1 4 0))
 	  (jsonrpc
 	   (1 0 24))
 	  (project
@@ -1524,7 +1524,7 @@
 	  (:maintainer "João Távora" . "joaotavora@gmail.com")
 	  (:authors
 	   ("João Távora" . "joaotavora@gmail.com"))
-	  (:commit . "1e4ce136036e1ff43fcc436114e66ce48f33ea01"))])
+	  (:commit . "23583bb3a140883edda4ca8958f0447da75e0eea"))])
  (el-job .
 	 [(2 4 4 0 20250412 92610)
 	  ((emacs
@@ -1920,7 +1920,7 @@
 	    (:url . "https://elpa.gnu.org/packages/flylisp.html")
 	    (:commit . "7295025f4c0571013142dfb9cc1a893fff79904b"))])
  (flymake .
-	  [(1 3 7 0 20250412 111019)
+	  [(1 4 0 0 20250420 222033)
 	   ((emacs
 	     (26 1))
 	    (eldoc
@@ -1933,7 +1933,7 @@
 	    (:authors
 	     ("Pavel Kobyakov" . "pk_at_work@yahoo.com"))
 	    (:url . "https://elpa.gnu.org/packages/flymake.html")
-	    (:commit . "3169aeb421d1f6b2851d0fd8cedb3594071b2cef"))])
+	    (:commit . "23583bb3a140883edda4ca8958f0447da75e0eea"))])
  (flymake-clippy .
 		 [(1 1 0 0 20250323 141048)
 		  ((emacs
@@ -2344,7 +2344,7 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:commit . "84a9db01eff1fcc52ad054c5ad3c22316739573f"))])
  (hyperbole .
-	    [(9 0 2 -1 0 20250420 13023)
+	    [(9 0 2 -1 0 20250421 65046)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
@@ -2353,7 +2353,7 @@
 	      (:maintainer "Robert Weiner" . "rsw@gnu.org")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
-	      (:commit . "42dcd71f59ee199182a66c4429825120772e3b78"))])
+	      (:commit . "6fb121ec7367bea98cc4fe7bc311433a27b5754e"))])
  (idlwave .
 	  [(6 5 1 0 20240523 142720)
 	   nil "IDL editing mode for GNU Emacs" tar
@@ -3337,7 +3337,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "254f2412489bbbf62700f9d3d5f18e537841dcc3"))])
  (org .
-      [(9 8 -1 0 20250420 173631)
+      [(9 8 -1 0 20250421 72809)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -3346,7 +3346,7 @@
 	(:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "f4df8b06d2a744bc1f2e1f5eaa024ea5784e63f1"))])
+	(:commit . "9e9cc1e300406b7759f2d7c1ea103069ae0dab0b"))])
  (org-contacts .
 	       [(1 1 0 20250309 165914)
 		((emacs
