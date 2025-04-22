@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "archives"
          "0.0.0"
          "Magic to prevent refreshing package archives failure")
