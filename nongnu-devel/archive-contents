@@ -83,14 +83,14 @@
 	  ("Syohei YOSHIDA" . "syohex@gmail.com"))
 	 (:commit . "21cb5ab2295614372cb9f1a21429381e49a6255f"))])
  (apache-mode .
-	      [(2 2 0 0 20240327 1751)
+	      [(2 2 0 0 20250422 172352)
 	       nil "Major mode for editing Apache httpd configuration files" tar
 	       ((:url . "https://github.com/emacs-php/apache-mode")
 		(:keywords "languages" "faces")
 		(:maintainer "USAMI Kenta" . "tadsan@zonu.me")
 		(:authors
 		 ("Karl Chen" . "quarl@nospam.quarl.org"))
-		(:commit . "00595893920ce755014d793839086bf15ac90075"))])
+		(:commit . "3f363996ecce8f3788a7e555c385135e99c56d78"))])
  (apropospriate-theme .
 		      [(0 2 0 0 20241215 141144)
 		       nil "A light & dark theme set for Emacs." tar
@@ -411,14 +411,14 @@
 	   (:url . "https://elpa.nongnu.org/nongnu/d-mode.html")
 	   (:commit . "a4f9026d9e7fadfcfb138189c18c639b57467ce5"))])
  (dart-mode .
-	    [(1 0 7 0 20250224 120240)
+	    [(1 0 7 0 20250422 170214)
 	     ((emacs
 	       (27 1)))
 	     "Major mode for editing Dart files" tar
 	     ((:url . "https://github.com/emacsorphanage/dart-mode")
 	      (:keywords "languages")
 	      (:maintainer "Jen-Chieh Shen" . "jcs090218@gmail.com")
-	      (:commit . "6229941ec5df40690142301cf7f3dd2e96ee7b91"))])
+	      (:commit . "f82ff052309125b93d19bdd3f619266f908f43ce"))])
  (datetime .
 	   [(0 10 3 -4 0 20250203 204701)
 	    ((emacs
@@ -1200,7 +1200,7 @@
 	      ("David Andersson" . "l.david.anderssonsverige.nu"))
 	     (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel .
-	[(0 9 8 0 20250422 104600)
+	[(0 9 8 0 20250422 164933)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -1213,7 +1213,7 @@
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-	  (:commit . "7f9b063594bd00ace43cdc13ddd567129534b3b0"))])
+	  (:commit . "da01adfff462f8302ffb6e5076b84d31d6e0ac83"))])
  (graphql-mode .
 	       [(1 0 0 0 20241206 72535)
 		((emacs
@@ -2091,14 +2091,14 @@
 	       ("Andreas Politz" . "mail@andreas-politz.de"))
 	      (:commit . "30b50544e55b8dbf683c2d932d5c33ac73323a16"))])
  (php-mode .
-	   [(1 26 1 0 20250331 173641)
+	   [(1 26 1 0 20250422 172013)
 	    ((emacs
 	      (27 1)))
 	    "Major mode for editing PHP code" tar
 	    ((:url . "https://github.com/emacs-php/php-mode")
 	     (:keywords "languages" "php")
 	     (:maintainer "USAMI Kenta" . "tadsan@zonu.me")
-	     (:commit . "df830a1894ad9e17f4cd9803c0353942179bfdcb"))])
+	     (:commit . "462b62248f7b3c6550ceea1b44760ddd951ab7ab"))])
  (popon .
 	[(0 13 0 20230703 82713)
 	 ((emacs
@@ -2111,7 +2111,7 @@
 	   ("Akib Azmain Turja" . "akib@disroot.org"))
 	  (:commit . "bf8174cb7e6e8fe0fe91afe6b01b6562c4dc39da"))])
  (popup .
-	[(0 5 9 0 20250224 15605)
+	[(0 5 9 0 20250422 161227)
 	 ((emacs
 	   (24 3)))
 	 "Visual Popup User Interface" tar
@@ -2120,7 +2120,7 @@
 	  (:maintainer "Jen-Chieh" . "jcs090218@gmail.com")
 	  (:authors
 	   ("Tomohiro Matsuyama" . "m2ym.pub@gmail.com"))
-	  (:commit . "47ce4bca22b66bd3f49e40af8a359e8cc28146de"))])
+	  (:commit . "24dd22186403a6566c26ce4996cdb1eedb1cc5cd"))])
  (projectile .
 	     [(2 9 1 0 20250402 71553)
 	      ((emacs
@@ -2262,7 +2262,7 @@
 	    (:keywords "project" "convenience")
 	    (:commit . "f5fd18aa810c3d3269188cbbd731ddc09006f8f5"))])
  (rust-mode .
-	    [(1 0 6 0 20250225 10231)
+	    [(1 0 6 0 20250423 1515)
 	     ((emacs
 	       (25 1)))
 	     "A major-mode for editing Rust source code" tar
@@ -2271,7 +2271,7 @@
 	      (:maintainer "Mozilla" . "rust-mode@noreply.github.com")
 	      (:authors
 	       ("Mozilla" . "rust-mode@noreply.github.com"))
-	      (:commit . "efd830806c8519bb7f614504eac6bdfdbbac1247"))])
+	      (:commit . "25d91cff281909e9b7cb84e31211c4e7b0480f94"))])
  (sass-mode .
 	    [(3 0 16 0 20190502 5315)
 	     ((haml-mode
@@ -2591,7 +2591,7 @@
 	("Marty Hiatt" . "mousebot@disroot.org"))
        (:commit . "cce2dfe0ec2b5c070cb13a7bdf95695eeb6e3caf"))])
  (treesit-fold .
-	       [(0 2 1 0 20250305 214142)
+	       [(0 2 1 0 20250422 155540)
 		((emacs
 		  (29 1)))
 		"Code folding using treesit" tar
@@ -2601,7 +2601,7 @@
 		 (:authors
 		  ("Junyi Hou" . "junyi.yi.hou@gmail.com")
 		  ("Jen-Chieh" . "jcs090218@gmail.com"))
-		 (:commit . "54d6b693780b64d4a0d491e25463d7059fcef483"))])
+		 (:commit . "6628b7cce585328e05d810b5505e4fdb9306f24f"))])
  (treeview .
 	   [(1 3 1 0 20241101 11503)
 	    ((emacs
