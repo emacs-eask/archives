@@ -1273,17 +1273,19 @@
 	   ("Kang Tu" . "tninja@gmail.com"))
 	  (:maintainer "Kang Tu" . "tninja@gmail.com"))])
  (aidermacs .
-	    [(0 1 0 1 -4 20250426 506)
+	    [(0 1 0 1 -4 20250426 1536)
 	     ((emacs
 	       (26 1))
 	      (transient
 	       (0 3 0))
 	      (compat
-	       (30 0 2 0)))
+	       (30 0 2 0))
+	      (markdown-mode
+	       (2 7)))
 	     "AI pair programming with Aider" tar
 	     ((:url . "https://github.com/MatthewZMD/aidermacs")
-	      (:commit . "325d9e699168fe2ec210ffca79d74e3eab0eee07")
-	      (:revdesc . "325d9e699168")
+	      (:commit . "afc1937f280246c06537d1fec5d6c6b07abbba57")
+	      (:revdesc . "afc1937f2802")
 	      (:keywords "ai" "emacs" "llm" "aider" "ai-pair-programming" "tools")
 	      (:authors
 	       ("Mingde Zeng" . "matthewzmd@posteo.net"))
@@ -17706,13 +17708,13 @@
 		 ("Chunyang Xu" . "xuchunyang56@gmail.com"))
 		(:maintainer "Chunyang Xu" . "xuchunyang56@gmail.com"))])
  (easysession .
-	      [(0 1 0 1 -4 20250411 1608)
+	      [(0 1 0 1 -4 20250426 1725)
 	       ((emacs
 		 (25 1)))
 	       "Persist and restore your sessions (desktop.el alternative)" tar
 	       ((:url . "https://github.com/jamescherti/easysession.el")
-		(:commit . "51312a12aa45be1fa779b4b921aec8e62dcfec97")
-		(:revdesc . "51312a12aa45")
+		(:commit . "2d478bf264b8f4e8bae9222e67fc69553bee7cc7")
+		(:revdesc . "2d478bf264b8")
 		(:keywords "convenience"))])
  (ebdb-mua-sidecar .
 		   [(0 1 0 1 -4 20240428 1852)
@@ -22582,7 +22584,7 @@
 			  ("Bryan Allred" . "bryan@revolvingcow.com"))
 			 (:maintainer "Bryan Allred" . "bryan@revolvingcow.com"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20250331 1556)
+		  [(0 4 1 1 -4 20250426 1557)
 		   ((emacs
 		     (26 3))
 		    (evil
@@ -22591,8 +22593,8 @@
 		     (1 0)))
 		   "A set of keybindings for Evil mode" tar
 		   ((:url . "https://github.com/emacs-evil/evil-collection")
-		    (:commit . "3ac7bb303e86c5753aad70571f36aa81e2a72869")
-		    (:revdesc . "3ac7bb303e86")
+		    (:commit . "fca81ddb2ca1ac3838aa7e8969b2313712807a45")
+		    (:revdesc . "fca81ddb2ca1")
 		    (:keywords "evil" "tools")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
