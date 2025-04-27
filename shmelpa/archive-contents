@@ -37733,13 +37733,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20250427 703)
+	    [(0 1 0 1 -4 20250427 1624)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "430afa38fd7d14c19700b4bc788a227984bea80c")
-	      (:revdesc . "430afa38fd7d")
+	      (:commit . "1b449389ab9099bc2cde75f2071e851c1c97bd0b")
+	      (:revdesc . "1b449389ab90")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -41171,6 +41171,19 @@
 			      (:maintainers
 			       ("Campbell Barton" . "ideasman42@gmail.com"))
 			      (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
+ (jjdescription .
+		[(0 1 0 1 -4 20250423 2333)
+		 ((emacs
+		   (25 1)))
+		 "Major mode for editing Jujutsu description files" tar
+		 ((:url . "https://github.com/necaris/jjdescription.el")
+		  (:commit . "ef3c337cb82e58b3a9a9b0394e84c883a35ab795")
+		  (:revdesc . "ef3c337cb82e")
+		  (:authors
+		   ("Rami Chowdhury" . "rami.chowdhury@gmail.com"))
+		  (:maintainers
+		   ("Rami Chowdhury" . "rami.chowdhury@gmail.com"))
+		  (:maintainer "Rami Chowdhury" . "rami.chowdhury@gmail.com"))])
  (jmespath .
 	   [(0 0 1 1 -4 20240115 1310)
 	    ((emacs
@@ -52587,6 +52600,17 @@
 	      (:maintainers
 	       ("Peter Badida" . "keyweeusr@gmail.com"))
 	      (:maintainer "Peter Badida" . "keyweeusr@gmail.com"))])
+ (ob-bigquery .
+	      [(0 1 0 1 -4 20250425 651)
+	       ((emacs
+		 (29 1))
+		(org
+		 (9 7)))
+	       "Babel Functions for BigQuery Databases" tar
+	       ((:url . "https://www.github.com/lhernanz/ob-bigquery")
+		(:commit . "64d1c6f7fb7f04a8d23a38e648d2558513e98cf6")
+		(:revdesc . "64d1c6f7fb7f")
+		(:keywords "lisp"))])
  (ob-bitfield .
 	      [(0 1 1 -4 20220401 600)
 	       ((emacs
@@ -55412,6 +55436,20 @@
 		    (:commit . "d500f3a1b269b26097dd2f4cd414c3cb7c68ca23")
 		    (:revdesc . "d500f3a1b269")
 		    (:keywords "calendar" "org-mode" "org-habit" "habits" "stats" "statistics" "charts" "graphs"))])
+ (org-hide-drawers .
+		   [(0 1 0 1 -4 20250331 1229)
+		    ((emacs
+		      (24 3)))
+		    "Hide drawers in Org using overlays" tar
+		    ((:url . "https://github.com/krisbalintona/org-hide-drawers.git")
+		     (:commit . "ae15d91066d9b021d06f7b9074b680adbbe48cce")
+		     (:revdesc . "ae15d91066d9")
+		     (:keywords "tools" "extensions")
+		     (:authors
+		      ("Kristoffer Balintona" . "krisbalintona@gmail.com"))
+		     (:maintainers
+		      ("Kristoffer Balintona" . "krisbalintona@gmail.com"))
+		     (:maintainer "Kristoffer Balintona" . "krisbalintona@gmail.com"))])
  (org-hyperscheduler .
 		     [(1 0 1 -4 20220704 2140)
 		      ((emacs
@@ -74946,6 +74984,19 @@
 		    (:commit . "f824d634aef3600cb7a8e2ddf9e8444c6607c160")
 		    (:revdesc . "f824d634aef3")
 		    (:keywords "outlines"))])
+ (termint .
+	  [(0 1 0 1 -4 20250427 1549)
+	   ((emacs
+	     (29)))
+	   "Run REPLs in a terminal backend" tar
+	   ((:url . "https://github.com/milanglacier/termint.el")
+	    (:commit . "7d8ae55b5b694de1a129ee0a2f9b8735d6ebf1a1")
+	    (:revdesc . "7d8ae55b5b69")
+	    (:authors
+	     ("Milan Glacier" . "dev@milanglacier.com"))
+	    (:maintainers
+	     ("Milan Glacier" . "dev@milanglacier.com"))
+	    (:maintainer "Milan Glacier" . "dev@milanglacier.com"))])
  (tern .
        [(0 0 1 1 -4 20191227 950)
 	((json
