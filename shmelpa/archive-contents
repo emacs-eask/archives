@@ -32346,6 +32346,24 @@
 		      (:maintainers
 		       ("Michael Olson" . "mwolson@gnu.org"))
 		      (:maintainer "Michael Olson" . "mwolson@gnu.org"))])
+ (gptel-magit .
+	      [(0 1 0 1 -4 20250504 1238)
+	       ((emacs
+		 (28 1))
+		(magit
+		 (4 0))
+		(gptel
+		 (0 9 8)))
+	       "Generate commit messages for magit using gptel" tar
+	       ((:url . "https://github.com/ragnard/gptel-magit")
+		(:commit . "7f586943040bbb6885adafaf3e61fb5137c64558")
+		(:revdesc . "7f586943040b")
+		(:keywords "vc" "convenience")
+		(:authors
+		 ("Ragnar Dahlén" . "r.dahlen@gmail.com"))
+		(:maintainers
+		 ("Ragnar Dahlén" . "r.dahlen@gmail.com"))
+		(:maintainer "Ragnar Dahlén" . "r.dahlen@gmail.com"))])
  (gpx .
       [(0 1 0 1 -4 20250417 2141)
        ((emacs
@@ -39912,15 +39930,15 @@
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com"))])
  (iterator .
-	   [(1 0 1 -4 20210109 1859)
+	   [(0 1 0 1 -4 20250504 1720)
 	    ((emacs
 	      (24))
 	     (cl-lib
 	      (0 5)))
 	    "A library to create and use elisp iterators objects" tar
 	    ((:url . "https://github.com/thierryvolpiatto/iterator")
-	     (:commit . "b514d4d1d0167e5973afbc93a34070d1aa967d82")
-	     (:revdesc . "b514d4d1d016")
+	     (:commit . "9cbe0d1153ce03d11c75f1d2b010091092b476ea")
+	     (:revdesc . "9cbe0d1153ce")
 	     (:authors
 	      ("Thierry Volpiatto" . "thierrydotvolpiattoatgmaildotcom"))
 	     (:maintainers
@@ -41980,6 +41998,15 @@
 	    (:maintainers
 	     ("Nathaniel Nicandro" . "nathanielnicandro@gmail.com"))
 	    (:maintainer "Nathaniel Nicandro" . "nathanielnicandro@gmail.com"))])
+ (jupyter-ascending .
+		    [(0 1 0 1 -4 20250427 2101)
+		     ((emacs
+		       (29 4)))
+		     "Edit Jupyter Notebooks in plain text" tar
+		     ((:url . "https://github.com/Duncan-Britt/jupyter-ascending")
+		      (:commit . "eea269cb3c340385521afecf5d92bbbecd80119e")
+		      (:revdesc . "eea269cb3c34")
+		      (:keywords "tools" "jupyter" "notebook" "python"))])
  (just-mode .
 	    [(0 1 0 1 -4 20240424 1809)
 	     ((emacs
