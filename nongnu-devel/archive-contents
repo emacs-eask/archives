@@ -309,14 +309,14 @@
 		 (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
 		 (:commit . "b766094aea28bdc7b44ce1960d96434fe7d1d9cf"))])
  (clojure-ts-mode .
-		  [(0 4 0 -4 0 20250504 203312)
+		  [(0 4 0 -4 0 20250509 181533)
 		   ((emacs
 		     (30 1)))
 		   "Major mode for Clojure code" tar
 		   ((:url . "http://github.com/clojure-emacs/clojure-ts-mode")
 		    (:keywords "languages" "clojure" "clojurescript" "lisp")
 		    (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
-		    (:commit . "ea1c1342450f45ac328da6d80c978b181ca48ce1"))])
+		    (:commit . "c7a355588755d35144f64b0a4a8061bdd47cae45"))])
  (coffee-mode .
 	      [(0 6 3 0 20230908 103000)
 	       ((emacs
@@ -616,7 +616,7 @@
 	    ("Tim Vaughan" . "plugd@thelambdalab.xyz"))
 	   (:commit . "972a069f240f071a79da23c98d3519df45bb5851"))])
  (emacsql .
-	  [(4 3 0 0 20250401 150013)
+	  [(4 3 0 0 20250509 141847)
 	   ((emacs
 	     (26 1)))
 	   "High-level SQL database front-end" tar
@@ -624,7 +624,7 @@
 	    (:maintainer "Jonas Bernoulli" . "emacs.emacsql@jonas.bernoulli.dev")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
-	    (:commit . "5470adaf5dcabebc80c913ac831258fd47a87cbe"))])
+	    (:commit . "ce7ad75af5ebb6b34f4520969e951be84cc768f2"))])
  (engine-mode .
 	      [(2 2 4 0 20230911 95607)
 	       ((emacs
@@ -1101,7 +1101,7 @@
 		   ("Jeronimo Pellegrini" . "(j_p@aleph0.info)"))
 		  (:commit . "efdac7298e3a64f1138e3949b3312f491f2c706a"))])
  (git-modes .
-	    [(1 4 4 0 20240805 132007)
+	    [(1 4 4 0 20250509 145352)
 	     ((emacs
 	       (26 1))
 	      (compat
@@ -1114,7 +1114,7 @@
 	       ("Sebastian Wiesner" . "lunaryorn@gmail.com")
 	       ("Rüdiger Sonderfeld" . "ruediger@c-plusplus.net")
 	       ("Jonas Bernoulli" . "emacs.git-modes@jonas.bernoulli.dev"))
-	      (:commit . "f99010bbeb8b6d8a0819fac0195a2ef0159d08f0"))])
+	      (:commit . "2b2d02e935ee6aa649afa99e9ebc77054a9974b9"))])
  (gnosis .
 	 [(0 4 10 0 20241212 14747)
 	  ((emacs
@@ -1283,7 +1283,7 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (haskell-ts-mode .
-		  [(1 1 3 0 20250508 103057)
+		  [(1 1 3 0 20250509 80915)
 		   ((emacs
 		     (29 3)))
 		   "A treesit based major mode for haskell" tar
@@ -1292,9 +1292,9 @@
 		    (:maintainer "Pranshu Sharma" . "pranshu@bauherren.ovh")
 		    (:authors
 		     ("Pranshu Sharma" . "pranshu@bauherren.ovh"))
-		    (:commit . "f8dcb3c81c4dd5bf04844336076a9576f893dea4"))])
+		    (:commit . "6da60040b36c98b596ecbb1723f2128a3edc8590"))])
  (helm .
-       [(4 0 2 0 20250507 163240)
+       [(4 0 2 0 20250509 123526)
 	((helm-core
 	  (4 0 2))
 	 (wfnames
@@ -1305,9 +1305,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "08e8cfcc46505c1502d67a9bb7054c5784b7cdb3"))])
+	 (:commit . "ba34197b56c4ffd58c2b10d9f8c35399e28875da"))])
  (helm-core .
-	    [(4 0 2 0 20250507 163240)
+	    [(4 0 2 0 20250509 123526)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1317,7 +1317,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "08e8cfcc46505c1502d67a9bb7054c5784b7cdb3"))])
+	      (:commit . "ba34197b56c4ffd58c2b10d9f8c35399e28875da"))])
  (hideshowvis .
 	      [(0 8 0 20250225 175051)
 	       ((emacs
@@ -1517,7 +1517,7 @@
 	       (:keywords "languages")
 	       (:commit . "5c940c4ba357d8361534f11169f3d40b2d7833fc"))])
  (keycast .
-	  [(1 4 3 0 20250505 214611)
+	  [(1 4 3 0 20250509 122154)
 	   ((emacs
 	     (28 1))
 	    (compat
@@ -1528,7 +1528,7 @@
 	    (:maintainer "Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev"))
-	    (:commit . "965ceb09db7af1d20c2848e7dfdc9d83a2b7dada"))])
+	    (:commit . "7e5f0bc263022c3d6f7192076dd3834e56ef41d6"))])
  (kotlin-mode .
 	      [(2 0 0 0 20230123 105957)
 	       ((emacs
@@ -1541,7 +1541,7 @@
 		 ("Shodai Yokoyama" . "(quantumcars@gmail.com)"))
 		(:commit . "fddd747e5b4736e8b27a147960f369b86179ddff"))])
  (llama .
-	[(0 6 2 0 20250314 200910)
+	[(0 6 2 0 20250509 122131)
 	 ((emacs
 	   (26 1))
 	  (compat
@@ -1549,7 +1549,7 @@
 	 "Compact syntax for short lambda" tar
 	 ((:url . "https://github.com/tarsius/llama")
 	  (:keywords "extensions")
-	  (:commit . "48e5bc4919a4a29665362832d59ade8e248b0c3e"))])
+	  (:commit . "7de288e79329bfb3e2b4a2f9b574cf834bd371dd"))])
  (logview .
 	  [(0 19 3 -4 0 20250401 172309)
 	   ((emacs
@@ -1957,7 +1957,7 @@
 		    ("Takaaki ISHIKAWA" . "takaxpatieeedotorg"))
 		   (:commit . "e2599a106a26ce5511095e23df4ea04be6687a8a"))])
  (orgit .
-	[(2 0 2 0 20250401 181022)
+	[(2 0 2 0 20250509 121824)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -1972,7 +1972,7 @@
 	  (:maintainer "Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
-	  (:commit . "efd98e5caaac1d08677dae95be40fab65dcda2c8"))])
+	  (:commit . "25024744862eff562fa203587122b5af0ecdc2f3"))])
  (p4-16-mode .
 	     [(0 3 0 20231118 161633)
 	      nil "Support for the P4_16 programming language" tar
@@ -2782,7 +2782,7 @@
 	      ("Akib Azmain Turja" . "akib@disroot.org"))
 	     (:commit . "5203d9379afaf6703746823a580c804e1dd98e08"))])
  (with-editor .
-	      [(3 4 3 0 20241201 141907)
+	      [(3 4 3 0 20250509 145538)
 	       ((emacs
 		 (26 1))
 		(compat
@@ -2793,7 +2793,7 @@
 		(:maintainer "Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev")
 		(:authors
 		 ("Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev"))
-		(:commit . "ca902ae02972bdd6919a902be2593d8cb6bd991b"))])
+		(:commit . "cc86ac08bdea5bbe2503ac1df3506b5e81330e16"))])
  (with-simulated-input .
 		       [(3 0 0 20210602 224623)
 			((emacs
