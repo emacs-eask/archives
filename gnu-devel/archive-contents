@@ -2539,7 +2539,7 @@
 		(:url . "https://elpa.gnu.org/packages/jgraph-mode.html")
 		(:commit . "1bd355ecda036f23468d82b803146d3258a84977"))])
  (jinx .
-       [(2 1 0 20250505 164125)
+       [(2 1 0 20250510 163902)
 	((emacs
 	  (28 1))
 	 (compat
@@ -2550,7 +2550,7 @@
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	 (:commit . "c349bc7f39cb40713910bf1190f5ead3bf3b9acb"))])
+	 (:commit . "1c9be6c3293a5f34c205042c326ac3617ccab7fe"))])
  (jit-spell .
 	    [(0 4 0 20240810 110215)
 	     ((emacs
@@ -2782,7 +2782,7 @@
 		      ("Sean Whitton" . "spwhitton@spwhitton.name"))
 		     (:commit . "00b8f65effe4f2673e6450d70000644b266aa78a"))])
  (llm .
-      [(0 25 0 0 20250426 12816)
+      [(0 25 0 0 20250510 105336)
        ((emacs
 	 (28 1))
 	(plz
@@ -2790,13 +2790,15 @@
 	(plz-event-source
 	 (0 1 1))
 	(plz-media-type
-	 (0 2 1)))
+	 (0 2 1))
+	(compat
+	 (29 1)))
        "Interface to pluggable llm backends" tar
        ((:url . "https://github.com/ahyatt/llm")
 	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
-	(:commit . "231815d24ba7a100a7a0fb72029abb2b04faa901"))])
+	(:commit . "d3b46890f3d081044a4f3422f5280b27fb356f5d"))])
  (lmc .
       [(1 4 0 20230105 113402)
        ((emacs
