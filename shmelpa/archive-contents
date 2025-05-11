@@ -41778,6 +41778,15 @@
 		 (:commit . "cef3d352408599a63655002af655d11757579253")
 		 (:revdesc . "cef3d3524085")
 		 (:keywords "languages"))])
+ (jsonp .
+	[(0 1 0 1 -4 20250509 1)
+	 ((emacs
+	   (28 1)))
+	 "Resolve JSON pointers in ELisp objects" tar
+	 ((:url . "https://github.com/joshbax189/jsonp")
+	  (:commit . "5e18f1b24c3587fc94ffe395b7edf324349b664d")
+	  (:revdesc . "5e18f1b24c35")
+	  (:keywords "comm" "tools"))])
  (jss .
       [(0 7 1 -4 20130508 1423)
        ((emacs
@@ -72254,15 +72263,15 @@
 		     ("Kostafey" . "kostafey@gmail.com"))
 		    (:maintainer "Kostafey" . "kostafey@gmail.com"))])
  (sphinx-mode .
-	      [(0 1 0 1 -4 20220417 1552)
-	       ((f
-		 (0 20 0))
-		(dash
-		 (2 14 1)))
+	      [(0 1 0 1 -4 20250511 2023)
+	       ((dash
+		 (2 14 1))
+		(f
+		 (0 20)))
 	       "Minor mode providing sphinx support" tar
 	       ((:url . "https://github.com/Fuco1/sphinx-mode")
-		(:commit . "77ca51adf9ee877f3a8f43e744f59e650772f121")
-		(:revdesc . "77ca51adf9ee")
+		(:commit . "038a9195b00636d38aa2fc3cf6cbff5cf84e0561")
+		(:revdesc . "038a9195b006")
 		(:keywords "languages")
 		(:authors
 		 ("Matúš Goljer" . "matus.goljer@gmail.com"))
@@ -76141,6 +76150,19 @@
 	      (:maintainers
 	       ("Felix Chern" . "idryman@gmail.com"))
 	      (:maintainer "Felix Chern" . "idryman@gmail.com"))])
+ (tomlparse .
+	    [(0 1 0 1 -4 20250503 727)
+	     ((emacs
+	       (29 1)))
+	     "A straight-foward tree sitter based parser for toml data" tar
+	     ((:url . "https://github.com/johannes-mueller/tomlparse.el")
+	      (:commit . "ff28ee3679316ec66496789f4e69e8d37c0cace9")
+	      (:revdesc . "ff28ee367931")
+	      (:authors
+	       ("Johannes Mueller" . "github@johannes-mueller.org"))
+	      (:maintainers
+	       ("Johannes Mueller" . "github@johannes-mueller.org"))
+	      (:maintainer "Johannes Mueller" . "github@johannes-mueller.org"))])
  (tommyh-theme .
 	       [(1 2 1 -4 20131004 2330)
 		nil "A bright, bold-colored theme for emacs" tar
@@ -79212,15 +79234,15 @@
 		      ("Andreas Gerler" . "baron@bundesbrandschatzamt.de"))
 		     (:maintainer "Andreas Gerler" . "baron@bundesbrandschatzamt.de"))])
  (vertico .
-	  [(0 1 0 1 -4 20250511 1700)
+	  [(0 1 0 1 -4 20250511 1903)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30)))
 	   "VERTical Interactive COmpletion" tar
 	   ((:url . "https://github.com/minad/vertico")
-	    (:commit . "95d0d4c9aa0d13e4333cec0fdfdf19487e282a28")
-	    (:revdesc . "95d0d4c9aa0d")
+	    (:commit . "b0c0a2eebeacb2ff92c788daab430fcaabdf1d71")
+	    (:revdesc . "b0c0a2eebeac")
 	    (:keywords "convenience" "files" "matching" "completion")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
