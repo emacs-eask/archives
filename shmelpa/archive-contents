@@ -5484,6 +5484,20 @@
 			(:maintainers
 			 ("Campbell Barton" . "ideasman42@gmail.com"))
 			(:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
+ (bookmarks-menu .
+		 [(0 1 0 1 -4 20250508 2114)
+		  ((emacs
+		    (29 1)))
+		  "Add a Bookmarks menu to the menu bar" tar
+		  ((:url . "https://github.com/ajrosen/bookmarks-menu")
+		   (:commit . "e279bd3c27773e72b23eb698e9b1eed3f7d764c9")
+		   (:revdesc . "e279bd3c2777")
+		   (:keywords "matching" "convenience" "bookmark")
+		   (:authors
+		    ("Andy Rosen" . "ajr@corp.mlfs.org"))
+		   (:maintainers
+		    ("Andy Rosen" . "ajr@corp.mlfs.org"))
+		   (:maintainer "Andy Rosen" . "ajr@corp.mlfs.org"))])
  (bool-flip .
 	    [(1 0 1 1 -4 20161215 1539)
 	     ((emacs
@@ -11976,15 +11990,15 @@
 		   ("Junyoung Clare Jang" . "jjc9310@gmail.com"))
 		  (:maintainer "Junyoung Clare Jang" . "jjc9310@gmail.com"))])
  (corfu .
-	[(0 1 0 1 -4 20250511 1700)
+	[(0 1 0 1 -4 20250511 1904)
 	 ((emacs
 	   (28 1))
 	  (compat
 	   (30)))
 	 "COmpletion in Region FUnction" tar
 	 ((:url . "https://github.com/minad/corfu")
-	  (:commit . "51538f17f13aa926d59565d09bdb9b519eba82bd")
-	  (:revdesc . "51538f17f13a")
+	  (:commit . "60baa17ee99e333c17e9963c8c18570094053819")
+	  (:revdesc . "60baa17ee99e")
 	  (:keywords "abbrev" "convenience" "matching" "completion" "text")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -13122,6 +13136,19 @@
 		((:url . "https://github.com/cubicle-model-checker/cubicle")
 		 (:commit . "7679c8452051ed5c89f891c72c6ada76757fc935")
 		 (:revdesc . "7679c8452051"))])
+ (cuckoo-search .
+		[(0 1 0 1 -4 20250504 1907)
+		 ((emacs
+		   (29 1))
+		  (elfeed
+		   (3 4 2)))
+		 "Content-based search and saved-searches for Elfeed" tar
+		 ((:url . "https://github.com/rtrppl/cuckoo-search")
+		  (:commit . "4c100cd7fa8407cab6d21f05fcf55ef7e1c7f26f")
+		  (:revdesc . "4c100cd7fa84")
+		  (:maintainers
+		   ("René Trappel" . "rtrappel@gmail.com"))
+		  (:maintainer "René Trappel" . "rtrappel@gmail.com"))])
  (cucumber-goto-step .
 		     [(0 0 1 1 -4 20131210 519)
 		      ((pcre2el
