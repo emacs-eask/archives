@@ -14977,7 +14977,7 @@
 		    ("Edmund Jorgensen" . "edmund@hut8labs.com"))
 		   (:maintainer "Edmund Jorgensen" . "edmund@hut8labs.com"))])
  (difftastic .
-	     [(0 1 0 1 -4 20250508 744)
+	     [(0 1 0 1 -4 20250514 1259)
 	      ((emacs
 		(28 1))
 	       (compat
@@ -14988,8 +14988,8 @@
 		(0 4 0)))
 	      "Wrapper for difftastic" tar
 	      ((:url . "https://github.com/pkryger/difftastic.el")
-	       (:commit . "6fa36b655f71a1024e933dbb1a2c3419bae40d9a")
-	       (:revdesc . "6fa36b655f71")
+	       (:commit . "8790d2bf78c23af8ce9cabbe2380f358107ca3ca")
+	       (:revdesc . "8790d2bf78c2")
 	       (:keywords "tools" "diff")
 	       (:authors
 		("Przemyslaw Kryger" . "pkryger@gmail.com"))
@@ -48079,15 +48079,15 @@
 	 (:revdesc . "e5817f3b5ef8")
 	 (:keywords "convenience" "modal-editing"))])
  (meow-tree-sitter .
-		   [(0 1 0 1 -4 20250314 1730)
+		   [(0 1 0 1 -4 20250513 1948)
 		    ((emacs
 		      (29 1))
 		     (meow
 		      (1 2 0)))
 		    "Tree-sitter powered motions for Meow" tar
 		    ((:url . "https://github.com/skissue/meow-tree-sitter")
-		     (:commit . "3d578e0296a430f6f9d8a058ae7b3e3202422f5f")
-		     (:revdesc . "3d578e0296a4")
+		     (:commit . "b05d54a5e19f8ba0258b0bbf0ffcd4bc7bad112c")
+		     (:revdesc . "b05d54a5e19f")
 		     (:keywords "convenience" "files" "languages" "tools")
 		     (:authors
 		      ("Ad" . "me@skissue.xyz"))
@@ -65241,13 +65241,15 @@
 	  (:revdesc . "1e63e9862673")
 	  (:keywords "abbrev" "convenience" "matching" "rust" "tools"))])
  (racket-mode .
-	      [(0 1 0 1 -4 20250507 1242)
+	      [(0 1 0 1 -4 20250514 1427)
 	       ((emacs
-		 (25 1)))
+		 (25 1))
+		(compat
+		 (30 0 20 0)))
 	       "Racket editing, REPL, and more" tar
 	       ((:url . "https://www.racket-mode.com/")
-		(:commit . "a23104e156af6503893081b562274fa8e4d51b7d")
-		(:revdesc . "a23104e156af")
+		(:commit . "1ec8ac5341ba9f9b70de02a8397fa02297594c16")
+		(:revdesc . "1ec8ac5341ba")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com")))])
  (rails-i18n .
