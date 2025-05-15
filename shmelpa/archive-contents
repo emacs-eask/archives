@@ -22145,17 +22145,19 @@
 	      ("Bocci Gionata" . "boccigionata@gmail.com"))
 	     (:maintainer "Bocci Gionata" . "boccigionata@gmail.com"))])
  (ess-view-data .
-		[(1 3 1 -4 20240127 1701)
+		[(0 1 0 1 -4 20250515 958)
 		 ((emacs
 		   (26 1))
 		  (ess
 		   (18 10 1))
 		  (csv-mode
-		   (1 12)))
+		   (1 12))
+		  (transient
+		   (0 3 7)))
 		 "View Data" tar
 		 ((:url . "https://github.com/ShuguangSun/ess-view-data")
-		  (:commit . "c077741bc3386a469635ca7438db4cf58b7541b9")
-		  (:revdesc . "c077741bc338")
+		  (:commit . "dc1355d838eeac47143790b2745ae826400609ab")
+		  (:revdesc . "dc1355d838ee")
 		  (:keywords "tools")
 		  (:authors
 		   ("Shuguang Sun" . "shuguang79@qq.com"))
@@ -55921,7 +55923,7 @@
 		  ("Adam Porter" . "adam@alphapapa.net"))
 		 (:maintainer "Adam Porter" . "adam@alphapapa.net"))])
  (org-mem .
-	  [(0 1 0 1 -4 20250515 1009)
+	  [(0 1 0 1 -4 20250515 1114)
 	   ((emacs
 	     (29 1))
 	    (el-job
@@ -55930,8 +55932,8 @@
 	     (0 5 0)))
 	   "Fast info from a large number of Org file contents" tar
 	   ((:url . "https://github.com/meedstrom/org-mem")
-	    (:commit . "725cf6ca0b756425b1068114d8e5efaff863e66a")
-	    (:revdesc . "725cf6ca0b75")
+	    (:commit . "747ba19f8d79fe6fe1d4cf456a5290782908ea72")
+	    (:revdesc . "747ba19f8d79")
 	    (:keywords "text")
 	    (:authors
 	     ("Martin Edström" . "meedstrom@runbox.eu"))
@@ -56143,19 +56145,19 @@
 		   ("Anton Hakansson" . "anton@hakanssn.com"))
 		  (:maintainer "Anton Hakansson" . "anton@hakanssn.com"))])
  (org-node .
-	   [(0 1 0 1 -4 20250326 1504)
+	   [(0 1 0 1 -4 20250515 1127)
 	    ((emacs
 	      (29 1))
 	     (llama
 	      (0 5 0))
-	     (el-job
-	      (1 0 5))
+	     (org-mem
+	      (0 8 1))
 	     (magit-section
 	      (4 3 0)))
 	    "Fast org-roam replacement" tar
 	    ((:url . "https://github.com/meedstrom/org-node")
-	     (:commit . "a6d42efe84f1e3c881c0aeca7521b9f5cba3c3f1")
-	     (:revdesc . "a6d42efe84f1")
+	     (:commit . "874114f0896c7ad0a993c8d9978df1e0396891c3")
+	     (:revdesc . "874114f0896c")
 	     (:keywords "org" "hypermedia")
 	     (:authors
 	      ("Martin Edström" . "meedstrom91@gmail.com"))
@@ -56163,21 +56165,19 @@
 	      ("Martin Edström" . "meedstrom91@gmail.com"))
 	     (:maintainer "Martin Edström" . "meedstrom91@gmail.com"))])
  (org-node-fakeroam .
-		    [(0 1 0 1 -4 20250316 1005)
+		    [(0 1 0 1 -4 20250515 1121)
 		     ((emacs
-		       (28 1))
-		      (compat
-		       (30))
-		      (emacsql
-		       (4 0 3))
+		       (29 1))
+		      (org-mem
+		       (0 8 2))
 		      (org-node
-		       (2 0 3))
+		       (3 0 0))
 		      (org-roam
 		       (2 2 2)))
-		     "Stand-ins for org-roam-autosync-mode" tar
+		     "Deprecated extension to org-node" tar
 		     ((:url . "https://github.com/meedstrom/org-node-fakeroam")
-		      (:commit . "fda864320606e1e860b5bd9a6b2b08aec9abc8de")
-		      (:revdesc . "fda864320606")
+		      (:commit . "fd3c91a81e107fdd252f9d77f630bc3826ef85a4")
+		      (:revdesc . "fd3c91a81e10")
 		      (:keywords "org" "hypermedia")
 		      (:authors
 		       ("Martin Edström" . "meedstrom91@gmail.com"))
