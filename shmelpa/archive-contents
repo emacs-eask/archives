@@ -1253,7 +1253,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (aider .
-	[(0 1 0 1 -4 20250518 133)
+	[(0 1 0 1 -4 20250518 1617)
 	 ((emacs
 	   (26 1))
 	  (transient
@@ -1266,8 +1266,8 @@
 	   (1 13 0)))
 	 "AI assisted programming in Emacs with Aider" tar
 	 ((:url . "https://github.com/tninja/aider.el")
-	  (:commit . "f2ea38117ecdc47a84152be1a1d5698cf65b4083")
-	  (:revdesc . "f2ea38117ecd")
+	  (:commit . "d7c2d696444a1438d8a3ddf6a629d743d6c022fe")
+	  (:revdesc . "d7c2d696444a")
 	  (:keywords "agent" "ai" "gpt" "sonnet" "llm" "aider" "gemini-pro" "deepseek" "ai-assisted-coding")
 	  (:authors
 	   ("Kang Tu" . "tninja@gmail.com"))
@@ -1294,6 +1294,22 @@
 	      (:maintainers
 	       ("Mingde Zeng" . "matthewzmd@posteo.net"))
 	      (:maintainer "Mingde Zeng" . "matthewzmd@posteo.net"))])
+ (aidev-mode .
+	     [(0 1 0 1 -4 20250318 2144)
+	      ((emacs
+		(27 1))
+	       (request
+		(0 3 2)))
+	      "Minor mode for AI-assisted development" tar
+	      ((:url . "https://github.com/inaimathi/aidev-mode")
+	       (:commit . "5a71b7ddc43be3629e2c2928e349fee78099989f")
+	       (:revdesc . "5a71b7ddc43b")
+	       (:keywords "tools" "convenience" "ai")
+	       (:authors
+		("inaimathi" . "leo.zovic@example.com"))
+	       (:maintainers
+		("inaimathi" . "leo.zovic@example.com"))
+	       (:maintainer "inaimathi" . "leo.zovic@example.com"))])
  (aiken-mode .
 	     [(1 0 2 1 -4 20230920 1210)
 	      ((emacs
@@ -12643,6 +12659,20 @@
 		     (:maintainers
 		      ("Syohei YOSHIDA" . "syohex@gmail.com"))
 		     (:maintainer "Syohei YOSHIDA" . "syohex@gmail.com"))])
+ (cppinsights .
+	      [(0 1 0 1 -4 20250515 128)
+	       ((emacs
+		 (28 1)))
+	       "Integration with cppinsights tool" tar
+	       ((:url . "https://github.com/chrischen3121/cppinsights.el")
+		(:commit . "91a69c03e8724bccd50e697c3f450a8a70d91131")
+		(:revdesc . "91a69c03e872")
+		(:keywords "c++" "tools" "cppinsights")
+		(:authors
+		 ("Chris Chen" . "chrischen@ignity.xyz"))
+		(:maintainers
+		 ("Chris Chen" . "chrischen@ignity.xyz"))
+		(:maintainer "Chris Chen" . "chrischen@ignity.xyz"))])
  (cpputils-cmake .
 		 [(0 5 8 1 -4 20181006 328)
 		  nil "Easy realtime C++ syntax check and IntelliSense with CMake" tar
