@@ -21088,6 +21088,20 @@
 	     (:maintainers
 	      ("Jonathan Rockway" . "jon@jrock.us"))
 	     (:maintainer "Jonathan Rockway" . "jon@jrock.us"))])
+ (epx .
+      [(0 1 0 1 -4 20250512 658)
+       ((emacs
+	 (29 1)))
+       "Manage and run project-specific shell commands" tar
+       ((:url . "https://git.sr.ht/~alex-iam/epx")
+	(:commit . "4ebbbcb76eacf734c933c029fde73e0a16a34c03")
+	(:revdesc . "4ebbbcb76eac")
+	(:keywords "project" "shell" "tools")
+	(:authors
+	 ("Oleksandr Korzh" . "alex@korzh.me"))
+	(:maintainers
+	 ("Oleksandr Korzh" . "alex@korzh.me"))
+	(:maintainer "Oleksandr Korzh" . "alex@korzh.me"))])
  (equake .
 	 [(0 1 0 1 -4 20241223 1825)
 	  ((emacs
@@ -54448,7 +54462,7 @@
 		  ("Robert Krahn" . "robert@kra.hn"))
 		 (:maintainer "Robert Krahn" . "robert@kra.hn"))])
  (org-anki .
-	   [(0 1 0 1 -4 20250509 1552)
+	   [(0 1 0 1 -4 20250518 1737)
 	    ((emacs
 	      (27 1))
 	     (request
@@ -54459,8 +54473,8 @@
 	      (1 1)))
 	    "Synchronize org-mode entries to Anki" tar
 	    ((:url . "https://github.com/eyeinsky/org-anki")
-	     (:commit . "02832230e514f5d8e001ce8986ae11fca8f7dad0")
-	     (:revdesc . "02832230e514")
+	     (:commit . "9482845bac5c8d563e2022ad884f05d1b3d6fb2d")
+	     (:revdesc . "9482845bac5c")
 	     (:keywords "outlines" "flashcards" "memory")
 	     (:authors
 	      ("Markus Läll" . "markus.l2ll@gmail.com"))
@@ -58629,6 +58643,24 @@
 		   (:maintainers
 		    ("Mohammed Ismail Ansari" . "team.terminal@gmail.com"))
 		   (:maintainer "Mohammed Ismail Ansari" . "team.terminal@gmail.com"))])
+ (overleaf .
+	   [(0 1 0 1 -4 20250517 1804)
+	    ((emacs
+	      (29 4))
+	     (plz
+	      (0 9))
+	     (websocket
+	      (1 15))
+	     (webdriver
+	      (0 1)))
+	    "Sync and track changes live with overleaf" tar
+	    ((:url . "https://github.com/vale981/overleaf.el")
+	     (:commit . "ae221480aa88d74d7e98cf9630b8fddd1a5c3976")
+	     (:revdesc . "ae221480aa88")
+	     (:keywords "hypermedia" "tex" "comm")
+	     (:maintainers
+	      ("Valentin Boettcher" . "overleafatprotagon.space"))
+	     (:maintainer "Valentin Boettcher" . "overleafatprotagon.space"))])
  (overseer .
 	   [(0 3 0 1 -4 20240109 800)
 	    ((emacs
@@ -71654,6 +71686,20 @@
 		    ((:url . "http://github.com/mswift42/soft-stone-theme")
 		     (:commit . "fb475514cfb02cf30ce358a61c48e46614344d48")
 		     (:revdesc . "fb475514cfb0"))])
+ (sol-mode .
+	   [(0 1 0 1 -4 20250517 1926)
+	    ((emacs
+	      (30 1)))
+	    "Major mode for editing Solidity code" tar
+	    ((:url . "https://codeberg.org/nlordell/sol-mode")
+	     (:commit . "93d96af2b7d19edd9caaf35478ec88e1530785aa")
+	     (:revdesc . "93d96af2b7d1")
+	     (:keywords "solidity" "languages")
+	     (:authors
+	      ("Nicholas Rodrigues Lordello" . "n@lordello.net"))
+	     (:maintainers
+	      ("Nicholas Rodrigues Lordello" . "n@lordello.net"))
+	     (:maintainer "Nicholas Rodrigues Lordello" . "n@lordello.net"))])
  (solaire-mode .
 	       [(2 0 5 1 -4 20240716 1852)
 		((emacs
@@ -76241,6 +76287,20 @@
 	   (:commit . "6f6e5c5446f0c5735357ab520b249ab97295653e")
 	   (:revdesc . "6f6e5c5446f0")
 	   (:keywords "tools"))])
+ (too-wide-minibuffer-mode .
+			   [(0 1 0 1 -4 20250512 741)
+			    ((emacs
+			      (30 1)))
+			    "Shrink minibuffer if the frame is too wide" tar
+			    ((:url . "https://github.com/hron/too-wide-minibuffer-mode")
+			     (:commit . "21b7f90e5221dd63a4073b1e3d202bf7b27f1082")
+			     (:revdesc . "21b7f90e5221")
+			     (:keywords "convenience")
+			     (:authors
+			      ("Aleksei Gusev" . "aleksei.gusev@gmail.com"))
+			     (:maintainers
+			      ("Aleksei Gusev" . "aleksei.gusev@gmail.com"))
+			     (:maintainer "Aleksei Gusev" . "aleksei.gusev@gmail.com"))])
  (topspace .
 	   [(0 3 1 1 -4 20220824 134)
 	    ((emacs
