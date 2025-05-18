@@ -46435,7 +46435,7 @@
 	       (:revdesc . "17f1a1a7d314")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20250518 653)
+	[(0 1 0 1 -4 20250518 1425)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -46452,8 +46452,8 @@
 	   (3 4 3)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "c556fee1bd3ccc44da9f2322ec17dc5c3f0ef5be")
-	  (:revdesc . "c556fee1bd3c")
+	  (:commit . "75c61919994a23494152f726102898456a6055b7")
+	  (:revdesc . "75c61919994a")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -55923,7 +55923,7 @@
 		  ("Adam Porter" . "adam@alphapapa.net"))
 		 (:maintainer "Adam Porter" . "adam@alphapapa.net"))])
  (org-mem .
-	  [(0 1 0 1 -4 20250518 1300)
+	  [(0 1 0 1 -4 20250518 1336)
 	   ((emacs
 	     (29 1))
 	    (el-job
@@ -55932,8 +55932,8 @@
 	     (0 5 0)))
 	   "Fast info from a large number of Org file contents" tar
 	   ((:url . "https://github.com/meedstrom/org-mem")
-	    (:commit . "b0962d742bb1d2b6a1d95299551cc5dfb3c4726d")
-	    (:revdesc . "b0962d742bb1")
+	    (:commit . "23af3ad63083ebc4bb0397fbfc3dfd52e1f664a8")
+	    (:revdesc . "23af3ad63083")
 	    (:keywords "text")
 	    (:authors
 	     ("Martin Edström" . "meedstrom@runbox.eu"))
@@ -56145,19 +56145,19 @@
 		   ("Anton Hakansson" . "anton@hakanssn.com"))
 		  (:maintainer "Anton Hakansson" . "anton@hakanssn.com"))])
  (org-node .
-	   [(0 1 0 1 -4 20250517 1447)
+	   [(0 1 0 1 -4 20250518 1335)
 	    ((emacs
 	      (29 1))
 	     (llama
 	      (0 5 0))
 	     (org-mem
-	      (0 8 2))
+	      (0 10 1))
 	     (magit-section
 	      (4 3 0)))
 	    "Fast org-roam replacement" tar
 	    ((:url . "https://github.com/meedstrom/org-node")
-	     (:commit . "9ecbe79465bc01b346b34ce0b2455e34f62a7fc1")
-	     (:revdesc . "9ecbe79465bc")
+	     (:commit . "31a890adc9acdd71571d36dfd73f781e63b077fc")
+	     (:revdesc . "31a890adc9ac")
 	     (:keywords "org" "hypermedia")
 	     (:authors
 	      ("Martin Edström" . "meedstrom91@gmail.com"))
@@ -60412,6 +60412,19 @@
 	     (:maintainers
 	      (nil . "aix.bing@gmail.com"))
 	     (:maintainer nil . "aix.bing@gmail.com"))])
+ (pdd .
+      [(0 1 0 1 -4 20250512 531)
+       ((emacs
+	 (28 1)))
+       "HTTP library & Async Toolkit" tar
+       ((:url . "https://github.com/lorniu/pdd.el")
+	(:commit . "396d64d673e146b72285957265b65e4d30cdf60e")
+	(:revdesc . "396d64d673e1")
+	(:authors
+	 ("lorniu" . "lorniu@gmail.com"))
+	(:maintainers
+	 ("lorniu" . "lorniu@gmail.com"))
+	(:maintainer "lorniu" . "lorniu@gmail.com"))])
  (pdf-meta-edit .
 		[(0 1 0 1 -4 20250321 2317)
 		 ((emacs
