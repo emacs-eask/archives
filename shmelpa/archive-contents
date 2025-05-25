@@ -1275,7 +1275,7 @@
 	   ("Kang Tu" . "tninja@gmail.com"))
 	  (:maintainer "Kang Tu" . "tninja@gmail.com"))])
  (aidermacs .
-	    [(0 1 0 1 -4 20250523 412)
+	    [(0 1 0 1 -4 20250525 1455)
 	     ((emacs
 	       (26 1))
 	      (transient
@@ -1286,8 +1286,8 @@
 	       (2 7)))
 	     "AI pair programming with Aider" tar
 	     ((:url . "https://github.com/MatthewZMD/aidermacs")
-	      (:commit . "727498e375e8320723f8adb3814163ce22e23c34")
-	      (:revdesc . "727498e375e8")
+	      (:commit . "9feca8d5e169abdc9a7fafda966ad73da78baf71")
+	      (:revdesc . "9feca8d5e169")
 	      (:keywords "ai" "emacs" "llm" "aider" "ai-pair-programming" "tools")
 	      (:authors
 	       ("Mingde Zeng" . "matthewzmd@posteo.net"))
@@ -22881,6 +22881,24 @@
 		   (:commit . "3d44197dc0a1fb40e7b7ff8717f8a8c339ce1d40")
 		   (:revdesc . "3d44197dc0a1")
 		   (:keywords "evil" "leader" "god-mode"))])
+ (evil-god-toggle .
+		  [(0 1 0 1 -4 20250522 2134)
+		   ((emacs
+		     (28 1))
+		    (evil
+		     (1 0 8))
+		    (god-mode
+		     (2 12 0)))
+		   "Toggle Evil and God Mode" tar
+		   ((:url . "https://github.com/jam1015/evil-god-toggle")
+		    (:commit . "a2e240e8ffdfff16ffa2be2517a7c60d3cc3ced9")
+		    (:revdesc . "a2e240e8ffdf")
+		    (:keywords "convenience" "emulation" "evil" "god-mode")
+		    (:authors
+		     ("Jordan Mandel" . "jordan.mandel@live.com"))
+		    (:maintainers
+		     ("Jordan Mandel" . "jordan.mandel@live.com"))
+		    (:maintainer "Jordan Mandel" . "jordan.mandel@live.com"))])
  (evil-goggles .
 	       [(0 0 2 1 -4 20231021 738)
 		((emacs
