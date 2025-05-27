@@ -272,7 +272,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider .
-	[(1 19 0 -4 0 20250525 121903)
+	[(1 19 0 -4 0 20250527 102329)
 	 ((emacs
 	   (27))
 	  (clojure-mode
@@ -300,25 +300,25 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "f9b68ff1117ffe46343c8f6bd415f0db780e863e"))])
+	  (:commit . "ba5ca6c1fcff31c25c4d4afa9bf2dc8670aad8e4"))])
  (clojure-mode .
-	       [(5 20 0 -4 0 20250406 154328)
+	       [(5 20 0 0 20250527 111641)
 		((emacs
 		  (25 1)))
 		"Major mode for Clojure code" tar
 		((:url . "https://github.com/clojure-emacs/clojure-mode")
 		 (:keywords "languages" "clojure" "clojurescript" "lisp")
 		 (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
-		 (:commit . "b766094aea28bdc7b44ce1960d96434fe7d1d9cf"))])
+		 (:commit . "3238096e7637205ac109fe6b28d7a088848d2f15"))])
  (clojure-ts-mode .
-		  [(0 5 0 -4 0 20250527 72511)
+		  [(0 5 0 -4 0 20250527 155119)
 		   ((emacs
 		     (30 1)))
 		   "Major mode for Clojure code" tar
 		   ((:url . "http://github.com/clojure-emacs/clojure-ts-mode")
 		    (:keywords "languages" "clojure" "clojurescript" "lisp")
 		    (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
-		    (:commit . "b7f99500fb7d884f87ce849620dcf18cee507c0e"))])
+		    (:commit . "2dd7ed20c1456760358881d646209f923be19b90"))])
  (coffee-mode .
 	      [(0 6 3 0 20230908 103000)
 	       ((emacs
@@ -867,7 +867,7 @@
 	   ((:url . "https://github.com/lewang/flx")
 	    (:commit . "4b1346eb9a8a76ee9c9dede69738c63ad97ac5b6"))])
  (flycheck .
-	   [(35 0 0 20250524 163328)
+	   [(35 0 0 20250527 90754)
 	    ((emacs
 	      (27 1)))
 	    "On-the-fly syntax checking" tar
@@ -879,7 +879,7 @@
 	      ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
-	     (:commit . "6f85589a3b3583aab597673c6a0907b2032572f7"))])
+	     (:commit . "a4d782e7af12e20037c0cecf0d4386cd2676c085"))])
  (flymake-guile .
 		[(0 5 0 20230905 194410)
 		 ((emacs
@@ -1155,7 +1155,7 @@
 		("Akib Azmain Turja" . "akib@disroot.org"))
 	       (:commit . "f31dbe60478b6270bb57b6b05998df8eec56f801"))])
  (gnuplot .
-	  [(0 8 1 0 20250526 221136)
+	  [(0 8 1 0 20250527 175739)
 	   ((emacs
 	     (25 1)))
 	   "Major-mode and interactive frontend for gnuplot" tar
@@ -1164,7 +1164,7 @@
 	    (:maintainer
 	     ("Maxime Tréca" . "maxime@gmail.com")
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	    (:commit . "6e3ea7823cc899f3d40bbf7b1bcb7fa557397500"))])
+	    (:commit . "ce75ac3bd45f544ea4b86e6b31280c5cfea54016"))])
  (go-mode .
 	  [(1 6 0 0 20250311 20239)
 	   ((emacs
@@ -1959,7 +1959,7 @@
 		    ("Takaaki ISHIKAWA" . "takaxpatieeedotorg"))
 		   (:commit . "e2599a106a26ce5511095e23df4ea04be6687a8a"))])
  (orgit .
-	[(2 0 2 0 20250509 121824)
+	[(2 0 2 0 20250527 133058)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -1974,7 +1974,7 @@
 	  (:maintainer "Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
-	  (:commit . "25024744862eff562fa203587122b5af0ecdc2f3"))])
+	  (:commit . "85b074a3e7069a07f5c0bb042d544de9349a4ea0"))])
  (p4-16-mode .
 	     [(0 3 0 20231118 161633)
 	      nil "Support for the P4_16 programming language" tar
@@ -1985,7 +1985,7 @@
 	       (:url . "https://elpa.nongnu.org/nongnu/p4-16-mode.html")
 	       (:commit . "794dd0056b4ca736ae5ecb39072547f22a006137"))])
  (package-lint .
-	       [(0 26 0 20250418 142545)
+	       [(0 26 0 20250527 184516)
 		((emacs
 		  (24 4))
 		 (let-alist
@@ -1999,7 +1999,7 @@
 		 (:authors
 		  ("Steve Purcell" . "steve@sanityinc.com")
 		  ("Fanael Linithien" . "fanael4@gmail.com"))
-		 (:commit . "2dc48e5fb9c37390d9290d4f5ab371c39b7a3829"))])
+		 (:commit . "29ccfea319ee6bac4b80045aa473b3aa2b77d074"))])
  (pacmacs .
 	  [(0 1 1 0 20220411 143014)
 	   ((emacs
@@ -2137,13 +2137,13 @@
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	       (:commit . "e961fb976d8be6945c453fb740c90fcb3dca4bb2"))])
  (proof-general .
-		[(4 6 -4 0 20250516 91308)
+		[(4 6 -4 0 20250527 143946)
 		 ((emacs
 		   (25 2)))
 		 "A generic Emacs interface for proof assistants" tar
 		 ((:url . "https://proofgeneral.github.io/")
 		  (:maintainer nil . "proof-general-maintainers@groupes.renater.fr")
-		  (:commit . "f5d929ec447f3ad9cddba454e7c2dc6ca43cd732"))])
+		  (:commit . "964a5958e7c8ebdf1bf264342861f6644c34c6cd"))])
  (prop-menu .
 	    [(0 1 2 0 20150728 51803)
 	     ((emacs
