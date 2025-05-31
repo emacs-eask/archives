@@ -27482,7 +27482,7 @@
 		    ("Steve Purcell" . "steve@sanityinc.com"))
 		   (:maintainer "Steve Purcell" . "steve@sanityinc.com"))])
  (flymake-collection .
-		     [(0 1 0 1 -4 20250101 2151)
+		     [(0 1 0 1 -4 20250531 1243)
 		      ((emacs
 			(28 1))
 		       (let-alist
@@ -27491,8 +27491,8 @@
 			(1 2 1)))
 		      "Collection of checkers for flymake, bringing flymake to the level of flycheck" tar
 		      ((:url . "https://github.com/mohkale/flymake-collection")
-		       (:commit . "5de95adb4c4981cee2f6152ef934230d7b2934eb")
-		       (:revdesc . "5de95adb4c49")
+		       (:commit . "40e4f36dfa46ecbc621e7b161db4ff5b5079fdb4")
+		       (:revdesc . "40e4f36dfa46")
 		       (:keywords "language" "tools")
 		       (:authors
 			("Mohsin Kaleem" . "mohkale@kisara.moe"))
@@ -31365,13 +31365,15 @@
 		("Akib Azmain Turja" . "akib@disroot.org"))
 	       (:maintainer "Akib Azmain Turja" . "akib@disroot.org"))])
  (gnuplot .
-	  [(0 1 0 1 -4 20250530 2234)
+	  [(0 1 0 1 -4 20250531 1126)
 	   ((emacs
-	     (25 1)))
+	     (28 1))
+	    (compat
+	     (30)))
 	   "Major-mode and interactive frontend for gnuplot" tar
 	   ((:url . "https://github.com/emacs-gnuplot/gnuplot")
-	    (:commit . "f78da5b3394439f8f4f30a4aa30637eaf2bec63b")
-	    (:revdesc . "f78da5b33944")
+	    (:commit . "ee0de251233a97976399861943bd4f4b9e066d99")
+	    (:revdesc . "ee0de251233a")
 	    (:keywords "data" "gnuplot" "plotting")
 	    (:maintainers
 	     ("Maxime Tréca" . "maxime@gmail.com")
@@ -46505,7 +46507,7 @@
 	       (:revdesc . "17f1a1a7d314")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20250528 1146)
+	[(0 1 0 1 -4 20250531 1244)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -46522,8 +46524,8 @@
 	   (3 4 3)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "479c4670806dda3589853fa8054c227b89506be1")
-	  (:revdesc . "479c4670806d")
+	  (:commit . "9e551d9eb7c82ef71b72a19b4bb0e868a0ce8fec")
+	  (:revdesc . "9e551d9eb7c8")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -46876,7 +46878,7 @@
 		       ("Jules Tamagnan" . "jtamagnan@gmail.com"))
 		      (:maintainer "Jules Tamagnan" . "jtamagnan@gmail.com"))])
  (magit-section .
-		[(0 1 0 1 -4 20250518 653)
+		[(0 1 0 1 -4 20250531 1230)
 		 ((emacs
 		   (27 1))
 		  (compat
@@ -46887,8 +46889,8 @@
 		   (2 24)))
 		 "Sections for read-only buffers" tar
 		 ((:url . "https://github.com/magit/magit")
-		  (:commit . "c556fee1bd3ccc44da9f2322ec17dc5c3f0ef5be")
-		  (:revdesc . "c556fee1bd3c")
+		  (:commit . "66f3cdaca41a041ff8c3ebcbd97cc9e33843b80c")
+		  (:revdesc . "66f3cdaca41a")
 		  (:keywords "tools")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -53938,13 +53940,13 @@
 	      ("Paul W. Rankin" . "rnkn@rnkn.xyz"))
 	     (:maintainer "Paul W. Rankin" . "rnkn@rnkn.xyz"))])
  (ollama-buddy .
-	       [(0 1 0 1 -4 20250531 729)
+	       [(0 1 0 1 -4 20250531 1325)
 		((emacs
 		  (28 1)))
 		"Ollama LLM AI Assistant ChatGPT Claude Gemini Grok Support" tar
 		((:url . "https://github.com/captainflasmr/ollama-buddy")
-		 (:commit . "fff432cd71921077b063c82105845c15911787f5")
-		 (:revdesc . "fff432cd7192")
+		 (:commit . "61ee369669778f1cd9eb283dfd84bf436c142f67")
+		 (:revdesc . "61ee36966977")
 		 (:keywords "applications" "tools" "convenience")
 		 (:authors
 		  ("James Dyer" . "captainflasmr@gmail.com"))
@@ -60492,13 +60494,13 @@
 	      (nil . "aix.bing@gmail.com"))
 	     (:maintainer nil . "aix.bing@gmail.com"))])
  (pdd .
-      [(0 1 0 1 -4 20250531 254)
+      [(0 1 0 1 -4 20250531 1253)
        ((emacs
 	 (28 1)))
        "HTTP library & Async Toolkit" tar
        ((:url . "https://github.com/lorniu/pdd.el")
-	(:commit . "9a7db842b325c6de497c399d347e4cd4cabbde19")
-	(:revdesc . "9a7db842b325")
+	(:commit . "cf45dccead3895463d284dda135d1236fb5d760d")
+	(:revdesc . "cf45dccead38")
 	(:authors
 	 ("lorniu" . "lorniu@gmail.com"))
 	(:maintainers
@@ -63623,7 +63625,7 @@
 			 ("USAMI Kenta" . "tadsan@zonu.me"))
 			(:maintainer "USAMI Kenta" . "tadsan@zonu.me"))])
  (projection .
-	     [(0 1 0 1 -4 20250531 1124)
+	     [(0 1 0 1 -4 20250531 1228)
 	      ((emacs
 		(29 1))
 	       (project
@@ -63636,8 +63638,8 @@
 		(1 13)))
 	      "Project type support for `project'" tar
 	      ((:url . "https://github.com/mohkale/projection")
-	       (:commit . "c92a64088947d2d7381a1a53b53473a89bc57e87")
-	       (:revdesc . "c92a64088947")
+	       (:commit . "8b5f59c12097ca7507d12fef15c8d02f2fd9ab5b")
+	       (:revdesc . "8b5f59c12097")
 	       (:keywords "project" "convenience")
 	       (:authors
 		("Mohsin Kaleem" . "mohkale@kisara.moe"))
@@ -72168,11 +72170,11 @@
 			     ("Dominic Charlesworth" . "dgc336@gmail.com"))
 			    (:maintainer "Dominic Charlesworth" . "dgc336@gmail.com"))])
  (spacemacs-theme .
-		  [(0 2 1 -4 20241101 1030)
+		  [(0 2 1 -4 20250531 1225)
 		   nil "Color theme with a dark and light versions" tar
 		   ((:url . "https://github.com/nashamri/spacemacs-theme")
-		    (:commit . "6c74684c4d55713c8359bedf1936e429918a8c33")
-		    (:revdesc . "6c74684c4d55")
+		    (:commit . "80b00f65ba5b06c573c7bf3f8528800150270c84")
+		    (:revdesc . "80b00f65ba5b")
 		    (:keywords "color" "theme"))])
  (spaces .
 	 [(0 1 0 1 -4 20170809 2208)
