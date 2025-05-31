@@ -1155,16 +1155,18 @@
 		("Akib Azmain Turja" . "akib@disroot.org"))
 	       (:commit . "f31dbe60478b6270bb57b6b05998df8eec56f801"))])
  (gnuplot .
-	  [(0 9 0 20250530 223436)
+	  [(0 9 0 20250531 170110)
 	   ((emacs
-	     (25 1)))
+	     (28 1))
+	    (compat
+	     (30)))
 	   "Major-mode and interactive frontend for gnuplot" tar
 	   ((:url . "https://github.com/emacs-gnuplot/gnuplot")
 	    (:keywords "data" "gnuplot" "plotting")
 	    (:maintainer
 	     ("Maxime Tréca" . "maxime@gmail.com")
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	    (:commit . "f78da5b3394439f8f4f30a4aa30637eaf2bec63b"))])
+	    (:commit . "85c5a6ae32359f6505f03a9da080915825ec191e"))])
  (go-mode .
 	  [(1 6 0 0 20250311 20239)
 	   ((emacs
@@ -1204,7 +1206,7 @@
 	      ("David Andersson" . "l.david.anderssonsverige.nu"))
 	     (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel .
-	[(0 9 8 0 20250530 235851)
+	[(0 9 8 0 20250531 115232)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -1217,7 +1219,7 @@
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-	  (:commit . "40ef63b09d64730e213c340026fdb2adf53392a4"))])
+	  (:commit . "70c7ccf8c9528d0b719dce30558eb72756828726"))])
  (graphql-mode .
 	       [(1 0 0 0 20241206 72535)
 		((emacs
@@ -1285,7 +1287,7 @@
 		     (:keywords "languages")
 		     (:commit . "9f63505d5c27312157e362404f5b922d0211be18"))])
  (haskell-ts-mode .
-		  [(1 2 0 0 20250518 53811)
+		  [(1 2 0 0 20250531 81127)
 		   ((emacs
 		     (29 3)))
 		   "A treesit based major mode for haskell" tar
@@ -1294,7 +1296,7 @@
 		    (:maintainer "Pranshu Sharma" . "pranshu@bauherren.ovh")
 		    (:authors
 		     ("Pranshu Sharma" . "pranshu@bauherren.ovh"))
-		    (:commit . "81876a51920931710408e17b45ec8ac19206b318"))])
+		    (:commit . "09be86f39c5576140ade8868bc00093c87ffde09"))])
  (helm .
        [(4 0 3 0 20250529 40054)
 	((helm-core
@@ -2389,13 +2391,13 @@
 		     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 		    (:commit . "5d136736f76c85a83fef737d10ecd32af4d493fd"))])
  (spacemacs-theme .
-		  [(0 2 0 20241101 103011)
+		  [(0 2 0 20250531 122521)
 		   ((emacs
 		     (24)))
 		   "Color theme with a dark and light versions." tar
 		   ((:url . "https://github.com/nashamri/spacemacs-theme")
 		    (:keywords "color" "theme")
-		    (:commit . "6c74684c4d55713c8359bedf1936e429918a8c33"))])
+		    (:commit . "80b00f65ba5b06c573c7bf3f8528800150270c84"))])
  (spell-fu .
 	   [(0 3 0 20241011 20613)
 	    ((emacs
