@@ -4676,6 +4676,15 @@
 		    (:maintainers
 		     ("Peter W. V. Tran-Jørgensen" . "peter.w.v.jorgensen@gmail.com"))
 		    (:maintainer "Peter W. V. Tran-Jørgensen" . "peter.w.v.jorgensen@gmail.com"))])
+ (bible-gateway .
+		[(0 1 0 1 -4 20250529 2232)
+		 ((emacs
+		   (29 1)))
+		 "A Simple BibleGateway Client" tar
+		 ((:url . "https://github.com/kristjoc/bible-gateway")
+		  (:commit . "97bfe65f41b1f3b5d120d689806926bb2d5c4f43")
+		  (:revdesc . "97bfe65f41b1")
+		  (:keywords "convenience" "comm" "hypermedia"))])
  (biblio .
 	 [(0 1 0 1 -4 20250409 2132)
 	  ((emacs
@@ -13782,13 +13791,13 @@
 		 ("Brady Trainor" . "mail@bradyt.com"))
 		(:maintainer "Brady Trainor" . "mail@bradyt.com"))])
  (daselt .
-	 [(1 0 1 -4 20250531 2031)
+	 [(1 0 1 -4 20250601 1703)
 	  ((emacs
 	    (30 1)))
 	  "Module for the Daselt configuration scheme" tar
 	  ((:url . "https://gitlab.com/nameiwillforget/d-emacs/")
-	   (:commit . "f4033329752f0d33e38126e267d3bebf20ac58bc")
-	   (:revdesc . "f4033329752f")
+	   (:commit . "6c44cabefa4e6a36f64d4bc250e6d1cf8f2901df")
+	   (:revdesc . "6c44cabefa4e")
 	   (:keywords "tools")
 	   (:authors
 	    ("Alexander Prähauser" . "ahprae@protonmail.com"))
@@ -31379,15 +31388,15 @@
 		("Akib Azmain Turja" . "akib@disroot.org"))
 	       (:maintainer "Akib Azmain Turja" . "akib@disroot.org"))])
  (gnuplot .
-	  [(0 1 0 1 -4 20250601 1155)
+	  [(0 1 0 1 -4 20250601 1700)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30)))
 	   "Major-mode and interactive frontend for gnuplot" tar
 	   ((:url . "https://github.com/emacs-gnuplot/gnuplot")
-	    (:commit . "7c585deb8f52f38b1f5057ee6119490be146e967")
-	    (:revdesc . "7c585deb8f52")
+	    (:commit . "00b8395f1aad1cf507525529971b8ff26614af77")
+	    (:revdesc . "00b8395f1aad")
 	    (:keywords "data" "gnuplot" "plotting")
 	    (:maintainers
 	     ("Maxime Tréca" . "maxime@gmail.com")
@@ -79891,15 +79900,6 @@
 	   (:maintainers
 	    ("Daniel Brockman" . "daniel@brockman.se"))
 	   (:maintainer "Daniel Brockman" . "daniel@brockman.se"))])
- (votd .
-       [(0 1 0 1 -4 20250424 1603)
-	((emacs
-	  (29 1)))
-	"Bible Verse Of The Day" tar
-	((:url . "https://github.com/kristjoc/votd")
-	 (:commit . "2a8e2348714f4aaf3edec20d47bbec12e6603141")
-	 (:revdesc . "2a8e2348714f")
-	 (:keywords "convenience" "comm" "hypermedia"))])
  (vs-dark-theme .
 		[(0 1 0 1 -4 20250408 452)
 		 ((emacs
