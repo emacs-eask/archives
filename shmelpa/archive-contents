@@ -62278,6 +62278,15 @@
 	      (:maintainers
 	       ("Ryan Miller" . "ryan@devopsmachine.com"))
 	      (:maintainer "Ryan Miller" . "ryan@devopsmachine.com"))])
+ (polish-holidays .
+		  [(0 1 0 1 -4 20250525 1926)
+		   ((emacs
+		     (24 1)))
+		   "Polish holidays" tar
+		   ((:url . "https://github.com/przemarbor/polish-holidays")
+		    (:commit . "0683dc0008d06f6394c0790872d1f44f7b65bd96")
+		    (:revdesc . "0683dc0008d0")
+		    (:keywords "calendar"))])
  (pollen-mode .
 	      [(1 0 1 -4 20220904 447)
 	       ((emacs
@@ -64850,7 +64859,7 @@
 		 ("Thomas Hisch" . "t.hisch@gmail.com"))
 		(:maintainer "Thomas Hisch" . "t.hisch@gmail.com"))])
  (python-coverage .
-		  [(1 0 0 1 -4 20240703 917)
+		  [(0 1 0 1 -4 20250601 1621)
 		   ((emacs
 		     (25 1))
 		    (dash
@@ -64858,11 +64867,11 @@
 		    (s
 		     (1 12 0))
 		    (xml+
-		     (1)))
+		     (0)))
 		   "Show Python coverage via overlays or Flycheck" tar
 		   ((:url . "https://github.com/wbolster/emacs-python-coverage")
-		    (:commit . "7077dabdee59efe1d7116149cdc0ef40e6816c2b")
-		    (:revdesc . "7077dabdee59")
+		    (:commit . "ec1789b8cbbfd58b8f4f687c2e4efb7e30429643")
+		    (:revdesc . "ec1789b8cbbf")
 		    (:keywords "languages" "processes" "tools")
 		    (:authors
 		     ("wouter bolsterlee" . "wouter@bolsterl.ee"))
@@ -65602,6 +65611,15 @@
 	   (:maintainers
 	    ("Rich Alesi" . "https://github.com/ralesi"))
 	   (:maintainer "Rich Alesi" . "https://github.com/ralesi"))])
+ (rasi-mode .
+	    [(0 1 0 1 -4 20250522 1354)
+	     ((emacs
+	       (24 3)))
+	     "Major mode for editing RASI configuration files" tar
+	     ((:url . "https://github.com/taquangtrung/emacs-rasi-mode")
+	      (:commit . "a946f46ae930edccf7382f9192c9bb8b1b8d22c2")
+	      (:revdesc . "a946f46ae930")
+	      (:keywords "languages"))])
  (rats .
        [(0 1 0 1 -4 20170818 1013)
 	((s
