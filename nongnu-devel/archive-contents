@@ -618,7 +618,7 @@
 	    ("Tim Vaughan" . "plugd@thelambdalab.xyz"))
 	   (:commit . "972a069f240f071a79da23c98d3519df45bb5851"))])
  (emacsql .
-	  [(4 3 0 0 20250529 95634)
+	  [(4 3 1 0 20250601 100932)
 	   ((emacs
 	     (26 1)))
 	   "High-level SQL database front-end" tar
@@ -626,7 +626,7 @@
 	    (:maintainer "Jonas Bernoulli" . "emacs.emacsql@jonas.bernoulli.dev")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
-	    (:commit . "2e91094b9a902c3dad8830e6e6a03902a322707d"))])
+	    (:commit . "ced062890061b6e4fbe4d00c0617f7ff84fff25c"))])
  (engine-mode .
 	      [(2 2 4 0 20230911 95607)
 	       ((emacs
@@ -1155,7 +1155,7 @@
 		("Akib Azmain Turja" . "akib@disroot.org"))
 	       (:commit . "f31dbe60478b6270bb57b6b05998df8eec56f801"))])
  (gnuplot .
-	  [(0 9 0 20250601 75603)
+	  [(0 9 0 20250601 170219)
 	   ((emacs
 	     (28 1))
 	    (compat
@@ -1166,7 +1166,7 @@
 	    (:maintainer
 	     ("Maxime Tréca" . "maxime@gmail.com")
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	    (:commit . "9283ad9acf55a905ec416620117b3990b2d89225"))])
+	    (:commit . "1b22dea2400f4d5a3a124a191d374767df1f0e3a"))])
  (go-mode .
 	  [(1 6 0 0 20250311 20239)
 	   ((emacs
@@ -1206,7 +1206,7 @@
 	      ("David Andersson" . "l.david.anderssonsverige.nu"))
 	     (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel .
-	[(0 9 8 0 20250531 152027)
+	[(0 9 8 0 20250601 124131)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -1219,7 +1219,7 @@
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-	  (:commit . "35b752f00bf22682659350f07b4ea5c2dfb9a36b"))])
+	  (:commit . "825a32f290f350429dd07b8a2f96b0a45490f66a"))])
  (graphql-mode .
 	       [(1 0 0 0 20241206 72535)
 		((emacs
@@ -1298,7 +1298,7 @@
 		     ("Pranshu Sharma" . "pranshu@bauherren.ovh"))
 		    (:commit . "09be86f39c5576140ade8868bc00093c87ffde09"))])
  (helm .
-       [(4 0 3 0 20250529 40054)
+       [(4 0 3 0 20250601 103908)
 	((helm-core
 	  (4 0 3))
 	 (wfnames
@@ -1309,9 +1309,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "7634902a5f7cb3a2b081721b06fe1355e58f94f7"))])
+	 (:commit . "615b6136188d6e90ae1217dc68b4fc4333abee4e"))])
  (helm-core .
-	    [(4 0 3 0 20250529 40054)
+	    [(4 0 3 0 20250601 103908)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1321,7 +1321,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "7634902a5f7cb3a2b081721b06fe1355e58f94f7"))])
+	      (:commit . "615b6136188d6e90ae1217dc68b4fc4333abee4e"))])
  (hideshowvis .
 	      [(0 8 0 20250225 175051)
 	       ((emacs
@@ -1545,15 +1545,15 @@
 		 ("Shodai Yokoyama" . "(quantumcars@gmail.com)"))
 		(:commit . "fddd747e5b4736e8b27a147960f369b86179ddff"))])
  (llama .
-	[(0 6 2 0 20250509 122131)
+	[(0 6 3 0 20250601 100011)
 	 ((emacs
 	   (26 1))
 	  (compat
-	   (30 0 2 0)))
+	   (30 1)))
 	 "Compact syntax for short lambda" tar
 	 ((:url . "https://github.com/tarsius/llama")
 	  (:keywords "extensions")
-	  (:commit . "7de288e79329bfb3e2b4a2f9b574cf834bd371dd"))])
+	  (:commit . "6a67e4253cc02aa9ce85ef96290c95198b65d913"))])
  (logview .
 	  [(0 19 3 -4 0 20250401 172309)
 	   ((emacs
@@ -1674,13 +1674,13 @@
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
 	  (:commit . "9e551d9eb7c82ef71b72a19b4bb0e868a0ce8fec"))])
  (magit-section .
-		[(4 3 5 0 20250531 124433)
+		[(4 3 6 0 20250601 102812)
 		 ((emacs
 		   (27 1))
 		  (compat
-		   (30 0 2 0))
+		   (30 1))
 		  (llama
-		   (0 6 1))
+		   (0 6 3))
 		  (seq
 		   (2 24)))
 		 "Sections for read-only buffers" tar
@@ -1689,7 +1689,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "9e551d9eb7c82ef71b72a19b4bb0e868a0ce8fec"))])
+		  (:commit . "2f1ff91f128f28aa277e0e060ef44b4be8a989c1"))])
  (markdown-mode .
 		[(2 8 -3 0 20250501 55146)
 		 ((emacs
