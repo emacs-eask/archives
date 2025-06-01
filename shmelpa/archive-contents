@@ -20253,13 +20253,13 @@
 		   ("DarkSun" . "lujun9972@gmail.com"))
 		  (:maintainer "DarkSun" . "lujun9972@gmail.com"))])
  (emacsql .
-	  [(0 1 0 1 -4 20250401 1500)
+	  [(0 1 0 1 -4 20250601 1009)
 	   ((emacs
 	     (26 1)))
 	   "High-level SQL database front-end" tar
 	   ((:url . "https://github.com/magit/emacsql")
-	    (:commit . "5470adaf5dcabebc80c913ac831258fd47a87cbe")
-	    (:revdesc . "5470adaf5dca")
+	    (:commit . "ced062890061b6e4fbe4d00c0617f7ff84fff25c")
+	    (:revdesc . "ced062890061")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainers
@@ -28585,7 +28585,7 @@
 		  ("Matúš Goljer" . "matus.goljer@gmail.com"))
 		 (:maintainer "Matúš Goljer" . "matus.goljer@gmail.com"))])
  (fontsloth .
-	    [(0 1 0 1 -4 20250531 2155)
+	    [(0 1 0 1 -4 20250601 207)
 	     ((f
 	       (0 20 0))
 	      (logito
@@ -28598,8 +28598,8 @@
 	       (28 1)))
 	     "Elisp otf/ttf font loader/renderer" tar
 	     ((:url . "https://github.com/jollm/fontsloth")
-	      (:commit . "16f01a8cbda4d4da51ec757bb766a3a3f9ba69c3")
-	      (:revdesc . "16f01a8cbda4")
+	      (:commit . "4869ff3279bfeb7285b2d00299498768f8ed0114")
+	      (:revdesc . "4869ff3279bf")
 	      (:keywords "data" "font" "rasterization" "ttf" "otf")
 	      (:authors
 	       ("Jo Gay" . "jo.gay@mailfence.com"))
@@ -30186,21 +30186,21 @@
 	 ("Joseph LaFreniere" . "joseph@lafreniere.xyz"))
 	(:maintainer "Joseph LaFreniere" . "joseph@lafreniere.xyz"))])
  (ghub .
-       [(0 1 0 1 -4 20250509 1440)
+       [(0 1 0 1 -4 20250601 1014)
 	((emacs
 	  (29 1))
 	 (compat
-	  (30 1 0 0))
+	  (30 1))
 	 (let-alist
 	     (1 0 6))
 	 (llama
-	  (0 6 2))
+	  (0 6 3))
 	 (treepy
 	  (0 1 2)))
 	"Client libraries for Git forge APIs" tar
 	((:url . "https://github.com/magit/ghub")
-	 (:commit . "6bb612e7b7eada22569d84cc529f4ca36e08032d")
-	 (:revdesc . "6bb612e7b7ea")
+	 (:commit . "97a07691efad6fc16bc000a35be80d4f8dae251a")
+	 (:revdesc . "97a07691efad")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
@@ -45185,15 +45185,15 @@
 	      ("Claus Brunzema" . "mail@cbrunzema.de"))
 	     (:maintainer "Claus Brunzema" . "mail@cbrunzema.de"))])
  (llama .
-	[(0 1 0 1 -4 20250509 1221)
+	[(0 1 0 1 -4 20250601 1000)
 	 ((emacs
 	   (26 1))
 	  (compat
-	   (30 0 2 0)))
+	   (30 1)))
 	 "Compact syntax for short lambda" tar
 	 ((:url . "https://github.com/tarsius/llama")
-	  (:commit . "7de288e79329bfb3e2b4a2f9b574cf834bd371dd")
-	  (:revdesc . "7de288e79329")
+	  (:commit . "6a67e4253cc02aa9ce85ef96290c95198b65d913")
+	  (:revdesc . "6a67e4253cc0")
 	  (:keywords "extensions"))])
  (llama-cpp .
 	    [(1 0 0 1 -4 20240511 1039)
@@ -46507,25 +46507,25 @@
 	       (:revdesc . "17f1a1a7d314")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20250531 1244)
+	[(0 1 0 1 -4 20250601 1028)
 	 ((emacs
 	   (27 1))
 	  (compat
-	   (30 1 0 0))
+	   (30 1))
 	  (llama
-	   (0 6 2))
+	   (0 6 3))
 	  (magit-section
-	   (4 3 5))
+	   (4 3 6))
 	  (seq
 	   (2 24))
 	  (transient
-	   (0 8 8))
+	   (0 9 0))
 	  (with-editor
-	   (3 4 3)))
+	   (3 4 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "9e551d9eb7c82ef71b72a19b4bb0e868a0ce8fec")
-	  (:revdesc . "9e551d9eb7c8")
+	  (:commit . "2f1ff91f128f28aa277e0e060ef44b4be8a989c1")
+	  (:revdesc . "2f1ff91f128f")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -46878,19 +46878,19 @@
 		       ("Jules Tamagnan" . "jtamagnan@gmail.com"))
 		      (:maintainer "Jules Tamagnan" . "jtamagnan@gmail.com"))])
  (magit-section .
-		[(0 1 0 1 -4 20250531 1230)
+		[(0 1 0 1 -4 20250601 1028)
 		 ((emacs
 		   (27 1))
 		  (compat
-		   (30 0 2 0))
+		   (30 1))
 		  (llama
-		   (0 6 1))
+		   (0 6 3))
 		  (seq
 		   (2 24)))
 		 "Sections for read-only buffers" tar
 		 ((:url . "https://github.com/magit/magit")
-		  (:commit . "66f3cdaca41a041ff8c3ebcbd97cc9e33843b80c")
-		  (:revdesc . "66f3cdaca41a")
+		  (:commit . "2f1ff91f128f28aa277e0e060ef44b4be8a989c1")
+		  (:revdesc . "2f1ff91f128f")
 		  (:keywords "tools")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -49573,15 +49573,15 @@
 		    ("Jessie Hildebrandt" . "jessieh.net"))
 		   (:maintainer "Jessie Hildebrandt" . "jessieh.net"))])
  (moody .
-	[(0 1 0 1 -4 20250505 1556)
+	[(0 1 0 1 -4 20250601 1001)
 	 ((emacs
 	   (26 1))
 	  (compat
-	   (30 0 1 0)))
+	   (30 1)))
 	 "Tabs and ribbons for the mode line" tar
 	 ((:url . "https://github.com/tarsius/moody")
-	  (:commit . "bc7d4c2e89fb9e568ad58f5f34d4bb6fc76b8c75")
-	  (:revdesc . "bc7d4c2e89fb")
+	  (:commit . "477e3797d8ab5e7b5cb6c7b7940dfef162380d32")
+	  (:revdesc . "477e3797d8ab")
 	  (:keywords "faces")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.moody@jonas.bernoulli.dev"))
@@ -58562,15 +58562,15 @@
 		   ("Thorsten Jolitz" . "tjolitzATgmailDOTcom"))
 		  (:maintainer "Thorsten Jolitz" . "tjolitzATgmailDOTcom"))])
  (outline-minor-faces .
-		      [(0 1 0 1 -4 20250529 1604)
+		      [(0 1 0 1 -4 20250601 1003)
 		       ((emacs
 			 (26 1))
 			(compat
-			 (30 0 1 0)))
+			 (30 1)))
 		       "Highlight only section headings" tar
 		       ((:url . "https://github.com/tarsius/outline-minor-faces")
-			(:commit . "4a67945e85f752c19ee6507d04dba4c12bae05a5")
-			(:revdesc . "4a67945e85f7")
+			(:commit . "cb06d2db125ba65fb8c4eb7e5dc6cc6bf3b6dc7e")
+			(:revdesc . "cb06d2db125b")
 			(:keywords "faces" "outlines")
 			(:authors
 			 ("Jonas Bernoulli" . "emacs.outline-minor-faces@jonas.bernoulli.dev"))
@@ -76655,17 +76655,17 @@
 			      (:revdesc . "57911a5065a6")
 			      (:keywords "convenience" "tools"))])
  (transient .
-	    [(0 1 0 1 -4 20250530 2040)
+	    [(0 1 0 1 -4 20250601 1019)
 	     ((emacs
 	       (26 1))
 	      (compat
-	       (30 1 0 0))
+	       (30 1))
 	      (seq
 	       (2 24)))
 	     "Transient commands" tar
 	     ((:url . "https://github.com/magit/transient")
-	      (:commit . "b710423225373bad8c2517d741d911a1b4468514")
-	      (:revdesc . "b71042322537")
+	      (:commit . "ef28fbe24d43760925f0143e009bc81a20b025e3")
+	      (:revdesc . "ef28fbe24d43")
 	      (:keywords "extensions")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
