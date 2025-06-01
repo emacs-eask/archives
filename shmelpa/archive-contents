@@ -1253,11 +1253,11 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (aider .
-	[(0 1 0 1 -4 20250530 438)
+	[(0 1 0 1 -4 20250601 1600)
 	 ((emacs
 	   (26 1))
 	  (transient
-	   (20250520 1040))
+	   (0 9 0))
 	  (magit
 	   (2 1 0))
 	  (markdown-mode
@@ -1266,8 +1266,8 @@
 	   (1 13 0)))
 	 "AI assisted programming in Emacs with Aider" tar
 	 ((:url . "https://github.com/tninja/aider.el")
-	  (:commit . "b470775e17075693d98591fedaf2feee530ade38")
-	  (:revdesc . "b470775e1707")
+	  (:commit . "b88a5dc9d9b28724b76c92d59022346f107b600a")
+	  (:revdesc . "b88a5dc9d9b2")
 	  (:keywords "ai" "gpt" "sonnet" "llm" "aider" "gemini-pro" "deepseek" "ai-assisted-coding")
 	  (:authors
 	   ("Kang Tu" . "tninja@gmail.com"))
@@ -3782,20 +3782,6 @@
 		   (:maintainers
 		    ("Adriano Martinez" . "uberkael@gmail.com"))
 		   (:maintainer "Adriano Martinez" . "uberkael@gmail.com"))])
- (aws-athena-babel .
-		   [(0 1 0 1 -4 20250420 1632)
-		    ((emacs
-		      (26 1)))
-		    "Run AWS Athena queries from Org Babel" tar
-		    ((:url . "https://github.com/will-abb/aws-athena-babel")
-		     (:commit . "fce1b2d49e0862782405168f37a2dc392f6f8928")
-		     (:revdesc . "fce1b2d49e08")
-		     (:keywords "aws" "athena" "org" "babel" "sql" "tools")
-		     (:authors
-		      ("Williams Bosch-Bello" . "williamsbosch@gmail.com"))
-		     (:maintainers
-		      ("Williams Bosch-Bello" . "williamsbosch@gmail.com"))
-		     (:maintainer "Williams Bosch-Bello" . "williamsbosch@gmail.com"))])
  (aws-ec2 .
 	  [(0 0 3 1 -4 20221011 538)
 	   ((emacs
@@ -4509,6 +4495,20 @@
 		     (:maintainers
 		      ("Yauhen Makei" . "yauhen.makei@gmail.com"))
 		     (:maintainer "Yauhen Makei" . "yauhen.makei@gmail.com"))])
+ (beluga-mode .
+	      [(0 1 0 1 -4 20250519 2027)
+	       ((emacs
+		 (24 4)))
+	       "Major mode for Beluga source code" tar
+	       ((:url . "https://github.com/Beluga-lang/Beluga")
+		(:commit . "8bf5054bc10e0d56f6ae8552f366da2f6d43b188")
+		(:revdesc . "8bf5054bc10e")
+		(:keywords "languages")
+		(:authors
+		 ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
+		(:maintainers
+		 (nil . "beluga-dev@cs.mcgill.ca"))
+		(:maintainer nil . "beluga-dev@cs.mcgill.ca"))])
  (benchmark-init .
 		 [(0 1 0 1 -4 20250313 1200)
 		  ((emacs
@@ -7355,7 +7355,7 @@
 	       ("Andrew Myers" . "am2605@gmail.com"))
 	      (:maintainer "Andrew Myers" . "am2605@gmail.com"))])
  (cfn-mode .
-	   [(0 1 0 1 -4 20250504 804)
+	   [(0 1 0 1 -4 20250601 805)
 	    ((emacs
 	      (27 0))
 	     (f
@@ -7366,8 +7366,8 @@
 	      (0 0 13)))
 	    "AWS cloudformation mode" tar
 	    ((:url . "https://gitlab.com/worr/cfn-mode")
-	     (:commit . "cea4db0ea7ffeef14cf667ecf0d5fddd1d0340b2")
-	     (:revdesc . "cea4db0ea7ff")
+	     (:commit . "62ef7ab01ea02a0123b3e16db69f8fcc6c4d7471")
+	     (:revdesc . "62ef7ab01ea0")
 	     (:keywords "convenience" "languages" "tools")
 	     (:authors
 	      ("William Orr" . "will@worrbase.com"))
@@ -13781,6 +13781,20 @@
 		(:maintainers
 		 ("Brady Trainor" . "mail@bradyt.com"))
 		(:maintainer "Brady Trainor" . "mail@bradyt.com"))])
+ (daselt .
+	 [(1 0 1 -4 20250531 2031)
+	  ((emacs
+	    (30 1)))
+	  "Module for the Daselt configuration scheme" tar
+	  ((:url . "https://gitlab.com/nameiwillforget/d-emacs/")
+	   (:commit . "f4033329752f0d33e38126e267d3bebf20ac58bc")
+	   (:revdesc . "f4033329752f")
+	   (:keywords "tools")
+	   (:authors
+	    ("Alexander Prähauser" . "ahprae@protonmail.com"))
+	   (:maintainers
+	    ("Alexander Prähauser" . "ahprae@protonmail.com"))
+	   (:maintainer "Alexander Prähauser" . "ahprae@protonmail.com"))])
  (dash .
        [(0 1 0 1 -4 20250312 1307)
 	((emacs
@@ -41781,6 +41795,20 @@
 		  (:maintainers
 		   ("Sterling Graham" . "sterlingrgraham@gmail.com"))
 		  (:maintainer "Sterling Graham" . "sterlingrgraham@gmail.com"))])
+ (json5-ts-mode .
+		[(0 1 0 1 -4 20250526 1505)
+		 ((emacs
+		   (29 1)))
+		 "Major mode for JSON5" tar
+		 ((:url . "https://github.com/dochang/json5-ts-mode")
+		  (:commit . "21233ff6386529be26d147d46681119918a9451a")
+		  (:revdesc . "21233ff63865")
+		  (:keywords "json5" "languages" "tree-sitter")
+		  (:authors
+		   ("ZHANG Weiyi" . "dochang@gmail.com"))
+		  (:maintainers
+		   ("ZHANG Weiyi" . "dochang@gmail.com"))
+		  (:maintainer "ZHANG Weiyi" . "dochang@gmail.com"))])
  (jsonian .
 	  [(0 1 0 1 -4 20250507 1231)
 	   ((emacs
@@ -44450,13 +44478,13 @@
 	      ("Ramkumar R. Aiyengar" . "andyetitmoves@gmail.com"))
 	     (:maintainer "Ramkumar R. Aiyengar" . "andyetitmoves@gmail.com"))])
  (libmpdel .
-	   [(2 0 0 1 -4 20230816 839)
+	   [(0 1 0 1 -4 20250601 1544)
 	    ((emacs
 	      (25 1)))
 	    "Communication with an MPD server" tar
 	    ((:url . "https://github.com/mpdel/libmpdel")
-	     (:commit . "ca5397f1d66462e11c9ff4a49d308d92aef31b29")
-	     (:revdesc . "ca5397f1d664")
+	     (:commit . "f120aae409acf478542134cb2f562810ef32a731")
+	     (:revdesc . "f120aae409ac")
 	     (:keywords "multimedia")
 	     (:authors
 	      ("Damien Cassou" . "damien@cassou.me"))
@@ -47918,6 +47946,22 @@
 	      (:maintainers
 	       ("Akinori MUSHA" . "knu@iDaemons.org"))
 	      (:maintainer "Akinori MUSHA" . "knu@iDaemons.org"))])
+ (mcp .
+      [(0 1 0 1 -4 20250529 836)
+       ((emacs
+	 (30 1))
+	(jsonrpc
+	 (1 0 25)))
+       "Model Context Protocol" tar
+       ((:url . "https://github.com/lizqwerscott/mcp.el")
+	(:commit . "d023e4858af5cc4c8cb0a6f28262c88485a06b2b")
+	(:revdesc . "d023e4858af5")
+	(:keywords "tools")
+	(:authors
+	 ("lizqwer scott" . "lizqwerscott@gmail.com"))
+	(:maintainers
+	 ("lizqwer scott" . "lizqwerscott@gmail.com"))
+	(:maintainer "lizqwer scott" . "lizqwerscott@gmail.com"))])
  (md-readme .
 	    [(0 1 0 1 -4 20191112 1943)
 	     nil "Markdown-formatted READMEs for your ELisp" tar
@@ -52708,6 +52752,20 @@
 	     (:maintainers
 	      ("Andrew Stahlman" . "andrewstahlman@gmail.com"))
 	     (:maintainer "Andrew Stahlman" . "andrewstahlman@gmail.com"))])
+ (ob-athena .
+	    [(0 1 0 1 -4 20250526 1930)
+	     ((emacs
+	       (26 1)))
+	     "Run AWS Athena queries from Org Babel" tar
+	     ((:url . "https://github.com/will-abb/aws-athena-babel")
+	      (:commit . "337444c80d8228cf85a5c25bdd3ecf791e80fb6f")
+	      (:revdesc . "337444c80d82")
+	      (:keywords "aws" "athena" "org" "babel" "sql" "tools")
+	      (:authors
+	       ("Williams Bosch-Bello" . "williamsbosch@gmail.com"))
+	      (:maintainers
+	       ("Williams Bosch-Bello" . "williamsbosch@gmail.com"))
+	      (:maintainer "Williams Bosch-Bello" . "williamsbosch@gmail.com"))])
  (ob-base64 .
 	    [(0 1 0 1 -4 20241209 748)
 	     ((emacs
@@ -59408,15 +59466,15 @@
 	     ("Naoya Yamashita" . "conao3@gmail.com"))
 	    (:maintainer "Naoya Yamashita" . "conao3@gmail.com"))])
  (p-search .
-	   [(0 1 0 1 -4 20250531 1810)
+	   [(0 1 0 1 -4 20250601 1523)
 	    ((emacs
 	      (29 1))
 	     (compat
 	      (29 1)))
 	    "Emacs Search Tool Aggregator" tar
 	    ((:url . "https://github.com/zkry/p-search")
-	     (:commit . "021da673d130d5d862d778f810679e84e2e00a08")
-	     (:revdesc . "021da673d130")
+	     (:commit . "d51ba2bf042265e7e04369c7b733f40a1f416343")
+	     (:revdesc . "d51ba2bf0422")
 	     (:keywords "tools"))])
  (p4 .
      [(12 0 1 -4 20150721 1937)
@@ -60505,13 +60563,13 @@
 	      (nil . "aix.bing@gmail.com"))
 	     (:maintainer nil . "aix.bing@gmail.com"))])
  (pdd .
-      [(0 1 0 1 -4 20250531 1253)
+      [(0 1 0 1 -4 20250601 1623)
        ((emacs
 	 (28 1)))
        "HTTP library & Async Toolkit" tar
        ((:url . "https://github.com/lorniu/pdd.el")
-	(:commit . "cf45dccead3895463d284dda135d1236fb5d760d")
-	(:revdesc . "cf45dccead38")
+	(:commit . "bb8278ca2c4a0af1fba56a0f17fb09dc64a0136b")
+	(:revdesc . "bb8278ca2c4a")
 	(:authors
 	 ("lorniu" . "lorniu@gmail.com"))
 	(:maintainers
