@@ -11342,15 +11342,15 @@
 		    ("Jannis Pohlmann" . "contact@jannispohlmann.de"))
 		   (:maintainer "Jannis Pohlmann" . "contact@jannispohlmann.de"))])
  (consult .
-	  [(0 1 0 1 -4 20250601 1119)
+	  [(0 1 0 1 -4 20250602 2250)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30)))
 	   "Consulting completing-read" tar
 	   ((:url . "https://github.com/minad/consult")
-	    (:commit . "0862079f9f4f54379afb567728afbe631644522c")
-	    (:revdesc . "0862079f9f4f")
+	    (:commit . "8a683607c1e346fb0c5fcacf2248b11cc55f5141")
+	    (:revdesc . "8a683607c1e3")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainers
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -13791,13 +13791,13 @@
 		 ("Brady Trainor" . "mail@bradyt.com"))
 		(:maintainer "Brady Trainor" . "mail@bradyt.com"))])
  (daselt .
-	 [(1 0 1 -4 20250601 1703)
+	 [(1 0 1 -4 20250602 2255)
 	  ((emacs
 	    (30 1)))
 	  "Module for the Daselt configuration scheme" tar
 	  ((:url . "https://gitlab.com/nameiwillforget/d-emacs/")
-	   (:commit . "6c44cabefa4e6a36f64d4bc250e6d1cf8f2901df")
-	   (:revdesc . "6c44cabefa4e")
+	   (:commit . "86775cba6562f4c34c2ee1cba394deb01bbf6a6b")
+	   (:revdesc . "86775cba6562")
 	   (:keywords "tools")
 	   (:authors
 	    ("Alexander Prähauser" . "ahprae@protonmail.com"))
@@ -32403,7 +32403,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20250602 100)
+	[(0 1 0 1 -4 20250602 2242)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -32412,8 +32412,8 @@
 	   (29 1 4 1)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "b0f80b1ed9608f273753135bb6b42b3527512962")
-	  (:revdesc . "b0f80b1ed960")
+	  (:commit . "3bfe760d0fadb08cf0ffbdc92e85727864ce179d")
+	  (:revdesc . "3bfe760d0fad")
 	  (:keywords "convenience" "tools")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -39250,13 +39250,13 @@
 	   (:authors
 	    ("H. Dieter Wilhelm" . "dieter@duenenhof-wilhelm.de")))])
  (inform-mode .
-	      [(0 1 0 1 -4 20250422 1949)
+	      [(0 1 0 1 -4 20250602 2351)
 	       ((emacs
 		 (29 1)))
 	       "Major mode for Inform 6 interactive fiction code" tar
 	       ((:url . "https://rrthomas.github.io/inform-mode")
-		(:commit . "71ae49c060b0cef8deee9fe6361d42ed64980e48")
-		(:revdesc . "71ae49c060b0")
+		(:commit . "e03289d0d056a6e35737612650c7a6060537f726")
+		(:revdesc . "e03289d0d056")
 		(:keywords "languages")
 		(:authors
 		 ("Rupert Lane" . "rupert@rupert-lane.org")
@@ -72878,20 +72878,6 @@
 		    (:maintainers
 		     ("Peter Hoeg" . "peter@hoeg.com"))
 		    (:maintainer "Peter Hoeg" . "peter@hoeg.com"))])
- (ssh-deploy .
-	     [(0 1 0 1 -4 20241117 1850)
-	      ((emacs
-		(25)))
-	      "Deployment via Tramp, global or per directory" tar
-	      ((:url . "https://github.com/cjohansson/emacs-ssh-deploy")
-	       (:commit . "dc8882d1806c0fdd635bc625b109179dfa3c929c")
-	       (:revdesc . "dc8882d1806c")
-	       (:keywords "tools" "convenience")
-	       (:authors
-		("Christian Johansson" . "christian@cvj.se"))
-	       (:maintainers
-		("Christian Johansson" . "christian@cvj.se"))
-	       (:maintainer "Christian Johansson" . "christian@cvj.se"))])
  (ssh-tunnels .
 	      [(1 0 1 -4 20220721 1242)
 	       ((cl-lib
@@ -77853,17 +77839,19 @@
 	   ("Mark Karpov" . "markkarpov92@gmail.com"))
 	  (:maintainer "Mark Karpov" . "markkarpov92@gmail.com"))])
  (typo .
-       [(1 1 1 -4 20200706 1714)
-	nil "Minor mode for typographic editing" tar
-	((:url . "https://github.com/jorgenschaefer/typoel")
-	 (:commit . "173ebe4fc7ac38f344b16e6eaf41f79e38f20d57")
-	 (:revdesc . "173ebe4fc7ac")
-	 (:keywords "convenience" "wp")
+       [(0 1 0 1 -4 20230725 2003)
+	((emacs
+	  (27 1)))
+	"Completion style using typo analysis" tar
+	((:url . "https://git.sr.ht/~pkal/typo/")
+	 (:commit . "f5920481422460837572646656f8ad2307e70c58")
+	 (:revdesc . "f59204814224")
+	 (:keywords "convenience")
 	 (:authors
-	  ("Jorgen Schaefer" . "forcer@forcix.cx"))
+	  ("Philip Kaludercic" . "philipk@posteo.net"))
 	 (:maintainers
-	  ("Jorgen Schaefer" . "forcer@forcix.cx"))
-	 (:maintainer "Jorgen Schaefer" . "forcer@forcix.cx"))])
+	  ("Philip Kaludercic" . "~pkal/public-inbox@lists.sr.ht"))
+	 (:maintainer "Philip Kaludercic" . "~pkal/public-inbox@lists.sr.ht"))])
  (typo-suggest .
 	       [(0 0 4 1 -4 20200830 1143)
 		((emacs
@@ -79456,15 +79444,15 @@
 		      ("Andreas Gerler" . "baron@bundesbrandschatzamt.de"))
 		     (:maintainer "Andreas Gerler" . "baron@bundesbrandschatzamt.de"))])
  (vertico .
-	  [(0 1 0 1 -4 20250527 1813)
+	  [(0 1 0 1 -4 20250603 13)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30)))
 	   "VERTical Interactive COmpletion" tar
 	   ((:url . "https://github.com/minad/vertico")
-	    (:commit . "f104ac4e2ae890555f6a77b1e741fc9b75914f43")
-	    (:revdesc . "f104ac4e2ae8")
+	    (:commit . "c82f09f9dc1d90aa22728792836551aa4827fb60")
+	    (:revdesc . "c82f09f9dc1d")
 	    (:keywords "convenience" "files" "matching" "completion")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -81639,7 +81627,7 @@
  (wordsmith-mode .
 		 [(20140202 1 1 -4 20210715 1517)
 		  nil "Syntax analysis and NLP text-processing in Emacs (OSX-only)" tar
-		  ((:url . "https://github.com/istib/wordsmith-mode")
+		  ((:url . "https://github.com/emacsattic/wordsmith-mode")
 		   (:commit . "5d40ceaa2b8d41ab3634ca377ceb6a74deeb2287")
 		   (:revdesc . "5d40ceaa2b8d")
 		   (:authors
