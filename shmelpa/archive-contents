@@ -21681,6 +21681,19 @@
 	(:maintainers
 	 ("Nab Inno" . "nab@blahfe.com"))
 	(:maintainer "Nab Inno" . "nab@blahfe.com"))])
+ (esb .
+      [(0 1 0 1 -4 20250602 218)
+       ((emacs
+	 (27 1)))
+       "Emacs Simple Bookmark" tar
+       ((:url . "https://github.com/0xhenrique/esb")
+	(:commit . "874ad790046f35c2a4a5589841f5ee9923ad8d8f")
+	(:revdesc . "874ad790046f")
+	(:authors
+	 ("Henrique Marques" . "hm2030master@proton.me"))
+	(:maintainers
+	 ("Henrique Marques" . "hm2030master@proton.me"))
+	(:maintainer "Henrique Marques" . "hm2030master@proton.me"))])
  (esh-autosuggest .
 		  [(0 1 0 1 -4 20241002 1820)
 		   ((emacs
@@ -22986,6 +22999,22 @@
 			   (:maintainers
 			    ("Michael Markert" . "markert.michael@gmail.com"))
 			   (:maintainer "Michael Markert" . "markert.michael@gmail.com"))])
+ (evil-keypad .
+	      [(0 1 0 1 -4 20250602 2127)
+	       ((emacs
+		 (30 1))
+		(evil
+		 (1 0 0)))
+	       "Modal command dispatch for evil-mode" tar
+	       ((:url . "https://github.com/achyudh/evil-keypad")
+		(:commit . "b51f3cb8072656be97424cca02c0c48fcc22dccd")
+		(:revdesc . "b51f3cb80726")
+		(:keywords "convenience" "emulation")
+		(:authors
+		 ("Achyudh Ram" . "mail@achyudh.me"))
+		(:maintainers
+		 ("Achyudh Ram" . "mail@achyudh.me"))
+		(:maintainer "Achyudh Ram" . "mail@achyudh.me"))])
  (evil-leader .
 	      [(0 4 3 1 -4 20140606 1243)
 	       ((evil
@@ -25468,7 +25497,7 @@
 		    ("Andrew Jose" . "mail@drewsh.com"))
 		   (:maintainer "Andrew Jose" . "mail@drewsh.com"))])
  (flim .
-       [(0 1 0 1 -4 20250519 1729)
+       [(0 1 0 1 -4 20250608 1812)
 	((emacs
 	  (24 5))
 	 (apel
@@ -25477,8 +25506,8 @@
 	  (0 17)))
 	"Basic message representation and encoding features" tar
 	((:url . "https://github.com/emacsmirror/flim")
-	 (:commit . "83d053d10e835664d978a21533ae182bf4bae245")
-	 (:revdesc . "83d053d10e83")
+	 (:commit . "405b5954ab846b975a2e8c4b7c4f3edf2d50ed77")
+	 (:revdesc . "405b5954ab84")
 	 (:keywords "mime" "multimedia" "mail" "news"))])
  (flimenu .
 	  [(0 0 0 1 -4 20200810 1510)
@@ -34259,15 +34288,15 @@
 		  ("Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com"))
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com"))])
  (helm-core .
-	    [(0 1 0 1 -4 20250608 1527)
+	    [(0 1 0 1 -4 20250608 1803)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 9)))
 	     "Development files for Helm" tar
 	     ((:url . "https://emacs-helm.github.io/helm/")
-	      (:commit . "8e0f4a9abfaba80e658b69456f918701db32b292")
-	      (:revdesc . "8e0f4a9abfab")
+	      (:commit . "dd80517f418a166e40b2b306d54f46f95641cce0")
+	      (:revdesc . "dd80517f418a")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainers
@@ -51510,7 +51539,7 @@
 		("Andrew J Cosgriff" . "andrew@cosgriff.name"))
 	       (:maintainer "Andrew J Cosgriff" . "andrew@cosgriff.name"))])
  (nice-org-html .
-		[(0 1 0 1 -4 20250608 1558)
+		[(0 1 0 1 -4 20250608 1715)
 		 ((emacs
 		   (25 1))
 		  (s
@@ -51523,8 +51552,8 @@
 		   (1 0)))
 		 "Prettier org-to-html export" tar
 		 ((:url . "https://github.com/ewantown/nice-org-html")
-		  (:commit . "a3644d5cef25b49ac8745c38373fab2ce4f63255")
-		  (:revdesc . "a3644d5cef25")
+		  (:commit . "bdb49bbe22dbd99489f2c65a10cb90f29d39d80d")
+		  (:revdesc . "bdb49bbe22db")
 		  (:keywords "org" "org-export" "html" "css" "js" "tools")
 		  (:authors
 		   ("Ewan Townshend" . "ewan@etown.dev"))
@@ -53315,6 +53344,20 @@
 	   (:maintainers
 	    ("ZHOU Feng" . "zf.pascal@gmail.com"))
 	   (:maintainer "ZHOU Feng" . "zf.pascal@gmail.com"))])
+ (ob-llm .
+	 [(0 1 0 1 -4 20250607 1452)
+	  ((emacs
+	    (27 1)))
+	  "Use `llm' as an Org Babel language" tar
+	  ((:url . "https://github.com/sunflowerseastar/ob-llm")
+	   (:commit . "35d14e29652d9532c03454524fff6f8baed94c45")
+	   (:revdesc . "35d14e29652d")
+	   (:keywords "llm" "org-mode" "tools" "convenience" "org" "babel")
+	   (:authors
+	    ("Grant Surlyn" . "grant@sunflowerseastar.com"))
+	   (:maintainers
+	    ("Grant Surlyn" . "grant@sunflowerseastar.com"))
+	   (:maintainer "Grant Surlyn" . "grant@sunflowerseastar.com"))])
  (ob-lurk .
 	  [(0 1 7 1 -4 20221122 2058)
 	   ((emacs
@@ -62504,13 +62547,13 @@
 		    ("Mark Dawson" . "markgdawson@gmail.com"))
 		   (:maintainer "Mark Dawson" . "markgdawson@gmail.com"))])
  (polymode .
-	   [(0 1 0 1 -4 20250608 1542)
+	   [(0 1 0 1 -4 20250608 1641)
 	    ((emacs
 	      (25)))
 	    "Extensible framework for multiple major modes" tar
 	    ((:url . "https://github.com/polymode/polymode")
-	     (:commit . "b0828465e66e96531296bf2c5139b394454a3934")
-	     (:revdesc . "b0828465e66e")
+	     (:commit . "a8ad41fa00c6d58ad730026785665c074dd7fe16")
+	     (:revdesc . "a8ad41fa00c6")
 	     (:keywords "languages" "multi-modes" "processes")
 	     (:maintainers
 	      ("Vitalie Spinu" . "spinuvit@gmail.com"))
@@ -68535,6 +68578,15 @@
 		  (:maintainers
 		   ("Karan Ahlawat" . "ahlawatkaran12@gmail.com"))
 		  (:maintainer "Karan Ahlawat" . "ahlawatkaran12@gmail.com"))])
+ (scallop-mode .
+	       [(0 1 0 1 -4 20250522 1432)
+		((emacs
+		  (24 3)))
+		"Major mode for editing Scallop programming language" tar
+		((:url . "https://github.com/taquangtrung/emacs-scallop-mode")
+		 (:commit . "ba416989c3ec64369fe2fe1dafc521ca6821b23d")
+		 (:revdesc . "ba416989c3ec")
+		 (:keywords "languages"))])
  (scf-mode .
 	   [(0 1 1 -4 20151122 248)
 	    nil "Shorten file-names in compilation type buffers" tar
@@ -69167,7 +69219,7 @@
 		       ("Herwig Hochleitner" . "herwig@bendlas.net"))
 		      (:maintainer "Herwig Hochleitner" . "herwig@bendlas.net"))])
  (semi .
-       [(0 1 0 1 -4 20250519 1830)
+       [(0 1 0 1 -4 20250608 1825)
 	((emacs
 	  (24 5))
 	 (apel
@@ -69176,8 +69228,8 @@
 	  (0)))
 	"MIME features" tar
 	((:url . "https://github.com/emacsmirror/semi")
-	 (:commit . "e9e3282f40a6c1d0c71d62fe98a67cf6c83a66cb")
-	 (:revdesc . "e9e3282f40a6")
+	 (:commit . "a2ff2aac69b31368619484d13756a167b9e6698d")
+	 (:revdesc . "a2ff2aac69b3")
 	 (:keywords "mime" "multimedia" "mail" "news")
 	 (:authors
 	  ("MORIOKA Tomohiko" . "tomo@m17n.org"))
@@ -80352,7 +80404,7 @@
 	     ("KOBAYASHI Shigeru" . "shigeru.kb@gmail.com"))
 	    (:maintainer "KOBAYASHI Shigeru" . "shigeru.kb@gmail.com"))])
  (wanderlust .
-	     [(0 1 0 1 -4 20250519 1830)
+	     [(0 1 0 1 -4 20250608 1828)
 	      ((emacs
 		(24 5))
 	       (apel
@@ -80363,8 +80415,8 @@
 		(0)))
 	      "Yet Another Message Interface on Emacsen" tar
 	      ((:url . "https://github.com/emacsmirror/wanderlust")
-	       (:commit . "4b11121dec2dd2928cfa4cddcd776c0b2ec4c7af")
-	       (:revdesc . "4b11121dec2d")
+	       (:commit . "a04a5baa7f488ef90bd906ebfaba7979d447ea76")
+	       (:revdesc . "a04a5baa7f48")
 	       (:keywords "mail" "net news")
 	       (:authors
 		("Yuuichi Teranishi" . "teranisi@gohome.org")
