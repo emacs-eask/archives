@@ -13791,13 +13791,13 @@
 		 ("Brady Trainor" . "mail@bradyt.com"))
 		(:maintainer "Brady Trainor" . "mail@bradyt.com"))])
  (daselt .
-	 [(1 0 1 -4 20250615 1121)
+	 [(1 0 1 -4 20250615 1815)
 	  ((emacs
 	    (30 1)))
 	  "Module for the Daselt configuration scheme" tar
 	  ((:url . "https://gitlab.com/nameiwillforget/d-emacs/")
-	   (:commit . "e853a146142544b080d9cbaa00379da4abd6103b")
-	   (:revdesc . "e853a1461425")
+	   (:commit . "7bbb9baaa95b57a156fcd4eced5510deddae8d55")
+	   (:revdesc . "7bbb9baaa95b")
 	   (:keywords "tools")
 	   (:authors
 	    ("Alexander Prähauser" . "ahprae@protonmail.com"))
@@ -32391,13 +32391,13 @@
 		    ("Troy Brown" . "brownts@troybrown.dev"))
 		   (:maintainer "Troy Brown" . "brownts@troybrown.dev"))])
  (gpt .
-      [(0 1 0 1 -4 20250610 2033)
+      [(0 1 0 1 -4 20250615 1811)
        ((emacs
-	 (24 4)))
+	 (25 1)))
        "Run instruction-following language models" tar
        ((:url . "https://github.com/stuhlmueller/gpt.el")
-	(:commit . "4be8306b33f4bca794da27245d3b984ef485949b")
-	(:revdesc . "4be8306b33f4")
+	(:commit . "ff19f3ca3ea30c87650cc1e6d673b57607daa52d")
+	(:revdesc . "ff19f3ca3ea3")
 	(:keywords "openai" "anthropic" "claude" "language" "copilot" "convenience" "tools")
 	(:authors
 	 ("Andreas Stuhlmueller" . "emacs@stuhlmueller.org"))
@@ -54506,6 +54506,22 @@
 	 (:maintainers
 	  ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	 (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
+ (ordered-set .
+	      [(0 1 0 1 -4 20250615 745)
+	       ((emacs
+		 (25 3))
+		(seq
+		 (2 23)))
+	       "Insertion-order sets" tar
+	       ((:url . "https://github.com/kisaragi-hiu/ordered-set.el")
+		(:commit . "5b648685c34150e21c4b4d2e38953f327644047a")
+		(:revdesc . "5b648685c341")
+		(:keywords "extensions" "sequences" "collection" "set")
+		(:authors
+		 ("Kisaragi Hiu" . "mail@kisaragi-hiu.com"))
+		(:maintainers
+		 ("Kisaragi Hiu" . "mail@kisaragi-hiu.com"))
+		(:maintainer "Kisaragi Hiu" . "mail@kisaragi-hiu.com"))])
  (orderless .
 	    [(0 1 0 1 -4 20250316 2046)
 	     ((emacs
@@ -58670,15 +58686,15 @@
 		      ("Xu Chunyang" . "mail@xuchunyang.me"))
 		     (:maintainer "Xu Chunyang" . "mail@xuchunyang.me"))])
  (otpp .
-       [(0 1 0 1 -4 20250615 1515)
+       [(0 1 0 1 -4 20250615 1832)
 	((emacs
 	  (28 1))
 	 (compat
 	  (29 1)))
 	"One tab per project, with unique names" tar
 	((:url . "https://github.com/abougouffa/one-tab-per-project")
-	 (:commit . "5887705bca012ceb617693528ed1cfd545e6561f")
-	 (:revdesc . "5887705bca01")
+	 (:commit . "e3c6e3120a636d86c30054ba6f491d4309c8774a")
+	 (:revdesc . "e3c6e3120a63")
 	 (:keywords "convenience")
 	 (:authors
 	  ("Abdelhak Bougouffa (rot13" . "\"nobhtbhssn@srqbencebwrpg.bet\")"))
