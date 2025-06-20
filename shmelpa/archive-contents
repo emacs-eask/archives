@@ -28745,7 +28745,7 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20250619 1824)
+	[(0 1 0 1 -4 20250620 1719)
 	 ((emacs
 	   (29 1))
 	  (compat
@@ -28772,8 +28772,8 @@
 	   (1 2 0)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "3735c5ddfab499a18b384f68c8801a40265f9bd3")
-	  (:revdesc . "3735c5ddfab4")
+	  (:commit . "c498fed98a6df8adca33e87433b4084c0340fb4a")
+	  (:revdesc . "c498fed98a6d")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -30254,7 +30254,7 @@
 	 ("Joseph LaFreniere" . "joseph@lafreniere.xyz"))
 	(:maintainer "Joseph LaFreniere" . "joseph@lafreniere.xyz"))])
  (ghub .
-       [(0 1 0 1 -4 20250601 1014)
+       [(0 1 0 1 -4 20250620 1716)
 	((emacs
 	  (29 1))
 	 (compat
@@ -30267,8 +30267,8 @@
 	  (0 1 2)))
 	"Client libraries for Git forge APIs" tar
 	((:url . "https://github.com/magit/ghub")
-	 (:commit . "97a07691efad6fc16bc000a35be80d4f8dae251a")
-	 (:revdesc . "97a07691efad")
+	 (:commit . "793459c5713e7a9f9be9c5d573b4e9a107bf33a2")
+	 (:revdesc . "793459c5713e")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
@@ -31199,6 +31199,20 @@
 		 (:commit . "9136a9b737e0a5b6471a91571d104c487c43f35b")
 		 (:revdesc . "9136a9b737e0")
 		 (:keywords "git" "gitolite" "languages"))])
+ (glab .
+       [(0 1 0 1 -4 20250620 1333)
+	((ghub
+	  (4)))
+	"Client library for the Gitlab API" tar
+	((:url . "https://github.com/emacsattic/glab")
+	 (:commit . "655c0cd042b8e4abe6d314846f4c55b146f9fdee")
+	 (:revdesc . "655c0cd042b8")
+	 (:keywords "tools")
+	 (:authors
+	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
+	 (:maintainers
+	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
+	 (:maintainer "Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))])
  (glass-tty-theme .
 		  [(1 0 0 1 -4 20240909 1259)
 		   ((emacs
@@ -32024,6 +32038,20 @@
 	    (:maintainers
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de"))])
+ (gogs .
+       [(0 1 0 1 -4 20250620 1333)
+	((ghub
+	  (4)))
+	"Client library for the Gogs API" tar
+	((:url . "https://github.com/emacsattic/gogs")
+	 (:commit . "87f47b3b3d7a336c2a41fcf65b30fc48e497d53e")
+	 (:revdesc . "87f47b3b3d7a")
+	 (:keywords "tools")
+	 (:authors
+	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
+	 (:maintainers
+	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
+	 (:maintainer "Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))])
  (gold-mode .
 	    [(0 0 1 1 -4 20140607 206)
 	     ((sws-mode
@@ -33065,6 +33093,20 @@
 	  (:maintainers
 	   ("Wang Kai" . "kaiwkx@gmail.com"))
 	  (:maintainer "Wang Kai" . "kaiwkx@gmail.com"))])
+ (gtea .
+       [(0 1 0 1 -4 20250620 1334)
+	((ghub
+	  (4)))
+	"Client library for the Gitea API" tar
+	((:url . "https://github.com/emacsattic/gtea")
+	 (:commit . "942988625b6ff01c958a16899ad7f7113e4b324b")
+	 (:revdesc . "942988625b6f")
+	 (:keywords "tools")
+	 (:authors
+	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
+	 (:maintainers
+	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
+	 (:maintainer "Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))])
  (gtk-pomodoro-indicator .
 			 [(0 1 0 1 -4 20191007 1500)
 			  nil "A pomodoro indicator for the GTK tray" tar
@@ -49725,13 +49767,13 @@
 	   ("Jonas Bernoulli" . "emacs.moody@jonas.bernoulli.dev"))
 	  (:maintainer "Jonas Bernoulli" . "emacs.moody@jonas.bernoulli.dev"))])
  (moom .
-       [(0 1 0 1 -4 20250327 141)
+       [(0 1 0 1 -4 20250620 1635)
 	((emacs
 	  (25 1)))
 	"Commands to control frame position and size" tar
 	((:url . "https://github.com/takaxp/Moom")
-	 (:commit . "127563df03abad087b68478bb57ee016dd50bede")
-	 (:revdesc . "127563df03ab")
+	 (:commit . "32c9ebafe80b51677605ffc1c37f555fdf5738c8")
+	 (:revdesc . "32c9ebafe80b")
 	 (:keywords "frames" "faces" "convenience")
 	 (:authors
 	  ("Takaaki ISHIKAWA" . "takaxpatieeedotorg"))
@@ -60701,13 +60743,13 @@
 	      (nil . "aix.bing@gmail.com"))
 	     (:maintainer nil . "aix.bing@gmail.com"))])
  (pdd .
-      [(0 1 0 1 -4 20250620 1448)
+      [(0 1 0 1 -4 20250620 1621)
        ((emacs
 	 (28 1)))
        "HTTP library & Async Toolkit" tar
        ((:url . "https://github.com/lorniu/pdd.el")
-	(:commit . "eb1d7d1aca3816ab41d2ace673c7465fd5c65f2a")
-	(:revdesc . "eb1d7d1aca38")
+	(:commit . "47fdf9d2f3cb57973ce061d957386774d4adc8fc")
+	(:revdesc . "47fdf9d2f3cb")
 	(:authors
 	 ("lorniu" . "lorniu@gmail.com"))
 	(:maintainers
@@ -77237,7 +77279,7 @@
 		("Leo Littlebook" . "Leo.Littlebook@gmail.com"))
 	       (:maintainer "Leo Littlebook" . "Leo.Littlebook@gmail.com"))])
  (treemacs .
-	   [(0 1 0 1 -4 20250602 1552)
+	   [(0 1 0 1 -4 20250617 1934)
 	    ((emacs
 	      (26 1))
 	     (cl-lib
@@ -77258,8 +77300,8 @@
 	      (1 3 2)))
 	    "A tree style file explorer package" tar
 	    ((:url . "https://github.com/Alexander-Miller/treemacs")
-	     (:commit . "abd27c86df6b7bf8bc7d4c2a86b4ea9e425084c7")
-	     (:revdesc . "abd27c86df6b")
+	     (:commit . "7109ce99853b18435a77267a15c5dd06715b54e4")
+	     (:revdesc . "7109ce99853b")
 	     (:authors
 	      ("Alexander Miller" . "alexanderm@web.de"))
 	     (:maintainers
