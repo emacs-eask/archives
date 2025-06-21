@@ -64866,14 +64866,17 @@
 		      ("Yuanchen Xie" . "yuanchen.gm@gmail.com"))
 		     (:maintainer "Yuanchen Xie" . "yuanchen.gm@gmail.com"))])
  (pyim-smzmdict .
-		[(0 0 1 1 -4 20210505 1445)
+		[(0 1 0 1 -4 20250621 828)
 		 ((pyim
-		   (3 7)))
-		 "Sanma(triple) Zhengma dict for pyim" tar
-		 ((:url . "https://github.com/p1uxtar/pyim-smzmdict")
-		  (:commit . "fcddbde17a04d174c7353548056524687f7be8d2")
-		  (:revdesc . "fcddbde17a04")
-		  (:keywords "convenience" "i18n" "pyim" "chinese" "zhengma"))])
+		   (5 3 4)))
+		 "Strange scheMas of ZhengMa dict for pyim" tar
+		 ((:url . "https://github.com/cor5corpii/pyim-smzmdict")
+		  (:commit . "853908d2ae88a30038dd03a7cd3f00aeabd89ac2")
+		  (:revdesc . "853908d2ae88")
+		  (:keywords "convenience" "pyim" "chinese" "zhengma")
+		  (:maintainers
+		   ("Yuanchen Xie" . "xieych@outlook.com"))
+		  (:maintainer "Yuanchen Xie" . "xieych@outlook.com"))])
  (pyim-wbdict .
 	      [(0 2 0 1 -4 20220604 1340)
 	       ((pyim
@@ -78537,13 +78540,15 @@
 		   ("Damien Cassou" . "damien.cassou@gmail.com"))
 		  (:maintainer "Damien Cassou" . "damien.cassou@gmail.com"))])
  (uniline .
-	  [(0 1 0 1 -4 20250620 908)
+	  [(0 1 0 1 -4 20250621 900)
 	   ((emacs
-	     (29 1)))
+	     (29 1))
+	    (hydra
+	     (0 15 0)))
 	   "Add ╭─╴UNICODE╶─╮ based ╭─╴diagrams╶─╮ to ╭▶╴text files╶●╮" tar
 	   ((:url . "https://github.com/tbanel/uniline")
-	    (:commit . "7ede354080cef4f7293356aad1967c8c43476314")
-	    (:revdesc . "7ede354080ce")
+	    (:commit . "274b9d586341b5e188d83ae93fb01309f4582c46")
+	    (:revdesc . "274b9d586341")
 	    (:keywords "convenience" "text"))])
  (unipoint .
 	   [(0 1 0 1 -4 20140113 2224)
