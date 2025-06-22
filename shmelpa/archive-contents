@@ -54057,15 +54057,15 @@
 	       ("Aaron Bieber" . "aaron@aaronbieber.com"))
 	      (:maintainer "Aaron Bieber" . "aaron@aaronbieber.com"))])
  (oer-reveal .
-	     [(0 1 0 1 -4 20250622 634)
+	     [(0 1 0 1 -4 20250622 1644)
 	      ((emacs
 		(24 4))
 	       (org-re-reveal
 		(3 35 0)))
 	      "OER with reveal.js, plugins, and org-re-reveal" tar
 	      ((:url . "https://gitlab.com/oer/oer-reveal")
-	       (:commit . "762e7aa00000b155e121e1b1afe6f952e7123aba")
-	       (:revdesc . "762e7aa00000")
+	       (:commit . "e942059cdaf5ef36fcc7f1473c7261f9bb9bb740")
+	       (:revdesc . "e942059cdaf5")
 	       (:keywords "hypermedia" "tools" "slideshow" "presentation" "oer"))])
  (offlineimap .
 	      [(0 1 0 1 -4 20150916 1158)
@@ -64038,6 +64038,17 @@
 	    (:maintainers
 	     ("chuntaro" . "chuntaro@sakura-games.jp"))
 	    (:maintainer "chuntaro" . "chuntaro@sakura-games.jp"))])
+ (prompt-binder .
+		[(0 1 0 1 -4 20250621 853)
+		 ((emacs
+		   (24 3))
+		  (llm
+		   (0 26 0)))
+		 "Bind LLM prompts to key chords and editor context" tar
+		 ((:url . "http://github.com/tracym")
+		  (:commit . "e0e81fba2f1eaf7fa82827fbf32c0cdbf1328d2f")
+		  (:revdesc . "e0e81fba2f1e")
+		  (:keywords "llm" "tools" "prompt"))])
  (prompt-text .
 	      [(0 1 1 -4 20190408 310)
 	       nil "Configure your minibuffer prompt" tar
