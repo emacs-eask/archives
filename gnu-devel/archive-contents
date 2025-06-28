@@ -373,7 +373,7 @@
 	    ("Artur Malabarba" . "emacs@endlessparentheses.com"))
 	   (:commit . "85261a928ae0ec3b41e639f05291ffd6bf7c231c"))])
  (beframe .
-	  [(1 3 0 0 20250627 144228)
+	  [(1 4 0 0 20250628 65448)
 	   ((emacs
 	     (28 1)))
 	   "Isolate buffers per frame" tar
@@ -381,7 +381,7 @@
 	    (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	    (:authors
 	     ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	    (:commit . "9010d3df6be29833cf0f0542da70c487f2e23651"))])
+	    (:commit . "2728f72174c1164e99bab4daaef64910e6b41c6c"))])
  (bicep-ts-mode .
 		[(0 1 4 0 20250320 94622)
 		 nil "tree-sitter support for Bicep" tar
@@ -1233,7 +1233,7 @@
 	       ("Toby Cubitt" . "toby-predictive@dr-qubit.org"))
 	      (:commit . "a83ea986982b2d09d150456028a9f1e73658333a"))])
  (diff-hl .
-	  [(1 10 0 0 20250613 220423)
+	  [(1 10 0 0 20250627 223032)
 	   ((cl-lib
 	     (0 2))
 	    (emacs
@@ -1244,7 +1244,7 @@
 	    (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
 	    (:authors
 	     ("Dmitry Gutov" . "dmitry@gutov.dev"))
-	    (:commit . "482ca2f78b5dcbb6119769e15bf011663a5cf0a0"))])
+	    (:commit . "f1228602bfaac831e65394967ed70bd3c4264b24"))])
  (diffview .
 	   [(1 0 0 20230224 111651)
 	    nil "View diffs in side-by-side format" tar
@@ -1794,28 +1794,22 @@
 	 ("J. Alexander Branham" . "alex.branham@gmail.com"))
 	(:commit . "cd85d1e1f0e897b409a948a3a4afdaffe032812e"))])
  (excorporate .
-	      [(1 1 2 0 20240219 90343)
-	       ((emacs
-		 (24 1))
-		(cl-lib
-		 (0 6 1))
-		(fsm
+	      [(1 1 3 0 20250627 211849)
+	       ((fsm
 		 (0 2 1))
 		(soap-client
 		 (3 2 0))
 		(url-http-ntlm
-		 (2 0 4))
-		(nadvice
-		 (0 3))
+		 (2 0 6))
 		(url-http-oauth
-		 (0 8 3)))
+		 (0 8 4)))
 	       "Exchange Web Services (EWS) integration" tar
 	       ((:url . "https://www.fitzsim.org/blog/")
 		(:keywords "calendar")
 		(:maintainer "Thomas Fitzsimmons" . "fitzsim@fitzsim.org")
 		(:authors
 		 ("Thomas Fitzsimmons" . "fitzsim@fitzsim.org"))
-		(:commit . "8d1167ac47aa88265546ee7a82fd49ff6f9c8d66"))])
+		(:commit . "d0dc6a28a0b39b67b01c63163217f8ebd055df4d"))])
  (expand-region .
 		[(1 0 0 0 20241217 184034)
 		 ((emacs
@@ -5217,7 +5211,7 @@
 		  ("Wilson Snyder" . "wsnyder@wsnyder.org"))
 		 (:commit . "64d314e0f6495de6fcf4f4c51e710b597a237e4f"))])
  (vertico .
-	  [(2 3 0 20250617 130042)
+	  [(2 4 0 20250627 211908)
 	   ((emacs
 	     (28 1))
 	    (compat
@@ -5228,7 +5222,7 @@
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	    (:commit . "3c5ef81af7216ecebd9aba3a9f5b6e4d108d3c4b"))])
+	    (:commit . "fcab88ad878e16356c392c99a64f172e7541dd65"))])
  (vertico-posframe .
 		   [(0 8 0 0 20250211 11642)
 		    ((emacs
