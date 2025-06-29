@@ -46769,7 +46769,7 @@
 	       (:revdesc . "44ae63de992b")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20250628 1947)
+	[(0 1 0 1 -4 20250629 1045)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -46786,8 +46786,8 @@
 	   (3 4 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "725efbd24964819cce3f09ab1aec0eb318a326eb")
-	  (:revdesc . "725efbd24964")
+	  (:commit . "10a0994ae8a3d2cd1ef5231c72f226cd71e79e68")
+	  (:revdesc . "10a0994ae8a3")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -67268,17 +67268,19 @@
 		   ("Iqbal Ansari" . "iqbalansari02@yahoo.com"))
 		  (:maintainer "Iqbal Ansari" . "iqbalansari02@yahoo.com"))])
  (restclient .
-	     [(0 1 0 1 -4 20231010 1327)
-	      nil "An interactive HTTP client for Emacs" tar
-	      ((:url . "https://github.com/pashky/restclient.el")
-	       (:commit . "e2a2b13482d72634f8e49864cd9e5c907a5fe137")
-	       (:revdesc . "e2a2b13482d7")
-	       (:keywords "http")
+	     [(0 1 0 1 -4 20250629 2016)
+	      ((emacs
+		(26 1)))
+	      "An interactive HTTP client for Emacs" tar
+	      ((:url . "https://github.com/emacsorphanage/restclient")
+	       (:commit . "9385ef5acc94a6770fcef60820baf083c916d148")
+	       (:revdesc . "9385ef5acc94")
+	       (:keywords "http" "comm" "tools")
 	       (:authors
 		("Pavel Kurnosov" . "pashky@gmail.com"))
 	       (:maintainers
-		("Pavel Kurnosov" . "pashky@gmail.com"))
-	       (:maintainer "Pavel Kurnosov" . "pashky@gmail.com"))])
+		("Peder O. Klingenberg" . "peder@klingenberg.no"))
+	       (:maintainer "Peder O. Klingenberg" . "peder@klingenberg.no"))])
  (restclient-helm .
 		  [(0 1 0 1 -4 20170314 1554)
 		   ((restclient
@@ -67286,7 +67288,7 @@
 		    (helm
 		     (1 9 4)))
 		   "Helm interface for restclient.el" tar
-		   ((:url . "https://github.com/pashky/restclient.el")
+		   ((:url . "https://github.com/emacsorphanage/restclient")
 		    (:commit . "af7420085dd67ed08d199a2402e8ff3e996c3029")
 		    (:revdesc . "af7420085dd6")
 		    (:keywords "http" "helm")
@@ -67296,7 +67298,7 @@
 		     ("Pavel Kurnosov" . "pashky@gmail.com"))
 		    (:maintainer "Pavel Kurnosov" . "pashky@gmail.com"))])
  (restclient-jq .
-		[(0 1 1 -4 20220426 1734)
+		[(0 1 0 1 -4 20250625 1903)
 		 ((restclient
 		   (20200502 831))
 		  (jq-mode
@@ -67305,8 +67307,8 @@
 		   (24 4)))
 		 "Support for setting restclient vars from jq expressions" tar
 		 ((:url . "https://github.com/pashky/restclient.el")
-		  (:commit . "ae79e7dd283890072da69b8f48aeec1afd0d9442")
-		  (:revdesc . "ae79e7dd2838")
+		  (:commit . "25df2b310437994024326427ab215f49e0118b19")
+		  (:revdesc . "25df2b310437")
 		  (:keywords "tools" "comm" "http" "jq")
 		  (:authors
 		   ("Cameron Dorrat" . "cdorrat@gmail.com"))
@@ -70862,13 +70864,13 @@
 		      ("Matthieu Petiteau" . "mpetiteau.pro@gmail.com"))
 		     (:maintainer "Matthieu Petiteau" . "mpetiteau.pro@gmail.com"))])
  (simply-annotate .
-		  [(0 1 0 1 -4 20250616 2150)
+		  [(0 1 0 1 -4 20250629 2102)
 		   ((emacs
 		     (28 1)))
-		   "Simple annotation system" tar
+		   "Enhanced annotation system with threading" tar
 		   ((:url . "https://github.com/captainflasmr/simply-annotate")
-		    (:commit . "c20653ec7508ba83897fa2f19a6a76f03d27546b")
-		    (:revdesc . "c20653ec7508")
+		    (:commit . "0ace6e048d26e580ee02f614fde578c288c765fc")
+		    (:revdesc . "0ace6e048d26")
 		    (:keywords "applications" "tools" "convenience")
 		    (:authors
 		     ("James Dyer" . "captainflasmr@gmail.com"))
@@ -78208,7 +78210,7 @@
  (typing-game .
 	      [(0 1 1 -4 20160426 1220)
 	       nil "A simple typing game" tar
-	       ((:url . "https://github.com/lujun9972/el-typing-game")
+	       ((:url . "https://github.com/lordnik22/el-typing-game")
 		(:commit . "616435a5270274f4c7b698697674dbb2039049a4")
 		(:revdesc . "616435a52702")
 		(:keywords "lisp" "game")
@@ -80744,7 +80746,7 @@
 	     ("KOBAYASHI Shigeru" . "shigeru.kb@gmail.com"))
 	    (:maintainer "KOBAYASHI Shigeru" . "shigeru.kb@gmail.com"))])
  (wanderlust .
-	     [(0 1 0 1 -4 20250621 1333)
+	     [(0 1 0 1 -4 20250629 2048)
 	      ((emacs
 		(24 5))
 	       (apel
@@ -80755,8 +80757,8 @@
 		(0)))
 	      "Yet Another Message Interface on Emacsen" tar
 	      ((:url . "https://github.com/emacsmirror/wanderlust")
-	       (:commit . "2cefbf0885ef67ff47261df17718b1ae0571f721")
-	       (:revdesc . "2cefbf0885ef")
+	       (:commit . "b7d2e84bf3260ea2de7903eab8330538b3423a6e")
+	       (:revdesc . "b7d2e84bf326")
 	       (:keywords "mail" "net news")
 	       (:authors
 		("Yuuichi Teranishi" . "teranisi@gohome.org")
