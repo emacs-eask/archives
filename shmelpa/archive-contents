@@ -1253,7 +1253,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (aider .
-	[(0 1 0 1 -4 20250629 313)
+	[(0 1 0 1 -4 20250629 1426)
 	 ((emacs
 	   (26 1))
 	  (transient
@@ -1266,8 +1266,8 @@
 	   (1 13 0)))
 	 "AI assisted programming with Aider and LLM" tar
 	 ((:url . "https://github.com/tninja/aider.el")
-	  (:commit . "f4e4fb4439c0e9ca8161d07e999cffce16cb812a")
-	  (:revdesc . "f4e4fb4439c0")
+	  (:commit . "402118f2aa0af2f9cd18f35e55a1f89b58659ed2")
+	  (:revdesc . "402118f2aa0a")
 	  (:keywords "ai" "gpt" "sonnet" "llm" "aider" "gemini-pro" "deepseek" "ai-assisted-coding")
 	  (:authors
 	   ("Kang Tu" . "tninja@gmail.com"))
@@ -1275,7 +1275,7 @@
 	   ("Kang Tu" . "tninja@gmail.com"))
 	  (:maintainer "Kang Tu" . "tninja@gmail.com"))])
  (aidermacs .
-	    [(0 1 0 1 -4 20250623 1420)
+	    [(0 1 0 1 -4 20250629 1402)
 	     ((emacs
 	       (26 1))
 	      (transient
@@ -1286,8 +1286,8 @@
 	       (2 7)))
 	     "AI pair programming with Aider" tar
 	     ((:url . "https://github.com/MatthewZMD/aidermacs")
-	      (:commit . "3d1d9821e4900a721a360d068ed6af9659be20fd")
-	      (:revdesc . "3d1d9821e490")
+	      (:commit . "fcdbd6c5845c0dfe5a7ddd753598e26e8c508bd3")
+	      (:revdesc . "fcdbd6c5845c")
 	      (:keywords "ai" "emacs" "llm" "aider" "ai-pair-programming" "tools")
 	      (:authors
 	       ("Mingde Zeng" . "matthewzmd@posteo.net"))
@@ -11903,6 +11903,20 @@
 		 (:maintainers
 		  ("Stephen Marsh" . "stephen.david.marsh@gmail.com"))
 		 (:maintainer "Stephen Marsh" . "stephen.david.marsh@gmail.com"))])
+ (conventional .
+	       [(0 1 0 1 -4 20250625 1953)
+		((emacs
+		  (28 1)))
+		"Enable conventional syntax" tar
+		((:url . "https://github.com/KeyWeeUsr/conventional")
+		 (:commit . "8628f20c5b8a0a2440c6fa886a15702942d3b293")
+		 (:revdesc . "8628f20c5b8a")
+		 (:keywords "convenience" "conventional" "mode" "helper" "git" "comment" "commit")
+		 (:authors
+		  ("Peter Badida" . "keyweeusr@gmail.com"))
+		 (:maintainers
+		  ("Peter Badida" . "keyweeusr@gmail.com"))
+		 (:maintainer "Peter Badida" . "keyweeusr@gmail.com"))])
  (cool-mode .
 	    [(1 0 0 1 -4 20231026 456)
 	     ((emacs
@@ -13819,13 +13833,13 @@
 		 ("Brady Trainor" . "mail@bradyt.com"))
 		(:maintainer "Brady Trainor" . "mail@bradyt.com"))])
  (daselt .
-	 [(0 1 0 1 -4 20250620 2142)
+	 [(0 1 0 1 -4 20250627 1245)
 	  ((emacs
 	    (30 1)))
 	  "Module for the Daselt configuration scheme" tar
 	  ((:url . "https://gitlab.com/nameiwillforget/d-emacs/")
-	   (:commit . "b3df3640209a1148807be74ab17f8e4db5e9654a")
-	   (:revdesc . "b3df3640209a")
+	   (:commit . "99a3251cef48e9e85dda797f1897f4fe655ad1eb")
+	   (:revdesc . "99a3251cef48")
 	   (:keywords "tools")
 	   (:authors
 	    ("Alexander Prähauser" . "ahprae@protonmail.com"))
@@ -14432,6 +14446,22 @@
      (:maintainers
       ("Oleh Krehel" . "ohwoeowho@gmail.com"))
      (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
+ (deflate .
+   [(0 1 0 1 -4 20250622 1822)
+    ((dash
+      (2 0 0))
+     (emacs
+      (25 1)))
+    "The DEFLATE compression algorithm in pure Emacs LISP" tar
+    ((:url . "https://github.com/skuro/deflate")
+     (:commit . "cf4d89983f5b7a0de23c08418f25dbaa4f956a4c")
+     (:revdesc . "cf4d89983f5b")
+     (:keywords "files" "tools")
+     (:authors
+      ("Carlo Sciolla" . "carlo.sciolla@gmail.com"))
+     (:maintainers
+      ("Carlo Sciolla" . "carlo.sciolla@gmail.com"))
+     (:maintainer "Carlo Sciolla" . "carlo.sciolla@gmail.com"))])
  (defproject .
    [(0 1 0 1 -4 20151201 2219)
     ((emacs
@@ -17753,6 +17783,15 @@
 		(:maintainers
 		 ("Clément Pit-Claudel" . "clement.pitclaudel@live.com"))
 		(:maintainer "Clément Pit-Claudel" . "clement.pitclaudel@live.com"))])
+ (easy-find .
+	    [(0 1 0 1 -4 20250623 427)
+	     ((emacs
+	       (24 4)))
+	     "Simple file searching like Nemo" tar
+	     ((:url . "https://github.com/gnarledgrip/easy-find")
+	      (:commit . "d094399c8cef81ce700ae391c11fce026ab24d15")
+	      (:revdesc . "d094399c8cef")
+	      (:keywords "files" "convenience" "tools"))])
  (easy-hugo .
 	    [(0 1 0 1 -4 20250106 1158)
 	     ((emacs
@@ -19604,6 +19643,17 @@
 		 (:commit . "15909462e3f7daf445d3cecf402ee16c7e3263ed")
 		 (:revdesc . "15909462e3f7")
 		 (:keywords "outlines"))])
+ (elisp-dev-mcp .
+		[(0 1 0 1 -4 20250618 611)
+		 ((emacs
+		   (27 1))
+		  (mcp-server-lib
+		   (0 1 0)))
+		 "MCP server for agentic Elisp development" tar
+		 ((:url . "https://github.com/laurynas-biveinis/elisp-dev-mcp")
+		  (:commit . "7d0965f0642ca2e8d14153eef31bcdf5ba8acb75")
+		  (:revdesc . "7d0965f0642c")
+		  (:keywords "tools" "development"))])
  (elisp-docstring-mode .
 		       [(0 0 1 1 -4 20170304 1615)
 			nil "Major mode for editing elisp docstrings" tar
@@ -32527,6 +32577,17 @@
 	       (:maintainers
 		("Sun Yi Ming" . "dolmens@gmail.com"))
 	       (:maintainer "Sun Yi Ming" . "dolmens@gmail.com"))])
+ (gptel-commit .
+	       [(0 1 0 1 -4 20250629 1602)
+		((emacs
+		  (27 1))
+		 (gptel
+		  (0 1 0)))
+		"Generate commit message with gptel" tar
+		((:url . "https://github.com/lakkiy/gptel-commit")
+		 (:commit . "c6b3b62cc5cff803dea01528a8fc2754ffb66ad1")
+		 (:revdesc . "c6b3b62cc5cf")
+		 (:keywords "vc" "convenience"))])
  (gptel-fn-complete .
 		    [(0 1 0 1 -4 20250317 1805)
 		     ((emacs
@@ -32880,6 +32941,20 @@
 		       (:maintainers
 			("Ricardo Banffy" . "rbanffy@gmail.com"))
 		       (:maintainer "Ricardo Banffy" . "rbanffy@gmail.com"))])
+ (greger .
+	 [(0 1 0 1 -4 20250629 835)
+	  ((emacs
+	    (29 1)))
+	  "Agentic coding with tool use" tar
+	  ((:url . "https://github.com/andreasjansson/greger.el")
+	   (:commit . "2213e42535b3f9742015177bb4872595305c0424")
+	   (:revdesc . "2213e42535b3")
+	   (:keywords "agent" "agentic" "ai" "chat" "language-models" "tools")
+	   (:authors
+	    ("Andreas Jansson" . "andreas@jansson.me.uk"))
+	   (:maintainers
+	    ("Andreas Jansson" . "andreas@jansson.me.uk"))
+	   (:maintainer "Andreas Jansson" . "andreas@jansson.me.uk"))])
  (gregorio-mode .
 		[(1 0 1 -4 20170705 1451)
 		 nil "Gregorio Mode for .gabc files" tar
@@ -33791,6 +33866,22 @@
 	     (:maintainers
 	      ("Steve Purcell" . "steve@sanityinc.com"))
 	     (:maintainer "Steve Purcell" . "steve@sanityinc.com"))])
+ (hdf5-viewer .
+	      [(0 1 0 1 -4 20250625 519)
+	       ((emacs
+		 (29 1)))
+	       "Major mode for viewing HDF5 files" tar
+	       ((:url . "https://github.com/hdf5-viewer/hdf5-viewer")
+		(:commit . "0700e660579012ab20650d337ccf8c40700d83b9")
+		(:revdesc . "0700e6605790")
+		(:keywords "hdf5" "data")
+		(:authors
+		 ("Paul Minner" . "minner.paul@gmail.com")
+		 ("Peter Mao" . "peter.mao@gmail.com"))
+		(:maintainers
+		 ("Paul Minner" . "minner.paul@gmail.com")
+		 ("Peter Mao" . "peter.mao@gmail.com"))
+		(:maintainer "Paul Minner" . "minner.paul@gmail.com"))])
  (headlong .
 	   [(0 1 0 1 -4 20150417 1526)
 	    nil "Reckless completion" tar
@@ -33826,6 +33917,15 @@
 		 (:commit . "7496adcad0339978ef462b92160b6d40c3595841")
 		 (:revdesc . "7496adcad033")
 		 (:keywords "heex" "languages" "tree-sitter"))])
+ (helix .
+	[(0 1 0 1 -4 20250626 1457)
+	 ((emacs
+	   (29 1)))
+	 "A minor mode emulating Helix keybindings" tar
+	 ((:url . "https://github.com/mgmarlow/helix-mode")
+	  (:commit . "4eeda8eda59ce182c13234f141003879a61dae54")
+	  (:revdesc . "4eeda8eda59c")
+	  (:keywords "convenience"))])
  (helix-theme .
 	      [(1 0 1 -4 20240814 1212)
 	       nil "Color theme inspired by Helix editor's default colors" tar
@@ -41279,7 +41379,7 @@
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de"))])
  (jira .
-       [(0 1 0 1 -4 20250627 1241)
+       [(0 1 0 1 -4 20250629 1657)
 	((emacs
 	  (29 1))
 	 (request
@@ -41292,8 +41392,8 @@
 	  (4 2 0)))
 	"Emacs Interface to Jira" tar
 	((:url . "https://github.com/unmonoqueteclea/jira.el")
-	 (:commit . "2f0260e7d1affa3e3c4398a1902c59ee980975a4")
-	 (:revdesc . "2f0260e7d1af")
+	 (:commit . "63838f091d452b7e89c840b4e63fb74990539e75")
+	 (:revdesc . "63838f091d45")
 	 (:authors
 	  ("Pablo González Carrizo" . "unmonoqueteclea@gmail.com"))
 	 (:maintainers
