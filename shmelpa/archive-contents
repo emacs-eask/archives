@@ -54714,15 +54714,15 @@
 		 ("Kisaragi Hiu" . "mail@kisaragi-hiu.com"))
 		(:maintainer "Kisaragi Hiu" . "mail@kisaragi-hiu.com"))])
  (orderless .
-	    [(0 1 0 1 -4 20250705 1752)
+	    [(0 1 0 1 -4 20250705 2023)
 	     ((emacs
 	       (27 1))
 	      (compat
 	       (30)))
 	     "Completion style for matching regexps in any order" tar
 	     ((:url . "https://github.com/oantolin/orderless")
-	      (:commit . "2adfaea003790614ce52e7aee3169f90c1a8769b")
-	      (:revdesc . "2adfaea00379")
+	      (:commit . "082a487f79ca5e960046a31599a5f97dac79a858")
+	      (:revdesc . "082a487f79ca")
 	      (:keywords "matching" "completion")
 	      (:authors
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
@@ -67271,13 +67271,15 @@
 		   ("Iqbal Ansari" . "iqbalansari02@yahoo.com"))
 		  (:maintainer "Iqbal Ansari" . "iqbalansari02@yahoo.com"))])
  (restclient .
-	     [(0 1 0 1 -4 20250705 1948)
+	     [(0 1 0 1 -4 20250705 2050)
 	      ((emacs
-		(26 1)))
+		(26 1))
+	       (compat
+		(30 1 0 0)))
 	      "An interactive HTTP client for Emacs" tar
 	      ((:url . "https://github.com/emacsorphanage/restclient")
-	       (:commit . "438ce85bb7fb42e3b6bd42e1b8bb2a7f26b22180")
-	       (:revdesc . "438ce85bb7fb")
+	       (:commit . "e7a54135233d66fc5bb0dbae315d673abdfb4146")
+	       (:revdesc . "e7a54135233d")
 	       (:keywords "http" "comm" "tools")
 	       (:authors
 		("Pavel Kurnosov" . "pashky@gmail.com"))
