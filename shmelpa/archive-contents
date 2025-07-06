@@ -28443,6 +28443,24 @@
 	  (:maintainers
 	   ("Mola-T" . "Mola@molamola.xyz"))
 	  (:maintainer "Mola-T" . "Mola@molamola.xyz"))])
+ (flyover .
+	  [(0 1 0 1 -4 20250705 828)
+	   ((emacs
+	     (27 1))
+	    (flycheck
+	     (0 23))
+	    (flymake
+	     (1 0)))
+	   "Display Flycheck errors with overlays" tar
+	   ((:url . "https://github.com/konrad1977/flyover")
+	    (:commit . "a7d28f3e94b238155d3e5967dacb07e9d6e28896")
+	    (:revdesc . "a7d28f3e94b2")
+	    (:keywords "convenience" "tools" "flycheck" "flymake")
+	    (:authors
+	     ("Mikael Konradsson" . "mikael.konradsson@outlook.com"))
+	    (:maintainers
+	     ("Mikael Konradsson" . "mikael.konradsson@outlook.com"))
+	    (:maintainer "Mikael Konradsson" . "mikael.konradsson@outlook.com"))])
  (flyparens .
 	    [(0 5 1 -4 20140723 1846)
 	     nil "Check for unbalanced parens on the fly" tar
@@ -47370,6 +47388,21 @@
 		(:maintainers
 		 ("Christian Wittern" . "cwittern@gmail.com"))
 		(:maintainer "Christian Wittern" . "cwittern@gmail.com"))])
+ (mantra .
+	 [(0 1 0 1 -4 20250704 1702)
+	  ((emacs
+	    (27 1))
+	   (pubsub
+	    (0 0)))
+	  "A system for scripting and parsing activity beyond macros" tar
+	  ((:url . "https://github.com/countvajhula/mantra")
+	   (:commit . "f17bfa62932c3ad537d828b3cd4494e6f2fb8834")
+	   (:revdesc . "f17bfa62932c")
+	   (:authors
+	    ("Sid Kasivajhula" . "sid@countvajhula.com"))
+	   (:maintainers
+	    ("Sid Kasivajhula" . "sid@countvajhula.com"))
+	   (:maintainer "Sid Kasivajhula" . "sid@countvajhula.com"))])
  (map-progress .
 	       [(0 1 0 1 -4 20190128 16)
 		((cl-lib
@@ -52807,13 +52840,13 @@
 	      ("Andrew Stahlman" . "andrewstahlman@gmail.com"))
 	     (:maintainer "Andrew Stahlman" . "andrewstahlman@gmail.com"))])
  (ob-athena .
-	    [(0 1 0 1 -4 20250706 846)
+	    [(0 1 0 1 -4 20250706 1649)
 	     ((emacs
 	       (26 1)))
 	     "Run AWS Athena queries from Org Babel" tar
 	     ((:url . "https://github.com/will-abb/aws-athena-babel")
-	      (:commit . "2d2acc11fd97385d841d81acb34da48c65ee6137")
-	      (:revdesc . "2d2acc11fd97")
+	      (:commit . "2837765872c3c58c577c047cdca8faa990ff61e9")
+	      (:revdesc . "2837765872c3")
 	      (:keywords "aws" "athena" "org" "babel" "sql" "tools")
 	      (:authors
 	       ("Williams Bosch-Bello" . "williamsbosch@gmail.com"))
@@ -65246,6 +65279,15 @@
 	     (:maintainers
 	      ("Rüdiger Sonderfeld" . "ruediger@c-plusplus.net"))
 	     (:maintainer "Rüdiger Sonderfeld" . "ruediger@c-plusplus.net"))])
+ (qso .
+      [(0 1 0 1 -4 20250701 1933)
+       ((emacs
+	 (25 1)))
+       "Customizable, Dynamic Amateur Radio QSO Logging" tar
+       ((:url . "https://github.com/K6SM/Emacs-QSO-Logger")
+	(:commit . "09bfabd9d2f3336ee66371c102064e0d508035ec")
+	(:revdesc . "09bfabd9d2f3")
+	(:keywords "lisp"))])
  (qt-pro-mode .
 	      [(1 0 0 1 -4 20170604 1841)
 	       ((emacs
