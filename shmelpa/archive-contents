@@ -2643,6 +2643,20 @@
 	   (:maintainers
 	    ("Phillip Lord" . "phillip.lord@russet.org.uk"))
 	   (:maintainer "Phillip Lord" . "phillip.lord@russet.org.uk"))])
+ (ast-grep .
+	   [(0 1 0 1 -4 20250703 723)
+	    ((emacs
+	      (28 1)))
+	    "Search code using ast-grep with completing-read interface" tar
+	    ((:url . "https://github.com/sunskyxh/ast-grep.el")
+	     (:commit . "3682f0cab0147e85d3f8ffc6b68b1dc30ffba5cd")
+	     (:revdesc . "3682f0cab014")
+	     (:keywords "tools" "matching")
+	     (:authors
+	      ("SunskyxXH" . "sunskyxh@gmail.com"))
+	     (:maintainers
+	      ("SunskyxXH" . "sunskyxh@gmail.com"))
+	     (:maintainer "SunskyxXH" . "sunskyxh@gmail.com"))])
  (astro-ts-mode .
 		[(0 1 0 1 -4 20250308 2341)
 		 ((emacs
@@ -17967,6 +17981,28 @@
 	  (:maintainers
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
+ (eca .
+      [(0 1 0 1 -4 20250702 249)
+       ((emacs
+	 (28 1))
+	(dash
+	 (2 18 0))
+	(f
+	 (0 20 0))
+	(markdown-mode
+	 (2 3))
+	(compat
+	 (30 1)))
+       "AI pair programming via ECA (Editor Code Assistant)" tar
+       ((:url . "https://github.com/editor-code-assistant/eca-emacs")
+	(:commit . "0347137e534964b5e5394504b8e4b29be11ddb1e")
+	(:revdesc . "0347137e5349")
+	(:keywords "tools")
+	(:authors
+	 ("Eric Dallo" . "ercdll1337@gmail.com"))
+	(:maintainers
+	 ("Eric Dallo" . "ercdll1337@gmail.com"))
+	(:maintainer "Eric Dallo" . "ercdll1337@gmail.com"))])
  (ecb .
       [(1 0 0 1 -4 20170728 1921)
        nil "A code browser for Emacs" tar
@@ -33950,21 +33986,6 @@
 	 (:maintainers
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net"))])
- (helm-ack .
-	   [(0 13 1 -4 20141030 1226)
-	    ((helm
-	      (1 0))
-	     (cl-lib
-	      (0 5)))
-	    "Ack command with helm interface" tar
-	    ((:url . "https://github.com/syohex/emacs-helm-ack")
-	     (:commit . "5982f3cb6ec9f460ebbe06ec0ce7b3590bca3118")
-	     (:revdesc . "5982f3cb6ec9")
-	     (:authors
-	      ("Syohei YOSHIDA" . "syohex@gmail.com"))
-	     (:maintainers
-	      ("Syohei YOSHIDA" . "syohex@gmail.com"))
-	     (:maintainer "Syohei YOSHIDA" . "syohex@gmail.com"))])
  (helm-ad .
 	  [(0 0 1 1 -4 20151209 1015)
 	   ((dash
@@ -33981,21 +34002,6 @@
 	    (:maintainers
 	     ("Takahiro Noda" . "takahiro.noda+github@gmail.com"))
 	    (:maintainer "Takahiro Noda" . "takahiro.noda+github@gmail.com"))])
- (helm-ag .
-	  [(0 1 0 1 -4 20241028 144)
-	   ((emacs
-	     (27 1))
-	    (helm
-	     (2 0)))
-	   "The silver searcher with helm interface" tar
-	   ((:url . "https://github.com/syohex/emacs-helm-ag")
-	    (:commit . "01d36d6eb689305ea3aae0a23aa8be0029f0410f")
-	    (:revdesc . "01d36d6eb689")
-	    (:authors
-	     ("Syohei YOSHIDA" . "syohex@gmail.com"))
-	    (:maintainers
-	     ("Jen-Chieh Shen" . "jcs090218@gmail.com"))
-	    (:maintainer "Jen-Chieh Shen" . "jcs090218@gmail.com"))])
  (helm-apt .
 	   [(1 1 1 -4 20231005 423)
 	    ((helm
@@ -34191,22 +34197,6 @@
 		     (:maintainers
 		      ("Takashi Masuda" . "masutaka.net@gmail.com"))
 		     (:maintainer "Takashi Masuda" . "masutaka.net@gmail.com"))])
- (helm-c-moccur .
-		[(0 0 1 1 -4 20151230 924)
-		 ((helm
-		   (20120811))
-		  (color-moccur
-		   (2 71)))
-		 "Helm source for color-moccur.el" tar
-		 ((:url . "https://github.com/myuhe/helm-c-moccur.el")
-		  (:commit . "b0a906f85fa352db091f88b91a9c510de607dfe9")
-		  (:revdesc . "b0a906f85fa3")
-		  (:keywords "convenience" "emulation")
-		  (:authors
-		   ("Kenji.I" . "ken.imakaado@gmail.com"))
-		  (:maintainers
-		   ("Kenji.I" . "ken.imakaado@gmail.com"))
-		  (:maintainer "Kenji.I" . "ken.imakaado@gmail.com"))])
  (helm-c-yasnippet .
 		   [(0 6 7 1 -4 20230911 444)
 		    ((emacs
@@ -34598,16 +34588,6 @@
 		    (:maintainers
 		     ("Titus von der Malsburg" . "malsburg@posteo.de"))
 		    (:maintainer "Titus von der Malsburg" . "malsburg@posteo.de"))])
- (helm-directory .
-		 [(0 6 4 1 -4 20170709 1103)
-		  ((emacs
-		    (24 4))
-		   (helm
-		    (2 0)))
-		  "Selecting directory before select the file" tar
-		  ((:url . "https://github.com/masasam/emacs-helm-directory")
-		   (:commit . "2c6d45404506ba744888dcdb65e9f63878f2da16")
-		   (:revdesc . "2c6d45404506"))])
  (helm-dired-recent-dirs .
 			 [(0 1 1 -4 20131228 1414)
 			  ((helm
@@ -34758,38 +34738,6 @@
 	      (:maintainers
 	       ("Pierre Neidhardt" . "mail@ambrevar.xyz"))
 	      (:maintainer "Pierre Neidhardt" . "mail@ambrevar.xyz"))])
- (helm-file-preview .
-		    [(0 1 5 1 -4 20240101 1005)
-		     ((emacs
-		       (25 1))
-		      (helm
-		       (2 0)))
-		     "Preview the current helm file selection" tar
-		     ((:url . "https://github.com/jcs-elpa/helm-file-preview")
-		      (:commit . "7cf9264bfd106975e90d92a94fe7f150f7d31b8c")
-		      (:revdesc . "7cf9264bfd10")
-		      (:keywords "convenience" "file" "helm" "preview" "select" "selection")
-		      (:authors
-		       ("Jen-Chieh" . "jcs090218@gmail.com"))
-		      (:maintainers
-		       ("Jen-Chieh" . "jcs090218@gmail.com"))
-		      (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
- (helm-filesets .
-		[(0 1 1 -4 20140929 1835)
-		 ((helm
-		   (1 6 3))
-		  (filesets+
-		   (0)))
-		 "A helm source for emacs filesets" tar
-		 ((:url . "https://github.com/gcla/helm-filesets")
-		  (:commit . "b352910af4c3099267a8aa0169c7f743b35bb1fa")
-		  (:revdesc . "b352910af4c3")
-		  (:keywords "filesets")
-		  (:authors
-		   ("Graham Clark" . "grclark@gmail.com"))
-		  (:maintainers
-		   ("Graham Clark" . "grclark@gmail.com"))
-		  (:maintainer "Graham Clark" . "grclark@gmail.com"))])
  (helm-firefox .
 	       [(1 1 1 -4 20220420 1346)
 		((helm
@@ -34877,20 +34825,6 @@
 		  (:commit . "8d4d947c687cb650cb149aa2271ad5201ea92594")
 		  (:revdesc . "8d4d947c687c")
 		  (:keywords "convenience"))])
- (helm-frame .
-	     [(0 4 8 1 -4 20220803 1528)
-	      ((emacs
-		(24 4)))
-	      "Open helm buffers in a dedicated frame" tar
-	      ((:url . "https://github.com/chee/helm-frame")
-	       (:commit . "1b5e895e9199deeea049010e5fe4de7a338f41f3")
-	       (:revdesc . "1b5e895e9199")
-	       (:keywords "lisp" "helm" "popup" "frame")
-	       (:authors
-		("chee" . "yay@chee.party"))
-	       (:maintainers
-		("chee" . "yay@chee.party"))
-	       (:maintainer "chee" . "yay@chee.party"))])
  (helm-fuz .
 	   [(1 4 0 1 -4 20200812 1222)
 	    ((emacs
@@ -34984,17 +34918,6 @@
 	     (:maintainers
 	      ("iory" . "ab.ioryz@gmail.com"))
 	     (:maintainer "iory" . "ab.ioryz@gmail.com"))])
- (helm-git-grep .
-		[(0 10 1 1 -4 20170614 1411)
-		 ((helm-core
-		   (2 2 0)))
-		 "Helm for git grep, an incremental git-grep(1)" tar
-		 ((:url . "https://github.com/yasuyk/helm-git-grep")
-		  (:commit . "744cea07dba6e6a5effbdba83f1b786c78fd86d3")
-		  (:revdesc . "744cea07dba6")
-		  (:maintainers
-		   ("Yasuyuki Oka" . "yasuyk@gmail.com"))
-		  (:maintainer "Yasuyuki Oka" . "yasuyk@gmail.com"))])
  (helm-github-stars .
 		    [(1 3 7 1 -4 20190428 1047)
 		     ((helm
@@ -35067,15 +34990,6 @@
 		    (:maintainers
 		     ("Yasuyuki Oka" . "yasuyk@gmail.com"))
 		    (:maintainer "Yasuyuki Oka" . "yasuyk@gmail.com"))])
- (helm-google .
-	      [(0 1 0 1 -4 20210527 900)
-	       ((helm
-		 (0)))
-	       "Emacs Helm Interface for quick Google searches" tar
-	       ((:url . "https://framagit.org/steckerhalter/helm-google")
-		(:commit . "27834161391c350ef790062391cb7eab1d59fb62")
-		(:revdesc . "27834161391c")
-		(:keywords "helm" "google" "search" "browse" "searx"))])
  (helm-grepint .
 	       [(1 6 1 1 -4 20200811 1616)
 		((helm
@@ -35153,20 +35067,6 @@
 	       (:maintainers
 		("Markus Hauck" . "markus1189@gmail.com"))
 	       (:maintainer "Markus Hauck" . "markus1189@gmail.com"))])
- (helm-helm-commands .
-		     [(0 2 1 -4 20130902 1748)
-		      ((helm
-			(1 5 4)))
-		      "List all helm commands with helm" tar
-		      ((:url . "https://github.com/vapniks/helm-helm-commands")
-		       (:commit . "1c37bb0d4cda6877162603cd1ddc9f596a7a5cb9")
-		       (:revdesc . "1c37bb0d4cda")
-		       (:keywords "convenience")
-		       (:authors
-			("Joe Bloggs" . "vapniks@yahoo.com"))
-		       (:maintainers
-			("Joe Bloggs" . "vapniks@yahoo.com"))
-		       (:maintainer "Joe Bloggs" . "vapniks@yahoo.com"))])
  (helm-hoogle .
 	      [(1 0 1 -4 20161027 534)
 	       ((helm
@@ -35199,26 +35099,6 @@
 	       (:maintainers
 		(nil . "@torgeir"))
 	       (:maintainer nil . "@torgeir"))])
- (helm-icons .
-	     [(0 1 1 -4 20231027 616)
-	      ((emacs
-		(25 1))
-	       (dash
-		(2 14 1))
-	       (f
-		(0 20 0))
-	       (treemacs
-		(2 7)))
-	      "Helm icons" tar
-	      ((:url . "https://github.com/yyoncho/helm-icons")
-	       (:commit . "0d113719ee72cb7b6bb7db29f7200d667bd86607")
-	       (:revdesc . "0d113719ee72")
-	       (:keywords "convenience")
-	       (:authors
-		("Ivan Yonchovski" . "yyoncho@gmail.com"))
-	       (:maintainers
-		("Ivan Yonchovski" . "yyoncho@gmail.com"))
-	       (:maintainer "Ivan Yonchovski" . "yyoncho@gmail.com"))])
  (helm-idris .
 	     [(0 0 1 1 -4 20141202 1757)
 	      ((helm
@@ -35519,24 +35399,6 @@
 	      (:maintainers
 	       ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	      (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
- (helm-migemo .
-	      [(1 22 1 -4 20240921 1551)
-	       ((emacs
-		 (25 1))
-		(helm
-		 (1 7 8))
-		(migemo
-		 (1 9)))
-	       "Migemo plug-in for helm" tar
-	       ((:url . "https://github.com/emacs-jp/helm-migemo")
-		(:commit . "6da30a3ee3ddcfde6068a5b05be24f888d9a7b53")
-		(:revdesc . "6da30a3ee3dd")
-		(:keywords "matching" "convenience" "tools" "i18n")
-		(:authors
-		 ("rubikitch" . "rubikitch@ruby-lang.org"))
-		(:maintainers
-		 ("Yuhei Maeda" . "yuhei.maeda_at_gmail.com"))
-		(:maintainer "Yuhei Maeda" . "yuhei.maeda_at_gmail.com"))])
  (helm-mode-manager .
 		    [(0 1 1 -4 20210108 2330)
 		     ((helm
@@ -35863,22 +35725,6 @@
 		 (:maintainers
 		  ("Eric Hansen" . "hansen.c.eric@gmail.com"))
 		 (:maintainer "Eric Hansen" . "hansen.c.eric@gmail.com"))])
- (helm-posframe .
-		[(0 1 0 1 -4 20230822 2030)
-		 ((emacs
-		   (26 0))
-		  (posframe
-		   (1 0 0))
-		  (helm
-		   (0 1)))
-		 "Using posframe to show helm window" tar
-		 ((:url . "https://github.com/tumashu/helm-posframe")
-		  (:commit . "0b6bb016f0ff4980860a9d00574de311748c40b0")
-		  (:revdesc . "0b6bb016f0ff")
-		  (:keywords "abbrev" "convenience" "matching" "helm")
-		  (:maintainers
-		   ("Feng Shu" . "tumashu@163.com"))
-		  (:maintainer "Feng Shu" . "tumashu@163.com"))])
  (helm-proc .
 	    [(0 1 0 1 -4 20241230 1732)
 	     ((helm
@@ -35949,14 +35795,6 @@
 		  (:maintainers
 		   ("Sohail Somani" . "sohail@taggedtype.net"))
 		  (:maintainer "Sohail Somani" . "sohail@taggedtype.net"))])
- (helm-pt .
-	  [(20150307 141210 1 -4 20160214 2342)
-	   ((helm
-	     (1 5 6)))
-	   "Helm interface to the platinum searcher" tar
-	   ((:url . "https://github.com/ralesi/helm-pt")
-	    (:commit . "8acc52911dad1ed0c3975f134a468762afe0b76b")
-	    (:revdesc . "8acc52911dad"))])
  (helm-purpose .
 	       [(0 1 1 -4 20170114 1636)
 		((emacs
@@ -36265,21 +36103,6 @@
 		  (:maintainers
 		   ("Takaaki ISHIKAWA" . "takaxpatieeedotorg"))
 		  (:maintainer "Takaaki ISHIKAWA" . "takaxpatieeedotorg"))])
- (helm-selector .
-		[(0 6 1 1 -4 20210125 857)
-		 ((emacs
-		   (26 1))
-		  (helm
-		   (3)))
-		 "Helm buffer selector" tar
-		 ((:url . "https://github.com/emacs-helm/helm-selector")
-		  (:commit . "4da4711c4cfd14527abe20d66787beeb49171b26")
-		  (:revdesc . "4da4711c4cfd")
-		  (:authors
-		   ("Pierre Neidhardt" . "mail@ambrevar.xyz"))
-		  (:maintainers
-		   ("Pierre Neidhardt" . "mail@ambrevar.xyz"))
-		  (:maintainer "Pierre Neidhardt" . "mail@ambrevar.xyz"))])
  (helm-sheet .
 	     [(0 1 0 1 -4 20130630 1239)
 	      ((helm
@@ -36294,22 +36117,6 @@
 	       (:maintainers
 		("Yasuyuki Oka" . "yasuyk@gmail.com"))
 	       (:maintainer "Yasuyuki Oka" . "yasuyk@gmail.com"))])
- (helm-shell-history .
-		     [(0 0 1 1 -4 20210214 948)
-		      ((helm
-			(3 7))
-		       (emacs
-			(24 3)))
-		      "Find shell history from helm" tar
-		      ((:url . "https://github.com/yuutayamada/helm-shell-history")
-		       (:commit . "dfa657ae76ef1ba768e970a557739efdf0436cb0")
-		       (:revdesc . "dfa657ae76ef")
-		       (:keywords "helm" "terminals" "shell")
-		       (:authors
-			("Yuta Yamada" . "cokesboy\"at\"gmail.com"))
-		       (:maintainers
-			("Yuta Yamada" . "cokesboy\"at\"gmail.com"))
-		       (:maintainer "Yuta Yamada" . "cokesboy\"at\"gmail.com"))])
  (helm-slime .
 	     [(0 4 0 1 -4 20191016 1601)
 	      ((emacs
@@ -36462,17 +36269,6 @@
 			(:maintainers
 			 ("Pierre Neidhardt" . "mail@ambrevar.xyz"))
 			(:maintainer "Pierre Neidhardt" . "mail@ambrevar.xyz"))])
- (helm-swoop .
-	     [(3 0 0 1 -4 20240104 2356)
-	      ((emacs
-		(25 1))
-	       (helm
-		(3 6)))
-	      "Efficiently hopping squeezed lines powered by helm interface" tar
-	      ((:url . "https://github.com/emacsorphanage/helm-swoop")
-	       (:commit . "df90efd4476dec61186d80cace69276a95b834d2")
-	       (:revdesc . "df90efd4476d")
-	       (:keywords "convenience" "helm" "swoop" "inner" "buffer" "search"))])
  (helm-system-packages .
 		       [(1 10 2 1 -4 20220515 812)
 			((emacs
@@ -36541,21 +36337,6 @@
 		    (:maintainers
 		     ("Brian Caruso" . "briancaruso@gmail.com"))
 		    (:maintainer "Brian Caruso" . "briancaruso@gmail.com"))])
- (helm-themes .
-	      [(0 5 1 -4 20240925 748)
-	       ((emacs
-		 (26 1))
-		(helm-core
-		 (3 6 0)))
-	       "Color theme selection with helm interface" tar
-	       ((:url . "https://github.com/syohex/emacs-helm-themes")
-		(:commit . "4b234d4bdf61bd7ad82c5302c6178f7fee3ee66f")
-		(:revdesc . "4b234d4bdf61")
-		(:authors
-		 ("Syohei YOSHIDA" . "syohex@gmail.com"))
-		(:maintainers
-		 ("Jen-Chieh Shen" . "jcs090218@gmail.com"))
-		(:maintainer "Jen-Chieh Shen" . "jcs090218@gmail.com"))])
  (helm-tramp .
 	     [(1 3 11 1 -4 20230714 1053)
 	      ((emacs
@@ -36605,16 +36386,6 @@
 		(:maintainers
 		 ("Aaron Jacobs" . "atheriel@gmail.com"))
 		(:maintainer "Aaron Jacobs" . "atheriel@gmail.com"))])
- (helm-unicode .
-	       [(0 0 4 1 -4 20180608 1407)
-		((helm
-		  (1 9 8))
-		 (emacs
-		  (24 4)))
-		"Helm command for unicode characters" tar
-		((:url . "https://github.com/bomgar/helm-unicode")
-		 (:commit . "b7092ed6a7191805651efae40947e4781c453211")
-		 (:revdesc . "b7092ed6a719"))])
  (helm-w32-launcher .
 		    [(0 1 6 1 -4 20141223 2014)
 		     ((emacs
