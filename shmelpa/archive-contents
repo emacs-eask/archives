@@ -57891,11 +57891,11 @@
 			("Göktuğ Kayaalp" . "self@gkayaalp.com"))
 		       (:maintainer "Göktuğ Kayaalp" . "self@gkayaalp.com"))])
  (org-vcard .
-	    [(0 1 0 1 -4 20250708 814)
+	    [(0 1 0 1 -4 20250710 1057)
 	     nil "Org-mode support for vCard export and import" tar
 	     ((:url . "https://github.com/pinoaffe/org-vcard")
-	      (:commit . "c438da390db9e5ad9e42b699aeaebe359ed7d9c2")
-	      (:revdesc . "c438da390db9")
+	      (:commit . "2b17ba824b792efab0b5f9b0c9c2bff779a5d1b1")
+	      (:revdesc . "2b17ba824b79")
 	      (:keywords "outlines" "org" "vcard")
 	      (:authors
 	       ("Alexis" . "flexibeast@gmail.com")
@@ -64874,19 +64874,21 @@
 	      ("Wilfred Hughes" . "me@wilfred.me.uk"))
 	     (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk"))])
  (pyimpsort .
-	    [(0 1 0 1 -4 20250710 636)
+	    [(0 1 0 1 -4 20250710 1021)
 	     ((emacs
-	       (24 3)))
-	     "Sort python imports" tar
-	     ((:url . "https://github.com/emacs-pe/pyimpsort.el")
-	      (:commit . "fa3b05b49ea70f2e66221141c4180b681445d5db")
-	      (:revdesc . "fa3b05b49ea7")
-	      (:keywords "convenience")
+	       (24 3))
+	      (python
+	       (0)))
+	     "Sort Python imports" tar
+	     ((:url . "https://github.com/emacsorphanage/pyimpsort")
+	      (:commit . "d8c6ac1cbc2e42f7cf874f641ea5c2ba5e89a126")
+	      (:revdesc . "d8c6ac1cbc2e")
+	      (:keywords "tools" "python" "convenience")
 	      (:authors
 	       ("Mario Rodas" . "marsam@users.noreply.github.com"))
 	      (:maintainers
-	       ("Mario Rodas" . "marsam@users.noreply.github.com"))
-	      (:maintainer "Mario Rodas" . "marsam@users.noreply.github.com"))])
+	       ("Alain Delplanque" . "alaindelplanque@mailoo.org"))
+	      (:maintainer "Alain Delplanque" . "alaindelplanque@mailoo.org"))])
  (pyinspect .
 	    [(0 1 1 -4 20230216 1121)
 	     ((emacs
@@ -65096,11 +65098,11 @@
 	       (:revdesc . "3ebacc6c46e9")
 	       (:keywords "languages" "processes"))])
  (python-mode .
-	      [(6 2 2 1 -4 20250624 1530)
+	      [(6 2 2 1 -4 20250710 1032)
 	       nil "Python major mode" tar
 	       ((:url . "https://gitlab.com/groups/python-mode-devs")
-		(:commit . "37a14e1c07fe2d99786c7faa12b928b9654e79ed")
-		(:revdesc . "37a14e1c07fe")
+		(:commit . "6f32eec5a6e11d79dcf49495795bb971f6238eda")
+		(:revdesc . "6f32eec5a6e1")
 		(:keywords "python" "languages" "oop")
 		(:maintainers
 		 (nil . "python-mode@python.org"))
