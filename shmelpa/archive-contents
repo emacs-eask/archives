@@ -11651,6 +11651,26 @@
 			   ((:url . "https://github.com/Nyoho/consult-hatena-bookmark")
 			    (:commit . "8f2e48688455711df89533a7fe5af1d9cd02c137")
 			    (:revdesc . "8f2e48688455"))])
+ (consult-hn .
+	     [(0 1 0 1 -4 20250711 1729)
+	      ((emacs
+		(29 4))
+	       (consult
+		(2 0))
+	       (ts
+		(0 3))
+	       (transient
+		(0 9)))
+	      "Hacker News search with Consult" tar
+	      ((:url . "https://github.com/agzam/consult-hn")
+	       (:commit . "bcf839e4e6412785594665a45ce674cff2896ee3")
+	       (:revdesc . "bcf839e4e641")
+	       (:keywords "search" "extensions")
+	       (:authors
+		("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
+	       (:maintainers
+		("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
+	       (:maintainer "Ag Ibragimov" . "agzam.ibragimov@gmail.com"))])
  (consult-ls-git .
 		 [(0 1 0 1 -4 20250419 1320)
 		  ((emacs
@@ -24053,6 +24073,20 @@
 	  (:maintainers
 	   ("Filipe Silva" . "filipe.silva@gmail.com"))
 	  (:maintainer "Filipe Silva" . "filipe.silva@gmail.com"))])
+ (exec-in-buffer .
+		 [(0 1 0 1 -4 20250629 324)
+		  ((emacs
+		    (24 1)))
+		  "Choose programs to execute on buffers in projects" tar
+		  ((:url . "https://github.com/arteen1000/exec-in-buffer")
+		   (:commit . "57ddaf95d46714ec1382f83ba952480b4cd0b73d")
+		   (:revdesc . "57ddaf95d467")
+		   (:keywords "tools" "c" "c++" "formatting" "projects")
+		   (:authors
+		    ("Arteen Abrishami" . "arteen@ucla.edu"))
+		   (:maintainers
+		    ("Arteen Abrishami" . "arteen@ucla.edu"))
+		   (:maintainer "Arteen Abrishami" . "arteen@ucla.edu"))])
  (exec-path-from-shell .
 		       [(2 2 1 -4 20240411 859)
 			((emacs
@@ -32594,17 +32628,17 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20250709 2220)
+	[(0 1 0 1 -4 20250713 1709)
 	 ((emacs
 	   (27 1))
 	  (transient
 	   (0 7 4))
 	  (compat
-	   (29 1 4 1)))
+	   (30 1 0 0)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "bed2402c5442fec21cc336a76821a5c89c1b254b")
-	  (:revdesc . "bed2402c5442")
+	  (:commit . "7af9ed8fc13ba1c9cbdb6ab7d47ddfa5aee2d455")
+	  (:revdesc . "7af9ed8fc13b")
 	  (:keywords "convenience" "tools")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -37630,13 +37664,13 @@
 	      ("DarkSun" . "lujun9972@gmail.com"))
 	     (:maintainer "DarkSun" . "lujun9972@gmail.com"))])
  (htmlize .
-	  [(0 1 0 1 -4 20250704 1928)
+	  [(0 1 0 1 -4 20250713 1451)
 	   ((emacs
 	     (26 1)))
 	   "Convert buffer text and decorations to HTML" tar
 	   ((:url . "https://github.com/emacsorphanage/htmlize")
-	    (:commit . "bf759aa3b2c4099a4252dccdc1db361fbb13a520")
-	    (:revdesc . "bf759aa3b2c4")
+	    (:commit . "e390792b84aa61df29f899de118a8d93baf421b0")
+	    (:revdesc . "e390792b84aa")
 	    (:keywords "hypermedia" "extensions")
 	    (:authors
 	     ("Hrvoje Niksic" . "hniksic@gmail.com"))
@@ -57561,6 +57595,15 @@
 		    (:maintainers
 		     ("Colin Woodbury" . "colin@fosskers.ca"))
 		    (:maintainer "Colin Woodbury" . "colin@fosskers.ca"))])
+ (org-table-highlight .
+		      [(0 1 0 1 -4 20250709 823)
+		       ((emacs
+			 (27 1)))
+		       "Highlight Org table columns and rows" tar
+		       ((:url . "https://github.com/llcc/org-table-highlight")
+			(:commit . "4f57bb04b23f257004bde7fce88af4efb95e3624")
+			(:revdesc . "4f57bb04b23f")
+			(:keywords "org-table" "convenience"))])
  (org-table-sticky-header .
 			  [(0 1 0 1 -4 20190924 506)
 			   ((org
@@ -66816,6 +66859,25 @@
 		(:maintainers
 		 ("Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))
 		(:maintainer "Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))])
+ (repeat-ring .
+	      [(0 1 0 1 -4 20250712 625)
+	       ((emacs
+		 (25 1))
+		(virtual-ring
+		 (0 0))
+		(pubsub
+		 (0 0))
+		(mantra
+		 (0 0)))
+	       "Structured and configurable repetition" tar
+	       ((:url . "https://github.com/countvajhula/repeat-ring")
+		(:commit . "f2e67a961476a9a871f245f2d7c1df94e51ef721")
+		(:revdesc . "f2e67a961476")
+		(:authors
+		 ("Sid Kasivajhula" . "sid@countvajhula.com"))
+		(:maintainers
+		 ("Sid Kasivajhula" . "sid@countvajhula.com"))
+		(:maintainer "Sid Kasivajhula" . "sid@countvajhula.com"))])
  (repeatable-motion .
 		    [(0 0 1 -4 20170620 1848)
 		     ((emacs
@@ -66957,6 +67019,15 @@
 	 (:commit . "1572f3ee82eaadc06e741f03e1889281308c79fa")
 	 (:revdesc . "1572f3ee82ea")
 	 (:keywords "convenience"))])
+ (repo-grep .
+	    [(0 1 0 1 -4 20250706 1706)
+	     ((emacs
+	       (25 1)))
+	     "Project-wide grep search" tar
+	     ((:url . "https://github.com/BHFock/repo-grep")
+	      (:commit . "fd8a73c7854f1096848099ecec4ef4d7cea38bb7")
+	      (:revdesc . "fd8a73c7854f")
+	      (:keywords "tools" "search" "grep" "convenience" "project"))])
  (req-package .
 	      [(1 3 1 -4 20180605 1141)
 	       ((use-package
