@@ -1261,7 +1261,7 @@
 	       ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	      (:commit . "a3370e547eab260d24774cd50ccbe865373c8631"))])
  (haml-mode .
-	    [(3 2 1 0 20231110 173413)
+	    [(3 2 1 0 20250714 144103)
 	     ((emacs
 	       (24 1))
 	      (cl-lib
@@ -1269,7 +1269,7 @@
 	     "Major mode for editing Haml files" tar
 	     ((:url . "https://github.com/nex3/haml-mode")
 	      (:keywords "markup" "languages" "html")
-	      (:commit . "a64d58df8f098f858c6c11fa1629a90969f9c7e8"))])
+	      (:commit . "3bb4a96535eb5c81dbe6a43bfa8d67a778d449c0"))])
  (haskell-mode .
 	       [(17 5 0 20250630 193117)
 		((emacs
@@ -1704,7 +1704,7 @@
 		   ("Jason R. Blevins" . "jblevins@xbeta.org"))
 		  (:commit . "7c51a2167c5a1330e0ab52fe5b2d03c1ead122ca"))])
  (mastodon .
-	   [(2 0 1 0 20250602 141655)
+	   [(2 0 2 0 20250714 95455)
 	    ((emacs
 	      (28 1))
 	     (persist
@@ -1717,7 +1717,7 @@
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com")
 	      ("Marty Hiatt" . "mousebot@disroot.org"))
-	     (:commit . "f6247f0c9b8c15b19e8ddca2f600ceb2cf48beb9"))])
+	     (:commit . "2959ec90ed5813be3efd3b1942815d911c41a416"))])
  (material-theme .
 		 [(2015 0 20210904 122621)
 		  ((emacs
@@ -2098,6 +2098,19 @@
 	      (:authors
 	       ("Andreas Politz" . "mail@andreas-politz.de"))
 	      (:commit . "30b50544e55b8dbf683c2d932d5c33ac73323a16"))])
+ (pg .
+     [(0 55 0 20250629 134638)
+      ((emacs
+	(28 1))
+       (peg
+	(1 0 1)))
+      "Socket-level interface to the PostgreSQL database" tar
+      ((:url . "https://github.com/emarsden/pg-el")
+       (:keywords "data" "comm" "database" "postgresql")
+       (:maintainer "Eric Marsden" . "eric.marsden@risk-engineering.org")
+       (:authors
+	("Eric Marsden" . "eric.marsden@risk-engineering.org"))
+       (:commit . "63690547ce37f627b163c3138bcf28c8f07ef3bc"))])
  (php-mode .
 	   [(1 26 1 0 20250602 130847)
 	    ((emacs
@@ -2652,7 +2665,7 @@
 		    (:keywords "typescript" "languages")
 		    (:commit . "481df3ad2cdf569d8e6697679669ff6206fbd2f9"))])
  (typst-ts-mode .
-		[(0 12 1 0 20250708 85145)
+		[(0 12 2 0 20250714 85709)
 		 ((emacs
 		   (29 1)))
 		 "Tree Sitter support for Typst" tar
@@ -2663,7 +2676,7 @@
 		   ("Huan Nguyen" . "nguyenthieuhuan@gmail.com"))
 		  (:authors
 		   ("Ziqi Yang" . "mr.meowking@anche.no"))
-		  (:commit . "7f6bf64232f1b120c4a4696a02be2f0a506b04b6"))])
+		  (:commit . "a184c386cae6a3da7e156d3f27929813762c6d98"))])
  (ujelly-theme .
 	       [(1 3 6 0 20241111 2243)
 		nil "Ujelly theme for GNU Emacs 24 (deftheme)" tar
