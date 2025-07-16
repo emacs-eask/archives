@@ -232,14 +232,14 @@
 	   ("John Wiegley" . "jwiegley@gmail.com"))
 	  (:commit . "bb3f31966ed65a76abe6fa4f80a960a2917f554e"))])
  (auctex .
-	 [(14 1 0 0 20250714 212717)
+	 [(14 1 0 0 20250716 75149)
 	  ((emacs
 	    (28 1)))
 	  "Integrated environment for *TeX*" tar
 	  ((:url . "https://www.gnu.org/software/auctex/")
 	   (:keywords "tex" "latex" "texinfo" "context" "doctex" "preview-latex")
 	   (:maintainer nil . "auctex-devel@gnu.org")
-	   (:commit . "27a59657965c695e5d4e5f11877bf63f94e22490"))])
+	   (:commit . "e8cb509d64fbf5e8231f3d2a0b3425238a490107"))])
  (auctex-cont-latexmk .
 		      [(0 3 0 20250115 185937)
 		       ((emacs
@@ -1071,7 +1071,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:commit . "5a0cd5ccb650d7bba1c1ea02cf67b71d7cfa6e9a"))])
  (denote .
-	 [(4 0 0 0 20250715 101412)
+	 [(4 0 0 0 20250716 62628)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -1079,7 +1079,7 @@
 	   (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "ad1537d22a5c6c2cc8967b890e2044c57ead08f9"))])
+	   (:commit . "b9ee610cbedac6c44e30ec82ba0965ab26bcd20f"))])
  (denote-journal .
 		 [(0 1 1 0 20250702 194716)
 		  ((emacs
@@ -5198,6 +5198,18 @@
 	  (:authors
 	   ("Justin Burkett" . "justin@burkett.cc"))
 	  (:commit . "170e968c6a46a572b30c52c1b038232d418734cc"))])
+ (vecdb .
+	[(0 1 0 20250715 213239)
+	 ((emacs
+	   (29 1))
+	  (plz
+	   (0 8)))
+	 "An interface to vector databases for embeddings" tar
+	 ((:url . "https://github.com/ahyatt/vecdb")
+	  (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
+	  (:authors
+	   ("Andrew Hyatt" . "ahyatt@gmail.com"))
+	  (:commit . "169b7cb9e84b05d20fd09ef613067cf07c63cc86"))])
  (verilog-mode .
 	       [(2025 1 1 100165202 0 20250121 85659)
 		nil "major mode for editing verilog source in Emacs" tar
