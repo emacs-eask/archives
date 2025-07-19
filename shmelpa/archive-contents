@@ -73553,11 +73553,11 @@
 			  ("Magnar Sveen" . "magnars@gmail.com"))
 			 (:maintainer "Magnar Sveen" . "magnars@gmail.com"))])
  (string-inflection .
-		    [(0 1 0 1 -4 20250630 555)
-		     nil "Underscore -> UPCASE -> CamelCase -> lowerCamelCase conversion of names" tar
+		    [(0 1 0 1 -4 20250719 805)
+		     nil "Foo_bar => FOO_BAR => FooBar => fooBar => foo-bar => Foo_Bar => foo_bar" tar
 		     ((:url . "https://github.com/akicho8/string-inflection")
-		      (:commit . "02ab7b2ea8530c63c20556c1afb795924e08dfca")
-		      (:revdesc . "02ab7b2ea853")
+		      (:commit . "4d4f9b054417e0976e1cdc3053fe25a6afcd53a9")
+		      (:revdesc . "4d4f9b054417")
 		      (:keywords "elisp")
 		      (:authors
 		       ("akicho8" . "akicho8@gmail.com"))
