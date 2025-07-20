@@ -22,7 +22,7 @@
 		     ("Ozan Sener" . "ozan@ozansener.com"))
 		    (:commit . "89b1d778a1f8b385775c122f2bd1c62f0fbf931a"))])
  (aidermacs .
-	    [(1 5 0 20250716 135142)
+	    [(1 5 0 20250720 120728)
 	     ((emacs
 	       (26 1))
 	      (transient
@@ -37,7 +37,7 @@
 	      (:maintainer "Mingde Zeng" . "matthewzmd@posteo.net")
 	      (:authors
 	       ("Mingde Zeng" . "matthewzmd@posteo.net"))
-	      (:commit . "cfa273dbe8b0f13cd9f750ccf1ddb131fb2bfef5"))])
+	      (:commit . "9d819c1041d564d1691d1887f378ffdb24091da0"))])
  (alect-themes .
 	       [(0 10 0 20211022 165129)
 		((emacs
@@ -147,7 +147,7 @@
 	    ("Vivek Das Mohapatra" . "vivek@etla.org"))
 	   (:commit . "6acb5f3cdac840fc2d1e5c4b73a90f4c035d7116"))])
  (bash-completion .
-		  [(3 2 1 -4 0 20250626 204257)
+		  [(3 2 1 -4 0 20250720 122823)
 		   ((emacs
 		     (25 3)))
 		   "Bash completion for the shell buffer" tar
@@ -156,7 +156,7 @@
 		    (:maintainer "Stephane Zermatten" . "szermatt@gmail.com")
 		    (:authors
 		     ("Stephane Zermatten" . "szermatt@gmx.net"))
-		    (:commit . "520503455d0ad762faa75b88501cccc71786343d"))])
+		    (:commit . "d32863dde8d35a44d8b88930d50d3979ea22788e"))])
  (beancount .
 	    [(0 9 0 0 20250616 105101)
 	     nil "A major mode to edit Beancount input files." tar
@@ -1300,7 +1300,7 @@
 		     ("Pranshu Sharma" . "pranshu@bauherren.ovh"))
 		    (:commit . "b47211699944997bfb03fd88b1157dd71727bad7"))])
  (helm .
-       [(4 0 4 0 20250720 50250)
+       [(4 0 4 0 20250720 181350)
 	((helm-core
 	  (4 0 4))
 	 (wfnames
@@ -1311,9 +1311,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "c6f12073f341a8d00a5c0b10a25a9f5f86da1f43"))])
+	 (:commit . "bbaa92c21441287b11dff469b538b85fe52866b5"))])
  (helm-core .
-	    [(4 0 4 0 20250720 50250)
+	    [(4 0 4 0 20250720 181350)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1323,7 +1323,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "c6f12073f341a8d00a5c0b10a25a9f5f86da1f43"))])
+	      (:commit . "bbaa92c21441287b11dff469b538b85fe52866b5"))])
  (hideshowvis .
 	      [(0 8 0 20250225 175051)
 	       ((emacs
@@ -1693,7 +1693,7 @@
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
 		  (:commit . "5b820a1d1e94649e0f218362286d520d9f29ac2c"))])
  (markdown-mode .
-		[(2 8 -3 0 20250718 153558)
+		[(2 8 -3 0 20250720 115620)
 		 ((emacs
 		   (28 1)))
 		 "Major mode for Markdown-formatted text" tar
@@ -1702,7 +1702,7 @@
 		  (:maintainer "Jason R. Blevins" . "jblevins@xbeta.org")
 		  (:authors
 		   ("Jason R. Blevins" . "jblevins@xbeta.org"))
-		  (:commit . "c6ac7447694eead585094da178f4b79d78afcc3f"))])
+		  (:commit . "fc4fff89bae976ff4a594a538e6ef11820440c1f"))])
  (mastodon .
 	   [(2 0 2 0 20250714 95455)
 	    ((emacs
@@ -2099,7 +2099,7 @@
 	       ("Andreas Politz" . "mail@andreas-politz.de"))
 	      (:commit . "30b50544e55b8dbf683c2d932d5c33ac73323a16"))])
  (pg .
-     [(0 55 0 20250718 91654)
+     [(0 56 0 20250720 94306)
       ((emacs
 	(28 1))
        (peg
@@ -2110,7 +2110,7 @@
        (:maintainer "Eric Marsden" . "eric.marsden@risk-engineering.org")
        (:authors
 	("Eric Marsden" . "eric.marsden@risk-engineering.org"))
-       (:commit . "8d3434b6698eec2d6882ebedc6c4c84700083c50"))])
+       (:commit . "d08800fc78a8f7bca4d61fa7a1bd66b3dea90567"))])
  (php-mode .
 	   [(1 26 1 0 20250602 130847)
 	    ((emacs
@@ -2860,14 +2860,14 @@
 	       ("Le Wang" . "l26wang@gmail.com"))
 	      (:commit . "67c49cfdf5a5a9f28792c500c8eb0017cfe74a3a"))])
  (xah-fly-keys .
-	       [(27 6 20250719194527 0 20250719 195031)
+	       [(27 7 20250720091147 0 20250720 91307)
 		((emacs
 		  (28 3)))
 		"ergonomic modal keybinding minor mode." tar
 		((:url . "http://xahlee.info/emacs/misc/xah-fly-keys.html")
 		 (:keywords "convenience" "vi" "vim" "ergoemacs" "keybinding")
 		 (:maintainer "Xah Lee" . "xah@xahlee.org")
-		 (:commit . "9f7e54a3819ffbad9324194ca3c85a4c44582580"))])
+		 (:commit . "a0354ff3fedda87111f2d93fa5b7b5e7a8874967"))])
  (xkcd .
        [(1 1 0 20220503 110939)
 	((json
