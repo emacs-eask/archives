@@ -7437,7 +7437,7 @@
 	       ("Andrew Myers" . "am2605@gmail.com"))
 	      (:maintainer "Andrew Myers" . "am2605@gmail.com"))])
  (cfn-mode .
-	   [(0 1 0 1 -4 20250706 805)
+	   [(0 1 0 1 -4 20250720 807)
 	    ((emacs
 	      (27 0))
 	     (f
@@ -7448,8 +7448,8 @@
 	      (0 0 13)))
 	    "AWS cloudformation mode" tar
 	    ((:url . "https://gitlab.com/worr/cfn-mode")
-	     (:commit . "4982e0c346e29365352cc69225371a0ff6f86243")
-	     (:revdesc . "4982e0c346e2")
+	     (:commit . "7cb7e4d30a863bd9fa5b11fba72925ea1809ec66")
+	     (:revdesc . "7cb7e4d30a86")
 	     (:keywords "convenience" "languages" "tools")
 	     (:authors
 	      ("William Orr" . "will@worrbase.com"))
@@ -16658,6 +16658,20 @@
 	   (:maintainers
 	    ("Mario Rodas" . "marsam@users.noreply.github.com"))
 	   (:maintainer "Mario Rodas" . "marsam@users.noreply.github.com"))])
+ (dock .
+       [(0 1 0 1 -4 20250720 1954)
+	((emacs
+	  (28 1)))
+	"Integration for desktop environment's taskbar/dock" tar
+	((:url . "https://github.com/hron/dock.el")
+	 (:commit . "8397c69d33444fa48ec24944e1886386801a27a1")
+	 (:revdesc . "8397c69d3344")
+	 (:keywords "lisp")
+	 (:authors
+	  ("Aleksei Gusev" . "aleksei.gusev@gmail.com"))
+	 (:maintainers
+	  ("Aleksei Gusev" . "aleksei.gusev@gmail.com"))
+	 (:maintainer "Aleksei Gusev" . "aleksei.gusev@gmail.com"))])
  (docker .
 	 [(0 1 0 1 -4 20250715 835)
 	  ((aio
@@ -17775,13 +17789,13 @@
 		    ("Thanabodee Charoenpiriyakij" . "wingyminus@gmail.com"))
 		   (:maintainer "Thanabodee Charoenpiriyakij" . "wingyminus@gmail.com"))])
  (eask .
-       [(0 1 0 1 -4 20250707 1919)
+       [(0 1 0 1 -4 20250720 2016)
 	((emacs
 	  (26 1)))
 	"Core Eask APIs, for Eask CLI development" tar
 	((:url . "https://github.com/emacs-eask/eask")
-	 (:commit . "53bc76d3d5452f7d08b9e24188421751b54fff83")
-	 (:revdesc . "53bc76d3d545")
+	 (:commit . "6cac2d56f3e0a33b179ef9e9e480482362ae1bfe")
+	 (:revdesc . "6cac2d56f3e0")
 	 (:keywords "lisp" "eask" "api")
 	 (:authors
 	  ("Jen-Chieh" . "jcs090218@gmail.com"))
@@ -34070,15 +34084,15 @@
 		(:revdesc . "8c70b48fe5fb")
 		(:keywords "faces"))])
  (helm .
-       [(0 1 0 1 -4 20250720 502)
+       [(0 1 0 1 -4 20250720 1813)
 	((helm-core
 	  (4 0 4))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
-	 (:commit . "c6f12073f341a8d00a5c0b10a25a9f5f86da1f43")
-	 (:revdesc . "c6f12073f341")
+	 (:commit . "bbaa92c21441287b11dff469b538b85fe52866b5")
+	 (:revdesc . "bbaa92c21441")
 	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
@@ -39812,15 +39826,17 @@
 	     ("Christophe Rhodes" . "csr21@cantab.net"))
 	    (:maintainer "Christophe Rhodes" . "csr21@cantab.net"))])
  (ipp .
-      [(0 8 1 -4 20230714 1021)
+      [(0 1 0 1 -4 20250720 2029)
        ((cl-lib
 	 (0 5))
+	(plz
+	 (0 9))
 	(emacs
-	 (24 1)))
+	 (28 1)))
        "Implementation of the Internet Printing Protocol" tar
        ((:url . "https://github.com/emarsden/ipp-el")
-	(:commit . "2b9359ca49acc558fe15622f63e2d31843cdc1f5")
-	(:revdesc . "2b9359ca49ac")
+	(:commit . "f1d4e4bdbc81de28ada2472e2a73fd9e96791b1d")
+	(:revdesc . "f1d4e4bdbc81")
 	(:keywords "printing" "hardware")
 	(:authors
 	 ("Eric Marsden" . "eric.marsden@risk-engineering.org"))
@@ -49063,13 +49079,15 @@
 	     ("Jonas Bernoulli" . "emacs.minions@jonas.bernoulli.dev"))
 	    (:maintainer "Jonas Bernoulli" . "emacs.minions@jonas.bernoulli.dev"))])
  (minitest .
-	   [(0 10 0 1 -4 20231222 1521)
+	   [(0 1 0 1 -4 20250713 401)
 	    ((dash
-	      (1 0 0)))
-	    "An Emacs mode for ruby minitest files" tar
-	    ((:url . "https://github.com/arthurnn/minitest-emacs")
-	     (:commit . "5999c45c047212cee15a2be67e78787776a79c35")
-	     (:revdesc . "5999c45c0472"))])
+	      (1 0 0))
+	     (emacs
+	      (24 3)))
+	    "An minor mode for ruby minitest files" tar
+	    ((:url . "https://git.sr.ht/~shoshin/minitest-emacs")
+	     (:commit . "9a7333180862c7a164d33e15056c90952944a9f8")
+	     (:revdesc . "9a7333180862"))])
  (minizinc-mode .
 		[(0 0 2 1 -4 20180201 1450)
 		 ((emacs
@@ -58198,7 +58216,7 @@
 		      ("Yann Herklotz" . "git@yannherklotz.com"))
 		     (:maintainer "Yann Herklotz" . "git@yannherklotz.com"))])
  (org2blog .
-	   [(0 1 0 1 -4 20250204 1933)
+	   [(0 1 0 1 -4 20250720 2007)
 	    ((emacs
 	      (29 4))
 	     (htmlize
@@ -58213,8 +58231,8 @@
 	      (1 1 18)))
 	    "Blog from Org mode to WordPress" tar
 	    ((:url . "https://github.com/org2blog/org2blog")
-	     (:commit . "f0b4d73e0aa531f508d979ba2365880f064700f9")
-	     (:revdesc . "f0b4d73e0aa5")
+	     (:commit . "124ccf638f3b4e4994cd0f1be45d99f76ad8ebb7")
+	     (:revdesc . "124ccf638f3b")
 	     (:keywords "comm" "convenience" "outlines" "wp")
 	     (:authors
 	      ("Puneeth Chaganti" . "punchagan+org2blog@gmail.com"))
@@ -68728,6 +68746,22 @@
 		       (:maintainers
 			("Nathaniel Flath" . "nflath@gmail.com"))
 		       (:maintainer "Nathaniel Flath" . "nflath@gmail.com"))])
+ (savefold .
+	   [(0 1 0 1 -4 20250720 1837)
+	    ((emacs
+	      (28 1))
+	     (compat
+	      (29 1)))
+	    "Persistence for various folding systems" tar
+	    ((:url . "https://github.com/jcfk/savefold.el")
+	     (:commit . "410bf7e9ab6e86771ad541c3291d42bbfd4a0822")
+	     (:revdesc . "410bf7e9ab6e")
+	     (:keywords "convenience")
+	     (:authors
+	      ("Jacob Fong" . "jacobcfong@gmail.com"))
+	     (:maintainers
+	      ("Jacob Fong" . "jacobcfong@gmail.com"))
+	     (:maintainer "Jacob Fong" . "jacobcfong@gmail.com"))])
  (savekill .
 	   [(20140418 2152 1 -4 20140418 229)
 	    nil "Save kill ring to disk" tar
