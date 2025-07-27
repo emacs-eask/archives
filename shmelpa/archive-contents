@@ -3700,15 +3700,15 @@
 	 ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	(:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (avy-act .
-	  [(0 1 0 1 -4 20250420 1805)
+	  [(0 1 0 1 -4 20250727 1603)
 	   ((avy
 	     (0 5 0))
 	    (emacs
 	     (29 1)))
 	   "Commands that let avy act from a distance" tar
 	   ((:url . "https://gitlab.com/nameiwillforget/avy-act")
-	    (:commit . "b50b6ee3435ed63eea1a6ffff39ecd121ae4d091")
-	    (:revdesc . "b50b6ee3435e")
+	    (:commit . "6e60b4bac5501e29e12daccea15594755c847295")
+	    (:revdesc . "6e60b4bac550")
 	    (:keywords "tools" "convenience")
 	    (:authors
 	     ("Alexander Prähauser" . "ahprae@protonmail.com"))
@@ -8455,6 +8455,23 @@
 		      (:maintainers
 		       ("Arteen Abrishami" . "arteen@ucla.edu"))
 		      (:maintainer "Arteen Abrishami" . "arteen@ucla.edu"))])
+ (claude-code .
+	      [(0 1 0 1 -4 20250723 1154)
+	       ((emacs
+		 (28 1))
+		(projectile
+		 (2 5 0))
+		(vterm
+		 (0 0 2))
+		(transient
+		 (0 4 0))
+		(markdown-mode
+		 (2 5)))
+	       "Run Claude Code sessions" tar
+	       ((:url . "https://github.com/yuya373/claude-code-emacs")
+		(:commit . "f62dfe4c570c92fceaf628c5749b240a5fd9330d")
+		(:revdesc . "f62dfe4c570c")
+		(:keywords "tools" "convenience"))])
  (claude-shell .
 	       [(0 1 0 1 -4 20241130 2024)
 		((emacs
@@ -32164,22 +32181,6 @@
 	   (:maintainers
 	    ("Brantou" . "brantou89@gmail.com"))
 	   (:maintainer "Brantou" . "brantou89@gmail.com"))])
- (go-translate .
-	       [(0 1 0 1 -4 20250711 534)
-		((emacs
-		  (28 1))
-		 (pdd
-		  (0 21)))
-		"Translation framework, configurable and scalable" tar
-		((:url . "https://github.com/lorniu/go-translate")
-		 (:commit . "736c2d1888644b2cea172a6fc12dbf7840101405")
-		 (:revdesc . "736c2d188864")
-		 (:keywords "convenience")
-		 (:authors
-		  ("lorniu" . "lorniu@gmail.com"))
-		 (:maintainers
-		  ("lorniu" . "lorniu@gmail.com"))
-		 (:maintainer "lorniu" . "lorniu@gmail.com"))])
  (gobgen .
 	 [(0 0 1 1 -4 20161020 1523)
 	  ((emacs
@@ -33332,6 +33333,22 @@
 	  (:maintainers
 	   ("Wang Kai" . "kaiwkx@gmail.com"))
 	  (:maintainer "Wang Kai" . "kaiwkx@gmail.com"))])
+ (gt .
+     [(0 1 0 1 -4 20250727 230)
+      ((emacs
+	(28 1))
+       (pdd
+	(0 2 3)))
+      "Translation framework, configurable and scalable" tar
+      ((:url . "https://github.com/lorniu/gt.el")
+       (:commit . "f9febd8583ea482f72139e02f440f3972502f5a2")
+       (:revdesc . "f9febd8583ea")
+       (:keywords "convenience")
+       (:authors
+	("lorniu" . "lorniu@gmail.com"))
+       (:maintainers
+	("lorniu" . "lorniu@gmail.com"))
+       (:maintainer "lorniu" . "lorniu@gmail.com"))])
  (gtea .
        [(0 1 0 1 -4 20250620 1334)
 	((ghub
@@ -35981,6 +35998,23 @@
 	       (:maintainers
 		("Adam Sokolnicki" . "adam.sokolnicki@gmail.com"))
 	       (:maintainer "Adam Sokolnicki" . "adam.sokolnicki@gmail.com"))])
+ (helm-raindrop .
+		[(0 1 0 1 -4 20250727 909)
+		 ((emacs
+		   (29 1))
+		  (helm
+		   (4 0 4))
+		  (request
+		   (0 3 2)))
+		 "Raindrop.io with helm interface" tar
+		 ((:url . "https://github.com/masutaka/emacs-helm-raindrop")
+		  (:commit . "312deeb2d7e37ce6d9df4037adeb441faf85745d")
+		  (:revdesc . "312deeb2d7e3")
+		  (:authors
+		   ("Takashi Masuda" . "masutaka.net@gmail.com"))
+		  (:maintainers
+		   ("Takashi Masuda" . "masutaka.net@gmail.com"))
+		  (:maintainer "Takashi Masuda" . "masutaka.net@gmail.com"))])
  (helm-rdefs .
 	     [(1 0 1 1 -4 20161130 536)
 	      ((emacs
@@ -37947,13 +37981,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20250715 1226)
+	    [(0 1 0 1 -4 20250727 1626)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "cee1ea45d217909539c9da09145764f96dedb300")
-	      (:revdesc . "cee1ea45d217")
+	      (:commit . "645d44335744cd93fd50a870113f310649358e5a")
+	      (:revdesc . "645d44335744")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -48223,13 +48257,13 @@
 		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainer "James Nguyen" . "james@jojojames.com"))])
  (mediawiki .
-	    [(0 1 0 1 -4 20250727 1505)
+	    [(0 1 0 1 -4 20250727 1542)
 	     ((emacs
 	       (28 1)))
 	     "Mediawiki frontend" tar
 	     ((:url . "https://github.com/hexmode/mediawiki-el")
-	      (:commit . "44c0cc8aa835e41b11ea573714064bd1fc165ba4")
-	      (:revdesc . "44c0cc8aa835")
+	      (:commit . "4c610532622506bb00932db35f8cf021f4579851")
+	      (:revdesc . "4c6105326225")
 	      (:keywords "mediawiki" "wikipedia" "network" "wiki")
 	      (:authors
 	       ("Mark A. Hershberger" . "mah@everybody.org"))
@@ -54690,6 +54724,24 @@
 	   (:maintainers
 	    ("Hiroaki Otsu" . "ootsuhiroaki@gmail.com"))
 	   (:maintainer "Hiroaki Otsu" . "ootsuhiroaki@gmail.com"))])
+ (org-agenda-dock .
+		  [(0 1 0 1 -4 20250721 1143)
+		   ((emacs
+		     (28 1))
+		    (dock
+		     (0 0 1))
+		    (org
+		     (9 0)))
+		   "Integrate org-mode with Gnome's Dock or KDE's taskbar" tar
+		   ((:url . "https://github.com/hron/org-agenda-dock")
+		    (:commit . "33c422c9d4f2ece95f55c36ff67c678186e6be88")
+		    (:revdesc . "33c422c9d4f2")
+		    (:keywords "convenience" "org" "dock" "desktop")
+		    (:authors
+		     ("Aleksei Gusev" . "aleksei.gusev@gmail.com"))
+		    (:maintainers
+		     ("Aleksei Gusev" . "aleksei.gusev@gmail.com"))
+		    (:maintainer "Aleksei Gusev" . "aleksei.gusev@gmail.com"))])
  (org-agenda-files-track .
 			 [(0 4 0 1 -4 20231209 1529)
 			  ((emacs
@@ -58850,6 +58902,20 @@
 	      (:maintainers
 	       ("Oscar Najera" . "hi@oscarnajera.com"))
 	      (:maintainer "Oscar Najera" . "hi@oscarnajera.com"))])
+ (outli .
+	[(0 1 0 1 -4 20250403 12)
+	 ((emacs
+	   (27 1)))
+	 "Org-like code outliner" tar
+	 ((:url . "https://github.com/jdtsmith/outli")
+	  (:commit . "1c2cf24aca7a6c9bc920974bd5cf70badab018de")
+	  (:revdesc . "1c2cf24aca7a")
+	  (:keywords "convenience" "outlines" "org")
+	  (:authors
+	   ("J.D. Smith" . "jdtsmith@gmail.com"))
+	  (:maintainers
+	   ("J.D. Smith" . "jdtsmith@gmail.com"))
+	  (:maintainer "J.D. Smith" . "jdtsmith@gmail.com"))])
  (outline-indent .
 		 [(0 1 0 1 -4 20250704 1609)
 		  ((emacs
