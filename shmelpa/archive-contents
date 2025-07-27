@@ -69125,6 +69125,20 @@
 		   ((:url . "http://zk-phi.github.io/")
 		    (:commit . "e4389fbb97f2890c4caebba0588cbc5d5f1ecbc6")
 		    (:revdesc . "e4389fbb97f2"))])
+ (scratch-plus .
+	       [(0 1 0 1 -4 20250725 1503)
+		((emacs
+		  (29 1)))
+		"Better Scratch Buffer Behavior" tar
+		((:url . "https://git.sr.ht/~swflint/scratch-plus")
+		 (:commit . "cfecace1a6f3389fcabbfdd009f2b14db6dcc637")
+		 (:revdesc . "cfecace1a6f3")
+		 (:keywords "convenience")
+		 (:authors
+		  ("Samuel W. Flint" . "swflint@flintfam.org"))
+		 (:maintainers
+		  ("Samuel W. Flint" . "swflint@flintfam.org"))
+		 (:maintainer "Samuel W. Flint" . "swflint@flintfam.org"))])
  (scratch-pop .
 	      [(2 2 0 1 -4 20200910 226)
 	       nil "Generate, popup (& optionally backup) scratch buffer(s)" tar
@@ -80933,15 +80947,15 @@
 	      ("Christopher Wellons" . "wellons@nullprogram.com"))
 	     (:maintainer "Christopher Wellons" . "wellons@nullprogram.com"))])
  (weather-metno .
-		[(0 1 0 1 -4 20230129 1540)
+		[(0 1 0 1 -4 20250727 1642)
 		 ((emacs
 		   (24))
 		  (cl-lib
 		   (0 3)))
 		 "Weather data from met.no in Emacs" tar
 		 ((:url . "https://github.com/ruediger/weather-metno-el")
-		  (:commit . "58b3aa479d85b4b38eb233ac2fbac40faf906f4c")
-		  (:revdesc . "58b3aa479d85")
+		  (:commit . "00eab9a9486e192917238145a4f2505d17fad77a")
+		  (:revdesc . "00eab9a9486e")
 		  (:keywords "comm")
 		  (:authors
 		   ("Rüdiger Sonderfeld" . "ruediger@c-plusplus.de"))
@@ -83409,6 +83423,15 @@
 	    (:maintainers
 	     ("Zephyr Pellerin" . "zephyr.pellerin@gmail.com"))
 	    (:maintainer "Zephyr Pellerin" . "zephyr.pellerin@gmail.com"))])
+ (zathura .
+	  [(0 1 0 1 -4 20250721 1057)
+	   ((emacs
+	     (24 3)))
+	   "Summary" tar
+	   ((:url . "https://codeberg.org/treflip/zathura.el")
+	    (:commit . "754664519f0c346a296d1fa81f3243c584eaef66")
+	    (:revdesc . "754664519f0c")
+	    (:keywords "convenience"))])
  (zeal-at-point .
 		[(0 0 3 1 -4 20180131 2354)
 		 nil "Search the word at point with Zeal" tar
