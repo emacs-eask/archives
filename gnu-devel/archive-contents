@@ -296,15 +296,6 @@
 		  ("Ian Dunn" . "dunni@gnu.org"))
 		 (:url . "https://elpa.gnu.org/packages/auto-correct.html")
 		 (:commit . "6182764ae045f4590cf0f69046aa50d747ab27e2"))])
- (auto-header .
-	      [(0 1 2 0 20230407 82136)
-	       nil "Automatically find the right C headers" tar
-	       ((:url . "https://git.sr.ht/~pkal/auto-header")
-		(:keywords "c")
-		(:maintainer "Philip Kaludercic" . "~pkal/public-inbox@lists.sr.ht")
-		(:authors
-		 ("Philip Kaludercic" . "philipk@posteo.net"))
-		(:commit . "9da5681b36506c39245341322dbe5564283c0323"))])
  (auto-overlays .
 		[(0 10 10 0 20201215 220815)
 		 ((cl-lib
@@ -1868,17 +1859,6 @@
 			  (:authors
 			   ("Lawrence Mitchell" . "wence@gmx.li"))
 			  (:commit . "4e192f6e03bc96f996923b307248b7d5b1d398fa"))])
- (face-shift .
-	     [(0 2 1 0 20230426 73945)
-	      ((emacs
-		(24 1)))
-	      "Shift the colour of certain faces" tar
-	      ((:url . "https://git.sr.ht/~pkal/face-shift")
-	       (:keywords "faces")
-	       (:maintainer "Philip Kaludercic" . "philipk@posteo.net")
-	       (:authors
-		("Philip Kaludercic" . "philipk@posteo.net"))
-	       (:commit . "b9f09af534086fe6baf93188b2574c99977d3070"))])
  (filechooser .
 	      [(0 2 3 0 20250624 102108)
 	       ((emacs
@@ -3333,17 +3313,6 @@
 	      (:authors
 	       ("Michael Heerdegen" . "michael_heerdegen@web.de"))
 	      (:commit . "643a866f578d04d81a1fa6fd6a61dd49d80c23b3"))])
- (openpgp .
-	  [(1 0 2 0 20240726 81226)
-	   ((emacs
-	     (24 4)))
-	   "Client for keys.openpgp.org" tar
-	   ((:url . "https://git.sr.ht/~pkal/openpgp/")
-	    (:keywords "convenience")
-	    (:maintainer "Philip Kaludercic" . "~pkal/public-inbox@lists.sr.ht")
-	    (:authors
-	     ("Philip Kaludercic" . "philipk@posteo.net"))
-	    (:commit . "69254001eae10b3b162200082bcbc684363e84d7"))])
  (orderless .
 	    [(1 5 0 20250728 24301)
 	     ((emacs
@@ -3371,7 +3340,7 @@
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
 	(:commit . "c356e1c9b750740a9066ebddb53be055531fa076"))])
  (org-contacts .
-	       [(1 1 0 20250727 41238)
+	       [(1 1 0 20250730 155234)
 		((emacs
 		  (29 1))
 		 (org
@@ -3382,7 +3351,7 @@
 		 (:maintainer "stardiviner" . "numbchild@gmail.com")
 		 (:authors
 		  ("Julien Danjou" . "julien@danjou.info"))
-		 (:commit . "8754afeb1410028d783bb111b36e364977d533b3"))])
+		 (:commit . "cbf1f189381e7fd1727ed7afe0b525a39c806722"))])
  (org-edna .
 	   [(1 1 2 0 20200902 94459)
 	    ((emacs
@@ -4975,17 +4944,6 @@
 	    (:authors
 	     ("Andrew Hyatt" . "ahyatt@gmail.com"))
 	    (:commit . "5e17182a5374a1656761bb26832fd21c6f168685"))])
- (typo .
-       [(1 0 1 0 20230730 150555)
-	((emacs
-	  (27 1)))
-	"Completion style using typo analysis" tar
-	((:url . "https://git.sr.ht/~pkal/typo/")
-	 (:keywords "convenience")
-	 (:maintainer "Philip Kaludercic" . "~pkal/public-inbox@lists.sr.ht")
-	 (:authors
-	  ("Philip Kaludercic" . "philipk@posteo.net"))
-	 (:commit . "e2ce1ae3e0074f023efc0e34739403fc2e0175ce"))])
  (ulisp-repl .
 	     [(1 0 3 0 20230604 111559)
 	      ((emacs
