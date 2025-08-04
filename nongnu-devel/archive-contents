@@ -917,6 +917,17 @@
 		  (:authors
 		   ("Akib Azmain Turja" . "akib@disroot.org"))
 		  (:commit . "99ea813346f3edef7220d8f4faeed2ec69af6060"))])
+ (flymake-pyrefly .
+		  [(0 1 4 0 20250711 195846)
+		   ((emacs
+		     (26 1)))
+		   "A Pyrefly Flymake backend" tar
+		   ((:url . "https://github.com/inpefess/flymake-pyrefly")
+		    (:keywords "tools" "languages")
+		    (:maintainer "Boris Shminke" . "boris@shminke.com")
+		    (:authors
+		     ("Boris Shminke" . "boris@shminke.com"))
+		    (:commit . "61ba9c719f2d5bbe1e06a68be4fc19ee8dbc0baa"))])
  (focus .
 	[(1 0 1 0 20250311 185538)
 	 ((emacs
@@ -1300,7 +1311,7 @@
 		     ("Pranshu Sharma" . "pranshu@bauherren.ovh"))
 		    (:commit . "b47211699944997bfb03fd88b1157dd71727bad7"))])
  (helm .
-       [(4 0 4 0 20250801 131937)
+       [(4 0 4 0 20250804 135709)
 	((helm-core
 	  (4 0 4))
 	 (wfnames
@@ -1311,9 +1322,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "989293b1a1bcbf2ed94e89ad5452d998899883c7"))])
+	 (:commit . "f3ce8c6a6e9211b29d4ce47bc3e90e28045cc789"))])
  (helm-core .
-	    [(4 0 4 0 20250801 131937)
+	    [(4 0 4 0 20250804 135709)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1323,7 +1334,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "989293b1a1bcbf2ed94e89ad5452d998899883c7"))])
+	      (:commit . "f3ce8c6a6e9211b29d4ce47bc3e90e28045cc789"))])
  (hideshowvis .
 	      [(0 8 0 20250225 175051)
 	       ((emacs
@@ -2366,7 +2377,7 @@
 	      ("Chen Bin" . "chenbin.sh@gmail.com"))
 	     (:commit . "173e4d632c94af6670869729c09bfb8ba484d257"))])
  (slime .
-	[(2 31 -4 0 20250803 214003)
+	[(2 31 -4 0 20250804 182622)
 	 ((emacs
 	   (24 3))
 	  (macrostep
@@ -2374,7 +2385,7 @@
 	 "Superior Lisp Interaction Mode for Emacs" tar
 	 ((:url . "https://github.com/slime/slime")
 	  (:keywords "languages" "lisp" "slime")
-	  (:commit . "f12bec08fa43e02c3e15550d5e4a2652939768cf"))])
+	  (:commit . "59105711dde98d9b0c8c35a6888807558c476069"))])
  (sly .
       [(1 0 43 0 20250522 230625)
        ((emacs
