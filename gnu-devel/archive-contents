@@ -1062,7 +1062,7 @@
 	     ("Phil Sainty" . "psainty@orcon.net.nz"))
 	    (:commit . "5a0cd5ccb650d7bba1c1ea02cf67b71d7cfa6e9a"))])
  (denote .
-	 [(4 0 0 0 20250805 44243)
+	 [(4 0 0 0 20250809 90415)
 	  ((emacs
 	    (28 1)))
 	  "Simple notes with an efficient file-naming scheme" tar
@@ -1070,7 +1070,7 @@
 	   (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	   (:authors
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	   (:commit . "54d99463336927b17b099d38464d02f98af2f6da"))])
+	   (:commit . "80be3d309b852e313ed3a2f847f2b2ff58e24207"))])
  (denote-journal .
 		 [(0 1 1 0 20250702 194716)
 		  ((emacs
@@ -3255,18 +3255,16 @@
 	      (:url . "https://elpa.gnu.org/packages/num3-mode.html")
 	      (:commit . "0e3b6990b91191333132fdd56b15c84cb57a7ff7"))])
  (oauth2 .
-	 [(0 17 0 20240830 100757)
-	  ((cl-lib
-	    (0 5))
-	   (nadvice
-	    (0 3)))
+	 [(0 17 0 20250809 92452)
+	  ((emacs
+	    (27 1)))
 	  "OAuth 2.0 Authorization Protocol" tar
-	  ((:keywords "comm")
-	   (:maintainer "Julien Danjou" . "julien@danjou.info")
+	  ((:url . "https://elpa.gnu.org/packages/oauth2.html")
+	   (:keywords "comm")
+	   (:maintainer nil . "emacs-devel@gnu.org")
 	   (:authors
 	    ("Julien Danjou" . "julien@danjou.info"))
-	   (:url . "https://elpa.gnu.org/packages/oauth2.html")
-	   (:commit . "0147cabd8e82e46af27aef07aeed402b0bb9a0fb"))])
+	   (:commit . "b5d06bbdc707a177ae48d3a1bf76eef465be62cb"))])
  (ob-asymptote .
 	       [(1 0 2 0 20250511 114502)
 		nil "Babel Functions for Asymptote" tar
@@ -3331,7 +3329,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "31812d9252c6cfa7eae8fa04cd40c8b2081e9936"))])
  (org .
-      [(9 8 -1 0 20250805 183747)
+      [(9 8 -1 0 20250809 142807)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -3340,7 +3338,7 @@
 	(:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "23d219693ccf0e185bacaf00f8a7d9e609e635b8"))])
+	(:commit . "7da7d7ea1b39567cda48602076069e15526f3d75"))])
  (org-contacts .
 	       [(1 1 0 20250730 155234)
 		((emacs
