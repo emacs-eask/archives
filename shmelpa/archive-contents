@@ -12039,7 +12039,7 @@
 	     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	    (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (copilot-chat .
-	       [(0 1 0 1 -4 20250724 1047)
+	       [(0 1 0 1 -4 20250811 1935)
 		((emacs
 		  (29 1))
 		 (aio
@@ -12055,11 +12055,13 @@
 		 (markdown-mode
 		  (2 6))
 		 (shell-maker
-		  (0 76 2)))
+		  (0 76 2))
+		 (mcp
+		  (0 1 0)))
 		"Copilot chat interface" tar
 		((:url . "https://github.com/chep/copilot-chat.el")
-		 (:commit . "2a086063a272c85d3b9d7454edb5d299d0c77d10")
-		 (:revdesc . "2a086063a272")
+		 (:commit . "6c8871f8a8081c95a8d2bd438cacf1bd1031f09c")
+		 (:revdesc . "6c8871f8a808")
 		 (:keywords "convenience" "tools")
 		 (:authors
 		  ("cedric.chepied" . "cedric.chepied@gmail.com"))
@@ -47791,19 +47793,19 @@
 		 ("Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))
 		(:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
  (markless .
-	   [(1 0 1 -4 20240218 1639)
+	   [(0 1 0 1 -4 20250811 1924)
 	    ((emacs
 	      (24 4)))
 	    "Major mode for Markless documents" tar
-	    ((:url . "http://github.com/shirakumo/markless.el/")
-	     (:commit . "686dcf2592a042ebb4e01cbf60d4d8840dd74eaa")
-	     (:revdesc . "686dcf2592a0")
+	    ((:url . "https://shirakumo.org/docs/markless.el/")
+	     (:commit . "f8bd797f4d5962fec1dcf9807fba8cf0be17b2f9")
+	     (:revdesc . "f8bd797f4d59")
 	     (:keywords "languages" "wp")
 	     (:authors
-	      ("Nicolas Hafner" . "shinmera@tymoon.eu"))
+	      ("Yukari Hafner" . "shinmera@tymoon.eu"))
 	     (:maintainers
-	      ("Nicolas Hafner" . "shinmera@tymoon.eu"))
-	     (:maintainer "Nicolas Hafner" . "shinmera@tymoon.eu"))])
+	      ("Yukari Hafner" . "shinmera@tymoon.eu"))
+	     (:maintainer "Yukari Hafner" . "shinmera@tymoon.eu"))])
  (markup .
 	 [(2 0 1 1 -4 20170420 1129)
 	  ((cl-lib
