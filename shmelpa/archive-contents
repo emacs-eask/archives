@@ -9041,17 +9041,17 @@
 	     ("Kostafey" . "kostafey@gmail.com"))
 	    (:maintainer "Kostafey" . "kostafey@gmail.com"))])
  (closql .
-	 [(0 1 0 1 -4 20250807 1025)
+	 [(0 1 0 1 -4 20250815 1802)
 	  ((emacs
-	    (26 1))
+	    (28 1))
 	   (compat
 	    (30 1))
 	   (emacsql
-	    (4 3 1)))
+	    (4 3)))
 	  "Store EIEIO objects using EmacSQL" tar
 	  ((:url . "https://github.com/emacscollective/closql")
-	   (:commit . "dfc48bac5b16d7fd3019cc8228bf29635f0bd102")
-	   (:revdesc . "dfc48bac5b16")
+	   (:commit . "08194fb97deb3a83863da7731cb316aa62058f22")
+	   (:revdesc . "08194fb97deb")
 	   (:keywords "extensions")
 	   (:authors
 	    ("Jonas Bernoulli" . "emacs.closql@jonas.bernoulli.dev"))
@@ -11434,15 +11434,15 @@
 		    ("Jannis Pohlmann" . "contact@jannispohlmann.de"))
 		   (:maintainer "Jannis Pohlmann" . "contact@jannispohlmann.de"))])
  (consult .
-	  [(0 1 0 1 -4 20250805 1225)
+	  [(0 1 0 1 -4 20250815 1818)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30)))
 	   "Consulting completing-read" tar
 	   ((:url . "https://github.com/minad/consult")
-	    (:commit . "770c43117aad6add1ca8532207618b7e90aec1fe")
-	    (:revdesc . "770c43117aad")
+	    (:commit . "48920075058421dde0592c7702ed84e9fa2ffb5d")
+	    (:revdesc . "489200750584")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainers
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -11767,17 +11767,17 @@
 		  (:authors
 		   ("Colin McLear" . "mclear@fastmail.com")))])
  (consult-notmuch .
-		  [(0 1 0 1 -4 20250814 1750)
+		  [(0 1 0 1 -4 20250815 1739)
 		   ((emacs
-		     (26 1))
+		     (28 1))
 		    (consult
-		     (2 0))
+		     (2 7))
 		    (notmuch
 		     (0 31)))
 		   "Notmuch search using consult" tar
 		   ((:url . "https://codeberg.org/jao/consult-notmuch")
-		    (:commit . "d004fb8f410bba3c0357ec1f0bcd033f2841c4cb")
-		    (:revdesc . "d004fb8f410b")
+		    (:commit . "abc0318c9971b4288cc96f6f934ad6d36e63d9f9")
+		    (:revdesc . "abc0318c9971")
 		    (:keywords "mail")
 		    (:authors
 		     ("Jose A Ortega Ruiz" . "jao@gnu.org")))])
@@ -20958,7 +20958,7 @@
 	   ("Dimitris Alikaniotis" . "da352[at]cam.ac.uk"))
 	  (:maintainer "Dimitris Alikaniotis" . "da352[at]cam.ac.uk"))])
  (empv .
-       [(0 1 0 1 -4 20250629 901)
+       [(0 1 0 1 -4 20250815 1746)
 	((emacs
 	  (28 1))
 	 (s
@@ -20967,8 +20967,8 @@
 	  (29 1 4 4)))
 	"A multimedia player/manager, YouTube interface" tar
 	((:url . "https://github.com/isamert/empv.el")
-	 (:commit . "2bb45a6a3119d2816af351ff097506c6f2801dd6")
-	 (:revdesc . "2bb45a6a3119")
+	 (:commit . "1e4c21cfcc1582c2135393999548cf4228e40890")
+	 (:revdesc . "1e4c21cfcc15")
 	 (:authors
 	  ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
 	 (:maintainers
@@ -29266,15 +29266,15 @@
 		      ("David Shepherd" . "davidshepherd7@gmail.com"))
 		     (:maintainer "David Shepherd" . "davidshepherd7@gmail.com"))])
  (frameshot .
-	    [(0 1 0 1 -4 20250531 2216)
+	    [(0 1 0 1 -4 20250815 1806)
 	     ((emacs
 	       (26 1))
 	      (compat
 	       (30 1)))
 	     "Take screenshots of a frame" tar
 	     ((:url . "https://github.com/tarsius/frameshot")
-	      (:commit . "c1a3bb14ebd302db14b0530acfa08fef9f69ac2c")
-	      (:revdesc . "c1a3bb14ebd3")
+	      (:commit . "c9a630aea2713a7111e4423426d868383ab7073f")
+	      (:revdesc . "c9a630aea271")
 	      (:keywords "multimedia")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.frameshot@jonas.bernoulli.dev"))
@@ -49509,15 +49509,15 @@
 		    ("Steve Purcell" . "steve@sanityinc.com"))
 		   (:maintainer "Steve Purcell" . "steve@sanityinc.com"))])
  (mode-line-debug .
-		  [(0 1 0 1 -4 20250531 2220)
+		  [(0 1 0 1 -4 20250815 1335)
 		   ((emacs
-		     (26 1))
+		     (28 1))
 		    (compat
 		     (30 1)))
 		   "Show status of debug-on-error in mode-line" tar
 		   ((:url . "https://github.com/tarsius/mode-line-debug")
-		    (:commit . "0cb356097366e25dc9a4c95811a8a21a40b9de56")
-		    (:revdesc . "0cb356097366")
+		    (:commit . "a3f9adf892908dac0fcb2a000934d824c599ab67")
+		    (:revdesc . "a3f9adf89290")
 		    (:keywords "convenience" "lisp")
 		    (:authors
 		     ("Jonas Bernoulli" . "emacs.mode-line-debug@jonas.bernoulli.dev"))
@@ -49834,15 +49834,15 @@
 		    ("Jessie Hildebrandt" . "jessieh.net"))
 		   (:maintainer "Jessie Hildebrandt" . "jessieh.net"))])
  (moody .
-	[(0 1 0 1 -4 20250701 1218)
+	[(0 1 0 1 -4 20250815 1811)
 	 ((emacs
 	   (26 1))
 	  (compat
 	   (30 1)))
 	 "Tabs and ribbons for the mode line" tar
 	 ((:url . "https://github.com/tarsius/moody")
-	  (:commit . "404400af5415a35b5639dd1bfbc192751e85d737")
-	  (:revdesc . "404400af5415")
+	  (:commit . "f20101353fb89db8266107b82d3d82d2eead8ed5")
+	  (:revdesc . "f20101353fb8")
 	  (:keywords "faces")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.moody@jonas.bernoulli.dev"))
@@ -58937,15 +58937,15 @@
 		   ("Thorsten Jolitz" . "tjolitzATgmailDOTcom"))
 		  (:maintainer "Thorsten Jolitz" . "tjolitzATgmailDOTcom"))])
  (outline-minor-faces .
-		      [(0 1 0 1 -4 20250807 1027)
+		      [(0 1 0 1 -4 20250815 1812)
 		       ((emacs
-			 (26 1))
+			 (27 1))
 			(compat
 			 (30 1)))
 		       "Highlight only section headings" tar
 		       ((:url . "https://github.com/tarsius/outline-minor-faces")
-			(:commit . "f0383146253972e68dc898c4714fbfc8ad549c09")
-			(:revdesc . "f03831462539")
+			(:commit . "5429d48d265a690fbecda1e94c40f1442eafbdb9")
+			(:revdesc . "5429d48d265a")
 			(:keywords "faces" "outlines")
 			(:authors
 			 ("Jonas Bernoulli" . "emacs.outline-minor-faces@jonas.bernoulli.dev"))
@@ -71178,7 +71178,7 @@
 	("Chunyang Xu" . "mail@xuchunyang.me"))
        (:maintainer "Chunyang Xu" . "mail@xuchunyang.me"))])
  (slack .
-	[(0 1 0 1 -4 20250731 1826)
+	[(0 1 0 1 -4 20250815 1824)
 	 ((websocket
 	   (1 12))
 	  (request
@@ -71199,8 +71199,8 @@
 	   (0 3)))
 	 "Slack client" tar
 	 ((:url . "https://github.com/emacs-slack/emacs-slack")
-	  (:commit . "b104bb2f9212e157da01f9161e466b5ed0b151fc")
-	  (:revdesc . "b104bb2f9212")
+	  (:commit . "42c5c9c37f96cace21d0911ac35a343f3755fee0")
+	  (:revdesc . "42c5c9c37f96")
 	  (:keywords "tools")
 	  (:authors
 	   ("yuya.minami" . "yuya.minami@yuyaminami-no-MacBook-Pro.local"))
