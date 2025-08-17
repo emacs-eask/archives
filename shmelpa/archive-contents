@@ -37597,6 +37597,20 @@
 	      (:maintainers
 	       ("Noah Friedman" . "friedman@prep.ai.mit.edu"))
 	      (:maintainer "Noah Friedman" . "friedman@prep.ai.mit.edu"))])
+ (hotdesk .
+	  [(0 1 0 1 -4 20250813 1435)
+	   ((emacs
+	     (29 3)))
+	   "Flexible frame Buffer Lists for projects & workspaces" tar
+	   ((:url . "https://github.com/j-hotlink/hotdesk")
+	    (:commit . "cd31f1074365ef83e147ccd65c65bc58a9de1c91")
+	    (:revdesc . "cd31f1074365")
+	    (:keywords "convenience" "frames" "local")
+	    (:authors
+	     ("Jonathan Doull" . "jonathan@hotlink.technology"))
+	    (:maintainers
+	     ("Jonathan Doull" . "jonathan@hotlink.technology"))
+	    (:maintainer "Jonathan Doull" . "jonathan@hotlink.technology"))])
  (hotfuzz .
 	  [(0 1 0 1 -4 20241125 2036)
 	   ((emacs
@@ -46713,13 +46727,13 @@
 	       (:revdesc . "0ccfffef5308")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20250816 2126)
+	[(0 1 0 1 -4 20250817 1706)
 	 ((emacs
 	   (28 1))
 	  (compat
 	   (30 1))
 	  (llama
-	   (1 0 0))
+	   (1 0))
 	  (magit-section
 	   (4 3 8))
 	  (seq
@@ -46730,8 +46744,8 @@
 	   (3 4 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "7167f70665145951c731d7caf9ec39bba4bcbd68")
-	  (:revdesc . "7167f7066514")
+	  (:commit . "78334faa219e937855cd4bf7d9c2ab44d51b2dfa")
+	  (:revdesc . "78334faa219e")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -47099,19 +47113,19 @@
 		       ("Jules Tamagnan" . "jtamagnan@gmail.com"))
 		      (:maintainer "Jules Tamagnan" . "jtamagnan@gmail.com"))])
  (magit-section .
-		[(0 1 0 1 -4 20250813 1330)
+		[(0 1 0 1 -4 20250817 1704)
 		 ((emacs
 		   (28 1))
 		  (compat
 		   (30 1))
 		  (llama
-		   (1 0 0))
+		   (1 0))
 		  (seq
 		   (2 24)))
 		 "Sections for read-only buffers" tar
 		 ((:url . "https://github.com/magit/magit")
-		  (:commit . "649bc9dc328b8cb7519292be4f5c9cac13cf3466")
-		  (:revdesc . "649bc9dc328b")
+		  (:commit . "6d899ad030ca0245f05773cb23eb5f8ba93a4fb4")
+		  (:revdesc . "6d899ad030ca")
 		  (:keywords "tools")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -62866,6 +62880,19 @@
 	 (:maintainers
 	  ("Korytov Pavel" . "thexcloud@gmail.com"))
 	 (:maintainer "Korytov Pavel" . "thexcloud@gmail.com"))])
+ (pomo-cat .
+	   [(0 1 0 1 -4 20250810 1931)
+	    ((emacs
+	      (27 1))
+	     (popon
+	      (0 1))
+	     (posframe
+	      (1 1 1)))
+	    "Pomodoro timer with cat-themed breaks" tar
+	    ((:url . "https://github.com/kn66/pomo-cat.el")
+	     (:commit . "e1f7c415beb7da1ce0d99336b747524816fa47d5")
+	     (:revdesc . "e1f7c415beb7")
+	     (:keywords "convenience" "tools" "calendar"))])
  (pomodoro .
 	   [(0 2 1 -4 20210225 2018)
 	    nil "A timer for the Pomodoro Technique" tar
