@@ -3607,6 +3607,15 @@
 			    (:maintainers
 			     ("George Balatsouras" . "gbalatsgmailcom"))
 			    (:maintainer "George Balatsouras" . "gbalatsgmailcom"))])
+ (automoji .
+	   [(0 1 0 1 -4 20250814 2054)
+	    ((emacs
+	      (29 1)))
+	    "Discord-like emoji completion" tar
+	    ((:url . "https://github.com/Dev380/automoji-el")
+	     (:commit . "725e6915f9976bd7fd87a4daa7dc9f1968bcfe23")
+	     (:revdesc . "725e6915f997")
+	     (:keywords "completion" "abbrev" "convenience" "text"))])
  (autoscratch .
 	      [(0 0 4 1 -4 20230612 719)
 	       ((emacs
@@ -74604,38 +74613,6 @@
 		    (:maintainers
 		     ("ncaq" . "ncaq@ncaq.net"))
 		    (:maintainer "ncaq" . "ncaq@ncaq.net"))])
- (symex .
-	[(0 1 0 1 -4 20250102 50)
-	 ((emacs
-	   (25 1))
-	  (tsc
-	   (0 15 2))
-	  (tree-sitter
-	   (0 15 2))
-	  (lispy
-	   (0 26 0))
-	  (paredit
-	   (24))
-	  (evil-cleverparens
-	   (20170718 413))
-	  (evil
-	   (1 2 14))
-	  (evil-surround
-	   (1 0 4))
-	  (hydra
-	   (0 15 0))
-	  (seq
-	   (2 22)))
-	 "An evil way to edit Lisp symbolic expressions as trees" tar
-	 ((:url . "https://github.com/countvajhula/symex.el")
-	  (:commit . "94e5040f0c24f870b7217d8ddf6675c6b17eaff4")
-	  (:revdesc . "94e5040f0c24")
-	  (:keywords "lisp" "convenience" "languages")
-	  (:authors
-	   ("Siddhartha Kasivajhula" . "sid@countvajhula.com"))
-	  (:maintainers
-	   ("Siddhartha Kasivajhula" . "sid@countvajhula.com"))
-	  (:maintainer "Siddhartha Kasivajhula" . "sid@countvajhula.com"))])
  (symon .
 	[(1 2 0 1 -4 20170224 833)
 	 nil "Tiny graphical system monitor" tar
