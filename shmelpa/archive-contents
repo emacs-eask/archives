@@ -894,7 +894,7 @@
  (actionscript-mode .
 		    [(0 1 0 1 -4 20180527 1701)
 		     nil "A simple mode for editing Actionscript 3 files" tar
-		     ((:url . "https://github.com/austinhaas/actionscript-mode")
+		     ((:url . "https://codeberg.org/austinhaas/actionscript-mode")
 		      (:commit . "65abd58e198458a8e46748c5962c41d80d60c4ea")
 		      (:revdesc . "65abd58e1984")
 		      (:keywords "language" "modes"))])
@@ -6420,24 +6420,6 @@
 		 ((:url . "http://github.com/mswift42/busybee-theme")
 		  (:commit . "66b2315b030582d0ebee605cf455d386d8c30fcd")
 		  (:revdesc . "66b2315b0305"))])
- (butler .
-	 [(0 2 6 1 -4 20210928 230)
-	  ((deferred
-	     (0 3 2))
-	   (json
-	    (1 2))
-	   (emacs
-	    (24)))
-	  "Emacs client for Jenkins" tar
-	  ((:url . "http://www.github.com/AshtonKem/Butler.git")
-	   (:commit . "10943ccdf2030187b2f7bd97337d78acb7fd31c9")
-	   (:revdesc . "10943ccdf203")
-	   (:keywords "jenkins" "hudson" "ci")
-	   (:authors
-	    ("Ashton Kemerling" . "ashtonkemerling@gmail.com"))
-	   (:maintainers
-	    ("Ashton Kemerling" . "ashtonkemerling@gmail.com"))
-	   (:maintainer "Ashton Kemerling" . "ashtonkemerling@gmail.com"))])
  (buttercup .
 	    [(0 1 0 1 -4 20250801 1)
 	     ((emacs
@@ -38006,13 +37988,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20250807 2148)
+	    [(0 1 0 1 -4 20250817 1930)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "146dc9c2d834813e29e0296c1c1438c4672bbae1")
-	      (:revdesc . "146dc9c2d834")
+	      (:commit . "24ae47ec6bd8853b1f82e04961efff0e7035ff8f")
+	      (:revdesc . "24ae47ec6bd8")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -55600,27 +55582,6 @@
 	      (:maintainers
 	       ("Phillip Lord" . "phillip.lord@russet.org.uk"))
 	      (:maintainer "Phillip Lord" . "phillip.lord@russet.org.uk"))])
- (org-drill-table .
-		  [(0 1 1 1 -4 20180115 1009)
-		   ((s
-		     (1 7 0))
-		    (dash
-		     (2 2 0))
-		    (cl-lib
-		     (0 3))
-		    (org
-		     (8 2))
-		    (emacs
-		     (24 1)))
-		   "Generate drill cards from org tables" tar
-		   ((:url . "https://github.com/chrisbarrett/org-drill-table")
-		    (:commit . "e4c4c1b0a17f51cb8de67eafe06a6bffc754f525")
-		    (:revdesc . "e4c4c1b0a17f")
-		    (:authors
-		     ("Chris Barrett" . "chris.d.barrett@me.com"))
-		    (:maintainers
-		     ("Chris Barrett" . "chris.d.barrett@me.com"))
-		    (:maintainer "Chris Barrett" . "chris.d.barrett@me.com"))])
  (org-dropbox .
 	      [(20141219 1 -4 20150114 509)
 	       ((dash
