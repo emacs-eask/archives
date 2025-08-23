@@ -21269,7 +21269,7 @@
 	  ("Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))
 	 (:maintainer "Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))])
  (epkg-marginalia .
-		  [(0 1 0 1 -4 20250601 1049)
+		  [(0 1 0 1 -4 20250823 1655)
 		   ((emacs
 		     (27 1))
 		    (compat
@@ -21280,8 +21280,8 @@
 		     (2 0)))
 		   "Show Epkg information in completion annotations" tar
 		   ((:url . "https://github.com/emacscollective/epkg-marginalia")
-		    (:commit . "d9e58d467c40bf71794f8eee758a83ab0e1933db")
-		    (:revdesc . "d9e58d467c40")
+		    (:commit . "b62b1d5da52cc31b34ffd563e8a6b97cfa9e4d01")
+		    (:revdesc . "b62b1d5da52c")
 		    (:keywords "tools")
 		    (:authors
 		     ("Jonas Bernoulli" . "emacs.epkg-marginalia@jonas.bernoulli.dev"))
@@ -22636,20 +22636,20 @@
 	      ("nik gaffney" . "nik@fo.am"))
 	     (:maintainer "nik gaffney" . "nik@fo.am"))])
  (euslisp-mode .
-	       [(0 0 9 1 -4 20170830 1929)
+	       [(0 1 0 1 -4 20250823 1454)
 		((emacs
-		  (24 3))
+		  (28 1))
 		 (s
 		  (1 9))
 		 (exec-path-from-shell
-		  (0))
-		 (helm-ag
-		  (0 58)))
+		  (1 0))
+		 (helm
+		  (3 0)))
 		"Major mode for Euslisp-formatted text" tar
 		((:url . "https://github.com/iory/euslisp-mode")
-		 (:commit . "db62a2d148482317794727982576494596365a55")
-		 (:revdesc . "db62a2d14848")
-		 (:keywords "euslisp" "euslisp" "github")
+		 (:commit . "bf74f683f3b0e127bf2c0e8082fe097e897cd572")
+		 (:revdesc . "bf74f683f3b0")
+		 (:keywords "languages" "lisp")
 		 (:authors
 		  ("iory" . "ab.ioryz@gmail.com"))
 		 (:maintainers
@@ -46732,7 +46732,7 @@
 	       (:revdesc . "4f2db98631de")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20250822 2303)
+	[(0 1 0 1 -4 20250823 1716)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -46751,8 +46751,8 @@
 	   (3 4 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "b4768acb1f7b903b4b66233a2f4fcbc2466d54ca")
-	  (:revdesc . "b4768acb1f7b")
+	  (:commit . "98a0447d975e5640a4f8dc64fdec506841b6f596")
+	  (:revdesc . "98a0447d975e")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -57180,7 +57180,7 @@
 		 ("Wataru MIYAGUNI" . "gonngo@gmail.com"))
 		(:maintainer "Wataru MIYAGUNI" . "gonngo@gmail.com"))])
  (org-ref .
-	  [(0 1 0 1 -4 20250301 1918)
+	  [(0 1 0 1 -4 20250823 1744)
 	   ((org
 	     (9 4))
 	    (dash
@@ -57207,8 +57207,8 @@
 	     (0)))
 	   "Citations, cross-references and bibliographies in org-mode" tar
 	   ((:url . "https://github.com/jkitchin/org-ref")
-	    (:commit . "edbb80863ef63ef52ef04fce3239e063843f8d30")
-	    (:revdesc . "edbb80863ef6")
+	    (:commit . "6a22c20f863b997497b618507adbcc8cb10a9f86")
+	    (:revdesc . "6a22c20f863b")
 	    (:keywords "org-mode" "cite" "ref" "label")
 	    (:authors
 	     ("John Kitchin" . "jkitchin@andrew.cmu.edu"))
@@ -58950,15 +58950,15 @@
 		   ("Thorsten Jolitz" . "tjolitzATgmailDOTcom"))
 		  (:maintainer "Thorsten Jolitz" . "tjolitzATgmailDOTcom"))])
  (outline-minor-faces .
-		      [(0 1 0 1 -4 20250815 1812)
+		      [(0 1 0 1 -4 20250823 1716)
 		       ((emacs
 			 (27 1))
 			(compat
 			 (30 1)))
 		       "Highlight only section headings" tar
 		       ((:url . "https://github.com/tarsius/outline-minor-faces")
-			(:commit . "5429d48d265a690fbecda1e94c40f1442eafbdb9")
-			(:revdesc . "5429d48d265a")
+			(:commit . "52a674c70923c08cf81ce97a706513ebec55efe6")
+			(:revdesc . "52a674c70923")
 			(:keywords "faces" "outlines")
 			(:authors
 			 ("Jonas Bernoulli" . "emacs.outline-minor-faces@jonas.bernoulli.dev"))
@@ -65494,13 +65494,13 @@
 		(:commit . "b4365e60e3ba747a5fec8ca909f64fe8c73d8db2")
 		(:revdesc . "b4365e60e3ba"))])
  (q-mode .
-	 [(0 1 0 1 -4 20250415 154)
+	 [(0 1 0 1 -4 20250823 1746)
 	  ((emacs
 	    (24)))
 	  "A q editing mode" tar
 	  ((:url . "https://github.com/psaris/q-mode")
-	   (:commit . "7f41e1c62640c1badcb67daaead24dc291cd16ab")
-	   (:revdesc . "7f41e1c62640")
+	   (:commit . "e6bf9fb684fd857d61757260e023c2fc4a33772b")
+	   (:revdesc . "e6bf9fb684fd")
 	   (:keywords "faces" "files" "q"))])
  (qml-mode .
 	   [(0 4 1 -4 20161016 31)
