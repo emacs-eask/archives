@@ -18086,7 +18086,7 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20250823 1318)
+      [(0 1 0 1 -4 20250824 1333)
        ((emacs
 	 (28 1))
 	(dash
@@ -18099,8 +18099,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "f9b4c85d66df182d575ee958e90bf60cf736a29c")
-	(:revdesc . "f9b4c85d66df")
+	(:commit . "30dd1c2c4af78368926f51965d87a7b65b2f3f81")
+	(:revdesc . "30dd1c2c4af7")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
@@ -28991,11 +28991,13 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20250823 2101)
+	[(0 1 0 1 -4 20250824 742)
 	 ((emacs
 	   (29 1))
 	  (compat
 	   (30 1))
+	  (cond-let
+	   (0 1))
 	  (closql
 	   (2 2 2))
 	  (emacsql
@@ -29016,8 +29018,8 @@
 	   (1 2 0)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "76bb93c4876067752b74b0f90c2f58effb8f25f3")
-	  (:revdesc . "76bb93c48760")
+	  (:commit . "2fb110bd9a3e272056886b5538d72024c2d41282")
+	  (:revdesc . "2fb110bd9a3e")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
