@@ -45507,6 +45507,23 @@
 		  (:maintainers
 		   ("Rocky Bernstein" . "rocky@gnu.org"))
 		  (:maintainer "Rocky Bernstein" . "rocky@gnu.org"))])
+ (lobsters .
+	   [(0 1 0 1 -4 20250817 1829)
+	    ((emacs
+	      (25 1))
+	     (request
+	      (0 2 0))
+	     (visual-fill-column
+	      (2 4)))
+	    "A Lobsters client" tar
+	    ((:url . "https://github.com/tanrax/lobsters.el")
+	     (:commit . "9d4bd2c67ca324ea402897cb629312add53279c3")
+	     (:revdesc . "9d4bd2c67ca3")
+	     (:authors
+	      ("Andros Fenollosa" . "hi@andros.dev"))
+	     (:maintainers
+	      ("Andros Fenollosa" . "hi@andros.dev"))
+	     (:maintainer "Andros Fenollosa" . "hi@andros.dev"))])
  (loc-changes .
 	      [(1 2 1 -4 20230214 1036)
 	       nil "Keep track of positions even after buffer changes" tar
@@ -54245,6 +54262,20 @@
        (:maintainers
 	("Naoya Yamashita" . "conao3@gmail.com"))
        (:maintainer "Naoya Yamashita" . "conao3@gmail.com"))])
+ (ol-bible .
+	   [(0 1 0 1 -4 20250819 1543)
+	    ((emacs
+	      (27 1)))
+	    "Org Link support for Bible Passages" tar
+	    ((:url . "https://git.sr.ht/~swflint/ol-bible")
+	     (:commit . "b67ff8c45d51af9fa71aa44bacb4a872f6b750c6")
+	     (:revdesc . "b67ff8c45d51")
+	     (:keywords "convenience" "outlines")
+	     (:authors
+	      ("Samuel W. Flint" . "me@samuelwflint.com"))
+	     (:maintainers
+	      ("Samuel W. Flint" . "me@samuelwflint.com"))
+	     (:maintainer "Samuel W. Flint" . "me@samuelwflint.com"))])
  (ol-notmuch .
 	     [(0 1 0 1 -4 20250531 2228)
 	      ((emacs
@@ -57645,6 +57676,24 @@
 	    (:maintainers
 	     ("Nathan Dwarshuis" . "natedwarshuis@gmail.com"))
 	    (:maintainer "Nathan Dwarshuis" . "natedwarshuis@gmail.com"))])
+ (org-srs .
+	  [(0 1 0 1 -4 20250818 1726)
+	   ((emacs
+	     (30 1))
+	    (org
+	     (9 7))
+	    (fsrs
+	     (6 0)))
+	   "A flexible spaced repetition system for Org-mode" tar
+	   ((:url . "https://github.com/bohonghuang/org-srs")
+	    (:commit . "51856d234b8683c3502b5366d0eee512061bce04")
+	    (:revdesc . "51856d234b86")
+	    (:keywords "outlines")
+	    (:authors
+	     ("Bohong Huang" . "bohonghuang@qq.com"))
+	    (:maintainers
+	     ("Bohong Huang" . "bohonghuang@qq.com"))
+	    (:maintainer "Bohong Huang" . "bohonghuang@qq.com"))])
  (org-starter .
 	      [(0 2 10 1 -4 20220326 1106)
 	       ((emacs
@@ -63801,6 +63850,20 @@
 		   (:maintainers
 		    ("Stefan Thesing" . "software@webdings.de"))
 		   (:maintainer "Stefan Thesing" . "software@webdings.de"))])
+ (project-cmake .
+		[(0 1 0 1 -4 20250824 2004)
+		 ((emacs
+		   (30 1)))
+		 "A cmake backend for project.el" tar
+		 ((:url . "https://github.com/lucius-martius/project-cmake")
+		  (:commit . "4a261cef5b7ca406577d3b0eaeabfae88419edeb")
+		  (:revdesc . "4a261cef5b7c")
+		  (:keywords "tools" "convenience")
+		  (:authors
+		   ("Lucius Martius" . "lucius.martius@mailbox.org"))
+		  (:maintainers
+		   ("Lucius Martius" . "lucius.martius@mailbox.org"))
+		  (:maintainer "Lucius Martius" . "lucius.martius@mailbox.org"))])
  (project-explorer .
 		   [(0 15 0 1 -4 20150504 14)
 		    ((cl-lib
@@ -77557,15 +77620,15 @@
 			("Erick Navarro" . "erick@navarro.io"))
 		       (:maintainer "Erick Navarro" . "erick@navarro.io"))])
  (tree-sitter-langs .
-		    [(0 1 0 1 -4 20250817 1805)
+		    [(0 1 0 1 -4 20250824 1812)
 		     ((emacs
 		       (25 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
 		     ((:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs")
-		      (:commit . "67338ae57f96281e594a32b5346b7047da80682c")
-		      (:revdesc . "67338ae57f96")
+		      (:commit . "3d22dcde8574a7991bea412d45d7db71d50ce544")
+		      (:revdesc . "3d22dcde8574")
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
