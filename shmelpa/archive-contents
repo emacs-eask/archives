@@ -2725,13 +2725,13 @@
 	 ("Alex Ragone" . "ragonedk@gmail.com"))
 	(:maintainer "Alex Ragone" . "ragonedk@gmail.com"))])
  (async .
-	[(0 1 0 1 -4 20250825 435)
+	[(0 1 0 1 -4 20250825 456)
 	 ((emacs
 	   (24 4)))
 	 "Asynchronous processing in Emacs" tar
 	 ((:url . "https://github.com/jwiegley/emacs-async")
-	  (:commit . "1eeb24b5893a6dae648b0b033f38d7704313156f")
-	  (:revdesc . "1eeb24b5893a")
+	  (:commit . "d69af6eeebc972b40412477cd344c050e432cd99")
+	  (:revdesc . "d69af6eeebc9")
 	  (:keywords "async")
 	  (:authors
 	   ("John Wiegley" . "jwiegley@gmail.com"))
@@ -7201,7 +7201,7 @@
 	(:authors
 	 ("Masatake YAMATO" . "masata-y@is.aist-nara.ac.jp")))])
  (ccls .
-       [(0 1 0 1 -4 20250301 131)
+       [(0 1 0 1 -4 20250825 531)
 	((emacs
 	  (28 1))
 	 (lsp-mode
@@ -7210,8 +7210,8 @@
 	  (2 14 1)))
 	"Ccls client for lsp-mode" tar
 	((:url . "https://github.com/emacs-lsp/emacs-ccls")
-	 (:commit . "28c7930c89c48a8f8e0ff5a62734f587f54e52be")
-	 (:revdesc . "28c7930c89c4")
+	 (:commit . "80981d751198b59a7960a5437cb42a4d9974f254")
+	 (:revdesc . "80981d751198")
 	 (:keywords "languages" "lsp" "c++"))])
  (cd-compile .
 	     [(0 1 1 -4 20141108 1957)
@@ -21358,13 +21358,13 @@
 	      ("Jonathan Rockway" . "jon@jrock.us"))
 	     (:maintainer "Jonathan Rockway" . "jon@jrock.us"))])
  (eprolog .
-	  [(0 1 0 1 -4 20250825 305)
+	  [(0 1 0 1 -4 20250825 625)
 	   ((emacs
-	     (30 1)))
+	     (29 4)))
 	   "Native Prolog engine implementation" tar
 	   ((:url . "https://github.com/tani/eprolog")
-	    (:commit . "e3f0624a04ad6ecda49802aa6272fafb90c6b7f6")
-	    (:revdesc . "e3f0624a04ad")
+	    (:commit . "f2ddb5a2c19ba9dacd863841e0a4dfb834c779ef")
+	    (:revdesc . "f2ddb5a2c19b")
 	    (:keywords "languages" "prolog" "logic programming"))])
  (epx .
       [(0 1 0 1 -4 20250607 1427)
@@ -45949,17 +45949,17 @@
 		("Ivan Yonchovski" . "yyoncho@gmail.com"))
 	       (:maintainer "Ivan Yonchovski" . "yyoncho@gmail.com"))])
  (lsp-focus .
-	    [(0 1 0 1 -4 20241119 1451)
+	    [(0 1 0 1 -4 20250825 539)
 	     ((emacs
-	       (27 1))
+	       (28 1))
 	      (focus
 	       (0 1 1))
 	      (lsp-mode
 	       (6 1)))
 	     "Focus.el support for lsp-mode" tar
 	     ((:url . "https://github.com/emacs-lsp/lsp-focus")
-	      (:commit . "3420d82c6c8635b4184ebacd50e0902deeeb9845")
-	      (:revdesc . "3420d82c6c86")
+	      (:commit . "4621d310e780e384cbe93d5680fa9ec5d03e2c73")
+	      (:revdesc . "4621d310e780")
 	      (:keywords "languages" "lsp-mode"))])
  (lsp-grammarly .
 		[(0 1 0 1 -4 20250226 2340)
@@ -46188,9 +46188,9 @@
 	     (:revdesc . "c0cafd07ea7e")
 	     (:keywords "languages"))])
  (lsp-mssql .
-	    [(0 1 0 1 -4 20250301 131)
+	    [(0 1 0 1 -4 20250825 542)
 	     ((emacs
-	       (27 1))
+	       (28 1))
 	      (lsp-mode
 	       (6 2))
 	      (dash
@@ -46203,8 +46203,8 @@
 	       (0 1)))
 	     "MSSQL LSP bindings" tar
 	     ((:url . "https://github.com/emacs-lsp/lsp-mssql")
-	      (:commit . "60a1548be01c2d6570d662a50f0d09cb20680df7")
-	      (:revdesc . "60a1548be01c")
+	      (:commit . "93d3adc9dc61156745ab1f7dc147af6070fdd25b")
+	      (:revdesc . "93d3adc9dc61")
 	      (:keywords "data" "languages")
 	      (:authors
 	       ("Ivan Yonchovski" . "yyoncho@gmail.com"))
@@ -46347,15 +46347,15 @@
 		   ("Fermin MF" . "fmfs@posteo.net"))
 		  (:maintainer "Fermin MF" . "fmfs@posteo.net"))])
  (lsp-sourcekit .
-		[(0 1 0 1 -4 20250301 131)
+		[(0 1 0 1 -4 20250825 538)
 		 ((emacs
 		   (28 1))
 		  (lsp-mode
 		   (5)))
 		 "Sourcekit-lsp client for lsp-mode" tar
 		 ((:url . "https://github.com/emacs-lsp/lsp-sourcekit")
-		  (:commit . "3bd9750e7ec97706c0455f41ea4e5cff3391dba8")
-		  (:revdesc . "3bd9750e7ec9")
+		  (:commit . "30918cd1aeeda5cfbc0fd615f97cf1bf388d8f2d")
+		  (:revdesc . "30918cd1aeed")
 		  (:keywords "languages" "lsp" "swift" "objective-c" "c++"))])
  (lsp-tailwindcss .
 		  [(0 1 0 1 -4 20250425 326)
@@ -46902,7 +46902,7 @@
 		     ("Bradley Wright" . "brad@intranation.com"))
 		    (:maintainer "Bradley Wright" . "brad@intranation.com"))])
  (magit-gerrit .
-	       [(0 1 0 1 -4 20250110 1248)
+	       [(0 1 0 1 -4 20250825 722)
 		((emacs
 		  (25 1))
 		 (magit
@@ -46911,8 +46911,8 @@
 		  (0 3 0)))
 		"Magit plugin for Gerrit Code Review" tar
 		((:url . "https://github.com/emacsorphanage/magit-gerrit")
-		 (:commit . "07307dbdff9ec8042457dbeed21281c336fba104")
-		 (:revdesc . "07307dbdff9e")
+		 (:commit . "37a4774c3cc401f849d57aaa2c105ca401f9983c")
+		 (:revdesc . "37a4774c3cc4")
 		 (:authors
 		  ("Brian Fransioli" . "assem@terranpro.org"))
 		 (:maintainers
@@ -50350,15 +50350,15 @@
 	 ("Johann Klähn" . "johann@jklaehn.de"))
 	(:maintainer "Johann Klähn" . "johann@jklaehn.de"))])
  (mpvi .
-       [(0 1 0 1 -4 20250825 535)
+       [(0 1 0 1 -4 20250825 706)
 	((emacs
 	  (28 1))
 	 (emms
 	  (11)))
 	"Watch video and take interactive video notes" tar
 	((:url . "https://github.com/lorniu/mpvi")
-	 (:commit . "6dc3fe81dcc132edcf5f51b96c0d524e19d1c4a1")
-	 (:revdesc . "6dc3fe81dcc1")
+	 (:commit . "2ece115806a5311b50cad4bd0cc5c11e823575f4")
+	 (:revdesc . "2ece115806a5")
 	 (:keywords "convenience" "docs" "multimedia" "application")
 	 (:authors
 	  ("lorniu" . "lorniu@gmail.com"))
