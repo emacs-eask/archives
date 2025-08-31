@@ -37438,15 +37438,15 @@
 		 ("Donald Ephraim Curtis" . "dcurtis@milkbox.net"))
 		(:maintainer "Donald Ephraim Curtis" . "dcurtis@milkbox.net"))])
  (hl-todo .
-	  [(0 1 0 1 -4 20250829 1919)
+	  [(0 1 0 1 -4 20250831 1809)
 	   ((emacs
 	     (26 1))
 	    (compat
 	     (30 1)))
 	   "Highlight TODO and similar keywords" tar
 	   ((:url . "https://github.com/tarsius/hl-todo")
-	    (:commit . "f7890aba745c8910d891dbbd6789a07c2675f1d1")
-	    (:revdesc . "f7890aba745c")
+	    (:commit . "116f4e8171fa766d632a8321a3a0b721d2e2f546")
+	    (:revdesc . "116f4e8171fa")
 	    (:keywords "convenience")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.hl-todo@jonas.bernoulli.dev"))
@@ -39208,6 +39208,20 @@
 		 (:maintainers
 		  ("vindarel" . "vindarel@mailz.org"))
 		 (:maintainer "vindarel" . "vindarel@mailz.org"))])
+ (indentinator .
+	       [(0 1 0 1 -4 20250827 2013)
+		((emacs
+		  (25 1)))
+		"Automatically indent code" tar
+		((:url . "https://github.com/xendk/indentinator.el")
+		 (:commit . "c9553f4be3557fe0fdf10d491b0936dea2bed7db")
+		 (:revdesc . "c9553f4be355")
+		 (:keywords "convenience")
+		 (:authors
+		  ("Thomas Fini Hansen" . "xen@xen.dk"))
+		 (:maintainers
+		  ("Thomas Fini Hansen" . "xen@xen.dk"))
+		 (:maintainer "Thomas Fini Hansen" . "xen@xen.dk"))])
  (indian-ext .
 	     [(0 1 1 -4 20231009 740)
 	      ((emacs
@@ -58600,7 +58614,7 @@
 	    ("Yoshinari Nomura" . "nom@quickhack.net"))
 	   (:maintainer "Yoshinari Nomura" . "nom@quickhack.net"))])
  (orgmdb .
-	 [(0 1 0 1 -4 20250831 1517)
+	 [(0 1 0 1 -4 20250831 1851)
 	  ((emacs
 	    (27 1))
 	   (dash
@@ -58611,8 +58625,8 @@
 	    (8 0 0)))
 	  "An OMDb API client with some convenience functions" tar
 	  ((:url . "https://github.com/isamert/orgmdb.el")
-	   (:commit . "3cd53f02803038889c899e9caa07763a2d77555f")
-	   (:revdesc . "3cd53f028030")
+	   (:commit . "4dc658b016f48882730c2cbc2d6de2c39283dbaf")
+	   (:revdesc . "4dc658b016f4")
 	   (:authors
 	    ("Isa Mert Gurbuz" . "isamert@protonmail.com"))
 	   (:maintainers
@@ -64152,7 +64166,7 @@
 			 ("USAMI Kenta" . "tadsan@zonu.me"))
 			(:maintainer "USAMI Kenta" . "tadsan@zonu.me"))])
  (projection .
-	     [(0 1 0 1 -4 20250831 1012)
+	     [(0 1 0 1 -4 20250831 1727)
 	      ((emacs
 		(29 1))
 	       (project
@@ -64165,8 +64179,8 @@
 		(1 13)))
 	      "Project type support for `project'" tar
 	      ((:url . "https://github.com/mohkale/projection")
-	       (:commit . "aa27a44bb888313846e6978b1634a27c0892e7b7")
-	       (:revdesc . "aa27a44bb888")
+	       (:commit . "eab3a7f57ada46f1f30662495b9cd7a84b60bffd")
+	       (:revdesc . "eab3a7f57ada")
 	       (:keywords "project" "convenience")
 	       (:authors
 		("Mohsin Kaleem" . "mohkale@kisara.moe"))
@@ -64192,7 +64206,7 @@
 		     ("Mohsin Kaleem" . "mohkale@kisara.moe"))
 		    (:maintainer "Mohsin Kaleem" . "mohkale@kisara.moe"))])
  (projection-multi .
-		   [(0 1 0 1 -4 20241107 2107)
+		   [(0 1 0 1 -4 20250831 1727)
 		    ((emacs
 		      (29 1))
 		     (projection
@@ -64201,8 +64215,8 @@
 		      (0 5)))
 		    "Projection integration for `compile-multi'" tar
 		    ((:url . "https://github.com/mohkale/projection")
-		     (:commit . "50d4f0ec4edfddd24f7c1c540f299a919aa4c151")
-		     (:revdesc . "50d4f0ec4edf")
+		     (:commit . "eab3a7f57ada46f1f30662495b9cd7a84b60bffd")
+		     (:revdesc . "eab3a7f57ada")
 		     (:keywords "project" "convenience")
 		     (:authors
 		      ("Mohsin Kaleem" . "mohkale@kisara.moe"))
@@ -76309,6 +76323,19 @@
 		    (:maintainers
 		     ("Marc Sherry" . "msherry@gmail.com"))
 		    (:maintainer "Marc Sherry" . "msherry@gmail.com"))])
+ (ticktick .
+	   [(0 1 0 1 -4 20250827 2049)
+	    ((emacs
+	      (27 1))
+	     (request
+	      (0 3 0))
+	     (simple-httpd
+	      (1 5 0)))
+	    "Sync Org Mode tasks with TickTick" tar
+	    ((:url . "https://github.com/polhuang/ticktick.el")
+	     (:commit . "edab80659c655af1e1538b3cfbbbe399a428b9c8")
+	     (:revdesc . "edab80659c65")
+	     (:keywords "tools" "ticktick" "org" "tasks" "todo"))])
  (tidal .
 	[(0 1 0 1 -4 20250711 1955)
 	 ((haskell-mode
