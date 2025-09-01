@@ -272,7 +272,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider .
-	[(1 20 0 -4 0 20250827 93342)
+	[(1 20 0 -4 0 20250901 171510)
 	 ((emacs
 	   (27))
 	  (clojure-mode
@@ -300,7 +300,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "8a4405ca0d8dd02d1f35e287131838feec2a81c6"))])
+	  (:commit . "389833f85a8f7e648de73fd9a625674c8ecf85e9"))])
  (clojure-mode .
 	       [(5 20 0 0 20250528 61040)
 		((emacs
@@ -626,7 +626,7 @@
 	    ("Tim Vaughan" . "plugd@thelambdalab.xyz"))
 	   (:commit . "972a069f240f071a79da23c98d3519df45bb5851"))])
  (emacsql .
-	  [(4 3 1 0 20250829 153001)
+	  [(4 3 2 0 20250901 154446)
 	   ((emacs
 	     (26 1)))
 	   "High-level SQL database front-end" tar
@@ -634,7 +634,7 @@
 	    (:maintainer "Jonas Bernoulli" . "emacs.emacsql@jonas.bernoulli.dev")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
-	    (:commit . "b660755fa484adc72da9ab4bf411314123945538"))])
+	    (:commit . "3e015ab99e061f3967a154683f068ce6553f168a"))])
  (engine-mode .
 	      [(2 2 4 0 20230911 95607)
 	       ((emacs
@@ -1122,7 +1122,7 @@
 		   ("Jeronimo Pellegrini" . "(j_p@aleph0.info)"))
 		  (:commit . "efdac7298e3a64f1138e3949b3312f491f2c706a"))])
  (git-modes .
-	    [(1 4 5 0 20250829 153303)
+	    [(1 4 6 0 20250901 160839)
 	     ((emacs
 	       (26 1))
 	      (compat
@@ -1135,7 +1135,7 @@
 	       ("Sebastian Wiesner" . "lunaryorn@gmail.com")
 	       ("Rüdiger Sonderfeld" . "ruediger@c-plusplus.net")
 	       ("Jonas Bernoulli" . "emacs.git-modes@jonas.bernoulli.dev"))
-	      (:commit . "0be5dcccc951e1186f424481eaf75572b88e35ca"))])
+	      (:commit . "7063d66857023e6c010cecac52de67c0baa77fb7"))])
  (gnosis .
 	 [(0 5 5 0 20250815 134629)
 	  ((emacs
@@ -1542,7 +1542,7 @@
 	       (:keywords "languages")
 	       (:commit . "5c940c4ba357d8361534f11169f3d40b2d7833fc"))])
  (keycast .
-	  [(1 4 4 0 20250829 153140)
+	  [(1 4 5 0 20250901 161025)
 	   ((emacs
 	     (28 1))
 	    (compat
@@ -1553,7 +1553,7 @@
 	    (:maintainer "Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev"))
-	    (:commit . "8df7087434062d0923730fce586bde2b3bf75ca9"))])
+	    (:commit . "f23f6823710c4d194cbdb5f1a0532d1d6fe0d968"))])
  (kotlin-mode .
 	      [(2 0 0 0 20230123 105957)
 	       ((emacs
@@ -1566,7 +1566,7 @@
 		 ("Shodai Yokoyama" . "(quantumcars@gmail.com)"))
 		(:commit . "fddd747e5b4736e8b27a147960f369b86179ddff"))])
  (llama .
-	[(1 0 0 0 20250829 153154)
+	[(1 0 1 0 20250901 154405)
 	 ((emacs
 	   (26 1))
 	  (compat
@@ -1574,7 +1574,7 @@
 	 "Compact syntax for short lambda" tar
 	 ((:url . "https://github.com/tarsius/llama")
 	  (:keywords "extensions")
-	  (:commit . "92c9a647ab31c662da086e46dc9541c17d3e795a"))])
+	  (:commit . "ec1d4ef02f5572fc5aff3f62d3e7ef791f444456"))])
  (logview .
 	  [(0 19 3 -4 0 20250401 172309)
 	   ((emacs
@@ -1669,13 +1669,15 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit .
-	[(4 3 8 0 20250704 230026)
+	[(4 3 8 0 20250901 123846)
 	 ((emacs
-	   (27 1))
+	   (28 1))
 	  (compat
 	   (30 1))
+	  (cond-let
+	   (0 1))
 	  (llama
-	   (1 0 0))
+	   (1 0))
 	  (magit-section
 	   (4 3 8))
 	  (seq
@@ -1693,15 +1695,17 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	  (:commit . "5b820a1d1e94649e0f218362286d520d9f29ac2c"))])
+	  (:commit . "7d6ac0abbae4ee36219729257791a201005e1e3d"))])
  (magit-section .
-		[(4 3 8 0 20250704 230026)
+		[(4 3 8 0 20250901 123846)
 		 ((emacs
-		   (27 1))
+		   (28 1))
 		  (compat
 		   (30 1))
+		  (cond-let
+		   (0 1))
 		  (llama
-		   (1 0 0))
+		   (1 0))
 		  (seq
 		   (2 24)))
 		 "Sections for read-only buffers" tar
@@ -1710,7 +1714,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "5b820a1d1e94649e0f218362286d520d9f29ac2c"))])
+		  (:commit . "7d6ac0abbae4ee36219729257791a201005e1e3d"))])
  (markdown-mode .
 		[(2 8 -3 0 20250812 42301)
 		 ((emacs
@@ -1982,13 +1986,13 @@
 		    ("Takaaki ISHIKAWA" . "takaxpatieeedotorg"))
 		   (:commit . "e2599a106a26ce5511095e23df4ea04be6687a8a"))])
  (orgit .
-	[(2 0 3 0 20250829 153208)
+	[(2 0 5 0 20250901 181058)
 	 ((emacs
 	   (27 1))
 	  (compat
 	   (30 1))
 	  (magit
-	   (4 3 6))
+	   (4 3))
 	  (org
 	   (9 7)))
 	 "Support for Org links to Magit buffers" tar
@@ -1997,7 +2001,7 @@
 	  (:maintainer "Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
-	  (:commit . "98d8ca9a5b09c0ebd8dfb07974fc875556944748"))])
+	  (:commit . "8493c248081a9ed71ad6fd61e4d6b48c8a0039ec"))])
  (p4-16-mode .
 	     [(0 3 0 20231118 161633)
 	      nil "Support for the P4_16 programming language" tar
@@ -2822,7 +2826,7 @@
 	      ("Akib Azmain Turja" . "akib@disroot.org"))
 	     (:commit . "5203d9379afaf6703746823a580c804e1dd98e08"))])
  (with-editor .
-	      [(3 4 5 0 20250829 153220)
+	      [(3 4 6 0 20250901 161817)
 	       ((emacs
 		 (26 1))
 		(compat
@@ -2833,7 +2837,7 @@
 		(:maintainer "Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev")
 		(:authors
 		 ("Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev"))
-		(:commit . "ceca329b09ab6c4fadfe8d4a14b27eeed70f04a5"))])
+		(:commit . "87a384a0e59260cca41ca8831d98e195b1ec8ada"))])
  (with-simulated-input .
 		       [(3 0 0 20210602 224623)
 			((emacs

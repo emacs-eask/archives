@@ -1685,7 +1685,7 @@
 	   ("Adam Porter" . "adam@alphapapa.net"))
 	  (:commit . "57ac20036e6b3574512188dfd10f0a9432348a5c"))])
  (emms .
-       [(23 0 20250731 114728)
+       [(23 0 20250901 120244)
 	((cl-lib
 	  (0 5))
 	 (nadvice
@@ -1698,7 +1698,7 @@
 	 (:maintainer "Yoni Rabkin" . "yrk@gnu.org")
 	 (:authors
 	  ("Jorgen Schäfer" . "forcer@forcix.cx"))
-	 (:commit . "e3824b81b11ac71b9bb0993a3a3d3647b923a377"))])
+	 (:commit . "0f2942ef67c1fcb07d8292165d6493998b1c6c24"))])
  (engrave-faces .
 		[(0 3 1 0 20240421 82802)
 		 ((emacs
@@ -3339,7 +3339,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "31812d9252c6cfa7eae8fa04cd40c8b2081e9936"))])
  (org .
-      [(9 8 -1 0 20250817 94001)
+      [(9 8 -1 0 20250901 122649)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -3348,7 +3348,7 @@
 	(:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "526a7d1cc65409d5546b009f54fed28726a9457d"))])
+	(:commit . "69b891b59b1ee026e5bf2e7bee357eead5cbe546"))])
  (org-contacts .
 	       [(1 1 0 20250827 65710)
 		((emacs
@@ -4787,6 +4787,17 @@
 		  ("Bruno Boal" . "egomet@bboal.com")
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
 		 (:commit . "06f1be349e9c3d124520b18742911307de9abda3"))])
+ (timeout .
+	  [(2 0 0 20250901 120627)
+	   ((emacs
+	     (24 4)))
+	   "Throttle or debounce Elisp functions" tar
+	   ((:url . "https://github.com/karthink/timeout")
+	    (:keywords "convenience" "extensions")
+	    (:maintainer "Karthik Chikmagalur" . "karthikchikmagalur@gmail.com")
+	    (:authors
+	     ("Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))
+	    (:commit . "9ad5167024f96bea45669acd862615ca379feddf"))])
  (timerfunctions .
 		 [(1 4 2 0 20221221 82440)
 		  ((cl-lib
@@ -4901,7 +4912,7 @@
 	       (:url . "https://elpa.gnu.org/packages/transcribe.html")
 	       (:commit . "2c2d493d5488f3b444d2a771ab443589fcc72c13"))])
  (transient .
-	    [(0 9 4 0 20250801 114942)
+	    [(0 9 4 0 20250829 152922)
 	     ((emacs
 	       (26 1))
 	      (compat
@@ -4914,7 +4925,7 @@
 	      (:maintainer "Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
-	      (:commit . "aa32e0d66cc389befed7a8e8df9439d92a729daa"))])
+	      (:commit . "e5e7ca9f73ec045c1cd36a319716ab3fab5c94a9"))])
  (transient-cycles .
 		   [(2 0 0 20250625 85410)
 		    ((emacs
@@ -5204,7 +5215,7 @@
 		  ("Wilson Snyder" . "wsnyder@wsnyder.org"))
 		 (:commit . "64d314e0f6495de6fcf4f4c51e710b597a237e4f"))])
  (vertico .
-	  [(2 4 0 20250827 134156)
+	  [(2 4 0 20250901 144030)
 	   ((emacs
 	     (28 1))
 	    (compat
@@ -5215,7 +5226,7 @@
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	    (:commit . "718f8584d09082451c29066c3c370bdaff02fcab"))])
+	    (:commit . "79cec4071853d4d5d9384af30290058a63005c43"))])
  (vertico-posframe .
 		   [(0 8 0 0 20250211 11642)
 		    ((emacs
