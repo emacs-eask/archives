@@ -5626,17 +5626,17 @@
 	 (:commit . "b562e2dbcb089e37ff5a1276f6a5663af6dc15e1")
 	 (:revdesc . "b562e2dbcb08"))])
  (borg .
-       [(0 1 0 1 -4 20250831 1949)
+       [(0 1 0 1 -4 20250901 1753)
 	((emacs
 	  (27 1))
 	 (epkg
-	  (4 0 7))
+	  (4 1))
 	 (magit
-	  (4 3 6)))
+	  (4 3)))
 	"Assimilate Emacs packages as Git submodules" tar
 	((:url . "https://github.com/emacscollective/borg")
-	 (:commit . "cdc17af44d175a3319ac42b8ce0584ceb0d41878")
-	 (:revdesc . "cdc17af44d17")
+	 (:commit . "4327736d7f0137407c314d1d46e99a4fed14b0d4")
+	 (:revdesc . "4327736d7f01")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.borg@jonas.bernoulli.dev"))
@@ -8028,7 +8028,7 @@
 		 ("Adam Chyła https://chyla.org/" . "adam@chyla.org"))
 		(:maintainer "Adam Chyła https://chyla.org/" . "adam@chyla.org"))])
  (cider .
-	[(0 1 0 1 -4 20250827 933)
+	[(0 1 0 1 -4 20250901 1715)
 	 ((emacs
 	   (27))
 	  (clojure-mode
@@ -8047,8 +8047,8 @@
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
 	 ((:url . "https://www.github.com/clojure-emacs/cider")
-	  (:commit . "8a4405ca0d8dd02d1f35e287131838feec2a81c6")
-	  (:revdesc . "8a4405ca0d8d")
+	  (:commit . "389833f85a8f7e648de73fd9a625674c8ecf85e9")
+	  (:revdesc . "389833f85a8f")
 	  (:keywords "languages" "clojure" "cider")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
@@ -9046,7 +9046,7 @@
 	     ("Kostafey" . "kostafey@gmail.com"))
 	    (:maintainer "Kostafey" . "kostafey@gmail.com"))])
  (closql .
-	 [(0 1 0 1 -4 20250815 1802)
+	 [(0 1 0 1 -4 20250901 1545)
 	  ((emacs
 	    (28 1))
 	   (compat
@@ -9055,8 +9055,8 @@
 	    (4 3)))
 	  "Store EIEIO objects using EmacSQL" tar
 	  ((:url . "https://github.com/emacscollective/closql")
-	   (:commit . "08194fb97deb3a83863da7731cb316aa62058f22")
-	   (:revdesc . "08194fb97deb")
+	   (:commit . "80e91c557331225b5c4b420ec6f283ac3c40bbac")
+	   (:revdesc . "80e91c557331")
 	   (:keywords "extensions")
 	   (:authors
 	    ("Jonas Bernoulli" . "emacs.closql@jonas.bernoulli.dev"))
@@ -18095,7 +18095,7 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20250901 122)
+      [(0 1 0 1 -4 20250901 1853)
        ((emacs
 	 (28 1))
 	(dash
@@ -18108,8 +18108,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "bbecf6bf26d79eb84e5e8d5c7d235790cad373d5")
-	(:revdesc . "bbecf6bf26d7")
+	(:commit . "dc4883167180b898ed8dbdad608366ed52e82411")
+	(:revdesc . "dc4883167180")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
@@ -20440,19 +20440,17 @@
 	  ("Matus Goljer" . "matus.goljer@gmail.com"))
 	 (:maintainer "Matus Goljer" . "matus.goljer@gmail.com"))])
  (elx .
-      [(0 1 0 1 -4 20250807 1142)
+      [(0 1 0 1 -4 20250901 1600)
        ((emacs
-	 (26 1))
+	 (29 1))
 	(compat
 	 (30 1))
 	(llama
-	 (1 0))
-	(seq
-	 (2 24)))
+	 (1 0)))
        "Extract information from Emacs Lisp libraries" tar
        ((:url . "https://github.com/emacscollective/elx")
-	(:commit . "2b965671ad1d7f5391e48169393492e314e487e8")
-	(:revdesc . "2b965671ad1d")
+	(:commit . "fc2d5a232c1efca8a35b086d4f94a7bd8ca290c2")
+	(:revdesc . "fc2d5a232c1e")
 	(:keywords "docs" "libraries" "packages")
 	(:authors
 	 ("Jonas Bernoulli" . "emacs.elx@jonas.bernoulli.dev"))
@@ -20513,13 +20511,13 @@
 		   ("DarkSun" . "lujun9972@gmail.com"))
 		  (:maintainer "DarkSun" . "lujun9972@gmail.com"))])
  (emacsql .
-	  [(0 1 0 1 -4 20250829 1449)
+	  [(0 1 0 1 -4 20250901 1544)
 	   ((emacs
 	     (26 1)))
 	   "High-level SQL database front-end" tar
 	   ((:url . "https://github.com/magit/emacsql")
-	    (:commit . "9c37ae13c881b18de1ae6d8a5828c62b96c472c6")
-	    (:revdesc . "9c37ae13c881")
+	    (:commit . "3e015ab99e061f3967a154683f068ce6553f168a")
+	    (:revdesc . "3e015ab99e06")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainers
@@ -21270,21 +21268,21 @@
 	   ("Sean Hutchings" . "seanhut@yandex.com"))
 	  (:maintainer "Sean Hutchings" . "seanhut@yandex.com"))])
  (epkg .
-       [(0 1 0 1 -4 20250601 1044)
+       [(0 1 0 1 -4 20250901 1551)
 	((emacs
 	  (28 1))
 	 (compat
 	  (30 1))
 	 (closql
-	  (2 2 2))
+	  (2 3))
 	 (emacsql
-	  (4 3 1))
+	  (4 3))
 	 (llama
-	  (0 6 3)))
+	  (1 0)))
 	"Browse the Emacsmirror package database" tar
 	((:url . "https://github.com/emacscollective/epkg")
-	 (:commit . "bc9a6018f07dc3e5e1bd2139d08d1dd1af92eea8")
-	 (:revdesc . "bc9a6018f07d")
+	 (:commit . "b6922f112dd0b523df0e2da49b4cc9327b1085ba")
+	 (:revdesc . "b6922f112dd0")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))
@@ -21292,19 +21290,19 @@
 	  ("Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))
 	 (:maintainer "Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))])
  (epkg-marginalia .
-		  [(0 1 0 1 -4 20250823 1655)
+		  [(0 1 0 1 -4 20250901 1606)
 		   ((emacs
-		     (27 1))
+		     (28 1))
 		    (compat
 		     (30 1))
 		    (epkg
-		     (4 0 7))
+		     (4 1))
 		    (marginalia
-		     (2 0)))
+		     (2 2)))
 		   "Show Epkg information in completion annotations" tar
 		   ((:url . "https://github.com/emacscollective/epkg-marginalia")
-		    (:commit . "b62b1d5da52cc31b34ffd563e8a6b97cfa9e4d01")
-		    (:revdesc . "b62b1d5da52c")
+		    (:commit . "9c588b4f678f488826fc2707ebdae1ae297f1b76")
+		    (:revdesc . "9c588b4f678f")
 		    (:keywords "tools")
 		    (:authors
 		     ("Jonas Bernoulli" . "emacs.epkg-marginalia@jonas.bernoulli.dev"))
@@ -38195,13 +38193,13 @@
 	       ("Dan LaManna" . "dan.lamanna@gmail.com"))
 	      (:maintainer "Dan LaManna" . "dan.lamanna@gmail.com"))])
  (i3bar .
-	[(0 1 0 1 -4 20241025 1417)
+	[(0 1 0 1 -4 20250901 1725)
 	 ((emacs
 	   (28 1)))
 	 "Display status from an i3status command in the tab bar" tar
 	 ((:url . "https://github.com/Stebalien/i3bar.el")
-	  (:commit . "2e8df32559bad0a77ef87daa13d0740c5328a50a")
-	  (:revdesc . "2e8df32559ba")
+	  (:commit . "0f37c22f43414438d27ce1e97949c02ce0e1dfc1")
+	  (:revdesc . "0f37c22f4341")
 	  (:keywords "unix")
 	  (:authors
 	   ("Steven Allen" . "steven@stebalien.com"))
@@ -39209,13 +39207,13 @@
 		  ("vindarel" . "vindarel@mailz.org"))
 		 (:maintainer "vindarel" . "vindarel@mailz.org"))])
  (indentinator .
-	       [(0 1 0 1 -4 20250827 2013)
+	       [(0 1 0 1 -4 20250901 1740)
 		((emacs
 		  (25 1)))
 		"Automatically indent code" tar
 		((:url . "https://github.com/xendk/indentinator.el")
-		 (:commit . "c9553f4be3557fe0fdf10d491b0936dea2bed7db")
-		 (:revdesc . "c9553f4be355")
+		 (:commit . "65322a28f01485234a7489fe1267186b33c0a63e")
+		 (:revdesc . "65322a28f014")
 		 (:keywords "convenience")
 		 (:authors
 		  ("Thomas Fini Hansen" . "xen@xen.dk"))
@@ -41374,7 +41372,7 @@
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de"))])
  (jira .
-       [(0 1 0 1 -4 20250829 1516)
+       [(0 1 0 1 -4 20250901 1750)
 	((emacs
 	  (29 1))
 	 (request
@@ -41387,8 +41385,8 @@
 	  (4 2 0)))
 	"Emacs Interface to Jira" tar
 	((:url . "https://github.com/unmonoqueteclea/jira.el")
-	 (:commit . "dd9bd4d992f7005ba2735dadeb84dda41f41359f")
-	 (:revdesc . "dd9bd4d992f7")
+	 (:commit . "f64e2201789ace254fddcd99b7251907abeb1b5a")
+	 (:revdesc . "f64e2201789a")
 	 (:authors
 	  ("Pablo González Carrizo" . "unmonoqueteclea@gmail.com"))
 	 (:maintainers
@@ -58534,19 +58532,19 @@
 	    ("Yasuhito Takamiya" . "yasuhito@gmail.com"))
 	   (:maintainer "Yasuhito Takamiya" . "yasuhito@gmail.com"))])
  (orgit .
-	[(0 1 0 1 -4 20250601 1057)
+	[(0 1 0 1 -4 20250901 1810)
 	 ((emacs
 	   (27 1))
 	  (compat
 	   (30 1))
 	  (magit
-	   (4 3 6))
+	   (4 3))
 	  (org
 	   (9 7)))
 	 "Support for Org links to Magit buffers" tar
 	 ((:url . "https://github.com/magit/orgit")
-	  (:commit . "224350397df0987f8cdc770eb7f4618eca34a727")
-	  (:revdesc . "224350397df0")
+	  (:commit . "8493c248081a9ed71ad6fd61e4d6b48c8a0039ec")
+	  (:revdesc . "8493c248081a")
 	  (:keywords "hypermedia" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
@@ -58554,23 +58552,23 @@
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
 	  (:maintainer "Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))])
  (orgit-forge .
-	      [(0 1 0 1 -4 20250601 1059)
+	      [(0 1 0 1 -4 20250901 1806)
 	       ((emacs
 		 (29 1))
 		(compat
 		 (30 1))
 		(forge
-		 (0 5 1))
+		 (0 5))
 		(magit
-		 (4 3 6))
+		 (4 3))
 		(org
 		 (9 7))
 		(orgit
-		 (2 0 3)))
+		 (2 0)))
 	       "Org links to Forge issue buffers" tar
 	       ((:url . "https://github.com/magit/orgit-forge")
-		(:commit . "050590fbc79bc3acd0ab87c0257f6719bff1e33a")
-		(:revdesc . "050590fbc79b")
+		(:commit . "5a0dbe26012b2e7885895f80283ba8974a1e8b38")
+		(:revdesc . "5a0dbe26012b")
 		(:keywords "hypermedia" "vc")
 		(:authors
 		 ("Jonas Bernoulli" . "emacs.orgit-forge@jonas.bernoulli.dev"))
@@ -60431,15 +60429,15 @@
 		    (:revdesc . "74183a8e13fa")
 		    (:keywords "convenience"))])
  (paren-face .
-	     [(0 1 0 1 -4 20250822 1936)
+	     [(0 1 0 1 -4 20250901 1803)
 	      ((emacs
 		(26 1))
 	       (compat
 		(30 1)))
 	      "A face for parentheses in lisp modes" tar
 	      ((:url . "https://github.com/tarsius/paren-face")
-	       (:commit . "88cbcf779d3c382cf785a540a2134a663b753d7b")
-	       (:revdesc . "88cbcf779d3c")
+	       (:commit . "ccbf5f5a61f469e40bc7971e6b033d1ee35bf14d")
+	       (:revdesc . "ccbf5f5a61f4")
 	       (:keywords "faces" "lisp")
 	       (:authors
 		("Jonas Bernoulli" . "emacs.paren-face@jonas.bernoulli.dev"))
