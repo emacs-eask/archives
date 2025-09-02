@@ -786,7 +786,7 @@
 	       ("Carsten Dominik" . "carsten.dominik@gmail.com"))
 	      (:commit . "f07e221d4d5597c7ccf4b0003c0909a88bdfcc9e"))])
  (consult .
-	  [(2 7 0 20250828 235154)
+	  [(2 7 0 20250901 222552)
 	   ((emacs
 	     (28 1))
 	    (compat
@@ -795,7 +795,7 @@
 	   ((:url . "https://github.com/minad/consult")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-	    (:commit . "51c5d3dcaac644db9b196d29fc624023288b24c5"))])
+	    (:commit . "1f0ae1ee8b96b7050b3995d2942c5d6b4eaa08f4"))])
  (consult-denote .
 		 [(0 3 1 0 20250805 41616)
 		  ((emacs
@@ -3187,14 +3187,14 @@
 		  (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
 		  (:commit . "04676d57a1e602123a593836745a744d1b2028fb"))])
  (nano-theme .
-	     [(0 3 4 0 20250820 51020)
+	     [(0 3 4 0 20250902 55900)
 	      ((emacs
 		(27 1)))
 	      "N Λ N O theme" tar
 	      ((:url . "https://github.com/rougier/nano-theme")
 	       (:keywords "theme" "dark" "light")
 	       (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
-	       (:commit . "afb5f37a4075c1921ab363f87faf97a3a0c16d47"))])
+	       (:commit . "41ef36999bacbffe43c4a96320ad6bb285b7f09f"))])
  (nftables-mode .
 		[(1 1 0 20221221 80909)
 		 ((emacs
@@ -3265,16 +3265,18 @@
 	      (:url . "https://elpa.gnu.org/packages/num3-mode.html")
 	      (:commit . "0e3b6990b91191333132fdd56b15c84cb57a7ff7"))])
  (oauth2 .
-	 [(0 17 0 20250810 115209)
+	 [(0 18 0 20250901 162252)
 	  ((emacs
 	    (27 1)))
 	  "OAuth 2.0 Authorization Protocol" tar
 	  ((:url . "https://elpa.gnu.org/packages/oauth2.html")
 	   (:keywords "comm")
-	   (:maintainer nil . "emacs-devel@gnu.org")
+	   (:maintainer
+	    ("Xiyue Deng" . "manphiz@gmail.com")
+	    (nil . "emacs-devel@gnu.org"))
 	   (:authors
 	    ("Julien Danjou" . "julien@danjou.info"))
-	   (:commit . "fc1a4b7ac6ae7c2b3596004cef092d767bbf8f8c"))])
+	   (:commit . "adf02973c2710ca707471be9db92b9b88b51601b"))])
  (ob-asymptote .
 	       [(1 0 2 0 20250511 114502)
 		nil "Babel Functions for Asymptote" tar
