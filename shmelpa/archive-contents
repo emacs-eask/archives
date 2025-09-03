@@ -25471,14 +25471,21 @@
 		 ("Schuyler Eldridge" . "schuyler.eldridge@ibm.com"))
 		(:maintainer "Schuyler Eldridge" . "schuyler.eldridge@ibm.com"))])
  (firstly-search .
-		 [(0 1 4 1 -4 20240804 955)
+		 [(0 1 0 1 -4 20250903 1813)
 		  ((emacs
-		    (29 1)))
+		    (29 1))
+		   (compat
+		    (30 1)))
 		  "Search with any key: Dired, Package, Buffer menu modes" tar
 		  ((:url . "https://codeberg.org/Anoncheg/firstly-search")
-		   (:commit . "d2f58ef2411f664617e8164a1c8d036541f57cef")
-		   (:revdesc . "d2f58ef2411f")
-		   (:keywords "matching" "isearch" "navigation" "dired" "packagemenu"))])
+		   (:commit . "2e09edf4884a868391f1090b43f10fe18d72f4a9")
+		   (:revdesc . "2e09edf4884a")
+		   (:keywords "matching" "isearch" "navigation" "dired" "packagemenu")
+		   (:authors
+		    (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
+		   (:maintainers
+		    (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
+		   (:maintainer nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))])
  (fish-completion .
 		  [(1 2 1 -4 20240518 1403)
 		   ((emacs
@@ -62486,15 +62493,15 @@
 		   ("Hiroaki Otsu" . "ootsuhiroaki@gmail.com"))
 		  (:maintainer "Hiroaki Otsu" . "ootsuhiroaki@gmail.com"))])
  (plumber .
-	  [(0 1 0 1 -4 20250306 1106)
+	  [(0 1 0 1 -4 20250903 2031)
 	   ((emacs
 	     (25 1))
 	    (compat
 	     (28 1 2 2)))
 	   "Run different commands depending on the text format" tar
 	   ((:url . "https://github.com/8dcc/plumber.el")
-	    (:commit . "ddab8a2a81eb9d59c29e2ce19752fbe4fef4f254")
-	    (:revdesc . "ddab8a2a81eb")
+	    (:commit . "6fb863d0c0b6b86fc6e488d4d9b1a2a85822c3de")
+	    (:revdesc . "6fb863d0c0b6")
 	    (:keywords "convenience" "matching" "tools")
 	    (:authors
 	     ("8dcc" . "8dcc.git@gmail.com"))
@@ -64166,7 +64173,7 @@
 			 ("USAMI Kenta" . "tadsan@zonu.me"))
 			(:maintainer "USAMI Kenta" . "tadsan@zonu.me"))])
  (projection .
-	     [(0 1 0 1 -4 20250902 2211)
+	     [(0 1 0 1 -4 20250903 2002)
 	      ((emacs
 		(29 1))
 	       (project
@@ -64179,8 +64186,8 @@
 		(1 13)))
 	      "Project type support for `project'" tar
 	      ((:url . "https://github.com/mohkale/projection")
-	       (:commit . "ff3de3efcec85bb60ff650dab933b40a97ccd3f8")
-	       (:revdesc . "ff3de3efcec8")
+	       (:commit . "4594e0adc16653ae2b879168ed365f94d5ceebbf")
+	       (:revdesc . "4594e0adc166")
 	       (:keywords "project" "convenience")
 	       (:authors
 		("Mohsin Kaleem" . "mohkale@kisara.moe"))
