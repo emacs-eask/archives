@@ -18054,7 +18054,7 @@
 	 ("Alexey Kutepov" . "reximkut@gmail.com"))
 	(:maintainer "Alexey Kutepov" . "reximkut@gmail.com"))])
  (ebib .
-       [(0 1 0 1 -4 20250805 1747)
+       [(0 1 0 1 -4 20250909 1036)
 	((parsebib
 	  (6 0))
 	 (emacs
@@ -18063,8 +18063,8 @@
 	  (29 1 4 3)))
 	"A BibTeX database manager" tar
 	((:url . "http://joostkremers.github.io/ebib/")
-	 (:commit . "248e9274804a656a13abc50214963586113a2158")
-	 (:revdesc . "248e9274804a")
+	 (:commit . "72686b4d045dcbdb794e56c8ba60a77eed52ee83")
+	 (:revdesc . "72686b4d045d")
 	 (:keywords "text" "bibtex")
 	 (:authors
 	  ("Joost Kremers" . "joostkremers@fastmail.fm"))
@@ -29072,35 +29072,35 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20250824 742)
+	[(0 1 0 1 -4 20250909 1016)
 	 ((emacs
 	   (29 1))
 	  (compat
 	   (30 1))
+	  (closql
+	   (2 3))
 	  (cond-let
 	   (0 1))
-	  (closql
-	   (2 2 2))
 	  (emacsql
-	   (4 3 1))
+	   (4 3))
 	  (ghub
-	   (4 3 2))
+	   (5 0))
 	  (llama
 	   (1 0))
 	  (magit
-	   (4 3 6))
+	   (4 4))
 	  (markdown-mode
 	   (2 7))
 	  (seq
 	   (2 24))
 	  (transient
-	   (0 9 0))
+	   (0 10))
 	  (yaml
-	   (1 2 0)))
+	   (1 2)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "2fb110bd9a3e272056886b5538d72024c2d41282")
-	  (:revdesc . "2fb110bd9a3e")
+	  (:commit . "bbecd8947a190894570b8344490a50ebf0efd394")
+	  (:revdesc . "bbecd8947a19")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -30581,7 +30581,7 @@
 	 ("Joseph LaFreniere" . "joseph@lafreniere.xyz"))
 	(:maintainer "Joseph LaFreniere" . "joseph@lafreniere.xyz"))])
  (ghub .
-       [(0 1 0 1 -4 20250823 2101)
+       [(0 1 0 1 -4 20250909 1013)
 	((emacs
 	  (29 1))
 	 (compat
@@ -30592,8 +30592,8 @@
 	  (0 1 2)))
 	"Client libraries for Git forge APIs" tar
 	((:url . "https://github.com/magit/ghub")
-	 (:commit . "8d6f6e5d949f0afdd56c61f6f88936b68e976786")
-	 (:revdesc . "8d6f6e5d949f")
+	 (:commit . "d76cdac69f9afb5c462c88bdc37c6192b43ac615")
+	 (:revdesc . "d76cdac69f9a")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
@@ -38090,13 +38090,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20250907 2255)
+	    [(0 1 0 1 -4 20250909 218)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "0b73344b7364bfbc13ad36c3b84c8a012ea5d331")
-	      (:revdesc . "0b73344b7364")
+	      (:commit . "221a0a22a3e5f2c8e2b3978f28f2042b36441cf1")
+	      (:revdesc . "221a0a22a3e5")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -46859,7 +46859,7 @@
 	       (:revdesc . "f8073feae97d")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20250901 1638)
+	[(0 1 0 1 -4 20250909 1018)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -46869,17 +46869,17 @@
 	  (llama
 	   (1 0))
 	  (magit-section
-	   (4 3 8))
+	   (4 4))
 	  (seq
 	   (2 24))
 	  (transient
-	   (0 9 3))
+	   (0 10))
 	  (with-editor
-	   (3 4 4)))
+	   (3 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "7d6ac0abbae4ee36219729257791a201005e1e3d")
-	  (:revdesc . "7d6ac0abbae4")
+	  (:commit . "dc0094bd88a5307fdfa1c2a48f3ec5b33891f1f0")
+	  (:revdesc . "dc0094bd88a5")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -47247,7 +47247,7 @@
 		       ("Jules Tamagnan" . "jtamagnan@gmail.com"))
 		      (:maintainer "Jules Tamagnan" . "jtamagnan@gmail.com"))])
  (magit-section .
-		[(0 1 0 1 -4 20250826 651)
+		[(0 1 0 1 -4 20250909 1018)
 		 ((emacs
 		   (28 1))
 		  (compat
@@ -47260,8 +47260,8 @@
 		   (2 24)))
 		 "Sections for read-only buffers" tar
 		 ((:url . "https://github.com/magit/magit")
-		  (:commit . "a47b5098c812b7a7932df802378cb754e3ad8639")
-		  (:revdesc . "a47b5098c812")
+		  (:commit . "dc0094bd88a5307fdfa1c2a48f3ec5b33891f1f0")
+		  (:revdesc . "dc0094bd88a5")
 		  (:keywords "tools")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -49763,13 +49763,13 @@
 		    ("Sidharth Arya" . "sidhartharya10@gmail.com"))
 		   (:maintainer "Sidharth Arya" . "sidhartharya10@gmail.com"))])
  (modus-themes .
-	       [(0 1 0 1 -4 20250903 452)
+	       [(0 1 0 1 -4 20250909 655)
 		((emacs
 		  (27 1)))
 		"Elegant, highly legible and customizable themes" tar
 		((:url . "https://github.com/protesilaos/modus-themes")
-		 (:commit . "5d474cd5249891b781b102801103376a81d402c5")
-		 (:revdesc . "5d474cd52498")
+		 (:commit . "161792b1b0b7bfacf742662738a5f9c080c946af")
+		 (:revdesc . "161792b1b0b7")
 		 (:keywords "faces" "theme" "accessibility")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
@@ -71203,21 +71203,21 @@
 	(:revdesc . "a438a9020928")
 	(:keywords "convenience"))])
  (sisyphus .
-	   [(0 1 0 1 -4 20250801 950)
+	   [(0 1 0 1 -4 20250909 1023)
 	    ((emacs
-	      (27 1))
+	      (29 1))
 	     (compat
 	      (30 1))
 	     (elx
-	      (2 2 2))
+	      (2 3))
 	     (llama
-	      (0 6 3))
+	      (1 0))
 	     (magit
-	      (4 3 6)))
+	      (4 4)))
 	    "Create releases of Emacs packages" tar
 	    ((:url . "https://github.com/magit/sisyphus")
-	     (:commit . "9c9fc0624308fba0fe0cc112d1e4de21db81803f")
-	     (:revdesc . "9c9fc0624308")
+	     (:commit . "15db53f635d63310ef2c5ce719bcf58d1bcb5916")
+	     (:revdesc . "15db53f635d6")
 	     (:keywords "git" "tools" "vc")
 	     (:authors
 	      ("Jonas Bernoulli" . "emacs.sisyphus@jonas.bernoulli.dev"))
