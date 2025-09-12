@@ -232,14 +232,14 @@
 	   ("John Wiegley" . "jwiegley@gmail.com"))
 	  (:commit . "ca7f126d41d47b853839c964d248cd258cbfb63b"))])
  (auctex .
-	 [(14 1 0 0 20250808 215752)
+	 [(14 1 0 0 20250912 144813)
 	  ((emacs
 	    (28 1)))
 	  "Integrated environment for *TeX*" tar
 	  ((:url . "https://www.gnu.org/software/auctex/")
 	   (:keywords "tex" "latex" "texinfo" "context" "doctex" "preview-latex")
 	   (:maintainer nil . "auctex-devel@gnu.org")
-	   (:commit . "9eac86706d180ff542efeed8c6d4407fdfa6bbf4"))])
+	   (:commit . "e07632d0199674ede6fcc3b517d7c29548265510"))])
  (auctex-cont-latexmk .
 		      [(0 3 0 20250115 185937)
 		       ((emacs
@@ -993,7 +993,7 @@
 		 (:url . "https://elpa.gnu.org/packages/cycle-quotes.html")
 		 (:commit . "c1ef993f8c66fec71b10d70eb7a2cd0c416aaa12"))])
  (dape .
-       [(0 24 1 0 20250911 195600)
+       [(0 24 1 0 20250912 171152)
 	((emacs
 	  (29 1))
 	 (jsonrpc
@@ -1001,7 +1001,7 @@
 	"Debug Adapter Protocol for Emacs" tar
 	((:url . "https://github.com/svaante/dape")
 	 (:maintainer "Daniel Pettersson" . "daniel@dpettersson.net")
-	 (:commit . "c0bf1fabb842079881d33245620be754f1856e49"))])
+	 (:commit . "1a4d3ed5b7dd3b71607aa6afd93333c488db276d"))])
  (darkroom .
 	   [(0 3 0 20200507 173652)
 	    ((cl-lib
@@ -3072,6 +3072,15 @@
 	     (:authors
 	      ("Michael Abraham Shulman" . "viritrilbia@gmail.com"))
 	     (:commit . "b1f5c7dbdc405e6e10d9ddd99a43a6b2ad61b176"))])
+ (mode-line-maker .
+		  [(0 1 0 20250912 174809)
+		   ((emacs
+		     (29 1)))
+		   "Mode-line helper tools" tar
+		   ((:url . "https://github.com/rougier/mode-line-maker")
+		    (:keywords "convenience" "mode-line" "header-line")
+		    (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
+		    (:commit . "19836226bb244b6294419cef0e069908285b23ef"))])
  (modus-themes .
 	       [(4 8 1 0 20250909 65533)
 		((emacs
