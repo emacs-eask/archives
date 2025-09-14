@@ -2801,6 +2801,22 @@
 		 (:maintainers
 		  ("Jason Kim" . "sukbeom.kim@gmail.com"))
 		 (:maintainer "Jason Kim" . "sukbeom.kim@gmail.com"))])
+ (async1 .
+	 [(0 1 0 1 -4 20250912 931)
+	  ((emacs
+	    (24 1))
+	   (compat
+	    (30 1)))
+	  "Unroll chain of async callbacks, parallel and sequencial" tar
+	  ((:url . "https://github.com/Anoncheg1/emacs-async1")
+	   (:commit . "2a11eee69bd23f27930cc01754c48d0806dd75c0")
+	   (:revdesc . "2a11eee69bd2")
+	   (:keywords "tools" "async" "callback" "lisp" "extensions")
+	   (:authors
+	    (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
+	   (:maintainers
+	    (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
+	   (:maintainer nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))])
  (asyncloop .
 	    [(1 2 -1 1 -4 20240818 1247)
 	     ((emacs
