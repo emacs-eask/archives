@@ -67780,7 +67780,7 @@
 	      ("Nicolas Martyanoff" . "nicolas@n16f.net"))
 	     (:maintainer "Nicolas Martyanoff" . "nicolas@n16f.net"))])
  (rg .
-     [(0 1 0 1 -4 20250625 2009)
+     [(0 1 0 1 -4 20250914 716)
       ((emacs
 	(26 1))
        (transient
@@ -67789,8 +67789,8 @@
 	(2 1 10)))
       "A search tool based on ripgrep" tar
       ((:url . "https://github.com/dajva/rg.el")
-       (:commit . "7611852b5517212a4f0fdab9cd9ecb0cf3995f08")
-       (:revdesc . "7611852b5517")
+       (:commit . "76429112cc351bb8c4f400dc039ec8ec4cf5eecb")
+       (:revdesc . "76429112cc35")
        (:keywords "matching" "tools")
        (:authors
 	("David Landell" . "david.landell@sunnyhill.email")
@@ -80540,12 +80540,14 @@
 		  ("Yi Tang" . "yi.tang.uk@me.com"))
 		 (:maintainer "Yi Tang" . "yi.tang.uk@me.com"))])
  (volatile-highlights .
-		      [(0 1 0 1 -4 20250913 33)
-		       nil "Minor mode for visual feedback on some operations" tar
-		       ((:url . "http://www.emacswiki.org/emacs/download/volatile-highlights.el")
-			(:commit . "d6ec9e1851a921bc63b9131e20d977add506074b")
-			(:revdesc . "d6ec9e1851a9")
-			(:keywords "emulations" "convenience" "wp")
+		      [(0 1 0 1 -4 20250914 613)
+		       ((emacs
+			 (24 4)))
+		       "Transient visual feedback for edits" tar
+		       ((:url . "https://github.com/k-talo/volatile-highlights.el")
+			(:commit . "dc963b75b446d7c8eb2ec5928b6f337c5883abbd")
+			(:revdesc . "dc963b75b446")
+			(:keywords "editing" "emulations" "convenience" "wp")
 			(:authors
 			 ("K-talo Miyazaki" . "KeitarodotMiyazakiatgmaildotcom"))
 			(:maintainers
