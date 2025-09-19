@@ -1237,7 +1237,7 @@
 	       ("Toby Cubitt" . "toby-predictive@dr-qubit.org"))
 	      (:commit . "a83ea986982b2d09d150456028a9f1e73658333a"))])
  (diff-hl .
-	  [(1 10 0 0 20250910 13213)
+	  [(1 10 0 0 20250918 202457)
 	   ((cl-lib
 	     (0 2))
 	    (emacs
@@ -1248,7 +1248,7 @@
 	    (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
 	    (:authors
 	     ("Dmitry Gutov" . "dmitry@gutov.dev"))
-	    (:commit . "7677f245374488f8e09b8800334fc1b1e3d27468"))])
+	    (:commit . "95e2b66a6ab65bec524bde2d833d2ff597a40941"))])
  (diffview .
 	   [(1 0 0 20230224 111651)
 	    nil "View diffs in side-by-side format" tar
@@ -1391,7 +1391,7 @@
 	    (:url . "https://elpa.gnu.org/packages/docbook.html")
 	    (:commit . "9b7c2dbae38b523442f7c1155bc4e3db16a0c49f"))])
  (doric-themes .
-	       [(0 4 0 0 20250915 45928)
+	       [(0 4 0 0 20250919 51333)
 		((emacs
 		  (29 1)))
 		"Highly legible minimalist themes with precise typography" tar
@@ -1400,7 +1400,7 @@
 		 (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		 (:commit . "07b4f7308c8a0dfd6bbb091f4fdf8ae52d52f2cf"))])
+		 (:commit . "05221eab52a991394d3d838eabaffc711dbed842"))])
  (drepl .
 	[(0 3 0 20240929 81709)
 	 ((emacs
@@ -1826,7 +1826,7 @@
 		   ("Magnar Sveen" . "magnars@gmail.com"))
 		  (:commit . "351279272330cae6cecea941b0033a8dd8bcc4e8"))])
  (expreg .
-	 [(1 4 1 0 20250827 212346)
+	 [(1 4 1 0 20250918 220913)
 	  ((emacs
 	    (29 1)))
 	  "Simple expand region" tar
@@ -1835,7 +1835,7 @@
 	   (:maintainer "Yuan Fu" . "casouri@gmail.com")
 	   (:authors
 	    ("Yuan Fu" . "casouri@gmail.com"))
-	   (:commit . "af897a63fb14f98c0e897e1ce09f052bc494ec87"))])
+	   (:commit . "53fd5a4812b77e49d3ab45fc16bb2998abaf1d86"))])
  (external-completion .
 		      [(0 1 0 20250806 111358)
 		       ((emacs
@@ -1847,7 +1847,7 @@
 			(:url . "https://elpa.gnu.org/packages/external-completion.html")
 			(:commit . "d3cd93dc4d917b6438117e82486f044e324a6088"))])
  (exwm .
-       [(0 34 0 20250829 70331)
+       [(0 34 0 20250919 75516)
 	((emacs
 	  (27 1))
 	 (xelb
@@ -1863,7 +1863,7 @@
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:authors
 	  ("Chris Feng" . "chris.w.feng@gmail.com"))
-	 (:commit . "1d68e170d58176d931200576e0322c57fa2326df"))])
+	 (:commit . "c797652bb1c52a846796db52711c338a940b99ed"))])
  (f90-interface-browser .
 			[(1 1 0 20221221 75553)
 			 ((cl-lib
@@ -4337,16 +4337,16 @@
 	      (:maintainer "Ralph Amissah" . "ralph.amissah@gmail.com")
 	      (:commit . "96ab69ba228860c99f505bc02d2917a8b607cc07"))])
  (site-lisp .
-	    [(0 1 2 0 20240308 82403)
+	    [(0 2 0 0 20250918 230122)
 	     ((emacs
 	       (25 1)))
 	     "Manage site-lisp directories" tar
-	     ((:url . "https://git.sr.ht/~pkal/site-lisp")
+	     ((:url . "https://codeberg.org/pkal/site-lisp.el")
 	      (:keywords "lisp" "local")
-	      (:maintainer "Philip Kaludercic" . "~pkal/public-inbox@lists.sr.ht")
+	      (:maintainer "Philip Kaludercic" . "philipk@posteo.net")
 	      (:authors
 	       ("Philip Kaludercic" . "philipk@posteo.net"))
-	      (:commit . "8a7f14a45e62b3dd4672cf3094baeb58716df62d"))])
+	      (:commit . "66aa2df28d319f19a36f6ae3f5f1c044cbc724e7"))])
  (sketch-mode .
 	      [(1 0 4 0 20230420 122954)
 	       nil "Quickly create svg sketches using keyboard and mouse" tar
@@ -5127,18 +5127,18 @@
 	    ("Yuan Fu" . "casouri@gmail.com"))
 	   (:commit . "be82f6048118cbc81e6e029be1965f933612d871"))])
  (vc-backup .
-	    [(1 1 0 0 20220825 144758)
+	    [(1 1 1 0 20250918 224711)
 	     ((emacs
 	       (24 3))
 	      (compat
 	       (28 1 1 0)))
 	     "VC backend for versioned backups" tar
-	     ((:url . "https://git.sr.ht/~pkal/vc-backup")
+	     ((:url . "https://codeberg.org/pkal/vc-backup.el")
 	      (:keywords "vc")
-	      (:maintainer "Philip Kaludercic" . "~pkal/public-inbox@lists.sr.ht")
+	      (:maintainer "Philip Kaludercic" . "philipk@posteo.net")
 	      (:authors
 	       ("Philip Kaludercic" . "philipk@posteo.net"))
-	      (:commit . "b88e983d6562dd369701d1924ed6860e3fe5c45d"))])
+	      (:commit . "28412c81c3b046616fd8edf82d05bb2d83d0c306"))])
  (vc-got .
 	 [(1 2 0 20250223 143804)
 	  ((emacs
