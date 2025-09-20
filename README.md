@@ -10,7 +10,7 @@
 
 Workflow automatically downloads package archives and stores them here.
 
-**NOTE:** It will refresh every `1` hour(s).
+💡 **NOTE:** It will refresh every `1` hour(s).
 
 ## ❓ Why do we need this?
 
