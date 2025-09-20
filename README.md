@@ -8,9 +8,9 @@
 
 [![Refresh](https://github.com/emacs-eask/archives/actions/workflows/refresh.yml/badge.svg)](https://github.com/emacs-eask/archives/actions/workflows/refresh.yml)
 
-Workflow automatically downloads package archives and stores them here.
+Workflow automatically downloads package archives contents and stores them here.
 
-💡 **NOTE:** It will refresh every `1` hour(s).
+💡 **NOTE:** This will refresh every `1` hour(s).
 
 ## ❓ Why do we need this?
 
