@@ -1054,15 +1054,15 @@
 	 ("Markus Sauermann" . "emacs-aes@sauermann-consulting.de"))
 	(:maintainer "Markus Sauermann" . "emacs-aes@sauermann-consulting.de"))])
  (affe .
-       [(0 1 0 1 -4 20250128 839)
+       [(0 1 0 1 -4 20250921 1712)
 	((emacs
-	  (28 1))
+	  (29 1))
 	 (consult
-	  (2 0)))
+	  (2 8)))
 	"Asynchronous Fuzzy Finder for Emacs" tar
 	((:url . "https://github.com/minad/affe")
-	 (:commit . "a1607fbc66789408128e12c9224b6a6c51d12bcb")
-	 (:revdesc . "a1607fbc6678")
+	 (:commit . "10fc401cf2d35bafb7220b9456af7dbfd064e1f2")
+	 (:revdesc . "10fc401cf2d3")
 	 (:keywords "matching" "files" "completion")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -14877,15 +14877,15 @@
 		     ("Samuel W. Flint" . "me@samuelwflint.com"))
 		    (:maintainer "Samuel W. Flint" . "me@samuelwflint.com"))])
  (departure-times-norway .
-			 [(0 1 0 1 -4 20250427 852)
+			 [(0 1 0 1 -4 20250921 1626)
 			  ((emacs
 			    (27 1))
 			   (persist
 			    (0 6 1)))
 			  "Display public transport departure times in Norway" tar
 			  ((:url . "https://github.com/hsolg/emacs-departure-times-norway")
-			   (:commit . "11448dfe9f03c1e839d398a4d406984139bb0c40")
-			   (:revdesc . "11448dfe9f03")
+			   (:commit . "3b0559bc55099cb025df63715ed9029885b64c39")
+			   (:revdesc . "3b0559bc5509")
 			   (:authors
 			    ("Henrik Solgaard" . "henrik.solgaard@gmail.com"))
 			   (:maintainers
@@ -32412,13 +32412,13 @@
 	       ("ybenel" . "root@ybenel.cf"))
 	      (:maintainer "ybenel" . "root@ybenel.cf"))])
  (goggles .
-	  [(0 1 0 1 -4 20250101 919)
+	  [(0 1 0 1 -4 20250921 1713)
 	   ((emacs
-	     (27 1)))
+	     (29 1)))
 	   "Pulse modified regions" tar
 	   ((:url . "https://github.com/minad/goggles")
-	    (:commit . "d71e85ff8d9e7f8966e4cccece3efa545afc41da")
-	    (:revdesc . "d71e85ff8d9e")
+	    (:commit . "6f87a700137c838568966bc8099dc15786897c32")
+	    (:revdesc . "6f87a700137c")
 	    (:keywords "convenience" "text")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -34278,15 +34278,15 @@
 		(:revdesc . "8c70b48fe5fb")
 		(:keywords "faces"))])
  (helm .
-       [(0 1 0 1 -4 20250917 634)
+       [(0 1 0 1 -4 20250921 1118)
 	((helm-core
 	  (4 0 6))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
-	 (:commit . "eb706b7030958da4e1a30be17f65ec82a9987268")
-	 (:revdesc . "eb706b703095")
+	 (:commit . "12c5be28813c9d7b88dce7c981234e858d4bc51f")
+	 (:revdesc . "12c5be28813c")
 	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
@@ -38489,6 +38489,20 @@
 	       (:maintainers
 		("Steve Purcell" . "steve@sanityinc.com"))
 	       (:maintainer "Steve Purcell" . "steve@sanityinc.com"))])
+ (ical-form .
+	    [(0 1 0 1 -4 20250921 1717)
+	     ((emacs
+	       (29 1)))
+	     "A widget form for editing ical events" tar
+	     ((:url . "https://github.com/haji-ali/maccalfw")
+	      (:commit . "af8eb956f0e6e10cc209c6d663d28d35cbfb6344")
+	      (:revdesc . "af8eb956f0e6")
+	      (:keywords "calendar")
+	      (:authors
+	       ("Al Haji-Ali" . "abdo.haji.aliatgmail.com"))
+	      (:maintainers
+	       ("Al Haji-Ali" . "abdo.haji.aliatgmail.com"))
+	      (:maintainer "Al Haji-Ali" . "abdo.haji.aliatgmail.com"))])
  (iceberg-theme .
 		[(1 0 1 1 -4 20220622 1)
 		 ((emacs
