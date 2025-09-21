@@ -50756,6 +50756,22 @@
 	       (:maintainers
 		("Boris Glavic" . "lordpretzel@gmail.com"))
 	       (:maintainer "Boris Glavic" . "lordpretzel@gmail.com"))])
+ (mu4e-walk .
+	    [(0 1 0 1 -4 20250915 637)
+	     ((emacs
+	       (29 1))
+	      (mu4e
+	       (1 12)))
+	     "Send email addresses for a walk" tar
+	     ((:url . "https://codeberg.org/timmli/mu4e-walk")
+	      (:commit . "f062152e50b6354d122a763947acc6b305dc66ef")
+	      (:revdesc . "f062152e50b6")
+	      (:keywords "convenience" "mail")
+	      (:authors
+	       ("Timm Lichte" . "timm.lichte@uni-tuebingen.de"))
+	      (:maintainers
+	       ("Timm Lichte" . "timm.lichte@uni-tuebingen.de"))
+	      (:maintainer "Timm Lichte" . "timm.lichte@uni-tuebingen.de"))])
  (mu4easy .
 	  [(0 1 0 1 -4 20250621 1238)
 	   ((emacs
@@ -57480,6 +57496,20 @@
 		      ("Alex Kost" . "alezost@gmail.com")
 		      ("Vitus Schäfftlein" . "vitusschaefftlein@live.de"))
 		     (:maintainer "Alex Kost" . "alezost@gmail.com"))])
+ (org-repeat-by-cron .
+		     [(0 1 0 1 -4 20250921 1534)
+		      ((emacs
+			(24 4)))
+		      "An Org mode task repeater based on Cron expressions" tar
+		      ((:url . "https://github.com/TomoeMami/org-repeat-by-cron.el")
+		       (:commit . "d3552759098d247c4bc8ecdbdb07c5637354e048")
+		       (:revdesc . "d3552759098d")
+		       (:keywords "calendar")
+		       (:authors
+			("TomoeMami" . "trembleafterme@outlook.com"))
+		       (:maintainers
+			("TomoeMami" . "trembleafterme@outlook.com"))
+		       (:maintainer "TomoeMami" . "trembleafterme@outlook.com"))])
  (org-repo-todo .
 		[(0 0 3 1 -4 20171228 119)
 		 nil "Simple repository todo management with org-mode" tar
@@ -57870,7 +57900,7 @@
 	     ("Nathan Dwarshuis" . "natedwarshuis@gmail.com"))
 	    (:maintainer "Nathan Dwarshuis" . "natedwarshuis@gmail.com"))])
  (org-srs .
-	  [(0 1 0 1 -4 20250921 1142)
+	  [(0 1 0 1 -4 20250921 1133)
 	   ((emacs
 	     (30 1))
 	    (org
@@ -57879,8 +57909,8 @@
 	     (6 0)))
 	   "A flexible spaced repetition system for Org-mode" tar
 	   ((:url . "https://github.com/bohonghuang/org-srs")
-	    (:commit . "2421e1072aeb6b19674747c9217720cbe1630102")
-	    (:revdesc . "2421e1072aeb")
+	    (:commit . "bd0d3335de9839a62c3955ede7e7b88f9442e449")
+	    (:revdesc . "bd0d3335de98")
 	    (:keywords "outlines")
 	    (:authors
 	     ("Bohong Huang" . "bohonghuang@qq.com"))
@@ -65969,13 +65999,13 @@
 		  (:authors
 		   ("myuhe" . "yuhei.maeda_at_gmail.com")))])
  (quick-sdcv .
-	     [(0 1 0 1 -4 20250909 1740)
+	     [(0 1 0 1 -4 20250921 1654)
 	      ((emacs
 		(25 1)))
 	      "Offline dictionary using 'sdcv' (StartDict cli dictionary)" tar
 	      ((:url . "https://github.com/jamescherti/quick-sdcv.el")
-	       (:commit . "35dd26a1e33d96004060ef106d77cda79a9428bc")
-	       (:revdesc . "35dd26a1e33d")
+	       (:commit . "3a7c61b8b2b61794064adc563fd56b221ae6a2bf")
+	       (:revdesc . "3a7c61b8b2b6")
 	       (:keywords "docs" "startdict" "sdcv"))])
  (quick-shell-keybind .
 		      [(0 0 2 1 -4 20230927 1036)
@@ -66936,15 +66966,15 @@
 	   ("ROCKTAKEY" . "rocktakey@gmail.com"))
 	  (:maintainer "ROCKTAKEY" . "rocktakey@gmail.com"))])
  (recursion-indicator .
-		      [(0 1 0 1 -4 20250101 924)
+		      [(0 1 0 1 -4 20250921 1714)
 		       ((emacs
-			 (28 1))
+			 (29 1))
 			(compat
 			 (30)))
 		       "Recursion indicator" tar
 		       ((:url . "https://github.com/minad/recursion-indicator")
-			(:commit . "8a828f00a42d397639397aa9051fc884eda688d3")
-			(:revdesc . "8a828f00a42d")
+			(:commit . "91140813d5f54f2ab56116914a10d1f7aae65826")
+			(:revdesc . "91140813d5f5")
 			(:keywords "convenience")
 			(:authors
 			 ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -70428,13 +70458,13 @@
 		("Ian Eure" . "ian.eure@gmail.com"))
 	       (:maintainer "Ian Eure" . "ian.eure@gmail.com"))])
  (shell-maker .
-	      [(0 1 0 1 -4 20250920 1935)
+	      [(0 1 0 1 -4 20250921 1822)
 	       ((emacs
 		 (27 1)))
 	       "Interaction mode for making comint shells" tar
 	       ((:url . "https://github.com/xenodium/shell-maker")
-		(:commit . "67bf09d291a7a497aff2446a83922dca415d147a")
-		(:revdesc . "67bf09d291a7"))])
+		(:commit . "8c59ec57b462f8abae0abf1e5cd9bbdc388412c9")
+		(:revdesc . "8c59ec57b462"))])
  (shell-pop .
 	    [(0 1 0 1 -4 20241207 1539)
 	     ((emacs
@@ -76835,6 +76865,19 @@
 	     (:maintainers
 	      ("Yagnesh Raghava Yakkala" . "hi@yagnesh.org"))
 	     (:maintainer "Yagnesh Raghava Yakkala" . "hi@yagnesh.org"))])
+ (tintin-mode .
+	      [(0 1 0 1 -4 20250919 2159)
+	       ((emacs
+		 (24 3)))
+	       "Major mode for editing TinTin++ config files" tar
+	       ((:url . "https://github.com/lesharris/tintin-mode")
+		(:commit . "88ea9a22951a748b99f5dae24e688ac74c8290e6")
+		(:revdesc . "88ea9a22951a")
+		(:authors
+		 ("Les Harris" . "les@lesharris.com"))
+		(:maintainers
+		 ("Les Harris" . "les@lesharris.com"))
+		(:maintainer "Les Harris" . "les@lesharris.com"))])
  (tiny .
        [(0 2 1 1 -4 20220910 1929)
 	nil "Quickly generate linear ranges in Emacs" tar
