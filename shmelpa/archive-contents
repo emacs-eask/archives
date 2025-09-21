@@ -11868,7 +11868,7 @@
 		      ("jgru" . "https://github.com/jgru"))
 		     (:maintainer "jgru" . "https://github.com/jgru"))])
  (consult-project-extra .
-			[(0 1 0 1 -4 20250913 1546)
+			[(0 1 0 1 -4 20250921 1440)
 			 ((emacs
 			   (28 1))
 			  (consult
@@ -11877,8 +11877,8 @@
 			   (0 8 1)))
 			 "Consult integration for project.el" tar
 			 ((:url . "https://github.com/Qkessler/consult-project-extra")
-			  (:commit . "16a1cdfd049daf5193c28d8d198fba0131a3bcde")
-			  (:revdesc . "16a1cdfd049d")
+			  (:commit . "ef4703ad51c5609d66dd9353f55b874ec820821b")
+			  (:revdesc . "ef4703ad51c5")
 			  (:keywords "convenience" "project" "management"))])
  (consult-projectile .
 		     [(0 7 1 -4 20230821 406)
@@ -13128,6 +13128,15 @@
 		       (:commit . "532dc7e4239eb4bdd241bc4347d34760344c1ebb")
 		       (:revdesc . "532dc7e4239e")
 		       (:keywords "tools" "crystal"))])
+ (crystal-point .
+		[(0 1 0 1 -4 20250915 1107)
+		 ((emacs
+		   (24 4)))
+		 "Dynamic cursor color matching face at point" tar
+		 ((:url . "https://github.com/laluxx/crystal-point")
+		  (:commit . "bd7b9aca2f6153dd7d4bf3c74e4d138c77dcc748")
+		  (:revdesc . "bd7b9aca2f61")
+		  (:keywords "convenience" "cursor" "faces"))])
  (csgo-conf-mode .
 		 [(1 0 1 -4 20161209 1619)
 		  nil "CS:GO Configuration files syntax highlighting" tar
@@ -17126,6 +17135,20 @@
 	   (:maintainers
 	    ("Julien BLANCHARD" . "julien@sideburns.eu"))
 	   (:maintainer "Julien BLANCHARD" . "julien@sideburns.eu"))])
+ (double-press .
+	       [(0 1 0 1 -4 20250916 1005)
+		((emacs
+		  (24 4)))
+		"Double-press key dispatcher" tar
+		((:url . "https://github.com/k-talo/double-press.el")
+		 (:commit . "380f7f1cab9045c9ef56b4b40c241037dc2c58d0")
+		 (:revdesc . "380f7f1cab90")
+		 (:keywords "abbrev" "convenience" "emulations" "wp")
+		 (:authors
+		  ("K-talo Miyazaki" . "Keitaro.Miyazaki@gmail.com"))
+		 (:maintainers
+		  ("K-talo Miyazaki" . "Keitaro.Miyazaki@gmail.com"))
+		 (:maintainer "K-talo Miyazaki" . "Keitaro.Miyazaki@gmail.com"))])
  (double-saber .
 	       [(0 0 3 1 -4 20190325 1917)
 		((emacs
@@ -18180,7 +18203,7 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20250919 339)
+      [(0 1 0 1 -4 20250921 1520)
        ((emacs
 	 (28 1))
 	(dash
@@ -18193,8 +18216,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "d44f29203fdc799748a854b386964927b5e5b9a9")
-	(:revdesc . "d44f29203fdc")
+	(:commit . "c1de23af94898e06417a9b2513812fea52c1bf5c")
+	(:revdesc . "c1de23af9489")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
@@ -19877,15 +19900,13 @@
 		 (:commit . "6679da9a6be5a845bb4804224c8394a9bc62168f")
 		 (:revdesc . "6679da9a6be5"))])
  (elisp-depmap .
-	       [(0 2 1 -4 20220223 1131)
+	       [(0 1 0 1 -4 20250919 1240)
 		((emacs
-		  (26 1))
-		 (dash
-		  (2 17 0)))
+		  (26 1)))
 		"Generate an elisp dependency map in graphviz" tar
-		((:url . "https://gitlab.com/mtekman/elisp-depmap.el")
-		 (:commit . "15909462e3f7daf445d3cecf402ee16c7e3263ed")
-		 (:revdesc . "15909462e3f7")
+		((:url . "https://github.com/mtekman/elisp-depmap.el")
+		 (:commit . "65afa5316506666888c0fb073505eb7e7c62c893")
+		 (:revdesc . "65afa5316506")
 		 (:keywords "outlines"))])
  (elisp-dev-mcp .
 		[(0 1 0 1 -4 20250912 334)
