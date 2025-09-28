@@ -11241,7 +11241,7 @@
 			      ("mohsin kaleem" . "mohkale@kisara.moe"))
 			     (:maintainer "mohsin kaleem" . "mohkale@kisara.moe"))])
  (compiler-explorer .
-		    [(0 1 0 1 -4 20250911 1154)
+		    [(0 1 0 1 -4 20250928 1426)
 		     ((emacs
 		       (28 1))
 		      (plz
@@ -11254,8 +11254,8 @@
 		       (2 23)))
 		     "Compiler explorer client (godbolt.org)" tar
 		     ((:url . "https://github.com/mkcms/compiler-explorer.el")
-		      (:commit . "c0b845ddcc261cca747acab62834818b68d07011")
-		      (:revdesc . "c0b845ddcc26")
+		      (:commit . "9e32e10b13a53b1fbf5471c34e4c0ea7a5db9057")
+		      (:revdesc . "9e32e10b13a5")
 		      (:keywords "c" "tools")
 		      (:authors
 		       ("Michał Krzywkowski" . "k.michal@zoho.com"))
@@ -19284,6 +19284,20 @@
 	   (:maintainers
 	    ("Nicolas Petton" . "nicolas@petton.fr"))
 	   (:maintainer "Nicolas Petton" . "nicolas@petton.fr"))])
+ (elchacha .
+	   [(0 1 0 1 -4 20250922 1827)
+	    ((emacs
+	      (25 1)))
+	    "Elisp ChaCha20 implementation" tar
+	    ((:url . "https://github.com/KeyWeeUsr/elchacha")
+	     (:commit . "e6e71b8b25eafefd23c33d0d9cb820c4eb646ff6")
+	     (:revdesc . "e6e71b8b25ea")
+	     (:keywords "convenience" "elchacha")
+	     (:authors
+	      ("Peter Badida" . "keyweeusr@gmail.com"))
+	     (:maintainers
+	      ("Peter Badida" . "keyweeusr@gmail.com"))
+	     (:maintainer "Peter Badida" . "keyweeusr@gmail.com"))])
  (elcontext .
 	    [(1 0 0 1 -4 20210109 1238)
 	     ((ht
@@ -30877,6 +30891,20 @@
 	       (:commit . "cef196abf398e2dd11f775d1e6cd8690567408aa")
 	       (:revdesc . "cef196abf398")
 	       (:keywords "git" "version control" "release management"))])
+ (git-bug .
+	  [(0 1 0 1 -4 20250927 2045)
+	   ((emacs
+	     (29 1)))
+	   "Conviences for git-bug local-first issues" tar
+	   ((:url . "http://www.github.com/WillForan/emacs-git-bug")
+	    (:commit . "a1a789eebb2b74e6d9cc73951af61e256986d670")
+	    (:revdesc . "a1a789eebb2b")
+	    (:keywords "tools" "vc" "processes")
+	    (:authors
+	     ("Will Foran" . "willforan+emacs@gmail.com"))
+	    (:maintainers
+	     ("Will Foran" . "willforan+emacs@gmail.com"))
+	    (:maintainer "Will Foran" . "willforan+emacs@gmail.com"))])
  (git-cliff .
 	    [(0 1 0 1 -4 20250216 2216)
 	     ((emacs
@@ -39897,6 +39925,23 @@
 	    (:maintainers
 	     ("Simon Lin" . "n.sibetz@gmail.com"))
 	    (:maintainer "Simon Lin" . "n.sibetz@gmail.com"))])
+ (insta-pocket .
+	       [(0 1 0 1 -4 20250921 2201)
+		((emacs
+		  (29 1))
+		 (oauth
+		  (1 11))
+		 (tablist
+		  (1 0)))
+		"Instapaper client" tar
+		((:url . "https://github.com/thanhvg/emacs-insta-pocket")
+		 (:commit . "33a735c3c5060b5e322aa4eb4e24665c01c3ba4b")
+		 (:revdesc . "33a735c3c506")
+		 (:authors
+		  ("Thanh Vuong" . "thanhvg@gmail.com"))
+		 (:maintainers
+		  ("Thanh Vuong" . "thanhvg@gmail.com"))
+		 (:maintainer "Thanh Vuong" . "thanhvg@gmail.com"))])
  (intel-hex-mode .
 		 [(0 1 3 1 -4 20180423 31)
 		  nil "Mode for Intel Hex files" tar
@@ -42774,6 +42819,20 @@
 		  (:maintainers
 		   ("Ogden Webb" . "ogdenwebb@gmail.com"))
 		  (:maintainer "Ogden Webb" . "ogdenwebb@gmail.com"))])
+ (kaomel .
+	 [(0 1 0 1 -4 20250923 1958)
+	  ((emacs
+	    (27 1)))
+	  "A snappy kaomoji picker" tar
+	  ((:url . "https://github.com/gicrisf/kaomel")
+	   (:commit . "9476f16a72e61f08f403cb4dbe860e39f1856c7a")
+	   (:revdesc . "9476f16a72e6")
+	   (:keywords "convenience" "extensions" "faces" "tools")
+	   (:authors
+	    ("Giovanni Crisalfi" . "giovanni.crisalfi@protonmail.com"))
+	   (:maintainers
+	    ("Giovanni Crisalfi" . "giovanni.crisalfi@protonmail.com"))
+	   (:maintainer "Giovanni Crisalfi" . "giovanni.crisalfi@protonmail.com"))])
  (kaomoji .
 	  [(0 1 0 1 -4 20220721 441)
 	   ((emacs
