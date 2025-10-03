@@ -1237,7 +1237,7 @@
 	       ("Toby Cubitt" . "toby-predictive@dr-qubit.org"))
 	      (:commit . "a83ea986982b2d09d150456028a9f1e73658333a"))])
  (diff-hl .
-	  [(1 10 0 0 20250927 752)
+	  [(1 10 0 0 20251002 232014)
 	   ((cl-lib
 	     (0 2))
 	    (emacs
@@ -1248,7 +1248,7 @@
 	    (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
 	    (:authors
 	     ("Dmitry Gutov" . "dmitry@gutov.dev"))
-	    (:commit . "9861c9406eccd0cd78d762113c841067adaae2db"))])
+	    (:commit . "a44db7a69a17a39d5c51bcf22de4decabf0183ad"))])
  (diffview .
 	   [(1 0 0 20230224 111651)
 	    nil "View diffs in side-by-side format" tar
@@ -1505,7 +1505,7 @@
 	 ("Eduardo Ochs" . "eduardoochs@gmail.com"))
 	(:commit . "30d2b10f85b0faef4171a7a25c7d4b5a67e5ded5"))])
  (ef-themes .
-	    [(1 11 0 0 20251002 170806)
+	    [(1 11 0 0 20251003 74330)
 	     ((emacs
 	       (28 1))
 	      (modus-themes
@@ -1516,9 +1516,9 @@
 	      (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 	      (:authors
 	       ("Protesilaos Stavrou" . "info@protesilaos.com"))
-	      (:commit . "6cc10e3508a2ad23f89a2d7dc351b2ed8bbb48a5"))])
+	      (:commit . "9a1c80573e5f6f2f7a16c348eeb109ca62eab528"))])
  (eglot .
-	[(1 18 0 20250906 134233)
+	[(1 18 0 20251003 84456)
 	 ((emacs
 	   (26 3))
 	  (eldoc
@@ -1541,7 +1541,7 @@
 	  (:maintainer "João Távora" . "joaotavora@gmail.com")
 	  (:authors
 	   ("João Távora" . "joaotavora@gmail.com"))
-	  (:commit . "5be32aa047d18b578412e8b249bb4f128a0dc207"))])
+	  (:commit . "3ec87212a4227e08ffa46ccbf2f0eb198f99c1aa"))])
  (el-job .
 	 [(2 4 8 0 20250919 161902)
 	  ((emacs
@@ -1779,7 +1779,7 @@
 		    ("Kim F. Storm -- CUA approach for C-x and C-c" . "storm@cua.dk"))
 		   (:commit . "97d856bbf081de1d387ec646d06aac7bcce3f675"))])
  (ess .
-      [(25 1 0 0 20250729 82713)
+      [(25 1 0 0 20251002 203311)
        ((emacs
 	 (25 1)))
        "Emacs Speaks Statistics" tar
@@ -1798,7 +1798,7 @@
 	 ("Vitalie Spinu" . "spinuvit@gmail.com")
 	 ("Lionel Henry" . "lionel.hry@gmail.com")
 	 ("J. Alexander Branham" . "alex.branham@gmail.com"))
-	(:commit . "8369d574f11aab5194ab3185b2a4ac0b8f0715d5"))])
+	(:commit . "9953bc00cff4665ff6127730575b0e0af585e4ab"))])
  (excorporate .
 	      [(1 1 3 0 20250627 211849)
 	       ((fsm
@@ -3097,7 +3097,7 @@
 		    (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
 		    (:commit . "19836226bb244b6294419cef0e069908285b23ef"))])
  (modus-themes .
-	       [(4 8 1 0 20251002 165740)
+	       [(4 8 1 0 20251003 74941)
 		((emacs
 		  (28 1)))
 		"Elegant, highly legible and customizable themes" tar
@@ -3106,7 +3106,7 @@
 		 (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		 (:commit . "3e091098f0292acbb1be80cf6af56adfa2ab4df1"))])
+		 (:commit . "0648760267ab85195e8f0d2ab574b845e46454d3"))])
  (mpdired .
 	  [(4 -1 0 20250502 114712)
 	   ((emacs
@@ -4292,16 +4292,16 @@
 	    (:url . "https://elpa.gnu.org/packages/shelisp.html")
 	    (:commit . "d4102dc2ab106d732289164051473ab05a90a321"))])
  (shell-command+ .
-		 [(2 4 2 0 20240912 220425)
+		 [(2 5 0 0 20250930 194048)
 		  ((emacs
 		    (24 3)))
 		  "An extended shell-command" tar
-		  ((:url . "https://git.sr.ht/~pkal/shell-command-plus")
+		  ((:url . "https://codeberg.org/pkal/shell-command-plus.el")
 		   (:keywords "unix" "processes" "convenience")
-		   (:maintainer "Philip Kaludercic" . "~pkal/public-inbox@lists.sr.ht")
+		   (:maintainer "Philip Kaludercic" . "philipk@posteo.net")
 		   (:authors
 		    ("Philip Kaludercic" . "philipk@posteo.net"))
-		   (:commit . "b5032a88c5ba54a60835e57d72a8d77f5b66aa31"))])
+		   (:commit . "fe7a0562e30fd04aca9700d451fa8a03c1d09ac0"))])
  (shell-quasiquote .
 		   [(0 0 20250316 162215)
 		    nil "Turn s-expressions into shell command strings." tar
@@ -4558,16 +4558,18 @@
 		("Christian Johansson" . "christian@cvj.se"))
 	       (:commit . "dc8882d1806c0fdd635bc625b109179dfa3c929c"))])
  (standard-themes .
-		  [(2 2 0 0 20250909 65826)
+		  [(2 2 0 0 20251003 74405)
 		   ((emacs
-		     (28 1)))
+		     (28 1))
+		    (modus-themes
+		     (4 8 1)))
 		   "Like the default theme but more consistent" tar
 		   ((:url . "https://github.com/protesilaos/standard-themes")
 		    (:keywords "faces" "theme" "accessibility")
 		    (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 		    (:authors
 		     ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		    (:commit . "ba346b4145c51a5b0a1e9ff4e5dfefbdfec00788"))])
+		    (:commit . "f26026f0b4dbe2eba74fa1ed91dede78c1a27bf0"))])
  (stream .
 	 [(2 4 0 0 20250102 122330)
 	  ((emacs
@@ -4769,6 +4771,16 @@
 	   (:authors
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	   (:commit . "79e0538f7c273a1ae73ec3f8c77563e38ed31e84"))])
+ (termint .
+	  [(0 1 0 20250908 11321)
+	   ((emacs
+	     (29 1)))
+	   "Run REPLs in a terminal backend" tar
+	   ((:url . "https://github.com/milanglacier/termint.el")
+	    (:maintainer "Milan Glacier" . "dev@milanglacier.com")
+	    (:authors
+	     ("Milan Glacier" . "dev@milanglacier.com"))
+	    (:commit . "7064689e6fdcdee1821a50b9dbf1aa09caf8b8ba"))])
  (test-simple .
 	      [(1 3 0 0 20230916 123447)
 	       ((cl-lib
@@ -4990,7 +5002,7 @@
 	  ("Toby Cubitt" . "toby-predictive@dr-qubit.org"))
 	 (:commit . "e7326a61b1cd2605867063fcfc5ddddaeed6d993"))])
  (triples .
-	  [(0 6 0 0 20250510 230302)
+	  [(0 6 0 0 20251002 234823)
 	   ((seq
 	     (2 0))
 	    (emacs
@@ -5001,7 +5013,7 @@
 	    (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
 	    (:authors
 	     ("Andrew Hyatt" . "ahyatt@gmail.com"))
-	    (:commit . "5e17182a5374a1656761bb26832fd21c6f168685"))])
+	    (:commit . "c6091fe6c0daed6e80b4718a34d7ea1ab8437b6a"))])
  (ulisp-repl .
 	     [(1 0 3 0 20230604 111559)
 	      ((emacs
