@@ -5431,6 +5431,19 @@
        (:maintainers
 	("Jo Odland" . "jo.odlandgmail.com"))
        (:maintainer "Jo Odland" . "jo.odlandgmail.com"))])
+ (bmp .
+      [(0 1 0 1 -4 20251004 847)
+       ((emacs
+	 (29)))
+       "Version bumper for git projects" tar
+       ((:url . "https://git.sr.ht/~lepisma/bmp")
+	(:commit . "63aeacf69a12aa8b47ae4d9e2d859e5d1c954012")
+	(:revdesc . "63aeacf69a12")
+	(:authors
+	 ("Abhinav Tushar" . "lepisma@fastmail.com"))
+	(:maintainers
+	 ("Abhinav Tushar" . "lepisma@fastmail.com"))
+	(:maintainer "Abhinav Tushar" . "lepisma@fastmail.com"))])
  (bmx-mode .
 	   [(0 1 1 -4 20210319 620)
 	    ((emacs
@@ -11496,15 +11509,15 @@
 		    ("Jannis Pohlmann" . "contact@jannispohlmann.de"))
 		   (:maintainer "Jannis Pohlmann" . "contact@jannispohlmann.de"))])
  (consult .
-	  [(0 1 0 1 -4 20251005 1228)
+	  [(0 1 0 1 -4 20251005 1705)
 	   ((emacs
 	     (29 1))
 	    (compat
 	     (30)))
 	   "Consulting completing-read" tar
 	   ((:url . "https://github.com/minad/consult")
-	    (:commit . "e356cd8907f891c358cb1b4c8c3d14f4539a2a9b")
-	    (:revdesc . "e356cd8907f8")
+	    (:commit . "724b9adabc6e9fdea904928f63e05cbcbf51b425")
+	    (:revdesc . "724b9adabc6e")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainers
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -18973,17 +18986,17 @@
 	       (:revdesc . "9630dfac9549")
 	       (:keywords "convenience" "languages" "tools"))])
  (ekg .
-      [(0 1 0 1 -4 20250914 210)
+      [(0 1 0 1 -4 20251005 1815)
        ((triples
-	 (0 5 1))
+	 (0 6 1))
 	(emacs
 	 (28 1))
 	(llm
 	 (0 18 0)))
        "A system for recording and linking information" tar
        ((:url . "https://github.com/ahyatt/ekg")
-	(:commit . "7d6cdfff16c0bedce1d7d8095b7571e1d98216ca")
-	(:revdesc . "7d6cdfff16c0")
+	(:commit . "2945f755bda32993add3c1700db9516027ef8bc8")
+	(:revdesc . "2945f755bda3")
 	(:keywords "outlines" "hypermedia")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
@@ -20061,6 +20074,24 @@
 		      (:maintainers
 		       ("Yinghai Zhao" . "zyinghai@gmail.com"))
 		      (:maintainer "Yinghai Zhao" . "zyinghai@gmail.com"))])
+ (elkee .
+	[(0 1 0 1 -4 20250928 2333)
+	 ((emacs
+	   (25 1))
+	  (kaesar
+	   (0 9 5))
+	  (elchacha
+	   (1 0 4)))
+	 "Keepass client" tar
+	 ((:url . "https://github.com/KeyWeeUsr/elkee")
+	  (:commit . "9caf0b086e6b4f8132163620a709de7b260b5ace")
+	  (:revdesc . "9caf0b086e6b")
+	  (:keywords "convenience" "keepass" "client")
+	  (:authors
+	   ("Peter Badida" . "keyweeusr@gmail.com"))
+	  (:maintainers
+	   ("Peter Badida" . "keyweeusr@gmail.com"))
+	  (:maintainer "Peter Badida" . "keyweeusr@gmail.com"))])
  (ellama .
 	 [(0 1 0 1 -4 20250918 1606)
 	  ((emacs
@@ -34035,6 +34066,28 @@
 	     (:maintainers
 	      ("Ilya Chernyshov" . "ichernyshovvv@gmail.com"))
 	     (:maintainer "Ilya Chernyshov" . "ichernyshovvv@gmail.com"))])
+ (hare-mode .
+	    [(0 1 0 1 -4 20251002 1915)
+	     ((emacs
+	       (25 1)))
+	     "Hare mode" tar
+	     ((:url . "https://git.sr.ht/~grafov/hare-mode")
+	      (:commit . "bd7e2e8b1437a45b60d6dc053ef26f47ec1436db")
+	      (:revdesc . "bd7e2e8b1437")
+	      (:keywords "languages")
+	      (:authors
+	       ("Benjamín Buccianti" . "benjamin@buccianti.dev")
+	       ("Amin Bandali" . "bandali@gnu.org")
+	       ("Theodor Thornhill" . "theo@thornhill.no")
+	       ("Sebastian" . "sebastian@sebsite.pw")
+	       ("Alexander Grafov" . "grafov@inet.name"))
+	      (:maintainers
+	       ("Benjamín Buccianti" . "benjamin@buccianti.dev")
+	       ("Amin Bandali" . "bandali@gnu.org")
+	       ("Theodor Thornhill" . "theo@thornhill.no")
+	       ("Sebastian" . "sebastian@sebsite.pw")
+	       ("Alexander Grafov" . "grafov@inet.name"))
+	      (:maintainer "Benjamín Buccianti" . "benjamin@buccianti.dev"))])
  (harpoon .
 	  [(0 5 1 -4 20240920 1714)
 	   ((emacs
