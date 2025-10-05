@@ -52571,15 +52571,15 @@
 	      ("Peter" . "craven@gmx.net"))
 	     (:maintainer "Peter" . "craven@gmx.net"))])
  (no-littering .
-	       [(0 1 0 1 -4 20250901 1613)
+	       [(0 1 0 1 -4 20251005 1557)
 		((emacs
 		  (26 1))
 		 (compat
 		  (30 1)))
 		"Help keeping ~/.config/emacs clean" tar
 		((:url . "https://github.com/emacscollective/no-littering")
-		 (:commit . "6e641890cd334434d0a0b576401a0f905a5b2f25")
-		 (:revdesc . "6e641890cd33")
+		 (:commit . "d476ffe49674f5885b7d7889ed9fbcdf04685773")
+		 (:revdesc . "d476ffe49674")
 		 (:keywords "convenience")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.no-littering@jonas.bernoulli.dev"))
@@ -54323,6 +54323,17 @@
 		 (:maintainers
 		  ("Kris Jenkins" . "krisajenkins@gmail.com"))
 		 (:maintainer "Kris Jenkins" . "krisajenkins@gmail.com"))])
+ (ob-ts-node .
+	     [(0 1 0 1 -4 20250929 1013)
+	      ((emacs
+		(25 1))
+	       (org
+		(8 0)))
+	      "Org-Babel support for TypeScript via ts-node" tar
+	      ((:url . "https://github.com/tmythicator/ob-ts-node")
+	       (:commit . "11e25ba2f73b56af66824f67dac167a0d5ae129e")
+	       (:revdesc . "11e25ba2f73b")
+	       (:keywords "languages" "tools"))])
  (ob-typescript .
 		[(0 1 1 -4 20231227 311)
 		 ((emacs
@@ -68929,13 +68940,13 @@
 	      ("Sune Simonsen" . "sune@we-knowhow.dk"))
 	     (:maintainer "Sune Simonsen" . "sune@we-knowhow.dk"))])
  (russian-calendar .
-		   [(0 1 0 1 -4 20251003 1441)
+		   [(0 1 0 1 -4 20251005 1815)
 		    ((emacs
 		      (29 4)))
 		    "Russian holidays and conferences. Updated 2025-09-30" tar
 		    ((:url . "https://github.com/Anoncheg1/emacs-russian-calendar")
-		     (:commit . "450472bd2969bce33ce03a5115d1bd2f5d36e95f")
-		     (:revdesc . "450472bd2969")
+		     (:commit . "a768d62a60de911dac28832d88b3e1635cb7f5b6")
+		     (:revdesc . "a768d62a60de")
 		     (:keywords "calendar" "holidays"))])
  (russian-holidays .
 		   [(0 4 1 -4 20170109 2140)
@@ -84266,6 +84277,21 @@
 		(:maintainers
 		 ("meowking" . "mr.meowking@tutamail.com"))
 		(:maintainer "meowking" . "mr.meowking@tutamail.com"))])
+ (ziggy-mode .
+	     [(0 1 0 1 -4 20250930 4)
+	      ((emacs
+		(29 1))
+	       (reformatter
+		(0 6)))
+	      "Major mode for Ziggy, a data serialization language" tar
+	      ((:url . "https://github.com/robbielyman/ziggy-mode")
+	       (:commit . "07db893782d095b95f304669b7c652f5a7888ddd")
+	       (:revdesc . "07db893782d0")
+	       (:authors
+		("2024 Robbie Lyman" . "rb.lymn@gmail.com"))
+	       (:maintainers
+		("2024 Robbie Lyman" . "rb.lymn@gmail.com"))
+	       (:maintainer "2024 Robbie Lyman" . "rb.lymn@gmail.com"))])
  (zim-wiki-mode .
 		[(0 1 0 1 -4 20250824 157)
 		 ((emacs
