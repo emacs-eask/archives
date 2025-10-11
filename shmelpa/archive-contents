@@ -21156,7 +21156,7 @@
 	   ("Dimitris Alikaniotis" . "da352[at]cam.ac.uk"))
 	  (:maintainer "Dimitris Alikaniotis" . "da352[at]cam.ac.uk"))])
  (empv .
-       [(0 1 0 1 -4 20251011 1314)
+       [(0 1 0 1 -4 20251011 1909)
 	((emacs
 	  (28 1))
 	 (s
@@ -21165,8 +21165,8 @@
 	  (29 1 4 4)))
 	"A multimedia player/manager, YouTube interface" tar
 	((:url . "https://github.com/isamert/empv.el")
-	 (:commit . "8de3e5abcdf99f76a339a386855d6c2ddd38b178")
-	 (:revdesc . "8de3e5abcdf9")
+	 (:commit . "613edbb72d21368fd994a434436c658a6d3f5904")
+	 (:revdesc . "613edbb72d21")
 	 (:authors
 	  ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
 	 (:maintainers
@@ -43210,15 +43210,15 @@
 	    (:commit . "c6955162307f37c2ac631d9daf118781009f8dda")
 	    (:revdesc . "c6955162307f"))])
  (keymap-utils .
-	       [(0 1 0 1 -4 20250913 1926)
+	       [(0 1 0 1 -4 20251011 1822)
 		((emacs
-		  (26 1))
+		  (28 1))
 		 (compat
 		  (30 1)))
 		"Keymap utilities" tar
 		((:url . "https://github.com/tarsius/keymap-utils")
-		 (:commit . "9b98459e39d5f9f8d14371c47f7070fc99dbbc68")
-		 (:revdesc . "9b98459e39d5")
+		 (:commit . "d0e5672aba7f3482414c1a87003de3d87b2cab5c")
+		 (:revdesc . "d0e5672aba7f")
 		 (:keywords "convenience" "extensions")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.keymap-utils@jonas.bernoulli.dev"))
@@ -50204,15 +50204,15 @@
 		    ("Jessie Hildebrandt" . "jessieh.net"))
 		   (:maintainer "Jessie Hildebrandt" . "jessieh.net"))])
  (moody .
-	[(0 1 0 1 -4 20250913 1927)
+	[(0 1 0 1 -4 20251011 1824)
 	 ((emacs
-	   (26 1))
+	   (28 1))
 	  (compat
 	   (30 1)))
 	 "Tabs and ribbons for the mode line" tar
 	 ((:url . "https://github.com/tarsius/moody")
-	  (:commit . "293036f57cc97aa7c085c8044d76fca481f0b54b")
-	  (:revdesc . "293036f57cc9")
+	  (:commit . "14e44212029fa6e0acb4bebf2c3092b57e9a6c56")
+	  (:revdesc . "14e44212029f")
 	  (:keywords "faces")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.moody@jonas.bernoulli.dev"))
@@ -52573,15 +52573,15 @@
 	      ("Peter" . "craven@gmx.net"))
 	     (:maintainer "Peter" . "craven@gmx.net"))])
  (no-littering .
-	       [(0 1 0 1 -4 20251005 1557)
+	       [(0 1 0 1 -4 20251011 1825)
 		((emacs
 		  (26 1))
 		 (compat
 		  (30 1)))
 		"Help keeping ~/.config/emacs clean" tar
 		((:url . "https://github.com/emacscollective/no-littering")
-		 (:commit . "d476ffe49674f5885b7d7889ed9fbcdf04685773")
-		 (:revdesc . "d476ffe49674")
+		 (:commit . "09d07714904fc6185c0cf2599aa1b29d0f49f6e3")
+		 (:revdesc . "09d07714904f")
 		 (:keywords "convenience")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.no-littering@jonas.bernoulli.dev"))
@@ -71505,11 +71505,13 @@
 	(:revdesc . "a438a9020928")
 	(:keywords "convenience"))])
  (sisyphus .
-	   [(0 1 0 1 -4 20250928 1843)
+	   [(0 1 0 1 -4 20251011 1837)
 	    ((emacs
-	      (29 1))
+	      (30 1))
 	     (compat
 	      (30 1))
+	     (cond-let
+	      (0 1))
 	     (elx
 	      (2 3))
 	     (llama
@@ -71518,8 +71520,8 @@
 	      (4 4)))
 	    "Create releases of Emacs packages" tar
 	    ((:url . "https://github.com/magit/sisyphus")
-	     (:commit . "600dd0b79881908c08fbf72872f0fa392264d548")
-	     (:revdesc . "600dd0b79881")
+	     (:commit . "c9c48d82da272818fd7532d42b90dc181fdf1b0f")
+	     (:revdesc . "c9c48d82da27")
 	     (:keywords "git" "tools" "vc")
 	     (:authors
 	      ("Jonas Bernoulli" . "emacs.sisyphus@jonas.bernoulli.dev"))
