@@ -48283,6 +48283,22 @@
 	      (:maintainers
 	       ("YiGeeker" . "zyfchinese@yeah.net"))
 	      (:maintainer "YiGeeker" . "zyfchinese@yeah.net"))])
+ (mason .
+	[(0 1 0 1 -4 20251007 1535)
+	 ((emacs
+	   (30 1))
+	  (s
+	   (1 13 0)))
+	 "Package managers for LSP, DAP, linters, and more" tar
+	 ((:url . "https://github.com/deirn/mason.el")
+	  (:commit . "71a7aa4f52ae2db103915d1dffaaa41af89d62db")
+	  (:revdesc . "71a7aa4f52ae")
+	  (:keywords "tools" "lsp" "installer")
+	  (:authors
+	   ("Dimas Firmansyah" . "deirn@bai.lol"))
+	  (:maintainers
+	   ("Dimas Firmansyah" . "deirn@bai.lol"))
+	  (:maintainer "Dimas Firmansyah" . "deirn@bai.lol"))])
  (mastodon .
 	   [(0 1 0 1 -4 20251006 1740)
 	    ((emacs
@@ -55441,6 +55457,24 @@
 		 (:commit . "da3a45f95f2e9f7281d533d1e5cec1764ae26a9c")
 		 (:revdesc . "da3a45f95f2e")
 		 (:keywords "lists" "checklists" "org-mode"))])
+ (org-aws-iam-role .
+		   [(0 1 0 1 -4 20251006 4)
+		    ((emacs
+		      (29 1))
+		     (async
+		      (1 9))
+		     (promise
+		      (1 1)))
+		    "Browse, modify, and simulate AWS IAM Roles in Org Babel" tar
+		    ((:url . "https://github.com/will-abb/org-aws-iam-role")
+		     (:commit . "b5137f07cb53166543a2291ae10bcccdfefb48fb")
+		     (:revdesc . "b5137f07cb53")
+		     (:keywords "aws" "iam" "org" "babel" "tools")
+		     (:authors
+		      ("William Bosch-Bello" . "williamsbosch@gmail.com"))
+		     (:maintainers
+		      ("William Bosch-Bello" . "williamsbosch@gmail.com"))
+		     (:maintainer "William Bosch-Bello" . "williamsbosch@gmail.com"))])
  (org-babel-eval-in-repl .
 			 [(20201206 1458 1 -4 20201206 1540)
 			  ((eval-in-repl
@@ -59366,13 +59400,13 @@
 	       ("Oscar Najera" . "hi@oscarnajera.com"))
 	      (:maintainer "Oscar Najera" . "hi@oscarnajera.com"))])
  (outli .
-	[(0 1 0 1 -4 20251012 1532)
+	[(0 1 0 1 -4 20251012 1930)
 	 ((emacs
 	   (27 1)))
 	 "Org-like code outliner" tar
 	 ((:url . "https://github.com/jdtsmith/outli")
-	  (:commit . "739bd8434ed376d2dd0bf8cd3dc3083e74d53f5b")
-	  (:revdesc . "739bd8434ed3")
+	  (:commit . "009e74c1757143040a0427f477ae882107b14592")
+	  (:revdesc . "009e74c17571")
 	  (:keywords "convenience" "outlines" "org")
 	  (:authors
 	   ("J.D. Smith" . "jdtsmith@gmail.com"))
@@ -73366,13 +73400,13 @@
 		      ("Campbell Barton" . "ideasman42@gmail.com"))
 		     (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
  (spdx .
-       [(0 1 0 1 -4 20241220 119)
+       [(0 1 0 1 -4 20251012 1917)
 	((emacs
 	  (24 4)))
 	"Insert SPDX license and copyright headers" tar
 	((:url . "https://github.com/condy0919/spdx.el")
-	 (:commit . "050971f33487a676bff4b21c82864dba7cf3b6eb")
-	 (:revdesc . "050971f33487")
+	 (:commit . "95f42d5d98c6e8cc0c583cfc645d3aef644cdc00")
+	 (:revdesc . "95f42d5d98c6")
 	 (:keywords "license" "tools")
 	 (:authors
 	  ("Zhiwei Chen" . "condy0919@gmail.com"))
