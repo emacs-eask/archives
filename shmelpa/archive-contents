@@ -15023,15 +15023,15 @@
 	    ("Stefan Kamphausen" . "www.skamphausen.de"))
 	   (:maintainer "Stefan Kamphausen" . "www.skamphausen.de"))])
  (devdocs .
-	  [(0 1 0 1 -4 20251012 1255)
+	  [(0 1 0 1 -4 20251012 1437)
 	   ((emacs
 	     (27 1))
 	    (compat
 	     (30 1)))
 	   "Emacs viewer for DevDocs" tar
 	   ((:url . "https://github.com/astoff/devdocs.el")
-	    (:commit . "0434a8b8d2e7853681472c2450fd9bd8655866a8")
-	    (:revdesc . "0434a8b8d2e7")
+	    (:commit . "a0a40cc7b0a4ed37bd146cd03737fb426863787c")
+	    (:revdesc . "a0a40cc7b0a4")
 	    (:keywords "help")
 	    (:authors
 	     ("Augusto Stoffel" . "arstoffel@gmail.com"))
@@ -20910,7 +20910,7 @@
 		("Shin Aoyama" . "smihica@gmail.com"))
 	       (:maintainer "Shin Aoyama" . "smihica@gmail.com"))])
  (emms .
-       [(0 1 0 1 -4 20251002 1442)
+       [(0 1 0 1 -4 20251012 1530)
 	((cl-lib
 	  (0 5))
 	 (nadvice
@@ -20919,8 +20919,8 @@
 	  (0)))
 	"The Emacs Multimedia System" tar
 	((:url . "https://www.gnu.org/software/emms/")
-	 (:commit . "99ebaae9f180dd6b2e5be363e709efa1da0014d6")
-	 (:revdesc . "99ebaae9f180")
+	 (:commit . "53db2bf1f0475c9404f56d67ab75edf1fdf18dfe")
+	 (:revdesc . "53db2bf1f047")
 	 (:keywords "emms" "mp3" "ogg" "flac" "music" "mpeg" "video" "multimedia")
 	 (:authors
 	  ("Jorgen Schäfer" . "forcer@forcix.cx"))
@@ -21451,7 +21451,7 @@
 	  ("Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))
 	 (:maintainer "Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))])
  (epkg-marginalia .
-		  [(0 1 0 1 -4 20251012 1200)
+		  [(0 1 0 1 -4 20251012 1349)
 		   ((emacs
 		     (28 1))
 		    (compat
@@ -21459,11 +21459,11 @@
 		    (epkg
 		     (4 1))
 		    (marginalia
-		     (2 2)))
+		     (2 3)))
 		   "Show Epkg information in completion annotations" tar
 		   ((:url . "https://github.com/emacscollective/epkg-marginalia")
-		    (:commit . "4db221508cd94916b68e0175584e545aa60c5bcb")
-		    (:revdesc . "4db221508cd9")
+		    (:commit . "7418f8e9690efa9d6821a63bf815d3b868a425ba")
+		    (:revdesc . "7418f8e9690e")
 		    (:keywords "tools")
 		    (:authors
 		     ("Jonas Bernoulli" . "emacs.epkg-marginalia@jonas.bernoulli.dev"))
@@ -51684,15 +51684,15 @@
 	     ("Taiki SUGAWARA" . "taiki@users.sourceforge.net"))
 	    (:maintainer "Taiki SUGAWARA" . "taiki@users.sourceforge.net"))])
  (navigel .
-	  [(0 1 0 1 -4 20251012 613)
+	  [(0 1 0 1 -4 20251012 1517)
 	   ((emacs
 	     (25 1))
 	    (tablist
 	     (1 0)))
 	   "Facilitate the creation of tabulated-list based UIs" tar
 	   ((:url . "https://github.com/DamienCassou/navigel")
-	    (:commit . "84b520d518a40cd4d8e91979267c43526c6e27a1")
-	    (:revdesc . "84b520d518a4")
+	    (:commit . "3dc4aa6f7aeba6d36de806cfd23ca54b437135b0")
+	    (:revdesc . "3dc4aa6f7aeb")
 	    (:authors
 	     ("Damien Cassou" . "damien@cassou.me"))
 	    (:maintainers
@@ -59352,13 +59352,13 @@
 	       ("Oscar Najera" . "hi@oscarnajera.com"))
 	      (:maintainer "Oscar Najera" . "hi@oscarnajera.com"))])
  (outli .
-	[(0 1 0 1 -4 20250403 12)
+	[(0 1 0 1 -4 20251012 1532)
 	 ((emacs
 	   (27 1)))
 	 "Org-like code outliner" tar
 	 ((:url . "https://github.com/jdtsmith/outli")
-	  (:commit . "1c2cf24aca7a6c9bc920974bd5cf70badab018de")
-	  (:revdesc . "1c2cf24aca7a")
+	  (:commit . "739bd8434ed376d2dd0bf8cd3dc3083e74d53f5b")
+	  (:revdesc . "739bd8434ed3")
 	  (:keywords "convenience" "outlines" "org")
 	  (:authors
 	   ("J.D. Smith" . "jdtsmith@gmail.com"))
@@ -60354,15 +60354,15 @@
 	      ("Ryan Davis" . "ryand-ruby@zenspider.com"))
 	     (:maintainer "Ryan Davis" . "ryand-ruby@zenspider.com"))])
  (package-build .
-		[(0 1 0 1 -4 20250807 1034)
+		[(0 1 0 1 -4 20251012 1357)
 		 ((emacs
 		   (26 1))
 		  (compat
-		   (30 0 0 0)))
+		   (30 1)))
 		 "Tools for assembling a package archive" tar
 		 ((:url . "https://github.com/melpa/package-build")
-		  (:commit . "546e7d7f119be9b0aff5c87064a8000f9a6dfc4a")
-		  (:revdesc . "546e7d7f119b")
+		  (:commit . "e4e58616fbfad6686f1de919857ee86642b04a95")
+		  (:revdesc . "e4e58616fbfa")
 		  (:keywords "maint" "tools")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
