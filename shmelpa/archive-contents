@@ -1275,7 +1275,7 @@
 	   ("Kang Tu" . "tninja@gmail.com"))
 	  (:maintainer "Kang Tu" . "tninja@gmail.com"))])
  (aidermacs .
-	    [(0 1 0 1 -4 20251014 1818)
+	    [(0 1 0 1 -4 20251017 611)
 	     ((emacs
 	       (26 1))
 	      (transient
@@ -1286,8 +1286,8 @@
 	       (2 7)))
 	     "AI pair programming with Aider" tar
 	     ((:url . "https://github.com/MatthewZMD/aidermacs")
-	      (:commit . "060748fe52a0696c7ea8f43f2cf7cdfdfd428efc")
-	      (:revdesc . "060748fe52a0")
+	      (:commit . "7fb9f4859c23f9f546490538af41cf544992e86e")
+	      (:revdesc . "7fb9f4859c23")
 	      (:keywords "ai" "emacs" "llm" "aider" "ai-pair-programming" "tools")
 	      (:authors
 	       ("Mingde Zeng" . "matthewzmd@posteo.net"))
@@ -5615,13 +5615,13 @@
 		       ("Akira Komamura" . "akira.komamura@gmail.com"))
 		      (:maintainer "Akira Komamura" . "akira.komamura@gmail.com"))])
  (bookmark-in-project .
-		      [(0 1 0 1 -4 20250921 813)
+		      [(0 1 0 1 -4 20251016 2129)
 		       ((emacs
 			 (29 1)))
 		       "Bookmark access within a project" tar
 		       ((:url . "https://codeberg.org/ideasman42/emacs-bookmark-in-project")
-			(:commit . "a15821d3acb5c010a0a309ddd5d957ea6a56a4e4")
-			(:revdesc . "a15821d3acb5")
+			(:commit . "a7321494355e3a7f661893f6fd32ef8d7f257e84")
+			(:revdesc . "a7321494355e")
 			(:keywords "convenience")
 			(:authors
 			 ("Campbell Barton" . "ideasman42@gmail.com"))
@@ -6158,13 +6158,13 @@
 		(:revdesc . "e7800b3ab1bd")
 		(:keywords "convenience"))])
  (buffer-name-relative .
-		       [(0 1 0 1 -4 20250913 2251)
+		       [(0 1 0 1 -4 20251016 2312)
 			((emacs
 			  (28 1)))
 			"Relative buffer names" tar
 			((:url . "https://codeberg.org/ideasman42/emacs-buffer-name-relative")
-			 (:commit . "f59cd8c0ecf6670da1d2a1468240d3f81663884b")
-			 (:revdesc . "f59cd8c0ecf6")
+			 (:commit . "089ef7a1ea3156f900aeb7e0674e780fd230ecda")
+			 (:revdesc . "089ef7a1ea31")
 			 (:keywords "convenience")
 			 (:authors
 			  ("Campbell Barton" . "ideasman42@gmail.com"))
@@ -6719,65 +6719,85 @@
 		     ("Kevin Brubeck Unhammer" . "unhammer@fsfe.org"))
 		    (:maintainer "Kevin Brubeck Unhammer" . "unhammer@fsfe.org"))])
  (calfw .
-	[(1 6 1 -4 20180118 45)
-	 nil "Calendar view framework on Emacs" tar
-	 ((:url . "https://github.com/kiwanami/emacs-calfw")
-	  (:commit . "03abce97620a4a7f7ec5f911e669da9031ab9088")
-	  (:revdesc . "03abce97620a")
+	[(0 1 0 1 -4 20251018 1232)
+	 ((emacs
+	   (28 1)))
+	 "Calendar view framework" tar
+	 ((:url . "https://github.com/haji-ali/emacs-calfw")
+	  (:commit . "c6f2fcdccfbc4b944f341ec873c0b148eee0a0fe")
+	  (:revdesc . "c6f2fcdccfbc")
 	  (:keywords "calendar")
 	  (:authors
 	   ("SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))
 	  (:maintainers
-	   ("SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))
-	  (:maintainer "SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))])
+	   ("Al Haji-Ali" . "abdo.haji.aliatgmail.com"))
+	  (:maintainer "Al Haji-Ali" . "abdo.haji.aliatgmail.com"))])
  (calfw-cal .
-	    [(0 1 0 1 -4 20170411 220)
-	     nil "Calendar view for emacs diary" tar
-	     ((:url . "https://github.com/kiwanami/emacs-calfw")
-	      (:commit . "c538d3746449b4f0e16b16aad3073d4f7379d805")
-	      (:revdesc . "c538d3746449")
-	      (:keywords "calendar")
-	      (:authors
-	       ("SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))
-	      (:maintainers
-	       ("SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))
-	      (:maintainer "SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))])
- (calfw-howm .
-	     [(0 1 0 1 -4 20170704 4)
-	      nil "Calendar view for howm" tar
-	      ((:url . "https://github.com/kiwanami/emacs-calfw")
-	       (:commit . "bcfc0c546c3c58e1f635a9a29efdf56c9421a3ce")
-	       (:revdesc . "bcfc0c546c3c")
-	       (:keywords "calendar")
-	       (:authors
-		("SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))
-	       (:maintainers
-		("SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))
-	       (:maintainer "SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))])
- (calfw-ical .
-	     [(0 1 0 1 -4 20170411 220)
-	      nil "Calendar view for ical format" tar
-	      ((:url . "https://github.com/kiwanami/emacs-calfw")
-	       (:commit . "c538d3746449b4f0e16b16aad3073d4f7379d805")
-	       (:revdesc . "c538d3746449")
-	       (:keywords "calendar")
-	       (:authors
-		("SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))
-	       (:maintainers
-		("SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))
-	       (:maintainer "SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))])
- (calfw-org .
-	    [(0 1 0 1 -4 20170411 220)
-	     nil "Calendar view for org-agenda" tar
-	     ((:url . "https://github.com/kiwanami/emacs-calfw")
-	      (:commit . "c538d3746449b4f0e16b16aad3073d4f7379d805")
-	      (:revdesc . "c538d3746449")
+	    [(0 1 0 1 -4 20251018 646)
+	     ((emacs
+	       (28 1))
+	      (calfw
+	       (2 0)))
+	     "Calendar view for diary" tar
+	     ((:url . "https://github.com/haji-ali/emacs-calfw")
+	      (:commit . "52ae145313f5ecbf91e7494386553e64d058c92c")
+	      (:revdesc . "52ae145313f5")
 	      (:keywords "calendar" "org")
 	      (:authors
 	       ("SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))
 	      (:maintainers
+	       ("Al Haji-Ali" . "abdo.haji.aliatgmail.com"))
+	      (:maintainer "Al Haji-Ali" . "abdo.haji.aliatgmail.com"))])
+ (calfw-howm .
+	     [(0 1 0 1 -4 20251018 646)
+	      ((emacs
+		(28 1))
+	       (calfw
+		(2 0))
+	       (howm
+		(1 5 0)))
+	      "Calendar view for howm" tar
+	      ((:url . "https://github.com/haji-ali/emacs-calfw")
+	       (:commit . "52ae145313f5ecbf91e7494386553e64d058c92c")
+	       (:revdesc . "52ae145313f5")
+	       (:keywords "calendar")
+	       (:authors
+		("SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))
+	       (:maintainers
+		("Al Haji-Ali" . "abdo.haji.aliatgmail.com"))
+	       (:maintainer "Al Haji-Ali" . "abdo.haji.aliatgmail.com"))])
+ (calfw-ical .
+	     [(0 1 0 1 -4 20251018 646)
+	      ((emacs
+		(28 1))
+	       (calfw
+		(2 0)))
+	      "Calendar view for ical format" tar
+	      ((:url . "https://github.com/haji-ali/emacs-calfw")
+	       (:commit . "52ae145313f5ecbf91e7494386553e64d058c92c")
+	       (:revdesc . "52ae145313f5")
+	       (:keywords "calendar" "ical")
+	       (:authors
+		("SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))
+	       (:maintainers
+		("Al Haji-Ali" . "abdo.haji.aliatgmail.com"))
+	       (:maintainer "Al Haji-Ali" . "abdo.haji.aliatgmail.com"))])
+ (calfw-org .
+	    [(0 1 0 1 -4 20251018 1103)
+	     ((emacs
+	       (28 1))
+	      (calfw
+	       (2 0)))
+	     "Calendar view for org-agenda" tar
+	     ((:url . "https://github.com/haji-ali/emacs-calfw")
+	      (:commit . "98279aa29c159159da75c0a990778d848278c482")
+	      (:revdesc . "98279aa29c15")
+	      (:keywords "calendar" "org")
+	      (:authors
 	       ("SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))
-	      (:maintainer "SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))])
+	      (:maintainers
+	       ("Al Haji-Ali" . "abdo.haji.aliatgmail.com"))
+	      (:maintainer "Al Haji-Ali" . "abdo.haji.aliatgmail.com"))])
  (calibredb .
 	    [(0 1 0 1 -4 20250913 1233)
 	     ((emacs
@@ -7643,7 +7663,7 @@
 	     ("Anan Mikami" . "lateau@gmail.com"))
 	    (:maintainer "Anan Mikami" . "lateau@gmail.com"))])
  (chatgpt-shell .
-		[(0 1 0 1 -4 20251005 1215)
+		[(0 1 0 1 -4 20251017 1134)
 		 ((emacs
 		   (28 1))
 		  (shell-maker
@@ -7652,8 +7672,8 @@
 		   (0 9 3)))
 		 "A family of utilities to interact with LLMs (ChatGPT, Claude, DeepSeek, Gemini, Kagi, Ollama, Perplexity)" tar
 		 ((:url . "https://github.com/xenodium/chatgpt-shell")
-		  (:commit . "1a86193a519b1429b14972da49be20beb446affc")
-		  (:revdesc . "1a86193a519b"))])
+		  (:commit . "418dbcdecbe9308cdabe799e8921ee159d9e1943")
+		  (:revdesc . "418dbcdecbe9"))])
  (chatu .
 	[(0 1 0 1 -4 20250425 645)
 	 ((org
@@ -8077,7 +8097,7 @@
 		 ("Adam Chyła https://chyla.org/" . "adam@chyla.org"))
 		(:maintainer "Adam Chyła https://chyla.org/" . "adam@chyla.org"))])
  (cider .
-	[(0 1 0 1 -4 20250902 1530)
+	[(0 1 0 1 -4 20251018 404)
 	 ((emacs
 	   (27))
 	  (clojure-mode
@@ -8096,8 +8116,8 @@
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
 	 ((:url . "https://www.github.com/clojure-emacs/cider")
-	  (:commit . "af63db156a89fc77a35b0f8a3c1ccddcfbf9af84")
-	  (:revdesc . "af63db156a89")
+	  (:commit . "5e818d32c1e5d671f0ec816d4f73446b58559c0d")
+	  (:revdesc . "5e818d32c1e5")
 	  (:keywords "languages" "clojure" "cider")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
@@ -11191,13 +11211,13 @@
 				      ("Seong Yong-ju" . "sei40kr@gmail.com"))
 				     (:maintainer "Seong Yong-ju" . "sei40kr@gmail.com"))])
  (compile-angel .
-		[(0 1 0 1 -4 20250905 2104)
+		[(0 1 0 1 -4 20250906 2057)
 		 ((emacs
 		   (26 3)))
 		 "Automatically Compile Elisp files (auto-compile alternative)" tar
 		 ((:url . "https://github.com/jamescherti/compile-angel.el")
-		  (:commit . "59b03b6ff55b3f07d9b42739cf35ac0de7775a99")
-		  (:revdesc . "59b03b6ff55b")
+		  (:commit . "2a3bd66acc7636bdc8c4c3bd244dfc96801fc8e5")
+		  (:revdesc . "2a3bd66acc76")
 		  (:keywords "convenience"))])
  (compile-multi .
 		[(0 1 0 1 -4 20250831 1542)
@@ -18226,7 +18246,7 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20251016 117)
+      [(0 1 0 1 -4 20251016 1700)
        ((emacs
 	 (28 1))
 	(dash
@@ -18239,8 +18259,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "9005c83bcbb678266c255a488df5abba60d9f18f")
-	(:revdesc . "9005c83bcbb6")
+	(:commit . "26bd0b199e1e58c197ab9333183d8b3a8a5fde1e")
+	(:revdesc . "26bd0b199e1e")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
@@ -18910,13 +18930,13 @@
 	 ("Kuangdash" . "kuangdashAT163.com"))
 	(:maintainer "Feng Shu" . "tumashuAT163.com"))])
  (eide .
-       [(0 1 0 1 -4 20251003 1847)
+       [(0 1 0 1 -4 20251017 1937)
 	((emacs
 	  (26 1)))
 	"IDE features made available out of the box" tar
 	((:url . "https://software.hjuvi.fr.eu.org/eide/")
-	 (:commit . "0f0ebce80f0feb718b84115b05ed45ec5dfe5b81")
-	 (:revdesc . "0f0ebce80f0f")
+	 (:commit . "a5b47c5d0a19441359e0ad0de5f2fe3f61f671fa")
+	 (:revdesc . "a5b47c5d0a19")
 	 (:authors
 	  ("Cédric Marie" . "cedric@hjuvi.fr.eu.org"))
 	 (:maintainers
@@ -18986,7 +19006,7 @@
 	       (:revdesc . "9630dfac9549")
 	       (:keywords "convenience" "languages" "tools"))])
  (ekg .
-      [(0 1 0 1 -4 20251013 39)
+      [(0 1 0 1 -4 20251017 248)
        ((triples
 	 (0 6 1))
 	(emacs
@@ -18995,8 +19015,8 @@
 	 (0 18 0)))
        "A system for recording and linking information" tar
        ((:url . "https://github.com/ahyatt/ekg")
-	(:commit . "19fb53f3463e9c395097a0fce861ae2b3ca04749")
-	(:revdesc . "19fb53f3463e")
+	(:commit . "99188e78a061a8d05a33e07bbad3d8f16740446d")
+	(:revdesc . "99188e78a061")
 	(:keywords "outlines" "hypermedia")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
@@ -32933,7 +32953,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20251016 629)
+	[(0 1 0 1 -4 20251018 606)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -32942,8 +32962,8 @@
 	   (30 1 0 0)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "18effe5365ca1e7b96a884aaa57f337fd0fb25cb")
-	  (:revdesc . "18effe5365ca")
+	  (:commit . "2c7c88ea42e7b2d7771be35438e521d6c7de589d")
+	  (:revdesc . "2c7c88ea42e7")
 	  (:keywords "convenience" "tools")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -34366,15 +34386,15 @@
 		(:revdesc . "8c70b48fe5fb")
 		(:keywords "faces"))])
  (helm .
-       [(0 1 0 1 -4 20251015 504)
+       [(0 1 0 1 -4 20251016 1504)
 	((helm-core
 	  (4 0 6))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
-	 (:commit . "be67b55898a52a779b30239a54765ec910a71cc1")
-	 (:revdesc . "be67b55898a5")
+	 (:commit . "d40f21140fa70441ffd115ffa5aa08cba6a9f68b")
+	 (:revdesc . "d40f21140fa7")
 	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
@@ -34850,15 +34870,15 @@
 		  ("Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com"))
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com"))])
  (helm-core .
-	    [(0 1 0 1 -4 20251015 1927)
+	    [(0 1 0 1 -4 20251017 347)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 9)))
 	     "Development files for Helm" tar
 	     ((:url . "https://emacs-helm.github.io/helm/")
-	      (:commit . "7ecd4b904b3f27285244e19528fea3dbd11f94b9")
-	      (:revdesc . "7ecd4b904b3f")
+	      (:commit . "2c15041acb04074e7b12b4b1ec8c356d707a702a")
+	      (:revdesc . "2c15041acb04")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainers
@@ -38256,13 +38276,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20251016 801)
+	    [(0 1 0 1 -4 20251018 821)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "85fcec41239f0ba75aac10570e28a77505f9e60c")
-	      (:revdesc . "85fcec41239f")
+	      (:commit . "0b829ed0e1e03765deca2b0c4f6e44b25c1997f5")
+	      (:revdesc . "0b829ed0e1e0")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -38973,11 +38993,11 @@
 	      ("Taichi" . "kawabata.taichi_at_gmail.com"))
 	     (:maintainer "Taichi" . "kawabata.taichi_at_gmail.com"))])
  (iedit .
-	[(0 1 0 1 -4 20251013 1148)
+	[(0 1 0 1 -4 20251017 410)
 	 nil "Edit multiple regions in the same way simultaneously" tar
 	 ((:url . "https://github.com/victorhge/iedit")
-	  (:commit . "b4bffe2abbd021c6fd3f2e361ca89dd211080b1d")
-	  (:revdesc . "b4bffe2abbd0")
+	  (:commit . "7e513d573c6a5dd2a01aeeb1d8587d74630a2f80")
+	  (:revdesc . "7e513d573c6a")
 	  (:keywords "occurrence" "region" "simultaneous" "refactoring")
 	  (:authors
 	   ("Victor Ren" . "victorhge@gmail.com"))
@@ -41962,13 +41982,13 @@
 	       ("Jakob Lind" . "karl.jakob.lind@gmail.com"))
 	      (:maintainer "Jakob Lind" . "karl.jakob.lind@gmail.com"))])
  (js-pkg-mode .
-	      [(0 1 0 1 -4 20250803 534)
+	      [(0 1 0 1 -4 20251017 936)
 	       ((emacs
 		 (25 1)))
 	       "Minor mode for working with javascript projects" tar
 	       ((:url . "https://github.com/ovistoica/js-pkg-mode")
-		(:commit . "4ada384f7f83e227b829223576f02ba51ba06fd1")
-		(:revdesc . "4ada384f7f83")
+		(:commit . "4d7248b829b62c7ed8509c13bd959e78466bef77")
+		(:revdesc . "4d7248b829b6")
 		(:keywords "convenience" "project" "javascript" "package-manager")
 		(:authors
 		 ("Ovi Stoica" . "ovidiu.stoica1094@gmail.com"))
@@ -45143,7 +45163,7 @@
 	       ("Fox Kiester" . "noct@posteo.net"))
 	      (:maintainer "Fox Kiester" . "noct@posteo.net"))])
  (linkin-org .
-	     [(0 1 0 1 -4 20251014 1231)
+	     [(0 1 0 1 -4 20251017 839)
 	      ((emacs
 		(30 1))
 	       (s
@@ -45152,8 +45172,8 @@
 		(2 20 0)))
 	      "A workflow with fast, reliable links" tar
 	      ((:url . "https://github.com/Judafa/linkin-org")
-	       (:commit . "ba7a556321d960da232a7ebb1593e058ef6f1d77")
-	       (:revdesc . "ba7a556321d9")
+	       (:commit . "92f39cf41412a862dd19ddccb89ea92ea2d69ef4")
+	       (:revdesc . "92f39cf41412")
 	       (:authors
 		("Julien Dallot" . "judafa@protonmail.com"))
 	       (:maintainers
@@ -46441,7 +46461,7 @@
 		("Evgeny Kurnevsky" . "kurnevsky@gmail.com"))
 	       (:maintainer "Ross A. Baker" . "ross@rossabaker.com"))])
  (lsp-mode .
-	   [(0 1 0 1 -4 20251002 2344)
+	   [(0 1 0 1 -4 20251017 725)
 	    ((emacs
 	      (28 1))
 	     (dash
@@ -46460,8 +46480,8 @@
 	      (1 11)))
 	    "LSP mode" tar
 	    ((:url . "https://github.com/emacs-lsp/lsp-mode")
-	     (:commit . "aec6ae4186afec395d89008764dbccbb73633fd3")
-	     (:revdesc . "aec6ae4186af")
+	     (:commit . "a16510e1292bac6773e36faec05df50af5d4c3d7")
+	     (:revdesc . "a16510e1292b")
 	     (:keywords "languages"))])
  (lsp-mssql .
 	    [(0 1 0 1 -4 20250825 542)
@@ -47046,7 +47066,7 @@
 	       (:revdesc . "069a1d630f63")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20251014 1031)
+	[(0 1 0 1 -4 20251018 1333)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -47065,8 +47085,8 @@
 	   (3 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "128258ca93b7dfc7f6ddc9763f01e99c5d0d841f")
-	  (:revdesc . "128258ca93b7")
+	  (:commit . "b5a7be92a4fd1af053f9798340bb1cad2391a16f")
+	  (:revdesc . "b5a7be92a4fd")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -48336,13 +48356,13 @@
 		      ("Enrico Flor" . "enrico@eflor.net"))
 		     (:maintainer "Enrico Flor" . "enrico@eflor.net"))])
  (matlab-mode .
-	      [(0 1 0 1 -4 20251001 1413)
+	      [(0 1 0 1 -4 20251016 2044)
 	       ((emacs
 		 (27 2)))
 	       "Major mode for MATLAB(R) dot-m files" tar
 	       ((:url . "https://github.com/mathworks/Emacs-MATLAB-Mode")
-		(:commit . "aca9a75c24848e95a2f11894d4ef2efc539bf588")
-		(:revdesc . "aca9a75c2484")
+		(:commit . "33673b5b7caf56f064108af5a39b9fadba02ac31")
+		(:revdesc . "33673b5b7caf")
 		(:keywords "matlab(r)")
 		(:authors
 		 ("Matt Wette" . "mwette@alumni.caltech.edu")
@@ -50064,13 +50084,13 @@
 	   ("Anantha kumaran" . "ananthakumaran@gmail.com"))
 	  (:maintainer "Anantha kumaran" . "ananthakumaran@gmail.com"))])
  (mono-complete .
-		[(0 1 0 1 -4 20250913 2251)
+		[(0 1 0 1 -4 20251016 2317)
 		 ((emacs
 		   (29 1)))
 		 "Completion suggestions with multiple back-ends" tar
 		 ((:url . "https://codeberg.org/ideasman42/emacs-mono-complete")
-		  (:commit . "6a641e3ece7286a4e84b29313b689b55379670ed")
-		  (:revdesc . "6a641e3ece72")
+		  (:commit . "0c09e3a295515d58150d2f404aeec9f011b7361a")
+		  (:revdesc . "0c09e3a29551")
 		  (:authors
 		   ("Campbell Barton" . "ideasman42@gmail.com"))
 		  (:maintainers
@@ -58034,7 +58054,7 @@
 	     ("Nathan Dwarshuis" . "natedwarshuis@gmail.com"))
 	    (:maintainer "Nathan Dwarshuis" . "natedwarshuis@gmail.com"))])
  (org-srs .
-	  [(0 1 0 1 -4 20250921 1133)
+	  [(0 1 0 1 -4 20251018 827)
 	   ((emacs
 	     (30 1))
 	    (org
@@ -58043,8 +58063,8 @@
 	     (6 0)))
 	   "A flexible spaced repetition system for Org-mode" tar
 	   ((:url . "https://github.com/bohonghuang/org-srs")
-	    (:commit . "d5cfa9964da631273af9c57aba444cb877efd14e")
-	    (:revdesc . "d5cfa9964da6")
+	    (:commit . "2777e521ea5833bfa6da6c6f1fdebf9b7dd2cedb")
+	    (:revdesc . "2777e521ea58")
 	    (:keywords "outlines")
 	    (:authors
 	     ("Bohong Huang" . "bohonghuang@qq.com"))
@@ -59009,13 +59029,13 @@
 	     (:revdesc . "67f4f6171675")
 	     (:keywords "lisp" "org" "org-mode" "bootstrap"))])
  (orgtbl-aggregate .
-		   [(0 1 0 1 -4 20251009 1306)
+		   [(0 1 0 1 -4 20251018 917)
 		    ((emacs
 		      (26 1)))
 		    "Aggregate an Org Mode table | + | + | into another table" tar
 		    ((:url . "https://github.com/tbanel/orgaggregate/blob/master/README.org")
-		     (:commit . "cea1e05009aa6608e1ed627efa1746930d857703")
-		     (:revdesc . "cea1e05009aa")
+		     (:commit . "0174d4bc65fc8cb8895a65fa5640aada3dda442c")
+		     (:revdesc . "0174d4bc65fc")
 		     (:keywords "data" "extensions"))])
  (orgtbl-ascii-plot .
 		    [(1 1 1 -4 20230122 816)
@@ -59145,15 +59165,15 @@
 		("xristos" . "xristos@sdf.org"))
 	       (:maintainer "xristos" . "xristos@sdf.org"))])
  (osm .
-      [(0 1 0 1 -4 20251013 1020)
+      [(0 1 0 1 -4 20251017 1515)
        ((emacs
 	 (29 1))
 	(compat
 	 (30)))
        "OpenStreetMap viewer" tar
        ((:url . "https://github.com/minad/osm")
-	(:commit . "ebde926c159c6adbf72540d3067bcd88cbbf0247")
-	(:revdesc . "ebde926c159c")
+	(:commit . "7641bf620bf20b71908702e91c0a5e82a103b196")
+	(:revdesc . "7641bf620bf2")
 	(:keywords "network" "multimedia" "hypermedia" "mouse")
 	(:authors
 	 ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -63716,7 +63736,7 @@
 	 ("Naoya Yamashita" . "conao3@gmail.com"))
 	(:maintainer "Naoya Yamashita" . "conao3@gmail.com"))])
  (pr-review .
-	    [(0 1 0 1 -4 20250518 311)
+	    [(0 1 0 1 -4 20251016 1540)
 	     ((emacs
 	       (27 1))
 	      (magit-section
@@ -63729,8 +63749,8 @@
 	       (3 5)))
 	     "Review github PR" tar
 	     ((:url . "https://github.com/blahgeek/emacs-pr-review")
-	      (:commit . "469e2e1f0f111773899627f81ae433f6ec14e5b5")
-	      (:revdesc . "469e2e1f0f11")
+	      (:commit . "d893429168b87003a99bf567932dce57fdac93fa")
+	      (:revdesc . "d893429168b8")
 	      (:keywords "tools")
 	      (:authors
 	       ("Yikai Zhao" . "yikai@z1k.dev"))
@@ -66578,13 +66598,13 @@
 	 ("Joe Heyming" . "joeheyming@gmail.com"))
 	(:maintainer "Joe Heyming" . "joeheyming@gmail.com"))])
  (rbtagger .
-	   [(0 3 4 1 -4 20211026 2318)
+	   [(0 1 0 1 -4 20251017 2117)
 	    ((emacs
 	      (25 1)))
 	    "Ruby tagging tools" tar
 	    ((:url . "https://www.github.com/thiagoa/rbtagger")
-	     (:commit . "351c4006ddacc2f66e6ff8c79d981613e9a8bd22")
-	     (:revdesc . "351c4006ddac")
+	     (:commit . "a7d6442253f68f8357a8119980c46def861a217f")
+	     (:revdesc . "a7d6442253f6")
 	     (:keywords "languages" "tools")
 	     (:authors
 	      ("Thiago Araújo" . "thiagoaraujos@gmail.com"))
@@ -71925,14 +71945,14 @@
 	       (:commit . "4e6ac09245313cf4018b8e5784b2fca8604269d7")
 	       (:revdesc . "4e6ac0924531"))])
  (slurpbarf .
-	    [(0 1 0 1 -4 20251009 1510)
+	    [(0 1 0 1 -4 20251018 1457)
 	     ((emacs
 	       (29 1)))
 	     "Commands for slurping and barfing" tar
 	     ((:url . "https://codeberg.org/vilij/slurpbarf-elcute")
-	      (:commit . "cc3237983a9cbd2f1af20c5ae99ecb0a77f42361")
-	      (:revdesc . "cc3237983a9c")
-	      (:keywords "convenience"))])
+	      (:commit . "2fc0cdc2db54d87ca957ebb1541f7804b84f5d29")
+	      (:revdesc . "2fc0cdc2db54")
+	      (:keywords "convenience" "lisp" "nxml"))])
  (sly .
       [(0 1 0 1 -4 20250930 913)
        ((emacs
@@ -76555,13 +76575,13 @@
 	    ("Jakub Kadlčík" . "frostyx@email.cz"))
 	   (:maintainer "Jakub Kadlčík" . "frostyx@email.cz"))])
  (the-matrix-theme .
-		   [(1 4 1 -4 20240429 920)
+		   [(0 1 0 1 -4 20251018 1519)
 		    ((emacs
 		      (26 1)))
 		    "Green-on-black dark theme inspired by \"The Matrix\" movie" tar
 		    ((:url . "https://github.com/monkeyjunglejuice/matrix-emacs-theme")
-		     (:commit . "d0c7fd3584c07952de26a5ae44ca6159f1960bb7")
-		     (:revdesc . "d0c7fd3584c0")
+		     (:commit . "71110ded9ccd138550b8b4c3e48fb37a815ff034")
+		     (:revdesc . "71110ded9ccd")
 		     (:keywords "faces" "theme")
 		     (:authors
 		      ("Dan Dee" . "monkeyjunglejuice@pm.me"))
@@ -84286,20 +84306,20 @@
 		 ("meowking" . "mr.meowking@tutamail.com"))
 		(:maintainer "meowking" . "mr.meowking@tutamail.com"))])
  (ziggy-mode .
-	     [(0 1 0 1 -4 20250930 4)
+	     [(0 1 0 1 -4 20251017 527)
 	      ((emacs
 		(29 1))
 	       (reformatter
 		(0 6)))
 	      "Major mode for Ziggy, a data serialization language" tar
-	      ((:url . "https://github.com/robbielyman/ziggy-mode")
-	       (:commit . "07db893782d095b95f304669b7c652f5a7888ddd")
-	       (:revdesc . "07db893782d0")
+	      ((:url . "https://github.com/dcolazin/ziggy-mode")
+	       (:commit . "5b42008a022ae1d9221add6f57ce65715d7f9947")
+	       (:revdesc . "5b42008a022a")
 	       (:authors
 		("2024 Robbie Lyman" . "rb.lymn@gmail.com"))
 	       (:maintainers
-		("2024 Robbie Lyman" . "rb.lymn@gmail.com"))
-	       (:maintainer "2024 Robbie Lyman" . "rb.lymn@gmail.com"))])
+		("Davide Colazingari" . "dcolazin@gmail.com"))
+	       (:maintainer "Davide Colazingari" . "dcolazin@gmail.com"))])
  (zim-wiki-mode .
 		[(0 1 0 1 -4 20250824 157)
 		 ((emacs
