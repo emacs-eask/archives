@@ -1134,6 +1134,20 @@
 			(:maintainers
 			 ("Musa Al-hassy" . "alhassy@gmail.com"))
 			(:maintainer "Musa Al-hassy" . "alhassy@gmail.com"))])
+ (agda-lib-mode .
+		[(0 1 0 1 -4 20251013 2307)
+		 ((emacs
+		   (24 3)))
+		 "Major mode for Agda library files" tar
+		 ((:url . "https://codeberg.org/heraplem/agda-lib-mode")
+		  (:commit . "1cf7d486753887736eef6cae2688b2a05f9c1854")
+		  (:revdesc . "1cf7d4867538")
+		  (:keywords "text")
+		  (:authors
+		   ("Nicholas Coltharp" . "mail@heraplem.xyz"))
+		  (:maintainers
+		   ("Nicholas Coltharp" . "mail@heraplem.xyz"))
+		  (:maintainer "Nicholas Coltharp" . "mail@heraplem.xyz"))])
  (age .
       [(0 1 0 1 -4 20250806 1723)
        ((emacs
@@ -6706,6 +6720,20 @@
 		    (:commit . "190acfda56660a2d75df2d9eac5b14edaccccd80")
 		    (:revdesc . "190acfda5666")
 		    (:keywords "tools" "convenience"))])
+ (calctape .
+	   [(0 1 0 1 -4 20251016 857)
+	    ((emacs
+	      (29 1)))
+	    "Adding-machine, tape calculator, column sum-mer" tar
+	    ((:url . "https://github.com/Boruch-Baum/emacs-calctape")
+	     (:commit . "4fe05aa8d0071c7e057cec9985dd5bab65c3380c")
+	     (:revdesc . "4fe05aa8d007")
+	     (:keywords "convenience" "data")
+	     (:authors
+	      ("Boruch Baum" . "boruch_baum@gmx.com"))
+	     (:maintainers
+	      ("Boruch Baum" . "boruch_baum@gmx.com"))
+	     (:maintainer "Boruch Baum" . "boruch_baum@gmx.com"))])
  (calendar-norway .
 		  [(0 9 5 1 -4 20220211 1129)
 		   nil "Norwegian calendar" tar
@@ -19465,6 +19493,24 @@
 	       (:maintainers
 		("Thierry Volpiatto" . "thievol@posteo.net"))
 	       (:maintainer "Thierry Volpiatto" . "thievol@posteo.net"))])
+ (eldoc-mouse .
+	      [(0 1 0 1 -4 20251015 1027)
+	       ((emacs
+		 (30 1))
+		(posframe
+		 (1 4 0))
+		(eglot
+		 (1 8)))
+	       "Display documentation for mouse hover" tar
+	       ((:url . "https://github.com/huangfeiyu/eldoc-mouse")
+		(:commit . "9ca2aec75f724061eae11aec013f0b0c7b2b7703")
+		(:revdesc . "9ca2aec75f72")
+		(:keywords "tools" "languages" "convenience" "emacs" "mouse" "hover")
+		(:authors
+		 (nil . "HuangFeiyusibadake1@163.com"))
+		(:maintainers
+		 (nil . "HuangFeiyusibadake1@163.com"))
+		(:maintainer nil . "HuangFeiyusibadake1@163.com"))])
  (eldoc-overlay .
 		[(0 1 1 1 -4 20230406 959)
 		 ((emacs
