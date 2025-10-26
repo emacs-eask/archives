@@ -3493,6 +3493,20 @@
 			       (:maintainers
 				("Kentaro Kuribayashi" . "kentarok@gmail.com"))
 			       (:maintainer "Kentaro Kuribayashi" . "kentarok@gmail.com"))])
+ (auto-save-visited-local-mode .
+			       [(0 1 0 1 -4 20251021 1126)
+				((emacs
+				  (26 1)))
+				"Buffer-local auto-save for visited files" tar
+				((:url . "https://github.com/pierrelegall/auto-save-visited-local-mode")
+				 (:commit . "78a46d8a02360b4c63e45496bd32efe351459c81")
+				 (:revdesc . "78a46d8a0236")
+				 (:keywords "convenience" "files" "autosave")
+				 (:authors
+				  ("Pierre Le Gall" . "pierre@legall.im"))
+				 (:maintainers
+				  ("Pierre" . "pierre@legall.im"))
+				 (:maintainer "Pierre" . "pierre@legall.im"))])
  (auto-shell-command .
 		     [(1 0 2 1 -4 20180817 1502)
 		      ((deferred
@@ -24392,6 +24406,17 @@
 			  (:commit . "0d245edcfcd9cc5766d37b270214fb9da9b4336d")
 			  (:revdesc . "0d245edcfcd9")
 			  (:keywords "faces"))])
+ (ewm .
+      [(0 1 0 1 -4 20251021 30)
+       ((emacs
+	 (26 1))
+	(eyebrowse
+	 (0 7 8)))
+       "Window manager" tar
+       ((:url . "https://github.com/laluxx/ewm")
+	(:commit . "aed05324efc290a1674eceb2018f8e2a7e4480d5")
+	(:revdesc . "aed05324efc2")
+	(:keywords "windows" "convenience"))])
  (ewmctrl .
 	  [(0 1 0 1 -4 20170922 217)
 	   nil "Use `wmctrl' to manage desktop windows via EWMH/NetWM" tar
@@ -25836,6 +25861,28 @@
 	   (:maintainers
 	    ("Roland Walker" . "walker@pobox.com"))
 	   (:maintainer "Roland Walker" . "walker@pobox.com"))])
+ (fj .
+     [(0 1 0 1 -4 20251026 954)
+      ((emacs
+	(29 1))
+       (fedi
+	(0 2))
+       (tp
+	(0 5))
+       (transient
+	(0 9 3))
+       (magit
+	(4 3 8)))
+      "Client for forgejo instances" tar
+      ((:url . "https://codeberg.org/martianh/fj.el")
+       (:commit . "97bf77ee47933cffe0bfc8a7ee1d0546bec29372")
+       (:revdesc . "97bf77ee4793")
+       (:keywords "git" "convenience")
+       (:authors
+	("Marty Hiatt" . "mousebot@disroot.org"))
+       (:maintainers
+	("Marty Hiatt" . "mousebot@disroot.org"))
+       (:maintainer "Marty Hiatt" . "mousebot@disroot.org"))])
  (flame .
 	[(2 0 1 -4 20180303 2016)
 	 ((emacs
@@ -28454,15 +28501,15 @@
 		    ("James Nguyen" . "james@jojojames.com"))
 		   (:maintainer "James Nguyen" . "james@jojojames.com"))])
  (flymake-languagetool .
-		       [(0 1 0 1 -4 20250101 852)
+		       [(0 1 0 1 -4 20251026 1802)
 			((emacs
 			  (27 1))
 			 (compat
 			  (29 1 4 4)))
 			"Flymake support for LanguageTool" tar
 			((:url . "https://github.com/emacs-languagetool/flymake-languagetool")
-			 (:commit . "c9b6749c5b17a8e58931cf2ce3ab5cbb855ae75d")
-			 (:revdesc . "c9b6749c5b17")
+			 (:commit . "28ba13df7fdf257853a0ab79befe676893c3933e")
+			 (:revdesc . "28ba13df7fdf")
 			 (:keywords "convenience" "grammar" "check"))])
  (flymake-less .
 	       [(0 1 -4 20151111 738)
@@ -41684,7 +41731,7 @@
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de"))])
  (jira .
-       [(0 1 0 1 -4 20251026 1719)
+       [(0 1 0 1 -4 20251026 1744)
 	((emacs
 	  (29 1))
 	 (request
@@ -41697,8 +41744,8 @@
 	  (4 2 0)))
 	"Emacs Interface to Jira" tar
 	((:url . "https://github.com/unmonoqueteclea/jira.el")
-	 (:commit . "e87455ac7eb9723a1bd1227bbf6d4c13d846d0bb")
-	 (:revdesc . "e87455ac7eb9")
+	 (:commit . "0fb13e9c555987b5a35e89e219e07e3573bc6fa3")
+	 (:revdesc . "0fb13e9c5559")
 	 (:authors
 	  ("Pablo González Carrizo" . "unmonoqueteclea@gmail.com"))
 	 (:maintainers
@@ -58059,6 +58106,27 @@
 	       (:commit . "8799adc14a20f3489063d279ff69312de3180bf9")
 	       (:revdesc . "8799adc14a20")
 	       (:keywords "extensions"))])
+ (org-social .
+	     [(0 1 0 1 -4 20251020 840)
+	      ((emacs
+		(30 1))
+	       (org
+		(9 0))
+	       (request
+		(0 3 0))
+	       (seq
+		(2 20))
+	       (emojify
+		(1 2)))
+	      "An Org-social client" tar
+	      ((:url . "https://github.com/tanrax/org-social.el")
+	       (:commit . "972d72fa9dcfce2517b79acc59e80e41d3e246a0")
+	       (:revdesc . "972d72fa9dcf")
+	       (:authors
+		("Andros Fenollosa" . "hi@andros.dev"))
+	       (:maintainers
+		("Andros Fenollosa" . "hi@andros.dev"))
+	       (:maintainer "Andros Fenollosa" . "hi@andros.dev"))])
  (org-special-block-extras .
 			   [(0 1 0 1 -4 20250715 1754)
 			    ((s
