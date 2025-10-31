@@ -331,13 +331,13 @@
 		 ("Chris Wanstrath" . "chris@ozmm.org"))
 		(:commit . "1c6adeae14f3795d3b1e44321189ed7c2c93c967"))])
  (cond-let .
-	   [(0 1 1 0 20251030 173936)
+	   [(0 1 1 0 20251031 1718)
 	    ((emacs
 	      (28 1)))
 	    "Additional and improved binding conditionals" tar
 	    ((:url . "https://github.com/tarsius/cond-let")
 	     (:keywords "extensions")
-	     (:commit . "c4a966881b92f26700f7b7b3dce34a60c258ef84"))])
+	     (:commit . "caa77ac87843f3e55c3078ee861c685103d733d7"))])
  (consult-flycheck .
 		   [(1 0 0 20250923 111441)
 		    ((emacs
@@ -480,7 +480,7 @@
 	   ("Susam Pal" . "susam@susam.net"))
 	  (:commit . "c2dc9fc2886471daff654e12b46a144a4d1361ae"))])
  (diff-ansi .
-	    [(0 2 0 20250913 225150)
+	    [(0 2 0 20251030 235248)
 	     ((emacs
 	       (29 1)))
 	     "Display diff's using alternative diffing tools" tar
@@ -488,7 +488,7 @@
 	      (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 	      (:authors
 	       ("Campbell Barton" . "ideasman42@gmail.com"))
-	      (:commit . "1ae63be2381d97afcf63c5dbf07ed9310aa3d707"))])
+	      (:commit . "2d6acff4275455f7d3b5361e14de8bab8c28e3bb"))])
  (dirvish .
 	  [(2 3 0 0 20250504 80741)
 	   ((emacs
@@ -503,7 +503,7 @@
 	     ("Alex Lu" . "https://github.com/alexluigit"))
 	    (:commit . "d877433f957a363ad78b228e13a8e5215f2d6593"))])
  (doc-show-inline .
-		  [(0 1 0 20250913 225149)
+		  [(0 1 0 20251030 235527)
 		   ((emacs
 		     (29 1)))
 		   "Show doc-strings found in external files" tar
@@ -512,7 +512,7 @@
 		    (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 		    (:authors
 		     ("Campbell Barton" . "ideasman42@gmail.com"))
-		    (:commit . "4c43aac0867af455d9aee341480725e8bbcd7569"))])
+		    (:commit . "bd132bceb567ff7527a7ce20ce796ce0cd39b852"))])
  (dockerfile-mode .
 		  [(1 9 0 20250315 102635)
 		   ((emacs
@@ -626,7 +626,7 @@
 	    ("Tim Vaughan" . "plugd@thelambdalab.xyz"))
 	   (:commit . "dcdeb86f7ae633e252f9ef8a73d3458e87c1ab12"))])
  (emacsql .
-	  [(4 3 2 0 20251030 173953)
+	  [(4 3 2 0 20251031 1638)
 	   ((emacs
 	     (26 1)))
 	   "High-level SQL database front-end" tar
@@ -634,7 +634,7 @@
 	    (:maintainer "Jonas Bernoulli" . "emacs.emacsql@jonas.bernoulli.dev")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
-	    (:commit . "34c42cf03630089c89359ddb9c787fa108e5236c"))])
+	    (:commit . "af655d2e58f7c7630f272da8b41d0610defef78c"))])
  (engine-mode .
 	      [(2 2 4 0 20230911 95607)
 	       ((emacs
@@ -1122,7 +1122,7 @@
 		   ("Jeronimo Pellegrini" . "(j_p@aleph0.info)"))
 		  (:commit . "efdac7298e3a64f1138e3949b3312f491f2c706a"))])
  (git-modes .
-	    [(1 4 6 0 20251030 174038)
+	    [(1 4 6 0 20251031 1514)
 	     ((emacs
 	       (26 1))
 	      (compat
@@ -1135,7 +1135,7 @@
 	       ("Sebastian Wiesner" . "lunaryorn@gmail.com")
 	       ("Rüdiger Sonderfeld" . "ruediger@c-plusplus.net")
 	       ("Jonas Bernoulli" . "emacs.git-modes@jonas.bernoulli.dev"))
-	      (:commit . "a28c449b5cd0fac43e2de9bf56d69d3f39b905c6"))])
+	      (:commit . "03ab345d8d2ffcd964548183cf8703ab6a6ec2b2"))])
  (gnosis .
 	 [(0 5 7 0 20251026 144001)
 	  ((emacs
@@ -1227,7 +1227,7 @@
 	      ("David Andersson" . "l.david.anderssonsverige.nu"))
 	     (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel .
-	[(0 9 9 0 20251030 5513)
+	[(0 9 9 0 20251030 195153)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -1240,7 +1240,7 @@
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-	  (:commit . "9dcee1a1787deaed5208d82f5426e2fdbf998fe8"))])
+	  (:commit . "a6ac58f9603b70a8582dd7a8af974d0f5cc3b7ab"))])
  (graphql-mode .
 	       [(1 0 0 0 20241206 72535)
 		((emacs
@@ -1435,14 +1435,14 @@
 				 ("Joseph Turner" . "joseph@ushin.org"))
 				(:commit . "252e2df3fe7a07a122a365a637c47a43b26e179c"))])
  (idle-highlight-mode .
-		      [(1 1 4 0 20250922 133045)
+		      [(1 1 4 0 20251030 235941)
 		       ((emacs
 			 (29 1)))
 		       "Highlight the word the point is on" tar
 		       ((:url . "https://codeberg.org/ideasman42/emacs-idle-highlight-mode")
 			(:keywords "convenience")
 			(:maintainer "Campbell Barton" . "ideasman42@gmail.com")
-			(:commit . "6fa320d2cc67786c72d82e0372089087bdd74938"))])
+			(:commit . "e3f16de93ece64dde101cfaf625bb9341bc2ba47"))])
  (idris-mode .
 	     [(1 1 0 0 20251006 81904)
 	      ((emacs
@@ -1552,7 +1552,7 @@
 	       (:keywords "languages")
 	       (:commit . "5c940c4ba357d8361534f11169f3d40b2d7833fc"))])
  (keycast .
-	  [(1 4 5 0 20251030 174131)
+	  [(1 4 5 0 20251031 1539)
 	   ((emacs
 	     (28 1))
 	    (compat
@@ -1563,7 +1563,7 @@
 	    (:maintainer "Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev"))
-	    (:commit . "ef91d9ce8f650f57550ccbfef8f70eb9031381b2"))])
+	    (:commit . "5cda6bd32d377ad92dff52a55c1491da442f4541"))])
  (kotlin-mode .
 	      [(2 0 0 0 20230123 105957)
 	       ((emacs
@@ -1576,7 +1576,7 @@
 		 ("Shodai Yokoyama" . "(quantumcars@gmail.com)"))
 		(:commit . "fddd747e5b4736e8b27a147960f369b86179ddff"))])
  (llama .
-	[(1 0 1 0 20251030 174146)
+	[(1 0 1 0 20251031 1653)
 	 ((emacs
 	   (26 1))
 	  (compat
@@ -1584,7 +1584,7 @@
 	 "Compact syntax for short lambda" tar
 	 ((:url . "https://github.com/tarsius/llama")
 	  (:keywords "extensions")
-	  (:commit . "de2b5eda6e37958411ca0c0131621ec054fbe57c"))])
+	  (:commit . "fed8edcaae615f981be4041335d69228edb9e104"))])
  (logview .
 	  [(0 19 3 -4 0 20251025 140450)
 	   ((emacs
@@ -1996,7 +1996,7 @@
 		    ("Takaaki ISHIKAWA" . "takaxpatieeedotorg"))
 		   (:commit . "e2599a106a26ce5511095e23df4ea04be6687a8a"))])
  (orgit .
-	[(2 0 5 0 20251030 174234)
+	[(2 0 5 0 20251031 1607)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -2011,7 +2011,7 @@
 	  (:maintainer "Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
-	  (:commit . "edf0f23c4b6a74fcf024db29ee4c5a5dd154906a"))])
+	  (:commit . "590d309620de68d1065377951280ae772091d241"))])
  (p4-16-mode .
 	     [(0 3 0 20231118 161633)
 	      nil "Support for the P4_16 programming language" tar
@@ -2447,7 +2447,7 @@
 		    (:keywords "color" "theme")
 		    (:commit . "f4757d701aa64bc3e1a5963c8a4f52cfd135cfed"))])
  (spell-fu .
-	   [(0 3 0 20250913 225149)
+	   [(0 3 0 20251031 806)
 	    ((emacs
 	      (29 1)))
 	    "Fast & light spelling highlighter" tar
@@ -2456,7 +2456,7 @@
 	     (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
 	     (:authors
 	      ("Campbell Barton" . "ideasman42@gmail.com"))
-	     (:commit . "b141e2e24e3def0c3c656090cf11705bb34254d1"))])
+	     (:commit . "6c7cdc971d232096ae22c9bdbdcf21cfcdaeb755"))])
  (sqlite3 .
 	  [(0 17 0 20251014 53705)
 	   ((emacs
@@ -2845,7 +2845,7 @@
 	      ("Akib Azmain Turja" . "akib@disroot.org"))
 	     (:commit . "5203d9379afaf6703746823a580c804e1dd98e08"))])
  (with-editor .
-	      [(3 4 6 0 20250901 161817)
+	      [(3 4 6 0 20251030 222848)
 	       ((emacs
 		 (26 1))
 		(compat
@@ -2856,7 +2856,7 @@
 		(:maintainer "Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev")
 		(:authors
 		 ("Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev"))
-		(:commit . "87a384a0e59260cca41ca8831d98e195b1ec8ada"))])
+		(:commit . "549b223caf4be256601d11c582939d4ee7c984c9"))])
  (with-simulated-input .
 		       [(3 0 0 20210602 224623)
 			((emacs
