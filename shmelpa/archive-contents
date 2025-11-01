@@ -5707,7 +5707,7 @@
 	 (:commit . "b562e2dbcb089e37ff5a1276f6a5663af6dc15e1")
 	 (:revdesc . "b562e2dbcb08"))])
  (borg .
-       [(0 1 0 1 -4 20251101 1131)
+       [(0 1 0 1 -4 20251101 2115)
 	((emacs
 	  (27 1))
 	 (epkg
@@ -5716,8 +5716,8 @@
 	  (4 4)))
 	"Assimilate Emacs packages as Git submodules" tar
 	((:url . "https://github.com/emacscollective/borg")
-	 (:commit . "bb63f8231f04d33df1c4dd9339c7cd10c7254fb9")
-	 (:revdesc . "bb63f8231f04")
+	 (:commit . "28e6ba50fab83ffbcb0484dbdb1d5c180537235a")
+	 (:revdesc . "28e6ba50fab8")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.borg@jonas.bernoulli.dev"))
@@ -5834,13 +5834,13 @@
 	      ("Marshall Lochbaum" . "mwlochbaum@gmail.com"))
 	     (:maintainer "Marshall Lochbaum" . "mwlochbaum@gmail.com"))])
  (bracket-face .
-	       [(0 1 0 1 -4 20250822 1936)
+	       [(0 1 0 1 -4 20251101 2048)
 		((emacs
 		  (30 1)))
 		"A face for brackets" tar
 		((:url . "https://github.com/tarsius/paren-face")
-		 (:commit . "88cbcf779d3c382cf785a540a2134a663b753d7b")
-		 (:revdesc . "88cbcf779d3c")
+		 (:commit . "b121bc08ecb0c11a89705ed9f77c5343e2baec04")
+		 (:revdesc . "b121bc08ecb0")
 		 (:keywords "faces" "lisp")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.paren-face@jonas.bernoulli.dev"))
@@ -15281,15 +15281,15 @@
 		   ("Campbell Barton" . "ideasman42@gmail.com"))
 		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
  (diff-hl .
-	  [(0 1 0 1 -4 20251030 135)
+	  [(0 1 0 1 -4 20251101 2236)
 	   ((cl-lib
 	     (0 2))
 	    (emacs
 	     (26 1)))
 	   "Highlight uncommitted changes using VC" tar
 	   ((:url . "https://github.com/dgutov/diff-hl")
-	    (:commit . "32d8b788265c6bca7f1af443d47233eebd4f64e5")
-	    (:revdesc . "32d8b788265c")
+	    (:commit . "6585e93849ede64e1a7b7b9766369040138979f2")
+	    (:revdesc . "6585e93849ed")
 	    (:keywords "vc" "diff")
 	    (:authors
 	     ("Dmitry Gutov" . "dmitry@gutov.dev"))
@@ -21515,7 +21515,7 @@
 	   ("Sean Hutchings" . "seanhut@yandex.com"))
 	  (:maintainer "Sean Hutchings" . "seanhut@yandex.com"))])
  (epkg .
-       [(0 1 0 1 -4 20250901 1551)
+       [(0 1 0 1 -4 20251101 2114)
 	((emacs
 	  (28 1))
 	 (compat
@@ -21528,8 +21528,8 @@
 	  (1 0)))
 	"Browse the Emacsmirror package database" tar
 	((:url . "https://github.com/emacscollective/epkg")
-	 (:commit . "b6922f112dd0b523df0e2da49b4cc9327b1085ba")
-	 (:revdesc . "b6922f112dd0")
+	 (:commit . "6aabd58170b5385fecc873a9ea53432eb24cc993")
+	 (:revdesc . "6aabd58170b5")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))
@@ -21537,7 +21537,7 @@
 	  ("Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))
 	 (:maintainer "Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))])
  (epkg-marginalia .
-		  [(0 1 0 1 -4 20251012 1349)
+		  [(0 1 0 1 -4 20251101 2117)
 		   ((emacs
 		     (28 1))
 		    (compat
@@ -21545,11 +21545,11 @@
 		    (epkg
 		     (4 1))
 		    (marginalia
-		     (2 3)))
+		     (2 4)))
 		   "Show Epkg information in completion annotations" tar
 		   ((:url . "https://github.com/emacscollective/epkg-marginalia")
-		    (:commit . "7418f8e9690efa9d6821a63bf815d3b868a425ba")
-		    (:revdesc . "7418f8e9690e")
+		    (:commit . "681295f585efdc3f615ba4be90a246eb46ef4018")
+		    (:revdesc . "681295f585ef")
 		    (:keywords "tools")
 		    (:authors
 		     ("Jonas Bernoulli" . "emacs.epkg-marginalia@jonas.bernoulli.dev"))
@@ -29337,7 +29337,7 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20251007 1152)
+	[(0 1 0 1 -4 20251101 2128)
 	 ((emacs
 	   (29 1))
 	  (compat
@@ -29345,7 +29345,7 @@
 	  (closql
 	   (2 3))
 	  (cond-let
-	   (0 1))
+	   (0 2))
 	  (emacsql
 	   (4 3))
 	  (ghub
@@ -29364,8 +29364,8 @@
 	   (1 2)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "54a33e91aed1ce30f083b01b2ffee54ec1311313")
-	  (:revdesc . "54a33e91aed1")
+	  (:commit . "71910a26e360bfe88eb81b47f377f7694161fe9b")
+	  (:revdesc . "71910a26e360")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -29626,15 +29626,15 @@
 		      ("David Shepherd" . "davidshepherd7@gmail.com"))
 		     (:maintainer "David Shepherd" . "davidshepherd7@gmail.com"))])
  (frameshot .
-	    [(0 1 0 1 -4 20250901 1607)
+	    [(0 1 0 1 -4 20251101 2212)
 	     ((emacs
 	       (26 1))
 	      (compat
 	       (30 1)))
 	     "Take screenshots of a frame" tar
 	     ((:url . "https://github.com/tarsius/frameshot")
-	      (:commit . "f65d85397d6a87c4d5ef42a4c6c78cbfafe9d12d")
-	      (:revdesc . "f65d85397d6a")
+	      (:commit . "89ca25879b4c55da049f771870926a27bbfb1066")
+	      (:revdesc . "89ca25879b4c")
 	      (:keywords "multimedia")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.frameshot@jonas.bernoulli.dev"))
@@ -30832,7 +30832,7 @@
 	 ("Joseph LaFreniere" . "joseph@lafreniere.xyz"))
 	(:maintainer "Joseph LaFreniere" . "joseph@lafreniere.xyz"))])
  (ghub .
-       [(0 1 0 1 -4 20251006 1821)
+       [(0 1 0 1 -4 20251101 2126)
 	((emacs
 	  (29 1))
 	 (compat
@@ -30843,8 +30843,8 @@
 	  (0 1 2)))
 	"Client libraries for Git forge APIs" tar
 	((:url . "https://github.com/magit/ghub")
-	 (:commit . "6dc4ff700fc515157131b2106a17bb667579d449")
-	 (:revdesc . "6dc4ff700fc5")
+	 (:commit . "447cb51fa7d19e1fb3844acdd2c540be04299ffb")
+	 (:revdesc . "447cb51fa7d1")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
@@ -48775,13 +48775,13 @@
 	       ("Mark A. Hershberger" . "mah@everybody.org"))
 	      (:maintainer "Mark A. Hershberger" . "mah@everybody.org"))])
  (meep .
-       [(0 1 0 1 -4 20251101 1408)
+       [(0 1 0 1 -4 20251101 2239)
 	((emacs
 	  (30 1)))
 	"Lightweight modal editing" tar
 	((:url . "https://codeberg.org/ideasman42/emacs-meep")
-	 (:commit . "74d135a0a6cb02c7eee14a11e5a3ba651113b7f7")
-	 (:revdesc . "74d135a0a6cb")
+	 (:commit . "242804bb963daffc09243621b0883af624836eb0")
+	 (:revdesc . "242804bb963d")
 	 (:keywords "convenience" "modal-editing")
 	 (:authors
 	  ("Campbell Barton" . "ideasman42@gmail.com"))
