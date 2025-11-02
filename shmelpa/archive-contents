@@ -1184,6 +1184,18 @@
 	   (:maintainers
 	    ("Tomasz Maciosowski" . "t4ccer@gmail.com"))
 	   (:maintainer "Tomasz Maciosowski" . "t4ccer@gmail.com"))])
+ (agent-shell .
+	      [(0 1 0 1 -4 20251102 1834)
+	       ((emacs
+		 (29 1))
+		(shell-maker
+		 (0 82 2))
+		(acp
+		 (0 7 1)))
+	       "An agent shell powered by ACP" tar
+	       ((:url . "https://github.com/xenodium/agent-shell")
+		(:commit . "fa86fe55bae623ab91ac7147f4e1d8fea4f9e136")
+		(:revdesc . "fa86fe55bae6"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -6881,13 +6893,13 @@
 		("Huming Chen" . "chenhuming@gmail.com"))
 	       (:maintainer "Huming Chen" . "chenhuming@gmail.com"))])
  (calle24 .
-	  [(0 1 0 1 -4 20250625 2010)
+	  [(0 1 0 1 -4 20251102 1952)
 	   ((emacs
 	     (29 1)))
 	   "Emacs Toolbar Support for SF Symbols" tar
 	   ((:url . "https://github.com/kickingvegas/calle24")
-	    (:commit . "34a9821ec8877945518ddab61fa8b93c2e9b1e79")
-	    (:revdesc . "34a9821ec887")
+	    (:commit . "14672b622bbcd2168db7099185003bd2d2eb9a5c")
+	    (:revdesc . "14672b622bbc")
 	    (:keywords "tools")
 	    (:authors
 	     ("Charles Choi" . "kickingvegas@gmail.com"))
@@ -13056,6 +13068,14 @@
 		   ((:url . "http://github.com/emacsfodder/emacs-theme-creamsody")
 		    (:commit . "98d55dcb2480889dee416c9fa0c6baf8c6af9844")
 		    (:revdesc . "98d55dcb2480"))])
+ (creamy-theme .
+	       [(0 1 0 1 -4 20251030 1829)
+		((emacs
+		  (24 1)))
+		"A simple creamy theme" tar
+		((:url . "https://github.com/smallwat3r/emacs-creamy-theme")
+		 (:commit . "3bceabac758378d91d07ba39b855e744be7e3c54")
+		 (:revdesc . "3bceabac7583"))])
  (create-link .
 	      [(1 0 0 1 -4 20220621 1440)
 	       ((emacs
@@ -25397,7 +25417,7 @@
 	    ("Philip Jackson" . "phil@shellarchive.co.uk"))
 	   (:maintainer "Philip Jackson" . "phil@shellarchive.co.uk"))])
  (file-info .
-	    [(0 1 0 1 -4 20250930 920)
+	    [(0 1 0 1 -4 20251102 1935)
 	     ((emacs
 	       (28 1))
 	      (hydra
@@ -25406,8 +25426,8 @@
 	       (0 15 0)))
 	     "Show pretty information about current file" tar
 	     ((:url . "https://github.com/artawower/file-info.el")
-	      (:commit . "ac8c0fecde9491d8626d54667c99e4e5dcfa4128")
-	      (:revdesc . "ac8c0fecde94")
+	      (:commit . "1d1820e46ba681ef7c18aa8c81a61891675f9fec")
+	      (:revdesc . "1d1820e46ba6")
 	      (:authors
 	       ("Artur Yaroshenko" . "artawower@protonmail.com"))
 	      (:maintainers
