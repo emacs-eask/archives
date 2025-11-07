@@ -22,7 +22,7 @@
 		     ("Ozan Sener" . "ozan@ozansener.com"))
 		    (:commit . "89b1d778a1f8b385775c122f2bd1c62f0fbf931a"))])
  (aidermacs .
-	    [(1 5 0 20251020 162739)
+	    [(1 5 0 20251107 82830)
 	     ((emacs
 	       (26 1))
 	      (transient
@@ -37,7 +37,7 @@
 	      (:maintainer "Mingde Zeng" . "matthewzmd@posteo.net")
 	      (:authors
 	       ("Mingde Zeng" . "matthewzmd@posteo.net"))
-	      (:commit . "14238322a63636e08a098ee515947dac94d19f0b"))])
+	      (:commit . "f3b64b5b3ded2296206d391533deabec75db5d20"))])
  (alect-themes .
 	       [(0 10 0 20211022 165129)
 		((emacs
@@ -272,7 +272,7 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider .
-	[(1 20 0 -4 0 20251028 60325)
+	[(1 20 0 0 20251105 93303)
 	 ((emacs
 	   (27))
 	  (clojure-mode
@@ -300,7 +300,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "62890028d0d43464f4517e4321cb8f11c172c475"))])
+	  (:commit . "fb7aa888125dfd5f174b6c208deca66d3fc129ab"))])
  (clojure-mode .
 	       [(5 20 0 0 20250528 61040)
 		((emacs
@@ -423,14 +423,14 @@
 	   (:url . "https://elpa.nongnu.org/nongnu/d-mode.html")
 	   (:commit . "a4f9026d9e7fadfcfb138189c18c639b57467ce5"))])
  (dart-mode .
-	    [(1 0 7 0 20250811 110356)
+	    [(1 0 7 0 20251104 214339)
 	     ((emacs
 	       (27 1)))
 	     "Major mode for editing Dart files" tar
 	     ((:url . "https://github.com/emacsorphanage/dart-mode")
 	      (:keywords "languages")
 	      (:maintainer "Jen-Chieh Shen" . "jcs090218@gmail.com")
-	      (:commit . "edb45cb7095b1e4f62eaae33e56fe9af5b010213"))])
+	      (:commit . "22288d0bb374f6880ffc211ce87c302acb3421e7"))])
  (datetime .
 	   [(0 10 3 -4 0 20250203 204701)
 	    ((emacs
@@ -875,9 +875,11 @@
 	   ((:url . "https://github.com/lewang/flx")
 	    (:commit . "4b1346eb9a8a76ee9c9dede69738c63ad97ac5b6"))])
  (flycheck .
-	   [(35 0 0 20250814 121325)
+	   [(35 0 0 20251105 143315)
 	    ((emacs
-	      (27 1)))
+	      (27 1))
+	     (seq
+	      (2 24)))
 	    "On-the-fly syntax checking" tar
 	    ((:url . "https://www.flycheck.org")
 	     (:keywords "convenience" "languages" "tools")
@@ -887,7 +889,7 @@
 	      ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
-	     (:commit . "8c0dbfaa463e69efb41ef2cda9c4e89b99e266a0"))])
+	     (:commit . "b13548bb396cf4ed13b41fbc195c918266fb41f3"))])
  (flymake-guile .
 		[(0 5 0 20230905 194410)
 		 ((emacs
@@ -1227,7 +1229,7 @@
 	      ("David Andersson" . "l.david.anderssonsverige.nu"))
 	     (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel .
-	[(0 9 9 0 20251103 92801)
+	[(0 9 9 0 20251105 94513)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -1240,7 +1242,7 @@
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-	  (:commit . "8a39875973a97c1e4aa53edf27407e8c0daaae5e"))])
+	  (:commit . "a77927a08df0f3fdf725d3832d5bc56aa3ea5e07"))])
  (graphql-mode .
 	       [(1 0 0 0 20241206 72535)
 		((emacs
@@ -1319,7 +1321,7 @@
 		     ("Pranshu Sharma" . "pranshu@bauherren.ovh"))
 		    (:commit . "271ce789918abe8f68600ddfcd814c958a084e73"))])
  (helm .
-       [(4 0 6 0 20251031 202403)
+       [(4 0 6 0 20251104 180849)
 	((helm-core
 	  (4 0 6))
 	 (wfnames
@@ -1330,9 +1332,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "a01816872c31f00b95a0fde121bf695bc8b0a2f8"))])
+	 (:commit . "520ce9278acfbb84b03170b8470185d098300077"))])
  (helm-core .
-	    [(4 0 6 0 20251031 202403)
+	    [(4 0 6 0 20251104 180849)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1342,7 +1344,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "a01816872c31f00b95a0fde121bf695bc8b0a2f8"))])
+	      (:commit . "520ce9278acfbb84b03170b8470185d098300077"))])
  (hideshowvis .
 	      [(0 8 0 20250225 175051)
 	       ((emacs
@@ -1586,7 +1588,7 @@
 	  (:keywords "extensions")
 	  (:commit . "e4803de8ab85991b6a944430bb4f543ea338636d"))])
  (logview .
-	  [(0 19 3 -4 0 20251102 142308)
+	  [(0 19 4 -4 0 20251104 172505)
 	   ((emacs
 	     (25 1))
 	    (datetime
@@ -1601,9 +1603,9 @@
 	    (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com")
 	    (:authors
 	     ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
-	    (:commit . "faac12ff45ef796d4ebc9587be6abcd7c32db0aa"))])
+	    (:commit . "9c97221dd04d7398df098e9f942efff016b60bbf"))])
  (loopy .
-	[(0 14 0 0 20251013 15429)
+	[(0 15 0 0 20251105 10812)
 	 ((emacs
 	   (28 1))
 	  (map
@@ -1617,7 +1619,7 @@
 	 "A looping macro" tar
 	 ((:url . "https://github.com/okamsn/loopy")
 	  (:keywords "extensions")
-	  (:commit . "9b6b5c09849c12142dc8b7088202db1093588908"))])
+	  (:commit . "1849c6c774332c6451288debd4c353449ee79a92"))])
  (loopy-dash .
 	     [(0 13 0 0 20250114 23438)
 	      ((emacs
@@ -1679,7 +1681,7 @@
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
 	      (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit .
-	[(4 4 2 0 20251101 112318)
+	[(4 4 2 0 20251106 181818)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -1705,9 +1707,9 @@
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
 	   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-	  (:commit . "3d1a008f1894dd087aee099629e3726877956033"))])
+	  (:commit . "429ae02da4e4d9793bb586fe8c855dd8793efe60"))])
  (magit-section .
-		[(4 4 2 0 20251101 112318)
+		[(4 4 2 0 20251106 181818)
 		 ((emacs
 		   (28 1))
 		  (compat
@@ -1724,7 +1726,7 @@
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-		  (:commit . "3d1a008f1894dd087aee099629e3726877956033"))])
+		  (:commit . "429ae02da4e4d9793bb586fe8c855dd8793efe60"))])
  (markdown-mode .
 		[(2 8 -3 0 20251028 41247)
 		 ((emacs
@@ -2187,13 +2189,13 @@
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	       (:commit . "9325c45e0fd96d5421e75ad901a91ee5353e10ad"))])
  (proof-general .
-		[(4 6 -4 0 20250915 103850)
+		[(4 6 -4 0 20251105 74107)
 		 ((emacs
 		   (25 2)))
 		 "A generic Emacs interface for proof assistants" tar
 		 ((:url . "https://proofgeneral.github.io/")
 		  (:maintainer nil . "proof-general-maintainers@groupes.renater.fr")
-		  (:commit . "f33b478d1144d6828dfa0df7f0d7d48da704ea11"))])
+		  (:commit . "ae7af9d7c0ee6c7a8b085b8ee33c7fec8f298be9"))])
  (prop-menu .
 	    [(0 1 2 0 20150728 51803)
 	     ((emacs
@@ -2208,7 +2210,7 @@
 	       ("David Christiansen" . "david@davidchristiansen.dk"))
 	      (:commit . "50b102c1c0935fd3e0c465feed7f27d66b21cdf3"))])
  (racket-mode .
-	      [(1 0 20251029 163833)
+	      [(1 0 20251106 215641)
 	       ((emacs
 		 (25 1))
 		(compat
@@ -2217,7 +2219,7 @@
 	       ((:url . "https://www.racket-mode.com/")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com"))
-		(:commit . "b74e6d37dae2e9618762971fb232f433e84cadb9"))])
+		(:commit . "d98852ef6d0c05e16ce3e87f4a14cf47c557ce2b"))])
  (radio .
 	[(0 4 1 0 20250305 101402)
 	 ((emacs
@@ -2902,14 +2904,14 @@
 	       ("Le Wang" . "l26wang@gmail.com"))
 	      (:commit . "67c49cfdf5a5a9f28792c500c8eb0017cfe74a3a"))])
  (xah-fly-keys .
-	       [(28 7 20250917123258 0 20250917 123752)
+	       [(28 9 20251105193146 0 20251105 193304)
 		((emacs
 		  (28 3)))
 		"ergonomic modal keybinding minor mode." tar
 		((:url . "http://xahlee.info/emacs/misc/xah-fly-keys.html")
 		 (:keywords "convenience" "vi" "vim" "ergoemacs" "keybinding")
 		 (:maintainer "Xah Lee" . "xah@xahlee.org")
-		 (:commit . "8178b841acbf927728682befbe226f701dffe6e9"))])
+		 (:commit . "05a5bf1351383baf5317a4b8bc2965502c1b25df"))])
  (xkcd .
        [(1 1 0 20220503 110939)
 	((json
