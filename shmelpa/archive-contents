@@ -78373,15 +78373,15 @@
 			("Erick Navarro" . "erick@navarro.io"))
 		       (:maintainer "Erick Navarro" . "erick@navarro.io"))])
  (tree-sitter-langs .
-		    [(0 1 0 1 -4 20251105 1853)
+		    [(0 1 0 1 -4 20251109 1908)
 		     ((emacs
 		       (25 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
 		     ((:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs")
-		      (:commit . "b9059cd53835ca4d9e99aa10beb434d7b383ffa4")
-		      (:revdesc . "b9059cd53835")
+		      (:commit . "3efd74f4d598dc98043eb1f5b8e39fd3bce8435e")
+		      (:revdesc . "3efd74f4d598")
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
@@ -79199,6 +79199,24 @@
 		 (:maintainers
 		  ("Kadir Can etin" . "kadircancetin@gmail.com"))
 		 (:maintainer "Kadir Can etin" . "kadircancetin@gmail.com"))])
+ (typst-preview .
+		[(0 1 0 1 -4 20251109 2223)
+		 ((emacs
+		   (28 1))
+		  (websocket
+		   (1 15))
+		  (compat
+		   (30 1)))
+		 "Live preview of typst" tar
+		 ((:url . "https://github.com/havarddj/typst-preview.el")
+		  (:commit . "79a74a25fc138f115c068dbe7476464eed630768")
+		  (:revdesc . "79a74a25fc13")
+		  (:keywords "convenience" "languages" "tools")
+		  (:authors
+		   ("Håvard Damm-Johnsen" . "havard-dj@proton.me"))
+		  (:maintainers
+		   ("Håvard Damm-Johnsen" . "havard-dj@proton.me"))
+		  (:maintainer "Håvard Damm-Johnsen" . "havard-dj@proton.me"))])
  (tzc .
       [(0 0 1 1 -4 20240403 332)
        ((emacs
