@@ -1185,7 +1185,7 @@
 	    ("Tomasz Maciosowski" . "t4ccer@gmail.com"))
 	   (:maintainer "Tomasz Maciosowski" . "t4ccer@gmail.com"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20251107 1558)
+	      [(0 1 0 1 -4 20251109 1834)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1194,8 +1194,8 @@
 		 (0 7 1)))
 	       "A single native shell experience to interact with agentic providers (Claude Code, Cursor, Gemini CLI, Goose, Codex, OpenCode, Qwen, etc.)" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "2a5460305fa5cd8155e5ced5b49e7c66348498bf")
-		(:revdesc . "2a5460305fa5"))])
+		(:commit . "787ade65e1176af7d03ae1fdc3103330edeb8f86")
+		(:revdesc . "787ade65e117"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -13865,6 +13865,19 @@
 	    (:commit . "7b08ce315c0be901d88c1099483f9607c653712e")
 	    (:revdesc . "7b08ce315c0b")
 	    (:keywords "unix" "convenience"))])
+ (dag-draw .
+	   [(0 1 0 1 -4 20251103 2335)
+	    ((emacs
+	      (26 1))
+	     (dash
+	      (2 19 1))
+	     (ht
+	      (2 3)))
+	    "Draw directed graphs using the GKNV algorithm" tar
+	    ((:url . "https://codeberg.org/trevoke/dag-draw.el")
+	     (:commit . "80805d5f1329e9d7c677900dbbe9599822d7c1e0")
+	     (:revdesc . "80805d5f1329")
+	     (:keywords "tools" "extensions"))])
  (dakrone-light-theme .
 		      [(1 0 0 1 -4 20170808 2140)
 		       nil "Dakrone's custom light theme" tar
@@ -30091,6 +30104,15 @@
 	  (:maintainers
 	   ("Tomohiro Matsuyama" . "m2ym.pub@gmail.com"))
 	  (:maintainer "Tomohiro Matsuyama" . "m2ym.pub@gmail.com"))])
+ (fuzzy-clock .
+	      [(0 1 0 1 -4 20251109 17)
+	       ((emacs
+		 (26 1)))
+	       "Display time in a human-friendly, approximate way" tar
+	       ((:url . "https://github.com/trevoke/fuzzy-clock.el")
+		(:commit . "6b1a33296d856aeee0b29cdf65a9e614054ef94a")
+		(:revdesc . "6b1a33296d85")
+		(:keywords "calendar" "time"))])
  (fuzzy-finder .
 	       [(0 1 0 1 -4 20250318 632)
 		((emacs
@@ -38433,13 +38455,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20251107 2256)
+	    [(0 1 0 1 -4 20251109 1717)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "ac64953f41d0add863225b261978ae1e60e30db5")
-	      (:revdesc . "ac64953f41d0")
+	      (:commit . "1113f960659ca5cf2b047ff1301d6be2eda7f9a4")
+	      (:revdesc . "1113f960659c")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -47073,6 +47095,24 @@
 		      (:commit . "462031a53255185ae25eb10ae1f4272e49ad70f7")
 		      (:revdesc . "462031a53255")
 		      (:keywords "convenience" "osx" "mac"))])
+ (maccalfw .
+	   [(0 1 0 1 -4 20251104 512)
+	    ((emacs
+	      (29 1))
+	     (calfw
+	      (2 0))
+	     (ical-form
+	      (0 2)))
+	    "Calendar view for Mac Calendars" tar
+	    ((:url . "https://github.com/haji-ali/maccalfw")
+	     (:commit . "0a72897c02537948aecc6a65b30c91466c8adaa8")
+	     (:revdesc . "0a72897c0253")
+	     (:keywords "calendar")
+	     (:authors
+	      ("Al Haji-Ali" . "abdo.haji.aliatgmail.com"))
+	     (:maintainers
+	      ("Al Haji-Ali" . "abdo.haji.aliatgmail.com"))
+	     (:maintainer "Al Haji-Ali" . "abdo.haji.aliatgmail.com"))])
  (maces-game .
 	     [(0 1 1 -4 20170903 1551)
 	      ((dash
@@ -47221,7 +47261,7 @@
 	       (:revdesc . "069a1d630f63")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20251108 1923)
+	[(0 1 0 1 -4 20251109 941)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -47240,8 +47280,8 @@
 	   (3 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "2d8f43e68125d9f7cf97ba182a5d266fe1a52c67")
-	  (:revdesc . "2d8f43e68125")
+	  (:commit . "54e460a70156a8496217f3368c135c55b52e680c")
+	  (:revdesc . "54e460a70156")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -56956,6 +56996,22 @@
 		 (:maintainers
 		  ("Adam Porter" . "adam@alphapapa.net"))
 		 (:maintainer "Adam Porter" . "adam@alphapapa.net"))])
+ (org-mcp .
+	  [(0 1 0 1 -4 20251031 528)
+	   ((emacs
+	     (27 1))
+	    (mcp-server-lib
+	     (0 2 0)))
+	   "MCP server for Org-mode" tar
+	   ((:url . "https://github.com/laurynas-biveinis/org-mcp")
+	    (:commit . "01b51350ed967eb442d8ad1888e1352252aa9c8c")
+	    (:revdesc . "01b51350ed96")
+	    (:keywords "convenience" "files" "matching" "outlines")
+	    (:authors
+	     ("Laurynas Biveinis" . "laurynas.biveinis@gmail.com"))
+	    (:maintainers
+	     ("Laurynas Biveinis" . "laurynas.biveinis@gmail.com"))
+	    (:maintainer "Laurynas Biveinis" . "laurynas.biveinis@gmail.com"))])
  (org-mem .
 	  [(0 1 0 1 -4 20251107 2038)
 	   ((emacs
