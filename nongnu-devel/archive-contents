@@ -837,7 +837,7 @@
 		    (:keywords "evil" "vim" "visualstar")
 		    (:commit . "06c053d8f7381f91c53311b1234872ca96ced752"))])
  (exec-path-from-shell .
-		       [(2 2 0 20250922 141302)
+		       [(2 2 0 20251113 132402)
 			((emacs
 			  (24 4)))
 			"Get environment variables such as $PATH from the shell" tar
@@ -846,7 +846,7 @@
 			 (:maintainer "Steve Purcell" . "steve@sanityinc.com")
 			 (:authors
 			  ("Steve Purcell" . "steve@sanityinc.com"))
-			 (:commit . "59631fc475678ca299cc9503c1e48e87404b0b80"))])
+			 (:commit . "7552abf032a383ff761e7d90e6b5cbb4658a728a"))])
  (extmap .
 	 [(1 3 1 -4 0 20250203 193959)
 	  ((emacs
@@ -858,6 +858,37 @@
 	   (:authors
 	    ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	   (:commit . "bb4867e13ec7480d4dbc1d99888627e4cc8ef2f6"))])
+ (fedi .
+       [(0 2 0 20250812 64538)
+	((emacs
+	  (28 1))
+	 (markdown-mode
+	  (2 5)))
+	"Helper functions for fediverse clients" tar
+	((:url . "https://codeberg.org/martianh/fedi.el")
+	 (:maintainer "Marty Hiatt" . "mousebot@disroot.org")
+	 (:authors
+	  ("Marty Hiatt" . "mousebot@disroot.org"))
+	 (:commit . "a9df02f835899d0a587d236b1fa4d16e53af9039"))])
+ (fj .
+     [(0 28 0 20251030 134543)
+      ((emacs
+	(29 1))
+       (fedi
+	(0 2))
+       (tp
+	(0 5))
+       (transient
+	(0 9 3))
+       (magit
+	(4 3 8)))
+      "Client for Forgejo instances" tar
+      ((:url . "https://codeberg.org/martianh/fj.el")
+       (:keywords "git" "convenience")
+       (:maintainer "Marty Hiatt" . "mousebot@disroot.org")
+       (:authors
+	("Marty Hiatt" . "mousebot@disroot.org"))
+       (:commit . "79a1ef1006f6f8da6bbdcaf05ae8888a79f6887e"))])
  (flx .
       [(0 6 2 0 20240204 195634)
        ((cl-lib
@@ -1321,7 +1352,7 @@
 		     ("Pranshu Sharma" . "pranshu@bauherren.ovh"))
 		    (:commit . "271ce789918abe8f68600ddfcd814c958a084e73"))])
  (helm .
-       [(4 0 6 0 20251111 62919)
+       [(4 0 6 0 20251113 75909)
 	((helm-core
 	  (4 0 6))
 	 (wfnames
@@ -1332,9 +1363,9 @@
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "5d8d69fb00c2cc8e795892fb76e9fc34b8694021"))])
+	 (:commit . "86e6f83790d90c41474108a9c8f57712a4a54d47"))])
  (helm-core .
-	    [(4 0 6 0 20251111 62919)
+	    [(4 0 6 0 20251113 75909)
 	     ((emacs
 	       (25 1))
 	      (async
@@ -1344,7 +1375,7 @@
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "5d8d69fb00c2cc8e795892fb76e9fc34b8694021"))])
+	      (:commit . "86e6f83790d90c41474108a9c8f57712a4a54d47"))])
  (hideshowvis .
 	      [(0 8 0 20251112 103011)
 	       ((emacs
@@ -1577,6 +1608,21 @@
 		(:authors
 		 ("Shodai Yokoyama" . "(quantumcars@gmail.com)"))
 		(:commit . "fddd747e5b4736e8b27a147960f369b86179ddff"))])
+ (lem .
+      [(0 24 0 20250806 92416)
+       ((emacs
+	 (29 1))
+	(fedi
+	 (0 2))
+	(markdown-mode
+	 (2 5)))
+       "A lemmy client" tar
+       ((:url . "https://codeberg.org/martianh/lem.el")
+	(:keywords "multimedia" "comm" "web" "fediverse")
+	(:maintainer "martian hiatus" . "mousebot@disroot.org")
+	(:authors
+	 ("martian hiatus" . "mousebot@disroot.org"))
+	(:commit . "a0f4fa89fe73dfe7412f5d25d6e0619abf8cff14"))])
  (llama .
 	[(1 0 2 0 20251101 200220)
 	 ((emacs
@@ -2177,6 +2223,17 @@
 	  (:authors
 	   ("Tomohiro Matsuyama" . "m2ym.pub@gmail.com"))
 	  (:commit . "b189a4e8ccf18356395878c3d38a23df834d3898"))])
+ (powershell .
+	     [(0 4 0 20251112 62857)
+	      ((emacs
+		(24)))
+	      "Mode for editing PowerShell scripts" tar
+	      ((:url . "http://github.com/jschaf/powershell.el")
+	       (:keywords "powershell" "languages")
+	       (:maintainer "Frédéric Perrin" . "fredericperrinreselfr")
+	       (:authors
+		("Frédéric Perrin" . "fredericperrinreselfr"))
+	       (:commit . "587d847f3cb98cc3cf85fc8602dfa85b21f36d95"))])
  (projectile .
 	     [(2 9 1 0 20250716 140530)
 	      ((emacs
@@ -2847,7 +2904,7 @@
 	      ("Akib Azmain Turja" . "akib@disroot.org"))
 	     (:commit . "5203d9379afaf6703746823a580c804e1dd98e08"))])
  (with-editor .
-	      [(3 4 7 0 20251101 210014)
+	      [(3 4 7 0 20251113 204253)
 	       ((emacs
 		 (26 1))
 		(compat
@@ -2858,7 +2915,7 @@
 		(:maintainer "Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev")
 		(:authors
 		 ("Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev"))
-		(:commit . "dbc694406c2fd8e9d3e6ffbc4f8aff4e8c28029f"))])
+		(:commit . "250d5c86e3bdf99969c6fcadabfcf248bd8ddc4a"))])
  (with-simulated-input .
 		       [(3 0 0 20210602 224623)
 			((emacs
