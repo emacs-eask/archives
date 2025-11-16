@@ -6633,6 +6633,19 @@
 	      (:maintainers
 	       ("Wendel Scardua" . "wendel@scardua.net"))
 	      (:maintainer "Wendel Scardua" . "wendel@scardua.net"))])
+ (cabal-mode .
+	     [(0 1 0 1 -4 20251110 2128)
+	      ((emacs
+		(24 4)))
+	      "Support for Cabal packages" tar
+	      ((:url . "https://github.com/webdevred/cabal-mode")
+	       (:commit . "083a777e09bdb5a8d8d69862d44f13078664091f")
+	       (:revdesc . "083a777e09bd")
+	       (:authors
+		("Stefan Monnier" . "monnier@iro.umontreal.ca"))
+	       (:maintainers
+		("Stefan Monnier" . "monnier@iro.umontreal.ca"))
+	       (:maintainer "Stefan Monnier" . "monnier@iro.umontreal.ca"))])
  (cabledolphin .
 	       [(0 1 1 -4 20160204 938)
 		((emacs
@@ -69405,24 +69418,6 @@
 		  (:maintainers
 		   ("Adam Niederer" . "adam.niederer@gmail.com"))
 		  (:maintainer "Adam Niederer" . "adam.niederer@gmail.com"))])
- (s3ed .
-       [(0 2 0 1 -4 20200929 1317)
-	((emacs
-	  (25 1))
-	 (dash
-	  (2 17 0))
-	 (s
-	  (1 12 0)))
-	"Tramp-like access to s3" tar
-	((:url . "https://github.com/mattusifer/s3ed")
-	 (:commit . "2234444ead6c4c6fc3fea548958b36d2c29a9938")
-	 (:revdesc . "2234444ead6c")
-	 (:keywords "s3" "tools")
-	 (:authors
-	  ("Matt Usifer" . "mattusifer@gmail.com"))
-	 (:maintainers
-	  ("Matt Usifer" . "mattusifer@gmail.com"))
-	 (:maintainer "Matt Usifer" . "mattusifer@gmail.com"))])
  (sackspace .
 	    [(0 8 2 1 -4 20130719 956)
 	     nil "A better backspace" tar
