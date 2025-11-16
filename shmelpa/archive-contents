@@ -11931,7 +11931,7 @@
 		(:revdesc . "d11102c9db33")
 		(:keywords "tools" "completion" "lsp"))])
  (consult-notes .
-		[(0 1 0 1 -4 20251115 1804)
+		[(0 1 0 1 -4 20251116 1701)
 		 ((emacs
 		   (27 1))
 		  (consult
@@ -11942,8 +11942,8 @@
 		   (2 19)))
 		 "Manage notes with consult" tar
 		 ((:url . "https://github.com/mclear-tools/consult-notes")
-		  (:commit . "037231a2a460211b8d02d7652baa263bb6f337b8")
-		  (:revdesc . "037231a2a460")
+		  (:commit . "aa6671762538ec188bfb82641412849f4a7bcf1b")
+		  (:revdesc . "aa6671762538")
 		  (:keywords "convenience")
 		  (:authors
 		   ("Colin McLear" . "mclear@fastmail.com")))])
@@ -20804,13 +20804,13 @@
 		   ("DarkSun" . "lujun9972@gmail.com"))
 		  (:maintainer "DarkSun" . "lujun9972@gmail.com"))])
  (emacsql .
-	  [(0 1 0 1 -4 20251101 2007)
+	  [(0 1 0 1 -4 20251116 1655)
 	   ((emacs
 	     (26 1)))
 	   "High-level SQL database front-end" tar
 	   ((:url . "https://github.com/magit/emacsql")
-	    (:commit . "138fae5c3f55c81a4eded42eabe4e33483de567e")
-	    (:revdesc . "138fae5c3f55")
+	    (:commit . "e1908de2cf2c7b77798ef6645d514dded1d7f8a4")
+	    (:revdesc . "e1908de2cf2c")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainers
@@ -33128,6 +33128,23 @@
 	  (:maintainers
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))])
+ (gptel-agent .
+	      [(0 1 0 1 -4 20251116 1808)
+	       ((emacs
+		 (29 1))
+		(compat
+		 (30 1 0 0))
+		(gptel
+		 (0 9 9))
+		(yaml
+		 (1 2 0))
+		(orderless
+		 (1 1)))
+	       "Agentic LLM use for gptel" tar
+	       ((:url . "https://github.com/karthink/gptel-agent")
+		(:commit . "3c2d872ff283f1b30531419070016865627de260")
+		(:revdesc . "3c2d872ff283")
+		(:keywords "comm"))])
  (gptel-aibo .
 	     [(0 1 0 1 -4 20250709 851)
 	      ((emacs
@@ -34558,15 +34575,15 @@
 		(:revdesc . "8c70b48fe5fb")
 		(:keywords "faces"))])
  (helm .
-       [(0 1 0 1 -4 20251114 756)
+       [(0 1 0 1 -4 20251115 1450)
 	((helm-core
 	  (4 0 6))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
-	 (:commit . "1d58d2aef8193a48f49a99dc1415699df51cb5e4")
-	 (:revdesc . "1d58d2aef819")
+	 (:commit . "9540c7e7230c4743b4b7cb2449faa1aebb216baf")
+	 (:revdesc . "9540c7e7230c")
 	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
@@ -43564,7 +43581,7 @@
 	     ("Damien Cassou" . "damien@cassou.me"))
 	    (:maintainer "Damien Cassou" . "damien@cassou.me"))])
  (khoj .
-       [(0 1 0 1 -4 20251112 38)
+       [(0 1 0 1 -4 20251116 1908)
 	((emacs
 	  (27 1))
 	 (transient
@@ -43573,8 +43590,8 @@
 	  (2 19 1)))
 	"Your Second Brain" tar
 	((:url . "https://github.com/khoj-ai/khoj/tree/master/src/interface/emacs")
-	 (:commit . "d7e936678d4f73b1c7ab036d495229198156dbb1")
-	 (:revdesc . "d7e936678d4f")
+	 (:commit . "748a4f9941a04b96d7d0b5e446d34afb2569b5a0")
+	 (:revdesc . "748a4f9941a0")
 	 (:keywords "search" "chat" "ai" "org-mode" "outlines" "markdown" "pdf" "image")
 	 (:authors
 	  ("Debanjum Singh Solanky" . "debanjum@khoj.dev")
@@ -58511,6 +58528,22 @@
 		     (:commit . "9f9f9decde736c41cc1455c0c98a5ec4b7c8b3b6")
 		     (:revdesc . "9f9f9decde73")
 		     (:keywords "hypermedia"))])
+ (org-tag-tree .
+	       [(0 1 0 1 -4 20251109 1131)
+		((emacs
+		  (28 1))
+		 (org
+		  (9 0)))
+		"Define Org-mode tag hierarchies from Org subtrees" tar
+		((:url . "https://github.com/p-snow/org-tag-tree")
+		 (:commit . "af2b574dbddac0f73cc03bfb15acfe675f622f83")
+		 (:revdesc . "af2b574dbdda")
+		 (:keywords "outlines" "convenience")
+		 (:authors
+		  ("p-snow" . "public@p-snow.org"))
+		 (:maintainers
+		  ("p-snow" . "public@p-snow.org"))
+		 (:maintainer "p-snow" . "public@p-snow.org"))])
  (org-tagged .
 	     [(0 0 6 1 -4 20220926 2048)
 	      ((s
@@ -67778,13 +67811,13 @@
 		    (:revdesc . "c9a327bfd3c6")
 		    (:keywords "outlines"))])
  (renpy-mode .
-	     [(0 1 0 1 -4 20251021 1120)
+	     [(0 1 0 1 -4 20251021 1137)
 	      ((emacs
 		(27 1)))
 	      "Major mode for editing Ren'Py files" tar
 	      ((:url . "https://github.com/Reagankm/renpy-mode")
-	       (:commit . "a863e5439b738a7d3f6d15a69d5dbe85da7ec5b6")
-	       (:revdesc . "a863e5439b73")
+	       (:commit . "c2de0097fed9bf246350aca3fa7beff5b2bfe173")
+	       (:revdesc . "c2de0097fed9")
 	       (:keywords "languages")
 	       (:authors
 		("Dave Love" . "fx@gnu.org"))
