@@ -34,7 +34,7 @@ jobs:
       with:
         version: 'snapshot'
 
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
 
     - name: Refresh archives
       run: make refresh
