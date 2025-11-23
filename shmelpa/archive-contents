@@ -38529,13 +38529,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20251122 1843)
+	    [(0 1 0 1 -4 20251123 1806)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "e2fdb31d44e0ff8cba807f84abd12a7b4c559bb0")
-	      (:revdesc . "e2fdb31d44e0")
+	      (:commit . "f36426ccb0418a3a7ec7da8b7ea5baa24cf4e472")
+	      (:revdesc . "f36426ccb041")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -43297,7 +43297,7 @@
 	      ("Naoya Yamashita" . "conao3@gmail.com"))
 	     (:maintainer "Naoya Yamashita" . "conao3@gmail.com"))])
  (kele .
-       [(0 1 0 1 -4 20251111 416)
+       [(0 1 0 1 -4 20251123 1909)
 	((emacs
 	  (29 1))
 	 (async
@@ -43306,8 +43306,6 @@
 	  (2 19 1))
 	 (f
 	  (0 20 0))
-	 (ht
-	  (2 3))
 	 (memoize
 	  (0))
 	 (plz
@@ -43318,8 +43316,8 @@
 	  (0 5 1)))
 	"Spritzy Kubernetes cluster management" tar
 	((:url . "https://github.com/jinnovation/kele.el")
-	 (:commit . "047ae15e8c9e50d70dd009e1354beb9363c58243")
-	 (:revdesc . "047ae15e8c9e")
+	 (:commit . "163a23f8fffe3af85af540b9ef2f27d1cd05a995")
+	 (:revdesc . "163a23f8fffe")
 	 (:keywords "kubernetes" "tools")
 	 (:authors
 	  ("Jonathan Jin" . "me@jonathanj.in"))
@@ -59226,19 +59224,21 @@
 	    ("Yasuhito Takamiya" . "yasuhito@gmail.com"))
 	   (:maintainer "Yasuhito Takamiya" . "yasuhito@gmail.com"))])
  (orgit .
-	[(0 1 0 1 -4 20251101 2137)
+	[(0 1 0 1 -4 20251123 1801)
 	 ((emacs
 	   (28 1))
 	  (compat
 	   (30 1))
+	  (cond-let
+	   (0 2))
 	  (magit
 	   (4 4))
 	  (org
 	   (9 7)))
 	 "Support for Org links to Magit buffers" tar
 	 ((:url . "https://github.com/magit/orgit")
-	  (:commit . "9a171dfc7775c9286318b26710fcbf223fbde056")
-	  (:revdesc . "9a171dfc7775")
+	  (:commit . "0444b8659620e5100ab8d09694c6ffe6841b24cd")
+	  (:revdesc . "0444b8659620")
 	  (:keywords "hypermedia" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
@@ -59246,11 +59246,13 @@
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
 	  (:maintainer "Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))])
  (orgit-forge .
-	      [(0 1 0 1 -4 20251101 2141)
+	      [(0 1 0 1 -4 20251123 1809)
 	       ((emacs
 		 (29 1))
 		(compat
 		 (30 1))
+		(cond-let
+		 (0 2))
 		(forge
 		 (0 6))
 		(magit
@@ -59261,8 +59263,8 @@
 		 (2 1)))
 	       "Org links to Forge issue buffers" tar
 	       ((:url . "https://github.com/magit/orgit-forge")
-		(:commit . "964a81d1e4e95a61e6304237172889b222fca845")
-		(:revdesc . "964a81d1e4e9")
+		(:commit . "8b3de493a5b6db36c441202d1ba5b95a5be4dd91")
+		(:revdesc . "8b3de493a5b6")
 		(:keywords "hypermedia" "vc")
 		(:authors
 		 ("Jonas Bernoulli" . "emacs.orgit-forge@jonas.bernoulli.dev"))
@@ -72417,11 +72419,11 @@
 		   ("Simon Friis Vindum" . "simon@vindum.io"))
 		  (:maintainer "Simon Friis Vindum" . "simon@vindum.io"))])
  (smart-compile .
-		[(0 1 0 1 -4 20250227 1850)
+		[(0 1 0 1 -4 20251123 1819)
 		 nil "An interface to `compile'" tar
 		 ((:url . "https://github.com/zenitani/elisp")
-		  (:commit . "f48f508e2669f4ba66d26806bc40da1515dec85f")
-		  (:revdesc . "f48f508e2669")
+		  (:commit . "a306b00bdf64470c9256b7ec5a5920b708b2b17a")
+		  (:revdesc . "a306b00bdf64")
 		  (:keywords "tools" "unix")
 		  (:authors
 		   ("Seiji Zenitani" . "zenitani@gmail.com"))
@@ -76098,6 +76100,20 @@
 	       (:maintainers
 		("Phillip Lord" . "phillip.lord@newcastle.ac.uk"))
 	       (:maintainer "Phillip Lord" . "phillip.lord@newcastle.ac.uk"))])
+ (tbindent .
+	   [(0 1 0 1 -4 20251116 1841)
+	    ((emacs
+	      (29 1)))
+	    "Tab Based Indentation Converter" tar
+	    ((:url . "https://github.com/pierre-rouleau/tab-based-indent")
+	     (:commit . "136d21852f46321e7883dd94e6bb6000877bda59")
+	     (:revdesc . "136d21852f46")
+	     (:keywords "convenience" "languages")
+	     (:authors
+	      ("Pierre Rouleau" . "prouleau001@gmail.com"))
+	     (:maintainers
+	      ("Pierre Rouleau" . "prouleau001@gmail.com"))
+	     (:maintainer "Pierre Rouleau" . "prouleau001@gmail.com"))])
  (tblui .
 	[(0 2 0 1 -4 20231201 1100)
 	 ((dash
