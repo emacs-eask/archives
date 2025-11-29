@@ -1050,7 +1050,7 @@
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
       (:commit . "70c81a957445beedcd88e4df929551ac77f1d0c5"))])
  (eglot
-  . [(1 19 0 20251128 213220)
+  . [(1 19 0 20251129 112156)
      ((emacs (26 3)) (eldoc (1 14 0)) (external-completion (0 1))
       (flymake (1 4 2)) (jsonrpc (1 0 26)) (project (0 9 8))
       (seq (2 23)) (xref (1 6 2)))
@@ -1059,7 +1059,7 @@
       (:keywords "convenience" "languages")
       (:maintainer "João Távora" . "joaotavora@gmail.com")
       (:authors ("João Távora" . "joaotavora@gmail.com"))
-      (:commit . "a542ed23e488675723832071e2ca2fc7333beed7"))])
+      (:commit . "ef903e0f5ac27c80a2d3429392a82c3d24795c55"))])
  (el-job
   . [(2 5 3 0 20251008 162616) ((emacs (29 1)))
      "Contrived way to call a function using all CPU cores" tar
@@ -1155,14 +1155,14 @@
       (:authors ("Adam Porter" . "adam@alphapapa.net"))
       (:commit . "790aee7d8fdd658bd1740b5e59a5e64c3842014b"))])
  (emms
-  . [(24 0 20251125 62111) ((cl-lib (0 5)) (nadvice (0 3)) (seq (0)))
+  . [(24 0 20251129 194613) ((cl-lib (0 5)) (nadvice (0 3)) (seq (0)))
      "The Emacs Multimedia System" tar
      ((:url . "https://www.gnu.org/software/emms/")
       (:keywords "emms" "mp3" "ogg" "flac" "music" "mpeg" "video"
 		 "multimedia")
       (:maintainer "Yoni Rabkin" . "yrk@gnu.org")
       (:authors ("Jorgen Schäfer" . "forcer@forcix.cx"))
-      (:commit . "2b652057ca75b99fab6fb8da90ead645b4a6af13"))])
+      (:commit . "c47c3b67a3eb8dee61bbf69d05d790d7c2e91579"))])
  (engrave-faces
   . [(0 3 1 0 20240421 82802) ((emacs (27 1)))
      "Convert font-lock faces to other formats" tar
@@ -1209,7 +1209,7 @@
 		 . "storm@cua.dk"))
       (:commit . "97d856bbf081de1d387ec646d06aac7bcce3f675"))])
  (ess
-  . [(25 1 0 0 20251105 165436) ((emacs (25 1)))
+  . [(25 1 0 0 20251129 104426) ((emacs (25 1)))
      "Emacs Speaks Statistics" tar
      ((:url . "https://ess.r-project.org/")
       (:maintainer "ESS Core Team" . "ESS-core@r-project.org")
@@ -1225,7 +1225,7 @@
 		("Vitalie Spinu" . "spinuvit@gmail.com")
 		("Lionel Henry" . "lionel.hry@gmail.com")
 		("J. Alexander Branham" . "alex.branham@gmail.com"))
-      (:commit . "378b5694af1260998e40dd681f87bddc667fcd05"))])
+      (:commit . "7b9123669cccb26f346624fc82f7e2ff74b5dc62"))])
  (excorporate
   . [(1 1 3 0 20250627 211849)
      ((fsm (0 2 1)) (soap-client (3 2 0)) (url-http-ntlm (2 0 6))
@@ -1605,7 +1605,7 @@
       (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com"))
       (:commit . "84a9db01eff1fcc52ad054c5ad3c22316739573f"))])
  (hyperbole
-  . [(9 0 2 -1 0 20251125 212734) ((emacs (28)))
+  . [(9 0 2 -1 0 20251129 124021) ((emacs (28)))
      "GNU Hyperbole: The Everyday Hypertextual Information Manager"
      tar
      ((:url . "http://www.gnu.org/software/hyperbole")
@@ -1614,7 +1614,7 @@
 		 "outlines" "tools" "wp")
       (:maintainer "Robert Weiner" . "rsw@gnu.org")
       (:authors ("Robert Weiner" . "rsw@gnu.org"))
-      (:commit . "028402df7bb32b7ef471e6bfb32725ae27c318a1"))])
+      (:commit . "e33997759bb84c4755bca972c61aef404914d92b"))])
  (idlwave
   . [(6 5 1 0 20240523 142720) nil "IDL editing mode for GNU Emacs"
      tar
@@ -1899,7 +1899,7 @@
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
       (:commit . "993ed8519715dcd390ebb3c9f983f3c8d2d56de2"))])
  (listen
-  . [(0 10 -1 0 20251123 212313)
+  . [(0 10 -1 0 20251129 115339)
      ((emacs (29 1)) (persist (0 6)) (taxy (0 10))
       (taxy-magit-section (0 13)) (transient (0 5 3)))
      "Audio/Music player" tar
@@ -1907,7 +1907,7 @@
       (:keywords "multimedia")
       (:maintainer "Adam Porter" . "adam@alphapapa.net")
       (:authors ("Adam Porter" . "adam@alphapapa.net"))
-      (:commit . "9d8825a2ff776a127c12ba2e968a0c43a8b99e5c"))])
+      (:commit . "83669a4574b0475f31f2808c348e4ea29462df66"))])
  (literate-scratch
   . [(2 2 0 20250425 54453) ((emacs (29 1)))
      "Lisp Interaction w/ text paragraphs" tar
@@ -3205,12 +3205,12 @@
       (:url . "https://elpa.gnu.org/packages/stream.html")
       (:commit . "b9b3ad5c38063703cfa5a06522031e631c49b7e3"))])
  (substitute
-  . [(0 4 0 0 20251129 84101) ((emacs (27 1)))
+  . [(0 4 0 0 20251129 90529) ((emacs (27 1)))
      "Efficiently replace targets in the buffer or context" tar
      ((:url . "https://github.com/protesilaos/substitute")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "63818140b432212ea2d5314a27469c53535b61f8"))])
+      (:commit . "a708398645f971ca507fe29fdf96d7dde642f7b9"))])
  (svg
   . [(1 1 0 20250101 73917) ((emacs (25)))
      "SVG image creation functions" tar
@@ -3300,13 +3300,13 @@
       (:authors ("Onnie Lynn Winebarger" . "owinebar@gmail.com"))
       (:commit . "0dcaa2cc9c36e0f5f6722cc0017cf0fced4d9c27"))])
  (taxy
-  . [(0 10 2 0 20240816 184044) ((emacs (26 3)))
+  . [(0 11 -1 0 20251129 62050) ((emacs (26 3)))
      "Programmable taxonomical grouping for arbitrary objects" tar
      ((:url . "https://github.com/alphapapa/taxy.el")
       (:keywords "lisp")
       (:maintainer "Adam Porter" . "adam@alphapapa.net")
       (:authors ("Adam Porter" . "adam@alphapapa.net"))
-      (:commit . "3099ae5cb27a34961e06a3af67555919c62c12d7"))])
+      (:commit . "c7b830cf48d639be8fb7ee0f55f53341cb185102"))])
  (taxy-magit-section
   . [(0 14 3 0 20240923 174028)
      ((emacs (26 3)) (magit-section (3 2 1)) (taxy (0 10)))
@@ -3469,7 +3469,7 @@
       (:url . "https://elpa.gnu.org/packages/transcribe.html")
       (:commit . "2c2d493d5488f3b444d2a771ab443589fcc72c13"))])
  (transient
-  . [(0 11 0 0 20251118 161122)
+  . [(0 11 0 0 20251129 155159)
      ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (seq (2 24)))
      "Transient commands" tar
      ((:url . "https://github.com/magit/transient")
@@ -3478,7 +3478,7 @@
 		   . "emacs.transient@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
-      (:commit . "0d3f8d4fb6d41b841126820a06ecc98579bd8265"))])
+      (:commit . "f960acdf745482d33473da0efe43a1c613e57fbb"))])
  (transient-cycles
   . [(2 0 0 20250625 85410) ((emacs (29 1)))
      "Define command variants with transient cycling" tar
@@ -3625,13 +3625,13 @@
       (:authors ("Andrii Kolomoiets" . "andreyk.mad@gmail.com"))
       (:commit . "aec2ee7733c38e55d7406c362b9fd5485b21299c"))])
  (vc-jj
-  . [(0 4 0 20251128 161600) ((emacs (28 1)) (compat (29 4)))
+  . [(0 4 0 20251129 105545) ((emacs (28 1)) (compat (29 4)))
      "VC backend for the Jujutsu version control system" tar
      ((:url . "https://codeberg.org/emacs-jj-vc/vc-jj.el")
       (:keywords "vc" "tools")
       (:maintainer "Rudolf Schlatte" . "rudi@constantly.at")
       (:authors ("Rudolf Schlatte" . "rudi@constantly.at"))
-      (:commit . "de73fad014de0eea0cd8cf6ccd964be79a807023"))])
+      (:commit . "289babeef8d56aafed17bcc03c037e49b722a70d"))])
  (vcard
   . [(0 2 2 0 20230718 145809) ((emacs (27 1)))
      "Package for handling vCard files" tar
