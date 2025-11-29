@@ -21102,7 +21102,7 @@
 		("Shin Aoyama" . "smihica@gmail.com"))
 	       (:maintainer "Shin Aoyama" . "smihica@gmail.com"))])
  (emms .
-       [(0 1 0 1 -4 20251125 1121)
+       [(0 1 0 1 -4 20251129 1946)
 	((cl-lib
 	  (0 5))
 	 (nadvice
@@ -21111,8 +21111,8 @@
 	  (0)))
 	"The Emacs Multimedia System" tar
 	((:url . "https://www.gnu.org/software/emms/")
-	 (:commit . "2b652057ca75b99fab6fb8da90ead645b4a6af13")
-	 (:revdesc . "2b652057ca75")
+	 (:commit . "c47c3b67a3eb8dee61bbf69d05d790d7c2e91579")
+	 (:revdesc . "c47c3b67a3eb")
 	 (:keywords "emms" "mp3" "ogg" "flac" "music" "mpeg" "video" "multimedia")
 	 (:authors
 	  ("Jorgen Schäfer" . "forcer@forcix.cx"))
@@ -30386,6 +30386,22 @@
 		  (:maintainers
 		   (nil . "nathan@gdquest.com"))
 		  (:maintainer nil . "nathan@gdquest.com"))])
+ (gdshader-mode .
+		[(0 1 0 1 -4 20251123 1852)
+		 ((emacs
+		   (24 3))
+		  (glsl-mode
+		   (2 4)))
+		 "Major mode for Godot gdshader files" tar
+		 ((:url . "https://github.com/bbbscarter/gdshader-mode")
+		  (:commit . "8e9efda9393d44be96009f37ff7201df3d36f05f")
+		  (:revdesc . "8e9efda9393d")
+		  (:keywords "languages" "opengl" "gpu" "godot")
+		  (:authors
+		   ("Simon Carter" . "bbbscarter@gmail.com"))
+		  (:maintainers
+		   ("Simon Carter" . "bbbscarter@gmail.com"))
+		  (:maintainer "Simon Carter" . "bbbscarter@gmail.com"))])
  (geben .
 	[(1 1 1 1 -4 20220827 105)
 	 ((emacs
