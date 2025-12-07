@@ -601,13 +601,13 @@
        ("Jackson Ray Hamilton" . "jackson@jacksonrayhamilton.com"))
       (:commit . "75a8c811874c231b49729e76c696824463e54402"))])
  (corfu
-  . [(2 5 0 20251204 213502) ((emacs (29 1)) (compat (30)))
+  . [(2 6 0 20251207 172918) ((emacs (29 1)) (compat (30)))
      "COmpletion in Region FUnction" tar
      ((:url . "https://github.com/minad/corfu")
       (:keywords "abbrev" "convenience" "matching" "completion" "text")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "144959455bf4e6f6479502659e7d0b540dfa1a82"))])
+      (:commit . "79bb30ebe606f26e9fd51a739864c2c56dd221c4"))])
  (coterm
   . [(1 6 0 20221015 160420) ((emacs (26 1)) (compat (28 1 2 0)))
      "Terminal emulation for comint" tar
@@ -1605,7 +1605,7 @@
       (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com"))
       (:commit . "84a9db01eff1fcc52ad054c5ad3c22316739573f"))])
  (hyperbole
-  . [(9 0 2 -1 0 20251202 114248) ((emacs (28)))
+  . [(9 0 2 -1 0 20251206 230314) ((emacs (28)))
      "GNU Hyperbole: The Everyday Hypertextual Information Manager"
      tar
      ((:url . "http://www.gnu.org/software/hyperbole")
@@ -1614,7 +1614,7 @@
 		 "outlines" "tools" "wp")
       (:maintainer "Robert Weiner" . "rsw@gnu.org")
       (:authors ("Robert Weiner" . "rsw@gnu.org"))
-      (:commit . "2d5d22a6664ff55338a355e64554b5ceb0a31177"))])
+      (:commit . "d3e1a9bf19936ad7a108da341f5c774f9114f823"))])
  (idlwave
   . [(6 5 1 0 20240523 142720) nil "IDL editing mode for GNU Emacs"
      tar
@@ -1631,13 +1631,13 @@
       (:authors ("Durand" . "mmemmew@gmail.com"))
       (:commit . "8f221c58a8c694112738e346c630d4d49a41d967"))])
  (indent-bars
-  . [(0 9 2 0 20251203 143917) ((emacs (27 1)) (compat (30)))
+  . [(0 9 2 0 20251207 155448) ((emacs (27 1)) (compat (30)))
      "Highlight indentation with bars" tar
      ((:url . "https://github.com/jdtsmith/indent-bars")
       (:keywords "convenience")
       (:maintainer "J.D. Smith" . "jdtsmith+elpa@gmail.com")
       (:authors ("J.D. Smith" . "jdtsmith+elpa@gmail.com"))
-      (:commit . "7e3f5fe26edcc71b392543ba1d05d408b3f1de40"))])
+      (:commit . "1c60bf90973c837f51720d91d1b719e369ba8d34"))])
  (inspector
   . [(0 39 0 20251204 171741) ((emacs (27 1)))
      "Tool for inspection of Emacs Lisp objects" tar
@@ -1918,14 +1918,14 @@
       (:authors ("Sean Whitton" . "spwhitton@spwhitton.name"))
       (:commit . "00b8f65effe4f2673e6450d70000644b266aa78a"))])
  (llm
-  . [(0 28 0 0 20251206 140405)
+  . [(0 28 0 0 20251207 112237)
      ((emacs (28 1)) (plz (0 8)) (plz-event-source (0 1 1))
       (plz-media-type (0 2 1)) (compat (29 1)))
      "Interface to pluggable llm backends" tar
      ((:url . "https://github.com/ahyatt/llm")
       (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
       (:authors ("Andrew Hyatt" . "ahyatt@gmail.com"))
-      (:commit . "4c2b673120a78d7af82e7d0e6bd75a193d8ca8a5"))])
+      (:commit . "1e729721ac19f138c7b13e3f3221a3b97fbcf894"))])
  (lmc
   . [(1 4 0 20230105 113402) ((emacs (24)) (cl-lib (0 5)))
      "Little Man Computer in Elisp" tar
@@ -2344,13 +2344,13 @@
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
       (:commit . "26a384894678a1e51e3bf914af3699a61794fb57"))])
  (org
-  . [(9 8 -1 0 20251202 205052) ((emacs (26 1)))
+  . [(9 8 -1 0 20251207 195940) ((emacs (26 1)))
      "Outline-based notes management and organizer" tar
      ((:url . "https://orgmode.org")
       (:keywords "outlines" "hypermedia" "calendar" "text")
       (:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-      (:commit . "72db4de02d0080d78a5b4dda137ffdb1b1e7140f"))])
+      (:commit . "9d128ebbc88978f65095d47361b4ec71b91d340d"))])
  (org-contacts
   . [(1 1 0 20250905 33527) ((emacs (29 1)) (org (9 7)))
      "Contacts management system for Org mode" tar
@@ -3632,13 +3632,13 @@
       (:authors ("Andrii Kolomoiets" . "andreyk.mad@gmail.com"))
       (:commit . "aec2ee7733c38e55d7406c362b9fd5485b21299c"))])
  (vc-jj
-  . [(0 4 0 20251206 204718) ((emacs (28 1)) (compat (29 4)))
+  . [(0 4 0 20251207 43717) ((emacs (28 1)) (compat (29 4)))
      "VC backend for the Jujutsu version control system" tar
      ((:url . "https://codeberg.org/emacs-jj-vc/vc-jj.el")
       (:keywords "vc" "tools")
       (:maintainer "Rudolf Schlatte" . "rudi@constantly.at")
       (:authors ("Rudolf Schlatte" . "rudi@constantly.at"))
-      (:commit . "8b3277b99adf46d12c9e78b7a51818e293cdb743"))])
+      (:commit . "a8f540d89de4dfa54e970078df6a4888915dfe2c"))])
  (vcard
   . [(0 2 2 0 20230718 145809) ((emacs (27 1)))
      "Package for handling vCard files" tar
