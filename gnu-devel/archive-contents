@@ -3442,6 +3442,13 @@
       (:authors ("Kai Großjohann" . "kai.grossjohann@gmx.net")
 		("Michael Albinus" . "michael.albinus@gmx.de"))
       (:commit . "ffb5b3473a4054e8d5499370cae50032227e8644"))])
+ (tramp-hlo
+  . [(0 0 1 0 20251207 5705) ((tramp (2 8 0 5)))
+     "High level operations as Tramp handlers" tar
+     ((:url . "https://github.com/jsadusk/tramp-hlo")
+      (:maintainer "Joe Sadusk" . "joe@sadusk.com")
+      (:authors ("Joe Sadusk" . "joe@sadusk.com"))
+      (:commit . "703c2b0d83a486d3010774eaf97b259b82d574f0"))])
  (tramp-nspawn
   . [(1 0 1 0 20220923 120957) ((emacs (23)))
      "Tramp integration for systemd-nspawn containers" tar
@@ -3625,13 +3632,13 @@
       (:authors ("Andrii Kolomoiets" . "andreyk.mad@gmail.com"))
       (:commit . "aec2ee7733c38e55d7406c362b9fd5485b21299c"))])
  (vc-jj
-  . [(0 4 0 20251205 103738) ((emacs (28 1)) (compat (29 4)))
+  . [(0 4 0 20251206 204718) ((emacs (28 1)) (compat (29 4)))
      "VC backend for the Jujutsu version control system" tar
      ((:url . "https://codeberg.org/emacs-jj-vc/vc-jj.el")
       (:keywords "vc" "tools")
       (:maintainer "Rudolf Schlatte" . "rudi@constantly.at")
       (:authors ("Rudolf Schlatte" . "rudi@constantly.at"))
-      (:commit . "643c05bf6a95b1e1f214e5f3374523fa268622d1"))])
+      (:commit . "8b3277b99adf46d12c9e78b7a51818e293cdb743"))])
  (vcard
   . [(0 2 2 0 20230718 145809) ((emacs (27 1)))
      "Package for handling vCard files" tar
