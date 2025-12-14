@@ -567,13 +567,13 @@
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:commit . "d0370320d9fdde5ac6e0a27720f51138315af882"))])
  (consult-denote
-  . [(0 4 2 0 20251201 45705)
+  . [(0 4 2 0 20251214 71410)
      ((emacs (28 1)) (denote (4 0 0)) (consult (2 2)))
      "Use Consult in tandem with Denote" tar
      ((:url . "https://github.com/protesilaos/consult-denote")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "122760ac3503f141625a2b3513d60c06c27cf84f"))])
+      (:commit . "d5751242541328c43111f8dcfc3d5a215ce2954f"))])
  (consult-hoogle
   . [(0 5 0 0 20250219 74017) ((emacs (27 1)) (consult (2 0)))
      "Hoogle frontend using consult" tar
@@ -750,19 +750,19 @@
       (:authors ("Phil Sainty" . "psainty@orcon.net.nz"))
       (:commit . "5a0cd5ccb650d7bba1c1ea02cf67b71d7cfa6e9a"))])
  (denote
-  . [(4 1 3 0 20251213 32617) ((emacs (28 1)))
+  . [(4 1 3 0 20251214 72922) ((emacs (28 1)))
      "Simple notes with an efficient file-naming scheme" tar
      ((:url . "https://github.com/protesilaos/denote")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "220644d97cf529aca14263f47940e73d38536ae1"))])
+      (:commit . "cc83feb3ba8e6b45c60d430db10af3485314b2b1"))])
  (denote-journal
-  . [(0 2 2 0 20251201 50224) ((emacs (28 1)) (denote (4 0 0)))
+  . [(0 2 2 0 20251214 52014) ((emacs (28 1)) (denote (4 0 0)))
      "Convenience functions for daily journaling with Denote" tar
      ((:url . "https://github.com/protesilaos/denote-journal")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "fdeacaa134e9de29a1888ad23d754b4ada3d8247"))])
+      (:commit . "adb744d65b7701d7012aafc496aed82ec5487514"))])
  (denote-markdown
   . [(0 2 1 0 20251201 50143) ((emacs (28 1)) (denote (4 0 0)))
      "Extensions that better integrate Denote with Markdown" tar
@@ -778,12 +778,12 @@
       (:authors ("Mohamed Suliman" . "sulimanm@tcd.ie"))
       (:commit . "9bf3bed5e0f59621a98169bbbd4b359d3a039b22"))])
  (denote-org
-  . [(0 2 1 0 20251201 50049) ((emacs (28 1)) (denote (4 0 0)))
+  . [(0 2 1 0 20251214 51953) ((emacs (28 1)) (denote (4 0 0)))
      "Denote extensions for Org mode" tar
      ((:url . "https://github.com/protesilaos/denote-org")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "36f24f0f0f472e4cb50025ed62a1b32351d7d294"))])
+      (:commit . "dd4ba8a78dd6a8303e1e882fe953bb21bcc83167"))])
  (denote-search
   . [(1 0 3 0 20250501 205109) ((emacs (29 1)) (denote (3 0)))
      "Search the contents of your notes" tar
@@ -793,19 +793,19 @@
       (:authors ("Lucas Quintana" . "lmq10@protonmail.com"))
       (:commit . "7ae1f43470fc375c8add5f8c78f8e7d1d7c2da42"))])
  (denote-sequence
-  . [(0 2 0 0 20251201 151726) ((emacs (28 1)) (denote (4 0 0)))
+  . [(0 2 0 0 20251214 53816) ((emacs (28 1)) (denote (4 0 0)))
      "Sequence notes or Folgezettel with Denote" tar
      ((:url . "https://github.com/protesilaos/denote-sequence")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "ad9d32962af10393692388a960a8a3658a31a91f"))])
+      (:commit . "91a49127e77841374f52645199b4768abf106651"))])
  (denote-silo
-  . [(0 2 0 0 20251129 150806) ((emacs (28 1)) (denote (4 0 0)))
+  . [(0 2 0 0 20251214 51915) ((emacs (28 1)) (denote (4 0 0)))
      "Convenience functions for using Denote in multiple silos" tar
      ((:url . "https://github.com/protesilaos/denote-silo")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "e8c240b92830a7bfc7d07ea93387133b9ff74595"))])
+      (:commit . "a1ee86a410e6e79532f4cdf0a5f35412aafb8528"))])
  (detached
   . [(0 10 1 0 20221129 143049) ((emacs (27 1)))
      "A package to launch, and manage, detached processes" tar
@@ -851,13 +851,13 @@
       (:authors ("Toby Cubitt" . "toby-predictive@dr-qubit.org"))
       (:commit . "a83ea986982b2d09d150456028a9f1e73658333a"))])
  (diff-hl
-  . [(1 10 0 0 20251126 11212) ((cl-lib (0 2)) (emacs (26 1)))
+  . [(1 10 0 0 20251214 21618) ((cl-lib (0 2)) (emacs (26 1)))
      "Highlight uncommitted changes using VC" tar
      ((:url . "https://github.com/dgutov/diff-hl")
       (:keywords "vc" "diff")
       (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
       (:authors ("Dmitry Gutov" . "dmitry@gutov.dev"))
-      (:commit . "685ea2d50607a9902f1c6c141ee6268d759b9b25"))])
+      (:commit . "845c492a9b5174c136e4246ef8e3312ad9156dfe"))])
  (diffview
   . [(1 0 0 20230224 111651) nil "View diffs in side-by-side format"
      tar
@@ -2120,13 +2120,13 @@
       (:url . "https://elpa.gnu.org/packages/minimap.html")
       (:commit . "b295cab07c1932c11dd00f23ba29c1ff0de486ab"))])
  (minuet
-  . [(0 7 0 0 20251212 124823)
+  . [(0 7 0 0 20251214 21922)
      ((emacs (29)) (plz (0 9)) (dash (2 19 1)))
      "Code completion using LLM" tar
      ((:url . "https://github.com/milanglacier/minuet-ai.el")
       (:maintainer "Milan Glacier" . "dev@milanglacier.com")
       (:authors ("Milan Glacier" . "dev@milanglacier.com"))
-      (:commit . "3d706144ddc6a7701c57b25f328ac94223994513"))])
+      (:commit . "4426673a9a28dfdce7affa87cc7f7600fd9d6a60"))])
  (mmm-mode
   . [(0 5 11 0 20240222 42825) ((emacs (25 1)) (cl-lib (0 2)))
      "Allow Multiple Major Modes in a buffer" tar
@@ -2414,14 +2414,14 @@
       (:authors ("Amy Grinn" . "grinn.amy@gmail.com"))
       (:commit . "aa45c5dc795779e4f25e4a8200da06454e070a79"))])
  (org-remark
-  . [(1 3 0 0 20250129 201717) ((emacs (27 1)) (org (9 4)))
+  . [(1 3 0 0 20251214 30531) ((emacs (27 1)) (org (9 4)))
      "Highlight & annotate text, Info, EPUB, EWW" tar
      ((:url . "https://github.com/nobiot/org-remark")
       (:keywords "org-mode" "annotation" "note-taking"
 		 "marginal-notes" "wp")
       (:maintainer "Noboru Ota" . "me@nobiot.com")
       (:authors ("Noboru Ota" . "me@nobiot.com"))
-      (:commit . "4c01a05e03f418d6066dec50b19ec39388a4193f"))])
+      (:commit . "4389853625f51ef9495ea4317979a73f942f1b00"))])
  (org-transclusion
   . [(1 4 0 0 20251208 45108) ((emacs (27 1)) (org (9 4)))
      "Transclude text content via links" tar
@@ -2668,10 +2668,10 @@
       (:authors ("Paul D. Nelson" . "nelson.paul.david@gmail.com"))
       (:commit . "731d92247aab0a51c208d0fe196db3dec0d1b2e9"))])
  (project
-  . [(0 11 1 0 20251130 183251) ((emacs (26 1)) (xref (1 7 0)))
+  . [(0 11 1 0 20251214 23416) ((emacs (26 1)) (xref (1 7 0)))
      "Operations on the current project" tar
      ((:url . "https://elpa.gnu.org/packages/project.html")
-      (:commit . "5b07a81bedaddbe2874b37c79ef6c4c80da7707e"))])
+      (:commit . "d481b9efdc65bb066e2c765ae76ab5aa93dc9541"))])
  (psgml
   . [(1 3 5 0 20221229 184738) nil
      "SGML-editing mode with parsing support" tar
@@ -3120,13 +3120,13 @@
       (:authors ("Artur Malabarba" . "emacs@endlessparentheses.com"))
       (:commit . "04186129f2dccf48e288639b78adeb9c0e94be54"))])
  (spacious-padding
-  . [(0 7 0 0 20251128 50614) ((emacs (28 1)))
+  . [(0 8 0 0 20251213 180643) ((emacs (28 1)))
      "Increase the padding/spacing of frames and windows" tar
      ((:url . "https://github.com/protesilaos/spacious-padding")
       (:keywords "convenience" "focus" "writing" "presentation")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "2a2eaeb94d1829c90bfa69885e481385fea4f659"))])
+      (:commit . "9507cb206e1187c08574e8fa65c3fe6aeab84063"))])
  (speedrect
   . [(0 7 0 20241220 133155) ((emacs (29 1)) (compat (30)))
      "Fast modal rectangle commands" tar
