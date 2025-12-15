@@ -567,13 +567,13 @@
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:commit . "d0370320d9fdde5ac6e0a27720f51138315af882"))])
  (consult-denote
-  . [(0 4 2 0 20251215 75356)
+  . [(0 4 2 0 20251215 164855)
      ((emacs (28 1)) (denote (4 0 0)) (consult (2 2)))
      "Use Consult in tandem with Denote" tar
      ((:url . "https://github.com/protesilaos/consult-denote")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "3911ea568b71590219f7cc9b3e6b2560bb569b2a"))])
+      (:commit . "feb9c31a26eece1bf3a615e706cefb30d209317e"))])
  (consult-hoogle
   . [(0 5 0 0 20250219 74017) ((emacs (27 1)) (consult (2 0)))
      "Hoogle frontend using consult" tar
@@ -750,12 +750,12 @@
       (:authors ("Phil Sainty" . "psainty@orcon.net.nz"))
       (:commit . "5a0cd5ccb650d7bba1c1ea02cf67b71d7cfa6e9a"))])
  (denote
-  . [(4 1 3 0 20251215 75211) ((emacs (28 1)))
+  . [(4 1 3 0 20251215 162349) ((emacs (28 1)))
      "Simple notes with an efficient file-naming scheme" tar
      ((:url . "https://github.com/protesilaos/denote")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "1064cc2f38f20a84ba1656ffe52db2c72eac467a"))])
+      (:commit . "ce86684870ce969af803434a1273b366a96031e6"))])
  (denote-journal
   . [(0 2 2 0 20251215 75458) ((emacs (28 1)) (denote (4 0 0)))
      "Convenience functions for daily journaling with Denote" tar
@@ -793,12 +793,12 @@
       (:authors ("Lucas Quintana" . "lmq10@protonmail.com"))
       (:commit . "7ae1f43470fc375c8add5f8c78f8e7d1d7c2da42"))])
  (denote-sequence
-  . [(0 2 0 0 20251215 75257) ((emacs (28 1)) (denote (4 0 0)))
+  . [(0 2 0 0 20251215 164811) ((emacs (28 1)) (denote (4 0 0)))
      "Sequence notes or Folgezettel with Denote" tar
      ((:url . "https://github.com/protesilaos/denote-sequence")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "2f15e3c26684c8348529f500e4b64b7866f3796e"))])
+      (:commit . "87c5079dd10d70e91d0d712c760d98a500921f85"))])
  (denote-silo
   . [(0 2 0 0 20251215 75639) ((emacs (28 1)) (denote (4 0 0)))
      "Convenience functions for using Denote in multiple silos" tar
@@ -1050,7 +1050,7 @@
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
       (:commit . "70c81a957445beedcd88e4df929551ac77f1d0c5"))])
  (eglot
-  . [(1 19 0 20251214 220129)
+  . [(1 19 0 20251215 210054)
      ((emacs (26 3)) (eldoc (1 14 0)) (external-completion (0 1))
       (flymake (1 4 2)) (jsonrpc (1 0 26)) (project (0 9 8))
       (seq (2 23)) (xref (1 6 2)))
@@ -1059,7 +1059,7 @@
       (:keywords "convenience" "languages")
       (:maintainer "João Távora" . "joaotavora@gmail.com")
       (:authors ("João Távora" . "joaotavora@gmail.com"))
-      (:commit . "2d1e891eea742e16f1ae26763af2a70ef1a95a81"))])
+      (:commit . "4aff16bf9e8be9e45b5ac5b98a323957e3af6444"))])
  (el-job
   . [(2 6 1 0 20251202 235353) ((emacs (29 1)))
      "Contrived way to call a function using all CPU cores" tar
@@ -1918,14 +1918,14 @@
       (:authors ("Sean Whitton" . "spwhitton@spwhitton.name"))
       (:commit . "00b8f65effe4f2673e6450d70000644b266aa78a"))])
  (llm
-  . [(0 28 0 0 20251207 112237)
+  . [(0 28 1 0 20251207 231638)
      ((emacs (28 1)) (plz (0 8)) (plz-event-source (0 1 1))
       (plz-media-type (0 2 1)) (compat (29 1)))
      "Interface to pluggable llm backends" tar
      ((:url . "https://github.com/ahyatt/llm")
       (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
       (:authors ("Andrew Hyatt" . "ahyatt@gmail.com"))
-      (:commit . "1e729721ac19f138c7b13e3f3221a3b97fbcf894"))])
+      (:commit . "857f214a7c67014858fa5742b07163dfdbfdfa5f"))])
  (lmc
   . [(1 4 0 20230105 113402) ((emacs (24)) (cl-lib (0 5)))
      "Little Man Computer in Elisp" tar
@@ -2120,13 +2120,13 @@
       (:url . "https://elpa.gnu.org/packages/minimap.html")
       (:commit . "b295cab07c1932c11dd00f23ba29c1ff0de486ab"))])
  (minuet
-  . [(0 7 0 0 20251215 33638)
+  . [(0 7 1 0 20251215 125648)
      ((emacs (29)) (plz (0 9)) (dash (2 19 1)))
      "Code completion using LLM" tar
      ((:url . "https://github.com/milanglacier/minuet-ai.el")
       (:maintainer "Milan Glacier" . "dev@milanglacier.com")
       (:authors ("Milan Glacier" . "dev@milanglacier.com"))
-      (:commit . "527a7741109016a512c6103cafa4a05b8c0745b7"))])
+      (:commit . "34a74905961d2120d01bcb9b09183e9e9c63b161"))])
  (mmm-mode
   . [(0 5 11 0 20240222 42825) ((emacs (25 1)) (cl-lib (0 2)))
      "Allow Multiple Major Modes in a buffer" tar
@@ -2690,13 +2690,13 @@
       (:url . "https://elpa.gnu.org/packages/pspp-mode.html")
       (:commit . "faf56c519049f0fbce3ab0a57e90702dd9f82da4"))])
  (pulsar
-  . [(1 3 1 0 20251203 80401) ((emacs (28 1)))
+  . [(1 3 2 0 20251215 144925) ((emacs (28 1)))
      "Pulse highlight on demand or after select functions" tar
      ((:url . "https://github.com/protesilaos/pulsar")
       (:keywords "convenience" "pulse" "highlight")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "1e4bfd0c8afbfa0cf5862c26ded6de86516c50d3"))])
+      (:commit . "ff40a936a17818152448c0f544164b9e5945c1c3"))])
  (pyim
   . [(5 3 5 0 20251125 83959)
      ((emacs (27 1)) (async (1 6)) (xr (1 13)))
@@ -3333,12 +3333,12 @@
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:commit . "506a8d570c145f4df63a18921e34bac6bef3ebe0"))])
  (termint
-  . [(0 2 0 20251130 152027) ((emacs (29 1)))
+  . [(0 2 0 20251215 133146) ((emacs (29 1)))
      "Run REPLs in a terminal backend" tar
      ((:url . "https://github.com/milanglacier/termint.el")
       (:maintainer "Milan Glacier" . "dev@milanglacier.com")
       (:authors ("Milan Glacier" . "dev@milanglacier.com"))
-      (:commit . "c8271cc05182c0b0f2bc92940488ff5bd62df2f6"))])
+      (:commit . "3170eae7a73039e351c50a548de7e45e6b3ff222"))])
  (test-simple
   . [(1 3 1 0 20251124 94637) ((cl-lib (0)))
      "Simple Unit Test Framework for Emacs Lisp" tar
