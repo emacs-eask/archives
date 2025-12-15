@@ -1185,7 +1185,7 @@
 	    ("Tomasz Maciosowski" . "t4ccer@gmail.com"))
 	   (:maintainer "Tomasz Maciosowski" . "t4ccer@gmail.com"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20251215 1027)
+	      [(0 1 0 1 -4 20251215 1701)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1194,8 +1194,8 @@
 		 (0 8 1)))
 	       "A single native shell experience to interact with agentic providers (Claude Code, Cursor, Gemini CLI, Goose, Codex, OpenCode, Qwen, etc.)" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "478ce5ca6cbcb6ed0d8708b8422c5cd604ab22b4")
-		(:revdesc . "478ce5ca6cbc"))])
+		(:commit . "5cfa8d63525bb8686031dd3e55c7f8569d81eb72")
+		(:revdesc . "5cfa8d63525b"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -9182,17 +9182,19 @@
 	     ("Kostafey" . "kostafey@gmail.com"))
 	    (:maintainer "Kostafey" . "kostafey@gmail.com"))])
  (closql .
-	 [(0 1 0 1 -4 20251214 1113)
+	 [(0 1 0 1 -4 20251215 1734)
 	  ((emacs
 	    (28 1))
 	   (compat
 	    (30 1))
+	   (cond-let
+	    (0 2))
 	   (emacsql
 	    (4 3)))
 	  "Store EIEIO objects using EmacSQL" tar
 	  ((:url . "https://github.com/emacscollective/closql")
-	   (:commit . "664bdd31d5d2943720c1c2737d418382231816aa")
-	   (:revdesc . "664bdd31d5d2")
+	   (:commit . "cbead2f2958449e6a1c4e93e956ef20c56593bc0")
+	   (:revdesc . "cbead2f29584")
 	   (:keywords "extensions")
 	   (:authors
 	    ("Jonas Bernoulli" . "emacs.closql@jonas.bernoulli.dev"))
@@ -47395,7 +47397,7 @@
 	       (:revdesc . "069a1d630f63")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20251212 1108)
+	[(0 1 0 1 -4 20251215 1842)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -47414,8 +47416,8 @@
 	   (3 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "ba9b47edbec67b844bacac84f41726f607c33ad4")
-	  (:revdesc . "ba9b47edbec6")
+	  (:commit . "b0942d085236ae547aec4db4eb7ab9caba586a63")
+	  (:revdesc . "b0942d085236")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -47783,7 +47785,7 @@
 		       ("Jules Tamagnan" . "jtamagnan@gmail.com"))
 		      (:maintainer "Jules Tamagnan" . "jtamagnan@gmail.com"))])
  (magit-section .
-		[(0 1 0 1 -4 20251125 1404)
+		[(0 1 0 1 -4 20251215 1842)
 		 ((emacs
 		   (28 1))
 		  (compat
@@ -47796,8 +47798,8 @@
 		   (2 24)))
 		 "Sections for read-only buffers" tar
 		 ((:url . "https://github.com/magit/magit")
-		  (:commit . "4800ace210d5eb82b00428f0ff74723c986181ba")
-		  (:revdesc . "4800ace210d5")
+		  (:commit . "0749e8b6fc3573f823cb28051ff57692fbfdaf4f")
+		  (:revdesc . "0749e8b6fc35")
 		  (:keywords "tools")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -49896,7 +49898,7 @@
 	       ("jgart" . "jgart@dismail.de"))
 	      (:maintainer "jgart" . "jgart@dismail.de"))])
  (minuet .
-	 [(0 1 0 1 -4 20251215 934)
+	 [(0 1 0 1 -4 20251215 1755)
 	  ((emacs
 	    (29))
 	   (plz
@@ -49905,8 +49907,8 @@
 	    (2 19 1)))
 	  "Code completion using LLM" tar
 	  ((:url . "https://github.com/milanglacier/minuet-ai.el")
-	   (:commit . "a38179d42dca9c4c49ac01cd64710880db335790")
-	   (:revdesc . "a38179d42dca")
+	   (:commit . "7b34bf0f0334478dab15ce185eacc794a6c7415f")
+	   (:revdesc . "7b34bf0f0334")
 	   (:authors
 	    ("Milan Glacier" . "dev@milanglacier.com"))
 	   (:maintainers
