@@ -601,13 +601,13 @@
        ("Jackson Ray Hamilton" . "jackson@jacksonrayhamilton.com"))
       (:commit . "75a8c811874c231b49729e76c696824463e54402"))])
  (corfu
-  . [(2 6 0 20251216 120809) ((emacs (29 1)) (compat (30)))
+  . [(2 6 0 20251219 201951) ((emacs (29 1)) (compat (30)))
      "COmpletion in Region FUnction" tar
      ((:url . "https://github.com/minad/corfu")
       (:keywords "abbrev" "convenience" "matching" "completion" "text")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "535bf9c2385a894f39ec7308ed45dfba48ab8dcd"))])
+      (:commit . "82955c2fe1c315cd18aef577ed0bed6dc2dac6f5"))])
  (coterm
   . [(1 6 0 20221015 160420) ((emacs (26 1)) (compat (28 1 2 0)))
      "Terminal emulation for comint" tar
@@ -1110,7 +1110,7 @@
       (:url . "https://elpa.gnu.org/packages/elisp-benchmarks.html")
       (:commit . "583951606e4e19fd53acd8c5691210b9acb524d7"))])
  (ellama
-  . [(1 9 0 0 20251218 214839)
+  . [(1 9 0 0 20251219 203947)
      ((emacs (28 1)) (llm (0 24 0)) (plz (0 8)) (transient (0 7))
       (compat (29 1)))
      "Tool for interacting with LLMs" tar
@@ -1118,7 +1118,7 @@
       (:keywords "help" "local" "tools")
       (:maintainer "Sergey Kostyaev" . "sskostyaev@gmail.com")
       (:authors ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
-      (:commit . "710433ddf3073b97659eb9e71b85dcb37f2f6a10"))])
+      (:commit . "9ce1ee692cf3bae68fcfd16ff59abbb3b7377631"))])
  (emacs-gc-stats
   . [(1 4 2 0 20231206 152254) ((emacs (25 1)))
      "Collect Emacs GC statistics" tar
@@ -2001,7 +2001,7 @@
       (:url . "https://elpa.gnu.org/packages/map.html")
       (:commit . "2777178dc62fb3af76505c34ffb487950fd10f26"))])
  (marginalia
-  . [(2 5 0 20251123 113311) ((emacs (29 1)) (compat (30)))
+  . [(2 6 0 20251219 142200) ((emacs (29 1)) (compat (30)))
      "Enrich existing commands with completion annotations" tar
      ((:url . "https://github.com/minad/marginalia")
       (:keywords "docs" "help" "matching" "completion")
@@ -2009,7 +2009,7 @@
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx")
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "d38041df2c2d175040bbdb1df6e4cc75a75ca4f8"))])
+      (:commit . "c3e7b1904423bda143249c0d02cbb7cc7ed8bee0"))])
  (markchars
   . [(0 2 2 0 20221221 80510) nil
      "Mark chars fitting certain characteristics" tar
@@ -2143,13 +2143,13 @@
       (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
       (:commit . "8d70286c3fda845f3b8d97a937248670ca002f13"))])
  (modus-themes
-  . [(5 1 0 0 20251213 25609) ((emacs (28 1)))
+  . [(5 1 0 0 20251219 130658) ((emacs (28 1)))
      "Elegant, highly legible and customizable themes" tar
      ((:url . "https://github.com/protesilaos/modus-themes")
       (:keywords "faces" "theme" "accessibility")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "4ac7fdd6c76319ff277517e37aa93f0b6e470599"))])
+      (:commit . "46d4b492664bdaafc814c4a5017da995a8d0d1ee"))])
  (mpdired
   . [(4 -1 0 20250502 114712) ((emacs (29)))
      "A dired-like client for Music Player Daemon" tar
@@ -2387,23 +2387,23 @@
       (:authors ("Hanno Perrey" . "hanno@hoowl.se"))
       (:commit . "68aef8d4b4c7a562bfc664639568706ba625d0a1"))])
  (org-modern
-  . [(1 10 0 20251216 82644)
+  . [(1 11 0 20251219 142444)
      ((emacs (29 1)) (org (9 6)) (compat (30))) "Modern looks for Org"
      tar
      ((:url . "https://github.com/minad/org-modern")
       (:keywords "outlines" "hypermedia" "text")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "b5f8475af31ea97af70bb93bb9895059b803bf10"))])
+      (:commit . "55b5bbeb1eb9483d0cb43f4803615c380bf3b1ed"))])
  (org-notify
-  . [(0 1 1 0 20231016 93952) ((emacs (25 1)))
+  . [(0 1 2 0 20251219 195448) ((emacs (25 1)))
      "Notifications for Org-mode" tar
      ((:url . "https://github.com/p-m/org-notify")
       (:keywords "notification" "todo-list" "alarm" "reminder"
 		 "pop-up" "calendar")
       (:maintainer "Peter Münster" . "pm@a16n.net")
       (:authors ("Peter Münster" . "pm@a16n.net"))
-      (:commit . "c08cf5b931960bc12eb782c1fe1ec82266cb4bc8"))])
+      (:commit . "aacd0efd8cb7906b3c0893791016d2e7f82e11e0"))])
  (org-real
   . [(1 0 11 0 20250104 92914)
      ((emacs (26 1)) (boxy (2 0)) (org (9 3)))
@@ -2454,13 +2454,13 @@
       (:url . "https://elpa.gnu.org/packages/osc.html")
       (:commit . "62eda3d8fb288b6a16c35a7220a507d0991c5a74"))])
  (osm
-  . [(1 10 0 20251202 205816) ((emacs (29 1)) (compat (30)))
+  . [(1 11 0 20251219 192528) ((emacs (29 1)) (compat (30)))
      "OpenStreetMap viewer" tar
      ((:url . "https://github.com/minad/osm")
       (:keywords "network" "multimedia" "hypermedia" "mouse")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "e58e46abedfeecaf569bbbb7a4fdabc4eb3273a7"))])
+      (:commit . "bc5b54c0577534cee62e767b08bae8b01d0a0355"))])
  (other-frame-window
   . [(1 0 6 0 20221221 81352) ((emacs (24 4)))
      "Minor mode to enable global prefix keys for other frame/window buffer placement"
@@ -3632,7 +3632,7 @@
       (:authors ("Andrii Kolomoiets" . "andreyk.mad@gmail.com"))
       (:commit . "aec2ee7733c38e55d7406c362b9fd5485b21299c"))])
  (vc-jj
-  . [(0 4 0 20251218 80751) ((emacs (28 1)) (compat (29 4)))
+  . [(0 4 0 20251219 134548) ((emacs (28 1)) (compat (29 4)))
      "VC backend for the Jujutsu version control system" tar
      ((:url . "https://codeberg.org/emacs-jj-vc/vc-jj.el")
       (:keywords "vc" "tools")
@@ -3640,7 +3640,7 @@
 		   ("Kristoffer Balintona" . "krisbalintona@gmail.com"))
       (:authors ("Rudolf Schlatte" . "rudi@constantly.at")
 		("Kristoffer Balintona" . "krisbalintona@gmail.com"))
-      (:commit . "59bdc7027171b039dcaa86c616c72e8bcc818995"))])
+      (:commit . "8c5937fb85e6d78b4dc5ea5e9d97f65b8ed518f0"))])
  (vcard
   . [(0 2 2 0 20230718 145809) ((emacs (27 1)))
      "Package for handling vCard files" tar
