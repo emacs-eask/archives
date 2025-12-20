@@ -1189,7 +1189,7 @@
       (:authors ("Jon Oddie" . "j.j.oddie@gmail.com"))
       (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit
-  . [(4 4 2 0 20251217 183610)
+  . [(4 4 2 0 20251220 91723)
      ((emacs (28 1)) (compat (30 1)) (cond-let (0 1)) (llama (1 0))
       (magit-section (4 4)) (seq (2 24)) (transient (0 10))
       (with-editor (3 4)))
@@ -1201,9 +1201,9 @@
        ("Kyle Meyer" . "kyle@kyleam.com"))
       (:authors ("Marius Vollmer" . "marius.vollmer@gmail.com")
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "655bc502a3bdd7f07928524515a736e4b8101eaf"))])
+      (:commit . "649b4c972151c0ee495876c0d4c8c13787614886"))])
  (magit-section
-  . [(4 4 2 0 20251217 183610)
+  . [(4 4 2 0 20251220 91723)
      ((emacs (28 1)) (compat (30 1)) (cond-let (0 1)) (llama (1 0))
       (seq (2 24)))
      "Sections for read-only buffers" tar
@@ -1212,7 +1212,7 @@
 		   . "emacs.magit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "655bc502a3bdd7f07928524515a736e4b8101eaf"))])
+      (:commit . "649b4c972151c0ee495876c0d4c8c13787614886"))])
  (markdown-mode
   . [(2 8 -3 0 20251204 85213) ((emacs (28 1)))
      "Major mode for Markdown-formatted text" tar
@@ -1553,12 +1553,12 @@
       (:authors ("David Christiansen" . "david@davidchristiansen.dk"))
       (:commit . "50b102c1c0935fd3e0c465feed7f27d66b21cdf3"))])
  (racket-mode
-  . [(1 0 20251106 215641) ((emacs (25 1)) (compat (30 0 2 0)))
+  . [(1 0 20251220 93632) ((emacs (25 1)) (compat (30 0 2 0)))
      "Racket editing, REPL, and more" tar
      ((:url . "https://www.racket-mode.com/")
       (:authors
        ("Greg Hendershott" . "racket-mode-author@greghendershott.com"))
-      (:commit . "d98852ef6d0c05e16ce3e87f4a14cf47c557ce2b"))])
+      (:commit . "577af47246e1ce9fe5c17847eefe0e9513ca7049"))])
  (radio
   . [(0 4 1 0 20250305 101402) ((emacs (29 1)))
      "Listen to Internet radio" tar
@@ -1974,12 +1974,11 @@
       (:authors ("Joost Kremers" . "joostkremers@fastmail.fm"))
       (:commit . "e1be9a1545157d24454d950c0ac79553c540edb7"))])
  (vm
-  . [(8 3 0 -4 0 20251209 100613)
-     ((cl-lib (0 5)) (nadvice (0 3)) (vcard (0 2 2)))
+  . [(8 3 0 -4 0 20251220 83145) ((emacs (28 0)) (vcard (0 2 2)))
      "Entry points for VM" tar
      ((:url . "https://gitlab.com/emacs-vm/vm")
       (:maintainer nil . "viewmail-info@nongnu.org")
-      (:commit . "c722f20a7bd8327fed5875804fa917efc74eaef3"))])
+      (:commit . "3f3deb718dc35d64bade42014ffa8d0cdbb15dc5"))])
  (web-mode
   . [(17 3 22 0 20251214 172854) ((emacs (23 1)))
      "major mode for editing web templates" tar
