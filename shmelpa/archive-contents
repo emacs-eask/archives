@@ -1978,13 +1978,13 @@
 		  ("DarkSun" . "lujun9972@gmail.com"))
 		 (:maintainer "DarkSun" . "lujun9972@gmail.com"))])
  (anki-editor .
-	      [(0 1 0 1 -4 20251213 803)
+	      [(0 1 0 1 -4 20251222 1345)
 	       ((emacs
 		 (29 1)))
 	       "Minor mode for making Anki cards with Org" tar
 	       ((:url . "https://github.com/anki-editor/anki-editor")
-		(:commit . "21aa4772a956cee1995f9e85587fc8f26427a2e5")
-		(:revdesc . "21aa4772a956"))])
+		(:commit . "59d75f6b6b632c2616c85ff19f39cb9e85a3d8a7")
+		(:revdesc . "59d75f6b6b63"))])
  (anki-editor-view .
 		   [(0 1 1 1 -4 20230807 806)
 		    ((emacs
@@ -38315,8 +38315,8 @@
 	  (0 5)))
 	"Wiki-like note-taking tool" tar
 	((:url . "https://kaorahi.github.io/howm/")
-	 (:commit . "d1431c9e678de6e0c179b2a2bf405e8804472fee")
-	 (:revdesc . "d1431c9e678d")
+	 (:commit . "cc0ceaeed24f122fba89200888d367659cc8662e")
+	 (:revdesc . "cc0ceaeed24f")
 	 (:authors
 	  ("HIRAOKA Kazuyuki" . "kakkokakko@gmail.com"))
 	 (:maintainers
@@ -39592,13 +39592,15 @@
 	   ("Peter Badida" . "keyweeusr@gmail.com"))
 	  (:maintainer "Peter Badida" . "keyweeusr@gmail.com"))])
  (immaterial-theme .
-		   [(0 1 0 1 -4 20250124 826)
+		   [(0 1 0 1 -4 20251222 1352)
 		    ((emacs
-		      (25)))
-		    "A flexible theme based on material design principles" tar
+		      (29))
+		     (modus-themes
+		      (5 0 0)))
+		    "A family of themes loosely based on material colors" tar
 		    ((:url . "https://github.com/petergardfjall/emacs-immaterial-theme")
-		     (:commit . "cbfe12f95d05d56929dad6b0f996089288fb9eae")
-		     (:revdesc . "cbfe12f95d05")
+		     (:commit . "c478e875d9949a0b8341fa146ea9a408997623f5")
+		     (:revdesc . "c478e875d994")
 		     (:keywords "themes"))])
  (immersive-translate .
 		      [(0 3 0 1 -4 20231001 1557)
@@ -57997,7 +57999,7 @@
 		    ("Michael Fogleman" . "michaelwfogleman@gmail.com"))
 		   (:maintainer "Michael Fogleman" . "michaelwfogleman@gmail.com"))])
  (org-re-reveal .
-		[(0 1 0 1 -4 20251222 1237)
+		[(0 1 0 1 -4 20251222 1526)
 		 ((emacs
 		   (24 4))
 		  (org
@@ -58006,8 +58008,8 @@
 		   (1 34)))
 		 "Org export to reveal.js presentations" tar
 		 ((:url . "https://gitlab.com/oer/org-re-reveal")
-		  (:commit . "20fcde56188eb526d2572f91250e53b50bfc4cd5")
-		  (:revdesc . "20fcde56188e")
+		  (:commit . "80bee1b270b142e3d9fd0b6ab94e42ba388a7b74")
+		  (:revdesc . "80bee1b270b1")
 		  (:keywords "tools" "outlines" "hypermedia" "slideshow" "presentation" "oer"))])
  (org-re-reveal-citeproc .
 			 [(2 0 1 1 -4 20211028 1328)
