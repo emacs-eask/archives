@@ -403,13 +403,13 @@
       (:authors ("Kjartan Oli Agustsson" . "kjartanoli@disroot.org"))
       (:commit . "dbbffe75c6a2492099e36dc93b6183800a7d6fcd"))])
  (cape
-  . [(2 4 0 20251221 184323) ((emacs (29 1)) (compat (30)))
+  . [(2 4 0 20251224 111052) ((emacs (29 1)) (compat (30)))
      "Completion At Point Extensions" tar
      ((:url . "https://github.com/minad/cape")
       (:keywords "abbrev" "convenience" "matching" "completion" "text")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "281ef8d6f44faa12d6eb9990366ac4bc920c62b1"))])
+      (:commit . "c675d8c142fc3265e3123e5e492b48e748846577"))])
  (capf-autosuggest
   . [(0 3 0 20211123 104430) ((emacs (25 1)))
      "History autosuggestions for comint and eshell" tar
@@ -560,12 +560,12 @@
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
       (:commit . "f07e221d4d5597c7ccf4b0003c0909a88bdfcc9e"))])
  (consult
-  . [(3 1 0 20251223 110305) ((emacs (29 1)) (compat (30)))
+  . [(3 1 0 20251224 113253) ((emacs (29 1)) (compat (30)))
      "Consulting completing-read" tar
      ((:url . "https://github.com/minad/consult")
       (:keywords "matching" "files" "completion")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-      (:commit . "41855bda5f0bc5050cdd602ecee75503ec58b959"))])
+      (:commit . "9bb753c6fdf82c4e66f002a9399d4bd9657ee51a"))])
  (consult-denote
   . [(0 4 2 0 20251222 50446)
      ((emacs (28 1)) (denote (4 0 0)) (consult (2 2)))
@@ -1605,7 +1605,7 @@
       (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com"))
       (:commit . "84a9db01eff1fcc52ad054c5ad3c22316739573f"))])
  (hyperbole
-  . [(9 0 2 -1 0 20251213 222302) ((emacs (28)))
+  . [(9 0 2 -1 0 20251224 122345) ((emacs (28)))
      "GNU Hyperbole: The Everyday Hypertextual Information Manager"
      tar
      ((:url . "http://www.gnu.org/software/hyperbole")
@@ -1614,7 +1614,7 @@
 		 "outlines" "tools" "wp")
       (:maintainer "Robert Weiner" . "rsw@gnu.org")
       (:authors ("Robert Weiner" . "rsw@gnu.org"))
-      (:commit . "b7cc26a2af8c33b2ce55a8304a811cbfdde341ea"))])
+      (:commit . "4ba5f37bbdb535d232a715fdc765e782a2382d02"))])
  (idlwave
   . [(6 5 1 0 20240523 142720) nil "IDL editing mode for GNU Emacs"
      tar
@@ -1753,13 +1753,13 @@
       (:url . "https://elpa.gnu.org/packages/jgraph-mode.html")
       (:commit . "1bd355ecda036f23468d82b803146d3258a84977"))])
  (jinx
-  . [(2 5 0 20251129 80022) ((emacs (29 1)) (compat (30)))
+  . [(2 5 0 20251224 110818) ((emacs (29 1)) (compat (30)))
      "Enchanted Spell Checker" tar
      ((:url . "https://github.com/minad/jinx")
       (:keywords "convenience" "text")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "a678be8cf0888947789a10a493c8b1c3a7066f52"))])
+      (:commit . "46aec1bdaad149ddfcc34217d05e69b1b718c4c4"))])
  (jit-spell
   . [(0 5 0 20251012 84654) ((emacs (27 1)) (compat (29 1)))
      "Just-in-time spell checking" tar
@@ -1918,14 +1918,14 @@
       (:authors ("Sean Whitton" . "spwhitton@spwhitton.name"))
       (:commit . "00b8f65effe4f2673e6450d70000644b266aa78a"))])
  (llm
-  . [(0 28 2 0 20251218 214040)
+  . [(0 28 3 0 20251224 150959)
      ((emacs (28 1)) (plz (0 8)) (plz-event-source (0 1 1))
       (plz-media-type (0 2 1)) (compat (29 1)))
      "Interface to pluggable llm backends" tar
      ((:url . "https://github.com/ahyatt/llm")
       (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
       (:authors ("Andrew Hyatt" . "ahyatt@gmail.com"))
-      (:commit . "8de12e9a9dee0f18b5d69838fbdfcd9baedcb5d6"))])
+      (:commit . "cbf1864089ceef6a1a733c55a2c72ca01dcbccb1"))])
  (lmc
   . [(1 4 0 20230105 113402) ((emacs (24)) (cl-lib (0 5)))
      "Little Man Computer in Elisp" tar
@@ -2344,13 +2344,13 @@
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
       (:commit . "26a384894678a1e51e3bf914af3699a61794fb57"))])
  (org
-  . [(9 8 -1 0 20251220 112221) ((emacs (26 1)))
+  . [(9 8 -1 0 20251224 194634) ((emacs (26 1)))
      "Outline-based notes management and organizer" tar
      ((:url . "https://orgmode.org")
       (:keywords "outlines" "hypermedia" "calendar" "text")
       (:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-      (:commit . "dff9602246ccdc4415cbcd48bbbed4f733ac9218"))])
+      (:commit . "66a2d2848b4c68171f3d24051ffb4b393988e943"))])
  (org-contacts
   . [(1 1 0 20250905 33527) ((emacs (29 1)) (org (9 7)))
      "Contacts management system for Org mode" tar
@@ -2454,13 +2454,13 @@
       (:url . "https://elpa.gnu.org/packages/osc.html")
       (:commit . "62eda3d8fb288b6a16c35a7220a507d0991c5a74"))])
  (osm
-  . [(1 12 0 20251223 14205) ((emacs (29 1)) (compat (30)))
+  . [(1 12 0 20251224 94027) ((emacs (29 1)) (compat (30)))
      "OpenStreetMap viewer" tar
      ((:url . "https://github.com/minad/osm")
       (:keywords "network" "multimedia" "hypermedia" "mouse")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "daebb33b629b162898397a62ba2e92c8d8070734"))])
+      (:commit . "bf7e02e4492c4bc5cd31bd80e0cd26767c86d370"))])
  (other-frame-window
   . [(1 0 6 0 20221221 81352) ((emacs (24 4)))
      "Minor mode to enable global prefix keys for other frame/window buffer placement"
