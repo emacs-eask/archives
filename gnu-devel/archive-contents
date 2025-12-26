@@ -1050,7 +1050,7 @@
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
       (:commit . "70c81a957445beedcd88e4df929551ac77f1d0c5"))])
  (eglot
-  . [(1 19 0 20251225 164617)
+  . [(1 19 0 20251226 102212)
      ((emacs (26 3)) (eldoc (1 14 0)) (external-completion (0 1))
       (flymake (1 4 2)) (jsonrpc (1 0 26)) (project (0 9 8))
       (seq (2 23)) (xref (1 6 2)))
@@ -1059,7 +1059,7 @@
       (:keywords "convenience" "languages")
       (:maintainer "João Távora" . "joaotavora@gmail.com")
       (:authors ("João Távora" . "joaotavora@gmail.com"))
-      (:commit . "7be4fe89fc6f0fdd8f79dd8e506efc8db0cd8b5b"))])
+      (:commit . "9affabf6dbe46444a400c4687b721235dd7c5e1e"))])
  (el-job
   . [(2 6 1 0 20251202 235353) ((emacs (29 1)))
      "Contrived way to call a function using all CPU cores" tar
@@ -1187,14 +1187,14 @@
       (:url . "https://elpa.gnu.org/packages/epoch-view.html")
       (:commit . "7a9773a8b55491bd47f23dfdb6c4224f5cc8e50c"))])
  (erc
-  . [(5 6 2 -4 0 20251027 192944) ((emacs (27 1)) (compat (29 1 4 5)))
+  . [(5 6 2 -4 0 20251226 102212) ((emacs (27 1)) (compat (29 1 4 5)))
      "An Emacs Internet Relay Chat client" tar
      ((:url . "https://www.gnu.org/software/emacs/erc.html")
       (:keywords "irc" "chat" "client" "internet")
       (:maintainer ("Amin Bandali" . "bandali@gnu.org")
 		   ("F. Jason Park" . "jp@neverwas.me"))
       (:authors ("Alexander L. Belikoff" . "alexander@belikoff.net"))
-      (:commit . "44cdb65cf3d98f9d6706419a5cf866ff2df79019"))])
+      (:commit . "9affabf6dbe46444a400c4687b721235dd7c5e1e"))])
  (ergoemacs-mode
   . [(5 16 10 12 0 20240828 210215)
      ((emacs (24 1)) (cl-lib (0 5)) (nadvice (0 4)))
@@ -1307,14 +1307,14 @@
       (:url . "https://elpa.gnu.org/packages/flylisp.html")
       (:commit . "7295025f4c0571013142dfb9cc1a893fff79904b"))])
  (flymake
-  . [(1 4 3 0 20251130 182434)
+  . [(1 4 3 0 20251226 102212)
      ((emacs (26 1)) (eldoc (1 14 0)) (project (0 11 1)))
      "A universal on-the-fly syntax checker" tar
      ((:keywords "c" "languages" "tools")
       (:maintainer "Spencer Baugh" . "sbaugh@janestreet.com")
       (:authors ("Pavel Kobyakov" . "pk_at_work@yahoo.com"))
       (:url . "https://elpa.gnu.org/packages/flymake.html")
-      (:commit . "5b07a81bedaddbe2874b37c79ef6c4c80da7707e"))])
+      (:commit . "9affabf6dbe46444a400c4687b721235dd7c5e1e"))])
  (flymake-clippy
   . [(1 1 0 0 20250323 141048) ((emacs (27)))
      "Flymake backend for Clippy" tar
@@ -1789,13 +1789,13 @@
       (:url . "https://elpa.gnu.org/packages/json-mode.html")
       (:commit . "2eb4b83db23e61fa2112688148aeedbacfc3c18e"))])
  (jsonrpc
-  . [(1 0 27 0 20251208 214131) ((emacs (25 2))) "JSON-RPC library"
+  . [(1 0 27 0 20251226 102212) ((emacs (25 2))) "JSON-RPC library"
      tar
      ((:keywords "processes" "languages" "extensions")
       (:maintainer "João Távora" . "joaotavora@gmail.com")
       (:authors ("João Távora" . "joaotavora@gmail.com"))
       (:url . "https://elpa.gnu.org/packages/jsonrpc.html")
-      (:commit . "6caf598ac49b3ed592f22e31307fe71e71490f2b"))])
+      (:commit . "9affabf6dbe46444a400c4687b721235dd7c5e1e"))])
  (jumpc
   . [(3 1 0 20231015 14814) nil "jump to previous insertion points"
      tar
@@ -2344,13 +2344,13 @@
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
       (:commit . "26a384894678a1e51e3bf914af3699a61794fb57"))])
  (org
-  . [(9 8 -1 0 20251225 163706) ((emacs (26 1)))
+  . [(9 8 -1 0 20251226 155708) ((emacs (26 1)))
      "Outline-based notes management and organizer" tar
      ((:url . "https://orgmode.org")
       (:keywords "outlines" "hypermedia" "calendar" "text")
       (:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-      (:commit . "674cfc284e18e39502b406c0937d0987aeec3e51"))])
+      (:commit . "ded231f7010ef1f1f4fc6e4815558a28e1689488"))])
  (org-contacts
   . [(1 1 0 20250905 33527) ((emacs (29 1)) (org (9 7)))
      "Contacts management system for Org mode" tar
@@ -3088,13 +3088,13 @@
       (:url . "https://elpa.gnu.org/packages/sml-mode.html")
       (:commit . "39ad5243eb761821e5342ed8cf1ba111d2492f48"))])
  (so-long
-  . [(1 1 2 0 20250315 100518) ((emacs (24 4)))
+  . [(1 1 2 0 20251226 102212) ((emacs (24 4)))
      "Say farewell to performance problems with minified code." tar
      ((:url . "https://savannah.nongnu.org/projects/so-long")
       (:keywords "convenience")
       (:maintainer "Phil Sainty" . "psainty@orcon.net.nz")
       (:authors ("Phil Sainty" . "psainty@orcon.net.nz"))
-      (:commit . "f5f3fb7dd4e7d0c1fa235309d29d8d1c9432c277"))])
+      (:commit . "9affabf6dbe46444a400c4687b721235dd7c5e1e"))])
  (soap-client
   . [(3 2 3 0 20250226 15703) ((emacs (24 1)) (cl-lib (0 6 1)))
      "Access SOAP web services" tar
