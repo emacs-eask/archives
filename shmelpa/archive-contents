@@ -49097,13 +49097,13 @@
 	       ("Mark A. Hershberger" . "mah@everybody.org"))
 	      (:maintainer "Mark A. Hershberger" . "mah@everybody.org"))])
  (meep .
-       [(0 1 0 1 -4 20251224 557)
+       [(0 1 0 1 -4 20251227 42)
 	((emacs
 	  (30 1)))
 	"Lightweight modal editing" tar
 	((:url . "https://codeberg.org/ideasman42/emacs-meep")
-	 (:commit . "4bc650418af3f2a1c696ecbd6eb4ba77099f58af")
-	 (:revdesc . "4bc650418af3")
+	 (:commit . "65bbddbdbf6927bcd4d7ef6eebac9a7d1930173a")
+	 (:revdesc . "65bbddbdbf69")
 	 (:keywords "convenience" "modal-editing")
 	 (:authors
 	  ("Campbell Barton" . "ideasman42@gmail.com"))
@@ -55377,6 +55377,20 @@
 	      (:commit . "b8ee8cea45c9b34820fcb951f522f13e3736d216")
 	      (:revdesc . "b8ee8cea45c9")
 	      (:keywords "evil" "smartparens"))])
+ (once .
+       [(0 1 0 1 -4 20251218 1013)
+	((emacs
+	  (29 1)))
+	"Add-hook and eval-after-load, but only once" tar
+	((:url . "https://github.com/meedstrom/once")
+	 (:commit . "b311e20ade96185176b02939a6e51fe61491e524")
+	 (:revdesc . "b311e20ade96")
+	 (:keywords "lisp")
+	 (:authors
+	  ("Martin Edström" . "meedstrom91@gmail.com"))
+	 (:maintainers
+	  ("Martin Edström" . "meedstrom91@gmail.com"))
+	 (:maintainer "Martin Edström" . "meedstrom91@gmail.com"))])
  (one .
       [(0 1 0 1 -4 20250824 1102)
        ((emacs
@@ -79338,6 +79352,20 @@
 		(:maintainers
 		 ("gcr" . "gcr@sneakygcr.net"))
 		(:maintainer "gcr" . "gcr@sneakygcr.net"))])
+ (turepo .
+	 [(0 1 0 1 -4 20251222 2054)
+	  ((emacs
+	    (28 1)))
+	  "Open git repository in browser" tar
+	  ((:url . "https://github.com/swarnimcodes/turepo")
+	   (:commit . "de22eb6752834f94104b0133e1d4115e2429e4c6")
+	   (:revdesc . "de22eb675283")
+	   (:keywords "vc" "git" "convenience")
+	   (:authors
+	    ("Swarnim Barapatre" . "swarnim14.9@hotmail.com"))
+	   (:maintainers
+	    ("Swarnim Barapatre" . "swarnim14.9@hotmail.com"))
+	   (:maintainer "Swarnim Barapatre" . "swarnim14.9@hotmail.com"))])
  (turing-machine .
 		 [(0 2 0 1 -4 20180222 438)
 		  ((emacs
