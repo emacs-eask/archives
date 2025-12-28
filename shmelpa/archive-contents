@@ -41707,6 +41707,17 @@
 		   (:maintainers
 		    ("Christopher Wellons" . "wellons@nullprogram.com"))
 		   (:maintainer "Christopher Wellons" . "wellons@nullprogram.com"))])
+ (javelin .
+	  [(0 1 0 1 -4 20251228 1804)
+	   ((emacs
+	     (28 1))
+	    (f
+	     (0 20 0)))
+	   "Implementation of harpoon: bookmarks on steroids" tar
+	   ((:url . "https://github.com/DamianB-BitFlipper/javelin.el")
+	    (:commit . "9516e3729b8cd85d6b02fd1940ec10638c6706cb")
+	    (:revdesc . "9516e3729b8c")
+	    (:keywords "tools" "languages"))])
  (jaword .
 	 [(1 0 1 1 -4 20210306 420)
 	  ((tinysegmenter
@@ -47377,6 +47388,17 @@
 	       (:maintainers
 		("Pawel Bokota" . "pawelb.lnx@gmail.com"))
 	       (:maintainer "Pawel Bokota" . "pawelb.lnx@gmail.com"))])
+ (macher .
+	 [(0 1 0 1 -4 20251227 42)
+	  ((emacs
+	    (30 1))
+	   (gptel
+	    (0 9 9 3)))
+	  "LLM implementation toolset" tar
+	  ((:url . "https://github.com/kmontag/macher")
+	   (:commit . "2d31e25f254080927db56d701b9e59b9c1ac27fa")
+	   (:revdesc . "2d31e25f2540")
+	   (:keywords "convenience" "gptel" "llm"))])
  (macports .
 	   [(0 1 0 1 -4 20250529 2306)
 	    ((emacs
@@ -51854,6 +51876,24 @@
 	 (:maintainers
 	  ("Mekeor Melire" . "mekeor@posteo.de"))
 	 (:maintainer "Mekeor Melire" . "mekeor@posteo.de"))])
+ (nael-lsp .
+	   [(0 1 0 1 -4 20251227 954)
+	    ((emacs
+	      (29 1))
+	     (lsp-mode
+	      (9))
+	     (nael
+	      (0 7 1)))
+	    "Nael and lsp-mode" tar
+	    ((:url . "https://codeberg.org/mekeor/nael")
+	     (:commit . "ae3dddd66c11cb7d08e3a2dacb4b9f56fc1a9b88")
+	     (:revdesc . "ae3dddd66c11")
+	     (:keywords "languages")
+	     (:authors
+	      ("Mekeor Melire" . "mekeor@posteo.de"))
+	     (:maintainers
+	      ("Mekeor Melire" . "mekeor@posteo.de"))
+	     (:maintainer "Mekeor Melire" . "mekeor@posteo.de"))])
  (naga-theme .
 	     [(0 1 0 1 -4 20250608 1926)
 	      nil "Dark color theme with green foreground color" tar
@@ -53768,6 +53808,20 @@
 	      (:maintainers
 	       ("Guido Schmidt" . "guido.schmidt.2912@gmail.com"))
 	      (:maintainer "Guido Schmidt" . "guido.schmidt.2912@gmail.com"))])
+ (oai .
+      [(0 1 0 1 -4 20251228 402)
+       ((emacs
+	 (29 1)))
+       "AI-LLM blocks for org-mode" tar
+       ((:url . "https://github.com/Anoncheg1/emacs-oai")
+	(:commit . "8449743654f608b1e582be0f105340c337673db6")
+	(:revdesc . "8449743654f6")
+	(:keywords "org" "comm" "url" "link")
+	(:authors
+	 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
+	(:maintainers
+	 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
+	(:maintainer nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))])
  (oauth .
 	[(1 11 1 -4 20230706 2026)
 	 ((emacs
@@ -61975,7 +62029,7 @@
 		   ("Kristoffer Balintona" . "krisbalintona@gmail.com"))
 		  (:maintainer "Kristoffer Balintona" . "krisbalintona@gmail.com"))])
  (pdf-tools .
-	    [(0 1 0 1 -4 20251228 1714)
+	    [(0 1 0 1 -4 20251228 1758)
 	     ((emacs
 	       (26 3))
 	      (tablist
@@ -61984,8 +62038,8 @@
 		  (1 0 4)))
 	     "Support library for PDF documents" tar
 	     ((:url . "http://github.com/vedang/pdf-tools/")
-	      (:commit . "0adc845fc2e0110dab0c7fc401a7bcf890d0610a")
-	      (:revdesc . "0adc845fc2e0")
+	      (:commit . "1cde7b311d55b778bb4c6886993b8e57a7e6b105")
+	      (:revdesc . "1cde7b311d55")
 	      (:keywords "files" "multimedia")
 	      (:authors
 	       ("Andreas Politz" . "mail@andreas-politz.de"))
