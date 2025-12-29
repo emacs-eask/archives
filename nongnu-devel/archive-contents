@@ -15,6 +15,15 @@
       (:maintainer "Ozan Sener" . "ozan@ozansener.com")
       (:authors ("Ozan Sener" . "ozan@ozansener.com"))
       (:commit . "89b1d778a1f8b385775c122f2bd1c62f0fbf931a"))])
+ (age
+  . [(0 1 9 0 20250806 132339) ((emacs (28 1)))
+     "The Age Encryption Library" tar
+     ((:url . "https://github.com/anticomputer/age.el")
+      (:keywords "data")
+      (:maintainer "Bas Alberts" . "bas@anti.computer")
+      (:authors ("Daiki Ueno" . "ueno@unixuser.org")
+		("Bas Alberts" . "bas@anti.computer"))
+      (:commit . "e99165ef5274bc4512b8d77ba2ac208c59b5d456"))])
  (aidermacs
   . [(1 6 0 20251203 181819)
      ((emacs (26 1)) (transient (0 3 0)) (compat (30 0 2 0))
@@ -203,7 +212,7 @@
       (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
       (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider
-  . [(1 21 0 -4 0 20251224 212205)
+  . [(1 21 0 -4 0 20251229 205224)
      ((emacs (27)) (clojure-mode (5 19)) (parseedn (1 2 1))
       (queue (0 2)) (spinner (1 7)) (seq (2 22)) (sesman (0 3 2))
       (transient (0 4 1)))
@@ -217,7 +226,7 @@
 		("Artur Malabarba" . "bruce.connor.am@gmail.com")
 		("Hugo Duncan" . "hugo@hugoduncan.org")
 		("Steve Purcell" . "steve@sanityinc.com"))
-      (:commit . "e10d11f2831a9f5b40b470774d2d71e88972cd65"))])
+      (:commit . "8798de97724d34f649966922b6129731cf0f05ea"))])
  (clojure-mode
   . [(5 20 0 0 20250528 61040) ((emacs (25 1)))
      "Major mode for Clojure code" tar
@@ -871,7 +880,7 @@
       (:authors ("David Andersson" . "l.david.anderssonsverige.nu"))
       (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel
-  . [(0 9 9 3 0 20251222 215320)
+  . [(0 9 9 3 0 20251229 102847)
      ((emacs (27 1)) (transient (0 7 4)) (compat (30 1 0 0)))
      "Interact with ChatGPT or other LLMs" tar
      ((:url . "https://github.com/karthink/gptel")
@@ -880,7 +889,7 @@
 		   . "karthik.chikmagalur@gmail.com")
       (:authors
        ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-      (:commit . "b6726490e7de00e4a54b17490c6e09b39adbfab4"))])
+      (:commit . "fd35ac4c318d7fd5a29ec852512e9c0cb957f656"))])
  (graphql-mode
   . [(1 0 0 0 20251213 111057) ((emacs (25 1)))
      "Major mode for editing GraphQL schemas" tar
@@ -1890,14 +1899,14 @@
       (:authors ("Marty Hiatt" . "mousebot@disroot.org"))
       (:commit . "cce2dfe0ec2b5c070cb13a7bdf95695eeb6e3caf"))])
  (treesit-fold
-  . [(0 2 1 0 20251224 152044) ((emacs (29 1)))
+  . [(0 2 1 0 20251229 125211) ((emacs (29 1)))
      "Code folding using treesit" tar
      ((:url . "https://github.com/emacs-tree-sitter/treesit-fold")
       (:keywords "convenience" "folding" "tree-sitter")
       (:maintainer "Jen-Chieh" . "jcs090218@gmail.com")
       (:authors ("Junyi Hou" . "junyi.yi.hou@gmail.com")
 		("Jen-Chieh" . "jcs090218@gmail.com"))
-      (:commit . "0d6d50dca14139bd677b32267728d5461886bf5f"))])
+      (:commit . "b5a773954d5e1b9b5ae272b8add213f405b1dd60"))])
  (treeview
   . [(1 3 1 0 20241101 11503) ((emacs (25 1)))
      "A generic tree navigation library" tar
@@ -1983,11 +1992,11 @@
       (:authors ("Joost Kremers" . "joostkremers@fastmail.fm"))
       (:commit . "e1be9a1545157d24454d950c0ac79553c540edb7"))])
  (vm
-  . [(8 3 2 -4 0 20251227 184842) ((emacs (28 1)) (vcard (0 2 2)))
+  . [(8 3 3 -4 0 20251229 112614) ((emacs (28 1)) (vcard (0 2 2)))
      "VM mail reader" tar
      ((:url . "https://gitlab.com/emacs-vm/vm") (:keywords "mail")
       (:maintainer nil . "viewmail-info@nongnu.org")
-      (:commit . "428acda8862e976568bfbf38c58502519fb812ba"))])
+      (:commit . "3ea1764efdd871383d16df82407ddad4fde6bee3"))])
  (web-mode
   . [(17 3 22 0 20251214 172854) ((emacs (23 1)))
      "major mode for editing web templates" tar
