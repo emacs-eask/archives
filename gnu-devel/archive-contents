@@ -1,12 +1,12 @@
 (1
  (a68-mode
-  . [(1 2 0 20251029 224619) ((emacs (24 3)))
+  . [(1 2 0 20251231 12038) ((emacs (24 3)))
      "Major mode for editing Algol 68 code" tar
      ((:url . "https://git.sr.ht/~jemarch/a68-mode")
       (:keywords "languages")
       (:maintainer "Jose E. Marchesi" . "jemarch@gnu.org")
       (:authors ("Omar Polo" . "op@omarpolo.com"))
-      (:commit . "0b06d8f36d1f773641388cb2e1854eb68be28c8c"))])
+      (:commit . "690549693d206902d7e8028f8a19f6a3a7abd8c5"))])
  (ace-window
   . [(0 10 0 0 20220911 35841) ((avy (0 5 0)))
      "Quickly switch windows." tar
@@ -757,12 +757,12 @@
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
       (:commit . "a576d8917cdd38a296ad57b415ee6094ebe1e393"))])
  (denote-journal
-  . [(0 2 2 0 20251228 61137) ((emacs (28 1)) (denote (4 0 0)))
+  . [(0 2 2 0 20251231 51322) ((emacs (28 1)) (denote (4 0 0)))
      "Convenience functions for daily journaling with Denote" tar
      ((:url . "https://github.com/protesilaos/denote-journal")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "00697160ae3d78816b9a8036c12312493ed7b49a"))])
+      (:commit . "5b5eab551ebb3cedb5fdc06bb1b5781a81945f99"))])
  (denote-markdown
   . [(0 2 1 0 20251201 50143) ((emacs (28 1)) (denote (4 0 0)))
      "Extensions that better integrate Denote with Markdown" tar
@@ -1307,14 +1307,14 @@
       (:url . "https://elpa.gnu.org/packages/flylisp.html")
       (:commit . "7295025f4c0571013142dfb9cc1a893fff79904b"))])
  (flymake
-  . [(1 4 3 0 20251226 102212)
+  . [(1 4 3 0 20251231 4401)
      ((emacs (26 1)) (eldoc (1 14 0)) (project (0 11 1)))
      "A universal on-the-fly syntax checker" tar
      ((:keywords "c" "languages" "tools")
       (:maintainer "Spencer Baugh" . "sbaugh@janestreet.com")
       (:authors ("Pavel Kobyakov" . "pk_at_work@yahoo.com"))
       (:url . "https://elpa.gnu.org/packages/flymake.html")
-      (:commit . "9affabf6dbe46444a400c4687b721235dd7c5e1e"))])
+      (:commit . "3e05de78df1c306a8b614df534617987c26b2813"))])
  (flymake-clippy
   . [(1 1 0 0 20250323 141048) ((emacs (27)))
      "Flymake backend for Clippy" tar
@@ -1918,14 +1918,14 @@
       (:authors ("Sean Whitton" . "spwhitton@spwhitton.name"))
       (:commit . "00b8f65effe4f2673e6450d70000644b266aa78a"))])
  (llm
-  . [(0 28 4 0 20251227 95233)
+  . [(0 28 4 0 20251231 5630)
      ((emacs (28 1)) (plz (0 8)) (plz-event-source (0 1 1))
       (plz-media-type (0 2 1)) (compat (29 1)))
      "Interface to pluggable llm backends" tar
      ((:url . "https://github.com/ahyatt/llm")
       (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
       (:authors ("Andrew Hyatt" . "ahyatt@gmail.com"))
-      (:commit . "90d79e166a3bc21dcc41d24f01e0971dcd30a0e3"))])
+      (:commit . "93d74e0ebcea798959f417dd7254a0d38f5409b8"))])
  (lmc
   . [(1 4 0 20230105 113402) ((emacs (24)) (cl-lib (0 5)))
      "Little Man Computer in Elisp" tar
@@ -2143,13 +2143,13 @@
       (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
       (:commit . "8d70286c3fda845f3b8d97a937248670ca002f13"))])
  (modus-themes
-  . [(5 1 0 0 20251228 92854) ((emacs (28 1)))
+  . [(5 2 0 0 20251231 83419) ((emacs (28 1)))
      "Elegant, highly legible and customizable themes" tar
      ((:url . "https://github.com/protesilaos/modus-themes")
       (:keywords "faces" "theme" "accessibility")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "fc20e2bf7af30b8ee8be8677462501056ec86e76"))])
+      (:commit . "d1037f1322487e5686fff655dcd88aa644b2ad51"))])
  (mpdired
   . [(4 -1 0 20250502 114712) ((emacs (29)))
      "A dired-like client for Music Player Daemon" tar
@@ -2668,10 +2668,10 @@
       (:authors ("Paul D. Nelson" . "nelson.paul.david@gmail.com"))
       (:commit . "731d92247aab0a51c208d0fe196db3dec0d1b2e9"))])
  (project
-  . [(0 11 1 0 20251219 75658) ((emacs (26 1)) (xref (1 7 0)))
+  . [(0 11 1 0 20251231 1259) ((emacs (26 1)) (xref (1 7 0)))
      "Operations on the current project" tar
      ((:url . "https://elpa.gnu.org/packages/project.html")
-      (:commit . "cfb4bace26c6104c23698b6d7da243845cc1d911"))])
+      (:commit . "3e05de78df1c306a8b614df534617987c26b2813"))])
  (psgml
   . [(1 3 5 0 20221229 184738) nil
      "SGML-editing mode with parsing support" tar
@@ -3034,13 +3034,13 @@
       (:maintainer "Ralph Amissah" . "ralph.amissah@gmail.com")
       (:commit . "96ab69ba228860c99f505bc02d2917a8b607cc07"))])
  (site-lisp
-  . [(0 3 0 -1 0 20251211 192642) ((emacs (25 1)))
+  . [(0 3 0 0 20251230 232614) ((emacs (25 1)))
      "Manage site-lisp directories" tar
      ((:url . "https://codeberg.org/pkal/site-lisp.el")
       (:keywords "lisp" "local")
       (:maintainer "Philip Kaludercic" . "philipk@posteo.net")
       (:authors ("Philip Kaludercic" . "philipk@posteo.net"))
-      (:commit . "f9a02119a879bb9ce3403052c1de29d7a3999f46"))])
+      (:commit . "87656ba13c805285e50e7d86c29e444272b7d74f"))])
  (sketch-mode
   . [(1 0 4 0 20230420 122954) nil
      "Quickly create svg sketches using keyboard and mouse" tar
@@ -3443,12 +3443,12 @@
 		("Michael Albinus" . "michael.albinus@gmx.de"))
       (:commit . "ffb5b3473a4054e8d5499370cae50032227e8644"))])
  (tramp-hlo
-  . [(0 0 2 0 20251217 141452) ((tramp (2 8 0 5)))
+  . [(0 0 2 0 20251231 3054) ((tramp (2 8 0 5)))
      "High level operations as Tramp handlers" tar
      ((:url . "https://github.com/jsadusk/tramp-hlo")
       (:maintainer "Joe Sadusk" . "joe@sadusk.com")
       (:authors ("Joe Sadusk" . "joe@sadusk.com"))
-      (:commit . "02c128d41c1ef7785d6223cee3dbbe224eae4284"))])
+      (:commit . "b726b4042e96ac5cead396c8d12c01e6bad2bd78"))])
  (tramp-nspawn
   . [(1 0 1 0 20220923 120957) ((emacs (23)))
      "Tramp integration for systemd-nspawn containers" tar
