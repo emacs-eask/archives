@@ -1185,7 +1185,7 @@
 	    ("Tomasz Maciosowski" . "t4ccer@gmail.com"))
 	   (:maintainer "Tomasz Maciosowski" . "t4ccer@gmail.com"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260101 1916)
+	      [(0 1 0 1 -4 20260101 2338)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1194,8 +1194,8 @@
 		 (0 8 2)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "662dbe7e13811cef4821056ba40b6a38223e4ca9")
-		(:revdesc . "662dbe7e1381"))])
+		(:commit . "57a7947632f4a2cd94cce034f60a8da0c3ca77d6")
+		(:revdesc . "57a7947632f4"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -1287,7 +1287,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20251231 1559)
+	  [(0 1 0 1 -4 20260101 2329)
 	   ((emacs
 	     (26 1))
 	    (transient
@@ -1296,8 +1296,8 @@
 	     (2 1 0)))
 	   "Unified interface for multiple AI coding CLI tool" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "cd41ee6fb285af36e9e1ff9bfd261f3d7dbe415a")
-	    (:revdesc . "cd41ee6fb285")
+	    (:commit . "c803e0cc43e89edd84cc40ea5dbf91b21bf124df")
+	    (:revdesc . "c803e0cc43e8")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -21833,15 +21833,15 @@
 	 ("Oleksandr Korzh" . "alex@korzh.me"))
 	(:maintainer "Oleksandr Korzh" . "alex@korzh.me"))])
  (equake .
-	 [(0 1 0 1 -4 20251208 2019)
+	 [(0 1 0 1 -4 20260102 58)
 	  ((emacs
-	    (26 1))
+	    (27 1))
 	   (dash
 	    (2 14 1)))
 	  "Drop-down console for (e)shell & terminal emulation" tar
 	  ((:url . "https://github.com/emacsomancer/equake")
-	   (:commit . "60e9cbfae7a79e14a8e95da1148122c05500eb20")
-	   (:revdesc . "60e9cbfae7a7")
+	   (:commit . "dad70e0a290d2d7a5baa48bb513cd81e84b0dfd8")
+	   (:revdesc . "dad70e0a290d")
 	   (:keywords "convenience" "frames" "terminals" "tools" "window-system")
 	   (:authors
 	    ("Benjamin Slade" . "slade@lambda-y.net"))
@@ -29133,15 +29133,15 @@
 	   ("Mola-T" . "Mola@molamola.xyz"))
 	  (:maintainer "Mola-T" . "Mola@molamola.xyz"))])
  (flyover .
-	  [(0 1 0 1 -4 20251208 647)
+	  [(0 1 0 1 -4 20260101 2027)
 	   ((emacs
 	     (27 1))
 	    (flymake
 	     (1 0)))
 	   "Display Flycheck and Flymake errors with overlays" tar
 	   ((:url . "https://github.com/konrad1977/flyover")
-	    (:commit . "0446b4289bd7a3f169f2ab8eb6f6fa0365322bab")
-	    (:revdesc . "0446b4289bd7")
+	    (:commit . "705afce399a6c03599e9304c5366cc62cc565c68")
+	    (:revdesc . "705afce399a6")
 	    (:keywords "convenience" "tools" "flycheck" "flymake")
 	    (:authors
 	     ("Mikael Konradsson" . "mikael.konradsson@outlook.com"))
@@ -33356,6 +33356,24 @@
 		 (:maintainers
 		  ("Liu Bo" . "liubolovelife@gmail.com"))
 		 (:maintainer "Liu Bo" . "liubolovelife@gmail.com"))])
+ (gptel-cpp-complete .
+		     [(0 1 0 1 -4 20260101 1715)
+		      ((emacs
+			(30 1))
+		       (eglot
+			(1 19))
+		       (gptel
+			(0 9 8)))
+		      "GPTel-powered C++ completion" tar
+		      ((:url . "https://github.com/beacoder/gptel-cpp-complete")
+		       (:commit . "08482a64d32e85ffc11fc765d1d63b2d2ee868fc")
+		       (:revdesc . "08482a64d32e")
+		       (:keywords "programming" "convenience")
+		       (:authors
+			("Huming Chen" . "chenhuming@gmail.com"))
+		       (:maintainers
+			("Huming Chen" . "chenhuming@gmail.com"))
+		       (:maintainer "Huming Chen" . "chenhuming@gmail.com"))])
  (gptel-fn-complete .
 		    [(0 1 0 1 -4 20250317 1805)
 		     ((emacs
@@ -58418,6 +58436,26 @@
 		  ((:url . "https://github.com/ahmed-shariff/org-roam-ql")
 		   (:commit . "cdf6b11279783346607542dfac07c74d8651a650")
 		   (:revdesc . "cdf6b1127978"))])
+ (org-roam-timeline .
+		    [(0 1 0 1 -4 20251230 1727)
+		     ((emacs
+		       (27 1))
+		      (org-roam
+		       (2 0))
+		      (json-mode
+		       (1 0))
+		      (simple-httpd
+		       (1 5 1)))
+		     "Visual timeline for Org-Roam nodes" tar
+		     ((:url . "https://github.com/GerardoCendejas/org-roam-timeline")
+		      (:commit . "68a5f4c74e63a4d2c29e809e7a096766fa900aeb")
+		      (:revdesc . "68a5f4c74e63")
+		      (:keywords "org" "hypermedia" "visualization" "timeline")
+		      (:authors
+		       ("Gerardo Cendejas Mendoza" . "gc597@cornell.edu"))
+		      (:maintainers
+		       ("Gerardo Cendejas Mendoza" . "gc597@cornell.edu"))
+		      (:maintainer "Gerardo Cendejas Mendoza" . "gc597@cornell.edu"))])
  (org-roam-timestamps .
 		      [(1 0 0 1 -4 20221104 1544)
 		       ((emacs
@@ -64205,6 +64243,15 @@
 	   (:maintainers
 	    ("Jen-Chieh Shen" . "jcs090218@gmail.com"))
 	   (:maintainer "Jen-Chieh Shen" . "jcs090218@gmail.com"))])
+ (porg .
+       [(0 1 0 1 -4 20251230 410)
+	((emacs
+	  (26 1)))
+	"Bring org-mode features to any prog mode" tar
+	((:url . "https://github.com/laluxx/porg")
+	 (:commit . "557fecde1f02fa7ffb13b0dc5da3432171946086")
+	 (:revdesc . "557fecde1f02")
+	 (:keywords "folding" "convenience" "org-mode"))])
  (portage-modes .
 		[(0 1 0 1 -4 20250207 1057)
 		 nil "Major modes for editing Portage config files" tar
@@ -66660,13 +66707,13 @@
 		(:commit . "b4365e60e3ba747a5fec8ca909f64fe8c73d8db2")
 		(:revdesc . "b4365e60e3ba"))])
  (q-mode .
-	 [(0 1 0 1 -4 20260101 2013)
+	 [(0 1 0 1 -4 20260101 2301)
 	  ((emacs
 	    (24)))
 	  "A q editing mode" tar
 	  ((:url . "https://github.com/psaris/q-mode")
-	   (:commit . "5e6defa579b7a35230d64161b10c4e090462b674")
-	   (:revdesc . "5e6defa579b7")
+	   (:commit . "72dea863150151bc08fd983717b5a2d12f30d64e")
+	   (:revdesc . "72dea8631501")
 	   (:keywords "faces" "files" "q"))])
  (qml-mode .
 	   [(0 4 1 -4 20161016 31)
@@ -81696,6 +81743,18 @@
 		   (:maintainers
 		    ("Stephane Zermatten" . "szermatt@gmail.com"))
 		   (:maintainer "Stephane Zermatten" . "szermatt@gmail.com"))])
+ (visual-shorthands .
+		    [(0 1 0 1 -4 20251231 1535)
+		     ((emacs
+		       (29 1)))
+		     "Visual abbreviations for symbol prefixes" tar
+		     ((:url . "https://github.com/gggion/visual-shorthands.el")
+		      (:commit . "5f190f1891755bffbff066b63a3a494299988094")
+		      (:revdesc . "5f190f189175")
+		      (:keywords "convenience")
+		      (:maintainers
+		       ("Gino Cornejo" . "gggion123@gmail.com"))
+		      (:maintainer "Gino Cornejo" . "gggion123@gmail.com"))])
  (vlc .
       [(0 1 -4 20200328 1143)
        ((emacs
