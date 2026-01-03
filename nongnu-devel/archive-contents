@@ -1208,9 +1208,9 @@
       (:authors ("Jon Oddie" . "j.j.oddie@gmail.com"))
       (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit
-  . [(4 4 2 0 20251227 224744)
-     ((emacs (28 1)) (compat (30 1)) (cond-let (0 1)) (llama (1 0))
-      (magit-section (4 4)) (seq (2 24)) (transient (0 10))
+  . [(4 5 0 0 20260103 192533)
+     ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (llama (1 0))
+      (magit-section (4 5)) (seq (2 24)) (transient (0 12))
       (with-editor (3 4)))
      "A Git porcelain inside Emacs" tar
      ((:url . "https://github.com/magit/magit")
@@ -1220,10 +1220,10 @@
        ("Kyle Meyer" . "kyle@kyleam.com"))
       (:authors ("Marius Vollmer" . "marius.vollmer@gmail.com")
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "c1448720eac5222beef827277c369fc5bab04a36"))])
+      (:commit . "9cbdaf5ddfe825c04ffa306dde6bdfea9ab6dff3"))])
  (magit-section
-  . [(4 4 2 0 20251227 224744)
-     ((emacs (28 1)) (compat (30 1)) (cond-let (0 1)) (llama (1 0))
+  . [(4 5 0 0 20260103 192533)
+     ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (llama (1 0))
       (seq (2 24)))
      "Sections for read-only buffers" tar
      ((:url . "https://github.com/magit/magit") (:keywords "tools")
@@ -1231,7 +1231,7 @@
 		   . "emacs.magit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "c1448720eac5222beef827277c369fc5bab04a36"))])
+      (:commit . "9cbdaf5ddfe825c04ffa306dde6bdfea9ab6dff3"))])
  (markdown-mode
   . [(2 8 -3 0 20251204 85213) ((emacs (28 1)))
      "Major mode for Markdown-formatted text" tar
@@ -1415,8 +1415,8 @@
       (:authors ("Takaaki ISHIKAWA" . "takaxpatieeedotorg"))
       (:commit . "e2599a106a26ce5511095e23df4ea04be6687a8a"))])
  (orgit
-  . [(2 1 0 0 20251130 195559)
-     ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (magit (4 4))
+  . [(2 1 1 0 20260101 185122)
+     ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (magit (4 5))
       (org (9 7)))
      "Support for Org links to Magit buffers" tar
      ((:url . "https://github.com/magit/orgit")
@@ -1425,7 +1425,7 @@
 		   . "emacs.orgit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
-      (:commit . "e0b3fca9f328065af52b81a619445b6a45a3ab25"))])
+      (:commit . "24c8fe48c477d561c2ce1720223f8c5aec664f4e"))])
  (p4-16-mode
   . [(0 3 0 20231118 161633) nil
      "Support for the P4_16 programming language" tar
@@ -1785,12 +1785,12 @@
       (:authors ("John Olsson" . "john@cryon.se"))
       (:commit . "9d0ac6aa5272d0285965a48505eb35658c5472b0"))])
  (subed
-  . [(1 2 25 0 20251220 184030) ((emacs (25 1)))
+  . [(1 3 1 0 20260103 134523) ((emacs (25 1)))
      "A major mode for editing subtitles" tar
      ((:url . "https://github.com/sachac/subed")
       (:keywords "convenience" "files" "hypermedia" "multimedia")
       (:maintainer "Sacha Chua" . "sacha@sachachua.com")
-      (:commit . "4d063121e62aa17b30765bd261f7ec7e2a62795a"))])
+      (:commit . "0e4ed5d14af146da619d8cb6e5a8e1b5bbae168d"))])
  (sweeprolog
   . [(0 27 6 0 20250624 64526) ((emacs (27 1)) (compat (29 1 4 2)))
      "Embedded SWI-Prolog" tar
@@ -1900,14 +1900,14 @@
       (:authors ("Marty Hiatt" . "mousebot@disroot.org"))
       (:commit . "cce2dfe0ec2b5c070cb13a7bdf95695eeb6e3caf"))])
  (treesit-fold
-  . [(0 2 1 0 20251231 162628) ((emacs (29 1)))
+  . [(0 2 1 0 20260103 91448) ((emacs (29 1)))
      "Code folding using treesit" tar
      ((:url . "https://github.com/emacs-tree-sitter/treesit-fold")
       (:keywords "convenience" "folding" "tree-sitter")
       (:maintainer "Jen-Chieh" . "jcs090218@gmail.com")
       (:authors ("Junyi Hou" . "junyi.yi.hou@gmail.com")
 		("Jen-Chieh" . "jcs090218@gmail.com"))
-      (:commit . "691541c5589b8213b7abca31223e6b12a9183197"))])
+      (:commit . "ec7e5b02e5d0f0902e19a42e5af4801817598fa3"))])
  (treeview
   . [(1 3 1 0 20241101 11503) ((emacs (25 1)))
      "A generic tree navigation library" tar
