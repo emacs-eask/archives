@@ -16571,20 +16571,6 @@
 		      (:commit . "66081546eac360c83a9c3270db92a2164288b0d0")
 		      (:revdesc . "66081546eac3")
 		      (:keywords "discover" "help" "major-mode" "keys"))])
- (disk .
-       [(1 0 1 1 -4 20171116 731)
-	nil "Simplified find-file, revert-file, save-buffer interface" tar
-	((:url . "http://www.emacswiki.org/emacs/DiskKey")
-	 (:commit . "283e54e3be7d08f959076240b2ab324e25632137")
-	 (:revdesc . "283e54e3be7d")
-	 (:keywords "convenience")
-	 (:authors
-	  ("Alex Schroeder" . "alex@gnu.org")
-	  ("Peter Barabas" . "peter.barabas+disk@gmail.com"))
-	 (:maintainers
-	  ("Alex Schroeder" . "alex@gnu.org")
-	  ("Peter Barabas" . "peter.barabas+disk@gmail.com"))
-	 (:maintainer "Alex Schroeder" . "alex@gnu.org"))])
  (dispass .
 	  [(1 1 2 1 -4 20140202 1531)
 	   ((dash
@@ -18603,42 +18589,6 @@
 		      ("Steven Rémot" . "steven.remot@gmail.com")
 		      ("original code for C++ by Eric M. Ludlam" . "eric@siege-engine.com"))
 		     (:maintainer "Steven Rémot" . "steven.remot@gmail.com"))])
- (ede-php-autoload-composer-installers .
-				       [(0 1 0 1 -4 20170221 2026)
-					((ede-php-autoload
-					  (1 0 0))
-					 (f
-					  (0 19 0))
-					 (s
-					  (1 7 0)))
-					"Composer installers support for ede-php-autoload" tar
-					((:url . "https://github.com/xendk/ede-php-autoload-composer-installers")
-					 (:commit . "3e2fde975a06757b363e235c67e6341ebe668f60")
-					 (:revdesc . "3e2fde975a06")
-					 (:keywords "programming" "php")
-					 (:authors
-					  ("Thomas Fini Hansen" . "xen@xen.dk"))
-					 (:maintainers
-					  ("Thomas Fini Hansen" . "xen@xen.dk"))
-					 (:maintainer "Thomas Fini Hansen" . "xen@xen.dk"))])
- (ede-php-autoload-drupal .
-			  [(0 1 0 1 -4 20170316 2158)
-			   ((ede-php-autoload
-			     (1 0 0))
-			    (f
-			     (0 19 0))
-			    (s
-			     (1 7 0)))
-			   "Drupal support for ede-php-autoload" tar
-			   ((:url . "https://github.com/xendk/ede-php-autoload-drupal")
-			    (:commit . "54a04241d94fabc4f4d16ae4dc8ba4f0c6e3b435")
-			    (:revdesc . "54a04241d94f")
-			    (:keywords "programming" "php" "drupal")
-			    (:authors
-			     ("Thomas Fini Hansen" . "xen@xen.dk"))
-			    (:maintainers
-			     ("Thomas Fini Hansen" . "xen@xen.dk"))
-			    (:maintainer "Thomas Fini Hansen" . "xen@xen.dk"))])
  (edebug-inline-result .
 		       [(0 1 1 -4 20220820 2240)
 			((emacs
@@ -19087,6 +19037,22 @@
 	       (:maintainers
 		("Kenneth Loeffler" . "kenloef@gmail.com"))
 	       (:maintainer "Kenneth Loeffler" . "kenloef@gmail.com"))])
+ (eglot-python-preset .
+		      [(0 1 0 1 -4 20260102 1801)
+		       ((emacs
+			 (30 2))
+			(eglot
+			 (1 17)))
+		       "Eglot preset for Python" tar
+		       ((:url . "https://github.com/mwolson/eglot-python-preset")
+			(:commit . "e18a0ea0a176dcb308bd77aeeb72c22954d87433")
+			(:revdesc . "e18a0ea0a176")
+			(:keywords "python" "convenience" "languages" "tools")
+			(:authors
+			 ("Michael Olson" . "mwolson@gnu.org"))
+			(:maintainers
+			 ("Michael Olson" . "mwolson@gnu.org"))
+			(:maintainer "Michael Olson" . "mwolson@gnu.org"))])
  (eglot-signature-eldoc-talkative .
 				  [(0 0 7 1 -4 20240626 815)
 				   ((emacs
@@ -32783,6 +32749,20 @@
 	   (:maintainers
 	    ("Brantou" . "brantou89@gmail.com"))
 	   (:maintainer "Brantou" . "brantou89@gmail.com"))])
+ (go-template-helper-mode .
+			  [(0 1 0 1 -4 20260102 1449)
+			   ((emacs
+			     (28 1)))
+			   "Overlay Go template highlighting" tar
+			   ((:url . "https://codeberg.org/rch/go-template-helper-mode")
+			    (:commit . "34ba1fa917da78f9926fa909056bd9e1e5dd2837")
+			    (:revdesc . "34ba1fa917da")
+			    (:keywords "tools" "faces")
+			    (:authors
+			     ("Robert Charusta" . "rch-public@posteo.net"))
+			    (:maintainers
+			     ("Robert Charusta" . "rch-public@posteo.net"))
+			    (:maintainer "Robert Charusta" . "rch-public@posteo.net"))])
  (gobgen .
 	 [(0 0 1 1 -4 20161020 1523)
 	  ((emacs
@@ -36864,24 +36844,6 @@
 			(:maintainers
 			 ("hadashiA" . "dev@hadashikick.jp"))
 			(:maintainer "hadashiA" . "dev@hadashikick.jp"))])
- (helm-rubygems-org .
-		    [(0 0 1 1 -4 20140826 1156)
-		     ((emacs
-		       (24))
-		      (helm
-		       (1 6 3))
-		      (cl-lib
-		       (0 5)))
-		     "Use helm to search rubygems.org" tar
-		     ((:url . "https://github.com/neomantic/helm-rubygems-org")
-		      (:commit . "6aaed984f698cbdf9f9aceb0221404563e28764d")
-		      (:revdesc . "6aaed984f698")
-		      (:keywords "ruby" "rubygems" "gemfile" "helm")
-		      (:authors
-		       ("Chad Albers" . "calbers@neomantic.com"))
-		      (:maintainers
-		       ("Chad Albers" . "calbers@neomantic.com"))
-		      (:maintainer "Chad Albers" . "calbers@neomantic.com"))])
  (helm-safari .
 	      [(0 1 1 -4 20160404 324)
 	       ((helm
@@ -41767,13 +41729,13 @@
 		    ("Christopher Wellons" . "wellons@nullprogram.com"))
 		   (:maintainer "Christopher Wellons" . "wellons@nullprogram.com"))])
  (javelin .
-	  [(0 1 0 1 -4 20251231 2251)
+	  [(0 1 0 1 -4 20260104 2223)
 	   ((emacs
 	     (28 1)))
 	   "Implementation of harpoon: bookmarks on steroids" tar
 	   ((:url . "https://github.com/DamianB-BitFlipper/javelin.el")
-	    (:commit . "175a2ebc56ecc8468f0ca8ffde9a8650446f1c74")
-	    (:revdesc . "175a2ebc56ec")
+	    (:commit . "1fe2c9d01fa5b71f54d5528bf81faa2d47834c21")
+	    (:revdesc . "1fe2c9d01fa5")
 	    (:keywords "tools" "languages"))])
  (jaword .
 	 [(1 0 1 1 -4 20210306 420)
@@ -84780,24 +84742,6 @@
 	      (:maintainers
 	       ("Stephen J. Eglen" . "sje30@cam.ac.uk"))
 	      (:maintainer "Stephen J. Eglen" . "sje30@cam.ac.uk"))])
- (ynab .
-       [(0 0 2 1 -4 20200607 2008)
-	((emacs
-	  (26 3))
-	 (cl-lib
-	  (0 5))
-	 (ts
-	  (0 2)))
-	"Major mode for YNAB (you need a budget)" tar
-	((:url . "https://github.com/janders223/ynab.el")
-	 (:commit . "2c6beb4d2c4996017f6b3c62c26db52a61e5c479")
-	 (:revdesc . "2c6beb4d2c49")
-	 (:keywords "ynab" "budget" "convenience")
-	 (:authors
-	  ("Jim Anders" . "https://github.com/janders223"))
-	 (:maintainers
-	  ("Jim Anders" . "jimanders223@gmail.com"))
-	 (:maintainer "Jim Anders" . "jimanders223@gmail.com"))])
  (yoficator .
 	    [(0 9 1 -4 20190509 1620)
 	     nil "Interactively yoficate Russian texts" tar
