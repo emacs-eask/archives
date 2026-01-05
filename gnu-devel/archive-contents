@@ -173,13 +173,13 @@
       (:authors ("John Wiegley" . "jwiegley@gmail.com"))
       (:commit . "31cb2fea8f4bc7a593acd76187a89075d8075500"))])
  (auctex
-  . [(14 1 0 0 20260101 142150) ((emacs (28 1)))
+  . [(14 1 0 0 20260105 191728) ((emacs (28 1)))
      "Integrated environment for *TeX*" tar
      ((:url . "https://www.gnu.org/software/auctex/")
       (:keywords "tex" "latex" "texinfo" "context" "doctex"
 		 "preview-latex")
       (:maintainer nil . "auctex-devel@gnu.org")
-      (:commit . "517dd1ae1f357772e77568884cf9a6d027de6138"))])
+      (:commit . "8c7c954b62709cc7a964f4022f271f4ce705b640"))])
  (auctex-cont-latexmk
   . [(0 3 0 20250115 185937) ((emacs (29 3)) (auctex (14 0 5)))
      "run latexmk continuously, report errors via Flymake" tar
@@ -477,14 +477,14 @@
       (:authors ("Augusto Stoffel" . "arstoffel@gmail.com"))
       (:commit . "b99013b81712edbb94fdb57cce083d32ad06fbb8"))])
  (colorful-mode
-  . [(1 2 5 0 20251121 52839) ((emacs (28 1)) (compat (30 1 0 0)))
+  . [(1 2 5 0 20260105 102832) ((emacs (28 1)) (compat (30 1 0 0)))
      "Preview any color in your buffer in real time" tar
      ((:url . "https://github.com/DevelopmentCool2449/colorful-mode")
       (:keywords "faces" "tools" "matching" "convenience")
       (:maintainer ("Jen-Chieh" . "jcs090218@gmail.com")
 		   ("Elias G. Perez" . "eg642616@gmail.com"))
       (:authors ("Elias G. Perez" . "eg642616@gmail.com"))
-      (:commit . "524240feb0cd4c385bab2e6f3345ef8ad52c112d"))])
+      (:commit . "865b92a60924554d04bad6b889f15fb0a88690de"))])
  (comint-mime
   . [(0 7 0 20241116 123039)
      ((emacs (28 1)) (compat (29 1)) (mathjax (0 1)))
@@ -560,12 +560,12 @@
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
       (:commit . "f07e221d4d5597c7ccf4b0003c0909a88bdfcc9e"))])
  (consult
-  . [(3 1 0 20260104 113522) ((emacs (29 1)) (compat (30)))
+  . [(3 1 0 20260105 162457) ((emacs (29 1)) (compat (30)))
      "Consulting completing-read" tar
      ((:url . "https://github.com/minad/consult")
       (:keywords "matching" "files" "completion")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-      (:commit . "6eaf346b73c2a6f2898d1085e14b510902436ffe"))])
+      (:commit . "4ca98db03dac33476d60657ba975639ee30f2e9e"))])
  (consult-denote
   . [(0 4 2 0 20251222 50446)
      ((emacs (28 1)) (denote (4 0 0)) (consult (2 2)))
@@ -601,13 +601,13 @@
        ("Jackson Ray Hamilton" . "jackson@jacksonrayhamilton.com"))
       (:commit . "75a8c811874c231b49729e76c696824463e54402"))])
  (corfu
-  . [(2 7 0 20260104 112715) ((emacs (29 1)) (compat (30)))
+  . [(2 7 0 20260105 173557) ((emacs (29 1)) (compat (30)))
      "COmpletion in Region FUnction" tar
      ((:url . "https://github.com/minad/corfu")
       (:keywords "abbrev" "convenience" "matching" "completion" "text")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "4f25ebef82698e2c3506910901935aa91a0d7c80"))])
+      (:commit . "c524ed908bac3fb685343355804e89b87a528bce"))])
  (coterm
   . [(1 6 0 20221015 160420) ((emacs (26 1)) (compat (28 1 2 0)))
      "Terminal emulation for comint" tar
@@ -1050,7 +1050,7 @@
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
       (:commit . "45c4014328d8857c5d85a07124b65e354f2b80bb"))])
  (eglot
-  . [(1 19 0 20260104 141202)
+  . [(1 19 0 20260105 174116)
      ((emacs (26 3)) (eldoc (1 14 0)) (external-completion (0 1))
       (flymake (1 4 2)) (jsonrpc (1 0 26)) (project (0 11 2))
       (seq (2 23)) (xref (1 6 2)))
@@ -1059,7 +1059,7 @@
       (:keywords "convenience" "languages")
       (:maintainer "João Távora" . "joaotavora@gmail.com")
       (:authors ("João Távora" . "joaotavora@gmail.com"))
-      (:commit . "b0aa799b009364bc28b213741c52bdfe5b2d198c"))])
+      (:commit . "28fe937d5d312246706060b80ba7e11a9ab9fe38"))])
  (el-job
   . [(2 6 1 0 20251202 235353) ((emacs (29 1)))
      "Contrived way to call a function using all CPU cores" tar
@@ -2792,16 +2792,16 @@
       (:authors ("Matto Fransen" . "matto@matto.nl"))
       (:commit . "349aabcbb6bd10b007f431d180e870a5918b9e21"))])
  (realgud
-  . [(1 5 1 0 20260104 180251)
-     ((load-relative (1 3 1)) (loc-changes (1 2))
-      (test-simple (1 3 0)) (emacs (25)))
+  . [(1 6 0 0 20260105 120346)
+     ((load-relative (1 3 2)) (loc-changes (1 2))
+      (test-simple (1 3 0)) (emacs (27)))
      "A modular front-end for interacting with external debuggers" tar
      ((:url . "https://github.com/realgud/realgud/")
       (:keywords "debugger" "gdb" "python" "perl" "go" "bash" "zsh"
 		 "bashdb" "zshdb" "remake" "trepan" "perldb" "pdb")
       (:maintainer "Rocky Bernstein" . "rocky@gnu.org")
       (:authors ("Rocky Bernstein" . "rocky@gnu.org"))
-      (:commit . "77f3130c930c3e3ab9c6ab9b4d9ddf928051d169"))])
+      (:commit . "50edd7c33d2dd97839af1b3c71ba39a131f31d39"))])
  (realgud-ipdb
   . [(1 0 0 0 20231216 160636)
      ((realgud (1 5 0)) (load-relative (1 3 1)) (emacs (25)))
@@ -2819,13 +2819,13 @@
       (:authors ("Rocky Bernstein" . "rocky@gnu.org"))
       (:commit . "1c183b2f8aae0de60942ea01444b896bf182c66a"))])
  (realgud-lldb
-  . [(1 0 2 0 20241118 210939)
+  . [(1 0 2 0 20260105 115809)
      ((load-relative (1 3 1)) (realgud (1 5 0)) (emacs (25)))
      "Realgud front-end to lldb" tar
      ((:url . "http://github.com/realgud/realgud-lldb")
       (:maintainer "Rocky Bernstein" . "rocky@gnu.org")
       (:authors ("Rocky Bernstein" . "rocky@gnu.org"))
-      (:commit . "deacd070e8ab8830f4d577fee37136ad89183d13"))])
+      (:commit . "2521026a8dc8f1b6ce491a580be21808f6f5f1df"))])
  (realgud-node-debug
   . [(1 0 0 0 20190525 123417)
      ((realgud (1 4 5)) (load-relative (1 2)) (cl-lib (0 5))
@@ -3684,13 +3684,13 @@
 		("Wilson Snyder" . "wsnyder@wsnyder.org"))
       (:commit . "17ddfd66e65c19f44dee41ee1b7ee1ce23ef3ed2"))])
  (vertico
-  . [(2 6 0 20260105 25842) ((emacs (29 1)) (compat (30)))
+  . [(2 6 0 20260105 151417) ((emacs (29 1)) (compat (30)))
      "VERTical Interactive COmpletion" tar
      ((:url . "https://github.com/minad/vertico")
       (:keywords "convenience" "files" "matching" "completion")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "11200d9a2dfc9f4ffdbf0b06c64cccafddf73906"))])
+      (:commit . "a7365958439c86f5cabb9cd4bb93c0a4118eedc1"))])
  (vertico-posframe
   . [(0 9 0 0 20250910 92713)
      ((emacs (26 0)) (posframe (1 4 0)) (vertico (2 5)))
