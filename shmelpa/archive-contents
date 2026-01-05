@@ -19199,7 +19199,7 @@
 	       (:revdesc . "9630dfac9549")
 	       (:keywords "convenience" "languages" "tools"))])
  (ekg .
-      [(0 1 0 1 -4 20260103 1849)
+      [(0 1 0 1 -4 20260105 116)
        ((triples
 	 (0 6 1))
 	(emacs
@@ -19208,8 +19208,8 @@
 	 (0 18 0)))
        "A system for recording and linking information" tar
        ((:url . "https://github.com/ahyatt/ekg")
-	(:commit . "7a44cc0c083cec474bcbd2f48a25a53f234b34f0")
-	(:revdesc . "7a44cc0c083c")
+	(:commit . "78e092df163c790a7d9a663cc350908d6cefaa84")
+	(:revdesc . "78e092df163c")
 	(:keywords "outlines" "hypermedia")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
@@ -20326,7 +20326,7 @@
 	   ("Peter Badida" . "keyweeusr@gmail.com"))
 	  (:maintainer "Peter Badida" . "keyweeusr@gmail.com"))])
  (ellama .
-	 [(0 1 0 1 -4 20260103 2232)
+	 [(0 1 0 1 -4 20260105 38)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -20339,8 +20339,8 @@
 	    (29 1)))
 	  "Tool for interacting with LLMs" tar
 	  ((:url . "http://github.com/s-kostyaev/ellama")
-	   (:commit . "3ddbe73e862a3bb6f0bdfbf977602cab85fbdf5c")
-	   (:revdesc . "3ddbe73e862a")
+	   (:commit . "9f7742b191ef240f733c058b440b56c2ffba738a")
+	   (:revdesc . "9f7742b191ef")
 	   (:keywords "help" "local" "tools")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
@@ -39525,11 +39525,14 @@
 	   ("Jonas Bernoulli" . "emacs.imake@jonas.bernoulli.dev"))
 	  (:maintainer "Jonas Bernoulli" . "emacs.imake@jonas.bernoulli.dev"))])
  (imbot .
-	[(0 1 0 1 -4 20260104 143)
-	 nil "[No description available]" tar
+	[(0 1 0 1 -4 20260105 115)
+	 ((emacs
+	   (29 1)))
+	 "[No description available]" tar
 	 ((:url . "https://github.com/QiangF/imbot")
-	  (:commit . "6438c55d50283f869a91cd38f28c32cd1fc4fb21")
-	  (:revdesc . "6438c55d5028"))])
+	  (:commit . "c76967403e285e4f475cfb3fb06f9e076b21d65d")
+	  (:revdesc . "c76967403e28")
+	  (:keywords "convenience"))])
  (imenu-anywhere .
 		 [(1 1 6 1 -4 20210201 1704)
 		  ((cl-lib
@@ -44375,7 +44378,7 @@
 	  ("Yoav Marco" . "yoavm448@gmail.com"))
 	 (:maintainer "Yoav Marco" . "yoavm448@gmail.com"))])
  (lab .
-      [(0 1 0 1 -4 20260103 1749)
+      [(0 1 0 1 -4 20260104 2254)
        ((emacs
 	 (27 1))
 	(request
@@ -44392,8 +44395,8 @@
 	 (1 1)))
        "An interface for GitLab" tar
        ((:url . "https://github.com/isamert/lab.el")
-	(:commit . "a7a3985b7f39dd4bdb6ad9b3579b54edb49f34de")
-	(:revdesc . "a7a3985b7f39")
+	(:commit . "a7c696defe68c171b679a877737921c963629048")
+	(:revdesc . "a7c696defe68")
 	(:authors
 	 ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
 	(:maintainers
@@ -61659,6 +61662,20 @@
 	  ("Nicolas Petton" . "petton.nicolas@gmail.com")
 	  ("Damien Cassou" . "damien@cassou.me"))
 	 (:maintainer "Nicolas Petton" . "petton.nicolas@gmail.com"))])
+ (pass-coffin .
+	      [(0 1 0 1 -4 20251231 1407)
+	       ((emacs
+		 (28 1)))
+	       "Interface to \"pass coffin\"" tar
+	       ((:url . "https://codeberg.org/rch/emacs-pass-coffin")
+		(:commit . "202c9e3b67c5e0fe8d3631436c8c95f61586f88f")
+		(:revdesc . "202c9e3b67c5")
+		(:keywords "tools")
+		(:authors
+		 ("Robert Charusta" . "rch-public@posteo.net"))
+		(:maintainers
+		 ("Robert Charusta" . "rch-public@posteo.net"))
+		(:maintainer "Robert Charusta" . "rch-public@posteo.net"))])
  (password-generator .
 		     [(0 1 0 1 -4 20250615 2300)
 		      nil "Password generator for humans. Good, Bad, Phonetic passwords included" tar
@@ -67497,7 +67514,7 @@
 		      ("Qingsong Liao" . "llqingsong@qq.com"))
 		     (:maintainer "Qingsong Liao" . "llqingsong@qq.com"))])
  (realgud .
-	  [(1 1 1 -4 20251024 2145)
+	  [(1 1 1 -4 20260104 2302)
 	   ((load-relative
 	     (1 3 1))
 	    (loc-changes
@@ -67508,8 +67525,8 @@
 	     (25)))
 	   "A modular front-end for interacting with external debuggers" tar
 	   ((:url . "https://github.com/realgud/realgud/")
-	    (:commit . "56a8d82830ad65c9cbb9c694617f078f007281ac")
-	    (:revdesc . "56a8d82830ad")
+	    (:commit . "77f3130c930c3e3ab9c6ab9b4d9ddf928051d169")
+	    (:revdesc . "77f3130c930c")
 	    (:keywords "debugger" "gdb" "python" "perl" "go" "bash" "zsh" "bashdb" "zshdb" "remake" "trepan" "perldb" "pdb")
 	    (:authors
 	     ("Rocky Bernstein" . "rocky@gnu.org"))
@@ -68232,13 +68249,13 @@
 		("Reagan Middlebrook" . "reagankm@gmail.com"))
 	       (:maintainer "Reagan Middlebrook" . "reagankm@gmail.com"))])
  (repeat-fu .
-	    [(0 1 0 1 -4 20260104 425)
+	    [(0 1 0 1 -4 20260104 2328)
 	     ((emacs
 	       (29 1)))
 	     "Minor mode to repeat typing or commands" tar
 	     ((:url . "https://codeberg.org/ideasman42/emacs-repeat-fu")
-	      (:commit . "d766cb196c10230ac7d3ffe23a7a3fb8f4f4e32e")
-	      (:revdesc . "d766cb196c10")
+	      (:commit . "c42b3bafa12be5d01c990fab33e80ebd7a30f5af")
+	      (:revdesc . "c42b3bafa12b")
 	      (:keywords "convenience")
 	      (:authors
 	       ("Campbell Barton" . "ideasman42@gmail.com"))
@@ -70126,6 +70143,20 @@
 	       ("Len Trigg" . "lenbok@gmail.com")
 	       ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	      (:maintainer "Len Trigg" . "lenbok@gmail.com"))])
+ (scad-ts-mode .
+	       [(0 1 0 1 -4 20260103 726)
+		((emacs
+		  (29 3)))
+		"Tree-sitter support for OpenSCAD" tar
+		((:url . "https://github.com/yoshinari-nomura/scad-ts-mode")
+		 (:commit . "0cf2aed540b9e380b3724247daf8917ed3563e57")
+		 (:revdesc . "0cf2aed540b9")
+		 (:keywords "openscad" "languages" "tree-sitter")
+		 (:authors
+		  ("Yoshinari Nomura" . "nom@quickhack.net"))
+		 (:maintainers
+		  ("Yoshinari Nomura" . "nom@quickhack.net"))
+		 (:maintainer "Yoshinari Nomura" . "nom@quickhack.net"))])
  (scala-mode .
 	     [(0 1 0 1 -4 20241231 839)
 	      ((emacs
@@ -77927,6 +77958,15 @@
 	 (:maintainers
 	  ("Ono Hiroko" . "azazabc123@gmail.com"))
 	 (:maintainer "Ono Hiroko" . "azazabc123@gmail.com"))])
+ (tmpl-mode .
+	    [(0 1 0 1 -4 20260103 1717)
+	     ((emacs
+	       (25 1)))
+	     "Minor mode for \"tmpl\" template files" tar
+	     ((:url . "https://github.com/Lindydancer/tmpl-mode")
+	      (:commit . "ff9883cfa3b63005c64d556a5a5c2f81aa312ea7")
+	      (:revdesc . "ff9883cfa3b6")
+	      (:keywords "languages"))])
  (tmsu .
        [(0 1 0 1 -4 20241230 2209)
 	((emacs
@@ -81712,13 +81752,13 @@
 		    ("Stephane Zermatten" . "szermatt@gmail.com"))
 		   (:maintainer "Stephane Zermatten" . "szermatt@gmail.com"))])
  (visual-shorthands .
-		    [(0 1 0 1 -4 20260104 1629)
+		    [(0 1 0 1 -4 20260104 2221)
 		     ((emacs
 		       (29 1)))
 		     "Visual abbreviations for symbol prefixes" tar
 		     ((:url . "https://github.com/gggion/visual-shorthands.el")
-		      (:commit . "1b2ca9df5b66ef3e48b331fa8d17c1458f24505d")
-		      (:revdesc . "1b2ca9df5b66")
+		      (:commit . "0511154773533ec2e3c25efa5515ea548ee7e9e1")
+		      (:revdesc . "051115477353")
 		      (:keywords "convenience")
 		      (:maintainers
 		       ("Gino Cornejo" . "gggion123@gmail.com"))
