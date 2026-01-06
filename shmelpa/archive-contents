@@ -29124,30 +29124,30 @@
 	      (:revdesc . "af9b8cfd647d")
 	      (:keywords "faces" "convenience" "lisp" "matching" "parentheses" "parens"))])
  (flyspell-correct .
-		   [(0 1 0 1 -4 20260106 738)
+		   [(0 1 0 1 -4 20260106 955)
 		    ((emacs
-		      (24)))
+		      (29 1)))
 		    "Correcting words with flyspell via custom interface" tar
 		    ((:url . "https://github.com/d12frosted/flyspell-correct")
-		     (:commit . "77ee3c57dee48d1045fbe95bf588e3911df7d23b")
-		     (:revdesc . "77ee3c57dee4")
+		     (:commit . "a5a41c0f3a7881bd3eba07bee424ecb7c7d5061e")
+		     (:revdesc . "a5a41c0f3a78")
 		     (:authors
 		      ("Boris Buliga" . "boris@d12frosted.io"))
 		     (:maintainers
 		      ("Boris Buliga" . "boris@d12frosted.io"))
 		     (:maintainer "Boris Buliga" . "boris@d12frosted.io"))])
  (flyspell-correct-avy-menu .
-			    [(0 1 0 1 -4 20260106 738)
+			    [(0 1 0 1 -4 20260106 955)
 			     ((flyspell-correct
-			       (0 6 1))
+			       (1 0 0))
 			      (avy-menu
 			       (0 1 1))
 			      (emacs
-			       (24)))
+			       (29 1)))
 			     "Correcting words with flyspell via avy-menu interface" tar
 			     ((:url . "https://github.com/d12frosted/flyspell-correct")
-			      (:commit . "77ee3c57dee48d1045fbe95bf588e3911df7d23b")
-			      (:revdesc . "77ee3c57dee4")
+			      (:commit . "a5a41c0f3a7881bd3eba07bee424ecb7c7d5061e")
+			      (:revdesc . "a5a41c0f3a78")
 			      (:authors
 			       ("Boris Buliga" . "boris@d12frosted.io")
 			       ("Clemens Radermacher" . "clemera@posteo.net"))
@@ -29156,51 +29156,51 @@
 			       ("Clemens Radermacher" . "clemera@posteo.net"))
 			      (:maintainer "Boris Buliga" . "boris@d12frosted.io"))])
  (flyspell-correct-helm .
-			[(0 1 0 1 -4 20260106 738)
+			[(0 1 0 1 -4 20260106 955)
 			 ((flyspell-correct
-			   (0 6 1))
+			   (1 0 0))
 			  (helm
 			   (1 9 0))
 			  (emacs
-			   (24)))
+			   (29 1)))
 			 "Correcting words with flyspell via helm interface" tar
 			 ((:url . "https://github.com/d12frosted/flyspell-correct")
-			  (:commit . "77ee3c57dee48d1045fbe95bf588e3911df7d23b")
-			  (:revdesc . "77ee3c57dee4")
+			  (:commit . "a5a41c0f3a7881bd3eba07bee424ecb7c7d5061e")
+			  (:revdesc . "a5a41c0f3a78")
 			  (:authors
 			   ("Boris Buliga" . "boris@d12frosted.io"))
 			  (:maintainers
 			   ("Boris Buliga" . "boris@d12frosted.io"))
 			  (:maintainer "Boris Buliga" . "boris@d12frosted.io"))])
  (flyspell-correct-ivy .
-		       [(0 1 0 1 -4 20260106 738)
+		       [(0 1 0 1 -4 20260106 955)
 			((flyspell-correct
-			  (0 6 1))
+			  (1 0 0))
 			 (ivy
 			  (0 8 0))
 			 (emacs
-			  (24 4)))
+			  (29 1)))
 			"Correcting words with flyspell via ivy interface" tar
 			((:url . "https://github.com/d12frosted/flyspell-correct")
-			 (:commit . "77ee3c57dee48d1045fbe95bf588e3911df7d23b")
-			 (:revdesc . "77ee3c57dee4")
+			 (:commit . "a5a41c0f3a7881bd3eba07bee424ecb7c7d5061e")
+			 (:revdesc . "a5a41c0f3a78")
 			 (:authors
 			  ("Boris Buliga" . "boris@d12frosted.io"))
 			 (:maintainers
 			  ("Boris Buliga" . "boris@d12frosted.io"))
 			 (:maintainer "Boris Buliga" . "boris@d12frosted.io"))])
  (flyspell-correct-popup .
-			 [(0 1 0 1 -4 20260106 738)
+			 [(0 1 0 1 -4 20260106 955)
 			  ((flyspell-correct
-			    (0 6 1))
+			    (1 0 0))
 			   (popup
 			    (0 5 3))
 			   (emacs
-			    (24)))
+			    (29 1)))
 			  "Correcting words with flyspell via popup interface" tar
 			  ((:url . "https://github.com/d12frosted/flyspell-correct")
-			   (:commit . "77ee3c57dee48d1045fbe95bf588e3911df7d23b")
-			   (:revdesc . "77ee3c57dee4")
+			   (:commit . "a5a41c0f3a7881bd3eba07bee424ecb7c7d5061e")
+			   (:revdesc . "a5a41c0f3a78")
 			   (:authors
 			    ("Boris Buliga" . "boris@d12frosted.io"))
 			   (:maintainers
@@ -46906,7 +46906,7 @@
 		("Evgeny Kurnevsky" . "kurnevsky@gmail.com"))
 	       (:maintainer "Ross A. Baker" . "ross@rossabaker.com"))])
  (lsp-mode .
-	   [(0 1 0 1 -4 20260104 1515)
+	   [(0 1 0 1 -4 20260106 942)
 	    ((emacs
 	      (28 1))
 	     (dash
@@ -46925,8 +46925,8 @@
 	      (1 11)))
 	    "LSP mode" tar
 	    ((:url . "https://github.com/emacs-lsp/lsp-mode")
-	     (:commit . "2315fdec79e5ce638a26a385d7744c57949f4560")
-	     (:revdesc . "2315fdec79e5")
+	     (:commit . "3d06b8841087fdc090fe18a741fd83e45a1d2872")
+	     (:revdesc . "3d06b8841087")
 	     (:keywords "languages"))])
  (lsp-mssql .
 	    [(0 1 0 1 -4 20251117 1444)
@@ -53831,13 +53831,13 @@
 	       ("Guido Schmidt" . "guido.schmidt.2912@gmail.com"))
 	      (:maintainer "Guido Schmidt" . "guido.schmidt.2912@gmail.com"))])
  (oai .
-      [(0 1 0 1 -4 20260106 558)
+      [(0 1 0 1 -4 20260106 1056)
        ((emacs
 	 (29 1)))
        "AI-LLM blocks for org-mode" tar
        ((:url . "https://github.com/Anoncheg1/emacs-oai")
-	(:commit . "56e6671f4b2b87ec943c168916fdd59ba1eb3fd5")
-	(:revdesc . "56e6671f4b2b")
+	(:commit . "a319dba131c8e9137b7dc91bb07ee33271425026")
+	(:revdesc . "a319dba131c8")
 	(:keywords "org" "comm" "url" "link")
 	(:authors
 	 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
@@ -57263,7 +57263,7 @@
 		  ("Jason Kim" . "sukbeom.kim@gmail.com"))
 		 (:maintainer "Jason Kim" . "sukbeom.kim@gmail.com"))])
  (org-link-beautify .
-		    [(0 1 0 1 -4 20260103 220)
+		    [(0 1 0 1 -4 20260106 1116)
 		     ((emacs
 		       (29 1))
 		      (nerd-icons
@@ -57272,8 +57272,8 @@
 		       (1 3)))
 		     "Beautify Org Links" tar
 		     ((:url . "https://repo.or.cz/org-link-beautify.git")
-		      (:commit . "0730668c8c559ced60693d1554597743c7afde68")
-		      (:revdesc . "0730668c8c55")
+		      (:commit . "62955313268e27744ac2117ed5be9d2c362ded05")
+		      (:revdesc . "62955313268e")
 		      (:keywords "hypermedia"))])
  (org-link-travis .
 		  [(0 0 1 1 -4 20140405 2327)
@@ -65446,13 +65446,13 @@
 	    ("Julian Rubisch" . "julian@julianrubisch.at"))
 	   (:maintainer "Julian Rubisch" . "julian@julianrubisch.at"))])
  (proof-general .
-		[(0 1 0 1 -4 20260106 941)
+		[(0 1 0 1 -4 20260106 1107)
 		 ((emacs
 		   (25 2)))
 		 "A generic Emacs interface for proof assistants" tar
 		 ((:url . "https://proofgeneral.github.io/")
-		  (:commit . "5c42288756409e6ff3919eb27913ad655b77467d")
-		  (:revdesc . "5c4228875640")
+		  (:commit . "0683e96b382e2988f1e5f52b5a17c67135b51416")
+		  (:revdesc . "0683e96b382e")
 		  (:maintainers
 		   (nil . "proof-general-maintainers@groupes.renater.fr"))
 		  (:maintainer nil . "proof-general-maintainers@groupes.renater.fr"))])
@@ -66711,13 +66711,13 @@
 	      ("Yen-Chin Lee" . "coldnew.tw@gmail.com"))
 	     (:maintainer "Yen-Chin Lee" . "coldnew.tw@gmail.com"))])
  (qrencode .
-	   [(0 1 0 1 -4 20260105 21)
+	   [(0 1 0 1 -4 20260106 1053)
 	    ((emacs
 	      (25 1)))
 	    "QRCode encoder" tar
 	    ((:url . "https://github.com/ruediger/qrencode-el")
-	     (:commit . "f7c4f64ff8abc252d37a15e9653d80add6305a7e")
-	     (:revdesc . "f7c4f64ff8ab")
+	     (:commit . "caaa2646820014a1503bb03b70462ce6c68216e2")
+	     (:revdesc . "caaa26468200")
 	     (:keywords "qrcode" "comm")
 	     (:authors
 	      ("Rüdiger Sonderfeld" . "ruediger@c-plusplus.net"))
@@ -79499,13 +79499,13 @@
 		 ("gcr" . "gcr@sneakygcr.net"))
 		(:maintainer "gcr" . "gcr@sneakygcr.net"))])
  (turepo .
-	 [(0 1 0 1 -4 20251229 434)
+	 [(0 1 0 1 -4 20260106 1210)
 	  ((emacs
 	    (28 1)))
 	  "Open git repository in browser" tar
 	  ((:url . "https://github.com/swarnimcodes/turepo")
-	   (:commit . "ff78a987a7cb61a08e390bef3d720d0707246ac1")
-	   (:revdesc . "ff78a987a7cb")
+	   (:commit . "4d75992fce9a78b4b8a2baedefc856d5a248576a")
+	   (:revdesc . "4d75992fce9a")
 	   (:keywords "vc" "git" "convenience" "github")
 	   (:authors
 	    ("Swarnim Barapatre" . "swarnim14.9@hotmail.com"))
