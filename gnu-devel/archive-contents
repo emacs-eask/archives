@@ -505,12 +505,12 @@
        ("Clément Pit-Claudel" . "clement.pitclaudel@live.com"))
       (:commit . "3b2233120d33943b8af65fec6257f0c16ad3c6fd"))])
  (company
-  . [(1 0 2 0 20251021 221153) ((emacs (26 1)))
+  . [(1 0 2 0 20260108 3608) ((emacs (26 1)))
      "Modular text completion framework" tar
      ((:url . "http://company-mode.github.io/")
       (:keywords "abbrev" "convenience" "matching")
       (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
-      (:commit . "4ff89f7369227fbb89fe721d1db707f1af74cd0f"))])
+      (:commit . "fad9f207e00a851c0d96dd532c1b175326ac3e3d"))])
  (company-ebdb
   . [(1 1 0 20221221 74915) ((company (0 9 4)) (ebdb (0 2)))
      "company-mode completion backend for EBDB in message-mode" tar
@@ -704,11 +704,11 @@
       (:url . "https://elpa.gnu.org/packages/cycle-quotes.html")
       (:commit . "c1ef993f8c66fec71b10d70eb7a2cd0c416aaa12"))])
  (dape
-  . [(0 25 0 0 20251125 164207) ((emacs (29 1)) (jsonrpc (1 0 25)))
+  . [(0 25 0 0 20260107 224854) ((emacs (29 1)) (jsonrpc (1 0 25)))
      "Debug Adapter Protocol for Emacs" tar
      ((:url . "https://github.com/svaante/dape")
       (:maintainer "Daniel Pettersson" . "daniel@dpettersson.net")
-      (:commit . "35f56abdd050932550ff1c3aca436d7c056aa464"))])
+      (:commit . "3e3d7f73adc6ee5d300dffa9025482a930c17423"))])
  (darkroom
   . [(0 3 0 20200507 173652) ((cl-lib (0 5)))
      "Remove visual distractions and focus on writing" tar
@@ -750,19 +750,19 @@
       (:authors ("Phil Sainty" . "psainty@orcon.net.nz"))
       (:commit . "5a0cd5ccb650d7bba1c1ea02cf67b71d7cfa6e9a"))])
  (denote
-  . [(4 1 3 0 20260103 63348) ((emacs (28 1)))
+  . [(4 1 3 0 20260108 54328) ((emacs (28 1)))
      "Simple notes with an efficient file-naming scheme" tar
      ((:url . "https://github.com/protesilaos/denote")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "cf2a6b082b0b792cb52b54fd3642c48b805ff071"))])
+      (:commit . "9e02bf4bd076d04d44a1915a21c0187b02c226ee"))])
  (denote-journal
-  . [(0 2 2 0 20251231 51322) ((emacs (28 1)) (denote (4 0 0)))
+  . [(0 2 2 0 20260108 54518) ((emacs (28 1)) (denote (4 0 0)))
      "Convenience functions for daily journaling with Denote" tar
      ((:url . "https://github.com/protesilaos/denote-journal")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "5b5eab551ebb3cedb5fdc06bb1b5781a81945f99"))])
+      (:commit . "075e80d77967da5e4ccd4a93a2a2028343b3061a"))])
  (denote-markdown
   . [(0 2 1 0 20251201 50143) ((emacs (28 1)) (denote (4 0 0)))
      "Extensions that better integrate Denote with Markdown" tar
@@ -1050,7 +1050,7 @@
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
       (:commit . "45c4014328d8857c5d85a07124b65e354f2b80bb"))])
  (eglot
-  . [(1 19 0 20260105 174116)
+  . [(1 19 0 20260108 83650)
      ((emacs (26 3)) (eldoc (1 14 0)) (external-completion (0 1))
       (flymake (1 4 2)) (jsonrpc (1 0 26)) (project (0 11 2))
       (seq (2 23)) (xref (1 6 2)))
@@ -1059,7 +1059,7 @@
       (:keywords "convenience" "languages")
       (:maintainer "João Távora" . "joaotavora@gmail.com")
       (:authors ("João Távora" . "joaotavora@gmail.com"))
-      (:commit . "28fe937d5d312246706060b80ba7e11a9ab9fe38"))])
+      (:commit . "804f9655773e03b5257eea112433457b4aa9959a"))])
  (el-job
   . [(2 6 1 0 20251202 235353) ((emacs (29 1)))
      "Contrived way to call a function using all CPU cores" tar
@@ -2143,13 +2143,13 @@
       (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
       (:commit . "8d70286c3fda845f3b8d97a937248670ca002f13"))])
  (modus-themes
-  . [(5 2 0 0 20260103 55535) ((emacs (28 1)))
+  . [(5 2 0 0 20260108 44635) ((emacs (28 1)))
      "Elegant, highly legible and customizable themes" tar
      ((:url . "https://github.com/protesilaos/modus-themes")
       (:keywords "faces" "theme" "accessibility")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "53fa9fd23d78a7ea97a60e562fc363b9b48653a6"))])
+      (:commit . "e438a2fcdce48034740e8da023205943bc156dd7"))])
  (mpdired
   . [(4 -1 0 20250502 114712) ((emacs (29)))
      "A dired-like client for Music Player Daemon" tar
@@ -2454,13 +2454,13 @@
       (:url . "https://elpa.gnu.org/packages/osc.html")
       (:commit . "62eda3d8fb288b6a16c35a7220a507d0991c5a74"))])
  (osm
-  . [(2 0 0 20260104 111443) ((emacs (29 1)) (compat (30)))
+  . [(2 0 0 20260107 214936) ((emacs (29 1)) (compat (30)))
      "OpenStreetMap viewer" tar
      ((:url . "https://github.com/minad/osm")
       (:keywords "network" "multimedia" "hypermedia" "mouse")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "8873ab82ec9a665fa39657f0d014dd73bf65e12d"))])
+      (:commit . "776b81c53027ccbc3e8d9c736db8107e850cdb2c"))])
  (other-frame-window
   . [(1 0 6 0 20221221 81352) ((emacs (24 4)))
      "Minor mode to enable global prefix keys for other frame/window buffer placement"
@@ -2792,7 +2792,7 @@
       (:authors ("Matto Fransen" . "matto@matto.nl"))
       (:commit . "349aabcbb6bd10b007f431d180e870a5918b9e21"))])
  (realgud
-  . [(1 6 0 0 20260105 120346)
+  . [(1 6 0 0 20260107 170627)
      ((load-relative (1 3 2)) (loc-changes (1 2))
       (test-simple (1 3 0)) (emacs (27)))
      "A modular front-end for interacting with external debuggers" tar
@@ -2801,7 +2801,7 @@
 		 "bashdb" "zshdb" "remake" "trepan" "perldb" "pdb")
       (:maintainer "Rocky Bernstein" . "rocky@gnu.org")
       (:authors ("Rocky Bernstein" . "rocky@gnu.org"))
-      (:commit . "50edd7c33d2dd97839af1b3c71ba39a131f31d39"))])
+      (:commit . "4a535c6b8a9599f3f60b032046a77318015e9a8f"))])
  (realgud-ipdb
   . [(1 0 0 0 20231216 160636)
      ((realgud (1 5 0)) (load-relative (1 3 1)) (emacs (25)))
