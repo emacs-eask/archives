@@ -12135,6 +12135,24 @@
 			      (:maintainers
 			       ("Chmouel Boudjnah" . "chmouel@chmouel.com"))
 			      (:maintainer "Chmouel Boudjnah" . "chmouel@chmouel.com"))])
+ (consult-vulpea .
+		 [(0 1 0 1 -4 20260105 2319)
+		  ((emacs
+		    (28 1))
+		   (vulpea
+		    (2 0 0))
+		   (consult
+		    (2 2)))
+		  "Use Consult in tandem with Vulpea" tar
+		  ((:url . "https://github.com/fabcontigiani/consult-vulpea")
+		   (:commit . "1596d44b17d39882e96d20e9a387eab3df6143a2")
+		   (:revdesc . "1596d44b17d3")
+		   (:keywords "convenience" "notes" "vulpea")
+		   (:authors
+		    ("Fabrizio Contigiani" . "fabcontigiani@gmail.com"))
+		   (:maintainers
+		    ("Fabrizio Contigiani" . "fabcontigiani@gmail.com"))
+		   (:maintainer "Fabrizio Contigiani" . "fabcontigiani@gmail.com"))])
  (consult-yasnippet .
 		    [(0 1 0 1 -4 20250411 1922)
 		     ((emacs
@@ -31534,6 +31552,22 @@
 		 (:maintainers
 		  ("10sr" . "8slashes+el[at]gmail[dot]com"))
 		 (:maintainer "10sr" . "8slashes+el[at]gmail[dot]com"))])
+ (git-sync-mode .
+		[(0 1 0 1 -4 20260101 2353)
+		 ((emacs
+		   (29 1))
+		  (async-await
+		   (0)))
+		 "Automatically commit and sync local changes" tar
+		 ((:url . "https://github.com/justinbarclay/git-sync-mode")
+		  (:commit . "9e602ebb0fa3c02a7987bb94ccfa0142fe00d1a9")
+		  (:revdesc . "9e602ebb0fa3")
+		  (:keywords "vc" "convenience")
+		  (:authors
+		   ("Justin Barclay" . "github@justincbarclay.ca"))
+		  (:maintainers
+		   ("Justin Barclay" . "github@justincbarclay.ca"))
+		  (:maintainer "Justin Barclay" . "github@justincbarclay.ca"))])
  (git-time-metric .
 		  [(1 0 1 -4 20181116 2011)
 		   nil "Provide function to record time with gtm ( git time metric )" tar
@@ -32765,6 +32799,20 @@
 			    (:maintainers
 			     ("Robert Charusta" . "rch-public@posteo.net"))
 			    (:maintainer "Robert Charusta" . "rch-public@posteo.net"))])
+ (go-template-mode .
+		   [(0 1 0 1 -4 20260102 1442)
+		    ((emacs
+		      (28 1)))
+		    "Major mode for Go templates" tar
+		    ((:url . "https://codeberg.org/rch/go-template-mode")
+		     (:commit . "f33b953f5301d079463b428393efcd83767a128c")
+		     (:revdesc . "f33b953f5301")
+		     (:keywords "languages" "tools")
+		     (:authors
+		      ("Robert Charusta" . "rch-public@posteo.net"))
+		     (:maintainers
+		      ("Robert Charusta" . "rch-public@posteo.net"))
+		     (:maintainer "Robert Charusta" . "rch-public@posteo.net"))])
  (gobgen .
 	 [(0 0 1 1 -4 20161020 1523)
 	  ((emacs
@@ -45472,6 +45520,15 @@
 		      (:maintainers
 		       ("Jen-Chieh" . "jcs090218@gmail.com"))
 		      (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
+ (life-calendar .
+		[(0 1 0 1 -4 20260106 1756)
+		 ((emacs
+		   (27 1)))
+		 "Display your life in weeks" tar
+		 ((:url . "https://github.com/vshender/emacs-life-calendar")
+		  (:commit . "631c5d9c3de8ce9cadaca43a7a23b4d518f385c1")
+		  (:revdesc . "631c5d9c3de8")
+		  (:keywords "calendar" "visualization"))])
  (ligature .
 	   [(1 0 1 -4 20220808 1225)
 	    ((emacs
