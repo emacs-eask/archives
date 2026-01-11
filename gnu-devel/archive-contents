@@ -1050,7 +1050,7 @@
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
       (:commit . "1ed727fb65d660c2f5bc0a1604ed8f26383dffd2"))])
  (eglot
-  . [(1 19 0 20260108 83650)
+  . [(1 20 0 20260111 34201)
      ((emacs (26 3)) (eldoc (1 14 0)) (external-completion (0 1))
       (flymake (1 4 2)) (jsonrpc (1 0 26)) (project (0 11 2))
       (seq (2 23)) (xref (1 6 2)))
@@ -1059,7 +1059,7 @@
       (:keywords "convenience" "languages")
       (:maintainer "João Távora" . "joaotavora@gmail.com")
       (:authors ("João Távora" . "joaotavora@gmail.com"))
-      (:commit . "804f9655773e03b5257eea112433457b4aa9959a"))])
+      (:commit . "4484a9f87536ee0caff4b1f53fde8f4f3ac4adbe"))])
  (el-job
   . [(2 6 1 0 20251202 235353) ((emacs (29 1)))
      "Contrived way to call a function using all CPU cores" tar
@@ -1307,14 +1307,14 @@
       (:url . "https://elpa.gnu.org/packages/flylisp.html")
       (:commit . "7295025f4c0571013142dfb9cc1a893fff79904b"))])
  (flymake
-  . [(1 4 3 0 20260101 125434)
+  . [(1 4 3 0 20260111 34201)
      ((emacs (26 1)) (eldoc (1 14 0)) (project (0 11 1)))
      "A universal on-the-fly syntax checker" tar
      ((:keywords "c" "languages" "tools")
       (:maintainer "Spencer Baugh" . "sbaugh@janestreet.com")
       (:authors ("Pavel Kobyakov" . "pk_at_work@yahoo.com"))
       (:url . "https://elpa.gnu.org/packages/flymake.html")
-      (:commit . "17ddfd66e65c19f44dee41ee1b7ee1ce23ef3ed2"))])
+      (:commit . "4484a9f87536ee0caff4b1f53fde8f4f3ac4adbe"))])
  (flymake-clippy
   . [(1 1 0 0 20250323 141048) ((emacs (27)))
      "Flymake backend for Clippy" tar
@@ -1789,13 +1789,12 @@
       (:url . "https://elpa.gnu.org/packages/json-mode.html")
       (:commit . "2eb4b83db23e61fa2112688148aeedbacfc3c18e"))])
  (jsonrpc
-  . [(1 0 27 0 20260101 125434) ((emacs (25 2))) "JSON-RPC library"
-     tar
+  . [(1 0 27 0 20260111 34201) ((emacs (25 2))) "JSON-RPC library" tar
      ((:keywords "processes" "languages" "extensions")
       (:maintainer "João Távora" . "joaotavora@gmail.com")
       (:authors ("João Távora" . "joaotavora@gmail.com"))
       (:url . "https://elpa.gnu.org/packages/jsonrpc.html")
-      (:commit . "17ddfd66e65c19f44dee41ee1b7ee1ce23ef3ed2"))])
+      (:commit . "4484a9f87536ee0caff4b1f53fde8f4f3ac4adbe"))])
  (jumpc
   . [(3 1 0 20231015 14814) nil "jump to previous insertion points"
      tar
@@ -1918,14 +1917,14 @@
       (:authors ("Sean Whitton" . "spwhitton@spwhitton.name"))
       (:commit . "00b8f65effe4f2673e6450d70000644b266aa78a"))])
  (llm
-  . [(0 28 5 0 20260106 233129)
+  . [(0 28 5 0 20260110 215927)
      ((emacs (28 1)) (plz (0 8)) (plz-event-source (0 1 1))
       (plz-media-type (0 2 1)) (compat (29 1)))
      "Interface to pluggable llm backends" tar
      ((:url . "https://github.com/ahyatt/llm")
       (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
       (:authors ("Andrew Hyatt" . "ahyatt@gmail.com"))
-      (:commit . "fd84a736a1e6f414be705e0c4b3c8c656e9827d6"))])
+      (:commit . "8a63863b11410a9695f07bdbf8a974792d85910e"))])
  (lmc
   . [(1 4 0 20230105 113402) ((emacs (24)) (cl-lib (0 5)))
      "Little Man Computer in Elisp" tar
@@ -2344,13 +2343,13 @@
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
       (:commit . "fb338f771f1693436da0472a8a4d230b28af14f3"))])
  (org
-  . [(9 8 -1 0 20260110 201327) ((emacs (26 1)))
+  . [(9 8 -1 0 20260111 75214) ((emacs (26 1)))
      "Outline-based notes management and organizer" tar
      ((:url . "https://orgmode.org")
       (:keywords "outlines" "hypermedia" "calendar" "text")
       (:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-      (:commit . "956c4dcb8f08a73c47818e55b9ee0f4aa651c20f"))])
+      (:commit . "e3b142b7fcff40d299c5718b1a5e36738b689d6a"))])
  (org-contacts
   . [(1 1 0 20260110 20635) ((emacs (29 1)) (org (9 7)))
      "Contacts management system for Org mode" tar
@@ -3189,13 +3188,13 @@
       (:authors ("Christian Johansson" . "christian@cvj.se"))
       (:commit . "dc8882d1806c0fdd635bc625b109179dfa3c929c"))])
  (standard-themes
-  . [(3 0 2 0 20260109 170200) ((emacs (28 1)) (modus-themes (5 0 0)))
+  . [(3 0 2 0 20260111 80538) ((emacs (28 1)) (modus-themes (5 0 0)))
      "Like the default theme but more consistent" tar
      ((:url . "https://github.com/protesilaos/standard-themes")
       (:keywords "faces" "theme" "accessibility")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "d246da92e69c8ae06b46f8d5d2b41b58fb56bc52"))])
+      (:commit . "02ec094c37b988afbdd8b5e68c884e1c42ddfc1b"))])
  (stream
   . [(2 4 0 0 20250102 122330) ((emacs (25)))
      "Implementation of streams" tar
@@ -3434,14 +3433,14 @@
       (:url . "https://elpa.gnu.org/packages/track-changes.html")
       (:commit . "17ddfd66e65c19f44dee41ee1b7ee1ce23ef3ed2"))])
  (tramp
-  . [(2 8 1 0 20251231 120157) ((emacs (28 1)))
+  . [(2 8 1 0 20260111 85658) ((emacs (28 1)))
      "Transparent Remote Access, Multiple Protocol" tar
      ((:url . "https://www.gnu.org/software/tramp/")
       (:keywords "comm" "processes")
       (:maintainer "Michael Albinus" . "michael.albinus@gmx.de")
       (:authors ("Kai Großjohann" . "kai.grossjohann@gmx.net")
 		("Michael Albinus" . "michael.albinus@gmx.de"))
-      (:commit . "272846ccfd98671259371591288280103c68f66b"))])
+      (:commit . "4ae9b86ab682b699994bff58b7560ed1c9c47ece"))])
  (tramp-hlo
   . [(0 0 2 0 20251231 3054) ((tramp (2 8 0 5)))
      "High level operations as Tramp handlers" tar
