@@ -53899,13 +53899,13 @@
 	       ("Guido Schmidt" . "guido.schmidt.2912@gmail.com"))
 	      (:maintainer "Guido Schmidt" . "guido.schmidt.2912@gmail.com"))])
  (oai .
-      [(0 1 0 1 -4 20260111 1833)
+      [(0 1 0 1 -4 20260111 2206)
        ((emacs
 	 (29 1)))
        "AI-LLM blocks for org-mode" tar
        ((:url . "https://github.com/Anoncheg1/emacs-oai")
-	(:commit . "f836c2c38c096a41bf622c21b140b8a2969bfd24")
-	(:revdesc . "f836c2c38c09")
+	(:commit . "e6bb32bb2287033420dc714da48b4bca7c0b2f75")
+	(:revdesc . "e6bb32bb2287")
 	(:keywords "org" "comm" "url" "link")
 	(:authors
 	 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
@@ -61589,13 +61589,13 @@
 			("Justin Barclay" . "justinbarclay@gmail.com"))
 		       (:maintainer "Justin Barclay" . "justinbarclay@gmail.com"))])
  (parrot .
-	 [(1 1 1 1 -4 20220101 518)
+	 [(0 1 0 1 -4 20260111 2133)
 	  ((emacs
 	    (24 1)))
-	  "Party Parrot rotates gracefully in mode-line" tar
+	  "Party Parrot rotates gracefully in the mode-line" tar
 	  ((:url . "https://github.com/dp12/parrot.git")
-	   (:commit . "1d381f24d74242018e306d1a0c891bed9a465ac3")
-	   (:revdesc . "1d381f24d742")
+	   (:commit . "c2700b1d42f94f8cb574a0f96a143f4865b180b6")
+	   (:revdesc . "c2700b1d42f9")
 	   (:keywords "party" "parrot" "rotate" "sirocco" "kakapo" "games")
 	   (:authors
 	    ("Daniel Ting" . "deep.paren.12@gmail.com"))
@@ -62206,6 +62206,22 @@
 		     (:maintainers
 		      ("Kevin Kim" . "kevinkim1991@gmail.com"))
 		     (:maintainer "Kevin Kim" . "kevinkim1991@gmail.com"))])
+ (pdffontetc .
+	     [(0 1 0 1 -4 20260107 2304)
+	      ((emacs
+		(24 4))
+	       (pdf-tools
+		(1 2 0)))
+	      "Display `pdffont' and other PDF information" tar
+	      ((:url . "https://github.com/emacsomancer/pdffontetc")
+	       (:commit . "4adb8a339434f7c485dc38736c7c6461018876d4")
+	       (:revdesc . "4adb8a339434")
+	       (:keywords "files" "multimedia")
+	       (:authors
+		("Benjamin Slade" . "slade@lambda-y.net"))
+	       (:maintainers
+		("Benjamin Slade" . "slade@lambda-y.net"))
+	       (:maintainer "Benjamin Slade" . "slade@lambda-y.net"))])
  (pdfgrep .
 	  [(1 4 1 -4 20210203 1730)
 	   ((emacs
@@ -62950,6 +62966,22 @@
 	     ("Nicolas Lamirault" . "nicolas.lamirault@gmail.com")
 	     ("Eric Hansen" . "hansen.c.eric@gmail.com"))
 	    (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
+ (pi-coding-agent .
+		  [(0 1 0 1 -4 20260110 1602)
+		   ((emacs
+		     (28 1))
+		    (markdown-mode
+		     (2 6)))
+		   "Emacs frontend for pi coding agent" tar
+		   ((:url . "https://github.com/dnouri/pi.el")
+		    (:commit . "a65f240b38d3943bb003e5a8700245e62b211e0d")
+		    (:revdesc . "a65f240b38d3")
+		    (:keywords "ai" "llm" "ai-pair-programming" "tools")
+		    (:authors
+		     ("Daniel Nouri" . "daniel.nouri@gmail.com"))
+		    (:maintainers
+		     ("Daniel Nouri" . "daniel.nouri@gmail.com"))
+		    (:maintainer "Daniel Nouri" . "daniel.nouri@gmail.com"))])
  (pianobar .
 	   [(0 1 0 1 -4 20201002 1756)
 	    nil "Thin wrapper for Pianobar, a Pandora Radio client" tar
@@ -71730,6 +71762,18 @@
 		   (:maintainers
 		    ("Melissa Boiko" . "melissa@namakajiri.net"))
 		   (:maintainer "Melissa Boiko" . "melissa@namakajiri.net"))])
+ (show-inactive-region .
+		       [(0 1 0 1 -4 20260108 253)
+			((emacs
+			  (28 1)))
+			"Highlight the inactive region" tar
+			((:url . "https://codeberg.org/ideasman42/emacs-show-inactive-region")
+			 (:commit . "e73aac8dd1b3ef690722afe6f8f3a444f2a1a3e0")
+			 (:revdesc . "e73aac8dd1b3")
+			 (:keywords "convenience" "faces")
+			 (:maintainers
+			  ("Campbell Barton" . "ideasman42@gmail.com"))
+			 (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
  (shpec-mode .
 	     [(0 1 0 1 -4 20150530 922)
 	      nil "Minor mode for shpec specification" tar
@@ -74216,15 +74260,15 @@
 		("Milan Zamazal" . "pdm@zamazal.org"))
 	       (:maintainer "Milan Zamazal" . "pdm@zamazal.org"))])
  (speed-type .
-	     [(0 1 0 1 -4 20260111 1338)
+	     [(0 1 0 1 -4 20260111 2050)
 	      ((emacs
 		(27 1))
 	       (compat
 		(29 1 3)))
 	      "Practice touch and speed typing" tar
 	      ((:url . "https://github.com/dakra/speed-type")
-	       (:commit . "38b5c2a5c33aa764a8fcd3919c8a3c1712b16d92")
-	       (:revdesc . "38b5c2a5c33a")
+	       (:commit . "3f3125727fc2543677df0b22b24561a0b2527a55")
+	       (:revdesc . "3f3125727fc2")
 	       (:keywords "games")
 	       (:maintainers
 		("Daniel Kraus" . "daniel@kraus.my"))
@@ -78567,13 +78611,13 @@
 		   ("Matthew Erickson" . "peawee@peawee.net"))
 		  (:maintainer "Matthew Erickson" . "peawee@peawee.net"))])
  (trailing-newline-indicator .
-			     [(0 1 0 1 -4 20251115 2242)
+			     [(0 1 0 1 -4 20260111 2138)
 			      ((emacs
 				(26 1)))
 			      "Show an indicator for the trailing newline" tar
 			      ((:url . "https://github.com/saulotoledo/trailing-newline-indicator")
-			       (:commit . "9d4d8cba8ae20301458b9f9a4399c72951c70471")
-			       (:revdesc . "9d4d8cba8ae2")
+			       (:commit . "7a53505df0b76784680b8fc2a97b11e259788a74")
+			       (:revdesc . "7a53505df0b7")
 			       (:keywords "convenience" "display" "editing")
 			       (:authors
 				("Saulo S. de Toledo" . "saulotoledo@gmail.com"))
@@ -78976,15 +79020,15 @@
 			("Erick Navarro" . "erick@navarro.io"))
 		       (:maintainer "Erick Navarro" . "erick@navarro.io"))])
  (tree-sitter-langs .
-		    [(0 1 0 1 -4 20260111 1825)
+		    [(0 1 0 1 -4 20260111 2023)
 		     ((emacs
 		       (26 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
 		     ((:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs")
-		      (:commit . "3948d57cfb4ef444def8b31cff804a77fef9bbd5")
-		      (:revdesc . "3948d57cfb4e")
+		      (:commit . "53e4d07ec3728ef89400410550b87f8954040100")
+		      (:revdesc . "53e4d07ec372")
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
@@ -82128,6 +82172,26 @@
 	   (:maintainers
 	    ("Boris Buliga" . "boris@d12frosted.io"))
 	   (:maintainer "Boris Buliga" . "boris@d12frosted.io"))])
+ (vulpea-journal .
+		 [(0 1 0 1 -4 20260106 747)
+		  ((emacs
+		    (29 1))
+		   (vulpea
+		    (2 0 0))
+		   (vulpea-ui
+		    (0 1 0))
+		   (dash
+		    (2 20 0)))
+		  "Daily note interface for vulpea" tar
+		  ((:url . "https://github.com/d12frosted/vulpea-journal")
+		   (:commit . "c6a8f938f071fc89d9c5639733155a43df3f3a3b")
+		   (:revdesc . "c6a8f938f071")
+		   (:keywords "org-mode" "roam" "convenience")
+		   (:authors
+		    ("Boris Buliga" . "boris@d12frosted.io"))
+		   (:maintainers
+		    ("Boris Buliga" . "boris@d12frosted.io"))
+		   (:maintainer "Boris Buliga" . "boris@d12frosted.io"))])
  (vulpea-ui .
 	    [(0 1 0 1 -4 20260106 738)
 	     ((emacs
@@ -84506,13 +84570,13 @@
 	     ("tm8st" . "tm8st@hotmail.co.jp"))
 	    (:maintainer "tm8st" . "tm8st@hotmail.co.jp"))])
  (yaml .
-       [(0 1 0 1 -4 20251029 2056)
+       [(0 1 0 1 -4 20260111 2049)
 	((emacs
 	  (25 1)))
 	"YAML parser for Elisp" tar
 	((:url . "https://github.com/zkry/yaml.el")
-	 (:commit . "3fbeaee97dce3c76a18b02a28c58777cbcdadf2f")
-	 (:revdesc . "3fbeaee97dce")
+	 (:commit . "920f71b0c12f6036846f3590a32a71a310ed369f")
+	 (:revdesc . "920f71b0c12f")
 	 (:keywords "tools")
 	 (:authors
 	  ("Zachary Romero" . "zkry@posteo.org"))
