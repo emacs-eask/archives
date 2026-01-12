@@ -173,13 +173,13 @@
       (:authors ("John Wiegley" . "jwiegley@gmail.com"))
       (:commit . "31cb2fea8f4bc7a593acd76187a89075d8075500"))])
  (auctex
-  . [(14 1 0 0 20260107 114117) ((emacs (28 1)))
+  . [(14 1 1 0 20260112 122459) ((emacs (28 1)))
      "Integrated environment for *TeX*" tar
      ((:url . "https://www.gnu.org/software/auctex/")
       (:keywords "tex" "latex" "texinfo" "context" "doctex"
 		 "preview-latex")
       (:maintainer nil . "auctex-devel@gnu.org")
-      (:commit . "108adb1c5552590aa1201a07f22cd6c62ab88b0d"))])
+      (:commit . "001686a66066774c8d3d3541c09ac735aef62455"))])
  (auctex-cont-latexmk
   . [(0 3 0 20250115 185937) ((emacs (29 3)) (auctex (14 0 5)))
      "run latexmk continuously, report errors via Flymake" tar
@@ -560,12 +560,12 @@
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
       (:commit . "f07e221d4d5597c7ccf4b0003c0909a88bdfcc9e"))])
  (consult
-  . [(3 1 0 20260112 10146) ((emacs (29 1)) (compat (30)))
+  . [(3 2 0 20260112 205639) ((emacs (29 1)) (compat (30)))
      "Search and navigate via completing-read" tar
      ((:url . "https://github.com/minad/consult")
       (:keywords "matching" "files" "completion")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-      (:commit . "a4f87384cd42999f296ac7a19483081195e7fcd6"))])
+      (:commit . "3a8ac46916c0699f0905ac4fe65d72768add3efb"))])
  (consult-denote
   . [(0 4 2 0 20260111 182520)
      ((emacs (28 1)) (denote (4 0 0)) (consult (2 2)))
@@ -750,12 +750,12 @@
       (:authors ("Phil Sainty" . "psainty@orcon.net.nz"))
       (:commit . "5a0cd5ccb650d7bba1c1ea02cf67b71d7cfa6e9a"))])
  (denote
-  . [(4 1 3 0 20260111 170639) ((emacs (28 1)))
+  . [(4 1 3 0 20260112 204932) ((emacs (28 1)))
      "Simple notes with an efficient file-naming scheme" tar
      ((:url . "https://github.com/protesilaos/denote")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "301575c318194a2edaec50ed1adc5839d9c61cd2"))])
+      (:commit . "0afdc6af1432942630d911720520979e8c48cf15"))])
  (denote-journal
   . [(0 2 2 0 20260111 93423) ((emacs (28 1)) (denote (4 0 0)))
      "Convenience functions for daily journaling with Denote" tar
@@ -996,13 +996,13 @@
        ("Clément Pit-Claudel" . "clement.pitclaudel@live.com"))
       (:commit . "938497a21e65ba6b3ff8ec90e93a6d0ab18dc9b4"))])
  (easy-kill
-  . [(0 9 5 0 20260105 82504) ((emacs (25)) (cl-lib (0 5)))
+  . [(0 9 5 0 20260112 113033) ((emacs (25)) (cl-lib (0 5)))
      "kill & mark things easily" tar
      ((:url . "https://github.com/leoliu/easy-kill")
       (:keywords "killing" "convenience")
       (:maintainer "Leo Liu" . "sdl.web@gmail.com")
       (:authors ("Leo Liu" . "sdl.web@gmail.com"))
-      (:commit . "6b625143ff6b31012f293da3ae80f21ae221b23c"))])
+      (:commit . "3401ab7427e34f8913374311bf75d342462fc9b0"))])
  (ebdb
   . [(0 8 22 0 20240305 123820) ((emacs (25 1)) (seq (2 15)))
      "Contact management package" tar
@@ -2343,22 +2343,22 @@
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
       (:commit . "fb338f771f1693436da0472a8a4d230b28af14f3"))])
  (org
-  . [(9 8 -1 0 20260111 194443) ((emacs (26 1)))
+  . [(9 8 -1 0 20260112 194515) ((emacs (26 1)))
      "Outline-based notes management and organizer" tar
      ((:url . "https://orgmode.org")
       (:keywords "outlines" "hypermedia" "calendar" "text")
       (:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-      (:commit . "ce83328b023e988aa8cbb8e8743db35abc24134e"))])
+      (:commit . "c83fbea516eeed2f9b4e7f91c2b8f4abd083c118"))])
  (org-contacts
-  . [(1 1 0 20260110 20635) ((emacs (29 1)) (org (9 7)))
+  . [(1 2 0 20260112 92403) ((emacs (29 1)) (org (9 7)))
      "Contacts management system for Org mode" tar
      ((:url . "https://repo.or.cz/org-contacts.git")
       (:keywords "contacts" "org-mode" "outlines" "hypermedia"
 		 "calendar")
       (:maintainer "stardiviner" . "numbchild@gmail.com")
       (:authors ("Julien Danjou" . "julien@danjou.info"))
-      (:commit . "3c5b6b00973d90107f80e3ee9c80c2a742359afc"))])
+      (:commit . "33c1efd417974896f1991b4c94833bd5ef370e92"))])
  (org-edna
   . [(1 1 2 0 20200902 94459)
      ((emacs (25 1)) (seq (2 19)) (org (9 0 5)))
@@ -3901,12 +3901,12 @@
       (:authors ("Philip Kaludercic" . "philipk@posteo.net"))
       (:commit . "2bb88d0dc526177c3c6612d6585cee6b2c57803a"))])
  (yaml
-  . [(1 2 1 0 20260111 205038) ((emacs (25 1)))
+  . [(1 2 2 0 20260112 130812) ((emacs (25 1)))
      "YAML parser for Elisp" tar
      ((:url . "https://github.com/zkry/yaml.el") (:keywords "tools")
       (:maintainer "Zachary Romero" . "zkry@posteo.org")
       (:authors ("Zachary Romero" . "zkry@posteo.org"))
-      (:commit . "4f64f9e1fa4f8a9d2128bec10d3b7d8b99cd4fc9"))])
+      (:commit . "7b33b3a1b69f46e22cd6ddf92ab0dfe9c0512187"))])
  (yasnippet
   . [(0 14 3 0 20250604 12916) ((cl-lib (0 5)) (emacs (24 4)))
      "Yet another snippet extension for Emacs" tar
