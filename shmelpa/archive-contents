@@ -11648,15 +11648,15 @@
 		    ("Jannis Pohlmann" . "contact@jannispohlmann.de"))
 		   (:maintainer "Jannis Pohlmann" . "contact@jannispohlmann.de"))])
  (consult .
-	  [(0 1 0 1 -4 20260111 1458)
+	  [(0 1 0 1 -4 20260111 2226)
 	   ((emacs
 	     (29 1))
 	    (compat
 	     (30)))
 	   "Search and navigate via completing-read" tar
 	   ((:url . "https://github.com/minad/consult")
-	    (:commit . "ba81bd939d79cc6999cf02d09cbeccf4dc9381ed")
-	    (:revdesc . "ba81bd939d79")
+	    (:commit . "df465dfb01eb3a457b564b843f940fd9470fd4e8")
+	    (:revdesc . "df465dfb01eb")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainers
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -13301,13 +13301,13 @@
 		  ("Austin Seipp" . "aseipp[@at]pobox[dot]com"))
 		 (:maintainer "Austin Seipp" . "aseipp[@at]pobox[dot]com"))])
  (crystal-mode .
-	       [(0 1 0 1 -4 20250203 1157)
+	       [(0 1 0 1 -4 20260111 2220)
 		((emacs
 		  (24 4)))
 		"Major mode for editing Crystal files" tar
 		((:url . "https://github.com/crystal-lang-tools/emacs-crystal-mode")
-		 (:commit . "39993f821e6d7ca1da125d0ceba6218c3ca4c5b7")
-		 (:revdesc . "39993f821e6d")
+		 (:commit . "559e1d8ff9bb87a4e937978001386bfb58b113a0")
+		 (:revdesc . "559e1d8ff9bb")
 		 (:keywords "languages" "crystal"))])
  (crystal-playground .
 		     [(0 1 0 1 -4 20251026 2240)
@@ -27647,22 +27647,6 @@
 		      ("Steve Purcell" . "steve@sanityinc.com")
 		      ("Fanael Linithien" . "fanael4@gmail.com"))
 		     (:maintainer "Steve Purcell" . "steve@sanityinc.com"))])
- (flycheck-pact .
-		[(0 0 4 -4 20180920 2052)
-		 ((emacs
-		   (24 3))
-		  (flycheck
-		   (0 25))
-		  (pact-mode
-		   (0 0 4)))
-		 "Flycheck support for pact-mode" tar
-		 ((:url . "http://github.com/kadena-io/flycheck-pact")
-		  (:commit . "0e10045064ef89ec8b6f5a473073d47b976a2ca3")
-		  (:revdesc . "0e10045064ef")
-		  (:keywords "pact" "lisp" "languages" "blockchain" "smartcontracts" "tools" "linting")
-		  (:maintainers
-		   ("Stuart Popejoy" . "stuart@kadena.io"))
-		  (:maintainer "Stuart Popejoy" . "stuart@kadena.io"))])
  (flycheck-pest .
 		[(0 1 1 -4 20200710 2327)
 		 ((emacs
@@ -45521,14 +45505,19 @@
 		       ("Jen-Chieh" . "jcs090218@gmail.com"))
 		      (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (life-calendar .
-		[(0 1 0 1 -4 20260106 1756)
+		[(0 1 0 1 -4 20260111 2324)
 		 ((emacs
 		   (27 1)))
 		 "Display your life in weeks" tar
 		 ((:url . "https://github.com/vshender/emacs-life-calendar")
-		  (:commit . "631c5d9c3de8ce9cadaca43a7a23b4d518f385c1")
-		  (:revdesc . "631c5d9c3de8")
-		  (:keywords "calendar" "visualization"))])
+		  (:commit . "9f618f7958282f04245a4a59214c7bfd255f73d4")
+		  (:revdesc . "9f618f795828")
+		  (:keywords "calendar" "visualization")
+		  (:authors
+		   ("Vadzim Shender" . "https://github.com/vshender"))
+		  (:maintainers
+		   ("Vadzim Shender" . "https://github.com/vshender"))
+		  (:maintainer "Vadzim Shender" . "https://github.com/vshender"))])
  (ligature .
 	   [(1 0 1 -4 20220808 1225)
 	    ((emacs
@@ -49200,13 +49189,13 @@
 	       ("Mark A. Hershberger" . "mah@everybody.org"))
 	      (:maintainer "Mark A. Hershberger" . "mah@everybody.org"))])
  (meep .
-       [(0 1 0 1 -4 20260111 1011)
+       [(0 1 0 1 -4 20260111 2344)
 	((emacs
 	  (30 1)))
 	"Lightweight modal editing" tar
 	((:url . "https://codeberg.org/ideasman42/emacs-meep")
-	 (:commit . "c00540392761048b8609c7d7842772628f98914c")
-	 (:revdesc . "c00540392761")
+	 (:commit . "3e3dce277d2164a17eb5ea7bb200249c65e7c100")
+	 (:revdesc . "3e3dce277d21")
 	 (:keywords "convenience" "modal-editing")
 	 (:authors
 	  ("Campbell Barton" . "ideasman42@gmail.com"))
@@ -61219,18 +61208,6 @@
 	    (:maintainers
 	     ("Alexey Kutepov" . "reximkut@gmail.com"))
 	    (:maintainer "Alexey Kutepov" . "reximkut@gmail.com"))])
- (pact-mode .
-	    [(0 0 5 -4 20201219 2223)
-	     ((emacs
-	       (24 3)))
-	     "Mode for Pact, a LISPlike smart contract language" tar
-	     ((:url . "https://github.com/kadena-io/pact-mode")
-	      (:commit . "f48a4faf5f8f8435423bda3888eca6ee67ee13a9")
-	      (:revdesc . "f48a4faf5f8f")
-	      (:keywords "pact" "lisp" "languages" "blockchain" "smartcontracts" "tools" "mode")
-	      (:maintainers
-	       ("Stuart Popejoy" . "stuart@kadena.io"))
-	      (:maintainer "Stuart Popejoy" . "stuart@kadena.io"))])
  (paganini-theme .
 		 [(0 13 1 -4 20180815 1921)
 		  ((emacs
@@ -67798,13 +67775,13 @@
 		       ("Rocky Bernstein" . "rocky@gnu.org"))
 		      (:maintainer "Rocky Bernstein" . "rocky@gnu.org"))])
  (reaper .
-	 [(0 1 0 1 -4 20250123 619)
+	 [(0 1 0 1 -4 20260111 2303)
 	  ((emacs
 	    (26 2)))
 	  "Interact with Harvest time tracking app" tar
 	  ((:url . "https://github.com/xendk/reaper")
-	   (:commit . "7515ef42e0bfb0fd45d2e283e654271fe20cf447")
-	   (:revdesc . "7515ef42e0bf")
+	   (:commit . "868fd4cebe7953ea1c6580e78dab873c36de365b")
+	   (:revdesc . "868fd4cebe79")
 	   (:keywords "tools")
 	   (:authors
 	    ("Thomas Fini Hansen" . "xen@xen.dk"))
