@@ -173,13 +173,13 @@
       (:authors ("John Wiegley" . "jwiegley@gmail.com"))
       (:commit . "31cb2fea8f4bc7a593acd76187a89075d8075500"))])
  (auctex
-  . [(14 1 1 0 20260113 83708) ((emacs (28 1)))
+  . [(14 1 2 0 20260114 152049) ((emacs (28 1)))
      "Integrated environment for *TeX*" tar
      ((:url . "https://www.gnu.org/software/auctex/")
       (:keywords "tex" "latex" "texinfo" "context" "doctex"
 		 "preview-latex")
       (:maintainer nil . "auctex-devel@gnu.org")
-      (:commit . "3cd55ef1aa80246707d2fee36af2cbdd9f3af0ee"))])
+      (:commit . "5850499d0182b4ca53c078e74711a13995651337"))])
  (auctex-cont-latexmk
   . [(0 3 0 20250115 185937) ((emacs (29 3)) (auctex (14 0 5)))
      "run latexmk continuously, report errors via Flymake" tar
@@ -560,12 +560,12 @@
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
       (:commit . "f07e221d4d5597c7ccf4b0003c0909a88bdfcc9e"))])
  (consult
-  . [(3 2 0 20260113 181558) ((emacs (29 1)) (compat (30)))
+  . [(3 2 0 20260114 192052) ((emacs (29 1)) (compat (30)))
      "Search and navigate via completing-read" tar
      ((:url . "https://github.com/minad/consult")
       (:keywords "matching" "files" "completion")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-      (:commit . "c20add4df70e32567cc576157c153f3b08a3501a"))])
+      (:commit . "2da0bc71271547b7d09eba66e880e4d6d3f796d9"))])
  (consult-denote
   . [(0 4 2 0 20260111 182520)
      ((emacs (28 1)) (denote (4 0 0)) (consult (2 2)))
@@ -750,12 +750,12 @@
       (:authors ("Phil Sainty" . "psainty@orcon.net.nz"))
       (:commit . "5a0cd5ccb650d7bba1c1ea02cf67b71d7cfa6e9a"))])
  (denote
-  . [(4 1 3 0 20260114 74422) ((emacs (28 1)))
+  . [(4 1 3 0 20260114 185723) ((emacs (28 1)))
      "Simple notes with an efficient file-naming scheme" tar
      ((:url . "https://github.com/protesilaos/denote")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "47207e9cb2a9db2255777ab991cb932ac935155b"))])
+      (:commit . "bcbc805f4f696bb9eabfa4f342a800ec5289951f"))])
  (denote-journal
   . [(0 2 2 0 20260111 93423) ((emacs (28 1)) (denote (4 0 0)))
      "Convenience functions for daily journaling with Denote" tar
@@ -921,6 +921,14 @@
       (:authors (nil . "fox@cs.nyu.edu") (nil . "ritter@cs.cmu.edu"))
       (:url . "https://elpa.gnu.org/packages/dismal.html")
       (:commit . "5ffea0c217c270ed0444ddc7655d5af1223c0400"))])
+ (disproject
+  . [(2 2 0 0 20260114 143840) ((emacs (29 4)) (transient (0 9 2)))
+     "Dispatch project commands with Transient" tar
+     ((:url . "https://github.com/aurtzy/disproject")
+      (:keywords "convenience" "files" "vc")
+      (:maintainer "Alvin Hsu" . "aurtzy@gmail.com")
+      (:authors ("Alvin Hsu" . "aurtzy@gmail.com"))
+      (:commit . "9282473adbf450785741fe6cd02abf6ffed7b9f0"))])
  (djvu
   . [(1 1 2 0 20221221 75224) nil
      "Edit and view Djvu files via djvused" tar
@@ -2667,10 +2675,10 @@
       (:authors ("Paul D. Nelson" . "nelson.paul.david@gmail.com"))
       (:commit . "731d92247aab0a51c208d0fe196db3dec0d1b2e9"))])
  (project
-  . [(0 11 2 0 20260109 135133) ((emacs (26 1)) (xref (1 7 0)))
+  . [(0 11 2 0 20260114 180723) ((emacs (26 1)) (xref (1 7 0)))
      "Operations on the current project" tar
      ((:url . "https://elpa.gnu.org/packages/project.html")
-      (:commit . "6c818936e00bf24201dbfa8916cd91aca24f84c9"))])
+      (:commit . "4d9abf0bdf5c50bd10ff159d23c77ba9b0e8a3ab"))])
  (psgml
   . [(1 3 5 0 20221229 184738) nil
      "SGML-editing mode with parsing support" tar
@@ -3475,7 +3483,7 @@
       (:url . "https://elpa.gnu.org/packages/transcribe.html")
       (:commit . "2c2d493d5488f3b444d2a771ab443589fcc72c13"))])
  (transient
-  . [(0 12 0 0 20260108 201115)
+  . [(0 12 0 0 20260113 154930)
      ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (seq (2 24)))
      "Transient commands" tar
      ((:url . "https://github.com/magit/transient")
@@ -3484,7 +3492,7 @@
 		   . "emacs.transient@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
-      (:commit . "1e3da7f1c26aa72b2ea76883c3d139b03ceb714a"))])
+      (:commit . "642343e847a5a26a0adc2493b8b83b62f407d768"))])
  (transient-cycles
   . [(2 0 0 20250625 85410) ((emacs (29 1)))
      "Define command variants with transient cycling" tar
