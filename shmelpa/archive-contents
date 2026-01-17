@@ -1185,7 +1185,7 @@
 	    ("Tomasz Maciosowski" . "t4ccer@gmail.com"))
 	   (:maintainer "Tomasz Maciosowski" . "t4ccer@gmail.com"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260116 1034)
+	      [(0 1 0 1 -4 20260116 1925)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1194,8 +1194,8 @@
 		 (0 8 2)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "c51db1782ce7331bca7f407f3dcc63511e475412")
-		(:revdesc . "c51db1782ce7"))])
+		(:commit . "562df616a8aa4723462010d3c0994549f9b1d40e")
+		(:revdesc . "562df616a8aa"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -1287,7 +1287,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260116 214)
+	  [(0 1 0 1 -4 20260116 1534)
 	   ((emacs
 	     (28 1))
 	    (transient
@@ -1296,8 +1296,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding CLI such as Codex, Copilot CLI, Opencode, Grok CLI, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "934763b559686fe6920a5fbcbae2df9d5647c15a")
-	    (:revdesc . "934763b55968")
+	    (:commit . "007fd8f7e19b37f1969035480823ef759215140c")
+	    (:revdesc . "007fd8f7e19b")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -8194,7 +8194,7 @@
 		 ("Adam Chyła https://chyla.org/" . "adam@chyla.org"))
 		(:maintainer "Adam Chyła https://chyla.org/" . "adam@chyla.org"))])
  (cider .
-	[(0 1 0 1 -4 20260109 1957)
+	[(0 1 0 1 -4 20260116 1514)
 	 ((emacs
 	   (28))
 	  (clojure-mode
@@ -8213,8 +8213,8 @@
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
 	 ((:url . "https://www.github.com/clojure-emacs/cider")
-	  (:commit . "7a3f714fd04875ac2c36bc2b54befb2582be4a5b")
-	  (:revdesc . "7a3f714fd048")
+	  (:commit . "31c05c0a417c2c3dec97135c3dab3cd9c8322e53")
+	  (:revdesc . "31c05c0a417c")
 	  (:keywords "languages" "clojure" "cider")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
@@ -17797,11 +17797,11 @@
 		 ("Sergei Nosov" . "sergei.nosov[at]gmail.com"))
 		(:maintainer "Sergei Nosov" . "sergei.nosov[at]gmail.com"))])
  (dune .
-       [(0 1 0 1 -4 20240427 1346)
+       [(0 1 0 1 -4 20260112 1835)
 	nil "Integration with the dune build system" tar
 	((:url . "https://github.com/ocaml/dune")
-	 (:commit . "5554158af27ead066fbb3c009e780c930958613c")
-	 (:revdesc . "5554158af27e"))])
+	 (:commit . "832d2384ce30cf98e32d797aecf81088d1bd354b")
+	 (:revdesc . "832d2384ce30"))])
  (dune-format .
 	      [(0 1 -1 1 -4 20210505 108)
 	       ((reformatter
@@ -18479,7 +18479,7 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20260114 1645)
+      [(0 1 0 1 -4 20260116 1933)
        ((emacs
 	 (28 1))
 	(dash
@@ -18492,8 +18492,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "b772ca7756bb1446694d88bc13f801c772e29c2f")
-	(:revdesc . "b772ca7756bb")
+	(:commit . "ac426986a117e5c1ef3be1aae568991a152a5aa3")
+	(:revdesc . "ac426986a117")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
@@ -34129,7 +34129,7 @@
 		   ("Hiroaki Otsu" . "ootsuhiroaki@gmail.com"))
 		  (:maintainer "Hiroaki Otsu" . "ootsuhiroaki@gmail.com"))])
  (guix .
-       [(0 1 0 1 -4 20260115 1253)
+       [(0 1 0 1 -4 20260116 1554)
 	((emacs
 	  (24 3))
 	 (dash
@@ -34141,11 +34141,13 @@
 	 (transient
 	  (0 3 0))
 	 (edit-indirect
-	  (0 1 4)))
+	  (0 1 4))
+	 (magit-popup
+	  (2 13 3)))
 	"Interface for GNU Guix" tar
-	((:url . "https://emacs-guix.gitlab.io/website/")
-	 (:commit . "bccba0c1e6446f10075d8eaebae9eef6e67159a3")
-	 (:revdesc . "bccba0c1e644")
+	((:url . "https://codeberg.org/guix/emacs-guix")
+	 (:commit . "72833603ee54c7a8d955415869a332419680ca50")
+	 (:revdesc . "72833603ee54")
 	 (:keywords "tools")
 	 (:authors
 	  ("Alex Kost" . "alezost@gmail.com"))
@@ -47599,7 +47601,7 @@
 	       (:revdesc . "069a1d630f63")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20260116 1205)
+	[(0 1 0 1 -4 20260116 1722)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -47618,8 +47620,8 @@
 	   (3 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "fbc4b5d316593d8064395c4fe10c7cda20f94e5f")
-	  (:revdesc . "fbc4b5d31659")
+	  (:commit . "fe0c43b6f5b3b20fce9ed30d203bf1267831b14f")
+	  (:revdesc . "fe0c43b6f5b3")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -49063,13 +49065,13 @@
 	 ("lizqwer scott" . "lizqwerscott@gmail.com"))
 	(:maintainer "lizqwer scott" . "lizqwerscott@gmail.com"))])
  (mcp-server-lib .
-		 [(0 1 0 1 -4 20251103 541)
+		 [(0 1 0 1 -4 20260116 1406)
 		  ((emacs
 		    (27 1)))
 		  "Model Context Protocol server library" tar
 		  ((:url . "https://github.com/laurynas-biveinis/mcp-server-lib.el")
-		   (:commit . "847bcb180b6c035ee07f497e0ffc8092b3e54c4a")
-		   (:revdesc . "847bcb180b6c")
+		   (:commit . "8c494fbb79cc7aba789d5ca583e3736345b39a15")
+		   (:revdesc . "8c494fbb79cc")
 		   (:keywords "comm" "tools")
 		   (:authors
 		    ("Laurynas Biveinis" . "laurynas.biveinis@gmail.com"))
@@ -52386,13 +52388,13 @@
 	     ("jaypei" . "jaypei97159@gmail.com"))
 	    (:maintainer "jaypei" . "jaypei97159@gmail.com"))])
  (nerd-icons .
-	     [(0 1 0 1 -4 20260114 1405)
+	     [(0 1 0 1 -4 20260116 1608)
 	      ((emacs
 		(25 1)))
 	      "Emacs Nerd Font Icons Library" tar
 	      ((:url . "https://github.com/rainstormstudio/nerd-icons.el")
-	       (:commit . "a57f80901590a13871e4c9a0238d8b5be08e15e1")
-	       (:revdesc . "a57f80901590")
+	       (:commit . "f9d240b59f9a5461d98a2eeac25901a5ce6c72e9")
+	       (:revdesc . "f9d240b59f9a")
 	       (:keywords "lisp")
 	       (:authors
 		("Hongyu Ding" . "rainstormstudio@yahoo.com")
@@ -55190,15 +55192,15 @@
 	       ("Aaron Bieber" . "aaron@aaronbieber.com"))
 	      (:maintainer "Aaron Bieber" . "aaron@aaronbieber.com"))])
  (oer-reveal .
-	     [(0 1 0 1 -4 20260112 1441)
+	     [(0 1 0 1 -4 20260116 1531)
 	      ((emacs
 		(24 4))
 	       (org-re-reveal
-		(3 35 0)))
+		(3 38 0)))
 	      "OER with reveal.js, plugins, and org-re-reveal" tar
 	      ((:url . "https://gitlab.com/oer/oer-reveal")
-	       (:commit . "845be3095ede0e8cbe17b8e05ff24fbffc088b45")
-	       (:revdesc . "845be3095ede")
+	       (:commit . "47b626bcb7f1b2d2a5a1e4a740a659a89c2b2b1f")
+	       (:revdesc . "47b626bcb7f1")
 	       (:keywords "hypermedia" "tools" "slideshow" "presentation" "oer"))])
  (offlineimap .
 	      [(0 1 0 1 -4 20150916 1158)
@@ -58171,7 +58173,7 @@
 		    ("Michael Fogleman" . "michaelwfogleman@gmail.com"))
 		   (:maintainer "Michael Fogleman" . "michaelwfogleman@gmail.com"))])
  (org-re-reveal .
-		[(0 1 0 1 -4 20251222 1741)
+		[(0 1 0 1 -4 20260116 1525)
 		 ((emacs
 		   (24 4))
 		  (org
@@ -58180,8 +58182,8 @@
 		   (1 34)))
 		 "Org export to reveal.js presentations" tar
 		 ((:url . "https://gitlab.com/oer/org-re-reveal")
-		  (:commit . "72c24637820f9dafa96d4ad23a0802c47de7651e")
-		  (:revdesc . "72c24637820f")
+		  (:commit . "07bd4a2bfab91ccd289633e9261c9a1a4e515b2a")
+		  (:revdesc . "07bd4a2bfab9")
 		  (:keywords "tools" "outlines" "hypermedia" "slideshow" "presentation" "oer"))])
  (org-re-reveal-citeproc .
 			 [(2 0 1 1 -4 20211028 1328)
@@ -67775,13 +67777,13 @@
 		       ("Rocky Bernstein" . "rocky@gnu.org"))
 		      (:maintainer "Rocky Bernstein" . "rocky@gnu.org"))])
  (reaper .
-	 [(0 1 0 1 -4 20260113 2130)
+	 [(0 1 0 1 -4 20260116 2011)
 	  ((emacs
 	    (26 2)))
 	  "Interact with Harvest time tracking app" tar
 	  ((:url . "https://github.com/xendk/reaper")
-	   (:commit . "5bbac37655db6e05eafade358b4f59f6ecedda38")
-	   (:revdesc . "5bbac37655db")
+	   (:commit . "747d53b4a7db77648931ae1396151ae447404b08")
+	   (:revdesc . "747d53b4a7db")
 	   (:keywords "tools")
 	   (:authors
 	    ("Thomas Fini Hansen" . "xen@xen.dk"))
@@ -74203,13 +74205,13 @@
 		      ("Campbell Barton" . "ideasman42@gmail.com"))
 		     (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
  (spdx .
-       [(0 1 0 1 -4 20251204 102)
+       [(0 1 0 1 -4 20260117 104)
 	((emacs
 	  (24 4)))
 	"Insert SPDX license and copyright headers" tar
 	((:url . "https://github.com/condy0919/spdx.el")
-	 (:commit . "ceda651cb18106404d7d8abfe10f2aa149ed19be")
-	 (:revdesc . "ceda651cb181")
+	 (:commit . "40c4691ed406ac2a905c94ec69c720f79a607389")
+	 (:revdesc . "40c4691ed406")
 	 (:keywords "license" "tools")
 	 (:authors
 	  ("Zhiwei Chen" . "condy0919@gmail.com"))
@@ -74666,13 +74668,13 @@
 	      (:authors
 	       ("Do Hoang" . "tuhdo1710@gmail.com")))])
  (srfi .
-       [(0 1 0 1 -4 20251223 141)
+       [(0 1 0 1 -4 20260116 2058)
 	((emacs
 	  (25 1)))
 	"Scheme Requests for Implementation browser" tar
 	((:url . "https://github.com/srfi-explorations/emacs-srfi")
-	 (:commit . "3cc3a7aad81b0114d5fb0c4cc945bd47ef406e40")
-	 (:revdesc . "3cc3a7aad81b")
+	 (:commit . "f0406b2f66b9ce859fbab8fe6617521ff588d03b")
+	 (:revdesc . "f0406b2f66b9")
 	 (:keywords "languages" "util")
 	 (:authors
 	  ("Lassi Kortela" . "lassi@lassi.io"))
@@ -76812,15 +76814,15 @@
 		  ("Lassi Kortela" . "lassi@lassi.io"))
 		 (:maintainer "Lassi Kortela" . "lassi@lassi.io"))])
  (tempel .
-	 [(0 1 0 1 -4 20260116 1148)
+	 [(0 1 0 1 -4 20260116 2206)
 	  ((emacs
 	    (29 1))
 	   (compat
 	    (30)))
 	  "Tempo templates/snippets with in-buffer field editing" tar
 	  ((:url . "https://github.com/minad/tempel")
-	   (:commit . "ee27b68dfde00bc8d47054812ab17a7c0aad0e75")
-	   (:revdesc . "ee27b68dfde0")
+	   (:commit . "54d5f644dce30a5030c91e70a0b5d8175fb1daab")
+	   (:revdesc . "54d5f644dce3")
 	   (:keywords "abbrev" "languages" "tools" "text")
 	   (:authors
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -78253,11 +78255,11 @@
 	       ("Konrad Scorciapino" . "scorciapino@gmail.com"))
 	      (:maintainer "Konrad Scorciapino" . "scorciapino@gmail.com"))])
  (toml .
-       [(0 1 0 1 -4 20260108 1307)
+       [(0 1 0 1 -4 20260117 104)
 	nil "TOML (Tom's Obvious, Minimal Language) parser" tar
 	((:url . "https://github.com/gongo/emacs-toml")
-	 (:commit . "4b16eb52fcf89d46d7a970d7ba51c119063cbf4b")
-	 (:revdesc . "4b16eb52fcf8")
+	 (:commit . "96f79c96b9d7eabdf1a2be306e1b206f84df2ddc")
+	 (:revdesc . "96f79c96b9d7")
 	 (:keywords "toml" "parser")
 	 (:authors
 	  ("Wataru MIYAGUNI" . "gonngo@gmail.com"))
