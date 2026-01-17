@@ -1420,6 +1420,20 @@
 	    (:maintainers
 	     ("Wataru MIYAGUNI" . "gonngo@gmail.com"))
 	    (:maintainer "Wataru MIYAGUNI" . "gonngo@gmail.com"))])
+ (alabaster-themes .
+		   [(0 1 0 1 -4 20260113 657)
+		    ((emacs
+		      (28 1)))
+		    "Alabaster themes collection" tar
+		    ((:url . "https://github.com/vedang/alabaster-themes")
+		     (:commit . "2d3dcfc6ac8988d23f8065a580f7dcf4ff607e56")
+		     (:revdesc . "2d3dcfc6ac89")
+		     (:keywords "faces" "theme" "minimal")
+		     (:authors
+		      ("Nikita Prokopov" . "@tonsky"))
+		     (:maintainers
+		      ("Vedang Manerikar" . "@vedang"))
+		     (:maintainer "Vedang Manerikar" . "@vedang"))])
  (alan-mode .
 	    [(1 0 0 1 -4 20240309 650)
 	     ((flycheck
@@ -32263,15 +32277,15 @@
 		("Akib Azmain Turja" . "akib@disroot.org"))
 	       (:maintainer "Akib Azmain Turja" . "akib@disroot.org"))])
  (gnuplot .
-	  [(0 1 0 1 -4 20250724 1531)
+	  [(0 1 0 1 -4 20260117 1740)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30)))
 	   "Major-mode and interactive frontend for gnuplot" tar
 	   ((:url . "https://github.com/emacs-gnuplot/gnuplot")
-	    (:commit . "43e9674b869475b1c2a32f045c167673eb2faae0")
-	    (:revdesc . "43e9674b8694")
+	    (:commit . "e4d19faf760f9f261339586f723859ce7869e760")
+	    (:revdesc . "e4d19faf760f")
 	    (:keywords "data" "gnuplot" "plotting")
 	    (:maintainers
 	     ("Maxime Tréca" . "maxime@gmail.com")
@@ -40076,6 +40090,20 @@
 		(:maintainers
 		 ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
 		(:maintainer "Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))])
+ (info-nav .
+	   [(0 1 0 1 -4 20260113 531)
+	    ((emacs
+	      (29 1)))
+	    "Browse info docs with a 2 pane layout" tar
+	    ((:url . "https://codeberg.org/ggxx/info-nav")
+	     (:commit . "eede340e73cecf435bda4ad27d386a98b8c02f36")
+	     (:revdesc . "eede340e73ce")
+	     (:keywords "docs" "hypermedia")
+	     (:authors
+	      ("ggxx" . "https://codeberg.org/ggxx"))
+	     (:maintainers
+	      ("ggxx" . "https://codeberg.org/ggxx"))
+	     (:maintainer "ggxx" . "https://codeberg.org/ggxx"))])
  (info-rename-buffer .
 		     [(20200328 1147 1 -4 20200328 1450)
 		      ((emacs
@@ -55758,15 +55786,15 @@
 		 ("Kisaragi Hiu" . "mail@kisaragi-hiu.com"))
 		(:maintainer "Kisaragi Hiu" . "mail@kisaragi-hiu.com"))])
  (orderless .
-	    [(0 1 0 1 -4 20260104 1108)
+	    [(0 1 0 1 -4 20260117 1749)
 	     ((emacs
 	       (27 1))
 	      (compat
 	       (30)))
 	     "Completion style for matching regexps in any order" tar
 	     ((:url . "https://github.com/oantolin/orderless")
-	      (:commit . "fb338f771f1693436da0472a8a4d230b28af14f3")
-	      (:revdesc . "fb338f771f16")
+	      (:commit . "225dbcba32ab079f78e4146cbfd7d4dfb58840a3")
+	      (:revdesc . "225dbcba32ab")
 	      (:keywords "matching" "completion")
 	      (:authors
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
@@ -56951,7 +56979,7 @@
 	      ("Greg Minshall" . "minshall@umich.edu"))
 	     (:maintainer "Greg Minshall" . "minshall@umich.edu"))])
  (org-gtd .
-	  [(4 3 0 1 -4 20260113 120)
+	  [(4 3 1 1 -4 20260117 1854)
 	   ((emacs
 	     (28 1))
 	    (compat
@@ -56968,8 +56996,8 @@
 	     (1 0 4)))
 	   "An implementation of GTD" tar
 	   ((:url . "https://github.com/Trevoke/org-gtd.el")
-	    (:commit . "702e97f0b2ab0fda345668fc8c337ecb58343339")
-	    (:revdesc . "702e97f0b2ab")
+	    (:commit . "21ba4b1c03a0b9e6feec1b3f1f85ccb682adf867")
+	    (:revdesc . "21ba4b1c03a0")
 	    (:authors
 	     ("Aldric Giacomoni" . "trevoke@gmail.com"))
 	    (:maintainers
