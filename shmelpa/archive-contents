@@ -80838,6 +80838,20 @@
 		      (:maintainers
 		       ("Toon Claes" . "toon@iotcl.com"))
 		      (:maintainer "Toon Claes" . "toon@iotcl.com"))])
+ (use-package-treesit .
+		      [(0 1 0 1 -4 20260118 1521)
+		       ((emacs
+			 (30 0)))
+		       "Automatically use tree-sitter enhanced major modes" tar
+		       ((:url . "https://github.com/domq/use-package-treesit.git")
+			(:commit . "c4c2b251f3c932edc87ade3523700782c0cafcd2")
+			(:revdesc . "c4c2b251f3c9")
+			(:keywords "lisp" "tree-sitter" "treesit" "auto" "automatic" "use-package")
+			(:authors
+			 ("Dominique Quatravaux" . "dominique@quatravaux.org"))
+			(:maintainers
+			 ("Dominique Quatravaux" . "dominique@quatravaux.org"))
+			(:maintainer "Dominique Quatravaux" . "dominique@quatravaux.org"))])
  (use-proxy .
 	    [(0 1 -4 20201209 853)
 	     ((exec-path-from-shell
