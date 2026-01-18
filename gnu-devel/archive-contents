@@ -1050,13 +1050,13 @@
       (:authors ("Eduardo Ochs" . "eduardoochs@gmail.com"))
       (:commit . "84201105b1cb885749650c32bb1e3ce240c4f164"))])
  (ef-themes
-  . [(2 0 1 0 20260118 73003) ((emacs (28 1)) (modus-themes (5 0 0)))
+  . [(2 0 1 0 20260118 170110) ((emacs (28 1)) (modus-themes (5 0 0)))
      "Colorful and legible themes" tar
      ((:url . "https://github.com/protesilaos/ef-themes")
       (:keywords "faces" "theme" "accessibility")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "2eff083fa71ad87561def93bd877d9bc78e6b9b3"))])
+      (:commit . "3842c36ccd4bd6372e2c20f6a2322b6a471f21f3"))])
  (eglot
   . [(1 21 0 20260117 150219)
      ((emacs (26 3)) (eldoc (1 14 0)) (external-completion (0 1))
@@ -1639,13 +1639,13 @@
       (:authors ("Durand" . "mmemmew@gmail.com"))
       (:commit . "8f221c58a8c694112738e346c630d4d49a41d967"))])
  (indent-bars
-  . [(0 9 2 0 20251215 220701) ((emacs (27 1)) (compat (30)))
+  . [(1 0 0 0 20260118 100043) ((emacs (27 1)) (compat (30)))
      "Highlight indentation with bars" tar
      ((:url . "https://github.com/jdtsmith/indent-bars")
       (:keywords "convenience")
       (:maintainer "J.D. Smith" . "jdtsmith+elpa@gmail.com")
       (:authors ("J.D. Smith" . "jdtsmith+elpa@gmail.com"))
-      (:commit . "d32cdba5b136c9697fbfd1d231d31a33c5dabf0e"))])
+      (:commit . "23cb37a790b98c0120abe19bc38bbada236bd7d4"))])
  (inspector
   . [(0 39 0 20251204 171741) ((emacs (27 1)))
      "Tool for inspection of Emacs Lisp objects" tar
@@ -2461,13 +2461,13 @@
       (:url . "https://elpa.gnu.org/packages/osc.html")
       (:commit . "62eda3d8fb288b6a16c35a7220a507d0991c5a74"))])
  (osm
-  . [(2 1 0 20260118 74223) ((emacs (29 1)) (compat (30)))
+  . [(2 1 0 20260118 165714) ((emacs (29 1)) (compat (30)))
      "OpenStreetMap viewer" tar
      ((:url . "https://github.com/minad/osm")
       (:keywords "network" "multimedia" "hypermedia" "mouse")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "271d51174731a7266129ba8b40c0d42a7b2013b8"))])
+      (:commit . "9939e7bfeb43d5f3abf40a61a1d8f8a57ead198e"))])
  (other-frame-window
   . [(1 0 6 0 20221221 81352) ((emacs (24 4)))
      "Minor mode to enable global prefix keys for other frame/window buffer placement"
@@ -3332,13 +3332,13 @@
       (:url . "https://elpa.gnu.org/packages/temp-buffer-browse.html")
       (:commit . "db6041b0413fdeefb1f1285e1d9c1039c10fbf04"))])
  (tempel
-  . [(1 9 0 20260118 85341) ((emacs (29 1)) (compat (30)))
+  . [(1 9 0 20260118 204801) ((emacs (29 1)) (compat (30)))
      "Tempo templates/snippets with in-buffer field editing" tar
      ((:url . "https://github.com/minad/tempel")
       (:keywords "abbrev" "languages" "tools" "text")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "821031bc8015a08a5d4ee30f0318fe17420e6098"))])
+      (:commit . "fea9e9c48c884eeba8ab8b759d1ebeddb4737d95"))])
  (termint
   . [(0 2 0 20251215 233408) ((emacs (29 1)))
      "Run REPLs in a terminal backend" tar
@@ -3483,7 +3483,7 @@
       (:url . "https://elpa.gnu.org/packages/transcribe.html")
       (:commit . "2c2d493d5488f3b444d2a771ab443589fcc72c13"))])
  (transient
-  . [(0 12 0 0 20260113 154930)
+  . [(0 12 0 0 20260118 132220)
      ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (seq (2 24)))
      "Transient commands" tar
      ((:url . "https://github.com/magit/transient")
@@ -3492,7 +3492,7 @@
 		   . "emacs.transient@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
-      (:commit . "642343e847a5a26a0adc2493b8b83b62f407d768"))])
+      (:commit . "5d4a7e718c56cb1b3f99a4cd04d204d627f124b0"))])
  (transient-cycles
   . [(2 0 0 20250625 85410) ((emacs (29 1)))
      "Define command variants with transient cycling" tar
@@ -3682,14 +3682,14 @@
       (:authors ("Andrew Hyatt" . "ahyatt@gmail.com"))
       (:commit . "57dfaf751f9d71e921cdbeaa34b9aafa3c502ba3"))])
  (verilog-mode
-  . [(2025 11 8 248496848 0 20260101 125434) nil
+  . [(2026 1 18 88738971 0 20260118 95917) nil
      "major mode for editing verilog source in Emacs" tar
      ((:url . "https://www.veripool.org") (:keywords "languages")
       (:maintainer ("Michael McNamara" . "mac@verilog.com")
 		   ("Wilson Snyder" . "wsnyder@wsnyder.org"))
       (:authors ("Michael McNamara" . "mac@verilog.com")
 		("Wilson Snyder" . "wsnyder@wsnyder.org"))
-      (:commit . "17ddfd66e65c19f44dee41ee1b7ee1ce23ef3ed2"))])
+      (:commit . "aff85304d9d9de1ef7833a4ee35b5c081cc80bc7"))])
  (vertico
   . [(2 7 0 20260118 74351) ((emacs (29 1)) (compat (30)))
      "VERTical Interactive COmpletion" tar

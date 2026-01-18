@@ -23704,6 +23704,22 @@
 			   (:maintainers
 			    ("Michael Markert" . "markert.michael@gmail.com"))
 			   (:maintainer "Michael Markert" . "markert.michael@gmail.com"))])
+ (evil-insert-plus .
+		   [(0 1 0 1 -4 20260117 1852)
+		    ((emacs
+		      (24 4))
+		     (evil
+		      (1 14 0)))
+		    "Use insert and append as operators" tar
+		    ((:url . "https://github.com/yad-tahir/evil-insert-plus")
+		     (:commit . "088eca49f37c54113d29020f25b53d4e01290ab2")
+		     (:revdesc . "088eca49f37c")
+		     (:keywords "emulations" "textvim" "editing")
+		     (:authors
+		      ("Yad Tahir" . "yadatieee.org"))
+		     (:maintainers
+		      ("Yad Tahir" . "yadatieee.org"))
+		     (:maintainer "Yad Tahir" . "yadatieee.org"))])
  (evil-keypad .
 	      [(0 1 0 1 -4 20250731 552)
 	       ((emacs
@@ -34092,6 +34108,20 @@
 	  (:maintainers
 	   ("Jürgen Hötzel" . "juergen.hoetzel@hr.de"))
 	  (:maintainer "Jürgen Hötzel" . "juergen.hoetzel@hr.de"))])
+ (guava-themes .
+	       [(0 1 0 1 -4 20260117 2132)
+		((emacs
+		  (24 1)))
+		"A pack of plant-inspired themes" tar
+		((:url . "http://github.com/bormoge/guava-themes")
+		 (:commit . "79fdb2a5b64d1eea4e4fc4bbe1354d5da59e9e37")
+		 (:revdesc . "79fdb2a5b64d")
+		 (:keywords "themes" "faces" "color")
+		 (:authors
+		  ("Geralld Borbón" . "eternalmangocean@gmail.com"))
+		 (:maintainers
+		  ("Geralld Borbón" . "eternalmangocean@gmail.com"))
+		 (:maintainer "Geralld Borbón" . "eternalmangocean@gmail.com"))])
  (guess-language .
 		 [(0 0 1 1 -4 20240528 1319)
 		  ((cl-lib
@@ -66214,6 +66244,22 @@
 	    (:maintainers
 	     ("Friedrich Paetzke" . "f.paetzke@gmail.com"))
 	    (:maintainer "Friedrich Paetzke" . "f.paetzke@gmail.com"))])
+ (pyasm-mode .
+	     [(0 1 0 1 -4 20260117 2029)
+	      ((emacs
+		(24 4))
+	       (compat
+		(30 1 0 1)))
+	      "Mode for editing assembler code" tar
+	      ((:url . "https://github.com/rocky/emacs-pyasm-mode")
+	       (:commit . "3d3dc5a820a488a1fb9618fda5d7307a5eae75ec")
+	       (:revdesc . "3d3dc5a820a4")
+	       (:keywords "languages")
+	       (:authors
+		("Rocky Bernstein" . "rocky@gnu.org"))
+	       (:maintainers
+		(nil . "rocky@gnu.org"))
+	       (:maintainer nil . "rocky@gnu.org"))])
  (pycarddavel .
 	      [(0 1 1 -4 20150831 1216)
 	       ((helm
@@ -76844,15 +76890,15 @@
 		  ("Lassi Kortela" . "lassi@lassi.io"))
 		 (:maintainer "Lassi Kortela" . "lassi@lassi.io"))])
  (tempel .
-	 [(0 1 0 1 -4 20260118 853)
+	 [(0 1 0 1 -4 20260118 2132)
 	  ((emacs
 	    (29 1))
 	   (compat
 	    (30)))
 	  "Tempo templates/snippets with in-buffer field editing" tar
 	  ((:url . "https://github.com/minad/tempel")
-	   (:commit . "821031bc8015a08a5d4ee30f0318fe17420e6098")
-	   (:revdesc . "821031bc8015")
+	   (:commit . "bcc3d43eee40ca5a4b380a64200336b09462339f")
+	   (:revdesc . "bcc3d43eee40")
 	   (:keywords "abbrev" "languages" "tools" "text")
 	   (:authors
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -77320,14 +77366,16 @@
 		  ("Johannes Mueller" . "github@johannes-mueller.org"))
 		 (:maintainer "Johannes Mueller" . "github@johannes-mueller.org"))])
  (test-simple .
-	      [(0 1 0 1 -4 20251030 2148)
-	       ((cl-lib
-		 (0)))
+	      [(0 1 0 1 -4 20260118 2141)
+	       ((emacs
+		 (24 4))
+		(compat
+		 (30 1 0 1)))
 	       "Simple Unit Test Framework for Emacs Lisp" tar
 	       ((:url . "https://github.com/rocky/emacs-test-simple")
-		(:commit . "da8ddb6fecb820c8e0809ac0892374e755e4efec")
-		(:revdesc . "da8ddb6fecb8")
-		(:keywords "unit-test")
+		(:commit . "502b0d299724256b1bbb08dcff227ac528f1a01a")
+		(:revdesc . "502b0d299724")
+		(:keywords "lisp")
 		(:authors
 		 ("Rocky Bernstein" . "rocky@gnu.org"))
 		(:maintainers
