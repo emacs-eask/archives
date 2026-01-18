@@ -416,7 +416,7 @@
       (:authors ("Fanael Linithien" . "fanael4@gmail.com"))
       (:commit . "82a28d8a85277cfe453af464603ea330eae41c05"))])
  (editorconfig
-  . [(0 11 0 0 20251224 71928) ((emacs (27 2)))
+  . [(0 11 0 0 20260117 231845) ((emacs (27 2)))
      "EditorConfig Emacs Plugin" tar
      ((:url
        . "https://github.com/editorconfig/editorconfig-emacs#readme")
@@ -425,7 +425,7 @@
 		   . "editorconfig@googlegroups.com")
       (:authors
        ("EditorConfig Team" . "editorconfig@googlegroups.com"))
-      (:commit . "646c31b4b7b0bd8805cf2914239ac9aa1cd6d962"))])
+      (:commit . "1e9931d5f38a8d8cb8a92cf726d64696550bfc95"))])
  (eglot-inactive-regions
   . [(0 6 5 0 20250326 53650) ((emacs (29 1)))
      "Highlight inactive code regions with eglot power" tar
@@ -1102,6 +1102,12 @@
      ((:url . "https://github.com/brianc/jade-mode")
       (:keywords "languages")
       (:commit . "1ad7c51f3c6a6ae64550d9510c5e4e8470014375"))])
+ (javelin
+  . [(0 2 3 0 20260105 173516) ((emacs (28 1)))
+     "Implementation of harpoon: bookmarks on steroids" tar
+     ((:url . "https://github.com/DamianB-BitFlipper/javelin.el")
+      (:keywords "tools" "languages")
+      (:commit . "c49d44a3fab78ce6a60c2627e1d4f5f21d7e5274"))])
  (jinja2-mode
   . [(0 3 0 20220117 80711) nil "A major mode for jinja2" tar
      ((:url . "https://elpa.nongnu.org/nongnu/jinja2-mode.html")
@@ -1670,13 +1676,13 @@
       (:keywords "project" "convenience")
       (:commit . "f5fd18aa810c3d3269188cbbd731ddc09006f8f5"))])
  (rust-mode
-  . [(1 0 6 0 20260101 80918) ((emacs (25 1)))
+  . [(1 0 6 0 20260118 53640) ((emacs (25 1)))
      "A major-mode for editing Rust source code" tar
      ((:url . "https://github.com/rust-lang/rust-mode")
       (:keywords "languages")
       (:maintainer "Mozilla" . "rust-mode@noreply.github.com")
       (:authors ("Mozilla" . "rust-mode@noreply.github.com"))
-      (:commit . "ae161dca23db7531e021205d4bee18ab8a8f3938"))])
+      (:commit . "4adb3a729653315ed3efcf3e89f20d940dfe0e2d"))])
  (sass-mode
   . [(3 0 16 0 20190502 5315) ((haml-mode (3 0 15)) (cl-lib (0 5)))
      "Major mode for editing Sass files" tar
@@ -1915,14 +1921,14 @@
       (:authors ("Marty Hiatt" . "mousebot@disroot.org"))
       (:commit . "cce2dfe0ec2b5c070cb13a7bdf95695eeb6e3caf"))])
  (treesit-fold
-  . [(0 2 1 0 20260117 80015) ((emacs (29 1)))
+  . [(0 2 1 0 20260117 211549) ((emacs (29 1)))
      "Code folding using treesit" tar
      ((:url . "https://github.com/emacs-tree-sitter/treesit-fold")
       (:keywords "convenience" "folding" "tree-sitter")
       (:maintainer "Jen-Chieh" . "jcs090218@gmail.com")
       (:authors ("Junyi Hou" . "junyi.yi.hou@gmail.com")
 		("Jen-Chieh" . "jcs090218@gmail.com"))
-      (:commit . "058c57c42f3c1e67c924b908dcbc127450d7f24f"))])
+      (:commit . "c5f0a95550d16dc21871347c0ddd97d9328305dd"))])
  (treeview
   . [(1 3 1 0 20241101 11503) ((emacs (25 1)))
      "A generic tree navigation library" tar
