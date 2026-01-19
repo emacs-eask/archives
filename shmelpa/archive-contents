@@ -45564,6 +45564,20 @@
 		      (:maintainers
 		       ("Jen-Chieh" . "jcs090218@gmail.com"))
 		      (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
+ (lichess .
+	  [(0 1 0 1 -4 20260118 756)
+	   ((emacs
+	     (27 1)))
+	   "Lichess client" tar
+	   ((:url . "https://github.com/tmythicator/Lichess.el")
+	    (:commit . "8f7d6f8e702256b2d8f5099928cd8558df253d36")
+	    (:revdesc . "8f7d6f8e7022")
+	    (:keywords "games" "chess" "lichess" "api")
+	    (:authors
+	     ("Alexandr Timchenko" . "atimchenko92@gmail.com"))
+	    (:maintainers
+	     ("Alexandr Timchenko" . "atimchenko92@gmail.com"))
+	    (:maintainer "Alexandr Timchenko" . "atimchenko92@gmail.com"))])
  (life-calendar .
 		[(0 1 0 1 -4 20260111 2324)
 		 ((emacs
@@ -46374,11 +46388,15 @@
 	      ("Andros Fenollosa" . "hi@andros.dev"))
 	     (:maintainer "Andros Fenollosa" . "hi@andros.dev"))])
  (loc-changes .
-	      [(1 2 1 -4 20230214 1036)
-	       nil "Keep track of positions even after buffer changes" tar
+	      [(0 1 0 1 -4 20260118 2151)
+	       ((emacs
+		 (24 4))
+		(compat
+		 (30 1 0 1)))
+	       "Keep track of positions even after buffer changes" tar
 	       ((:url . "https://github.com/rocky/emacs-loc-changes")
-		(:commit . "622371e432f50626aaac82f8ee2841f71685b0fb")
-		(:revdesc . "622371e432f5")
+		(:commit . "a1d2852c4422f09f385069127b93a5c455954e9b")
+		(:revdesc . "a1d2852c4422")
 		(:authors
 		 ("Rocky Bernstein" . "rocky@gnu.org"))
 		(:maintainers
@@ -77977,13 +77995,13 @@
 	       ("Aimé Bertrand" . "aime.bertrand@macowners.club"))
 	      (:maintainer "Aimé Bertrand" . "aime.bertrand@macowners.club"))])
  (timu-macos-theme .
-		   [(0 1 0 1 -4 20251102 1635)
+		   [(0 1 0 1 -4 20260118 2236)
 		    ((emacs
 		      (27 1)))
 		    "Color theme inspired by the macOS UI" tar
 		    ((:url . "https://gitlab.com/aimebertrand/timu-macos-theme")
-		     (:commit . "20f0a64549209457045602b16097e4630f56691d")
-		     (:revdesc . "20f0a6454920")
+		     (:commit . "5a1e080b831b18b01a012af661653e5ecdf0fad0")
+		     (:revdesc . "5a1e080b831b")
 		     (:keywords "faces" "themes")
 		     (:authors
 		      ("Aimé Bertrand" . "aime.bertrand@macowners.club"))
