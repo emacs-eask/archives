@@ -173,13 +173,13 @@
       (:authors ("John Wiegley" . "jwiegley@gmail.com"))
       (:commit . "31cb2fea8f4bc7a593acd76187a89075d8075500"))])
  (auctex
-  . [(14 1 2 0 20260117 200713) ((emacs (28 1)))
+  . [(14 1 2 0 20260121 153307) ((emacs (28 1)))
      "Integrated environment for *TeX*" tar
      ((:url . "https://www.gnu.org/software/auctex/")
       (:keywords "tex" "latex" "texinfo" "context" "doctex"
 		 "preview-latex")
       (:maintainer nil . "auctex-devel@gnu.org")
-      (:commit . "16c3da1bcb42938ccf68a9b1d043ff9a6161476e"))])
+      (:commit . "0deabcab40a726464ba17b8ff1b3e9717f6d6dda"))])
  (auctex-cont-latexmk
   . [(0 3 0 20250115 185937) ((emacs (29 3)) (auctex (14 0 5)))
      "run latexmk continuously, report errors via Flymake" tar
@@ -1058,7 +1058,7 @@
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
       (:commit . "6abed875a367c5680b5d3db9e4a55b36ab6f60ea"))])
  (eglot
-  . [(1 21 0 20260117 150219)
+  . [(1 21 0 20260121 122624)
      ((emacs (26 3)) (eldoc (1 14 0)) (external-completion (0 1))
       (flymake (1 4 2)) (jsonrpc (1 0 26)) (project (0 11 2))
       (seq (2 23)) (xref (1 6 2)))
@@ -1067,7 +1067,7 @@
       (:keywords "convenience" "languages")
       (:maintainer "João Távora" . "joaotavora@gmail.com")
       (:authors ("João Távora" . "joaotavora@gmail.com"))
-      (:commit . "cdb2ed9dae55bd4d931661400f0dd6374a53ca05"))])
+      (:commit . "41c0d254d509aa41b6620bc5127e9f022afd2ed4"))])
  (el-job
   . [(2 6 1 0 20251202 235353) ((emacs (29 1)))
      "Contrived way to call a function using all CPU cores" tar
@@ -1797,12 +1797,13 @@
       (:url . "https://elpa.gnu.org/packages/json-mode.html")
       (:commit . "2eb4b83db23e61fa2112688148aeedbacfc3c18e"))])
  (jsonrpc
-  . [(1 0 27 0 20260111 34201) ((emacs (25 2))) "JSON-RPC library" tar
+  . [(1 0 27 0 20260121 122624) ((emacs (25 2))) "JSON-RPC library"
+     tar
      ((:keywords "processes" "languages" "extensions")
       (:maintainer "João Távora" . "joaotavora@gmail.com")
       (:authors ("João Távora" . "joaotavora@gmail.com"))
       (:url . "https://elpa.gnu.org/packages/jsonrpc.html")
-      (:commit . "4484a9f87536ee0caff4b1f53fde8f4f3ac4adbe"))])
+      (:commit . "41c0d254d509aa41b6620bc5127e9f022afd2ed4"))])
  (jumpc
   . [(3 1 0 20231015 14814) nil "jump to previous insertion points"
      tar
@@ -2725,7 +2726,7 @@
       (:authors ("Feng Shu" . "tumashu@163.com"))
       (:commit . "55d9b324831b0fc79ff62f1c6f21aad72341a114"))])
  (python
-  . [(0 30 0 20260117 160903)
+  . [(0 30 0 20260121 180256)
      ((emacs (29 1)) (compat (29 1 1 0)) (seq (2 23)) (project (0 1))
       (flymake (1 0)))
      "Python's flying circus support for Emacs" tar
@@ -2733,7 +2734,7 @@
       (:keywords "languages")
       (:maintainer nil . "emacs-devel@gnu.org")
       (:authors ("Fabián E. Gallina" . "fgallina@gnu.org"))
-      (:commit . "cdb2ed9dae55bd4d931661400f0dd6374a53ca05"))])
+      (:commit . "41c0d254d509aa41b6620bc5127e9f022afd2ed4"))])
  (quarter-plane
   . [(0 1 0 20221221 81727) nil
      "Minor mode for quarter-plane style editing" tar
@@ -3332,13 +3333,13 @@
       (:url . "https://elpa.gnu.org/packages/temp-buffer-browse.html")
       (:commit . "db6041b0413fdeefb1f1285e1d9c1039c10fbf04"))])
  (tempel
-  . [(1 10 0 20260121 63956) ((emacs (29 1)) (compat (30)))
+  . [(1 10 0 20260121 195217) ((emacs (29 1)) (compat (30)))
      "Tempo templates/snippets with in-buffer field editing" tar
      ((:url . "https://github.com/minad/tempel")
       (:keywords "abbrev" "languages" "tools" "text")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "f69c18d89de44072e983c8ca8378b276603a1012"))])
+      (:commit . "3c69363fa32d0985d9a748eceab780e74621f2ce"))])
  (termint
   . [(0 2 0 20251215 233408) ((emacs (29 1)))
      "Run REPLs in a terminal backend" tar
