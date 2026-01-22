@@ -173,13 +173,13 @@
       (:authors ("John Wiegley" . "jwiegley@gmail.com"))
       (:commit . "31cb2fea8f4bc7a593acd76187a89075d8075500"))])
  (auctex
-  . [(14 1 2 0 20260121 153307) ((emacs (28 1)))
+  . [(14 1 2 0 20260122 195707) ((emacs (28 1)))
      "Integrated environment for *TeX*" tar
      ((:url . "https://www.gnu.org/software/auctex/")
       (:keywords "tex" "latex" "texinfo" "context" "doctex"
 		 "preview-latex")
       (:maintainer nil . "auctex-devel@gnu.org")
-      (:commit . "0deabcab40a726464ba17b8ff1b3e9717f6d6dda"))])
+      (:commit . "c72b9722b2284d3bf4b3cfaa081289b28cd960d0"))])
  (auctex-cont-latexmk
   . [(0 3 0 20250115 185937) ((emacs (29 3)) (auctex (14 0 5)))
      "run latexmk continuously, report errors via Flymake" tar
@@ -403,13 +403,13 @@
       (:authors ("Kjartan Oli Agustsson" . "kjartanoli@disroot.org"))
       (:commit . "dbbffe75c6a2492099e36dc93b6183800a7d6fcd"))])
  (cape
-  . [(2 5 0 20260122 81244) ((emacs (29 1)) (compat (30)))
+  . [(2 5 0 20260122 91941) ((emacs (29 1)) (compat (30)))
      "Completion At Point Extensions" tar
      ((:url . "https://github.com/minad/cape")
       (:keywords "abbrev" "convenience" "matching" "completion" "text")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "9210e998c945378153235eeee8b7e5bb8dd7e784"))])
+      (:commit . "8b58e16cbd7322f616e9ffcdf18c605f1d68a855"))])
  (capf-autosuggest
   . [(0 3 0 20211123 104430) ((emacs (25 1)))
      "History autosuggestions for comint and eshell" tar
@@ -536,7 +536,7 @@
       (:authors ("Ingo Lohmar" . "i.lohmar@gmail.com"))
       (:commit . "120e982f47e01945c044e0762ba376741c41b76c"))])
  (compat
-  . [(30 1 0 1 0 20260104 150319) ((emacs (24 4)) (seq (2 23)))
+  . [(30 1 0 1 0 20260122 130210) ((emacs (24 4)) (seq (2 23)))
      "Emacs Lisp Compatibility Library" tar
      ((:url . "https://github.com/emacs-compat/compat")
       (:keywords "lisp" "maint")
@@ -544,7 +544,7 @@
 		   . "~pkal/compat-devel@lists.sr.ht")
       (:authors ("Philip Kaludercic" . "philipk@posteo.net")
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "cf142601916763ca6203c953b28055dce8cfd2e5"))])
+      (:commit . "e52c2d40ff3ad3f512a7b51840e3ba6320569c9e"))])
  (cond-star
   . [(1 0 0 20260101 125434) ((emacs (24 3)))
      "Extended form of `cond' construct" tar
@@ -567,13 +567,13 @@
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:commit . "312f2db1a23ef5428ab9553679147d5ff3a4e57d"))])
  (consult-denote
-  . [(0 4 2 0 20260111 182520)
+  . [(0 4 2 0 20260122 100152)
      ((emacs (28 1)) (denote (4 0 0)) (consult (2 2)))
      "Use Consult in tandem with Denote" tar
      ((:url . "https://github.com/protesilaos/consult-denote")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "83303e0aab8d734fa3d02567f4ec15707634c36e"))])
+      (:commit . "40f90c887ab3fe4c032648a99f3fe6fd82b76161"))])
  (consult-hoogle
   . [(0 5 0 0 20250219 74017) ((emacs (27 1)) (consult (2 0)))
      "Hoogle frontend using consult" tar
@@ -784,6 +784,14 @@
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
       (:commit . "3c95f59c1b9122e15b09f82d9db3902aace73acf"))])
+ (denote-review
+  . [(1 0 0 0 20260122 204616) ((emacs (28 1)) (denote (4 1 3)))
+     "implements review process for denote notes" tar
+     ((:url . "https://codeberg.org/mattof/denote-review")
+      (:keywords "files")
+      (:maintainer "Matto Fransen" . "matto@matto.nl")
+      (:authors ("Matto Fransen" . "matto@matto.nl"))
+      (:commit . "9c45faca73bbcb8e1d9034385137b4beef35a3b2"))])
  (denote-search
   . [(1 0 3 0 20250501 205109) ((emacs (29 1)) (denote (3 0)))
      "Search the contents of your notes" tar
@@ -3406,7 +3414,7 @@
       (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com"))
       (:commit . "c107480fca7e42737c51b2afaa33ac31e92a7290"))])
  (tmr
-  . [(1 2 1 0 20260122 70647) ((emacs (29 1)))
+  . [(1 2 1 0 20260122 130736) ((emacs (29 1)))
      "Set timers using a convenient notation" tar
      ((:url . "https://github.com/protesilaos/tmr")
       (:keywords "convenience" "timer")
@@ -3415,7 +3423,7 @@
 		("Damien Cassou" . "damien@cassou.me")
 		("Daniel Mendler" . "mail@daniel-mendler.de")
 		("Steven Allen" . "steven@stebalien.com"))
-      (:commit . "a637c1c17e789d422a3886a4e17c19c6b268a40b"))])
+      (:commit . "f894ea40d6ca33563c25fadf6aa8eaecd9bc735d"))])
  (tomelr
   . [(0 4 3 0 20220511 213722)
      ((emacs (26 3)) (map (3 2 1)) (seq (2 23)))
