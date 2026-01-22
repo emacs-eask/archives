@@ -47032,7 +47032,7 @@
 		("Evgeny Kurnevsky" . "kurnevsky@gmail.com"))
 	       (:maintainer "Ross A. Baker" . "ross@rossabaker.com"))])
  (lsp-mode .
-	   [(0 1 0 1 -4 20260121 2006)
+	   [(0 1 0 1 -4 20260122 1648)
 	    ((emacs
 	      (28 1))
 	     (dash
@@ -47051,8 +47051,8 @@
 	      (1 11)))
 	    "LSP mode" tar
 	    ((:url . "https://github.com/emacs-lsp/lsp-mode")
-	     (:commit . "d480d5ff87057484b816c2e7a3055244b17d0e01")
-	     (:revdesc . "d480d5ff8705")
+	     (:commit . "cef142ca5bc8b4eff85b814e09c3d5b81b081ba7")
+	     (:revdesc . "cef142ca5bc8")
 	     (:keywords "languages"))])
  (lsp-mssql .
 	    [(0 1 0 1 -4 20251117 1444)
@@ -59471,6 +59471,26 @@
 		  (:maintainers
 		   ("p-snow" . "public@p-snow.org"))
 		  (:maintainer "p-snow" . "public@p-snow.org"))])
+ (org-wild-notifier .
+		    [(0 5 0 1 -4 20240325 744)
+		     ((alert
+		       (1 2))
+		      (async
+		       (1 9 3))
+		      (dash
+		       (2 18 0))
+		      (emacs
+		       (26 1)))
+		     "Customizable org-agenda notifications" tar
+		     ((:url . "https://github.com/akhramov/org-wild-notifier.el")
+		      (:commit . "4c1679c12ebe0e4a97494d0673a5484f9e4d0ba6")
+		      (:revdesc . "4c1679c12ebe")
+		      (:keywords "notification" "alert" "org" "org-agenda" "agenda")
+		      (:authors
+		       ("Artem Khramov" . "akhramov+emacs@pm.me"))
+		      (:maintainers
+		       ("Artem Khramov" . "akhramov+emacs@pm.me"))
+		      (:maintainer "Artem Khramov" . "akhramov+emacs@pm.me"))])
  (org-working-set .
 		  [(0 1 0 1 -4 20250620 1501)
 		   ((org
@@ -60216,13 +60236,13 @@
 	   ("J.D. Smith" . "jdtsmith@gmail.com"))
 	  (:maintainer "J.D. Smith" . "jdtsmith@gmail.com"))])
  (outline-indent .
-		 [(0 1 0 1 -4 20260122 1321)
+		 [(0 1 0 1 -4 20260122 1719)
 		  ((emacs
 		    (26 1)))
 		  "Folding text based on indentation (origami alternative)" tar
 		  ((:url . "https://github.com/jamescherti/outline-indent.el")
-		   (:commit . "dcb3778f9ca6e6a4f341db9b4a8397379f40bbe9")
-		   (:revdesc . "dcb3778f9ca6")
+		   (:commit . "ca9950bb3ae736958ba835bfb35edf8030bc77bd")
+		   (:revdesc . "ca9950bb3ae7")
 		   (:keywords "outlines"))])
  (outline-magic .
 		[(0 9 1 1 -4 20180619 1819)
