@@ -11676,15 +11676,15 @@
 		    ("Jannis Pohlmann" . "contact@jannispohlmann.de"))
 		   (:maintainer "Jannis Pohlmann" . "contact@jannispohlmann.de"))])
  (consult .
-	  [(0 1 0 1 -4 20260118 744)
+	  [(0 1 0 1 -4 20260125 1903)
 	   ((emacs
 	     (29 1))
 	    (compat
 	     (30)))
 	   "Search and navigate via completing-read" tar
 	   ((:url . "https://github.com/minad/consult")
-	    (:commit . "312f2db1a23ef5428ab9553679147d5ff3a4e57d")
-	    (:revdesc . "312f2db1a23e")
+	    (:commit . "1bbdc7352fa58f66ef730d371a60f60408083c9f")
+	    (:revdesc . "1bbdc7352fa5")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainers
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -12011,19 +12011,19 @@
 		(:revdesc . "d11102c9db33")
 		(:keywords "tools" "completion" "lsp"))])
  (consult-notes .
-		[(0 1 0 1 -4 20251117 1511)
+		[(0 8 1 -4 20260125 1651)
 		 ((emacs
-		   (27 1))
+		   (28 1))
 		  (consult
-		   (0 17))
+		   (1 0))
 		  (s
 		   (1 12 0))
 		  (dash
 		   (2 19)))
 		 "Manage notes with consult" tar
 		 ((:url . "https://github.com/mclear-tools/consult-notes")
-		  (:commit . "3c11379514718db365a377ac8e4503d1ea4674a8")
-		  (:revdesc . "3c1137951471")
+		  (:commit . "37e772594ad64ebe573cb5974f48e5d08b0e043c")
+		  (:revdesc . "37e772594ad6")
 		  (:keywords "convenience")
 		  (:authors
 		   ("Colin McLear" . "mclear@fastmail.com")))])
@@ -15232,6 +15232,19 @@
 	   (:maintainers
 	    ("Stefan Kamphausen" . "www.skamphausen.de"))
 	   (:maintainer "Stefan Kamphausen" . "www.skamphausen.de"))])
+ (devcontainer .
+	       [(0 1 0 1 -4 20260124 1253)
+		((emacs
+		  (29 1)))
+		"Support for devcontainer" tar
+		((:url . "https://github.com/johannes-mueller/devcontainer.el")
+		 (:commit . "5786ef4fbb48d7c17399734590859eae4d4cd5bd")
+		 (:revdesc . "5786ef4fbb48")
+		 (:authors
+		  ("Johannes Mueller" . "github@johannes-mueller.org"))
+		 (:maintainers
+		  ("Johannes Mueller" . "github@johannes-mueller.org"))
+		 (:maintainer "Johannes Mueller" . "github@johannes-mueller.org"))])
  (devdocs .
 	  [(0 1 0 1 -4 20251022 1255)
 	   ((emacs
@@ -30489,13 +30502,13 @@
 	   ("Sergio Pastor Pérez" . "sergio.pastorperez@outlook.es"))
 	  (:maintainer "Sergio Pastor Pérez" . "sergio.pastorperez@outlook.es"))])
  (gdscript-mode .
-		[(0 1 0 1 -4 20260123 1636)
+		[(0 1 0 1 -4 20260125 1932)
 		 ((emacs
 		   (26 3)))
 		 "Major mode for Godot's GDScript language" tar
 		 ((:url . "https://github.com/godotengine/emacs-gdscript-mode/")
-		  (:commit . "eac71fb88bc6313577908d5564961872cadbaff0")
-		  (:revdesc . "eac71fb88bc6")
+		  (:commit . "d3f8271bfdb6e3b44688b0998da59810bc604943")
+		  (:revdesc . "d3f8271bfdb6")
 		  (:keywords "languages")
 		  (:authors
 		   ("Nathan Lovato" . "nathan@gdquest.com")
@@ -58574,6 +58587,22 @@
 		     ("Mykhailo Shevchuk" . "mail@mshevchuk.com")
 		     ("Leo Vivier" . "leo.vivier+dev@gmail.com"))
 		    (:maintainer "Mykhailo Shevchuk" . "mail@mshevchuk.com"))])
+ (org-roam-latte .
+		 [(0 1 0 1 -4 20260125 540)
+		  ((emacs
+		    (27 1))
+		   (org-roam
+		    (2 0)))
+		  "Auto-highlight unlinked Org-roam references" tar
+		  ((:url . "https://github.com/yad-tahir/org-roam-latte")
+		   (:commit . "fbcdad953e1b84441fcc9c7e33f809c648de5ae2")
+		   (:revdesc . "fbcdad953e1b")
+		   (:keywords "hypermedia" "outlines" "org-roam" "convenience")
+		   (:authors
+		    ("Yad Tahir" . "yadatieee.org"))
+		   (:maintainers
+		    ("Yad Tahir" . "yadatieee.org"))
+		   (:maintainer "Yad Tahir" . "yadatieee.org"))])
  (org-roam-ql .
 	      [(0 1 0 1 -4 20251217 2009)
 	       ((emacs
