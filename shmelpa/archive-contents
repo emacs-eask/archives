@@ -1033,6 +1033,15 @@
 	      (:maintainers
 	       ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	      (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev"))])
+ (advent-mode .
+	      [(0 1 0 1 -4 20260123 954)
+	       ((emacs
+		 (29 1)))
+	       "Advent of Code mode" tar
+	       ((:url . "https://github.com/vkazanov/advent-mode")
+		(:commit . "b7f134bdeb02ecbe0f1a88ef7d455ffd9c173818")
+		(:revdesc . "b7f134bdeb02")
+		(:keywords "lisp"))])
  (adwaita-dark-theme .
 		     [(1 3 0 1 -4 20231209 1033)
 		      ((emacs
@@ -1185,7 +1194,7 @@
 	    ("Tomasz Maciosowski" . "t4ccer@gmail.com"))
 	   (:maintainer "Tomasz Maciosowski" . "t4ccer@gmail.com"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260124 2007)
+	      [(0 1 0 1 -4 20260124 2145)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1194,8 +1203,8 @@
 		 (0 8 3)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "72277d997539189ac105d888aed26ac91e6331b5")
-		(:revdesc . "72277d997539"))])
+		(:commit . "c6533461bd03c080b322c6c687a9aed97c6dcc80")
+		(:revdesc . "c6533461bd03"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -32800,13 +32809,13 @@
 	    ("Brantou" . "brantou89@gmail.com"))
 	   (:maintainer "Brantou" . "brantou89@gmail.com"))])
  (go-template-helper-mode .
-			  [(0 1 0 1 -4 20260102 1449)
+			  [(0 1 0 1 -4 20260124 2229)
 			   ((emacs
 			     (28 1)))
-			   "Overlay Go template highlighting" tar
+			   "Go text/template overlay highlighting (Helm/YAML)" tar
 			   ((:url . "https://codeberg.org/rch/go-template-helper-mode")
-			    (:commit . "34ba1fa917da78f9926fa909056bd9e1e5dd2837")
-			    (:revdesc . "34ba1fa917da")
+			    (:commit . "e13b09d9176dd88e65c4bea5eb5c878242ea7e13")
+			    (:revdesc . "e13b09d9176d")
 			    (:keywords "tools" "faces")
 			    (:authors
 			     ("Robert Charusta" . "rch-public@posteo.net"))
@@ -37919,13 +37928,13 @@
 	      ("soywod" . "clement.douin@posteo.net"))
 	     (:maintainer "soywod" . "clement.douin@posteo.net"))])
  (hindent .
-	  [(0 1 0 1 -4 20250909 1613)
+	  [(0 1 0 1 -4 20260124 2208)
 	   ((emacs
 	     (27 1)))
 	   "Indent haskell code using the \"hindent\" program" tar
 	   ((:url . "https://github.com/mihaimaruseac/hindent")
-	    (:commit . "e841f55c37abf6865309083b93eb6214eb100cea")
-	    (:revdesc . "e841f55c37ab")
+	    (:commit . "57e769d48447c77da5a21d1923ba3634e3a605fe")
+	    (:revdesc . "57e769d48447")
 	    (:authors
 	     ("Chris Done" . "chrisdone@gmail.com"))
 	    (:maintainers
@@ -44041,15 +44050,15 @@
 	   ("stardiviner" . "numbchild@gmail.com"))
 	  (:maintainer "stardiviner" . "numbchild@gmail.com"))])
  (kixtart-mode .
-	       [(0 1 0 1 -4 20260115 1810)
+	       [(0 1 0 1 -4 20260125 12)
 		((emacs
 		  (28 1))
 		 (eldoc
 		  (1 14 0)))
 		"Major mode for editing KiXtart scripts" tar
 		((:url . "https://git.sr.ht/~mew/kixtart-mode")
-		 (:commit . "a09f91c6dda7a5eda5f5f0cd382bdcef1519720f")
-		 (:revdesc . "a09f91c6dda7")
+		 (:commit . "01265a2f086a0fa8d89da9a9988f12fa99592c53")
+		 (:revdesc . "01265a2f086a")
 		 (:keywords "languages")
 		 (:authors
 		  ("Morgan Willcock" . "morgan@ice9.digital"))
@@ -46667,7 +46676,7 @@
 	      ("0x60DF" . "0x60df@gmail.com"))
 	     (:maintainer "0x60DF" . "0x60df@gmail.com"))])
  (loopy .
-	[(0 1 0 1 -4 20260110 2353)
+	[(0 1 0 1 -4 20260125 14)
 	 ((emacs
 	   (28 1))
 	  (map
@@ -46680,8 +46689,8 @@
 	   (2 4 0)))
 	 "A looping macro" tar
 	 ((:url . "https://github.com/okamsn/loopy")
-	  (:commit . "7996ae466a321c1244903f2c579056d86a9db7a4")
-	  (:revdesc . "7996ae466a32")
+	  (:commit . "d34569439eec8f4bd6becd4e7a46107644c1f82c")
+	  (:revdesc . "d34569439eec")
 	  (:keywords "extensions"))])
  (loopy-dash .
 	     [(0 1 0 1 -4 20251226 2031)
@@ -47847,6 +47856,24 @@
 		   (:maintainers
 		    ("Yann Hodique" . "yann.hodique@gmail.com"))
 		   (:maintainer "Yann Hodique" . "yann.hodique@gmail.com"))])
+ (magit-git-toolbelt .
+		     [(0 1 0 1 -4 20260119 1930)
+		      ((emacs
+			(26 1))
+		       (magit
+			(3 0 0))
+		       (transient
+			(0 3 0)))
+		      "A Magit interface for git-toolbelt" tar
+		      ((:url . "https://github.com/jonathanchu/magit-git-toolbelt")
+		       (:commit . "e7e39cd616b61a8cb60ac2f375b77d117508230f")
+		       (:revdesc . "e7e39cd616b6")
+		       (:keywords "git" "tools" "vc")
+		       (:authors
+			("Jonathan Chu" . "me@jonathanchu.is"))
+		       (:maintainers
+			("Jonathan Chu" . "me@jonathanchu.is"))
+		       (:maintainer "Jonathan Chu" . "me@jonathanchu.is"))])
  (magit-gitflow .
 		[(0 1 0 1 -4 20170929 824)
 		 ((magit
@@ -51448,6 +51475,22 @@
 		      (:maintainers
 		       ("Yuri D'Elia" . "wavexx@thregr.org"))
 		      (:maintainer "Yuri D'Elia" . "wavexx@thregr.org"))])
+ (mu4e-llm .
+	   [(0 1 0 1 -4 20260121 1539)
+	    ((emacs
+	      (28 1))
+	     (llm
+	      (0 17)))
+	    "AI-powered email assistance for mu4e" tar
+	    ((:url . "https://github.com/sillyfellow/mu4e-llm")
+	     (:commit . "290657310d4041c23d627572d6fb780da8ed02f8")
+	     (:revdesc . "290657310d40")
+	     (:keywords "mail" "convenience")
+	     (:authors
+	      ("Dr. Sandeep Sadanandan" . "sillyfellow@whybenormal.org"))
+	     (:maintainers
+	      ("Dr. Sandeep Sadanandan" . "sillyfellow@whybenormal.org"))
+	     (:maintainer "Dr. Sandeep Sadanandan" . "sillyfellow@whybenormal.org"))])
  (mu4e-marker-icons .
 		    [(0 1 0 1 -4 20250228 218)
 		     ((emacs
@@ -53555,11 +53598,11 @@
 		  ("MetroWind" . "chris.corsair@gmail.com"))
 		 (:maintainer "MetroWind" . "chris.corsair@gmail.com"))])
  (notmuch .
-	  [(0 1 0 1 -4 20260114 2256)
+	  [(0 1 0 1 -4 20260124 2329)
 	   nil "Run notmuch within emacs" tar
 	   ((:url . "https://notmuchmail.org")
-	    (:commit . "97a2bad36a35399681f6c5f5a2b4390e6429d5ae")
-	    (:revdesc . "97a2bad36a35"))])
+	    (:commit . "ad789ba474581619be9f25838fa3d96d38a8d0c1")
+	    (:revdesc . "ad789ba47458"))])
  (notmuch-addr .
 	       [(0 1 0 1 -4 20260101 1842)
 		((emacs
@@ -60846,6 +60889,22 @@
 	      (:maintainers
 	       ("Yujie Wen" . "yjwen.tyatgmaildotcom"))
 	      (:maintainer "Yujie Wen" . "yjwen.tyatgmaildotcom"))])
+ (ox-reveal-layouts .
+		    [(0 1 0 1 -4 20260123 101)
+		     ((emacs
+		       (27 1))
+		      (transient
+		       (0 3 0)))
+		     "Predefined layouts for ox-reveal" tar
+		     ((:url . "https://github.com/GerardoCendejas/ox-reveal-layouts")
+		      (:commit . "2daf9d61ae235a5bea5d0722529c37d55e4ecce9")
+		      (:revdesc . "2daf9d61ae23")
+		      (:keywords "hypermedia" "tools" "reveal" "slides")
+		      (:authors
+		       ("Gerardo Cendejas Mendoza" . "gc597@cornell.edu"))
+		      (:maintainers
+		       ("Gerardo Cendejas Mendoza" . "gc597@cornell.edu"))
+		      (:maintainer "Gerardo Cendejas Mendoza" . "gc597@cornell.edu"))])
  (ox-review .
 	    [(0 1 0 1 -4 20250826 1233)
 	     ((emacs
@@ -72217,6 +72276,19 @@
 	   (:maintainers
 	    ("Mola-T" . "Mola@molamola.xyz"))
 	   (:maintainer "Mola-T" . "Mola@molamola.xyz"))])
+ (signel .
+	 [(0 1 0 1 -4 20260123 110)
+	  ((emacs
+	    (27 1)))
+	  "Signal client for Emacs via signal-cli JSON-RPC" tar
+	  ((:url . "https://github.com/keenban/signel")
+	   (:commit . "598766a0df19f69a5d3fe8c4d2817b72a8996500")
+	   (:revdesc . "598766a0df19")
+	   (:authors
+	    ("Keenan Salandy" . "keenan@salandy.dev"))
+	   (:maintainers
+	    ("Keenan Salandy" . "keenan@salandy.dev"))
+	   (:maintainer "Keenan Salandy" . "keenan@salandy.dev"))])
  (silkworm-theme .
 		 [(0 1 1 -4 20210215 1120)
 		  ((emacs
@@ -77067,6 +77139,15 @@
 		    ((:url . "https://github.com/aaron-em/ten-hundred-mode.el")
 		     (:commit . "bdcfda49b1819e82d61fe90947e50bb948cf7933")
 		     (:revdesc . "bdcfda49b181"))])
+ (tengo-mode .
+	     [(0 1 0 1 -4 20260122 2124)
+	      ((emacs
+		(24 4)))
+	      "Major mode for the Tengo programming language" tar
+	      ((:url . "https://github.com/CsBigDataHub/tengo-mode")
+	       (:commit . "ad12d552da49e9b11f3329d2400aef337a87ef55")
+	       (:revdesc . "ad12d552da49")
+	       (:keywords "languages" "tengo"))])
  (term+ .
 	[(0 1 1 -4 20170509 17)
 	 ((emacs
@@ -80165,6 +80246,15 @@
 	       (:maintainers
 		("DEADBLACKCLOVER" . "deadblackclover@protonmail.com"))
 	       (:maintainer "DEADBLACKCLOVER" . "deadblackclover@protonmail.com"))])
+ (ultisnips-mode .
+		 [(0 1 0 1 -4 20260124 2258)
+		  ((emacs
+		    (26 3)))
+		  "Major mode for editing Ultisnips snippets" tar
+		  ((:url . "https://github.com/jamescherti/ultisnips-mode.el")
+		   (:commit . "035cacccebe1629eca5ce24fd6f597a4e5453d23")
+		   (:revdesc . "035cacccebe1")
+		   (:keywords "languages"))])
  (ultra-scroll .
 	       [(0 1 0 1 -4 20260113 2343)
 		((emacs
