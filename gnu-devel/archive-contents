@@ -173,13 +173,13 @@
       (:authors ("John Wiegley" . "jwiegley@gmail.com"))
       (:commit . "31cb2fea8f4bc7a593acd76187a89075d8075500"))])
  (auctex
-  . [(14 1 2 0 20260129 80131) ((emacs (28 1)))
+  . [(14 1 2 0 20260131 204033) ((emacs (28 1)))
      "Integrated environment for *TeX*" tar
      ((:url . "https://www.gnu.org/software/auctex/")
       (:keywords "tex" "latex" "texinfo" "context" "doctex"
 		 "preview-latex")
       (:maintainer nil . "auctex-devel@gnu.org")
-      (:commit . "dc5419736e221756a64b2a525b34b87f60dc8b5a"))])
+      (:commit . "cc622051ae7f1a31e723bfcd205783a1b4d95f81"))])
  (auctex-cont-latexmk
   . [(0 3 0 20250115 185937) ((emacs (29 3)) (auctex (14 0 5)))
      "run latexmk continuously, report errors via Flymake" tar
@@ -266,12 +266,12 @@
       (:authors ("Artur Malabarba" . "emacs@endlessparentheses.com"))
       (:commit . "85261a928ae0ec3b41e639f05291ffd6bf7c231c"))])
  (beframe
-  . [(1 4 0 0 20260111 104742) ((emacs (28 1)))
+  . [(1 4 0 0 20260131 154937) ((emacs (28 1)))
      "Isolate buffers per frame" tar
      ((:url . "https://github.com/protesilaos/beframe")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "84bbfd981a60b515c0511050e8f2e9064dc50f6f"))])
+      (:commit . "9dd30c8e361fc103a688fbc45e9cb9fc9a8bec09"))])
  (bicep-ts-mode
   . [(0 1 4 0 20251121 60244) nil "tree-sitter support for Bicep" tar
      ((:url . "https://github.com/josteink/bicep-ts-mode")
@@ -536,15 +536,15 @@
       (:authors ("Ingo Lohmar" . "i.lohmar@gmail.com"))
       (:commit . "120e982f47e01945c044e0762ba376741c41b76c"))])
  (compat
-  . [(30 1 0 1 0 20260122 130210) ((emacs (24 4)) (seq (2 23)))
+  . [(30 1 0 1 0 20260131 205608) ((emacs (24 4)) (seq (2 23)))
      "Emacs Lisp Compatibility Library" tar
      ((:url . "https://github.com/emacs-compat/compat")
       (:keywords "lisp" "maint")
-      (:maintainer "Compat Development"
-		   . "~pkal/compat-devel@lists.sr.ht")
+      (:maintainer ("Philip Kaludercic" . "philipk@posteo.net")
+		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Philip Kaludercic" . "philipk@posteo.net")
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "e52c2d40ff3ad3f512a7b51840e3ba6320569c9e"))])
+      (:commit . "38df650dce9f862c6b523de5b683573df590ab85"))])
  (cond-star
   . [(1 0 0 20260101 125434) ((emacs (24 3)))
      "Extended form of `cond' construct" tar
@@ -704,11 +704,11 @@
       (:url . "https://elpa.gnu.org/packages/cycle-quotes.html")
       (:commit . "c1ef993f8c66fec71b10d70eb7a2cd0c416aaa12"))])
  (dape
-  . [(0 25 0 0 20260120 194632) ((emacs (29 1)) (jsonrpc (1 0 25)))
+  . [(0 25 0 0 20260131 142922) ((emacs (29 1)) (jsonrpc (1 0 25)))
      "Debug Adapter Protocol for Emacs" tar
      ((:url . "https://github.com/svaante/dape")
       (:maintainer "Daniel Pettersson" . "daniel@dpettersson.net")
-      (:commit . "550066ae81cd6da4f9afc39fe9f762fc67c52f9d"))])
+      (:commit . "5a5ddac4853a6d767f8522a2cee4764fe18ceb8c"))])
  (darkroom
   . [(0 3 0 20200507 173652) ((cl-lib (0 5)))
      "Remove visual distractions and focus on writing" tar
@@ -946,13 +946,13 @@
       (:url . "https://elpa.gnu.org/packages/djvu.html")
       (:commit . "1251c94f85329de9f957408d405742023f6c50e2"))])
  (do-at-point
-  . [(0 1 2 0 20250501 125137) ((emacs (26 1)))
+  . [(0 2 0 -1 0 20260131 160402) ((emacs (26 1)))
      "Generic context-sensitive action dispatcher." tar
      ((:url . "https://codeberg.org/pkal/do-at-point.el")
       (:keywords "convenience")
       (:maintainer "Philip Kaludercic" . "philipk@posteo.net")
       (:authors ("Philip Kaludercic" . "philipk@posteo.net"))
-      (:commit . "09a05933f1557819e83846e71a92c20222f6cabc"))])
+      (:commit . "f175bcf780d937fd93d80eb7113d825de7eb7a9d"))])
  (doc-toc
   . [(1 2 0 20230409 212954) ((emacs (26 1)))
      "Manage outlines/table of contents of pdf and djvu documents" tar
@@ -2360,13 +2360,13 @@
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
       (:commit . "3a2a32181f7a5bd7b633e40d89de771a5dd88cc7"))])
  (org
-  . [(9 8 -1 0 20260125 153839) ((emacs (26 1)))
+  . [(9 8 -1 0 20260131 144018) ((emacs (26 1)))
      "Outline-based notes management and organizer" tar
      ((:url . "https://orgmode.org")
       (:keywords "outlines" "hypermedia" "calendar" "text")
       (:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-      (:commit . "707eaf6c24d7e91df1a2419a87269b4ba0a30f22"))])
+      (:commit . "0efcbc617cd8e7a284fada9eaf03716d1d4c2f51"))])
  (org-contacts
   . [(1 3 0 20260127 150958) ((emacs (29 1)) (org (9 7)))
      "Contacts management system for Org mode" tar
