@@ -5779,7 +5779,7 @@
 	 (:commit . "28b3ff88673d73a4a907a47c22e82864a5c7a031")
 	 (:revdesc . "28b3ff88673d"))])
  (borg .
-       [(0 1 0 1 -4 20260114 1146)
+       [(0 1 0 1 -4 20260201 1505)
 	((emacs
 	  (28 1))
 	 (epkg
@@ -5788,8 +5788,8 @@
 	  (4 5)))
 	"Assimilate Emacs packages as Git submodules" tar
 	((:url . "https://github.com/emacscollective/borg")
-	 (:commit . "9482e00eb06dfbc599eac58bb73ec53700793b3e")
-	 (:revdesc . "9482e00eb06d")
+	 (:commit . "99933c616380fdcdf3732644d7d69b7c5d54d4bf")
+	 (:revdesc . "99933c616380")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.borg@jonas.bernoulli.dev"))
@@ -11528,13 +11528,13 @@
 		("SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))
 	       (:maintainer "SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))])
  (cond-let .
-	   [(0 1 0 1 -4 20260129 1809)
+	   [(0 1 0 1 -4 20260201 1500)
 	    ((emacs
 	      (28 1)))
 	    "Additional and improved binding conditionals" tar
 	    ((:url . "https://github.com/tarsius/cond-let")
-	     (:commit . "538a4162cc5b39cee2e0f85609ffc1f1716cdf8d")
-	     (:revdesc . "538a4162cc5b")
+	     (:commit . "8bf87d45e169ebc091103b2aae325aece3aa804d")
+	     (:revdesc . "8bf87d45e169")
 	     (:keywords "extensions"))])
  (conda .
 	[(0 1 0 1 -4 20251201 2104)
@@ -17774,6 +17774,20 @@
 	     (:maintainers
 	      ("Ben Gamari" . "ben@smart-cactus.org"))
 	     (:maintainer "Ben Gamari" . "ben@smart-cactus.org"))])
+ (duckdb-query .
+	       [(0 1 0 1 -4 20260127 349)
+		((emacs
+		  (28 1)))
+		"DuckDB query results as native Elisp data structures" tar
+		((:url . "https://github.com/gggion/duckdb-query.el")
+		 (:commit . "d46801ade295130ce942364f611da68f8fd39040")
+		 (:revdesc . "d46801ade295")
+		 (:keywords "data" "sql")
+		 (:authors
+		  ("Gino Cornejo" . "gggion123@gmail.com"))
+		 (:maintainers
+		  ("Gino Cornejo" . "gggion123@gmail.com"))
+		 (:maintainer "Gino Cornejo" . "gggion123@gmail.com"))])
  (ducpel .
 	 [(0 1 1 -4 20140702 1154)
 	  ((cl-lib
@@ -19657,6 +19671,22 @@
 	   (:commit . "5ec0f75a308ab8ae1f29bbb3c18b63514fc83c20")
 	   (:revdesc . "5ec0f75a308a")
 	   (:keywords "convenience" "lisp" "xml"))])
+ (eldc .
+       [(0 1 0 1 -4 20260130 1628)
+	((emacs
+	  (25 1))
+	 (deferred
+	   (0 5 1)))
+	"Emacs Lisp Dictionary Converter" tar
+	((:url . "https://github.com/gicrisf/eldc")
+	 (:commit . "acd9971c491331b9824be96b6190497b6ca5ed53")
+	 (:revdesc . "acd9971c4913")
+	 (:keywords "tools" "data" "conversion" "yaml" "json")
+	 (:authors
+	  ("Giovanni Crisalfi" . "giovanni.crisalfi@protonmail.com"))
+	 (:maintainers
+	  ("Giovanni Crisalfi" . "giovanni.crisalfi@protonmail.com"))
+	 (:maintainer "Giovanni Crisalfi" . "giovanni.crisalfi@protonmail.com"))])
  (eldev .
 	[(0 1 0 1 -4 20250314 2105)
 	 ((emacs
@@ -20387,7 +20417,7 @@
 	   ("Peter Badida" . "keyweeusr@gmail.com"))
 	  (:maintainer "Peter Badida" . "keyweeusr@gmail.com"))])
  (ellama .
-	 [(0 1 0 1 -4 20260129 2350)
+	 [(0 1 0 1 -4 20260201 1628)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -20402,8 +20432,8 @@
 	    (1 2 3)))
 	  "Tool for interacting with LLMs" tar
 	  ((:url . "http://github.com/s-kostyaev/ellama")
-	   (:commit . "f0f4589c72fa2ff01e6bde3bf3c93408a3af9d3f")
-	   (:revdesc . "f0f4589c72fa")
+	   (:commit . "d50e672bf97951dc4dec387d239d7d47e77c085c")
+	   (:revdesc . "d50e672bf979")
 	   (:keywords "help" "local" "tools")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
