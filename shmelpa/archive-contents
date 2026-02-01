@@ -884,13 +884,13 @@
 	       (:commit . "ae8788b5851ea353fbb80ab586a3bbd5dc8e91aa")
 	       (:revdesc . "ae8788b5851e"))])
  (acp .
-      [(0 1 0 1 -4 20260118 1815)
+      [(0 1 0 1 -4 20260201 1911)
        ((emacs
 	 (28 1)))
        "An ACP (Agent Client Protocol) implementation" tar
        ((:url . "https://github.com/xenodium/acp.el")
-	(:commit . "9ab9b8f25cd7f42955171d471da5c3d016d1ef5a")
-	(:revdesc . "9ab9b8f25cd7"))])
+	(:commit . "771e01e8605c7ce1b9618ba503a8f4139cbb4f95")
+	(:revdesc . "771e01e8605c"))])
  (act-mode .
 	   [(1 0 1 -4 20240718 39)
 	    ((emacs
@@ -1199,17 +1199,17 @@
 	    ("Tomasz Maciosowski" . "t4ccer@gmail.com"))
 	   (:maintainer "Tomasz Maciosowski" . "t4ccer@gmail.com"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260201 1213)
+	      [(0 1 0 1 -4 20260201 2049)
 	       ((emacs
 		 (29 1))
 		(shell-maker
 		 (0 84 9))
 		(acp
-		 (0 8 3)))
+		 (0 9 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "204c69c04fa9a00cecb79d406d47848e8cbb89b4")
-		(:revdesc . "204c69c04fa9"))])
+		(:commit . "2e0ecf5e7abd13aaff3f0dde20249da35445e065")
+		(:revdesc . "2e0ecf5e7abd"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -1301,7 +1301,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260201 600)
+	  [(0 1 0 1 -4 20260201 1857)
 	   ((emacs
 	     (28 1))
 	    (transient
@@ -1310,8 +1310,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding CLI such as Claude Code, Codex CLI, Gemini CLI, Copilot CLI, Opencode, Grok CLI, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "e87e37527d1da12afc1b6b231e5db5cd2e94c2f0")
-	    (:revdesc . "e87e37527d1d")
+	    (:commit . "da92457bd6fe3c9ef408567d86ab3ca020677a55")
+	    (:revdesc . "da92457bd6fe")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -15315,6 +15315,20 @@
 	       (:maintainers
 		("Sibi Prabakaran" . "sibi@psibi.in"))
 	       (:maintainer "Sibi Prabakaran" . "sibi@psibi.in"))])
+ (dialog-mode .
+	      [(0 1 0 1 -4 20260201 2054)
+	       ((emacs
+		 (28 1)))
+	       "Major mode for editing Dialog files" tar
+	       ((:url . "https://git.sr.ht/~mew/dialog-mode")
+		(:commit . "d249e47072b0ffbe9aa731fa6abad6be35dd93b9")
+		(:revdesc . "d249e47072b0")
+		(:keywords "languages")
+		(:authors
+		 ("Morgan Willcock" . "morgan@ice9.digital"))
+		(:maintainers
+		 ("Morgan Willcock" . "morgan@ice9.digital"))
+		(:maintainer "Morgan Willcock" . "morgan@ice9.digital"))])
  (dianyou .
 	  [(0 0 2 1 -4 20210525 1517)
 	   ((emacs
