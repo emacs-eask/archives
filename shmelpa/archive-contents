@@ -35394,15 +35394,15 @@
 		  ("Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com"))
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com"))])
  (helm-core .
-	    [(0 1 0 1 -4 20260104 1441)
+	    [(0 1 0 1 -4 20260201 507)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 9)))
 	     "Development files for Helm" tar
 	     ((:url . "https://emacs-helm.github.io/helm/")
-	      (:commit . "cbbaff3c5a76b3ab91ba297844acce11980f55fd")
-	      (:revdesc . "cbbaff3c5a76")
+	      (:commit . "dcaa8fb45d4f7d08390d80351a4204f848f2ec90")
+	      (:revdesc . "dcaa8fb45d4f")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainers
@@ -44986,6 +44986,20 @@
 		       (:maintainers
 			("Thomas Letan" . "lthms@soap.coffee"))
 		       (:maintainer "Thomas Letan" . "lthms@soap.coffee"))])
+ (lazy .
+       [(0 1 0 1 -4 20260128 1547)
+	((emacs
+	  (25)))
+	"Lazy evaluation library" tar
+	((:url . "https://github.com/conao3/lazy.el")
+	 (:commit . "c9c70fb7f157148e9d08462e93240ada73e365ae")
+	 (:revdesc . "c9c70fb7f157")
+	 (:keywords "lisp" "lazy")
+	 (:authors
+	  ("chuntaro" . "chuntaro@sakura-games.jp"))
+	 (:maintainers
+	  ("conao3" . "conao3@gmail.com"))
+	 (:maintainer "conao3" . "conao3@gmail.com"))])
  (lazy-ruff .
 	    [(0 1 0 1 -4 20241127 1434)
 	     ((emacs
@@ -47091,7 +47105,7 @@
 		("Evgeny Kurnevsky" . "kurnevsky@gmail.com"))
 	       (:maintainer "Ross A. Baker" . "ross@rossabaker.com"))])
  (lsp-mode .
-	   [(0 1 0 1 -4 20260130 1045)
+	   [(0 1 0 1 -4 20260201 1827)
 	    ((emacs
 	      (28 1))
 	     (dash
@@ -47110,8 +47124,8 @@
 	      (1 11)))
 	    "LSP mode" tar
 	    ((:url . "https://github.com/emacs-lsp/lsp-mode")
-	     (:commit . "10aaf8236e800b0b82870c452283853ed39585e1")
-	     (:revdesc . "10aaf8236e80")
+	     (:commit . "966bdd01f2a818cd4c4854e2ff04b1323dff5138")
+	     (:revdesc . "966bdd01f2a8")
 	     (:keywords "languages"))])
  (lsp-mssql .
 	    [(0 1 0 1 -4 20251117 1444)
@@ -47907,7 +47921,7 @@
 		    ("Yann Hodique" . "yann.hodique@gmail.com"))
 		   (:maintainer "Yann Hodique" . "yann.hodique@gmail.com"))])
  (magit-git-toolbelt .
-		     [(0 1 0 1 -4 20260131 523)
+		     [(0 1 0 1 -4 20260201 1921)
 		      ((emacs
 			(26 1))
 		       (magit
@@ -47916,8 +47930,8 @@
 			(0 3 0)))
 		      "A Magit interface for git-toolbelt" tar
 		      ((:url . "https://github.com/jonathanchu/magit-git-toolbelt")
-		       (:commit . "1e6368e3135d15595d8c840f15ee4e467791480b")
-		       (:revdesc . "1e6368e3135d")
+		       (:commit . "b629fdede79e7818ea5ca9c48e00989c015116ea")
+		       (:revdesc . "b629fdede79e")
 		       (:keywords "git" "tools" "vc")
 		       (:authors
 			("Jonathan Chu" . "me@jonathanchu.is"))
@@ -48090,6 +48104,19 @@
 		(:maintainers
 		 ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		(:maintainer "Jonas Bernoulli" . "jonas@bernoul.li"))])
+ (magit-pre-commit .
+		   [(0 1 0 1 -4 20260125 2259)
+		    ((emacs
+		      (29 1))
+		     (magit
+		      (3 0 0))
+		     (yaml
+		      (0 5 0)))
+		    "Magit integration for pre-commit" tar
+		    ((:url . "https://github.com/DamianB-BitFlipper/magit-pre-commit.el")
+		     (:commit . "1b4056fc72c64b12aa2ac799d69a100aec253e39")
+		     (:revdesc . "1b4056fc72c6")
+		     (:keywords "git" "tools" "vc"))])
  (magit-prime .
 	      [(0 1 0 1 -4 20250803 1914)
 	       ((emacs
@@ -55516,13 +55543,13 @@
 	      ("Paul W. Rankin" . "rnkn@rnkn.xyz"))
 	     (:maintainer "Paul W. Rankin" . "rnkn@rnkn.xyz"))])
  (ollama-buddy .
-	       [(0 1 0 1 -4 20260201 57)
+	       [(0 1 0 1 -4 20260201 1908)
 		((emacs
 		  (28 1)))
 		"Ollama LLM AI Assistant ChatGPT Claude Gemini Grok Codestral Support" tar
 		((:url . "https://github.com/captainflasmr/ollama-buddy")
-		 (:commit . "adfc3a5eba10c41445ec0815ad05d852e687418b")
-		 (:revdesc . "adfc3a5eba10")
+		 (:commit . "0ae373d120be6934ff1d173efc500de1187f39f4")
+		 (:revdesc . "0ae373d120be")
 		 (:keywords "applications" "tools" "convenience")
 		 (:authors
 		  ("James Dyer" . "captainflasmr@gmail.com"))
@@ -63191,7 +63218,7 @@
 	     ("Eric Hansen" . "hansen.c.eric@gmail.com"))
 	    (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
  (pi-coding-agent .
-		  [(0 1 0 1 -4 20260130 1742)
+		  [(0 1 0 1 -4 20260201 1953)
 		   ((emacs
 		     (28 1))
 		    (markdown-mode
@@ -63200,8 +63227,8 @@
 		     (0 3 7)))
 		   "Emacs frontend for pi coding agent" tar
 		   ((:url . "https://github.com/dnouri/pi-coding-agent")
-		    (:commit . "6253b0471e1f3c033b0263ece1492a4eaffafbe7")
-		    (:revdesc . "6253b0471e1f")
+		    (:commit . "b0c12124d2dd47607b4b51f5af4a470340d141d4")
+		    (:revdesc . "b0c12124d2dd")
 		    (:keywords "ai" "llm" "ai-pair-programming" "tools")
 		    (:authors
 		     ("Daniel Nouri" . "daniel.nouri@gmail.com"))
