@@ -37821,13 +37821,13 @@
 			      ("Adam Porter" . "adam@alphapapa.net"))
 			     (:maintainer "Adam Porter" . "adam@alphapapa.net"))])
  (highlight-indent-guides .
-			  [(0 1 0 1 -4 20260202 717)
+			  [(0 1 0 1 -4 20260202 730)
 			   ((emacs
 			     (26 1)))
 			   "Minor mode to highlight indentation" tar
 			   ((:url . "https://github.com/DarthFennec/highlight-indent-guides")
-			    (:commit . "7a744c74971259eb6e78b4fde827729672e3438b")
-			    (:revdesc . "7a744c749712")
+			    (:commit . "b27669babba38985f3d4851fc697625bda6bbac1")
+			    (:revdesc . "b27669babba3")
 			    (:keywords "convenience")
 			    (:authors
 			     ("DarthFennec" . "darthfennec@derpymail.org"))
@@ -42205,15 +42205,15 @@
 		(:commit . "03e5430a7efe1d163a16beaf3c82c5fd2c2caee1")
 		(:revdesc . "03e5430a7efe"))])
  (jinx .
-       [(0 1 0 1 -4 20260117 1650)
+       [(0 1 0 1 -4 20260202 929)
 	((emacs
 	  (29 1))
 	 (compat
 	  (30)))
 	"Enchanted Spell Checker" tar
 	((:url . "https://github.com/minad/jinx")
-	 (:commit . "b412673dec759131fe0abb346998b55225fbe771")
-	 (:revdesc . "b412673dec75")
+	 (:commit . "d3cf4d16dd9d7e6832bd538d2bab41f1210a6c16")
+	 (:revdesc . "d3cf4d16dd9d")
 	 (:keywords "convenience" "text")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -49752,7 +49752,7 @@
 		    ("Mohammed Ismail Ansari" . "team.terminal@gmail.com"))
 		   (:maintainer "Mohammed Ismail Ansari" . "team.terminal@gmail.com"))])
  (metal-archives .
-		 [(0 1 0 1 -4 20260101 1230)
+		 [(0 1 0 1 -4 20260202 1028)
 		  ((emacs
 		    (26 3))
 		   (alert
@@ -49763,8 +49763,8 @@
 		    (0 2 2)))
 		  "List future releases using Metal-Archives API" tar
 		  ((:url . "https://github.com/seblemaguer/metal-archives.el")
-		   (:commit . "da7c1efcc3d4859019de8fa030899fe191e33608")
-		   (:revdesc . "da7c1efcc3d4")
+		   (:commit . "eb1c4d84f04f4afc7a1c2a0f3c4f816f16fa85e6")
+		   (:revdesc . "eb1c4d84f04f")
 		   (:keywords "lisp" "calendar")
 		   (:authors
 		    ("Sébastien Le Maguer" . "lemagues@tcd.ie"))
@@ -49772,7 +49772,7 @@
 		    ("Sébastien Le Maguer" . "lemagues@tcd.ie"))
 		   (:maintainer "Sébastien Le Maguer" . "lemagues@tcd.ie"))])
  (metal-archives-shopping-list .
-			       [(0 1 0 1 -4 20251204 1858)
+			       [(0 1 0 1 -4 20260202 1028)
 				((emacs
 				  (26 3))
 				 (org-ml
@@ -49785,8 +49785,8 @@
 				  (0 3)))
 				"Add shopping list generation support to metal-archives" tar
 				((:url . "https://github.com/seblemaguer/metal-archives.el")
-				 (:commit . "b4924354481b853a6fee58b2817a6b0a3e1674b7")
-				 (:revdesc . "b4924354481b")
+				 (:commit . "eb1c4d84f04f4afc7a1c2a0f3c4f816f16fa85e6")
+				 (:revdesc . "eb1c4d84f04f")
 				 (:keywords "org" "calendar")
 				 (:authors
 				  ("Sébastien Le Maguer" . "lemagues@tcd.ie"))
@@ -55557,13 +55557,13 @@
 	      ("Paul W. Rankin" . "rnkn@rnkn.xyz"))
 	     (:maintainer "Paul W. Rankin" . "rnkn@rnkn.xyz"))])
  (ollama-buddy .
-	       [(0 1 0 1 -4 20260201 2304)
+	       [(0 1 0 1 -4 20260202 1003)
 		((emacs
 		  (28 1)))
 		"Ollama LLM AI Assistant ChatGPT Claude Gemini Grok Codestral Support" tar
 		((:url . "https://github.com/captainflasmr/ollama-buddy")
-		 (:commit . "ccd5f1f52197d5a2210826211e4accb3188c2c78")
-		 (:revdesc . "ccd5f1f52197")
+		 (:commit . "2a6e918ccfdf86065daa26d810ed569b52ce0c73")
+		 (:revdesc . "2a6e918ccfdf")
 		 (:keywords "applications" "tools" "convenience")
 		 (:authors
 		  ("James Dyer" . "captainflasmr@gmail.com"))
@@ -62719,15 +62719,17 @@
 			("Fanael Linithien" . "fanael4@gmail.com"))
 		       (:maintainer "Fanael Linithien" . "fanael4@gmail.com"))])
  (persistent-soft .
-		  [(0 1 0 1 -4 20250805 1017)
-		   ((pcache
+		  [(0 1 0 1 -4 20260202 1154)
+		   ((cl-lib
+		     (0 7 1))
+		    (pcache
 		     (0 3 1))
 		    (list-utils
 		     (0 4 2)))
 		   "Persistent storage, returning nil on failure" tar
 		   ((:url . "http://github.com/rolandwalker/persistent-soft")
-		    (:commit . "24e41d1952bef5953ef0af2288de146265c7ee10")
-		    (:revdesc . "24e41d1952be")
+		    (:commit . "c94b34332529df573bad8a97f70f5a35d5da7333")
+		    (:revdesc . "c94b34332529")
 		    (:keywords "data" "extensions")
 		    (:authors
 		     ("Roland Walker" . "walker@pobox.com"))
@@ -63248,7 +63250,7 @@
 	     ("Eric Hansen" . "hansen.c.eric@gmail.com"))
 	    (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
  (pi-coding-agent .
-		  [(0 1 0 1 -4 20260201 2027)
+		  [(0 1 0 1 -4 20260202 1155)
 		   ((emacs
 		     (28 1))
 		    (markdown-mode
@@ -63257,8 +63259,8 @@
 		     (0 3 7)))
 		   "Emacs frontend for pi coding agent" tar
 		   ((:url . "https://github.com/dnouri/pi-coding-agent")
-		    (:commit . "6edfa96107d546484b69b294c771fc32ec271d04")
-		    (:revdesc . "6edfa96107d5")
+		    (:commit . "781090df1dd13ce66295079a5463295066f05964")
+		    (:revdesc . "781090df1dd1")
 		    (:keywords "ai" "llm" "ai-pair-programming" "tools")
 		    (:authors
 		     ("Daniel Nouri" . "daniel.nouri@gmail.com"))
@@ -77051,7 +77053,7 @@
 	  ("Mark T. Kennedy" . "mtk@acm.org"))
 	 (:maintainer "Mark T. Kennedy" . "mtk@acm.org"))])
  (telega .
-	 [(0 1 0 1 -4 20260129 2143)
+	 [(0 1 0 1 -4 20260202 1012)
 	  ((emacs
 	    (27 1))
 	   (visual-fill-column
@@ -77060,8 +77062,8 @@
 	    (0 9 0)))
 	  "Telegram client (unofficial)" tar
 	  ((:url . "https://github.com/zevlg/telega.el")
-	   (:commit . "f101ff2e4f5c02bd4718a89b30ed3c9470c9d295")
-	   (:revdesc . "f101ff2e4f5c")
+	   (:commit . "805819bf81dffe2922e9e06ae02d58429d03aa1a")
+	   (:revdesc . "805819bf81df")
 	   (:keywords "comm")
 	   (:authors
 	    ("Zajcev Evgeny" . "zevlg@yandex.ru"))
@@ -80088,7 +80090,7 @@
 	   ("DEADBLACKCLOVER" . "deadblackclover@protonmail.com"))
 	  (:maintainer "DEADBLACKCLOVER" . "deadblackclover@protonmail.com"))])
  (txl .
-      [(0 1 0 1 -4 20260104 1659)
+      [(0 1 0 1 -4 20260202 1114)
        ((request
 	 (0 3 2))
 	(guess-language
@@ -80097,8 +80099,8 @@
 	 (24 4)))
        "Provides machine translation via DeepL's REST API" tar
        ((:url . "https://github.com/tmalsburg/txl.el")
-	(:commit . "e368746afba6d8ec170f479d06a10c4e2a9e2eee")
-	(:revdesc . "e368746afba6")
+	(:commit . "87fcd5f65cd572dd992abcbbff1b1f5990d8de7e")
+	(:revdesc . "87fcd5f65cd5")
 	(:keywords "wp")
 	(:authors
 	 ("Titus von der Malsburg" . "malsburg@posteo.de"))
@@ -80608,7 +80610,7 @@
 		    ("KOBAYASHI Shigeru" . "shigeru.kb@gmail.com"))
 		   (:maintainer "KOBAYASHI Shigeru" . "shigeru.kb@gmail.com"))])
  (unicode-fonts .
-		[(0 4 10 1 -4 20230926 1502)
+		[(0 1 0 1 -4 20260202 1156)
 		 ((font-utils
 		   (0 7 8))
 		  (ucs-utils
@@ -80621,8 +80623,8 @@
 		   (0 3 1)))
 		 "Configure Unicode fonts" tar
 		 ((:url . "http://github.com/rolandwalker/unicode-fonts")
-		  (:commit . "6245b97d8ddaeaf1de4dbe2cd85ca0f3b20ef81b")
-		  (:revdesc . "6245b97d8dda")
+		  (:commit . "d4a0648a2206d9a896433817110957b3b9e1c17a")
+		  (:revdesc . "d4a0648a2206")
 		  (:keywords "i18n" "faces" "frames" "wp" "interface")
 		  (:authors
 		   ("Roland Walker" . "walker@pobox.com"))
