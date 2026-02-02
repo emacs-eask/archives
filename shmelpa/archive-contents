@@ -45056,15 +45056,15 @@
 	 ("Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com"))
 	(:maintainer "Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com"))])
  (le-gpt .
-	 [(0 1 0 1 -4 20251203 1304)
+	 [(0 1 0 1 -4 20260201 2209)
 	  ((emacs
 	    (28 1))
 	   (markdown-mode
 	    (2 6)))
 	  "Emacs on steroids with GPT" tar
 	  ((:url . "https://github.com/AnselmC/le-gpt.el")
-	   (:commit . "a05675c3855fe9a5fd3e4a14b9737df22fcfddbe")
-	   (:revdesc . "a05675c3855f")
+	   (:commit . "5524d16478ab020d6795dacbabd82e9cebfa06fd")
+	   (:revdesc . "5524d16478ab")
 	   (:keywords "openai" "anthropic" "deepseek" "gpt" "claude" "language" "copilot" "convenience" "tools" "llm")
 	   (:authors
 	    ("Andreas Stuhlmueller" . "andreas@ought.org"))
@@ -45652,13 +45652,13 @@
 		       ("Jen-Chieh" . "jcs090218@gmail.com"))
 		      (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (lichess .
-	  [(0 1 0 1 -4 20260131 1116)
+	  [(0 1 0 1 -4 20260201 2117)
 	   ((emacs
 	     (27 1)))
 	   "Client for Lichess.org" tar
 	   ((:url . "https://github.com/tmythicator/Lichess.el")
-	    (:commit . "b714bf72d7acc1baf59e929b6d3f2a13243754ac")
-	    (:revdesc . "b714bf72d7ac")
+	    (:commit . "537fb54ff4eaf0f932a78d951695e20d696d59f3")
+	    (:revdesc . "537fb54ff4ea")
 	    (:keywords "games" "chess" "lichess" "api")
 	    (:authors
 	     ("Alexandr Timchenko" . "atimchenko92@gmail.com"))
@@ -55557,13 +55557,13 @@
 	      ("Paul W. Rankin" . "rnkn@rnkn.xyz"))
 	     (:maintainer "Paul W. Rankin" . "rnkn@rnkn.xyz"))])
  (ollama-buddy .
-	       [(0 1 0 1 -4 20260201 1908)
+	       [(0 1 0 1 -4 20260201 2304)
 		((emacs
 		  (28 1)))
 		"Ollama LLM AI Assistant ChatGPT Claude Gemini Grok Codestral Support" tar
 		((:url . "https://github.com/captainflasmr/ollama-buddy")
-		 (:commit . "0ae373d120be6934ff1d173efc500de1187f39f4")
-		 (:revdesc . "0ae373d120be")
+		 (:commit . "ccd5f1f52197d5a2210826211e4accb3188c2c78")
+		 (:revdesc . "ccd5f1f52197")
 		 (:keywords "applications" "tools" "convenience")
 		 (:authors
 		  ("James Dyer" . "captainflasmr@gmail.com"))
@@ -58661,7 +58661,7 @@
 		     ("Leo Vivier" . "leo.vivier+dev@gmail.com"))
 		    (:maintainer "Mykhailo Shevchuk" . "mail@mshevchuk.com"))])
  (org-roam-latte .
-		 [(0 1 0 1 -4 20260131 1923)
+		 [(0 1 0 1 -4 20260201 2212)
 		  ((emacs
 		    (27 1))
 		   (org-roam
@@ -58670,8 +58670,8 @@
 		    (1 1)))
 		  "Auto-highlight unlinked Org-roam references" tar
 		  ((:url . "https://github.com/yad-tahir/org-roam-latte")
-		   (:commit . "d93c09be6367b010618b73af8dae5113a9c4eecb")
-		   (:revdesc . "d93c09be6367")
+		   (:commit . "619f4d95fdddce85cf96874c5961edf8dd5abc25")
+		   (:revdesc . "619f4d95fddd")
 		   (:keywords "hypermedia" "outlines" "org-roam" "convenience")
 		   (:authors
 		    ("Yad Tahir" . "yadatieee.org"))
@@ -59643,6 +59643,22 @@
 		      (:maintainers
 		       ("Artem Khramov" . "akhramov+emacs@pm.me"))
 		      (:maintainer "Artem Khramov" . "akhramov+emacs@pm.me"))])
+ (org-window-habit .
+		   [(0 1 0 1 -4 20260201 2020)
+		    ((emacs
+		      (29 1))
+		     (dash
+		      (2 10 0)))
+		    "Time window based habits" tar
+		    ((:url . "https://github.com/colonelpanic8/org-window-habit")
+		     (:commit . "6e83615bb5b3d523c33ac9161175b17d2ea6836d")
+		     (:revdesc . "6e83615bb5b3")
+		     (:keywords "calendar" "org-mode" "habit" "interval" "window")
+		     (:authors
+		      ("Ivan Malison" . "IvanMalison@gmail.com"))
+		     (:maintainers
+		      ("Ivan Malison" . "IvanMalison@gmail.com"))
+		     (:maintainer "Ivan Malison" . "IvanMalison@gmail.com"))])
  (org-working-set .
 		  [(0 1 0 1 -4 20250620 1501)
 		   ((org
@@ -60041,13 +60057,13 @@
 	     (:revdesc . "67f4f6171675")
 	     (:keywords "lisp" "org" "org-mode" "bootstrap"))])
  (orgtbl-aggregate .
-		   [(0 1 0 1 -4 20260128 1500)
+		   [(0 1 0 1 -4 20260201 2048)
 		    ((emacs
 		      (26 1)))
 		    "Aggregate an Org Mode table | + | + | into another table" tar
 		    ((:url . "https://github.com/tbanel/orgaggregate/blob/master/README.org")
-		     (:commit . "bf1d52be6216c9079805f8889544ac256529d5e8")
-		     (:revdesc . "bf1d52be6216")
+		     (:commit . "f44545ae7364ed9c63da57f9d10e183be45005cd")
+		     (:revdesc . "f44545ae7364")
 		     (:keywords "data" "extensions"))])
  (orgtbl-ascii-plot .
 		    [(0 1 0 1 -4 20260126 1121)
@@ -60066,13 +60082,13 @@
 	       (:revdesc . "987e1a8de9de")
 	       (:keywords "data" "extensions"))])
  (orgtbl-join .
-	      [(0 1 0 1 -4 20260109 917)
+	      [(0 1 0 1 -4 20260201 2106)
 	       ((emacs
 		 (24 3)))
 	       "Join columns from other Org Mode tables" tar
 	       ((:url . "https://github.com/tbanel/orgtbljoin/blob/master/README.org")
-		(:commit . "66d02c1d197a9506f8df7a7e35f760bdbbcddb3b")
-		(:revdesc . "66d02c1d197a")
+		(:commit . "0dc5719fbc861350d09b5e1556612dccccd7b006")
+		(:revdesc . "0dc5719fbc86")
 		(:keywords "data" "extensions"))])
  (orgtbl-show-header .
 		     [(0 1 1 -4 20230903 903)
@@ -63232,7 +63248,7 @@
 	     ("Eric Hansen" . "hansen.c.eric@gmail.com"))
 	    (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
  (pi-coding-agent .
-		  [(0 1 0 1 -4 20260201 1953)
+		  [(0 1 0 1 -4 20260201 2027)
 		   ((emacs
 		     (28 1))
 		    (markdown-mode
@@ -63241,8 +63257,8 @@
 		     (0 3 7)))
 		   "Emacs frontend for pi coding agent" tar
 		   ((:url . "https://github.com/dnouri/pi-coding-agent")
-		    (:commit . "b0c12124d2dd47607b4b51f5af4a470340d141d4")
-		    (:revdesc . "b0c12124d2dd")
+		    (:commit . "6edfa96107d546484b69b294c771fc32ec271d04")
+		    (:revdesc . "6edfa96107d5")
 		    (:keywords "ai" "llm" "ai-pair-programming" "tools")
 		    (:authors
 		     ("Daniel Nouri" . "daniel.nouri@gmail.com"))
@@ -77604,7 +77620,7 @@
 		    ("Nikolaj Schumacher" . "bugs*nschumde"))
 		   (:maintainer "Nikolaj Schumacher" . "bugs*nschumde"))])
  (test-cockpit .
-	       [(0 1 0 1 -4 20260201 1430)
+	       [(0 1 0 1 -4 20260201 2116)
 		((emacs
 		  (28 1))
 		 (projectile
@@ -77613,8 +77629,8 @@
 		  (0 2 0)))
 		"A command center to run tests of a software project" tar
 		((:url . "https://github.com/johannes-mueller/test-cockpit.el")
-		 (:commit . "950665e6d6b3a1b0bb8ab0cb74989195a797c9f5")
-		 (:revdesc . "950665e6d6b3")
+		 (:commit . "6c9ab433ad526d38b75b11c61275331e6cbf2703")
+		 (:revdesc . "6c9ab433ad52")
 		 (:authors
 		  ("Johannes Mueller" . "github@johannes-mueller.org"))
 		 (:maintainers
