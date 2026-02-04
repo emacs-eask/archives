@@ -266,12 +266,12 @@
       (:authors ("Artur Malabarba" . "emacs@endlessparentheses.com"))
       (:commit . "85261a928ae0ec3b41e639f05291ffd6bf7c231c"))])
  (beframe
-  . [(1 4 0 0 20260131 154937) ((emacs (28 1)))
+  . [(1 5 0 0 20260204 145843) ((emacs (28 1)))
      "Isolate buffers per frame" tar
      ((:url . "https://github.com/protesilaos/beframe")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "9dd30c8e361fc103a688fbc45e9cb9fc9a8bec09"))])
+      (:commit . "68260beb5d60600a75d6e5b54eb1e5e9cf8c6eac"))])
  (bicep-ts-mode
   . [(0 1 4 0 20251121 60244) nil "tree-sitter support for Bicep" tar
      ((:url . "https://github.com/josteink/bicep-ts-mode")
@@ -704,11 +704,11 @@
       (:url . "https://elpa.gnu.org/packages/cycle-quotes.html")
       (:commit . "c1ef993f8c66fec71b10d70eb7a2cd0c416aaa12"))])
  (dape
-  . [(0 26 0 0 20260202 203324) ((emacs (29 1)) (jsonrpc (1 0 25)))
+  . [(0 26 0 0 20260204 173332) ((emacs (29 1)) (jsonrpc (1 0 25)))
      "Debug Adapter Protocol for Emacs" tar
      ((:url . "https://github.com/svaante/dape")
       (:maintainer "Daniel Pettersson" . "daniel@dpettersson.net")
-      (:commit . "51493a00806fe43989b87cd34de2715d523aadb8"))])
+      (:commit . "995bd712eef01e9303bc2e3262ff7f20a401a9ed"))])
  (darkroom
   . [(0 3 0 20200507 173652) ((cl-lib (0 5)))
      "Remove visual distractions and focus on writing" tar
@@ -785,13 +785,13 @@
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
       (:commit . "3c95f59c1b9122e15b09f82d9db3902aace73acf"))])
  (denote-review
-  . [(1 0 4 0 20260126 81143) ((emacs (28 1)) (denote (4 1 3)))
+  . [(1 0 5 0 20260204 102753) ((emacs (28 1)) (denote (4 1 3)))
      "implements review process for denote notes" tar
      ((:url . "https://codeberg.org/mattof/denote-review")
       (:keywords "files")
       (:maintainer "Matto Fransen" . "matto@matto.nl")
       (:authors ("Matto Fransen" . "matto@matto.nl"))
-      (:commit . "9a4cf8a422e1bc915b2624a34ef39563709915fd"))])
+      (:commit . "1a93a32190e35731ba12e7ecde629e2971e870db"))])
  (denote-search
   . [(1 0 3 0 20250501 205109) ((emacs (29 1)) (denote (3 0)))
      "Search the contents of your notes" tar
@@ -1275,7 +1275,7 @@
       (:url . "https://elpa.gnu.org/packages/external-completion.html")
       (:commit . "17ddfd66e65c19f44dee41ee1b7ee1ce23ef3ed2"))])
  (exwm
-  . [(0 34 0 20260122 70657)
+  . [(0 34 0 20260204 122929)
      ((emacs (27 1)) (xelb (0 22)) (compat (30)))
      "Emacs X Window Manager" tar
      ((:url . "https://github.com/emacs-exwm/exwm") (:keywords "unix")
@@ -1284,7 +1284,7 @@
        ("Steven Allen" . "steven@stebalien.com")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Chris Feng" . "chris.w.feng@gmail.com"))
-      (:commit . "369b9126a94c801eb9ec3eddbc00da3236f53bc7"))])
+      (:commit . "3b861e2d030b1bf87e745decfca9b5f4f36179e0"))])
  (f90-interface-browser
   . [(1 1 0 20221221 75553) ((cl-lib (0 7)))
      "Parse and browse f90 interfaces" tar
@@ -1621,7 +1621,7 @@
       (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com"))
       (:commit . "84a9db01eff1fcc52ad054c5ad3c22316739573f"))])
  (hyperbole
-  . [(9 0 2 -1 0 20260202 234713) ((emacs (28)))
+  . [(9 0 2 -1 0 20260204 103836) ((emacs (28)))
      "GNU Hyperbole: The Everyday Hypertextual Information Manager"
      tar
      ((:url . "http://www.gnu.org/software/hyperbole")
@@ -1630,7 +1630,7 @@
 		 "outlines" "tools" "wp")
       (:maintainer "Robert Weiner" . "rsw@gnu.org")
       (:authors ("Robert Weiner" . "rsw@gnu.org"))
-      (:commit . "d41a0d9ef7babee384c19f299e9d06852f3be8ad"))])
+      (:commit . "72bee1bf0cf549828261047c921ef8af27393110"))])
  (idlwave
   . [(6 5 1 0 20240523 142720) nil "IDL editing mode for GNU Emacs"
      tar
@@ -2058,7 +2058,7 @@
       (:authors ("Ian Martins" . "ianxm@jhu.edu"))
       (:commit . "da128406fca3eeb66358d479082cd78f2fdeabb4"))])
  (matlab-mode
-  . [(8 0 2 0 20260201 144945) ((emacs (27 2)))
+  . [(8 0 3 0 20260204 141939) ((emacs (27 2)))
      "Major mode for MATLAB(R) dot-m files" tar
      ((:url . "https://github.com/mathworks/Emacs-MATLAB-Mode")
       (:keywords "matlab(r)")
@@ -2067,14 +2067,14 @@
 		   ("John Ciolfi" . "john.ciolfi.32@gmail.com"))
       (:authors ("Matt Wette" . "mwette@alumni.caltech.edu")
 		("Eric M. Ludlam" . "eludlam@mathworks.com"))
-      (:commit . "b5c985bab1a8eccaa21429aa73fc0d6b623be0c8"))])
+      (:commit . "eb664b938472b7d2369149ef66089eb8be4bfc0b"))])
  (mct
-  . [(1 1 0 0 20260110 55916) ((emacs (29 4)))
+  . [(1 1 0 0 20260204 175531) ((emacs (29 4)))
      "Minibuffer Confines Transcended" tar
      ((:url . "https://github.com/protesilaos/mct")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "28008c6ddab99ea11c4edf3c467ebdd35e0c38c2"))])
+      (:commit . "4d97eeec740402c47f819e11ef8feb2087c15d8c"))])
  (memory-usage
   . [(0 2 0 20201201 223908) nil
      "Analyze the memory usage of Emacs in various ways" tar
