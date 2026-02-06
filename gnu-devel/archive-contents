@@ -977,13 +977,13 @@
       (:url . "https://elpa.gnu.org/packages/docbook.html")
       (:commit . "9b7c2dbae38b523442f7c1155bc4e3db16a0c49f"))])
  (doric-themes
-  . [(0 6 0 0 20260205 202743) ((emacs (29 1)))
+  . [(0 6 0 0 20260206 205350) ((emacs (29 1)))
      "Highly legible minimalist themes with precise typography" tar
      ((:url . "https://github.com/protesilaos/doric-themes")
       (:keywords "faces" "theme" "accessibility")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "768074021fcf4509f0622ee3ef61cace70cf6d60"))])
+      (:commit . "6da0ad4303f4690d681ab9a3a3bceadb4f24a1f9"))])
  (drepl
   . [(0 4 0 20251012 81518) ((emacs (29 1)) (comint-mime (0 7)))
      "REPL protocol for the dumb terminal" tar
@@ -1143,11 +1143,11 @@
       (:authors ("Ihor Radchenko" . "yantar92@posteo.net"))
       (:commit . "05d669e123f411c9582f99a9a6182efa43d01a6b"))])
  (emacs-lisp-intro-nl
-  . [(0 0 20260205 204606) nil "ELisp intro manual in NL" tar
+  . [(0 0 20260206 173517) nil "ELisp intro manual in NL" tar
      ((:maintainer "Matto Fransen" . "matto@matto.nl")
       (:authors ("Matto Fransen" . "matto@matto.nl"))
       (:url . "https://elpa.gnu.org/packages/emacs-lisp-intro-nl.html")
-      (:commit . "b944be51e7336850c41cf1c8228e6fb851aa2f1a"))])
+      (:commit . "d2a31631182e7d3d4e201b1a951547cf3e3f8760"))])
  (embark
   . [(1 1 0 20251117 191148) ((emacs (28 1)) (compat (30)))
      "Conveniently act on minibuffer completions" tar
@@ -2366,13 +2366,13 @@
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
       (:commit . "3a2a32181f7a5bd7b633e40d89de771a5dd88cc7"))])
  (org
-  . [(9 8 -1 0 20260202 203407) ((emacs (26 1)))
+  . [(9 8 -1 0 20260206 193401) ((emacs (26 1)))
      "Outline-based notes management and organizer" tar
      ((:url . "https://orgmode.org")
       (:keywords "outlines" "hypermedia" "calendar" "text")
       (:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-      (:commit . "54aaaa06eec2485b620a83c323890214d70481f2"))])
+      (:commit . "f7d8c42091e19c9f5ac08f4dcd3bb373efb0d4a3"))])
  (org-contacts
   . [(1 3 0 20260127 150958) ((emacs (29 1)) (org (9 7)))
      "Contacts management system for Org mode" tar
@@ -2614,6 +2614,12 @@
       (:maintainer "Augusto Stoffel" . "arstoffel@gmail.com")
       (:authors ("Augusto Stoffel" . "arstoffel@gmail.com"))
       (:commit . "c55e6aa2971caad582df1d449e0f57604250cae1"))])
+ (po-mode
+  . [(2 32 0 20260127 50952) ((emacs (23)))
+     "major mode for GNU gettext PO files" tar
+     ((:keywords "i18n" "gettext")
+      (:url . "https://elpa.gnu.org/packages/po-mode.html")
+      (:commit . "24d793df3cffd2fa7636be6f00c2f283577655d4"))])
  (poke
   . [(3 2 0 20230517 100500) ((emacs (25))) "Emacs meets GNU poke!"
      tar
