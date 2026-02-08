@@ -546,11 +546,11 @@
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:commit . "38df650dce9f862c6b523de5b683573df590ab85"))])
  (cond-star
-  . [(1 0 0 20260101 125434) ((emacs (24 3)))
+  . [(1 0 0 20260208 152837) ((emacs (24 3)))
      "Extended form of `cond' construct" tar
      ((:maintainer "Richard Stallman" . "rms@gnu.org")
       (:url . "https://elpa.gnu.org/packages/cond-star.html")
-      (:commit . "17ddfd66e65c19f44dee41ee1b7ee1ce23ef3ed2"))])
+      (:commit . "f39eaad491bdab443389fc60c8ca2ee59f22758b"))])
  (constants
   . [(2 11 1 0 20240827 95043) ((emacs (24 1)))
      "Enter definition of constants into source code" tar
@@ -977,13 +977,13 @@
       (:url . "https://elpa.gnu.org/packages/docbook.html")
       (:commit . "9b7c2dbae38b523442f7c1155bc4e3db16a0c49f"))])
  (doric-themes
-  . [(0 6 0 0 20260208 60933) ((emacs (29 1)))
+  . [(0 6 0 0 20260208 193344) ((emacs (29 1)))
      "Highly legible minimalist themes with precise typography" tar
      ((:url . "https://github.com/protesilaos/doric-themes")
       (:keywords "faces" "theme" "accessibility")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "34e4742de265c512cacd1017985e232181968715"))])
+      (:commit . "e7a6d4ece77ea220c808700e273cc9599e0d7a89"))])
  (drepl
   . [(0 4 0 20251012 81518) ((emacs (29 1)) (comint-mime (0 7)))
      "REPL protocol for the dumb terminal" tar
@@ -1126,7 +1126,7 @@
       (:url . "https://elpa.gnu.org/packages/elisp-benchmarks.html")
       (:commit . "583951606e4e19fd53acd8c5691210b9acb524d7"))])
  (ellama
-  . [(1 12 0 0 20260205 220606)
+  . [(1 12 1 0 20260208 151036)
      ((emacs (28 1)) (llm (0 24 0)) (plz (0 8)) (transient (0 7))
       (compat (29 1)) (yaml (1 2 3)))
      "Tool for interacting with LLMs" tar
@@ -1134,7 +1134,7 @@
       (:keywords "help" "local" "tools")
       (:maintainer "Sergey Kostyaev" . "sskostyaev@gmail.com")
       (:authors ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
-      (:commit . "366f05f7abbb80eb7d3c08055e2c3d26bd0654ac"))])
+      (:commit . "190d616f4bccd146c43598163d5bae47196ad71c"))])
  (emacs-gc-stats
   . [(1 4 2 0 20231206 152254) ((emacs (25 1)))
      "Collect Emacs GC statistics" tar
@@ -1143,11 +1143,11 @@
       (:authors ("Ihor Radchenko" . "yantar92@posteo.net"))
       (:commit . "05d669e123f411c9582f99a9a6182efa43d01a6b"))])
  (emacs-lisp-intro-nl
-  . [(0 0 20260207 211635) nil "ELisp intro manual in NL" tar
+  . [(0 0 20260208 204428) nil "ELisp intro manual in NL" tar
      ((:maintainer "Matto Fransen" . "matto@matto.nl")
       (:authors ("Matto Fransen" . "matto@matto.nl"))
       (:url . "https://elpa.gnu.org/packages/emacs-lisp-intro-nl.html")
-      (:commit . "a6da217b49dbab8b659c236c0926c94f2f621621"))])
+      (:commit . "31f7643d17988e32d6ad8b0116a78ecc45ccd864"))])
  (embark
   . [(1 1 0 20251117 191148) ((emacs (28 1)) (compat (30)))
      "Conveniently act on minibuffer completions" tar
@@ -1627,7 +1627,7 @@
       (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com"))
       (:commit . "84a9db01eff1fcc52ad054c5ad3c22316739573f"))])
  (hyperbole
-  . [(9 0 2 -1 0 20260207 101951) ((emacs (28)))
+  . [(9 0 2 -1 0 20260208 162631) ((emacs (28)))
      "GNU Hyperbole: The Everyday Hypertextual Information Manager"
      tar
      ((:url . "http://www.gnu.org/software/hyperbole")
@@ -1636,7 +1636,7 @@
 		 "outlines" "tools" "wp")
       (:maintainer "Robert Weiner" . "rsw@gnu.org")
       (:authors ("Robert Weiner" . "rsw@gnu.org"))
-      (:commit . "7e1ec9cd90f69f8ba4d1290c59ae472027a51be6"))])
+      (:commit . "e55d2a7710046e77423ac23558732b639ec7ba6b"))])
  (idlwave
   . [(6 5 1 0 20240523 142720) nil "IDL editing mode for GNU Emacs"
      tar
@@ -2064,7 +2064,7 @@
       (:authors ("Ian Martins" . "ianxm@jhu.edu"))
       (:commit . "da128406fca3eeb66358d479082cd78f2fdeabb4"))])
  (matlab-mode
-  . [(8 0 3 0 20260204 141939) ((emacs (27 2)))
+  . [(8 0 4 0 20260208 80458) ((emacs (27 2)))
      "Major mode for MATLAB(R) dot-m files" tar
      ((:url . "https://github.com/mathworks/Emacs-MATLAB-Mode")
       (:keywords "matlab(r)")
@@ -2073,7 +2073,7 @@
 		   ("John Ciolfi" . "john.ciolfi.32@gmail.com"))
       (:authors ("Matt Wette" . "mwette@alumni.caltech.edu")
 		("Eric M. Ludlam" . "eludlam@mathworks.com"))
-      (:commit . "eb664b938472b7d2369149ef66089eb8be4bfc0b"))])
+      (:commit . "61b6a80ded8d8c471878c29db71477579319f19c"))])
  (mct
   . [(1 1 0 0 20260204 175531) ((emacs (29 4)))
      "Minibuffer Confines Transcended" tar
@@ -2366,13 +2366,13 @@
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
       (:commit . "3a2a32181f7a5bd7b633e40d89de771a5dd88cc7"))])
  (org
-  . [(9 8 -1 0 20260208 83423) ((emacs (26 1)))
+  . [(9 8 -1 0 20260208 194929) ((emacs (26 1)))
      "Outline-based notes management and organizer" tar
      ((:url . "https://orgmode.org")
       (:keywords "outlines" "hypermedia" "calendar" "text")
       (:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-      (:commit . "16dc9029366c5c21875cfbace2482e0cb0640646"))])
+      (:commit . "9b0d7ae0ce47a54fc8299b2d8459909185a0d7cd"))])
  (org-contacts
   . [(1 3 0 20260127 150958) ((emacs (29 1)) (org (9 7)))
      "Contacts management system for Org mode" tar
@@ -3281,13 +3281,13 @@
       (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com"))
       (:commit . "6f9d587e7e5250cccf1d7f67394fcc59313db755"))])
  (switchy-window
-  . [(1 3 0 20230411 180529) ((emacs (25 1)) (compat (29 1 4 1)))
+  . [(1 4 0 20260208 102948) ((emacs (25 1)) (compat (29 1 4 1)))
      "A most-recently-used window switcher" tar
      ((:url . "https://sr.ht/~tsdh/switchy-window/")
       (:keywords "windows")
       (:maintainer "Tassilo Horn" . "tsdh@gnu.org")
       (:authors ("Tassilo Horn" . "tsdh@gnu.org"))
-      (:commit . "c743c47b7b4326c411470ba98410b7bfe3685edc"))])
+      (:commit . "3ac4e522231a052e9beaa2d25478090d1215c7ae"))])
  (sxhkdrc-mode
   . [(1 2 0 0 20260111 105425) ((emacs (27 1)))
      "Major mode for sxhkdrc files (Simple X Hot Key Daemon)" tar
