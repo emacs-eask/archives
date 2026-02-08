@@ -47221,7 +47221,7 @@
 		("Evgeny Kurnevsky" . "kurnevsky@gmail.com"))
 	       (:maintainer "Ross A. Baker" . "ross@rossabaker.com"))])
  (lsp-mode .
-	   [(0 1 0 1 -4 20260207 1454)
+	   [(0 1 0 1 -4 20260208 1631)
 	    ((emacs
 	      (28 1))
 	     (dash
@@ -47240,8 +47240,8 @@
 	      (1 11)))
 	    "LSP mode" tar
 	    ((:url . "https://github.com/emacs-lsp/lsp-mode")
-	     (:commit . "dd278b030f37752865def4a84deb56175a158303")
-	     (:revdesc . "dd278b030f37")
+	     (:commit . "06ec7b6525249ed0e1f066827de3e6dbddf33c3a")
+	     (:revdesc . "06ec7b652524")
 	     (:keywords "languages"))])
  (lsp-mssql .
 	    [(0 1 0 1 -4 20251117 1444)
@@ -48014,6 +48014,24 @@
 		 (:maintainers
 		  ("Brian Fransioli" . "assem@terranpro.org"))
 		 (:maintainer "Brian Fransioli" . "assem@terranpro.org"))])
+ (magit-gh .
+	   [(0 1 0 1 -4 20260202 326)
+	    ((emacs
+	      (29 1))
+	     (magit
+	      (4 0 0))
+	     (transient
+	      (0 5 0)))
+	    "GitHub CLI integration for Magit" tar
+	    ((:url . "https://github.com/jonathanchu/magit-gh")
+	     (:commit . "170360db2e2171a8d7f26393a3e3d8aceedbf5f4")
+	     (:revdesc . "170360db2e21")
+	     (:keywords "git" "tools" "vc" "github")
+	     (:authors
+	      ("Jonathan Chu" . "me@jonathanchu.is"))
+	     (:maintainers
+	      ("Jonathan Chu" . "me@jonathanchu.is"))
+	     (:maintainer "Jonathan Chu" . "me@jonathanchu.is"))])
  (magit-gh-pulls .
 		 [(0 5 3 1 -4 20191230 1944)
 		  ((emacs
@@ -48693,11 +48711,11 @@
 			     ("Jen-Chieh" . "jcs090218@gmail.com"))
 			    (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (mandm-theme .
-	      [(0 1 0 1 -4 20250726 1920)
+	      [(0 1 0 1 -4 20260208 1754)
 	       nil "An M&M color theme" tar
 	       ((:url . "https://github.com/choppsv1/emacs-mandm-theme.git")
-		(:commit . "5b8ccb687b56ce143d3f60f59a681e6ca2e90956")
-		(:revdesc . "5b8ccb687b56")
+		(:commit . "217775591a4b2f8e531f745e6a9fb6cea6153bd7")
+		(:revdesc . "217775591a4b")
 		(:authors
 		 ("Christian Hopps" . "chopps@gmail.com"))
 		(:maintainers
@@ -54224,13 +54242,13 @@
 	       ("Guido Schmidt" . "guido.schmidt.2912@gmail.com"))
 	      (:maintainer "Guido Schmidt" . "guido.schmidt.2912@gmail.com"))])
  (oai .
-      [(0 1 0 1 -4 20260208 1438)
+      [(0 1 0 1 -4 20260208 1646)
        ((emacs
 	 (29 1)))
        "AI-LLM chat blocks for org-mode" tar
        ((:url . "https://github.com/Anoncheg1/emacs-oai")
-	(:commit . "9a81604a95c2ae8a27641273f171eecd76548f09")
-	(:revdesc . "9a81604a95c2")
+	(:commit . "7d9d206617b81b312570c311c648e443bfcb34fb")
+	(:revdesc . "7d9d206617b8")
 	(:keywords "org" "comm" "url" "link")
 	(:authors
 	 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
@@ -65512,6 +65530,22 @@
 			   (:maintainers
 			    ("Robert Dallas Gray" . "mail@robertdallasgray.com"))
 			   (:maintainer "Robert Dallas Gray" . "mail@robertdallasgray.com"))])
+ (project-rails .
+		[(0 1 0 1 -4 20260201 1909)
+		 ((emacs
+		   (28 1))
+		  (inflections
+		   (2 6)))
+		 "Rails support for project.el" tar
+		 ((:url . "https://github.com/harrybournis/project.el-rails")
+		  (:commit . "653e31a0b7b08445fa3efc41d741d642a46f9903")
+		  (:revdesc . "653e31a0b7b0")
+		  (:keywords "languages" "project.el" "rails")
+		  (:authors
+		   ("Harry Bournis" . "harrybournis@gmail.com"))
+		  (:maintainers
+		   ("Harry Bournis" . "harrybournis@gmail.com"))
+		  (:maintainer "Harry Bournis" . "harrybournis@gmail.com"))])
  (project-rootfile .
 		   [(0 1 0 1 -4 20251111 720)
 		    ((emacs
@@ -76605,6 +76639,20 @@
 		(:maintainers
 		 ("Joe Bloggs" . "vapniks@yahoo.com"))
 		(:maintainer "Joe Bloggs" . "vapniks@yahoo.com"))])
+ (system-idle .
+	      [(0 1 0 1 -4 20260207 2244)
+	       ((emacs
+		 (29 1)))
+	       "Poll the system-wide idle time" tar
+	       ((:url . "https://github.com/meedstrom/system-idle")
+		(:commit . "7522fdf0fc60f5a842d2d9967947dd7cfcd66bd0")
+		(:revdesc . "7522fdf0fc60")
+		(:keywords "lisp")
+		(:authors
+		 ("Martin Edström" . "meedstrom91@gmail.com"))
+		(:maintainers
+		 ("Martin Edström" . "meedstrom91@gmail.com"))
+		(:maintainer "Martin Edström" . "meedstrom91@gmail.com"))])
  (system-specific-settings .
 			   [(0 2 1 -4 20140818 1457)
 			    nil "Apply settings only on certain systems" tar
