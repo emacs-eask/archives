@@ -1199,7 +1199,7 @@
 	    ("Tomasz Maciosowski" . "t4ccer@gmail.com"))
 	   (:maintainer "Tomasz Maciosowski" . "t4ccer@gmail.com"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260208 1326)
+	      [(0 1 0 1 -4 20260208 1919)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1208,8 +1208,8 @@
 		 (0 9 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "6203c326d4315b33a890b53d88e91eaab5051d43")
-		(:revdesc . "6203c326d431"))])
+		(:commit . "6db6fb1aeb4bd499eead03e63763784334f1db7d")
+		(:revdesc . "6db6fb1aeb4b"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -8236,11 +8236,13 @@
 		 ("Adam Chyła https://chyla.org/" . "adam@chyla.org"))
 		(:maintainer "Adam Chyła https://chyla.org/" . "adam@chyla.org"))])
  (cider .
-	[(0 1 0 1 -4 20260208 935)
+	[(0 1 0 1 -4 20260208 1950)
 	 ((emacs
 	   (28))
 	  (clojure-mode
 	   (5 19))
+	  (compat
+	   (30))
 	  (parseedn
 	   (1 2 1))
 	  (queue
@@ -8255,8 +8257,8 @@
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
 	 ((:url . "https://www.github.com/clojure-emacs/cider")
-	  (:commit . "70cf7bd4e15ae5b6de09d0cb8b96a2beaf5cf92b")
-	  (:revdesc . "70cf7bd4e15a")
+	  (:commit . "d79fdafaf8324439f18ea0df2a2148a0730b96f4")
+	  (:revdesc . "d79fdafaf832")
 	  (:keywords "languages" "clojure" "cider")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
