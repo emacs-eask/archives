@@ -601,13 +601,13 @@
        ("Jackson Ray Hamilton" . "jackson@jacksonrayhamilton.com"))
       (:commit . "75a8c811874c231b49729e76c696824463e54402"))])
  (corfu
-  . [(2 8 0 20260127 132548) ((emacs (29 1)) (compat (30)))
+  . [(2 8 0 20260210 91503) ((emacs (29 1)) (compat (30)))
      "COmpletion in Region FUnction" tar
      ((:url . "https://github.com/minad/corfu")
       (:keywords "abbrev" "convenience" "matching" "completion" "text")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "1d8cf388c842881fe7603ee621a2b26207cf4fcb"))])
+      (:commit . "abfe0003d71b61ffdcf23fc6e546643486daeb69"))])
  (coterm
   . [(1 6 0 20221015 160420) ((emacs (26 1)) (compat (28 1 2 0)))
      "Terminal emulation for comint" tar
@@ -1126,7 +1126,7 @@
       (:url . "https://elpa.gnu.org/packages/elisp-benchmarks.html")
       (:commit . "583951606e4e19fd53acd8c5691210b9acb524d7"))])
  (ellama
-  . [(1 12 1 0 20260208 151036)
+  . [(1 12 2 0 20260210 183917)
      ((emacs (28 1)) (llm (0 24 0)) (plz (0 8)) (transient (0 7))
       (compat (29 1)) (yaml (1 2 3)))
      "Tool for interacting with LLMs" tar
@@ -1134,7 +1134,7 @@
       (:keywords "help" "local" "tools")
       (:maintainer "Sergey Kostyaev" . "sskostyaev@gmail.com")
       (:authors ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
-      (:commit . "190d616f4bccd146c43598163d5bae47196ad71c"))])
+      (:commit . "52df399929e34615d83488675b3ffb70afccf499"))])
  (emacs-gc-stats
   . [(1 4 2 0 20231206 152254) ((emacs (25 1)))
      "Collect Emacs GC statistics" tar
@@ -1627,7 +1627,7 @@
       (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com"))
       (:commit . "84a9db01eff1fcc52ad054c5ad3c22316739573f"))])
  (hyperbole
-  . [(9 0 2 -1 0 20260209 3107) ((emacs (28)))
+  . [(9 0 2 -1 0 20260210 155935) ((emacs (28)))
      "GNU Hyperbole: The Everyday Hypertextual Information Manager"
      tar
      ((:url . "http://www.gnu.org/software/hyperbole")
@@ -1636,7 +1636,7 @@
 		 "outlines" "tools" "wp")
       (:maintainer "Robert Weiner" . "rsw@gnu.org")
       (:authors ("Robert Weiner" . "rsw@gnu.org"))
-      (:commit . "05af28aa80c24880e02de60fc07c32161135b3f5"))])
+      (:commit . "b0325316dfd7422355fe47dcd7050251af39798f"))])
  (idlwave
   . [(6 5 1 0 20240523 142720) nil "IDL editing mode for GNU Emacs"
      tar
@@ -1940,14 +1940,14 @@
       (:authors ("Sean Whitton" . "spwhitton@spwhitton.name"))
       (:commit . "00b8f65effe4f2673e6450d70000644b266aa78a"))])
  (llm
-  . [(0 28 5 0 20260207 11805)
+  . [(0 28 5 0 20260210 111841)
      ((emacs (28 1)) (plz (0 8)) (plz-event-source (0 1 1))
       (plz-media-type (0 2 1)) (compat (29 1)))
      "Interface to pluggable llm backends" tar
      ((:url . "https://github.com/ahyatt/llm")
       (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
       (:authors ("Andrew Hyatt" . "ahyatt@gmail.com"))
-      (:commit . "8d4457ce9c85cab782e673bd0170c08fac413583"))])
+      (:commit . "8b95d3c914022f0cac2116e0aea7d6edb746ea56"))])
  (lmc
   . [(1 4 0 20230105 113402) ((emacs (24)) (cl-lib (0 5)))
      "Little Man Computer in Elisp" tar
@@ -2696,10 +2696,10 @@
       (:authors ("Paul D. Nelson" . "nelson.paul.david@gmail.com"))
       (:commit . "731d92247aab0a51c208d0fe196db3dec0d1b2e9"))])
  (project
-  . [(0 11 2 0 20260210 5414) ((emacs (26 1)) (xref (1 7 0)))
+  . [(0 11 2 0 20260210 165649) ((emacs (26 1)) (xref (1 7 0)))
      "Operations on the current project" tar
      ((:url . "https://elpa.gnu.org/packages/project.html")
-      (:commit . "583a112169f0c964552b94f84ea0c942377a14e6"))])
+      (:commit . "d62370a0ec5bef48fcbe4dd14e8b9e129a0d0cae"))])
  (psgml
   . [(1 3 5 0 20221229 184738) nil
      "SGML-editing mode with parsing support" tar
@@ -3712,13 +3712,13 @@
 		("Wilson Snyder" . "wsnyder@wsnyder.org"))
       (:commit . "aff85304d9d9de1ef7833a4ee35b5c081cc80bc7"))])
  (vertico
-  . [(2 7 0 20260209 70323) ((emacs (29 1)) (compat (30)))
+  . [(2 7 0 20260210 102152) ((emacs (29 1)) (compat (30)))
      "VERTical Interactive COmpletion" tar
      ((:url . "https://github.com/minad/vertico")
       (:keywords "convenience" "files" "matching" "completion")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "8bb6751709c4d84eb539b1eea6413a81439ce29e"))])
+      (:commit . "93f15873d7d6244d72202c5dd7724a030a2d5b9a"))])
  (vertico-posframe
   . [(0 9 2 0 20260201 41512)
      ((emacs (26 0)) (posframe (1 4 0)) (vertico (2 6)))
