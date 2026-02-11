@@ -546,11 +546,11 @@
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:commit . "38df650dce9f862c6b523de5b683573df590ab85"))])
  (cond-star
-  . [(1 0 0 20260208 152837) ((emacs (24 3)))
+  . [(1 0 0 20260211 142338) ((emacs (24 3)))
      "Extended form of `cond' construct" tar
      ((:maintainer "Richard Stallman" . "rms@gnu.org")
       (:url . "https://elpa.gnu.org/packages/cond-star.html")
-      (:commit . "f39eaad491bdab443389fc60c8ca2ee59f22758b"))])
+      (:commit . "0f0a632028236de3dc3dd797b46c88b3548dc6fb"))])
  (constants
   . [(2 11 1 0 20240827 95043) ((emacs (24 1)))
      "Enter definition of constants into source code" tar
@@ -1401,6 +1401,14 @@
       (:maintainer "Yuan Fu" . "casouri@gmail.com")
       (:authors ("Yuan Fu" . "casouri@gmail.com"))
       (:commit . "d7c243ac3be2a67986f53f3dc31ba1426e82b771"))])
+ (futur
+  . [(0 0 20260211 165221) nil "Future/promise-based async library"
+     tar
+     ((:keywords "concurrency" "async" "promises" "futures")
+      (:maintainer "Stefan Monnier" . "monnier@iro.umontreal.ca")
+      (:authors ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
+      (:url . "https://elpa.gnu.org/packages/futur.html")
+      (:commit . "cbdb00b990dd5b0bba9b2974ce888a6bf0861391"))])
  (gcmh
   . [(0 2 1 0 20201116 225142) ((emacs (24)))
      "the Garbage Collector Magic Hack" tar
@@ -1627,7 +1635,7 @@
       (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com"))
       (:commit . "84a9db01eff1fcc52ad054c5ad3c22316739573f"))])
  (hyperbole
-  . [(9 0 2 -1 0 20260210 155935) ((emacs (28)))
+  . [(9 0 2 -1 0 20260211 93232) ((emacs (28)))
      "GNU Hyperbole: The Everyday Hypertextual Information Manager"
      tar
      ((:url . "http://www.gnu.org/software/hyperbole")
@@ -1636,7 +1644,7 @@
 		 "outlines" "tools" "wp")
       (:maintainer "Robert Weiner" . "rsw@gnu.org")
       (:authors ("Robert Weiner" . "rsw@gnu.org"))
-      (:commit . "b0325316dfd7422355fe47dcd7050251af39798f"))])
+      (:commit . "ba84fc6100336535707587e46c1156bef44566ef"))])
  (idlwave
   . [(6 5 1 0 20240523 142720) nil "IDL editing mode for GNU Emacs"
      tar
@@ -2366,13 +2374,13 @@
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
       (:commit . "3a2a32181f7a5bd7b633e40d89de771a5dd88cc7"))])
  (org
-  . [(9 8 -1 0 20260209 202055) ((emacs (26 1)))
+  . [(9 8 -1 0 20260211 181035) ((emacs (26 1)))
      "Outline-based notes management and organizer" tar
      ((:url . "https://orgmode.org")
       (:keywords "outlines" "hypermedia" "calendar" "text")
       (:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-      (:commit . "008b16fc1cfd0f1efdb6314e19d5c8212c2bf3c0"))])
+      (:commit . "f092f9e869d05191c7d3563ab850a1aed4f34b10"))])
  (org-contacts
   . [(1 3 0 20260127 150958) ((emacs (29 1)) (org (9 7)))
      "Contacts management system for Org mode" tar
