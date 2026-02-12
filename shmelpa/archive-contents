@@ -1301,7 +1301,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260212 443)
+	  [(0 1 0 1 -4 20260212 1449)
 	   ((emacs
 	     (28 1))
 	    (transient
@@ -1310,8 +1310,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding CLI such as Claude Code, Codex CLI, Gemini CLI, Copilot CLI, Opencode, Grok CLI, Aider CLI, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "7d65974c19ead334642fcd15b8e9b18e1390d84b")
-	    (:revdesc . "7d65974c19ea")
+	    (:commit . "e8a451407273d605582a6f72859423dba529cd13")
+	    (:revdesc . "e8a451407273")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -9171,25 +9171,25 @@
 			      (:commit . "6741bf65cf9b9bc896ab1cc3c384573e8ffe5f96")
 			      (:revdesc . "6741bf65cf9b"))])
  (clojure-mode .
-	       [(0 1 0 1 -4 20250527 840)
+	       [(0 1 0 1 -4 20260212 1510)
 		((emacs
-		  (25 1)))
+		  (27 1)))
 		"Major mode for Clojure code" tar
 		((:url . "https://github.com/clojure-emacs/clojure-mode")
-		 (:commit . "d336db623e7ae8cffff50aaaea3f1b05cc4ccecb")
-		 (:revdesc . "d336db623e7a")
+		 (:commit . "cfb875ca3dc6de03a31a7780b109a7fc0e77f53c")
+		 (:revdesc . "cfb875ca3dc6")
 		 (:keywords "languages" "clojure" "clojurescript" "lisp")
 		 (:maintainers
 		  ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 		 (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev"))])
  (clojure-mode-extra-font-locking .
-				  [(0 1 0 1 -4 20250527 840)
+				  [(0 1 0 1 -4 20260212 1414)
 				   ((clojure-mode
 				     (3 0)))
 				   "Extra font-locking for Clojure mode" tar
 				   ((:url . "https://github.com/clojure-emacs/clojure-mode")
-				    (:commit . "d336db623e7ae8cffff50aaaea3f1b05cc4ccecb")
-				    (:revdesc . "d336db623e7a")
+				    (:commit . "b88e25b0d7abb4aa89ccda9900f1329ca2908951")
+				    (:revdesc . "b88e25b0d7ab")
 				    (:keywords "languages" "lisp")
 				    (:authors
 				     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -12572,7 +12572,7 @@
 	   ("Francesco Montanari" . "fmnt@fmnt.info"))
 	  (:maintainer "Francesco Montanari" . "fmnt@fmnt.info"))])
  (counsel .
-	  [(0 1 0 1 -4 20250329 1401)
+	  [(0 1 0 1 -4 20260101 2125)
 	   ((emacs
 	     (24 5))
 	    (ivy
@@ -12581,8 +12581,8 @@
 	     (0 15 1)))
 	   "Various completion functions using Ivy" tar
 	   ((:url . "https://github.com/abo-abo/swiper")
-	    (:commit . "e33b028ed4b1258a211c87fd5fe801bed25de429")
-	    (:revdesc . "e33b028ed4b1")
+	    (:commit . "d489b4f0d48fd215119261d92de103c5b5580895")
+	    (:revdesc . "d489b4f0d48f")
 	    (:keywords "convenience" "matching" "tools")
 	    (:authors
 	     ("Oleh Krehel" . "ohwoeowho@gmail.com"))
@@ -18338,13 +18338,13 @@
 		    ("Thanabodee Charoenpiriyakij" . "wingyminus@gmail.com"))
 		   (:maintainer "Thanabodee Charoenpiriyakij" . "wingyminus@gmail.com"))])
  (eask .
-       [(0 1 0 1 -4 20260212 353)
+       [(0 1 0 1 -4 20260212 1540)
 	((emacs
 	  (26 1)))
 	"Core Eask APIs, for Eask CLI development" tar
 	((:url . "https://github.com/emacs-eask/eask")
-	 (:commit . "8fbe9e69f2654b3e297c1d263fa233c9e454ff34")
-	 (:revdesc . "8fbe9e69f265")
+	 (:commit . "2ee0d9a8e45de4a42be719fc21c6e9a4d8bbc653")
+	 (:revdesc . "2ee0d9a8e45d")
 	 (:keywords "lisp" "eask" "api")
 	 (:authors
 	  ("Jen-Chieh" . "jcs090218@gmail.com"))
@@ -41169,13 +41169,13 @@
 	      ("Taichi" . "kawabata.taichi_at_gmail.com"))
 	     (:maintainer "Taichi" . "kawabata.taichi_at_gmail.com"))])
  (ivy .
-      [(0 1 0 1 -4 20251123 1023)
+      [(0 1 0 1 -4 20260211 2228)
        ((emacs
 	 (24 5)))
        "Incremental Vertical completYon" tar
        ((:url . "https://github.com/abo-abo/swiper")
-	(:commit . "ec9421340c88ebe08f05680e22308ed57ed68a3d")
-	(:revdesc . "ec9421340c88")
+	(:commit . "7c4fa07ea806e6875e55427a6abedbac28a82bd9")
+	(:revdesc . "7c4fa07ea806")
 	(:keywords "matching")
 	(:authors
 	 ("Oleh Krehel" . "ohwoeowho@gmail.com"))
@@ -41183,7 +41183,7 @@
 	 ("Basil L. Contovounesios" . "basil@contovou.net"))
 	(:maintainer "Basil L. Contovounesios" . "basil@contovou.net"))])
  (ivy-avy .
-	  [(0 1 0 1 -4 20250329 1401)
+	  [(0 1 0 1 -4 20260101 2125)
 	   ((emacs
 	     (24 5))
 	    (ivy
@@ -41192,8 +41192,8 @@
 	     (0 5 0)))
 	   "Avy integration for Ivy" tar
 	   ((:url . "https://github.com/abo-abo/swiper")
-	    (:commit . "e33b028ed4b1258a211c87fd5fe801bed25de429")
-	    (:revdesc . "e33b028ed4b1")
+	    (:commit . "d489b4f0d48fd215119261d92de103c5b5580895")
+	    (:revdesc . "d489b4f0d48f")
 	    (:keywords "convenience")
 	    (:authors
 	     ("Oleh Krehel" . "ohwoeowho@gmail.com"))
@@ -41425,7 +41425,7 @@
 		("Aliaksei Artamonau" . "aliaksiej.artamonau@gmail.com"))
 	       (:maintainer "Aliaksei Artamonau" . "aliaksiej.artamonau@gmail.com"))])
  (ivy-hydra .
-	    [(0 1 0 1 -4 20250329 1401)
+	    [(0 1 0 1 -4 20260101 2125)
 	     ((emacs
 	       (24 5))
 	      (ivy
@@ -41434,8 +41434,8 @@
 	       (0 14 0)))
 	     "Additional key bindings for Ivy" tar
 	     ((:url . "https://github.com/abo-abo/swiper")
-	      (:commit . "e33b028ed4b1258a211c87fd5fe801bed25de429")
-	      (:revdesc . "e33b028ed4b1")
+	      (:commit . "d489b4f0d48fd215119261d92de103c5b5580895")
+	      (:revdesc . "d489b4f0d48f")
 	      (:keywords "convenience")
 	      (:authors
 	       ("Oleh Krehel" . "ohwoeowho@gmail.com"))
@@ -44314,13 +44314,13 @@
 		 ("Stefan Huchler" . "stefan.huchler@mail.de"))
 		(:maintainer "Stefan Huchler" . "stefan.huchler@mail.de"))])
  (koishi-theme .
-	       [(0 1 0 1 -4 20260125 1452)
+	       [(0 1 0 1 -4 20260212 1605)
 		((emacs
 		  (24 1)))
 		"A sweet theme inspired by Koishi's color tone" tar
 		((:url . "https://github.com/gynamics/koishi-theme.el")
-		 (:commit . "d31264d0954c95eae0773913454fda6b115e8396")
-		 (:revdesc . "d31264d0954c")
+		 (:commit . "e699d5181265981d28f1bd3c13446916c77aeb06")
+		 (:revdesc . "e699d5181265")
 		 (:keywords "faces"))])
  (kolon-mode .
 	     [(0 1 1 -4 20140122 1134)
@@ -47868,7 +47868,7 @@
 	       (:revdesc . "b1fc21f82e9d")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20260211 2150)
+	[(0 1 0 1 -4 20260212 843)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -47887,8 +47887,8 @@
 	   (3 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "8783759256d30f0a72e8c703c0c538b67359edd7")
-	  (:revdesc . "8783759256d3")
+	  (:commit . "29c6241993797174f89cb9f1a1a62f44c099722b")
+	  (:revdesc . "29c624199379")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -63350,7 +63350,7 @@
 	     ("Eric Hansen" . "hansen.c.eric@gmail.com"))
 	    (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
  (pi-coding-agent .
-		  [(0 1 0 1 -4 20260211 1755)
+		  [(0 1 0 1 -4 20260212 1446)
 		   ((emacs
 		     (28 1))
 		    (markdown-mode
@@ -63359,8 +63359,8 @@
 		     (0 9 0)))
 		   "Emacs frontend for pi coding agent" tar
 		   ((:url . "https://github.com/dnouri/pi-coding-agent")
-		    (:commit . "953c85a28beb19ce2ca15e1abdbb36a14fc89b4e")
-		    (:revdesc . "953c85a28beb")
+		    (:commit . "88e20cd11f5e01b747e4fbf5142cb1cf505a9562")
+		    (:revdesc . "88e20cd11f5e")
 		    (:keywords "ai" "llm" "ai-pair-programming" "tools")
 		    (:authors
 		     ("Daniel Nouri" . "daniel.nouri@gmail.com"))
