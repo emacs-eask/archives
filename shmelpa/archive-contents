@@ -1199,7 +1199,7 @@
 	    ("Tomasz Maciosowski" . "t4ccer@gmail.com"))
 	   (:maintainer "Tomasz Maciosowski" . "t4ccer@gmail.com"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260214 1154)
+	      [(0 1 0 1 -4 20260214 2027)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1208,8 +1208,8 @@
 		 (0 9 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "3be56ea888b10fa710df00f69fad4042696db252")
-		(:revdesc . "3be56ea888b1"))])
+		(:commit . "c617076cae65468de645abdef4c8d07d7cf26c49")
+		(:revdesc . "c617076cae65"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -9618,13 +9618,13 @@
 		("Youngjoo Lee" . "youngker@gmail.com"))
 	       (:maintainer "Austin Bingham" . "austin.bingham@gmail.com"))])
  (codespaces .
-	     [(0 1 0 1 -4 20260214 1809)
+	     [(0 1 0 1 -4 20260214 1840)
 	      ((emacs
 		(28 1)))
 	      "Connect to GitHub Codespaces via TRAMP" tar
 	      ((:url . "https://github.com/F4ban/codespaces.el")
-	       (:commit . "92eabdb6e473df70c7dd7343ed21ef0b435f15fc")
-	       (:revdesc . "92eabdb6e473")
+	       (:commit . "07b9b2f47a6a470b7d64574cebf12148df74618a")
+	       (:revdesc . "07b9b2f47a6a")
 	       (:keywords "comm")
 	       (:authors
 		("Patrick Thomson" . "patrickt@github.com"))
@@ -12328,21 +12328,21 @@
 	       ("Noah Peart" . "noah.v.peart@gmail.com"))
 	      (:maintainer "Noah Peart" . "noah.v.peart@gmail.com"))])
  (copilot .
-	  [(0 1 0 1 -4 20251210 1016)
+	  [(0 1 0 1 -4 20260214 2031)
 	   ((emacs
 	     (27 2))
 	    (editorconfig
 	     (0 8 2))
 	    (jsonrpc
 	     (1 0 14))
-	    (f
-	     (0 20 0))
+	    (compat
+	     (30))
 	    (track-changes
 	     (1 4)))
 	   "An unofficial Copilot plugin" tar
 	   ((:url . "https://github.com/copilot-emacs/copilot.el")
-	    (:commit . "7ee4758bb748beac7d29e62de5d2e752ebafb858")
-	    (:revdesc . "7ee4758bb748")
+	    (:commit . "93bc58be9e156e603bbffdcb6dc1d3cf54b994ad")
+	    (:revdesc . "93bc58be9e15")
 	    (:keywords "convenience" "copilot")
 	    (:authors
 	     ("zerol" . "z@zerol.me"))
@@ -14850,7 +14850,7 @@
       ("SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))
      (:maintainer "SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))])
  (define-it .
-   [(0 1 0 1 -4 20260101 558)
+   [(0 1 0 1 -4 20260214 1857)
     ((emacs
       (25 1))
      (s
@@ -14869,8 +14869,8 @@
       (0 1)))
     "Define, translate, wiki the word" tar
     ((:url . "https://github.com/jcs-elpa/define-it")
-     (:commit . "f33effcfcd4ef73cefd5d1c32991c5802269643e")
-     (:revdesc . "f33effcfcd4e")
+     (:commit . "094c2dbe3fac7c19365fb952e821bdd5b558f51c")
+     (:revdesc . "094c2dbe3fac")
      (:keywords "convenience" "dictionary" "explanation" "search" "wiki")
      (:authors
       ("Jen-Chieh" . "jcs090218@gmail.com"))
@@ -26644,15 +26644,15 @@
 		 ("PythonNut" . "pythonnut@pythonnut.com"))
 		(:maintainer "PythonNut" . "pythonnut@pythonnut.com"))])
  (flycheck .
-	   [(0 1 0 1 -4 20260214 1650)
+	   [(0 1 0 1 -4 20260214 2003)
 	    ((emacs
 	      (27 1))
 	     (seq
 	      (2 24)))
 	    "On-the-fly syntax checking" tar
 	    ((:url . "https://www.flycheck.org")
-	     (:commit . "4615773d7e1b4b7aae409867671885356ab74b49")
-	     (:revdesc . "4615773d7e1b")
+	     (:commit . "35b5397ba32d3c1035af03b3775cfbcb33c165c5")
+	     (:revdesc . "35b5397ba32d")
 	     (:keywords "convenience" "languages" "tools")
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
@@ -27646,15 +27646,15 @@
 		     ("Elric Milon" . "whirm_REMOVETHIS__@gmx.com"))
 		    (:maintainer "Elric Milon" . "whirm_REMOVETHIS__@gmx.com"))])
  (flycheck-languagetool .
-			[(0 1 0 1 -4 20260101 535)
+			[(0 1 0 1 -4 20260214 1911)
 			 ((emacs
 			   (27 1))
 			  (flycheck
 			   (0 14)))
 			 "Flycheck support for LanguageTool" tar
 			 ((:url . "https://github.com/emacs-languagetool/flycheck-languagetool")
-			  (:commit . "8889414ec50c3c4dfeef601900c63901a55a2237")
-			  (:revdesc . "8889414ec50c")
+			  (:commit . "a8dab49fdb1f85c19700a39c4ee01f6208ef06e1")
+			  (:revdesc . "a8dab49fdb1f")
 			  (:keywords "convenience" "grammar" "check")
 			  (:authors
 			   ("Jen-Chieh" . "jcs090218@gmail.com")
@@ -35028,15 +35028,15 @@
 		(:revdesc . "8c70b48fe5fb")
 		(:keywords "faces"))])
  (helm .
-       [(0 1 0 1 -4 20260207 1414)
+       [(0 1 0 1 -4 20260214 1432)
 	((helm-core
 	  (4 0 6))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
-	 (:commit . "5e7c84988b3b45215e0ed7a64e867ae0fc30dae5")
-	 (:revdesc . "5e7c84988b3b")
+	 (:commit . "9d8de1e0810ef5a5e1f3a46c9461b78b9e86167b")
+	 (:revdesc . "9d8de1e0810e")
 	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
