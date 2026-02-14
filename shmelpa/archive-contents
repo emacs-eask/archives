@@ -49221,13 +49221,13 @@
 		      ("Enrico Flor" . "enrico@eflor.net"))
 		     (:maintainer "Enrico Flor" . "enrico@eflor.net"))])
  (matlab-mode .
-	      [(0 1 0 1 -4 20260214 1423)
+	      [(0 1 0 1 -4 20260214 2103)
 	       ((emacs
 		 (27 2)))
 	       "Major mode for MATLAB(R) dot-m files" tar
 	       ((:url . "https://github.com/mathworks/Emacs-MATLAB-Mode")
-		(:commit . "67470ee62ac03add881d62c411552262cbbec364")
-		(:revdesc . "67470ee62ac0")
+		(:commit . "057ea51d058e4e07003e7ab464ead943cf3ef724")
+		(:revdesc . "057ea51d058e")
 		(:keywords "matlab(r)")
 		(:authors
 		 ("Matt Wette" . "mwette@alumni.caltech.edu")
@@ -65610,13 +65610,15 @@
 		     (:commit . "36bec1109ba0498c2d1ef29756c841d2e23b063e")
 		     (:revdesc . "36bec1109ba0"))])
  (projectile .
-	     [(0 1 0 1 -4 20260214 1610)
+	     [(0 1 0 1 -4 20260214 2017)
 	      ((emacs
-		(26 1)))
+		(27 1))
+	       (compat
+		(30)))
 	      "Manage and navigate projects in Emacs easily" tar
 	      ((:url . "https://github.com/bbatsov/projectile")
-	       (:commit . "6d1604aa1160c28e35c384b17e62e8f72e95d24b")
-	       (:revdesc . "6d1604aa1160")
+	       (:commit . "9ca36353567a020fec42e76ee03cd87fff3034a8")
+	       (:revdesc . "9ca36353567a")
 	       (:keywords "project" "convenience")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -77766,7 +77768,7 @@
 		    ("Nikolaj Schumacher" . "bugs*nschumde"))
 		   (:maintainer "Nikolaj Schumacher" . "bugs*nschumde"))])
  (test-cockpit .
-	       [(0 1 0 1 -4 20260214 1833)
+	       [(0 1 0 1 -4 20260214 2007)
 		((emacs
 		  (28 1))
 		 (projectile
@@ -77775,8 +77777,8 @@
 		  (0 2 0)))
 		"A command center to run tests of a software project" tar
 		((:url . "https://github.com/johannes-mueller/test-cockpit.el")
-		 (:commit . "1a35f2cdc75310bbf8628dfb636466361126306c")
-		 (:revdesc . "1a35f2cdc753")
+		 (:commit . "4353258aca9ff63cd8f523a71965aea3d2d4685e")
+		 (:revdesc . "4353258aca9f")
 		 (:authors
 		  ("Johannes Mueller" . "github@johannes-mueller.org"))
 		 (:maintainers
