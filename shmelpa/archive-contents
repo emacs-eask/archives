@@ -7650,7 +7650,7 @@
 	       ("Andrew Myers" . "am2605@gmail.com"))
 	      (:maintainer "Andrew Myers" . "am2605@gmail.com"))])
  (cfn-mode .
-	   [(0 1 0 1 -4 20260125 906)
+	   [(0 1 0 1 -4 20260201 907)
 	    ((emacs
 	      (27 0))
 	     (f
@@ -7661,8 +7661,8 @@
 	      (0 0 13)))
 	    "AWS cloudformation mode" tar
 	    ((:url . "https://gitlab.com/worr/cfn-mode")
-	     (:commit . "a8fc3f128497ba1061630f9076019ed68d1d41bf")
-	     (:revdesc . "a8fc3f128497")
+	     (:commit . "f8480ec4bb55c67ebece27193b4f2a4b6be5a938")
+	     (:revdesc . "f8480ec4bb55")
 	     (:keywords "convenience" "languages" "tools")
 	     (:authors
 	      ("William Orr" . "will@worrbase.com"))
@@ -12572,7 +12572,7 @@
 	   ("Francesco Montanari" . "fmnt@fmnt.info"))
 	  (:maintainer "Francesco Montanari" . "fmnt@fmnt.info"))])
  (counsel .
-	  [(0 1 0 1 -4 20260213 1157)
+	  [(0 1 0 1 -4 20260214 1004)
 	   ((emacs
 	     (24 5))
 	    (ivy
@@ -12581,8 +12581,8 @@
 	     (0 15 1)))
 	   "Various completion functions using Ivy" tar
 	   ((:url . "https://github.com/abo-abo/swiper")
-	    (:commit . "11649c347107cba5f7ef8fd67ad8e77bc3b2472c")
-	    (:revdesc . "11649c347107")
+	    (:commit . "ee79f68215ae7e2b8a38ba6bf7f82b3fe57dc16c")
+	    (:revdesc . "ee79f68215ae")
 	    (:keywords "convenience" "matching" "tools")
 	    (:authors
 	     ("Oleh Krehel" . "ohwoeowho@gmail.com"))
@@ -26644,15 +26644,15 @@
 		 ("PythonNut" . "pythonnut@pythonnut.com"))
 		(:maintainer "PythonNut" . "pythonnut@pythonnut.com"))])
  (flycheck .
-	   [(0 1 0 1 -4 20260213 1552)
+	   [(0 1 0 1 -4 20260214 1103)
 	    ((emacs
 	      (27 1))
 	     (seq
 	      (2 24)))
 	    "On-the-fly syntax checking" tar
 	    ((:url . "https://www.flycheck.org")
-	     (:commit . "dc39d6dea16c4b1859025a41895769b72665c4b1")
-	     (:revdesc . "dc39d6dea16c")
+	     (:commit . "796b1b070c4b59f85b403a009237b1096c3323ac")
+	     (:revdesc . "796b1b070c4b")
 	     (:keywords "convenience" "languages" "tools")
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
@@ -52716,6 +52716,20 @@
 	    (:maintainers
 	     ("Jacek Sliwerski" . "rzyj@o2.pl"))
 	    (:maintainer "Jacek Sliwerski" . "rzyj@o2.pl"))])
+ (neocaml .
+	  [(0 1 0 1 -4 20260213 1553)
+	   ((emacs
+	     (29 1)))
+	   "Major mode for OCaml code" tar
+	   ((:url . "http://github.com/bbatsov/neocaml")
+	    (:commit . "0918b878eb92c9916ea95c45d22d6fe5781c6d86")
+	    (:revdesc . "0918b878eb92")
+	    (:keywords "languages" "ocaml" "ml")
+	    (:authors
+	     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
+	    (:maintainers
+	     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
+	    (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev"))])
  (neon-mode .
 	    [(0 1 0 1 -4 20241220 1304)
 	     ((emacs
