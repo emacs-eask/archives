@@ -18954,13 +18954,13 @@
 	 ("Lars Andersen" . "expez@expez.com"))
 	(:maintainer "Lars Andersen" . "expez@expez.com"))])
  (edna-theme .
-	     [(0 1 0 1 -4 20260213 1954)
+	     [(0 1 0 1 -4 20260214 2320)
 	      ((emacs
 		(26 1)))
 	      "A dark, Edna-inspired theme" tar
 	      ((:url . "https://codeberg.org/golanv/edna-theme")
-	       (:commit . "9d78518745d84f8f712b57ebba2855e2dddfa535")
-	       (:revdesc . "9d78518745d8")
+	       (:commit . "78da1fcde3d03f4ff65b310d19319dc26140566b")
+	       (:revdesc . "78da1fcde3d0")
 	       (:keywords "faces" "theme")
 	       (:authors
 		("golanv" . "https://codeberg.org/golanv"))
@@ -20507,7 +20507,7 @@
 	   ("Peter Badida" . "keyweeusr@gmail.com"))
 	  (:maintainer "Peter Badida" . "keyweeusr@gmail.com"))])
  (ellama .
-	 [(0 1 0 1 -4 20260213 2152)
+	 [(0 1 0 1 -4 20260215 49)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -20522,8 +20522,8 @@
 	    (1 2 3)))
 	  "Tool for interacting with LLMs" tar
 	  ((:url . "http://github.com/s-kostyaev/ellama")
-	   (:commit . "56bb486665f49ea5928437f89683ea778c56b370")
-	   (:revdesc . "56bb486665f4")
+	   (:commit . "d3ede72b263379dcd80cdc99b1de6c4ebf1d2a69")
+	   (:revdesc . "d3ede72b2633")
 	   (:keywords "help" "local" "tools")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
@@ -27171,7 +27171,7 @@
 		   ("Jen-Chieh" . "jcs090218@gmail.com"))
 		  (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (flycheck-eglot .
-		 [(0 1 0 1 -4 20260214 30)
+		 [(0 1 0 1 -4 20260214 2327)
 		  ((emacs
 		    (28 1))
 		   (eglot
@@ -27180,8 +27180,8 @@
 		    (32)))
 		  "Flycheck support for eglot" tar
 		  ((:url . "https://github.com/flycheck/flycheck-eglot")
-		   (:commit . "4464c0b0d2ab9f828f1c4d3c8104888bcd3abe8d")
-		   (:revdesc . "4464c0b0d2ab")
+		   (:commit . "6cf99e53b4e43ac62604ebcb73a6c0794b19a5fe")
+		   (:revdesc . "6cf99e53b4e4")
 		   (:keywords "convenience" "language" "tools")
 		   (:authors
 		    ("Sergey Firsov" . "intramurz@gmail.com"))
@@ -35731,6 +35731,22 @@
 	      (:maintainers
 	       ("Thierry Volpiatto" . "thierry.volpiatto@gmail.com"))
 	      (:maintainer "Thierry Volpiatto" . "thierry.volpiatto@gmail.com"))])
+ (helm-emoji .
+	     [(0 1 0 1 -4 20260210 2200)
+	      ((emacs
+		(29 1))
+	       (helm
+		(3 9 6)))
+	      "Select emojis with Helm" tar
+	      ((:url . "https://codeberg.org/timmli/helm-emoji")
+	       (:commit . "ed523bea5717c722196cdd69eb1e2939b4712efa")
+	       (:revdesc . "ed523bea5717")
+	       (:keywords "matching")
+	       (:authors
+		("Timm Lichte" . "timm.lichte@uni-tuebingen.de"))
+	       (:maintainers
+		("Timm Lichte" . "timm.lichte@uni-tuebingen.de"))
+	       (:maintainer "Timm Lichte" . "timm.lichte@uni-tuebingen.de"))])
  (helm-esa .
 	   [(1 1 0 1 -4 20190721 1429)
 	    ((emacs
@@ -46956,7 +46972,7 @@
 	    (:commit . "2297533003118ebd9db0116b4d3486a987e98ca9")
 	    (:revdesc . "229753300311"))])
  (lsp-dart .
-	   [(0 1 0 1 -4 20260214 1750)
+	   [(0 1 0 1 -4 20260214 2354)
 	    ((emacs
 	      (28 1))
 	     (lsp-treemacs
@@ -46977,8 +46993,8 @@
 	      (2 2)))
 	    "Dart support lsp-mode" tar
 	    ((:url . "https://emacs-lsp.github.io/lsp-dart")
-	     (:commit . "584b398b4341ab15fbb55c883e1ff54f0cd8fa8b")
-	     (:revdesc . "584b398b4341")
+	     (:commit . "166e4f2ba12403da5691d352b587c88d24ddb574")
+	     (:revdesc . "166e4f2ba124")
 	     (:keywords "languages" "extensions"))])
  (lsp-docker .
 	     [(0 1 0 1 -4 20250228 2210)
@@ -61522,15 +61538,15 @@
 	      ("Ryan Davis" . "ryand-ruby@zenspider.com"))
 	     (:maintainer "Ryan Davis" . "ryand-ruby@zenspider.com"))])
  (package-build .
-		[(0 1 0 1 -4 20260115 1042)
+		[(0 1 0 1 -4 20260214 2132)
 		 ((emacs
 		   (26 1))
 		  (compat
 		   (30 1)))
 		 "Tools for assembling a package archive" tar
 		 ((:url . "https://github.com/melpa/package-build")
-		  (:commit . "79cff850383c875119da351567ea4713875f269f")
-		  (:revdesc . "79cff850383c")
+		  (:commit . "32fa831dc51e070abba308d2cfb176e06174af0e")
+		  (:revdesc . "32fa831dc51e")
 		  (:keywords "maint" "tools")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
@@ -62104,7 +62120,7 @@
 	       ("Henrik Jürges" . "juerges.henrik@gmail.com"))
 	      (:maintainer "Henrik Jürges" . "juerges.henrik@gmail.com"))])
  (pass .
-       [(0 1 0 1 -4 20260109 1144)
+       [(0 1 0 1 -4 20260214 2130)
 	((emacs
 	  (25 1))
 	 (password-store
@@ -62115,8 +62131,8 @@
 	  (0 17)))
 	"Major mode for password-store.el" tar
 	((:url . "https://github.com/NicolasPetton/pass")
-	 (:commit . "de4adfaeba5eb4d1facaf75f582f1ba36373299a")
-	 (:revdesc . "de4adfaeba5e")
+	 (:commit . "143456809fd2dbece9f241f4361085e1de0b0e75")
+	 (:revdesc . "143456809fd2")
 	 (:keywords "tools" "files")
 	 (:authors
 	  ("Nicolas Petton" . "petton.nicolas@gmail.com")
@@ -65610,15 +65626,15 @@
 		     (:commit . "36bec1109ba0498c2d1ef29756c841d2e23b063e")
 		     (:revdesc . "36bec1109ba0"))])
  (projectile .
-	     [(0 1 0 1 -4 20260214 2017)
+	     [(0 1 0 1 -4 20260214 2235)
 	      ((emacs
 		(27 1))
 	       (compat
 		(30)))
 	      "Manage and navigate projects in Emacs easily" tar
 	      ((:url . "https://github.com/bbatsov/projectile")
-	       (:commit . "9ca36353567a020fec42e76ee03cd87fff3034a8")
-	       (:revdesc . "9ca36353567a")
+	       (:commit . "12957e12ea5f4eee7419b496ed7c01c6457c1e39")
+	       (:revdesc . "12957e12ea5f")
 	       (:keywords "project" "convenience")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -77357,6 +77373,20 @@
 		    (:commit . "92fb170d572f044aaedaa2535990eba556347dfe")
 		    (:revdesc . "92fb170d572f")
 		    (:keywords "yasnippet" "templating" "convenience" "tools"))])
+ (template-literals-ts-mode .
+			    [(0 1 0 1 -4 20260210 1523)
+			     ((emacs
+			       (30 1)))
+			     "Tree-sitter support for HTML/CSS in JS/TS template literals" tar
+			     ((:url . "https://github.com/ispringle/template-literals-ts-mode")
+			      (:commit . "30d2f1a82029fb698fc2850b110395affaec4b78")
+			      (:revdesc . "30d2f1a82029")
+			      (:keywords "languages" "javascript" "typescript" "tree-sitter")
+			      (:authors
+			       ("Ian S. Pringle" . "ian@dapringles.org"))
+			      (:maintainers
+			       ("Ian S. Pringle" . "ian@dapringles.org"))
+			      (:maintainer "Ian S. Pringle" . "ian@dapringles.org"))])
  (template-overlays .
 		    [(0 0 1 1 -4 20180706 1132)
 		     ((emacs
@@ -82531,6 +82561,20 @@
 	     (:maintainers
 	      ("Matthew Malcomson" . "hardenedapple@gmail.com"))
 	     (:maintainer "Matthew Malcomson" . "hardenedapple@gmail.com"))])
+ (vtab .
+       [(0 1 0 1 -4 20260208 1916)
+	((emacs
+	  (27 1)))
+	"Vertical tab bar" tar
+	((:url . "https://github.com/mugen-void/vtab")
+	 (:commit . "b64327aecc2ee60f6987e6abb25e49e998e2e7fe")
+	 (:revdesc . "b64327aecc2e")
+	 (:keywords "convenience" "frames")
+	 (:authors
+	  ("mugen" . "mugen.void42@gmail.com"))
+	 (:maintainers
+	  ("mugen" . "mugen.void42@gmail.com"))
+	 (:maintainer "mugen" . "mugen.void42@gmail.com"))])
  (vterm .
 	[(0 1 0 1 -4 20251119 1653)
 	 ((emacs
