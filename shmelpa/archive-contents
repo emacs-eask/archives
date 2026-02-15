@@ -20507,7 +20507,7 @@
 	   ("Peter Badida" . "keyweeusr@gmail.com"))
 	  (:maintainer "Peter Badida" . "keyweeusr@gmail.com"))])
  (ellama .
-	 [(0 1 0 1 -4 20260215 49)
+	 [(0 1 0 1 -4 20260215 2002)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -20522,8 +20522,8 @@
 	    (1 2 3)))
 	  "Tool for interacting with LLMs" tar
 	  ((:url . "http://github.com/s-kostyaev/ellama")
-	   (:commit . "d3ede72b263379dcd80cdc99b1de6c4ebf1d2a69")
-	   (:revdesc . "d3ede72b2633")
+	   (:commit . "9352e29a3b3e85bccefd2d61626970004a0495fe")
+	   (:revdesc . "9352e29a3b3e")
 	   (:keywords "help" "local" "tools")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
@@ -26658,15 +26658,15 @@
 		 ("PythonNut" . "pythonnut@pythonnut.com"))
 		(:maintainer "PythonNut" . "pythonnut@pythonnut.com"))])
  (flycheck .
-	   [(0 1 0 1 -4 20260215 1629)
+	   [(0 1 0 1 -4 20260215 2008)
 	    ((emacs
 	      (27 1))
 	     (seq
 	      (2 24)))
 	    "On-the-fly syntax checking" tar
 	    ((:url . "https://www.flycheck.org")
-	     (:commit . "3bc87825a5c0ab0b7a456c3d9c3c2c02f66be906")
-	     (:revdesc . "3bc87825a5c0")
+	     (:commit . "69dfbc4886b22531378f90915711af3bb8754237")
+	     (:revdesc . "69dfbc4886b2")
 	     (:keywords "convenience" "languages" "tools")
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
@@ -52761,13 +52761,13 @@
 	     ("Jacek Sliwerski" . "rzyj@o2.pl"))
 	    (:maintainer "Jacek Sliwerski" . "rzyj@o2.pl"))])
  (neocaml .
-	  [(0 1 0 1 -4 20260215 1627)
+	  [(0 1 0 1 -4 20260215 1537)
 	   ((emacs
 	     (29 1)))
 	   "Major mode for OCaml code" tar
 	   ((:url . "http://github.com/bbatsov/neocaml")
-	    (:commit . "5f4553ffeb76f99598b64ef2adf19184cdf11e48")
-	    (:revdesc . "5f4553ffeb76")
+	    (:commit . "e2d02619a56a47aaf8dec90c554a1647112d6d24")
+	    (:revdesc . "e2d02619a56a")
 	    (:keywords "languages" "ocaml" "ml")
 	    (:authors
 	     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -75720,14 +75720,19 @@
 	     ("těpán Němec" . "stepnem@smrk.net"))
 	    (:maintainer "těpán Němec" . "stepnem@smrk.net"))])
  (stripspace .
-	     [(0 1 0 1 -4 20260114 1604)
+	     [(0 1 0 1 -4 20260215 2013)
 	      ((emacs
 		(24 3)))
 	      "Auto remove trailing whitespace and restore column" tar
 	      ((:url . "https://github.com/jamescherti/stripspace.el")
-	       (:commit . "e2671ccdd30a950ed84105e872ec564d74bef3ba")
-	       (:revdesc . "e2671ccdd30a")
-	       (:keywords "convenience"))])
+	       (:commit . "c6360e4643c8ead16fa68488d2116d77208c12f6")
+	       (:revdesc . "c6360e4643c8")
+	       (:keywords "convenience")
+	       (:authors
+		("James Cherti" . "https://www.jamescherti.com/contact/"))
+	       (:maintainers
+		("James Cherti" . "https://www.jamescherti.com/contact/"))
+	       (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (structurizr .
 	      [(0 1 0 1 -4 20251124 1900)
 	       ((emacs
@@ -78908,14 +78913,19 @@
 		  ("William Glass" . "william.glass@gmail.com"))
 		 (:maintainer "William Glass" . "william.glass@gmail.com"))])
  (tomorrow-night-deepblue-theme .
-				[(0 1 0 1 -4 20260114 1535)
+				[(0 1 0 1 -4 20260215 2013)
 				 ((emacs
 				   (26 1)))
 				 "The Tomorrow Night Deepblue color theme" tar
 				 ((:url . "https://github.com/jamescherti/tomorrow-night-deepblue-theme.el")
-				  (:commit . "28170a5c5d9cec2af1531f12b284037fe7fd043c")
-				  (:revdesc . "28170a5c5d9c")
-				  (:keywords "faces" "themes"))])
+				  (:commit . "5e688cde3fe91a929a3f36d9311eddc9e0dec0b0")
+				  (:revdesc . "5e688cde3fe9")
+				  (:keywords "faces" "themes")
+				  (:authors
+				   ("James Cherti" . "https://www.jamescherti.com/contact/"))
+				  (:maintainers
+				   ("James Cherti" . "https://www.jamescherti.com/contact/"))
+				  (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (tongbu .
 	 [(0 1 -4 20200414 507)
 	  ((emacs
@@ -79605,15 +79615,15 @@
 			("Erick Navarro" . "erick@navarro.io"))
 		       (:maintainer "Erick Navarro" . "erick@navarro.io"))])
  (tree-sitter-langs .
-		    [(0 1 0 1 -4 20260209 946)
+		    [(0 1 0 1 -4 20260215 1903)
 		     ((emacs
 		       (26 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
 		     ((:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs")
-		      (:commit . "ce28761a827c71e2b987ebd39a6178c733a0c766")
-		      (:revdesc . "ce28761a827c")
+		      (:commit . "541af2244b9eb4db0871e17c80ae741485d9da1e")
+		      (:revdesc . "541af2244b9e")
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
@@ -80617,14 +80627,19 @@
 		("DEADBLACKCLOVER" . "deadblackclover@protonmail.com"))
 	       (:maintainer "DEADBLACKCLOVER" . "deadblackclover@protonmail.com"))])
  (ultisnips-mode .
-		 [(0 1 0 1 -4 20260203 255)
+		 [(0 1 0 1 -4 20260215 2013)
 		  ((emacs
 		    (26 3)))
 		  "Major mode for editing Ultisnips snippets" tar
 		  ((:url . "https://github.com/jamescherti/ultisnips-mode.el")
-		   (:commit . "6b66405bb5e72e02d0f2df83d5918b499c564b2a")
-		   (:revdesc . "6b66405bb5e7")
-		   (:keywords "languages"))])
+		   (:commit . "a33c16dca1f8669db7132500cedab959a271a62b")
+		   (:revdesc . "a33c16dca1f8")
+		   (:keywords "languages")
+		   (:authors
+		    ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		   (:maintainers
+		    ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		   (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (ultra-scroll .
 	       [(0 1 0 1 -4 20260113 2343)
 		((emacs
@@ -82259,14 +82274,19 @@
 		("ongaeshi" . "ongaeshi0621@gmail.com"))
 	       (:maintainer "ongaeshi" . "ongaeshi0621@gmail.com"))])
  (vim-tab-bar .
-	      [(0 1 0 1 -4 20260210 1242)
+	      [(0 1 0 1 -4 20260215 2013)
 	       ((emacs
 		 (28 1)))
 	       "Vim-like tab bar" tar
 	       ((:url . "https://github.com/jamescherti/vim-tab-bar.el")
-		(:commit . "22d2d8a92b8d8cd0532c8382dcfe7df405f1563a")
-		(:revdesc . "22d2d8a92b8d")
-		(:keywords "frames"))])
+		(:commit . "2e833ba5b799149efb89cbafd16f1655fe4854e2")
+		(:revdesc . "2e833ba5b799")
+		(:keywords "frames")
+		(:authors
+		 ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		(:maintainers
+		 ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		(:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (vimgolf .
 	  [(0 10 4 -4 20200205 1420)
 	   nil "VimGolf interface for the One True Editor" tar
