@@ -884,13 +884,13 @@
 	       (:commit . "ae8788b5851ea353fbb80ab586a3bbd5dc8e91aa")
 	       (:revdesc . "ae8788b5851e"))])
  (acp .
-      [(0 1 0 1 -4 20260213 1849)
+      [(0 1 0 1 -4 20260215 2309)
        ((emacs
 	 (28 1)))
        "An ACP (Agent Client Protocol) implementation" tar
        ((:url . "https://github.com/xenodium/acp.el")
-	(:commit . "e5dec95452de8b4cbacf41156d4dfa261668ae31")
-	(:revdesc . "e5dec95452de"))])
+	(:commit . "b9bc89948bb1242e613b8ed5d271c88c00e2ef4a")
+	(:revdesc . "b9bc89948bb1"))])
  (act-mode .
 	   [(1 0 1 -4 20240718 39)
 	    ((emacs
@@ -1199,17 +1199,17 @@
 	    ("Tomasz Maciosowski" . "t4ccer@gmail.com"))
 	   (:maintainer "Tomasz Maciosowski" . "t4ccer@gmail.com"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260214 2027)
+	      [(0 1 0 1 -4 20260215 2310)
 	       ((emacs
 		 (29 1))
 		(shell-maker
 		 (0 85 1))
 		(acp
-		 (0 9 1)))
+		 (0 10 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "c617076cae65468de645abdef4c8d07d7cf26c49")
-		(:revdesc . "c617076cae65"))])
+		(:commit . "034baa3f6df4bc0cb8f2056339f50b658005647e")
+		(:revdesc . "034baa3f6df4"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -3411,13 +3411,13 @@
 			("Sho Takemori" . "stakemorii@gmail.com"))
 		       (:maintainer "Sho Takemori" . "stakemorii@gmail.com"))])
  (auto-dark .
-	    [(0 1 0 1 -4 20251006 358)
+	    [(0 1 0 1 -4 20260215 2206)
 	     ((emacs
 	       (24 4)))
 	     "Automatically set the dark-mode theme based on system status" tar
 	     ((:url . "https://github.com/LionyxML/auto-dark-emacs")
-	      (:commit . "a71e791e47d09c5bf4bcbc2bbd7300b71ff72f1a")
-	      (:revdesc . "a71e791e47d0")
+	      (:commit . "9194f46775ab00998bb6393badaf0f82ace5e298")
+	      (:revdesc . "9194f46775ab")
 	      (:keywords "macos" "windows" "linux" "themes" "tools" "faces")
 	      (:authors
 	       ("Tim Harper" . "timcharperatgmaildotcom")
@@ -6326,14 +6326,19 @@
 		 ("Samuel W. Flint" . "swflint@flintfam.org"))
 		(:maintainer "Samuel W. Flint" . "swflint@flintfam.org"))])
  (buffer-terminator .
-		    [(0 1 0 1 -4 20260212 2003)
+		    [(0 1 0 1 -4 20260215 2013)
 		     ((emacs
 		       (25 1)))
 		     "Safely Terminate/Kill Buffers Automatically" tar
 		     ((:url . "https://github.com/jamescherti/buffer-terminator.el")
-		      (:commit . "262cf10e51c0ffb26fab9edb228e6ed51650fcbe")
-		      (:revdesc . "262cf10e51c0")
-		      (:keywords "convenience"))])
+		      (:commit . "22be91a46d07add6aa949d608d6aa561051f3866")
+		      (:revdesc . "22be91a46d07")
+		      (:keywords "convenience")
+		      (:authors
+		       ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		      (:maintainers
+		       ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		      (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (buffer-utils .
 	       [(0 1 0 1 -4 20140512 1400)
 		nil "Buffer-manipulation utility functions" tar
@@ -6389,14 +6394,19 @@
 	       ("Ryan Walsh" . "blueridge-data@github"))
 	      (:maintainer "Ryan Walsh" . "blueridge-data@github"))])
  (bufferfile .
-	     [(0 1 0 1 -4 20260114 1535)
+	     [(0 1 0 1 -4 20260215 2013)
 	      ((emacs
 		(26 1)))
 	      "Rename/Delete/Copy Files and Associated Buffers" tar
 	      ((:url . "https://github.com/jamescherti/bufferfile.el")
-	       (:commit . "6bcff99b4e78a83ffaa15f1ce95f4f0421db64b0")
-	       (:revdesc . "6bcff99b4e78")
-	       (:keywords "convenience"))])
+	       (:commit . "6c3a089b3b25a26880f672a900402d59b638837d")
+	       (:revdesc . "6c3a089b3b25")
+	       (:keywords "convenience")
+	       (:authors
+		("James Cherti" . "https://www.jamescherti.com/contact/"))
+	       (:maintainers
+		("James Cherti" . "https://www.jamescherti.com/contact/"))
+	       (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (bufler .
 	 [(0 1 0 1 -4 20250327 2246)
 	  ((emacs
@@ -9618,13 +9628,13 @@
 		("Youngjoo Lee" . "youngker@gmail.com"))
 	       (:maintainer "Austin Bingham" . "austin.bingham@gmail.com"))])
  (codespaces .
-	     [(0 1 0 1 -4 20260214 1840)
+	     [(0 1 0 1 -4 20260215 2353)
 	      ((emacs
 		(28 1)))
 	      "Connect to GitHub Codespaces via TRAMP" tar
 	      ((:url . "https://github.com/F4ban/codespaces.el")
-	       (:commit . "07b9b2f47a6a470b7d64574cebf12148df74618a")
-	       (:revdesc . "07b9b2f47a6a")
+	       (:commit . "8fa6758a0cda1fab373cb088fc33a60133adb3b5")
+	       (:revdesc . "8fa6758a0cda")
 	       (:keywords "comm")
 	       (:authors
 		("Patrick Thomson" . "patrickt@github.com"))
@@ -11372,14 +11382,19 @@
 				      ("Seong Yong-ju" . "sei40kr@gmail.com"))
 				     (:maintainer "Seong Yong-ju" . "sei40kr@gmail.com"))])
  (compile-angel .
-		[(0 1 0 1 -4 20260215 1554)
+		[(0 1 0 1 -4 20260215 2153)
 		 ((emacs
 		   (26 3)))
 		 "Automatically Compile Elisp files (auto-compile alternative)" tar
 		 ((:url . "https://github.com/jamescherti/compile-angel.el")
-		  (:commit . "7063a08e38815c756c588e04aa8c129b43214962")
-		  (:revdesc . "7063a08e3881")
-		  (:keywords "convenience"))])
+		  (:commit . "4de82266d54bfe8454e2f1364545922df0d76e51")
+		  (:revdesc . "4de82266d54b")
+		  (:keywords "convenience")
+		  (:authors
+		   ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		  (:maintainers
+		   ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		  (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (compile-multi .
 		[(0 1 0 1 -4 20250831 1542)
 		 ((emacs
@@ -15788,14 +15803,19 @@
 	      ("Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))
 	     (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
  (dir-config .
-	     [(0 1 0 1 -4 20260114 1604)
+	     [(0 1 0 1 -4 20260215 2013)
 	      ((emacs
 		(25 1)))
 	      "Find and evaluate .dir-config.el (dir-locals alternative)" tar
 	      ((:url . "https://github.com/jamescherti/dir-config.el")
-	       (:commit . "4ac26d4698b841f438c0896896f39db90c120571")
-	       (:revdesc . "4ac26d4698b8")
-	       (:keywords "convenience"))])
+	       (:commit . "765a697d17dbd969c1bb5551f14c6d0524439097")
+	       (:revdesc . "765a697d17db")
+	       (:keywords "convenience")
+	       (:authors
+		("James Cherti" . "https://www.jamescherti.com/contact/"))
+	       (:maintainers
+		("James Cherti" . "https://www.jamescherti.com/contact/"))
+	       (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (dir-treeview .
 	       [(0 1 0 1 -4 20241025 2251)
 		((emacs
@@ -18499,14 +18519,19 @@
 			("Ayush Jha" . "ayys@duck.com"))
 		       (:maintainer "Ayush Jha" . "ayys@duck.com"))])
  (easysession .
-	      [(0 1 0 1 -4 20260215 1323)
+	      [(0 1 0 1 -4 20260215 2013)
 	       ((emacs
 		 (26 1)))
 	       "Persist and restore your sessions (desktop.el alternative)" tar
 	       ((:url . "https://github.com/jamescherti/easysession.el")
-		(:commit . "21c916cc674dda61469c365b682fbb4c471f9c9c")
-		(:revdesc . "21c916cc674d")
-		(:keywords "convenience"))])
+		(:commit . "94183a7f86524e006d7bb25a72c45f2914cbe744")
+		(:revdesc . "94183a7f8652")
+		(:keywords "convenience")
+		(:authors
+		 ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		(:maintainers
+		 ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		(:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (ebdb-mua-sidecar .
 		   [(0 1 0 1 -4 20251029 1934)
 		    ((emacs
@@ -20507,7 +20532,7 @@
 	   ("Peter Badida" . "keyweeusr@gmail.com"))
 	  (:maintainer "Peter Badida" . "keyweeusr@gmail.com"))])
  (ellama .
-	 [(0 1 0 1 -4 20260215 2002)
+	 [(0 1 0 1 -4 20260215 2332)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -20522,8 +20547,8 @@
 	    (1 2 3)))
 	  "Tool for interacting with LLMs" tar
 	  ((:url . "http://github.com/s-kostyaev/ellama")
-	   (:commit . "9352e29a3b3e85bccefd2d61626970004a0495fe")
-	   (:revdesc . "9352e29a3b3e")
+	   (:commit . "205190aac333d032243ab63aff235444d726bf57")
+	   (:revdesc . "205190aac333")
 	   (:keywords "help" "local" "tools")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
@@ -26341,6 +26366,20 @@
 	       (:commit . "fac0011983251d5c44f4ed1eacac03f5de3caac4")
 	       (:revdesc . "fac001198325")
 	       (:keywords "games"))])
+ (flash .
+	[(0 1 0 1 -4 20260215 1752)
+	 ((emacs
+	   (27 1)))
+	 "Flash-style navigation" tar
+	 ((:url . "https://github.com/Prgebish/flash")
+	  (:commit . "d5c8a7eb15e51847cd2fd6554c761a91c7d22baa")
+	  (:revdesc . "d5c8a7eb15e5")
+	  (:keywords "convenience" "navigation")
+	  (:authors
+	   ("Vadim Pavlov" . "https://github.com/Prgebish"))
+	  (:maintainers
+	   ("Vadim Pavlov" . "https://github.com/Prgebish"))
+	  (:maintainer "Vadim Pavlov" . "https://github.com/Prgebish"))])
  (flash-region .
 	       [(1 0 1 -4 20130923 1817)
 		nil "Flash a region" tar
@@ -28424,14 +28463,19 @@
 			("ROCKTAKEY" . "rocktakey@gmail.com"))
 		       (:maintainer "ROCKTAKEY" . "rocktakey@gmail.com"))])
  (flymake-ansible-lint .
-		       [(0 1 0 1 -4 20260114 1535)
+		       [(0 1 0 1 -4 20260215 2013)
 			((emacs
 			  (27 1)))
 			"A Flymake backend for ansible-lint" tar
 			((:url . "https://github.com/jamescherti/flymake-ansible-lint.el")
-			 (:commit . "8eadddad5fac18cb5625f70371890813ff9d5b87")
-			 (:revdesc . "8eadddad5fac")
-			 (:keywords "tools"))])
+			 (:commit . "580ae9b179aab4ee4b90c07be0b82a80f314ccf8")
+			 (:revdesc . "580ae9b179aa")
+			 (:keywords "tools")
+			 (:authors
+			  ("James Cherti" . "https://www.jamescherti.com/contact/"))
+			 (:maintainers
+			  ("James Cherti" . "https://www.jamescherti.com/contact/"))
+			 (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (flymake-aspell .
 		 [(0 1 0 1 -4 20260105 2025)
 		  ((emacs
@@ -28447,16 +28491,21 @@
 		    ("Leo Gaskin" . "leo.gaskin@le0.gs"))
 		   (:maintainer "Leo Gaskin" . "leo.gaskin@le0.gs"))])
  (flymake-bashate .
-		  [(0 1 0 1 -4 20260114 1535)
+		  [(0 1 0 1 -4 20260215 2013)
 		   ((flymake-quickdef
 		     (1 0 0))
 		    (emacs
 		     (27 1)))
 		   "A Flymake backend for bashate, a Bash scripts style checker" tar
 		   ((:url . "https://github.com/jamescherti/flymake-bashate.el")
-		    (:commit . "91a687fd2c10c09e3509ea32e91209877affe379")
-		    (:revdesc . "91a687fd2c10")
-		    (:keywords "tools"))])
+		    (:commit . "128f24cbaae9e6bb749169bf5a8e0acfe179c3cb")
+		    (:revdesc . "128f24cbaae9")
+		    (:keywords "tools")
+		    (:authors
+		     ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		    (:maintainers
+		     ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		    (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (flymake-biome .
 		[(0 1 0 1 -4 20241007 1626)
 		 ((emacs
@@ -30401,7 +30450,7 @@
 	  ("Natalie Weizenbaum" . "nweiz@google.com"))
 	 (:maintainer "Natalie Weizenbaum" . "nweiz@google.com"))])
  (fussy .
-	[(0 1 0 1 -4 20250820 104)
+	[(0 1 0 1 -4 20260216 27)
 	 ((emacs
 	   (28 2))
 	  (flx
@@ -30410,8 +30459,8 @@
 	   (30 0 0 0)))
 	 "Fuzzy completion style using `flx'" tar
 	 ((:url . "https://github.com/jojojames/fussy")
-	  (:commit . "163ded34be3e9230702201d0abe1e7b85e815c2d")
-	  (:revdesc . "163ded34be3e")
+	  (:commit . "17ca387c077f47553239816f41d6f0e351a21103")
+	  (:revdesc . "17ca387c077f")
 	  (:keywords "matching")
 	  (:authors
 	   ("James Nguyen" . "james@jojojames.com"))
@@ -34288,13 +34337,13 @@
 	   ("Jürgen Hötzel" . "juergen.hoetzel@hr.de"))
 	  (:maintainer "Jürgen Hötzel" . "juergen.hoetzel@hr.de"))])
  (guava-themes .
-	       [(0 1 0 1 -4 20260121 2115)
+	       [(0 1 0 1 -4 20260215 2225)
 		((emacs
 		  (24 1)))
 		"A pack of plant-inspired themes" tar
 		((:url . "http://github.com/bormoge/guava-themes")
-		 (:commit . "38ca52de6b8b9a70ca0e1f5344d3f4caa4d81a3a")
-		 (:revdesc . "38ca52de6b8b")
+		 (:commit . "f86baca1b8161fd72bb677c71bcff9cc9fff38b6")
+		 (:revdesc . "f86baca1b816")
 		 (:keywords "themes" "faces" "color")
 		 (:authors
 		  ("Geralld Borbón" . "eternalmangocean@gmail.com"))
@@ -40422,14 +40471,19 @@
 		("Steve Purcell" . "steve@sanityinc.com"))
 	       (:maintainer "Steve Purcell" . "steve@sanityinc.com"))])
  (inhibit-mouse .
-		[(0 1 0 1 -4 20260114 1535)
+		[(0 1 0 1 -4 20260215 2013)
 		 ((emacs
 		   (24 1)))
 		 "Deactivate mouse input (alternative to disable-mouse)" tar
 		 ((:url . "https://github.com/jamescherti/inhibit-mouse.el")
-		  (:commit . "448a86b679dc4d45ec74f94d1471b51850bfd6b8")
-		  (:revdesc . "448a86b679dc")
-		  (:keywords "convenience"))])
+		  (:commit . "cffda3c6fe4f662e1438a347259d914db410f2dd")
+		  (:revdesc . "cffda3c6fe4f")
+		  (:keywords "convenience")
+		  (:authors
+		   ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		  (:maintainers
+		   ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		  (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (ini .
       [(1 0 1 -4 20220827 2009)
        ((emacs
@@ -44180,14 +44234,19 @@
 		      ("Nikolaj Schumacher" . "bugs*nschumde"))
 		     (:maintainer "Nikolaj Schumacher" . "bugs*nschumde"))])
  (kirigami .
-	   [(0 1 0 1 -4 20260215 1818)
+	   [(0 1 0 1 -4 20260215 2013)
 	    ((emacs
 	      (26 3)))
 	    "A unified method to fold and unfold text" tar
 	    ((:url . "https://github.com/jamescherti/kirigami.el")
-	     (:commit . "9e13bb51ccb2a8d66331ee83d5aef45bf30b9843")
-	     (:revdesc . "9e13bb51ccb2")
-	     (:keywords "convenience"))])
+	     (:commit . "067ca5c96faab2715dec0a46420a60945c621b82")
+	     (:revdesc . "067ca5c96faa")
+	     (:keywords "convenience")
+	     (:authors
+	      ("James Cherti" . "https://www.jamescherti.com/contact/"))
+	     (:maintainers
+	      ("James Cherti" . "https://www.jamescherti.com/contact/"))
+	     (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (kite .
        [(0 1 1 -4 20130201 1938)
 	((json
@@ -44517,7 +44576,7 @@
 	    (:authors
 	     ("Dean Lindqvist Todevski" . "https://github.com/r0bobo")))])
  (kubel .
-	[(0 1 0 1 -4 20260215 1652)
+	[(0 1 0 1 -4 20260216 52)
 	 ((transient
 	   (0 1 0))
 	  (emacs
@@ -44530,8 +44589,8 @@
 	   (0 0 14)))
 	 "Control Kubernetes with limited permissions" tar
 	 ((:url . "https://github.com/abrochard/kubel")
-	  (:commit . "fdcbc04c146b096c860dbae3f1aaae21d84e8c5a")
-	  (:revdesc . "fdcbc04c146b")
+	  (:commit . "cee2cadc5fbe05bd35eee916f2f13b97cab85147")
+	  (:revdesc . "cee2cadc5fbe")
 	  (:keywords "kubernetes" "k8s" "tools" "processes"))])
  (kubel-evil .
 	     [(1 0 1 -4 20231224 1343)
@@ -52761,13 +52820,13 @@
 	     ("Jacek Sliwerski" . "rzyj@o2.pl"))
 	    (:maintainer "Jacek Sliwerski" . "rzyj@o2.pl"))])
  (neocaml .
-	  [(0 1 0 1 -4 20260215 1537)
+	  [(0 1 0 1 -4 20260215 2148)
 	   ((emacs
 	     (29 1)))
 	   "Major mode for OCaml code" tar
 	   ((:url . "http://github.com/bbatsov/neocaml")
-	    (:commit . "e2d02619a56a47aaf8dec90c554a1647112d6d24")
-	    (:revdesc . "e2d02619a56a")
+	    (:commit . "f68f3ef0c1a8d5c0b881e0602690065792a92b39")
+	    (:revdesc . "f68f3ef0c1a8")
 	    (:keywords "languages" "ocaml" "ml")
 	    (:authors
 	     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -60571,14 +60630,19 @@
 	   ("J.D. Smith" . "jdtsmith@gmail.com"))
 	  (:maintainer "J.D. Smith" . "jdtsmith@gmail.com"))])
  (outline-indent .
-		 [(0 1 0 1 -4 20260212 1754)
+		 [(0 1 0 1 -4 20260215 2013)
 		  ((emacs
 		    (26 1)))
 		  "Folding text based on indentation (origami alternative)" tar
 		  ((:url . "https://github.com/jamescherti/outline-indent.el")
-		   (:commit . "0f072f6c9140dc1756b4a11ad9d8f1159a9c410c")
-		   (:revdesc . "0f072f6c9140")
-		   (:keywords "outlines"))])
+		   (:commit . "344f18654e0111a64c779622fc76969a2427b251")
+		   (:revdesc . "344f18654e01")
+		   (:keywords "outlines")
+		   (:authors
+		    ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		   (:maintainers
+		    ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		   (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (outline-magic .
 		[(0 9 1 1 -4 20180619 1819)
 		 nil "Outline mode extensions for Emacs" tar
@@ -62374,14 +62438,19 @@
 		 ("Arnaud Rouanet" . "arnaud@rouanet.org"))
 		(:maintainer "Arnaud Rouanet" . "arnaud@rouanet.org"))])
  (pathaction .
-	     [(0 1 0 1 -4 20260210 1150)
+	     [(0 1 0 1 -4 20260215 2013)
 	      ((emacs
 		(24 4)))
 	      "Execute the pathaction.yaml rules from your editor" tar
 	      ((:url . "https://github.com/jamescherti/pathaction.el")
-	       (:commit . "4fa63b7868e068bb1b06209af18722cb1c8983ab")
-	       (:revdesc . "4fa63b7868e0")
-	       (:keywords "convenience"))])
+	       (:commit . "8a7c00b050e5f847f126c58889c5114336f5b744")
+	       (:revdesc . "8a7c00b050e5")
+	       (:keywords "convenience")
+	       (:authors
+		("James Cherti" . "https://www.jamescherti.com/contact/"))
+	       (:maintainers
+		("James Cherti" . "https://www.jamescherti.com/contact/"))
+	       (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (pathify .
 	  [(0 1 1 -4 20160423 846)
 	   nil "Symlink your scripts into a PATH directory" tar
@@ -62861,14 +62930,19 @@
 		   ("Bram Schoenmakers" . "me@bramschoenmakers.nl"))
 		  (:maintainer "Bram Schoenmakers" . "me@bramschoenmakers.nl"))])
  (persist-text-scale .
-		     [(0 1 0 1 -4 20260204 1727)
+		     [(0 1 0 1 -4 20260215 2013)
 		      ((emacs
 			(26 1)))
 		      "Persist and restore text scale" tar
 		      ((:url . "https://github.com/jamescherti/persist-text-scale.el")
-		       (:commit . "11a77f63a0cf7aa8ac836dab077e0dbb11e8f332")
-		       (:revdesc . "11a77f63a0cf")
-		       (:keywords "convenience"))])
+		       (:commit . "1d2983986a32da95c878ce05929f43ecc370c82c")
+		       (:revdesc . "1d2983986a32")
+		       (:keywords "convenience")
+		       (:authors
+			("James Cherti" . "https://www.jamescherti.com/contact/"))
+		       (:maintainers
+			("James Cherti" . "https://www.jamescherti.com/contact/"))
+		       (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (persistent-overlays .
 		      [(0 9 1 -4 20161128 700)
 		       nil "Minor mode to store selected overlays to be loaded later" tar
@@ -74747,6 +74821,22 @@
 		     (:maintainers
 		      ("Campbell Barton" . "ideasman42@gmail.com"))
 		     (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
+ (spatial-window .
+		 [(0 1 0 1 -4 20260215 304)
+		  ((emacs
+		    (28 1))
+		   (posframe
+		    (1 0 0)))
+		  "Jump to windows using keyboard spatial mapping" tar
+		  ((:url . "https://github.com/lewang/spatial-window")
+		   (:commit . "d194ae2864c3f894766cf7f59306aff57afd9dcc")
+		   (:revdesc . "d194ae2864c3")
+		   (:keywords "convenience" "windows")
+		   (:authors
+		    ("Le Wang" . "lewang.dev.26@gmail.com"))
+		   (:maintainers
+		    ("Le Wang" . "lewang.dev.26@gmail.com"))
+		   (:maintainer "Le Wang" . "lewang.dev.26@gmail.com"))])
  (spdx .
        [(0 1 0 1 -4 20260131 114)
 	((emacs
@@ -80455,7 +80545,7 @@
 		  ("Kadir Can etin" . "kadircancetin@gmail.com"))
 		 (:maintainer "Kadir Can etin" . "kadircancetin@gmail.com"))])
  (typst-preview .
-		[(0 1 0 1 -4 20251110 824)
+		[(0 1 0 1 -4 20260215 2252)
 		 ((emacs
 		   (28 1))
 		  (websocket
@@ -80464,8 +80554,8 @@
 		   (30 1)))
 		 "Live preview of typst" tar
 		 ((:url . "https://github.com/havarddj/typst-preview.el")
-		  (:commit . "c685857f2d61133fc268509b39796b2718728f29")
-		  (:revdesc . "c685857f2d61")
+		  (:commit . "7e89cf105e4fef5e79977a4a790d5b3b18d305f6")
+		  (:revdesc . "7e89cf105e4f")
 		  (:keywords "convenience" "languages" "tools")
 		  (:authors
 		   ("Håvard Damm-Johnsen" . "havard-dj@proton.me"))
