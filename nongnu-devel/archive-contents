@@ -212,10 +212,10 @@
       (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
       (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider
-  . [(1 21 0 -4 0 20260128 165118)
-     ((emacs (28)) (clojure-mode (5 19)) (parseedn (1 2 1))
-      (queue (0 2)) (spinner (1 7)) (seq (2 22)) (sesman (0 3 2))
-      (transient (0 4 1)))
+  . [(1 22 0 -4 0 20260209 125813)
+     ((emacs (28)) (clojure-mode (5 19)) (compat (30))
+      (parseedn (1 2 1)) (queue (0 2)) (spinner (1 7)) (seq (2 22))
+      (sesman (0 3 2)) (transient (0 4 1)))
      "Clojure Interactive Development Environment that Rocks" tar
      ((:url . "https://www.github.com/clojure-emacs/cider")
       (:keywords "languages" "clojure" "cider")
@@ -226,7 +226,7 @@
 		("Artur Malabarba" . "bruce.connor.am@gmail.com")
 		("Hugo Duncan" . "hugo@hugoduncan.org")
 		("Steve Purcell" . "steve@sanityinc.com"))
-      (:commit . "7d5c4eae459605a713f281711b6671150fe92195"))])
+      (:commit . "ae247d88455c79d6c039d9c322347c77ab3ad11b"))])
  (clojure-mode
   . [(5 20 0 0 20260212 151851) ((emacs (27 1)))
      "Major mode for Clojure code" tar
@@ -511,6 +511,14 @@
       (:maintainer "Connor Smith" . "wconnorsmith@gmail.com")
       (:authors ("Connor Smith" . "wconnorsmith@gmail.com"))
       (:commit . "a8151556f63c9d45d0c44c8a7ef9e5a542f3cdc7"))])
+ (evil-emacs-cursor-model-mode
+  . [(0 1 3 0 20260216 214825) ((emacs (29 1)) (evil (1 15 0)))
+     "Emacs' cursor model in evil-mode" tar
+     ((:url
+       . "https://github.com/maxfriis/evil-emacs-cursor-model-mode")
+      (:keywords "convenience" "files")
+      (:maintainer "Peter Friis Jensen" . "maxfriis@gmail.com")
+      (:commit . "6ad89445b34157143aa1e38ead4a9bfb20da35d0"))])
  (evil-escape
   . [(3 16 0 20241212 131839)
      ((emacs (26)) (evil (1 14 0)) (cl-lib (0 5)))
@@ -1147,11 +1155,11 @@
       (:authors ("martian hiatus" . "mousebot@disroot.org"))
       (:commit . "a0f4fa89fe73dfe7412f5d25d6e0619abf8cff14"))])
  (llama
-  . [(1 0 3 0 20260101 183011) ((emacs (26 1)) (compat (30 1)))
+  . [(1 0 3 0 20260217 210434) ((emacs (26 1)) (compat (30 1)))
      "Compact syntax for short lambda" tar
      ((:url . "https://github.com/tarsius/llama")
       (:keywords "extensions")
-      (:commit . "2a89ba755b0459914a44b1ffa793e57f759a5b85"))])
+      (:commit . "de61773fc378d40f478f8daf67543a51889ecded"))])
  (logview
   . [(0 19 4 -4 0 20251104 172505)
      ((emacs (25 1)) (datetime (0 8)) (extmap (1 0)) (compat (29)))
@@ -2014,11 +2022,11 @@
       (:authors ("Joost Kremers" . "joostkremers@fastmail.fm"))
       (:commit . "e1be9a1545157d24454d950c0ac79553c540edb7"))])
  (vm
-  . [(8 3 3 -4 0 20251229 112614) ((emacs (28 1)) (vcard (0 2 2)))
+  . [(8 3 3 -4 0 20260217 60703) ((emacs (28 1)) (vcard (0 2 2)))
      "VM mail reader" tar
      ((:url . "https://gitlab.com/emacs-vm/vm") (:keywords "mail")
       (:maintainer nil . "viewmail-info@nongnu.org")
-      (:commit . "3ea1764efdd871383d16df82407ddad4fde6bee3"))])
+      (:commit . "2b2228464fe7e77b5f2a57606340e2e9feb29edd"))])
  (web-mode
   . [(17 3 22 0 20251214 172854) ((emacs (23 1)))
      "major mode for editing web templates" tar
