@@ -21803,7 +21803,7 @@
 	     ("Chris Clark" . "cfclrk@gmail.com"))
 	    (:maintainer "Chris Clark" . "cfclrk@gmail.com"))])
  (envrc .
-	[(0 1 0 1 -4 20260209 1350)
+	[(0 1 0 1 -4 20260218 842)
 	 ((emacs
 	   (27 1))
 	  (inheritenv
@@ -21812,8 +21812,8 @@
 	   (2 24)))
 	 "Support for `direnv' that operates buffer-locally" tar
 	 ((:url . "https://github.com/purcell/envrc")
-	  (:commit . "d3289e92e0e2fc39a2be3f3bb382f99a9c5dc8e3")
-	  (:revdesc . "d3289e92e0e2")
+	  (:commit . "f44353c42c0794cdc6629c83a923d1689f33469f")
+	  (:revdesc . "f44353c42c07")
 	  (:keywords "processes" "tools")
 	  (:authors
 	   ("Steve Purcell" . "steve@sanityinc.com"))
@@ -33564,7 +33564,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20260213 754)
+	[(0 1 0 1 -4 20260218 859)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -33573,8 +33573,8 @@
 	   (30 1 0 0)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "8879956648cc40e27c624ec6221971b7ab79d457")
-	  (:revdesc . "8879956648cc")
+	  (:commit . "40c34b071ec498f1fa2f1eb67945e734d7d76ab2")
+	  (:revdesc . "40c34b071ec4")
 	  (:keywords "convenience" "tools")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -42409,7 +42409,7 @@
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de"))])
  (jira .
-       [(0 1 0 1 -4 20260210 1939)
+       [(0 1 0 1 -4 20260218 721)
 	((emacs
 	  (29 1))
 	 (request
@@ -42422,8 +42422,8 @@
 	  (4 2 0)))
 	"Emacs Interface to Jira" tar
 	((:url . "https://github.com/unmonoqueteclea/jira.el")
-	 (:commit . "0dab542ec0ccd56438aab8dc8c9ce0b2775a48e7")
-	 (:revdesc . "0dab542ec0cc")
+	 (:commit . "b578426e7f4d6d4c41a41788053e88e6a5290f84")
+	 (:revdesc . "b578426e7f4d")
 	 (:authors
 	  ("Pablo González Carrizo" . "unmonoqueteclea@gmail.com"))
 	 (:maintainers
@@ -52818,13 +52818,13 @@
 	     ("Jacek Sliwerski" . "rzyj@o2.pl"))
 	    (:maintainer "Jacek Sliwerski" . "rzyj@o2.pl"))])
  (neocaml .
-	  [(0 1 0 1 -4 20260217 826)
+	  [(0 1 0 1 -4 20260218 745)
 	   ((emacs
 	     (29 1)))
 	   "Major mode for OCaml code" tar
 	   ((:url . "https://github.com/bbatsov/neocaml")
-	    (:commit . "4218ba706816659708e2f9cc56fa224dac090e19")
-	    (:revdesc . "4218ba706816")
+	    (:commit . "8db3894f034ae02ced6b0f0262edd724a8c4a29b")
+	    (:revdesc . "8db3894f034a")
 	    (:keywords "languages" "ocaml" "ml")
 	    (:authors
 	     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -55806,13 +55806,13 @@
 	      ("Paul W. Rankin" . "rnkn@rnkn.xyz"))
 	     (:maintainer "Paul W. Rankin" . "rnkn@rnkn.xyz"))])
  (ollama-buddy .
-	       [(0 1 0 1 -4 20260218 726)
+	       [(0 1 0 1 -4 20260218 832)
 		((emacs
 		  (28 1)))
 		"Ollama LLM AI Assistant ChatGPT Claude Gemini Grok Codestral DeepSeek OpenRouter Support" tar
 		((:url . "https://github.com/captainflasmr/ollama-buddy")
-		 (:commit . "b38a108510830cea2d4e523ec8ef5cae76cf4248")
-		 (:revdesc . "b38a10851083")
+		 (:commit . "189b3aff77e160d88b216c1678fba4b3a750b821")
+		 (:revdesc . "189b3aff77e1")
 		 (:keywords "applications" "tools" "convenience")
 		 (:authors
 		  ("James Dyer" . "captainflasmr@gmail.com"))
@@ -55994,13 +55994,15 @@
 	      (:revdesc . "b8ee8cea45c9")
 	      (:keywords "evil" "smartparens"))])
  (once .
-       [(0 1 0 1 -4 20260217 2157)
+       [(0 1 0 1 -4 20260218 751)
 	((emacs
-	  (26 1)))
+	  (26 1))
+	 (compat
+	  (30 1)))
 	"Add-hook and eval-after-load, but only once" tar
 	((:url . "https://github.com/meedstrom/once")
-	 (:commit . "ca7a4ffb70108ae86c2f0d8585299c2b8f58b1de")
-	 (:revdesc . "ca7a4ffb7010")
+	 (:commit . "8bb03796ca7801bbd24dcc36f55a5a9d640326d4")
+	 (:revdesc . "8bb03796ca78")
 	 (:keywords "lisp")
 	 (:authors
 	  ("Martin Edström" . "meedstrom91@gmail.com"))
