@@ -3863,17 +3863,17 @@
 	     ("Alexander Prähauser" . "ahprae@protonmail.com"))
 	    (:maintainer "Alexander Prähauser" . "ahprae@protonmail.com"))])
  (avy-embark-collect .
-		     [(0 1 0 1 -4 20250127 1315)
+		     [(0 1 0 1 -4 20260218 624)
 		      ((emacs
-			(25 1))
+			(29 1))
 		       (embark
-			(0 9))
+			(1 1))
 		       (avy
 			(0 5)))
 		      "Use avy to jump to Embark Collect entries" tar
 		      ((:url . "https://github.com/oantolin/embark")
-		       (:commit . "755cb49b59801ff420193cc0e3b1a7aa12bf22e3")
-		       (:revdesc . "755cb49b5980")
+		       (:commit . "0bdfd38d281d6375e6e675ce6f1bd597a9e3b136")
+		       (:revdesc . "0bdfd38d281d")
 		       (:keywords "convenience")
 		       (:authors
 			("Omar Antolín Camarena" . "omar@matem.unam.mx"))
@@ -12343,7 +12343,7 @@
 	       ("Noah Peart" . "noah.v.peart@gmail.com"))
 	      (:maintainer "Noah Peart" . "noah.v.peart@gmail.com"))])
  (copilot .
-	  [(0 1 0 1 -4 20260215 918)
+	  [(0 1 0 1 -4 20260218 649)
 	   ((emacs
 	     (27 2))
 	    (editorconfig
@@ -12356,8 +12356,8 @@
 	     (1 4)))
 	   "An unofficial Copilot plugin" tar
 	   ((:url . "https://github.com/copilot-emacs/copilot.el")
-	    (:commit . "189f0b4a5163c438faaa5aca729f525225317c48")
-	    (:revdesc . "189f0b4a5163")
+	    (:commit . "38845ea0aa1cb6d2f192490dc9e975dcd6b90a3f")
+	    (:revdesc . "38845ea0aa1c")
 	    (:keywords "convenience" "copilot")
 	    (:authors
 	     ("zerol" . "z@zerol.me"))
@@ -17908,7 +17908,7 @@
 	      (:revdesc . "1a2331d28304")
 	      (:keywords "programming" "diff"))])
  (dumb-jump .
-	    [(0 1 0 1 -4 20260211 2056)
+	    [(0 1 0 1 -4 20260218 601)
 	     ((emacs
 	       (24 4))
 	      (s
@@ -17919,8 +17919,8 @@
 	       (0 5 3)))
 	     "Jump to definition for 50+ languages without configuration" tar
 	     ((:url . "https://github.com/jacktasia/dumb-jump")
-	      (:commit . "3a9eabbbd229f628c99b5810e7d547ff14153697")
-	      (:revdesc . "3a9eabbbd229")
+	      (:commit . "9471aadea97a35fbf42b4fa7c73c1bd77b397a89")
+	      (:revdesc . "9471aadea97a")
 	      (:keywords "programming"))])
  (dumber-jump .
 	      [(0 1 0 1 -4 20241028 1822)
@@ -21191,15 +21191,15 @@
 	   ("Ben Moon" . "software@guiltydolphin.com"))
 	  (:maintainer "Ben Moon" . "software@guiltydolphin.com"))])
  (embark .
-	 [(0 1 0 1 -4 20251118 111)
+	 [(0 1 0 1 -4 20260218 624)
 	  ((emacs
-	    (28 1))
+	    (29 1))
 	   (compat
 	    (30)))
 	  "Conveniently act on minibuffer completions" tar
 	  ((:url . "https://github.com/oantolin/embark")
-	   (:commit . "7b3b2fa239c34c2e304eab4367a4f5924c047e2b")
-	   (:revdesc . "7b3b2fa239c3")
+	   (:commit . "0bdfd38d281d6375e6e675ce6f1bd597a9e3b136")
+	   (:revdesc . "0bdfd38d281d")
 	   (:keywords "convenience")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
@@ -21207,19 +21207,19 @@
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	   (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx"))])
  (embark-consult .
-		 [(0 1 0 1 -4 20250622 535)
+		 [(0 1 0 1 -4 20260218 624)
 		  ((emacs
-		    (28 1))
+		    (29 1))
 		   (compat
 		    (30))
 		   (embark
 		    (1 1))
 		   (consult
-		    (1 8)))
+		    (3 2)))
 		  "Consult integration for Embark" tar
 		  ((:url . "https://github.com/oantolin/embark")
-		   (:commit . "a563786d0e07fc43601c1c83d1ffc801b86506b9")
-		   (:revdesc . "a563786d0e07")
+		   (:commit . "0bdfd38d281d6375e6e675ce6f1bd597a9e3b136")
+		   (:revdesc . "0bdfd38d281d")
 		   (:keywords "convenience")
 		   (:authors
 		    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
@@ -55806,13 +55806,13 @@
 	      ("Paul W. Rankin" . "rnkn@rnkn.xyz"))
 	     (:maintainer "Paul W. Rankin" . "rnkn@rnkn.xyz"))])
  (ollama-buddy .
-	       [(0 1 0 1 -4 20260217 1843)
+	       [(0 1 0 1 -4 20260218 726)
 		((emacs
 		  (28 1)))
-		"Ollama LLM AI Assistant ChatGPT Claude Gemini Grok Codestral Support" tar
+		"Ollama LLM AI Assistant ChatGPT Claude Gemini Grok Codestral DeepSeek OpenRouter Support" tar
 		((:url . "https://github.com/captainflasmr/ollama-buddy")
-		 (:commit . "ebbd4f8f7471b145af591dd360e6a56a504792c9")
-		 (:revdesc . "ebbd4f8f7471")
+		 (:commit . "b38a108510830cea2d4e523ec8ef5cae76cf4248")
+		 (:revdesc . "b38a10851083")
 		 (:keywords "applications" "tools" "convenience")
 		 (:authors
 		  ("James Dyer" . "captainflasmr@gmail.com"))
@@ -58155,7 +58155,7 @@
 		   ("Anton Hakansson" . "anton@hakanssn.com"))
 		  (:maintainer "Anton Hakansson" . "anton@hakanssn.com"))])
  (org-node .
-	   [(0 1 0 1 -4 20260217 2032)
+	   [(0 1 0 1 -4 20260218 648)
 	    ((emacs
 	      (29 1))
 	     (llama
@@ -58166,8 +58166,8 @@
 	      (4 3 0)))
 	    "Fast org-roam replacement" tar
 	    ((:url . "https://github.com/meedstrom/org-node")
-	     (:commit . "e615d8d5fe32101f8d659690efc5a39799daa775")
-	     (:revdesc . "e615d8d5fe32")
+	     (:commit . "942e864604c85fa6b23d45ac0ce45b8ed74133c5")
+	     (:revdesc . "942e864604c8")
 	     (:keywords "org" "hypermedia")
 	     (:authors
 	      ("Martin Edström" . "meedstrom91@gmail.com"))
