@@ -1,12 +1,12 @@
 (1
  (adoc-mode
-  . [(0 8 0 -4 0 20250206 83825) ((emacs (26)))
+  . [(0 8 0 -4 0 20260220 205901) ((emacs (28 1)))
      "a major-mode for editing AsciiDoc files" tar
      ((:url . "https://github.com/bbatsov/adoc-mode")
       (:keywords "docs" "wp")
       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
       (:authors ("Florian Kaufmann" . "sensorflo@gmail.com"))
-      (:commit . "20772277b8a5b8c08d49bd03043d5d4dd7a815e9"))])
+      (:commit . "7c9081fbfba9bad5584fab5d438b150c43f46b25"))])
  (afternoon-theme
   . [(0 1 0 20140104 185934) ((emacs (24 1)))
      "Dark color theme with a deep blue background" tar
@@ -228,12 +228,12 @@
 		("Steve Purcell" . "steve@sanityinc.com"))
       (:commit . "ae247d88455c79d6c039d9c322347c77ab3ad11b"))])
  (clojure-mode
-  . [(5 21 0 0 20260220 85612) ((emacs (27 1)))
+  . [(5 21 0 0 20260220 185145) ((emacs (27 1)))
      "Major mode for Clojure code" tar
      ((:url . "https://github.com/clojure-emacs/clojure-mode")
       (:keywords "languages" "clojure" "clojurescript" "lisp")
       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
-      (:commit . "2394e36fb60e8af56a9994daacacfb9b7c55f233"))])
+      (:commit . "6854495f21c41fbb68f02f9dd5bd5f8c02bc1b2f"))])
  (clojure-ts-mode
   . [(0 6 0 0 20260220 71513) ((emacs (30 1)))
      "Major mode for Clojure code" tar
@@ -642,15 +642,12 @@
       (:authors ("Marty Hiatt" . "mousebot@disroot.org"))
       (:commit . "e4923e35aabfa14eb5fefc5b3685932d8fe1068e"))])
  (fj
-  . [(0 28 0 20251030 134543)
-     ((emacs (29 1)) (fedi (0 2)) (tp (0 5)) (transient (0 9 3))
-      (magit (4 3 8)))
-     "Client for Forgejo instances" tar
+  . [(0 29 0 20260220 164204) nil "Client for Forgejo instances" tar
      ((:url . "https://codeberg.org/martianh/fj.el")
       (:keywords "git" "convenience")
       (:maintainer "Marty Hiatt" . "mousebot@disroot.org")
       (:authors ("Marty Hiatt" . "mousebot@disroot.org"))
-      (:commit . "79a1ef1006f6f8da6bbdcaf05ae8888a79f6887e"))])
+      (:commit . "48a299cb54b9001b40f88789f8c693b5c408dabb"))])
  (flx
   . [(0 6 2 0 20240204 195634) ((cl-lib (0 3)))
      "fuzzy matching with good sorting" tar
@@ -895,7 +892,7 @@
       (:authors ("David Andersson" . "l.david.anderssonsverige.nu"))
       (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel
-  . [(0 9 9 3 0 20260219 212211)
+  . [(0 9 9 3 0 20260220 101916)
      ((emacs (27 1)) (transient (0 7 4)) (compat (30 1 0 0)))
      "Interact with ChatGPT or other LLMs" tar
      ((:url . "https://github.com/karthink/gptel")
@@ -904,7 +901,7 @@
 		   . "karthik.chikmagalur@gmail.com")
       (:authors
        ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-      (:commit . "c8b9ced9451273689b74fa1abaea5e09c5c6d152"))])
+      (:commit . "86a2931e9d2e0f05fb0efaf0ab74ec7463c30577"))])
  (graphql-mode
   . [(1 0 0 0 20260214 124443) ((emacs (25 1)))
      "Major mode for editing GraphQL schemas" tar
@@ -1057,12 +1054,13 @@
       (:authors ("Victor Ren" . "victorhge@gmail.com"))
       (:commit . "b4bffe2abbd021c6fd3f2e361ca89dd211080b1d"))])
  (inf-clojure
-  . [(3 3 0 0 20250525 205532) ((emacs (28 1)) (clojure-mode (5 11)))
+  . [(3 4 0 -4 0 20260220 143715)
+     ((emacs (28 1)) (clojure-mode (5 11)))
      "Basic interaction with a Clojure REPL" tar
-     ((:url . "http://github.com/clojure-emacs/inf-clojure")
+     ((:url . "https://github.com/clojure-emacs/inf-clojure")
       (:keywords "processes" "comint" "clojure")
       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
-      (:commit . "5decdb89d261247dec01879e763cec0d6b7d04f4"))])
+      (:commit . "be5e9bd90775b35c8bc2ecb118d6af9a521b2d81"))])
  (inf-ruby
   . [(2 9 0 0 20251224 21617) ((emacs (26 1)))
      "Run a Ruby process in a buffer" tar
