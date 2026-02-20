@@ -1020,13 +1020,13 @@
 	      ("Bill Rising" . "brising@alum.mit.edu"))
 	     (:maintainer "Bill Rising" . "brising@alum.mit.edu"))])
  (adoc-mode .
-	    [(0 1 0 1 -4 20250206 838)
+	    [(0 1 0 1 -4 20260220 1619)
 	     ((emacs
-	       (26)))
+	       (28 1)))
 	     "A major-mode for editing AsciiDoc files" tar
 	     ((:url . "https://github.com/bbatsov/adoc-mode")
-	      (:commit . "20772277b8a5b8c08d49bd03043d5d4dd7a815e9")
-	      (:revdesc . "20772277b8a5")
+	      (:commit . "85532b60322c838af6e6bfcb099c5d4ef31834ac")
+	      (:revdesc . "85532b60322c")
 	      (:keywords "docs" "wp")
 	      (:authors
 	       ("Florian Kaufmann" . "sensorflo@gmail.com"))
@@ -1199,7 +1199,7 @@
 	    ("Tomasz Maciosowski" . "t4ccer@gmail.com"))
 	   (:maintainer "Tomasz Maciosowski" . "t4ccer@gmail.com"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260220 1406)
+	      [(0 1 0 1 -4 20260220 1434)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1208,8 +1208,8 @@
 		 (0 11 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "186633e2707e5aba18c85a050668a980394a8a9a")
-		(:revdesc . "186633e2707e"))])
+		(:commit . "e6163267ca614d2f008f7585082d4651b42faac1")
+		(:revdesc . "e6163267ca61"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -26309,21 +26309,11 @@
 	    ("Roland Walker" . "walker@pobox.com"))
 	   (:maintainer "Roland Walker" . "walker@pobox.com"))])
  (fj .
-     [(0 1 0 1 -4 20251030 1345)
-      ((emacs
-	(29 1))
-       (fedi
-	(0 2))
-       (tp
-	(0 5))
-       (transient
-	(0 9 3))
-       (magit
-	(4 3 8)))
-      "Client for Forgejo instances" tar
+     [(0 1 0 1 -4 20260220 1642)
+      nil "Client for Forgejo instances" tar
       ((:url . "https://codeberg.org/martianh/fj.el")
-       (:commit . "79a1ef1006f6f8da6bbdcaf05ae8888a79f6887e")
-       (:revdesc . "79a1ef1006f6")
+       (:commit . "48a299cb54b9001b40f88789f8c693b5c408dabb")
+       (:revdesc . "48a299cb54b9")
        (:keywords "git" "convenience")
        (:authors
 	("Marty Hiatt" . "mousebot@disroot.org"))
