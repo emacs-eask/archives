@@ -718,13 +718,13 @@
       (:url . "https://elpa.gnu.org/packages/darkroom.html")
       (:commit . "4496945487130ae1123a9f17b40674ec24c54e8f"))])
  (dash
-  . [(2 20 0 0 20251016 104741) ((emacs (24)))
+  . [(2 20 0 0 20260221 134621) ((emacs (24)))
      "A modern list library for Emacs" tar
      ((:url . "https://github.com/magnars/dash.el")
       (:keywords "extensions" "lisp")
       (:maintainer "Basil L. Contovounesios" . "basil@contovou.net")
       (:authors ("Magnar Sveen" . "magnars@gmail.com"))
-      (:commit . "fb443e7a6e660ba849cafcd01021d9aac3ac6764"))])
+      (:commit . "d3a84021dbe48dba63b52ef7665651e0cf02e915"))])
  (dbus-codegen
   . [(0 1 0 20220306 62546) ((cl-lib (0 5)))
      "Lisp code generation for D-Bus." tar
@@ -1066,7 +1066,7 @@
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
       (:commit . "9f68c1be9d35958a0679d5855ac6ec10b2c46e1b"))])
  (eglot
-  . [(1 21 0 20260214 122208)
+  . [(1 21 0 20260221 132913)
      ((emacs (26 3)) (eldoc (1 14 0)) (external-completion (0 1))
       (flymake (1 4 2)) (jsonrpc (1 0 26)) (project (0 11 2))
       (seq (2 23)) (xref (1 6 2)))
@@ -1075,7 +1075,7 @@
       (:keywords "convenience" "languages")
       (:maintainer "João Távora" . "joaotavora@gmail.com")
       (:authors ("João Távora" . "joaotavora@gmail.com"))
-      (:commit . "71d7ea23dbccd93888021ba0dfc3a392ef36f624"))])
+      (:commit . "a61c098a517d29af38b065f946c4378a3b88bcd7"))])
  (el-job
   . [(2 7 2 0 20260219 63616) ((emacs (29 1)))
      "Contrived way to call a function using all CPU cores" tar
@@ -1143,11 +1143,11 @@
       (:authors ("Ihor Radchenko" . "yantar92@posteo.net"))
       (:commit . "05d669e123f411c9582f99a9a6182efa43d01a6b"))])
  (emacs-lisp-intro-nl
-  . [(0 0 20260219 185057) nil "ELisp intro manual in NL" tar
+  . [(0 0 20260221 202025) nil "ELisp intro manual in NL" tar
      ((:maintainer "Matto Fransen" . "matto@matto.nl")
       (:authors ("Matto Fransen" . "matto@matto.nl"))
       (:url . "https://elpa.gnu.org/packages/emacs-lisp-intro-nl.html")
-      (:commit . "6fa9887116d44193225502afd2db231ded690b27"))])
+      (:commit . "53e7b27229a942cef5d2835825441329b2309226"))])
  (embark
   . [(1 1 0 20260218 2421) ((emacs (29 1)) (compat (30)))
      "Conveniently act on minibuffer completions" tar
@@ -1209,14 +1209,14 @@
       (:url . "https://elpa.gnu.org/packages/epoch-view.html")
       (:commit . "7a9773a8b55491bd47f23dfdb6c4224f5cc8e50c"))])
  (erc
-  . [(5 6 2 -4 0 20260111 52503) ((emacs (27 1)) (compat (29 1 4 5)))
+  . [(5 6 2 -4 0 20260221 132913) ((emacs (27 1)) (compat (29 1 4 5)))
      "An Emacs Internet Relay Chat client" tar
      ((:url . "https://www.gnu.org/software/emacs/erc.html")
       (:keywords "irc" "chat" "client" "internet")
       (:maintainer ("Amin Bandali" . "bandali@gnu.org")
 		   ("F. Jason Park" . "jp@neverwas.me"))
       (:authors ("Alexander L. Belikoff" . "alexander@belikoff.net"))
-      (:commit . "762902c2c62de1853472c2c1a1a724ea67be45c4"))])
+      (:commit . "a61c098a517d29af38b065f946c4378a3b88bcd7"))])
  (ergoemacs-mode
   . [(5 16 10 12 0 20240828 210215)
      ((emacs (24 1)) (cl-lib (0 5)) (nadvice (0 4)))
@@ -1329,14 +1329,14 @@
       (:url . "https://elpa.gnu.org/packages/flylisp.html")
       (:commit . "7295025f4c0571013142dfb9cc1a893fff79904b"))])
  (flymake
-  . [(1 4 3 0 20260111 34201)
+  . [(1 4 3 0 20260221 132913)
      ((emacs (26 1)) (eldoc (1 14 0)) (project (0 11 1)))
      "A universal on-the-fly syntax checker" tar
      ((:keywords "c" "languages" "tools")
       (:maintainer "Spencer Baugh" . "sbaugh@janestreet.com")
       (:authors ("Pavel Kobyakov" . "pk_at_work@yahoo.com"))
       (:url . "https://elpa.gnu.org/packages/flymake.html")
-      (:commit . "4484a9f87536ee0caff4b1f53fde8f4f3ac4adbe"))])
+      (:commit . "a61c098a517d29af38b065f946c4378a3b88bcd7"))])
  (flymake-clippy
   . [(1 1 0 0 20250323 141048) ((emacs (27)))
      "Flymake backend for Clippy" tar
@@ -2374,13 +2374,13 @@
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
       (:commit . "3a2a32181f7a5bd7b633e40d89de771a5dd88cc7"))])
  (org
-  . [(9 8 -1 0 20260218 185930) ((emacs (26 1)))
+  . [(10 0 -1 0 20260221 190015) ((emacs (28 2)))
      "Outline-based notes management and organizer" tar
      ((:url . "https://orgmode.org")
       (:keywords "outlines" "hypermedia" "calendar" "text")
       (:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-      (:commit . "93b79549f62bdc522caa2a3eb88bb5f6d2c9563c"))])
+      (:commit . "43a78552a41f7f34a3c8682b969156bc130b5683"))])
  (org-contacts
   . [(1 3 0 20260221 85240) ((emacs (29 1)) (org (9 7)))
      "Contacts management system for Org mode" tar
@@ -2754,13 +2754,13 @@
       (:authors ("Feng Shu" . "tumashu@163.com"))
       (:commit . "55d9b324831b0fc79ff62f1c6f21aad72341a114"))])
  (python
-  . [(0 30 0 20260219 173652) ((emacs (29 1)) (compat (29 1 1 0)))
+  . [(0 30 0 20260221 145128) ((emacs (29 1)) (compat (29 1 1 0)))
      "Python's flying circus support for Emacs" tar
      ((:url . "https://github.com/fgallina/python.el")
       (:keywords "languages")
       (:maintainer nil . "emacs-devel@gnu.org")
       (:authors ("Fabián E. Gallina" . "fgallina@gnu.org"))
-      (:commit . "71d7ea23dbccd93888021ba0dfc3a392ef36f624"))])
+      (:commit . "a61c098a517d29af38b065f946c4378a3b88bcd7"))])
  (quarter-plane
   . [(0 1 0 20221221 81727) nil
      "Minor mode for quarter-plane style editing" tar
@@ -3614,14 +3614,14 @@
       (:authors ("Stefan Kangas" . "stefankangas@gmail.com"))
       (:commit . "0f20f8b59011471523b650cf1a3478a04362083d"))])
  (use-package
-   . [(2 4 6 0 20260101 125434) ((emacs (24 3)) (bind-key (2 4)))
+   . [(2 4 6 0 20260221 132913) ((emacs (24 3)) (bind-key (2 4)))
       "A configuration macro for simplifying your .emacs" tar
       ((:url . "https://github.com/jwiegley/use-package")
        (:keywords "dotemacs" "startup" "speed" "config" "package"
 		  "extensions")
        (:maintainer "John Wiegley" . "johnw@newartisans.com")
        (:authors ("John Wiegley" . "johnw@newartisans.com"))
-       (:commit . "17ddfd66e65c19f44dee41ee1b7ee1ce23ef3ed2"))])
+       (:commit . "a61c098a517d29af38b065f946c4378a3b88bcd7"))])
  (validate
   . [(1 0 4 0 20180215 204244)
      ((emacs (24 1)) (cl-lib (0 5)) (seq (2 16)))
