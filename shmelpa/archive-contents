@@ -18877,6 +18877,24 @@
 			       (:maintainers
 				("Hirotaka Niitsuma" . "hirotaka.niitsuma@gmail.com"))
 			       (:maintainer "Hirotaka Niitsuma" . "hirotaka.niitsuma@gmail.com"))])
+ (edit-metadata .
+		[(0 1 0 1 -4 20260210 2022)
+		 ((exiftool
+		   (0 3 2))
+		  (emacs
+		   (28 1))
+		  (compat
+		   (29 1)))
+		 "Edit embedded metadata" tar
+		 ((:url . "https://gitlab.epfl.ch/michael.piotrowski/edit-metadata")
+		  (:commit . "903b6c0d7d8f6550dd91a56cd1cf9d880b5cbded")
+		  (:revdesc . "903b6c0d7d8f")
+		  (:keywords "files" "multimedia")
+		  (:authors
+		   ("Michael Piotrowski" . "mxp@dynalabs.de"))
+		  (:maintainers
+		   ("Michael Piotrowski" . "mxp@dynalabs.de"))
+		  (:maintainer "Michael Piotrowski" . "mxp@dynalabs.de"))])
  (edit-server .
 	      [(0 1 0 1 -4 20260104 1224)
 	       nil "Server that responds to edit requests from Chrome" tar
@@ -19500,13 +19518,13 @@
 		    ("Hiroki YAMAKAWA" . "s06139@gmail.com"))
 		   (:maintainer "Hiroki YAMAKAWA" . "s06139@gmail.com"))])
  (el-job .
-	 [(0 1 0 1 -4 20260219 636)
+	 [(0 1 0 1 -4 20260222 1009)
 	  ((emacs
 	    (29 1)))
 	  "Contrived way to call a function using all CPU cores" tar
 	  ((:url . "https://github.com/meedstrom/el-job")
-	   (:commit . "62ff3fe5e570028c597a74e66269292503511398")
-	   (:revdesc . "62ff3fe5e570")
+	   (:commit . "5af4975c176477cfe5f864bb9b402d8a8f2a074a")
+	   (:revdesc . "5af4975c1764")
 	   (:keywords "processes")
 	   (:authors
 	    ("Martin Edström" . "meedstrom@runbox.eu"))
@@ -22643,15 +22661,15 @@
 	      ("Tomoya Tanjo" . "ttanjo@gmail.com"))
 	     (:maintainer "Tomoya Tanjo" . "ttanjo@gmail.com"))])
  (eshell-atuin .
-	       [(0 1 0 1 -4 20250301 833)
+	       [(0 1 0 1 -4 20260222 802)
 		((emacs
 		  (27 1))
 		 (compat
 		  (29 1 4 1)))
 		"Integrate eshell with atuin, a shell history tool" tar
 		((:url . "https://github.com/SqrtMinusOne/eshell-atuin")
-		 (:commit . "1ac4895529546839985c7f57c9858644f7be1e6a")
-		 (:revdesc . "1ac489552954")
+		 (:commit . "142536a01a9d6d92d802e41474c290e0ca655deb")
+		 (:revdesc . "142536a01a9d")
 		 (:authors
 		  ("Korytov Pavel" . "thexcloud@gmail.com"))
 		 (:maintainers
@@ -46175,6 +46193,20 @@
 	       (:maintainers
 		("Lassi Kortela" . "lassi@lassi.io"))
 	       (:maintainer "Lassi Kortela" . "lassi@lassi.io"))])
+ (lisp-semantic-hl .
+		   [(0 1 0 1 -4 20260221 1350)
+		    ((emacs
+		      (27 1)))
+		    "Semantic Syntax Highlighting for Lisp Languages" tar
+		    ((:url . "https://github.com/calsys456/lisp-semantic-hl.el")
+		     (:commit . "30a8a04aab8e69a1adcb16a8d4b000cd4e469ca8")
+		     (:revdesc . "30a8a04aab8e")
+		     (:keywords "languages" "lisp" "maint")
+		     (:authors
+		      ("The Calendrical System" . "us@calsys.org"))
+		     (:maintainers
+		      ("The Calendrical System" . "us@calsys.org"))
+		     (:maintainer "The Calendrical System" . "us@calsys.org"))])
  (lispxmp .
 	  [(0 1 0 1 -4 20260103 2307)
 	   nil "Automagic emacs lisp code annotation" tar
@@ -48595,6 +48627,24 @@
 	     ((:url . "https://github.com/eikek/magnatune.el")
 	      (:commit . "605b01505ba30589c77ebb4c96834b5072ccbdd4")
 	      (:revdesc . "605b01505ba3"))])
+ (magnus .
+	 [(0 1 0 1 -4 20260222 634)
+	  ((emacs
+	    (28 1))
+	   (vterm
+	    (0 0 2))
+	   (transient
+	    (0 4 0)))
+	  "Manage multiple Claude Code instances" tar
+	  ((:url . "https://github.com/hrishikeshs/magnus")
+	   (:commit . "479b050f3db3f4f24577977c7f85016cf0bf5db7")
+	   (:revdesc . "479b050f3db3")
+	   (:keywords "tools" "processes" "convenience")
+	   (:authors
+	    ("Hrishikesh S" . "hrish2006@gmail.com"))
+	   (:maintainers
+	    ("Hrishikesh S" . "hrish2006@gmail.com"))
+	   (:maintainer "Hrishikesh S" . "hrish2006@gmail.com"))])
  (magrant .
 	  [(0 1 0 1 -4 20210706 1438)
 	   ((emacs
@@ -57962,17 +58012,17 @@
 	     ("Laurynas Biveinis" . "laurynas.biveinis@gmail.com"))
 	    (:maintainer "Laurynas Biveinis" . "laurynas.biveinis@gmail.com"))])
  (org-mem .
-	  [(0 1 0 1 -4 20260221 2049)
+	  [(0 1 0 1 -4 20260222 1027)
 	   ((emacs
 	     (29 1))
 	    (el-job
-	     (2 7 1))
+	     (2 7 3))
 	    (llama
 	     (0 5 0)))
 	   "Fast info from a large number of Org file contents" tar
 	   ((:url . "https://github.com/meedstrom/org-mem")
-	    (:commit . "3db68b3081740c29e38eb32fcf2d44919d236753")
-	    (:revdesc . "3db68b308174")
+	    (:commit . "5e40d04461039863138d50f3fd2782cc654c3600")
+	    (:revdesc . "5e40d0446103")
 	    (:keywords "text")
 	    (:authors
 	     ("Martin Edström" . "meedstrom@runbox.eu"))
@@ -63034,6 +63084,24 @@
 	     (:maintainers
 	      ("Francesc Rocher" . "francesc.rocher@gmail.com"))
 	     (:maintainer "Francesc Rocher" . "francesc.rocher@gmail.com"))])
+ (persp-gumshoe .
+		[(0 1 0 1 -4 20260217 448)
+		 ((emacs
+		   (27 1))
+		  (perspective
+		   (2 0))
+		  (gumshoe
+		   (4 0)))
+		 "Perspective support for gumshoe" tar
+		 ((:url . "https://github.com/Overdr0ne/gumshoe")
+		  (:commit . "4c228d89b35861f6461afcbd5cc596bd30582412")
+		  (:revdesc . "4c228d89b358")
+		  (:keywords "tools")
+		  (:authors
+		   ("overdr0ne" . "scmorris.dev@gmail.com"))
+		  (:maintainers
+		   ("overdr0ne" . "scmorris.dev@gmail.com"))
+		  (:maintainer "overdr0ne" . "scmorris.dev@gmail.com"))])
  (persp-mode .
 	     [(0 1 0 1 -4 20250830 955)
 	      ((emacs
@@ -80102,6 +80170,22 @@
 	 ("KATO Kenji" . "kato@suri.co.jp")
 	 ("INAMURA You" . "inamura@icot.or.jp"))
 	(:maintainer "YAMAMOTO Hirotaka" . "ymmt@is.s.u-tokyo.ac.jp"))])
+ (truename-cache .
+		 [(0 1 0 1 -4 20260222 916)
+		  ((emacs
+		    (26 1))
+		   (compat
+		    (30 1)))
+		  "Efficiently de-dup file-names" tar
+		  ((:url . "https://github.com/meedstrom/truename-cache")
+		   (:commit . "65230aa058e771a65310fab956d1b836a5555e99")
+		   (:revdesc . "65230aa058e7")
+		   (:keywords "lisp")
+		   (:authors
+		    ("Martin Edström" . "meedstrom91@gmail.com"))
+		   (:maintainers
+		    ("Martin Edström" . "meedstrom91@gmail.com"))
+		   (:maintainer "Martin Edström" . "meedstrom91@gmail.com"))])
  (truthy .
 	 [(0 2 8 1 -4 20140508 2041)
 	  ((list-utils
@@ -81083,15 +81167,15 @@
 		   ("Damien Cassou" . "damien.cassou@gmail.com"))
 		  (:maintainer "Damien Cassou" . "damien.cassou@gmail.com"))])
  (uniline .
-	  [(0 1 0 1 -4 20260218 1532)
+	  [(0 1 0 1 -4 20260222 905)
 	   ((emacs
 	     (29 1))
 	    (hydra
 	     (0 15 0)))
 	   "Add▶ ■─UNICODE based diagrams─■ to▶ ■─text files─■" tar
 	   ((:url . "https://github.com/tbanel/uniline")
-	    (:commit . "78bf8ffdf8c38020d5256a51a00dcabf6fc88eba")
-	    (:revdesc . "78bf8ffdf8c3")
+	    (:commit . "36107e509f9da67738e38e41531f046cedf67159")
+	    (:revdesc . "36107e509f9d")
 	    (:keywords "convenience" "text"))])
  (unipoint .
 	   [(0 1 0 1 -4 20140113 2224)
@@ -84225,6 +84309,19 @@
 	     (:maintainers
 	      ("Jorgen Schaefer" . "forcer@forcix.cx"))
 	     (:maintainer "Jorgen Schaefer" . "forcer@forcix.cx"))])
+ (winpulse .
+	   [(0 1 0 1 -4 20260216 2106)
+	    ((emacs
+	      (28 1)))
+	    "Momentary window background flash animation" tar
+	    ((:url . "https://github.com/xenodium/winpulse")
+	     (:commit . "c58352bea2223fd6f0cc11deb4d33bca2ff0213c")
+	     (:revdesc . "c58352bea222")
+	     (:authors
+	      ("Alvaro Ramirez" . "https://xenodium.com"))
+	     (:maintainers
+	      ("Alvaro Ramirez" . "https://xenodium.com"))
+	     (:maintainer "Alvaro Ramirez" . "https://xenodium.com"))])
  (winring .
 	  [(0 1 0 1 -4 20251122 112)
 	   nil "Window configuration rings" tar
