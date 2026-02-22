@@ -9,6 +9,7 @@
 (source "gnu")
 (source "nongnu")
 (source "celpa")
+(source "eine")
 (source "jcs-elpa")
 ;;(source "marmalade")
 (source "melpa")
