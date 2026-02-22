@@ -2680,6 +2680,20 @@
 		(:maintainers
 		 ("Lassi Kortela" . "lassi@lassi.io"))
 		(:maintainer "Lassi Kortela" . "lassi@lassi.io"))])
+ (asciidoc-mode .
+		[(0 1 0 1 -4 20260221 2221)
+		 ((emacs
+		   (30 1)))
+		 "Major mode for AsciiDoc markup" tar
+		 ((:url . "https://github.com/bbatsov/asciidoc-mode")
+		  (:commit . "e39cdf2feff4d029ba13bb69a4df617d83363038")
+		  (:revdesc . "e39cdf2feff4")
+		  (:keywords "text" "asciidoc" "languages" "tree-sitter")
+		  (:authors
+		   ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
+		  (:maintainers
+		   ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
+		  (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev"))])
  (asdf-vm .
 	  [(0 1 0 1 -4 20250710 1053)
 	   ((emacs
@@ -9490,20 +9504,6 @@
 		 (:maintainers
 		  ("Michael Schuldt" . "mbschuldt@gmail.com"))
 		 (:maintainer "Michael Schuldt" . "mbschuldt@gmail.com"))])
- (code-awareness .
-		 [(0 1 0 1 -4 20260212 1934)
-		  ((emacs
-		    (27 1)))
-		  "Kawa Code collaboration package" tar
-		  ((:url . "https://github.com/CodeAwareness/ca.emacs")
-		   (:commit . "ef24e5c4fc7b75fbe1d0c34b11821dd67f2ad40c")
-		   (:revdesc . "ef24e5c4fc7b")
-		   (:keywords "tools" "convenience" "vc")
-		   (:authors
-		    ("Mark Vasile" . "mark@code-awareness.com"))
-		   (:maintainers
-		    ("Mark Vasile" . "mark@code-awareness.com"))
-		   (:maintainer "Mark Vasile" . "mark@code-awareness.com"))])
  (code-cells .
 	     [(0 1 0 1 -4 20241119 1421)
 	      ((emacs
@@ -20221,6 +20221,24 @@
 		 (:maintainers
 		  ("Michael Herstine" . "sp1ff@pobox.com"))
 		 (:maintainer "Michael Herstine" . "sp1ff@pobox.com"))])
+ (elfeed-summarize .
+		   [(0 1 0 1 -4 20260217 1534)
+		    ((emacs
+		      (28 1))
+		     (elfeed
+		      (3 4 1))
+		     (llm
+		      (0 28 4)))
+		    "Add LLM-powered inline summaries to elfeed" tar
+		    ((:url . "https://github.com/fritzgrabo/elfeed-summarize")
+		     (:commit . "b4d9f8a7bb72d9fd0db804eff535c42859d94cf8")
+		     (:revdesc . "b4d9f8a7bb72")
+		     (:keywords "comm")
+		     (:authors
+		      ("Fritz Grabo" . "hello@fritzgrabo.com"))
+		     (:maintainers
+		      ("Fritz Grabo" . "hello@fritzgrabo.com"))
+		     (:maintainer "Fritz Grabo" . "hello@fritzgrabo.com"))])
  (elfeed-summary .
 		 [(0 1 0 1 -4 20240929 2043)
 		  ((emacs
@@ -22618,6 +22636,20 @@
 	(:maintainers
 	 ("Henrique Marques" . "hm2030master@proton.me"))
 	(:maintainer "Henrique Marques" . "hm2030master@proton.me"))])
+ (eselect-news .
+	       [(0 1 0 1 -4 20260222 1216)
+		((emacs
+		  (27 1)))
+		"Read Gentoo eselect news" tar
+		((:url . "https://gitlab.com/cestrand/emacs-eselect-news")
+		 (:commit . "562191c013a20348bd1adbf3be564c6e1d3c52b6")
+		 (:revdesc . "562191c013a2")
+		 (:keywords "gentoo" "convenience")
+		 (:authors
+		  ("Marcin Kolenda" . "https://gitlab.com/cestrand"))
+		 (:maintainers
+		  ("Marcin Kolenda" . "https://gitlab.com/cestrand"))
+		 (:maintainer "Marcin Kolenda" . "https://gitlab.com/cestrand"))])
  (esh-autosuggest .
 		  [(0 1 0 1 -4 20241002 1820)
 		   ((emacs
