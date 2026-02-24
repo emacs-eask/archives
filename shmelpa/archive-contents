@@ -1199,7 +1199,7 @@
 	    ("Tomasz Maciosowski" . "t4ccer@gmail.com"))
 	   (:maintainer "Tomasz Maciosowski" . "t4ccer@gmail.com"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260223 1344)
+	      [(0 1 0 1 -4 20260224 1019)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1208,8 +1208,8 @@
 		 (0 11 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "a1803cd7848284e69f8d1379afc9b76fbea52383")
-		(:revdesc . "a1803cd78482"))])
+		(:commit . "6a33d6a2eae163a5dbd5ec47245f129fe2cd4139")
+		(:revdesc . "6a33d6a2eae1"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -14306,13 +14306,13 @@
 		 ("Brady Trainor" . "mail@bradyt.com"))
 		(:maintainer "Brady Trainor" . "mail@bradyt.com"))])
  (daselt .
-	 [(0 1 0 1 -4 20260208 1145)
+	 [(0 1 0 1 -4 20260224 1036)
 	  ((emacs
 	    (30 1)))
 	  "Module for the Daselt configuration scheme" tar
 	  ((:url . "https://gitlab.com/nameiwillforget/d-emacs/")
-	   (:commit . "d9e4d6e1671195406cb5aaded1bd7d09f8dbea35")
-	   (:revdesc . "d9e4d6e16711")
+	   (:commit . "b3ceec1e31953b7925aceb4c081b48bc9a413000")
+	   (:revdesc . "b3ceec1e3195")
 	   (:keywords "tools")
 	   (:authors
 	    ("Alexander Prähauser" . "ahprae@protonmail.com"))
@@ -32507,7 +32507,7 @@
 	     ("Nic Ferrier" . "nferrier@ferrier.me.uk"))
 	    (:maintainer "Nic Ferrier" . "nferrier@ferrier.me.uk"))])
  (gnosis .
-	 [(0 1 0 1 -4 20260202 352)
+	 [(0 1 0 1 -4 20260224 1050)
 	  ((emacs
 	    (27 2))
 	   (emacsql
@@ -32520,8 +32520,8 @@
 	    (0 0 9)))
 	  "Spaced Repetition System" tar
 	  ((:url . "https://thanosapollo.org/projects/gnosis")
-	   (:commit . "729d1ebf8debc1961581e548683741b5590fe6be")
-	   (:revdesc . "729d1ebf8deb")
+	   (:commit . "54660aabfa3200663053dd0063f2c215ef674ddb")
+	   (:revdesc . "54660aabfa32")
 	   (:keywords "extensions")
 	   (:authors
 	    ("Thanos Apollo" . "public@thanosapollo.org"))
@@ -55927,13 +55927,13 @@
 	      ("Paul W. Rankin" . "rnkn@rnkn.xyz"))
 	     (:maintainer "Paul W. Rankin" . "rnkn@rnkn.xyz"))])
  (ollama-buddy .
-	       [(0 1 0 1 -4 20260224 830)
+	       [(0 1 0 1 -4 20260224 955)
 		((emacs
 		  (28 1)))
 		"Ollama LLM AI Assistant ChatGPT Claude Gemini Grok Codestral DeepSeek OpenRouter Support" tar
 		((:url . "https://github.com/captainflasmr/ollama-buddy")
-		 (:commit . "45476ff1fad29605cf18c70efa30710babc043ae")
-		 (:revdesc . "45476ff1fad2")
+		 (:commit . "7f71d5f32a0d7ea2f826fd1bec0f60772ee9a5e6")
+		 (:revdesc . "7f71d5f32a0d")
 		 (:keywords "applications" "tools" "convenience")
 		 (:authors
 		  ("James Dyer" . "captainflasmr@gmail.com"))
@@ -58056,17 +58056,19 @@
 	     ("Laurynas Biveinis" . "laurynas.biveinis@gmail.com"))
 	    (:maintainer "Laurynas Biveinis" . "laurynas.biveinis@gmail.com"))])
  (org-mem .
-	  [(0 1 0 1 -4 20260224 147)
+	  [(0 1 0 1 -4 20260224 1133)
 	   ((emacs
 	     (29 1))
 	    (el-job
 	     (2 7 3))
 	    (llama
-	     (0 5 0)))
+	     (1 0))
+	    (truename-cache
+	     (0 1 2)))
 	   "Fast info from a large number of Org file contents" tar
 	   ((:url . "https://github.com/meedstrom/org-mem")
-	    (:commit . "c5b27cdd2d66435ebb0c7bd4c688cc148886175e")
-	    (:revdesc . "c5b27cdd2d66")
+	    (:commit . "f365e87b801b47306a39fabbbf4405d9355b8458")
+	    (:revdesc . "f365e87b801b")
 	    (:keywords "text")
 	    (:authors
 	     ("Martin Edström" . "meedstrom@runbox.eu"))
@@ -63656,7 +63658,7 @@
 	     ("Eric Hansen" . "hansen.c.eric@gmail.com"))
 	    (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
  (pi-coding-agent .
-		  [(0 1 0 1 -4 20260223 1920)
+		  [(0 1 0 1 -4 20260224 1042)
 		   ((emacs
 		     (28 1))
 		    (markdown-mode
@@ -63665,8 +63667,8 @@
 		     (0 9 0)))
 		   "Emacs frontend for pi coding agent" tar
 		   ((:url . "https://github.com/dnouri/pi-coding-agent")
-		    (:commit . "e6d43f2d936a1fd860ce9439e19b1e07e668c37d")
-		    (:revdesc . "e6d43f2d936a")
+		    (:commit . "46677cad30c3daf15e75ecf53a6206ff726ceb14")
+		    (:revdesc . "46677cad30c3")
 		    (:keywords "ai" "llm" "ai-pair-programming" "tools")
 		    (:authors
 		     ("Daniel Nouri" . "daniel.nouri@gmail.com"))
@@ -80229,15 +80231,15 @@
 	 ("INAMURA You" . "inamura@icot.or.jp"))
 	(:maintainer "YAMAMOTO Hirotaka" . "ymmt@is.s.u-tokyo.ac.jp"))])
  (truename-cache .
-		 [(0 1 0 1 -4 20260224 209)
+		 [(0 1 0 1 -4 20260224 1123)
 		  ((emacs
 		    (27 1))
 		   (compat
 		    (30 1)))
 		  "Efficiently de-dup file-names" tar
 		  ((:url . "https://github.com/meedstrom/truename-cache")
-		   (:commit . "7221e53aaed2526417de06aa9241b1168595d35e")
-		   (:revdesc . "7221e53aaed2")
+		   (:commit . "6536896f9b16218c0b85fc624b160e2b7f169f0d")
+		   (:revdesc . "6536896f9b16")
 		   (:keywords "lisp")
 		   (:authors
 		    ("Martin Edström" . "meedstrom91@gmail.com"))
