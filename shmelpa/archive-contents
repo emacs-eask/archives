@@ -19416,7 +19416,7 @@
 	       (:revdesc . "9630dfac9549")
 	       (:keywords "convenience" "languages" "tools"))])
  (ekg .
-      [(0 1 0 1 -4 20260222 2157)
+      [(0 1 0 1 -4 20260228 535)
        ((triples
 	 (0 6 1))
 	(emacs
@@ -19425,8 +19425,8 @@
 	 (0 18 0)))
        "A system for recording and linking information" tar
        ((:url . "https://github.com/ahyatt/ekg")
-	(:commit . "9358c6c71fd8d585c1fabd3612090f83f1526228")
-	(:revdesc . "9358c6c71fd8")
+	(:commit . "5ed2c601f770cb2fee928f74982458faf706b72f")
+	(:revdesc . "5ed2c601f770")
 	(:keywords "outlines" "hypermedia")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
@@ -48654,7 +48654,7 @@
 	      (:commit . "605b01505ba30589c77ebb4c96834b5072ccbdd4")
 	      (:revdesc . "605b01505ba3"))])
  (magnus .
-	 [(0 1 0 1 -4 20260228 16)
+	 [(0 1 0 1 -4 20260228 525)
 	  ((emacs
 	    (28 1))
 	   (vterm
@@ -48663,8 +48663,8 @@
 	    (0 4 0)))
 	  "Manage multiple Claude Code instances" tar
 	  ((:url . "https://github.com/hrishikeshs/magnus")
-	   (:commit . "45812e35e55e89f23678900afb603f4e67f86fa5")
-	   (:revdesc . "45812e35e55e")
+	   (:commit . "1b23d7cb1598c1f15cf9b14cdceb67b19e9a407d")
+	   (:revdesc . "1b23d7cb1598")
 	   (:keywords "tools" "processes" "convenience")
 	   (:authors
 	    ("Hrishikesh S" . "hrish2006@gmail.com"))
@@ -58048,7 +58048,7 @@
 	     ("Laurynas Biveinis" . "laurynas.biveinis@gmail.com"))
 	    (:maintainer "Laurynas Biveinis" . "laurynas.biveinis@gmail.com"))])
  (org-mem .
-	  [(0 1 0 1 -4 20260227 1835)
+	  [(0 1 0 1 -4 20260228 651)
 	   ((emacs
 	     (29 1))
 	    (el-job
@@ -58056,11 +58056,11 @@
 	    (llama
 	     (1 0))
 	    (truename-cache
-	     (0 1 2)))
+	     (0 3 2)))
 	   "Fast info from a large number of Org file contents" tar
 	   ((:url . "https://github.com/meedstrom/org-mem")
-	    (:commit . "d60dba65d022118217b7730e6981530319037f1d")
-	    (:revdesc . "d60dba65d022")
+	    (:commit . "fe41733a7b00d872175ae0ad6c1290e01782157f")
+	    (:revdesc . "fe41733a7b00")
 	    (:keywords "text")
 	    (:authors
 	     ("Martin Edström" . "meedstrom@runbox.eu"))
@@ -58272,19 +58272,19 @@
 		   ("Anton Hakansson" . "anton@hakanssn.com"))
 		  (:maintainer "Anton Hakansson" . "anton@hakanssn.com"))])
  (org-node .
-	   [(0 1 0 1 -4 20260223 2314)
+	   [(0 1 0 1 -4 20260228 648)
 	    ((emacs
 	      (29 1))
 	     (llama
-	      (0 5 0))
-	     (org-mem
-	      (0 29 2))
+	      (1 0))
 	     (magit-section
-	      (4 3 0)))
+	      (4 3 0))
+	     (org-mem
+	      (0 32 0)))
 	    "Fast org-roam replacement" tar
 	    ((:url . "https://github.com/meedstrom/org-node")
-	     (:commit . "4b1e1899bfd20b8d2bde294b7d3008367d435be0")
-	     (:revdesc . "4b1e1899bfd2")
+	     (:commit . "889766c41c1724c46a32038c6ce62d9c3fa8bbb7")
+	     (:revdesc . "889766c41c17")
 	     (:keywords "org" "hypermedia")
 	     (:authors
 	      ("Martin Edström" . "meedstrom91@gmail.com"))
@@ -65895,15 +65895,15 @@
 		     (:commit . "36bec1109ba0498c2d1ef29756c841d2e23b063e")
 		     (:revdesc . "36bec1109ba0"))])
  (projectile .
-	     [(0 1 0 1 -4 20260216 652)
+	     [(0 1 0 1 -4 20260228 654)
 	      ((emacs
 		(27 1))
 	       (compat
 		(30)))
 	      "Manage and navigate projects in Emacs easily" tar
 	      ((:url . "https://github.com/bbatsov/projectile")
-	       (:commit . "f12fdae30a36e3614fa6944969bf37dec9998301")
-	       (:revdesc . "f12fdae30a36")
+	       (:commit . "63cd4eabddb6f49105ac702d1af1fe3bd8394210")
+	       (:revdesc . "63cd4eabddb6")
 	       (:keywords "project" "convenience")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -66524,13 +66524,13 @@
 	    ("Folkert van der Beek" . "folkertvanderbeek@gmail.com"))
 	   (:maintainer "Folkert van der Beek" . "folkertvanderbeek@gmail.com"))])
  (pubsub .
-	 [(0 1 0 1 -4 20250905 719)
+	 [(0 1 0 1 -4 20260228 646)
 	  ((emacs
 	    (24 1)))
 	  "A basic publish/subscribe system" tar
 	  ((:url . "https://github.com/countvajhula/pubsub")
-	   (:commit . "84b57d3a3d166b73dfe79acf254fab2938f473f4")
-	   (:revdesc . "84b57d3a3d16")
+	   (:commit . "e88732cf6239a2d94fef59b2e32190bf389a576f")
+	   (:revdesc . "e88732cf6239")
 	   (:authors
 	    ("Sid Kasivajhula" . "sid@countvajhula.com"))
 	   (:maintainers
@@ -77505,7 +77505,7 @@
 	  ("Mark T. Kennedy" . "mtk@acm.org"))
 	 (:maintainer "Mark T. Kennedy" . "mtk@acm.org"))])
  (telega .
-	 [(0 1 0 1 -4 20260226 945)
+	 [(0 1 0 1 -4 20260228 642)
 	  ((emacs
 	    (27 1))
 	   (visual-fill-column
@@ -77514,8 +77514,8 @@
 	    (0 9 0)))
 	  "Telegram client (unofficial)" tar
 	  ((:url . "https://github.com/zevlg/telega.el")
-	   (:commit . "8b5926973f61298f0371f9b128518e286ea70daf")
-	   (:revdesc . "8b5926973f61")
+	   (:commit . "3c905362b525037511c2f382fdc005c3f59d6929")
+	   (:revdesc . "3c905362b525")
 	   (:keywords "comm")
 	   (:authors
 	    ("Zajcev Evgeny" . "zevlg@yandex.ru"))
