@@ -1301,17 +1301,17 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260301 502)
+	  [(0 1 0 1 -4 20260301 1902)
 	   ((emacs
 	     (28 1))
 	    (transient
 	     (0 8 0))
 	    (magit
 	     (2 1 0)))
-	   "Unified interface for AI coding backends such as Claude Code, Codex CLI, Gemini CLI, Copilot CLI, Opencode, Grok CLI, Aider CLI, etc" tar
+	   "Unified interface for AI coding backends such as Codex CLI, Copilot CLI, Claude Code, Gemini CLI, Opencode, Grok CLI, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "ff3d63696d32d63384ddd996b73c75237dea0c8f")
-	    (:revdesc . "ff3d63696d32")
+	    (:commit . "e76f10c87ad4b6a765ea00a3337f885a6a8190ee")
+	    (:revdesc . "e76f10c87ad4")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -8558,6 +8558,21 @@
 		   (:maintainers
 		    ("Bruce D'Arcus" . "bdarcus@gmail.com"))
 		   (:maintainer "Bruce D'Arcus" . "bdarcus@gmail.com"))])
+ (citar-typst .
+	      [(0 1 0 1 -4 20260223 1831)
+	       ((emacs
+		 (29 1))
+		(citar
+		 (1 4)))
+	       "Typst support for citar" tar
+	       ((:url . "https://codeberg.org/ashton314/citar-typst")
+		(:commit . "c1be8d4faf626d348505484463fd1506173ccaa2")
+		(:revdesc . "c1be8d4faf62")
+		(:authors
+		 ("Ashton Wiersdorf" . "https://lambdaland.org/"))
+		(:maintainers
+		 ("Ashton Wiersdorf" . "https://lambdaland.org/"))
+		(:maintainer "Ashton Wiersdorf" . "https://lambdaland.org/"))])
  (citeproc .
 	   [(0 1 0 1 -4 20260113 1047)
 	    ((emacs
@@ -11637,6 +11652,20 @@
 		  (:maintainers
 		   ("DarkSun" . "lujun9972@gmail.com"))
 		  (:maintainer "DarkSun" . "lujun9972@gmail.com"))])
+ (conflict-buttons .
+		   [(0 1 0 1 -4 20260223 740)
+		    ((emacs
+		      (26 1)))
+		    "Clickable buttons for smerge-mode conflicts" tar
+		    ((:url . "https://git.andros.dev/andros/conflict-buttons.el")
+		     (:commit . "22af851d6a0cdd226ef7ba0db54fa096c8ddf235")
+		     (:revdesc . "22af851d6a0c")
+		     (:keywords "vc" "tools" "convenience")
+		     (:authors
+		      ("Andros Fenollosa" . "hi@andros.dev"))
+		     (:maintainers
+		      ("Andros Fenollosa" . "hi@andros.dev"))
+		     (:maintainer "Andros Fenollosa" . "hi@andros.dev"))])
  (conkeror-minor-mode .
 		      [(1 6 2 1 -4 20150114 1604)
 		       nil "Mode for editing conkeror javascript files" tar
@@ -17454,6 +17483,15 @@
 		(:maintainers
 		 ("Henrik Lissner" . "contact@henrik.io"))
 		(:maintainer "Henrik Lissner" . "contact@henrik.io"))])
+ (dorgygen .
+	   [(0 1 0 1 -4 20260226 245)
+	    ((emacs
+	      (29 1)))
+	    "Source code documentation in org-mode" tar
+	    ((:url . "https://github.com/drghirlanda/dorgygen")
+	     (:commit . "577c93529479b42ee6188652a21c5f02aefe43df")
+	     (:revdesc . "577c93529479")
+	     (:keywords "tools" "wp"))])
  (dot-env .
 	  [(1 0 0 1 -4 20230820 2014)
 	   ((emacs
@@ -19414,7 +19452,7 @@
 	       (:revdesc . "9630dfac9549")
 	       (:keywords "convenience" "languages" "tools"))])
  (ekg .
-      [(0 1 0 1 -4 20260228 535)
+      [(0 1 0 1 -4 20260301 1917)
        ((triples
 	 (0 6 1))
 	(emacs
@@ -19423,8 +19461,8 @@
 	 (0 18 0)))
        "A system for recording and linking information" tar
        ((:url . "https://github.com/ahyatt/ekg")
-	(:commit . "5ed2c601f770cb2fee928f74982458faf706b72f")
-	(:revdesc . "5ed2c601f770")
+	(:commit . "532e77c95068dfed6a0f773b7b7f0a78e81e0f45")
+	(:revdesc . "532e77c95068")
 	(:keywords "outlines" "hypermedia")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
@@ -20091,6 +20129,24 @@
 	   (:maintainers
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
 	   (:maintainer "Christopher Wellons" . "wellons@nullprogram.com"))])
+ (elfeed-ai .
+	    [(0 1 0 1 -4 20260301 1831)
+	     ((emacs
+	       (28 1))
+	      (elfeed
+	       (3 4 1))
+	      (gptel
+	       (0 9 9)))
+	     "AI-powered article summarization for elfeed" tar
+	     ((:url . "https://github.com/danielfleischer/elfeed-ai")
+	      (:commit . "10c8f39e3304eca2d6fabb3b06d252d0c0c0bdaa")
+	      (:revdesc . "10c8f39e3304")
+	      (:keywords "comm" "news" "ai")
+	      (:authors
+	       ("Daniel Fleischer" . "danflscr@gmail.com"))
+	      (:maintainers
+	       ("Daniel Fleischer" . "danflscr@gmail.com"))
+	      (:maintainer "Daniel Fleischer" . "danflscr@gmail.com"))])
  (elfeed-autotag .
 		 [(0 1 1 1 -4 20210607 637)
 		  ((emacs
@@ -39041,13 +39097,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20260301 641)
+	    [(0 1 0 1 -4 20260301 1730)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "18da353802bbd89d5f48fdb266a1e43be655f317")
-	      (:revdesc . "18da353802bb")
+	      (:commit . "6374c01468665181afbd7041bbf1ed43150c482d")
+	      (:revdesc . "6374c0146866")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -46398,6 +46454,22 @@
 	     (:maintainers
 	      ("Hector A Escobedo" . "ninjahector.escobedo@gmail.com"))
 	     (:maintainer "Hector A Escobedo" . "ninjahector.escobedo@gmail.com"))])
+ (lit-ts-mode .
+	      [(0 1 0 1 -4 20260224 2121)
+	       ((emacs
+		 (30 1))
+		(template-literals-ts-mode
+		 (0 1 0)))
+	       "Lit-aware JS/TS modes with tree-sitter support" tar
+	       ((:url . "https://github.com/ispringle/lit-ts-mode")
+		(:commit . "9dae586c13b28c467cda462c767d10e2ade3658f")
+		(:revdesc . "9dae586c13b2")
+		(:keywords "languages" "javascript" "typescript" "tree-sitter" "lit")
+		(:authors
+		 ("Ian S. Pringle" . "ian@dapringles.com"))
+		(:maintainers
+		 ("Ian S. Pringle" . "ian@dapringles.com"))
+		(:maintainer "Ian S. Pringle" . "ian@dapringles.com"))])
  (litable .
 	  [(0 1 0 1 -4 20240321 2059)
 	   ((dash
