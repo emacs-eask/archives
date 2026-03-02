@@ -8485,7 +8485,7 @@
 	   ("Bruce D'Arcus" . "https://github.com/bdarcus"))
 	  (:maintainer "Bruce D'Arcus" . "https://github.com/bdarcus"))])
  (citar-denote .
-	       [(0 1 0 1 -4 20260301 28)
+	       [(0 1 0 1 -4 20260302 507)
 		((emacs
 		  (29 1))
 		 (citar
@@ -8496,8 +8496,8 @@
 		  (2 19 1)))
 		"Minor mode integrating Citar and Denote" tar
 		((:url . "https://github.com/pprevos/citar-denote")
-		 (:commit . "3ea1e65615f3a01ae2b15a33c706ba36a9285d80")
-		 (:revdesc . "3ea1e65615f3")
+		 (:commit . "7b2414c116ffff347a6be22a562fdc69a3ff9578")
+		 (:revdesc . "7b2414c116ff")
 		 (:authors
 		  ("Peter Prevos" . "peter@prevos.net"))
 		 (:maintainers
@@ -12385,7 +12385,7 @@
 	       ("Noah Peart" . "noah.v.peart@gmail.com"))
 	      (:maintainer "Noah Peart" . "noah.v.peart@gmail.com"))])
  (copilot .
-	  [(0 1 0 1 -4 20260301 1950)
+	  [(0 1 0 1 -4 20260302 526)
 	   ((emacs
 	     (27 2))
 	    (editorconfig
@@ -12398,8 +12398,8 @@
 	     (1 4)))
 	   "An Emacs plugin for GitHub Copilot" tar
 	   ((:url . "https://github.com/copilot-emacs/copilot.el")
-	    (:commit . "a11462a47ec619fbc9ec1af55f9bbea4c81fa966")
-	    (:revdesc . "a11462a47ec6")
+	    (:commit . "08f96b753e38169d8d80459487744ba6b3ae2c4a")
+	    (:revdesc . "08f96b753e38")
 	    (:keywords "convenience" "copilot")
 	    (:authors
 	     ("zerol" . "z@zerol.me"))
@@ -14029,6 +14029,20 @@
 	    (:maintainers
 	     ("Andor Kesselman" . "andor@henosisknot.com"))
 	    (:maintainer "Andor Kesselman" . "andor@henosisknot.com"))])
+ (d2-ts-mode .
+	     [(0 1 0 1 -4 20260301 2339)
+	      ((emacs
+		(30 1)))
+	      "Tree-sitter support for D2" tar
+	      ((:url . "https://github.com/chaploud/d2-ts-mode")
+	       (:commit . "70891b8d49bbc25cc19ad9b21e3b88bda8fd705d")
+	       (:revdesc . "70891b8d49bb")
+	       (:keywords "languages" "d2" "tree-sitter")
+	       (:authors
+		("chaploud" . "https://github.com/chaploud"))
+	       (:maintainers
+		("chaploud" . "https://github.com/chaploud"))
+	       (:maintainer "chaploud" . "https://github.com/chaploud"))])
  (dactyl-mode .
 	      [(0 0 1 1 -4 20140906 1725)
 	       nil "Major mode for editing Pentadactyl config files" tar
@@ -45400,13 +45414,13 @@
 		("Lukasz Pawelczyk" . "havner@gmail.com"))
 	       (:maintainer "Lukasz Pawelczyk" . "havner@gmail.com"))])
  (leaf .
-       [(0 1 0 1 -4 20241018 516)
+       [(0 1 0 1 -4 20260302 652)
 	((emacs
 	  (24 1)))
 	"Simplify your init.el configuration, extended use-package" tar
 	((:url . "https://github.com/conao3/leaf.el")
-	 (:commit . "69c9b057cdeee560450c1d04a9a058235ecff0f7")
-	 (:revdesc . "69c9b057cdee")
+	 (:commit . "b49e68613b8efba89c702141f49ad9b4460a7204")
+	 (:revdesc . "b49e68613b8e")
 	 (:keywords "lisp" "settings")
 	 (:authors
 	  ("Naoya Yamashita" . "conao3@gmail.com"))
@@ -46243,6 +46257,17 @@
 		   (:maintainers
 		    ("Marco Wahl" . "marcowahlsoft@gmail.com"))
 		   (:maintainer "Marco Wahl" . "marcowahlsoft@gmail.com"))])
+ (lisp-chat .
+	    [(0 1 0 1 -4 20260302 7)
+	     ((emacs
+	       (26 1))
+	      (websocket
+	       (1 12)))
+	     "Emacs client for Lisp Chat" tar
+	     ((:url . "https://github.com/ryukinix/lisp-chat")
+	      (:commit . "43bab123c861ed0dd11d076af9a61d641ed259f5")
+	      (:revdesc . "43bab123c861")
+	      (:keywords "comm" "chat" "lisp"))])
  (lisp-docstring-toggle .
 			[(0 1 0 1 -4 20251123 1932)
 			 ((emacs
@@ -73418,15 +73443,15 @@
 	      (:revdesc . "8c92169817f2")
 	      (:keywords "markup" "language"))])
  (slime .
-	[(0 1 0 1 -4 20260226 1423)
+	[(0 1 0 1 -4 20260302 604)
 	 ((emacs
 	   (24 3))
 	  (macrostep
 	   (0 9)))
 	 "Superior Lisp Interaction Mode for Emacs" tar
 	 ((:url . "https://github.com/slime/slime")
-	  (:commit . "7d873ed05b184dd40b74e1751b2659e037078a58")
-	  (:revdesc . "7d873ed05b18")
+	  (:commit . "f1724c51ecfa68b514380d100ac2bd99b93dabda")
+	  (:revdesc . "f1724c51ecfa")
 	  (:keywords "languages" "lisp" "slime"))])
  (slime-company .
 		[(0 1 0 1 -4 20250815 757)
