@@ -315,21 +315,22 @@
       (:authors ("Serghei Iakovlev" . "gnu@serghei.pl"))
       (:commit . "5304ab647e04916c5be4fdde41477ad429a89120"))])
  (boxy
-  . [(2 0 0 0 20260301 114502) ((emacs (26 1)))
+  . [(2 0 1 0 20260303 181733) ((emacs (26 1)))
      "A boxy layout framework" tar
-     ((:url . "https://gitlab.com/grinn.amy/boxy") (:keywords "tools")
-      (:maintainer "Amy Grinn" . "grinn.amy@gmail.com")
-      (:authors ("Amy Grinn" . "grinn.amy@gmail.com"))
-      (:commit . "b8ab113059db03427cc0e379a9d07d445c0cf170"))])
+     ((:url . "https://codeberg.org/strawburster/boxy")
+      (:keywords "tools")
+      (:maintainer "Amy Pillow" . "amypillow@lavache.com")
+      (:authors ("Amy Pillow" . "amypillow@lavache.com"))
+      (:commit . "793e3d65ffb970fa8b52e89d25e7ea5e6f39508a"))])
  (boxy-headings
-  . [(2 1 10 0 20260301 115821)
+  . [(2 1 11 0 20260303 182038)
      ((emacs (26 1)) (boxy (2 0)) (org (9 4)))
      "View org files in a boxy diagram" tar
-     ((:url . "https://gitlab.com/grinn.amy/boxy-headings")
+     ((:url . "https://codeberg.org/strawburster/boxy-headings")
       (:keywords "tools")
-      (:maintainer "Amy Grinn" . "grinn.amy@gmail.com")
-      (:authors ("Amy Grinn" . "grinn.amy@gmail.com"))
-      (:commit . "51240a7ce2e2f0acda0057b313a216da899da28b"))])
+      (:maintainer "Amy Pillow" . "amypillow@lavache.com")
+      (:authors ("Amy Pillow" . "amypillow@lavache.com"))
+      (:commit . "08e1c84dee28f87010f50cb4e9a48c0798c8912b"))])
  (breadcrumb
   . [(1 0 1 0 20260110 120308) ((emacs (28 1)) (project (0 9 8)))
      "project and imenu-based breadcrumb paths" tar
@@ -1066,7 +1067,7 @@
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
       (:commit . "9f68c1be9d35958a0679d5855ac6ec10b2c46e1b"))])
  (eglot
-  . [(1 21 0 20260221 132913)
+  . [(1 21 0 20260303 101717)
      ((emacs (26 3)) (eldoc (1 14 0)) (external-completion (0 1))
       (flymake (1 4 2)) (jsonrpc (1 0 26)) (project (0 11 2))
       (seq (2 23)) (xref (1 6 2)))
@@ -1075,7 +1076,7 @@
       (:keywords "convenience" "languages")
       (:maintainer "João Távora" . "joaotavora@gmail.com")
       (:authors ("João Távora" . "joaotavora@gmail.com"))
-      (:commit . "a61c098a517d29af38b065f946c4378a3b88bcd7"))])
+      (:commit . "ae45bb10e01da1f2184fbd327e83e4d008b6aec7"))])
  (el-job
   . [(2 7 3 0 20260228 73358) ((emacs (29 1)))
      "Contrived way to call a function using all CPU cores" tar
@@ -1143,12 +1144,12 @@
       (:authors ("Ihor Radchenko" . "yantar92@posteo.net"))
       (:commit . "05d669e123f411c9582f99a9a6182efa43d01a6b"))])
  (emacs-lisp-intro-es
-  . [(0 0 20260302 163324) nil "ELisp intro manual in Spanish" tar
+  . [(1 0 0 20260303 110155) nil "ELisp intro manual in Spanish" tar
      ((:keywords "manual" "translation" "spanish" "español")
       (:maintainer "David Arroyo Menéndez" . "davidam@gmail.com")
       (:authors ("David Arroyo Menéndez" . "davidam@gmail.com"))
       (:url . "https://elpa.gnu.org/packages/emacs-lisp-intro-es.html")
-      (:commit . "ede58c82ee292d42720fe908cd4a07355e513a3c"))])
+      (:commit . "5543355583f2f1a6327d5e112b370d4d628c9499"))])
  (emacs-lisp-intro-nl
   . [(0 0 20260302 163943) nil "ELisp intro manual in NL" tar
      ((:maintainer "Matto Fransen" . "matto@matto.nl")
@@ -1216,14 +1217,14 @@
       (:url . "https://elpa.gnu.org/packages/epoch-view.html")
       (:commit . "7a9773a8b55491bd47f23dfdb6c4224f5cc8e50c"))])
  (erc
-  . [(5 6 2 -4 0 20260221 132913) ((emacs (27 1)) (compat (29 1 4 5)))
+  . [(5 6 2 -4 0 20260303 162135) ((emacs (27 1)) (compat (29 1 4 5)))
      "An Emacs Internet Relay Chat client" tar
      ((:url . "https://www.gnu.org/software/emacs/erc.html")
       (:keywords "irc" "chat" "client" "internet")
       (:maintainer ("Amin Bandali" . "bandali@gnu.org")
 		   ("F. Jason Park" . "jp@neverwas.me"))
       (:authors ("Alexander L. Belikoff" . "alexander@belikoff.net"))
-      (:commit . "a61c098a517d29af38b065f946c4378a3b88bcd7"))])
+      (:commit . "ae45bb10e01da1f2184fbd327e83e4d008b6aec7"))])
  (ergoemacs-mode
   . [(5 16 10 12 0 20240828 210215)
      ((emacs (24 1)) (cl-lib (0 5)) (nadvice (0 4)))
@@ -1336,14 +1337,14 @@
       (:url . "https://elpa.gnu.org/packages/flylisp.html")
       (:commit . "7295025f4c0571013142dfb9cc1a893fff79904b"))])
  (flymake
-  . [(1 4 3 0 20260221 132913)
+  . [(1 4 3 0 20260303 162135)
      ((emacs (26 1)) (eldoc (1 14 0)) (project (0 11 1)))
      "A universal on-the-fly syntax checker" tar
      ((:keywords "c" "languages" "tools")
       (:maintainer "Spencer Baugh" . "sbaugh@janestreet.com")
       (:authors ("Pavel Kobyakov" . "pk_at_work@yahoo.com"))
       (:url . "https://elpa.gnu.org/packages/flymake.html")
-      (:commit . "a61c098a517d29af38b065f946c4378a3b88bcd7"))])
+      (:commit . "ae45bb10e01da1f2184fbd327e83e4d008b6aec7"))])
  (flymake-clippy
   . [(1 1 0 0 20250323 141048) ((emacs (27)))
      "Flymake backend for Clippy" tar
@@ -1409,13 +1410,13 @@
       (:authors ("Yuan Fu" . "casouri@gmail.com"))
       (:commit . "d7c243ac3be2a67986f53f3dc31ba1426e82b771"))])
  (futur
-  . [(1 1 0 20260302 162803) nil "Future/promise-based async library"
+  . [(1 1 0 20260303 145927) nil "Future/promise-based async library"
      tar
      ((:keywords "concurrency" "async" "promises" "futures")
       (:maintainer "Stefan Monnier" . "monnier@iro.umontreal.ca")
       (:authors ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
       (:url . "https://elpa.gnu.org/packages/futur.html")
-      (:commit . "3de27ee4b6d8a111b1fc1087378d8eda4f0c623b"))])
+      (:commit . "d2f87084d0b4a17a62109fbc3e29e7ed362d2953"))])
  (gcmh
   . [(0 2 1 0 20201116 225142) ((emacs (24)))
      "the Garbage Collector Magic Hack" tar
@@ -1652,7 +1653,7 @@
       (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com"))
       (:commit . "84a9db01eff1fcc52ad054c5ad3c22316739573f"))])
  (hyperbole
-  . [(9 0 2 -1 0 20260301 164821) ((emacs (28)))
+  . [(9 0 2 -1 0 20260303 125052) ((emacs (28)))
      "GNU Hyperbole: The Everyday Hypertextual Information Manager"
      tar
      ((:url . "http://www.gnu.org/software/hyperbole")
@@ -1661,7 +1662,7 @@
 		 "outlines" "tools" "wp")
       (:maintainer "Robert Weiner" . "rsw@gnu.org")
       (:authors ("Robert Weiner" . "rsw@gnu.org"))
-      (:commit . "6aa7c5ad0f5700b795495a0cd40edc95132137ee"))])
+      (:commit . "36ed6ee7d97229c2b5344d3edc83ae003eae8117"))])
  (idlwave
   . [(6 5 1 0 20240523 142720) nil "IDL editing mode for GNU Emacs"
      tar
@@ -2434,7 +2435,7 @@
       (:authors ("Hanno Perrey" . "hanno@hoowl.se"))
       (:commit . "68aef8d4b4c7a562bfc664639568706ba625d0a1"))])
  (org-mem
-  . [(0 33 0 0 20260303 75813)
+  . [(0 34 0 0 20260303 195613)
      ((emacs (29 1)) (el-job (2 7 3)) (llama (1 0))
       (truename-cache (0 3 2)))
      "Fast info from a large number of Org file contents" tar
@@ -2442,7 +2443,7 @@
       (:keywords "text")
       (:maintainer "Martin Edström" . "meedstrom@runbox.eu")
       (:authors ("Martin Edström" . "meedstrom@runbox.eu"))
-      (:commit . "3a90968f693dfa80d6c8b2b3f3482de63a390f7d"))])
+      (:commit . "777329d38673c852c4c7da7241abc0d30b0b2985"))])
  (org-modern
   . [(1 12 0 20260125 143845)
      ((emacs (29 1)) (org (9 6)) (compat (30))) "Modern looks for Org"
@@ -2462,14 +2463,14 @@
       (:authors ("Peter Münster" . "pm@a16n.net"))
       (:commit . "aacd0efd8cb7906b3c0893791016d2e7f82e11e0"))])
  (org-real
-  . [(1 0 11 0 20260301 120522)
+  . [(1 0 12 0 20260303 182338)
      ((emacs (26 1)) (boxy (2 0)) (org (9 3)))
      "Keep track of real things as org-mode links" tar
-     ((:url . "https://gitlab.com/grinn.amy/org-real")
+     ((:url . "https://codeberg.org/strawburster/org-real")
       (:keywords "tools")
-      (:maintainer "Amy Grinn" . "grinn.amy@gmail.com")
-      (:authors ("Amy Grinn" . "grinn.amy@gmail.com"))
-      (:commit . "76512f947175c5c9e4ec92f7d877e3e350072cdc"))])
+      (:maintainer "Amy Pillow" . "amypillow@lavache.com")
+      (:authors ("Amy Pillow" . "amypillow@lavache.com"))
+      (:commit . "47b78418fed535c3e0e0350422e76fccd31a65ba"))])
  (org-remark
   . [(1 3 0 0 20251214 30531) ((emacs (27 1)) (org (9 4)))
      "Highlight & annotate text, Info, EPUB, EWW" tar
@@ -3537,7 +3538,7 @@
       (:url . "https://elpa.gnu.org/packages/transcribe.html")
       (:commit . "2c2d493d5488f3b444d2a771ab443589fcc72c13"))])
  (transient
-  . [(0 12 0 0 20260228 192825)
+  . [(0 12 0 0 20260303 194104)
      ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (seq (2 24)))
      "Transient commands" tar
      ((:url . "https://github.com/magit/transient")
@@ -3546,7 +3547,7 @@
 		   . "emacs.transient@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
-      (:commit . "7637fd025d2f7f34ec83db2180ae50a8e4ef5ed8"))])
+      (:commit . "6e836a596e01e9eca311b66328767f3c4025f1ee"))])
  (transient-cycles
   . [(2 0 0 20250625 85410) ((emacs (29 1)))
      "Define command variants with transient cycling" tar
