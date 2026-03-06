@@ -978,13 +978,13 @@
       (:url . "https://elpa.gnu.org/packages/docbook.html")
       (:commit . "9b7c2dbae38b523442f7c1155bc4e3db16a0c49f"))])
  (doric-themes
-  . [(1 0 0 0 20260228 193817) ((emacs (29 1)))
+  . [(1 0 0 0 20260306 83012) ((emacs (29 1)))
      "Highly legible minimalist themes with precise typography" tar
      ((:url . "https://github.com/protesilaos/doric-themes")
       (:keywords "faces" "theme" "accessibility")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "2ce844c9faf87b1d541fa6773ecd72ae0b311123"))])
+      (:commit . "b497a5bcb44b7f52d5aaf0fa4b60ce0b8bef044d"))])
  (drepl
   . [(0 4 0 20251012 81518) ((emacs (29 1)) (comint-mime (0 7)))
      "REPL protocol for the dumb terminal" tar
@@ -1078,13 +1078,13 @@
       (:authors ("João Távora" . "joaotavora@gmail.com"))
       (:commit . "ae45bb10e01da1f2184fbd327e83e4d008b6aec7"))])
  (el-job
-  . [(2 7 3 0 20260228 73358) ((emacs (29 1)))
+  . [(2 7 4 0 20260306 64315) ((emacs (29 1)))
      "Contrived way to call a function using all CPU cores" tar
      ((:url . "https://github.com/meedstrom/el-job")
       (:keywords "processes")
       (:maintainer "Martin Edström" . "meedstrom@runbox.eu")
       (:authors ("Martin Edström" . "meedstrom@runbox.eu"))
-      (:commit . "48d8525ec61b2a55b02402bc640e60b5caab79bb"))])
+      (:commit . "8b21c8f9a47a71102bf4ec08504b044aeab880fe"))])
  (el-search
   . [(1 12 6 1 0 20250307 74553)
      ((emacs (25)) (stream (2 2 4)) (cl-print (1 0)))
@@ -1410,13 +1410,13 @@
       (:authors ("Yuan Fu" . "casouri@gmail.com"))
       (:commit . "d7c243ac3be2a67986f53f3dc31ba1426e82b771"))])
  (futur
-  . [(1 1 0 20260304 174617) nil "Future/promise-based async library"
+  . [(1 1 0 20260305 231543) nil "Future/promise-based async library"
      tar
      ((:keywords "concurrency" "async" "promises" "futures")
       (:maintainer "Stefan Monnier" . "monnier@iro.umontreal.ca")
       (:authors ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
       (:url . "https://elpa.gnu.org/packages/futur.html")
-      (:commit . "b78799e38cb3a86f58e6779e6de952bca454548d"))])
+      (:commit . "1f2a94f481d2afe5d33e7d4ab38c7b45f43703ca"))])
  (gcmh
   . [(0 2 1 0 20201116 225142) ((emacs (24)))
      "the Garbage Collector Magic Hack" tar
@@ -1552,7 +1552,7 @@
       (:authors ("Sean Allred" . "code@seanallred.com"))
       (:commit . "9b3151b1de67c8a127906f11bc5c71116c12f5b5"))])
  (greader
-  . [(0 13 1 0 20260103 220605)
+  . [(0 13 1 0 20260306 51522)
      ((emacs (26 1)) (seq (2 24)) (compat (29 1 4 5)))
      "Gnamù reader, send buffer contents to a speech engine" tar
      ((:url . "https://gitlab.com/michelangelo-rodriguez/greader")
@@ -1561,7 +1561,7 @@
 		   . "michelangelo.rodriguez@gmail.com")
       (:authors
        ("Michelangelo Rodriguez" . "michelangelo.rodriguez@gmail.com"))
-      (:commit . "66a405e49df0421e4d3b8cd4fc81716a949a9568"))])
+      (:commit . "249959b6290cc97324a2cf5cbea5b2e44168afd4"))])
  (greenbar
   . [(1 2 0 20250603 210745) ((emacs (27 1)))
      "Mark comint output with \"greenbar\" background" tar
@@ -1653,7 +1653,7 @@
       (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com"))
       (:commit . "84a9db01eff1fcc52ad054c5ad3c22316739573f"))])
  (hyperbole
-  . [(9 0 2 -1 0 20260304 90118) ((emacs (28)))
+  . [(9 0 2 -1 0 20260305 72306) ((emacs (28)))
      "GNU Hyperbole: The Everyday Hypertextual Information Manager"
      tar
      ((:url . "http://www.gnu.org/software/hyperbole")
@@ -1662,7 +1662,7 @@
 		 "outlines" "tools" "wp")
       (:maintainer "Robert Weiner" . "rsw@gnu.org")
       (:authors ("Robert Weiner" . "rsw@gnu.org"))
-      (:commit . "039fe8d0df54c6d38d33578c96b62a6deb7c0a2e"))])
+      (:commit . "8f54242e15e0da76266ec3dbf0dd27fed76df0b6"))])
  (idlwave
   . [(6 5 1 0 20240523 142720) nil "IDL editing mode for GNU Emacs"
      tar
@@ -2435,7 +2435,7 @@
       (:authors ("Hanno Perrey" . "hanno@hoowl.se"))
       (:commit . "68aef8d4b4c7a562bfc664639568706ba625d0a1"))])
  (org-mem
-  . [(0 34 0 0 20260305 193721)
+  . [(0 34 0 0 20260306 54335)
      ((emacs (29 1)) (el-job (2 7 3)) (llama (1 0))
       (truename-cache (0 3 2)))
      "Fast info from a large number of Org file contents" tar
@@ -2443,7 +2443,7 @@
       (:keywords "text")
       (:maintainer "Martin Edström" . "meedstrom@runbox.eu")
       (:authors ("Martin Edström" . "meedstrom@runbox.eu"))
-      (:commit . "26b121bda58b5fe8c47736f6472de7a8412fec71"))])
+      (:commit . "1476784172058cefa2a488c018080489e35f31c7"))])
  (org-modern
   . [(1 12 0 20260125 143845)
      ((emacs (29 1)) (org (9 6)) (compat (30))) "Modern looks for Org"
@@ -2596,6 +2596,15 @@
       (:authors ("Phillip Lord" . "phillip.lord@russet.org.uk"))
       (:url . "https://elpa.gnu.org/packages/persist.html")
       (:commit . "3b4b421d5185f2c33bae478aa057dff13701cc25"))])
+ (php-fill
+  . [(1 1 1 0 20260225 194006) ((emacs (27 1)))
+     "Additional fill commands for PHP code editing" tar
+     ((:url . "https://github.com/arielenter/php-fill.el")
+      (:keywords "php" "languages" "tools" "convenience")
+      (:maintainer "Ariel Del Valle Lozano"
+		   . "arielmazatlan@gmail.com")
+      (:authors ("Ariel Del Valle Lozano" . "arielmazatlan@gmail.com"))
+      (:commit . "26e34421c873753c0481bef486700353ff455371"))])
  (phpinspect
   . [(3 0 1 0 20250605 141218) ((compat (29)))
      "PHP parsing and code intelligence package" tar
