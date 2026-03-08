@@ -22109,13 +22109,13 @@
 	      ("Jonathan Rockway" . "jon@jrock.us"))
 	     (:maintainer "Jonathan Rockway" . "jon@jrock.us"))])
  (eprolog .
-	  [(0 1 0 1 -4 20260308 1428)
+	  [(0 1 0 1 -4 20260308 1503)
 	   ((emacs
 	     (27 2)))
 	   "Native Prolog engine implementation" tar
 	   ((:url . "https://github.com/tani/eprolog")
-	    (:commit . "42842bdc9eb6468d95fc202d2aea5af0a81f6e29")
-	    (:revdesc . "42842bdc9eb6")
+	    (:commit . "6eff9942d3de603109101f3d74e30aac495203f6")
+	    (:revdesc . "6eff9942d3de")
 	    (:keywords "languages" "prolog" "logic programming"))])
  (epx .
       [(0 1 0 1 -4 20260306 1300)
@@ -30332,13 +30332,13 @@
 			(:commit . "be572b8953b9e5a3a35c30bb64c2936d3e9802ba")
 			(:revdesc . "be572b8953b9"))])
  (frimacs .
-	  [(0 1 0 1 -4 20250809 723)
+	  [(0 1 0 1 -4 20260308 1807)
 	   ((emacs
 	     (26 1)))
 	   "An environment for the FriCAS computer algebra system" tar
 	   ((:url . "https://github.com/pdo/frimacs")
-	    (:commit . "8f94c8389c559dee33ae271d97e4efa2fffbc47c")
-	    (:revdesc . "8f94c8389c55")
+	    (:commit . "e1f1599c6144e697b41059369f4d6010eca9019f")
+	    (:revdesc . "e1f1599c6144")
 	    (:keywords "fricas" "computer algebra" "extensions" "tools")
 	    (:authors
 	     ("Paul Onions" . "paul.onions@acm.org"))
@@ -33673,7 +33673,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20260308 844)
+	[(0 1 0 1 -4 20260308 1738)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -33682,8 +33682,8 @@
 	   (30 1 0 0)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "57fba7990f79b725aa39b954449114913d71340c")
-	  (:revdesc . "57fba7990f79")
+	  (:commit . "fa2f4d50dee20727e3a7953ee04c453f9f6f3480")
+	  (:revdesc . "fa2f4d50dee2")
 	  (:keywords "convenience" "tools")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -34681,6 +34681,22 @@
 	       (:maintainers
 		("Basil L. Contovounesios" . "basil@contovou.net"))
 	       (:maintainer "Basil L. Contovounesios" . "basil@contovou.net"))])
+ (hackernews-modern .
+		    [(0 1 0 1 -4 20260223 1814)
+		     ((emacs
+		       (28 1))
+		      (visual-fill-column
+		       (2 2)))
+		     "Hacker News client with modern widget UI" tar
+		     ((:url . "https://git.andros.dev/andros/hackernews-modern-el")
+		      (:commit . "e0972d950b028ee7b6030dcc44265357e5c4108d")
+		      (:revdesc . "e0972d950b02")
+		      (:keywords "comm" "hypermedia" "news")
+		      (:authors
+		       ("Andros Fenollosa" . "hi@andros.dev"))
+		      (:maintainers
+		       ("Andros Fenollosa" . "hi@andros.dev"))
+		      (:maintainer "Andros Fenollosa" . "hi@andros.dev"))])
  (haki-theme .
 	     [(0 1 0 1 -4 20250119 823)
 	      ((emacs
@@ -47462,7 +47478,7 @@
 		("Evgeny Kurnevsky" . "kurnevsky@gmail.com"))
 	       (:maintainer "Ross A. Baker" . "ross@rossabaker.com"))])
  (lsp-mode .
-	   [(0 1 0 1 -4 20260304 2137)
+	   [(0 1 0 1 -4 20260308 1629)
 	    ((emacs
 	      (28 1))
 	     (dash
@@ -47481,8 +47497,8 @@
 	      (1 11)))
 	    "LSP mode" tar
 	    ((:url . "https://github.com/emacs-lsp/lsp-mode")
-	     (:commit . "aa6c5f943c691952c78ad0ce659e4626ca942fdc")
-	     (:revdesc . "aa6c5f943c69")
+	     (:commit . "fd4df7cf17326b34257329f2fbd898573a1d106d")
+	     (:revdesc . "fd4df7cf1732")
 	     (:keywords "languages"))])
  (lsp-mssql .
 	    [(0 1 0 1 -4 20251117 1444)
@@ -48154,6 +48170,24 @@
 		 ("Kyle Meyer" . "kyle@kyleam.com")
 		 ("Rémi Vanicat" . "vanicat@debian.org"))
 		(:maintainer "Kyle Meyer" . "kyle@kyleam.com"))])
+ (magit-browse-commit .
+		      [(0 1 0 1 -4 20260303 403)
+		       ((emacs
+			 (25 1))
+			(magit
+			 (3 0 0))
+			(s
+			 (1 12 0)))
+		       "Browse pull/merge requests from magit-blame" tar
+		       ((:url . "https://github.com/bbw9n/magit-browse-commit")
+			(:commit . "eacd12063f1b497309e5e7dac6c3b8704c6704f2")
+			(:revdesc . "eacd12063f1b")
+			(:keywords "vc" "tools" "git")
+			(:authors
+			 ("Angeldswang" . "bbw9nio@gmail.com"))
+			(:maintainers
+			 ("Angeldswang" . "bbw9nio@gmail.com"))
+			(:maintainer "Angeldswang" . "bbw9nio@gmail.com"))])
  (magit-commit-mark .
 		    [(0 1 0 1 -4 20260105 203)
 		     ((emacs
@@ -49491,6 +49525,20 @@
 		     (:maintainers
 		      ("Enrico Flor" . "enrico@eflor.net"))
 		     (:maintainer "Enrico Flor" . "enrico@eflor.net"))])
+ (mathprog-ts-mode .
+		   [(0 1 0 1 -4 20260225 1548)
+		    ((emacs
+		      (29 1)))
+		    "Major mode for the GNU MathProg modeling language" tar
+		    ((:url . "https://github.com/smoeding/mathprog-ts-mode")
+		     (:commit . "a45ccc2a252aaeb34fbd2c180d8b428bb38bebc1")
+		     (:revdesc . "a45ccc2a252a")
+		     (:keywords "languages")
+		     (:authors
+		      ("Stefan Möding" . "stm@kill-9.net"))
+		     (:maintainers
+		      ("Stefan Möding" . "stm@kill-9.net"))
+		     (:maintainer "Stefan Möding" . "stm@kill-9.net"))])
  (matlab-mode .
 	      [(0 1 0 1 -4 20260228 1439)
 	       ((emacs
@@ -52356,6 +52404,20 @@
 	      (:maintainers
 	       ("Felix Weilbach" . "felix.weilbach@t-online.de"))
 	      (:maintainer "Felix Weilbach" . "felix.weilbach@t-online.de"))])
+ (mutype .
+	 [(0 1 0 1 -4 20260302 636)
+	  ((emacs
+	    (25 1)))
+	  "Type into stillness" tar
+	  ((:url . "https://github.com/suxiaogang223/mutype")
+	   (:commit . "37bbd1de17a1980651b1a72c6861d57c21b816fe")
+	   (:revdesc . "37bbd1de17a1")
+	   (:keywords "convenience" "typing")
+	   (:authors
+	    ("Xiaogang Su" . "https://github.com/suxiaogang223"))
+	   (:maintainers
+	    ("Xiaogang Su" . "https://github.com/suxiaogang223"))
+	   (:maintainer "Xiaogang Su" . "https://github.com/suxiaogang223"))])
  (mvn .
       [(0 1 1 -4 20181002 1617)
        nil "Helpers for compiling with maven" tar
@@ -52988,13 +53050,13 @@
 	     ("Jacek Sliwerski" . "rzyj@o2.pl"))
 	    (:maintainer "Jacek Sliwerski" . "rzyj@o2.pl"))])
  (neocaml .
-	  [(0 1 0 1 -4 20260306 2100)
+	  [(0 1 0 1 -4 20260308 1845)
 	   ((emacs
 	     (29 1)))
 	   "Major mode for OCaml code" tar
 	   ((:url . "https://github.com/bbatsov/neocaml")
-	    (:commit . "18d2a0c35e30352c173a308c9cce6c62188e7ccd")
-	    (:revdesc . "18d2a0c35e30")
+	    (:commit . "37ccaaa523801a5f511ba0a654a9d2a4ef1aec8d")
+	    (:revdesc . "37ccaaa52380")
 	    (:keywords "languages" "ocaml" "ml")
 	    (:authors
 	     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -55990,13 +56052,13 @@
 	      ("Paul W. Rankin" . "rnkn@rnkn.xyz"))
 	     (:maintainer "Paul W. Rankin" . "rnkn@rnkn.xyz"))])
  (ollama-buddy .
-	       [(0 1 0 1 -4 20260307 1914)
+	       [(0 1 0 1 -4 20260308 1738)
 		((emacs
 		  (28 1)))
 		"Ollama LLM AI Assistant ChatGPT Claude Gemini Grok Codestral DeepSeek OpenRouter Support" tar
 		((:url . "https://github.com/captainflasmr/ollama-buddy")
-		 (:commit . "2640d222b8bd66c1b7b1159b19b6f95c0c22ef90")
-		 (:revdesc . "2640d222b8bd")
+		 (:commit . "2f0be9d2cfd2077e237242a3952b1dc4babbb273")
+		 (:revdesc . "2f0be9d2cfd2")
 		 (:keywords "applications" "tools" "convenience")
 		 (:authors
 		  ("James Dyer" . "captainflasmr@gmail.com"))
