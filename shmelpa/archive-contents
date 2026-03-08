@@ -33671,7 +33671,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20260308 1738)
+	[(0 1 0 1 -4 20260308 1902)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -33680,8 +33680,8 @@
 	   (30 1 0 0)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "fa2f4d50dee20727e3a7953ee04c453f9f6f3480")
-	  (:revdesc . "fa2f4d50dee2")
+	  (:commit . "ecb6276a94267f1373dd258ec6e9334ee40f4e75")
+	  (:revdesc . "ecb6276a9426")
 	  (:keywords "convenience" "tools")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -33689,7 +33689,7 @@
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))])
  (gptel-agent .
-	      [(0 1 0 1 -4 20260308 904)
+	      [(0 1 0 1 -4 20260308 2122)
 	       ((emacs
 		 (29 1))
 		(compat
@@ -33702,8 +33702,8 @@
 		 (1 1)))
 	       "Agentic LLM use for gptel" tar
 	       ((:url . "https://github.com/karthink/gptel-agent")
-		(:commit . "0e574a655aad18164f3e87ade35bca5777c90b03")
-		(:revdesc . "0e574a655aad")
+		(:commit . "c3612aee925f5bbe53d24d9ad2dc3e11e006962f")
+		(:revdesc . "c3612aee925f")
 		(:keywords "comm"))])
  (gptel-aibo .
 	     [(0 1 0 1 -4 20250709 851)
@@ -35863,6 +35863,24 @@
 		 (:maintainers
 		  ("Adam Porter" . "adam@alphapapa.net"))
 		 (:maintainer "Adam Porter" . "adam@alphapapa.net"))])
+ (helm-eca .
+	   [(0 1 0 1 -4 20260228 137)
+	    ((emacs
+	      (28 1))
+	     (eca
+	      (0 8 1))
+	     (helm
+	      (3 9 0)))
+	    "Helm UI for ECA chats/workspaces" tar
+	    ((:url . "https://github.com/PalaceChan/helm-eca")
+	     (:commit . "34402f053cf6f42b77ff20bbd0891160605cc20e")
+	     (:revdesc . "34402f053cf6")
+	     (:keywords "tools" "convenience")
+	     (:authors
+	      ("PalaceChan" . "PalaceChan@users.noreply.github.com"))
+	     (:maintainers
+	      ("PalaceChan" . "PalaceChan@users.noreply.github.com"))
+	     (:maintainer "PalaceChan" . "PalaceChan@users.noreply.github.com"))])
  (helm-elfeed .
 	      [(0 1 0 1 -4 20251013 1740)
 	       ((emacs
@@ -45708,6 +45726,20 @@
 		  (:maintainers
 		   ("Steve Purcell" . "steve@sanityinc.com"))
 		  (:maintainer "Steve Purcell" . "steve@sanityinc.com"))])
+ (let-completion .
+		 [(0 1 0 1 -4 20260304 1809)
+		  ((emacs
+		    (28 1)))
+		  "Show let-binding values in Elisp completion" tar
+		  ((:url . "https://github.com/gggion/let-completion")
+		   (:commit . "319887ef3b99b94d11de7abf16acf5fd8934c621")
+		   (:revdesc . "319887ef3b99")
+		   (:keywords "lisp" "completion")
+		   (:authors
+		    ("Gino Cornejo" . "gggion123@gmail.com"))
+		   (:maintainers
+		    ("Gino Cornejo" . "gggion123@gmail.com"))
+		   (:maintainer "Gino Cornejo" . "gggion123@gmail.com"))])
  (letcheck .
 	   [(0 4 1 -4 20160202 1948)
 	    nil "Check the erroneous assignments in let forms" tar
@@ -49167,6 +49199,19 @@
 		       (:commit . "403d2cd1cff932ae135692d57062824892e01d13")
 		       (:revdesc . "403d2cd1cff9")
 		       (:keywords "markdown" "changelog" "files"))])
+ (markdown-indent-mode .
+		       [(0 1 0 1 -4 20260308 1640)
+			((emacs
+			  (28 1)))
+			"Dynamic indentation for Markdown" tar
+			((:url . "https://github.com/whhone/markdown-indent-mode")
+			 (:commit . "44aa4ddb57c0a0787302ae4ed3e054d9af12004d")
+			 (:revdesc . "44aa4ddb57c0")
+			 (:authors
+			  ("Wai Hon Law" . "whhone@gmail.com"))
+			 (:maintainers
+			  ("Wai Hon Law" . "whhone@gmail.com"))
+			 (:maintainer "Wai Hon Law" . "whhone@gmail.com"))])
  (markdown-mermaid .
 		   [(0 1 0 1 -4 20251215 8)
 		    ((emacs
@@ -49723,6 +49768,20 @@
 	      (:maintainers
 	       ("Thomas Kappler" . "tkappler@gmail.com"))
 	      (:maintainer "Thomas Kappler" . "tkappler@gmail.com"))])
+ (md-ts-mode .
+	     [(0 1 0 1 -4 20260306 1543)
+	      ((emacs
+		(29 1)))
+	      "Major mode for Markdown using tree-sitter" tar
+	      ((:url . "https://github.com/dnouri/md-ts-mode")
+	       (:commit . "f7023b943d813e877437de4c1ca28f8116e2df46")
+	       (:revdesc . "f7023b943d81")
+	       (:keywords "markdown" "languages" "tree-sitter")
+	       (:authors
+		("Daniel Nouri" . "daniel.nouri@gmail.com"))
+	       (:maintainers
+		("Daniel Nouri" . "daniel.nouri@gmail.com"))
+	       (:maintainer "Daniel Nouri" . "daniel.nouri@gmail.com"))])
  (md4rd .
 	[(0 3 1 1 -4 20230725 2316)
 	 ((emacs
@@ -51173,13 +51232,13 @@
 		    ("Sidharth Arya" . "sidhartharya10@gmail.com"))
 		   (:maintainer "Sidharth Arya" . "sidhartharya10@gmail.com"))])
  (modus-themes .
-	       [(0 1 0 1 -4 20260301 1007)
+	       [(0 1 0 1 -4 20260308 1943)
 		((emacs
 		  (28 1)))
 		"Elegant, highly legible and customizable themes" tar
 		((:url . "https://github.com/protesilaos/modus-themes")
-		 (:commit . "9d0226961d32fac7c14ad9fe613807a6913188c6")
-		 (:revdesc . "9d0226961d32")
+		 (:commit . "ed36e34132bacaf8e87c7310837f57757a43b0c9")
+		 (:revdesc . "ed36e34132ba")
 		 (:keywords "faces" "theme" "accessibility")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
@@ -51914,13 +51973,13 @@
 		  (:revdesc . "3cb3866951fe")
 		  (:keywords "data" "mtg" "magic"))])
  (mu-cite .
-	  [(8 1 1 -4 20190803 439)
+	  [(8 1 1 -4 20240805 101)
 	   ((flim
 	     (1 14 9)))
 	   "A library to provide MIME features" tar
-	   ((:url . "https://github.com/ksato9700/mu-cite")
-	    (:commit . "b2c83bbce4646d100b942f0f0de0877a8d47298c")
-	    (:revdesc . "b2c83bbce464")
+	   ((:url . "https://github.com/cvs-m17n-org/MU-CITE")
+	    (:commit . "62d42d2ef18a89bb109582f3b9466d46f9e7d4a0")
+	    (:revdesc . "62d42d2ef18a")
 	    (:keywords "mail" "news" "citation")
 	    (:authors
 	     ("MORIOKA Tomohiko" . "tomo@m17n.org")
@@ -57526,6 +57585,22 @@
 		(:maintainers
 		 ("Peter Badida" . "keyweeusr@gmail.com"))
 		(:maintainer "Peter Badida" . "keyweeusr@gmail.com"))])
+ (org-eval .
+	   [(0 1 0 1 -4 20260308 1845)
+	    ((emacs
+	      (29 1))
+	     (org
+	      (9 0)))
+	    "Execute named org-mode blocks on load/save" tar
+	    ((:url . "https://github.com/skx/org-eval")
+	     (:commit . "e43bff2239b938255f79d92c7e6a1c05da355bdb")
+	     (:revdesc . "e43bff2239b9")
+	     (:keywords "org" "outlines")
+	     (:authors
+	      ("Steve Kemp" . "steve@steve.fi"))
+	     (:maintainers
+	      ("Steve Kemp" . "steve@steve.fi"))
+	     (:maintainer "Steve Kemp" . "steve@steve.fi"))])
  (org-evil .
 	   [(0 6 0 1 -4 20210809 1724)
 	    ((dash
