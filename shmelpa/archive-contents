@@ -56799,7 +56799,7 @@
 		 (:revdesc . "da3a45f95f2e")
 		 (:keywords "lists" "checklists" "org-mode"))])
  (org-aws-iam-role .
-		   [(0 1 0 1 -4 20260207 1643)
+		   [(0 1 0 1 -4 20260308 1750)
 		    ((emacs
 		      (29 1))
 		     (async
@@ -56808,8 +56808,8 @@
 		      (1 1)))
 		    "Browse, modify, and simulate AWS IAM Roles in Org Babel" tar
 		    ((:url . "https://github.com/will-abb/org-aws-iam-role")
-		     (:commit . "4c6cdde1efd1f33a4e2434db7af7617ce590e90c")
-		     (:revdesc . "4c6cdde1efd1")
+		     (:commit . "0175d5ac66f43f8d32db64a04421fddf57e10af7")
+		     (:revdesc . "0175d5ac66f4")
 		     (:keywords "aws" "iam" "org" "babel" "tools")
 		     (:authors
 		      ("William Bosch-Bello" . "williamsbosch@gmail.com"))
@@ -57488,13 +57488,13 @@
 		    ("Jonas Bernoulli" . "jonas@bernoul.li"))
 		   (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li"))])
  (org-elp .
-	  [(0 1 1 -4 20210329 1535)
+	  [(0 1 0 1 -4 20260308 1628)
 	   ((emacs
 	     (27 1)))
 	   "Preview latex equations in org mode while editing" tar
 	   ((:url . "https://github.com/guanyilun/org-elp")
-	    (:commit . "36b5ab2ed3fa3b5917f058e3acf8dff2df69efae")
-	    (:revdesc . "36b5ab2ed3fa")
+	    (:commit . "4a80371945c529a8765552cb589720518d2e3c3b")
+	    (:revdesc . "4a80371945c5")
 	    (:keywords "lisp" "tex" "org"))])
  (org-emms .
 	   [(0 2 1 -4 20230626 1102)
@@ -58619,16 +58619,21 @@
 		  ("Alexander Fu Xi" . "fuxialexnader@gmail.com"))
 		 (:maintainer "Alexander Fu Xi" . "fuxialexnader@gmail.com"))])
  (org-people .
-	     [(0 1 0 1 -4 20260307 614)
+	     [(0 1 0 1 -4 20260308 1903)
 	      ((emacs
 		(29 1))
 	       (org
 		(9 0)))
 	      "Work with a contact-list in org-mode files" tar
 	      ((:url . "https://github.com/skx/org-people")
-	       (:commit . "c50f5ace4c86b0dd3933546eda4c7c9ece66939f")
-	       (:revdesc . "c50f5ace4c86")
-	       (:keywords "outlines" "contacts" "people"))])
+	       (:commit . "a8798a298a16dda24fdcc3eab97284c967b70b20")
+	       (:revdesc . "a8798a298a16")
+	       (:keywords "outlines" "contacts" "people")
+	       (:authors
+		("Steve Kemp" . "steve@steve.fi"))
+	       (:maintainers
+		("Steve Kemp" . "steve@steve.fi"))
+	       (:maintainer "Steve Kemp" . "steve@steve.fi"))])
  (org-picklink .
 	       [(0 1 0 1 -4 20210210 516)
 		((emacs
@@ -69397,13 +69402,13 @@
 	 (:revdesc . "1572f3ee82ea")
 	 (:keywords "convenience"))])
  (repo-grep .
-	    [(0 1 0 1 -4 20260308 1513)
+	    [(0 1 0 1 -4 20260308 1843)
 	     ((emacs
-	       (25 1)))
+	       (27 1)))
 	     "Project-wide grep search" tar
 	     ((:url . "https://github.com/BHFock/repo-grep")
-	      (:commit . "7efaad2dc00c096d727040dcd90ed7799ecb3bc1")
-	      (:revdesc . "7efaad2dc00c")
+	      (:commit . "c680c35bf04d58529498e8e46bed3f6d8847805e")
+	      (:revdesc . "c680c35bf04d")
 	      (:keywords "tools" "search" "grep" "convenience" "project"))])
  (req-package .
 	      [(1 3 1 -4 20180605 1141)
@@ -70341,6 +70346,20 @@
 	      ((:url . "https://github.com/Andersbakken/rtags")
 	       (:commit . "62d881dab01ecb9ee6d54b705124ca8dadba726f")
 	       (:revdesc . "62d881dab01e"))])
+ (rtf-view .
+	   [(0 1 0 1 -4 20260225 1620)
+	    ((emacs
+	      (24 1)))
+	    "View Rich Text Format files" tar
+	    ((:url . "https://github.com/danielcmccarthy/rtf-view.git")
+	     (:commit . "0fc0d0baec1fb05d70aab6cf251f7d568677360c")
+	     (:revdesc . "0fc0d0baec1f")
+	     (:keywords "files" "data")
+	     (:authors
+	      ("Dan McCarthy" . "daniel.c.mccarthy@gmail.com"))
+	     (:maintainers
+	      ("Dan McCarthy" . "daniel.c.mccarthy@gmail.com"))
+	     (:maintainer "Dan McCarthy" . "daniel.c.mccarthy@gmail.com"))])
  (rtm .
       [(0 1 1 -4 20180329 1508)
        ((cl-lib
@@ -79982,15 +80001,15 @@
 			("Erick Navarro" . "erick@navarro.io"))
 		       (:maintainer "Erick Navarro" . "erick@navarro.io"))])
  (tree-sitter-langs .
-		    [(0 1 0 1 -4 20260302 1428)
+		    [(0 1 0 1 -4 20260308 1605)
 		     ((emacs
 		       (26 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
 		     ((:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs")
-		      (:commit . "0d681622c0e8b5f8014fccba7519407a168f7bd8")
-		      (:revdesc . "0d681622c0e8")
+		      (:commit . "7b0296ff9b501bf0a81534692894ca8e2fb317ff")
+		      (:revdesc . "7b0296ff9b50")
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
@@ -82488,15 +82507,15 @@
 		      ("Andreas Gerler" . "baron@bundesbrandschatzamt.de"))
 		     (:maintainer "Andreas Gerler" . "baron@bundesbrandschatzamt.de"))])
  (vertico .
-	  [(0 1 0 1 -4 20260210 1021)
+	  [(0 1 0 1 -4 20260308 1941)
 	   ((emacs
 	     (29 1))
 	    (compat
 	     (30)))
 	   "VERTical Interactive COmpletion" tar
 	   ((:url . "https://github.com/minad/vertico")
-	    (:commit . "93f15873d7d6244d72202c5dd7724a030a2d5b9a")
-	    (:revdesc . "93f15873d7d6")
+	    (:commit . "bb502c14604ae3ba46b9227743c82a8d9b8e6d80")
+	    (:revdesc . "bb502c14604a")
 	    (:keywords "convenience" "files" "matching" "completion")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -85981,6 +86000,20 @@
 	       ("Eugene Minkovskii" . "emin@mccme.ru")
 	       ("Alexander Krotov" . "ilabdsf@gmail.com"))
 	      (:maintainer "Eugene Minkovskii" . "emin@mccme.ru"))])
+ (yomikata .
+	   [(0 1 0 1 -4 20260304 1811)
+	    ((emacs
+	      (29 1)))
+	    "Annotates Japanese text with reading tooltips" tar
+	    ((:url . "https://github.com/melissaboiko/yomikata-tips.el")
+	     (:commit . "697c04d958a999cf1e65c09b9bc144a67f9d4819")
+	     (:revdesc . "697c04d958a9")
+	     (:keywords "i18n" "mouse" "text")
+	     (:authors
+	      ("Melissa Boiko" . "melissa@namakajiri.net"))
+	     (:maintainers
+	      ("Melissa Boiko" . "melissa@namakajiri.net"))
+	     (:maintainer "Melissa Boiko" . "melissa@namakajiri.net"))])
  (yoshi-theme .
 	      [(7 0 0 1 -4 20230801 1741)
 	       nil "Theme named after my cat" tar
