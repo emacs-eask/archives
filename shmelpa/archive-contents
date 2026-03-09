@@ -11397,13 +11397,13 @@
 				      ("Seong Yong-ju" . "sei40kr@gmail.com"))
 				     (:maintainer "Seong Yong-ju" . "sei40kr@gmail.com"))])
  (compile-angel .
-		[(0 1 0 1 -4 20260308 1844)
+		[(0 1 0 1 -4 20260309 6)
 		 ((emacs
 		   (26 3)))
 		 "Automatically Compile Elisp files (auto-compile alternative)" tar
 		 ((:url . "https://github.com/jamescherti/compile-angel.el")
-		  (:commit . "bb4e2a503a5b35aad645a898e1217db077334458")
-		  (:revdesc . "bb4e2a503a5b")
+		  (:commit . "3ddf5d39a76416aa46b95c1d207b117f91e400d1")
+		  (:revdesc . "3ddf5d39a764")
 		  (:keywords "convenience")
 		  (:authors
 		   ("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -45727,13 +45727,13 @@
 		   ("Steve Purcell" . "steve@sanityinc.com"))
 		  (:maintainer "Steve Purcell" . "steve@sanityinc.com"))])
  (let-completion .
-		 [(0 1 0 1 -4 20260304 1809)
+		 [(0 1 0 1 -4 20260308 2258)
 		  ((emacs
 		    (28 1)))
 		  "Show let-binding values in Elisp completion" tar
-		  ((:url . "https://github.com/gggion/let-completion")
-		   (:commit . "319887ef3b99b94d11de7abf16acf5fd8934c621")
-		   (:revdesc . "319887ef3b99")
+		  ((:url . "https://github.com/gggion/let-completion.el")
+		   (:commit . "491edec864d9120ccdaaa20a903d0cf5da67f9be")
+		   (:revdesc . "491edec864d9")
 		   (:keywords "lisp" "completion")
 		   (:authors
 		    ("Gino Cornejo" . "gggion123@gmail.com"))
@@ -74724,6 +74724,22 @@
 		   ((:url . "https://github.com/cstby/solo-jazz-emacs-theme")
 		    (:commit . "51d63d8a2c855f4ea79eef9fc9c8a5c9702642c4")
 		    (:revdesc . "51d63d8a2c85"))])
+ (solo-rpg .
+	   [(0 1 0 1 -4 20260306 933)
+	    ((emacs
+	      (27 1))
+	     (transient
+	      (0 3 7)))
+	    "Solo roleplaying games support functions" tar
+	    ((:url . "https://github.com/enfors/solo-rpg")
+	     (:commit . "be50ecf89df221132260730987cfd60deea0e53e")
+	     (:revdesc . "be50ecf89df2")
+	     (:keywords "games")
+	     (:authors
+	      ("Christer Enfors" . "christer.enfors@gmail.com"))
+	     (:maintainers
+	      ("Christer Enfors" . "christer.enfors@gmail.com"))
+	     (:maintainer "Christer Enfors" . "christer.enfors@gmail.com"))])
  (somafm .
 	 [(0 1 0 1 -4 20250316 2337)
 	  ((emacs
