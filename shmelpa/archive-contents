@@ -1199,7 +1199,7 @@
 	    ("Tomasz Maciosowski" . "t4ccer@gmail.com"))
 	   (:maintainer "Tomasz Maciosowski" . "t4ccer@gmail.com"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260309 1352)
+	      [(0 1 0 1 -4 20260309 2230)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1208,8 +1208,8 @@
 		 (0 11 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "c72ff6e10855b63a418a73dff315a1c107aec86c")
-		(:revdesc . "c72ff6e10855"))])
+		(:commit . "41c4b2143a6b583f3f7e886e0b93943e0abced18")
+		(:revdesc . "41c4b2143a6b"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -41394,13 +41394,13 @@
 	      ("Taichi" . "kawabata.taichi_at_gmail.com"))
 	     (:maintainer "Taichi" . "kawabata.taichi_at_gmail.com"))])
  (ivy .
-      [(0 1 0 1 -4 20260213 1157)
+      [(0 1 0 1 -4 20260309 2102)
        ((emacs
 	 (24 5)))
        "Incremental Vertical completYon" tar
        ((:url . "https://github.com/abo-abo/swiper")
-	(:commit . "11649c347107cba5f7ef8fd67ad8e77bc3b2472c")
-	(:revdesc . "11649c347107")
+	(:commit . "631df3f68c79cca2a26bc8ea1a98a332ef53751e")
+	(:revdesc . "631df3f68c79")
 	(:keywords "matching")
 	(:authors
 	 ("Oleh Krehel" . "ohwoeowho@gmail.com"))
@@ -50368,11 +50368,11 @@
 	       ("Jonathan Gregory" . "jgrgatautisticidotorg"))
 	      (:maintainer "Jonathan Gregory" . "jgrgatautisticidotorg"))])
  (mew .
-      [(0 1 0 1 -4 20260309 513)
+      [(0 1 0 1 -4 20260309 2354)
        nil "Messaging in the Emacs World" tar
        ((:url . "https://github.com/kazu-yamamoto/Mew")
-	(:commit . "df19db8fa8f4a9b7be41037fd599895a58c09890")
-	(:revdesc . "df19db8fa8f4"))])
+	(:commit . "caf4703cbf5adba19ec929d955d02838b6d4c7de")
+	(:revdesc . "caf4703cbf5a"))])
  (mexican-holidays .
 		   [(0 0 9 1 -4 20210604 1421)
 		    nil "Mexico holidays for Emacs calendar" tar
@@ -51973,13 +51973,13 @@
 		  (:revdesc . "3cb3866951fe")
 		  (:keywords "data" "mtg" "magic"))])
  (mu-cite .
-	  [(8 1 1 -4 20240805 101)
+	  [(0 1 0 1 -4 20260309 2341)
 	   ((flim
 	     (1 14 9)))
-	   "A library to provide MIME features" tar
+	   "Yet another citation tool for GNU Emacs" tar
 	   ((:url . "https://github.com/cvs-m17n-org/MU-CITE")
-	    (:commit . "62d42d2ef18a89bb109582f3b9466d46f9e7d4a0")
-	    (:revdesc . "62d42d2ef18a")
+	    (:commit . "01345683477c6802f437a63ae2df3d8df1665f6d")
+	    (:revdesc . "01345683477c")
 	    (:keywords "mail" "news" "citation")
 	    (:authors
 	     ("MORIOKA Tomohiko" . "tomo@m17n.org")
@@ -63870,15 +63870,17 @@
 	     ("Eric Hansen" . "hansen.c.eric@gmail.com"))
 	    (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
  (pi-coding-agent .
-		  [(0 1 0 1 -4 20260307 2306)
+		  [(0 1 0 1 -4 20260309 2343)
 		   ((emacs
 		     (29 1))
 		    (transient
-		     (0 9 0)))
+		     (0 9 0))
+		    (md-ts-mode
+		     (0 3 0)))
 		   "Emacs frontend for pi coding agent" tar
 		   ((:url . "https://github.com/dnouri/pi-coding-agent")
-		    (:commit . "5a4e33a595a3f7727a2b706bd927845fba55a72b")
-		    (:revdesc . "5a4e33a595a3")
+		    (:commit . "6d3eeb658d91b03643d8fde348c60ede47e70ecb")
+		    (:revdesc . "6d3eeb658d91")
 		    (:keywords "ai" "llm" "ai-pair-programming" "tools")
 		    (:authors
 		     ("Daniel Nouri" . "daniel.nouri@gmail.com"))
