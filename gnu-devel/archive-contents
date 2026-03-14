@@ -363,7 +363,7 @@
       (:authors ("Clemens Radermacher" . "clemera@posteo.net"))
       (:commit . "c4a1c745123b86c15ba7bb4858255b5252e8440a"))])
  (bufferlo
-  . [(1 2 0 20260308 4904) ((emacs (29 1)))
+  . [(1 2 0 20260314 1104) ((emacs (29 1)))
      "Frame/Tab Local Buffer Lists with Persistence" tar
      ((:url . "https://github.com/florommel/bufferlo")
       (:keywords "buffer" "frame" "tabs" "local")
@@ -371,7 +371,7 @@
 		   ("Stephane Marks" . "shipmints@gmail.com"))
       (:authors ("Florian Rommel" . "mail@florommel.de")
 		("Stephane Marks" . "shipmints@gmail.com"))
-      (:commit . "a4971b52232ff622f768fcd569c3ae5929580f3f"))])
+      (:commit . "b2b9bd9f59d267d223ec2b1a52d00803361b863f"))])
  (buframe
   . [(0 3 0 20260120 162350) ((emacs (27 1)) (timeout (2 1)))
      "Buffer-local frames" tar
@@ -978,13 +978,13 @@
       (:url . "https://elpa.gnu.org/packages/docbook.html")
       (:commit . "9b7c2dbae38b523442f7c1155bc4e3db16a0c49f"))])
  (doric-themes
-  . [(1 0 0 0 20260312 103650) ((emacs (29 1)))
+  . [(1 0 0 0 20260314 71512) ((emacs (29 1)))
      "Highly legible minimalist themes with precise typography" tar
      ((:url . "https://github.com/protesilaos/doric-themes")
       (:keywords "faces" "theme" "accessibility")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "23a4a7f1c207cc72d1250e610050b158f48de802"))])
+      (:commit . "c3ce5b9020b49e14527ada5fa9bf81d7463f6f43"))])
  (drepl
   . [(0 4 0 20251012 81518) ((emacs (29 1)) (comint-mime (0 7)))
      "REPL protocol for the dumb terminal" tar
@@ -1144,12 +1144,12 @@
       (:authors ("Ihor Radchenko" . "yantar92@posteo.net"))
       (:commit . "05d669e123f411c9582f99a9a6182efa43d01a6b"))])
  (emacs-lisp-intro-es
-  . [(1 0 0 20260309 221328) nil "ELisp intro manual in Spanish" tar
+  . [(1 0 1 0 20260313 194210) nil "ELisp intro manual in Spanish" tar
      ((:keywords "manual" "translation" "spanish" "español")
       (:maintainer "David Arroyo Menéndez" . "davidam@gmail.com")
       (:authors ("David Arroyo Menéndez" . "davidam@gmail.com"))
       (:url . "https://elpa.gnu.org/packages/emacs-lisp-intro-es.html")
-      (:commit . "5ad9b9401919f7cc1132673074292be3f950d770"))])
+      (:commit . "a2c2c167837cef08a1b8f86f5eb9864f93699300"))])
  (emacs-lisp-intro-nl
   . [(0 0 20260307 101052) nil "ELisp intro manual in NL" tar
      ((:maintainer "Matto Fransen" . "matto@matto.nl")
@@ -1410,13 +1410,13 @@
       (:authors ("Yuan Fu" . "casouri@gmail.com"))
       (:commit . "d7c243ac3be2a67986f53f3dc31ba1426e82b771"))])
  (futur
-  . [(1 2 0 20260311 142047) nil "Future/promise-based async library"
+  . [(1 2 0 20260314 15605) nil "Future/promise-based async library"
      tar
      ((:keywords "concurrency" "async" "promises" "futures")
       (:maintainer "Stefan Monnier" . "monnier@iro.umontreal.ca")
       (:authors ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
       (:url . "https://elpa.gnu.org/packages/futur.html")
-      (:commit . "576376047c87c4ffd1c653a8a0f75dafc181b4d1"))])
+      (:commit . "eeb9236d313d5d45e22b827a046b940fc189d6c3"))])
  (gcmh
   . [(0 2 1 0 20201116 225142) ((emacs (24)))
      "the Garbage Collector Magic Hack" tar
@@ -1784,14 +1784,14 @@
       (:maintainer "Danny Freeman" . "danny@dfreeman.email")
       (:commit . "9b5edcb9ac4937ad41bc830714534fec5ebe48ee"))])
  (javaimp
-  . [(0 9 1 0 20260220 205136) nil
+  . [(0 9 1 0 20260313 215929) nil
      "Add and reorder Java import statements in Maven/Gradle projects"
      tar
      ((:keywords "java" "maven" "gradle" "programming")
       (:maintainer "Filipp Gunbin" . "fgunbin@fastmail.fm")
       (:authors ("Filipp Gunbin" . "fgunbin@fastmail.fm"))
       (:url . "https://elpa.gnu.org/packages/javaimp.html")
-      (:commit . "c739954cdc2f4c34187b014dc31c215f26eb2b27"))])
+      (:commit . "d184883abfc7a854b1c9239a924f13141f8801bc"))])
  (jgraph-mode
   . [(1 1 0 20221221 80333) ((cl-lib (0 5)))
      "Major mode for Jgraph files" tar
@@ -1966,14 +1966,14 @@
       (:authors ("Sean Whitton" . "spwhitton@spwhitton.name"))
       (:commit . "00b8f65effe4f2673e6450d70000644b266aa78a"))])
  (llm
-  . [(0 29 0 0 20260310 152402)
+  . [(0 29 0 0 20260313 233907)
      ((emacs (28 1)) (plz (0 8)) (plz-event-source (0 1 1))
       (plz-media-type (0 2 1)) (compat (29 1)))
      "Interface to pluggable llm backends" tar
      ((:url . "https://github.com/ahyatt/llm")
       (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
       (:authors ("Andrew Hyatt" . "ahyatt@gmail.com"))
-      (:commit . "f5d9061263ca55032be7a0f11af14ecffc9c34e5"))])
+      (:commit . "6d568150af5325395687aae89d58ec4c514e5872"))])
  (lmc
   . [(1 4 0 20230105 113402) ((emacs (24)) (cl-lib (0 5)))
      "Little Man Computer in Elisp" tar
@@ -3659,14 +3659,14 @@
       (:authors ("Stefan Kangas" . "stefankangas@gmail.com"))
       (:commit . "0f20f8b59011471523b650cf1a3478a04362083d"))])
  (use-package
-   . [(2 4 6 0 20260221 132913) ((emacs (24 3)) (bind-key (2 4)))
+   . [(2 4 6 0 20260313 225005) ((emacs (24 3)) (bind-key (2 4)))
       "A configuration macro for simplifying your .emacs" tar
       ((:url . "https://github.com/jwiegley/use-package")
        (:keywords "dotemacs" "startup" "speed" "config" "package"
 		  "extensions")
        (:maintainer "John Wiegley" . "johnw@newartisans.com")
        (:authors ("John Wiegley" . "johnw@newartisans.com"))
-       (:commit . "a61c098a517d29af38b065f946c4378a3b88bcd7"))])
+       (:commit . "44fa418987ea7b28d8931497b9c389f4e2ff544d"))])
  (validate
   . [(1 0 4 0 20180215 204244)
      ((emacs (24 1)) (cl-lib (0 5)) (seq (2 16)))
@@ -3968,10 +3968,10 @@
       (:authors ("Mattias Engdegård" . "mattias.engdegard@gmail.com"))
       (:commit . "fc4d6b5ddae9eb2c8adc2b117e6f33f3a09a4e96"))])
  (xref
-  . [(1 7 0 0 20260312 80108) ((emacs (26 1)))
+  . [(1 7 0 0 20260313 230302) ((emacs (26 1)))
      "Cross-referencing commands" tar
      ((:url . "https://elpa.gnu.org/packages/xref.html")
-      (:commit . "f15ad18a1446b492188d4f9c83f113b8c7b66a8e"))])
+      (:commit . "44fa418987ea7b28d8931497b9c389f4e2ff544d"))])
  (xref-union
   . [(0 2 0 0 20260222 131318) ((emacs (25 1)))
      "Combine multiple Xref backends" tar
