@@ -6273,6 +6273,15 @@
 		(:maintainers
 		 ("Russell Black" . "(killdash9@github)"))
 		(:maintainer "Russell Black" . "(killdash9@github)"))])
+ (buffer-guardian .
+		  [(0 1 0 1 -4 20260315 1455)
+		   ((emacs
+		     (25 1)))
+		   "Automatically Save Buffers Without Manual Intervention" tar
+		   ((:url . "https://github.com/jamescherti/jc-dev")
+		    (:commit . "5f6de169a937545a9c5551c6944fe822ec23ce27")
+		    (:revdesc . "5f6de169a937")
+		    (:keywords "maint"))])
  (buffer-manage .
 		[(0 1 0 1 -4 20241019 1748)
 		 ((emacs
@@ -18484,15 +18493,6 @@
 		(:maintainers
 		 ("Clément Pit-Claudel" . "clement.pitclaudel@live.com"))
 		(:maintainer "Clément Pit-Claudel" . "clement.pitclaudel@live.com"))])
- (easy-find .
-	    [(0 1 0 1 -4 20250629 2002)
-	     ((emacs
-	       (24 4)))
-	     "Simple file searching like Nemo" tar
-	     ((:url . "https://github.com/emacselements/easy-find")
-	      (:commit . "b67ce974a72263ef9af65f23f89feae852786a64")
-	      (:revdesc . "b67ce974a722")
-	      (:keywords "files" "convenience" "tools"))])
  (easy-hugo .
 	    [(0 1 0 1 -4 20260112 502)
 	     ((emacs
@@ -84170,15 +84170,6 @@
 		(:maintainers
 		 ("David J. Pearce" . "dave01001110@gmail.com"))
 		(:maintainer "David J. Pearce" . "dave01001110@gmail.com"))])
- (whisper .
-	  [(0 1 0 1 -4 20251219 342)
-	   ((emacs
-	     (26 1)))
-	   "Speech-to-text using Whisper.cpp" tar
-	   ((:url . "https://github.com/emacselements/whisper")
-	    (:commit . "e956feabced9c9081779dd89ff366e25e4d64fd9")
-	    (:revdesc . "e956feabced9")
-	    (:keywords "convenience" "speech" "whisper" "transcription"))])
  (whitaker .
 	   [(0 0 3 1 -4 20210203 1149)
 	    ((emacs
