@@ -19462,23 +19462,57 @@
 	       (:revdesc . "9630dfac9549")
 	       (:keywords "convenience" "languages" "tools"))])
  (ekg .
-      [(0 8 0 1 -4 20260309 212)
+      [(0 8 0 1 -4 20260315 1957)
        ((triples
 	 (0 6 1))
 	(emacs
 	 (28 1))
 	(llm
-	 (0 18 0)))
+	 (0 18 0))
+	(vui
+	 (1 0 0)))
        "A sqlite-based note-taking package based on tags" tar
        ((:url . "https://github.com/ahyatt/ekg")
-	(:commit . "07c630b3227bf8714728d021b4641055def18b31")
-	(:revdesc . "07c630b3227b")
+	(:commit . "75cb9e31c10b34beb17b244c335decc008a8727e")
+	(:revdesc . "75cb9e31c10b")
 	(:keywords "outlines" "hypermedia")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
 	(:maintainers
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
 	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com"))])
+ (ekg-agent .
+	    [(0 0 1 1 -4 20260315 2025)
+	     ((ekg
+	       (20260305))
+	      (futur
+	       (1 2)))
+	     "Agent tools for ekg" tar
+	     ((:url . "https://github.com/ahyatt/ekg")
+	      (:commit . "738dfc00f887e1dfb12743c34f5813447bfa269c")
+	      (:revdesc . "738dfc00f887")
+	      (:keywords "outlines" "hypermedia")
+	      (:authors
+	       ("Andrew Hyatt" . "ahyatt@gmail.com"))
+	      (:maintainers
+	       ("Andrew Hyatt" . "ahyatt@gmail.com"))
+	      (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com"))])
+ (ekg-denote .
+	     [(1 0 0 1 -4 20260309 212)
+	      ((ekg
+		(20260305))
+	       (denote
+		(4 0 0)))
+	      "Denote integration for ekg" tar
+	      ((:url . "https://github.com/ahyatt/ekg")
+	       (:commit . "07c630b3227bf8714728d021b4641055def18b31")
+	       (:revdesc . "07c630b3227b")
+	       (:keywords "outlines" "hypermedia")
+	       (:authors
+		("Jay Rajput" . "jayrajput@gmail.com"))
+	       (:maintainers
+		("Jay Rajput" . "jayrajput@gmail.com"))
+	       (:maintainer "Jay Rajput" . "jayrajput@gmail.com"))])
  (el-fetch .
 	   [(0 1 0 1 -4 20251225 1426)
 	    ((emacs
@@ -33651,7 +33685,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20260314 114)
+	[(0 1 0 1 -4 20260315 2135)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -33660,8 +33694,8 @@
 	   (30 1 0 0)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "05f3f4d93bbf4003433177e4064c611156246af1")
-	  (:revdesc . "05f3f4d93bbf")
+	  (:commit . "e1353c06ff36b65386c81268f1d480384d361c7e")
+	  (:revdesc . "e1353c06ff36")
 	  (:keywords "convenience" "tools")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -44128,15 +44162,15 @@
 	    (:commit . "c6955162307f37c2ac631d9daf118781009f8dda")
 	    (:revdesc . "c6955162307f"))])
  (keymap-utils .
-	       [(0 1 0 1 -4 20260101 1836)
+	       [(0 1 0 1 -4 20260315 2122)
 		((emacs
 		  (28 1))
 		 (compat
 		  (30 1)))
 		"Keymap utilities" tar
 		((:url . "https://github.com/tarsius/keymap-utils")
-		 (:commit . "a3c94ce2c191eb990f9789456b82bf4870af04a0")
-		 (:revdesc . "a3c94ce2c191")
+		 (:commit . "66f82bcb51e9f0e6749c0571db5baf61b51513b5")
+		 (:revdesc . "66f82bcb51e9")
 		 (:keywords "convenience" "extensions")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.keymap-utils@jonas.bernoulli.dev"))
@@ -49273,6 +49307,20 @@
 		  (:maintainers
 		   ("Jason Milkins" . "jasonm23@gmail.com"))
 		  (:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
+ (markdown-table-wrap .
+		      [(0 1 0 1 -4 20260303 1016)
+		       ((emacs
+			 (28 1)))
+		       "Word-wrap GFM pipe tables to fit window width" tar
+		       ((:url . "https://github.com/dnouri/markdown-table-wrap")
+			(:commit . "204b6d8818ff97ca0d5bc40182989ccc59628a37")
+			(:revdesc . "204b6d8818ff")
+			(:keywords "text" "markdown" "tables")
+			(:authors
+			 ("Daniel Nouri" . "daniel.nouri@gmail.com"))
+			(:maintainers
+			 ("Daniel Nouri" . "daniel.nouri@gmail.com"))
+			(:maintainer "Daniel Nouri" . "daniel.nouri@gmail.com"))])
  (markdown-toc .
 	       [(0 1 0 1 -4 20260131 1444)
 		((emacs
@@ -51210,13 +51258,13 @@
 		    ("Sidharth Arya" . "sidhartharya10@gmail.com"))
 		   (:maintainer "Sidharth Arya" . "sidhartharya10@gmail.com"))])
  (modus-themes .
-	       [(0 1 0 1 -4 20260314 857)
+	       [(0 1 0 1 -4 20260315 1948)
 		((emacs
 		  (28 1)))
 		"Elegant, highly legible and customizable themes" tar
 		((:url . "https://github.com/protesilaos/modus-themes")
-		 (:commit . "a4264088b7782e135d2a6210c932eb11cc5fbecd")
-		 (:revdesc . "a4264088b778")
+		 (:commit . "c865abc82d85bf5d084d87dc9d380f7a2a61d9dd")
+		 (:revdesc . "c865abc82d85")
 		 (:keywords "faces" "theme" "accessibility")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
@@ -56087,13 +56135,13 @@
 	      ("Paul W. Rankin" . "rnkn@rnkn.xyz"))
 	     (:maintainer "Paul W. Rankin" . "rnkn@rnkn.xyz"))])
  (ollama-buddy .
-	       [(0 1 0 1 -4 20260315 1755)
+	       [(0 1 0 1 -4 20260315 2115)
 		((emacs
 		  (28 1)))
 		"Ollama LLM AI Assistant ChatGPT Claude Gemini Grok Codestral DeepSeek OpenRouter Support" tar
 		((:url . "https://github.com/captainflasmr/ollama-buddy")
-		 (:commit . "cf3865b307f668d0733eba66abf818bc18ae3eee")
-		 (:revdesc . "cf3865b307f6")
+		 (:commit . "d6a0914e63de8391f3d4d4c6852a5c4a86e6023d")
+		 (:revdesc . "d6a0914e63de")
 		 (:keywords "applications" "tools" "convenience")
 		 (:authors
 		  ("James Dyer" . "captainflasmr@gmail.com"))
@@ -57564,15 +57612,15 @@
 		 ("Peter Badida" . "keyweeusr@gmail.com"))
 		(:maintainer "Peter Badida" . "keyweeusr@gmail.com"))])
  (org-eval .
-	   [(0 1 0 1 -4 20260312 2258)
+	   [(0 1 0 1 -4 20260315 2000)
 	    ((emacs
 	      (29 1))
 	     (org
 	      (9 0)))
 	    "Execute named org-mode blocks on load/save" tar
 	    ((:url . "https://github.com/skx/org-eval")
-	     (:commit . "1c029ba35098d1405995933437df7cf83eaf3302")
-	     (:revdesc . "1c029ba35098")
+	     (:commit . "20af7370473225ed4396663d01a5dfcca6456684")
+	     (:revdesc . "20af73704732")
 	     (:keywords "org" "outlines")
 	     (:authors
 	      ("Steve Kemp" . "steve@steve.fi"))
@@ -58141,13 +58189,13 @@
 		   ("Per Weijnitz" . "per.weijnitz@gmail.com"))
 		  (:maintainer "Per Weijnitz" . "per.weijnitz@gmail.com"))])
  (org-links .
-	    [(0 1 0 1 -4 20260315 1856)
+	    [(0 1 0 1 -4 20260315 1944)
 	     ((emacs
-	       (27 1)))
+	       (27 2)))
 	     "Better manage line numbers in links of Org mode" tar
 	     ((:url . "https://github.com/Anoncheg1/emacs-org-links")
-	      (:commit . "44dd4128282051b1934e83511ea4ce3c11da5953")
-	      (:revdesc . "44dd41282820")
+	      (:commit . "cf6362ef5bc63e04d630b2732887bddade4b5bc6")
+	      (:revdesc . "cf6362ef5bc6")
 	      (:keywords "org" "text" "hypermedia" "url")
 	      (:authors
 	       (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
@@ -58670,15 +58718,15 @@
 		  ("Alexander Fu Xi" . "fuxialexnader@gmail.com"))
 		 (:maintainer "Alexander Fu Xi" . "fuxialexnader@gmail.com"))])
  (org-people .
-	     [(0 1 0 1 -4 20260315 1826)
+	     [(0 1 0 1 -4 20260315 1953)
 	      ((emacs
 		(29 1))
 	       (org
 		(9 0)))
 	      "Work with a contact-list in org-mode files" tar
 	      ((:url . "https://github.com/skx/org-people")
-	       (:commit . "5cecd6047c49633f389e55a5bdb369efa9a41501")
-	       (:revdesc . "5cecd6047c49")
+	       (:commit . "692e84b8a101ade92a767b0333b25f4fc2219b5a")
+	       (:revdesc . "692e84b8a101")
 	       (:keywords "outlines" "contacts" "people")
 	       (:authors
 		("Steve Kemp" . "steve@steve.fi"))
