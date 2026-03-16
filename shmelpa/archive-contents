@@ -6274,14 +6274,19 @@
 		 ("Russell Black" . "(killdash9@github)"))
 		(:maintainer "Russell Black" . "(killdash9@github)"))])
  (buffer-guardian .
-		  [(0 1 0 1 -4 20260315 1455)
+		  [(0 1 0 1 -4 20260316 1438)
 		   ((emacs
 		     (25 1)))
 		   "Automatically Save Buffers Without Manual Intervention" tar
 		   ((:url . "https://github.com/jamescherti/jc-dev")
-		    (:commit . "5f6de169a937545a9c5551c6944fe822ec23ce27")
-		    (:revdesc . "5f6de169a937")
-		    (:keywords "maint"))])
+		    (:commit . "c6ea11d48062e9e09efa2b9589a844152e8b16d0")
+		    (:revdesc . "c6ea11d48062")
+		    (:keywords "maint")
+		    (:authors
+		     ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		    (:maintainers
+		     ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		    (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (buffer-manage .
 		[(0 1 0 1 -4 20241019 1748)
 		 ((emacs
@@ -17454,7 +17459,7 @@
 	  ("Katherine Whitlock" . "toroidal-code@gmail.com")
 	  ("Syohei YOSHIDA" . "syohex@gmail.com")))])
  (doom-modeline .
-		[(0 1 0 1 -4 20260314 1619)
+		[(0 1 0 1 -4 20260316 1546)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -17465,8 +17470,8 @@
 		   (0 3 1)))
 		 "A minimal and modern mode-line" tar
 		 ((:url . "https://github.com/seagle0128/doom-modeline")
-		  (:commit . "9faee8bac41c6cf64c6c2e9f5ba17b1ff5eaa9d8")
-		  (:revdesc . "9faee8bac41c")
+		  (:commit . "5df8f6023e842d23782cfa9fa31308c306f44e80")
+		  (:revdesc . "5df8f6023e84")
 		  (:keywords "faces" "mode-line")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
@@ -18690,7 +18695,7 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20260315 1346)
+      [(0 1 0 1 -4 20260316 1602)
        ((emacs
 	 (28 1))
 	(dash
@@ -18703,8 +18708,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "2fdaa70b23d5f5845daed648c2303bb10291af4d")
-	(:revdesc . "2fdaa70b23d5")
+	(:commit . "5a73d24538ea6a938cb9f752e9464105d8f3f2e8")
+	(:revdesc . "5a73d24538ea")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
@@ -19482,15 +19487,15 @@
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
 	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com"))])
  (ekg-agent .
-	    [(0 0 1 1 -4 20260315 2025)
+	    [(0 0 1 1 -4 20260316 1513)
 	     ((ekg
 	       (20260305))
 	      (futur
 	       (1 2)))
 	     "Agent tools for ekg" tar
 	     ((:url . "https://github.com/ahyatt/ekg")
-	      (:commit . "738dfc00f887e1dfb12743c34f5813447bfa269c")
-	      (:revdesc . "738dfc00f887")
+	      (:commit . "88f0c28a77396f91e99e4f3c8fc963b92026d76b")
+	      (:revdesc . "88f0c28a7739")
 	      (:keywords "outlines" "hypermedia")
 	      (:authors
 	       ("Andrew Hyatt" . "ahyatt@gmail.com"))
@@ -34923,13 +34928,13 @@
 	      ("Ilya Chernyshov" . "ichernyshovvv@gmail.com"))
 	     (:maintainer "Ilya Chernyshov" . "ichernyshovvv@gmail.com"))])
  (hare-mode .
-	    [(0 1 0 1 -4 20251002 1915)
+	    [(0 1 0 1 -4 20260316 1559)
 	     ((emacs
 	       (25 1)))
 	     "Hare mode" tar
 	     ((:url . "https://git.sr.ht/~grafov/hare-mode")
-	      (:commit . "bd7e2e8b1437a45b60d6dc053ef26f47ec1436db")
-	      (:revdesc . "bd7e2e8b1437")
+	      (:commit . "7c757157502d916932bbc7668e1606a67e6b3b22")
+	      (:revdesc . "7c757157502d")
 	      (:keywords "languages")
 	      (:authors
 	       ("Benjamín Buccianti" . "benjamin@buccianti.dev")
@@ -78708,13 +78713,13 @@
 	    ("Chunyang Xu" . "xuchunyang.me@gmail.com"))
 	   (:maintainer "Chunyang Xu" . "xuchunyang.me@gmail.com"))])
  (thrift .
-	 [(0 1 0 1 -4 20260309 612)
+	 [(0 1 0 1 -4 20260316 1127)
 	  ((emacs
 	    (24)))
 	  "Major mode for fbthrift and Apache Thrift files" tar
 	  ((:url . "https://github.com/facebook/fbthrift")
-	   (:commit . "6006855aa4633966893a9c38fd3d6fc96e6cca1e")
-	   (:revdesc . "6006855aa463")
+	   (:commit . "ee54e1eff8d408680029621a22c57087eb46458d")
+	   (:revdesc . "ee54e1eff8d4")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
