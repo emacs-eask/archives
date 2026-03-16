@@ -1371,12 +1371,12 @@
       (:authors ("Manuel Uberti" . "manuel.uberti@inventati.org"))
       (:commit . "d93ee5b1f0c9a20fe04f263c0988769c439b3c13"))])
  (fontaine
-  . [(3 0 1 0 20260203 152338) ((emacs (29 1)))
+  . [(3 0 1 0 20260316 175802) ((emacs (29 1)))
      "Set font configurations using presets" tar
      ((:url . "https://github.com/protesilaos/fontaine")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "5b15c473c3d90ea896ab11e637f8f39e4018fc55"))])
+      (:commit . "3c1401de103af1dd38dc50387ceab7b0fd81b15d"))])
  (frame-tabs
   . [(1 1 0 20221221 75627) nil "show buffer tabs in side window" tar
      ((:keywords "frames" "tabs")
@@ -1410,13 +1410,13 @@
       (:authors ("Yuan Fu" . "casouri@gmail.com"))
       (:commit . "d7c243ac3be2a67986f53f3dc31ba1426e82b771"))])
  (futur
-  . [(1 2 0 20260315 223102) nil "Future/promise-based async library"
+  . [(1 3 0 20260316 111655) nil "Future/promise-based async library"
      tar
      ((:keywords "concurrency" "async" "promises" "futures")
       (:maintainer "Stefan Monnier" . "monnier@iro.umontreal.ca")
       (:authors ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
       (:url . "https://elpa.gnu.org/packages/futur.html")
-      (:commit . "22b692b893dba81623fb7da18026291a161feb79"))])
+      (:commit . "0ad88655f83dd7ebd41883951b5d05cfd811fed8"))])
  (gcmh
   . [(0 2 1 0 20201116 225142) ((emacs (24)))
      "the Garbage Collector Magic Hack" tar
@@ -2191,13 +2191,13 @@
       (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
       (:commit . "8d70286c3fda845f3b8d97a937248670ca002f13"))])
  (modus-themes
-  . [(5 2 0 0 20260315 194802) ((emacs (28 1)))
+  . [(5 2 0 0 20260316 181751) ((emacs (28 1)))
      "Elegant, highly legible and customizable themes" tar
      ((:url . "https://github.com/protesilaos/modus-themes")
       (:keywords "faces" "theme" "accessibility")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "c865abc82d85bf5d084d87dc9d380f7a2a61d9dd"))])
+      (:commit . "5e1621d6384c69ccd55fe051c8c3a5f324cbef5c"))])
  (mpdired
   . [(4 -1 0 20250502 114712) ((emacs (29)))
      "A dired-like client for Music Player Daemon" tar
@@ -3547,7 +3547,7 @@
       (:url . "https://elpa.gnu.org/packages/transcribe.html")
       (:commit . "2c2d493d5488f3b444d2a771ab443589fcc72c13"))])
  (transient
-  . [(0 12 0 0 20260310 203658)
+  . [(0 12 0 0 20260316 164348)
      ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (seq (2 24)))
      "Transient commands" tar
      ((:url . "https://github.com/magit/transient")
@@ -3556,7 +3556,7 @@
 		   . "emacs.transient@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
-      (:commit . "7131bec61e558e022ce75e2d2d5e55c748fcf8e0"))])
+      (:commit . "2902b29ace6f75f7da83f692d2bf5bc3b2d0e3ae"))])
  (transient-cycles
   . [(2 0 0 20250625 85410) ((emacs (29 1)))
      "Define command variants with transient cycling" tar
@@ -3659,14 +3659,14 @@
       (:authors ("Stefan Kangas" . "stefankangas@gmail.com"))
       (:commit . "0f20f8b59011471523b650cf1a3478a04362083d"))])
  (use-package
-   . [(2 4 6 0 20260313 225005) ((emacs (24 3)) (bind-key (2 4)))
+   . [(2 4 6 0 20260316 172337) ((emacs (24 3)) (bind-key (2 4)))
       "A configuration macro for simplifying your .emacs" tar
       ((:url . "https://github.com/jwiegley/use-package")
        (:keywords "dotemacs" "startup" "speed" "config" "package"
 		  "extensions")
        (:maintainer "John Wiegley" . "johnw@newartisans.com")
        (:authors ("John Wiegley" . "johnw@newartisans.com"))
-       (:commit . "44fa418987ea7b28d8931497b9c389f4e2ff544d"))])
+       (:commit . "41474108529c6964ce1ad2da11ee36475a55634e"))])
  (validate
   . [(1 0 4 0 20180215 204244)
      ((emacs (24 1)) (cl-lib (0 5)) (seq (2 16)))
