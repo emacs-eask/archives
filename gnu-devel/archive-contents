@@ -1550,7 +1550,7 @@
       (:authors ("Sean Allred" . "code@seanallred.com"))
       (:commit . "9b3151b1de67c8a127906f11bc5c71116c12f5b5"))])
  (greader
-  . [(0 13 1 0 20260306 51522)
+  . [(0 14 0 0 20260321 181119)
      ((emacs (26 1)) (seq (2 24)) (compat (29 1 4 5)))
      "Gnamù reader, send buffer contents to a speech engine" tar
      ((:url . "https://gitlab.com/michelangelo-rodriguez/greader")
@@ -1559,7 +1559,7 @@
 		   . "michelangelo.rodriguez@gmail.com")
       (:authors
        ("Michelangelo Rodriguez" . "michelangelo.rodriguez@gmail.com"))
-      (:commit . "249959b6290cc97324a2cf5cbea5b2e44168afd4"))])
+      (:commit . "3128a8df0a4abb4a35537dc0e8e063ade9ce0524"))])
  (greenbar
   . [(1 2 0 20250603 210745) ((emacs (27 1)))
      "Mark comint output with \"greenbar\" background" tar
@@ -3519,14 +3519,14 @@
       (:authors ("Joe Sadusk" . "joe@sadusk.com"))
       (:commit . "b726b4042e96ac5cead396c8d12c01e6bad2bd78"))])
  (tramp-nspawn
-  . [(1 0 1 0 20220923 120957) ((emacs (23)))
+  . [(1 0 2 0 20240401 94952) ((emacs (23)))
      "Tramp integration for systemd-nspawn containers" tar
-     ((:url . "https://github.com/bjc/tramp-nspawn")
+     ((:url . "https://git.spork.org/tramp-nspawn.git")
       (:keywords "tramp" "nspawn" "machinectl" "systemd"
 		 "systemd-nspawn")
       (:maintainer "Brian Cully" . "bjc@kublai.com")
       (:authors ("Brian Cully" . "bjc@kublai.com"))
-      (:commit . "c35ade49754e051c84eaa2733447b4307968f200"))])
+      (:commit . "a2da5b6b25be7191755678651bdade2f9af5c617"))])
  (tramp-theme
   . [(0 3 0 20241214 144045) ((emacs (24 1)))
      "Custom theme for remote buffers" tar
@@ -3545,7 +3545,7 @@
       (:url . "https://elpa.gnu.org/packages/transcribe.html")
       (:commit . "2c2d493d5488f3b444d2a771ab443589fcc72c13"))])
  (transient
-  . [(0 12 0 0 20260320 231927)
+  . [(0 12 0 0 20260321 134759)
      ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (seq (2 24)))
      "Transient commands" tar
      ((:url . "https://github.com/magit/transient")
@@ -3554,7 +3554,7 @@
 		   . "emacs.transient@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
-      (:commit . "adaf4e06e541745216bfabf8c4af1812f15ae7d1"))])
+      (:commit . "75830c8c62c34c8692239d51e999ed48b341d244"))])
  (transient-cycles
   . [(2 0 0 20250625 85410) ((emacs (29 1)))
      "Define command variants with transient cycling" tar
@@ -3626,12 +3626,11 @@
       (:url . "https://elpa.gnu.org/packages/uniquify-files.html")
       (:commit . "7f84a579906eb449270ffe5e5ccc090aa3821c97"))])
  (urgrep
-  . [(0 6 1 -4 0 20260320 231150)
-     ((emacs (28 1)) (compat (29 1 0 1)) (project (0 3 0)))
+  . [(0 6 1 -4 0 20260321 103449) ((emacs (28 1)) (compat (29 1 0 1)))
      "Universal recursive grep" tar
      ((:url . "https://sr.ht/~jimporter/urgrep/")
       (:keywords "grep" "search")
-      (:commit . "658cd8c949db4a54dea00f375124991c900435df"))])
+      (:commit . "ed05cd4feb9076e7bfab800e163cc2aef12cdade"))])
  (url-http-ntlm
   . [(2 0 6 0 20250626 205101) ((emacs (24 4)) (ntlm (2 1 0)))
      "NTLM authentication for the url library" tar
@@ -3815,13 +3814,13 @@
       (:authors ("Yuan Fu" . "casouri@gmail.com"))
       (:commit . "e0af8c5845abf884a644215a9cac37f39c13cd5a"))])
  (wcheck-mode
-  . [(2021 0 20220101 81620) nil "General interface for text checkers"
-     tar
+  . [(2021 0 20260321 190237) nil
+     "General interface for text checkers" tar
      ((:url . "https://github.com/tlikonen/wcheck-mode")
       (:keywords "text" "spell" "check" "languages" "ispell")
       (:maintainer "Teemu Likonen" . "tlikonen@iki.fi")
       (:authors ("Teemu Likonen" . "tlikonen@iki.fi"))
-      (:commit . "4a2439ed486342d825259b62cde2e73ef34dbc04"))])
+      (:commit . "ead537cd31c18d7ef5a38eb5f4e6105a70a039e7"))])
  (wconf
   . [(0 2 1 0 20201202 220257) ((emacs (24 4)))
      "Minimal window layout manager" tar
