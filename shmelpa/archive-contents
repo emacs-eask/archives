@@ -19336,15 +19336,15 @@
 		("Kenneth Loeffler" . "kenloef@gmail.com"))
 	       (:maintainer "Kenneth Loeffler" . "kenloef@gmail.com"))])
  (eglot-python-preset .
-		      [(0 1 0 1 -4 20260314 404)
+		      [(0 1 0 1 -4 20260315 120)
 		       ((emacs
 			 (30 2))
 			(eglot
 			 (1 17)))
 		       "Eglot preset for Python" tar
 		       ((:url . "https://github.com/mwolson/eglot-python-preset")
-			(:commit . "ade53d8702a6c83ce6b1905624f2e6df319a3f4c")
-			(:revdesc . "ade53d8702a6")
+			(:commit . "ed0667847551e9bc3387eb06ee63eb32596a36b9")
+			(:revdesc . "ed0667847551")
 			(:keywords "python" "convenience" "languages" "tools")
 			(:authors
 			 ("Michael Olson" . "mwolson@gnu.org"))
@@ -48210,7 +48210,7 @@
 	       (:revdesc . "b1fc21f82e9d")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20260321 1239)
+	[(0 1 0 1 -4 20260322 1930)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -48229,8 +48229,8 @@
 	   (3 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "00e03f4fc43c6be55577f74828d404787be56919")
-	  (:revdesc . "00e03f4fc43c")
+	  (:commit . "7b79fd0aeb26d673408ec1ddc80222124cc67e95")
+	  (:revdesc . "7b79fd0aeb26")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -58232,13 +58232,13 @@
 		   ("Per Weijnitz" . "per.weijnitz@gmail.com"))
 		  (:maintainer "Per Weijnitz" . "per.weijnitz@gmail.com"))])
  (org-links .
-	    [(0 1 0 1 -4 20260321 1502)
+	    [(0 1 0 1 -4 20260322 1946)
 	     ((emacs
 	       (27 2)))
 	     "Better manage line numbers in links of Org mode" tar
 	     ((:url . "https://github.com/Anoncheg1/emacs-org-links")
-	      (:commit . "c7a805a19c6ce967daebd80ff269c438059d1a38")
-	      (:revdesc . "c7a805a19c6c")
+	      (:commit . "a18b7f8c3357e984e356f461708ff77d341d2126")
+	      (:revdesc . "a18b7f8c3357")
 	      (:keywords "org" "text" "hypermedia" "url")
 	      (:authors
 	       (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
@@ -78907,6 +78907,20 @@
 	 (:maintainers
 	  ("Ivan Malison" . "IvanMalison@gmail.com"))
 	 (:maintainer "Ivan Malison" . "IvanMalison@gmail.com"))])
+ (tiles .
+	[(0 1 0 1 -4 20260315 2112)
+	 ((emacs
+	   (27 1)))
+	 "Tagged Instant Lightweight Emacs Snippets" tar
+	 ((:url . "https://github.com/ctanas/tiles")
+	  (:commit . "f77e2cf19b4895cd7da50922db3a622e3b848ec8")
+	  (:revdesc . "f77e2cf19b48")
+	  (:keywords "files" "text" "convenience")
+	  (:authors
+	   ("Claudiu Tănăselia" . "https://www.tanaselia.ro"))
+	  (:maintainers
+	   ("Claudiu Tănăselia" . "https://www.tanaselia.ro"))
+	  (:maintainer "Claudiu Tănăselia" . "https://www.tanaselia.ro"))])
  (time-block .
 	     [(1 6 2 1 -4 20230511 1434)
 	      ((emacs
