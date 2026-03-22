@@ -1301,7 +1301,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260322 1401)
+	  [(0 1 0 1 -4 20260322 1519)
 	   ((emacs
 	     (28 1))
 	    (transient
@@ -1310,8 +1310,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Copilot CLI, Claude Code, Gemini CLI, Opencode, Grok CLI, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "a89174fdf2db4c75202b37a73599a2eb4d32ae01")
-	    (:revdesc . "a89174fdf2db")
+	    (:commit . "38d8f8c6a204c3958eec3903170664716e67e9b5")
+	    (:revdesc . "38d8f8c6a204")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -2878,6 +2878,20 @@
 		 (:maintainers
 		  ("contrapunctus" . "xmpp:contrapunctus@jabjab.de"))
 		 (:maintainer "contrapunctus" . "xmpp:contrapunctus@jabjab.de"))])
+ (async-http-queue .
+		   [(0 1 0 1 -4 20260316 755)
+		    ((emacs
+		      (28 1)))
+		    "Async HTTP queue with parallel fetching" tar
+		    ((:url . "https://git.andros.dev/andros/async-http-queue-el")
+		     (:commit . "bd37342372a0b24ce0d54e9dad8070af997b0a0b")
+		     (:revdesc . "bd37342372a0")
+		     (:keywords "comm" "processes" "http")
+		     (:authors
+		      ("Andros Fenollosa" . "hi@andros.dev"))
+		     (:maintainers
+		      ("Andros Fenollosa" . "hi@andros.dev"))
+		     (:maintainer "Andros Fenollosa" . "hi@andros.dev"))])
  (async-job-queue .
 		  [(0 1 1 -4 20230427 2122)
 		   ((async
@@ -12219,6 +12233,22 @@
 		      (:maintainers
 		       ("MDF" . "sguibor@gmail.com"))
 		      (:maintainer "MDF" . "sguibor@gmail.com"))])
+ (consult-symbol .
+		 [(0 1 0 1 -4 20260321 1545)
+		  ((emacs
+		    (27 1))
+		   (consult
+		    (2 0)))
+		  "Consult-based symbol search with narrowing" tar
+		  ((:url . "https://github.com/danielfleischer/consult-symbol")
+		   (:commit . "61a98d6fb80fbda6b2b90b892c80675f5852adcc")
+		   (:revdesc . "61a98d6fb80f")
+		   (:keywords "convenience" "matching")
+		   (:authors
+		    ("Daniel Fleischer" . "danflscr@gmail.com"))
+		   (:maintainers
+		    ("Daniel Fleischer" . "danflscr@gmail.com"))
+		   (:maintainer "Daniel Fleischer" . "danflscr@gmail.com"))])
  (consult-tex .
 	      [(0 1 0 1 -4 20250306 1724)
 	       ((emacs
@@ -23164,13 +23194,13 @@
 		  ("Masahiro Hayashi" . "mhayashi1120@gmail.com"))
 		 (:maintainer "Masahiro Hayashi" . "mhayashi1120@gmail.com"))])
  (ess .
-      [(0 1 0 1 -4 20260314 1643)
+      [(0 1 0 1 -4 20260322 1703)
        ((emacs
 	 (25 1)))
        "Emacs Speaks Statistics" tar
        ((:url . "https://ess.r-project.org/")
-	(:commit . "62cef9175ddb31236eeb426bb0479496b2952197")
-	(:revdesc . "62cef9175ddb")
+	(:commit . "4e112590d1c13cfe464ca7de77837f1b956e4a9f")
+	(:revdesc . "4e112590d1c1")
 	(:authors
 	 ("David Smith" . "dsmith@stats.adelaide.edu.au")
 	 ("A.J. Rossini" . "blindglobe@gmail.com")
@@ -29474,6 +29504,20 @@
 		     (:maintainers
 		      ("Martin Kjær Jørgensen" . "mkj@gotu.dk"))
 		     (:maintainer "Martin Kjær Jørgensen" . "mkj@gotu.dk"))])
+ (flymake-zizmor .
+		 [(0 1 0 1 -4 20260310 1959)
+		  ((emacs
+		    (28 1)))
+		  "Flymake backend for zizmor, a Github Actions static analyzer" tar
+		  ((:url . "https://github.com/unhammer/flymake-zizmor")
+		   (:commit . "9b57aa59280a84b60bd4fdf384ef797a37c19b29")
+		   (:revdesc . "9b57aa59280a")
+		   (:keywords "convenience" "languages")
+		   (:authors
+		    ("Kevin Brubeck Unhammer" . "unhammer@fsfe.org"))
+		   (:maintainers
+		    ("Kevin Brubeck Unhammer" . "unhammer@fsfe.org"))
+		   (:maintainer "Kevin Brubeck Unhammer" . "unhammer@fsfe.org"))])
  (flymd .
 	[(1 2 0 1 -4 20160617 1214)
 	 ((cl-lib
@@ -34069,7 +34113,7 @@
 		     ("Kaleb Elwert" . "belak@coded.io"))
 		    (:maintainer "Kaleb Elwert" . "belak@coded.io"))])
  (greader .
-	  [(0 1 0 1 -4 20260321 1811)
+	  [(0 1 0 1 -4 20260322 1452)
 	   ((emacs
 	     (26 1))
 	    (seq
@@ -34078,8 +34122,8 @@
 	     (29 1 4 5)))
 	   "Gnamù reader, send buffer contents to a speech engine" tar
 	   ((:url . "https://gitlab.com/michelangelo-rodriguez/greader")
-	    (:commit . "3128a8df0a4abb4a35537dc0e8e063ade9ce0524")
-	    (:revdesc . "3128a8df0a4a")
+	    (:commit . "20b5343211408dbbf12ff2194472cea50384a5fa")
+	    (:revdesc . "20b534321140")
 	    (:keywords "tools" "accessibility")
 	    (:authors
 	     ("Michelangelo Rodriguez" . "michelangelo.rodriguez@gmail.com"))
