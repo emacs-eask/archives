@@ -22537,15 +22537,15 @@
 	   (:revdesc . "7f5eb9b686c1")
 	   (:keywords "erlang" "languages" "processes"))])
  (erlang-ts .
-	    [(0 1 0 1 -4 20260318 902)
+	    [(0 1 0 1 -4 20260323 927)
 	     ((emacs
 	       (29 2))
 	      (erlang
 	       (27 2)))
 	     "Major modes for editing Erlang" tar
 	     ((:url . "https://github.com/erlang/emacs-erlang-ts")
-	      (:commit . "6538670e7aca2d11c7d98afaf38a4d37a9f1bbe1")
-	      (:revdesc . "6538670e7aca")
+	      (:commit . "40181f7af005cbfed20a942a901ebc360743b56e")
+	      (:revdesc . "40181f7af005")
 	      (:keywords "erlang" "languages" "treesitter"))])
  (erlstack-mode .
 		[(0 2 0 1 -4 20230608 909)
@@ -26344,15 +26344,15 @@
 		 ("Schuyler Eldridge" . "schuyler.eldridge@ibm.com"))
 		(:maintainer "Schuyler Eldridge" . "schuyler.eldridge@ibm.com"))])
  (firstly-search .
-		 [(0 1 0 1 -4 20260220 2320)
+		 [(0 1 0 1 -4 20260323 745)
 		  ((emacs
 		    (29 1))
 		   (compat
 		    (30 1)))
 		  "Search with any key: Dired, Package, Buffer menu modes" tar
 		  ((:url . "https://codeberg.org/Anoncheg/firstly-search")
-		   (:commit . "3d4599dcda4a2f761212ef5107260013ad73c101")
-		   (:revdesc . "3d4599dcda4a")
+		   (:commit . "a6d8140295783b94cc6e5eef25ac8913a2b9b9f2")
+		   (:revdesc . "a6d814029578")
 		   (:keywords "matching" "isearch" "navigation" "dired" "packagemenu")
 		   (:authors
 		    (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
@@ -34737,15 +34737,17 @@
 		("Basil L. Contovounesios" . "basil@contovou.net"))
 	       (:maintainer "Basil L. Contovounesios" . "basil@contovou.net"))])
  (hackernews-modern .
-		    [(0 1 0 1 -4 20260223 1814)
+		    [(0 1 0 1 -4 20260323 839)
 		     ((emacs
 		       (28 1))
 		      (visual-fill-column
-		       (2 2)))
+		       (2 2))
+		      (async-http-queue
+		       (0 1 0)))
 		     "Hacker News client with modern widget UI" tar
 		     ((:url . "https://git.andros.dev/andros/hackernews-modern-el")
-		      (:commit . "e0972d950b028ee7b6030dcc44265357e5c4108d")
-		      (:revdesc . "e0972d950b02")
+		      (:commit . "a90b247e9ed007b1e9e0a5ef77c08670ba0a3953")
+		      (:revdesc . "a90b247e9ed0")
 		      (:keywords "comm" "hypermedia" "news")
 		      (:authors
 		       ("Andros Fenollosa" . "hi@andros.dev"))
@@ -51797,13 +51799,13 @@
 	   ("Mekeor Melire" . "mekeor@posteo.de"))
 	  (:maintainer "Mekeor Melire" . "mekeor@posteo.de"))])
  (mozc .
-       [(0 1 0 1 -4 20260128 821)
+       [(0 1 0 1 -4 20260312 122)
 	((emacs
 	  (24 3)))
 	"Minor mode to input Japanese with Mozc" tar
 	((:url . "https://github.com/google/mozc")
-	 (:commit . "8f92cd985cba2fd009545963698f4df7424bec56")
-	 (:revdesc . "8f92cd985cba")
+	 (:commit . "c9163b6bb1010671781b8acd358b025c519fc1e0")
+	 (:revdesc . "c9163b6bb101")
 	 (:keywords "mule" "multilingual" "input method"))])
  (mozc-cand-posframe .
 		     [(0 1 1 -4 20200208 750)
@@ -56178,13 +56180,13 @@
 	      ("Paul W. Rankin" . "rnkn@rnkn.xyz"))
 	     (:maintainer "Paul W. Rankin" . "rnkn@rnkn.xyz"))])
  (ollama-buddy .
-	       [(0 1 0 1 -4 20260323 729)
+	       [(0 1 0 1 -4 20260323 752)
 		((emacs
 		  (29 1)))
 		"Ollama LLM AI Assistant ChatGPT Claude Gemini Grok Codestral DeepSeek OpenRouter Support" tar
 		((:url . "https://github.com/captainflasmr/ollama-buddy")
-		 (:commit . "46d89a2bbfd77f9351eac342dee7a1e90a8c5c73")
-		 (:revdesc . "46d89a2bbfd7")
+		 (:commit . "a525cf54f3000a511047b2369fb72d0ca69f9ed1")
+		 (:revdesc . "a525cf54f300")
 		 (:keywords "applications" "tools" "convenience")
 		 (:authors
 		  ("James Dyer" . "captainflasmr@gmail.com"))
@@ -71903,13 +71905,13 @@
 				 ("James Dyer" . "captainflasmr@gmail.com"))
 				(:maintainer "James Dyer" . "captainflasmr@gmail.com"))])
  (selected-window-contrast .
-			   [(0 1 0 1 -4 20260322 1411)
+			   [(0 1 0 1 -4 20260323 829)
 			    ((emacs
 			      (25 1)))
 			    "Highlight window and cursor at switching" tar
 			    ((:url . "https://codeberg.org/Anoncheg/selected-window-contrast")
-			     (:commit . "be44b9b41402d7beaf56fe3aef27fe3f0f54910c")
-			     (:revdesc . "be44b9b41402")
+			     (:commit . "62f316e4857adfde6ceab674b34635600f86de57")
+			     (:revdesc . "62f316e4857a")
 			     (:keywords "color" "windows" "faces" "buffer" "background")
 			     (:authors
 			      ("Anoncheg" . "vitalij@gmx.com"))
@@ -73402,13 +73404,13 @@
 		      ("Matthieu Petiteau" . "mpetiteau.pro@gmail.com"))
 		     (:maintainer "Matthieu Petiteau" . "mpetiteau.pro@gmail.com"))])
  (simply-annotate .
-		  [(0 1 0 1 -4 20250703 2055)
+		  [(0 1 0 1 -4 20260323 1022)
 		   ((emacs
 		     (28 1)))
 		   "Enhanced annotation system with threading" tar
 		   ((:url . "https://github.com/captainflasmr/simply-annotate")
-		    (:commit . "7fbeb4d76fd242ec0cdadca20857af5c43e2da5e")
-		    (:revdesc . "7fbeb4d76fd2")
+		    (:commit . "c2bf81ae5251dbc2a4b72dc4532bca012b3112de")
+		    (:revdesc . "c2bf81ae5251")
 		    (:keywords "applications" "tools" "convenience")
 		    (:authors
 		     ("James Dyer" . "captainflasmr@gmail.com"))
