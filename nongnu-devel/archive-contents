@@ -116,13 +116,13 @@
       (:authors ("Vivek Das Mohapatra" . "vivek@etla.org"))
       (:commit . "6acb5f3cdac840fc2d1e5c4b73a90f4c035d7116"))])
  (bash-completion
-  . [(3 2 1 -4 0 20260206 145951) ((emacs (25 3)))
+  . [(3 2 1 -4 0 20260325 162703) ((emacs (25 3)))
      "Bash completion for the shell buffer" tar
      ((:url . "http://github.com/szermatt/emacs-bash-completion")
       (:keywords "convenience" "unix")
       (:maintainer "Stephane Zermatten" . "szermatt@gmail.com")
       (:authors ("Stephane Zermatten" . "szermatt@gmx.net"))
-      (:commit . "5b621db96efc549c64436011a81fd658c6dcf6a0"))])
+      (:commit . "e2ae243588db8e03f4d0485bb09b670abbc63eaf"))])
  (beancount
   . [(0 9 0 0 20251027 80859) nil
      "A major mode to edit Beancount input files." tar
@@ -237,19 +237,19 @@
 		("Steve Purcell" . "steve@sanityinc.com"))
       (:commit . "f4a8bc4b74e9dc5993f8f1c4e0f943e4d4725cb0"))])
  (clojure-mode
-  . [(5 22 0 0 20260324 94620) ((emacs (27 1)))
+  . [(5 23 0 0 20260325 143544) ((emacs (27 1)))
      "Major mode for Clojure code" tar
      ((:url . "https://github.com/clojure-emacs/clojure-mode")
       (:keywords "languages" "clojure" "clojurescript" "lisp")
       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
-      (:commit . "d6a95682684940ca0d9aa31fd7d9a2b7c8c12e02"))])
+      (:commit . "c3b039ecf85e343edbc67c5856322654381dbc3e"))])
  (clojure-ts-mode
-  . [(0 6 0 0 20260324 130053) ((emacs (30 1)))
+  . [(0 6 0 0 20260325 145037) ((emacs (30 1)))
      "Major mode for Clojure code" tar
      ((:url . "http://github.com/clojure-emacs/clojure-ts-mode")
       (:keywords "languages" "clojure" "clojurescript" "lisp")
       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
-      (:commit . "20913a1eb6aa3f251bcb72153092fd4a5aa81c99"))])
+      (:commit . "e35f87759b1b21e5db26997212b85a048a428232"))])
  (coffee-mode
   . [(0 6 3 0 20230908 103000) ((emacs (24 3)))
      "Major mode for CoffeeScript code" tar
@@ -894,7 +894,7 @@
       (:authors ("David Andersson" . "l.david.anderssonsverige.nu"))
       (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel
-  . [(0 9 9 4 0 20260323 215439)
+  . [(0 9 9 4 0 20260325 15945)
      ((emacs (27 1)) (transient (0 7 4)) (compat (30 1 0 0)))
      "Interact with ChatGPT or other LLMs" tar
      ((:url . "https://github.com/karthink/gptel")
@@ -903,7 +903,7 @@
 		   . "karthik.chikmagalur@gmail.com")
       (:authors
        ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-      (:commit . "f21752a8e1d3af35897a0b9e594769b3d652e831"))])
+      (:commit . "0239c93d478f5faef47d59a0d53175551791a64d"))])
  (graphql-mode
   . [(1 0 0 0 20260214 124443) ((emacs (25 1)))
      "Major mode for editing GraphQL schemas" tar
@@ -1228,7 +1228,7 @@
       (:authors ("Jon Oddie" . "j.j.oddie@gmail.com"))
       (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit
-  . [(4 5 0 0 20260324 222315)
+  . [(4 5 0 0 20260325 140812)
      ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (llama (1 0))
       (magit-section (4 5)) (seq (2 24)) (transient (0 12))
       (with-editor (3 4)))
@@ -1240,9 +1240,9 @@
        ("Kyle Meyer" . "kyle@kyleam.com"))
       (:authors ("Marius Vollmer" . "marius.vollmer@gmail.com")
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "5b5bd95496c53b488953444f50d2ba2ce10f2972"))])
+      (:commit . "aa940cb50c7b5db36f038abdcc06e793ea1946d6"))])
  (magit-section
-  . [(4 5 0 0 20260324 222315)
+  . [(4 5 0 0 20260325 140812)
      ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (llama (1 0))
       (seq (2 24)))
      "Sections for read-only buffers" tar
@@ -1251,7 +1251,7 @@
 		   . "emacs.magit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "5b5bd95496c53b488953444f50d2ba2ce10f2972"))])
+      (:commit . "aa940cb50c7b5db36f038abdcc06e793ea1946d6"))])
  (markdown-mode
   . [(2 9 -3 0 20260321 14320) ((emacs (28 1)))
      "Major mode for Markdown-formatted text" tar
