@@ -1098,11 +1098,11 @@
       (:authors ("Akib Azmain Turja" . "akib@disroot.org"))
       (:commit . "3f43991f747edcf7ed5782e7b2f68dab24574ae0"))])
  (j-mode
-  . [(2 0 2 0 20260328 44146) nil "Major mode for editing J programs"
+  . [(2 0 2 0 20260328 122601) nil "Major mode for editing J programs"
      tar
      ((:url . "http://github.com/zellio/j-mode")
       (:keywords "j" "languages")
-      (:commit . "9cb346ea3245d4416a8cae813bdf882630fcebd1"))])
+      (:commit . "e49ef0692d73b320c281e40d9fa96b2c17073695"))])
  (jade-mode
   . [(1 0 1 0 20211019 161323) nil
      "Major mode for editing .jade files" tar
@@ -1228,7 +1228,7 @@
       (:authors ("Jon Oddie" . "j.j.oddie@gmail.com"))
       (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit
-  . [(4 5 0 0 20260327 155821)
+  . [(4 5 0 0 20260328 200307)
      ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (llama (1 0))
       (magit-section (4 5)) (seq (2 24)) (transient (0 12))
       (with-editor (3 4)))
@@ -1240,9 +1240,9 @@
        ("Kyle Meyer" . "kyle@kyleam.com"))
       (:authors ("Marius Vollmer" . "marius.vollmer@gmail.com")
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "59ef32fe7e4fa301ff4df22fe0341d8583695a10"))])
+      (:commit . "71a844b0df967015bd0a51c6d865a9a5233330ae"))])
  (magit-section
-  . [(4 5 0 0 20260327 155821)
+  . [(4 5 0 0 20260328 200307)
      ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (llama (1 0))
       (seq (2 24)))
      "Sections for read-only buffers" tar
@@ -1251,7 +1251,7 @@
 		   . "emacs.magit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "59ef32fe7e4fa301ff4df22fe0341d8583695a10"))])
+      (:commit . "71a844b0df967015bd0a51c6d865a9a5233330ae"))])
  (markdown-mode
   . [(2 9 -3 0 20260321 14320) ((emacs (28 1)))
      "Major mode for Markdown-formatted text" tar
@@ -1536,14 +1536,14 @@
       (:authors ("Andreas Politz" . "mail@andreas-politz.de"))
       (:commit . "365f88238f46f9b1425685562105881800f10386"))])
  (pg
-  . [(0 63 0 20260208 141935) ((emacs (28 1)) (peg (1 0 1)))
+  . [(0 64 0 20260328 162410) ((emacs (28 1)) (peg (1 0 1)))
      "Socket-level interface to the PostgreSQL database" tar
      ((:url . "https://github.com/emarsden/pg-el")
       (:keywords "data" "comm" "database" "postgresql")
       (:maintainer "Eric Marsden"
 		   . "eric.marsden@risk-engineering.org")
       (:authors ("Eric Marsden" . "eric.marsden@risk-engineering.org"))
-      (:commit . "52888cb6120407654f248877b2a78a75f7df0d99"))])
+      (:commit . "67f50311947a54913d91852ebd6880dbe68930bc"))])
  (php-mode
   . [(1 26 1 0 20251112 64638) ((emacs (27 1)))
      "Major mode for editing PHP code" tar
@@ -2155,12 +2155,12 @@
       (:authors ("Andrea Crotti" . "andrea.crotti.0@gmail.com"))
       (:commit . "606ee926df6839243098de6d71332a697518cb86"))])
  (zenburn-theme
-  . [(2 9 0 -4 0 20251028 122652) nil
+  . [(2 9 0 -4 0 20260328 115720) nil
      "A low contrast color theme for Emacs." tar
      ((:url . "http://github.com/bbatsov/zenburn-emacs")
       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.com")
       (:authors ("Bozhidar Batsov" . "bozhidar@batsov.com"))
-      (:commit . "d9557cf5ab9c03dc70693e3892f5ffdc5d345d22"))])
+      (:commit . "2f7f89047819fd29383dcb3945467eb0b9e44d42"))])
  (zig-mode
   . [(0 0 8 0 20251128 25646) ((emacs (26 1)) (reformatter (0 6)))
      "A major mode for the Zig programming language" tar
