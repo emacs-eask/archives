@@ -18777,7 +18777,7 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20260329 1826)
+      [(0 1 0 1 -4 20260329 2151)
        ((emacs
 	 (28 1))
 	(dash
@@ -18790,8 +18790,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "f91c06579755f057d0bb9ac0e62b26301c8a9afc")
-	(:revdesc . "f91c06579755")
+	(:commit . "5904cc58220676f32029b9cdc699b9901cb9df95")
+	(:revdesc . "5904cc582206")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
@@ -33820,7 +33820,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20260329 612)
+	[(0 1 0 1 -4 20260329 2110)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -33829,8 +33829,8 @@
 	   (30 1 0 0)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "db9aadf24a00de4d14511ecefb3019fa518317e9")
-	  (:revdesc . "db9aadf24a00")
+	  (:commit . "13e07942328acccb6c954c6de49a9733792adfe9")
+	  (:revdesc . "13e07942328a")
 	  (:keywords "convenience" "tools")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -70522,6 +70522,20 @@
 	(:maintainers
 	 ("Max Beutelspacher" . "max@beutelspacher.eu"))
 	(:maintainer "Max Beutelspacher" . "max@beutelspacher.eu"))])
+ (ros-face .
+	   [(0 1 0 1 -4 20260327 1536)
+	    ((emacs
+	      (27 1)))
+	    "Syntax highlighting for ROS files" tar
+	    ((:url . "https://github.com/smallwat3r/emacs-ros-mode")
+	     (:commit . "9278a711a8846b665b3e385f6cc8c51afd3f64cb")
+	     (:revdesc . "9278a711a884")
+	     (:keywords "languages" "ros" "robotics")
+	     (:authors
+	      ("Matthieu Petiteau" . "mpetiteau.pro@gmail.com"))
+	     (:maintainers
+	      ("Matthieu Petiteau" . "mpetiteau.pro@gmail.com"))
+	     (:maintainer "Matthieu Petiteau" . "mpetiteau.pro@gmail.com"))])
  (roseline-theme .
 		 [(0 1 0 1 -4 20250305 936)
 		  ((emacs
@@ -78603,6 +78617,20 @@
 		(:maintainers
 		 ("Rocky Bernstein" . "rocky@gnu.org"))
 		(:maintainer "Rocky Bernstein" . "rocky@gnu.org"))])
+ (tetris-60 .
+	    [(0 1 0 1 -4 20260329 1134)
+	     ((emacs
+	       (29 1)))
+	     "Retro ASCII Tetris" tar
+	     ((:url . "https://github.com/suxiaogang223/tetris-60")
+	      (:commit . "7e56b57ef4bd769235ab60aaa77029239cc568b4")
+	      (:revdesc . "7e56b57ef4bd")
+	      (:keywords "games")
+	      (:authors
+	       ("Xiaogang Su" . "suxiaogang223@icloud.com"))
+	      (:maintainers
+	       ("Xiaogang Su" . "suxiaogang223@icloud.com"))
+	      (:maintainer "Xiaogang Su" . "suxiaogang223@icloud.com"))])
  (tex-smart-umlauts .
 		    [(1 5 0 1 -4 20230416 2051)
 		     nil "Smart umlaut conversion for TeX" tar
