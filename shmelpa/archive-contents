@@ -9057,6 +9057,24 @@
 		 (:maintainers
 		  ("jpe90" . "eskinjp@gmail.com"))
 		 (:maintainer "jpe90" . "eskinjp@gmail.com"))])
+ (clj-doc-browse .
+		 [(0 1 0 1 -4 20260329 1912)
+		  ((emacs
+		    (27 1))
+		   (cider
+		    (1 0))
+		   (markdown-mode
+		    (2 5)))
+		  "Browse Clojure library docs from classpath JARs" tar
+		  ((:url . "https://github.com/dcj/clj-doc-browse-el")
+		   (:commit . "1409c55f8173720d8035e38f19ee0bd16f1c5ecf")
+		   (:revdesc . "1409c55f8173")
+		   (:keywords "clojure" "documentation" "tools")
+		   (:authors
+		    ("Don Jackson" . "dcj@clark-communications.com"))
+		   (:maintainers
+		    ("Don Jackson" . "dcj@clark-communications.com"))
+		   (:maintainer "Don Jackson" . "dcj@clark-communications.com"))])
  (clj-refactor .
 	       [(0 1 0 1 -4 20250514 1903)
 		((emacs
@@ -14511,13 +14529,13 @@
 		     ("Magnar Sveen" . "magnars@gmail.com"))
 		    (:maintainer "Matus Goljer" . "matus.goljer@gmail.com"))])
  (dashboard .
-	    [(0 1 0 1 -4 20260329 1748)
+	    [(0 1 0 1 -4 20260329 1853)
 	     ((emacs
 	       (27 1)))
 	     "A startup screen extracted from Spacemacs" tar
 	     ((:url . "https://github.com/emacs-dashboard/dashboard")
-	      (:commit . "56470b630d8057ac1609755a9aa881cab4d5da9c")
-	      (:revdesc . "56470b630d80")
+	      (:commit . "1c21c2586da32180f921df812a9276ab3ef18c17")
+	      (:revdesc . "1c21c2586da3")
 	      (:keywords "startup" "screen" "tools" "dashboard")
 	      (:authors
 	       ("Rakan Al-Hneiti" . "rakan.alhneiti@gmail.com"))
@@ -18759,7 +18777,7 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20260327 1632)
+      [(0 1 0 1 -4 20260329 1826)
        ((emacs
 	 (28 1))
 	(dash
@@ -18772,8 +18790,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "22f14d83ad28d7f8f39529d9a2f35e9e004dd1f3")
-	(:revdesc . "22f14d83ad28")
+	(:commit . "f91c06579755f057d0bb9ac0e62b26301c8a9afc")
+	(:revdesc . "f91c06579755")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
@@ -19426,6 +19444,22 @@
 		 (:maintainers
 		  ("Jeff Walsh" . "fejfighter@gmail.com"))
 		 (:maintainer "Jeff Walsh" . "fejfighter@gmail.com"))])
+ (eglot-typescript-preset .
+			  [(0 1 0 1 -4 20260329 335)
+			   ((emacs
+			     (30 2))
+			    (eglot
+			     (1 17)))
+			   "Eglot preset for TypeScript" tar
+			   ((:url . "https://github.com/mwolson/eglot-typescript-preset")
+			    (:commit . "39723885d5de1afa9b4ef763e25223fb5e49113e")
+			    (:revdesc . "39723885d5de")
+			    (:keywords "typescript" "javascript" "convenience" "languages" "tools")
+			    (:authors
+			     ("Michael Olson" . "mwolson@gnu.org"))
+			    (:maintainers
+			     ("Michael Olson" . "mwolson@gnu.org"))
+			    (:maintainer "Michael Olson" . "mwolson@gnu.org"))])
  (ego .
       [(0 9 1 -4 20200803 1101)
        ((emacs
@@ -29698,6 +29732,20 @@
 		   (:maintainers
 		    ("Chunyang Xu" . "mail@xuchunyang.me"))
 		   (:maintainer "Chunyang Xu" . "mail@xuchunyang.me"))])
+ (flywrite .
+	   [(0 1 0 1 -4 20260325 151)
+	    ((emacs
+	      (29 1)))
+	    "Inline writing suggestions via LLM" tar
+	    ((:url . "https://github.com/awdeorio/flywrite")
+	     (:commit . "223d3f6eb5804a3fe5978851ee431896591796ae")
+	     (:revdesc . "223d3f6eb580")
+	     (:keywords "text" "wp")
+	     (:authors
+	      ("Andrew DeOrio" . "awdeorio@umich.edu"))
+	     (:maintainers
+	      ("Andrew DeOrio" . "awdeorio@umich.edu"))
+	     (:maintainer "Andrew DeOrio" . "awdeorio@umich.edu"))])
  (fm-bookmarks .
 	       [(0 1 1 -4 20170104 1716)
 		((emacs
@@ -30525,6 +30573,20 @@
 		(:authors
 		 ("2010-2011 Laurent Le Brun" . "laurent@le-brun.eu")
 		 ("2012-2014 Robin Neatherway" . "robin.neatherway@gmail.com")))])
+ (fsharp-ts-mode .
+		 [(0 1 0 1 -4 20260329 654)
+		  ((emacs
+		    (29 1)))
+		  "Major mode for F# code" tar
+		  ((:url . "https://github.com/bbatsov/fsharp-ts-mode")
+		   (:commit . "22442687d3eb8e63f33ebcc49720166e465f54bb")
+		   (:revdesc . "22442687d3eb")
+		   (:keywords "languages" "fsharp")
+		   (:authors
+		    ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
+		   (:maintainers
+		    ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
+		   (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev"))])
  (fsrs .
        [(0 1 0 1 -4 20251119 1629)
 	((emacs
@@ -46851,6 +46913,26 @@
 	      (:maintainers
 	       ("Evgeny Kurnevsky" . "kurnevsky@gmail.com"))
 	      (:maintainer "Evgeny Kurnevsky" . "kurnevsky@gmail.com"))])
+ (llm-test .
+	   [(0 1 0 1 -4 20260323 452)
+	    ((emacs
+	      (29 1))
+	     (llm
+	      (0 18 0))
+	     (yaml
+	      (0 5 0))
+	     (futur
+	      (1 2)))
+	    "LLM-driven testing for packages" tar
+	    ((:url . "https://github.com/ahyatt/llm-test")
+	     (:commit . "1eb9875451480ff382306044e4afaf3da84d8e30")
+	     (:revdesc . "1eb987545148")
+	     (:keywords "testing" "tools")
+	     (:authors
+	      ("Andrew Hyatt" . "ahyatt@gmail.com"))
+	     (:maintainers
+	      ("Andrew Hyatt" . "ahyatt@gmail.com"))
+	     (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com"))])
  (llvm-ts-mode .
 	       [(0 0 1 1 -4 20231120 1251)
 		((emacs
