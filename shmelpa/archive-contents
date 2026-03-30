@@ -60850,13 +60850,13 @@
 	     (:revdesc . "67f4f6171675")
 	     (:keywords "lisp" "org" "org-mode" "bootstrap"))])
  (orgtbl-aggregate .
-		   [(0 1 0 1 -4 20260328 752)
+		   [(0 1 0 1 -4 20260330 745)
 		    ((emacs
 		      (26 1)))
 		    "Aggregate an Org Mode table | + | + | into another table" tar
 		    ((:url . "https://github.com/tbanel/orgaggregate/blob/master/README.org")
-		     (:commit . "a4e5669944e863d8edea63462b3de235dc11e7ea")
-		     (:revdesc . "a4e5669944e8")
+		     (:commit . "7a60cba3f26681c4c57ebb79593ff9a8d587db5c")
+		     (:revdesc . "7a60cba3f266")
 		     (:keywords "data" "extensions"))])
  (orgtbl-ascii-plot .
 		    [(0 1 0 1 -4 20260320 2046)
@@ -60875,13 +60875,13 @@
 	       (:revdesc . "987e1a8de9de")
 	       (:keywords "data" "extensions"))])
  (orgtbl-join .
-	      [(0 1 0 1 -4 20260327 856)
+	      [(0 1 0 1 -4 20260330 846)
 	       ((emacs
 		 (24 3)))
 	       "Join columns from other Org Mode tables" tar
 	       ((:url . "https://github.com/tbanel/orgtbljoin/blob/master/README.org")
-		(:commit . "aa6627536013ddcbf6ce6a9a2278da3a345ff94b")
-		(:revdesc . "aa6627536013")
+		(:commit . "c4a48b1e5056e58b17231bb672d25c6a3be6e681")
+		(:revdesc . "c4a48b1e5056")
 		(:keywords "data" "extensions"))])
  (orgtbl-show-header .
 		     [(0 1 1 -4 20230903 903)
@@ -71414,15 +71414,15 @@
 	     (:revdesc . "c353df6aa112")
 	     (:keywords "languages"))])
  (scad-mode .
-	    [(0 1 0 1 -4 20260322 21)
+	    [(0 1 0 1 -4 20260330 717)
 	     ((emacs
 	       (29 1))
 	      (compat
 	       (30)))
 	     "A major mode for editing OpenSCAD code" tar
 	     ((:url . "https://github.com/openscad/emacs-scad-mode")
-	      (:commit . "91e2e4dd7a8cc77af5be8fe49429c99996648167")
-	      (:revdesc . "91e2e4dd7a8c")
+	      (:commit . "44481331536516e34940315f67fa58f99f62a589")
+	      (:revdesc . "444813315365")
 	      (:keywords "languages")
 	      (:maintainers
 	       ("Len Trigg" . "lenbok@gmail.com")
@@ -72664,13 +72664,13 @@
 		("Ian Eure" . "ian.eure@gmail.com"))
 	       (:maintainer "Ian Eure" . "ian.eure@gmail.com"))])
  (shell-maker .
-	      [(0 1 0 1 -4 20260324 1516)
+	      [(0 1 0 1 -4 20260330 851)
 	       ((emacs
 		 (27 1)))
 	       "Interaction mode for making comint shells" tar
 	       ((:url . "https://github.com/xenodium/shell-maker")
-		(:commit . "808bede99dc2c2d27c3dc69d5f363aade40e6f87")
-		(:revdesc . "808bede99dc2"))])
+		(:commit . "6377cbdb49248d670170f1c8dbe045648063583e")
+		(:revdesc . "6377cbdb4924"))])
  (shell-pop .
 	    [(0 1 0 1 -4 20241207 1539)
 	     ((emacs
@@ -73530,13 +73530,13 @@
 		      ("Matthieu Petiteau" . "mpetiteau.pro@gmail.com"))
 		     (:maintainer "Matthieu Petiteau" . "mpetiteau.pro@gmail.com"))])
  (simply-annotate .
-		  [(0 1 0 1 -4 20260329 1820)
+		  [(0 1 0 1 -4 20260330 717)
 		   ((emacs
 		     (28 1)))
 		   "Enhanced annotation system with threading" tar
 		   ((:url . "https://github.com/captainflasmr/simply-annotate")
-		    (:commit . "357c54fc03ae90c3e4eeec65cf3859ee6a050bba")
-		    (:revdesc . "357c54fc03ae")
+		    (:commit . "a6018fa3b19cdbc5a8687d89856823e5952fec37")
+		    (:revdesc . "a6018fa3b19c")
 		    (:keywords "applications" "tools" "convenience")
 		    (:authors
 		     ("James Dyer" . "captainflasmr@gmail.com"))
@@ -83434,16 +83434,21 @@
 	   ("Lukas Fürmetz" . "fuermetz@mailbox.org"))
 	  (:maintainer "Lukas Fürmetz" . "fuermetz@mailbox.org"))])
  (vterm-editor .
-	       [(0 1 0 1 -4 20260304 1446)
+	       [(0 1 0 1 -4 20260330 845)
 		((emacs
 		  (25 1))
 		 (vterm
 		  (0 0 1)))
 		"Edit text in a buffer and send it to vterm" tar
 		((:url . "https://git.andros.dev/andros/vterm-editor.el")
-		 (:commit . "dc10185111e4f0014528d28a3e31d26c48d5e2ef")
-		 (:revdesc . "dc10185111e4")
-		 (:keywords "terminals" "convenience"))])
+		 (:commit . "239782cdf2411aed27a4f053c30e05c90047351b")
+		 (:revdesc . "239782cdf241")
+		 (:keywords "terminals" "convenience")
+		 (:authors
+		  ("Andros Fenollosa" . "hi@andros.dev"))
+		 (:maintainers
+		  ("Andros Fenollosa" . "hi@andros.dev"))
+		 (:maintainer "Andros Fenollosa" . "hi@andros.dev"))])
  (vterm-hotkey .
 	       [(0 1 1 -4 20240702 1445)
 		((emacs
