@@ -18777,11 +18777,13 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20260329 2202)
+      [(0 1 0 1 -4 20260330 1315)
        ((emacs
 	 (28 1))
 	(dash
 	 (2 18 0))
+	(s
+	 (1 12 0))
 	(f
 	 (0 20 0))
 	(markdown-mode
@@ -18790,8 +18792,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "0a768bd504737318eb039954333e32466397ee81")
-	(:revdesc . "0a768bd50473")
+	(:commit . "755e12f0bd4e931dec9706f993c0f24952fa4994")
+	(:revdesc . "755e12f0bd4e")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
@@ -25189,13 +25191,13 @@
 	      ("Rafael Nicdao" . "nicdaoraf@gmail.com"))
 	     (:maintainer "Rafael Nicdao" . "nicdaoraf@gmail.com"))])
  (exiftool .
-	   [(0 3 2 1 -4 20190520 1106)
+	   [(0 1 0 1 -4 20260328 2210)
 	    ((emacs
-	      (25)))
+	      (27 1)))
 	    "Elisp wrapper around ExifTool" tar
 	    ((:url . "https://git.systemreboot.net/exiftool.el")
-	     (:commit . "e043df1bcef40cd5934a74c210e1e35d5eb0e5a6")
-	     (:revdesc . "e043df1bcef4")
+	     (:commit . "23e9b7b407440037b23b1f7ad5f2010e41898621")
+	     (:revdesc . "23e9b7b40744")
 	     (:keywords "data")
 	     (:authors
 	      ("Arun I" . "arunisaac@systemreboot.net"))
@@ -29733,13 +29735,13 @@
 		    ("Chunyang Xu" . "mail@xuchunyang.me"))
 		   (:maintainer "Chunyang Xu" . "mail@xuchunyang.me"))])
  (flywrite .
-	   [(0 1 0 1 -4 20260325 151)
+	   [(0 1 0 1 -4 20260330 1354)
 	    ((emacs
 	      (29 1)))
 	    "Inline writing suggestions via LLM" tar
 	    ((:url . "https://github.com/awdeorio/flywrite")
-	     (:commit . "223d3f6eb5804a3fe5978851ee431896591796ae")
-	     (:revdesc . "223d3f6eb580")
+	     (:commit . "67af2b548449da231b55468c74b92589fae48270")
+	     (:revdesc . "67af2b548449")
 	     (:keywords "text" "wp")
 	     (:authors
 	      ("Andrew DeOrio" . "awdeorio@umich.edu"))
@@ -30574,13 +30576,13 @@
 		 ("2010-2011 Laurent Le Brun" . "laurent@le-brun.eu")
 		 ("2012-2014 Robin Neatherway" . "robin.neatherway@gmail.com")))])
  (fsharp-ts-mode .
-		 [(0 1 0 1 -4 20260330 902)
+		 [(0 1 0 1 -4 20260330 1239)
 		  ((emacs
 		    (29 1)))
 		  "Major mode for F# code" tar
 		  ((:url . "https://github.com/bbatsov/fsharp-ts-mode")
-		   (:commit . "2355f62276493f44b922a18455cbccd5421b4e62")
-		   (:revdesc . "2355f6227649")
+		   (:commit . "7d1ddcdb31cb243191ad46b4c6c48b2f9f7a0783")
+		   (:revdesc . "7d1ddcdb31cb")
 		   (:keywords "languages" "fsharp")
 		   (:authors
 		    ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -39292,13 +39294,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20260329 1552)
+	    [(0 1 0 1 -4 20260330 310)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "ad03affc4e799e2a1d75a0fbafb739a2da9c3bec")
-	      (:revdesc . "ad03affc4e79")
+	      (:commit . "e224423d760e1f9d557937ec310f3200d03f7c5b")
+	      (:revdesc . "e224423d760e")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -48324,7 +48326,7 @@
 	       (:revdesc . "caeb52d21d5c")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20260330 1102)
+	[(0 1 0 1 -4 20260330 1345)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -48343,8 +48345,8 @@
 	   (3 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "89a51310bd8f8087c44f7ac5c902cc82dddbbe2a")
-	  (:revdesc . "89a51310bd8f")
+	  (:commit . "9beb7ac0b51ad4f121b56d9c986b6be0a479997d")
+	  (:revdesc . "9beb7ac0b51a")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -53290,13 +53292,13 @@
 	     ("Jacek Sliwerski" . "rzyj@o2.pl"))
 	    (:maintainer "Jacek Sliwerski" . "rzyj@o2.pl"))])
  (neocaml .
-	  [(0 1 0 1 -4 20260326 739)
+	  [(0 1 0 1 -4 20260330 1402)
 	   ((emacs
 	     (29 1)))
 	   "Major mode for OCaml code" tar
 	   ((:url . "https://github.com/bbatsov/neocaml")
-	    (:commit . "366e4721539de9ba5972bbb320c9cade29141298")
-	    (:revdesc . "366e4721539d")
+	    (:commit . "392b5fab382d3f2c49123472bd3a1447345bd0f2")
+	    (:revdesc . "392b5fab382d")
 	    (:keywords "languages" "ocaml" "ml")
 	    (:authors
 	     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
