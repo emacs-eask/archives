@@ -16415,13 +16415,13 @@
 		    ("Naoya Yamashita" . "conao3@gmail.com"))
 		   (:maintainer "Naoya Yamashita" . "conao3@gmail.com"))])
  (dired-quick-sort .
-		   [(0 1 0 1 -4 20260308 2151)
+		   [(0 1 0 1 -4 20260331 2219)
 		    ((emacs
 		      (28)))
 		    "Persistent quick sorting of Dired buffers in various ways" tar
 		    ((:url . "https://gitlab.com/xuhdev/dired-quick-sort")
-		     (:commit . "7f01a60997b5fa8c5d572dece9c5db16b1438b9b")
-		     (:revdesc . "7f01a60997b5")
+		     (:commit . "3c9b41799b0424eb78f54caba56e4de1d7224e8b")
+		     (:revdesc . "3c9b41799b04")
 		     (:keywords "convenience" "files")
 		     (:authors
 		      ("Hong Xu" . "hong@topbug.net"))
@@ -18777,7 +18777,7 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20260330 1315)
+      [(0 1 0 1 -4 20260401 118)
        ((emacs
 	 (28 1))
 	(dash
@@ -18792,8 +18792,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "755e12f0bd4e931dec9706f993c0f24952fa4994")
-	(:revdesc . "755e12f0bd4e")
+	(:commit . "57056b91ce9bfc070ea39ea8d629dd8116a343f6")
+	(:revdesc . "57056b91ce9b")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
@@ -29733,13 +29733,13 @@
 		    ("Chunyang Xu" . "mail@xuchunyang.me"))
 		   (:maintainer "Chunyang Xu" . "mail@xuchunyang.me"))])
  (flywrite .
-	   [(0 1 0 1 -4 20260331 1415)
+	   [(0 1 0 1 -4 20260401 143)
 	    ((emacs
 	      (29 1)))
 	    "Inline writing suggestions via LLM" tar
 	    ((:url . "https://github.com/awdeorio/flywrite")
-	     (:commit . "fd9387cdee7a104ef94d53b2c14915272ea31c2b")
-	     (:revdesc . "fd9387cdee7a")
+	     (:commit . "8cf2ef464e496b1f1c9a5a590979bb0d9fc79931")
+	     (:revdesc . "8cf2ef464e49")
 	     (:keywords "text" "wp")
 	     (:authors
 	      ("Andrew DeOrio" . "awdeorio@umich.edu"))
@@ -44911,6 +44911,34 @@
 	       (:commit . "3d2f86fccdf81ab890f5d46dde93f241b718a436")
 	       (:revdesc . "3d2f86fccdf8")
 	       (:keywords "kubernetes" "k8s" "tools" "processes" "evil" "keybindings"))])
+ (kubernetes .
+	     [(0 1 0 1 -4 20250330 1936)
+	      ((dash
+		(2 12 0))
+	       (magit-section
+		(3 1 1))
+	       (magit-popup
+		(2 13 0))
+	       (with-editor
+		(3 0 4))
+	       (request
+		(0 3 2))
+	       (s
+		(1 12 0))
+	       (transient
+		(0 3 0)))
+	      "Magit-like porcelain for Kubernetes" tar
+	      ((:url . "https://github.com/kubernetes-el/kubernetes-el")
+	       (:commit . "938ef502414d093de827bf7f11bdb30843878a37")
+	       (:revdesc . "938ef502414d")
+	       (:keywords "kubernetes")
+	       (:authors
+		("Chris Barrett" . "chris+emacs@walrus.cool"))
+	       (:maintainers
+		("Chris Barrett" . "chris+emacs@walrus.cool")
+		("Noorul Islam K M" . "noorul@noorul.com")
+		("Jonathan Jin" . "me@jonathanj.in"))
+	       (:maintainer "Chris Barrett" . "chris+emacs@walrus.cool"))])
  (kubernetes-evil .
 		  [(0 18 0 1 -4 20220625 534)
 		   ((kubernetes
@@ -54831,13 +54859,13 @@
 	       ("Guido Schmidt" . "guido.schmidt.2912@gmail.com"))
 	      (:maintainer "Guido Schmidt" . "guido.schmidt.2912@gmail.com"))])
  (oai .
-      [(0 1 0 1 -4 20260331 2020)
+      [(0 1 0 1 -4 20260331 2145)
        ((emacs
 	 (29 1)))
        "AI-LLM chat blocks for org-mode" tar
        ((:url . "https://github.com/Anoncheg1/emacs-oai")
-	(:commit . "6a188df1fb3a1271351b46b6bd29fb8b600cb972")
-	(:revdesc . "6a188df1fb3a")
+	(:commit . "0e3cbb6fbd17be6bf19a6db6b9a9dac9e0f592c3")
+	(:revdesc . "0e3cbb6fbd17")
 	(:keywords "org" "comm" "url" "link")
 	(:authors
 	 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
