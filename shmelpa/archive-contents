@@ -5157,13 +5157,15 @@
 	      ("lorniu" . "lorniu@gmail.com"))
 	     (:maintainer "lorniu" . "lorniu@gmail.com"))])
  (binclock .
-	   [(1 11 1 -4 20170802 1116)
-	    ((cl-lib
+	   [(0 1 0 1 -4 20260401 1252)
+	    ((emacs
+	      (24 1))
+	     (cl-lib
 	      (0 5)))
 	    "Display the current time using a binary clock" tar
 	    ((:url . "https://github.com/davep/binclock.el")
-	     (:commit . "87042230d7f3fe3e9a77fae0dbab7d8f7e7794ad")
-	     (:revdesc . "87042230d7f3")
+	     (:commit . "aac5a907be45d4b1225188440f4bc7c5dcae68f7")
+	     (:revdesc . "aac5a907be45")
 	     (:keywords "games" "time" "display")
 	     (:authors
 	      ("Dave Pearson" . "davep@davep.org"))
@@ -6402,13 +6404,13 @@
 		 ("Samuel W. Flint" . "swflint@flintfam.org"))
 		(:maintainer "Samuel W. Flint" . "swflint@flintfam.org"))])
  (buffer-terminator .
-		    [(0 1 0 1 -4 20260331 1744)
+		    [(0 1 0 1 -4 20260401 1259)
 		     ((emacs
 		       (25 1)))
 		     "Safely Terminate/Kill Buffers Automatically" tar
 		     ((:url . "https://github.com/jamescherti/buffer-terminator.el")
-		      (:commit . "3d2232b6a32ef2523085beecbf2a12448de4dcbd")
-		      (:revdesc . "3d2232b6a32e")
+		      (:commit . "1bcb9c955d6437bd356e714f453ddd9745e53cf9")
+		      (:revdesc . "1bcb9c955d64")
 		      (:keywords "convenience")
 		      (:authors
 		       ("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -18777,7 +18779,7 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20260401 118)
+      [(0 1 0 1 -4 20260401 1515)
        ((emacs
 	 (28 1))
 	(dash
@@ -18792,8 +18794,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "57056b91ce9bfc070ea39ea8d629dd8116a343f6")
-	(:revdesc . "57056b91ce9b")
+	(:commit . "4e867e883cdb7733809a9c5b76c0ca9af022db98")
+	(:revdesc . "4e867e883cdb")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
@@ -34205,7 +34207,7 @@
 		     ("Kaleb Elwert" . "belak@coded.io"))
 		    (:maintainer "Kaleb Elwert" . "belak@coded.io"))])
  (greader .
-	  [(0 1 0 1 -4 20260324 1236)
+	  [(0 1 0 1 -4 20260401 1337)
 	   ((emacs
 	     (26 1))
 	    (seq
@@ -34214,8 +34216,8 @@
 	     (29 1 4 5)))
 	   "Gnamù reader, send buffer contents to a speech engine" tar
 	   ((:url . "https://gitlab.com/michelangelo-rodriguez/greader")
-	    (:commit . "4fd1ae83d21f6349cd849f3652e7bf8f00edc9dd")
-	    (:revdesc . "4fd1ae83d21f")
+	    (:commit . "e3f930f6ad3f5296252409d3015d6ecce0a5e91b")
+	    (:revdesc . "e3f930f6ad3f")
 	    (:keywords "tools" "accessibility")
 	    (:authors
 	     ("Michelangelo Rodriguez" . "michelangelo.rodriguez@gmail.com"))
@@ -47707,7 +47709,7 @@
 		("Evgeny Kurnevsky" . "kurnevsky@gmail.com"))
 	       (:maintainer "Ross A. Baker" . "ross@rossabaker.com"))])
  (lsp-mode .
-	   [(0 1 0 1 -4 20260323 549)
+	   [(0 1 0 1 -4 20260401 1526)
 	    ((emacs
 	      (28 1))
 	     (dash
@@ -47726,8 +47728,8 @@
 	      (1 11)))
 	    "LSP mode" tar
 	    ((:url . "https://github.com/emacs-lsp/lsp-mode")
-	     (:commit . "9a2513cb40cb7daac87efcc63f35c7e066681808")
-	     (:revdesc . "9a2513cb40cb")
+	     (:commit . "fb384fed198fa9012fd9788220e23e672f7d8619")
+	     (:revdesc . "fb384fed198f")
 	     (:keywords "languages"))])
  (lsp-mssql .
 	    [(0 1 0 1 -4 20251117 1444)
@@ -48352,7 +48354,7 @@
 	       (:revdesc . "caeb52d21d5c")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20260330 2032)
+	[(0 1 0 1 -4 20260331 2045)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -48371,8 +48373,8 @@
 	   (3 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "2e09199737ae2b2bced82143f4324397fc5bfe27")
-	  (:revdesc . "2e09199737ae")
+	  (:commit . "28878dd879aa2591b971a09848fdf800e92f3a2b")
+	  (:revdesc . "28878dd879aa")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -49692,7 +49694,7 @@
 	   ("Dimas Firmansyah" . "deirn@bai.lol"))
 	  (:maintainer "Dimas Firmansyah" . "deirn@bai.lol"))])
  (mastodon .
-	   [(0 1 0 1 -4 20260331 1106)
+	   [(0 1 0 1 -4 20260401 1540)
 	    ((emacs
 	      (29 1))
 	     (persist
@@ -49701,8 +49703,8 @@
 	      (0 8)))
 	    "Client for fediverse services using the Mastodon API" tar
 	    ((:url . "https://codeberg.org/martianh/mastodon.el")
-	     (:commit . "fac7d15c7ecdc388728e39a953304894dde3025f")
-	     (:revdesc . "fac7d15c7ecd")
+	     (:commit . "b4a1072d6c7c022be8d94bddc60c0c0c2c0f9db3")
+	     (:revdesc . "b4a1072d6c7c")
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com")
 	      ("Marty Hiatt" . "mousebot@disroot.org"))
