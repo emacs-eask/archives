@@ -1067,16 +1067,16 @@
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
       (:commit . "87c35b5a73381ae63427e4a67eedb5368c2b8788"))])
  (eglot
-  . [(1 22 0 20260401 213701)
+  . [(1 23 0 20260402 173242)
      ((emacs (26 3)) (eldoc (1 16 0)) (external-completion (0 1))
-      (flymake (1 4 5)) (jsonrpc (1 0 27)) (project (0 11 2))
+      (flymake (1 4 5)) (jsonrpc (1 0 28)) (project (0 11 2))
       (seq (2 23)) (xref (1 7 0)))
      "The Emacs Client for LSP servers" tar
      ((:url . "https://github.com/joaotavora/eglot")
       (:keywords "convenience" "languages")
       (:maintainer "João Távora" . "joaotavora@gmail.com")
       (:authors ("João Távora" . "joaotavora@gmail.com"))
-      (:commit . "b93591551eba854967c3484481f6ff21ddfde793"))])
+      (:commit . "99f2e353e7f1b169c52fe9cd767b97b175c88d13"))])
  (el-job
   . [(2 7 4 0 20260306 64315) ((emacs (29 1)))
      "Contrived way to call a function using all CPU cores" tar
@@ -1550,7 +1550,7 @@
       (:authors ("Sean Allred" . "code@seanallred.com"))
       (:commit . "9b3151b1de67c8a127906f11bc5c71116c12f5b5"))])
  (greader
-  . [(0 17 0 0 20260324 123610)
+  . [(0 19 0 0 20260402 161715)
      ((emacs (26 1)) (seq (2 24)) (compat (29 1 4 5)))
      "Gnamù reader, send buffer contents to a speech engine" tar
      ((:url . "https://gitlab.com/michelangelo-rodriguez/greader")
@@ -1559,7 +1559,7 @@
 		   . "michelangelo.rodriguez@gmail.com")
       (:authors
        ("Michelangelo Rodriguez" . "michelangelo.rodriguez@gmail.com"))
-      (:commit . "4fd1ae83d21f6349cd849f3652e7bf8f00edc9dd"))])
+      (:commit . "a3b568e8123c41d0606ecf01c8d01cbf8693edc9"))])
  (greenbar
   . [(1 2 260317 0 20260317 232500) ((emacs (27 1)))
      "Mark comint output with \"greenbar\" background" tar
@@ -1835,13 +1835,13 @@
       (:url . "https://elpa.gnu.org/packages/json-mode.html")
       (:commit . "2eb4b83db23e61fa2112688148aeedbacfc3c18e"))])
  (jsonrpc
-  . [(1 0 27 0 20260126 225709) ((emacs (25 2))) "JSON-RPC library"
+  . [(1 0 28 0 20260402 173109) ((emacs (25 2))) "JSON-RPC library"
      tar
      ((:keywords "processes" "languages" "extensions")
       (:maintainer "João Távora" . "joaotavora@gmail.com")
       (:authors ("João Távora" . "joaotavora@gmail.com"))
       (:url . "https://elpa.gnu.org/packages/jsonrpc.html")
-      (:commit . "99abaa70bf99de7a2f150ac9bb1e62ca6ea4d6f9"))])
+      (:commit . "99f2e353e7f1b169c52fe9cd767b97b175c88d13"))])
  (jumpc
   . [(3 1 0 20231015 14814) nil "jump to previous insertion points"
      tar
@@ -1964,14 +1964,14 @@
       (:authors ("Sean Whitton" . "spwhitton@spwhitton.name"))
       (:commit . "00b8f65effe4f2673e6450d70000644b266aa78a"))])
  (llm
-  . [(0 29 0 0 20260401 235841)
+  . [(0 29 0 0 20260402 142127)
      ((emacs (28 1)) (plz (0 8)) (plz-event-source (0 1 1))
       (plz-media-type (0 2 1)) (compat (29 1)))
      "Interface to pluggable llm backends" tar
      ((:url . "https://github.com/ahyatt/llm")
       (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
       (:authors ("Andrew Hyatt" . "ahyatt@gmail.com"))
-      (:commit . "0e5d4dee6e48a86a700ccc8cb202a4fc0703ff93"))])
+      (:commit . "b529c0803bae4a074376a5b4c9008bbb7409d8cf"))])
  (lmc
   . [(1 4 0 20230105 113402) ((emacs (24)) (cl-lib (0 5)))
      "Little Man Computer in Elisp" tar
@@ -3708,7 +3708,7 @@
       (:authors ("Andrii Kolomoiets" . "andreyk.mad@gmail.com"))
       (:commit . "aec2ee7733c38e55d7406c362b9fd5485b21299c"))])
  (vc-jj
-  . [(0 5 0 20260324 165127) ((emacs (28 1)) (compat (29 4)))
+  . [(0 5 0 20260402 121940) ((emacs (28 1)) (compat (29 4)))
      "VC backend for the Jujutsu version control system" tar
      ((:url . "https://codeberg.org/emacs-jj-vc/vc-jj.el")
       (:keywords "vc" "tools")
@@ -3716,7 +3716,7 @@
 		   ("Kristoffer Balintona" . "krisbalintona@gmail.com"))
       (:authors ("Rudolf Schlatte" . "rudi@constantly.at")
 		("Kristoffer Balintona" . "krisbalintona@gmail.com"))
-      (:commit . "c8df3b6092292c760522851e8a89f4525eb70cf1"))])
+      (:commit . "e85f0b00620bd1515cb2b0cb890f94ebafa75452"))])
  (vcard
   . [(0 2 2 0 20230718 145809) ((emacs (27 1)))
      "Package for handling vCard files" tar
