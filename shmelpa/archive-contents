@@ -69534,13 +69534,13 @@
 		("Reagan Middlebrook" . "reagankm@gmail.com"))
 	       (:maintainer "Reagan Middlebrook" . "reagankm@gmail.com"))])
  (repeat-fu .
-	    [(0 1 0 1 -4 20260316 936)
+	    [(0 1 0 1 -4 20260403 1127)
 	     ((emacs
 	       (29 1)))
 	     "Minor mode to repeat typing or commands" tar
 	     ((:url . "https://codeberg.org/ideasman42/emacs-repeat-fu")
-	      (:commit . "ffd6b69933e362a29967ed2967f12d474e39f887")
-	      (:revdesc . "ffd6b69933e3")
+	      (:commit . "ec9965832f4b94e635478fd6e67c29a523e2e36e")
+	      (:revdesc . "ec9965832f4b")
 	      (:keywords "convenience")
 	      (:authors
 	       ("Campbell Barton" . "ideasman42@gmail.com"))
@@ -70591,13 +70591,13 @@
 	    ("daichi.hirata" . "hirata.daichiatgmail.com"))
 	   (:maintainer "daichi.hirata" . "hirata.daichiatgmail.com"))])
  (royal-hemlock-theme .
-		      [(0 1 0 1 -4 20260311 434)
+		      [(0 1 0 1 -4 20260403 1420)
 		       ((emacs
 			 (24)))
 		       "Soothing royal-blue light-theme" tar
 		       ((:url . "https://github.com/vs-123/royal-hemlock-theme")
-			(:commit . "1e856571b97f2265654338581e58ee36a6fa81f5")
-			(:revdesc . "1e856571b97f")
+			(:commit . "490e54136cd223f416a971ed8de889b1f551db39")
+			(:revdesc . "490e54136cd2")
 			(:keywords "color" "theme" "faces"))])
  (rpm-spec-mode .
 		[(0 1 0 1 -4 20250329 139)
@@ -80903,11 +80903,14 @@
 	 ("Hiroaki Otsu" . "ootsuhiroaki@gmail.com"))
 	(:maintainer "Hiroaki Otsu" . "ootsuhiroaki@gmail.com"))])
  (tt-mode .
-	  [(0 1 0 1 -4 20260403 913)
-	   nil "Emacs major mode for editing Template Toolkit files" tar
+	  [(0 1 0 1 -4 20260403 1450)
+	   ((emacs
+	     (24 1)))
+	   "Major mode for editing Template Toolkit files" tar
 	   ((:url . "https://github.com/davorg/tt-mode")
-	    (:commit . "7322b52de06d9e786fbb66414775d2103efef562")
-	    (:revdesc . "7322b52de06d")
+	    (:commit . "39f907c67d049c3c5d31db0b0b16e84edc323005")
+	    (:revdesc . "39f907c67d04")
+	    (:keywords "languages")
 	    (:authors
 	     ("Dave Cross" . "dave@dave.org.uk"))
 	    (:maintainers
