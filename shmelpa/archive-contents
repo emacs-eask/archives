@@ -11474,6 +11474,20 @@
 				     (:maintainers
 				      ("Seong Yong-ju" . "sei40kr@gmail.com"))
 				     (:maintainer "Seong Yong-ju" . "sei40kr@gmail.com"))])
+ (compilation-history .
+		      [(0 1 0 1 -4 20260401 547)
+		       ((emacs
+			 (29 1)))
+		       "Track compilation history in SQLite" tar
+		       ((:url . "https://github.com/djgoku/compilation-history")
+			(:commit . "dba6568dc2c56131d811ff951855e6fb69447ed8")
+			(:revdesc . "dba6568dc2c5")
+			(:keywords "processes" "tools")
+			(:authors
+			 ("Jonathan Carroll Otsuka" . "pitas.axioms0c@icloud.com"))
+			(:maintainers
+			 ("Jonathan Carroll Otsuka" . "pitas.axioms0c@icloud.com"))
+			(:maintainer "Jonathan Carroll Otsuka" . "pitas.axioms0c@icloud.com"))])
  (compile-angel .
 		[(0 1 0 1 -4 20260326 1633)
 		 ((emacs
@@ -12661,6 +12675,24 @@
 		    (:maintainers
 		     ("Radian LLC" . "contact+prescient@radian.codes"))
 		    (:maintainer "Radian LLC" . "contact+prescient@radian.codes"))])
+ (corg .
+       [(0 1 0 1 -4 20260405 1546)
+	((emacs
+	  (27 1))
+	 (s
+	  (1 13 1))
+	 (compat
+	  (30)))
+	"Header completion for org-mode" tar
+	((:url . "https://github.com/isamert/corg.el")
+	 (:commit . "afcdeba074c30c51342a004a42f1bb233a7b1e3f")
+	 (:revdesc . "afcdeba074c3")
+	 (:keywords "abbrev" "convenience" "completion" "matching")
+	 (:authors
+	  ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
+	 (:maintainers
+	  ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
+	 (:maintainer "Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))])
  (corral .
 	 [(0 3 0 1 -4 20160502 948)
 	  nil "Quickly surround text with delimiters" tar
@@ -51423,13 +51455,13 @@
 		    ("Sidharth Arya" . "sidhartharya10@gmail.com"))
 		   (:maintainer "Sidharth Arya" . "sidhartharya10@gmail.com"))])
  (modus-themes .
-	       [(0 1 0 1 -4 20260405 1333)
+	       [(0 1 0 1 -4 20260405 1815)
 		((emacs
 		  (28 1)))
 		"Elegant, highly legible and customizable themes" tar
 		((:url . "https://github.com/protesilaos/modus-themes")
-		 (:commit . "b07a5d50019d3f85721fc0986cad419a1940c366")
-		 (:revdesc . "b07a5d50019d")
+		 (:commit . "7d234fd65f835b0e5608404000cef12b2c9f97b3")
+		 (:revdesc . "7d234fd65f83")
 		 (:keywords "faces" "theme" "accessibility")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
@@ -56065,6 +56097,20 @@
 		      ("William Stevenson" . "yhvh2000@gmail.com")
 		      ("Erik Timan" . "dev@timan.info"))
 		     (:maintainer "William Stevenson" . "yhvh2000@gmail.com"))])
+ (occult .
+	 [(0 1 0 1 -4 20260405 1822)
+	  ((emacs
+	    (29 1)))
+	  "Collapse and reveal buffer regions" tar
+	  ((:url . "https://github.com/agzam/occult.el")
+	   (:commit . "599d4db83c892753664be3c4024b7a616e45f40b")
+	   (:revdesc . "599d4db83c89")
+	   (:keywords "convenience")
+	   (:authors
+	    ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
+	   (:maintainers
+	    ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
+	   (:maintainer "Ag Ibragimov" . "agzam.ibragimov@gmail.com"))])
  (occur-context-resize .
 		       [(0 1 0 1 -4 20250510 1447)
 			nil "Dynamically resize context around matches in occur-mode" tar
@@ -58133,6 +58179,22 @@
 		      (:maintainers
 		       ("Trevor Richards" . "trev@trevdev.ca"))
 		      (:maintainer "Trevor Richards" . "trev@trevdev.ca"))])
+ (org-invox .
+	    [(0 1 0 1 -4 20260329 1955)
+	     ((emacs
+	       (27 1))
+	      (org
+	       (9 0)))
+	     "Invoice management for contractors using Org mode" tar
+	     ((:url . "https://github.com/a-manumohan/org-invox")
+	      (:commit . "458d3757ff0b52b44e163997ee131a62709eacd0")
+	      (:revdesc . "458d3757ff0b")
+	      (:keywords "outlines" "tools")
+	      (:authors
+	       ("Manu Mohan" . "me@manumohan.net"))
+	      (:maintainers
+	       ("Manu Mohan" . "me@manumohan.net"))
+	      (:maintainer "Manu Mohan" . "me@manumohan.net"))])
  (org-iv .
 	 [(1 0 1 1 -4 20171001 1022)
 	  ((impatient-mode
