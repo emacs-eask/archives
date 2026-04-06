@@ -705,11 +705,11 @@
       (:url . "https://elpa.gnu.org/packages/cycle-quotes.html")
       (:commit . "c1ef993f8c66fec71b10d70eb7a2cd0c416aaa12"))])
  (dape
-  . [(0 26 0 0 20260318 234534) ((emacs (29 1)) (jsonrpc (1 0 25)))
+  . [(0 26 0 0 20260406 153653) ((emacs (29 1)) (jsonrpc (1 0 25)))
      "Debug Adapter Protocol for Emacs" tar
      ((:url . "https://github.com/svaante/dape")
       (:maintainer "Daniel Pettersson" . "daniel@dpettersson.net")
-      (:commit . "1e86212784198f6d3185d712dd6b724601052118"))])
+      (:commit . "6fab87c15e5b68d9f3c7d0764978f196c53a578e"))])
  (darkroom
   . [(0 3 0 20200507 173652) ((cl-lib (0 5)))
      "Remove visual distractions and focus on writing" tar
@@ -751,12 +751,12 @@
       (:authors ("Phil Sainty" . "psainty@orcon.net.nz"))
       (:commit . "5a0cd5ccb650d7bba1c1ea02cf67b71d7cfa6e9a"))])
  (denote
-  . [(4 1 3 0 20260406 74304) ((emacs (28 1)))
+  . [(4 1 3 0 20260406 193003) ((emacs (28 1)))
      "Simple notes with an efficient file-naming scheme" tar
      ((:url . "https://github.com/protesilaos/denote")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "8dfadbc08549080f5e13cbbe1ac83c169a3d6b4e"))])
+      (:commit . "5e4b95a1b7dbc04ff4131e9aa2d2646681bb358a"))])
  (denote-journal
   . [(0 2 2 0 20260328 192346) ((emacs (28 1)) (denote (4 0 0)))
      "Convenience functions for daily journaling with Denote" tar
@@ -1067,7 +1067,7 @@
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
       (:commit . "da4229a61522365c30f38d689b480797cb1de018"))])
  (eglot
-  . [(1 23 0 20260402 173242)
+  . [(1 23 0 20260406 115439)
      ((emacs (26 3)) (eldoc (1 16 0)) (external-completion (0 1))
       (flymake (1 4 5)) (jsonrpc (1 0 28)) (project (0 11 2))
       (seq (2 23)) (xref (1 7 0)))
@@ -1076,7 +1076,7 @@
       (:keywords "convenience" "languages")
       (:maintainer "João Távora" . "joaotavora@gmail.com")
       (:authors ("João Távora" . "joaotavora@gmail.com"))
-      (:commit . "99f2e353e7f1b169c52fe9cd767b97b175c88d13"))])
+      (:commit . "7ce60be53e7ffbc1972dd8e98744adf6103eee9e"))])
  (el-job
   . [(2 7 4 0 20260306 64315) ((emacs (29 1)))
      "Contrived way to call a function using all CPU cores" tar
@@ -1964,14 +1964,14 @@
       (:authors ("Sean Whitton" . "spwhitton@spwhitton.name"))
       (:commit . "00b8f65effe4f2673e6450d70000644b266aa78a"))])
  (llm
-  . [(0 30 0 0 20260406 11759)
+  . [(0 30 0 0 20260406 153351)
      ((emacs (28 1)) (plz (0 8)) (plz-event-source (0 1 1))
       (plz-media-type (0 2 1)) (compat (29 1)))
      "Interface to pluggable llm backends" tar
      ((:url . "https://github.com/ahyatt/llm")
       (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
       (:authors ("Andrew Hyatt" . "ahyatt@gmail.com"))
-      (:commit . "b481870ef939d13d3fe895f474f433e9a0d3141e"))])
+      (:commit . "a861b8a2731867753472fbe5c4c410423e958141"))])
  (lmc
   . [(1 4 0 20230105 113402) ((emacs (24)) (cl-lib (0 5)))
      "Little Man Computer in Elisp" tar
@@ -2390,13 +2390,13 @@
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
       (:commit . "3a2a32181f7a5bd7b633e40d89de771a5dd88cc7"))])
  (org
-  . [(10 0 -1 0 20260405 162728) ((emacs (28 2)))
+  . [(10 0 -1 0 20260406 143941) ((emacs (28 2)))
      "Outline-based notes management and organizer" tar
      ((:url . "https://orgmode.org")
       (:keywords "outlines" "hypermedia" "calendar" "text")
       (:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-      (:commit . "61455f8352b48f907f4db8af313461fa6e287301"))])
+      (:commit . "77f0ff132138b27b0c68de5699c80b071bab6a60"))])
  (org-contacts
   . [(1 3 0 20260221 85240) ((emacs (29 1)) (org (9 7)))
      "Contacts management system for Org mode" tar
@@ -3708,7 +3708,7 @@
       (:authors ("Andrii Kolomoiets" . "andreyk.mad@gmail.com"))
       (:commit . "aec2ee7733c38e55d7406c362b9fd5485b21299c"))])
  (vc-jj
-  . [(0 5 0 20260405 164040) ((emacs (28 1)) (compat (29 4)))
+  . [(0 5 0 20260406 105717) ((emacs (28 1)) (compat (29 4)))
      "VC backend for the Jujutsu version control system" tar
      ((:url . "https://codeberg.org/emacs-jj-vc/vc-jj.el")
       (:keywords "vc" "tools")
@@ -3716,7 +3716,7 @@
 		   ("Kristoffer Balintona" . "krisbalintona@gmail.com"))
       (:authors ("Rudolf Schlatte" . "rudi@constantly.at")
 		("Kristoffer Balintona" . "krisbalintona@gmail.com"))
-      (:commit . "24f07de6fc8dd0fd07455d8b0e52b6e1a116fd84"))])
+      (:commit . "62dd4553d9a5ed20f8569f1dfd5b0891a7540891"))])
  (vcard
   . [(0 2 2 0 20230718 145809) ((emacs (27 1)))
      "Package for handling vCard files" tar
