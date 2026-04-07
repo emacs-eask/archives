@@ -561,12 +561,12 @@
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
       (:commit . "f07e221d4d5597c7ccf4b0003c0909a88bdfcc9e"))])
  (consult
-  . [(3 4 0 20260330 62005) ((emacs (29 1)) (compat (30)))
+  . [(3 4 0 20260407 153027) ((emacs (29 1)) (compat (30)))
      "Search and navigate via completing-read" tar
      ((:url . "https://github.com/minad/consult")
       (:keywords "matching" "files" "completion")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-      (:commit . "080e2d6a5b20acf3f6c32ae0e1c88866853f3dfa"))])
+      (:commit . "20476c690ce3ecd45460011ce6b03fd58a642181"))])
  (consult-denote
   . [(0 4 2 0 20260122 100152)
      ((emacs (28 1)) (denote (4 0 0)) (consult (2 2)))
@@ -751,12 +751,12 @@
       (:authors ("Phil Sainty" . "psainty@orcon.net.nz"))
       (:commit . "5a0cd5ccb650d7bba1c1ea02cf67b71d7cfa6e9a"))])
  (denote
-  . [(4 1 3 0 20260406 195903) ((emacs (28 1)))
+  . [(4 1 3 0 20260407 91154) ((emacs (28 1)))
      "Simple notes with an efficient file-naming scheme" tar
      ((:url . "https://github.com/protesilaos/denote")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "dcb3daf81a6359db028fea69834796d722ae34b9"))])
+      (:commit . "160444b853dd7676997ab563da6a56416818138c"))])
  (denote-journal
   . [(0 2 2 0 20260328 192346) ((emacs (28 1)) (denote (4 0 0)))
      "Convenience functions for daily journaling with Denote" tar
@@ -1239,7 +1239,7 @@
 		 . "storm@cua.dk"))
       (:commit . "97d856bbf081de1d387ec646d06aac7bcce3f675"))])
  (ess
-  . [(26 1 0 0 20260322 120329) ((emacs (25 1)))
+  . [(26 1 0 0 20260407 132951) ((emacs (25 1)))
      "Emacs Speaks Statistics" tar
      ((:url . "https://ess.r-project.org/")
       (:maintainer "ESS Core Team" . "ESS-core@r-project.org")
@@ -1255,7 +1255,7 @@
 		("Vitalie Spinu" . "spinuvit@gmail.com")
 		("Lionel Henry" . "lionel.hry@gmail.com")
 		("J. Alexander Branham" . "alex.branham@gmail.com"))
-      (:commit . "4e112590d1c13cfe464ca7de77837f1b956e4a9f"))])
+      (:commit . "325806eb265240c9c2af1e25e9e0dc1006999771"))])
  (excorporate
   . [(1 1 3 0 20250627 211849)
      ((fsm (0 2 1)) (soap-client (3 2 0)) (url-http-ntlm (2 0 6))
@@ -1964,14 +1964,14 @@
       (:authors ("Sean Whitton" . "spwhitton@spwhitton.name"))
       (:commit . "00b8f65effe4f2673e6450d70000644b266aa78a"))])
  (llm
-  . [(0 30 0 0 20260406 153351)
+  . [(0 30 0 0 20260407 135721)
      ((emacs (28 1)) (plz (0 8)) (plz-event-source (0 1 1))
       (plz-media-type (0 2 1)) (compat (29 1)))
      "Interface to pluggable llm backends" tar
      ((:url . "https://github.com/ahyatt/llm")
       (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
       (:authors ("Andrew Hyatt" . "ahyatt@gmail.com"))
-      (:commit . "a861b8a2731867753472fbe5c4c410423e958141"))])
+      (:commit . "a5d5c82be40a9adb6377bddebb0004348e292853"))])
  (lmc
   . [(1 4 0 20230105 113402) ((emacs (24)) (cl-lib (0 5)))
      "Little Man Computer in Elisp" tar
@@ -2739,10 +2739,10 @@
       (:authors ("Paul D. Nelson" . "nelson.paul.david@gmail.com"))
       (:commit . "731d92247aab0a51c208d0fe196db3dec0d1b2e9"))])
  (project
-  . [(0 11 2 0 20260313 73301) ((emacs (26 1)) (xref (1 7 0)))
+  . [(0 11 2 0 20260407 143459) ((emacs (26 1)) (xref (1 7 0)))
      "Operations on the current project" tar
      ((:url . "https://elpa.gnu.org/packages/project.html")
-      (:commit . "5c2cb4ced46f954e1cc54ee079c25abecc4aadfc"))])
+      (:commit . "36354c8ab4556c64082a87c3ad8e1705abbb04cf"))])
  (psgml
   . [(1 3 5 0 20221229 184738) nil
      "SGML-editing mode with parsing support" tar
@@ -2861,7 +2861,7 @@
       (:authors ("Matto Fransen" . "matto@matto.nl"))
       (:commit . "349aabcbb6bd10b007f431d180e870a5918b9e21"))])
  (realgud
-  . [(1 6 0 0 20260303 215436)
+  . [(1 6 0 0 20260407 121006)
      ((load-relative (1 3 2)) (loc-changes (1 2))
       (test-simple (1 3 0)) (emacs (27)))
      "A modular front-end for interacting with external debuggers" tar
@@ -2870,7 +2870,7 @@
 		 "bashdb" "zshdb" "remake" "trepan" "perldb" "pdb")
       (:maintainer "Rocky Bernstein" . "rocky@gnu.org")
       (:authors ("Rocky Bernstein" . "rocky@gnu.org"))
-      (:commit . "6a3c23764353a5f94a35f212a482b12346ea03d4"))])
+      (:commit . "e391200705804aa035627672f5ae62d3c3113b16"))])
  (realgud-ipdb
   . [(1 0 0 0 20231216 160636)
      ((realgud (1 5 0)) (load-relative (1 3 1)) (emacs (25)))
@@ -3708,7 +3708,7 @@
       (:authors ("Andrii Kolomoiets" . "andreyk.mad@gmail.com"))
       (:commit . "aec2ee7733c38e55d7406c362b9fd5485b21299c"))])
  (vc-jj
-  . [(0 5 0 20260407 15538) ((emacs (28 1)) (compat (29 4)))
+  . [(0 5 0 20260407 140853) ((emacs (28 1)) (compat (29 4)))
      "VC backend for the Jujutsu version control system" tar
      ((:url . "https://codeberg.org/emacs-jj-vc/vc-jj.el")
       (:keywords "vc" "tools")
@@ -3716,7 +3716,7 @@
 		   ("Kristoffer Balintona" . "krisbalintona@gmail.com"))
       (:authors ("Rudolf Schlatte" . "rudi@constantly.at")
 		("Kristoffer Balintona" . "krisbalintona@gmail.com"))
-      (:commit . "caacba0a4131d9eaea55497bd3dcb37f4f5df74f"))])
+      (:commit . "7cdb661e2dee7ab37a9467f3aafc48065bb08b1b"))])
  (vcard
   . [(0 2 2 0 20230718 145809) ((emacs (27 1)))
      "Package for handling vCard files" tar
