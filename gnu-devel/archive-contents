@@ -576,13 +576,13 @@
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
       (:commit . "40f90c887ab3fe4c032648a99f3fe6fd82b76161"))])
  (consult-hoogle
-  . [(0 6 0 0 20260226 73407) ((emacs (27 1)) (consult (2 0)))
+  . [(0 6 0 0 20260410 130304) ((emacs (28 1)) (consult (2 0)))
      "Hoogle frontend using consult" tar
      ((:url . "https://codeberg.org/rahguzar/consult-hoogle")
       (:keywords "docs" "languages")
       (:maintainer "rahguzar" . "rahguzar@mailbox.org")
       (:authors ("rahguzar" . "rahguzar@mailbox.org"))
-      (:commit . "b5f327a5fa1f3b13ad693e1b5f9f2efe72c45929"))])
+      (:commit . "8a8ff4c0e4c48f6cbdb63eb51d08003c3120be55"))])
  (consult-recoll
   . [(1 0 0 0 20250223 210510) ((emacs (26 1)) (consult (2 0)))
      "Recoll queries using consult" tar
@@ -1239,7 +1239,7 @@
 		 . "storm@cua.dk"))
       (:commit . "97d856bbf081de1d387ec646d06aac7bcce3f675"))])
  (ess
-  . [(26 1 0 0 20260408 95243) ((emacs (25 1)))
+  . [(26 1 0 0 20260410 160324) ((emacs (25 1)))
      "Emacs Speaks Statistics" tar
      ((:url . "https://ess.r-project.org/")
       (:maintainer "ESS Core Team" . "ESS-core@r-project.org")
@@ -1255,7 +1255,7 @@
 		("Vitalie Spinu" . "spinuvit@gmail.com")
 		("Lionel Henry" . "lionel.hry@gmail.com")
 		("J. Alexander Branham" . "alex.branham@gmail.com"))
-      (:commit . "d8d8e4e87a663edbeb42d7e43f8096c95bbb6e15"))])
+      (:commit . "bcde58805eb55296efebed9929164bfb8c3933b4"))])
  (excorporate
   . [(1 1 3 0 20250627 211849)
      ((fsm (0 2 1)) (soap-client (3 2 0)) (url-http-ntlm (2 0 6))
@@ -1410,13 +1410,13 @@
       (:authors ("Yuan Fu" . "casouri@gmail.com"))
       (:commit . "d7c243ac3be2a67986f53f3dc31ba1426e82b771"))])
  (futur
-  . [(1 4 0 20260409 205429) nil "Future/promise-based async library"
+  . [(1 4 0 20260410 74322) nil "Future/promise-based async library"
      tar
      ((:keywords "concurrency" "async" "promises" "futures")
       (:maintainer "Stefan Monnier" . "monnier@iro.umontreal.ca")
       (:authors ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
       (:url . "https://elpa.gnu.org/packages/futur.html")
-      (:commit . "1852b76242f228df9a2453bdb027f880994c44e2"))])
+      (:commit . "6022fa707b47a354f6e3bf49a4abf8933540818c"))])
  (gcmh
   . [(0 2 1 0 20201116 225142) ((emacs (24)))
      "the Garbage Collector Magic Hack" tar
@@ -2152,12 +2152,13 @@
       (:url . "https://elpa.gnu.org/packages/minibuffer-line.html")
       (:commit . "aa52e9402052363bddd4ea3d1d82195c692fb977"))])
  (minimail
-  . [(0 3 0 20260330 82338) ((emacs (30 1)))
+  . [(0 3 0 20260404 123801) ((emacs (30 1)))
      "Simple, non-blocking IMAP email client" tar
-     ((:url . "https://github.com/astoff/minimail") (:keywords "mail")
+     ((:url . "https://codeberg.org/astoff/minimail")
+      (:keywords "mail")
       (:maintainer "Augusto Stoffel" . "arstoffel@gmail.com")
       (:authors ("Augusto Stoffel" . "arstoffel@gmail.com"))
-      (:commit . "be4996cd44a2cbd478ad7ee24ca91a5fe61c357e"))])
+      (:commit . "223cab1aa82045cdddd3d7ec284ee699597390e2"))])
  (minimap
   . [(1 4 0 20201201 162630) nil
      "Sidebar showing a \"mini-map\" of a buffer" tar
@@ -2189,13 +2190,13 @@
       (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
       (:commit . "8d70286c3fda845f3b8d97a937248670ca002f13"))])
  (modus-themes
-  . [(5 2 0 0 20260405 181509) ((emacs (28 1)))
+  . [(5 2 0 0 20260410 183921) ((emacs (28 1)))
      "Elegant, highly legible and customizable themes" tar
      ((:url . "https://github.com/protesilaos/modus-themes")
       (:keywords "faces" "theme" "accessibility")
       (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
       (:authors ("Protesilaos Stavrou" . "info@protesilaos.com"))
-      (:commit . "7d234fd65f835b0e5608404000cef12b2c9f97b3"))])
+      (:commit . "4ca21529aec3c2fbb73241fe1d231452e421c279"))])
  (mpdired
   . [(4 -1 0 20250502 114712) ((emacs (29)))
      "A dired-like client for Music Player Daemon" tar
