@@ -35425,15 +35425,15 @@
 		(:revdesc . "8c70b48fe5fb")
 		(:keywords "faces"))])
  (helm .
-       [(0 1 0 1 -4 20260214 1432)
+       [(0 1 0 1 -4 20260411 442)
 	((helm-core
 	  (4 0 6))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
-	 (:commit . "9d8de1e0810ef5a5e1f3a46c9461b78b9e86167b")
-	 (:revdesc . "9d8de1e0810e")
+	 (:commit . "7a77755b99a38f209f5d77d5836a61ff3326bd9b")
+	 (:revdesc . "7a77755b99a3")
 	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
@@ -35909,15 +35909,15 @@
 		  ("Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com"))
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com"))])
  (helm-core .
-	    [(0 1 0 1 -4 20260201 507)
+	    [(0 1 0 1 -4 20260411 415)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 9)))
 	     "Development files for Helm" tar
 	     ((:url . "https://emacs-helm.github.io/helm/")
-	      (:commit . "dcaa8fb45d4f7d08390d80351a4204f848f2ec90")
-	      (:revdesc . "dcaa8fb45d4f")
+	      (:commit . "f9fbb6e08ae45561ad3a92a01d43751851a5a9f7")
+	      (:revdesc . "f9fbb6e08ae4")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainers
@@ -37771,7 +37771,7 @@
 			 ("Pierre Neidhardt" . "mail@ambrevar.xyz"))
 			(:maintainer "Pierre Neidhardt" . "mail@ambrevar.xyz"))])
  (helm-system-packages .
-		       [(0 1 0 1 -4 20260404 605)
+		       [(0 1 0 1 -4 20260411 501)
 			((emacs
 			  (24 4))
 			 (helm
@@ -37780,8 +37780,8 @@
 			  (1 8)))
 			"Helm UI wrapper for system package managers" tar
 			((:url . "https://github.com/emacs-helm/helm-system-packages")
-			 (:commit . "85372333d09dbf21a68ab982a3fba299461eeb9e")
-			 (:revdesc . "85372333d09d")
+			 (:commit . "ca29a21bb9177ebdb3f0d81a22b80d747d916335")
+			 (:revdesc . "ca29a21bb917")
 			 (:keywords "helm" "packages")
 			 (:authors
 			  ("Pierre Neidhardt" . "mail@ambrevar.xyz"))
@@ -72108,18 +72108,16 @@
 	     ("Benaiah Mischenko" . "benaiah@mischenko.com"))
 	    (:maintainer "Benaiah Mischenko" . "benaiah@mischenko.com"))])
  (sekka .
-	[(1 8 0 1 -4 20170803 1247)
-	 ((cl-lib
-	   (0 3))
-	  (concurrent
-	   (0 3 1))
+	[(0 1 0 1 -4 20260411 606)
+	 ((emacs
+	   (25 1))
 	  (popup
 	   (0 5 2)))
-	 "A client for Sekka IME server" tar
+	 "Pure Elisp Japanese IME inspired by SKK" tar
 	 ((:url . "https://github.com/kiyoka/sekka")
-	  (:commit . "d1fd5d47aacba723631d5d374169a45ff2051c41")
-	  (:revdesc . "d1fd5d47aacb")
-	  (:keywords "ime" "skk" "japanese")
+	  (:commit . "1fdf99ffad8c3bd66cf0ebf1b5ec6eb19e34a9b1")
+	  (:revdesc . "1fdf99ffad8c")
+	  (:keywords "i18n")
 	  (:authors
 	   ("Kiyoka Nishiyama" . "kiyoka@sumibi.org"))
 	  (:maintainers
