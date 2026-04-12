@@ -2862,7 +2862,7 @@
       (:authors ("Matto Fransen" . "matto@matto.nl"))
       (:commit . "349aabcbb6bd10b007f431d180e870a5918b9e21"))])
  (realgud
-  . [(1 6 0 0 20260407 121006)
+  . [(1 6 0 0 20260411 181642)
      ((load-relative (1 3 2)) (loc-changes (1 2))
       (test-simple (1 3 0)) (emacs (27)))
      "A modular front-end for interacting with external debuggers" tar
@@ -2871,7 +2871,7 @@
 		 "bashdb" "zshdb" "remake" "trepan" "perldb" "pdb")
       (:maintainer "Rocky Bernstein" . "rocky@gnu.org")
       (:authors ("Rocky Bernstein" . "rocky@gnu.org"))
-      (:commit . "e391200705804aa035627672f5ae62d3c3113b16"))])
+      (:commit . "34a9065d1695c3b4bfbae076440397ad24bc8faf"))])
  (realgud-ipdb
   . [(1 0 0 0 20231216 160636)
      ((realgud (1 5 0)) (load-relative (1 3 1)) (emacs (25)))
@@ -3403,12 +3403,12 @@
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:commit . "2432d483a3ff63d3e80c8e8e23422f45cf87e971"))])
  (termint
-  . [(0 2 0 20251215 233408) ((emacs (29 1)))
+  . [(0 2 2 0 20260411 234846) ((emacs (29 1)))
      "Run REPLs in a terminal backend" tar
      ((:url . "https://github.com/milanglacier/termint.el")
       (:maintainer "Milan Glacier" . "dev@milanglacier.com")
       (:authors ("Milan Glacier" . "dev@milanglacier.com"))
-      (:commit . "d70d34745499d30490c7b31d014cb544ce086533"))])
+      (:commit . "689549245bb6dc0429d8af06c4830c92b09f4667"))])
  (test-simple
   . [(1 3 2 0 20260118 164127) ((emacs (24 4)) (compat (30 1 0 1)))
      "Simple Unit Test Framework for Emacs Lisp" tar
@@ -3815,13 +3815,13 @@
       (:authors ("Yuan Fu" . "casouri@gmail.com"))
       (:commit . "e0af8c5845abf884a644215a9cac37f39c13cd5a"))])
  (wcheck-mode
-  . [(2021 0 20260321 190237) nil
-     "General interface for text checkers" tar
+  . [(2026 0 20260412 44645) nil "General interface for text checkers"
+     tar
      ((:url . "https://github.com/tlikonen/wcheck-mode")
       (:keywords "text" "spell" "check" "languages" "ispell")
       (:maintainer "Teemu Likonen" . "tlikonen@iki.fi")
       (:authors ("Teemu Likonen" . "tlikonen@iki.fi"))
-      (:commit . "ead537cd31c18d7ef5a38eb5f4e6105a70a039e7"))])
+      (:commit . "5954340ec199c85d927f2f75e39cdcda452d7bd7"))])
  (wconf
   . [(0 2 1 0 20201202 220257) ((emacs (24 4)))
      "Minimal window layout manager" tar
