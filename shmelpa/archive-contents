@@ -1238,6 +1238,26 @@
 		      (:maintainers
 		       ("Artur Malabarba" . "emacs@endlessparentheses.com"))
 		      (:maintainer "Artur Malabarba" . "emacs@endlessparentheses.com"))])
+ (agitjo .
+	 [(0 1 0 1 -4 20260412 946)
+	  ((emacs
+	    (30 1))
+	   (magit
+	    (4 3 8))
+	   (markdown-mode
+	    (2 7))
+	   (transient
+	    (0 9 1)))
+	  "Manage Forgejo PRs with AGit-Flow" tar
+	  ((:url . "https://codeberg.org/halvin/agitjo")
+	   (:commit . "698b02d6cd3301e819c5a80f883fb06b38509c86")
+	   (:revdesc . "698b02d6cd33")
+	   (:keywords "convenience" "vc" "tools")
+	   (:authors
+	    ("Alvin Hsu" . "aurtzy@gmail.com"))
+	   (:maintainers
+	    ("Alvin Hsu" . "aurtzy@gmail.com"))
+	   (:maintainer "Alvin Hsu" . "aurtzy@gmail.com"))])
  (agtags .
 	 [(0 1 0 1 -4 20250523 1654)
 	  ((emacs
@@ -1301,7 +1321,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260412 214)
+	  [(0 1 0 1 -4 20260412 1616)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1310,8 +1330,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Copilot CLI, Claude Code, Gemini CLI, Opencode, Grok CLI, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "297188da3d4545679466d313e40eeac5f3e6a56e")
-	    (:revdesc . "297188da3d45")
+	    (:commit . "d6ed3eec0209d0bdb7fc9354195e40933b855384")
+	    (:revdesc . "d6ed3eec0209")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -4775,6 +4795,26 @@
 		(:maintainers
 		 (nil . "beluga-dev@cs.mcgill.ca"))
 		(:maintainer nil . "beluga-dev@cs.mcgill.ca"))])
+ (ben .
+      [(0 1 0 1 -4 20260405 1418)
+       ((emacs
+	 (29 1))
+	(inheritenv
+	 (0 1))
+	(seq
+	 (2 24)))
+       "Asynchronous buffer-local environments via `direnv'" tar
+       ((:url . "https://codeberg.org/pastor/ben.el")
+	(:commit . "d2e8b7f86465e1b3a4fedeae43ca0a333bb6a248")
+	(:revdesc . "d2e8b7f86465")
+	(:keywords "processes" "tools")
+	(:authors
+	 ("Steve Purcell" . "steve@sanityinc.com")
+	 ("Sergio Pastor Pérez" . "sergio.pastorperez@gmail.com"))
+	(:maintainers
+	 ("Steve Purcell" . "steve@sanityinc.com")
+	 ("Sergio Pastor Pérez" . "sergio.pastorperez@gmail.com"))
+	(:maintainer "Steve Purcell" . "steve@sanityinc.com"))])
  (benchmark-init .
 		 [(0 1 0 1 -4 20260108 1447)
 		  ((emacs
@@ -18788,7 +18828,7 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20260409 1748)
+      [(0 1 0 1 -4 20260412 1803)
        ((emacs
 	 (28 1))
 	(dash
@@ -18803,8 +18843,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "73d77d635e0cc6daecef879b32057a6008a724ee")
-	(:revdesc . "73d77d635e0c")
+	(:commit . "8e2c4296fd1ee8ca8bf73c77cebe39acb19cbdf1")
+	(:revdesc . "8e2c4296fd1e")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
