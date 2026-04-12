@@ -33885,7 +33885,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20260410 711)
+	[(0 1 0 1 -4 20260412 2009)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -33894,8 +33894,8 @@
 	   (30 1 0 0)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "8d6411b5f89d796c817ff79324973b8910e164fe")
-	  (:revdesc . "8d6411b5f89d")
+	  (:commit . "a964753863d1fdbaf05e21e1e90ad81addcd0d2a")
+	  (:revdesc . "a964753863d1")
 	  (:keywords "convenience" "tools")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -39343,13 +39343,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20260412 1535)
+	    [(0 1 0 1 -4 20260412 1936)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "ea60ab537b6842b2f96d01f08561b86bb5efa319")
-	      (:revdesc . "ea60ab537b68")
+	      (:commit . "b1005e74a364d825ab97928618ddc7b1c05cd66d")
+	      (:revdesc . "b1005e74a364")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -65474,6 +65474,22 @@
 	   (:maintainers
 	    ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
 	   (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))])
+ (popterm .
+	  [(0 1 0 1 -4 20260412 2036)
+	   ((emacs
+	     (29 1))
+	    (posframe
+	     (1 4 0)))
+	   "Posframe terminal toggler with smart backends" tar
+	   ((:url . "https://github.com/CsBigDataHub/popterm.el")
+	    (:commit . "a84598e42becacc78b270698838b6d5f6e1e3655")
+	    (:revdesc . "a84598e42bec")
+	    (:keywords "terminals" "convenience" "tools")
+	    (:authors
+	     ("Chetan Koneru" . "kchetan.hadoop@gmail.com"))
+	    (:maintainers
+	     ("Chetan Koneru" . "kchetan.hadoop@gmail.com"))
+	    (:maintainer "Chetan Koneru" . "kchetan.hadoop@gmail.com"))])
  (popup .
 	[(0 1 0 1 -4 20251231 1622)
 	 ((emacs
