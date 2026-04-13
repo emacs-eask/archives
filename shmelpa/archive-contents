@@ -18828,7 +18828,7 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20260412 2209)
+      [(0 1 0 1 -4 20260413 1314)
        ((emacs
 	 (28 1))
 	(dash
@@ -18843,8 +18843,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "f0d342e0ea1234707da6bca6c8f76be8a4ca3260")
-	(:revdesc . "f0d342e0ea12")
+	(:commit . "1286d768b7eafda0e0b6ad8e89b35e82329d8ca2")
+	(:revdesc . "1286d768b7ea")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
@@ -25678,12 +25678,16 @@
 	     ("Takafumi Arakaki" . "aka.tkfatgmail.com"))
 	    (:maintainer "Takafumi Arakaki" . "aka.tkfatgmail.com"))])
  (faff-theme .
-	     [(0 1 0 1 -4 20260409 1306)
-	      nil "Light Emacs color theme on cornsilk3 background" tar
+	     [(0 1 0 1 -4 20260413 1309)
+	      ((emacs
+		(28 1))
+	       (modus-themes
+		(5 0 0)))
+	      "Light cornsilk theme with warm, earthy colors" tar
 	      ((:url . "https://github.com/WJCFerguson/emacs-faff-theme")
-	       (:commit . "671a6f8350c75fd0b6c68d275db2fde705cb4ecd")
-	       (:revdesc . "671a6f8350c7")
-	       (:keywords "color" "theme")
+	       (:commit . "6aa1032159f4d6108add567f7f1270788e1dcec8")
+	       (:revdesc . "6aa1032159f4")
+	       (:keywords "faces" "theme")
 	       (:authors
 		("James Ferguson" . ""))
 	       (:maintainers
@@ -31591,13 +31595,13 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20260413 912)
+	  [(0 1 0 1 -4 20260413 1134)
 	   ((emacs
 	     (28 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "cee26014ffbe73bc1211f8f5960717d7e5a3f9fa")
-	    (:revdesc . "cee26014ffbe")
+	    (:commit . "36a1ad51c8e43c905936034c5e72a12ff3286144")
+	    (:revdesc . "36a1ad51c8e4")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -51490,13 +51494,13 @@
 		    ("Sidharth Arya" . "sidhartharya10@gmail.com"))
 		   (:maintainer "Sidharth Arya" . "sidhartharya10@gmail.com"))])
  (modus-themes .
-	       [(0 1 0 1 -4 20260413 545)
+	       [(0 1 0 1 -4 20260413 1233)
 		((emacs
 		  (28 1)))
 		"Elegant, highly legible and customizable themes" tar
 		((:url . "https://github.com/protesilaos/modus-themes")
-		 (:commit . "9e87779b5e1d1e5e4c5a838a04c1bb8a38e78df1")
-		 (:revdesc . "9e87779b5e1d")
+		 (:commit . "657fd6f92d768f5b6da90f55b47b0d9e02467edb")
+		 (:revdesc . "657fd6f92d76")
 		 (:keywords "faces" "theme" "accessibility")
 		 (:authors
 		  ("Protesilaos Stavrou" . "info@protesilaos.com"))
@@ -58318,15 +58322,15 @@
 	      ("Matthew Carter" . "m@ahungry.com"))
 	     (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (org-journal .
-	      [(0 1 0 1 -4 20250525 951)
+	      [(0 1 0 1 -4 20260413 1401)
 	       ((emacs
 		 (26 1))
 		(org
 		 (9 1)))
 	       "A simple org-mode based journaling mode" tar
 	       ((:url . "https://github.com/bastibe/org-journal")
-		(:commit . "8b9b46f988ed69baee0b3db4fde9ee5827587b1e")
-		(:revdesc . "8b9b46f988ed"))])
+		(:commit . "6460f6f2b0835b4b8aa87d5fdf40cac7deb319f5")
+		(:revdesc . "6460f6f2b083"))])
  (org-journal-list .
 		   [(1 0 1 -4 20190221 2052)
 		    ((emacs
@@ -59954,13 +59958,13 @@
 			("Akira Komamura" . "akira.komamura@gmail.com"))
 		       (:maintainer "Akira Komamura" . "akira.komamura@gmail.com"))])
  (org-static-blog .
-		  [(0 1 0 1 -4 20260412 1353)
+		  [(0 1 0 1 -4 20260413 1402)
 		   ((emacs
 		     (24 3)))
 		   "A simple org-mode based static blog generator" tar
 		   ((:url . "https://github.com/bastibe/org-static-blog")
-		    (:commit . "9b935947aee70cec2920e7645c0858e629459caa")
-		    (:revdesc . "9b935947aee7"))])
+		    (:commit . "353fcde0aa27ce11c3513fb4d25ac49fb0b9c57d")
+		    (:revdesc . "353fcde0aa27"))])
  (org-sticky-header .
 		    [(1 1 1 -4 20201223 143)
 		     ((emacs
@@ -71161,13 +71165,13 @@
 		   ("Rotem Yaari" . "rotemy@MBP.local"))
 		  (:maintainer "Rotem Yaari" . "rotemy@MBP.local"))])
  (rust-mode .
-	    [(0 1 0 1 -4 20260227 539)
+	    [(0 1 0 1 -4 20260413 1311)
 	     ((emacs
 	       (25 1)))
 	     "A major-mode for editing Rust source code" tar
 	     ((:url . "https://github.com/rust-lang/rust-mode")
-	      (:commit . "668069ad8b6ca20bd0d2334db1c0d046809affd6")
-	      (:revdesc . "668069ad8b6c")
+	      (:commit . "6482f5601e807fa61cee6a09a18a7e9152c394f3")
+	      (:revdesc . "6482f5601e80")
 	      (:keywords "languages")
 	      (:authors
 	       ("Mozilla" . "rust-mode@noreply.github.com"))
@@ -80950,13 +80954,13 @@
 		    ("Martin Edström" . "meedstrom91@gmail.com"))
 		   (:maintainer "Martin Edström" . "meedstrom91@gmail.com"))])
  (trust-manager .
-		[(0 1 0 1 -4 20260410 755)
+		[(0 1 0 1 -4 20260413 832)
 		 ((emacs
 		   (30 1)))
 		 "Convenient trust management" tar
 		 ((:url . "https://git.sr.ht/~eshel/trust-manager")
-		  (:commit . "91b4149fdda86ac60771f2c131bf2a4741fe79b7")
-		  (:revdesc . "91b4149fdda8")
+		  (:commit . "e7c15a070ddec6f6003df9812452a6fa7ab7685d")
+		  (:revdesc . "e7c15a070dde")
 		  (:keywords "security" "trust" "files")
 		  (:authors
 		   ("Eshel Yaron" . "me@eshelyaron.com"))
