@@ -1198,6 +1198,22 @@
 	   (:maintainers
 	    ("Tomasz Maciosowski" . "t4ccer@gmail.com"))
 	   (:maintainer "Tomasz Maciosowski" . "t4ccer@gmail.com"))])
+ (agent-recall .
+	       [(0 1 0 1 -4 20260413 1152)
+		((emacs
+		  (29 1))
+		 (agent-shell
+		  (0 1 0)))
+		"Search and browse agent-shell conversation transcripts" tar
+		((:url . "https://github.com/Marx-A00/agent-recall")
+		 (:commit . "8ce11939831d9f2cd44a7669a576323bc9683ced")
+		 (:revdesc . "8ce11939831d")
+		 (:keywords "tools" "convenience" "ai")
+		 (:authors
+		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
+		 (:maintainers
+		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
+		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
 	      [(0 1 0 1 -4 20260408 1635)
 	       ((emacs
@@ -7182,15 +7198,15 @@
 	    (:revdesc . "d6882e15f47f")
 	    (:keywords "convenience" "writing"))])
  (cape .
-       [(0 1 0 1 -4 20260311 1654)
+       [(0 1 0 1 -4 20260419 1833)
 	((emacs
 	  (29 1))
 	 (compat
 	  (30)))
 	"Completion At Point Extensions" tar
 	((:url . "https://github.com/minad/cape")
-	 (:commit . "a326a0575fe5ca574f6607557dbb8bd6ce83dbbd")
-	 (:revdesc . "a326a0575fe5")
+	 (:commit . "30372e41e8f8e92557ee9fd965d64b8fee8dc357")
+	 (:revdesc . "30372e41e8f8")
 	 (:keywords "abbrev" "convenience" "matching" "completion" "text")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -8675,6 +8691,24 @@
 		(:maintainers
 		 ("Ashton Wiersdorf" . "https://lambdaland.org/"))
 		(:maintainer "Ashton Wiersdorf" . "https://lambdaland.org/"))])
+ (citar-vulpea .
+	       [(0 1 0 1 -4 20260414 1628)
+		((emacs
+		  (27 2))
+		 (citar
+		  (1 4))
+		 (vulpea
+		  (2 0)))
+		"Minor mode integrating Citar and Vulpea" tar
+		((:url . "https://github.com/fabcontigiani/citar-vulpea")
+		 (:commit . "44ee8c1366687213afdeca20b1889cdcd822237a")
+		 (:revdesc . "44ee8c136668")
+		 (:keywords "bib" "notes" "vulpea")
+		 (:authors
+		  ("Fabrizio Contigiani" . "fabcontigiani@gmail.com"))
+		 (:maintainers
+		  ("Fabrizio Contigiani" . "fabcontigiani@gmail.com"))
+		 (:maintainer "Fabrizio Contigiani" . "fabcontigiani@gmail.com"))])
  (citeproc .
 	   [(0 1 0 1 -4 20260113 1047)
 	    ((emacs
@@ -10073,6 +10107,20 @@
 	  (:maintainers
 	   ("Sergey Kostyaev" . "feo.me@ya.ru"))
 	  (:maintainer "Sergey Kostyaev" . "feo.me@ya.ru"))])
+ (comet-trail .
+	      [(0 1 0 1 -4 20260413 747)
+	       ((emacs
+		 (29 1)))
+	       "Cursor comet trail effect" tar
+	       ((:url . "https://git.andros.dev/andros/comet-trail.el")
+		(:commit . "6bb17b3672d421f2456bf69f76138ef5b0f48647")
+		(:revdesc . "6bb17b3672d4")
+		(:keywords "faces" "convenience")
+		(:authors
+		 ("Andros Fenollosa" . "hi@andros.dev"))
+		(:maintainers
+		 ("Andros Fenollosa" . "hi@andros.dev"))
+		(:maintainer "Andros Fenollosa" . "hi@andros.dev"))])
  (comint-histories .
 		   [(0 1 0 1 -4 20260330 1650)
 		    ((emacs
@@ -12667,15 +12715,15 @@
 		   ("Junyoung Clare Jang" . "jjc9310@gmail.com"))
 		  (:maintainer "Junyoung Clare Jang" . "jjc9310@gmail.com"))])
  (corfu .
-	[(0 1 0 1 -4 20260309 1551)
+	[(0 1 0 1 -4 20260419 1808)
 	 ((emacs
 	   (29 1))
 	  (compat
 	   (30)))
 	 "COmpletion in Region FUnction" tar
 	 ((:url . "https://github.com/minad/corfu")
-	  (:commit . "d2a995c5c732d0fc439efe09440870a9de779a74")
-	  (:revdesc . "d2a995c5c732")
+	  (:commit . "1466f6f7effc0a783c8acda66471be0db11f789a")
+	  (:revdesc . "1466f6f7effc")
 	  (:keywords "abbrev" "convenience" "matching" "completion" "text")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -20790,6 +20838,22 @@
 		    (:maintainers
 		     ("Steve Purcell" . "steve@sanityinc.com"))
 		    (:maintainer "Steve Purcell" . "steve@sanityinc.com"))])
+ (elixir-iex .
+	     [(0 1 0 1 -4 20260412 1946)
+	      ((emacs
+		(29 1))
+	       (eat
+		(0 9)))
+	      "IEx REPL via eat terminal emulator" tar
+	      ((:url . "https://github.com/mojochao/elixir-iex")
+	       (:commit . "a82808ebb91b9668329459e808a75552d698433d")
+	       (:revdesc . "a82808ebb91b")
+	       (:keywords "elixir" "languages" "processes" "tools")
+	       (:authors
+		("Allen Gooch" . "allen.gooch@gmail.com"))
+	       (:maintainers
+		("Allen Gooch" . "allen.gooch@gmail.com"))
+	       (:maintainer "Allen Gooch" . "allen.gooch@gmail.com"))])
  (elixir-mode .
 	      [(2 5 0 1 -4 20230626 1738)
 	       ((emacs
@@ -31609,13 +31673,13 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20260419 938)
+	  [(0 1 0 1 -4 20260419 1804)
 	   ((emacs
 	     (28 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "17fc7919f37c473a819589403a91a05d50f0cb1a")
-	    (:revdesc . "17fc7919f37c")
+	    (:commit . "ef157c0d8570832cc04e0bc0e8ed25ec922f42e4")
+	    (:revdesc . "ef157c0d8570")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -33280,6 +33344,20 @@
 		      (:maintainers
 		       ("KOBAYASHI Shigeru" . "shigeru.kb@gmail.com"))
 		      (:maintainer "KOBAYASHI Shigeru" . "shigeru.kb@gmail.com"))])
+ (go-prettify-mode .
+		   [(0 1 0 1 -4 20260413 1532)
+		    ((emacs
+		      (28 1)))
+		    "Hide `if err != nil' and prettify them" tar
+		    ((:url . "https://codeberg.org/snyssfx/go-prettify-mode.el")
+		     (:commit . "0e946afe12d8eb51a38315ec35eac6d4f15a8931")
+		     (:revdesc . "0e946afe12d8")
+		     (:keywords "languages" "go" "tools")
+		     (:authors
+		      ("Gleb Zakharov" . "snyssfx@posteo.net"))
+		     (:maintainers
+		      ("Gleb Zakharov" . "snyssfx@posteo.net"))
+		     (:maintainer "Gleb Zakharov" . "snyssfx@posteo.net"))])
  (go-projectile .
 		[(0 2 1 1 -4 20200609 131)
 		 ((projectile
@@ -38269,6 +38347,20 @@
 		 (:maintainers
 		  ("Sebastian Meisel" . "sebastian.meisel@gmail.com"))
 		 (:maintainer "Sebastian Meisel" . "sebastian.meisel@gmail.com"))])
+ (hidepass .
+	   [(0 1 0 1 -4 20260415 1941)
+	    ((emacs
+	      (27 2)))
+	    "Hide passwords at one or multiple lines" tar
+	    ((:url . "https://codeberg.org/Anoncheg/emacs-hidepass")
+	     (:commit . "0cdc0d7910501d91d5d75ae53a42726d3fca0302")
+	     (:revdesc . "0cdc0d791050")
+	     (:keywords "hide" "hidden" "password" "faces")
+	     (:authors
+	      (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
+	     (:maintainers
+	      (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
+	     (:maintainer nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))])
  (hidepw .
 	 [(0 3 0 1 -4 20200326 112)
 	  nil "Minor mode to hide passwords" tar
