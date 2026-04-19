@@ -7198,15 +7198,15 @@
 	    (:revdesc . "d6882e15f47f")
 	    (:keywords "convenience" "writing"))])
  (cape .
-       [(0 1 0 1 -4 20260419 1833)
+       [(0 1 0 1 -4 20260419 1847)
 	((emacs
 	  (29 1))
 	 (compat
 	  (30)))
 	"Completion At Point Extensions" tar
 	((:url . "https://github.com/minad/cape")
-	 (:commit . "30372e41e8f8e92557ee9fd965d64b8fee8dc357")
-	 (:revdesc . "30372e41e8f8")
+	 (:commit . "2e15e1909754752f66096dde1b8d639d6eb25f35")
+	 (:revdesc . "2e15e1909754")
 	 (:keywords "abbrev" "convenience" "matching" "completion" "text")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -33981,7 +33981,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20260418 827)
+	[(0 1 0 1 -4 20260419 2134)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -33990,8 +33990,8 @@
 	   (30 1 0 0)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "e49685d95b8f729cc9c585aa07c3c237a5f81790")
-	  (:revdesc . "e49685d95b8f")
+	  (:commit . "78be04bc393468b9a3284c1887e3a4acae46f851")
+	  (:revdesc . "78be04bc3934")
 	  (:keywords "convenience" "tools")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -39282,6 +39282,20 @@
 		     (:commit . "f53697fca278c741051aeb668b00466b5e0fd3fe")
 		     (:revdesc . "f53697fca278")
 		     (:keywords "comm" "data" "processes" "hypermedia"))])
+ (http-server .
+	      [(0 1 0 1 -4 20260419 1924)
+	       ((emacs
+		 (30 1)))
+	       "Speaks HTTP for you" tar
+	       ((:url . "https://codeberg.org/martenlienen/http-server.el")
+		(:commit . "973c87b418e59404dcdfe823254e5094adf290f7")
+		(:revdesc . "973c87b418e5")
+		(:keywords "comm")
+		(:authors
+		 ("Marten Lienen" . "ml@martenlienen.com"))
+		(:maintainers
+		 ("Marten Lienen" . "ml@martenlienen.com"))
+		(:maintainer "Marten Lienen" . "ml@martenlienen.com"))])
  (http-twiddle .
 	       [(1 0 1 -4 20221203 1351)
 		nil "Send & twiddle & resend HTTP requests" tar
@@ -61919,7 +61933,7 @@
 			("Quang Linh LE" . "linktohack@gmail.com"))
 		       (:maintainer "Quang Linh LE" . "linktohack@gmail.com"))])
  (ox-leanpub .
-	     [(0 1 0 1 -4 20251028 957)
+	     [(0 1 0 1 -4 20260419 2104)
 	      ((org
 		(9 1))
 	       (ox-gfm
@@ -61930,8 +61944,8 @@
 		(1 12 0)))
 	      "Export Org documents to Leanpub book format" tar
 	      ((:url . "https://gitlab.com/zzamboni/ox-leanpub")
-	       (:commit . "c1550a1f828afeee909850f51d7a0219a261e280")
-	       (:revdesc . "c1550a1f828a")
+	       (:commit . "cfd521786c281ad7fa38212016226af80e163329")
+	       (:revdesc . "cfd521786c28")
 	       (:keywords "files" "org" "leanpub")
 	       (:authors
 		("Diego Zamboni" . "diego@zzamboni.org"))
@@ -70701,6 +70715,20 @@
 		 ("Tad Lispy" . "tadeusz@lazurski.pl")
 		 ("Ajai Khatri Nelson" . "emacs@ajai.dev"))
 		(:maintainer "Tad Lispy" . "tadeusz@lazurski.pl"))])
+ (rocq-timing .
+	      [(0 1 0 1 -4 20260417 1401)
+	       ((emacs
+		 (24)))
+	       "Display timing of rocq commands in buffer" tar
+	       ((:url . "https://github.com/Chobbes/rocq-timing-el")
+		(:commit . "5423ac37dc6a6abff74e59ac299b57746462bd02")
+		(:revdesc . "5423ac37dc6a")
+		(:keywords "convenience" "tools" "rocq" "coq" "proofs" "profiling")
+		(:authors
+		 ("Calvin Beck" . "hobbes@ualberta.ca"))
+		(:maintainers
+		 ("Calvin Beck" . "hobbes@ualberta.ca"))
+		(:maintainer "Calvin Beck" . "hobbes@ualberta.ca"))])
  (roguel-ike .
 	     [(0 1 0 1 -4 20241228 929)
 	      ((popup
@@ -80720,15 +80748,15 @@
 			("Erick Navarro" . "erick@navarro.io"))
 		       (:maintainer "Erick Navarro" . "erick@navarro.io"))])
  (tree-sitter-langs .
-		    [(0 1 0 1 -4 20260413 1049)
+		    [(0 1 0 1 -4 20260419 1842)
 		     ((emacs
 		       (26 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
 		     ((:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs")
-		      (:commit . "2e9645f60ac0d3820f98b5b761e5f7d09349b8e5")
-		      (:revdesc . "2e9645f60ac0")
+		      (:commit . "c9d46871ed6e7ab7f2558d9cb522d9fef678979d")
+		      (:revdesc . "c9d46871ed6e")
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
