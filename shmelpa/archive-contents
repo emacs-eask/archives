@@ -1337,7 +1337,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260420 1644)
+	  [(0 1 0 1 -4 20260421 136)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1346,8 +1346,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Copilot CLI, Claude Code, Gemini CLI, Opencode, Grok CLI, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "88ce4d626342ec3c0b3dc34bcd632b79274c50cf")
-	    (:revdesc . "88ce4d626342")
+	    (:commit . "00cb40c1805a08ded9751c6e0e9bdce0ec4e0fd7")
+	    (:revdesc . "00cb40c1805a")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -7792,7 +7792,7 @@
 	       ("Andrew Myers" . "am2605@gmail.com"))
 	      (:maintainer "Andrew Myers" . "am2605@gmail.com"))])
  (cfn-mode .
-	   [(0 1 0 1 -4 20260412 807)
+	   [(0 1 0 1 -4 20260419 807)
 	    ((emacs
 	      (27 0))
 	     (f
@@ -7803,8 +7803,8 @@
 	      (0 0 13)))
 	    "AWS cloudformation mode" tar
 	    ((:url . "https://gitlab.com/worr/cfn-mode")
-	     (:commit . "7ed737240b25b03fd5b7eb05d5f3b2e8a21a2de3")
-	     (:revdesc . "7ed737240b25")
+	     (:commit . "2813707d1f2c98562fa873624abc79ce49db969c")
+	     (:revdesc . "2813707d1f2c")
 	     (:keywords "convenience" "languages" "tools")
 	     (:authors
 	      ("William Orr" . "will@worrbase.com"))
@@ -25832,13 +25832,13 @@
 		   ("Joel Rosdahl" . "joel@rosdahl.net"))
 		  (:maintainer "Joel Rosdahl" . "joel@rosdahl.net"))])
  (fancy-fill-paragraph .
-		       [(0 1 0 1 -4 20260331 646)
+		       [(0 1 0 1 -4 20260421 124)
 			((emacs
 			  (29 1)))
 			"Fancy paragraph fill" tar
 			((:url . "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
-			 (:commit . "9f409bf7838d5aa06fc7c5ba7d2aef1fb32cabc2")
-			 (:revdesc . "9f409bf7838d")
+			 (:commit . "3f3e8fddc4f69c7c0ff933af58e8c3a71292a7cb")
+			 (:revdesc . "3f3e8fddc4f6")
 			 (:keywords "convenience")
 			 (:authors
 			  ("Campbell Barton" . "ideasman42@gmail.com"))
@@ -70901,13 +70901,15 @@
 			(:revdesc . "17f3a0a966a7")
 			(:keywords "color" "theme" "faces"))])
  (rpm-spec-mode .
-		[(0 1 0 1 -4 20250329 139)
+		[(0 1 0 1 -4 20260420 2254)
 		 ((emacs
-		   (27 1)))
+		   (27 1))
+		  (compat
+		   (29 1 4 5)))
 		 "RPM spec mode for Emacs/XEmacs" tar
 		 ((:url . "https://github.com/Thaodan/rpm-spec-mode/")
-		  (:commit . "8cd329b78c7bc6285b7b9f2c65a58a9e778a59ca")
-		  (:revdesc . "8cd329b78c7b")
+		  (:commit . "7f146a282fe1b4567cc565ba66663d9ec851556a")
+		  (:revdesc . "7f146a282fe1")
 		  (:keywords "unix" "languages" "rpm")
 		  (:authors
 		   (nil . "stig@bjorlykke.org")
