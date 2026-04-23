@@ -18890,7 +18890,7 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20260423 1339)
+      [(0 1 0 1 -4 20260423 1754)
        ((emacs
 	 (28 1))
 	(dash
@@ -18905,8 +18905,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "89b51ccd91e91f441c80ac53724be76e42a20d9d")
-	(:revdesc . "89b51ccd91e9")
+	(:commit . "bd5a72aef67eca944a7ad0d9916eb0d0f0f11f9d")
+	(:revdesc . "bd5a72aef67e")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
@@ -25258,13 +25258,13 @@
 		    ("Arteen Abrishami" . "arteen@ucla.edu"))
 		   (:maintainer "Arteen Abrishami" . "arteen@ucla.edu"))])
  (exec-path-from-shell .
-		       [(0 1 0 1 -4 20260422 1103)
+		       [(0 1 0 1 -4 20260423 1833)
 			((emacs
-			  (24 4)))
+			  (26 1)))
 			"Get environment variables such as $PATH from the shell" tar
 			((:url . "https://github.com/purcell/exec-path-from-shell")
-			 (:commit . "8bfe70cf687e0449883bdf07ab5d6b95b497abd2")
-			 (:revdesc . "8bfe70cf687e")
+			 (:commit . "dae820da35ad46234cbca31626ffb6da7928694a")
+			 (:revdesc . "dae820da35ad")
 			 (:keywords "unix" "environment")
 			 (:authors
 			  ("Steve Purcell" . "steve@sanityinc.com"))
@@ -30161,7 +30161,7 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20260421 2150)
+	[(0 1 0 1 -4 20260423 1757)
 	 ((emacs
 	   (29 1))
 	  (compat
@@ -30188,8 +30188,8 @@
 	   (1 2)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "5f7970fff720d66bac8ea336b5bd6db8c6945c93")
-	  (:revdesc . "5f7970fff720")
+	  (:commit . "3eff1dab171602db9d1b7cfb0e6e7014eac73665")
+	  (:revdesc . "3eff1dab1716")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -31673,13 +31673,13 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20260423 1530)
+	  [(0 1 0 1 -4 20260423 1642)
 	   ((emacs
 	     (28 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "7c3fa5bd758b2037c0932589d8b4dafa328015fe")
-	    (:revdesc . "7c3fa5bd758b")
+	    (:commit . "d33052d6f779e9b2c2c64b11e4b9c11c19f0e706")
+	    (:revdesc . "d33052d6f779")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -31705,7 +31705,7 @@
 	 ("Joseph LaFreniere" . "joseph@lafreniere.xyz"))
 	(:maintainer "Joseph LaFreniere" . "joseph@lafreniere.xyz"))])
  (ghub .
-       [(0 1 0 1 -4 20260401 1239)
+       [(0 1 0 1 -4 20260423 1634)
 	((emacs
 	  (29 1))
 	 (compat
@@ -31718,8 +31718,8 @@
 	  (0 1 3)))
 	"Client libraries for Git forge APIs" tar
 	((:url . "https://github.com/magit/ghub")
-	 (:commit . "1fb0fba075cb8b80f9819c874be584dffce50b51")
-	 (:revdesc . "1fb0fba075cb")
+	 (:commit . "2b6df7c3f958e64c47151d7d6ef45de38e614936")
+	 (:revdesc . "2b6df7c3f958")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
@@ -54117,13 +54117,13 @@
 		 ("Sven Keidel" . "svenkeidel@gmail.com"))
 		(:maintainer "Sven Keidel" . "svenkeidel@gmail.com"))])
  (nix-ts-mode .
-	      [(0 1 0 1 -4 20260215 1421)
+	      [(0 1 0 1 -4 20260423 1718)
 	       ((emacs
 		 (29 1)))
 	       "Major mode for Nix expressions, powered by tree-sitter" tar
 	       ((:url . "https://github.com/nix-community/nix-ts-mode")
-		(:commit . "319831712125e8c9e4f14b66def518d7a633685c")
-		(:revdesc . "319831712125")
+		(:commit . "50916188784786ed201a8edc70a5264eefb525e3")
+		(:revdesc . "509161887847")
 		(:keywords "nix" "languages" "tree-sitter")
 		(:maintainers
 		 ("Remi Gelinas" . "mail@remigelin.as"))
@@ -58620,13 +58620,13 @@
 		   ("Per Weijnitz" . "per.weijnitz@gmail.com"))
 		  (:maintainer "Per Weijnitz" . "per.weijnitz@gmail.com"))])
  (org-links .
-	    [(0 1 0 1 -4 20260329 1731)
+	    [(0 1 0 1 -4 20260423 1949)
 	     ((emacs
 	       (27 2)))
 	     "Better manage line numbers in links of Org mode" tar
 	     ((:url . "https://github.com/Anoncheg1/emacs-org-links")
-	      (:commit . "2de5fe6f9616556b0aa0d584930673763430ade9")
-	      (:revdesc . "2de5fe6f9616")
+	      (:commit . "cd2e9c074576e44469d84b5827933a035cf493c5")
+	      (:revdesc . "cd2e9c074576")
 	      (:keywords "org" "text" "hypermedia" "url")
 	      (:authors
 	       (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
@@ -78213,13 +78213,13 @@
 		  ("Anton Hibl" . "antonhibl11@gmail.com"))
 		 (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (taskjuggler-mode .
-		   [(0 1 0 1 -4 20260423 12)
+		   [(0 1 0 1 -4 20260423 1854)
 		    ((emacs
 		      (27 1)))
 		    "Major mode for TaskJuggler project files" tar
 		    ((:url . "https://github.com/devrintalen/taskjuggler-mode.el")
-		     (:commit . "9a43c9dcf36b52d302d41aeaf6ad62aa6776a966")
-		     (:revdesc . "9a43c9dcf36b")
+		     (:commit . "49d3cdf2dbf4c27e037bb4c96bb0cc6d2e000fab")
+		     (:revdesc . "49d3cdf2dbf4")
 		     (:keywords "languages" "project-management")
 		     (:authors
 		      ("Devrin Talen" . "devrin@fastmail.com"))
