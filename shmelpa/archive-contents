@@ -24156,6 +24156,23 @@
 		     (:maintainers
 		      ("Andrew Smith" . "andy.bill.smith@gmail.com"))
 		     (:maintainer "Andrew Smith" . "andy.bill.smith@gmail.com"))])
+ (evil-ghostel .
+	       [(0 1 0 1 -4 20260425 1212)
+		((emacs
+		  (28 1))
+		 (evil
+		  (1 0))
+		 (ghostel
+		  (0 8 0)))
+		"Evil-mode integration for ghostel" tar
+		((:url . "https://github.com/dakra/ghostel")
+		 (:commit . "3c61db63eec06334869258905a86d1fb8af5c507")
+		 (:revdesc . "3c61db63eec0")
+		 (:authors
+		  ("Daniel Kraus" . "daniel@kraus.my"))
+		 (:maintainers
+		  ("Daniel Kraus" . "daniel@kraus.my"))
+		 (:maintainer "Daniel Kraus" . "daniel@kraus.my"))])
  (evil-god-state .
 		 [(0 1 1 -4 20141117 255)
 		  ((evil
@@ -30847,7 +30864,7 @@
 	  ("Natalie Weizenbaum" . "nweiz@google.com"))
 	 (:maintainer "Natalie Weizenbaum" . "nweiz@google.com"))])
  (fussy .
-	[(0 1 0 1 -4 20260425 1808)
+	[(0 1 0 1 -4 20260426 1741)
 	 ((emacs
 	   (28 2))
 	  (flx
@@ -30856,8 +30873,8 @@
 	   (30 0 0 0)))
 	 "Fuzzy completion style using `flx' and/or `fzf-native'" tar
 	 ((:url . "https://github.com/jojojames/fussy")
-	  (:commit . "02170f7343dcc6e6390fbb076620f64a7847ab72")
-	  (:revdesc . "02170f7343dc")
+	  (:commit . "d5a4c66fd6b92184411b8be61cfa2f14b905f9e6")
+	  (:revdesc . "d5a4c66fd6b9")
 	  (:keywords "matching")
 	  (:authors
 	   ("James Nguyen" . "james@jojojames.com"))
@@ -31174,15 +31191,15 @@
 	     (:revdesc . "ce2738aebeed")
 	     (:keywords "evernote" "geeknote" "note" "emacs-evernote" "evernote-mode"))])
  (geiser .
-	 [(0 1 0 1 -4 20260426 16)
+	 [(0 1 0 1 -4 20260426 1726)
 	  ((emacs
 	    (27 1))
 	   (project
 	    (0 8 1)))
 	  "GNU Emacs and Scheme talk to each other" tar
 	  ((:url . "https://gitlab.com/emacs-geiser/")
-	   (:commit . "2e9d5e04e7ddf2727555c74c468bd009ecbdbd92")
-	   (:revdesc . "2e9d5e04e7dd")
+	   (:commit . "df9a3d3d8ae10417294c076d5804643441a1efca")
+	   (:revdesc . "df9a3d3d8ae1")
 	   (:keywords "languages" "scheme" "geiser")
 	   (:authors
 	    ("Jose Antonio Ortega Ruiz" . "(jao@gnu.org)"))
@@ -33983,7 +34000,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20260426 724)
+	[(0 1 0 1 -4 20260426 1739)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -33992,8 +34009,8 @@
 	   (30 1 0 0)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "ecdf179b0bdcf0f9e74fe8fb1d9bc2d457adf844")
-	  (:revdesc . "ecdf179b0bdc")
+	  (:commit . "260bc5980535be6e3b83efb1b82c75cf1ba47d65")
+	  (:revdesc . "260bc5980535")
 	  (:keywords "convenience" "tools")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -51191,7 +51208,7 @@
 	       ("jgart" . "jgart@dismail.de"))
 	      (:maintainer "jgart" . "jgart@dismail.de"))])
  (minuet .
-	 [(0 1 0 1 -4 20260424 430)
+	 [(0 1 0 1 -4 20260426 1802)
 	  ((emacs
 	    (29))
 	   (plz
@@ -51200,8 +51217,8 @@
 	    (2 19 1)))
 	  "Code completion using LLM" tar
 	  ((:url . "https://github.com/milanglacier/minuet-ai.el")
-	   (:commit . "36049820ca987c79c87cc4d9f21d16ca23ff8ebb")
-	   (:revdesc . "36049820ca98")
+	   (:commit . "d2f30624298f11edbae55c36f067bb44abae4785")
+	   (:revdesc . "d2f30624298f")
 	   (:authors
 	    ("Milan Glacier" . "dev@milanglacier.com"))
 	   (:maintainers
@@ -58533,6 +58550,20 @@
 	       (:commit . "fadcfd62e254d0c45e87d63128a82a08ae21869a")
 	       (:revdesc . "fadcfd62e254")
 	       (:keywords "org" "link" "ebook" "kindle" "epub" "azw3" "mobi"))])
+ (org-lark .
+	   [(0 1 0 1 -4 20260426 1029)
+	    ((emacs
+	      (27 1)))
+	    "Export Lark docs to Org" tar
+	    ((:url . "https://github.com/bbw9n/org-lark")
+	     (:commit . "9466add7b0076351864f676013e4cfd126acdd7b")
+	     (:revdesc . "9466add7b007")
+	     (:keywords "outlines" "hypermedia" "tools")
+	     (:authors
+	      ("bbw9n" . "bbw9nio@gmail.com"))
+	     (:maintainers
+	      ("bbw9n" . "bbw9nio@gmail.com"))
+	     (:maintainer "bbw9n" . "bbw9nio@gmail.com"))])
  (org-latex-impatient .
 		      [(0 1 0 1 -4 20221111 623)
 		       ((emacs
