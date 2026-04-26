@@ -66626,15 +66626,15 @@
 		     (:commit . "36bec1109ba0498c2d1ef29756c841d2e23b063e")
 		     (:revdesc . "36bec1109ba0"))])
  (projectile .
-	     [(0 1 0 1 -4 20260426 657)
+	     [(0 1 0 1 -4 20260426 1134)
 	      ((emacs
 		(27 1))
 	       (compat
 		(30)))
 	      "Manage and navigate projects in Emacs easily" tar
 	      ((:url . "https://github.com/bbatsov/projectile")
-	       (:commit . "80d858dbb91368772c2fee659ae27b3094e06eec")
-	       (:revdesc . "80d858dbb913")
+	       (:commit . "67c18e26fe68552a273b7794451ce757cc3afe9a")
+	       (:revdesc . "67c18e26fe68")
 	       (:keywords "project" "convenience")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -73691,13 +73691,14 @@
 		      ("Joe Bloggs" . "vapniks@yahoo.com"))
 		     (:maintainer "Joe Bloggs" . "vapniks@yahoo.com"))])
  (simple-httpd .
-	       [(1 5 1 1 -4 20230821 1458)
-		((cl-lib
-		  (0 3)))
-		"Pure elisp HTTP server" tar
+	       [(0 1 0 1 -4 20260426 1308)
+		((emacs
+		  (27 1)))
+		"Pure Elisp HTTP server" tar
 		((:url . "https://github.com/skeeto/emacs-http-server")
-		 (:commit . "347c30494d3bcfc79de35e54538f92f4e4a46ecd")
-		 (:revdesc . "347c30494d3b")
+		 (:commit . "c1bbb52f15a7129f511cec006da1045fc23229ac")
+		 (:revdesc . "c1bbb52f15a7")
+		 (:keywords "network" "comm")
 		 (:authors
 		  ("Christopher Wellons" . "wellons@nullprogram.com"))
 		 (:maintainers
@@ -81151,13 +81152,13 @@
 		    ("Martin Edström" . "meedstrom91@gmail.com"))
 		   (:maintainer "Martin Edström" . "meedstrom91@gmail.com"))])
  (trust-manager .
-		[(0 1 0 1 -4 20260422 952)
+		[(0 1 0 1 -4 20260426 1205)
 		 ((emacs
 		   (30 1)))
 		 "Convenient trust management" tar
 		 ((:url . "https://git.sr.ht/~eshel/trust-manager")
-		  (:commit . "3a702921eaa65ce8de552e88f6280786a645252d")
-		  (:revdesc . "3a702921eaa6")
+		  (:commit . "530c559ffa01b99ced8073ba4c74f1b8152a0ef2")
+		  (:revdesc . "530c559ffa01")
 		  (:keywords "security" "trust" "files")
 		  (:authors
 		   ("Eshel Yaron" . "me@eshelyaron.com"))
@@ -86700,15 +86701,17 @@
 		     ("Davide Mastromatteo" . "mastro35@gmail.com"))
 		    (:maintainer "Davide Mastromatteo" . "mastro35@gmail.com"))])
  (yeetube .
-	  [(0 1 0 1 -4 20260425 2149)
+	  [(0 1 0 1 -4 20260426 1325)
 	   ((emacs
 	     (29 1))
 	    (compat
-	     (29 1 4 2)))
+	     (29 1 4 2))
+	    (keymap-popup
+	     (0 1 0)))
 	   "Scrape YouTube, Play with mpv & Download with yt-dlp" tar
 	   ((:url . "https://thanosapollo.org/projects/yeetube/")
-	    (:commit . "0a4495ef3a6a354d20ba1c980841f6bc79c6bc22")
-	    (:revdesc . "0a4495ef3a6a")
+	    (:commit . "cdb3a3069eb7c1e5373fd7171743ad329d49ba5f")
+	    (:revdesc . "cdb3a3069eb7")
 	    (:keywords "extensions" "youtube" "videos")
 	    (:authors
 	     ("Thanos Apollo" . "public@thanosapollo.org"))
