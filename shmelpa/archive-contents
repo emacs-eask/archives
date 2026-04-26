@@ -52206,6 +52206,22 @@
 	    (:maintainers
 	     ("Daisuke Kobayashi" . "d5884jp@gmail.com"))
 	    (:maintainer "Daisuke Kobayashi" . "d5884jp@gmail.com"))])
+ (mozc-modeless .
+		[(0 1 0 1 -4 20260423 1309)
+		 ((emacs
+		   (29 0))
+		  (mozc
+		   (1 0)))
+		 "Modeless Japanese input with Mozc" tar
+		 ((:url . "https://github.com/kiyoka/mozc-modeless-emacs")
+		  (:commit . "b5d246fd8f5ba3051808da82b2148a116b312ae7")
+		  (:revdesc . "b5d246fd8f5b")
+		  (:keywords "i18n" "input-method")
+		  (:authors
+		   ("Kiyoka Nishiyama" . "kiyokap@gmail.com"))
+		  (:maintainers
+		   ("Kiyoka Nishiyama" . "kiyokap@gmail.com"))
+		  (:maintainer "Kiyoka Nishiyama" . "kiyokap@gmail.com"))])
  (mozc-popup .
 	     [(0 1 1 -4 20150224 34)
 	      ((popup
@@ -73739,15 +73755,15 @@
 		      ("Joe Bloggs" . "vapniks@yahoo.com"))
 		     (:maintainer "Joe Bloggs" . "vapniks@yahoo.com"))])
  (simple-httpd .
-	       [(0 1 0 1 -4 20260426 1813)
+	       [(0 1 0 1 -4 20260426 2131)
 		((emacs
 		  (26 1))
 		 (compat
 		  (30)))
 		"Pure Elisp HTTP server" tar
 		((:url . "https://github.com/skeeto/emacs-http-server")
-		 (:commit . "e560196595778a356bfa0aad8895a75f9a0fdaaf")
-		 (:revdesc . "e56019659577")
+		 (:commit . "9088f30674ceaaca7a610d1e6338af49f76f234b")
+		 (:revdesc . "9088f30674ce")
 		 (:keywords "network" "comm")
 		 (:authors
 		  ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -76313,13 +76329,13 @@
 	      (:authors
 	       ("Do Hoang" . "tuhdo1710@gmail.com")))])
  (srfi .
-       [(0 1 0 1 -4 20260403 411)
+       [(0 1 0 1 -4 20260426 2132)
 	((emacs
 	  (25 1)))
 	"Scheme Requests for Implementation browser" tar
 	((:url . "https://github.com/srfi-explorations/emacs-srfi")
-	 (:commit . "272df3cae401da0853dc50344500b522f96a9286")
-	 (:revdesc . "272df3cae401")
+	 (:commit . "405bbc48d8a8bfdfb01093b40f83b86e8356e2b2")
+	 (:revdesc . "405bbc48d8a8")
 	 (:keywords "languages" "util")
 	 (:authors
 	  ("Lassi Kortela" . "lassi@lassi.io"))
@@ -85427,6 +85443,19 @@
 		(:maintainers
 		 ("Kris Jenkins" . "krisajenkins@gmail.com"))
 		(:maintainer "Kris Jenkins" . "krisajenkins@gmail.com"))])
+ (with-command-redo .
+		    [(0 1 0 1 -4 20260421 207)
+		     ((emacs
+		       (29 1)))
+		     "Repeat commands with automatic undo" tar
+		     ((:url . "https://codeberg.org/ideasman42/emacs-with-command-redo")
+		      (:commit . "c5c45bbfe95839adb448c11da8a8646293a1d4c0")
+		      (:revdesc . "c5c45bbfe958")
+		      (:authors
+		       ("Campbell Barton" . "ideasman42@gmail.com"))
+		      (:maintainers
+		       ("Campbell Barton" . "ideasman42@gmail.com"))
+		      (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
  (with-editor .
 	      [(0 1 0 1 -4 20260417 751)
 	       ((emacs
