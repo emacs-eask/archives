@@ -73723,15 +73723,15 @@
 		      ("Joe Bloggs" . "vapniks@yahoo.com"))
 		     (:maintainer "Joe Bloggs" . "vapniks@yahoo.com"))])
  (simple-httpd .
-	       [(0 1 0 1 -4 20260426 1550)
+	       [(0 1 0 1 -4 20260426 1813)
 		((emacs
 		  (26 1))
 		 (compat
 		  (30)))
 		"Pure Elisp HTTP server" tar
 		((:url . "https://github.com/skeeto/emacs-http-server")
-		 (:commit . "32bf2aab77f34ea44d536dcacabcb0e9ff68863a")
-		 (:revdesc . "32bf2aab77f3")
+		 (:commit . "e560196595778a356bfa0aad8895a75f9a0fdaaf")
+		 (:revdesc . "e56019659577")
 		 (:keywords "network" "comm")
 		 (:authors
 		  ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -83148,6 +83148,24 @@
 	 (:maintainers
 	  ("Federico Tedin" . "federicotedin@gmail.com"))
 	 (:maintainer "Federico Tedin" . "federicotedin@gmail.com"))])
+ (verdict .
+	  [(0 1 0 1 -4 20260413 752)
+	   ((emacs
+	     (29 1))
+	    (treemacs
+	     (3 0))
+	    (dash
+	     (2 0)))
+	   "Generic test runner with treemacs results UI" tar
+	   ((:url . "https://github.com/tjarvstrand/verdict.el")
+	    (:commit . "be86a87c8098ca01c9bc8fce54a94f969bbc5762")
+	    (:revdesc . "be86a87c8098")
+	    (:keywords "tools" "processes")
+	    (:authors
+	     ("Thomas Järvstrand" . "https://github.com/tjarvstrand"))
+	    (:maintainers
+	     ("Thomas Järvstrand" . "https://github.com/tjarvstrand"))
+	    (:maintainer "Thomas Järvstrand" . "https://github.com/tjarvstrand"))])
  (veri-kompass .
 	       [(0 2 1 -4 20200213 934)
 		((emacs
