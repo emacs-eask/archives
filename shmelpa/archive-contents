@@ -1337,7 +1337,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260428 1747)
+	  [(0 1 0 1 -4 20260429 209)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1346,8 +1346,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Copilot CLI, Claude Code, Gemini CLI, Opencode, Kilo, Grok CLI, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "3d04acfef15933cc962c23e833342265145cc640")
-	    (:revdesc . "3d04acfef159")
+	    (:commit . "7a23d39d9fcb66da4a7192b0c1a00727586a473f")
+	    (:revdesc . "7a23d39d9fcb")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -32888,15 +32888,17 @@
 	     ("Nic Ferrier" . "nferrier@ferrier.me.uk"))
 	    (:maintainer "Nic Ferrier" . "nferrier@ferrier.me.uk"))])
  (gnosis .
-	 [(0 1 0 1 -4 20260406 150)
+	 [(0 1 0 1 -4 20260429 236)
 	  ((emacs
 	    (29 1))
 	   (compat
-	    (29 1 4 2)))
+	    (29 1 4 2))
+	   (keymap-popup
+	    (0 2 0)))
 	  "Knowledge System" tar
-	  ((:url . "https://thanosapollo.org/projects/gnosis")
-	   (:commit . "62193075aa38cd64fc812b6208e6fffb2a207e5f")
-	   (:revdesc . "62193075aa38")
+	  ((:url . "https://codeberg.org/thanosapollo/emacs-gnosis")
+	   (:commit . "32b72c9fc46978dfd248b623df2c3b3e88284e9f")
+	   (:revdesc . "32b72c9fc469")
 	   (:keywords "extensions")
 	   (:authors
 	    ("Thanos Apollo" . "public@thanosapollo.org"))
