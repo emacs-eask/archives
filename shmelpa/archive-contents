@@ -1215,7 +1215,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260501 458)
+	      [(0 1 0 1 -4 20260501 1854)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1224,8 +1224,8 @@
 		 (0 11 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "152277f18e161ba4a13059853c1619984cbf98bb")
-		(:revdesc . "152277f18e16"))])
+		(:commit . "6f9400da2a36e3843175724049e5a332dc4a0dce")
+		(:revdesc . "6f9400da2a36"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -20377,15 +20377,15 @@
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
-	 [(0 1 0 1 -4 20260501 1729)
+	 [(0 1 0 1 -4 20260501 1842)
 	  ((emacs
 	    (28 1))
 	   (compat
 	    (30)))
 	  "An Emacs Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/emacs-elfeed/elfeed")
-	   (:commit . "f0451a8a074bf5590d8639e37ece30fd4bf5e4c3")
-	   (:revdesc . "f0451a8a074b")
+	   (:commit . "947e3eeb4cdfbc09dec7838b27ab263a90e313bc")
+	   (:revdesc . "947e3eeb4cdf")
 	   (:keywords "network" "hypermedia")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -20607,6 +20607,28 @@
 		    (:maintainers
 		     ("Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))
 		    (:maintainer "Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))])
+ (elfeed-web .
+	     [(0 1 0 1 -4 20260501 1712)
+	      ((emacs
+		(28 1))
+	       (compat
+		(30))
+	       (elfeed
+		(3 4 2))
+	       (simple-httpd
+		(1 5 1)))
+	      "Web interface to Elfeed" tar
+	      ((:url . "https://github.com/emacs-elfeed/elfeed-web")
+	       (:commit . "500f7ea52590a0fc1bcf95403b52e04053389906")
+	       (:revdesc . "500f7ea52590")
+	       (:keywords "network" "hypermedia")
+	       (:authors
+		("Christopher Wellons" . "wellons@nullprogram.com"))
+	       (:maintainers
+		("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
+		("Ihor Radchenko" . "yantar92@posteo.net")
+		("Daniel Mendler" . "mail@daniel-mendler.de"))
+	       (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))])
  (elfeed-webkit .
 		[(0 2 1 -4 20230604 2111)
 		 ((emacs
