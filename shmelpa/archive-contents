@@ -20377,13 +20377,15 @@
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
-	 [(0 1 0 1 -4 20260430 1948)
+	 [(0 1 0 1 -4 20260501 40)
 	  ((emacs
-	    (27 1)))
+	    (27 1))
+	   (compat
+	    (30)))
 	  "An Emacs Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/skeeto/elfeed")
-	   (:commit . "d96c8640cafc0cc1dec5f0d0c9ac613fcc9ce334")
-	   (:revdesc . "d96c8640cafc")
+	   (:commit . "40f64ea8d8a43e6d05f696fb7ba6d287a567cea3")
+	   (:revdesc . "40f64ea8d8a4")
 	   (:keywords "network" "hypermedia")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -54354,15 +54356,15 @@
 	      ("Peter" . "craven@gmx.net"))
 	     (:maintainer "Peter" . "craven@gmx.net"))])
  (no-littering .
-	       [(0 1 0 1 -4 20260415 2031)
+	       [(0 1 0 1 -4 20260430 2232)
 		((emacs
 		  (26 1))
 		 (compat
 		  (30 1)))
 		"Help keeping ~/.config/emacs clean" tar
 		((:url . "https://github.com/emacscollective/no-littering")
-		 (:commit . "3c40e8a1dd7b20c6db90874b7b3088089a48acdc")
-		 (:revdesc . "3c40e8a1dd7b")
+		 (:commit . "1109ba226c2c1a1ce47ce4e6ddeabf3de53858e4")
+		 (:revdesc . "1109ba226c2c")
 		 (:keywords "convenience")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.no-littering@jonas.bernoulli.dev"))
@@ -57481,15 +57483,15 @@
 		 ("D. Williams" . "d.williams@posteo.net"))
 		(:maintainer "D. Williams" . "d.williams@posteo.net"))])
  (org-caldav .
-	     [(0 1 0 1 -4 20260222 437)
+	     [(0 1 0 1 -4 20260501 8)
 	      ((emacs
 		(26 3))
 	       (org
 		(9 1)))
 	      "Sync org files with external calendar through CalDAV" tar
 	      ((:url . "https://github.com/dengste/org-caldav/")
-	       (:commit . "2afbeca982d6b0987b1566eba5a4efa871546955")
-	       (:revdesc . "2afbeca982d6")
+	       (:commit . "14f541814df597395fddb44b6e4bdb7c20f72cbe")
+	       (:revdesc . "14f541814df5")
 	       (:keywords "calendar" "caldav")
 	       (:authors
 		("David Engster" . "deng@randomsample.de"))
@@ -61552,15 +61554,15 @@
 		   ("Thorsten Jolitz" . "tjolitzATgmailDOTcom"))
 		  (:maintainer "Thorsten Jolitz" . "tjolitzATgmailDOTcom"))])
  (outline-minor-faces .
-		      [(0 1 0 1 -4 20260101 1824)
+		      [(0 1 0 1 -4 20260430 2311)
 		       ((emacs
 			 (27 1))
 			(compat
 			 (30 1)))
 		       "Highlight only section headings" tar
 		       ((:url . "https://github.com/tarsius/outline-minor-faces")
-			(:commit . "ad3ec4620b79ae5c3e840ed1f47f892c5f917d8c")
-			(:revdesc . "ad3ec4620b79")
+			(:commit . "9bf54d02003c7866bc6d1c15495b018e3b4c678b")
+			(:revdesc . "9bf54d02003c")
 			(:keywords "faces" "outlines")
 			(:authors
 			 ("Jonas Bernoulli" . "emacs.outline-minor-faces@jonas.bernoulli.dev"))
@@ -78430,7 +78432,7 @@
 	  ("Mark T. Kennedy" . "mtk@acm.org"))
 	 (:maintainer "Mark T. Kennedy" . "mtk@acm.org"))])
  (telega .
-	 [(0 1 0 1 -4 20260424 1809)
+	 [(0 1 0 1 -4 20260430 2250)
 	  ((emacs
 	    (27 1))
 	   (visual-fill-column
@@ -78439,8 +78441,8 @@
 	    (0 9 0)))
 	  "Telegram client (unofficial)" tar
 	  ((:url . "https://github.com/zevlg/telega.el")
-	   (:commit . "a4aeba5b92a343a2e3709ee8b67b4120f587b7cb")
-	   (:revdesc . "a4aeba5b92a3")
+	   (:commit . "c118f15abd2fa92d2b328f77d4322ab2b38dedfb")
+	   (:revdesc . "c118f15abd2f")
 	   (:keywords "comm")
 	   (:authors
 	    ("Zajcev Evgeny" . "zevlg@yandex.ru"))
@@ -80496,19 +80498,19 @@
 			      (:revdesc . "57911a5065a6")
 			      (:keywords "convenience" "tools"))])
  (transient .
-	    [(0 1 0 1 -4 20260427 1537)
+	    [(0 1 0 1 -4 20260430 2304)
 	     ((emacs
 	       (28 1))
 	      (compat
 	       (30 1))
 	      (cond-let
-	       (0 2))
+	       (1 0))
 	      (seq
 	       (2 24)))
 	     "Transient commands" tar
 	     ((:url . "https://github.com/magit/transient")
-	      (:commit . "1946a0e844e6eb7bf1d0cb3bbee169ecd45f8844")
-	      (:revdesc . "1946a0e844e6")
+	      (:commit . "6dfe4bb767431c97575f199f2e29e59913605cf1")
+	      (:revdesc . "6dfe4bb76743")
 	      (:keywords "extensions")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
@@ -85447,15 +85449,15 @@
 		       ("Campbell Barton" . "ideasman42@gmail.com"))
 		      (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
  (with-editor .
-	      [(0 1 0 1 -4 20260417 751)
+	      [(0 1 0 1 -4 20260430 2248)
 	       ((emacs
 		 (26 1))
 		(compat
 		 (30 1)))
 	       "Use the Emacsclient as $EDITOR" tar
 	       ((:url . "https://github.com/magit/with-editor")
-		(:commit . "d0935036eb894680d8ca1a4d1ed8e8d5d90005e5")
-		(:revdesc . "d0935036eb89")
+		(:commit . "14ea1d98337a47d899ee1860f96b7cbb1ef0e2a0")
+		(:revdesc . "14ea1d98337a")
 		(:keywords "processes" "terminals")
 		(:authors
 		 ("Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev"))
