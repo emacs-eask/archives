@@ -304,13 +304,13 @@
       (:authors ("Nicholas M. Van Horn" . "nvanhorn@protonmail.com"))
       (:commit . "1fd5350ddfc53c30e6eef82af77c62d7c825df3c"))])
  (cycle-at-point
-  . [(0 2 0 20260111 124011) ((emacs (29 1)) (recomplete (0 2)))
+  . [(0 2 0 20260502 92709) ((emacs (29 1)) (recomplete (0 2)))
      "Cycle (rotate) the word at point" tar
      ((:url . "https://codeberg.org/ideasman42/emacs-cycle-at-point")
       (:keywords "convenience")
       (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
       (:authors ("Campbell Barton" . "ideasman42@gmail.com"))
-      (:commit . "0af1fa35f49d320960870b9dbcb4d03440139fdf"))])
+      (:commit . "0be4e5813250139697773275784a9a8d144f47b1"))])
  (d-mode
   . [(202408131340 0 20241225 185152) ((emacs (25 1)))
      "D Programming Language major mode for (X)Emacs" tar
@@ -469,7 +469,7 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(3 4 2 0 20260502 80238) ((emacs (28 1)) (compat (30)))
+  . [(3 4 2 0 20260502 164157) ((emacs (28 1)) (compat (31)))
      "An Emacs Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
       (:keywords "network" "hypermedia")
@@ -478,10 +478,10 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "150d3836dd55a3c073eeca6069ebd3e316475e8c"))])
+      (:commit . "09acade86e3c9c13b96c35de97f463fab3491ee3"))])
  (elfeed-web
-  . [(3 4 2 0 20260502 74139)
-     ((emacs (28 1)) (compat (30)) (elfeed (3 4 2))
+  . [(3 4 2 0 20260502 95708)
+     ((emacs (28 1)) (compat (31)) (elfeed (3 4 2))
       (simple-httpd (1 5 1)))
      "Web interface to Elfeed" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed-web")
@@ -491,7 +491,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "130f87873383d26df054b05cad62314639ab3230"))])
+      (:commit . "718531d00a9cd4c667645c7d458ec71f5f1f6a6c"))])
  (elixir-mode
   . [(2 5 0 0 20230626 143859) ((emacs (25)))
      "Major mode for editing Elixir files" tar
@@ -521,6 +521,12 @@
       (:maintainer "Harry R. Schwartz" . "hello@harryrschwartz.com")
       (:authors ("Harry R. Schwartz" . "hello@harryrschwartz.com"))
       (:commit . "f9efca3ad600e0c498cff776de5a873b8dd978cb"))])
+ (eprolog
+  . [(0 3 2 0 20260308 150317) ((emacs (27 2)))
+     "Native Prolog engine implementation" tar
+     ((:url . "https://github.com/tani/eprolog")
+      (:keywords "languages" "prolog" "logic programming")
+      (:commit . "6eff9942d3de603109101f3d74e30aac495203f6"))])
  (esxml
   . [(0 3 8 0 20260329 161756) ((emacs (24 1)) (cl-lib (0 5)))
      "Library for working with xml via esxml and sxml" tar
@@ -890,13 +896,13 @@
       (:authors ("Akib Azmain Turja" . "akib@disroot.org"))
       (:commit . "f31dbe60478b6270bb57b6b05998df8eec56f801"))])
  (gnuplot
-  . [(0 11 0 20260330 71827) ((emacs (28 1)) (compat (30)))
+  . [(0 11 0 20260502 103134) ((emacs (28 1)) (compat (31)))
      "Major-mode and interactive frontend for gnuplot" tar
      ((:url . "https://github.com/emacs-gnuplot/gnuplot")
       (:keywords "data" "gnuplot" "plotting")
       (:maintainer ("Maxime Tréca" . "maxime@gmail.com")
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "1a1481109b53a21429f3b919721464dbf3a0b814"))])
+      (:commit . "ef08de51912c188bdcec3040575749973f4764b6"))])
  (go-mode
   . [(1 6 0 0 20250311 20239) ((emacs (26 1)))
      "Major mode for the Go programming language" tar
@@ -927,7 +933,7 @@
       (:authors ("David Andersson" . "l.david.anderssonsverige.nu"))
       (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel
-  . [(0 9 9 4 0 20260501 235411)
+  . [(0 9 9 4 0 20260502 105708)
      ((emacs (27 1)) (transient (0 7 4)) (compat (30 1 0 0)))
      "Interact with ChatGPT or other LLMs" tar
      ((:url . "https://github.com/karthink/gptel")
@@ -936,7 +942,7 @@
 		   . "karthik.chikmagalur@gmail.com")
       (:authors
        ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-      (:commit . "9ce7c3ce7b763108c899e5d8ff57c8be87c1d0c9"))])
+      (:commit . "45133d515756cd477bcbf7be83733873d738ae0c"))])
  (graphql-mode
   . [(1 0 0 0 20260330 140853) ((emacs (25 1)))
      "Major mode for editing GraphQL schemas" tar
@@ -1271,7 +1277,7 @@
       (:authors ("Jon Oddie" . "j.j.oddie@gmail.com"))
       (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit
-  . [(4 5 0 0 20260501 114753)
+  . [(4 5 0 0 20260502 103651)
      ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (llama (1 0))
       (magit-section (4 5)) (seq (2 24)) (transient (0 13))
       (with-editor (3 4)))
@@ -1283,9 +1289,9 @@
        ("Kyle Meyer" . "kyle@kyleam.com"))
       (:authors ("Marius Vollmer" . "marius.vollmer@gmail.com")
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "6863bf01b70bab1194fb6fb417469dd14e42c759"))])
+      (:commit . "33c2a692e6ae15c839c9d8ef25c43c51a4e1dabb"))])
  (magit-section
-  . [(4 5 0 0 20260501 114753)
+  . [(4 5 0 0 20260502 103651)
      ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (llama (1 0))
       (seq (2 24)))
      "Sections for read-only buffers" tar
@@ -1294,7 +1300,7 @@
 		   . "emacs.magit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "6863bf01b70bab1194fb6fb417469dd14e42c759"))])
+      (:commit . "33c2a692e6ae15c839c9d8ef25c43c51a4e1dabb"))])
  (markdown-mode
   . [(2 9 -3 0 20260425 95459) ((emacs (28 1)))
      "Major mode for Markdown-formatted text" tar
@@ -1579,14 +1585,14 @@
       (:authors ("Andreas Politz" . "mail@andreas-politz.de"))
       (:commit . "365f88238f46f9b1425685562105881800f10386"))])
  (pg
-  . [(0 65 0 20260421 212130) ((emacs (28 1)) (peg (1 0 1)))
+  . [(0 66 0 20260502 110228) ((emacs (28 1)) (peg (1 0 1)))
      "Socket-level interface to the PostgreSQL database" tar
      ((:url . "https://github.com/emarsden/pg-el")
       (:keywords "data" "comm" "database" "postgresql")
       (:maintainer "Eric Marsden"
 		   . "eric.marsden@risk-engineering.org")
       (:authors ("Eric Marsden" . "eric.marsden@risk-engineering.org"))
-      (:commit . "0eed71bf642c40bac7937a6e8602f41917c90505"))])
+      (:commit . "67eb8564c6b974bc8f9a22053d1ff7ebec2e7dc3"))])
  (php-mode
   . [(1 26 1 0 20251112 64638) ((emacs (27 1)))
      "Major mode for editing PHP code" tar
@@ -1740,13 +1746,13 @@
       (:keywords "markup" "language" "css")
       (:commit . "247a0d4b509f10b28e4687cd8763492bca03599b"))])
  (scad-mode
-  . [(98 0 0 20260330 71707) ((emacs (29 1)) (compat (30)))
+  . [(98 0 0 20260502 95437) ((emacs (29 1)) (compat (31)))
      "A major mode for editing OpenSCAD code" tar
      ((:url . "https://github.com/openscad/emacs-scad-mode")
       (:keywords "languages")
       (:maintainer ("Len Trigg" . "lenbok@gmail.com")
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "44481331536516e34940315f67fa58f99f62a589"))])
+      (:commit . "1b20986e76860514fbf574abeff23676314d7e4c"))])
  (scala-mode
   . [(1 1 1 0 20260118 94206) ((emacs (25 1)))
      "Major mode for editing Scala" tar
@@ -1790,14 +1796,14 @@
       (:authors ("Chen Bin" . "chenbin.sh@gmail.com"))
       (:commit . "173e4d632c94af6670869729c09bfb8ba484d257"))])
  (simple-httpd
-  . [(1 5 1 0 20260430 94242) ((emacs (27 1)) (compat (30)))
+  . [(1 5 1 0 20260502 95335) ((emacs (27 1)) (compat (31)))
      "Pure Elisp HTTP server" tar
      ((:url . "https://github.com/skeeto/emacs-http-server")
       (:keywords "network" "comm")
       (:maintainer ("Philip Kaludercic" . "philipk@posteo.net")
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "1d29a7839c66a365dfae26c9f91dc01ced7e860b"))])
+      (:commit . "eaa2d858591f0ef268871eb50307c9aa0c8aabdf"))])
  (slime
   . [(2 32 -4 0 20260430 115319) ((emacs (24 3)) (macrostep (0 9)))
      "Superior Lisp Interaction Mode for Emacs" tar
