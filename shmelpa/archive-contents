@@ -884,13 +884,13 @@
 	       (:commit . "ae8788b5851ea353fbb80ab586a3bbd5dc8e91aa")
 	       (:revdesc . "ae8788b5851e"))])
  (acp .
-      [(0 1 0 1 -4 20260325 1158)
+      [(0 1 0 1 -4 20260503 1851)
        ((emacs
 	 (28 1)))
        "An ACP (Agent Client Protocol) implementation" tar
        ((:url . "https://github.com/xenodium/acp.el")
-	(:commit . "c32fbf8df34ed0095853a8cf55dc783e68b67d90")
-	(:revdesc . "c32fbf8df34e"))])
+	(:commit . "03099fa0d0b669c91124880d71e1d5abecd83add")
+	(:revdesc . "03099fa0d0b6"))])
  (act-mode .
 	   [(1 0 1 -4 20240718 39)
 	    ((emacs
@@ -1215,7 +1215,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260501 1854)
+	      [(0 1 0 1 -4 20260503 1828)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1224,8 +1224,8 @@
 		 (0 11 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "6f9400da2a36e3843175724049e5a332dc4a0dce")
-		(:revdesc . "6f9400da2a36"))])
+		(:commit . "411c9042f1ea55ee515c7e5918e056fe3ff1f2a8")
+		(:revdesc . "411c9042f1ea"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -14386,9 +14386,9 @@
 	   ("Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com"))
 	  (:maintainer "Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com"))])
  (dap-mode .
-	   [(0 1 0 1 -4 20260208 1403)
+	   [(0 1 0 1 -4 20260503 1833)
 	    ((emacs
-	      (28 1))
+	      (29 1))
 	     (dash
 	      (2 18 0))
 	     (lsp-mode
@@ -14409,8 +14409,8 @@
 	      (1 0 0)))
 	    "Debug Adapter Protocol mode" tar
 	    ((:url . "https://github.com/emacs-lsp/dap-mode")
-	     (:commit . "b77d9bdb15d89e354b8a20906bebe7789e19fc9b")
-	     (:revdesc . "b77d9bdb15d8")
+	     (:commit . "87126cff5838b7bcf94dfa995e60ce0db24a55c0")
+	     (:revdesc . "87126cff5838")
 	     (:keywords "languages" "debug")
 	     (:authors
 	      ("Ivan Yonchovski" . "yyoncho@gmail.com"))
@@ -15643,13 +15643,13 @@
 		("Sibi Prabakaran" . "sibi@psibi.in"))
 	       (:maintainer "Sibi Prabakaran" . "sibi@psibi.in"))])
  (dialog-mode .
-	      [(0 1 0 1 -4 20260503 1116)
+	      [(0 1 0 1 -4 20260503 2003)
 	       ((emacs
 		 (28 1)))
 	       "Major mode for editing Dialog files" tar
 	       ((:url . "https://git.sr.ht/~mew/dialog-mode")
-		(:commit . "85a65c68dd23de4987392d13a6bb2e58136b29c0")
-		(:revdesc . "85a65c68dd23")
+		(:commit . "3b93cb6424c325c52778e1a28e487fcff8fa0c83")
+		(:revdesc . "3b93cb6424c3")
 		(:keywords "languages")
 		(:authors
 		 ("Morgan Willcock" . "morgan@ice9.digital"))
@@ -19414,11 +19414,11 @@
 	       ("William Carroll" . "wpcarro@gmail.com"))
 	      (:maintainer "William Carroll" . "wpcarro@gmail.com"))])
  (egison-mode .
-	      [(0 1 0 1 -4 20260104 1519)
+	      [(0 1 0 1 -4 20260217 1013)
 	       nil "Egison editing mode" tar
-	       ((:url . "https://github.com/egisatoshi/egison/blob/master/elisp/egison-mode.el")
-		(:commit . "4e796ee52785e052f3b10c6493fa484461bb4482")
-		(:revdesc . "4e796ee52785")
+	       ((:url . "https://github.com/egisatoshi/egison/blob/master/emacs/egison-mode.el")
+		(:commit . "448dc7ee9db1e2778261f295715fcb64496ba19e")
+		(:revdesc . "448dc7ee9db1")
 		(:authors
 		 ("Satoshi Egi" . "egisatoshi@gmail.com"))
 		(:maintainers
@@ -31731,13 +31731,13 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20260503 1335)
+	  [(0 1 0 1 -4 20260503 1752)
 	   ((emacs
 	     (28 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "6a6101a6a5f7cae8f12f0a2b909eaab881c9c1a2")
-	    (:revdesc . "6a6101a6a5f7")
+	    (:commit . "c39334ff1a46c444583a91885a55e1e96dfffdf0")
+	    (:revdesc . "c39334ff1a46")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -34043,7 +34043,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20260503 538)
+	[(0 1 0 1 -4 20260503 1846)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -34052,8 +34052,8 @@
 	   (30 1 0 0)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "d7c103ce8a66ecaee7c8fc9ecadb681dc4291408")
-	  (:revdesc . "d7c103ce8a66")
+	  (:commit . "f915a8bba57fcd4fe7d92bf2bbcec17e5bbfa25b")
+	  (:revdesc . "f915a8bba57f")
 	  (:keywords "convenience" "tools")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -47941,9 +47941,9 @@
 		("Evgeny Kurnevsky" . "kurnevsky@gmail.com"))
 	       (:maintainer "Ross A. Baker" . "ross@rossabaker.com"))])
  (lsp-mode .
-	   [(0 1 0 1 -4 20260503 1145)
+	   [(0 1 0 1 -4 20260503 1834)
 	    ((emacs
-	      (28 1))
+	      (29 1))
 	     (dash
 	      (2 18 0))
 	     (f
@@ -47960,8 +47960,8 @@
 	      (1 11)))
 	    "LSP mode" tar
 	    ((:url . "https://github.com/emacs-lsp/lsp-mode")
-	     (:commit . "999c42a5a134a5ef2acf0e687b49e9d5201de417")
-	     (:revdesc . "999c42a5a134")
+	     (:commit . "5d9e72816a36ec5b0fbf128c25f88e5daaae5b41")
+	     (:revdesc . "5d9e72816a36")
 	     (:keywords "languages"))])
  (lsp-mssql .
 	    [(0 1 0 1 -4 20251117 1444)
@@ -66010,22 +66010,6 @@
 	      (:maintainers
 	       ("Donald Ephraim Curtis" . "dcurtis@milkbox.net"))
 	      (:maintainer "Donald Ephraim Curtis" . "dcurtis@milkbox.net"))])
- (powerline-evil .
-		 [(1 0 1 -4 20190603 340)
-		  ((evil
-		    (1 0 8))
-		   (powerline
-		    (2 3)))
-		  "Utilities for better Evil support for Powerline" tar
-		  ((:url . "https://github.com/johnson-christopher/powerline-evil/")
-		   (:commit . "b77e2cf571e9990734f2b30d826f3a362b559fd1")
-		   (:revdesc . "b77e2cf571e9")
-		   (:keywords "evil" "mode-line" "powerline")
-		   (:authors
-		    ("Chris Johnson" . "chris@christophermjohnson.net"))
-		   (:maintainers
-		    ("Chris Johnson" . "chris@christophermjohnson.net"))
-		   (:maintainer "Chris Johnson" . "chris@christophermjohnson.net"))])
  (powershell .
 	     [(0 1 0 1 -4 20251122 1430)
 	      ((emacs
