@@ -34618,6 +34618,20 @@
 		(:maintainers
 		 ("Russel Winder" . "russel@winder.org.uk"))
 		(:maintainer "Russel Winder" . "russel@winder.org.uk"))])
+ (grove .
+	[(0 1 0 1 -4 20260429 402)
+	 ((emacs
+	   (29 1)))
+	 "Obsidian-like note-taking for org files" tar
+	 ((:url . "https://github.com/jonathanchu/grove")
+	  (:commit . "96606266d17d1c3d2c161731c55ecdfa93ee2cc1")
+	  (:revdesc . "96606266d17d")
+	  (:keywords "notes" "outlines" "tools")
+	  (:authors
+	   ("Jonathan Chu" . "me@jonathanchu.is"))
+	  (:maintainers
+	   ("Jonathan Chu" . "me@jonathanchu.is"))
+	  (:maintainer "Jonathan Chu" . "me@jonathanchu.is"))])
  (gruber-darker-theme .
 		      [(0 7 1 -4 20231026 2031)
 		       nil "Gruber Darker color theme for Emacs 24" tar
@@ -53101,6 +53115,20 @@
 		 (:maintainers
 		  ("Jakob L. Kreuze" . "zerodaysfordays@sdf.lonestar.org"))
 		 (:maintainer "Jakob L. Kreuze" . "zerodaysfordays@sdf.lonestar.org"))])
+ (mysql .
+	[(0 1 0 1 -4 20260424 245)
+	 ((emacs
+	   (28 1)))
+	 "Pure Elisp MySQL wire protocol client" tar
+	 ((:url . "https://github.com/LuciusChen/mysql.el")
+	  (:commit . "e8964613c6eb1bd1aeda12e7e78e3b9d81ea70b7")
+	  (:revdesc . "e8964613c6eb")
+	  (:keywords "comm" "data")
+	  (:authors
+	   ("Lucius Chen" . "chenyh572@gmail.com"))
+	  (:maintainers
+	   ("Lucius Chen" . "chenyh572@gmail.com"))
+	  (:maintainer "Lucius Chen" . "chenyh572@gmail.com"))])
  (mysql-to-org .
 	       [(0 1 0 1 -4 20210622 447)
 		((emacs
@@ -61607,6 +61635,20 @@
 			(:maintainers
 			 ("Jonas Bernoulli" . "emacs.outline-minor-faces@jonas.bernoulli.dev"))
 			(:maintainer "Jonas Bernoulli" . "emacs.outline-minor-faces@jonas.bernoulli.dev"))])
+ (outline-stars .
+		[(0 1 0 1 -4 20260427 2355)
+		 ((emacs
+		   (29 1)))
+		 "Outshine-style star headings for outline-minor-mode" tar
+		 ((:url . "https://codeberg.org/phmcc/outline-stars")
+		  (:commit . "a08f50d395a1a74406da97b22ab22d72ffc4df51")
+		  (:revdesc . "a08f50d395a1")
+		  (:keywords "outlines" "convenience")
+		  (:authors
+		   ("Paul Hsin-ti McClelland" . "PaulHMcClelland@protonmail.com"))
+		  (:maintainers
+		   ("Paul Hsin-ti McClelland" . "PaulHMcClelland@protonmail.com"))
+		  (:maintainer "Paul Hsin-ti McClelland" . "PaulHMcClelland@protonmail.com"))])
  (outline-toc .
 	      [(0 1 1 -4 20200401 1208)
 	       nil "Sidebar showing a \"table of contents\"" tar
@@ -62575,15 +62617,15 @@
 	      ("Ryan Davis" . "ryand-ruby@zenspider.com"))
 	     (:maintainer "Ryan Davis" . "ryand-ruby@zenspider.com"))])
  (package-build .
-		[(0 1 0 1 -4 20260421 2136)
+		[(0 1 0 1 -4 20260503 1532)
 		 ((emacs
 		   (26 1))
 		  (compat
 		   (30 1)))
 		 "Curate an Emacs Lisp package archive" tar
 		 ((:url . "https://github.com/melpa/package-build")
-		  (:commit . "2db42a9050923c2245bb525345a8b12bd6c0973a")
-		  (:revdesc . "2db42a905092")
+		  (:commit . "d0e2788033fe8ba263675dbd6fbc4937f4364177")
+		  (:revdesc . "d0e2788033fe")
 		  (:keywords "maint" "tools")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
@@ -76199,6 +76241,20 @@
        (:maintainers
 	("Justus Winter" . "justus@sequoia-pgp.org"))
        (:maintainer "Justus Winter" . "justus@sequoia-pgp.org"))])
+ (sql-bigquery .
+	       [(0 1 0 1 -4 20260502 1517)
+		((emacs
+		  (25 1)))
+		"Adds BigQuery support to SQLi mode" tar
+		((:url . "https://github.com/regadas/sql-bigquery")
+		 (:commit . "1d068f7a7226d7af70d4ffceb86bc5e91826c29e")
+		 (:revdesc . "1d068f7a7226")
+		 (:keywords "languages" "sql" "bigquery")
+		 (:authors
+		  ("Martin Nowak" . "code+sql-bigquery@dawg.eu"))
+		 (:maintainers
+		  ("Filipe Regadas" . "oss@regadas.email"))
+		 (:maintainer "Filipe Regadas" . "oss@regadas.email"))])
  (sql-clickhouse .
 		 [(0 1 1 -4 20191209 1443)
 		  ((emacs
@@ -80851,15 +80907,15 @@
 			("Erick Navarro" . "erick@navarro.io"))
 		       (:maintainer "Erick Navarro" . "erick@navarro.io"))])
  (tree-sitter-langs .
-		    [(0 1 0 1 -4 20260427 1835)
+		    [(0 1 0 1 -4 20260503 1558)
 		     ((emacs
 		       (26 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
 		     ((:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs")
-		      (:commit . "a1fb1cbd3237552429f66a3ce7ff4301636e23ac")
-		      (:revdesc . "a1fb1cbd3237")
+		      (:commit . "a247cc323f2e29f27f91710a7b0e1ff9f6238fff")
+		      (:revdesc . "a247cc323f2e")
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
