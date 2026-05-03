@@ -15643,13 +15643,13 @@
 		("Sibi Prabakaran" . "sibi@psibi.in"))
 	       (:maintainer "Sibi Prabakaran" . "sibi@psibi.in"))])
  (dialog-mode .
-	      [(0 1 0 1 -4 20260503 2003)
+	      [(0 1 0 1 -4 20260503 2106)
 	       ((emacs
 		 (28 1)))
 	       "Major mode for editing Dialog files" tar
 	       ((:url . "https://git.sr.ht/~mew/dialog-mode")
-		(:commit . "3b93cb6424c325c52778e1a28e487fcff8fa0c83")
-		(:revdesc . "3b93cb6424c3")
+		(:commit . "e2da6276139b736a03bf17445e69540cd5a90015")
+		(:revdesc . "e2da6276139b")
 		(:keywords "languages")
 		(:authors
 		 ("Morgan Willcock" . "morgan@ice9.digital"))
@@ -31731,13 +31731,13 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20260503 1752)
+	  [(0 1 0 1 -4 20260503 2050)
 	   ((emacs
 	     (28 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "c39334ff1a46c444583a91885a55e1e96dfffdf0")
-	    (:revdesc . "c39334ff1a46")
+	    (:commit . "d95910967c0989019b222b6a2b6ffeee9be908d4")
+	    (:revdesc . "d95910967c09")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -76408,13 +76408,13 @@
 	      (:authors
 	       ("Do Hoang" . "tuhdo1710@gmail.com")))])
  (srfi .
-       [(0 1 0 1 -4 20260501 2316)
+       [(0 1 0 1 -4 20260503 1847)
 	((emacs
 	  (25 1)))
 	"Scheme Requests for Implementation browser" tar
 	((:url . "https://github.com/srfi-explorations/emacs-srfi")
-	 (:commit . "ba1e5b91d3164e29f469fee1335e4aee264dc348")
-	 (:revdesc . "ba1e5b91d316")
+	 (:commit . "1ec9447f2673d9d6a906507c962d07266853c98c")
+	 (:revdesc . "1ec9447f2673")
 	 (:keywords "languages" "util")
 	 (:authors
 	  ("Lassi Kortela" . "lassi@lassi.io"))
@@ -78361,13 +78361,13 @@
 		  ("Anton Hibl" . "antonhibl11@gmail.com"))
 		 (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (taskjuggler-mode .
-		   [(0 1 0 1 -4 20260502 207)
+		   [(0 1 0 1 -4 20260503 1955)
 		    ((emacs
 		      (27 1)))
 		    "Major mode for TaskJuggler project files" tar
 		    ((:url . "https://github.com/devrintalen/taskjuggler-mode.el")
-		     (:commit . "8efc1b25109e1efb280b581ca9c5b44574e7cda5")
-		     (:revdesc . "8efc1b25109e")
+		     (:commit . "a93aaf4293eb9eea1bd6de415595427763fcfabf")
+		     (:revdesc . "a93aaf4293eb")
 		     (:keywords "languages" "project-management")
 		     (:authors
 		      ("Devrin Talen" . "devrin@fastmail.com"))
@@ -79951,6 +79951,20 @@
 	 (:commit . "c75ae9bed8f3bb2229e873fcc85fe62701e47974")
 	 (:revdesc . "c75ae9bed8f3")
 	 (:keywords "files"))])
+ (tmux-csi-u .
+	     [(0 1 0 1 -4 20260428 2220)
+	      ((emacs
+		(27 1)))
+	      "Tmux CSI-u decoder" tar
+	      ((:url . "https://github.com/lajarre/tmux-csi-u.el")
+	       (:commit . "38e95db84ad02ad440e4fc0b18896e1c621e5f5d")
+	       (:revdesc . "38e95db84ad0")
+	       (:keywords "terminals" "tools")
+	       (:authors
+		("lajarre" . "1884912+lajarre@users.noreply.github.com"))
+	       (:maintainers
+		("lajarre" . "1884912+lajarre@users.noreply.github.com"))
+	       (:maintainer "lajarre" . "1884912+lajarre@users.noreply.github.com"))])
  (tmux-mode .
 	    [(0 1 0 1 -4 20231130 1249)
 	     ((emacs
@@ -81455,6 +81469,20 @@
 	(:maintainers
 	 ("Diogo Doreto" . "diogo@doreto.com.br"))
 	(:maintainer "Diogo Doreto" . "diogo@doreto.com.br"))])
+ (ttx-mode .
+	   [(0 1 0 1 -4 20260503 113)
+	    ((emacs
+	      (30 0)))
+	    "TrueType/OpenType font viewer using ttx" tar
+	    ((:url . "https://github.com/wmedrano/ttx-mode")
+	     (:commit . "00d5b9ccd3093778c5fab34096c239ae637cca2b")
+	     (:revdesc . "00d5b9ccd309")
+	     (:keywords "tools" "fonts")
+	     (:authors
+	      ("Will Medrano" . "will@wmedrano.dev"))
+	     (:maintainers
+	      ("Will Medrano" . "will@wmedrano.dev"))
+	     (:maintainer "Will Medrano" . "will@wmedrano.dev"))])
  (tuareg .
 	 [(0 1 0 1 -4 20250909 1604)
 	  ((emacs
