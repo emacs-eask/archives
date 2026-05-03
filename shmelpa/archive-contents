@@ -6209,11 +6209,11 @@
 		      ("Rustem Muslimov" . "r.muslimov@gmail.com"))
 		     (:maintainer "Rustem Muslimov" . "r.muslimov@gmail.com"))])
  (browse-kill-ring .
-		   [(0 1 0 1 -4 20260502 2123)
+		   [(0 1 0 1 -4 20260503 1620)
 		    nil "Interactively insert items from kill-ring" tar
 		    ((:url . "https://github.com/browse-kill-ring/browse-kill-ring")
-		     (:commit . "b0c65ac7e934f527f1567def2c256dc60169ab97")
-		     (:revdesc . "b0c65ac7e934")
+		     (:commit . "39d65a830b93530c9bd68a7dc14353cbffd1d01f")
+		     (:revdesc . "39d65a830b93")
 		     (:keywords "convenience")
 		     (:authors
 		      ("Colin Walters" . "walters@verbum.org"))
@@ -20375,15 +20375,15 @@
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
-	 [(0 1 0 1 -4 20260503 1441)
+	 [(0 1 0 1 -4 20260503 1631)
 	  ((emacs
 	    (28 1))
 	   (compat
 	    (31)))
 	  "An Emacs Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/emacs-elfeed/elfeed")
-	   (:commit . "52a67d435bf1d416e3c910c553669a84372ec815")
-	   (:revdesc . "52a67d435bf1")
+	   (:commit . "65791043b944d49aed98abf4dcde75a7351a0952")
+	   (:revdesc . "65791043b944")
 	   (:keywords "network" "hypermedia")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -21733,6 +21733,22 @@
 	(:maintainers
 	 ("Marco Antoniotti" . "marcoxa[at]gmail.com"))
 	(:maintainer "Marco Antoniotti" . "marcoxa[at]gmail.com"))])
+ (emcp .
+       [(0 1 0 1 -4 20260426 2226)
+	((emacs
+	  (30 1))
+	 (http-server
+	  (0 1 0)))
+	"Lets your agent talk to Emacs" tar
+	((:url . "https://codeberg.org/martenlienen/emcp")
+	 (:commit . "2363287cffb1b694387d3aabbae9be863bf4e549")
+	 (:revdesc . "2363287cffb1")
+	 (:keywords "maint")
+	 (:authors
+	  ("Marten Lienen" . "ml@martenlienen.com"))
+	 (:maintainers
+	  ("Marten Lienen" . "ml@martenlienen.com"))
+	 (:maintainer "Marten Lienen" . "ml@martenlienen.com"))])
  (emidje .
 	 [(1 2 0 -4 20190209 1726)
 	  ((emacs
@@ -23970,7 +23986,7 @@
 			  ("Bryan Allred" . "bryan@revolvingcow.com"))
 			 (:maintainer "Bryan Allred" . "bryan@revolvingcow.com"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20260503 1351)
+		  [(0 4 1 1 -4 20260503 1601)
 		   ((emacs
 		     (26 3))
 		    (evil
@@ -23979,8 +23995,8 @@
 		     (1 0)))
 		   "A set of keybindings for Evil mode" tar
 		   ((:url . "https://github.com/emacs-evil/evil-collection")
-		    (:commit . "c214d48dd80d5ba9b7d05b7751d67b9281cd25f4")
-		    (:revdesc . "c214d48dd80d")
+		    (:commit . "468653805b5a9c44275dfc6add70ed84fcd7e740")
+		    (:revdesc . "468653805b5a")
 		    (:keywords "evil" "tools")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
