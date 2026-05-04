@@ -469,7 +469,7 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(3 4 2 0 20260504 42320) ((emacs (28 1)) (compat (31)))
+  . [(3 4 2 0 20260504 190647) ((emacs (28 1)) (compat (31)))
      "An Emacs Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
       (:keywords "network" "hypermedia")
@@ -478,7 +478,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "d10858977d1b301f3fc8e6e1530c65b3f988bc58"))])
+      (:commit . "aad8d96818d5a68136fbd534897bedaf65122f32"))])
  (elfeed-web
   . [(3 4 2 0 20260502 202926)
      ((emacs (28 1)) (compat (31)) (elfeed (3 4 2))
@@ -783,13 +783,13 @@
       (:authors ("Akib Azmain Turja" . "akib@disroot.org"))
       (:commit . "ce2ea016a67b200862788e81f0ff1f8f7e4e0454"))])
  (geiser
-  . [(0 33 0 20260502 230805) ((emacs (27 1)) (project (0 8 1)))
+  . [(0 33 0 20260504 165926) ((emacs (27 1)) (project (0 8 1)))
      "GNU Emacs and Scheme talk to each other" tar
      ((:url . "https://gitlab.com/emacs-geiser/")
       (:keywords "languages" "scheme" "geiser")
       (:maintainer "Jose Antonio Ortega Ruiz" . "(jao@gnu.org)")
       (:authors ("Jose Antonio Ortega Ruiz" . "(jao@gnu.org)"))
-      (:commit . "55b4b7847902d626a76e110a862d0fde1d1ff297"))])
+      (:commit . "06c3db4a053331e3d1fb8642a49c7a9b810cf5cb"))])
  (geiser-chez
   . [(0 18 0 20230707 93440) ((emacs (26 1)) (geiser (0 19)))
      "Chez and Geiser talk to each other" tar
@@ -1175,7 +1175,7 @@
       (:keywords "languages")
       (:commit . "1478898ea0ab1ae21ec053fcc81c6b42136a2224"))])
  (keycast
-  . [(1 4 7 0 20260101 183551) ((emacs (28 1)) (compat (30 1)))
+  . [(1 4 7 0 20260504 172516) ((emacs (28 1)) (compat (31 0)))
      "Show current command and its binding" tar
      ((:url . "https://github.com/tarsius/keycast")
       (:keywords "multimedia")
@@ -1183,7 +1183,7 @@
 		   . "emacs.keycast@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev"))
-      (:commit . "b831e380c4deb1d51ce5db0a965b96427aec52e4"))])
+      (:commit . "f9f396bcd3ed8ea4b64178383099872438ccdfb0"))])
  (kotlin-mode
   . [(2 0 0 0 20230123 105957) ((emacs (24 3)))
      "Major mode for kotlin" tar
@@ -1203,11 +1203,11 @@
       (:authors ("martian hiatus" . "mousebot@disroot.org"))
       (:commit . "a0f4fa89fe73dfe7412f5d25d6e0619abf8cff14"))])
  (llama
-  . [(1 0 4 0 20260301 125328) ((emacs (26 1)) (compat (30 1)))
+  . [(1 0 4 0 20260504 173431) ((emacs (26 1)) (compat (31 0)))
      "Compact syntax for short lambda" tar
      ((:url . "https://github.com/tarsius/llama")
       (:keywords "extensions")
-      (:commit . "d430d48e0b5afd2a34b5531f103dcb110c3539c4"))])
+      (:commit . "57a8988eb4a624dd1efc583412fe8660741eaa50"))])
  (logview
   . [(0 19 4 -4 0 20260218 201306)
      ((emacs (25 1)) (datetime (0 8)) (extmap (1 0)) (compat (29)))
@@ -1277,8 +1277,8 @@
       (:authors ("Jon Oddie" . "j.j.oddie@gmail.com"))
       (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit
-  . [(4 5 0 0 20260502 103651)
-     ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (llama (1 0))
+  . [(4 5 0 0 20260504 202633)
+     ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (magit-section (4 5)) (seq (2 24)) (transient (0 13))
       (with-editor (3 4)))
      "A Git porcelain inside Emacs" tar
@@ -1289,10 +1289,10 @@
        ("Kyle Meyer" . "kyle@kyleam.com"))
       (:authors ("Marius Vollmer" . "marius.vollmer@gmail.com")
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "33c2a692e6ae15c839c9d8ef25c43c51a4e1dabb"))])
+      (:commit . "0417e65917c6fed4bf0f6a86e6b184d7b89f42c4"))])
  (magit-section
-  . [(4 5 0 0 20260502 103651)
-     ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (llama (1 0))
+  . [(4 5 0 0 20260504 202633)
+     ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (seq (2 24)))
      "Sections for read-only buffers" tar
      ((:url . "https://github.com/magit/magit") (:keywords "tools")
@@ -1300,7 +1300,7 @@
 		   . "emacs.magit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "33c2a692e6ae15c839c9d8ef25c43c51a4e1dabb"))])
+      (:commit . "0417e65917c6fed4bf0f6a86e6b184d7b89f42c4"))])
  (markdown-mode
   . [(2 9 -3 0 20260425 95459) ((emacs (28 1)))
      "Major mode for Markdown-formatted text" tar
@@ -2140,7 +2140,7 @@
       (:authors ("Akib Azmain Turja" . "akib@disroot.org"))
       (:commit . "5203d9379afaf6703746823a580c804e1dd98e08"))])
  (with-editor
-  . [(3 5 0 0 20260430 224842) ((emacs (26 1)) (compat (30 1)))
+  . [(3 5 0 0 20260504 175058) ((emacs (26 1)) (compat (31 0)))
      "Use the Emacsclient as $EDITOR" tar
      ((:url . "https://github.com/magit/with-editor")
       (:keywords "processes" "terminals")
@@ -2148,7 +2148,7 @@
 		   . "emacs.with-editor@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev"))
-      (:commit . "14ea1d98337a47d899ee1860f96b7cbb1ef0e2a0"))])
+      (:commit . "0dde0a08cd121703d001bd85a06d1fa0b3b73228"))])
  (with-simulated-input
   . [(3 0 0 20210602 224623) ((emacs (24 4)))
      "A macro to simulate user input non-interactively" tar
