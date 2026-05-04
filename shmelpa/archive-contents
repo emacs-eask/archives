@@ -18888,7 +18888,7 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20260504 1737)
+      [(0 1 0 1 -4 20260504 2039)
        ((emacs
 	 (28 1))
 	(dash
@@ -18903,8 +18903,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "b8f027d0a1a845797446228779bdfab2ec23d008")
-	(:revdesc . "b8f027d0a1a8")
+	(:commit . "194e36cf05bf90286cb3ab14e0272c80a0ba89d9")
+	(:revdesc . "194e36cf05bf")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
@@ -20375,15 +20375,15 @@
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
-	 [(0 1 0 1 -4 20260504 1118)
+	 [(0 1 0 1 -4 20260504 1906)
 	  ((emacs
 	    (28 1))
 	   (compat
 	    (31)))
 	  "An Emacs Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/emacs-elfeed/elfeed")
-	   (:commit . "4e83cca135ff196a3734e33f1ebe189495a9db44")
-	   (:revdesc . "4e83cca135ff")
+	   (:commit . "aad8d96818d5a68136fbd534897bedaf65122f32")
+	   (:revdesc . "aad8d96818d5")
 	   (:keywords "network" "hypermedia")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -21456,17 +21456,17 @@
 	  ("Matus Goljer" . "matus.goljer@gmail.com"))
 	 (:maintainer "Matus Goljer" . "matus.goljer@gmail.com"))])
  (elx .
-      [(0 1 0 1 -4 20260101 1832)
+      [(0 1 0 1 -4 20260504 2017)
        ((emacs
 	 (29 1))
 	(compat
-	 (30 1))
+	 (31 0))
 	(llama
 	 (1 0)))
        "Extract information from Emacs Lisp libraries" tar
        ((:url . "https://github.com/emacscollective/elx")
-	(:commit . "5c700de6d3b4163b0a3ed3060f491c22b4bfaa85")
-	(:revdesc . "5c700de6d3b4")
+	(:commit . "98b1c7da98f0e7df5558e5ef00382d746b818c70")
+	(:revdesc . "98b1c7da98f0")
 	(:keywords "docs" "libraries" "packages")
 	(:authors
 	 ("Jonas Bernoulli" . "emacs.elx@jonas.bernoulli.dev"))
@@ -22301,11 +22301,11 @@
 	   ("Sean Hutchings" . "seanhut@yandex.com"))
 	  (:maintainer "Sean Hutchings" . "seanhut@yandex.com"))])
  (epkg .
-       [(0 1 0 1 -4 20260430 2240)
+       [(0 1 0 1 -4 20260504 1719)
 	((emacs
 	  (28 1))
 	 (compat
-	  (30 1))
+	  (31 0))
 	 (closql
 	  (2 4))
 	 (emacsql
@@ -22314,8 +22314,8 @@
 	  (1 0)))
 	"Browse the Emacsmirror package database" tar
 	((:url . "https://github.com/emacscollective/epkg")
-	 (:commit . "533a76dacd09f4af6f04d4a068fa6f606b21f0a4")
-	 (:revdesc . "533a76dacd09")
+	 (:commit . "15e546f48fbbbcf64da56af9db38189f19b61034")
+	 (:revdesc . "15e546f48fbb")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))
@@ -30219,11 +30219,11 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20260501 1411)
+	[(0 1 0 1 -4 20260504 2019)
 	 ((emacs
 	   (29 1))
 	  (compat
-	   (30 1))
+	   (31 0))
 	  (closql
 	   (2 4))
 	  (cond-let
@@ -30246,8 +30246,8 @@
 	   (1 2)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "d4eb8d1be55398e350c8a68b0c355f5166418843")
-	  (:revdesc . "d4eb8d1be553")
+	  (:commit . "f9db6615aeff7e797008193775249f3172bf5485")
+	  (:revdesc . "f9db6615aeff")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -30504,15 +30504,15 @@
 		      ("David Shepherd" . "davidshepherd7@gmail.com"))
 		     (:maintainer "David Shepherd" . "davidshepherd7@gmail.com"))])
  (frameshot .
-	    [(0 1 0 1 -4 20260101 1833)
+	    [(0 1 0 1 -4 20260504 1722)
 	     ((emacs
 	       (26 1))
 	      (compat
-	       (30 1)))
+	       (31 0)))
 	     "Take screenshots of a frame" tar
 	     ((:url . "https://github.com/tarsius/frameshot")
-	      (:commit . "975450f325f0e29a73214deff011ad524f02bc74")
-	      (:revdesc . "975450f325f0")
+	      (:commit . "81eafb63ac17b5cf1074c447021d6037fbce602c")
+	      (:revdesc . "81eafb63ac17")
 	      (:keywords "multimedia")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.frameshot@jonas.bernoulli.dev"))
@@ -31731,13 +31731,13 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20260504 1123)
+	  [(0 1 0 1 -4 20260504 2154)
 	   ((emacs
 	     (28 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "e0dfcc93e7777267ccc671f285a0225d24b348de")
-	    (:revdesc . "e0dfcc93e777")
+	    (:commit . "7d611ea0e59b1a58095fdb136d73aec1f2d1c168")
+	    (:revdesc . "7d611ea0e59b")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -31763,11 +31763,11 @@
 	 ("Joseph LaFreniere" . "joseph@lafreniere.xyz"))
 	(:maintainer "Joseph LaFreniere" . "joseph@lafreniere.xyz"))])
  (ghub .
-       [(0 1 0 1 -4 20260501 1408)
+       [(0 1 0 1 -4 20260504 1922)
 	((emacs
 	  (29 1))
 	 (compat
-	  (30 1))
+	  (31 0))
 	 (cond-let
 	  (1 0))
 	 (llama
@@ -31776,8 +31776,8 @@
 	  (0 1 3)))
 	"Client libraries for Git forge APIs" tar
 	((:url . "https://github.com/magit/ghub")
-	 (:commit . "c438abc865964554d0ee0b2d1a7def60de47a224")
-	 (:revdesc . "c438abc86596")
+	 (:commit . "07f2f0e4be7f2b40fef272da9dcbbfa188a70604")
+	 (:revdesc . "07f2f0e4be7f")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
@@ -38924,15 +38924,15 @@
 		 ("Donald Ephraim Curtis" . "dcurtis@milkbox.net"))
 		(:maintainer "Donald Ephraim Curtis" . "dcurtis@milkbox.net"))])
  (hl-todo .
-	  [(0 1 0 1 -4 20260101 1834)
+	  [(0 1 0 1 -4 20260504 1724)
 	   ((emacs
 	     (26 1))
 	    (compat
-	     (30 1)))
+	     (31 0)))
 	   "Highlight TODO and similar keywords" tar
 	   ((:url . "https://github.com/tarsius/hl-todo")
-	    (:commit . "9540fc414014822dde00f0188b74e17ac99e916d")
-	    (:revdesc . "9540fc414014")
+	    (:commit . "cdd8a5bc8d5a41540df3dea88d5f62a6c3f4cfd3")
+	    (:revdesc . "cdd8a5bc8d5a")
 	    (:keywords "convenience")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.hl-todo@jonas.bernoulli.dev"))
@@ -48586,7 +48586,7 @@
 	       (:revdesc . "caeb52d21d5c")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20260503 2051)
+	[(0 1 0 1 -4 20260504 2026)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -48605,8 +48605,8 @@
 	   (3 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "a39c8a98aaee5070fb48514de942dc02070eb53d")
-	  (:revdesc . "a39c8a98aaee")
+	  (:commit . "0417e65917c6fed4bf0f6a86e6b184d7b89f42c4")
+	  (:revdesc . "0417e65917c6")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -73275,13 +73275,13 @@
 	   ("Steve Purcell" . "steve@sanityinc.com"))
 	  (:maintainer "Steve Purcell" . "steve@sanityinc.com"))])
  (shift-number .
-	       [(0 1 0 1 -4 20260429 1014)
+	       [(0 1 0 1 -4 20260504 2112)
 		((emacs
 		  (28 1)))
 		"Increase/decrease the number at point" tar
 		((:url . "https://codeberg.org/ideasman42/emacs-shift-number")
-		 (:commit . "ab412a7af647c230fa1d316dc0e6a0c289986e16")
-		 (:revdesc . "ab412a7af647")
+		 (:commit . "4dfa414a498fa279a17595fb83b3d6aba4f3e1d0")
+		 (:revdesc . "4dfa414a498f")
 		 (:keywords "convenience")
 		 (:authors
 		  ("Alex Kost" . "alezost@gmail.com"))
@@ -80599,7 +80599,7 @@
 			      (:revdesc . "57911a5065a6")
 			      (:keywords "convenience" "tools"))])
  (transient .
-	    [(0 1 0 1 -4 20260504 1514)
+	    [(0 1 0 1 -4 20260504 2028)
 	     ((emacs
 	       (28 1))
 	      (compat
@@ -80610,8 +80610,8 @@
 	       (2 24)))
 	     "Transient commands" tar
 	     ((:url . "https://github.com/magit/transient")
-	      (:commit . "30e45edb782b5d8ee068ac6a85c49b1770396e74")
-	      (:revdesc . "30e45edb782b")
+	      (:commit . "9620a5756d708755673a328a44e5c06832c3b3b6")
+	      (:revdesc . "9620a5756d70")
 	      (:keywords "extensions")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
@@ -80914,15 +80914,15 @@
 			("Erick Navarro" . "erick@navarro.io"))
 		       (:maintainer "Erick Navarro" . "erick@navarro.io"))])
  (tree-sitter-langs .
-		    [(0 1 0 1 -4 20260503 1558)
+		    [(0 1 0 1 -4 20260504 1858)
 		     ((emacs
 		       (26 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
 		     ((:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs")
-		      (:commit . "a247cc323f2e29f27f91710a7b0e1ff9f6238fff")
-		      (:revdesc . "a247cc323f2e")
+		      (:commit . "1b5f12975800785e5e1af4e5345c4f5005ef2411")
+		      (:revdesc . "1b5f12975800")
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
@@ -85551,13 +85551,13 @@
 		 ("Kris Jenkins" . "krisajenkins@gmail.com"))
 		(:maintainer "Kris Jenkins" . "krisajenkins@gmail.com"))])
  (with-command-redo .
-		    [(0 1 0 1 -4 20260429 1415)
+		    [(0 1 0 1 -4 20260504 2116)
 		     ((emacs
 		       (29 1)))
 		     "Repeat commands with automatic undo" tar
 		     ((:url . "https://codeberg.org/ideasman42/emacs-with-command-redo")
-		      (:commit . "f364332837ae7c7a8d0ab78460e499bfc2b74155")
-		      (:revdesc . "f364332837ae")
+		      (:commit . "d1c4be4bb3fb22dff8fcfb562912760be3a685e8")
+		      (:revdesc . "d1c4be4bb3fb")
 		      (:authors
 		       ("Campbell Barton" . "ideasman42@gmail.com"))
 		      (:maintainers
