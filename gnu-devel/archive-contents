@@ -1386,13 +1386,13 @@
       (:authors ("Protesilaos" . "info@protesilaos.com"))
       (:commit . "3fc26bc0337f2067dd5f89aa1a506067c00ceb92"))])
  (forgejo
-  . [(0 1 4 0 20260504 135909) ((emacs (29 1)) (keymap-popup (0 2 1)))
+  . [(0 1 5 0 20260505 60558) ((emacs (29 1)) (keymap-popup (0 2 1)))
      "Emacs Forgejo Front-end" tar
      ((:url . "https://codeberg.org/thanosapollo/emacs-forgejo")
       (:keywords "tools" "vc" "git" "forgejo")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Thanos Apollo" . "public@thanosapollo.org"))
-      (:commit . "e7e55e6ba2dc50a16987215a438239e2501b7be7"))])
+      (:commit . "5be4638ffe64b7468a00e2d664a6a01c2cdd827a"))])
  (frame-tabs
   . [(1 1 0 20221221 75627) nil "show buffer tabs in side window" tar
      ((:keywords "frames" "tabs")
@@ -1426,13 +1426,13 @@
       (:authors ("Yuan Fu" . "casouri@gmail.com"))
       (:commit . "d7c243ac3be2a67986f53f3dc31ba1426e82b771"))])
  (futur
-  . [(1 7 0 20260428 174845) nil "Future/promise-based async library"
+  . [(1 7 0 20260504 172949) nil "Future/promise-based async library"
      tar
      ((:keywords "concurrency" "async" "promises" "futures")
       (:maintainer "Stefan Monnier" . "monnier@iro.umontreal.ca")
       (:authors ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
       (:url . "https://elpa.gnu.org/packages/futur.html")
-      (:commit . "e02331ff9212868ac29644cd32c12dee4ace8375"))])
+      (:commit . "d1aad2040821db919f5c2478743a30fa95f93cad"))])
  (gcmh
   . [(0 2 1 0 20201116 225142) ((emacs (24)))
      "the Garbage Collector Magic Hack" tar
@@ -1495,14 +1495,14 @@
       (:url . "https://elpa.gnu.org/packages/gnorb.html")
       (:commit . "409e4fc2c83f8406f362028dbcc3a1fc21182819"))])
  (gnosis
-  . [(0 10 4 0 20260501 121033)
+  . [(0 10 4 0 20260505 44407)
      ((emacs (29 1)) (compat (29 1 4 2)) (keymap-popup (0 2 0)))
      "Knowledge System" tar
      ((:url . "https://codeberg.org/thanosapollo/emacs-gnosis")
       (:keywords "extensions")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Thanos Apollo" . "public@thanosapollo.org"))
-      (:commit . "b90e613c6ecce8287671a6b78eb136fdb91fe805"))])
+      (:commit . "91e2dad5cb934ffdf979228b3aeab15ad1b5cc72"))])
  (gnu-elpa
   . [(1 1 0 20221212 224322) ((emacs (25 1)))
      "Advertise GNU ELPA packages" tar
@@ -1867,13 +1867,13 @@
       (:url . "https://elpa.gnu.org/packages/jumpc.html")
       (:commit . "ab83a2a5416f83405361e25df8cbd8aab35cb8b3"))])
  (keymap-popup
-  . [(0 2 5 0 20260504 183059) ((emacs (29 1)))
+  . [(0 2 5 0 20260505 41323) ((emacs (29 1)))
      "Described keymaps with popup help" tar
      ((:url . "https://codeberg.org/thanosapollo/emacs-keymap-popup")
       (:keywords "convenience")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Thanos Apollo" . "public@thanosapollo.org"))
-      (:commit . "086636bb2236466b60e85a1d84b24d7ebfeeacaf"))])
+      (:commit . "db62e009aec8f6ec4c764c534eb9477307dab6b5"))])
  (kind-icon
   . [(0 2 2 0 20250311 112658) ((emacs (27 1)) (svg-lib (0 2 8)))
      "Completion kind icons" tar
@@ -3113,6 +3113,14 @@
       (:authors ("Eric Schulte" . "schulte.eric@gmail.com"))
       (:url . "https://elpa.gnu.org/packages/shen-mode.html")
       (:commit . "5719bb7e5fd62b08ff73ca21b58db87263fd0202"))])
+ (shift-number
+  . [(0 2 0 20260504 211225) ((emacs (28 1)))
+     "Increase/decrease the number at point" tar
+     ((:url . "https://codeberg.org/ideasman42/emacs-shift-number")
+      (:keywords "convenience")
+      (:maintainer "Alex Kost" . "alezost@gmail.com")
+      (:authors ("Alex Kost" . "alezost@gmail.com"))
+      (:commit . "4dfa414a498fa279a17595fb83b3d6aba4f3e1d0"))])
  (show-font
   . [(1 0 0 0 20260424 102736) ((emacs (29 1)))
      "Show font features in a buffer" tar
@@ -3468,7 +3476,7 @@
 		("Protesilaos Stavrou" . "info@protesilaos.com"))
       (:commit . "06f1be349e9c3d124520b18742911307de9abda3"))])
  (timeout
-  . [(2 1 6 0 20260502 120806) ((emacs (24 4)))
+  . [(2 1 6 0 20260504 161229) ((emacs (24 4)))
      "Throttle or debounce Elisp functions" tar
      ((:url . "https://github.com/karthink/timeout")
       (:keywords "convenience" "extensions")
@@ -3476,7 +3484,7 @@
 		   . "karthikchikmagalur@gmail.com")
       (:authors
        ("Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))
-      (:commit . "60b5ab7774f30fd12b9927e93b4d43fafb1fe925"))])
+      (:commit . "b1212984709c4b50c509ef6d3bd959951e5dcc91"))])
  (timerfunctions
   . [(1 4 2 0 20221221 82440) ((cl-lib (0 5)) (emacs (24)))
      "Enhanced versions of some timer.el functions" tar
@@ -3942,6 +3950,14 @@
       (:maintainer "Stephen Leake" . "stephen_leake@stephe-leake.org")
       (:authors ("Stephen Leake" . "stephen_leake@stephe-leake.org"))
       (:commit . "e3ceac0f8c8ea4d742497b71141886c810fffef6"))])
+ (with-command-redo
+  . [(0 1 0 20260504 211611) ((emacs (29 1)))
+     "Repeat commands with automatic undo" tar
+     ((:url
+       . "https://codeberg.org/ideasman42/emacs-with-command-redo")
+      (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
+      (:authors ("Campbell Barton" . "ideasman42@gmail.com"))
+      (:commit . "d1c4be4bb3fb22dff8fcfb562912760be3a685e8"))])
  (wpuzzle
   . [(1 1 0 20221221 82918) nil "find as many word in a given time"
      tar

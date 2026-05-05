@@ -636,13 +636,14 @@
       (:authors ("Chen Bin" . "chenbin.sh@gmail.com"))
       (:commit . "ae52c5070a48793e2c24474c9c8dbf20175d18a0"))])
  (evil-numbers
-  . [(0 7 0 20260102 82951) ((emacs (24 1)) (evil (1 2 0)))
+  . [(0 8 0 20260103 85055)
+     ((emacs (24 1)) (evil (1 2 0)) (shift-number (0 2)))
      "Increment/decrement numbers like in VIM" tar
      ((:url . "http://github.com/juliapath/evil-numbers")
       (:keywords "convenience" "tools")
       (:maintainer "Julia Path" . "julia@jpath.de")
       (:authors ("Michael Markert" . "markert.michael@googlemail.com"))
-      (:commit . "e7adac70a076ae381c03960d9d669071c1177f3a"))])
+      (:commit . "616aff9e5cee012954756ed2715209fa90308cdf"))])
  (evil-surround
   . [(1 0 4 0 20240325 85222) ((evil (1 2 12)))
      "emulate surround.vim from Vim" tar
@@ -933,7 +934,7 @@
       (:authors ("David Andersson" . "l.david.anderssonsverige.nu"))
       (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel
-  . [(0 9 9 5 0 20260503 224204)
+  . [(0 9 9 5 0 20260505 3256)
      ((emacs (27 1)) (transient (0 7 4)) (compat (30 1 0 0)))
      "Interact with ChatGPT or other LLMs" tar
      ((:url . "https://github.com/karthink/gptel")
@@ -942,7 +943,7 @@
 		   . "karthik.chikmagalur@gmail.com")
       (:authors
        ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-      (:commit . "f5ad4eb812920fba3fcfbe32042ef89f979a7e17"))])
+      (:commit . "157872c58777b9f98f27877a4626a741d8f6ba22"))])
  (graphql-mode
   . [(1 0 0 0 20260330 140853) ((emacs (25 1)))
      "Major mode for editing GraphQL schemas" tar
@@ -1435,12 +1436,12 @@
       (:authors ("Yilkal Argaw" . "yilkalargawworkneh@gmail.com"))
       (:commit . "b4e7abc019179df473ecddf0af80561ddad8fc58"))])
  (org-contrib
-  . [(0 8 0 20260221 192041) ((emacs (25 1)) (org (9 4 6)))
+  . [(0 8 0 20260505 72437) ((emacs (25 1)) (org (9 4 6)))
      "Unmaintained add-ons for Org-mode" tar
      ((:url . "https://git.sr.ht/~bzg/org-contrib") (:keywords "org")
       (:maintainer "Bastien Guerry" . "bzg@gnu.org")
       (:authors ("Bastien Guerry" . "bzg@gnu.org"))
-      (:commit . "b840bdabd1867f9d51ee36bef7bac4be7073288c"))])
+      (:commit . "82f94c5612c20286d234613f0ce0d92eac2c0845"))])
  (org-drill
   . [(2 7 0 0 20210428 101221)
      ((emacs (25 3)) (seq (2 14)) (org (9 3)) (persist (0 3)))
@@ -1681,12 +1682,13 @@
       (:authors ("Hinrik rn Sigurðsson" . "hinrik.sig@gmail.com"))
       (:commit . "d06baaa2e881470dddb97193713f9f0a278942ad"))])
  (recomplete
-  . [(0 2 0 20260403 113038) ((emacs (29 1)))
+  . [(0 2 0 20260504 120143)
+     ((emacs (29 1)) (with-command-redo (0 1)))
      "Immediately (re)complete actions" tar
      ((:url . "https://codeberg.org/ideasman42/emacs-recomplete")
       (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
       (:authors ("Campbell Barton" . "ideasman42@gmail.com"))
-      (:commit . "4347e8d735cde00b0a6b65124f23eac58bbb8c01"))])
+      (:commit . "d8e2b35a65910fee40cebee39153c1e6bc462cc1"))])
  (reformatter
   . [(0 8 0 20251121 93526) ((emacs (24 3)))
      "Define commands which run reformatters on the current buffer"
@@ -1805,11 +1807,11 @@
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
       (:commit . "eaa2d858591f0ef268871eb50307c9aa0c8aabdf"))])
  (slime
-  . [(2 32 -4 0 20260430 115319) ((emacs (24 3)) (macrostep (0 9)))
+  . [(2 32 -4 0 20260505 41242) ((emacs (24 3)) (macrostep (0 9)))
      "Superior Lisp Interaction Mode for Emacs" tar
      ((:url . "https://github.com/slime/slime")
       (:keywords "languages" "lisp" "slime")
-      (:commit . "1a285a4a19d3e311bb4eea0b21b6a28d80ec2a9c"))])
+      (:commit . "f866611800814f60f8b9845f9b4eddf617721383"))])
  (sly
   . [(1 0 43 0 20260402 224912) ((emacs (24 5)))
      "Sylvester the Cat's Common Lisp IDE" tar
