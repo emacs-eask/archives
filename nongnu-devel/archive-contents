@@ -469,18 +469,18 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(3 4 2 0 20260506 74422) ((emacs (28 1)) (compat (31)))
+  . [(3 4 2 0 20260506 192858) ((emacs (28 1)) (compat (31)))
      "An Emacs Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
-      (:keywords "network" "hypermedia")
+      (:keywords "network" "comm" "hypermedia")
       (:maintainer
        ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com")
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "d21897b34073c680eabae909e764ffa56cda0925"))])
+      (:commit . "6c9796f4172619a634b5a5c0f6dc14cfdcdf8797"))])
  (elfeed-web
-  . [(3 4 2 0 20260502 202926)
+  . [(3 4 2 0 20260506 80413)
      ((emacs (28 1)) (compat (31)) (elfeed (3 4 2))
       (simple-httpd (1 5 1)))
      "Web interface to Elfeed" tar
@@ -491,7 +491,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "907bafd3ac6954a92d50a2ca0208000c532d0ead"))])
+      (:commit . "9785bb593f1651df54aac1fee414ad36307e6557"))])
  (elixir-mode
   . [(2 5 0 0 20230626 143859) ((emacs (25)))
      "Major mode for editing Elixir files" tar
@@ -897,13 +897,13 @@
       (:authors ("Akib Azmain Turja" . "akib@disroot.org"))
       (:commit . "f31dbe60478b6270bb57b6b05998df8eec56f801"))])
  (gnuplot
-  . [(0 11 0 20260502 103134) ((emacs (28 1)) (compat (31)))
+  . [(0 11 0 20260506 194622) ((emacs (28 1)) (compat (31)))
      "Major-mode and interactive frontend for gnuplot" tar
      ((:url . "https://github.com/emacs-gnuplot/gnuplot")
       (:keywords "data" "gnuplot" "plotting")
       (:maintainer ("Maxime Tréca" . "maxime@gmail.com")
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "ef08de51912c188bdcec3040575749973f4764b6"))])
+      (:commit . "58b83997715dc88c7df398c41b4f6a1e6fecacd2"))])
  (go-mode
   . [(1 6 0 0 20250311 20239) ((emacs (26 1)))
      "Major mode for the Go programming language" tar
@@ -1081,12 +1081,12 @@
       (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
       (:commit . "83aa002c837fc6c6e4ce7069c169875beeb1d41e"))])
  (idris-mode
-  . [(1 1 0 0 20260209 110723)
+  . [(1 1 0 0 20260506 103041)
      ((emacs (24)) (prop-menu (0 1)) (cl-lib (0 5)))
      "Major mode for editing Idris code" tar
      ((:url . "https://github.com/idris-hackers/idris-mode")
       (:keywords "languages")
-      (:commit . "d32b2396a8ad17820e308cd267f1b464a5235abc"))])
+      (:commit . "7211af2fc8a6739a81de1f8e37082f914718ecbf"))])
  (iedit
   . [(0 9 9 9 9 0 20251013 114841) nil
      "Edit multiple regions in the same way simultaneously." tar
@@ -1278,7 +1278,7 @@
       (:authors ("Jon Oddie" . "j.j.oddie@gmail.com"))
       (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit
-  . [(4 5 0 0 20260504 202633)
+  . [(4 5 0 0 20260506 71719)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (magit-section (4 5)) (seq (2 24)) (transient (0 13))
       (with-editor (3 4)))
@@ -1290,9 +1290,9 @@
        ("Kyle Meyer" . "kyle@kyleam.com"))
       (:authors ("Marius Vollmer" . "marius.vollmer@gmail.com")
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "0417e65917c6fed4bf0f6a86e6b184d7b89f42c4"))])
+      (:commit . "3d0a424665b36a6ff48ec3119a8aa9de92d6e293"))])
  (magit-section
-  . [(4 5 0 0 20260504 202633)
+  . [(4 5 0 0 20260506 71719)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (seq (2 24)))
      "Sections for read-only buffers" tar
@@ -1301,7 +1301,7 @@
 		   . "emacs.magit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "0417e65917c6fed4bf0f6a86e6b184d7b89f42c4"))])
+      (:commit . "3d0a424665b36a6ff48ec3119a8aa9de92d6e293"))])
  (markdown-mode
   . [(2 9 -3 0 20260425 95459) ((emacs (28 1)))
      "Major mode for Markdown-formatted text" tar
@@ -1798,14 +1798,14 @@
       (:authors ("Chen Bin" . "chenbin.sh@gmail.com"))
       (:commit . "173e4d632c94af6670869729c09bfb8ba484d257"))])
  (simple-httpd
-  . [(1 5 1 0 20260505 174507) ((emacs (27 1)) (compat (31)))
+  . [(1 5 1 0 20260506 102140) ((emacs (27 1)) (compat (31)))
      "Pure Elisp HTTP server" tar
      ((:url . "https://github.com/skeeto/emacs-http-server")
       (:keywords "network" "comm")
       (:maintainer ("Philip Kaludercic" . "philipk@posteo.net")
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "ffe5956bc539999b77021745fd1da118c76037d2"))])
+      (:commit . "9b4b33c7cf5e9ce40ed6a43abb0e8cb70fd5072b"))])
  (slime
   . [(2 32 -4 0 20260505 41242) ((emacs (24 3)) (macrostep (0 9)))
      "Superior Lisp Interaction Mode for Emacs" tar
@@ -2142,7 +2142,7 @@
       (:authors ("Akib Azmain Turja" . "akib@disroot.org"))
       (:commit . "5203d9379afaf6703746823a580c804e1dd98e08"))])
  (with-editor
-  . [(3 5 0 0 20260504 175058) ((emacs (26 1)) (compat (31 0)))
+  . [(3 5 0 0 20260506 71738) ((emacs (26 1)) (compat (31 0)))
      "Use the Emacsclient as $EDITOR" tar
      ((:url . "https://github.com/magit/with-editor")
       (:keywords "processes" "terminals")
@@ -2150,7 +2150,7 @@
 		   . "emacs.with-editor@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev"))
-      (:commit . "0dde0a08cd121703d001bd85a06d1fa0b3b73228"))])
+      (:commit . "f8f56876966e17566e129df183c46a26da10b04a"))])
  (with-simulated-input
   . [(3 0 0 20210602 224623) ((emacs (24 4)))
      "A macro to simulate user input non-interactively" tar
