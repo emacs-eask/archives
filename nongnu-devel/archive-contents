@@ -259,11 +259,15 @@
       (:authors ("Chris Wanstrath" . "chris@ozmm.org"))
       (:commit . "1c6adeae14f3795d3b1e44321189ed7c2c93c967"))])
  (cond-let
-  . [(1 0 0 0 20260430 223624) ((emacs (28 1)))
+  . [(1 0 0 0 20260508 94836) ((emacs (28 1)))
      "Additional and improved binding conditionals" tar
      ((:url . "https://github.com/tarsius/cond-let")
       (:keywords "extensions")
-      (:commit . "28d3b039a9c1f27ecfea36a7df4c37a3b90e4687"))])
+      (:maintainer "Jonas Bernoulli"
+		   . "emacs.cond-let@jonas.bernoulli.dev")
+      (:authors
+       ("Jonas Bernoulli" . "emacs.cond-let@jonas.bernoulli.dev"))
+      (:commit . "11ad84719620461ade38796367a3120d2ecbeb77"))])
  (consult-flycheck
   . [(1 1 0 20260330 61817)
      ((emacs (29 1)) (consult (2 8)) (flycheck (35)))
@@ -469,7 +473,7 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(3 4 2 0 20260507 222349) ((emacs (28 1)) (compat (31)))
+  . [(3 4 2 0 20260508 183551) ((emacs (28 1)) (compat (31)))
      "An Emacs Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
       (:keywords "network" "comm" "hypermedia")
@@ -478,7 +482,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "3fd9f928778d1c4fe7dba9baf6f4418da2ad4cd1"))])
+      (:commit . "10979f3bde1c142b18491ce80c17172d851e54a5"))])
  (elfeed-web
   . [(3 4 2 0 20260506 80413)
      ((emacs (28 1)) (compat (31)) (elfeed (3 4 2))
@@ -1205,11 +1209,15 @@
       (:authors ("martian hiatus" . "mousebot@disroot.org"))
       (:commit . "a0f4fa89fe73dfe7412f5d25d6e0619abf8cff14"))])
  (llama
-  . [(1 0 4 0 20260504 173431) ((emacs (26 1)) (compat (31 0)))
+  . [(1 0 4 0 20260508 94934) ((emacs (26 1)) (compat (31 0)))
      "Compact syntax for short lambda" tar
      ((:url . "https://github.com/tarsius/llama")
       (:keywords "extensions")
-      (:commit . "57a8988eb4a624dd1efc583412fe8660741eaa50"))])
+      (:maintainer "Jonas Bernoulli"
+		   . "emacs.llama@jonas.bernoulli.dev")
+      (:authors
+       ("Jonas Bernoulli" . "emacs.llama@jonas.bernoulli.dev"))
+      (:commit . "e6d2127c12d43a923b86341cb160c8c23c3a2e0d"))])
  (logview
   . [(0 19 4 -4 0 20260218 201306)
      ((emacs (25 1)) (datetime (0 8)) (extmap (1 0)) (compat (29)))
