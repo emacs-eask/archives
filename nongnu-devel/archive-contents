@@ -473,7 +473,7 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(3 4 2 0 20260508 183551) ((emacs (28 1)) (compat (31)))
+  . [(3 4 2 0 20260508 235758) ((emacs (28 1)) (compat (31)))
      "An Emacs Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
       (:keywords "network" "comm" "hypermedia")
@@ -482,7 +482,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "10979f3bde1c142b18491ce80c17172d851e54a5"))])
+      (:commit . "73082fdb508ee763aa350a193e085cb24f8ec029"))])
  (elfeed-web
   . [(3 4 2 0 20260506 80413)
      ((emacs (28 1)) (compat (31)) (elfeed (3 4 2))
@@ -688,22 +688,22 @@
       (:authors ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
       (:commit . "bb4867e13ec7480d4dbc1d99888627e4cc8ef2f6"))])
  (fedi
-  . [(0 3 0 20260223 132625) ((emacs (28 1)) (markdown-mode (2 5)))
+  . [(0 3 0 20260509 80041) ((emacs (28 1)) (markdown-mode (2 5)))
      "Helper functions for fediverse clients" tar
      ((:url . "https://codeberg.org/martianh/fedi.el")
-      (:maintainer "Marty Hiatt" . "mousebot@disroot.org")
-      (:authors ("Marty Hiatt" . "mousebot@disroot.org"))
-      (:commit . "74fab520f1d008f5a389a673616a617c03c74600"))])
+      (:maintainer "Marty Hiatt" . "martianh@disroot.org")
+      (:authors ("Marty Hiatt" . "martianh@disroot.org"))
+      (:commit . "61fbd83977fe8b62e5e0337bc28e4cf8e1b32ea7"))])
  (fj
-  . [(0 36 0 20260427 80049)
+  . [(0 37 0 20260509 74153)
      ((emacs (29 1)) (fedi (0 2)) (tp (0 8)) (transient (0 10 0))
       (magit (4 3 8)))
      "Client for Forgejo instances" tar
      ((:url . "https://codeberg.org/martianh/fj.el")
       (:keywords "git" "convenience")
-      (:maintainer "Marty Hiatt" . "mousebot@disroot.org")
-      (:authors ("Marty Hiatt" . "mousebot@disroot.org"))
-      (:commit . "c4030fda8a7b52ebb290069028655dfb00a65dfb"))])
+      (:maintainer "Marty Hiatt" . "martianh@disroot.org")
+      (:authors ("Marty Hiatt" . "martianh@disroot.org"))
+      (:commit . "4832dcfcd167d1975bb44a024881c75fef64182e"))])
  (flx
   . [(0 6 2 0 20240204 195634) ((cl-lib (0 3)))
      "fuzzy matching with good sorting" tar
@@ -1200,14 +1200,14 @@
       (:authors ("Shodai Yokoyama" . "(quantumcars@gmail.com)"))
       (:commit . "fddd747e5b4736e8b27a147960f369b86179ddff"))])
  (lem
-  . [(0 24 0 20250806 92416)
+  . [(0 25 0 20260509 75856)
      ((emacs (29 1)) (fedi (0 2)) (markdown-mode (2 5)))
      "A lemmy client" tar
      ((:url . "https://codeberg.org/martianh/lem.el")
       (:keywords "multimedia" "comm" "web" "fediverse")
-      (:maintainer "martian hiatus" . "mousebot@disroot.org")
-      (:authors ("martian hiatus" . "mousebot@disroot.org"))
-      (:commit . "a0f4fa89fe73dfe7412f5d25d6e0619abf8cff14"))])
+      (:maintainer "martian hiatus" . "martianh@disroot.org")
+      (:authors ("martian hiatus" . "martianh@disroot.org"))
+      (:commit . "3abd1604c3ab9451dcbc087099c499e6dc8882d7"))])
  (llama
   . [(1 0 4 0 20260508 94934) ((emacs (26 1)) (compat (31 0)))
      "Compact syntax for short lambda" tar
@@ -1320,14 +1320,14 @@
       (:authors ("Jason R. Blevins" . "jblevins@xbeta.org"))
       (:commit . "1f72cefa6a4b759f90e335e4908725a721b17ad9"))])
  (mastodon
-  . [(2 0 16 0 20260406 85635)
+  . [(2 0 17 0 20260509 74935)
      ((emacs (29 1)) (persist (0 8)) (tp (0 8)))
      "Client for fediverse services using the Mastodon API" tar
      ((:url . "https://codeberg.org/martianh/mastodon.el")
-      (:maintainer "Marty Hiatt" . "mousebot@disroot.org")
+      (:maintainer "Marty Hiatt" . "martianh@disroot.org")
       (:authors ("Johnson Denen" . "johnson.denen@gmail.com")
-		("Marty Hiatt" . "mousebot@disroot.org"))
-      (:commit . "5bba23045efda9f63c36ac431bec8f318a55e76a"))])
+		("Marty Hiatt" . "martianh@disroot.org"))
+      (:commit . "4b30b2d96625e23325ff3727daa30969b6fe2eed"))])
  (material-theme
   . [(2015 0 20210904 122621) ((emacs (24 1)))
      "A Theme based on the colors of the Google Material Design" tar
@@ -1816,11 +1816,11 @@
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
       (:commit . "9b4b33c7cf5e9ce40ed6a43abb0e8cb70fd5072b"))])
  (slime
-  . [(2 32 -4 0 20260507 183155) ((emacs (24 3)) (macrostep (0 9)))
+  . [(2 32 -4 0 20260508 233053) ((emacs (24 3)) (macrostep (0 9)))
      "Superior Lisp Interaction Mode for Emacs" tar
      ((:url . "https://github.com/slime/slime")
       (:keywords "languages" "lisp" "slime")
-      (:commit . "9a78738922f89c9eab9693219130a175ccbc1fc0"))])
+      (:commit . "897b3f47c41f785c800adfede5d83f12b86cf9b7"))])
  (sly
   . [(1 0 43 0 20260402 224912) ((emacs (24 5)))
      "Sylvester the Cat's Common Lisp IDE" tar

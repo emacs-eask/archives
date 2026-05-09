@@ -173,13 +173,13 @@
       (:authors ("John Wiegley" . "jwiegley@gmail.com"))
       (:commit . "5faab28916603bb324d9faba057021ce028ca847"))])
  (auctex
-  . [(14 1 2 0 20260331 191333) ((emacs (28 1)))
+  . [(14 1 2 0 20260508 192927) ((emacs (28 1)))
      "Integrated environment for *TeX*" tar
      ((:url . "https://www.gnu.org/software/auctex/")
       (:keywords "tex" "latex" "texinfo" "context" "doctex"
 		 "preview-latex")
       (:maintainer nil . "auctex-devel@gnu.org")
-      (:commit . "4dc9c8cc1d3672479665923bd0ae807839d3a64c"))])
+      (:commit . "ba3daad7892f2340227477d1f72ced2864f3cd3d"))])
  (auctex-cont-latexmk
   . [(0 3 0 20250115 185937) ((emacs (29 3)) (auctex (14 0 5)))
      "run latexmk continuously, report errors via Flymake" tar
@@ -478,14 +478,15 @@
       (:authors ("Augusto Stoffel" . "arstoffel@gmail.com"))
       (:commit . "b99013b81712edbb94fdb57cce083d32ad06fbb8"))])
  (colorful-mode
-  . [(1 2 5 0 20260424 194108) ((emacs (28 1)) (compat (30 1 0 0)))
+  . [(1 2 5 0 20260508 152701)
+     ((emacs (28 1)) (compat (31)) (cl-lib (1 0)))
      "Preview any color in your buffer in real time" tar
      ((:url . "https://github.com/DevelopmentCool2449/colorful-mode")
       (:keywords "faces" "tools" "matching" "convenience")
       (:maintainer ("Jen-Chieh" . "jcs090218@gmail.com")
 		   ("Elias G. Perez" . "eg642616@gmail.com"))
       (:authors ("Elias G. Perez" . "eg642616@gmail.com"))
-      (:commit . "13622ae3deeb911aecf827f51aa30679de15e773"))])
+      (:commit . "97a1dc0b3ac6b2706ec3e2f428ea66aea2d91fb6"))])
  (comint-mime
   . [(0 7 0 20241116 123039)
      ((emacs (28 1)) (compat (29 1)) (mathjax (0 1)))
@@ -1386,13 +1387,13 @@
       (:authors ("Protesilaos" . "info@protesilaos.com"))
       (:commit . "3fc26bc0337f2067dd5f89aa1a506067c00ceb92"))])
  (forgejo
-  . [(0 1 6 0 20260507 163649) ((emacs (29 1)) (keymap-popup (0 2 1)))
+  . [(0 1 7 0 20260509 32623) ((emacs (29 1)) (keymap-popup (0 2 1)))
      "Emacs Forgejo Front-end" tar
      ((:url . "https://codeberg.org/thanosapollo/emacs-forgejo")
       (:keywords "tools" "vc" "git" "forgejo")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Thanos Apollo" . "public@thanosapollo.org"))
-      (:commit . "c0d09d7b88a06bda5ed2612a8ba694c7e45a5b41"))])
+      (:commit . "f7f396f91b16ecb4003261ca395b8ade27eb744f"))])
  (frame-tabs
   . [(1 1 0 20221221 75627) nil "show buffer tabs in side window" tar
      ((:keywords "frames" "tabs")
@@ -1816,13 +1817,13 @@
       (:url . "https://elpa.gnu.org/packages/jgraph-mode.html")
       (:commit . "1bd355ecda036f23468d82b803146d3258a84977"))])
  (jinx
-  . [(2 7 0 20260506 194632) ((emacs (29 1)) (compat (31)))
+  . [(2 7 0 20260508 232151) ((emacs (29 1)) (compat (31)))
      "Enchanted Spell Checker" tar
      ((:url . "https://github.com/minad/jinx")
       (:keywords "convenience" "text")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "4d31223f78245f9cd0968e2b795583d375db3a9d"))])
+      (:commit . "b08ec1cde1b67bb153b7d27942f2b0edce8ede82"))])
  (jit-spell
   . [(0 5 0 20251012 84654) ((emacs (27 1)) (compat (29 1)))
      "Just-in-time spell checking" tar
@@ -1867,13 +1868,13 @@
       (:url . "https://elpa.gnu.org/packages/jumpc.html")
       (:commit . "ab83a2a5416f83405361e25df8cbd8aab35cb8b3"))])
  (keymap-popup
-  . [(0 2 7 0 20260507 182928) ((emacs (29 1)))
+  . [(0 2 7 0 20260508 214445) ((emacs (29 1)))
      "Described keymaps with popup help" tar
      ((:url . "https://codeberg.org/thanosapollo/emacs-keymap-popup")
       (:keywords "convenience")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Thanos Apollo" . "public@thanosapollo.org"))
-      (:commit . "4da1f2545acb099a286e03d0f370b35f894e0163"))])
+      (:commit . "f9d424c4d1c44da143b06a00605dc0dd7fc7551c"))])
  (kind-icon
   . [(0 2 2 0 20250311 112658) ((emacs (27 1)) (svg-lib (0 2 8)))
      "Completion kind icons" tar
@@ -2416,13 +2417,13 @@
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
       (:commit . "90d0dec8e566d6d35185a5d8bc57e2c58755352c"))])
  (org
-  . [(10 0 -1 0 20260508 121247) ((emacs (28 2)))
+  . [(10 0 -1 0 20260509 71228) ((emacs (28 2)))
      "Outline-based notes management and organizer" tar
      ((:url . "https://orgmode.org")
       (:keywords "outlines" "hypermedia" "calendar" "text")
       (:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-      (:commit . "f3ab15a71daa5d9449cd88dee242600b8d8d11b1"))])
+      (:commit . "4ff8dbb228fa66e84c80cac920a8b0525739a6bb"))])
  (org-contacts
   . [(1 3 0 20260221 85240) ((emacs (29 1)) (org (9 7)))
      "Contacts management system for Org mode" tar
