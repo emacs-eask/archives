@@ -221,7 +221,7 @@
       (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
       (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider
-  . [(1 22 0 -4 0 20260429 215217)
+  . [(1 22 0 -4 0 20260509 85142)
      ((emacs (28)) (clojure-mode (5 19)) (compat (30))
       (parseedn (1 2 1)) (queue (0 2)) (spinner (1 7)) (seq (2 22))
       (sesman (0 3 2)) (transient (0 4 1)))
@@ -235,7 +235,7 @@
 		("Artur Malabarba" . "bruce.connor.am@gmail.com")
 		("Hugo Duncan" . "hugo@hugoduncan.org")
 		("Steve Purcell" . "steve@sanityinc.com"))
-      (:commit . "e71110778a002e10a7c9763e0e6618a958d0ddb4"))])
+      (:commit . "cf8d69574dc512c07f6e61561a30bca062afa401"))])
  (clojure-mode
   . [(5 23 0 0 20260325 143544) ((emacs (27 1)))
      "Major mode for Clojure code" tar
@@ -473,7 +473,7 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(3 4 2 0 20260508 235758) ((emacs (28 1)) (compat (31)))
+  . [(3 4 2 0 20260509 191536) ((emacs (28 1)) (compat (31)))
      "An Emacs Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
       (:keywords "network" "comm" "hypermedia")
@@ -482,7 +482,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "73082fdb508ee763aa350a193e085cb24f8ec029"))])
+      (:commit . "77f877c112ea033fcc25455680eba6d013987451"))])
  (elfeed-web
   . [(3 4 2 0 20260506 80413)
      ((emacs (28 1)) (compat (31)) (elfeed (3 4 2))
@@ -688,12 +688,12 @@
       (:authors ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
       (:commit . "bb4867e13ec7480d4dbc1d99888627e4cc8ef2f6"))])
  (fedi
-  . [(0 3 0 20260509 80041) ((emacs (28 1)) (markdown-mode (2 5)))
+  . [(0 4 0 20260509 80113) ((emacs (28 1)) (markdown-mode (2 5)))
      "Helper functions for fediverse clients" tar
      ((:url . "https://codeberg.org/martianh/fedi.el")
       (:maintainer "Marty Hiatt" . "martianh@disroot.org")
       (:authors ("Marty Hiatt" . "martianh@disroot.org"))
-      (:commit . "61fbd83977fe8b62e5e0337bc28e4cf8e1b32ea7"))])
+      (:commit . "91f28ee199a499b8d6e1b9c7a0f1c15f8a382198"))])
  (fj
   . [(0 37 0 20260509 74153)
      ((emacs (29 1)) (fedi (0 2)) (tp (0 8)) (transient (0 10 0))
@@ -1150,14 +1150,14 @@
       (:keywords "j" "languages")
       (:commit . "e49ef0692d73b320c281e40d9fa96b2c17073695"))])
  (jabber
-  . [(0 10 6 0 20260504 5110)
+  . [(0 10 7 0 20260509 192638)
      ((emacs (29 1)) (fsm (0 2 0)) (keymap-popup (0 2)))
      "XMPP/Jabber client" tar
      ((:url . "https://codeberg.org/emacs-jabber/emacs-jabber")
       (:keywords "comm")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Magnus Henoch" . "mange@freemail.hu"))
-      (:commit . "b4a5b74f64209ae92ec7368147ab231ba8b3d217"))])
+      (:commit . "f07892905a79686a3fe0e70e68004013fc1e4617"))])
  (jade-mode
   . [(1 0 1 0 20211019 161323) nil
      "Major mode for editing .jade files" tar
@@ -1392,12 +1392,12 @@
       (:authors ("Magnar Sveen" . "magnars@gmail.com"))
       (:commit . "94b8b07a4bab87f803123723b68227565429dfa1"))])
  (nasm-mode
-  . [(1 1 1 0 20250320 164627) ((emacs (24 3)))
+  . [(1 1 1 0 20260509 95321) ((emacs (24 3)))
      "NASM x86 assembly major mode" tar
      ((:url . "https://github.com/skeeto/nasm-mode")
       (:maintainer "Christopher Wellons" . "wellons@nullprogram.com")
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "4e670f6dededab858251670aa5459c950f78d867"))])
+      (:commit . "fab76d8e092419c341b6240fcc7123975db177e1"))])
  (nginx-mode
   . [(1 1 10 0 20240412 40234) nil
      "major mode for editing nginx config files" tar
@@ -1997,13 +1997,13 @@
       (:authors ("Vivek Das Mohapatra" . "vivek@etla.org"))
       (:commit . "6acb5f3cdac840fc2d1e5c4b73a90f4c035d7116"))])
  (tp
-  . [(0 8 0 20260219 143500) ((emacs (28 1)) (transient (0 5 0)))
+  . [(0 9 0 20260509 80242) ((emacs (28 1)) (transient (0 5 0)))
      "Utilities for transient menus that POST to an API" tar
      ((:url . "https://codeberg.org/martianh/tp.el")
       (:keywords "convenience" "api" "requests")
-      (:maintainer "Marty Hiatt" . "mousebot@disroot.org")
-      (:authors ("Marty Hiatt" . "mousebot@disroot.org"))
-      (:commit . "cef3fc2daefbbfc29ad02b7e1f39542b57c72fe8"))])
+      (:maintainer "Marty Hiatt" . "martianh@disroot.org")
+      (:authors ("Marty Hiatt" . "martianh@disroot.org"))
+      (:commit . "a83cd422cca09bc863a7179f1c5b5a35435e0d32"))])
  (treepy
   . [(0 1 3 0 20260313 91605) ((emacs (25 1)))
      "Generic tree traversal tools" tar
