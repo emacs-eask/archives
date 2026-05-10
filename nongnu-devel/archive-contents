@@ -259,7 +259,7 @@
       (:authors ("Chris Wanstrath" . "chris@ozmm.org"))
       (:commit . "1c6adeae14f3795d3b1e44321189ed7c2c93c967"))])
  (cond-let
-  . [(1 0 0 0 20260508 94836) ((emacs (28 1)))
+  . [(1 0 0 0 20260510 181022) ((emacs (28 1)))
      "Additional and improved binding conditionals" tar
      ((:url . "https://github.com/tarsius/cond-let")
       (:keywords "extensions")
@@ -267,7 +267,7 @@
 		   . "emacs.cond-let@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.cond-let@jonas.bernoulli.dev"))
-      (:commit . "11ad84719620461ade38796367a3120d2ecbeb77"))])
+      (:commit . "d87c49286fc442d8b305fdb2357c96eb2cd6c757"))])
  (consult-flycheck
   . [(1 1 0 20260330 61817)
      ((emacs (29 1)) (consult (2 8)) (flycheck (35)))
@@ -473,7 +473,7 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(3 4 2 0 20260510 73842) ((emacs (28 1)) (compat (31)))
+  . [(3 4 2 0 20260510 112803) ((emacs (28 1)) (compat (31)))
      "An Emacs Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
       (:keywords "network" "comm" "hypermedia")
@@ -482,7 +482,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "3dde7b383918b14c1d314a5485a617b792b603a4"))])
+      (:commit . "7a47724e616834dc2bef384f3773d1a53b729600"))])
  (elfeed-web
   . [(3 4 2 0 20260506 80413)
      ((emacs (28 1)) (compat (31)) (elfeed (3 4 2))
@@ -788,13 +788,13 @@
       (:authors ("Akib Azmain Turja" . "akib@disroot.org"))
       (:commit . "ce2ea016a67b200862788e81f0ff1f8f7e4e0454"))])
  (geiser
-  . [(0 33 0 20260509 221846) ((emacs (27 1)) (project (0 8 1)))
+  . [(0 33 0 20260510 185029) ((emacs (27 1)) (project (0 8 1)))
      "GNU Emacs and Scheme talk to each other" tar
      ((:url . "https://gitlab.com/emacs-geiser/")
       (:keywords "languages" "scheme" "geiser")
       (:maintainer "Jose Antonio Ortega Ruiz" . "(jao@gnu.org)")
       (:authors ("Jose Antonio Ortega Ruiz" . "(jao@gnu.org)"))
-      (:commit . "6071202dfec784d53e5e9a6946e9ee06be8e34c6"))])
+      (:commit . "df92f598977a8412c3cd6d02c3f0df6b3a3213ea"))])
  (geiser-chez
   . [(0 18 0 20230707 93440) ((emacs (26 1)) (geiser (0 19)))
      "Chez and Geiser talk to each other" tar
@@ -833,14 +833,14 @@
       (:authors ("András Simonyi" . "andras.simonyi@gmail.com"))
       (:commit . "b8197c6288020371d2a27ca734940564876d5d98"))])
  (geiser-guile
-  . [(0 28 3 0 20240920 3540)
+  . [(0 28 3 0 20260510 173318)
      ((emacs (26 1)) (transient (0 3)) (geiser (0 28 1)))
      "Guile and Geiser talk to each other" tar
      ((:url . "https://gitlab.com/emacs-geiser/guile")
       (:keywords "languages" "guile" "scheme" "geiser")
       (:maintainer "Jose Antonio Ortega Ruiz" . "(jao@gnu.org)")
       (:authors ("Jose Antonio Ortega Ruiz" . "(jao@gnu.org)"))
-      (:commit . "a0f111f8dedd31c593c4ed12c0b99745f3c1340f"))])
+      (:commit . "31d2ab5fc4c4dc589e69dbfa7ad3a6f77410ead7"))])
  (geiser-kawa
   . [(0 0 1 0 20210920 160740) ((emacs (26 1)) (geiser (0 16)))
      "Kawa scheme support for Geiser" tar
@@ -909,11 +909,11 @@
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:commit . "58b83997715dc88c7df398c41b4f6a1e6fecacd2"))])
  (go-mode
-  . [(1 6 0 0 20250311 20239) ((emacs (26 1)))
+  . [(1 6 0 0 20260510 170713) ((emacs (26 1)))
      "Major mode for the Go programming language" tar
      ((:url . "https://github.com/dominikh/go-mode.el")
       (:keywords "languages" "go")
-      (:commit . "0ed3c5227e7f622589f1411b4939c3ee34711ebd"))])
+      (:commit . "8aaaa9d2574d7862ecbbe1ff369e88fe3796c8be"))])
  (golden-ratio
   . [(1 0 1 0 20230912 112557) nil
      "Automatic resizing of Emacs windows to the golden ratio" tar
@@ -1897,13 +1897,13 @@
       (:maintainer "Sacha Chua" . "sacha@sachachua.com")
       (:commit . "e0348d46644e7b2896e50386b57de1251e47220b"))])
  (sweeprolog
-  . [(0 27 6 0 20250624 64526) ((emacs (27 1)) (compat (29 1 4 2)))
+  . [(0 27 6 0 20260510 162905) ((emacs (27 1)) (compat (29 1 4 2)))
      "Embedded SWI-Prolog" tar
      ((:url . "https://git.sr.ht/~eshel/sweep")
       (:keywords "prolog" "languages" "extensions")
       (:maintainer "Eshel Yaron" . "~eshel/dev@lists.sr.ht")
       (:authors ("Eshel Yaron" . "me@eshelyaron.com"))
-      (:commit . "974650db04bc1324fba44facbd2542677f3f98b4"))])
+      (:commit . "3ed24d3e9f57e5b3a7915dd46ce5219557e1033d"))])
  (swift-mode
   . [(10 0 0 0 20260510 54017) ((emacs (25 2)))
      "Major-mode for Apple's Swift programming language" tar
