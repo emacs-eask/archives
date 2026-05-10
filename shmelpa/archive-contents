@@ -1215,7 +1215,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260510 1500)
+	      [(0 1 0 1 -4 20260510 1537)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1224,8 +1224,8 @@
 		 (0 11 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "88b50a306601b7bfa3c07e88dfe0d3bc7826c70e")
-		(:revdesc . "88b50a306601"))])
+		(:commit . "7e74d620dd5d43f99fe9080c815770e9afe7e28d")
+		(:revdesc . "7e74d620dd5d"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -1337,7 +1337,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260510 157)
+	  [(0 1 0 1 -4 20260510 1603)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1346,8 +1346,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Copilot CLI, Claude Code, Gemini CLI, Opencode, Kilo, Grok CLI, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "dfd167f07958e87d72e31e48e047c032cadc684f")
-	    (:revdesc . "dfd167f07958")
+	    (:commit . "9c73697d4321cb34ba241a7f30efdbbc4ceed109")
+	    (:revdesc . "9c73697d4321")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -2475,6 +2475,14 @@
 		  (:maintainers
 		   ("Alex Murray" . "murray.alex@gmail.com"))
 		  (:maintainer "Alex Murray" . "murray.alex@gmail.com"))])
+ (apple-container-tramp .
+			[(0 1 0 1 -4 20260504 1350)
+			 ((emacs
+			   (24 3)))
+			 "TRAMP integration for apple container" tar
+			 ((:url . "https://github.com/major1201/apple-container-tramp.el")
+			  (:commit . "f47d58d029c594f4c9e9b1cfff79630de68a9cb5")
+			  (:revdesc . "f47d58d029c5"))])
  (applescript-mode .
 		   [(0 1 1 -4 20210802 1715)
 		    ((emacs
@@ -8862,6 +8870,20 @@
 		(:commit . "2308cc819760e4163617210f883c1475a6c5fd59")
 		(:revdesc . "2308cc819760")
 		(:keywords "tools" "convenience"))])
+ (claude-code-context .
+		      [(0 1 0 1 -4 20260503 2210)
+		       ((emacs
+			 (27 1)))
+		       "Share buffer context with Claude Code" tar
+		       ((:url . "https://github.com/lukehoersten/claude-code-context")
+			(:commit . "1e9062b0bc5e0d4f3f9f98a349b6ed9c775360ca")
+			(:revdesc . "1e9062b0bc5e")
+			(:keywords "tools" "ai" "convenience")
+			(:authors
+			 ("Luke Hoersten" . "Luke@Hoersten.org"))
+			(:maintainers
+			 ("Luke Hoersten" . "Luke@Hoersten.org"))
+			(:maintainer "Luke Hoersten" . "Luke@Hoersten.org"))])
  (claude-shell .
 	       [(0 1 0 1 -4 20241130 2024)
 		((emacs
@@ -24196,7 +24218,7 @@
 		      ("Andrew Smith" . "andy.bill.smith@gmail.com"))
 		     (:maintainer "Andrew Smith" . "andy.bill.smith@gmail.com"))])
  (evil-ghostel .
-	       [(0 1 0 1 -4 20260509 1410)
+	       [(0 1 0 1 -4 20260510 1644)
 		((emacs
 		  (28 1))
 		 (evil
@@ -24205,8 +24227,8 @@
 		  (0 8 0)))
 		"Evil-mode integration for ghostel" tar
 		((:url . "https://github.com/dakra/ghostel")
-		 (:commit . "3a91b5c1061f78f133d5e08dc95b6d401f091a68")
-		 (:revdesc . "3a91b5c1061f")
+		 (:commit . "aee6a5af08a881d87605dc7c95d2d939298b1353")
+		 (:revdesc . "aee6a5af08a8")
 		 (:authors
 		  ("Daniel Kraus" . "daniel@kraus.my"))
 		 (:maintainers
@@ -30063,6 +30085,22 @@
 	    (:maintainers
 	     ("Jari Aalto" . "jariaaltoATcantedtnet"))
 	    (:maintainer "Jari Aalto" . "jariaaltoATcantedtnet"))])
+ (folgezett .
+	    [(0 1 0 1 -4 20260510 1449)
+	     ((emacs
+	       (27 2))
+	      (org-roam
+	       (2 0 0)))
+	     "Folgezettel IDs for org-roam" tar
+	     ((:url . "https://github.com/landerwells/folgezett.el")
+	      (:commit . "9bc112c7d97700adcaa3a6017f78ce6d764d4ad5")
+	      (:revdesc . "9bc112c7d977")
+	      (:keywords "outlines" "tools" "org-roam" "zettelkasten")
+	      (:authors
+	       ("Lander Wells" . "landerwells@gmail.com"))
+	      (:maintainers
+	       ("Lander Wells" . "landerwells@gmail.com"))
+	      (:maintainer "Lander Wells" . "landerwells@gmail.com"))])
  (font-lock-profiler .
 		     [(0 1 0 1 -4 20250104 2246)
 		      ((emacs
@@ -31319,7 +31357,7 @@
 		   ("András Simonyi" . "andras.simonyi@gmail.com"))
 		  (:maintainer "András Simonyi" . "andras.simonyi@gmail.com"))])
  (geiser-guile .
-	       [(0 28 3 1 -4 20240920 35)
+	       [(0 1 0 1 -4 20260510 1733)
 		((emacs
 		  (26 1))
 		 (transient
@@ -31328,8 +31366,8 @@
 		  (0 28 1)))
 		"Guile and Geiser talk to each other" tar
 		((:url . "https://gitlab.com/emacs-geiser/guile")
-		 (:commit . "a0f111f8dedd31c593c4ed12c0b99745f3c1340f")
-		 (:revdesc . "a0f111f8dedd")
+		 (:commit . "31d2ab5fc4c4dc589e69dbfa7ad3a6f77410ead7")
+		 (:revdesc . "31d2ab5fc4c4")
 		 (:keywords "languages" "guile" "scheme" "geiser")
 		 (:authors
 		  ("Jose Antonio Ortega Ruiz" . "(jao@gnu.org)"))
@@ -31731,15 +31769,15 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20260510 1418)
+	  [(0 1 0 1 -4 20260510 1644)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30 1 0 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "6bffc2b5869eb05359d896bebe70777b7d227d3f")
-	    (:revdesc . "6bffc2b5869e")
+	    (:commit . "aee6a5af08a881d87605dc7c95d2d939298b1353")
+	    (:revdesc . "aee6a5af08a8")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -33019,6 +33057,20 @@
 	       (:maintainers
 		("Mark A. Hershberger" . "mah@everybody.org"))
 	       (:maintainer "Mark A. Hershberger" . "mah@everybody.org"))])
+ (gnus-browse-url-in-article .
+			     [(0 1 0 1 -4 20260503 1942)
+			      ((emacs
+				(27 1)))
+			      "Smarter browse-url for Gnus articles" tar
+			      ((:url . "https://github.com/jmibanez/gnus-browse-url-in-article")
+			       (:commit . "dd6655cb758054c03d8e62f3d60b587e88f48c22")
+			       (:revdesc . "dd6655cb7580")
+			       (:keywords "convenience" "mail" "gnus")
+			       (:authors
+				("JM Ibañez" . "jm@jmibanez.com"))
+			       (:maintainers
+				("JM Ibañez" . "jm@jmibanez.com"))
+			       (:maintainer "JM Ibañez" . "jm@jmibanez.com"))])
  (gnus-desktop-notify .
 		      [(0 1 0 1 -4 20250616 816)
 		       ((gnus
@@ -33297,15 +33349,15 @@
 	       ("Andrew Kirilenko" . "andrew.kirilenko.main@gmail.com"))
 	      (:maintainer "Andrew Kirilenko" . "andrew.kirilenko.main@gmail.com"))])
  (go-guru .
-	  [(0 1 1 -4 20240210 10)
+	  [(0 1 0 1 -4 20260510 1707)
 	   ((go-mode
 	     (1 3 1))
 	    (cl-lib
 	     (0 5)))
 	   "Integration of the Go 'guru' analysis tool into Emacs" tar
 	   ((:url . "https://github.com/dominikh/go-mode.el")
-	    (:commit . "6f4ff9ef874d151ed8d297a80f1bf27db5d9dbf0")
-	    (:revdesc . "6f4ff9ef874d")
+	    (:commit . "144dc7d312d260f8dad7dfa6168537ae57f8e436")
+	    (:revdesc . "144dc7d312d2")
 	    (:keywords "tools"))])
  (go-imenu .
 	   [(0 1 0 1 -4 20181029 1029)
@@ -33344,13 +33396,13 @@
 	       (:revdesc . "55681e815da9")
 	       (:keywords "tools" "go" "import"))])
  (go-mode .
-	  [(0 1 0 1 -4 20250311 156)
+	  [(0 1 0 1 -4 20260510 1707)
 	   ((emacs
 	     (26 1)))
 	   "Major mode for the Go programming language" tar
 	   ((:url . "https://github.com/dominikh/go-mode.el")
-	    (:commit . "58b0c3dfc87f5ae4137ea498dc0e03adc9eeb751")
-	    (:revdesc . "58b0c3dfc87f")
+	    (:commit . "8aaaa9d2574d7862ecbbe1ff369e88fe3796c8be")
+	    (:revdesc . "8aaaa9d2574d")
 	    (:keywords "languages" "go"))])
  (go-noisegate .
 	       [(0 1 0 1 -4 20200502 703)
@@ -33445,13 +33497,13 @@
 		   ("Doug MacEachern" . "dougm@vmware.com"))
 		  (:maintainer "Doug MacEachern" . "dougm@vmware.com"))])
  (go-rename .
-	    [(0 1 1 -4 20220114 2239)
+	    [(0 1 0 1 -4 20260510 1707)
 	     ((go-mode
 	       (1 3 1)))
 	     "Integration of the 'gorename' tool into Emacs" tar
 	     ((:url . "https://github.com/dominikh/go-mode.el")
-	      (:commit . "3273fcece5d9ab7edd4f15b2d6bce61f4e5a0666")
-	      (:revdesc . "3273fcece5d9")
+	      (:commit . "144dc7d312d260f8dad7dfa6168537ae57f8e436")
+	      (:revdesc . "144dc7d312d2")
 	      (:keywords "tools"))])
  (go-scratch .
 	     [(0 0 1 1 -4 20150810 440)
@@ -35249,6 +35301,20 @@
 		 (:maintainers
 		  ("port19" . "port19@port19.xyz"))
 		 (:maintainer "port19" . "port19@port19.xyz"))])
+ (har-viewer .
+	     [(0 1 0 1 -4 20260508 1801)
+	      ((emacs
+		(26 1)))
+	      "Major mode for viewing HTTP Archive (HAR) files" tar
+	      ((:url . "https://github.com/bozoslivehere/har-viewer.el")
+	       (:commit . "90f0cc968548b8af692fa3ccc2c82c9347278aa9")
+	       (:revdesc . "90f0cc968548")
+	       (:keywords "tools" "http" "network")
+	       (:authors
+		("Gregory Newman" . "bozoslivehere@protonmail.com"))
+	       (:maintainers
+		("Gregory Newman" . "bozoslivehere@protonmail.com"))
+	       (:maintainer "Gregory Newman" . "bozoslivehere@protonmail.com"))])
  (hardcore-mode .
 		[(0 1 0 1 -4 20151114 701)
 		 nil "Disable arrow keys + optionally backspace and return" tar
@@ -39545,13 +39611,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20260507 2016)
+	    [(0 1 0 1 -4 20260510 1706)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "5d2ca0237635a2ee6f34dd41bc291ee973d1a608")
-	      (:revdesc . "5d2ca0237635")
+	      (:commit . "5aa860baf9f0c111b95cc3a4b147bc99a26bd58b")
+	      (:revdesc . "5aa860baf9f0")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -40761,6 +40827,20 @@
 	       (:maintainers
 		("Matus Goljer" . "matus.goljer@gmail.com"))
 	       (:maintainer "Matus Goljer" . "matus.goljer@gmail.com"))])
+ (indigo .
+	 [(0 1 0 1 -4 20260506 1617)
+	  ((emacs
+	    (25 1)))
+	  "Emacs interface to the Indigo cheminformatics library" tar
+	  ((:url . "https://github.com/gicrisf/emacs-indigo")
+	   (:commit . "86433c884f5ef591ff8250b3322e5e9abd8a502d")
+	   (:revdesc . "86433c884f5e")
+	   (:keywords "data" "tools" "extensions")
+	   (:authors
+	    ("Giovanni Crisalfi" . "giovanni.crisalfi@protonmail.com"))
+	   (:maintainers
+	    ("Giovanni Crisalfi" . "giovanni.crisalfi@protonmail.com"))
+	   (:maintainer "Giovanni Crisalfi" . "giovanni.crisalfi@protonmail.com"))])
  (indium .
 	 [(2 1 4 1 -4 20210309 1210)
 	  ((emacs
@@ -54989,6 +55069,20 @@
 	  (:maintainers
 	   ("Martijn Terpstra" . "bigmartijn@gmail.com"))
 	  (:maintainer "Martijn Terpstra" . "bigmartijn@gmail.com"))])
+ (nucleo-completion .
+		    [(0 1 0 1 -4 20260508 2354)
+		     ((emacs
+		       (27 1)))
+		     "Nucleo-backed completion style" tar
+		     ((:url . "https://github.com/kn66/nucleo-completion.el")
+		      (:commit . "414197bfa69f4f94c07a15d2ca6fc70841a4228e")
+		      (:revdesc . "414197bfa69f")
+		      (:keywords "matching" "convenience")
+		      (:authors
+		       ("Nobu" . "https://github.com/kn66"))
+		      (:maintainers
+		       ("Nobu" . "https://github.com/kn66"))
+		      (:maintainer "Nobu" . "https://github.com/kn66"))])
  (number .
 	 [(0 1 0 1 -4 20170901 1312)
 	  nil "Working with numbers at point" tar
@@ -65761,15 +65855,15 @@
 	    ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
 	   (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))])
  (popterm .
-	  [(0 1 0 1 -4 20260423 2106)
+	  [(0 1 0 1 -4 20260510 1826)
 	   ((emacs
 	     (29 1))
 	    (posframe
 	     (1 4 0)))
 	   "Posframe terminal toggler with smart backends" tar
 	   ((:url . "https://github.com/CsBigDataHub/popterm.el")
-	    (:commit . "7efcca742ec9a23c2e6e627b2c1d42aa752dea5d")
-	    (:revdesc . "7efcca742ec9")
+	    (:commit . "86a52b8fd4e8f3932a0f686e7ea966157b03a204")
+	    (:revdesc . "86a52b8fd4e8")
 	    (:keywords "terminals" "convenience" "tools")
 	    (:authors
 	     ("Chetan Koneru" . "kchetan.hadoop@gmail.com"))
@@ -66602,13 +66696,13 @@
 		    ("Stefan Thesing" . "software@webdings.de"))
 		   (:maintainer "Stefan Thesing" . "software@webdings.de"))])
  (project-cmake .
-		[(0 1 0 1 -4 20260501 1046)
+		[(0 1 0 1 -4 20260510 1826)
 		 ((emacs
 		   (30 1)))
 		 "A cmake backend for project.el" tar
 		 ((:url . "https://github.com/lucius-martius/project-cmake")
-		  (:commit . "e177dfff76c03fc8f589c8070c9b1a945b2f8851")
-		  (:revdesc . "e177dfff76c0")
+		  (:commit . "e418c5bc2b10fd67eb2d374585fef0af07e8c5c1")
+		  (:revdesc . "e418c5bc2b10")
 		  (:keywords "tools" "convenience")
 		  (:authors
 		   ("Lucius Martius" . "lucius.martius@mailbox.org"))
@@ -73048,6 +73142,19 @@
 	    (:maintainers
 	     ("Dmitry Matveev" . "me@dmitrymatveev.co.uk"))
 	    (:maintainer "Dmitry Matveev" . "me@dmitrymatveev.co.uk"))])
+ (shannon-max .
+	      [(0 1 0 1 -4 20260505 1426)
+	       ((emacs
+		 (29 1)))
+	       "Analyze your keybindings with information theory" tar
+	       ((:url . "https://github.com/sstraust/shannonmax")
+		(:commit . "539bd5f771b798973734696b3b0ae10f56d3966d")
+		(:revdesc . "539bd5f771b7")
+		(:authors
+		 ("Sam Straus" . "sam_straus@alumni.brown.edu"))
+		(:maintainers
+		 ("Sam Straus" . "sam_straus@alumni.brown.edu"))
+		(:maintainer "Sam Straus" . "sam_straus@alumni.brown.edu"))])
  (shanty-themes .
 		[(1 0 1 -4 20230123 2111)
 		 ((emacs
@@ -73129,13 +73236,13 @@
 		(:commit . "5ac29f99ba9c43864118c2c2dc591718d113a826")
 		(:revdesc . "5ac29f99ba9c"))])
  (shell-pop .
-	    [(0 1 0 1 -4 20260508 1403)
+	    [(0 1 0 1 -4 20260510 1616)
 	     ((emacs
 	       (26 1)))
 	     "Easily toggle a shell window with a single keystroke" tar
 	     ((:url . "https://github.com/kyagi/shell-pop-el")
-	      (:commit . "29f279c36c002810b750c10326ccd7d63b3aded1")
-	      (:revdesc . "29f279c36c00")
+	      (:commit . "408dc1b710a273011cd902a94dd21f11fa83a362")
+	      (:revdesc . "408dc1b710a2")
 	      (:keywords "shell" "terminal" "tools")
 	      (:authors
 	       ("Kazuo YAGI" . "kazuo.yagi@gmail.com"))
@@ -78838,7 +78945,7 @@
 		("Callie Cameron" . "cjcameron7@gmail.com"))
 	       (:maintainer "Callie Cameron" . "cjcameron7@gmail.com"))])
  (term-cmd .
-	   [(1 3 1 -4 20260117 1350)
+	   [(1 4 1 -4 20260510 1834)
 	    ((emacs
 	      (27 2))
 	     (dash
@@ -78847,14 +78954,14 @@
 	      (0 18 2)))
 	    "Send commands from programs running in term.el" tar
 	    ((:url . "https://github.com/calliecameron/term-cmd")
-	     (:commit . "0596a96b0e5a4e8a5f828951fb6e2c1af03914c8")
-	     (:revdesc . "0596a96b0e5a")
+	     (:commit . "15f737427b21adc722a76a71c0aaeb2dcb95efbc")
+	     (:revdesc . "15f737427b21")
 	     (:keywords "processes")
 	     (:authors
-	      ("Callie Cameron" . "cjcameron7@gmail.com"))
+	      ("Callie Cameron" . "callie@calliecameron.com"))
 	     (:maintainers
-	      ("Callie Cameron" . "cjcameron7@gmail.com"))
-	     (:maintainer "Callie Cameron" . "cjcameron7@gmail.com"))])
+	      ("Callie Cameron" . "callie@calliecameron.com"))
+	     (:maintainer "Callie Cameron" . "callie@calliecameron.com"))])
  (term-manager .
 	       [(0 1 0 1 -4 20260220 840)
 		((dash
@@ -80921,15 +81028,15 @@
 			("Erick Navarro" . "erick@navarro.io"))
 		       (:maintainer "Erick Navarro" . "erick@navarro.io"))])
  (tree-sitter-langs .
-		    [(0 1 0 1 -4 20260510 1341)
+		    [(0 1 0 1 -4 20260510 1654)
 		     ((emacs
 		       (26 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
 		     ((:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs")
-		      (:commit . "43d18f708104d5a7b7a88c7fb76aad3d2ffda145")
-		      (:revdesc . "43d18f708104")
+		      (:commit . "0ed8fa03ccb652c2fe68637803f2e63629205b90")
+		      (:revdesc . "0ed8fa03ccb6")
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
@@ -83312,6 +83419,28 @@
 	    (:maintainers
 	     ("Thomas Järvstrand" . "https://github.com/tjarvstrand"))
 	    (:maintainer "Thomas Järvstrand" . "https://github.com/tjarvstrand"))])
+ (verdict-dart .
+	       [(0 1 0 1 -4 20260505 1121)
+		((emacs
+		  (29 1))
+		 (verdict
+		  (0 1))
+		 (dash
+		  (2 0))
+		 (f
+		  (0 20))
+		 (yaml
+		  (0 5)))
+		"Dart runner for verdict" tar
+		((:url . "https://github.com/tjarvstrand/verdict.el")
+		 (:commit . "84fff362b8068a1a8112b772fa927b56a6786482")
+		 (:revdesc . "84fff362b806")
+		 (:keywords "tools" "languages")
+		 (:authors
+		  ("Thomas Järvstrand" . "https://github.com/tjarvstrand"))
+		 (:maintainers
+		  ("Thomas Järvstrand" . "https://github.com/tjarvstrand"))
+		 (:maintainer "Thomas Järvstrand" . "https://github.com/tjarvstrand"))])
  (veri-kompass .
 	       [(0 2 1 -4 20200213 934)
 		((emacs
