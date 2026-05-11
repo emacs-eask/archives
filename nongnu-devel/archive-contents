@@ -259,7 +259,7 @@
       (:authors ("Chris Wanstrath" . "chris@ozmm.org"))
       (:commit . "1c6adeae14f3795d3b1e44321189ed7c2c93c967"))])
  (cond-let
-  . [(1 0 0 0 20260510 181022) ((emacs (28 1)))
+  . [(1 1 1 0 20260511 171025) ((emacs (28 1)))
      "Additional and improved binding conditionals" tar
      ((:url . "https://github.com/tarsius/cond-let")
       (:keywords "extensions")
@@ -267,7 +267,7 @@
 		   . "emacs.cond-let@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.cond-let@jonas.bernoulli.dev"))
-      (:commit . "d87c49286fc442d8b305fdb2357c96eb2cd6c757"))])
+      (:commit . "1804968192961aaa663c7b77a8a93d169f709094"))])
  (consult-flycheck
   . [(1 1 0 20260330 61817)
      ((emacs (29 1)) (consult (2 8)) (flycheck (35)))
@@ -473,7 +473,7 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(3 4 2 0 20260511 92605) ((emacs (28 1)) (compat (31)))
+  . [(3 4 2 0 20260511 123347) ((emacs (28 1)) (compat (31)))
      "An Emacs Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
       (:keywords "network" "comm" "hypermedia")
@@ -482,9 +482,9 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "72638817fded8e8c86119c241a5f471c0f99e627"))])
+      (:commit . "89d35f0b92789ef6bd751b79b0c3119b7c24c1d0"))])
  (elfeed-web
-  . [(3 4 2 0 20260506 80413)
+  . [(3 4 2 0 20260511 124453)
      ((emacs (28 1)) (compat (31)) (elfeed (3 4 2))
       (simple-httpd (1 5 1)))
      "Web interface to Elfeed" tar
@@ -495,7 +495,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "9785bb593f1651df54aac1fee414ad36307e6557"))])
+      (:commit . "b2693e6d310ced341566690843fe88ce7e6c26f4"))])
  (elixir-mode
   . [(2 5 0 0 20230626 143859) ((emacs (25)))
      "Major mode for editing Elixir files" tar
@@ -874,7 +874,7 @@
       (:authors ("Jeronimo Pellegrini" . "(j_p@aleph0.info)"))
       (:commit . "eb8f6d53ec5c4520c590572182f66efa51faf74c"))])
  (git-modes
-  . [(1 4 8 0 20260101 183425) ((emacs (26 1)) (compat (30 1)))
+  . [(1 4 8 0 20260511 154926) ((emacs (26 1)) (compat (30 1)))
      "Major modes for editing Git configuration files" tar
      ((:url . "https://github.com/magit/git-modes")
       (:keywords "convenience" "vc" "git")
@@ -884,7 +884,7 @@
 		("Rüdiger Sonderfeld" . "ruediger@c-plusplus.net")
 		("Jonas Bernoulli"
 		 . "emacs.git-modes@jonas.bernoulli.dev"))
-      (:commit . "c3faeeea1982786f78d8c38397dec0f078eaec84"))])
+      (:commit . "9fc447e409ad78dd11ae7f9c5436ee1631380b3f"))])
  (gnu-apl-mode
   . [(1 5 1 0 20220404 34102) nil "Emacs mode for GNU APL" tar
      ((:url . "http://www.gnu.org/software/apl/")
@@ -1150,14 +1150,14 @@
       (:keywords "j" "languages")
       (:commit . "e49ef0692d73b320c281e40d9fa96b2c17073695"))])
  (jabber
-  . [(0 10 8 0 20260511 1413)
+  . [(0 10 8 0 20260511 181616)
      ((emacs (29 1)) (fsm (0 2 0)) (keymap-popup (0 2)))
      "XMPP/Jabber client" tar
      ((:url . "https://codeberg.org/emacs-jabber/emacs-jabber")
       (:keywords "comm")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Magnus Henoch" . "mange@freemail.hu"))
-      (:commit . "31defb30d98d9db81b613fc9c1b7a50ffc7bc510"))])
+      (:commit . "695258c3d953da2b62c8965dd5d9d39da6ec6cfc"))])
  (jade-mode
   . [(1 0 1 0 20211019 161323) nil
      "Major mode for editing .jade files" tar
@@ -1287,7 +1287,7 @@
       (:authors ("Jon Oddie" . "j.j.oddie@gmail.com"))
       (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit
-  . [(4 5 0 0 20260506 71719)
+  . [(4 5 0 0 20260511 135945)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (magit-section (4 5)) (seq (2 24)) (transient (0 13))
       (with-editor (3 4)))
@@ -1299,9 +1299,9 @@
        ("Kyle Meyer" . "kyle@kyleam.com"))
       (:authors ("Marius Vollmer" . "marius.vollmer@gmail.com")
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "3d0a424665b36a6ff48ec3119a8aa9de92d6e293"))])
+      (:commit . "acc4b3f4336dc6ca0d8c77b6d9758f4031705757"))])
  (magit-section
-  . [(4 5 0 0 20260506 71719)
+  . [(4 5 0 0 20260511 135945)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (seq (2 24)))
      "Sections for read-only buffers" tar
@@ -1310,7 +1310,7 @@
 		   . "emacs.magit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "3d0a424665b36a6ff48ec3119a8aa9de92d6e293"))])
+      (:commit . "acc4b3f4336dc6ca0d8c77b6d9758f4031705757"))])
  (markdown-mode
   . [(2 9 -3 0 20260425 95459) ((emacs (28 1)))
      "Major mode for Markdown-formatted text" tar
@@ -1502,8 +1502,8 @@
       (:authors ("Takaaki ISHIKAWA" . "takaxpatieeedotorg"))
       (:commit . "e2599a106a26ce5511095e23df4ea04be6687a8a"))])
  (orgit
-  . [(2 1 2 0 20260301 125552)
-     ((emacs (28 1)) (compat (30 1)) (cond-let (0 2)) (magit (4 5))
+  . [(2 1 2 0 20260511 143907)
+     ((emacs (28 1)) (compat (30 1)) (cond-let (1 1)) (magit (4 5))
       (org (9 7)))
      "Support for Org links to Magit buffers" tar
      ((:url . "https://github.com/magit/orgit")
@@ -1512,7 +1512,7 @@
 		   . "emacs.orgit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
-      (:commit . "4fb91faff3bf32dac5f6f932654c280cd1f190f7"))])
+      (:commit . "d705d5cf7841d157c558cab0ae62af43c87f8224"))])
  (p4-16-mode
   . [(0 3 0 20231118 161633) nil
      "Support for the P4_16 programming language" tar

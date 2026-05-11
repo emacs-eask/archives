@@ -173,13 +173,13 @@
       (:authors ("John Wiegley" . "jwiegley@gmail.com"))
       (:commit . "5faab28916603bb324d9faba057021ce028ca847"))])
  (auctex
-  . [(14 1 2 0 20260508 192927) ((emacs (28 1)))
+  . [(14 1 2 0 20260511 181707) ((emacs (28 1)))
      "Integrated environment for *TeX*" tar
      ((:url . "https://www.gnu.org/software/auctex/")
       (:keywords "tex" "latex" "texinfo" "context" "doctex"
 		 "preview-latex")
       (:maintainer nil . "auctex-devel@gnu.org")
-      (:commit . "ba3daad7892f2340227477d1f72ced2864f3cd3d"))])
+      (:commit . "f60ab89c47f6edc1d34d935d7d026e25a345b388"))])
  (auctex-cont-latexmk
   . [(0 3 0 20250115 185937) ((emacs (29 3)) (auctex (14 0 5)))
      "run latexmk continuously, report errors via Flymake" tar
@@ -1669,7 +1669,7 @@
       (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com"))
       (:commit . "84a9db01eff1fcc52ad054c5ad3c22316739573f"))])
  (hyperbole
-  . [(9 0 2 -1 0 20260510 170631) ((emacs (28)))
+  . [(9 0 2 -1 0 20260511 131314) ((emacs (28)))
      "GNU Hyperbole: The Everyday Hypertextual Information Manager"
      tar
      ((:url . "http://www.gnu.org/software/hyperbole")
@@ -1678,7 +1678,7 @@
 		 "outlines" "tools" "wp")
       (:maintainer "Robert Weiner" . "rsw@gnu.org")
       (:authors ("Robert Weiner" . "rsw@gnu.org"))
-      (:commit . "5aa860baf9f0c111b95cc3a4b147bc99a26bd58b"))])
+      (:commit . "0db38afafbe15e4b046b2c2d354f7292304c5897"))])
  (idlwave
   . [(6 5 1 0 20240523 142720) nil "IDL editing mode for GNU Emacs"
      tar
@@ -2178,13 +2178,14 @@
       (:url . "https://elpa.gnu.org/packages/minibuffer-line.html")
       (:commit . "aa52e9402052363bddd4ea3d1d82195c692fb977"))])
  (minimail
-  . [(0 4 2 0 20260503 131523) ((emacs (30 1)) (transient (0 12)))
+  . [(0 4 2 0 20260511 125743)
+     ((emacs (30 1)) (compat (31)) (transient (0 12)))
      "Simple, non-blocking IMAP email client" tar
      ((:url . "https://codeberg.org/astoff/minimail")
       (:keywords "mail")
       (:maintainer "Augusto Stoffel" . "arstoffel@gmail.com")
       (:authors ("Augusto Stoffel" . "arstoffel@gmail.com"))
-      (:commit . "e23a3c4e31746d43e463ac5ac2766ceba1fc5143"))])
+      (:commit . "b36a819cef7e17c9cf6a89130495e41a71b3a3ad"))])
  (minimap
   . [(1 4 0 20201201 162630) nil
      "Sidebar showing a \"mini-map\" of a buffer" tar
