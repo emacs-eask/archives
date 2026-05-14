@@ -18237,11 +18237,11 @@
 		 ("Sergei Nosov" . "sergei.nosov[at]gmail.com"))
 		(:maintainer "Sergei Nosov" . "sergei.nosov[at]gmail.com"))])
  (dune .
-       [(0 1 0 1 -4 20260504 2232)
+       [(0 1 0 1 -4 20260120 2128)
 	nil "Integration with the dune build system" tar
 	((:url . "https://github.com/ocaml/dune")
-	 (:commit . "5c75ff0ce9c4b1189de8254c4da446db91c5afa1")
-	 (:revdesc . "5c75ff0ce9c4"))])
+	 (:commit . "ccdb380ab5714b81f1ba71f7f8acfd792e6200bf")
+	 (:revdesc . "ccdb380ab571"))])
  (dune-format .
 	      [(0 1 -1 1 -4 20210505 108)
 	       ((reformatter
@@ -20397,15 +20397,15 @@
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
-	 [(0 1 0 1 -4 20260514 1756)
+	 [(0 1 0 1 -4 20260514 2008)
 	  ((emacs
 	    (28 1))
 	   (compat
 	    (31)))
 	  "An Emacs Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/emacs-elfeed/elfeed")
-	   (:commit . "4b04dd661e0ba78f879f9be221cdbb8a88377eae")
-	   (:revdesc . "4b04dd661e0b")
+	   (:commit . "35c36700a179d33822499ebd8370ac7a778d3238")
+	   (:revdesc . "35c36700a179")
 	   (:keywords "network" "comm" "hypermedia")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -33064,13 +33064,13 @@
 		("Mark A. Hershberger" . "mah@everybody.org"))
 	       (:maintainer "Mark A. Hershberger" . "mah@everybody.org"))])
  (gnus-browse-url-in-article .
-			     [(0 1 0 1 -4 20260503 1942)
+			     [(0 1 0 1 -4 20260514 2045)
 			      ((emacs
 				(27 1)))
 			      "Smarter browse-url for Gnus articles" tar
 			      ((:url . "https://github.com/jmibanez/gnus-browse-url-in-article")
-			       (:commit . "dd6655cb758054c03d8e62f3d60b587e88f48c22")
-			       (:revdesc . "dd6655cb7580")
+			       (:commit . "45d1cbc7bcb55d25d215d4ae39bf6dedf357853a")
+			       (:revdesc . "45d1cbc7bcb5")
 			       (:keywords "convenience" "mail" "gnus")
 			       (:authors
 				("JM Ibañez" . "jm@jmibanez.com"))
@@ -44263,7 +44263,7 @@
 		   ("Magnar Sveen" . "magnars@gmail.com"))
 		  (:maintainer "Magnar Sveen" . "magnars@gmail.com"))])
  (kaolin-themes .
-		[(0 1 0 1 -4 20260512 2335)
+		[(0 1 0 1 -4 20260514 2033)
 		 ((emacs
 		   (25 1))
 		  (autothemer
@@ -44272,8 +44272,8 @@
 		   (0 6)))
 		 "A set of eye pleasing themes" tar
 		 ((:url . "https://github.com/ogdenwebb/emacs-kaolin-themes")
-		  (:commit . "4de75e4d183ff3e707907137a243a6da04b05448")
-		  (:revdesc . "4de75e4d183f")
+		  (:commit . "c6aae636e6efaa2a151a2ec1d0c39b50dd218f17")
+		  (:revdesc . "c6aae636e6ef")
 		  (:keywords "dark" "light" "teal" "blue" "violet" "purple" "brown" "theme" "faces")
 		  (:authors
 		   ("Ogden Webb" . "ogdenwebb@gmail.com"))
@@ -62726,15 +62726,15 @@
 	      ("Ryan Davis" . "ryand-ruby@zenspider.com"))
 	     (:maintainer "Ryan Davis" . "ryand-ruby@zenspider.com"))])
  (package-build .
-		[(0 1 0 1 -4 20260513 1752)
+		[(0 1 0 1 -4 20260514 1828)
 		 ((emacs
 		   (26 1))
 		  (compat
 		   (30 1)))
 		 "Curate an Emacs Lisp package archive" tar
 		 ((:url . "https://github.com/melpa/package-build")
-		  (:commit . "f290c0e7acbf057886f50db7c22e6f5565c69d43")
-		  (:revdesc . "f290c0e7acbf")
+		  (:commit . "6bf9802866bf2a9d134999c1dae0658c6aff7b02")
+		  (:revdesc . "6bf9802866bf")
 		  (:keywords "maint" "tools")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
@@ -78349,15 +78349,15 @@
 	     ("John Gong" . "gjtzone@hotmail.com"))
 	    (:maintainer "Aaron Ji" . "shuxiao9058@gmail.com"))])
  (tabspaces .
-	    [(0 1 0 1 -4 20260222 1958)
+	    [(0 1 0 1 -4 20260514 2021)
 	     ((emacs
 	       (27 1))
 	      (project
 	       (0 8 1)))
 	     "Leverage tab-bar and project for buffer-isolated workspaces" tar
 	     ((:url . "https://github.com/mclear-tools/tabspaces")
-	      (:commit . "06fe5ad149bc5852698cd0adda6dd6e320b4cf8f")
-	      (:revdesc . "06fe5ad149bc")
+	      (:commit . "bb60b8285093a39d5f0c7f9983eb111c14c8f9ea")
+	      (:revdesc . "bb60b8285093")
 	      (:keywords "convenience" "frames")
 	      (:authors
 	       ("Colin McLear" . "mclear@fastmail.com")))])
