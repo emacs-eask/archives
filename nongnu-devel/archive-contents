@@ -52,12 +52,12 @@
       (:authors ("Jordon Biondo" . "jordonbiondo@gmail.com"))
       (:commit . "39ac29cf9a1229bb076964335fbd71cfb52e498b"))])
  (annotate
-  . [(2 4 5 0 20251111 163545) ((emacs (27 1)))
+  . [(2 5 0 0 20260514 132017) ((emacs (27 1)))
      "annotate files without changing them" tar
      ((:url . "https://github.com/bastibe/annotate.el")
       (:maintainer ("Bastian Bechtold" . "bastibe.dev@mailbox.org")
 		   ("cage" . "cage-dev@twistfold.it"))
-      (:commit . "9c80b465297dce20901abaf0389a48951b6e030f"))])
+      (:commit . "347525024f319ab50735ef324e8900aecda3724c"))])
  (anti-zenburn-theme
   . [(2 5 1 0 20180712 183837) nil
      "Low-contrast Zenburn-inverted theme" tar
@@ -221,7 +221,7 @@
       (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
       (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider
-  . [(1 22 0 -4 0 20260514 44055)
+  . [(1 22 0 -4 0 20260514 161534)
      ((emacs (28)) (clojure-mode (5 19)) (compat (30))
       (parseedn (1 2 1)) (queue (0 2)) (spinner (1 7)) (seq (2 22))
       (sesman (0 3 2)) (transient (0 4 1)))
@@ -235,7 +235,7 @@
 		("Artur Malabarba" . "bruce.connor.am@gmail.com")
 		("Hugo Duncan" . "hugo@hugoduncan.org")
 		("Steve Purcell" . "steve@sanityinc.com"))
-      (:commit . "ff570fc9d8191f6339364614e717e0835042cc46"))])
+      (:commit . "61a7b7bda75500e2b5d96e66884a053ae72dcc42"))])
  (clojure-mode
   . [(5 23 0 0 20260325 143544) ((emacs (27 1)))
      "Major mode for Clojure code" tar
@@ -473,7 +473,7 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(3 4 2 0 20260513 110132) ((emacs (28 1)) (compat (31)))
+  . [(3 4 2 0 20260514 195007) ((emacs (28 1)) (compat (31)))
      "An Emacs Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
       (:keywords "network" "comm" "hypermedia")
@@ -482,7 +482,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "7799682972a172065430b029bd513de51593597a"))])
+      (:commit . "eafe80437e18401a19c43c77446bc5d70893ebf4"))])
  (elfeed-web
   . [(3 4 2 0 20260511 124453)
      ((emacs (28 1)) (compat (31)) (elfeed (3 4 2))
@@ -1150,14 +1150,14 @@
       (:keywords "j" "languages")
       (:commit . "e49ef0692d73b320c281e40d9fa96b2c17073695"))])
  (jabber
-  . [(0 10 8 0 20260514 73613)
+  . [(0 10 8 0 20260514 170538)
      ((emacs (29 1)) (fsm (0 2 0)) (keymap-popup (0 2)))
      "XMPP/Jabber client" tar
      ((:url . "https://codeberg.org/emacs-jabber/emacs-jabber")
       (:keywords "comm")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Magnus Henoch" . "mange@freemail.hu"))
-      (:commit . "4af25f0bb3e75a5b5719df7ed5435fbee1d4be9e"))])
+      (:commit . "e1c131864688bfce9a5f7413d27b296a0465cfa7"))])
  (jade-mode
   . [(1 0 1 0 20211019 161323) nil
      "Major mode for editing .jade files" tar
@@ -1287,7 +1287,7 @@
       (:authors ("Jon Oddie" . "j.j.oddie@gmail.com"))
       (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit
-  . [(4 5 0 0 20260511 135945)
+  . [(4 5 0 0 20260514 93716)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (magit-section (4 5)) (seq (2 24)) (transient (0 13))
       (with-editor (3 4)))
@@ -1299,9 +1299,9 @@
        ("Kyle Meyer" . "kyle@kyleam.com"))
       (:authors ("Marius Vollmer" . "marius.vollmer@gmail.com")
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "acc4b3f4336dc6ca0d8c77b6d9758f4031705757"))])
+      (:commit . "be5a3b0e9f7a64bcb222ba546a18e6b09922e0a9"))])
  (magit-section
-  . [(4 5 0 0 20260511 135945)
+  . [(4 5 0 0 20260514 93716)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (seq (2 24)))
      "Sections for read-only buffers" tar
@@ -1310,7 +1310,7 @@
 		   . "emacs.magit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "acc4b3f4336dc6ca0d8c77b6d9758f4031705757"))])
+      (:commit . "be5a3b0e9f7a64bcb222ba546a18e6b09922e0a9"))])
  (markdown-mode
   . [(2 9 -3 0 20260425 95459) ((emacs (28 1)))
      "Major mode for Markdown-formatted text" tar
@@ -1807,14 +1807,14 @@
       (:authors ("Chen Bin" . "chenbin.sh@gmail.com"))
       (:commit . "173e4d632c94af6670869729c09bfb8ba484d257"))])
  (simple-httpd
-  . [(1 5 1 0 20260506 102140) ((emacs (27 1)) (compat (31)))
+  . [(1 5 1 0 20260514 165715) ((emacs (27 1)) (compat (31)))
      "Pure Elisp HTTP server" tar
      ((:url . "https://github.com/skeeto/emacs-http-server")
       (:keywords "network" "comm")
       (:maintainer ("Philip Kaludercic" . "philipk@posteo.net")
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "9b4b33c7cf5e9ce40ed6a43abb0e8cb70fd5072b"))])
+      (:commit . "be40a34f8de0183bf69a54df0b47e65b8c88ebed"))])
  (slime
   . [(2 32 -4 0 20260508 233053) ((emacs (24 3)) (macrostep (0 9)))
      "Superior Lisp Interaction Mode for Emacs" tar
@@ -1980,14 +1980,14 @@
       (:authors ("Julien Barnier" . "julien@nozav.org"))
       (:commit . "2ad90cb6ed2560ee147417a3ec65222cc2ad33f1"))])
  (toc-org
-  . [(1 1 0 20230831 75249) nil
+  . [(1 1 0 20260514 144504) nil
      "add table of contents to org-mode files (formerly, org-toc)" tar
      ((:url . "https://github.com/snosov1/toc-org")
       (:keywords "org-mode" "org-toc" "toc-org" "org" "toc" "table"
 		 "of" "contents")
       (:maintainer "Sergei Nosov" . "sergei.nosov[at]gmail.com")
       (:authors ("Sergei Nosov" . "sergei.nosov[at]gmail.com"))
-      (:commit . "6d3ae0fc47ce79b1ea06cabe21a3c596395409cd"))])
+      (:commit . "69165018974a82b397d0869f0c7f0bf7d3b4ee07"))])
  (totp-auth
   . [(1 0 0 20250312 200047) ((emacs (27 1)) (base32 (0 1)))
      "RFC6238 TOTP" tar
