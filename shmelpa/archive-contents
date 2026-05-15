@@ -898,7 +898,12 @@
 	    "Major mode for the ACT programming language" tar
 	    ((:url . "https://github.com/rafaelcn/act")
 	     (:commit . "90d7d626691591b24d83596149bc89fd51ba39b4")
-	     (:revdesc . "90d7d6266915"))])
+	     (:revdesc . "90d7d6266915")
+	     (:authors
+	      ("Rafael Campos Nunes" . "rcamposnunes@outlook.com"))
+	     (:maintainers
+	      ("Rafael Campos Nunes" . "rcamposnunes@outlook.com"))
+	     (:maintainer "Rafael Campos Nunes" . "rcamposnunes@outlook.com"))])
  (actionscript-mode .
 		    [(0 1 0 1 -4 20180527 1701)
 		     nil "A simple mode for editing Actionscript 3 files" tar
@@ -1642,7 +1647,14 @@
 		"Space align various Clojure forms" tar
 		((:url . "https://github.com/gstamp/align-cljlet")
 		 (:commit . "ebcf0a912e836579a3a9d386e22c1c4bef7fba17")
-		 (:revdesc . "ebcf0a912e83"))])
+		 (:revdesc . "ebcf0a912e83")
+		 (:authors
+		  ("Glen Stampoultzis" . "gstampgmail.com")
+		  ("Reid D McKenzie" . "https://github.com/arrdem"))
+		 (:maintainers
+		  ("Glen Stampoultzis" . "gstampgmail.com")
+		  ("Reid D McKenzie" . "https://github.com/arrdem"))
+		 (:maintainer "Glen Stampoultzis" . "gstampgmail.com"))])
  (all-ext .
 	  [(0 5 1 -4 20200315 1443)
 	   ((emacs
@@ -1923,7 +1935,12 @@
 	       ((:url . "https://repo.or.cz/amread-mode.git")
 		(:commit . "bf06b05c6322fe74f0e5ac2436cad46f66f673c6")
 		(:revdesc . "bf06b05c6322")
-		(:keywords "wp"))])
+		(:keywords "wp")
+		(:authors
+		 ("stardiviner" . "numbchild@gmail.com"))
+		(:maintainers
+		 ("stardiviner" . "numbchild@gmail.com"))
+		(:maintainer "stardiviner" . "numbchild@gmail.com"))])
  (amsreftex .
 	    [(0 3 1 1 -4 20240512 1746)
 	     ((emacs
@@ -2072,7 +2089,7 @@
 		      ("Magnar Sveen" . "magnars@gmail.com"))
 		     (:maintainer "Magnar Sveen" . "magnars@gmail.com"))])
  (anju .
-       [(0 1 0 1 -4 20260508 2207)
+       [(0 1 0 1 -4 20260515 2115)
 	((emacs
 	  (29 1))
 	 (casual
@@ -2081,8 +2098,8 @@
 	  (2 7)))
 	"Mouse UX Customizations" tar
 	((:url . "https://github.com/kickingvegas/anju")
-	 (:commit . "d0f2be00b4f56a8fe466f335c2c09b70cf830cd6")
-	 (:revdesc . "d0f2be00b4f5")
+	 (:commit . "6d9078c7193d2592f88e22a1c980601ccdb8762c")
+	 (:revdesc . "6d9078c7193d")
 	 (:keywords "tools")
 	 (:authors
 	  ("Charles Choi" . "charles.choi@yummymelon.com"))
@@ -2285,6 +2302,9 @@
 		  (:commit . "74f96ce226f51bec203af343f73182ea132749a6")
 		  (:revdesc . "74f96ce226f5")
 		  (:keywords "ansible" "ansible-vault" "tools")
+		  (:authors
+		   ("Zachary Elliott" . "contact@zell.io")
+		   ("Dmitrii Kashin" . "freehck@yandex.ru"))
 		  (:maintainers
 		   ("Dmitrii Kashin" . "freehck@yandex.ru"))
 		  (:maintainer "Dmitrii Kashin" . "freehck@yandex.ru"))])
@@ -2622,6 +2642,8 @@
 		 (:commit . "b2ffd8441851659cb1cc844156073967729585e5")
 		 (:revdesc . "b2ffd8441851")
 		 (:keywords "languages" "arduino")
+		 (:authors
+		  ("Christopher Grim" . "christopher.grim@gmail.com"))
 		 (:maintainers
 		  ("stardiviner" . "numbchild@gmail.com"))
 		 (:maintainer "stardiviner" . "numbchild@gmail.com"))])
@@ -3430,7 +3452,14 @@
 			     ((:url . "https://github.com/Golevka/emacs-clang-complete-async")
 			      (:commit . "a5114e3477793ccb9420acc5cd6a1cb26be65964")
 			      (:revdesc . "a5114e347779")
-			      (:keywords "completion" "convenience"))])
+			      (:keywords "completion" "convenience")
+			      (:authors
+			       ("Brian Jiang" . "brianjcj@gmail.com")
+			       ("Taylan Ulrich Bayirli/Kammer" . "taylanbayirli@gmail.com"))
+			      (:maintainers
+			       ("Brian Jiang" . "brianjcj@gmail.com")
+			       ("Taylan Ulrich Bayirli/Kammer" . "taylanbayirli@gmail.com"))
+			      (:maintainer "Brian Jiang" . "brianjcj@gmail.com"))])
  (auto-complete-distel .
 		       [(1 0 0 1 -4 20180827 1344)
 			((auto-complete
@@ -4805,7 +4834,14 @@
 	    "Redefine M-< and M-> for some modes" tar
 	    ((:url . "https://github.com/DamienCassou/beginend")
 	     (:commit . "2d3536971b7cca597ba3404c30b5d1ce9d56f1fe")
-	     (:revdesc . "2d3536971b7c"))])
+	     (:revdesc . "2d3536971b7c")
+	     (:authors
+	      ("Damien Cassou" . "damien@cassou.me")
+	      ("Matus Goljer" . "matus.goljer@gmail.com"))
+	     (:maintainers
+	      ("Damien Cassou" . "damien@cassou.me")
+	      ("Matus Goljer" . "matus.goljer@gmail.com"))
+	     (:maintainer "Damien Cassou" . "damien@cassou.me"))])
  (belarus-holidays .
 		   [(1 0 0 1 -4 20190102 1343)
 		    nil "Belarus holidays whith transfers" tar
@@ -5133,7 +5169,12 @@
 	    ((:url . "https://github.com/mkmcc/bibslurp")
 	     (:commit . "aeba96368f2a06959e4fe945375ce2a54d34b189")
 	     (:revdesc . "aeba96368f2a")
-	     (:keywords "bibliography" "nasa ads"))])
+	     (:keywords "bibliography" "nasa ads")
+	     (:authors
+	      ("Mike McCourt" . "mkmcc@astro.berkeley.edu"))
+	     (:maintainers
+	      ("Mike McCourt" . "mkmcc@astro.berkeley.edu"))
+	     (:maintainer "Mike McCourt" . "mkmcc@astro.berkeley.edu"))])
  (bibtex-capf .
 	      [(1 0 1 -4 20240122 1558)
 	       ((emacs
@@ -5209,7 +5250,12 @@
 	   ((:url . "https://github.com/riscy/bifocal-mode")
 	    (:commit . "4e4f1084dc3dd95dfe0905854530e95dbf6c6c5b")
 	    (:revdesc . "4e4f1084dc3d")
-	    (:keywords "frames" "processes"))])
+	    (:keywords "frames" "processes")
+	    (:authors
+	     ("Chris Rayner" . "(dchrisrayner@gmail.com)"))
+	    (:maintainers
+	     ("Chris Rayner" . "(dchrisrayner@gmail.com)"))
+	    (:maintainer "Chris Rayner" . "(dchrisrayner@gmail.com)"))])
  (bilibili .
 	   [(0 1 0 1 -4 20250727 348)
 	    ((emacs
@@ -5582,6 +5628,8 @@
 	      (:commit . "bc02e545cfd9a048a8df777669a426a8edc2321f")
 	      (:revdesc . "bc02e545cfd9")
 	      (:keywords "convenience")
+	      (:authors
+	       ("Philip Dumaresq" . "phdumaresq@protonmail.com"))
 	      (:maintainers
 	       ("Philip Dumaresq" . "phdumaresq@protonmail.com"))
 	      (:maintainer "Philip Dumaresq" . "phdumaresq@protonmail.com"))])
@@ -6418,7 +6466,16 @@
 	       ((:url . "https://github.com/lukhas/buffer-move/")
 		(:commit . "e7800b3ab1bd76ee475ef35507ec51ecd5a3f065")
 		(:revdesc . "e7800b3ab1bd")
-		(:keywords "convenience"))])
+		(:keywords "convenience")
+		(:authors
+		 ("Lucas Bonnet" . "lucas@rincevent.net")
+		 ("Mathis Hofer" . "mathis@fsfe.org")
+		 ("Geyslan G. Bem" . "geyslan@gmail.com"))
+		(:maintainers
+		 ("Lucas Bonnet" . "lucas@rincevent.net")
+		 ("Mathis Hofer" . "mathis@fsfe.org")
+		 ("Geyslan G. Bem" . "geyslan@gmail.com"))
+		(:maintainer "Lucas Bonnet" . "lucas@rincevent.net"))])
  (buffer-name-relative .
 		       [(0 1 0 1 -4 20251214 600)
 			((emacs
@@ -6708,7 +6765,14 @@
 	       ((:url . "https://github.com/magnars/buster-mode")
 		(:commit . "de6958ef8369400922618b8d1e99abfa91b97ac5")
 		(:revdesc . "de6958ef8369")
-		(:keywords "buster" "testing" "javascript"))])
+		(:keywords "buster" "testing" "javascript")
+		(:authors
+		 ("Magnar Sveen" . "magnars@gmail.com")
+		 ("Christian Johansen" . "christian@cjohansen.no"))
+		(:maintainers
+		 ("Magnar Sveen" . "magnars@gmail.com")
+		 ("Christian Johansen" . "christian@cjohansen.no"))
+		(:maintainer "Magnar Sveen" . "magnars@gmail.com"))])
  (buster-snippets .
 		  [(0 1 0 1 -4 20151125 1010)
 		   ((yasnippet
@@ -7200,7 +7264,12 @@
 	   ((:url . "https://github.com/kisaragi-hiu/cangjie.el")
 	    (:commit . "d6882e15f47fdde37e9f739dde604d77d25f11db")
 	    (:revdesc . "d6882e15f47f")
-	    (:keywords "convenience" "writing"))])
+	    (:keywords "convenience" "writing")
+	    (:authors
+	     ("Kisaragi Hiu" . "mail@kisaragi-hiu.com"))
+	    (:maintainers
+	     ("Kisaragi Hiu" . "mail@kisaragi-hiu.com"))
+	    (:maintainer "Kisaragi Hiu" . "mail@kisaragi-hiu.com"))])
  (cape .
        [(0 1 0 1 -4 20260502 949)
 	((emacs
@@ -7918,7 +7987,12 @@
 	       ((:url . "https://github.com/damon-kwok/chapel-mode")
 		(:commit . "39fd24bb7cf44808200354ac0496be4fc4fddd9a")
 		(:revdesc . "39fd24bb7cf4")
-		(:keywords "chapel" "chpl" "programming" "languages"))])
+		(:keywords "chapel" "chpl" "programming" "languages")
+		(:authors
+		 ("Damon Kwok" . "damon-kwok@outlook.com"))
+		(:maintainers
+		 ("Damon Kwok" . "damon-kwok@outlook.com"))
+		(:maintainer "Damon Kwok" . "damon-kwok@outlook.com"))])
  (char-menu .
 	    [(0 1 1 1 -4 20210321 1657)
 	     ((emacs
@@ -8202,7 +8276,12 @@
 		   "A dark chocolaty theme" tar
 		   ((:url . "https://github.com/SavchenkoValeriy/emacs-chocolate-theme")
 		    (:commit . "ccc05f7ad96d3d1332727689bf6250443adc7ec0")
-		    (:revdesc . "ccc05f7ad96d"))])
+		    (:revdesc . "ccc05f7ad96d")
+		    (:authors
+		     ("Valeriy Savchenko" . "sinmipt@gmail.com"))
+		    (:maintainers
+		     ("Valeriy Savchenko" . "sinmipt@gmail.com"))
+		    (:maintainer "Valeriy Savchenko" . "sinmipt@gmail.com"))])
  (choice-program .
 		 [(0 1 0 1 -4 20260127 2022)
 		  ((emacs
@@ -8840,7 +8919,12 @@
 		 ((:url . "https://github.com/SavchenkoValeriy/emacs-clang-format-plus")
 		  (:commit . "ddd4bfe1a13c2fd494ce339a320a51124c1d2f68")
 		  (:revdesc . "ddd4bfe1a13c")
-		  (:keywords "c" "c++" "clang-format"))])
+		  (:keywords "c" "c++" "clang-format")
+		  (:authors
+		   ("Valeriy Savchenko" . "sinmipt@gmail.com"))
+		  (:maintainers
+		   ("Valeriy Savchenko" . "sinmipt@gmail.com"))
+		  (:maintainer "Valeriy Savchenko" . "sinmipt@gmail.com"))])
  (clang-format-lite .
 		    [(0 1 0 1 -4 20250509 246)
 		     nil "Format code on-save with clang-format, supports remote files" tar
@@ -9247,7 +9331,12 @@
 		  ((:url . "https://github.com/kototama/cljsbuild-mode")
 		   (:commit . "fa2315660cb3ce944b5e16c679dcf5afd6a97f4c")
 		   (:revdesc . "fa2315660cb3")
-		   (:keywords "clojure" "clojurescript" "leiningen" "compilation"))])
+		   (:keywords "clojure" "clojurescript" "leiningen" "compilation")
+		   (:authors
+		    ("Kototama" . "kototamogmailcom"))
+		   (:maintainers
+		    ("Kototama" . "kototamogmailcom"))
+		   (:maintainer "Kototama" . "kototamogmailcom"))])
  (clmemo .
 	 [(1 0 0 1 -4 20220204 1345)
 	  nil "Change Log MEMO" tar
@@ -9372,6 +9461,13 @@
 		 (:commit . "9146525680b29a0c6b72a1126d075b54f8066710")
 		 (:revdesc . "9146525680b2")
 		 (:keywords "languages" "clojure" "clojurescript" "lisp")
+		 (:authors
+		  ("Jeffrey Chu" . "jochu0@gmail.com")
+		  ("Lennart Staflin" . "lenst@lysator.liu.se")
+		  ("Phil Hagelberg" . "technomancy@gmail.com")
+		  ("Bozhidar Batsov" . "bozhidar@batsov.dev")
+		  ("Artur Malabarba" . "bruce.connor.am@gmail.com")
+		  ("Magnar Sveen" . "magnars@gmail.com"))
 		 (:maintainers
 		  ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 		 (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev"))])
@@ -9425,6 +9521,9 @@
 		    (:commit . "ba6de87b0acb5aa5483f6012611b30f6bf0414f3")
 		    (:revdesc . "ba6de87b0acb")
 		    (:keywords "languages" "clojure" "clojurescript" "lisp")
+		    (:authors
+		     ("Danny Freeman" . "danny@dfreeman.email")
+		     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 		    (:maintainers
 		     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 		    (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev"))])
@@ -9938,7 +10037,12 @@
 		((:url . "http://www.bookshelf.jp/elc/color-moccur.el")
 		 (:commit . "4f1c59ffd1ccc2ab1a171cd6b721e8cb9e002fb7")
 		 (:revdesc . "4f1c59ffd1cc")
-		 (:keywords "convenience"))])
+		 (:keywords "convenience")
+		 (:authors
+		  ("Akihisa" . "akihisa@mail.ne.jp"))
+		 (:maintainers
+		  ("Akihisa" . "akihisa@mail.ne.jp"))
+		 (:maintainer "Akihisa" . "akihisa@mail.ne.jp"))])
  (color-theme .
 	      [(6 6 1 1 -4 20190220 1115)
 	       nil "An OBSOLETE color-theme implementation" tar
@@ -10263,7 +10367,14 @@
 		    "A minimal theme with contrasting comments" tar
 		    ((:url . "https://github.com/pzel/commentary-theme")
 		     (:commit . "31e3724631d20fe5854cf522443a31fc12245ce3")
-		     (:revdesc . "31e3724631d2"))])
+		     (:revdesc . "31e3724631d2")
+		     (:authors
+		      ("Amirreza Ghaderi" . "amirreza.blog@gmail.com")
+		      ("Simon Zelazny" . "zelazny@mailbox.org"))
+		     (:maintainers
+		      ("Amirreza Ghaderi" . "amirreza.blog@gmail.com")
+		      ("Simon Zelazny" . "zelazny@mailbox.org"))
+		     (:maintainer "Amirreza Ghaderi" . "amirreza.blog@gmail.com"))])
  (commenter .
 	    [(0 5 2 1 -4 20160219 1627)
 	     ((emacs
@@ -10994,7 +11105,12 @@
 		 ((:url . "https://repo.or.cz/company-nginx.git")
 		  (:commit . "8a9f1a5653fe2d9a5042bfb9377d54f37fcc64c8")
 		  (:revdesc . "8a9f1a5653fe")
-		  (:keywords "company" "nginx"))])
+		  (:keywords "company" "nginx")
+		  (:authors
+		   ("stardiviner" . "numbchild@gmail.com"))
+		  (:maintainers
+		   ("stardiviner" . "numbchild@gmail.com"))
+		  (:maintainer "stardiviner" . "numbchild@gmail.com"))])
  (company-ngram .
 		[(0 0 1 1 -4 20170129 1913)
 		 ((cl-lib
@@ -11540,7 +11656,14 @@
 		"Company-mode backend for ycmd" tar
 		((:url . "https://github.com/abingham/emacs-ycmd")
 		 (:commit . "966594701c1eef1f6d4dad0c71c6d43a029977d7")
-		 (:revdesc . "966594701c1e"))])
+		 (:revdesc . "966594701c1e")
+		 (:authors
+		  ("Austin Bingham" . "austin.bingham@gmail.com")
+		  ("Peter Vasil" . "mail@petervasil.net"))
+		 (:maintainers
+		  ("Austin Bingham" . "austin.bingham@gmail.com")
+		  ("Peter Vasil" . "mail@petervasil.net"))
+		 (:maintainer "Austin Bingham" . "austin.bingham@gmail.com"))])
  (compdef .
 	  [(0 2 1 -4 20200304 611)
 	   ((emacs
@@ -11909,7 +12032,12 @@
 	  ((:url . "https://github.com/tralph3/conner")
 	   (:commit . "c87ada981743184ad21cd41def1405520651d626")
 	   (:revdesc . "c87ada981743")
-	   (:keywords "tools"))])
+	   (:keywords "tools")
+	   (:authors
+	    ("Tomás Ralph" . "tomasralph2000@gmail.com"))
+	   (:maintainers
+	    ("Tomás Ralph" . "tomasralph2000@gmail.com"))
+	   (:maintainer "Tomás Ralph" . "tomasralph2000@gmail.com"))])
  (constant-theme .
 		 [(2018 9 1 -4 20180921 1012)
 		  ((emacs
@@ -13221,7 +13349,12 @@
 		((:url . "https://github.com/xmagpie/counsel-test")
 		 (:commit . "f0ea446def59a3a8ca40e868fe9d82de268b2abe")
 		 (:revdesc . "f0ea446def59")
-		 (:keywords "tools" "ivy" "counsel" "testing" "ctest" "pytest"))])
+		 (:keywords "tools" "ivy" "counsel" "testing" "ctest" "pytest")
+		 (:authors
+		  ("Konstantin Sorokin" . "sorokin.kc@gmail.com"))
+		 (:maintainers
+		  ("Konstantin Sorokin" . "sorokin.kc@gmail.com"))
+		 (:maintainer "Konstantin Sorokin" . "sorokin.kc@gmail.com"))])
  (counsel-toki .
 	       [(0 1 0 1 -4 20230705 1638)
 		((request
@@ -13459,7 +13592,14 @@
 		   ((:url . "https://github.com/magnars/crappy-jsp-mode")
 		    (:commit . "6c45ab92b452411cc0fab9bcee2f456276b4fc40")
 		    (:revdesc . "6c45ab92b452")
-		    (:keywords "jsp" "major" "mode"))])
+		    (:keywords "jsp" "major" "mode")
+		    (:authors
+		     ("Magnar Sveen" . "magnars@gmail.com")
+		     ("Jostein Holje" . "jostein.holje@gmail.com"))
+		    (:maintainers
+		     ("Magnar Sveen" . "magnars@gmail.com")
+		     ("Jostein Holje" . "jostein.holje@gmail.com"))
+		    (:maintainer "Magnar Sveen" . "magnars@gmail.com"))])
  (crc .
       [(0 1 0 1 -4 20250303 119)
        ((emacs
@@ -13483,7 +13623,12 @@
 		   "Straight from the soda fountain" tar
 		   ((:url . "https://github.com/emacsfodder/emacs-theme-creamsody")
 		    (:commit . "98d55dcb2480889dee416c9fa0c6baf8c6af9844")
-		    (:revdesc . "98d55dcb2480"))])
+		    (:revdesc . "98d55dcb2480")
+		    (:authors
+		     ("Jason Milkins" . "jasonm23@gmail.com"))
+		    (:maintainers
+		     ("Jason Milkins" . "jasonm23@gmail.com"))
+		    (:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
  (creamy-theme .
 	       [(0 1 0 1 -4 20260130 917)
 		((emacs
@@ -14100,7 +14245,12 @@
 		     "A Theme with overwhelming bias towards cyan" tar
 		     ((:url . "https://github.com/emacsfodder/emacs-theme-cyanometric")
 		      (:commit . "9b20e33a8cc2c76bfe6ad45916be6881386707f5")
-		      (:revdesc . "9b20e33a8cc2"))])
+		      (:revdesc . "9b20e33a8cc2")
+		      (:authors
+		       ("Jason Milkins" . "jasonm23@gmail.com"))
+		      (:maintainers
+		       ("Jason Milkins" . "jasonm23@gmail.com"))
+		      (:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
  (cybercafe-theme .
 		  [(0 3 3 1 -4 20231122 1444)
 		   ((emacs
@@ -14178,7 +14328,12 @@
 		((:url . "https://github.com/toroidal-code/cycle-themes.el")
 		 (:commit . "2660c3178be7b28c2cb5dde2dd70a4bd51dae3a2")
 		 (:revdesc . "2660c3178be7")
-		 (:keywords "themes" "utility" "global minor mode"))])
+		 (:keywords "themes" "utility" "global minor mode")
+		 (:authors
+		  ("Katherine Whitlock" . "toroidalcode@gmail.com"))
+		 (:maintainers
+		  ("Katherine Whitlock" . "toroidalcode@gmail.com"))
+		 (:maintainer "Katherine Whitlock" . "toroidalcode@gmail.com"))])
  (cyphejor .
 	   [(0 1 0 1 -4 20250401 1135)
 	    ((emacs
@@ -14267,7 +14422,12 @@
 	       ((:url . "https://github.com/luxbock/dactyl-mode")
 		(:commit . "cc55fe6b987271d9647492b8df4c812d884f661f")
 		(:revdesc . "cc55fe6b9872")
-		(:keywords "languages" "vim"))])
+		(:keywords "languages" "vim")
+		(:authors
+		 ("Alpha Tan" . "alphatan.zh@gmail.com"))
+		(:maintainers
+		 ("Alpha Tan" . "alphatan.zh@gmail.com"))
+		(:maintainer "Alpha Tan" . "alphatan.zh@gmail.com"))])
  (dad-joke .
 	   [(1 4 1 -4 20170928 658)
 	    ((emacs
@@ -14529,7 +14689,12 @@
 		   "From the darkness... it watches" tar
 		   ((:url . "https://github.com/emacsfodder/emacs-theme-darktooth")
 		    (:commit . "998639b2ce629dbdc0901ed560371f82de7af490")
-		    (:revdesc . "998639b2ce62"))])
+		    (:revdesc . "998639b2ce62")
+		    (:authors
+		     ("Jason Milkins" . "jasonm23@gmail.com"))
+		    (:maintainers
+		     ("Jason Milkins" . "jasonm23@gmail.com"))
+		    (:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
  (dart-mode .
 	    [(0 1 0 1 -4 20251105 543)
 	     ((emacs
@@ -15773,7 +15938,12 @@
 	      ((:url . "https://gitlab.com/kisaragi-hiu/didyoumean.el")
 	       (:commit . "398fc3bf8ea520cd0517076bdc9b609cc6858c80")
 	       (:revdesc . "398fc3bf8ea5")
-	       (:keywords "convenience"))])
+	       (:keywords "convenience")
+	       (:authors
+		("Kisaragi Hiu" . "mail@kisaragi-hiu.com"))
+	       (:maintainers
+		("Kisaragi Hiu" . "mail@kisaragi-hiu.com"))
+	       (:maintainer "Kisaragi Hiu" . "mail@kisaragi-hiu.com"))])
  (diff-ansi .
 	    [(0 1 0 1 -4 20260108 1512)
 	     ((emacs
@@ -17589,7 +17759,14 @@
 	   ((:url . "https://github.com/ag91/doctest")
 	    (:commit . "0620ab6283a4e4302761ac415354b0b2b889dcda")
 	    (:revdesc . "0620ab6283a4")
-	    (:keywords "lisp" "maint" "docs" "help"))])
+	    (:keywords "lisp" "maint" "docs" "help")
+	    (:authors
+	     ("Chris Rayner" . "(dchrisrayner@gmail.com)")
+	     ("Andrea -- current maintainer" . "(andrea-dev@hotmail.com) "))
+	    (:maintainers
+	     ("Chris Rayner" . "(dchrisrayner@gmail.com)")
+	     ("Andrea -- current maintainer" . "(andrea-dev@hotmail.com) "))
+	    (:maintainer "Chris Rayner" . "(dchrisrayner@gmail.com)"))])
  (dogears .
 	  [(0 2 -1 1 -4 20240412 850)
 	   ((emacs
@@ -19050,7 +19227,12 @@
 			((:url . "https://repo.or.cz/edebug-inline-result.git")
 			 (:commit . "90e401ae3e7b3c85da8b24af940fd97f5e744625")
 			 (:revdesc . "90e401ae3e7b")
-			 (:keywords "extensions" "lisp" "tools"))])
+			 (:keywords "extensions" "lisp" "tools")
+			 (:authors
+			  ("stardiviner" . "numbchild@gmail.com"))
+			 (:maintainers
+			  ("stardiviner" . "numbchild@gmail.com"))
+			 (:maintainer "stardiviner" . "numbchild@gmail.com"))])
  (edebug-x .
 	   [(1 2 1 -4 20130616 625)
 	    nil "Extensions for Edebug" tar
@@ -19656,7 +19838,16 @@
        ((:url . "https://github.com/dickmao/emacs-ipython-notebook")
 	(:commit . "8fa836fcd1c22f45d36249b09590b32a890f2b9e")
 	(:revdesc . "8fa836fcd1c2")
-	(:keywords "jupyter" "literate programming" "reproducible research"))])
+	(:keywords "jupyter" "literate programming" "reproducible research")
+	(:authors
+	 ("dickmao" . "githubid:dickmao")
+	 ("John Miller" . "millejohatmillejoh.com")
+	 ("Takafumi Arakaki" . "aka.tkfatgmail.com"))
+	(:maintainers
+	 ("dickmao" . "githubid:dickmao")
+	 ("John Miller" . "millejohatmillejoh.com")
+	 ("Takafumi Arakaki" . "aka.tkfatgmail.com"))
+	(:maintainer "dickmao" . "githubid:dickmao"))])
  (eink-theme .
 	     [(1 0 1 -4 20190219 858)
 	      nil "E Ink color theme" tar
@@ -20397,15 +20588,15 @@
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
-	 [(0 1 0 1 -4 20260515 1804)
+	 [(0 1 0 1 -4 20260515 2038)
 	  ((emacs
 	    (28 1))
 	   (compat
 	    (31)))
 	  "An Emacs Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/emacs-elfeed/elfeed")
-	   (:commit . "843466dd46611bac79ed29e3dc65f58f89c9eb04")
-	   (:revdesc . "843466dd4661")
+	   (:commit . "04fa2ebda2c62d2e9644818efc612cf842f10f6f")
+	   (:revdesc . "04fa2ebda2c6")
 	   (:keywords "network" "comm" "hypermedia")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -20778,7 +20969,16 @@
 		nil "Parse depend libraries of elisp file" tar
 		((:url . "https://github.com/emacsorphanage/elisp-depend")
 		 (:commit . "c604eee1a86a297cd13c0235ebde1431dcad59d2")
-		 (:revdesc . "c604eee1a86a"))])
+		 (:revdesc . "c604eee1a86a")
+		 (:authors
+		  (nil . "AndyStewartlazycat.manatee@gmail.com")
+		  ("Tehom" . "TomBretontehom@panix.com")
+		  ("Michael Heerdegen" . "michael_heerdegen@web.de"))
+		 (:maintainers
+		  (nil . "AndyStewartlazycat.manatee@gmail.com")
+		  ("Tehom" . "TomBretontehom@panix.com")
+		  ("Michael Heerdegen" . "michael_heerdegen@web.de"))
+		 (:maintainer nil . "AndyStewartlazycat.manatee@gmail.com"))])
  (elisp-depmap .
 	       [(0 1 0 1 -4 20251029 1438)
 		((emacs
@@ -20909,7 +21109,14 @@
 	       ((:url . "https://github.com/elixir-editors/emacs-elixir")
 		(:commit . "00d6580a040a750e019218f9392cf9a4c2dac23a")
 		(:revdesc . "00d6580a040a")
-		(:keywords "languages" "elixir"))])
+		(:keywords "languages" "elixir")
+		(:authors
+		 ("Andreas Fuchs" . "asf@boinkor.net")
+		 ("Samuel Tonini" . "tonini.samuel@gmail.com"))
+		(:maintainers
+		 ("Andreas Fuchs" . "asf@boinkor.net")
+		 ("Samuel Tonini" . "tonini.samuel@gmail.com"))
+		(:maintainer "Andreas Fuchs" . "asf@boinkor.net"))])
  (elixir-ts-mode .
 		 [(1 6 1 -4 20241228 919)
 		  ((emacs
@@ -21595,7 +21802,14 @@
 		    "Ruby test with emamux" tar
 		    ((:url . "https://github.com/syohex/emamux-ruby-test")
 		     (:commit . "785bfd44d097a46bb2ebe1e62ac7595fd4dc9ab5")
-		     (:revdesc . "785bfd44d097"))])
+		     (:revdesc . "785bfd44d097")
+		     (:authors
+		      ("Syohei YOSHIDA" . "syohex@gmail.com")
+		      ("Malyshev Artem" . "proofit404@gmail.com"))
+		     (:maintainers
+		      ("Syohei YOSHIDA" . "syohex@gmail.com")
+		      ("Malyshev Artem" . "proofit404@gmail.com"))
+		     (:maintainer "Syohei YOSHIDA" . "syohex@gmail.com"))])
  (emaps .
 	[(0 2 0 1 -4 20200508 1759)
 	 ((dash
@@ -22426,7 +22640,16 @@
 	    ((:url . "https://github.com/dakrone/epresent")
 	     (:commit . "bc3443879bb0111dcde2abd2f9c578e2cd438186")
 	     (:revdesc . "bc3443879bb0")
-	     (:keywords "gui"))])
+	     (:keywords "gui")
+	     (:authors
+	      ("Tom Tromey" . "tromey@redhat.com")
+	      ("Eric Schulte" . "schulte.eric@gmail.com")
+	      ("Lee Hinman" . "lee@writequit.org"))
+	     (:maintainers
+	      ("Tom Tromey" . "tromey@redhat.com")
+	      ("Eric Schulte" . "schulte.eric@gmail.com")
+	      ("Lee Hinman" . "lee@writequit.org"))
+	     (:maintainer "Tom Tromey" . "tromey@redhat.com"))])
  (eproject .
 	   [(1 5 1 -4 20180312 1642)
 	    ((helm
@@ -23303,7 +23526,12 @@
 		       "Commands to add JS comments disabling eslint rules" tar
 		       ((:url . "https://github.com/DamienCassou/eslint-disable-rule")
 			(:commit . "54771405e09e2cf5cb8f47aab2818e77d3046f53")
-			(:revdesc . "54771405e09e"))])
+			(:revdesc . "54771405e09e")
+			(:authors
+			 ("Damien Cassou" . "damien@cassou.me"))
+			(:maintainers
+			 ("Damien Cassou" . "damien@cassou.me"))
+			(:maintainer "Damien Cassou" . "damien@cassou.me"))])
  (eslint-fix .
 	     [(1 0 1 -4 20211005 221)
 	      nil "Fix JavaScript files using ESLint" tar
@@ -24965,7 +25193,14 @@
 	    ((:url . "https://github.com/iyefrat/evil-tex")
 	     (:commit . "5dd1e852c8fb9e6efa2b748e89786526483e7619")
 	     (:revdesc . "5dd1e852c8fb")
-	     (:keywords "tex" "emulation" "vi" "evil" "wp"))])
+	     (:keywords "tex" "emulation" "vi" "evil" "wp")
+	     (:authors
+	      ("Yoav Marco" . "https://github.com/ymarco")
+	      ("Itai Y. Efrat" . "https://github.com/iyefrat"))
+	     (:maintainers
+	      ("Yoav Marco" . "yoavm448@gmail.com")
+	      ("Itai Y. Efrat" . "itai3397@gmail.com"))
+	     (:maintainer "Yoav Marco" . "yoavm448@gmail.com"))])
  (evil-tex-ts .
 	      [(0 1 0 1 -4 20251229 2214)
 	       ((emacs
@@ -25532,7 +25767,12 @@
 		 ((:url . "https://repo.or.cz/external-dict.el.git")
 		  (:commit . "018cc2bad2e8bf29914d39b0119e836fa0f9dc18")
 		  (:revdesc . "018cc2bad2e8")
-		  (:keywords "wp" "processes"))])
+		  (:keywords "wp" "processes")
+		  (:authors
+		   ("stardiviner" . "numbchild@gmail.com"))
+		  (:maintainers
+		   ("stardiviner" . "numbchild@gmail.com"))
+		  (:maintainer "stardiviner" . "numbchild@gmail.com"))])
  (extmap .
 	 [(1 3 1 -4 20230907 1959)
 	  ((emacs
@@ -26254,7 +26494,12 @@
 		((:url . "https://repo.or.cz/ffmpeg-utils.git")
 		 (:commit . "064d61527bc6b6a1d0fb0065f8a7bae3bbd4cefc")
 		 (:revdesc . "064d61527bc6")
-		 (:keywords "multimedia"))])
+		 (:keywords "multimedia")
+		 (:authors
+		  ("stardiviner" . "numbchild@gmail.com"))
+		 (:maintainers
+		  ("stardiviner" . "numbchild@gmail.com"))
+		 (:maintainer "stardiviner" . "numbchild@gmail.com"))])
  (fic-mode .
 	   [(0 1 0 1 -4 20180603 2035)
 	    nil "Show FIXME/TODO/BUG(...) in special face only in comments and strings" tar
@@ -27881,6 +28126,8 @@
 		    (:commit . "1ca08bbc343362a923cbdc2010f66e41655e92ab")
 		    (:revdesc . "1ca08bbc3433")
 		    (:keywords "languages" "gradle")
+		    (:authors
+		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainers
 		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainer "James Nguyen" . "james@jojojames.com"))])
@@ -28094,6 +28341,8 @@
 		  (:commit . "8181c5d2e1318c6ddcff21c6f3f6d76413545645")
 		  (:revdesc . "8181c5d2e131")
 		  (:keywords "languages" "jest")
+		  (:authors
+		   ("James Nguyen" . "james@jojojames.com"))
 		  (:maintainers
 		   ("James Nguyen" . "james@jojojames.com"))
 		  (:maintainer "James Nguyen" . "james@jojojames.com"))])
@@ -28441,7 +28690,12 @@
 		 ((:url . "https://github.com/seantallen/flycheck-pony")
 		  (:commit . "22787cf8223ca9ec309e30a42c20a8e706d8bfbe")
 		  (:revdesc . "22787cf8223c")
-		  (:keywords "tools" "convenience"))])
+		  (:keywords "tools" "convenience")
+		  (:authors
+		   ("Sean T Allen" . "sean@seantallen.com"))
+		  (:maintainers
+		   ("Sean T Allen" . "sean@seantallen.com"))
+		  (:maintainer "Sean T Allen" . "sean@seantallen.com"))])
  (flycheck-popup-tip .
 		     [(0 12 2 1 -4 20170812 2351)
 		      ((flycheck
@@ -28709,7 +28963,16 @@
 		  ((:url . "https://github.com/swift-emacs/flycheck-swift")
 		   (:commit . "c6c416a1b7a7d346e5c040e4e4065abc68d3a844")
 		   (:revdesc . "c6c416a1b7a7")
-		   (:keywords "languages" "swift"))])
+		   (:keywords "languages" "swift")
+		   (:authors
+		    ("Chris Barrett" . "chris.d.barrett@me.com")
+		    ("Bozhidar Batsov" . "bozhidar@batsov.com")
+		    ("Arthur Evstifeev" . "lod@pisem.net"))
+		   (:maintainers
+		    ("Chris Barrett" . "chris.d.barrett@me.com")
+		    ("Bozhidar Batsov" . "bozhidar@batsov.com")
+		    ("Arthur Evstifeev" . "lod@pisem.net"))
+		   (:maintainer "Chris Barrett" . "chris.d.barrett@me.com"))])
  (flycheck-swift3 .
 		  [(3 2 0 1 -4 20221227 1307)
 		   ((emacs
@@ -28737,6 +29000,8 @@
 		       (:commit . "65101873c4c9f8e7eac9471188b161eeddda1555")
 		       (:revdesc . "65101873c4c9")
 		       (:keywords "languages" "swiftlint" "swift" "emacs")
+		       (:authors
+			("James Nguyen" . "james@jojojames.com"))
 		       (:maintainers
 			("James Nguyen" . "james@jojojames.com"))
 		       (:maintainer "James Nguyen" . "james@jojojames.com"))])
@@ -28852,6 +29117,8 @@
 		   (:commit . "6147ab777e2c08e4f5ffdbd85d3013ca700fa835")
 		   (:revdesc . "6147ab777e2c")
 		   (:keywords "languages" "xcode")
+		   (:authors
+		    ("James Nguyen" . "james@jojojames.com"))
 		   (:maintainers
 		    ("James Nguyen" . "james@jojojames.com"))
 		   (:maintainer "James Nguyen" . "james@jojojames.com"))])
@@ -29254,6 +29521,8 @@
 		   (:commit . "dbedd29b78d4828ef57d4de20867be5df3eaab99")
 		   (:revdesc . "dbedd29b78d4")
 		   (:keywords "languages" "gradle")
+		   (:authors
+		    ("James Nguyen" . "james@jojojames.com"))
 		   (:maintainers
 		    ("James Nguyen" . "james@jojojames.com"))
 		   (:maintainer "James Nguyen" . "james@jojojames.com"))])
@@ -29413,6 +29682,8 @@
 		   (:commit . "bea8bf350802c06756efd4e6dfba65f31dc41d78")
 		   (:revdesc . "bea8bf350802")
 		   (:keywords "languages" "ktlint")
+		   (:authors
+		    ("James Nguyen" . "james@jojojames.com"))
 		   (:maintainers
 		    ("James Nguyen" . "james@jojojames.com"))
 		   (:maintainer "James Nguyen" . "james@jojojames.com"))])
@@ -29426,7 +29697,14 @@
 			((:url . "https://github.com/emacs-languagetool/flymake-languagetool")
 			 (:commit . "2fcba271ab1b8fc301812615a8c072c108ad96b3")
 			 (:revdesc . "2fcba271ab1b")
-			 (:keywords "convenience" "grammar" "check"))])
+			 (:keywords "convenience" "grammar" "check")
+			 (:authors
+			  ("Jen-Chieh" . "jcs090218@gmail.com")
+			  ("Trey Peacock" . "git@treypeacock.com"))
+			 (:maintainers
+			  ("Jen-Chieh" . "jcs090218@gmail.com")
+			  ("Trey Peacock" . "git@treypeacock.com"))
+			 (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (flymake-less .
 	       [(0 1 -4 20151111 738)
 		((less-css-mode
@@ -29599,6 +29877,8 @@
 		   (:commit . "3d3e5f2a9ab696670f9e52baa4dde7b84b7542df")
 		   (:revdesc . "3d3e5f2a9ab6")
 		   (:keywords "languages" "racket" "scheme")
+		   (:authors
+		    ("James Nguyen" . "james@jojojames.com"))
 		   (:maintainers
 		    ("James Nguyen" . "james@jojojames.com"))
 		   (:maintainer "James Nguyen" . "james@jojojames.com"))])
@@ -29761,6 +30041,8 @@
 		(:commit . "e9c6038f69ad1523e603026155d9acd5fc3d5aac")
 		(:revdesc . "e9c6038f69ad")
 		(:keywords "languages")
+		(:authors
+		 ("Stefan Kuznetsov" . "skuznetsov@posteo.net"))
 		(:maintainers
 		 ("Stefan Kuznetsov" . "skuznetsov@posteo.net"))
 		(:maintainer "Stefan Kuznetsov" . "skuznetsov@posteo.net"))])
@@ -30088,6 +30370,10 @@
 	    (:commit . "443b826c76a4938fc0961298ff0e6c924c723ed7")
 	    (:revdesc . "443b826c76a4")
 	    (:keywords "tools")
+	    (:authors
+	     ("Jamie Lokier" . "jamieATimbolc.uccdtie")
+	     ("Jari Aalto" . "jariaaltoATcantedtnet")
+	     ("Anders Lindgren" . "anderslATcsd.uudtse"))
 	    (:maintainers
 	     ("Jari Aalto" . "jariaaltoATcantedtnet"))
 	    (:maintainer "Jari Aalto" . "jariaaltoATcantedtnet"))])
@@ -32028,7 +32314,12 @@
 	      ((:url . "https://github.com/tsgates/git-emacs")
 	       (:commit . "cef196abf398e2dd11f775d1e6cd8690567408aa")
 	       (:revdesc . "cef196abf398")
-	       (:keywords "git" "version control" "release management"))])
+	       (:keywords "git" "version control" "release management")
+	       (:authors
+		("David Kågedal" . "davidk@lysator.liu.se"))
+	       (:maintainers
+		("David Kågedal" . "davidk@lysator.liu.se"))
+	       (:maintainer "David Kågedal" . "davidk@lysator.liu.se"))])
  (git-bug .
 	  [(0 1 0 1 -4 20251001 25)
 	   ((emacs
@@ -32819,7 +33110,12 @@
 		 ((:url . "https://github.com/gleam-lang/gleam-mode")
 		  (:commit . "91cf073c5fb889c091b1797f44cc52419b7c9ae2")
 		  (:revdesc . "91cf073c5fb8")
-		  (:keywords "languages" "gleam"))])
+		  (:keywords "languages" "gleam")
+		  (:authors
+		   ("Jonathan Arnett" . "jonathan.arnett@protonmail.com"))
+		  (:maintainers
+		   ("Jonathan Arnett" . "jonathan.arnett@protonmail.com"))
+		  (:maintainer "Jonathan Arnett" . "jonathan.arnett@protonmail.com"))])
  (global-tags .
 	      [(0 7 1 -4 20211120 347)
 	       ((emacs
@@ -32848,7 +33144,16 @@
 	     ((:url . "https://github.com/jimhourihan/glsl-mode")
 	      (:commit . "86e6bb6cf28d1053366039683a4498401bab9c47")
 	      (:revdesc . "86e6bb6cf28d")
-	      (:keywords "languages" "opengl" "gpu" "spir-v" "vulkan"))])
+	      (:keywords "languages" "opengl" "gpu" "spir-v" "vulkan")
+	      (:authors
+	       ("Gustaf Waldemarson" . "gustaf.waldemarson~at~gmail.com")
+	       ("Jim Hourihan" . "jimhourihan~at~gmail.com")
+	       (nil . "Xavier.Decoret@imag.fr"))
+	      (:maintainers
+	       ("Gustaf Waldemarson" . "gustaf.waldemarson~at~gmail.com")
+	       ("Jim Hourihan" . "jimhourihan~at~gmail.com")
+	       (nil . "Xavier.Decoret@imag.fr"))
+	      (:maintainer "Gustaf Waldemarson" . "gustaf.waldemarson~at~gmail.com"))])
  (glue .
        [(0 0 1 1 -4 20230112 2159)
 	((emacs
@@ -33050,7 +33355,12 @@
 		((:url . "https://github.com/mkmcc/gnuplot-mode")
 		 (:commit . "601f6392986f0cba332c87678d31ae0d0a496ce7")
 		 (:revdesc . "601f6392986f")
-		 (:keywords "gnuplot" "plotting"))])
+		 (:keywords "gnuplot" "plotting")
+		 (:authors
+		  ("Mike McCourt" . "mkmcc@astro.berkeley.edu"))
+		 (:maintainers
+		  ("Mike McCourt" . "mkmcc@astro.berkeley.edu"))
+		 (:maintainer "Mike McCourt" . "mkmcc@astro.berkeley.edu"))])
  (gnus-alias .
 	     [(0 1 0 1 -4 20260224 27)
 	      nil "An alternative to gnus-posting-styles" tar
@@ -34296,7 +34606,12 @@
 	  "Minor mode for Grails projects" tar
 	  ((:url . "https://github.com/lifeisfoo/emacs-grails")
 	   (:commit . "3019f86e555ee94388795a0475cfa213e3897bbb")
-	   (:revdesc . "3019f86e555e"))])
+	   (:revdesc . "3019f86e555e")
+	   (:authors
+	    ("Alessandro Miliucci" . "lifeisfoo@gmail.com"))
+	   (:maintainers
+	    ("Alessandro Miliucci" . "lifeisfoo@gmail.com"))
+	   (:maintainer "Alessandro Miliucci" . "lifeisfoo@gmail.com"))])
  (grails-mode .
 	      [(201605040908 1 -4 20220407 1954)
 	       nil "Minor-mode that adds some Grails project management to a grails project" tar
@@ -34445,6 +34760,9 @@
 		      (:commit . "516c151b845a3eb2da73eb4ee648ad99172087ac")
 		      (:revdesc . "516c151b845a")
 		      (:keywords "mode" "dot" "dot-language" "dotlanguage" "graphviz" "graphs" "att")
+		      (:authors
+		       ("Pieter Pareit" . "pieter.pareit@gmail.com")
+		       ("Rubens Ramos" . "rubensrATusers.sourceforge.net"))
 		      (:maintainers
 		       ("Pieter Pareit" . "pieter.pareit@gmail.com"))
 		      (:maintainer "Pieter Pareit" . "pieter.pareit@gmail.com"))])
@@ -37658,8 +37976,10 @@
 		(:authors
 		 ("Thierry Volpiatto" . "thierry.volpiattoatgmail.com"))
 		(:maintainers
-		 ("Thierry Volpiatto" . "thierry.volpiattoatgmail.com"))
-		(:maintainer "Thierry Volpiatto" . "thierry.volpiattoatgmail.com"))])
+		 ("Joe Bloggs" . "vapniksatyahoo.com")
+		 ("Michael Heerdegen" . "michael_heerdegenatweb.de")
+		 ("Cayetano Santos" . "cayetanosantosatgmail.com"))
+		(:maintainer "Joe Bloggs" . "vapniksatyahoo.com"))])
  (helm-rg .
 	  [(0 1 1 -4 20200721 725)
 	   ((emacs
@@ -39179,7 +39499,12 @@
 		 "A beautifully warm dual theme" tar
 		 ((:url . "https://github.com/aodhneine/horizon-theme.el")
 		  (:commit . "9595549c514a9376c61d5d303405f6a6982e9e46")
-		  (:revdesc . "9595549c514a"))])
+		  (:revdesc . "9595549c514a")
+		  (:authors
+		   ("Aodnait taín" . "aodhneine@tuta.io"))
+		  (:maintainers
+		   ("Aodnait taín" . "aodhneine@tuta.io"))
+		  (:maintainer "Aodnait taín" . "aodhneine@tuta.io"))])
  (horoscope .
 	    [(2 0 1 -4 20180409 641)
 	     ((emacs
@@ -39557,7 +39882,14 @@
 	   ((:url . "https://github.com/hylang/hy-mode")
 	    (:commit . "df814865a1faa8414dacdbb35b2a9029995312ec")
 	    (:revdesc . "df814865a1fa")
-	    (:keywords "languages" "lisp" "python"))])
+	    (:keywords "languages" "lisp" "python")
+	    (:authors
+	     ("Julien Danjou" . "julien@danjou.info")
+	     ("Eric Kaschalk" . "ekaschalk@gmail.com"))
+	    (:maintainers
+	     ("Julien Danjou" . "julien@danjou.info")
+	     ("Eric Kaschalk" . "ekaschalk@gmail.com"))
+	    (:maintainer "Julien Danjou" . "julien@danjou.info"))])
  (hyai .
        [(1 4 0 1 -4 20170301 1447)
 	((cl-lib
@@ -40894,6 +41226,9 @@
 		(:commit . "4d3b8fae32caf91e0f9432004bbe861f54ce9c0c")
 		(:revdesc . "4d3b8fae32ca")
 		(:keywords "processes" "comint" "clojure")
+		(:authors
+		 ("Bozhidar Batsov" . "bozhidar@batsov.dev")
+		 ("Olin Shivers" . "shivers@cs.cmu.edu"))
 		(:maintainers
 		 ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 		(:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev"))])
@@ -41387,6 +41722,8 @@
 		   (:commit . "e83c94e1c31a8435a88b3ae395f2bc842ef83217")
 		   (:revdesc . "e83c94e1c31a")
 		   (:keywords "tools" "hex")
+		   (:authors
+		    ("Rubens Ramos" . "rubensrATusers.sourceforge.net"))
 		   (:maintainers
 		    ("Michael Schuldt" . "mbschuldt@gmail.com"))
 		   (:maintainer "Michael Schuldt" . "mbschuldt@gmail.com"))])
@@ -42499,7 +42836,12 @@
 	  ((:url . "https://github.com/zellio/j-mode")
 	   (:commit . "e49ef0692d73b320c281e40d9fa96b2c17073695")
 	   (:revdesc . "e49ef0692d73")
-	   (:keywords "j" "languages"))])
+	   (:keywords "j" "languages")
+	   (:authors
+	    ("Zachary Elliott" . "ZacharyElliott1@gmail.com"))
+	   (:maintainers
+	    ("Zachary Elliott" . "ZacharyElliott1@gmail.com"))
+	   (:maintainer "Zachary Elliott" . "ZacharyElliott1@gmail.com"))])
  (jack .
        [(1 0 1 -4 20221122 632)
 	((emacs
@@ -42624,7 +42966,12 @@
 	     ((:url . "https://github.com/tanzoniteblack/jape-mode")
 	      (:commit . "27dbebc4de93eb887038fda7a11671349efe8dbb")
 	      (:revdesc . "27dbebc4de93")
-	      (:keywords "languages" "jape" "gate"))])
+	      (:keywords "languages" "jape" "gate")
+	      (:authors
+	       ("Ryan Smith" . "rnsmith2@gmail.com"))
+	      (:maintainers
+	       ("Ryan Smith" . "rnsmith2@gmail.com"))
+	      (:maintainer "Ryan Smith" . "rnsmith2@gmail.com"))])
  (jar-manifest-mode .
 		    [(0 0 1 1 -4 20160501 26)
 		     nil "Major mode to edit JAR manifest files" tar
@@ -42848,7 +43195,12 @@
 	  ((:url . "https://github.com/SavchenkoValeriy/jeison")
 	   (:commit . "775b45657728c91f24f7508dfbc4d81a92b8e053")
 	   (:revdesc . "775b45657728")
-	   (:keywords "lisp" "json" "data-types"))])
+	   (:keywords "lisp" "json" "data-types")
+	   (:authors
+	    ("Valeriy Savchenko" . "sinmipt@gmail.com"))
+	   (:maintainers
+	    ("Valeriy Savchenko" . "sinmipt@gmail.com"))
+	   (:maintainer "Valeriy Savchenko" . "sinmipt@gmail.com"))])
  (jekyll-modes .
 	       [(0 0 1 1 -4 20141117 1314)
 		((polymode
@@ -43892,7 +44244,12 @@
 	  ((:url . "https://github.com/mkmcc/jumblr")
 	   (:commit . "34533dfb9db8538c005f4eaffafeff7ed193729f")
 	   (:revdesc . "34533dfb9db8")
-	   (:keywords "anagram" "word game" "games"))])
+	   (:keywords "anagram" "word game" "games")
+	   (:authors
+	    ("Mike McCourt" . "mkmcc@astro.berkeley.edu"))
+	   (:maintainers
+	    ("Mike McCourt" . "mkmcc@astro.berkeley.edu"))
+	   (:maintainer "Mike McCourt" . "mkmcc@astro.berkeley.edu"))])
  (jump .
        [(0 1 0 1 -4 20210110 2237)
 	((findr
@@ -45362,6 +45719,8 @@
 	 (:commit . "f5fb180ab23b7eb0695ade84c9077aa701f47bbf")
 	 (:revdesc . "f5fb180ab23b")
 	 (:keywords "tools" "tex")
+	 (:authors
+	  ("Yoav Marco TEC" . "https://github.com/tecosaur"))
 	 (:maintainers
 	  ("Yoav Marco" . "yoavm448@gmail.com"))
 	 (:maintainer "Yoav Marco" . "yoavm448@gmail.com"))])
@@ -46747,7 +47106,12 @@
 	 "Learn irregular verbs in English" tar
 	 ((:url . "https://github.com/tanrax/lirve.el")
 	  (:commit . "ff3031fa82d854411da40a32c6191d201b4abf09")
-	  (:revdesc . "ff3031fa82d8"))])
+	  (:revdesc . "ff3031fa82d8")
+	  (:authors
+	   ("Andros Fenollosa" . "andros@fenollosa.email"))
+	  (:maintainers
+	   ("Andros Fenollosa" . "andros@fenollosa.email"))
+	  (:maintainer "Andros Fenollosa" . "andros@fenollosa.email"))])
  (liso-theme .
 	     [(2 1 1 -4 20160410 2029)
 	      nil "Eclectic Dark Theme for GNU Emacs" tar
@@ -46784,7 +47148,12 @@
 	     ((:url . "https://github.com/ryukinix/lisp-chat")
 	      (:commit . "066f2a5d4ca2ff50f6a0a1413182e08f17040e3a")
 	      (:revdesc . "066f2a5d4ca2")
-	      (:keywords "comm" "chat" "lisp"))])
+	      (:keywords "comm" "chat" "lisp")
+	      (:authors
+	       ("Manoel V. Machado" . "(manoel_vilela@engineer.com)"))
+	      (:maintainers
+	       ("Manoel V. Machado" . "(manoel_vilela@engineer.com)"))
+	      (:maintainer "Manoel V. Machado" . "(manoel_vilela@engineer.com)"))])
  (lisp-docstring-toggle .
 			[(0 1 0 1 -4 20251123 1932)
 			 ((emacs
@@ -48366,6 +48735,8 @@
 	      (:commit . "59a3f956944a5ddd43cfd57deeff6b647fc46554")
 	      (:revdesc . "59a3f956944a")
 	      (:keywords "languages" "lurk" "lisp")
+	      (:authors
+	       ("Jeff Weiss" . "jweiss@protocol.ai"))
 	      (:maintainers
 	       ("Jeff Weiss" . "jweiss@protocol.ai"))
 	      (:maintainer "Jeff Weiss" . "jweiss@protocol.ai"))])
@@ -49050,7 +49421,12 @@
 			 ((:url . "https://github.com/dickmao/magit-patch-changelog")
 			  (:commit . "fd259cf6ce270a21df2f00b1e031193c8595a7a9")
 			  (:revdesc . "fd259cf6ce27")
-			  (:keywords "git" "tools" "vc"))])
+			  (:keywords "git" "tools" "vc")
+			  (:authors
+			   ("dickmao" . "githubid:dickmao"))
+			  (:maintainers
+			   ("dickmao" . "githubid:dickmao"))
+			  (:maintainer "dickmao" . "githubid:dickmao"))])
  (magit-popup .
 	      [(0 1 0 1 -4 20200719 1015)
 	       ((emacs
@@ -49372,7 +49748,12 @@
 		    ((:url . "https://repo.or.cz/major-mode-icons.git")
 		     (:commit . "b0214e0af13cd3691c4d28f03e3108bd98ec7a85")
 		     (:revdesc . "b0214e0af13c")
-		     (:keywords "frames" "multimedia"))])
+		     (:keywords "frames" "multimedia")
+		     (:authors
+		      ("stardiviner" . "numbchild@gmail.com"))
+		     (:maintainers
+		      ("stardiviner" . "numbchild@gmail.com"))
+		     (:maintainer "stardiviner" . "numbchild@gmail.com"))])
  (make-color .
 	     [(0 1 0 1 -4 20251106 1219)
 	      nil "Alternative to picking color - update fg/bg color by pressing r/g/b/... keys" tar
@@ -50875,7 +51256,12 @@
 		   ((:url . "https://github.com/metascript/metascript-mode")
 		    (:commit . "edb361c7b0e5de231e5334a17b90652fb1df78f9")
 		    (:revdesc . "edb361c7b0e5")
-		    (:keywords "languages" "metascript" "mjs"))])
+		    (:keywords "languages" "metascript" "mjs")
+		    (:authors
+		     ("Rodrigo B. de Oliveira" . "rbo@acm.org"))
+		    (:maintainers
+		     ("Rodrigo B. de Oliveira" . "rbo@acm.org"))
+		    (:maintainer "Rodrigo B. de Oliveira" . "rbo@acm.org"))])
  (metaweblog .
 	     [(0 1 0 1 -4 20250721 2333)
 	      ((emacs
@@ -51304,7 +51690,12 @@
 		 ((:url . "https://github.com/m00nlight/minizinc-mode")
 		  (:commit . "2512521ba7f8e263a06db88df663fc6b3cca7e16")
 		  (:revdesc . "2512521ba7f8")
-		  (:keywords "languages" "minizinc"))])
+		  (:keywords "languages" "minizinc")
+		  (:authors
+		   ("Yushi Wang" . "dot_wangyushi@yeah.net"))
+		  (:maintainers
+		   ("Yushi Wang" . "dot_wangyushi@yeah.net"))
+		  (:maintainer "Yushi Wang" . "dot_wangyushi@yeah.net"))])
  (minizinc-ts-mode .
 		   [(0 1 0 1 -4 20250831 753)
 		    ((emacs
@@ -51759,7 +52150,12 @@
 	     ((:url . "https://github.com/damon-kwok/modern-sh")
 	      (:commit . "65bc75828f7d13af713f1a728c038e2915944cd3")
 	      (:revdesc . "65bc75828f7d")
-	      (:keywords "languages" "programming"))])
+	      (:keywords "languages" "programming")
+	      (:authors
+	       ("Damon Kwok" . "damon-kwok@outlook.com"))
+	      (:maintainers
+	       ("Damon Kwok" . "damon-kwok@outlook.com"))
+	      (:maintainer "Damon Kwok" . "damon-kwok@outlook.com"))])
  (modtime-skip-mode .
 		    [(0 9 2 1 -4 20140128 2201)
 		     nil "Minor mode for disabling modtime and supersession checks on files" tar
@@ -52676,7 +53072,12 @@
 		     ((:url . "https://repo.or.cz/mu4e-marker-icons.git")
 		      (:commit . "13541181d5144ee91d570ab74558abce194b083f")
 		      (:revdesc . "13541181d514")
-		      (:keywords "mail"))])
+		      (:keywords "mail")
+		      (:authors
+		       ("stardiviner" . "numbchild@gmail.com"))
+		      (:maintainers
+		       ("stardiviner" . "numbchild@gmail.com"))
+		      (:maintainer "stardiviner" . "numbchild@gmail.com"))])
  (mu4e-overview .
 		[(0 1 0 1 -4 20260515 1818)
 		 ((emacs
@@ -52896,7 +53297,12 @@
 	       ((:url . "https://github.com/suonlight/multi-libvterm")
 		(:commit . "36746d85870dac5aaee6b9af4aa1c3c0ef21a905")
 		(:revdesc . "36746d85870d")
-		(:keywords "terminals" "processes"))])
+		(:keywords "terminals" "processes")
+		(:authors
+		 ("Minh Nguyen-Hue" . "minh.nh1989@gmail.com"))
+		(:maintainers
+		 ("Minh Nguyen-Hue" . "minh.nh1989@gmail.com"))
+		(:maintainer "Minh Nguyen-Hue" . "minh.nh1989@gmail.com"))])
  (multi-web-mode .
 		 [(0 1 1 -4 20130824 354)
 		  nil "Multiple major mode support for web editing" tar
@@ -53346,7 +53752,12 @@
 		   ((:url . "https://github.com/knl/name-this-color.el")
 		    (:commit . "e37cd1291d5d68d4c8d6386eab9cb9d94fd3bcfa")
 		    (:revdesc . "e37cd1291d5d")
-		    (:keywords "lisp" "color" "hex" "rgb" "shade" "name"))])
+		    (:keywords "lisp" "color" "hex" "rgb" "shade" "name")
+		    (:authors
+		     ("Nikola Knezevic" . "knl@soba143.net"))
+		    (:maintainers
+		     ("Nikola Knezevic" . "knl@soba143.net"))
+		    (:maintainer "Nikola Knezevic" . "knl@soba143.net"))])
  (named-timer .
 	      [(0 1 1 -4 20181120 2224)
 	       ((emacs
@@ -53494,7 +53905,12 @@
 		  nil "A theme based on Tango color set" tar
 		  ((:url . "https://github.com/jd/naquadah-theme")
 		   (:commit . "430c3b7bd51922cb616b3f60301f4e2604816ed8")
-		   (:revdesc . "430c3b7bd519"))])
+		   (:revdesc . "430c3b7bd519")
+		   (:authors
+		    ("Julien Danjou" . "julien@danjou.info"))
+		   (:maintainers
+		    ("Julien Danjou" . "julien@danjou.info"))
+		   (:maintainer "Julien Danjou" . "julien@danjou.info"))])
  (narrow-reindent .
 		  [(0 2 0 1 -4 20150722 1906)
 		   ((emacs
@@ -54438,7 +54854,12 @@
 	       ((:url . "https://github.com/dickmao/nndiscourse")
 		(:commit . "c8aaf40d3d8f10b0bbb40fa60a2d98c864b05aaf")
 		(:revdesc . "c8aaf40d3d8f")
-		(:keywords "news"))])
+		(:keywords "news")
+		(:authors
+		 ("dickmao" . "githubid:dickmao"))
+		(:maintainers
+		 ("dickmao" . "githubid:dickmao"))
+		(:maintainer "dickmao" . "githubid:dickmao"))])
  (nnhackernews .
 	       [(0 1 0 1 -4 20230705 1359)
 		((emacs
@@ -54453,7 +54874,12 @@
 		((:url . "https://github.com/dickmao/nnhackernews")
 		 (:commit . "4c13d261bf660901d5ff63a7ee170097ebe464ed")
 		 (:revdesc . "4c13d261bf66")
-		 (:keywords "news"))])
+		 (:keywords "news")
+		 (:authors
+		  ("dickmao" . "githubid:dickmao"))
+		 (:maintainers
+		  ("dickmao" . "githubid:dickmao"))
+		 (:maintainer "dickmao" . "githubid:dickmao"))])
  (nnir-est .
 	   [(1 180705 1 -4 20180710 2103)
 	    nil "Gnus nnir interface for HyperEstraier" tar
@@ -54486,7 +54912,12 @@
 	    ((:url . "https://github.com/dickmao/nnreddit")
 	     (:commit . "4b194b5953e9d4e6d94ce929fc264cd2b9e200a4")
 	     (:revdesc . "4b194b5953e9")
-	     (:keywords "news"))])
+	     (:keywords "news")
+	     (:authors
+	      ("dickmao" . "githubid:dickmao"))
+	     (:maintainers
+	      ("dickmao" . "githubid:dickmao"))
+	     (:maintainer "dickmao" . "githubid:dickmao"))])
  (nntwitter .
 	    [(0 1 -4 20230705 1110)
 	     ((emacs
@@ -54501,7 +54932,12 @@
 	     ((:url . "https://github.com/dickmao/nntwitter")
 	      (:commit . "e27acca9beeb6645dd13545d42f6d4d97d59d82c")
 	      (:revdesc . "e27acca9beeb")
-	      (:keywords "news"))])
+	      (:keywords "news")
+	      (:authors
+	       ("dickmao" . "githubid:dickmao"))
+	      (:maintainers
+	       ("dickmao" . "githubid:dickmao"))
+	      (:maintainer "dickmao" . "githubid:dickmao"))])
  (no-emoji .
 	   [(20180515 1 -4 20180515 1837)
 	    ((emacs
@@ -54821,7 +55257,12 @@
 	   nil "Run notmuch within emacs" tar
 	   ((:url . "https://notmuchmail.org")
 	    (:commit . "094744b3f6f5c6831b6555d1fe75709abf1d1279")
-	    (:revdesc . "094744b3f6f5"))])
+	    (:revdesc . "094744b3f6f5")
+	    (:authors
+	     ("Carl Worth" . "cworth@cworth.org"))
+	    (:maintainers
+	     ("Carl Worth" . "cworth@cworth.org"))
+	    (:maintainer "Carl Worth" . "cworth@cworth.org"))])
  (notmuch-addr .
 	       [(0 1 0 1 -4 20260101 1842)
 		((emacs
@@ -55991,6 +56432,8 @@
 	    (:commit . "bd7cf661ccb31bfbfab542018c361bd79064d4f4")
 	    (:revdesc . "bd7cf661ccb3")
 	    (:keywords "languages" "lurk" "lisp")
+	    (:authors
+	     ("Jeff Weiss" . "jweiss@protocol.ai"))
 	    (:maintainers
 	     ("Jeff Weiss" . "jweiss@protocol.ai"))
 	    (:maintainer "Jeff Weiss" . "jweiss@protocol.ai"))])
@@ -56115,6 +56558,9 @@
 		  (:commit . "1ba2f3bff0fcb8f4c58ddf534d5bf23bf52a87ca")
 		  (:revdesc . "1ba2f3bff0fc")
 		  (:keywords "powershell" "shell" "execute" "outlines" "processes")
+		  (:authors
+		   ("Rob Kiggen" . "robby.kiggen@essential-it.be")
+		   ("Pedro Morais" . "fpvmorais@gmail.com"))
 		  (:maintainers
 		   ("Mois Moshev" . "mois.moshev@bottleshipvfx.com"))
 		  (:maintainer "Mois Moshev" . "mois.moshev@bottleshipvfx.com"))])
@@ -57050,7 +57496,14 @@
 		 ((:url . "https://github.com/salmanebah/opencl-mode")
 		  (:commit . "0d305f9618ff56eb7e5e35c5bae980bcf957e972")
 		  (:revdesc . "0d305f9618ff")
-		  (:keywords "c" "opencl"))])
+		  (:keywords "c" "opencl")
+		  (:authors
+		   ("Salmane Bah" . "salmane.bah~at~u-bordeaux.fr")
+		   ("Gustaf Waldemarson" . "gustaf.waldemarson~at~gmail.com"))
+		  (:maintainers
+		   ("Salmane Bah" . "salmane.bah~at~u-bordeaux.fr")
+		   ("Gustaf Waldemarson" . "gustaf.waldemarson~at~gmail.com"))
+		  (:maintainer "Salmane Bah" . "salmane.bah~at~u-bordeaux.fr"))])
  (opener .
 	 [(0 2 2 1 -4 20161207 1810)
 	  ((request
@@ -57140,7 +57593,12 @@
 		      "A Theme with smashing orangey bits" tar
 		      ((:url . "https://github.com/emacsfodder/emacs-theme-orangey-bits")
 		       (:commit . "533856d399cb4098300bcaf4a2d20920395746f8")
-		       (:revdesc . "533856d399cb"))])
+		       (:revdesc . "533856d399cb")
+		       (:authors
+			("Jason Milkins" . "jasonm23@gmail.com"))
+		       (:maintainers
+			("Jason Milkins" . "jasonm23@gmail.com"))
+		       (:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
  (orca .
        [(0 1 0 1 -4 20250205 1726)
 	((emacs
@@ -57577,7 +58035,12 @@
 		 ((:url . "https://repo.or.cz/org-bookmarks.git")
 		  (:commit . "b54d1e296bb0fcaf33452838de83f69c1ab58f0d")
 		  (:revdesc . "b54d1e296bb0")
-		  (:keywords "outline" "matching" "hypermedia" "org"))])
+		  (:keywords "outline" "matching" "hypermedia" "org")
+		  (:authors
+		   ("stardiviner" . "numbchild@gmail.com"))
+		  (:maintainers
+		   ("stardiviner" . "numbchild@gmail.com"))
+		  (:maintainer "stardiviner" . "numbchild@gmail.com"))])
  (org-bookmarks-extractor .
 			  [(0 1 1 -4 20220829 146)
 			   ((emacs
@@ -58745,7 +59208,12 @@
 	      ((:url . "https://repo.or.cz/org-kindle.git")
 	       (:commit . "fadcfd62e254d0c45e87d63128a82a08ae21869a")
 	       (:revdesc . "fadcfd62e254")
-	       (:keywords "org" "link" "ebook" "kindle" "epub" "azw3" "mobi"))])
+	       (:keywords "org" "link" "ebook" "kindle" "epub" "azw3" "mobi")
+	       (:authors
+		("stardiviner" . "numbchild@gmail.com"))
+	       (:maintainers
+		("stardiviner" . "numbchild@gmail.com"))
+	       (:maintainer "stardiviner" . "numbchild@gmail.com"))])
  (org-lark .
 	   [(0 1 0 1 -4 20260426 1029)
 	    ((emacs
@@ -58818,7 +59286,12 @@
 		     ((:url . "https://repo.or.cz/org-link-beautify.git")
 		      (:commit . "7ef11d4fe9874324985006875b9c96f227c6c10b")
 		      (:revdesc . "7ef11d4fe987")
-		      (:keywords "hypermedia"))])
+		      (:keywords "hypermedia")
+		      (:authors
+		       ("stardiviner" . "numbchild@gmail.com"))
+		      (:maintainers
+		       ("stardiviner" . "numbchild@gmail.com"))
+		      (:maintainer "stardiviner" . "numbchild@gmail.com"))])
  (org-link-travis .
 		  [(0 0 1 1 -4 20140405 2327)
 		   ((org
@@ -60473,7 +60946,12 @@
 		    ((:url . "https://repo.or.cz/org-tag-beautify.git")
 		     (:commit . "3d124aa6a11267516846665ca7bc7ccab340f0b7")
 		     (:revdesc . "3d124aa6a112")
-		     (:keywords "hypermedia"))])
+		     (:keywords "hypermedia")
+		     (:authors
+		      ("stardiviner" . "numbchild@gmail.com"))
+		     (:maintainers
+		      ("stardiviner" . "numbchild@gmail.com"))
+		     (:maintainer "stardiviner" . "numbchild@gmail.com"))])
  (org-tag-cloud .
 		[(0 1 0 1 -4 20260323 1823)
 		 ((emacs
@@ -62203,7 +62681,12 @@
 		  "Org-mode exporter for the French GNU/Linux Magazine" tar
 		  ((:url . "https://github.com/DamienCassou/ox-linuxmag-fr")
 		   (:commit . "67381be882a384e0e0ed810b24556148c0eb6b9f")
-		   (:revdesc . "67381be882a3"))])
+		   (:revdesc . "67381be882a3")
+		   (:authors
+		    ("Damien Cassou" . "damien@cassou.me"))
+		   (:maintainers
+		    ("Damien Cassou" . "damien@cassou.me"))
+		   (:maintainer "Damien Cassou" . "damien@cassou.me"))])
  (ox-mdx-deck .
 	      [(0 0 1 1 -4 20181115 1847)
 	       ((emacs
@@ -62726,24 +63209,23 @@
 	      ("Ryan Davis" . "ryand-ruby@zenspider.com"))
 	     (:maintainer "Ryan Davis" . "ryand-ruby@zenspider.com"))])
  (package-build .
-		[(0 1 0 1 -4 20260514 1828)
+		[(0 1 0 1 -4 20260515 1810)
 		 ((emacs
 		   (26 1))
 		  (compat
 		   (30 1)))
 		 "Curate an Emacs Lisp package archive" tar
 		 ((:url . "https://github.com/melpa/package-build")
-		  (:commit . "6bf9802866bf2a9d134999c1dae0658c6aff7b02")
-		  (:revdesc . "6bf9802866bf")
+		  (:commit . "dff162bcc6494e631e1b6796f18e80a448b9982e")
+		  (:revdesc . "dff162bcc649")
 		  (:keywords "maint" "tools")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
 		   ("Steve Purcell" . "steve@sanityinc.com")
-		   ("Jonas Bernoulli" . "emacs.package-build@jonas.bernoulli.dev")
-		   ("Phil Hagelberg" . "technomancy@gmail.com"))
+		   ("Jonas Bernoulli" . "jonas@bernoulli.dev"))
 		  (:maintainers
-		   ("Jonas Bernoulli" . "emacs.package-build@jonas.bernoulli.dev"))
-		  (:maintainer "Jonas Bernoulli" . "emacs.package-build@jonas.bernoulli.dev"))])
+		   ("Jonas Bernoulli" . "jonas@bernoulli.dev"))
+		  (:maintainer "Jonas Bernoulli" . "jonas@bernoulli.dev"))])
  (package-filter .
 		 [(0 3 1 -4 20161122 719)
 		  nil "Package archive whitelist and blacklist" tar
@@ -65818,7 +66300,12 @@
 		 ((:url . "https://github.com/ponylang/ponylang-mode")
 		  (:commit . "7e6425f2c12538bfeffce754b32ba75a14c72cbd")
 		  (:revdesc . "7e6425f2c125")
-		  (:keywords "languages" "programming"))])
+		  (:keywords "languages" "programming")
+		  (:authors
+		   ("Sean T Allen" . "sean@monkeysnatchbanana.com"))
+		  (:maintainers
+		   ("Sean T Allen" . "sean@monkeysnatchbanana.com"))
+		  (:maintainer "Sean T Allen" . "sean@monkeysnatchbanana.com"))])
  (pophint .
 	  [(0 1 0 1 -4 20250202 713)
 	   ((log4e
@@ -66145,7 +66632,12 @@
 		  ((:url . "https://github.com/SavchenkoValeriy/emacs-powerthesaurus")
 		   (:commit . "4b97797cf789aaba411c61a85fe23474ebc5bedc")
 		   (:revdesc . "4b97797cf789")
-		   (:keywords "convenience" "writing"))])
+		   (:keywords "convenience" "writing")
+		   (:authors
+		    ("Valeriy Savchenko" . "sinmipt@gmail.com"))
+		   (:maintainers
+		    ("Valeriy Savchenko" . "sinmipt@gmail.com"))
+		   (:maintainer "Valeriy Savchenko" . "sinmipt@gmail.com"))])
  (ppcompile .
 	    [(0 1 1 -4 20220619 1535)
 	     ((emacs
@@ -66505,7 +66997,14 @@
 			 ((:url . "https://github.com/masukomi/private-comments-mode")
 			  (:commit . "616d63eccc5a21f1785801baf0fa3667ddfeb80f")
 			  (:revdesc . "616d63eccc5a")
-			  (:keywords "tools"))])
+			  (:keywords "tools")
+			  (:authors
+			   ("Richard Chiang" . "richard@commandlinesystems.com")
+			   ("Kay Rhodes" . "masukomi@masukomi.org"))
+			  (:maintainers
+			   ("Richard Chiang" . "richard@commandlinesystems.com")
+			   ("Kay Rhodes" . "masukomi@masukomi.org"))
+			  (:maintainer "Richard Chiang" . "richard@commandlinesystems.com"))])
  (private-diary .
 		[(1 0 1 -4 20151216 1657)
 		 ((emacs
@@ -67319,7 +67818,12 @@
 	      ((:url . "https://repo.or.cz/proxy-mode.git")
 	       (:commit . "eca6f0b8a17fcf9eb961ed0426f57a5b7ca4e1f6")
 	       (:revdesc . "eca6f0b8a17f")
-	       (:keywords "comm" "proxy"))])
+	       (:keywords "comm" "proxy")
+	       (:authors
+		("stardiviner" . "numbchild@gmail.com"))
+	       (:maintainers
+		("stardiviner" . "numbchild@gmail.com"))
+	       (:maintainer "stardiviner" . "numbchild@gmail.com"))])
  (psalm .
 	[(0 6 0 1 -4 20230914 1925)
 	 ((emacs
@@ -68935,7 +69439,12 @@
 		((:url . "https://repo.or.cz/emacs-rainbow-fart.git")
 		 (:commit . "3fe606cc2fa7cb6713e5e65e0adb7cd7a5ec4ea7")
 		 (:revdesc . "3fe606cc2fa7")
-		 (:keywords "tools"))])
+		 (:keywords "tools")
+		 (:authors
+		  ("stardiviner" . "numbchild@gmail.com"))
+		 (:maintainers
+		  ("stardiviner" . "numbchild@gmail.com"))
+		 (:maintainer "stardiviner" . "numbchild@gmail.com"))])
  (rainbow-identifiers .
 		      [(0 2 2 1 -4 20141102 1526)
 		       ((emacs
@@ -71294,6 +71803,10 @@
 		  (:commit . "c53376da891713e0c49f01aad2ff64d4fbb0b812")
 		  (:revdesc . "c53376da8917")
 		  (:keywords "languages" "ruby")
+		  (:authors
+		   ("Dee Zsombor" . "deedotzsomboratgmaildotcom")
+		   ("Akinori MUSHA" . "knu@iDaemons.org")
+		   ("Jakub Kuźma" . "qoobaa@gmail.com"))
 		  (:maintainers
 		   ("Akinori MUSHA" . "knu@iDaemons.org"))
 		  (:maintainer "Akinori MUSHA" . "knu@iDaemons.org"))])
@@ -71381,7 +71894,14 @@
 		 ((:url . "https://github.com/ajvargo/ruby-refactor")
 		  (:commit . "e6b7125878a08518bffec6942df0c606f748e9ee")
 		  (:revdesc . "e6b7125878a0")
-		  (:keywords "refactor" "ruby"))])
+		  (:keywords "refactor" "ruby")
+		  (:authors
+		   ("Andrew J Vargo" . "ajvargo@gmail.com")
+		   ("Jeff Morgan" . "jeff.morgan@leandog.com"))
+		  (:maintainers
+		   ("Andrew J Vargo" . "ajvargo@gmail.com")
+		   ("Jeff Morgan" . "jeff.morgan@leandog.com"))
+		  (:maintainer "Andrew J Vargo" . "ajvargo@gmail.com"))])
  (ruby-test-mode .
 		 [(1 7 1 -4 20210205 1107)
 		  ((ruby-mode
@@ -71461,7 +71981,12 @@
 	    ((:url . "https://github.com/rumlang/rum-mode")
 	     (:commit . "161471e6476d232d479f9767535918920811d7bf")
 	     (:revdesc . "161471e6476d")
-	     (:keywords "rum" "languages" "lisp"))])
+	     (:keywords "rum" "languages" "lisp")
+	     (:authors
+	      ("Avelino" . "t@avelino.xxx"))
+	     (:maintainers
+	      ("Avelino" . "t@avelino.xxx"))
+	     (:maintainer "Avelino" . "t@avelino.xxx"))])
  (run-command .
 	      [(1 0 0 1 -4 20230317 2004)
 	       ((emacs
@@ -71783,7 +72308,12 @@
 		"Filled with cherry blossoms" tar
 		((:url . "https://github.com/emacsfodder/emacs-theme-sakura")
 		 (:commit . "22d36d0a9b05e4e24ec701c585145b032e42bc7a")
-		 (:revdesc . "22d36d0a9b05"))])
+		 (:revdesc . "22d36d0a9b05")
+		 (:authors
+		  ("Jason Milkins" . "jasonm23@gmail.com"))
+		 (:maintainers
+		  ("Jason Milkins" . "jasonm23@gmail.com"))
+		 (:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
  (salesforce-utils .
 		   [(1 0 1 -4 20160814 154)
 		    ((cl-lib

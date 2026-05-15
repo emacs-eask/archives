@@ -473,7 +473,7 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(3 4 2 0 20260515 70709) ((emacs (28 1)) (compat (31)))
+  . [(3 4 2 0 20260515 191254) ((emacs (28 1)) (compat (31)))
      "An Emacs Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
       (:keywords "network" "comm" "hypermedia")
@@ -482,7 +482,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "8411d3b56019761fed288495df7503ca53f28896"))])
+      (:commit . "539e2f9c26d78de262a5bd513bfcb1b89def64ab"))])
  (elfeed-web
   . [(3 4 2 0 20260511 124453)
      ((emacs (28 1)) (compat (31)) (elfeed (3 4 2))
@@ -1150,14 +1150,14 @@
       (:keywords "j" "languages")
       (:commit . "e49ef0692d73b320c281e40d9fa96b2c17073695"))])
  (jabber
-  . [(0 10 9 0 20260514 224355)
+  . [(0 10 9 0 20260515 183702)
      ((emacs (29 1)) (fsm (0 2 0)) (keymap-popup (0 2)))
      "XMPP/Jabber client" tar
      ((:url . "https://codeberg.org/emacs-jabber/emacs-jabber")
       (:keywords "comm")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Magnus Henoch" . "mange@freemail.hu"))
-      (:commit . "b1db3db0287f4bcc3a31eb9645111b1246880f4e"))])
+      (:commit . "34a80fc814647a2fd8ede0af76b99df60337c15e"))])
  (jade-mode
   . [(1 0 1 0 20211019 161323) nil
      "Major mode for editing .jade files" tar
@@ -1287,7 +1287,7 @@
       (:authors ("Jon Oddie" . "j.j.oddie@gmail.com"))
       (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit
-  . [(4 5 0 0 20260514 93716)
+  . [(4 5 0 0 20260515 110235)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (magit-section (4 5)) (seq (2 24)) (transient (0 13))
       (with-editor (3 4)))
@@ -1299,9 +1299,9 @@
        ("Kyle Meyer" . "kyle@kyleam.com"))
       (:authors ("Marius Vollmer" . "marius.vollmer@gmail.com")
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "be5a3b0e9f7a64bcb222ba546a18e6b09922e0a9"))])
+      (:commit . "e0afb8c80f4bc78afc7469c79fdcf481ed94cd8a"))])
  (magit-section
-  . [(4 5 0 0 20260514 93716)
+  . [(4 5 0 0 20260515 110235)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (seq (2 24)))
      "Sections for read-only buffers" tar
@@ -1310,7 +1310,7 @@
 		   . "emacs.magit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "be5a3b0e9f7a64bcb222ba546a18e6b09922e0a9"))])
+      (:commit . "e0afb8c80f4bc78afc7469c79fdcf481ed94cd8a"))])
  (markdown-mode
   . [(2 9 -3 0 20260425 95459) ((emacs (28 1)))
      "Major mode for Markdown-formatted text" tar
@@ -1361,13 +1361,13 @@
       (:authors ("Akib Azmain Turja" . "akib@disroot.org"))
       (:commit . "22831489d3bbc22aef315c0f003bf3756b8889fa"))])
  (moe-theme
-  . [(1 1 0 0 20260304 151933) nil
+  . [(1 1 0 0 20260515 84137) nil
      "A colorful eye-candy theme. Moe, moe, kyun!" tar
      ((:url . "https://github.com/kuanyui/moe-theme.el")
       (:keywords "themes")
       (:maintainer "kuanyui" . "azazabc123@gmail.com")
       (:authors ("kuanyui" . "azazabc123@gmail.com"))
-      (:commit . "075f91acc2a7ad722bdda0ab945a7fb0f7c4565f"))])
+      (:commit . "c7d711e940a6c4e7a2270830aeaf52c1ce789455"))])
  (monokai-theme
   . [(3 5 3 0 20240911 104603) nil "A fruity color theme for Emacs."
      tar
@@ -1807,14 +1807,14 @@
       (:authors ("Chen Bin" . "chenbin.sh@gmail.com"))
       (:commit . "173e4d632c94af6670869729c09bfb8ba484d257"))])
  (simple-httpd
-  . [(1 5 1 0 20260514 165715) ((emacs (27 1)) (compat (31)))
+  . [(1 5 1 0 20260515 121404) ((emacs (27 1)) (compat (31)))
      "Pure Elisp HTTP server" tar
      ((:url . "https://github.com/skeeto/emacs-http-server")
       (:keywords "network" "comm")
       (:maintainer ("Philip Kaludercic" . "philipk@posteo.net")
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "be40a34f8de0183bf69a54df0b47e65b8c88ebed"))])
+      (:commit . "4ca58302169fee8544fac77556794df42c792345"))])
  (slime
   . [(2 32 -4 0 20260508 233053) ((emacs (24 3)) (macrostep (0 9)))
      "Superior Lisp Interaction Mode for Emacs" tar
