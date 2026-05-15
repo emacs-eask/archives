@@ -78196,7 +78196,16 @@
 	       ((:url . "https://github.com/taku0/swift3-mode")
 		(:commit . "ea34d46bf9a4293e75ffdac9500d34989316d9e9")
 		(:revdesc . "ea34d46bf9a4")
-		(:keywords "languages" "swift"))])
+		(:keywords "languages" "swift")
+		(:authors
+		 ("Chris Barrett" . "chris.d.barrett@me.com")
+		 ("Bozhidar Batsov" . "bozhidar@batsov.com")
+		 ("Arthur Evstifeev" . "lod@pisem.net"))
+		(:maintainers
+		 ("Chris Barrett" . "chris.d.barrett@me.com")
+		 ("Bozhidar Batsov" . "bozhidar@batsov.com")
+		 ("Arthur Evstifeev" . "lod@pisem.net"))
+		(:maintainer "Chris Barrett" . "chris.d.barrett@me.com"))])
  (swiper .
 	 [(0 1 0 1 -4 20260101 2125)
 	  ((emacs
@@ -81236,7 +81245,14 @@
 	       ((:url . "https://gitlab.com/tuedachu/transfer-sh.el")
 		(:commit . "0621a66d00ec91a209a542c10b158095088bd44d")
 		(:revdesc . "0621a66d00ec")
-		(:keywords "comm" "convenience" "files"))])
+		(:keywords "comm" "convenience" "files")
+		(:authors
+		 ("S. Roskamp" . "steffen.roskamp@gmail.com")
+		 ("A. Hoffmann" . "tuedachu@gmail.com"))
+		(:maintainers
+		 ("S. Roskamp" . "steffen.roskamp@gmail.com")
+		 ("A. Hoffmann" . "tuedachu@gmail.com"))
+		(:maintainer "S. Roskamp" . "steffen.roskamp@gmail.com"))])
  (transform-symbol-at-point .
 			    [(0 1 0 1 -4 20241202 1802)
 			     ((emacs
@@ -83521,7 +83537,12 @@
 	  ((:url . "https://github.com/damon-kwok/v-mode")
 	   (:commit . "84f26ab0f0f5b23133292674da9fa4558207c33d")
 	   (:revdesc . "84f26ab0f0f5")
-	   (:keywords "languages" "programming"))])
+	   (:keywords "languages" "programming")
+	   (:authors
+	    ("Damon Kwok" . "damon-kwok@outlook.com"))
+	   (:maintainers
+	    ("Damon Kwok" . "damon-kwok@outlook.com"))
+	   (:maintainer "Damon Kwok" . "damon-kwok@outlook.com"))])
  (v2ex-mode .
 	    [(0 2 1 -4 20160720 345)
 	     ((cl-lib
@@ -83924,7 +83945,12 @@
 		    "A Theme based on green CRT terminals" tar
 		    ((:url . "https://github.com/emacsfodder/emacs-theme-vegetative")
 		     (:commit . "db60ce0fe327ae7e4371545179ed94483b1132a8")
-		     (:revdesc . "db60ce0fe327"))])
+		     (:revdesc . "db60ce0fe327")
+		     (:authors
+		      ("Jason Milkins" . "jasonm23@gmail.com"))
+		     (:maintainers
+		      ("Jason Milkins" . "jasonm23@gmail.com"))
+		     (:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
  (verb .
        [(0 1 0 1 -4 20260414 1812)
 	((emacs
@@ -84071,7 +84097,12 @@
 	       ((:url . "https://github.com/damon-kwok/verona-mode")
 		(:commit . "72dd31ef847344d79409503f3c42169041eb3da4")
 		(:revdesc . "72dd31ef8473")
-		(:keywords "languages" "programming"))])
+		(:keywords "languages" "programming")
+		(:authors
+		 ("Damon Kwok" . "damon-kwok@outlook.com"))
+		(:maintainers
+		 ("Damon Kwok" . "damon-kwok@outlook.com"))
+		(:maintainer "Damon Kwok" . "damon-kwok@outlook.com"))])
  (verse-mode .
 	     [(0 1 0 1 -4 20250910 2354)
 	      ((emacs
@@ -84361,7 +84392,12 @@
 	      ((:url . "https://github.com/mcandre/vimrc-mode")
 	       (:commit . "f594392a0834193a1fe1522d007e1c8ce5b68e43")
 	       (:revdesc . "f594392a0834")
-	       (:keywords "languages" "vim"))])
+	       (:keywords "languages" "vim")
+	       (:authors
+		("Alpha Tan" . "alphatan.zh@gmail.com"))
+	       (:maintainers
+		("Alpha Tan" . "alphatan.zh@gmail.com"))
+	       (:maintainer "Alpha Tan" . "alphatan.zh@gmail.com"))])
  (vimscript-ts-mode .
 		    [(0 1 0 1 -4 20241020 7)
 		     ((emacs
@@ -84731,7 +84767,12 @@
 		((:url . "https://github.com/rootatpixel/vterm-hotkey")
 		 (:commit . "039033a4c30dabca625d6924d1796bb9e13d85c7")
 		 (:revdesc . "039033a4c30d")
-		 (:keywords "terminals" "processes" "hotkeys"))])
+		 (:keywords "terminals" "processes" "hotkeys")
+		 (:authors
+		  ("rootatpixel" . "rootatpixel@gmail.com"))
+		 (:maintainers
+		  ("rootatpixel" . "rootatpixel@gmail.com"))
+		 (:maintainer "rootatpixel" . "rootatpixel@gmail.com"))])
  (vterm-toggle .
 	       [(0 1 0 1 -4 20260420 1244)
 		((emacs
@@ -84964,7 +85005,28 @@
        ((:url . "https://github.com/emacs-w3m/emacs-w3m")
 	(:commit . "87cacb2a0e59db00b8deb3f40a2a9f8141f3217b")
 	(:revdesc . "87cacb2a0e59")
-	(:keywords "w3m" "www" "hypermedia"))])
+	(:keywords "w3m" "www" "hypermedia")
+	(:authors
+	 ("TSUCHIYA Masatoshi" . "tsuchiya@namazu.org")
+	 ("Shun-ichi GOTO" . "gotoh@taiyo.co.jp")
+	 ("Satoru Takabayashi" . "satoru-t@is.aist-nara.ac.jp")
+	 ("Hideyuki SHIRAI" . "shirai@meadowy.org")
+	 ("Keisuke Nishida" . "kxn30@po.cwru.edu")
+	 ("Yuuichi Teranishi" . "teranisi@gohome.org")
+	 ("Akihiro Arisawa" . "ari@mbf.sphere.ne.jp")
+	 ("Katsumi Yamaoka" . "yamaoka@jpl.org")
+	 ("Tsuyoshi CHO" . "Tsuyoshi.CHO@Gmail.com"))
+	(:maintainers
+	 ("TSUCHIYA Masatoshi" . "tsuchiya@namazu.org")
+	 ("Shun-ichi GOTO" . "gotoh@taiyo.co.jp")
+	 ("Satoru Takabayashi" . "satoru-t@is.aist-nara.ac.jp")
+	 ("Hideyuki SHIRAI" . "shirai@meadowy.org")
+	 ("Keisuke Nishida" . "kxn30@po.cwru.edu")
+	 ("Yuuichi Teranishi" . "teranisi@gohome.org")
+	 ("Akihiro Arisawa" . "ari@mbf.sphere.ne.jp")
+	 ("Katsumi Yamaoka" . "yamaoka@jpl.org")
+	 ("Tsuyoshi CHO" . "Tsuyoshi.CHO@Gmail.com"))
+	(:maintainer "TSUCHIYA Masatoshi" . "tsuchiya@namazu.org"))])
  (wacspace .
 	   [(0 1 0 1 -4 20260427 2039)
 	    ((emacs
@@ -86401,7 +86463,12 @@
 	       ((:url . "https://github.com/tralph3/wollok-mode")
 		(:commit . "bd52ad66d7c43d7e46f7edd6693619e47aeceef9")
 		(:revdesc . "bd52ad66d7c4")
-		(:keywords "wollok" "languages"))])
+		(:keywords "wollok" "languages")
+		(:authors
+		 ("Tomás Ralph" . "tomasralph2000@gmail.com"))
+		(:maintainers
+		 ("Tomás Ralph" . "tomasralph2000@gmail.com"))
+		(:maintainer "Tomás Ralph" . "tomasralph2000@gmail.com"))])
  (wonderland .
 	     [(0 1 1 1 -4 20130913 119)
 	      ((dash
@@ -87461,6 +87528,10 @@
 	      (:commit . "dd570a6b22364212fff9769cbf4376bdbd7a63c5")
 	      (:revdesc . "dd570a6b2236")
 	      (:keywords "convenience" "emulation")
+	      (:authors
+	       ("pluskid" . "pluskid@gmail.com")
+	       ("João Távora" . "joaotavora@gmail.com")
+	       ("Noam Postavsky" . "npostavs@gmail.com"))
 	      (:maintainers
 	       ("Noam Postavsky" . "npostavs@gmail.com"))
 	      (:maintainer "Noam Postavsky" . "npostavs@gmail.com"))])
@@ -87551,7 +87622,14 @@
 	"Emacs bindings to the ycmd completion server" tar
 	((:url . "https://github.com/abingham/emacs-ycmd")
 	 (:commit . "6f4f7384b82203cccf208e3ec09252eb079439f9")
-	 (:revdesc . "6f4f7384b822"))])
+	 (:revdesc . "6f4f7384b822")
+	 (:authors
+	  ("Austin Bingham" . "austin.bingham@gmail.com")
+	  ("Peter Vasil" . "mail@petervasil.net"))
+	 (:maintainers
+	  ("Austin Bingham" . "austin.bingham@gmail.com")
+	  ("Peter Vasil" . "mail@petervasil.net"))
+	 (:maintainer "Austin Bingham" . "austin.bingham@gmail.com"))])
  (ydk-mode .
 	   [(1 0 0 1 -4 20170114 223)
 	    nil "Language support for Yu-Gi-Oh! deck files" tar
@@ -88075,7 +88153,12 @@
 	     ((:url . "https://github.com/damon-kwok/zetz-mode")
 	      (:commit . "04da33f4ffa9db5b3556f423276f4fd1db13ec67")
 	      (:revdesc . "04da33f4ffa9")
-	      (:keywords "languages" "programming"))])
+	      (:keywords "languages" "programming")
+	      (:authors
+	       ("Damon Kwok" . "damon-kwok@outlook.com"))
+	      (:maintainers
+	       ("Damon Kwok" . "damon-kwok@outlook.com"))
+	      (:maintainer "Damon Kwok" . "damon-kwok@outlook.com"))])
  (zig-mode .
 	   [(0 1 0 1 -4 20251128 256)
 	    ((emacs
