@@ -1220,7 +1220,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260515 1444)
+	      [(0 1 0 1 -4 20260516 1007)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1229,8 +1229,8 @@
 		 (0 11 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "46623144c75b97163c26be5549b9e0c4bc3052d4")
-		(:revdesc . "46623144c75b"))])
+		(:commit . "67babec2278f8ee1cf1c4dc605e976247388df51")
+		(:revdesc . "67babec2278f"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -12946,17 +12946,17 @@
 	     ("Robert Kirby" . "corsair.el.package@gmail.com"))
 	    (:maintainer "Robert Kirby" . "corsair.el.package@gmail.com"))])
  (cort .
-       [(0 1 0 1 -4 20260516 316)
+       [(0 1 0 1 -4 20260516 827)
 	((emacs
 	  (24 1))
 	 (ansi
-	  (0 4))
+	  (0 4 1))
 	 (cl-lib
-	  (0 6)))
+	  (0 7 1)))
 	"Simplify extended unit test framework" tar
 	((:url . "https://github.com/conao3/cort.el")
-	 (:commit . "c07ff17c097e3f524751ffb61105ef4704593570")
-	 (:revdesc . "c07ff17c097e")
+	 (:commit . "851a8669f14a1cfc3b0f9d6bf046139cb5bb7470")
+	 (:revdesc . "851a8669f14a")
 	 (:keywords "test" "lisp")
 	 (:authors
 	  ("Naoya Yamashita" . "conao3@gmail.com"))
@@ -15098,17 +15098,17 @@
 	  (:authors
 	   ("Masahiko Sato" . "masahiko@kuis.kyoto-u.ac.jp")))])
  (ddskk-posframe .
-		 [(1 0 9 1 -4 20200812 917)
+		 [(0 1 0 1 -4 20260516 827)
 		  ((emacs
 		    (26 1))
 		   (posframe
-		    (0 4 3))
+		    (1 5 1))
 		   (ddskk
-		    (16 2 50)))
+		    (17 2)))
 		  "Show Henkan tooltip for ddskk via posframe" tar
 		  ((:url . "https://github.com/conao3/ddskk-posframe.el")
-		   (:commit . "299493dd951e5a0b43b8213321e3dc0bac10f762")
-		   (:revdesc . "299493dd951e")
+		   (:commit . "1b5c8f85cafb1e763e214f4310113c75e28cce0d")
+		   (:revdesc . "1b5c8f85cafb")
 		   (:keywords "tooltip" "convenience" "posframe")
 		   (:authors
 		    ("Naoya Yamashita" . "conao3@gmail.com"))
@@ -20588,15 +20588,15 @@
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
-	 [(0 1 0 1 -4 20260516 644)
+	 [(0 1 0 1 -4 20260516 1041)
 	  ((emacs
 	    (28 1))
 	   (compat
 	    (31)))
 	  "An Emacs Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/emacs-elfeed/elfeed")
-	   (:commit . "ce5d658d7773d634bab88ca4507b261ad514272e")
-	   (:revdesc . "ce5d658d7773")
+	   (:commit . "957e770efcf675f35959c4349605d9a578b35c05")
+	   (:revdesc . "957e770efcf6")
 	   (:keywords "network" "comm" "hypermedia")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -28256,17 +28256,17 @@
 		      ("Damien Cassou" . "damien@cassou.me"))
 		     (:maintainer "Damien Cassou" . "damien@cassou.me"))])
  (flycheck-indent .
-		  [(0 1 0 1 -4 20260516 316)
+		  [(0 1 0 1 -4 20260516 852)
 		   ((emacs
 		     (27 1))
 		    (indent-lint
-		     (1 0 0))
+		     (1 1 4))
 		    (flycheck
-		     (31)))
+		     (36)))
 		   "Indent-lint frontend for flycheck" tar
 		   ((:url . "https://github.com/conao3/indent-lint.el")
-		    (:commit . "f821a2426e78e7b04a6b45c2d8fa734fc0e52fd6")
-		    (:revdesc . "f821a2426e78")
+		    (:commit . "3660b10520d78dd545fd0c52d7e7a36dc602492d")
+		    (:revdesc . "3660b10520d7")
 		    (:keywords "tools")
 		    (:authors
 		     ("Naoya Yamashita" . "conao3@gmail.com"))
@@ -41084,19 +41084,19 @@
 		 ("Terje Larsen" . "terlar@gmail.com"))
 		(:maintainer "Terje Larsen" . "terlar@gmail.com"))])
  (indent-lint .
-	      [(0 1 0 1 -4 20260516 316)
+	      [(0 1 0 1 -4 20260516 852)
 	       ((emacs
 		 (27 1))
 		(async-await
-		 (1 0))
+		 (1 1))
 		(async
-		 (1 9 4))
+		 (1 9 7))
 		(promise
 		 (1 1)))
 	       "Async indentation checker" tar
 	       ((:url . "https://github.com/conao3/indent-lint.el")
-		(:commit . "f821a2426e78e7b04a6b45c2d8fa734fc0e52fd6")
-		(:revdesc . "f821a2426e78")
+		(:commit . "3660b10520d78dd545fd0c52d7e7a36dc602492d")
+		(:revdesc . "3660b10520d7")
 		(:keywords "tools")
 		(:authors
 		 ("Naoya Yamashita" . "conao3@gmail.com"))
@@ -46290,19 +46290,19 @@
 	  ("Naoya Yamashita" . "conao3@gmail.com"))
 	 (:maintainer "Naoya Yamashita" . "conao3@gmail.com"))])
  (leaf-convert .
-	       [(0 1 0 1 -4 20260516 334)
+	       [(0 1 0 1 -4 20260516 853)
 		((emacs
 		  (26 1))
 		 (leaf
-		  (3 6 0))
+		  (4 5 5))
 		 (leaf-keywords
-		  (1 1 0))
+		  (2 0 8))
 		 (ppp
-		  (2 1)))
+		  (2 2 4)))
 		"Convert many format to leaf format" tar
 		((:url . "https://github.com/conao3/leaf-convert.el")
-		 (:commit . "206c3d55c14d9f74addd901816c672694a796fbe")
-		 (:revdesc . "206c3d55c14d")
+		 (:commit . "37967565c023596d863d9cd45527a024c5922553")
+		 (:revdesc . "37967565c023")
 		 (:keywords "tools")
 		 (:authors
 		  ("Naoya Yamashita" . "conao3@gmail.com"))
@@ -49050,7 +49050,7 @@
 	       (:revdesc . "caeb52d21d5c")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20260514 937)
+	[(0 1 0 1 -4 20260516 922)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -49069,8 +49069,8 @@
 	   (3 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "be5a3b0e9f7a64bcb222ba546a18e6b09922e0a9")
-	  (:revdesc . "be5a3b0e9f7a")
+	  (:commit . "96301f011542936e888049a211051c25542fc9ac")
+	  (:revdesc . "96301f011542")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -55519,13 +55519,13 @@
 	   ("Martijn Terpstra" . "bigmartijn@gmail.com"))
 	  (:maintainer "Martijn Terpstra" . "bigmartijn@gmail.com"))])
  (nucleo-completion .
-		    [(0 1 0 1 -4 20260516 134)
+		    [(0 1 0 1 -4 20260516 954)
 		     ((emacs
 		       (27 1)))
 		     "Nucleo-backed completion style" tar
 		     ((:url . "https://github.com/kn66/nucleo-completion.el")
-		      (:commit . "d39740120257588a54f18ee489c0666485eea3d7")
-		      (:revdesc . "d39740120257")
+		      (:commit . "277d78951e93d2d0275a6e4411f68a6db4182756")
+		      (:revdesc . "277d78951e93")
 		      (:keywords "matching" "convenience")
 		      (:authors
 		       ("Nobu" . "https://github.com/kn66"))
