@@ -2428,13 +2428,13 @@
 	 (:commit . "1b043cfea58ea146356c237a5286ead69e97417b")
 	 (:revdesc . "1b043cfea58e"))])
  (apheleia .
-	   [(0 1 0 1 -4 20260427 2240)
+	   [(0 1 0 1 -4 20260516 1902)
 	    ((emacs
 	      (27)))
 	    "Reformat buffer stably" tar
 	    ((:url . "https://github.com/radian-software/apheleia")
-	     (:commit . "fa5d35ea43efa753c4dff71bc2acf473fc351e80")
-	     (:revdesc . "fa5d35ea43ef")
+	     (:commit . "b5bf00151a3f49f679020fb0e35a1d264956668a")
+	     (:revdesc . "b5bf00151a3f")
 	     (:keywords "tools")
 	     (:authors
 	      ("Radian LLC" . "contact+apheleia@radian.codes"))
@@ -20588,15 +20588,15 @@
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
-	 [(0 1 0 1 -4 20260516 1059)
+	 [(0 1 0 1 -4 20260516 2009)
 	  ((emacs
 	    (28 1))
 	   (compat
 	    (31)))
 	  "An Emacs Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/emacs-elfeed/elfeed")
-	   (:commit . "16373528d8332a2c40d659a435cbb9a350e5fcca")
-	   (:revdesc . "16373528d833")
+	   (:commit . "42c9101dba211a6540fedd41f1e5ebd6facf0499")
+	   (:revdesc . "42c9101dba21")
 	   (:keywords "network" "comm" "hypermedia")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -39949,13 +39949,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20260516 1435)
+	    [(0 1 0 1 -4 20260516 1609)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "d932119b4cfca4826c3ab44c6080e2bc17b31493")
-	      (:revdesc . "d932119b4cfc")
+	      (:commit . "fd7f10a4b8ff47c40da9f3a15a34e4ead59bbab4")
+	      (:revdesc . "fd7f10a4b8ff")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -48595,24 +48595,6 @@
 		  (:commit . "252decc7ae53170eb1c67f97ff3e7f576dd13734")
 		  (:revdesc . "252decc7ae53")
 		  (:keywords "languages" "lsp" "swift" "objective-c" "c++"))])
- (lsp-tailwindcss .
-		  [(0 1 0 1 -4 20251009 810)
-		   ((lsp-mode
-		     (7 1))
-		    (f
-		     (0 20 0))
-		    (emacs
-		     (26 1)))
-		   "A lsp-mode client for tailwindcss" tar
-		   ((:url . "https://github.com/merrickluo/lsp-tailwindcss")
-		    (:commit . "cdd0325a6a571e51f6c7d1cbc198c7a7ea4a194a")
-		    (:revdesc . "cdd0325a6a57")
-		    (:keywords "language" "tools")
-		    (:authors
-		     ("A.I." . "merrick@luois.me"))
-		    (:maintainers
-		     ("A.I." . "merrick@luois.me"))
-		    (:maintainer "A.I." . "merrick@luois.me"))])
  (lsp-treemacs .
 	       [(0 1 0 1 -4 20260515 746)
 		((emacs
@@ -49050,7 +49032,7 @@
 	       (:revdesc . "cec25f367cb1")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20260516 1444)
+	[(0 1 0 1 -4 20260516 2126)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -49069,8 +49051,8 @@
 	   (3 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "04f2a5b28fc15a853d726d6bd5b0e638b3ecf6fd")
-	  (:revdesc . "04f2a5b28fc1")
+	  (:commit . "0a78ce71b03a56eacb8f2fd4452bb314c1049664")
+	  (:revdesc . "0a78ce71b03a")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -77912,18 +77894,6 @@
 	       (:maintainers
 		("Bozhidar Batsov" . "bozhidar@batsov.com"))
 	       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.com"))])
- (supergenpass .
-	       [(0 1 1 -4 20130329 548)
-		nil "SuperGenPass for Emacs" tar
-		((:url . "https://github.com/ober/sgpass")
-		 (:commit . "549072ef7b5b82913cadd4758e8a0a9926f0a04a")
-		 (:revdesc . "549072ef7b5b")
-		 (:keywords "supergenpass")
-		 (:authors
-		  ("Jaime Fournier" . "jaimef@linbsd.org"))
-		 (:maintainers
-		  ("Jaime Fournier" . "jaimef@linbsd.org"))
-		 (:maintainer "Jaime Fournier" . "jaimef@linbsd.org"))])
  (surround .
 	   [(0 1 0 1 -4 20250725 511)
 	    ((emacs
