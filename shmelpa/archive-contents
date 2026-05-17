@@ -9550,7 +9550,7 @@
 	     ("Kostafey" . "kostafey@gmail.com"))
 	    (:maintainer "Kostafey" . "kostafey@gmail.com"))])
  (closql .
-	 [(0 1 0 1 -4 20260511 1403)
+	 [(0 1 0 1 -4 20260517 1250)
 	  ((emacs
 	    (28 1))
 	   (compat
@@ -9558,11 +9558,13 @@
 	   (cond-let
 	    (0 2))
 	   (emacsql
-	    (4 3)))
+	    (4 3))
+	   (llama
+	    (1 0)))
 	  "Store EIEIO objects using EmacSQL" tar
 	  ((:url . "https://github.com/emacscollective/closql")
-	   (:commit . "0cc3b6a63e72d0c408e484de39944eafb70b2ca7")
-	   (:revdesc . "0cc3b6a63e72")
+	   (:commit . "bec93e9373acd1bfaeb392f18c56274518e0576b")
+	   (:revdesc . "bec93e9373ac")
 	   (:keywords "extensions")
 	   (:authors
 	    ("Jonas Bernoulli" . "emacs.closql@jonas.bernoulli.dev"))
