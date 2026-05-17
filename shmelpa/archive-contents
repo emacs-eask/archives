@@ -9550,7 +9550,7 @@
 	     ("Kostafey" . "kostafey@gmail.com"))
 	    (:maintainer "Kostafey" . "kostafey@gmail.com"))])
  (closql .
-	 [(0 1 0 1 -4 20260517 1250)
+	 [(0 1 0 1 -4 20260517 1751)
 	  ((emacs
 	    (28 1))
 	   (compat
@@ -9563,8 +9563,8 @@
 	    (1 0)))
 	  "Store EIEIO objects using EmacSQL" tar
 	  ((:url . "https://github.com/emacscollective/closql")
-	   (:commit . "bec93e9373acd1bfaeb392f18c56274518e0576b")
-	   (:revdesc . "bec93e9373ac")
+	   (:commit . "f1fff9861ea9ba344cebb1798c59cd5cc7fcef94")
+	   (:revdesc . "f1fff9861ea9")
 	   (:keywords "extensions")
 	   (:authors
 	    ("Jonas Bernoulli" . "emacs.closql@jonas.bernoulli.dev"))
@@ -20590,15 +20590,15 @@
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
-	 [(0 1 0 1 -4 20260517 1419)
+	 [(0 1 0 1 -4 20260517 1928)
 	  ((emacs
 	    (28 1))
 	   (compat
 	    (31)))
 	  "An Emacs Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/emacs-elfeed/elfeed")
-	   (:commit . "adaa93103777dc728406dc71627d18d4088fe3c3")
-	   (:revdesc . "adaa93103777")
+	   (:commit . "9f0f3596e6740eb7ae697197db18b1a0ceeb6ab5")
+	   (:revdesc . "9f0f3596e674")
 	   (:keywords "network" "comm" "hypermedia")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -21687,7 +21687,7 @@
 	  ("Matus Goljer" . "matus.goljer@gmail.com"))
 	 (:maintainer "Matus Goljer" . "matus.goljer@gmail.com"))])
  (elx .
-      [(0 1 0 1 -4 20260517 1634)
+      [(0 1 0 1 -4 20260517 1756)
        ((emacs
 	 (29 1))
 	(compat
@@ -21698,8 +21698,8 @@
 	 (1 0)))
        "Extract information from Emacs Lisp libraries" tar
        ((:url . "https://github.com/emacscollective/elx")
-	(:commit . "fb3ab269b6b64fba52b8439d8b5d182d18710269")
-	(:revdesc . "fb3ab269b6b6")
+	(:commit . "83c65d5cf1758fed26cde658e143d4699645d857")
+	(:revdesc . "83c65d5cf175")
 	(:keywords "docs" "libraries" "packages")
 	(:authors
 	 ("Jonas Bernoulli" . "emacs.elx@jonas.bernoulli.dev"))
@@ -21974,7 +21974,7 @@
 	 ("Marco Antoniotti" . "marcoxa[at]gmail.com"))
 	(:maintainer "Marco Antoniotti" . "marcoxa[at]gmail.com"))])
  (emcp .
-       [(0 1 0 1 -4 20260511 1910)
+       [(0 1 0 1 -4 20260517 1927)
 	((emacs
 	  (30 1))
 	 (http-server
@@ -21983,8 +21983,8 @@
 	  (1 6)))
 	"Lets your agent talk to Emacs" tar
 	((:url . "https://codeberg.org/martenlienen/emcp")
-	 (:commit . "49a927de2cc9afeb949b3b43ce5ef3ae31141276")
-	 (:revdesc . "49a927de2cc9")
+	 (:commit . "42216ee2403879104def73e018f67097bc36ac88")
+	 (:revdesc . "42216ee24038")
 	 (:keywords "maint")
 	 (:authors
 	  ("Marten Lienen" . "ml@martenlienen.com"))
@@ -34417,17 +34417,17 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20260517 1140)
+	[(0 1 0 1 -4 20260517 1941)
 	 ((emacs
 	   (27 1))
 	  (transient
-	   (0 7 4))
+	   (0 7 8))
 	  (compat
 	   (30 1 0 0)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "675a19aa68df693fa26070bf19b5d6fd53f2990f")
-	  (:revdesc . "675a19aa68df")
+	  (:commit . "370b32afaabcbe8948b986c7cea0d40aa192afda")
+	  (:revdesc . "370b32afaabc")
 	  (:keywords "convenience" "tools")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -44984,15 +44984,17 @@
 	    (:commit . "c6955162307f37c2ac631d9daf118781009f8dda")
 	    (:revdesc . "c6955162307f"))])
  (keymap-utils .
-	       [(0 1 0 1 -4 20260504 1726)
+	       [(0 1 0 1 -4 20260517 1747)
 		((emacs
 		  (28 1))
 		 (compat
-		  (31 0)))
+		  (31 0))
+		 (llama
+		  (1 0)))
 		"Keymap utilities" tar
 		((:url . "https://github.com/tarsius/keymap-utils")
-		 (:commit . "687c81b50a16e774ccbc1bcfa7e99ede3a3c826e")
-		 (:revdesc . "687c81b50a16")
+		 (:commit . "3469a061cd30b4323408766a7c6194e4b85d3b36")
+		 (:revdesc . "3469a061cd30")
 		 (:keywords "convenience" "extensions")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.keymap-utils@jonas.bernoulli.dev"))
@@ -49038,7 +49040,7 @@
 	       (:revdesc . "cec25f367cb1")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20260516 2126)
+	[(0 1 0 1 -4 20260517 1757)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -49057,8 +49059,8 @@
 	   (3 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "0a78ce71b03a56eacb8f2fd4452bb314c1049664")
-	  (:revdesc . "0a78ce71b03a")
+	  (:commit . "8eb6c2f8bdb53c9cf0ccf037b9825613fca45c49")
+	  (:revdesc . "8eb6c2f8bdb5")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -50374,15 +50376,15 @@
 	       ("YiGeeker" . "zyfchinese@yeah.net"))
 	      (:maintainer "YiGeeker" . "zyfchinese@yeah.net"))])
  (mason .
-	[(0 1 0 1 -4 20260509 1646)
+	[(0 1 0 1 -4 20260517 1744)
 	 ((emacs
 	   (30 1))
 	  (s
 	   (1 13 0)))
 	 "Package managers for LSP, DAP, linters, and more" tar
 	 ((:url . "https://github.com/mason-org/mason.el")
-	  (:commit . "7ac4f01f8ace020cf19c41544722421d3e8f26df")
-	  (:revdesc . "7ac4f01f8ace")
+	  (:commit . "8dc604d12bea314dba3db89ea29d84b0d1438eeb")
+	  (:revdesc . "8dc604d12bea")
 	  (:keywords "tools" "lsp" "installer")
 	  (:authors
 	   ("Dimas Firmansyah" . "deirn@bai.lol"))
@@ -61727,19 +61729,21 @@
 		 ("Jonas Bernoulli" . "emacs.orgit-forge@jonas.bernoulli.dev"))
 		(:maintainer "Jonas Bernoulli" . "emacs.orgit-forge@jonas.bernoulli.dev"))])
  (orglink .
-	  [(0 1 0 1 -4 20260504 1738)
+	  [(0 1 0 1 -4 20260517 1750)
 	   ((emacs
 	     (26 1))
 	    (compat
 	     (31 0))
+	    (llama
+	     (1 0))
 	    (org
 	     (9 7))
 	    (seq
 	     (2 24)))
 	   "Use Org Mode links in other modes" tar
 	   ((:url . "https://github.com/tarsius/orglink")
-	    (:commit . "9b54c5e6dfea54b861e5f0975141a02d79ede374")
-	    (:revdesc . "9b54c5e6dfea")
+	    (:commit . "e3c3999c4a88acd46208bef4f014fc2245f494a8")
+	    (:revdesc . "e3c3999c4a88")
 	    (:keywords "hypermedia")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.orglink@jonas.bernoulli.dev"))
@@ -71125,7 +71129,7 @@
 	      ("Nicolas Martyanoff" . "nicolas@n16f.net"))
 	     (:maintainer "Nicolas Martyanoff" . "nicolas@n16f.net"))])
  (rg .
-     [(0 1 0 1 -4 20260516 757)
+     [(0 1 0 1 -4 20260517 1310)
       ((emacs
 	(28 1))
        (transient
@@ -71134,8 +71138,8 @@
 	(2 1 10)))
       "A search tool based on ripgrep" tar
       ((:url . "https://github.com/dajva/rg.el")
-       (:commit . "d22008f13ff2c4a14f2a7125c46acb03576d788e")
-       (:revdesc . "d22008f13ff2")
+       (:commit . "e46a16b8bdba111c9c0036d0e209490dd7a3690f")
+       (:revdesc . "e46a16b8bdba")
        (:keywords "matching" "tools")
        (:authors
 	("David Landell" . "david.landell@sunnyhill.email")
