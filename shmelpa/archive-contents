@@ -21163,11 +21163,11 @@
 	   ("Peter Badida" . "keyweeusr@gmail.com"))
 	  (:maintainer "Peter Badida" . "keyweeusr@gmail.com"))])
  (ellama .
-	 [(0 1 0 1 -4 20260513 1818)
+	 [(0 1 0 1 -4 20260517 1548)
 	  ((emacs
 	    (28 1))
 	   (llm
-	    (0 24 0))
+	    (0 30 2))
 	   (plz
 	    (0 8))
 	   (transient
@@ -21178,8 +21178,8 @@
 	    (1 2 3)))
 	  "Tool for interacting with LLMs" tar
 	  ((:url . "https://github.com/s-kostyaev/ellama")
-	   (:commit . "4311982a2a466dac60003c39d72badc69ea1d6c5")
-	   (:revdesc . "4311982a2a46")
+	   (:commit . "d6e7603f0218ec4e089e2957da1dd31d1d39ec5c")
+	   (:revdesc . "d6e7603f0218")
 	   (:keywords "help" "local" "tools")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
@@ -21687,17 +21687,19 @@
 	  ("Matus Goljer" . "matus.goljer@gmail.com"))
 	 (:maintainer "Matus Goljer" . "matus.goljer@gmail.com"))])
  (elx .
-      [(0 1 0 1 -4 20260516 2125)
+      [(0 1 0 1 -4 20260517 1634)
        ((emacs
 	 (29 1))
 	(compat
 	 (31 0))
+	(cond-let
+	 (1 1))
 	(llama
 	 (1 0)))
        "Extract information from Emacs Lisp libraries" tar
        ((:url . "https://github.com/emacscollective/elx")
-	(:commit . "a5cbbac74c847819422a1424e7ee821829f2bbc1")
-	(:revdesc . "a5cbbac74c84")
+	(:commit . "fb3ab269b6b64fba52b8439d8b5d182d18710269")
+	(:revdesc . "fb3ab269b6b6")
 	(:keywords "docs" "libraries" "packages")
 	(:authors
 	 ("Jonas Bernoulli" . "emacs.elx@jonas.bernoulli.dev"))
@@ -35982,15 +35984,15 @@
 		(:revdesc . "8c70b48fe5fb")
 		(:keywords "faces"))])
  (helm .
-       [(0 1 0 1 -4 20260507 452)
+       [(0 1 0 1 -4 20260517 619)
 	((helm-core
 	  (4 0 7))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
-	 (:commit . "d178e52895c091c26221f18b9b1236f985c79226")
-	 (:revdesc . "d178e52895c0")
+	 (:commit . "405cf43317bf481151f7773eefe4e1233a081c94")
+	 (:revdesc . "405cf43317bf")
 	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help" "package")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
@@ -44944,15 +44946,17 @@
 	     ("Vyacheslav Levit" . "dev@vlevit.org"))
 	    (:maintainer "Vyacheslav Levit" . "dev@vlevit.org"))])
  (keycast .
-	  [(0 1 0 1 -4 20260504 1725)
+	  [(0 1 0 1 -4 20260517 1634)
 	   ((emacs
 	     (28 1))
 	    (compat
-	     (31 0)))
+	     (31 0))
+	    (cond-let
+	     (1 1)))
 	   "Show current command and its binding" tar
 	   ((:url . "https://github.com/tarsius/keycast")
-	    (:commit . "f9f396bcd3ed8ea4b64178383099872438ccdfb0")
-	    (:revdesc . "f9f396bcd3ed")
+	    (:commit . "f1a2c1466369c0a412220b299da5deeb816254c4")
+	    (:revdesc . "f1a2c1466369")
 	    (:keywords "multimedia")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev"))
