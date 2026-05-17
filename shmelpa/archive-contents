@@ -1342,7 +1342,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260516 152)
+	  [(0 1 0 1 -4 20260516 2323)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1351,8 +1351,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Copilot CLI, Claude Code, Gemini CLI, Opencode, Kilo, Grok CLI, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "16ceccb85b4d4912b67a24f9681560ab9989de8d")
-	    (:revdesc . "16ceccb85b4d")
+	    (:commit . "872f6db5a4401307968d2694c2dd2c2dfdd13179")
+	    (:revdesc . "872f6db5a440")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -20588,15 +20588,15 @@
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
-	 [(0 1 0 1 -4 20260516 2310)
+	 [(0 1 0 1 -4 20260517 14)
 	  ((emacs
 	    (28 1))
 	   (compat
 	    (31)))
 	  "An Emacs Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/emacs-elfeed/elfeed")
-	   (:commit . "f120035d01a9998dfd74a2efa45717cceba21e91")
-	   (:revdesc . "f120035d01a9")
+	   (:commit . "d47875fead12e904046016ca457852d8f10b3d27")
+	   (:revdesc . "d47875fead12")
 	   (:keywords "network" "comm" "hypermedia")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -39949,13 +39949,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20260516 1609)
+	    [(0 1 0 1 -4 20260516 2154)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "fd7f10a4b8ff47c40da9f3a15a34e4ead59bbab4")
-	      (:revdesc . "fd7f10a4b8ff")
+	      (:commit . "faf950080202d48e73e9d43ee51c2b70bbe881dd")
+	      (:revdesc . "faf950080202")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -51639,15 +51639,17 @@
 		   ("A. Hdez" . "trefoil_chilled_7k@icloud.com"))
 		  (:maintainer "A. Hdez" . "trefoil_chilled_7k@icloud.com"))])
  (minions .
-	  [(0 1 0 1 -4 20260504 1736)
+	  [(0 1 0 1 -4 20260516 2135)
 	   ((emacs
 	     (26 1))
 	    (compat
-	     (31 0)))
+	     (31 0))
+	    (seq
+	     (2 24)))
 	   "A minor-mode menu for the mode line" tar
 	   ((:url . "https://github.com/tarsius/minions")
-	    (:commit . "c83cad7b408fa1b35b19f302da266532aba0ca98")
-	    (:revdesc . "c83cad7b408f")
+	    (:commit . "52e9c7f7c69208994a62f7c5e4640276e272516b")
+	    (:revdesc . "52e9c7f7c692")
 	    (:keywords "convenience")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.minions@jonas.bernoulli.dev"))
@@ -55314,7 +55316,7 @@
 		     ("Jonas Bernoulli" . "emacs.notmuch-maildir@jonas.bernoulli.dev"))
 		    (:maintainer "Jonas Bernoulli" . "emacs.notmuch-maildir@jonas.bernoulli.dev"))])
  (notmuch-transient .
-		    [(0 1 0 1 -4 20260401 1226)
+		    [(0 1 0 1 -4 20260516 2119)
 		     ((emacs
 		       (29 1))
 		      (compat
@@ -55325,8 +55327,8 @@
 		       (0 12)))
 		     "Command dispatchers for Notmuch" tar
 		     ((:url . "https://github.com/tarsius/notmuch-transient")
-		      (:commit . "582ebaab67d3c59ec002ae23e0072e4ac9a2f13a")
-		      (:revdesc . "582ebaab67d3")
+		      (:commit . "dc77cb285b26ce8ed9f7cb3b78893f9f78526fe1")
+		      (:revdesc . "dc77cb285b26")
 		      (:keywords "mail")
 		      (:authors
 		       ("Jonas Bernoulli" . "emacs.notmuch-transient@jonas.bernoulli.dev"))
@@ -55501,13 +55503,13 @@
 	   ("Martijn Terpstra" . "bigmartijn@gmail.com"))
 	  (:maintainer "Martijn Terpstra" . "bigmartijn@gmail.com"))])
  (nucleo-completion .
-		    [(0 1 0 1 -4 20260516 1301)
+		    [(0 1 0 1 -4 20260517 149)
 		     ((emacs
 		       (27 1)))
 		     "Nucleo-backed completion style" tar
 		     ((:url . "https://github.com/kn66/nucleo-completion.el")
-		      (:commit . "4273c0d000c4fc0d121828fbba6f812a299ad79e")
-		      (:revdesc . "4273c0d000c4")
+		      (:commit . "0cccfa2fdaa61850f255fd16b6f8750fa415c1b1")
+		      (:revdesc . "0cccfa2fdaa6")
 		      (:keywords "matching" "convenience")
 		      (:authors
 		       ("Nobu" . "https://github.com/kn66"))
@@ -62114,15 +62116,15 @@
 		      ("Xu Chunyang" . "mail@xuchunyang.me"))
 		     (:maintainer "Xu Chunyang" . "mail@xuchunyang.me"))])
  (otpp .
-       [(0 1 0 1 -4 20260504 837)
+       [(0 1 0 1 -4 20260517 7)
 	((emacs
 	  (28 1))
 	 (compat
 	  (29 1)))
 	"One tab per project, with unique names" tar
 	((:url . "https://github.com/abougouffa/one-tab-per-project")
-	 (:commit . "476bf92185c8a44a7729fac6b85252fff9e4f9ba")
-	 (:revdesc . "476bf92185c8")
+	 (:commit . "b3b3b3edc36af31b0b4439bce84aa67a5ace02e0")
+	 (:revdesc . "b3b3b3edc36a")
 	 (:keywords "convenience")
 	 (:authors
 	  ("Abdelhak Bougouffa (rot13" . "\"nobhtbhssn@srqbencebwrpg.bet\")"))
