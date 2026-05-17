@@ -124,12 +124,12 @@
       (:authors ("Stephane Zermatten" . "szermatt@gmx.net"))
       (:commit . "e2ae243588db8e03f4d0485bb09b670abbc63eaf"))])
  (beancount
-  . [(0 9 0 0 20251027 80859) nil
+  . [(0 9 0 0 20260517 140330) nil
      "A major mode to edit Beancount input files." tar
      ((:maintainer "Martin Blais" . "blais@furius.ca")
       (:authors ("Martin Blais" . "blais@furius.ca"))
       (:url . "https://elpa.nongnu.org/nongnu/beancount.html")
-      (:commit . "8a564f5a26e6245860188ebf71db0262dd78e068"))])
+      (:commit . "37648f983ff42426b1f364831ce7d2d0d735686b"))])
  (better-jumper
   . [(1 0 1 0 20241009 111701) ((emacs (25 1)))
      "configurable jump list" tar
@@ -221,7 +221,7 @@
       (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
       (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider
-  . [(1 22 0 -4 0 20260516 55445)
+  . [(1 22 0 -4 0 20260517 91726)
      ((emacs (28)) (clojure-mode (5 19)) (compat (30))
       (parseedn (1 2 1)) (queue (0 2)) (spinner (1 7)) (seq (2 22))
       (sesman (0 3 2)) (transient (0 4 1)))
@@ -235,7 +235,7 @@
 		("Artur Malabarba" . "bruce.connor.am@gmail.com")
 		("Hugo Duncan" . "hugo@hugoduncan.org")
 		("Steve Purcell" . "steve@sanityinc.com"))
-      (:commit . "84800cab172ccb54595990c1b7c99279e3287722"))])
+      (:commit . "186c34fbec5607ad8e6adc6e62a3fed62d664d0e"))])
  (clojure-mode
   . [(5 23 0 0 20260325 143544) ((emacs (27 1)))
      "Major mode for Clojure code" tar
@@ -473,7 +473,7 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(3 4 2 0 20260517 73109) ((emacs (28 1)) (compat (31)))
+  . [(3 4 2 0 20260517 195607) ((emacs (28 1)) (compat (31)))
      "An Emacs Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
       (:keywords "network" "comm" "hypermedia")
@@ -482,7 +482,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "b89a014023454fe221c80992addea685cf82ed42"))])
+      (:commit . "8e384af0d43b52e930f64957607627a634c62348"))])
  (elfeed-web
   . [(3 4 2 0 20260511 124453)
      ((emacs (28 1)) (compat (31)) (elfeed (3 4 2))
@@ -938,8 +938,8 @@
       (:authors ("David Andersson" . "l.david.anderssonsverige.nu"))
       (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel
-  . [(0 9 9 5 0 20260505 145654)
-     ((emacs (27 1)) (transient (0 7 4)) (compat (30 1 0 0)))
+  . [(0 9 9 5 0 20260517 124101)
+     ((emacs (27 1)) (transient (0 7 8)) (compat (30 1 0 0)))
      "Interact with ChatGPT or other LLMs" tar
      ((:url . "https://github.com/karthink/gptel")
       (:keywords "convenience" "tools")
@@ -947,7 +947,7 @@
 		   . "karthik.chikmagalur@gmail.com")
       (:authors
        ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-      (:commit . "df08c1a4d4c6e253870b8aa1634922b8f56224e7"))])
+      (:commit . "370b32afaabcbe8948b986c7cea0d40aa192afda"))])
  (graphql-mode
   . [(1 0 0 0 20260330 140853) ((emacs (25 1)))
      "Major mode for editing GraphQL schemas" tar
@@ -1004,7 +1004,7 @@
       (:authors ("Pranshu Sharma" . "pranshu@bauherren.ovh"))
       (:commit . "bf143ee8382f09e0a68d775d80445065f32929c3"))])
  (helm
-  . [(4 0 7 0 20260507 45249) ((helm-core (4 0 7)) (wfnames (1 2)))
+  . [(4 0 7 0 20260517 61948) ((helm-core (4 0 7)) (wfnames (1 2)))
      "Helm is an Emacs incremental and narrowing framework" tar
      ((:url . "https://emacs-helm.github.io/helm/")
       (:keywords "helm" "convenience" "files" "buffers" "grep"
@@ -1012,14 +1012,14 @@
 		 "package")
       (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
       (:authors ("Thierry Volpiatto" . "thievol@posteo.net"))
-      (:commit . "d178e52895c091c26221f18b9b1236f985c79226"))])
+      (:commit . "405cf43317bf481151f7773eefe4e1233a081c94"))])
  (helm-core
-  . [(4 0 7 0 20260507 45249) ((emacs (25 1)) (async (1 9 9)))
+  . [(4 0 7 0 20260517 61948) ((emacs (25 1)) (async (1 9 9)))
      "Development files for Helm" tar
      ((:url . "https://emacs-helm.github.io/helm/")
       (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
       (:authors ("Thierry Volpiatto" . "thievol@posteo.net"))
-      (:commit . "d178e52895c091c26221f18b9b1236f985c79226"))])
+      (:commit . "405cf43317bf481151f7773eefe4e1233a081c94"))])
  (hideshowvis
   . [(0 9 0 20251119 95800) ((emacs (27 1)))
      "Fringe markers for regions foldable by hideshow.el" tar
@@ -1181,7 +1181,8 @@
       (:keywords "languages")
       (:commit . "1478898ea0ab1ae21ec053fcc81c6b42136a2224"))])
  (keycast
-  . [(1 4 7 0 20260504 172516) ((emacs (28 1)) (compat (31 0)))
+  . [(1 4 7 0 20260517 163458)
+     ((emacs (28 1)) (compat (31 0)) (cond-let (1 1)))
      "Show current command and its binding" tar
      ((:url . "https://github.com/tarsius/keycast")
       (:keywords "multimedia")
@@ -1189,7 +1190,7 @@
 		   . "emacs.keycast@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.keycast@jonas.bernoulli.dev"))
-      (:commit . "f9f396bcd3ed8ea4b64178383099872438ccdfb0"))])
+      (:commit . "f1a2c1466369c0a412220b299da5deeb816254c4"))])
  (kotlin-mode
   . [(2 0 0 0 20230123 105957) ((emacs (24 3)))
      "Major mode for kotlin" tar
@@ -1287,7 +1288,7 @@
       (:authors ("Jon Oddie" . "j.j.oddie@gmail.com"))
       (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit
-  . [(4 5 0 0 20260516 212616)
+  . [(4 5 0 0 20260517 175736)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (magit-section (4 5)) (seq (2 24)) (transient (0 13))
       (with-editor (3 4)))
@@ -1299,9 +1300,9 @@
        ("Kyle Meyer" . "kyle@kyleam.com"))
       (:authors ("Marius Vollmer" . "marius.vollmer@gmail.com")
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "0a78ce71b03a56eacb8f2fd4452bb314c1049664"))])
+      (:commit . "8eb6c2f8bdb53c9cf0ccf037b9825613fca45c49"))])
  (magit-section
-  . [(4 5 0 0 20260516 212616)
+  . [(4 5 0 0 20260517 175736)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (seq (2 24)))
      "Sections for read-only buffers" tar
@@ -1310,7 +1311,7 @@
 		   . "emacs.magit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "0a78ce71b03a56eacb8f2fd4452bb314c1049664"))])
+      (:commit . "8eb6c2f8bdb53c9cf0ccf037b9825613fca45c49"))])
  (markdown-mode
   . [(2 9 -3 0 20260425 95459) ((emacs (28 1)))
      "Major mode for Markdown-formatted text" tar
@@ -1816,11 +1817,11 @@
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
       (:commit . "4ca58302169fee8544fac77556794df42c792345"))])
  (slime
-  . [(2 32 -4 0 20260516 1132) ((emacs (24 3)) (macrostep (0 9)))
+  . [(2 32 -4 0 20260517 165732) ((emacs (24 3)) (macrostep (0 9)))
      "Superior Lisp Interaction Mode for Emacs" tar
      ((:url . "https://github.com/slime/slime")
       (:keywords "languages" "lisp" "slime")
-      (:commit . "2f1c18d6bddf397267e6873ea2c1997633ff4de9"))])
+      (:commit . "9fb41b3c25b34ffe20b304d752aba1016a081e6d"))])
  (sly
   . [(1 0 43 0 20260402 224912) ((emacs (24 5)))
      "Sylvester the Cat's Common Lisp IDE" tar
