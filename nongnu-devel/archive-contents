@@ -473,7 +473,7 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(3 4 2 0 20260518 60038) ((emacs (28 1)) (compat (31)))
+  . [(3 4 2 0 20260518 173042) ((emacs (28 1)) (compat (31)))
      "An Emacs Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
       (:keywords "network" "comm" "hypermedia")
@@ -482,7 +482,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "8d04dd5325466a65b03d69183681f96d28293be8"))])
+      (:commit . "bf29104026c339d06d1620370dac3aab6830cd39"))])
  (elfeed-web
   . [(3 4 2 0 20260517 211650)
      ((emacs (28 1)) (compat (31)) (elfeed (3 4 2))
@@ -901,13 +901,13 @@
       (:authors ("Akib Azmain Turja" . "akib@disroot.org"))
       (:commit . "f31dbe60478b6270bb57b6b05998df8eec56f801"))])
  (gnuplot
-  . [(0 11 0 20260517 211935) ((emacs (28 1)) (compat (31)))
+  . [(0 11 0 20260518 101914) ((emacs (28 1)) (compat (31)))
      "Major-mode and interactive frontend for gnuplot" tar
      ((:url . "https://github.com/emacs-gnuplot/gnuplot")
       (:keywords "data" "gnuplot" "plotting")
       (:maintainer ("Maxime Tréca" . "maxime@gmail.com")
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "dfb96fd732ec876eb4cdead7d9a710c0bc34c371"))])
+      (:commit . "a99b72b36a25e72971dfc28733b6f28f683d32a9"))])
  (go-mode
   . [(1 6 0 0 20260510 170713) ((emacs (26 1)))
      "Major mode for the Go programming language" tar
@@ -1288,7 +1288,7 @@
       (:authors ("Jon Oddie" . "j.j.oddie@gmail.com"))
       (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit
-  . [(4 5 0 0 20260517 175736)
+  . [(4 5 0 0 20260518 92824)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (magit-section (4 5)) (seq (2 24)) (transient (0 13))
       (with-editor (3 4)))
@@ -1300,9 +1300,9 @@
        ("Kyle Meyer" . "kyle@kyleam.com"))
       (:authors ("Marius Vollmer" . "marius.vollmer@gmail.com")
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "8eb6c2f8bdb53c9cf0ccf037b9825613fca45c49"))])
+      (:commit . "d6f59eccd444dc0e8b0a6d3a7e68c36e6d98634e"))])
  (magit-section
-  . [(4 5 0 0 20260517 175736)
+  . [(4 5 0 0 20260518 92824)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (seq (2 24)))
      "Sections for read-only buffers" tar
@@ -1311,7 +1311,7 @@
 		   . "emacs.magit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "8eb6c2f8bdb53c9cf0ccf037b9825613fca45c49"))])
+      (:commit . "d6f59eccd444dc0e8b0a6d3a7e68c36e6d98634e"))])
  (markdown-mode
   . [(2 9 -3 0 20260425 95459) ((emacs (28 1)))
      "Major mode for Markdown-formatted text" tar
@@ -1758,13 +1758,13 @@
       (:keywords "markup" "language" "css")
       (:commit . "247a0d4b509f10b28e4687cd8763492bca03599b"))])
  (scad-mode
-  . [(98 0 0 20260502 95437) ((emacs (29 1)) (compat (31)))
+  . [(98 0 0 20260518 101641) ((emacs (29 1)) (compat (31)))
      "A major mode for editing OpenSCAD code" tar
      ((:url . "https://github.com/openscad/emacs-scad-mode")
       (:keywords "languages")
       (:maintainer ("Len Trigg" . "lenbok@gmail.com")
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "1b20986e76860514fbf574abeff23676314d7e4c"))])
+      (:commit . "860621f05563c0694c0ef105d0a35cb74ee71570"))])
  (scala-mode
   . [(1 1 1 0 20260118 94206) ((emacs (25 1)))
      "Major mode for editing Scala" tar
@@ -1817,11 +1817,11 @@
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
       (:commit . "79e4d0ecb1a904f7d579ac6dad1251507b776899"))])
  (slime
-  . [(2 32 -4 0 20260517 165732) ((emacs (24 3)) (macrostep (0 9)))
+  . [(2 32 -4 0 20260518 142203) ((emacs (24 3)) (macrostep (0 9)))
      "Superior Lisp Interaction Mode for Emacs" tar
      ((:url . "https://github.com/slime/slime")
       (:keywords "languages" "lisp" "slime")
-      (:commit . "9fb41b3c25b34ffe20b304d752aba1016a081e6d"))])
+      (:commit . "41317b78dda1531e48d002df89694fb7878ca34d"))])
  (sly
   . [(1 0 43 0 20260402 224912) ((emacs (24 5)))
      "Sylvester the Cat's Common Lisp IDE" tar
@@ -2152,7 +2152,8 @@
       (:authors ("Akib Azmain Turja" . "akib@disroot.org"))
       (:commit . "5203d9379afaf6703746823a580c804e1dd98e08"))])
  (with-editor
-  . [(3 5 0 0 20260506 71738) ((emacs (26 1)) (compat (31 0)))
+  . [(3 5 0 0 20260518 94821)
+     ((emacs (28 1)) (compat (31 0)) (cond-let (1 0)))
      "Use the Emacsclient as $EDITOR" tar
      ((:url . "https://github.com/magit/with-editor")
       (:keywords "processes" "terminals")
@@ -2160,7 +2161,7 @@
 		   . "emacs.with-editor@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev"))
-      (:commit . "f8f56876966e17566e129df183c46a26da10b04a"))])
+      (:commit . "e1ab360024404fe6548505ab76616cfc42edf0cc"))])
  (with-simulated-input
   . [(3 0 0 20210602 224623) ((emacs (24 4)))
      "A macro to simulate user input non-interactively" tar
