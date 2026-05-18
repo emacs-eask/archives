@@ -461,6 +461,14 @@
       (:maintainer "Clemens Radermacher" . "clemera@posteo.net")
       (:authors ("Clemens Radermacher" . "clemera@posteo.net"))
       (:commit . "72131b92b74b24e1c1851233ddbfc1225f33322a"))])
+ (cm-mode
+  . [(1 10 0 20260518 192037) ((emacs (25 1)) (cl-lib (0 5)))
+     "Minor mode for CriticMarkup" tar
+     ((:keywords "text" "markdown")
+      (:maintainer "Joost Kremers" . "joostkremers@fastmail.fm")
+      (:authors ("Joost Kremers" . "joostkremers@fastmail.fm"))
+      (:url . "https://elpa.gnu.org/packages/cm-mode.html")
+      (:commit . "a5816175548a821bf62d374b40d6974e4956c44b"))])
  (cobol-mode
   . [(1 1 0 20250810 203242) ((emacs (24 3)))
      "Mode for editing COBOL code" tar
@@ -1076,7 +1084,7 @@
       (:authors ("Protesilaos" . "info@protesilaos.com"))
       (:commit . "d31e37f5b6e0c6b383fc35bce976813c70f9180e"))])
  (eglot
-  . [(1 23 0 20260516 111356)
+  . [(1 23 0 20260518 195315)
      ((emacs (26 3)) (eldoc (1 16 0)) (external-completion (0 1))
       (flymake (1 4 5)) (jsonrpc (1 0 28)) (project (0 11 2))
       (seq (2 23)) (xref (1 7 0)))
@@ -1085,7 +1093,7 @@
       (:keywords "convenience" "languages")
       (:maintainer "João Távora" . "joaotavora@gmail.com")
       (:authors ("João Távora" . "joaotavora@gmail.com"))
-      (:commit . "84e646f0b320bbb3560706cf588d4cc3a50f4abd"))])
+      (:commit . "641754e8704bb73858657f960f8802f8ee4230fe"))])
  (el-job
   . [(2 7 4 0 20260306 64315) ((emacs (29 1)))
      "Contrived way to call a function using all CPU cores" tar
