@@ -259,7 +259,7 @@
       (:authors ("Chris Wanstrath" . "chris@ozmm.org"))
       (:commit . "1c6adeae14f3795d3b1e44321189ed7c2c93c967"))])
  (cond-let
-  . [(1 1 1 0 20260511 171025) ((emacs (28 1)))
+  . [(1 1 1 0 20260517 221751) ((emacs (28 1)))
      "Additional and improved binding conditionals" tar
      ((:url . "https://github.com/tarsius/cond-let")
       (:keywords "extensions")
@@ -267,15 +267,15 @@
 		   . "emacs.cond-let@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.cond-let@jonas.bernoulli.dev"))
-      (:commit . "1804968192961aaa663c7b77a8a93d169f709094"))])
+      (:commit . "c05079b0a5dd74eda1f986e40600745144deafea"))])
  (consult-flycheck
-  . [(1 1 0 20260330 61817)
+  . [(1 1 0 20260517 211429)
      ((emacs (29 1)) (consult (2 8)) (flycheck (35)))
      "Provides the command `consult-flycheck'" tar
      ((:url . "https://github.com/minad/consult-flycheck")
       (:keywords "languages" "tools" "completion")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-      (:commit . "16fa53d2cc31a2689dfb5d012575c81399f6669d"))])
+      (:commit . "f9630b7cdc7da4d0ca52134083de8ea2f1a4506d"))])
  (corfu-terminal
   . [(0 7 0 20230810 20636)
      ((emacs (26 1)) (corfu (0 36)) (popon (0 13)))
@@ -473,7 +473,7 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(3 4 2 0 20260517 195607) ((emacs (28 1)) (compat (31)))
+  . [(3 4 2 0 20260518 60038) ((emacs (28 1)) (compat (31)))
      "An Emacs Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
       (:keywords "network" "comm" "hypermedia")
@@ -482,9 +482,9 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "8e384af0d43b52e930f64957607627a634c62348"))])
+      (:commit . "8d04dd5325466a65b03d69183681f96d28293be8"))])
  (elfeed-web
-  . [(3 4 2 0 20260511 124453)
+  . [(3 4 2 0 20260517 211650)
      ((emacs (28 1)) (compat (31)) (elfeed (3 4 2))
       (simple-httpd (1 5 1)))
      "Web interface to Elfeed" tar
@@ -495,7 +495,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "b2693e6d310ced341566690843fe88ce7e6c26f4"))])
+      (:commit . "eafe0cd30d6aab33885eca8923b7a1111f797305"))])
  (elixir-mode
   . [(2 5 0 0 20230626 143859) ((emacs (25)))
      "Major mode for editing Elixir files" tar
@@ -901,13 +901,13 @@
       (:authors ("Akib Azmain Turja" . "akib@disroot.org"))
       (:commit . "f31dbe60478b6270bb57b6b05998df8eec56f801"))])
  (gnuplot
-  . [(0 11 0 20260506 194622) ((emacs (28 1)) (compat (31)))
+  . [(0 11 0 20260517 211935) ((emacs (28 1)) (compat (31)))
      "Major-mode and interactive frontend for gnuplot" tar
      ((:url . "https://github.com/emacs-gnuplot/gnuplot")
       (:keywords "data" "gnuplot" "plotting")
       (:maintainer ("Maxime Tréca" . "maxime@gmail.com")
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "58b83997715dc88c7df398c41b4f6a1e6fecacd2"))])
+      (:commit . "dfb96fd732ec876eb4cdead7d9a710c0bc34c371"))])
  (go-mode
   . [(1 6 0 0 20260510 170713) ((emacs (26 1)))
      "Major mode for the Go programming language" tar
@@ -938,7 +938,7 @@
       (:authors ("David Andersson" . "l.david.anderssonsverige.nu"))
       (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel
-  . [(0 9 9 5 0 20260517 124101)
+  . [(0 9 9 5 0 20260517 165547)
      ((emacs (27 1)) (transient (0 7 8)) (compat (30 1 0 0)))
      "Interact with ChatGPT or other LLMs" tar
      ((:url . "https://github.com/karthink/gptel")
@@ -947,7 +947,7 @@
 		   . "karthik.chikmagalur@gmail.com")
       (:authors
        ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-      (:commit . "370b32afaabcbe8948b986c7cea0d40aa192afda"))])
+      (:commit . "14c92e270c850afb14dc1b03c0127cd7d95e0acf"))])
  (graphql-mode
   . [(1 0 0 0 20260330 140853) ((emacs (25 1)))
      "Major mode for editing GraphQL schemas" tar
@@ -1004,7 +1004,7 @@
       (:authors ("Pranshu Sharma" . "pranshu@bauherren.ovh"))
       (:commit . "bf143ee8382f09e0a68d775d80445065f32929c3"))])
  (helm
-  . [(4 0 7 0 20260517 61948) ((helm-core (4 0 7)) (wfnames (1 2)))
+  . [(4 0 7 0 20260518 54205) ((helm-core (4 0 7)) (wfnames (1 2)))
      "Helm is an Emacs incremental and narrowing framework" tar
      ((:url . "https://emacs-helm.github.io/helm/")
       (:keywords "helm" "convenience" "files" "buffers" "grep"
@@ -1012,14 +1012,14 @@
 		 "package")
       (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
       (:authors ("Thierry Volpiatto" . "thievol@posteo.net"))
-      (:commit . "405cf43317bf481151f7773eefe4e1233a081c94"))])
+      (:commit . "c39b67d871f4793604d09d6f80a351a9098b250d"))])
  (helm-core
-  . [(4 0 7 0 20260517 61948) ((emacs (25 1)) (async (1 9 9)))
+  . [(4 0 7 0 20260518 54205) ((emacs (25 1)) (async (1 9 9)))
      "Development files for Helm" tar
      ((:url . "https://emacs-helm.github.io/helm/")
       (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
       (:authors ("Thierry Volpiatto" . "thievol@posteo.net"))
-      (:commit . "405cf43317bf481151f7773eefe4e1233a081c94"))])
+      (:commit . "c39b67d871f4793604d09d6f80a351a9098b250d"))])
  (hideshowvis
   . [(0 9 0 20251119 95800) ((emacs (27 1)))
      "Fringe markers for regions foldable by hideshow.el" tar
@@ -1808,14 +1808,14 @@
       (:authors ("Chen Bin" . "chenbin.sh@gmail.com"))
       (:commit . "173e4d632c94af6670869729c09bfb8ba484d257"))])
  (simple-httpd
-  . [(1 5 1 0 20260515 121404) ((emacs (27 1)) (compat (31)))
+  . [(1 5 1 0 20260517 212118) ((emacs (27 1)) (compat (31)))
      "Pure Elisp HTTP server" tar
      ((:url . "https://github.com/skeeto/emacs-http-server")
       (:keywords "network" "comm")
       (:maintainer ("Philip Kaludercic" . "philipk@posteo.net")
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "4ca58302169fee8544fac77556794df42c792345"))])
+      (:commit . "79e4d0ecb1a904f7d579ac6dad1251507b776899"))])
  (slime
   . [(2 32 -4 0 20260517 165732) ((emacs (24 3)) (macrostep (0 9)))
      "Superior Lisp Interaction Mode for Emacs" tar
