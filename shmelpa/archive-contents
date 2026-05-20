@@ -20590,15 +20590,15 @@
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
-	 [(0 1 0 1 -4 20260519 2133)
+	 [(0 1 0 1 -4 20260519 2302)
 	  ((emacs
 	    (28 1))
 	   (compat
 	    (31)))
 	  "An Emacs Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/emacs-elfeed/elfeed")
-	   (:commit . "fb8ccfcef4e8e38f8b6ea6c744b6f950e4653404")
-	   (:revdesc . "fb8ccfcef4e8")
+	   (:commit . "dbddd60f575e76f8c58f50aa672eeec2911f6c40")
+	   (:revdesc . "dbddd60f575e")
 	   (:keywords "network" "comm" "hypermedia")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -21831,15 +21831,15 @@
 	   ("Ben Moon" . "software@guiltydolphin.com"))
 	  (:maintainer "Ben Moon" . "software@guiltydolphin.com"))])
  (embark .
-	 [(0 1 0 1 -4 20260519 1705)
+	 [(0 1 0 1 -4 20260520 28)
 	  ((emacs
 	    (29 1))
 	   (compat
 	    (31)))
 	  "Conveniently act on minibuffer completions" tar
 	  ((:url . "https://github.com/oantolin/embark")
-	   (:commit . "264b039ba78b2fec155971252de270a52c8177aa")
-	   (:revdesc . "264b039ba78b")
+	   (:commit . "b3089f3f42a64e03666c44db089af8dfcfe51d98")
+	   (:revdesc . "b3089f3f42a6")
 	   (:keywords "convenience")
 	   (:authors
 	    ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
@@ -23253,15 +23253,15 @@
 		  ("Marcin Kolenda" . "https://gitlab.com/cestrand"))
 		 (:maintainer "Marcin Kolenda" . "https://gitlab.com/cestrand"))])
  (esh-autosuggest .
-		  [(0 1 0 1 -4 20241002 1820)
+		  [(0 1 0 1 -4 20260520 227)
 		   ((emacs
 		     (24 4))
 		    (company
 		     (0 9 4)))
 		   "History autosuggestions for eshell" tar
 		   ((:url . "https://github.com/dieggsy/esh-autosuggest")
-		    (:commit . "b3ae8eb2d6f8da1dc59f61a589003d741514d6f6")
-		    (:revdesc . "b3ae8eb2d6f8")
+		    (:commit . "4c86c4103d83a3cbf9a6aff05972fd7ce1a3318e")
+		    (:revdesc . "4c86c4103d83")
 		    (:keywords "completion" "company" "matching" "convenience" "abbrev")
 		    (:authors
 		     ("Diego A. Mundo" . "dieggsy@pm.me"))
@@ -50780,13 +50780,13 @@
 		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainer "James Nguyen" . "james@jojojames.com"))])
  (mediawiki .
-	    [(0 1 0 1 -4 20260515 317)
+	    [(0 1 0 1 -4 20260520 112)
 	     ((emacs
 	       (28 1)))
 	     "Mediawiki frontend" tar
 	     ((:url . "https://github.com/hexmode/mediawiki-el")
-	      (:commit . "7ba10e435599b6d91f50c8aa0768dd0597dcacda")
-	      (:revdesc . "7ba10e435599")
+	      (:commit . "afae2890503222e4964bd6ed60e756498a267628")
+	      (:revdesc . "afae28905032")
 	      (:keywords "mediawiki" "wikipedia" "network" "wiki")
 	      (:authors
 	       ("Mark A. Hershberger" . "mah@everybody.org"))
@@ -67315,15 +67315,15 @@
 			("Fritz Grabo" . "hello@fritzgrabo.com"))
 		       (:maintainer "Fritz Grabo" . "hello@fritzgrabo.com"))])
  (project-tasks .
-		[(0 1 0 1 -4 20241220 1028)
+		[(0 1 0 1 -4 20260520 133)
 		 ((emacs
 		   (26 1))
 		  (project
 		   (0 6 0)))
 		 "Efficient task management for your project" tar
 		 ((:url . "https://github.com/TxGVNN/project-tasks")
-		  (:commit . "1faaa975c99e358165cfc3df160c21c2c611e1c3")
-		  (:revdesc . "1faaa975c99e")
+		  (:commit . "a8736133dc3ee77b6002098592853ac56e5a5b40")
+		  (:revdesc . "a8736133dc3e")
 		  (:keywords "project" "workflow" "tools")
 		  (:authors
 		   ("Giap Tran" . "txgvnn@gmail.com"))
@@ -85059,11 +85059,13 @@
 		 ("Jasonm23" . "jasonm23@gmail.com"))
 		(:maintainer "Jasonm23" . "jasonm23@gmail.com"))])
  (wakatime-mode .
-		[(1 0 2 1 -4 20240623 653)
-		 nil "Automatic time tracking extension for WakaTime" tar
+		[(0 1 0 1 -4 20260520 234)
+		 ((emacs
+		   (28 1)))
+		 "Automatic time tracking extension for WakaTime" tar
 		 ((:url . "https://github.com/wakatime/wakatime-mode")
-		  (:commit . "1c5b2254dd72f2ff504d6a6189a8c10be03a98d1")
-		  (:revdesc . "1c5b2254dd72")
+		  (:commit . "464ea0ea99696133553c565cdfc0966a496b1887")
+		  (:revdesc . "464ea0ea9969")
 		  (:keywords "calendar" "comm")
 		  (:authors
 		   ("Gabor Torok" . "gabor@20y.hu"))
