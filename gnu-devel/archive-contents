@@ -347,13 +347,13 @@
       (:url . "https://elpa.gnu.org/packages/brief.html")
       (:commit . "58c2f484100fecd89248c476e3baf222cda5c7c7"))])
  (buffer-env
-  . [(0 6 0 20250516 122320) ((emacs (27 1)) (compat (29 1)))
+  . [(0 6 0 20260520 141943) ((emacs (27 1)) (compat (29 1)))
      "Buffer-local process environments" tar
      ((:url . "https://github.com/astoff/buffer-env")
       (:keywords "processes" "tools")
       (:maintainer "Augusto Stoffel" . "arstoffel@gmail.com")
       (:authors ("Augusto Stoffel" . "arstoffel@gmail.com"))
-      (:commit . "fc5cab4db55f0b95c4b97fbe3104e394da34b91a"))])
+      (:commit . "e3ac6bd73304eb81f7b0393ef0cbc2361fc7f40b"))])
  (buffer-expose
   . [(0 4 3 0 20190429 135558) ((emacs (25)) (cl-lib (0 5)))
      "Visual buffer switching using a window grid" tar
@@ -577,13 +577,13 @@
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:commit . "f046ebb91473830a174fb54e3dc8119bbe7e0c7c"))])
  (consult-denote
-  . [(0 4 2 0 20260424 102433)
+  . [(0 5 0 0 20260520 122738)
      ((emacs (28 1)) (denote (4 0 0)) (consult (2 2)))
      "Use Consult in tandem with Denote" tar
      ((:url . "https://github.com/protesilaos/consult-denote")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "2ac9c4f484a5c60620df47c6015856505933ea21"))])
+      (:commit . "f12c9903a0aa5c534503d9daa07fa5057dc7133c"))])
  (consult-hoogle
   . [(0 7 0 0 20260430 125841) ((emacs (28 1)) (consult (2 0)))
      "Hoogle frontend using consult" tar
@@ -760,26 +760,26 @@
       (:authors ("Phil Sainty" . "psainty@orcon.net.nz"))
       (:commit . "5a0cd5ccb650d7bba1c1ea02cf67b71d7cfa6e9a"))])
  (denote
-  . [(4 1 3 0 20260513 81245) ((emacs (28 1)))
+  . [(4 2 0 0 20260520 124108) ((emacs (28 1)))
      "Simple notes with an efficient file-naming scheme" tar
      ((:url . "https://github.com/protesilaos/denote")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "dbfe4b189a9eedd812d767bc318db2b33271e4c2"))])
+      (:commit . "13b2164369dd772c467fc78439bde3ec6dde965f"))])
  (denote-journal
-  . [(0 2 2 0 20260424 102616) ((emacs (28 1)) (denote (4 0 0)))
+  . [(0 3 0 0 20260520 123338) ((emacs (28 1)) (denote (4 0 0)))
      "Convenience functions for daily journaling with Denote" tar
      ((:url . "https://github.com/protesilaos/denote-journal")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "76aba51f2195ac6f3497f185c12cb76e38c9db76"))])
+      (:commit . "374224ad2b3162c1fa92bb9ecdb61f157a781c4b"))])
  (denote-markdown
-  . [(0 2 2 0 20260424 102624) ((emacs (28 1)) (denote (4 0 0)))
+  . [(0 3 0 0 20260520 123211) ((emacs (28 1)) (denote (4 0 0)))
      "Extensions that better integrate Denote with Markdown" tar
      ((:url . "https://github.com/protesilaos/denote-markdown")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "357aa50bfcab10f2df0f9ae69914023829c992ed"))])
+      (:commit . "e46945b128b8ea7b3dd9e2c5af3f120045e9243a"))])
  (denote-menu
   . [(1 4 0 0 20250829 94810) ((emacs (28 1)) (denote (3 0 0)))
      "View denote files in a tabulated list." tar
@@ -788,12 +788,12 @@
       (:authors ("Mohamed Suliman" . "sulimanm@tcd.ie"))
       (:commit . "9bf3bed5e0f59621a98169bbbd4b359d3a039b22"))])
  (denote-org
-  . [(0 2 1 0 20260424 102637) ((emacs (28 1)) (denote (4 0 0)))
+  . [(0 3 0 0 20260520 123505) ((emacs (28 1)) (denote (4 0 0)))
      "Denote extensions for Org mode" tar
      ((:url . "https://github.com/protesilaos/denote-org")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "2133ed6c427a780b8348740268c180c9bdd391c6"))])
+      (:commit . "b6b788db84fbf0c918bce6b3ce65508dd651bb4c"))])
  (denote-review
   . [(1 0 7 0 20260409 90040) ((emacs (28 1)) (denote (4 1 3)))
      "implements review process for denote notes" tar
@@ -811,19 +811,19 @@
       (:authors ("Lucas Quintana" . "lmq10@protonmail.com"))
       (:commit . "7ae1f43470fc375c8add5f8c78f8e7d1d7c2da42"))])
  (denote-sequence
-  . [(0 2 0 0 20260424 102642) ((emacs (28 1)) (denote (4 0 0)))
+  . [(0 3 0 0 20260520 123044) ((emacs (28 1)) (denote (4 0 0)))
      "Sequence notes or Folgezettel with Denote" tar
      ((:url . "https://github.com/protesilaos/denote-sequence")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "161bb3da4923d80471170d88f9d75d3e9cb868da"))])
+      (:commit . "13e1b88df0928c16b38a7b4eafc70525c61a8c83"))])
  (denote-silo
-  . [(0 2 0 0 20260424 102645) ((emacs (28 1)) (denote (4 0 0)))
+  . [(0 3 0 0 20260520 122913) ((emacs (28 1)) (denote (4 0 0)))
      "Convenience functions for using Denote in multiple silos" tar
      ((:url . "https://github.com/protesilaos/denote-silo")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "d1c51447e1c5a60ccf370642fd114c1a4121f556"))])
+      (:commit . "342d5e7e1bd63ce742a0362911c47da1ec63e868"))])
  (detached
   . [(0 10 1 0 20221129 143049) ((emacs (27 1)))
      "A package to launch, and manage, detached processes" tar
@@ -851,13 +851,13 @@
       (:authors ("Aleksandr Vityazev" . "avityazev@disroot.org"))
       (:commit . "3a4819f76c2af3437b95d5cee46b7e0252a3a8f3"))])
  (dicom
-  . [(1 4 0 20260519 102303) ((emacs (29 1)) (compat (31)))
+  . [(1 4 0 20260520 91746) ((emacs (29 1)) (compat (31)))
      "DICOM viewer - Digital Imaging & Communications in Medicine" tar
      ((:url . "https://github.com/minad/dicom")
       (:keywords "multimedia" "hypermedia" "files")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "65998eca7a909e5560e6ce05eec33ee6a18e0d0c"))])
+      (:commit . "e6774c0f47390e4022dd6ea9bc536d2820dd3dcd"))])
  (dict-tree
   . [(0 17 0 20231015 24654)
      ((trie (0 6)) (tNFA (0 1 1)) (heap (0 3)) (emacs (24 1)))
@@ -1003,13 +1003,13 @@
       (:authors ("Protesilaos" . "info@protesilaos.com"))
       (:commit . "01e979a597b48b935ef206ea39b2da67e3212b34"))])
  (drepl
-  . [(0 4 0 20251012 81518) ((emacs (29 1)) (comint-mime (0 7)))
+  . [(0 4 0 20260520 140843) ((emacs (29 1)) (comint-mime (0 7)))
      "REPL protocol for the dumb terminal" tar
      ((:url . "https://github.com/astoff/drepl")
       (:keywords "languages" "processes")
       (:maintainer "Augusto Stoffel" . "arstoffel@gmail.com")
       (:authors ("Augusto Stoffel" . "arstoffel@gmail.com"))
-      (:commit . "f37cac8ebefdb0f517cbb344fe62c1e5287b2255"))])
+      (:commit . "6c8c00cb097604e4ffd16b2f35cec8244f50c6c1"))])
  (dts-mode
   . [(1 0 0 20221221 75311) ((emacs (24)))
      "Major mode for Device Tree source files" tar
@@ -1076,13 +1076,13 @@
       (:authors ("Eduardo Ochs" . "eduardoochs@gmail.com"))
       (:commit . "ffa3b88874d064256c5221d2bbcb1564d901602a"))])
  (ef-themes
-  . [(2 1 0 0 20260513 95422) ((emacs (28 1)) (modus-themes (5 0 0)))
+  . [(2 1 0 0 20260520 193358) ((emacs (28 1)) (modus-themes (5 0 0)))
      "Colorful and legible themes" tar
      ((:url . "https://github.com/protesilaos/ef-themes")
       (:keywords "faces" "theme" "accessibility")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "d31e37f5b6e0c6b383fc35bce976813c70f9180e"))])
+      (:commit . "3a15cdebaf7a4907049e6bc11a99d484eacf24b5"))])
  (eglot
   . [(1 23 0 20260518 195315)
      ((emacs (26 3)) (eldoc (1 16 0)) (external-completion (0 1))
