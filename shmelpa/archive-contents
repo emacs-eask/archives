@@ -1342,7 +1342,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260521 14)
+	  [(0 1 0 1 -4 20260521 1427)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1351,8 +1351,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Copilot CLI, Claude Code, Gemini CLI, Opencode, Kilo, Grok CLI, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "25aebcc3e60e6b39835a00d260c7cc4930a3c9f0")
-	    (:revdesc . "25aebcc3e60e")
+	    (:commit . "5bd2d976aaf29206854715512a9de50f4a9cafc3")
+	    (:revdesc . "5bd2d976aaf2")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -3366,13 +3366,13 @@
 		     (:commit . "0139378577f936d34b20276af6f022fb457af490")
 		     (:revdesc . "0139378577f9"))])
  (auto-compile .
-	       [(0 1 0 1 -4 20260301 1252)
+	       [(0 1 0 1 -4 20260521 1100)
 		((emacs
-		  (27 1)))
+		  (28 1)))
 		"Automatically compile Emacs Lisp libraries" tar
 		((:url . "https://github.com/emacscollective/auto-compile")
-		 (:commit . "cc51aea86617cab6cb1ef76672a343f2bf3206c1")
-		 (:revdesc . "cc51aea86617")
+		 (:commit . "a1579f69437420e3a415dccf3fd3618a5e426ea1")
+		 (:revdesc . "a1579f694374")
 		 (:keywords "compile" "convenience" "lisp")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.auto-compile@jonas.bernoulli.dev"))
@@ -4268,17 +4268,17 @@
 	       ("Michael Schuldt" . "mbschuldt@gmail.com"))
 	      (:maintainer "Michael Schuldt" . "mbschuldt@gmail.com"))])
  (backline .
-	   [(0 1 0 1 -4 20260101 1825)
+	   [(0 1 0 1 -4 20260521 1101)
 	    ((emacs
-	      (27 1))
+	      (28 1))
 	     (compat
 	      (30 1))
 	     (outline-minor-faces
 	      (1 2)))
 	    "Preserve appearance of outline headings" tar
 	    ((:url . "https://github.com/tarsius/backline")
-	     (:commit . "ba263f5ea3dc1818c7a61b50acec52fe2cce02ca")
-	     (:revdesc . "ba263f5ea3dc")
+	     (:commit . "c5b564f9904967ee56af9de35e5962372fad3e44")
+	     (:revdesc . "c5b564f99049")
 	     (:keywords "outlines")
 	     (:authors
 	      ("Jonas Bernoulli" . "emacs.backline@jonas.bernoulli.dev"))
@@ -8461,7 +8461,7 @@
 		 ("Adam Chyła https://chyla.org/" . "adam@chyla.org"))
 		(:maintainer "Adam Chyła https://chyla.org/" . "adam@chyla.org"))])
  (cider .
-	[(0 1 0 1 -4 20260521 905)
+	[(0 1 0 1 -4 20260521 1259)
 	 ((emacs
 	   (28))
 	  (clojure-mode
@@ -8482,8 +8482,8 @@
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
 	 ((:url . "https://www.github.com/clojure-emacs/cider")
-	  (:commit . "a443a9aacc94c7a83c812019bbdaa3093c972664")
-	  (:revdesc . "a443a9aacc94")
+	  (:commit . "063428f867f6092ab45a3ad6bc803820210819f5")
+	  (:revdesc . "063428f867f6")
 	  (:keywords "languages" "clojure" "cider")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
@@ -16176,15 +16176,15 @@
 	 ("Alex Kost" . "alezost@gmail.com"))
 	(:maintainer "Alex Kost" . "alezost@gmail.com"))])
  (dim-autoload .
-	       [(0 1 0 1 -4 20260101 1826)
+	       [(0 1 0 1 -4 20260521 1204)
 		((emacs
-		  (26 1))
+		  (28 1))
 		 (compat
 		  (30 1)))
 		"Dim or hide autoload cookie lines" tar
 		((:url . "https://github.com/tarsius/dim-autoload")
-		 (:commit . "503eee682c2fcc24e05a765ac28e847be950bad9")
-		 (:revdesc . "503eee682c2f")
+		 (:commit . "fc238d7a2b4ecbcde163aad573bf2637274b49a4")
+		 (:revdesc . "fc238d7a2b4e")
 		 (:keywords "convenience")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.dim-autoload@jonas.bernoulli.dev"))
@@ -20590,15 +20590,15 @@
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
-	 [(0 1 0 1 -4 20260520 1900)
+	 [(0 1 0 1 -4 20260521 1431)
 	  ((emacs
 	    (28 1))
 	   (compat
 	    (31)))
 	  "An Emacs Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/emacs-elfeed/elfeed")
-	   (:commit . "a359945e3ca9a522d50f4f704750a17438628431")
-	   (:revdesc . "a359945e3ca9")
+	   (:commit . "b92434b0b18b94402cb6dc1cbbcf92704f2e402e")
+	   (:revdesc . "b92434b0b18b")
 	   (:keywords "network" "comm" "hypermedia")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -21760,13 +21760,13 @@
 		   ("DarkSun" . "lujun9972@gmail.com"))
 		  (:maintainer "DarkSun" . "lujun9972@gmail.com"))])
  (emacsql .
-	  [(0 1 0 1 -4 20260518 1412)
+	  [(0 1 0 1 -4 20260521 1053)
 	   ((emacs
-	     (26 1)))
+	     (28 1)))
 	   "High-level SQL database front-end" tar
 	   ((:url . "https://github.com/magit/emacsql")
-	    (:commit . "7ee5c9d5c5b9b3d922153147539b7ed39971af9d")
-	    (:revdesc . "7ee5c9d5c5b9")
+	    (:commit . "182e66219568277c0afd130d4ee2844a9d3d3fc1")
+	    (:revdesc . "182e66219568")
 	    (:authors
 	     ("Christopher Wellons" . "wellons@nullprogram.com"))
 	    (:maintainers
@@ -30838,15 +30838,15 @@
 		      ("David Shepherd" . "davidshepherd7@gmail.com"))
 		     (:maintainer "David Shepherd" . "davidshepherd7@gmail.com"))])
  (frameshot .
-	    [(0 1 0 1 -4 20260504 1722)
+	    [(0 1 0 1 -4 20260521 1204)
 	     ((emacs
-	       (26 1))
+	       (28 1))
 	      (compat
 	       (31 0)))
 	     "Take screenshots of a frame" tar
 	     ((:url . "https://github.com/tarsius/frameshot")
-	      (:commit . "81eafb63ac17b5cf1074c447021d6037fbce602c")
-	      (:revdesc . "81eafb63ac17")
+	      (:commit . "57be773fccc3f24b1e2aa3f20f25d543e34d1b60")
+	      (:revdesc . "57be773fccc3")
 	      (:keywords "multimedia")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.frameshot@jonas.bernoulli.dev"))
@@ -31331,15 +31331,15 @@
 	       ("Bert Geens" . "bert@lair.be"))
 	      (:maintainer "Bert Geens" . "bert@lair.be"))])
  (fwb-cmds .
-	   [(0 1 0 1 -4 20260521 1003)
+	   [(0 1 0 1 -4 20260521 1204)
 	    ((emacs
-	      (26 1))
+	      (28 1))
 	     (compat
 	      (30 1)))
 	    "Misc frame, window and buffer commands" tar
 	    ((:url . "https://github.com/tarsius/fwb-cmds")
-	     (:commit . "651090312f47a633ec21b5e6aece3131ee01d17d")
-	     (:revdesc . "651090312f47")
+	     (:commit . "6e29dc83c2da41b2b4042c97ce6b0cc190df3edb")
+	     (:revdesc . "6e29dc83c2da")
 	     (:keywords "convenience")
 	     (:authors
 	      ("Jonas Bernoulli" . "emacs.fwb-cmds@jonas.bernoulli.dev"))
@@ -32065,15 +32065,15 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20260521 631)
+	  [(0 1 0 1 -4 20260521 1239)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30 1 0 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "fb07ea87f0c50bd2b1cecbad8a80164f66e0a358")
-	    (:revdesc . "fb07ea87f0c5")
+	    (:commit . "15ba01332e7f520c0ad42d418b718332b03ca408")
+	    (:revdesc . "15ba01332e7f")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -32555,15 +32555,15 @@
 		  (:authors
 		   ("Syohei YOSHIDA" . "syohex@gmail.com")))])
  (git-modes .
-	    [(0 1 0 1 -4 20260101 1834)
+	    [(0 1 0 1 -4 20260521 1105)
 	     ((emacs
-	       (26 1))
+	       (28 1))
 	      (compat
 	       (30 1)))
 	     "Major modes for editing Git configuration files" tar
 	     ((:url . "https://github.com/magit/git-modes")
-	      (:commit . "c3faeeea1982786f78d8c38397dec0f078eaec84")
-	      (:revdesc . "c3faeeea1982")
+	      (:commit . "8c6e5b01feddd0c3da624941c8a4b20bb60f3656")
+	      (:revdesc . "8c6e5b01fedd")
 	      (:keywords "convenience" "vc" "git")
 	      (:authors
 	       ("Sebastian Wiesner" . "lunaryorn@gmail.com")
@@ -39322,15 +39322,17 @@
 		 ("Donald Ephraim Curtis" . "dcurtis@milkbox.net"))
 		(:maintainer "Donald Ephraim Curtis" . "dcurtis@milkbox.net"))])
  (hl-todo .
-	  [(0 1 0 1 -4 20260508 1147)
+	  [(0 1 0 1 -4 20260521 1155)
 	   ((emacs
-	     (26 1))
+	     (28 1))
 	    (compat
-	     (31 0)))
+	     (31 0))
+	    (cond-let
+	     (1 1)))
 	   "Highlight TODO and similar keywords" tar
 	   ((:url . "https://github.com/tarsius/hl-todo")
-	    (:commit . "9a147b9a306471d156dbf8f53af7724061806f80")
-	    (:revdesc . "9a147b9a3064")
+	    (:commit . "38040e1b1fd8c0dfe41356ce001883300124f876")
+	    (:revdesc . "38040e1b1fd8")
 	    (:keywords "convenience")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.hl-todo@jonas.bernoulli.dev"))
@@ -40800,15 +40802,15 @@
 	    (:authors
 	     ("imakado" . "ken.imakado_at_gmail.com")))])
  (imake .
-	[(0 1 0 1 -4 20260101 1835)
+	[(0 1 0 1 -4 20260521 1105)
 	 ((emacs
-	   (26 1))
+	   (28 1))
 	  (compat
 	   (30 1)))
 	 "Simple, opinionated make target runner" tar
 	 ((:url . "https://github.com/tarsius/imake")
-	  (:commit . "c3d7fcc0d40676f47450891dc034511185566a0e")
-	  (:revdesc . "c3d7fcc0d406")
+	  (:commit . "5a610a7acf4e3c57155112159d228c0928935195")
+	  (:revdesc . "5a610a7acf4e")
 	  (:keywords "convenience")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.imake@jonas.bernoulli.dev"))
@@ -44624,7 +44626,7 @@
 		   ("Magnar Sveen" . "magnars@gmail.com"))
 		  (:maintainer "Magnar Sveen" . "magnars@gmail.com"))])
  (kaolin-themes .
-		[(0 1 0 1 -4 20260521 825)
+		[(0 1 0 1 -4 20260521 1021)
 		 ((emacs
 		   (26 1))
 		  (autothemer
@@ -44633,8 +44635,8 @@
 		   (0 6)))
 		 "A set of eye pleasing themes" tar
 		 ((:url . "https://github.com/ogdenwebb/emacs-kaolin-themes")
-		  (:commit . "78970cf19f5b9e80094d3798fb6e3ea15f57c594")
-		  (:revdesc . "78970cf19f5b")
+		  (:commit . "a6b128a14b0f1e0c51690f3ff2623e0d57916c55")
+		  (:revdesc . "a6b128a14b0f")
 		  (:keywords "dark" "light" "teal" "blue" "violet" "purple" "brown" "theme" "faces")
 		  (:authors
 		   ("Ogden Webb" . "ogdenwebb@gmail.com"))
@@ -51647,17 +51649,17 @@
 		   ("A. Hdez" . "trefoil_chilled_7k@icloud.com"))
 		  (:maintainer "A. Hdez" . "trefoil_chilled_7k@icloud.com"))])
  (minions .
-	  [(0 1 0 1 -4 20260516 2135)
+	  [(0 1 0 1 -4 20260521 1109)
 	   ((emacs
-	     (26 1))
+	     (28 1))
 	    (compat
 	     (31 0))
 	    (seq
 	     (2 24)))
 	   "A minor-mode menu for the mode line" tar
 	   ((:url . "https://github.com/tarsius/minions")
-	    (:commit . "52e9c7f7c69208994a62f7c5e4640276e272516b")
-	    (:revdesc . "52e9c7f7c692")
+	    (:commit . "97392223bbdad004cd8d2e8039833ecb961d7728")
+	    (:revdesc . "97392223bbda")
 	    (:keywords "convenience")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.minions@jonas.bernoulli.dev"))
@@ -54945,15 +54947,15 @@
 	      ("Peter" . "craven@gmx.net"))
 	     (:maintainer "Peter" . "craven@gmx.net"))])
  (no-littering .
-	       [(0 1 0 1 -4 20260518 1430)
+	       [(0 1 0 1 -4 20260521 1204)
 		((emacs
-		  (26 1))
+		  (28 1))
 		 (compat
 		  (30 1)))
 		"Help keeping ~/.config/emacs clean" tar
 		((:url . "https://github.com/emacscollective/no-littering")
-		 (:commit . "d9921c0a4e2655ec60acaf82ebab94adfcf3e878")
-		 (:revdesc . "d9921c0a4e26")
+		 (:commit . "612e70ff11a26e459ef1b615312762116f1c0fac")
+		 (:revdesc . "612e70ff11a2")
 		 (:keywords "convenience")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.no-littering@jonas.bernoulli.dev"))
@@ -61725,9 +61727,9 @@
 		 ("Jonas Bernoulli" . "emacs.orgit-forge@jonas.bernoulli.dev"))
 		(:maintainer "Jonas Bernoulli" . "emacs.orgit-forge@jonas.bernoulli.dev"))])
  (orglink .
-	  [(0 1 0 1 -4 20260517 1750)
+	  [(0 1 0 1 -4 20260521 1111)
 	   ((emacs
-	     (26 1))
+	     (28 1))
 	    (compat
 	     (31 0))
 	    (llama
@@ -61738,8 +61740,8 @@
 	     (2 24)))
 	   "Use Org Mode links in other modes" tar
 	   ((:url . "https://github.com/tarsius/orglink")
-	    (:commit . "e3c3999c4a88acd46208bef4f014fc2245f494a8")
-	    (:revdesc . "e3c3999c4a88")
+	    (:commit . "22be77113bcd2eb704a0e8a49cec21136afdffa0")
+	    (:revdesc . "22be77113bcd")
 	    (:keywords "hypermedia")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.orglink@jonas.bernoulli.dev"))
@@ -62197,15 +62199,15 @@
 		   ("Thorsten Jolitz" . "tjolitzATgmailDOTcom"))
 		  (:maintainer "Thorsten Jolitz" . "tjolitzATgmailDOTcom"))])
  (outline-minor-faces .
-		      [(0 1 0 1 -4 20260430 2311)
+		      [(0 1 0 1 -4 20260521 1102)
 		       ((emacs
-			 (27 1))
+			 (28 1))
 			(compat
 			 (30 1)))
 		       "Highlight only section headings" tar
 		       ((:url . "https://github.com/tarsius/outline-minor-faces")
-			(:commit . "9bf54d02003c7866bc6d1c15495b018e3b4c678b")
-			(:revdesc . "9bf54d02003c")
+			(:commit . "e1ad94189167f3f15fa00e7765aa663ec47d1c7b")
+			(:revdesc . "e1ad94189167")
 			(:keywords "faces" "outlines")
 			(:authors
 			 ("Jonas Bernoulli" . "emacs.outline-minor-faces@jonas.bernoulli.dev"))
@@ -63603,15 +63605,15 @@
 		    (:revdesc . "74183a8e13fa")
 		    (:keywords "convenience"))])
  (paren-face .
-	     [(0 1 0 1 -4 20260101 1846)
+	     [(0 1 0 1 -4 20260521 1204)
 	      ((emacs
-		(26 1))
+		(28 1))
 	       (compat
 		(30 1)))
 	      "A face for parentheses in lisp modes" tar
 	      ((:url . "https://github.com/tarsius/paren-face")
-	       (:commit . "2c279a236404b2eebacb435aa92d5e9c97939c03")
-	       (:revdesc . "2c279a236404")
+	       (:commit . "a836c873df68c82e56a258fbdb2f912d1061baa5")
+	       (:revdesc . "a836c873df68")
 	       (:keywords "faces" "lisp")
 	       (:authors
 		("Jonas Bernoulli" . "emacs.paren-face@jonas.bernoulli.dev"))
