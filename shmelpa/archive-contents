@@ -20590,15 +20590,15 @@
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
-	 [(0 1 0 1 -4 20260523 636)
+	 [(0 1 0 1 -4 20260523 1818)
 	  ((emacs
 	    (28 1))
 	   (compat
 	    (31)))
 	  "An Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/emacs-elfeed/elfeed")
-	   (:commit . "2103b959004df3a441d2a65df6cefecdaf81b1f5")
-	   (:revdesc . "2103b959004d")
+	   (:commit . "00f6d418d733066924e3254c4349972508edb83d")
+	   (:revdesc . "00f6d418d733")
 	   (:keywords "network" "comm" "hypermedia")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -24248,7 +24248,7 @@
 			  ("Bryan Allred" . "bryan@revolvingcow.com"))
 			 (:maintainer "Bryan Allred" . "bryan@revolvingcow.com"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20260518 634)
+		  [(0 4 1 1 -4 20260523 1749)
 		   ((emacs
 		     (26 3))
 		    (evil
@@ -24257,8 +24257,8 @@
 		     (1 0)))
 		   "A set of keybindings for Evil mode" tar
 		   ((:url . "https://github.com/emacs-evil/evil-collection")
-		    (:commit . "ceda51df9f3ab9d5d1a37a44e3a2261507d1409b")
-		    (:revdesc . "ceda51df9f3a")
+		    (:commit . "a27017ddcc2bb701b990d9e21d6b72c75ec05016")
+		    (:revdesc . "a27017ddcc2b")
 		    (:keywords "evil" "tools")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
@@ -25168,11 +25168,11 @@
 	       ("Kris Jenkins" . "krisajenkins@gmail.com"))
 	      (:maintainer "Kris Jenkins" . "krisajenkins@gmail.com"))])
  (evil-terminal-cursor-changer .
-			       [(0 1 0 1 -4 20260405 711)
+			       [(0 1 0 1 -4 20260523 1907)
 				nil "Change cursor shape and color in terminal" tar
 				((:url . "https://github.com/7696122/evil-terminal-cursor-changer")
-				 (:commit . "06adce5174cf97d500d250fa6053722a326c18db")
-				 (:revdesc . "06adce5174cf")
+				 (:commit . "fb824f657fb4325c1124f3e1b61f0de7ed062adf")
+				 (:revdesc . "fb824f657fb4")
 				 (:keywords "terminal" "cursor" "evil"))])
  (evil-test-helpers .
 		    [(1 15 0 1 -4 20230820 2246)
@@ -34214,17 +34214,6 @@
 	   (:maintainers
 	    ("Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))
 	   (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
- (gotest-ts .
-	    [(0 1 0 1 -4 20260127 1547)
-	     ((emacs
-	       (29 1))
-	      (gotest
-	       (0 16 0)))
-	     "Go test runner with tree-sitter support" tar
-	     ((:url . "https://github.com/chmouel/gotest-ts.el")
-	      (:commit . "b12e08d925bab705792f14b29acdca9af550d9a8")
-	      (:revdesc . "b12e08d925ba")
-	      (:keywords "languages" "go" "tests" "tree-sitter"))])
  (gotham-theme .
 	       [(1 1 9 1 -4 20220107 1730)
 		((emacs
@@ -42067,19 +42056,6 @@
 	       (:maintainers
 		("François Févotte" . "fevotte@gmail.com"))
 	       (:maintainer "François Févotte" . "fevotte@gmail.com"))])
- (isgd .
-       [(0 1 0 1 -4 20241230 1331)
-	((emacs
-	  (24 1)))
-	"Shorten URLs using the isgd.com shortener service" tar
-	((:url . "https://github.com/chmouel/isgd.el")
-	 (:commit . "2dd030ab451cb9e704d173ee1b2388d92362db3b")
-	 (:revdesc . "2dd030ab451c")
-	 (:authors
-	  ("Chmouel Boudjnah" . "chmouel@chmouel.com"))
-	 (:maintainers
-	  ("Chmouel Boudjnah" . "chmouel@chmouel.com"))
-	 (:maintainer "Chmouel Boudjnah" . "chmouel@chmouel.com"))])
  (islisp-mode .
 	      [(0 2 0 1 -4 20220924 1043)
 	       ((emacs
@@ -44628,7 +44604,7 @@
 		   ("Magnar Sveen" . "magnars@gmail.com"))
 		  (:maintainer "Magnar Sveen" . "magnars@gmail.com"))])
  (kaolin-themes .
-		[(0 1 0 1 -4 20260522 1059)
+		[(0 1 0 1 -4 20260523 1913)
 		 ((emacs
 		   (26 1))
 		  (autothemer
@@ -44637,8 +44613,8 @@
 		   (0 6)))
 		 "A set of eye pleasing themes" tar
 		 ((:url . "https://github.com/ogdenwebb/emacs-kaolin-themes")
-		  (:commit . "74242fa1b30cd9e3ddb920c6ab53b2a91414b849")
-		  (:revdesc . "74242fa1b30c")
+		  (:commit . "fa803fb044d9b8c248aeb169391cb74f2f9fd1f6")
+		  (:revdesc . "fa803fb044d9")
 		  (:keywords "dark" "light" "teal" "blue" "violet" "purple" "brown" "theme" "faces")
 		  (:authors
 		   ("Ogden Webb" . "ogdenwebb@gmail.com"))
@@ -59500,19 +59476,6 @@
 	       (:maintainers
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
 	       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de"))])
- (org-movies .
-	     [(0 1 1 -4 20210920 101)
-	      ((emacs
-		(26 1))
-	       (org
-		(9 0))
-	       (request
-		(0 3 0)))
-	      "Manage watchlist with Org mode" tar
-	      ((:url . "https://github.com/teeann/org-movies")
-	       (:commit . "e96fecaffa2924de64a507aa31d2934e667ee1ea")
-	       (:revdesc . "e96fecaffa29")
-	       (:keywords "hypermedia" "outlines" "org"))])
  (org-mpv-notes .
 		[(0 1 0 1 -4 20260224 1801)
 		 ((emacs
@@ -73108,11 +73071,11 @@
 		   ("Jason Milkins" . "jasonm23@gmail.com"))
 		  (:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
  (selected .
-	   [(1 2 1 -4 20230219 1328)
+	   [(0 1 0 1 -4 20260523 1823)
 	    nil "Keymap for when region is active" tar
 	    ((:url . "https://github.com/Kungsgeten/selected.el")
-	     (:commit . "1ca6e12f456caa1dc97c3d68597598662eb5de9a")
-	     (:revdesc . "1ca6e12f456c")
+	     (:commit . "9f5a6324e4911515972989841f143696472f2374")
+	     (:revdesc . "9f5a6324e491")
 	     (:keywords "convenience"))])
  (selected-window-accent-mode .
 			      [(0 1 0 1 -4 20260326 837)
@@ -81038,20 +81001,6 @@
 	      (:maintainers
 	       ("Vivek Das Mohapatra" . "vivek@etla.org"))
 	      (:maintainer "Vivek Das Mohapatra" . "vivek@etla.org"))])
- (tox .
-      [(0 1 0 1 -4 20250216 1042)
-       ((emacs
-	 (25 1)))
-       "Run Python tests with tox" tar
-       ((:url . "https://github.com/chmouel/tox.el")
-	(:commit . "831521fdfdd0b903c50616c6d675e63279c8b4aa")
-	(:revdesc . "831521fdfdd0")
-	(:keywords "convenience" "tools" "python" "testing")
-	(:authors
-	 ("Chmouel Boudjnah" . "chmouel@chmouel.com"))
-	(:maintainers
-	 ("Chmouel Boudjnah" . "chmouel@chmouel.com"))
-	(:maintainer "Chmouel Boudjnah" . "chmouel@chmouel.com"))])
  (toxi-theme .
 	     [(0 1 2 1 -4 20160424 2126)
 	      ((emacs
