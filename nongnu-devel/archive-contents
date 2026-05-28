@@ -1,12 +1,12 @@
 (1
  (adoc-mode
-  . [(0 8 0 0 20260221 220754) ((emacs (28 1)))
+  . [(0 8 0 0 20260528 19) ((emacs (28 1)))
      "a major-mode for editing AsciiDoc files" tar
      ((:url . "https://github.com/bbatsov/adoc-mode")
       (:keywords "asciidoc" "text")
       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
       (:authors ("Florian Kaufmann" . "sensorflo@gmail.com"))
-      (:commit . "50b601dd92f99dd9534ff44de5f411480ca32b09"))])
+      (:commit . "96dedb7a3151e233cd4c388f5cb30c068c6f7629"))])
  (afternoon-theme
   . [(0 1 0 20140104 185934) ((emacs (24 1)))
      "Dark color theme with a deep blue background" tar
@@ -221,7 +221,7 @@
       (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
       (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider
-  . [(1 22 0 20260523 212126)
+  . [(1 22 0 20260528 143)
      ((emacs (28)) (clojure-mode (5 19)) (compat (30))
       (parseedn (1 2 1)) (queue (0 2)) (spinner (1 7)) (seq (2 22))
       (sesman (0 3 2)) (transient (0 4 1)))
@@ -235,7 +235,7 @@
 		("Artur Malabarba" . "bruce.connor.am@gmail.com")
 		("Hugo Duncan" . "hugo@hugoduncan.org")
 		("Steve Purcell" . "steve@sanityinc.com"))
-      (:commit . "7e6e19c57f775b159aa0a6622bbfa079d599646b"))])
+      (:commit . "91b320b0c87eb543877b7b3e222f996474b64ce4"))])
  (clojure-mode
   . [(5 23 0 0 20260325 143544) ((emacs (27 1)))
      "Major mode for Clojure code" tar
@@ -1288,7 +1288,7 @@
       (:authors ("Jon Oddie" . "j.j.oddie@gmail.com"))
       (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit
-  . [(4 5 0 0 20260520 204514)
+  . [(4 5 0 0 20260520 259)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (magit-section (4 5)) (seq (2 24)) (transient (0 13))
       (with-editor (3 4)))
@@ -1300,9 +1300,9 @@
        ("Kyle Meyer" . "kyle@kyleam.com"))
       (:authors ("Marius Vollmer" . "marius.vollmer@gmail.com")
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "c8845987fa6ccb2d89369386766b68d8a6f093d0"))])
+      (:commit . "a9fd4a914ba87da7258fd26946693f282a407885"))])
  (magit-section
-  . [(4 5 0 0 20260520 204514)
+  . [(4 5 0 0 20260520 259)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (seq (2 24)))
      "Sections for read-only buffers" tar
@@ -1311,7 +1311,7 @@
 		   . "emacs.magit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "c8845987fa6ccb2d89369386766b68d8a6f093d0"))])
+      (:commit . "a9fd4a914ba87da7258fd26946693f282a407885"))])
  (markdown-mode
   . [(2 90 20260425 95459) ((emacs (28 1)))
      "Major mode for Markdown-formatted text" tar
@@ -2234,12 +2234,12 @@
       (:authors ("Andrea Crotti" . "andrea.crotti.0@gmail.com"))
       (:commit . "606ee926df6839243098de6d71332a697518cb86"))])
  (zenburn-theme
-  . [(2 9 0 0 20260528 1) nil "A low contrast color theme for Emacs."
+  . [(2 9 0 0 20260528 17) nil "A low contrast color theme for Emacs."
      tar
      ((:url . "https://github.com/bbatsov/zenburn-emacs")
       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.com")
       (:authors ("Bozhidar Batsov" . "bozhidar@batsov.com"))
-      (:commit . "b19f2c8b3db3b26de20f5f0c29479be85e5d1f3f"))])
+      (:commit . "afcde4813343cfcf1321cf9298b5ac0ebb89905b"))])
  (zig-mode
   . [(0 0 8 0 20251128 25646) ((emacs (26 1)) (reformatter (0 6)))
      "A major mode for the Zig programming language" tar
