@@ -73,14 +73,14 @@
       (:url . "https://elpa.gnu.org/packages/advice-patch.html")
       (:commit . "2990c6647ffe1c188b84ade4da0314d2d9430437"))])
  (aggressive-completion
-  . [(1 7 0 20260527 2) ((emacs (27 1)))
+  . [(1 8 0 20260529 0) ((emacs (27 1)))
      "Automatic minibuffer completion" tar
      ((:keywords "minibuffer" "completion")
       (:maintainer "Tassilo Horn" . "tsdh@gnu.org")
       (:authors ("Tassilo Horn" . "tsdh@gnu.org"))
       (:url
        . "https://elpa.gnu.org/packages/aggressive-completion.html")
-      (:commit . "5f0fd4e57f5bc9563db65cd5ba13d6c1bedf4a4a"))])
+      (:commit . "c1ead4f049f4cfc9a3a9f8fa567a83a4caa0614d"))])
  (aggressive-indent
   . [(1 10 0 0 20230112 100030) ((emacs (24 3)))
      "Minor mode to aggressively keep your code always indented" tar
@@ -1144,7 +1144,7 @@
       (:url . "https://elpa.gnu.org/packages/elisp-benchmarks.html")
       (:commit . "583951606e4e19fd53acd8c5691210b9acb524d7"))])
  (ellama
-  . [(1 25 0 0 20260525 230212)
+  . [(1 26 0 0 20260528 1)
      ((emacs (28 1)) (llm (0 30 2)) (plz (0 8)) (transient (0 7))
       (compat (29 1)) (yaml (1 2 3)))
      "Tool for interacting with LLMs" tar
@@ -1152,7 +1152,7 @@
       (:keywords "help" "local" "tools")
       (:maintainer "Sergey Kostyaev" . "sskostyaev@gmail.com")
       (:authors ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
-      (:commit . "4837d1ce0f70a0f13741377438fd73a7631de45d"))])
+      (:commit . "bbee2a0d5badabb447583e54d436bc300de4b791"))])
  (emacs-gc-stats
   . [(1 4 2 0 20231206 152254) ((emacs (25 1)))
      "Collect Emacs GC statistics" tar
@@ -1403,13 +1403,13 @@
       (:authors ("Protesilaos" . "info@protesilaos.com"))
       (:commit . "3fc26bc0337f2067dd5f89aa1a506067c00ceb92"))])
  (forgejo
-  . [(0 2 2 0 20260527 13) ((emacs (29 1)) (keymap-popup (0 2 1)))
+  . [(0 2 3 0 20260529 0) ((emacs (29 1)) (keymap-popup (0 2 1)))
      "Emacs Forgejo Front-end" tar
      ((:url . "https://codeberg.org/thanosapollo/emacs-forgejo")
       (:keywords "tools" "vc" "git" "forgejo")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Thanos Apollo" . "public@thanosapollo.org"))
-      (:commit . "ed750dca802ec14ddcae532c6c44154c45432f3d"))])
+      (:commit . "0fbe243481ec3208fc253aaed17ef06f83fb23b0"))])
  (frame-tabs
   . [(1 1 0 20221221 75627) nil "show buffer tabs in side window" tar
      ((:keywords "frames" "tabs")
@@ -1443,13 +1443,12 @@
       (:authors ("Yuan Fu" . "casouri@gmail.com"))
       (:commit . "d7c243ac3be2a67986f53f3dc31ba1426e82b771"))])
  (futur
-  . [(1 7 0 20260525 165356) nil "Future/promise-based async library"
-     tar
+  . [(1 7 0 20260528 7) nil "Future/promise-based async library" tar
      ((:keywords "concurrency" "async" "promises" "futures")
       (:maintainer "Stefan Monnier" . "monnier@iro.umontreal.ca")
       (:authors ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
       (:url . "https://elpa.gnu.org/packages/futur.html")
-      (:commit . "0b332763e511b3c4af7eb1b2d62f88fcbdf02b57"))])
+      (:commit . "2a2e5129759b9bdf9f6ee05e06f0db354f08f438"))])
  (gcmh
   . [(0 2 1 0 20201116 225142) ((emacs (24)))
      "the Garbage Collector Magic Hack" tar
@@ -1685,7 +1684,7 @@
       (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com"))
       (:commit . "84a9db01eff1fcc52ad054c5ad3c22316739573f"))])
  (hyperbole
-  . [(9 0 20 20260525 1117) ((emacs (28)))
+  . [(9 0 20 20260528 1122) ((emacs (28)))
      "GNU Hyperbole: The Everyday Hypertextual Information Manager"
      tar
      ((:url . "http://www.gnu.org/software/hyperbole")
@@ -1694,7 +1693,7 @@
 		 "outlines" "tools" "wp")
       (:maintainer "Robert Weiner" . "rsw@gnu.org")
       (:authors ("Robert Weiner" . "rsw@gnu.org"))
-      (:commit . "242dbb232b6cd812a1f66cabb12059f429e735a9"))])
+      (:commit . "9ef5fb795c68f2881911a90a79f399efef9e32d6"))])
  (idlwave
   . [(6 5 1 0 20240523 142720) nil "IDL editing mode for GNU Emacs"
      tar
@@ -2006,14 +2005,14 @@
       (:authors ("Sean Whitton" . "spwhitton@spwhitton.name"))
       (:commit . "00b8f65effe4f2673e6450d70000644b266aa78a"))])
  (llm
-  . [(0 31 0 0 20260523 3403)
+  . [(0 31 0 0 20260529 1)
      ((emacs (28 1)) (plz (0 8)) (plz-event-source (0 1 1))
       (plz-media-type (0 2 1)) (compat (29 1)))
      "Interface to pluggable llm backends" tar
      ((:url . "https://github.com/ahyatt/llm")
       (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
       (:authors ("Andrew Hyatt" . "ahyatt@gmail.com"))
-      (:commit . "8bb1d42ab7e112a535a608c7a2538350f469e7b9"))])
+      (:commit . "898c475cd320ca70cc4363ddad3186dddf5f44a1"))])
  (lmc
   . [(1 4 0 20230105 113402) ((emacs (24)) (cl-lib (0 5)))
      "Little Man Computer in Elisp" tar
@@ -3874,13 +3873,13 @@
       (:authors ("Yuan Fu" . "casouri@gmail.com"))
       (:commit . "e0af8c5845abf884a644215a9cac37f39c13cd5a"))])
  (wcheck-mode
-  . [(2026 0 20260425 170346) nil
-     "General interface for text checkers" tar
+  . [(2026 5 0 20260529 0) nil "General interface for text checkers"
+     tar
      ((:url . "https://github.com/tlikonen/wcheck-mode")
       (:keywords "text" "spell" "check" "languages" "ispell")
       (:maintainer "Teemu Likonen" . "tlikonen@iki.fi")
       (:authors ("Teemu Likonen" . "tlikonen@iki.fi"))
-      (:commit . "d9cea40a86751e646bfeb06826454c94e18bb2d7"))])
+      (:commit . "a5312ed2638a90a6e5340ec3315d9fa8eadc1fa6"))])
  (wconf
   . [(0 2 1 0 20201202 220257) ((emacs (24 4)))
      "Minimal window layout manager" tar
