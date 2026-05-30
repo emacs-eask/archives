@@ -1220,7 +1220,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260527 1304)
+	      [(0 1 0 1 -4 20260530 1130)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1229,8 +1229,8 @@
 		 (0 12 2)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "2e288326f43397008b04d3da0724acf5afab9283")
-		(:revdesc . "2e288326f433"))])
+		(:commit . "aa54cbd0fd8cc32e002fa46d572af50cce074cc3")
+		(:revdesc . "aa54cbd0fd8c"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -8847,13 +8847,13 @@
 		  ("András Simonyi" . "andras.simonyi@gmail.com"))
 		 (:maintainer "András Simonyi" . "andras.simonyi@gmail.com"))])
  (citre .
-	[(0 1 0 1 -4 20260519 1607)
+	[(0 1 0 1 -4 20260530 602)
 	 ((emacs
 	   (26 1)))
 	 "Superior code reading & auto-completion tool with pluggable backends" tar
 	 ((:url . "https://github.com/universal-ctags/citre")
-	  (:commit . "db5a22136c2406a9a415d87cb2e8a2de277b92a2")
-	  (:revdesc . "db5a22136c24")
+	  (:commit . "be0d9c6dc9b1ac67d76fc7ed315f2369d5c3bde8")
+	  (:revdesc . "be0d9c6dc9b1")
 	  (:keywords "convenience" "tools")
 	  (:authors
 	   ("Hao Wang" . "amaikinono@gmail.com"))
@@ -16025,7 +16025,7 @@
 	    ("Bernhard Rotter" . "bernhard@b-rotter.de"))
 	   (:maintainer "Bernhard Rotter" . "bernhard@b-rotter.de"))])
  (difflib .
-	  [(0 3 7 1 -4 20210224 2242)
+	  [(0 1 0 1 -4 20260530 536)
 	   ((emacs
 	     (24 4))
 	    (cl-generic
@@ -16035,9 +16035,9 @@
 	    (s
 	     (1 12 0)))
 	   "Helpers for computing deltas between sequences" tar
-	   ((:url . "https://github.com/dieggsy/difflib.el")
-	    (:commit . "646fc4388274fe765bbf4661e17a24e4d081250c")
-	    (:revdesc . "646fc4388274")
+	   ((:url . "https://sr.ht/~dieggsy/difflib.el")
+	    (:commit . "9efb87bcf430600e8beb1a821dc78c1088a081e7")
+	    (:revdesc . "9efb87bcf430")
 	    (:keywords "matching" "tools" "string")
 	    (:authors
 	     ("Diego A. Mundo" . "dieggsy@pm.me"))
@@ -23277,15 +23277,15 @@
 		  ("Marcin Kolenda" . "https://gitlab.com/cestrand"))
 		 (:maintainer "Marcin Kolenda" . "https://gitlab.com/cestrand"))])
  (esh-autosuggest .
-		  [(0 1 0 1 -4 20260520 316)
+		  [(0 1 0 1 -4 20260530 527)
 		   ((emacs
 		     (24 4))
 		    (company
 		     (0 9 4)))
 		   "History autosuggestions for eshell" tar
-		   ((:url . "https://github.com/dieggsy/esh-autosuggest")
-		    (:commit . "80a42e490f55beb803f3c729d76895af991a0a69")
-		    (:revdesc . "80a42e490f55")
+		   ((:url . "https://sr.ht/~dieggsy/esh-autosuggest")
+		    (:commit . "40774022105ed16287fcf26553a16c4cdda5e1ab")
+		    (:revdesc . "40774022105e")
 		    (:keywords "completion" "company" "matching" "convenience" "abbrev")
 		    (:authors
 		     ("Diego A. Mundo" . "dieggsy@pm.me"))
@@ -23925,7 +23925,7 @@
 	 ("Jason M23" . "jasonm23@gmail.com"))
 	(:maintainer "Jason M23" . "jasonm23@gmail.com"))])
  (eterm-256color .
-		 [(0 3 14 1 -4 20210224 2241)
+		 [(0 1 0 1 -4 20260530 531)
 		  ((emacs
 		    (24 4))
 		   (xterm-color
@@ -23933,9 +23933,9 @@
 		   (f
 		    (0 19 0)))
 		  "Customizable 256 colors for term" tar
-		  ((:url . "https://github.com/dieggsy/eterm-256color")
-		   (:commit . "05fdbd336a888a0f4068578a6d385d8bf812a4e8")
-		   (:revdesc . "05fdbd336a88")
+		  ((:url . "https://sr.ht/~dieggsy/eterm-256color")
+		   (:commit . "868eeaa958de1deab690fe8ac8f5477452ccdb6a")
+		   (:revdesc . "868eeaa958de")
 		   (:keywords "faces")
 		   (:authors
 		    ("Diego A. Mundo" . "dieggsy@pm.me"))
@@ -35435,13 +35435,13 @@
 	       ("Wilfred Hughes" . "me@wilfred.me.uk"))
 	      (:maintainer "John Allen" . "jallen@fb.com"))])
  (hacker-typer .
-	       [(1 0 6 1 -4 20170206 1520)
+	       [(0 1 0 1 -4 20260530 526)
 		((emacs
 		  (24)))
 		"Pretend to write code like a pro" tar
-		((:url . "https://github.com/therockmandolinist/emacs-hacker-typer")
-		 (:commit . "d5a23714a4ccc5071580622f278597d5973f40bd")
-		 (:revdesc . "d5a23714a4cc")
+		((:url . "https://sr.ht/~dieggsy/emacs-hacker-typer")
+		 (:commit . "3f15d0cfe7636d5b32cbc882f23d5a7b61a86ae7")
+		 (:revdesc . "3f15d0cfe763")
 		 (:keywords "hacker" "typer" "multimedia" "games")
 		 (:authors
 		  ("Diego A. Mundo" . "diegoamundo@gmail.com"))
@@ -50815,8 +50815,8 @@
 	  (30 1)))
 	"Lightweight modal editing" tar
 	((:url . "https://codeberg.org/ideasman42/emacs-meep")
-	 (:commit . "a4a8f4c8960cc2884f239ca7901102e54fedc8e2")
-	 (:revdesc . "a4a8f4c8960c")
+	 (:commit . "d0d937067519054a401e952ae321a1241c229331")
+	 (:revdesc . "d0d937067519")
 	 (:keywords "convenience" "modal-editing")
 	 (:authors
 	  ("Campbell Barton" . "ideasman42@gmail.com"))
@@ -55541,13 +55541,13 @@
 	   ("Martijn Terpstra" . "bigmartijn@gmail.com"))
 	  (:maintainer "Martijn Terpstra" . "bigmartijn@gmail.com"))])
  (nucleo-completion .
-		    [(0 1 0 1 -4 20260522 1457)
+		    [(0 1 0 1 -4 20260530 1008)
 		     ((emacs
 		       (27 1)))
 		     "Nucleo-backed completion style" tar
 		     ((:url . "https://github.com/kn66/nucleo-completion.el")
-		      (:commit . "a0669e2676c516544e141c2591fa80e27bf2d659")
-		      (:revdesc . "a0669e2676c5")
+		      (:commit . "0f07a5bcd384716a3b79ab9e82005bb54f721122")
+		      (:revdesc . "0f07a5bcd384")
 		      (:keywords "matching" "convenience")
 		      (:authors
 		       ("Nobu" . "https://github.com/kn66"))
@@ -82232,13 +82232,13 @@
 	    ("Swarnim Barapatre" . "swarnim14.9@hotmail.com"))
 	   (:maintainer "Swarnim Barapatre" . "swarnim14.9@hotmail.com"))])
  (turing-machine .
-		 [(0 2 0 1 -4 20180222 438)
+		 [(0 1 0 1 -4 20260530 523)
 		  ((emacs
 		    (24 4)))
 		  "Single-tape Turing machine simulator" tar
-		  ((:url . "https://github.com/therockmandolinist/turing-machine")
-		   (:commit . "ad1dccc9c445f9e4465e1c67cbbfea9583153047")
-		   (:revdesc . "ad1dccc9c445")
+		  ((:url . "https://sr.ht/~dieggsy/turing-machine")
+		   (:commit . "165f868d5b47b93ca00bc73b0055cdcd7696449d")
+		   (:revdesc . "165f868d5b47")
 		   (:keywords "turing" "machine" "simulation")
 		   (:authors
 		    ("Diego A. Mundo" . "diegoamundo@gmail.com"))
