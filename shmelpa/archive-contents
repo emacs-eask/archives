@@ -1220,7 +1220,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260531 1502)
+	      [(0 1 0 1 -4 20260531 1658)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1229,8 +1229,8 @@
 		 (0 12 2)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "0fec1976d1f71cf0938538b8182817f3eeb389ff")
-		(:revdesc . "0fec1976d1f7"))])
+		(:commit . "6f2e6dcc002c71ea342663ed54b80c5d35a49e85")
+		(:revdesc . "6f2e6dcc002c"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -21363,6 +21363,20 @@
 	    (:maintainers
 	     ("Youngjoo Lee" . "youngker@gmail.com"))
 	    (:maintainer "Youngjoo Lee" . "youngker@gmail.com"))])
+ (elot .
+       [(0 1 0 1 -4 20260525 1934)
+	((emacs
+	  (30 1)))
+	"Emacs Literate Ontology Tool (ELOT)" tar
+	((:url . "https://github.com/johanwk/elot")
+	 (:commit . "62e4ce56610caf2336a19f23418bea819c1e36b7")
+	 (:revdesc . "62e4ce56610c")
+	 (:keywords "languages" "outlines" "tools" "org" "ontology")
+	 (:authors
+	  ("Johan W. Klüwer" . "johan.w.kluwer@gmail.com"))
+	 (:maintainers
+	  ("Johan W. Klüwer" . "johan.w.kluwer@gmail.com"))
+	 (:maintainer "Johan W. Klüwer" . "johan.w.kluwer@gmail.com"))])
  (eloud .
 	[(0 1 0 1 -4 20190706 1707)
 	 ((emacs
@@ -26070,6 +26084,20 @@
        (:commit . "000009ce4adf7a57eae80512f29c4ec2a1391ce5")
        (:revdesc . "000009ce4adf")
        (:keywords "find" "file" "files" "helm" "fast" "finder"))])
+ (f90-ts-mode .
+	      [(0 1 0 1 -4 20260526 1734)
+	       ((emacs
+		 (30 1)))
+	       "Tree-sitter based Fortran 90 mode" tar
+	       ((:url . "https://github.com/mscfd/emacs-f90-ts-mode")
+		(:commit . "592b6f3809f03ad82ba9db5ea1d7f96d5f6daa14")
+		(:revdesc . "592b6f3809f0")
+		(:keywords "languages" "treesitter" "fortran")
+		(:authors
+		 ("Martin Stein" . "mscfd@gmx.net"))
+		(:maintainers
+		 ("Martin Stein" . "mscfd@gmx.net"))
+		(:maintainer "Martin Stein" . "mscfd@gmx.net"))])
  (fabric .
 	 [(0 2 15 1 -4 20171116 656)
 	  nil "Launch Fabric using Emacs" tar
@@ -48870,6 +48898,15 @@
 	     (:maintainers
 	      ("Phillip Lord" . "phillip.lord@russet.rg.uk"))
 	     (:maintainer "Phillip Lord" . "phillip.lord@russet.rg.uk"))])
+ (mac-ime .
+	  [(0 1 0 1 -4 20260531 1044)
+	   ((emacs
+	     (27 1)))
+	   "Seamless macOS IME integration without any IME patches" tar
+	   ((:url . "https://github.com/ma0001/mac-ime")
+	    (:commit . "cf7b6001b4fb5d33fa259364cfa8ec5f6aa73fb3")
+	    (:revdesc . "cf7b6001b4fb")
+	    (:keywords "i18n" "convenience"))])
  (mac-pseudo-daemon .
 		    [(2 2 1 -4 20211208 138)
 		     ((cl-lib
@@ -63094,6 +63131,22 @@
 	    (:maintainers
 	     ("Naoya Yamashita" . "conao3@gmail.com"))
 	    (:maintainer "Naoya Yamashita" . "conao3@gmail.com"))])
+ (ox-zola .
+	  [(0 1 0 1 -4 20260506 1952)
+	   ((emacs
+	     (27 2))
+	    (ox-hugo
+	     (0 8)))
+	   "Org export to Zola static site generator" tar
+	   ((:url . "https://github.com/gicrisf/ox-zola")
+	    (:commit . "c6ab97d53b471ed53803e44169ac5d3766d72cbe")
+	    (:revdesc . "c6ab97d53b47")
+	    (:keywords "wp" "hypermedia" "org" "zola")
+	    (:authors
+	     ("Giovanni Crisalfi" . "giovanni.crisalfi@protonmail.com"))
+	    (:maintainers
+	     ("Giovanni Crisalfi" . "giovanni.crisalfi@protonmail.com"))
+	    (:maintainer "Giovanni Crisalfi" . "giovanni.crisalfi@protonmail.com"))])
  (p-search .
 	   [(0 1 0 1 -4 20250802 538)
 	    ((emacs
@@ -64908,6 +64961,17 @@
 			    (:maintainers
 			     ("J Irving" . "j@lollyshouse.ca"))
 			    (:maintainer "J Irving" . "j@lollyshouse.ca"))])
+ (phony .
+	[(0 1 0 1 -4 20260531 1207)
+	 ((emacs
+	   (29 1))
+	  (simulacrum
+	   (1 0 0)))
+	 "Speech bindings for Elisp" tar
+	 ((:url . "https://github.com/ErikPrantare/phony.el")
+	  (:commit . "c8d84d80dba14e4d93bc1a1f0d89b0e36ea16cc7")
+	  (:revdesc . "c8d84d80dba1")
+	  (:keywords "files"))])
  (php-boris .
 	    [(0 0 1 1 -4 20130527 821)
 	     nil "Run boris php REPL" tar
