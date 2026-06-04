@@ -1,12 +1,12 @@
 (1
  (adoc-mode
-  . [(0 9 0 0 20260604 7) ((emacs (28 1)))
+  . [(0 9 0 0 20260604 14) ((emacs (28 1)))
      "a major-mode for editing AsciiDoc files" tar
      ((:url . "https://github.com/bbatsov/adoc-mode")
       (:keywords "asciidoc" "text")
       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
       (:authors ("Florian Kaufmann" . "sensorflo@gmail.com"))
-      (:commit . "d1a03364d9dfd388a9789a417b623ddec15dc43a"))])
+      (:commit . "0f5e2f8579316d688bf68b88d0d6fcc38a6bfa39"))])
  (afternoon-theme
   . [(0 1 0 20140104 185934) ((emacs (24 1)))
      "Dark color theme with a deep blue background" tar
@@ -221,7 +221,7 @@
       (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
       (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider
-  . [(1 22 0 20260602 150)
+  . [(1 22 0 20260604 152)
      ((emacs (28)) (clojure-mode (5 19)) (compat (30))
       (parseedn (1 2 1)) (queue (0 2)) (spinner (1 7)) (seq (2 22))
       (sesman (0 3 2)) (transient (0 4 1)))
@@ -235,7 +235,7 @@
 		("Artur Malabarba" . "bruce.connor.am@gmail.com")
 		("Hugo Duncan" . "hugo@hugoduncan.org")
 		("Steve Purcell" . "steve@sanityinc.com"))
-      (:commit . "989e2a69a7cc303f4df43077fe51c7b646565ef8"))])
+      (:commit . "bdc0d9bb69bc85ca6b73680aafe3edc0cfac6078"))])
  (clojure-mode
   . [(5 23 0 0 20260325 143544) ((emacs (27 1)))
      "Major mode for Clojure code" tar
@@ -705,14 +705,14 @@
       (:authors ("Marty Hiatt" . "martianh@disroot.org"))
       (:commit . "4832dcfcd167d1975bb44a024881c75fef64182e"))])
  (flamegraph
-  . [(0 2 0 20260603 0) ((emacs (30 1)))
+  . [(0 2 0 20260604 1) ((emacs (30 1)))
      "Flame graphs for Emacs's native profiler and folded stacks files"
      tar
      ((:url . "https://github.com/dgutov/emacs-flamegraph/")
       (:keywords "lisp" "tools")
       (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
       (:authors ("Dmitry Gutov" . "dmitry@gutov.dev"))
-      (:commit . "84e57b17520edbadbdca17e0b2dba50c56134d74"))])
+      (:commit . "561efdc1b53507403d4f106c84833c6feae599f3"))])
  (flx
   . [(0 6 2 0 20240204 195634) ((cl-lib (0 3)))
      "fuzzy matching with good sorting" tar
@@ -1159,14 +1159,14 @@
       (:keywords "j" "languages")
       (:commit . "e49ef0692d73b320c281e40d9fa96b2c17073695"))])
  (jabber
-  . [(0 10 10 0 20260530 0)
+  . [(0 10 10 0 20260604 3)
      ((emacs (29 1)) (fsm (0 2 0)) (keymap-popup (0 2)))
      "XMPP/Jabber client" tar
      ((:url . "https://codeberg.org/emacs-jabber/emacs-jabber")
       (:keywords "comm")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Magnus Henoch" . "mange@freemail.hu"))
-      (:commit . "d4960e5ed95bdb313e920b9d344ee85168cfa48d"))])
+      (:commit . "ac15ff345bc09089dc97c9211d87951f954079d9"))])
  (jade-mode
   . [(1 0 1 0 20211019 161323) nil
      "Major mode for editing .jade files" tar
@@ -1297,7 +1297,7 @@
       (:authors ("Jon Oddie" . "j.j.oddie@gmail.com"))
       (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit
-  . [(4 5 0 0 20260603 266)
+  . [(4 5 0 0 20260604 271)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (magit-section (4 5)) (seq (2 24)) (transient (0 13))
       (with-editor (3 4)))
@@ -1309,9 +1309,9 @@
        ("Kyle Meyer" . "kyle@kyleam.com"))
       (:authors ("Marius Vollmer" . "marius.vollmer@gmail.com")
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "d13e518b0bd97eb9e59aa7b0fa6401996ac893ef"))])
+      (:commit . "449d68e5db685ab95094df0db76b056e4d8a126f"))])
  (magit-section
-  . [(4 5 0 0 20260603 266)
+  . [(4 5 0 0 20260604 271)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (seq (2 24)))
      "Sections for read-only buffers" tar
@@ -1320,7 +1320,7 @@
 		   . "emacs.magit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "d13e518b0bd97eb9e59aa7b0fa6401996ac893ef"))])
+      (:commit . "449d68e5db685ab95094df0db76b056e4d8a126f"))])
  (markdown-mode
   . [(2 90 20260425 95459) ((emacs (28 1)))
      "Major mode for Markdown-formatted text" tar
@@ -1644,13 +1644,13 @@
       (:authors ("Frédéric Perrin" . "fredericperrinreselfr"))
       (:commit . "ae60e11c96cc1767f05ce0cab6a917240ce2e37a"))])
  (projectile
-  . [(2 10 0 20260601 110) ((emacs (27 1)) (compat (30)))
+  . [(2 10 0 20260604 112) ((emacs (27 1)) (compat (30)))
      "Manage and navigate projects in Emacs easily" tar
      ((:url . "https://github.com/bbatsov/projectile")
       (:keywords "project" "convenience")
       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
       (:authors ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
-      (:commit . "4c72d6767de9aef1182d72ddfc0482cc98b0b8fd"))])
+      (:commit . "6449fb0465587c757c1fbf1a64bb4ba420a78bfa"))])
  (proof-general
   . [(4 60 20260124 135141) ((emacs (25 2)))
      "A generic Emacs interface for proof assistants" tar
