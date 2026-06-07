@@ -1342,7 +1342,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260605 312)
+	  [(0 1 0 1 -4 20260607 1607)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1351,8 +1351,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "c8838a691160987744493db80aff07df3436c10e")
-	    (:revdesc . "c8838a691160")
+	    (:commit . "788fd463686cd0f6d4e1cc3d2f0800e7384eeedf")
+	    (:revdesc . "788fd463686c")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -5379,7 +5379,7 @@
 	   ("Eki Zhang" . "liuyinz95@gmail.com"))
 	  (:maintainer "Eki Zhang" . "liuyinz95@gmail.com"))])
  (biome .
-	[(0 1 0 1 -4 20250623 1954)
+	[(0 1 0 1 -4 20260607 1500)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -5392,8 +5392,8 @@
 	   (29 1 4 1)))
 	 "Bountiful Interface to Open Meteo for Emacs" tar
 	 ((:url . "https://github.com/SqrtMinusOne/biome")
-	  (:commit . "b26c0a6ec533ba5c3524721af224708de9362979")
-	  (:revdesc . "b26c0a6ec533")
+	  (:commit . "77a94f3c5210b80b63d5002c4780e542cd98a65f")
+	  (:revdesc . "77a94f3c5210")
 	  (:authors
 	   ("Korytov Pavel" . "thexcloud@gmail.com"))
 	  (:maintainers
@@ -5718,6 +5718,26 @@
 	 (:maintainers
 	  ("Sergio Pastor Pérez" . "sergio.pastorperez@gmail.com"))
 	 (:maintainer "Sergio Pastor Pérez" . "sergio.pastorperez@gmail.com"))])
+ (bluesky .
+	  [(0 1 0 1 -4 20260607 58)
+	   ((emacs
+	     (30 1))
+	    (plz
+	     (0 9 0))
+	    (futur
+	     (1 7))
+	    (vui
+	     (1 0 0)))
+	   "A Bluesky client" tar
+	   ((:url . "https://github.com/ahyatt/emacs-bluesky")
+	    (:commit . "9e08a916a921526651a40165924ce3ab77047e17")
+	    (:revdesc . "9e08a916a921")
+	    (:keywords "outlines" "hypermedia")
+	    (:authors
+	     ("Andrew Hyatt" . "ahyatt@gmail.com"))
+	    (:maintainers
+	     ("Andrew Hyatt" . "ahyatt@gmail.com"))
+	    (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com"))])
  (bluesound .
 	    [(0 1 0 1 -4 20251022 1406)
 	     ((emacs
@@ -7863,7 +7883,7 @@
 	       ("Andrew Myers" . "am2605@gmail.com"))
 	      (:maintainer "Andrew Myers" . "am2605@gmail.com"))])
  (cfn-mode .
-	   [(0 1 0 1 -4 20260531 807)
+	   [(0 1 0 1 -4 20260607 807)
 	    ((emacs
 	      (27 0))
 	     (f
@@ -7874,8 +7894,8 @@
 	      (0 0 13)))
 	    "AWS cloudformation mode" tar
 	    ((:url . "https://gitlab.com/worr/cfn-mode")
-	     (:commit . "2cf2ddb9c8e7a0e909b3606ce65f7f6e3c485920")
-	     (:revdesc . "2cf2ddb9c8e7")
+	     (:commit . "b9dcb0970e87be36c1e597481c76141c9892e44a")
+	     (:revdesc . "b9dcb0970e87")
 	     (:keywords "convenience" "languages" "tools")
 	     (:authors
 	      ("William Orr" . "will@worrbase.com"))
@@ -14147,6 +14167,20 @@
 		   (:maintainers
 		    ("Peter Hoeg" . "(peter@hoeg.com)"))
 		   (:maintainer "Peter Hoeg" . "(peter@hoeg.com)"))])
+ (cui .
+      [(0 1 0 1 -4 20260607 231)
+       ((emacs
+	 (29 1)))
+       "AI-LLM chat blocks for org-mode" tar
+       ((:url . "https://codeberg.org/Anoncheg/emacs-cui")
+	(:commit . "b1975a60f2c04e39d843e0e2aed1cee04838fea5")
+	(:revdesc . "b1975a60f2c0")
+	(:keywords "org" "comm" "url" "link")
+	(:authors
+	 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
+	(:maintainers
+	 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
+	(:maintainer nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))])
  (curl-to-elisp .
 		[(0 1 -4 20201124 1012)
 		 ((emacs
@@ -15682,6 +15716,20 @@
 		    (:maintainers
 		     ("Morten Slot Kristensen" . "mskATnullpointerDOTdk"))
 		    (:maintainer "Morten Slot Kristensen" . "mskATnullpointerDOTdk"))])
+ (desert-theme .
+	       [(0 1 0 1 -4 20260606 1836)
+		((emacs
+		  (27 1)))
+		"A warm earthy port of Vim's desert theme" tar
+		((:url . "https://github.com/bkc39/desert-theme")
+		 (:commit . "a334abfe4d624cb37bb4a2dc309f8623f42b74d1")
+		 (:revdesc . "a334abfe4d62")
+		 (:keywords "faces" "theme" "vim" "desert")
+		 (:authors
+		  ("Ben Carriel" . "notthefather@pm.me"))
+		 (:maintainers
+		  ("Ben Carriel" . "notthefather@pm.me"))
+		 (:maintainer "Ben Carriel" . "notthefather@pm.me"))])
  (desktop+ .
 	   [(0 1 1 1 -4 20170107 2132)
 	    ((emacs
@@ -15993,15 +16041,15 @@
 		   ("Campbell Barton" . "ideasman42@gmail.com"))
 		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
  (diff-hl .
-	  [(0 1 0 1 -4 20260607 1338)
+	  [(0 1 0 1 -4 20260607 1545)
 	   ((cl-lib
 	     (0 2))
 	    (emacs
 	     (27 1)))
 	   "Highlight uncommitted changes using VC" tar
 	   ((:url . "https://github.com/dgutov/diff-hl")
-	    (:commit . "739c8bb26a0434fd8a70f439b0ba6dd1fcb0be93")
-	    (:revdesc . "739c8bb26a04")
+	    (:commit . "8348feb89b133d9064bab8b0c4d57aab63ea5f1a")
+	    (:revdesc . "8348feb89b13")
 	    (:keywords "vc" "diff")
 	    (:authors
 	     ("Dmitry Gutov" . "dmitry@gutov.dev"))
@@ -47058,13 +47106,13 @@
 	       ("Fox Kiester" . "noct@posteo.net"))
 	      (:maintainer "Fox Kiester" . "noct@posteo.net"))])
  (linkin-org .
-	     [(0 1 0 1 -4 20260313 2013)
+	     [(0 1 0 1 -4 20260607 1601)
 	      ((emacs
 		(30 1)))
 	      "A workflow with fast, reliable links" tar
 	      ((:url . "https://github.com/Judafa/linkin-org")
-	       (:commit . "daab39c4e3dc5d77c55630e26f8b0339ae218dd1")
-	       (:revdesc . "daab39c4e3dc")
+	       (:commit . "a6ee3cbdff0d9c74b702131220937c1d93dd81ef")
+	       (:revdesc . "a6ee3cbdff0d")
 	       (:authors
 		("Julien Dallot" . "judafa@protonmail.com"))
 	       (:maintainers
@@ -55779,20 +55827,6 @@
 	      (:maintainers
 	       ("Guido Schmidt" . "guido.schmidt.2912@gmail.com"))
 	      (:maintainer "Guido Schmidt" . "guido.schmidt.2912@gmail.com"))])
- (oai .
-      [(0 1 0 1 -4 20260605 649)
-       ((emacs
-	 (29 1)))
-       "AI-LLM chat blocks for org-mode" tar
-       ((:url . "https://codeberg.org/Anoncheg/emacs-oai")
-	(:commit . "c3aa204f5538d6b125fb86372ba5d6baeb3d35a0")
-	(:revdesc . "c3aa204f5538")
-	(:keywords "org" "comm" "url" "link")
-	(:authors
-	 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
-	(:maintainers
-	 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
-	(:maintainer nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))])
  (oauth .
 	[(1 11 1 -4 20230706 2026)
 	 ((emacs
@@ -75013,6 +75047,20 @@
 	  (:maintainers
 	   ("yuya.minami" . "yuya.minami@yuyaminami-no-MacBook-Pro.local"))
 	  (:maintainer "yuya.minami" . "yuya.minami@yuyaminami-no-MacBook-Pro.local"))])
+ (sleek-modeline .
+		 [(0 1 0 1 -4 20260531 1902)
+		  ((emacs
+		    (29 1)))
+		  "Minimal and elegant modeline" tar
+		  ((:url . "https://github.com/abidanBrito/sleek-modeline")
+		   (:commit . "ac3335237397d01cddc4d9534e9da682e733d849")
+		   (:revdesc . "ac3335237397")
+		   (:keywords "mode-line" "faces")
+		   (:authors
+		    ("Abidán Brito Clavijo" . "abidan.brito@gmail.com"))
+		   (:maintainers
+		    ("Abidán Brito Clavijo" . "abidan.brito@gmail.com"))
+		   (:maintainer "Abidán Brito Clavijo" . "abidan.brito@gmail.com"))])
  (slideview .
 	    [(0 1 0 1 -4 20250121 324)
 	     ((emacs
@@ -80255,15 +80303,15 @@
 	     (:revdesc . "b9b6319464bd")
 	     (:keywords "tools" "ticktick" "org" "tasks" "todo"))])
  (tidal .
-	[(0 1 0 1 -4 20260109 1704)
+	[(0 1 0 1 -4 20260607 1559)
 	 ((haskell-mode
 	   (16))
 	  (emacs
 	   (25 1)))
 	 "Interact with TidalCycles for live coding patterns" tar
 	 ((:url . "https://codeberg.org/uzu/tidal")
-	  (:commit . "4e444a2d5118d67a0ef7a588a2b783b39d9b1357")
-	  (:revdesc . "4e444a2d5118")
+	  (:commit . "864b8cc18efc2e999e65e676a5ec1670dbd186e9")
+	  (:revdesc . "864b8cc18efc")
 	  (:keywords "tools")
 	  (:authors
 	   (nil . "alex@slab.org"))
@@ -81674,15 +81722,15 @@
 			("Erick Navarro" . "erick@navarro.io"))
 		       (:maintainer "Erick Navarro" . "erick@navarro.io"))])
  (tree-sitter-langs .
-		    [(0 1 0 1 -4 20260601 604)
+		    [(0 1 0 1 -4 20260607 1628)
 		     ((emacs
 		       (26 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
 		     ((:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs")
-		      (:commit . "5815f3b5db338d67c7e74c032bd2567bfd9ab4b0")
-		      (:revdesc . "5815f3b5db33")
+		      (:commit . "bc49593d7c15becd1fd054c7b96a9be0f74faf61")
+		      (:revdesc . "bc49593d7c15")
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
