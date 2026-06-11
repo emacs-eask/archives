@@ -1684,7 +1684,7 @@
       (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com"))
       (:commit . "84a9db01eff1fcc52ad054c5ad3c22316739573f"))])
  (hyperbole
-  . [(9 0 20 20260609 1138) ((emacs (28)))
+  . [(9 0 20 20260611 1139) ((emacs (28)))
      "GNU Hyperbole: The Everyday Hypertextual Information Manager"
      tar
      ((:url . "http://www.gnu.org/software/hyperbole")
@@ -1693,7 +1693,15 @@
 		 "outlines" "tools" "wp")
       (:maintainer "Robert Weiner" . "rsw@gnu.org")
       (:authors ("Robert Weiner" . "rsw@gnu.org"))
-      (:commit . "8122ddbe417c58d5067ab7e3f0d9dd79210940d4"))])
+      (:commit . "b69135b92897059d91fedb54f1142cde1ce8e05f"))])
+ (ibuffer-sidebar
+  . [(0 0 1 0 20260611 35) ((emacs (29 1))) "Sidebar for `ibuffer'"
+     tar
+     ((:url . "https://github.com/jojojames/ibuffer-sidebar")
+      (:keywords "ibuffer" "files" "tools")
+      (:maintainer "James Nguyen" . "james@jojojames.com")
+      (:authors ("James Nguyen" . "james@jojojames.com"))
+      (:commit . "1673f5f03d2b4108eabe374bac57ed7b7989fc47"))])
  (idlwave
   . [(6 5 1 0 20240523 142720) nil "IDL editing mode for GNU Emacs"
      tar
@@ -2005,14 +2013,14 @@
       (:authors ("Sean Whitton" . "spwhitton@spwhitton.name"))
       (:commit . "00b8f65effe4f2673e6450d70000644b266aa78a"))])
  (llm
-  . [(0 31 0 0 20260529 1)
+  . [(0 31 0 0 20260610 2)
      ((emacs (28 1)) (plz (0 8)) (plz-event-source (0 1 1))
       (plz-media-type (0 2 1)) (compat (29 1)))
      "Interface to pluggable llm backends" tar
      ((:url . "https://github.com/ahyatt/llm")
       (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
       (:authors ("Andrew Hyatt" . "ahyatt@gmail.com"))
-      (:commit . "898c475cd320ca70cc4363ddad3186dddf5f44a1"))])
+      (:commit . "5f852b6bb303e3bb3e34af10646f54fdb854e348"))])
  (lmc
   . [(1 4 0 20230105 113402) ((emacs (24)) (cl-lib (0 5)))
      "Little Man Computer in Elisp" tar
@@ -2433,13 +2441,13 @@
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
       (:commit . "09c90d93efce4fdac52edfe8b22591b773f3e607"))])
  (org
-  . [(10 0 20260610 309) ((emacs (28 2)))
+  . [(10 0 20260611 311) ((emacs (28 2)))
      "Outline-based notes management and organizer" tar
      ((:url . "https://orgmode.org")
       (:keywords "outlines" "hypermedia" "calendar" "text")
       (:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-      (:commit . "b470d813d19e55cb90020649ae076684f1494c3b"))])
+      (:commit . "0d77abc7f6915451a271ef0b21af9bc9e359a351"))])
  (org-contacts
   . [(1 3 0 20260221 85240) ((emacs (29 1)) (org (9 7)))
      "Contacts management system for Org mode" tar

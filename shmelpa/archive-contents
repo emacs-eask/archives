@@ -2779,13 +2779,13 @@
 		 ("Lassi Kortela" . "lassi@lassi.io"))
 		(:maintainer "Lassi Kortela" . "lassi@lassi.io"))])
  (asciidoc-mode .
-		[(0 1 0 1 -4 20260605 1209)
+		[(0 1 0 1 -4 20260611 811)
 		 ((emacs
 		   (30 1)))
 		 "Major mode for AsciiDoc markup" tar
 		 ((:url . "https://github.com/bbatsov/asciidoc-mode")
-		  (:commit . "342b1833ad0f3d1654638d3d6cfd6c4bf3aee468")
-		  (:revdesc . "342b1833ad0f")
+		  (:commit . "1a19b099ce4d6068fe62e214c50507636ecba0be")
+		  (:revdesc . "1a19b099ce4d")
 		  (:keywords "text" "asciidoc" "languages" "tree-sitter")
 		  (:authors
 		   ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -5719,7 +5719,7 @@
 	  ("Sergio Pastor Pérez" . "sergio.pastorperez@gmail.com"))
 	 (:maintainer "Sergio Pastor Pérez" . "sergio.pastorperez@gmail.com"))])
  (bluesky .
-	  [(0 1 0 1 -4 20260611 24)
+	  [(0 1 0 1 -4 20260611 502)
 	   ((emacs
 	     (30 1))
 	    (plz
@@ -5730,8 +5730,8 @@
 	     (1 0 0)))
 	   "A Bluesky client" tar
 	   ((:url . "https://github.com/ahyatt/emacs-bluesky")
-	    (:commit . "3c71c95ecd8e4ffc961f701cc937df0184aebf52")
-	    (:revdesc . "3c71c95ecd8e")
+	    (:commit . "ef01cb6862c1aca93073f8726c5a7e62f1091ccc")
+	    (:revdesc . "ef01cb6862c1")
 	    (:keywords "outlines" "hypermedia")
 	    (:authors
 	     ("Andrew Hyatt" . "ahyatt@gmail.com"))
@@ -16298,13 +16298,13 @@
 		     ("Jen-Chieh" . "jcs090218@gmail.com"))
 		    (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (dimmer .
-	 [(0 1 0 1 -4 20260610 439)
+	 [(0 1 0 1 -4 20260611 611)
 	  ((emacs
 	    (27 1)))
 	  "Visually highlight the selected buffer" tar
 	  ((:url . "https://github.com/gonewest818/dimmer.el")
-	   (:commit . "2252760d2e62197ac440e68f0fbedafd2796da1d")
-	   (:revdesc . "2252760d2e62")
+	   (:commit . "4793253653d8bd50dd491b6ffadbeb0e642ea2d2")
+	   (:revdesc . "4793253653d8")
 	   (:keywords "faces" "editing"))])
  (dionysos .
 	   [(0 6 0 1 -4 20160810 1056)
@@ -36689,13 +36689,13 @@
 			 ("Tianxiang Xiong" . "tianxiang.xiong@gmail.com"))
 			(:maintainer "Tianxiang Xiong" . "tianxiang.xiong@gmail.com"))])
  (helm-dictionary .
-		  [(0 1 0 1 -4 20250227 1635)
+		  [(0 1 0 1 -4 20260611 719)
 		   ((helm
 		     (1 5 5)))
 		   "Helm source for looking up dictionaries" tar
 		   ((:url . "https://github.com/emacs-helm/helm-dictionary")
-		    (:commit . "725cc0df42ad57a7902c330065d9e8ee1216791c")
-		    (:revdesc . "725cc0df42ad")
+		    (:commit . "79eb9b8b33cb3fd8228efde146e23866b4a02652")
+		    (:revdesc . "79eb9b8b33cb")
 		    (:authors
 		     ("Titus von der Malsburg" . "malsburg@posteo.de")
 		     ("Michael Heerdegen" . "michael_heerdegen@web.de"))
@@ -40056,13 +40056,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20260609 2106)
+	    [(0 1 0 1 -4 20260611 649)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "8122ddbe417c58d5067ab7e3f0d9dd79210940d4")
-	      (:revdesc . "8122ddbe417c")
+	      (:commit . "b69135b92897059d91fedb54f1142cde1ce8e05f")
+	      (:revdesc . "b69135b92897")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -51445,13 +51445,11 @@
 		      ("Saúl Gutiérrez" . "me@sggc.me"))
 		     (:maintainer "Saúl Gutiérrez" . "me@sggc.me"))])
  (meyvn .
-	[(0 1 0 1 -4 20250815 2140)
+	[(0 1 0 1 -4 20260611 354)
 	 ((emacs
-	   (25 1))
+	   (28 1))
 	  (cider
 	   (0 23))
-	  (projectile
-	   (2 1))
 	  (s
 	   (1 12))
 	  (dash
@@ -51464,8 +51462,8 @@
 	   (0 12)))
 	 "Meyvn client" tar
 	 ((:url . "https://github.com/danielsz/meyvn-el")
-	  (:commit . "5380626e327b7a48531c4a652bab4896ba179312")
-	  (:revdesc . "5380626e327b")
+	  (:commit . "48c12b8d7d79c1b35d54d195d1ce4c7113ef5215")
+	  (:revdesc . "48c12b8d7d79")
 	  (:authors
 	   ("Daniel Szmulewicz" . "daniel.szmulewicz@gmail.com"))
 	  (:maintainers
@@ -59322,13 +59320,13 @@
 		("stardiviner" . "numbchild@gmail.com"))
 	       (:maintainer "stardiviner" . "numbchild@gmail.com"))])
  (org-lark .
-	   [(0 1 0 1 -4 20260602 1511)
+	   [(0 1 0 1 -4 20260611 644)
 	    ((emacs
 	      (27 1)))
 	    "Export Lark docs to Org" tar
 	    ((:url . "https://github.com/bbw9n/org-lark")
-	     (:commit . "3ef070cfc9bf87d8e61d77b80e71ad0611074564")
-	     (:revdesc . "3ef070cfc9bf")
+	     (:commit . "dbb12fae2ba71e3dfecb5b13c1494ce5aff9b9e1")
+	     (:revdesc . "dbb12fae2ba7")
 	     (:keywords "outlines" "hypermedia" "tools")
 	     (:authors
 	      ("bbw9n" . "bbw9nio@gmail.com"))
@@ -86382,13 +86380,13 @@
 	      ("Jorgen Schaefer" . "forcer@forcix.cx"))
 	     (:maintainer "Jorgen Schaefer" . "forcer@forcix.cx"))])
  (winpulse .
-	   [(0 1 0 1 -4 20260216 2106)
+	   [(0 1 0 1 -4 20260611 341)
 	    ((emacs
 	      (28 1)))
 	    "Momentary window background flash animation" tar
 	    ((:url . "https://github.com/xenodium/winpulse")
-	     (:commit . "c58352bea2223fd6f0cc11deb4d33bca2ff0213c")
-	     (:revdesc . "c58352bea222")
+	     (:commit . "dcfccb28394d8eb09a8bbbca69e466b334af461d")
+	     (:revdesc . "dcfccb28394d")
 	     (:authors
 	      ("Alvaro Ramirez" . "https://xenodium.com"))
 	     (:maintainers
