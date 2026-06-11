@@ -1,12 +1,12 @@
 (1
  (adoc-mode
-  . [(0 9 0 0 20260605 19) ((emacs (28 1)))
+  . [(0 9 0 0 20260611 21) ((emacs (28 1)))
      "a major-mode for editing AsciiDoc files" tar
      ((:url . "https://github.com/bbatsov/adoc-mode")
       (:keywords "asciidoc" "text")
       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
       (:authors ("Florian Kaufmann" . "sensorflo@gmail.com"))
-      (:commit . "b6f0205742d965f3586e83506d003d1b002ac955"))])
+      (:commit . "9857e72f953642cedc1286a04aebb7203226e6a8"))])
  (afternoon-theme
   . [(0 1 0 20140104 185934) ((emacs (24 1)))
      "Dark color theme with a deep blue background" tar
@@ -45,12 +45,12 @@
       (:authors ("Alex Kost" . "alezost@gmail.com"))
       (:commit . "b1f97e4bc0dc6ec91c7e9999fbe9fa371016463b"))])
  (ample-theme
-  . [(0 3 0 0 20240426 84530) nil "Calm Dark Theme for Emacs" tar
+  . [(0 3 0 0 20260611 50) nil "Calm Dark Theme for Emacs" tar
      ((:url . "https://github.com/jordonbiondo/ample-theme")
       (:keywords "theme" "dark")
       (:maintainer "Jordon Biondo" . "jordonbiondo@gmail.com")
       (:authors ("Jordon Biondo" . "jordonbiondo@gmail.com"))
-      (:commit . "39ac29cf9a1229bb076964335fbd71cfb52e498b"))])
+      (:commit . "6952b29a588c854084ca1360bed16c9bc2d48e37"))])
  (annotate
   . [(2 5 0 0 20260514 132017) ((emacs (27 1)))
      "annotate files without changing them" tar
@@ -473,7 +473,7 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(4 0 0 0 20260610 11) ((emacs (28 1)) (compat (31)))
+  . [(4 0 1 0 20260611 0) ((emacs (28 1)) (compat (31)))
      "An Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
       (:keywords "network" "comm" "hypermedia")
@@ -482,10 +482,10 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "e556d0c841ae79718525a7cbfcc86b27aec49e72"))])
+      (:commit . "90470c3ff7cf215771f31e8c5e4b08fe6ad8f65b"))])
  (elfeed-web
-  . [(4 0 0 0 20260606 0)
-     ((emacs (28 1)) (compat (31)) (elfeed (3 4 2))
+  . [(4 0 0 0 20260611 1)
+     ((emacs (28 1)) (compat (31)) (elfeed (4 0 0))
       (simple-httpd (1 6)))
      "Web interface to Elfeed" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed-web")
@@ -495,7 +495,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "e947501a29457a55dfb0828aa791185c6b41bc37"))])
+      (:commit . "0bef963f7eaccee21571844730586d8dafa4249f"))])
  (elixir-mode
   . [(2 5 0 0 20230626 143859) ((emacs (25)))
      "Major mode for editing Elixir files" tar
@@ -1159,14 +1159,14 @@
       (:keywords "j" "languages")
       (:commit . "e49ef0692d73b320c281e40d9fa96b2c17073695"))])
  (jabber
-  . [(0 10 10 0 20260608 54)
+  . [(0 10 10 0 20260611 56)
      ((emacs (29 1)) (fsm (0 2 0)) (keymap-popup (0 2)))
      "XMPP/Jabber client" tar
      ((:url . "https://codeberg.org/emacs-jabber/emacs-jabber")
       (:keywords "comm")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Magnus Henoch" . "mange@freemail.hu"))
-      (:commit . "dfe9d208bdc71bd7aae55e893235bedbf7de7d39"))])
+      (:commit . "2a0846af194ffb2c893809d7da6b883b0c02a856"))])
  (jade-mode
   . [(1 0 1 0 20211019 161323) nil
      "Major mode for editing .jade files" tar
