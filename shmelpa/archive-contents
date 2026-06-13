@@ -1781,7 +1781,7 @@
 			    ("Vincent Zhang" . "seagle0128@gmail.com"))
 			   (:maintainer "Vincent Zhang" . "seagle0128@gmail.com"))])
  (all-the-icons-nerd-fonts .
-			   [(0 2 1 -4 20240210 1127)
+			   [(0 1 0 1 -4 20260613 1448)
 			    ((emacs
 			      (28 1))
 			     (all-the-icons
@@ -1790,8 +1790,8 @@
 			      (0 0 1)))
 			    "Nerd font integration for all-the-icons" tar
 			    ((:url . "https://github.com/mohkale/all-the-icons-nerd-fonts")
-			     (:commit . "67a9cc9de2d2d4516cbfb752879b1355234cb42a")
-			     (:revdesc . "67a9cc9de2d2")
+			     (:commit . "5a59837193e842111a7660db6196abe1f90ca3ad")
+			     (:revdesc . "5a59837193e8")
 			     (:keywords "convenience" "lisp")
 			     (:authors
 			      ("Mohsin Kaleem" . "mohkale@gmail.com"))
@@ -11772,15 +11772,15 @@
 		   ("mohsin kaleem" . "mohkale@kisara.moe"))
 		  (:maintainer "mohsin kaleem" . "mohkale@kisara.moe"))])
  (compile-multi-all-the-icons .
-			      [(0 1 0 1 -4 20250101 2156)
+			      [(0 1 0 1 -4 20251004 2121)
 			       ((emacs
 				 (28 0))
 				(all-the-icons-completion
 				 (0 0 1)))
 			       "Affixate `compile-multi' with icons" tar
 			       ((:url . "https://github.com/mohkale/compile-multi")
-				(:commit . "19d16d8871b5f19f5625e1a66c1dc46a7c3f6a3a")
-				(:revdesc . "19d16d8871b5")
+				(:commit . "2976058c416b19f9761d5b8cf596210803afd2d7")
+				(:revdesc . "2976058c416b")
 				(:keywords "tools" "compile" "build")
 				(:authors
 				 ("mohsin kaleem" . "mohkale@kisara.moe"))
@@ -11806,15 +11806,15 @@
 			  ("Mohsin Kaleem" . "mohkale@kisara.moe"))
 			 (:maintainer "Mohsin Kaleem" . "mohkale@kisara.moe"))])
  (compile-multi-nerd-icons .
-			   [(0 1 0 1 -4 20250101 2156)
+			   [(0 1 0 1 -4 20251004 2121)
 			    ((emacs
 			      (28 0))
 			     (nerd-icons-completion
 			      (0 0 1)))
 			    "Affixate `compile-multi' with nerd icons" tar
 			    ((:url . "https://github.com/mohkale/compile-multi")
-			     (:commit . "19d16d8871b5f19f5625e1a66c1dc46a7c3f6a3a")
-			     (:revdesc . "19d16d8871b5")
+			     (:commit . "2976058c416b19f9761d5b8cf596210803afd2d7")
+			     (:revdesc . "2976058c416b")
 			     (:keywords "tools" "compile" "build")
 			     (:authors
 			      ("mohsin kaleem" . "mohkale@kisara.moe"))
@@ -12209,7 +12209,7 @@
 		 ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
 		(:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))])
  (consult-eglot .
-		[(0 1 0 1 -4 20250831 924)
+		[(0 1 0 1 -4 20260613 1443)
 		 ((emacs
 		   (27 1))
 		  (eglot
@@ -12220,8 +12220,8 @@
 		   (0 3 0)))
 		 "A consulting-read interface for eglot" tar
 		 ((:url . "https://github.com/mohkale/consult-eglot")
-		  (:commit . "d7296fef3f9c4280229df51f32fc0b5db2392c22")
-		  (:revdesc . "d7296fef3f9c")
+		  (:commit . "3e4d9a40911b897c0a2c5d20199d0f7c30bfc1c2")
+		  (:revdesc . "3e4d9a40911b")
 		  (:keywords "tools" "completion" "lsp")
 		  (:authors
 		   ("mohsin kaleem" . "mohkale@kisara.moe")))])
@@ -12644,7 +12644,7 @@
 		    ("Fabrizio Contigiani" . "fabcontigiani@gmail.com"))
 		   (:maintainer "Fabrizio Contigiani" . "fabcontigiani@gmail.com"))])
  (consult-yasnippet .
-		    [(0 1 0 1 -4 20250411 1922)
+		    [(0 1 0 1 -4 20260613 1436)
 		     ((emacs
 		       (27 1))
 		      (yasnippet
@@ -12653,8 +12653,8 @@
 		       (0 16)))
 		     "A consulting-read interface for yasnippet" tar
 		     ((:url . "https://github.com/mohkale/consult-yasnippet")
-		      (:commit . "a3482dfbdcbe487ba5ff934a1bb6047066ff2194")
-		      (:revdesc . "a3482dfbdcbe")
+		      (:commit . "89e39887c87e25d18861216a4d72e5d174f13751")
+		      (:revdesc . "89e39887c87e")
 		      (:authors
 		       ("mohsin kaleem" . "mohkale@kisara.moe"))
 		      (:maintainers
@@ -14168,13 +14168,13 @@
 		    ("Peter Hoeg" . "(peter@hoeg.com)"))
 		   (:maintainer "Peter Hoeg" . "(peter@hoeg.com)"))])
  (cui .
-      [(0 1 0 1 -4 20260609 1757)
+      [(0 1 0 1 -4 20260613 1407)
        ((emacs
 	 (29 1)))
-       "AI-LLM chat blocks for org-mode" tar
+       "Chat blocks in org-mode for LLM and agents" tar
        ((:url . "https://codeberg.org/Anoncheg/emacs-cui")
-	(:commit . "7a000119d9b361c92e39456b366f5c31b9268411")
-	(:revdesc . "7a000119d9b3")
+	(:commit . "35b87c30825340b6f2ef645d86c32be8134dc6a0")
+	(:revdesc . "35b87c308253")
 	(:keywords "org" "comm" "url" "link")
 	(:authors
 	 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
@@ -16298,13 +16298,13 @@
 		     ("Jen-Chieh" . "jcs090218@gmail.com"))
 		    (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (dimmer .
-	 [(0 1 0 1 -4 20260613 330)
+	 [(0 1 0 1 -4 20260613 1453)
 	  ((emacs
 	    (27 1)))
 	  "Visually highlight the selected buffer" tar
 	  ((:url . "https://github.com/gonewest818/dimmer.el")
-	   (:commit . "6ce67fdcae1a41e5c7b03a9d6f271d3fc1b24a71")
-	   (:revdesc . "6ce67fdcae1a")
+	   (:commit . "237791624116b05895a0154107b46d963f82c5c3")
+	   (:revdesc . "237791624116")
 	   (:keywords "faces" "editing"))])
  (dionysos .
 	   [(0 6 0 1 -4 20160810 1056)
@@ -29375,7 +29375,7 @@
 		    ("Steve Purcell" . "steve@sanityinc.com"))
 		   (:maintainer "Steve Purcell" . "steve@sanityinc.com"))])
  (flymake-collection .
-		     [(0 1 0 1 -4 20250831 1353)
+		     [(0 1 0 1 -4 20260613 1434)
 		      ((emacs
 			(28 1))
 		       (let-alist
@@ -29384,8 +29384,8 @@
 			(1 2 1)))
 		      "Collection of checkers for flymake, bringing flymake to the level of flycheck" tar
 		      ((:url . "https://github.com/mohkale/flymake-collection")
-		       (:commit . "909d98d9ec70c2baa5467634ec37181a058f2548")
-		       (:revdesc . "909d98d9ec70")
+		       (:commit . "1c771edc125ae44d9574489f3989397027b17654")
+		       (:revdesc . "1c771edc125a")
 		       (:keywords "language" "tools")
 		       (:authors
 			("Mohsin Kaleem" . "mohkale@kisara.moe"))
@@ -49155,7 +49155,7 @@
 	       (:revdesc . "ba05cca022a2")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20260609 956)
+	[(0 1 0 1 -4 20260613 1433)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -49174,8 +49174,8 @@
 	   (3 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "9fa5e22622c3917b52039994ced8c57157bebcfe")
-	  (:revdesc . "9fa5e22622c3")
+	  (:commit . "fe0c1376f2d4e874661bc8b6112f34aa477c9442")
+	  (:revdesc . "fe0c1376f2d4")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -54285,13 +54285,13 @@
 	     ("jaypei" . "jaypei97159@gmail.com"))
 	    (:maintainer "jaypei" . "jaypei97159@gmail.com"))])
  (nerd-icons .
-	     [(0 1 0 1 -4 20260516 44)
+	     [(0 1 0 1 -4 20260613 1537)
 	      ((emacs
 		(25 1)))
 	      "Emacs Nerd Font Icons Library" tar
 	      ((:url . "https://github.com/rainstormstudio/nerd-icons.el")
-	       (:commit . "d33d12f5dcb6bf2fb23c3f75df5de85beb4afd95")
-	       (:revdesc . "d33d12f5dcb6")
+	       (:commit . "839337dcbbb1c48e5f486b4ffffc928819bc78ab")
+	       (:revdesc . "839337dcbbb1")
 	       (:keywords "lisp")
 	       (:authors
 		("Hongyu Ding" . "rainstormstudio@yahoo.com")
@@ -65206,7 +65206,7 @@
 	     ("Eric Hansen" . "hansen.c.eric@gmail.com"))
 	    (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
  (pi-coding-agent .
-		  [(0 1 0 1 -4 20260610 1506)
+		  [(0 1 0 1 -4 20260613 1354)
 		   ((emacs
 		     (29 1))
 		    (transient
@@ -65217,8 +65217,8 @@
 		     (0 2 0)))
 		   "Emacs frontend for pi coding agent" tar
 		   ((:url . "https://github.com/dnouri/pi-coding-agent")
-		    (:commit . "c64c72a3c0451fc540436e48a2425624026820e8")
-		    (:revdesc . "c64c72a3c045")
+		    (:commit . "72fb92f5d6fe8ceb02cfbad7fa16b20476971a28")
+		    (:revdesc . "72fb92f5d6fe")
 		    (:keywords "ai" "llm" "ai-pair-programming" "tools")
 		    (:authors
 		     ("Daniel Nouri" . "daniel.nouri@gmail.com"))
