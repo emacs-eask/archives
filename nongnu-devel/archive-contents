@@ -1,12 +1,12 @@
 (1
  (adoc-mode
-  . [(0 9 0 0 20260612 25) ((emacs (28 1)))
+  . [(0 9 0 0 20260612 26) ((emacs (28 1)))
      "a major-mode for editing AsciiDoc files" tar
      ((:url . "https://github.com/bbatsov/adoc-mode")
       (:keywords "asciidoc" "text")
       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
       (:authors ("Florian Kaufmann" . "sensorflo@gmail.com"))
-      (:commit . "6d1d24a95a8ade0b6d21d2ef48fce0c43b4fca7a"))])
+      (:commit . "5c1484b8982845845ccd0be02629e21f1d5bed81"))])
  (afternoon-theme
   . [(0 1 0 20140104 185934) ((emacs (24 1)))
      "Dark color theme with a deep blue background" tar
@@ -473,7 +473,7 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(4 0 1 0 20260614 2) ((emacs (28 1)) (compat (31)))
+  . [(4 0 1 0 20260614 6) ((emacs (28 1)) (compat (31)))
      "An Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
       (:keywords "network" "comm" "hypermedia")
@@ -482,7 +482,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "df6cd5805df20cbc0211ac3b764b870a6b26d703"))])
+      (:commit . "a71aaf6bf72de5358ca168f7e2fac60943af5315"))])
  (elfeed-web
   . [(4 0 0 0 20260611 1)
      ((emacs (28 1)) (compat (31)) (elfeed (4 0 0))
@@ -1159,14 +1159,14 @@
       (:keywords "j" "languages")
       (:commit . "e49ef0692d73b320c281e40d9fa96b2c17073695"))])
  (jabber
-  . [(0 11 0 0 20260614 0)
+  . [(0 11 0 0 20260614 1)
      ((emacs (29 1)) (fsm (0 2 0)) (keymap-popup (0 2)))
      "XMPP/Jabber client" tar
      ((:url . "https://codeberg.org/emacs-jabber/emacs-jabber")
       (:keywords "comm")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Magnus Henoch" . "mange@freemail.hu"))
-      (:commit . "264f971893c68715cf93e92ef05f414c11aabb7d"))])
+      (:commit . "84490cad31e993e0ad95c5dadee4309a747cc397"))])
  (jade-mode
   . [(1 0 1 0 20211019 161323) nil
      "Major mode for editing .jade files" tar
@@ -1297,7 +1297,7 @@
       (:authors ("Jon Oddie" . "j.j.oddie@gmail.com"))
       (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit
-  . [(4 5 0 0 20260613 294)
+  . [(4 5 0 0 20260614 295)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (magit-section (4 5)) (seq (2 24)) (transient (0 13))
       (with-editor (3 4)))
@@ -1309,9 +1309,9 @@
        ("Kyle Meyer" . "kyle@kyleam.com"))
       (:authors ("Marius Vollmer" . "marius.vollmer@gmail.com")
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "fe0c1376f2d4e874661bc8b6112f34aa477c9442"))])
+      (:commit . "e35d646c2cc9aa825e1f2007ec75dac872040b69"))])
  (magit-section
-  . [(4 5 0 0 20260613 294)
+  . [(4 5 0 0 20260614 295)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (seq (2 24)))
      "Sections for read-only buffers" tar
@@ -1320,7 +1320,7 @@
 		   . "emacs.magit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "fe0c1376f2d4e874661bc8b6112f34aa477c9442"))])
+      (:commit . "e35d646c2cc9aa825e1f2007ec75dac872040b69"))])
  (markdown-mode
   . [(2 90 20260425 95459) ((emacs (28 1)))
      "Major mode for Markdown-formatted text" tar
