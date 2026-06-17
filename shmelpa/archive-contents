@@ -8479,7 +8479,7 @@
 		 ("Adam Chyła https://chyla.org/" . "adam@chyla.org"))
 		(:maintainer "Adam Chyła https://chyla.org/" . "adam@chyla.org"))])
  (cider .
-	[(0 1 0 1 -4 20260617 1229)
+	[(0 1 0 1 -4 20260617 1555)
 	 ((emacs
 	   (28))
 	  (clojure-mode
@@ -8500,8 +8500,8 @@
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
 	 ((:url . "https://www.github.com/clojure-emacs/cider")
-	  (:commit . "7bba70a194fa6687274a85d17b6201201f732223")
-	  (:revdesc . "7bba70a194fa")
+	  (:commit . "2a55e2b0e61007a2c7ec971f6b90be1bc2c96568")
+	  (:revdesc . "2a55e2b0e610")
 	  (:keywords "languages" "clojure" "cider")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
@@ -9695,12 +9695,12 @@
 	       ("Atila Neves" . "atila.neves@gmail.com"))
 	      (:maintainer "Atila Neves" . "atila.neves@gmail.com"))])
  (cmake-mode .
-	     [(0 1 0 1 -4 20260521 1832)
+	     [(0 1 0 1 -4 20260617 1353)
 	      ((emacs
 		(24 1)))
 	      "Major-mode for editing CMake sources" tar
-	      ((:commit . "06cc1d04d8d5a4e13abdadfe20f6937787b1968e")
-	       (:revdesc . "06cc1d04d8d5"))])
+	      ((:commit . "c2fd48014f39786ba5c5e51b983d1cdcf05aa269")
+	       (:revdesc . "c2fd48014f39"))])
  (cmake-project .
 		[(0 7 1 -4 20171121 1115)
 		 nil "Integrates CMake build process with Emacs" tar
@@ -14666,11 +14666,11 @@
 	     ("John Wiegley" . "johnw@gnu.org"))
 	    (:maintainer "John Wiegley" . "johnw@gnu.org"))])
  (darcula-theme .
-		[(0 1 0 1 -4 20171227 1845)
+		[(0 1 0 1 -4 20260617 1603)
 		 nil "Inspired by IntelliJ's Darcula theme" tar
 		 ((:url . "https://gitlab.com/fommil/emacs-darcula-theme")
-		  (:commit . "d9b82b58ded9014985be6658f4ab17e26ed9e93e")
-		  (:revdesc . "d9b82b58ded9")
+		  (:commit . "89e81a156f375306aa0aa639b3d0161543ce514f")
+		  (:revdesc . "89e81a156f37")
 		  (:keywords "faces")
 		  (:authors
 		   ("Sam Halliday" . "Sam.Halliday@gmail.com"))
@@ -22627,7 +22627,7 @@
 	   ("Sean Hutchings" . "seanhut@yandex.com"))
 	  (:maintainer "Sean Hutchings" . "seanhut@yandex.com"))])
  (epkg .
-       [(0 1 0 1 -4 20260601 1620)
+       [(0 1 0 1 -4 20260617 1602)
 	((emacs
 	  (28 1))
 	 (compat
@@ -22642,8 +22642,8 @@
 	  (1 0)))
 	"Browse the Emacsmirror package database" tar
 	((:url . "https://github.com/emacscollective/epkg")
-	 (:commit . "849ce2359fcd51467e7ef00faaf6130e1017e6ce")
-	 (:revdesc . "849ce2359fcd")
+	 (:commit . "636490387d8fef3dc4d54b0b7cdc7ffe947663a1")
+	 (:revdesc . "636490387d8f")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))
@@ -81431,19 +81431,21 @@
 			      (:revdesc . "57911a5065a6")
 			      (:keywords "convenience" "tools"))])
  (transient .
-	    [(0 1 0 1 -4 20260601 1529)
+	    [(0 1 0 1 -4 20260617 1137)
 	     ((emacs
 	       (28 1))
 	      (compat
 	       (31 0))
 	      (cond-let
 	       (1 1))
+	      (llama
+	       (1 0))
 	      (seq
 	       (2 24)))
 	     "Transient commands" tar
 	     ((:url . "https://github.com/magit/transient")
-	      (:commit . "1856230dc181f23dd15026b0ad21d8b299b034d1")
-	      (:revdesc . "1856230dc181")
+	      (:commit . "9d103f338fb9fd4506a0f1651c483209ab838f49")
+	      (:revdesc . "9d103f338fb9")
 	      (:keywords "extensions")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
@@ -82314,15 +82316,15 @@
 	      ("Will Medrano" . "will@wmedrano.dev"))
 	     (:maintainer "Will Medrano" . "will@wmedrano.dev"))])
  (tuareg .
-	 [(0 1 0 1 -4 20260617 1352)
+	 [(0 1 0 1 -4 20260617 1454)
 	  ((emacs
 	    (26 3))
 	   (caml
 	    (4 8)))
 	  "OCaml mode" tar
 	  ((:url . "https://github.com/ocaml/tuareg")
-	   (:commit . "c8990966e562498346049a317961c332b9a6c911")
-	   (:revdesc . "c8990966e562")
+	   (:commit . "7d4dd535e3f4bed2013bad545629302d07ba991e")
+	   (:revdesc . "7d4dd535e3f4")
 	   (:keywords "ocaml" "languages")
 	   (:authors
 	    ("Albert Cohen" . "Albert.Cohen@inria.fr")
@@ -85088,7 +85090,7 @@
 	    ("Boris Buliga" . "boris@d12frosted.io"))
 	   (:maintainer "Boris Buliga" . "boris@d12frosted.io"))])
  (vulpea-journal .
-		 [(0 1 0 1 -4 20260603 1041)
+		 [(0 1 0 1 -4 20260617 1438)
 		  ((emacs
 		    (29 1))
 		   (vulpea
@@ -85099,8 +85101,8 @@
 		    (2 20 0)))
 		  "Daily note interface for vulpea" tar
 		  ((:url . "https://github.com/d12frosted/vulpea-journal")
-		   (:commit . "1aa8e9ef129eab5c07235775998b0997976e2376")
-		   (:revdesc . "1aa8e9ef129e")
+		   (:commit . "5c026d0d2afff06d530334c581975b8b8a63da45")
+		   (:revdesc . "5c026d0d2aff")
 		   (:keywords "org-mode" "roam" "convenience")
 		   (:authors
 		    ("Boris Buliga" . "boris@d12frosted.io"))
