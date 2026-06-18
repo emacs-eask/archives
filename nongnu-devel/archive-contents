@@ -73,13 +73,13 @@
       (:authors ("Syohei YOSHIDA" . "syohex@gmail.com"))
       (:commit . "21cb5ab2295614372cb9f1a21429381e49a6255f"))])
  (apache-mode
-  . [(2 2 0 0 20251120 174624) nil
+  . [(2 2 0 0 20260618 15) nil
      "Major mode for editing Apache httpd configuration files" tar
      ((:url . "https://github.com/emacs-php/apache-mode")
       (:keywords "languages" "faces")
       (:maintainer "USAMI Kenta" . "tadsan@zonu.me")
       (:authors ("Karl Chen" . "quarl@nospam.quarl.org"))
-      (:commit . "a3db91fc6c4d46ca0625e79df5d6689a607b1927"))])
+      (:commit . "d581a0e9dac59a3e34a150e127ab41c0a383545e"))])
  (apropospriate-theme
   . [(0 2 0 0 20251009 212150) nil
      "A light & dark theme set for Emacs." tar
@@ -221,7 +221,7 @@
       (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
       (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider
-  . [(1 22 2 0 20260618 12)
+  . [(1 22 2 0 20260618 21)
      ((emacs (28)) (clojure-mode (5 19)) (compat (30))
       (parseedn (1 2 1)) (queue (0 2)) (spinner (1 7)) (seq (2 22))
       (sesman (0 3 2)) (transient (0 4 1)))
@@ -235,7 +235,7 @@
 		("Artur Malabarba" . "bruce.connor.am@gmail.com")
 		("Hugo Duncan" . "hugo@hugoduncan.org")
 		("Steve Purcell" . "steve@sanityinc.com"))
-      (:commit . "d0a961aaa13db890fb6ea229caa527e8c868e1d9"))])
+      (:commit . "1e216e75f8e882ceb1cc19bb63791a93911c63b5"))])
  (clojure-mode
   . [(5 23 0 0 20260615 3) ((emacs (27 1)))
      "Major mode for Clojure code" tar
@@ -473,7 +473,7 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(4 0 1 0 20260616 12) ((emacs (28 1)) (compat (31)))
+  . [(4 0 1 0 20260618 13) ((emacs (28 1)) (compat (31)))
      "An Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
       (:keywords "network" "comm" "hypermedia")
@@ -482,7 +482,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "79297eb9090fd058d7f4bcd40dd0d559b686c5a4"))])
+      (:commit . "82274978814a32fc791570066c63b54e44c2ba1b"))])
  (elfeed-web
   . [(4 0 0 0 20260611 1)
      ((emacs (28 1)) (compat (31)) (elfeed (4 0 0))
@@ -1013,7 +1013,7 @@
       (:authors ("Pranshu Sharma" . "pranshu@bauherren.ovh"))
       (:commit . "bf143ee8382f09e0a68d775d80445065f32929c3"))])
  (helm
-  . [(4 0 7 0 20260611 16) ((helm-core (4 0 7)) (wfnames (1 2)))
+  . [(4 0 7 0 20260618 17) ((helm-core (4 0 7)) (wfnames (1 2)))
      "Helm is an Emacs incremental and narrowing framework" tar
      ((:url . "https://emacs-helm.github.io/helm/")
       (:keywords "helm" "convenience" "files" "buffers" "grep"
@@ -1021,14 +1021,14 @@
 		 "package")
       (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
       (:authors ("Thierry Volpiatto" . "thievol@posteo.net"))
-      (:commit . "1a37057a9a92d7e9a77182791d2a20618e47a66c"))])
+      (:commit . "558427bf221a61014e25d1be3a29dbebad277973"))])
  (helm-core
-  . [(4 0 7 0 20260611 16) ((emacs (25 1)) (async (1 9 9)))
+  . [(4 0 7 0 20260618 17) ((emacs (25 1)) (async (1 9 9)))
      "Development files for Helm" tar
      ((:url . "https://emacs-helm.github.io/helm/")
       (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
       (:authors ("Thierry Volpiatto" . "thievol@posteo.net"))
-      (:commit . "1a37057a9a92d7e9a77182791d2a20618e47a66c"))])
+      (:commit . "558427bf221a61014e25d1be3a29dbebad277973"))])
  (hideshowvis
   . [(0 9 0 20251119 95800) ((emacs (27 1)))
      "Fringe markers for regions foldable by hideshow.el" tar
@@ -1752,13 +1752,13 @@
       (:keywords "project" "convenience")
       (:commit . "f5fd18aa810c3d3269188cbbd731ddc09006f8f5"))])
  (rust-mode
-  . [(1 0 6 0 20260521 74503) ((emacs (25 1)))
+  . [(1 0 6 0 20260618 49) ((emacs (25 1)))
      "A major-mode for editing Rust source code" tar
      ((:url . "https://github.com/rust-lang/rust-mode")
       (:keywords "languages")
       (:maintainer "Mozilla" . "rust-mode@noreply.github.com")
       (:authors ("Mozilla" . "rust-mode@noreply.github.com"))
-      (:commit . "ed401a65743359b8de11ee9ced0e1da39946cefd"))])
+      (:commit . "93778358b6af8ad9e123a41bc2c8c91877a9ffd5"))])
  (sass-mode
   . [(3 0 16 0 20190502 5315) ((haml-mode (3 0 15)) (cl-lib (0 5)))
      "Major mode for editing Sass files" tar
@@ -1898,12 +1898,12 @@
       (:authors ("John Olsson" . "john@cryon.se"))
       (:commit . "d61acae1ddb6830f98dbd9d2e82a9fb42833bd1b"))])
  (subed
-  . [(1 5 1 0 20260610 0) ((emacs (25 1)))
+  . [(1 5 1 0 20260618 1) ((emacs (25 1)))
      "A major mode for editing subtitles" tar
      ((:url . "https://github.com/sachac/subed")
       (:keywords "convenience" "files" "hypermedia" "multimedia")
       (:maintainer "Sacha Chua" . "sacha@sachachua.com")
-      (:commit . "12386508eab140ee6c7d83654a162dbf52b0bf93"))])
+      (:commit . "e5df568e5979d51b43cc86e478bb8b32a4c0d717"))])
  (sweeprolog
   . [(0 27 6 0 20260510 162905) ((emacs (27 1)) (compat (29 1 4 2)))
      "Embedded SWI-Prolog" tar

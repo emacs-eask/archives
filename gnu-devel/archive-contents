@@ -173,13 +173,13 @@
       (:authors ("John Wiegley" . "jwiegley@gmail.com"))
       (:commit . "5faab28916603bb324d9faba057021ce028ca847"))])
  (auctex
-  . [(14 1 2 0 20260616 38) ((emacs (28 1)))
+  . [(14 1 2 0 20260618 39) ((emacs (28 1)))
      "Integrated environment for *TeX*" tar
      ((:url . "https://www.gnu.org/software/auctex/")
       (:keywords "tex" "latex" "texinfo" "context" "doctex"
 		 "preview-latex")
       (:maintainer nil . "auctex-devel@gnu.org")
-      (:commit . "e936b1b9c4e586422abeb103c77fe1177bd597e2"))])
+      (:commit . "9316f5c71df63322eb54b0e536b63756dc7f8c76"))])
  (auctex-cont-latexmk
   . [(0 3 0 20260617 10) ((emacs (29 3)) (auctex (14 0 5)))
      "run latexmk continuously, report errors via Flymake" tar
@@ -273,12 +273,12 @@
       (:authors ("Protesilaos" . "info@protesilaos.com"))
       (:commit . "e4d0b4e5823c3137a70ca3f5d367c76bfadd0db0"))])
  (bicep-ts-mode
-  . [(0 1 4 0 20251121 60244) nil "tree-sitter support for Bicep" tar
+  . [(0 1 4 0 20260618 81) nil "tree-sitter support for Bicep" tar
      ((:url . "https://github.com/josteink/bicep-ts-mode")
       (:keywords "bicep" "languages" "tree-sitter")
       (:maintainer "Jostein Kjønigsen" . "jostein@kjonigsen.net")
       (:authors ("Jostein Kjønigsen" . "jostein@kjonigsen.net"))
-      (:commit . "b8ad2a7896bc3f3734e995bd1c4e708db0ead239"))])
+      (:commit . "ef66f70bd699c866c482ab78409a17a1ad0caaa9"))])
  (bind-key
   . [(2 4 1 0 20260408 145602) ((emacs (24 3)))
      "A simple way to manage personal keybindings" tar
@@ -515,12 +515,12 @@
        ("Clément Pit-Claudel" . "clement.pitclaudel@live.com"))
       (:commit . "3b2233120d33943b8af65fec6257f0c16ad3c6fd"))])
  (company
-  . [(1 0 2 0 20260604 136) ((emacs (26 1)) (posframe (1 5 1)))
+  . [(1 0 2 0 20260618 138) ((emacs (26 1)) (posframe (1 5 1)))
      "Modular text completion framework" tar
      ((:url . "http://company-mode.github.io/")
       (:keywords "abbrev" "convenience" "matching")
       (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
-      (:commit . "d21548a6c5019aad11ad194969ce7e446844b1bb"))])
+      (:commit . "04fa1b9bfe150b1f8c76cea47c3a4af3f0e1b22e"))])
  (company-ebdb
   . [(1 1 0 20221221 74915) ((company (0 9 4)) (ebdb (0 2)))
      "company-mode completion backend for EBDB in message-mode" tar
@@ -995,13 +995,13 @@
       (:url . "https://elpa.gnu.org/packages/docbook.html")
       (:commit . "9b7c2dbae38b523442f7c1155bc4e3db16a0c49f"))])
  (doric-themes
-  . [(1 1 0 0 20260522 84122) ((emacs (29 1)))
+  . [(1 1 0 0 20260618 8) ((emacs (29 1)))
      "Highly legible minimalist themes with precise typography" tar
      ((:url . "https://github.com/protesilaos/doric-themes")
       (:keywords "faces" "theme" "accessibility")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "d50a02aab47f5a118b0eaa4d6051b010b73f408c"))])
+      (:commit . "19138a4d1ecdca8018a305f5624283368dfff28f"))])
  (drepl
   . [(0 4 0 20260520 140843) ((emacs (29 1)) (comint-mime (0 7)))
      "REPL protocol for the dumb terminal" tar
@@ -1403,13 +1403,13 @@
       (:authors ("Protesilaos" . "info@protesilaos.com"))
       (:commit . "3fc26bc0337f2067dd5f89aa1a506067c00ceb92"))])
  (forgejo
-  . [(0 2 3 0 20260613 6) ((emacs (29 1)) (keymap-popup (0 2 1)))
+  . [(0 2 3 0 20260618 10) ((emacs (29 1)) (keymap-popup (0 2 1)))
      "Emacs Forgejo Front-end" tar
      ((:url . "https://codeberg.org/thanosapollo/emacs-forgejo")
       (:keywords "tools" "vc" "git" "forgejo")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Thanos Apollo" . "public@thanosapollo.org"))
-      (:commit . "c6d84be92a4abad72bd3685b1f1e1bf5502854d2"))])
+      (:commit . "f998102a23815a90be84f813f851e0e00f9b3375"))])
  (frame-tabs
   . [(1 1 0 20221221 75627) nil "show buffer tabs in side window" tar
      ((:keywords "frames" "tabs")
@@ -1684,7 +1684,7 @@
       (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com"))
       (:commit . "84a9db01eff1fcc52ad054c5ad3c22316739573f"))])
  (hyperbole
-  . [(9 0 20 20260617 1161) ((emacs (28)))
+  . [(9 0 20 20260618 1171) ((emacs (28)))
      "GNU Hyperbole: The Everyday Hypertextual Information Manager"
      tar
      ((:url . "http://www.gnu.org/software/hyperbole")
@@ -1693,7 +1693,7 @@
 		 "outlines" "tools" "wp")
       (:maintainer "Robert Weiner" . "rsw@gnu.org")
       (:authors ("Robert Weiner" . "rsw@gnu.org"))
-      (:commit . "e54e99d19eb476b9badfd13ea84a8e8186bf1718"))])
+      (:commit . "64d7dafee66939636b21430ec3a3db70193d3c39"))])
  (ibuffer-sidebar
   . [(0 0 1 0 20260612 36) ((emacs (29 1))) "Sidebar for `ibuffer'"
      tar
