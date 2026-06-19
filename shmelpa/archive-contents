@@ -1220,7 +1220,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260616 807)
+	      [(0 1 0 1 -4 20260619 1606)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1229,8 +1229,8 @@
 		 (0 12 2)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "c03acf250baebcb05439d15f5b0d3e1647115bdc")
-		(:revdesc . "c03acf250bae"))])
+		(:commit . "bb1bcfa97231d35f498197ac647debcc128ee3c4")
+		(:revdesc . "bb1bcfa97231"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -1342,7 +1342,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260619 154)
+	  [(0 1 0 1 -4 20260619 1528)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1351,8 +1351,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Antigravity CLI, Claude Code, Opencode, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "91f1d9526e70eb1c0326b07151ff9f40f1dc3d1c")
-	    (:revdesc . "91f1d9526e70")
+	    (:commit . "e85ac50068623229b96896f1d8c7718bf8bc90dd")
+	    (:revdesc . "e85ac5006862")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -6607,13 +6607,13 @@
 	       ("Ryan Walsh" . "blueridge-data@github"))
 	      (:maintainer "Ryan Walsh" . "blueridge-data@github"))])
  (bufferfile .
-	     [(0 1 0 1 -4 20260619 1427)
+	     [(0 1 0 1 -4 20260619 1542)
 	      ((emacs
 		(26 1)))
 	      "Rename/Delete/Copy Files and Associated Buffers" tar
 	      ((:url . "https://github.com/jamescherti/bufferfile.el")
-	       (:commit . "a18c09436284d58c73bdd4d15966d804d29fd526")
-	       (:revdesc . "a18c09436284")
+	       (:commit . "11e610d799ba4ec4355630fb0651d3cf8de9ee31")
+	       (:revdesc . "11e610d799ba")
 	       (:keywords "convenience")
 	       (:authors
 		("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -8479,7 +8479,7 @@
 		 ("Adam Chyła https://chyla.org/" . "adam@chyla.org"))
 		(:maintainer "Adam Chyła https://chyla.org/" . "adam@chyla.org"))])
  (cider .
-	[(0 1 0 1 -4 20260619 1410)
+	[(0 1 0 1 -4 20260619 1544)
 	 ((emacs
 	   (28))
 	  (clojure-mode
@@ -8500,8 +8500,8 @@
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
 	 ((:url . "https://www.github.com/clojure-emacs/cider")
-	  (:commit . "7aea16db7616e3f9b3090471d1faa37877432d9f")
-	  (:revdesc . "7aea16db7616")
+	  (:commit . "f75935219768583ff2662e96fb0fc5433428892b")
+	  (:revdesc . "f75935219768")
 	  (:keywords "languages" "clojure" "cider")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
@@ -15900,13 +15900,13 @@
 		("Sibi Prabakaran" . "sibi@psibi.in"))
 	       (:maintainer "Sibi Prabakaran" . "sibi@psibi.in"))])
  (dialog-mode .
-	      [(0 1 0 1 -4 20260617 2054)
+	      [(0 1 0 1 -4 20260619 1559)
 	       ((emacs
 		 (28 1)))
 	       "Major mode for editing Dialog files" tar
 	       ((:url . "https://git.sr.ht/~mew/dialog-mode")
-		(:commit . "88190ed31ee37cc27626af0d42f5faaac5bb60fa")
-		(:revdesc . "88190ed31ee3")
+		(:commit . "e092fe2c3915e28ae9151f856d340c2ba17ecb68")
+		(:revdesc . "e092fe2c3915")
 		(:keywords "languages")
 		(:authors
 		 ("Morgan Willcock" . "morgan@ice9.digital"))
@@ -24296,23 +24296,23 @@
 		       ("Olli Piepponen" . "opieppo@gmail.com"))
 		      (:maintainer "Olli Piepponen" . "opieppo@gmail.com"))])
  (evil-colemak-basics .
-		      [(0 1 0 1 -4 20260619 939)
+		      [(0 1 0 1 -4 20260619 1649)
 		       ((emacs
-			 (24 3))
+			 (28 1))
 			(evil
-			 (1 2 12))
+			 (1 15 0))
 			(evil-snipe
-			 (2 0 3)))
+			 (2 1 3)))
 		       "Basic Colemak key bindings for evil-mode" tar
 		       ((:url . "https://github.com/wbolster/evil-colemak-basics")
-			(:commit . "ae4e24d7653ba56ab33c2926f5c9b0dfea459d5d")
-			(:revdesc . "ae4e24d7653b")
+			(:commit . "70a08ff4c8148c38e0cdc2b89b0316fd504501f6")
+			(:revdesc . "70a08ff4c814")
 			(:keywords "convenience" "emulations" "colemak" "evil")
 			(:authors
-			 ("Wouter Bolsterlee" . "wouter@bolsterl.ee"))
+			 ("wouter bolsterlee" . "wouter@bolsterl.ee"))
 			(:maintainers
-			 ("Wouter Bolsterlee" . "wouter@bolsterl.ee"))
-			(:maintainer "Wouter Bolsterlee" . "wouter@bolsterl.ee"))])
+			 ("wouter bolsterlee" . "wouter@bolsterl.ee"))
+			(:maintainer "wouter bolsterlee" . "wouter@bolsterl.ee"))])
  (evil-colemak-minimal .
 		       [(1 1 0 1 -4 20171006 1317)
 			((emacs
@@ -58309,15 +58309,15 @@
 	      ("Calvin Beck" . "hobbes@ualberta.ca"))
 	     (:maintainer "Calvin Beck" . "hobbes@ualberta.ca"))])
  (org-cite-overlay .
-		   [(0 1 0 1 -4 20251130 328)
+		   [(0 1 0 1 -4 20260619 1531)
 		    ((emacs
-		      (28 1))
+		      (29 1))
 		     (citeproc
 		      (0 9 4)))
 		    "Overlays for org-cite citations" tar
 		    ((:url . "https://git.sr.ht/~swflint/org-cite-overlay")
-		     (:commit . "b30e7fa63779ea6adf626227bc84c0b114e66c50")
-		     (:revdesc . "b30e7fa63779")
+		     (:commit . "ec716f4e84d0796f652f789e4108617df4d233de")
+		     (:revdesc . "ec716f4e84d0")
 		     (:keywords "bib" "tex")
 		     (:authors
 		      ("Samuel W. Flint" . "me@samuelwflint.com"))
@@ -65415,13 +65415,13 @@
 	    ("Xu Chunyang" . "mail@xuchunyang.me"))
 	   (:maintainer "Xu Chunyang" . "mail@xuchunyang.me"))])
  (pinyin-isearch .
-		 [(0 1 0 1 -4 20260619 1357)
+		 [(0 1 0 1 -4 20260619 1756)
 		  ((emacs
 		    (28 1)))
 		  "Pinyin mode for isearch" tar
 		  ((:url . "https://github.com/Anoncheg1/pinyin-isearch")
-		   (:commit . "71d7b7bf9e93e90155391ebc26c285152cd2beb5")
-		   (:revdesc . "71d7b7bf9e93")
+		   (:commit . "000589bbe5d962feb67ac1c9a82817796b805f82")
+		   (:revdesc . "000589bbe5d9")
 		   (:keywords "chinese" "pinyin" "matching" "convenience"))])
  (pinyin-search .
 		[(1 0 0 1 -4 20230919 538)
@@ -67470,15 +67470,15 @@
 		     (:commit . "36bec1109ba0498c2d1ef29756c841d2e23b063e")
 		     (:revdesc . "36bec1109ba0"))])
  (projectile .
-	     [(0 1 0 1 -4 20260619 1356)
+	     [(0 1 0 1 -4 20260619 1705)
 	      ((emacs
 		(27 1))
 	       (compat
 		(30)))
 	      "Manage and navigate projects in Emacs easily" tar
 	      ((:url . "https://github.com/bbatsov/projectile")
-	       (:commit . "3bbd5259841c1404edb4935ead441536f5ebb4a8")
-	       (:revdesc . "3bbd5259841c")
+	       (:commit . "b1b2a13cc27b6dd76a6d45bf48d23f7a3773fcfe")
+	       (:revdesc . "b1b2a13cc27b")
 	       (:keywords "project" "convenience")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -74059,13 +74059,13 @@
 	      ("Chen Bin" . "chenbinDOTshATgmailDOTcom"))
 	     (:maintainer "Chen Bin" . "chenbinDOTshATgmailDOTcom"))])
  (shexc-ts-mode .
-		[(0 1 0 1 -4 20260619 825)
+		[(0 1 0 1 -4 20260619 1323)
 		 ((emacs
 		   (29 1)))
 		 "Tree-sitter major mode for ShExC" tar
 		 ((:url . "https://github.com/ericprud/shexc-mode-for-emacs")
-		  (:commit . "b0c871f4b35811f97f3120470990c9a32b34baa6")
-		  (:revdesc . "b0c871f4b358")
+		  (:commit . "f0069e0da2b463902fbbaa98459973a3544f5c41")
+		  (:revdesc . "f0069e0da2b4")
 		  (:keywords "languages")
 		  (:authors
 		   ("Eric Prud'hommeaux" . "eric@w3.org"))
