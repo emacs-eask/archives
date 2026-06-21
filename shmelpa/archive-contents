@@ -13471,6 +13471,20 @@
 	      (:maintainers
 	       ("Xu Chunyang" . "mail@xuchunyang.me"))
 	      (:maintainer "Xu Chunyang" . "mail@xuchunyang.me"))])
+ (countdown-modeline .
+		     [(0 1 0 1 -4 20260615 1455)
+		      ((emacs
+			(27 1)))
+		      "Display a color-coded countdown in the modeline" tar
+		      ((:url . "https://github.com/jholland82/countdown-modeline")
+		       (:commit . "7485863972bd941a786bc595d566e02a490bb352")
+		       (:revdesc . "7485863972bd")
+		       (:keywords "convenience" "modeline")
+		       (:authors
+			("Jeffrey Holland" . "jeff.holland@gmail.com"))
+		       (:maintainers
+			("Jeffrey Holland" . "jeff.holland@gmail.com"))
+		       (:maintainer "Jeffrey Holland" . "jeff.holland@gmail.com"))])
  (cov .
       [(0 1 0 1 -4 20250126 2333)
        ((emacs
@@ -24540,7 +24554,7 @@
 		      ("Andrew Smith" . "andy.bill.smith@gmail.com"))
 		     (:maintainer "Andrew Smith" . "andy.bill.smith@gmail.com"))])
  (evil-ghostel .
-	       [(0 1 0 1 -4 20260620 2225)
+	       [(0 1 0 1 -4 20260621 1340)
 		((emacs
 		  (28 1))
 		 (evil
@@ -24549,8 +24563,8 @@
 		  (0 8 0)))
 		"Evil-mode integration for ghostel" tar
 		((:url . "https://github.com/dakra/ghostel")
-		 (:commit . "2479c15182458e337e6929b9f0daf82eb0368d4d")
-		 (:revdesc . "2479c1518245")
+		 (:commit . "dcb06ec909b955ba5e0702a1d9cfd0e1d5baa0fe")
+		 (:revdesc . "dcb06ec909b9")
 		 (:authors
 		  ("Daniel Kraus" . "daniel@kraus.my"))
 		 (:maintainers
@@ -32177,15 +32191,15 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20260620 2229)
+	  [(0 1 0 1 -4 20260621 1959)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30 1 0 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "d8fde4241e15c094ee3c6453a76d4dbbc87abd1a")
-	    (:revdesc . "d8fde4241e15")
+	    (:commit . "c4557b8bb1d5d6184cc1fecc70c5d8b409510061")
+	    (:revdesc . "c4557b8bb1d5")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -35299,13 +35313,13 @@
 	   ("Jürgen Hötzel" . "juergen.hoetzel@hr.de"))
 	  (:maintainer "Jürgen Hötzel" . "juergen.hoetzel@hr.de"))])
  (guava-themes .
-	       [(0 1 0 1 -4 20260617 2136)
+	       [(0 1 0 1 -4 20260621 1947)
 		((emacs
 		  (24 1)))
 		"A pack of plant-inspired themes" tar
 		((:url . "https://github.com/bormoge/guava-themes")
-		 (:commit . "6b1329c7e28c414dce3feaaf15b3007409da61a3")
-		 (:revdesc . "6b1329c7e28c")
+		 (:commit . "550247dca3bf268d68a703affd25e1aaa72665f5")
+		 (:revdesc . "550247dca3bf")
 		 (:keywords "themes" "faces" "color")
 		 (:authors
 		  ("Geralld Borbón" . "geralldborbon@gmail.com"))
@@ -36085,15 +36099,15 @@
 		(:revdesc . "8c70b48fe5fb")
 		(:keywords "faces"))])
  (helm .
-       [(0 1 0 1 -4 20260528 352)
+       [(0 1 0 1 -4 20260621 1843)
 	((helm-core
 	  (4 0 7))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
-	 (:commit . "662cfc6bd3428675e687647aa898924c3fcdd8ad")
-	 (:revdesc . "662cfc6bd342")
+	 (:commit . "13e2dc610cb5c572e26e58241d6ff667fc07bdba")
+	 (:revdesc . "13e2dc610cb5")
 	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help" "package")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
@@ -55464,6 +55478,22 @@
 		    (:maintainers
 		     ("Jonas Bernoulli" . "emacs.notmuch-maildir@jonas.bernoulli.dev"))
 		    (:maintainer "Jonas Bernoulli" . "emacs.notmuch-maildir@jonas.bernoulli.dev"))])
+ (notmuch-multi .
+		[(0 1 0 1 -4 20260616 722)
+		 ((emacs
+		   (29))
+		  (notmuch
+		   (0 38 3)))
+		 "Prettified Notmuch UI For Multiple Accounts" tar
+		 ((:url . "https://github.com/pivaldi/notmuch-multi")
+		  (:commit . "baf954b1d510b0e298823ac9c4b1174d953a24c0")
+		  (:revdesc . "baf954b1d510")
+		  (:keywords "mail" "notmuch")
+		  (:authors
+		   ("Philippe IVALDI" . "emacs@ivaldi.me"))
+		  (:maintainers
+		   ("Philippe IVALDI" . "emacs@ivaldi.me"))
+		  (:maintainer "Philippe IVALDI" . "emacs@ivaldi.me"))])
  (notmuch-transient .
 		    [(0 1 0 1 -4 20260601 1531)
 		     ((emacs

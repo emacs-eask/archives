@@ -221,7 +221,7 @@
       (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
       (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider
-  . [(1 23 0 20260621 16)
+  . [(1 23 0 20260621 22)
      ((emacs (28)) (clojure-mode (5 19)) (compat (30))
       (parseedn (1 2 1)) (queue (0 2)) (spinner (1 7)) (seq (2 22))
       (sesman (0 3 2)) (transient (0 4 1)))
@@ -235,7 +235,7 @@
 		("Artur Malabarba" . "bruce.connor.am@gmail.com")
 		("Hugo Duncan" . "hugo@hugoduncan.org")
 		("Steve Purcell" . "steve@sanityinc.com"))
-      (:commit . "9389a7713165049332dda80da0341c386b895850"))])
+      (:commit . "f17439131c8af71542a186e04b877b9372142464"))])
  (clojure-mode
   . [(5 23 0 0 20260615 3) ((emacs (27 1)))
      "Major mode for Clojure code" tar
@@ -294,12 +294,12 @@
       (:authors ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
       (:commit . "69e03917f6fd35e25b9a9dfd02df8ff3643f9227"))])
  (csv2ledger
-  . [(1 5 4 0 20250417 171625) ((emacs (29 1)) (csv-mode (1 24)))
+  . [(1 5 5 0 20260621 0) ((emacs (29 1)) (csv-mode (1 24)))
      "Convert csv files to ledger entries" tar
      ((:url . "https://codeberg.org/joostkremers/csv2ledger")
       (:maintainer "Joost Kremers" . "joostkremers@fastmail.fm")
       (:authors ("Joost Kremers" . "joostkremers@fastmail.fm"))
-      (:commit . "1f5fc33732be071ed4faa4d2d1e55d0650b936e9"))])
+      (:commit . "7b095112e7a0a4cbe58e665129c3b2d227f3c96e"))])
  (cyberpunk-theme
   . [(1 22 0 20240112 144451) nil "Cyberpunk Color Theme" tar
      ((:url . "https://github.com/n3mo/cyberpunk-theme.el")
@@ -1013,7 +1013,7 @@
       (:authors ("Pranshu Sharma" . "pranshu@bauherren.ovh"))
       (:commit . "bf143ee8382f09e0a68d775d80445065f32929c3"))])
  (helm
-  . [(4 0 7 0 20260618 17) ((helm-core (4 0 7)) (wfnames (1 2)))
+  . [(4 0 7 0 20260621 18) ((helm-core (4 0 7)) (wfnames (1 2)))
      "Helm is an Emacs incremental and narrowing framework" tar
      ((:url . "https://emacs-helm.github.io/helm/")
       (:keywords "helm" "convenience" "files" "buffers" "grep"
@@ -1021,14 +1021,14 @@
 		 "package")
       (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
       (:authors ("Thierry Volpiatto" . "thievol@posteo.net"))
-      (:commit . "558427bf221a61014e25d1be3a29dbebad277973"))])
+      (:commit . "13e2dc610cb5c572e26e58241d6ff667fc07bdba"))])
  (helm-core
-  . [(4 0 7 0 20260618 17) ((emacs (25 1)) (async (1 9 9)))
+  . [(4 0 7 0 20260621 18) ((emacs (25 1)) (async (1 9 9)))
      "Development files for Helm" tar
      ((:url . "https://emacs-helm.github.io/helm/")
       (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
       (:authors ("Thierry Volpiatto" . "thievol@posteo.net"))
-      (:commit . "558427bf221a61014e25d1be3a29dbebad277973"))])
+      (:commit . "13e2dc610cb5c572e26e58241d6ff667fc07bdba"))])
  (hideshowvis
   . [(0 9 0 20251119 95800) ((emacs (27 1)))
      "Fringe markers for regions foldable by hideshow.el" tar
@@ -1297,7 +1297,7 @@
       (:authors ("Jon Oddie" . "j.j.oddie@gmail.com"))
       (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit
-  . [(4 5 0 0 20260619 302)
+  . [(4 5 0 0 20260621 305)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (magit-section (4 5)) (seq (2 24)) (transient (0 13))
       (with-editor (3 4)))
@@ -1309,9 +1309,9 @@
        ("Kyle Meyer" . "kyle@kyleam.com"))
       (:authors ("Marius Vollmer" . "marius.vollmer@gmail.com")
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "899fb4d8d56e8f5fd8c62e236e51e48d3f012cad"))])
+      (:commit . "20058311576bd47751681bdc2ae239da76dec2dc"))])
  (magit-section
-  . [(4 5 0 0 20260619 302)
+  . [(4 5 0 0 20260621 305)
      ((emacs (28 1)) (compat (31 0)) (cond-let (0 2)) (llama (1 0))
       (seq (2 24)))
      "Sections for read-only buffers" tar
@@ -1320,7 +1320,7 @@
 		   . "emacs.magit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "899fb4d8d56e8f5fd8c62e236e51e48d3f012cad"))])
+      (:commit . "20058311576bd47751681bdc2ae239da76dec2dc"))])
  (markdown-mode
   . [(2 90 20260425 95459) ((emacs (28 1)))
      "Major mode for Markdown-formatted text" tar
