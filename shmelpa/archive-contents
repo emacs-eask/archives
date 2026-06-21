@@ -8479,7 +8479,7 @@
 		 ("Adam Chyła https://chyla.org/" . "adam@chyla.org"))
 		(:maintainer "Adam Chyła https://chyla.org/" . "adam@chyla.org"))])
  (cider .
-	[(0 1 0 1 -4 20260621 851)
+	[(0 1 0 1 -4 20260621 1053)
 	 ((emacs
 	   (28))
 	  (clojure-mode
@@ -8500,8 +8500,8 @@
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
 	 ((:url . "https://www.github.com/clojure-emacs/cider")
-	  (:commit . "e1952d5809deb6ee7d181b9337020c037e408200")
-	  (:revdesc . "e1952d5809de")
+	  (:commit . "07399fc9244a6b657a1de7d128d15f694e890900")
+	  (:revdesc . "07399fc9244a")
 	  (:keywords "languages" "clojure" "cider")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
@@ -19088,7 +19088,7 @@
 	 ("Alexey Kutepov" . "reximkut@gmail.com"))
 	(:maintainer "Alexey Kutepov" . "reximkut@gmail.com"))])
  (ebib .
-       [(0 1 0 1 -4 20250909 1036)
+       [(0 1 0 1 -4 20260621 1010)
 	((parsebib
 	  (6 0))
 	 (emacs
@@ -19097,8 +19097,8 @@
 	  (29 1 4 3)))
 	"A BibTeX database manager" tar
 	((:url . "http://joostkremers.github.io/ebib/")
-	 (:commit . "72686b4d045dcbdb794e56c8ba60a77eed52ee83")
-	 (:revdesc . "72686b4d045d")
+	 (:commit . "75c1eda30c8d5f33eb725191c03b6306efa253f7")
+	 (:revdesc . "75c1eda30c8d")
 	 (:keywords "text" "bibtex")
 	 (:authors
 	  ("Joost Kremers" . "joostkremers@fastmail.fm"))
@@ -32177,15 +32177,15 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20260620 2225)
+	  [(0 1 0 1 -4 20260620 2229)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30 1 0 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "2479c15182458e337e6929b9f0daf82eb0368d4d")
-	    (:revdesc . "2479c1518245")
+	    (:commit . "d8fde4241e15c094ee3c6453a76d4dbbc87abd1a")
+	    (:revdesc . "d8fde4241e15")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -54244,13 +54244,13 @@
 	     ("Jacek Sliwerski" . "rzyj@o2.pl"))
 	    (:maintainer "Jacek Sliwerski" . "rzyj@o2.pl"))])
  (neocaml .
-	  [(0 1 0 1 -4 20260620 1423)
+	  [(0 1 0 1 -4 20260621 829)
 	   ((emacs
 	     (29 1)))
 	   "Major mode for OCaml code" tar
 	   ((:url . "https://github.com/bbatsov/neocaml")
-	    (:commit . "67fd8abea687a8d0d574b740a73edc55be29a648")
-	    (:revdesc . "67fd8abea687")
+	    (:commit . "fd0a3e27108d288edb8dd1b3f19de12652f6e549")
+	    (:revdesc . "fd0a3e27108d")
 	    (:keywords "languages" "ocaml" "ml")
 	    (:authors
 	     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -74059,13 +74059,17 @@
 	      ("Chen Bin" . "chenbinDOTshATgmailDOTcom"))
 	     (:maintainer "Chen Bin" . "chenbinDOTshATgmailDOTcom"))])
  (shexc-ts-mode .
-		[(0 1 0 1 -4 20260620 1006)
+		[(0 1 0 1 -4 20260621 901)
 		 ((emacs
-		   (29 1)))
+		   (29 1))
+		  (transient
+		   (0 5 0))
+		  (compat
+		   (29 1 4 4)))
 		 "Tree-sitter major mode for ShExC" tar
 		 ((:url . "https://github.com/ericprud/shexc-mode-for-emacs")
-		  (:commit . "485f3b3d215ad86ba36dcdca9cf9adfbeaba049b")
-		  (:revdesc . "485f3b3d215a")
+		  (:commit . "65eafe0b42c1e0defc764b6f222034d6be171e0c")
+		  (:revdesc . "65eafe0b42c1")
 		  (:keywords "languages")
 		  (:authors
 		   ("Eric Prud'hommeaux" . "eric@w3.org"))
