@@ -4966,13 +4966,13 @@
 	  ("Oleksandr Manzyuk" . "manzyuk@gmail.com"))
 	 (:maintainer "Oleksandr Manzyuk" . "manzyuk@gmail.com"))])
  (better-defaults .
-		  [(0 1 0 1 -4 20251012 2227)
+		  [(0 1 0 1 -4 20260621 1647)
 		   ((emacs
 		     (25 1)))
 		   "Fixing weird quirks and poor defaults" tar
 		   ((:url . "https://git.sr.ht/~technomancy/better-defaults")
-		    (:commit . "b4e566ddd368609c7df711c4f0d9cc345455aa0f")
-		    (:revdesc . "b4e566ddd368")
+		    (:commit . "faf5c664472d01d978442b5e567470a51f9566c2")
+		    (:revdesc . "faf5c664472d")
 		    (:keywords "convenience"))])
  (better-jumper .
 		[(0 1 0 1 -4 20241009 1517)
@@ -8479,7 +8479,7 @@
 		 ("Adam Chyła https://chyla.org/" . "adam@chyla.org"))
 		(:maintainer "Adam Chyła https://chyla.org/" . "adam@chyla.org"))])
  (cider .
-	[(0 1 0 1 -4 20260621 1053)
+	[(0 1 0 1 -4 20260621 1542)
 	 ((emacs
 	   (28))
 	  (clojure-mode
@@ -8500,8 +8500,8 @@
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
 	 ((:url . "https://www.github.com/clojure-emacs/cider")
-	  (:commit . "07399fc9244a6b657a1de7d128d15f694e890900")
-	  (:revdesc . "07399fc9244a")
+	  (:commit . "79cd552aea5b4a6a4c62891c5dabf126610e397b")
+	  (:revdesc . "79cd552aea5b")
 	  (:keywords "languages" "clojure" "cider")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
@@ -19157,7 +19157,7 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20260621 1416)
+      [(0 1 0 1 -4 20260621 1541)
        ((emacs
 	 (28 1))
 	(dash
@@ -19172,8 +19172,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "d42762c8ad113349a4628cd7e9d06195d983f9e8")
-	(:revdesc . "d42762c8ad11")
+	(:commit . "20524aab68b56ff9791e70292c414ac5a369d8e3")
+	(:revdesc . "20524aab68b5")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
@@ -46373,6 +46373,20 @@
 	       (:maintainers
 		("Lukasz Pawelczyk" . "havner@gmail.com"))
 	       (:maintainer "Lukasz Pawelczyk" . "havner@gmail.com"))])
+ (leadkey .
+	  [(0 1 0 1 -4 20260614 1622)
+	   ((emacs
+	     (30 1)))
+	   "Translate leader keys to key sequences" tar
+	   ((:url . "https://github.com/jixiuf/emacs-leadkey")
+	    (:commit . "04d9dfde7dcfbd06d6dbd63bc2294cf91430029c")
+	    (:revdesc . "04d9dfde7dcf")
+	    (:keywords "convenience")
+	    (:authors
+	     ("jixiuf" . "https://github.com/jixiuf"))
+	    (:maintainers
+	     ("jixiuf" . "https://github.com/jixiuf"))
+	    (:maintainer "jixiuf" . "https://github.com/jixiuf"))])
  (leaf .
        [(0 1 0 1 -4 20260302 652)
 	((emacs
@@ -49155,7 +49169,7 @@
 	       (:revdesc . "ba05cca022a2")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20260621 1255)
+	[(0 1 0 1 -4 20260621 1253)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -49174,8 +49188,8 @@
 	   (3 4)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "f3e6862b94ebf7033fb5e0c6659a0b7f69c12135")
-	  (:revdesc . "f3e6862b94eb")
+	  (:commit . "20058311576bd47751681bdc2ae239da76dec2dc")
+	  (:revdesc . "20058311576b")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -65646,7 +65660,7 @@
 	       ((emacs
 		 (24)))
 	       "Plain theme without syntax highlighting" tar
-	       ((:url . "https://github.com/yegortimoshenko/plain-theme")
+	       ((:url . "https://github.com/lukateras/plain-theme")
 		(:commit . "2609a811335d58cfb73a65d6307c156fe09037d3")
 		(:revdesc . "2609a811335d"))])
  (plan9-theme .
@@ -74059,7 +74073,7 @@
 	      ("Chen Bin" . "chenbinDOTshATgmailDOTcom"))
 	     (:maintainer "Chen Bin" . "chenbinDOTshATgmailDOTcom"))])
  (shexc-ts-mode .
-		[(0 1 0 1 -4 20260621 901)
+		[(0 1 0 1 -4 20260621 1634)
 		 ((emacs
 		   (29 1))
 		  (transient
@@ -74068,8 +74082,8 @@
 		   (29 1 4 4)))
 		 "Tree-sitter major mode for ShExC" tar
 		 ((:url . "https://github.com/ericprud/shexc-mode-for-emacs")
-		  (:commit . "65eafe0b42c1e0defc764b6f222034d6be171e0c")
-		  (:revdesc . "65eafe0b42c1")
+		  (:commit . "9e944de428d380c8382ace1d8007bbdb714e09d8")
+		  (:revdesc . "9e944de428d3")
 		  (:keywords "languages")
 		  (:authors
 		   ("Eric Prud'hommeaux" . "eric@w3.org"))
@@ -74400,13 +74414,13 @@
 		("Paul W. Rankin" . "rnkn@rnkn.xyz"))
 	       (:maintainer "Paul W. Rankin" . "rnkn@rnkn.xyz"))])
  (sidebuf .
-	  [(0 1 0 1 -4 20260415 2249)
+	  [(0 1 0 1 -4 20260621 1644)
 	   ((emacs
 	     (27 1)))
 	   "Buffer list sidebar panel" tar
 	   ((:url . "https://github.com/rain-64/sidebuf")
-	    (:commit . "89ca26d1859e89759f00065c07904d3ef5c80a4f")
-	    (:revdesc . "89ca26d1859e")
+	    (:commit . "bac206ea46bdf8450317d29b98dfcd970aa6e85e")
+	    (:revdesc . "bac206ea46bd")
 	    (:keywords "convenience" "buffers")
 	    (:authors
 	     ("rain-64" . "https://github.com/rain-64"))
