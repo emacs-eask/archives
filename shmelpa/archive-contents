@@ -19987,7 +19987,7 @@
 	       (:revdesc . "9630dfac9549")
 	       (:keywords "convenience" "languages" "tools"))])
  (ekg .
-      [(0 8 0 1 -4 20260622 1452)
+      [(0 8 0 1 -4 20260623 1318)
        ((triples
 	 (0 6 1))
 	(emacs
@@ -19998,8 +19998,8 @@
 	 (1 0 0)))
        "A sqlite-based note-taking package based on tags" tar
        ((:url . "https://github.com/ahyatt/ekg")
-	(:commit . "7c943067ac574ed71a5c55ffec5c0a21de5882fb")
-	(:revdesc . "7c943067ac57")
+	(:commit . "4ac373842f24eb7d3e34ba0ed3be4cb0f6384591")
+	(:revdesc . "4ac373842f24")
 	(:keywords "outlines" "hypermedia")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
@@ -20686,15 +20686,15 @@
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
-	 [(0 1 0 1 -4 20260621 2200)
+	 [(0 1 0 1 -4 20260623 1113)
 	  ((emacs
-	    (28 1))
+	    (29 1))
 	   (compat
 	    (31)))
 	  "An Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/emacs-elfeed/elfeed")
-	   (:commit . "60e2a436fc2001a8c234b2a6b941b309e613885e")
-	   (:revdesc . "60e2a436fc20")
+	   (:commit . "2c4f03158a3bf410d95c57851de284a1f88537ca")
+	   (:revdesc . "2c4f03158a3b")
 	   (:keywords "network" "comm" "hypermedia")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -20917,9 +20917,9 @@
 		     ("Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))
 		    (:maintainer "Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))])
  (elfeed-web .
-	     [(0 1 0 1 -4 20260611 1557)
+	     [(0 1 0 1 -4 20260623 1111)
 	      ((emacs
-		(28 1))
+		(29 1))
 	       (compat
 		(31))
 	       (elfeed
@@ -20928,8 +20928,8 @@
 		(1 6)))
 	      "Web interface to Elfeed" tar
 	      ((:url . "https://github.com/emacs-elfeed/elfeed-web")
-	       (:commit . "0bef963f7eaccee21571844730586d8dafa4249f")
-	       (:revdesc . "0bef963f7eac")
+	       (:commit . "9074428d7a5159e647ebdd07f53c9720b908aaf6")
+	       (:revdesc . "9074428d7a51")
 	       (:keywords "network" "hypermedia")
 	       (:authors
 		("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -30679,7 +30679,7 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20260620 2146)
+	[(0 1 0 1 -4 20260623 1325)
 	 ((emacs
 	   (29 1))
 	  (compat
@@ -30698,16 +30698,14 @@
 	   (4 5))
 	  (markdown-mode
 	   (2 8))
-	  (seq
-	   (2 24))
 	  (transient
 	   (0 13))
 	  (yaml
 	   (1 2)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "d9df7000627694df04a095c1f76432e5c0614e49")
-	  (:revdesc . "d9df70006276")
+	  (:commit . "0c9407833bd688f83ad496b37ea71381e758d65b")
+	  (:revdesc . "0c9407833bd6")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -61820,9 +61818,9 @@
 	    ("Yasuhito Takamiya" . "yasuhito@gmail.com"))
 	   (:maintainer "Yasuhito Takamiya" . "yasuhito@gmail.com"))])
  (orgit .
-	[(0 1 0 1 -4 20260601 1618)
+	[(0 1 0 1 -4 20260623 1320)
 	 ((emacs
-	   (28 1))
+	   (29 1))
 	  (compat
 	   (31 0))
 	  (cond-let
@@ -61833,8 +61831,8 @@
 	   (9 8)))
 	 "Support for Org links to Magit buffers" tar
 	 ((:url . "https://github.com/magit/orgit")
-	  (:commit . "4a4c03ee40b0e2509b49303e151ee217edaf0da4")
-	  (:revdesc . "4a4c03ee40b0")
+	  (:commit . "bf7a7f1e7e4dd3bc5e767166b99b99c7a8821c6f")
+	  (:revdesc . "bf7a7f1e7e4d")
 	  (:keywords "hypermedia" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
@@ -86548,17 +86546,19 @@
 		       ("Campbell Barton" . "ideasman42@gmail.com"))
 		      (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
  (with-editor .
-	      [(0 1 0 1 -4 20260601 1526)
+	      [(0 1 0 1 -4 20260623 1348)
 	       ((emacs
 		 (28 1))
 		(compat
 		 (31 0))
 		(cond-let
-		 (1 1)))
+		 (1 1))
+		(llama
+		 (1 0)))
 	       "Use the Emacsclient as $EDITOR" tar
 	       ((:url . "https://github.com/magit/with-editor")
-		(:commit . "cdf2ac2314042243fae385bb8c2821ec9c3888ae")
-		(:revdesc . "cdf2ac231404")
+		(:commit . "c319ef4d3a9dab479b4077cdc089d1ffac97d7db")
+		(:revdesc . "c319ef4d3a9d")
 		(:keywords "processes" "terminals")
 		(:authors
 		 ("Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev"))
