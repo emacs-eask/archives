@@ -61818,21 +61818,23 @@
 	    ("Yasuhito Takamiya" . "yasuhito@gmail.com"))
 	   (:maintainer "Yasuhito Takamiya" . "yasuhito@gmail.com"))])
  (orgit .
-	[(0 1 0 1 -4 20260623 1437)
+	[(0 1 0 1 -4 20260623 2148)
 	 ((emacs
 	   (29 1))
 	  (compat
 	   (31 0))
 	  (cond-let
 	   (1 1))
+	  (llama
+	   (1 0))
 	  (magit
 	   (4 5))
 	  (org
 	   (9 8)))
 	 "Support for Org links to Magit buffers" tar
 	 ((:url . "https://github.com/magit/orgit")
-	  (:commit . "281ab0c95371be01fac967faaeab820e0a8ace7f")
-	  (:revdesc . "281ab0c95371")
+	  (:commit . "1aa3a27b1cb6aec913f7365caebdd6ffbe178443")
+	  (:revdesc . "1aa3a27b1cb6")
 	  (:keywords "hypermedia" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
@@ -61857,7 +61859,7 @@
 	       (:revdesc . "08f7a16f3cc3")
 	       (:keywords "hypermedia" "vc"))])
  (orgit-forge .
-	      [(0 1 0 1 -4 20260401 1227)
+	      [(0 1 0 1 -4 20260623 2150)
 	       ((emacs
 		 (29 1))
 		(compat
@@ -61874,8 +61876,8 @@
 		 (2 1)))
 	       "Org links to Forge issue buffers" tar
 	       ((:url . "https://github.com/magit/orgit-forge")
-		(:commit . "8e4496d7f7f84fab3e36d10883386c02f43a67e7")
-		(:revdesc . "8e4496d7f7f8")
+		(:commit . "1e325a23ccc707373c13aee91c15a0bc0d1d6f41")
+		(:revdesc . "1e325a23ccc7")
 		(:keywords "hypermedia" "vc")
 		(:authors
 		 ("Jonas Bernoulli" . "emacs.orgit-forge@jonas.bernoulli.dev"))
