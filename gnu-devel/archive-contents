@@ -173,13 +173,13 @@
       (:authors ("John Wiegley" . "jwiegley@gmail.com"))
       (:commit . "5faab28916603bb324d9faba057021ce028ca847"))])
  (auctex
-  . [(14 1 2 0 20260623 42) ((emacs (28 1)))
+  . [(14 1 2 0 20260623 43) ((emacs (28 1)))
      "Integrated environment for *TeX*" tar
      ((:url . "https://www.gnu.org/software/auctex/")
       (:keywords "tex" "latex" "texinfo" "context" "doctex"
 		 "preview-latex")
       (:maintainer nil . "auctex-devel@gnu.org")
-      (:commit . "6a74bfff3c6f89ae6ca6176bb15766c20fa95d5c"))])
+      (:commit . "69aa7cdd8a929995456e04f35bd23712797a1b18"))])
  (auctex-cont-latexmk
   . [(0 3 0 20260617 10) ((emacs (29 3)) (auctex (14 0 5)))
      "run latexmk continuously, report errors via Flymake" tar
@@ -1084,7 +1084,7 @@
       (:authors ("Protesilaos" . "info@protesilaos.com"))
       (:commit . "5cdb7dd361ad3b5d7310f94375a832cd94c182d8"))])
  (eglot
-  . [(1 23 0 20260620 29)
+  . [(1 23 0 20260622 30)
      ((emacs (26 3)) (eldoc (1 16 0)) (external-completion (0 1))
       (flymake (1 4 5)) (jsonrpc (1 0 28)) (project (0 11 2))
       (seq (2 23)) (xref (1 7 0)))
@@ -1093,7 +1093,7 @@
       (:keywords "convenience" "languages")
       (:maintainer "João Távora" . "joaotavora@gmail.com")
       (:authors ("João Távora" . "joaotavora@gmail.com"))
-      (:commit . "4cfcf6ac67b079cb1b12758595c40c5f1c1ffc8b"))])
+      (:commit . "b8b52458c0067859ee324cbfc4dfa3780cfaf03d"))])
  (el-job
   . [(2 7 4 0 20260306 64315) ((emacs (29 1)))
      "Contrived way to call a function using all CPU cores" tar
@@ -1305,7 +1305,7 @@
       (:url . "https://elpa.gnu.org/packages/external-completion.html")
       (:commit . "92788f3be43b43f82876b9d0e263d5e55d00ec0e"))])
  (exwm
-  . [(0 34 0 20260527 69) ((emacs (27 1)) (xelb (0 22)) (compat (31)))
+  . [(0 34 0 20260623 71) ((emacs (29 1)) (xelb (0 22)) (compat (31)))
      "Emacs X Window Manager" tar
      ((:url . "https://github.com/emacs-exwm/exwm") (:keywords "unix")
       (:maintainer
@@ -1313,7 +1313,7 @@
        ("Steven Allen" . "steven@stebalien.com")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Chris Feng" . "chris.w.feng@gmail.com"))
-      (:commit . "4b967c2ded4e61c4014e676b0652b1e32f5b71ba"))])
+      (:commit . "dddf341eb57d6a8baf88c72edec6f3b64694f4eb"))])
  (f90-interface-browser
   . [(1 1 0 20221221 75553) ((cl-lib (0 7)))
      "Parse and browse f90 interfaces" tar
@@ -2239,13 +2239,13 @@
       (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
       (:commit . "8d70286c3fda845f3b8d97a937248670ca002f13"))])
  (modus-themes
-  . [(5 3 0 0 20260621 0) ((emacs (28 1)))
+  . [(5 3 0 0 20260623 1) ((emacs (28 1)))
      "Elegant, highly legible and customizable themes" tar
      ((:url . "https://github.com/protesilaos/modus-themes")
       (:keywords "faces" "theme" "accessibility")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "2d044ac89f3bca7011fa2bfda003cf80ce115f70"))])
+      (:commit . "c6a08aa1a8a70cc94eeb7939b26029187d5289f3"))])
  (mpdired
   . [(40 20250502 114712) ((emacs (29)))
      "A dired-like client for Music Player Daemon" tar
@@ -2560,13 +2560,13 @@
       (:url . "https://elpa.gnu.org/packages/osc.html")
       (:commit . "62eda3d8fb288b6a16c35a7220a507d0991c5a74"))])
  (osm
-  . [(2 3 0 20260519 102419) ((emacs (29 1)) (compat (31)))
+  . [(2 3 0 20260623 1) ((emacs (29 1)) (compat (31)))
      "OpenStreetMap viewer" tar
      ((:url . "https://github.com/minad/osm")
       (:keywords "network" "multimedia" "hypermedia" "mouse")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "a9e76ce08fb86e40a9f3efc42b38045c9b58fa95"))])
+      (:commit . "b0fceb1f8488abb577e5110676f50753ea35ee24"))])
  (other-frame-window
   . [(1 0 6 0 20221221 81352) ((emacs (24 4)))
      "Minor mode to enable global prefix keys for other frame/window buffer placement"
@@ -4014,7 +4014,7 @@
       (:authors ("Yuan Fu" . "casouri@gmail.com"))
       (:commit . "6c63bc4c40eae8fe7a3213efe11b75dfe73aaaa4"))])
  (xelb
-  . [(0 22 0 20260502 101759) ((emacs (27 1)) (compat (31)))
+  . [(0 22 0 20260623 5) ((emacs (29 1)) (compat (31)))
      "X protocol Emacs Lisp Binding" tar
      ((:url . "https://github.com/emacs-exwm/xelb") (:keywords "unix")
       (:maintainer
@@ -4022,7 +4022,7 @@
        ("Steven Allen" . "steven@stebalien.com")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Chris Feng" . "chris.w.feng@gmail.com"))
-      (:commit . "01158c3d7a6bad59345b1d444d2e2542e6e1c88e"))])
+      (:commit . "69f5e471489b1750000a6c4217bdb072d6f3774d"))])
  (xpm
   . [(1 0 5 0 20230911 4618) ((cl-lib (0 5)) (queue (0 2)))
      "edit XPM images" tar
