@@ -869,13 +869,13 @@
       (:authors ("Toby Cubitt" . "toby-predictive@dr-qubit.org"))
       (:commit . "a83ea986982b2d09d150456028a9f1e73658333a"))])
  (diff-hl
-  . [(1 10 0 0 20260624 182) ((cl-lib (0 2)) (emacs (27 1)))
+  . [(1 10 0 0 20260625 184) ((cl-lib (0 2)) (emacs (27 1)))
      "Highlight uncommitted changes using VC" tar
      ((:url . "https://github.com/dgutov/diff-hl")
       (:keywords "vc" "diff")
       (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
       (:authors ("Dmitry Gutov" . "dmitry@gutov.dev"))
-      (:commit . "23302acc331738652f6295eae9c8feb856cb021e"))])
+      (:commit . "4905749ad29be958e1ad7353b1557fdc5716847a"))])
  (diffview
   . [(1 0 0 20230224 111651) nil "View diffs in side-by-side format"
      tar
@@ -1607,14 +1607,14 @@
       (:keywords "xref" "project" "imenu" "gtags" "global")
       (:commit . "fe35d14a0159820f66144cd1be28ef4574ed1547"))])
  (guess-language
-  . [(0 0 1 0 20260529 147)
+  . [(0 0 1 0 20260625 150)
      ((cl-lib (0 5)) (emacs (24)) (nadvice (0 1)))
      "Robust automatic language detection" tar
      ((:url . "https://github.com/tmalsburg/guess-language.el")
       (:keywords "wp")
       (:maintainer "Titus von der Malsburg" . "malsburg@posteo.de")
       (:authors ("Titus von der Malsburg" . "malsburg@posteo.de"))
-      (:commit . "030258427ba5eff01119e6bcdb4a941deb53032f"))])
+      (:commit . "703f17f5ba7062f5c6c4dbb03d379bb93a124d57"))])
  (hcel
   . [(1 0 0 0 20221012 11633) ((emacs (28)))
      "Haskell codebase explorer / cross referencer" tar
@@ -1822,14 +1822,14 @@
       (:maintainer "Danny Freeman" . "danny@dfreeman.email")
       (:commit . "b4f59c13acf783513c897a639eb4e35c20b288d9"))])
  (javaimp
-  . [(0 9 2 0 20260619 6) nil
+  . [(0 9 2 0 20260625 8) nil
      "Add and reorder Java import statements in Maven/Gradle projects"
      tar
      ((:keywords "java" "maven" "gradle" "programming")
       (:maintainer "Filipp Gunbin" . "fgunbin@fastmail.fm")
       (:authors ("Filipp Gunbin" . "fgunbin@fastmail.fm"))
       (:url . "https://elpa.gnu.org/packages/javaimp.html")
-      (:commit . "639a3ce0b60987faf1214780c017632f5aef9123"))])
+      (:commit . "30f7c89bfbfc3c587be5a669b68a685bed39011d"))])
  (jgraph-mode
   . [(1 1 0 20221221 80333) ((cl-lib (0 5)))
      "Major mode for Jgraph files" tar
@@ -2560,13 +2560,13 @@
       (:url . "https://elpa.gnu.org/packages/osc.html")
       (:commit . "62eda3d8fb288b6a16c35a7220a507d0991c5a74"))])
  (osm
-  . [(2 3 0 20260623 1) ((emacs (29 1)) (compat (31)))
+  . [(2 3 0 20260624 3) ((emacs (29 1)) (compat (31)))
      "OpenStreetMap viewer" tar
      ((:url . "https://github.com/minad/osm")
       (:keywords "network" "multimedia" "hypermedia" "mouse")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "b0fceb1f8488abb577e5110676f50753ea35ee24"))])
+      (:commit . "41765d63fd6810df8a43e3290e98b11dab93b40f"))])
  (other-frame-window
   . [(1 0 6 0 20221221 81352) ((emacs (24 4)))
      "Minor mode to enable global prefix keys for other frame/window buffer placement"
@@ -3615,15 +3615,15 @@
        ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
       (:commit . "9d103f338fb9fd4506a0f1651c483209ab838f49"))])
  (transient-cycles
-  . [(2 0 0 20250625 85410) ((emacs (29 1)))
+  . [(2 1 0 20260625 0) ((emacs (29 1)))
      "Define command variants with transient cycling" tar
      ((:url
-       . "https://git.spwhitton.name/dotfiles/tree/.emacs.d/site-lisp/transient-cycles.el")
+       . "https://git.spwhitton.name/dotfiles/tree/.emacs.d/user-lisp/transient-cycles.el")
       (:keywords "buffer" "window" "processes" "minor-mode"
 		 "convenience")
       (:maintainer "Sean Whitton" . "spwhitton@spwhitton.name")
       (:authors ("Sean Whitton" . "spwhitton@spwhitton.name"))
-      (:commit . "11e547c11b84fa81bb4ef8ec33ee777f96576e8c"))])
+      (:commit . "2a35e2086675c08d1d3d451307566215202b641e"))])
  (tree-inspector
   . [(0 4 0 20240322 113138) ((emacs (27 1)) (treeview (1 1 0)))
      "Inspector tool for Emacs Lisp object that uses a treeview" tar
