@@ -221,7 +221,7 @@
       (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
       (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider
-  . [(1 23 0 20260626 87)
+  . [(1 23 0 20260626 96)
      ((emacs (28)) (clojure-mode (5 19)) (compat (30))
       (parseedn (1 2 1)) (queue (0 2)) (spinner (1 7)) (seq (2 22))
       (sesman (0 3 2)) (transient (0 4 1)))
@@ -235,7 +235,7 @@
 		("Artur Malabarba" . "bruce.connor.am@gmail.com")
 		("Hugo Duncan" . "hugo@hugoduncan.org")
 		("Steve Purcell" . "steve@sanityinc.com"))
-      (:commit . "2379b5dc999fd78b91482dd895486445ffcfc404"))])
+      (:commit . "77549eb6dd6f30535d35f3041716e2899d2dfbb8"))])
  (clojure-mode
   . [(5 23 0 0 20260615 3) ((emacs (27 1)))
      "Major mode for Clojure code" tar
@@ -1159,14 +1159,14 @@
       (:keywords "j" "languages")
       (:commit . "e49ef0692d73b320c281e40d9fa96b2c17073695"))])
  (jabber
-  . [(0 11 0 0 20260619 11)
+  . [(0 11 1 0 20260626 0)
      ((emacs (29 1)) (fsm (0 2 0)) (keymap-popup (0 2)))
      "XMPP/Jabber client" tar
      ((:url . "https://codeberg.org/emacs-jabber/emacs-jabber")
       (:keywords "comm")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Magnus Henoch" . "mange@freemail.hu"))
-      (:commit . "b9a1629c8d65ac25f799c85403bb88a367c40d08"))])
+      (:commit . "be6c638923716bf1136d7b6a1458810bf19cc658"))])
  (jade-mode
   . [(1 0 1 0 20211019 161323) nil
      "Major mode for editing .jade files" tar
@@ -1644,13 +1644,13 @@
       (:authors ("Frédéric Perrin" . "fredericperrinreselfr"))
       (:commit . "ae60e11c96cc1767f05ce0cab6a917240ce2e37a"))])
  (projectile
-  . [(2 10 0 20260626 143) ((emacs (27 1)) (compat (30)))
+  . [(2 10 0 20260626 144) ((emacs (27 1)) (compat (30)))
      "Manage and navigate projects in Emacs easily" tar
      ((:url . "https://github.com/bbatsov/projectile")
       (:keywords "project" "convenience")
       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
       (:authors ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
-      (:commit . "50c002a824903370e935b741bd2d073b7efcfd56"))])
+      (:commit . "0fe44ed3c588c439f775484515afb90f48b3dbac"))])
  (proof-general
   . [(4 60 20260622 265) ((emacs (25 2)))
      "A generic Emacs interface for proof assistants" tar
@@ -2038,8 +2038,7 @@
       (:authors ("Tilman Rassy" . "tilman.rassy@googlemail.com"))
       (:commit . "9a1a16f84fc3c368443641f7a71aa2407ad91d38"))])
  (tuareg
-  . [(3 0 20 20260617 40) ((emacs (26 3)) (caml (4 8))) "OCaml mode"
-     tar
+  . [(3 1 10 20260626 1) ((emacs (26 3))) "OCaml mode" tar
      ((:url . "https://github.com/ocaml/tuareg")
       (:keywords "ocaml" "languages")
       (:maintainer
@@ -2052,7 +2051,7 @@
 		("Till Varoquaux" . "till@pps.jussieu.fr")
 		("Sean McLaughlin" . "seanmcl@gmail.com")
 		("Stefan Monnier" . "monnier@iro.umontreal.ca"))
-      (:commit . "7d4dd535e3f4bed2013bad545629302d07ba991e"))])
+      (:commit . "696fdc59e3a35cc44cd1c2d0607d782e0f0c9e71"))])
  (typescript-mode
   . [(0 4 0 20251127 204054) ((emacs (24 3)))
      "Major mode for editing typescript" tar
