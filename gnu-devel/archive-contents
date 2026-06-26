@@ -515,12 +515,12 @@
        ("Clément Pit-Claudel" . "clement.pitclaudel@live.com"))
       (:commit . "3b2233120d33943b8af65fec6257f0c16ad3c6fd"))])
  (company
-  . [(1 0 2 0 20260618 138) ((emacs (26 1)) (posframe (1 5 1)))
+  . [(1 0 2 0 20260626 139) ((emacs (26 1)) (posframe (1 5 1)))
      "Modular text completion framework" tar
      ((:url . "http://company-mode.github.io/")
       (:keywords "abbrev" "convenience" "matching")
       (:maintainer "Dmitry Gutov" . "dmitry@gutov.dev")
-      (:commit . "04fa1b9bfe150b1f8c76cea47c3a4af3f0e1b22e"))])
+      (:commit . "7b85d09784c2cf5f209cad98bdef2254c084c379"))])
  (company-ebdb
   . [(1 1 0 20221221 74915) ((company (0 9 4)) (ebdb (0 2)))
      "company-mode completion backend for EBDB in message-mode" tar
@@ -1683,7 +1683,7 @@
       (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com"))
       (:commit . "84a9db01eff1fcc52ad054c5ad3c22316739573f"))])
  (hyperbole
-  . [(9 0 20 20260625 1180) ((emacs (28)))
+  . [(9 0 20 20260625 1185) ((emacs (28)))
      "GNU Hyperbole: The Everyday Hypertextual Information Manager"
      tar
      ((:url . "http://www.gnu.org/software/hyperbole")
@@ -1692,7 +1692,7 @@
 		 "outlines" "tools" "wp")
       (:maintainer "Robert Weiner" . "rsw@gnu.org")
       (:authors ("Robert Weiner" . "rsw@gnu.org"))
-      (:commit . "7656681cb79ccc5539026e913c928aa4b73c1d9e"))])
+      (:commit . "968bb40736f9c7999ce30b37b723d97358901ba4"))])
  (ibuffer-sidebar
   . [(0 0 1 0 20260612 36) ((emacs (29 1))) "Sidebar for `ibuffer'"
      tar
@@ -3088,6 +3088,10 @@
       (:authors ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
       (:url . "https://elpa.gnu.org/packages/sed-mode.html")
       (:commit . "6009f57567959387b9e34068567e982b6991eb24"))])
+ (sendai-theme
+  . [(0 10 20260625 65) ((emacs (27 1))) "A cool blue color theme" tar
+     ((:url . "https://github.com/jimporter/sendai-theme")
+      (:commit . "3b6d5ab74f68fcb11cc1b5d189a30d619fd40ffd"))])
  (seq
   . [(2 24 0 20240201 135317) nil "Sequence manipulation functions"
      tar
