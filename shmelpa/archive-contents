@@ -942,13 +942,13 @@
 	       (:revdesc . "5a1a8509fb84")
 	       (:keywords "languages" "programming"))])
  (ada-ts-mode .
-	      [(0 1 0 1 -4 20260603 1308)
+	      [(0 1 0 1 -4 20260627 1553)
 	       ((emacs
 		 (29 1)))
 	       "Major mode for Ada using Tree-sitter" tar
 	       ((:url . "https://github.com/brownts/ada-ts-mode")
-		(:commit . "95f64aec514891039d04d0158df798bec152894a")
-		(:revdesc . "95f64aec5148")
+		(:commit . "32fcf68dba7463902481b256cdecad08e4b5b0a7")
+		(:revdesc . "32fcf68dba74")
 		(:keywords "ada" "languages" "tree-sitter")
 		(:authors
 		 ("Troy Brown" . "brownts@troybrown.dev"))
@@ -1220,7 +1220,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260627 1102)
+	      [(0 1 0 1 -4 20260627 1600)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1229,8 +1229,8 @@
 		 (0 12 2)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "66c9c7e5328c5ad6b00d62ae143952218df3ffa7")
-		(:revdesc . "66c9c7e5328c"))])
+		(:commit . "064c040ee498991c7115cf61943165d9d031f1e7")
+		(:revdesc . "064c040ee498"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -1342,7 +1342,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260627 233)
+	  [(0 1 0 1 -4 20260627 1603)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1351,8 +1351,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Antigravity CLI, Claude Code, Opencode, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "934c5b67cd602eff926d21fd243bc0e7326a3c9f")
-	    (:revdesc . "934c5b67cd60")
+	    (:commit . "e6711626d949584b5f8d787b381372b5ee4bb95e")
+	    (:revdesc . "e6711626d949")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -6607,13 +6607,13 @@
 	       ("Ryan Walsh" . "blueridge-data@github"))
 	      (:maintainer "Ryan Walsh" . "blueridge-data@github"))])
  (bufferfile .
-	     [(0 1 0 1 -4 20260619 1542)
+	     [(0 1 0 1 -4 20260627 1319)
 	      ((emacs
 		(26 1)))
 	      "Rename/Delete/Copy Files and Associated Buffers" tar
 	      ((:url . "https://github.com/jamescherti/bufferfile.el")
-	       (:commit . "11e610d799ba4ec4355630fb0651d3cf8de9ee31")
-	       (:revdesc . "11e610d799ba")
+	       (:commit . "e60be7084d5395617565531efab49718fe7c1a36")
+	       (:revdesc . "e60be7084d53")
 	       (:keywords "convenience")
 	       (:authors
 		("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -8459,12 +8459,7 @@
 		    "Chyla.org - dark green color theme" tar
 		    ((:url . "https://github.com/chyla/ChylaDarkThemeForEmacs")
 		     (:commit . "274ff01146e265f773478b16a59483b638b986f8")
-		     (:revdesc . "274ff01146e2")
-		     (:authors
-		      ("Adam Chyła https://chyla.org/" . "adam@chyla.org"))
-		     (:maintainers
-		      ("Adam Chyła https://chyla.org/" . "adam@chyla.org"))
-		     (:maintainer "Adam Chyła https://chyla.org/" . "adam@chyla.org"))])
+		     (:revdesc . "274ff01146e2"))])
  (chyla-theme .
 	      [(0 1 1 -4 20240708 2017)
 	       ((emacs
@@ -8472,12 +8467,7 @@
 	       "Chyla.org - green color theme" tar
 	       ((:url . "https://github.com/chyla/ChylaThemeForEmacs")
 		(:commit . "c2bb425eaff0975e0c7081f282d291f7853f8376")
-		(:revdesc . "c2bb425eaff0")
-		(:authors
-		 ("Adam Chyła https://chyla.org/" . "adam@chyla.org"))
-		(:maintainers
-		 ("Adam Chyła https://chyla.org/" . "adam@chyla.org"))
-		(:maintainer "Adam Chyła https://chyla.org/" . "adam@chyla.org"))])
+		(:revdesc . "c2bb425eaff0"))])
  (cider .
 	[(0 1 0 1 -4 20260627 840)
 	 ((emacs
@@ -10488,15 +10478,15 @@
 		("Mekeor Melire" . "mekeor@posteo.de"))
 	       (:maintainer "Mekeor Melire" . "mekeor@posteo.de"))])
  (company .
-	  [(0 1 0 1 -4 20260627 324)
+	  [(0 1 0 1 -4 20260627 1337)
 	   ((emacs
 	     (26 1))
 	    (posframe
 	     (1 5 1)))
 	   "Modular text completion framework" tar
 	   ((:url . "http://company-mode.github.io/")
-	    (:commit . "a703d9f9ce57d37d6b0c073b54348e8b620cebc1")
-	    (:revdesc . "a703d9f9ce57")
+	    (:commit . "a8c75c5d3fd7eb50b57a5b6aecc9aca58a3e9fcf")
+	    (:revdesc . "a8c75c5d3fd7")
 	    (:keywords "abbrev" "convenience" "matching")
 	    (:maintainers
 	     ("Dmitry Gutov" . "dmitry@gutov.dev"))
