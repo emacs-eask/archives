@@ -19059,13 +19059,13 @@
 			("Ayush Jha" . "ayys@duck.com"))
 		       (:maintainer "Ayush Jha" . "ayys@duck.com"))])
  (easysession .
-	      [(0 1 0 1 -4 20260614 1745)
+	      [(0 1 0 1 -4 20260627 1323)
 	       ((emacs
 		 (26 1)))
 	       "Persist and restore your sessions (desktop.el alternative)" tar
 	       ((:url . "https://github.com/jamescherti/easysession.el")
-		(:commit . "e5264f31d1d2ca7ffe6fb836d6ab1a6a14eabc30")
-		(:revdesc . "e5264f31d1d2")
+		(:commit . "bba36c41d5b21a80927583dc6eb83d080d0caad1")
+		(:revdesc . "bba36c41d5b2")
 		(:keywords "convenience")
 		(:authors
 		 ("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -35635,14 +35635,15 @@
 		(s
 		 (1 7 0)))
 	       "Hamlet editing mode" tar
-	       ((:commit . "7362b955e556a3d007fa06945a27e5b99349527d")
-		(:authors
-		 (nil . "Kata <lightquake@amateurtopologist.com"))
-		(:maintainers
-		 (nil . "Kata <lightquake@amateurtopologist.com"))
-		(:maintainer nil . "Kata <lightquake@amateurtopologist.com")
+	       ((:url . "https://github.com/lightquake/hamlet-mode")
+		(:commit . "7362b955e556a3d007fa06945a27e5b99349527d")
+		(:revdesc . "7362b955e556")
 		(:keywords "wp" "languages" "comm")
-		(:url . "https://github.com/lightquake/hamlet-mode"))])
+		(:authors
+		 ("Kata" . "lightquake@amateurtopologist.com"))
+		(:maintainers
+		 ("Kata" . "lightquake@amateurtopologist.com"))
+		(:maintainer "Kata" . "lightquake@amateurtopologist.com"))])
  (hammy .
 	[(0 3 1 -4 20240917 212)
 	 ((emacs
@@ -39048,12 +39049,7 @@
 			 nil "Minor modes for highlighting indentation" tar
 			 ((:url . "https://github.com/antonj/Highlight-Indentation-for-Emacs")
 			  (:commit . "d88db4248882da2d4316e76ed673b4ac1fa99ce3")
-			  (:revdesc . "d88db4248882")
-			  (:authors
-			   ("Anton Johansson - http://antonj.se" . "anton.johansson@gmail.com"))
-			  (:maintainers
-			   ("Anton Johansson - http://antonj.se" . "anton.johansson@gmail.com"))
-			  (:maintainer "Anton Johansson - http://antonj.se" . "anton.johansson@gmail.com"))])
+			  (:revdesc . "d88db4248882"))])
  (highlight-leading-spaces .
 			   [(0 1 1 -4 20151216 1222)
 			    ((emacs
@@ -39216,13 +39212,13 @@
 	     ("Chris Done" . "chrisdone@gmail.com"))
 	    (:maintainer "Chris Done" . "chrisdone@gmail.com"))])
  (hindu-calendar .
-		 [(0 1 0 1 -4 20260326 2105)
+		 [(0 1 0 1 -4 20260627 1755)
 		  ((emacs
 		    (24 3)))
 		  "Astronomical traditional Hindu calendar (panchanga)" tar
 		  ((:url . "https://github.com/bdsatish/hindu-calendar")
-		   (:commit . "118e8455e3c2c8a0b2661b41eee0df9cb07fc87d")
-		   (:revdesc . "118e8455e3c2")
+		   (:commit . "0868cb7548830e50d801f68a79e34fd988464f3e")
+		   (:revdesc . "0868cb754883")
 		   (:keywords "calendar" "panchanga" "hindu" "indian")
 		   (:authors
 		    ("B.D.Satish" . "bdsatish@gmail.com"))
@@ -50907,13 +50903,13 @@
 		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainer "James Nguyen" . "james@jojojames.com"))])
  (mediawiki .
-	    [(0 1 0 1 -4 20260619 737)
+	    [(0 1 0 1 -4 20260627 1731)
 	     ((emacs
 	       (28 1)))
 	     "Mediawiki frontend" tar
 	     ((:url . "https://github.com/hexmode/mediawiki-el")
-	      (:commit . "8002f2fea253b5c2f601325c5b4968e568a3aa2a")
-	      (:revdesc . "8002f2fea253")
+	      (:commit . "420d18365a62b0b6122c1ee8c3c88ebcb4f035df")
+	      (:revdesc . "420d18365a62")
 	      (:keywords "mediawiki" "wikipedia" "network" "wiki")
 	      (:authors
 	       ("Mark A. Hershberger" . "mah@everybody.org"))
@@ -69500,15 +69496,15 @@
 	  (:revdesc . "1e63e9862673")
 	  (:keywords "abbrev" "convenience" "matching" "rust" "tools"))])
  (racket-mode .
-	      [(0 1 0 1 -4 20260303 1556)
+	      [(0 1 0 1 -4 20260626 1429)
 	       ((emacs
 		 (25 1))
 		(compat
 		 (30 0 2 0)))
 	       "Racket editing, REPL, and more" tar
 	       ((:url . "https://www.racket-mode.com/")
-		(:commit . "24cb8e977a05d188756284e46ff7cece2d899f75")
-		(:revdesc . "24cb8e977a05")
+		(:commit . "97d9b8b7d73a02777c0f70ce6d145a99a99b37cb")
+		(:revdesc . "97d9b8b7d73a")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com")))])
  (rails-i18n .
@@ -71052,15 +71048,15 @@
 		   ("Iqbal Ansari" . "iqbalansari02@yahoo.com"))
 		  (:maintainer "Iqbal Ansari" . "iqbalansari02@yahoo.com"))])
  (restclient .
-	     [(0 1 0 1 -4 20251209 2022)
+	     [(0 1 0 1 -4 20260627 1851)
 	      ((emacs
 		(26 1))
 	       (compat
 		(30 1 0 0)))
 	      "An interactive HTTP client for Emacs" tar
 	      ((:url . "https://github.com/emacsorphanage/restclient")
-	       (:commit . "1800a4e367c250051617d0b8c16a7cbd7f47da69")
-	       (:revdesc . "1800a4e367c2")
+	       (:commit . "d280632df39a175dac06037038105e32945624be")
+	       (:revdesc . "d280632df39a")
 	       (:keywords "http" "comm" "tools")
 	       (:authors
 		("Pavel Kurnosov" . "pashky@gmail.com"))
@@ -73075,12 +73071,7 @@
 	     ((:url . "https://github.com/antonj/scss-mode")
 	      (:commit . "cf58dbec5394280503eb5502938f3b5445d1b53d")
 	      (:revdesc . "cf58dbec5394")
-	      (:keywords "scss" "css" "mode")
-	      (:authors
-	       ("Anton Johansson - http://antonj.se" . "anton.johansson@gmail.com"))
-	      (:maintainers
-	       ("Anton Johansson - http://antonj.se" . "anton.johansson@gmail.com"))
-	      (:maintainer "Anton Johansson - http://antonj.se" . "anton.johansson@gmail.com"))])
+	      (:keywords "scss" "css" "mode"))])
  (sculpture-themes .
 		   [(0 1 0 1 -4 20260215 1259)
 		    ((emacs
@@ -75389,7 +75380,16 @@
 		 ((:url . "https://github.com/capitaomorte/sly-macrostep")
 		  (:commit . "5113e4e926cd752b1d0bcc1508b3ebad5def5fad")
 		  (:revdesc . "5113e4e926cd")
-		  (:keywords "languages" "lisp" "sly"))])
+		  (:keywords "languages" "lisp" "sly")
+		  (:authors
+		   ("Luís Oliveira" . "luismbo@gmail.com")
+		   ("Jon Oddie" . "j.j.oddie@gmail.com")
+		   ("João Távora" . "joaotavora@gmail.com"))
+		  (:maintainers
+		   ("Luís Oliveira" . "luismbo@gmail.com")
+		   ("Jon Oddie" . "j.j.oddie@gmail.com")
+		   ("João Távora" . "joaotavora@gmail.com"))
+		  (:maintainer "Luís Oliveira" . "luismbo@gmail.com"))])
  (sly-named-readtables .
 		       [(0 1 1 -4 20191013 2138)
 			((sly
@@ -81087,13 +81087,13 @@
 		  ("William Glass" . "william.glass@gmail.com"))
 		 (:maintainer "William Glass" . "william.glass@gmail.com"))])
  (tomorrow-night-deepblue-theme .
-				[(0 1 0 1 -4 20260614 1718)
+				[(0 1 0 1 -4 20260627 1752)
 				 ((emacs
 				   (26 1)))
 				 "The Tomorrow Night Deepblue color theme" tar
 				 ((:url . "https://github.com/jamescherti/tomorrow-night-deepblue-theme.el")
-				  (:commit . "ae24e3672e8832579052ce124d0c3b05ca835e16")
-				  (:revdesc . "ae24e3672e88")
+				  (:commit . "d449c88150f3a7b7b1891734fbd31583c327c9ea")
+				  (:revdesc . "d449c88150f3")
 				  (:keywords "faces" "themes")
 				  (:authors
 				   ("James Cherti" . "https://www.jamescherti.com/contact/"))
