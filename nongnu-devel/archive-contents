@@ -221,7 +221,7 @@
       (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
       (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider
-  . [(1 23 0 20260628 104)
+  . [(1 23 0 20260628 106)
      ((emacs (28)) (clojure-mode (5 19)) (compat (30))
       (parseedn (1 2 1)) (queue (0 2)) (spinner (1 7)) (seq (2 22))
       (sesman (0 3 2)) (transient (0 4 1)))
@@ -235,7 +235,7 @@
 		("Artur Malabarba" . "bruce.connor.am@gmail.com")
 		("Hugo Duncan" . "hugo@hugoduncan.org")
 		("Steve Purcell" . "steve@sanityinc.com"))
-      (:commit . "67f6ab27abae960f9d04e07bfb11a0bba29731f0"))])
+      (:commit . "d47e56cc3d7c2ceaaeb2825282fc923546b122a4"))])
  (clojure-mode
   . [(5 23 0 0 20260615 3) ((emacs (27 1)))
      "Major mode for Clojure code" tar
@@ -269,13 +269,13 @@
        ("Jonas Bernoulli" . "emacs.cond-let@jonas.bernoulli.dev"))
       (:commit . "21b9e9835756ff5cd1acb971cf9eb56fff671c8b"))])
  (consult-flycheck
-  . [(1 2 0 20260605 0)
+  . [(1 2 0 20260628 1)
      ((emacs (29 1)) (consult (3 5)) (flycheck (35)))
      "Provides the command `consult-flycheck'" tar
      ((:url . "https://github.com/minad/consult-flycheck")
       (:keywords "languages" "tools" "completion")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-      (:commit . "9dd95361669f87e14230376f4f93c6b9a222c497"))])
+      (:commit . "087454a31b51ec007365f8e92a04e69409f294d3"))])
  (corfu-terminal
   . [(0 7 0 20230810 20636)
      ((emacs (26 1)) (corfu (0 36)) (popon (0 13)))
@@ -473,7 +473,7 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(4 1 0 0 20260628 0) ((emacs (29 1)) (compat (31)))
+  . [(4 1 0 0 20260628 3) ((emacs (29 1)) (compat (31)))
      "An Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
       (:keywords "network" "comm" "hypermedia")
@@ -482,9 +482,9 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "d08bb8e3d1e57f1b3941abcd8d141ac59315a5e4"))])
+      (:commit . "67b7f05ad4ef2695dbbebd4aa573259344d57d73"))])
  (elfeed-web
-  . [(4 0 0 0 20260623 3)
+  . [(4 0 0 0 20260628 4)
      ((emacs (29 1)) (compat (31)) (elfeed (4 0 0))
       (simple-httpd (1 6)))
      "Web interface to Elfeed" tar
@@ -495,7 +495,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "26afb69717f1bab0453d8a0534dfcd9b707c5f85"))])
+      (:commit . "57018aff30f12f5fd07897ceb6958dc056cc6c87"))])
  (elixir-mode
   . [(2 5 0 0 20230626 143859) ((emacs (25)))
      "Major mode for editing Elixir files" tar
@@ -910,13 +910,13 @@
       (:authors ("Akib Azmain Turja" . "akib@disroot.org"))
       (:commit . "f31dbe60478b6270bb57b6b05998df8eec56f801"))])
  (gnuplot
-  . [(0 12 0 20260623 2) ((emacs (29 1)) (compat (31)))
+  . [(0 12 0 20260628 3) ((emacs (29 1)) (compat (31)))
      "Major-mode and interactive frontend for gnuplot" tar
      ((:url . "https://github.com/emacs-gnuplot/gnuplot")
       (:keywords "data" "gnuplot" "plotting")
       (:maintainer ("Maxime Tréca" . "maxime@gmail.com")
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "81e3cb30297f0d12df41b865d2a76c8ba179089c"))])
+      (:commit . "6e758c7ad7bb2865357b13e10ba8c4a1d39ba9c6"))])
  (go-mode
   . [(1 6 0 0 20260529 24) ((emacs (26 1)))
      "Major mode for the Go programming language" tar
@@ -947,7 +947,7 @@
       (:authors ("David Andersson" . "l.david.anderssonsverige.nu"))
       (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel
-  . [(0 9 9 5 0 20260628 45)
+  . [(0 9 9 5 0 20260628 46)
      ((emacs (27 1)) (transient (0 7 8)) (compat (30 1 0 0)))
      "Interact with ChatGPT or other LLMs" tar
      ((:url . "https://github.com/karthink/gptel")
@@ -956,7 +956,7 @@
 		   . "karthik.chikmagalur@gmail.com")
       (:authors
        ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-      (:commit . "3c43ab48ea9bdcd5d0b7d1040393d625c2249566"))])
+      (:commit . "33ed0f6f69857157973bca72fb4d454e29965bdd"))])
  (graphql-mode
   . [(1 0 0 0 20260524 82344) ((emacs (25 1)))
      "Major mode for editing GraphQL schemas" tar
@@ -1766,13 +1766,13 @@
       (:keywords "markup" "language" "css")
       (:commit . "247a0d4b509f10b28e4687cd8763492bca03599b"))])
  (scad-mode
-  . [(99 0 0 20260519 103934) ((emacs (29 1)) (compat (31)))
+  . [(99 0 0 20260628 1) ((emacs (29 1)) (compat (31)))
      "A major mode for editing OpenSCAD code" tar
      ((:url . "https://github.com/openscad/emacs-scad-mode")
       (:keywords "languages")
       (:maintainer ("Len Trigg" . "lenbok@gmail.com")
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "8798dca7e919705bcbc35d4ab5639556827ccb6f"))])
+      (:commit . "b5b795cf54b416bcd3245e88835662e4ec7c3dc3"))])
  (scala-mode
   . [(1 1 1 0 20260118 94206) ((emacs (25 1)))
      "Major mode for editing Scala" tar
@@ -1815,14 +1815,14 @@
       (:authors ("Chen Bin" . "chenbin.sh@gmail.com"))
       (:commit . "173e4d632c94af6670869729c09bfb8ba484d257"))])
  (simple-httpd
-  . [(1 6 0 20260623 1) ((emacs (29 1)) (compat (31)))
+  . [(1 6 0 20260628 2) ((emacs (29 1)) (compat (31)))
      "Pure Elisp HTTP server" tar
      ((:url . "https://github.com/skeeto/emacs-http-server")
       (:keywords "network" "comm")
       (:maintainer ("Philip Kaludercic" . "philipk@posteo.net")
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "ceb208f96601be09397fc9e64fa96014ac1c8739"))])
+      (:commit . "e1c482700d2b32b09c16db3067c0a4958dd20c2a"))])
  (slime
   . [(2 320 20260612 49) ((emacs (24 3)) (macrostep (0 9)))
      "Superior Lisp Interaction Mode for Emacs" tar
@@ -2113,11 +2113,11 @@
       (:authors ("Joost Kremers" . "joostkremers@fastmail.fm"))
       (:commit . "e1be9a1545157d24454d950c0ac79553c540edb7"))])
  (vm
-  . [(8 3 30 20260610 33) ((emacs (28 1)) (vcard (0 2 2)))
+  . [(8 3 30 20260628 43) ((emacs (28 1)) (vcard (0 2 2)))
      "VM mail reader" tar
      ((:url . "https://gitlab.com/emacs-vm/vm") (:keywords "mail")
       (:maintainer nil . "viewmail-info@nongnu.org")
-      (:commit . "2f33c4bb2d2e8ac6f0f63f62b60dda439b1d07ce"))])
+      (:commit . "ba6f0201d2544fb626160cdd1dd2cc9912036770"))])
  (web-mode
   . [(17 3 24 0 20260623 0) ((emacs (24 3 1)))
      "major mode for editing web templates" tar

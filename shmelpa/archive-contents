@@ -1220,17 +1220,17 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260627 2223)
+	      [(0 1 0 1 -4 20260628 1727)
 	       ((emacs
 		 (29 1))
 		(shell-maker
-		 (0 93 1))
+		 (0 93 2))
 		(acp
 		 (0 12 2)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "96343cf9a321f707e3007fb9a1543871d07f9937")
-		(:revdesc . "96343cf9a321"))])
+		(:commit . "4f7055084c296f67643f633167dbb2abaa0ce10a")
+		(:revdesc . "4f7055084c29"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -31491,6 +31491,22 @@
 	       (:maintainers
 		("Duc Dang" . "me@dangduc.com"))
 	       (:maintainer "Duc Dang" . "me@dangduc.com"))])
+ (fzfa .
+       [(0 1 0 1 -4 20260628 1801)
+	((emacs
+	  (29 1))
+	 (fzf-native
+	  (2 1)))
+	"Async fuzzy completion via `fzf-native'" tar
+	((:url . "https://github.com/jojojames/fzfa")
+	 (:commit . "6583b6f320ffb6a20da69eebefe2bb0ce6e3a437")
+	 (:revdesc . "6583b6f320ff")
+	 (:keywords "matching" "completion" "fzf" "fuzzy" "fussy")
+	 (:authors
+	  ("James Nguyen" . "james@jojojames.com"))
+	 (:maintainers
+	  ("James Nguyen" . "james@jojojames.com"))
+	 (:maintainer "James Nguyen" . "james@jojojames.com"))])
  (gameoflife .
 	     [(0 1 0 1 -4 20250102 900)
 	      nil "Screensaver running Conway's Game of Life" tar
@@ -32700,6 +32716,26 @@
 		   (:maintainers
 		    ("Raimon Grau" . "raimonster@gmail.com"))
 		   (:maintainer "Raimon Grau" . "raimonster@gmail.com"))])
+ (git-overleaf .
+	       [(0 1 0 1 -4 20260622 559)
+		((emacs
+		  (29 4))
+		 (websocket
+		  (1 15))
+		 (webdriver
+		  (0 1))
+		 (magit-section
+		  (4 5)))
+		"Clone, push, and pull full Overleaf projects with Git" tar
+		((:url . "https://github.com/Jamie-Cui/git-overleaf")
+		 (:commit . "b7c8fd52568134d57a6760e6e0acb04f7a645942")
+		 (:revdesc . "b7c8fd525681")
+		 (:keywords "hypermedia" "tex" "tools")
+		 (:authors
+		  ("Jamie Cui" . "jamie.cui@outlook.com"))
+		 (:maintainers
+		  ("Jamie Cui" . "jamie.cui@outlook.com"))
+		 (:maintainer "Jamie Cui" . "jamie.cui@outlook.com"))])
  (git-ps1-mode .
 	       [(0 2 2 1 -4 20200113 704)
 		nil "Global minor-mode to print __git_ps1 in mode-line" tar
@@ -50903,13 +50939,13 @@
 		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainer "James Nguyen" . "james@jojojames.com"))])
  (mediawiki .
-	    [(0 1 0 1 -4 20260628 1727)
+	    [(0 1 0 1 -4 20260628 2149)
 	     ((emacs
 	       (28 1)))
 	     "Mediawiki frontend" tar
 	     ((:url . "https://github.com/hexmode/mediawiki-el")
-	      (:commit . "191a870ce0c5c68ae7cd7b9d19e3a2d633d0d3ba")
-	      (:revdesc . "191a870ce0c5")
+	      (:commit . "f1ec8e79d3449b0bde012f6a4377a225bd9c3c06")
+	      (:revdesc . "f1ec8e79d344")
 	      (:keywords "mediawiki" "wikipedia" "network" "wiki")
 	      (:authors
 	       ("Mark A. Hershberger" . "mah@everybody.org"))
@@ -53519,6 +53555,22 @@
 		(:maintainers
 		 ("nik gaffney" . "nik@fo.am"))
 		(:maintainer "nik gaffney" . "nik@fo.am"))])
+ (musicbrainz-interactive .
+			  [(0 1 0 1 -4 20260623 1527)
+			   ((emacs
+			     (28 1))
+			    (musicbrainz
+			     (0 1)))
+			   "Interactive commands for MusicBrainz related things" tar
+			   ((:url . "https://github.com/zzkt/metabrainz")
+			    (:commit . "bdb68a7034039c78acc62aa753401f84e1bd0217")
+			    (:revdesc . "bdb68a703403")
+			    (:keywords "data" "convenience" "music")
+			    (:authors
+			     ("Oliwier Czerwiński" . "oliwier.czerwi@proton.me"))
+			    (:maintainers
+			     ("Oliwier Czerwiński" . "oliwier.czerwi@proton.me"))
+			    (:maintainer "Oliwier Czerwiński" . "oliwier.czerwi@proton.me"))])
  (mustache .
 	   [(0 24 1 -4 20230713 514)
 	    ((emacs
@@ -55609,11 +55661,11 @@
 		      ("Steve Purcell" . "steve@sanityinc.com"))
 		     (:maintainer "Steve Purcell" . "steve@sanityinc.com"))])
  (nsis-mode .
-	    [(0 1 0 1 -4 20260331 53)
+	    [(0 1 0 1 -4 20260628 1801)
 	     nil "NSIS-mode" tar
 	     ((:url . "https://github.com/mlf176f2/nsis-mode")
-	      (:commit . "0e1ec26a3943865f33e5590e26f5bc31684ad67e")
-	      (:revdesc . "0e1ec26a3943")
+	      (:commit . "5ee283dd4da0bf8ca90cc8210da6ad94899d50b9")
+	      (:revdesc . "5ee283dd4da0")
 	      (:keywords "nsis"))])
  (nswbuff .
 	  [(1 3 1 -4 20230311 154)
@@ -60865,7 +60917,7 @@
 	     ("Nathan Dwarshuis" . "natedwarshuis@gmail.com"))
 	    (:maintainer "Nathan Dwarshuis" . "natedwarshuis@gmail.com"))])
  (org-srs .
-	  [(0 1 0 1 -4 20260628 1238)
+	  [(0 1 0 1 -4 20260628 1143)
 	   ((emacs
 	     (30 1))
 	    (org
@@ -60874,8 +60926,8 @@
 	     (6 0)))
 	   "A flexible spaced repetition system for Org-mode" tar
 	   ((:url . "https://github.com/bohonghuang/org-srs")
-	    (:commit . "203e9210e7209f5a11f87ac727f8fc011695a965")
-	    (:revdesc . "203e9210e720")
+	    (:commit . "e6e5fbfcb8beb520141edac647ccb76af9b71df6")
+	    (:revdesc . "e6e5fbfcb8be")
 	    (:keywords "outlines")
 	    (:authors
 	     ("Bohong Huang" . "bohonghuang@qq.com"))
@@ -62741,7 +62793,7 @@
 	     ("Stig Brautaset" . "stig@brautaset.org"))
 	    (:maintainer "Stig Brautaset" . "stig@brautaset.org"))])
  (ox-json .
-	  [(0 1 0 1 -4 20260628 954)
+	  [(0 1 0 1 -4 20260628 2137)
 	   ((emacs
 	     (26 1))
 	    (org
@@ -62750,8 +62802,8 @@
 	     (1 12)))
 	   "JSON export backend for Org mode" tar
 	   ((:url . "https://github.com/jlumpe/ox-json")
-	    (:commit . "585c7dd9eb21ba8169bdd62268ef8ec065319529")
-	    (:revdesc . "585c7dd9eb21")
+	    (:commit . "e07ae947d22e4c57cd7262680017967c5549e379")
+	    (:revdesc . "e07ae947d22e")
 	    (:keywords "outlines")
 	    (:authors
 	     ("Jared Lumpe" . "jared@jaredlumpe.com"))
@@ -69167,13 +69219,13 @@
 	      ("Yen-Chin Lee" . "coldnew.tw@gmail.com"))
 	     (:maintainer "Yen-Chin Lee" . "coldnew.tw@gmail.com"))])
  (qrencode .
-	   [(0 1 0 1 -4 20260109 2234)
+	   [(0 1 0 1 -4 20260628 2140)
 	    ((emacs
 	      (25 1)))
 	    "QRCode encoder" tar
 	    ((:url . "https://github.com/ruediger/qrencode-el")
-	     (:commit . "023c61309e8f9e7b27fd28fe4d71a2217b2f3f9d")
-	     (:revdesc . "023c61309e8f")
+	     (:commit . "7df905c77f590278d301679db354a3d7662407c9")
+	     (:revdesc . "7df905c77f59")
 	     (:keywords "qrcode" "comm")
 	     (:authors
 	      ("Rüdiger Sonderfeld" . "ruediger@c-plusplus.net"))
@@ -82841,13 +82893,13 @@
 		("DEADBLACKCLOVER" . "deadblackclover@protonmail.com"))
 	       (:maintainer "DEADBLACKCLOVER" . "deadblackclover@protonmail.com"))])
  (ultisnips-mode .
-		 [(0 1 0 1 -4 20260601 1617)
+		 [(0 1 0 1 -4 20260628 1957)
 		  ((emacs
 		    (26 3)))
 		  "Major mode for editing Ultisnips snippets" tar
 		  ((:url . "https://github.com/jamescherti/ultisnips-mode.el")
-		   (:commit . "39df8b78d4a9450cec5acbd74eb82b7372e28b73")
-		   (:revdesc . "39df8b78d4a9")
+		   (:commit . "3fc59835f6407fb60bb9935a63fc0479f8807f37")
+		   (:revdesc . "3fc59835f640")
 		   (:keywords "languages")
 		   (:authors
 		    ("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -85105,7 +85157,7 @@
 	   ("Mihai Olteanu" . "mihai_olteanu@fastmail.fm"))
 	  (:maintainer "Mihai Olteanu" . "mihai_olteanu@fastmail.fm"))])
  (vulpea .
-	 [(0 1 0 1 -4 20260628 1810)
+	 [(0 1 0 1 -4 20260628 1900)
 	  ((emacs
 	    (27 2))
 	   (org
@@ -85118,8 +85170,8 @@
 	    (2 19)))
 	  "Note management library for Org mode" tar
 	  ((:url . "https://github.com/d12frosted/vulpea")
-	   (:commit . "428d5282245ed7c049b6c6be598bf31560a65583")
-	   (:revdesc . "428d5282245e")
+	   (:commit . "b66c53ca0462adfc3e81909c01b5ca1be2cf5c67")
+	   (:revdesc . "b66c53ca0462")
 	   (:authors
 	    ("Boris Buliga" . "boris@d12frosted.io"))
 	   (:maintainers
@@ -88020,6 +88072,20 @@
 	      (:maintainers
 	       ("Samuel Michael Vanié" . "samuelmichaelvanie@gmail.com"))
 	      (:maintainer "Samuel Michael Vanié" . "samuelmichaelvanie@gmail.com"))])
+ (youtube-music .
+		[(0 1 0 1 -4 20260623 1324)
+		 ((emacs
+		   (29 1)))
+		 "YouTube Music client" tar
+		 ((:url . "https://github.com/cyberkm/emacs-youtube-music")
+		  (:commit . "fcee7802eb8196f575450e3bf1c4f1ab4d5cdea4")
+		  (:revdesc . "fcee7802eb81")
+		  (:keywords "multimedia" "youtube" "music")
+		  (:authors
+		   ("Pavel Bibergal" . "pavel@keewano.com"))
+		  (:maintainers
+		   ("Pavel Bibergal" . "pavel@keewano.com"))
+		  (:maintainer "Pavel Bibergal" . "pavel@keewano.com"))])
  (youtube-sub-extractor .
 			[(0 0 1 1 -4 20221116 653)
 			 ((emacs
