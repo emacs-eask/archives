@@ -18502,11 +18502,11 @@
 		 ("Sergei Nosov" . "sergei.nosov[at]gmail.com"))
 		(:maintainer "Sergei Nosov" . "sergei.nosov[at]gmail.com"))])
  (dune .
-       [(0 1 0 1 -4 20260120 2128)
+       [(0 1 0 1 -4 20260621 2057)
 	nil "Integration with the dune build system" tar
 	((:url . "https://github.com/ocaml/dune")
-	 (:commit . "ccdb380ab5714b81f1ba71f7f8acfd792e6200bf")
-	 (:revdesc . "ccdb380ab571"))])
+	 (:commit . "47f64de764078db6edb2698958b5270a17bffb05")
+	 (:revdesc . "47f64de76407"))])
  (dune-format .
 	      [(0 1 -1 1 -4 20210505 108)
 	       ((reformatter
@@ -72571,13 +72571,15 @@
 	       ("Glynn Forrest" . "me@glynnforrest.com"))
 	      (:maintainer "Glynn Forrest" . "me@glynnforrest.com"))])
  (samskritam .
-	     [(0 1 0 1 -4 20250829 2315)
+	     [(0 1 0 1 -4 20260701 225)
 	      ((emacs
-		(28 1)))
+		(28 1))
+	       (transient
+		(0 3 0)))
 	      "Show samskrit word definitions" tar
 	      ((:url . "https://github.com/thapakrish/samskritam")
-	       (:commit . "e84358904b93c5c03d00b62f1e6735393d2b3d53")
-	       (:revdesc . "e84358904b93")
+	       (:commit . "30bbd177d2664c5a0d33f17b42c07705b8473b66")
+	       (:revdesc . "30bbd177d266")
 	       (:keywords "samskrit" "sanskrit" "संस्कृत" "dictionary" "devanagari" "convenience" "language")
 	       (:authors
 		("Krishna Thapa" . "thapakrish@gmail.com"))
@@ -83774,13 +83776,13 @@
 	     ("z80" . "z80@ophy.xyz"))
 	    (:maintainer "z80" . "z80@ophy.xyz"))])
  (uwu-theme .
-	    [(0 1 0 1 -4 20250902 202)
+	    [(0 1 0 1 -4 20260701 256)
 	     ((emacs
 	       (24 1)))
 	     "An awesome dark color scheme" tar
 	     ((:url . "https://github.com/kborling/uwu-theme")
-	      (:commit . "430e06214e8230357bea8252e8a56c5c1aa8f3eb")
-	      (:revdesc . "430e06214e82")
+	      (:commit . "f0c4a616b106dbc8d88dc9a6ca0e31321e14da52")
+	      (:revdesc . "f0c4a616b106")
 	      (:keywords "custom themes" "dark" "faces"))])
  (uxntal-mode .
 	      [(0 2 1 -4 20240327 153)
