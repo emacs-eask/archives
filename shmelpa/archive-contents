@@ -8469,7 +8469,7 @@
 		(:commit . "c2bb425eaff0975e0c7081f282d291f7853f8376")
 		(:revdesc . "c2bb425eaff0"))])
  (cider .
-	[(0 1 0 1 -4 20260701 856)
+	[(0 1 0 1 -4 20260701 1319)
 	 ((emacs
 	   (28))
 	  (clojure-mode
@@ -8490,8 +8490,8 @@
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
 	 ((:url . "https://www.github.com/clojure-emacs/cider")
-	  (:commit . "34d5ad6acfcb86bafd6ce8eb41a76ee3afd22045")
-	  (:revdesc . "34d5ad6acfcb")
+	  (:commit . "8bda52abb4ae7a31eadf3056830f1364a7208137")
+	  (:revdesc . "8bda52abb4ae")
 	  (:keywords "languages" "clojure" "cider")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
@@ -9274,29 +9274,25 @@
 		    ("Don Jackson" . "dcj@clark-communications.com"))
 		   (:maintainer "Don Jackson" . "dcj@clark-communications.com"))])
  (clj-refactor .
-	       [(0 1 0 1 -4 20260628 1328)
+	       [(0 1 0 1 -4 20260701 1258)
 		((emacs
 		  (28 1))
 		 (yasnippet
 		  (0 6 1))
 		 (paredit
 		  (24))
-		 (multiple-cursors
-		  (1 2 2))
 		 (clojure-mode
 		  (5 18 0))
 		 (cider
 		  (1 11 1))
 		 (parseedn
 		  (1 2 0))
-		 (inflections
-		  (2 6))
-		 (hydra
-		  (0 13 2)))
+		 (transient
+		  (0 4 1)))
 		"A collection of commands for refactoring Clojure code" tar
 		((:url . "https://github.com/clojure-emacs/clj-refactor.el")
-		 (:commit . "ac0af32d1cbd0548442ee9859f1882286f4393db")
-		 (:revdesc . "ac0af32d1cbd")
+		 (:commit . "f7909baec7fd92e6ac3d98c0a166a00631c8c5ec")
+		 (:revdesc . "f7909baec7fd")
 		 (:keywords "convenience" "clojure" "cider")
 		 (:authors
 		  ("Magnar Sveen" . "magnars@gmail.com")
@@ -11925,13 +11921,13 @@
 		("SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))
 	       (:maintainer "SAKURAI Masashi" . "m.sakuraiatkiwanami.net"))])
  (cond-let .
-	   [(0 1 0 1 -4 20260601 1457)
+	   [(0 1 0 1 -4 20260701 1237)
 	    ((emacs
 	      (28 1)))
 	    "Additional and improved binding conditionals" tar
 	    ((:url . "https://github.com/tarsius/cond-let")
-	     (:commit . "21b9e9835756ff5cd1acb971cf9eb56fff671c8b")
-	     (:revdesc . "21b9e9835756")
+	     (:commit . "c48600dfab6372670225f046cace263700c78eab")
+	     (:revdesc . "c48600dfab63")
 	     (:keywords "extensions")
 	     (:authors
 	      ("Jonas Bernoulli" . "emacs.cond-let@jonas.bernoulli.dev"))
@@ -22627,7 +22623,7 @@
 	   ("Sean Hutchings" . "seanhut@yandex.com"))
 	  (:maintainer "Sean Hutchings" . "seanhut@yandex.com"))])
  (epkg .
-       [(0 1 0 1 -4 20260617 1602)
+       [(0 1 0 1 -4 20260701 1311)
 	((emacs
 	  (28 1))
 	 (compat
@@ -22642,8 +22638,8 @@
 	  (1 0)))
 	"Browse the Emacsmirror package database" tar
 	((:url . "https://github.com/emacscollective/epkg")
-	 (:commit . "636490387d8fef3dc4d54b0b7cdc7ffe947663a1")
-	 (:revdesc . "636490387d8f")
+	 (:commit . "63bf2ab384c0f96f344492d151549c5b95b6830f")
+	 (:revdesc . "63bf2ab384c0")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))
@@ -31943,13 +31939,13 @@
 	     ("Fox Kiester" . "noct@posteo.net"))
 	    (:maintainer "Fox Kiester" . "noct@posteo.net"))])
  (genexpr-mode .
-	       [(0 1 0 1 -4 20240930 1335)
+	       [(0 1 0 1 -4 20260701 1400)
 		((emacs
 		  (27 1)))
 		"Major mode for editing GenExpr files" tar
 		((:url . "https://github.com/larme/genexpr-mode")
-		 (:commit . "27d9d4d32aef1799698ddbf75e92cb71d0ce99bf")
-		 (:revdesc . "27d9d4d32aef")
+		 (:commit . "b5007dbd80b9468b7b206927791171218f2f5da1")
+		 (:revdesc . "b5007dbd80b9")
 		 (:keywords "languages" "dsp")
 		 (:authors
 		  ("Zhao Shenyang" . "dev@zsy.im"))
@@ -32225,7 +32221,7 @@
 	 ("Joseph LaFreniere" . "joseph@lafreniere.xyz"))
 	(:maintainer "Joseph LaFreniere" . "joseph@lafreniere.xyz"))])
  (ghub .
-       [(0 1 0 1 -4 20260603 1818)
+       [(0 1 0 1 -4 20260701 1318)
 	((emacs
 	  (29 1))
 	 (compat
@@ -32238,8 +32234,8 @@
 	  (0 1 3)))
 	"Client libraries for Git forge APIs" tar
 	((:url . "https://github.com/magit/ghub")
-	 (:commit . "89cd6c5d2770fad2c4d635136e3e36643d8bbde4")
-	 (:revdesc . "89cd6c5d2770")
+	 (:commit . "59d0b9b33e780d6cff5131886904ff26033dd2e6")
+	 (:revdesc . "59d0b9b33e78")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
@@ -40185,13 +40181,13 @@
 		("Ian Eure" . "ian@retrospec.tv"))
 	       (:maintainer "Ian Eure" . "ian@retrospec.tv"))])
  (hyperstitional-themes .
-			[(0 1 0 1 -4 20260215 1305)
+			[(0 1 0 1 -4 20260701 1314)
 			 ((emacs
 			   (24 1)))
 			 "Weird themes with incremental palettes" tar
 			 ((:url . "https://github.com/precompute/hyperstitional-themes")
-			  (:commit . "b4bf851ea46ad4ddc8c45afc3c2d000d7f13bc4b")
-			  (:revdesc . "b4bf851ea46a")
+			  (:commit . "18b5ee327f6e7e3d82fe3a274c351137e6e0cecd")
+			  (:revdesc . "18b5ee327f6e")
 			  (:authors
 			   ("precompute" . "git@precompute.net"))
 			  (:maintainers
@@ -49199,27 +49195,27 @@
 	       (:revdesc . "6853b0f4c454")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20260630 1039)
+	[(0 1 0 1 -4 20260701 1407)
 	 ((emacs
 	   (28 1))
 	  (compat
 	   (31 0))
 	  (cond-let
-	   (0 2))
+	   (1 1))
 	  (llama
 	   (1 0))
 	  (magit-section
-	   (4 5))
+	   (4 6))
 	  (seq
 	   (2 24))
 	  (transient
 	   (0 13))
 	  (with-editor
-	   (3 4)))
+	   (3 5)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "55bbdde3fec0fcd486cc42a48c634e91b571ef45")
-	  (:revdesc . "55bbdde3fec0")
+	  (:commit . "b6c512597fd66abe69883a058a2d13bcea76bf33")
+	  (:revdesc . "b6c512597fd6")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -49657,21 +49653,21 @@
 		       ("Jules Tamagnan" . "jtamagnan@gmail.com"))
 		      (:maintainer "Jules Tamagnan" . "jtamagnan@gmail.com"))])
  (magit-section .
-		[(0 1 0 1 -4 20260514 937)
+		[(0 1 0 1 -4 20260701 1407)
 		 ((emacs
 		   (28 1))
 		  (compat
 		   (31 0))
 		  (cond-let
-		   (0 2))
+		   (1 1))
 		  (llama
 		   (1 0))
 		  (seq
 		   (2 24)))
 		 "Sections for read-only buffers" tar
 		 ((:url . "https://github.com/magit/magit")
-		  (:commit . "be5a3b0e9f7a64bcb222ba546a18e6b09922e0a9")
-		  (:revdesc . "be5a3b0e9f7a")
+		  (:commit . "b6c512597fd66abe69883a058a2d13bcea76bf33")
+		  (:revdesc . "b6c512597fd6")
 		  (:keywords "tools")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -53796,13 +53792,13 @@
 		  ("Jakob L. Kreuze" . "zerodaysfordays@sdf.lonestar.org"))
 		 (:maintainer "Jakob L. Kreuze" . "zerodaysfordays@sdf.lonestar.org"))])
  (mysql .
-	[(0 1 0 1 -4 20260617 643)
+	[(0 1 0 1 -4 20260701 1402)
 	 ((emacs
 	   (28 1)))
 	 "Pure Elisp MySQL wire protocol client" tar
 	 ((:url . "https://github.com/LuciusChen/mysql.el")
-	  (:commit . "a3a3b151687197906586464b8f9e812261673897")
-	  (:revdesc . "a3a3b1516871")
+	  (:commit . "9aaf2b00b91d16ebde03e9d6e5b5b2a588651cf3")
+	  (:revdesc . "9aaf2b00b91d")
 	  (:keywords "comm" "data")
 	  (:authors
 	   ("Lucius Chen" . "chenyh572@gmail.com"))
@@ -55132,15 +55128,15 @@
 	      ("Peter" . "craven@gmx.net"))
 	     (:maintainer "Peter" . "craven@gmx.net"))])
  (no-littering .
-	       [(0 1 0 1 -4 20260605 1120)
+	       [(0 1 0 1 -4 20260701 1241)
 		((emacs
 		  (28 1))
 		 (compat
 		  (31 0)))
 		"Help keeping ~/.config/emacs clean" tar
 		((:url . "https://github.com/emacscollective/no-littering")
-		 (:commit . "8e8e427f332a501b0a35b5de518d474c87c178d9")
-		 (:revdesc . "8e8e427f332a")
+		 (:commit . "719c2a3773419ebc92a06e61b0fb26f6d64e750e")
+		 (:revdesc . "719c2a377341")
 		 (:keywords "convenience")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.no-littering@jonas.bernoulli.dev"))
@@ -55527,7 +55523,7 @@
 		   ("Philippe IVALDI" . "emacs@ivaldi.me"))
 		  (:maintainer "Philippe IVALDI" . "emacs@ivaldi.me"))])
  (notmuch-transient .
-		    [(0 1 0 1 -4 20260601 1531)
+		    [(0 1 0 1 -4 20260701 1305)
 		     ((emacs
 		       (29 1))
 		      (compat
@@ -55538,8 +55534,8 @@
 		       (0 13)))
 		     "Command dispatchers for Notmuch" tar
 		     ((:url . "https://github.com/tarsius/notmuch-transient")
-		      (:commit . "41090076ad90b579ec48058d3edd135a1b9d05b5")
-		      (:revdesc . "41090076ad90")
+		      (:commit . "e60942fce3cb1f6a11533500c670ca4ac22186e5")
+		      (:revdesc . "e60942fce3cb")
 		      (:keywords "mail")
 		      (:authors
 		       ("Jonas Bernoulli" . "emacs.notmuch-transient@jonas.bernoulli.dev"))
@@ -61838,7 +61834,7 @@
 	    ("Yasuhito Takamiya" . "yasuhito@gmail.com"))
 	   (:maintainer "Yasuhito Takamiya" . "yasuhito@gmail.com"))])
  (orgit .
-	[(0 1 0 1 -4 20260623 2148)
+	[(0 1 0 1 -4 20260701 1430)
 	 ((emacs
 	   (29 1))
 	  (compat
@@ -61848,13 +61844,13 @@
 	  (llama
 	   (1 0))
 	  (magit
-	   (4 5))
+	   (4 6))
 	  (org
 	   (9 8)))
 	 "Support for Org links to Magit buffers" tar
 	 ((:url . "https://github.com/magit/orgit")
-	  (:commit . "1aa3a27b1cb6aec913f7365caebdd6ffbe178443")
-	  (:revdesc . "1aa3a27b1cb6")
+	  (:commit . "7c4827cd04953166f71eaec151ad1c50872fc680")
+	  (:revdesc . "7c4827cd0495")
 	  (:keywords "hypermedia" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
@@ -63397,15 +63393,15 @@
 	      ("Ryan Davis" . "ryand-ruby@zenspider.com"))
 	     (:maintainer "Ryan Davis" . "ryand-ruby@zenspider.com"))])
  (package-build .
-		[(0 1 0 1 -4 20260608 2212)
+		[(0 1 0 1 -4 20260701 1334)
 		 ((emacs
 		   (26 1))
 		  (compat
 		   (31 0)))
 		 "Curate an Emacs Lisp package archive" tar
 		 ((:url . "https://github.com/melpa/package-build")
-		  (:commit . "47a50e7593498533e22a832160536a90acc837e5")
-		  (:revdesc . "47a50e759349")
+		  (:commit . "f19a7f58cf4b2e573a6d551d8d3dbe265c2566b4")
+		  (:revdesc . "f19a7f58cf4b")
 		  (:keywords "maint" "tools")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
@@ -64195,13 +64191,13 @@
 		 ("Arnaud Rouanet" . "arnaud@rouanet.org"))
 		(:maintainer "Arnaud Rouanet" . "arnaud@rouanet.org"))])
  (pathaction .
-	     [(0 1 0 1 -4 20260604 212)
+	     [(0 1 0 1 -4 20260701 1336)
 	      ((emacs
 		(25 1)))
 	      "Execute the pathaction.yaml rules from your editor" tar
 	      ((:url . "https://github.com/jamescherti/pathaction.el")
-	       (:commit . "19dc91a8da6574dc7f80b263cc3a909be1c300e4")
-	       (:revdesc . "19dc91a8da65")
+	       (:commit . "845a2aec48df0f42010db1ed2c87880b2ddb1f69")
+	       (:revdesc . "845a2aec48df")
 	       (:keywords "convenience")
 	       (:authors
 		("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -65286,7 +65282,7 @@
 	     ("Eric Hansen" . "hansen.c.eric@gmail.com"))
 	    (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
  (pi-coding-agent .
-		  [(0 1 0 1 -4 20260628 1023)
+		  [(0 1 0 1 -4 20260701 1049)
 		   ((emacs
 		     (29 1))
 		    (transient
@@ -65297,8 +65293,8 @@
 		     (0 2 0)))
 		   "Emacs frontend for pi coding agent" tar
 		   ((:url . "https://github.com/dnouri/pi-coding-agent")
-		    (:commit . "119c1fe51625ace69adb7b603167d5b02d97ce96")
-		    (:revdesc . "119c1fe51625")
+		    (:commit . "339ca5dc4945d207c3f3cbb02365b8fb062c12c0")
+		    (:revdesc . "339ca5dc4945")
 		    (:keywords "ai" "llm" "ai-pair-programming" "tools")
 		    (:authors
 		     ("Daniel Nouri" . "daniel.nouri@gmail.com"))
@@ -67550,15 +67546,15 @@
 		     (:commit . "36bec1109ba0498c2d1ef29756c841d2e23b063e")
 		     (:revdesc . "36bec1109ba0"))])
  (projectile .
-	     [(0 1 0 1 -4 20260701 916)
+	     [(0 1 0 1 -4 20260701 1320)
 	      ((emacs
-		(27 1))
+		(28 1))
 	       (compat
 		(30)))
 	      "Manage and navigate projects in Emacs easily" tar
 	      ((:url . "https://github.com/bbatsov/projectile")
-	       (:commit . "090df7670fc3c8f002bc62a357b56a455b177cd0")
-	       (:revdesc . "090df7670fc3")
+	       (:commit . "7bf37c23cd63f9593a434413928bcaac596ddbd6")
+	       (:revdesc . "7bf37c23cd63")
 	       (:keywords "project" "convenience")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -69366,13 +69362,13 @@
 			 ("Sebastien Gross" . "seb•ɑƬ•chezwam•ɖɵʈ•org"))
 			(:maintainer "Sebastien Gross" . "seb•ɑƬ•chezwam•ɖɵʈ•org"))])
  (quick-fasd .
-	     [(0 1 0 1 -4 20260627 1316)
+	     [(0 1 0 1 -4 20260701 1254)
 	      ((emacs
 		(25 1)))
 	      "Integration for the command-line tool `fasd'" tar
 	      ((:url . "https://github.com/jamescherti/quick-fasd.el")
-	       (:commit . "249334222d13b5ea6d4811833326358e8d0dd30a")
-	       (:revdesc . "249334222d13")
+	       (:commit . "40ac0f067b8c24ab4ac8283a9bf79655e586304f")
+	       (:revdesc . "40ac0f067b8c")
 	       (:keywords "convenience"))])
  (quick-peek .
 	     [(1 0 1 -4 20200130 2059)
@@ -72712,15 +72708,15 @@
 		      (:revdesc . "5b2ce6783b02")
 		      (:keywords "text to speech" "dumb" "funny"))])
  (sayid .
-	[(0 1 0 1 -4 20260701 850)
+	[(0 1 0 1 -4 20260701 1223)
 	 ((emacs
 	   (28))
 	  (cider
 	   (1 23)))
 	 "Sayid nREPL middleware client" tar
 	 ((:url . "https://github.com/clojure-emacs/sayid")
-	  (:commit . "929c431d4157eea0540c47a53b349565cf7aaf11")
-	  (:revdesc . "929c431d4157")
+	  (:commit . "755c0d56bf563fddb1d171030713c788ad0aadb9")
+	  (:revdesc . "755c0d56bf56")
 	  (:keywords "clojure" "cider" "debugger")
 	  (:authors
 	   ("Bill Piel" . "bill@billpiel.com"))
@@ -73129,13 +73125,13 @@
 	      (:revdesc . "cf58dbec5394")
 	      (:keywords "scss" "css" "mode"))])
  (sculpture-themes .
-		   [(0 1 0 1 -4 20260215 1259)
+		   [(0 1 0 1 -4 20260701 1308)
 		    ((emacs
 		      (26 1)))
 		    "Themes with vivid colors" tar
 		    ((:url . "https://github.com/precompute/sculpture-theme")
-		     (:commit . "e5ac2c7b72ee58eb66510937270716d25484ecd6")
-		     (:revdesc . "e5ac2c7b72ee")
+		     (:commit . "8fa20dc87a86ea4576debb38a75d71f1ee6ae273")
+		     (:revdesc . "8fa20dc87a86")
 		     (:authors
 		      ("Precompute" . "git@precompute.net"))
 		     (:maintainers
@@ -81523,7 +81519,7 @@
 			      (:revdesc . "57911a5065a6")
 			      (:keywords "convenience" "tools"))])
  (transient .
-	    [(0 1 0 1 -4 20260617 1137)
+	    [(0 1 0 1 -4 20260701 1255)
 	     ((emacs
 	       (28 1))
 	      (compat
@@ -81536,8 +81532,8 @@
 	       (2 24)))
 	     "Transient commands" tar
 	     ((:url . "https://github.com/magit/transient")
-	      (:commit . "9d103f338fb9fd4506a0f1651c483209ab838f49")
-	      (:revdesc . "9d103f338fb9")
+	      (:commit . "3d20a780605f0a33d6360dc0a2ce9174c69a9a92")
+	      (:revdesc . "3d20a780605f")
 	      (:keywords "extensions")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
@@ -81722,7 +81718,7 @@
 	    ("Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))
 	   (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
  (tray .
-       [(0 1 0 1 -4 20260601 1523)
+       [(0 1 0 1 -4 20260701 1300)
 	((emacs
 	  (28 1))
 	 (compat
@@ -81731,8 +81727,8 @@
 	  (0 13)))
 	"Various transient menus" tar
 	((:url . "https://github.com/tarsius/tray")
-	 (:commit . "2d3368d4dd70da4f9d7c5aec8468c97054dc8234")
-	 (:revdesc . "2d3368d4dd70")
+	 (:commit . "0e6f331dd7fcef6a591c4954808a6b262522fa40")
+	 (:revdesc . "0e6f331dd7fc")
 	 (:keywords "convenience")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.tray@jonas.bernoulli.dev"))
@@ -84042,13 +84038,13 @@
 	    ("Adam Spiers" . "aspiers@suse.com"))
 	   (:maintainer "Adam Spiers" . "aspiers@suse.com"))])
  (vcomp .
-	[(0 1 0 1 -4 20260616 2212)
+	[(0 1 0 1 -4 20260701 1247)
 	 ((emacs
 	   (26 1)))
 	 "Compare version strings" tar
 	 ((:url . "https://github.com/tarsius/vcomp")
-	  (:commit . "7b3f93d1202bd9353ee6401c47fbc3cc0d6d76e3")
-	  (:revdesc . "7b3f93d1202b")
+	  (:commit . "ba2d07505dc29e3128ea915bb252969b82d2af08")
+	  (:revdesc . "ba2d07505dc2")
 	  (:keywords "versions")
 	  (:authors
 	   ("Jonas Bernoulli" . "jonas@bernoul.li"))
@@ -85119,13 +85115,13 @@
 	       ("Vince Salvino" . "mvsalvino@gmail.com"))
 	      (:maintainer "Vince Salvino" . "mvsalvino@gmail.com"))])
  (vui .
-      [(0 1 0 1 -4 20260701 1039)
+      [(0 1 0 1 -4 20260701 1116)
        ((emacs
 	 (29 1)))
        "Declarative, component-based UI library" tar
        ((:url . "https://github.com/d12frosted/vui.el")
-	(:commit . "db03febb9baa563786b6264dba1a4f372c64f5c5")
-	(:revdesc . "db03febb9baa")
+	(:commit . "e965148970cd8bc711d05c0dbbf9ea3695f21629")
+	(:revdesc . "e965148970cd")
 	(:keywords "ui" "widgets" "tools")
 	(:authors
 	 ("Boris Buliga" . "boris@d12frosted.io"))
@@ -86574,7 +86570,7 @@
 		       ("Campbell Barton" . "ideasman42@gmail.com"))
 		      (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
  (with-editor .
-	      [(0 1 0 1 -4 20260625 855)
+	      [(0 1 0 1 -4 20260701 1252)
 	       ((emacs
 		 (28 1))
 		(compat
@@ -86585,8 +86581,8 @@
 		 (1 0)))
 	       "Use the Emacsclient as $EDITOR" tar
 	       ((:url . "https://github.com/magit/with-editor")
-		(:commit . "36c34610b6b700b4d1f39ccabd2b8b8c9642292d")
-		(:revdesc . "36c34610b6b7")
+		(:commit . "45bfc6084f03e3aa7f4f8db20836d559186c5957")
+		(:revdesc . "45bfc6084f03")
 		(:keywords "processes" "terminals")
 		(:authors
 		 ("Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev"))
