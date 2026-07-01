@@ -5997,17 +5997,17 @@
 	 (:commit . "1aa2b2f8f6c0b32cd600355bbeabc036624d0566")
 	 (:revdesc . "1aa2b2f8f6c0"))])
  (borg .
-       [(0 1 0 1 -4 20260602 2342)
+       [(0 1 0 1 -4 20260701 1437)
 	((emacs
 	  (28 1))
 	 (epkg
 	  (4 2))
 	 (magit
-	  (4 5)))
+	  (4 6)))
 	"Assimilate Emacs packages as Git submodules" tar
 	((:url . "https://github.com/emacscollective/borg")
-	 (:commit . "04fc19ef58fc23965d582721cf22691e1bd91cfd")
-	 (:revdesc . "04fc19ef58fc")
+	 (:commit . "a844569c8ef24408ba0df31d5cd58be9d955efce")
+	 (:revdesc . "a844569c8ef2")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.borg@jonas.bernoulli.dev"))
@@ -6450,13 +6450,13 @@
 		 ("Russell Black" . "(killdash9@github)"))
 		(:maintainer "Russell Black" . "(killdash9@github)"))])
  (buffer-guardian .
-		  [(0 1 0 1 -4 20260604 226)
+		  [(0 1 0 1 -4 20260701 1346)
 		   ((emacs
-		     (25 1)))
+		     (27 1)))
 		   "Automatically Save Buffers Without Manual Intervention" tar
 		   ((:url . "https://github.com/jamescherti/jc-dev")
-		    (:commit . "44a692448659e529a9b6d5a1b36b40a66601376f")
-		    (:revdesc . "44a692448659")
+		    (:commit . "323eb562acf50ad117e614feadc0ee4b63eb817e")
+		    (:revdesc . "323eb562acf5")
 		    (:keywords "maint")
 		    (:authors
 		     ("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -6539,13 +6539,13 @@
 		 ("Samuel W. Flint" . "swflint@flintfam.org"))
 		(:maintainer "Samuel W. Flint" . "swflint@flintfam.org"))])
  (buffer-terminator .
-		    [(0 1 0 1 -4 20260628 147)
+		    [(0 1 0 1 -4 20260701 1343)
 		     ((emacs
-		       (25 1)))
+		       (27 1)))
 		     "Safely Terminate/Kill Buffers Automatically" tar
 		     ((:url . "https://github.com/jamescherti/buffer-terminator.el")
-		      (:commit . "2bc9a4106756e6c02c2c72f5b7e38e0d44d8ba4e")
-		      (:revdesc . "2bc9a4106756")
+		      (:commit . "11bf6a6a77b340416eb07f40d0eb7858f1fa5d5b")
+		      (:revdesc . "11bf6a6a77b3")
 		      (:keywords "convenience")
 		      (:authors
 		       ("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -9274,7 +9274,7 @@
 		    ("Don Jackson" . "dcj@clark-communications.com"))
 		   (:maintainer "Don Jackson" . "dcj@clark-communications.com"))])
  (clj-refactor .
-	       [(0 1 0 1 -4 20260701 1258)
+	       [(0 1 0 1 -4 20260701 1702)
 		((emacs
 		  (28 1))
 		 (yasnippet
@@ -9291,8 +9291,8 @@
 		  (0 4 1)))
 		"A collection of commands for refactoring Clojure code" tar
 		((:url . "https://github.com/clojure-emacs/clj-refactor.el")
-		 (:commit . "f7909baec7fd92e6ac3d98c0a166a00631c8c5ec")
-		 (:revdesc . "f7909baec7fd")
+		 (:commit . "3e0075eff0c5337573d8843cc59054f5695f44ac")
+		 (:revdesc . "3e0075eff0c5")
 		 (:keywords "convenience" "clojure" "cider")
 		 (:authors
 		  ("Magnar Sveen" . "magnars@gmail.com")
@@ -9628,19 +9628,15 @@
 		 ("Jason Milkins" . "jasonm23@gmail.com"))
 		(:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
  (clutch .
-	 [(0 1 0 1 -4 20260611 1401)
+	 [(0 1 0 1 -4 20260701 1437)
 	  ((emacs
 	    (29 1))
-	   (mysql
-	    (0 2 2))
-	   (pg
-	    (0 40))
 	   (transient
 	    (0 3 7)))
 	  "Interactive database client" tar
 	  ((:url . "https://github.com/LuciusChen/clutch")
-	   (:commit . "40a6f93e14a6742dbad59e383236e3be6ec0e9e5")
-	   (:revdesc . "40a6f93e14a6")
+	   (:commit . "c4a6e1d63dea29e51edbaf788e3bee77d3e5c91d")
+	   (:revdesc . "c4a6e1d63dea")
 	   (:keywords "comm" "data" "tools")
 	   (:authors
 	    ("Lucius Chen" . "chenyh572@gmail.com"))
@@ -11744,13 +11740,13 @@
 			 ("Jonathan Carroll Otsuka" . "pitas.axioms0c@icloud.com"))
 			(:maintainer "Jonathan Carroll Otsuka" . "pitas.axioms0c@icloud.com"))])
  (compile-angel .
-		[(0 1 0 1 -4 20260604 227)
+		[(0 1 0 1 -4 20260701 1350)
 		 ((emacs
-		   (26 3)))
+		   (27 1)))
 		 "Automatically Compile Elisp files (auto-compile alternative)" tar
 		 ((:url . "https://github.com/jamescherti/compile-angel.el")
-		  (:commit . "a75f4fe69abc0e8b15c739e3d07bc237a974e052")
-		  (:revdesc . "a75f4fe69abc")
+		  (:commit . "cb87bda462cdfdd39817148a3896b304865f668f")
+		  (:revdesc . "cb87bda462cd")
 		  (:keywords "convenience")
 		  (:authors
 		   ("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -30647,7 +30643,7 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20260623 1325)
+	[(0 1 0 1 -4 20260701 1425)
 	 ((emacs
 	   (29 1))
 	  (compat
@@ -30659,11 +30655,11 @@
 	  (emacsql
 	   (4 4))
 	  (ghub
-	   (5 2 1))
+	   (5 2 2))
 	  (llama
 	   (1 0))
 	  (magit
-	   (4 5))
+	   (4 6))
 	  (markdown-mode
 	   (2 8))
 	  (transient
@@ -30672,8 +30668,8 @@
 	   (1 2)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "0c9407833bd688f83ad496b37ea71381e758d65b")
-	  (:revdesc . "0c9407833bd6")
+	  (:commit . "9628f76740aec9270e9fb31457ff4cb38d9f3f16")
+	  (:revdesc . "9628f76740ae")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -32117,7 +32113,7 @@
 	   ("Mario Rodas" . "marsam@users.noreply.github.com"))
 	  (:maintainer "Mario Rodas" . "marsam@users.noreply.github.com"))])
  (gh-notify .
-	    [(0 1 0 1 -4 20251209 1735)
+	    [(0 1 0 1 -4 20260701 1512)
 	     ((emacs
 	       (29 1))
 	      (magit
@@ -32126,8 +32122,8 @@
 	       (0 4 0)))
 	     "A veneer for Magit/Forge GitHub notifications" tar
 	     ((:url . "https://github.com/anticomputer/gh-notify")
-	      (:commit . "d606d1390778cb104c28dbc5220e685293e1e687")
-	      (:revdesc . "d606d1390778")
+	      (:commit . "efecbc0ea7a1b77a48fb395ce3d5a54271974608")
+	      (:revdesc . "efecbc0ea7a1")
 	      (:keywords "comm")
 	      (:authors
 	       ("Bas Alberts" . "bas@anti.computer")
@@ -37965,7 +37961,7 @@
 			  ("Sliim" . "sliim@mailoo.org"))
 			 (:maintainer "Sliim" . "sliim@mailoo.org"))])
  (helm-projectile .
-		  [(0 1 0 1 -4 20260630 833)
+		  [(0 1 0 1 -4 20260701 1750)
 		   ((emacs
 		     (27 1))
 		    (helm
@@ -37974,8 +37970,8 @@
 		     (2 9)))
 		   "Helm integration for Projectile" tar
 		   ((:url . "https://github.com/bbatsov/helm-projectile")
-		    (:commit . "487862772daf82dd89fa229f97efc59ea5858406")
-		    (:revdesc . "487862772daf")
+		    (:commit . "8d518e146345701d4f6e06ef114ab7af7b874018")
+		    (:revdesc . "8d518e146345")
 		    (:keywords "project" "convenience"))])
  (helm-prosjekt .
 		[(0 1 1 -4 20140129 717)
@@ -52215,11 +52211,11 @@
 		("Tom Willemse" . "tom@ryuslash.org"))
 	       (:maintainer "Tom Willemse" . "tom@ryuslash.org"))])
  (mode-line-bell .
-		 [(0 1 0 1 -4 20181029 516)
+		 [(0 1 0 1 -4 20260701 1648)
 		  nil "Flash the mode line instead of ringing the bell" tar
 		  ((:url . "https://github.com/purcell/mode-line-bell")
-		   (:commit . "4985ba42f5a19f46ddbf9b3622453a9694995ce5")
-		   (:revdesc . "4985ba42f5a1")
+		   (:commit . "6ab459f7be311f5a30679a3dfb28431e3e8d2dad")
+		   (:revdesc . "6ab459f7be31")
 		   (:keywords "convenience")
 		   (:authors
 		    ("Steve Purcell" . "steve@sanityinc.com"))
@@ -54910,13 +54906,13 @@
 		 ("Sven Keidel" . "svenkeidel@gmail.com"))
 		(:maintainer "Sven Keidel" . "svenkeidel@gmail.com"))])
  (nix-ts-mode .
-	      [(0 1 0 1 -4 20260423 1718)
+	      [(0 1 0 1 -4 20260701 1658)
 	       ((emacs
 		 (29 1)))
 	       "Major mode for Nix expressions, powered by tree-sitter" tar
 	       ((:url . "https://github.com/nix-community/nix-ts-mode")
-		(:commit . "50916188784786ed201a8edc70a5264eefb525e3")
-		(:revdesc . "509161887847")
+		(:commit . "dcc3948afb8fa56060e63da294e78ede199c1d5d")
+		(:revdesc . "dcc3948afb8f")
 		(:keywords "nix" "languages" "tree-sitter")
 		(:maintainers
 		 ("Remi Gelinas" . "mail@remigelin.as"))
@@ -61875,25 +61871,25 @@
 	       (:revdesc . "08f7a16f3cc3")
 	       (:keywords "hypermedia" "vc"))])
  (orgit-forge .
-	      [(0 1 0 1 -4 20260623 2150)
+	      [(0 1 0 1 -4 20260701 1432)
 	       ((emacs
 		 (29 1))
 		(compat
-		 (30 1))
+		 (31 0))
 		(cond-let
-		 (0 2))
+		 (1 1))
 		(forge
 		 (0 6))
 		(magit
-		 (4 5))
+		 (4 6))
 		(org
 		 (9 8))
 		(orgit
-		 (2 1)))
+		 (2 2)))
 	       "Org links to Forge issue buffers" tar
 	       ((:url . "https://github.com/magit/orgit-forge")
-		(:commit . "1e325a23ccc707373c13aee91c15a0bc0d1d6f41")
-		(:revdesc . "1e325a23ccc7")
+		(:commit . "c421620af3fb38ab4654f745f51370471b65cf4e")
+		(:revdesc . "c421620af3fb")
 		(:keywords "hypermedia" "vc")
 		(:authors
 		 ("Jonas Bernoulli" . "emacs.orgit-forge@jonas.bernoulli.dev"))
@@ -64683,13 +64679,13 @@
 		   ("Martin Edström" . "meedstrom91@gmail.com"))
 		  (:maintainer "Martin Edström" . "meedstrom91@gmail.com"))])
  (persist-text-scale .
-		     [(0 1 0 1 -4 20260609 1528)
+		     [(0 1 0 1 -4 20260701 1512)
 		      ((emacs
 			(26 1)))
 		      "Persist and restore text scale" tar
 		      ((:url . "https://github.com/jamescherti/persist-text-scale.el")
-		       (:commit . "27e43ba3becce78a9365ac8e5ecdfc30e08249d6")
-		       (:revdesc . "27e43ba3becc")
+		       (:commit . "c741d0a21a06b6878518dd75983eb7ca65ddc385")
+		       (:revdesc . "c741d0a21a06")
 		       (:keywords "convenience")
 		       (:authors
 			("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -67546,15 +67542,15 @@
 		     (:commit . "36bec1109ba0498c2d1ef29756c841d2e23b063e")
 		     (:revdesc . "36bec1109ba0"))])
  (projectile .
-	     [(0 1 0 1 -4 20260701 1320)
+	     [(0 1 0 1 -4 20260701 1710)
 	      ((emacs
 		(28 1))
 	       (compat
 		(30)))
 	      "Manage and navigate projects in Emacs easily" tar
 	      ((:url . "https://github.com/bbatsov/projectile")
-	       (:commit . "7bf37c23cd63f9593a434413928bcaac596ddbd6")
-	       (:revdesc . "7bf37c23cd63")
+	       (:commit . "0d7f44f1493c6e3196ebde0aac7f25e792db350f")
+	       (:revdesc . "0d7f44f1493c")
 	       (:keywords "project" "convenience")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -72708,15 +72704,15 @@
 		      (:revdesc . "5b2ce6783b02")
 		      (:keywords "text to speech" "dumb" "funny"))])
  (sayid .
-	[(0 1 0 1 -4 20260701 1223)
+	[(0 1 0 1 -4 20260701 1745)
 	 ((emacs
 	   (28))
 	  (cider
 	   (1 23)))
 	 "Sayid nREPL middleware client" tar
 	 ((:url . "https://github.com/clojure-emacs/sayid")
-	  (:commit . "755c0d56bf563fddb1d171030713c788ad0aadb9")
-	  (:revdesc . "755c0d56bf56")
+	  (:commit . "80c11a7fe41508f0baeefff4131d1a3a7ab662b3")
+	  (:revdesc . "80c11a7fe415")
 	  (:keywords "clojure" "cider" "debugger")
 	  (:authors
 	   ("Bill Piel" . "bill@billpiel.com"))
@@ -85115,13 +85111,13 @@
 	       ("Vince Salvino" . "mvsalvino@gmail.com"))
 	      (:maintainer "Vince Salvino" . "mvsalvino@gmail.com"))])
  (vui .
-      [(0 1 0 1 -4 20260701 1116)
+      [(0 1 0 1 -4 20260701 1725)
        ((emacs
 	 (29 1)))
        "Declarative, component-based UI library" tar
        ((:url . "https://github.com/d12frosted/vui.el")
-	(:commit . "e965148970cd8bc711d05c0dbbf9ea3695f21629")
-	(:revdesc . "e965148970cd")
+	(:commit . "ee6d59b6477e5929bfd754727584c18d8c15ce2b")
+	(:revdesc . "ee6d59b6477e")
 	(:keywords "ui" "widgets" "tools")
 	(:authors
 	 ("Boris Buliga" . "boris@d12frosted.io"))
