@@ -1220,7 +1220,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260702 1229)
+	      [(0 1 0 1 -4 20260702 1606)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1229,8 +1229,8 @@
 		 (0 12 2)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "773f41fe8a3d31921a70db682e3979defec5579c")
-		(:revdesc . "773f41fe8a3d"))])
+		(:commit . "ba0918f6d8e502ff4d8dc6aa871bc8be5e50808f")
+		(:revdesc . "ba0918f6d8e5"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -45428,15 +45428,15 @@
 		  ("Morgan Willcock" . "morgan@ice9.digital"))
 		 (:maintainer "Morgan Willcock" . "morgan@ice9.digital"))])
  (kkp .
-      [(0 1 0 1 -4 20260702 1528)
+      [(0 1 0 1 -4 20260702 1633)
        ((emacs
 	 (27 1))
 	(compat
 	 (29 1 3 4)))
        "Enable support for the Kitty Keyboard Protocol" tar
        ((:url . "https://github.com/benotn/kkp")
-	(:commit . "bc5d5bf24ee75b860327e79ab26cc2280e87f339")
-	(:revdesc . "bc5d5bf24ee7")
+	(:commit . "fed406cf540a900d26e31f9c29b684d1a7b0ff8b")
+	(:revdesc . "fed406cf540a")
 	(:keywords "terminals")
 	(:authors
 	 ("Benjamin Orthen" . "contact@orthen.net"))
@@ -85172,19 +85172,21 @@
 	    ("Boris Buliga" . "boris@d12frosted.io"))
 	   (:maintainer "Boris Buliga" . "boris@d12frosted.io"))])
  (vulpea-journal .
-		 [(0 1 0 1 -4 20260701 945)
+		 [(0 1 0 1 -4 20260702 1636)
 		  ((emacs
 		    (29 1))
 		   (vulpea
-		    (2 0 0))
+		    (2 5 0))
 		   (vulpea-ui
-		    (1 0 0))
+		    (1 1 0))
+		   (vui
+		    (1 3 0))
 		   (dash
 		    (2 20 0)))
 		  "Daily note interface for vulpea" tar
 		  ((:url . "https://github.com/d12frosted/vulpea-journal")
-		   (:commit . "6a306430b2a46a243d987c8affa8e122226f3fd6")
-		   (:revdesc . "6a306430b2a4")
+		   (:commit . "48ad22f9b8339bfb7fcc93b0d917d244f2e8d8b3")
+		   (:revdesc . "48ad22f9b833")
 		   (:keywords "org-mode" "roam" "convenience")
 		   (:authors
 		    ("Boris Buliga" . "boris@d12frosted.io"))
@@ -85192,7 +85194,7 @@
 		    ("Boris Buliga" . "boris@d12frosted.io"))
 		   (:maintainer "Boris Buliga" . "boris@d12frosted.io"))])
  (vulpea-ui .
-	    [(0 1 0 1 -4 20260702 1623)
+	    [(0 1 0 1 -4 20260702 1637)
 	     ((emacs
 	       (29 1))
 	      (vulpea
@@ -85201,8 +85203,8 @@
 	       (1 3 0)))
 	     "Sidebar infrastructure and widget framework for vulpea notes" tar
 	     ((:url . "https://github.com/d12frosted/vulpea-ui")
-	      (:commit . "852f6db3875e75dd83f446dba8f4f8eb76dc2d43")
-	      (:revdesc . "852f6db3875e")
+	      (:commit . "54e4478cc1a0ee7036d11f91f4e378bcc57fa314")
+	      (:revdesc . "54e4478cc1a0")
 	      (:keywords "outlines" "hypermedia")
 	      (:authors
 	       ("Boris Buliga" . "boris@d12frosted.io"))
