@@ -1342,7 +1342,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260628 340)
+	  [(0 1 0 1 -4 20260705 1704)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1351,8 +1351,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Antigravity CLI, Claude Code, Opencode, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "04d9c34ca19602b6accbca5b8ebd20c6ec258e86")
-	    (:revdesc . "04d9c34ca196")
+	    (:commit . "495eae8c9488f77a6ed725cba2f2d7ca5a527c60")
+	    (:revdesc . "495eae8c9488")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -6308,6 +6308,24 @@
 		    (:maintainers
 		     ("Roland Walker" . "walker@pobox.com"))
 		    (:maintainer "Roland Walker" . "walker@pobox.com"))])
+ (browsel .
+	  [(0 1 0 1 -4 20260629 542)
+	   ((emacs
+	     (27 1))
+	    (websocket
+	     (1 13))
+	    (org
+	     (9 8)))
+	   "WebSocket bridge to a Chrome/Firefox extension" tar
+	   ((:url . "https://github.com/dmgerman/browsel")
+	    (:commit . "805a4162762c3a1e60ebb791007c788bde0d0be0")
+	    (:revdesc . "805a4162762c")
+	    (:keywords "comm" "tools" "browser" "org")
+	    (:authors
+	     ("Daniel M. German" . "dmg@turingmachine.org"))
+	    (:maintainers
+	     ("Daniel M. German" . "dmg@turingmachine.org"))
+	    (:maintainer "Daniel M. German" . "dmg@turingmachine.org"))])
  (browser-hist .
 	       [(0 1 0 1 -4 20260425 1930)
 		((emacs
@@ -39999,6 +40017,27 @@
 	 (:commit . "51c7960820de0576bbf0c3c286cb1264854d20aa")
 	 (:revdesc . "51c7960820de")
 	 (:keywords "extensions" "lisp" "local" "tools"))])
+ (hutch .
+	[(0 1 0 1 -4 20260630 1048)
+	 ((emacs
+	   (29 1))
+	  (magit
+	   (4 0))
+	  (transient
+	   (0 7 4))
+	  (gptel
+	   (0 9 9 3))
+	  (svg-lib
+	   (0 3)))
+	 "AI code review for magit" tar
+	 ((:url . "https://github.com/adjaecent/magit-hutch")
+	  (:commit . "ee06a06093c66f2c4c5873434aba44b62e11bf76")
+	  (:revdesc . "ee06a06093c6")
+	  (:authors
+	   ("Akshay Gupta" . "mail@kitallis.in"))
+	  (:maintainers
+	   ("Akshay Gupta" . "mail@kitallis.in"))
+	  (:maintainer "Akshay Gupta" . "mail@kitallis.in"))])
  (hy-mode .
 	  [(1 0 1 -4 20211016 2011)
 	   ((dash
@@ -43017,6 +43056,20 @@
 		     (:maintainers
 		      ("Dan Jacka" . "danjacka@gmail.com"))
 		     (:maintainer "Dan Jacka" . "danjacka@gmail.com"))])
+ (jal .
+      [(0 1 0 1 -4 20260629 1417)
+       ((emacs
+	 (28 1)))
+       "Java Agent Loader (JAL) for JDTLS" tar
+       ((:url . "https://github.com/saulotoledo/java-agent-loader")
+	(:commit . "54cbd7a6b613dc6ac2135ada9de47130e0665d3e")
+	(:revdesc . "54cbd7a6b613")
+	(:keywords "java" "languages" "tools")
+	(:authors
+	 ("Saulo Toledo" . "saulotoledo@gmail.com"))
+	(:maintainers
+	 ("Saulo Toledo" . "saulotoledo@gmail.com"))
+	(:maintainer "Saulo Toledo" . "saulotoledo@gmail.com"))])
  (jami-bot .
 	   [(0 0 4 1 -4 20240203 1017)
 	    ((emacs
@@ -45808,6 +45861,22 @@
 		   (:maintainers
 		    ("inj0h" . ""))
 		   (:maintainer "inj0h" . ""))])
+ (kusanagi-theme .
+		 [(0 1 0 1 -4 20260629 307)
+		  ((emacs
+		    (30 1))
+		   (modus-themes
+		    (5 0 0)))
+		  "Ghost in the Shell inspired dark theme built on Modus" tar
+		  ((:url . "https://github.com/LionyxML/kusanagi-theme")
+		   (:commit . "9bc24e173addb206a583fcd23086d79cd3e6c360")
+		   (:revdesc . "9bc24e173add")
+		   (:keywords "faces" "themes")
+		   (:authors
+		    ("Rahul Martim Juliato" . "rahul.juliato@gmail.com"))
+		   (:maintainers
+		    ("Rahul Martim Juliato" . "rahul.juliato@gmail.com"))
+		   (:maintainer "Rahul Martim Juliato" . "rahul.juliato@gmail.com"))])
  (kv .
      [(0 0 19 1 -4 20140108 1534)
       nil "Key/value data structure functions" tar
