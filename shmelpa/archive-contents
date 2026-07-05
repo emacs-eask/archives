@@ -54975,13 +54975,13 @@
 		 ("Sven Keidel" . "svenkeidel@gmail.com"))
 		(:maintainer "Sven Keidel" . "svenkeidel@gmail.com"))])
  (nix-ts-mode .
-	      [(0 1 0 1 -4 20260701 1658)
+	      [(0 1 0 1 -4 20260705 1600)
 	       ((emacs
 		 (29 1)))
 	       "Major mode for Nix expressions, powered by tree-sitter" tar
 	       ((:url . "https://github.com/nix-community/nix-ts-mode")
-		(:commit . "dcc3948afb8fa56060e63da294e78ede199c1d5d")
-		(:revdesc . "dcc3948afb8f")
+		(:commit . "3b69aeb8d2403ea52b60a46fa452965b7b37a50e")
+		(:revdesc . "3b69aeb8d240")
 		(:keywords "nix" "languages" "tree-sitter")
 		(:maintainers
 		 ("Remi Gelinas" . "mail@remigelin.as"))
@@ -57345,6 +57345,22 @@
 	     (:maintainers
 	      ("Samuel W. Flint" . "me@samuelwflint.com"))
 	     (:maintainer "Samuel W. Flint" . "me@samuelwflint.com"))])
+ (ol-locate-file .
+		 [(0 1 0 1 -4 20260622 706)
+		  ((emacs
+		    (30 1))
+		   (org
+		    (9 3)))
+		  "Locate-based file links for Org mode" tar
+		  ((:url . "https://github.com/p-snow/ol-locate-file")
+		   (:commit . "205256d39485ec25c3cceca027f30fa5332c8855")
+		   (:revdesc . "205256d39485")
+		   (:keywords "hypermedia" "convenience")
+		   (:authors
+		    ("p-snow" . "public@p-snow.org"))
+		   (:maintainers
+		    ("p-snow" . "public@p-snow.org"))
+		   (:maintainer "p-snow" . "public@p-snow.org"))])
  (ol-notmuch .
 	     [(0 1 0 1 -4 20260601 1532)
 	      ((emacs
@@ -65556,13 +65572,13 @@
 	    ("Xu Chunyang" . "mail@xuchunyang.me"))
 	   (:maintainer "Xu Chunyang" . "mail@xuchunyang.me"))])
  (pinyin-isearch .
-		 [(0 1 0 1 -4 20260704 18)
+		 [(0 1 0 1 -4 20260705 1955)
 		  ((emacs
 		    (28 1)))
 		  "Pinyin mode for isearch" tar
 		  ((:url . "https://github.com/Anoncheg1/pinyin-isearch")
-		   (:commit . "565e1b6eb6a70e8a33814c45896db059003741a2")
-		   (:revdesc . "565e1b6eb6a7")
+		   (:commit . "9e9b97ad9c1b927e462cd012a27351f8d595baa8")
+		   (:revdesc . "9e9b97ad9c1b")
 		   (:keywords "chinese" "pinyin" "matching" "convenience"))])
  (pinyin-search .
 		[(1 0 0 1 -4 20230919 538)
@@ -77402,6 +77418,17 @@
 	 (:maintainers
 	  ("Lassi Kortela" . "lassi@lassi.io"))
 	 (:maintainer "Lassi Kortela" . "lassi@lassi.io"))])
+ (srs .
+      [(0 1 0 1 -4 20260628 2348)
+       ((emacs
+	 (30 2))
+	(transient
+	 (0 12 0)))
+       "Spaced repetition in plain text" tar
+       ((:url . "https://github.com/Duncan-Britt/srs.el")
+	(:commit . "f708ecf2f0fb05c4b6738691d652643ea697b603")
+	(:revdesc . "f708ecf2f0fb")
+	(:keywords "hypermedia" "srs" "memory"))])
  (srv .
       [(0 2 1 -4 20180715 1959)
        ((emacs
@@ -88617,15 +88644,15 @@
 	(28 1)))
       "Functions for working with Zettelkasten-style linked notes" tar
       ((:url . "https://github.com/localauthor/zk")
-       (:commit . "c7039f3c74b32e5a6f548453aebb4f73bd29b572")
-       (:revdesc . "c7039f3c74b3")
+       (:commit . "ad82465a4a65fba7cff07da419455947507080cc")
+       (:revdesc . "ad82465a4a65")
        (:authors
 	("Grant Rosson" . "https://github.com/localauthor"))
        (:maintainers
 	("Grant Rosson" . "https://github.com/localauthor"))
        (:maintainer "Grant Rosson" . "https://github.com/localauthor"))])
  (zk-consult .
-	     [(0 1 0 1 -4 20260704 2128)
+	     [(0 1 0 1 -4 20260704 2129)
 	      ((emacs
 		(27 1))
 	       (zk
@@ -88634,15 +88661,15 @@
 		(0 14)))
 	      "Consult integration for zk" tar
 	      ((:url . "https://github.com/localauthor/zk")
-	       (:commit . "dfb3a82c9a84b0282fa79cf4d2bcaeba6ee4ec81")
-	       (:revdesc . "dfb3a82c9a84")
+	       (:commit . "ad82465a4a65fba7cff07da419455947507080cc")
+	       (:revdesc . "ad82465a4a65")
 	       (:authors
 		("Grant Rosson" . "https://github.com/localauthor"))
 	       (:maintainers
 		("Grant Rosson" . "https://github.com/localauthor"))
 	       (:maintainer "Grant Rosson" . "https://github.com/localauthor"))])
  (zk-desktop .
-	     [(0 1 0 1 -4 20250908 1240)
+	     [(0 1 0 1 -4 20260704 2129)
 	      ((emacs
 		(27 1))
 	       (zk
@@ -88651,8 +88678,8 @@
 		(0 9)))
 	      "Desktop environment for zk" tar
 	      ((:url . "https://github.com/localauthor/zk")
-	       (:commit . "302e494324066d63f317b54c4db75d173914c521")
-	       (:revdesc . "302e49432406")
+	       (:commit . "ad82465a4a65fba7cff07da419455947507080cc")
+	       (:revdesc . "ad82465a4a65")
 	       (:authors
 		("Grant Rosson" . "https://github.com/localauthor"))
 	       (:maintainers
