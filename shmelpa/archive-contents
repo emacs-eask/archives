@@ -8964,13 +8964,13 @@
 		       ("Arteen Abrishami" . "arteen@ucla.edu"))
 		      (:maintainer "Arteen Abrishami" . "arteen@ucla.edu"))])
  (clatter .
-	  [(0 1 0 1 -4 20260628 644)
+	  [(0 1 0 1 -4 20260707 707)
 	   ((emacs
 	     (30 1)))
 	   "An IRCv3-compliant IRC client" tar
 	   ((:url . "https://github.com/parenworks/clatter.el")
-	    (:commit . "16db9958b3b608a77bec03c583472c520b1fb269")
-	    (:revdesc . "16db9958b3b6")
+	    (:commit . "5b528cb06c57645e001ecb9f037b02cbf26e132c")
+	    (:revdesc . "5b528cb06c57")
 	    (:keywords "comm" "irc")
 	    (:authors
 	     ("Glenn Thompson" . "glenn@paren.works"))
@@ -9646,15 +9646,15 @@
 		 ("Jason Milkins" . "jasonm23@gmail.com"))
 		(:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
  (clutch .
-	 [(0 1 0 1 -4 20260706 204)
+	 [(0 1 0 1 -4 20260707 604)
 	  ((emacs
 	    (29 1))
 	   (transient
 	    (0 3 7)))
 	  "Interactive database client" tar
 	  ((:url . "https://github.com/LuciusChen/clutch")
-	   (:commit . "357494b049d3acedaa96e12de438b9990cdcbc2c")
-	   (:revdesc . "357494b049d3")
+	   (:commit . "9b1114241427f4d80436a1a901c3375333a626a9")
+	   (:revdesc . "9b1114241427")
 	   (:keywords "comm" "data" "tools")
 	   (:authors
 	    ("Lucius Chen" . "chenyh572@gmail.com"))
@@ -12772,7 +12772,7 @@
 	       ("Noah Peart" . "noah.v.peart@gmail.com"))
 	      (:maintainer "Noah Peart" . "noah.v.peart@gmail.com"))])
  (copilot .
-	  [(0 1 0 1 -4 20260706 1946)
+	  [(0 1 0 1 -4 20260707 516)
 	   ((emacs
 	     (27 2))
 	    (editorconfig
@@ -12785,8 +12785,8 @@
 	     (1 4)))
 	   "An Emacs plugin for GitHub Copilot" tar
 	   ((:url . "https://github.com/copilot-emacs/copilot.el")
-	    (:commit . "a2cdb6783eaaa74b266af3b1ee2acef0ce8060bc")
-	    (:revdesc . "a2cdb6783eaa")
+	    (:commit . "277ca357422ba34bcf7fe650cb720580994eea84")
+	    (:revdesc . "277ca357422b")
 	    (:keywords "convenience" "copilot")
 	    (:authors
 	     ("zerol" . "z@zerol.me"))
@@ -33454,7 +33454,7 @@
 	     ("Nic Ferrier" . "nferrier@ferrier.me.uk"))
 	    (:maintainer "Nic Ferrier" . "nferrier@ferrier.me.uk"))])
  (gnosis .
-	 [(0 1 0 1 -4 20260507 2347)
+	 [(0 1 0 1 -4 20260707 108)
 	  ((emacs
 	    (29 1))
 	   (compat
@@ -33463,8 +33463,8 @@
 	    (0 2 0)))
 	  "Knowledge System" tar
 	  ((:url . "https://codeberg.org/thanosapollo/emacs-gnosis")
-	   (:commit . "07de9c67536fe3e8c5fef1daf61527f3bcfa46a7")
-	   (:revdesc . "07de9c67536f")
+	   (:commit . "f68bfc5500c38c1edb59ea6eed70b7a765d368f0")
+	   (:revdesc . "f68bfc5500c3")
 	   (:keywords "extensions")
 	   (:authors
 	    ("Thanos Apollo" . "public@thanosapollo.org"))
@@ -34645,7 +34645,7 @@
 		  ("Liu Bo" . "liubolovelife@gmail.com"))
 		 (:maintainer "Liu Bo" . "liubolovelife@gmail.com"))])
  (gptel-cpp-complete .
-		     [(0 1 0 1 -4 20260330 755)
+		     [(0 1 0 1 -4 20260707 305)
 		      ((emacs
 			(30 1))
 		       (eglot
@@ -34654,8 +34654,8 @@
 			(0 9 8)))
 		      "GPTel-powered C++ completion" tar
 		      ((:url . "https://github.com/beacoder/gptel-cpp-complete")
-		       (:commit . "4a5fe7941a76f74fe277da916be2cd20e06d2b60")
-		       (:revdesc . "4a5fe7941a76")
+		       (:commit . "d67acb59a9c00c8efb6a9923174bd4aa569793fa")
+		       (:revdesc . "d67acb59a9c0")
 		       (:keywords "programming" "convenience")
 		       (:authors
 			("Huming Chen" . "chenhuming@gmail.com"))
@@ -77435,16 +77435,21 @@
 	  ("Lassi Kortela" . "lassi@lassi.io"))
 	 (:maintainer "Lassi Kortela" . "lassi@lassi.io"))])
  (srs .
-      [(0 1 0 1 -4 20260628 2348)
+      [(0 1 0 1 -4 20260707 47)
        ((emacs
 	 (30 2))
 	(transient
 	 (0 12 0)))
        "Spaced repetition in plain text" tar
        ((:url . "https://github.com/Duncan-Britt/srs.el")
-	(:commit . "f708ecf2f0fb05c4b6738691d652643ea697b603")
-	(:revdesc . "f708ecf2f0fb")
-	(:keywords "hypermedia" "srs" "memory"))])
+	(:commit . "0d7f8f0a0c0adabe212210439676cdd933091df9")
+	(:revdesc . "0d7f8f0a0c0a")
+	(:keywords "hypermedia" "srs" "memory")
+	(:authors
+	 ("Duncan Britt" . "duncanbritt.com"))
+	(:maintainers
+	 ("Duncan Britt" . "duncanbritt.com"))
+	(:maintainer "Duncan Britt" . "duncanbritt.com"))])
  (srv .
       [(0 2 1 -4 20180715 1959)
        ((emacs
