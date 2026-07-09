@@ -1342,7 +1342,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260709 340)
+	  [(0 1 0 1 -4 20260709 1542)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1351,8 +1351,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Antigravity CLI, Claude Code, Opencode, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "1745025ee5f4d6382c26ffa8c38bad6b2c9e8e26")
-	    (:revdesc . "1745025ee5f4")
+	    (:commit . "a5b77a9d628abe39508abd05e1de056eca535088")
+	    (:revdesc . "a5b77a9d628a")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -5703,15 +5703,15 @@
 	  ("Kenneth Loeffler" . "kenloef@gmail.com"))
 	 (:maintainer "Kenneth Loeffler" . "kenloef@gmail.com"))])
  (blue .
-       [(0 1 0 1 -4 20260709 1227)
+       [(0 1 0 1 -4 20260709 1248)
 	((emacs
 	  (30 1))
 	 (magit-section
 	  (4 3 8)))
 	"BLUE build system interface" tar
 	((:url . "https://codeberg.org/lapislazuli/blue.el")
-	 (:commit . "8f96f68c9de25e125e1095006316bcb48695dbca")
-	 (:revdesc . "8f96f68c9de2")
+	 (:commit . "3668ca7f627f3497d907293f38dcfbe33fb6f4f7")
+	 (:revdesc . "3668ca7f627f")
 	 (:keywords "blue" "tools")
 	 (:authors
 	  ("Sergio Pastor Pérez" . "sergio.pastorperez@gmail.com"))
@@ -17702,7 +17702,7 @@
 	  ("Aleksei Gusev" . "aleksei.gusev@gmail.com"))
 	 (:maintainer "Aleksei Gusev" . "aleksei.gusev@gmail.com"))])
  (docker .
-	 [(0 1 0 1 -4 20260701 833)
+	 [(0 1 0 1 -4 20260709 1426)
 	  ((aio
 	    (1 0))
 	   (dash
@@ -17717,8 +17717,8 @@
 	    (0 4 3)))
 	  "Interface to Docker" tar
 	  ((:url . "https://github.com/Silex/docker.el")
-	   (:commit . "a1f23ec1355011ec85c25bb6232b5eba810659ee")
-	   (:revdesc . "a1f23ec13550")
+	   (:commit . "f32940100035438934d626adb99cfc63036de490")
+	   (:revdesc . "f32940100035")
 	   (:keywords "filename" "convenience")
 	   (:authors
 	    ("Philippe Vaucher" . "philippe.vaucher@gmail.com"))
@@ -46644,13 +46644,13 @@
 		   ("Damien Cassou" . "damien@cassou.me"))
 		  (:maintainer "Damien Cassou" . "damien@cassou.me"))])
  (ledger-mode .
-	      [(0 1 0 1 -4 20260609 609)
+	      [(0 1 0 1 -4 20260709 1534)
 	       ((emacs
 		 (26 1)))
 	       "Helper code for use with the \"ledger\" command-line tool" tar
 	       ((:url . "https://github.com/ledger/ledger-mode")
-		(:commit . "b0ee99feb2dcae5e304ad735d82d488f2191a51c")
-		(:revdesc . "b0ee99feb2dc"))])
+		(:commit . "f7761ab7070e8c0c1cfb97e571ba81c3377a7447")
+		(:revdesc . "f7761ab7070e"))])
  (leerzeichen .
 	      [(0 1 0 1 -4 20220626 835)
 	       nil "Minor mode to display whitespace characters" tar
@@ -49274,7 +49274,7 @@
 	       (:revdesc . "ed8e8dce0e7b")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20260708 1720)
+	[(0 1 0 1 -4 20260709 1540)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -49293,8 +49293,8 @@
 	   (3 5)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "5e176cf1063aa67e400a67f7d773a4175f107dd1")
-	  (:revdesc . "5e176cf1063a")
+	  (:commit . "2d03acf96546640a46e4ab8e7b3632e1d8782a16")
+	  (:revdesc . "2d03acf96546")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -65586,14 +65586,19 @@
 	    ("Xu Chunyang" . "mail@xuchunyang.me"))
 	   (:maintainer "Xu Chunyang" . "mail@xuchunyang.me"))])
  (pinyin-isearch .
-		 [(0 1 0 1 -4 20260708 53)
+		 [(0 1 0 1 -4 20260709 1634)
 		  ((emacs
 		    (28 1)))
 		  "Pinyin mode for isearch" tar
 		  ((:url . "https://github.com/Anoncheg1/pinyin-isearch")
-		   (:commit . "8fcd67a3ef22d9d0354027f9c58dc09274244005")
-		   (:revdesc . "8fcd67a3ef22")
-		   (:keywords "chinese" "pinyin" "matching" "convenience"))])
+		   (:commit . "b87cf9856660fbcc83d8297ef33c243a3f4ec4f0")
+		   (:revdesc . "b87cf9856660")
+		   (:keywords "chinese" "isearch" "matching" "convenience")
+		   (:authors
+		    ("Anoncheg" . "vitalij@gmx.com"))
+		   (:maintainers
+		    ("Anoncheg" . "vitalij@gmx.com"))
+		   (:maintainer "Anoncheg" . "vitalij@gmx.com"))])
  (pinyin-search .
 		[(1 0 0 1 -4 20230919 538)
 		 ((pinyinlib
