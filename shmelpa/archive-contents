@@ -6482,17 +6482,17 @@
 		     ("James Cherti" . "https://www.jamescherti.com/contact/"))
 		    (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (buffer-manage .
-		[(0 1 0 1 -4 20260626 2233)
+		[(0 1 0 1 -4 20260711 1557)
 		 ((emacs
 		   (26 1))
 		  (choice-program
-		   (0 13))
+		   (0 16 0))
 		  (dash
 		   (2 17 0)))
 		 "Manage buffers" tar
 		 ((:url . "https://github.com/plandes/buffer-manage")
-		  (:commit . "d2b17b2556a69ec40f454f6b6b0f37b439288e04")
-		  (:revdesc . "d2b17b2556a6")
+		  (:commit . "229673aca42f2cd7fc60b3d24516aa075a1fb48c")
+		  (:revdesc . "229673aca42f")
 		  (:keywords "internal" "maint"))])
  (buffer-move .
 	      [(0 6 3 1 -4 20220512 755)
@@ -8487,7 +8487,7 @@
 		(:commit . "c2bb425eaff0975e0c7081f282d291f7853f8376")
 		(:revdesc . "c2bb425eaff0"))])
  (cider .
-	[(0 1 0 1 -4 20260711 757)
+	[(0 1 0 1 -4 20260711 1541)
 	 ((emacs
 	   (28))
 	  (clojure-mode
@@ -8508,8 +8508,8 @@
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
 	 ((:url . "https://www.github.com/clojure-emacs/cider")
-	  (:commit . "292c6f108a055929fb5118dedba9c7461424580c")
-	  (:revdesc . "292c6f108a05")
+	  (:commit . "6dd9df8fe91d666c5041c695d8a8a83434e2cf90")
+	  (:revdesc . "6dd9df8fe91d")
 	  (:keywords "languages" "clojure" "cider")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
@@ -24556,7 +24556,7 @@
 		      ("Andrew Smith" . "andy.bill.smith@gmail.com"))
 		     (:maintainer "Andrew Smith" . "andy.bill.smith@gmail.com"))])
  (evil-ghostel .
-	       [(0 1 0 1 -4 20260707 1804)
+	       [(0 1 0 1 -4 20260711 1412)
 		((emacs
 		  (28 1))
 		 (evil
@@ -24565,8 +24565,8 @@
 		  (0 42 1)))
 		"Evil-mode integration for ghostel" tar
 		((:url . "https://github.com/dakra/ghostel")
-		 (:commit . "f0d7756040878b202217da7a20fe77dc332db169")
-		 (:revdesc . "f0d775604087")
+		 (:commit . "df9b7e1ab3bb2a5305232f02f7619e4e2f0570b4")
+		 (:revdesc . "df9b7e1ab3bb")
 		 (:authors
 		  ("Daniel Kraus" . "daniel@kraus.my"))
 		 (:maintainers
@@ -31508,15 +31508,15 @@
 		("Duc Dang" . "me@dangduc.com"))
 	       (:maintainer "Duc Dang" . "me@dangduc.com"))])
  (fzfa .
-       [(0 1 0 1 -4 20260710 2242)
+       [(0 1 0 1 -4 20260710 2247)
 	((emacs
 	  (29 1))
 	 (fzf-native
 	  (2 1)))
 	"Async fuzzy completion via `fzf-native'" tar
 	((:url . "https://github.com/jojojames/fzfa")
-	 (:commit . "34898b3b3563aa9b360eed2ad02965d76c4a145a")
-	 (:revdesc . "34898b3b3563")
+	 (:commit . "98951bd98eac791c2b4f85780bcf8e1b30b632d0")
+	 (:revdesc . "98951bd98eac")
 	 (:keywords "matching" "completion" "fzf" "fuzzy" "fussy")
 	 (:authors
 	  ("James Nguyen" . "james@jojojames.com"))
@@ -32207,15 +32207,15 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20260711 1005)
+	  [(0 1 0 1 -4 20260711 1412)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30 1 0 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "0d68577e11aebe2c17f716cd8e539a1c2d9a8848")
-	    (:revdesc . "0d68577e11ae")
+	    (:commit . "df9b7e1ab3bb2a5305232f02f7619e4e2f0570b4")
+	    (:revdesc . "df9b7e1ab3bb")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -40123,13 +40123,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20260711 113)
+	    [(0 1 0 1 -4 20260711 1658)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "afd47e44f7550e67b158a2203fdb903b4a9ef3dd")
-	      (:revdesc . "afd47e44f755")
+	      (:commit . "cf921f2ab7977422c6fd1c5778aa6bab757fbc0f")
+	      (:revdesc . "cf921f2ab797")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -77430,15 +77430,15 @@
 	  ("Lassi Kortela" . "lassi@lassi.io"))
 	 (:maintainer "Lassi Kortela" . "lassi@lassi.io"))])
  (srs .
-      [(0 1 0 1 -4 20260710 2252)
+      [(0 1 0 1 -4 20260711 1524)
        ((emacs
 	 (30 2))
 	(transient
 	 (0 12 0)))
        "Spaced repetition in plain text" tar
        ((:url . "https://github.com/Duncan-Britt/srs.el")
-	(:commit . "a39f13525d62993bd39ecbe992a06f50853d9d1d")
-	(:revdesc . "a39f13525d62")
+	(:commit . "dbc5f27b57acc784219790bc79bf3abcb4bff4e1")
+	(:revdesc . "dbc5f27b57ac")
 	(:keywords "hypermedia" "srs" "memory")
 	(:authors
 	 ("Duncan Britt" . "duncanbritt.com"))
