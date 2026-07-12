@@ -21249,7 +21249,7 @@
 	   ("Peter Badida" . "keyweeusr@gmail.com"))
 	  (:maintainer "Peter Badida" . "keyweeusr@gmail.com"))])
  (ellama .
-	 [(0 1 0 1 -4 20260626 1223)
+	 [(0 1 0 1 -4 20260712 1716)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -21264,8 +21264,8 @@
 	    (1 2 3)))
 	  "Tool for interacting with LLMs" tar
 	  ((:url . "https://github.com/s-kostyaev/ellama")
-	   (:commit . "09857e5d2ec8a7bfc68b510a2a6afce2b165566b")
-	   (:revdesc . "09857e5d2ec8")
+	   (:commit . "b00c307c97a2e447948a589fe591e3cad2d4b93a")
+	   (:revdesc . "b00c307c97a2")
 	   (:keywords "help" "local" "tools")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
@@ -24348,15 +24348,15 @@
 			  ("Bryan Allred" . "bryan@revolvingcow.com"))
 			 (:maintainer "Bryan Allred" . "bryan@revolvingcow.com"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20260626 255)
+		  [(0 4 1 1 -4 20260712 1946)
 		   ((emacs
 		     (29 1))
 		    (evil
 		     (1 2 13)))
 		   "A set of keybindings for Evil mode" tar
 		   ((:url . "https://github.com/emacs-evil/evil-collection")
-		    (:commit . "162183159dde328336bf2c92cef66b4151df26cf")
-		    (:revdesc . "162183159dde")
+		    (:commit . "a55c082c59ad811f56627400db3018dfba41e8e2")
+		    (:revdesc . "a55c082c59ad")
 		    (:keywords "evil" "tools")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
@@ -30513,6 +30513,19 @@
 	      (:maintainers
 	       ("Lander Wells" . "landerwells@gmail.com"))
 	      (:maintainer "Lander Wells" . "landerwells@gmail.com"))])
+ (folio-theme .
+	      [(0 1 0 1 -4 20260711 13)
+	       ((emacs
+		 (28 1))
+		(modus-themes
+		 (5 0 0))
+		(ef-themes
+		 (2 0 0)))
+	       "Warm paper-like theme built on Modus and Ef" tar
+	       ((:url . "https://github.com/kn66/folio-theme.el")
+		(:commit . "758ca1f9674d685747d0846160e76bb6cb677a2d")
+		(:revdesc . "758ca1f9674d")
+		(:keywords "faces"))])
  (font-lock-profiler .
 		     [(0 1 0 1 -4 20250104 2246)
 		      ((emacs
@@ -40125,13 +40138,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20260711 1658)
+	    [(0 1 0 1 -4 20260712 1739)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "cf921f2ab7977422c6fd1c5778aa6bab757fbc0f")
-	      (:revdesc . "cf921f2ab797")
+	      (:commit . "c467a935e89ca2e0738d662f7c0db04b3b8ae9d1")
+	      (:revdesc . "c467a935e89c")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -47311,18 +47324,18 @@
 		 ("Jen-Chieh" . "jcs090218@gmail.com"))
 		(:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (lirve .
-	[(0 1 0 1 -4 20260706 820)
+	[(0 1 0 1 -4 20260708 1737)
 	 ((emacs
 	   (26 1)))
 	 "Learn irregular verbs in English" tar
-	 ((:url . "https://github.com/tanrax/lirve.el")
-	  (:commit . "287f5995e026787f2930e6892874f78c421203f0")
-	  (:revdesc . "287f5995e026")
+	 ((:url . "https://git.andros.dev/andros/lirve.el")
+	  (:commit . "b8dfa92eb51bde15c269dede50342f0b94240a49")
+	  (:revdesc . "b8dfa92eb51b")
 	  (:authors
-	   ("Andros Fenollosa" . "andros@fenollosa.email"))
+	   ("Andros Fenollosa" . "hi@andros.dev"))
 	  (:maintainers
-	   ("Andros Fenollosa" . "andros@fenollosa.email"))
-	  (:maintainer "Andros Fenollosa" . "andros@fenollosa.email"))])
+	   ("Andros Fenollosa" . "hi@andros.dev"))
+	  (:maintainer "Andros Fenollosa" . "hi@andros.dev"))])
  (liso-theme .
 	     [(2 1 1 -4 20160410 2029)
 	      nil "Eclectic Dark Theme for GNU Emacs" tar
@@ -48630,7 +48643,7 @@
 		("Evgeny Kurnevsky" . "kurnevsky@gmail.com"))
 	       (:maintainer "Ross A. Baker" . "ross@rossabaker.com"))])
  (lsp-mode .
-	   [(0 1 0 1 -4 20260712 405)
+	   [(0 1 0 1 -4 20260712 1914)
 	    ((emacs
 	      (29 1))
 	     (dash
@@ -48649,8 +48662,8 @@
 	      (1 11)))
 	    "LSP mode" tar
 	    ((:url . "https://github.com/emacs-lsp/lsp-mode")
-	     (:commit . "32e7115eb04adc262a1aa6e72f93a2b499d6b70f")
-	     (:revdesc . "32e7115eb04a")
+	     (:commit . "8427188741d231a85143dadd66db3aa4b1e48c46")
+	     (:revdesc . "8427188741d2")
 	     (:keywords "languages"))])
  (lsp-mssql .
 	    [(0 1 0 1 -4 20260507 1743)
@@ -50994,13 +51007,13 @@
 			    ("Dmitriy Pshonko" . "http://github.com/jumper047"))
 			   (:maintainer "Dmitriy Pshonko" . "http://github.com/jumper047"))])
  (media-thumbnail .
-		  [(0 0 1 1 -4 20240816 458)
+		  [(0 1 0 1 -4 20260712 1958)
 		   ((emacs
 		     (28 1)))
 		   "Utility package to provide media icons" tar
 		   ((:url . "https://github.com/jojojames/media-thumbnail")
-		    (:commit . "190632c1d6cc2ab94031d57e0c24412a4698faf0")
-		    (:revdesc . "190632c1d6cc")
+		    (:commit . "bd0be6d09ced3afb5db1cf2f7e898e26d9934076")
+		    (:revdesc . "bd0be6d09ced")
 		    (:keywords "files" "tools")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
@@ -52041,6 +52054,20 @@
 	 (:maintainers
 	  ("Eki Zhang" . "liuyinz95@gmail.com"))
 	 (:maintainer "Eki Zhang" . "liuyinz95@gmail.com"))])
+ (mise-tasks .
+	     [(0 1 0 1 -4 20260703 656)
+	      ((emacs
+		(28 1)))
+	      "Run mise tasks and highlight lockfiles" tar
+	      ((:url . "https://github.com/klochowicz/mise-tasks.el")
+	       (:commit . "76c762bd920bf1e2faac631ac990c4e2e798d321")
+	       (:revdesc . "76c762bd920b")
+	       (:keywords "tools" "processes" "mise")
+	       (:authors
+		("Mariusz Klochowicz" . "mariusz@klochowicz.com"))
+	       (:maintainers
+		("Mariusz Klochowicz" . "mariusz@klochowicz.com"))
+	       (:maintainer "Mariusz Klochowicz" . "mariusz@klochowicz.com"))])
  (mistty .
 	 [(0 1 0 1 -4 20260205 1444)
 	  ((emacs
@@ -62985,6 +63012,22 @@
 	       (:maintainers
 		("Kaushal Modi" . "kaushal.modi@gmail.com"))
 	       (:maintainer "Kaushal Modi" . "kaushal.modi@gmail.com"))])
+ (ox-mom .
+	 [(0 1 0 1 -4 20260707 243)
+	  ((emacs
+	    (27 1))
+	   (org
+	    (9 6)))
+	  "Groff MOM Macro Back-End for Org Export Engine" tar
+	  ((:url . "https://github.com/hinman/ox-mom")
+	   (:commit . "40711a3681cbeb4cbcb520371297bf3d932a333b")
+	   (:revdesc . "40711a3681cb")
+	   (:keywords "org" "groff" "mom" "wp" "outlines")
+	   (:authors
+	    ("Lee Hinman" . "hinman@gmail.com"))
+	   (:maintainers
+	    ("Lee Hinman" . "hinman@gmail.com"))
+	   (:maintainer "Lee Hinman" . "hinman@gmail.com"))])
  (ox-nikola .
 	    [(0 1 1 -4 20151114 1116)
 	     ((emacs
@@ -67640,15 +67683,15 @@
 		     (:commit . "36bec1109ba0498c2d1ef29756c841d2e23b063e")
 		     (:revdesc . "36bec1109ba0"))])
  (projectile .
-	     [(0 1 0 1 -4 20260712 1054)
+	     [(0 1 0 1 -4 20260712 1942)
 	      ((emacs
 		(28 1))
 	       (compat
 		(30)))
 	      "Manage and navigate projects in Emacs easily" tar
 	      ((:url . "https://github.com/bbatsov/projectile")
-	       (:commit . "fc4ccb86687c9f1bd65c8d0f07f36fcae381307f")
-	       (:revdesc . "fc4ccb86687c")
+	       (:commit . "155ff835f142f7cd79afb25f0c8828c68d93fedd")
+	       (:revdesc . "155ff835f142")
 	       (:keywords "project" "convenience")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -78805,6 +78848,22 @@
 	       ((:url . "http://hins11.yu-yake.com/")
 		(:commit . "056d1a473e36992ff5881e5ce6fdc331cead975f")
 		(:revdesc . "056d1a473e36"))])
+ (synaxis .
+	  [(0 1 0 1 -4 20260712 1653)
+	   ((emacs
+	     (29 1))
+	    (keymap-popup
+	     (0 2 1)))
+	   "Feed reader with SQLite storage" tar
+	   ((:url . "https://git.thanosapollo.org/synaxis")
+	    (:commit . "4a4b98050f74391beb45fe60bae874408f559573")
+	    (:revdesc . "4a4b98050f74")
+	    (:keywords "news" "hypermedia" "rss" "atom")
+	    (:authors
+	     ("Thanos Apollo" . "public@thanosapollo.org"))
+	    (:maintainers
+	     ("Thanos Apollo" . "public@thanosapollo.org"))
+	    (:maintainer "Thanos Apollo" . "public@thanosapollo.org"))])
  (sync-recentf .
 	       [(1 0 1 -4 20160326 2001)
 		nil "Synchronize the recent files list between Emacs instances" tar
@@ -81946,15 +82005,15 @@
 			("Erick Navarro" . "erick@navarro.io"))
 		       (:maintainer "Erick Navarro" . "erick@navarro.io"))])
  (tree-sitter-langs .
-		    [(0 1 0 1 -4 20260710 1826)
+		    [(0 1 0 1 -4 20260712 1637)
 		     ((emacs
 		       (26 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
 		     ((:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs")
-		      (:commit . "0a0a6540d2342eb0bc0599f3bb53e9c2d1d4bcbd")
-		      (:revdesc . "0a0a6540d234")
+		      (:commit . "3bec63634c99c1e5b5debfda8884f8448255dc2b")
+		      (:revdesc . "3bec63634c99")
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
