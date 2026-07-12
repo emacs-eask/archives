@@ -5436,19 +5436,19 @@
 		("Eric Beuscher" . "beuscher@eecs.tulane.edu"))
 	       (:maintainer "Eric Beuscher" . "beuscher@eecs.tulane.edu"))])
  (bitbake .
-	  [(0 1 0 1 -4 20260704 1407)
+	  [(0 1 0 1 -4 20260712 1615)
 	   ((emacs
-	     (24 1))
+	     (25))
 	    (dash
 	     (2 6 0))
-	    (mmm-mode
-	     (0 5 4))
+	    (polymode
+	     (20260505 1803))
 	    (s
 	     (1 10 0)))
 	   "Running bitbake from emacs" tar
 	   ((:url . "https://github.com/canatella/bitbake-el")
-	    (:commit . "96ee67ddc74bee6ab143ce2ec620f9128ae48806")
-	    (:revdesc . "96ee67ddc74b")
+	    (:commit . "f626d37727df0550aa2afd3f1b0ce81f38be18a3")
+	    (:revdesc . "f626d37727df")
 	    (:keywords "convenience"))])
  (bitbake-ts-mode .
 		  [(0 1 0 1 -4 20240908 1435)
@@ -7379,13 +7379,13 @@
 		("Ayrat Badykov" . "ayratin555@gmail.com"))
 	       (:maintainer "Ayrat Badykov" . "ayratin555@gmail.com"))])
  (cargo-transient .
-		  [(0 1 0 1 -4 20241204 1217)
+		  [(0 1 0 1 -4 20260712 1432)
 		   ((emacs
 		     (28 1)))
 		   "A transient UI for Cargo, Rust's package manager" tar
 		   ((:url . "https://github.com/peterstuart/cargo-transient")
-		    (:commit . "b75511f911189b6b6c47976dd970eeb80ccfb3ee")
-		    (:revdesc . "b75511f91118")
+		    (:commit . "ece657bb0f44f64a273d5334b3423688b7ed9e3e")
+		    (:revdesc . "ece657bb0f44")
 		    (:authors
 		     ("Peter Stuart" . "peter@peterstuart.org"))
 		    (:maintainers
@@ -8962,13 +8962,13 @@
 		       ("Arteen Abrishami" . "arteen@ucla.edu"))
 		      (:maintainer "Arteen Abrishami" . "arteen@ucla.edu"))])
  (clatter .
-	  [(0 1 0 1 -4 20260707 712)
+	  [(0 1 0 1 -4 20260712 1616)
 	   ((emacs
 	     (30 1)))
 	   "An IRCv3-compliant IRC client" tar
 	   ((:url . "https://github.com/parenworks/clatter.el")
-	    (:commit . "190ea8ca7b5b1102db2d13f594592d4cedea689b")
-	    (:revdesc . "190ea8ca7b5b")
+	    (:commit . "62db081e22e6f496d38323f28c47ae47567ccf3b")
+	    (:revdesc . "62db081e22e6")
 	    (:keywords "comm" "irc")
 	    (:authors
 	     ("Glenn Thompson" . "glenn@paren.works"))
@@ -9290,7 +9290,7 @@
 		    ("Don Jackson" . "dcj@clark-communications.com"))
 		   (:maintainer "Don Jackson" . "dcj@clark-communications.com"))])
  (clj-refactor .
-	       [(0 1 0 1 -4 20260712 1037)
+	       [(0 1 0 1 -4 20260712 1423)
 		((emacs
 		  (28 1))
 		 (yasnippet
@@ -9309,8 +9309,8 @@
 		  (1 7)))
 		"A collection of commands for refactoring Clojure code" tar
 		((:url . "https://github.com/clojure-emacs/clj-refactor.el")
-		 (:commit . "9bdd019975fd2033d2c83e7129ddfeb9958c3739")
-		 (:revdesc . "9bdd019975fd")
+		 (:commit . "f11383b643a46bb41f657455a55900682e6baf1c")
+		 (:revdesc . "f11383b643a4")
 		 (:keywords "convenience" "clojure" "cider")
 		 (:authors
 		  ("Magnar Sveen" . "magnars@gmail.com")
@@ -77432,15 +77432,15 @@
 	  ("Lassi Kortela" . "lassi@lassi.io"))
 	 (:maintainer "Lassi Kortela" . "lassi@lassi.io"))])
  (srs .
-      [(0 1 0 1 -4 20260712 531)
+      [(0 1 0 1 -4 20260712 1603)
        ((emacs
 	 (30 2))
 	(transient
 	 (0 12 0)))
        "Spaced repetition in plain text" tar
        ((:url . "https://github.com/Duncan-Britt/srs.el")
-	(:commit . "4f8312989e673ec38a3f1abb301aa9cd3355f0fb")
-	(:revdesc . "4f8312989e67")
+	(:commit . "dd90d0948818e2a783aca4900ac95b84bd3f9d99")
+	(:revdesc . "dd90d0948818")
 	(:keywords "hypermedia" "srs" "memory")
 	(:authors
 	 ("Duncan Britt" . "duncanbritt.com"))
@@ -85265,7 +85265,7 @@
 	   ("Mihai Olteanu" . "mihai_olteanu@fastmail.fm"))
 	  (:maintainer "Mihai Olteanu" . "mihai_olteanu@fastmail.fm"))])
  (vulpea .
-	 [(0 1 0 1 -4 20260710 1447)
+	 [(0 1 0 1 -4 20260712 1350)
 	  ((emacs
 	    (29 1))
 	   (org
@@ -85278,8 +85278,8 @@
 	    (2 19)))
 	  "Note management library for Org mode" tar
 	  ((:url . "https://github.com/d12frosted/vulpea")
-	   (:commit . "66bee1cc931d70f0ee31087e5d6217d9b65bf3a6")
-	   (:revdesc . "66bee1cc931d")
+	   (:commit . "62e8394f87ef1fe45df45bed81d1b3d26ec84f1c")
+	   (:revdesc . "62e8394f87ef")
 	   (:authors
 	    ("Boris Buliga" . "boris@d12frosted.io"))
 	   (:maintainers
