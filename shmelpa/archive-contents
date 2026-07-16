@@ -9646,15 +9646,15 @@
 		 ("Jason Milkins" . "jasonm23@gmail.com"))
 		(:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
  (clutch .
-	 [(0 1 0 1 -4 20260713 1152)
+	 [(0 1 0 1 -4 20260716 713)
 	  ((emacs
 	    (29 1))
 	   (transient
 	    (0 3 7)))
 	  "Interactive database client" tar
 	  ((:url . "https://github.com/LuciusChen/clutch")
-	   (:commit . "d09315b3827dc2e1db04a0482f5ed374ab2626af")
-	   (:revdesc . "d09315b3827d")
+	   (:commit . "e019f292800f8f1782eaa7d8368979420451a598")
+	   (:revdesc . "e019f292800f")
 	   (:keywords "comm" "data" "tools")
 	   (:authors
 	    ("Lucius Chen" . "chenyh572@gmail.com"))
@@ -17158,15 +17158,15 @@
 		      ("Austin Bingham" . "austin.bingham@gmail.com"))
 		     (:maintainer "Austin Bingham" . "austin.bingham@gmail.com"))])
  (dirvish .
-	  [(0 1 0 1 -4 20250504 807)
+	  [(0 1 0 1 -4 20260716 729)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30)))
 	   "A modern file manager based on dired mode" tar
 	   ((:url . "https://github.com/alexluigit/dirvish")
-	    (:commit . "d877433f957a363ad78b228e13a8e5215f2d6593")
-	    (:revdesc . "d877433f957a")
+	    (:commit . "5152c80a32de3965a3e131a9314514af4aa8aa1e")
+	    (:revdesc . "5152c80a32de")
 	    (:keywords "files" "convenience")
 	    (:authors
 	     ("Alex Lu" . "https://github.com/alexluigit"))
@@ -24799,19 +24799,14 @@
 		("Mika Vilpas" . "mika.vilpas@gmail.com"))
 	       (:maintainer "Brandon Carrell" . "brandoncarrell@gmail.com"))])
  (evil-mark-replace .
-		    [(0 1 0 1 -4 20250422 242)
+		    [(0 1 0 1 -4 20260716 634)
 		     ((evil
-		       (1 14 0)))
-		     "Replace the thing in marked area" tar
+		       (1 15 0)))
+		     "Replace the thing in buffer and defun" tar
 		     ((:url . "https://github.com/redguardtoo/evil-mark-replace")
-		      (:commit . "90ee84748582be05fa8f9a02872321a08b455282")
-		      (:revdesc . "90ee84748582")
-		      (:keywords "convenience")
-		      (:authors
-		       ("Chen Bin" . "chenbinDOTshATgmailDOTcom"))
-		      (:maintainers
-		       ("Chen Bin" . "chenbinDOTshATgmailDOTcom"))
-		      (:maintainer "Chen Bin" . "chenbinDOTshATgmailDOTcom"))])
+		      (:commit . "3221d2c3b304a1cb825f6c79da4d418a8233dcc2")
+		      (:revdesc . "3221d2c3b304")
+		      (:keywords "convenience"))])
  (evil-matchit .
 	       [(0 1 0 1 -4 20260409 936)
 		((emacs
@@ -40138,13 +40133,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20260714 1519)
+	    [(0 1 0 1 -4 20260716 148)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "d0f5a7310c0e77cc740b30997ea4c7e6636b43ab")
-	      (:revdesc . "d0f5a7310c0e")
+	      (:commit . "d36f2c3a316f775f3bf38cfa0dbb59a79fecea62")
+	      (:revdesc . "d36f2c3a316f")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -48643,7 +48638,7 @@
 		("Evgeny Kurnevsky" . "kurnevsky@gmail.com"))
 	       (:maintainer "Ross A. Baker" . "ross@rossabaker.com"))])
  (lsp-mode .
-	   [(0 1 0 1 -4 20260712 1914)
+	   [(0 1 0 1 -4 20260716 755)
 	    ((emacs
 	      (29 1))
 	     (dash
@@ -48662,8 +48657,8 @@
 	      (1 11)))
 	    "LSP mode" tar
 	    ((:url . "https://github.com/emacs-lsp/lsp-mode")
-	     (:commit . "8427188741d231a85143dadd66db3aa4b1e48c46")
-	     (:revdesc . "8427188741d2")
+	     (:commit . "6bfc593d7b1bc0dd656f09ffce52cc085ebced05")
+	     (:revdesc . "6bfc593d7b1b")
 	     (:keywords "languages"))])
  (lsp-mssql .
 	    [(0 1 0 1 -4 20260507 1743)
@@ -72845,15 +72840,15 @@
 		      (:revdesc . "5b2ce6783b02")
 		      (:keywords "text to speech" "dumb" "funny"))])
  (sayid .
-	[(0 1 0 1 -4 20260711 739)
+	[(0 1 0 1 -4 20260716 1006)
 	 ((emacs
 	   (28))
 	  (cider
-	   (1 23)))
+	   (2 0)))
 	 "Sayid nREPL middleware client" tar
 	 ((:url . "https://github.com/clojure-emacs/sayid")
-	  (:commit . "b0fe109ccd7c8377be02bb9938153d251a7db4b3")
-	  (:revdesc . "b0fe109ccd7c")
+	  (:commit . "241fa2dc15ac6655ee214f226b885e4eb4d06be8")
+	  (:revdesc . "241fa2dc15ac")
 	  (:keywords "clojure" "cider" "debugger")
 	  (:authors
 	   ("Bill Piel" . "bill@billpiel.com"))
@@ -80723,13 +80718,13 @@
 		    ("Robert Plant" . "rob@robertplant.io"))
 		   (:maintainer "Robert Plant" . "rob@robertplant.io"))])
  (time-zones .
-	     [(0 1 0 1 -4 20260518 1503)
+	     [(0 1 0 1 -4 20260716 845)
 	      ((emacs
 		(28 1)))
 	      "Time zone lookups" tar
 	      ((:url . "https://github.com/xenodium/time-zones")
-	       (:commit . "4ec11f912d8af920d021c6189e59ab74fd404a2d")
-	       (:revdesc . "4ec11f912d8a"))])
+	       (:commit . "4cc37a54ba6447dc0570cd2e42052689d94f09ee")
+	       (:revdesc . "4cc37a54ba64"))])
  (timecop .
 	  [(0 0 1 1 -4 20240105 2100)
 	   ((emacs
