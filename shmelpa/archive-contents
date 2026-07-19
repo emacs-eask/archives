@@ -1220,7 +1220,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260719 835)
+	      [(0 1 0 1 -4 20260719 1729)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1229,8 +1229,8 @@
 		 (0 13 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "7e5162d610a4e951aeedbac356f8ae6aa26d0133")
-		(:revdesc . "7e5162d610a4"))])
+		(:commit . "d5675782a24e6e6ea850d5015e6b7cacf305854c")
+		(:revdesc . "d5675782a24e"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -5546,6 +5546,20 @@
 	     (:maintainers
 	      ("Radian LLC" . "contact+blackout@radian.codes"))
 	     (:maintainer "Radian LLC" . "contact+blackout@radian.codes"))])
+ (blamee .
+	 [(0 1 0 1 -4 20260619 227)
+	  ((emacs
+	    (27 1)))
+	  "Chunked git-blame overlays with popup details" tar
+	  ((:url . "https://github.com/fvi-att/blamee")
+	   (:commit . "60bb7e7dd29e0e0fabd172e91d362b00fac363c4")
+	   (:revdesc . "60bb7e7dd29e")
+	   (:keywords "tools" "vc" "git")
+	   (:authors
+	    ("fvi-att" . "jshimizujp@gmail.com"))
+	   (:maintainers
+	    ("fvi-att" . "jshimizujp@gmail.com"))
+	   (:maintainer "fvi-att" . "jshimizujp@gmail.com"))])
  (blamer .
 	 [(0 1 0 1 -4 20251001 620)
 	  ((emacs
@@ -12674,6 +12688,22 @@
 		      (:maintainers
 		       ("mohsin kaleem" . "mohkale@kisara.moe"))
 		      (:maintainer "mohsin kaleem" . "mohkale@kisara.moe"))])
+ (context-clues .
+		[(0 1 0 1 -4 20260719 2046)
+		 ((emacs
+		   (28 1))
+		  (transient
+		   (0 3 0)))
+		 "Easily copy context like the current file name and path" tar
+		 ((:url . "https://github.com/mrcnski/context-clues")
+		  (:commit . "51fa7a434a234d64c70054dd8d99ca4792bb7ee1")
+		  (:revdesc . "51fa7a434a23")
+		  (:keywords "convenience" "tools")
+		  (:authors
+		   ("Marcin Swieczkowski" . "marcin@realemail.net"))
+		  (:maintainers
+		   ("Marcin Swieczkowski" . "marcin@realemail.net"))
+		  (:maintainer "Marcin Swieczkowski" . "marcin@realemail.net"))])
  (context-transient .
 		    [(1 0 1 1 -4 20240530 1344)
 		     ((emacs
@@ -12906,15 +12936,15 @@
 		   ("Junyoung Clare Jang" . "jjc9310@gmail.com"))
 		  (:maintainer "Junyoung Clare Jang" . "jjc9310@gmail.com"))])
  (corfu .
-	[(0 1 0 1 -4 20260718 726)
+	[(0 1 0 1 -4 20260719 2042)
 	 ((emacs
 	   (29 1))
 	  (compat
 	   (31)))
 	 "COmpletion in Region FUnction" tar
 	 ((:url . "https://github.com/minad/corfu")
-	  (:commit . "fb799537a1e37bf3740a7f4f04eb90c08a02b8d8")
-	  (:revdesc . "fb799537a1e3")
+	  (:commit . "3cacdaf3701d349656415756173f484d798a2bfd")
+	  (:revdesc . "3cacdaf3701d")
 	  (:keywords "abbrev" "convenience" "matching" "completion" "text")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -27319,6 +27349,20 @@
 		 (:maintainers
 		  ("Jonathan Kotta" . "jpkotta@gmail.com"))
 		 (:maintainer "Jonathan Kotta" . "jpkotta@gmail.com"))])
+ (flex-x .
+	 [(0 1 0 1 -4 20260713 1220)
+	  ((emacs
+	    (30 1)))
+	  "Extended flex completion style" tar
+	  ((:url . "https://github.com/kn66/flex-x")
+	   (:commit . "c5fba3d76b1eab42f9e524f0c48d6db61274aeb1")
+	   (:revdesc . "c5fba3d76b1e")
+	   (:keywords "convenience" "matching")
+	   (:authors
+	    ("kn66" . "https://github.com/kn66"))
+	   (:maintainers
+	    ("kn66" . "https://github.com/kn66"))
+	   (:maintainer "kn66" . "https://github.com/kn66"))])
  (flexoki-themes .
 		 [(0 1 0 1 -4 20260516 1228)
 		  ((emacs
@@ -32215,15 +32259,15 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20260717 1309)
+	  [(0 1 0 1 -4 20260719 2039)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30 1 0 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "7aa53db6ce82612b868c70e44087ac55f4354d56")
-	    (:revdesc . "7aa53db6ce82")
+	    (:commit . "af41a8b461bbd353bdf07e27c73521aea7311151")
+	    (:revdesc . "af41a8b461bb")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -52715,6 +52759,15 @@
 	 (:maintainers
 	  ("Takaaki ISHIKAWA" . "takaxpatieeedotorg"))
 	 (:maintainer "Takaaki ISHIKAWA" . "takaxpatieeedotorg"))])
+ (moonbit-ts-mode .
+		  [(0 1 0 1 -4 20260713 229)
+		   ((emacs
+		     (30 1)))
+		   "MoonBit tree-sitter major mode" tar
+		   ((:url . "https://github.com/moonbit-community/moonbit-ts-mode")
+		    (:commit . "f8ae31f506571614afea2fcd03532d872afd917b")
+		    (:revdesc . "f8ae31f50657")
+		    (:keywords "languages" "tree-sitter"))])
  (moonscript .
 	     [(20140803 -4 0 1 0 1 -4 20170831 2226)
 	      ((cl-lib
