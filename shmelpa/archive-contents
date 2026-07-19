@@ -55564,6 +55564,20 @@
 		    (:maintainers
 		     ("Andreas Larsen" . "andreas@northcode.no"))
 		    (:maintainer "Andreas Larsen" . "andreas@northcode.no"))])
+ (nostr-publish .
+		[(0 1 0 1 -4 20260223 951)
+		 ((emacs
+		   (27 1)))
+		 "Publish Markdown to Nostr" tar
+		 ((:url . "https://github.com/941design/emacs-nostr-publish")
+		  (:commit . "f39220f2aaff5fc39e4268d6449a1a402a69cafa")
+		  (:revdesc . "f39220f2aaff")
+		  (:keywords "comm" "text")
+		  (:authors
+		   ("Markus Rother" . "mail@markusrother.de"))
+		  (:maintainers
+		   ("Markus Rother" . "mail@markusrother.de"))
+		  (:maintainer "Markus Rother" . "mail@markusrother.de"))])
  (nothing-theme .
 		[(1 0 0 1 -4 20200504 402)
 		 ((emacs
@@ -59252,6 +59266,24 @@
 	    (:maintainers
 	     ("Aldric Giacomoni" . "trevoke@gmail.com"))
 	    (:maintainer "Aldric Giacomoni" . "trevoke@gmail.com"))])
+ (org-habit-ng .
+	       [(0 1 0 1 -4 20260713 1625)
+		((emacs
+		  (28 1))
+		 (org
+		  (9 6))
+		 (transient
+		  (0 13 5)))
+		"Full RRULE recurrence for org-habit" tar
+		((:url . "https://codeberg.org/Trevoke/org-habit-ng")
+		 (:commit . "8710d55411af41d5505236d33bd5b7ad05807441")
+		 (:revdesc . "8710d55411af")
+		 (:keywords "calendar" "org" "habits")
+		 (:authors
+		  ("Aldric Giacomoni" . "trevoke@gmail.com"))
+		 (:maintainers
+		  ("Aldric Giacomoni" . "trevoke@gmail.com"))
+		 (:maintainer "Aldric Giacomoni" . "trevoke@gmail.com"))])
  (org-habit-stats .
 		  [(0 1 1 -4 20240208 323)
 		   ((emacs
@@ -59275,6 +59307,20 @@
 		     (:maintainers
 		      ("Kristoffer Balintona" . "krisbalintona@gmail.com"))
 		     (:maintainer "Kristoffer Balintona" . "krisbalintona@gmail.com"))])
+ (org-history .
+	      [(0 1 0 1 -4 20260719 2151)
+	       ((emacs
+		 (29 1)))
+	       "Show Dates for Org headers from vcs + auto-commit" tar
+	       ((:url . "https://codeberg.org/Anoncheg/emacs-org-history")
+		(:commit . "7131253c5d55bf9d9f8f0b3a7e10ed4bfc493662")
+		(:revdesc . "7131253c5d55")
+		(:keywords "org" "outline" "vc")
+		(:authors
+		 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
+		(:maintainers
+		 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
+		(:maintainer nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))])
  (org-hyperscheduler .
 		     [(0 1 0 1 -4 20250716 1801)
 		      ((emacs
@@ -59814,6 +59860,22 @@
 		 (:maintainers
 		  ("Ted Wiles" . "theodore.wiles@gmail.com"))
 		 (:maintainer "Ted Wiles" . "theodore.wiles@gmail.com"))])
+ (org-mindmap .
+	      [(0 1 0 1 -4 20260617 1609)
+	       ((emacs
+		 (29 1))
+		(org
+		 (9 1)))
+	       "Editable mindmap visualization in org-mode" tar
+	       ((:url . "https://github.com/krvkir/org-mindmap")
+		(:commit . "128e8fb853718bb4a04aff29703b927276a8b24c")
+		(:revdesc . "128e8fb85371")
+		(:keywords "org" "tools" "outlines")
+		(:authors
+		 ("krvkir" . "krvkir@gmail.com"))
+		(:maintainers
+		 ("krvkir" . "krvkir@gmail.com"))
+		(:maintainer "krvkir" . "krvkir@gmail.com"))])
  (org-ml .
 	 [(0 1 0 1 -4 20250514 2314)
 	  ((emacs
@@ -82083,15 +82145,15 @@
 			("Erick Navarro" . "erick@navarro.io"))
 		       (:maintainer "Erick Navarro" . "erick@navarro.io"))])
  (tree-sitter-langs .
-		    [(0 1 0 1 -4 20260713 726)
+		    [(0 1 0 1 -4 20260719 1913)
 		     ((emacs
 		       (26 1))
 		      (tree-sitter
 		       (0 15 0)))
 		     "Grammar bundle for tree-sitter" tar
 		     ((:url . "https://github.com/emacs-tree-sitter/tree-sitter-langs")
-		      (:commit . "5a2725703b11832b6f9ed62962e312e395902a3a")
-		      (:revdesc . "5a2725703b11")
+		      (:commit . "7a2b658586ad2108ff90fc978af1c4a33a44e07a")
+		      (:revdesc . "7a2b658586ad")
 		      (:keywords "languages" "tools" "parsers" "tree-sitter")
 		      (:authors
 		       ("Tuấn-Anh Nguyễn" . "ubolonton@gmail.com"))
