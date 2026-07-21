@@ -18548,11 +18548,11 @@
 		 ("Sergei Nosov" . "sergei.nosov[at]gmail.com"))
 		(:maintainer "Sergei Nosov" . "sergei.nosov[at]gmail.com"))])
  (dune .
-       [(0 1 0 1 -4 20260621 2057)
+       [(0 1 0 1 -4 20260120 2128)
 	nil "Integration with the dune build system" tar
 	((:url . "https://github.com/ocaml/dune")
-	 (:commit . "47f64de764078db6edb2698958b5270a17bffb05")
-	 (:revdesc . "47f64de76407"))])
+	 (:commit . "ccdb380ab5714b81f1ba71f7f8acfd792e6200bf")
+	 (:revdesc . "ccdb380ab571"))])
  (dune-format .
 	      [(0 1 -1 1 -4 20210505 108)
 	       ((reformatter
@@ -27558,15 +27558,15 @@
 		 ("PythonNut" . "pythonnut@pythonnut.com"))
 		(:maintainer "PythonNut" . "pythonnut@pythonnut.com"))])
  (flycheck .
-	   [(0 1 0 1 -4 20260721 528)
+	   [(0 1 0 1 -4 20260721 941)
 	    ((emacs
 	      (28 1))
 	     (seq
 	      (2 24)))
 	    "On-the-fly syntax checking" tar
 	    ((:url . "https://github.com/flycheck/flycheck")
-	     (:commit . "53578555970b87cd7e58b1c005715fb68d7261c3")
-	     (:revdesc . "53578555970b")
+	     (:commit . "b38bd952c6f12993ccfd8412bb457c46c3e7cb55")
+	     (:revdesc . "b38bd952c6f1")
 	     (:keywords "convenience" "languages" "tools")
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
@@ -40193,13 +40193,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20260720 1435)
+	    [(0 1 0 1 -4 20260721 605)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "907ef243620c0cc53154021c7555d20e7c84c8d3")
-	      (:revdesc . "907ef243620c")
+	      (:commit . "ab89df9204d94739843bc87a192809dc7400d3f1")
+	      (:revdesc . "ab89df9204d9")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -51090,13 +51090,13 @@
 	       ("Mark A. Hershberger" . "mah@everybody.org"))
 	      (:maintainer "Mark A. Hershberger" . "mah@everybody.org"))])
  (meep .
-       [(0 1 0 1 -4 20260721 25)
+       [(0 1 0 1 -4 20260721 33)
 	((emacs
 	  (30 1)))
 	"Lightweight modal editing" tar
 	((:url . "https://codeberg.org/ideasman42/emacs-meep")
-	 (:commit . "b2d7b875afb9e877061664ec9aa480355e5775c4")
-	 (:revdesc . "b2d7b875afb9")
+	 (:commit . "4c2a43b7c519dc98e88292c69c52371c54bc0e31")
+	 (:revdesc . "4c2a43b7c519")
 	 (:keywords "convenience" "modal-editing")
 	 (:authors
 	  ("Campbell Barton" . "ideasman42@gmail.com"))
@@ -63651,15 +63651,15 @@
 	      ("Ryan Davis" . "ryand-ruby@zenspider.com"))
 	     (:maintainer "Ryan Davis" . "ryand-ruby@zenspider.com"))])
  (package-build .
-		[(0 1 0 1 -4 20260701 1334)
+		[(0 1 0 1 -4 20260710 1826)
 		 ((emacs
 		   (26 1))
 		  (compat
 		   (31 0)))
 		 "Curate an Emacs Lisp package archive" tar
 		 ((:url . "https://github.com/melpa/package-build")
-		  (:commit . "f19a7f58cf4b2e573a6d551d8d3dbe265c2566b4")
-		  (:revdesc . "f19a7f58cf4b")
+		  (:commit . "d31dec67631f14ef8be3ad6438e172a07298082b")
+		  (:revdesc . "d31dec67631f")
 		  (:keywords "maint" "tools")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
@@ -65540,7 +65540,7 @@
 	     ("Eric Hansen" . "hansen.c.eric@gmail.com"))
 	    (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
  (pi-coding-agent .
-		  [(0 1 0 1 -4 20260720 258)
+		  [(0 1 0 1 -4 20260721 810)
 		   ((emacs
 		     (29 1))
 		    (transient
@@ -65551,8 +65551,8 @@
 		     (0 2 0)))
 		   "Emacs frontend for pi coding agent" tar
 		   ((:url . "https://github.com/dnouri/pi-coding-agent")
-		    (:commit . "3e6b04514592e0a38189552a686b9dbe51453bd7")
-		    (:revdesc . "3e6b04514592")
+		    (:commit . "add73ab18739ce989e461a7af11e8beaf7bf76c9")
+		    (:revdesc . "add73ab18739")
 		    (:keywords "ai" "llm" "ai-pair-programming" "tools")
 		    (:authors
 		     ("Daniel Nouri" . "daniel.nouri@gmail.com"))
@@ -67809,15 +67809,15 @@
 		     (:commit . "36bec1109ba0498c2d1ef29756c841d2e23b063e")
 		     (:revdesc . "36bec1109ba0"))])
  (projectile .
-	     [(0 1 0 1 -4 20260721 545)
+	     [(0 1 0 1 -4 20260721 1010)
 	      ((emacs
 		(28 1))
 	       (compat
 		(30)))
 	      "Manage and navigate projects in Emacs easily" tar
 	      ((:url . "https://github.com/bbatsov/projectile")
-	       (:commit . "3e1ed4e5d2c4a855e7b5b083d925bf5a56236349")
-	       (:revdesc . "3e1ed4e5d2c4")
+	       (:commit . "a1036def9946b842917f594b1b9ef6a85cfd9138")
+	       (:revdesc . "a1036def9946")
 	       (:keywords "project" "convenience")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -79755,7 +79755,7 @@
 	  ("Mark T. Kennedy" . "mtk@acm.org"))
 	 (:maintainer "Mark T. Kennedy" . "mtk@acm.org"))])
  (telega .
-	 [(0 1 0 1 -4 20260720 1026)
+	 [(0 1 0 1 -4 20260721 732)
 	  ((emacs
 	    (27 1))
 	   (visual-fill-column
@@ -79764,8 +79764,8 @@
 	    (0 9 0)))
 	  "Telegram client (unofficial)" tar
 	  ((:url . "https://github.com/zevlg/telega.el")
-	   (:commit . "f3e69f4fb5103fafd37a267039e092edf35351c5")
-	   (:revdesc . "f3e69f4fb510")
+	   (:commit . "bb3a3c67a3c2a67cea929291f17e1b3348fa9e0b")
+	   (:revdesc . "bb3a3c67a3c2")
 	   (:keywords "comm")
 	   (:authors
 	    ("Zajcev Evgeny" . "zevlg@yandex.ru"))
@@ -88238,7 +88238,7 @@
 		     ("Davide Mastromatteo" . "mastro35@gmail.com"))
 		    (:maintainer "Davide Mastromatteo" . "mastro35@gmail.com"))])
  (yeetube .
-	  [(0 1 0 1 -4 20260713 333)
+	  [(0 1 0 1 -4 20260721 822)
 	   ((emacs
 	     (29 1))
 	    (compat
@@ -88247,8 +88247,8 @@
 	     (0 2 0)))
 	   "Scrape YouTube, Play with mpv & Download with yt-dlp" tar
 	   ((:url . "https://thanosapollo.org/projects/yeetube/")
-	    (:commit . "066bc1c2c06493d10388f8a0ecd8e90f8cd28532")
-	    (:revdesc . "066bc1c2c064")
+	    (:commit . "4adadb44f76e11dd2805aaf4e6656b52c5f97902")
+	    (:revdesc . "4adadb44f76e")
 	    (:keywords "extensions" "youtube" "videos")
 	    (:authors
 	     ("Thanos Apollo" . "public@thanosapollo.org"))
