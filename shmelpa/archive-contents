@@ -26590,13 +26590,13 @@
 	    ("chee" . "emacs@chee.party"))
 	   (:maintainer "chee" . "emacs@chee.party"))])
  (fennel-mode .
-	      [(0 1 0 1 -4 20260704 2353)
+	      [(0 1 0 1 -4 20260726 2034)
 	       ((emacs
 		 (26 1)))
 	       "A major-mode for editing Fennel code" tar
 	       ((:url . "https://git.sr.ht/~technomancy/fennel-mode")
-		(:commit . "bbc28a629405de628880d8fb485fce23ff7fab69")
-		(:revdesc . "bbc28a629405")
+		(:commit . "2cf12616455d5b042cca8394f3ceb70b138e3043")
+		(:revdesc . "2cf12616455d")
 		(:keywords "languages" "tools"))])
  (fetch .
 	[(0 1 2 1 -4 20131201 730)
@@ -34642,7 +34642,7 @@
 	   ("Anton Hibl" . "antonhibl11@gmail.com"))
 	  (:maintainer "Anton Hibl" . "antonhibl11@gmail.com"))])
  (gptel .
-	[(0 1 0 1 -4 20260726 325)
+	[(0 1 0 1 -4 20260726 1903)
 	 ((emacs
 	   (27 1))
 	  (transient
@@ -34651,8 +34651,8 @@
 	   (30 1 0 0)))
 	 "Interact with ChatGPT or other LLMs" tar
 	 ((:url . "https://github.com/karthink/gptel")
-	  (:commit . "88d0358e6714a07f63a82482b1968c00b7352308")
-	  (:revdesc . "88d0358e6714")
+	  (:commit . "c91454c7b955f3ca8285375e937aa9b50c91c206")
+	  (:revdesc . "c91454c7b955")
 	  (:keywords "convenience" "tools")
 	  (:authors
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -35239,6 +35239,22 @@
 	  (:maintainers
 	   ("Jonathan Chu" . "me@jonathanchu.is"))
 	  (:maintainer "Jonathan Chu" . "me@jonathanchu.is"))])
+ (grpclient .
+	    [(0 1 0 1 -4 20260724 434)
+	     ((emacs
+	       (29 1)))
+	     "Grpcurl interactive builder" tar
+	     ((:url . "https://github.com/Prikaz98/grpclient.el")
+	      (:commit . "f372e008afee46552f69022d87d976d3fbd8fd4a")
+	      (:revdesc . "f372e008afee")
+	      (:keywords "grpc" "grpcurl" "tools")
+	      (:authors
+	       ("Ivan Prikaznov" . "prikaznov555@gmail.com")
+	       ("Miloš Tepić" . "tepcmils@gmail.com"))
+	      (:maintainers
+	       ("Ivan Prikaznov" . "prikaznov555@gmail.com")
+	       ("Miloš Tepić" . "tepcmils@gmail.com"))
+	      (:maintainer "Ivan Prikaznov" . "prikaznov555@gmail.com"))])
  (gruber-darker-ayu-theme .
 			  [(0 1 0 1 -4 20260720 1152)
 			   ((emacs
@@ -49251,15 +49267,15 @@
 		("Pawel Bokota" . "pawelb.lnx@gmail.com"))
 	       (:maintainer "Pawel Bokota" . "pawelb.lnx@gmail.com"))])
  (macher .
-	 [(0 1 0 1 -4 20260718 1815)
+	 [(0 1 0 1 -4 20260726 1942)
 	  ((emacs
 	    (30 1))
 	   (gptel
 	    (0 9 9 6)))
 	  "LLM implementation toolset" tar
 	  ((:url . "https://github.com/kmontag/macher")
-	   (:commit . "b6e51cb9a01c87e36d8920d947ed171bf21c8287")
-	   (:revdesc . "b6e51cb9a01c")
+	   (:commit . "fe3622449d73d5404cd34d3e5cdc3419c624b81e")
+	   (:revdesc . "fe3622449d73")
 	   (:keywords "convenience" "gptel" "llm"))])
  (macports .
 	   [(0 1 0 1 -4 20260313 58)
@@ -67863,6 +67879,20 @@
 		    ((:url . "https://github.com/cmccloud/project-treemacs")
 		     (:commit . "36bec1109ba0498c2d1ef29756c841d2e23b063e")
 		     (:revdesc . "36bec1109ba0"))])
+ (project-x .
+	    [(0 1 0 1 -4 20260726 1808)
+	     ((emacs
+	       (28 1)))
+	     "Extra convenience features for project.el" tar
+	     ((:url . "https://github.com/vmargb/project-x")
+	      (:commit . "bfdc18435d0f224bfa4eb3dda2ebb9690f2ebfa3")
+	      (:revdesc . "bfdc18435d0f")
+	      (:keywords "project" "convenience" "session" "tools")
+	      (:authors
+	       ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
+	      (:maintainers
+	       ("vmargb" . "https://github.com/vmargb"))
+	      (:maintainer "vmargb" . "https://github.com/vmargb"))])
  (projectile .
 	     [(0 1 0 1 -4 20260726 641)
 	      ((emacs
@@ -76499,6 +76529,22 @@
 	  (:commit . "89161d8b3c19ffba8b52411de36f28aec1e401f2")
 	  (:revdesc . "89161d8b3c19")
 	  (:keywords "convenience" "united-editing-method"))])
+ (snippy .
+	 [(0 1 0 1 -4 20260723 1312)
+	  ((emacs
+	    (30 1))
+	   (yasnippet
+	    (0 14 0)))
+	  "Vscode snippet support with Yasnippet" tar
+	  ((:url . "https://github.com/MiniApollo/snippy")
+	   (:commit . "e6c417925776c123f81ad6de3ba6e50b9e9f0079")
+	   (:revdesc . "e6c417925776")
+	   (:keywords "convenience" "emulations")
+	   (:authors
+	    ("Mark Surmann" . "surmannmark@gmail.com"))
+	   (:maintainers
+	    ("Mark Surmann" . "surmannmark@gmail.com"))
+	   (:maintainer "Mark Surmann" . "surmannmark@gmail.com"))])
  (snitch .
 	 [(0 3 1 1 -4 20210202 1730)
 	  ((emacs
