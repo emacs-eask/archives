@@ -1220,7 +1220,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260724 1019)
+	      [(0 1 0 1 -4 20260726 1940)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1229,8 +1229,8 @@
 		 (0 13 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "e82b4fea6c3790b57bb6071fbf9aad365163c153")
-		(:revdesc . "e82b4fea6c37"))])
+		(:commit . "1780e0b2501aa172c559c24d76024b8802e8d8de")
+		(:revdesc . "1780e0b2501a"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -1342,7 +1342,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260726 1606)
+	  [(0 1 0 1 -4 20260726 2000)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1351,8 +1351,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Antigravity CLI, Claude Code, Opencode, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "b403a849122e21f55f6dacc4ca3ee4b31e2ec99c")
-	    (:revdesc . "b403a849122e")
+	    (:commit . "1367dca8b37de3eb31a87aab037fc404e9c25e73")
+	    (:revdesc . "1367dca8b37d")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -5174,7 +5174,7 @@
 	      ("Mike McCourt" . "mkmcc@astro.berkeley.edu"))
 	     (:maintainer "Mike McCourt" . "mkmcc@astro.berkeley.edu"))])
  (bibtex-capf .
-	      [(1 0 1 -4 20240122 1558)
+	      [(0 1 0 1 -4 20260726 1818)
 	       ((emacs
 		 (27 1))
 		(parsebib
@@ -5182,9 +5182,9 @@
 		(org
 		 (9 5)))
 	       "Completion at point for bibtex" tar
-	       ((:url . "https://github.com/mclear-tools/bibtex-capf")
-		(:commit . "31826efefcbbdebdb700a06b5070df0f06ce2291")
-		(:revdesc . "31826efefcbb")
+	       ((:url . "https://codeberg.org/mclear-tools/bibtex-capf")
+		(:commit . "a8312160b0cd568f1ce6d0328e33ae890a5d5b9e")
+		(:revdesc . "a8312160b0cd")
 		(:keywords "bibtex" "convenience"))])
  (bibtex-completion .
 		    [(0 1 0 1 -4 20241116 726)
@@ -6323,17 +6323,19 @@
 		     ("Roland Walker" . "walker@pobox.com"))
 		    (:maintainer "Roland Walker" . "walker@pobox.com"))])
  (browsel .
-	  [(0 1 0 1 -4 20260726 11)
+	  [(0 1 0 1 -4 20260726 1635)
 	   ((emacs
 	     (27 1))
 	    (websocket
 	     (1 13))
 	    (org
-	     (9 8)))
+	     (9 8))
+	    (vertico
+	     (1 0)))
 	   "WebSocket bridge to a Chrome/Firefox extension" tar
 	   ((:url . "https://github.com/dmgerman/browsel")
-	    (:commit . "5dfb28fbfc92480c9175e0dd99ba4b397cb5bc0b")
-	    (:revdesc . "5dfb28fbfc92")
+	    (:commit . "c96e3b8b0a28b6e0d9e2d79a51a07a0700966b1c")
+	    (:revdesc . "c96e3b8b0a28")
 	    (:keywords "comm" "tools" "browser" "org")
 	    (:authors
 	     ("Daniel M. German" . "dmg@turingmachine.org"))
