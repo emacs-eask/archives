@@ -21456,13 +21456,13 @@
 	     ("Youngjoo Lee" . "youngker@gmail.com"))
 	    (:maintainer "Youngjoo Lee" . "youngker@gmail.com"))])
  (elot .
-       [(0 1 0 1 -4 20260726 1116)
+       [(0 1 0 1 -4 20260726 1438)
 	((emacs
 	  (30 1)))
 	"Emacs Literate Ontology Tool (ELOT)" tar
 	((:url . "https://github.com/johanwk/elot")
-	 (:commit . "0d436ba4e8be08163f9661e0b8568559bea68ab3")
-	 (:revdesc . "0d436ba4e8be")
+	 (:commit . "571ecfbf05e92424d24cd60ef90054be040d6a06")
+	 (:revdesc . "571ecfbf05e9")
 	 (:keywords "languages" "outlines" "tools" "org" "ontology")
 	 (:authors
 	  ("Johan W. Klüwer" . "johan.w.kluwer@gmail.com"))
@@ -30451,6 +30451,26 @@
        (:commit . "98e3fe1b4785e162d9aca978a2db106baa79260f")
        (:revdesc . "98e3fe1b4785")
        (:keywords "functional"))])
+ (fnm .
+      [(0 1 0 1 -4 20260717 1314)
+       ((emacs
+	 (24 1))
+	(s
+	 (1 8 0))
+	(dash
+	 (2 18 0))
+	(f
+	 (0 14 0)))
+       "Manage Node versions using fnm" tar
+       ((:url . "https://github.com/nhojb/fnm.el")
+	(:commit . "2bb4c5d287a3c2046b42f90db2cc8e889ea642d9")
+	(:revdesc . "2bb4c5d287a3")
+	(:keywords "tools" "node" "fnm" "nvm")
+	(:authors
+	 ("John Buckley" . "nhoj.buckley@gmail.com"))
+	(:maintainers
+	 ("John Buckley" . "nhoj.buckley@gmail.com"))
+	(:maintainer "John Buckley" . "nhoj.buckley@gmail.com"))])
  (focus .
 	[(0 1 0 1 -4 20241029 1506)
 	 ((emacs
@@ -35217,6 +35237,19 @@
 	  (:maintainers
 	   ("Jonathan Chu" . "me@jonathanchu.is"))
 	  (:maintainer "Jonathan Chu" . "me@jonathanchu.is"))])
+ (gruber-darker-ayu-theme .
+			  [(0 1 0 1 -4 20260720 1152)
+			   ((emacs
+			     (27 1)))
+			   "Gruber Darker + Ayu Dark color theme" tar
+			   ((:url . "https://github.com/Hadi493/gruber-darker-ayu-theme")
+			    (:commit . "205be6284bc409ce49c5b7e3d68c96bffe6278e2")
+			    (:revdesc . "205be6284bc4")
+			    (:authors
+			     ("Hadi Alam" . "hadialam493@gmail.com"))
+			    (:maintainers
+			     ("Hadi Alam" . "hadialam493@gmail.com"))
+			    (:maintainer "Hadi Alam" . "hadialam493@gmail.com"))])
  (gruber-darker-theme .
 		      [(0 7 1 -4 20231026 2031)
 		       nil "Gruber Darker color theme for Emacs 24" tar
@@ -36188,15 +36221,15 @@
 		(:revdesc . "8c70b48fe5fb")
 		(:keywords "faces"))])
  (helm .
-       [(0 1 0 1 -4 20260722 741)
+       [(0 1 0 1 -4 20260726 1531)
 	((helm-core
 	  (4 0 7))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
-	 (:commit . "b934b8e25c67dbc0af973de527013d243b9e047f")
-	 (:revdesc . "b934b8e25c67")
+	 (:commit . "4b800a979df5ae11dc141005f52faea51dccd40b")
+	 (:revdesc . "4b800a979df5")
 	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help" "package")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
@@ -45222,6 +45255,20 @@
 			 (:maintainers
 			  ("Jonas Bernoulli" . "jonas@bernoul.li"))
 			 (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li"))])
+ (keycoach .
+	   [(0 1 0 1 -4 20260721 1501)
+	    ((emacs
+	      (25 1)))
+	    "Learn keybindings" tar
+	    ((:url . "https://github.com/mrcnski/keycoach")
+	     (:commit . "fbd7bc410b2101f56b93e8bc3cc9afee76018ef2")
+	     (:revdesc . "fbd7bc410b21")
+	     (:keywords "help")
+	     (:authors
+	      ("Marcin Swieczkowski" . "marcin@realemail.net"))
+	     (:maintainers
+	      ("Marcin Swieczkowski" . "marcin@realemail.net"))
+	     (:maintainer "Marcin Swieczkowski" . "marcin@realemail.net"))])
  (keyfreq .
 	  [(0 1 0 1 -4 20231107 106)
 	   ((cl-lib
@@ -75786,6 +75833,20 @@
 			(:maintainers
 			 ("Javier PuercoPop Olaechea" . "pirata@gmail.com"))
 			(:maintainer "Javier PuercoPop Olaechea" . "pirata@gmail.com"))])
+ (smali-mode .
+	     [(0 1 0 1 -4 20260722 2103)
+	      ((emacs
+		(24 1)))
+	      "Major mode for editing Smali/Baksmali files" tar
+	      ((:url . "https://github.com/strazzere/Emacs-Smali")
+	       (:commit . "564d914b0901628d4cac8051fb457119383c7fff")
+	       (:revdesc . "564d914b0901")
+	       (:keywords "languages" "smali")
+	       (:authors
+		("Tim Strazzere" . "diff@protonmail.com"))
+	       (:maintainers
+		("Tim Strazzere" . "diff@protonmail.com"))
+	       (:maintainer "Tim Strazzere" . "diff@protonmail.com"))])
  (smart-backspace .
 		  [(0 1 0 1 -4 20171014 526)
 		   nil "Intellj like backspace" tar
@@ -79470,15 +79531,15 @@
 	     ("John Gong" . "gjtzone@hotmail.com"))
 	    (:maintainer "Aaron Ji" . "shuxiao9058@gmail.com"))])
  (tabspaces .
-	    [(0 1 0 1 -4 20260529 1452)
+	    [(0 1 0 1 -4 20260726 1548)
 	     ((emacs
 	       (27 1))
 	      (project
 	       (0 8 1)))
 	     "Leverage tab-bar and project for buffer-isolated workspaces" tar
-	     ((:url . "https://github.com/mclear-tools/tabspaces")
-	      (:commit . "d3a74c0d39a0029d956dc37ddbf540802fb76973")
-	      (:revdesc . "d3a74c0d39a0")
+	     ((:url . "https://codeberg.org/mclear-tools/tabspaces")
+	      (:commit . "3af0f518ebfa78f8cbcd571b8fe0e5a678b811ae")
+	      (:revdesc . "3af0f518ebfa")
 	      (:keywords "convenience" "frames")
 	      (:authors
 	       ("Colin McLear" . "mclear@fastmail.com")))])
