@@ -19105,13 +19105,13 @@
 			("Ayush Jha" . "ayys@duck.com"))
 		       (:maintainer "Ayush Jha" . "ayys@duck.com"))])
  (easysession .
-	      [(0 1 0 1 -4 20260715 1819)
+	      [(0 1 0 1 -4 20260730 1526)
 	       ((emacs
 		 (26 1)))
 	       "Persist and restore your sessions (desktop.el alternative)" tar
 	       ((:url . "https://github.com/jamescherti/easysession.el")
-		(:commit . "a722fad8a087b7036657dc22015d0fffbd63d893")
-		(:revdesc . "a722fad8a087")
+		(:commit . "bd25830791dfc072b61733b9d7f126e777f9e443")
+		(:revdesc . "bd25830791df")
 		(:keywords "convenience")
 		(:authors
 		 ("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -26224,6 +26224,22 @@
 	    (:maintainers
 	     ("Takafumi Arakaki" . "aka.tkfatgmail.com"))
 	    (:maintainer "Takafumi Arakaki" . "aka.tkfatgmail.com"))])
+ (faff-theme .
+	     [(0 1 0 1 -4 20260730 1513)
+	      ((emacs
+		(28 1))
+	       (modus-themes
+		(5 0 0)))
+	      "Light cornsilk theme with warm, earthy colors" tar
+	      ((:url . "https://github.com/WJCFerguson/emacs-faff-theme")
+	       (:commit . "49cf5b6a8c46f6b315818ae06df160c3caefb213")
+	       (:revdesc . "49cf5b6a8c46")
+	       (:keywords "faces" "theme")
+	       (:authors
+		("James Ferguson" . ""))
+	       (:maintainers
+		("James Ferguson" . ""))
+	       (:maintainer "James Ferguson" . ""))])
  (fakir .
 	[(0 1 9 1 -4 20140729 1652)
 	 ((noflet
@@ -27542,15 +27558,15 @@
 		 ("PythonNut" . "pythonnut@pythonnut.com"))
 		(:maintainer "PythonNut" . "pythonnut@pythonnut.com"))])
  (flycheck .
-	   [(0 1 0 1 -4 20260730 1201)
+	   [(0 1 0 1 -4 20260730 1722)
 	    ((emacs
 	      (28 1))
 	     (seq
 	      (2 24)))
 	    "On-the-fly syntax checking" tar
 	    ((:url . "https://github.com/flycheck/flycheck")
-	     (:commit . "12381ed4dcfdc5d1806972d350f73c5bfa280e46")
-	     (:revdesc . "12381ed4dcfd")
+	     (:commit . "c8c4f734daa3d56744b731f707dd696c8881ebb8")
+	     (:revdesc . "c8c4f734daa3")
 	     (:keywords "convenience" "languages" "tools")
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
@@ -30723,7 +30739,7 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20260701 1425)
+	[(0 1 0 1 -4 20260730 1603)
 	 ((emacs
 	   (29 1))
 	  (compat
@@ -30748,8 +30764,8 @@
 	   (1 2)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "9628f76740aec9270e9fb31457ff4cb38d9f3f16")
-	  (:revdesc . "9628f76740ae")
+	  (:commit . "303cec4136bbfc6ddd7a4dfb184beb0629ddb55e")
+	  (:revdesc . "303cec4136bb")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -32297,7 +32313,7 @@
 	 ("Joseph LaFreniere" . "joseph@lafreniere.xyz"))
 	(:maintainer "Joseph LaFreniere" . "joseph@lafreniere.xyz"))])
  (ghub .
-       [(0 1 0 1 -4 20260701 1318)
+       [(0 1 0 1 -4 20260730 1244)
 	((emacs
 	  (29 1))
 	 (compat
@@ -32310,8 +32326,8 @@
 	  (0 1 3)))
 	"Client libraries for Git forge APIs" tar
 	((:url . "https://github.com/magit/ghub")
-	 (:commit . "59d0b9b33e780d6cff5131886904ff26033dd2e6")
-	 (:revdesc . "59d0b9b33e78")
+	 (:commit . "4805f300dd2607d1628bd8554cb05ab557e2fab8")
+	 (:revdesc . "4805f300dd26")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
@@ -39533,13 +39549,13 @@
 	       ("8dcc" . "8dcc.git@gmail.com"))
 	      (:maintainer "8dcc" . "8dcc.git@gmail.com"))])
  (hl-prog-extra .
-		[(0 1 0 1 -4 20260726 522)
+		[(0 1 0 1 -4 20260730 1351)
 		 ((emacs
 		   (26 2)))
 		 "Customizable highlighting for source-code" tar
 		 ((:url . "https://codeberg.org/ideasman42/emacs-hl-prog-extra")
-		  (:commit . "c459329bd5f535575d12f386e1c55ca539a26b0b")
-		  (:revdesc . "c459329bd5f5")
+		  (:commit . "d7c857f3e18d2de83afe582412466dd1c8cbfa67")
+		  (:revdesc . "d7c857f3e18d")
 		  (:keywords "convenience")
 		  (:authors
 		   ("Campbell Barton" . "ideasman42@gmail.com"))
@@ -45690,13 +45706,13 @@
 		 ("Stefan Huchler" . "stefan.huchler@mail.de"))
 		(:maintainer "Stefan Huchler" . "stefan.huchler@mail.de"))])
  (koishi-theme .
-	       [(0 1 0 1 -4 20260212 1605)
+	       [(0 1 0 1 -4 20260730 1557)
 		((emacs
 		  (24 1)))
 		"A sweet theme inspired by Koishi's color tone" tar
 		((:url . "https://github.com/gynamics/koishi-theme.el")
-		 (:commit . "e699d5181265981d28f1bd3c13446916c77aeb06")
-		 (:revdesc . "e699d5181265")
+		 (:commit . "ce7463a8146157da1b2606bca325d0980ae912f8")
+		 (:revdesc . "ce7463a81461")
 		 (:keywords "faces"))])
  (kolon-mode .
 	     [(0 1 1 -4 20140122 1134)
@@ -62196,7 +62212,7 @@
 		 ("Jonas Bernoulli" . "emacs.orgit-forge@jonas.bernoulli.dev"))
 		(:maintainer "Jonas Bernoulli" . "emacs.orgit-forge@jonas.bernoulli.dev"))])
  (orglink .
-	  [(0 1 0 1 -4 20260601 1536)
+	  [(0 1 0 1 -4 20260730 1553)
 	   ((emacs
 	     (28 1))
 	    (compat
@@ -62209,8 +62225,8 @@
 	     (2 24)))
 	   "Use Org Mode links in other modes" tar
 	   ((:url . "https://github.com/tarsius/orglink")
-	    (:commit . "e4805628e731021cf360ae7e61dcb40ae1e1992f")
-	    (:revdesc . "e4805628e731")
+	    (:commit . "629718e2b62eebcfe9130bf9caf63fd2328d6225")
+	    (:revdesc . "629718e2b62e")
 	    (:keywords "hypermedia")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.orglink@jonas.bernoulli.dev"))
@@ -67585,15 +67601,15 @@
 			 ("Peter Vasil" . "mail@petervasil.net"))
 			(:maintainer "Peter Vasil" . "mail@petervasil.net"))])
  (procress .
-	   [(0 1 0 1 -4 20260129 1256)
+	   [(0 1 0 1 -4 20260730 1707)
 	    ((emacs
 	      (27 1))
 	     (auctex
 	      (13 0)))
 	    "Process progress" tar
 	    ((:url . "https://github.com/haji-ali/procress.git")
-	     (:commit . "de0c3b40a7f5d66d71529784e0a35069a064e27d")
-	     (:revdesc . "de0c3b40a7f5")
+	     (:commit . "8e0e3b4c3fad211b028e9daff8dae73693c02272")
+	     (:revdesc . "8e0e3b4c3fad")
 	     (:keywords "compile" "progress" "tex" "svg")
 	     (:authors
 	      ("Al Haji-Ali" . "abdo.haji.ali@gmail.com"))
@@ -78074,15 +78090,15 @@
 		       (:authors
 			("Do Hoang" . "tuhdo1710@gmail.com")))])
  (stillness-mode .
-		 [(0 1 0 1 -4 20250307 1608)
+		 [(0 1 0 1 -4 20260730 1451)
 		  ((emacs
 		    (26 1))
 		   (dash
 		    (2 18 0)))
 		  "Prevent windows from jumping on minibuffer activation" tar
 		  ((:url . "https://github.com/neeasade/stillness-mode.el")
-		   (:commit . "05029febdb451941ed218e6ddbef5294776e31d4")
-		   (:revdesc . "05029febdb45")
+		   (:commit . "aa875fa971c88ad1f79d3a523f0e71fff5511a16")
+		   (:revdesc . "aa875fa971c8")
 		   (:keywords "convenience"))])
  (stimmung-themes .
 		  [(0 1 0 1 -4 20250915 1420)
@@ -85401,13 +85417,13 @@
 	  ("mugen" . "mugen.void42@gmail.com"))
 	 (:maintainer "mugen" . "mugen.void42@gmail.com"))])
  (vterm .
-	[(0 1 0 1 -4 20260706 1652)
+	[(0 1 0 1 -4 20260730 1414)
 	 ((emacs
 	   (25 1)))
 	 "Fully-featured terminal emulator" tar
 	 ((:url . "https://github.com/akermu/emacs-libvterm")
-	  (:commit . "9a32a4afce25647282bc8a8792468e41bc64adf4")
-	  (:revdesc . "9a32a4afce25")
+	  (:commit . "70921114908ebb260d6686db8cbe2445a64f90a2")
+	  (:revdesc . "70921114908e")
 	  (:keywords "terminals")
 	  (:authors
 	   ("Lukas Fürmetz" . "fuermetz@mailbox.org"))
@@ -85560,7 +85576,7 @@
 	   ("Mihai Olteanu" . "mihai_olteanu@fastmail.fm"))
 	  (:maintainer "Mihai Olteanu" . "mihai_olteanu@fastmail.fm"))])
  (vulpea .
-	 [(0 1 0 1 -4 20260730 1305)
+	 [(0 1 0 1 -4 20260730 1805)
 	  ((emacs
 	    (29 1))
 	   (org
@@ -85573,8 +85589,8 @@
 	    (2 19)))
 	  "Note management library for Org mode" tar
 	  ((:url . "https://github.com/d12frosted/vulpea")
-	   (:commit . "cb844caf7194092c590e4c35b86436e94775e81d")
-	   (:revdesc . "cb844caf7194")
+	   (:commit . "5ec6f10b71e2cb4d5f8dabbb1941bd5bd42d6ac1")
+	   (:revdesc . "5ec6f10b71e2")
 	   (:authors
 	    ("Boris Buliga" . "boris@d12frosted.io"))
 	   (:maintainers
