@@ -1220,7 +1220,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260730 1745)
+	      [(0 1 0 1 -4 20260801 45)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1229,8 +1229,8 @@
 		 (0 13 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "86190a1c8da80da072c713d6ad05494496603d57")
-		(:revdesc . "86190a1c8da8"))])
+		(:commit . "4ffd013ed54c79a184d5deee264e8bcfd4082d27")
+		(:revdesc . "4ffd013ed54c"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -6013,17 +6013,17 @@
 	 (:commit . "1aa2b2f8f6c0b32cd600355bbeabc036624d0566")
 	 (:revdesc . "1aa2b2f8f6c0"))])
  (borg .
-       [(0 1 0 1 -4 20260701 1437)
+       [(0 1 0 1 -4 20260731 2251)
 	((emacs
 	  (28 1))
 	 (epkg
 	  (4 2))
 	 (magit
-	  (4 6)))
+	  (4 7)))
 	"Assimilate Emacs packages as Git submodules" tar
 	((:url . "https://github.com/emacscollective/borg")
-	 (:commit . "a844569c8ef24408ba0df31d5cd58be9d955efce")
-	 (:revdesc . "a844569c8ef2")
+	 (:commit . "af234cc3b741eda11016a666c03ab238e8763bf2")
+	 (:revdesc . "af234cc3b741")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.borg@jonas.bernoulli.dev"))
@@ -22671,7 +22671,7 @@
 	   ("Sean Hutchings" . "seanhut@yandex.com"))
 	  (:maintainer "Sean Hutchings" . "seanhut@yandex.com"))])
  (epkg .
-       [(0 1 0 1 -4 20260729 2333)
+       [(0 1 0 1 -4 20260731 2251)
 	((emacs
 	  (28 1))
 	 (compat
@@ -22686,8 +22686,8 @@
 	  (1 0)))
 	"Browse the Emacsmirror package database" tar
 	((:url . "https://github.com/emacscollective/epkg")
-	 (:commit . "abb96029632bf9e8faafa3bf12c0bfa27aea0d40")
-	 (:revdesc . "abb96029632b")
+	 (:commit . "a94d4b0ff889c20f059b9ac9848369741d115a96")
+	 (:revdesc . "a94d4b0ff889")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.epkg@jonas.bernoulli.dev"))
@@ -30737,7 +30737,7 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20260730 1603)
+	[(0 1 0 1 -4 20260731 2255)
 	 ((emacs
 	   (29 1))
 	  (compat
@@ -30749,11 +30749,11 @@
 	  (emacsql
 	   (4 4))
 	  (ghub
-	   (5 2 2))
+	   (5 3))
 	  (llama
 	   (1 0))
 	  (magit
-	   (4 6))
+	   (4 7))
 	  (markdown-mode
 	   (2 8))
 	  (transient
@@ -30762,8 +30762,8 @@
 	   (1 2)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "303cec4136bbfc6ddd7a4dfb184beb0629ddb55e")
-	  (:revdesc . "303cec4136bb")
+	  (:commit . "29f45d8f247079a1d8d2247efdacb5b50a3b1e51")
+	  (:revdesc . "29f45d8f2470")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -32277,15 +32277,15 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20260729 1521)
+	  [(0 1 0 1 -4 20260731 2210)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30 1 0 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "f87c7ee794c34d4e100b229d49f07b89d0fec840")
-	    (:revdesc . "f87c7ee794c3")
+	    (:commit . "ebd6466f46e15a28acfc1cdc28ae187090ced830")
+	    (:revdesc . "ebd6466f46e1")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -32311,7 +32311,7 @@
 	 ("Joseph LaFreniere" . "joseph@lafreniere.xyz"))
 	(:maintainer "Joseph LaFreniere" . "joseph@lafreniere.xyz"))])
  (ghub .
-       [(0 1 0 1 -4 20260730 1244)
+       [(0 1 0 1 -4 20260731 2254)
 	((emacs
 	  (29 1))
 	 (compat
@@ -32324,8 +32324,8 @@
 	  (0 1 3)))
 	"Client libraries for Git forge APIs" tar
 	((:url . "https://github.com/magit/ghub")
-	 (:commit . "4805f300dd2607d1628bd8554cb05ab557e2fab8")
-	 (:revdesc . "4805f300dd26")
+	 (:commit . "cba5666d8b999e2733aefac369a4e0def3be7fc9")
+	 (:revdesc . "cba5666d8b99")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.ghub@jonas.bernoulli.dev"))
@@ -49403,7 +49403,7 @@
 	       (:revdesc . "6b03728ad53e")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20260731 1203)
+	[(0 1 0 1 -4 20260731 2248)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -49413,7 +49413,7 @@
 	  (llama
 	   (1 0))
 	  (magit-section
-	   (4 6))
+	   (4 7))
 	  (seq
 	   (2 24))
 	  (transient
@@ -49422,8 +49422,8 @@
 	   (3 5)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "ee87d2e4ffd642a01e40cc2c4aa403b49704febd")
-	  (:revdesc . "ee87d2e4ffd6")
+	  (:commit . "67f203853e74e926e2c99f60ed508840714f7ced")
+	  (:revdesc . "67f203853e74")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -49861,7 +49861,7 @@
 		       ("Jules Tamagnan" . "jtamagnan@gmail.com"))
 		      (:maintainer "Jules Tamagnan" . "jtamagnan@gmail.com"))])
  (magit-section .
-		[(0 1 0 1 -4 20260722 2131)
+		[(0 1 0 1 -4 20260731 2248)
 		 ((emacs
 		   (28 1))
 		  (compat
@@ -49874,8 +49874,8 @@
 		   (2 24)))
 		 "Sections for read-only buffers" tar
 		 ((:url . "https://github.com/magit/magit")
-		  (:commit . "cbd85091c932e77ef2fcd86e85c3cb1334083724")
-		  (:revdesc . "cbd85091c932")
+		  (:commit . "67f203853e74e926e2c99f60ed508840714f7ced")
+		  (:revdesc . "67f203853e74")
 		  (:keywords "tools")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -51157,13 +51157,13 @@
 	       ("Mark A. Hershberger" . "mah@everybody.org"))
 	      (:maintainer "Mark A. Hershberger" . "mah@everybody.org"))])
  (meep .
-       [(0 1 0 1 -4 20260730 1216)
+       [(0 1 0 1 -4 20260731 2359)
 	((emacs
 	  (30 1)))
 	"Lightweight modal editing" tar
 	((:url . "https://codeberg.org/ideasman42/emacs-meep")
-	 (:commit . "a2d821a0765d5f076ed777d22cecd914ad9106d8")
-	 (:revdesc . "a2d821a0765d")
+	 (:commit . "8cb0381150c29b1535f556065cd6cbadb3891208")
+	 (:revdesc . "8cb0381150c2")
 	 (:keywords "convenience" "modal-editing")
 	 (:authors
 	  ("Campbell Barton" . "ideasman42@gmail.com"))
@@ -55359,15 +55359,15 @@
 	      ("Peter" . "craven@gmx.net"))
 	     (:maintainer "Peter" . "craven@gmx.net"))])
  (no-littering .
-	       [(0 1 0 1 -4 20260706 850)
+	       [(0 1 0 1 -4 20260731 2241)
 		((emacs
 		  (28 1))
 		 (compat
 		  (31 0)))
 		"Help keeping ~/.config/emacs clean" tar
 		((:url . "https://github.com/emacscollective/no-littering")
-		 (:commit . "fa0801e5a1135cdb5ba525869f578cea87e8db0e")
-		 (:revdesc . "fa0801e5a113")
+		 (:commit . "c949f327f417734005203769673e6f925877fa88")
+		 (:revdesc . "c949f327f417")
 		 (:keywords "convenience")
 		 (:authors
 		  ("Jonas Bernoulli" . "emacs.no-littering@jonas.bernoulli.dev"))
@@ -62143,7 +62143,7 @@
 	    ("Yasuhito Takamiya" . "yasuhito@gmail.com"))
 	   (:maintainer "Yasuhito Takamiya" . "yasuhito@gmail.com"))])
  (orgit .
-	[(0 1 0 1 -4 20260717 1740)
+	[(0 1 0 1 -4 20260731 2256)
 	 ((emacs
 	   (29 1))
 	  (compat
@@ -62153,13 +62153,13 @@
 	  (llama
 	   (1 0))
 	  (magit
-	   (4 6))
+	   (4 7))
 	  (org
 	   (9 8)))
 	 "Support for Org links to Magit buffers" tar
 	 ((:url . "https://github.com/magit/orgit")
-	  (:commit . "47b3568fce775c756fb5bb3545c2edd48b8e2fc1")
-	  (:revdesc . "47b3568fce77")
+	  (:commit . "c948819a7cad37a654ada275ebf7c003abf782d0")
+	  (:revdesc . "c948819a7cad")
 	  (:keywords "hypermedia" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.orgit@jonas.bernoulli.dev"))
@@ -62184,7 +62184,7 @@
 	       (:revdesc . "08f7a16f3cc3")
 	       (:keywords "hypermedia" "vc"))])
  (orgit-forge .
-	      [(0 1 0 1 -4 20260717 1424)
+	      [(0 1 0 1 -4 20260731 2256)
 	       ((emacs
 		 (29 1))
 		(compat
@@ -62194,15 +62194,15 @@
 		(forge
 		 (0 6))
 		(magit
-		 (4 6))
+		 (4 7))
 		(org
 		 (9 8))
 		(orgit
 		 (2 2)))
 	       "Org links to Forge issue buffers" tar
 	       ((:url . "https://github.com/magit/orgit-forge")
-		(:commit . "f812864aae188bbbc36725c87bd92909ff0dda3a")
-		(:revdesc . "f812864aae18")
+		(:commit . "87f257ba03c634198a634f0bdafc1b9cf6c6d09a")
+		(:revdesc . "87f257ba03c6")
 		(:keywords "hypermedia" "vc")
 		(:authors
 		 ("Jonas Bernoulli" . "emacs.orgit-forge@jonas.bernoulli.dev"))
@@ -62210,7 +62210,7 @@
 		 ("Jonas Bernoulli" . "emacs.orgit-forge@jonas.bernoulli.dev"))
 		(:maintainer "Jonas Bernoulli" . "emacs.orgit-forge@jonas.bernoulli.dev"))])
  (orglink .
-	  [(0 1 0 1 -4 20260730 1553)
+	  [(0 1 0 1 -4 20260731 2257)
 	   ((emacs
 	     (28 1))
 	    (compat
@@ -62223,8 +62223,8 @@
 	     (2 24)))
 	   "Use Org Mode links in other modes" tar
 	   ((:url . "https://github.com/tarsius/orglink")
-	    (:commit . "629718e2b62eebcfe9130bf9caf63fd2328d6225")
-	    (:revdesc . "629718e2b62e")
+	    (:commit . "2e66d4cae10e54a49380fd7b552b641ebd731a15")
+	    (:revdesc . "2e66d4cae10e")
 	    (:keywords "hypermedia")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.orglink@jonas.bernoulli.dev"))
@@ -63718,15 +63718,15 @@
 	      ("Ryan Davis" . "ryand-ruby@zenspider.com"))
 	     (:maintainer "Ryan Davis" . "ryand-ruby@zenspider.com"))])
  (package-build .
-		[(0 1 0 1 -4 20260710 1826)
+		[(0 1 0 1 -4 20260731 2245)
 		 ((emacs
 		   (26 1))
 		  (compat
 		   (31 0)))
 		 "Curate an Emacs Lisp package archive" tar
 		 ((:url . "https://github.com/melpa/package-build")
-		  (:commit . "d31dec67631f14ef8be3ad6438e172a07298082b")
-		  (:revdesc . "d31dec67631f")
+		  (:commit . "80206e27d7b007464e6b28e8150662ba9d14f2bc")
+		  (:revdesc . "80206e27d7b0")
 		  (:keywords "maint" "tools")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
@@ -79575,15 +79575,15 @@
 	     ("John Gong" . "gjtzone@hotmail.com"))
 	    (:maintainer "Aaron Ji" . "shuxiao9058@gmail.com"))])
  (tabspaces .
-	    [(0 1 0 1 -4 20260731 1456)
+	    [(0 1 0 1 -4 20260731 2126)
 	     ((emacs
 	       (27 1))
 	      (project
 	       (0 8 1)))
 	     "Leverage tab-bar and project for buffer-isolated workspaces" tar
 	     ((:url . "https://codeberg.org/mclear-tools/tabspaces")
-	      (:commit . "5881cbe676d12228cc8bea2eb1b615316801d155")
-	      (:revdesc . "5881cbe676d1")
+	      (:commit . "33f224f38ff354f83f7d9c0a9f3c5b8bf888d9d6")
+	      (:revdesc . "33f224f38ff3")
 	      (:keywords "convenience" "frames")
 	      (:authors
 	       ("Colin McLear" . "mclear@fastmail.com")))])
