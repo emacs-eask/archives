@@ -55816,15 +55816,15 @@
 		("Muir Manders" . "muir+emacs@mnd.rs"))
 	       (:maintainer "Muir Manders" . "muir+emacs@mnd.rs"))])
  (now-playing .
-	      [(0 1 0 1 -4 20260728 1852)
+	      [(0 1 0 1 -4 20260802 1911)
 	       ((emacs
 		 (30 1))
 		(transient
 		 (0 9 0)))
 	       "Interface for the macOS Music app" tar
 	       ((:url . "https://github.com/kickingvegas/now-playing")
-		(:commit . "4691bbe32aa1f22a5ebc680b9c6b26455bcb4ca3")
-		(:revdesc . "4691bbe32aa1")
+		(:commit . "38ee9fe80ba6b0fa81e299edac2cae389f87933a")
+		(:revdesc . "38ee9fe80ba6")
 		(:keywords "tools")
 		(:authors
 		 ("Charles Choi" . "kickingvegas@gmail.com"))
@@ -55956,6 +55956,20 @@
 	   ((:url . "https://github.com/pyluyten/emacs-nu")
 	    (:commit . "6510bc3f22e921aeb8ef3190bca1f432acc2870e")
 	    (:revdesc . "6510bc3f22e9"))])
+ (nu-ts-mode .
+	     [(0 1 0 1 -4 20260721 1414)
+	      ((emacs
+		(29 1)))
+	      "Major mode for Nushell scripts, powered by treesitter" tar
+	      ((:url . "https://github.com/ItsOleks/nu-ts-mode")
+	       (:commit . "088c09c86bb1cfb04329828922b893bcfff308bd")
+	       (:revdesc . "088c09c86bb1")
+	       (:keywords "nushell" "nu" "languages" "tree-sitter")
+	       (:authors
+		("Oleksandr Makhmudov" . "oleksandr.makhmudov@proton.me"))
+	       (:maintainers
+		("Oleksandr Makhmudov" . "oleksandr.makhmudov@proton.me"))
+	       (:maintainer "Oleksandr Makhmudov" . "oleksandr.makhmudov@proton.me"))])
  (nubox .
 	[(1 0 0 1 -4 20170619 910)
 	 nil "Nubox color theme (dark, light and tty versions)" tar
@@ -65639,7 +65653,7 @@
 	     ("Eric Hansen" . "hansen.c.eric@gmail.com"))
 	    (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
  (pi-coding-agent .
-		  [(0 1 0 1 -4 20260728 1438)
+		  [(0 1 0 1 -4 20260802 1837)
 		   ((emacs
 		     (29 1))
 		    (transient
@@ -65650,8 +65664,8 @@
 		     (0 2 0)))
 		   "Emacs frontend for pi coding agent" tar
 		   ((:url . "https://github.com/dnouri/pi-coding-agent")
-		    (:commit . "df5ce0a176ce634ccb4883042c415a74a5637c37")
-		    (:revdesc . "df5ce0a176ce")
+		    (:commit . "359013102bac0aed1b2e2b9990f12eae95bccd7a")
+		    (:revdesc . "359013102bac")
 		    (:keywords "ai" "llm" "ai-pair-programming" "tools")
 		    (:authors
 		     ("Daniel Nouri" . "daniel.nouri@gmail.com"))
@@ -68262,6 +68276,22 @@
 	    (:maintainers
 	     ("Ben Moon" . "guiltydolphin@gmail.com"))
 	    (:maintainer "Ben Moon" . "guiltydolphin@gmail.com"))])
+ (promptu .
+	  [(0 1 0 1 -4 20260717 1156)
+	   ((emacs
+	     (28 1))
+	    (transient
+	     (0 5 0)))
+	   "Compose LLM prompts from building blocks" tar
+	   ((:url . "https://github.com/mrcnski/promptu.el")
+	    (:commit . "685e3c99c1ec74e293b6426f40babb56b65383f1")
+	    (:revdesc . "685e3c99c1ec")
+	    (:keywords "convenience" "tools")
+	    (:authors
+	     ("Marcin Swieczkowski" . "marcin@realemail.net"))
+	    (:maintainers
+	     ("Marcin Swieczkowski" . "marcin@realemail.net"))
+	    (:maintainer "Marcin Swieczkowski" . "marcin@realemail.net"))])
  (pronto .
 	 [(1 0 1 -4 20200218 1633)
 	  ((emacs
@@ -69591,13 +69621,13 @@
 	      ("Yen-Chin Lee" . "coldnew.tw@gmail.com"))
 	     (:maintainer "Yen-Chin Lee" . "coldnew.tw@gmail.com"))])
  (qrencode .
-	   [(0 1 0 1 -4 20260801 1030)
+	   [(0 1 0 1 -4 20260802 2131)
 	    ((emacs
 	      (25 1)))
 	    "QRCode encoder" tar
 	    ((:url . "https://github.com/ruediger/qrencode-el")
-	     (:commit . "677939b0566295e1ff227de115edfcfeceb52bab")
-	     (:revdesc . "677939b05662")
+	     (:commit . "7f19d5c20039e3c3e3872c7ae031509a0369d3bd")
+	     (:revdesc . "7f19d5c20039")
 	     (:keywords "qrcode" "comm")
 	     (:authors
 	      ("Rüdiger Sonderfeld" . "ruediger@c-plusplus.net"))
@@ -85619,7 +85649,7 @@
 	   ("Mihai Olteanu" . "mihai_olteanu@fastmail.fm"))
 	  (:maintainer "Mihai Olteanu" . "mihai_olteanu@fastmail.fm"))])
  (vulpea .
-	 [(0 1 0 1 -4 20260802 1118)
+	 [(0 1 0 1 -4 20260802 2121)
 	  ((emacs
 	    (29 1))
 	   (org
@@ -85632,8 +85662,8 @@
 	    (2 19)))
 	  "Note management library for Org mode" tar
 	  ((:url . "https://github.com/d12frosted/vulpea")
-	   (:commit . "056efb712bd13190764ecc28dc1fa8d7f80524dc")
-	   (:revdesc . "056efb712bd1")
+	   (:commit . "3246e673deea8590b4e65c1e3b388c81b6e1bd56")
+	   (:revdesc . "3246e673deea")
 	   (:authors
 	    ("Boris Buliga" . "boris@d12frosted.io"))
 	   (:maintainers
