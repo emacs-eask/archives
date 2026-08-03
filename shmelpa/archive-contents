@@ -18546,11 +18546,11 @@
 		 ("Sergei Nosov" . "sergei.nosov[at]gmail.com"))
 		(:maintainer "Sergei Nosov" . "sergei.nosov[at]gmail.com"))])
  (dune .
-       [(0 1 0 1 -4 20260721 729)
+       [(0 1 0 1 -4 20260803 1048)
 	nil "Integration with the dune build system" tar
 	((:url . "https://github.com/ocaml/dune")
-	 (:commit . "a5d7d322823927dd5d85ae102fd7d442be2f7e66")
-	 (:revdesc . "a5d7d3228239"))])
+	 (:commit . "ce734ac25ffb06994a4530426bb06ee8cda19e50")
+	 (:revdesc . "ce734ac25ffb"))])
  (dune-format .
 	      [(0 1 -1 1 -4 20210505 108)
 	       ((reformatter
@@ -19219,7 +19219,7 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20260729 2331)
+      [(0 1 0 1 -4 20260803 1303)
        ((emacs
 	 (28 1))
 	(dash
@@ -19234,8 +19234,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "0d11063a9ba2d78961b9c7f1862ba82dc724d234")
-	(:revdesc . "0d11063a9ba2")
+	(:commit . "dca540f621ead503ab160690f6ef77fd56312f52")
+	(:revdesc . "dca540f621ea")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
@@ -24584,7 +24584,7 @@
 		      ("Andrew Smith" . "andy.bill.smith@gmail.com"))
 		     (:maintainer "Andrew Smith" . "andy.bill.smith@gmail.com"))])
  (evil-ghostel .
-	       [(0 1 0 1 -4 20260802 1114)
+	       [(0 1 0 1 -4 20260803 1214)
 		((emacs
 		  (28 1))
 		 (evil
@@ -24593,8 +24593,8 @@
 		  (0 42 1)))
 		"Evil-mode integration for ghostel" tar
 		((:url . "https://github.com/dakra/ghostel")
-		 (:commit . "ccc371ba61213412954e785f5b472d84dbbf0d51")
-		 (:revdesc . "ccc371ba6121")
+		 (:commit . "6fe0b0624f02d199ef07b52cae62300fe3612701")
+		 (:revdesc . "6fe0b0624f02")
 		 (:authors
 		  ("Daniel Kraus" . "daniel@kraus.my"))
 		 (:maintainers
@@ -26223,15 +26223,15 @@
 	     ("Takafumi Arakaki" . "aka.tkfatgmail.com"))
 	    (:maintainer "Takafumi Arakaki" . "aka.tkfatgmail.com"))])
  (faff-theme .
-	     [(0 1 0 1 -4 20260730 1513)
+	     [(0 1 0 1 -4 20260803 1446)
 	      ((emacs
 		(28 1))
 	       (modus-themes
 		(5 0 0)))
 	      "Light cornsilk theme with warm, earthy colors" tar
 	      ((:url . "https://github.com/WJCFerguson/emacs-faff-theme")
-	       (:commit . "49cf5b6a8c46f6b315818ae06df160c3caefb213")
-	       (:revdesc . "49cf5b6a8c46")
+	       (:commit . "374759dc41af124480d1ea383d8118f9010f58d2")
+	       (:revdesc . "374759dc41af")
 	       (:keywords "faces" "theme")
 	       (:authors
 		("James Ferguson" . ""))
@@ -27556,15 +27556,15 @@
 		 ("PythonNut" . "pythonnut@pythonnut.com"))
 		(:maintainer "PythonNut" . "pythonnut@pythonnut.com"))])
  (flycheck .
-	   [(0 1 0 1 -4 20260803 841)
+	   [(0 1 0 1 -4 20260803 1346)
 	    ((emacs
 	      (28 1))
 	     (seq
 	      (2 24)))
 	    "On-the-fly syntax checking" tar
 	    ((:url . "https://github.com/flycheck/flycheck")
-	     (:commit . "85dddb85bedc4ab97f3bde11cf3949d901cc72af")
-	     (:revdesc . "85dddb85bedc")
+	     (:commit . "51a4cdde3db1680eb760393a1438fcc440aa5200")
+	     (:revdesc . "51a4cdde3db1")
 	     (:keywords "convenience" "languages" "tools")
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
@@ -32277,15 +32277,15 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20260802 1114)
+	  [(0 1 0 1 -4 20260803 1326)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30 1 0 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "ccc371ba61213412954e785f5b472d84dbbf0d51")
-	    (:revdesc . "ccc371ba6121")
+	    (:commit . "37a82caa25c41fa4fda768ddb727b1cbe117ceba")
+	    (:revdesc . "37a82caa25c4")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -51155,13 +51155,13 @@
 	       ("Mark A. Hershberger" . "mah@everybody.org"))
 	      (:maintainer "Mark A. Hershberger" . "mah@everybody.org"))])
  (meep .
-       [(0 1 0 1 -4 20260803 839)
+       [(0 1 0 1 -4 20260803 1209)
 	((emacs
 	  (30 1)))
 	"Lightweight modal editing" tar
 	((:url . "https://codeberg.org/ideasman42/emacs-meep")
-	 (:commit . "1fbb981f837e0e85a68a8ca2b1aee63802bd4be1")
-	 (:revdesc . "1fbb981f837e")
+	 (:commit . "4190f3e74a41346983b396c57d7d0f173012ea4e")
+	 (:revdesc . "4190f3e74a41")
 	 (:keywords "convenience" "modal-editing")
 	 (:authors
 	  ("Campbell Barton" . "ideasman42@gmail.com"))
@@ -58665,13 +58665,13 @@
 			  ("Ivan Malison" . "IvanMalison@gmail.com"))
 			 (:maintainer "Ivan Malison" . "IvanMalison@gmail.com"))])
  (org-change .
-	     [(0 1 0 1 -4 20260802 302)
+	     [(0 1 0 1 -4 20260803 1456)
 	      ((emacs
 		(29 1)))
 	      "Annotate changes in text files" tar
 	      ((:url . "https://github.com/drghirlanda/org-change")
-	       (:commit . "d5dbee013afc2c29facf1581a542a48f9f39e49f")
-	       (:revdesc . "d5dbee013afc")
+	       (:commit . "e23dc3653a843526dab9c93f3dcca663d4706f63")
+	       (:revdesc . "e23dc3653a84")
 	       (:keywords "wp" "convenience"))])
  (org-chef .
 	   [(0 1 0 1 -4 20250714 107)
@@ -80877,13 +80877,13 @@
 	    ("Chunyang Xu" . "xuchunyang.me@gmail.com"))
 	   (:maintainer "Chunyang Xu" . "xuchunyang.me@gmail.com"))])
  (thrift .
-	 [(0 1 0 1 -4 20260726 1633)
+	 [(0 1 0 1 -4 20260803 944)
 	  ((emacs
 	    (24)))
 	  "Major mode for fbthrift and Apache Thrift files" tar
 	  ((:url . "https://github.com/facebook/fbthrift")
-	   (:commit . "0215ea4e57004131f0eb7e092770f95659a15136")
-	   (:revdesc . "0215ea4e5700")
+	   (:commit . "941512b20c7b8460f73e75abdb20eef3bb6fb9b7")
+	   (:revdesc . "941512b20c7b")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -85649,7 +85649,7 @@
 	   ("Mihai Olteanu" . "mihai_olteanu@fastmail.fm"))
 	  (:maintainer "Mihai Olteanu" . "mihai_olteanu@fastmail.fm"))])
  (vulpea .
-	 [(0 1 0 1 -4 20260803 959)
+	 [(0 1 0 1 -4 20260803 1557)
 	  ((emacs
 	    (29 1))
 	   (org
@@ -85662,8 +85662,8 @@
 	    (2 19)))
 	  "Note management library for Org mode" tar
 	  ((:url . "https://github.com/d12frosted/vulpea")
-	   (:commit . "cff736f210d3dff6c3c4b3b170ed340d3d0f5318")
-	   (:revdesc . "cff736f210d3")
+	   (:commit . "40c0bc69aa078f3fac407ca023e95e41fdbbecda")
+	   (:revdesc . "40c0bc69aa07")
 	   (:authors
 	    ("Boris Buliga" . "boris@d12frosted.io"))
 	   (:maintainers
