@@ -5464,6 +5464,28 @@
 		    (:maintainers
 		     ("Jason Kim" . "sukbeom.kim@gmail.com"))
 		    (:maintainer "Jason Kim" . "sukbeom.kim@gmail.com"))])
+ (bitbucket-devops .
+		   [(0 1 0 1 -4 20260809 1709)
+		    ((emacs
+		      (29 1))
+		     (magit
+		      (4 0 0))
+		     (markdown-mode
+		      (2 6))
+		     (transient
+		      (0 3 0))
+		     (yaml
+		      (1 2 3)))
+		    "Bitbucket Cloud DevOps workflows" tar
+		    ((:url . "https://github.com/will-abb/bitbucket-devops.el")
+		     (:commit . "ce7745aa068d8793c694ca39d1c16e36c4f939ee")
+		     (:revdesc . "ce7745aa068d")
+		     (:keywords "tools" "vc")
+		     (:authors
+		      ("Will Bosch-Bello" . "williamsbosch@gmail.com"))
+		     (:maintainers
+		      ("Will Bosch-Bello" . "williamsbosch@gmail.com"))
+		     (:maintainer "Will Bosch-Bello" . "williamsbosch@gmail.com"))])
  (bitlbee .
 	  [(0 1 0 1 -4 20151203 0)
 	   nil "Help get Bitlbee (http://www.bitlbee.org) up and running" tar
@@ -12654,7 +12676,7 @@
 			       ("Chmouel Boudjnah" . "chmouel@chmouel.com"))
 			      (:maintainer "Chmouel Boudjnah" . "chmouel@chmouel.com"))])
  (consult-vulpea .
-		 [(0 1 0 1 -4 20260105 2319)
+		 [(0 1 0 1 -4 20260809 1842)
 		  ((emacs
 		    (28 1))
 		   (vulpea
@@ -12663,8 +12685,8 @@
 		    (2 2)))
 		  "Use Consult in tandem with Vulpea" tar
 		  ((:url . "https://github.com/fabcontigiani/consult-vulpea")
-		   (:commit . "1596d44b17d39882e96d20e9a387eab3df6143a2")
-		   (:revdesc . "1596d44b17d3")
+		   (:commit . "3effef56dedf3df80667eec4c319f3fc55f5b5db")
+		   (:revdesc . "3effef56dedf")
 		   (:keywords "convenience" "notes" "vulpea")
 		   (:authors
 		    ("Fabrizio Contigiani" . "fabcontigiani@gmail.com"))
@@ -15713,6 +15735,22 @@
 		    (:maintainers
 		     ("Samuel W. Flint" . "me@samuelwflint.com"))
 		    (:maintainer "Samuel W. Flint" . "me@samuelwflint.com"))])
+ (denote-smart-sluggify-title .
+			      [(0 1 0 1 -4 20260809 1652)
+			       ((emacs
+				 (25 1))
+				(denote
+				 (4 0 0)))
+			       "Denoise denote titles to save filename length" tar
+			       ((:url . "https://git.sr.ht/~swflint/denote-smart-sluggify-title")
+				(:commit . "87c60e5e03c2e00855db81589ff1340bd6c5bcb5")
+				(:revdesc . "87c60e5e03c2")
+				(:keywords "convenience" "denote")
+				(:authors
+				 ("Samuel W. Flint" . "swflint@flintfam.org"))
+				(:maintainers
+				 ("Samuel W. Flint" . "swflint@flintfam.org"))
+				(:maintainer "Samuel W. Flint" . "swflint@flintfam.org"))])
  (denote-solo .
 	      [(0 1 0 1 -4 20260621 1352)
 	       ((emacs
@@ -34876,6 +34914,20 @@
 		     (:commit . "0ed8e4273607dd4fcaa742b4097259233b09eda6")
 		     (:revdesc . "0ed8e4273607")
 		     (:keywords "color" "theme" "grand" "shell" "faces"))])
+ (graph-fa2 .
+	    [(0 1 0 1 -4 20260807 1146)
+	     ((emacs
+	       (27 1)))
+	     "ForceAtlas2 pure-elisp background-cached engine" tar
+	     ((:url . "https://github.com/elij/graph-fa2")
+	      (:commit . "17cbd4b18979cb468e3822d9ea994454ac642992")
+	      (:revdesc . "17cbd4b18979")
+	      (:keywords "multimedia" "graphs" "visualization")
+	      (:authors
+	       ("Elijah Charles" . "https://github.com/elij"))
+	      (:maintainers
+	       ("Elijah Charles" . "https://github.com/elij"))
+	      (:maintainer "Elijah Charles" . "https://github.com/elij"))])
  (graphene .
 	   [(1 0 0 1 -4 20180529 1112)
 	    ((dash
@@ -40245,13 +40297,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20260804 1348)
+	    [(0 1 0 1 -4 20260809 1848)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "5e7da602760c64b75d62924e19a039ad48991a20")
-	      (:revdesc . "5e7da602760c")
+	      (:commit . "fa9bc5a5ba75006c8a2fb61802c0af28833bc435")
+	      (:revdesc . "fa9bc5a5ba75")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -65777,6 +65829,32 @@
 	   (:maintainers
 	    ("Damien Cassou" . "damien.cassou@gmail.com"))
 	   (:maintainer "Damien Cassou" . "damien.cassou@gmail.com"))])
+ (pimacs .
+	 [(0 1 0 1 -4 20260809 948)
+	  ((emacs
+	    (29 1))
+	   (compat
+	    (31 0))
+	   (markdown-mode
+	    (2 8))
+	   (timeout
+	    (2 1 7))
+	   (pcre2el
+	    (1 12))
+	   (spinner
+	    (1 7))
+	   (transient
+	    (0 3 7)))
+	  "Emacs Client for Pi" tar
+	  ((:url . "https://github.com/ananthakumaran/pimacs.el")
+	   (:commit . "b99a592b0f6da253884d884de96311aa1ea71d11")
+	   (:revdesc . "b99a592b0f6d")
+	   (:keywords "convenience" "processes")
+	   (:authors
+	    ("Anantha kumaran" . "ananthakumaran@gmail.com"))
+	   (:maintainers
+	    ("Anantha kumaran" . "ananthakumaran@gmail.com"))
+	   (:maintainer "Anantha kumaran" . "ananthakumaran@gmail.com"))])
  (pinboard .
 	   [(1 4 0 1 -4 20230101 850)
 	    ((emacs
@@ -69602,13 +69680,13 @@
 		(:commit . "b4365e60e3ba747a5fec8ca909f64fe8c73d8db2")
 		(:revdesc . "b4365e60e3ba"))])
  (q-mode .
-	 [(0 1 0 1 -4 20260801 2143)
+	 [(0 1 0 1 -4 20260809 1858)
 	  ((emacs
 	    (28)))
 	  "A q editing mode" tar
 	  ((:url . "https://github.com/psaris/q-mode")
-	   (:commit . "160313fb252a98c9109720dfdf528ee408591fc3")
-	   (:revdesc . "160313fb252a")
+	   (:commit . "e1fdff40c3a75f6d3323a5e9a3d8ff4a7ea07673")
+	   (:revdesc . "e1fdff40c3a7")
 	   (:keywords "faces" "files" "q"))])
  (qml-mode .
 	   [(0 4 1 -4 20161016 31)
@@ -72178,6 +72256,19 @@
 	     (:maintainers
 	      ("Daniel Hutzley" . "endergeryt@gmail.com"))
 	     (:maintainer "Daniel Hutzley" . "endergeryt@gmail.com"))])
+ (ronny-theme .
+	      [(0 1 0 1 -4 20260805 802)
+	       ((emacs
+		 (27)))
+	       "A dark colorscheme inspired by Monokai" tar
+	       ((:url . "https://github.com/judaew/ronny.el")
+		(:commit . "42fd8eeebe26b70d98bdc621183c4a2b6acef7a5")
+		(:revdesc . "42fd8eeebe26")
+		(:authors
+		 ("Vadym-Valdis Yudaiev" . "judaew@outlook.com"))
+		(:maintainers
+		 ("Vadym-Valdis Yudaiev" . "judaew@outlook.com"))
+		(:maintainer "Vadym-Valdis Yudaiev" . "judaew@outlook.com"))])
  (rope-read-mode .
 		 [(0 1 0 1 -4 20260610 2004)
 		  ((emacs
