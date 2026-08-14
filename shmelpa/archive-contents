@@ -1220,7 +1220,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260814 722)
+	      [(0 1 0 1 -4 20260814 912)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1229,8 +1229,8 @@
 		 (0 13 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "fb187b3953ae0b87e6810ea06105e631ac30ae0c")
-		(:revdesc . "fb187b3953ae"))])
+		(:commit . "5afffb8ba9bc89137ce1f6c14b533a5e37c9b9ab")
+		(:revdesc . "5afffb8ba9bc"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -20740,15 +20740,15 @@
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
-	 [(0 1 0 1 -4 20260814 819)
+	 [(0 1 0 1 -4 20260814 1136)
 	  ((emacs
 	    (29 1))
 	   (compat
 	    (31)))
 	  "An Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/emacs-elfeed/elfeed")
-	   (:commit . "e534116b54e4bb57227c8b4d404037ec2c4e55f1")
-	   (:revdesc . "e534116b54e4")
+	   (:commit . "a901e326e52f46e619450a7802cf4903b87d0b7e")
+	   (:revdesc . "a901e326e52f")
 	   (:keywords "network" "comm" "hypermedia")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -28600,15 +28600,15 @@
 		     ("Elric Milon" . "whirm_REMOVETHIS__@gmx.com"))
 		    (:maintainer "Elric Milon" . "whirm_REMOVETHIS__@gmx.com"))])
  (flycheck-languagetool .
-			[(0 1 0 1 -4 20260731 1347)
+			[(0 1 0 1 -4 20260814 1228)
 			 ((emacs
 			   (27 1))
 			  (flycheck
-			   (0 14)))
+			   (38)))
 			 "Flycheck support for LanguageTool" tar
 			 ((:url . "https://github.com/emacs-languagetool/flycheck-languagetool")
-			  (:commit . "28b376e4337c93149fb2620001afb284d739ce94")
-			  (:revdesc . "28b376e4337c")
+			  (:commit . "722071e6c49331cc2c9ee14ed9f228dd6ac489d9")
+			  (:revdesc . "722071e6c493")
 			  (:keywords "convenience" "grammar" "check")
 			  (:authors
 			   ("Jen-Chieh" . "jcs090218@gmail.com")
@@ -47133,13 +47133,13 @@
 		("Damien Cassou" . "damien@cassou.me"))
 	       (:maintainer "Damien Cassou" . "damien@cassou.me"))])
  (liberime .
-	   [(0 1 0 1 -4 20260812 1115)
+	   [(0 1 0 1 -4 20260814 1041)
 	    ((emacs
 	      (25 1)))
 	    "Rime elisp binding" tar
 	    ((:url . "https://github.com/merrickluo/liberime")
-	     (:commit . "f805e3bf7ba1e809939a3fe059dd112f8167e849")
-	     (:revdesc . "f805e3bf7ba1")
+	     (:commit . "24b0f2e9f535af305767f56a417532b8165eaea8")
+	     (:revdesc . "24b0f2e9f535")
 	     (:keywords "convenience" "chinese" "input-method" "rime"))])
  (liblouis .
 	   [(0 2 1 -4 20220426 657)
@@ -51501,13 +51501,13 @@
 		     ("Jonathan Hope" . "jhope@theflatfield.net"))
 		    (:maintainer "Jonathan Hope" . "jhope@theflatfield.net"))])
  (meshmonitor-chat .
-		   [(0 1 0 1 -4 20260810 1354)
+		   [(0 1 0 1 -4 20260814 942)
 		    ((emacs
 		      (28 1)))
 		    "Chat client for MeshMonitor (Meshtastic)" tar
 		    ((:url . "https://git.andros.dev/andros/meshmonitor-chat.el")
-		     (:commit . "b7c1dcc95935f4b28b066347ea5d318bbe721298")
-		     (:revdesc . "b7c1dcc95935")
+		     (:commit . "398a33e0cece33a1ca978d98497bef9bd9013f8d")
+		     (:revdesc . "398a33e0cece")
 		     (:keywords "comm")
 		     (:authors
 		      ("Andros Fenollosa" . "hi@andros.dev"))
@@ -72013,15 +72013,15 @@
 	 (:revdesc . "f927d26e471e")
 	 (:keywords "convenience" "input-method"))])
  (rimel .
-	[(0 1 0 1 -4 20260730 1007)
+	[(0 1 0 1 -4 20260814 1139)
 	 ((emacs
 	   (29 4))
 	  (liberime
-	   (0 0 7)))
+	   (0 0 11)))
 	 "A lightweight Rime input method" tar
-	 ((:url . "https://github.com/jixiuf/rimel")
-	  (:commit . "4fbc1977713704c7fe452195b377bc67e5de846a")
-	  (:revdesc . "4fbc19777137")
+	 ((:url . "https://github.com/emacs-rime/rimel")
+	  (:commit . "7b2d967f4230ececbf7b34477c9db71ca5b0104d")
+	  (:revdesc . "7b2d967f4230")
 	  (:keywords "convenience" "chinese" "input-method" "rime"))])
  (rinari .
 	 [(0 1 0 1 -4 20150709 640)
