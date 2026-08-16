@@ -32357,15 +32357,15 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20260816 1009)
+	  [(0 1 0 1 -4 20260816 1646)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30 1 0 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "cc707024b0a16d00ec520cd51f466245a2139ce1")
-	    (:revdesc . "cc707024b0a1")
+	    (:commit . "b25a55e7d2a2cce8bf5c745a8f5078a08ad83020")
+	    (:revdesc . "b25a55e7d2a2")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -56907,6 +56907,22 @@
 	       (:maintainers
 		("Greg Sexton" . "gregsexton@gmail.com"))
 	       (:maintainer "Greg Sexton" . "gregsexton@gmail.com"))])
+ (ob-janet .
+	   [(0 1 0 1 -4 20260803 608)
+	    ((emacs
+	      (26 1))
+	     (org
+	      (9 1)))
+	    "Org-Babel support for the Janet language" tar
+	    ((:url . "https://codeberg.org/zzkt/ob-janet")
+	     (:commit . "5ff5091602b9085d0e1ed071a42805448e93546f")
+	     (:revdesc . "5ff5091602b9")
+	     (:keywords "languages" "tools" "literate programming" "janet")
+	     (:authors
+	      ("nik gaffney" . "nik@fo.am"))
+	     (:maintainers
+	      ("nik gaffney" . "nik@fo.am"))
+	     (:maintainer "nik gaffney" . "nik@fo.am"))])
  (ob-julia-vterm .
 		 [(0 1 0 1 -4 20260810 701)
 		  ((emacs
@@ -65440,6 +65456,20 @@
 	     (:maintainers
 	      ("Dimitri Fontaine" . "dim@tapoueh.org"))
 	     (:maintainer "Dimitri Fontaine" . "dim@tapoueh.org"))])
+ (pgsql .
+	[(0 1 0 1 -4 20260808 909)
+	 ((emacs
+	   (29 1)))
+	 "Native PostgreSQL protocol client" tar
+	 ((:url . "https://github.com/LuciusChen/pgsql.el")
+	  (:commit . "bbd7975552684e5e0f9e02668c3d37c389265bc6")
+	  (:revdesc . "bbd797555268")
+	  (:keywords "comm" "data")
+	  (:authors
+	   ("Lucius Chen" . "chenyh572@gmail.com"))
+	  (:maintainers
+	   ("Lucius Chen" . "chenyh572@gmail.com"))
+	  (:maintainer "Lucius Chen" . "chenyh572@gmail.com"))])
  (phabricator .
 	      [(0 1 1 -4 20160510 1425)
 	       ((emacs
