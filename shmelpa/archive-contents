@@ -13001,15 +13001,15 @@
 		   ("Junyoung Clare Jang" . "jjc9310@gmail.com"))
 		  (:maintainer "Junyoung Clare Jang" . "jjc9310@gmail.com"))])
  (corfu .
-	[(0 1 0 1 -4 20260813 950)
+	[(0 1 0 1 -4 20260821 1158)
 	 ((emacs
 	   (29 1))
 	  (compat
 	   (31)))
 	 "COmpletion in Region FUnction" tar
 	 ((:url . "https://github.com/minad/corfu")
-	  (:commit . "6477aac54fa1ea4865b23d7562e48b83a082a1e4")
-	  (:revdesc . "6477aac54fa1")
+	  (:commit . "75be36fe63e78c63ac71c32039ab07836bd532ac")
+	  (:revdesc . "75be36fe63e7")
 	  (:keywords "abbrev" "convenience" "matching" "completion" "text")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -16098,15 +16098,15 @@
 		   (:revdesc . "3254ab10cbf0")
 		   (:keywords "emacs-w3m" "w3m" "dictionary"))])
  (dicom .
-	[(0 1 0 1 -4 20260704 2150)
+	[(0 1 0 1 -4 20260821 1214)
 	 ((emacs
 	   (29 1))
 	  (compat
 	   (31)))
 	 "DICOM viewer - Digital Imaging & Communications in Medicine" tar
 	 ((:url . "https://github.com/minad/dicom")
-	  (:commit . "50bfab3a34e502d6bac8ab12854cb33c8aff343c")
-	  (:revdesc . "50bfab3a34e5")
+	  (:commit . "5db856bd206ac899ecd5378eb3cb655b310397f5")
+	  (:revdesc . "5db856bd206a")
 	  (:keywords "multimedia" "hypermedia" "files")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -18104,15 +18104,15 @@
 			       ("Ellis Kenyő" . "me@elken.dev"))
 			      (:maintainer "Ellis Kenyő" . "me@elken.dev"))])
  (doom-themes .
-	      [(0 1 0 1 -4 20260807 136)
+	      [(0 1 0 1 -4 20260821 1111)
 	       ((emacs
 		 (25 1))
 		(cl-lib
 		 (0 5)))
 	       "An opinionated pack of modern color-themes" tar
 	       ((:url . "https://github.com/doomemacs/themes")
-		(:commit . "a9b7144a4b6fe03be144b1610e0a6840e2b24d41")
-		(:revdesc . "a9b7144a4b6f")
+		(:commit . "d114523c4c436d899170afe9ea9b99cd214c344f")
+		(:revdesc . "d114523c4c43")
 		(:keywords "themes" "faces")
 		(:authors
 		 ("Henrik Lissner" . "contact@henrik.io"))
@@ -19184,13 +19184,13 @@
 			("Ayush Jha" . "ayys@duck.com"))
 		       (:maintainer "Ayush Jha" . "ayys@duck.com"))])
  (easysession .
-	      [(0 1 0 1 -4 20260807 2229)
+	      [(0 1 0 1 -4 20260817 2044)
 	       ((emacs
 		 (26 1)))
 	       "Persist and restore your sessions (desktop.el alternative)" tar
 	       ((:url . "https://github.com/jamescherti/easysession.el")
-		(:commit . "83a15da810f88d095b9e21619b70b6d801b0aac0")
-		(:revdesc . "83a15da810f8")
+		(:commit . "334f106659bcfb874a443b814f4cd99f2376aa0a")
+		(:revdesc . "334f106659bc")
 		(:keywords "convenience")
 		(:authors
 		 ("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -20783,15 +20783,15 @@
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
-	 [(0 1 0 1 -4 20260816 1424)
+	 [(0 1 0 1 -4 20260821 1205)
 	  ((emacs
 	    (29 1))
 	   (compat
 	    (31)))
 	  "An Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/emacs-elfeed/elfeed")
-	   (:commit . "943a5acf49b286a129a78f7142672126781578c0")
-	   (:revdesc . "943a5acf49b2")
+	   (:commit . "737c1d6d2649b1ff82c5e2d2d9891a7caeac3835")
+	   (:revdesc . "737c1d6d2649")
 	   (:keywords "network" "comm" "hypermedia")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -21014,19 +21014,19 @@
 		     ("Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))
 		    (:maintainer "Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))])
  (elfeed-web .
-	     [(0 1 0 1 -4 20260623 1111)
+	     [(0 1 0 1 -4 20260821 1229)
 	      ((emacs
 		(29 1))
 	       (compat
 		(31))
 	       (elfeed
-		(4 0 0))
+		(4 1 0))
 	       (simple-httpd
 		(1 6)))
 	      "Web interface to Elfeed" tar
 	      ((:url . "https://github.com/emacs-elfeed/elfeed-web")
-	       (:commit . "9074428d7a5159e647ebdd07f53c9720b908aaf6")
-	       (:revdesc . "9074428d7a51")
+	       (:commit . "1f089663e7952c33512c37d2bd2544043e039e23")
+	       (:revdesc . "1f089663e795")
 	       (:keywords "network" "hypermedia")
 	       (:authors
 		("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -26251,13 +26251,13 @@
        (:revdesc . "000009ce4adf")
        (:keywords "find" "file" "files" "helm" "fast" "finder"))])
  (f90-ts-mode .
-	      [(0 1 0 1 -4 20260820 1257)
+	      [(0 1 0 1 -4 20260821 1115)
 	       ((emacs
 		 (30 1)))
 	       "Tree-sitter based Fortran 90 mode" tar
 	       ((:url . "https://github.com/mscfd/emacs-f90-ts-mode")
-		(:commit . "8004f7d345839c774850efe00d42ad777b0c3b2d")
-		(:revdesc . "8004f7d34583")
+		(:commit . "756c299f7cd284c0b5af26f15bf88522f1870bc2")
+		(:revdesc . "756c299f7cd2")
 		(:keywords "languages" "treesitter" "fortran")
 		(:authors
 		 ("Martin Stein" . "mscfd@gmx.net"))
@@ -27601,15 +27601,15 @@
 		 ("modula t." . "defaultxr@gmail.com"))
 		(:maintainer "modula t." . "defaultxr@gmail.com"))])
  (flx .
-      [(0 6 2 1 -4 20240205 356)
+      [(0 1 0 1 -4 20260821 1204)
        ((cl-lib
 	 (0 3)))
        "Fuzzy matching with good sorting" tar
        ((:url . "https://github.com/lewang/flx")
-	(:commit . "4b1346eb9a8a76ee9c9dede69738c63ad97ac5b6")
-	(:revdesc . "4b1346eb9a8a"))])
+	(:commit . "dc6e4cec66ab05d536ec2cc6f5f324c019e8f8c0")
+	(:revdesc . "dc6e4cec66ab"))])
  (flx-ido .
-	  [(0 1 0 1 -4 20260820 2237)
+	  [(0 1 0 1 -4 20260821 1204)
 	   ((emacs
 	     (24 1))
 	    (flx
@@ -27618,8 +27618,8 @@
 	     (0 3)))
 	   "Flx integration for ido" tar
 	   ((:url . "https://github.com/lewang/flx")
-	    (:commit . "6803eca89d0c4c7871433c993463e66aabf77443")
-	    (:revdesc . "6803eca89d0c"))])
+	    (:commit . "dc6e4cec66ab05d536ec2cc6f5f324c019e8f8c0")
+	    (:revdesc . "dc6e4cec66ab"))])
  (flx-isearch .
 	      [(20141313 1 -4 20191119 515)
 	       ((emacs
@@ -49494,7 +49494,7 @@
 		   ("Reinier Koffijberg" . "reinierkof@gmail.com"))
 		  (:maintainer "Reinier Koffijberg" . "reinierkof@gmail.com"))])
  (magik-mode .
-	     [(0 1 0 1 -4 20260731 648)
+	     [(0 1 0 1 -4 20260821 1224)
 	      ((emacs
 		(24 4))
 	       (compat
@@ -49503,11 +49503,11 @@
 		(0 14 0)))
 	      "Emacs major mode for Smallworld Magik files" tar
 	      ((:url . "https://github.com/roadrunner1776/magik")
-	       (:commit . "6b03728ad53e30dd686aa710bba7c4be211ab348")
-	       (:revdesc . "6b03728ad53e")
+	       (:commit . "b646ce87b747a6fa4b264e319a80ef3417a99703")
+	       (:revdesc . "b646ce87b747")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20260821 1036)
+	[(0 1 0 1 -4 20260821 1455)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -49526,8 +49526,8 @@
 	   (3 5)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "e76b060bb597a566290b02d74901c29835d934f7")
-	  (:revdesc . "e76b060bb597")
+	  (:commit . "7239fbcc82a6592efcaf6977151fda711bcff724")
+	  (:revdesc . "7239fbcc82a6")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -50488,15 +50488,15 @@
 	       ("Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))
 	      (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
  (marginalia .
-	     [(0 1 0 1 -4 20260724 810)
+	     [(0 1 0 1 -4 20260821 1231)
 	      ((emacs
 		(29 1))
 	       (compat
 		(31)))
 	      "Enrich existing commands with completion annotations" tar
 	      ((:url . "https://github.com/minad/marginalia")
-	       (:commit . "10b170ad8006bad535599e5b3e007e643e34345a")
-	       (:revdesc . "10b170ad8006")
+	       (:commit . "7ec0b70afb43a756ecd45a958c6ebe797717fc91")
+	       (:revdesc . "7ec0b70afb43")
 	       (:keywords "docs" "help" "matching" "completion")
 	       (:authors
 		("Omar Antolín Camarena" . "omar@matem.unam.mx")
