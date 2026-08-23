@@ -51184,13 +51184,13 @@
 	       ("Thomas Kappler" . "tkappler@gmail.com"))
 	      (:maintainer "Thomas Kappler" . "tkappler@gmail.com"))])
  (md-ts-mode .
-	     [(0 1 0 1 -4 20260530 1627)
+	     [(0 1 0 1 -4 20260823 1701)
 	      ((emacs
 		(29 1)))
 	      "Major mode for Markdown using tree-sitter" tar
 	      ((:url . "https://github.com/dnouri/md-ts-mode")
-	       (:commit . "95ae25162da092cb1d55d2be0c2c95e0591086c2")
-	       (:revdesc . "95ae25162da0")
+	       (:commit . "13e175beebe3ab2cbfa65186949b990bb26e1fd4")
+	       (:revdesc . "13e175beebe3")
 	       (:keywords "markdown" "languages" "tree-sitter")
 	       (:authors
 		("Daniel Nouri" . "daniel.nouri@gmail.com"))
@@ -54747,15 +54747,15 @@
 			   ("Hongyu Ding" . "rainstormstudio@yahoo.com"))
 			  (:maintainer "Hongyu Ding" . "rainstormstudio@yahoo.com"))])
  (nerd-icons-corfu .
-		   [(0 1 0 1 -4 20250729 1544)
+		   [(0 1 0 1 -4 20260823 1748)
 		    ((emacs
 		      (27 1))
 		     (nerd-icons
 		      (0 1 0)))
 		    "Icons for Corfu via nerd-icons" tar
 		    ((:url . "https://github.com/LuigiPiucco/nerd-icons-corfu")
-		     (:commit . "f821e953b1a3dc9b381bc53486aabf366bf11cb1")
-		     (:revdesc . "f821e953b1a3")
+		     (:commit . "e1197d6c1db673f4ec7ee20cb2c4297f479420e7")
+		     (:revdesc . "e1197d6c1db6")
 		     (:keywords "convenience" "files" "icons")
 		     (:authors
 		      ("Luigi Sartor Piucco" . "luigipiucco@gmail.com"))
@@ -71960,7 +71960,7 @@
 	      ("Nicolas Martyanoff" . "nicolas@n16f.net"))
 	     (:maintainer "Nicolas Martyanoff" . "nicolas@n16f.net"))])
  (rg .
-     [(0 1 0 1 -4 20260822 839)
+     [(0 1 0 1 -4 20260823 1828)
       ((emacs
 	(28 1))
        (transient
@@ -71969,8 +71969,8 @@
 	(2 1 10)))
       "A search tool based on ripgrep" tar
       ((:url . "https://github.com/dajva/rg.el")
-       (:commit . "c877892ccc1ee4240ce3e6537db69a793f01a4f7")
-       (:revdesc . "c877892ccc1e")
+       (:commit . "6b00e2ae98c47cf7ea04d26636e11b7fa2a540e3")
+       (:revdesc . "6b00e2ae98c4")
        (:keywords "matching" "tools")
        (:authors
 	("David Landell" . "david.landell@sunnyhill.email")
@@ -73449,6 +73449,20 @@
 		   ((:url . "https://github.com/ashinn/scheme-complete")
 		    (:commit . "569277c0caa3edf8b28086b0efca6db4186184a8")
 		    (:revdesc . "569277c0caa3"))])
+ (schlau-compile .
+		 [(1 0 0 1 -4 20260821 1643)
+		  ((emacs
+		    (24 3)))
+		  "Git-root-aware interface to `compile'" tar
+		  ((:url . "https://github.com/flajann2/schlau-compile")
+		   (:commit . "720f1c4e4ceddf5f36b236f92ac3270e49246234")
+		   (:revdesc . "720f1c4e4ced")
+		   (:keywords "tools" "unix" "processes" "compile" "compilation" "workflow" "development")
+		   (:authors
+		    ("Fred Mitchell" . "fred.mitchell@atomlogik.de"))
+		   (:maintainers
+		    ("Fred Mitchell" . "fred.mitchell@atomlogik.de"))
+		   (:maintainer "Fred Mitchell" . "fred.mitchell@atomlogik.de"))])
  (scholar-import .
 		 [(0 1 1 -4 20230412 1413)
 		  ((emacs
