@@ -25940,17 +25940,19 @@
 		   ("Magnar Sveen" . "magnars@gmail.com"))
 		  (:maintainer "Magnar Sveen" . "magnars@gmail.com"))])
  (expenses .
-	   [(0 1 0 1 -4 20230903 306)
+	   [(0 1 0 1 -4 20260824 616)
 	    ((emacs
 	      (28 1))
 	     (dash
 	      (2 19 1))
 	     (ht
-	      (2 3)))
+	      (2 3))
+	     (transient
+	      (0 3 7)))
 	    "Record and view expenses" tar
 	    ((:url . "https://github.com/md-arif-shaikh/expenses")
-	     (:commit . "1c89ed3969fef7d733a0f52084cfe07d33200104")
-	     (:revdesc . "1c89ed3969fe")
+	     (:commit . "38e5b3eb49daa00ec0f8de81bc28651afe105d11")
+	     (:revdesc . "38e5b3eb49da")
 	     (:keywords "expense tracking" "convenience")
 	     (:authors
 	      ("Md Arif Shaikh" . "arifshaikh.astro@gmail.com"))
@@ -27679,15 +27681,15 @@
 		 ("PythonNut" . "pythonnut@pythonnut.com"))
 		(:maintainer "PythonNut" . "pythonnut@pythonnut.com"))])
  (flycheck .
-	   [(0 1 0 1 -4 20260821 1002)
+	   [(0 1 0 1 -4 20260824 908)
 	    ((emacs
 	      (28 1))
 	     (seq
 	      (2 24)))
 	    "On-the-fly syntax checking" tar
 	    ((:url . "https://github.com/flycheck/flycheck")
-	     (:commit . "7074b82cc82b6c3258f0f436514eca5236101336")
-	     (:revdesc . "7074b82cc82b")
+	     (:commit . "edc215e8778b785401717fc027fc273bee0f1017")
+	     (:revdesc . "edc215e8778b")
 	     (:keywords "convenience" "languages" "tools")
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
@@ -34798,7 +34800,7 @@
 		(:revdesc . "326e0abb8c6d")
 		(:keywords "comm"))])
  (gptel-agent-harness .
-		      [(0 1 0 1 -4 20260824 211)
+		      [(0 1 0 1 -4 20260824 943)
 		       ((emacs
 			 (29 1))
 			(compat
@@ -34807,10 +34809,11 @@
 			 (0 9 9))
 			(gptel-agent
 			 (0 0 1)))
-		       "Agent execution harness for gptel-agent" tar
+		       "Autonomous coding-agent harness for gptel-agent" tar
 		       ((:url . "https://github.com/beacoder/gptel-agent-harness")
-			(:commit . "3fae7abad86d977ec7db88eea1940baf95e71267")
-			(:revdesc . "3fae7abad86d")
+			(:commit . "a22449a3dcc812870955a89d2af00f8d9441949b")
+			(:revdesc . "a22449a3dcc8")
+			(:keywords "programming" "convenience" "ai" "agent")
 			(:authors
 			 ("Huming Chen" . "chenhuming@gmail.com"))
 			(:maintainers
