@@ -1220,7 +1220,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260822 1916)
+	      [(0 1 0 1 -4 20260823 1937)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1229,8 +1229,8 @@
 		 (0 13 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "d7e152ca13cac10334aa41344314e97d89d592b7")
-		(:revdesc . "d7e152ca13ca"))])
+		(:commit . "2fff5b8d9af971b1ea209f811bd7410be647d79e")
+		(:revdesc . "2fff5b8d9af9"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -6389,26 +6389,24 @@
 		    (:maintainers
 		     ("Roland Walker" . "walker@pobox.com"))
 		    (:maintainer "Roland Walker" . "walker@pobox.com"))])
- (browsel .
-	  [(0 1 0 1 -4 20260726 1635)
-	   ((emacs
-	     (27 1))
-	    (websocket
-	     (1 13))
-	    (org
-	     (9 8))
-	    (vertico
-	     (1 0)))
-	   "WebSocket bridge to a Chrome/Firefox extension" tar
-	   ((:url . "https://github.com/dmgerman/browsel")
-	    (:commit . "c96e3b8b0a28b6e0d9e2d79a51a07a0700966b1c")
-	    (:revdesc . "c96e3b8b0a28")
-	    (:keywords "comm" "tools" "browser" "org")
-	    (:authors
-	     ("Daniel M. German" . "dmg@turingmachine.org"))
-	    (:maintainers
-	     ("Daniel M. German" . "dmg@turingmachine.org"))
-	    (:maintainer "Daniel M. German" . "dmg@turingmachine.org"))])
+ (browser-gt .
+	     [(0 1 0 1 -4 20260821 2202)
+	      ((emacs
+		(30 1))
+	       (websocket
+		(1 13))
+	       (org
+		(9 8)))
+	      "WebSocket bridge to a Chrome/Firefox extension" tar
+	      ((:url . "https://github.com/dmgerman/browser-gt")
+	       (:commit . "6117e1f4b70540a8f6986f6e647eedbd72e818e7")
+	       (:revdesc . "6117e1f4b705")
+	       (:keywords "comm" "tools" "browser" "org")
+	       (:authors
+		("Daniel M. German" . "dmg@turingmachine.org"))
+	       (:maintainers
+		("Daniel M. German" . "dmg@turingmachine.org"))
+	       (:maintainer "Daniel M. German" . "dmg@turingmachine.org"))])
  (browser-hist .
 	       [(0 1 0 1 -4 20260425 1930)
 		((emacs
@@ -14540,6 +14538,20 @@
 		(:keywords "cypher" "graph")
 		(:authors
 		 ("François-Xavier Bois" . "fxboisATGoogleMailService")))])
+ (cypher-ts-mode .
+		 [(0 1 0 1 -4 20260817 1627)
+		  ((emacs
+		    (29 1)))
+		  "Cypher editing mode" tar
+		  ((:url . "https://codeberg.org/nutcase/cypher-ts-mode")
+		   (:commit . "d8643a1bce1f71f42725cfea13d7cfe03215ffa6")
+		   (:revdesc . "d8643a1bce1f")
+		   (:keywords "languages" "files" "cypher" "graph" "database" "treesitter")
+		   (:authors
+		    ("Julian Flake" . "flake@uni-koblenz.de"))
+		   (:maintainers
+		    ("Julian Flake" . "flake@uni-koblenz.de"))
+		   (:maintainer "Julian Flake" . "flake@uni-koblenz.de"))])
  (cython-mode .
 	      [(0 1 0 1 -4 20221130 1257)
 	       nil "Major mode for editing Cython files" tar
@@ -19759,6 +19771,20 @@
 	(:commit . "b8298439360b29333d3dcd8a352e00cde2b6ccd7")
 	(:revdesc . "b8298439360b")
 	(:keywords "elf" "readelf" "convenience"))])
+ (efinger .
+	  [(0 1 0 1 -4 20260822 1753)
+	   ((emacs
+	     (28 1)))
+	   "Finger client and .plan feed reader" tar
+	   ((:url . "https://git.andros.dev/andros/efinger.el")
+	    (:commit . "175b0d027da97a64819dc8b7056a148ac1b23ea1")
+	    (:revdesc . "175b0d027da9")
+	    (:keywords "comm")
+	    (:authors
+	     ("Andros Fenollosa" . "hi@andros.dev"))
+	    (:maintainers
+	     ("Andros Fenollosa" . "hi@andros.dev"))
+	    (:maintainer "Andros Fenollosa" . "hi@andros.dev"))])
  (efire .
 	[(0 1 1 -4 20151009 2031)
 	 ((circe
@@ -31873,15 +31899,15 @@
 	     (:revdesc . "ce2738aebeed")
 	     (:keywords "evernote" "geeknote" "note" "emacs-evernote" "evernote-mode"))])
  (geiser .
-	 [(0 1 0 1 -4 20260810 2101)
+	 [(0 1 0 1 -4 20260823 2028)
 	  ((emacs
 	    (27 1))
 	   (project
 	    (0 8 1)))
 	  "GNU Emacs and Scheme talk to each other" tar
 	  ((:url . "https://gitlab.com/emacs-geiser/")
-	   (:commit . "efcf1939fd839e9ea22d68ff0ebbd8ca2e1b71e1")
-	   (:revdesc . "efcf1939fd83")
+	   (:commit . "584f78b103037e8bc6f4b22a6fae23e09f619d6d")
+	   (:revdesc . "584f78b10303")
 	   (:keywords "languages" "scheme" "geiser")
 	   (:authors
 	    ("Jose Antonio Ortega Ruiz" . "(jao@gnu.org)"))
@@ -32374,15 +32400,15 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20260820 1035)
+	  [(0 1 0 1 -4 20260823 1350)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30 1 0 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "02d0e3743dbe1a8c607adcfdc526367d798f4c23")
-	    (:revdesc . "02d0e3743dbe")
+	    (:commit . "447cacd64370e5fc3ee3fa71719d7d6e3da7a624")
+	    (:revdesc . "447cacd64370")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -34771,6 +34797,23 @@
 		(:commit . "30e986b7052d9c58323833cfa17e92f101d9b9d3")
 		(:revdesc . "30e986b7052d")
 		(:keywords "comm"))])
+ (gptel-agent-harness .
+		      [(0 1 0 1 -4 20260815 306)
+		       ((emacs
+			 (29 1))
+			(compat
+			 (30 1 0 0))
+			(gptel-agent
+			 (0 0 1)))
+		       "Agent execution harness for gptel-agent" tar
+		       ((:url . "https://github.com/beacoder/gptel-agent-harness")
+			(:commit . "879ad848371d760ec41d0c8f6077633fd1d942f2")
+			(:revdesc . "879ad848371d")
+			(:authors
+			 ("Huming Chen" . "chenhuming@gmail.com"))
+			(:maintainers
+			 ("Huming Chen" . "chenhuming@gmail.com"))
+			(:maintainer "Huming Chen" . "chenhuming@gmail.com"))])
  (gptel-aibo .
 	     [(0 1 0 1 -4 20250709 851)
 	      ((emacs
@@ -35560,6 +35603,20 @@
 	  (:maintainers
 	   ("Jürgen Hötzel" . "juergen.hoetzel@hr.de"))
 	  (:maintainer "Jürgen Hötzel" . "juergen.hoetzel@hr.de"))])
+ (guard .
+	[(0 1 0 1 -4 20260817 2119)
+	 ((emacs
+	   (29 1)))
+	 "Custom modular init framework" tar
+	 ((:url . "https://github.com/Dspil/guard.el")
+	  (:commit . "2cce0f78b5a743e493e0defc8191df9c15b06019")
+	  (:revdesc . "2cce0f78b5a7")
+	  (:keywords "convenience" "initialization" "profiles" "tools")
+	  (:authors
+	   ("Dionisis Spiliopoulos" . "dennisspiliopoylos@gmail.com"))
+	  (:maintainers
+	   ("Dionisis Spiliopoulos" . "dennisspiliopoylos@gmail.com"))
+	  (:maintainer "Dionisis Spiliopoulos" . "dennisspiliopoylos@gmail.com"))])
  (guava-themes .
 	       [(0 1 0 1 -4 20260701 2352)
 		((emacs
@@ -51816,11 +51873,11 @@
 	       ("Jonathan Gregory" . "jgrgatautisticidotorg"))
 	      (:maintainer "Jonathan Gregory" . "jgrgatautisticidotorg"))])
  (mew .
-      [(0 1 0 1 -4 20260806 448)
+      [(0 1 0 1 -4 20260824 16)
        nil "Messaging in the Emacs World" tar
        ((:url . "https://github.com/kazu-yamamoto/Mew")
-	(:commit . "29b779c9b0fabae92a75cee72c54701a75f43e12")
-	(:revdesc . "29b779c9b0fa"))])
+	(:commit . "97fac965e9880e02d1e8778190cddf4059d6be04")
+	(:revdesc . "97fac965e988"))])
  (mexican-holidays .
 		   [(0 0 9 1 -4 20210604 1421)
 		    nil "Mexico holidays for Emacs calendar" tar
@@ -52115,6 +52172,20 @@
 		   (:maintainers
 		    ("Akinori MUSHA" . "knu@iDaemons.org"))
 		   (:maintainer "Akinori MUSHA" . "knu@iDaemons.org"))])
+ (minibuffer-frame .
+		   [(0 1 0 1 -4 20260823 1356)
+		    ((emacs
+		      (28 1)))
+		    "Minibuffer in centered child frame" tar
+		    ((:url . "https://github.com/zHaOdANiuu/minibuffer-frame")
+		     (:commit . "69bb3b62b74e6272ed350284d591f2b28e1b8269")
+		     (:revdesc . "69bb3b62b74e")
+		     (:keywords "convenience" "minibuffer" "child-frame")
+		     (:authors
+		      ("Daniu Zhao" . "zhaodaniu1@gmail.com"))
+		     (:maintainers
+		      ("Daniu Zhao" . "zhaodaniu1@gmail.com"))
+		     (:maintainer "Daniu Zhao" . "zhaodaniu1@gmail.com"))])
  (minibuffer-modifier-keys .
 			   [(1 0 1 -4 20210823 713)
 			    ((emacs
@@ -53534,6 +53605,20 @@
 	       (:maintainers
 		("Mikhail Rudenko" . "mike.rudenko@gmail.com"))
 	       (:maintainer "Mikhail Rudenko" . "mike.rudenko@gmail.com"))])
+ (mu4e-autotask .
+		[(0 1 0 1 -4 20260821 739)
+		 ((emacs
+		   (29 1)))
+		 "Email automation for mu4e" tar
+		 ((:url . "https://github.com/laurynas-biveinis/mu4e-autotask")
+		  (:commit . "caab869aaf670ff919ed960dd699e0d21b3142dd")
+		  (:revdesc . "caab869aaf67")
+		  (:keywords "mail")
+		  (:authors
+		   ("Laurynas Biveinis" . "laurynas.biveinis@gmail.com"))
+		  (:maintainers
+		   ("Laurynas Biveinis" . "laurynas.biveinis@gmail.com"))
+		  (:maintainer "Laurynas Biveinis" . "laurynas.biveinis@gmail.com"))])
  (mu4e-column-faces .
 		    [(0 1 0 1 -4 20250205 2118)
 		     ((emacs
@@ -65134,6 +65219,22 @@
 	   (:maintainers
 	    ("Sebastian Monia" . "smonia@outlook.com"))
 	   (:maintainer "Sebastian Monia" . "smonia@outlook.com"))])
+ (peppers-theme .
+		[(0 1 0 1 -4 20260817 1354)
+		 ((emacs
+		   (28 1))
+		  (modus-themes
+		   (4 0 0)))
+		 "Custom dark theme based on modus framework" tar
+		 ((:url . "https://codeberg.org/joar/peppers-theme")
+		  (:commit . "583aeafea8423629f3a4732facc682b5a8a53ced")
+		  (:revdesc . "583aeafea842")
+		  (:keywords "faces" "theme" "accessibility")
+		  (:authors
+		   ("Joar von Arndt" . "joarxpablo@vonarndt.se"))
+		  (:maintainers
+		   ("Joar von Arndt" . "joarxpablo@vonarndt.se"))
+		  (:maintainer "Joar von Arndt" . "joarxpablo@vonarndt.se"))])
  (per-buffer-theme .
 		   [(2 2 1 -4 20221002 2219)
 		    ((emacs
@@ -74617,6 +74718,20 @@
 	    (:maintainers
 	     ("Sebastian Monia" . "smonia@outlook.com"))
 	    (:maintainer "Sebastian Monia" . "smonia@outlook.com"))])
+ (shazam .
+	 [(0 1 0 1 -4 20260820 2025)
+	  ((emacs
+	    (30 1)))
+	  "Shazam Interface (macOS only)" tar
+	  ((:url . "https://github.com/kickingvegas/shazam")
+	   (:commit . "a2488513bfb2df0fc125c51a2b1f5655a0ebbe26")
+	   (:revdesc . "a2488513bfb2")
+	   (:keywords "tools")
+	   (:authors
+	    ("Charles Choi" . "kickingvegas@gmail.com"))
+	   (:maintainers
+	    ("Charles Choi" . "kickingvegas@gmail.com"))
+	   (:maintainer "Charles Choi" . "kickingvegas@gmail.com"))])
  (shell-command-x .
 		  [(0 1 3 1 -4 20231214 1)
 		   ((emacs
