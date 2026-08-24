@@ -34781,7 +34781,7 @@
 	   ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
 	  (:maintainer "Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))])
  (gptel-agent .
-	      [(0 1 0 1 -4 20260823 823)
+	      [(0 1 0 1 -4 20260824 106)
 	       ((emacs
 		 (29 1))
 		(compat
@@ -34794,21 +34794,23 @@
 		 (1 1)))
 	       "Agentic LLM use for gptel" tar
 	       ((:url . "https://github.com/karthink/gptel-agent")
-		(:commit . "30e986b7052d9c58323833cfa17e92f101d9b9d3")
-		(:revdesc . "30e986b7052d")
+		(:commit . "326e0abb8c6db0e5c4c421bd9af495932ae94b62")
+		(:revdesc . "326e0abb8c6d")
 		(:keywords "comm"))])
  (gptel-agent-harness .
-		      [(0 1 0 1 -4 20260815 306)
+		      [(0 1 0 1 -4 20260824 211)
 		       ((emacs
 			 (29 1))
 			(compat
 			 (30 1 0 0))
+			(gptel
+			 (0 9 9))
 			(gptel-agent
 			 (0 0 1)))
 		       "Agent execution harness for gptel-agent" tar
 		       ((:url . "https://github.com/beacoder/gptel-agent-harness")
-			(:commit . "879ad848371d760ec41d0c8f6077633fd1d942f2")
-			(:revdesc . "879ad848371d")
+			(:commit . "3fae7abad86d977ec7db88eea1940baf95e71267")
+			(:revdesc . "3fae7abad86d")
 			(:authors
 			 ("Huming Chen" . "chenhuming@gmail.com"))
 			(:maintainers
@@ -37256,7 +37258,7 @@
 	       ("Pierre Neidhardt" . "mail@ambrevar.xyz"))
 	      (:maintainer "Pierre Neidhardt" . "mail@ambrevar.xyz"))])
  (helm-firefox .
-	       [(0 1 0 1 -4 20260102 537)
+	       [(0 1 0 1 -4 20260818 901)
 		((helm
 		  (1 5))
 		 (cl-lib
@@ -37265,8 +37267,8 @@
 		  (24 1)))
 		"Firefox bookmarks" tar
 		((:url . "https://github.com/emacs-helm/helm-firefox")
-		 (:commit . "9356ace9fac469b94121c36e5960cc1f5ce14663")
-		 (:revdesc . "9356ace9fac4"))])
+		 (:commit . "d299622ceba33636ed67ef2dc70d5cf3291bea6e")
+		 (:revdesc . "d299622ceba3"))])
  (helm-fish-completion .
 		       [(0 6 1 -4 20200908 1504)
 			((emacs
