@@ -13013,15 +13013,15 @@
 		   ("Junyoung Clare Jang" . "jjc9310@gmail.com"))
 		  (:maintainer "Junyoung Clare Jang" . "jjc9310@gmail.com"))])
  (corfu .
-	[(0 1 0 1 -4 20260821 1158)
+	[(0 1 0 1 -4 20260826 2311)
 	 ((emacs
 	   (29 1))
 	  (compat
 	   (31)))
 	 "COmpletion in Region FUnction" tar
 	 ((:url . "https://github.com/minad/corfu")
-	  (:commit . "75be36fe63e78c63ac71c32039ab07836bd532ac")
-	  (:revdesc . "75be36fe63e7")
+	  (:commit . "213ec2b5afe1da4e15090808c00871f8cb3b730a")
+	  (:revdesc . "213ec2b5afe1")
 	  (:keywords "abbrev" "convenience" "matching" "completion" "text")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -20823,15 +20823,15 @@
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
-	 [(0 1 0 1 -4 20260821 1205)
+	 [(0 1 0 1 -4 20260827 113)
 	  ((emacs
 	    (29 1))
 	   (compat
 	    (31)))
 	  "An Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/emacs-elfeed/elfeed")
-	   (:commit . "737c1d6d2649b1ff82c5e2d2d9891a7caeac3835")
-	   (:revdesc . "737c1d6d2649")
+	   (:commit . "bff7a9852ddee43188781034109cabf937cb8baf")
+	   (:revdesc . "bff7a9852dde")
 	   (:keywords "network" "comm" "hypermedia")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -34800,7 +34800,7 @@
 		(:revdesc . "326e0abb8c6d")
 		(:keywords "comm"))])
  (gptel-agent-harness .
-		      [(0 1 0 1 -4 20260826 1547)
+		      [(0 1 0 1 -4 20260827 132)
 		       ((emacs
 			 (29 1))
 			(compat
@@ -34811,8 +34811,8 @@
 			 (0 0 1)))
 		       "Autonomous coding-agent harness for gptel-agent" tar
 		       ((:url . "https://github.com/beacoder/gptel-agent-harness")
-			(:commit . "ff8ca7bbf74a618efca01d70eaaca58077053e40")
-			(:revdesc . "ff8ca7bbf74a")
+			(:commit . "c2ce62d30d38999babb1b6af721a0fc003361ccc")
+			(:revdesc . "c2ce62d30d38")
 			(:keywords "programming" "convenience" "ai" "agent")
 			(:authors
 			 ("Huming Chen" . "chenhuming@gmail.com"))
@@ -36420,13 +36420,13 @@
 	 ("Yuriy Artemyev" . "anuvyklack@gmail.com"))
 	(:maintainer "Yuriy Artemyev" . "anuvyklack@gmail.com"))])
  (helix .
-	[(0 1 0 1 -4 20260629 1530)
+	[(0 1 0 1 -4 20260827 229)
 	 ((emacs
 	   (29 1)))
 	 "A minor mode emulating Helix keybindings" tar
 	 ((:url . "https://github.com/mgmarlow/helix-mode")
-	  (:commit . "eca52f517583a599a0a2589cdaa04f00cfc86184")
-	  (:revdesc . "eca52f517583")
+	  (:commit . "52441ed6ac2a347e4459d7f946a2b22b298e05e8")
+	  (:revdesc . "52441ed6ac2a")
 	  (:keywords "convenience"))])
  (helix-theme .
 	      [(1 0 1 -4 20240814 1212)
@@ -40446,13 +40446,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20260822 1645)
+	    [(0 1 0 1 -4 20260826 2016)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "498ccb4c2e547aad20766eec64e802453987a40c")
-	      (:revdesc . "498ccb4c2e54")
+	      (:commit . "cb4339d7e43383d0724da9ab0990cebe87e57352")
+	      (:revdesc . "cb4339d7e433")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -65936,19 +65936,21 @@
 	     ("Eric Hansen" . "hansen.c.eric@gmail.com"))
 	    (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
  (pi-coding-agent .
-		  [(0 1 0 1 -4 20260824 2034)
+		  [(0 1 0 1 -4 20260826 2219)
 		   ((emacs
 		     (29 1))
 		    (transient
 		     (0 9 0))
+		    (magit-section
+		     (4 0 0))
 		    (md-ts-mode
 		     (0 3 0))
 		    (markdown-table-wrap
 		     (0 2 0)))
 		   "Emacs frontend for pi coding agent" tar
 		   ((:url . "https://github.com/dnouri/pi-coding-agent")
-		    (:commit . "1824dad6178548daf15286b0b0dc4430ede67c32")
-		    (:revdesc . "1824dad61785")
+		    (:commit . "514ad3b14ccc9465c0a80dc0f9f438d53f5b3abf")
+		    (:revdesc . "514ad3b14ccc")
 		    (:keywords "ai" "llm" "ai-pair-programming" "tools")
 		    (:authors
 		     ("Daniel Nouri" . "daniel.nouri@gmail.com"))
@@ -75718,13 +75720,13 @@
 		    ("Daniils Petrovs" . "thedanpetrov@gmail.com"))
 		   (:maintainer "Daniils Petrovs" . "thedanpetrov@gmail.com"))])
  (sis .
-      [(0 1 0 1 -4 20260826 1737)
+      [(0 1 0 1 -4 20260826 1753)
        ((emacs
 	 (27 1)))
        "Minimize manual input source (input method) switching" tar
        ((:url . "https://github.com/laishulu/emacs-smart-input-source")
-	(:commit . "71fa77b07b037a21bb154023d7d72fc88dd4b8e8")
-	(:revdesc . "71fa77b07b03")
+	(:commit . "2becb4d66fdcfe89eccf43ac592557c6a402420a")
+	(:revdesc . "2becb4d66fdc")
 	(:keywords "convenience"))])
  (sisyphus .
 	   [(0 1 0 1 -4 20260813 1811)
@@ -83743,13 +83745,13 @@
 		    ("James Cherti" . "https://www.jamescherti.com/contact/"))
 		   (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (ultra-scroll .
-	       [(0 1 0 1 -4 20260822 2031)
+	       [(0 1 0 1 -4 20260826 1840)
 		((emacs
 		  (29 1)))
 		"Fast and smooth scrolling" tar
 		((:url . "https://github.com/jdtsmith/ultra-scroll")
-		 (:commit . "af8dd38480f251a2a99b10b765ce8fd5eeab22ca")
-		 (:revdesc . "af8dd38480f2")
+		 (:commit . "8a43a60361db57c7f48c4e782c7e877d8ac3669a")
+		 (:revdesc . "8a43a60361db")
 		 (:keywords "convenience"))])
  (uml-mode .
 	   [(0 0 4 1 -4 20200129 1147)
@@ -85276,15 +85278,15 @@
 		      ("Andreas Gerler" . "baron@bundesbrandschatzamt.de"))
 		     (:maintainer "Andreas Gerler" . "baron@bundesbrandschatzamt.de"))])
  (vertico .
-	  [(0 1 0 1 -4 20260825 1129)
+	  [(0 1 0 1 -4 20260826 2309)
 	   ((emacs
 	     (29 1))
 	    (compat
 	     (31)))
 	   "VERTical Interactive COmpletion" tar
 	   ((:url . "https://github.com/minad/vertico")
-	    (:commit . "5b6a8b64f79113534a8e13950e00bc6f99256329")
-	    (:revdesc . "5b6a8b64f791")
+	    (:commit . "df51b901b78251be1e3bb54f173856f4cc395163")
+	    (:revdesc . "df51b901b782")
 	    (:keywords "convenience" "files" "matching" "completion")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
