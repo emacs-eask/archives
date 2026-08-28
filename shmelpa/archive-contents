@@ -537,7 +537,7 @@
 	       ("coldnew" . "coldnew.tw@gmail.com"))
 	      (:maintainer "coldnew" . "coldnew.tw@gmail.com"))])
  (ac-php .
-	 [(0 1 0 1 -4 20240328 1036)
+	 [(0 1 0 1 -4 20260828 607)
 	  ((ac-php-core
 	    (2 0))
 	   (auto-complete
@@ -546,13 +546,13 @@
 	    (0 8 0)))
 	  "Auto Completion source for PHP" tar
 	  ((:url . "https://github.com/xcwen/ac-php")
-	   (:commit . "a69ae4a12e40900619b4e5a1613fd449aef649c3")
-	   (:revdesc . "a69ae4a12e40")
+	   (:commit . "a2a89494fd2e53111a81227d2e35290e0825c3fb")
+	   (:revdesc . "a2a89494fd2e")
 	   (:keywords "completion" "convenience" "intellisense")
 	   (:authors
 	    ("jim" . "xcwenn@qq.com")))])
  (ac-php-core .
-	      [(0 1 0 1 -4 20260817 501)
+	      [(0 1 0 1 -4 20260828 607)
 	       ((emacs
 		 (24 4))
 		(dash
@@ -569,8 +569,8 @@
 		 (1 0)))
 	       "The core library of the ac-php" tar
 	       ((:url . "https://github.com/xcwen/ac-php")
-		(:commit . "8d9354f2f851d087cf11a95f98a0e65f8203f065")
-		(:revdesc . "8d9354f2f851")
+		(:commit . "a2a89494fd2e53111a81227d2e35290e0825c3fb")
+		(:revdesc . "a2a89494fd2e")
 		(:keywords "completion" "convenience" "intellisense")
 		(:authors
 		 ("jim" . "xcwenn@qq.com")
@@ -884,13 +884,13 @@
 	       (:commit . "ae8788b5851ea353fbb80ab586a3bbd5dc8e91aa")
 	       (:revdesc . "ae8788b5851e"))])
  (acp .
-      [(0 1 0 1 -4 20260821 1448)
+      [(0 1 0 1 -4 20260828 937)
        ((emacs
 	 (28 1)))
        "An ACP (Agent Client Protocol) implementation" tar
        ((:url . "https://github.com/xenodium/acp.el")
-	(:commit . "4d7d58dc39870e9390e94617e13d7ada175d7945")
-	(:revdesc . "4d7d58dc3987"))])
+	(:commit . "42f5c268537220b94cb1f17e29d3f1f89e6ff0a0")
+	(:revdesc . "42f5c2685372"))])
  (act-mode .
 	   [(1 0 1 -4 20240718 39)
 	    ((emacs
@@ -8582,7 +8582,7 @@
 		(:commit . "c2bb425eaff0975e0c7081f282d291f7853f8376")
 		(:revdesc . "c2bb425eaff0"))])
  (cider .
-	[(0 1 0 1 -4 20260827 1421)
+	[(0 1 0 1 -4 20260828 537)
 	 ((emacs
 	   (28))
 	  (clojure-mode
@@ -8603,8 +8603,8 @@
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
 	 ((:url . "https://www.github.com/clojure-emacs/cider")
-	  (:commit . "eb5cf84d3789de5dbfb3d5a4122dc220b52e1246")
-	  (:revdesc . "eb5cf84d3789")
+	  (:commit . "3e3c52f9cdb66b5dd6bfbaa757533171766cb6fa")
+	  (:revdesc . "3e3c52f9cdb6")
 	  (:keywords "languages" "clojure" "cider")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
@@ -9057,13 +9057,13 @@
 		       ("Arteen Abrishami" . "arteen@ucla.edu"))
 		      (:maintainer "Arteen Abrishami" . "arteen@ucla.edu"))])
  (clatter .
-	  [(0 1 0 1 -4 20260827 1727)
+	  [(0 1 0 1 -4 20260828 855)
 	   ((emacs
 	     (30 1)))
 	   "An IRCv3-compliant IRC client" tar
 	   ((:url . "https://github.com/parenworks/clatter.el")
-	    (:commit . "ac41e8c8d7a53a5b963abf88353c0c5e290ec196")
-	    (:revdesc . "ac41e8c8d7a5")
+	    (:commit . "209a0c99e512de0ff8f945c67582be29fa9ccd11")
+	    (:revdesc . "209a0c99e512")
 	    (:keywords "comm" "irc")
 	    (:authors
 	     ("Glenn Thompson" . "glenn@paren.works"))
@@ -11303,7 +11303,7 @@
 		      (:commit . "aee601a2bfcc86d26e762eeb84e5e42573f8c5ca")
 		      (:revdesc . "aee601a2bfcc"))])
  (company-php .
-	      [(0 1 0 1 -4 20240328 1036)
+	      [(0 1 0 1 -4 20260828 607)
 	       ((cl-lib
 		 (0 5))
 		(ac-php-core
@@ -11312,8 +11312,8 @@
 		 (0 9)))
 	       "A company back-end for PHP" tar
 	       ((:url . "https://github.com/xcwen/ac-php")
-		(:commit . "a69ae4a12e40900619b4e5a1613fd449aef649c3")
-		(:revdesc . "a69ae4a12e40")
+		(:commit . "a2a89494fd2e53111a81227d2e35290e0825c3fb")
+		(:revdesc . "a2a89494fd2e")
 		(:keywords "completion" "convenience" "intellisense")
 		(:authors
 		 ("jim" . "xcwenn@qq.com")))])
@@ -12652,15 +12652,15 @@
 		    (:authors
 		     ("Jose A Ortega Ruiz" . "jao@gnu.org")))])
  (consult-spotlight .
-		    [(0 1 0 1 -4 20260708 2142)
+		    [(0 1 0 1 -4 20260828 949)
 		     ((emacs
 		       (28 1))
 		      (consult
 		       (2 0)))
 		     "Consult interface to macOS mdfind (Spotlight)" tar
 		     ((:url . "https://github.com/guibor/consult-spotlight")
-		      (:commit . "c6d8cb34e223608708c5424e4d03d04d6d6648f7")
-		      (:revdesc . "c6d8cb34e223")
+		      (:commit . "3dbb491df1f18b3f7dd3ac34d766f2addbb20a32")
+		      (:revdesc . "3dbb491df1f1")
 		      (:keywords "matching" "files" "convenience")
 		      (:authors
 		       ("MDF" . "sguibor@gmail.com"))
@@ -13013,15 +13013,15 @@
 		   ("Junyoung Clare Jang" . "jjc9310@gmail.com"))
 		  (:maintainer "Junyoung Clare Jang" . "jjc9310@gmail.com"))])
  (corfu .
-	[(0 1 0 1 -4 20260828 14)
+	[(0 1 0 1 -4 20260828 932)
 	 ((emacs
 	   (29 1))
 	  (compat
 	   (31)))
 	 "COmpletion in Region FUnction" tar
 	 ((:url . "https://github.com/minad/corfu")
-	  (:commit . "e729fff988b2fa579f8e0ea77960354479058661")
-	  (:revdesc . "e729fff988b2")
+	  (:commit . "c68f993d2df82bfab8a973c6f1af047dc3543093")
+	  (:revdesc . "c68f993d2df8")
 	  (:keywords "abbrev" "convenience" "matching" "completion" "text")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -40444,13 +40444,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20260826 2016)
+	    [(0 1 0 1 -4 20260828 452)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "cb4339d7e43383d0724da9ab0990cebe87e57352")
-	      (:revdesc . "cb4339d7e433")
+	      (:commit . "8a3a7c169a5be932cdcf776eae9f2a5acd281d04")
+	      (:revdesc . "8a3a7c169a5b")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -59097,15 +59097,15 @@
 		    ("Sergei Maximov" . "s.b.maximov@gmail.com"))
 		   (:maintainer "Sergei Maximov" . "s.b.maximov@gmail.com"))])
  (org-contacts .
-	       [(0 1 0 1 -4 20260813 1047)
+	       [(0 1 0 1 -4 20260828 1040)
 		((emacs
 		  (29 1))
 		 (org
 		  (9 7)))
 		"Contacts management system for Org mode" tar
 		((:url . "https://repo.or.cz/org-contacts.git")
-		 (:commit . "791a9daff267083df2dce76f33e0027f516c64d8")
-		 (:revdesc . "791a9daff267")
+		 (:commit . "dda8ba65f186384169b0025c0696f4a784674e0e")
+		 (:revdesc . "dda8ba65f186")
 		 (:keywords "contacts" "org-mode" "outlines" "hypermedia" "calendar")
 		 (:authors
 		  ("Julien Danjou" . "julien@danjou.info"))
@@ -60038,7 +60038,7 @@
 		  ("Jason Kim" . "sukbeom.kim@gmail.com"))
 		 (:maintainer "Jason Kim" . "sukbeom.kim@gmail.com"))])
  (org-link-beautify .
-		    [(0 1 0 1 -4 20260826 1721)
+		    [(0 1 0 1 -4 20260828 518)
 		     ((emacs
 		       (29 1))
 		      (nerd-icons
@@ -60047,8 +60047,8 @@
 		       (1 3)))
 		     "Beautify Org Links" tar
 		     ((:url . "https://repo.or.cz/org-link-beautify.git")
-		      (:commit . "1e88f0914b66a083eda42258986db626a405e3a4")
-		      (:revdesc . "1e88f0914b66")
+		      (:commit . "c12c863376221827dc0634b194c5b74a60efdd57")
+		      (:revdesc . "c12c86337622")
 		      (:keywords "hypermedia")
 		      (:authors
 		       ("stardiviner" . "numbchild@gmail.com"))
@@ -61703,15 +61703,15 @@
 			     ("Junpeng Qiu" . "qjpchmail@gmail.com"))
 			    (:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com"))])
  (org-tag-beautify .
-		   [(0 1 0 1 -4 20260827 1216)
+		   [(0 1 0 1 -4 20260828 205)
 		    ((emacs
 		      (26 1))
 		     (nerd-icons
 		      (0 0 1)))
 		    "Beautify Org mode tags" tar
 		    ((:url . "https://repo.or.cz/org-tag-beautify.git")
-		     (:commit . "5af8e3512e9509f09897ca0e9a7a36ebb9ed983c")
-		     (:revdesc . "5af8e3512e95")
+		     (:commit . "c7578a7dc12a75ca23c8d59ec76099cc943bf87d")
+		     (:revdesc . "c7578a7dc12a")
 		     (:keywords "hypermedia")
 		     (:authors
 		      ("stardiviner" . "numbchild@gmail.com"))
@@ -68229,13 +68229,13 @@
 		     (:commit . "36bec1109ba0498c2d1ef29756c841d2e23b063e")
 		     (:revdesc . "36bec1109ba0"))])
  (project-x .
-	    [(0 1 0 1 -4 20260802 2355)
+	    [(0 1 0 1 -4 20260828 304)
 	     ((emacs
 	       (28 1)))
 	     "Extra convenience features for project.el" tar
 	     ((:url . "https://github.com/vmargb/project-x")
-	      (:commit . "6f95c7e722db3e1c9fcee43e00873883630b5eed")
-	      (:revdesc . "6f95c7e722db")
+	      (:commit . "20c30a0fec47035b47a4e2222edf81810d06fd9d")
+	      (:revdesc . "20c30a0fec47")
 	      (:keywords "project" "convenience" "session" "tools")
 	      (:authors
 	       ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
@@ -68243,15 +68243,15 @@
 	       ("vmargb" . "https://github.com/vmargb"))
 	      (:maintainer "vmargb" . "https://github.com/vmargb"))])
  (projectile .
-	     [(0 1 0 1 -4 20260825 455)
+	     [(0 1 0 1 -4 20260828 1008)
 	      ((emacs
 		(28 1))
 	       (compat
 		(30)))
 	      "Manage and navigate projects in Emacs easily" tar
 	      ((:url . "https://github.com/bbatsov/projectile")
-	       (:commit . "5abaa50c48ee661181cf96a1a7c1131f2d619b51")
-	       (:revdesc . "5abaa50c48ee")
+	       (:commit . "c976e894b26a1055327ae79bb50ca154fbb97335")
+	       (:revdesc . "c976e894b26a")
 	       (:keywords "project" "convenience")
 	       (:authors
 		("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -69905,13 +69905,13 @@
 		(:commit . "b4365e60e3ba747a5fec8ca909f64fe8c73d8db2")
 		(:revdesc . "b4365e60e3ba"))])
  (q-mode .
-	 [(0 1 0 1 -4 20260827 45)
+	 [(0 1 0 1 -4 20260828 306)
 	  ((emacs
 	    (28)))
 	  "A q editing mode" tar
 	  ((:url . "https://github.com/psaris/q-mode")
-	   (:commit . "4b1318c6f47dbc7eac60891a133f85f66737b631")
-	   (:revdesc . "4b1318c6f47d")
+	   (:commit . "6430b36140ca9fac0109bbb63efa7b9cc27edf62")
+	   (:revdesc . "6430b36140ca")
 	   (:keywords "faces" "files" "q"))])
  (qml-mode .
 	   [(0 4 1 -4 20161016 31)
@@ -74972,11 +74972,11 @@
 	       (:commit . "1be9cbf994000022172ceb746fe1d597f57ea8ba")
 	       (:revdesc . "1be9cbf99400"))])
  (shimbun .
-	  [(0 1 0 1 -4 20260416 105)
+	  [(0 1 0 1 -4 20260827 2349)
 	   nil "Interfacing with web newspapers" tar
 	   ((:url . "https://github.com/emacs-w3m/emacs-w3m")
-	    (:commit . "d62c1225a1a9634eb5c6a76ba2b1460961befd08")
-	    (:revdesc . "d62c1225a1a9")
+	    (:commit . "584d593763082c3b31552025b6d95b7d9427cc39")
+	    (:revdesc . "584d59376308")
 	    (:keywords "news")
 	    (:authors
 	     ("TSUCHIYA Masatoshi" . "tsuchiya@namazu.org")
@@ -75964,15 +75964,15 @@
 	      (:revdesc . "8c92169817f2")
 	      (:keywords "markup" "language"))])
  (slime .
-	[(0 1 0 1 -4 20260827 217)
+	[(0 1 0 1 -4 20260828 410)
 	 ((emacs
 	   (24 3))
 	  (macrostep
 	   (0 9)))
 	 "Superior Lisp Interaction Mode for Emacs" tar
 	 ((:url . "https://github.com/slime/slime")
-	  (:commit . "d93a570f57600611d534893fa381d0cf10b85e23")
-	  (:revdesc . "d93a570f5760")
+	  (:commit . "7f6201d750234a48f1ab5995880a816b5ecb03bc")
+	  (:revdesc . "7f6201d75023")
 	  (:keywords "languages" "lisp" "slime"))])
  (slime-company .
 		[(0 1 0 1 -4 20250815 757)
@@ -77653,13 +77653,13 @@
 		    ("Le Wang" . "lewang.dev.26@gmail.com"))
 		   (:maintainer "Le Wang" . "lewang.dev.26@gmail.com"))])
  (spdx .
-       [(0 1 0 1 -4 20260825 45)
+       [(0 1 0 1 -4 20260828 809)
 	((emacs
 	  (24 4)))
 	"Insert SPDX license and copyright headers" tar
 	((:url . "https://github.com/condy0919/spdx.el")
-	 (:commit . "4f425ea54133444c5bc6a1377239c984778581c6")
-	 (:revdesc . "4f425ea54133")
+	 (:commit . "100f98b6194dfc1eb868fbbff0a6f874a44c7131")
+	 (:revdesc . "100f98b6194d")
 	 (:keywords "license" "tools")
 	 (:authors
 	  ("Zhiwei Chen" . "condy0919@gmail.com"))
@@ -85276,15 +85276,15 @@
 		      ("Andreas Gerler" . "baron@bundesbrandschatzamt.de"))
 		     (:maintainer "Andreas Gerler" . "baron@bundesbrandschatzamt.de"))])
  (vertico .
-	  [(0 1 0 1 -4 20260827 1109)
+	  [(0 1 0 1 -4 20260828 115)
 	   ((emacs
 	     (29 1))
 	    (compat
 	     (31)))
 	   "VERTical Interactive COmpletion" tar
 	   ((:url . "https://github.com/minad/vertico")
-	    (:commit . "28ce8158a0302fbcf5c094ec708f2dff43f8a058")
-	    (:revdesc . "28ce8158a030")
+	    (:commit . "024365aced4d6f316d20e5ce65cf3fd9659d3b4e")
+	    (:revdesc . "024365aced4d")
 	    (:keywords "convenience" "files" "matching" "completion")
 	    (:authors
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -87950,15 +87950,15 @@
 		   (nil . "lompik@ArchOrion"))
 		  (:maintainer nil . "lompik@ArchOrion"))])
  (x509-mode .
-	    [(0 1 0 1 -4 20260818 1234)
+	    [(0 1 0 1 -4 20260828 634)
 	     ((emacs
 	       (25 1))
 	      (compat
 	       (29 1)))
 	     "View certificates, CRLs and keys using OpenSSL" tar
 	     ((:url . "https://github.com/jobbflykt/x509-mode")
-	      (:commit . "4f44db115e8ab34e4721c0a46d81b902b320477d")
-	      (:revdesc . "4f44db115e8a")
+	      (:commit . "fe1fdfbd3b0dd6b696f286f7ed64993cfef6cc9d")
+	      (:revdesc . "fe1fdfbd3b0d")
 	      (:authors
 	       ("Fredrik Axelsson" . "f.axelsson@gmail.com"))
 	      (:maintainers
