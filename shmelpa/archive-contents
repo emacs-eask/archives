@@ -46683,6 +46683,20 @@
 		       (:maintainers
 			("Enrico Flor" . "enrico@eflor.net"))
 		       (:maintainer "Enrico Flor" . "enrico@eflor.net"))])
+ (latex-to-svg-backend .
+		       [(0 1 0 1 -4 20260824 1321)
+			((emacs
+			  (29 1)))
+			"Content-addressed LaTeX-to-SVG image rendering" tar
+			((:url . "https://github.com/alberti42/latex-to-svg-backend")
+			 (:commit . "37c5159e347f03061240a3acab071e3478bf22c8")
+			 (:revdesc . "37c5159e347f")
+			 (:keywords "tex" "math" "images")
+			 (:authors
+			  ("Andrea Alberti" . "a.alberti82@gmail.com"))
+			 (:maintainers
+			  ("Andrea Alberti" . "a.alberti82@gmail.com"))
+			 (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
  (latex-unicode-math-mode .
 			  [(0 1 0 1 -4 20231210 2234)
 			   nil "Input method for Unicode math symbols" tar
@@ -49612,6 +49626,30 @@
 	     (:commit . "9b9277021cd09fb1dba64b1d2a00705d20914bd6")
 	     (:revdesc . "9b9277021cd0")
 	     (:keywords "convenience"))])
+ (magent .
+	 [(0 1 0 1 -4 20260828 702)
+	  ((emacs
+	    (29 1))
+	   (gptel
+	    (0 9 8))
+	   (yaml
+	    (1 0 0))
+	   (compat
+	    (30 1 0 0))
+	   (acp
+	    (0 13 1))
+	   (agent-shell
+	    (0 66 1)))
+	  "AI coding agent" tar
+	  ((:url . "https://github.com/jamie-cui/magent")
+	   (:commit . "0959570cb2ba87854d4cfb650a29937834defac1")
+	   (:revdesc . "0959570cb2ba")
+	   (:keywords "tools" "ai" "copilot")
+	   (:authors
+	    ("Jamie Cui" . "jamie.cui@outlook.com"))
+	   (:maintainers
+	    ("Jamie Cui" . "jamie.cui@outlook.com"))
+	   (:maintainer "Jamie Cui" . "jamie.cui@outlook.com"))])
  (magic-filetype .
 		 [(0 2 0 1 -4 20240130 1805)
 		  ((emacs
@@ -59308,6 +59346,20 @@
 	   (:maintainers
 	    ("Thorsten Jolitz" . "tjolitzATgmailDOTcom"))
 	   (:maintainer "Thorsten Jolitz" . "tjolitzATgmailDOTcom"))])
+ (org-draw .
+	   [(0 1 0 1 -4 20260825 1304)
+	    ((emacs
+	      (28 1)))
+	    "Draw into Org from a browser" tar
+	    ((:url . "https://github.com/larrasket/org-draw")
+	     (:commit . "dd87797e3345f888bbaf525189df1f89f8e123d2")
+	     (:revdesc . "dd87797e3345")
+	     (:keywords "org" "multimedia" "hypermedia")
+	     (:authors
+	      ("Saleh" . "root@lr0.org"))
+	     (:maintainers
+	      ("Saleh" . "root@lr0.org"))
+	     (:maintainer "Saleh" . "root@lr0.org"))])
  (org-drawio .
 	     [(0 1 1 -4 20240213 38)
 	      ((org
@@ -61110,6 +61162,22 @@
 		      ("Alex Kost" . "alezost@gmail.com")
 		      ("Vitus Schäfftlein" . "vitusschaefftlein@live.de"))
 		     (:maintainer "Alex Kost" . "alezost@gmail.com"))])
+ (org-relative-date .
+		    [(0 1 0 1 -4 20260830 1852)
+		     ((emacs
+		       (27 1))
+		      (org
+		       (9 1)))
+		     "Live relative-date overlays on org timestamps" tar
+		     ((:url . "https://github.com/RobertPlant/org-relative-date")
+		      (:commit . "159fe6fd7311fabec3e85864cf69ea12a1692811")
+		      (:revdesc . "159fe6fd7311")
+		      (:keywords "calendar" "org" "convenience")
+		      (:authors
+		       ("Rob Plant" . "rob@robertplant.io"))
+		      (:maintainers
+		       ("Rob Plant" . "rob@robertplant.io"))
+		      (:maintainer "Rob Plant" . "rob@robertplant.io"))])
  (org-repeat-by-cron .
 		     [(0 1 0 1 -4 20260817 1415)
 		      ((emacs
@@ -61514,7 +61582,7 @@
 	       (:revdesc . "8799adc14a20")
 	       (:keywords "extensions"))])
  (org-social .
-	     [(2 13 1 -4 20260824 732)
+	     [(0 1 0 1 -4 20260824 735)
 	      ((emacs
 		(30 1))
 	       (org
@@ -61529,8 +61597,8 @@
 		(0 1)))
 	      "An Org-social client for Emacs" tar
 	      ((:url . "https://git.andros.dev/org-social/org-social.el")
-	       (:commit . "f5141de306ce402b3f148dd96b46e7d329d2568b")
-	       (:revdesc . "f5141de306ce")
+	       (:commit . "94915a57b619ff9e43088915b8844ce46e8143f9")
+	       (:revdesc . "94915a57b619")
 	       (:authors
 		("Andros Fenollosa" . "hi@andros.dev"))
 	       (:maintainers
@@ -64279,11 +64347,11 @@
 	       ("Zainab Ali" . "zainab@kebab-ca.se"))
 	      (:maintainer "Zainab Ali" . "zainab@kebab-ca.se"))])
  (palimpsest .
-	     [(1 1 1 -4 20200805 1048)
+	     [(0 1 0 1 -4 20260830 1517)
 	      nil "Various deletion strategies when editing" tar
 	      ((:url . "https://github.com/danielsz/Palimpsest")
-	       (:commit . "f474b3ad706373d9953abdc401d683a2a023d28e")
-	       (:revdesc . "f474b3ad7063")
+	       (:commit . "cebdd5a37f6e0802eced9b902543d7f2dd10285d")
+	       (:revdesc . "cebdd5a37f6e")
 	       (:authors
 		("Daniel Szmulewicz" . "daniel.szmulewicz@gmail.com"))
 	       (:maintainers
@@ -66004,7 +66072,7 @@
 	     ("Eric Hansen" . "hansen.c.eric@gmail.com"))
 	    (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
  (pi-coding-agent .
-		  [(0 1 0 1 -4 20260829 1156)
+		  [(0 1 0 1 -4 20260830 1640)
 		   ((emacs
 		     (29 1))
 		    (transient
@@ -66017,8 +66085,8 @@
 		     (0 2 0)))
 		   "Emacs frontend for pi coding agent" tar
 		   ((:url . "https://github.com/dnouri/pi-coding-agent")
-		    (:commit . "714000113e5294d6c234144ff1ce2aebda9aa87f")
-		    (:revdesc . "714000113e52")
+		    (:commit . "78ed28a5e8446baa7b7de6ced2d65bf525dae6dc")
+		    (:revdesc . "78ed28a5e844")
 		    (:keywords "ai" "llm" "ai-pair-programming" "tools")
 		    (:authors
 		     ("Daniel Nouri" . "daniel.nouri@gmail.com"))
@@ -75325,13 +75393,13 @@
 		("Paul W. Rankin" . "rnkn@rnkn.xyz"))
 	       (:maintainer "Paul W. Rankin" . "rnkn@rnkn.xyz"))])
  (sidebuf .
-	  [(0 1 0 1 -4 20260621 1644)
+	  [(0 1 0 1 -4 20260830 1545)
 	   ((emacs
 	     (27 1)))
 	   "Buffer list sidebar panel" tar
 	   ((:url . "https://github.com/rain-64/sidebuf")
-	    (:commit . "bac206ea46bdf8450317d29b98dfcd970aa6e85e")
-	    (:revdesc . "bac206ea46bd")
+	    (:commit . "9245426b8d8fc63f5bb2b5a28ebb957db4e4ce2c")
+	    (:revdesc . "9245426b8d8f")
 	    (:keywords "convenience" "buffers")
 	    (:authors
 	     ("rain-64" . "https://github.com/rain-64"))
