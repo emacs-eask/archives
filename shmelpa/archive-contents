@@ -3381,15 +3381,15 @@
 		     (:commit . "0139378577f936d34b20276af6f022fb457af490")
 		     (:revdesc . "0139378577f9"))])
  (auto-capitalize .
-		  [(0 1 0 1 -4 20260827 2156)
+		  [(0 1 0 1 -4 20260830 1556)
 		   ((emacs
 		     (28 1))
 		    (compat
 		     (31 0)))
 		   "Automatic capitalization with batteries included" tar
 		   ((:url . "https://github.com/abdulnafe-t/auto-capitalize.el")
-		    (:commit . "a4230e9c2480039a0f23abdc9ce48782fa60be45")
-		    (:revdesc . "a4230e9c2480")
+		    (:commit . "d6d62194f024810fbe4a20ec93e7ad575f49bbee")
+		    (:revdesc . "d6d62194f024")
 		    (:keywords "text" "wp" "convenience")
 		    (:maintainers
 		     ("Abdulnafé Toulaïmat" . "abdulnafe.toulaimat@gmail.com"))
@@ -12549,6 +12549,24 @@
 		(:commit . "f41a3946987a3880068f95f3725bbb7b0d4b0b22")
 		(:revdesc . "f41a3946987a")
 		(:keywords "tools" "completion" "lsp"))])
+ (consult-magit .
+		[(0 1 0 1 -4 20260827 1333)
+		 ((emacs
+		   (28 1))
+		  (consult
+		   (1 0))
+		  (magit
+		   (3 0)))
+		 "Switch and manage magit buffers with consult" tar
+		 ((:url . "https://github.com/nhojb/consult-magit")
+		  (:commit . "8d030b9927b7e6c3b08066380dfaa9ea5c19026e")
+		  (:revdesc . "8d030b9927b7")
+		  (:keywords "convenience" "vc" "tools")
+		  (:authors
+		   ("John Buckley" . "nhoj.buckley@gmail.com"))
+		  (:maintainers
+		   ("John Buckley" . "nhoj.buckley@gmail.com"))
+		  (:maintainer "John Buckley" . "nhoj.buckley@gmail.com"))])
  (consult-notes .
 		[(0 1 0 1 -4 20260731 1506)
 		 ((emacs
@@ -16212,15 +16230,15 @@
 		   ("Campbell Barton" . "ideasman42@gmail.com"))
 		  (:maintainer "Campbell Barton" . "ideasman42@gmail.com"))])
  (diff-hl .
-	  [(0 1 0 1 -4 20260828 1714)
+	  [(0 1 0 1 -4 20260830 1400)
 	   ((cl-lib
 	     (0 2))
 	    (emacs
 	     (27 1)))
 	   "Highlight uncommitted changes using VC" tar
 	   ((:url . "https://github.com/dgutov/diff-hl")
-	    (:commit . "8dca5a562289adc3eabc4f0a15a8c856aa799268")
-	    (:revdesc . "8dca5a562289")
+	    (:commit . "3d9552c575fd14ac98ac97bf3c19cdef39f79305")
+	    (:revdesc . "3d9552c575fd")
 	    (:keywords "vc" "diff")
 	    (:authors
 	     ("Dmitry Gutov" . "dmitry@gutov.dev"))
@@ -20010,6 +20028,24 @@
 			    (:maintainers
 			     ("Michael Olson" . "mwolson@gnu.org"))
 			    (:maintainer "Michael Olson" . "mwolson@gnu.org"))])
+ (eglotx .
+	 [(0 1 0 1 -4 20260824 219)
+	  ((emacs
+	    (29 1))
+	   (eglot
+	    (1 24))
+	   (jsonrpc
+	    (1 0 29)))
+	  "Native LSP multiplexer for Eglot" tar
+	  ((:url . "https://github.com/cxa/eglotx")
+	   (:commit . "2d5d2fbbd0ebbf2d07972a6b260ff6d9023a4586")
+	   (:revdesc . "2d5d2fbbd0eb")
+	   (:keywords "tools" "languages")
+	   (:authors
+	    ("CHEN Xian'an" . "xianan.chen@gmail.com"))
+	   (:maintainers
+	    ("CHEN Xian'an" . "xianan.chen@gmail.com"))
+	   (:maintainer "CHEN Xian'an" . "xianan.chen@gmail.com"))])
  (ego .
       [(0 9 1 -4 20200803 1101)
        ((emacs
@@ -31489,6 +31525,22 @@
 	     (:maintainers
 	      ("Nikolaj Schumacher" . "bugs*nschumde"))
 	     (:maintainer "Nikolaj Schumacher" . "bugs*nschumde"))])
+ (full-gtd .
+	   [(0 1 0 1 -4 20260824 1804)
+	    ((emacs
+	      (27 1))
+	     (org
+	      (9 3)))
+	    "Complete Getting Things Done (GTD) workflow for org-mode" tar
+	    ((:url . "https://github.com/OverbearingPearl/full-gtd")
+	     (:commit . "39d9008e7732686e2bdc46943f6a5755a65b90b5")
+	     (:revdesc . "39d9008e7732")
+	     (:keywords "outlines" "tools" "convenience" "org" "todo" "gtd" "calendar")
+	     (:authors
+	      ("OverbearingPearl" . "OverbearingPearl@outlook.com"))
+	     (:maintainers
+	      ("OverbearingPearl" . "OverbearingPearl@outlook.com"))
+	     (:maintainer "OverbearingPearl" . "OverbearingPearl@outlook.com"))])
  (fullframe .
 	    [(0 5 1 1 -4 20210226 1057)
 	     ((cl-lib
@@ -34898,6 +34950,24 @@
 		    (:commit . "0a23a7f3f339bb0110a446a7b358aa68867c7898")
 		    (:revdesc . "0a23a7f3f339")
 		    (:keywords "forge" "vc" "convenience" "llm" "pull-request"))])
+ (gptel-inline .
+	       [(0 1 0 1 -4 20260830 1800)
+		((emacs
+		  (30 1))
+		 (compat
+		  (30 1 0 0))
+		 (gptel
+		  (0 9 9 5)))
+		"Persistent gptel session that follows you around" tar
+		((:url . "https://github.com/karthink/gptel-inline")
+		 (:commit . "11763858eda358e9481ce4938024f84e506e1cde")
+		 (:revdesc . "11763858eda3")
+		 (:keywords "comm")
+		 (:authors
+		  ("Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))
+		 (:maintainers
+		  ("Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))
+		 (:maintainer "Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))])
  (gptel-magit .
 	      [(0 1 0 1 -4 20250520 833)
 	       ((emacs
