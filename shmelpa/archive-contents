@@ -1342,7 +1342,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260829 155)
+	  [(0 1 0 1 -4 20260902 116)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1351,8 +1351,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Antigravity CLI, Claude Code, Opencode, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "5d63bef0700e29e8c85d0bad73ca2da8233dd47a")
-	    (:revdesc . "5d63bef0700e")
+	    (:commit . "3b0801943e3b0fe92e40607083c8e6c01263cbc7")
+	    (:revdesc . "3b0801943e3b")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -4663,13 +4663,13 @@
 		 ("Alon Tzarafi" . "alontzarafi@gmail.com"))
 		(:maintainer "Alon Tzarafi" . "alontzarafi@gmail.com"))])
  (bazel .
-	[(0 1 0 1 -4 20260901 1652)
+	[(0 1 0 1 -4 20260901 2322)
 	 ((emacs
 	   (30 1)))
 	 "Bazel support for Emacs" tar
 	 ((:url . "https://github.com/bazel-contrib/bazel.el")
-	  (:commit . "a26a0c5c66910743a9e78b258c7a31b487c32fb6")
-	  (:revdesc . "a26a0c5c6691")
+	  (:commit . "27afdb862c2f5266a7f9d621a43f8af75df34712")
+	  (:revdesc . "27afdb862c2f")
 	  (:keywords "build tools" "languages"))])
  (bbcode-mode .
 	      [(2 3 0 1 -4 20231215 1539)
@@ -20486,13 +20486,13 @@
 	      (:revdesc . "2efd3dd8c517")
 	      (:keywords "calendar" "convenience"))])
  (elcord .
-	 [(0 1 0 1 -4 20260506 2048)
+	 [(0 1 0 1 -4 20260902 44)
 	  ((emacs
 	    (25 1)))
 	  "Allows you to integrate Rich Presence from Discord" tar
 	  ((:url . "https://github.com/Mstrodl/elcord")
-	   (:commit . "033be3dc076fdb3de335d3b12bac5f783ebec820")
-	   (:revdesc . "033be3dc076f")
+	   (:commit . "e151753674883cc1420279981c0f719332122ea1")
+	   (:revdesc . "e15175367488")
 	   (:keywords "games")
 	   (:authors
 	    ("Wilfredo Velázquez-Rodríguez" . "zulu.inuoe@gmail.com"))
@@ -31436,15 +31436,15 @@
 	      ("Nikolaj Schumacher" . "bugs*nschumde"))
 	     (:maintainer "Nikolaj Schumacher" . "bugs*nschumde"))])
  (full-gtd .
-	   [(0 1 0 1 -4 20260901 1936)
+	   [(0 1 0 1 -4 20260902 356)
 	    ((emacs
-	      (27 1))
+	      (29 1))
 	     (org
 	      (9 3)))
 	    "Complete Getting Things Done (GTD) workflow for org-mode" tar
 	    ((:url . "https://github.com/OverbearingPearl/full-gtd")
-	     (:commit . "3fff0631a1f953cb00c9482714ce3f2f8a829084")
-	     (:revdesc . "3fff0631a1f9")
+	     (:commit . "b277a4f3cfce978a2721645e03bb39938be6522c")
+	     (:revdesc . "b277a4f3cfce")
 	     (:keywords "outlines" "tools" "convenience" "org" "todo" "gtd" "calendar")
 	     (:authors
 	      ("OverbearingPearl" . "OverbearingPearl@outlook.com"))
@@ -49537,7 +49537,7 @@
 	     (:revdesc . "9b9277021cd0")
 	     (:keywords "convenience"))])
  (magent .
-	 [(0 1 0 1 -4 20260901 1102)
+	 [(0 1 0 1 -4 20260902 321)
 	  ((emacs
 	    (29 1))
 	   (gptel
@@ -49552,8 +49552,8 @@
 	    (0 66 1)))
 	  "AI coding agent" tar
 	  ((:url . "https://github.com/jamie-cui/magent")
-	   (:commit . "43cc580fde2a655759d210426c558d0312597abf")
-	   (:revdesc . "43cc580fde2a")
+	   (:commit . "9ed285cb8d63f36f5623557675d14559f546347e")
+	   (:revdesc . "9ed285cb8d63")
 	   (:keywords "tools" "ai" "copilot")
 	   (:authors
 	    ("Jamie Cui" . "jamie.cui@outlook.com"))
@@ -83598,13 +83598,17 @@
 		   ("Håvard Damm-Johnsen" . "havard-dj@proton.me"))
 		  (:maintainer "Håvard Damm-Johnsen" . "havard-dj@proton.me"))])
  (tzc .
-      [(0 1 0 1 -4 20260212 715)
+      [(0 1 0 1 -4 20260902 356)
        ((emacs
-	 (28 1)))
+	 (28 1))
+	(org
+	 (9 5))
+	(transient
+	 (0 3 7)))
        "Converts time between different time zones" tar
        ((:url . "https://github.com/md-arif-shaikh/tzc")
-	(:commit . "05f97298e7b20aefb41c16abe3eeae162dd1e2f9")
-	(:revdesc . "05f97298e7b2")
+	(:commit . "26e9627f572f724273c920bd83df5f676ff45871")
+	(:revdesc . "26e9627f572f")
 	(:keywords "convenience")
 	(:authors
 	 ("Md Arif Shaikh" . "arifshaikh.astro@gmail.com"))
