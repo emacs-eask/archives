@@ -361,11 +361,7 @@
 	     (:maintainer "Syohei YOSHIDA" . "syohex@gmail.com"))])
  (ac-geiser .
 	    [(0 1 1 -4 20200318 824)
-	     ((geiser
-	       (0 5))
-	      (auto-complete
-	       (1 4)))
-	     "Auto-complete backend for geiser" tar
+	     nil "Emacs auto-complete backend for geiser" tar
 	     ((:url . "https://github.com/xiaohanyu/ac-geiser")
 	      (:commit . "93818c936ee7e2f1ba1b315578bde363a7d43d05")
 	      (:revdesc . "93818c936ee7"))])
@@ -856,9 +852,7 @@
 	       (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (achievements .
 	       [(0 1 0 1 -4 20240703 318)
-		((keyfreq
-		  (0 0 3)))
-		"Achievements for emacs usage" tar
+		nil "Achievements for emacs usage" tar
 		((:url . "https://gitlab.com/gvol/emacs-achievements")
 		 (:commit . "c229d21ad5d1e13be08e087ab498800b2b9b7c97")
 		 (:revdesc . "c229d21ad5d1")
@@ -1342,7 +1336,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260902 116)
+	  [(0 1 0 1 -4 20260903 1617)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1351,8 +1345,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Antigravity CLI, Claude Code, Opencode, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "3b0801943e3b0fe92e40607083c8e6c01263cbc7")
-	    (:revdesc . "3b0801943e3b")
+	    (:commit . "b360006c010eeccb30243deec019150d3a26ed3f")
+	    (:revdesc . "b360006c010e")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
