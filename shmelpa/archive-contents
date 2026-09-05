@@ -3373,15 +3373,15 @@
 		     (:commit . "0139378577f936d34b20276af6f022fb457af490")
 		     (:revdesc . "0139378577f9"))])
  (auto-capitalize .
-		  [(0 1 0 1 -4 20260905 957)
+		  [(0 1 0 1 -4 20260905 1359)
 		   ((emacs
 		     (28 1))
 		    (compat
 		     (31 0)))
 		   "Automatic capitalization with batteries included" tar
 		   ((:url . "https://github.com/abdulnafe-t/auto-capitalize.el")
-		    (:commit . "cffa2bf3055603e836dabb71932d23d9fde6f3c3")
-		    (:revdesc . "cffa2bf30556")
+		    (:commit . "c04e98f8c8d08f032e43e5aa76feb9ca95afe22a")
+		    (:revdesc . "c04e98f8c8d0")
 		    (:keywords "text" "wp" "convenience")
 		    (:maintainers
 		     ("Abdulnafé Toulaïmat" . "abdulnafe.toulaimat@gmail.com"))
@@ -9733,15 +9733,15 @@
 		 ("Jason Milkins" . "jasonm23@gmail.com"))
 		(:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
  (clutch .
-	 [(0 1 0 1 -4 20260831 1531)
+	 [(0 1 0 1 -4 20260905 1432)
 	  ((emacs
 	    (29 1))
 	   (transient
 	    (0 3 7)))
 	  "Interactive database client" tar
 	  ((:url . "https://github.com/LuciusChen/clutch")
-	   (:commit . "89d1d3442c8670dc7aa938b05bab907137f10615")
-	   (:revdesc . "89d1d3442c86")
+	   (:commit . "e75e33b4de83fb5431c1cc31472195755c2833ae")
+	   (:revdesc . "e75e33b4de83")
 	   (:keywords "comm" "data" "tools")
 	   (:authors
 	    ("Lucius Chen" . "chenyh572@gmail.com"))
@@ -22639,15 +22639,15 @@
 	     ("Chris Clark" . "cfclrk@gmail.com"))
 	    (:maintainer "Chris Clark" . "cfclrk@gmail.com"))])
  (envrc .
-	[(0 1 0 1 -4 20260903 2104)
+	[(0 1 0 1 -4 20260905 1236)
 	 ((emacs
 	   (28 1))
 	  (inheritenv
 	   (0 1)))
 	 "Support for `direnv' that operates buffer-locally" tar
 	 ((:url . "https://github.com/purcell/envrc")
-	  (:commit . "e3a4d98a483c3a7804747334c82290c30a20cd7b")
-	  (:revdesc . "e3a4d98a483c")
+	  (:commit . "0ccdd131fb642323527e67aa9e854c9a82598507")
+	  (:revdesc . "0ccdd131fb64")
 	  (:keywords "processes" "tools")
 	  (:authors
 	   ("Steve Purcell" . "steve@sanityinc.com"))
@@ -34148,13 +34148,15 @@
 	    ("Brantou" . "brantou89@gmail.com"))
 	   (:maintainer "Brantou" . "brantou89@gmail.com"))])
  (go-template-helper-mode .
-			  [(0 1 0 1 -4 20260124 2229)
+			  [(0 1 0 1 -4 20260905 954)
 			   ((emacs
-			     (28 1)))
-			   "Go text/template overlay highlighting (Helm/YAML)" tar
+			     (28 1))
+			    (go-template-mode
+			     (2 0 0)))
+			   "Go template highlighting in host modes (Helm/YAML)" tar
 			   ((:url . "https://codeberg.org/rch/go-template-helper-mode")
-			    (:commit . "e13b09d9176dd88e65c4bea5eb5c878242ea7e13")
-			    (:revdesc . "e13b09d9176d")
+			    (:commit . "e817efb8e281f3fead57fcd22bdc0d0f7a6dedbe")
+			    (:revdesc . "e817efb8e281")
 			    (:keywords "tools" "faces")
 			    (:authors
 			     ("Robert Charusta" . "rch-public@posteo.net"))
@@ -47606,15 +47608,15 @@
 		    ("Marco Wahl" . "marcowahlsoft@gmail.com"))
 		   (:maintainer "Marco Wahl" . "marcowahlsoft@gmail.com"))])
  (lisp-chat .
-	    [(0 1 0 1 -4 20260722 115)
+	    [(0 1 0 1 -4 20260905 1551)
 	     ((emacs
 	       (27 1))
 	      (websocket
 	       (1 12)))
 	     "Emacs client for Lisp Chat" tar
 	     ((:url . "https://github.com/ryukinix/lisp-chat")
-	      (:commit . "e54265d278af3de1ca6bc895e7b0ebde82c5b5fc")
-	      (:revdesc . "e54265d278af")
+	      (:commit . "316cdd52134eca84e2782f6d7f7fa57549ebe92b")
+	      (:revdesc . "316cdd52134e")
 	      (:keywords "comm" "chat" "lisp")
 	      (:authors
 	       ("Manoel V. Machado" . "(manoel_vilela@engineer.com)"))
@@ -54177,13 +54179,13 @@
 		  ("Jakob L. Kreuze" . "zerodaysfordays@sdf.lonestar.org"))
 		 (:maintainer "Jakob L. Kreuze" . "zerodaysfordays@sdf.lonestar.org"))])
  (mysql .
-	[(0 1 0 1 -4 20260726 1544)
+	[(0 1 0 1 -4 20260905 1413)
 	 ((emacs
 	   (28 1)))
 	 "Pure Elisp MySQL wire protocol client" tar
 	 ((:url . "https://github.com/LuciusChen/mysql.el")
-	  (:commit . "c1c813d65ef4a3d9647441b57600b8fba14f826b")
-	  (:revdesc . "c1c813d65ef4")
+	  (:commit . "443aa06a9a6b36de4141b5096e02502812c4a4a8")
+	  (:revdesc . "443aa06a9a6b")
 	  (:keywords "comm" "data")
 	  (:authors
 	   ("Lucius Chen" . "chenyh572@gmail.com"))
