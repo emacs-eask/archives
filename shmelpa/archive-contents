@@ -1225,6 +1225,24 @@
 	       ((:url . "https://github.com/xenodium/agent-shell")
 		(:commit . "d027d8de2b74019ae83e36b1edcd0b968295ac31")
 		(:revdesc . "d027d8de2b74"))])
+ (agent-shell-math-renderer .
+			    [(0 1 0 1 -4 20260903 1149)
+			     ((emacs
+			       (29 1))
+			      (agent-shell
+			       (0 66 1))
+			      (latex-to-svg-backend
+			       (0 8 0)))
+			     "Display-math rendering for agent-shell" tar
+			     ((:url . "https://github.com/alberti42/agent-shell-math-renderer")
+			      (:commit . "f8c1cea05448701884ea125c877f0337bba0214e")
+			      (:revdesc . "f8c1cea05448")
+			      (:keywords "tex" "llm" "math" "education")
+			      (:authors
+			       ("Andrea Alberti" . "a.alberti82@gmail.com"))
+			      (:maintainers
+			       ("Andrea Alberti" . "a.alberti82@gmail.com"))
+			      (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
  (aggressive-fill-paragraph .
 			    [(0 0 1 1 -4 20240213 2320)
 			     ((dash
@@ -1336,7 +1354,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20260905 518)
+	  [(0 1 0 1 -4 20260906 1837)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1345,8 +1363,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Antigravity CLI, Claude Code, Opencode, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "f934e2cc0c5a1a18cbcbeb097f19fdb573ec78ef")
-	    (:revdesc . "f934e2cc0c5a")
+	    (:commit . "e79f1af6820ac18278c2ff60458a0bcbc733216b")
+	    (:revdesc . "e79f1af6820a")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -2449,6 +2467,20 @@
 	     (:maintainers
 	      ("Radian LLC" . "contact+apheleia@radian.codes"))
 	     (:maintainer "Radian LLC" . "contact+apheleia@radian.codes"))])
+ (api-credit .
+	     [(0 1 0 1 -4 20260906 1720)
+	      ((emacs
+		(25 1)))
+	      "AI API balance in the modeline" tar
+	      ((:url . "https://github.com/OverbearingPearl/api-credit")
+	       (:commit . "40a8188c489ce320a364364c0a8ab48245319ea9")
+	       (:revdesc . "40a8188c489c")
+	       (:keywords "comm" "convenience")
+	       (:authors
+		("OverbearingPearl" . "OverbearingPearl@outlook.com"))
+	       (:maintainers
+		("OverbearingPearl" . "OverbearingPearl@outlook.com"))
+	       (:maintainer "OverbearingPearl" . "OverbearingPearl@outlook.com"))])
  (apib-mode .
 	    [(0 4 1 -4 20200101 1017)
 	     ((markdown-mode
@@ -3807,6 +3839,20 @@
 		  (:maintainers
 		   ("ncaq" . "ncaq@ncaq.net"))
 		  (:maintainer "ncaq" . "ncaq@ncaq.net"))])
+ (auto-tab-groups .
+		  [(0 1 0 1 -4 20260904 2230)
+		   ((emacs
+		     (29 1)))
+		   "Simple auto tab group creator for specified commands" tar
+		   ((:url . "https://github.com/MArpogaus/auto-tab-groups")
+		    (:commit . "bff1b91cefe31cf488f29cff2ab1b2095e52e3ce")
+		    (:revdesc . "bff1b91cefe3")
+		    (:keywords "convenience" "tabs")
+		    (:authors
+		     ("Marcel Arpogaus" . "znepry.necbtnhf@tznvy.pbz"))
+		    (:maintainers
+		     ("Marcel Arpogaus" . "znepry.necbtnhf@tznvy.pbz"))
+		    (:maintainer "Marcel Arpogaus" . "znepry.necbtnhf@tznvy.pbz"))])
  (auto-virtualenv .
 		  [(0 1 0 1 -4 20260106 1436)
 		   ((cl-lib
@@ -5088,13 +5134,13 @@
 		     ("Peter W. V. Tran-Jørgensen" . "peter.w.v.jorgensen@gmail.com"))
 		    (:maintainer "Peter W. V. Tran-Jørgensen" . "peter.w.v.jorgensen@gmail.com"))])
  (bible-gateway .
-		[(0 1 0 1 -4 20260824 2028)
+		[(0 1 0 1 -4 20260906 1921)
 		 ((emacs
 		   (29 1)))
 		 "A Simple BibleGateway Client" tar
 		 ((:url . "https://github.com/kristjoc/bible-gateway")
-		  (:commit . "e3d8e596097a9b23654ff0d4088100c284bd474e")
-		  (:revdesc . "e3d8e596097a")
+		  (:commit . "908e5ad0baed859c5e228f9bf5b29fcd52809a8b")
+		  (:revdesc . "908e5ad0baed")
 		  (:keywords "convenience" "comm" "hypermedia"))])
  (biblio .
 	 [(0 1 0 1 -4 20250812 1408)
@@ -11404,17 +11450,17 @@
 		      ("Feng Shu" . "tumashu@163.com"))
 		     (:maintainer "Feng Shu" . "tumashu@163.com"))])
  (company-prescient .
-		    [(0 1 0 1 -4 20260628 2243)
+		    [(0 1 0 1 -4 20260906 1958)
 		     ((emacs
-		       (25 1))
+		       (26 1))
 		      (prescient
 		       (6 1 0))
 		      (company
 		       (0 9 6)))
 		     "Prescient.el + Company" tar
 		     ((:url . "https://github.com/raxod502/prescient.el")
-		      (:commit . "5649977fa7789e4615efeca09397ed7eccd06dfc")
-		      (:revdesc . "5649977fa778")
+		      (:commit . "ae52777d6b6b856b54c85441c7a713949f1720de")
+		      (:revdesc . "ae52777d6b6b")
 		      (:keywords "extensions")
 		      (:authors
 		       ("Radian LLC" . "contact+prescient@radian.codes"))
@@ -14397,6 +14443,22 @@
 	       ((:url . "https://github.com/ainame/cursor-test.el")
 		(:commit . "e09956e048b88fd2ee8dd90b5678baed8b04d31b")
 		(:revdesc . "e09956e048b8"))])
+ (cursorfree .
+	     [(0 1 0 1 -4 20260905 1240)
+	      ((emacs
+		(29 1))
+	       (phony
+		(1 0 1)))
+	      "Complex editing through voice" tar
+	      ((:url . "https://github.com/ErikPrantare/cursorfree.el")
+	       (:commit . "4447f905dd5f389059e7cfeee21dd71a289bfa46")
+	       (:revdesc . "4447f905dd5f")
+	       (:keywords "convenience")
+	       (:authors
+		("Erik Präntare" . "erik@prantare.xyz"))
+	       (:maintainers
+		("Erik Präntare" . "erik@prantare.xyz"))
+	       (:maintainer "Erik Präntare" . "erik@prantare.xyz"))])
  (custom-keymap .
 		[(0 1 0 1 -4 20250906 1450)
 		 ((emacs
@@ -19157,13 +19219,13 @@
 			("Ayush Jha" . "ayys@duck.com"))
 		       (:maintainer "Ayush Jha" . "ayys@duck.com"))])
  (easysession .
-	      [(0 1 0 1 -4 20260828 1350)
+	      [(0 1 0 1 -4 20260906 1821)
 	       ((emacs
 		 (26 1)))
 	       "Persist and restore your sessions (desktop.el alternative)" tar
 	       ((:url . "https://github.com/jamescherti/easysession.el")
-		(:commit . "a3d8319d8960fe5119e798f904ff47768281ccbd")
-		(:revdesc . "a3d8319d8960")
+		(:commit . "7904fd83afcacedfdabe59a99356c92efc9b49f6")
+		(:revdesc . "7904fd83afca")
 		(:keywords "convenience" "frames" "files")
 		(:authors
 		 ("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -20042,7 +20104,7 @@
 		("Marian Schubert" . "marian.schubert@gmail.com"))
 	       (:maintainer "Marian Schubert" . "marian.schubert@gmail.com"))])
  (ejc-sql .
-	  [(0 1 0 1 -4 20241111 117)
+	  [(0 1 0 1 -4 20260906 304)
 	   ((emacs
 	     (26 3))
 	    (clomacs
@@ -20053,8 +20115,8 @@
 	     (1 7 3)))
 	   "Emacs SQL client uses Clojure JDBC" tar
 	   ((:url . "https://github.com/kostafey/ejc-sql")
-	    (:commit . "1fc5a38d974aed401424ecd3b49a74e0a0ebc3bb")
-	    (:revdesc . "1fc5a38d974a")
+	    (:commit . "0324fde684fbf81b8eb4290e91b4aac918cdde19")
+	    (:revdesc . "0324fde684fb")
 	    (:keywords "sql" "jdbc")
 	    (:authors
 	     ("Kostafey" . "kostafey@gmail.com"))
@@ -31388,16 +31450,16 @@
 	      ("Nikolaj Schumacher" . "bugs*nschumde"))
 	     (:maintainer "Nikolaj Schumacher" . "bugs*nschumde"))])
  (full-gtd .
-	   [(0 1 0 1 -4 20260906 1351)
+	   [(0 1 0 1 -4 20260906 1735)
 	    ((emacs
 	      (29 1))
 	     (org
 	      (9 3)))
 	    "Complete Getting Things Done (GTD) workflow for org-mode" tar
 	    ((:url . "https://github.com/OverbearingPearl/full-gtd")
-	     (:commit . "526e94404692d36715db22248dc8a39dadf1ccdd")
-	     (:revdesc . "526e94404692")
-	     (:keywords "outlines" "tools" "convenience" "org" "todo" "gtd" "calendar")
+	     (:commit . "624df07a45e3289d395ee54baeba88087d0b0cd6")
+	     (:revdesc . "624df07a45e3")
+	     (:keywords "outlines" "tools" "convenience" "calendar")
 	     (:authors
 	      ("OverbearingPearl" . "OverbearingPearl@outlook.com"))
 	     (:maintainers
@@ -42994,17 +43056,17 @@
 		  ("Feng Shu" . "tumashu@163.com"))
 		 (:maintainer "Feng Shu" . "tumashu@163.com"))])
  (ivy-prescient .
-		[(0 1 0 1 -4 20260628 2243)
+		[(0 1 0 1 -4 20260906 1958)
 		 ((emacs
-		   (25 1))
+		   (26 1))
 		  (prescient
 		   (6 1 0))
 		  (ivy
 		   (0 11 0)))
 		 "Prescient.el + Ivy" tar
 		 ((:url . "https://github.com/raxod502/prescient.el")
-		  (:commit . "5649977fa7789e4615efeca09397ed7eccd06dfc")
-		  (:revdesc . "5649977fa778")
+		  (:commit . "ae52777d6b6b856b54c85441c7a713949f1720de")
+		  (:revdesc . "ae52777d6b6b")
 		  (:keywords "extensions")
 		  (:authors
 		   ("Radian LLC" . "contact+prescient@radian.codes"))
@@ -49504,26 +49566,6 @@
 		      ((:url . "http://zk-phi.github.io/")
 		       (:commit . "903ec91872760e47c0e5715795f8465173615098")
 		       (:revdesc . "903ec9187276"))])
- (magik-company .
-		[(0 1 0 1 -4 20260904 1039)
-		 ((emacs
-		   (29 1))
-		  (magik-mode
-		   (0 6 5))
-		  (company
-		   (1 0 2))
-		  (yasnippet
-		   (0 14 0)))
-		 "Magik backend for company-mode" tar
-		 ((:url . "https://github.com/reinierkof/magik-company")
-		  (:commit . "96fbd0c04fb392d20bbf8e82934dc561ed47509f")
-		  (:revdesc . "96fbd0c04fb3")
-		  (:keywords "convenience")
-		  (:authors
-		   ("Reinier Koffijberg" . "reinierkof@gmail.com"))
-		  (:maintainers
-		   ("Reinier Koffijberg" . "reinierkof@gmail.com"))
-		  (:maintainer "Reinier Koffijberg" . "reinierkof@gmail.com"))])
  (magik-mode .
 	     [(0 1 0 1 -4 20260905 821)
 	      ((emacs
@@ -65866,14 +65908,6 @@
 	     ("Nicolas Lamirault" . "nicolas.lamirault@gmail.com")
 	     ("Eric Hansen" . "hansen.c.eric@gmail.com"))
 	    (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@gmail.com"))])
- (pi-coding-agent .
-		  [(0 1 0 1 -4 20260902 1852)
-		   ((emacs
-		     (29 1)))
-		   "Deprecated aliases for piem" tar
-		   ((:url . "https://github.com/dnouri/pi-coding-agent")
-		    (:commit . "128cad878db839f732a41442f9d52f160c27a197")
-		    (:revdesc . "128cad878db8"))])
  (pianobar .
 	   [(0 1 0 1 -4 20201002 1756)
 	    nil "Thin wrapper for Pianobar, a Pandora Radio client" tar
