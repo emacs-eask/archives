@@ -14351,13 +14351,13 @@
 		    ("Peter Hoeg" . "(peter@hoeg.com)"))
 		   (:maintainer "Peter Hoeg" . "(peter@hoeg.com)"))])
  (cui .
-      [(0 1 0 1 -4 20260827 1748)
+      [(0 1 0 1 -4 20260906 1257)
        ((emacs
 	 (29 1)))
        "Chat blocks in org-mode for LLM and agents" tar
        ((:url . "https://codeberg.org/Anoncheg/emacs-cui")
-	(:commit . "fa96d96714b391cbe85a1c956520985eae3cc18a")
-	(:revdesc . "fa96d96714b3")
+	(:commit . "52849fb8c2be46ad908bfee2a42cc9d79b797704")
+	(:revdesc . "52849fb8c2be")
 	(:keywords "org" "comm" "url" "link")
 	(:authors
 	 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
@@ -49517,7 +49517,7 @@
 	     (:revdesc . "9b9277021cd0")
 	     (:keywords "convenience"))])
  (magent .
-	 [(0 1 0 1 -4 20260907 524)
+	 [(0 1 0 1 -4 20260907 1123)
 	  ((emacs
 	    (29 1))
 	   (gptel
@@ -49532,8 +49532,8 @@
 	    (0 66 1)))
 	  "AI coding agent" tar
 	  ((:url . "https://github.com/jamie-cui/magent")
-	   (:commit . "d051ba5e982550150e9944a65776d6305d6d15b7")
-	   (:revdesc . "d051ba5e9825")
+	   (:commit . "4a37cd366c2c303e48a88caa8f80e2334acb2565")
+	   (:revdesc . "4a37cd366c2c")
 	   (:keywords "tools" "ai" "copilot")
 	   (:authors
 	    ("Jamie Cui" . "jamie.cui@outlook.com"))
@@ -49580,7 +49580,7 @@
 	       (:revdesc . "75245de0543f")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20260901 1810)
+	[(0 1 0 1 -4 20260907 1411)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -49599,8 +49599,8 @@
 	   (3 5)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "659f89955cf60fe3d4326d881c412df06c69680d")
-	  (:revdesc . "659f89955cf6")
+	  (:commit . "9cb07d820d2b9ebbe9940e4d493293522d4e21d2")
+	  (:revdesc . "9cb07d820d2b")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -50951,6 +50951,20 @@
 	     (:maintainers
 	      ("Marty Hiatt" . "martianh@disroot.org"))
 	     (:maintainer "Marty Hiatt" . "martianh@disroot.org"))])
+ (material-icons .
+		 [(0 1 0 1 -4 20260907 853)
+		  ((emacs
+		    (27 1)))
+		  "Material Icon Theme integration" tar
+		  ((:url . "https://github.com/zHaOdANiuu/material-icons.el")
+		   (:commit . "bce68b2a83698d59ebc5292024cbbd58623d3891")
+		   (:revdesc . "bce68b2a8369")
+		   (:keywords "convenience" "icons" "svg" "theme")
+		   (:authors
+		    ("Daniu Zhao" . "zhaodaniu1@gmail.com"))
+		   (:maintainers
+		    ("Daniu Zhao" . "zhaodaniu1@gmail.com"))
+		   (:maintainer "Daniu Zhao" . "zhaodaniu1@gmail.com"))])
  (material-theme .
 		 [(2015 1 -4 20210904 1226)
 		  ((emacs
@@ -55394,6 +55408,30 @@
 	       (:maintainers
 		("John Wiegley" . "johnw@newartisans.com"))
 	       (:maintainer "John Wiegley" . "johnw@newartisans.com"))])
+ (nix3 .
+       [(0 1 0 1 -4 20260907 849)
+	((emacs
+	  (29 1))
+	 (promise
+	  (1 1))
+	 (compat
+	  (29 1))
+	 (magit-section
+	  (4 5))
+	 (s
+	  (1 12))
+	 (transient
+	  (0 13)))
+	"Frontend to experimental commands of Nix" tar
+	((:url . "https://github.com/emacs-twist/nix3.el")
+	 (:commit . "ffd3be0803e9238ceaca31338e194d34099042de")
+	 (:revdesc . "ffd3be0803e9")
+	 (:keywords "processes")
+	 (:authors
+	  ("Akira Komamura" . "akira.komamura@gmail.com"))
+	 (:maintainers
+	  ("Akira Komamura" . "akira.komamura@gmail.com"))
+	 (:maintainer "Akira Komamura" . "akira.komamura@gmail.com"))])
  (nixfmt .
 	 [(0 1 1 -4 20240724 1531)
 	  ((emacs
@@ -61044,13 +61082,13 @@
 		       ("Rob Plant" . "rob@robertplant.io"))
 		      (:maintainer "Rob Plant" . "rob@robertplant.io"))])
  (org-repeat-by-cron .
-		     [(0 1 0 1 -4 20260817 1415)
+		     [(0 1 0 1 -4 20260907 1508)
 		      ((emacs
 			(24 4)))
 		      "An Org mode task repeater based on Cron expressions" tar
 		      ((:url . "https://github.com/TomoeMami/org-repeat-by-cron.el")
-		       (:commit . "5f4588f690c60f47f9488c4a88a2a5f49e6111c6")
-		       (:revdesc . "5f4588f690c6")
+		       (:commit . "962f80e39a0b2a9f4c635cefc47212ab9b7bb7f9")
+		       (:revdesc . "962f80e39a0b")
 		       (:keywords "calendar")
 		       (:authors
 			("TomoeMami" . "trembleafterme@outlook.com"))
@@ -66052,7 +66090,7 @@
 		 ("Johann Klähn" . "johann@jklaehn.de"))
 		(:maintainer "Johann Klähn" . "johann@jklaehn.de"))])
  (pilish .
-	 [(0 1 0 1 -4 20260906 2023)
+	 [(0 1 0 1 -4 20260907 1612)
 	  ((emacs
 	    (29 1))
 	   (transient
@@ -66065,8 +66103,8 @@
 	    (0 2 0)))
 	  "Emacs frontend for pi coding agent" tar
 	  ((:url . "https://github.com/dnouri/pilish")
-	   (:commit . "043dd368f0f58de8a183398bbd24468361a657d5")
-	   (:revdesc . "043dd368f0f5")
+	   (:commit . "3c13bb0f03a602226ab638c1bf096e32304e0a26")
+	   (:revdesc . "3c13bb0f03a6")
 	   (:keywords "ai" "llm" "ai-pair-programming" "tools")
 	   (:authors
 	    ("Daniel Nouri" . "daniel.nouri@gmail.com"))
@@ -66198,13 +66236,13 @@
 	    ("Xu Chunyang" . "mail@xuchunyang.me"))
 	   (:maintainer "Xu Chunyang" . "mail@xuchunyang.me"))])
  (pinyin-isearch .
-		 [(0 1 0 1 -4 20260906 1440)
+		 [(0 1 0 1 -4 20260907 1509)
 		  ((emacs
 		    (28 1)))
 		  "Pinyin mode for isearch" tar
 		  ((:url . "https://github.com/Anoncheg1/pinyin-isearch")
-		   (:commit . "dbf9a0b28f6552f7427bad4e4be58c2a725b889f")
-		   (:revdesc . "dbf9a0b28f65")
+		   (:commit . "f90625bfaf74a90e06b62d03f23190cb4b1af665")
+		   (:revdesc . "f90625bfaf74")
 		   (:keywords "chinese" "isearch" "matching" "convenience")
 		   (:authors
 		    ("Anoncheg" . "vitalij@gmx.com"))
@@ -81250,13 +81288,13 @@
 	    ("Chunyang Xu" . "xuchunyang.me@gmail.com"))
 	   (:maintainer "Chunyang Xu" . "xuchunyang.me@gmail.com"))])
  (thrift .
-	 [(0 1 0 1 -4 20260831 513)
+	 [(0 1 0 1 -4 20260907 807)
 	  ((emacs
 	    (24)))
 	  "Major mode for fbthrift and Apache Thrift files" tar
 	  ((:url . "https://github.com/facebook/fbthrift")
-	   (:commit . "3de249c884d36c370efddae76ba131063888fb0f")
-	   (:revdesc . "3de249c884d3")
+	   (:commit . "3e73ebb14d65b9cff855f6c3ad17daee5730031b")
+	   (:revdesc . "3e73ebb14d65")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -84115,15 +84153,15 @@
 		   ("Damien Cassou" . "damien.cassou@gmail.com"))
 		  (:maintainer "Damien Cassou" . "damien.cassou@gmail.com"))])
  (uniline .
-	  [(0 1 0 1 -4 20260825 819)
+	  [(0 1 0 1 -4 20260907 1654)
 	   ((emacs
 	     (29 1))
 	    (hydra
 	     (0 15 0)))
 	   "Add▶ ■─UNICODE based diagrams─■ to▶ ■─text files─■" tar
 	   ((:url . "https://github.com/tbanel/uniline")
-	    (:commit . "7760962c0c2fd81fa9b001c343dd1a540dc68329")
-	    (:revdesc . "7760962c0c2f")
+	    (:commit . "de69977255b9074d5d01eb291eb0bfd92575fea2")
+	    (:revdesc . "de69977255b9")
 	    (:keywords "convenience" "text"))])
  (unipoint .
 	   [(0 1 0 1 -4 20140113 2224)
