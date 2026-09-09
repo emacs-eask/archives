@@ -14351,13 +14351,13 @@
 		    ("Peter Hoeg" . "(peter@hoeg.com)"))
 		   (:maintainer "Peter Hoeg" . "(peter@hoeg.com)"))])
  (cui .
-      [(0 1 0 1 -4 20260906 1257)
+      [(0 1 0 1 -4 20260909 620)
        ((emacs
 	 (29 1)))
        "Chat blocks in org-mode for LLM and agents" tar
        ((:url . "https://codeberg.org/Anoncheg/emacs-cui")
-	(:commit . "52849fb8c2be46ad908bfee2a42cc9d79b797704")
-	(:revdesc . "52849fb8c2be")
+	(:commit . "59d9bd8783238817df3f34583b5ae3d9600768e4")
+	(:revdesc . "59d9bd878323")
 	(:keywords "org" "comm" "url" "link")
 	(:authors
 	 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
@@ -20830,15 +20830,15 @@
 	      ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	     (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (elfeed .
-	 [(0 1 0 1 -4 20260829 1230)
+	 [(0 1 0 1 -4 20260909 758)
 	  ((emacs
 	    (29 1))
 	   (compat
 	    (31)))
 	  "An Atom/RSS feed reader" tar
 	  ((:url . "https://github.com/emacs-elfeed/elfeed")
-	   (:commit . "e61600ac3ec738b617109440304772bd02f031ba")
-	   (:revdesc . "e61600ac3ec7")
+	   (:commit . "48dc501cdb52cec9aa75038e1a368da24eec87d8")
+	   (:revdesc . "48dc501cdb52")
 	   (:keywords "network" "comm" "hypermedia")
 	   (:authors
 	    ("Christopher Wellons" . "wellons@nullprogram.com"))
@@ -48125,15 +48125,15 @@
 	      ("Claus Brunzema" . "mail@cbrunzema.de"))
 	     (:maintainer "Claus Brunzema" . "mail@cbrunzema.de"))])
  (llama .
-	[(0 1 0 1 -4 20260601 1455)
+	[(0 1 0 1 -4 20260909 859)
 	 ((emacs
 	   (26 1))
 	  (compat
 	   (31 0)))
 	 "Compact syntax for short lambda" tar
 	 ((:url . "https://github.com/tarsius/llama")
-	  (:commit . "4d4024048053b898a01521046e0f063ee47615b0")
-	  (:revdesc . "4d4024048053")
+	  (:commit . "cfea618f14bc8317f8e4947fe10000b229b9a447")
+	  (:revdesc . "cfea618f14bc")
 	  (:keywords "extensions")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.llama@jonas.bernoulli.dev"))
@@ -53142,13 +53142,13 @@
 		    (:revdesc . "2395b8af83fb")
 		    (:keywords "theme" "dark" "faces"))])
  (morlock .
-	  [(0 1 0 1 -4 20260601 1518)
+	  [(0 1 0 1 -4 20260909 907)
 	   ((emacs
 	     (29 1)))
 	   "More font-lock keywords for elisp" tar
 	   ((:url . "https://github.com/tarsius/morlock")
-	    (:commit . "1fd3cc79b1fa1f69386d6b2fa058e2477d35a4e7")
-	    (:revdesc . "1fd3cc79b1fa")
+	    (:commit . "390e9e01df7c21c1d25a1f55f0f29824cb27cbb1")
+	    (:revdesc . "390e9e01df7c")
 	    (:keywords "convenience")
 	    (:authors
 	     ("Jonas Bernoulli" . "emacs.morlock@jonas.bernoulli.dev"))
@@ -58806,25 +58806,15 @@
 			     ("Xuqing Jia" . "jxq@jxq.me"))
 			    (:maintainer "Xuqing Jia" . "jxq@jxq.me"))])
  (org-books .
-	    [(0 1 0 1 -4 20260909 457)
-	     ((enlive
-	       (0 0 1))
-	      (s
-	       (1 11 0))
-	      (helm
-	       (2 9 2))
-	      (helm-org
-	       (1 0))
-	      (dash
-	       (2 14 1))
-	      (org
+	    [(0 1 0 1 -4 20260909 611)
+	     ((org
 	       (9 3))
 	      (emacs
 	       (25)))
-	     "Reading list management with Org mode and helm" tar
+	     "Reading list management with Org mode" tar
 	     ((:url . "https://github.com/lepisma/org-books")
-	      (:commit . "56feae1c8fbd0298db8cbcf84a815ecef0c46e7b")
-	      (:revdesc . "56feae1c8fbd")
+	      (:commit . "e2670bf571bcdefc71d11206535a3c920a3206c3")
+	      (:revdesc . "e2670bf571bc")
 	      (:keywords "outlines")
 	      (:authors
 	       ("Abhinav Tushar" . "abhinav@lepisma.xyz"))
@@ -66236,13 +66226,13 @@
 	    ("Xu Chunyang" . "mail@xuchunyang.me"))
 	   (:maintainer "Xu Chunyang" . "mail@xuchunyang.me"))])
  (pinyin-isearch .
-		 [(0 1 0 1 -4 20260908 1917)
+		 [(0 1 0 1 -4 20260909 959)
 		  ((emacs
 		    (28 1)))
 		  "Pinyin mode for isearch" tar
 		  ((:url . "https://github.com/Anoncheg1/pinyin-isearch")
-		   (:commit . "d0654d137f68577449206ea99c53220f7c161c48")
-		   (:revdesc . "d0654d137f68")
+		   (:commit . "38f1bf0bec224f1b8e700016f8f1b19c6de2acba")
+		   (:revdesc . "38f1bf0bec22")
 		   (:keywords "chinese" "isearch" "matching" "convenience")
 		   (:authors
 		    ("Anoncheg" . "vitalij@gmx.com"))
@@ -82428,7 +82418,7 @@
 			      (:revdesc . "57911a5065a6")
 			      (:keywords "convenience" "tools"))])
  (transient .
-	    [(0 1 0 1 -4 20260901 1451)
+	    [(0 1 0 1 -4 20260909 901)
 	     ((emacs
 	       (28 1))
 	      (compat
@@ -82441,8 +82431,8 @@
 	       (2 24)))
 	     "Transient commands" tar
 	     ((:url . "https://github.com/magit/transient")
-	      (:commit . "0cacc84ff0c7df126e194666ff8b8a1e6082e796")
-	      (:revdesc . "0cacc84ff0c7")
+	      (:commit . "03c8ccc6aab24021787aada2be12d64cb1f436e8")
+	      (:revdesc . "03c8ccc6aab2")
 	      (:keywords "extensions")
 	      (:authors
 	       ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
