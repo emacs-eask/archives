@@ -1214,17 +1214,17 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260908 226)
+	      [(0 1 0 1 -4 20260910 1048)
 	       ((emacs
 		 (29 1))
 		(shell-maker
-		 (0 97 2))
+		 (0 97 3))
 		(acp
 		 (0 15 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "cc24345e9db2a205f7b8821015f89be3de7dd1e4")
-		(:revdesc . "cc24345e9db2"))])
+		(:commit . "82364bc1ff94a8f15210f74a336b7ecc85c076d8")
+		(:revdesc . "82364bc1ff94"))])
  (agent-shell-math-renderer .
 			    [(0 1 0 1 -4 20260909 1534)
 			     ((emacs
@@ -6676,13 +6676,13 @@
 		 ("Samuel W. Flint" . "swflint@flintfam.org"))
 		(:maintainer "Samuel W. Flint" . "swflint@flintfam.org"))])
  (buffer-terminator .
-		    [(0 1 0 1 -4 20260826 245)
+		    [(0 1 0 1 -4 20260910 1344)
 		     ((emacs
 		       (27 1)))
 		     "Safely Terminate/Kill Buffers Automatically" tar
 		     ((:url . "https://github.com/jamescherti/buffer-terminator.el")
-		      (:commit . "6b6b648127c3d3ac4b7e6ce0a701ddbb8325151c")
-		      (:revdesc . "6b6b648127c3")
+		      (:commit . "8e1c3b2c73c4acdd9326e8d9f38e38a9fd58ef0b")
+		      (:revdesc . "8e1c3b2c73c4")
 		      (:keywords "convenience" "files")
 		      (:authors
 		       ("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -8618,7 +8618,7 @@
 		(:commit . "c2bb425eaff0975e0c7081f282d291f7853f8376")
 		(:revdesc . "c2bb425eaff0"))])
  (cider .
-	[(0 1 0 1 -4 20260903 952)
+	[(0 1 0 1 -4 20260910 1543)
 	 ((emacs
 	   (28))
 	  (clojure-mode
@@ -8639,8 +8639,8 @@
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
 	 ((:url . "https://www.github.com/clojure-emacs/cider")
-	  (:commit . "cbd145c8896aae76483079ec446bc896fd419e53")
-	  (:revdesc . "cbd145c8896a")
+	  (:commit . "0ff4589284cea6b25e70fd39332bacd87cf5f80f")
+	  (:revdesc . "0ff4589284ce")
 	  (:keywords "languages" "clojure" "cider")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
@@ -12240,15 +12240,15 @@
 		    ("Jannis Pohlmann" . "contact@jannispohlmann.de"))
 		   (:maintainer "Jannis Pohlmann" . "contact@jannispohlmann.de"))])
  (consult .
-	  [(0 1 0 1 -4 20260906 2048)
+	  [(0 1 0 1 -4 20260910 1121)
 	   ((emacs
 	     (29 1))
 	    (compat
 	     (31)))
 	   "Search and navigate via completing-read" tar
 	   ((:url . "https://github.com/minad/consult")
-	    (:commit . "4587c6ef80f042d1ae8af2cf6c5a20544865b294")
-	    (:revdesc . "4587c6ef80f0")
+	    (:commit . "ad07150e96f41a4e0a8ce0b2d6ccddd5de2f8077")
+	    (:revdesc . "ad07150e96f4")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainers
 	     ("Daniel Mendler" . "mail@daniel-mendler.de"))
@@ -14153,7 +14153,7 @@
 	 ("Ulf Jasper" . "ulf.jasper@web.de"))
 	(:maintainer "Ulf Jasper" . "ulf.jasper@web.de"))])
  (ct .
-     [(0 1 0 1 -4 20260908 1343)
+     [(0 1 0 1 -4 20260910 1219)
       ((emacs
 	(26 1))
        (dash
@@ -14162,8 +14162,8 @@
 	(1 0 0)))
       "Color Tools - a color api" tar
       ((:url . "https://github.com/neeasade/ct.el")
-       (:commit . "6c74ed036abf6c5d6caf2cae249d2f1832a25471")
-       (:revdesc . "6c74ed036abf")
+       (:commit . "c6036ca586cfb13b3bd83cfed0640e875dfe62cf")
+       (:revdesc . "c6036ca586cf")
        (:keywords "convenience" "color" "theming" "background" "rgb" "hsv" "hsl" "hct" "lab" "oklab" "oklch"))])
  (ctable .
 	 [(0 1 3 1 -4 20210128 629)
@@ -14351,13 +14351,13 @@
 		    ("Peter Hoeg" . "(peter@hoeg.com)"))
 		   (:maintainer "Peter Hoeg" . "(peter@hoeg.com)"))])
  (cui .
-      [(0 1 0 1 -4 20260909 620)
+      [(0 1 0 1 -4 20260910 1444)
        ((emacs
 	 (29 1)))
        "Chat blocks in org-mode for LLM and agents" tar
        ((:url . "https://codeberg.org/Anoncheg/emacs-cui")
-	(:commit . "59d9bd8783238817df3f34583b5ae3d9600768e4")
-	(:revdesc . "59d9bd878323")
+	(:commit . "c8d1ac5184158fb9fe84551a58a387b4d651c593")
+	(:revdesc . "c8d1ac518415")
 	(:keywords "org" "comm" "url" "link")
 	(:authors
 	 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
@@ -34774,7 +34774,7 @@
 		(:revdesc . "326e0abb8c6d")
 		(:keywords "comm"))])
  (gptel-agent-harness .
-		      [(0 1 0 1 -4 20260909 136)
+		      [(0 1 0 1 -4 20260910 1400)
 		       ((emacs
 			 (29 1))
 			(compat
@@ -34785,8 +34785,8 @@
 			 (0 0 1)))
 		       "Autonomous coding-agent harness for gptel-agent" tar
 		       ((:url . "https://github.com/beacoder/gptel-agent-harness")
-			(:commit . "a808a1ca67057d88e769d56a50100744037cb534")
-			(:revdesc . "a808a1ca6705")
+			(:commit . "6abadc72125262cf65a455f30e5d3adf7ad63967")
+			(:revdesc . "6abadc721252")
 			(:keywords "programming" "convenience" "ai" "agent")
 			(:authors
 			 ("Huming Chen" . "chenhuming@gmail.com"))
@@ -46176,15 +46176,15 @@
 		    ("inj0h" . ""))
 		   (:maintainer "inj0h" . ""))])
  (kusanagi-theme .
-		 [(0 1 0 1 -4 20260629 307)
+		 [(0 1 0 1 -4 20260910 1453)
 		  ((emacs
 		    (30 1))
 		   (modus-themes
 		    (5 0 0)))
 		  "Ghost in the Shell inspired dark theme built on Modus" tar
 		  ((:url . "https://github.com/LionyxML/kusanagi-theme")
-		   (:commit . "9bc24e173addb206a583fcd23086d79cd3e6c360")
-		   (:revdesc . "9bc24e173add")
+		   (:commit . "db50fec23553c5028c19463bfcf983036ed15552")
+		   (:revdesc . "db50fec23553")
 		   (:keywords "faces" "themes")
 		   (:authors
 		    ("Rahul Martim Juliato" . "rahul.juliato@gmail.com"))
@@ -52412,13 +52412,13 @@
 		("Mariusz Klochowicz" . "mariusz@klochowicz.com"))
 	       (:maintainer "Mariusz Klochowicz" . "mariusz@klochowicz.com"))])
  (mistty .
-	 [(0 1 0 1 -4 20260908 2238)
+	 [(0 1 0 1 -4 20260910 1153)
 	  ((emacs
 	    (29 1)))
 	  "Shell/Comint alternative based on term.el" tar
 	  ((:url . "https://github.com/szermatt/mistty")
-	   (:commit . "87211c9752fa4c40b92d5ca5a816a2f9cfeec59b")
-	   (:revdesc . "87211c9752fa")
+	   (:commit . "e878f82bb7512448f794bf9f7f79f08708a9bf2a")
+	   (:revdesc . "e878f82bb751")
 	   (:keywords "convenience" "unix")
 	   (:authors
 	    ("Stephane Zermatten" . "szermatt@gmx.net"))
@@ -52628,13 +52628,13 @@
 	    (:revdesc . "d9ec83a00317")
 	    (:keywords "convenience" "modal-editing"))])
  (modalka .
-	  [(0 1 0 1 -4 20260802 936)
+	  [(0 1 0 1 -4 20260910 1443)
 	   ((emacs
 	     (24 4)))
 	   "Modal editing your way" tar
 	   ((:url . "https://github.com/mrkkrp/modalka")
-	    (:commit . "85d0901645982238341ba94b7c14439825dd95b5")
-	    (:revdesc . "85d090164598")
+	    (:commit . "9bc73786bbd038e97bae7e31d3341a01085a300e")
+	    (:revdesc . "9bc73786bbd0")
 	    (:keywords "convenience")
 	    (:authors
 	     ("Mark Karpov" . "markkarpov92@gmail.com"))
@@ -52816,13 +52816,13 @@
 		      ("Oliwier Czerwiński" . "oliwier.czerwi@proton.me"))
 		     (:maintainer "Oliwier Czerwiński" . "oliwier.czerwi@proton.me"))])
  (modus-themes .
-	       [(0 1 0 1 -4 20260904 1349)
+	       [(0 1 0 1 -4 20260910 1228)
 		((emacs
 		  (28 1)))
 		"Elegant, highly legible and customizable themes" tar
 		((:url . "https://github.com/protesilaos/modus-themes")
-		 (:commit . "bcf065b803439524ebe8b96f4584643562fee343")
-		 (:revdesc . "bcf065b80343")
+		 (:commit . "4fdacb698bf6d71c945c8d5ff8b356581439dff9")
+		 (:revdesc . "4fdacb698bf6")
 		 (:keywords "faces" "theme" "accessibility")
 		 (:authors
 		  ("Protesilaos" . "info@protesilaos.com"))
@@ -68637,15 +68637,15 @@
 	     ("Ben Moon" . "guiltydolphin@gmail.com"))
 	    (:maintainer "Ben Moon" . "guiltydolphin@gmail.com"))])
  (promptu .
-	  [(0 1 0 1 -4 20260904 1920)
+	  [(0 1 0 1 -4 20260910 1641)
 	   ((emacs
 	     (28 1))
 	    (transient
 	     (0 5 0)))
 	   "Compose LLM prompts from building blocks" tar
 	   ((:url . "https://github.com/mrcnski/promptu.el")
-	    (:commit . "3d1c6c70e84bfdb1633029f04354473f9d947929")
-	    (:revdesc . "3d1c6c70e84b")
+	    (:commit . "79013d1b9cfe5cfe1a19bdb33ca4b9dfde4a2fa9")
+	    (:revdesc . "79013d1b9cfe")
 	    (:keywords "convenience" "tools")
 	    (:authors
 	     ("Marcin Swieczkowski" . "marcin@realemail.net"))
@@ -76984,15 +76984,15 @@
 	  (:revdesc . "89161d8b3c19")
 	  (:keywords "convenience" "united-editing-method"))])
  (snippy .
-	 [(0 1 0 1 -4 20260727 1742)
+	 [(0 1 0 1 -4 20260910 1328)
 	  ((emacs
 	    (30 1))
 	   (yasnippet
 	    (0 14 0)))
 	  "Vscode snippet support with Yasnippet" tar
 	  ((:url . "https://github.com/MiniApollo/snippy")
-	   (:commit . "62ae0641a2a7872b891122d7fbe1451df89cb907")
-	   (:revdesc . "62ae0641a2a7")
+	   (:commit . "2cacd95fb8d5f6c3c5ae69b2508248bfd92ba64b")
+	   (:revdesc . "2cacd95fb8d5")
 	   (:keywords "convenience" "emulations")
 	   (:authors
 	    ("Mark Surmann" . "surmannmark@gmail.com"))
