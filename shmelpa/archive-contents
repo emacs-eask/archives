@@ -1214,7 +1214,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260911 42)
+	      [(0 1 0 1 -4 20260911 1130)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1223,8 +1223,8 @@
 		 (0 15 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "9716a9e6cdaf72429fcab3f4eae6e076d966404e")
-		(:revdesc . "9716a9e6cdaf"))])
+		(:commit . "6bee8625bc4636f657f74d5da55e288de171d7e3")
+		(:revdesc . "6bee8625bc46"))])
  (agent-shell-math-renderer .
 			    [(0 1 0 1 -4 20260909 1534)
 			     ((emacs
@@ -19335,7 +19335,7 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20260909 1305)
+      [(0 1 0 1 -4 20260911 1500)
        ((emacs
 	 (28 1))
 	(dash
@@ -19350,8 +19350,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "41fa04593f8840230ed9f3052920387f31c5c65a")
-	(:revdesc . "41fa04593f88")
+	(:commit . "d7c23f8bd353456f8faa25fef48cb55916c09190")
+	(:revdesc . "d7c23f8bd353")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
@@ -40416,13 +40416,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20260910 2208)
+	    [(0 1 0 1 -4 20260911 1506)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "600afd51a23ba1928ca49f9b977d2c2648839f59")
-	      (:revdesc . "600afd51a23b")
+	      (:commit . "50945472c3600dcce3bd8f823aaf9906ff4e74df")
+	      (:revdesc . "50945472c360")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -50934,17 +50934,19 @@
 	   ("Dimas Firmansyah" . "deirn@bai.lol"))
 	  (:maintainer "Dimas Firmansyah" . "deirn@bai.lol"))])
  (mastodon .
-	   [(0 1 0 1 -4 20260906 1728)
+	   [(0 1 0 1 -4 20260911 1530)
 	    ((emacs
 	      (29 1))
+	     (compat
+	      (31 1))
 	     (persist
 	      (0 8))
 	     (tp
 	      (0 8)))
 	    "Client for fediverse services using the Mastodon API" tar
 	    ((:url . "https://codeberg.org/martianh/mastodon.el")
-	     (:commit . "8047ceebe9cc18e2fb3daa2e0ac15669851c480f")
-	     (:revdesc . "8047ceebe9cc")
+	     (:commit . "020cdc49a6a9f35b106fc97a73acef5038dd071a")
+	     (:revdesc . "020cdc49a6a9")
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com")
 	      ("Marty Hiatt" . "martianh@disroot.org"))
