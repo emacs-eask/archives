@@ -1214,7 +1214,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260910 1048)
+	      [(0 1 0 1 -4 20260911 42)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1223,8 +1223,8 @@
 		 (0 15 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "82364bc1ff94a8f15210f74a336b7ecc85c076d8")
-		(:revdesc . "82364bc1ff94"))])
+		(:commit . "9716a9e6cdaf72429fcab3f4eae6e076d966404e")
+		(:revdesc . "9716a9e6cdaf"))])
  (agent-shell-math-renderer .
 			    [(0 1 0 1 -4 20260909 1534)
 			     ((emacs
@@ -24484,15 +24484,15 @@
 			  ("Bryan Allred" . "bryan@revolvingcow.com"))
 			 (:maintainer "Bryan Allred" . "bryan@revolvingcow.com"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20260905 2034)
+		  [(0 4 1 1 -4 20260910 2204)
 		   ((emacs
 		     (29 1))
 		    (evil
 		     (1 2 13)))
 		   "A set of keybindings for Evil mode" tar
 		   ((:url . "https://github.com/emacs-evil/evil-collection")
-		    (:commit . "783c96b9901417cb8b6df63ab606387fa72dc922")
-		    (:revdesc . "783c96b99014")
+		    (:commit . "1513aae3652101caf3227bcf7349e2e6fded3210")
+		    (:revdesc . "1513aae36521")
 		    (:keywords "evil" "tools")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
@@ -40416,13 +40416,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20260909 2232)
+	    [(0 1 0 1 -4 20260910 2208)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "ea68374c34dd4af000b9502d65cf55d5cbc530cd")
-	      (:revdesc . "ea68374c34dd")
+	      (:commit . "600afd51a23ba1928ca49f9b977d2c2648839f59")
+	      (:revdesc . "600afd51a23b")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -59963,15 +59963,17 @@
 		      ("Korytov Pavel" . "thexcloud@gmail.com"))
 		     (:maintainer "Korytov Pavel" . "thexcloud@gmail.com"))])
  (org-kanban .
-	     [(0 1 0 1 -4 20250329 2201)
-	      ((s
-		(0))
+	     [(0 1 0 1 -4 20260910 2202)
+	      ((emacs
+		(31 1))
+	       (s
+		(1 0))
 	       (dash
 		(2 17 0)))
 	      "Kanban dynamic block for org-mode" tar
 	      ((:url . "https://github.com/gizmomogwai/org-kanban")
-	       (:commit . "bc7864f2140d3ed510ec0ecd60c6d3d8b8589ea4")
-	       (:revdesc . "bc7864f2140d")
+	       (:commit . "d79668fded3e9e13c8238f13f053e49ceebf238d")
+	       (:revdesc . "d79668fded3e")
 	       (:keywords "org-mode" "org" "kanban" "tools")
 	       (:authors
 		("Christian Köstlin" . "christian.koestlin@gmail.com"))
@@ -68637,15 +68639,15 @@
 	     ("Ben Moon" . "guiltydolphin@gmail.com"))
 	    (:maintainer "Ben Moon" . "guiltydolphin@gmail.com"))])
  (promptu .
-	  [(0 1 0 1 -4 20260910 1641)
+	  [(0 1 0 1 -4 20260910 2252)
 	   ((emacs
 	     (28 1))
 	    (transient
 	     (0 5 0)))
 	   "Compose LLM prompts from building blocks" tar
 	   ((:url . "https://github.com/mrcnski/promptu.el")
-	    (:commit . "79013d1b9cfe5cfe1a19bdb33ca4b9dfde4a2fa9")
-	    (:revdesc . "79013d1b9cfe")
+	    (:commit . "2a69977071fa7345e186eb0a187abb8b0a38224f")
+	    (:revdesc . "2a69977071fa")
 	    (:keywords "convenience" "tools")
 	    (:authors
 	     ("Marcin Swieczkowski" . "marcin@realemail.net"))
@@ -76019,15 +76021,15 @@
 	      (:revdesc . "8c92169817f2")
 	      (:keywords "markup" "language"))])
  (slime .
-	[(0 1 0 1 -4 20260909 239)
+	[(0 1 0 1 -4 20260911 53)
 	 ((emacs
 	   (24 3))
 	  (macrostep
 	   (0 9)))
 	 "Superior Lisp Interaction Mode for Emacs" tar
 	 ((:url . "https://github.com/slime/slime")
-	  (:commit . "a93bb5e00235b72ce086faca13b33955f44b416e")
-	  (:revdesc . "a93bb5e00235")
+	  (:commit . "b7c25d3cf9d29f9babd0431de00e44ad744a81fd")
+	  (:revdesc . "b7c25d3cf9d2")
 	  (:keywords "languages" "lisp" "slime"))])
  (slime-company .
 		[(0 1 0 1 -4 20250815 757)
@@ -77694,13 +77696,13 @@
 		    ("Le Wang" . "lewang.dev.26@gmail.com"))
 		   (:maintainer "Le Wang" . "lewang.dev.26@gmail.com"))])
  (spdx .
-       [(0 1 0 1 -4 20260904 210)
+       [(0 1 0 1 -4 20260911 213)
 	((emacs
 	  (24 4)))
 	"Insert SPDX license and copyright headers" tar
 	((:url . "https://github.com/condy0919/spdx.el")
-	 (:commit . "d5aab09bfc8db29ef75b1028aa6dfc1344ff4e2d")
-	 (:revdesc . "d5aab09bfc8d")
+	 (:commit . "eb1bf43f781abf882f041c3239db038d0f97a591")
+	 (:revdesc . "eb1bf43f781a")
 	 (:keywords "license" "tools")
 	 (:authors
 	  ("Zhiwei Chen" . "condy0919@gmail.com"))
