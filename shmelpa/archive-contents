@@ -18886,13 +18886,15 @@
 	      ("Andrew Hyatt" . "ahyatt@gmail.com"))
 	     (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com"))])
  (e2ansi .
-	 [(0 1 0 1 -4 20250120 2241)
-	  ((face-explorer
-	    (0 0 6)))
+	 [(0 1 0 1 -4 20260912 2126)
+	  ((emacs
+	    (25 1))
+	   (face-explorer
+	    (0 0 7)))
 	  "Syntax highlighting for `less', powered by Emacs" tar
 	  ((:url . "https://github.com/Lindydancer/e2ansi")
-	   (:commit . "53c9c2aff5bf66864446a02a75e2e431aaef59d5")
-	   (:revdesc . "53c9c2aff5bf")
+	   (:commit . "9edc8eb3dbd33be09864ff660b44d9d0f5002b3c")
+	   (:revdesc . "9edc8eb3dbd3")
 	   (:keywords "faces" "languages"))])
  (e2wm .
        [(0 1 0 1 -4 20241104 914)
@@ -26308,11 +26310,13 @@
 	    ("Nicolas Lamirault" . "nicolas.lamirault@chmouel.com"))
 	   (:maintainer "Nicolas Lamirault" . "nicolas.lamirault@chmouel.com"))])
  (face-explorer .
-		[(0 1 0 1 -4 20250117 932)
-		 nil "Tools for faces and text properties" tar
+		[(0 1 0 1 -4 20260912 2037)
+		 ((emacs
+		   (24 1)))
+		 "Tools for faces and text properties" tar
 		 ((:url . "https://github.com/Lindydancer/face-explorer")
-		  (:commit . "4dc83bffbaf41c22795556fed63f8dc938efd9b8")
-		  (:revdesc . "4dc83bffbaf4")
+		  (:commit . "8a92383db3df635f2d988ad5a312db945cd4fe4f")
+		  (:revdesc . "8a92383db3df")
 		  (:keywords "faces"))])
  (faceup .
 	 [(0 0 5 1 -4 20170925 1946)
