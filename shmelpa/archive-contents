@@ -55846,6 +55846,20 @@
 		  (:maintainers
 		   ("aragaer" . "aragaer@gmail.com"))
 		  (:maintainer "aragaer" . "aragaer@gmail.com"))])
+ (nonogram .
+	   [(0 1 0 1 -4 20260909 654)
+	    ((emacs
+	      (27 1)))
+	    "Play nonogram (picross) puzzles with SVG graphics" tar
+	    ((:url . "https://git.andros.dev/andros/nonogram.el")
+	     (:commit . "b72785e325d4ad1f61bc2c49e24e8e5bc5e16305")
+	     (:revdesc . "b72785e325d4")
+	     (:keywords "games")
+	     (:authors
+	      ("Andros Fenollosa" . "hi@andros.dev"))
+	     (:maintainers
+	      ("Andros Fenollosa" . "hi@andros.dev"))
+	     (:maintainer "Andros Fenollosa" . "hi@andros.dev"))])
  (nord-theme .
 	     [(0 1 0 1 -4 20250312 2046)
 	      ((emacs
@@ -56230,7 +56244,7 @@
 	     ("Joost Kremers" . "joostkremers@fastmail.fm"))
 	    (:maintainer "Joost Kremers" . "joostkremers@fastmail.fm"))])
  (nu-mode .
-	  [(0 1 0 1 -4 20250211 1243)
+	  [(0 1 0 1 -4 20260913 1919)
 	   ((undo-tree
 	     (0 6 5))
 	    (ace-window
@@ -56245,8 +56259,8 @@
 	     (0)))
 	   "Modern Emacs Keybinding" tar
 	   ((:url . "https://github.com/pyluyten/emacs-nu")
-	    (:commit . "6510bc3f22e921aeb8ef3190bca1f432acc2870e")
-	    (:revdesc . "6510bc3f22e9"))])
+	    (:commit . "157c414bb451a84fc4add88c328da33ef76058fc")
+	    (:revdesc . "157c414bb451"))])
  (nu-ts-mode .
 	     [(0 1 0 1 -4 20260721 1414)
 	      ((emacs
@@ -59087,6 +59101,22 @@
 		  (:maintainers
 		   ("Aaron Jacobs" . "atheriel@gmail.com"))
 		  (:maintainer "Aaron Jacobs" . "atheriel@gmail.com"))])
+ (org-clock-dbus .
+		 [(0 1 0 1 -4 20260913 1237)
+		  ((emacs
+		    (28 1))
+		   (org
+		    (9 6 0)))
+		  "Monitor org-clock from D-Bus" tar
+		  ((:url . "https://github.com/pjones/org-clock-db")
+		   (:commit . "de3961b8d4a4a89fc0fe746a9c9a9686001bd242")
+		   (:revdesc . "de3961b8d4a4")
+		   (:keywords "comm" "outlines" "unix")
+		   (:authors
+		    ("Peter J. Jones" . "pjones@devalot.com"))
+		   (:maintainers
+		    ("Peter J. Jones" . "pjones@devalot.com"))
+		   (:maintainer "Peter J. Jones" . "pjones@devalot.com"))])
  (org-clock-reminder .
 		     [(1 0 1 -4 20230222 1956)
 		      ((emacs
@@ -75798,14 +75828,19 @@
 	       (:revdesc . "ad01fcf054f9")
 	       (:keywords "convenience"))])
  (single-window .
-		[(0 1 0 1 -4 20260908 1437)
+		[(0 1 0 1 -4 20260913 1919)
 		 ((emacs
 		   (24 4)))
 		 "Always open buffers in the current window" tar
 		 ((:url . "https://github.com/jamescherti/single-window.el")
-		  (:commit . "9b8f12c097ada5c770da827cb16d3ab06f452a0c")
-		  (:revdesc . "9b8f12c097ad")
-		  (:keywords "convenience" "windows"))])
+		  (:commit . "fe30d590c3915ac83f897eecbcd34eb4cf3b3f6a")
+		  (:revdesc . "fe30d590c391")
+		  (:keywords "convenience" "windows")
+		  (:authors
+		   ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		  (:maintainers
+		   ("James Cherti" . "https://www.jamescherti.com/contact/"))
+		  (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (sink .
        [(1 0 0 1 -4 20240523 747)
 	((emacs
