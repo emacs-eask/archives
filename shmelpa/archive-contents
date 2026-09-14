@@ -878,13 +878,13 @@
 	       (:commit . "ae8788b5851ea353fbb80ab586a3bbd5dc8e91aa")
 	       (:revdesc . "ae8788b5851e"))])
  (acp .
-      [(0 1 0 1 -4 20260908 137)
+      [(0 1 0 1 -4 20260914 1318)
        ((emacs
 	 (28 1)))
        "An ACP (Agent Client Protocol) implementation" tar
        ((:url . "https://github.com/xenodium/acp.el")
-	(:commit . "0f2cac4f9ee7998145a1d4710eb1ea5b2fa9d98f")
-	(:revdesc . "0f2cac4f9ee7"))])
+	(:commit . "242cef63d76cc1073485847f67a21f6d8406d158")
+	(:revdesc . "242cef63d76c"))])
  (act-mode .
 	   [(1 0 1 -4 20240718 39)
 	    ((emacs
@@ -1214,7 +1214,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260914 403)
+	      [(0 1 0 1 -4 20260914 1450)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1223,8 +1223,8 @@
 		 (0 15 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "6b983d11c737325f5c5f5ffcffbf930032d6abf4")
-		(:revdesc . "6b983d11c737"))])
+		(:commit . "6ae364b57b399b803f757a5634b301e8656e19a2")
+		(:revdesc . "6ae364b57b39"))])
  (agent-shell-math-renderer .
 			    [(0 1 0 1 -4 20260909 1534)
 			     ((emacs
@@ -13751,13 +13751,13 @@
 		      ("Syohei YOSHIDA" . "syohex@gmail.com"))
 		     (:maintainer "Syohei YOSHIDA" . "syohex@gmail.com"))])
  (cppinsights .
-	      [(0 1 0 1 -4 20260628 722)
+	      [(0 1 0 1 -4 20260914 1250)
 	       ((emacs
 		 (28 1)))
 	       "Integration with cppinsights tool" tar
 	       ((:url . "https://github.com/ignity21/cppinsights.el")
-		(:commit . "552d959a7313e746b2a343991bffb9c2271dba47")
-		(:revdesc . "552d959a7313")
+		(:commit . "528a5e61fffc2e0302cead4b8ab4105f9f8a14a2")
+		(:revdesc . "528a5e61fffc")
 		(:keywords "c++" "tools" "cppinsights")
 		(:authors
 		 ("Chris Chen" . "chrischen@ignity.xyz"))
@@ -14879,11 +14879,11 @@
 	     ("John Wiegley" . "johnw@gnu.org"))
 	    (:maintainer "John Wiegley" . "johnw@gnu.org"))])
  (darcula-theme .
-		[(0 1 0 1 -4 20260617 1603)
+		[(0 1 0 1 -4 20260914 934)
 		 nil "Inspired by IntelliJ's Darcula theme" tar
 		 ((:url . "https://gitlab.com/fommil/emacs-darcula-theme")
-		  (:commit . "89e81a156f375306aa0aa639b3d0161543ce514f")
-		  (:revdesc . "89e81a156f37")
+		  (:commit . "33a1b12ea0823cfa82ab8d6d5b67c2d2217994f3")
+		  (:revdesc . "33a1b12ea082")
 		  (:keywords "faces")
 		  (:authors
 		   ("Sam Halliday" . "Sam.Halliday@gmail.com"))
@@ -20976,7 +20976,7 @@
 		     ("Xu Fasheng" . "fasheng[AT]fasheng.info"))
 		    (:maintainer "Xu Fasheng" . "fasheng[AT]fasheng.info"))])
  (elfeed-protocol-freshrss .
-			   [(0 1 0 1 -4 20260911 2247)
+			   [(0 1 0 1 -4 20260914 1357)
 			    ((emacs
 			      (29 1))
 			     (elfeed
@@ -20989,10 +20989,10 @@
 			      (0 3 2))
 			     (request-deferred
 			      (0 3 2)))
-			    "FreshRSS protocol for elfeed" tar
+			    "FreshRSS compatible gReader protocol implementation for elfeed" tar
 			    ((:url . "https://codeberg.org/lou/elfeed-protocol-freshrss")
-			     (:commit . "997db2e6849daccdcc7d936f15ce8ed892ad7bbe")
-			     (:revdesc . "997db2e6849d")
+			     (:commit . "04b373d1b4deae95e4ea3ede001e74fabbc3ba66")
+			     (:revdesc . "04b373d1b4de")
 			     (:authors
 			      ("Lou Woell" . "lou@repetitions.de"))
 			     (:maintainers
@@ -26307,13 +26307,13 @@
        (:revdesc . "000009ce4adf")
        (:keywords "find" "file" "files" "helm" "fast" "finder"))])
  (f90-ts-mode .
-	      [(0 1 0 1 -4 20260913 1117)
+	      [(0 1 0 1 -4 20260914 1514)
 	       ((emacs
 		 (30 1)))
 	       "Tree-sitter based Fortran 90 mode" tar
 	       ((:url . "https://github.com/mscfd/emacs-f90-ts-mode")
-		(:commit . "cfe908956c44ddcd04b69fb565e16f668b319a88")
-		(:revdesc . "cfe908956c44")
+		(:commit . "0653186672e7ccf4e593175bb5444a2940e4f662")
+		(:revdesc . "0653186672e7")
 		(:keywords "languages" "treesitter" "fortran")
 		(:authors
 		 ("Martin Stein" . "mscfd@gmx.net"))
@@ -27278,7 +27278,7 @@
 	    ("Roland Walker" . "walker@pobox.com"))
 	   (:maintainer "Roland Walker" . "walker@pobox.com"))])
  (fj .
-     [(0 1 0 1 -4 20260913 1611)
+     [(0 1 0 1 -4 20260914 1038)
       ((emacs
 	(29 1))
        (compat
@@ -27293,8 +27293,8 @@
 	(4 3 8)))
       "Client for Forgejo instances" tar
       ((:url . "https://codeberg.org/martianh/fj.el")
-       (:commit . "ab7e2f03bbb966649f682c44aaf22690d24fd021")
-       (:revdesc . "ab7e2f03bbb9")
+       (:commit . "0884ccdfb85ad27e66e72417b2a225b7bdb8b389")
+       (:revdesc . "0884ccdfb85a")
        (:keywords "git" "convenience")
        (:authors
 	("Marty Hiatt" . "martianh@disroot.org"))
@@ -32405,15 +32405,15 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20260913 1652)
+	  [(0 1 0 1 -4 20260914 1114)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30 1 0 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "9bf8c7a7f624eaba60d46b7b1123d29c39a2f4da")
-	    (:revdesc . "9bf8c7a7f624")
+	    (:commit . "7531ba4d1f854923dce3eedd024d3f28fbca5931")
+	    (:revdesc . "7531ba4d1f85")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -40545,13 +40545,13 @@
 		("Ian Eure" . "ian@retrospec.tv"))
 	       (:maintainer "Ian Eure" . "ian@retrospec.tv"))])
  (hyperstitional-themes .
-			[(0 1 0 1 -4 20260911 2025)
+			[(0 1 0 1 -4 20260914 1532)
 			 ((emacs
 			   (24 1)))
 			 "Weird themes with incremental palettes" tar
 			 ((:url . "https://github.com/precompute/hyperstitional-themes")
-			  (:commit . "83b56d201ddd1d6ff9e5888c007eb5443dc2b78a")
-			  (:revdesc . "83b56d201ddd")
+			  (:commit . "c9271e63f2869ea6787d4ef9ba834958fd565474")
+			  (:revdesc . "c9271e63f286")
 			  (:authors
 			   ("precompute" . "git@precompute.net"))
 			  (:maintainers
@@ -42225,11 +42225,11 @@
 		    ("Michael Schuldt" . "mbschuldt@gmail.com"))
 		   (:maintainer "Michael Schuldt" . "mbschuldt@gmail.com"))])
  (intellij-theme .
-		 [(0 1 0 1 -4 20171017 1415)
+		 [(0 1 0 1 -4 20260914 935)
 		  nil "Inspired by IntelliJ's default theme" tar
 		  ((:url . "https://github.com/fommil/intellij-theme.el")
-		   (:commit . "1bbfff8e6742d18e9b77ed796f44da3b7bd10606")
-		   (:revdesc . "1bbfff8e6742")
+		   (:commit . "c1db433761b7a63ca1efed956b05c2c1366932ae")
+		   (:revdesc . "c1db433761b7")
 		   (:keywords "faces")
 		   (:authors
 		    ("Vladimir Polushin" . "vovapolu@gmail.com"))
@@ -48935,13 +48935,13 @@
 	      ("Jen-Chieh" . "jcs090218@gmail.com"))
 	     (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (lsp-ltex-plus .
-		[(0 1 0 1 -4 20260913 1719)
+		[(0 1 0 1 -4 20260914 1046)
 		 ((emacs
 		   (29 1)))
 		 "Grammar and spell checking for LaTeX, Markdown, Org and more" tar
 		 ((:url . "https://github.com/ltex-plus/emacs-ltex-plus")
-		  (:commit . "ac5f25389713a653e80433d2fd1ee22d14f4dea5")
-		  (:revdesc . "ac5f25389713")
+		  (:commit . "5943024b7df4617d3ef302c78761727a205f56d8")
+		  (:revdesc . "5943024b7df4")
 		  (:keywords "lsp" "grammar" "spelling" "convenience")
 		  (:authors
 		   ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -59102,15 +59102,15 @@
 		   ("Aaron Jacobs" . "atheriel@gmail.com"))
 		  (:maintainer "Aaron Jacobs" . "atheriel@gmail.com"))])
  (org-clock-dbus .
-		 [(0 1 0 1 -4 20260913 1237)
+		 [(0 1 0 1 -4 20260914 956)
 		  ((emacs
 		    (28 1))
 		   (org
 		    (9 6 0)))
 		  "Monitor org-clock from D-Bus" tar
-		  ((:url . "https://github.com/pjones/org-clock-db")
-		   (:commit . "de3961b8d4a4a89fc0fe746a9c9a9686001bd242")
-		   (:revdesc . "de3961b8d4a4")
+		  ((:url . "https://github.com/pjones/org-clock-dbus")
+		   (:commit . "cebbbc67b19db762df9c4d799404dd0f688444da")
+		   (:revdesc . "cebbbc67b19d")
 		   (:keywords "comm" "outlines" "unix")
 		   (:authors
 		    ("Peter J. Jones" . "pjones@devalot.com"))
@@ -64147,15 +64147,15 @@
 	      ("Ryan Davis" . "ryand-ruby@zenspider.com"))
 	     (:maintainer "Ryan Davis" . "ryand-ruby@zenspider.com"))])
  (package-build .
-		[(0 1 0 1 -4 20260901 1127)
+		[(0 1 0 1 -4 20260914 913)
 		 ((emacs
 		   (26 1))
 		  (compat
-		   (31 0)))
+		   (31 1)))
 		 "Curate an Emacs Lisp package archive" tar
 		 ((:url . "https://github.com/melpa/package-build")
-		  (:commit . "c22bc81e571385b8e7ea857a4d7c18c265f82794")
-		  (:revdesc . "c22bc81e5713")
+		  (:commit . "cb1fc153c79a0f1f7e3d5df1641bbfe39ddba45e")
+		  (:revdesc . "cb1fc153c79a")
 		  (:keywords "maint" "tools")
 		  (:authors
 		   ("Donald Ephraim Curtis" . "dcurtis@milkbox.net")
@@ -66193,7 +66193,7 @@
 	    ("Damien Cassou" . "damien.cassou@gmail.com"))
 	   (:maintainer "Damien Cassou" . "damien.cassou@gmail.com"))])
  (pimacs .
-	 [(0 1 0 1 -4 20260913 347)
+	 [(0 1 0 1 -4 20260914 1250)
 	  ((emacs
 	    (29 1))
 	   (compat
@@ -66208,8 +66208,8 @@
 	    (0 3 7)))
 	  "Emacs Client for Pi" tar
 	  ((:url . "https://github.com/ananthakumaran/pimacs.el")
-	   (:commit . "f16c337f34b8d9a7694b79c2c01b045899ace4e6")
-	   (:revdesc . "f16c337f34b8")
+	   (:commit . "6200165139db53f1bafabfcc6236bde696237db7")
+	   (:revdesc . "6200165139db")
 	   (:keywords "convenience" "processes")
 	   (:authors
 	    ("Anantha kumaran" . "ananthakumaran@gmail.com"))
@@ -76045,7 +76045,7 @@
 	("Chunyang Xu" . "mail@xuchunyang.me"))
        (:maintainer "Chunyang Xu" . "mail@xuchunyang.me"))])
  (slack .
-	[(0 1 0 1 -4 20260909 2247)
+	[(0 1 0 1 -4 20260914 1711)
 	 ((websocket
 	   (1 12))
 	  (request
@@ -76066,8 +76066,8 @@
 	   (0 3)))
 	 "Slack client" tar
 	 ((:url . "https://github.com/emacs-slack/emacs-slack")
-	  (:commit . "b66f63b76f6aa0db833262c55beb951cdcbf82b2")
-	  (:revdesc . "b66f63b76f6a")
+	  (:commit . "15a6728b6d34497c44b86320290e140855bc573e")
+	  (:revdesc . "15a6728b6d34")
 	  (:keywords "tools")
 	  (:authors
 	   ("yuya.minami" . "yuya.minami@yuyaminami-no-MacBook-Pro.local"))
@@ -81369,13 +81369,13 @@
 	    ("Chunyang Xu" . "xuchunyang.me@gmail.com"))
 	   (:maintainer "Chunyang Xu" . "xuchunyang.me@gmail.com"))])
  (thrift .
-	 [(0 1 0 1 -4 20260907 807)
+	 [(0 1 0 1 -4 20260913 1633)
 	  ((emacs
 	    (24)))
 	  "Major mode for fbthrift and Apache Thrift files" tar
 	  ((:url . "https://github.com/facebook/fbthrift")
-	   (:commit . "3e73ebb14d65b9cff855f6c3ad17daee5730031b")
-	   (:revdesc . "3e73ebb14d65")
+	   (:commit . "6f3635d555882533049059060e2e041378edef8a")
+	   (:revdesc . "6f3635d55588")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -86000,13 +86000,13 @@
 	  ("mugen" . "mugen.void42@gmail.com"))
 	 (:maintainer "mugen" . "mugen.void42@gmail.com"))])
  (vterm .
-	[(0 1 0 1 -4 20260730 1414)
+	[(0 1 0 1 -4 20260914 1641)
 	 ((emacs
 	   (25 1)))
 	 "Fully-featured terminal emulator" tar
 	 ((:url . "https://github.com/akermu/emacs-libvterm")
-	  (:commit . "70921114908ebb260d6686db8cbe2445a64f90a2")
-	  (:revdesc . "70921114908e")
+	  (:commit . "6d715a93fa0e5182bc137d4db09f376e06938aa5")
+	  (:revdesc . "6d715a93fa0e")
 	  (:keywords "terminals")
 	  (:authors
 	   ("Lukas Fürmetz" . "fuermetz@mailbox.org"))
@@ -86159,7 +86159,7 @@
 	   ("Mihai Olteanu" . "mihai_olteanu@fastmail.fm"))
 	  (:maintainer "Mihai Olteanu" . "mihai_olteanu@fastmail.fm"))])
  (vulpea .
-	 [(0 1 0 1 -4 20260908 1504)
+	 [(0 1 0 1 -4 20260914 1423)
 	  ((emacs
 	    (29 1))
 	   (org
@@ -86172,8 +86172,8 @@
 	    (2 19)))
 	  "Note management library for Org mode" tar
 	  ((:url . "https://github.com/d12frosted/vulpea")
-	   (:commit . "6e8b664f091134cf01b92dee214de642ae9a46a1")
-	   (:revdesc . "6e8b664f0911")
+	   (:commit . "aaf2743ebcd046426b9b9877828ba7c25c6104f5")
+	   (:revdesc . "aaf2743ebcd0")
 	   (:authors
 	    ("Boris Buliga" . "boris@d12frosted.io"))
 	   (:maintainers
