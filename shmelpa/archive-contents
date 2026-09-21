@@ -533,7 +533,7 @@
 	       ("coldnew" . "coldnew.tw@gmail.com"))
 	      (:maintainer "coldnew" . "coldnew.tw@gmail.com"))])
  (ac-php .
-	 [(0 1 0 1 -4 20260911 454)
+	 [(0 1 0 1 -4 20260921 522)
 	  ((ac-php-core
 	    (2 0))
 	   (auto-complete
@@ -542,13 +542,13 @@
 	    (0 8 0)))
 	  "Auto Completion source for PHP" tar
 	  ((:url . "https://github.com/xcwen/ac-php")
-	   (:commit . "b626cc6b3a343b2431f2e13b241b1612da5fc3f4")
-	   (:revdesc . "b626cc6b3a34")
+	   (:commit . "ab7f0275e0dd73dfe66c6cad271b9282f6e8a276")
+	   (:revdesc . "ab7f0275e0dd")
 	   (:keywords "completion" "convenience" "intellisense")
 	   (:authors
 	    ("jim" . "xcwenn@qq.com")))])
  (ac-php-core .
-	      [(0 1 0 1 -4 20260920 1106)
+	      [(0 1 0 1 -4 20260921 522)
 	       ((emacs
 		 (24 4))
 		(dash
@@ -565,8 +565,8 @@
 		 (1 0)))
 	       "The core library of the ac-php" tar
 	       ((:url . "https://github.com/xcwen/ac-php")
-		(:commit . "48785207045b31311f7ea298106bc9d04071122d")
-		(:revdesc . "48785207045b")
+		(:commit . "ab7f0275e0dd73dfe66c6cad271b9282f6e8a276")
+		(:revdesc . "ab7f0275e0dd")
 		(:keywords "completion" "convenience" "intellisense")
 		(:authors
 		 ("jim" . "xcwenn@qq.com")
@@ -1214,7 +1214,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20260920 1357)
+	      [(0 1 0 1 -4 20260921 731)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1223,8 +1223,8 @@
 		 (0 15 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "3bd32a16f4eededd54e190d94318f536ed4fac7c")
-		(:revdesc . "3bd32a16f4ee"))])
+		(:commit . "cf43796f2f269dfdc80cd65915559f17c8e6d504")
+		(:revdesc . "cf43796f2f26"))])
  (agent-shell-math-renderer .
 			    [(0 1 0 1 -4 20260918 1212)
 			     ((emacs
@@ -8836,9 +8836,9 @@
 		(:revdesc . "80240776507a")
 		(:keywords "languages"))])
  (citar .
-	[(0 1 0 1 -4 20260706 1221)
+	[(0 1 0 1 -4 20260921 617)
 	 ((emacs
-	   (27 1))
+	   (29 1))
 	  (parsebib
 	   (4 2))
 	  (org
@@ -8847,8 +8847,8 @@
 	   (0 9)))
 	 "Citation-related commands for org, latex, markdown" tar
 	 ((:url . "https://github.com/emacs-citar/citar")
-	  (:commit . "d2289669fea76ae7b2f7ad04794fcc230d65e055")
-	  (:revdesc . "d2289669fea7")
+	  (:commit . "a8be76d04f4343776afef77154bf6bda4a696b5f")
+	  (:revdesc . "a8be76d04f43")
 	  (:authors
 	   ("Bruce D'Arcus" . "https://github.com/bdarcus"))
 	  (:maintainers
@@ -11355,7 +11355,7 @@
 		      (:commit . "aee601a2bfcc86d26e762eeb84e5e42573f8c5ca")
 		      (:revdesc . "aee601a2bfcc"))])
  (company-php .
-	      [(0 1 0 1 -4 20260920 1104)
+	      [(0 1 0 1 -4 20260921 522)
 	       ((cl-lib
 		 (0 5))
 		(ac-php-core
@@ -11364,8 +11364,8 @@
 		 (0 9)))
 	       "A company back-end for PHP" tar
 	       ((:url . "https://github.com/xcwen/ac-php")
-		(:commit . "07f008af2c04dc396454be560640e47c83b033c9")
-		(:revdesc . "07f008af2c04")
+		(:commit . "ab7f0275e0dd73dfe66c6cad271b9282f6e8a276")
+		(:revdesc . "ab7f0275e0dd")
 		(:keywords "completion" "convenience" "intellisense")
 		(:authors
 		 ("jim" . "xcwenn@qq.com")))])
@@ -33677,17 +33677,17 @@
 	     ("Nic Ferrier" . "nferrier@ferrier.me.uk"))
 	    (:maintainer "Nic Ferrier" . "nferrier@ferrier.me.uk"))])
  (gnosis .
-	 [(0 1 0 1 -4 20260920 1417)
+	 [(0 1 0 1 -4 20260921 456)
 	  ((emacs
 	    (29 1))
 	   (compat
 	    (29 1 4 2))
 	   (keymap-popup
 	    (0 4 4)))
-	  "Knowledge System" tar
+	  "Linked notes and spaced repetition" tar
 	  ((:url . "https://git.thanosapollo.org/emacs-gnosis")
-	   (:commit . "1eb319966ccfb7b5d1e5f50f3738d5962dc21441")
-	   (:revdesc . "1eb319966ccf")
+	   (:commit . "497149ab7ab88c2acbd398803b15c3f9b9ab910a")
+	   (:revdesc . "497149ab7ab8")
 	   (:keywords "extensions")
 	   (:authors
 	    ("Thanos Apollo" . "public@thanosapollo.org"))
@@ -44697,15 +44697,17 @@
 	       (:revdesc . "1b5a4c2f5b7c")
 	       (:keywords "languages"))])
  (julia-repl .
-	     [(0 1 0 1 -4 20260211 1502)
+	     [(0 1 0 1 -4 20260921 852)
 	      ((emacs
 		(29 1))
 	       (s
-		(1 12)))
+		(1 12))
+	       (compat
+		(31 1)))
 	      "A minor mode for a Julia REPL" tar
 	      ((:url . "https://github.com/tpapp/julia-repl")
-	       (:commit . "0173237a43d9a42f0d69a5405283fabe1ac602a0")
-	       (:revdesc . "0173237a43d9")
+	       (:commit . "a3a0582691f343d5984a34a85263165c2fe44f43")
+	       (:revdesc . "a3a0582691f3")
 	       (:keywords "languages")
 	       (:authors
 		("Tamas Papp" . "tkpapp@gmail.com"))
@@ -49609,7 +49611,7 @@
 	     (:revdesc . "9b9277021cd0")
 	     (:keywords "convenience"))])
  (magent .
-	 [(0 1 0 1 -4 20260913 1042)
+	 [(0 1 0 1 -4 20260921 904)
 	  ((emacs
 	    (29 1))
 	   (gptel
@@ -49624,8 +49626,8 @@
 	    (0 66 1)))
 	  "AI coding agent" tar
 	  ((:url . "https://github.com/jamie-cui/magent")
-	   (:commit . "851fff0bfc62d2d41486dc2633a227544aaa66b6")
-	   (:revdesc . "851fff0bfc62")
+	   (:commit . "3cc0fa11b1bb079b2e2b5eff86ab2400d60e54be")
+	   (:revdesc . "3cc0fa11b1bb")
 	   (:keywords "tools" "ai" "copilot")
 	   (:authors
 	    ("Jamie Cui" . "jamie.cui@outlook.com"))
@@ -52928,13 +52930,13 @@
 		      ("Oliwier Czerwiński" . "oliwier.czerwi@proton.me"))
 		     (:maintainer "Oliwier Czerwiński" . "oliwier.czerwi@proton.me"))])
  (modus-themes .
-	       [(0 1 0 1 -4 20260918 844)
+	       [(0 1 0 1 -4 20260921 912)
 		((emacs
 		  (28 1)))
 		"Elegant, highly legible and customizable themes" tar
 		((:url . "https://github.com/protesilaos/modus-themes")
-		 (:commit . "9427ba44964a292f03273e5be4d7a0f3c00b5029")
-		 (:revdesc . "9427ba44964a")
+		 (:commit . "4fcc8d00540a81936a213d608a69c4c85df8f970")
+		 (:revdesc . "4fcc8d00540a")
 		 (:keywords "faces" "theme" "accessibility")
 		 (:authors
 		  ("Protesilaos" . "info@protesilaos.com"))
@@ -62262,7 +62264,7 @@
 		   ("Lucien Cartier-Tilet" . "lucien@phundrak.com"))
 		  (:maintainer "Lucien Cartier-Tilet" . "lucien@phundrak.com"))])
  (org-upcoming-modeline .
-			[(0 1 0 1 -4 20241028 1217)
+			[(0 1 0 1 -4 20260921 904)
 			 ((emacs
 			   (26 1))
 			  (ts
@@ -62271,8 +62273,8 @@
 			   (0 6)))
 			 "Show next org event in mode line" tar
 			 ((:url . "https://github.com/unhammer/org-upcoming-modeline")
-			  (:commit . "66bfdbe847f398f87e8a05c0cf472eb673fac522")
-			  (:revdesc . "66bfdbe847f3")
+			  (:commit . "ecf768d70559add8e10c2a908d6e21f96ad24334")
+			  (:revdesc . "ecf768d70559")
 			  (:keywords "convenience" "calendar")
 			  (:authors
 			   ("Kevin Brubeck Unhammer" . "unhammer@fsfe.org"))
@@ -72132,13 +72134,13 @@
 		     ("Simen Heggestøyl" . "simenheg@runbox.com"))
 		    (:maintainer "Simen Heggestøyl" . "simenheg@runbox.com"))])
  (restlib .
-	  [(0 1 0 1 -4 20260914 1526)
+	  [(0 1 0 1 -4 20260921 347)
 	   ((emacs
 	     (30 1)))
 	   "Utility library for building REST clients" tar
 	   ((:url . "https://github.com/kickingvegas/restlib")
-	    (:commit . "3bde75339f0e6f64698f0d829f13a675ac4042a8")
-	    (:revdesc . "3bde75339f0e")
+	    (:commit . "a2ee43ecab7fb7fb4b230cd2697db15adfcf32ff")
+	    (:revdesc . "a2ee43ecab7f")
 	    (:keywords "tools")
 	    (:authors
 	     ("Charles Y. Choi" . "kickingvegas@gmail.com"))
@@ -80563,7 +80565,7 @@
 	  ("Mark T. Kennedy" . "mtk@acm.org"))
 	 (:maintainer "Mark T. Kennedy" . "mtk@acm.org"))])
  (telega .
-	 [(0 1 0 1 -4 20260916 1221)
+	 [(0 1 0 1 -4 20260921 426)
 	  ((emacs
 	    (27 1))
 	   (visual-fill-column
@@ -80572,8 +80574,8 @@
 	    (0 9 0)))
 	  "Telegram client (unofficial)" tar
 	  ((:url . "https://github.com/zevlg/telega.el")
-	   (:commit . "bf4b3659d6c02ac6a558f58e852de01923b3951f")
-	   (:revdesc . "bf4b3659d6c0")
+	   (:commit . "63daaaa525cfcb42e1682836818420e3b6e23944")
+	   (:revdesc . "63daaaa525cf")
 	   (:keywords "comm")
 	   (:authors
 	    ("Zajcev Evgeny" . "zevlg@yandex.ru"))
