@@ -1226,17 +1226,17 @@
 		(:commit . "d551202139dc0ad5f671fd19ca237515eb4ae762")
 		(:revdesc . "d551202139dc"))])
  (agent-shell-math-renderer .
-			    [(0 1 0 1 -4 20260918 1212)
+			    [(0 1 0 1 -4 20260926 1553)
 			     ((emacs
 			       (29 1))
 			      (agent-shell
 			       (0 66 1))
 			      (latex-to-svg-backend
-			       (0 9 0)))
+			       (0 10 0)))
 			     "Display-math rendering for agent-shell" tar
 			     ((:url . "https://github.com/alberti42/agent-shell-math-renderer")
-			      (:commit . "339fe2216831befc8e875448664ea00095f6ae22")
-			      (:revdesc . "339fe2216831")
+			      (:commit . "0d989803370d5c278d57c5203aa436320992f9b6")
+			      (:revdesc . "0d989803370d")
 			      (:keywords "tex" "llm" "math" "education")
 			      (:authors
 			       ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -6130,7 +6130,7 @@
 	 (:commit . "1aa2b2f8f6c0b32cd600355bbeabc036624d0566")
 	 (:revdesc . "1aa2b2f8f6c0"))])
  (borg .
-       [(0 1 0 1 -4 20260925 1831)
+       [(0 1 0 1 -4 20260926 1359)
 	((emacs
 	  (28 1))
 	 (epkg
@@ -6139,8 +6139,8 @@
 	  (4 7)))
 	"Assimilate Emacs packages as Git submodules" tar
 	((:url . "https://github.com/emacscollective/borg")
-	 (:commit . "dfcf1a65069fa09f52f80523a90fae10d1b5ea20")
-	 (:revdesc . "dfcf1a65069f")
+	 (:commit . "07c305e426f83b607911f2ac4cfedab6aae2b47b")
+	 (:revdesc . "07c305e426f8")
 	 (:keywords "tools")
 	 (:authors
 	  ("Jonas Bernoulli" . "emacs.borg@jonas.bernoulli.dev"))
@@ -18123,7 +18123,7 @@
 	  ("Katherine Whitlock" . "toroidal-code@gmail.com")
 	  ("Syohei YOSHIDA" . "syohex@gmail.com")))])
  (doom-modeline .
-		[(0 1 0 1 -4 20260923 736)
+		[(0 1 0 1 -4 20260926 1647)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -18134,8 +18134,8 @@
 		   (0 3 1)))
 		 "A minimal and modern mode-line" tar
 		 ((:url . "https://github.com/seagle0128/doom-modeline")
-		  (:commit . "27ba834ba3887fb573eaba5eb54434d8df42e8b3")
-		  (:revdesc . "27ba834ba388")
+		  (:commit . "1a30a313f8236be51184e6993cf5ea418d537349")
+		  (:revdesc . "1a30a313f823")
 		  (:keywords "faces" "mode-line")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
@@ -25715,13 +25715,15 @@
 			(:revdesc . "163fc827a1ff")
 			(:keywords "evil" "search" "replace" "regexp" "block" "rectangular" "region" "visual"))])
  (evil-visualstar .
-		  [(0 2 0 1 -4 20160223 48)
-		   ((evil
+		  [(0 1 0 1 -4 20260926 1446)
+		   ((emacs
+		     (24 4))
+		    (evil
 		     (0)))
 		   "Starts a * or # search from the visual selection" tar
 		   ((:url . "https://github.com/bling/evil-visualstar")
-		    (:commit . "06c053d8f7381f91c53311b1234872ca96ced752")
-		    (:revdesc . "06c053d8f738")
+		    (:commit . "e9f043361c4fd0ab6b7e7a52801c39f05c1e52c3")
+		    (:revdesc . "e9f043361c4f")
 		    (:keywords "evil" "vim" "visualstar"))])
  (evim .
        [(0 1 0 1 -4 20260407 1614)
@@ -46650,13 +46652,13 @@
 			("Enrico Flor" . "enrico@eflor.net"))
 		       (:maintainer "Enrico Flor" . "enrico@eflor.net"))])
  (latex-to-svg-backend .
-		       [(0 1 0 1 -4 20260909 1530)
+		       [(0 1 0 1 -4 20260926 1551)
 			((emacs
 			  (29 1)))
-			"LaTeX-to-SVG rendering engine with caching" tar
+			"LaTeX-to-SVG rendering backend with caching" tar
 			((:url . "https://github.com/alberti42/latex-to-svg-backend")
-			 (:commit . "bb2cf7343bb193f863584a3cc4db688ad4cff6db")
-			 (:revdesc . "bb2cf7343bb1")
+			 (:commit . "82ebce7b31b0e41ac9ced3db23cdb3fa5b2b0940")
+			 (:revdesc . "82ebce7b31b0")
 			 (:keywords "tex" "math" "images")
 			 (:authors
 			  ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -46664,15 +46666,15 @@
 			  ("Andrea Alberti" . "a.alberti82@gmail.com"))
 			 (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
  (latex-to-svg-for-org .
-		       [(0 1 0 1 -4 20260918 1457)
+		       [(0 1 0 1 -4 20260926 1452)
 			((emacs
 			  (29 1))
 			 (latex-to-svg-frontend
 			  (0 11 0)))
 			"Preview Org LaTeX math as SVG" tar
 			((:url . "https://github.com/alberti42/latex-to-svg")
-			 (:commit . "851860555c3942e4f9cb2d660e912a08ea81f808")
-			 (:revdesc . "851860555c39")
+			 (:commit . "cfa874f45f1555ccc7fd6f038f845071f5ab4319")
+			 (:revdesc . "cfa874f45f15")
 			 (:keywords "tex" "org" "math" "images")
 			 (:authors
 			  ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -46680,15 +46682,15 @@
 			  ("Andrea Alberti" . "a.alberti82@gmail.com"))
 			 (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
  (latex-to-svg-frontend .
-			[(0 1 0 1 -4 20260918 1457)
+			[(0 1 0 1 -4 20260926 1553)
 			 ((emacs
 			   (29 1))
 			  (latex-to-svg-backend
-			   (0 9 0)))
+			   (0 10 0)))
 			 "Preview LaTeX math in markup buffers as SVG" tar
 			 ((:url . "https://github.com/alberti42/latex-to-svg")
-			  (:commit . "851860555c3942e4f9cb2d660e912a08ea81f808")
-			  (:revdesc . "851860555c39")
+			  (:commit . "323d0ea84b6bcb83cabbfebee84debf2abbb6427")
+			  (:revdesc . "323d0ea84b6b")
 			  (:keywords "tex" "math" "images")
 			  (:authors
 			   ("Andrea Alberti" . "a.alberti82@gmail.com"))
