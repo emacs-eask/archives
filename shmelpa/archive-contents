@@ -4740,13 +4740,13 @@
 		 ("Alon Tzarafi" . "alontzarafi@gmail.com"))
 		(:maintainer "Alon Tzarafi" . "alontzarafi@gmail.com"))])
  (bazel .
-	[(0 1 0 1 -4 20260929 1225)
+	[(0 1 0 1 -4 20260930 1934)
 	 ((emacs
 	   (30 1)))
 	 "Bazel support for Emacs" tar
 	 ((:url . "https://github.com/bazel-contrib/bazel.el")
-	  (:commit . "a05648f9c770f2446df0c6319a6a1b710b5891bc")
-	  (:revdesc . "a05648f9c770")
+	  (:commit . "c71e002b1d252a5e3d2ba72c3178865adf1e78d0")
+	  (:revdesc . "c71e002b1d25")
 	  (:keywords "build tools" "languages"))])
  (bbcode-mode .
 	      [(2 3 0 1 -4 20231215 1539)
@@ -17937,9 +17937,9 @@
 	  ("Aleksei Gusev" . "aleksei.gusev@gmail.com"))
 	 (:maintainer "Aleksei Gusev" . "aleksei.gusev@gmail.com"))])
  (docker .
-	 [(0 1 0 1 -4 20260927 2016)
+	 [(0 1 0 1 -4 20260930 2002)
 	  ((aio
-	    (1 0))
+	    (1 2))
 	   (dash
 	    (2 19 1))
 	   (emacs
@@ -17952,9 +17952,9 @@
 	    (0 4 3)))
 	  "Interface to Docker" tar
 	  ((:url . "https://github.com/Silex/docker.el")
-	   (:commit . "4ee5d31e93061c3114ee60eb9702f058d264e876")
-	   (:revdesc . "4ee5d31e9306")
-	   (:keywords "filename" "convenience")
+	   (:commit . "4f76b01a0f0ad71bdc22bad2d8846d8c48ef1955")
+	   (:revdesc . "4f76b01a0f0a")
+	   (:keywords "files" "convenience")
 	   (:authors
 	    ("Philippe Vaucher" . "philippe.vaucher@gmail.com"))
 	   (:maintainers
@@ -20219,7 +20219,7 @@
 	       (:revdesc . "9630dfac9549")
 	       (:keywords "convenience" "languages" "tools"))])
  (ekg .
-      [(0 8 0 1 -4 20260930 14)
+      [(0 8 0 1 -4 20260930 1704)
        ((triples
 	 (0 6 1))
 	(emacs
@@ -20230,8 +20230,8 @@
 	 (1 0 0)))
        "A system for recording and linking information" tar
        ((:url . "https://github.com/ahyatt/ekg")
-	(:commit . "84c9d9a9685f07b6988a618f11920ca063474fc8")
-	(:revdesc . "84c9d9a9685f")
+	(:commit . "d9a22b88f3c0d7f3b6d7295bab0449288d24d13c")
+	(:revdesc . "d9a22b88f3c0")
 	(:keywords "outlines" "hypermedia")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
@@ -35791,7 +35791,7 @@
 		   ("Hiroaki Otsu" . "ootsuhiroaki@gmail.com"))
 		  (:maintainer "Hiroaki Otsu" . "ootsuhiroaki@gmail.com"))])
  (guix .
-       [(0 1 0 1 -4 20260927 1639)
+       [(0 1 0 1 -4 20260930 1745)
 	((emacs
 	  (24 3))
 	 (dash
@@ -35805,11 +35805,13 @@
 	 (edit-indirect
 	  (0 1 4))
 	 (magit-popup
-	  (2 13 3)))
+	  (2 13 3))
+	 (consult
+	  (3 5)))
 	"Interface for GNU Guix" tar
 	((:url . "https://codeberg.org/guix/emacs-guix")
-	 (:commit . "ee189ece587c6630e0c9c83bf4570f4571d78487")
-	 (:revdesc . "ee189ece587c")
+	 (:commit . "d00f4ea96306cced45f9536ee200cfc4244f71e9")
+	 (:revdesc . "d00f4ea96306")
 	 (:keywords "tools")
 	 (:authors
 	  ("Alex Kost" . "alezost@gmail.com"))
@@ -36540,15 +36542,15 @@
 		(:revdesc . "8c70b48fe5fb")
 		(:keywords "faces"))])
  (helm .
-       [(0 1 0 1 -4 20260929 1140)
+       [(0 1 0 1 -4 20260930 1650)
 	((helm-core
 	  (4 0 7))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
-	 (:commit . "1858dc0cec60cff5e4f992f41f0740a66ca31ae2")
-	 (:revdesc . "1858dc0cec60")
+	 (:commit . "e15f7295a00716b4c0bef441862feb545ec59515")
+	 (:revdesc . "e15f7295a007")
 	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help" "package")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
@@ -40550,13 +40552,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20260923 1433)
+	    [(0 1 0 1 -4 20260930 1652)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "fdb4b9df16a09d743995b45385ac37420b6e7673")
-	      (:revdesc . "fdb4b9df16a0")
+	      (:commit . "0240f3ce82758d11973b8fdcf9acdb72ac9ef935")
+	      (:revdesc . "0240f3ce8275")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -62707,13 +62709,13 @@
 	     ("Kelvin Hu" . "iniDOTkelvinATgmailDOTcom"))
 	    (:maintainer "Feng Shu" . "tumashuAT163.com"))])
  (organic-green-theme .
-		      [(0 1 0 1 -4 20260930 937)
+		      [(0 1 0 1 -4 20260930 1750)
 		       ((emacs
 			 (24 1)))
 		       "Light green color theme" tar
 		       ((:url . "https://github.com/kostafey/organic-green-theme")
-			(:commit . "931fe7af5508f6f85dec3e160a8a84c0bc342e8b")
-			(:revdesc . "931fe7af5508")
+			(:commit . "7f1d0dbb7cb36f0063cb50b7bd79bd697c0c0111")
+			(:revdesc . "7f1d0dbb7cb3")
 			(:keywords "faces")
 			(:authors
 			 ("Kostafey" . "kostafey@gmail.com"))
@@ -68622,9 +68624,9 @@
 			      ("Andreas Müller" . "code@0x7.ch"))
 			     (:maintainer "Andreas Müller" . "code@0x7.ch"))])
  (projectile-rails .
-		   [(0 22 0 1 -4 20221231 1643)
+		   [(0 1 0 1 -4 20260930 2012)
 		    ((emacs
-		      (25 1))
+		      (28 1))
 		     (projectile
 		      (0 12 0))
 		     (inflections
@@ -68639,9 +68641,9 @@
 		      (2 18 1)))
 		    "Minor mode for Rails projects based on projectile-mode" tar
 		    ((:url . "https://github.com/asok/projectile-rails")
-		     (:commit . "701784df7befe17b861f1b53fe9cbc59d0b94b9f")
-		     (:revdesc . "701784df7bef")
-		     (:keywords "rails" "projectile")
+		     (:commit . "6a3181160c951d25d5e4e2cd6bf7f83b29c1b94b")
+		     (:revdesc . "6a3181160c95")
+		     (:keywords "rails" "tools" "projectile")
 		     (:authors
 		      ("Adam Sokolnicki" . "adam.sokolnicki@gmail.com"))
 		     (:maintainers
@@ -70238,13 +70240,13 @@
 		(:commit . "b4365e60e3ba747a5fec8ca909f64fe8c73d8db2")
 		(:revdesc . "b4365e60e3ba"))])
  (q-mode .
-	 [(0 1 0 1 -4 20260929 1851)
+	 [(0 1 0 1 -4 20260930 1836)
 	  ((emacs
 	    (28)))
 	  "A q editing mode" tar
 	  ((:url . "https://github.com/psaris/q-mode")
-	   (:commit . "9b86222d5fca4e329a5eb1884fb775eb4e5e333d")
-	   (:revdesc . "9b86222d5fca")
+	   (:commit . "650829f40839117dee8b8fb83aeeacd24aba00a1")
+	   (:revdesc . "650829f40839")
 	   (:keywords "faces" "files" "q"))])
  (qml-mode .
 	   [(0 4 1 -4 20161016 31)
@@ -70603,15 +70605,15 @@
 	  (:revdesc . "1e63e9862673")
 	  (:keywords "abbrev" "convenience" "matching" "rust" "tools"))])
  (racket-mode .
-	      [(0 1 0 1 -4 20260829 1650)
+	      [(0 1 0 1 -4 20260926 1912)
 	       ((emacs
 		 (25 1))
 		(compat
 		 (30 0 2 0)))
 	       "Racket editing, REPL, and more" tar
 	       ((:url . "https://www.racket-mode.com/")
-		(:commit . "6c0efd2e49b4ac3067123be19bb290535bdee49f")
-		(:revdesc . "6c0efd2e49b4")
+		(:commit . "112ede7765c19011f58d67b4dac9a5435846a07d")
+		(:revdesc . "112ede7765c1")
 		(:authors
 		 ("Greg Hendershott" . "racket-mode-author@greghendershott.com")))])
  (rails-i18n .
@@ -78495,13 +78497,13 @@
 	      (:authors
 	       ("Do Hoang" . "tuhdo1710@gmail.com")))])
  (srfi .
-       [(0 1 0 1 -4 20260921 7)
+       [(0 1 0 1 -4 20260930 2042)
 	((emacs
 	  (25 1)))
 	"Scheme Requests for Implementation browser" tar
 	((:url . "https://github.com/srfi-explorations/emacs-srfi")
-	 (:commit . "fe8be7dc7165609a338415aaab2f846653481a2e")
-	 (:revdesc . "fe8be7dc7165")
+	 (:commit . "289960e5a20a3ecc82bde1d1e85d250255e2da63")
+	 (:revdesc . "289960e5a20a")
 	 (:keywords "languages" "util")
 	 (:authors
 	  ("Lassi Kortela" . "lassi@lassi.io"))
