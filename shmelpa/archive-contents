@@ -6364,6 +6364,20 @@
 	      (:maintainers
 	       ("Michael Allan" . "mike@reluk.ca"))
 	      (:maintainer "Michael Allan" . "mike@reluk.ca"))])
+ (brewpage .
+	   [(0 1 0 1 -4 20260910 1644)
+	    ((emacs
+	      (27 1)))
+	    "Publish buffers/regions to brewpage.app" tar
+	    ((:url . "https://github.com/kochetkov-ma/brewpage-emacs")
+	     (:commit . "cc096fe8cefd39fde35189910467b018eddf6b25")
+	     (:revdesc . "cc096fe8cefd")
+	     (:keywords "tools" "convenience")
+	     (:authors
+	      ("Maksim Kochetkov" . "apmatypa88@gmail.com"))
+	     (:maintainers
+	      ("Maksim Kochetkov" . "apmatypa88@gmail.com"))
+	     (:maintainer "Maksim Kochetkov" . "apmatypa88@gmail.com"))])
  (brf .
       [(0 1 0 1 -4 20250301 1142)
        ((fringe-helper
@@ -9134,13 +9148,13 @@
 		       ("Arteen Abrishami" . "arteen@ucla.edu"))
 		      (:maintainer "Arteen Abrishami" . "arteen@ucla.edu"))])
  (clatter .
-	  [(0 1 0 1 -4 20261004 1326)
+	  [(0 1 0 1 -4 20261004 1606)
 	   ((emacs
 	     (30 1)))
 	   "An IRCv3-compliant IRC client" tar
 	   ((:url . "https://github.com/parenworks/clatter.el")
-	    (:commit . "6852b900b24f112828cdb6ad744db5e0a0c72877")
-	    (:revdesc . "6852b900b24f")
+	    (:commit . "cd53806fad981ac91af15408ee42eea099fc3321")
+	    (:revdesc . "cd53806fad98")
 	    (:keywords "comm" "irc")
 	    (:authors
 	     ("Glenn Thompson" . "glenn@paren.works"))
@@ -9291,6 +9305,20 @@
 	       (:maintainers
 		("Chunyang Xu" . "xuchunyang56@gmail.com"))
 	       (:maintainer "Chunyang Xu" . "xuchunyang56@gmail.com"))])
+ (clel .
+       [(0 1 0 1 -4 20261001 239)
+	((emacs
+	  (28 1)))
+	"Runtime library for ClojureElisp" tar
+	((:url . "https://github.com/BuddhiLW/clojure-elisp")
+	 (:commit . "a6a65777e2ee432ac9bd273ec9baa849f1d1f2bc")
+	 (:revdesc . "a6a65777e2ee")
+	 (:keywords "languages" "lisp" "clojure")
+	 (:authors
+	  ("Pedro G. Branquinho" . "pedrogbranquinho@gmail.com"))
+	 (:maintainers
+	  ("Pedro G. Branquinho" . "pedrogbranquinho@gmail.com"))
+	 (:maintainer "Pedro G. Branquinho" . "pedrogbranquinho@gmail.com"))])
  (clevercss .
 	    [(0 1 0 1 -4 20131229 155)
 	     nil "A major mode for editing CleverCSS files" tar
