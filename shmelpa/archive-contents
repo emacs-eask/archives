@@ -30968,7 +30968,7 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20261004 847)
+	[(0 1 0 1 -4 20261004 1652)
 	 ((emacs
 	   (29 1))
 	  (compat
@@ -30993,8 +30993,8 @@
 	   (1 2)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "be7dad4c2d9f8e0349679a5b3d3ae2d7a8625f40")
-	  (:revdesc . "be7dad4c2d9f")
+	  (:commit . "1252b1ddac687595e590ad2fe7a75ab67a725701")
+	  (:revdesc . "1252b1ddac68")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -34971,6 +34971,24 @@
 	       (:maintainers
 		("Sun Yi Ming" . "dolmens@gmail.com"))
 	       (:maintainer "Sun Yi Ming" . "dolmens@gmail.com"))])
+ (gptel-annotate .
+		 [(0 1 0 1 -4 20260928 121)
+		  ((emacs
+		    (29 1))
+		   (compat
+		    (30 1 0 0))
+		   (gptel
+		    (0 9 9 5)))
+		  "Annotate files or buffers with LLMs" tar
+		  ((:url . "https://github.com/karthink/gptel-annotate")
+		   (:commit . "ec65d175b7a1b83fa6f256f5454b2e5f082b4841")
+		   (:revdesc . "ec65d175b7a1")
+		   (:keywords "comm")
+		   (:authors
+		    ("Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))
+		   (:maintainers
+		    ("Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))
+		   (:maintainer "Karthik Chikmagalur" . "karthikchikmagalur@gmail.com"))])
  (gptel-commit .
 	       [(0 1 0 1 -4 20260520 342)
 		((emacs
@@ -43990,7 +44008,7 @@
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de"))])
  (jira .
-       [(0 1 0 1 -4 20260315 1613)
+       [(0 1 0 1 -4 20261004 1907)
 	((emacs
 	  (29 1))
 	 (request
@@ -44003,8 +44021,8 @@
 	  (4 2 0)))
 	"Emacs Interface to Jira" tar
 	((:url . "https://github.com/unmonoqueteclea/jira.el")
-	 (:commit . "1b1a43600ca138f3f8e56481bea6f629a4d877ec")
-	 (:revdesc . "1b1a43600ca1")
+	 (:commit . "ea01072d1492e0d0d5832ede596655c8bcc9e4ed")
+	 (:revdesc . "ea01072d1492")
 	 (:authors
 	  ("Pablo González Carrizo" . "unmonoqueteclea@gmail.com"))
 	 (:maintainers
@@ -46747,6 +46765,22 @@
 			 (:maintainers
 			  ("Andrea Alberti" . "a.alberti82@gmail.com"))
 			 (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
+ (latex-to-svg-for-latex .
+			 [(0 1 0 1 -4 20260928 1811)
+			  ((emacs
+			    (29 1))
+			   (latex-to-svg-frontend
+			    (0 18 1)))
+			  "Preview LaTeX math as SVG in LaTeX buffers" tar
+			  ((:url . "https://github.com/alberti42/latex-to-svg")
+			   (:commit . "48d48b529501905eda922cd1c8ac46afbf0ea27b")
+			   (:revdesc . "48d48b529501")
+			   (:keywords "tex" "math" "images")
+			   (:authors
+			    ("Andrea Alberti" . "a.alberti82@gmail.com"))
+			   (:maintainers
+			    ("Andrea Alberti" . "a.alberti82@gmail.com"))
+			   (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
  (latex-to-svg-for-markdown .
 			    [(0 1 0 1 -4 20260928 809)
 			     ((emacs
@@ -54996,6 +55030,20 @@
 	    (:maintainers
 	     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	    (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev"))])
+ (neofetch .
+	   [(0 1 0 1 -4 20260916 2218)
+	    ((emacs
+	      (30 2)))
+	    "Pretty system information tool for the Eshell" tar
+	    ((:url . "https://codeberg.org/benja2998/neofetch.el")
+	     (:commit . "171b49930dd655693d067fc3f764b3b2f5feb36f")
+	     (:revdesc . "171b49930dd6")
+	     (:keywords "tools")
+	     (:authors
+	      ("benja2998" . "benja2998@proton.me"))
+	     (:maintainers
+	      ("benja2998" . "benja2998@proton.me"))
+	     (:maintainer "benja2998" . "benja2998@proton.me"))])
  (neon-mode .
 	    [(0 1 0 1 -4 20241220 1304)
 	     ((emacs
@@ -69721,6 +69769,20 @@
 	       (:maintainers
 		("Artem Malyshev" . "proofit404@gmail.com"))
 	       (:maintainer "Artem Malyshev" . "proofit404@gmail.com"))])
+ (pyfun-mode .
+	     [(0 1 0 1 -4 20260925 1114)
+	      ((emacs
+		(29 1)))
+	      "Major mode for the Pyfun language" tar
+	      ((:url . "https://github.com/simontreanor/Pyfun")
+	       (:commit . "7233d8d52ac84d891a37d26a8377c84961ab31a8")
+	       (:revdesc . "7233d8d52ac8")
+	       (:keywords "languages")
+	       (:authors
+		("Simon Treanor" . "https://github.com/simontreanor"))
+	       (:maintainers
+		("Simon Treanor" . "https://github.com/simontreanor"))
+	       (:maintainer "Simon Treanor" . "https://github.com/simontreanor"))])
  (pygen .
 	[(0 2 7 1 -4 20161121 506)
 	 ((elpy
@@ -83429,6 +83491,26 @@
 	    (:maintainers
 	     ("Matúš Goljer" . "matus.goljer@gmail.com"))
 	    (:maintainer "Matúš Goljer" . "matus.goljer@gmail.com"))])
+ (triode .
+	 [(0 1 0 1 -4 20261004 1820)
+	  ((emacs
+	    (30 1))
+	   (transient
+	    (0 9 0))
+	   (restlib
+	    (0 1 5))
+	   (shazam
+	    (1 0 0)))
+	  "Interface to Triode app, macOS internet radio" tar
+	  ((:url . "https://github.com/kickingvegas/triode")
+	   (:commit . "d6d332737ce960ce094c0cbfa193ecb43976a875")
+	   (:revdesc . "d6d332737ce9")
+	   (:keywords "tools")
+	   (:authors
+	    ("Charles Y. Choi" . "kickingvegas@gmail.com"))
+	   (:maintainers
+	    ("Charles Y. Choi" . "kickingvegas@gmail.com"))
+	   (:maintainer "Charles Y. Choi" . "kickingvegas@gmail.com"))])
  (tron-legacy-theme .
 		    [(0 1 0 1 -4 20260610 1908)
 		     nil "An original retro-futuristic theme inspired by Tron: Legacy" tar
@@ -86420,7 +86502,7 @@
 	   ("Mihai Olteanu" . "mihai_olteanu@fastmail.fm"))
 	  (:maintainer "Mihai Olteanu" . "mihai_olteanu@fastmail.fm"))])
  (vulpea .
-	 [(0 1 0 1 -4 20261004 1042)
+	 [(0 1 0 1 -4 20261004 1832)
 	  ((emacs
 	    (29 1))
 	   (org
@@ -86433,8 +86515,8 @@
 	    (2 19)))
 	  "Note management library for Org mode" tar
 	  ((:url . "https://github.com/d12frosted/vulpea")
-	   (:commit . "5907f46de3b1c07e3008370000060c87c42c5c86")
-	   (:revdesc . "5907f46de3b1")
+	   (:commit . "ae761bb847b645522a9b234fdd90ae95c554ae32")
+	   (:revdesc . "ae761bb847b6")
 	   (:authors
 	    ("Boris Buliga" . "boris@d12frosted.io"))
 	   (:maintainers
