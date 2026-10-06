@@ -745,17 +745,19 @@
 			("Junpeng Qiu" . "qjpchmail@gmail.com"))
 		       (:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com"))])
  (ace-jump-mode .
-		[(2 0 -1 1 -4 20140616 815)
-		 nil "A quick cursor location minor mode for emacs" tar
-		 ((:url . "https://github.com/winterTTr/ace-jump-mode/")
-		  (:commit . "8351e2df4fbbeb2a4003f2fb39f46d33803f3dac")
-		  (:revdesc . "8351e2df4fbb")
-		  (:keywords "motion" "location" "cursor")
+		[(0 1 0 1 -4 20261005 2010)
+		 ((emacs
+		   (24 4)))
+		 "A quick cursor location minor mode" tar
+		 ((:url . "https://github.com/winterTTr/ace-jump-mode")
+		  (:commit . "ff87418b4af284af93a0b666967e442a52a35628")
+		  (:revdesc . "ff87418b4af2")
+		  (:keywords "convenience" "motion" "location" "cursor")
 		  (:authors
 		   ("winterTTr" . "winterTTr@gmail.com"))
 		  (:maintainers
-		   ("winterTTr" . "winterTTr@gmail.com"))
-		  (:maintainer "winterTTr" . "winterTTr@gmail.com"))])
+		   ("Kostafey" . "kostafey@gmail.com"))
+		  (:maintainer "Kostafey" . "kostafey@gmail.com"))])
  (ace-jump-zap .
 	       [(0 1 2 1 -4 20170717 1849)
 		((ace-jump-mode
@@ -17236,7 +17238,7 @@
 		  ("Jakob L. Kreuze" . "zerodaysfordays@sdf.lonestar.org"))
 		 (:maintainer "Jakob L. Kreuze" . "zerodaysfordays@sdf.lonestar.org"))])
  (dired-rsync .
-	      [(0 1 0 1 -4 20261005 758)
+	      [(0 1 0 1 -4 20261005 1453)
 	       ((s
 		 (1 12 0))
 		(dash
@@ -17245,8 +17247,8 @@
 		 (25 1)))
 	       "Allow rsync from dired buffers" tar
 	       ((:url . "https://github.com/stsquad/dired-rsync")
-		(:commit . "80deb1f638b69da3f1370bb5423fd850351b8a97")
-		(:revdesc . "80deb1f638b6")
+		(:commit . "c313f8279fa39fd63a4ca039a728939b49ebf495")
+		(:revdesc . "c313f8279fa3")
 		(:authors
 		 ("Alex Bennée" . "alex@bennee.com"))
 		(:maintainers
@@ -26788,15 +26790,15 @@
 		 (:commit . "8d43c37ddf986af769870da27c31c1911f35b205")
 		 (:revdesc . "8d43c37ddf98"))])
  (fedi .
-       [(0 1 0 1 -4 20260509 801)
+       [(0 1 0 1 -4 20261005 2040)
 	((emacs
 	  (28 1))
 	 (markdown-mode
 	  (2 5)))
 	"Helper functions for fediverse clients" tar
 	((:url . "https://codeberg.org/martianh/fedi.el")
-	 (:commit . "91f28ee199a499b8d6e1b9c7a0f1c15f8a382198")
-	 (:revdesc . "91f28ee199a4")
+	 (:commit . "c79f66c8196723fc135053b4a8eec085fcc613ca")
+	 (:revdesc . "c79f66c81967")
 	 (:authors
 	  ("Marty Hiatt" . "martianh@disroot.org"))
 	 (:maintainers
@@ -35759,13 +35761,13 @@
 	   ("Jürgen Hötzel" . "juergen.hoetzel@hr.de"))
 	  (:maintainer "Jürgen Hötzel" . "juergen.hoetzel@hr.de"))])
  (guard .
-	[(0 1 0 1 -4 20260906 1107)
+	[(0 1 0 1 -4 20261005 1630)
 	 ((emacs
 	   (29 1)))
 	 "Custom modular init framework" tar
 	 ((:url . "https://github.com/Dspil/guard.el")
-	  (:commit . "6a6015f01872fd31a4365da7bbc83b2156258b08")
-	  (:revdesc . "6a6015f01872")
+	  (:commit . "80cea13d380f3dae169b0f099a47a00b4f5d0693")
+	  (:revdesc . "80cea13d380f")
 	  (:keywords "convenience" "initialization" "profiles" "tools")
 	  (:authors
 	   ("Dionisis Spiliopoulos" . "dennisspiliopoylos@gmail.com"))
@@ -36572,13 +36574,13 @@
 	 ("Yuriy Artemyev" . "anuvyklack@gmail.com"))
 	(:maintainer "Yuriy Artemyev" . "anuvyklack@gmail.com"))])
  (helix .
-	[(0 1 0 1 -4 20260911 1659)
+	[(0 1 0 1 -4 20261005 1637)
 	 ((emacs
 	   (29 1)))
 	 "A minor mode emulating Helix keybindings" tar
 	 ((:url . "https://github.com/mgmarlow/helix-mode")
-	  (:commit . "2a4b4b8bcdab33ae168e5084c8ee76348ef5358a")
-	  (:revdesc . "2a4b4b8bcdab")
+	  (:commit . "a258ba88cf55e22fa67ff9c50538dd71dd0d4683")
+	  (:revdesc . "a258ba88cf55")
 	  (:keywords "convenience"))])
  (helix-theme .
 	      [(1 0 1 -4 20240814 1212)
@@ -40598,13 +40600,13 @@
 	   ("Oleh Krehel" . "ohwoeowho@gmail.com"))
 	  (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com"))])
  (hyperbole .
-	    [(0 1 0 1 -4 20261004 208)
+	    [(0 1 0 1 -4 20261005 1629)
 	     ((emacs
 	       (28)))
 	     "GNU Hyperbole: The Everyday Hypertextual Information Manager" tar
 	     ((:url . "http://www.gnu.org/software/hyperbole")
-	      (:commit . "98713bbb937cdf0e8ac27791bd0bf33271b819c8")
-	      (:revdesc . "98713bbb937c")
+	      (:commit . "de57d1774e9989fc866cc6f68b6fd8a0c1ecc1b1")
+	      (:revdesc . "de57d1774e99")
 	      (:keywords "comm" "convenience" "files" "frames" "hypermedia" "languages" "mail" "matching" "mouse" "multimedia" "outlines" "tools" "wp")
 	      (:authors
 	       ("Robert Weiner" . "rsw@gnu.org"))
@@ -49120,13 +49122,13 @@
 	      ("Jen-Chieh" . "jcs090218@gmail.com"))
 	     (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (lsp-ltex-plus .
-		[(0 1 0 1 -4 20260929 1012)
+		[(0 1 0 1 -4 20261005 2240)
 		 ((emacs
 		   (29 1)))
 		 "Grammar and spell checking for LaTeX, Markdown, Org and more" tar
 		 ((:url . "https://github.com/ltex-plus/emacs-ltex-plus")
-		  (:commit . "686261e09503144e25cce35784bcd4a130b2cabb")
-		  (:revdesc . "686261e09503")
+		  (:commit . "5d3440dbf77d3c9aaaca97d6398081b04e3a9504")
+		  (:revdesc . "5d3440dbf77d")
 		  (:keywords "lsp" "grammar" "spelling" "convenience")
 		  (:authors
 		   ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -55532,13 +55534,13 @@
 	      ("Simon Hafner" . "hafnersimon@gmail.com"))
 	     (:maintainer "Simon Hafner" . "hafnersimon@gmail.com"))])
  (nimbus-theme .
-	       [(0 1 0 1 -4 20260906 2223)
+	       [(0 1 0 1 -4 20261005 1426)
 		((emacs
 		  (27 1)))
 		"Nimbus dark theme" tar
 		((:url . "https://github.com/mrcnski/nimbus-theme")
-		 (:commit . "92b267a9a41506d4793b333c4a7f1b1b3c17625e")
-		 (:revdesc . "92b267a9a415")
+		 (:commit . "01ae94eff6ae78f784ca6e1231408ee0df8216e8")
+		 (:revdesc . "01ae94eff6ae")
 		 (:keywords "faces")
 		 (:authors
 		  ("Marcin Swieczkowski" . "marcin@realemail.net"))
@@ -81692,13 +81694,13 @@
 	    ("Chunyang Xu" . "xuchunyang.me@gmail.com"))
 	   (:maintainer "Chunyang Xu" . "xuchunyang.me@gmail.com"))])
  (thrift .
-	 [(0 1 0 1 -4 20260928 608)
+	 [(0 1 0 1 -4 20261005 943)
 	  ((emacs
 	    (24)))
 	  "Major mode for fbthrift and Apache Thrift files" tar
 	  ((:url . "https://github.com/facebook/fbthrift")
-	   (:commit . "a32e117aa420392a893249d0732055e4f8e3a917")
-	   (:revdesc . "a32e117aa420")
+	   (:commit . "ee4b51d9751f36e732d2ac9312fa67b3a78e3cfe")
+	   (:revdesc . "ee4b51d9751f")
 	   (:keywords "languages"))])
  (tickscript-mode .
 		  [(0 4 1 1 -4 20171219 203)
@@ -84577,15 +84579,15 @@
 		   ("Damien Cassou" . "damien.cassou@gmail.com"))
 		  (:maintainer "Damien Cassou" . "damien.cassou@gmail.com"))])
  (uniline .
-	  [(0 1 0 1 -4 20260921 624)
+	  [(0 1 0 1 -4 20261005 1513)
 	   ((emacs
 	     (29 1))
 	    (hydra
 	     (0 15 0)))
 	   "Add▶ ■─UNICODE based diagrams─■ to▶ ■─text files─■" tar
 	   ((:url . "https://github.com/tbanel/uniline")
-	    (:commit . "debb3a4ead66f91e14ce065bc579cdc26cad60cc")
-	    (:revdesc . "debb3a4ead66")
+	    (:commit . "3b63e3bfc348037c3d244cd235370e93105e0fd0")
+	    (:revdesc . "3b63e3bfc348")
 	    (:keywords "convenience" "text"))])
  (unipoint .
 	   [(0 1 0 1 -4 20140113 2224)
