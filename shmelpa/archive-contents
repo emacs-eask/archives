@@ -1382,22 +1382,20 @@
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainer "Kang Tu" . "tninja@gmail.com"))])
  (aider .
-	[(0 1 0 1 -4 20251201 133)
+	[(0 1 0 1 -4 20250506 1333)
 	 ((emacs
 	   (26 1))
 	  (transient
-	   (0 9 0))
+	   (0 3 0))
 	  (magit
 	   (2 1 0))
 	  (markdown-mode
-	   (2 5))
-	  (s
-	   (1 13 0)))
-	 "AI assisted programming with Aider and LLM" tar
+	   (2 5)))
+	 "AI assisted programming in Emacs with Aider" tar
 	 ((:url . "https://github.com/tninja/aider.el")
-	  (:commit . "5c2c093f20e14ca5f47ebbb35d4e198550f9fffc")
-	  (:revdesc . "5c2c093f20e1")
-	  (:keywords "ai" "gpt" "sonnet" "llm" "aider" "gemini-pro" "deepseek" "ai-assisted-coding")
+	  (:commit . "0f3e7b0d6ea70f02bcc0356eda3e80ac6acb084c")
+	  (:revdesc . "0f3e7b0d6ea7")
+	  (:keywords "agent" "ai" "gpt" "sonnet" "llm" "aider" "gemini-pro" "deepseek" "ai-assisted-coding")
 	  (:authors
 	   ("Kang Tu" . "tninja@gmail.com"))
 	  (:maintainers
@@ -3881,13 +3879,13 @@
 		   ("ncaq" . "ncaq@ncaq.net"))
 		  (:maintainer "ncaq" . "ncaq@ncaq.net"))])
  (auto-tab-groups .
-		  [(0 1 0 1 -4 20260907 933)
+		  [(0 1 0 1 -4 20261015 711)
 		   ((emacs
 		     (29 1)))
 		   "Simple auto tab group creator for specified commands" tar
 		   ((:url . "https://github.com/MArpogaus/auto-tab-groups")
-		    (:commit . "4c874614677a44d693a3b55604c87f6bb905e2de")
-		    (:revdesc . "4c874614677a")
+		    (:commit . "170397f4d10c53f8faf66c6690b5837d24967875")
+		    (:revdesc . "170397f4d10c")
 		    (:keywords "convenience" "tabs")
 		    (:authors
 		     ("Marcel Arpogaus" . "znepry.necbtnhf@tznvy.pbz"))
@@ -8877,7 +8875,7 @@
 		(:revdesc . "80240776507a")
 		(:keywords "languages"))])
  (citar .
-	[(0 1 0 1 -4 20260922 132)
+	[(0 1 0 1 -4 20261015 55)
 	 ((emacs
 	   (29 1))
 	  (parsebib
@@ -8888,8 +8886,8 @@
 	   (0 9)))
 	 "Citation-related commands for org, latex, markdown" tar
 	 ((:url . "https://github.com/emacs-citar/citar")
-	  (:commit . "5efc5ac78f235cdaafe361758d03c7a51a015dd1")
-	  (:revdesc . "5efc5ac78f23")
+	  (:commit . "347469e036d3ec15fb7a5a21b0cff6bebf04b661")
+	  (:revdesc . "347469e036d3")
 	  (:authors
 	   ("Bruce D'Arcus" . "https://github.com/bdarcus"))
 	  (:maintainers
@@ -34938,7 +34936,7 @@
 		(:revdesc . "b6db72888055")
 		(:keywords "comm"))])
  (gptel-agent-harness .
-		      [(0 1 0 1 -4 20261014 1251)
+		      [(0 1 0 1 -4 20261015 221)
 		       ((emacs
 			 (29 1))
 			(compat
@@ -34949,8 +34947,8 @@
 			 (0 0 1)))
 		       "Autonomous coding-agent harness for gptel-agent" tar
 		       ((:url . "https://github.com/beacoder/gptel-agent-harness")
-			(:commit . "e649ed7e063e9e1476c5c3abf7dd826cf22557f9")
-			(:revdesc . "e649ed7e063e")
+			(:commit . "cc2074ab82ff8dfc38ea388610492b14eeea30d9")
+			(:revdesc . "cc2074ab82ff")
 			(:keywords "programming" "convenience" "ai" "agent")
 			(:authors
 			 ("Huming Chen" . "chenhuming@gmail.com"))
@@ -40057,7 +40055,7 @@
 			("Mark A. Hershberger" . "mah@everybody.org"))
 		       (:maintainer "Mark A. Hershberger" . "mah@everybody.org"))])
  (holy-books .
-	     [(1 5 1 -4 20211025 127)
+	     [(0 1 0 1 -4 20261015 356)
 	      ((s
 		(1 12 0))
 	       (dash
@@ -40068,8 +40066,8 @@
 		(9 1)))
 	      "Org-mode links/tooltips/lookups for Quran & Bible" tar
 	      ((:url . "https://alhassy.github.io/holy-books/")
-	       (:commit . "02c2956d36631d3d8c8b4bacdcf0a5cdd1f3136d")
-	       (:revdesc . "02c2956d3663")
+	       (:commit . "4f88779b5beabad81d6b08def3162a83539d9311")
+	       (:revdesc . "4f88779b5bea")
 	       (:keywords "quran" "bible" "links" "tooltips" "convenience" "comm" "hypermedia")
 	       (:authors
 		("Musa Al-hassy" . "alhassy@gmail.com"))
@@ -51018,15 +51016,15 @@
 		  ("Jen-Chieh Shen" . "jcs090218@gmail.com"))
 		 (:maintainer "Antoine R. Dumont" . "(@ardumont)"))])
  (markdown-ts-appear .
-		     [(0 1 0 1 -4 20261014 1400)
+		     [(0 1 0 1 -4 20261015 441)
 		      ((emacs
 			(31 1))
 		       (markdown-table-wrap
 			(0 2 0)))
 		      "Reveal Markdown source at point" tar
 		      ((:url . "https://github.com/Thysrael/markdown-ts-appear")
-		       (:commit . "3ad20271aa39fa664cfe30b53d6a307f347f7073")
-		       (:revdesc . "3ad20271aa39")
+		       (:commit . "2cee7b9b59a8286195f76bb5dc234eae018f1f45")
+		       (:revdesc . "2cee7b9b59a8")
 		       (:keywords "text" "convenience")
 		       (:authors
 			("Thysrael" . "thysrael@163.com"))
@@ -60532,13 +60530,13 @@
 	     ("Martin Edström" . "meedstrom@runbox.eu"))
 	    (:maintainer "Martin Edström" . "meedstrom@runbox.eu"))])
  (org-mime .
-	   [(0 1 0 1 -4 20260929 1213)
+	   [(0 1 0 1 -4 20261015 420)
 	    ((emacs
 	      (29 1)))
 	    "Org html export for text/html MIME emails" tar
 	    ((:url . "https://github.com/org-mime/org-mime")
-	     (:commit . "18b421f9a73428a49d9a534d3920e63ca21bea5b")
-	     (:revdesc . "18b421f9a734")
+	     (:commit . "8447fe96f95c17d52e60e0ef14a8ae49e0880dce")
+	     (:revdesc . "8447fe96f95c")
 	     (:keywords "mime" "mail" "email" "html")
 	     (:maintainers
 	      ("Chen Bin" . "chb_shAThotmailDOTcom"))
@@ -61858,7 +61856,7 @@
 		("Andros Fenollosa" . "hi@andros.dev"))
 	       (:maintainer "Andros Fenollosa" . "hi@andros.dev"))])
  (org-special-block-extras .
-			   [(0 1 0 1 -4 20261013 1447)
+			   [(0 1 0 1 -4 20261015 310)
 			    ((s
 			      (1 13 1))
 			     (dash
@@ -61866,19 +61864,15 @@
 			     (emacs
 			      (27 1))
 			     (org
-			      (9 1))
+			      (9 6))
 			     (lf
 			      (26 10 1))
-			     (dad-joke
-			      (1 4))
 			     (seq
-			      (2 0))
-			     (lolcat
-			      (0)))
+			      (2 0)))
 			    "30 new custom blocks & 34 link types for Org-mode" tar
 			    ((:url . "https://alhassy.github.io/org-special-block-extras")
-			     (:commit . "bf4c16418145761f821089b057ee9ebcfebceffc")
-			     (:revdesc . "bf4c16418145")
+			     (:commit . "4ffb3bcad92ca6d1ae3873f0524f2fa8f91a0055")
+			     (:revdesc . "4ffb3bcad92c")
 			     (:keywords "org" "blocks" "colors" "convenience")
 			     (:authors
 			      ("Musa Al-hassy" . "alhassy@gmail.com"))
@@ -76470,15 +76464,15 @@
 	      (:revdesc . "8c92169817f2")
 	      (:keywords "markup" "language"))])
  (slime .
-	[(0 1 0 1 -4 20261014 148)
+	[(0 1 0 1 -4 20261015 426)
 	 ((emacs
 	   (24 3))
 	  (macrostep
 	   (0 9)))
 	 "Superior Lisp Interaction Mode for Emacs" tar
 	 ((:url . "https://github.com/slime/slime")
-	  (:commit . "579d609ecb3e4df695f2c45c9ab47229bab13a2e")
-	  (:revdesc . "579d609ecb3e")
+	  (:commit . "73699f4b39b4718eaeeb11677c051e6334cd0d50")
+	  (:revdesc . "73699f4b39b4")
 	  (:keywords "languages" "lisp" "slime"))])
  (slime-company .
 		[(0 1 0 1 -4 20250815 757)
