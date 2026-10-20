@@ -1225,7 +1225,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20261018 1349)
+	      [(0 1 0 1 -4 20261020 1110)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1234,8 +1234,8 @@
 		 (0 17 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "1cfb5697e8410485f317967c3c67a05d0eb0645f")
-		(:revdesc . "1cfb5697e841"))])
+		(:commit . "eff6bfd5b6dd3ddd21294a62a92a2c096152bcc7")
+		(:revdesc . "eff6bfd5b6dd"))])
  (agent-shell-attention .
 			[(0 1 0 1 -4 20261012 524)
 			 ((emacs
@@ -3838,13 +3838,13 @@
 		       (:revdesc . "a8f9213e3c77")
 		       (:keywords "shell" "save" "async" "deferred" "auto"))])
  (auto-side-windows .
-		    [(0 1 0 1 -4 20261005 1041)
+		    [(0 1 0 1 -4 20261020 1126)
 		     ((emacs
 		       (30 1)))
 		     "Simplified buffer management for side windows" tar
 		     ((:url . "https://github.com/MArpogaus/auto-side-windows")
-		      (:commit . "fb63e3a279c79dc5bc0953903e15840a6f8cf146")
-		      (:revdesc . "fb63e3a279c7")
+		      (:commit . "95dedb1441765a817054372a2fccbe9fd7b9a22d")
+		      (:revdesc . "95dedb144176")
 		      (:keywords "convenience" "windows" "buffers")
 		      (:authors
 		       ("Marcel Arpogaus" . "znepry.necbtnhf@tznvy.pbz"))
@@ -9862,15 +9862,15 @@
 		 ("Jason Milkins" . "jasonm23@gmail.com"))
 		(:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
  (clutch .
-	 [(0 1 0 1 -4 20261020 210)
+	 [(0 1 0 1 -4 20261020 1055)
 	  ((emacs
 	    (29 1))
 	   (transient
 	    (0 3 7)))
 	  "Interactive database client" tar
 	  ((:url . "https://github.com/LuciusChen/clutch")
-	   (:commit . "4441990e5f1cdf39ff89e9a6e117d42f1b8ca724")
-	   (:revdesc . "4441990e5f1c")
+	   (:commit . "3f13cc767a61a41418a6013611171a779be6d0ce")
+	   (:revdesc . "3f13cc767a61")
 	   (:keywords "comm" "data" "tools")
 	   (:authors
 	    ("Lucius Chen" . "chenyh572@gmail.com"))
@@ -18217,7 +18217,7 @@
 	  ("Katherine Whitlock" . "toroidal-code@gmail.com")
 	  ("Syohei YOSHIDA" . "syohex@gmail.com")))])
  (doom-modeline .
-		[(0 1 0 1 -4 20261013 257)
+		[(0 1 0 1 -4 20261020 1002)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -18228,8 +18228,8 @@
 		   (0 3 1)))
 		 "A minimal and modern mode-line" tar
 		 ((:url . "https://github.com/seagle0128/doom-modeline")
-		  (:commit . "973ab9fc0da44baae091d565a4624c0239df9205")
-		  (:revdesc . "973ab9fc0da4")
+		  (:commit . "f7b1da5d63388a78963a437246096f594143c244")
+		  (:revdesc . "f7b1da5d6338")
 		  (:keywords "faces" "mode-line")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
@@ -23384,13 +23384,13 @@
 	(:commit . "ad8ea74ccefd3507006a7ea9a7d9ff5b7a973603")
 	(:revdesc . "ad8ea74ccefd"))])
  (erlang .
-	 [(0 1 0 1 -4 20260925 831)
+	 [(0 1 0 1 -4 20261020 1055)
 	  ((emacs
 	    (27 1)))
 	  "Major modes for editing and running Erlang" tar
 	  ((:url . "https://github.com/erlang/otp")
-	   (:commit . "91ffe3af52a0847db89d5a671b791f9890e4ec90")
-	   (:revdesc . "91ffe3af52a0")
+	   (:commit . "81cad9494bf66b1c482f1bf2180f88275265cb68")
+	   (:revdesc . "81cad9494bf6")
 	   (:keywords "erlang" "languages" "processes"))])
  (erlang-ts .
 	    [(0 1 0 1 -4 20260410 717)
@@ -26448,6 +26448,13 @@
 		  (:commit . "8a92383db3df635f2d988ad5a312db945cd4fe4f")
 		  (:revdesc . "8a92383db3df")
 		  (:keywords "faces"))])
+ (faceup .
+	 [(0 0 5 1 -4 20170925 1946)
+	  nil "Markup language for faces and font-lock regression testing" tar
+	  ((:url . "https://github.com/Lindydancer/faceup")
+	   (:commit . "6c92dad56a133e14e7b27831e1bcf9b3a71ff154")
+	   (:revdesc . "6c92dad56a13")
+	   (:keywords "faces" "languages"))])
  (factlog .
 	  [(0 0 1 -3 0 1 -4 20130210 140)
 	   ((deferred
@@ -34917,7 +34924,7 @@
 		(:revdesc . "b6db72888055")
 		(:keywords "comm"))])
  (gptel-agent-harness .
-		      [(0 1 0 1 -4 20261016 745)
+		      [(0 1 0 1 -4 20261020 1209)
 		       ((emacs
 			 (29 1))
 			(compat
@@ -34928,8 +34935,8 @@
 			 (0 0 1)))
 		       "Autonomous coding-agent harness for gptel-agent" tar
 		       ((:url . "https://github.com/beacoder/gptel-agent-harness")
-			(:commit . "2e2c00e84b7900149fa48f8b976a6ae458d1a496")
-			(:revdesc . "2e2c00e84b79")
+			(:commit . "7ed559b64f10321e6bc1e3707ef239aecc558ee3")
+			(:revdesc . "7ed559b64f10")
 			(:keywords "programming" "convenience" "ai" "agent")
 			(:authors
 			 ("Huming Chen" . "chenhuming@gmail.com"))
@@ -46724,13 +46731,13 @@
 			("Enrico Flor" . "enrico@eflor.net"))
 		       (:maintainer "Enrico Flor" . "enrico@eflor.net"))])
  (latex-to-svg-backend .
-		       [(0 1 0 1 -4 20261020 443)
+		       [(0 1 0 1 -4 20261020 542)
 			((emacs
 			  (29 1)))
 			"LaTeX-to-SVG rendering backend with caching" tar
 			((:url . "https://github.com/alberti42/latex-to-svg-backend")
-			 (:commit . "8b1dae7a5c8cff3ff099cee4d767dede22bc25b5")
-			 (:revdesc . "8b1dae7a5c8c")
+			 (:commit . "b78111d4f81422daa58400b2ce4b40aab36616b1")
+			 (:revdesc . "b78111d4f814")
 			 (:keywords "tex" "math" "images")
 			 (:authors
 			  ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -46738,15 +46745,15 @@
 			  ("Andrea Alberti" . "a.alberti82@gmail.com"))
 			 (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
  (latex-to-svg-for-latex .
-			 [(0 1 0 1 -4 20261018 1805)
+			 [(0 1 0 1 -4 20261020 1341)
 			  ((emacs
 			    (29 1))
 			   (latex-to-svg-frontend
-			    (0 23 0)))
+			    (0 24 1)))
 			  "Preview LaTeX math as SVG in LaTeX buffers" tar
 			  ((:url . "https://github.com/alberti42/latex-to-svg")
-			   (:commit . "5368c0dad8dbc0f76af313c86644f3b810ce6b5f")
-			   (:revdesc . "5368c0dad8db")
+			   (:commit . "f9022d77a35f56583110ded4bbb57a6357df9cc9")
+			   (:revdesc . "f9022d77a35f")
 			   (:keywords "tex" "math" "images")
 			   (:authors
 			    ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -46754,15 +46761,15 @@
 			    ("Andrea Alberti" . "a.alberti82@gmail.com"))
 			   (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
  (latex-to-svg-for-markdown .
-			    [(0 1 0 1 -4 20261018 1805)
+			    [(0 1 0 1 -4 20261020 1341)
 			     ((emacs
 			       (29 1))
 			      (latex-to-svg-frontend
-			       (0 23 0)))
+			       (0 24 1)))
 			     "Preview Markdown LaTeX math as SVG" tar
 			     ((:url . "https://github.com/alberti42/latex-to-svg")
-			      (:commit . "5368c0dad8dbc0f76af313c86644f3b810ce6b5f")
-			      (:revdesc . "5368c0dad8db")
+			      (:commit . "f9022d77a35f56583110ded4bbb57a6357df9cc9")
+			      (:revdesc . "f9022d77a35f")
 			      (:keywords "tex" "markdown" "math" "images")
 			      (:authors
 			       ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -46770,15 +46777,15 @@
 			       ("Andrea Alberti" . "a.alberti82@gmail.com"))
 			      (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
  (latex-to-svg-for-org .
-		       [(0 1 0 1 -4 20261018 1805)
+		       [(0 1 0 1 -4 20261020 1341)
 			((emacs
 			  (29 1))
 			 (latex-to-svg-frontend
-			  (0 23 0)))
+			  (0 24 1)))
 			"Preview Org LaTeX math as SVG" tar
 			((:url . "https://github.com/alberti42/latex-to-svg")
-			 (:commit . "5368c0dad8dbc0f76af313c86644f3b810ce6b5f")
-			 (:revdesc . "5368c0dad8db")
+			 (:commit . "f9022d77a35f56583110ded4bbb57a6357df9cc9")
+			 (:revdesc . "f9022d77a35f")
 			 (:keywords "tex" "org" "math" "images")
 			 (:authors
 			  ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -46786,15 +46793,15 @@
 			  ("Andrea Alberti" . "a.alberti82@gmail.com"))
 			 (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
  (latex-to-svg-frontend .
-			[(0 1 0 1 -4 20261019 855)
+			[(0 1 0 1 -4 20261020 1341)
 			 ((emacs
 			   (29 1))
 			  (latex-to-svg-backend
-			   (0 15 1)))
+			   (0 16 1)))
 			 "Preview LaTeX math in markup buffers as SVG" tar
 			 ((:url . "https://github.com/alberti42/latex-to-svg")
-			  (:commit . "bacdd7737a17c9cb6cc1e61ab52246667a42b1d4")
-			  (:revdesc . "bacdd7737a17")
+			  (:commit . "f9022d77a35f56583110ded4bbb57a6357df9cc9")
+			  (:revdesc . "f9022d77a35f")
 			  (:keywords "tex" "math" "images")
 			  (:authors
 			   ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -50994,13 +51001,13 @@
 		  ("Jen-Chieh Shen" . "jcs090218@gmail.com"))
 		 (:maintainer "Antoine R. Dumont" . "(@ardumont)"))])
  (markdown-ts-appear .
-		     [(0 1 0 1 -4 20261019 732)
+		     [(0 1 0 1 -4 20261020 1302)
 		      ((emacs
 			(31 1)))
 		      "Reveal Markdown source at point" tar
 		      ((:url . "https://github.com/Thysrael/markdown-ts-appear")
-		       (:commit . "22577039b48c3209776bc2efc901b2bb8d4ebd9f")
-		       (:revdesc . "22577039b48c")
+		       (:commit . "4b130c5c4fd3fbf62e13af856845fcd91699bb14")
+		       (:revdesc . "4b130c5c4fd3")
 		       (:keywords "text" "convenience")
 		       (:authors
 			("Thysrael" . "thysrael@163.com"))
@@ -79150,13 +79157,13 @@
 	     ("těpán Němec" . "stepnem@smrk.net"))
 	    (:maintainer "těpán Němec" . "stepnem@smrk.net"))])
  (stripspace .
-	     [(0 1 0 1 -4 20261019 2035)
+	     [(0 1 0 1 -4 20261020 1305)
 	      ((emacs
 		(24 3)))
 	      "Auto remove trailing whitespace and restore column" tar
 	      ((:url . "https://github.com/jamescherti/stripspace.el")
-	       (:commit . "d0e897fb7b65ed4b6664d48136ff8f4acb30f1e7")
-	       (:revdesc . "d0e897fb7b65")
+	       (:commit . "7ccd4f0ae037b74d98de1a47d0fe2008c6b1dc92")
+	       (:revdesc . "7ccd4f0ae037")
 	       (:keywords "convenience" "files")
 	       (:authors
 		("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -83935,15 +83942,15 @@
 	    ("Johann Klähn" . "kljohann@gmail.com"))
 	   (:maintainer "Johann Klähn" . "kljohann@gmail.com"))])
  (turtles .
-	  [(0 1 0 1 -4 20261014 1749)
+	  [(0 1 0 1 -4 20261020 1143)
 	   ((emacs
 	     (26 1))
 	    (compat
 	     (30 0 1 0)))
 	   "Screen-grabbing test utility" tar
 	   ((:url . "https://github.com/szermatt/turtles")
-	    (:commit . "4da375c5dede7e4854302a7d02e3ff77a30d20c2")
-	    (:revdesc . "4da375c5dede")
+	    (:commit . "bf85a56c96bd35320ef509cfa2872c9db9943919")
+	    (:revdesc . "bf85a56c96bd")
 	    (:keywords "testing" "unix")
 	    (:authors
 	     ("Stephane Zermatten" . "szermatt@gmx.net"))
@@ -86538,13 +86545,13 @@
 	       ("Vince Salvino" . "mvsalvino@gmail.com"))
 	      (:maintainer "Vince Salvino" . "mvsalvino@gmail.com"))])
  (vui .
-      [(0 1 0 1 -4 20261019 2354)
+      [(0 1 0 1 -4 20261020 1355)
        ((emacs
 	 (29 1)))
        "Declarative, component-based UI library" tar
        ((:url . "https://github.com/d12frosted/vui.el")
-	(:commit . "2529f0370de45e6ecb87192cd8c6a789381d0daf")
-	(:revdesc . "2529f0370de4")
+	(:commit . "68d1ad454ba17865d7195ffc73ef6d767c92b355")
+	(:revdesc . "68d1ad454ba1")
 	(:keywords "ui" "widgets" "tools")
 	(:authors
 	 ("Boris Buliga" . "boris@d12frosted.io"))
