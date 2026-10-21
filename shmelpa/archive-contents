@@ -880,13 +880,13 @@
 	       (:commit . "ae8788b5851ea353fbb80ab586a3bbd5dc8e91aa")
 	       (:revdesc . "ae8788b5851e"))])
  (acp .
-      [(0 1 0 1 -4 20261018 1243)
+      [(0 1 0 1 -4 20261021 1225)
        ((emacs
 	 (28 1)))
        "An ACP (Agent Client Protocol) implementation" tar
        ((:url . "https://github.com/xenodium/acp.el")
-	(:commit . "73940c8905b930b2386c1d2e355cf44c0feabfb2")
-	(:revdesc . "73940c8905b9"))])
+	(:commit . "2959da5fa8657da17a78ac6ceef303a50e3e69de")
+	(:revdesc . "2959da5fa865"))])
  (act-mode .
 	   [(1 0 1 -4 20240718 39)
 	    ((emacs
@@ -1225,7 +1225,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20261020 1110)
+	      [(0 1 0 1 -4 20261021 1251)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1234,8 +1234,8 @@
 		 (0 17 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "eff6bfd5b6dd3ddd21294a62a92a2c096152bcc7")
-		(:revdesc . "eff6bfd5b6dd"))])
+		(:commit . "80887a9f8e51c30536327a532936ecf67a2bc869")
+		(:revdesc . "80887a9f8e51"))])
  (agent-shell-attention .
 			[(0 1 0 1 -4 20261012 524)
 			 ((emacs
@@ -1253,17 +1253,17 @@
 			   ("Paul D. Nelson" . "ultrono@gmail.com"))
 			  (:maintainer "Paul D. Nelson" . "ultrono@gmail.com"))])
  (agent-shell-math-renderer .
-			    [(0 1 0 1 -4 20261020 2037)
+			    [(0 1 0 1 -4 20261021 957)
 			     ((emacs
 			       (29 1))
 			      (agent-shell
 			       (0 67 1))
 			      (latex-to-svg-backend
-			       (0 16 1)))
+			       (0 17 0)))
 			     "Display-math rendering for agent-shell" tar
 			     ((:url . "https://github.com/alberti42/agent-shell-math-renderer")
-			      (:commit . "974322dfd058c8e2baf4b6c1b996c015375b48f9")
-			      (:revdesc . "974322dfd058")
+			      (:commit . "f5fc96e1fe241767903c29e1457dee28fc20d000")
+			      (:revdesc . "f5fc96e1fe24")
 			      (:keywords "tex" "llm" "math" "education")
 			      (:authors
 			       ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -19448,7 +19448,7 @@
 	   ("Alexis" . "flexibeast@gmail.com"))
 	  (:maintainer "Alexis" . "flexibeast@gmail.com"))])
  (eca .
-      [(0 1 0 1 -4 20261021 19)
+      [(0 1 0 1 -4 20261021 1436)
        ((emacs
 	 (28 1))
 	(dash
@@ -19463,8 +19463,8 @@
 	 (30 1)))
        "AI pair programming via ECA (Editor Code Assistant)" tar
        ((:url . "https://github.com/editor-code-assistant/eca-emacs")
-	(:commit . "561535c60fe18abe23f16c04e08a5052095af9a4")
-	(:revdesc . "561535c60fe1")
+	(:commit . "3c5168aea0fac84bffcb0ebe448f512a9086020d")
+	(:revdesc . "3c5168aea0fa")
 	(:keywords "tools")
 	(:authors
 	 ("Eric Dallo" . "ercdll1337@gmail.com"))
@@ -36567,15 +36567,15 @@
 		(:revdesc . "8c70b48fe5fb")
 		(:keywords "faces"))])
  (helm .
-       [(0 1 0 1 -4 20261016 1127)
+       [(0 1 0 1 -4 20261021 1237)
 	((helm-core
 	  (4 0 7))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
-	 (:commit . "9c1a5007870bc944dbefd327ff452eb0fe755c97")
-	 (:revdesc . "9c1a5007870b")
+	 (:commit . "303ce2aa30d43900cba313fbea865766f3a1509e")
+	 (:revdesc . "303ce2aa30d4")
 	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help" "package")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
@@ -37056,15 +37056,15 @@
 		  ("Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com"))
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com"))])
  (helm-core .
-	    [(0 1 0 1 -4 20261016 1127)
+	    [(0 1 0 1 -4 20261021 1258)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (1 9 9)))
 	     "Development files for Helm" tar
 	     ((:url . "https://emacs-helm.github.io/helm/")
-	      (:commit . "9c1a5007870bc944dbefd327ff452eb0fe755c97")
-	      (:revdesc . "9c1a5007870b")
+	      (:commit . "bec18cea48962277e1c14275d183159911b132ed")
+	      (:revdesc . "bec18cea4896")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainers
@@ -46745,15 +46745,15 @@
 			  ("Andrea Alberti" . "a.alberti82@gmail.com"))
 			 (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
  (latex-to-svg-for-latex .
-			 [(0 1 0 1 -4 20261020 1847)
+			 [(0 1 0 1 -4 20261021 1002)
 			  ((emacs
 			    (29 1))
 			   (latex-to-svg-frontend
-			    (0 24 2)))
+			    (0 25 0)))
 			  "Preview LaTeX math as SVG in LaTeX buffers" tar
 			  ((:url . "https://github.com/alberti42/latex-to-svg")
-			   (:commit . "40eacb69d15f189a93d7529955ef715e5c82b4a9")
-			   (:revdesc . "40eacb69d15f")
+			   (:commit . "7383bea4ae0c4cb6c8a45f7f9c87ff2d54dbfe87")
+			   (:revdesc . "7383bea4ae0c")
 			   (:keywords "tex" "math" "images")
 			   (:authors
 			    ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -46761,15 +46761,15 @@
 			    ("Andrea Alberti" . "a.alberti82@gmail.com"))
 			   (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
  (latex-to-svg-for-markdown .
-			    [(0 1 0 1 -4 20261020 1847)
+			    [(0 1 0 1 -4 20261021 1002)
 			     ((emacs
 			       (29 1))
 			      (latex-to-svg-frontend
-			       (0 24 2)))
+			       (0 25 0)))
 			     "Preview Markdown LaTeX math as SVG" tar
 			     ((:url . "https://github.com/alberti42/latex-to-svg")
-			      (:commit . "40eacb69d15f189a93d7529955ef715e5c82b4a9")
-			      (:revdesc . "40eacb69d15f")
+			      (:commit . "7383bea4ae0c4cb6c8a45f7f9c87ff2d54dbfe87")
+			      (:revdesc . "7383bea4ae0c")
 			      (:keywords "tex" "markdown" "math" "images")
 			      (:authors
 			       ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -46777,15 +46777,15 @@
 			       ("Andrea Alberti" . "a.alberti82@gmail.com"))
 			      (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
  (latex-to-svg-for-org .
-		       [(0 1 0 1 -4 20261020 1847)
+		       [(0 1 0 1 -4 20261021 1002)
 			((emacs
 			  (29 1))
 			 (latex-to-svg-frontend
-			  (0 24 2)))
+			  (0 25 0)))
 			"Preview Org LaTeX math as SVG" tar
 			((:url . "https://github.com/alberti42/latex-to-svg")
-			 (:commit . "40eacb69d15f189a93d7529955ef715e5c82b4a9")
-			 (:revdesc . "40eacb69d15f")
+			 (:commit . "7383bea4ae0c4cb6c8a45f7f9c87ff2d54dbfe87")
+			 (:revdesc . "7383bea4ae0c")
 			 (:keywords "tex" "org" "math" "images")
 			 (:authors
 			  ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -46793,15 +46793,15 @@
 			  ("Andrea Alberti" . "a.alberti82@gmail.com"))
 			 (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
  (latex-to-svg-frontend .
-			[(0 1 0 1 -4 20261020 1847)
+			[(0 1 0 1 -4 20261021 1002)
 			 ((emacs
 			   (29 1))
 			  (latex-to-svg-backend
-			   (0 16 1)))
+			   (0 17 0)))
 			 "Preview LaTeX math in markup buffers as SVG" tar
 			 ((:url . "https://github.com/alberti42/latex-to-svg")
-			  (:commit . "40eacb69d15f189a93d7529955ef715e5c82b4a9")
-			  (:revdesc . "40eacb69d15f")
+			  (:commit . "7383bea4ae0c4cb6c8a45f7f9c87ff2d54dbfe87")
+			  (:revdesc . "7383bea4ae0c")
 			  (:keywords "tex" "math" "images")
 			  (:authors
 			   ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -76401,7 +76401,7 @@
 	("Chunyang Xu" . "mail@xuchunyang.me"))
        (:maintainer "Chunyang Xu" . "mail@xuchunyang.me"))])
  (slack .
-	[(0 1 0 1 -4 20261014 1603)
+	[(0 1 0 1 -4 20261021 1536)
 	 ((websocket
 	   (1 12))
 	  (request
@@ -76422,8 +76422,8 @@
 	   (0 3)))
 	 "Slack client" tar
 	 ((:url . "https://github.com/emacs-slack/emacs-slack")
-	  (:commit . "8163416ce7d1074d62df764b9071d92c63fc8888")
-	  (:revdesc . "8163416ce7d1")
+	  (:commit . "b490088b45bdc56f0ce08e53dba32848b9b195bf")
+	  (:revdesc . "b490088b45bd")
 	  (:keywords "tools")
 	  (:authors
 	   ("yuya.minami" . "yuya.minami@yuyaminami-no-MacBook-Pro.local"))
@@ -86545,13 +86545,13 @@
 	       ("Vince Salvino" . "mvsalvino@gmail.com"))
 	      (:maintainer "Vince Salvino" . "mvsalvino@gmail.com"))])
  (vui .
-      [(0 1 0 1 -4 20261020 1504)
+      [(0 1 0 1 -4 20261021 1431)
        ((emacs
 	 (29 1)))
        "Declarative, component-based UI library" tar
        ((:url . "https://github.com/d12frosted/vui.el")
-	(:commit . "2e5051244fae716552af754ab7fd5521a86c7255")
-	(:revdesc . "2e5051244fae")
+	(:commit . "05205f5df175ab0bc806d83d5f5f934935d7a300")
+	(:revdesc . "05205f5df175")
 	(:keywords "ui" "widgets" "tools")
 	(:authors
 	 ("Boris Buliga" . "boris@d12frosted.io"))
