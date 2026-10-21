@@ -1253,7 +1253,7 @@
 			   ("Paul D. Nelson" . "ultrono@gmail.com"))
 			  (:maintainer "Paul D. Nelson" . "ultrono@gmail.com"))])
  (agent-shell-math-renderer .
-			    [(0 1 0 1 -4 20261020 609)
+			    [(0 1 0 1 -4 20261020 2037)
 			     ((emacs
 			       (29 1))
 			      (agent-shell
@@ -1262,8 +1262,8 @@
 			       (0 16 1)))
 			     "Display-math rendering for agent-shell" tar
 			     ((:url . "https://github.com/alberti42/agent-shell-math-renderer")
-			      (:commit . "288dc041f2d9ca986c8899cf99d016b883888801")
-			      (:revdesc . "288dc041f2d9")
+			      (:commit . "974322dfd058c8e2baf4b6c1b996c015375b48f9")
+			      (:revdesc . "974322dfd058")
 			      (:keywords "tex" "llm" "math" "education")
 			      (:authors
 			       ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -30956,7 +30956,7 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20261020 1716)
+	[(0 1 0 1 -4 20261020 1944)
 	 ((emacs
 	   (29 1))
 	  (compat
@@ -30981,8 +30981,8 @@
 	   (1 2)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "1fb0f59936ade5178447e36f0adfdda2c884657d")
-	  (:revdesc . "1fb0f59936ad")
+	  (:commit . "79582e7fc5f0d56324e722bac3ba14c4dff70523")
+	  (:revdesc . "79582e7fc5f0")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -46745,15 +46745,15 @@
 			  ("Andrea Alberti" . "a.alberti82@gmail.com"))
 			 (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
  (latex-to-svg-for-latex .
-			 [(0 1 0 1 -4 20261020 1341)
+			 [(0 1 0 1 -4 20261020 1847)
 			  ((emacs
 			    (29 1))
 			   (latex-to-svg-frontend
-			    (0 24 1)))
+			    (0 24 2)))
 			  "Preview LaTeX math as SVG in LaTeX buffers" tar
 			  ((:url . "https://github.com/alberti42/latex-to-svg")
-			   (:commit . "f9022d77a35f56583110ded4bbb57a6357df9cc9")
-			   (:revdesc . "f9022d77a35f")
+			   (:commit . "40eacb69d15f189a93d7529955ef715e5c82b4a9")
+			   (:revdesc . "40eacb69d15f")
 			   (:keywords "tex" "math" "images")
 			   (:authors
 			    ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -46761,15 +46761,15 @@
 			    ("Andrea Alberti" . "a.alberti82@gmail.com"))
 			   (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
  (latex-to-svg-for-markdown .
-			    [(0 1 0 1 -4 20261020 1341)
+			    [(0 1 0 1 -4 20261020 1847)
 			     ((emacs
 			       (29 1))
 			      (latex-to-svg-frontend
-			       (0 24 1)))
+			       (0 24 2)))
 			     "Preview Markdown LaTeX math as SVG" tar
 			     ((:url . "https://github.com/alberti42/latex-to-svg")
-			      (:commit . "f9022d77a35f56583110ded4bbb57a6357df9cc9")
-			      (:revdesc . "f9022d77a35f")
+			      (:commit . "40eacb69d15f189a93d7529955ef715e5c82b4a9")
+			      (:revdesc . "40eacb69d15f")
 			      (:keywords "tex" "markdown" "math" "images")
 			      (:authors
 			       ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -46777,15 +46777,15 @@
 			       ("Andrea Alberti" . "a.alberti82@gmail.com"))
 			      (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
  (latex-to-svg-for-org .
-		       [(0 1 0 1 -4 20261020 1341)
+		       [(0 1 0 1 -4 20261020 1847)
 			((emacs
 			  (29 1))
 			 (latex-to-svg-frontend
-			  (0 24 1)))
+			  (0 24 2)))
 			"Preview Org LaTeX math as SVG" tar
 			((:url . "https://github.com/alberti42/latex-to-svg")
-			 (:commit . "f9022d77a35f56583110ded4bbb57a6357df9cc9")
-			 (:revdesc . "f9022d77a35f")
+			 (:commit . "40eacb69d15f189a93d7529955ef715e5c82b4a9")
+			 (:revdesc . "40eacb69d15f")
 			 (:keywords "tex" "org" "math" "images")
 			 (:authors
 			  ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -46793,15 +46793,15 @@
 			  ("Andrea Alberti" . "a.alberti82@gmail.com"))
 			 (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
  (latex-to-svg-frontend .
-			[(0 1 0 1 -4 20261020 1815)
+			[(0 1 0 1 -4 20261020 1847)
 			 ((emacs
 			   (29 1))
 			  (latex-to-svg-backend
 			   (0 16 1)))
 			 "Preview LaTeX math in markup buffers as SVG" tar
 			 ((:url . "https://github.com/alberti42/latex-to-svg")
-			  (:commit . "be4fd0906cf6e295ef64a72d96b01b5a964bd916")
-			  (:revdesc . "be4fd0906cf6")
+			  (:commit . "40eacb69d15f189a93d7529955ef715e5c82b4a9")
+			  (:revdesc . "40eacb69d15f")
 			  (:keywords "tex" "math" "images")
 			  (:authors
 			   ("Andrea Alberti" . "a.alberti82@gmail.com"))
