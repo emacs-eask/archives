@@ -20246,7 +20246,7 @@
 	       (:revdesc . "9630dfac9549")
 	       (:keywords "convenience" "languages" "tools"))])
  (ekg .
-      [(0 8 0 1 -4 20261020 216)
+      [(0 8 0 1 -4 20261023 2044)
        ((triples
 	 (0 6 1))
 	(emacs
@@ -20257,8 +20257,8 @@
 	 (20261017 1157)))
        "A system for recording and linking information" tar
        ((:url . "https://github.com/ahyatt/ekg")
-	(:commit . "3828b27cd9ea41e4f83463a5cc8ca3779d079fd7")
-	(:revdesc . "3828b27cd9ea")
+	(:commit . "5240155fb7efc3c8f7cdc7a1678a604198711248")
+	(:revdesc . "5240155fb7ef")
 	(:keywords "outlines" "hypermedia")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
@@ -20266,7 +20266,7 @@
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
 	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com"))])
  (ekg-agent .
-	    [(0 0 1 1 -4 20261019 2354)
+	    [(0 0 1 1 -4 20261023 2043)
 	     ((emacs
 	       (28 1))
 	      (ekg
@@ -20275,8 +20275,8 @@
 	       (1 2)))
 	     "Agentic actions for ekg" tar
 	     ((:url . "https://github.com/ahyatt/ekg")
-	      (:commit . "3ac9365d2fb0fc27a4ec03f7ac2608a82bf696f4")
-	      (:revdesc . "3ac9365d2fb0")
+	      (:commit . "b3a58d7a524b6e20537335d6a0a4e2aec9200911")
+	      (:revdesc . "b3a58d7a524b")
 	      (:keywords "outlines" "hypermedia")
 	      (:authors
 	       ("Andrew Hyatt" . "ahyatt@gmail.com"))
@@ -34737,11 +34737,13 @@
 	      ("Vasilij Schneidermann" . "mail@vasilij.de"))
 	     (:maintainer "Vasilij Schneidermann" . "mail@vasilij.de"))])
  (goto-last-change .
-		   [(1 2 1 1 -4 20150109 1823)
-		    nil "Move point through buffer-undo-list positions" tar
+		   [(0 1 0 1 -4 20261023 2312)
+		    ((emacs
+		      (24 3)))
+		    "Move point through buffer-undo-list positions" tar
 		    ((:url . "https://github.com/camdez/goto-last-change.el")
-		     (:commit . "58b0928bc255b47aad318cd183a5dce8f62199cc")
-		     (:revdesc . "58b0928bc255")
+		     (:commit . "51a058bdd2a1d12fc28909da5bb3a1b7c344976f")
+		     (:revdesc . "51a058bdd2a1")
 		     (:keywords "convenience")
 		     (:authors
 		      ("Kevin Rodgers" . "ihs_4664@yahoo.com"))
@@ -52129,11 +52131,11 @@
 			    (nil . "VítorSantosvhsoo@proton.me"))
 			   (:maintainer nil . "VítorSantosvhsoo@proton.me"))])
  (mew .
-      [(0 1 0 1 -4 20261023 843)
+      [(0 1 0 1 -4 20261023 2255)
        nil "Messaging in the Emacs World" tar
        ((:url . "https://github.com/kazu-yamamoto/Mew")
-	(:commit . "ecdd706515c588f9c0637dccc39943293c33c5c0")
-	(:revdesc . "ecdd706515c5"))])
+	(:commit . "ea7ce562b7da6b6008f3d758457086dc705ec05b")
+	(:revdesc . "ea7ce562b7da"))])
  (mexican-holidays .
 		   [(0 0 9 1 -4 20210604 1421)
 		    nil "Mexico holidays for Emacs calendar" tar
@@ -53316,24 +53318,20 @@
 		    (:revdesc . "783bc2f6034d")
 		    (:keywords "languages" "tree-sitter"))])
  (moonscript .
-	     [(20140803 -4 0 1 0 1 -4 20170831 2226)
-	      ((cl-lib
-		(0 5))
-	       (emacs
-		(24)))
+	     [(0 1 0 1 -4 20261023 2036)
+	      ((emacs
+		(24))
+	       (cl-lib
+		(0 5)))
 	      "Major mode for editing MoonScript code" tar
 	      ((:url . "https://github.com/k2052/moonscript-mode")
-	       (:commit . "56f90471e2ced2b0a177aed4d8c2f854797e9cc7")
-	       (:revdesc . "56f90471e2ce")
+	       (:commit . "8c27a902b9319022126e14b5c328599fe46574ff")
+	       (:revdesc . "8c27a902b931")
+	       (:keywords "languages" "moonscript" "lua")
 	       (:authors
 		(nil . "@GriffinSchneider")
 		(nil . "@k2052")
-		(nil . "@EmacsFodder"))
-	       (:maintainers
-		(nil . "@GriffinSchneider")
-		(nil . "@k2052")
-		(nil . "@EmacsFodder"))
-	       (:maintainer nil . "@GriffinSchneider"))])
+		(nil . "@EmacsFodder")))])
  (moonshot .
 	   [(1 0 0 1 -4 20210627 2244)
 	    ((emacs
@@ -57954,13 +57952,13 @@
 		      ("Erik Timan" . "dev@timan.info"))
 		     (:maintainer "William Stevenson" . "yhvh2000@gmail.com"))])
  (occult .
-	 [(0 1 0 1 -4 20260913 546)
+	 [(0 1 0 1 -4 20261023 1953)
 	  ((emacs
 	    (29 1)))
 	  "Collapse and reveal buffer regions" tar
 	  ((:url . "https://github.com/agzam/occult.el")
-	   (:commit . "41fd9afdd6a3a8c6e9e3d0ccae89592a8757ad34")
-	   (:revdesc . "41fd9afdd6a3")
+	   (:commit . "5a3364d5addeef21ca68964e677fdf8f8b0314be")
+	   (:revdesc . "5a3364d5adde")
 	   (:keywords "convenience")
 	   (:authors
 	    ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
