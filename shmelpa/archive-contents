@@ -1225,7 +1225,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20261024 1110)
+	      [(0 1 0 1 -4 20261025 1303)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1234,8 +1234,8 @@
 		 (0 17 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "b3553916e7b6b8fe7ed00bba3811f4c5a1e43496")
-		(:revdesc . "b3553916e7b6"))])
+		(:commit . "aeadc345254a1c5277095227d23631ca0a6da61a")
+		(:revdesc . "aeadc345254a"))])
  (agent-shell-attention .
 			[(0 1 0 1 -4 20261012 524)
 			 ((emacs
@@ -3024,13 +3024,13 @@
 	 ("Alex Ragone" . "ragonedk@gmail.com"))
 	(:maintainer "Alex Ragone" . "ragonedk@gmail.com"))])
  (async .
-	[(0 1 0 1 -4 20260729 1431)
+	[(0 1 0 1 -4 20261025 1538)
 	 ((emacs
 	   (24 4)))
 	 "Asynchronous processing in Emacs" tar
 	 ((:url . "https://github.com/jwiegley/emacs-async")
-	  (:commit . "4fdcb061a166e0d6ccc27d3829a28e04415ae825")
-	  (:revdesc . "4fdcb061a166")
+	  (:commit . "93be69563f6f25ee48977878110de3912b1d6d72")
+	  (:revdesc . "93be69563f6f")
 	  (:keywords "async")
 	  (:authors
 	   ("John Wiegley" . "jwiegley@gmail.com"))
@@ -9862,15 +9862,15 @@
 		 ("Jason Milkins" . "jasonm23@gmail.com"))
 		(:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
  (clutch .
-	 [(0 1 0 1 -4 20261025 308)
+	 [(0 1 0 1 -4 20261025 1302)
 	  ((emacs
 	    (29 1))
 	   (transient
 	    (0 3 7)))
 	  "Interactive database client" tar
 	  ((:url . "https://github.com/LuciusChen/clutch")
-	   (:commit . "4a3b824567decd366171bd53be2c59092d23cdcd")
-	   (:revdesc . "4a3b824567de")
+	   (:commit . "4ece93a1e7450ca45ff5f2e48b88a0447f71a2c8")
+	   (:revdesc . "4ece93a1e745")
 	   (:keywords "comm" "data" "tools")
 	   (:authors
 	    ("Lucius Chen" . "chenyh572@gmail.com"))
@@ -14297,6 +14297,20 @@
 		 (:maintainers
 		  ("纪秀峰" . "Josephjixiuf@gmail.com"))
 		 (:maintainer "纪秀峰" . "Josephjixiuf@gmail.com"))])
+ (ctftime .
+	  [(0 1 0 1 -4 20261019 911)
+	   ((emacs
+	     (27 1)))
+	   "CTFtime dashboard" tar
+	   ((:url . "https://github.com/giovanni-iannaccone/ctftime.el")
+	    (:commit . "32826d8f185dfb36d742a9307ed1f5e5d0fb4bca")
+	    (:revdesc . "32826d8f185d")
+	    (:keywords "ctf" "tools" "games")
+	    (:authors
+	     ("Giovanni Francesco Iannaccone" . "iannacconegiovanni444@gmail.com"))
+	    (:maintainers
+	     ("Giovanni Francesco Iannaccone" . "iannacconegiovanni444@gmail.com"))
+	    (:maintainer "Giovanni Francesco Iannaccone" . "iannacconegiovanni444@gmail.com"))])
  (ctl-mode .
 	   [(0 1 1 -4 20151202 1006)
 	    nil "Major mode for editing GrADS script files" tar
@@ -16652,13 +16666,13 @@
 		     ("Jen-Chieh" . "jcs090218@gmail.com"))
 		    (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (dimmer .
-	 [(0 1 0 1 -4 20260618 1559)
+	 [(0 1 0 1 -4 20261025 1615)
 	  ((emacs
 	    (27 1)))
 	  "Visually highlight the selected buffer" tar
 	  ((:url . "https://github.com/gonewest818/dimmer.el")
-	   (:commit . "bbab62f01d45086b9098f6a0ab765282d9c7bc45")
-	   (:revdesc . "bbab62f01d45")
+	   (:commit . "5525d29bac335a67040bcfc6a5c7083ebe5ac2f8")
+	   (:revdesc . "5525d29bac33")
 	   (:keywords "faces" "editing"))])
  (dionysos .
 	   [(0 6 0 1 -4 20160810 1056)
@@ -20583,6 +20597,24 @@
 	   (:maintainers
 	    ("Feng Shu" . "tumashu@163.com"))
 	   (:maintainer "Feng Shu" . "tumashu@163.com"))])
+ (elark .
+	[(0 1 0 1 -4 20261013 549)
+	 ((emacs
+	   (29 1))
+	  (org-lark
+	   (0 2))
+	  (shell-maker
+	   (0 97 5)))
+	 "Emacs interface to Lark/Feishu via lark-cli" tar
+	 ((:url . "https://github.com/bbw9n/elark")
+	  (:commit . "b0d9b839eef02619a6aa1799892ddc85e5a091d2")
+	  (:revdesc . "b0d9b839eef0")
+	  (:keywords "comm" "tools" "agent")
+	  (:authors
+	   ("bbw9n" . "bbw9nio@gmail.com"))
+	  (:maintainers
+	   ("bbw9n" . "bbw9nio@gmail.com"))
+	  (:maintainer "bbw9n" . "bbw9nio@gmail.com"))])
  (elbank .
 	 [(1 2 1 -4 20180316 1343)
 	  ((emacs
@@ -29959,13 +29991,13 @@
 			   ("Steve Purcell" . "steve@sanityinc.com"))
 			  (:maintainer "Steve Purcell" . "steve@sanityinc.com"))])
  (flymake-hledger .
-		  [(0 1 0 1 -4 20241226 1937)
+		  [(0 1 0 1 -4 20261025 1641)
 		   ((emacs
 		     (28 2)))
 		   "Flymake module to check hledger journals" tar
 		   ((:url . "https://github.com/DamienCassou/flymake-hledger")
-		    (:commit . "3dd9d58ccd8e4c22c14553ebfac0ca1be3efebc5")
-		    (:revdesc . "3dd9d58ccd8e")
+		    (:commit . "4b0051589126a8f9178da7e271bac597ba1356e4")
+		    (:revdesc . "4b0051589126")
 		    (:authors
 		     ("Damien Cassou" . "damien@cassou.me"))
 		    (:maintainers
@@ -31789,6 +31821,20 @@
 	  (:maintainers
 	   ("Masafumi Oyamada" . "stillpedant@gmail.com"))
 	  (:maintainer "Masafumi Oyamada" . "stillpedant@gmail.com"))])
+ (fz-index .
+	   [(0 1 0 1 -4 20261012 124)
+	    ((emacs
+	      (28 1)))
+	    "Sublime-style fuzzy file open with a native index" tar
+	    ((:url . "https://github.com/uppet/fz-index")
+	     (:commit . "2c41d9de9f92ee1b844b2f7ec1fdcd82f111bb73")
+	     (:revdesc . "2c41d9de9f92")
+	     (:keywords "files" "matching" "convenience")
+	     (:authors
+	      ("Joyer Huang" . "collger@gmail.com"))
+	     (:maintainers
+	      ("Joyer Huang" . "collger@gmail.com"))
+	     (:maintainer "Joyer Huang" . "collger@gmail.com"))])
  (fzf .
       [(0 1 0 1 -4 20260505 1105)
        ((emacs
@@ -36564,15 +36610,15 @@
 		(:revdesc . "8c70b48fe5fb")
 		(:keywords "faces"))])
  (helm .
-       [(0 1 0 1 -4 20261025 730)
+       [(0 1 0 1 -4 20261025 1539)
 	((helm-core
-	  (4 0 8))
+	  (4 0 9))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
-	 (:commit . "55efc1816427ca0739d68dcee6b3c3fe9cb94ff7")
-	 (:revdesc . "55efc1816427")
+	 (:commit . "a1e8724ed20d1f8024ff7530047374e1d7e994b0")
+	 (:revdesc . "a1e8724ed20d")
 	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help" "package")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
@@ -37053,15 +37099,15 @@
 		  ("Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com"))
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com"))])
  (helm-core .
-	    [(0 1 0 1 -4 20261023 2028)
+	    [(0 1 0 1 -4 20261025 1539)
 	     ((emacs
 	       (25 1))
 	      (async
-	       (1 9 9)))
+	       (2 0)))
 	     "Development files for Helm" tar
 	     ((:url . "https://emacs-helm.github.io/helm/")
-	      (:commit . "81be7ee737addf7d44c56b54c7f47602e3f2b425")
-	      (:revdesc . "81be7ee737ad")
+	      (:commit . "a1e8724ed20d1f8024ff7530047374e1d7e994b0")
+	      (:revdesc . "a1e8724ed20d")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainers
@@ -53011,6 +53057,20 @@
 	      (:maintainers
 	       ("Damon Kwok" . "damon-kwok@outlook.com"))
 	      (:maintainer "Damon Kwok" . "damon-kwok@outlook.com"))])
+ (modern-tab .
+	     [(0 1 0 1 -4 20261019 924)
+	      ((emacs
+		(29 1)))
+	      "The common part of the two tab modes" tar
+	      ((:url . "https://github.com/MArpogaus/modern-tab")
+	       (:commit . "2cff8c4f1aeabba7ff4f09f08235802200409de0")
+	       (:revdesc . "2cff8c4f1aea")
+	       (:keywords "convenience" "tabs")
+	       (:authors
+		("Marcel Arpogaus" . "znepry.necbtnhf@tznvy.pbz"))
+	       (:maintainers
+		("Marcel Arpogaus" . "znepry.necbtnhf@tznvy.pbz"))
+	       (:maintainer "Marcel Arpogaus" . "znepry.necbtnhf@tznvy.pbz"))])
  (modtime-skip-mode .
 		    [(0 9 2 1 -4 20140128 2201)
 		     nil "Minor mode for disabling modtime and supersession checks on files" tar
@@ -70365,13 +70425,13 @@
 	      ("Yen-Chin Lee" . "coldnew.tw@gmail.com"))
 	     (:maintainer "Yen-Chin Lee" . "coldnew.tw@gmail.com"))])
  (qrencode .
-	   [(0 1 0 1 -4 20261001 2346)
+	   [(0 1 0 1 -4 20261025 1545)
 	    ((emacs
 	      (25 1)))
 	    "QRCode encoder" tar
 	    ((:url . "https://github.com/ruediger/qrencode-el")
-	     (:commit . "3ba67bdf376c9e1445bcc4710c7c8c4bd3c5c65c")
-	     (:revdesc . "3ba67bdf376c")
+	     (:commit . "15b2476c09324fba78f0cd253560fee4207c5cf2")
+	     (:revdesc . "15b2476c0932")
 	     (:keywords "qrcode" "comm")
 	     (:authors
 	      ("Rüdiger Sonderfeld" . "ruediger@c-plusplus.net"))
@@ -71793,6 +71853,20 @@
 		   (:maintainers
 		    ("USAMI Kenta" . "tadsan@zonu.me"))
 		   (:maintainer "USAMI Kenta" . "tadsan@zonu.me"))])
+ (region-cursors .
+		 [(0 1 0 1 -4 20261019 2012)
+		  ((emacs
+		    (27 1)))
+		  "Display point and active mark using overlays" tar
+		  ((:url . "https://github.com/abidanBrito/region-cursors")
+		   (:commit . "a859ce725ad1ae52a97b46761f605eef6dd61918")
+		   (:revdesc . "a859ce725ad1")
+		   (:keywords "convenience" "editing" "faces")
+		   (:authors
+		    ("Abidán Brito Clavijo" . "abidan.brito@gmail.com"))
+		   (:maintainers
+		    ("Abidán Brito Clavijo" . "abidan.brito@gmail.com"))
+		   (:maintainer "Abidán Brito Clavijo" . "abidan.brito@gmail.com"))])
  (region-occurrences-highlighter .
 				 [(0 1 0 1 -4 20241219 1705)
 				  ((emacs
@@ -77581,13 +77655,13 @@
 			    (:revdesc . "43afeb68b3ba")
 			    (:keywords "faces" "theme" "solarized" "gruvbox" "dark"))])
  (solarized-theme .
-		  [(0 1 0 1 -4 20261025 1252)
+		  [(0 1 0 1 -4 20261025 1447)
 		   ((emacs
 		     (24 1)))
 		   "The Solarized color theme" tar
 		   ((:url . "https://github.com/bbatsov/solarized-emacs")
-		    (:commit . "e696b811fd32d280ed8a2093d1f7a25b76d2133a")
-		    (:revdesc . "e696b811fd32")
+		    (:commit . "d8bc6f72dc3e3800a2119bae9733c333d215b04d")
+		    (:revdesc . "d8bc6f72dc3e")
 		    (:keywords "convenience" "themes" "solarized")
 		    (:authors
 		     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
