@@ -60823,7 +60823,7 @@
 		  ("Paul Elder" . "paul.elder@amanokami.net"))
 		 (:maintainer "Paul Elder" . "paul.elder@amanokami.net"))])
  (org-noter .
-	    [(0 1 0 1 -4 20260730 237)
+	    [(0 1 0 1 -4 20261025 1902)
 	     ((emacs
 	       (24 4))
 	      (cl-lib
@@ -60832,8 +60832,8 @@
 	       (9 4)))
 	     "A synchronized, Org-mode, document annotator" tar
 	     ((:url . "https://github.com/org-noter/org-noter")
-	      (:commit . "feae91ca4ee6fdc7fd2489fa751dd96bc1f3ddf2")
-	      (:revdesc . "feae91ca4ee6")
+	      (:commit . "525f978cbc9cec3f2c1e23dbc3388c670667cb80")
+	      (:revdesc . "525f978cbc9c")
 	      (:keywords "lisp" "pdf" "interleave" "annotate" "external" "sync" "notes" "documents" "org-mode")
 	      (:authors
 	       ("Gonçalo Santos" . "in@bsentia")
@@ -66495,7 +66495,7 @@
 		 ("Johann Klähn" . "johann@jklaehn.de"))
 		(:maintainer "Johann Klähn" . "johann@jklaehn.de"))])
  (pilish .
-	 [(0 1 0 1 -4 20261025 21)
+	 [(0 1 0 1 -4 20261025 1822)
 	  ((emacs
 	    (29 1))
 	   (transient
@@ -66508,8 +66508,8 @@
 	    (0 2 0)))
 	  "Emacs frontend for pi coding agent" tar
 	  ((:url . "https://github.com/dnouri/pilish")
-	   (:commit . "c79cc5c843c40d1b809f66eb9c158a3ddd946ba1")
-	   (:revdesc . "c79cc5c843c4")
+	   (:commit . "d19416529bc9e81b6c28edd65971901edd368c91")
+	   (:revdesc . "d19416529bc9")
 	   (:keywords "ai" "llm" "ai-pair-programming" "tools")
 	   (:authors
 	    ("Daniel Nouri" . "daniel.nouri@gmail.com"))
@@ -72011,15 +72011,15 @@
 		    (:revdesc . "c9a327bfd3c6")
 		    (:keywords "outlines"))])
  (remoto .
-	 [(0 1 0 1 -4 20261022 2315)
+	 [(0 1 0 1 -4 20261025 2022)
 	  ((emacs
 	    (29 1))
 	   (ghub
-	    (4 0 0)))
-	  "Browse GitHub repos without cloning" tar
+	    (5 3 0)))
+	  "Browse GitHub and Codeberg repos without cloning" tar
 	  ((:url . "https://github.com/agzam/remoto.el")
-	   (:commit . "db53bb63ed29662d3d8e5b1cbdfa3f1cb947b127")
-	   (:revdesc . "db53bb63ed29")
+	   (:commit . "f9845422db502eb765231f5fbc735dd0eb9c8a19")
+	   (:revdesc . "f9845422db50")
 	   (:keywords "tools" "vc")
 	   (:authors
 	    ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
@@ -73005,13 +73005,13 @@
 	      (:commit . "3664be5a15431c54f1bf04d2597ca546956edb6f")
 	      (:revdesc . "3664be5a1543"))])
  (romanian-holidays .
-		    [(0 1 0 1 -4 20250102 1029)
+		    [(0 1 0 1 -4 20261025 1917)
 		     ((emacs
 		       (26)))
 		     "Romanian holidays" tar
 		     ((:url . "https://github.com/petrem/romanian-holidays")
-		      (:commit . "96c9983ea170503abbd5b3cd79bfe4481c72f43d")
-		      (:revdesc . "96c9983ea170")
+		      (:commit . "3bd6909b9709e65e83a0a77e59292d4932602bb8")
+		      (:revdesc . "3bd6909b9709")
 		      (:keywords "calendar" "holidays" "romanian"))])
  (romkan .
 	 [(0 1 0 1 -4 20251019 1646)
@@ -78695,13 +78695,13 @@
 	      (:authors
 	       ("Do Hoang" . "tuhdo1710@gmail.com")))])
  (srfi .
-       [(0 1 0 1 -4 20261017 1814)
+       [(0 1 0 1 -4 20261025 1901)
 	((emacs
 	  (25 1)))
 	"Scheme Requests for Implementation browser" tar
 	((:url . "https://github.com/srfi-explorations/emacs-srfi")
-	 (:commit . "0c2e834dda0f5298747a077734cb9d5281dcef5e")
-	 (:revdesc . "0c2e834dda0f")
+	 (:commit . "12099e40ea265a44cdac42b77e2621dad1adfa8b")
+	 (:revdesc . "12099e40ea26")
 	 (:keywords "languages" "util")
 	 (:authors
 	  ("Lassi Kortela" . "lassi@lassi.io"))
@@ -79128,6 +79128,20 @@
 		(:maintainers
 		 ("Preston Moore" . "(prestonkmoore@gmail.com)"))
 		(:maintainer "Preston Moore" . "(prestonkmoore@gmail.com)"))])
+ (straight-overview .
+		    [(0 1 0 1 -4 20261025 1908)
+		     ((emacs
+		       (29 1)))
+		     "Selective upgrade UI for straight.el packages" tar
+		     ((:url . "https://github.com/alberti42/straight-overview")
+		      (:commit . "57c6309ecc409d3abf259947a5da583257fbc460")
+		      (:revdesc . "57c6309ecc40")
+		      (:keywords "convenience" "tools" "vc")
+		      (:authors
+		       ("Andrea Alberti" . "a.alberti82@gmail.com"))
+		      (:maintainers
+		       ("Andrea Alberti" . "a.alberti82@gmail.com"))
+		      (:maintainer "Andrea Alberti" . "a.alberti82@gmail.com"))])
  (streak .
 	 [(3 1 0 1 -4 20240106 2145)
 	  ((emacs
@@ -80887,7 +80901,7 @@
 	  ("Mark T. Kennedy" . "mtk@acm.org"))
 	 (:maintainer "Mark T. Kennedy" . "mtk@acm.org"))])
  (telega .
-	 [(0 1 0 1 -4 20261018 1904)
+	 [(0 1 0 1 -4 20261025 1905)
 	  ((emacs
 	    (27 1))
 	   (visual-fill-column
@@ -80896,8 +80910,8 @@
 	    (0 9 0)))
 	  "Telegram client (unofficial)" tar
 	  ((:url . "https://github.com/zevlg/telega.el")
-	   (:commit . "382276c2443f644a981f67f1f2340115696453e2")
-	   (:revdesc . "382276c2443f")
+	   (:commit . "6a400a34a095a9dd359b9b10e7598313e7c92e86")
+	   (:revdesc . "6a400a34a095")
 	   (:keywords "comm")
 	   (:authors
 	    ("Zajcev Evgeny" . "zevlg@yandex.ru"))
@@ -84211,6 +84225,20 @@
 		 (:maintainers
 		  ("Kadir Can etin" . "kadircancetin@gmail.com"))
 		 (:maintainer "Kadir Can etin" . "kadircancetin@gmail.com"))])
+ (typst-overlay .
+		[(0 1 0 1 -4 20261025 2009)
+		 ((emacs
+		   (29 1)))
+		 "Overlay Typst equations" tar
+		 ((:url . "https://github.com/hesampakdaman/typst-overlay")
+		  (:commit . "efa1824c23f8a79a525a5a6763b3d92f32ef17a4")
+		  (:revdesc . "efa1824c23f8")
+		  (:keywords "tools")
+		  (:authors
+		   ("Hesam Pakdaman" . "https://github.com/hesampakdaman"))
+		  (:maintainers
+		   ("Hesam Pakdaman" . "https://github.com/hesampakdaman"))
+		  (:maintainer "Hesam Pakdaman" . "https://github.com/hesampakdaman"))])
  (typst-preview .
 		[(0 1 0 1 -4 20260617 2023)
 		 ((emacs
