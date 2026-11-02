@@ -1225,7 +1225,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20261102 110)
+	      [(0 1 0 1 -4 20261102 1227)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1234,18 +1234,18 @@
 		 (0 17 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "5f3a8525c979ff92de0de951c9bf41e681c6b2c5")
-		(:revdesc . "5f3a8525c979"))])
+		(:commit . "c788df02f071cc808c837435b65c8e72668b8e22")
+		(:revdesc . "c788df02f071"))])
  (agent-shell-attention .
-			[(0 1 0 1 -4 20261012 524)
+			[(0 1 0 1 -4 20261102 639)
 			 ((emacs
 			   (29 1))
 			  (agent-shell
 			   (0 47 1)))
 			 "Mode-line attention tracker for agent-shell" tar
 			 ((:url . "https://github.com/ultronozm/agent-shell-attention.el")
-			  (:commit . "aaf599121445ead597a14da62bad580c8897ee6c")
-			  (:revdesc . "aaf599121445")
+			  (:commit . "8d5116f174fc35177aedc0f967a8fa3d6784aa1b")
+			  (:revdesc . "8d5116f174fc")
 			  (:keywords "convenience")
 			  (:authors
 			   ("Paul D. Nelson" . "ultrono@gmail.com"))
@@ -2822,7 +2822,7 @@
 	    ("Andrey Fainer" . "fandrey@gmx.com"))
 	   (:maintainer "Andrey Fainer" . "fandrey@gmx.com"))])
  (arxiv-citation .
-		 [(0 1 1 -4 20230713 627)
+		 [(0 1 0 1 -4 20261030 1126)
 		  ((emacs
 		    (25 1))
 		   (dash
@@ -2831,8 +2831,8 @@
 		    (1 12 0)))
 		  "Utility functions for dealing with arXiv papers" tar
 		  ((:url . "https://gitlab.com/slotThe/arXiv-citation")
-		   (:commit . "04de0dae1121fb92c30b393449c6f8d6d940dbed")
-		   (:revdesc . "04de0dae1121")
+		   (:commit . "a55cc92cf61b1f48cc8a97d6ae97f4d612619804")
+		   (:revdesc . "a55cc92cf61b")
 		   (:keywords "convenience")
 		   (:authors
 		    ("Tony Zorman" . "soliditsallgood@mailbox.org"))
@@ -14898,15 +14898,20 @@
 	     (:commit . "26ea6a1b34c49aaa5a2b395a0468c8af710bfab7")
 	     (:revdesc . "26ea6a1b34c4"))])
  (daml-mode .
-	    [(1 0 1 -4 20231106 916)
+	    [(0 1 0 1 -4 20261102 813)
 	     ((emacs
 	       (27 1))
 	      (haskell-mode
 	       (16 1)))
 	     "Major mode for daml" tar
 	     ((:url . "https://github.com/bartfaitamas/daml-mode")
-	      (:commit . "3ba1166edd4c22402996625b1f8a05a2d5b1cbc6")
-	      (:revdesc . "3ba1166edd4c"))])
+	      (:commit . "38c27dc971c9a0b1039b0b59b821c6192057479c")
+	      (:revdesc . "38c27dc971c9")
+	      (:authors
+	       ("Bártfai Tamás" . "tamas@bartfai.dev"))
+	      (:maintainers
+	       ("Bártfai Tamás" . "tamas@bartfai.dev"))
+	      (:maintainer "Bártfai Tamás" . "tamas@bartfai.dev"))])
  (danneskjold-theme .
 		    [(1 1 1 1 -4 20260818 609)
 		     nil "Beautiful high-contrast theme" tar
@@ -25703,13 +25708,13 @@
 			(:revdesc . "64252ded690a")
 			(:keywords "evil" "syntax" "highlight" "text-object"))])
  (evil-textobj-tree-sitter .
-			   [(0 1 0 1 -4 20260616 730)
+			   [(0 1 0 1 -4 20261102 1030)
 			    ((emacs
 			      (25 1)))
 			    "Provides evil textobjects using tree-sitter" tar
 			    ((:url . "https://github.com/meain/evil-textobj-tree-sitter")
-			     (:commit . "fecc0e11615df31a6651ce11b012388e53cad4e9")
-			     (:revdesc . "fecc0e11615d")
+			     (:commit . "08ff3afa85a19bfbf95baaf21bd2f2516de7af54")
+			     (:revdesc . "08ff3afa85a1")
 			     (:keywords "evil" "tree-sitter" "text-object" "convenience"))])
  (evil-traces .
 	      [(0 2 0 1 -4 20230820 2255)
@@ -27424,7 +27429,7 @@
 	    ("Roland Walker" . "walker@pobox.com"))
 	   (:maintainer "Roland Walker" . "walker@pobox.com"))])
  (fj .
-     [(0 1 0 1 -4 20261101 1018)
+     [(0 1 0 1 -4 20261102 946)
       ((emacs
 	(29 1))
        (compat
@@ -27439,8 +27444,8 @@
 	(4 3 8)))
       "Client for Forgejo instances" tar
       ((:url . "https://codeberg.org/martianh/fj.el")
-       (:commit . "b99d1e6e97e2208e399299bed449729431532981")
-       (:revdesc . "b99d1e6e97e2")
+       (:commit . "9b44590aa4ac938c31789099879c82a404896f72")
+       (:revdesc . "9b44590aa4ac")
        (:keywords "git" "convenience")
        (:authors
 	("Marty Hiatt" . "martianh@disroot.org"))
@@ -32565,15 +32570,15 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20261101 2121)
+	  [(0 1 0 1 -4 20261102 1326)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30 1 0 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "ff7c216204a52f293f27c21a1def490da05035e4")
-	    (:revdesc . "ff7c216204a5")
+	    (:commit . "a63db707e0d71e49eb4de95b198e288788eb92f8")
+	    (:revdesc . "a63db707e0d7")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -52204,11 +52209,11 @@
 			    (nil . "VítorSantosvhsoo@proton.me"))
 			   (:maintainer nil . "VítorSantosvhsoo@proton.me"))])
  (mew .
-      [(0 1 0 1 -4 20261102 324)
+      [(0 1 0 1 -4 20261102 1127)
        nil "Messaging in the Emacs World" tar
        ((:url . "https://github.com/kazu-yamamoto/Mew")
-	(:commit . "2dd6a0e15d9bc1bf4aec582aab013280cbdb2756")
-	(:revdesc . "2dd6a0e15d9b"))])
+	(:commit . "3f7d1a9ed7dbe77d36bc526bef6d539615cf6bb2")
+	(:revdesc . "3f7d1a9ed7db"))])
  (mexican-holidays .
 		   [(0 0 9 1 -4 20210604 1421)
 		    nil "Mexico holidays for Emacs calendar" tar
@@ -54467,13 +54472,13 @@
 	 ("Andrew Gwozdziewycz" . "git@apgwoz.com"))
 	(:maintainer "Andrew Gwozdziewycz" . "git@apgwoz.com"))])
  (mw-thesaurus .
-	       [(0 1 0 1 -4 20261102 501)
+	       [(0 1 0 1 -4 20261102 646)
 		((emacs
 		  (27 1)))
 		"Merriam-Webster Thesaurus" tar
 		((:url . "https://github.com/agzam/mw-thesaurus.el")
-		 (:commit . "311be189f73ca34d6c9878a1bf364be84ffa0567")
-		 (:revdesc . "311be189f73c")
+		 (:commit . "1237e8c31d393bea4810c9fc0d21ed34795c72f4")
+		 (:revdesc . "1237e8c31d39")
 		 (:keywords "wp" "matching")
 		 (:authors
 		  ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
@@ -69147,13 +69152,13 @@
 	    ("Julian Rubisch" . "julian@julianrubisch.at"))
 	   (:maintainer "Julian Rubisch" . "julian@julianrubisch.at"))])
  (proof-general .
-		[(0 1 0 1 -4 20261030 2110)
+		[(0 1 0 1 -4 20261102 847)
 		 ((emacs
 		   (25 2)))
 		 "A generic Emacs interface for proof assistants" tar
 		 ((:url . "https://proofgeneral.github.io/")
-		  (:commit . "e0a6d4f042c083018896bc831234589abb33b915")
-		  (:revdesc . "e0a6d4f042c0")
+		  (:commit . "587a3de1ea98f8f38266b4b1151c2d598dd948dc")
+		  (:revdesc . "587a3de1ea98")
 		  (:maintainers
 		   (nil . "proof-general-maintainers@groupes.renater.fr"))
 		  (:maintainer nil . "proof-general-maintainers@groupes.renater.fr"))])
@@ -78253,13 +78258,13 @@
 		    ("Le Wang" . "lewang.dev.26@gmail.com"))
 		   (:maintainer "Le Wang" . "lewang.dev.26@gmail.com"))])
  (spdx .
-       [(0 1 0 1 -4 20261029 340)
+       [(0 1 0 1 -4 20261102 856)
 	((emacs
-	  (24 4)))
+	  (29 1)))
 	"Insert SPDX license and copyright headers" tar
 	((:url . "https://github.com/condy0919/spdx.el")
-	 (:commit . "94f24a0008ca6197d844da7ab2da7096d0cd80f9")
-	 (:revdesc . "94f24a0008ca")
+	 (:commit . "cbf1141034211129f5d2bc71cae3fdc621e8a8c2")
+	 (:revdesc . "cbf114103421")
 	 (:keywords "license" "tools")
 	 (:authors
 	  ("Zhiwei Chen" . "condy0919@gmail.com"))
@@ -81910,7 +81915,7 @@
 		     ("Marc Sherry" . "msherry@gmail.com"))
 		    (:maintainer "Marc Sherry" . "msherry@gmail.com"))])
  (ticktick .
-	   [(0 1 0 1 -4 20261102 515)
+	   [(0 1 0 1 -4 20261102 1259)
 	    ((emacs
 	      (27 1))
 	     (request
@@ -81919,8 +81924,8 @@
 	      (1 5 0)))
 	    "Sync Org Mode tasks with TickTick" tar
 	    ((:url . "https://github.com/polhuang/ticktick.el")
-	     (:commit . "ec02da078ae2bd129e4eb97439b887c70f420864")
-	     (:revdesc . "ec02da078ae2")
+	     (:commit . "48973e636ce0bb7ade8eed92e64eec9b0d20fa43")
+	     (:revdesc . "48973e636ce0")
 	     (:keywords "tools" "ticktick" "org" "tasks" "todo"))])
  (tidal .
 	[(0 1 0 1 -4 20260702 630)
@@ -88641,15 +88646,15 @@
 		   (nil . "lompik@ArchOrion"))
 		  (:maintainer nil . "lompik@ArchOrion"))])
  (x509-mode .
-	    [(0 1 0 1 -4 20261027 1858)
+	    [(0 1 0 1 -4 20261102 725)
 	     ((emacs
 	       (25 1))
 	      (compat
 	       (29 1)))
 	     "View certificates, CRLs and keys using OpenSSL" tar
 	     ((:url . "https://github.com/jobbflykt/x509-mode")
-	      (:commit . "26a6811270f38463ede0470d0901dab83650d4a4")
-	      (:revdesc . "26a6811270f3")
+	      (:commit . "458dee0da612c2c6edde865ba04965bd0ab6cd0f")
+	      (:revdesc . "458dee0da612")
 	      (:authors
 	       ("Fredrik Axelsson" . "f.axelsson@gmail.com"))
 	      (:maintainers
