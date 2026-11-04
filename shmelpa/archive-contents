@@ -533,7 +533,7 @@
 	       ("coldnew" . "coldnew.tw@gmail.com"))
 	      (:maintainer "coldnew" . "coldnew.tw@gmail.com"))])
  (ac-php .
-	 [(0 1 0 1 -4 20261028 426)
+	 [(0 1 0 1 -4 20261104 1040)
 	  ((ac-php-core
 	    (2 0))
 	   (auto-complete
@@ -542,13 +542,13 @@
 	    (0 8 0)))
 	  "Auto Completion source for PHP" tar
 	  ((:url . "https://github.com/xcwen/ac-php")
-	   (:commit . "619cb3c999719cd6ea0e784249811c2660980e79")
-	   (:revdesc . "619cb3c99971")
+	   (:commit . "c2132776a121362fbe3b83535348ded1ee671d03")
+	   (:revdesc . "c2132776a121")
 	   (:keywords "completion" "convenience" "intellisense")
 	   (:authors
 	    ("jim" . "xcwenn@qq.com")))])
  (ac-php-core .
-	      [(0 1 0 1 -4 20261104 204)
+	      [(0 1 0 1 -4 20261104 1040)
 	       ((emacs
 		 (24 4))
 		(dash
@@ -565,8 +565,8 @@
 		 (1 0)))
 	       "The core library of the ac-php" tar
 	       ((:url . "https://github.com/xcwen/ac-php")
-		(:commit . "dff1c73e97959a21d5c00b4b2bc5fd2a72ba9fb2")
-		(:revdesc . "dff1c73e9795")
+		(:commit . "c2132776a121362fbe3b83535348ded1ee671d03")
+		(:revdesc . "c2132776a121")
 		(:keywords "completion" "convenience" "intellisense")
 		(:authors
 		 ("jim" . "xcwenn@qq.com")
@@ -9164,13 +9164,13 @@
 		       ("Arteen Abrishami" . "arteen@ucla.edu"))
 		      (:maintainer "Arteen Abrishami" . "arteen@ucla.edu"))])
  (clatter .
-	  [(0 1 0 1 -4 20261031 1757)
+	  [(0 1 0 1 -4 20261104 1304)
 	   ((emacs
 	     (30 1)))
 	   "An IRCv3-compliant IRC client" tar
 	   ((:url . "https://github.com/parenworks/clatter.el")
-	    (:commit . "1c63993071f399b93540991c6c3ac0867efa87df")
-	    (:revdesc . "1c63993071f3")
+	    (:commit . "bfd4313da32349f13741abd3ee801263be53c840")
+	    (:revdesc . "bfd4313da323")
 	    (:keywords "comm" "irc")
 	    (:authors
 	     ("Glenn Thompson" . "glenn@paren.works"))
@@ -11418,7 +11418,7 @@
 		      (:commit . "aee601a2bfcc86d26e762eeb84e5e42573f8c5ca")
 		      (:revdesc . "aee601a2bfcc"))])
  (company-php .
-	      [(0 1 0 1 -4 20261028 426)
+	      [(0 1 0 1 -4 20261104 1040)
 	       ((cl-lib
 		 (0 5))
 		(ac-php-core
@@ -11427,8 +11427,8 @@
 		 (0 9)))
 	       "A company back-end for PHP" tar
 	       ((:url . "https://github.com/xcwen/ac-php")
-		(:commit . "619cb3c999719cd6ea0e784249811c2660980e79")
-		(:revdesc . "619cb3c99971")
+		(:commit . "c2132776a121362fbe3b83535348ded1ee671d03")
+		(:revdesc . "c2132776a121")
 		(:keywords "completion" "convenience" "intellisense")
 		(:authors
 		 ("jim" . "xcwenn@qq.com")))])
@@ -14463,13 +14463,13 @@
 		    ("Peter Hoeg" . "(peter@hoeg.com)"))
 		   (:maintainer "Peter Hoeg" . "(peter@hoeg.com)"))])
  (cui .
-      [(0 1 0 1 -4 20261103 2254)
+      [(0 1 0 1 -4 20261104 1420)
        ((emacs
 	 (29 1)))
        "Chat blocks in org-mode for LLM and agents" tar
        ((:url . "https://codeberg.org/Anoncheg/emacs-cui")
-	(:commit . "20b5351f7b6d370430dec0644384835dff97e224")
-	(:revdesc . "20b5351f7b6d")
+	(:commit . "fc91203c0012d172b23ff21f4fa9151ec85b7d31")
+	(:revdesc . "fc91203c0012")
 	(:keywords "org" "comm" "url" "link")
 	(:authors
 	 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
@@ -26644,13 +26644,13 @@
 		 (:commit . "2c1c7fd53086c2ff86ee0961642c3b58e2343c08")
 		 (:revdesc . "2c1c7fd53086"))])
  (fanyi .
-	[(0 1 0 1 -4 20261103 1935)
+	[(0 1 0 1 -4 20261104 1005)
 	 ((emacs
 	   (29 1)))
 	 "Not only English-Chinese translator" tar
 	 ((:url . "https://github.com/condy0919/fanyi.el")
-	  (:commit . "986a5d9cc01873a7acdc8e6e0260fbe54480144b")
-	  (:revdesc . "986a5d9cc018")
+	  (:commit . "59058538addee527bf0598ac6f9e4333aff55800")
+	  (:revdesc . "59058538adde")
 	  (:keywords "convenience" "tools")
 	  (:authors
 	   ("Zhiwei Chen" . "condy0919@gmail.com"))
@@ -27831,15 +27831,15 @@
 		 ("PythonNut" . "pythonnut@pythonnut.com"))
 		(:maintainer "PythonNut" . "pythonnut@pythonnut.com"))])
  (flycheck .
-	   [(0 1 0 1 -4 20261103 1104)
+	   [(0 1 0 1 -4 20261104 1318)
 	    ((emacs
 	      (28 1))
 	     (seq
 	      (2 24)))
 	    "On-the-fly syntax checking" tar
 	    ((:url . "https://github.com/flycheck/flycheck")
-	     (:commit . "a76f054fd63333e6586e50a9a531ee6669b19758")
-	     (:revdesc . "a76f054fd633")
+	     (:commit . "4d9850be92e18bf79be8d1acbfaaa6e7cd9c5fb4")
+	     (:revdesc . "4d9850be92e1")
 	     (:keywords "convenience" "languages" "tools")
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
@@ -36620,15 +36620,15 @@
 		(:revdesc . "8c70b48fe5fb")
 		(:keywords "faces"))])
  (helm .
-       [(0 1 0 1 -4 20261025 1539)
+       [(0 1 0 1 -4 20261104 623)
 	((helm-core
 	  (4 0 9))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
-	 (:commit . "a1e8724ed20d1f8024ff7530047374e1d7e994b0")
-	 (:revdesc . "a1e8724ed20d")
+	 (:commit . "ed6f56ac26d4e253ddb5d2c01d1711c3d7799b9d")
+	 (:revdesc . "ed6f56ac26d4")
 	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help" "package")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
@@ -37109,15 +37109,15 @@
 		  ("Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com"))
 		 (:maintainer "Daniel Ralston" . "Sodel-the-Vociferous@users.noreply.github.com"))])
  (helm-core .
-	    [(0 1 0 1 -4 20261025 1539)
+	    [(0 1 0 1 -4 20261104 602)
 	     ((emacs
 	       (25 1))
 	      (async
 	       (2 0)))
 	     "Development files for Helm" tar
 	     ((:url . "https://emacs-helm.github.io/helm/")
-	      (:commit . "a1e8724ed20d1f8024ff7530047374e1d7e994b0")
-	      (:revdesc . "a1e8724ed20d")
+	      (:commit . "f4cef9b68dede2574e4b2f31839c4c586ac60bf9")
+	      (:revdesc . "f4cef9b68ded")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
 	      (:maintainers
@@ -39025,15 +39025,17 @@
 	       ("Akira Komamura" . "akira.komamura@gmail.com"))
 	      (:maintainer "Akira Komamura" . "akira.komamura@gmail.com"))])
  (helm-taskswitch .
-		  [(0 1 0 1 -4 20250805 2318)
+		  [(0 1 0 1 -4 20261104 1330)
 		   ((emacs
-		     (24))
+		     (28 1))
 		    (helm
-		     (3 0)))
-		   "Use helm to switch windows and buffers" tar
+		     (3 0))
+		    (websocket
+		     (1 15)))
+		   "Use helm to switch windows, browser tabs and buffers" tar
 		   ((:url . "https://github.com/bdc34/helm-taskswitch")
-		    (:commit . "11e84316b9db96b19bf1d4038e85bbc26017f302")
-		    (:revdesc . "11e84316b9db")
+		    (:commit . "3ddcda3c02b522162e79c9e5844228514c89694e")
+		    (:revdesc . "3ddcda3c02b5")
 		    (:keywords "frames")
 		    (:authors
 		     ("Brian Caruso" . "briancaruso@gmail.com"))
@@ -49151,13 +49153,13 @@
 	      ("Jen-Chieh" . "jcs090218@gmail.com"))
 	     (:maintainer "Jen-Chieh" . "jcs090218@gmail.com"))])
  (lsp-ltex-plus .
-		[(0 1 0 1 -4 20261006 1727)
+		[(0 1 0 1 -4 20261104 1041)
 		 ((emacs
 		   (29 1)))
 		 "Grammar and spell checking for LaTeX, Markdown, Org and more" tar
 		 ((:url . "https://github.com/ltex-plus/emacs-ltex-plus")
-		  (:commit . "a239d58182bcf3ef957ac98a97c732b0427e954d")
-		  (:revdesc . "a239d58182bc")
+		  (:commit . "12f9de402f816f9e9581bcde870bba57d00e3b35")
+		  (:revdesc . "12f9de402f81")
 		  (:keywords "lsp" "grammar" "spelling" "convenience")
 		  (:authors
 		   ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -52212,11 +52214,11 @@
 			    (nil . "VítorSantosvhsoo@proton.me"))
 			   (:maintainer nil . "VítorSantosvhsoo@proton.me"))])
  (mew .
-      [(0 1 0 1 -4 20261103 29)
+      [(0 1 0 1 -4 20261104 910)
        nil "Messaging in the Emacs World" tar
        ((:url . "https://github.com/kazu-yamamoto/Mew")
-	(:commit . "5a5cf466b8f5ca9f39f86ccddfe11a26011b850e")
-	(:revdesc . "5a5cf466b8f5"))])
+	(:commit . "8b0c60eb5e80dca5126d6b6913db883b8c3eeec3")
+	(:revdesc . "8b0c60eb5e80"))])
  (mexican-holidays .
 		   [(0 0 9 1 -4 20210604 1421)
 		    nil "Mexico holidays for Emacs calendar" tar
@@ -55110,13 +55112,13 @@
 	     ("Jacek Sliwerski" . "rzyj@o2.pl"))
 	    (:maintainer "Jacek Sliwerski" . "rzyj@o2.pl"))])
  (neocaml .
-	  [(0 1 0 1 -4 20261103 958)
+	  [(0 1 0 1 -4 20261104 920)
 	   ((emacs
 	     (29 1)))
 	   "Major mode for OCaml code" tar
 	   ((:url . "https://github.com/bbatsov/neocaml")
-	    (:commit . "3261e641c47121cda28a23a51fcafb60a48cba0b")
-	    (:revdesc . "3261e641c471")
+	    (:commit . "210c66a67796888df22dfbe825d5b617dfc21428")
+	    (:revdesc . "210c66a67796")
 	    (:keywords "languages" "ocaml" "ml")
 	    (:authors
 	     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -56610,13 +56612,13 @@
 	   ("Martijn Terpstra" . "bigmartijn@gmail.com"))
 	  (:maintainer "Martijn Terpstra" . "bigmartijn@gmail.com"))])
  (nucleo-completion .
-		    [(0 1 0 1 -4 20260530 1008)
+		    [(0 1 0 1 -4 20261104 1424)
 		     ((emacs
-		       (27 1)))
+		       (29 1)))
 		     "Nucleo-backed completion style" tar
 		     ((:url . "https://github.com/kn66/nucleo-completion.el")
-		      (:commit . "0f07a5bcd384716a3b79ab9e82005bb54f721122")
-		      (:revdesc . "0f07a5bcd384")
+		      (:commit . "156aaa96fa584a941b958bf0ca0e73b971f02247")
+		      (:revdesc . "156aaa96fa58")
 		      (:keywords "matching" "convenience")
 		      (:authors
 		       ("Nobu" . "https://github.com/kn66"))
@@ -60452,7 +60454,7 @@
 		  ("Jason Kim" . "sukbeom.kim@gmail.com"))
 		 (:maintainer "Jason Kim" . "sukbeom.kim@gmail.com"))])
  (org-link-beautify .
-		    [(0 1 0 1 -4 20261101 1526)
+		    [(0 1 0 1 -4 20261104 717)
 		     ((emacs
 		       (29 1))
 		      (nerd-icons
@@ -60461,8 +60463,8 @@
 		       (1 3)))
 		     "Beautify Org Links" tar
 		     ((:url . "https://repo.or.cz/org-link-beautify.git")
-		      (:commit . "d59ae259447f7c938381f50d8d4ed7fb42e995c5")
-		      (:revdesc . "d59ae259447f")
+		      (:commit . "682d9b5f7b7270d7f4f319f1c4048b7e7fa4e085")
+		      (:revdesc . "682d9b5f7b72")
 		      (:keywords "hypermedia")
 		      (:authors
 		       ("stardiviner" . "numbchild@gmail.com"))
@@ -66540,7 +66542,7 @@
 		 ("Johann Klähn" . "johann@jklaehn.de"))
 		(:maintainer "Johann Klähn" . "johann@jklaehn.de"))])
  (pilish .
-	 [(0 1 0 1 -4 20261104 2)
+	 [(0 1 0 1 -4 20261104 1455)
 	  ((emacs
 	    (29 1))
 	   (transient
@@ -66553,8 +66555,8 @@
 	    (0 2 0)))
 	  "Emacs frontend for pi coding agent" tar
 	  ((:url . "https://github.com/dnouri/pilish")
-	   (:commit . "eeee1da8fe7543dd39991fbd2ba0ee1bfb41f6f6")
-	   (:revdesc . "eeee1da8fe75")
+	   (:commit . "f33067821fd5895d6ee7308860962772b43425db")
+	   (:revdesc . "f33067821fd5")
 	   (:keywords "ai" "llm" "ai-pair-programming" "tools")
 	   (:authors
 	    ("Daniel Nouri" . "daniel.nouri@gmail.com"))
@@ -79172,13 +79174,13 @@
 		 ("Preston Moore" . "(prestonkmoore@gmail.com)"))
 		(:maintainer "Preston Moore" . "(prestonkmoore@gmail.com)"))])
  (straight-overview .
-		    [(0 1 0 1 -4 20261027 1126)
+		    [(0 1 0 1 -4 20261104 1511)
 		     ((emacs
 		       (29 1)))
 		     "Selective upgrade UI for straight.el packages" tar
 		     ((:url . "https://github.com/alberti42/straight-overview")
-		      (:commit . "02ba4061c1534a46f0354109bd2e5bdf6dc4f2c0")
-		      (:revdesc . "02ba4061c153")
+		      (:commit . "e606284b50f720b9387f32af84afd1c2299c788f")
+		      (:revdesc . "e606284b50f7")
 		      (:keywords "convenience" "tools" "vc")
 		      (:authors
 		       ("Andrea Alberti" . "a.alberti82@gmail.com"))
@@ -79895,13 +79897,13 @@
 		   ("Daniel Martín" . "mardani29@yahoo.es"))
 		  (:maintainer "Daniel Martín" . "mardani29@yahoo.es"))])
  (swift-mode .
-	     [(0 1 0 1 -4 20260902 1337)
+	     [(0 1 0 1 -4 20261104 1248)
 	      ((emacs
 		(25 2)))
 	      "Major-mode for Apple's Swift programming language" tar
 	      ((:url . "https://github.com/swift-emacs/swift-mode")
-	       (:commit . "a81a6e5edc3077ea34ded55a6179f5d6166a3008")
-	       (:revdesc . "a81a6e5edc30")
+	       (:commit . "158abad032d2562e3736ff65a0fc7876a1bbbf73")
+	       (:revdesc . "158abad032d2")
 	       (:keywords "languages" "swift")
 	       (:authors
 		("taku0" . "mxxouy6x3m_github@tatapa.org")
@@ -86689,13 +86691,13 @@
 	       ("Vince Salvino" . "mvsalvino@gmail.com"))
 	      (:maintainer "Vince Salvino" . "mvsalvino@gmail.com"))])
  (vui .
-      [(0 1 0 1 -4 20261103 1242)
+      [(0 1 0 1 -4 20261104 1154)
        ((emacs
 	 (29 1)))
        "Declarative, component-based UI library" tar
        ((:url . "https://github.com/d12frosted/vui.el")
-	(:commit . "43ebe180819b5d1ace15274cd2a96d500850df7e")
-	(:revdesc . "43ebe180819b")
+	(:commit . "e3f1795e898e572657f5f5271d3602c5e526978f")
+	(:revdesc . "e3f1795e898e")
 	(:keywords "ui" "widgets" "tools")
 	(:authors
 	 ("Boris Buliga" . "boris@d12frosted.io"))
@@ -86729,7 +86731,7 @@
 	   ("Mihai Olteanu" . "mihai_olteanu@fastmail.fm"))
 	  (:maintainer "Mihai Olteanu" . "mihai_olteanu@fastmail.fm"))])
  (vulpea .
-	 [(0 1 0 1 -4 20261027 1556)
+	 [(0 1 0 1 -4 20261104 1140)
 	  ((emacs
 	    (29 1))
 	   (org
@@ -86742,8 +86744,8 @@
 	    (2 19)))
 	  "Note management library for Org mode" tar
 	  ((:url . "https://github.com/d12frosted/vulpea")
-	   (:commit . "e8d00d8415275d5ac4606c8b1b3aeff2ee9699dd")
-	   (:revdesc . "e8d00d841527")
+	   (:commit . "be59d8f67a18cab4f09794031a55e7a0ae69087d")
+	   (:revdesc . "be59d8f67a18")
 	   (:authors
 	    ("Boris Buliga" . "boris@d12frosted.io"))
 	   (:maintainers
@@ -88649,15 +88651,15 @@
 		   (nil . "lompik@ArchOrion"))
 		  (:maintainer nil . "lompik@ArchOrion"))])
  (x509-mode .
-	    [(0 1 0 1 -4 20261102 725)
+	    [(0 1 0 1 -4 20261104 1136)
 	     ((emacs
 	       (25 1))
 	      (compat
 	       (29 1)))
 	     "View certificates, CRLs and keys using OpenSSL" tar
 	     ((:url . "https://github.com/jobbflykt/x509-mode")
-	      (:commit . "458dee0da612c2c6edde865ba04965bd0ab6cd0f")
-	      (:revdesc . "458dee0da612")
+	      (:commit . "f52a1d9da3a6a49ebf32736596571435de5f10ea")
+	      (:revdesc . "f52a1d9da3a6")
 	      (:authors
 	       ("Fredrik Axelsson" . "f.axelsson@gmail.com"))
 	      (:maintainers
