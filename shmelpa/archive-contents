@@ -1225,7 +1225,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20261103 1655)
+	      [(0 1 0 1 -4 20261106 1213)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1234,8 +1234,8 @@
 		 (0 17 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "ee1f061a111726955ee4d3056862804c8e458c64")
-		(:revdesc . "ee1f061a1117"))])
+		(:commit . "4564c5d27cff73eceea6d7aec44f4fc175d6f6f5")
+		(:revdesc . "4564c5d27cff"))])
  (agent-shell-attention .
 			[(0 1 0 1 -4 20261102 639)
 			 ((emacs
@@ -8687,7 +8687,7 @@
 		(:commit . "c2bb425eaff0975e0c7081f282d291f7853f8376")
 		(:revdesc . "c2bb425eaff0"))])
  (cider .
-	[(0 1 0 1 -4 20261101 1037)
+	[(0 1 0 1 -4 20261106 1225)
 	 ((emacs
 	   (28))
 	  (clojure-mode
@@ -8708,8 +8708,8 @@
 	   (0 4 1)))
 	 "Clojure Interactive Development Environment that Rocks" tar
 	 ((:url . "https://www.github.com/clojure-emacs/cider")
-	  (:commit . "1f0a1d13f3e879f6b795eecf44ee5df54b23e5b5")
-	  (:revdesc . "1f0a1d13f3e8")
+	  (:commit . "3d6ac80060b16009b597f1bc8481655b25f78dd7")
+	  (:revdesc . "3d6ac80060b1")
 	  (:keywords "languages" "clojure" "cider")
 	  (:authors
 	   ("Tim King" . "kingtim@gmail.com")
@@ -24653,15 +24653,15 @@
 			  ("Bryan Allred" . "bryan@revolvingcow.com"))
 			 (:maintainer "Bryan Allred" . "bryan@revolvingcow.com"))])
  (evil-collection .
-		  [(0 4 1 1 -4 20261014 225)
+		  [(0 4 1 1 -4 20261106 647)
 		   ((emacs
 		     (29 1))
 		    (evil
 		     (1 2 13)))
 		   "A set of keybindings for Evil mode" tar
 		   ((:url . "https://github.com/emacs-evil/evil-collection")
-		    (:commit . "3948a7890960d389dffa637203a6760df68b1c1c")
-		    (:revdesc . "3948a7890960")
+		    (:commit . "2c85a07409957627a6660c88407a21f3e4272db9")
+		    (:revdesc . "2c85a0740995")
 		    (:keywords "evil" "tools")
 		    (:authors
 		     ("James Nguyen" . "james@jojojames.com"))
@@ -27831,15 +27831,15 @@
 		 ("PythonNut" . "pythonnut@pythonnut.com"))
 		(:maintainer "PythonNut" . "pythonnut@pythonnut.com"))])
  (flycheck .
-	   [(0 1 0 1 -4 20261105 1702)
+	   [(0 1 0 1 -4 20261106 1406)
 	    ((emacs
 	      (28 1))
 	     (seq
 	      (2 24)))
 	    "On-the-fly syntax checking" tar
 	    ((:url . "https://github.com/flycheck/flycheck")
-	     (:commit . "37a67536f9801f2e7dbd1b4ebd43c78129db7740")
-	     (:revdesc . "37a67536f980")
+	     (:commit . "ef19401956d1a30358e52f01e0cd5324e3acd61d")
+	     (:revdesc . "ef19401956d1")
 	     (:keywords "convenience" "languages" "tools")
 	     (:authors
 	      ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
@@ -40533,7 +40533,7 @@
 	 (:revdesc . "51c7960820de")
 	 (:keywords "extensions" "lisp" "local" "tools"))])
  (hutch .
-	[(0 1 0 1 -4 20261007 1201)
+	[(0 1 0 1 -4 20261106 952)
 	 ((emacs
 	   (29 1))
 	  (magit
@@ -40546,8 +40546,8 @@
 	   (0 3)))
 	 "AI code review for magit" tar
 	 ((:url . "https://github.com/adjaecent/magit-hutch")
-	  (:commit . "2cf8d6c415c0e4db9f49b91176c8d85de164864c")
-	  (:revdesc . "2cf8d6c415c0")
+	  (:commit . "8db8a7168859d16571c2cd5fc594faa08a904953")
+	  (:revdesc . "8db8a7168859")
 	  (:authors
 	   ("Akshay Gupta" . "mail@kitallis.in"))
 	  (:maintainers
@@ -61064,15 +61064,17 @@
 		  ("Feng Shu" . "tumashu@163.com"))
 		 (:maintainer "Feng Shu" . "tumashu@163.com"))])
  (org-pomodoro .
-	       [(2 1 0 1 -4 20220318 1618)
+	       [(0 1 0 1 -4 20261106 1414)
 		((alert
 		  (0 5 10))
 		 (cl-lib
-		  (0 5)))
+		  (0 5))
+		 (emacs
+		  (24 1)))
 		"Pomodoro implementation for org-mode" tar
 		((:url . "https://github.com/lolownia/org-pomodoro")
-		 (:commit . "3f5bcfb80d61556d35fc29e5ddb09750df962cc6")
-		 (:revdesc . "3f5bcfb80d61")
+		 (:commit . "a283a0fca138b2dc9bd59f69b6f1f105d8bf006b")
+		 (:revdesc . "a283a0fca138")
 		 (:authors
 		  ("Arthur Leonard Andersen" . "leoc.git@gmail.com")
 		  ("Marcin Koziej" . "marcinatlolowniadotorg"))
@@ -62181,15 +62183,15 @@
 			     ("Junpeng Qiu" . "qjpchmail@gmail.com"))
 			    (:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com"))])
  (org-tag-beautify .
-		   [(0 1 0 1 -4 20260828 205)
+		   [(0 1 0 1 -4 20261106 1009)
 		    ((emacs
 		      (26 1))
 		     (nerd-icons
 		      (0 0 1)))
 		    "Beautify Org mode tags" tar
 		    ((:url . "https://repo.or.cz/org-tag-beautify.git")
-		     (:commit . "c7578a7dc12a75ca23c8d59ec76099cc943bf87d")
-		     (:revdesc . "c7578a7dc12a")
+		     (:commit . "aa63e313a3e1a045c20e7d5b2fa4a3f614cb23d1")
+		     (:revdesc . "aa63e313a3e1")
 		     (:keywords "hypermedia")
 		     (:authors
 		      ("stardiviner" . "numbchild@gmail.com"))
@@ -62341,15 +62343,15 @@
 		   ("Ilya Chernyshov" . "ichernyshovvv@gmail.com"))
 		  (:maintainer "Ilya Chernyshov" . "ichernyshovvv@gmail.com"))])
  (org-timegrid .
-	       [(0 1 0 1 -4 20261105 518)
+	       [(0 1 0 1 -4 20261106 731)
 		((emacs
 		  (29 1))
 		 (org
 		  (9 6)))
 		"SVG week calendar with mouse and keyboard editing" tar
 		((:url . "https://github.com/Gleek/org-timegrid")
-		 (:commit . "b373a09e024e8d6a6f9d6843df1aae8d2158ac53")
-		 (:revdesc . "b373a09e024e")
+		 (:commit . "8256f4b66ed7428b688f4eb0560d481be19d0a19")
+		 (:revdesc . "8256f4b66ed7")
 		 (:keywords "calendar" "outlines" "convenience")
 		 (:authors
 		  ("Umar Ahmad" . "Gleek@users.noreply.github.com"))
@@ -69157,13 +69159,13 @@
 	    ("Julian Rubisch" . "julian@julianrubisch.at"))
 	   (:maintainer "Julian Rubisch" . "julian@julianrubisch.at"))])
  (proof-general .
-		[(0 1 0 1 -4 20261106 24)
+		[(0 1 0 1 -4 20261106 753)
 		 ((emacs
 		   (25 2)))
 		 "A generic Emacs interface for proof assistants" tar
 		 ((:url . "https://proofgeneral.github.io/")
-		  (:commit . "80af5c9829168f2229262b63f42cdd12b6797506")
-		  (:revdesc . "80af5c982916")
+		  (:commit . "d8a41be1c5280d171aa5a55969a9e4576bdfcb34")
+		  (:revdesc . "d8a41be1c528")
 		  (:maintainers
 		   (nil . "proof-general-maintainers@groupes.renater.fr"))
 		  (:maintainer nil . "proof-general-maintainers@groupes.renater.fr"))])
@@ -80749,11 +80751,11 @@
 		    ("Trevor Richards" . "trev@trevdev.ca"))
 		   (:maintainer "Trevor Richards" . "trev@trevdev.ca"))])
  (tangotango-theme .
-		   [(0 1 0 1 -4 20241117 1143)
+		   [(0 1 0 1 -4 20261106 1331)
 		    nil "Tango Palette color theme for Emacs 24" tar
 		    ((:url . "https://github.com/juba/color-theme-tangotango")
-		     (:commit . "897c1643bd2cfd3c0b265a5f7599d1d04de0c304")
-		     (:revdesc . "897c1643bd2c")
+		     (:commit . "1f650e7312242bfe7d70e002397d0bd3abbfc8ad")
+		     (:revdesc . "1f650e731224")
 		     (:keywords "tango" "palette" "color" "theme" "emacs")
 		     (:authors
 		      ("Julien Barnier" . "julien@nozav.org"))
@@ -86691,13 +86693,13 @@
 	       ("Vince Salvino" . "mvsalvino@gmail.com"))
 	      (:maintainer "Vince Salvino" . "mvsalvino@gmail.com"))])
  (vui .
-      [(0 1 0 1 -4 20261105 1404)
+      [(0 1 0 1 -4 20261106 1500)
        ((emacs
 	 (29 1)))
        "Declarative, component-based UI library" tar
        ((:url . "https://github.com/d12frosted/vui.el")
-	(:commit . "e2535fdda60dd36bf0895e12c9de27a3aa62fff2")
-	(:revdesc . "e2535fdda60d")
+	(:commit . "a90f3cd411cc1102981b43efe92556c9d821acd3")
+	(:revdesc . "a90f3cd411cc")
 	(:keywords "ui" "widgets" "tools")
 	(:authors
 	 ("Boris Buliga" . "boris@d12frosted.io"))
