@@ -1381,7 +1381,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20261106 2204)
+	  [(0 1 0 1 -4 20261107 524)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1390,8 +1390,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Pi, Antigravity CLI, Claude Code, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "a976e61523224307092fde297314a60c1a547c47")
-	    (:revdesc . "a976e6152322")
+	    (:commit . "e6a820f96a72106a9692f31f80413af346548bbf")
+	    (:revdesc . "e6a820f96a72")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -5572,7 +5572,7 @@
 		("Eric Beuscher" . "beuscher@eecs.tulane.edu"))
 	       (:maintainer "Eric Beuscher" . "beuscher@eecs.tulane.edu"))])
  (bitbake .
-	  [(0 1 0 1 -4 20260712 1615)
+	  [(0 1 0 1 -4 20261107 237)
 	   ((emacs
 	     (25))
 	    (dash
@@ -5582,10 +5582,10 @@
 	    (s
 	     (1 10 0)))
 	   "Running bitbake from emacs" tar
-	   ((:url . "https://github.com/canatella/bitbake-el")
-	    (:commit . "f626d37727df0550aa2afd3f1b0ce81f38be18a3")
-	    (:revdesc . "f626d37727df")
-	    (:keywords "convenience"))])
+	   ((:url . "https://github.com/danielcmccarthy/bitbake-el")
+	    (:commit . "2fb57e5c0d016da90d4f8f8049a56a240cf8a1a3")
+	    (:revdesc . "2fb57e5c0d01")
+	    (:keywords "tools" "convenience"))])
  (bitbake-ts-mode .
 		  [(0 1 0 1 -4 20240908 1435)
 		   ((emacs
@@ -9705,13 +9705,13 @@
 			      (:commit . "6741bf65cf9b9bc896ab1cc3c384573e8ffe5f96")
 			      (:revdesc . "6741bf65cf9b"))])
  (clojure-mode .
-	       [(0 1 0 1 -4 20261103 1226)
+	       [(0 1 0 1 -4 20261107 710)
 		((emacs
 		  (27 1)))
 		"Major mode for Clojure code" tar
 		((:url . "https://github.com/clojure-emacs/clojure-mode")
-		 (:commit . "d864d6f26c8acc576fc7fc343299c240909f27ac")
-		 (:revdesc . "d864d6f26c8a")
+		 (:commit . "62d8981019b81bcf30e4bc47ae6927170104088b")
+		 (:revdesc . "62d8981019b8")
 		 (:keywords "languages" "clojure" "clojurescript" "lisp")
 		 (:authors
 		  ("Jeffrey Chu" . "jochu0@gmail.com")
@@ -9765,13 +9765,13 @@
 		      ("Max Penet" . "m@qbits.cc"))
 		     (:maintainer "Max Penet" . "m@qbits.cc"))])
  (clojure-ts-mode .
-		  [(0 1 0 1 -4 20261103 1226)
+		  [(0 1 0 1 -4 20261107 715)
 		   ((emacs
 		     (30 1)))
 		   "Major mode for Clojure code" tar
 		   ((:url . "https://github.com/clojure-emacs/clojure-ts-mode")
-		    (:commit . "51df988a3874e2f02a64f2d67b6ef97c7fc987b8")
-		    (:revdesc . "51df988a3874")
+		    (:commit . "30bccb067ed87f091b68738056b7ec7f14b19aac")
+		    (:revdesc . "30bccb067ed8")
 		    (:keywords "languages" "clojure" "clojurescript" "lisp")
 		    (:authors
 		     ("Danny Freeman" . "danny@dfreeman.email")
@@ -10698,15 +10698,15 @@
 		("Mekeor Melire" . "mekeor@posteo.de"))
 	       (:maintainer "Mekeor Melire" . "mekeor@posteo.de"))])
  (company .
-	  [(0 1 0 1 -4 20261106 155)
+	  [(0 1 0 1 -4 20261107 540)
 	   ((emacs
 	     (26 1))
 	    (posframe
 	     (1 5 1)))
 	   "Modular text completion framework" tar
 	   ((:url . "http://company-mode.github.io/")
-	    (:commit . "ba9c346c43bbe3c904cec60364100f521c43faea")
-	    (:revdesc . "ba9c346c43bb")
+	    (:commit . "7c50b45870fa4e95d60c28e2ea9281c0295a486c")
+	    (:revdesc . "7c50b45870fa")
 	    (:keywords "abbrev" "convenience" "matching")
 	    (:maintainers
 	     ("Dmitry Gutov" . "dmitry@gutov.dev"))
@@ -27290,15 +27290,15 @@
 		 ("Schuyler Eldridge" . "schuyler.eldridge@ibm.com"))
 		(:maintainer "Schuyler Eldridge" . "schuyler.eldridge@ibm.com"))])
  (firstly-search .
-		 [(0 1 0 1 -4 20261103 2340)
+		 [(0 1 0 1 -4 20261107 630)
 		  ((emacs
 		    (29 1))
 		   (compat
-		    (30 1)))
+		    (31 1)))
 		  "Search with any key: Dired, Package, Buffer menu modes" tar
 		  ((:url . "https://codeberg.org/Anoncheg/firstly-search")
-		   (:commit . "6b58a54339fb6fc1e8913ca465dc9f2d00ec5f52")
-		   (:revdesc . "6b58a54339fb")
+		   (:commit . "a8b012b7da74a00ee82137c38908911f87d40cc4")
+		   (:revdesc . "a8b012b7da74")
 		   (:keywords "matching" "isearch" "navigation" "dired" "packagemenu")
 		   (:authors
 		    (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
@@ -49697,15 +49697,15 @@
 		("Pawel Bokota" . "pawelb.lnx@gmail.com"))
 	       (:maintainer "Pawel Bokota" . "pawelb.lnx@gmail.com"))])
  (macher .
-	 [(0 1 0 1 -4 20261106 2300)
+	 [(0 1 0 1 -4 20261107 316)
 	  ((emacs
 	    (30 1))
 	   (gptel
 	    (0 9 9 6)))
 	  "LLM implementation toolset" tar
 	  ((:url . "https://github.com/kmontag/macher")
-	   (:commit . "b4a86f0d514fea8b460022181cbc2405a3ae9eb3")
-	   (:revdesc . "b4a86f0d514f")
+	   (:commit . "282e708c3d15ae5eb3c5f0a59aeda6d6bb67a47a")
+	   (:revdesc . "282e708c3d15")
 	   (:keywords "convenience" "gptel" "llm")
 	   (:authors
 	    ("Kevin Montag" . "https://github.com/kmontag"))
@@ -54477,13 +54477,13 @@
 	 ("Andrew Gwozdziewycz" . "git@apgwoz.com"))
 	(:maintainer "Andrew Gwozdziewycz" . "git@apgwoz.com"))])
  (mw-thesaurus .
-	       [(0 1 0 1 -4 20261104 2131)
+	       [(0 1 0 1 -4 20261107 217)
 		((emacs
 		  (27 1)))
 		"Merriam-Webster Thesaurus and Dictionary" tar
 		((:url . "https://github.com/agzam/mw-thesaurus.el")
-		 (:commit . "d32fa2681de84f703f965c73aaa62c465244177d")
-		 (:revdesc . "d32fa2681de8")
+		 (:commit . "4dba02ae862cce9db37d2400636254e812a6d36a")
+		 (:revdesc . "4dba02ae862c")
 		 (:keywords "wp" "matching")
 		 (:authors
 		  ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
@@ -66544,7 +66544,7 @@
 		 ("Johann Klähn" . "johann@jklaehn.de"))
 		(:maintainer "Johann Klähn" . "johann@jklaehn.de"))])
  (pilish .
-	 [(0 1 0 1 -4 20261106 200)
+	 [(0 1 0 1 -4 20261107 151)
 	  ((emacs
 	    (29 1))
 	   (transient
@@ -66557,8 +66557,8 @@
 	    (0 2 0)))
 	  "Emacs frontend for pi coding agent" tar
 	  ((:url . "https://github.com/dnouri/pilish")
-	   (:commit . "a01a0f7ed1c5a1717085cac34ad3db664a610326")
-	   (:revdesc . "a01a0f7ed1c5")
+	   (:commit . "309fd210007a9493bb01f2cf248ae47277df2e46")
+	   (:revdesc . "309fd210007a")
 	   (:keywords "ai" "llm" "ai-pair-programming" "tools")
 	   (:authors
 	    ("Daniel Nouri" . "daniel.nouri@gmail.com"))
