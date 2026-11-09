@@ -1225,7 +1225,7 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20261107 1445)
+	      [(0 1 0 1 -4 20261109 555)
 	       ((emacs
 		 (29 1))
 		(shell-maker
@@ -1234,8 +1234,8 @@
 		 (0 17 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "04786488b3c68326e11f69bddf79eae4ac895a52")
-		(:revdesc . "04786488b3c6"))])
+		(:commit . "14e8e2a2f2b495f83c9d7b18be7838e45d75bf56")
+		(:revdesc . "14e8e2a2f2b4"))])
  (agent-shell-attention .
 			[(0 1 0 1 -4 20261102 639)
 			 ((emacs
@@ -1252,6 +1252,26 @@
 			  (:maintainers
 			   ("Paul D. Nelson" . "ultrono@gmail.com"))
 			  (:maintainer "Paul D. Nelson" . "ultrono@gmail.com"))])
+ (agent-shell-consult .
+		      [(20261105 513)
+		       ((emacs
+			 (29 1))
+			(agent-shell
+			 (0 83 4))
+			(acp
+			 (0 18 1))
+			(consult
+			 (3 0)))
+		       "Consult UI for agent-shell" tar
+		       ((:url . "https://github.com/Gleek/agent-shell-consult")
+			(:commit . "78a1056275cd26a7a8675f43e1499bd8d0a7aa53")
+			(:revdesc . "78a1056275cd")
+			(:keywords "convenience" "processes" "tools")
+			(:authors
+			 ("Umar Ahmad" . "Gleek@users.noreply.github.com"))
+			(:maintainers
+			 ("Umar Ahmad" . "Gleek@users.noreply.github.com"))
+			(:maintainer "Umar Ahmad" . "Gleek@users.noreply.github.com"))])
  (agent-shell-math-renderer .
 			    [(0 1 0 1 -4 20261107 1059)
 			     ((emacs
@@ -1381,7 +1401,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20261107 524)
+	  [(0 1 0 1 -4 20261109 503)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1390,8 +1410,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Pi, Antigravity CLI, Claude Code, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "e6a820f96a72106a9692f31f80413af346548bbf")
-	    (:revdesc . "e6a820f96a72")
+	    (:commit . "a6bc8c7477dbedc3f419ebc356573c1413a9fb57")
+	    (:revdesc . "a6bc8c7477db")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -1512,6 +1532,20 @@
 	    (:maintainers
 	     ("Wataru MIYAGUNI" . "gonngo@gmail.com"))
 	    (:maintainer "Wataru MIYAGUNI" . "gonngo@gmail.com"))])
+ (ajnc .
+       [(20261108 1832)
+	((emacs
+	  (28 1)))
+	"A Janet (Spork) Netrepl Client" tar
+	((:url . "https://codeberg.org/zzkt/ajnc")
+	 (:commit . "ef420b2c50b4f2a5231060aeaf939e0acca09198")
+	 (:revdesc . "ef420b2c50b4")
+	 (:keywords "tools" "programming" "janet" "repl" "netrepl")
+	 (:authors
+	  ("nik gaffney" . "nik@fo.am"))
+	 (:maintainers
+	  ("nik gaffney" . "nik@fo.am"))
+	 (:maintainer "nik gaffney" . "nik@fo.am"))])
  (alabaster-themes .
 		   [(0 1 0 1 -4 20260113 657)
 		    ((emacs
@@ -4589,11 +4623,11 @@
 	       ("Michael Schuldt" . "mbschuldt@gmail.com"))
 	      (:maintainer "Michael Schuldt" . "mbschuldt@gmail.com"))])
  (base16-theme .
-	       [(3 0 1 -4 20261004 425)
+	       [(3 0 1 -4 20261108 434)
 		nil "A set of base16 themes for your favorite editor" tar
 		((:url . "https://github.com/tinted-theming/base16-emacs")
-		 (:commit . "3e88034f61b9114a560bb5e89ef7337a43dd5d1b")
-		 (:revdesc . "3e88034f61b9")
+		 (:commit . "8fd1ec271ba969e2141ddefe9c90022488dc9988")
+		 (:revdesc . "8fd1ec271ba9")
 		 (:authors
 		  ("Kaleb Elwert" . "belak@coded.io"))
 		 (:maintainers
@@ -6953,6 +6987,20 @@
 	  (:maintainers
 	   ("Adam Porter" . "adam@alphapapa.net"))
 	  (:maintainer "Adam Porter" . "adam@alphapapa.net"))])
+ (burnish .
+	  [(20261108 1848)
+	   ((emacs
+	     (30 1)))
+	   "Automate Org export and view" tar
+	   ((:url . "https://github.com/kickingvegas/burnish")
+	    (:commit . "aa7dc231a3f6d9f52a7bf3ee22313a42808d3eaf")
+	    (:revdesc . "aa7dc231a3f6")
+	    (:keywords "tools")
+	    (:authors
+	     ("Charles Y. Choi" . "kickingvegas@gmail.com"))
+	    (:maintainers
+	     ("Charles Y. Choi" . "kickingvegas@gmail.com"))
+	    (:maintainer "Charles Y. Choi" . "kickingvegas@gmail.com"))])
  (burnt-toast .
 	      [(0 1 1 -4 20201113 814)
 	       ((emacs
@@ -7224,13 +7272,15 @@
 		("ono hiroko" . "kuanyui.github.io"))
 	       (:maintainer "ono hiroko" . "kuanyui.github.io"))])
  (cal-china-x .
-	      [(0 1 0 1 -4 20260222 1826)
-	       ((cl-lib
+	      [(0 1 0 1 -4 20261108 1547)
+	       ((emacs
+		 (24 4))
+		(cl-lib
 		 (0 5)))
 	       "Chinese localization, lunar/horoscope/zodiac info and more.." tar
 	       ((:url . "https://github.com/xwl/cal-china-x")
-		(:commit . "e9e3067134b0606bfe2a6925d7488c4b24ce81d5")
-		(:revdesc . "e9e3067134b0")
+		(:commit . "416aa925cbad8beea6473fc5e61ef1a5380f3036")
+		(:revdesc . "416aa925cbad")
 		(:authors
 		 ("William Xu" . "william.xwl@gmail.com"))
 		(:maintainers
@@ -8101,7 +8151,7 @@
 	       ("Andrew Myers" . "am2605@gmail.com"))
 	      (:maintainer "Andrew Myers" . "am2605@gmail.com"))])
  (cfn-mode .
-	   [(0 1 0 1 -4 20261101 906)
+	   [(0 1 0 1 -4 20261108 906)
 	    ((emacs
 	      (27 0))
 	     (f
@@ -8112,8 +8162,8 @@
 	      (0 0 13)))
 	    "AWS cloudformation mode" tar
 	    ((:url . "https://gitlab.com/worr/cfn-mode")
-	     (:commit . "c66232bbbcd3277c83ddd62542f00ae9f4af9f37")
-	     (:revdesc . "c66232bbbcd3")
+	     (:commit . "7d9e2c34ccfb4495d6b3a36138d02031529a5823")
+	     (:revdesc . "7d9e2c34ccfb")
 	     (:keywords "convenience" "languages" "tools")
 	     (:authors
 	      ("William Orr" . "will@worrbase.com"))
@@ -14463,13 +14513,13 @@
 		    ("Peter Hoeg" . "(peter@hoeg.com)"))
 		   (:maintainer "Peter Hoeg" . "(peter@hoeg.com)"))])
  (cui .
-      [(0 1 0 1 -4 20261106 2148)
+      [(0 1 0 1 -4 20261108 55)
        ((emacs
 	 (29 1)))
        "Chat blocks in org-mode for LLM and agents" tar
        ((:url . "https://codeberg.org/Anoncheg/emacs-cui")
-	(:commit . "494dfcd1b74734c2f6a3624b8405143b2274c0e8")
-	(:revdesc . "494dfcd1b747")
+	(:commit . "4c600e5c1254a5bc8f510667e2f4afa49c06a264")
+	(:revdesc . "4c600e5c1254")
 	(:keywords "org" "comm" "url" "link")
 	(:authors
 	 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
@@ -20273,7 +20323,7 @@
 	       (:revdesc . "9630dfac9549")
 	       (:keywords "convenience" "languages" "tools"))])
  (ekg .
-      [(0 8 0 1 -4 20261107 1741)
+      [(0 8 0 1 -4 20261108 2035)
        ((triples
 	 (0 6 1))
 	(emacs
@@ -20284,8 +20334,8 @@
 	 (20261030 946)))
        "A system for recording and linking information" tar
        ((:url . "https://github.com/ahyatt/ekg")
-	(:commit . "a27bc10a36e741208395976279a45de8787bf451")
-	(:revdesc . "a27bc10a36e7")
+	(:commit . "7a0bc6c3fb33950aed588a3983b5ad7ba4a7fbe8")
+	(:revdesc . "7a0bc6c3fb33")
 	(:keywords "outlines" "hypermedia")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
@@ -25927,6 +25977,22 @@
 			  (:commit . "0d245edcfcd9cc5766d37b270214fb9da9b4336d")
 			  (:revdesc . "0d245edcfcd9")
 			  (:keywords "faces"))])
+ (ewc .
+      [(20261104 1013)
+       ((emacs
+	 (28 2))
+	(lgr
+	 (0 1 0)))
+       "Wayland client in Elisp" tar
+       ((:url . "http://perma-curious.eu/repo-ewx/")
+	(:commit . "466f12c9327c3ed26acb52b68a64be978706e391")
+	(:revdesc . "466f12c9327c")
+	(:keywords "unix")
+	(:authors
+	 ("Michael Bauer" . "michael-bauer@posteo.de"))
+	(:maintainers
+	 ("Thomas Koch" . "thomas@koch.ro"))
+	(:maintainer "Thomas Koch" . "thomas@koch.ro"))])
  (ewm .
       [(0 1 0 1 -4 20251021 30)
        ((emacs
@@ -27291,15 +27357,15 @@
 		 ("Schuyler Eldridge" . "schuyler.eldridge@ibm.com"))
 		(:maintainer "Schuyler Eldridge" . "schuyler.eldridge@ibm.com"))])
  (firstly-search .
-		 [(0 1 0 1 -4 20261107 630)
+		 [(0 1 0 1 -4 20261109 857)
 		  ((emacs
 		    (29 1))
 		   (compat
 		    (31 1)))
 		  "Search with any key: Dired, Package, Buffer menu modes" tar
 		  ((:url . "https://codeberg.org/Anoncheg/firstly-search")
-		   (:commit . "a8b012b7da74a00ee82137c38908911f87d40cc4")
-		   (:revdesc . "a8b012b7da74")
+		   (:commit . "dbcea6190390d74c56da2962a7f07aa76fffa298")
+		   (:revdesc . "dbcea6190390")
 		   (:keywords "matching" "isearch" "navigation" "dired" "packagemenu")
 		   (:authors
 		    (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
@@ -30905,7 +30971,7 @@
 		  ("Matúš Goljer" . "matus.goljer@gmail.com"))
 		 (:maintainer "Matúš Goljer" . "matus.goljer@gmail.com"))])
  (fontsloth .
-	    [(0 1 0 1 -4 20250707 829)
+	    [(0 1 0 1 -4 20261108 2339)
 	     ((async
 	       (1 9 7))
 	      (f
@@ -30914,14 +30980,12 @@
 	       (0 1))
 	      (pcache
 	       (0 5))
-	      (stream
-	       (2 2 5))
 	      (emacs
 	       (28 1)))
 	     "Elisp otf/ttf font loader/renderer" tar
 	     ((:url . "https://github.com/jollm/fontsloth")
-	      (:commit . "0835098743e060b2f2191f53d181257d6444dce4")
-	      (:revdesc . "0835098743e0")
+	      (:commit . "f77dec891f04d5d2f30671a9f81bb5b68d2f08f4")
+	      (:revdesc . "f77dec891f04")
 	      (:keywords "data" "font" "rasterization" "ttf" "otf")
 	      (:authors
 	       ("Jo Gay" . "jo.gay@mailfence.com"))
@@ -30999,7 +31063,7 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20261105 1649)
+	[(0 1 0 1 -4 20261107 2134)
 	 ((emacs
 	   (29 1))
 	  (compat
@@ -31024,8 +31088,8 @@
 	   (1 2)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "94958bace3d4e91527b09a4967492b6c5d388471")
-	  (:revdesc . "94958bace3d4")
+	  (:commit . "9ec157ae2e3ad8d4354af50f0b8be65e514f20fc")
+	  (:revdesc . "9ec157ae2e3a")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -32569,15 +32633,15 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20261107 1455)
+	  [(0 1 0 1 -4 20261109 824)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30 1 0 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "0874bee7b8d62695a2b0ed3f1c9994458d45b21c")
-	    (:revdesc . "0874bee7b8d6")
+	    (:commit . "91c86d21bb611167960ba503e8b22262bb8d5993")
+	    (:revdesc . "91c86d21bb61")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -36584,7 +36648,7 @@
 		     ("Valentin Ignatev" . "valentignatev@gmail.com"))
 		    (:maintainer "Valentin Ignatev" . "valentignatev@gmail.com"))])
  (hel .
-      [(0 1 0 1 -4 20261102 2110)
+      [(0 1 0 1 -4 20261108 1235)
        ((emacs
 	 (29 1))
 	(dash
@@ -36597,8 +36661,8 @@
 	 (0 6)))
        "Helix Emulation Layer" tar
        ((:url . "https://github.com/helheim-emacs/hel")
-	(:commit . "005dbdf7802737a5e064a97de3b45dfd191d6ba2")
-	(:revdesc . "005dbdf78027")
+	(:commit . "21140350f834a5cce80401969eab75234244b166")
+	(:revdesc . "21140350f834")
 	(:authors
 	 ("Yuriy Artemyev" . "anuvyklack@gmail.com"))
 	(:maintainers
@@ -36621,15 +36685,15 @@
 		(:revdesc . "8c70b48fe5fb")
 		(:keywords "faces"))])
  (helm .
-       [(0 1 0 1 -4 20261105 1843)
+       [(0 1 0 1 -4 20261108 713)
 	((helm-core
 	  (4 0 9))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
-	 (:commit . "f367b157105f7774b0159015081616bf8da287e2")
-	 (:revdesc . "f367b157105f")
+	 (:commit . "4fdd575901eb7f92479db2bf7d34afa5395fb1ea")
+	 (:revdesc . "4fdd575901eb")
 	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help" "package")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
@@ -40028,7 +40092,7 @@
 	 (:commit . "f2b99a9a10becfff207cf9418c6dce78364b1a4b")
 	 (:revdesc . "f2b99a9a10be"))])
  (hnreader .
-	   [(0 1 0 1 -4 20260824 2055)
+	   [(0 1 0 1 -4 20261109 27)
 	    ((emacs
 	      (25 1))
 	     (promise
@@ -40039,8 +40103,8 @@
 	      (9 2)))
 	    "A hackernews reader" tar
 	    ((:url . "https://github.com/thanhvg/emacs-hnreader/")
-	     (:commit . "3a1ad5f3711b89e3e2f8506cc485ce9f8e8ca216")
-	     (:revdesc . "3a1ad5f3711b")
+	     (:commit . "79c29e6b5a46c9cfb899f80ebc272f7e552adbc5")
+	     (:revdesc . "79c29e6b5a46")
 	     (:authors
 	      ("Thanh Vuong" . "thanhvg@gmail.com"))
 	     (:maintainers
@@ -49200,7 +49264,7 @@
 		("Evgeny Kurnevsky" . "kurnevsky@gmail.com"))
 	       (:maintainer "Ross A. Baker" . "ross@rossabaker.com"))])
  (lsp-mode .
-	   [(0 1 0 1 -4 20261107 2037)
+	   [(0 1 0 1 -4 20261109 120)
 	    ((emacs
 	      (29 1))
 	     (dash
@@ -49219,8 +49283,8 @@
 	      (1 11)))
 	    "LSP mode" tar
 	    ((:url . "https://github.com/emacs-lsp/lsp-mode")
-	     (:commit . "7f3a6575a1779fd69078825178ba0ed330944ff2")
-	     (:revdesc . "7f3a6575a177")
+	     (:commit . "28568fd1c66237402d9dafae62a5742afb1f5ef9")
+	     (:revdesc . "28568fd1c662")
 	     (:keywords "languages"))])
  (lsp-mssql .
 	    [(0 1 0 1 -4 20260507 1743)
@@ -49612,7 +49676,7 @@
 	    ("Mario Rodas" . "marsam@users.noreply.github.com"))
 	   (:maintainer "Mario Rodas" . "marsam@users.noreply.github.com"))])
  (lyrics-fetcher .
-		 [(0 1 0 1 -4 20241222 1620)
+		 [(0 1 0 1 -4 20261108 1530)
 		  ((emacs
 		    (27))
 		   (emms
@@ -49623,8 +49687,8 @@
 		    (0 3 2)))
 		  "Fetch song lyrics and album covers" tar
 		  ((:url . "https://github.com/SqrtMinusOne/lyrics-fetcher.el")
-		   (:commit . "2686f97830d6ba03e86992e44405fad9ae58981f")
-		   (:revdesc . "2686f97830d6")
+		   (:commit . "59a3b37e0fb3e72067367aa637745a561031009f")
+		   (:revdesc . "59a3b37e0fb3")
 		   (:authors
 		    ("Korytov Pavel" . "thexcloud@gmail.com"))
 		   (:maintainers
@@ -49847,11 +49911,11 @@
 	       (:revdesc . "aa9e9241284b")
 	       (:keywords "languages"))])
  (magit .
-	[(0 1 0 1 -4 20261107 2043)
+	[(0 1 0 1 -4 20261107 2107)
 	 ((emacs
 	   (28 1))
 	  (compat
-	   (31 0))
+	   (31 1))
 	  (cond-let
 	   (1 1))
 	  (llama
@@ -49863,11 +49927,11 @@
 	  (transient
 	   (0 13))
 	  (with-editor
-	   (3 5)))
+	   (3 6)))
 	 "A Git porcelain inside Emacs" tar
 	 ((:url . "https://github.com/magit/magit")
-	  (:commit . "00463fa8acb352cbb0bb0d67636702b1d7b63b90")
-	  (:revdesc . "00463fa8acb3")
+	  (:commit . "602760478f6d4a67e7064f5bcd2e294aa3f38f8e")
+	  (:revdesc . "602760478f6d")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Marius Vollmer" . "marius.vollmer@gmail.com")
@@ -50323,11 +50387,11 @@
 		       ("Jules Tamagnan" . "jtamagnan@gmail.com"))
 		      (:maintainer "Jules Tamagnan" . "jtamagnan@gmail.com"))])
  (magit-section .
-		[(0 1 0 1 -4 20261107 1854)
+		[(0 1 0 1 -4 20261107 2107)
 		 ((emacs
 		   (28 1))
 		  (compat
-		   (31 0))
+		   (31 1))
 		  (cond-let
 		   (1 1))
 		  (llama
@@ -50336,8 +50400,8 @@
 		   (2 24)))
 		 "Sections for read-only buffers" tar
 		 ((:url . "https://github.com/magit/magit")
-		  (:commit . "d60aea3445e23ee0f9a17e889d2f22fef6da8c65")
-		  (:revdesc . "d60aea3445e2")
+		  (:commit . "602760478f6d4a67e7064f5bcd2e294aa3f38f8e")
+		  (:revdesc . "602760478f6d")
 		  (:keywords "tools")
 		  (:authors
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
@@ -50345,7 +50409,7 @@
 		   ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
 		  (:maintainer "Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))])
  (magit-standup .
-		[(0 1 0 1 -4 20260922 1748)
+		[(0 1 0 1 -4 20261108 1824)
 		 ((emacs
 		   (28 1))
 		  (magit
@@ -50354,8 +50418,8 @@
 		   (0 8 0)))
 		 "Collect recent git commits for standup notes" tar
 		 ((:url . "https://github.com/function-artisans/magit-standup")
-		  (:commit . "fba45b21733efbb1ae8ebe639505a2e0073f5270")
-		  (:revdesc . "fba45b21733e")
+		  (:commit . "ea8a3bd7a18e9913709b099d23c72e92d5235e87")
+		  (:revdesc . "ea8a3bd7a18e")
 		  (:keywords "tools" "vc")
 		  (:authors
 		   ("István Karaszi" . "ikaraszi@gmail.com"))
@@ -51073,13 +51137,13 @@
 		  ("Jen-Chieh Shen" . "jcs090218@gmail.com"))
 		 (:maintainer "Antoine R. Dumont" . "(@ardumont)"))])
  (markdown-ts-appear .
-		     [(0 1 0 1 -4 20261029 638)
+		     [(0 1 0 1 -4 20261109 228)
 		      ((emacs
 			(31 1)))
 		      "Reveal Markdown source at point" tar
 		      ((:url . "https://github.com/Thysrael/markdown-ts-appear")
-		       (:commit . "d740ad4f59b8b34ea27a93a2b3b98fbdaf0cd467")
-		       (:revdesc . "d740ad4f59b8")
+		       (:commit . "39cc0f95f1f32d85acd7e4887539bb2ea0f3590f")
+		       (:revdesc . "39cc0f95f1f3")
 		       (:keywords "text" "convenience")
 		       (:authors
 			("Thysrael" . "thysrael@163.com"))
@@ -53970,13 +54034,13 @@
 		("Mikhail Rudenko" . "mike.rudenko@gmail.com"))
 	       (:maintainer "Mikhail Rudenko" . "mike.rudenko@gmail.com"))])
  (mu4e-autotask .
-		[(0 1 0 1 -4 20260824 747)
+		[(0 1 0 1 -4 20261107 2228)
 		 ((emacs
 		   (29 1)))
 		 "Email automation for mu4e" tar
 		 ((:url . "https://github.com/laurynas-biveinis/mu4e-autotask")
-		  (:commit . "2175192cdd6289d35d2e85e8cc97dfc83e8a9c51")
-		  (:revdesc . "2175192cdd62")
+		  (:commit . "7455c51445e4be07da9255c1394d6ec6fa92f027")
+		  (:revdesc . "7455c51445e4")
 		  (:keywords "mail")
 		  (:authors
 		   ("Laurynas Biveinis" . "laurynas.biveinis@gmail.com"))
@@ -54155,7 +54219,7 @@
 	   ("Jiahao Li" . "jiahaowork@gmail.com"))
 	  (:maintainer "Jiahao Li" . "jiahaowork@gmail.com"))])
  (mugur .
-	[(0 1 0 1 -4 20250730 1328)
+	[(0 1 0 1 -4 20261108 1639)
 	 ((emacs
 	   (26 1))
 	  (s
@@ -54168,8 +54232,8 @@
 	   (1 0)))
 	 "Configurator for QMK compatible keyboards" tar
 	 ((:url . "https://github.com/mihaiolteanu/mugur")
-	  (:commit . "ee43cd1ab5ae687882b7d5f3eb05b0e34c3fc0a0")
-	  (:revdesc . "ee43cd1ab5ae")
+	  (:commit . "2e16f1168b8b488a0816e4cdaf1fd1bc98ad5325")
+	  (:revdesc . "2e16f1168b8b")
 	  (:keywords "multimedia")
 	  (:authors
 	   ("Mihai Olteanu" . "mihai_olteanu@fastmail.fm"))
@@ -54478,13 +54542,13 @@
 	 ("Andrew Gwozdziewycz" . "git@apgwoz.com"))
 	(:maintainer "Andrew Gwozdziewycz" . "git@apgwoz.com"))])
  (mw-thesaurus .
-	       [(0 1 0 1 -4 20261107 217)
+	       [(0 1 0 1 -4 20261108 2103)
 		((emacs
 		  (27 1)))
 		"Merriam-Webster Thesaurus and Dictionary" tar
 		((:url . "https://github.com/agzam/mw-thesaurus.el")
-		 (:commit . "4dba02ae862cce9db37d2400636254e812a6d36a")
-		 (:revdesc . "4dba02ae862c")
+		 (:commit . "e500a35ab9d09bca28bbd2805163ae78bcbcaba7")
+		 (:revdesc . "e500a35ab9d0")
 		 (:keywords "wp" "matching")
 		 (:authors
 		  ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
@@ -57380,15 +57444,15 @@
 		    (nil . "NikClaytonnik@ngo.org.uk"))
 		   (:maintainer nil . "NikClaytonnik@ngo.org.uk"))])
  (ob-http .
-	  [(0 0 1 1 -4 20180707 1448)
+	  [(0 1 0 1 -4 20261108 345)
 	   ((s
 	     (1 9 0))
 	    (cl-lib
 	     (0 5)))
 	   "Http request in org-mode babel" tar
 	   ((:url . "https://github.com/zweifisch/ob-http")
-	    (:commit . "b1428ea2a63bcb510e7382a1bf5fe82b19c104a7")
-	    (:revdesc . "b1428ea2a63b")
+	    (:commit . "cd6d145da1f5f11d107f423c36f8b9a6af742dfd")
+	    (:revdesc . "cd6d145da1f5")
 	    (:authors
 	     ("ZHOU Feng" . "zf.pascal@gmail.com"))
 	    (:maintainers
@@ -57409,21 +57473,19 @@
 	   ("Brantou" . "brantou89@gmail.com"))
 	  (:maintainer "Brantou" . "brantou89@gmail.com"))])
  (ob-ipython .
-	     [(0 1 0 1 -4 20260324 859)
+	     [(0 1 0 1 -4 20261108 2106)
 	      ((s
 		(1 9 0))
 	       (dash
-		(2 10 0))
-	       (dash-functional
-		(1 2 0))
+		(2 18 0))
 	       (f
 		(0 17 2))
 	       (emacs
 		(24)))
 	      "Org-babel functions for IPython evaluation" tar
 	      ((:url . "http://www.gregsexton.org")
-	       (:commit . "35414dccffe48ce70122c40ff5db0b74dfa82cdf")
-	       (:revdesc . "35414dccffe4")
+	       (:commit . "6369561e5ad0a58cebaf6609cea61a40743f0d57")
+	       (:revdesc . "6369561e5ad0")
 	       (:keywords "literate programming" "reproducible research")
 	       (:authors
 		("Greg Sexton" . "gregsexton@gmail.com"))
@@ -63452,15 +63514,15 @@
 	   ("J.D. Smith" . "jdtsmith@gmail.com"))
 	  (:maintainer "J.D. Smith" . "jdtsmith@gmail.com"))])
  (outline-indent .
-		 [(0 1 0 1 -4 20261101 1833)
+		 [(0 1 0 1 -4 20261109 25)
 		  ((emacs
 		    (26 1))
 		   (kirigami
 		    (1 0 5)))
 		  "Folding text based on indentation (origami alternative)" tar
 		  ((:url . "https://github.com/jamescherti/outline-indent.el")
-		   (:commit . "8e45ae2d8c98cf0dfe30217461e2a7bc778640a1")
-		   (:revdesc . "8e45ae2d8c98")
+		   (:commit . "30421254b99822e2333e7a5f05654abd58daee57")
+		   (:revdesc . "30421254b998")
 		   (:keywords "outlines" "convenience")
 		   (:authors
 		    ("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -65314,13 +65376,13 @@
 		 ("Arnaud Rouanet" . "arnaud@rouanet.org"))
 		(:maintainer "Arnaud Rouanet" . "arnaud@rouanet.org"))])
  (pathaction .
-	     [(0 1 0 1 -4 20261103 1506)
+	     [(0 1 0 1 -4 20261108 1805)
 	      ((emacs
 		(25 1)))
 	      "Execute the pathaction.yaml rules from your editor" tar
 	      ((:url . "https://github.com/jamescherti/pathaction.el")
-	       (:commit . "b43005dc735c65bf0e09805a35e06c43b384ac22")
-	       (:revdesc . "b43005dc735c")
+	       (:commit . "c3114857fd1db0f570f6776ae63d9fa2e29472c8")
+	       (:revdesc . "c3114857fd1d")
 	       (:keywords "tools" "processes" "convenience")
 	       (:authors
 		("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -66545,7 +66607,7 @@
 		 ("Johann Klähn" . "johann@jklaehn.de"))
 		(:maintainer "Johann Klähn" . "johann@jklaehn.de"))])
  (pilish .
-	 [(0 1 0 1 -4 20261107 151)
+	 [(0 1 0 1 -4 20261108 355)
 	  ((emacs
 	    (29 1))
 	   (transient
@@ -66558,8 +66620,8 @@
 	    (0 2 0)))
 	  "Emacs frontend for pi coding agent" tar
 	  ((:url . "https://github.com/dnouri/pilish")
-	   (:commit . "309fd210007a9493bb01f2cf248ae47277df2e46")
-	   (:revdesc . "309fd210007a")
+	   (:commit . "ad21650836c68700091975d752bc174d3ad122d0")
+	   (:revdesc . "ad21650836c6")
 	   (:keywords "ai" "llm" "ai-pair-programming" "tools")
 	   (:authors
 	    ("Daniel Nouri" . "daniel.nouri@gmail.com"))
@@ -69160,13 +69222,13 @@
 	    ("Julian Rubisch" . "julian@julianrubisch.at"))
 	   (:maintainer "Julian Rubisch" . "julian@julianrubisch.at"))])
  (proof-general .
-		[(0 1 0 1 -4 20261106 1739)
+		[(0 1 0 1 -4 20261108 901)
 		 ((emacs
 		   (25 2)))
 		 "A generic Emacs interface for proof assistants" tar
 		 ((:url . "https://proofgeneral.github.io/")
-		  (:commit . "7922429acd7b46e237873f26533a20f67490ad3f")
-		  (:revdesc . "7922429acd7b")
+		  (:commit . "20de568be368eef29e97635a31f383eeadcc4c31")
+		  (:revdesc . "20de568be368")
 		  (:maintainers
 		   (nil . "proof-general-maintainers@groupes.renater.fr"))
 		  (:maintainer nil . "proof-general-maintainers@groupes.renater.fr"))])
@@ -70637,13 +70699,13 @@
 			 ("Sebastien Gross" . "seb•ɑƬ•chezwam•ɖɵʈ•org"))
 			(:maintainer "Sebastien Gross" . "seb•ɑƬ•chezwam•ɖɵʈ•org"))])
  (quick-fasd .
-	     [(0 1 0 1 -4 20261101 1715)
+	     [(0 1 0 1 -4 20261108 1811)
 	      ((emacs
 		(26 1)))
 	      "Integration for the command-line tool `fasd'" tar
 	      ((:url . "https://github.com/jamescherti/quick-fasd.el")
-	       (:commit . "b7b24f884df970229b23caff959eebe2b75fca85")
-	       (:revdesc . "b7b24f884df9")
+	       (:commit . "199649d8ded160946107ff3099cb2ebaa37e731f")
+	       (:revdesc . "199649d8ded1")
 	       (:keywords "convenience" "files" "tools"))])
  (quick-peek .
 	     [(1 0 1 -4 20200130 2059)
@@ -70669,13 +70731,13 @@
 		  (:authors
 		   ("myuhe" . "yuhei.maeda_at_gmail.com")))])
  (quick-sdcv .
-	     [(0 1 0 1 -4 20261031 30)
+	     [(0 1 0 1 -4 20261108 1910)
 	      ((emacs
 		(25 1)))
 	      "Offline dictionary using 'sdcv' (StartDict cli dictionary)" tar
 	      ((:url . "https://github.com/jamescherti/quick-sdcv.el")
-	       (:commit . "9e3bab377bd1f23395405cb7719e1454ca209eed")
-	       (:revdesc . "9e3bab377bd1")
+	       (:commit . "6a220c61df607e56d42f6601be44e36ce41ccf2a")
+	       (:revdesc . "6a220c61df60")
 	       (:keywords "tools" "convenience" "text"))])
  (quick-shell-keybind .
 		      [(0 0 2 1 -4 20230927 1036)
@@ -76577,15 +76639,15 @@
 	      (:revdesc . "8c92169817f2")
 	      (:keywords "markup" "language"))])
  (slime .
-	[(0 1 0 1 -4 20261102 1514)
+	[(0 1 0 1 -4 20261108 2146)
 	 ((emacs
 	   (24 3))
 	  (macrostep
 	   (0 9)))
 	 "Superior Lisp Interaction Mode for Emacs" tar
 	 ((:url . "https://github.com/slime/slime")
-	  (:commit . "728a05ed0afc12626e3792be1c5bccc01913c269")
-	  (:revdesc . "728a05ed0afc")
+	  (:commit . "26cdc8bb6182f4b17b803573721546af705caf0a")
+	  (:revdesc . "26cdc8bb6182")
 	  (:keywords "languages" "lisp" "slime"))])
  (slime-company .
 		[(0 1 0 1 -4 20250815 757)
@@ -77702,13 +77764,13 @@
 			    (:revdesc . "43afeb68b3ba")
 			    (:keywords "faces" "theme" "solarized" "gruvbox" "dark"))])
  (solarized-theme .
-		  [(0 1 0 1 -4 20261104 2258)
+		  [(0 1 0 1 -4 20261108 1017)
 		   ((emacs
 		     (28 1)))
 		   "The Solarized color theme" tar
 		   ((:url . "https://github.com/bbatsov/solarized-emacs")
-		    (:commit . "bd7e3a92e09f361a037c98cfe7c8f1eafda76254")
-		    (:revdesc . "bd7e3a92e09f")
+		    (:commit . "c3efdaa7ff693a1b83ffa64e5631c9770e80c54d")
+		    (:revdesc . "c3efdaa7ff69")
 		    (:keywords "convenience" "themes" "solarized")
 		    (:authors
 		     ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
@@ -86680,13 +86742,13 @@
 	       ("Vince Salvino" . "mvsalvino@gmail.com"))
 	      (:maintainer "Vince Salvino" . "mvsalvino@gmail.com"))])
  (vui .
-      [(0 1 0 1 -4 20261106 1500)
+      [(0 1 0 1 -4 20261108 720)
        ((emacs
 	 (29 1)))
        "Declarative, component-based UI library" tar
        ((:url . "https://github.com/d12frosted/vui.el")
-	(:commit . "a90f3cd411cc1102981b43efe92556c9d821acd3")
-	(:revdesc . "a90f3cd411cc")
+	(:commit . "9e9ffa2f631cf5f99ef28bccc1a667922ddd71c5")
+	(:revdesc . "9e9ffa2f631c")
 	(:keywords "ui" "widgets" "tools")
 	(:authors
 	 ("Boris Buliga" . "boris@d12frosted.io"))
@@ -89549,6 +89611,19 @@
 	      (:maintainers
 	       ("Stephen J. Eglen" . "sje30@cam.ac.uk"))
 	      (:maintainer "Stephen J. Eglen" . "sje30@cam.ac.uk"))])
+ (yml .
+      [(20261108 1705)
+       ((emacs
+	 (26 1)))
+       "Fast YAML parser (dynamic module)" tar
+       ((:url . "https://github.com/isamert/yml.el")
+	(:commit . "771ec134eb58658db0e42f7ead647984294b3afb")
+	(:revdesc . "771ec134eb58")
+	(:authors
+	 ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
+	(:maintainers
+	 ("Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))
+	(:maintainer "Isa Mert Gurbuz" . "isamertgurbuz@gmail.com"))])
  (yoficator .
 	    [(0 9 1 -4 20190509 1620)
 	     nil "Interactively yoficate Russian texts" tar
