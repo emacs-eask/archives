@@ -1253,7 +1253,7 @@
 			   ("Paul D. Nelson" . "ultrono@gmail.com"))
 			  (:maintainer "Paul D. Nelson" . "ultrono@gmail.com"))])
  (agent-shell-consult .
-		      [(20261105 513)
+		      [(0 1 0 1 -4 20261105 513)
 		       ((emacs
 			 (29 1))
 			(agent-shell
@@ -1401,7 +1401,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20261111 1954)
+	  [(0 1 0 1 -4 20261112 315)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1410,8 +1410,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Pi, Antigravity CLI, Claude Code, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "6a32b0a5e299a2a2196b6a5ddba3c49817731f42")
-	    (:revdesc . "6a32b0a5e299")
+	    (:commit . "934ba24e9cab30447e1719297cadab58a9178f90")
+	    (:revdesc . "934ba24e9cab")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -1533,7 +1533,7 @@
 	     ("Wataru MIYAGUNI" . "gonngo@gmail.com"))
 	    (:maintainer "Wataru MIYAGUNI" . "gonngo@gmail.com"))])
  (ajnc .
-       [(20261108 1832)
+       [(0 1 0 1 -4 20261108 1832)
 	((emacs
 	  (28 1)))
 	"A Janet (Spork) Netrepl Client" tar
@@ -6988,7 +6988,7 @@
 	   ("Adam Porter" . "adam@alphapapa.net"))
 	  (:maintainer "Adam Porter" . "adam@alphapapa.net"))])
  (burnish .
-	  [(20261108 1848)
+	  [(0 1 0 1 -4 20261109 617)
 	   ((emacs
 	     (30 1)))
 	   "Automate Org export and view" tar
@@ -7756,17 +7756,19 @@
 	    ("Hiroaki Otsu" . "ootsuhiroaki@gmail.com"))
 	   (:maintainer "Hiroaki Otsu" . "ootsuhiroaki@gmail.com"))])
  (casual .
-	 [(0 1 0 1 -4 20260831 2129)
+	 [(0 1 0 1 -4 20261111 2137)
 	  ((emacs
 	    (30 1))
 	   (transient
 	    (0 9 0))
+	   (org
+	    (9 3))
 	   (csv-mode
 	    (1 27)))
 	  "Transient user interfaces for various modes" tar
 	  ((:url . "https://github.com/kickingvegas/casual")
-	   (:commit . "60259e256e34d4f6ae64ef950c740cacbe8b4d37")
-	   (:revdesc . "60259e256e34")
+	   (:commit . "d5166240f23e4481a32672cd952f7d117c647a0f")
+	   (:revdesc . "d5166240f23e")
 	   (:keywords "tools" "wp")
 	   (:authors
 	    ("Charles Choi" . "kickingvegas@gmail.com"))
@@ -9852,7 +9854,7 @@
 	     ("Kostafey" . "kostafey@gmail.com"))
 	    (:maintainer "Kostafey" . "kostafey@gmail.com"))])
  (closql .
-	 [(0 1 0 1 -4 20261101 1112)
+	 [(0 1 0 1 -4 20261111 1841)
 	  ((emacs
 	    (28 1))
 	   (compat
@@ -9865,8 +9867,8 @@
 	    (1 0)))
 	  "Store EIEIO objects using EmacSQL" tar
 	  ((:url . "https://github.com/emacscollective/closql")
-	   (:commit . "d87a2718c2fe45ff98258a2c7f3821b3f7b24f29")
-	   (:revdesc . "d87a2718c2fe")
+	   (:commit . "5e34a2300e149cefcba65cd683ca4294b57cdae6")
+	   (:revdesc . "5e34a2300e14")
 	   (:keywords "extensions")
 	   (:authors
 	    ("Jonas Bernoulli" . "emacs.closql@jonas.bernoulli.dev"))
@@ -18850,11 +18852,11 @@
 		 ("Sergei Nosov" . "sergei.nosov[at]gmail.com"))
 		(:maintainer "Sergei Nosov" . "sergei.nosov[at]gmail.com"))])
  (dune .
-       [(0 1 0 1 -4 20260803 1048)
+       [(0 1 0 1 -4 20260120 2128)
 	nil "Integration with the dune build system" tar
 	((:url . "https://github.com/ocaml/dune")
-	 (:commit . "ce734ac25ffb06994a4530426bb06ee8cda19e50")
-	 (:revdesc . "ce734ac25ffb"))])
+	 (:commit . "ccdb380ab5714b81f1ba71f7f8acfd792e6200bf")
+	 (:revdesc . "ccdb380ab571"))])
  (dune-format .
 	      [(0 1 -1 1 -4 20210505 108)
 	       ((reformatter
@@ -25978,7 +25980,7 @@
 			  (:revdesc . "0d245edcfcd9")
 			  (:keywords "faces"))])
  (ewc .
-      [(20261104 1013)
+      [(0 1 0 1 -4 20261104 1013)
        ((emacs
 	 (28 2))
 	(lgr
@@ -31063,7 +31065,7 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20261107 2134)
+	[(0 1 0 1 -4 20261111 2233)
 	 ((emacs
 	   (29 1))
 	  (compat
@@ -31088,8 +31090,8 @@
 	   (1 2)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "9ec157ae2e3ad8d4354af50f0b8be65e514f20fc")
-	  (:revdesc . "9ec157ae2e3a")
+	  (:commit . "c87b66d1dd623893c517baf5c6cc37959beebdc5")
+	  (:revdesc . "c87b66d1dd62")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -31934,15 +31936,15 @@
 		("Duc Dang" . "me@dangduc.com"))
 	       (:maintainer "Duc Dang" . "me@dangduc.com"))])
  (fzfa .
-       [(0 1 0 1 -4 20261111 916)
+       [(0 1 0 1 -4 20261112 259)
 	((emacs
 	  (29 1))
 	 (fzf-native
 	  (3 4)))
 	"Async fuzzy completion via `fzf-native'" tar
 	((:url . "https://github.com/jojojames/fzfa")
-	 (:commit . "49b97f1f9f0b5fb390511e6da4693fb0f59f254c")
-	 (:revdesc . "49b97f1f9f0b")
+	 (:commit . "96329f700b72228b0bc5c3d41b2200833499e575")
+	 (:revdesc . "96329f700b72")
 	 (:keywords "matching" "completion" "fzf" "fuzzy" "fussy")
 	 (:authors
 	  ("James Nguyen" . "james@jojojames.com"))
@@ -59220,7 +59222,7 @@
 			  ("Adam Porter" . "adam@alphapapa.net"))
 			 (:maintainer "Adam Porter" . "adam@alphapapa.net"))])
  (org-bookmarks .
-		[(0 1 0 1 -4 20260905 1550)
+		[(0 1 0 1 -4 20261111 2359)
 		 ((emacs
 		   (29 1))
 		  (nerd-icons
@@ -59229,8 +59231,8 @@
 		   (2 24)))
 		 "Manage bookmarks in Org mode" tar
 		 ((:url . "https://repo.or.cz/org-bookmarks.git")
-		  (:commit . "e0bf976214011e521bc450b96212906b6a6fb48c")
-		  (:revdesc . "e0bf97621401")
+		  (:commit . "ff090175f625ae6ffea9d5b3136d73a3c9960432")
+		  (:revdesc . "ff090175f625")
 		  (:keywords "outline" "matching" "hypermedia" "org")
 		  (:authors
 		   ("stardiviner" . "numbchild@gmail.com"))
@@ -62246,15 +62248,15 @@
 			     ("Junpeng Qiu" . "qjpchmail@gmail.com"))
 			    (:maintainer "Junpeng Qiu" . "qjpchmail@gmail.com"))])
  (org-tag-beautify .
-		   [(0 1 0 1 -4 20261106 1009)
+		   [(0 1 0 1 -4 20261112 600)
 		    ((emacs
 		      (26 1))
 		     (nerd-icons
 		      (0 0 1)))
 		    "Beautify Org mode tags" tar
 		    ((:url . "https://repo.or.cz/org-tag-beautify.git")
-		     (:commit . "aa63e313a3e1a045c20e7d5b2fa4a3f614cb23d1")
-		     (:revdesc . "aa63e313a3e1")
+		     (:commit . "07fa9f220443851990f1d613ac14cccae9638826")
+		     (:revdesc . "07fa9f220443")
 		     (:keywords "hypermedia")
 		     (:authors
 		      ("stardiviner" . "numbchild@gmail.com"))
@@ -84905,13 +84907,13 @@
 		 ("Karl Fogelmark" . "karlfogel@gmail.com"))
 		(:maintainer "Karl Fogelmark" . "karlfogel@gmail.com"))])
  (unison-ts-mode .
-		 [(0 1 0 1 -4 20261009 659)
+		 [(0 1 0 1 -4 20261112 636)
 		  ((emacs
 		    (29 1)))
 		  "Tree-sitter support for Unison" tar
 		  ((:url . "https://github.com/fmguerreiro/unison-ts-mode")
-		   (:commit . "d33b971ff16359232a42bc8c96674cfb7bc8dceb")
-		   (:revdesc . "d33b971ff163")
+		   (:commit . "08b47a04cee62b440a680e614febf1e1d1576e06")
+		   (:revdesc . "08b47a04cee6")
 		   (:keywords "languages" "unison" "tree-sitter")
 		   (:authors
 		    ("Filipe Guerreiro" . "filipe.m.guerreiro@gmail.com"))
@@ -89612,7 +89614,7 @@
 	       ("Stephen J. Eglen" . "sje30@cam.ac.uk"))
 	      (:maintainer "Stephen J. Eglen" . "sje30@cam.ac.uk"))])
  (yml .
-      [(20261108 1705)
+      [(0 1 0 1 -4 20261110 1449)
        ((emacs
 	 (26 1)))
        "Fast YAML parser (dynamic module)" tar
