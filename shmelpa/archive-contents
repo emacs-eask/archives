@@ -18296,7 +18296,7 @@
 	  ("Katherine Whitlock" . "toroidal-code@gmail.com")
 	  ("Syohei YOSHIDA" . "syohex@gmail.com")))])
  (doom-modeline .
-		[(0 1 0 1 -4 20261112 1344)
+		[(0 1 0 1 -4 20261115 1552)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -18307,8 +18307,8 @@
 		   (0 3 1)))
 		 "A minimal and modern mode-line" tar
 		 ((:url . "https://github.com/seagle0128/doom-modeline")
-		  (:commit . "0ba6add16eb3c810e348b2c2187bf721a2fd7291")
-		  (:revdesc . "0ba6add16eb3")
+		  (:commit . "8d683185152896602f21b103b3f49b465e5f5459")
+		  (:revdesc . "8d6831851528")
 		  (:keywords "faces" "mode-line")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
@@ -24405,23 +24405,15 @@
 		  ("Ethan Glasser-Camp" . "ethan@betacantrips.com"))
 		 (:maintainer "Ethan Glasser-Camp" . "ethan@betacantrips.com"))])
  (etherpad .
-	   [(0 1 1 -4 20230530 1248)
+	   [(0 1 0 1 -4 20261115 1524)
 	    ((emacs
-	      (27 1))
-	     (request
-	      (0 3))
-	     (let-alist
-		 (0 0))
+	      (29 1))
 	     (websocket
-	      (1 12))
-	     (parsec
-	      (0 1))
-	     (0xc
-	      (0 1)))
-	    "Interface to the Etherpad API" tar
-	    ((:url . "https://github.com/zzkt/ethermacs")
-	     (:commit . "29409bf9ff05b74d942c1cd7a421eeec2ef96e49")
-	     (:revdesc . "29409bf9ff05")
+	      (1 12)))
+	    "Collaborative editing via Etherpad" tar
+	    ((:url . "https://codeberg.org/zzkt/ethermacs")
+	     (:commit . "08c855fba70aa00aab74dc070cbe250adc1a7768")
+	     (:revdesc . "08c855fba70a")
 	     (:keywords "comm" "etherpad" "collaborative editing")
 	     (:authors
 	      ("nik gaffney" . "nik@fo.am"))
@@ -31065,7 +31057,7 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20261114 1200)
+	[(0 1 0 1 -4 20261115 1157)
 	 ((emacs
 	   (29 1))
 	  (compat
@@ -31090,8 +31082,8 @@
 	   (1 2)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "3d39bc7d6759cc4769df53889bce121283b0bfcd")
-	  (:revdesc . "3d39bc7d6759")
+	  (:commit . "71ef77d71e441e0e335fb644f2c7a710b93c8fa1")
+	  (:revdesc . "71ef77d71e44")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -47596,13 +47588,13 @@
 		("Damien Cassou" . "damien@cassou.me"))
 	       (:maintainer "Damien Cassou" . "damien@cassou.me"))])
  (liberime .
-	   [(0 1 0 1 -4 20260923 938)
+	   [(0 1 0 1 -4 20261115 1633)
 	    ((emacs
 	      (25 1)))
 	    "Rime elisp binding" tar
 	    ((:url . "https://github.com/merrickluo/liberime")
-	     (:commit . "61997ed192afa3a107c4cfe70c28f145e7368388")
-	     (:revdesc . "61997ed192af")
+	     (:commit . "2a87beb5966c1af0c5ec77385b0e590639cef9b5")
+	     (:revdesc . "2a87beb5966c")
 	     (:keywords "convenience" "chinese" "input-method" "rime"))])
  (liblouis .
 	   [(0 2 1 -4 20220426 657)
@@ -62016,7 +62008,7 @@
 		("Andros Fenollosa" . "hi@andros.dev"))
 	       (:maintainer "Andros Fenollosa" . "hi@andros.dev"))])
  (org-special-block-extras .
-			   [(0 1 0 1 -4 20261115 619)
+			   [(0 1 0 1 -4 20261115 1654)
 			    ((s
 			      (1 13 1))
 			     (dash
@@ -62029,10 +62021,10 @@
 			      (26 10 1))
 			     (seq
 			      (2 0)))
-			    "46 new custom blocks & 56 link types for Org-mode" tar
+			    "Org's *bold*, [[links]], red:text work in details, graph, math" tar
 			    ((:url . "https://alhassy.com/org-special-block-extras")
-			     (:commit . "0aac73e304063d983c81d68fa829565ed02f603e")
-			     (:revdesc . "0aac73e30406")
+			     (:commit . "c2df7a7e76a75cf98362ec279ecdc356c957b0eb")
+			     (:revdesc . "c2df7a7e76a7")
 			     (:keywords "org" "blocks" "colors" "convenience")
 			     (:authors
 			      ("Musa Al-hassy" . "alhassy@gmail.com"))
@@ -72897,15 +72889,15 @@
 	 (:revdesc . "f927d26e471e")
 	 (:keywords "convenience" "input-method"))])
  (rimel .
-	[(0 1 0 1 -4 20260914 618)
+	[(0 1 0 1 -4 20261115 1635)
 	 ((emacs
 	   (29 4))
 	  (liberime
 	   (0 0 11)))
 	 "A lightweight Rime input method" tar
 	 ((:url . "https://github.com/emacs-rime/rimel")
-	  (:commit . "e05f4b0eb2d6d5f9212e91bab5e4b3314db8ff0e")
-	  (:revdesc . "e05f4b0eb2d6")
+	  (:commit . "fc1c405b9f4756bcf7cef8d115fdc99c7e0a7155")
+	  (:revdesc . "fc1c405b9f47")
 	  (:keywords "convenience" "chinese" "input-method" "rime"))])
  (rinari .
 	 [(0 1 0 1 -4 20150709 640)
