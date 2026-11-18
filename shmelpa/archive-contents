@@ -1090,19 +1090,14 @@
 			("Jessie Hildebrandt" . "jessieh.net"))
 		       (:maintainer "Jessie Hildebrandt" . "jessieh.net"))])
  (aes .
-      [(1 0 1 -4 20211204 2348)
+      [(0 1 0 1 -4 20261117 2333)
        ((emacs
 	 (26 1)))
        "Implementation of AES" tar
        ((:url . "https://github.com/Sauermann/emacs-aes")
-	(:commit . "c9cd12d6c1dbc18603eb4703276132cea59d5c78")
-	(:revdesc . "c9cd12d6c1db")
-	(:keywords "data" "tools")
-	(:authors
-	 ("Markus Sauermann" . "emacs-aes@sauermann-consulting.de"))
-	(:maintainers
-	 ("Markus Sauermann" . "emacs-aes@sauermann-consulting.de"))
-	(:maintainer "Markus Sauermann" . "emacs-aes@sauermann-consulting.de"))])
+	(:commit . "26281e03c948bdb9cc8f5feb22a7c077c28a0cdd")
+	(:revdesc . "26281e03c948")
+	(:keywords "data" "tools"))])
  (affe .
        [(0 1 0 1 -4 20260519 1026)
 	((emacs
@@ -4808,13 +4803,13 @@
 		 ("Alon Tzarafi" . "alontzarafi@gmail.com"))
 		(:maintainer "Alon Tzarafi" . "alontzarafi@gmail.com"))])
  (bazel .
-	[(0 1 0 1 -4 20261106 1644)
+	[(0 1 0 1 -4 20261118 432)
 	 ((emacs
 	   (30 1)))
 	 "Bazel support for Emacs" tar
 	 ((:url . "https://github.com/bazel-contrib/bazel.el")
-	  (:commit . "90e379dcea04eae527a4b7ff088551bdb1929eb6")
-	  (:revdesc . "90e379dcea04")
+	  (:commit . "dc0dad05a96b41b7d3506334d52b6da373b3c3b8")
+	  (:revdesc . "dc0dad05a96b")
 	  (:keywords "build tools" "languages"))])
  (bbcode-mode .
 	      [(2 3 0 1 -4 20231215 1539)
@@ -9946,15 +9941,15 @@
 		 ("Jason Milkins" . "jasonm23@gmail.com"))
 		(:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
  (clutch .
-	 [(0 1 0 1 -4 20261117 1407)
+	 [(0 1 0 1 -4 20261118 408)
 	  ((emacs
 	    (29 1))
 	   (transient
 	    (0 3 7)))
 	  "Interactive database client" tar
 	  ((:url . "https://github.com/LuciusChen/clutch")
-	   (:commit . "d8b52162cb66faefd3fc500bcfb9590923949f02")
-	   (:revdesc . "d8b52162cb66")
+	   (:commit . "19943ec9ca10c58e09319e1700867e828ba8a6b2")
+	   (:revdesc . "19943ec9ca10")
 	   (:keywords "comm" "data" "tools")
 	   (:authors
 	    ("Lucius Chen" . "chenyh572@gmail.com"))
@@ -49888,7 +49883,7 @@
 	     (:revdesc . "9b9277021cd0")
 	     (:keywords "convenience"))])
  (magent .
-	 [(0 1 0 1 -4 20260922 1552)
+	 [(0 1 0 1 -4 20261118 523)
 	  ((emacs
 	    (29 1))
 	   (gptel
@@ -49903,8 +49898,8 @@
 	    (0 66 1)))
 	  "AI coding agent" tar
 	  ((:url . "https://github.com/jamie-cui/magent")
-	   (:commit . "7b8f661900cecb59d209d1ba2f0c10e7627030df")
-	   (:revdesc . "7b8f661900ce")
+	   (:commit . "a5dcfbe09be9f2366bd30d8a168619517b597afb")
+	   (:revdesc . "a5dcfbe09be9")
 	   (:keywords "tools" "ai" "copilot")
 	   (:authors
 	    ("Jamie Cui" . "jamie.cui@outlook.com"))
@@ -51773,13 +51768,13 @@
 		     ("James Nguyen" . "james@jojojames.com"))
 		    (:maintainer "James Nguyen" . "james@jojojames.com"))])
  (mediawiki .
-	    [(0 1 0 1 -4 20261102 1731)
+	    [(0 1 0 1 -4 20261118 213)
 	     ((emacs
 	       (28 1)))
 	     "Mediawiki frontend" tar
 	     ((:url . "https://github.com/hexmode/mediawiki-el")
-	      (:commit . "2a8df8a9c9c8507955c4351ceca29f671842d87a")
-	      (:revdesc . "2a8df8a9c9c8")
+	      (:commit . "ce4513048b4cf5415cf3e28e7a5c02e5266e0ce1")
+	      (:revdesc . "ce4513048b4c")
 	      (:keywords "mediawiki" "wikipedia" "network" "wiki")
 	      (:authors
 	       ("Mark A. Hershberger" . "mah@everybody.org"))
@@ -59837,23 +59832,23 @@
 			 ("Tashrif Sanil" . "tashrifsanil@kloke-source.com"))
 			(:maintainer "Tashrif Sanil" . "tashrifsanil@kloke-source.com"))])
  (org-edit-indirect .
-		    [(1 1 0 1 -4 20220909 457)
+		    [(0 1 0 1 -4 20261118 30)
 		     ((emacs
-		       (27))
+		       (29 1))
 		      (edit-indirect
 		       (0 1 10))
 		      (org
-		       (9 0)))
+		       (9 6)))
 		     "Edit anything, not just source blocks" tar
 		     ((:url . "https://github.com/agzam/org-edit-indirect.el")
-		      (:commit . "62894ac7b8b85eb03766f66072b0be10ffb6898e")
-		      (:revdesc . "62894ac7b8b8")
+		      (:commit . "49d5759481795d606cf098286a603a9c26913eb1")
+		      (:revdesc . "49d575948179")
 		      (:keywords "convenience" "extensions" "outlines")
 		      (:authors
-		       ("Ag Ibragimomv" . "https://github.com/agzam"))
+		       ("Ag Ibragimov" . "https://github.com/agzam"))
 		      (:maintainers
-		       ("Ag Ibragimomv" . "agzam.ibragimov@gmail.com"))
-		      (:maintainer "Ag Ibragimomv" . "agzam.ibragimov@gmail.com"))])
+		       ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
+		      (:maintainer "Ag Ibragimov" . "agzam.ibragimov@gmail.com"))])
  (org-edit-latex .
 		 [(0 8 3 1 -4 20170908 1522)
 		  ((emacs
@@ -78357,13 +78352,13 @@
 		    ("Le Wang" . "lewang.dev.26@gmail.com"))
 		   (:maintainer "Le Wang" . "lewang.dev.26@gmail.com"))])
  (spdx .
-       [(0 1 0 1 -4 20261102 1557)
+       [(0 1 0 1 -4 20261118 517)
 	((emacs
 	  (29 1)))
 	"Insert SPDX license and copyright headers" tar
 	((:url . "https://github.com/condy0919/spdx.el")
-	 (:commit . "f23612d30562c92e399fa744920782cc1f7197b3")
-	 (:revdesc . "f23612d30562")
+	 (:commit . "2be59ece8ce80241cda1313749bc03f98222314d")
+	 (:revdesc . "2be59ece8ce8")
 	 (:keywords "license" "tools")
 	 (:authors
 	  ("Zhiwei Chen" . "condy0919@gmail.com"))
