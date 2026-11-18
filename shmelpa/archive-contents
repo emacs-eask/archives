@@ -880,13 +880,13 @@
 	       (:commit . "ae8788b5851ea353fbb80ab586a3bbd5dc8e91aa")
 	       (:revdesc . "ae8788b5851e"))])
  (acp .
-      [(0 1 0 1 -4 20261021 1225)
+      [(0 1 0 1 -4 20261118 1309)
        ((emacs
 	 (28 1)))
        "An ACP (Agent Client Protocol) implementation" tar
        ((:url . "https://github.com/xenodium/acp.el")
-	(:commit . "2959da5fa8657da17a78ac6ceef303a50e3e69de")
-	(:revdesc . "2959da5fa865"))])
+	(:commit . "0b4240f07d4f3476e49b4a352ee854ff9d28e556")
+	(:revdesc . "0b4240f07d4f"))])
  (act-mode .
 	   [(1 0 1 -4 20240718 39)
 	    ((emacs
@@ -1238,17 +1238,17 @@
 		  ("Marcos Andrade" . "https://github.com/Marx-A00"))
 		 (:maintainer "Marcos Andrade" . "https://github.com/Marx-A00"))])
  (agent-shell .
-	      [(0 1 0 1 -4 20261113 1059)
+	      [(0 1 0 1 -4 20261118 1405)
 	       ((emacs
 		 (29 1))
 		(shell-maker
-		 (0 98 2))
+		 (0 98 3))
 		(acp
-		 (0 17 1)))
+		 (0 19 1)))
 	       "Native agentic integrations for Claude Code, Gemini CLI, etc" tar
 	       ((:url . "https://github.com/xenodium/agent-shell")
-		(:commit . "26365eb6f2fc3a635eb10bfccc97b3f4264d64be")
-		(:revdesc . "26365eb6f2fc"))])
+		(:commit . "59076388f10b181d0d1f0a3ba7380d3030454e79")
+		(:revdesc . "59076388f10b"))])
  (agent-shell-attention .
 			[(0 1 0 1 -4 20261112 1650)
 			 ((emacs
@@ -9941,15 +9941,15 @@
 		 ("Jason Milkins" . "jasonm23@gmail.com"))
 		(:maintainer "Jason Milkins" . "jasonm23@gmail.com"))])
  (clutch .
-	 [(0 1 0 1 -4 20261118 408)
+	 [(0 1 0 1 -4 20261118 1418)
 	  ((emacs
 	    (29 1))
 	   (transient
 	    (0 3 7)))
 	  "Interactive database client" tar
 	  ((:url . "https://github.com/LuciusChen/clutch")
-	   (:commit . "19943ec9ca10c58e09319e1700867e828ba8a6b2")
-	   (:revdesc . "19943ec9ca10")
+	   (:commit . "257ef714db0b4db298ea2eda8013b09cd20ab45b")
+	   (:revdesc . "257ef714db0b")
 	   (:keywords "comm" "data" "tools")
 	   (:authors
 	    ("Lucius Chen" . "chenyh572@gmail.com"))
@@ -12648,7 +12648,7 @@
 			      (:revdesc . "c8707e86d36e")
 			      (:keywords "matching" "git" "repositories" "completion"))])
  (consult-ghostel .
-		  [(0 1 0 1 -4 20261116 1821)
+		  [(0 1 0 1 -4 20261118 934)
 		   ((emacs
 		     (28 1))
 		    (consult
@@ -12657,8 +12657,8 @@
 		     (0 64 0)))
 		   "Consult integration for ghostel" tar
 		   ((:url . "https://github.com/dakra/ghostel")
-		    (:commit . "bc0346ec249b61d0ff27905caf4400c399325c93")
-		    (:revdesc . "bc0346ec249b")
+		    (:commit . "4af9560818534dd97902f045acd0f9e44fb14525")
+		    (:revdesc . "4af956081853")
 		    (:authors
 		     ("Daniel Kraus" . "daniel@kraus.my"))
 		    (:maintainers
@@ -14542,13 +14542,13 @@
 		    ("Peter Hoeg" . "(peter@hoeg.com)"))
 		   (:maintainer "Peter Hoeg" . "(peter@hoeg.com)"))])
  (cui .
-      [(0 1 0 1 -4 20261112 2345)
+      [(0 1 0 1 -4 20261118 1405)
        ((emacs
 	 (29 1)))
        "Chat blocks in org-mode for LLM and agents" tar
        ((:url . "https://codeberg.org/Anoncheg/emacs-cui")
-	(:commit . "23caf0f9014aedfb4f714d96445e3a2d2f72a704")
-	(:revdesc . "23caf0f9014a")
+	(:commit . "f193aa9b8c20049ff932059aa383d51340bd1029")
+	(:revdesc . "f193aa9b8c20")
 	(:keywords "org" "comm" "url" "link")
 	(:authors
 	 (nil . "github.com/Anoncheg1,codeberg.org/Anoncheg"))
@@ -18323,7 +18323,7 @@
 	  ("Katherine Whitlock" . "toroidal-code@gmail.com")
 	  ("Syohei YOSHIDA" . "syohex@gmail.com")))])
  (doom-modeline .
-		[(0 1 0 1 -4 20261117 1546)
+		[(0 1 0 1 -4 20261118 1436)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -18334,8 +18334,8 @@
 		   (0 3 1)))
 		 "A minimal and modern mode-line" tar
 		 ((:url . "https://github.com/seagle0128/doom-modeline")
-		  (:commit . "726e108f12a1f20d5fd076884192f0e5ea618f17")
-		  (:revdesc . "726e108f12a1")
+		  (:commit . "cbcfe901d52c4f47b5e5c453683e936453ee3aad")
+		  (:revdesc . "cbcfe901d52c")
 		  (:keywords "faces" "mode-line")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
@@ -27662,14 +27662,16 @@
 		    ("Greg Chapple" . "info@gregchapple.com"))
 		   (:maintainer "Greg Chapple" . "info@gregchapple.com"))])
  (flatui-dark-theme .
-		    [(0 1 0 1 -4 20261019 2101)
+		    [(0 1 0 1 -4 20261118 1358)
 		     ((emacs
-		       (24)))
-		     "Dark color theme with colors from https://flatuicolors.com/" tar
+		       (29 1))
+		      (modus-themes
+		       (5 0 0)))
+		     "FlatUI dark theme built on the modus-themes engine" tar
 		     ((:url . "https://github.com/theasp/flatui-dark-theme")
-		      (:commit . "3cf2c1dbe107f0de8aaac8c7290a89d376b6056a")
-		      (:revdesc . "3cf2c1dbe107")
-		      (:keywords "color" "theme" "dark" "flatui" "faces")
+		      (:commit . "72c49292b335872dda1b50ce29e19362be4e8820")
+		      (:revdesc . "72c49292b335")
+		      (:keywords "faces" "theme" "flatui" "modus")
 		      (:authors
 		       ("Andrew Phillips" . "theasp@gmail.com"))
 		      (:maintainers
@@ -32668,15 +32670,15 @@
 		("Javier Aguirre" . "hello@javaguirre.net"))
 	       (:maintainer "Javier Aguirre" . "hello@javaguirre.net"))])
  (ghostel .
-	  [(0 1 0 1 -4 20261117 2125)
+	  [(0 1 0 1 -4 20261118 850)
 	   ((emacs
 	     (28 1))
 	    (compat
 	     (30 1 0 1)))
 	   "Terminal emulator powered by libghostty" tar
 	   ((:url . "https://github.com/dakra/ghostel")
-	    (:commit . "467e0af733561e6dba43098fb71da5d021bd91da")
-	    (:revdesc . "467e0af73356")
+	    (:commit . "79198bdd33021b92e8b5459dce6615d200acd3f9")
+	    (:revdesc . "79198bdd3302")
 	    (:keywords "terminals")
 	    (:authors
 	     ("Daniel Kraus" . "daniel@kraus.my"))
@@ -35914,13 +35916,13 @@
 	   ("Dionisis Spiliopoulos" . "dennisspiliopoylos@gmail.com"))
 	  (:maintainer "Dionisis Spiliopoulos" . "dennisspiliopoylos@gmail.com"))])
  (guava-themes .
-	       [(0 1 0 1 -4 20261117 1700)
+	       [(0 1 0 1 -4 20261118 1509)
 		((emacs
 		  (24 1)))
 		"A pack of plant-inspired themes" tar
 		((:url . "https://github.com/bormoge/guava-themes")
-		 (:commit . "5eb5a06aaf65132f6065b74d636060db73f0045e")
-		 (:revdesc . "5eb5a06aaf65")
+		 (:commit . "8f614bcef1acb2a67a3d335f48f3efaab88b5e30")
+		 (:revdesc . "8f614bcef1ac")
 		 (:keywords "themes" "faces" "color")
 		 (:authors
 		  ("Geralld Borbón" . "geralldborbon@gmail.com"))
@@ -51912,13 +51914,13 @@
 	    ("Stefan Kangas" . "stefankangas@gmail.com"))
 	   (:maintainer "Stefan Kangas" . "stefankangas@gmail.com"))])
  (meow .
-       [(0 1 0 1 -4 20260915 2338)
+       [(0 1 0 1 -4 20261118 1146)
 	((emacs
 	  (27 1)))
 	"Yet Another modal editing" tar
 	((:url . "https://www.github.com/DogLooksGood/meow")
-	 (:commit . "8aebed9f8cd8d865501b780e63acbeef55da231b")
-	 (:revdesc . "8aebed9f8cd8")
+	 (:commit . "f9612a164c638e88d343e98a529a4d83e597bfdc")
+	 (:revdesc . "f9612a164c63")
 	 (:keywords "convenience" "modal-editing"))])
  (meow-tree-sitter .
 		   [(0 1 0 1 -4 20251214 323)
@@ -52842,13 +52844,13 @@
 		("Mariusz Klochowicz" . "mariusz@klochowicz.com"))
 	       (:maintainer "Mariusz Klochowicz" . "mariusz@klochowicz.com"))])
  (mistty .
-	 [(0 1 0 1 -4 20261107 852)
+	 [(0 1 0 1 -4 20261118 1200)
 	  ((emacs
 	    (29 1)))
 	  "Shell/Comint alternative based on term.el" tar
 	  ((:url . "https://github.com/szermatt/mistty")
-	   (:commit . "8c71878159c75eacc9399be3d822d7d4b7c88724")
-	   (:revdesc . "8c71878159c7")
+	   (:commit . "3ac8573b056392e18cc1fe4b27bd7a4e81fee2cf")
+	   (:revdesc . "3ac8573b0563")
 	   (:keywords "convenience" "unix")
 	   (:authors
 	    ("Stephane Zermatten" . "szermatt@gmx.net"))
@@ -56712,13 +56714,13 @@
 	   ("Martijn Terpstra" . "bigmartijn@gmail.com"))
 	  (:maintainer "Martijn Terpstra" . "bigmartijn@gmail.com"))])
  (nucleo-completion .
-		    [(0 1 0 1 -4 20261105 2220)
+		    [(0 1 0 1 -4 20261118 1339)
 		     ((emacs
 		       (29 1)))
 		     "Nucleo-backed completion style" tar
 		     ((:url . "https://github.com/kn66/nucleo-completion.el")
-		      (:commit . "6553110f6ad5cc1754508b5c18e531bedafc3a02")
-		      (:revdesc . "6553110f6ad5")
+		      (:commit . "5ff75c04894da8b24aa7b7ff982290cd7b9c0dd0")
+		      (:revdesc . "5ff75c04894d")
 		      (:keywords "matching" "convenience")
 		      (:authors
 		       ("Nobu" . "https://github.com/kn66"))
@@ -62441,15 +62443,15 @@
 		   ("Ilya Chernyshov" . "ichernyshovvv@gmail.com"))
 		  (:maintainer "Ilya Chernyshov" . "ichernyshovvv@gmail.com"))])
  (org-timegrid .
-	       [(0 1 0 1 -4 20261117 1215)
+	       [(0 1 0 1 -4 20261118 1115)
 		((emacs
 		  (29 1))
 		 (org
 		  (9 6)))
 		"SVG week calendar with mouse and keyboard editing" tar
 		((:url . "https://github.com/Gleek/org-timegrid")
-		 (:commit . "ab1d536d576ed7d3838aeae19e5d455ed7e02ad2")
-		 (:revdesc . "ab1d536d576e")
+		 (:commit . "dadd3bbb50082988be5bb2271366b36554b3c484")
+		 (:revdesc . "dadd3bbb5008")
 		 (:keywords "calendar" "outlines" "convenience")
 		 (:authors
 		  ("Umar Ahmad" . "Gleek@users.noreply.github.com"))
@@ -63202,13 +63204,13 @@
 	     (:revdesc . "67f4f6171675")
 	     (:keywords "lisp" "org" "org-mode" "bootstrap"))])
  (orgtbl-aggregate .
-		   [(0 1 0 1 -4 20261029 929)
+		   [(0 1 0 1 -4 20261118 910)
 		    ((emacs
 		      (26 1)))
 		    "Aggregate an Org Mode table | + | + | into another table" tar
 		    ((:url . "https://github.com/tbanel/orgaggregate/blob/master/README.org")
-		     (:commit . "70457a671a6590681a805e403e62c3cd448e8f7b")
-		     (:revdesc . "70457a671a65")
+		     (:commit . "32e06e741de05e476ebd080ac3d8208ca1821fa1")
+		     (:revdesc . "32e06e741de0")
 		     (:keywords "data" "extensions"))])
  (orgtbl-ascii-plot .
 		    [(0 1 0 1 -4 20260320 2046)
@@ -63227,13 +63229,13 @@
 	       (:revdesc . "987e1a8de9de")
 	       (:keywords "data" "extensions"))])
  (orgtbl-join .
-	      [(0 1 0 1 -4 20261029 1436)
+	      [(0 1 0 1 -4 20261118 928)
 	       ((emacs
 		 (24 3)))
 	       "Join columns from other Org Mode tables" tar
 	       ((:url . "https://github.com/tbanel/orgtbljoin/blob/master/README.org")
-		(:commit . "4f718b56ffee2f17a1d5ae2127e3acaef6ba0c29")
-		(:revdesc . "4f718b56ffee")
+		(:commit . "0582e954b45d0d23301a5a102e65063d3cc418d6")
+		(:revdesc . "0582e954b45d")
 		(:keywords "data" "extensions"))])
  (orgtbl-show-header .
 		     [(0 1 1 -4 20230903 903)
@@ -75464,13 +75466,13 @@
 		("Ian Eure" . "ian.eure@gmail.com"))
 	       (:maintainer "Ian Eure" . "ian.eure@gmail.com"))])
  (shell-maker .
-	      [(0 1 0 1 -4 20261029 954)
+	      [(0 1 0 1 -4 20261118 1212)
 	       ((emacs
 		 (27 1)))
 	       "Interaction mode for making comint shells" tar
 	       ((:url . "https://github.com/xenodium/shell-maker")
-		(:commit . "b28ee61a2533e408ed180662f83bb84fc8f84ba6")
-		(:revdesc . "b28ee61a2533"))])
+		(:commit . "cba42efd503bbdf19a7244b9119efd8764e99ecb")
+		(:revdesc . "cba42efd503b"))])
  (shell-pop .
 	    [(0 1 0 1 -4 20260610 2231)
 	     ((emacs
@@ -79065,13 +79067,13 @@
 	   ("Sean Allred" . "code@seanallred.com"))
 	  (:maintainer "Sean Allred" . "code@seanallred.com"))])
  (state .
-	[(0 1 0 1 -4 20261117 1720)
+	[(0 1 0 1 -4 20261118 1013)
 	 ((emacs
 	   (24)))
 	 "Quick navigation between workspaces" tar
 	 ((:url . "https://github.com/thisirs/state.git")
-	  (:commit . "6d95661bfbb680f4fb2ad2de78ac877ef03909bd")
-	  (:revdesc . "6d95661bfbb6")
+	  (:commit . "c7a26d129a9c3f267bef136834a516b65850c9da")
+	  (:revdesc . "c7a26d129a9c")
 	  (:keywords "convenience" "workspaces")
 	  (:authors
 	   ("Sylvain Rousseau" . "thisirsatgmaildotcom"))
@@ -88740,15 +88742,15 @@
 		   (nil . "lompik@ArchOrion"))
 		  (:maintainer nil . "lompik@ArchOrion"))])
  (x509-mode .
-	    [(0 1 0 1 -4 20261117 1041)
+	    [(0 1 0 1 -4 20261118 1253)
 	     ((emacs
 	       (25 1))
 	      (compat
 	       (29 1)))
 	     "View certificates, CRLs and keys using OpenSSL" tar
 	     ((:url . "https://github.com/jobbflykt/x509-mode")
-	      (:commit . "40ac5e5c459f954d03a3b760779bd39d0cbba94b")
-	      (:revdesc . "40ac5e5c459f")
+	      (:commit . "6183dc010f4e482eec10445c0b59441bb340d698")
+	      (:revdesc . "6183dc010f4e")
 	      (:authors
 	       ("Fredrik Axelsson" . "f.axelsson@gmail.com"))
 	      (:maintainers
