@@ -4636,11 +4636,11 @@
 	       ("Michael Schuldt" . "mbschuldt@gmail.com"))
 	      (:maintainer "Michael Schuldt" . "mbschuldt@gmail.com"))])
  (base16-theme .
-	       [(3 0 1 -4 20261115 454)
+	       [(3 0 1 -4 20261122 512)
 		nil "A set of base16 themes for your favorite editor" tar
 		((:url . "https://github.com/tinted-theming/base16-emacs")
-		 (:commit . "eb868a21b1e3fbcac965084c740d22cc22fc074c")
-		 (:revdesc . "eb868a21b1e3")
+		 (:commit . "e2aa701f6f73cd3d658ddc48e23e17caaaa77808")
+		 (:revdesc . "e2aa701f6f73")
 		 (:authors
 		  ("Kaleb Elwert" . "belak@coded.io"))
 		 (:maintainers
@@ -19438,13 +19438,13 @@
 			("Ayush Jha" . "ayys@duck.com"))
 		       (:maintainer "Ayush Jha" . "ayys@duck.com"))])
  (easysession .
-	      [(0 1 0 1 -4 20261031 30)
+	      [(0 1 0 1 -4 20261110 1512)
 	       ((emacs
 		 (26 1)))
 	       "Persist and restore your sessions (desktop.el alternative)" tar
 	       ((:url . "https://github.com/jamescherti/easysession.el")
-		(:commit . "f4b8c21eea95e0cd6312683c0ac96b82c9105f80")
-		(:revdesc . "f4b8c21eea95")
+		(:commit . "2afad794f4426a0c0db3501a7173e594b1260a05")
+		(:revdesc . "2afad794f442")
 		(:keywords "convenience" "frames" "files")
 		(:authors
 		 ("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -36722,15 +36722,15 @@
 		(:revdesc . "8c70b48fe5fb")
 		(:keywords "faces"))])
  (helm .
-       [(0 1 0 1 -4 20261112 1637)
+       [(0 1 0 1 -4 20261121 1737)
 	((helm-core
 	  (4 0 9))
 	 (wfnames
 	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
-	 (:commit . "9e3877eb5d962dd5004a42876f035930dc88f68f")
-	 (:revdesc . "9e3877eb5d96")
+	 (:commit . "5241b6ae8208f9c5d5bf32b63adceeac88f51f09")
+	 (:revdesc . "5241b6ae8208")
 	 (:keywords "helm" "convenience" "files" "buffers" "grep" "completion" "lisp" "matching" "tools" "help" "package")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
@@ -46019,13 +46019,13 @@
 		      ("Nikolaj Schumacher" . "bugs*nschumde"))
 		     (:maintainer "Nikolaj Schumacher" . "bugs*nschumde"))])
  (kirigami .
-	   [(0 1 0 1 -4 20261031 30)
+	   [(0 1 0 1 -4 20261117 308)
 	    ((emacs
 	      (26 1)))
 	    "A unified method to fold and unfold text" tar
 	    ((:url . "https://github.com/jamescherti/kirigami.el")
-	     (:commit . "961befbfa592eca7a41880e7961d0d1d4db5cb67")
-	     (:revdesc . "961befbfa592")
+	     (:commit . "237b57c68a9e08245c19a32b1d08680f78b5a3ad")
+	     (:revdesc . "237b57c68a9e")
 	     (:keywords "outlines" "convenience")
 	     (:authors
 	      ("James Cherti" . "https://www.jamescherti.com/contact/"))
@@ -61164,7 +61164,7 @@
 		  ("Feng Shu" . "tumashu@163.com"))
 		 (:maintainer "Feng Shu" . "tumashu@163.com"))])
  (org-pomodoro .
-	       [(0 1 0 1 -4 20261106 1414)
+	       [(0 1 0 1 -4 20261122 322)
 		((alert
 		  (0 5 10))
 		 (cl-lib
@@ -61173,8 +61173,8 @@
 		  (24 1)))
 		"Pomodoro implementation for org-mode" tar
 		((:url . "https://github.com/lolownia/org-pomodoro")
-		 (:commit . "a283a0fca138b2dc9bd59f69b6f1f105d8bf006b")
-		 (:revdesc . "a283a0fca138")
+		 (:commit . "1dacdcda7587866417a9b31ab5607b18d6c6f3c4")
+		 (:revdesc . "1dacdcda7587")
 		 (:authors
 		  ("Arthur Leonard Andersen" . "leoc.git@gmail.com")
 		  ("Marcin Koziej" . "marcinatlolowniadotorg"))
@@ -70771,14 +70771,19 @@
 		  (:authors
 		   ("myuhe" . "yuhei.maeda_at_gmail.com")))])
  (quick-sdcv .
-	     [(0 1 0 1 -4 20261112 1817)
+	     [(0 1 0 1 -4 20261121 1727)
 	      ((emacs
 		(27 1)))
 	      "Offline dictionary using 'sdcv' (StartDict cli dictionary)" tar
 	      ((:url . "https://github.com/jamescherti/quick-sdcv.el")
-	       (:commit . "a774ac4cba86c93300b14bb7bc4fcb8ca5b817c6")
-	       (:revdesc . "a774ac4cba86")
-	       (:keywords "tools" "convenience" "text"))])
+	       (:commit . "dfdfeea5138fb5828c5365496dac610392b4dabd")
+	       (:revdesc . "dfdfeea5138f")
+	       (:keywords "tools" "convenience" "text")
+	       (:authors
+		("James Cherti" . "https://www.jamescherti.com/contact/"))
+	       (:maintainers
+		("James Cherti" . "https://www.jamescherti.com/contact/"))
+	       (:maintainer "James Cherti" . "https://www.jamescherti.com/contact/"))])
  (quick-shell-keybind .
 		      [(0 0 2 1 -4 20230927 1036)
 		       ((emacs
