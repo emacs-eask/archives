@@ -1414,7 +1414,7 @@
 		   ("Matthew Carter" . "m@ahungry.com"))
 		  (:maintainer "Matthew Carter" . "m@ahungry.com"))])
  (ai-code .
-	  [(0 1 0 1 -4 20261119 1654)
+	  [(0 1 0 1 -4 20261123 412)
 	   ((emacs
 	     (29 1))
 	    (transient
@@ -1423,8 +1423,8 @@
 	     (2 1 0)))
 	   "Unified interface for AI coding backends such as Codex CLI, Pi, Antigravity CLI, Claude Code, etc" tar
 	   ((:url . "https://github.com/tninja/ai-code-interface.el")
-	    (:commit . "a0363f5efe6f3ac7f3ba5984726cd64c57ee5fe6")
-	    (:revdesc . "a0363f5efe6f")
+	    (:commit . "540b01fe28209fc2bfd077387243d17e7aadb09b")
+	    (:revdesc . "540b01fe2820")
 	    (:authors
 	     ("Kang Tu" . "tninja@gmail.com"))
 	    (:maintainers
@@ -4022,15 +4022,13 @@
 		   ("Matúš Goljer" . "matus.goljer@gmail.com"))
 		  (:maintainer "Matúš Goljer" . "matus.goljer@gmail.com"))])
  (autobuild .
-	    [(0 1 0 1 -4 20261120 310)
+	    [(0 1 0 1 -4 20261121 1844)
 	     ((emacs
-	       (26 1))
-	      (selcand
-	       (0 0 3)))
+	       (26 1)))
 	     "Define and execute build rules and compilation pipelines" tar
 	     ((:url . "https://github.com/erjoalgo/autobuild")
-	      (:commit . "23743a2875f69dfa64a7f441132896d7c64b79b9")
-	      (:revdesc . "23743a2875f6")
+	      (:commit . "f764799a706cc4dcbf09e581296a3a494b18da81")
+	      (:revdesc . "f764799a706c")
 	      (:keywords "compile" "build" "pipeline" "autobuild" "extensions" "processes" "tools")
 	      (:maintainers
 	       ("concat \"erjoalgo\" \"@\" \"gmail\" \".com\"" . ""))
@@ -17688,13 +17686,13 @@
 			   ("Nicolas Petton" . "petton.nicolas@gmail.com"))
 			  (:maintainer "Nicolas Petton" . "petton.nicolas@gmail.com"))])
  (discover-my-major .
-		    [(0 1 0 1 -4 20261115 1951)
+		    [(0 1 0 1 -4 20261119 1555)
 		     ((makey
 		       (0 2)))
 		     "Discover key bindings and their meaning for the current Emacs major mode" tar
-		     ((:url . "https://framagit.org/steckerhalter/discover-my-major")
-		      (:commit . "13557c305fe2cde5115b448f33c6950645eaf6e6")
-		      (:revdesc . "13557c305fe2")
+		     ((:url . "https://github.com/steckerhalter/discover-my-major")
+		      (:commit . "d66319bdd32fe800a93e7134e6b9cf58847e5682")
+		      (:revdesc . "d66319bdd32f")
 		      (:keywords "discover" "help" "major-mode" "keys"))])
  (dispass .
 	  [(1 1 2 1 -4 20140202 1531)
@@ -18323,7 +18321,7 @@
 	  ("Katherine Whitlock" . "toroidal-code@gmail.com")
 	  ("Syohei YOSHIDA" . "syohex@gmail.com")))])
  (doom-modeline .
-		[(0 1 0 1 -4 20261122 1731)
+		[(0 1 0 1 -4 20261123 459)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -18331,11 +18329,13 @@
 		  (nerd-icons
 		   (0 1 0))
 		  (shrink-path
-		   (0 3 1)))
+		   (0 3 1))
+		  (timeout
+		   (2 1 6)))
 		 "A minimal and modern mode-line" tar
 		 ((:url . "https://github.com/seagle0128/doom-modeline")
-		  (:commit . "1d53c87fc75b26eb25dbbc65213667586e434d39")
-		  (:revdesc . "1d53c87fc75b")
+		  (:commit . "4460f196c0497c5ab4a68d7f1aabd54b2e3d09c5")
+		  (:revdesc . "4460f196c049")
 		  (:keywords "faces" "mode-line")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
@@ -20021,6 +20021,20 @@
 	  (:maintainers
 	   ("João Távora" . "joaotavora@gmail.com"))
 	  (:maintainer "João Távora" . "joaotavora@gmail.com"))])
+ (efzf .
+       [(0 1 0 1 -4 20261123 203)
+	((emacs
+	  (29 1)))
+	"Fzf-like command-line selector using completing-read" tar
+	((:url . "https://github.com/yoshinari-nomura/efzf")
+	 (:commit . "165881fe3da8ac2742f798b872ee908fca723198")
+	 (:revdesc . "165881fe3da8")
+	 (:keywords "convenience" "matching" "terminals")
+	 (:authors
+	  ("Yoshinari Nomura" . "nom@quickhack.net"))
+	 (:maintainers
+	  ("Yoshinari Nomura" . "nom@quickhack.net"))
+	 (:maintainer "Yoshinari Nomura" . "nom@quickhack.net"))])
  (eg .
      [(0 1 0 1 -4 20260331 1939)
       ((emacs
@@ -23585,13 +23599,13 @@
 	       ("Johan Andersson" . "johan.rejeep@gmail.com"))
 	      (:maintainer "Johan Andersson" . "johan.rejeep@gmail.com"))])
  (ert-gwt .
-	  [(0 1 0 1 -4 20261119 1208)
+	  [(0 1 0 1 -4 20261123 439)
 	   ((emacs
-	     (28 1)))
+	     (29 4)))
 	   "GWT-style BDD testing for ERT" tar
 	   ((:url . "https://github.com/OverbearingPearl/ert-gwt")
-	    (:commit . "3687d0fe043c5feb413689ddacf235d5f304f6dd")
-	    (:revdesc . "3687d0fe043c")
+	    (:commit . "66255d6656a23fba6901c4187dc48a5ec4dc79bc")
+	    (:revdesc . "66255d6656a2")
 	    (:keywords "lisp" "tools")
 	    (:authors
 	     ("OverbearingPearl" . "OverbearingPearl@outlook.com"))
@@ -43746,13 +43760,13 @@
 		       ("Hiroya Murata" . "lapis-lazuli@pop06.odn.ne.jp"))
 		      (:maintainer "Takashi Hattori" . "hattori@sfc.keio.ac.jp"))])
  (japanese-menu .
-		[(0 1 0 1 -4 20261122 1240)
+		[(0 1 0 1 -4 20261122 2301)
 		 ((emacs
 		   (26 1)))
 		 "Japanese menu translation" tar
 		 ((:url . "https://github.com/yt-emacs-ja/emacs-japanese-menu")
-		  (:commit . "3147efe95904eba2e3ddbd2ebf58fb55db007130")
-		  (:revdesc . "3147efe95904")
+		  (:commit . "735f57862271edc750d35117ccaa5875a81ef749")
+		  (:revdesc . "735f57862271")
 		  (:keywords "convenience" "japanese" "menu")
 		  (:authors
 		   ("yt-emacs-ja" . "https://github.com/yt-emacs-ja"))
@@ -62471,15 +62485,15 @@
 		   ("Ilya Chernyshov" . "ichernyshovvv@gmail.com"))
 		  (:maintainer "Ilya Chernyshov" . "ichernyshovvv@gmail.com"))])
  (org-timegrid .
-	       [(0 1 0 1 -4 20261121 621)
+	       [(0 1 0 1 -4 20261123 554)
 		((emacs
 		  (29 1))
 		 (org
 		  (9 6)))
 		"SVG week calendar with mouse and keyboard editing" tar
 		((:url . "https://github.com/Gleek/org-timegrid")
-		 (:commit . "04333960c7a4e304b8c4f27233c99a07aaedfda1")
-		 (:revdesc . "04333960c7a4")
+		 (:commit . "cc42436a206796320a012253eee301de447566e0")
+		 (:revdesc . "cc42436a2067")
 		 (:keywords "calendar" "outlines" "convenience")
 		 (:authors
 		  ("Umar Ahmad" . "Gleek@users.noreply.github.com"))
@@ -66380,15 +66394,15 @@
 			     ("J Irving" . "j@lollyshouse.ca"))
 			    (:maintainer "J Irving" . "j@lollyshouse.ca"))])
  (phony .
-	[(0 1 0 1 -4 20261115 1808)
+	[(0 1 0 1 -4 20261123 206)
 	 ((emacs
 	   (29 1))
 	  (simulacrum
 	   (2 0 0)))
 	 "Define voice commands" tar
 	 ((:url . "https://github.com/ErikPrantare/phony.el")
-	  (:commit . "b2308e779fb398ac93ba61c5898d00843f89dd85")
-	  (:revdesc . "b2308e779fb3")
+	  (:commit . "ac14a68b3a9affa9791c79dc52a961336c318405")
+	  (:revdesc . "ac14a68b3a9a")
 	  (:keywords "convenience")
 	  (:authors
 	   ("Erik Präntare" . "erik@prantare.xyz"))
@@ -76677,13 +76691,13 @@
 	   ("yuya.minami" . "yuya.minami@yuyaminami-no-MacBook-Pro.local"))
 	  (:maintainer "yuya.minami" . "yuya.minami@yuyaminami-no-MacBook-Pro.local"))])
  (sleek-modeline .
-		 [(0 1 0 1 -4 20260720 2336)
+		 [(0 1 0 1 -4 20261122 2329)
 		  ((emacs
-		    (29 1)))
+		    (30 1)))
 		  "Minimal and elegant modeline" tar
 		  ((:url . "https://github.com/abidanBrito/sleek-modeline")
-		   (:commit . "c32ec1d448c5d673f75d0f7f8297dbc7a881d6fc")
-		   (:revdesc . "c32ec1d448c5")
+		   (:commit . "c3936663b72c90a8397293feb4d4d57762eea707")
+		   (:revdesc . "c3936663b72c")
 		   (:keywords "mode-line" "faces")
 		   (:authors
 		    ("Abidán Brito Clavijo" . "abidan.brito@gmail.com"))
@@ -82331,13 +82345,13 @@
 	       ("Aimé Bertrand" . "aime.bertrand@macowners.club"))
 	      (:maintainer "Aimé Bertrand" . "aime.bertrand@macowners.club"))])
  (timu-macos-theme .
-		   [(0 1 0 1 -4 20261105 251)
+		   [(0 1 0 1 -4 20261122 2256)
 		    ((emacs
 		      (27 1)))
 		    "Color theme inspired by the macOS UI" tar
 		    ((:url . "https://gitlab.com/aimebertrand/timu-macos-theme")
-		     (:commit . "dc3adfd413c8178f98e89ee9cca0096456f126b4")
-		     (:revdesc . "dc3adfd413c8")
+		     (:commit . "69600280997cf980a5a0e4a436d821f2b1754ad2")
+		     (:revdesc . "69600280997c")
 		     (:keywords "faces" "themes")
 		     (:authors
 		      ("Aimé Bertrand" . "aime.bertrand@macowners.club"))
@@ -83060,13 +83074,13 @@
 		   ("Matthew Erickson" . "peawee@peawee.net"))
 		  (:maintainer "Matthew Erickson" . "peawee@peawee.net"))])
  (trailing-newline-indicator .
-			     [(0 1 0 1 -4 20261122 2117)
+			     [(0 1 0 1 -4 20261122 2258)
 			      ((emacs
 				(26 1)))
 			      "Show an indicator for the trailing newline" tar
 			      ((:url . "https://github.com/saulotoledo/trailing-newline-indicator")
-			       (:commit . "a09c5639d3d80420668088178e98d15ec6b967c7")
-			       (:revdesc . "a09c5639d3d8")
+			       (:commit . "957ee009d62e158abcfd9dc7335aa17a7fdc5e49")
+			       (:revdesc . "957ee009d62e")
 			       (:keywords "convenience" "display" "editing")
 			       (:authors
 				("Saulo S. de Toledo" . "saulotoledo@gmail.com"))
