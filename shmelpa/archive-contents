@@ -18323,7 +18323,7 @@
 	  ("Katherine Whitlock" . "toroidal-code@gmail.com")
 	  ("Syohei YOSHIDA" . "syohex@gmail.com")))])
  (doom-modeline .
-		[(0 1 0 1 -4 20261122 1615)
+		[(0 1 0 1 -4 20261122 1731)
 		 ((emacs
 		   (25 1))
 		  (compat
@@ -18331,13 +18331,11 @@
 		  (nerd-icons
 		   (0 1 0))
 		  (shrink-path
-		   (0 3 1))
-		  (timeout
-		   (2 1 6)))
+		   (0 3 1)))
 		 "A minimal and modern mode-line" tar
 		 ((:url . "https://github.com/seagle0128/doom-modeline")
-		  (:commit . "36b5fc01292b48963bce38cf04d363bdce04d3cd")
-		  (:revdesc . "36b5fc01292b")
+		  (:commit . "1d53c87fc75b26eb25dbbc65213667586e434d39")
+		  (:revdesc . "1d53c87fc75b")
 		  (:keywords "faces" "mode-line")
 		  (:authors
 		   ("Vincent Zhang" . "seagle0128@gmail.com"))
@@ -23586,6 +23584,20 @@
 	      (:maintainers
 	       ("Johan Andersson" . "johan.rejeep@gmail.com"))
 	      (:maintainer "Johan Andersson" . "johan.rejeep@gmail.com"))])
+ (ert-gwt .
+	  [(0 1 0 1 -4 20261119 1208)
+	   ((emacs
+	     (28 1)))
+	   "GWT-style BDD testing for ERT" tar
+	   ((:url . "https://github.com/OverbearingPearl/ert-gwt")
+	    (:commit . "3687d0fe043c5feb413689ddacf235d5f304f6dd")
+	    (:revdesc . "3687d0fe043c")
+	    (:keywords "lisp" "tools")
+	    (:authors
+	     ("OverbearingPearl" . "OverbearingPearl@outlook.com"))
+	    (:maintainers
+	     ("OverbearingPearl" . "OverbearingPearl@outlook.com"))
+	    (:maintainer "OverbearingPearl" . "OverbearingPearl@outlook.com"))])
  (ert-junit .
 	    [(0 4 1 1 -4 20190802 2232)
 	     ((ert
@@ -31102,7 +31114,7 @@
 		      (:commit . "58096ce1a25615d2bae806c3775bae3e2775019d")
 		      (:revdesc . "58096ce1a256"))])
  (forge .
-	[(0 1 0 1 -4 20261121 2217)
+	[(0 1 0 1 -4 20261121 2254)
 	 ((emacs
 	   (29 1))
 	  (compat
@@ -31127,8 +31139,8 @@
 	   (1 2)))
 	 "Access Git forges from Magit" tar
 	 ((:url . "https://github.com/magit/forge")
-	  (:commit . "285bd18e8ced1ebd5e7dbece233ebfb3747c90d1")
-	  (:revdesc . "285bd18e8ced")
+	  (:commit . "5dc86aa8f9918704d1e217c439d601b45d2b4c12")
+	  (:revdesc . "5dc86aa8f991")
 	  (:keywords "git" "tools" "vc")
 	  (:authors
 	   ("Jonas Bernoulli" . "emacs.forge@jonas.bernoulli.dev"))
@@ -49816,6 +49828,20 @@
 	   (:maintainers
 	    ("Kevin Montag" . "https://github.com/kmontag"))
 	   (:maintainer "Kevin Montag" . "https://github.com/kmontag"))])
+ (macos-notifications .
+		      [(0 1 0 1 -4 20261111 1656)
+		       ((emacs
+			 (28 1)))
+		       "Native macOS notifications with click callbacks" tar
+		       ((:url . "https://github.com/dakra/macos-notifications")
+			(:commit . "9174abbc7ac2afcd99f931c6fdef2066951d047b")
+			(:revdesc . "9174abbc7ac2")
+			(:keywords "notifications" "tools")
+			(:authors
+			 ("Daniel Kraus" . "daniel@kraus.my"))
+			(:maintainers
+			 ("Daniel Kraus" . "daniel@kraus.my"))
+			(:maintainer "Daniel Kraus" . "daniel@kraus.my"))])
  (macports .
 	   [(0 1 0 1 -4 20261011 3)
 	    ((emacs
@@ -54073,13 +54099,13 @@
 		("Mikhail Rudenko" . "mike.rudenko@gmail.com"))
 	       (:maintainer "Mikhail Rudenko" . "mike.rudenko@gmail.com"))])
  (mu4e-autotask .
-		[(0 1 0 1 -4 20261109 1551)
+		[(0 1 0 1 -4 20261122 1331)
 		 ((emacs
 		   (29 1)))
 		 "Email automation for mu4e" tar
 		 ((:url . "https://github.com/laurynas-biveinis/mu4e-autotask")
-		  (:commit . "d3ab4662bcba4f12cc384c1ffa86da21cedfb031")
-		  (:revdesc . "d3ab4662bcba")
+		  (:commit . "67ce827d9ba6ba549c0981c04557b2037642aa46")
+		  (:revdesc . "67ce827d9ba6")
 		  (:keywords "mail")
 		  (:authors
 		   ("Laurynas Biveinis" . "laurynas.biveinis@gmail.com"))
@@ -70026,13 +70052,13 @@
 		("Artem Malyshev" . "proofit404@gmail.com"))
 	       (:maintainer "Artem Malyshev" . "proofit404@gmail.com"))])
  (pyfun-mode .
-	     [(0 1 0 1 -4 20261018 6)
+	     [(0 1 0 1 -4 20261122 1734)
 	      ((emacs
 		(29 1)))
 	      "Major mode for the Pyfun language" tar
 	      ((:url . "https://github.com/simontreanor/Pyfun")
-	       (:commit . "e5a01a201c94603e531eec69439cfca595ecf72c")
-	       (:revdesc . "e5a01a201c94")
+	       (:commit . "3203c8456afbf6b7ba641b0e754aa934ec5df7e9")
+	       (:revdesc . "3203c8456afb")
 	       (:keywords "languages")
 	       (:authors
 		("Simon Treanor" . "https://github.com/simontreanor"))
@@ -83034,13 +83060,13 @@
 		   ("Matthew Erickson" . "peawee@peawee.net"))
 		  (:maintainer "Matthew Erickson" . "peawee@peawee.net"))])
  (trailing-newline-indicator .
-			     [(0 1 0 1 -4 20261122 1702)
+			     [(0 1 0 1 -4 20261122 2117)
 			      ((emacs
 				(26 1)))
 			      "Show an indicator for the trailing newline" tar
 			      ((:url . "https://github.com/saulotoledo/trailing-newline-indicator")
-			       (:commit . "1a57b6a9f27f5ffaf7b18c6deeca3b29abc4e07b")
-			       (:revdesc . "1a57b6a9f27f")
+			       (:commit . "a09c5639d3d80420668088178e98d15ec6b967c7")
+			       (:revdesc . "a09c5639d3d8")
 			       (:keywords "convenience" "display" "editing")
 			       (:authors
 				("Saulo S. de Toledo" . "saulotoledo@gmail.com"))
@@ -89440,6 +89466,24 @@
 	      (:maintainers
 	       ("Nicolás Salas V." . "nikosalas@gmail.com"))
 	      (:maintainer "Nicolás Salas V." . "nikosalas@gmail.com"))])
+ (yas-autoinsert .
+		 [(0 1 0 1 -4 20261121 56)
+		  ((emacs
+		    (25 1))
+		   (yasnippet
+		    (0 8 1)))
+		  "Autoinsert trigger for YASnippet" tar
+		  ((:url . "https://gitlab.com/rchastel1/yas-autoinsert")
+		   (:commit . "455d7b52c006ba12dd21f74a07da343a8655d483")
+		   (:revdesc . "455d7b52c006")
+		   (:keywords "editing" "files" "convenience")
+		   (:authors
+		    ("Wieland Hoffmann" . "themineo+yatemplate@gmail.com")
+		    ("Piknik" . "https://github.com/piknik")
+		    ("Romain Châtel" . "rchastel@protonmail.com"))
+		   (:maintainers
+		    ("Romain Châtel" . "rchastel@protonmail.com"))
+		   (:maintainer "Romain Châtel" . "rchastel@protonmail.com"))])
  (yascroll .
 	   [(0 1 0 1 -4 20260103 1801)
 	    ((emacs
