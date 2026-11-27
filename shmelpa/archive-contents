@@ -10775,15 +10775,15 @@
 		("Mekeor Melire" . "mekeor@posteo.de"))
 	       (:maintainer "Mekeor Melire" . "mekeor@posteo.de"))])
  (company .
-	  [(0 1 0 1 -4 20261126 1337)
+	  [(0 1 0 1 -4 20261127 48)
 	   ((emacs
 	     (26 1))
 	    (posframe
 	     (1 5 1)))
 	   "Modular text completion framework" tar
 	   ((:url . "http://company-mode.github.io/")
-	    (:commit . "194eabe9ee43e4b1911dd842070cb50e4a67d741")
-	    (:revdesc . "194eabe9ee43")
+	    (:commit . "db7f60efdf8364e66161cb8a8ea9bb703ab37247")
+	    (:revdesc . "db7f60efdf83")
 	    (:keywords "abbrev" "convenience" "matching")
 	    (:maintainers
 	     ("Dmitry Gutov" . "dmitry@gutov.dev"))
@@ -20844,13 +20844,13 @@
 	   ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
 	  (:maintainer "Paul Pogonyshev" . "pogonyshev@gmail.com"))])
  (eldoc-box .
-	    [(0 1 0 1 -4 20260903 1246)
+	    [(0 1 0 1 -4 20261126 2136)
 	     ((emacs
 	       (27 1)))
 	     "Display documentation in childframe" tar
 	     ((:url . "https://github.com/casouri/eldoc-box")
-	      (:commit . "89900de72dca291d5914ffc5da701b3170704229")
-	      (:revdesc . "89900de72dca")
+	      (:commit . "67dba0862dd1fc3effe8230e13fc0c407876bf6d")
+	      (:revdesc . "67dba0862dd1")
 	      (:authors
 	       ("Yuan Fu" . "casouri@gmail.com"))
 	      (:maintainers
@@ -26284,14 +26284,14 @@
 		   ("Ahmad Nazir Raja" . "ahmadnazir@gmail.com"))
 		  (:maintainer "Ahmad Nazir Raja" . "ahmadnazir@gmail.com"))])
  (extempore-mode .
-		 [(0 1 0 1 -4 20261125 1304)
+		 [(0 1 0 1 -4 20261127 106)
 		  ((emacs
-		    (27 1)))
-		  "Emacs major mode for Extempore source files" tar
+		    (29 1)))
+		  "Major mode for Extempore source files" tar
 		  ((:url . "https://github.com/extemporelang/extempore-emacs-mode")
-		   (:commit . "02edd4b0748dec83ba14ac11c53f8c9ccb1ca3b5")
-		   (:revdesc . "02edd4b0748d")
-		   (:keywords "extempore")
+		   (:commit . "a4d175d5e226b1d4f6534b194b11a45f58bf1103")
+		   (:revdesc . "a4d175d5e226")
+		   (:keywords "languages" "lisp" "extempore")
 		   (:authors
 		    ("Ben Swift" . "ben@benswift.me"))
 		   (:maintainers
@@ -48952,7 +48952,7 @@
 	      ("0x60DF" . "0x60df@gmail.com"))
 	     (:maintainer "0x60DF" . "0x60df@gmail.com"))])
  (loopy .
-	[(0 1 0 1 -4 20261105 136)
+	[(0 1 0 1 -4 20261127 43)
 	 ((emacs
 	   (28 1))
 	  (map
@@ -48965,8 +48965,8 @@
 	   (2 4 0)))
 	 "A looping macro" tar
 	 ((:url . "https://codeberg.org/okamsn/loopy")
-	  (:commit . "b75089cdf0a7b004b44ea703d80c47ac821b2635")
-	  (:revdesc . "b75089cdf0a7")
+	  (:commit . "abcc79836e1389708ee2772f18d38b1a60d0a122")
+	  (:revdesc . "abcc79836e13")
 	  (:keywords "extensions"))])
  (loopy-dash .
 	     [(0 1 0 1 -4 20260627 112)
@@ -50196,6 +50196,24 @@
 		   (:maintainers
 		    ("Yann Hodique" . "yann.hodique@gmail.com"))
 		   (:maintainer "Yann Hodique" . "yann.hodique@gmail.com"))])
+ (magit-gha-badge .
+		  [(0 1 0 1 -4 20261125 48)
+		   ((emacs
+		     (29 1))
+		    (magit
+		     (4 0 0))
+		    (ghub
+		     (4 0 0)))
+		   "GitHub Actions status badge in the magit status buffer" tar
+		   ((:url . "https://github.com/agzam/magit-gha-badge.el")
+		    (:commit . "0618e8f2f6c29b524803294cd366001ba7708176")
+		    (:revdesc . "0618e8f2f6c2")
+		    (:keywords "vc" "tools")
+		    (:authors
+		     ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
+		    (:maintainers
+		     ("Ag Ibragimov" . "agzam.ibragimov@gmail.com"))
+		    (:maintainer "Ag Ibragimov" . "agzam.ibragimov@gmail.com"))])
  (magit-git-toolbelt .
 		     [(0 1 0 1 -4 20260202 325)
 		      ((emacs
